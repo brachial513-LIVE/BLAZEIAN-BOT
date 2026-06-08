@@ -5,7 +5,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("BlazeianBot läuft 🚀");
+  res.json({
+    status: "online",
+    clientId: process.env.BLAZE_CLIENT_ID ? "gefunden" : "fehlt",
+    clientSecret: process.env.BLAZE_CLIENT_SECRET ? "gefunden" : "fehlt"
+  });
 });
 
 app.listen(PORT, () => {
