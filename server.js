@@ -4,19 +4,26 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-const CLIENT_ID = process.env.BLAZE_CLIENT_ID;
-
 app.get("/", (req, res) => {
   res.send(`
     <h1>BlazeianBot</h1>
-    <a href="/login">Mit Blaze anmelden</a>
+    <p>Bot ist online.</p>
+    <a href="/login">Mit Blaze verbinden</a>
   `);
 });
 
 app.get("/login", (req, res) => {
+  res.send("OAuth kommt als nächstes.");
+});
+
+app.get("/callback", (req, res) => {
+  const code = req.query.code;
+  const state = req.query.state;
+
   res.json({
-    status: "oauth-test",
-    clientId: CLIENT_ID ? "gefunden" : "fehlt"
+    success: true,
+    code: code || null,
+    state: state || null
   });
 });
 
