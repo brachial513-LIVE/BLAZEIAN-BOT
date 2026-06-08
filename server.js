@@ -1,116 +1,25 @@
 const express = require("express");
-const axios = require("axios");
 
 const app = express();
-
 const PORT = process.env.PORT || 3000;
 
-const CLIENT_ID = process.env.BLAZE_CLIENT_ID;
-const CLIENT_SECRET = process.env.BLAZE_CLIENT_SECRET;
-const REDIRECT_URI = "https://blazeian-bot.onrender.com/callback";
-
-// Startseite
 app.get("/", (req, res) => {
-  res.send(`
-    <h1>BlazeianBot</h1>
-    <a href="/login">Mit Blaze verbinden</a>
-  `);
+  res.send("BlazeianBot läuft wieder stabil ✅");
 });
 
-// OAuth Start
-app.get("/login", async (req, res) => {
-  try {
-    const response = await axios.post(
-      "https://blaze.stream/bapi/oauth2/generate-auth-url",
-      {
-        clientId: CLIENT_ID,
-        clientSecret: CLIENT_SECRET,
-        redirectUri: REDIRECT_URI,
-        scopes: [
-          "users.read",
-          "offline.access",
-          "channel.moderate",
-          "users.bot"
-        ]
-      }
-    );
-
-    console.log("AUTH RESPONSE:", response.data);
-
-    const { url, state, codeVerifier } = response.data;
-
-    // WICHTIG: erstmal nur testen
-    return res.redirect(url);
-
-  } catch (err) {
-    console.error("LOGIN ERROR:", err.response?.data || err.message);
-    return res.send("Fehler beim OAuth Start (siehe Render Logs)");
-  }
-});
-  try {
-    const response = await axios.post(
-      "https://blaze.stream/bapi/oauth2/generate-auth-url",
-      {
-        clientId: CLIENT_ID,
-        clientSecret: CLIENT_SECRET,
-        redirectUri: REDIRECT_URI,
-        scopes: [
-          "users.read",
-          "offline.access",
-          "channel.moderate",
-          "users.bot"
-        ]
-      }
-    );
-
-    const url = response.data.url;
-
-    // User direkt zu Blaze weiterleiten
-    res.redirect(url);
-
-  } catch (err) {
-    console.error(err.response?.data || err.message);
-    res.send("Fehler beim OAuth Start");
-  }
+app.get("/login", (req, res) => {
+  res.send("OAuth wird gleich wieder eingebaut.");
 });
 
-// Callback nach Login
-app.get("/callback", async (req, res) => {
-  const { code } = req.query;
-
-  if (!code) {
-    return res.send("Kein Code erhalten");
-  }
-
-  try {
-    const tokenResponse = await axios.post(
-      "https://blaze.stream/bapi/oauth2/token",
-      {
-        clientId: CLIENT_ID,
-        clientSecret: CLIENT_SECRET,
-        code: code,
-        codeVerifier: "TEMP", // später ersetzen
-        redirectUri: REDIRECT_URI,
-        grantType: "authorization_code"
-      }
-    );
-
-    const tokenData = tokenResponse.data;
-
-    res.json({
-      success: true,
-      message: "OAuth erfolgreich!",
-      accessToken: tokenData.accessToken,
-      userId: tokenData.userId,
-      scopes: tokenData.scopes
-    });
-
-  } catch (err) {
-    console.error(err.response?.data || err.message);
-    res.send("Token Austausch fehlgeschlagen");
-  }
+app.get("/callback", (req, res) => {
+  res.json({
+    ok: true,
+    message: "Callback aktiv",
+    code: req.query.code || null,
+    state: req.query.state || null
+  });
 });
 
 app.listen(PORT, () => {
-  console.log(`Server läuft auf Port ${PORT}`);
+  console.log("Server läuft auf Port", PORT);
 });
