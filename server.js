@@ -35,6 +35,34 @@ app.get("/login", async (req, res) => {
       }
     );
 
+    console.log("AUTH RESPONSE:", response.data);
+
+    const { url, state, codeVerifier } = response.data;
+
+    // WICHTIG: erstmal nur testen
+    return res.redirect(url);
+
+  } catch (err) {
+    console.error("LOGIN ERROR:", err.response?.data || err.message);
+    return res.send("Fehler beim OAuth Start (siehe Render Logs)");
+  }
+});
+  try {
+    const response = await axios.post(
+      "https://blaze.stream/bapi/oauth2/generate-auth-url",
+      {
+        clientId: CLIENT_ID,
+        clientSecret: CLIENT_SECRET,
+        redirectUri: REDIRECT_URI,
+        scopes: [
+          "users.read",
+          "offline.access",
+          "channel.moderate",
+          "users.bot"
+        ]
+      }
+    );
+
     const url = response.data.url;
 
     // User direkt zu Blaze weiterleiten
