@@ -20,6 +20,14 @@ app.get("/login", async (req, res) => {
     );
 
     return res.redirect(response.data.url);
+
+  } catch (e) {
+    console.log("ERROR:", e.response?.data || e.message);
+    return res.send("OAuth error");
+  }
+});
+
+    return res.redirect(response.data.url);
   } catch (e) {
     return res.send("OAuth error");
   }
