@@ -7,8 +7,22 @@ app.get("/", (req, res) => {
   res.send("BlazeianBot läuft wieder stabil ✅");
 });
 
-app.get("/login", (req, res) => {
-  res.send("OAuth wird gleich wieder eingebaut.");
+app.get("/login", async (req, res) => {
+  try {
+    const response = await axios.post(
+      "https://blaze.stream/bapi/oauth2/generate-auth-url",
+      {
+        clientId: process.env.BLAZE_CLIENT_ID,
+        clientSecret: process.env.BLAZE_CLIENT_SECRET,
+        redirectUri: "https://blazeian-bot.onrender.com/callback",
+        scopes: ["users.read"]
+      }
+    );
+
+    return res.redirect(response.data.url);
+  } catch (e) {
+    return res.send("OAuth error");
+  }
 });
 
 app.get("/callback", (req, res) => {
