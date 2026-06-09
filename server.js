@@ -1,10 +1,12 @@
 const express = require("express");
+const axios = require("axios");
 
 const app = express();
+
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("BlazeianBot läuft wieder stabil ✅");
+  res.send("BlazeianBot läuft ✅");
 });
 
 app.get("/login", async (req, res) => {
@@ -22,13 +24,7 @@ app.get("/login", async (req, res) => {
     return res.redirect(response.data.url);
 
   } catch (e) {
-    console.log("ERROR:", e.response?.data || e.message);
-    return res.send("OAuth error");
-  }
-});
-
-    return res.redirect(response.data.url);
-  } catch (e) {
+    console.log("LOGIN ERROR:", e.response?.data || e.message);
     return res.send("OAuth error");
   }
 });
@@ -36,7 +32,6 @@ app.get("/login", async (req, res) => {
 app.get("/callback", (req, res) => {
   res.json({
     ok: true,
-    message: "Callback aktiv",
     code: req.query.code || null,
     state: req.query.state || null
   });
