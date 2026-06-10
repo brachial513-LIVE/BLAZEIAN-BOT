@@ -17,7 +17,7 @@ app.get("/login", async (req, res) => {
         clientId: process.env.BLAZE_CLIENT_ID,
         clientSecret: process.env.BLAZE_CLIENT_SECRET,
         redirectUri: "https://blazeian-bot.onrender.com/callback",
-        scopes: ["users.read"]
+        scopes: ["users.read", "channel.moderate"]
       }
     );
 
