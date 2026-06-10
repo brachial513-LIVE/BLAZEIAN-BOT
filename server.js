@@ -56,6 +56,28 @@ app.get("/callback", async (req, res) => {
   }
 });
 
+app.get("/profile", async (req, res) => {
+  try {
+    const response = await axios.get(
+      "https://api.blaze.stream/v1/users/achievement-stats",
+      {
+        headers: {
+          authorization: `Bearer ${process.env.BLAZE_ACCESS_TOKEN}`,
+          "client-id": process.env.BLAZE_CLIENT_ID
+        }
+      }
+    );
+
+    res.json(response.data);
+
+  } catch (e) {
+    res.json({
+      error: true,
+      details: e.response?.data || e.message
+    });
+  }
+});
+
 app.listen(PORT, () => {
   console.log("Server läuft auf Port", PORT);
 });
