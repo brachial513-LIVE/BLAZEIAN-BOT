@@ -24,9 +24,11 @@ app.get("/login", async (req, res) => {
     return res.redirect(response.data.url);
 
   } catch (e) {
-    console.log("LOGIN ERROR:", e.response?.data || e.message);
-    return res.send("OAuth error");
-  }
+  return res.json({
+    error: true,
+    details: e.response?.data || e.message
+  });
+}
 });
 
 app.get("/callback", (req, res) => {
