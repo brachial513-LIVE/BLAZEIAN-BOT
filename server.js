@@ -28,6 +28,24 @@ socket.on("eventsub", (message) => {
     return;
   }
 
+  // ===============================
+  // 💬 CHAT MESSAGE HANDLER
+  // ===============================
+  if (metadata.subscriptionType === "channel.chat.message") {
+    const user = payload.sender.username;
+    const msg = payload.message;
+
+    console.log(`${user}: ${msg}`);
+
+    // TEST LOGIC
+    if (msg.toLowerCase().includes("hi")) {
+      console.log("👉 Bot würde antworten: Hallo 👋");
+    }
+
+    return;
+  }
+
+  // fallback: alles andere loggen
   console.log("EVENT:");
   console.log(JSON.stringify(message, null, 2));
 });
