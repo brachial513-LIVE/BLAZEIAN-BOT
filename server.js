@@ -5,12 +5,27 @@ const { io } = require("socket.io-client");
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-const socket = io("https://blaze.stream/ws", {
+
+const socket = io("https://blaze.stream", {
+  path: "/ws",
   transports: ["websocket"]
 });
 
-socket.on("session_welcome", ({ sessionId }) => {
-  console.log("SOCKET SESSION:", sessionId);
+socket.on("eventsub", (message) => {
+
+  const { metadata, payload } = message;
+
+  if (metadata.messageType === "session_welcome") {
+
+    console.log("SESSION ID:");
+    console.log(payload.sessionId);
+
+    return;
+  }
+
+  console.log("EVENT:");
+  console.log(JSON.stringify(message, null, 2));
+
 });
 
 socket.on("connect", () => {
@@ -20,6 +35,7 @@ socket.on("connect", () => {
 socket.on("connect_error", (err) => {
   console.log("Socket Fehler:", err.message);
 });
+
 app.get("/", (req, res) => {
   res.send("BlazeianBot läuft ✅");
 });
