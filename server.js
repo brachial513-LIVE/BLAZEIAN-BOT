@@ -6,6 +6,24 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // ===============================
+// MEMORY (letzte Chatnachrichten)
+// ===============================
+const chatMemory = [];
+
+// ===============================
+// SPRACHE ERKENNUNG
+// ===============================
+function detectLanguage(text = "") {
+  const t = text.toLowerCase();
+
+  if (/[äöüß]/.test(t) || t.includes("hallo") || t.includes("wie geht")) return "de";
+  if (t.includes("hola") || t.includes("gracias") || t.includes("cómo")) return "es";
+  if (t.includes("bonjour") || t.includes("merci")) return "fr";
+
+  return "en"; // default
+}
+
+// ===============================
 // SOCKET SETUP
 // ===============================
 const socket = io("https://blaze.stream", {
@@ -24,9 +42,7 @@ async function subscribe(type, channelId) {
         type,
         version: "1",
         sessionId: global.SESSION_ID,
-        condition: {
-          channelId
-        }
+        condition: { channelId }
       },
       {
         headers: {
@@ -45,136 +61,93 @@ async function subscribe(type, channelId) {
 // ===============================
 // EVENT HANDLER
 // ===============================
-socket.on("eventsub", (message) => {
+socket.on("eventsub", async (message) => {
   const { metadata, payload } = message;
 
-  // SESSION WELCOME
+  // -------------------------------
+  // SESSION START
+  // -------------------------------
   if (metadata.messageType === "session_welcome") {
-    const sessionId = payload.sessionId;
+    global.SESSION_ID = payload.sessionId;
 
-    console.log("SESSION ID:", sessionId);
+    console.log("SESSION ID:", global.SESSION_ID);
 
-    global.SESSION_ID = sessionId;
-
-    // ✅ NUR EINMAL nach Session verbinden
     setTimeout(() => {
       subscribe("channel.chat.message", "514160a7-fd05-4d7b-9932-a0143aa40d1c");
-      subscribe("channel.follow", "514160a7-fd05-4d7b-9932-a0143aa40d1c");
     }, 2000);
 
     return;
   }
 
-  // 💬 CHAT MESSAGE
+  // -------------------------------
+  // CHAT MESSAGE
+  // -------------------------------
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender.username;
     const msg = payload.message;
 
     console.log(`${user}: ${msg}`);
 
+    // Memory speichern
+    chatMemory.push({ user, msg });
+    if (chatMemory.length > 10) chatMemory.shift();
+
+    const lang = detectLanguage(msg);
+
+    // -----------------------
+    // COMMAND: !translate
+    // -----------------------
+    if (msg.toLowerCase().startsWith("!translate")) {
+      const lastMessages = chatMemory.slice(-3);
+
+      let textToSend = lastMessages
+        .map(m => `${m.user}: ${m.msg}`)
+        .join("\n");
+
+      console.log("TRANSLATE REQUEST →", lang);
+
+      await sendChat(
+        `🌍 Translation (${lang}):\n\n${textToSend}`,
+        lang
+      );
+
+      return;
+    }
+
+    // -----------------------
+    // DIRECT MENTION / GREETING LOGIC
+    // -----------------------
     if (msg.toLowerCase().includes("hi")) {
-      console.log("👉 Bot würde antworten: Hallo 👋");
+      await sendChat(
+        lang === "de"
+          ? "Hallo 👋"
+          : lang === "es"
+          ? "¡Hola 👋"
+          : "Hello 👋",
+        lang
+      );
     }
 
     return;
   }
 
-  // fallback
   console.log("EVENT:");
   console.log(JSON.stringify(message, null, 2));
 });
 
-socket.on("connect", () => {
-  console.log("Socket verbunden");
-});
-
-socket.on("connect_error", (err) => {
-  console.log("Socket Fehler:", err.message);
-});
+socket.on("connect", () => console.log("Socket verbunden"));
+socket.on("connect_error", err => console.log("Socket Fehler:", err.message));
 
 // ===============================
-// ROUTES
+// SEND CHAT FUNCTION
 // ===============================
-app.get("/", (req, res) => {
-  res.send("BlazeianBot läuft ✅");
-});
-
-app.get("/login", async (req, res) => {
+async function sendChat(message, lang = "en") {
   try {
-    const response = await axios.post(
-      "https://blaze.stream/bapi/oauth2/generate-auth-url",
-      {
-        clientId: process.env.BLAZE_CLIENT_ID,
-        clientSecret: process.env.BLAZE_CLIENT_SECRET,
-        redirectUri: "https://blazeian-bot.onrender.com/callback",
-        scopes: ["users.read", "channel.moderate"]
-      }
-    );
-
-    process.env.CODE_VERIFIER = response.data.codeVerifier;
-    return res.redirect(response.data.url);
-
-  } catch (e) {
-    return res.json({
-      error: true,
-      details: e.response?.data || e.message
-    });
-  }
-});
-
-app.get("/callback", async (req, res) => {
-  try {
-    const tokenResponse = await axios.post(
-      "https://blaze.stream/bapi/oauth2/token",
-      {
-        clientId: process.env.BLAZE_CLIENT_ID,
-        clientSecret: process.env.BLAZE_CLIENT_SECRET,
-        code: req.query.code,
-        codeVerifier: process.env.CODE_VERIFIER,
-        redirectUri: "https://blazeian-bot.onrender.com/callback",
-        grantType: "authorization_code"
-      }
-    );
-
-    res.json(tokenResponse.data);
-
-  } catch (e) {
-    res.json({
-      error: true,
-      details: e.response?.data || e.message
-    });
-  }
-});
-
-app.get("/profile", async (req, res) => {
-  try {
-    const response = await axios.get(
-      "https://api.blaze.stream/v1/users/achievement-stats",
-      {
-        headers: {
-          authorization: `Bearer ${process.env.BLAZE_ACCESS_TOKEN}`,
-          "client-id": process.env.BLAZE_CLIENT_ID
-        }
-      }
-    );
-
-    res.json(response.data);
-
-  } catch (e) {
-    res.json({
-      error: true,
-      details: e.response?.data || e.message
-    });
-  }
-});
-
-app.get("/sendtest", async (req, res) => {
-  try {
-    const response = await axios.post(
+    await axios.post(
       "https://api.blaze.stream/v1/chats/messages",
       {
         channelId: "514160a7-fd05-4d7b-9932-a0143aa40d1c",
-        message: "BlazeianBot ist online 🚀"
+        message
       },
       {
         headers: {
@@ -184,14 +157,17 @@ app.get("/sendtest", async (req, res) => {
       }
     );
 
-    res.json(response.data);
-
+    console.log(`Bot (${lang}):`, message);
   } catch (e) {
-    res.json({
-      error: true,
-      details: e.response?.data || e.message
-    });
+    console.log("Send error:", e.response?.data || e.message);
   }
+}
+
+// ===============================
+// ROUTES
+// ===============================
+app.get("/", (req, res) => {
+  res.send("BlazeianBot läuft ✅");
 });
 
 // ===============================
