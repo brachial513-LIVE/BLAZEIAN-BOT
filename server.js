@@ -78,6 +78,32 @@ app.get("/profile", async (req, res) => {
   }
 });
 
+app.get("/sendtest", async (req, res) => {
+  try {
+    const response = await axios.post(
+      "https://api.blaze.stream/v1/chats/messages",
+      {
+        channelId: "514160a7-fd05-4d7b-9932-a0143aa40d1c",
+        message: "BlazeianBot ist online 🚀"
+      },
+      {
+        headers: {
+          authorization: `Bearer ${process.env.BLAZE_ACCESS_TOKEN}`,
+          "client-id": process.env.BLAZE_CLIENT_ID
+        }
+      }
+    );
+
+    res.json(response.data);
+
+  } catch (e) {
+    res.json({
+      error: true,
+      details: e.response?.data || e.message
+    });
+  }
+});
+
 app.listen(PORT, () => {
   console.log("Server läuft auf Port", PORT);
 });
