@@ -92,9 +92,9 @@ async function sendChat(message) {
 socket.on("eventsub", async (message) => {
   const { metadata, payload } = message;
 
-  // -------------------------------
+  // ===============================
   // SESSION START
-  // -------------------------------
+  // ===============================
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
 
@@ -102,21 +102,20 @@ socket.on("eventsub", async (message) => {
 
     setTimeout(() => {
       subscribe("channel.chat.message", "514160a7-fd05-4d7b-9932-a0143aa40d1c");
+      subscribe("channel.follow", "514160a7-fd05-4d7b-9932-a0143aa40d1c");
     }, 2000);
 
     return;
   }
 
-  // -------------------------------
+  // ===============================
   // CHAT MESSAGE
-  // -------------------------------
+  // ===============================
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender?.username;
-
-    // Safety: missing user
     if (!user) return;
 
-    // ❗ SELF-LOOP FIX
+    // Self-loop fix
     if (user.toLowerCase() === BOT_NAME.toLowerCase()) return;
 
     const msg =
@@ -128,15 +127,23 @@ socket.on("eventsub", async (message) => {
 
     console.log(`${user}: ${msg}`);
 
-    // MEMORY
+    // Memory
     chatMemory.push({ user, msg });
     if (chatMemory.length > 10) chatMemory.shift();
 
     const lang = detectLanguage(msg);
 
-    // -----------------------
+    // ===============================
+    // !join (FIX — DAS FEHLTE BEI DIR)
+    // ===============================
+    if (msg.toLowerCase() === "!join") {
+      await sendChat("👋 I’m already in the chat!");
+      return;
+    }
+
+    // ===============================
     // !translate
-    // -----------------------
+    // ===============================
     if (msg.toLowerCase().startsWith("!translate")) {
       const last = chatMemory.slice(-3);
 
@@ -148,9 +155,9 @@ socket.on("eventsub", async (message) => {
       return;
     }
 
-    // -----------------------
+    // ===============================
     // GREETING
-    // -----------------------
+    // ===============================
     if (msg.toLowerCase().includes("hi")) {
       const reply =
         lang === "de"
