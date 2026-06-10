@@ -21,7 +21,7 @@ app.get("/login", async (req, res) => {
       }
     );
 
-    return res.json(response.data);
+    return res.redirect(response.data.url);
 
   } catch (e) {
   return res.json({
