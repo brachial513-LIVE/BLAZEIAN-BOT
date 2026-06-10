@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 // ===============================
 const chatMemory = [];
 
-// Bot Username (WICHTIG gegen Self-Loop)
+// Bot Username (gegen Self-Loop)
 const BOT_NAME = "blazeian_bot";
 
 // ===============================
@@ -79,6 +79,8 @@ async function sendChat(message) {
         }
       }
     );
+
+    console.log("Bot:", message);
   } catch (e) {
     console.log("Send error:", e.response?.data || e.message);
   }
@@ -109,15 +111,20 @@ socket.on("eventsub", async (message) => {
   // CHAT MESSAGE
   // -------------------------------
   if (metadata.subscriptionType === "channel.chat.message") {
-    const user = payload.sender.username;
+    const user = payload.sender?.username;
+
+    // Safety: missing user
+    if (!user) return;
 
     // ❗ SELF-LOOP FIX
-    if (user === BOT_NAME) return;
+    if (user.toLowerCase() === BOT_NAME.toLowerCase()) return;
 
     const msg =
       typeof payload.message === "string"
         ? payload.message
         : payload.message?.text || "";
+
+    if (!msg) return;
 
     console.log(`${user}: ${msg}`);
 
