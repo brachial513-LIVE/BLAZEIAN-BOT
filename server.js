@@ -20,7 +20,7 @@ function detectLanguage(text = "") {
   if (t.includes("hola") || t.includes("gracias") || t.includes("cómo")) return "es";
   if (t.includes("bonjour") || t.includes("merci")) return "fr";
 
-  return "en"; // default
+  return "en";
 }
 
 // ===============================
@@ -59,6 +59,29 @@ async function subscribe(type, channelId) {
 }
 
 // ===============================
+// SEND CHAT
+// ===============================
+async function sendChat(message) {
+  try {
+    await axios.post(
+      "https://api.blaze.stream/v1/chats/messages",
+      {
+        channelId: "514160a7-fd05-4d7b-9932-a0143aa40d1c",
+        message
+      },
+      {
+        headers: {
+          authorization: `Bearer ${process.env.BLAZE_ACCESS_TOKEN}`,
+          "client-id": process.env.BLAZE_CLIENT_ID
+        }
+      }
+    );
+  } catch (e) {
+    console.log("Send error:", e.response?.data || e.message);
+  }
+}
+
+// ===============================
 // EVENT HANDLER
 // ===============================
 socket.on("eventsub", async (message) => {
@@ -88,44 +111,41 @@ socket.on("eventsub", async (message) => {
 
     console.log(`${user}: ${msg}`);
 
-    // Memory speichern
+    // memory speichern
     chatMemory.push({ user, msg });
     if (chatMemory.length > 10) chatMemory.shift();
 
     const lang = detectLanguage(msg);
 
     // -----------------------
-    // COMMAND: !translate
+    // !translate (SIMPEL VERSION)
     // -----------------------
     if (msg.toLowerCase().startsWith("!translate")) {
-      const lastMessages = chatMemory.slice(-3);
+      const last = chatMemory.slice(-3);
 
-      let textToSend = lastMessages
+      const text = last
         .map(m => `${m.user}: ${m.msg}`)
         .join("\n");
 
-      console.log("TRANSLATE REQUEST →", lang);
-
-      await sendChat(
-        `🌍 Translation (${lang}):\n\n${textToSend}`,
-        lang
-      );
-
+      await sendChat(`🌍 Last messages:\n\n${text}`);
       return;
     }
 
     // -----------------------
-    // DIRECT MENTION / GREETING LOGIC
+    // HI RESPONSE
     // -----------------------
     if (msg.toLowerCase().includes("hi")) {
-      await sendChat(
+      const reply =
         lang === "de"
           ? "Hallo 👋"
           : lang === "es"
           ? "¡Hola 👋"
-          : "Hello 👋",
-        lang
-      );
+          : lang === "fr"
+          ? "Salut 👋"
+          : "Hello 👋";
+
+      await sendChat(reply);
+      return;
     }
 
     return;
@@ -135,33 +155,11 @@ socket.on("eventsub", async (message) => {
   console.log(JSON.stringify(message, null, 2));
 });
 
+// ===============================
+// SOCKET EVENTS
+// ===============================
 socket.on("connect", () => console.log("Socket verbunden"));
 socket.on("connect_error", err => console.log("Socket Fehler:", err.message));
-
-// ===============================
-// SEND CHAT FUNCTION
-// ===============================
-async function sendChat(message, lang = "en") {
-  try {
-    await axios.post(
-      "https://api.blaze.stream/v1/chats/messages",
-      {
-        channelId: "514160a7-fd05-4d7b-9932-a0143aa40d1c",
-        message
-      },
-      {
-        headers: {
-          authorization: `Bearer ${process.env.BLAZE_ACCESS_TOKEN}`,
-          "client-id": process.env.BLAZE_CLIENT_ID
-        }
-      }
-    );
-
-    console.log(`Bot (${lang}):`, message);
-  } catch (e) {
-    console.log("Send error:", e.response?.data || e.message);
-  }
-}
 
 // ===============================
 // ROUTES
