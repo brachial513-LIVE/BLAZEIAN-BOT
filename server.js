@@ -32,12 +32,28 @@ return res.redirect(response.data.url);
 }
 });
 
-app.get("/callback", (req, res) => {
-  res.json({
-    ok: true,
-    code: req.query.code || null,
-    state: req.query.state || null
-  });
+app.get("/callback", async (req, res) => {
+  try {
+    const tokenResponse = await axios.post(
+      "https://blaze.stream/bapi/oauth2/token",
+      {
+        clientId: process.env.BLAZE_CLIENT_ID,
+        clientSecret: process.env.BLAZE_CLIENT_SECRET,
+        code: req.query.code,
+        codeVerifier: process.env.CODE_VERIFIER,
+        redirectUri: "https://blazeian-bot.onrender.com/callback",
+        grantType: "authorization_code"
+      }
+    );
+
+    res.json(tokenResponse.data);
+
+  } catch (e) {
+    res.json({
+      error: true,
+      details: e.response?.data || e.message
+    });
+  }
 });
 
 app.listen(PORT, () => {
