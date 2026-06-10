@@ -10,6 +10,9 @@ const PORT = process.env.PORT || 3000;
 // ===============================
 const chatMemory = [];
 
+// Bot Username (WICHTIG gegen Self-Loop)
+const BOT_NAME = "blazeian_bot";
+
 // ===============================
 // SPRACHE ERKENNUNG
 // ===============================
@@ -36,7 +39,7 @@ const socket = io("https://blaze.stream", {
 // ===============================
 async function subscribe(type, channelId) {
   try {
-    const res = await axios.post(
+    await axios.post(
       "https://api.blaze.stream/v1/events/subscriptions",
       {
         type,
@@ -107,18 +110,25 @@ socket.on("eventsub", async (message) => {
   // -------------------------------
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender.username;
-    const msg = payload.message;
+
+    // ❗ SELF-LOOP FIX
+    if (user === BOT_NAME) return;
+
+    const msg =
+      typeof payload.message === "string"
+        ? payload.message
+        : payload.message?.text || "";
 
     console.log(`${user}: ${msg}`);
 
-    // memory speichern
+    // MEMORY
     chatMemory.push({ user, msg });
     if (chatMemory.length > 10) chatMemory.shift();
 
     const lang = detectLanguage(msg);
 
     // -----------------------
-    // !translate (SIMPEL VERSION)
+    // !translate
     // -----------------------
     if (msg.toLowerCase().startsWith("!translate")) {
       const last = chatMemory.slice(-3);
@@ -127,12 +137,12 @@ socket.on("eventsub", async (message) => {
         .map(m => `${m.user}: ${m.msg}`)
         .join("\n");
 
-      await sendChat(`🌍 Last messages:\n\n${text}`);
+      await sendChat(`🌍 Last 3 messages:\n\n${text}`);
       return;
     }
 
     // -----------------------
-    // HI RESPONSE
+    // GREETING
     // -----------------------
     if (msg.toLowerCase().includes("hi")) {
       const reply =
@@ -156,7 +166,7 @@ socket.on("eventsub", async (message) => {
 });
 
 // ===============================
-// SOCKET EVENTS
+// SOCKET STATUS
 // ===============================
 socket.on("connect", () => console.log("Socket verbunden"));
 socket.on("connect_error", err => console.log("Socket Fehler:", err.message));
