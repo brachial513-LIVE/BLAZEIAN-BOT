@@ -6,15 +6,15 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // ===============================
-// MEMORY (letzte Chatnachrichten)
+// MEMORY
 // ===============================
 const chatMemory = [];
 
-// Bot Username (gegen Self-Loop)
+// Bot Name
 const BOT_NAME = "blazeian_bot";
 
 // ===============================
-// SPRACHE ERKENNUNG
+// LANGUAGE DETECTION
 // ===============================
 function detectLanguage(text = "") {
   const t = text.toLowerCase();
@@ -27,7 +27,7 @@ function detectLanguage(text = "") {
 }
 
 // ===============================
-// SOCKET SETUP
+// SOCKET
 // ===============================
 const socket = io("https://blaze.stream", {
   path: "/ws",
@@ -35,7 +35,7 @@ const socket = io("https://blaze.stream", {
 });
 
 // ===============================
-// SUBSCRIBE FUNCTION
+// SUBSCRIBE
 // ===============================
 async function subscribe(type, channelId) {
   try {
@@ -80,7 +80,7 @@ async function sendChat(message) {
       }
     );
 
-    console.log("Bot:", message);
+    console.log("BOT:", message);
   } catch (e) {
     console.log("Send error:", e.response?.data || e.message);
   }
@@ -98,7 +98,10 @@ socket.on("eventsub", async (message) => {
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
 
-    console.log("SESSION ID:", global.SESSION_ID);
+    console.log("SESSION READY:", global.SESSION_ID);
+
+    // 👉 EINMALIGER START MESSAGE (WIE DU ES WOLLTEST)
+    await sendChat("🤖 BlazeianBot is now online and ready in your chat!");
 
     setTimeout(() => {
       subscribe("channel.chat.message", "514160a7-fd05-4d7b-9932-a0143aa40d1c");
@@ -115,7 +118,7 @@ socket.on("eventsub", async (message) => {
     const user = payload.sender?.username;
     if (!user) return;
 
-    // Self-loop fix
+    // self-loop protection
     if (user.toLowerCase() === BOT_NAME.toLowerCase()) return;
 
     const msg =
@@ -127,17 +130,21 @@ socket.on("eventsub", async (message) => {
 
     console.log(`${user}: ${msg}`);
 
-    // Memory
-    chatMemory.push({ user, msg });
-    if (chatMemory.length > 10) chatMemory.shift();
+    // ===============================
+    // MEMORY (nur echte Messages)
+    // ===============================
+    if (!msg.startsWith("!")) {
+      chatMemory.push({ user, msg });
+      if (chatMemory.length > 10) chatMemory.shift();
+    }
 
     const lang = detectLanguage(msg);
 
     // ===============================
-    // !join (FIX — DAS FEHLTE BEI DIR)
+    // !join (JETZT SINNVOLL)
     // ===============================
     if (msg.toLowerCase() === "!join") {
-      await sendChat("👋 I’m already in the chat!");
+      await sendChat(`👋 Hey ${user}, I'm already connected and listening to your chat.`);
       return;
     }
 
@@ -147,9 +154,10 @@ socket.on("eventsub", async (message) => {
     if (msg.toLowerCase().startsWith("!translate")) {
       const last = chatMemory.slice(-3);
 
-      const text = last
-        .map(m => `${m.user}: ${m.msg}`)
-        .join("\n");
+      const text =
+        last.length > 0
+          ? last.map(m => `${m.user}: ${m.msg}`).join("\n")
+          : "No messages yet.";
 
       await sendChat(`🌍 Last 3 messages:\n\n${text}`);
       return;
@@ -158,7 +166,7 @@ socket.on("eventsub", async (message) => {
     // ===============================
     // GREETING
     // ===============================
-    if (msg.toLowerCase().includes("hi")) {
+    if (msg.toLowerCase().includes("hi") || msg.toLowerCase().includes("hello")) {
       const reply =
         lang === "de"
           ? "Hallo 👋"
@@ -180,21 +188,18 @@ socket.on("eventsub", async (message) => {
 });
 
 // ===============================
-// SOCKET STATUS
+// STATUS
 // ===============================
-socket.on("connect", () => console.log("Socket verbunden"));
-socket.on("connect_error", err => console.log("Socket Fehler:", err.message));
+socket.on("connect", () => console.log("Socket connected"));
+socket.on("connect_error", err => console.log("Socket error:", err.message));
 
 // ===============================
-// ROUTES
+// SERVER
 // ===============================
 app.get("/", (req, res) => {
-  res.send("BlazeianBot läuft ✅");
+  res.send("BlazeianBot running ✅");
 });
 
-// ===============================
-// START SERVER
-// ===============================
 app.listen(PORT, "0.0.0.0", () => {
-  console.log("Server läuft auf Port", PORT);
+  console.log("Server running on port", PORT);
 });
