@@ -21,7 +21,8 @@ app.get("/login", async (req, res) => {
       }
     );
 
-    return res.redirect(response.data.url);
+    process.env.CODE_VERIFIER = response.data.codeVerifier;
+return res.redirect(response.data.url);
 
   } catch (e) {
   return res.json({
