@@ -15,7 +15,6 @@ const BOT_NAME       = "blazeian_bot";
 const CLIENT_ID      = process.env.BLAZE_CLIENT_ID;
 const CLIENT_SECRET  = process.env.BLAZE_CLIENT_SECRET;
 const REDIRECT_URI   = "https://blazeian-bot.onrender.com/callback";
-// No external translation API needed – uses free Google Translate
 
 // ===============================
 // TOKEN STATE
@@ -43,12 +42,7 @@ async function refreshAccessToken() {
 setInterval(refreshAccessToken, 20 * 60 * 60 * 1000);
 
 // ===============================
-// JOINED CHANNELS
-// channels[channelId] = { username, slug, stats: {...}, chatMemory: [] }
-// ===============================
-// ===============================
 // JSONBIN PERSISTENCE
-// Channels survive Render restarts/deploys
 // ===============================
 const JSONBIN_URL = `https://api.jsonbin.io/v3/b/${process.env.JSONBIN_BIN_ID}`;
 const JSONBIN_HEADERS = {
@@ -77,12 +71,11 @@ async function saveChannelsToCloud() {
   }
 }
 
-// Sync wrapper so existing saveChannels() calls still work
 function saveChannels() {
   saveChannelsToCloud().catch(e => console.log("Save error:", e.message));
 }
 
-let channels = {}; // Will be loaded from JSONBin on startup
+let channels = {};
 
 function getOrCreateChannel(channelId, username) {
   if (!channels[channelId]) {
@@ -96,7 +89,6 @@ function getOrCreateChannel(channelId, username) {
   return channels[channelId];
 }
 
-// Stream timers per channel
 const streamTimers = {};
 function startStreamTimer(channelId) {
   if (streamTimers[channelId]) return;
@@ -155,7 +147,6 @@ async function subscribe(type, channelId) {
   }
 }
 
-// Get channel ID from username via slug
 async function getChannelIdBySlug(slug) {
   try {
     const res = await axios.get(`${API}/v1/channels?slug[]=${slug}&type=all`, { headers: headers() });
@@ -168,9 +159,8 @@ async function getChannelIdBySlug(slug) {
 }
 
 // ===============================
-// TRANSLATE via Claude API
+// TRANSLATE
 // ===============================
-// Language code map for Google Translate
 const LANG_CODES = {
   german: "de", deutsch: "de",
   english: "en", englisch: "en",
@@ -205,7 +195,6 @@ async function translateText(text, targetLangCode) {
     const encoded = encodeURIComponent(text);
     const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLangCode}&dt=t&q=${encoded}`;
     const res = await axios.get(url, { timeout: 5000 });
-    // Google returns nested arrays: [[["translated","original",...],...],...]
     const parts = res.data[0];
     if (!parts) return null;
     return parts.map(p => p[0]).filter(Boolean).join("");
@@ -216,7 +205,6 @@ async function translateText(text, targetLangCode) {
 }
 
 async function translateMessages(messages, targetLangCode) {
-  // Translate each message individually to keep username labels
   const results = [];
   for (const { user, msg } of messages) {
     const translated = await translateText(msg, targetLangCode);
@@ -238,14 +226,10 @@ function connectSocket() {
   socket.on("eventsub", handleEvent);
 }
 
-// Only event types confirmed working by Blaze API
 const VALID_EVENT_TYPES = ["channel.chat.message", "channel.follow", "channel.vote"];
 
 function subscribeAllChannels() {
-  // Subscribe to bot's own channel
   VALID_EVENT_TYPES.forEach(t => subscribe(t, BOT_CHANNEL_ID));
-
-  // Auto-rejoin all previously joined channels after restart
   const joined = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
   if (joined.length > 0) {
     console.log(`Auto-rejoining ${joined.length} channel(s)...`);
@@ -263,11 +247,8 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   const m = msg.toLowerCase().trim();
   const ch = channels[channelId];
 
-  // ==============================
   // !join – only works in BOT's channel
-  // ==============================
   if (m === "!join" && isBotChannel) {
-    // Get the channel ID of the user who typed !join
     const slug = user.toLowerCase();
     const newChannelId = await getChannelIdBySlug(slug);
 
@@ -285,7 +266,6 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
       return;
     }
 
-    // Create channel entry & subscribe to events
     getOrCreateChannel(newChannelId, user);
     const eventTypes = ["channel.chat.message","channel.follow","channel.subscription","channel.vote","channel.stream.online","channel.stream.offline"];
     eventTypes.forEach(t => subscribe(t, newChannelId));
@@ -293,17 +273,13 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     await sendChat(BOT_CHANNEL_ID,
       `✅ @${user} Done! I've joined your channel. Your viewers can now use: !stats | !votes | !subs | !time | !emote | !explain [language]`
     );
-
-    // Welcome message in the user's channel
     await sendChat(newChannelId,
-      `🤖 Hey chat! BlazeianBot is now active in ${user}'s channel! Type !commands to see what I can do.`
+      `🤖 Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do.`
     );
     return;
   }
 
-  // ==============================
-  // !leave - works from bot channel OR own channel
-  // ==============================
+  // !leave
   if (m === "!leave") {
     const ownedChannelId = Object.keys(channels).find(
       id => channels[id].username.toLowerCase() === user.toLowerCase()
@@ -319,12 +295,10 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
-  // Commands below only work in joined channels (not bot's own channel)
+  // Commands below only work in joined channels
   if (isBotChannel || !ch) return;
 
-  // ==============================
   // !stats
-  // ==============================
   if (m === "!stats") {
     const s = ch.stats;
     await sendChat(channelId,
@@ -339,19 +313,15 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   if (m === "!time")  { await sendChat(channelId, `🕐 Total stream time for ${ch.username}: ${formatTime(ch.stats.totalStreamMinutes)}`); return; }
   if (m === "!emote") { await sendChat(channelId, `🏆 Most used emote in ${ch.username}'s chat: ${getTopEmote(ch.stats)}`); return; }
 
-  // ==============================
-  // !commands / !help
-  // ==============================
-  if (m === "!commands" || m === "!help") {
+  // !cmd / !help  (renamed from !commands to avoid conflict with Botger)
+  if (m === "!cmd" || m === "!help") {
     await sendChat(channelId,
       `🤖 BlazeianBot commands: !stats | !votes | !subs | !chat | !time | !emote | !explain [language] — Example: !explain German`
     );
     return;
   }
 
-  // ==============================
-  // !explain [language] – translate last 3 messages
-  // ==============================
+  // !explain [language]
   if (m.startsWith("!explain")) {
     const parts = msg.trim().split(/\s+/);
     const langInput = (parts[1] || "").toLowerCase();
@@ -381,9 +351,7 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
-  // ==============================
   // Greeting
-  // ==============================
   if (m.includes("hello") || m.includes("hi ") || m === "hi" || m.includes("hey ") || m === "hey") {
     await sendChat(channelId, `Hey @${user}! 👋 Welcome to ${ch.username}'s stream!`);
     return;
@@ -396,11 +364,9 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
 async function handleEvent(message) {
   const { metadata, payload } = message;
 
-  // SESSION START
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
     console.log("SESSION:", global.SESSION_ID);
-
     if (ACCESS_TOKEN) {
       await sendChat(BOT_CHANNEL_ID, "🤖 BlazeianBot is online! Type !join here to add me to your channel.");
       setTimeout(subscribeAllChannels, 2000);
@@ -410,7 +376,6 @@ async function handleEvent(message) {
     return;
   }
 
-  // CHAT MESSAGE
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender?.username;
     if (!user || user.toLowerCase() === BOT_NAME.toLowerCase()) return;
@@ -424,12 +389,10 @@ async function handleEvent(message) {
     const isBotChannel = channelId === BOT_CHANNEL_ID;
     console.log(`[${isBotChannel ? "BOT_CHAN" : channelId}] ${user}: ${msg}`);
 
-    // Track stats for joined channels
     if (!isBotChannel && channels[channelId]) {
       const ch = channels[channelId];
       ch.stats.totalChatMessages++;
 
-      // Track emotes
       const emotes = payload.message?.emotes || payload.emotes || [];
       if (Array.isArray(emotes) && emotes.length) {
         emotes.forEach(em => {
@@ -438,7 +401,6 @@ async function handleEvent(message) {
         });
       }
 
-      // Save chat memory (non-commands only)
       if (!msg.startsWith("!")) {
         if (!ch.chatMemory) ch.chatMemory = [];
         ch.chatMemory.push({ user, msg });
@@ -448,17 +410,14 @@ async function handleEvent(message) {
       saveChannels();
     }
 
-    // Handle commands
     if (msg.startsWith("!") || msg.toLowerCase().includes("hello") || msg.toLowerCase().includes("hi") || msg.toLowerCase().includes("hey")) {
       await handleCommand(channelId, user, msg, isBotChannel);
     }
     return;
   }
 
-  // Get channelId from event
   const channelId = payload.channelId || payload.condition?.channelId;
 
-  // SUBSCRIPTION EVENT
   if (metadata.subscriptionType === "channel.subscription" && channelId && channels[channelId]) {
     const user = payload.user?.username || payload.subscriber?.username || "someone";
     channels[channelId].stats.totalSubs++;
@@ -467,7 +426,6 @@ async function handleEvent(message) {
     return;
   }
 
-  // VOTE EVENT
   if (metadata.subscriptionType === "channel.vote" && channelId && channels[channelId]) {
     const user = payload.user?.username || payload.voter?.username || "someone";
     channels[channelId].stats.totalVotes++;
@@ -476,20 +434,17 @@ async function handleEvent(message) {
     return;
   }
 
-  // STREAM ONLINE
   if (metadata.subscriptionType === "channel.stream.online" && channelId && channels[channelId]) {
     startStreamTimer(channelId);
     return;
   }
 
-  // STREAM OFFLINE
   if (metadata.subscriptionType === "channel.stream.offline" && channelId && channels[channelId]) {
     if (streamTimers[channelId]) { clearInterval(streamTimers[channelId]); delete streamTimers[channelId]; }
     saveChannels();
     return;
   }
 
-  // FOLLOW
   if (metadata.subscriptionType === "channel.follow" && channelId && channels[channelId]) {
     const user = payload.user?.username || payload.follower?.username;
     if (user) await sendChat(channelId, `❤️ @${user} just followed! Welcome!`);
@@ -549,7 +504,6 @@ app.get("/callback", async (req, res) => {
   }
 });
 
-// Status page
 app.get("/", (req, res) => {
   const joinedList = Object.entries(channels)
     .map(([id, ch]) => `<li><strong>${ch.username}</strong> (${id}) – Msgs: ${ch.stats.totalChatMessages}, Subs: ${ch.stats.totalSubs}, Votes: ${ch.stats.totalVotes}</li>`)
@@ -573,7 +527,6 @@ app.get("/stats", (req, res) => res.json(channels));
 // ===============================
 app.listen(PORT, "0.0.0.0", async () => {
   console.log("Server running on port", PORT);
-  // Load channels from JSONBin before connecting
   channels = await loadChannelsFromCloud();
   console.log(`Loaded ${Object.keys(channels).length} channel(s) from cloud`);
   connectSocket();
