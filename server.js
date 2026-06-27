@@ -12,136 +12,182 @@ const PORT = process.env.PORT || 3000;
 // ===============================
 // CONFIG
 // ===============================
-const CHANNEL_ID    = "514160a7-fd05-4d7b-9932-a0143aa40d1c";
-const BOT_NAME      = "blazeian_bot";
-const CLIENT_ID     = process.env.BLAZE_CLIENT_ID;
-const CLIENT_SECRET = process.env.BLAZE_CLIENT_SECRET;
-const REDIRECT_URI  = "https://blazeian-bot.onrender.com/callback";
+const BOT_CHANNEL_ID = "514160a7-fd05-4d7b-9932-a0143aa40d1c"; // blazeian_bot channel
+const BOT_NAME       = "blazeian_bot";
+const CLIENT_ID      = process.env.BLAZE_CLIENT_ID;
+const CLIENT_SECRET  = process.env.BLAZE_CLIENT_SECRET;
+const REDIRECT_URI   = "https://blazeian-bot.onrender.com/callback";
+const ANTHROPIC_KEY  = process.env.ANTHROPIC_API_KEY;
 
 // ===============================
 // TOKEN STATE
 // ===============================
 let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN  || null;
 let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
-
-// PKCE state (nur für Login-Flow nötig)
 let pendingState        = null;
 let pendingCodeVerifier = null;
 
-// ===============================
-// TOKEN REFRESH
-// ===============================
 async function refreshAccessToken() {
-  if (!REFRESH_TOKEN) {
-    console.log("Kein Refresh Token – manueller Login nötig unter /login");
-    return false;
-  }
+  if (!REFRESH_TOKEN) { console.log("No refresh token – need /login"); return false; }
   try {
     const res = await axios.post("https://blaze.stream/bapi/oauth2/refresh", {
-      clientId:     CLIENT_ID,
-      clientSecret: CLIENT_SECRET,
-      refreshToken: REFRESH_TOKEN
+      clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, refreshToken: REFRESH_TOKEN
     });
     ACCESS_TOKEN  = res.data.accessToken;
     REFRESH_TOKEN = res.data.refreshToken || REFRESH_TOKEN;
     console.log("Token refreshed ✅");
     return true;
   } catch (e) {
-    console.log("Token refresh error:", e.response?.data || e.message);
+    console.log("Refresh error:", e.response?.data || e.message);
     return false;
   }
 }
-
-// Alle 20 Stunden Token erneuern (läuft 24h)
 setInterval(refreshAccessToken, 20 * 60 * 60 * 1000);
 
 // ===============================
-// STATS
+// JOINED CHANNELS
+// channels[channelId] = { username, slug, stats: {...}, chatMemory: [] }
 // ===============================
-const STATS_FILE = path.join(__dirname, "stats.json");
+const CHANNELS_FILE = path.join(__dirname, "channels.json");
 
-function loadStats() {
+function loadChannels() {
   try {
-    if (fs.existsSync(STATS_FILE))
-      return JSON.parse(fs.readFileSync(STATS_FILE, "utf8"));
-  } catch (e) { console.log("Stats load error:", e.message); }
-  return { totalVotes: 0, totalSubs: 0, totalChatMessages: 0, totalStreamMinutes: 0, emotes: {}, emoteNames: {} };
+    if (fs.existsSync(CHANNELS_FILE)) return JSON.parse(fs.readFileSync(CHANNELS_FILE, "utf8"));
+  } catch(e) {}
+  return {};
 }
 
-function saveStats() {
-  try { fs.writeFileSync(STATS_FILE, JSON.stringify(stats, null, 2)); }
-  catch (e) { console.log("Stats save error:", e.message); }
+function saveChannels() {
+  try { fs.writeFileSync(CHANNELS_FILE, JSON.stringify(channels, null, 2)); } catch(e) {}
 }
 
-let stats = loadStats();
-let timerRunning = false;
+let channels = loadChannels();
 
-function startStreamTimer() {
-  if (timerRunning) return;
-  timerRunning = true;
-  setInterval(() => { stats.totalStreamMinutes += 1; saveStats(); }, 60000);
+function getOrCreateChannel(channelId, username) {
+  if (!channels[channelId]) {
+    channels[channelId] = {
+      username,
+      stats: { totalVotes: 0, totalSubs: 0, totalChatMessages: 0, totalStreamMinutes: 0, emotes: {}, emoteNames: {} },
+      chatMemory: []
+    };
+    saveChannels();
+  }
+  return channels[channelId];
+}
+
+// Stream timers per channel
+const streamTimers = {};
+function startStreamTimer(channelId) {
+  if (streamTimers[channelId]) return;
+  streamTimers[channelId] = setInterval(() => {
+    if (channels[channelId]) {
+      channels[channelId].stats.totalStreamMinutes++;
+      saveChannels();
+    }
+  }, 60000);
 }
 
 function formatTime(m) {
   const h = Math.floor(m / 60), min = m % 60;
-  return h === 0 ? `${min} Min` : `${h}h ${min}m`;
+  return h === 0 ? `${min} min` : `${h}h ${min}m`;
 }
 
-function getTopEmote() {
-  const e = Object.entries(stats.emotes);
-  if (!e.length) return "Noch keins";
+function getTopEmote(stats) {
+  const e = Object.entries(stats.emotes || {});
+  if (!e.length) return "None yet";
   e.sort((a, b) => b[1] - a[1]);
   return `${stats.emoteNames[e[0][0]] || e[0][0]} (${e[0][1]}x)`;
 }
 
 // ===============================
-// CHAT MEMORY
+// BLAZE API HELPERS
 // ===============================
-const chatMemory = [];
+const API = "https://api.blaze.stream";
+const headers = () => ({
+  authorization: `Bearer ${ACCESS_TOKEN}`,
+  "client-id": CLIENT_ID,
+  "content-type": "application/json"
+});
 
-function detectLang(t = "") {
-  t = t.toLowerCase();
-  if (/[äöüß]/.test(t) || t.includes("hallo")) return "de";
-  if (t.includes("hola") || t.includes("gracias")) return "es";
-  if (t.includes("bonjour") || t.includes("merci")) return "fr";
-  return "en";
-}
-
-// ===============================
-// SEND CHAT
-// ===============================
-async function sendChat(message) {
+async function sendChat(channelId, message) {
   try {
-    await axios.post(
-      "https://api.blaze.stream/v1/chats/messages",
-      { channelId: CHANNEL_ID, message },
-      { headers: { authorization: `Bearer ${ACCESS_TOKEN}`, "client-id": CLIENT_ID } }
-    );
-    console.log("BOT:", message);
+    await axios.post(`${API}/v1/chats/messages`, { channelId, message }, { headers: headers() });
+    console.log(`[${channelId}] BOT: ${message}`);
   } catch (e) {
     if (e.response?.status === 401) {
-      console.log("Token abgelaufen – refreshe...");
       const ok = await refreshAccessToken();
-      if (ok) await sendChat(message);
+      if (ok) await sendChat(channelId, message);
     } else {
       console.log("Send error:", e.response?.data || e.message);
     }
   }
 }
 
-// ===============================
-// SUBSCRIBE
-// ===============================
-async function subscribe(type) {
+async function subscribe(type, channelId) {
   try {
-    await axios.post(
-      "https://api.blaze.stream/v1/events/subscriptions",
-      { type, version: "1", sessionId: global.SESSION_ID, condition: { channelId: CHANNEL_ID } },
-      { headers: { authorization: `Bearer ${ACCESS_TOKEN}`, "client-id": CLIENT_ID } }
-    );
-    console.log("Subscribed:", type);
+    await axios.post(`${API}/v1/events/subscriptions`, {
+      type, version: "1", sessionId: global.SESSION_ID, condition: { channelId }
+    }, { headers: headers() });
+    console.log(`Subscribed: ${type} on ${channelId}`);
   } catch (e) {
-    console.log("Subscribe error:", type, e.response?.data || e.message);
+    console.log(`Subscribe error (${type}):`, e.response?.data || e.message);
+  }
+}
+
+// Get channel ID from username via slug
+async function getChannelIdBySlug(slug) {
+  try {
+    const res = await axios.get(`${API}/v1/channels?slug[]=${slug}&type=all`, { headers: headers() });
+    const rows = res.data?.data?.rows;
+    if (rows && rows.length > 0) return rows[0].id;
+  } catch (e) {
+    console.log("getChannelId error:", e.response?.data || e.message);
+  }
+  return null;
+}
+
+// ===============================
+// TRANSLATE via Claude API
+// ===============================
+const LANG_NAMES = {
+  german: "German", deutsch: "German",
+  english: "English", englisch: "English",
+  spanish: "Spanish", spanish: "Spanish", spanisch: "Spanish",
+  french: "French", französisch: "French", francais: "French",
+  portuguese: "Portuguese", portugiesisch: "Portuguese",
+  italian: "Italian", italienisch: "Italian",
+  dutch: "Dutch", niederländisch: "Dutch",
+  russian: "Russian", russisch: "Russian",
+  japanese: "Japanese", japanisch: "Japanese",
+  korean: "Korean", koreanisch: "Korean",
+  chinese: "Chinese", chinesisch: "Chinese",
+  arabic: "Arabic", arabisch: "Arabic",
+  turkish: "Turkish", türkisch: "Turkish",
+  polish: "Polish", polnisch: "Polish",
+  swedish: "Swedish", schwedisch: "Swedish",
+};
+
+async function translateWithClaude(texts, targetLang) {
+  if (!ANTHROPIC_KEY) return null;
+  try {
+    const res = await axios.post("https://api.anthropic.com/v1/messages", {
+      model: "claude-sonnet-4-6",
+      max_tokens: 300,
+      messages: [{
+        role: "user",
+        content: `Translate these chat messages to ${targetLang}. Keep the format "Username: message". Only return the translations, nothing else:\n\n${texts}`
+      }]
+    }, {
+      headers: {
+        "x-api-key": ANTHROPIC_KEY,
+        "anthropic-version": "2023-06-01",
+        "content-type": "application/json"
+      }
+    });
+    return res.data.content[0].text.trim();
+  } catch (e) {
+    console.log("Claude translate error:", e.response?.data || e.message);
+    return null;
   }
 }
 
@@ -152,11 +198,156 @@ let socket = null;
 
 function connectSocket() {
   if (socket) { try { socket.disconnect(); } catch(_) {} }
-
   socket = io("https://blaze.stream", { path: "/ws", transports: ["websocket"] });
   socket.on("connect", () => console.log("Socket connected ✅"));
   socket.on("connect_error", err => console.log("Socket error:", err.message));
   socket.on("eventsub", handleEvent);
+}
+
+function subscribeAllChannels() {
+  const eventTypes = [
+    "channel.chat.message", "channel.follow",
+    "channel.subscription", "channel.vote",
+    "channel.stream.online", "channel.stream.offline"
+  ];
+
+  // Always subscribe to bot's own channel
+  eventTypes.forEach(t => subscribe(t, BOT_CHANNEL_ID));
+
+  // Subscribe to all joined channels
+  Object.keys(channels).forEach(channelId => {
+    if (channelId !== BOT_CHANNEL_ID) {
+      eventTypes.forEach(t => subscribe(t, channelId));
+    }
+  });
+}
+
+// ===============================
+// COMMAND HANDLER
+// ===============================
+async function handleCommand(channelId, user, msg, isBotChannel) {
+  const m = msg.toLowerCase().trim();
+  const ch = channels[channelId];
+
+  // ==============================
+  // !join – only works in BOT's channel
+  // ==============================
+  if (m === "!join" && isBotChannel) {
+    // Get the channel ID of the user who typed !join
+    const slug = user.toLowerCase();
+    const newChannelId = await getChannelIdBySlug(slug);
+
+    if (!newChannelId) {
+      await sendChat(BOT_CHANNEL_ID,
+        `@${user} Couldn't find your channel. Make sure your Blaze username matches your channel slug!`
+      );
+      return;
+    }
+
+    if (channels[newChannelId]) {
+      await sendChat(BOT_CHANNEL_ID,
+        `@${user} I'm already active in your channel! Use !stats, !votes, !subs, !time, !emote or !explain [language] there.`
+      );
+      return;
+    }
+
+    // Create channel entry & subscribe to events
+    getOrCreateChannel(newChannelId, user);
+    const eventTypes = ["channel.chat.message","channel.follow","channel.subscription","channel.vote","channel.stream.online","channel.stream.offline"];
+    eventTypes.forEach(t => subscribe(t, newChannelId));
+
+    await sendChat(BOT_CHANNEL_ID,
+      `✅ @${user} Done! I've joined your channel. Your viewers can now use: !stats | !votes | !subs | !time | !emote | !explain [language]`
+    );
+
+    // Welcome message in the user's channel
+    await sendChat(newChannelId,
+      `🤖 Hey chat! BlazeianBot is now active in ${user}'s channel! Type !commands to see what I can do.`
+    );
+    return;
+  }
+
+  // ==============================
+  // !leave – streamer can remove bot
+  // ==============================
+  if (m === "!leave" && !isBotChannel && ch) {
+    if (user.toLowerCase() === ch.username.toLowerCase()) {
+      await sendChat(channelId, `👋 Goodbye! BlazeianBot is leaving ${ch.username}'s channel. Type !join at blaze.stream/blazeian_bot to re-add me anytime.`);
+      delete channels[channelId];
+      saveChannels();
+    }
+    return;
+  }
+
+  // Commands below only work in joined channels (not bot's own channel)
+  if (isBotChannel || !ch) return;
+
+  // ==============================
+  // !stats
+  // ==============================
+  if (m === "!stats") {
+    const s = ch.stats;
+    await sendChat(channelId,
+      `📊 ${ch.username}'s Stats | 🗳️ Votes: ${s.totalVotes} | ⭐ Subs: ${s.totalSubs} | 💬 Msgs: ${s.totalChatMessages} | 🕐 Stream Time: ${formatTime(s.totalStreamMinutes)} | 🏆 Top Emote: ${getTopEmote(s)}`
+    );
+    return;
+  }
+
+  if (m === "!votes") { await sendChat(channelId, `🗳️ Total votes for ${ch.username}: ${ch.stats.totalVotes}`); return; }
+  if (m === "!subs")  { await sendChat(channelId, `⭐ Total subs for ${ch.username}: ${ch.stats.totalSubs}`); return; }
+  if (m === "!chat")  { await sendChat(channelId, `💬 Total chat messages tracked: ${ch.stats.totalChatMessages}`); return; }
+  if (m === "!time")  { await sendChat(channelId, `🕐 Total stream time for ${ch.username}: ${formatTime(ch.stats.totalStreamMinutes)}`); return; }
+  if (m === "!emote") { await sendChat(channelId, `🏆 Most used emote in ${ch.username}'s chat: ${getTopEmote(ch.stats)}`); return; }
+
+  // ==============================
+  // !commands / !help
+  // ==============================
+  if (m === "!commands" || m === "!help") {
+    await sendChat(channelId,
+      `🤖 BlazeianBot commands: !stats | !votes | !subs | !chat | !time | !emote | !explain [language] — Example: !explain German`
+    );
+    return;
+  }
+
+  // ==============================
+  // !explain [language] – translate last 3 messages
+  // ==============================
+  if (m.startsWith("!explain")) {
+    const parts = msg.trim().split(/\s+/);
+    const langInput = (parts[1] || "").toLowerCase();
+    const targetLang = LANG_NAMES[langInput];
+
+    if (!langInput || !targetLang) {
+      await sendChat(channelId,
+        `@${user} Please specify a language! Example: !explain German | !explain Spanish | !explain French | !explain Japanese`
+      );
+      return;
+    }
+
+    const last3 = (ch.chatMemory || []).slice(-3);
+    if (!last3.length) {
+      await sendChat(channelId, `@${user} No recent messages to translate yet!`);
+      return;
+    }
+
+    const textToTranslate = last3.map(x => `${x.user}: ${x.msg}`).join("\n");
+    const translated = await translateWithClaude(textToTranslate, targetLang);
+
+    if (translated) {
+      await sendChat(channelId, `🌍 [${targetLang}] ${translated.replace(/\n/g, " | ")}`);
+    } else {
+      await sendChat(channelId, `@${user} Translation unavailable right now. (ANTHROPIC_API_KEY missing in Render?)`);
+    }
+    return;
+  }
+
+  // ==============================
+  // Greeting
+  // ==============================
+  if (m.includes("hello") || m.includes("hi ") || m === "hi" || m.includes("hey ") || m === "hey") {
+    await sendChat(channelId, `Hey @${user}! 👋 Welcome to ${ch.username}'s stream!`);
+    return;
+  }
 }
 
 // ===============================
@@ -169,203 +360,173 @@ async function handleEvent(message) {
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
     console.log("SESSION:", global.SESSION_ID);
+
     if (ACCESS_TOKEN) {
-      await sendChat("🤖 BlazeianBot ist online und trackt deine Stats!");
-      startStreamTimer();
-      setTimeout(() => {
-        ["channel.chat.message","channel.follow","channel.subscription",
-         "channel.vote","channel.stream.online","channel.stream.offline"]
-          .forEach(t => subscribe(t));
-      }, 2000);
+      await sendChat(BOT_CHANNEL_ID, "🤖 BlazeianBot is online! Type !join here to add me to your channel.");
+      setTimeout(subscribeAllChannels, 2000);
     } else {
-      console.log("Kein Token – bitte /login aufrufen");
+      console.log("No token – visit /login");
     }
     return;
   }
 
-  // CHAT
+  // CHAT MESSAGE
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender?.username;
     if (!user || user.toLowerCase() === BOT_NAME.toLowerCase()) return;
 
+    const channelId = payload.channelId || payload.condition?.channelId;
+    if (!channelId) return;
+
     const msg = typeof payload.message === "string" ? payload.message : payload.message?.text || "";
     if (!msg) return;
 
-    console.log(`${user}: ${msg}`);
-    stats.totalChatMessages++;
-    saveStats();
+    const isBotChannel = channelId === BOT_CHANNEL_ID;
+    console.log(`[${isBotChannel ? "BOT_CHAN" : channelId}] ${user}: ${msg}`);
 
-    const emotes = payload.message?.emotes || payload.emotes || [];
-    if (Array.isArray(emotes) && emotes.length) {
-      emotes.forEach(em => {
-        const id = em.id || em.emoteId, name = em.name || em.emoteName || id;
-        if (id) { stats.emotes[id] = (stats.emotes[id] || 0) + 1; stats.emoteNames[id] = name; }
-      });
-      saveStats();
+    // Track stats for joined channels
+    if (!isBotChannel && channels[channelId]) {
+      const ch = channels[channelId];
+      ch.stats.totalChatMessages++;
+
+      // Track emotes
+      const emotes = payload.message?.emotes || payload.emotes || [];
+      if (Array.isArray(emotes) && emotes.length) {
+        emotes.forEach(em => {
+          const id = em.id || em.emoteId, name = em.name || em.emoteName || id;
+          if (id) { ch.stats.emotes[id] = (ch.stats.emotes[id] || 0) + 1; ch.stats.emoteNames[id] = name; }
+        });
+      }
+
+      // Save chat memory (non-commands only)
+      if (!msg.startsWith("!")) {
+        if (!ch.chatMemory) ch.chatMemory = [];
+        ch.chatMemory.push({ user, msg });
+        if (ch.chatMemory.length > 10) ch.chatMemory.shift();
+      }
+
+      saveChannels();
     }
 
-    if (!msg.startsWith("!")) { chatMemory.push({ user, msg }); if (chatMemory.length > 10) chatMemory.shift(); }
-
-    const m = msg.toLowerCase().trim();
-    const lang = detectLang(msg);
-
-    if (m === "!stats") {
-      await sendChat(`📊 Stats | 🗳️ Votes: ${stats.totalVotes} | ⭐ Subs: ${stats.totalSubs} | 💬 Msgs: ${stats.totalChatMessages} | 🕐 Zeit: ${formatTime(stats.totalStreamMinutes)} | 🏆 Top Emote: ${getTopEmote()}`);
-      return;
-    }
-    if (m === "!votes")  { await sendChat(`🗳️ Votes gesamt: ${stats.totalVotes}`); return; }
-    if (m === "!subs")   { await sendChat(`⭐ Subs gesamt: ${stats.totalSubs}`); return; }
-    if (m === "!chat")   { await sendChat(`💬 Chat-Msgs gesamt: ${stats.totalChatMessages}`); return; }
-    if (m === "!time")   { await sendChat(`🕐 Stream-Zeit gesamt: ${formatTime(stats.totalStreamMinutes)}`); return; }
-    if (m === "!emote")  { await sendChat(`🏆 Top Emote: ${getTopEmote()}`); return; }
-    if (m === "!commands" || m === "!help") { await sendChat(`🤖 Commands: !stats | !votes | !subs | !chat | !time | !emote | !translate`); return; }
-    if (m === "!join")   { await sendChat(`👋 Hey ${user}, ich bin bereits verbunden!`); return; }
-    if (m.startsWith("!translate")) {
-      const last = chatMemory.slice(-3);
-      await sendChat(`🌍 Letzte Msgs: ${last.length ? last.map(x => `${x.user}: ${x.msg}`).join(" | ") : "Noch keine."}`);
-      return;
-    }
-    if (m.includes("hi") || m.includes("hello") || m.includes("hallo")) {
-      await sendChat(lang === "de" ? `Hallo ${user} 👋` : lang === "es" ? `¡Hola ${user} 👋` : lang === "fr" ? `Salut ${user} 👋` : `Hello ${user} 👋`);
-      return;
+    // Handle commands
+    if (msg.startsWith("!") || msg.toLowerCase().includes("hello") || msg.toLowerCase().includes("hi") || msg.toLowerCase().includes("hey")) {
+      await handleCommand(channelId, user, msg, isBotChannel);
     }
     return;
   }
 
-  // SUB
-  if (metadata.subscriptionType === "channel.subscription") {
-    const user = payload.user?.username || payload.subscriber?.username || "jemand";
-    stats.totalSubs++; saveStats();
-    await sendChat(`⭐ ${user} hat gesubs! Danke! (Gesamt: ${stats.totalSubs})`);
+  // Get channelId from event
+  const channelId = payload.channelId || payload.condition?.channelId;
+
+  // SUBSCRIPTION EVENT
+  if (metadata.subscriptionType === "channel.subscription" && channelId && channels[channelId]) {
+    const user = payload.user?.username || payload.subscriber?.username || "someone";
+    channels[channelId].stats.totalSubs++;
+    saveChannels();
+    await sendChat(channelId, `⭐ ${user} just subscribed! Thank you! (Total: ${channels[channelId].stats.totalSubs})`);
     return;
   }
 
-  // VOTE
-  if (metadata.subscriptionType === "channel.vote") {
-    const user = payload.user?.username || payload.voter?.username || "jemand";
-    stats.totalVotes++; saveStats();
-    await sendChat(`🗳️ ${user} hat gevoted! Danke! (Gesamt: ${stats.totalVotes})`);
+  // VOTE EVENT
+  if (metadata.subscriptionType === "channel.vote" && channelId && channels[channelId]) {
+    const user = payload.user?.username || payload.voter?.username || "someone";
+    channels[channelId].stats.totalVotes++;
+    saveChannels();
+    await sendChat(channelId, `🗳️ ${user} voted! Thank you! (Total: ${channels[channelId].stats.totalVotes})`);
     return;
   }
 
-  if (metadata.subscriptionType === "channel.stream.online")  { startStreamTimer(); return; }
-  if (metadata.subscriptionType === "channel.stream.offline") { saveStats(); return; }
+  // STREAM ONLINE
+  if (metadata.subscriptionType === "channel.stream.online" && channelId && channels[channelId]) {
+    startStreamTimer(channelId);
+    return;
+  }
 
-  console.log("EVENT:", JSON.stringify(message, null, 2));
+  // STREAM OFFLINE
+  if (metadata.subscriptionType === "channel.stream.offline" && channelId && channels[channelId]) {
+    if (streamTimers[channelId]) { clearInterval(streamTimers[channelId]); delete streamTimers[channelId]; }
+    saveChannels();
+    return;
+  }
+
+  // FOLLOW
+  if (metadata.subscriptionType === "channel.follow" && channelId && channels[channelId]) {
+    const user = payload.user?.username || payload.follower?.username;
+    if (user) await sendChat(channelId, `❤️ @${user} just followed! Welcome!`);
+    return;
+  }
 }
 
 // ===============================
-// OAUTH ROUTES – korrekter Blaze Flow
+// OAUTH ROUTES
 // ===============================
-
-// SCHRITT 1: Auth-URL von Blaze generieren lassen
 app.get("/login", async (req, res) => {
   try {
     const response = await axios.post("https://blaze.stream/bapi/oauth2/generate-auth-url", {
-      clientId:     CLIENT_ID,
-      clientSecret: CLIENT_SECRET,
-      redirectUri:  REDIRECT_URI,
+      clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, redirectUri: REDIRECT_URI,
       scopes: ["users.read", "offline.access", "channel.moderate", "users.bot"]
     });
-
-    const { url, state, codeVerifier } = response.data;
-
-    // Speichern für Callback-Validierung
-    pendingState        = state;
-    pendingCodeVerifier = codeVerifier;
-
-    console.log("Auth URL generiert, leite weiter...");
-    res.redirect(url);
-
+    pendingState = response.data.state;
+    pendingCodeVerifier = response.data.codeVerifier;
+    res.redirect(response.data.url);
   } catch (e) {
-    console.log("Login error:", e.response?.data || e.message);
-    res.send(`
-      <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
-        <h1>❌ Fehler beim Login</h1>
-        <pre>${JSON.stringify(e.response?.data || e.message, null, 2)}</pre>
-        <p>Prüfe ob BLAZE_CLIENT_ID und BLAZE_CLIENT_SECRET in Render korrekt gesetzt sind.</p>
-        <p><a href="/login" style="color:#f5a623;">Nochmal versuchen</a></p>
-      </body></html>
-    `);
+    res.send(`<pre>Login error: ${JSON.stringify(e.response?.data || e.message)}</pre><a href="/login">Retry</a>`);
   }
 });
 
-// SCHRITT 2: Blaze leitet nach Login hierher zurück
 app.get("/callback", async (req, res) => {
   const { code, state } = req.query;
-
-  if (!code) return res.send("Fehler: Kein Code erhalten.");
-
-  // State validieren
-  if (state && pendingState && state !== pendingState) {
-    return res.send("Fehler: State mismatch – bitte /login nochmal aufrufen.");
-  }
+  if (!code) return res.send("Error: No code received.");
+  if (state && pendingState && state !== pendingState) return res.send("Error: State mismatch. Try /login again.");
 
   try {
     const tokenRes = await axios.post("https://blaze.stream/bapi/oauth2/token", {
-      clientId:     CLIENT_ID,
-      clientSecret: CLIENT_SECRET,
-      code,
-      codeVerifier: pendingCodeVerifier,
-      redirectUri:  REDIRECT_URI,
-      grantType:    "authorization_code"
+      clientId: CLIENT_ID, clientSecret: CLIENT_SECRET,
+      code, codeVerifier: pendingCodeVerifier,
+      redirectUri: REDIRECT_URI, grantType: "authorization_code"
     });
 
     ACCESS_TOKEN  = tokenRes.data.accessToken;
     REFRESH_TOKEN = tokenRes.data.refreshToken;
+    pendingState = null; pendingCodeVerifier = null;
 
-    pendingState        = null;
-    pendingCodeVerifier = null;
-
-    console.log("✅ Neuer Token erhalten!");
-    console.log("ACCESS_TOKEN:", ACCESS_TOKEN);
-    console.log("REFRESH_TOKEN:", REFRESH_TOKEN);
-
-    // Socket neu verbinden mit neuem Token
+    console.log("New token ✅");
     connectSocket();
 
     res.send(`
       <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
-        <h1>✅ Login erfolgreich!</h1>
-        <p>BlazeianBot ist jetzt verbunden. Kopiere diese Werte in deine <strong>Render Environment Variables</strong>:</p>
-        <hr style="border-color:#333;">
-        <p><strong>BLAZE_ACCESS_TOKEN:</strong></p>
-        <textarea style="width:100%;height:80px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;border-radius:4px;">${ACCESS_TOKEN}</textarea>
-        <p><strong>BLAZE_REFRESH_TOKEN:</strong></p>
-        <textarea style="width:100%;height:80px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;border-radius:4px;">${REFRESH_TOKEN}</textarea>
-        <hr style="border-color:#333;">
-        <p style="color:#aaa;font-size:14px;">Der Bot läuft bereits mit dem neuen Token. Speichere die Tokens in Render damit sie nach einem Neustart erhalten bleiben.</p>
-        <p><a href="/" style="color:#f5a623;">→ Zurück zur Status-Seite</a></p>
+        <h1>✅ Login successful!</h1>
+        <p>Save these in <strong>Render Environment Variables</strong>:</p>
+        <p><strong>BLAZE_ACCESS_TOKEN:</strong><br>
+        <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${ACCESS_TOKEN}</textarea></p>
+        <p><strong>BLAZE_REFRESH_TOKEN:</strong><br>
+        <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${REFRESH_TOKEN}</textarea></p>
+        <p><a href="/" style="color:#f5a623;">→ Status page</a></p>
       </body></html>
     `);
   } catch (e) {
-    console.log("Token exchange error:", e.response?.data || e.message);
-    res.send(`
-      <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
-        <h1>❌ Token-Austausch fehlgeschlagen</h1>
-        <pre>${JSON.stringify(e.response?.data || e.message, null, 2)}</pre>
-        <p><a href="/login" style="color:#f5a623;">Nochmal versuchen</a></p>
-      </body></html>
-    `);
+    res.send(`<pre>Token error: ${JSON.stringify(e.response?.data || e.message)}</pre><a href="/login">Retry</a>`);
   }
 });
 
-// Status-Seite
+// Status page
 app.get("/", (req, res) => {
+  const joinedList = Object.entries(channels)
+    .map(([id, ch]) => `<li><strong>${ch.username}</strong> (${id}) – Msgs: ${ch.stats.totalChatMessages}, Subs: ${ch.stats.totalSubs}, Votes: ${ch.stats.totalVotes}</li>`)
+    .join("") || "<li>No channels joined yet</li>";
+
   res.send(`
     <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
       <h1>🤖 BlazeianBot</h1>
-      <p>Status: <strong style="color:#4caf50;">Running ✅</strong></p>
-      <p>Access Token: <strong>${ACCESS_TOKEN ? "✅ Vorhanden" : '❌ Fehlt – <a href="/login" style="color:#f5a623;">jetzt einloggen</a>'}</strong></p>
-      <p>Refresh Token: <strong>${REFRESH_TOKEN ? "✅ Vorhanden" : "❌ Fehlt"}</strong></p>
-      <h2>📊 Stats</h2>
-      <pre style="background:#222;padding:16px;border-radius:8px;">${JSON.stringify(stats, null, 2)}</pre>
-      <p><a href="/login" style="color:#f5a623;">🔑 Token erneuern</a></p>
+      <p>Token: <strong>${ACCESS_TOKEN ? "✅ Active" : '❌ Missing – <a href="/login" style="color:#f5a623;">Login here</a>'}</strong></p>
+      <h2>Joined Channels (${Object.keys(channels).length})</h2>
+      <ul>${joinedList}</ul>
+      <p><a href="/login" style="color:#f5a623;">🔑 Refresh token</a></p>
     </body></html>
   `);
 });
 
-app.get("/stats", (req, res) => res.json(stats));
+app.get("/stats", (req, res) => res.json(channels));
 
 // ===============================
 // START
