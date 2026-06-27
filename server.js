@@ -13,10 +13,43 @@ const PORT = process.env.PORT || 3000;
 const CHANNEL_ID = "514160a7-fd05-4d7b-9932-a0143aa40d1c";
 const BOT_NAME = "blazeian_bot";
 
+const CLIENT_ID     = process.env.BLAZE_CLIENT_ID;
+const CLIENT_SECRET = process.env.BLAZE_CLIENT_SECRET;
+const REDIRECT_URI  = "https://blazeian-bot.onrender.com/callback";
+
+// ===============================
+// TOKEN MANAGEMENT
+// ===============================
+let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN || null;
+let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
+
+async function refreshAccessToken() {
+  if (!REFRESH_TOKEN) {
+    console.log("No refresh token available – manual re-auth needed.");
+    return false;
+  }
+  try {
+    const res = await axios.post("https://api.blaze.stream/oauth/token", {
+      grant_type:    "refresh_token",
+      refresh_token: REFRESH_TOKEN,
+      client_id:     CLIENT_ID,
+      client_secret: CLIENT_SECRET
+    });
+    ACCESS_TOKEN  = res.data.access_token;
+    REFRESH_TOKEN = res.data.refresh_token || REFRESH_TOKEN;
+    console.log("Token refreshed ✅");
+    return true;
+  } catch (e) {
+    console.log("Token refresh failed:", e.response?.data || e.message);
+    return false;
+  }
+}
+
+// Auto-refresh every 3 hours
+setInterval(refreshAccessToken, 3 * 60 * 60 * 1000);
+
 // ===============================
 // STATS PERSISTENCE
-// Speichert in stats.json damit Zahlen
-// nach einem Render-Restart nicht verloren gehen
 // ===============================
 const STATS_FILE = path.join(__dirname, "stats.json");
 
@@ -33,8 +66,8 @@ function loadStats() {
     totalSubs: 0,
     totalChatMessages: 0,
     totalStreamMinutes: 0,
-    emotes: {},           // { "emoteId": count }
-    emoteNames: {},       // { "emoteId": "emoteName" }
+    emotes: {},
+    emoteNames: {},
     streamStartTime: null
   };
 }
@@ -49,13 +82,9 @@ function saveStats(stats) {
 
 let stats = loadStats();
 
-// Streamzeit-Tracker
 function startStreamTimer() {
-  if (stats.streamStartTime) return; // läuft schon
-  stats.streamStartTime = Date.now();
-  saveStats(stats);
-
-  // Jede Minute +1 speichern
+  if (stats._timerRunning) return;
+  stats._timerRunning = true;
   setInterval(() => {
     stats.totalStreamMinutes += 1;
     saveStats(stats);
@@ -65,8 +94,7 @@ function startStreamTimer() {
 function formatMinutes(minutes) {
   const h = Math.floor(minutes / 60);
   const m = minutes % 60;
-  if (h === 0) return `${m} Min`;
-  return `${h}h ${m}m`;
+  return h === 0 ? `${m} Min` : `${h}h ${m}m`;
 }
 
 function getTopEmote() {
@@ -74,8 +102,7 @@ function getTopEmote() {
   if (entries.length === 0) return "Noch keins";
   entries.sort((a, b) => b[1] - a[1]);
   const [topId, topCount] = entries[0];
-  const name = stats.emoteNames[topId] || topId;
-  return `${name} (${topCount}x)`;
+  return `${stats.emoteNames[topId] || topId} (${topCount}x)`;
 }
 
 // ===============================
@@ -89,7 +116,7 @@ const chatMemory = [];
 function detectLanguage(text = "") {
   const t = text.toLowerCase();
   if (/[äöüß]/.test(t) || t.includes("hallo") || t.includes("wie geht")) return "de";
-  if (t.includes("hola") || t.includes("gracias") || t.includes("cómo")) return "es";
+  if (t.includes("hola") || t.includes("gracias")) return "es";
   if (t.includes("bonjour") || t.includes("merci")) return "fr";
   return "en";
 }
@@ -97,10 +124,22 @@ function detectLanguage(text = "") {
 // ===============================
 // SOCKET
 // ===============================
-const socket = io("https://blaze.stream", {
-  path: "/ws",
-  transports: ["websocket"]
-});
+let socket;
+
+function connectSocket() {
+  if (socket) {
+    socket.disconnect();
+  }
+
+  socket = io("https://blaze.stream", {
+    path: "/ws",
+    transports: ["websocket"]
+  });
+
+  socket.on("connect", () => console.log("Socket connected ✅"));
+  socket.on("connect_error", err => console.log("Socket error:", err.message));
+  socket.on("eventsub", handleEvent);
+}
 
 // ===============================
 // SUBSCRIBE
@@ -117,8 +156,8 @@ async function subscribe(type, channelId) {
       },
       {
         headers: {
-          authorization: `Bearer ${process.env.BLAZE_ACCESS_TOKEN}`,
-          "client-id": process.env.BLAZE_CLIENT_ID
+          authorization: `Bearer ${ACCESS_TOKEN}`,
+          "client-id": CLIENT_ID
         }
       }
     );
@@ -138,71 +177,67 @@ async function sendChat(message) {
       { channelId: CHANNEL_ID, message },
       {
         headers: {
-          authorization: `Bearer ${process.env.BLAZE_ACCESS_TOKEN}`,
-          "client-id": process.env.BLAZE_CLIENT_ID
+          authorization: `Bearer ${ACCESS_TOKEN}`,
+          "client-id": CLIENT_ID
         }
       }
     );
     console.log("BOT:", message);
   } catch (e) {
-    console.log("Send error:", e.response?.data || e.message);
+    // If unauthorized, try refresh once
+    if (e.response?.status === 401) {
+      console.log("Token expired, refreshing...");
+      const ok = await refreshAccessToken();
+      if (ok) await sendChat(message); // retry once
+    } else {
+      console.log("Send error:", e.response?.data || e.message);
+    }
   }
 }
 
 // ===============================
 // EVENT HANDLER
 // ===============================
-socket.on("eventsub", async (message) => {
+async function handleEvent(message) {
   const { metadata, payload } = message;
 
-  // ===============================
   // SESSION START
-  // ===============================
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
     console.log("SESSION READY:", global.SESSION_ID);
 
-    await sendChat("🤖 BlazeianBot ist online und trackt ab jetzt deine Stats!");
-
-    // Streamzeit starten
+    await sendChat("🤖 BlazeianBot ist online und trackt deine Stats!");
     startStreamTimer();
 
     setTimeout(() => {
       subscribe("channel.chat.message", CHANNEL_ID);
       subscribe("channel.follow", CHANNEL_ID);
-      subscribe("channel.subscription", CHANNEL_ID);   // Subs
-      subscribe("channel.vote", CHANNEL_ID);           // Votes (falls verfügbar)
-      subscribe("channel.stream.online", CHANNEL_ID);  // Stream Start
-      subscribe("channel.stream.offline", CHANNEL_ID); // Stream Ende
+      subscribe("channel.subscription", CHANNEL_ID);
+      subscribe("channel.vote", CHANNEL_ID);
+      subscribe("channel.stream.online", CHANNEL_ID);
+      subscribe("channel.stream.offline", CHANNEL_ID);
     }, 2000);
-
     return;
   }
 
-  // ===============================
   // CHAT MESSAGE
-  // ===============================
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender?.username;
-    if (!user) return;
-    if (user.toLowerCase() === BOT_NAME.toLowerCase()) return;
+    if (!user || user.toLowerCase() === BOT_NAME.toLowerCase()) return;
 
-    const msg =
-      typeof payload.message === "string"
-        ? payload.message
-        : payload.message?.text || "";
+    const msg = typeof payload.message === "string"
+      ? payload.message
+      : payload.message?.text || "";
 
     if (!msg) return;
-
     console.log(`${user}: ${msg}`);
 
-    // Chat-Counter erhöhen
     stats.totalChatMessages += 1;
     saveStats(stats);
 
     // Emotes tracken
     const emotes = payload.message?.emotes || payload.emotes || [];
-    if (Array.isArray(emotes)) {
+    if (Array.isArray(emotes) && emotes.length > 0) {
       emotes.forEach(emote => {
         const id = emote.id || emote.emoteId;
         const name = emote.name || emote.emoteName || id;
@@ -211,189 +246,164 @@ socket.on("eventsub", async (message) => {
           stats.emoteNames[id] = name;
         }
       });
-      if (emotes.length > 0) saveStats(stats);
+      saveStats(stats);
     }
 
-    // Memory (nur echte Messages)
     if (!msg.startsWith("!")) {
       chatMemory.push({ user, msg });
       if (chatMemory.length > 10) chatMemory.shift();
     }
 
-    const lang = detectLanguage(msg);
     const msgLow = msg.toLowerCase().trim();
+    const lang   = detectLanguage(msg);
 
-    // ===============================
-    // !stats – HAUPTFEATURE
-    // ===============================
+    // COMMANDS
     if (msgLow === "!stats") {
-      const topEmote = getTopEmote();
-      const streamTime = formatMinutes(stats.totalStreamMinutes);
-
       await sendChat(
-        `📊 BlazeianBot Stats | ` +
-        `🗳️ Votes: ${stats.totalVotes} | ` +
-        `⭐ Subs: ${stats.totalSubs} | ` +
-        `💬 Chat-Msgs: ${stats.totalChatMessages} | ` +
-        `🕐 Stream-Zeit: ${streamTime} | ` +
-        `🏆 Top Emote: ${topEmote}`
+        `📊 Stats | 🗳️ Votes: ${stats.totalVotes} | ⭐ Subs: ${stats.totalSubs} | ` +
+        `💬 Msgs: ${stats.totalChatMessages} | 🕐 Zeit: ${formatMinutes(stats.totalStreamMinutes)} | ` +
+        `🏆 Top Emote: ${getTopEmote()}`
       );
       return;
     }
+    if (msgLow === "!votes") { await sendChat(`🗳️ Votes gesamt: ${stats.totalVotes}`); return; }
+    if (msgLow === "!subs")  { await sendChat(`⭐ Subs gesamt: ${stats.totalSubs}`); return; }
+    if (msgLow === "!chat")  { await sendChat(`💬 Chat-Nachrichten gesamt: ${stats.totalChatMessages}`); return; }
+    if (msgLow === "!time")  { await sendChat(`🕐 Stream-Zeit gesamt: ${formatMinutes(stats.totalStreamMinutes)}`); return; }
+    if (msgLow === "!emote") { await sendChat(`🏆 Top Emote: ${getTopEmote()}`); return; }
 
-    // ===============================
-    // !votes
-    // ===============================
-    if (msgLow === "!votes") {
-      await sendChat(`🗳️ Bisher erhaltene Votes: ${stats.totalVotes}`);
-      return;
-    }
-
-    // ===============================
-    // !subs
-    // ===============================
-    if (msgLow === "!subs") {
-      await sendChat(`⭐ Bisher erhaltene Subs: ${stats.totalSubs}`);
-      return;
-    }
-
-    // ===============================
-    // !chat
-    // ===============================
-    if (msgLow === "!chat") {
-      await sendChat(`💬 Bisher erhaltene Chat-Nachrichten: ${stats.totalChatMessages}`);
-      return;
-    }
-
-    // ===============================
-    // !time
-    // ===============================
-    if (msgLow === "!time") {
-      await sendChat(`🕐 Bisher gestreamt: ${formatMinutes(stats.totalStreamMinutes)}`);
-      return;
-    }
-
-    // ===============================
-    // !emote
-    // ===============================
-    if (msgLow === "!emote") {
-      await sendChat(`🏆 Meistgenutztes Emote: ${getTopEmote()}`);
-      return;
-    }
-
-    // ===============================
-    // !commands – Hilfe
-    // ===============================
     if (msgLow === "!commands" || msgLow === "!help") {
-      await sendChat(
-        `🤖 Commands: !stats | !votes | !subs | !chat | !time | !emote | !translate`
-      );
+      await sendChat(`🤖 Commands: !stats | !votes | !subs | !chat | !time | !emote | !translate`);
       return;
     }
 
-    // ===============================
-    // !join
-    // ===============================
     if (msgLow === "!join") {
-      await sendChat(`👋 Hey ${user}, ich bin bereits verbunden und höre zu!`);
+      await sendChat(`👋 Hey ${user}, ich bin bereits verbunden!`);
       return;
     }
 
-    // ===============================
-    // !translate
-    // ===============================
     if (msgLow.startsWith("!translate")) {
       const last = chatMemory.slice(-3);
-      const text =
-        last.length > 0
-          ? last.map(m => `${m.user}: ${m.msg}`).join(" | ")
-          : "Noch keine Nachrichten.";
+      const text = last.length > 0 ? last.map(m => `${m.user}: ${m.msg}`).join(" | ") : "Noch keine Nachrichten.";
       await sendChat(`🌍 Letzte 3 Msgs: ${text}`);
       return;
     }
 
-    // ===============================
-    // GREETING
-    // ===============================
     if (msgLow.includes("hi") || msgLow.includes("hello") || msgLow.includes("hallo")) {
-      const reply =
-        lang === "de" ? `Hallo ${user} 👋` :
-        lang === "es" ? `¡Hola ${user} 👋` :
-        lang === "fr" ? `Salut ${user} 👋` :
-        `Hello ${user} 👋`;
+      const reply = lang === "de" ? `Hallo ${user} 👋` : lang === "es" ? `¡Hola ${user} 👋` : lang === "fr" ? `Salut ${user} 👋` : `Hello ${user} 👋`;
       await sendChat(reply);
       return;
     }
-
     return;
   }
 
-  // ===============================
-  // SUBSCRIPTION EVENT (neuer Sub)
-  // ===============================
+  // SUB EVENT
   if (metadata.subscriptionType === "channel.subscription") {
     const user = payload.user?.username || payload.subscriber?.username || "Someone";
     stats.totalSubs += 1;
     saveStats(stats);
-    console.log("New Sub:", user);
     await sendChat(`⭐ ${user} hat gerade gesubs! Danke! (Gesamt: ${stats.totalSubs})`);
     return;
   }
 
-  // ===============================
   // VOTE EVENT
-  // ===============================
   if (metadata.subscriptionType === "channel.vote") {
     const user = payload.user?.username || payload.voter?.username || "Someone";
     stats.totalVotes += 1;
     saveStats(stats);
-    console.log("New Vote:", user);
     await sendChat(`🗳️ ${user} hat gevoted! Danke! (Gesamt: ${stats.totalVotes})`);
     return;
   }
 
-  // ===============================
-  // STREAM ONLINE / OFFLINE
-  // ===============================
-  if (metadata.subscriptionType === "channel.stream.online") {
-    console.log("Stream ist live!");
-    startStreamTimer();
-    return;
-  }
+  // STREAM ON/OFF
+  if (metadata.subscriptionType === "channel.stream.online")  { startStreamTimer(); return; }
+  if (metadata.subscriptionType === "channel.stream.offline") { stats.streamStartTime = null; saveStats(stats); return; }
 
-  if (metadata.subscriptionType === "channel.stream.offline") {
-    console.log("Stream offline.");
-    stats.streamStartTime = null;
-    saveStats(stats);
-    return;
-  }
-
-  // Alle anderen Events loggen
   console.log("EVENT:", JSON.stringify(message, null, 2));
-});
+}
 
 // ===============================
-// STATUS
+// OAUTH ROUTES
 // ===============================
-socket.on("connect", () => console.log("Socket connected ✅"));
-socket.on("connect_error", err => console.log("Socket error:", err.message));
 
-// ===============================
-// WEB SERVER
-// ===============================
-app.get("/", (req, res) => {
+// Step 1: Login-Seite – öffne diese URL im Browser um neuen Token zu holen
+app.get("/login", (req, res) => {
+  const url = `https://api.blaze.stream/oauth/authorize?` +
+    `client_id=${CLIENT_ID}` +
+    `&redirect_uri=${encodeURIComponent(REDIRECT_URI)}` +
+    `&response_type=code` +
+    `&scope=chat:read+chat:write+channel:read`;
+
   res.send(`
-    <h1>BlazeianBot ✅</h1>
-    <p>Stats:</p>
-    <pre>${JSON.stringify(stats, null, 2)}</pre>
+    <html><body style="font-family:sans-serif;padding:40px;background:#111;color:#fff;">
+      <h1>🤖 BlazeianBot – Token erneuern</h1>
+      <p>Klicke den Button um dich bei Blaze einzuloggen und einen neuen Token zu holen:</p>
+      <a href="${url}" style="background:#f5a623;color:#000;padding:16px 32px;border-radius:8px;text-decoration:none;font-size:18px;font-weight:bold;">
+        🔑 Mit Blaze einloggen
+      </a>
+    </body></html>
   `);
 });
 
-// Stats API endpoint (optional nützlich)
-app.get("/stats", (req, res) => {
-  res.json(stats);
+// Step 2: Callback – Blaze leitet hier hin nach Login
+app.get("/callback", async (req, res) => {
+  const code = req.query.code;
+  if (!code) return res.send("Fehler: Kein Code erhalten.");
+
+  try {
+    const tokenRes = await axios.post("https://api.blaze.stream/oauth/token", {
+      grant_type:    "authorization_code",
+      code,
+      redirect_uri:  REDIRECT_URI,
+      client_id:     CLIENT_ID,
+      client_secret: CLIENT_SECRET
+    });
+
+    ACCESS_TOKEN  = tokenRes.data.access_token;
+    REFRESH_TOKEN = tokenRes.data.refresh_token;
+
+    console.log("New token received ✅");
+    console.log("ACCESS_TOKEN:", ACCESS_TOKEN);
+    console.log("REFRESH_TOKEN:", REFRESH_TOKEN);
+
+    // Reconnect socket with new token
+    connectSocket();
+
+    res.send(`
+      <html><body style="font-family:sans-serif;padding:40px;background:#111;color:#fff;">
+        <h1>✅ Token erfolgreich!</h1>
+        <p>BlazeianBot ist jetzt neu verbunden.</p>
+        <p style="color:#aaa;">Kopiere diese Tokens in deine Render Environment Variables:</p>
+        <p><strong>BLAZE_ACCESS_TOKEN:</strong><br><code style="color:#f5a623;word-break:break-all;">${ACCESS_TOKEN}</code></p>
+        <p><strong>BLAZE_REFRESH_TOKEN:</strong><br><code style="color:#f5a623;word-break:break-all;">${REFRESH_TOKEN}</code></p>
+        <p style="color:#aaa;font-size:14px;">Der Bot läuft bereits – aber speichere die Tokens in Render damit sie nach einem Neustart noch da sind.</p>
+      </body></html>
+    `);
+  } catch (e) {
+    console.log("Token exchange error:", e.response?.data || e.message);
+    res.send("Fehler beim Token-Austausch: " + JSON.stringify(e.response?.data || e.message));
+  }
 });
 
+// Status-Seite
+app.get("/", (req, res) => {
+  res.send(`
+    <html><body style="font-family:sans-serif;padding:40px;background:#111;color:#fff;">
+      <h1>🤖 BlazeianBot</h1>
+      <p>Status: <strong style="color:#4caf50;">Running ✅</strong></p>
+      <p>Token vorhanden: <strong>${ACCESS_TOKEN ? "✅ Ja" : "❌ Nein – <a href='/login'>jetzt einloggen</a>"}</strong></p>
+      <pre style="background:#222;padding:16px;border-radius:8px;">${JSON.stringify({...stats, _timerRunning: undefined}, null, 2)}</pre>
+      <p><a href="/login" style="color:#f5a623;">🔑 Token erneuern</a></p>
+    </body></html>
+  `);
+});
+
+app.get("/stats", (req, res) => res.json(stats));
+
+// ===============================
+// START
+// ===============================
 app.listen(PORT, "0.0.0.0", () => {
   console.log("Server running on port", PORT);
+  connectSocket();
 });
