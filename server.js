@@ -310,7 +310,7 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     );
     if (ownedChannelId) {
       await sendChat(ownedChannelId, `👋 Goodbye! BlazeianBot is leaving ${user}'s channel. Type !join at blaze.stream/blazeian_bot to re-add me anytime.`);
-      if (isBotChannel) await sendChat(BOT_CHANNEL_ID, `👋 @${user} Done! I've left your channel.`);
+      if (isBotChannel) await sendChat(BOT_CHANNEL_ID, `👋😢 @${user} Done! I've left your channel... I'll miss you!`);
       delete channels[ownedChannelId];
       saveChannels();
     } else if (isBotChannel) {
