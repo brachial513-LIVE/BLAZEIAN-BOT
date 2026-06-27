@@ -51,14 +51,31 @@ setInterval(refreshAccessToken, 20 * 60 * 60 * 1000);
 const CHANNELS_FILE = path.join(__dirname, "channels.json");
 
 function loadChannels() {
+  // Try file first
   try {
-    if (fs.existsSync(CHANNELS_FILE)) return JSON.parse(fs.readFileSync(CHANNELS_FILE, "utf8"));
+    if (fs.existsSync(CHANNELS_FILE)) {
+      const data = JSON.parse(fs.readFileSync(CHANNELS_FILE, "utf8"));
+      if (Object.keys(data).length > 0) {
+        console.log("Loaded channels from file:", Object.keys(data).length);
+        return data;
+      }
+    }
+  } catch(e) {}
+  // Fallback: load from JOINED_CHANNELS env var (set this in Render after first !join)
+  try {
+    if (process.env.JOINED_CHANNELS) {
+      const data = JSON.parse(process.env.JOINED_CHANNELS);
+      console.log("Loaded channels from env var:", Object.keys(data).length);
+      return data;
+    }
   } catch(e) {}
   return {};
 }
 
 function saveChannels() {
   try { fs.writeFileSync(CHANNELS_FILE, JSON.stringify(channels, null, 2)); } catch(e) {}
+  // Print snapshot so you can copy it to JOINED_CHANNELS env var in Render
+  console.log("CHANNELS_BACKUP=" + JSON.stringify(JSON.stringify(channels)));
 }
 
 let channels = loadChannels();
@@ -217,22 +234,22 @@ function connectSocket() {
   socket.on("eventsub", handleEvent);
 }
 
+// Only event types confirmed working by Blaze API
+const VALID_EVENT_TYPES = ["channel.chat.message", "channel.follow", "channel.vote"];
+
 function subscribeAllChannels() {
-  const eventTypes = [
-    "channel.chat.message", "channel.follow",
-    "channel.subscription", "channel.vote",
-    "channel.stream.online", "channel.stream.offline"
-  ];
+  // Subscribe to bot's own channel
+  VALID_EVENT_TYPES.forEach(t => subscribe(t, BOT_CHANNEL_ID));
 
-  // Always subscribe to bot's own channel
-  eventTypes.forEach(t => subscribe(t, BOT_CHANNEL_ID));
-
-  // Subscribe to all joined channels
-  Object.keys(channels).forEach(channelId => {
-    if (channelId !== BOT_CHANNEL_ID) {
-      eventTypes.forEach(t => subscribe(t, channelId));
-    }
-  });
+  // Auto-rejoin all previously joined channels after restart
+  const joined = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
+  if (joined.length > 0) {
+    console.log(`Auto-rejoining ${joined.length} channel(s)...`);
+    joined.forEach(channelId => {
+      console.log(`  -> ${channels[channelId].username}`);
+      VALID_EVENT_TYPES.forEach(t => subscribe(t, channelId));
+    });
+  }
 }
 
 // ===============================
