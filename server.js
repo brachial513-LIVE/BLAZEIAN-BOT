@@ -302,13 +302,19 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   }
 
   // ==============================
-  // !leave – streamer can remove bot
+  // !leave - works from bot channel OR own channel
   // ==============================
-  if (m === "!leave" && !isBotChannel && ch) {
-    if (user.toLowerCase() === ch.username.toLowerCase()) {
-      await sendChat(channelId, `👋 Goodbye! BlazeianBot is leaving ${ch.username}'s channel. Type !join at blaze.stream/blazeian_bot to re-add me anytime.`);
-      delete channels[channelId];
+  if (m === "!leave") {
+    const ownedChannelId = Object.keys(channels).find(
+      id => channels[id].username.toLowerCase() === user.toLowerCase()
+    );
+    if (ownedChannelId) {
+      await sendChat(ownedChannelId, `👋 Goodbye! BlazeianBot is leaving ${user}'s channel. Type !join at blaze.stream/blazeian_bot to re-add me anytime.`);
+      if (isBotChannel) await sendChat(BOT_CHANNEL_ID, `👋 @${user} Done! I've left your channel.`);
+      delete channels[ownedChannelId];
       saveChannels();
+    } else if (isBotChannel) {
+      await sendChat(BOT_CHANNEL_ID, `@${user} I'm not in your channel. Use !join first!`);
     }
     return;
   }
