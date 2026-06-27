@@ -17,7 +17,7 @@ const BOT_NAME       = "blazeian_bot";
 const CLIENT_ID      = process.env.BLAZE_CLIENT_ID;
 const CLIENT_SECRET  = process.env.BLAZE_CLIENT_SECRET;
 const REDIRECT_URI   = "https://blazeian-bot.onrender.com/callback";
-const ANTHROPIC_KEY  = process.env.ANTHROPIC_API_KEY;
+// No external translation API needed – uses free Google Translate
 
 // ===============================
 // TOKEN STATE
@@ -149,46 +149,59 @@ async function getChannelIdBySlug(slug) {
 // ===============================
 // TRANSLATE via Claude API
 // ===============================
-const LANG_NAMES = {
-  german: "German", deutsch: "German",
-  english: "English", englisch: "English",
-  spanish: "Spanish", spanish: "Spanish", spanisch: "Spanish",
-  french: "French", französisch: "French", francais: "French",
-  portuguese: "Portuguese", portugiesisch: "Portuguese",
-  italian: "Italian", italienisch: "Italian",
-  dutch: "Dutch", niederländisch: "Dutch",
-  russian: "Russian", russisch: "Russian",
-  japanese: "Japanese", japanisch: "Japanese",
-  korean: "Korean", koreanisch: "Korean",
-  chinese: "Chinese", chinesisch: "Chinese",
-  arabic: "Arabic", arabisch: "Arabic",
-  turkish: "Turkish", türkisch: "Turkish",
-  polish: "Polish", polnisch: "Polish",
-  swedish: "Swedish", schwedisch: "Swedish",
+// Language code map for Google Translate
+const LANG_CODES = {
+  german: "de", deutsch: "de",
+  english: "en", englisch: "en",
+  spanish: "es", spanisch: "es",
+  french: "fr", französisch: "fr", francais: "fr",
+  portuguese: "pt", portugiesisch: "pt",
+  italian: "it", italienisch: "it",
+  dutch: "nl", niederländisch: "nl",
+  russian: "ru", russisch: "ru",
+  japanese: "ja", japanisch: "ja",
+  korean: "ko", koreanisch: "ko",
+  chinese: "zh", chinesisch: "zh",
+  arabic: "ar", arabisch: "ar",
+  turkish: "tr", türkisch: "tr",
+  polish: "pl", polnisch: "pl",
+  swedish: "sv", schwedisch: "sv",
+  ukrainian: "uk", ukrainisch: "uk",
+  romanian: "ro", rumänisch: "ro",
+  hindi: "hi",
 };
 
-async function translateWithClaude(texts, targetLang) {
-  if (!ANTHROPIC_KEY) return null;
+const LANG_DISPLAY = {
+  de: "German", en: "English", es: "Spanish", fr: "French",
+  pt: "Portuguese", it: "Italian", nl: "Dutch", ru: "Russian",
+  ja: "Japanese", ko: "Korean", zh: "Chinese", ar: "Arabic",
+  tr: "Turkish", pl: "Polish", sv: "Swedish", uk: "Ukrainian",
+  ro: "Romanian", hi: "Hindi",
+};
+
+async function translateText(text, targetLangCode) {
   try {
-    const res = await axios.post("https://api.anthropic.com/v1/messages", {
-      model: "claude-sonnet-4-6",
-      max_tokens: 300,
-      messages: [{
-        role: "user",
-        content: `Translate these chat messages to ${targetLang}. Keep the format "Username: message". Only return the translations, nothing else:\n\n${texts}`
-      }]
-    }, {
-      headers: {
-        "x-api-key": ANTHROPIC_KEY,
-        "anthropic-version": "2023-06-01",
-        "content-type": "application/json"
-      }
-    });
-    return res.data.content[0].text.trim();
+    const encoded = encodeURIComponent(text);
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLangCode}&dt=t&q=${encoded}`;
+    const res = await axios.get(url, { timeout: 5000 });
+    // Google returns nested arrays: [[["translated","original",...],...],...]
+    const parts = res.data[0];
+    if (!parts) return null;
+    return parts.map(p => p[0]).filter(Boolean).join("");
   } catch (e) {
-    console.log("Claude translate error:", e.response?.data || e.message);
+    console.log("Translate error:", e.message);
     return null;
   }
+}
+
+async function translateMessages(messages, targetLangCode) {
+  // Translate each message individually to keep username labels
+  const results = [];
+  for (const { user, msg } of messages) {
+    const translated = await translateText(msg, targetLangCode);
+    results.push(`${user}: ${translated || msg}`);
+  }
+  return results.join(" | ");
 }
 
 // ===============================
@@ -315,28 +328,28 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   if (m.startsWith("!explain")) {
     const parts = msg.trim().split(/\s+/);
     const langInput = (parts[1] || "").toLowerCase();
-    const targetLang = LANG_NAMES[langInput];
+    const langCode = LANG_CODES[langInput];
 
-    if (!langInput || !targetLang) {
+    if (!langInput || !langCode) {
       await sendChat(channelId,
-        `@${user} Please specify a language! Example: !explain German | !explain Spanish | !explain French | !explain Japanese`
+        `@${user} Please specify a language! Example: !explain German | !explain Spanish | !explain French | !explain Japanese | !explain Russian`
       );
       return;
     }
 
     const last3 = (ch.chatMemory || []).slice(-3);
     if (!last3.length) {
-      await sendChat(channelId, `@${user} No recent messages to translate yet!`);
+      await sendChat(channelId, `@${user} No recent messages to translate yet! Chat a bit first.`);
       return;
     }
 
-    const textToTranslate = last3.map(x => `${x.user}: ${x.msg}`).join("\n");
-    const translated = await translateWithClaude(textToTranslate, targetLang);
+    const translated = await translateMessages(last3, langCode);
+    const langName = LANG_DISPLAY[langCode] || langInput;
 
     if (translated) {
-      await sendChat(channelId, `🌍 [${targetLang}] ${translated.replace(/\n/g, " | ")}`);
+      await sendChat(channelId, `🌍 [${langName}] ${translated}`);
     } else {
-      await sendChat(channelId, `@${user} Translation unavailable right now. (ANTHROPIC_API_KEY missing in Render?)`);
+      await sendChat(channelId, `@${user} Translation failed, please try again!`);
     }
     return;
   }
