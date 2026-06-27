@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 // ===============================
 // CONFIG
 // ===============================
-const BOT_CHANNEL_ID = "514160a7-fd05-4d7b-9932-a0143aa40d1c"; // blazeian_bot channel
+const BOT_CHANNEL_ID = "514160a7-fd05-4d7b-9932-a0143aa40d1c";
 const BOT_NAME       = "blazeian_bot";
 const CLIENT_ID      = process.env.BLAZE_CLIENT_ID;
 const CLIENT_SECRET  = process.env.BLAZE_CLIENT_SECRET;
@@ -81,11 +81,14 @@ function getOrCreateChannel(channelId, username) {
   if (!channels[channelId]) {
     channels[channelId] = {
       username,
+      language: "en",
       stats: { totalVotes: 0, totalSubs: 0, totalChatMessages: 0, totalStreamMinutes: 0, emotes: {}, emoteNames: {} },
       chatMemory: []
     };
     saveChannels();
   }
+  // Ensure language field exists for old entries
+  if (!channels[channelId].language) channels[channelId].language = "en";
   return channels[channelId];
 }
 
@@ -110,6 +113,146 @@ function getTopEmote(stats) {
   if (!e.length) return "None yet";
   e.sort((a, b) => b[1] - a[1]);
   return `${stats.emoteNames[e[0][0]] || e[0][0]} (${e[0][1]}x)`;
+}
+
+// ===============================
+// LANGUAGE SYSTEM
+// ===============================
+const LANG_CODES = {
+  german: "de", deutsch: "de",
+  english: "en", englisch: "en",
+  spanish: "es", spanisch: "es", español: "es",
+  french: "fr", französisch: "fr", francais: "fr",
+  portuguese: "pt", portugiesisch: "pt",
+  italian: "it", italienisch: "it",
+  dutch: "nl", niederländisch: "nl",
+  russian: "ru", russisch: "ru",
+  japanese: "ja", japanisch: "ja",
+  korean: "ko", koreanisch: "ko",
+  chinese: "zh", chinesisch: "zh",
+  arabic: "ar", arabisch: "ar",
+  turkish: "tr", türkisch: "tr",
+  polish: "pl", polnisch: "pl",
+  swedish: "sv", schwedisch: "sv",
+  ukrainian: "uk", ukrainisch: "uk",
+  romanian: "ro", rumänisch: "ro",
+  hindi: "hi",
+};
+
+const LANG_DISPLAY = {
+  de: "German", en: "English", es: "Spanish", fr: "French",
+  pt: "Portuguese", it: "Italian", nl: "Dutch", ru: "Russian",
+  ja: "Japanese", ko: "Korean", zh: "Chinese", ar: "Arabic",
+  tr: "Turkish", pl: "Polish", sv: "Swedish", uk: "Ukrainian",
+  ro: "Romanian", hi: "Hindi",
+};
+
+// ===============================
+// BOT MESSAGES per language
+// 70% warm & loving, 30% loveable crazy
+// ===============================
+const MESSAGES = {
+  en: {
+    raid: (raider) => [
+      `WAIT— HOLD ON— 💚🔥 ...okay I'm fine. WELCOME ${raider} and your amazing crew!! You just made this place so much better by showing up 🫶 We love every single one of you!!`,
+      `OH?! OH WOW— ${raider} just raided us?! I'm not crying you're crying 😭💚 Welcome welcome WELCOME to the family, every single one of you belongs here 🔥`,
+      `SOMEONE TELL ME I'M NOT DREAMING— ${raider} brought the whole squad?! 🔥💚 Come in, sit down, we saved you a spot. You're home now. 🫶`,
+    ],
+    sub: (user) => [
+      `${user} just subscribed?! I— 💚 ...I need a moment. Thank you so much, genuinely. You beautiful human being 🫶🔥`,
+      `WAIT ${user} SUBBED?! Okay okay okay— 💚💚 I love you, the streamer loves you, CHAT loves you. Best decision of your life honestly 😭🔥`,
+      `${user}!! You subscribed!! I'm putting your name in my heart right now 💚 No seriously, thank you so much. You're incredible 🫶`,
+    ],
+    giftsub: (sender, count) => [
+      `${sender} just gifted ${count} sub(s)?! WHO DOES THAT?! 💚🔥 An absolute LEGEND, that's who. Chat, show some love RIGHT NOW 🫶`,
+      `GIFTED SUBS?! ${sender} said "everyone gets love today" and dropped ${count} sub(s)!! 😭💚 We don't deserve you but we're SO glad you're here 🔥`,
+    ],
+    vote: (user, amount) => [
+      `${user} voted with ${amount}! 🗳️💚 Every single vote means the world here, thank you for showing up 🔥`,
+      `OH ${user} VOTED?! ${amount} power coming in hot!! 🔥💚 You're literally fueling this whole thing, we see you and we LOVE you 🫶`,
+      `${user} dropped ${amount} votes like it's nothing?! 💚 Absolute legend behavior. Thank you so much 🔥🫶`,
+    ],
+    follow: (user) => [
+      `❤️ @${user} just followed!! Welcome to the family 💚 So glad you're here, stay a while 🫶`,
+      `@${user} FOLLOWED?! 💚🔥 Best decision today honestly. Welcome welcome welcome!! 🫶`,
+    ],
+    langSet: (lang) => `✅ Bot language set to ${lang}! I'll speak ${lang} in this channel from now on 💚`,
+    langInvalid: `❌ That language isn't supported yet! Try: English, German, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Korean, Chinese, Arabic, Turkish, Polish, Swedish, Ukrainian, Romanian or Hindi 💚`,
+    cmdList: `🤖 BlazeianBot commands: !stats | !votes | !subs | !chat | !time | !emote | !explain [language] | !setbotlang [language] — Example: !explain German`,
+    noMessages: (user) => `@${user} No recent messages to translate yet! Chat a bit first 💚`,
+    translateFail: (user) => `@${user} Translation failed, please try again! 💚`,
+    explainUsage: (user) => `@${user} Please specify a language! Example: !explain German | !explain Spanish | !explain Japanese 💚`,
+    greeting: (user, streamer) => `Hey @${user}! 👋💚 Welcome to ${streamer}'s stream! So glad you're here 🫶`,
+  },
+  de: {
+    raid: (raider) => [
+      `WARTE— ICH— 💚🔥 ...okay alles gut. WILLKOMMEN ${raider} und eure ganze Crew!! Ihr macht diesen Ort so viel besser 🫶 Wir lieben euch alle!!`,
+      `OH?! OH WOW— ${raider} hat uns geraided?! Ich weine nicht, du weinst 😭💚 Willkommen willkommen WILLKOMMEN in der Familie, ihr gehört alle hier her 🔥`,
+      `JEMAND SAGT MIR ICH TRÄUME NICHT— ${raider} hat die ganze Gang mitgebracht?! 🔥💚 Kommt rein, setzt euch, wir haben Platz für euch. Ihr seid zuhause. 🫶`,
+    ],
+    sub: (user) => [
+      `${user} hat subscribed?! Ich— 💚 ...ich brauch kurz. Danke so sehr, wirklich. Du wunderbarer Mensch 🫶🔥`,
+      `WARTE ${user} HAT GESUBBT?! Okay okay okay— 💚💚 Ich liebe dich, der Streamer liebt dich, CHAT liebt dich. Beste Entscheidung deines Lebens ehrlich gesagt 😭🔥`,
+      `${user}!! Du hast subscribed!! Ich schreibe deinen Namen gerade in mein Herz 💚 Ernsthaft, danke so sehr. Du bist unglaublich 🫶`,
+    ],
+    giftsub: (sender, count) => [
+      `${sender} hat gerade ${count} Sub(s) verschenkt?! WER MACHT DAS?! 💚🔥 Eine absolute LEGENDE, das ist wer. Chat, zeigt jetzt Liebe 🫶`,
+      `GESCHENKTE SUBS?! ${sender} hat gesagt "heute kriegen alle Liebe" und ${count} Sub(s) rausgehauen!! 😭💚 Wir verdienen dich nicht aber wir sind SO froh dass du hier bist 🔥`,
+    ],
+    vote: (user, amount) => [
+      `${user} hat mit ${amount} gevotet! 🗳️💚 Jeder einzelne Vote bedeutet hier die Welt, danke dass du da bist 🔥`,
+      `OH ${user} HAT GEVOTET?! ${amount} Power kommt rein!! 🔥💚 Du treibst das hier buchstäblich an, wir sehen dich und wir LIEBEN dich 🫶`,
+      `${user} hat ${amount} Votes hingeworfen als wär's nix?! 💚 Absolute Legende. Danke so sehr 🔥🫶`,
+    ],
+    follow: (user) => [
+      `❤️ @${user} ist gefolgt!! Willkommen in der Familie 💚 So froh dass du hier bist 🫶`,
+      `@${user} HAT GEFOLGT?! 💚🔥 Beste Entscheidung heute ehrlich. Willkommen willkommen willkommen!! 🫶`,
+    ],
+    langSet: (lang) => `✅ Bot-Sprache auf ${lang} gesetzt! Ich spreche ab jetzt ${lang} in diesem Kanal 💚`,
+    langInvalid: `❌ Diese Sprache wird noch nicht unterstützt! Versuch: English, German, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Korean, Chinese, Arabic, Turkish, Polish, Swedish, Ukrainian, Romanian oder Hindi 💚`,
+    cmdList: `🤖 BlazeianBot Befehle: !stats | !votes | !subs | !chat | !time | !emote | !explain [Sprache] | !setbotlang [Sprache] — Beispiel: !explain German`,
+    noMessages: (user) => `@${user} Noch keine Nachrichten zum Übersetzen! Chattet erst etwas 💚`,
+    translateFail: (user) => `@${user} Übersetzung fehlgeschlagen, versuch's nochmal! 💚`,
+    explainUsage: (user) => `@${user} Bitte gib eine Sprache an! Beispiel: !explain German | !explain Spanish | !explain Japanese 💚`,
+    greeting: (user, streamer) => `Hey @${user}! 👋💚 Willkommen in ${streamer}'s Stream! So froh dass du hier bist 🫶`,
+  },
+  es: {
+    raid: (raider) => [
+      `ESPERA— YO— 💚🔥 ...bien estoy bien. ¡BIENVENIDOS ${raider} y toda su crew!! Hacéis este lugar mucho mejor 🫶 ¡Os amamos a todos!!`,
+      `¿OH?! ¡OH WOW— ${raider} nos ha hecho raid?! Yo no estoy llorando, tú estás llorando 😭💚 ¡Bienvenidos bienvenidos BIENVENIDOS a la familia! 🔥`,
+    ],
+    sub: (user) => [
+      `¿${user} acaba de subscribirse?! Yo— 💚 ...necesito un momento. Gracias de verdad, ser humano maravilloso 🫶🔥`,
+      `¡¿${user} SE HA SUBSCRITO?! Okay okay okay— 💚💚 Te quiero, el streamer te quiere, el CHAT te quiere. La mejor decisión de tu vida 😭🔥`,
+    ],
+    giftsub: (sender, count) => [
+      `¿${sender} acaba de regalar ${count} sub(s)?! ¡¿QUIÉN HACE ESO?! 💚🔥 Una LEYENDA absoluta, eso es. Chat, ¡mostrad amor AHORA! 🫶`,
+    ],
+    vote: (user, amount) => [
+      `¡${user} votó con ${amount}! 🗳️💚 Cada voto importa muchísimo aquí, gracias por estar 🔥`,
+      `¿${user} VOTÓ?! ¡${amount} de poder entrando fuerte!! 🔥💚 Te vemos y te AMAMOS 🫶`,
+    ],
+    follow: (user) => [
+      `❤️ ¡@${user} acaba de seguir!! Bienvenido a la familia 💚 Qué alegría que estés aquí 🫶`,
+    ],
+    langSet: (lang) => `✅ ¡Idioma del bot configurado a ${lang}! Hablaré ${lang} en este canal 💚`,
+    langInvalid: `❌ ¡Ese idioma no está soportado aún! Prueba: English, German, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Korean, Chinese, Arabic, Turkish, Polish, Swedish, Ukrainian, Romanian o Hindi 💚`,
+    cmdList: `🤖 Comandos de BlazeianBot: !stats | !votes | !subs | !chat | !time | !emote | !explain [idioma] | !setbotlang [idioma] — Ejemplo: !explain German`,
+    noMessages: (user) => `@${user} ¡Aún no hay mensajes para traducir! Chatea un poco primero 💚`,
+    translateFail: (user) => `@${user} ¡Traducción fallida, inténtalo de nuevo! 💚`,
+    explainUsage: (user) => `@${user} ¡Especifica un idioma! Ejemplo: !explain German | !explain Spanish | !explain Japanese 💚`,
+    greeting: (user, streamer) => `¡Hola @${user}! 👋💚 ¡Bienvenido al stream de ${streamer}! Qué alegría tenerte aquí 🫶`,
+  },
+};
+
+// Fallback to English for languages without full translation set
+function getMsg(channelId) {
+  const lang = channels[channelId]?.language || "en";
+  return MESSAGES[lang] || MESSAGES["en"];
+}
+
+function getRandom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
 }
 
 // ===============================
@@ -161,35 +304,6 @@ async function getChannelIdBySlug(slug) {
 // ===============================
 // TRANSLATE
 // ===============================
-const LANG_CODES = {
-  german: "de", deutsch: "de",
-  english: "en", englisch: "en",
-  spanish: "es", spanisch: "es",
-  french: "fr", französisch: "fr", francais: "fr",
-  portuguese: "pt", portugiesisch: "pt",
-  italian: "it", italienisch: "it",
-  dutch: "nl", niederländisch: "nl",
-  russian: "ru", russisch: "ru",
-  japanese: "ja", japanisch: "ja",
-  korean: "ko", koreanisch: "ko",
-  chinese: "zh", chinesisch: "zh",
-  arabic: "ar", arabisch: "ar",
-  turkish: "tr", türkisch: "tr",
-  polish: "pl", polnisch: "pl",
-  swedish: "sv", schwedisch: "sv",
-  ukrainian: "uk", ukrainisch: "uk",
-  romanian: "ro", rumänisch: "ro",
-  hindi: "hi",
-};
-
-const LANG_DISPLAY = {
-  de: "German", en: "English", es: "Spanish", fr: "French",
-  pt: "Portuguese", it: "Italian", nl: "Dutch", ru: "Russian",
-  ja: "Japanese", ko: "Korean", zh: "Chinese", ar: "Arabic",
-  tr: "Turkish", pl: "Polish", sv: "Swedish", uk: "Ukrainian",
-  ro: "Romanian", hi: "Hindi",
-};
-
 async function translateText(text, targetLangCode) {
   try {
     const encoded = encodeURIComponent(text);
@@ -235,7 +349,12 @@ function subscribeAllChannels() {
     console.log(`Auto-rejoining ${joined.length} channel(s)...`);
     joined.forEach(channelId => {
       console.log(`  -> ${channels[channelId].username}`);
-      VALID_EVENT_TYPES.forEach(t => subscribe(t, channelId));
+      const allTypes = [
+        "channel.chat.message", "channel.follow", "channel.vote",
+        "channel.subscribe", "channel.subscription.gift",
+        "channel.raid", "stream.online", "stream.offline"
+      ];
+      allTypes.forEach(t => subscribe(t, channelId));
     });
   }
 }
@@ -246,8 +365,9 @@ function subscribeAllChannels() {
 async function handleCommand(channelId, user, msg, isBotChannel) {
   const m = msg.toLowerCase().trim();
   const ch = channels[channelId];
+  const T = getMsg(channelId);
 
-  // !join – only works in BOT's channel
+  // !join – only in bot channel
   if (m === "!join" && isBotChannel) {
     const slug = user.toLowerCase();
     const newChannelId = await getChannelIdBySlug(slug);
@@ -261,20 +381,24 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
 
     if (channels[newChannelId]) {
       await sendChat(BOT_CHANNEL_ID,
-        `@${user} I'm already active in your channel! Use !stats, !votes, !subs, !time, !emote or !explain [language] there.`
+        `@${user} I'm already active in your channel! Use !stats, !votes, !subs, !time, !emote, !explain [language] or !setbotlang [language] there 💚`
       );
       return;
     }
 
     getOrCreateChannel(newChannelId, user);
-    const eventTypes = ["channel.chat.message","channel.follow","channel.subscription","channel.vote","channel.stream.online","channel.stream.offline"];
+    const eventTypes = [
+      "channel.chat.message", "channel.follow", "channel.vote",
+      "channel.subscribe", "channel.subscription.gift",
+      "channel.raid", "stream.online", "stream.offline"
+    ];
     eventTypes.forEach(t => subscribe(t, newChannelId));
 
     await sendChat(BOT_CHANNEL_ID,
-      `✅ @${user} Done! I've joined your channel. Your viewers can now use: !stats | !votes | !subs | !time | !emote | !explain [language]`
+      `✅ @${user} Done! I've joined your channel 💚 Your viewers can now use: !stats | !votes | !subs | !time | !emote | !explain [language] | !setbotlang [language]`
     );
     await sendChat(newChannelId,
-      `🤖 Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do.`
+      `🤖 Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do 💚🔥`
     );
     return;
   }
@@ -285,8 +409,8 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
       id => channels[id].username.toLowerCase() === user.toLowerCase()
     );
     if (ownedChannelId) {
-      await sendChat(ownedChannelId, `👋 Goodbye! BlazeianBot is leaving ${user}'s channel. Type !join at blaze.stream/blazeian_bot to re-add me anytime.`);
-      if (isBotChannel) await sendChat(BOT_CHANNEL_ID, `👋😢 @${user} Done! I've left your channel... I'll miss you!`);
+      await sendChat(ownedChannelId, `👋 Goodbye! BlazeianBot is leaving ${user}'s channel. Type !join at blaze.stream/blazeian_bot to re-add me anytime 💚`);
+      if (isBotChannel) await sendChat(BOT_CHANNEL_ID, `👋😢 @${user} Done! I've left your channel... I'll miss you so much!! 💚`);
       delete channels[ownedChannelId];
       saveChannels();
     } else if (isBotChannel) {
@@ -298,6 +422,24 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   // Commands below only work in joined channels
   if (isBotChannel || !ch) return;
 
+  // !setbotlang [language] – owner only
+  if (m.startsWith("!setbotlang")) {
+    const parts = msg.trim().split(/\s+/);
+    const langInput = (parts[1] || "").toLowerCase();
+    const langCode = LANG_CODES[langInput];
+
+    if (!langCode) {
+      await sendChat(channelId, T.langInvalid);
+      return;
+    }
+
+    channels[channelId].language = langCode;
+    saveChannels();
+    const newT = MESSAGES[langCode] || MESSAGES["en"];
+    await sendChat(channelId, newT.langSet(LANG_DISPLAY[langCode]));
+    return;
+  }
+
   // !stats
   if (m === "!stats") {
     const s = ch.stats;
@@ -307,17 +449,15 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
-  if (m === "!votes") { await sendChat(channelId, `🗳️ Total votes for ${ch.username}: ${ch.stats.totalVotes}`); return; }
-  if (m === "!subs")  { await sendChat(channelId, `⭐ Total subs for ${ch.username}: ${ch.stats.totalSubs}`); return; }
-  if (m === "!chat")  { await sendChat(channelId, `💬 Total chat messages tracked: ${ch.stats.totalChatMessages}`); return; }
-  if (m === "!time")  { await sendChat(channelId, `🕐 Total stream time for ${ch.username}: ${formatTime(ch.stats.totalStreamMinutes)}`); return; }
-  if (m === "!emote") { await sendChat(channelId, `🏆 Most used emote in ${ch.username}'s chat: ${getTopEmote(ch.stats)}`); return; }
+  if (m === "!votes") { await sendChat(channelId, `🗳️ Total votes for ${ch.username}: ${ch.stats.totalVotes} 💚`); return; }
+  if (m === "!subs")  { await sendChat(channelId, `⭐ Total subs for ${ch.username}: ${ch.stats.totalSubs} 💚`); return; }
+  if (m === "!chat")  { await sendChat(channelId, `💬 Total chat messages tracked: ${ch.stats.totalChatMessages} 💚`); return; }
+  if (m === "!time")  { await sendChat(channelId, `🕐 Total stream time for ${ch.username}: ${formatTime(ch.stats.totalStreamMinutes)} 💚`); return; }
+  if (m === "!emote") { await sendChat(channelId, `🏆 Most used emote in ${ch.username}'s chat: ${getTopEmote(ch.stats)} 💚`); return; }
 
-  // !cmd / !help  (renamed from !commands to avoid conflict with Botger)
+  // !cmd / !help
   if (m === "!cmd" || m === "!help") {
-    await sendChat(channelId,
-      `🤖 BlazeianBot commands: !stats | !votes | !subs | !chat | !time | !emote | !explain [language] — Example: !explain German`
-    );
+    await sendChat(channelId, T.cmdList);
     return;
   }
 
@@ -328,15 +468,13 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     const langCode = LANG_CODES[langInput];
 
     if (!langInput || !langCode) {
-      await sendChat(channelId,
-        `@${user} Please specify a language! Example: !explain German | !explain Spanish | !explain French | !explain Japanese | !explain Russian`
-      );
+      await sendChat(channelId, T.explainUsage(user));
       return;
     }
 
     const last3 = (ch.chatMemory || []).slice(-3);
     if (!last3.length) {
-      await sendChat(channelId, `@${user} No recent messages to translate yet! Chat a bit first.`);
+      await sendChat(channelId, T.noMessages(user));
       return;
     }
 
@@ -346,14 +484,14 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     if (translated) {
       await sendChat(channelId, `🌍 [${langName}] ${translated}`);
     } else {
-      await sendChat(channelId, `@${user} Translation failed, please try again!`);
+      await sendChat(channelId, T.translateFail(user));
     }
     return;
   }
 
   // Greeting
   if (m.includes("hello") || m.includes("hi ") || m === "hi" || m.includes("hey ") || m === "hey") {
-    await sendChat(channelId, `Hey @${user}! 👋 Welcome to ${ch.username}'s stream!`);
+    await sendChat(channelId, T.greeting(user, ch.username));
     return;
   }
 }
@@ -364,11 +502,12 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
 async function handleEvent(message) {
   const { metadata, payload } = message;
 
+  // SESSION START
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
     console.log("SESSION:", global.SESSION_ID);
     if (ACCESS_TOKEN) {
-      await sendChat(BOT_CHANNEL_ID, "🤖 BlazeianBot is online! Type !join here to add me to your channel.");
+      await sendChat(BOT_CHANNEL_ID, "🤖💚 BlazeianBot is online! Type !join here to add me to your channel 🔥");
       setTimeout(subscribeAllChannels, 2000);
     } else {
       console.log("No token – visit /login");
@@ -376,11 +515,12 @@ async function handleEvent(message) {
     return;
   }
 
+  const channelId = payload.channelId || payload.condition?.channelId;
+
+  // CHAT MESSAGE
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender?.username;
     if (!user || user.toLowerCase() === BOT_NAME.toLowerCase()) return;
-
-    const channelId = payload.channelId || payload.condition?.channelId;
     if (!channelId) return;
 
     const msg = typeof payload.message === "string" ? payload.message : payload.message?.text || "";
@@ -416,38 +556,66 @@ async function handleEvent(message) {
     return;
   }
 
-  const channelId = payload.channelId || payload.condition?.channelId;
+  // RAID
+  if (metadata.subscriptionType === "channel.raid" && channelId && channels[channelId]) {
+    const raider = payload.raider?.username || payload.raider?.displayName || "Someone";
+    const T = getMsg(channelId);
+    await sendChat(channelId, getRandom(T.raid(raider)));
+    return;
+  }
 
-  if (metadata.subscriptionType === "channel.subscription" && channelId && channels[channelId]) {
-    const user = payload.user?.username || payload.subscriber?.username || "someone";
+  // SUBSCRIPTION
+  if (metadata.subscriptionType === "channel.subscribe" && channelId && channels[channelId]) {
+    const user = payload.subscriber?.username || payload.subscriber?.displayName || "someone";
     channels[channelId].stats.totalSubs++;
     saveChannels();
-    await sendChat(channelId, `⭐ ${user} just subscribed! Thank you! (Total: ${channels[channelId].stats.totalSubs})`);
+    const T = getMsg(channelId);
+    await sendChat(channelId, getRandom(T.sub(user)));
     return;
   }
 
-  if (metadata.subscriptionType === "channel.vote" && channelId && channels[channelId]) {
-    const user = payload.user?.username || payload.voter?.username || "someone";
-    channels[channelId].stats.totalVotes++;
+  // GIFT SUBSCRIPTION
+  if (metadata.subscriptionType === "channel.subscription.gift" && channelId && channels[channelId]) {
+    const sender = payload.sender?.username || payload.sender?.displayName || "someone";
+    const count = payload.giftCount || 1;
+    channels[channelId].stats.totalSubs += count;
     saveChannels();
-    await sendChat(channelId, `🗳️ ${user} voted! Thank you! (Total: ${channels[channelId].stats.totalVotes})`);
+    const T = getMsg(channelId);
+    await sendChat(channelId, getRandom(T.giftsub(sender, count)));
     return;
   }
 
-  if (metadata.subscriptionType === "channel.stream.online" && channelId && channels[channelId]) {
+  // VOTE
+  if (metadata.subscriptionType === "channel.vote" && channelId && channels[channelId]) {
+    const user = payload.voter?.username || payload.voter?.displayName || "someone";
+    const amount = payload.amount || 1;
+    channels[channelId].stats.totalVotes += amount;
+    saveChannels();
+    const T = getMsg(channelId);
+    await sendChat(channelId, getRandom(T.vote(user, amount)));
+    return;
+  }
+
+  // FOLLOW
+  if (metadata.subscriptionType === "channel.follow" && channelId && channels[channelId]) {
+    const user = payload.follower?.username || payload.follower?.displayName;
+    if (user) {
+      const T = getMsg(channelId);
+      await sendChat(channelId, getRandom(T.follow(user)));
+    }
+    return;
+  }
+
+  // STREAM ONLINE
+  if (metadata.subscriptionType === "stream.online" && channelId && channels[channelId]) {
     startStreamTimer(channelId);
     return;
   }
 
-  if (metadata.subscriptionType === "channel.stream.offline" && channelId && channels[channelId]) {
+  // STREAM OFFLINE
+  if (metadata.subscriptionType === "stream.offline" && channelId && channels[channelId]) {
     if (streamTimers[channelId]) { clearInterval(streamTimers[channelId]); delete streamTimers[channelId]; }
     saveChannels();
-    return;
-  }
-
-  if (metadata.subscriptionType === "channel.follow" && channelId && channels[channelId]) {
-    const user = payload.user?.username || payload.follower?.username;
-    if (user) await sendChat(channelId, `❤️ @${user} just followed! Welcome!`);
     return;
   }
 }
@@ -506,7 +674,7 @@ app.get("/callback", async (req, res) => {
 
 app.get("/", (req, res) => {
   const joinedList = Object.entries(channels)
-    .map(([id, ch]) => `<li><strong>${ch.username}</strong> (${id}) – Msgs: ${ch.stats.totalChatMessages}, Subs: ${ch.stats.totalSubs}, Votes: ${ch.stats.totalVotes}</li>`)
+    .map(([id, ch]) => `<li><strong>${ch.username}</strong> (${id}) – Lang: ${ch.language || "en"} | Msgs: ${ch.stats.totalChatMessages}, Subs: ${ch.stats.totalSubs}, Votes: ${ch.stats.totalVotes}</li>`)
     .join("") || "<li>No channels joined yet</li>";
 
   res.send(`
