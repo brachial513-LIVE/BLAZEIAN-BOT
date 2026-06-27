@@ -690,6 +690,29 @@ app.get("/", (req, res) => {
 
 app.get("/stats", (req, res) => res.json(channels));
 
+// Admin: remove a channel by username
+// Usage: https://blazeian-bot.onrender.com/admin/remove/mistersupercool
+app.get("/admin/remove/:username", async (req, res) => {
+  const username = req.params.username.toLowerCase();
+  const channelId = Object.keys(channels).find(
+    id => channels[id].username.toLowerCase() === username
+  );
+  if (!channelId) {
+    return res.send(`❌ Channel "${username}" not found in database.`);
+  }
+  delete channels[channelId];
+  await saveChannelsToCloud();
+  res.send(`✅ Removed "${username}" (${channelId}) from database. They can !join again now.`);
+});
+
+// Admin: list all channels
+app.get("/admin/list", (req, res) => {
+  const list = Object.entries(channels).map(([id, ch]) =>
+    `${ch.username} (${id}) – Lang: ${ch.language || "en"} | Msgs: ${ch.stats.totalChatMessages}`
+  ).join("\n");
+  res.send(`<pre>${list || "No channels"}</pre>`);
+});
+
 // ===============================
 // START
 // ===============================
