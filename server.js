@@ -1,8 +1,6 @@
 const express = require("express");
 const axios = require("axios");
 const { io } = require("socket.io-client");
-const fs = require("fs");
-const path = require("path");
 const crypto = require("crypto");
 
 const app = express();
@@ -48,37 +46,43 @@ setInterval(refreshAccessToken, 20 * 60 * 60 * 1000);
 // JOINED CHANNELS
 // channels[channelId] = { username, slug, stats: {...}, chatMemory: [] }
 // ===============================
-const CHANNELS_FILE = path.join(__dirname, "channels.json");
+// ===============================
+// JSONBIN PERSISTENCE
+// Channels survive Render restarts/deploys
+// ===============================
+const JSONBIN_URL = `https://api.jsonbin.io/v3/b/${process.env.JSONBIN_BIN_ID}`;
+const JSONBIN_HEADERS = {
+  "Content-Type": "application/json",
+  "X-Master-Key": process.env.JSONBIN_KEY
+};
 
-function loadChannels() {
-  // Try file first
+async function loadChannelsFromCloud() {
   try {
-    if (fs.existsSync(CHANNELS_FILE)) {
-      const data = JSON.parse(fs.readFileSync(CHANNELS_FILE, "utf8"));
-      if (Object.keys(data).length > 0) {
-        console.log("Loaded channels from file:", Object.keys(data).length);
-        return data;
-      }
-    }
-  } catch(e) {}
-  // Fallback: load from JOINED_CHANNELS env var (set this in Render after first !join)
-  try {
-    if (process.env.JOINED_CHANNELS) {
-      const data = JSON.parse(process.env.JOINED_CHANNELS);
-      console.log("Loaded channels from env var:", Object.keys(data).length);
-      return data;
-    }
-  } catch(e) {}
-  return {};
+    const res = await axios.get(JSONBIN_URL, { headers: JSONBIN_HEADERS });
+    const data = res.data.record?.channels || res.data.record || {};
+    console.log("Loaded channels from JSONBin:", Object.keys(data).length);
+    return data;
+  } catch(e) {
+    console.log("JSONBin load error:", e.response?.data || e.message);
+    return {};
+  }
 }
 
+async function saveChannelsToCloud() {
+  try {
+    await axios.put(JSONBIN_URL, { channels }, { headers: JSONBIN_HEADERS });
+    console.log("Channels saved to JSONBin ✅");
+  } catch(e) {
+    console.log("JSONBin save error:", e.response?.data || e.message);
+  }
+}
+
+// Sync wrapper so existing saveChannels() calls still work
 function saveChannels() {
-  try { fs.writeFileSync(CHANNELS_FILE, JSON.stringify(channels, null, 2)); } catch(e) {}
-  // Print snapshot so you can copy it to JOINED_CHANNELS env var in Render
-  console.log("CHANNELS_BACKUP=" + JSON.stringify(JSON.stringify(channels)));
+  saveChannelsToCloud().catch(e => console.log("Save error:", e.message));
 }
 
-let channels = loadChannels();
+let channels = {}; // Will be loaded from JSONBin on startup
 
 function getOrCreateChannel(channelId, username) {
   if (!channels[channelId]) {
@@ -561,7 +565,10 @@ app.get("/stats", (req, res) => res.json(channels));
 // ===============================
 // START
 // ===============================
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, "0.0.0.0", async () => {
   console.log("Server running on port", PORT);
+  // Load channels from JSONBin before connecting
+  channels = await loadChannelsFromCloud();
+  console.log(`Loaded ${Object.keys(channels).length} channel(s) from cloud`);
   connectSocket();
 });
