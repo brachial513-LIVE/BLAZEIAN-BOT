@@ -968,6 +968,10 @@ app.get("/", (req, res) => {
     </div>`;
   }).join("") || `<p class="muted" style="text-align:center;">No crew yet — be the first to type <b>!join</b>! 💚</p>`;
 
+  const blazeMark = process.env.BLAZE_LOGO_URL
+    ? `<img src="${process.env.BLAZE_LOGO_URL}" alt="BLAZE" style="height:26px;vertical-align:middle;margin-left:4px;">`
+    : `<span class="blazeword">BLAZE</span>`;
+
   res.send(`${pageHead("BlazeianBot — Loyal on Blaze")}
     <style>
       .hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px;padding:42px 0 10px;text-align:left;}
@@ -993,6 +997,10 @@ app.get("/", (req, res) => {
       .muted2{color:#6f836f;font-style:italic;}
       .foot{text-align:center;color:#6f836f;font-size:12px;margin-top:34px;line-height:1.7;}
       .foot b{color:#9fc99f;}
+      .blazebtn{display:inline-flex;align-items:center;gap:11px;background:linear-gradient(135deg,#1d1d1d,#0c0c0c);color:#fff;font-weight:800;font-size:18px;padding:18px 38px;border-radius:14px;text-decoration:none;border:2px solid #f5a623;box-shadow:0 0 26px rgba(245,166,35,.55);animation:bpulse 2.2s ease-in-out infinite;transition:transform .15s;}
+      .blazebtn:hover{transform:translateY(-2px) scale(1.02);}
+      .blazeword{font-weight:900;font-style:italic;color:#ffc62e;text-shadow:2px 2px 0 #6b3d00,3px 3px 0 #4a2a00;letter-spacing:1px;font-size:23px;}
+      @keyframes bpulse{0%,100%{box-shadow:0 0 22px rgba(245,166,35,.5);}50%{box-shadow:0 0 44px rgba(245,166,35,.92);}}
     </style>
 
     <div class="hero">
@@ -1008,8 +1016,8 @@ app.get("/", (req, res) => {
       <span class="pill">🌍 <b>18</b> languages</span>
     </div>
 
-    <div class="card" style="text-align:center;margin-top:18px;">
-      <a class="save" href="/dashboard" style="margin:4px;">🎛️ Streamer Dashboard — Login with Blaze</a>
+    <div style="text-align:center;margin-top:24px;">
+      <a class="blazebtn" href="/dashboard">🎛️ Streamer Dashboard &nbsp;·&nbsp; Login with ${blazeMark}</a>
     </div>
 
     <div class="point">👇 My crew — proud of every one of them 👇</div>
