@@ -1,38 +1,52 @@
 const express = require("express");
 const axios = require("axios");
 const { io } = require("socket.io-client");
-const crypto = require("crypto");
 
 const app = express();
 app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
-// ===============================
-// CONFIG
-// ===============================
 const BOT_CHANNEL_ID = "514160a7-fd05-4d7b-9932-a0143aa40d1c";
+const BOT_USER_ID    = "514160a7-fd05-4d7b-9932-a0143aa40d1c";
 const BOT_NAME       = "blazeian_bot";
 const CLIENT_ID      = process.env.BLAZE_CLIENT_ID;
 const CLIENT_SECRET  = process.env.BLAZE_CLIENT_SECRET;
 const REDIRECT_URI   = "https://blazeian-bot.onrender.com/callback";
 
-// ===============================
-// TOKEN STATE
-// ===============================
+// User token (for socket/events)
 let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN  || null;
 let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
 
+// App token (for sending chat - bypasses follow requirement)
+let APP_ACCESS_TOKEN = null;
+
+async function getAppAccessToken() {
+  try {
+    const res = await axios.post("https://blaze.stream/bapi/oauth2/token", {
+      clientId: CLIENT_ID,
+      clientSecret: CLIENT_SECRET,
+      grantType: "client_credentials"
+    });
+    APP_ACCESS_TOKEN = res.data.accessToken;
+    console.log("App token acquired");
+    setTimeout(getAppAccessToken, 6 * 24 * 60 * 60 * 1000);
+  } catch(e) {
+    console.log("App token error:", e.response?.data || e.message);
+    setTimeout(getAppAccessToken, 5 * 60 * 1000);
+  }
+}
+
 async function refreshAccessToken() {
-  if (!REFRESH_TOKEN) { console.log("No refresh token – need /login"); return false; }
+  if (!REFRESH_TOKEN) { console.log("No refresh token"); return false; }
   try {
     const res = await axios.post("https://blaze.stream/bapi/oauth2/refresh", {
       clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, refreshToken: REFRESH_TOKEN
     });
     ACCESS_TOKEN  = res.data.accessToken;
     REFRESH_TOKEN = res.data.refreshToken || REFRESH_TOKEN;
-    console.log("Token refreshed ✅");
+    console.log("Token refreshed");
     return true;
   } catch (e) {
     console.log("Refresh error:", e.response?.data || e.message);
@@ -41,9 +55,7 @@ async function refreshAccessToken() {
 }
 setInterval(refreshAccessToken, 20 * 60 * 60 * 1000);
 
-// ===============================
-// JSONBIN PERSISTENCE
-// ===============================
+// JSONBin
 const JSONBIN_URL = `https://api.jsonbin.io/v3/b/${process.env.JSONBIN_BIN_ID}`;
 const JSONBIN_HEADERS = {
   "Content-Type": "application/json",
@@ -54,7 +66,7 @@ async function loadChannelsFromCloud() {
   try {
     const res = await axios.get(JSONBIN_URL, { headers: JSONBIN_HEADERS });
     const data = res.data.record?.channels || res.data.record || {};
-    console.log("Loaded channels from JSONBin:", Object.keys(data).length);
+    console.log("Loaded channels:", Object.keys(data).length);
     return data;
   } catch(e) {
     console.log("JSONBin load error:", e.response?.data || e.message);
@@ -65,7 +77,7 @@ async function loadChannelsFromCloud() {
 async function saveChannelsToCloud() {
   try {
     await axios.put(JSONBIN_URL, { channels }, { headers: JSONBIN_HEADERS });
-    console.log("Channels saved to JSONBin ✅");
+    console.log("Channels saved");
   } catch(e) {
     console.log("JSONBin save error:", e.response?.data || e.message);
   }
@@ -87,7 +99,6 @@ function getOrCreateChannel(channelId, username) {
     };
     saveChannels();
   }
-  // Ensure language field exists for old entries
   if (!channels[channelId].language) channels[channelId].language = "en";
   return channels[channelId];
 }
@@ -115,27 +126,25 @@ function getTopEmote(stats) {
   return `${stats.emoteNames[e[0][0]] || e[0][0]} (${e[0][1]}x)`;
 }
 
-// ===============================
-// LANGUAGE SYSTEM
-// ===============================
+// Language system
 const LANG_CODES = {
   german: "de", deutsch: "de",
   english: "en", englisch: "en",
-  spanish: "es", spanisch: "es", español: "es",
-  french: "fr", französisch: "fr", francais: "fr",
-  portuguese: "pt", portugiesisch: "pt",
-  italian: "it", italienisch: "it",
-  dutch: "nl", niederländisch: "nl",
-  russian: "ru", russisch: "ru",
-  japanese: "ja", japanisch: "ja",
-  korean: "ko", koreanisch: "ko",
-  chinese: "zh", chinesisch: "zh",
-  arabic: "ar", arabisch: "ar",
-  turkish: "tr", türkisch: "tr",
-  polish: "pl", polnisch: "pl",
-  swedish: "sv", schwedisch: "sv",
-  ukrainian: "uk", ukrainisch: "uk",
-  romanian: "ro", rumänisch: "ro",
+  spanish: "es", spanisch: "es",
+  french: "fr",
+  portuguese: "pt",
+  italian: "it",
+  dutch: "nl",
+  russian: "ru",
+  japanese: "ja",
+  korean: "ko",
+  chinese: "zh",
+  arabic: "ar",
+  turkish: "tr",
+  polish: "pl",
+  swedish: "sv",
+  ukrainian: "uk",
+  romanian: "ro",
   hindi: "hi",
 };
 
@@ -147,20 +156,17 @@ const LANG_DISPLAY = {
   ro: "Romanian", hi: "Hindi",
 };
 
-// ===============================
-// BOT MESSAGES per language
-// 70% warm & loving, 30% loveable crazy
-// ===============================
+// Bot messages with personality
 const MESSAGES = {
   en: {
     raid: (raider) => [
-      `WAIT— HOLD ON— 💚🔥 ...okay I'm fine. WELCOME ${raider} and your amazing crew!! You just made this place so much better by showing up 🫶 We love every single one of you!!`,
-      `OH?! OH WOW— ${raider} just raided us?! I'm not crying you're crying 😭💚 Welcome welcome WELCOME to the family, every single one of you belongs here 🔥`,
-      `SOMEONE TELL ME I'M NOT DREAMING— ${raider} brought the whole squad?! 🔥💚 Come in, sit down, we saved you a spot. You're home now. 🫶`,
+      `WAIT HOLD ON-- 💚🔥 ...okay I'm fine. WELCOME ${raider} and your amazing crew!! You just made this place so much better by showing up 🫶 We love every single one of you!!`,
+      `OH?! OH WOW-- ${raider} just raided us?! I'm not crying you're crying 😭💚 Welcome welcome WELCOME to the family, every single one of you belongs here 🔥`,
+      `SOMEONE TELL ME I'M NOT DREAMING-- ${raider} brought the whole squad?! 🔥💚 Come in, sit down, we saved you a spot. You're home now. 🫶`,
     ],
     sub: (user) => [
-      `${user} just subscribed?! I— 💚 ...I need a moment. Thank you so much, genuinely. You beautiful human being 🫶🔥`,
-      `WAIT ${user} SUBBED?! Okay okay okay— 💚💚 I love you, the streamer loves you, CHAT loves you. Best decision of your life honestly 😭🔥`,
+      `${user} just subscribed?! I-- 💚 ...I need a moment. Thank you so much, genuinely. You beautiful human being 🫶🔥`,
+      `WAIT ${user} SUBBED?! Okay okay okay-- 💚💚 I love you, the streamer loves you, CHAT loves you. Best decision of your life honestly 😭🔥`,
       `${user}!! You subscribed!! I'm putting your name in my heart right now 💚 No seriously, thank you so much. You're incredible 🫶`,
     ],
     giftsub: (sender, count) => [
@@ -173,79 +179,70 @@ const MESSAGES = {
       `${user} dropped ${amount} votes like it's nothing?! 💚 Absolute legend behavior. Thank you so much 🔥🫶`,
     ],
     follow: (user) => [
-      `❤️ @${user} just followed!! Welcome to the family 💚 So glad you're here, stay a while 🫶`,
+      `@${user} just followed!! Welcome to the family 💚 So glad you're here, stay a while 🫶`,
       `@${user} FOLLOWED?! 💚🔥 Best decision today honestly. Welcome welcome welcome!! 🫶`,
     ],
-    langSet: (lang) => `✅ Bot language set to ${lang}! I'll speak ${lang} in this channel from now on 💚`,
-    langInvalid: `❌ That language isn't supported yet! Try: English, German, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Korean, Chinese, Arabic, Turkish, Polish, Swedish, Ukrainian, Romanian or Hindi 💚`,
-    cmdList: `🤖 BlazeianBot commands: !stats | !votes | !subs | !chat | !time | !emote | !explain [language] | !setbotlang [language] — Example: !explain German`,
+    langSet: (lang) => `Bot language set to ${lang}! 💚`,
+    langInvalid: `That language is not supported yet! Try: English, German, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Korean, Chinese, Arabic, Turkish, Polish, Swedish, Ukrainian, Romanian or Hindi 💚`,
+    cmdList: `BlazeianBot commands: !stats | !votes | !subs | !chat | !time | !emote | !explain [language] | !setbotlang [language] 💚`,
     noMessages: (user) => `@${user} No recent messages to translate yet! Chat a bit first 💚`,
     translateFail: (user) => `@${user} Translation failed, please try again! 💚`,
-    explainUsage: (user) => `@${user} Please specify a language! Example: !explain German | !explain Spanish | !explain Japanese 💚`,
+    explainUsage: (user) => `@${user} Please specify a language! Example: !explain German 💚`,
     greeting: (user, streamer) => `Hey @${user}! 👋💚 Welcome to ${streamer}'s stream! So glad you're here 🫶`,
   },
   de: {
     raid: (raider) => [
-      `WARTE— ICH— 💚🔥 ...okay alles gut. WILLKOMMEN ${raider} und eure ganze Crew!! Ihr macht diesen Ort so viel besser 🫶 Wir lieben euch alle!!`,
-      `OH?! OH WOW— ${raider} hat uns geraided?! Ich weine nicht, du weinst 😭💚 Willkommen willkommen WILLKOMMEN in der Familie, ihr gehört alle hier her 🔥`,
-      `JEMAND SAGT MIR ICH TRÄUME NICHT— ${raider} hat die ganze Gang mitgebracht?! 🔥💚 Kommt rein, setzt euch, wir haben Platz für euch. Ihr seid zuhause. 🫶`,
+      `WARTE-- ICH-- 💚🔥 ...okay alles gut. WILLKOMMEN ${raider} und eure ganze Crew!! Ihr macht diesen Ort so viel besser 🫶 Wir lieben euch alle!!`,
+      `OH?! OH WOW-- ${raider} hat uns geraided?! Ich weine nicht, du weinst 😭💚 Willkommen willkommen WILLKOMMEN in der Familie! 🔥`,
     ],
     sub: (user) => [
-      `${user} hat subscribed?! Ich— 💚 ...ich brauch kurz. Danke so sehr, wirklich. Du wunderbarer Mensch 🫶🔥`,
-      `WARTE ${user} HAT GESUBBT?! Okay okay okay— 💚💚 Ich liebe dich, der Streamer liebt dich, CHAT liebt dich. Beste Entscheidung deines Lebens ehrlich gesagt 😭🔥`,
-      `${user}!! Du hast subscribed!! Ich schreibe deinen Namen gerade in mein Herz 💚 Ernsthaft, danke so sehr. Du bist unglaublich 🫶`,
+      `${user} hat subscribed?! Ich-- 💚 ...ich brauch kurz. Danke so sehr, wirklich. Du wunderbarer Mensch 🫶🔥`,
+      `WARTE ${user} HAT GESUBBT?! Okay okay okay-- 💚💚 Ich liebe dich, der Streamer liebt dich, CHAT liebt dich 😭🔥`,
     ],
     giftsub: (sender, count) => [
-      `${sender} hat gerade ${count} Sub(s) verschenkt?! WER MACHT DAS?! 💚🔥 Eine absolute LEGENDE, das ist wer. Chat, zeigt jetzt Liebe 🫶`,
-      `GESCHENKTE SUBS?! ${sender} hat gesagt "heute kriegen alle Liebe" und ${count} Sub(s) rausgehauen!! 😭💚 Wir verdienen dich nicht aber wir sind SO froh dass du hier bist 🔥`,
+      `${sender} hat gerade ${count} Sub(s) verschenkt?! WER MACHT DAS?! 💚🔥 Eine absolute LEGENDE! Chat, zeigt jetzt Liebe 🫶`,
     ],
     vote: (user, amount) => [
-      `${user} hat mit ${amount} gevotet! 🗳️💚 Jeder einzelne Vote bedeutet hier die Welt, danke dass du da bist 🔥`,
-      `OH ${user} HAT GEVOTET?! ${amount} Power kommt rein!! 🔥💚 Du treibst das hier buchstäblich an, wir sehen dich und wir LIEBEN dich 🫶`,
-      `${user} hat ${amount} Votes hingeworfen als wär's nix?! 💚 Absolute Legende. Danke so sehr 🔥🫶`,
+      `${user} hat mit ${amount} gevotet! 🗳️💚 Danke dass du da bist 🔥`,
+      `OH ${user} HAT GEVOTET?! ${amount} Power kommt rein!! 🔥💚 Wir lieben dich 🫶`,
     ],
     follow: (user) => [
-      `❤️ @${user} ist gefolgt!! Willkommen in der Familie 💚 So froh dass du hier bist 🫶`,
-      `@${user} HAT GEFOLGT?! 💚🔥 Beste Entscheidung heute ehrlich. Willkommen willkommen willkommen!! 🫶`,
+      `@${user} ist gefolgt!! Willkommen in der Familie 💚 So froh dass du hier bist 🫶`,
     ],
-    langSet: (lang) => `✅ Bot-Sprache auf ${lang} gesetzt! Ich spreche ab jetzt ${lang} in diesem Kanal 💚`,
-    langInvalid: `❌ Diese Sprache wird noch nicht unterstützt! Versuch: English, German, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Korean, Chinese, Arabic, Turkish, Polish, Swedish, Ukrainian, Romanian oder Hindi 💚`,
-    cmdList: `🤖 BlazeianBot Befehle: !stats | !votes | !subs | !chat | !time | !emote | !explain [Sprache] | !setbotlang [Sprache] — Beispiel: !explain German`,
-    noMessages: (user) => `@${user} Noch keine Nachrichten zum Übersetzen! Chattet erst etwas 💚`,
-    translateFail: (user) => `@${user} Übersetzung fehlgeschlagen, versuch's nochmal! 💚`,
-    explainUsage: (user) => `@${user} Bitte gib eine Sprache an! Beispiel: !explain German | !explain Spanish | !explain Japanese 💚`,
-    greeting: (user, streamer) => `Hey @${user}! 👋💚 Willkommen in ${streamer}'s Stream! So froh dass du hier bist 🫶`,
+    langSet: (lang) => `Bot-Sprache auf ${lang} gesetzt! 💚`,
+    langInvalid: `Diese Sprache wird noch nicht unterstuetzt! Versuch: English, German, Spanish ... 💚`,
+    cmdList: `BlazeianBot Befehle: !stats | !votes | !subs | !chat | !time | !emote | !explain [Sprache] | !setbotlang [Sprache] 💚`,
+    noMessages: (user) => `@${user} Noch keine Nachrichten zum Uebersetzen! 💚`,
+    translateFail: (user) => `@${user} Uebersetzung fehlgeschlagen! 💚`,
+    explainUsage: (user) => `@${user} Bitte gib eine Sprache an! Beispiel: !explain German 💚`,
+    greeting: (user, streamer) => `Hey @${user}! 👋💚 Willkommen in ${streamer}'s Stream! 🫶`,
   },
   es: {
     raid: (raider) => [
-      `ESPERA— YO— 💚🔥 ...bien estoy bien. ¡BIENVENIDOS ${raider} y toda su crew!! Hacéis este lugar mucho mejor 🫶 ¡Os amamos a todos!!`,
-      `¿OH?! ¡OH WOW— ${raider} nos ha hecho raid?! Yo no estoy llorando, tú estás llorando 😭💚 ¡Bienvenidos bienvenidos BIENVENIDOS a la familia! 🔥`,
+      `ESPERA-- YO-- 💚🔥 ...bien estoy bien. BIENVENIDOS ${raider} y toda su crew!! 🫶 Os amamos a todos!!`,
     ],
     sub: (user) => [
-      `¿${user} acaba de subscribirse?! Yo— 💚 ...necesito un momento. Gracias de verdad, ser humano maravilloso 🫶🔥`,
-      `¡¿${user} SE HA SUBSCRITO?! Okay okay okay— 💚💚 Te quiero, el streamer te quiere, el CHAT te quiere. La mejor decisión de tu vida 😭🔥`,
+      `${user} acaba de subscribirse?! 💚 Gracias de verdad, ser humano maravilloso 🫶🔥`,
     ],
     giftsub: (sender, count) => [
-      `¿${sender} acaba de regalar ${count} sub(s)?! ¡¿QUIÉN HACE ESO?! 💚🔥 Una LEYENDA absoluta, eso es. Chat, ¡mostrad amor AHORA! 🫶`,
+      `${sender} acaba de regalar ${count} sub(s)?! Una LEYENDA absoluta! Chat, mostrad amor AHORA! 💚🔥 🫶`,
     ],
     vote: (user, amount) => [
-      `¡${user} votó con ${amount}! 🗳️💚 Cada voto importa muchísimo aquí, gracias por estar 🔥`,
-      `¿${user} VOTÓ?! ¡${amount} de poder entrando fuerte!! 🔥💚 Te vemos y te AMAMOS 🫶`,
+      `${user} voto con ${amount}! 🗳️💚 Cada voto importa, gracias 🔥`,
     ],
     follow: (user) => [
-      `❤️ ¡@${user} acaba de seguir!! Bienvenido a la familia 💚 Qué alegría que estés aquí 🫶`,
+      `@${user} acaba de seguir!! Bienvenido a la familia 💚 🫶`,
     ],
-    langSet: (lang) => `✅ ¡Idioma del bot configurado a ${lang}! Hablaré ${lang} en este canal 💚`,
-    langInvalid: `❌ ¡Ese idioma no está soportado aún! Prueba: English, German, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Korean, Chinese, Arabic, Turkish, Polish, Swedish, Ukrainian, Romanian o Hindi 💚`,
-    cmdList: `🤖 Comandos de BlazeianBot: !stats | !votes | !subs | !chat | !time | !emote | !explain [idioma] | !setbotlang [idioma] — Ejemplo: !explain German`,
-    noMessages: (user) => `@${user} ¡Aún no hay mensajes para traducir! Chatea un poco primero 💚`,
-    translateFail: (user) => `@${user} ¡Traducción fallida, inténtalo de nuevo! 💚`,
-    explainUsage: (user) => `@${user} ¡Especifica un idioma! Ejemplo: !explain German | !explain Spanish | !explain Japanese 💚`,
-    greeting: (user, streamer) => `¡Hola @${user}! 👋💚 ¡Bienvenido al stream de ${streamer}! Qué alegría tenerte aquí 🫶`,
+    langSet: (lang) => `Idioma del bot configurado a ${lang}! 💚`,
+    langInvalid: `Ese idioma no esta soportado aun! 💚`,
+    cmdList: `Comandos de BlazeianBot: !stats | !votes | !subs | !chat | !time | !emote | !explain [idioma] | !setbotlang [idioma] 💚`,
+    noMessages: (user) => `@${user} No hay mensajes para traducir aun! 💚`,
+    translateFail: (user) => `@${user} Traduccion fallida! 💚`,
+    explainUsage: (user) => `@${user} Especifica un idioma! Ejemplo: !explain German 💚`,
+    greeting: (user, streamer) => `Hola @${user}! 👋💚 Bienvenido al stream de ${streamer}! 🫶`,
   },
 };
 
-// Fallback to English for languages without full translation set
 function getMsg(channelId) {
   const lang = channels[channelId]?.language || "en";
   return MESSAGES[lang] || MESSAGES["en"];
@@ -255,20 +252,40 @@ function getRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-// ===============================
-// BLAZE API HELPERS
-// ===============================
+// API helpers
 const API = "https://api.blaze.stream";
 const headers = () => ({
   authorization: `Bearer ${ACCESS_TOKEN}`,
   "client-id": CLIENT_ID,
   "content-type": "application/json"
 });
+const appHeaders = () => ({
+  authorization: `Bearer ${APP_ACCESS_TOKEN}`,
+  "client-id": CLIENT_ID,
+  "content-type": "application/json"
+});
 
 async function sendChat(channelId, message) {
+  // Try App Token first (no follow required)
+  if (APP_ACCESS_TOKEN) {
+    try {
+      await axios.post(`${API}/v1/chats/messages`,
+        { channelId, message, senderId: BOT_USER_ID },
+        { headers: appHeaders() }
+      );
+      console.log(`[${channelId}] BOT: ${message}`);
+      return;
+    } catch(e) {
+      if (e.response?.status === 401) {
+        await getAppAccessToken();
+      }
+      console.log("App token send failed, trying user token:", e.response?.data?.message || e.message);
+    }
+  }
+  // Fallback to user token
   try {
     await axios.post(`${API}/v1/chats/messages`, { channelId, message }, { headers: headers() });
-    console.log(`[${channelId}] BOT: ${message}`);
+    console.log(`[${channelId}] BOT (user token): ${message}`);
   } catch (e) {
     if (e.response?.status === 401) {
       const ok = await refreshAccessToken();
@@ -301,9 +318,6 @@ async function getChannelIdBySlug(slug) {
   return null;
 }
 
-// ===============================
-// TRANSLATE
-// ===============================
 async function translateText(text, targetLangCode) {
   try {
     const encoded = encodeURIComponent(text);
@@ -327,15 +341,13 @@ async function translateMessages(messages, targetLangCode) {
   return results.join(" | ");
 }
 
-// ===============================
-// SOCKET
-// ===============================
+// Socket
 let socket = null;
 
 function connectSocket() {
   if (socket) { try { socket.disconnect(); } catch(_) {} }
   socket = io("https://blaze.stream", { path: "/ws", transports: ["websocket"] });
-  socket.on("connect", () => console.log("Socket connected ✅"));
+  socket.on("connect", () => console.log("Socket connected"));
   socket.on("connect_error", err => console.log("Socket error:", err.message));
   socket.on("eventsub", handleEvent);
 }
@@ -348,7 +360,6 @@ function subscribeAllChannels() {
   if (joined.length > 0) {
     console.log(`Auto-rejoining ${joined.length} channel(s)...`);
     joined.forEach(channelId => {
-      console.log(`  -> ${channels[channelId].username}`);
       const allTypes = [
         "channel.chat.message", "channel.follow", "channel.vote",
         "channel.subscribe", "channel.subscription.gift",
@@ -359,33 +370,23 @@ function subscribeAllChannels() {
   }
 }
 
-// ===============================
-// COMMAND HANDLER
-// ===============================
+// Command handler
 async function handleCommand(channelId, user, msg, isBotChannel) {
   const m = msg.toLowerCase().trim();
   const ch = channels[channelId];
   const T = getMsg(channelId);
 
-  // !join – only in bot channel
   if (m === "!join" && isBotChannel) {
     const slug = user.toLowerCase();
     const newChannelId = await getChannelIdBySlug(slug);
-
     if (!newChannelId) {
-      await sendChat(BOT_CHANNEL_ID,
-        `@${user} Couldn't find your channel. Make sure your Blaze username matches your channel slug!`
-      );
+      await sendChat(BOT_CHANNEL_ID, `@${user} Couldn't find your channel. Make sure your Blaze username matches! 💚`);
       return;
     }
-
     if (channels[newChannelId]) {
-      await sendChat(BOT_CHANNEL_ID,
-        `@${user} I'm already active in your channel! Use !stats, !votes, !subs, !time, !emote, !explain [language] or !setbotlang [language] there 💚`
-      );
+      await sendChat(BOT_CHANNEL_ID, `@${user} I'm already active in your channel! 💚`);
       return;
     }
-
     getOrCreateChannel(newChannelId, user);
     const eventTypes = [
       "channel.chat.message", "channel.follow", "channel.vote",
@@ -393,17 +394,15 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
       "channel.raid", "stream.online", "stream.offline"
     ];
     eventTypes.forEach(t => subscribe(t, newChannelId));
-
     await sendChat(BOT_CHANNEL_ID,
-      `✅ @${user} Done! I've joined your channel 💚 Your viewers can now use: !stats | !votes | !subs | !time | !emote | !explain [language] | !setbotlang [language]`
+      `@${user} Done! I've joined your channel 💚 Your viewers can now use: !stats | !votes | !subs | !time | !emote | !explain [language] | !setbotlang [language]`
     );
     await sendChat(newChannelId,
-      `🤖 Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do 💚🔥`
+      `Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do 💚🔥`
     );
     return;
   }
 
-  // !leave
   if (m === "!leave") {
     const ownedChannelId = Object.keys(channels).find(
       id => channels[id].username.toLowerCase() === user.toLowerCase()
@@ -412,27 +411,20 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
       await sendChat(ownedChannelId, `👋 Goodbye! BlazeianBot is leaving ${user}'s channel. Type !join at blaze.stream/blazeian_bot to re-add me anytime 💚`);
       if (isBotChannel) await sendChat(BOT_CHANNEL_ID, `👋😢 @${user} Done! I've left your channel... I'll miss you so much!! 💚`);
       delete channels[ownedChannelId];
-      saveChannels();
+      await saveChannelsToCloud();
     } else if (isBotChannel) {
       await sendChat(BOT_CHANNEL_ID, `@${user} I'm not in your channel. Use !join first!`);
     }
     return;
   }
 
-  // Commands below only work in joined channels
   if (isBotChannel || !ch) return;
 
-  // !setbotlang [language] – owner only
   if (m.startsWith("!setbotlang")) {
     const parts = msg.trim().split(/\s+/);
     const langInput = (parts[1] || "").toLowerCase();
     const langCode = LANG_CODES[langInput];
-
-    if (!langCode) {
-      await sendChat(channelId, T.langInvalid);
-      return;
-    }
-
+    if (!langCode) { await sendChat(channelId, T.langInvalid); return; }
     channels[channelId].language = langCode;
     saveChannels();
     const newT = MESSAGES[langCode] || MESSAGES["en"];
@@ -440,99 +432,75 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
-  // !stats
   if (m === "!stats") {
     const s = ch.stats;
     await sendChat(channelId,
-      `📊 ${ch.username}'s Stats | 🗳️ Votes: ${s.totalVotes} | ⭐ Subs: ${s.totalSubs} | 💬 Msgs: ${s.totalChatMessages} | 🕐 Stream Time: ${formatTime(s.totalStreamMinutes)} | 🏆 Top Emote: ${getTopEmote(s)}`
+      `${ch.username}'s Stats | Votes: ${s.totalVotes} | Subs: ${s.totalSubs} | Msgs: ${s.totalChatMessages} | Stream Time: ${formatTime(s.totalStreamMinutes)} | Top Emote: ${getTopEmote(s)} 💚`
     );
     return;
   }
 
-  if (m === "!votes") { await sendChat(channelId, `🗳️ Total votes for ${ch.username}: ${ch.stats.totalVotes} 💚`); return; }
-  if (m === "!subs")  { await sendChat(channelId, `⭐ Total subs for ${ch.username}: ${ch.stats.totalSubs} 💚`); return; }
-  if (m === "!chat")  { await sendChat(channelId, `💬 Total chat messages tracked: ${ch.stats.totalChatMessages} 💚`); return; }
-  if (m === "!time")  { await sendChat(channelId, `🕐 Total stream time for ${ch.username}: ${formatTime(ch.stats.totalStreamMinutes)} 💚`); return; }
-  if (m === "!emote") { await sendChat(channelId, `🏆 Most used emote in ${ch.username}'s chat: ${getTopEmote(ch.stats)} 💚`); return; }
+  if (m === "!votes") { await sendChat(channelId, `Total votes for ${ch.username}: ${ch.stats.totalVotes} 💚`); return; }
+  if (m === "!subs")  { await sendChat(channelId, `Total subs for ${ch.username}: ${ch.stats.totalSubs} 💚`); return; }
+  if (m === "!chat")  { await sendChat(channelId, `Total chat messages tracked: ${ch.stats.totalChatMessages} 💚`); return; }
+  if (m === "!time")  { await sendChat(channelId, `Total stream time for ${ch.username}: ${formatTime(ch.stats.totalStreamMinutes)} 💚`); return; }
+  if (m === "!emote") { await sendChat(channelId, `Most used emote in ${ch.username}'s chat: ${getTopEmote(ch.stats)} 💚`); return; }
 
-  // !cmd / !help
   if (m === "!cmd" || m === "!help") {
     await sendChat(channelId, T.cmdList);
     return;
   }
 
-  // !explain [language]
   if (m.startsWith("!explain")) {
     const parts = msg.trim().split(/\s+/);
     const langInput = (parts[1] || "").toLowerCase();
     const langCode = LANG_CODES[langInput];
-
-    if (!langInput || !langCode) {
-      await sendChat(channelId, T.explainUsage(user));
-      return;
-    }
-
+    if (!langInput || !langCode) { await sendChat(channelId, T.explainUsage(user)); return; }
     const last3 = (ch.chatMemory || []).slice(-3);
-    if (!last3.length) {
-      await sendChat(channelId, T.noMessages(user));
-      return;
-    }
-
+    if (!last3.length) { await sendChat(channelId, T.noMessages(user)); return; }
     const translated = await translateMessages(last3, langCode);
-    const langName = LANG_DISPLAY[langCode] || langInput;
-
     if (translated) {
-      await sendChat(channelId, `🌍 [${langName}] ${translated}`);
+      await sendChat(channelId, `[${LANG_DISPLAY[langCode]}] ${translated}`);
     } else {
       await sendChat(channelId, T.translateFail(user));
     }
     return;
   }
 
-  // Greeting
   if (m.includes("hello") || m.includes("hi ") || m === "hi" || m.includes("hey ") || m === "hey") {
     await sendChat(channelId, T.greeting(user, ch.username));
     return;
   }
 }
 
-// ===============================
-// EVENT HANDLER
-// ===============================
+// Event handler
 async function handleEvent(message) {
   const { metadata, payload } = message;
 
-  // SESSION START
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
     console.log("SESSION:", global.SESSION_ID);
     if (ACCESS_TOKEN) {
-      await sendChat(BOT_CHANNEL_ID, "🤖💚 BlazeianBot is online! Type !join here to add me to your channel 🔥");
+      await sendChat(BOT_CHANNEL_ID, "BlazeianBot is online! Type !join here to add me to your channel 💚🔥");
       setTimeout(subscribeAllChannels, 2000);
-    } else {
-      console.log("No token – visit /login");
     }
     return;
   }
 
   const channelId = payload.channelId || payload.condition?.channelId;
 
-  // CHAT MESSAGE
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender?.username;
     if (!user || user.toLowerCase() === BOT_NAME.toLowerCase()) return;
     if (!channelId) return;
-
     const msg = typeof payload.message === "string" ? payload.message : payload.message?.text || "";
     if (!msg) return;
-
     const isBotChannel = channelId === BOT_CHANNEL_ID;
     console.log(`[${isBotChannel ? "BOT_CHAN" : channelId}] ${user}: ${msg}`);
 
     if (!isBotChannel && channels[channelId]) {
       const ch = channels[channelId];
       ch.stats.totalChatMessages++;
-
       const emotes = payload.message?.emotes || payload.emotes || [];
       if (Array.isArray(emotes) && emotes.length) {
         emotes.forEach(em => {
@@ -540,23 +508,19 @@ async function handleEvent(message) {
           if (id) { ch.stats.emotes[id] = (ch.stats.emotes[id] || 0) + 1; ch.stats.emoteNames[id] = name; }
         });
       }
-
       if (!msg.startsWith("!")) {
         if (!ch.chatMemory) ch.chatMemory = [];
         ch.chatMemory.push({ user, msg });
         if (ch.chatMemory.length > 10) ch.chatMemory.shift();
       }
-
       saveChannels();
     }
-
     if (msg.startsWith("!") || msg.toLowerCase().includes("hello") || msg.toLowerCase().includes("hi") || msg.toLowerCase().includes("hey")) {
       await handleCommand(channelId, user, msg, isBotChannel);
     }
     return;
   }
 
-  // RAID
   if (metadata.subscriptionType === "channel.raid" && channelId && channels[channelId]) {
     const raider = payload.raider?.username || payload.raider?.displayName || "Someone";
     const T = getMsg(channelId);
@@ -564,7 +528,6 @@ async function handleEvent(message) {
     return;
   }
 
-  // SUBSCRIPTION
   if (metadata.subscriptionType === "channel.subscribe" && channelId && channels[channelId]) {
     const user = payload.subscriber?.username || payload.subscriber?.displayName || "someone";
     channels[channelId].stats.totalSubs++;
@@ -574,7 +537,6 @@ async function handleEvent(message) {
     return;
   }
 
-  // GIFT SUBSCRIPTION
   if (metadata.subscriptionType === "channel.subscription.gift" && channelId && channels[channelId]) {
     const sender = payload.sender?.username || payload.sender?.displayName || "someone";
     const count = payload.giftCount || 1;
@@ -585,7 +547,6 @@ async function handleEvent(message) {
     return;
   }
 
-  // VOTE
   if (metadata.subscriptionType === "channel.vote" && channelId && channels[channelId]) {
     const user = payload.voter?.username || payload.voter?.displayName || "someone";
     const amount = payload.amount || 1;
@@ -596,7 +557,6 @@ async function handleEvent(message) {
     return;
   }
 
-  // FOLLOW
   if (metadata.subscriptionType === "channel.follow" && channelId && channels[channelId]) {
     const user = payload.follower?.username || payload.follower?.displayName;
     if (user) {
@@ -606,13 +566,11 @@ async function handleEvent(message) {
     return;
   }
 
-  // STREAM ONLINE
   if (metadata.subscriptionType === "stream.online" && channelId && channels[channelId]) {
     startStreamTimer(channelId);
     return;
   }
 
-  // STREAM OFFLINE
   if (metadata.subscriptionType === "stream.offline" && channelId && channels[channelId]) {
     if (streamTimers[channelId]) { clearInterval(streamTimers[channelId]); delete streamTimers[channelId]; }
     saveChannels();
@@ -620,9 +578,7 @@ async function handleEvent(message) {
   }
 }
 
-// ===============================
-// OAUTH ROUTES
-// ===============================
+// OAuth routes
 app.get("/login", async (req, res) => {
   try {
     const response = await axios.post("https://blaze.stream/bapi/oauth2/generate-auth-url", {
@@ -640,31 +596,27 @@ app.get("/login", async (req, res) => {
 app.get("/callback", async (req, res) => {
   const { code, state } = req.query;
   if (!code) return res.send("Error: No code received.");
-  if (state && pendingState && state !== pendingState) return res.send("Error: State mismatch. Try /login again.");
-
+  if (state && pendingState && state !== pendingState) return res.send("Error: State mismatch.");
   try {
     const tokenRes = await axios.post("https://blaze.stream/bapi/oauth2/token", {
       clientId: CLIENT_ID, clientSecret: CLIENT_SECRET,
       code, codeVerifier: pendingCodeVerifier,
       redirectUri: REDIRECT_URI, grantType: "authorization_code"
     });
-
     ACCESS_TOKEN  = tokenRes.data.accessToken;
     REFRESH_TOKEN = tokenRes.data.refreshToken;
     pendingState = null; pendingCodeVerifier = null;
-
-    console.log("New token ✅");
+    console.log("New token");
     connectSocket();
-
     res.send(`
       <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
-        <h1>✅ Login successful!</h1>
-        <p>Save these in <strong>Render Environment Variables</strong>:</p>
+        <h1>Login successful!</h1>
+        <p>Save these in Render Environment Variables:</p>
         <p><strong>BLAZE_ACCESS_TOKEN:</strong><br>
         <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${ACCESS_TOKEN}</textarea></p>
         <p><strong>BLAZE_REFRESH_TOKEN:</strong><br>
         <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${REFRESH_TOKEN}</textarea></p>
-        <p><a href="/" style="color:#f5a623;">→ Status page</a></p>
+        <p><a href="/" style="color:#f5a623;">Status page</a></p>
       </body></html>
     `);
   } catch (e) {
@@ -676,36 +628,29 @@ app.get("/", (req, res) => {
   const joinedList = Object.entries(channels)
     .map(([id, ch]) => `<li><strong>${ch.username}</strong> (${id}) – Lang: ${ch.language || "en"} | Msgs: ${ch.stats.totalChatMessages}, Subs: ${ch.stats.totalSubs}, Votes: ${ch.stats.totalVotes}</li>`)
     .join("") || "<li>No channels joined yet</li>";
-
   res.send(`
     <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
-      <h1>🤖 BlazeianBot</h1>
-      <p>Token: <strong>${ACCESS_TOKEN ? "✅ Active" : '❌ Missing – <a href="/login" style="color:#f5a623;">Login here</a>'}</strong></p>
+      <h1>BlazeianBot</h1>
+      <p>User Token: <strong>${ACCESS_TOKEN ? "Active" : "Missing"}</strong></p>
+      <p>App Token: <strong>${APP_ACCESS_TOKEN ? "Active" : "Missing"}</strong></p>
       <h2>Joined Channels (${Object.keys(channels).length})</h2>
       <ul>${joinedList}</ul>
-      <p><a href="/login" style="color:#f5a623;">🔑 Refresh token</a></p>
+      <p><a href="/login" style="color:#f5a623;">Refresh token</a></p>
     </body></html>
   `);
 });
 
 app.get("/stats", (req, res) => res.json(channels));
 
-// Admin: remove a channel by username
-// Usage: https://blazeian-bot.onrender.com/admin/remove/mistersupercool
 app.get("/admin/remove/:username", async (req, res) => {
   const username = req.params.username.toLowerCase();
-  const channelId = Object.keys(channels).find(
-    id => channels[id].username.toLowerCase() === username
-  );
-  if (!channelId) {
-    return res.send(`❌ Channel "${username}" not found in database.`);
-  }
+  const channelId = Object.keys(channels).find(id => channels[id].username.toLowerCase() === username);
+  if (!channelId) return res.send(`Channel "${username}" not found.`);
   delete channels[channelId];
   await saveChannelsToCloud();
-  res.send(`✅ Removed "${username}" (${channelId}) from database. They can !join again now.`);
+  res.send(`Removed "${username}". They can !join again now.`);
 });
 
-// Admin: list all channels
 app.get("/admin/list", (req, res) => {
   const list = Object.entries(channels).map(([id, ch]) =>
     `${ch.username} (${id}) – Lang: ${ch.language || "en"} | Msgs: ${ch.stats.totalChatMessages}`
@@ -713,7 +658,6 @@ app.get("/admin/list", (req, res) => {
   res.send(`<pre>${list || "No channels"}</pre>`);
 });
 
-// Admin: get blazeian_bot user ID
 app.get("/admin/whoami", async (req, res) => {
   try {
     const r = await axios.get("https://api.blaze.stream/v1/users/profile", { headers: headers() });
@@ -723,12 +667,11 @@ app.get("/admin/whoami", async (req, res) => {
   }
 });
 
-// ===============================
-// START
-// ===============================
+// Start
 app.listen(PORT, "0.0.0.0", async () => {
   console.log("Server running on port", PORT);
   channels = await loadChannelsFromCloud();
-  console.log(`Loaded ${Object.keys(channels).length} channel(s) from cloud`);
+  console.log(`Loaded ${Object.keys(channels).length} channel(s)`);
+  await getAppAccessToken();
   connectSocket();
 });
