@@ -803,7 +803,7 @@ const PAGE_CSS = `<style>
 </style>`;
 
 function pageHead(title) {
-  return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${title}</title>${PAGE_CSS}</head><body><div class="wrap">`;
+  return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${title}</title><link rel="icon" type="image/png" href="${MASCOT_URL}"><link rel="apple-touch-icon" href="${MASCOT_URL}">${PAGE_CSS}</head><body><div class="wrap">`;
 }
 
 // Render the command list + stream messages for a single channel (used in both panels)
