@@ -11,20 +11,16 @@ const CLIENT_ID      = process.env.BLAZE_CLIENT_ID;
 const CLIENT_SECRET  = process.env.BLAZE_CLIENT_SECRET;
 const REDIRECT_URI   = "https://blazeian-bot.onrender.com/callback";
 
-// User token (for socket/events)
 let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN  || null;
 let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
+let APP_ACCESS_TOKEN    = null;
 
-// App token (for sending chat - bypasses follow requirement)
-let APP_ACCESS_TOKEN = null;
 async function getAppAccessToken() {
   try {
     const res = await axios.post("https://blaze.stream/bapi/oauth2/token", {
-      clientId: CLIENT_ID,
-      clientSecret: CLIENT_SECRET,
-      grantType: "client_credentials"
+      clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, grantType: "client_credentials"
     });
     APP_ACCESS_TOKEN = res.data.accessToken;
     console.log("App token acquired");
@@ -120,26 +116,18 @@ function getTopEmote(stats) {
   return `${stats.emoteNames[e[0][0]] || e[0][0]} (${e[0][1]}x)`;
 }
 
-// Language system
+// =============================================
+// LANGUAGE SYSTEM
+// =============================================
 const LANG_CODES = {
   german: "de", deutsch: "de",
   english: "en", englisch: "en",
   spanish: "es", spanisch: "es",
-  french: "fr",
-  portuguese: "pt",
-  italian: "it",
-  dutch: "nl",
-  russian: "ru",
-  japanese: "ja",
-  korean: "ko",
-  chinese: "zh",
-  arabic: "ar",
-  turkish: "tr",
-  polish: "pl",
-  swedish: "sv",
-  ukrainian: "uk",
-  romanian: "ro",
-  hindi: "hi",
+  french: "fr", portuguese: "pt", italian: "it",
+  dutch: "nl", russian: "ru", japanese: "ja",
+  korean: "ko", chinese: "zh", arabic: "ar",
+  turkish: "tr", polish: "pl", swedish: "sv",
+  ukrainian: "uk", romanian: "ro", hindi: "hi",
 };
 const LANG_DISPLAY = {
   de: "German", en: "English", es: "Spanish", fr: "French",
@@ -149,46 +137,42 @@ const LANG_DISPLAY = {
   ro: "Romanian", hi: "Hindi",
 };
 
-// Bot messages with personality
 const MESSAGES = {
   en: {
     raid: (raider) => [
-      `WAIT HOLD ON-- 💚🔥 ...okay I'm fine. WELCOME ${raider} and your amazing crew!! You just made this place so much better by showing up 🫶 We love every single one of you!!`,
-      `OH?! OH WOW-- ${raider} just raided us?! I'm not crying you're crying 😭💚 Welcome welcome WELCOME to the family, every single one of you belongs here 🔥`,
-      `SOMEONE TELL ME I'M NOT DREAMING-- ${raider} brought the whole squad?! 🔥💚 Come in, sit down, we saved you a spot. You're home now. 🫶`,
+      `WAIT HOLD ON-- 💚🔥 ...okay I'm fine. WELCOME ${raider} and your amazing crew!! You just made this place so much better 🫶 We love every single one of you!!`,
+      `OH?! OH WOW-- ${raider} just raided us?! I'm not crying you're crying 😭💚 Welcome welcome WELCOME to the family!! 🔥`,
+      `SOMEONE TELL ME I'M NOT DREAMING-- ${raider} brought the whole squad?! 🔥💚 Come in, sit down, you're home now. 🫶`,
     ],
     sub: (user) => [
       `${user} just subscribed?! I-- 💚 ...I need a moment. Thank you so much, genuinely. You beautiful human being 🫶🔥`,
-      `WAIT ${user} SUBBED?! Okay okay okay-- 💚💚 I love you, the streamer loves you, CHAT loves you. Best decision of your life honestly 😭🔥`,
-      `${user}!! You subscribed!! I'm putting your name in my heart right now 💚 No seriously, thank you so much. You're incredible 🫶`,
+      `WAIT ${user} SUBBED?! 💚💚 I love you, the streamer loves you, CHAT loves you. Best decision of your life 😭🔥`,
+      `${user}!! You subscribed!! I'm putting your name in my heart right now 💚 Thank you so much. You're incredible 🫶`,
     ],
     giftsub: (sender, count) => [
-      `${sender} just gifted ${count} sub(s)?! WHO DOES THAT?! 💚🔥 An absolute LEGEND, that's who. Chat, show some love RIGHT NOW 🫶`,
-      `GIFTED SUBS?! ${sender} said "everyone gets love today" and dropped ${count} sub(s)!! 😭💚 We don't deserve you but we're SO glad you're here 🔥`,
+      `${sender} just gifted ${count} sub(s)?! WHO DOES THAT?! 💚🔥 An absolute LEGEND. Chat, show some love RIGHT NOW 🫶`,
+      `GIFTED SUBS?! ${sender} said "everyone gets love today" and dropped ${count} sub(s)!! 😭💚 We don't deserve you 🔥`,
     ],
     vote: (user, amount) => [
-      `${user} voted with ${amount}! 🗳️💚 Every single vote means the world here, thank you for showing up 🔥`,
-      `OH ${user} VOTED?! ${amount} power coming in hot!! 🔥💚 You're literally fueling this whole thing, we see you and we LOVE you 🫶`,
-      `${user} dropped ${amount} votes like it's nothing?! 💚 Absolute legend behavior. Thank you so much 🔥🫶`,
+      `${user} voted with ${amount}! 🗳️💚 Every single vote means the world here, thank you 🔥`,
+      `OH ${user} VOTED?! ${amount} power coming in hot!! 🔥💚 We see you and we LOVE you 🫶`,
+      `${user} dropped ${amount} votes like it's nothing?! 💚 Absolute legend behavior 🔥🫶`,
     ],
     follow: (user) => [
-      `@${user} just followed!! Welcome to the family 💚 So glad you're here, stay a while 🫶`,
-      `@${user} FOLLOWED?! 💚🔥 Best decision today honestly. Welcome welcome welcome!! 🫶`,
+      `@${user} just followed!! Welcome to the family 💚 So glad you're here 🫶`,
+      `@${user} FOLLOWED?! 💚🔥 Best decision today honestly. Welcome!! 🫶`,
     ],
     langSet: (lang) => `Bot language set to ${lang}! 💚`,
     langInvalid: `That language is not supported yet! Try: English, German, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Korean, Chinese, Arabic, Turkish, Polish, Swedish, Ukrainian, Romanian or Hindi 💚`,
     cmdList: (custom) => {
       const base = `BlazeianBot: !stats | !votes | !subs | !chat | !time | !emote | !explain [language] | !setbotlang [language] 💚`;
-      if (custom && Object.keys(custom).length > 0) {
-        const customList = Object.keys(custom).map(c => `!${c}`).join(" | ");
-        return `${base} | ${customList}`;
-      }
+      if (custom && Object.keys(custom).length > 0)
+        return `${base} | ${Object.keys(custom).map(c => `!${c}`).join(" | ")}`;
       return base;
     },
     noMessages: (user) => `@${user} No recent messages to translate yet! Chat a bit first 💚`,
     translateFail: (user) => `@${user} Translation failed, please try again! 💚`,
     explainUsage: (user) => `@${user} Please specify a language! Example: !explain German 💚`,
-    greeting: (user, streamer) => `Hey @${user}! 👋💚 Welcome to ${streamer}'s stream! So glad you're here 🫶`,
     stats: (ch) => `📊 ${ch.username}'s Stats | 🗳️ Votes: ${ch.stats.totalVotes} | ⭐ Subs: ${ch.stats.totalSubs} | 💬 Msgs: ${ch.stats.totalChatMessages} | 🕐 Stream Time: ${formatTime(ch.stats.totalStreamMinutes)} | 🏆 Top Emote: ${getTopEmote(ch.stats)} 💚`,
     votes: (ch) => `🗳️ Total votes for ${ch.username}: ${ch.stats.totalVotes} 💚`,
     subs: (ch) => `⭐ Total subs for ${ch.username}: ${ch.stats.totalSubs} 💚`,
@@ -204,14 +188,14 @@ const MESSAGES = {
   de: {
     raid: (raider) => [
       `WARTE-- ICH-- 💚🔥 ...okay alles gut. WILLKOMMEN ${raider} und eure ganze Crew!! Ihr macht diesen Ort so viel besser 🫶 Wir lieben euch alle!!`,
-      `OH?! OH WOW-- ${raider} hat uns geraided?! Ich weine nicht, du weinst 😭💚 Willkommen willkommen WILLKOMMEN in der Familie! 🔥`,
+      `OH?! OH WOW-- ${raider} hat uns geraided?! Ich weine nicht, du weinst 😭💚 Willkommen in der Familie! 🔥`,
     ],
     sub: (user) => [
       `${user} hat subscribed?! Ich-- 💚 ...ich brauch kurz. Danke so sehr, wirklich. Du wunderbarer Mensch 🫶🔥`,
-      `WARTE ${user} HAT GESUBBT?! Okay okay okay-- 💚💚 Ich liebe dich, der Streamer liebt dich, CHAT liebt dich 😭🔥`,
+      `WARTE ${user} HAT GESUBBT?! 💚💚 Ich liebe dich, der Streamer liebt dich, CHAT liebt dich 😭🔥`,
     ],
     giftsub: (sender, count) => [
-      `${sender} hat gerade ${count} Sub(s) verschenkt?! WER MACHT DAS?! 💚🔥 Eine absolute LEGENDE! Chat, zeigt jetzt Liebe 🫶`,
+      `${sender} hat ${count} Sub(s) verschenkt?! WER MACHT DAS?! 💚🔥 Eine absolute LEGENDE! Chat, zeigt jetzt Liebe 🫶`,
     ],
     vote: (user, amount) => [
       `${user} hat mit ${amount} gevotet! 🗳️💚 Danke dass du da bist 🔥`,
@@ -224,16 +208,13 @@ const MESSAGES = {
     langInvalid: `Diese Sprache wird noch nicht unterstuetzt! Versuch: English, German, Spanish ... 💚`,
     cmdList: (custom) => {
       const base = `BlazeianBot: !stats | !votes | !subs | !chat | !time | !emote | !explain [Sprache] | !setbotlang [Sprache] 💚`;
-      if (custom && Object.keys(custom).length > 0) {
-        const customList = Object.keys(custom).map(c => `!${c}`).join(" | ");
-        return `${base} | ${customList}`;
-      }
+      if (custom && Object.keys(custom).length > 0)
+        return `${base} | ${Object.keys(custom).map(c => `!${c}`).join(" | ")}`;
       return base;
     },
     noMessages: (user) => `@${user} Noch keine Nachrichten zum Uebersetzen! 💚`,
     translateFail: (user) => `@${user} Uebersetzung fehlgeschlagen! 💚`,
     explainUsage: (user) => `@${user} Bitte gib eine Sprache an! Beispiel: !explain German 💚`,
-    greeting: (user, streamer) => `Hey @${user}! 👋💚 Willkommen in ${streamer}'s Stream! 🫶`,
     stats: (ch) => `📊 ${ch.username}'s Stats | 🗳️ Votes: ${ch.stats.totalVotes} | ⭐ Subs: ${ch.stats.totalSubs} | 💬 Nachrichten: ${ch.stats.totalChatMessages} | 🕐 Streamzeit: ${formatTime(ch.stats.totalStreamMinutes)} | 🏆 Top Emote: ${getTopEmote(ch.stats)} 💚`,
     votes: (ch) => `🗳️ Votes fuer ${ch.username}: ${ch.stats.totalVotes} 💚`,
     subs: (ch) => `⭐ Subs fuer ${ch.username}: ${ch.stats.totalSubs} 💚`,
@@ -254,28 +235,25 @@ const MESSAGES = {
       `${user} acaba de subscribirse?! 💚 Gracias de verdad, ser humano maravilloso 🫶🔥`,
     ],
     giftsub: (sender, count) => [
-      `${sender} acaba de regalar ${count} sub(s)?! Una LEYENDA absoluta! Chat, mostrad amor AHORA! 💚🔥 🫶`,
+      `${sender} acaba de regalar ${count} sub(s)?! Una LEYENDA absoluta! Chat, mostrad amor AHORA! 💚🔥🫶`,
     ],
     vote: (user, amount) => [
       `${user} voto con ${amount}! 🗳️💚 Cada voto importa, gracias 🔥`,
     ],
     follow: (user) => [
-      `@${user} acaba de seguir!! Bienvenido a la familia 💚 🫶`,
+      `@${user} acaba de seguir!! Bienvenido a la familia 💚🫶`,
     ],
     langSet: (lang) => `Idioma del bot configurado a ${lang}! 💚`,
     langInvalid: `Ese idioma no esta soportado aun! 💚`,
     cmdList: (custom) => {
       const base = `BlazeianBot: !stats | !votes | !subs | !chat | !time | !emote | !explain [idioma] | !setbotlang [idioma] 💚`;
-      if (custom && Object.keys(custom).length > 0) {
-        const customList = Object.keys(custom).map(c => `!${c}`).join(" | ");
-        return `${base} | ${customList}`;
-      }
+      if (custom && Object.keys(custom).length > 0)
+        return `${base} | ${Object.keys(custom).map(c => `!${c}`).join(" | ")}`;
       return base;
     },
     noMessages: (user) => `@${user} No hay mensajes para traducir aun! 💚`,
     translateFail: (user) => `@${user} Traduccion fallida! 💚`,
     explainUsage: (user) => `@${user} Especifica un idioma! Ejemplo: !explain German 💚`,
-    greeting: (user, streamer) => `Hola @${user}! 👋💚 Bienvenido al stream de ${streamer}! 🫶`,
     stats: (ch) => `📊 Stats de ${ch.username} | 🗳️ Votos: ${ch.stats.totalVotes} | ⭐ Subs: ${ch.stats.totalSubs} | 💬 Msgs: ${ch.stats.totalChatMessages} | 🕐 Tiempo: ${formatTime(ch.stats.totalStreamMinutes)} | 🏆 Top Emote: ${getTopEmote(ch.stats)} 💚`,
     votes: (ch) => `🗳️ Votos para ${ch.username}: ${ch.stats.totalVotes} 💚`,
     subs: (ch) => `⭐ Subs para ${ch.username}: ${ch.stats.totalSubs} 💚`,
@@ -290,16 +268,10 @@ const MESSAGES = {
   },
 };
 
-function getRandom(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
-}
-function getLang(channelId) {
-  return channels[channelId]?.language || "en";
-}
-function getMsg(channelId) {
-  const lang = getLang(channelId);
-  return MESSAGES[lang] || MESSAGES["en"];
-}
+function getRandom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+function chance(p)       { return Math.random() < p; }
+function getLang(channelId) { return channels[channelId]?.language || "en"; }
+function getMsg(channelId)  { const l = getLang(channelId); return MESSAGES[l] || MESSAGES["en"]; }
 
 async function sendChatT(channelId, text) {
   const lang = getLang(channelId);
@@ -311,31 +283,22 @@ async function sendChatT(channelId, text) {
   }
 }
 
-// API helpers
+// =============================================
+// API HELPERS
+// =============================================
 const API = "https://api.blaze.stream";
-const headers = () => ({
-  authorization: `Bearer ${ACCESS_TOKEN}`,
-  "client-id": CLIENT_ID,
-  "content-type": "application/json"
-});
-const appHeaders = () => ({
-  authorization: `Bearer ${APP_ACCESS_TOKEN}`,
-  "client-id": CLIENT_ID,
-  "content-type": "application/json"
-});
+const headers    = () => ({ authorization: `Bearer ${ACCESS_TOKEN}`,     "client-id": CLIENT_ID, "content-type": "application/json" });
+const appHeaders = () => ({ authorization: `Bearer ${APP_ACCESS_TOKEN}`, "client-id": CLIENT_ID, "content-type": "application/json" });
 
 async function sendChat(channelId, message) {
   if (APP_ACCESS_TOKEN) {
     try {
-      await axios.post(`${API}/v1/chats/messages`,
-        { channelId, message, senderId: BOT_USER_ID },
-        { headers: appHeaders() }
-      );
+      await axios.post(`${API}/v1/chats/messages`, { channelId, message, senderId: BOT_USER_ID }, { headers: appHeaders() });
       console.log(`[${channelId}] BOT: ${message}`);
       return;
     } catch(e) {
       if (e.response?.status === 401) await getAppAccessToken();
-      console.log("App token send failed, trying user token:", e.response?.data?.message || e.message);
+      console.log("App token send failed:", e.response?.data?.message || e.message);
     }
   }
   try {
@@ -396,7 +359,249 @@ async function translateMessages(messages, targetLangCode) {
   return results.join(" | ");
 }
 
-// Socket with auto-reconnect
+// =============================================
+// WEATHER (wttr.in — no API key needed)
+// =============================================
+async function getWeather(city) {
+  try {
+    const encoded = encodeURIComponent(city);
+    const res = await axios.get(`https://wttr.in/${encoded}?format=j1`, {
+      timeout: 6000,
+      headers: { "User-Agent": "BlazeianBot/1.0" }
+    });
+    const c    = res.data.current_condition[0];
+    const area = res.data.nearest_area?.[0];
+    const areaName = area?.areaName?.[0]?.value || city;
+    const country  = area?.country?.[0]?.value  || "";
+    const desc     = c.weatherDesc[0].value;
+    const tempC    = c.temp_C;
+    const feelsC   = c.FeelsLikeC;
+    const humidity = c.humidity;
+    const windKmh  = c.windspeedKmph;
+    return `${areaName}${country ? ", " + country : ""}: ${desc} | 🌡️ ${tempC}°C (feels ${feelsC}°C) | 💧 ${humidity}% | 💨 ${windKmh} km/h 💚`;
+  } catch(e) {
+    console.log("Weather error:", e.message);
+    return null;
+  }
+}
+
+// =============================================
+// SMALLTALK SYSTEM
+// =============================================
+// In-memory cooldown tracker: { channelId: { triggerKey: lastFiredTimestamp } }
+const chatCooldowns = {};
+function canFireTrigger(channelId, key, cooldownMs) {
+  if (!chatCooldowns[channelId]) chatCooldowns[channelId] = {};
+  const last = chatCooldowns[channelId][key] || 0;
+  if (Date.now() - last < cooldownMs) return false;
+  chatCooldowns[channelId][key] = Date.now();
+  return true;
+}
+
+// Triggers: pattern, key (for cooldown), cooldown (ms), prob (0-1 random chance), responses
+const SMALLTALK_TRIGGERS = [
+  {
+    key: "gg",
+    pattern: /\bgg\b|\bgood game\b/i,
+    cooldown: 90000,
+    prob: 0.60,
+    responses: [
+      "GG!! 🔥💚 absolute legend behavior",
+      "GG in chat!! 💚 that was clean",
+      "GG!! 💚🔥 let's gooo",
+    ]
+  },
+  {
+    key: "gm",
+    pattern: /\bgm\b|\bgood morning\b/i,
+    cooldown: 120000,
+    prob: 0.70,
+    responses: [
+      "GM!! ☀️💚 hope your day absolutely slaps",
+      "Good morning!! ☀️ welcome to the chaos 💚🔥",
+      "GM gm gm!! ☀️ let's GET it 💚",
+      "GM!! ☀️💚 you showed up, that already makes today better 🫶",
+    ]
+  },
+  {
+    key: "gn",
+    pattern: /\bgn\b|\bgood night\b/i,
+    cooldown: 120000,
+    prob: 0.70,
+    responses: [
+      "GN!! 🌙💚 sleep well, come back soon 🫶",
+      "Good night!! 🌙 take care of yourself 💚",
+      "GN!! 💚 you'll be missed!! 🌙🫶",
+      "GN!! 🌙💚 dream of good games 🎮",
+    ]
+  },
+  {
+    key: "hearts",
+    // matches common heart/love emojis
+    pattern: /[❤️💚🫶💕💗💖💝🥰😍💓💞🩷🧡💛💙💜🤍🖤]/u,
+    cooldown: 60000,
+    prob: 0.55,
+    responses: [
+      "💚 right back at you!!",
+      "awww 🫶💚 we love you too!!",
+      "so much love in this chat I genuinely cannot 💚😭",
+      "💚💚💚 the vibes in here are immaculate",
+      "giving that love right back 🫶💚🔥",
+    ]
+  },
+  {
+    key: "lol",
+    pattern: /\blol\b|\blmao\b|\blmfao\b|\bhaha\b|\bhahaha\b|\bkekw\b|\blul\b|\bxd\b/i,
+    cooldown: 90000,
+    prob: 0.45,
+    responses: [
+      "😂💚 same honestly",
+      "bro I'm actually crying 😂🔥",
+      "LMAOO 💚 not me cackling right now",
+      "😂😂💚 I can't",
+      "okay that got me ngl 😂💚",
+    ]
+  },
+  {
+    key: "hype",
+    pattern: /\bpog\b|\bpoggers\b|\bpogchamp\b|\blets go\b|\blet's go\b|\blfg\b|\bhype\b|\bbanger\b|\bW\b|\bW\+\b/i,
+    cooldown: 90000,
+    prob: 0.60,
+    responses: [
+      "POG!! 🔥💚",
+      "POGGERS IN CHAT!! 🔥🔥💚",
+      "LET'S GOOOO!! 🔥💚",
+      "W!! 💚🔥 absolute W",
+      "HYPE!! 🔥🔥🔥💚 let's GO",
+    ]
+  },
+  {
+    key: "f",
+    // only react if the message is literally just "F" or "f in chat"
+    pattern: /^\s*f\s*$|^f in chat\s*$/i,
+    cooldown: 60000,
+    prob: 0.70,
+    responses: [
+      "F 🫡💚 we pay our respects",
+      "F in chat 🫡💚",
+      "F 🫡 rip 💚",
+    ]
+  },
+  {
+    key: "rip",
+    pattern: /\brip\b/i,
+    cooldown: 90000,
+    prob: 0.50,
+    responses: [
+      "RIP 🫡💚 F in chat",
+      "rip 😔💚 we remember",
+      "F 🫡 RIP 💚",
+    ]
+  },
+  {
+    key: "wow",
+    pattern: /\bwow\b|\bomg\b|\bno way\b|\bcrazy\b|\binsane\b/i,
+    cooldown: 90000,
+    prob: 0.40,
+    responses: [
+      "RIGHT?! 💚🔥",
+      "bro same WOW 😭💚",
+      "no wayyy 💚🔥",
+      "that's actually insane 💚",
+      "I can't believe it either 😭💚",
+    ]
+  },
+  {
+    key: "nt",
+    pattern: /\bnt\b|\bnice try\b|\bgg ez\b/i,
+    cooldown: 90000,
+    prob: 0.50,
+    responses: [
+      "NT!! 💚 next round, let's go",
+      "nt nt!! 💚 shake it off 🔥",
+      "NT!! 🔥💚 that was still clean",
+    ]
+  },
+  {
+    key: "love",
+    pattern: /\bi love (this|you|it|chat|stream)\b/i,
+    cooldown: 90000,
+    prob: 0.60,
+    responses: [
+      "WE LOVE YOU TOO!! 💚😭🫶",
+      "awww 💚💚 this chat is the best honestly",
+      "okay I'm not crying you're crying 😭💚🫶",
+      "the feeling is SO mutual 💚🔥",
+    ]
+  },
+  {
+    key: "greeting",
+    pattern: /\bhello\b|\bhey\b|\bhi\b/i,
+    cooldown: 30000,
+    prob: 0.65,
+    responses: null, // handled separately (needs @user)
+  },
+];
+
+async function handleSmallTalk(channelId, user, msg) {
+  const ch = channels[channelId];
+  if (!ch) return;
+  const ml = msg.toLowerCase().trim();
+
+  // ---- Direct @mention ----
+  const isMention = ml.includes("blazeian_bot") || ml.includes("blazeianbot");
+  if (isMention) {
+    // Weather query — e.g. "what's the weather in Boston?"
+    const weatherMatch = msg.match(/weather\s+(?:in|for|at|of)?\s*([a-zA-Z\s,]+?)(?:\?|!|$)/i);
+    if (weatherMatch) {
+      const city = weatherMatch[1].trim();
+      await sendChat(channelId, `@${user} checking weather for ${city}... ⏳`);
+      const weather = await getWeather(city);
+      if (weather) {
+        await sendChat(channelId, `@${user} ☁️ ${weather}`);
+      } else {
+        await sendChat(channelId, `@${user} Hmm, couldn't find "${city}" – try a different city name? 😅💚`);
+      }
+      return;
+    }
+
+    // Generic mention fallback
+    const responses = [
+      `@${user} hey!! 👋💚 What's up?`,
+      `@${user} you called?! 💚🔥`,
+      `@${user} present!! 👀💚 How can I help?`,
+      `@${user} I'm here I'm here!! 💚🫶`,
+      `@${user} 💚👀 yes??`,
+    ];
+    await sendChat(channelId, getRandom(responses));
+    return;
+  }
+
+  // ---- Casual triggers ----
+  for (const trigger of SMALLTALK_TRIGGERS) {
+    if (!trigger.pattern.test(msg)) continue;
+    if (!canFireTrigger(channelId, trigger.key, trigger.cooldown)) continue;
+    if (!chance(trigger.prob)) continue;
+
+    if (trigger.key === "greeting") {
+      const greetings = [
+        `Hey @${user}! 👋💚 Welcome to ${ch.username}'s stream! So glad you're here 🫶`,
+        `@${user} hey!! 💚 Welcome in 🔥`,
+        `@${user} heyyy!! 💚🫶 good to see you`,
+        `@${user} welcome welcome!! 💚🔥`,
+      ];
+      await sendChatT(channelId, getRandom(greetings));
+      return;
+    }
+
+    await sendChatT(channelId, getRandom(trigger.responses));
+    return; // only fire one trigger per message
+  }
+}
+
+// =============================================
+// SOCKET
+// =============================================
 let socket = null;
 let reconnectTimer = null;
 function connectSocket() {
@@ -408,11 +613,10 @@ function connectSocket() {
     console.log("Socket error:", err.message);
     reconnectTimer = setTimeout(connectSocket, 10000);
   });
-  socket.on("disconnect", (reason) => {
+  socket.on("disconnect", reason => {
     console.log("Socket disconnected:", reason);
-    if (reason !== "io client disconnect") {
+    if (reason !== "io client disconnect")
       reconnectTimer = setTimeout(connectSocket, 5000);
-    }
   });
   socket.on("eventsub", handleEvent);
 }
@@ -424,9 +628,7 @@ const ALL_EVENT_TYPES = [
 ];
 
 function subscribeAllChannels() {
-  // Subscribe bot's own channel to chat + follow + vote
   ["channel.chat.message", "channel.follow", "channel.vote"].forEach(t => subscribe(t, BOT_CHANNEL_ID));
-  // Subscribe all joined channels to all events
   const joined = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
   if (joined.length > 0) {
     console.log(`Auto-rejoining ${joined.length} channel(s)...`);
@@ -438,11 +640,11 @@ function subscribeAllChannels() {
 // COMMAND HANDLER
 // =============================================
 async function handleCommand(channelId, user, msg, isBotChannel) {
-  const m = msg.toLowerCase().trim();
+  const m  = msg.toLowerCase().trim();
   const ch = channels[channelId];
-  const T = getMsg(channelId);
+  const T  = getMsg(channelId);
 
-  // ---- BOT CHANNEL COMMANDS ----
+  // !join — only in bot channel
   if (m === "!join" && isBotChannel) {
     const slug = user.toLowerCase();
     const newChannelId = await getChannelIdBySlug(slug);
@@ -465,13 +667,14 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
+  // !leave
   if (m === "!leave") {
     const ownedChannelId = Object.keys(channels).find(
       id => channels[id].username.toLowerCase() === user.toLowerCase()
     );
     if (ownedChannelId) {
       await sendChat(ownedChannelId, `👋 Goodbye! BlazeianBot is leaving ${user}'s channel. Type !join at blaze.stream/blazeian_bot to re-add me anytime 💚`);
-      if (isBotChannel) await sendChat(BOT_CHANNEL_ID, `👋😢 @${user} Done! I've left your channel... I'll miss you so much!! 💚`);
+      if (isBotChannel) await sendChat(BOT_CHANNEL_ID, `👋😢 @${user} Done! I've left your channel... I'll miss you!! 💚`);
       delete channels[ownedChannelId];
       await saveChannelsToCloud();
     } else if (isBotChannel) {
@@ -480,10 +683,8 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
-  // Skip if bot channel (no further commands) or channel not registered
   if (isBotChannel || !ch) return;
 
-  // ---- CHANNEL COMMANDS ----
   const isOwner = user.toLowerCase() === ch.username.toLowerCase();
 
   // !setbotlang
@@ -535,10 +736,8 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   if (m === "!time")   { await sendChatT(channelId, T.time(ch)); return; }
   if (m === "!emote")  { await sendChatT(channelId, T.emote(ch)); return; }
 
-  // !cmd / !help / !commands — shows built-in + custom
   if (m === "!cmd" || m === "!help" || m === "!commands") {
-    await sendChatT(channelId, T.cmdList(ch.customCommands));
-    return;
+    await sendChatT(channelId, T.cmdList(ch.customCommands)); return;
   }
 
   // !explain
@@ -558,19 +757,13 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
-  // Custom commands — check after built-ins
+  // Custom commands
   if (m.startsWith("!") && ch.customCommands) {
     const cmdName = m.slice(1).split(/\s+/)[0];
     if (ch.customCommands[cmdName]) {
       await sendChatT(channelId, ch.customCommands[cmdName]);
       return;
     }
-  }
-
-  // Greetings
-  if (m.includes("hello") || m.includes("hi ") || m === "hi" || m.includes("hey ") || m === "hey") {
-    await sendChatT(channelId, T.greeting(user, ch.username));
-    return;
   }
 }
 
@@ -601,6 +794,7 @@ async function handleEvent(message) {
     const isBotChannel = channelId === BOT_CHANNEL_ID;
     console.log(`[${isBotChannel ? "BOT_CHAN" : channelId}] ${user}: ${msg}`);
 
+    // Track stats + chat memory
     if (!isBotChannel && channels[channelId]) {
       const ch = channels[channelId];
       ch.stats.totalChatMessages++;
@@ -619,8 +813,11 @@ async function handleEvent(message) {
       saveChannels();
     }
 
-    if (msg.startsWith("!") || msg.toLowerCase().includes("hello") || msg.toLowerCase().includes("hi") || msg.toLowerCase().includes("hey")) {
+    // Route: commands vs. smalltalk
+    if (msg.startsWith("!")) {
       await handleCommand(channelId, user, msg, isBotChannel);
+    } else if (!isBotChannel && channels[channelId]) {
+      await handleSmallTalk(channelId, user, msg);
     }
     return;
   }
@@ -635,8 +832,7 @@ async function handleEvent(message) {
     const user = payload.subscriber?.username || payload.subscriber?.displayName || "someone";
     channels[channelId].stats.totalSubs++;
     saveChannels();
-    const T = getMsg(channelId);
-    await sendChatT(channelId, getRandom(T.sub(user)));
+    await sendChatT(channelId, getRandom(getMsg(channelId).sub(user)));
     return;
   }
   if (metadata.subscriptionType === "channel.subscription.gift" && channelId && channels[channelId]) {
@@ -644,25 +840,20 @@ async function handleEvent(message) {
     const count = payload.giftCount || 1;
     channels[channelId].stats.totalSubs += count;
     saveChannels();
-    const T = getMsg(channelId);
-    await sendChatT(channelId, getRandom(T.giftsub(sender, count)));
+    await sendChatT(channelId, getRandom(getMsg(channelId).giftsub(sender, count)));
     return;
   }
   if (metadata.subscriptionType === "channel.vote" && channelId && channels[channelId]) {
-    const user = payload.voter?.username || payload.voter?.displayName || "someone";
+    const user   = payload.voter?.username || payload.voter?.displayName || "someone";
     const amount = payload.amount || 1;
     channels[channelId].stats.totalVotes += amount;
     saveChannels();
-    const T = getMsg(channelId);
-    await sendChatT(channelId, getRandom(T.vote(user, amount)));
+    await sendChatT(channelId, getRandom(getMsg(channelId).vote(user, amount)));
     return;
   }
   if (metadata.subscriptionType === "channel.follow" && channelId && channels[channelId]) {
     const user = payload.follower?.username || payload.follower?.displayName;
-    if (user) {
-      const T = getMsg(channelId);
-      await sendChatT(channelId, getRandom(T.follow(user)));
-    }
+    if (user) await sendChatT(channelId, getRandom(getMsg(channelId).follow(user)));
     return;
   }
   if (metadata.subscriptionType === "stream.online" && channelId && channels[channelId]) {
@@ -711,7 +902,6 @@ app.get("/callback", async (req, res) => {
     res.send(`
       <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
         <h1>Login successful!</h1>
-        <p>Save these in Render Environment Variables:</p>
         <p><strong>BLAZE_ACCESS_TOKEN:</strong><br>
         <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${ACCESS_TOKEN}</textarea></p>
         <p><strong>BLAZE_REFRESH_TOKEN:</strong><br>
@@ -728,14 +918,13 @@ app.get("/callback", async (req, res) => {
 // STATUS & ADMIN ROUTES
 // =============================================
 app.get("/", (req, res) => {
-  const joinedList = Object.entries(channels)
-    .map(([id, ch]) => {
-      const customCmds = Object.keys(ch.customCommands || {}).map(c => `!${c}`).join(", ") || "none";
-      return `<li><strong>${ch.username}</strong> (${id})<br>
-        Lang: ${ch.language || "en"} | Msgs: ${ch.stats.totalChatMessages} | Subs: ${ch.stats.totalSubs} | Votes: ${ch.stats.totalVotes}<br>
-        Custom commands: ${customCmds}</li>`;
-    })
-    .join("") || "<li>No channels joined yet</li>";
+  const joinedList = Object.entries(channels).map(([id, ch]) => {
+    const cmds = Object.keys(ch.customCommands || {}).map(c => `!${c}`).join(", ") || "none";
+    return `<li><strong>${ch.username}</strong> (${id})<br>
+      Lang: ${ch.language || "en"} | Msgs: ${ch.stats.totalChatMessages} | Subs: ${ch.stats.totalSubs} | Votes: ${ch.stats.totalVotes}<br>
+      Custom commands: ${cmds}</li>`;
+  }).join("") || "<li>No channels joined yet</li>";
+
   res.send(`
     <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
       <h1>BlazeianBot 💚</h1>
@@ -751,7 +940,7 @@ app.get("/", (req, res) => {
 app.get("/stats", (req, res) => res.json(channels));
 
 app.get("/admin/remove/:username", async (req, res) => {
-  const username = req.params.username.toLowerCase();
+  const username  = req.params.username.toLowerCase();
   const channelId = Object.keys(channels).find(id => channels[id].username.toLowerCase() === username);
   if (!channelId) return res.send(`Channel "${username}" not found.`);
   delete channels[channelId];
@@ -777,11 +966,10 @@ app.get("/admin/whoami", async (req, res) => {
 });
 
 // =============================================
-// START — load data FIRST, then connect
+// START — load data FIRST, then connect socket
 // =============================================
 app.listen(PORT, "0.0.0.0", async () => {
   console.log("Server running on port", PORT);
-  // Load channels BEFORE connecting socket so subscribeAllChannels has the data
   channels = await loadChannelsFromCloud();
   console.log(`Loaded ${Object.keys(channels).length} channel(s)`);
   await getAppAccessToken();
