@@ -832,54 +832,96 @@ app.get("/stats", (req, res) => res.json(channels));
 function esc(s) { return String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
 app.get("/admin", (req, res) => {
+  const MASCOT_URL = process.env.BOT_AVATAR || "https://cdn.blaze.stream/uploads/avatar/ffba7b77-3b6d-4ca8-969e-c9333820547b.png";
   const channelOptions = Object.values(channels).map(ch => `<option value="${esc(ch.username)}">${esc(ch.username)}</option>`).join("");
 
   const blocks = Object.entries(channels).map(([id, ch]) => {
     const cmds = Object.entries(ch.customCommands || {}).map(([name, resp]) =>
-      `<div style="margin:6px 0;padding:8px;background:#1b1b1b;border:1px solid #333;border-radius:6px;">
-        <b style="color:#4ade80;">!${esc(name)}</b>
-        <form method="POST" action="/admin/delcmd" style="display:inline;float:right;">
+      `<div class="cmd">
+        <form method="POST" action="/admin/delcmd" class="delform">
           <input type="hidden" name="username" value="${esc(ch.username)}">
           <input type="hidden" name="name" value="${esc(name)}">
-          <button style="background:#7f1d1d;color:#fff;border:none;padding:3px 10px;border-radius:4px;cursor:pointer;">delete</button>
+          <button class="del">delete</button>
         </form>
-        <div style="color:#bbb;margin-top:4px;white-space:pre-wrap;">${esc(resp)}</div>
+        <b>!${esc(name)}</b>
+        <div class="cmdtext">${esc(resp)}</div>
       </div>`
-    ).join("") || "<i style='color:#777;'>no custom commands yet</i>";
+    ).join("") || "<i class='muted'>no custom commands yet</i>";
 
-    return `<div style="margin:16px 0;padding:16px;background:#161616;border:1px solid #2a2a2a;border-radius:10px;">
-      <h3 style="color:#4ade80;margin:0 0 8px;">${esc(ch.username)} <span style="color:#777;font-size:13px;">(${ch.language || "en"})</span></h3>
-      <div><b>Stream LIVE message:</b> <span style="color:#bbb;">${esc(ch.streamStart) || "<i>not set</i>"}</span></div>
-      <div><b>Stream OFFLINE message:</b> <span style="color:#bbb;">${esc(ch.streamEnd) || "<i>not set</i>"}</span></div>
+    return `<div class="chan">
+      <h3>${esc(ch.username)} <span class="tag">${ch.language || "en"}</span></h3>
+      <div class="meta"><b>📺 LIVE message:</b> ${esc(ch.streamStart) || "<i class='muted'>not set</i>"}</div>
+      <div class="meta"><b>🔴 OFFLINE message:</b> ${esc(ch.streamEnd) || "<i class='muted'>not set</i>"}</div>
       <div style="margin-top:10px;">${cmds}</div>
     </div>`;
   }).join("");
 
-  res.send(`<!doctype html><html><head><meta charset="utf-8"><title>BlazeianBot Admin</title></head>
-  <body style="background:#0e0e0e;color:#eee;font-family:sans-serif;max-width:820px;margin:0 auto;padding:30px;">
-    <h1 style="color:#4ade80;">⚙️ BlazeianBot Admin Panel</h1>
-    <p style="color:#aaa;">Paste long commands here — no character limit like the chat. Use <code>{name}</code> in stream messages for the streamer's name.</p>
+  res.send(`<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>BlazeianBot Admin</title>
+<style>
+  *{box-sizing:border-box;}
+  body{background:radial-gradient(circle at 50% -5%, #16300f 0%, #0a0c0a 55%);color:#e8ffe8;font-family:'Segoe UI',Roboto,sans-serif;margin:0;padding:0 16px 70px;}
+  .wrap{max-width:860px;margin:0 auto;}
+  header{text-align:center;padding:38px 0 14px;}
+  header img{width:128px;height:128px;border-radius:50%;border:3px solid #5cf472;box-shadow:0 0 34px rgba(92,244,114,.55);object-fit:cover;animation:glow 3s ease-in-out infinite;}
+  @keyframes glow{0%,100%{box-shadow:0 0 26px rgba(92,244,114,.45);}50%{box-shadow:0 0 44px rgba(255,140,0,.5);}}
+  header h1{margin:16px 0 4px;font-size:30px;color:#5cf472;text-shadow:0 0 20px rgba(92,244,114,.55);letter-spacing:1px;}
+  header p{color:#9fc99f;margin:0;font-size:14px;max-width:560px;margin:0 auto;}
+  h2{color:#5cf472;border-bottom:1px solid #234021;padding-bottom:7px;margin-top:34px;font-size:21px;}
+  .card{background:rgba(18,26,16,.85);border:1px solid #2c5a2c;border-radius:14px;padding:20px;box-shadow:0 4px 20px rgba(0,0,0,.45);}
+  label{display:block;color:#cfeccf;font-size:14px;margin:0 0 5px;font-weight:500;}
+  input,select,textarea{width:100%;padding:11px;background:#0f1a0f;color:#eaffea;border:1px solid #2c5a2c;border-radius:8px;font-size:14px;margin-bottom:15px;font-family:inherit;}
+  input:focus,select:focus,textarea:focus{outline:none;border-color:#5cf472;box-shadow:0 0 0 2px rgba(92,244,114,.25);}
+  button.save{background:linear-gradient(135deg,#28d65f,#15803d);color:#fff;border:none;padding:12px 30px;border-radius:9px;cursor:pointer;font-size:15px;font-weight:700;box-shadow:0 0 16px rgba(40,214,95,.4);letter-spacing:.3px;}
+  button.save:hover{filter:brightness(1.12);}
+  .chan{background:rgba(14,20,13,.85);border:1px solid #244a24;border-radius:12px;padding:16px;margin:14px 0;}
+  .chan h3{color:#5cf472;margin:0 0 10px;font-size:18px;}
+  .tag{color:#0a0c0a;background:#5cf472;font-size:11px;padding:2px 8px;border-radius:20px;vertical-align:middle;font-weight:700;}
+  .meta{color:#bcd6bc;font-size:13px;margin:3px 0;}
+  .cmd{margin:8px 0;padding:11px;background:#0f160f;border:1px solid #2a3a2a;border-radius:9px;overflow:hidden;}
+  .cmd b{color:#7CFC9A;font-size:15px;}
+  .cmdtext{color:#b9d4b9;margin-top:5px;white-space:pre-wrap;font-size:13px;line-height:1.5;}
+  .delform{display:inline;float:right;}
+  .del{background:#7f1d1d;color:#fff;border:none;padding:5px 13px;border-radius:6px;cursor:pointer;font-size:12px;}
+  .del:hover{background:#a32525;}
+  .muted{color:#6f836f;}
+  a.link{color:#f5a623;text-decoration:none;}
+  a.link:hover{text-decoration:underline;}
+  .hint{color:#8aa88a;font-size:12px;margin:-8px 0 14px;}
+</style></head>
+<body><div class="wrap">
+  <header>
+    <img src="${MASCOT_URL}" alt="BlazeianBot" onerror="this.style.display='none'">
+    <h1>BlazeianBot Admin Panel</h1>
+    <p>Manage your channel's commands & stream messages. Paste long text here — no character limit like the chat 💚</p>
+  </header>
 
-    <h2>➕ Add / Update a Command</h2>
-    <form method="POST" action="/admin/setcmd" style="background:#161616;padding:16px;border-radius:10px;border:1px solid #2a2a2a;">
-      <label>Channel:<br><select name="username" style="width:100%;padding:8px;background:#222;color:#fff;border:1px solid #444;border-radius:6px;">${channelOptions}</select></label><br><br>
-      <label>Command name (without !):<br><input name="name" placeholder="giveaway" style="width:100%;padding:8px;background:#222;color:#fff;border:1px solid #444;border-radius:6px;"></label><br><br>
-      <label>Response:<br><textarea name="response" rows="6" placeholder="The full text the bot should reply with..." style="width:100%;padding:8px;background:#222;color:#fff;border:1px solid #444;border-radius:6px;"></textarea></label><br><br>
-      <button style="background:#15803d;color:#fff;border:none;padding:10px 24px;border-radius:6px;cursor:pointer;font-size:15px;">Save Command</button>
-    </form>
+  <h2>➕ Add / Update a Command</h2>
+  <form method="POST" action="/admin/setcmd" class="card">
+    <label>Channel</label>
+    <select name="username">${channelOptions}</select>
+    <label>Command name (without !)</label>
+    <input name="name" placeholder="giveaway">
+    <label>Response</label>
+    <textarea name="response" rows="6" placeholder="The full text the bot should reply with..."></textarea>
+    <button class="save">Save Command</button>
+  </form>
 
-    <h2 style="margin-top:28px;">📺 Stream Start / End Messages</h2>
-    <form method="POST" action="/admin/setstream" style="background:#161616;padding:16px;border-radius:10px;border:1px solid #2a2a2a;">
-      <label>Channel:<br><select name="username" style="width:100%;padding:8px;background:#222;color:#fff;border:1px solid #444;border-radius:6px;">${channelOptions}</select></label><br><br>
-      <label>Stream START message (when you go live):<br><textarea name="streamStart" rows="2" placeholder="LIVE NOW: {name} 🔥" style="width:100%;padding:8px;background:#222;color:#fff;border:1px solid #444;border-radius:6px;"></textarea></label><br><br>
-      <label>Stream END message (when you go offline):<br><textarea name="streamEnd" rows="2" placeholder="Offline now - thanks everyone 💚" style="width:100%;padding:8px;background:#222;color:#fff;border:1px solid #444;border-radius:6px;"></textarea></label><br><br>
-      <button style="background:#15803d;color:#fff;border:none;padding:10px 24px;border-radius:6px;cursor:pointer;font-size:15px;">Save Stream Messages</button>
-    </form>
+  <h2>📺 Stream Start / End Messages</h2>
+  <form method="POST" action="/admin/setstream" class="card">
+    <label>Channel</label>
+    <select name="username">${channelOptions}</select>
+    <label>Stream START message (when you go live)</label>
+    <textarea name="streamStart" rows="2" placeholder="LIVE NOW: {name} 🔥"></textarea>
+    <label>Stream END message (when you go offline)</label>
+    <textarea name="streamEnd" rows="2" placeholder="Offline now - thanks everyone 💚"></textarea>
+    <p class="hint">Tip: use {name} and it gets replaced with the streamer's name automatically.</p>
+    <button class="save">Save Stream Messages</button>
+  </form>
 
-    <h2 style="margin-top:28px;">📋 Current Setup</h2>
-    ${blocks || "<i>No channels yet</i>"}
-    <p style="margin-top:24px;"><a href="/" style="color:#f5a623;">← back to status</a></p>
-  </body></html>`);
+  <h2>📋 Current Setup</h2>
+  ${blocks || "<i class='muted'>No channels yet</i>"}
+  <p style="margin-top:26px;"><a href="/" class="link">← back to status</a></p>
+</div></body></html>`);
 });
 
 function findChannelByUsername(username) {
