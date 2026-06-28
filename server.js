@@ -953,22 +953,71 @@ app.get("/callback", async (req, res) => {
 // =============================================
 app.get("/ping", (req, res) => res.send("pong 💚"));
 
-app.get("/", (req, res) => {
-  const joinedList = Object.entries(channels).map(([id, ch]) => {
-    const cmds = Object.keys(ch.customCommands || {}).map(c => `!${c}`).join(", ") || "none";
-    return `<li><strong>${esc(ch.username)}</strong> – Lang: ${ch.language || "en"} | Msgs: ${ch.stats.totalChatMessages} | Subs: ${ch.stats.totalSubs} | Votes: ${ch.stats.totalVotes}<br>Custom: ${esc(cmds)}</li>`;
-  }).join("") || "<li>No channels joined yet</li>";
+const LANG_FLAG = { de:"🇩🇪", en:"🇬🇧", es:"🇪🇸", fr:"🇫🇷", pt:"🇵🇹", it:"🇮🇹", nl:"🇳🇱", ru:"🇷🇺", ja:"🇯🇵", ko:"🇰🇷", zh:"🇨🇳", ar:"🇸🇦", tr:"🇹🇷", pl:"🇵🇱", sv:"🇸🇪", uk:"🇺🇦", ro:"🇷🇴", hi:"🇮🇳" };
 
-  res.send(`${pageHead("BlazeianBot")}
-    <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>BlazeianBot</h1>
-      <p>User Token: <b>${ACCESS_TOKEN ? "Active ✅" : "Missing ❌"}</b> &nbsp;|&nbsp; App Token: <b>${APP_ACCESS_TOKEN ? "Active ✅" : "Missing ❌"}</b></p></header>
-    <div class="card" style="text-align:center;">
-      <a class="save" href="/dashboard" style="margin:4px;">🎛️ Streamer Dashboard (Blaze Login)</a>
-      <a class="save" href="/admin" style="margin:4px;background:linear-gradient(135deg,#6b7280,#374151);">⚙️ Owner Admin Panel</a>
+app.get("/", (req, res) => {
+  const total = Object.keys(channels).length;
+  const cards = Object.values(channels).map(ch => {
+    const flag = LANG_FLAG[ch.language] || "🌍";
+    const chips = Object.keys(ch.customCommands || {}).slice(0, 12)
+      .map(c => `<span class="chip">!${esc(c)}</span>`).join("") || `<span class="chip muted2">getting set up…</span>`;
+    return `<div class="ucard">
+      <div class="uhead"><span class="uname">${esc(ch.username)}</span><span class="uflag">${flag}</span></div>
+      <div class="ustats">💬 ${ch.stats.totalChatMessages} &nbsp; ⭐ ${ch.stats.totalSubs} &nbsp; 🗳️ ${ch.stats.totalVotes}</div>
+      <div class="uchips">${chips}</div>
+    </div>`;
+  }).join("") || `<p class="muted" style="text-align:center;">No crew yet — be the first to type <b>!join</b>! 💚</p>`;
+
+  res.send(`${pageHead("BlazeianBot — Loyal on Blaze")}
+    <style>
+      .hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px;padding:42px 0 10px;text-align:left;}
+      .hero img{width:150px;height:150px;border-radius:50%;border:3px solid #5cf472;box-shadow:0 0 38px rgba(92,244,114,.6);animation:glow 3s ease-in-out infinite;}
+      .bubble{position:relative;background:rgba(18,26,16,.92);border:1px solid #2c5a2c;border-radius:16px;padding:16px 20px;max-width:430px;font-size:16px;line-height:1.5;color:#e8ffe8;box-shadow:0 6px 24px rgba(0,0,0,.5);}
+      .bubble:before{content:"";position:absolute;left:-12px;top:48px;border:7px solid transparent;border-right-color:#2c5a2c;}
+      .bubble b{color:#5cf472;}
+      .htitle{text-align:center;margin:6px 0 2px;font-size:34px;color:#5cf472;text-shadow:0 0 22px rgba(92,244,114,.6);letter-spacing:1px;}
+      .htag{text-align:center;color:#a9d6a9;max-width:600px;margin:0 auto 4px;font-size:14px;line-height:1.6;}
+      .pills{text-align:center;margin:14px 0 6px;}
+      .pill{display:inline-block;background:#0f1a0f;border:1px solid #2c5a2c;color:#bfeebf;border-radius:30px;padding:6px 16px;margin:4px;font-size:13px;}
+      .pill b{color:#5cf472;}
+      .point{text-align:center;color:#7CFC9A;font-size:18px;font-weight:700;margin:26px 0 6px;letter-spacing:.5px;}
+      .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:8px;}
+      .ucard{background:linear-gradient(160deg,rgba(22,40,18,.95),rgba(12,16,12,.95));border:1px solid #2f5f2f;border-radius:14px;padding:15px;box-shadow:0 4px 18px rgba(0,0,0,.45);transition:transform .15s, box-shadow .15s;}
+      .ucard:hover{transform:translateY(-3px);box-shadow:0 0 22px rgba(92,244,114,.35);border-color:#5cf472;}
+      .uhead{display:flex;justify-content:space-between;align-items:center;}
+      .uname{color:#7CFC9A;font-weight:700;font-size:17px;word-break:break-word;}
+      .uflag{font-size:20px;}
+      .ustats{color:#bcd6bc;font-size:13px;margin:8px 0 10px;}
+      .uchips{display:flex;flex-wrap:wrap;gap:5px;}
+      .chip{background:#0f160f;border:1px solid #2a3a2a;color:#9fe0a8;font-size:11px;padding:3px 9px;border-radius:20px;}
+      .muted2{color:#6f836f;font-style:italic;}
+      .foot{text-align:center;color:#6f836f;font-size:12px;margin-top:34px;line-height:1.7;}
+      .foot b{color:#9fc99f;}
+    </style>
+
+    <div class="hero">
+      <img src="${MASCOT_URL}" onerror="this.style.display='none'">
+      <div class="bubble">Hey hey! 👋 I'm <b>BlazeianBot</b> — and these right here?<br>These are <b>MY</b> people. Every. Single. One. 💚<br>I'd cross the whole galaxy for this crew. 🔥</div>
     </div>
-    <h2>Joined Channels (${Object.keys(channels).length})</h2>
-    <ul>${joinedList}</ul>
-    <p><a href="/login" class="link">Refresh bot token</a></p>
+    <h1 class="htitle">BlazeianBot</h1>
+    <p class="htag">Your loyal little chaos-gremlin on Blaze — warm, lovable, and loyal to the last drop of oil 🛢️💚<br>Multi-language • Stream alerts • Custom commands • Live for every channel that calls me.</p>
+
+    <div class="pills">
+      <span class="pill">🟢 <b>Online &amp; awake 24/7</b></span>
+      <span class="pill">💚 Looking after <b>${total}</b> channel${total === 1 ? "" : "s"}</span>
+      <span class="pill">🌍 <b>18</b> languages</span>
+    </div>
+
+    <div class="card" style="text-align:center;margin-top:18px;">
+      <a class="save" href="/dashboard" style="margin:4px;">🎛️ Streamer Dashboard — Login with Blaze</a>
+    </div>
+
+    <div class="point">👇 My crew — proud of every one of them 👇</div>
+    <div class="grid">${cards}</div>
+
+    <p class="foot">Built with way too much love (and a tiny bit of oil 🛢️) for the Blaze community 💚<br>
+    Want me in your channel? Type <b>!join</b> in <b>blaze.stream/blazeian_bot</b> 🔥<br>
+    <span style="opacity:.5;">bot ${ACCESS_TOKEN ? "online" : "offline"} · <a href="/admin" class="link">owner</a></span></p>
     </div></body></html>`);
 });
 
