@@ -261,13 +261,31 @@ const MESSAGES = {
   },
 };
 
+function getRandom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+// Get channel language
+function getLang(channelId) {
+  return channels[channelId]?.language || "en";
+}
+
+// Get messages - always returns EN as base
 function getMsg(channelId) {
-  const lang = channels[channelId]?.language || "en";
+  const lang = getLang(channelId);
   return MESSAGES[lang] || MESSAGES["en"];
 }
 
-function getRandom(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
+// Send chat with optional auto-translation for unsupported languages
+async function sendChatT(channelId, text) {
+  const lang = getLang(channelId);
+  // If language has no full MESSAGES object, auto-translate from EN
+  if (!MESSAGES[lang] && lang !== "en") {
+    const translated = await translateText(text, lang);
+    await sendChat(channelId, translated || text);
+  } else {
+    await sendChat(channelId, text);
+  }
 }
 
 // API helpers
@@ -442,23 +460,23 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     const parts = msg.trim().split(/\s+/);
     const langInput = (parts[1] || "").toLowerCase();
     const langCode = LANG_CODES[langInput];
-    if (!langCode) { await sendChat(channelId, T.langInvalid); return; }
+    if (!langCode) { await sendChatT(channelId, T.langInvalid); return; }
     channels[channelId].language = langCode;
     saveChannels();
     const newT = MESSAGES[langCode] || MESSAGES["en"];
-    await sendChat(channelId, newT.langSet(LANG_DISPLAY[langCode]));
+    await sendChatT(channelId, newT.langSet(LANG_DISPLAY[langCode]));
     return;
   }
 
-  if (m === "!stats")  { await sendChat(channelId, T.stats(ch)); return; }
-  if (m === "!votes")  { await sendChat(channelId, T.votes(ch)); return; }
-  if (m === "!subs")   { await sendChat(channelId, T.subs(ch)); return; }
-  if (m === "!chat")   { await sendChat(channelId, T.chat(ch)); return; }
-  if (m === "!time")   { await sendChat(channelId, T.time(ch)); return; }
-  if (m === "!emote")  { await sendChat(channelId, T.emote(ch)); return; }
+  if (m === "!stats")  { await sendChatT(channelId, T.stats(ch)); return; }
+  if (m === "!votes")  { await sendChatT(channelId, T.votes(ch)); return; }
+  if (m === "!subs")   { await sendChatT(channelId, T.subs(ch)); return; }
+  if (m === "!chat")   { await sendChatT(channelId, T.chat(ch)); return; }
+  if (m === "!time")   { await sendChatT(channelId, T.time(ch)); return; }
+  if (m === "!emote")  { await sendChatT(channelId, T.emote(ch)); return; }
 
   if (m === "!cmd" || m === "!help") {
-    await sendChat(channelId, T.cmdList);
+    await sendChatT(channelId, T.cmdList);
     return;
   }
 
@@ -466,20 +484,20 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     const parts = msg.trim().split(/\s+/);
     const langInput = (parts[1] || "").toLowerCase();
     const langCode = LANG_CODES[langInput];
-    if (!langInput || !langCode) { await sendChat(channelId, T.explainUsage(user)); return; }
+    if (!langInput || !langCode) { await sendChatT(channelId, T.explainUsage(user)); return; }
     const last3 = (ch.chatMemory || []).slice(-3);
-    if (!last3.length) { await sendChat(channelId, T.noMessages(user)); return; }
+    if (!last3.length) { await sendChatT(channelId, T.noMessages(user)); return; }
     const translated = await translateMessages(last3, langCode);
     if (translated) {
       await sendChat(channelId, `[${LANG_DISPLAY[langCode]}] ${translated}`);
     } else {
-      await sendChat(channelId, T.translateFail(user));
+      await sendChatT(channelId, T.translateFail(user));
     }
     return;
   }
 
   if (m.includes("hello") || m.includes("hi ") || m === "hi" || m.includes("hey ") || m === "hey") {
-    await sendChat(channelId, T.greeting(user, ch.username));
+    await sendChatT(channelId, T.greeting(user, ch.username));
     return;
   }
 }
@@ -535,7 +553,7 @@ async function handleEvent(message) {
   if (metadata.subscriptionType === "channel.raid" && channelId && channels[channelId]) {
     const raider = payload.raider?.username || payload.raider?.displayName || "Someone";
     const T = getMsg(channelId);
-    await sendChat(channelId, getRandom(T.raid(raider)));
+    await sendChatT(channelId, getRandom(T.raid(raider)));
     return;
   }
 
@@ -544,7 +562,7 @@ async function handleEvent(message) {
     channels[channelId].stats.totalSubs++;
     saveChannels();
     const T = getMsg(channelId);
-    await sendChat(channelId, getRandom(T.sub(user)));
+    await sendChatT(channelId, getRandom(T.sub(user)));
     return;
   }
 
@@ -554,7 +572,7 @@ async function handleEvent(message) {
     channels[channelId].stats.totalSubs += count;
     saveChannels();
     const T = getMsg(channelId);
-    await sendChat(channelId, getRandom(T.giftsub(sender, count)));
+    await sendChatT(channelId, getRandom(T.giftsub(sender, count)));
     return;
   }
 
@@ -564,7 +582,7 @@ async function handleEvent(message) {
     channels[channelId].stats.totalVotes += amount;
     saveChannels();
     const T = getMsg(channelId);
-    await sendChat(channelId, getRandom(T.vote(user, amount)));
+    await sendChatT(channelId, getRandom(T.vote(user, amount)));
     return;
   }
 
@@ -572,7 +590,7 @@ async function handleEvent(message) {
     const user = payload.follower?.username || payload.follower?.displayName;
     if (user) {
       const T = getMsg(channelId);
-      await sendChat(channelId, getRandom(T.follow(user)));
+      await sendChatT(channelId, getRandom(T.follow(user)));
     }
     return;
   }
