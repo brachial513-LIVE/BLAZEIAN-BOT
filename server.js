@@ -713,6 +713,16 @@ app.get("/admin/list", (req, res) => {
   res.send(`<pre>${list || "No channels"}</pre>`);
 });
 
+// Admin: get blazeian_bot user ID
+app.get("/admin/whoami", async (req, res) => {
+  try {
+    const r = await axios.get("https://api.blaze.stream/v1/users/me", { headers: headers() });
+    res.json(r.data);
+  } catch(e) {
+    res.json(e.response?.data || e.message);
+  }
+});
+
 // ===============================
 // START
 // ===============================
