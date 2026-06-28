@@ -12,12 +12,16 @@ const CLIENT_ID      = process.env.BLAZE_CLIENT_ID;
 const CLIENT_SECRET  = process.env.BLAZE_CLIENT_SECRET;
 const REDIRECT_URI   = "https://blazeian-bot.onrender.com/callback";
 const SELF_URL       = process.env.SELF_URL || "https://blazeian-bot.onrender.com";
+const ADMIN_KEY      = process.env.ADMIN_KEY || "";
+const crypto         = require("crypto");
 
 let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN  || null;
 let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
 let APP_ACCESS_TOKEN    = null;
+const pendingAuth = {};   // oauth state -> { codeVerifier, kind }
+const sessions    = {};   // session id  -> { username, exp }
 
 async function getAppAccessToken() {
   try {
@@ -545,6 +549,7 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     ALL_EVENT_TYPES.forEach(t => subscribe(t, newChannelId));
     await sendChat(BOT_CHANNEL_ID, `@${user} Done! I've joined your channel 💚 Your viewers can now use: !stats | !votes | !subs | !time | !emote | !explain [language] | !setbotlang [language] | !addcmd to add your own commands!`);
     await sendChat(newChannelId, `Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do 💚🔥`);
+    await sendChat(BOT_CHANNEL_ID, `@${user} 🎛️ Manage your commands & stream messages anytime at: ${SELF_URL}/dashboard (login with your Blaze account) 💚`);
     return;
   }
 
@@ -754,110 +759,17 @@ async function handleEvent(message) {
 }
 
 // =============================================
-// OAUTH ROUTES
+// SHARED UI / HELPERS
 // =============================================
-app.get("/login", async (req, res) => {
-  try {
-    const response = await axios.post("https://blaze.stream/bapi/oauth2/generate-auth-url", {
-      clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, redirectUri: REDIRECT_URI,
-      scopes: ["users.read", "offline.access", "channel.moderate", "users.bot"]
-    });
-    pendingState = response.data.state;
-    pendingCodeVerifier = response.data.codeVerifier;
-    res.redirect(response.data.url);
-  } catch (e) {
-    res.send(`<pre>Login error: ${JSON.stringify(e.response?.data || e.message)}</pre><a href="/login">Retry</a>`);
-  }
-});
+const MASCOT_URL = process.env.BOT_AVATAR || "https://cdn.blaze.stream/uploads/avatar/ffba7b77-3b6d-4ca8-969e-c9333820547b.png";
 
-app.get("/callback", async (req, res) => {
-  const { code, state } = req.query;
-  if (!code) return res.send("Error: No code received.");
-  if (state && pendingState && state !== pendingState) return res.send("Error: State mismatch.");
-  try {
-    const tokenRes = await axios.post("https://blaze.stream/bapi/oauth2/token", {
-      clientId: CLIENT_ID, clientSecret: CLIENT_SECRET,
-      code, codeVerifier: pendingCodeVerifier, redirectUri: REDIRECT_URI, grantType: "authorization_code"
-    });
-    ACCESS_TOKEN  = tokenRes.data.accessToken;
-    REFRESH_TOKEN = tokenRes.data.refreshToken;
-    pendingState = null; pendingCodeVerifier = null;
-    console.log("New token");
-    connectSocket();
-    res.send(`
-      <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
-        <h1>Login successful!</h1>
-        <p><strong>BLAZE_ACCESS_TOKEN:</strong><br>
-        <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${ACCESS_TOKEN}</textarea></p>
-        <p><strong>BLAZE_REFRESH_TOKEN:</strong><br>
-        <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${REFRESH_TOKEN}</textarea></p>
-        <p><a href="/" style="color:#f5a623;">Status page</a></p>
-      </body></html>
-    `);
-  } catch (e) {
-    res.send(`<pre>Token error: ${JSON.stringify(e.response?.data || e.message)}</pre><a href="/login">Retry</a>`);
-  }
-});
-
-// =============================================
-// STATUS & PING
-// =============================================
-app.get("/ping", (req, res) => res.send("pong 💚"));
-
-app.get("/", (req, res) => {
-  const joinedList = Object.entries(channels).map(([id, ch]) => {
-    const cmds = Object.keys(ch.customCommands || {}).map(c => `!${c}`).join(", ") || "none";
-    return `<li><strong>${ch.username}</strong> (${id})<br>
-      Lang: ${ch.language || "en"} | Msgs: ${ch.stats.totalChatMessages} | Subs: ${ch.stats.totalSubs} | Votes: ${ch.stats.totalVotes}<br>
-      Custom commands: ${cmds}</li>`;
-  }).join("") || "<li>No channels joined yet</li>";
-
-  res.send(`
-    <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
-      <h1>BlazeianBot 💚</h1>
-      <p>User Token: <strong>${ACCESS_TOKEN ? "Active ✅" : "Missing ❌"}</strong> | App Token: <strong>${APP_ACCESS_TOKEN ? "Active ✅" : "Missing ❌"}</strong></p>
-      <p><a href="/admin" style="color:#4ade80;font-size:18px;">⚙️ Open Admin Panel (manage commands & stream messages)</a></p>
-      <h2>Joined Channels (${Object.keys(channels).length})</h2>
-      <ul>${joinedList}</ul>
-      <p><a href="/login" style="color:#f5a623;">Refresh token</a></p>
-    </body></html>
-  `);
-});
-
-app.get("/stats", (req, res) => res.json(channels));
-
-// =============================================
-// ADMIN PANEL (web form — no chat char limit)
-// =============================================
 function esc(s) { return String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
-app.get("/admin", (req, res) => {
-  const MASCOT_URL = process.env.BOT_AVATAR || "https://cdn.blaze.stream/uploads/avatar/ffba7b77-3b6d-4ca8-969e-c9333820547b.png";
-  const channelOptions = Object.values(channels).map(ch => `<option value="${esc(ch.username)}">${esc(ch.username)}</option>`).join("");
+function findChannelByUsername(username) {
+  return Object.keys(channels).find(id => channels[id].username.toLowerCase() === (username || "").toLowerCase());
+}
 
-  const blocks = Object.entries(channels).map(([id, ch]) => {
-    const cmds = Object.entries(ch.customCommands || {}).map(([name, resp]) =>
-      `<div class="cmd">
-        <form method="POST" action="/admin/delcmd" class="delform">
-          <input type="hidden" name="username" value="${esc(ch.username)}">
-          <input type="hidden" name="name" value="${esc(name)}">
-          <button class="del">delete</button>
-        </form>
-        <b>!${esc(name)}</b>
-        <div class="cmdtext">${esc(resp)}</div>
-      </div>`
-    ).join("") || "<i class='muted'>no custom commands yet</i>";
-
-    return `<div class="chan">
-      <h3>${esc(ch.username)} <span class="tag">${ch.language || "en"}</span></h3>
-      <div class="meta"><b>📺 LIVE message:</b> ${esc(ch.streamStart) || "<i class='muted'>not set</i>"}</div>
-      <div class="meta"><b>🔴 OFFLINE message:</b> ${esc(ch.streamEnd) || "<i class='muted'>not set</i>"}</div>
-      <div style="margin-top:10px;">${cmds}</div>
-    </div>`;
-  }).join("");
-
-  res.send(`<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>BlazeianBot Admin</title>
-<style>
+const PAGE_CSS = `<style>
   *{box-sizing:border-box;}
   body{background:radial-gradient(circle at 50% -5%, #16300f 0%, #0a0c0a 55%);color:#e8ffe8;font-family:'Segoe UI',Roboto,sans-serif;margin:0;padding:0 16px 70px;}
   .wrap{max-width:860px;margin:0 auto;}
@@ -865,14 +777,14 @@ app.get("/admin", (req, res) => {
   header img{width:128px;height:128px;border-radius:50%;border:3px solid #5cf472;box-shadow:0 0 34px rgba(92,244,114,.55);object-fit:cover;animation:glow 3s ease-in-out infinite;}
   @keyframes glow{0%,100%{box-shadow:0 0 26px rgba(92,244,114,.45);}50%{box-shadow:0 0 44px rgba(255,140,0,.5);}}
   header h1{margin:16px 0 4px;font-size:30px;color:#5cf472;text-shadow:0 0 20px rgba(92,244,114,.55);letter-spacing:1px;}
-  header p{color:#9fc99f;margin:0;font-size:14px;max-width:560px;margin:0 auto;}
+  header p{color:#9fc99f;margin:0 auto;font-size:14px;max-width:560px;}
   h2{color:#5cf472;border-bottom:1px solid #234021;padding-bottom:7px;margin-top:34px;font-size:21px;}
   .card{background:rgba(18,26,16,.85);border:1px solid #2c5a2c;border-radius:14px;padding:20px;box-shadow:0 4px 20px rgba(0,0,0,.45);}
   label{display:block;color:#cfeccf;font-size:14px;margin:0 0 5px;font-weight:500;}
   input,select,textarea{width:100%;padding:11px;background:#0f1a0f;color:#eaffea;border:1px solid #2c5a2c;border-radius:8px;font-size:14px;margin-bottom:15px;font-family:inherit;}
   input:focus,select:focus,textarea:focus{outline:none;border-color:#5cf472;box-shadow:0 0 0 2px rgba(92,244,114,.25);}
-  button.save{background:linear-gradient(135deg,#28d65f,#15803d);color:#fff;border:none;padding:12px 30px;border-radius:9px;cursor:pointer;font-size:15px;font-weight:700;box-shadow:0 0 16px rgba(40,214,95,.4);letter-spacing:.3px;}
-  button.save:hover{filter:brightness(1.12);}
+  button.save,a.save{background:linear-gradient(135deg,#28d65f,#15803d);color:#fff;border:none;padding:12px 30px;border-radius:9px;cursor:pointer;font-size:15px;font-weight:700;box-shadow:0 0 16px rgba(40,214,95,.4);letter-spacing:.3px;text-decoration:none;display:inline-block;}
+  button.save:hover,a.save:hover{filter:brightness(1.12);}
   .chan{background:rgba(14,20,13,.85);border:1px solid #244a24;border-radius:12px;padding:16px;margin:14px 0;}
   .chan h3{color:#5cf472;margin:0 0 10px;font-size:18px;}
   .tag{color:#0a0c0a;background:#5cf472;font-size:11px;padding:2px 8px;border-radius:20px;vertical-align:middle;font-weight:700;}
@@ -887,18 +799,41 @@ app.get("/admin", (req, res) => {
   a.link{color:#f5a623;text-decoration:none;}
   a.link:hover{text-decoration:underline;}
   .hint{color:#8aa88a;font-size:12px;margin:-8px 0 14px;}
-</style></head>
-<body><div class="wrap">
-  <header>
-    <img src="${MASCOT_URL}" alt="BlazeianBot" onerror="this.style.display='none'">
-    <h1>BlazeianBot Admin Panel</h1>
-    <p>Manage your channel's commands & stream messages. Paste long text here — no character limit like the chat 💚</p>
-  </header>
+  .topbar{display:flex;justify-content:flex-end;gap:14px;padding-top:14px;font-size:13px;}
+</style>`;
 
+function pageHead(title) {
+  return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${title}</title>${PAGE_CSS}</head><body><div class="wrap">`;
+}
+
+// Render the command list + stream messages for a single channel (used in both panels)
+function renderChannelBlock(ch, actionPrefix) {
+  const cmds = Object.entries(ch.customCommands || {}).map(([name, resp]) =>
+    `<div class="cmd">
+      <form method="POST" action="${actionPrefix}/delcmd" class="delform">
+        <input type="hidden" name="username" value="${esc(ch.username)}">
+        <input type="hidden" name="name" value="${esc(name)}">
+        <button class="del">delete</button>
+      </form>
+      <b>!${esc(name)}</b>
+      <div class="cmdtext">${esc(resp)}</div>
+    </div>`
+  ).join("") || "<i class='muted'>no custom commands yet</i>";
+
+  return `<div class="chan">
+    <h3>${esc(ch.username)} <span class="tag">${ch.language || "en"}</span></h3>
+    <div class="meta"><b>📺 LIVE message:</b> ${esc(ch.streamStart) || "<i class='muted'>not set</i>"}</div>
+    <div class="meta"><b>🔴 OFFLINE message:</b> ${esc(ch.streamEnd) || "<i class='muted'>not set</i>"}</div>
+    <div style="margin-top:10px;">${cmds}</div>
+  </div>`;
+}
+
+// Command + stream forms (channelValue is fixed for dashboard, dropdown for admin)
+function renderForms(actionPrefix, channelField) {
+  return `
   <h2>➕ Add / Update a Command</h2>
-  <form method="POST" action="/admin/setcmd" class="card">
-    <label>Channel</label>
-    <select name="username">${channelOptions}</select>
+  <form method="POST" action="${actionPrefix}/setcmd" class="card">
+    ${channelField}
     <label>Command name (without !)</label>
     <input name="name" placeholder="giveaway">
     <label>Response</label>
@@ -907,28 +842,262 @@ app.get("/admin", (req, res) => {
   </form>
 
   <h2>📺 Stream Start / End Messages</h2>
-  <form method="POST" action="/admin/setstream" class="card">
-    <label>Channel</label>
-    <select name="username">${channelOptions}</select>
+  <form method="POST" action="${actionPrefix}/setstream" class="card">
+    ${channelField}
     <label>Stream START message (when you go live)</label>
     <textarea name="streamStart" rows="2" placeholder="LIVE NOW: {name} 🔥"></textarea>
     <label>Stream END message (when you go offline)</label>
     <textarea name="streamEnd" rows="2" placeholder="Offline now - thanks everyone 💚"></textarea>
     <p class="hint">Tip: use {name} and it gets replaced with the streamer's name automatically.</p>
     <button class="save">Save Stream Messages</button>
-  </form>
-
-  <h2>📋 Current Setup</h2>
-  ${blocks || "<i class='muted'>No channels yet</i>"}
-  <p style="margin-top:26px;"><a href="/" class="link">← back to status</a></p>
-</div></body></html>`);
-});
-
-function findChannelByUsername(username) {
-  return Object.keys(channels).find(id => channels[id].username.toLowerCase() === (username || "").toLowerCase());
+  </form>`;
 }
 
+// =============================================
+// COOKIE / SESSION / ADMIN AUTH HELPERS
+// =============================================
+function getCookie(req, name) {
+  const raw = req.headers.cookie || "";
+  const m = raw.match(new RegExp("(?:^|; )" + name + "=([^;]*)"));
+  return m ? decodeURIComponent(m[1]) : null;
+}
+function setCookie(res, name, value, maxAgeSec) {
+  res.setHeader("Set-Cookie", `${name}=${encodeURIComponent(value)}; HttpOnly; Path=/; Max-Age=${maxAgeSec}; SameSite=Lax`);
+}
+function getSession(req) {
+  const sid = getCookie(req, "sid");
+  if (!sid) return null;
+  const s = sessions[sid];
+  if (!s || s.exp < Date.now()) { if (s) delete sessions[sid]; return null; }
+  return s;
+}
+function adminAuthed(req) {
+  if (!ADMIN_KEY) return true; // not configured -> open (with warning shown)
+  return req.query.key === ADMIN_KEY || getCookie(req, "adminkey") === ADMIN_KEY;
+}
+
+// =============================================
+// OAUTH ROUTES
+// =============================================
+async function startOAuth(res, scopes, kind) {
+  const r = await axios.post("https://blaze.stream/bapi/oauth2/generate-auth-url", {
+    clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, redirectUri: REDIRECT_URI, scopes
+  });
+  pendingAuth[r.data.state] = { codeVerifier: r.data.codeVerifier, kind };
+  res.redirect(r.data.url);
+}
+
+// Bot-owner login (full scopes — sets the bot tokens)
+app.get("/login", async (req, res) => {
+  try {
+    await startOAuth(res, ["users.read", "offline.access", "channel.moderate", "users.bot"], "owner");
+  } catch (e) {
+    res.send(`<pre>Login error: ${JSON.stringify(e.response?.data || e.message)}</pre><a href="/login">Retry</a>`);
+  }
+});
+
+// Streamer login (read-only — just to identify who they are)
+app.get("/dashboard/login", async (req, res) => {
+  try {
+    await startOAuth(res, ["users.read"], "streamer");
+  } catch (e) {
+    res.send(`<pre>Login error: ${JSON.stringify(e.response?.data || e.message)}</pre><a href="/dashboard">Retry</a>`);
+  }
+});
+
+app.get("/callback", async (req, res) => {
+  const { code, state } = req.query;
+  if (!code) return res.send("Error: No code received.");
+  const pa = pendingAuth[state];
+  if (!pa) return res.send("<p style='font-family:sans-serif'>Login session expired or invalid. <a href='/'>Home</a></p>");
+  try {
+    const tokenRes = await axios.post("https://blaze.stream/bapi/oauth2/token", {
+      clientId: CLIENT_ID, clientSecret: CLIENT_SECRET,
+      code, codeVerifier: pa.codeVerifier, redirectUri: REDIRECT_URI, grantType: "authorization_code"
+    });
+    delete pendingAuth[state];
+
+    if (pa.kind === "owner") {
+      ACCESS_TOKEN  = tokenRes.data.accessToken;
+      REFRESH_TOKEN = tokenRes.data.refreshToken;
+      console.log("New owner token");
+      connectSocket();
+      return res.send(`
+        <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
+          <h1>Login successful!</h1>
+          <p><strong>BLAZE_ACCESS_TOKEN:</strong><br>
+          <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${ACCESS_TOKEN}</textarea></p>
+          <p><strong>BLAZE_REFRESH_TOKEN:</strong><br>
+          <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${REFRESH_TOKEN}</textarea></p>
+          <p><a href="/" style="color:#f5a623;">Status page</a></p>
+        </body></html>`);
+    }
+
+    // Streamer login -> identify via their profile, create session
+    const prof = await axios.get("https://api.blaze.stream/v1/users/profile", {
+      headers: { authorization: `Bearer ${tokenRes.data.accessToken}`, "client-id": CLIENT_ID }
+    });
+    const username = prof.data?.data?.username;
+    if (!username) return res.send("<p style='font-family:sans-serif'>Couldn't read your Blaze profile. <a href='/dashboard'>Try again</a></p>");
+    const sid = crypto.randomBytes(24).toString("hex");
+    sessions[sid] = { username, exp: Date.now() + 7 * 24 * 3600 * 1000 };
+    setCookie(res, "sid", sid, 7 * 24 * 3600);
+    return res.redirect("/dashboard");
+  } catch (e) {
+    res.send(`<pre>Token error: ${JSON.stringify(e.response?.data || e.message)}</pre><a href="/">Home</a>`);
+  }
+});
+
+// =============================================
+// STATUS & PING
+// =============================================
+app.get("/ping", (req, res) => res.send("pong 💚"));
+
+app.get("/", (req, res) => {
+  const joinedList = Object.entries(channels).map(([id, ch]) => {
+    const cmds = Object.keys(ch.customCommands || {}).map(c => `!${c}`).join(", ") || "none";
+    return `<li><strong>${esc(ch.username)}</strong> – Lang: ${ch.language || "en"} | Msgs: ${ch.stats.totalChatMessages} | Subs: ${ch.stats.totalSubs} | Votes: ${ch.stats.totalVotes}<br>Custom: ${esc(cmds)}</li>`;
+  }).join("") || "<li>No channels joined yet</li>";
+
+  res.send(`${pageHead("BlazeianBot")}
+    <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>BlazeianBot</h1>
+      <p>User Token: <b>${ACCESS_TOKEN ? "Active ✅" : "Missing ❌"}</b> &nbsp;|&nbsp; App Token: <b>${APP_ACCESS_TOKEN ? "Active ✅" : "Missing ❌"}</b></p></header>
+    <div class="card" style="text-align:center;">
+      <a class="save" href="/dashboard" style="margin:4px;">🎛️ Streamer Dashboard (Blaze Login)</a>
+      <a class="save" href="/admin" style="margin:4px;background:linear-gradient(135deg,#6b7280,#374151);">⚙️ Owner Admin Panel</a>
+    </div>
+    <h2>Joined Channels (${Object.keys(channels).length})</h2>
+    <ul>${joinedList}</ul>
+    <p><a href="/login" class="link">Refresh bot token</a></p>
+    </div></body></html>`);
+});
+
+app.get("/stats", (req, res) => res.json(channels));
+
+// =============================================
+// STREAMER DASHBOARD (Blaze login — own channel only)
+// =============================================
+app.get("/dashboard", (req, res) => {
+  const session = getSession(req);
+
+  if (!session) {
+    return res.send(`${pageHead("BlazeianBot Dashboard")}
+      <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>BlazeianBot Dashboard</h1>
+        <p>Log in with your Blaze account to manage your own channel's commands & stream messages.</p></header>
+      <div class="card" style="text-align:center;">
+        <a class="save" href="/dashboard/login">🔥 Login with Blaze</a>
+        <p class="hint" style="margin-top:16px;">You'll only ever see and edit <b>your own</b> channel. 💚</p>
+      </div></div></body></html>`);
+  }
+
+  const channelId = findChannelByUsername(session.username);
+  if (!channelId) {
+    return res.send(`${pageHead("BlazeianBot Dashboard")}
+      <div class="topbar"><a href="/dashboard/logout" class="link">logout</a></div>
+      <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>Hey ${esc(session.username)}! 👋</h1></header>
+      <div class="card">
+        <p>BlazeianBot isn't active in your channel yet. Go to <b>blaze.stream/blazeian_bot</b> and type <b>!join</b> in the chat — then refresh this page and your dashboard appears. 💚🔥</p>
+      </div></div></body></html>`);
+  }
+
+  const ch = channels[channelId];
+  const channelField = `<input type="hidden" name="__self" value="1">`;
+  res.send(`${pageHead("BlazeianBot Dashboard")}
+    <div class="topbar"><span class="muted">logged in as <b style="color:#5cf472;">${esc(session.username)}</b></span> <a href="/dashboard/logout" class="link">logout</a></div>
+    <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>${esc(ch.username)}'s Dashboard</h1>
+      <p>Manage your commands & stream messages. Paste long text here — no character limit like the chat 💚</p></header>
+    ${renderForms("/dashboard", channelField)}
+    <h2>📋 Your Current Setup</h2>
+    ${renderChannelBlock(ch, "/dashboard")}
+    </div></body></html>`);
+});
+
+app.get("/dashboard/logout", (req, res) => {
+  const sid = getCookie(req, "sid");
+  if (sid) delete sessions[sid];
+  setCookie(res, "sid", "", 0);
+  res.redirect("/dashboard");
+});
+
+// All dashboard writes are scoped to the logged-in user's OWN channel only
+function dashboardChannelId(req) {
+  const session = getSession(req);
+  if (!session) return null;
+  return findChannelByUsername(session.username);
+}
+
+app.post("/dashboard/setcmd", async (req, res) => {
+  const channelId = dashboardChannelId(req);
+  if (!channelId) return res.status(403).send("Not logged in. <a href='/dashboard'>Login</a>");
+  const cmdName = (req.body.name || "").toLowerCase().replace(/^!/, "").trim();
+  const response = (req.body.response || "").trim();
+  if (cmdName && response) {
+    if (!channels[channelId].customCommands) channels[channelId].customCommands = {};
+    channels[channelId].customCommands[cmdName] = response;
+    await saveChannelsToCloud();
+  }
+  res.redirect("/dashboard");
+});
+
+app.post("/dashboard/delcmd", async (req, res) => {
+  const channelId = dashboardChannelId(req);
+  if (!channelId) return res.status(403).send("Not logged in. <a href='/dashboard'>Login</a>");
+  const cmdName = (req.body.name || "").toLowerCase().replace(/^!/, "").trim();
+  if (channels[channelId].customCommands) delete channels[channelId].customCommands[cmdName];
+  await saveChannelsToCloud();
+  res.redirect("/dashboard");
+});
+
+app.post("/dashboard/setstream", async (req, res) => {
+  const channelId = dashboardChannelId(req);
+  if (!channelId) return res.status(403).send("Not logged in. <a href='/dashboard'>Login</a>");
+  channels[channelId].streamStart = (req.body.streamStart || "").trim();
+  channels[channelId].streamEnd   = (req.body.streamEnd || "").trim();
+  await saveChannelsToCloud();
+  res.redirect("/dashboard");
+});
+
+// =============================================
+// OWNER ADMIN PANEL (password protected — controls ALL channels)
+// =============================================
+function adminGate(req, res) {
+  if (adminAuthed(req)) {
+    if (ADMIN_KEY && req.query.key === ADMIN_KEY) setCookie(res, "adminkey", ADMIN_KEY, 7 * 24 * 3600);
+    return true;
+  }
+  res.send(`${pageHead("Admin Login")}
+    <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>🔒 Admin Panel</h1>
+      <p>Enter the admin password to continue.</p></header>
+    <form method="GET" action="/admin" class="card">
+      <label>Admin password</label>
+      <input type="password" name="key" placeholder="••••••••" autofocus>
+      <button class="save">Unlock</button>
+    </form></div></body></html>`);
+  return false;
+}
+
+app.get("/admin", (req, res) => {
+  if (!adminGate(req, res)) return;
+  const channelOptions = Object.values(channels).map(ch => `<option value="${esc(ch.username)}">${esc(ch.username)}</option>`).join("");
+  const channelField = `<label>Channel</label><select name="username">${channelOptions}</select>`;
+  const blocks = Object.values(channels).map(ch => renderChannelBlock(ch, "/admin")).join("") || "<i class='muted'>No channels yet</i>";
+  const warn = ADMIN_KEY ? "" : `<div class="card" style="border-color:#a33;background:#2a1414;margin-bottom:16px;">⚠️ This panel has <b>no password</b> yet. Set an <code>ADMIN_KEY</code> environment variable in Render to lock it down.</div>`;
+
+  res.send(`${pageHead("BlazeianBot Admin")}
+    <div class="topbar"><a href="/" class="link">status</a> <a href="/admin/logout" class="link">logout</a></div>
+    <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>BlazeianBot Admin Panel</h1>
+      <p>Owner control for <b>all</b> channels. Paste long text here — no character limit 💚</p></header>
+    ${warn}
+    ${renderForms("/admin", channelField)}
+    <h2>📋 Current Setup (all channels)</h2>
+    ${blocks}
+    </div></body></html>`);
+});
+
+app.get("/admin/logout", (req, res) => { setCookie(res, "adminkey", "", 0); res.redirect("/"); });
+
 app.post("/admin/setcmd", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden");
   const channelId = findChannelByUsername(req.body.username);
   if (!channelId) return res.send("Channel not found. <a href='/admin'>back</a>");
   const cmdName = (req.body.name || "").toLowerCase().replace(/^!/, "").trim();
@@ -941,6 +1110,7 @@ app.post("/admin/setcmd", async (req, res) => {
 });
 
 app.post("/admin/delcmd", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden");
   const channelId = findChannelByUsername(req.body.username);
   if (!channelId) return res.send("Channel not found. <a href='/admin'>back</a>");
   const cmdName = (req.body.name || "").toLowerCase().replace(/^!/, "").trim();
@@ -950,6 +1120,7 @@ app.post("/admin/delcmd", async (req, res) => {
 });
 
 app.post("/admin/setstream", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden");
   const channelId = findChannelByUsername(req.body.username);
   if (!channelId) return res.send("Channel not found. <a href='/admin'>back</a>");
   channels[channelId].streamStart = (req.body.streamStart || "").trim();
@@ -959,22 +1130,25 @@ app.post("/admin/setstream", async (req, res) => {
 });
 
 app.get("/admin/remove/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const channelId = findChannelByUsername(req.params.username);
-  if (!channelId) return res.send(`Channel "${req.params.username}" not found.`);
+  if (!channelId) return res.send(`Channel "${esc(req.params.username)}" not found.`);
   delete channels[channelId];
   await saveChannelsToCloud();
-  res.send(`Removed "${req.params.username}". They can !join again now.`);
+  res.send(`Removed "${esc(req.params.username)}". They can !join again now.`);
 });
 
 app.get("/admin/list", (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const list = Object.entries(channels).map(([id, ch]) => {
     const cmds = Object.keys(ch.customCommands || {}).join(", ") || "none";
     return `${ch.username} (${id}) – Lang: ${ch.language || "en"} | Msgs: ${ch.stats.totalChatMessages} | Custom: ${cmds}`;
   }).join("\n");
-  res.send(`<pre>${list || "No channels"}</pre>`);
+  res.send(`<pre>${esc(list) || "No channels"}</pre>`);
 });
 
 app.get("/admin/whoami", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   try {
     const r = await axios.get("https://api.blaze.stream/v1/users/profile", { headers: headers() });
     res.json(r.data);
