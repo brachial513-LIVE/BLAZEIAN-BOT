@@ -189,6 +189,12 @@ const MESSAGES = {
     translateFail: (user) => `@${user} Translation failed, please try again! 💚`,
     explainUsage: (user) => `@${user} Please specify a language! Example: !explain German 💚`,
     greeting: (user, streamer) => `Hey @${user}! 👋💚 Welcome to ${streamer}'s stream! So glad you're here 🫶`,
+    stats: (ch) => `📊 ${ch.username}'s Stats | 🗳️ Votes: ${ch.stats.totalVotes} | ⭐ Subs: ${ch.stats.totalSubs} | 💬 Msgs: ${ch.stats.totalChatMessages} | 🕐 Stream Time: ${formatTime(ch.stats.totalStreamMinutes)} | 🏆 Top Emote: ${getTopEmote(ch.stats)} 💚`,
+    votes: (ch) => `🗳️ Total votes for ${ch.username}: ${ch.stats.totalVotes} 💚`,
+    subs: (ch) => `⭐ Total subs for ${ch.username}: ${ch.stats.totalSubs} 💚`,
+    chat: (ch) => `💬 Total chat messages tracked: ${ch.stats.totalChatMessages} 💚`,
+    time: (ch) => `🕐 Total stream time for ${ch.username}: ${formatTime(ch.stats.totalStreamMinutes)} 💚`,
+    emote: (ch) => `🏆 Most used emote in ${ch.username}'s chat: ${getTopEmote(ch.stats)} 💚`,
   },
   de: {
     raid: (raider) => [
@@ -216,6 +222,12 @@ const MESSAGES = {
     translateFail: (user) => `@${user} Uebersetzung fehlgeschlagen! 💚`,
     explainUsage: (user) => `@${user} Bitte gib eine Sprache an! Beispiel: !explain German 💚`,
     greeting: (user, streamer) => `Hey @${user}! 👋💚 Willkommen in ${streamer}'s Stream! 🫶`,
+    stats: (ch) => `📊 ${ch.username}'s Stats | 🗳️ Votes: ${ch.stats.totalVotes} | ⭐ Subs: ${ch.stats.totalSubs} | 💬 Nachrichten: ${ch.stats.totalChatMessages} | 🕐 Streamzeit: ${formatTime(ch.stats.totalStreamMinutes)} | 🏆 Top Emote: ${getTopEmote(ch.stats)} 💚`,
+    votes: (ch) => `🗳️ Votes fuer ${ch.username}: ${ch.stats.totalVotes} 💚`,
+    subs: (ch) => `⭐ Subs fuer ${ch.username}: ${ch.stats.totalSubs} 💚`,
+    chat: (ch) => `💬 Nachrichten getrackt: ${ch.stats.totalChatMessages} 💚`,
+    time: (ch) => `🕐 Streamzeit fuer ${ch.username}: ${formatTime(ch.stats.totalStreamMinutes)} 💚`,
+    emote: (ch) => `🏆 Meistgenutztes Emote in ${ch.username}'s Chat: ${getTopEmote(ch.stats)} 💚`,
   },
   es: {
     raid: (raider) => [
@@ -240,6 +252,12 @@ const MESSAGES = {
     translateFail: (user) => `@${user} Traduccion fallida! 💚`,
     explainUsage: (user) => `@${user} Especifica un idioma! Ejemplo: !explain German 💚`,
     greeting: (user, streamer) => `Hola @${user}! 👋💚 Bienvenido al stream de ${streamer}! 🫶`,
+    stats: (ch) => `📊 Stats de ${ch.username} | 🗳️ Votos: ${ch.stats.totalVotes} | ⭐ Subs: ${ch.stats.totalSubs} | 💬 Msgs: ${ch.stats.totalChatMessages} | 🕐 Tiempo: ${formatTime(ch.stats.totalStreamMinutes)} | 🏆 Top Emote: ${getTopEmote(ch.stats)} 💚`,
+    votes: (ch) => `🗳️ Votos para ${ch.username}: ${ch.stats.totalVotes} 💚`,
+    subs: (ch) => `⭐ Subs para ${ch.username}: ${ch.stats.totalSubs} 💚`,
+    chat: (ch) => `💬 Mensajes rastreados: ${ch.stats.totalChatMessages} 💚`,
+    time: (ch) => `🕐 Tiempo de stream para ${ch.username}: ${formatTime(ch.stats.totalStreamMinutes)} 💚`,
+    emote: (ch) => `🏆 Emote mas usado en el chat de ${ch.username}: ${getTopEmote(ch.stats)} 💚`,
   },
 };
 
@@ -432,19 +450,12 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
-  if (m === "!stats") {
-    const s = ch.stats;
-    await sendChat(channelId,
-      `${ch.username}'s Stats | Votes: ${s.totalVotes} | Subs: ${s.totalSubs} | Msgs: ${s.totalChatMessages} | Stream Time: ${formatTime(s.totalStreamMinutes)} | Top Emote: ${getTopEmote(s)} 💚`
-    );
-    return;
-  }
-
-  if (m === "!votes") { await sendChat(channelId, `Total votes for ${ch.username}: ${ch.stats.totalVotes} 💚`); return; }
-  if (m === "!subs")  { await sendChat(channelId, `Total subs for ${ch.username}: ${ch.stats.totalSubs} 💚`); return; }
-  if (m === "!chat")  { await sendChat(channelId, `Total chat messages tracked: ${ch.stats.totalChatMessages} 💚`); return; }
-  if (m === "!time")  { await sendChat(channelId, `Total stream time for ${ch.username}: ${formatTime(ch.stats.totalStreamMinutes)} 💚`); return; }
-  if (m === "!emote") { await sendChat(channelId, `Most used emote in ${ch.username}'s chat: ${getTopEmote(ch.stats)} 💚`); return; }
+  if (m === "!stats")  { await sendChat(channelId, T.stats(ch)); return; }
+  if (m === "!votes")  { await sendChat(channelId, T.votes(ch)); return; }
+  if (m === "!subs")   { await sendChat(channelId, T.subs(ch)); return; }
+  if (m === "!chat")   { await sendChat(channelId, T.chat(ch)); return; }
+  if (m === "!time")   { await sendChat(channelId, T.time(ch)); return; }
+  if (m === "!emote")  { await sendChat(channelId, T.emote(ch)); return; }
 
   if (m === "!cmd" || m === "!help") {
     await sendChat(channelId, T.cmdList);
