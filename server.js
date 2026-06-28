@@ -716,7 +716,7 @@ app.get("/admin/list", (req, res) => {
 // Admin: get blazeian_bot user ID
 app.get("/admin/whoami", async (req, res) => {
   try {
-    const r = await axios.get("https://api.blaze.stream/v1/users/me", { headers: headers() });
+    const r = await axios.get("https://api.blaze.stream/v1/users/profile", { headers: headers() });
     res.json(r.data);
   } catch(e) {
     res.json(e.response?.data || e.message);
