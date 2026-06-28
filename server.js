@@ -10,6 +10,7 @@ const BOT_NAME       = "blazeian_bot";
 const CLIENT_ID      = process.env.BLAZE_CLIENT_ID;
 const CLIENT_SECRET  = process.env.BLAZE_CLIENT_SECRET;
 const REDIRECT_URI   = "https://blazeian-bot.onrender.com/callback";
+const SELF_URL       = process.env.SELF_URL || "https://blazeian-bot.onrender.com";
 
 let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN  || null;
 let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
@@ -937,6 +938,8 @@ app.get("/", (req, res) => {
   `);
 });
 
+app.get("/ping", (req, res) => res.send("pong 💚"));
+
 app.get("/stats", (req, res) => res.json(channels));
 
 app.get("/admin/remove/:username", async (req, res) => {
@@ -974,4 +977,23 @@ app.listen(PORT, "0.0.0.0", async () => {
   console.log(`Loaded ${Object.keys(channels).length} channel(s)`);
   await getAppAccessToken();
   connectSocket();
+
+  // Keep-alive backup: ping self every 10 min so Render free tier stays awake.
+  // (External monitor like UptimeRobot is the primary safeguard — this is the backup.)
+  setInterval(async () => {
+    try {
+      await axios.get(`${SELF_URL}/ping`, { timeout: 8000 });
+      console.log("Keep-alive ping ok");
+    } catch (e) {
+      console.log("Keep-alive ping failed:", e.message);
+    }
+  }, 10 * 60 * 1000);
+
+  // Watchdog: if socket has been disconnected, force reconnect every 5 min.
+  setInterval(() => {
+    if (!socket || socket.disconnected) {
+      console.log("Watchdog: socket down, reconnecting...");
+      connectSocket();
+    }
+  }, 5 * 60 * 1000);
 });
