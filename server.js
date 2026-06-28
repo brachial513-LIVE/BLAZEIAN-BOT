@@ -961,16 +961,25 @@ app.get("/", (req, res) => {
     const flag = LANG_FLAG[ch.language] || "🌍";
     const chips = Object.keys(ch.customCommands || {}).slice(0, 12)
       .map(c => `<span class="chip">!${esc(c)}</span>`).join("") || `<span class="chip muted2">getting set up…</span>`;
-    return `<div class="ucard">
+    return `<a class="ucard" href="https://blaze.stream/${encodeURIComponent(ch.username)}" target="_blank" rel="noopener">
       <div class="uhead"><span class="uname">${esc(ch.username)}</span><span class="uflag">${flag}</span></div>
       <div class="ustats">💬 ${ch.stats.totalChatMessages} &nbsp; ⭐ ${ch.stats.totalSubs} &nbsp; 🗳️ ${ch.stats.totalVotes}</div>
       <div class="uchips">${chips}</div>
-    </div>`;
+      <div class="uvisit">visit channel →</div>
+    </a>`;
   }).join("") || `<p class="muted" style="text-align:center;">No crew yet — be the first to type <b>!join</b>! 💚</p>`;
 
   const blazeMark = process.env.BLAZE_LOGO_URL
     ? `<img src="${process.env.BLAZE_LOGO_URL}" alt="BLAZE" style="height:26px;vertical-align:middle;margin-left:4px;">`
     : `<span class="blazeword">BLAZE</span>`;
+
+  // Donation / support links (env vars override these defaults)
+  const PAYPAL       = process.env.DONATE_PAYPAL_URL || "https://www.paypal.com/paypalme/Brachial5eins3";
+  const BLAZE_THANKS = process.env.BLAZE_THANKS_URL  || "https://blaze.stream/blazeian_bot";
+  const donateButtons = [
+    BLAZE_THANKS ? `<a class="donbtn blaze" href="${esc(BLAZE_THANKS)}" target="_blank" rel="noopener">🔥 Send a "Super Thanks" on Blaze</a>` : "",
+    PAYPAL ? `<a class="donbtn paypal" href="${esc(PAYPAL)}" target="_blank" rel="noopener">☕ Buy me a coffee (PayPal)</a>` : "",
+  ].filter(Boolean).join(" ");
 
   res.send(`${pageHead("BlazeianBot — Loyal on Blaze")}
     <style>
@@ -986,7 +995,7 @@ app.get("/", (req, res) => {
       .pill b{color:#5cf472;}
       .point{text-align:center;color:#7CFC9A;font-size:18px;font-weight:700;margin:26px 0 6px;letter-spacing:.5px;}
       .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:8px;}
-      .ucard{background:linear-gradient(160deg,rgba(22,40,18,.95),rgba(12,16,12,.95));border:1px solid #2f5f2f;border-radius:14px;padding:15px;box-shadow:0 4px 18px rgba(0,0,0,.45);transition:transform .15s, box-shadow .15s;}
+      .ucard{display:block;text-decoration:none;background:linear-gradient(160deg,rgba(22,40,18,.95),rgba(12,16,12,.95));border:1px solid #2f5f2f;border-radius:14px;padding:15px;box-shadow:0 4px 18px rgba(0,0,0,.45);transition:transform .15s, box-shadow .15s;}
       .ucard:hover{transform:translateY(-3px);box-shadow:0 0 22px rgba(92,244,114,.35);border-color:#5cf472;}
       .uhead{display:flex;justify-content:space-between;align-items:center;}
       .uname{color:#7CFC9A;font-weight:700;font-size:17px;word-break:break-word;}
@@ -995,12 +1004,30 @@ app.get("/", (req, res) => {
       .uchips{display:flex;flex-wrap:wrap;gap:5px;}
       .chip{background:#0f160f;border:1px solid #2a3a2a;color:#9fe0a8;font-size:11px;padding:3px 9px;border-radius:20px;}
       .muted2{color:#6f836f;font-style:italic;}
+      .uvisit{color:#f5a623;font-size:11px;margin-top:10px;opacity:0;transition:opacity .15s;}
+      .ucard:hover .uvisit{opacity:1;}
       .foot{text-align:center;color:#6f836f;font-size:12px;margin-top:34px;line-height:1.7;}
       .foot b{color:#9fc99f;}
       .blazebtn{display:inline-flex;align-items:center;gap:11px;background:linear-gradient(135deg,#1d1d1d,#0c0c0c);color:#fff;font-weight:800;font-size:18px;padding:18px 38px;border-radius:14px;text-decoration:none;border:2px solid #f5a623;box-shadow:0 0 26px rgba(245,166,35,.55);animation:bpulse 2.2s ease-in-out infinite;transition:transform .15s;}
       .blazebtn:hover{transform:translateY(-2px) scale(1.02);}
       .blazeword{font-weight:900;font-style:italic;color:#ffc62e;text-shadow:2px 2px 0 #6b3d00,3px 3px 0 #4a2a00;letter-spacing:1px;font-size:23px;}
       @keyframes bpulse{0%,100%{box-shadow:0 0 22px rgba(245,166,35,.5);}50%{box-shadow:0 0 44px rgba(245,166,35,.92);}}
+      .feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:10px;}
+      .feat{background:rgba(16,24,15,.8);border:1px solid #244a24;border-radius:12px;padding:14px 16px;}
+      .feat h4{margin:0 0 4px;color:#7CFC9A;font-size:15px;}
+      .feat p{margin:0;color:#aacaaa;font-size:13px;line-height:1.5;}
+      .cta{background:linear-gradient(135deg,rgba(34,60,26,.9),rgba(14,20,12,.95));border:2px solid #5cf472;border-radius:16px;padding:22px;text-align:center;margin-top:14px;box-shadow:0 0 28px rgba(92,244,114,.25);}
+      .cta h3{margin:0 0 8px;color:#5cf472;font-size:22px;}
+      .cta .step{color:#dfffdf;font-size:15px;line-height:1.7;}
+      .cta code{background:#0f1a0f;border:1px solid #2c5a2c;color:#ffd23f;padding:3px 9px;border-radius:6px;font-size:14px;}
+      .support{background:rgba(16,24,15,.7);border:1px dashed #2c5a2c;border-radius:16px;padding:22px;text-align:center;margin-top:30px;}
+      .support h3{margin:0 0 8px;color:#5cf472;font-size:19px;}
+      .support p{color:#bcd6bc;font-size:14px;line-height:1.65;max-width:600px;margin:6px auto;}
+      .donbtn{display:inline-block;margin:8px 5px 0;padding:11px 22px;border-radius:10px;font-size:14px;font-weight:700;text-decoration:none;cursor:pointer;border:none;}
+      .donbtn.paypal{background:linear-gradient(135deg,#3b82f6,#1d4ed8);color:#fff;}
+      .donbtn.blaze{background:linear-gradient(135deg,#ffc02e,#f5870b);color:#241500;}
+      .donbtn.wallet{background:#0f1a0f;border:1px solid #2c5a2c;color:#cfeccf;}
+      .donbtn:hover{filter:brightness(1.12);}
     </style>
 
     <div class="hero">
@@ -1008,23 +1035,48 @@ app.get("/", (req, res) => {
       <div class="bubble">Hey hey! 👋 I'm <b>BlazeianBot</b> — and these right here?<br>These are <b>MY</b> people. Every. Single. One. 💚<br>I'd cross the whole galaxy for this crew. 🔥</div>
     </div>
     <h1 class="htitle">BlazeianBot</h1>
-    <p class="htag">Your loyal little chaos-gremlin on Blaze — warm, lovable, and loyal to the last drop of oil 🛢️💚<br>Multi-language • Stream alerts • Custom commands • Live for every channel that calls me.</p>
+    <p class="htag">Your loyal little chaos-gremlin on Blaze — warm, lovable, and loyal to the last drop of oil 🛢️💚</p>
 
     <div class="pills">
       <span class="pill">🟢 <b>Online &amp; awake 24/7</b></span>
       <span class="pill">💚 Looking after <b>${total}</b> channel${total === 1 ? "" : "s"}</span>
       <span class="pill">🌍 <b>18</b> languages</span>
+      <span class="pill">✅ <b>100% free</b></span>
     </div>
 
-    <div style="text-align:center;margin-top:24px;">
-      <a class="blazebtn" href="/dashboard">🎛️ Streamer Dashboard &nbsp;·&nbsp; Login with ${blazeMark}</a>
+    <h2 style="text-align:center;border:0;">⚡ What I do best</h2>
+    <div class="feats">
+      <div class="feat"><h4>🌍 Live Translation</h4><p>My signature move — <code style="all:unset;color:#ffd23f;">!explain [language]</code> translates the last chat messages into 18 languages. Nobody gets left out.</p></div>
+      <div class="feat"><h4>🎉 Stream Alerts with Soul</h4><p>Raids, subs, gift subs, votes & follows — celebrated with real personality, never robotic.</p></div>
+      <div class="feat"><h4>⚡ Custom Commands</h4><p>Build your own commands in seconds from your dashboard. <code style="all:unset;color:#ffd23f;">!giveaway</code>, <code style="all:unset;color:#ffd23f;">!socials</code>, anything you want.</p></div>
+      <div class="feat"><h4>💬 Actually Social</h4><p>I react to GG, GM, hearts & hype — and answer <code style="all:unset;color:#ffd23f;">@blazeian_bot weather in [city]</code> with live data.</p></div>
+      <div class="feat"><h4>📊 Stats & Tracking</h4><p>Votes, subs, stream time, top emote — <code style="all:unset;color:#ffd23f;">!stats</code> shows it all, per channel.</p></div>
+      <div class="feat"><h4>🌐 Your Language</h4><p><code style="all:unset;color:#ffd23f;">!setbotlang [language]</code> and I'll talk to your community in their own tongue.</p></div>
+    </div>
+
+    <div class="cta">
+      <h3>🔥 Want me in YOUR channel?</h3>
+      <div class="step">It takes 5 seconds — completely free:<br>
+        1️⃣ Go to <code>blaze.stream/blazeian_bot</code><br>
+        2️⃣ Type <code>!join</code> in the chat<br>
+        3️⃣ That's it — I'm live in your channel 💚</div>
+      <div style="margin-top:18px;">
+        <a class="blazebtn" href="/dashboard">🎛️ Already joined? · Manage with ${blazeMark}</a>
+      </div>
     </div>
 
     <div class="point">👇 My crew — proud of every one of them 👇</div>
     <div class="grid">${cards}</div>
 
+    <div class="support">
+      <h3>💚 Everything here is free — forever</h3>
+      <p>Every single feature is <b>100% free</b> to use. No paywalls, no catch. I do this because I love this community.</p>
+      <p>But if you ever feel like wishing me a <b>Blazeian Day</b> ☀️, you can support what we're building here — purely if <i>you</i> want to. Support based on love, never expected. 🫶</p>
+      ${donateButtons ? `<div style="margin-top:12px;">${donateButtons}</div>` : ""}
+      <p style="margin-top:18px;font-size:13px;opacity:.9;">👉 The <b style="color:#ffc62e;">Super Thanks</b> button takes you straight to my Blaze page. From your own Blaze account, just hit the <b>"Thanks"</b> button there, pick <b>BLAZE</b> or USDC, and send 💛 — it all runs through Blaze's official flow, so it's instant and tracked. Nothing ever gets lost. Supporting in <b style="color:#ffc62e;">BLAZE</b> also lifts up the token and the whole platform we all stand for. 💚🔥</p>
+    </div>
+
     <p class="foot">Built with way too much love (and a tiny bit of oil 🛢️) for the Blaze community 💚<br>
-    Want me in your channel? Type <b>!join</b> in <b>blaze.stream/blazeian_bot</b> 🔥<br>
     <span style="opacity:.5;">bot ${ACCESS_TOKEN ? "online" : "offline"} · <a href="/admin" class="link">owner</a></span></p>
     </div></body></html>`);
 });
