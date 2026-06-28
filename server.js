@@ -475,7 +475,7 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   if (m === "!time")   { await sendChatT(channelId, T.time(ch)); return; }
   if (m === "!emote")  { await sendChatT(channelId, T.emote(ch)); return; }
 
-  if (m === "!cmd" || m === "!help") {
+  if (m === "!cmd" || m === "!help" || m === "!commands") {
     await sendChatT(channelId, T.cmdList);
     return;
   }
