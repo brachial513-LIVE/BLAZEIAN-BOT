@@ -1623,6 +1623,41 @@ app.get("/admin/followtest2/:username", async (req, res) => {
     out.map(o => `${o.ok ? "✅" : "❌"} [${o.status}] ${o.label}\n     ${o.data}`).join("\n\n") + `</pre>`);
 });
 
+// DIAGNOSTIC ROUND 3: the cookie path — visitor-id header + matching cookie, with a VALID body {}.
+app.get("/admin/followtest3/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  let cid = findChannelByUsername(req.params.username) || await getChannelIdBySlug(req.params.username);
+  if (!cid) return res.send(`Channel "${esc(req.params.username)}" not found.`);
+  const url = `https://blaze.stream/bapi/channels/${cid}/follow`;
+  const U = ACCESS_TOKEN, A = APP_ACCESS_TOKEN, V = BOT_VISITOR_ID;
+  const tryIt = async (label, body, headers) => {
+    try { const r = await axios.post(url, body, { headers, timeout: 10000 }); return { label, ok: true, status: r.status, data: JSON.stringify(r.data) }; }
+    catch (e) { return { label, ok: false, status: e.response?.status, data: JSON.stringify(e.response?.data) || e.message }; }
+  };
+  const variants = [
+    ["L bearer + visitor-id hdr + cookie(visitorId,token) + body {}", {},
+      { authorization: `Bearer ${U}`, "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream", cookie: `visitorId=${V}; token=${U}` }],
+    ["M bearer + visitor-id hdr + cookie(visitorId only) + body {}", {},
+      { authorization: `Bearer ${U}`, "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream", cookie: `visitorId=${V}` }],
+    ["N bearer + visitor-id hdr + cookie(token only) + body {}", {},
+      { authorization: `Bearer ${U}`, "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream", cookie: `token=${U}` }],
+    ["O NO bearer hdr + visitor-id hdr + cookie(visitorId,token) + body {}", {},
+      { "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream", cookie: `visitorId=${V}; token=${U}` }],
+    ["P bearer + NO visitor-id hdr + cookie(visitorId,token) + body {}", {},
+      { authorization: `Bearer ${U}`, "content-type": "application/json", origin: "https://blaze.stream", cookie: `visitorId=${V}; token=${U}` }],
+    ["Q bearer + visitor-id hdr + cookie(visitorId,token) + undefined body (no ct)", undefined,
+      { authorization: `Bearer ${U}`, "visitor-id": V, origin: "https://blaze.stream", cookie: `visitorId=${V}; token=${U}` }],
+    ["R bearer + visitor-id hdr + cookie(visitorId; token=APP) + body {}", {},
+      { authorization: `Bearer ${U}`, "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream", cookie: `visitorId=${V}; token=${A}` }],
+    ["S APP-bearer + visitor-id hdr + cookie(visitorId; token=APP) + body {}", {},
+      { authorization: `Bearer ${A}`, "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream", cookie: `visitorId=${V}; token=${A}` }],
+  ];
+  const out = [];
+  for (const v of variants) { out.push(await tryIt(...v)); await sleep(500); }
+  res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;">FOLLOW TEST 3 — ${esc(req.params.username)} (channelId ${cid})\n\n` +
+    out.map(o => `${o.ok ? "✅" : "❌"} [${o.status}] ${o.label}\n     ${o.data}`).join("\n\n") + `</pre>`);
+});
+
 // =============================================
 // START — load data FIRST, then connect socket
 // =============================================
