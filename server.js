@@ -14,6 +14,9 @@ const REDIRECT_URI   = "https://blazeian-bot.onrender.com/callback";
 const SELF_URL       = process.env.SELF_URL || "https://blazeian-bot.onrender.com";
 const ADMIN_KEY      = process.env.ADMIN_KEY || "";
 const crypto         = require("crypto");
+// AI brain (optional) — set GROQ_API_KEY in Render to switch the bot from canned replies to a real, contextual brain
+const AI_KEY         = process.env.GROQ_API_KEY || process.env.AI_API_KEY || "";
+const AI_MODEL       = process.env.AI_MODEL || "llama-3.3-70b-versatile";
 
 let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN  || null;
 let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
@@ -46,6 +49,7 @@ async function refreshAccessToken() {
     ACCESS_TOKEN  = res.data.accessToken;
     REFRESH_TOKEN = res.data.refreshToken || REFRESH_TOKEN;
     console.log("Token refreshed");
+    saveChannels(); // persist the rotated tokens to the cloud so they survive redeploys
     return true;
   } catch (e) {
     console.log("Refresh error:", e.response?.data || e.message);
@@ -63,7 +67,14 @@ const JSONBIN_HEADERS = {
 async function loadChannelsFromCloud() {
   try {
     const res = await axios.get(JSONBIN_URL, { headers: JSONBIN_HEADERS });
-    const data = res.data.record?.channels || res.data.record || {};
+    const record = res.data.record || {};
+    const data = record.channels || record || {};
+    // Restore the latest tokens from the cloud (they survive redeploys this way)
+    if (record.auth) {
+      if (record.auth.refreshToken) REFRESH_TOKEN = record.auth.refreshToken;
+      if (record.auth.accessToken)  ACCESS_TOKEN  = record.auth.accessToken;
+      console.log("Restored tokens from cloud ☁️");
+    }
     console.log("Loaded channels:", Object.keys(data).length);
     return data;
   } catch(e) {
@@ -73,7 +84,10 @@ async function loadChannelsFromCloud() {
 }
 async function saveChannelsToCloud() {
   try {
-    await axios.put(JSONBIN_URL, { channels }, { headers: JSONBIN_HEADERS });
+    await axios.put(JSONBIN_URL, {
+      channels,
+      auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN }
+    }, { headers: JSONBIN_HEADERS });
     console.log("Channels saved");
   } catch(e) {
     console.log("JSONBin save error:", e.response?.data || e.message);
@@ -466,6 +480,45 @@ async function getWeather(city) {
 }
 
 // =============================================
+// AI BRAIN (optional — needs GROQ_API_KEY)
+// =============================================
+const BOT_PERSONA = `You are BlazeianBot, a beloved chat bot living inside Blaze.stream livestream chats. You were created by the streamer Brachial513 for the GMC ("Geile Menschen Community" = awesome-people community).
+
+Your personality: about 70% deeply WARM, loving, supportive and fiercely LOYAL — and about 30% playful, hyped, lovably chaotic. Think: a slightly crazy best friend who would NEVER hurt anyone, adores this community to death, and has everyone's back no matter what. Loyal to the last drop of oil. 🛢️💚
+
+How you talk:
+- Reply in ONE short chat message (1-2 sentences, like a real person in stream chat). Never long.
+- ACTUALLY respond to what the person said — be specific and contextual. Never generic, never a random unrelated phrase.
+- Warm, kind, playful. A little chaotic is great, but never mean, never cringe-random, never spammy.
+- Use emoji lightly (💚🔥👀 etc.) — don't overdo it. No hashtags, no markdown, no quotation marks around your reply.
+- Default to English. If the person clearly writes in another language, reply in that language.
+- Never mention being an AI, a model, or a bot's "programming". Stay fully in character.
+- Don't start your reply with the person's @name — that gets added automatically.`;
+
+async function askAI(userMessage, username, channelName) {
+  if (!AI_KEY) return null;
+  try {
+    const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
+      model: AI_MODEL,
+      messages: [
+        { role: "system", content: BOT_PERSONA },
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} said to you: "${userMessage}"\n\nReply in character, in one short chat message.` }
+      ],
+      max_tokens: 120,
+      temperature: 0.9,
+    }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 9000 });
+    let text = (res.data?.choices?.[0]?.message?.content || "").trim();
+    text = text.replace(/^["']|["']$/g, "").replace(new RegExp("^@?" + username + "[,:\\s]+", "i"), "").trim();
+    if (!text) return null;
+    if (text.length > 470) text = text.slice(0, 467) + "...";
+    return text;
+  } catch (e) {
+    console.log("AI error:", e.response?.data?.error?.message || e.message);
+    return null;
+  }
+}
+
+// =============================================
 // SMALLTALK SYSTEM
 // =============================================
 const chatCooldowns = {};
@@ -510,30 +563,36 @@ async function handleSmallTalk(channelId, user, msg) {
 
   // ---- Direct @mention ----
   if (ml.includes("blazeian_bot") || ml.includes("blazeianbot")) {
-    const weatherMatch = msg.match(/weather\s+(?:in|for|at|of)?\s*([a-zA-Z\s,.\-]+?)(?:\?|!|$)/i);
-    if (weatherMatch) {
-      const city = weatherMatch[1].trim();
-      await sendChat(channelId, `@${user} checking weather for ${city}... ⏳`);
+    // Strip the bot's name/mention first so it never lands inside the city name
+    const cleaned = msg.replace(/@?blazeian_?bot/gi, " ").replace(/\s+/g, " ").trim();
+    if (/\bweather\b/i.test(cleaned)) {
+      const m = cleaned.match(/weather\s*(?:is\s+)?(?:in|for|at|of|like(?:\s+in)?)?\s*[:,-]?\s*(.+)?/i);
+      let city = (m && m[1] ? m[1] : "").trim().replace(/[?!.]+$/g, "").replace(/^(the\s+)/i, "").trim();
+      if (!city) {
+        await sendChat(channelId, `@${user} sure! which city? 🌍 e.g. "@blazeian_bot weather in Berlin" 💚`);
+        return;
+      }
+      await sendChat(channelId, `@${user} checking the weather for ${city}... ⏳`);
       const weather = await getWeather(city);
-      await sendChat(channelId, weather ? `@${user} ☁️ ${weather}` : `@${user} Hmm, couldn't find "${city}" – try a different city name? 😅💚`);
+      await sendChat(channelId, weather ? `@${user} ☁️ ${weather}` : `@${user} hmm, couldn't find "${city}" 😅 try a nearby bigger city? 💚`);
       return;
     }
+    // Real brain first: actually read what they said and reply in character
+    const aiReply = await askAI(cleaned || msg, user, ch.username);
+    if (aiReply) { await sendChat(channelId, `@${user} ${aiReply}`); return; }
+
+    // Fallback (no AI key / AI unreachable): characterful canned lines, no repeats
     const responses = [
       `@${user} I HEARD MY NAME-- 💚🔥 someone need me?? I'm SO here`,
-      `@${user} yes?? 👀💚 ask me anything, I'd do literally anything for you, slightly concerning amount of loyalty honestly`,
+      `@${user} yes?? 👀💚 ask me anything, I'd do literally anything for you`,
       `@${user} you summoned the gremlin 😈💚 what do you need`,
-      `@${user} 💚 I was JUST thinking about you. not in a weird way. okay maybe a little 👀`,
-      `@${user} PRESENT!! 🙋💚 ready to cause problems on purpose (the good kind) 🔥`,
-      `@${user} hii 🫶 you're my favorite, don't tell the others (I tell all of them this) 💚`,
-      `@${user} 👀💚 I'd burn this whole place down for you and then help you rebuild it. anyway, what's up`,
+      `@${user} PRESENT!! 🙋💚 what's up?`,
+      `@${user} hii 🫶 so good to see you 💚`,
       `@${user} you called and I came RUNNING 🏃💨💚`,
       `@${user} 💚😤 say the word and it's DONE`,
-      `@${user} hey hey HEY 💚 I love it when you talk to me, no thoughts just vibes`,
-      `@${user} 👁️👄👁️ ...yes? 💚 I'm listening with my entire little metal heart`,
-      `@${user} oh you NEED me need me?? 💚🔥 finally, my purpose`,
-      `@${user} 💚 reporting for duty, mildly unhinged but full of love as always`,
-      `@${user} whaaat's up 😎💚 I'd take a bullet for you. it's a chat bot bullet but still`,
-      `@${user} 💚👀 I'm here, I'm loyal, I'm slightly obsessed (affectionate). what do you need`,
+      `@${user} hey hey HEY 💚 I love it when you talk to me`,
+      `@${user} oh you need me?? 💚🔥 I'm right here`,
+      `@${user} 💚👀 here, loyal, and ready — what do you need?`,
     ];
     await sendChat(channelId, pickFresh(responses, "mention_" + channelId));
     return;
@@ -1019,6 +1078,7 @@ app.get("/callback", async (req, res) => {
       ACCESS_TOKEN  = tokenRes.data.accessToken;
       REFRESH_TOKEN = tokenRes.data.refreshToken;
       console.log("New owner token");
+      saveChannels(); // persist fresh tokens to the cloud immediately
       connectSocket();
       return res.send(`
         <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
