@@ -52,7 +52,7 @@ async function refreshAccessToken() {
     return false;
   }
 }
-setInterval(refreshAccessToken, 20 * 60 * 60 * 1000);
+setInterval(refreshAccessToken, 45 * 60 * 1000); // refresh well before the short-lived access token expires
 
 // JSONBin
 const JSONBIN_URL = `https://api.jsonbin.io/v3/b/${process.env.JSONBIN_BIN_ID}`;
@@ -350,13 +350,21 @@ async function sendChat(channelId, message) {
   }
 }
 
-async function subscribe(type, channelId) {
+let refreshingForSubscribe = null;
+async function subscribe(type, channelId, retried) {
   try {
     await axios.post(`${API}/v1/events/subscriptions`, {
       type, version: "1", sessionId: global.SESSION_ID, condition: { channelId }
     }, { headers: headers() });
     console.log(`Subscribed: ${type} on ${channelId}`);
   } catch (e) {
+    const unauth = e.response?.status === 401 || /unauthor/i.test(e.response?.data?.message || "");
+    if (unauth && !retried) {
+      // Refresh once (shared across the burst of failing subscribes), then retry
+      if (!refreshingForSubscribe) refreshingForSubscribe = refreshAccessToken().finally(() => { refreshingForSubscribe = null; });
+      const ok = await refreshingForSubscribe;
+      if (ok) return subscribe(type, channelId, true);
+    }
     console.log(`Subscribe error (${type}):`, e.response?.data || e.message);
   }
 }
@@ -669,9 +677,15 @@ async function handleEvent(message) {
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
     console.log("SESSION:", global.SESSION_ID);
+    // Always refresh the user token before (re)subscribing — an expired token makes every subscribe fail with "Unauthorized"
+    await refreshAccessToken();
     if (ACCESS_TOKEN) {
-      await sendChat(BOT_CHANNEL_ID, "BlazeianBot is online! Type !join here to add me to your channel 💚🔥");
-      setTimeout(subscribeAllChannels, 2000);
+      // Announce only once per process so reconnects don't spam the channel
+      if (!global.ANNOUNCED) {
+        global.ANNOUNCED = true;
+        await sendChat(BOT_CHANNEL_ID, "BlazeianBot is online! Type !join here to add me to your channel 💚🔥");
+      }
+      setTimeout(subscribeAllChannels, 1500);
     }
     return;
   }
@@ -696,6 +710,14 @@ async function handleEvent(message) {
           const id = em.id || em.emoteId, name = em.name || em.emoteName || id;
           if (id) { ch.stats.emotes[id] = (ch.stats.emotes[id] || 0) + 1; ch.stats.emoteNames[id] = name; }
         });
+      }
+      // Blaze emotes are unicode emojis right in the message text — track those for the "top emote" stat
+      const emojis = msg.match(/\p{Extended_Pictographic}/gu);
+      if (emojis) {
+        for (const emo of emojis) {
+          ch.stats.emotes[emo] = (ch.stats.emotes[emo] || 0) + 1;
+          ch.stats.emoteNames[emo] = emo;
+        }
       }
       if (!msg.startsWith("!")) {
         if (!ch.chatMemory) ch.chatMemory = [];
@@ -1307,6 +1329,7 @@ app.listen(PORT, "0.0.0.0", async () => {
   channels = await loadChannelsFromCloud();
   console.log(`Loaded ${Object.keys(channels).length} channel(s)`);
   await getAppAccessToken();
+  await refreshAccessToken(); // start with a fresh user token so subscriptions don't fail with "Unauthorized"
   connectSocket();
 
   // Keep-alive backup (UptimeRobot is primary)
