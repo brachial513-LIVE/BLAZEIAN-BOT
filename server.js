@@ -607,6 +607,13 @@ async function handleSmallTalk(channelId, user, msg) {
     markFired(channelId, trigger.key);
 
     if (trigger.key === "greeting") {
+      // Don't greet when the hello is clearly aimed at ANOTHER person (e.g. "hey malanmusic")
+      // or contains a mention of someone else — only respond to general greetings.
+      const generalWords = "(chat|everyone|all|guys?|there|y'?all|yall|peeps|gang|fam|stream|world|mods?|people|friends?)";
+      const directedAtSomeoneElse =
+        /@\w+/.test(msg) || // @-mention of someone (bot mentions were already handled above)
+        new RegExp("\\b(hi+|hey+|hello+|yo|hiya|heya)\\b\\s+(?!" + generalWords + "\\b)[a-z0-9_]{2,}", "i").test(ml);
+      if (directedAtSomeoneElse) return;
       const greetings = [
         `Hey @${user}! 👋💚 Welcome to ${ch.username}'s stream! So glad you're here 🫶`,
         `@${user} hey!! 💚 Welcome in 🔥`,
@@ -667,8 +674,13 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     getOrCreateChannel(newChannelId, user);
     ALL_EVENT_TYPES.forEach(t => subscribe(t, newChannelId));
     await sendChat(BOT_CHANNEL_ID, `@${user} Done! I've joined your channel 💚 Your viewers can now use: !stats | !votes | !subs | !time | !emote | !explain [language] | !setbotlang [language] | !addcmd to add your own commands!`);
-    await sendChat(newChannelId, `Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do 💚🔥`);
-    await sendChat(BOT_CHANNEL_ID, `@${user} 🎛️ Manage me at ${SELF_URL}/dashboard — and if your chat is in Followers-Only mode, just log in there once and I'll unlock myself automatically (or add blazeian_bot as a VIP/Mod) 💚`);
+    // Try to greet their channel directly. If followers-only blocks it, sendChatOnce returns false → nudge them to log in.
+    const welcomed = await sendChatOnce(newChannelId, `Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do 💚🔥`);
+    if (welcomed) {
+      await sendChat(BOT_CHANNEL_ID, `@${user} 🎛️ Manage me anytime at ${SELF_URL}/dashboard 💚`);
+    } else {
+      await sendChat(BOT_CHANNEL_ID, `@${user} ⚠️ Your chat is in Followers-Only mode, so I can't talk there YET. One 10-second fix unlocks me for good 👉 log in here: ${SELF_URL}/dashboard 💚🔥`);
+    }
     return;
   }
 
