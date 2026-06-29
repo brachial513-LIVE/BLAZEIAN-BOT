@@ -262,6 +262,15 @@ const MESSAGES = {
 };
 
 function getRandom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+const lastPick = {};
+function pickFresh(arr, key) {
+  if (!arr || arr.length === 0) return "";
+  if (arr.length === 1) return arr[0];
+  let idx, tries = 0;
+  do { idx = Math.floor(Math.random() * arr.length); tries++; } while (idx === lastPick[key] && tries < 6);
+  lastPick[key] = idx;
+  return arr[idx];
+}
 function chance(p)       { return Math.random() < p; }
 function getLang(channelId) { return channels[channelId]?.language || "en"; }
 function getMsg(channelId)  { const l = getLang(channelId); return MESSAGES[l] || MESSAGES["en"]; }
@@ -478,13 +487,23 @@ async function handleSmallTalk(channelId, user, msg) {
       return;
     }
     const responses = [
-      `@${user} hey!! 👋💚 What's up?`,
-      `@${user} you called?! 💚🔥`,
-      `@${user} present!! 👀💚 How can I help?`,
-      `@${user} I'm here I'm here!! 💚🫶`,
-      `@${user} 💚👀 yes??`,
+      `@${user} I HEARD MY NAME-- 💚🔥 someone need me?? I'm SO here`,
+      `@${user} yes?? 👀💚 ask me anything, I'd do literally anything for you, slightly concerning amount of loyalty honestly`,
+      `@${user} you summoned the gremlin 😈💚 what do you need`,
+      `@${user} 💚 I was JUST thinking about you. not in a weird way. okay maybe a little 👀`,
+      `@${user} PRESENT!! 🙋💚 ready to cause problems on purpose (the good kind) 🔥`,
+      `@${user} hii 🫶 you're my favorite, don't tell the others (I tell all of them this) 💚`,
+      `@${user} 👀💚 I'd burn this whole place down for you and then help you rebuild it. anyway, what's up`,
+      `@${user} you called and I came RUNNING 🏃💨💚`,
+      `@${user} 💚😤 say the word and it's DONE`,
+      `@${user} hey hey HEY 💚 I love it when you talk to me, no thoughts just vibes`,
+      `@${user} 👁️👄👁️ ...yes? 💚 I'm listening with my entire little metal heart`,
+      `@${user} oh you NEED me need me?? 💚🔥 finally, my purpose`,
+      `@${user} 💚 reporting for duty, mildly unhinged but full of love as always`,
+      `@${user} whaaat's up 😎💚 I'd take a bullet for you. it's a chat bot bullet but still`,
+      `@${user} 💚👀 I'm here, I'm loyal, I'm slightly obsessed (affectionate). what do you need`,
     ];
-    await sendChat(channelId, getRandom(responses));
+    await sendChat(channelId, pickFresh(responses, "mention_" + channelId));
     return;
   }
 
