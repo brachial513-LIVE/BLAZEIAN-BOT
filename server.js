@@ -1578,6 +1578,51 @@ app.get("/admin/followtest/:username", async (req, res) => {
     out.map(o => `${o.ok ? "✅" : "❌"} [${o.status}] ${o.label}\n     ${o.data}`).join("\n\n") + `</pre>`);
 });
 
+// DIAGNOSTIC ROUND 2: auth via Bearer (NO visitor-id header), hunt the missing body param.
+app.get("/admin/followtest2/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  // resolve the target channel + its owner user id
+  let cid = findChannelByUsername(req.params.username);
+  let row = null;
+  try {
+    const r = await axios.get(`${API}/v1/channels?slug[]=${req.params.username}&type=all`, { headers: headers() });
+    row = r.data?.data?.rows?.[0] || null;
+    if (!cid && row) cid = row.id;
+  } catch (e) {}
+  if (!cid) return res.send(`Channel "${esc(req.params.username)}" not found.`);
+  // bot's own profile (the follower identity)
+  let me = null;
+  try { const p = await axios.get(`${API}/v1/users/profile`, { headers: headers() }); me = p.data?.data || p.data; } catch (e) { me = { error: e.response?.data || e.message }; }
+  const BOT_USER_ID  = me?.id || me?.userId || null;
+  const CH_OWNER_ID  = row?.userId || row?.user?.id || null;
+  const url = `https://blaze.stream/bapi/channels/${cid}/follow`;
+  const baseH = { authorization: `Bearer ${ACCESS_TOKEN}`, "content-type": "application/json", origin: "https://blaze.stream" };
+  const tryIt = async (label, body, headers = baseH) => {
+    try { const r = await axios.post(url, body, { headers, timeout: 10000 }); return { label, ok: true, status: r.status, data: JSON.stringify(r.data) }; }
+    catch (e) { return { label, ok: false, status: e.response?.status, data: JSON.stringify(e.response?.data) || e.message }; }
+  };
+  const variants = [
+    ["A body {} empty object", {}],
+    ["B body {userId: BOT}", { userId: BOT_USER_ID }],
+    ["C body {followerId: BOT}", { followerId: BOT_USER_ID }],
+    ["D body {follower: BOT}", { follower: BOT_USER_ID }],
+    ["E body {userId: CHANNEL_OWNER}", { userId: CH_OWNER_ID }],
+    ["F body {targetUserId: CHANNEL_OWNER}", { targetUserId: CH_OWNER_ID }],
+    ["G body {channelUserId: CHANNEL_OWNER}", { channelUserId: CH_OWNER_ID }],
+    ["H body {clientId}", { clientId: CLIENT_ID }],
+    ["I body {} + client-id header", {}, { ...baseH, "client-id": CLIENT_ID }],
+    ["J truly empty (no body, no content-type json)", undefined, { authorization: `Bearer ${ACCESS_TOKEN}`, origin: "https://blaze.stream" }],
+    ["K body {channelId, userId:BOT}", { channelId: cid, userId: BOT_USER_ID }],
+  ];
+  const out = [];
+  for (const v of variants) { out.push(await tryIt(...v)); await sleep(500); }
+  res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;">FOLLOW TEST 2 — ${esc(req.params.username)}\n` +
+    `channelId: ${cid}\nBOT_USER_ID: ${BOT_USER_ID}\nCHANNEL_OWNER_ID: ${CH_OWNER_ID}\n` +
+    `profile: ${esc(JSON.stringify(me).slice(0,300))}\n` +
+    `channelRow keys: ${esc(row ? Object.keys(row).join(",") : "none")}\n\n` +
+    out.map(o => `${o.ok ? "✅" : "❌"} [${o.status}] ${o.label}\n     ${o.data}`).join("\n\n") + `</pre>`);
+});
+
 // =============================================
 // START — load data FIRST, then connect socket
 // =============================================
