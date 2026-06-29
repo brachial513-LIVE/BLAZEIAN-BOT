@@ -1083,14 +1083,14 @@ app.get("/", (req, res) => {
 
     <div class="cta">
       <h3>🔥 Want me in YOUR channel?</h3>
-      <div class="step">It takes 5 seconds — completely free:<br>
-        1️⃣ Go to <code>blaze.stream/blazeian_bot</code><br>
-        2️⃣ Type <code>!join</code> in the chat<br>
-        3️⃣ Log in below once — I'll auto-unlock myself for your chat 💚<br>
-        <span style="font-size:12px;opacity:.75;">(needed only if your chat is in Followers-Only mode)</span></div>
+      <div class="step">It takes 10 seconds — completely free:<br>
+        1️⃣ Go to <code>blaze.stream/blazeian_bot</code> and type <code>!join</code><br>
+        2️⃣ Log in to your dashboard once (button below) 👇<br>
+        3️⃣ Done — I'm live, and I can even chat in <b>Followers-Only</b> mode 💚</div>
       <div style="margin-top:18px;">
-        <a class="blazebtn" href="/dashboard">🎛️ Already joined? · Manage with ${blazeMark}</a>
+        <a class="blazebtn" href="/dashboard">🎛️ Log in &amp; finish setup with ${blazeMark}</a>
       </div>
+      <p style="font-size:12px;opacity:.72;margin-top:12px;">💡 That quick login is what unlocks me in <b>Followers-Only</b> chats — no other setup needed, ever.</p>
     </div>
 
     <div class="point">👇 My crew — proud of every one of them 👇</div>
