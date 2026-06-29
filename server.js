@@ -442,6 +442,32 @@ async function getChannelIdBySlug(slug) {
   return null;
 }
 
+// THE unlock: the bot follows the channel with its OWN token.
+// Following is the only thing that satisfies Blaze's "followers-only" chat — VIP/Mod don't.
+async function followChannel(channelId) {
+  const attempts = [
+    { authorization: `Bearer ${ACCESS_TOKEN}`, "client-id": CLIENT_ID, "content-type": "application/json" },
+    { authorization: `Bearer ${ACCESS_TOKEN}`, "content-type": "application/json" },
+  ];
+  for (const hdr of attempts) {
+    try {
+      await axios.post(`https://blaze.stream/bapi/channels/${channelId}/follow`, {}, { headers: hdr });
+      console.log("✅ Followed channel:", channelId);
+      if (channels[channelId]) { channels[channelId].locked = false; channels[channelId].followed = true; saveChannels(); }
+      return true;
+    } catch (e) {
+      const m = e.response?.data?.message || e.message;
+      if (/already/i.test(m || "")) {
+        console.log("Already following:", channelId);
+        if (channels[channelId]) { channels[channelId].locked = false; channels[channelId].followed = true; saveChannels(); }
+        return true;
+      }
+      console.log(`Follow attempt failed (${channelId}): [${e.response?.status}] ${m}`);
+    }
+  }
+  return false;
+}
+
 async function translateText(text, targetLangCode) {
   try {
     const encoded = encodeURIComponent(text);
@@ -680,14 +706,10 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     if (channels[newChannelId]) { await sendChat(BOT_CHANNEL_ID, `@${user} I'm already active in your channel! 💚`); return; }
     getOrCreateChannel(newChannelId, user);
     ALL_EVENT_TYPES.forEach(t => subscribe(t, newChannelId));
+    await followChannel(newChannelId); // bot follows the channel → satisfies followers-only automatically
     await sendChat(BOT_CHANNEL_ID, `@${user} Done! I've joined your channel 💚 Your viewers can now use: !stats | !votes | !subs | !time | !emote | !explain [language] | !setbotlang [language] | !addcmd to add your own commands!`);
-    // Try to greet their channel directly. If followers-only blocks it, sendChatOnce returns false → nudge them to log in.
-    const welcomed = await sendChatOnce(newChannelId, `Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do 💚🔥`);
-    if (welcomed) {
-      await sendChat(BOT_CHANNEL_ID, `@${user} 🎛️ Manage me anytime at ${SELF_URL}/dashboard 💚`);
-    } else {
-      await sendChat(BOT_CHANNEL_ID, `@${user} ⚠️ Your chat is in Followers-Only mode, so I can't talk there YET. One 10-second fix unlocks me for good 👉 log in here: ${SELF_URL}/dashboard 💚🔥`);
-    }
+    await sendChat(newChannelId, `Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do 💚🔥`);
+    await sendChat(BOT_CHANNEL_ID, `@${user} 🎛️ Manage me anytime at ${SELF_URL}/dashboard 💚`);
     return;
   }
 
@@ -1146,7 +1168,8 @@ app.get("/callback", async (req, res) => {
         ALL_EVENT_TYPES.forEach(t => subscribe(t, userId));
         console.log("Auto-joined via dashboard login:", username);
       }
-      // Unlock FIRST (VIP + Mod), THEN announce — so the welcome doesn't fail in followers-only chats
+      // The real unlock: bot follows the channel (satisfies followers-only). VIP/Mod as a bonus/cosmetic.
+      await followChannel(userId);
       const ok = await makeBotVip(tokenRes.data.accessToken, userId, username);
       if (channels[cid]) { channels[cid].botVip = ok; channels[cid].locked = false; saveChannels(); }
       if (wasNew) {
@@ -1481,6 +1504,28 @@ app.get("/admin/whoami", async (req, res) => {
     const r = await axios.get("https://api.blaze.stream/v1/users/profile", { headers: headers() });
     res.json(r.data);
   } catch(e) { res.json(e.response?.data || e.message); }
+});
+
+// Retroactively follow EVERY registered channel (fixes all existing followers-only channels in one go)
+app.get("/admin/followall", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const ids = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
+  const results = [];
+  for (const id of ids) {
+    const ok = await followChannel(id);
+    results.push(`${channels[id]?.username || id}: ${ok ? "✅ following" : "❌ failed"}`);
+    await sleep(400);
+  }
+  res.send(`<pre style="font-family:monospace;font-size:14px;">Followed ${ids.length} channel(s):\n\n${results.join("\n")}</pre>`);
+});
+
+// Follow a single channel by username (handy for one-offs)
+app.get("/admin/follow/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const cid = findChannelByUsername(req.params.username);
+  if (!cid) return res.send(`Channel "${esc(req.params.username)}" not found.`);
+  const ok = await followChannel(cid);
+  res.send(`${esc(req.params.username)}: ${ok ? "✅ now following" : "❌ follow failed (check logs)"}`);
 });
 
 // =============================================
