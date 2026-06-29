@@ -1532,6 +1532,52 @@ app.get("/admin/follow/:username", async (req, res) => {
   res.send(`${esc(req.params.username)}: ${ok ? "✅ now following" : "❌ follow failed (check logs)"}`);
 });
 
+// DIAGNOSTIC: fire a matrix of follow-request shapes and report what Blaze accepts.
+// One deploy, many answers — so we stop guessing one variant per deploy.
+app.get("/admin/followtest/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  let cid = findChannelByUsername(req.params.username) || await getChannelIdBySlug(req.params.username);
+  if (!cid) return res.send(`Channel "${esc(req.params.username)}" not found.`);
+  const url = `https://blaze.stream/bapi/channels/${cid}/follow`;
+  const U = ACCESS_TOKEN, A = APP_ACCESS_TOKEN, V = BOT_VISITOR_ID;
+  const tryIt = async (label, body, headers) => {
+    try {
+      const r = await axios.post(url, body, { headers, timeout: 10000 });
+      return { label, ok: true, status: r.status, data: JSON.stringify(r.data) };
+    } catch (e) {
+      return { label, ok: false, status: e.response?.status, data: JSON.stringify(e.response?.data) || e.message };
+    }
+  };
+  const variants = [
+    ["1 user-bearer + visitor-id header, empty body", "",
+      { authorization: `Bearer ${U}`, "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream" }],
+    ["2 user-bearer + visitor-id header + cookie(visitorId,token), empty body", "",
+      { authorization: `Bearer ${U}`, "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream",
+        cookie: `visitorId=${V}; token=${U}` }],
+    ["3 user-bearer + body {visitorId}", { visitorId: V },
+      { authorization: `Bearer ${U}`, "content-type": "application/json", origin: "https://blaze.stream" }],
+    ["4 user-bearer + body {channelId}", { channelId: cid },
+      { authorization: `Bearer ${U}`, "content-type": "application/json", origin: "https://blaze.stream" }],
+    ["5 user-bearer + empty object body {}", {},
+      { authorization: `Bearer ${U}`, "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream" }],
+    ["6 APP-bearer + visitor-id header, empty body", "",
+      { authorization: `Bearer ${A}`, "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream" }],
+    ["7 user-bearer only, NO visitor-id, empty body", "",
+      { authorization: `Bearer ${U}`, "content-type": "application/json", origin: "https://blaze.stream" }],
+    ["8 cookie token only (no bearer header) + visitor-id header, empty body", "",
+      { "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream", cookie: `token=${U}; visitorId=${V}` }],
+    ["9 user-bearer + visitor-id header + body {follow:true}", { follow: true },
+      { authorization: `Bearer ${U}`, "content-type": "application/json", "visitor-id": V, origin: "https://blaze.stream" }],
+  ];
+  const out = [];
+  for (const [label, body, headers] of variants) {
+    out.push(await tryIt(label, body, headers));
+    await sleep(500);
+  }
+  res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;">FOLLOW TEST for ${esc(req.params.username)} (channelId ${cid})\n\n` +
+    out.map(o => `${o.ok ? "✅" : "❌"} [${o.status}] ${o.label}\n     ${o.data}`).join("\n\n") + `</pre>`);
+});
+
 // =============================================
 // START — load data FIRST, then connect socket
 // =============================================
