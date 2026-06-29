@@ -740,7 +740,10 @@ async function handleEvent(message) {
   }
   if (metadata.subscriptionType === "channel.follow" && channelId && channels[channelId]) {
     const user = payload.follower?.username || payload.follower?.displayName;
-    if (user) await sendChatT(channelId, getRandom(getMsg(channelId).follow(user)));
+    // Don't celebrate the bot's own follow (happens when blazeian_bot follows a channel)
+    if (user && user.toLowerCase() !== BOT_NAME.toLowerCase()) {
+      await sendChatT(channelId, getRandom(getMsg(channelId).follow(user)));
+    }
     return;
   }
   if (metadata.subscriptionType === "stream.online" && channelId && channels[channelId]) {
