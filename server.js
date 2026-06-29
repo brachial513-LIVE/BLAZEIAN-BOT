@@ -549,7 +549,7 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     ALL_EVENT_TYPES.forEach(t => subscribe(t, newChannelId));
     await sendChat(BOT_CHANNEL_ID, `@${user} Done! I've joined your channel 💚 Your viewers can now use: !stats | !votes | !subs | !time | !emote | !explain [language] | !setbotlang [language] | !addcmd to add your own commands!`);
     await sendChat(newChannelId, `Hey chat! BlazeianBot is now active in ${user}'s channel! Type !cmd to see what I can do 💚🔥`);
-    await sendChat(BOT_CHANNEL_ID, `@${user} 🎛️ Manage your commands & stream messages anytime at: ${SELF_URL}/dashboard (login with your Blaze account) 💚`);
+    await sendChat(BOT_CHANNEL_ID, `@${user} 🎛️ Manage me at ${SELF_URL}/dashboard — and if your chat is in Followers-Only mode, just log in there once and I'll unlock myself automatically (or add blazeian_bot as a VIP/Mod) 💚`);
     return;
   }
 
@@ -896,14 +896,32 @@ app.get("/login", async (req, res) => {
   }
 });
 
-// Streamer login (read-only — just to identify who they are)
+// Streamer login — identify them AND let the bot VIP itself (to bypass followers-only chat)
 app.get("/dashboard/login", async (req, res) => {
   try {
-    await startOAuth(res, ["users.read"], "streamer");
+    await startOAuth(res, ["users.read", "channel.moderate"], "streamer");
   } catch (e) {
     res.send(`<pre>Login error: ${JSON.stringify(e.response?.data || e.message)}</pre><a href="/dashboard">Retry</a>`);
   }
 });
+
+// Make the bot a VIP in a channel so it can chat even in "followers-only" mode.
+// Uses the streamer's OWN token (they are the channel owner). Best-effort.
+async function makeBotVip(ownerToken, ownerUserId, username) {
+  const hdr = { authorization: `Bearer ${ownerToken}`, "client-id": CLIENT_ID, "content-type": "application/json" };
+  try {
+    await axios.post("https://api.blaze.stream/v1/channels/vips",
+      { channelId: ownerUserId, userId: BOT_USER_ID }, { headers: hdr });
+    console.log("Bot added as VIP in", username);
+    return true;
+  } catch (e) {
+    const msg = e.response?.data?.message || e.message;
+    // Already a VIP counts as success
+    if (/already/i.test(msg || "")) { console.log("Bot already VIP in", username); return true; }
+    console.log("VIP add failed for", username, ":", msg);
+    return false;
+  }
+}
 
 app.get("/callback", async (req, res) => {
   const { code, state } = req.query;
@@ -938,7 +956,16 @@ app.get("/callback", async (req, res) => {
       headers: { authorization: `Bearer ${tokenRes.data.accessToken}`, "client-id": CLIENT_ID }
     });
     const username = prof.data?.data?.username;
+    const userId   = prof.data?.data?.userId;
     if (!username) return res.send("<p style='font-family:sans-serif'>Couldn't read your Blaze profile. <a href='/dashboard'>Try again</a></p>");
+
+    // Auto-unlock: make the bot a VIP in their channel so it can chat in followers-only mode
+    if (userId) {
+      const ok = await makeBotVip(tokenRes.data.accessToken, userId, username);
+      const cid = findChannelByUsername(username);
+      if (cid) { channels[cid].botVip = ok; saveChannels(); }
+    }
+
     const sid = crypto.randomBytes(24).toString("hex");
     sessions[sid] = { username, exp: Date.now() + 7 * 24 * 3600 * 1000 };
     setCookie(res, "sid", sid, 7 * 24 * 3600);
@@ -1059,7 +1086,8 @@ app.get("/", (req, res) => {
       <div class="step">It takes 5 seconds — completely free:<br>
         1️⃣ Go to <code>blaze.stream/blazeian_bot</code><br>
         2️⃣ Type <code>!join</code> in the chat<br>
-        3️⃣ That's it — I'm live in your channel 💚</div>
+        3️⃣ Log in below once — I'll auto-unlock myself for your chat 💚<br>
+        <span style="font-size:12px;opacity:.75;">(needed only if your chat is in Followers-Only mode)</span></div>
       <div style="margin-top:18px;">
         <a class="blazebtn" href="/dashboard">🎛️ Already joined? · Manage with ${blazeMark}</a>
       </div>
@@ -1111,10 +1139,14 @@ app.get("/dashboard", (req, res) => {
 
   const ch = channels[channelId];
   const channelField = `<input type="hidden" name="__self" value="1">`;
+  const unlockBanner = ch.botVip
+    ? `<div class="card" style="border-color:#2c7a2c;background:rgba(20,40,18,.55);text-align:center;margin-bottom:14px;">✅ I'm fully unlocked in your channel — I can chat even in <b>Followers-Only</b> mode 💚</div>`
+    : `<div class="card" style="border-color:#a37a1d;background:rgba(40,32,14,.55);text-align:center;margin-bottom:14px;">⚠️ Heads up: if I ever stay quiet in your chat, it's almost certainly in <b>Followers-Only</b> mode. One click fixes it for good:<br><a class="save" href="/dashboard/login" style="margin-top:12px;">🔓 Unlock me in my chat</a></div>`;
   res.send(`${pageHead("BlazeianBot Dashboard")}
     <div class="topbar"><span class="muted">logged in as <b style="color:#5cf472;">${esc(session.username)}</b></span> <a href="/dashboard/logout" class="link">logout</a></div>
     <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>${esc(ch.username)}'s Dashboard</h1>
       <p>Manage your commands & stream messages. Paste long text here — no character limit like the chat 💚</p></header>
+    ${unlockBanner}
     ${renderForms("/dashboard", channelField)}
     <h2>📋 Your Current Setup</h2>
     ${renderChannelBlock(ch, "/dashboard")}
