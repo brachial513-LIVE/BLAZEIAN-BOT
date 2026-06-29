@@ -1239,7 +1239,7 @@ app.get("/", (req, res) => {
       <div class="bubble">Hey hey! 👋 I'm <b>BlazeianBot</b> — and these right here?<br>These are <b>MY</b> people. Every. Single. One. 💚<br>I'd cross the whole galaxy for this crew. 🔥</div>
     </div>
     <h1 class="htitle">BlazeianBot</h1>
-    <p class="htag">Your loyal little chaos-gremlin on Blaze — warm, lovable, and loyal to the last drop of oil 🛢️💚</p>
+    <p class="htag">Your loyal little chaos-gremlin on Blaze — warm, lovable, and loyal to the last drop of oil 🛢️💚<br><b style="color:#7CFC9A;">Now with a real brain</b> — talk to me and I'll actually talk back. 🧠</p>
 
     <div class="pills">
       <span class="pill">🟢 <b>Online &amp; awake 24/7</b></span>
@@ -1250,12 +1250,12 @@ app.get("/", (req, res) => {
 
     <h2 style="text-align:center;border:0;">⚡ What I do best</h2>
     <div class="feats">
-      <div class="feat"><h4>🌍 Live Translation</h4><p>My signature move — <code style="all:unset;color:#ffd23f;">!explain [language]</code> translates the last chat messages into 18 languages. Nobody gets left out.</p></div>
+      <div class="feat"><h4>🧠 I Actually Think</h4><p>Tag me <code style="all:unset;color:#ffd23f;">@blazeian_bot</code> and I read what you said and reply for real — in character, in <b>your</b> language. No canned lines, an actual brain. 💚</p></div>
+      <div class="feat"><h4>🌍 Live Translation</h4><p>A signature move — <code style="all:unset;color:#ffd23f;">!explain [language]</code> translates the last chat messages into 18 languages. Nobody gets left out.</p></div>
       <div class="feat"><h4>🎉 Stream Alerts with Soul</h4><p>Raids, subs, gift subs, votes & follows — celebrated with real personality, never robotic.</p></div>
       <div class="feat"><h4>⚡ Custom Commands</h4><p>Build your own commands in seconds from your dashboard. <code style="all:unset;color:#ffd23f;">!giveaway</code>, <code style="all:unset;color:#ffd23f;">!socials</code>, anything you want.</p></div>
-      <div class="feat"><h4>💬 Actually Social</h4><p>I react to GG, GM, hearts & hype — and answer <code style="all:unset;color:#ffd23f;">@blazeian_bot weather in [city]</code> with live data.</p></div>
       <div class="feat"><h4>📊 Stats & Tracking</h4><p>Votes, subs, stream time, top emote — <code style="all:unset;color:#ffd23f;">!stats</code> shows it all, per channel.</p></div>
-      <div class="feat"><h4>🌐 Your Language</h4><p><code style="all:unset;color:#ffd23f;">!setbotlang [language]</code> and I'll talk to your community in their own tongue.</p></div>
+      <div class="feat"><h4>💬 Reads the Vibe</h4><p>I react to GG, GM, hype & hearts when it fits, drop live weather on request — and set my whole language per channel with <code style="all:unset;color:#ffd23f;">!setbotlang</code>.</p></div>
     </div>
 
     <div class="cta">
