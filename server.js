@@ -1658,6 +1658,45 @@ app.get("/admin/followtest3/:username", async (req, res) => {
     out.map(o => `${o.ok ? "✅" : "❌"} [${o.status}] ${o.label}\n     ${o.data}`).join("\n\n") + `</pre>`);
 });
 
+// DIAGNOSTIC ROUND 4: replicate the REAL browser follow request, using a real session token + visitorId.
+app.get("/admin/followtest4/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const sTok = req.query.token, sVid = req.query.visitorId;
+  if (!sTok || !sVid) return res.send("Need ?token=...&visitorId=... in the query.");
+  let cid = findChannelByUsername(req.params.username) || await getChannelIdBySlug(req.params.username);
+  if (!cid) return res.send(`Channel "${esc(req.params.username)}" not found.`);
+  const url = `https://blaze.stream/bapi/channels/${cid}/follow`;
+  const cookie = `token=${sTok}; visitorId=${sVid}`;
+  // who owns this session?
+  let identity = "unknown";
+  for (const probe of [
+    { u: "https://blaze.stream/bapi/users/me", h: { authorization: `Bearer ${sTok}`, "visitor-id": sVid, cookie } },
+    { u: "https://blaze.stream/bapi/auth/me",  h: { authorization: `Bearer ${sTok}`, "visitor-id": sVid, cookie } },
+    { u: "https://api.blaze.stream/v1/users/profile", h: { authorization: `Bearer ${sTok}`, "client-id": CLIENT_ID } },
+  ]) {
+    try { const r = await axios.get(probe.u, { headers: probe.h, timeout: 8000 });
+      identity = `${probe.u} -> ${JSON.stringify(r.data).slice(0,200)}`; break; } catch (e) {}
+  }
+  const tryIt = async (label, body, headers) => {
+    try { const r = await axios.post(url, body, { headers, timeout: 10000 }); return { label, ok: true, status: r.status, data: JSON.stringify(r.data) }; }
+    catch (e) { return { label, ok: false, status: e.response?.status, data: JSON.stringify(e.response?.data) || e.message }; }
+  };
+  const variants = [
+    ["replica1 Bearer(sess)+visitor-id+cookie, body '{}'", "{}",
+      { authorization: `Bearer ${sTok}`, "content-type": "application/json", "visitor-id": sVid, origin: "https://blaze.stream", cookie }],
+    ["replica2 Bearer(sess)+visitor-id+cookie, undefined body", undefined,
+      { authorization: `Bearer ${sTok}`, "visitor-id": sVid, origin: "https://blaze.stream", cookie }],
+    ["replica3 cookie+visitor-id, NO bearer, body '{}'", "{}",
+      { "content-type": "application/json", "visitor-id": sVid, origin: "https://blaze.stream", cookie }],
+    ["replica4 Bearer(sess)+visitor-id, NO cookie, body '{}'", "{}",
+      { authorization: `Bearer ${sTok}`, "content-type": "application/json", "visitor-id": sVid, origin: "https://blaze.stream" }],
+  ];
+  const out = [];
+  for (const v of variants) { out.push(await tryIt(...v)); await sleep(500); }
+  res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;">FOLLOW TEST 4 — ${esc(req.params.username)} (channelId ${cid})\n\nSESSION IDENTITY:\n${esc(identity)}\n\n` +
+    out.map(o => `${o.ok ? "✅" : "❌"} [${o.status}] ${o.label}\n     ${o.data}`).join("\n\n") + `</pre>`);
+});
+
 // =============================================
 // START — load data FIRST, then connect socket
 // =============================================
