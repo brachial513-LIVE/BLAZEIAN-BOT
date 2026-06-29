@@ -444,28 +444,32 @@ async function getChannelIdBySlug(slug) {
 
 // THE unlock: the bot follows the channel with its OWN token.
 // Following is the only thing that satisfies Blaze's "followers-only" chat — VIP/Mod don't.
+// The bapi follow endpoint needs a Visitor-Id header and an EMPTY body (just like the website sends).
+const BOT_VISITOR_ID = (crypto.randomUUID ? crypto.randomUUID() : crypto.randomBytes(16).toString("hex"));
 async function followChannel(channelId) {
-  const attempts = [
-    { authorization: `Bearer ${ACCESS_TOKEN}`, "client-id": CLIENT_ID, "content-type": "application/json" },
-    { authorization: `Bearer ${ACCESS_TOKEN}`, "content-type": "application/json" },
-  ];
-  for (const hdr of attempts) {
-    try {
-      await axios.post(`https://blaze.stream/bapi/channels/${channelId}/follow`, {}, { headers: hdr });
-      console.log("✅ Followed channel:", channelId);
+  try {
+    await axios.post(`https://blaze.stream/bapi/channels/${channelId}/follow`, "", {
+      headers: {
+        authorization: `Bearer ${ACCESS_TOKEN}`,
+        "content-type": "application/json",
+        "visitor-id": BOT_VISITOR_ID,
+        origin: "https://blaze.stream",
+      }
+    });
+    console.log("✅ Followed channel:", channelId);
+    if (channels[channelId]) { channels[channelId].locked = false; channels[channelId].followed = true; saveChannels(); }
+    return true;
+  } catch (e) {
+    const m = e.response?.data?.message || e.message;
+    if (/already/i.test(m || "")) {
+      console.log("Already following:", channelId);
       if (channels[channelId]) { channels[channelId].locked = false; channels[channelId].followed = true; saveChannels(); }
       return true;
-    } catch (e) {
-      const m = e.response?.data?.message || e.message;
-      if (/already/i.test(m || "")) {
-        console.log("Already following:", channelId);
-        if (channels[channelId]) { channels[channelId].locked = false; channels[channelId].followed = true; saveChannels(); }
-        return true;
-      }
-      console.log(`Follow attempt failed (${channelId}): [${e.response?.status}] ${m}`);
     }
+    if (e.response?.status === 401) { const ok = await refreshAccessToken(); if (ok) return followChannel(channelId); }
+    console.log(`Follow attempt failed (${channelId}): [${e.response?.status}] ${m}`);
+    return false;
   }
-  return false;
 }
 
 async function translateText(text, targetLangCode) {
