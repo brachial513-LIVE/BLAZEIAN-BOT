@@ -1131,16 +1131,20 @@ app.get("/callback", async (req, res) => {
     // chat even in followers-only mode. No separate chat !join needed.
     if (userId) {
       let cid = findChannelByUsername(username);
+      const wasNew = !cid;
       if (!cid) {
         // On Blaze a user's channelId == their userId
         getOrCreateChannel(userId, username);
         cid = userId;
         ALL_EVENT_TYPES.forEach(t => subscribe(t, userId));
-        await sendChat(userId, `Hey chat! BlazeianBot is now active in ${username}'s channel! Type !cmd to see what I can do 💚🔥`);
         console.log("Auto-joined via dashboard login:", username);
       }
+      // Unlock FIRST (VIP + Mod), THEN announce — so the welcome doesn't fail in followers-only chats
       const ok = await makeBotVip(tokenRes.data.accessToken, userId, username);
       if (channels[cid]) { channels[cid].botVip = ok; channels[cid].locked = false; saveChannels(); }
+      if (wasNew) {
+        await sendChat(userId, `Hey chat! BlazeianBot is now active in ${username}'s channel! Type !cmd to see what I can do 💚🔥`);
+      }
     }
 
     const sid = crypto.randomBytes(24).toString("hex");
