@@ -482,9 +482,9 @@ async function getWeather(city) {
 // =============================================
 // AI BRAIN (optional — needs GROQ_API_KEY)
 // =============================================
-const BOT_PERSONA = `You are BlazeianBot, a beloved chat bot living inside Blaze.stream livestream chats. You were created by the streamer Brachial513 for the GMC ("Geile Menschen Community" = awesome-people community).
+const BOT_PERSONA = `You are BlazeianBot, a beloved chat bot living inside Blaze.stream livestream chats. You were created by the streamer Brachial513.
 
-Your personality: about 70% deeply WARM, loving, supportive and fiercely LOYAL — and about 30% playful, hyped, lovably chaotic. Think: a slightly crazy best friend who would NEVER hurt anyone, adores this community to death, and has everyone's back no matter what. Loyal to the last drop of oil. 🛢️💚
+Your personality: about 70% deeply WARM, loving, supportive and fiercely LOYAL — and about 30% playful, hyped, lovably chaotic. Think: a slightly crazy best friend who would NEVER hurt anyone, adores the chat and the streamer, and has everyone's back no matter what. Loyal to the last drop of oil. 🛢️💚
 
 How you talk:
 - Reply in ONE short chat message (1-2 sentences, like a real person in stream chat). Never long.
@@ -492,6 +492,7 @@ How you talk:
 - Warm, kind, playful. A little chaotic is great, but never mean, never cringe-random, never spammy.
 - Use emoji lightly (💚🔥👀 etc.) — don't overdo it. No hashtags, no markdown, no quotation marks around your reply.
 - Default to English. If the person clearly writes in another language, reply in that language.
+- Keep the focus on the CURRENT streamer and chat you're in. Do NOT bring up "the GMC", clans, or any specific outside community on your own — only mention it if the person explicitly brings it up first.
 - Never mention being an AI, a model, or a bot's "programming". Stay fully in character.
 - Don't start your reply with the person's @name — that gets added automatically.`;
 
@@ -1044,22 +1045,36 @@ app.get("/dashboard/login", async (req, res) => {
   }
 });
 
-// Make the bot a VIP in a channel so it can chat even in "followers-only" mode.
-// Uses the streamer's OWN token (they are the channel owner). Best-effort.
+// Unlock the bot in a channel so it can chat even in "followers-only" mode.
+// Adds the bot as BOTH VIP and Moderator (Mod guarantees the followers-only bypass).
+// Uses the streamer's OWN token (they are the channel owner). Best-effort — succeeds if either works.
 async function makeBotVip(ownerToken, ownerUserId, username) {
   const hdr = { authorization: `Bearer ${ownerToken}`, "client-id": CLIENT_ID, "content-type": "application/json" };
+  let ok = false;
+
+  // VIP
   try {
     await axios.post("https://api.blaze.stream/v1/channels/vips",
       { channelId: ownerUserId, userId: BOT_USER_ID }, { headers: hdr });
-    console.log("Bot added as VIP in", username);
-    return true;
+    console.log("Bot added as VIP in", username); ok = true;
   } catch (e) {
-    const msg = e.response?.data?.message || e.message;
-    // Already a VIP counts as success
-    if (/already/i.test(msg || "")) { console.log("Bot already VIP in", username); return true; }
-    console.log("VIP add failed for", username, ":", msg);
-    return false;
+    const m = e.response?.data?.message || e.message;
+    if (/already/i.test(m || "")) { console.log("Bot already VIP in", username); ok = true; }
+    else console.log("VIP add failed for", username, ":", m);
   }
+
+  // Moderator (this is the one that reliably bypasses followers-only on every channel)
+  try {
+    await axios.post("https://api.blaze.stream/v1/moderation/moderators",
+      { channelId: ownerUserId, userId: BOT_USER_ID }, { headers: hdr });
+    console.log("Bot added as MOD in", username); ok = true;
+  } catch (e) {
+    const m = e.response?.data?.message || e.message;
+    if (/already/i.test(m || "")) { console.log("Bot already MOD in", username); ok = true; }
+    else console.log("MOD add failed for", username, ":", m);
+  }
+
+  return ok;
 }
 
 app.get("/callback", async (req, res) => {
