@@ -325,38 +325,70 @@ function splitMessage(text, max = MAX_MSG) {
   return chunks;
 }
 
-// Single send (app token first, fallback to user token)
+// Single send (app token first, fallback to user token). Returns true on success.
+// Also tracks "locked" channels (followers-only where the bot isn't unlocked yet).
 async function sendChatOnce(channelId, message) {
   if (APP_ACCESS_TOKEN) {
     try {
       await axios.post(`${API}/v1/chats/messages`, { channelId, message, senderId: BOT_USER_ID }, { headers: appHeaders() });
       console.log(`[${channelId}] BOT: ${message}`);
-      return;
+      if (channels[channelId]) channels[channelId].locked = false;
+      return true;
     } catch(e) {
       if (e.response?.status === 401) await getAppAccessToken();
-      console.log("App token send failed:", e.response?.data?.message || e.message);
+      const m = e.response?.data?.message || e.message;
+      if (!/only followers/i.test(m)) console.log("App token send failed:", m);
+      // fall through and try the user token
     }
   }
   try {
     await axios.post(`${API}/v1/chats/messages`, { channelId, message }, { headers: headers() });
     console.log(`[${channelId}] BOT (user token): ${message}`);
+    if (channels[channelId]) channels[channelId].locked = false;
+    return true;
   } catch (e) {
+    const m = e.response?.data?.message || e.message;
     if (e.response?.status === 401) {
       const ok = await refreshAccessToken();
-      if (ok) await sendChatOnce(channelId, message);
+      if (ok) return sendChatOnce(channelId, message);
+    }
+    if (/only followers/i.test(m || "")) {
+      if (channels[channelId] && !channels[channelId].locked) {
+        channels[channelId].locked = true;
+        console.log(`[LOCKED] ${channelId} (${channels[channelId].username}) is followers-only — needs dashboard login / VIP`);
+      }
     } else {
       console.log("Send error:", e.response?.data || e.message);
     }
+    return false;
   }
 }
 
-// Public send: auto-splits long messages, small delay between parts
-async function sendChat(channelId, message) {
-  const parts = splitMessage(message);
-  for (let i = 0; i < parts.length; i++) {
-    await sendChatOnce(channelId, parts[i]);
-    if (i < parts.length - 1) await sleep(1200);
+// Per-channel send queue: messages go out one at a time, spaced ~1.2s,
+// so bursts (e.g. a flood of votes) never get dropped by rate limiting.
+const sendQueues = {};
+const draining = {};
+async function drainQueue(channelId) {
+  if (draining[channelId]) return;
+  draining[channelId] = true;
+  try {
+    while (sendQueues[channelId] && sendQueues[channelId].length) {
+      const msg = sendQueues[channelId].shift();
+      await sendChatOnce(channelId, msg);
+      if (sendQueues[channelId].length) await sleep(1200);
+    }
+  } finally {
+    draining[channelId] = false;
   }
+}
+
+// Public send: splits long messages and queues them (never blocks the caller)
+function sendChat(channelId, message) {
+  const parts = splitMessage(message);
+  if (!sendQueues[channelId]) sendQueues[channelId] = [];
+  sendQueues[channelId].push(...parts);
+  drainQueue(channelId);
+  return Promise.resolve();
 }
 
 let refreshingForSubscribe = null;
@@ -864,8 +896,12 @@ function renderChannelBlock(ch, actionPrefix) {
     </div>`
   ).join("") || "<i class='muted'>no custom commands yet</i>";
 
+  const lockNote = ch.locked
+    ? `<div class="meta" style="color:#e8b94a;"><b>🔒 LOCKED:</b> followers-only chat — this streamer needs to log into the dashboard once (or add blazeian_bot as VIP/Mod, or you follow them).</div>`
+    : "";
   return `<div class="chan">
-    <h3>${esc(ch.username)} <span class="tag">${ch.language || "en"}</span></h3>
+    <h3>${esc(ch.username)} <span class="tag">${ch.language || "en"}</span>${ch.botVip ? ' <span class="tag" style="background:#f5a623;">VIP ✓</span>' : ""}</h3>
+    ${lockNote}
     <div class="meta"><b>📺 LIVE message:</b> ${esc(ch.streamStart) || "<i class='muted'>not set</i>"}</div>
     <div class="meta"><b>🔴 OFFLINE message:</b> ${esc(ch.streamEnd) || "<i class='muted'>not set</i>"}</div>
     <div style="margin-top:10px;">${cmds}</div>
@@ -1003,11 +1039,21 @@ app.get("/callback", async (req, res) => {
     const userId   = prof.data?.data?.userId;
     if (!username) return res.send("<p style='font-family:sans-serif'>Couldn't read your Blaze profile. <a href='/dashboard'>Try again</a></p>");
 
-    // Auto-unlock: make the bot a VIP in their channel so it can chat in followers-only mode
+    // One-click setup (the "Botger way"): logging in does EVERYTHING —
+    // registers the channel (join), subscribes to events, and VIPs the bot so it can
+    // chat even in followers-only mode. No separate chat !join needed.
     if (userId) {
+      let cid = findChannelByUsername(username);
+      if (!cid) {
+        // On Blaze a user's channelId == their userId
+        getOrCreateChannel(userId, username);
+        cid = userId;
+        ALL_EVENT_TYPES.forEach(t => subscribe(t, userId));
+        await sendChat(userId, `Hey chat! BlazeianBot is now active in ${username}'s channel! Type !cmd to see what I can do 💚🔥`);
+        console.log("Auto-joined via dashboard login:", username);
+      }
       const ok = await makeBotVip(tokenRes.data.accessToken, userId, username);
-      const cid = findChannelByUsername(username);
-      if (cid) { channels[cid].botVip = ok; saveChannels(); }
+      if (channels[cid]) { channels[cid].botVip = ok; channels[cid].locked = false; saveChannels(); }
     }
 
     const sid = crypto.randomBytes(24).toString("hex");
@@ -1127,14 +1173,13 @@ app.get("/", (req, res) => {
 
     <div class="cta">
       <h3>🔥 Want me in YOUR channel?</h3>
-      <div class="step">It takes 10 seconds — completely free:<br>
-        1️⃣ Go to <code>blaze.stream/blazeian_bot</code> and type <code>!join</code><br>
-        2️⃣ Log in to your dashboard once (button below) 👇<br>
-        3️⃣ Done — I'm live, and I can even chat in <b>Followers-Only</b> mode 💚</div>
+      <div class="step"><b>One click — that's it.</b> Completely free:<br>
+        👉 Hit the button below and log in with Blaze.<br>
+        That single login <b>adds me to your channel AND unlocks me</b> — even in <b>Followers-Only</b> mode 💚🔥</div>
       <div style="margin-top:18px;">
-        <a class="blazebtn" href="/dashboard">🎛️ Log in &amp; finish setup with ${blazeMark}</a>
+        <a class="blazebtn" href="/dashboard">🚀 Add me to my channel with ${blazeMark}</a>
       </div>
-      <p style="font-size:12px;opacity:.72;margin-top:12px;">💡 That quick login is what unlocks me in <b>Followers-Only</b> chats — no other setup needed, ever.</p>
+      <p style="font-size:12px;opacity:.72;margin-top:12px;">💡 Prefer chat? You can also type <code>!join</code> in <code>blaze.stream/blazeian_bot</code> — but the one login above is what unlocks me everywhere, instantly.</p>
     </div>
 
     <div class="point">👇 My crew — proud of every one of them 👇</div>
@@ -1164,10 +1209,10 @@ app.get("/dashboard", (req, res) => {
   if (!session) {
     return res.send(`${pageHead("BlazeianBot Dashboard")}
       <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>BlazeianBot Dashboard</h1>
-        <p>Log in with your Blaze account to manage your own channel's commands & stream messages.</p></header>
+        <p>One login adds me to your channel <b>and</b> unlocks me — even in Followers-Only chat. Then manage your commands & stream messages here.</p></header>
       <div class="card" style="text-align:center;">
-        <a class="save" href="/dashboard/login">🔥 Login with Blaze</a>
-        <p class="hint" style="margin-top:16px;">You'll only ever see and edit <b>your own</b> channel. 💚</p>
+        <a class="save" href="/dashboard/login">🚀 Add me & log in with Blaze</a>
+        <p class="hint" style="margin-top:16px;">This single click joins your channel, unlocks me (VIP), and opens your dashboard. You'll only ever see your <b>own</b> channel. 💚</p>
       </div></div></body></html>`);
   }
 
