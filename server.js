@@ -351,7 +351,7 @@ async function sendChatOnce(channelId, message) {
     } catch(e) {
       if (e.response?.status === 401) await getAppAccessToken();
       const m = e.response?.data?.message || e.message;
-      if (!/only followers/i.test(m)) console.log("App token send failed:", m);
+      console.log(`[APP-FAIL] ${channelId} (${channels[channelId]?.username || "?"}): ${m}`);
       // fall through and try the user token
     }
   }
@@ -366,13 +366,12 @@ async function sendChatOnce(channelId, message) {
       const ok = await refreshAccessToken();
       if (ok) return sendChatOnce(channelId, message);
     }
+    const name = channels[channelId]?.username || "?";
     if (/only followers/i.test(m || "")) {
-      if (channels[channelId] && !channels[channelId].locked) {
-        channels[channelId].locked = true;
-        console.log(`[LOCKED] ${channelId} (${channels[channelId].username}) is followers-only — needs dashboard login / VIP`);
-      }
+      if (channels[channelId]) channels[channelId].locked = true;
+      console.log(`[BLOCKED-followers] ${channelId} (${name}): ${m}`);
     } else {
-      console.log("Send error:", e.response?.data || e.message);
+      console.log(`[SEND-FAIL] ${channelId} (${name}): ${JSON.stringify(e.response?.data || m)}`);
     }
     return false;
   }
@@ -406,21 +405,29 @@ function sendChat(channelId, message) {
 }
 
 let refreshingForSubscribe = null;
-async function subscribe(type, channelId, retried) {
+async function subscribe(type, channelId, attempt = 0) {
   try {
     await axios.post(`${API}/v1/events/subscriptions`, {
       type, version: "1", sessionId: global.SESSION_ID, condition: { channelId }
     }, { headers: headers() });
     console.log(`Subscribed: ${type} on ${channelId}`);
+    return true;
   } catch (e) {
-    const unauth = e.response?.status === 401 || /unauthor/i.test(e.response?.data?.message || "");
-    if (unauth && !retried) {
-      // Refresh once (shared across the burst of failing subscribes), then retry
+    const status = e.response?.status;
+    const msg = e.response?.data?.message || e.message;
+    const unauth = status === 401 || /unauthor/i.test(msg || "");
+    const rateLimited = status === 429 || /too many|rate.?limit/i.test(msg || "");
+    if (unauth && attempt === 0) {
       if (!refreshingForSubscribe) refreshingForSubscribe = refreshAccessToken().finally(() => { refreshingForSubscribe = null; });
       const ok = await refreshingForSubscribe;
-      if (ok) return subscribe(type, channelId, true);
+      if (ok) return subscribe(type, channelId, attempt + 1);
     }
-    console.log(`Subscribe error (${type}):`, e.response?.data || e.message);
+    if (rateLimited && attempt < 3) {
+      await sleep(1500 * (attempt + 1)); // back off, then retry
+      return subscribe(type, channelId, attempt + 1);
+    }
+    console.log(`Subscribe error (${type} on ${channelId}):`, msg);
+    return false;
   }
 }
 
