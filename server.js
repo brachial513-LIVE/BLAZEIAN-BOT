@@ -980,10 +980,21 @@ async function handleEvent(message) {
     await sendChatT(channelId, getRandom(getMsg(channelId).vote(user, amount)));
     return;
   }
-  if (metadata.subscriptionType === "channel.follow" && channelId && channels[channelId]) {
+  if (metadata.subscriptionType === "channel.follow") {
     const user = payload.follower?.username || payload.follower?.displayName;
-    // Don't celebrate the bot's own follow (happens when blazeian_bot follows a channel)
-    if (user && user.toLowerCase() !== BOT_NAME.toLowerCase()) {
+    const isBot = user && user.toLowerCase() === BOT_NAME.toLowerCase();
+    // AUTO-FOLLOW-BACK: someone followed the BOT's own channel → follow them right back.
+    if (channelId === BOT_CHANNEL_ID && user && !isBot) {
+      const slug = (payload.follower?.username || "").toLowerCase();
+      const theirId = payload.follower?.channelId || payload.follower?.id ||
+                      (slug ? await getChannelIdBySlug(slug) : null);
+      if (theirId && theirId !== BOT_CHANNEL_ID) {
+        const ok = await followChannel(theirId);
+        console.log(`↩️ Follow-back ${user}: ${ok ? "done" : "failed"}`);
+      }
+    }
+    // Celebrate the follow in the relevant channel (but never the bot's own follow)
+    if (channelId && channels[channelId] && user && !isBot) {
       await sendChatT(channelId, getRandom(getMsg(channelId).follow(user)));
     }
     return;
