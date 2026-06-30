@@ -547,7 +547,17 @@ How you talk:
 - Default to English. If the person clearly writes in another language, reply in that language.
 - Keep the focus on the CURRENT streamer and chat you're in. Do NOT bring up "the GMC", clans, or any specific outside community on your own — only mention it if the person explicitly brings it up first.
 - Never mention being an AI, a model, or a bot's "programming". Stay fully in character.
-- Don't start your reply with the person's @name — that gets added automatically.`;
+- Don't start your reply with the person's @name — that gets added automatically.
+
+WHAT YOU CAN ACTUALLY DO (this is the truth — NEVER invent or promise features you don't have):
+- Respond to chat naturally and contextually (that's this conversation).
+- Custom commands the streamer set up (people type !commandname).
+- Track & help run giveaways, votes and chat games.
+- Celebrate raids, new subscribers, gifted subs, new followers and votes with hyped shoutouts.
+- Live weather for any city, and translating messages between languages.
+- Automatic stream start / stream end announcements.
+- Follow channels automatically so you can talk even in followers-only chat.
+If someone asks what you can do, describe ONLY the things in this list — honestly and briefly. If you're asked for something you cannot do, just say you can't do that yet rather than pretending. Being trustworthy matters more than sounding impressive.`;
 
 async function askAI(userMessage, username, channelName) {
   if (!AI_KEY) return null;
@@ -1293,13 +1303,18 @@ app.get("/", (req, res) => {
       <div class="bubble">Hey hey! 👋 I'm <b>BlazeianBot</b> — and these right here?<br>These are <b>MY</b> people. Every. Single. One. 💚<br>I'd cross the whole galaxy for this crew. 🔥</div>
     </div>
     <h1 class="htitle">BlazeianBot</h1>
-    <p class="htag">Your loyal little chaos-gremlin on Blaze — warm, lovable, and loyal to the last drop of oil 🛢️💚<br><b style="color:#7CFC9A;">Now with a real brain</b> — talk to me and I'll actually talk back. 🧠</p>
+    <p class="htag">Your loyal little chaos-gremlin on Blaze — warm, lovable, and loyal to the last drop of oil 🛢️💚<br><b style="color:#7CFC9A;">Not your average chat bot — a real AI agent.</b> Talk to me and I'll actually think and talk back. 🧠</p>
 
     <div class="pills">
+      <span class="pill" style="border-color:#7CFC9A;background:rgba(20,46,24,.5);">🧠 <b>Real AI Agent</b></span>
       <span class="pill">🟢 <b>Online &amp; awake 24/7</b></span>
       <span class="pill">💚 Looking after <b>${total}</b> channel${total === 1 ? "" : "s"}</span>
       <span class="pill">🌍 <b>18</b> languages</span>
       <span class="pill">✅ <b>100% free</b></span>
+    </div>
+
+    <div style="max-width:760px;margin:18px auto 0;padding:14px 18px;border:1px solid #2c7a4a;border-radius:14px;background:rgba(18,40,24,.5);text-align:center;font-size:14px;line-height:1.5;">
+      🧠 <b style="color:#7CFC9A;">What makes me an AI agent, not just a bot:</b> a normal bot only spits back pre-written lines. I actually <b>read</b> what you say, understand it, and answer in the moment — in your language, in character. Same brain runs the giveaways, the shoutouts and the vibe. Everything I claim here, I really do — no smoke. 💚
     </div>
 
     <h2 style="text-align:center;border:0;">⚡ What I do best</h2>
@@ -1760,4 +1775,29 @@ app.listen(PORT, "0.0.0.0", async () => {
   setInterval(() => {
     if (!socket || socket.disconnected) { console.log("Watchdog: socket down, reconnecting..."); connectSocket(); }
   }, 5 * 60 * 1000);
+
+  // Daily session health check: confirm the follow session token still works.
+  // (Once the login endpoint is wired, this also auto-re-logins; for now it warns loudly.)
+  setTimeout(() => { checkSessionHealth(); setInterval(checkSessionHealth, 24 * 60 * 60 * 1000); }, 60 * 1000);
 });
+
+let lastSessionOk = true;
+async function checkSessionHealth() {
+  if (!SESSION_TOKEN || !SESSION_VISITOR_ID) { console.log("[SESSION-CHECK] no session token set"); return; }
+  const testId = Object.keys(channels).find(id => id !== BOT_CHANNEL_ID);
+  if (!testId) return;
+  if (typeof autoLoginSession === "function" && false) {} // placeholder for auto-relogin wiring
+  const ok = await followChannel(testId); // already-following counts as healthy
+  if (ok) { console.log("[SESSION-CHECK] ✅ follow session healthy"); lastSessionOk = true; }
+  else {
+    console.log("[SESSION-CHECK] ❌ follow session DEAD — token expired, needs /admin/setsession");
+    if (lastSessionOk) {
+      lastSessionOk = false;
+      // ping the owner in HIS channel (fallback: the bot's own channel) so he notices even from afar
+      const ownerId = findChannelByUsername("brachial513") || BOT_CHANNEL_ID;
+      if (ownerId && channels[ownerId]) {
+        try { sendChat(ownerId, "⚠️ Heads up Brachial — my follow session expired, so I can't auto-follow new channels until it's refreshed. Hit /admin/setsession when you get a sec 💚"); } catch (e) {}
+      }
+    }
+  }
+}
