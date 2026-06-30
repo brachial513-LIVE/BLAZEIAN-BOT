@@ -20,6 +20,10 @@ const AI_MODEL       = process.env.AI_MODEL || "llama-3.3-70b-versatile";
 
 let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN  || null;
 let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
+// Browser SESSION token (32-hex from the bot's `token` cookie) + its visitorId.
+// This is the ONLY thing Blaze's follow endpoint accepts — the OAuth token does NOT work for following.
+let SESSION_TOKEN      = process.env.BLAZE_SESSION_TOKEN || null;
+let SESSION_VISITOR_ID = process.env.BLAZE_VISITOR_ID   || null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
 let APP_ACCESS_TOKEN    = null;
@@ -73,7 +77,9 @@ async function loadChannelsFromCloud() {
     if (record.auth) {
       if (record.auth.refreshToken) REFRESH_TOKEN = record.auth.refreshToken;
       if (record.auth.accessToken)  ACCESS_TOKEN  = record.auth.accessToken;
-      console.log("Restored tokens from cloud ☁️");
+      if (record.auth.sessionToken)     SESSION_TOKEN      = record.auth.sessionToken;
+      if (record.auth.sessionVisitorId) SESSION_VISITOR_ID = record.auth.sessionVisitorId;
+      console.log("Restored tokens from cloud ☁️" + (SESSION_TOKEN ? " (session token present)" : " (NO session token)"));
     }
     console.log("Loaded channels:", Object.keys(data).length);
     return data;
@@ -86,7 +92,8 @@ async function saveChannelsToCloud() {
   try {
     await axios.put(JSONBIN_URL, {
       channels,
-      auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN }
+      auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
+              sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
     }, { headers: JSONBIN_HEADERS });
     console.log("Channels saved");
   } catch(e) {
@@ -442,31 +449,40 @@ async function getChannelIdBySlug(slug) {
   return null;
 }
 
-// THE unlock: the bot follows the channel with its OWN token.
-// Following is the only thing that satisfies Blaze's "followers-only" chat — VIP/Mod don't.
-// The bapi follow endpoint needs a Visitor-Id header and an EMPTY body (just like the website sends).
+// THE unlock: the bot follows the channel using its BROWSER SESSION token (not the OAuth token).
+// Following is the only thing that satisfies Blaze's "followers-only" chat — VIP/Mod do NOT bypass it.
+// Proven working request: Authorization: Bearer <session-token> + visitor-id header + body "{}".
+// The session token is the 32-hex value from the bot's `token` cookie on blaze.stream;
+// set it via /admin/setsession (persisted to the cloud so it survives redeploys).
 const BOT_VISITOR_ID = (crypto.randomUUID ? crypto.randomUUID() : crypto.randomBytes(16).toString("hex"));
 async function followChannel(channelId) {
+  if (!SESSION_TOKEN || !SESSION_VISITOR_ID) {
+    console.log(`Follow skipped (${channelId}): no session token set — use /admin/setsession`);
+    return false;
+  }
   try {
-    await axios.post(`https://blaze.stream/bapi/channels/${channelId}/follow`, "", {
+    await axios.post(`https://blaze.stream/bapi/channels/${channelId}/follow`, "{}", {
       headers: {
-        authorization: `Bearer ${ACCESS_TOKEN}`,
+        authorization: `Bearer ${SESSION_TOKEN}`,
         "content-type": "application/json",
-        "visitor-id": BOT_VISITOR_ID,
+        "visitor-id": SESSION_VISITOR_ID,
         origin: "https://blaze.stream",
-      }
+      },
+      timeout: 10000
     });
     console.log("✅ Followed channel:", channelId);
     if (channels[channelId]) { channels[channelId].locked = false; channels[channelId].followed = true; saveChannels(); }
     return true;
   } catch (e) {
     const m = e.response?.data?.message || e.message;
-    if (/already/i.test(m || "")) {
+    if (/already following/i.test(m || "")) {
       console.log("Already following:", channelId);
       if (channels[channelId]) { channels[channelId].locked = false; channels[channelId].followed = true; saveChannels(); }
       return true;
     }
-    if (e.response?.status === 401) { const ok = await refreshAccessToken(); if (ok) return followChannel(channelId); }
+    if (e.response?.status === 401) {
+      console.log(`⚠️ Follow got 401 — the session token expired. Re-set it via /admin/setsession.`);
+    }
     console.log(`Follow attempt failed (${channelId}): [${e.response?.status}] ${m}`);
     return false;
   }
@@ -1695,6 +1711,32 @@ app.get("/admin/followtest4/:username", async (req, res) => {
   for (const v of variants) { out.push(await tryIt(...v)); await sleep(500); }
   res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;">FOLLOW TEST 4 — ${esc(req.params.username)} (channelId ${cid})\n\nSESSION IDENTITY:\n${esc(identity)}\n\n` +
     out.map(o => `${o.ok ? "✅" : "❌"} [${o.status}] ${o.label}\n     ${o.data}`).join("\n\n") + `</pre>`);
+});
+
+// Set / update the bot's browser SESSION token + visitorId (the keys to following).
+// Grab them from blaze.stream while logged in as the bot: DevTools → Application → Cookies → `token` and `visitorId`.
+app.get("/admin/setsession", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const t = req.query.token, v = req.query.visitorId;
+  if (!t || !v) return res.send("Need ?token=...&visitorId=...&key=...");
+  SESSION_TOKEN = t.trim();
+  SESSION_VISITOR_ID = v.trim();
+  await saveChannelsToCloud();
+  // verify immediately against a known channel
+  let verify = "no channel to verify against";
+  const someId = Object.keys(channels).find(id => id !== BOT_CHANNEL_ID);
+  if (someId) {
+    const ok = await followChannel(someId);
+    verify = ok ? "✅ session works (followed / already following a test channel)" : "❌ session did NOT work — check the values";
+  }
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">Session saved & persisted to cloud.\n  token:     ${esc(t.slice(0,6))}…(${t.length} chars)\n  visitorId: ${esc(v)}\n\nVerify: ${esc(verify)}\n\nNext: hit /admin/followall?key=... to follow every channel.</pre>`);
+});
+
+// Quick status: is a session token loaded?
+app.get("/admin/sessionstatus", (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  res.json({ hasSessionToken: !!SESSION_TOKEN, hasVisitorId: !!SESSION_VISITOR_ID,
+             visitorId: SESSION_VISITOR_ID, tokenLen: SESSION_TOKEN ? SESSION_TOKEN.length : 0 });
 });
 
 // =============================================
