@@ -992,11 +992,16 @@ async function handleEvent(message) {
       if (theirId && theirId !== BOT_CHANNEL_ID) {
         const ok = await followChannel(theirId);
         console.log(`↩️ Follow-back ${user}: ${ok ? "done" : "failed"}`);
+        // Register + subscribe if the bot isn't active in their channel yet.
         if (!channels[theirId]) {
           getOrCreateChannel(theirId, user);
           ALL_EVENT_TYPES.forEach(t => subscribe(t, theirId));
           console.log(`➕ Auto-joined ${user}'s channel via follow-back`);
-          // Warm, one-time hello in their channel so the follow doesn't feel like "nothing happened".
+        }
+        // Warm, ONE-TIME hello so the follow doesn't feel like "nothing happened" (no re-spam on re-follow).
+        const fch = channels[theirId];
+        if (fch && !fch.greeted) {
+          fch.greeted = true; saveChannels();
           await sendChat(theirId, `Heyyy @${user}!! 💚🔥 Thank you so much for the follow — I followed you right back, which means I'm now fully set up here in YOUR channel too! 🫶`);
           await sendChat(theirId, `You & your chat can use me right away: !stats for your stats · !explain [language] to translate the chat · !cmd to see everything I do · !setbotlang [language] to set my language. Manage me anytime at ${SELF_URL}/dashboard 💚 So happy to be here!`);
         }
