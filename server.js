@@ -24,6 +24,9 @@ let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
 // This is the ONLY thing Blaze's follow endpoint accepts — the OAuth token does NOT work for following.
 let SESSION_TOKEN      = process.env.BLAZE_SESSION_TOKEN || null;
 let SESSION_VISITOR_ID = process.env.BLAZE_VISITOR_ID   || null;
+// Bot account credentials → lets the server mint a fresh session token by itself (auto-refresh).
+const BOT_EMAIL    = process.env.BLAZE_BOT_EMAIL    || null;
+const BOT_PASSWORD = process.env.BLAZE_BOT_PASSWORD || null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
 let APP_ACCESS_TOKEN    = null;
@@ -61,6 +64,37 @@ async function refreshAccessToken() {
   }
 }
 setInterval(refreshAccessToken, 45 * 60 * 1000); // refresh well before the short-lived access token expires
+
+// AUTO-REFRESH the follow session: log in as the bot, grab a fresh session token.
+// The token comes back either in the JSON body or as a `token` Set-Cookie — we handle both.
+async function loginSession() {
+  if (!BOT_EMAIL || !BOT_PASSWORD) { console.log("[LOGIN] no BOT_EMAIL/BOT_PASSWORD env set — can't auto-refresh"); return false; }
+  try {
+    const vid = SESSION_VISITOR_ID || (crypto.randomUUID ? crypto.randomUUID() : crypto.randomBytes(16).toString("hex"));
+    const res = await axios.post("https://blaze.stream/bapi/auth/login",
+      { email: BOT_EMAIL, password: BOT_PASSWORD },
+      { headers: { "content-type": "application/json", "visitor-id": vid, origin: "https://blaze.stream",
+                   cookie: `visitorId=${vid}` }, timeout: 12000 });
+    // try to find the token in the JSON body (several possible shapes)
+    const d = res.data || {};
+    let tok = d.token || d.accessToken || d.sessionToken || d.data?.token || d.data?.accessToken || d.user?.token || null;
+    // ...or in a Set-Cookie header
+    const setCookies = res.headers?.["set-cookie"] || [];
+    for (const c of setCookies) {
+      const mt = /(?:^|;|\s)token=([^;]+)/i.exec(c); if (mt && !tok) tok = mt[1];
+      const mv = /(?:^|;|\s)visitorId=([^;]+)/i.exec(c); if (mv) SESSION_VISITOR_ID = mv[1];
+    }
+    if (!SESSION_VISITOR_ID) SESSION_VISITOR_ID = vid;
+    if (!tok) { console.log("[LOGIN] login ok but no token found. Body keys:", Object.keys(d).join(",")); return false; }
+    SESSION_TOKEN = tok;
+    console.log(`[LOGIN] ✅ fresh session token minted (${tok.length} chars), visitorId ${SESSION_VISITOR_ID}`);
+    saveChannels();
+    return true;
+  } catch (e) {
+    console.log("[LOGIN] failed:", e.response?.status, JSON.stringify(e.response?.data) || e.message);
+    return false;
+  }
+}
 
 // JSONBin
 const JSONBIN_URL = `https://api.jsonbin.io/v3/b/${process.env.JSONBIN_BIN_ID}`;
@@ -455,9 +489,11 @@ async function getChannelIdBySlug(slug) {
 // The session token is the 32-hex value from the bot's `token` cookie on blaze.stream;
 // set it via /admin/setsession (persisted to the cloud so it survives redeploys).
 const BOT_VISITOR_ID = (crypto.randomUUID ? crypto.randomUUID() : crypto.randomBytes(16).toString("hex"));
-async function followChannel(channelId) {
+async function followChannel(channelId, _retried = false) {
   if (!SESSION_TOKEN || !SESSION_VISITOR_ID) {
-    console.log(`Follow skipped (${channelId}): no session token set — use /admin/setsession`);
+    // no session yet — try to mint one automatically
+    if (!_retried && await loginSession()) return followChannel(channelId, true);
+    console.log(`Follow skipped (${channelId}): no session token — set BLAZE_BOT_EMAIL/PASSWORD or use /admin/setsession`);
     return false;
   }
   try {
@@ -480,8 +516,10 @@ async function followChannel(channelId) {
       if (channels[channelId]) { channels[channelId].locked = false; channels[channelId].followed = true; saveChannels(); }
       return true;
     }
-    if (e.response?.status === 401) {
-      console.log(`⚠️ Follow got 401 — the session token expired. Re-set it via /admin/setsession.`);
+    if (e.response?.status === 401 && !_retried) {
+      console.log(`⚠️ Follow got 401 — session expired. Auto-relogging in…`);
+      if (await loginSession()) return followChannel(channelId, true);
+      console.log(`   Auto-relogin failed — set BLAZE_BOT_EMAIL/PASSWORD env or re-run /admin/setsession.`);
     }
     console.log(`Follow attempt failed (${channelId}): [${e.response?.status}] ${m}`);
     return false;
@@ -1751,7 +1789,15 @@ app.get("/admin/setsession", async (req, res) => {
 app.get("/admin/sessionstatus", (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   res.json({ hasSessionToken: !!SESSION_TOKEN, hasVisitorId: !!SESSION_VISITOR_ID,
-             visitorId: SESSION_VISITOR_ID, tokenLen: SESSION_TOKEN ? SESSION_TOKEN.length : 0 });
+             visitorId: SESSION_VISITOR_ID, tokenLen: SESSION_TOKEN ? SESSION_TOKEN.length : 0,
+             hasCredentials: !!(BOT_EMAIL && BOT_PASSWORD) });
+});
+
+// Manually trigger an auto-login (mint a fresh session token from the stored credentials).
+app.get("/admin/relogin", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const ok = await loginSession();
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">Auto-login: ${ok ? "✅ success — fresh session token minted & saved" : "❌ failed (check Render logs for [LOGIN] line; need BLAZE_BOT_EMAIL + BLAZE_BOT_PASSWORD env)"}\n  visitorId: ${esc(SESSION_VISITOR_ID || "none")}\n  tokenLen:  ${SESSION_TOKEN ? SESSION_TOKEN.length : 0}</pre>`);
 });
 
 // =============================================
@@ -1763,6 +1809,7 @@ app.listen(PORT, "0.0.0.0", async () => {
   console.log(`Loaded ${Object.keys(channels).length} channel(s)`);
   await getAppAccessToken();
   await refreshAccessToken(); // start with a fresh user token so subscriptions don't fail with "Unauthorized"
+  if (!SESSION_TOKEN && BOT_EMAIL && BOT_PASSWORD) { console.log("No session token on boot — auto-logging in…"); await loginSession(); }
   connectSocket();
 
   // Keep-alive backup (UptimeRobot is primary)
@@ -1783,20 +1830,22 @@ app.listen(PORT, "0.0.0.0", async () => {
 
 let lastSessionOk = true;
 async function checkSessionHealth() {
-  if (!SESSION_TOKEN || !SESSION_VISITOR_ID) { console.log("[SESSION-CHECK] no session token set"); return; }
+  // preventively mint a fresh token daily if we have credentials
+  if (BOT_EMAIL && BOT_PASSWORD) { await loginSession(); }
+  if (!SESSION_TOKEN || !SESSION_VISITOR_ID) {
+    if (!await loginSession()) { console.log("[SESSION-CHECK] no session token & no working login"); return; }
+  }
   const testId = Object.keys(channels).find(id => id !== BOT_CHANNEL_ID);
   if (!testId) return;
-  if (typeof autoLoginSession === "function" && false) {} // placeholder for auto-relogin wiring
-  const ok = await followChannel(testId); // already-following counts as healthy
+  const ok = await followChannel(testId); // already-following counts as healthy; auto-relogins on 401
   if (ok) { console.log("[SESSION-CHECK] ✅ follow session healthy"); lastSessionOk = true; }
   else {
-    console.log("[SESSION-CHECK] ❌ follow session DEAD — token expired, needs /admin/setsession");
+    console.log("[SESSION-CHECK] ❌ follow session DEAD even after relogin attempt");
     if (lastSessionOk) {
       lastSessionOk = false;
-      // ping the owner in HIS channel (fallback: the bot's own channel) so he notices even from afar
       const ownerId = findChannelByUsername("brachial513") || BOT_CHANNEL_ID;
       if (ownerId && channels[ownerId]) {
-        try { sendChat(ownerId, "⚠️ Heads up Brachial — my follow session expired, so I can't auto-follow new channels until it's refreshed. Hit /admin/setsession when you get a sec 💚"); } catch (e) {}
+        try { sendChat(ownerId, "⚠️ Heads up Brachial — my follow session broke and I couldn't fix it myself. Check BLAZE_BOT_EMAIL/PASSWORD or re-run /admin/setsession 💚"); } catch (e) {}
       }
     }
   }
