@@ -983,7 +983,8 @@ async function handleEvent(message) {
   if (metadata.subscriptionType === "channel.follow") {
     const user = payload.follower?.username || payload.follower?.displayName;
     const isBot = user && user.toLowerCase() === BOT_NAME.toLowerCase();
-    // AUTO-FOLLOW-BACK: someone followed the BOT's own channel → follow them right back.
+    // AUTO-FOLLOW-BACK: someone followed the BOT's own channel → follow them right back
+    // AND silently join their channel so the bot is fully active there (listening + commands work).
     if (channelId === BOT_CHANNEL_ID && user && !isBot) {
       const slug = (payload.follower?.username || "").toLowerCase();
       const theirId = payload.follower?.channelId || payload.follower?.id ||
@@ -991,6 +992,11 @@ async function handleEvent(message) {
       if (theirId && theirId !== BOT_CHANNEL_ID) {
         const ok = await followChannel(theirId);
         console.log(`↩️ Follow-back ${user}: ${ok ? "done" : "failed"}`);
+        if (!channels[theirId]) {
+          getOrCreateChannel(theirId, user);
+          ALL_EVENT_TYPES.forEach(t => subscribe(t, theirId));
+          console.log(`➕ Auto-joined ${user}'s channel via follow-back`);
+        }
       }
     }
     // Celebrate the follow in the relevant channel (but never the bot's own follow)
