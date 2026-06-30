@@ -996,6 +996,9 @@ async function handleEvent(message) {
           getOrCreateChannel(theirId, user);
           ALL_EVENT_TYPES.forEach(t => subscribe(t, theirId));
           console.log(`➕ Auto-joined ${user}'s channel via follow-back`);
+          // Warm, one-time hello in their channel so the follow doesn't feel like "nothing happened".
+          await sendChat(theirId, `Heyyy @${user}!! 💚🔥 Thank you so much for the follow — I followed you right back, which means I'm now fully set up here in YOUR channel too! 🫶`);
+          await sendChat(theirId, `You & your chat can use me right away: !stats for your stats · !explain [language] to translate the chat · !cmd to see everything I do · !setbotlang [language] to set my language. Manage me anytime at ${SELF_URL}/dashboard 💚 So happy to be here!`);
         }
       }
     }
