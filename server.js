@@ -34,8 +34,8 @@ const BOT_PASSWORD = process.env.BLAZE_BOT_PASSWORD || null;
 // AUTO-UPDATE ANNOUNCE: bump BOT_VERSION + set CHANGELOG whenever we ship something worth telling users about.
 // On startup, if this version hasn't been announced yet, the bot posts CHANGELOG to every channel — ONCE.
 // (Plain restarts / free-tier wake-ups keep the same version → stay silent, no spam.)
-const BOT_VERSION = "2026-07-02.2";
-const CHANGELOG = "📣 Small glow-up: I'm now BLAZEIAN_BOT-AI! 🧠 Nothing changes for you — same me, same chat, same commands, everything still works exactly as before. I just made it official that I'm more than your average bot. 😄 Manage me at the same dashboard as always, and type !info anytime to see everything I can do 💚🔥";
+const BOT_VERSION = "2026-07-02.3";
+const CHANGELOG = "🤝 New trick: I now TEAM UP with other bots in chat instead of ignoring them! When a fellow bot shows up, we banter like old friends — the Blaze bot crew is coming together 💚🔥 Everything else still works exactly the same. Type !info anytime to see all I do!";
 let lastAnnouncedVersion = null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
@@ -168,6 +168,7 @@ function isFriendBot(username) {
   if (!username) return false;
   return friendBots.map(b => b.toLowerCase()).includes(username.toLowerCase());
 }
+const friendGreeted = new Set(); // "channelId:botname" the bot has already welcomed this session (no re-spam)
 
 function getOrCreateChannel(channelId, username) {
   if (!channels[channelId]) {
@@ -1199,6 +1200,17 @@ async function handleEvent(message) {
       saveChannels();
     }
 
+    // First time a FRIEND BOT shows up in a channel this session → Blazeian greets them once as a buddy.
+    if (senderIsBot && !isBotChannel && channels[channelId] && isFriendBot(user)) {
+      const gk = channelId + ":" + user.toLowerCase();
+      if (!friendGreeted.has(gk)) {
+        friendGreeted.add(gk);
+        const ch = channels[channelId];
+        const ai = await aiShout(ch, `Your buddy bot "${user}" just showed up in ${ch.username}'s chat! Give them one warm, hyped buddy greeting — you two are pals who team up on Blaze and hype the streams together.`, { addName: user });
+        await sendChat(channelId, ai || `@${user} ayyy my buddy's here!! 💚🔥 we run these streams together now, love to see it`);
+      }
+    }
+
     if (msg.startsWith("!")) {
       await handleCommand(channelId, user, msg, isBotChannel);
     } else if (!isBotChannel && channels[channelId]) {
@@ -1426,6 +1438,7 @@ function renderForms(actionPrefix, channelField) {
 function renderOverlaySection(username) {
   const emoteUrl  = `${SELF_URL}/overlay/emotes/${encodeURIComponent(username)}`;
   const viewerUrl = `${SELF_URL}/overlay/viewers/${encodeURIComponent(username)}`;
+  const mascotUrl = `${SELF_URL}/overlay/mascot/${encodeURIComponent(username)}`;
   return `
   <h2>🎬 OBS Overlays (free!)</h2>
   <div class="card">
@@ -1436,6 +1449,9 @@ function renderOverlaySection(username) {
     <label style="margin-top:14px;">👁️ Live Viewer Count (BLAZE)</label>
     <input readonly onclick="this.select()" value="${esc(viewerUrl)}">
     <p class="hint">OBS → + → Browser → paste URL → Width <b>340</b>, Height <b>110</b>. Red dot = offline, green = live.</p>
+    <label style="margin-top:14px;">🤖 Blazeian Mascot — runs across your stream & watches with you</label>
+    <input readonly onclick="this.select()" value="${esc(mascotUrl)}">
+    <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. First appearance ~4s, then every ~1–2 min. Add <code>?img=URL</code> for a custom sprite.</p>
   </div>`;
 }
 
@@ -2456,6 +2472,74 @@ app.get("/overlay/viewers/:username", (req, res) => {
     }catch(e){}
   }
   setInterval(poll,15000); poll();
+</script></body></html>`);
+});
+
+// MASCOT overlay — Blazeian runs across the screen, pops up, sits & "watches" with you.
+// OBS Browser Source, transparent, full stream size (e.g. 1920x1080). ?img=<png> to swap the sprite,
+// ?min=/?max= seconds between appearances (default 45–120), ?size=px (default 150).
+app.get("/overlay/mascot/:username", (req, res) => {
+  const img  = (req.query.img || process.env.MASCOT_SPRITE || MASCOT_URL).toString();
+  const size = parseInt(req.query.size, 10) || 150;
+  const min  = parseInt(req.query.min, 10) || 45;
+  const max  = parseInt(req.query.max, 10) || 120;
+  res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Mascot</title>
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:transparent;font-family:'Segoe UI',sans-serif;pointer-events:none;}
+  #m{position:absolute;left:0;bottom:0;width:${size}px;height:${size}px;opacity:0;will-change:left,bottom,opacity;}
+  #flip{width:100%;height:100%;}
+  #img{width:100%;height:100%;display:block;object-fit:contain;filter:drop-shadow(0 4px 10px rgba(0,0,0,.55));}
+  #bub{position:absolute;bottom:102%;left:50%;transform:translateX(-50%) scale(.7);trans-origin:bottom center;
+    background:rgba(10,16,10,.9);border:2px solid #2c7a4a;color:#eafff0;font-weight:700;font-size:20px;
+    padding:8px 14px;border-radius:14px;white-space:nowrap;opacity:0;transition:opacity .25s,transform .25s;box-shadow:0 4px 14px rgba(0,0,0,.5);}
+  #bub.show{opacity:1;transform:translateX(-50%) scale(1);}
+  #bub:after{content:"";position:absolute;top:100%;left:50%;transform:translateX(-50%);border:8px solid transparent;border-top-color:#2c7a4a;}
+  .run{animation:run .45s infinite ease-in-out;}
+  .idle{animation:idle 2.2s infinite ease-in-out;}
+  @keyframes run{0%,100%{transform:translateY(0) rotate(-5deg);}50%{transform:translateY(-16px) rotate(5deg);}}
+  @keyframes idle{0%,100%{transform:translateY(0);}50%{transform:translateY(-6px);}}
+</style></head><body>
+<div id="m"><div id="bub"></div><div id="flip"><img id="img" src="${esc(img)}"></div></div>
+<script>
+  const SIZE=${size}, MIN=${min}, MAX=${max};
+  const m=document.getElementById('m'), flip=document.getElementById('flip'), img=document.getElementById('img'), bub=document.getElementById('bub');
+  const W=()=>innerWidth, H=()=>innerHeight, sleep=ms=>new Promise(r=>setTimeout(r,ms));
+  const LINES=["watching with you 👀💚","let's GOOO 🔥","hi chat!! 💚","I'm right here 🫶","vibing 😎🔥","gg 💚","this stream slaps 🔥","love you guys 💚","chat's on fire today 🔥","best crew on Blaze 💚"];
+  const pick=a=>a[Math.floor(Math.random()*a.length)];
+  function face(dir){ flip.style.transform='scaleX('+(dir<0?-1:1)+')'; }
+  function say(t){ bub.textContent=t; bub.classList.add('show'); }
+  function hush(){ bub.classList.remove('show'); }
+  function pos(x,y){ m.style.left=x+'px'; m.style.bottom=y+'px'; }
+  async function runAcross(){
+    const L=Math.random()<.5, y=10+Math.random()*40;
+    face(L?1:-1); m.style.transition='none'; pos(L?-SIZE-40:W()+40,y); m.style.opacity=1; img.className='run';
+    await sleep(60); if(Math.random()<.6) say(pick(LINES));
+    const d=5000+Math.random()*2500; m.style.transition='left '+d+'ms linear'; pos(L?W()+40:-SIZE-40,y);
+    await sleep(d); img.className=''; hush(); m.style.opacity=0;
+  }
+  async function peek(){
+    const x=W()*.12+Math.random()*W()*.66; face(Math.random()<.5?1:-1);
+    m.style.transition='none'; pos(x,-SIZE-30); m.style.opacity=1;
+    await sleep(60); m.style.transition='bottom .55s cubic-bezier(.2,1.5,.4,1)'; m.style.bottom='0px'; img.className='idle';
+    await sleep(600); say(pick(LINES)); await sleep(3200); hush();
+    m.style.transition='bottom .45s ease-in'; m.style.bottom=(-SIZE-30)+'px'; await sleep(450); img.className=''; m.style.opacity=0;
+  }
+  async function sitAndWatch(){
+    const L=Math.random()<.5, y=8, sitX=L?24:W()-SIZE-24;
+    face(L?1:-1); m.style.transition='none'; pos(L?-SIZE-40:W()+40,y); m.style.opacity=1; img.className='run';
+    await sleep(60); m.style.transition='left 3s linear'; pos(sitX,y);
+    await sleep(3000); img.className='idle'; face(L?-1:1);
+    if(Math.random()<.7){ say(pick(LINES)); await sleep(2600); hush(); }
+    await sleep(14000+Math.random()*20000);
+    if(Math.random()<.6){ say(pick(LINES)); await sleep(2400); hush(); }
+    img.className='run'; face(L?1:-1); m.style.transition='left 3s linear'; pos(L?W()+40:-SIZE-40,y);
+    await sleep(3000); img.className=''; m.style.opacity=0;
+  }
+  const ACTS=[runAcross,runAcross,peek,sitAndWatch];
+  (async function loop(){
+    await sleep(4000); // first appearance is quick so you can test it
+    while(true){ try{ await pick(ACTS)(); }catch(e){} await sleep((MIN+Math.random()*(MAX-MIN))*1000); }
+  })();
 </script></body></html>`);
 });
 
