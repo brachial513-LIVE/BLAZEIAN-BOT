@@ -27,6 +27,13 @@ let SESSION_VISITOR_ID = process.env.BLAZE_VISITOR_ID   || null;
 // Bot account credentials → lets the server mint a fresh session token by itself (auto-refresh).
 const BOT_EMAIL    = process.env.BLAZE_BOT_EMAIL    || null;
 const BOT_PASSWORD = process.env.BLAZE_BOT_PASSWORD || null;
+
+// AUTO-UPDATE ANNOUNCE: bump BOT_VERSION + set CHANGELOG whenever we ship something worth telling users about.
+// On startup, if this version hasn't been announced yet, the bot posts CHANGELOG to every channel — ONCE.
+// (Plain restarts / free-tier wake-ups keep the same version → stay silent, no spam.)
+const BOT_VERSION = "2026-07-02.1";
+const CHANGELOG = "🚀 Update! I just leveled up — I can now show live OBS overlays (an emote wall + a BLAZE viewer counter) AND post timed reminders on my own! Type !info anytime to see everything I can do 💚🔥";
+let lastAnnouncedVersion = null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
 let APP_ACCESS_TOKEN    = null;
@@ -116,6 +123,7 @@ async function loadChannelsFromCloud() {
       console.log("Restored tokens from cloud ☁️" + (SESSION_TOKEN ? " (session token present)" : " (NO session token)"));
     }
     if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
+    if (record.lastAnnouncedVersion) lastAnnouncedVersion = record.lastAnnouncedVersion;
     console.log("Loaded channels:", Object.keys(data).length, "| blocklist:", blocklist.length);
     return data;
   } catch(e) {
@@ -128,6 +136,7 @@ async function saveChannelsToCloud() {
     await axios.put(JSONBIN_URL, {
       channels,
       blocklist,
+      lastAnnouncedVersion,
       auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
               sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
     }, { headers: JSONBIN_HEADERS });
@@ -557,6 +566,22 @@ async function runTimedMessages() {
   }
 }
 
+// Announce the changelog to every channel ONCE per new version (called on startup).
+async function startupAnnounce() {
+  if (!CHANGELOG || lastAnnouncedVersion === BOT_VERSION) return; // already announced (or nothing to say)
+  const ids = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
+  console.log(`📣 New version ${BOT_VERSION} — announcing to ${ids.length} channel(s)`);
+  for (const id of ids) {
+    const ch = channels[id];
+    let text = CHANGELOG;
+    if (ch?.language && !/^en/i.test(ch.language)) { try { const t = await translateText(CHANGELOG, ch.language); if (t) text = t; } catch (e) {} }
+    try { await sendChat(id, text); } catch (e) {}
+    await sleep(700);
+  }
+  lastAnnouncedVersion = BOT_VERSION;
+  saveChannels();
+}
+
 // Unfollow a channel (used when kicking a troll so the bot stops hanging in their chat).
 async function unfollowChannel(channelId) {
   if (!SESSION_TOKEN || !SESSION_VISITOR_ID) return false;
@@ -901,6 +926,23 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   const m  = msg.toLowerCase().trim();
   const ch = channels[channelId];
   const T  = getMsg(channelId);
+
+  // !info — friendly overview of everything the bot can do (works in any channel, in the channel's language)
+  if (m === "!info") {
+    const lang = (channels[channelId]?.language) || "en";
+    const lines = [
+      "Yo, I'm BlazeianBot 💚 here's what I can do:",
+      "🧠 Tag @blazeian_bot and I actually read & reply (in your language) · 🎉 I hype subs, gifted subs, follows, raids & votes · 📊 !stats !votes !subs !time !emote track this channel",
+      "🌍 !explain [language] translates the chat into 18 languages · live weather on request · ⚡ !cmd shows this channel's custom commands · plus timed reminders & free OBS overlays (emote wall + viewer count)",
+      "I even learn each channel's own vibe over time 😎 Want me in YOUR channel? Type !join at blaze.stream/blazeian_bot 💚🔥",
+    ];
+    for (const line of lines) {
+      let out = line;
+      if (!/^en/i.test(lang)) { try { const t = await translateText(line, lang); if (t) out = t; } catch (e) {} }
+      await sendChat(channelId, out);
+    }
+    return;
+  }
 
   if (m === "!join" && isBotChannel) {
     if (isBlocked(user)) { console.log(`Blocked !join from ${user}`); return; } // silently ignore blocked users
@@ -2351,6 +2393,9 @@ app.listen(PORT, "0.0.0.0", async () => {
   await refreshAccessToken(); // start with a fresh user token so subscriptions don't fail with "Unauthorized"
   if (!SESSION_TOKEN && BOT_EMAIL && BOT_PASSWORD) { console.log("No session token on boot — auto-logging in…"); await loginSession(); }
   connectSocket();
+
+  // After the socket & subscriptions settle, announce a NEW version to everyone (once).
+  setTimeout(startupAnnounce, 25000);
 
   // Keep-alive backup (UptimeRobot is primary)
   setInterval(async () => {
