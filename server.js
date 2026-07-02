@@ -34,8 +34,8 @@ const BOT_PASSWORD = process.env.BLAZE_BOT_PASSWORD || null;
 // AUTO-UPDATE ANNOUNCE: bump BOT_VERSION + set CHANGELOG whenever we ship something worth telling users about.
 // On startup, if this version hasn't been announced yet, the bot posts CHANGELOG to every channel — ONCE.
 // (Plain restarts / free-tier wake-ups keep the same version → stay silent, no spam.)
-const BOT_VERSION = "2026-07-02.3";
-const CHANGELOG = "🤝 New trick: I now TEAM UP with other bots in chat instead of ignoring them! When a fellow bot shows up, we banter like old friends — the Blaze bot crew is coming together 💚🔥 Everything else still works exactly the same. Type !info anytime to see all I do!";
+const BOT_VERSION = "2026-07-02.4";
+const CHANGELOG = "🚀 BIG drops for you! I now bring FREE OBS overlays for your stream — a live emote wall 🎉, a BLAZE viewer counter 👁️, AND a little me that runs across your screen & watches with you 🤖💚 PLUS I team up with other bots in chat as friends now 🤝🔥 Grab your overlay links in the dashboard & type !info to see everything I do!";
 let lastAnnouncedVersion = null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
