@@ -165,6 +165,7 @@ function getOrCreateChannel(channelId, username) {
   if (!c.customCommands) c.customCommands = {};
   if (c.streamStart === undefined) c.streamStart = "";
   if (c.streamEnd === undefined) c.streamEnd = "";
+  if (!Array.isArray(c.timedMessages)) c.timedMessages = []; // [{text, intervalMin, onlyLive, lastSent}]
   return c;
 }
 
@@ -530,6 +531,29 @@ async function followChannel(channelId, _retried = false) {
     }
     console.log(`Follow attempt failed (${channelId}): [${e.response?.status}] ${m}`);
     return false;
+  }
+}
+
+// TIMED MESSAGES — post scheduled messages on an interval. By default only while the stream is LIVE
+// (so it doesn't talk to an empty offline channel). A channel is "live" if its stream timer is running.
+function isLive(channelId) { return !!streamTimers[channelId]; }
+async function runTimedMessages() {
+  const now = Date.now();
+  for (const channelId of Object.keys(channels)) {
+    if (channelId === BOT_CHANNEL_ID) continue;
+    const ch = channels[channelId];
+    if (!Array.isArray(ch.timedMessages) || !ch.timedMessages.length) continue;
+    for (const tm of ch.timedMessages) {
+      if (!tm || !tm.text || !tm.intervalMin) continue;
+      if (tm.onlyLive !== false && !isLive(channelId)) continue; // default: live-only
+      const due = now - (tm.lastSent || 0) >= tm.intervalMin * 60 * 1000;
+      if (!due) continue;
+      tm.lastSent = now;
+      try { await sendChat(channelId, tm.text.replace(/\{name\}/gi, ch.username)); }
+      catch (e) { console.log("Timed msg error:", e.message); }
+      await sleep(800);
+    }
+    saveChannels();
   }
 }
 
@@ -1276,6 +1300,74 @@ function renderForms(actionPrefix, channelField) {
   </form>`;
 }
 
+// OWNER control-center: live status + one-click actions (uses the admin cookie, so no need to type the key).
+function renderControlCenter() {
+  const yn = (b) => b ? '<span style="color:#7CFC9A;">✅</span>' : '<span style="color:#e8776a;">❌</span>';
+  const chanCount = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID).length;
+  const socketOk = (typeof socket !== "undefined" && socket && socket.connected);
+  return `
+  <h2>🛠️ Control Center</h2>
+  <div class="card">
+    <div class="meta">Follow session: ${yn(!!SESSION_TOKEN)} &nbsp;|&nbsp; Auto-login credentials: ${yn(!!(BOT_EMAIL && BOT_PASSWORD))} &nbsp;|&nbsp; AI brain: ${yn(!!AI_KEY)} &nbsp;|&nbsp; Socket: ${socketOk ? '<span style="color:#7CFC9A;">connected</span>' : '<span style="color:#e8b94a;">reconnecting…</span>'}</div>
+    <div class="meta">Active channels: <b>${chanCount}</b> &nbsp;|&nbsp; Blocklist: <b>${blocklist.length}</b></div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;">
+      <a class="save" style="text-decoration:none;" href="/admin/relogin" target="_blank">🔄 Refresh session</a>
+      <a class="save" style="text-decoration:none;background:#2c7a4a;" href="/admin/followall" target="_blank">➕ Follow all</a>
+      <a class="save" style="text-decoration:none;background:#3a5;" href="/admin/profiles" target="_blank">🧠 Learned profiles</a>
+      <a class="save" style="text-decoration:none;background:#555;" href="/admin/blocklist" target="_blank">🚫 Blocklist</a>
+      <a class="save" style="text-decoration:none;background:#555;" href="/admin/sessionstatus" target="_blank">📊 Health JSON</a>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:16px;">
+      <form action="/admin/announce" method="get" style="flex:1;min-width:280px;">
+        <label>📢 Announce to ALL channels</label>
+        <input name="msg" placeholder="I just leveled up! Type !cmd to see what's new 💚">
+        <button class="save" style="margin-top:8px;">Send announcement</button>
+      </form>
+      <form onsubmit="if(this.u.value){location.href='/admin/kick/'+encodeURIComponent(this.u.value.trim());}return false;" style="flex:1;min-width:280px;">
+        <label>🚫 Kick + ban a user (troll)</label>
+        <input name="u" placeholder="username">
+        <button class="save" style="margin-top:8px;background:#a33;">Kick + Ban</button>
+      </form>
+    </div>
+    <form onsubmit="if(this.u.value){location.href='/admin/unblock/'+encodeURIComponent(this.u.value.trim());}return false;" style="margin-top:12px;">
+      <label>♻️ Unblock a user</label>
+      <input name="u" placeholder="username">
+      <button class="save" style="margin-top:8px;background:#555;">Unblock</button>
+    </form>
+  </div>`;
+}
+
+// Timed Messages manager: add + list/delete recurring auto-posts per channel.
+function renderTimedSection(channelField) {
+  const rows = Object.values(channels).filter(ch => (ch.timedMessages || []).length).map(ch => {
+    const items = ch.timedMessages.map((tm, i) => `
+      <div class="cmd">
+        <form method="POST" action="/admin/deltimed" class="delform">
+          <input type="hidden" name="username" value="${esc(ch.username)}">
+          <input type="hidden" name="index" value="${i}">
+          <button class="del">delete</button>
+        </form>
+        <b>every ${tm.intervalMin} min</b> <span class="tag">${tm.onlyLive === false ? "always" : "live only"}</span>
+        <div class="cmdtext">${esc(tm.text)}</div>
+      </div>`).join("");
+    return `<div class="chan"><h3>${esc(ch.username)}</h3>${items}</div>`;
+  }).join("") || "<i class='muted'>no timed messages yet</i>";
+
+  return `
+  <h2 id="timed">⏱️ Timed Messages</h2>
+  <form method="POST" action="/admin/addtimed" class="card">
+    ${channelField}
+    <label>Message the bot posts on a repeat</label>
+    <textarea name="text" rows="3" placeholder="🔥 Don't forget to follow & drop a vote! Type !socials for all my links 💚"></textarea>
+    <label>Every how many minutes?</label>
+    <input name="intervalMin" type="number" min="1" value="20" style="max-width:120px;">
+    <label style="display:flex;align-items:center;gap:8px;margin-top:10px;font-weight:normal;"><input type="checkbox" name="onlyLive" checked style="width:auto;"> Only post while the stream is LIVE (recommended)</label>
+    <button class="save" style="margin-top:12px;">Add Timed Message</button>
+  </form>
+  <h3 style="border:0;">Current timed messages</h3>
+  ${rows}`;
+}
+
 // =============================================
 // COOKIE / SESSION / ADMIN AUTH HELPERS
 // =============================================
@@ -1686,6 +1778,8 @@ app.get("/admin", (req, res) => {
     <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>BlazeianBot Admin Panel</h1>
       <p>Owner control for <b>all</b> channels. Paste long text here — no character limit 💚</p></header>
     ${warn}
+    ${renderControlCenter()}
+    ${renderTimedSection(channelField)}
     ${renderForms("/admin", channelField)}
     <h2>📋 Current Setup (all channels)</h2>
     ${blocks}
@@ -1725,6 +1819,29 @@ app.post("/admin/setstream", async (req, res) => {
   channels[channelId].streamEnd   = (req.body.streamEnd || "").trim();
   await saveChannelsToCloud();
   res.redirect("/admin");
+});
+
+// ---- Timed Messages management ----
+app.post("/admin/addtimed", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden");
+  const channelId = findChannelByUsername(req.body.username);
+  if (!channelId) return res.send("Channel not found. <a href='/admin'>back</a>");
+  const text = (req.body.text || "").trim();
+  const intervalMin = Math.max(1, parseInt(req.body.intervalMin, 10) || 0);
+  if (!text || !intervalMin) return res.send("Need text + interval. <a href='/admin'>back</a>");
+  if (!Array.isArray(channels[channelId].timedMessages)) channels[channelId].timedMessages = [];
+  channels[channelId].timedMessages.push({ text, intervalMin, onlyLive: req.body.onlyLive === "on", lastSent: 0 });
+  await saveChannelsToCloud();
+  res.redirect("/admin#timed");
+});
+app.post("/admin/deltimed", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden");
+  const channelId = findChannelByUsername(req.body.username);
+  if (!channelId || !Array.isArray(channels[channelId].timedMessages)) return res.redirect("/admin#timed");
+  const idx = parseInt(req.body.index, 10);
+  if (idx >= 0 && idx < channels[channelId].timedMessages.length) channels[channelId].timedMessages.splice(idx, 1);
+  await saveChannelsToCloud();
+  res.redirect("/admin#timed");
 });
 
 app.get("/admin/remove/:username", async (req, res) => {
@@ -2073,6 +2190,9 @@ app.listen(PORT, "0.0.0.0", async () => {
     const id = ids[_profIdx % ids.length]; _profIdx++;
     await learnChannelProfile(id);
   }, 8 * 60 * 1000);
+
+  // TIMED MESSAGES: every minute, post any due scheduled messages (per channel).
+  setInterval(runTimedMessages, 60 * 1000);
 
   // Daily session health check: confirm the follow session token still works.
   // (Once the login endpoint is wired, this also auto-re-logins; for now it warns loudly.)
