@@ -2261,20 +2261,26 @@ app.get("/api/viewers/:username", async (req, res) => {
   res.json({ viewers: d?.viewerCount ?? 0, isLive: !!d?.isLive });
 });
 
-// Viewer-count overlay. OBS Browser Source, transparent, e.g. 300x100.
+// Viewer-count overlay. OBS Browser Source, transparent, e.g. 340x110.
+// Shows BLAZE branding so multi-stream viewers know it's the Blaze count. Override with ?label=... or ?logo=<imageURL>.
 app.get("/overlay/viewers/:username", (req, res) => {
+  const label = (req.query.label || "BLAZE").toString();
+  const logo  = (req.query.logo || process.env.BLAZE_LOGO_URL || "").toString();
+  const brand = logo ? `<img class="logo" src="${esc(logo)}">` : `<span class="brand">${esc(label)}</span>`;
   res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Viewers</title>
 <style>
   html,body{margin:0;height:100%;background:transparent;overflow:hidden;font-family:'Segoe UI',sans-serif;}
-  .badge{display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border-radius:16px;
+  .badge{display:inline-flex;align-items:center;gap:11px;padding:12px 20px;border-radius:16px;
     background:rgba(10,14,10,.72);border:2px solid #2c7a4a;box-shadow:0 4px 18px rgba(0,0,0,.5);
     color:#fff;font-size:34px;font-weight:800;line-height:1;}
-  .dot{width:14px;height:14px;border-radius:50%;background:#e8776a;box-shadow:0 0 10px #e8776a;}
+  .dot{width:14px;height:14px;border-radius:50%;background:#e8776a;box-shadow:0 0 10px #e8776a;flex:none;}
   .dot.live{background:#4ade80;box-shadow:0 0 12px #4ade80;animation:pulse 1.6s infinite;}
-  .eye{font-size:30px;} .n{color:#7CFC9A;}
+  .brand{color:#ffc62e;font-weight:900;letter-spacing:.5px;text-shadow:0 0 8px rgba(255,198,46,.4);}
+  .logo{height:34px;width:auto;display:block;}
+  .eye{font-size:30px;} .n{color:#7CFC9A;min-width:1ch;}
   @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.4;}}
 </style></head><body>
-<div class="badge"><span class="dot" id="dot"></span><span class="eye">👁️</span><span class="n" id="n">0</span></div>
+<div class="badge"><span class="dot" id="dot"></span>${brand}<span class="eye">👁️</span><span class="n" id="n">0</span></div>
 <script>
   const USER=${JSON.stringify(req.params.username)};
   async function poll(){
