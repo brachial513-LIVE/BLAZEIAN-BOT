@@ -115,7 +115,8 @@ async function loadChannelsFromCloud() {
       if (record.auth.sessionVisitorId) SESSION_VISITOR_ID = record.auth.sessionVisitorId;
       console.log("Restored tokens from cloud ☁️" + (SESSION_TOKEN ? " (session token present)" : " (NO session token)"));
     }
-    console.log("Loaded channels:", Object.keys(data).length);
+    if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
+    console.log("Loaded channels:", Object.keys(data).length, "| blocklist:", blocklist.length);
     return data;
   } catch(e) {
     console.log("JSONBin load error:", e.response?.data || e.message);
@@ -126,6 +127,7 @@ async function saveChannelsToCloud() {
   try {
     await axios.put(JSONBIN_URL, {
       channels,
+      blocklist,
       auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
               sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
     }, { headers: JSONBIN_HEADERS });
@@ -139,6 +141,11 @@ function saveChannels() {
 }
 
 let channels = {};
+let blocklist = []; // usernames the bot must NOT serve (kicked trolls) — no follow-back, no join, no reactions
+function isBlocked(username) {
+  if (!username) return false;
+  return blocklist.map(b => b.toLowerCase()).includes(username.toLowerCase());
+}
 
 function getOrCreateChannel(channelId, username) {
   if (!channels[channelId]) {
@@ -526,6 +533,24 @@ async function followChannel(channelId, _retried = false) {
   }
 }
 
+// Unfollow a channel (used when kicking a troll so the bot stops hanging in their chat).
+async function unfollowChannel(channelId) {
+  if (!SESSION_TOKEN || !SESSION_VISITOR_ID) return false;
+  const headers = {
+    authorization: `Bearer ${SESSION_TOKEN}`,
+    "content-type": "application/json",
+    "visitor-id": SESSION_VISITOR_ID,
+    origin: "https://blaze.stream",
+  };
+  const url = `https://blaze.stream/bapi/channels/${channelId}/follow`;
+  // Try the two shapes Blaze is likely to accept for "unfollow": DELETE, then POST /unfollow.
+  try { await axios.delete(url, { headers, data: "{}", timeout: 10000 }); console.log("✅ Unfollowed:", channelId); return true; }
+  catch (e1) {
+    try { await axios.post(`https://blaze.stream/bapi/channels/${channelId}/unfollow`, "{}", { headers, timeout: 10000 }); console.log("✅ Unfollowed (via /unfollow):", channelId); return true; }
+    catch (e2) { console.log(`Unfollow failed (${channelId}): [${e1.response?.status}]/[${e2.response?.status}]`); return false; }
+  }
+}
+
 async function translateText(text, targetLangCode) {
   try {
     const encoded = encodeURIComponent(text);
@@ -597,17 +622,27 @@ WHAT YOU CAN ACTUALLY DO (this is the truth — NEVER invent or promise features
 - Follow channels automatically so you can talk even in followers-only chat.
 If someone asks what you can do, describe ONLY the things in this list — honestly and briefly. If you're asked for something you cannot do, just say you can't do that yet rather than pretending. Being trustworthy matters more than sounding impressive.`;
 
-async function askAI(userMessage, username, channelName) {
+// Build the channel-specific context the bot has LEARNED on its own, so it sounds native to each community.
+function channelContext(ch) {
+  if (!ch) return "";
+  let c = "";
+  if (ch.profile)     c += `\n\nWHAT YOU'VE LEARNED ABOUT THIS SPECIFIC CHANNEL & COMMUNITY (you picked this up yourself from watching their chat — use it so you sound like a real regular here: drop their in-jokes/slang when it fits, hype what THIS community cares about, match their energy):\n${ch.profile}`;
+  if (ch.streamTitle) c += `\n\nThe stream is currently titled: "${ch.streamTitle}" — weave it in if relevant.`;
+  return c;
+}
+
+async function askAI(userMessage, username, ch) {
   if (!AI_KEY) return null;
+  const channelName = ch?.username || "the";
   try {
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL,
       messages: [
-        { role: "system", content: BOT_PERSONA },
+        { role: "system", content: BOT_PERSONA + channelContext(ch) },
         { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} said to you: "${userMessage}"\n\nReply in character, in one short chat message.` }
       ],
       max_tokens: 120,
-      temperature: 0.9,
+      temperature: 0.95,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 9000 });
     let text = (res.data?.choices?.[0]?.message?.content || "").trim();
     text = text.replace(/^["']|["']$/g, "").replace(new RegExp("^@?" + username + "[,:\\s]+", "i"), "").trim();
@@ -618,6 +653,71 @@ async function askAI(userMessage, username, channelName) {
     console.log("AI error:", e.response?.data?.error?.message || e.message);
     return null;
   }
+}
+
+// AI-generated shoutout/reaction (subs, follows, raids, smalltalk) — channel-aware & always fresh.
+// Short per-channel cooldown so a burst (e.g. raid) can't hammer the API — it just falls back to canned lines.
+async function aiShout(ch, instruction, { addName } = {}) {
+  if (!AI_KEY || !ch) return null;
+  const cid = Object.keys(channels).find(id => channels[id] === ch);
+  if (cid && onCooldown(cid, "aishout", 4000)) return null;
+  if (cid) markFired(cid, "aishout");
+  try {
+    const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
+      model: AI_MODEL,
+      messages: [
+        { role: "system", content: BOT_PERSONA + channelContext(ch) },
+        { role: "user", content: `${instruction}\n\nWrite ONE short, punchy chat message in character (max ~1 sentence). No quotation marks, no markdown.` }
+      ],
+      max_tokens: 80,
+      temperature: 1.0,
+    }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 7000 });
+    let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
+    if (!text) return null;
+    if (addName && !new RegExp("@?" + addName, "i").test(text)) text = `@${addName} ${text}`;
+    if (text.length > 470) text = text.slice(0, 467) + "...";
+    return text;
+  } catch (e) {
+    console.log("aiShout error:", e.response?.data?.error?.message || e.message);
+    return null;
+  }
+}
+
+// ===== SELF-LEARNING CHANNEL PROFILES =====
+// The bot watches each chat and distills a short living profile of the community — its slang, in-jokes,
+// vibe, what they hype. No manual input: it teaches itself. Samples live in memory; only the distilled
+// profile is persisted (keeps storage tiny).
+const chatSamples = {}; // channelId -> [recent "user: msg" strings]
+function recordSample(channelId, user, msg) {
+  if (!chatSamples[channelId]) chatSamples[channelId] = [];
+  chatSamples[channelId].push(`${user}: ${msg}`);
+  if (chatSamples[channelId].length > 60) chatSamples[channelId].shift();
+}
+async function learnChannelProfile(channelId) {
+  if (!AI_KEY) return;
+  const ch = channels[channelId];
+  if (!ch || !ch.stats) return;
+  const sample = chatSamples[channelId] || [];
+  if (sample.length < 12) return; // not enough to learn from yet
+  const since = ch._profileAtCount || 0;
+  const now = ch.stats.totalChatMessages || 0;
+  if (ch.profile && (now - since) < 25) return; // only relearn after enough fresh chatter
+  try {
+    const prompt = `You maintain a short living profile of a Blaze livestream channel, so a chat bot can sound like a true regular of THIS community.\n\n` +
+      `Channel: ${ch.username}\n${ch.streamTitle ? `Current stream title: ${ch.streamTitle}\n` : ""}` +
+      `Existing profile: ${ch.profile || "(none yet)"}\n\nRecent chat:\n${sample.join("\n")}\n\n` +
+      `Rewrite the profile in MAX 60 words. Capture concretely: the community's vibe/energy, recurring slang/in-jokes/phrases UNIQUE to here (name the ACTUAL words you see — e.g. a catchphrase, a community nickname), the game/topic, and how the streamer likes to be celebrated. Merge with the existing profile, keep what's still true. Output ONLY the profile text.`;
+    const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
+      model: AI_MODEL, messages: [{ role: "user", content: prompt }], max_tokens: 150, temperature: 0.4,
+    }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 12000 });
+    let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
+    if (text) {
+      ch.profile = text.slice(0, 500);
+      ch._profileAtCount = now;
+      saveChannels();
+      console.log(`[PROFILE] ${ch.username}: ${ch.profile.slice(0, 90)}…`);
+    }
+  } catch (e) { console.log("[PROFILE] error:", e.response?.data?.error?.message || e.message); }
 }
 
 // =============================================
@@ -679,8 +779,8 @@ async function handleSmallTalk(channelId, user, msg) {
       await sendChat(channelId, weather ? `@${user} ☁️ ${weather}` : `@${user} hmm, couldn't find "${city}" 😅 try a nearby bigger city? 💚`);
       return;
     }
-    // Real brain first: actually read what they said and reply in character
-    const aiReply = await askAI(cleaned || msg, user, ch.username);
+    // Real brain first: actually read what they said and reply in character (channel-aware)
+    const aiReply = await askAI(cleaned || msg, user, ch);
     if (aiReply) { await sendChat(channelId, `@${user} ${aiReply}`); return; }
 
     // Fallback (no AI key / AI unreachable): characterful canned lines, no repeats
@@ -715,6 +815,8 @@ async function handleSmallTalk(channelId, user, msg) {
         /@\w+/.test(msg) || // @-mention of someone (bot mentions were already handled above)
         new RegExp("\\b(hi+|hey+|hello+|yo|hiya|heya)\\b\\s+(?!" + generalWords + "\\b)[a-z0-9_]{2,}", "i").test(ml);
       if (directedAtSomeoneElse) return;
+      const aiG = await aiShout(ch, `${user} just greeted the chat. Welcome them warmly to ${ch.username}'s stream.`, { addName: user });
+      if (aiG) { await sendChatT(channelId, aiG); return; }
       const greetings = [
         `Hey @${user}! 👋💚 Welcome to ${ch.username}'s stream! So glad you're here 🫶`,
         `@${user} hey!! 💚 Welcome in 🔥`,
@@ -724,7 +826,9 @@ async function handleSmallTalk(channelId, user, msg) {
       await sendChatT(channelId, getRandom(greetings));
       return;
     }
-    await sendChatT(channelId, getRandom(trigger.responses));
+    // AI reaction first (channel-aware, always fresh) → canned pool as instant fallback
+    const aiLine = await aiShout(ch, `Someone in ${ch.username}'s chat wrote "${msg}" (it matches the "${trigger.key}" vibe). React briefly and in-character to that vibe — like a real regular of this chat.`);
+    await sendChatT(channelId, aiLine || getRandom(trigger.responses));
     return;
   }
 }
@@ -768,6 +872,7 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   const T  = getMsg(channelId);
 
   if (m === "!join" && isBotChannel) {
+    if (isBlocked(user)) { console.log(`Blocked !join from ${user}`); return; } // silently ignore blocked users
     const slug = user.toLowerCase();
     const newChannelId = await getChannelIdBySlug(slug);
     if (!newChannelId) { await sendChat(BOT_CHANNEL_ID, `@${user} Couldn't find your channel. Make sure your Blaze username matches! 💚`); return; }
@@ -943,6 +1048,7 @@ async function handleEvent(message) {
         if (!ch.chatMemory) ch.chatMemory = [];
         ch.chatMemory.push({ user, msg });
         if (ch.chatMemory.length > 10) ch.chatMemory.shift();
+        recordSample(channelId, user, msg); // feed the self-learning channel profile
       }
       saveChannels();
     }
@@ -956,28 +1062,64 @@ async function handleEvent(message) {
   }
 
   if (metadata.subscriptionType === "channel.raid" && channelId && channels[channelId]) {
+    const ch = channels[channelId];
     const raider = payload.raider?.username || payload.raider?.displayName || "Someone";
-    await sendChatT(channelId, getRandom(getMsg(channelId).raid(raider)));
+    const ai = await aiShout(ch, `${raider} just RAIDED ${ch.username}'s stream and brought their whole crew! Welcome the raiders with huge hype and heart.`, { addName: raider });
+    await sendChatT(channelId, ai || getRandom(getMsg(channelId).raid(raider)));
     return;
   }
   if (metadata.subscriptionType === "channel.subscribe" && channelId && channels[channelId]) {
+    const ch = channels[channelId];
     const user = payload.subscriber?.username || payload.subscriber?.displayName || "someone";
-    channels[channelId].stats.totalSubs++; saveChannels();
-    await sendChatT(channelId, getRandom(getMsg(channelId).sub(user)));
+    console.log("[SUB-PAYLOAD]", JSON.stringify(payload).slice(0, 600)); // discover the real month/tier fields
+    ch.stats.totalSubs++;
+
+    // ---- LOYALTY TRACKING (CacheBot-style: months, tier, all-time streak record) ----
+    if (!ch.loyalty) ch.loyalty = {};
+    const key = user.toLowerCase();
+    const prev = ch.loyalty[key] || { name: user, months: 0, tier: 1 };
+    // Prefer REAL data from Blaze's payload; fall back to our own running counter.
+    const payMonths = Number(payload.months || payload.cumulativeMonths || payload.totalMonths ||
+                             payload.streak || payload.streakMonths || payload.durationMonths || 0);
+    const realData  = payMonths > 0;
+    const months    = realData ? payMonths : prev.months + 1;
+    const tier      = payload.tier || payload.subTier || payload.plan || prev.tier || 1;
+    ch.loyalty[key] = { name: user, months, tier };
+
+    const prevRecord = ch.stats.recordStreak || 0;
+    const isNewRecord = realData && months >= 2 && months > prevRecord;
+    if (realData && months > prevRecord) { ch.stats.recordStreak = months; ch.stats.recordUser = user; }
+    saveChannels();
+
+    // Only state a hard month number when it's REAL data from Blaze (never guess a wrong number).
+    let info = "";
+    if (realData) {
+      info = `This is month ${months} for them${tier ? ` on Tier ${tier}` : ""}.`;
+      if (isNewRecord) info += ` 🚨 NEW ALL-TIME RECORD: that's the LONGEST sub streak ever in ${ch.username}'s channel — they now hold the crown!`;
+      else if (prevRecord >= 2) info += ` (Channel record is ${prevRecord} months, held by ${ch.stats.recordUser}.)`;
+    }
+    const ai = await aiShout(ch,
+      `${user} just SUBSCRIBED to ${ch.username}'s channel! ${info} Celebrate them personally and hyped${realData ? ", mention the month count naturally, and if it's a record make a BIG deal of it" : ""}.`,
+      { addName: user });
+    await sendChatT(channelId, ai || getRandom(getMsg(channelId).sub(user)));
     return;
   }
   if (metadata.subscriptionType === "channel.subscription.gift" && channelId && channels[channelId]) {
+    const ch = channels[channelId];
     const sender = payload.sender?.username || payload.sender?.displayName || "someone";
     const count = payload.giftCount || 1;
-    channels[channelId].stats.totalSubs += count; saveChannels();
-    await sendChatT(channelId, getRandom(getMsg(channelId).giftsub(sender, count)));
+    ch.stats.totalSubs += count; saveChannels();
+    const ai = await aiShout(ch, `${sender} just GIFTED ${count} sub(s) to ${ch.username}'s community! That's incredibly generous — hype them up as a legend and rally the chat to show love.`, { addName: sender });
+    await sendChatT(channelId, ai || getRandom(getMsg(channelId).giftsub(sender, count)));
     return;
   }
   if (metadata.subscriptionType === "channel.vote" && channelId && channels[channelId]) {
+    const ch = channels[channelId];
     const user   = payload.voter?.username || payload.voter?.displayName || "someone";
     const amount = payload.amount || 1;
-    channels[channelId].stats.totalVotes += amount; saveChannels();
-    await sendChatT(channelId, getRandom(getMsg(channelId).vote(user, amount)));
+    ch.stats.totalVotes += amount; saveChannels();
+    const ai = await aiShout(ch, `${user} just voted ${amount} for ${ch.username}! Thank them warmly for the support.`, { addName: user });
+    await sendChatT(channelId, ai || getRandom(getMsg(channelId).vote(user, amount)));
     return;
   }
   if (metadata.subscriptionType === "channel.follow") {
@@ -985,7 +1127,7 @@ async function handleEvent(message) {
     const isBot = user && user.toLowerCase() === BOT_NAME.toLowerCase();
     // AUTO-FOLLOW-BACK: someone followed the BOT's own channel → follow them right back
     // AND silently join their channel so the bot is fully active there (listening + commands work).
-    if (channelId === BOT_CHANNEL_ID && user && !isBot) {
+    if (channelId === BOT_CHANNEL_ID && user && !isBot && !isBlocked(user)) {
       const slug = (payload.follower?.username || "").toLowerCase();
       const theirId = payload.follower?.channelId || payload.follower?.id ||
                       (slug ? await getChannelIdBySlug(slug) : null);
@@ -1009,20 +1151,27 @@ async function handleEvent(message) {
     }
     // Celebrate the follow in the relevant channel (but never the bot's own follow)
     if (channelId && channels[channelId] && user && !isBot) {
-      await sendChatT(channelId, getRandom(getMsg(channelId).follow(user)));
+      const ch = channels[channelId];
+      const ai = await aiShout(ch, `${user} just followed ${ch.username}! Welcome them to the family warmly.`, { addName: user });
+      await sendChatT(channelId, ai || getRandom(getMsg(channelId).follow(user)));
     }
     return;
   }
   if (metadata.subscriptionType === "stream.online" && channelId && channels[channelId]) {
     startStreamTimer(channelId);
     const ch = channels[channelId];
+    // Capture the live stream title/category so the bot can reference what's happening right now.
+    const title = payload.title || payload.stream?.title || payload.streamTitle || payload.channel?.title;
+    const category = payload.category?.name || payload.category || payload.game || "";
+    if (title || category) { ch.streamTitle = [title, category].filter(Boolean).join(" — ").slice(0, 160); saveChannels(); }
     if (ch.streamStart) await sendChat(channelId, ch.streamStart.replace(/\{name\}/gi, ch.username));
     return;
   }
   if (metadata.subscriptionType === "stream.offline" && channelId && channels[channelId]) {
     if (streamTimers[channelId]) { clearInterval(streamTimers[channelId]); delete streamTimers[channelId]; }
-    saveChannels();
     const ch = channels[channelId];
+    ch.streamTitle = ""; // stream ended — clear the "currently live" context
+    saveChannels();
     if (ch.streamEnd) await sendChat(channelId, ch.streamEnd.replace(/\{name\}/gi, ch.username));
     return;
   }
@@ -1587,6 +1736,37 @@ app.get("/admin/remove/:username", async (req, res) => {
   res.send(`Removed "${esc(req.params.username)}". They can !join again now.`);
 });
 
+// KICK + BAN a troll: remove their channel, unfollow them, and block them from ever re-joining or triggering follow-back.
+app.get("/admin/kick/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const uname = req.params.username;
+  const channelId = findChannelByUsername(uname) || await getChannelIdBySlug(uname.toLowerCase());
+  let steps = [];
+  // 1) add to blocklist
+  if (!isBlocked(uname)) { blocklist.push(uname); steps.push("added to blocklist"); }
+  else steps.push("already on blocklist");
+  // 2) remove the channel record (stops all reactions/commands there)
+  const known = findChannelByUsername(uname);
+  if (known) { delete channels[known]; steps.push("channel removed"); }
+  // 3) unfollow them so the bot stops hanging in their chat
+  if (channelId) { const un = await unfollowChannel(channelId); steps.push(un ? "unfollowed ✅" : "unfollow failed (bot may still follow — harmless, it won't react there)"); }
+  await saveChannelsToCloud();
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">🚫 Kicked &amp; blocked "${esc(uname)}":\n${steps.map(s => "  • " + esc(s)).join("\n")}\n\nThe bot will no longer react, join, or follow-back for this user.</pre>`);
+});
+
+// Manage the blocklist: view, or unblock someone.
+app.get("/admin/blocklist", (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">🚫 Blocklist (${blocklist.length}):\n${blocklist.map(b => "  • " + esc(b)).join("\n") || "  (empty)"}\n\nUnblock someone: /admin/unblock/USERNAME?key=...</pre>`);
+});
+app.get("/admin/unblock/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const before = blocklist.length;
+  blocklist = blocklist.filter(b => b.toLowerCase() !== req.params.username.toLowerCase());
+  await saveChannelsToCloud();
+  res.send(`${before === blocklist.length ? "Wasn't on the blocklist" : "Unblocked"} "${esc(req.params.username)}".`);
+});
+
 app.get("/admin/list", (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const list = Object.entries(channels).map(([id, ch]) => {
@@ -1825,6 +2005,43 @@ app.get("/admin/relogin", async (req, res) => {
   res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">Auto-login: ${ok ? "✅ success — fresh session token minted & saved" : "❌ failed (check Render logs for [LOGIN] line; need BLAZE_BOT_EMAIL + BLAZE_BOT_PASSWORD env)"}\n  visitorId: ${esc(SESSION_VISITOR_ID || "none")}\n  tokenLen:  ${SESSION_TOKEN ? SESSION_TOKEN.length : 0}</pre>`);
 });
 
+// See what the bot has TAUGHT ITSELF about each channel (the living profiles). Read-only.
+app.get("/admin/profiles", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const rows = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID).map(id => {
+    const ch = channels[id];
+    const samples = chatSamples[id]?.length || 0;
+    return `━━ ${ch.username} ━━  (samples buffered: ${samples}${ch.streamTitle ? ", live: " + esc(ch.streamTitle) : ""})\n${ch.profile ? esc(ch.profile) : "(still learning — needs more chat)"}\n`;
+  });
+  res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;line-height:1.5;">🧠 What BlazeianBot has learned on its own:\n\n${rows.join("\n")}</pre>`);
+});
+
+// Force an immediate profile refresh for one channel (handy for testing the self-learning).
+app.get("/admin/learn/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const cid = findChannelByUsername(req.params.username);
+  if (!cid) return res.send(`Channel "${esc(req.params.username)}" not found.`);
+  channels[cid]._profileAtCount = 0; // bypass the "enough new chat" gate for a manual run
+  await learnChannelProfile(cid);
+  res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;">${esc(channels[cid].username)}:\n\n${esc(channels[cid].profile || "(not enough chat sampled yet — let some messages flow first)")}</pre>`);
+});
+
+// Broadcast a ONE-TIME announcement to every active channel (you control the text & timing).
+// Usage: /admin/announce?key=...&msg=Your%20message%20here
+app.get("/admin/announce", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const msg = (req.query.msg || "").toString().trim();
+  if (!msg) return res.send(`Need ?msg=... — e.g. /admin/announce?key=...&msg=${encodeURIComponent("I just leveled up! Type !cmd to see everything I can do now 💚🔥")}`);
+  const ids = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
+  const results = [];
+  for (const id of ids) {
+    try { await sendChat(id, msg); results.push(`${channels[id]?.username || id}: ✅ sent`); }
+    catch (e) { results.push(`${channels[id]?.username || id}: ❌ ${e.message}`); }
+    await sleep(600);
+  }
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">Announced to ${ids.length} channel(s):\n\n${esc(results.join("\n"))}</pre>`);
+});
+
 // =============================================
 // START — load data FIRST, then connect socket
 // =============================================
@@ -1847,6 +2064,15 @@ app.listen(PORT, "0.0.0.0", async () => {
   setInterval(() => {
     if (!socket || socket.disconnected) { console.log("Watchdog: socket down, reconnecting..."); connectSocket(); }
   }, 5 * 60 * 1000);
+
+  // Self-learning: every 8 min, refresh ONE channel's profile (round-robin, staggered to spread API calls).
+  let _profIdx = 0;
+  setInterval(async () => {
+    const ids = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID && (chatSamples[id]?.length || 0) >= 12);
+    if (!ids.length) return;
+    const id = ids[_profIdx % ids.length]; _profIdx++;
+    await learnChannelProfile(id);
+  }, 8 * 60 * 1000);
 
   // Daily session health check: confirm the follow session token still works.
   // (Once the login endpoint is wired, this also auto-re-logins; for now it warns loudly.)
