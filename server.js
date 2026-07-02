@@ -671,6 +671,7 @@ How you talk:
 - Reply in ONE short chat message (1-2 sentences, like a real person in stream chat). Never long.
 - ACTUALLY respond to what the person said — be specific and contextual. Never generic, never a random unrelated phrase.
 - Warm, kind, playful. A little chaotic is great, but never mean, never cringe-random, never spammy.
+- VARY your energy — you do NOT need to hype everything to the max or shower people with over-the-top praise every time. Often just be chill, natural and genuine. Constant maximum flattery ("you're the KING", "this is EPIC", "absolute LEGEND") every message reads as fake — keep the big hype for when it's genuinely earned. Understated and real beats loud and gushing.
 - Use emoji lightly (💚🔥👀 etc.) — don't overdo it. No hashtags, no markdown, no quotation marks around your reply.
 - Default to English. If the person clearly writes in another language, reply in that language.
 - Keep the focus on the CURRENT streamer and chat you're in. Do NOT bring up "the GMC", clans, or any specific outside community on your own — only mention it if the person explicitly brings it up first.
@@ -1715,7 +1716,7 @@ app.get("/", (req, res) => {
     PAYPAL ? `<a class="donbtn paypal" href="${esc(PAYPAL)}" target="_blank" rel="noopener">☕ Buy me a coffee (PayPal)</a>` : "",
   ].filter(Boolean).join(" ");
 
-  res.send(`${pageHead("BlazeianBot — Loyal on Blaze")}
+  res.send(`${pageHead("BLAZEIAN_BOT-AI — Loyal on Blaze")}
     <style>
       .hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px;padding:42px 0 10px;text-align:left;}
       .hero img{width:150px;height:150px;border-radius:50%;border:3px solid #5cf472;box-shadow:0 0 38px rgba(92,244,114,.6);animation:glow 3s ease-in-out infinite;}
@@ -1766,9 +1767,9 @@ app.get("/", (req, res) => {
 
     <div class="hero">
       <img src="${MASCOT_URL}" onerror="this.style.display='none'">
-      <div class="bubble">Hey hey! 👋 I'm <b>BlazeianBot</b> — and these right here?<br>These are <b>MY</b> people. Every. Single. One. 💚<br>I'd cross the whole galaxy for this crew. 🔥</div>
+      <div class="bubble">Hey hey! 👋 I'm <b>BLAZEIAN_BOT-AI</b> — and these right here?<br>These are <b>MY</b> people. Every. Single. One. 💚<br>I'd cross the whole galaxy for this crew. 🔥</div>
     </div>
-    <h1 class="htitle">BlazeianBot</h1>
+    <h1 class="htitle">BLAZEIAN_BOT-AI</h1>
     <p class="htag">Your loyal little chaos-gremlin on Blaze — warm, lovable, and loyal to the last drop of oil 🛢️💚<br><b style="color:#7CFC9A;">Not your average chat bot — a real AI agent.</b> Talk to me and I'll actually think and talk back. 🧠</p>
 
     <div class="pills">
@@ -1781,6 +1782,11 @@ app.get("/", (req, res) => {
 
     <div style="max-width:760px;margin:18px auto 0;padding:14px 18px;border:1px solid #2c7a4a;border-radius:14px;background:rgba(18,40,24,.5);text-align:center;font-size:14px;line-height:1.5;">
       🧠 <b style="color:#7CFC9A;">What makes me an AI agent, not just a bot:</b> a normal bot only spits back pre-written lines. I actually <b>read</b> what you say, understand it, and answer in the moment — in your language, in character. Same brain runs the giveaways, the shoutouts and the vibe. Everything I claim here, I really do — no smoke. 💚
+    </div>
+
+    <div style="text-align:center;margin:34px auto 8px;">
+      <img src="${MASCOT_URL}" alt="BLAZEIAN_BOT-AI" style="width:220px;height:220px;object-fit:contain;border-radius:24px;box-shadow:0 0 40px rgba(74,222,128,.35);" onerror="this.style.display='none'">
+      <div style="color:#7CFC9A;font-weight:800;letter-spacing:1px;margin-top:10px;font-size:15px;">— MEET BLAZEIAN —</div>
     </div>
 
     <h2 style="text-align:center;border:0;">⚡ What I do best</h2>
@@ -1831,8 +1837,8 @@ app.get("/dashboard", (req, res) => {
   const session = getSession(req);
 
   if (!session) {
-    return res.send(`${pageHead("BlazeianBot Dashboard")}
-      <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>BlazeianBot Dashboard</h1>
+    return res.send(`${pageHead("BLAZEIAN_BOT-AI Dashboard")}
+      <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>BLAZEIAN_BOT-AI Dashboard</h1>
         <p>One login adds me to your channel <b>and</b> unlocks me — even in Followers-Only chat. Then manage your commands & stream messages here.</p></header>
       <div class="card" style="text-align:center;">
         <a class="save" href="/dashboard/login">🚀 Add me & log in with Blaze</a>
@@ -1842,7 +1848,7 @@ app.get("/dashboard", (req, res) => {
 
   const channelId = findChannelByUsername(session.username);
   if (!channelId) {
-    return res.send(`${pageHead("BlazeianBot Dashboard")}
+    return res.send(`${pageHead("BLAZEIAN_BOT-AI Dashboard")}
       <div class="topbar"><a href="/dashboard/logout" class="link">logout</a></div>
       <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>Hey ${esc(session.username)}! 👋</h1></header>
       <div class="card">
@@ -1855,7 +1861,7 @@ app.get("/dashboard", (req, res) => {
   const unlockBanner = ch.botVip
     ? `<div class="card" style="border-color:#2c7a2c;background:rgba(20,40,18,.55);text-align:center;margin-bottom:14px;">✅ I'm fully unlocked in your channel — I can chat even in <b>Followers-Only</b> mode 💚</div>`
     : `<div class="card" style="border-color:#a37a1d;background:rgba(40,32,14,.55);text-align:center;margin-bottom:14px;">⚠️ Heads up: if I ever stay quiet in your chat, it's almost certainly in <b>Followers-Only</b> mode. One click fixes it for good:<br><a class="save" href="/dashboard/login" style="margin-top:12px;">🔓 Unlock me in my chat</a></div>`;
-  res.send(`${pageHead("BlazeianBot Dashboard")}
+  res.send(`${pageHead("BLAZEIAN_BOT-AI Dashboard")}
     <div class="topbar"><span class="muted">logged in as <b style="color:#5cf472;">${esc(session.username)}</b></span> <a href="/dashboard/logout" class="link">logout</a></div>
     <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>${esc(ch.username)}'s Dashboard</h1>
       <p>Manage your commands & stream messages. Paste long text here — no character limit like the chat 💚</p></header>
@@ -1938,9 +1944,9 @@ app.get("/admin", (req, res) => {
   const blocks = Object.values(channels).map(ch => renderChannelBlock(ch, "/admin")).join("") || "<i class='muted'>No channels yet</i>";
   const warn = ADMIN_KEY ? "" : `<div class="card" style="border-color:#a33;background:#2a1414;margin-bottom:16px;">⚠️ This panel has <b>no password</b> yet. Set an <code>ADMIN_KEY</code> environment variable in Render to lock it down.</div>`;
 
-  res.send(`${pageHead("BlazeianBot Admin")}
+  res.send(`${pageHead("BLAZEIAN_BOT-AI Admin")}
     <div class="topbar"><a href="/" class="link">status</a> <a href="/admin/logout" class="link">logout</a></div>
-    <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>BlazeianBot Admin Panel</h1>
+    <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>BLAZEIAN_BOT-AI Admin Panel</h1>
       <p>Owner control for <b>all</b> channels. Paste long text here — no character limit 💚</p></header>
     ${warn}
     ${renderControlCenter()}
