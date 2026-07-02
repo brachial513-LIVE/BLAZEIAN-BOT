@@ -930,7 +930,16 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
-  if (isBotChannel || !ch) return;
+  // HINT-FIX: in the bot's own channel, any command other than !join/!leave used to be silently ignored.
+  // Now point the user in the right direction instead of leaving them confused.
+  if (isBotChannel) {
+    if (!onCooldown(BOT_CHANNEL_ID, "hint_" + user.toLowerCase(), 30000)) {
+      markFired(BOT_CHANNEL_ID, "hint_" + user.toLowerCase());
+      await sendChat(BOT_CHANNEL_ID, `@${user} 💚 This is my home channel — type !join here and I'll hop into YOUR channel, then commands like !stats, !explain & co. work over there! Manage everything at ${SELF_URL}/dashboard 🔥`);
+    }
+    return;
+  }
+  if (!ch) return;
 
   const isOwner = user.toLowerCase() === ch.username.toLowerCase();
 
@@ -1310,6 +1319,23 @@ function renderForms(actionPrefix, channelField) {
   </form>`;
 }
 
+// OBS overlay links for a channel (shown in the streamer dashboard so everyone can grab their own).
+function renderOverlaySection(username) {
+  const emoteUrl  = `${SELF_URL}/overlay/emotes/${encodeURIComponent(username)}`;
+  const viewerUrl = `${SELF_URL}/overlay/viewers/${encodeURIComponent(username)}`;
+  return `
+  <h2>🎬 OBS Overlays (free!)</h2>
+  <div class="card">
+    <p class="hint">Add each in OBS as a <b>Browser Source</b> — the background stays transparent. Click a link to select it, then copy. 💚</p>
+    <label>🎉 Emote Wall — emotes float across your stream</label>
+    <input readonly onclick="this.select()" value="${esc(emoteUrl)}">
+    <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>.</p>
+    <label style="margin-top:14px;">👁️ Live Viewer Count (BLAZE)</label>
+    <input readonly onclick="this.select()" value="${esc(viewerUrl)}">
+    <p class="hint">OBS → + → Browser → paste URL → Width <b>340</b>, Height <b>110</b>. Red dot = offline, green = live.</p>
+  </div>`;
+}
+
 // OWNER control-center: live status + one-click actions (uses the admin cookie, so no need to type the key).
 function renderControlCenter() {
   const yn = (b) => b ? '<span style="color:#7CFC9A;">✅</span>' : '<span style="color:#e8776a;">❌</span>';
@@ -1331,6 +1357,7 @@ function renderControlCenter() {
       <form action="/admin/announce" method="get" style="flex:1;min-width:280px;">
         <label>📢 Announce to ALL channels</label>
         <input name="msg" placeholder="I just leveled up! Type !cmd to see what's new 💚">
+        <label style="display:flex;align-items:center;gap:8px;margin-top:8px;font-weight:normal;"><input type="checkbox" name="translate" value="1" style="width:auto;"> Translate into each channel's language</label>
         <button class="save" style="margin-top:8px;">Send announcement</button>
       </form>
       <form onsubmit="if(this.u.value){location.href='/admin/kick/'+encodeURIComponent(this.u.value.trim());}return false;" style="flex:1;min-width:280px;">
@@ -1639,6 +1666,8 @@ app.get("/", (req, res) => {
       <div class="feat"><h4>⚡ Custom Commands</h4><p>Build your own commands in seconds from your dashboard. <code style="all:unset;color:#ffd23f;">!giveaway</code>, <code style="all:unset;color:#ffd23f;">!socials</code>, anything you want.</p></div>
       <div class="feat"><h4>📊 Stats & Tracking</h4><p>Votes, subs, stream time, top emote — <code style="all:unset;color:#ffd23f;">!stats</code> shows it all, per channel.</p></div>
       <div class="feat"><h4>💬 Reads the Vibe</h4><p>I react to GG, GM, hype & hearts when it fits, drop live weather on request — and set my whole language per channel with <code style="all:unset;color:#ffd23f;">!setbotlang</code>.</p></div>
+      <div class="feat"><h4>🎬 Free OBS Overlays</h4><p>A live <b>Emote Wall</b> and a <b>BLAZE viewer counter</b> for your stream — grab your browser-source links right in your dashboard. No setup, no cost.</p></div>
+      <div class="feat"><h4>⏱️ Timed Messages & Learning</h4><p>I auto-post your reminders on a timer, and I quietly <b>learn each channel's own vibe</b> so I talk like a real regular over time.</p></div>
     </div>
 
     <div class="cta">
@@ -1707,6 +1736,7 @@ app.get("/dashboard", (req, res) => {
       <p>Manage your commands & stream messages. Paste long text here — no character limit like the chat 💚</p></header>
     ${unlockBanner}
     ${renderForms("/dashboard", channelField)}
+    ${renderOverlaySection(ch.username)}
     <h2>📋 Your Current Setup</h2>
     ${renderChannelBlock(ch, "/dashboard")}
     </div></body></html>`);
@@ -2158,15 +2188,22 @@ app.get("/admin/learn/:username", async (req, res) => {
 app.get("/admin/announce", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const msg = (req.query.msg || "").toString().trim();
+  const translate = req.query.translate === "1" || req.query.translate === "on";
   if (!msg) return res.send(`Need ?msg=... — e.g. /admin/announce?key=...&msg=${encodeURIComponent("I just leveled up! Type !cmd to see everything I can do now 💚🔥")}`);
   const ids = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
   const results = [];
   for (const id of ids) {
-    try { await sendChat(id, msg); results.push(`${channels[id]?.username || id}: ✅ sent`); }
-    catch (e) { results.push(`${channels[id]?.username || id}: ❌ ${e.message}`); }
+    const ch = channels[id];
+    let text = msg;
+    // Post in each channel's own language when translation is on (skips English/unknown).
+    if (translate && ch?.language && !/^en/i.test(ch.language)) {
+      try { const t = await translateText(msg, ch.language); if (t) text = t; } catch (e) {}
+    }
+    try { await sendChat(id, text); results.push(`${ch?.username || id} (${ch?.language || "en"}): ✅ sent`); }
+    catch (e) { results.push(`${ch?.username || id}: ❌ ${e.message}`); }
     await sleep(600);
   }
-  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">Announced to ${ids.length} channel(s):\n\n${esc(results.join("\n"))}</pre>`);
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">Announced to ${ids.length} channel(s)${translate ? " (translated per channel language)" : ""}:\n\n${esc(results.join("\n"))}</pre>`);
 });
 
 // =============================================
