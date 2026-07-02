@@ -7,7 +7,10 @@ app.use(express.urlencoded({ extended: true, limit: "1mb" }));
 const PORT = process.env.PORT || 3000;
 const BOT_CHANNEL_ID = "514160a7-fd05-4d7b-9932-a0143aa40d1c";
 const BOT_USER_ID    = "514160a7-fd05-4d7b-9932-a0143aa40d1c";
-const BOT_NAME       = "blazeian_bot";
+const BOT_NAME       = "blazeian_bot_ai"; // display/handle after the AI rename
+// Recognise the bot's own account under BOTH the old and new name, so renaming can't cause self-reactions.
+const BOT_ALIASES    = ["blazeian_bot", "blazeian_bot_ai", "blazeianbot"];
+function isBotName(u) { return !!u && BOT_ALIASES.includes(u.toLowerCase()); }
 const CLIENT_ID      = process.env.BLAZE_CLIENT_ID;
 const CLIENT_SECRET  = process.env.BLAZE_CLIENT_SECRET;
 const REDIRECT_URI   = "https://blazeian-bot.onrender.com/callback";
@@ -31,8 +34,8 @@ const BOT_PASSWORD = process.env.BLAZE_BOT_PASSWORD || null;
 // AUTO-UPDATE ANNOUNCE: bump BOT_VERSION + set CHANGELOG whenever we ship something worth telling users about.
 // On startup, if this version hasn't been announced yet, the bot posts CHANGELOG to every channel — ONCE.
 // (Plain restarts / free-tier wake-ups keep the same version → stay silent, no spam.)
-const BOT_VERSION = "2026-07-02.1";
-const CHANGELOG = "🚀 Update! I just leveled up — I can now show live OBS overlays (an emote wall + a BLAZE viewer counter) AND post timed reminders on my own! Type !info anytime to see everything I can do 💚🔥";
+const BOT_VERSION = "2026-07-02.2";
+const CHANGELOG = "📣 Small glow-up: I'm now BLAZEIAN_BOT-AI! 🧠 Nothing changes for you — same me, same chat, same commands, everything still works exactly as before. I just made it official that I'm more than your average bot. 😄 Manage me at the same dashboard as always, and type !info anytime to see everything I can do 💚🔥";
 let lastAnnouncedVersion = null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
@@ -354,7 +357,7 @@ function buildCommandList(ch) {
     "💚 BlazeianBot Commands 💚",
     "📊 Stats: !stats | !votes | !subs | !chat | !time | !emote",
     "🌍 Translate: !explain [language] | !setbotlang [language]",
-    "💬 Ask me anything: @blazeian_bot weather in [city]",
+    "💬 Ask me anything: @blazeian_bot_ai weather in [city]",
   ];
   if (custom.length) parts.push("⭐ Channel commands: " + custom.map(c => "!" + c).join(" | "));
   return parts.join("  ||  ");
@@ -827,7 +830,7 @@ async function handleSmallTalk(channelId, user, msg) {
       const m = cleaned.match(/weather\s*(?:is\s+)?(?:in|for|at|of|like(?:\s+in)?)?\s*[:,-]?\s*(.+)?/i);
       let city = (m && m[1] ? m[1] : "").trim().replace(/[?!.]+$/g, "").replace(/^(the\s+)/i, "").trim();
       if (!city) {
-        await sendChat(channelId, `@${user} sure! which city? 🌍 e.g. "@blazeian_bot weather in Berlin" 💚`);
+        await sendChat(channelId, `@${user} sure! which city? 🌍 e.g. "@blazeian_bot_ai weather in Berlin" 💚`);
         return;
       }
       await sendChat(channelId, `@${user} checking the weather for ${city}... ⏳`);
@@ -932,9 +935,9 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     const lang = (channels[channelId]?.language) || "en";
     const lines = [
       "Yo, I'm BlazeianBot 💚 here's what I can do:",
-      "🧠 Tag @blazeian_bot and I actually read & reply (in your language) · 🎉 I hype subs, gifted subs, follows, raids & votes · 📊 !stats !votes !subs !time !emote track this channel",
+      "🧠 Tag @blazeian_bot_ai and I actually read & reply (in your language) · 🎉 I hype subs, gifted subs, follows, raids & votes · 📊 !stats !votes !subs !time !emote track this channel",
       "🌍 !explain [language] translates the chat into 18 languages · live weather on request · ⚡ !cmd shows this channel's custom commands · plus timed reminders & free OBS overlays (emote wall + viewer count)",
-      "I even learn each channel's own vibe over time 😎 Want me in YOUR channel? Type !join at blaze.stream/blazeian_bot 💚🔥",
+      "I even learn each channel's own vibe over time 😎 Want me in YOUR channel? Type !join at blaze.stream/blazeian_bot_ai 💚🔥",
     ];
     for (const line of lines) {
       let out = line;
@@ -962,7 +965,7 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   if (m === "!leave") {
     const ownedChannelId = Object.keys(channels).find(id => channels[id].username.toLowerCase() === user.toLowerCase());
     if (ownedChannelId) {
-      await sendChat(ownedChannelId, `👋 Goodbye! BlazeianBot is leaving ${user}'s channel. Type !join at blaze.stream/blazeian_bot to re-add me anytime 💚`);
+      await sendChat(ownedChannelId, `👋 Goodbye! BlazeianBot is leaving ${user}'s channel. Type !join at blaze.stream/blazeian_bot_ai to re-add me anytime 💚`);
       if (isBotChannel) await sendChat(BOT_CHANNEL_ID, `👋😢 @${user} Done! I've left your channel... I'll miss you!! 💚`);
       delete channels[ownedChannelId];
       await saveChannelsToCloud();
@@ -1101,7 +1104,7 @@ async function handleEvent(message) {
 
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender?.username;
-    if (!user || user.toLowerCase() === BOT_NAME.toLowerCase()) return;
+    if (!user || isBotName(user)) return;
     if (!channelId) return;
     const msg = typeof payload.message === "string" ? payload.message : payload.message?.text || "";
     if (!msg) return;
@@ -1209,7 +1212,7 @@ async function handleEvent(message) {
   }
   if (metadata.subscriptionType === "channel.follow") {
     const user = payload.follower?.username || payload.follower?.displayName;
-    const isBot = user && user.toLowerCase() === BOT_NAME.toLowerCase();
+    const isBot = isBotName(user);
     // AUTO-FOLLOW-BACK: someone followed the BOT's own channel → follow them right back
     // AND silently join their channel so the bot is fully active there (listening + commands work).
     if (channelId === BOT_CHANNEL_ID && user && !isBot && !isBlocked(user)) {
@@ -1325,7 +1328,7 @@ function renderChannelBlock(ch, actionPrefix) {
   ).join("") || "<i class='muted'>no custom commands yet</i>";
 
   const lockNote = ch.locked
-    ? `<div class="meta" style="color:#e8b94a;"><b>🔒 LOCKED:</b> followers-only chat — this streamer needs to log into the dashboard once (or add blazeian_bot as VIP/Mod, or you follow them).</div>`
+    ? `<div class="meta" style="color:#e8b94a;"><b>🔒 LOCKED:</b> followers-only chat — this streamer needs to log into the dashboard once (or add blazeian_bot_ai as VIP/Mod, or you follow them).</div>`
     : "";
   return `<div class="chan">
     <h3>${esc(ch.username)} <span class="tag">${ch.language || "en"}</span>${ch.botVip ? ' <span class="tag" style="background:#f5a623;">VIP ✓</span>' : ""}</h3>
@@ -1626,7 +1629,7 @@ app.get("/", (req, res) => {
 
   // Donation / support links (env vars override these defaults)
   const PAYPAL       = process.env.DONATE_PAYPAL_URL || "https://www.paypal.com/paypalme/Brachial5eins3";
-  const BLAZE_THANKS = process.env.BLAZE_THANKS_URL  || "https://blaze.stream/blazeian_bot";
+  const BLAZE_THANKS = process.env.BLAZE_THANKS_URL  || "https://blaze.stream/blazeian_bot_ai";
   const donateButtons = [
     BLAZE_THANKS ? `<a class="donbtn blaze" href="${esc(BLAZE_THANKS)}" target="_blank" rel="noopener">🔥 Send a "Super Thanks" on Blaze</a>` : "",
     PAYPAL ? `<a class="donbtn paypal" href="${esc(PAYPAL)}" target="_blank" rel="noopener">☕ Buy me a coffee (PayPal)</a>` : "",
@@ -1702,7 +1705,7 @@ app.get("/", (req, res) => {
 
     <h2 style="text-align:center;border:0;">⚡ What I do best</h2>
     <div class="feats">
-      <div class="feat"><h4>🧠 I Actually Think</h4><p>Tag me <code style="all:unset;color:#ffd23f;">@blazeian_bot</code> and I read what you said and reply for real — in character, in <b>your</b> language. No canned lines, an actual brain. 💚</p></div>
+      <div class="feat"><h4>🧠 I Actually Think</h4><p>Tag me <code style="all:unset;color:#ffd23f;">@blazeian_bot_ai</code> and I read what you said and reply for real — in character, in <b>your</b> language. No canned lines, an actual brain. 💚</p></div>
       <div class="feat"><h4>🌍 Live Translation</h4><p>A signature move — <code style="all:unset;color:#ffd23f;">!explain [language]</code> translates the last chat messages into 18 languages. Nobody gets left out.</p></div>
       <div class="feat"><h4>🎉 Stream Alerts with Soul</h4><p>Raids, subs, gift subs, votes & follows — celebrated with real personality, never robotic.</p></div>
       <div class="feat"><h4>⚡ Custom Commands</h4><p>Build your own commands in seconds from your dashboard. <code style="all:unset;color:#ffd23f;">!giveaway</code>, <code style="all:unset;color:#ffd23f;">!socials</code>, anything you want.</p></div>
@@ -1720,7 +1723,7 @@ app.get("/", (req, res) => {
       <div style="margin-top:18px;">
         <a class="blazebtn" href="/dashboard">🚀 Add me to my channel with ${blazeMark}</a>
       </div>
-      <p style="font-size:12px;opacity:.72;margin-top:12px;">💡 Prefer chat? You can also type <code>!join</code> in <code>blaze.stream/blazeian_bot</code> — but the one login above is what unlocks me everywhere, instantly.</p>
+      <p style="font-size:12px;opacity:.72;margin-top:12px;">💡 Prefer chat? You can also type <code>!join</code> in <code>blaze.stream/blazeian_bot_ai</code> — but the one login above is what unlocks me everywhere, instantly.</p>
     </div>
 
     <div class="point">👇 My crew — proud of every one of them 👇</div>
@@ -1763,7 +1766,7 @@ app.get("/dashboard", (req, res) => {
       <div class="topbar"><a href="/dashboard/logout" class="link">logout</a></div>
       <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>Hey ${esc(session.username)}! 👋</h1></header>
       <div class="card">
-        <p>BlazeianBot isn't active in your channel yet. Go to <b>blaze.stream/blazeian_bot</b> and type <b>!join</b> in the chat — then refresh this page and your dashboard appears. 💚🔥</p>
+        <p>BlazeianBot isn't active in your channel yet. Go to <b>blaze.stream/blazeian_bot_ai</b> and type <b>!join</b> in the chat — then refresh this page and your dashboard appears. 💚🔥</p>
       </div></div></body></html>`);
   }
 
