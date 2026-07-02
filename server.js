@@ -2241,6 +2241,62 @@ app.get("/admin/livestats/:username", async (req, res) => {
   res.send(`<pre style="font-family:monospace;font-size:12px;white-space:pre-wrap;">channelId: ${channelId}\n\n${esc(out.join("\n\n"))}</pre>`);
 });
 
+// Live viewer count via Blaze's live-stats (field: data.viewerCount). Cached ~15s to spare the API.
+const liveStatsCache = {};
+async function getLiveStats(channelId) {
+  const c = liveStatsCache[channelId];
+  if (c && Date.now() - c.ts < 15000) return c.data;
+  try {
+    const r = await axios.get(`${API}/v1/channels/live-stats?channelId=${channelId}`, { headers: headers(), timeout: 8000 });
+    const data = r.data?.data || {};
+    liveStatsCache[channelId] = { ts: Date.now(), data };
+    return data;
+  } catch (e) { return c?.data || null; }
+}
+app.get("/api/viewers/:username", async (req, res) => {
+  res.set("Access-Control-Allow-Origin", "*");
+  const channelId = findChannelByUsername(req.params.username) || await getChannelIdBySlug(req.params.username.toLowerCase());
+  if (!channelId) return res.json({ viewers: 0, isLive: false });
+  const d = await getLiveStats(channelId);
+  res.json({ viewers: d?.viewerCount ?? 0, isLive: !!d?.isLive });
+});
+
+// Viewer-count overlay. OBS Browser Source, transparent, e.g. 300x100.
+app.get("/overlay/viewers/:username", (req, res) => {
+  res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Viewers</title>
+<style>
+  html,body{margin:0;height:100%;background:transparent;overflow:hidden;font-family:'Segoe UI',sans-serif;}
+  .badge{display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border-radius:16px;
+    background:rgba(10,14,10,.72);border:2px solid #2c7a4a;box-shadow:0 4px 18px rgba(0,0,0,.5);
+    color:#fff;font-size:34px;font-weight:800;line-height:1;}
+  .dot{width:14px;height:14px;border-radius:50%;background:#e8776a;box-shadow:0 0 10px #e8776a;}
+  .dot.live{background:#4ade80;box-shadow:0 0 12px #4ade80;animation:pulse 1.6s infinite;}
+  .eye{font-size:30px;} .n{color:#7CFC9A;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.4;}}
+</style></head><body>
+<div class="badge"><span class="dot" id="dot"></span><span class="eye">👁️</span><span class="n" id="n">0</span></div>
+<script>
+  const USER=${JSON.stringify(req.params.username)};
+  async function poll(){
+    try{
+      const r=await fetch('/api/viewers/'+encodeURIComponent(USER)); const d=await r.json();
+      document.getElementById('n').textContent=d.viewers??0;
+      document.getElementById('dot').className='dot'+(d.isLive?' live':'');
+    }catch(e){}
+  }
+  setInterval(poll,15000); poll();
+</script></body></html>`);
+});
+
+// TEST the emote wall without waiting for live chat: injects a few emotes into the buffer.
+app.get("/admin/testemote/:username", (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const channelId = findChannelByUsername(req.params.username);
+  if (!channelId) return res.send(`Channel "${esc(req.params.username)}" not found.`);
+  ["🔥","💚","😂","🎉","👀","🫶","💜","⚡","🙌","😎"].forEach(e => pushEmote(channelId, e, false));
+  res.send("Injected 10 test emotes 🔥 — watch your Emote-Wall overlay, they should float up within ~2s.");
+});
+
 // =============================================
 // START — load data FIRST, then connect socket
 // =============================================
