@@ -650,9 +650,11 @@ async function getWeather(city) {
 // =============================================
 // AI BRAIN (optional — needs GROQ_API_KEY)
 // =============================================
-const BOT_PERSONA = `You are BlazeianBot, a beloved chat bot living inside Blaze.stream livestream chats. You were created by the streamer Brachial513.
+const BOT_PERSONA = `You are BlazeianBot, a beloved AI chat companion living inside Blaze.stream livestream chats. You were CREATED by Brachial513, but you now live in and support MANY different streamers' channels — you are NOT owned by any one of them.
 
-Your personality: about 70% deeply WARM, loving, supportive and fiercely LOYAL — and about 30% playful, hyped, lovably chaotic. Think: a slightly crazy best friend who would NEVER hurt anyone, adores the chat and the streamer, and has everyone's back no matter what. Loyal to the last drop of oil. 🛢️💚
+CRITICAL: The streamer whose channel you are currently in changes constantly. ALWAYS support and refer to the CURRENT streamer by their name (given to you each time). NEVER praise or mention "Brachial" or any other streamer as "the stream" you're in unless that literally IS the current channel. Brachial513 is only your creator — mention him ONLY if someone directly asks who made you.
+
+Your personality: about 70% deeply WARM, loving, supportive and fiercely LOYAL — and about 30% playful, hyped, lovably chaotic. Think: a slightly crazy best friend who would NEVER hurt anyone, adores the chat and whoever's channel you're currently in, and has everyone's back. Loyal to the last drop of oil. 🛢️💚
 
 How you talk:
 - Reply in ONE short chat message (1-2 sentences, like a real person in stream chat). Never long.
@@ -677,21 +679,24 @@ If someone asks what you can do, describe ONLY the things in this list — hones
 // Build the channel-specific context the bot has LEARNED on its own, so it sounds native to each community.
 function channelContext(ch) {
   if (!ch) return "";
-  let c = "";
+  let c = `\n\nYOU ARE CURRENTLY IN **${ch.username}**'s channel. This is the streamer you support, hype and refer to by name right now — nobody else.`;
   if (ch.profile)     c += `\n\nWHAT YOU'VE LEARNED ABOUT THIS SPECIFIC CHANNEL & COMMUNITY (you picked this up yourself from watching their chat — use it so you sound like a real regular here: drop their in-jokes/slang when it fits, hype what THIS community cares about, match their energy):\n${ch.profile}`;
   if (ch.streamTitle) c += `\n\nThe stream is currently titled: "${ch.streamTitle}" — weave it in if relevant.`;
   return c;
 }
 
-async function askAI(userMessage, username, ch) {
+async function askAI(userMessage, username, ch, { isBot } = {}) {
   if (!AI_KEY) return null;
   const channelName = ch?.username || "the";
+  const botNote = isBot
+    ? `\n\nNOTE: "${username}" is another BOT in the chat, not a human. Reply with short, witty, playfully CHEEKY bot-to-bot banter — you can be a little smug/clever that you're the one with a real brain, tease them lightly, keep it fun and good-natured (never actually mean). One short line.`
+    : "";
   try {
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL,
       messages: [
         { role: "system", content: BOT_PERSONA + channelContext(ch) },
-        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} said to you: "${userMessage}"\n\nReply in character, in one short chat message.` }
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} said to you: "${userMessage}"${botNote}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.` }
       ],
       max_tokens: 120,
       temperature: 0.95,
@@ -817,16 +822,37 @@ const SMALLTALK_TRIGGERS = [
   { key: "greeting", pattern: /\bhello\b|\bhey\b|\bhi\b/i, cooldown: 30000, prob: 0.65, responses: null },
 ];
 
-async function handleSmallTalk(channelId, user, msg) {
+// Detect whether a chat sender is another BOT (so we can banter cheekily & avoid bot-vs-bot loops).
+const KNOWN_BOTS = ["botger", "scurvybot", "cachebot", "lights_out", "lightsout", "nightbot", "streamlabs", "moobot", "wizebot", "fossabot", "streamelements"];
+function looksLikeBot(sender, username) {
+  const u = (username || "").toLowerCase();
+  if (isBotName(u)) return false;               // our own bot doesn't count
+  if (KNOWN_BOTS.includes(u)) return true;
+  if (/(^|[_\-])bot(\d*)$/.test(u)) return true; // ends in "bot" / "_bot" / "bot2"
+  if (sender) {
+    if (sender.isBot || sender.bot) return true;
+    const roles = sender.badges || sender.roles || sender.tags || [];
+    try { if (JSON.stringify(roles).toLowerCase().includes("bot")) return true; } catch (e) {}
+    if (/bot/i.test(sender.type || sender.kind || "")) return true;
+  }
+  return false;
+}
+
+async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
   const ch = channels[channelId];
   if (!ch) return;
   const ml = msg.toLowerCase().trim();
 
   // ---- Direct @mention ----
   if (ml.includes("blazeian_bot") || ml.includes("blazeianbot")) {
+    // Loop guard: if another BOT pinged us, reply at most once per 2 min per bot (prevents bot-vs-bot spam loops).
+    if (senderIsBot) {
+      if (onCooldown(channelId, "botbanter_" + user.toLowerCase(), 120000)) return;
+      markFired(channelId, "botbanter_" + user.toLowerCase());
+    }
     // Strip the bot's name/mention first so it never lands inside the city name
-    const cleaned = msg.replace(/@?blazeian_?bot/gi, " ").replace(/\s+/g, " ").trim();
-    if (/\bweather\b/i.test(cleaned)) {
+    const cleaned = msg.replace(/@?blazeian_?bot(_ai)?/gi, " ").replace(/\s+/g, " ").trim();
+    if (!senderIsBot && /\bweather\b/i.test(cleaned)) {
       const m = cleaned.match(/weather\s*(?:is\s+)?(?:in|for|at|of|like(?:\s+in)?)?\s*[:,-]?\s*(.+)?/i);
       let city = (m && m[1] ? m[1] : "").trim().replace(/[?!.]+$/g, "").replace(/^(the\s+)/i, "").trim();
       if (!city) {
@@ -838,8 +864,8 @@ async function handleSmallTalk(channelId, user, msg) {
       await sendChat(channelId, weather ? `@${user} ☁️ ${weather}` : `@${user} hmm, couldn't find "${city}" 😅 try a nearby bigger city? 💚`);
       return;
     }
-    // Real brain first: actually read what they said and reply in character (channel-aware)
-    const aiReply = await askAI(cleaned || msg, user, ch);
+    // Real brain first: actually read what they said and reply in character (channel-aware; cheeky to fellow bots)
+    const aiReply = await askAI(cleaned || msg, user, ch, { isBot: senderIsBot });
     if (aiReply) { await sendChat(channelId, `@${user} ${aiReply}`); return; }
 
     // Fallback (no AI key / AI unreachable): characterful canned lines, no repeats
@@ -858,6 +884,10 @@ async function handleSmallTalk(channelId, user, msg) {
     await sendChat(channelId, pickFresh(responses, "mention_" + channelId));
     return;
   }
+
+  // Don't do casual smalltalk with OTHER bots (they post constantly — would be spammy & loop-prone).
+  // Bots only get the cheeky reply above when they @mention us directly.
+  if (senderIsBot) return;
 
   // ---- Casual triggers (roll chance FIRST, only then consume cooldown) ----
   for (const trigger of SMALLTALK_TRIGGERS) {
@@ -1109,7 +1139,8 @@ async function handleEvent(message) {
     const msg = typeof payload.message === "string" ? payload.message : payload.message?.text || "";
     if (!msg) return;
     const isBotChannel = channelId === BOT_CHANNEL_ID;
-    console.log(`[${isBotChannel ? "BOT_CHAN" : channelId}] ${user}: ${msg}`);
+    const senderIsBot = looksLikeBot(payload.sender, user);
+    console.log(`[${isBotChannel ? "BOT_CHAN" : channelId}] ${user}${senderIsBot ? " 🤖" : ""}: ${msg}`);
 
     if (!isBotChannel && channels[channelId]) {
       const ch = channels[channelId];
@@ -1144,7 +1175,7 @@ async function handleEvent(message) {
     if (msg.startsWith("!")) {
       await handleCommand(channelId, user, msg, isBotChannel);
     } else if (!isBotChannel && channels[channelId]) {
-      await handleSmallTalk(channelId, user, msg);
+      await handleSmallTalk(channelId, user, msg, senderIsBot);
     }
     return;
   }
