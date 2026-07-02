@@ -126,6 +126,7 @@ async function loadChannelsFromCloud() {
       console.log("Restored tokens from cloud ☁️" + (SESSION_TOKEN ? " (session token present)" : " (NO session token)"));
     }
     if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
+    if (Array.isArray(record.friendBots)) friendBots = record.friendBots;
     if (record.lastAnnouncedVersion) lastAnnouncedVersion = record.lastAnnouncedVersion;
     console.log("Loaded channels:", Object.keys(data).length, "| blocklist:", blocklist.length);
     return data;
@@ -139,6 +140,7 @@ async function saveChannelsToCloud() {
     await axios.put(JSONBIN_URL, {
       channels,
       blocklist,
+      friendBots,
       lastAnnouncedVersion,
       auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
               sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
@@ -157,6 +159,14 @@ let blocklist = []; // usernames the bot must NOT serve (kicked trolls) — no f
 function isBlocked(username) {
   if (!username) return false;
   return blocklist.map(b => b.toLowerCase()).includes(username.toLowerCase());
+}
+
+// FRIEND BOTS — fellow bots the bot treats as buddies (warm best-friend banter instead of cheeky).
+// Seeded with the Fox Spirits / Blaze bot crew; editable live via /admin (survives redeploys).
+let friendBots = ["cinder", "foxbot", "fox_bot", "foxbot_ai", "lights_out", "lightsout", "botger", "scurvybot", "cachebot", "cachebot_ai"];
+function isFriendBot(username) {
+  if (!username) return false;
+  return friendBots.map(b => b.toLowerCase()).includes(username.toLowerCase());
 }
 
 function getOrCreateChannel(channelId, username) {
@@ -685,12 +695,15 @@ function channelContext(ch) {
   return c;
 }
 
-async function askAI(userMessage, username, ch, { isBot } = {}) {
+async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   if (!AI_KEY) return null;
   const channelName = ch?.username || "the";
-  const botNote = isBot
-    ? `\n\nNOTE: "${username}" is another BOT in the chat, not a human. Reply with short, witty, playfully CHEEKY bot-to-bot banter — you can be a little smug/clever that you're the one with a real brain, tease them lightly, keep it fun and good-natured (never actually mean). One short line.`
-    : "";
+  let botNote = "";
+  if (isFriend) {
+    botNote = `\n\nNOTE: "${username}" is a FELLOW BOT you're friends with — part of your little Blaze bot crew. Reply like buddies/best friends running the streams together: warm, playful, hyped to team up, a bit of fun banter. Short and full of good energy. One line.`;
+  } else if (isBot) {
+    botNote = `\n\nNOTE: "${username}" is another BOT in the chat, not a human. Reply with short, witty, playfully CHEEKY bot-to-bot banter — you can be a little smug/clever that you're the one with a real brain, tease them lightly, keep it fun and good-natured (never actually mean). One short line.`;
+  }
   try {
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL,
@@ -838,17 +851,31 @@ function looksLikeBot(sender, username) {
   return false;
 }
 
+// Hard hourly cap on bot-to-bot replies per bot per channel — kills any endless ping-pong.
+const botBanterHourly = {};
+function botBanterAllowed(channelId, botname, maxPerHour = 5) {
+  const key = channelId + ":" + botname.toLowerCase();
+  const now = Date.now();
+  let e = botBanterHourly[key];
+  if (!e || now - e.since > 3600000) { e = { count: 0, since: now }; botBanterHourly[key] = e; }
+  if (e.count >= maxPerHour) return false;
+  e.count++; return true;
+}
+
 async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
   const ch = channels[channelId];
   if (!ch) return;
   const ml = msg.toLowerCase().trim();
+  const isFriend = senderIsBot && isFriendBot(user);
 
   // ---- Direct @mention ----
   if (ml.includes("blazeian_bot") || ml.includes("blazeianbot")) {
-    // Loop guard: if another BOT pinged us, reply at most once per 2 min per bot (prevents bot-vs-bot spam loops).
+    // Loop guard: another BOT pinged us → at most once per 3 min AND max 5/hour per bot (no spam loops).
     if (senderIsBot) {
-      if (onCooldown(channelId, "botbanter_" + user.toLowerCase(), 120000)) return;
+      if (onCooldown(channelId, "botbanter_" + user.toLowerCase(), 180000)) return;
+      if (!botBanterAllowed(channelId, user)) return;
       markFired(channelId, "botbanter_" + user.toLowerCase());
+      console.log(`🤖↔️ ${isFriend ? "friend" : "bot"}-banter with ${user} in ${ch.username}`);
     }
     // Strip the bot's name/mention first so it never lands inside the city name
     const cleaned = msg.replace(/@?blazeian_?bot(_ai)?/gi, " ").replace(/\s+/g, " ").trim();
@@ -865,7 +892,7 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
       return;
     }
     // Real brain first: actually read what they said and reply in character (channel-aware; cheeky to fellow bots)
-    const aiReply = await askAI(cleaned || msg, user, ch, { isBot: senderIsBot });
+    const aiReply = await askAI(cleaned || msg, user, ch, { isBot: senderIsBot, isFriend });
     if (aiReply) { await sendChat(channelId, `@${user} ${aiReply}`); return; }
 
     // Fallback (no AI key / AI unreachable): characterful canned lines, no repeats
@@ -1447,6 +1474,12 @@ function renderControlCenter() {
       <input name="u" placeholder="username">
       <button class="save" style="margin-top:8px;background:#555;">Unblock</button>
     </form>
+    <form onsubmit="if(this.u.value){location.href='/admin/friendbot/'+encodeURIComponent(this.u.value.trim());}return false;" style="margin-top:12px;">
+      <label>🤝 Add a friend bot (Blazeian banters with it like a buddy)</label>
+      <input name="u" placeholder="e.g. cinder, foxbot">
+      <button class="save" style="margin-top:8px;background:#2c7a4a;">Add friend bot</button>
+      <p class="hint">See all: <a href="/admin/friendbots" target="_blank">/admin/friendbots</a></p>
+    </form>
   </div>`;
 }
 
@@ -1998,6 +2031,25 @@ app.get("/admin/unblock/:username", async (req, res) => {
   blocklist = blocklist.filter(b => b.toLowerCase() !== req.params.username.toLowerCase());
   await saveChannelsToCloud();
   res.send(`${before === blocklist.length ? "Wasn't on the blocklist" : "Unblocked"} "${esc(req.params.username)}".`);
+});
+
+// FRIEND BOTS — the crew the bot banters with as buddies. Add/list/remove live.
+app.get("/admin/friendbots", (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">🤝 Friend bots (${friendBots.length}):\n${friendBots.map(b => "  • " + esc(b)).join("\n") || "  (none)"}\n\nAdd a friend bot: /admin/friendbot/BOTNAME?key=...\nRemove one:       /admin/unfriendbot/BOTNAME?key=...</pre>`);
+});
+app.get("/admin/friendbot/:name", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const n = req.params.name.toLowerCase().replace(/^@/, "");
+  if (!isFriendBot(n)) { friendBots.push(n); await saveChannelsToCloud(); }
+  res.send(`<pre style="font-family:monospace;font-size:14px;">🤝 "${esc(n)}" is now a friend bot — Blazeian will banter with it like a buddy.\n\nAll friends: ${esc(friendBots.join(", "))}</pre>`);
+});
+app.get("/admin/unfriendbot/:name", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const before = friendBots.length;
+  friendBots = friendBots.filter(b => b.toLowerCase() !== req.params.name.toLowerCase().replace(/^@/, ""));
+  await saveChannelsToCloud();
+  res.send(`${before === friendBots.length ? "Wasn't a friend bot" : "Removed friend bot"} "${esc(req.params.name)}".`);
 });
 
 app.get("/admin/list", (req, res) => {
