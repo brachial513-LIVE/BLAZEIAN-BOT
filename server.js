@@ -711,6 +711,13 @@ async function aiShout(ch, instruction, { addName } = {}) {
 // The bot watches each chat and distills a short living profile of the community — its slang, in-jokes,
 // vibe, what they hype. No manual input: it teaches itself. Samples live in memory; only the distilled
 // profile is persisted (keeps storage tiny).
+const recentEmotes = {}; // channelId -> [{e, img, ts}] rolling buffer for the OBS emote-wall overlay
+function pushEmote(channelId, e, isImg) {
+  if (!recentEmotes[channelId]) recentEmotes[channelId] = [];
+  recentEmotes[channelId].push({ e, img: !!isImg, ts: Date.now() });
+  if (recentEmotes[channelId].length > 80) recentEmotes[channelId].shift();
+}
+
 const chatSamples = {}; // channelId -> [recent "user: msg" strings]
 function recordSample(channelId, user, msg) {
   if (!chatSamples[channelId]) chatSamples[channelId] = [];
@@ -1058,6 +1065,8 @@ async function handleEvent(message) {
         emotes.forEach(em => {
           const id = em.id || em.emoteId, name = em.name || em.emoteName || id;
           if (id) { ch.stats.emotes[id] = (ch.stats.emotes[id] || 0) + 1; ch.stats.emoteNames[id] = name; }
+          const url = em.url || em.imageUrl || em.image;
+          pushEmote(channelId, url || name, !!url); // feed the emote-wall overlay
         });
       }
       // Blaze emotes are unicode emojis right in the message text — track those for the "top emote" stat
@@ -1066,6 +1075,7 @@ async function handleEvent(message) {
         for (const emo of emojis) {
           ch.stats.emotes[emo] = (ch.stats.emotes[emo] || 0) + 1;
           ch.stats.emoteNames[emo] = emo;
+          pushEmote(channelId, emo, false); // feed the emote-wall overlay
         }
       }
       if (!msg.startsWith("!")) {
@@ -2157,6 +2167,78 @@ app.get("/admin/announce", async (req, res) => {
     await sleep(600);
   }
   res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">Announced to ${ids.length} channel(s):\n\n${esc(results.join("\n"))}</pre>`);
+});
+
+// =============================================
+// OBS OVERLAYS — add as a Browser Source in OBS
+// =============================================
+// Live feed of recent emotes for the wall (polled by the overlay). No auth — exposes only emotes.
+app.get("/api/emotes/:username", (req, res) => {
+  const channelId = findChannelByUsername(req.params.username);
+  res.set("Access-Control-Allow-Origin", "*");
+  if (!channelId) return res.json({ emotes: [] });
+  const since = parseInt(req.query.since, 10) || 0;
+  const list = (recentEmotes[channelId] || []).filter(x => x.ts > since);
+  res.json({ now: Date.now(), emotes: list });
+});
+
+// The Emote Wall overlay page. In OBS: Browser Source → this URL, transparent background, 1920x1080.
+app.get("/overlay/emotes/:username", (req, res) => {
+  const uname = esc(req.params.username);
+  res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Emote Wall</title>
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:transparent;font-family:sans-serif;}
+  .emote{position:absolute;bottom:-80px;font-size:64px;line-height:1;will-change:transform,opacity;
+    animation:rise var(--dur) linear forwards;filter:drop-shadow(0 2px 6px rgba(0,0,0,.5));}
+  .emote img{height:64px;width:auto;display:block;}
+  @keyframes rise{
+    0%{transform:translateY(0) translateX(0) scale(.6);opacity:0;}
+    12%{opacity:1;transform:translateY(-12vh) scale(1);}
+    100%{transform:translateY(-105vh) translateX(var(--drift)) rotate(var(--rot));opacity:0;}
+  }
+</style></head><body>
+<div id="wall"></div>
+<script>
+  const USER=${JSON.stringify(req.params.username)};
+  let since=0; const wall=document.getElementById('wall');
+  function spawn(item){
+    const el=document.createElement('div'); el.className='emote';
+    el.style.left=(Math.random()*92+2)+'vw';
+    el.style.setProperty('--dur',(4.5+Math.random()*3)+'s');
+    el.style.setProperty('--drift',((Math.random()*160-80))+'px');
+    el.style.setProperty('--rot',((Math.random()*60-30))+'deg');
+    el.style.fontSize=(48+Math.random()*40)+'px';
+    if(item.img){ el.innerHTML='<img src="'+item.e+'">'; } else { el.textContent=item.e; }
+    wall.appendChild(el);
+    setTimeout(()=>el.remove(),8000);
+  }
+  async function poll(){
+    try{
+      const r=await fetch('/api/emotes/'+encodeURIComponent(USER)+'?since='+since);
+      const d=await r.json(); since=d.now||since;
+      (d.emotes||[]).forEach((it,i)=>setTimeout(()=>spawn(it), i*120));
+    }catch(e){}
+  }
+  setInterval(poll,2000); poll();
+</script></body></html>`);
+});
+
+// DIAGNOSTIC: dump Blaze's live-stats response so we can wire the exact viewer-count field for the viewer overlay.
+app.get("/admin/livestats/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const channelId = findChannelByUsername(req.params.username) || await getChannelIdBySlug(req.params.username.toLowerCase());
+  const attempts = [
+    `${API}/v1/channels/live-stats?channelId=${channelId}`,
+    `${API}/v1/channels/live-stats?channelId[]=${channelId}`,
+    `${API}/v1/channels/live-stats?slug[]=${req.params.username.toLowerCase()}`,
+    `${API}/v1/channels/stats?channelId=${channelId}`,
+  ];
+  const out = [];
+  for (const url of attempts) {
+    try { const r = await axios.get(url, { headers: headers(), timeout: 8000 }); out.push(`✅ ${url}\n${JSON.stringify(r.data).slice(0, 800)}`); }
+    catch (e) { out.push(`❌ ${url}\n[${e.response?.status}] ${JSON.stringify(e.response?.data)?.slice(0,200) || e.message}`); }
+  }
+  res.send(`<pre style="font-family:monospace;font-size:12px;white-space:pre-wrap;">channelId: ${channelId}\n\n${esc(out.join("\n\n"))}</pre>`);
 });
 
 // =============================================
