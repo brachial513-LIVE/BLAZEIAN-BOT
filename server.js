@@ -60,7 +60,16 @@ async function getAppAccessToken() {
   }
 }
 
-async function refreshAccessToken() {
+// GLOBAL REFRESH LOCK: multiple code paths (boot, 45-min interval, subscribe-retry) can call this
+// at the same time. Each successful refresh ROTATES the token, so two concurrent refreshes rotate
+// twice and the saves race — losing the newest token (this killed the bot once). One at a time.
+let _refreshInFlight = null;
+function refreshAccessToken() {
+  if (_refreshInFlight) return _refreshInFlight;
+  _refreshInFlight = _doRefreshAccessToken().finally(() => { _refreshInFlight = null; });
+  return _refreshInFlight;
+}
+async function _doRefreshAccessToken() {
   if (!REFRESH_TOKEN) { console.log("No refresh token — relying on session login instead."); return false; }
   try {
     const res = await axios.post("https://blaze.stream/bapi/oauth2/refresh", {
@@ -223,6 +232,13 @@ async function loadChannelsFromCloud() {
 }
 
 async function saveChannelsToCloud() {
+  // SERIALIZED: saves run strictly one-after-another. Two concurrent saves used to race on the
+  // file SHA — the loser's data (often the freshest token) was silently dropped. Never again.
+  _saveChain = _saveChain.then(() => _writeStateToGitHub()).catch(() => {});
+  return _saveChain;
+}
+let _saveChain = Promise.resolve();
+async function _writeStateToGitHub() {
   if (!GH_TOKEN) { console.log("Save skipped — no GITHUB_TOKEN."); return; }
   const body = {
     channels,
