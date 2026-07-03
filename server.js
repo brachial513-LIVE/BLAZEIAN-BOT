@@ -69,7 +69,7 @@ async function refreshAccessToken() {
     ACCESS_TOKEN  = res.data.accessToken;
     REFRESH_TOKEN = res.data.refreshToken || REFRESH_TOKEN;
     console.log("Token refreshed");
-    saveChannels(); // persist the rotated tokens to the cloud so they survive redeploys
+    saveChannelsNow(); // tokens must survive a restart → write immediately
     return true;
   } catch (e) {
     console.log("Refresh error:", e.response?.data || e.message);
@@ -155,8 +155,9 @@ async function saveChannelsToCloud() {
     console.log("JSONBin save error:", e.response?.data || e.message);
   }
 }
-// Debounced save: bursts of events used to fire a cloud PUT every second ("Channels saved"
-// spam + wasted JSONBin quota). Coalesce rapid calls into one write every few seconds.
+// JSONBin free tier is request-limited (this got EXHAUSTED once). Routine saves (chat stats,
+// profiles, greetings) are coalesced into ONE cloud write every 5 MINUTES so we stay far under
+// the quota. Critical data (tokens, new channel joins) uses saveChannelsNow() for an immediate write.
 let _saveTimer = null, _savePending = false;
 function saveChannels() {
   _savePending = true;
@@ -164,7 +165,12 @@ function saveChannels() {
   _saveTimer = setTimeout(() => {
     _saveTimer = null;
     if (_savePending) { _savePending = false; saveChannelsToCloud().catch(e => console.log("Save error:", e.message)); }
-  }, 5000);
+  }, 5 * 60 * 1000);
+}
+// Immediate write for things that MUST survive a restart (tokens, channel registration).
+function saveChannelsNow() {
+  _savePending = false; if (_saveTimer) { clearTimeout(_saveTimer); _saveTimer = null; }
+  return saveChannelsToCloud().catch(e => console.log("Save error:", e.message));
 }
 
 let channels = {};
@@ -1202,6 +1208,11 @@ async function handleEvent(message) {
 
   const channelId = payload.channelId || payload.condition?.channelId;
 
+  // Log every non-chat event's type so we can see exactly what Blaze sends (e.g. for votes).
+  if (metadata.subscriptionType && metadata.subscriptionType !== "channel.chat.message") {
+    console.log(`[EVENT] ${metadata.subscriptionType} ch=${channelId || "-"} keys=${Object.keys(payload || {}).join(",")}`);
+  }
+
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender?.username;
     if (!user || isBotName(user)) return;
@@ -1818,7 +1829,7 @@ app.get("/callback", async (req, res) => {
       // The real unlock: bot follows the channel (satisfies followers-only). VIP/Mod as a bonus/cosmetic.
       await followChannel(userId);
       const ok = await makeBotVip(tokenRes.data.accessToken, userId, username);
-      if (channels[cid]) { channels[cid].botVip = ok; channels[cid].locked = false; saveChannels(); }
+      if (channels[cid]) { channels[cid].botVip = ok; channels[cid].locked = false; await saveChannelsNow(); }
       if (wasNew) {
         await sendChat(userId, `Hey chat! BlazeianBot is now active in ${username}'s channel! Type !cmd to see what I can do 💚🔥`);
       }
@@ -2797,7 +2808,7 @@ app.get("/overlay/run/:username", (req, res) => {
   const portalOn = req.query.portal === "0" ? false : true;
   const rev = req.query.rev === "1"; // reverse run-cycle order
   const stride = Math.max(0.12, Math.min(0.55, parseFloat(req.query.stride) || 0.26)); // legs locked to ground distance (kills moonwalk)
-  const mirror = req.query.mirror === "1"; // flip base facing if the run frames face the other way
+  const mirror = req.query.mirror === "0" ? false : true; // default ON (correct facing); ?mirror=0 to flip back
   const CELLS = 11, RUN = 6, CW = 200;
   const THEMES = { green:110, lime:90, blue:210, cyan:190, teal:170, purple:278, magenta:300, pink:325, red:2, orange:32, gold:45, yellow:55 };
   let hue = 110, rgb = false;
