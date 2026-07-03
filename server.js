@@ -1487,9 +1487,10 @@ function renderOverlaySection(username) {
     <label style="margin-top:14px;">🤖 Blazeian Mascot — portal-appears & watches with you</label>
     <input readonly onclick="this.select()" value="${esc(mascotUrl)}">
     <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. First appearance ~4s, then every ~1–2 min. Add <code>?img=URL</code> for a custom sprite.</p>
-    <label style="margin-top:14px;">🏃 Blazeian Runs — flitzt aus echten Frames über deinen Stream</label>
+    <label style="margin-top:14px;">🏃 Blazeian Runs — flitzt aus echten Frames über deinen Stream (+ Sprechblasen)</label>
     <input readonly onclick="this.select()" value="${esc(runUrl)}">
-    <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. He runs across &amp; turns at the edges. Tune with <code>?size=150&amp;speed=130&amp;fps=11</code>.</p>
+    <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. He runs across, turns at the edges &amp; pops speech bubbles. Tune: <code>?size=160&amp;speed=120&amp;fps=12&amp;talk=0</code>.<br>
+    🎨 <b>Farbe wählen:</b> häng <code>?theme=</code> an — <code>green</code> (GMC), <code>blue</code>, <code>cyan</code>, <code>purple</code>, <code>pink</code>, <code>red</code>, <code>gold</code>, oder <code>rgb</code> (Regenbogen 🌈). Beispiel: <code>…/run/NAME?theme=rgb</code></p>
   </div>`;
 }
 
@@ -2773,7 +2774,13 @@ app.get("/overlay/run/:username", (req, res) => {
   const speed = Math.max(30, Math.min(400, parseInt(req.query.speed) || 120));
   const fps   = Math.max(4,  Math.min(24,  parseInt(req.query.fps)   || 12));
   const talk  = req.query.talk === "0" ? false : true;
-  const CELLS = 7, RUN = 6, IDLE = 6; // frame 6 = idle / talking pose
+  const CELLS = 7, RUN = 6, IDLE = 6, CW = 200;
+  const THEMES = { green:110, lime:90, blue:210, cyan:190, teal:170, purple:278, magenta:300, pink:325, red:2, orange:32, gold:45, yellow:55 };
+  let hue = 110, rgb = false;
+  const t = (req.query.theme || "").toLowerCase();
+  if (t === "rgb") rgb = true;
+  else if (THEMES[t] !== undefined) hue = THEMES[t];
+  else if (req.query.hue !== undefined) hue = ((parseInt(req.query.hue) % 360) + 360) % 360;
   const msgs = [
     "gm! Blazeian_Bot_AI wishes you an epic stream 💚",
     "You like me? Come join my crew — I do way more than just run around 🔥",
@@ -2789,9 +2796,7 @@ app.get("/overlay/run/:username", (req, res) => {
 <style>
   html,body{margin:0;height:100%;background:transparent;overflow:hidden;font-family:system-ui,'Segoe UI',sans-serif;}
   #wrap{position:fixed;bottom:10px;left:0;width:${size}px;height:${size}px;will-change:transform;}
-  #blz{position:absolute;inset:0;background-image:url('/blaze-run-strip.png');background-repeat:no-repeat;
-    background-size:${CELLS*size}px ${size}px;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45));
-    will-change:background-position,transform;}
+  #c{position:absolute;inset:0;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45));}
   #bubble{position:absolute;left:50%;bottom:${size-4}px;transform:translateX(-28%);
     max-width:280px;min-width:70px;background:#fff;color:#141418;padding:9px 13px;border-radius:14px;
     font-size:15px;font-weight:600;line-height:1.25;box-shadow:0 4px 14px rgba(0,0,0,.4);
@@ -2799,35 +2804,77 @@ app.get("/overlay/run/:username", (req, res) => {
   #bubble.show{opacity:1;transform:translateX(-28%) translateY(-5px);}
   #bubble:after{content:"";position:absolute;left:24px;bottom:-9px;border:9px solid transparent;border-top-color:#fff;border-bottom:0;}
 </style></head><body>
-<div id="wrap"><div id="blz"></div><div id="bubble"></div></div>
+<div id="wrap"><canvas id="c" width="${size}" height="${size}"></canvas><div id="bubble"></div></div>
 <script>
-  var wrap=document.getElementById('wrap'),blz=document.getElementById('blz'),bub=document.getElementById('bubble');
-  var CELLS=${CELLS},RUN=${RUN},IDLE=${IDLE},size=${size},fps=${fps},speed=${speed},TALK=${talk};
-  var MSGS=${JSON.stringify(msgs)};
-  var frame=0,lastF=0,x=20,dir=1,face=1,last=performance.now();
+  var size=${size},fps=${fps},speed=${speed},TALK=${talk},CELLS=${CELLS},RUN=${RUN},IDLE=${IDLE},CW=${CW};
+  var HUE=${hue},RGB=${rgb},MSGS=${JSON.stringify(msgs)};
+  var cv=document.getElementById('c'),ctx=cv.getContext('2d');
+  var wrap=document.getElementById('wrap'),bub=document.getElementById('bubble');
+  var STRIPW=CELLS*CW, STRIPH=CW;
+  // offscreen base + themed strips
+  var base=document.createElement('canvas');base.width=STRIPW;base.height=STRIPH;
+  var bctx=base.getContext('2d');
+  var themed=document.createElement('canvas');themed.width=STRIPW;themed.height=STRIPH;
+  var tctx=themed.getContext('2d');
+  var accentIdx=[],accS=[],accV=[],baseData=null,ready=false;
+  function rgb2hsv(r,g,b){var mx=Math.max(r,g,b),mn=Math.min(r,g,b),d=mx-mn;var h=0;
+    if(d){if(mx===r)h=((g-b)/d)%6;else if(mx===g)h=(b-r)/d+2;else h=(r-g)/d+4;h*=60;if(h<0)h+=360;}
+    return [h,mx?d/mx:0,mx/255];}
+  function hsv2rgb(h,s,v){var c=v*s,x=c*(1-Math.abs((h/60)%2-1)),m=v-c,r=0,g=0,b=0;
+    var i=Math.floor(h/60)%6;
+    if(i===0){r=c;g=x;}else if(i===1){r=x;g=c;}else if(i===2){g=c;b=x;}
+    else if(i===3){g=x;b=c;}else if(i===4){r=x;b=c;}else{r=c;b=x;}
+    return [(r+m)*255,(g+m)*255,(b+m)*255];}
+  function recolor(targetHue){
+    if(!baseData)return;
+    var out=tctx.createImageData(STRIPW,STRIPH);
+    out.data.set(baseData.data);
+    for(var k=0;k<accentIdx.length;k++){var p=accentIdx[k];
+      var rgbv=hsv2rgb(targetHue,accS[k],accV[k]);
+      out.data[p]=rgbv[0];out.data[p+1]=rgbv[1];out.data[p+2]=rgbv[2];}
+    tctx.putImageData(out,0,0);
+  }
+  var img=new Image();
+  img.onload=function(){
+    bctx.drawImage(img,0,0,STRIPW,STRIPH);
+    baseData=bctx.getImageData(0,0,STRIPW,STRIPH);
+    var d=baseData.data;
+    for(var i=0;i<d.length;i+=4){if(d[i+3]<30)continue;
+      var hsv=rgb2hsv(d[i],d[i+1],d[i+2]);
+      if(hsv[0]>70&&hsv[0]<175&&hsv[1]>0.22&&hsv[2]>0.14){accentIdx.push(i);accS.push(hsv[1]);accV.push(hsv[2]);}}
+    recolor(RGB?0:HUE);
+    ready=true;requestAnimationFrame(tick);
+  };
+  img.src='/blaze-run-strip.png';
+  var frame=0,lastF=0,x=20,dir=1,face=1,last=performance.now(),lastHue=0;
   var mode='run',modeUntil=performance.now()+(6000+Math.random()*6000);
   function vw(){return window.innerWidth||1920;}
+  function draw(fr){ctx.clearRect(0,0,size,size);ctx.save();
+    if(face<0){ctx.translate(size,0);ctx.scale(-1,1);}
+    ctx.drawImage(themed,fr*CW,0,CW,CW,0,0,size,size);ctx.restore();}
   function tick(now){
+    if(!ready){requestAnimationFrame(tick);return;}
     var dt=(now-last)/1000;last=now;
+    if(RGB && now-lastHue>90){lastHue=now;recolor((now/22)%360);}
     if(mode==='run'){
-      if(now-lastF>1000/fps){frame=(frame+1)%RUN;lastF=now;blz.style.backgroundPositionX=(-frame*size)+'px';}
+      if(now-lastF>1000/fps){frame=(frame+1)%RUN;lastF=now;}
       x+=dir*speed*dt;var maxx=vw()-size-10;
       if(x>=maxx){x=maxx;dir=-1;face=-1;}
       if(x<=10){x=10;dir=1;face=1;}
-      blz.style.transform='scaleX('+face+')';
+      draw(frame);
       wrap.style.transform='translate('+x+'px,'+(Math.sin(now/120)*3)+'px)';
       if(now>=modeUntil){
-        if(TALK){mode='talk';modeUntil=now+4600;frame=IDLE;blz.style.backgroundPositionX=(-IDLE*size)+'px';
-          blz.style.transform='scaleX(1)';wrap.style.transform='translate('+x+'px,0px)';
+        if(TALK){mode='talk';modeUntil=now+4600;face=1;draw(IDLE);
+          wrap.style.transform='translate('+x+'px,0px)';
           bub.textContent=MSGS[Math.floor(Math.random()*MSGS.length)];bub.classList.add('show');}
         else{modeUntil=now+(6000+Math.random()*6000);}
       }
     }else{
+      draw(IDLE);
       if(now>=modeUntil){bub.classList.remove('show');mode='run';lastF=now;modeUntil=now+(9000+Math.random()*7000);}
     }
     requestAnimationFrame(tick);
   }
-  requestAnimationFrame(tick);
 </script></body></html>`);
 });
 
