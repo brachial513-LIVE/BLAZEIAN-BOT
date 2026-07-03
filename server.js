@@ -61,7 +61,7 @@ async function getAppAccessToken() {
 }
 
 async function refreshAccessToken() {
-  if (!REFRESH_TOKEN) { console.log("No refresh token"); return false; }
+  if (!REFRESH_TOKEN) { console.log("No refresh token — relying on session login instead."); return false; }
   try {
     const res = await axios.post("https://blaze.stream/bapi/oauth2/refresh", {
       clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, refreshToken: REFRESH_TOKEN
@@ -72,7 +72,15 @@ async function refreshAccessToken() {
     saveChannelsNow(); // tokens must survive a restart → write immediately
     return true;
   } catch (e) {
-    console.log("Refresh error:", e.response?.data || e.message);
+    const msg = e.response?.data?.message || e.message;
+    console.log("Refresh error:", msg);
+    // A dead OAuth refresh token used to send the bot into an endless "Unauthorized" loop.
+    // The bot doesn't actually NEED OAuth to work — the email/password session login is enough.
+    // So on an invalid/expired refresh token, stop retrying OAuth and let the session login carry it.
+    if (/invalid refresh token|unauthorized|expired/i.test(msg)) {
+      console.log("↳ OAuth refresh token is dead. Disabling OAuth refresh; session login will handle auth.");
+      REFRESH_TOKEN = null; // prevents further doomed refresh attempts this run
+    }
     return false;
   }
 }
@@ -3057,8 +3065,17 @@ app.listen(PORT, "0.0.0.0", async () => {
   channels = await loadChannelsFromCloud();
   console.log(`Loaded ${Object.keys(channels).length} channel(s)`);
   await getAppAccessToken();
-  await refreshAccessToken(); // start with a fresh user token so subscriptions don't fail with "Unauthorized"
-  if (!SESSION_TOKEN && BOT_EMAIL && BOT_PASSWORD) { console.log("No session token on boot — auto-logging in…"); await loginSession(); }
+  await refreshAccessToken(); // try a fresh user token so subscriptions don't fail with "Unauthorized"
+  // ALWAYS mint a fresh session token on boot when we have bot credentials. A session token loaded
+  // from storage may be stale/dead; trusting it caused an "Unauthorized" reconnect loop. Email login
+  // is the reliable path (it worked even when OAuth refresh was broken), so we prefer it every boot.
+  if (BOT_EMAIL && BOT_PASSWORD) {
+    console.log("Boot: minting a fresh session token via email login…");
+    const ok = await loginSession();
+    if (!ok && !SESSION_TOKEN) console.log("⚠️ Email login failed and no session token available — check BLAZE_BOT_EMAIL/PASSWORD.");
+  } else if (!SESSION_TOKEN) {
+    console.log("⚠️ No session token and no BOT_EMAIL/PASSWORD — bot cannot authenticate.");
+  }
   connectSocket();
 
   // After the socket & subscriptions settle, announce a NEW version to everyone (once).
