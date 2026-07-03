@@ -109,55 +109,151 @@ async function loginSession() {
   }
 }
 
-// JSONBin
-const JSONBIN_URL = `https://api.jsonbin.io/v3/b/${process.env.JSONBIN_BIN_ID}`;
-const JSONBIN_HEADERS = {
-  "Content-Type": "application/json",
-  "X-Master-Key": process.env.JSONBIN_KEY
+// =====================================================================
+// STORAGE — GitHub-backed (replaces JSONBin, which permanently exhausted
+// its one-time free 10k-request quota and CANNOT recover without payment).
+//
+// Why GitHub: authenticated GitHub API = 5000 requests/HOUR, resets hourly,
+// free forever. A bot that saves every few minutes never gets close to that
+// ceiling, so this can't "exhaust" the way JSONBin did. Your state lives in
+// ONE JSON file committed to your own repo — visible, backed-up, versioned.
+//
+// SETUP (Render env vars):
+//   GITHUB_TOKEN   = a fine-grained PAT with "Contents: Read and write" on the repo
+//   GITHUB_REPO    = brachial513-LIVE/BLAZEIAN-BOT   (owner/repo)
+//   GITHUB_BRANCH  = main            (optional, defaults to main)
+//   STATE_PATH     = state.json      (optional, defaults to state.json)
+//
+// USER RESCUE: on first boot the state file won't exist yet. Before starting
+// empty, we try ONE read from the old JSONBin (a single GET — you almost
+// certainly still have read budget) to import your existing channel list, then
+// immediately write it to GitHub. After that, JSONBin is never touched again.
+// =====================================================================
+const GH_TOKEN  = process.env.GITHUB_TOKEN  || "";
+const GH_REPO   = process.env.GITHUB_REPO   || "brachial513-LIVE/BLAZEIAN-BOT";
+const GH_BRANCH = process.env.GITHUB_BRANCH || "main";
+const GH_PATH   = process.env.STATE_PATH    || "state.json";
+const GH_API    = `https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`;
+const GH_HEADERS = {
+  "Authorization": `Bearer ${GH_TOKEN}`,
+  "Accept": "application/vnd.github+json",
+  "X-GitHub-Api-Version": "2022-11-28",
+  "User-Agent": "BlazeianBot"
 };
-async function loadChannelsFromCloud() {
+let _stateSha = null;   // blob SHA of the state file; required by GitHub to overwrite it
+
+// Apply a loaded state object to the in-memory globals. Shared by GitHub load
+// and the one-time JSONBin rescue so both paths behave identically.
+function applyLoadedState(record) {
+  const data = record.channels || {};
+  if (record.auth) {
+    if (record.auth.refreshToken)     REFRESH_TOKEN      = record.auth.refreshToken;
+    if (record.auth.accessToken)      ACCESS_TOKEN       = record.auth.accessToken;
+    if (record.auth.sessionToken)     SESSION_TOKEN      = record.auth.sessionToken;
+    if (record.auth.sessionVisitorId) SESSION_VISITOR_ID = record.auth.sessionVisitorId;
+    console.log("Restored tokens from storage ☁️" + (SESSION_TOKEN ? " (session token present)" : " (NO session token)"));
+  }
+  if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
+  if (Array.isArray(record.friendBots)) friendBots = record.friendBots;
+  if (record.knownPeople && typeof record.knownPeople === "object") knownPeople = { ...KNOWN_PEOPLE_SEED, ...record.knownPeople };
+  if (record.lastAnnouncedVersion) lastAnnouncedVersion = record.lastAnnouncedVersion;
+  return data;
+}
+
+// ONE-TIME rescue: pull the old channel list out of JSONBin so no user has to
+// re-join. Uses a single GET (read budget survives even when writes are gone).
+async function rescueFromJsonBin() {
+  const binId = process.env.JSONBIN_BIN_ID, binKey = process.env.JSONBIN_KEY;
+  if (!binId || !binKey) { console.log("[RESCUE] No JSONBin creds set — skipping import."); return null; }
   try {
-    const res = await axios.get(JSONBIN_URL, { headers: JSONBIN_HEADERS });
-    const record = res.data.record || {};
-    const data = record.channels || record || {};
-    // Restore the latest tokens from the cloud (they survive redeploys this way)
-    if (record.auth) {
-      if (record.auth.refreshToken) REFRESH_TOKEN = record.auth.refreshToken;
-      if (record.auth.accessToken)  ACCESS_TOKEN  = record.auth.accessToken;
-      if (record.auth.sessionToken)     SESSION_TOKEN      = record.auth.sessionToken;
-      if (record.auth.sessionVisitorId) SESSION_VISITOR_ID = record.auth.sessionVisitorId;
-      console.log("Restored tokens from cloud ☁️" + (SESSION_TOKEN ? " (session token present)" : " (NO session token)"));
-    }
-    if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
-    if (Array.isArray(record.friendBots)) friendBots = record.friendBots;
-    if (record.knownPeople && typeof record.knownPeople === "object") knownPeople = { ...KNOWN_PEOPLE_SEED, ...record.knownPeople };
-    if (record.lastAnnouncedVersion) lastAnnouncedVersion = record.lastAnnouncedVersion;
-    console.log("Loaded channels:", Object.keys(data).length, "| blocklist:", blocklist.length);
+    const res = await axios.get(`https://api.jsonbin.io/v3/b/${binId}/latest`, {
+      headers: { "Content-Type": "application/json", "X-Master-Key": binKey, "X-Bin-Meta": "false" },
+      timeout: 15000
+    });
+    const record = res.data.record || res.data || {};
+    const count = Object.keys(record.channels || record || {}).length;
+    console.log(`[RESCUE] ✅ Imported ${count} channel(s) from JSONBin. Migrating to GitHub…`);
+    // normalize: older bins stored channels at the root
+    return record.channels ? record : { channels: record };
+  } catch (e) {
+    console.log("[RESCUE] JSONBin read failed (that's OK, continuing):", e.response?.data?.message || e.message);
+    return null;
+  }
+}
+
+async function loadChannelsFromCloud() {
+  if (!GH_TOKEN) {
+    console.log("⚠️  GITHUB_TOKEN not set — storage disabled. Set it in Render to enable persistence.");
+    return {};
+  }
+  try {
+    const res = await axios.get(`${GH_API}?ref=${GH_BRANCH}`, { headers: GH_HEADERS, timeout: 15000 });
+    _stateSha = res.data.sha;
+    const json = Buffer.from(res.data.content, "base64").toString("utf8");
+    const record = JSON.parse(json || "{}");
+    const data = applyLoadedState(record);
+    console.log("Loaded channels:", Object.keys(data).length, "| blocklist:", blocklist.length, "(from GitHub)");
     return data;
-  } catch(e) {
-    console.log("JSONBin load error:", e.response?.data || e.message);
+  } catch (e) {
+    if (e.response?.status === 404) {
+      // File doesn't exist yet → first run. Try to rescue users from JSONBin.
+      console.log("[STORAGE] No state file yet on GitHub — first run.");
+      const rescued = await rescueFromJsonBin();
+      if (rescued) {
+        const data = applyLoadedState(rescued);
+        channels = data;                 // set globals so the immediate save writes them
+        await saveChannelsToCloud();      // create the file on GitHub with the rescued data
+        console.log("[STORAGE] ✅ Migration complete — users preserved, now on GitHub.");
+        return data;
+      }
+      console.log("[STORAGE] Starting fresh (no JSONBin data to import).");
+      return {};
+    }
+    console.log("GitHub load error:", e.response?.status, e.response?.data?.message || e.message);
     return {};
   }
 }
+
 async function saveChannelsToCloud() {
+  if (!GH_TOKEN) { console.log("Save skipped — no GITHUB_TOKEN."); return; }
+  const body = {
+    channels,
+    blocklist,
+    friendBots,
+    knownPeople,
+    lastAnnouncedVersion,
+    auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
+            sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
+  };
+  const content = Buffer.from(JSON.stringify(body, null, 2), "utf8").toString("base64");
+  const payload = { message: `state update ${new Date().toISOString()}`, content, branch: GH_BRANCH };
+  if (_stateSha) payload.sha = _stateSha;   // overwrite existing file
   try {
-    await axios.put(JSONBIN_URL, {
-      channels,
-      blocklist,
-      friendBots,
-      knownPeople,
-      lastAnnouncedVersion,
-      auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
-              sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
-    }, { headers: JSONBIN_HEADERS });
-    console.log("Channels saved");
-  } catch(e) {
-    console.log("JSONBin save error:", e.response?.data || e.message);
+    const res = await axios.put(GH_API, payload, { headers: GH_HEADERS, timeout: 15000 });
+    _stateSha = res.data.content?.sha || _stateSha;   // remember new blob SHA for next write
+    console.log("Channels saved (GitHub)");
+  } catch (e) {
+    // SHA conflict (409) → our cached SHA is stale; re-fetch it and retry once.
+    if (e.response?.status === 409 || e.response?.status === 422) {
+      try {
+        const g = await axios.get(`${GH_API}?ref=${GH_BRANCH}`, { headers: GH_HEADERS, timeout: 15000 });
+        _stateSha = g.data.sha; payload.sha = _stateSha;
+        const res2 = await axios.put(GH_API, payload, { headers: GH_HEADERS, timeout: 15000 });
+        _stateSha = res2.data.content?.sha || _stateSha;
+        console.log("Channels saved (GitHub, after SHA refresh)");
+        return;
+      } catch (e2) {
+        console.log("GitHub save retry failed:", e2.response?.data?.message || e2.message);
+        return;
+      }
+    }
+    console.log("GitHub save error:", e.response?.status, e.response?.data?.message || e.message);
   }
 }
-// JSONBin free tier is request-limited (this got EXHAUSTED once). Routine saves (chat stats,
-// profiles, greetings) are coalesced into ONE cloud write every 5 MINUTES so we stay far under
-// the quota. Critical data (tokens, new channel joins) uses saveChannelsNow() for an immediate write.
+// GitHub API allows 5000 requests/hour, but each save is also a git commit, so we still coalesce
+// routine saves (chat stats, profiles, greetings) into ONE write every 5 MINUTES to keep the commit
+// history clean and stay far under the ceiling. Critical data (tokens, new channel joins) uses
+// saveChannelsNow() for an immediate write.
 let _saveTimer = null, _savePending = false;
 function saveChannels() {
   _savePending = true;
