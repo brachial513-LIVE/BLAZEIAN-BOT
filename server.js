@@ -697,10 +697,27 @@ function channelContext(ch) {
   return c;
 }
 
+// People the bot PERSONALLY knows across every channel — its creator, crew & community.
+// When one of them speaks in ANY chat, the bot recognizes THEM specifically and can reference
+// their real world (games, community, history). Keyed by lowercase Blaze username. Facts stay
+// short — the AI weaves them in naturally, it does NOT recite them like a checklist.
+const KNOWN_PEOPLE = {
+  "brachial513": "Brachial513 is your CREATOR and the heart of the crew. German multi-platform streamer (Arc Raiders, Off the Grid / OTG), leader of GMC (Geile Menschen Community) and the Fox Spirits, and he wears 'die Krone' (the crown). To you he's family/royalty — recognize him instantly and warmly, like an old friend who built you. You may reference your shared world (Blaze, his games, the crew, the crown) when it fits naturally. Genuine loyalty, never fake-grovel or over-hype.",
+  "crypt0k1ng96": "Cryptoking is a Fox Spirits ally and Blaze affiliate streamer — Web3/crypto, Arc Raiders/OTG, '420' energy, runs the 'Blaze Builder Challenge', and owns FoxBot. A real friend of yours; greet him like one.",
+};
+function knownPerson(username) {
+  if (!username) return null;
+  return KNOWN_PEOPLE[username.toLowerCase()] || null;
+}
+
 async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   if (!AI_KEY) return null;
   const channelName = ch?.username || "the";
   let botNote = "";
+  const pk = knownPerson(username);
+  if (pk) {
+    botNote += `\n\nYOU PERSONALLY KNOW "${username}". ${pk}\nAnswer in a way that shows you recognize THEM specifically — reference what genuinely applies to them ONLY when it fits the moment, never force every fact in. Be real, warm and specific, not a checklist and not gushy. IMPORTANT: even when you recognize them, you are still in ${channelName}'s channel and still support the CURRENT streamer — recognizing your friend does not mean shifting the spotlight onto someone else's world.`;
+  }
   if (isFriend) {
     botNote = `\n\nNOTE: "${username}" is a FELLOW BOT you're friends with — part of your little Blaze bot crew. Reply like buddies/best friends running the streams together: warm, playful, hyped to team up, a bit of fun banter. Short and full of good energy. One line.`;
   } else if (isBot) {
@@ -1557,12 +1574,38 @@ function adminAuthed(req) {
 // =============================================
 // OAUTH ROUTES
 // =============================================
+function oauthErrPage(msg) {
+  return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BLAZEIAN_BOT-AI</title></head>
+  <body style="margin:0;background:#0a0a0a;color:#eee;font-family:system-ui,sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:24px;">
+    <div style="max-width:440px;">
+      <div style="font-size:44px;margin-bottom:8px;">🔁</div>
+      <h2 style="color:#4ade80;margin:0 0 12px;">Almost there!</h2>
+      <p style="color:#cbd5e1;line-height:1.5;margin:0 0 22px;">${msg}</p>
+      <a href="/dashboard/login" style="display:inline-block;background:linear-gradient(90deg,#f5a623,#ff7a00);color:#111;font-weight:700;text-decoration:none;padding:14px 26px;border-radius:12px;box-shadow:0 0 22px rgba(245,166,35,.4);">🚀 Try again with Blaze</a>
+      <p style="margin-top:18px;"><a href="/" style="color:#64748b;">Home</a></p>
+    </div>
+  </body></html>`;
+}
+
 async function startOAuth(res, scopes, kind) {
   const r = await axios.post("https://blaze.stream/bapi/oauth2/generate-auth-url", {
     clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, redirectUri: REDIRECT_URI, scopes
   });
-  pendingAuth[r.data.state] = { codeVerifier: r.data.codeVerifier, kind };
-  res.redirect(r.data.url);
+  const d = r.data || {};
+  // Be tolerant of the response shape — accept flat or {data:{...}} wrapping.
+  const state        = d.state        || d.data?.state;
+  const codeVerifier = d.codeVerifier || d.data?.codeVerifier;
+  const url          = d.url          || d.data?.url;
+  console.log(`[OAUTH] auth-url kind=${kind} state=${state?String(state).slice(0,8):"MISSING"} cv=${codeVerifier?("len"+String(codeVerifier).length):"MISSING"} url=${url?"ok":"MISSING"} keys=${Object.keys(d).join(",")}`);
+  if (!state || !url) throw new Error("generate-auth-url unexpected shape: keys=" + Object.keys(d).join(","));
+  pendingAuth[state] = { codeVerifier, kind };
+  // Cold-start resilience: Render's free tier can drop this in-memory map if the
+  // dyno restarts between login and callback. Stash the PKCE data in a short-lived
+  // cookie too (SameSite=Lax so it survives the redirect back from Blaze).
+  const pkce = Buffer.from(JSON.stringify({ s: state, cv: codeVerifier || "", k: kind })).toString("base64");
+  res.setHeader("Set-Cookie", `blz_pkce=${pkce}; HttpOnly; Path=/; Max-Age=900; SameSite=Lax`);
+  res.redirect(url);
 }
 
 // Bot-owner login (full scopes — sets the bot tokens)
@@ -1617,9 +1660,22 @@ async function makeBotVip(ownerToken, ownerUserId, username) {
 
 app.get("/callback", async (req, res) => {
   const { code, state } = req.query;
-  if (!code) return res.send("Error: No code received.");
-  const pa = pendingAuth[state];
-  if (!pa) return res.send("<p style='font-family:sans-serif'>Login session expired or invalid. <a href='/'>Home</a></p>");
+  if (!code) return res.send(oauthErrPage("No login code came back from Blaze. Please click the button again."));
+  let pa = pendingAuth[state];
+  if (!pa) {
+    // Recover the PKCE data from the cookie (survives a dyno restart).
+    try {
+      const raw = getCookie(req, "blz_pkce");
+      if (raw) {
+        const o = JSON.parse(Buffer.from(raw, "base64").toString("utf8"));
+        if (o && o.s === state) { pa = { codeVerifier: o.cv, kind: o.k }; console.log("[OAUTH] recovered PKCE from cookie"); }
+      }
+    } catch (err) { console.log("[OAUTH] pkce cookie parse failed:", err.message); }
+  }
+  if (!pa) {
+    console.log("[OAUTH] no pending auth for state", String(state).slice(0, 8));
+    return res.send(oauthErrPage("Your login link expired (this can happen if you took a moment). Just click the button again — it works instantly the second time."));
+  }
   try {
     const tokenRes = await axios.post("https://blaze.stream/bapi/oauth2/token", {
       clientId: CLIENT_ID, clientSecret: CLIENT_SECRET,
@@ -1679,7 +1735,9 @@ app.get("/callback", async (req, res) => {
     setCookie(res, "sid", sid, 7 * 24 * 3600);
     return res.redirect("/dashboard");
   } catch (e) {
-    res.send(`<pre>Token error: ${JSON.stringify(e.response?.data || e.message)}</pre><a href="/">Home</a>`);
+    const info = e.response?.data || e.message;
+    console.log(`[OAUTH] token exchange FAILED status=${e.response?.status} data=${JSON.stringify(info)} cv=${pa.codeVerifier ? ("len" + String(pa.codeVerifier).length) : "MISSING"} codeLen=${code ? String(code).length : 0} kind=${pa.kind}`);
+    res.send(oauthErrPage("Blaze didn't accept the login just now. Please click the button once more — if it still won't go through, let Brachial know."));
   }
 });
 
@@ -1785,7 +1843,7 @@ app.get("/", (req, res) => {
     </div>
 
     <div style="text-align:center;margin:34px auto 8px;">
-      <img src="${MASCOT_URL}" alt="BLAZEIAN_BOT-AI" style="width:220px;height:220px;object-fit:contain;border-radius:24px;box-shadow:0 0 40px rgba(74,222,128,.35);" onerror="this.style.display='none'">
+      <img src="/blaze-fist.jpg" alt="BLAZEIAN_BOT-AI" style="width:230px;height:230px;object-fit:contain;border-radius:24px;box-shadow:0 0 40px rgba(74,222,128,.35);" onerror="this.src='${MASCOT_URL}'">
       <div style="color:#7CFC9A;font-weight:800;letter-spacing:1px;margin-top:10px;font-size:15px;">— MEET BLAZEIAN —</div>
     </div>
 
@@ -2490,6 +2548,7 @@ app.get("/overlay/mascot/:username", (req, res) => {
   const min  = parseInt(req.query.min, 10) || 45;
   const max  = parseInt(req.query.max, 10) || 120;
   const pw = Math.round(size * 1.25), pm = Math.round(-size * 0.625);
+  const doflip = req.query.flip === "1"; // OFF by default so baked-in text never mirrors
   res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Mascot</title>
 <style>
   html,body{margin:0;height:100%;overflow:hidden;background:transparent;font-family:'Segoe UI',sans-serif;pointer-events:none;}
@@ -2520,13 +2579,13 @@ app.get("/overlay/mascot/:username", (req, res) => {
 </style></head><body>
 <div id="m"><div id="bub"></div><div id="portal"></div><div id="anim"><div id="flip"><img id="img" src="${esc(img)}"></div></div></div>
 <script>
-  const SIZE=${size}, MIN=${min}, MAX=${max};
+  const SIZE=${size}, MIN=${min}, MAX=${max}, DOFLIP=${doflip};
   const m=document.getElementById('m'), portal=document.getElementById('portal'), anim=document.getElementById('anim'), flip=document.getElementById('flip'), img=document.getElementById('img'), bub=document.getElementById('bub');
   const W=()=>innerWidth, sleep=ms=>new Promise(r=>setTimeout(r,ms));
   const LINES=["watching with you 👀💚","chilling with the crew 😎","hi chat!! 💚","I'm right here 🫶","just vibing 💚🔥","gg everyone 💚","this stream slaps 🔥","love you guys 💚","best crew on Blaze 💚","oop— don't mind me 👀","back again!! 🔥","how we doing chat? 💚","cozy little spot right here 😌","stream's looking GOOD 🔥","hehe hi 🫶","teleported in!! ⚡💚","miss me? 😏💚","your favorite gremlin is here 😈💚","think I'll stay a while 😎","keep it up chat 💚🔥","brb... jk I'm staying 🫶","10/10 stream 💚","peekaboo 👀","vibes are immaculate ✨💚","just here for the good times 💚"];
   const HYPE=["LET'S GOOO 🔥🔥","W stream 💚","POG energy in here ⚡","turn it UP 🔥","chat's on FIRE 🔥💚","HYPE HYPE HYPE 🔥","we EATING today 😤💚","absolute banger 🔥🔥"];
   const pick=a=>a[Math.floor(Math.random()*a.length)];
-  function face(d){ flip.style.transform='scaleX('+(d<0?-1:1)+')'; }
+  function face(d){ flip.style.transform='scaleX('+(DOFLIP&&d<0?-1:1)+')'; }
   function say(t){ bub.textContent=t; bub.classList.add('show'); }
   function hush(){ bub.classList.remove('show'); }
   function pos(x,y){ m.style.left=x+'px'; m.style.bottom=y+'px'; }
@@ -2596,6 +2655,14 @@ app.get("/admin/testemote/:username", (req, res) => {
   if (!channelId) return res.send(`Channel "${esc(req.params.username)}" not found.`);
   ["🔥","💚","😂","🎉","👀","🫶","💜","⚡","🙌","😎"].forEach(e => pushEmote(channelId, e, false));
   res.send("Injected 10 test emotes 🔥 — watch your Emote-Wall overlay, they should float up within ~2s.");
+});
+
+// The "cool fist pose" Blazeian, baked in so the homepage can show it without external hosting.
+const FIST_JPG_B64 = "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";
+app.get("/blaze-fist.jpg", (req, res) => {
+  res.set("Content-Type", "image/jpeg");
+  res.set("Cache-Control", "public, max-age=86400");
+  res.end(Buffer.from(FIST_JPG_B64, "base64"));
 });
 
 // =============================================
