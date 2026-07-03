@@ -2795,6 +2795,7 @@ app.get("/overlay/run/:username", (req, res) => {
   const fps   = Math.max(4,  Math.min(24,  parseInt(req.query.fps)   || 12));
   const talk  = req.query.talk === "0" ? false : true;
   const portalOn = req.query.portal === "0" ? false : true;
+  const rev = req.query.rev === "1"; // reverse run-cycle order (fixes "moonwalk"/backwards look)
   const CELLS = 11, RUN = 6, CW = 200;
   const THEMES = { green:110, lime:90, blue:210, cyan:190, teal:170, purple:278, magenta:300, pink:325, red:2, orange:32, gold:45, yellow:55 };
   let hue = 110, rgb = false;
@@ -2836,7 +2837,7 @@ app.get("/overlay/run/:username", (req, res) => {
 <div id="portal"><div id="swirl"></div></div>
 <div id="wrap"><canvas id="c" width="${size}" height="${size}"></canvas><div id="bubble"></div></div>
 <script>
-  var size=${size},fps=${fps},speed=${speed},TALK=${talk},PORTAL=${portalOn},CELLS=${CELLS},RUN=${RUN},CW=${CW};
+  var size=${size},fps=${fps},speed=${speed},TALK=${talk},PORTAL=${portalOn},REV=${rev},CELLS=${CELLS},RUN=${RUN},CW=${CW};
   var IDLE=6,JUMP=7,CHEER=8,THUMB=9,HEART=10,pW=${pW},pH=${pH},portalTopY=6;
   var HUE=${hue},RGB=${rgb},MSGS=${JSON.stringify(msgs)},USER=${JSON.stringify(req.params.username)};
   var cv=document.getElementById('c'),ctx=cv.getContext('2d'),wrap=document.getElementById('wrap'),bub=document.getElementById('bubble');
@@ -2901,7 +2902,7 @@ app.get("/overlay/run/:username", (req, res) => {
     }
     if(pendingReact){var ri=reactInfo(pendingReact.type,pendingReact.name);pendingReact=null;startAct(ri.f,ri.m,ri.d,false);}
     if(mode==='run'){
-      if(now-lastF>1000/fps){frame=(frame+1)%RUN;lastF=now;}
+      if(now-lastF>1000/fps){frame=REV?((frame-1+RUN)%RUN):((frame+1)%RUN);lastF=now;}
       x+=dir*speed*dt;var maxx=vw()-size-10;
       if(x>=maxx){x=maxx;dir=-1;face=-1;}if(x<=10){x=10;dir=1;face=1;}
       draw(frame);wrap.style.transform='translate('+x+'px,'+(groundY()+Math.sin(now/120)*3)+'px)';
