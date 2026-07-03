@@ -344,7 +344,7 @@
       "stats": {
         "totalVotes": 319,
         "totalSubs": 0,
-        "totalChatMessages": 218,
+        "totalChatMessages": 222,
         "totalStreamMinutes": 564,
         "emotes": {
           "📊": 3,
@@ -481,18 +481,6 @@
       },
       "chatMemory": [
         {
-          "user": "foxbotai",
-          "msg": "Thank you @Thank for voting with 100 votes! Fox Spirits appreciates the support. +300 FoxCoins. Balance: 858 FoxCoins."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "Thank you @Yooooo, for voting with 100 votes! Fox Spirits appreciates the support. +300 FoxCoins. Balance: 300 FoxCoins. Lucky Bonus: @Yooooo, found a Golden Fox Chest and earned +50 FoxCoins. Balance: 350 FoxCoins."
-        },
-        {
-          "user": "agent00zani",
-          "msg": "🔥🔥🔥🔥🔥🔥"
-        },
-        {
           "user": "brachial513",
           "msg": "😍😍"
         },
@@ -519,6 +507,18 @@
         {
           "user": "foxbotai",
           "msg": "Thank you @Thank for voting with 83 votes! Fox Spirits appreciates the support. +249 FoxCoins. Balance: 1140 FoxCoins."
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai were you dead today ?"
+        },
+        {
+          "user": "brachial513",
+          "msg": "ok nice, better answer"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
         }
       ],
       "customCommands": {},
@@ -651,14 +651,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 719,
+        "totalVotes": 721,
         "totalSubs": 0,
-        "totalChatMessages": 215,
+        "totalChatMessages": 217,
         "totalStreamMinutes": 755,
         "emotes": {
           "❤": 19,
           "🙌": 4,
-          "🗳": 30,
+          "🗳": 33,
           "📴": 8,
           "👋": 8,
           "🔴": 7,
@@ -716,14 +716,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @silverbolt99 is raiding with a party of 2! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "silverbolt99",
-          "msg": "Silver Nation Raidddd"
-        },
-        {
           "user": "agent00zani",
           "msg": "ty ty for the raid"
         },
@@ -754,6 +746,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @zsoltech just gave 83 vote(s) (total: 83)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @zsoltech just gave 2 vote(s) (total: 85)! Thank you!! 🗳️"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty soo much for the votes"
         }
       ],
       "customCommands": {},
@@ -761,7 +761,9 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": ""
+      "streamTitle": "",
+      "profile": "**agent00zani** - Blaze Livestream Channel\n\nA chill, welcoming space for ARC Raiders enthusiasts, where community members like @silverbolt99 drop by for \"Silver Nation Raids\" and streamer love. Expect doggo talk, shoutouts, and heartfelt appreciation for votes and support. Let's get this raid on!",
+      "_profileAtCount": 217
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
@@ -1412,26 +1414,22 @@
       "stats": {
         "totalVotes": 22,
         "totalSubs": 0,
-        "totalChatMessages": 7,
+        "totalChatMessages": 13,
         "totalStreamMinutes": 0,
         "emotes": {
-          "🔥": 3,
-          "🥰": 3
+          "🔥": 6,
+          "🥰": 3,
+          "😘": 1,
+          "🦊": 3
         },
         "emoteNames": {
           "🔥": "🔥",
-          "🥰": "🥰"
+          "🥰": "🥰",
+          "😘": "😘",
+          "🦊": "🦊"
         }
       },
       "chatMemory": [
-        {
-          "user": "octo",
-          "msg": "blazin it!"
-        },
-        {
-          "user": "brachial513",
-          "msg": "YEAHHH BLAZEIAN IS BAAACK"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "🔥🔥🔥"
@@ -1447,6 +1445,30 @@
         {
           "user": "agent00zani",
           "msg": "🥰🥰🥰"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "no problem broskiiiii"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "LFG 😘"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "🔥🦊🔥🦊🔥🦊"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "LFG"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "how was your day today @zsoltech"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "@blazeian_bot_ai whats up"
         }
       ],
       "customCommands": {},
@@ -1454,7 +1476,8 @@
       "streamEnd": "",
       "timedMessages": [],
       "greeted": true,
-      "locked": false
+      "locked": false,
+      "streamTitle": ""
     },
     "ba279e65-999c-4da7-b674-08b540222e0f": {
       "username": "nadietv",
