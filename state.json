@@ -344,11 +344,11 @@
       "stats": {
         "totalVotes": 86,
         "totalSubs": 0,
-        "totalChatMessages": 192,
+        "totalChatMessages": 193,
         "totalStreamMinutes": 564,
         "emotes": {
           "📊": 1,
-          "🔥": 27,
+          "🔥": 31,
           "🤣": 7,
           "💚": 10,
           "❤": 1,
@@ -480,10 +480,6 @@
       "chatMemory": [
         {
           "user": "foxbotai",
-          "msg": "🏆 Elite Fox Legend Rewards: 💎📢 sponsor 10000FC | 🎥👑 producer 15000FC | 🎤🎬 streamsegment 20000FC | 🌙🌟 vipnight 25000FC | 🏆🦊🔥 foxlegend 50000FC | 🎁 Redeem: !redeem name"
-        },
-        {
-          "user": "foxbotai",
           "msg": "💧🧊 REDEEMED! @crypt0k1ng96 claimed Hydration Check for 50 FoxCoins! ✨ Pending streamer approval 🧡 | Chat reminds streamer to drink water."
         },
         {
@@ -517,6 +513,10 @@
         {
           "user": "foxbotai",
           "msg": "⭐ VIP in chat! Much love to @blazeian_bot_ai."
+        },
+        {
+          "user": "agent00zani",
+          "msg": "🔥🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -651,7 +651,7 @@
       "stats": {
         "totalVotes": 566,
         "totalSubs": 0,
-        "totalChatMessages": 193,
+        "totalChatMessages": 194,
         "totalStreamMinutes": 755,
         "emotes": {
           "❤": 18,
@@ -666,7 +666,7 @@
           "💎": 2,
           "🎁": 2,
           "📢": 8,
-          "🔥": 33,
+          "🔥": 36,
           "😘": 2,
           "🥺": 1,
           "🥷": 3,
@@ -679,7 +679,8 @@
           "🌫": 7,
           "👍": 2,
           "🥰": 5,
-          "♥": 1
+          "♥": 1,
+          "🦊": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -707,14 +708,11 @@
           "🌫": "🌫",
           "👍": "👍",
           "🥰": "🥰",
-          "♥": "♥"
+          "♥": "♥",
+          "🦊": "🦊"
         }
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "you too kind bro"
-        },
         {
           "user": "briggsy",
           "msg": "Go go Zani"
@@ -750,6 +748,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "🔥🦊🔥🦊🔥🦊"
         }
       ],
       "customCommands": {},
@@ -1069,7 +1071,7 @@
       "stats": {
         "totalVotes": 24,
         "totalSubs": 2,
-        "totalChatMessages": 168,
+        "totalChatMessages": 170,
         "totalStreamMinutes": 424,
         "emotes": {
           "✨": 1,
@@ -1147,14 +1149,6 @@
       "chatMemory": [
         {
           "user": "cachebot",
-          "msg": "🟥 [HACK FAILED]: @agent00zani lost decryption key sync inside the firewall."
-        },
-        {
-          "user": "slothsm",
-          "msg": "hello"
-        },
-        {
-          "user": "cachebot",
           "msg": "👑 [SUB ALERT]: HUGE hype! @A user just locked in a Tier 1 sub for month 1! Thank you for keeping the dream alive!"
         },
         {
@@ -1184,6 +1178,14 @@
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 3 votes, @tyler! Your support is truly appreciated! 🙌"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "i need my glasses"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "brb"
         }
       ],
       "customCommands": {},
@@ -1408,12 +1410,17 @@
       "stats": {
         "totalVotes": 12,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {}
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "octo",
+          "msg": "blazin it!"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -1489,7 +1496,7 @@
   "auth": {
     "accessToken": "8c3b9ef9cc410b45cb85e66b64a48d20",
     "refreshToken": null,
-    "sessionToken": "8242b435132cd1e9041ccdf0b5aef58f",
+    "sessionToken": "af281970ba78c2dffdbf86140f0a3b09",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
