@@ -2797,6 +2797,7 @@ app.get("/overlay/run/:username", (req, res) => {
   const portalOn = req.query.portal === "0" ? false : true;
   const rev = req.query.rev === "1"; // reverse run-cycle order
   const stride = Math.max(0.12, Math.min(0.55, parseFloat(req.query.stride) || 0.26)); // legs locked to ground distance (kills moonwalk)
+  const mirror = req.query.mirror === "1"; // flip base facing if the run frames face the other way
   const CELLS = 11, RUN = 6, CW = 200;
   const THEMES = { green:110, lime:90, blue:210, cyan:190, teal:170, purple:278, magenta:300, pink:325, red:2, orange:32, gold:45, yellow:55 };
   let hue = 110, rgb = false;
@@ -2838,8 +2839,9 @@ app.get("/overlay/run/:username", (req, res) => {
 <div id="portal"><div id="swirl"></div></div>
 <div id="wrap"><canvas id="c" width="${size}" height="${size}"></canvas><div id="bubble"></div></div>
 <script>
-  var size=${size},fps=${fps},speed=${speed},TALK=${talk},PORTAL=${portalOn},REV=${rev},CELLS=${CELLS},RUN=${RUN},CW=${CW};
-  var STRIDE=size*${stride},distAcc=0;
+  var size=${size},fps=${fps},speed=${speed},TALK=${talk},PORTAL=${portalOn},REV=${rev},MIRROR=${mirror},CELLS=${CELLS},RUN=${RUN},CW=${CW};
+  var STRIDE=size*${stride},distAcc=0,turnUntil=0,turnDir=1;
+  function faceFor(d){var f=(d>0?-1:1);return MIRROR?-f:f;}
   var IDLE=6,JUMP=7,CHEER=8,THUMB=9,HEART=10,pW=${pW},pH=${pH},portalTopY=6;
   var HUE=${hue},RGB=${rgb},MSGS=${JSON.stringify(msgs)},USER=${JSON.stringify(req.params.username)};
   var cv=document.getElementById('c'),ctx=cv.getContext('2d'),wrap=document.getElementById('wrap'),bub=document.getElementById('bubble');
@@ -2903,11 +2905,19 @@ app.get("/overlay/run/:username", (req, res) => {
       requestAnimationFrame(tick);return;
     }
     if(pendingReact){var ri=reactInfo(pendingReact.type,pendingReact.name);pendingReact=null;startAct(ri.f,ri.m,ri.d,false);}
+    if(mode==='turn'){
+      draw(IDLE);wrap.style.transform='translate('+x+'px,'+groundY()+'px)';
+      if(now>=turnUntil){dir=turnDir;face=faceFor(dir);mode='run';lastF=now;distAcc=0;}
+      requestAnimationFrame(tick);return;
+    }
     if(mode==='run'){
       var mv=dir*speed*dt;x+=mv;distAcc+=Math.abs(mv);
       if(distAcc>=STRIDE){frame=REV?((frame-1+RUN)%RUN):((frame+1)%RUN);distAcc-=STRIDE;}
       var maxx=vw()-size-10;
-      if(x>=maxx){x=maxx;dir=-1;face=-1;}if(x<=10){x=10;dir=1;face=1;}
+      // At an edge: stop, turn to FRONT view, then set the new direction (your idea).
+      if(x>=maxx){x=maxx;mode='turn';turnUntil=now+360;turnDir=-1;bub.classList.remove('show');requestAnimationFrame(tick);return;}
+      if(x<=10){x=10;mode='turn';turnUntil=now+360;turnDir=1;bub.classList.remove('show');requestAnimationFrame(tick);return;}
+      face=faceFor(dir); // set facing EVERY frame so it's always correct (was only set at edges before)
       draw(frame);wrap.style.transform='translate('+x+'px,'+(groundY()+Math.sin(now/120)*3)+'px)';
       if(PORTAL&&now>=nextPortal){startPortal();requestAnimationFrame(tick);return;}
       if(now>=nextAct){var roll=Math.random();
