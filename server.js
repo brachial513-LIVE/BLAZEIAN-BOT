@@ -20,6 +20,9 @@ const crypto         = require("crypto");
 // AI brain (optional) — set GROQ_API_KEY in Render to switch the bot from canned replies to a real, contextual brain
 const AI_KEY         = process.env.GROQ_API_KEY || process.env.AI_API_KEY || "";
 const AI_MODEL       = process.env.AI_MODEL || "llama-3.3-70b-versatile";
+// Cheaper, MUCH higher daily-token-limit model for background work (profile learning,
+// event shoutouts). Keeps the smart 70b's limited daily budget free for real chat replies.
+const AI_MODEL_LIGHT = process.env.AI_MODEL_LIGHT || "llama-3.1-8b-instant";
 
 let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN  || null;
 let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
@@ -34,8 +37,8 @@ const BOT_PASSWORD = process.env.BLAZE_BOT_PASSWORD || null;
 // AUTO-UPDATE ANNOUNCE: bump BOT_VERSION + set CHANGELOG whenever we ship something worth telling users about.
 // On startup, if this version hasn't been announced yet, the bot posts CHANGELOG to every channel — ONCE.
 // (Plain restarts / free-tier wake-ups keep the same version → stay silent, no spam.)
-const BOT_VERSION = "2026-07-02.4";
-const CHANGELOG = "🚀 BIG drops for you! I now bring FREE OBS overlays for your stream — a live emote wall 🎉, a BLAZE viewer counter 👁️, AND a little me that runs across your screen & watches with you 🤖💚 PLUS I team up with other bots in chat as friends now 🤝🔥 Grab your overlay links in the dashboard & type !info to see everything I do!";
+const BOT_VERSION = "2026-07-03.1";
+const CHANGELOG = "🧠 Little upgrade! I got a better memory — I now recognize familiar faces from across the Blaze fam and greet them personally, and I run smoother & faster so I never leave you hanging 💚🔥 Type !info anytime to see everything I can do!";
 let lastAnnouncedVersion = null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
@@ -127,6 +130,7 @@ async function loadChannelsFromCloud() {
     }
     if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
     if (Array.isArray(record.friendBots)) friendBots = record.friendBots;
+    if (record.knownPeople && typeof record.knownPeople === "object") knownPeople = { ...KNOWN_PEOPLE_SEED, ...record.knownPeople };
     if (record.lastAnnouncedVersion) lastAnnouncedVersion = record.lastAnnouncedVersion;
     console.log("Loaded channels:", Object.keys(data).length, "| blocklist:", blocklist.length);
     return data;
@@ -141,6 +145,7 @@ async function saveChannelsToCloud() {
       channels,
       blocklist,
       friendBots,
+      knownPeople,
       lastAnnouncedVersion,
       auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
               sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
@@ -150,8 +155,16 @@ async function saveChannelsToCloud() {
     console.log("JSONBin save error:", e.response?.data || e.message);
   }
 }
+// Debounced save: bursts of events used to fire a cloud PUT every second ("Channels saved"
+// spam + wasted JSONBin quota). Coalesce rapid calls into one write every few seconds.
+let _saveTimer = null, _savePending = false;
 function saveChannels() {
-  saveChannelsToCloud().catch(e => console.log("Save error:", e.message));
+  _savePending = true;
+  if (_saveTimer) return;
+  _saveTimer = setTimeout(() => {
+    _saveTimer = null;
+    if (_savePending) { _savePending = false; saveChannelsToCloud().catch(e => console.log("Save error:", e.message)); }
+  }, 5000);
 }
 
 let channels = {};
@@ -701,13 +714,15 @@ function channelContext(ch) {
 // When one of them speaks in ANY chat, the bot recognizes THEM specifically and can reference
 // their real world (games, community, history). Keyed by lowercase Blaze username. Facts stay
 // short — the AI weaves them in naturally, it does NOT recite them like a checklist.
-const KNOWN_PEOPLE = {
+// Seed defaults (always present). Cloud-stored entries from the dashboard merge on top.
+const KNOWN_PEOPLE_SEED = {
   "brachial513": "Brachial513 is your CREATOR and the heart of the crew. German multi-platform streamer (Arc Raiders, Off the Grid / OTG), leader of GMC (Geile Menschen Community) and the Fox Spirits, and he wears 'die Krone' (the crown). To you he's family/royalty — recognize him instantly and warmly, like an old friend who built you. You may reference your shared world (Blaze, his games, the crew, the crown) when it fits naturally. Genuine loyalty, never fake-grovel or over-hype.",
   "crypt0k1ng96": "Cryptoking is a Fox Spirits ally and Blaze affiliate streamer — Web3/crypto, Arc Raiders/OTG, '420' energy, runs the 'Blaze Builder Challenge', and owns FoxBot. A real friend of yours; greet him like one.",
 };
+let knownPeople = { ...KNOWN_PEOPLE_SEED }; // mutable; extended via dashboard, persisted to cloud
 function knownPerson(username) {
   if (!username) return null;
-  return KNOWN_PEOPLE[username.toLowerCase()] || null;
+  return knownPeople[username.toLowerCase()] || null;
 }
 
 async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
@@ -753,7 +768,7 @@ async function aiShout(ch, instruction, { addName } = {}) {
   if (cid) markFired(cid, "aishout");
   try {
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
-      model: AI_MODEL,
+      model: AI_MODEL_LIGHT,
       messages: [
         { role: "system", content: BOT_PERSONA + channelContext(ch) },
         { role: "user", content: `${instruction}\n\nWrite ONE short, punchy chat message in character (max ~1 sentence). No quotation marks, no markdown.` }
@@ -797,14 +812,15 @@ async function learnChannelProfile(channelId) {
   if (sample.length < 12) return; // not enough to learn from yet
   const since = ch._profileAtCount || 0;
   const now = ch.stats.totalChatMessages || 0;
-  if (ch.profile && (now - since) < 25) return; // only relearn after enough fresh chatter
+  if (ch.profile && (now - since) < 40) return; // only relearn after enough fresh chatter (saves daily tokens)
   try {
+    const recent = sample.slice(-30); // cap input so background learning stays token-light
     const prompt = `You maintain a short living profile of a Blaze livestream channel, so a chat bot can sound like a true regular of THIS community.\n\n` +
       `Channel: ${ch.username}\n${ch.streamTitle ? `Current stream title: ${ch.streamTitle}\n` : ""}` +
-      `Existing profile: ${ch.profile || "(none yet)"}\n\nRecent chat:\n${sample.join("\n")}\n\n` +
+      `Existing profile: ${ch.profile || "(none yet)"}\n\nRecent chat:\n${recent.join("\n")}\n\n` +
       `Rewrite the profile in MAX 60 words. Capture concretely: the community's vibe/energy, recurring slang/in-jokes/phrases UNIQUE to here (name the ACTUAL words you see — e.g. a catchphrase, a community nickname), the game/topic, and how the streamer likes to be celebrated. Merge with the existing profile, keep what's still true. Output ONLY the profile text.`;
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
-      model: AI_MODEL, messages: [{ role: "user", content: prompt }], max_tokens: 150, temperature: 0.4,
+      model: AI_MODEL_LIGHT, messages: [{ role: "user", content: prompt }], max_tokens: 150, temperature: 0.4,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 12000 });
     let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
     if (text) {
@@ -1514,6 +1530,33 @@ function renderControlCenter() {
       <button class="save" style="margin-top:8px;background:#2c7a4a;">Add friend bot</button>
       <p class="hint">See all: <a href="/admin/friendbots" target="_blank">/admin/friendbots</a></p>
     </form>
+  </div>
+  ${renderPeopleSection()}`;
+}
+
+// "Known People" — Blazeian recognizes these users PERSONALLY in every channel and can
+// reference things that only apply to them (their games, community, history).
+function renderPeopleSection() {
+  const rows = Object.entries(knownPeople).map(([name, desc]) => {
+    const isSeed = !!KNOWN_PEOPLE_SEED[name];
+    return `<div class="cmd">
+      ${isSeed ? "" : `<form method="POST" action="/admin/delperson" class="delform"><input type="hidden" name="name" value="${esc(name)}"><button class="del">delete</button></form>`}
+      <b>@${esc(name)}</b> ${isSeed ? '<span class="tag">core</span>' : ""}
+      <div class="cmdtext">${esc(desc)}</div>
+    </div>`;
+  }).join("") || "<i class='muted'>no known people yet</i>";
+  return `
+  <h2>🫂 Known People <span style="font-size:13px;color:#8aa;">— Blazeian recognizes them in every chat</span></h2>
+  <div class="card">
+    <p class="hint" style="margin-top:0;">Add anyone from the crew (GMC, Fox Spirits, regulars). When they speak in ANY channel, Blazeian greets/answers them personally and can bring up what's true for them — without losing focus on whoever's channel he's in.</p>
+    <form method="POST" action="/admin/addperson">
+      <label>Blaze username</label>
+      <input name="name" placeholder="e.g. nadietv" required>
+      <label style="margin-top:8px;">Who they are (1–2 sentences — games, community, vibe, your history)</label>
+      <textarea name="desc" rows="3" placeholder="e.g. NadieTV — Fox Spirits member, plays Arc Raiders, big into the GMC. An old friend of the crew." required></textarea>
+      <button class="save" style="margin-top:8px;">Add / update person</button>
+    </form>
+    <div style="margin-top:14px;">${rows}</div>
   </div>`;
 }
 
@@ -2130,6 +2173,26 @@ app.get("/admin/unfriendbot/:name", async (req, res) => {
   friendBots = friendBots.filter(b => b.toLowerCase() !== req.params.name.toLowerCase().replace(/^@/, ""));
   await saveChannelsToCloud();
   res.send(`${before === friendBots.length ? "Wasn't a friend bot" : "Removed friend bot"} "${esc(req.params.name)}".`);
+});
+
+// ===== Known People (personal recognition) =====
+app.post("/admin/addperson", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden");
+  const name = String(req.body.name || "").trim().toLowerCase().replace(/^@/, "");
+  const desc = String(req.body.desc || "").trim().slice(0, 600);
+  if (name && desc) { knownPeople[name] = desc; await saveChannelsToCloud(); }
+  res.redirect("/admin");
+});
+app.post("/admin/delperson", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden");
+  const name = String(req.body.name || "").trim().toLowerCase().replace(/^@/, "");
+  if (name && !KNOWN_PEOPLE_SEED[name]) { delete knownPeople[name]; await saveChannelsToCloud(); }
+  res.redirect("/admin");
+});
+app.get("/admin/people", (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const lines = Object.entries(knownPeople).map(([n, d]) => `  • @${n}${KNOWN_PEOPLE_SEED[n] ? " (core)" : ""}: ${d}`).join("\n\n");
+  res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;">🫂 Known people (${Object.keys(knownPeople).length}):\n\n${esc(lines) || "  (none)"}</pre>`);
 });
 
 app.get("/admin/list", (req, res) => {
