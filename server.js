@@ -1139,12 +1139,41 @@ const ALL_EVENT_TYPES = [
   "channel.raid", "stream.online", "stream.offline"
 ];
 
-function subscribeAllChannels() {
-  ["channel.chat.message", "channel.follow", "channel.vote"].forEach(t => subscribe(t, BOT_CHANNEL_ID));
+async function subscribeAllChannels() {
+  // OWN channel first — the bot must always hear its home chat.
+  for (const t of ["channel.chat.message", "channel.follow", "channel.vote"]) {
+    await subscribe(t, BOT_CHANNEL_ID);
+  }
   const joined = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
-  if (joined.length > 0) {
-    console.log(`Auto-rejoining ${joined.length} channel(s)...`);
-    joined.forEach(channelId => ALL_EVENT_TYPES.forEach(t => subscribe(t, channelId)));
+  if (joined.length === 0) return;
+  console.log(`Auto-rejoining ${joined.length} channel(s)...`);
+  // STAGGERED, NOT BURST: firing ~160 subscribes at once tripped Blaze's rate limiting and
+  // random channels silently lost their chat subscription (bot went deaf there). Sequential
+  // with a small gap keeps every request under the radar. ~250ms × 160 ≈ 40s total — fine.
+  const report = { ok: 0, fail: [] };
+  for (const channelId of joined) {
+    let channelOk = true;
+    for (const t of ALL_EVENT_TYPES) {
+      const ok = await subscribe(t, channelId);
+      if (!ok && t === "channel.chat.message") channelOk = false; // chat is the critical one
+      await sleep(250);
+    }
+    if (channelOk) report.ok++;
+    else report.fail.push(channels[channelId]?.username || channelId);
+  }
+  console.log(`✅ Rejoin complete: ${report.ok}/${joined.length} channels fully subscribed` +
+    (report.fail.length ? ` | ⚠️ chat subscribe FAILED for: ${report.fail.join(", ")}` : ""));
+  // One self-heal pass for the failures after a cool-down.
+  if (report.fail.length) {
+    console.log(`Retrying failed channels in 60s…`);
+    setTimeout(async () => {
+      for (const channelId of joined) {
+        const name = channels[channelId]?.username || channelId;
+        if (!report.fail.includes(name)) continue;
+        for (const t of ALL_EVENT_TYPES) { await subscribe(t, channelId); await sleep(400); }
+        console.log(`Retried subscriptions for ${name}`);
+      }
+    }, 60 * 1000);
   }
 }
 
