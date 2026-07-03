@@ -1701,6 +1701,42 @@ async function makeBotVip(ownerToken, ownerUserId, username) {
   return ok;
 }
 
+// Blaze 500s "Validation error" on the token exchange even though our code + PKCE verifier
+// are correct — so the request SHAPE it wants differs from what worked for client_credentials.
+// We can't test Blaze from the host (egress blocked), so probe the likely shapes in order until
+// one returns a token, and log exactly which one wins. The code is single-use, but a 500 fires
+// on validation (before consumption), so trying the next shape on the same code is safe.
+async function exchangeCodeForToken(code, codeVerifier) {
+  const REDIR = REDIRECT_URI;
+  const variants = [
+    { name: "camel+grant",   body: { clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, code, codeVerifier, redirectUri: REDIR, grantType: "authorization_code" } },
+    { name: "camel-nogrant", body: { clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, code, codeVerifier, redirectUri: REDIR } },
+    { name: "no-secret",     body: { clientId: CLIENT_ID, code, codeVerifier, redirectUri: REDIR, grantType: "authorization_code" } },
+    { name: "snake",         body: { client_id: CLIENT_ID, client_secret: CLIENT_SECRET, code, code_verifier: codeVerifier, redirect_uri: REDIR, grant_type: "authorization_code" } },
+    { name: "camelval",      body: { clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, code, codeVerifier, redirectUri: REDIR, grantType: "authorizationCode" } },
+    { name: "no-redirect",   body: { clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, code, codeVerifier, grantType: "authorization_code" } },
+    { name: "secret-noverif",body: { clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, code, redirectUri: REDIR, grantType: "authorization_code" } },
+    { name: "code-only",     body: { clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, code } },
+  ];
+  let lastErr;
+  for (const v of variants) {
+    try {
+      const r = await axios.post("https://blaze.stream/bapi/oauth2/token", v.body);
+      const at = r.data?.accessToken || r.data?.access_token;
+      const rt = r.data?.refreshToken || r.data?.refresh_token;
+      if (at) {
+        console.log(`[OAUTH] token exchange OK via variant=${v.name} ✅`);
+        return { accessToken: at, refreshToken: rt };
+      }
+      console.log(`[OAUTH] variant=${v.name} no token in body: ${JSON.stringify(r.data).slice(0, 160)}`);
+    } catch (e) {
+      lastErr = e;
+      console.log(`[OAUTH] variant=${v.name} status=${e.response?.status} data=${JSON.stringify(e.response?.data || e.message).slice(0, 160)}`);
+    }
+  }
+  throw lastErr || new Error("all token-exchange variants failed");
+}
+
 app.get("/callback", async (req, res) => {
   const { code, state } = req.query;
   if (!code) return res.send(oauthErrPage("No login code came back from Blaze. Please click the button again."));
@@ -1720,10 +1756,7 @@ app.get("/callback", async (req, res) => {
     return res.send(oauthErrPage("Your login link expired (this can happen if you took a moment). Just click the button again — it works instantly the second time."));
   }
   try {
-    const tokenRes = await axios.post("https://blaze.stream/bapi/oauth2/token", {
-      clientId: CLIENT_ID, clientSecret: CLIENT_SECRET,
-      code, codeVerifier: pa.codeVerifier, redirectUri: REDIRECT_URI, grantType: "authorization_code"
-    });
+    const tokenRes = { data: await exchangeCodeForToken(code, pa.codeVerifier) };
     delete pendingAuth[state];
 
     if (pa.kind === "owner") {
