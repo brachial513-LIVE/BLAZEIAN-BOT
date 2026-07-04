@@ -731,14 +731,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 798,
+        "totalVotes": 799,
         "totalSubs": 2,
-        "totalChatMessages": 321,
+        "totalChatMessages": 322,
         "totalStreamMinutes": 997,
         "emotes": {
           "❤": 22,
           "🙌": 7,
-          "🗳": 39,
+          "🗳": 42,
           "📴": 13,
           "👋": 13,
           "🔴": 11,
@@ -814,10 +814,6 @@
       },
       "chatMemory": [
         {
-          "user": "time",
-          "msg": "what about you"
-        },
-        {
           "user": "agent00zani",
           "msg": "send you ebergey"
         },
@@ -852,6 +848,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 1 vote(s) (total: 3)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -877,7 +877,7 @@
       "stats": {
         "totalVotes": 1508,
         "totalSubs": 2,
-        "totalChatMessages": 1793,
+        "totalChatMessages": 1794,
         "totalStreamMinutes": 395,
         "emotes": {
           "❤": 534,
@@ -986,10 +986,6 @@
       },
       "chatMemory": [
         {
-          "user": "weri",
-          "msg": "Just watched home alone it's so funny 😁"
-        },
-        {
           "user": "sheshi",
           "msg": "OSP: BLOBBIES are now LIVE on Enjin! Cute jelly Blobbies for just $1. Each one gives you 1 Random Playable Turret (Common → Ultra Exotic) usable in all OSP games. Go pull your jelly → https://ospgame.com/shop/blobbies, Who’s getting one? 👀"
         },
@@ -1024,6 +1020,10 @@
         {
           "user": "rob_osp",
           "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
+        },
+        {
+          "user": "weri",
+          "msg": "This blue bakkie of uncle dick is a tracktor"
         }
       ],
       "customCommands": {},
@@ -1219,7 +1219,7 @@
         "totalVotes": 85,
         "totalSubs": 0,
         "totalChatMessages": 2,
-        "totalStreamMinutes": 141,
+        "totalStreamMinutes": 146,
         "emotes": {},
         "emoteNames": {}
       },
@@ -1247,7 +1247,7 @@
       "stats": {
         "totalVotes": 224,
         "totalSubs": 2,
-        "totalChatMessages": 178,
+        "totalChatMessages": 179,
         "totalStreamMinutes": 424,
         "emotes": {
           "✨": 1,
@@ -1255,7 +1255,7 @@
           "🔥": 12,
           "👋": 4,
           "🎬": 5,
-          "❤": 6,
+          "❤": 7,
           "🚨": 3,
           "⚡": 10,
           "🏆": 8,
@@ -1324,10 +1324,6 @@
       },
       "chatMemory": [
         {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 3 votes, @tyler! Your support is truly appreciated! 🙌"
-        },
-        {
           "user": "agent00zani",
           "msg": "i need my glasses"
         },
@@ -1362,6 +1358,10 @@
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 50 votes, @vroshi55! Your support is truly appreciated! 🙌"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "Missed you today ❤️"
         }
       ],
       "customCommands": {},
