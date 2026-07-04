@@ -692,14 +692,14 @@
       "stats": {
         "totalVotes": 797,
         "totalSubs": 1,
-        "totalChatMessages": 295,
-        "totalStreamMinutes": 981,
+        "totalChatMessages": 296,
+        "totalStreamMinutes": 985,
         "emotes": {
           "❤": 21,
           "🙌": 6,
           "🗳": 39,
-          "📴": 11,
-          "👋": 11,
+          "📴": 12,
+          "👋": 12,
           "🔴": 10,
           "🎉": 15,
           "🏆": 3,
@@ -771,10 +771,6 @@
       },
       "chatMemory": [
         {
-          "user": "agent00zani",
-          "msg": "how are you today @cabsss"
-        },
-        {
           "user": "cabsss",
           "msg": "all good bro checking on other streamer"
         },
@@ -809,6 +805,10 @@
         {
           "user": "agent00zani",
           "msg": "how are you @alliveall"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -816,7 +816,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "🎮 Chos with Zani & Friends 👀 | 🏆 140 Votes + 🤗 Hugs | 💎 1 Sub = 1 Entry | 🎁 Gift Subs = 2 Entries — Farlight 84",
+      "streamTitle": "",
       "profile": "**agent00zani** - Blaze Livestream Channel\n\nA chill, welcoming space for ARC Raiders enthusiasts, where community members like @silverbolt99 drop by for \"Silver Nation Raids.\" Expect doggo talk, shoutouts, and heartfelt appreciation for votes and support. \"Blazedian love\" is key, with recurring phrases like \"Go go @agent00zani!!\" and \"Blazedian bot is full of surprises.",
       "_profileAtCount": 264
     },
@@ -996,7 +996,7 @@
         "totalVotes": 207,
         "totalSubs": 5,
         "totalChatMessages": 190,
-        "totalStreamMinutes": 1235,
+        "totalStreamMinutes": 1240,
         "emotes": {
           "😊": 3,
           "🌵": 23,
@@ -1548,38 +1548,24 @@
       "stats": {
         "totalVotes": 22,
         "totalSubs": 0,
-        "totalChatMessages": 23,
-        "totalStreamMinutes": 9,
+        "totalChatMessages": 27,
+        "totalStreamMinutes": 14,
         "emotes": {
           "🔥": 6,
           "🥰": 3,
           "😘": 1,
-          "🦊": 3
+          "🦊": 3,
+          "😂": 1
         },
         "emoteNames": {
           "🔥": "🔥",
           "🥰": "🥰",
           "😘": "😘",
-          "🦊": "🦊"
+          "🦊": "🦊",
+          "😂": "😂"
         }
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "i am zani, how is cupcake"
-        },
-        {
-          "user": "zsoltech",
-          "msg": "hey zani"
-        },
-        {
-          "user": "zsoltech",
-          "msg": "do you see any video\"?"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "what video"
-        },
         {
           "user": "zsoltech",
           "msg": "in my stream"
@@ -1603,6 +1589,22 @@
         {
           "user": "zsoltech",
           "msg": "we LIVEEEE"
+        },
+        {
+          "user": "alliveall",
+          "msg": "gmgm Daddy Z 😂"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "love that new shirt"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "+ that Dubby hat"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "perfect"
         }
       ],
       "customCommands": {},
@@ -1762,19 +1764,21 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 5,
+        "totalChatMessages": 9,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
           "🙌": 2,
           "🎁": 2,
-          "🚀": 1
+          "🚀": 1,
+          "😂": 1
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
           "🎁": "🎁",
-          "🚀": "🚀"
+          "🚀": "🚀",
+          "😂": "😂"
         }
       },
       "chatMemory": [
@@ -1797,6 +1801,22 @@
         {
           "user": "vitrene",
           "msg": "@brachial513 ja kein thema, wir Deutsche unterstützen uns wo wir können ;)"
+        },
+        {
+          "user": "brachial513",
+          "msg": "ohhhhhhhhhhhhhhhhhhhhhhh lets go geil man da brauchste die spitzenfähigkeiten meines Blazeian_Bots_Ai ja kaum, der kerl kann nämlich direkt im chat übersetzen 😂 Wie hammer geil ist das denn, schön dich kennenzulernen !"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai Sprich Deutsch, du Hu...hupe"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai antworte in deutsch"
+        },
+        {
+          "user": "brachial513",
+          "msg": "geht doch hahaha"
         }
       ],
       "customCommands": {},
