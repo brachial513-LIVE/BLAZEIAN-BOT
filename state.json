@@ -1220,7 +1220,7 @@
         "totalVotes": 135,
         "totalSubs": 0,
         "totalChatMessages": 2,
-        "totalStreamMinutes": 224,
+        "totalStreamMinutes": 229,
         "emotes": {},
         "emoteNames": {}
       },
@@ -1818,8 +1818,8 @@
       "stats": {
         "totalVotes": 231,
         "totalSubs": 3,
-        "totalChatMessages": 22,
-        "totalStreamMinutes": 0,
+        "totalChatMessages": 23,
+        "totalStreamMinutes": 3,
         "emotes": {
           "❤": 4,
           "🙌": 5,
@@ -1831,7 +1831,9 @@
           "😎": 2,
           "🤝": 2,
           "🥲": 2,
-          "🗳": 3
+          "🗳": 3,
+          "🔴": 1,
+          "🎉": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -1844,14 +1846,12 @@
           "😎": "😎",
           "🤝": "🤝",
           "🥲": "🥲",
-          "🗳": "🗳"
+          "🗳": "🗳",
+          "🔴": "🔴",
+          "🎉": "🎉"
         }
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "werde später mal streamen, wird lustig wie der Bot dann abgeht xD"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ der_bruder just followed the channel! Welcome!! 🙌"
@@ -1887,6 +1887,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @der_bruder! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 vitrene is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -1898,7 +1902,8 @@
       "followed": true,
       "botVip": true,
       "profile": "**vitrene's Community Profile**\n\nWelcome to vitrene's Blaze community, where the vibes are chill and the generosity is real! We're a tight-knit group of Blazeians who love to support each other, especially with those sweet subs. You'll catch us throwing around German slang like \"geil\" and \"hammer geil\", and maybe even some Fox Spirits Giveaways. Let's keep blazein' and stay amazing!",
-      "_profileAtCount": 20
+      "_profileAtCount": 20,
+      "streamTitle": "The Big Finale! PART 2 🏹 | Crysis 3 — Crysis 3"
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
       "username": "grook",
