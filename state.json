@@ -348,8 +348,8 @@
       "stats": {
         "totalVotes": 385,
         "totalSubs": 2,
-        "totalChatMessages": 271,
-        "totalStreamMinutes": 710,
+        "totalChatMessages": 272,
+        "totalStreamMinutes": 715,
         "emotes": {
           "📊": 3,
           "🔥": 48,
@@ -357,7 +357,7 @@
           "💚": 11,
           "❤": 1,
           "😜": 1,
-          "✌": 1,
+          "✌": 2,
           "😊": 1,
           "👋": 1,
           "🚀": 5,
@@ -415,7 +415,9 @@
           "🌈": 1,
           "🧡": 1,
           "😍": 2,
-          "💃": 3
+          "💃": 3,
+          "😌": 1,
+          "👍": 1
         },
         "emoteNames": {
           "📊": "📊",
@@ -482,14 +484,12 @@
           "🌈": "🌈",
           "🧡": "🧡",
           "😍": "😍",
-          "💃": "💃"
+          "💃": "💃",
+          "😌": "😌",
+          "👍": "👍"
         }
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Thank you @💚 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 3 FoxCoins."
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Thank you @Thank for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 402 FoxCoins."
@@ -525,6 +525,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "You too @fluffy !"
+        },
+        {
+          "user": "avisi",
+          "msg": "Heya @crypt0k1ng96! ✌️😌👍"
         }
       ],
       "customCommands": {},
@@ -1426,7 +1430,7 @@
         "totalVotes": 18,
         "totalSubs": 3,
         "totalChatMessages": 18,
-        "totalStreamMinutes": 86,
+        "totalStreamMinutes": 91,
         "emotes": {
           "💃": 3
         },
