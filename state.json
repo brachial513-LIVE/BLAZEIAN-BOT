@@ -4,13 +4,13 @@
       "username": "brachial513",
       "stats": {
         "totalVotes": 435,
-        "totalSubs": 3,
-        "totalChatMessages": 189,
+        "totalSubs": 4,
+        "totalChatMessages": 191,
         "totalStreamMinutes": 103,
         "emotes": {
           "❤": 18,
-          "🙌": 7,
-          "🔥": 2,
+          "🙌": 8,
+          "🔥": 4,
           "💚": 3,
           "💀": 2,
           "🤣": 1,
@@ -29,14 +29,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "thank you zsolteeeeeeeeeeeech !!!"
-        },
-        {
-          "user": "brachial513",
-          "msg": "you also joined the weekly giveaway !"
-        },
         {
           "user": "brachial513",
           "msg": "@blazeian_bot_ai how are you today"
@@ -68,6 +60,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ 1vynnn just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Vitrene has resubscribed — 3 months total, 3 months streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "brachial513",
+          "msg": "Thank you so much @vitrene !!"
         }
       ],
       "language": "en",
@@ -114,7 +114,14 @@
           "onlyLive": true,
           "lastSent": 0
         }
-      ]
+      ],
+      "loyalty": {
+        "vitrene": {
+          "name": "vitrene",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "ab4452a1-3623-426e-ab45-dce684780e78": {
       "username": "der_bruder",
@@ -685,16 +692,16 @@
       "stats": {
         "totalVotes": 797,
         "totalSubs": 1,
-        "totalChatMessages": 292,
-        "totalStreamMinutes": 972,
+        "totalChatMessages": 295,
+        "totalStreamMinutes": 976,
         "emotes": {
           "❤": 21,
           "🙌": 6,
           "🗳": 39,
           "📴": 11,
           "👋": 11,
-          "🔴": 9,
-          "🎉": 14,
+          "🔴": 10,
+          "🎉": 15,
           "🏆": 3,
           "🤗": 3,
           "💎": 3,
@@ -765,18 +772,6 @@
       "chatMemory": [
         {
           "user": "agent00zani",
-          "msg": "Zero my hero"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "🏆 140 Votes + 🤗 Hugs | 💎 1 Sub = 1 Entry | 🎁 Gift Subs = 2 Entries"
-        },
-        {
-          "user": "cabsss",
-          "msg": "zup gm gm @agent00zani"
-        },
-        {
-          "user": "agent00zani",
           "msg": "how are you today @cabsss"
         },
         {
@@ -802,6 +797,18 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "alliveall",
+          "msg": "gm Zani"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "how are you @alliveall"
         }
       ],
       "customCommands": {},
@@ -809,7 +816,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "🎮 Chos with Zani & Friends 👀 | 🏆 140 Votes + 🤗 Hugs | 💎 1 Sub = 1 Entry | 🎁 Gift Subs = 2 Entries — Farlight 84",
       "profile": "**agent00zani** - Blaze Livestream Channel\n\nA chill, welcoming space for ARC Raiders enthusiasts, where community members like @silverbolt99 drop by for \"Silver Nation Raids.\" Expect doggo talk, shoutouts, and heartfelt appreciation for votes and support. \"Blazedian love\" is key, with recurring phrases like \"Go go @agent00zani!!\" and \"Blazedian bot is full of surprises.",
       "_profileAtCount": 264
     },
@@ -989,7 +996,7 @@
         "totalVotes": 207,
         "totalSubs": 5,
         "totalChatMessages": 190,
-        "totalStreamMinutes": 1225,
+        "totalStreamMinutes": 1230,
         "emotes": {
           "😊": 3,
           "🌵": 23,
