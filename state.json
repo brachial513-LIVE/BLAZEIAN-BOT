@@ -989,7 +989,7 @@
         "totalVotes": 207,
         "totalSubs": 5,
         "totalChatMessages": 190,
-        "totalStreamMinutes": 1217,
+        "totalStreamMinutes": 1220,
         "emotes": {
           "😊": 3,
           "🌵": 23,
@@ -1541,8 +1541,8 @@
       "stats": {
         "totalVotes": 22,
         "totalSubs": 0,
-        "totalChatMessages": 13,
-        "totalStreamMinutes": 1,
+        "totalChatMessages": 18,
+        "totalStreamMinutes": 3,
         "emotes": {
           "🔥": 6,
           "🥰": 3,
@@ -1557,26 +1557,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "🔥🔥🔥"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "GOT THE CLIP"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "ty ty for the votes"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "🥰🥰🥰"
-        },
-        {
-          "user": "zsoltech",
-          "msg": "no problem broskiiiii"
-        },
         {
           "user": "agent00zani",
           "msg": "LFG 😘"
@@ -1596,6 +1576,26 @@
         {
           "user": "zsoltech",
           "msg": "@blazeian_bot_ai whats up"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "i am zani, how is cupcake"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "hey zani"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "do you see any video\"?"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "what video"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "in my stream"
         }
       ],
       "customCommands": {},
@@ -1604,7 +1604,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": ""
+      "streamTitle": "Wilder World Game — Wilder World"
     },
     "ba279e65-999c-4da7-b674-08b540222e0f": {
       "username": "nadietv",
@@ -1748,6 +1748,44 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false
+    },
+    "79ffc47e-8cb0-4618-9272-c9281368d26e": {
+      "username": "vitrene",
+      "language": "en",
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 1,
+        "totalChatMessages": 2,
+        "totalStreamMinutes": 0,
+        "emotes": {
+          "❤": 2,
+          "🙌": 2,
+          "🎁": 2
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌",
+          "🎁": "🎁"
+        }
+      },
+      "chatMemory": [
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @BLAZEIAN_BOT_AI! How generous!! 🙌"
+        }
+      ],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "timedMessages": [],
+      "greeted": true,
+      "locked": false,
+      "followed": true,
+      "botVip": true
     }
   },
   "blocklist": [
