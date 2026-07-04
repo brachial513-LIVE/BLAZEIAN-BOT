@@ -684,12 +684,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 797,
-        "totalSubs": 0,
-        "totalChatMessages": 278,
-        "totalStreamMinutes": 918,
+        "totalSubs": 1,
+        "totalChatMessages": 279,
+        "totalStreamMinutes": 923,
         "emotes": {
           "❤": 21,
-          "🙌": 5,
+          "🙌": 6,
           "🗳": 39,
           "📴": 10,
           "👋": 10,
@@ -698,7 +698,7 @@
           "🏆": 2,
           "🤗": 2,
           "💎": 2,
-          "🎁": 2,
+          "🎁": 4,
           "📢": 9,
           "🔥": 55,
           "😘": 5,
@@ -760,10 +760,6 @@
       },
       "chatMemory": [
         {
-          "user": "agent00zani",
-          "msg": "hi @fluffy how are you doing today ?"
-        },
-        {
           "user": "guney",
           "msg": "heyyy @agent00zani happy Saturday"
         },
@@ -798,6 +794,10 @@
         {
           "user": "guney",
           "msg": "I lost my badge because I wasn't streaming"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Zer0Cache just gifted a sub to @guney! How generous!! 🙌"
         }
       ],
       "customCommands": {},
