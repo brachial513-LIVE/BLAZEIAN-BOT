@@ -866,14 +866,14 @@
       "stats": {
         "totalVotes": 1468,
         "totalSubs": 1,
-        "totalChatMessages": 1381,
+        "totalChatMessages": 1389,
         "totalStreamMinutes": 395,
         "emotes": {
-          "❤": 465,
+          "❤": 471,
           "🎵": 62,
           "💃": 46,
           "🔥": 95,
-          "💚": 3,
+          "💚": 4,
           "👋": 24,
           "🚨": 32,
           "😊": 1,
@@ -908,7 +908,8 @@
           "✌": 1,
           "😌": 1,
           "👍": 1,
-          "💜": 2
+          "💜": 2,
+          "🧔": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -950,42 +951,11 @@
           "✌": "✌",
           "😌": "😌",
           "👍": "👍",
-          "💜": "💜"
+          "💜": "💜",
+          "🧔": "🧔"
         }
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "weri",
-          "msg": "Yo uncle funk"
-        },
-        {
-          "user": "sheshi",
-          "msg": "hello unclefunk and all"
-        },
-        {
-          "user": "sheshi",
-          "msg": "hello mrs. bee"
-        },
-        {
-          "user": "bee12",
-          "msg": "sheshiiiiiiiiiiii❤️❤️❤️"
-        },
-        {
-          "user": "weri",
-          "msg": "What are we building"
-        },
-        {
-          "user": "sheshi",
-          "msg": "🚨🚨 NOW LINK YOUR BLAZE ACCOUNT ON www.ospgame.com and earn COURAGE while watching stream on blaze, Burn your courage to buy NFT's. (Steps: signup on OSP website, navigate to profile-connect your blaze account, copy the code in blaze chat.) 🚨🚨"
-        },
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
         {
           "user": "unclefunk",
           "msg": "Tralalalala"
@@ -993,6 +963,38 @@
         {
           "user": "bee12",
           "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "potato_pete",
+          "msg": "🧔💚"
+        },
+        {
+          "user": "bee12",
+          "msg": "Pete heyyy❤️❤️❤️"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Yo pete!"
+        },
+        {
+          "user": "sheshi",
+          "msg": "hey potato pete, hello mr. rob"
+        },
+        {
+          "user": "potato_pete",
+          "msg": "hey ya @bee12"
+        },
+        {
+          "user": "bee12",
+          "msg": "❤️❤️❤️"
+        },
+        {
+          "user": "potato_pete",
+          "msg": "good day @unclefunk"
+        },
+        {
+          "user": "potato_pete",
+          "msg": "hello @sheshi"
         }
       ],
       "customCommands": {},
@@ -1939,7 +1941,7 @@
   "auth": {
     "accessToken": "8c3b9ef9cc410b45cb85e66b64a48d20",
     "refreshToken": null,
-    "sessionToken": "508928513628f16a7ecd5ea02ffe2e70",
+    "sessionToken": "dd34ce0447e6677a311def26a8d02ea7",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
