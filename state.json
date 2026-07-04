@@ -348,8 +348,8 @@
       "stats": {
         "totalVotes": 390,
         "totalSubs": 3,
-        "totalChatMessages": 379,
-        "totalStreamMinutes": 920,
+        "totalChatMessages": 383,
+        "totalStreamMinutes": 923,
         "emotes": {
           "📊": 3,
           "🔥": 62,
@@ -362,7 +362,7 @@
           "👋": 1,
           "🚀": 5,
           "🦊": 45,
-          "😂": 9,
+          "😂": 10,
           "👑": 17,
           "⭐": 8,
           "🏆": 42,
@@ -418,7 +418,8 @@
           "💃": 3,
           "😌": 1,
           "👍": 1,
-          "🫂": 2
+          "🫂": 2,
+          "😭": 1
         },
         "emoteNames": {
           "📊": "📊",
@@ -488,22 +489,11 @@
           "💃": "💃",
           "😌": "😌",
           "👍": "👍",
-          "🫂": "🫂"
+          "🫂": "🫂",
+          "😭": "😭"
         }
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "😂😂😂😂"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "I will eventually have something like that haha not 1000 but like 10 😂"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "❤️"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Oh no bot down"
@@ -531,6 +521,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "I should go to sleep"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "then sleep"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "ChatGPT so frustrating 😭"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Okay I will 😂 goodnight @agent00zani !!"
         }
       ],
       "customCommands": {},
@@ -539,7 +541,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "WILDER WORLD GAME NIGHT W/ FOX SPIRITS🔥FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Wilder World",
+      "streamTitle": "",
       "profile": "High-energy IRL streams with lively chat, playful joking, and celebratory vibes (🔥, 💚). The community loves \"GM GM\", \"Blaze it\", and \"RAID LOVE\" slang. We're fueled by FoxBot and Blazeian Bot interactions, loving lighthearted vibes, FoxBot rewards, and the Blaze Builder Challenge, with a focus on Wilder World game nights.",
       "_profileAtCount": 351
     },
@@ -683,8 +685,8 @@
       "stats": {
         "totalVotes": 797,
         "totalSubs": 0,
-        "totalChatMessages": 245,
-        "totalStreamMinutes": 853,
+        "totalChatMessages": 246,
+        "totalStreamMinutes": 858,
         "emotes": {
           "❤": 19,
           "🙌": 4,
@@ -750,10 +752,6 @@
       },
       "chatMemory": [
         {
-          "user": "thom6ss_otg",
-          "msg": "cyptoooo"
-        },
-        {
           "user": "crypt0k1ng96",
           "msg": "Hi @thom6ss_otg !!"
         },
@@ -788,6 +786,10 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Go go @agent00zani !!"
         }
       ],
       "customCommands": {},
@@ -1673,21 +1675,27 @@
       "stats": {
         "totalVotes": 3,
         "totalSubs": 0,
-        "totalChatMessages": 1,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
-          "🙌": 1
+          "🙌": 1,
+          "🔥": 1
         },
         "emoteNames": {
           "❤": "❤",
-          "🙌": "🙌"
+          "🙌": "🙌",
+          "🔥": "🔥"
         }
       },
       "chatMemory": [
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "brachial513",
+          "msg": "Yoo GM ! Thank you for using Blazeian_Bot_AI - if you have any ideas or wishes what to add just let me know ! 🔥"
         }
       ],
       "customCommands": {},
@@ -1703,7 +1711,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {}
