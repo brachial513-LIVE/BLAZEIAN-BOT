@@ -348,8 +348,8 @@
       "stats": {
         "totalVotes": 385,
         "totalSubs": 2,
-        "totalChatMessages": 270,
-        "totalStreamMinutes": 685,
+        "totalChatMessages": 271,
+        "totalStreamMinutes": 690,
         "emotes": {
           "📊": 3,
           "🔥": 48,
@@ -488,10 +488,6 @@
       "chatMemory": [
         {
           "user": "crypt0k1ng96",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
-        },
-        {
-          "user": "crypt0k1ng96",
           "msg": "Thank you @💚 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 3 FoxCoins."
         },
         {
@@ -525,6 +521,10 @@
         {
           "user": "fluffy",
           "msg": "💃💃💃"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "You too @fluffy !"
         }
       ],
       "customCommands": {},
@@ -1425,16 +1425,16 @@
       "stats": {
         "totalVotes": 18,
         "totalSubs": 2,
-        "totalChatMessages": 15,
-        "totalStreamMinutes": 61,
-        "emotes": {},
-        "emoteNames": {}
+        "totalChatMessages": 16,
+        "totalStreamMinutes": 66,
+        "emotes": {
+          "💃": 3
+        },
+        "emoteNames": {
+          "💃": "💃"
+        }
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "slothsm",
           "msg": "hey bro"
@@ -1470,6 +1470,10 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "fluffy",
+          "msg": "hey hey! have a nice weekend 💃💃💃"
         }
       ],
       "customCommands": {},
