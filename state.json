@@ -998,7 +998,7 @@
         "totalVotes": 216,
         "totalSubs": 5,
         "totalChatMessages": 196,
-        "totalStreamMinutes": 1355,
+        "totalStreamMinutes": 1360,
         "emotes": {
           "😊": 3,
           "🌵": 23,
@@ -1629,7 +1629,7 @@
       "stats": {
         "totalVotes": 19,
         "totalSubs": 0,
-        "totalChatMessages": 10,
+        "totalChatMessages": 13,
         "totalStreamMinutes": 160,
         "emotes": {
           "❤": 2,
@@ -1638,7 +1638,12 @@
           "🔴": 1,
           "🎉": 1,
           "📴": 1,
-          "👋": 1
+          "👋": 1,
+          "🔥": 3,
+          "💪": 1,
+          "🤖": 1,
+          "💚": 2,
+          "🤣": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -1647,22 +1652,15 @@
           "🔴": "🔴",
           "🎉": "🎉",
           "📴": "📴",
-          "👋": "👋"
+          "👋": "👋",
+          "🔥": "🔥",
+          "💪": "💪",
+          "🤖": "🤖",
+          "💚": "💚",
+          "🤣": "🤣"
         }
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @zenifirrules!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @zenifirrules just gave 4 vote(s) (total: 4)! Thank you!! 🗳️"
@@ -1690,6 +1688,18 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "brachial513",
+          "msg": "¡Gracias, @Nadie, por usar Blazeian_Bot_AI en Blaze!\n¡Tengo algo nuevo!\n🔥🔥\n\n\nAquí tienes una novedad de la actualización:\nañade esta fuente a tu OBS:\n\n\nblazeian-bot.onrender.com/overlay/run/\nNadieTv?theme=green&mirror=1&fps=14&speed=200\n\n\nEl pequeño Blazeian camina por ahí, dice cosas agradables y más.\nPor supuesto, puedes cambiar el color, incluso a RGB.\n\n\nSolo cambia \"green\" en la URL por...\nblue\ncyan\npurple\npink\nred\ngold\nRGB\n...-"
+        },
+        {
+          "user": "brachial513",
+          "msg": "1920 x 1080 (o usa la opción \"ajustar a la pantalla\" / *stretch to screen*).\n\n\n¡Disfrútalo y cuéntame qué te parece! Si quieres saber de qué se trata, mira la última transmisión en vivo de Thom6ss_otg o este video, y anímate a usar la mascota que corre directamente en su stream; ¡ahora tú también puedes tenerla! 🔥 💪🤖💚"
+        },
+        {
+          "user": "brachial513",
+          "msg": "or check your discord dm 🤣💚"
         }
       ],
       "customCommands": {},
@@ -1741,7 +1751,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 15,
-        "totalSubs": 0,
+        "totalSubs": 30,
         "totalChatMessages": 3,
         "totalStreamMinutes": 0,
         "emotes": {
