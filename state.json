@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 546,
         "totalSubs": 4,
-        "totalChatMessages": 195,
+        "totalChatMessages": 196,
         "totalStreamMinutes": 103,
         "emotes": {
           "❤": 20,
@@ -31,10 +31,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "💰 TIP ALERT!! 💰 @thom6ss_otg just tipped $1.00!! Thank you so much!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 66 vote(s) (total: 66)! Thank you!! 🗳️"
@@ -70,6 +66,10 @@
         {
           "user": "botger",
           "msg": "🔥👉🏻ONLY LOVE💚💚💚💚 ! LETS FREAKING BLAZE ! EVERYONE HERE CHECK THIS OUT🔥🔥👉🏻👉🏻 https://blaze.stream/Vroshi55"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai you had to speak english here all people on blaze speaking english - only speak german when someone ask you in german or talk to you in german"
         }
       ],
       "language": "en",
@@ -733,7 +733,7 @@
       "stats": {
         "totalVotes": 798,
         "totalSubs": 2,
-        "totalChatMessages": 304,
+        "totalChatMessages": 306,
         "totalStreamMinutes": 997,
         "emotes": {
           "❤": 22,
@@ -812,14 +812,6 @@
       },
       "chatMemory": [
         {
-          "user": "agent00zani",
-          "msg": "how are you @alliveall"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
         },
@@ -850,6 +842,14 @@
         {
           "user": "agent00zani",
           "msg": "🏆 140 Votes + 🤗 Hugs | 💎 1 Sub = 1 Entry | 🎁 Gift Subs = 2 Entries"
+        },
+        {
+          "user": "time",
+          "msg": "hey"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "how are u today @time ?"
         }
       ],
       "customCommands": {},
@@ -1212,7 +1212,7 @@
         "totalVotes": 85,
         "totalSubs": 0,
         "totalChatMessages": 2,
-        "totalStreamMinutes": 66,
+        "totalStreamMinutes": 71,
         "emotes": {},
         "emoteNames": {}
       },
@@ -1639,85 +1639,6 @@
       "greeted": true,
       "locked": false
     },
-    "754240f6-a4d1-456b-9704-b7a0787d4464": {
-      "username": "zsoltech",
-      "language": "en",
-      "stats": {
-        "totalVotes": 122,
-        "totalSubs": 0,
-        "totalChatMessages": 37,
-        "totalStreamMinutes": 59,
-        "emotes": {
-          "🔥": 6,
-          "🥰": 3,
-          "😘": 2,
-          "🦊": 3,
-          "😂": 1,
-          "👀": 1,
-          "😁": 1
-        },
-        "emoteNames": {
-          "🔥": "🔥",
-          "🥰": "🥰",
-          "😘": "😘",
-          "🦊": "🦊",
-          "😂": "😂",
-          "👀": "👀",
-          "😁": "😁"
-        }
-      },
-      "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "just be lurking"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "you woke up early ? what time"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "stream a bit laggy from my side"
-        },
-        {
-          "user": "k1ngbre4ker",
-          "msg": "yeah both"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "steal his car"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "gtg guys... hope you get lots of loot"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "😘"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "Just wanted to say, I just noticed you guys were in the VC above us . 👀"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "See you guys later 😁"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "Screen is black again"
-        }
-      ],
-      "customCommands": {},
-      "streamStart": "",
-      "streamEnd": "",
-      "timedMessages": [],
-      "greeted": true,
-      "locked": false,
-      "streamTitle": "",
-      "profile": "**zsoltech's Community Profile**\n\nWe're a lively crew of Wilder World enthusiasts, known for our energetic vibes and love for gaming. Our community slang includes \"LFG\" (Let's Go), \"broskiiiii\", and \"we LIVEEEE\". We celebrate our streamer's unique style, from his \"Dubby hat\" to his bold fashion choices. Expect a fun, interactive experience with a dash of humor and camaraderie.",
-      "_profileAtCount": 31
-    },
     "ba279e65-999c-4da7-b674-08b540222e0f": {
       "username": "nadietv",
       "language": "en",
@@ -1977,7 +1898,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 13,
+        "totalChatMessages": 14,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 3,
@@ -1986,7 +1907,9 @@
           "💚": 1,
           "✌": 1,
           "😊": 1,
-          "👍": 1
+          "👍": 1,
+          "📴": 1,
+          "👋": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -1995,14 +1918,12 @@
           "💚": "💚",
           "✌": "✌",
           "😊": "😊",
-          "👍": "👍"
+          "👍": "👍",
+          "📴": "📴",
+          "👋": "👋"
         }
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "lets go !"
-        },
         {
           "user": "grook",
           "msg": "nicee"
@@ -2038,6 +1959,10 @@
         {
           "user": "grook",
           "msg": "Don't forget that you can enter the giveaway for 255 votes by subscribing to my channel! Sign-ups close today, and the giveaway will take place tomorrow, 1 hour before the weekly voting period ends. There are currently 4 participants, with a maximum of 10 participants allowed. Thank you, and good luck to everyone! ❤️"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2047,7 +1972,11 @@
       "greeted": true,
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "streamTitle": "",
+      "gameOverride": "",
+      "profile": "grook's community is a chill, supportive space where Blazeians celebrate their love for gaming and good vibes. You'll catch them using slang like \"tyy\" and \"avisiiiii\" as a way of saying thanks. The community is passionate about giveaways, especially the 255-vote one, and loves to see grook's streamer dashboard on website https://blazeian-bot.onrender.com.",
+      "_profileAtCount": 14
     }
   },
   "blocklist": [
