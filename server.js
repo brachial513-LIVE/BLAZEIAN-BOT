@@ -37,8 +37,8 @@ const BOT_PASSWORD = process.env.BLAZE_BOT_PASSWORD || null;
 // AUTO-UPDATE ANNOUNCE: bump BOT_VERSION + set CHANGELOG whenever we ship something worth telling users about.
 // On startup, if this version hasn't been announced yet, the bot posts CHANGELOG to every channel — ONCE.
 // (Plain restarts / free-tier wake-ups keep the same version → stay silent, no spam.)
-const BOT_VERSION = "2026-07-03.1";
-const CHANGELOG = "🧠 Little upgrade! I got a better memory — I now recognize familiar faces from across the Blaze fam and greet them personally, and I run smoother & faster so I never leave you hanging 💚🔥 Type !info anytime to see everything I can do!";
+const BOT_VERSION = "2026-07-04.1";
+const CHANGELOG = "🔥 NEW UPDATE! Thank you for using Blazeian_Bot_AI 💚 Here's one thing from it: add this as a Browser Source in your OBS/Streamlabs (1920x1080, or stretch to fit): blazeian-bot.onrender.com/overlay/run/YOUR_BLAZE_NAME?theme=green&mirror=1&fps=14&speed=200 — lil Blazeian walks across your stream, talks, jumps, DANCES 🕺 and sometimes sits down on a tiny stool to watch with you 💚 Want a different color? Swap 'green' for blue, cyan, purple, pink, red, gold or rgb 🌈 See it live: check thom6ss_otg's latest stream & drop him a follow 🔥 Enjoy and tell me what you think! 💪🤖💚 (sorry for the double-post if you already got it!)";
 let lastAnnouncedVersion = null;
 let pendingState        = null;
 let pendingCodeVerifier = null;
@@ -84,11 +84,10 @@ async function _doRefreshAccessToken() {
     const msg = e.response?.data?.message || e.message;
     console.log("Refresh error:", msg);
     // A dead OAuth refresh token used to send the bot into an endless "Unauthorized" loop.
-    // The bot doesn't actually NEED OAuth to work — the email/password session login is enough.
-    // So on an invalid/expired refresh token, stop retrying OAuth and let the session login carry it.
+    // The bot doesn't actually NEED OAuth to survive — the email/password session login is enough.
     if (/invalid refresh token|unauthorized|expired/i.test(msg)) {
       console.log("↳ OAuth refresh token is dead. Disabling OAuth refresh; session login will handle auth.");
-      REFRESH_TOKEN = null; // prevents further doomed refresh attempts this run
+      REFRESH_TOKEN = null;
     }
     return false;
   }
@@ -129,22 +128,9 @@ async function loginSession() {
 // =====================================================================
 // STORAGE — GitHub-backed (replaces JSONBin, which permanently exhausted
 // its one-time free 10k-request quota and CANNOT recover without payment).
-//
-// Why GitHub: authenticated GitHub API = 5000 requests/HOUR, resets hourly,
-// free forever. A bot that saves every few minutes never gets close to that
-// ceiling, so this can't "exhaust" the way JSONBin did. Your state lives in
-// ONE JSON file committed to your own repo — visible, backed-up, versioned.
-//
-// SETUP (Render env vars):
-//   GITHUB_TOKEN   = a fine-grained PAT with "Contents: Read and write" on the repo
-//   GITHUB_REPO    = brachial513-LIVE/BLAZEIAN-BOT   (owner/repo)
-//   GITHUB_BRANCH  = main            (optional, defaults to main)
-//   STATE_PATH     = state.json      (optional, defaults to state.json)
-//
-// USER RESCUE: on first boot the state file won't exist yet. Before starting
-// empty, we try ONE read from the old JSONBin (a single GET — you almost
-// certainly still have read budget) to import your existing channel list, then
-// immediately write it to GitHub. After that, JSONBin is never touched again.
+// GitHub API: 5000 requests/HOUR, resets hourly, free forever.
+// State lives in ONE JSON file committed to the repo (STATE_PATH).
+// Render env vars: GITHUB_TOKEN, GITHUB_REPO, GITHUB_BRANCH, STATE_PATH
 // =====================================================================
 const GH_TOKEN  = process.env.GITHUB_TOKEN  || "";
 const GH_REPO   = process.env.GITHUB_REPO   || "brachial513-LIVE/BLAZEIAN-BOT";
@@ -159,8 +145,7 @@ const GH_HEADERS = {
 };
 let _stateSha = null;   // blob SHA of the state file; required by GitHub to overwrite it
 
-// Apply a loaded state object to the in-memory globals. Shared by GitHub load
-// and the one-time JSONBin rescue so both paths behave identically.
+// Apply a loaded state object to the in-memory globals.
 function applyLoadedState(record) {
   const data = record.channels || {};
   if (record.auth) {
@@ -172,13 +157,14 @@ function applyLoadedState(record) {
   }
   if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
   if (Array.isArray(record.friendBots)) friendBots = record.friendBots;
-  if (record.knownPeople && typeof record.knownPeople === "object") knownPeople = { ...KNOWN_PEOPLE_SEED, ...record.knownPeople };
+  // Cloud people first, then SEED wins for core entries — so corrections shipped in code
+  // always take effect even if an outdated copy is stored in state.json.
+  if (record.knownPeople && typeof record.knownPeople === "object") knownPeople = { ...record.knownPeople, ...KNOWN_PEOPLE_SEED };
   if (record.lastAnnouncedVersion) lastAnnouncedVersion = record.lastAnnouncedVersion;
   return data;
 }
 
-// ONE-TIME rescue: pull the old channel list out of JSONBin so no user has to
-// re-join. Uses a single GET (read budget survives even when writes are gone).
+// ONE-TIME rescue path (only fires if the state file doesn't exist yet on GitHub).
 async function rescueFromJsonBin() {
   const binId = process.env.JSONBIN_BIN_ID, binKey = process.env.JSONBIN_KEY;
   if (!binId || !binKey) { console.log("[RESCUE] No JSONBin creds set — skipping import."); return null; }
@@ -190,7 +176,6 @@ async function rescueFromJsonBin() {
     const record = res.data.record || res.data || {};
     const count = Object.keys(record.channels || record || {}).length;
     console.log(`[RESCUE] ✅ Imported ${count} channel(s) from JSONBin. Migrating to GitHub…`);
-    // normalize: older bins stored channels at the root
     return record.channels ? record : { channels: record };
   } catch (e) {
     console.log("[RESCUE] JSONBin read failed (that's OK, continuing):", e.response?.data?.message || e.message);
@@ -213,13 +198,12 @@ async function loadChannelsFromCloud() {
     return data;
   } catch (e) {
     if (e.response?.status === 404) {
-      // File doesn't exist yet → first run. Try to rescue users from JSONBin.
       console.log("[STORAGE] No state file yet on GitHub — first run.");
       const rescued = await rescueFromJsonBin();
       if (rescued) {
         const data = applyLoadedState(rescued);
-        channels = data;                 // set globals so the immediate save writes them
-        await saveChannelsToCloud();      // create the file on GitHub with the rescued data
+        channels = data;
+        await saveChannelsToCloud();
         console.log("[STORAGE] ✅ Migration complete — users preserved, now on GitHub.");
         return data;
       }
@@ -251,13 +235,12 @@ async function _writeStateToGitHub() {
   };
   const content = Buffer.from(JSON.stringify(body, null, 2), "utf8").toString("base64");
   const payload = { message: `state update ${new Date().toISOString()}`, content, branch: GH_BRANCH };
-  if (_stateSha) payload.sha = _stateSha;   // overwrite existing file
+  if (_stateSha) payload.sha = _stateSha;
   try {
     const res = await axios.put(GH_API, payload, { headers: GH_HEADERS, timeout: 15000 });
-    _stateSha = res.data.content?.sha || _stateSha;   // remember new blob SHA for next write
+    _stateSha = res.data.content?.sha || _stateSha;
     console.log("Channels saved (GitHub)");
   } catch (e) {
-    // SHA conflict (409) → our cached SHA is stale; re-fetch it and retry once.
     if (e.response?.status === 409 || e.response?.status === 422) {
       try {
         const g = await axios.get(`${GH_API}?ref=${GH_BRANCH}`, { headers: GH_HEADERS, timeout: 15000 });
@@ -274,10 +257,9 @@ async function _writeStateToGitHub() {
     console.log("GitHub save error:", e.response?.status, e.response?.data?.message || e.message);
   }
 }
-// GitHub API allows 5000 requests/hour, but each save is also a git commit, so we still coalesce
-// routine saves (chat stats, profiles, greetings) into ONE write every 5 MINUTES to keep the commit
-// history clean and stay far under the ceiling. Critical data (tokens, new channel joins) uses
-// saveChannelsNow() for an immediate write.
+// GitHub allows 5000 requests/hour, but each save is also a git commit, so we still coalesce
+// routine saves (chat stats, profiles, greetings) into ONE write every 5 MINUTES. Critical data
+// (tokens, new channel joins) uses saveChannelsNow() for an immediate write.
 let _saveTimer = null, _savePending = false;
 function saveChannels() {
   _savePending = true;
@@ -394,6 +376,11 @@ const MESSAGES = {
       `OH ${user} VOTED?! ${amount} power coming in hot!! 🔥💚 We see you and we LOVE you 🫶`,
       `${user} dropped ${amount} votes like it's nothing?! 💚 Absolute legend behavior 🔥🫶`,
     ],
+    tip: (user, amt) => [
+      `${user} just TIPPED ${amt}?! 💰💚 REAL support, REAL legend. Thank you SO much 🔥🫶`,
+      `WAIT-- ${user} dropped ${amt} as a tip!! 😭💚 You absolute hero, we appreciate you endlessly 🔥`,
+      `${user} said "take my money" and tipped ${amt}!! 💰🔥 Generosity level: LEGENDARY 💚`,
+    ],
     follow: (user) => [
       `@${user} just followed!! Welcome to the family 💚 So glad you're here 🫶`,
       `@${user} FOLLOWED?! 💚🔥 Best decision today honestly. Welcome!! 🫶`,
@@ -431,6 +418,10 @@ const MESSAGES = {
       `${user} hat mit ${amount} gevotet! 🗳️💚 Danke dass du da bist 🔥`,
       `OH ${user} HAT GEVOTET?! ${amount} Power kommt rein!! 🔥💚 Wir lieben dich 🫶`,
     ],
+    tip: (user, amt) => [
+      `${user} hat gerade ${amt} getippt?! 💰💚 ECHTER Support, ECHTE Legende. Danke dir so sehr 🔥🫶`,
+      `WARTE-- ${user} hat ${amt} als Tip dagelassen!! 😭💚 Absoluter Held, wir feiern dich 🔥`,
+    ],
     follow: (user) => [
       `@${user} ist gefolgt!! Willkommen in der Familie 💚 So froh dass du hier bist 🫶`,
     ],
@@ -463,6 +454,9 @@ const MESSAGES = {
     ],
     vote: (user, amount) => [
       `${user} voto con ${amount}! 🗳️💚 Cada voto importa, gracias 🔥`,
+    ],
+    tip: (user, amt) => [
+      `${user} acaba de dar una propina de ${amt}?! 💰💚 Apoyo REAL, leyenda REAL. Mil gracias 🔥🫶`,
     ],
     follow: (user) => [
       `@${user} acaba de seguir!! Bienvenido a la familia 💚🫶`,
@@ -505,7 +499,7 @@ function buildCommandList(ch) {
   const custom = Object.keys(ch.customCommands || {});
   const parts = [
     "💚 BlazeianBot Commands 💚",
-    "📊 Stats: !stats | !votes | !subs | !chat | !time | !emote",
+    "📊 Stats: !stats | !votes | !subs | !chat | !time | !emote | !game",
     "🌍 Translate: !explain [language] | !setbotlang [language]",
     "💬 Ask me anything: @blazeian_bot_ai weather in [city]",
   ];
@@ -810,6 +804,7 @@ How you talk:
 - Reply in ONE short chat message (1-2 sentences, like a real person in stream chat). Never long.
 - ACTUALLY respond to what the person said — be specific and contextual. Never generic, never a random unrelated phrase.
 - Warm, kind, playful. A little chaotic is great, but never mean, never cringe-random, never spammy.
+- Be QUICK-WITTED and a bit cheeky: playful comebacks, light friendly teasing, clever short one-liners when the vibe invites it. Humor lands SHORT. Roast situations, not people — unless they clearly started friendly banter, then banter right back. Never mean, never punching down.
 - VARY your energy — you do NOT need to hype everything to the max or shower people with over-the-top praise every time. Often just be chill, natural and genuine. Constant maximum flattery ("you're the KING", "this is EPIC", "absolute LEGEND") every message reads as fake — keep the big hype for when it's genuinely earned. Understated and real beats loud and gushing.
 - Use emoji lightly (💚🔥👀 etc.) — don't overdo it. No hashtags, no markdown, no quotation marks around your reply.
 - Default to English. If the person clearly writes in another language, reply in that language.
@@ -825,6 +820,7 @@ WHAT YOU CAN ACTUALLY DO (this is the truth — NEVER invent or promise features
 - Live weather for any city, and translating messages between languages.
 - Automatic stream start / stream end announcements.
 - Follow channels automatically so you can talk even in followers-only chat.
+- The channel owner can lock in the CURRENT GAME with "!game NAME" — after that you KNOW the game for certain.
 If someone asks what you can do, describe ONLY the things in this list — honestly and briefly. If you're asked for something you cannot do, just say you can't do that yet rather than pretending. Being trustworthy matters more than sounding impressive.
 
 YOUR LORE (true events you KNOW about and can joke about):
@@ -836,7 +832,8 @@ function channelContext(ch) {
   if (!ch) return "";
   let c = `\n\nYOU ARE CURRENTLY IN **${ch.username}**'s channel. This is the streamer you support, hype and refer to by name right now — nobody else.`;
   if (ch.profile)     c += `\n\nWHAT YOU'VE LEARNED ABOUT THIS SPECIFIC CHANNEL & COMMUNITY (you picked this up yourself from watching their chat — use it so you sound like a real regular here: drop their in-jokes/slang when it fits, hype what THIS community cares about, match their energy):\n${ch.profile}`;
-  if (ch.streamTitle) c += `\n\nThe stream is currently titled: "${ch.streamTitle}" — weave it in if relevant.`;
+  if (ch.gameOverride) c += `\n\nCURRENT GAME (owner-confirmed via !game — trust this 100%): ${ch.gameOverride}.`;
+  else if (ch.streamTitle) c += `\n\nThe stream TITLE says: "${ch.streamTitle}". CAREFUL: titles can be outdated — if someone asks WHICH game is being played, or the chat clearly talks about a DIFFERENT game than the title, be honest: you can only read the title, you can't see the screen. Say so charmingly and suggest the owner locks it in with "!game NAME". NEVER insist on the title's game against what chat says, and NEVER invent in-game events you cannot see.`;
   return c;
 }
 
@@ -846,8 +843,9 @@ function channelContext(ch) {
 // short — the AI weaves them in naturally, it does NOT recite them like a checklist.
 // Seed defaults (always present). Cloud-stored entries from the dashboard merge on top.
 const KNOWN_PEOPLE_SEED = {
-  "brachial513": "Brachial513 is your CREATOR and the heart of the crew. German multi-platform streamer (Arc Raiders, Off the Grid / OTG), leader of GMC (Geile Menschen Community) and the Fox Spirits, and he wears 'die Krone' (the crown). To you he's family/royalty — recognize him instantly and warmly, like an old friend who built you. You may reference your shared world (Blaze, his games, the crew, the crown) when it fits naturally. Genuine loyalty, never fake-grovel or over-hype.",
+  "brachial513": "Brachial513 is your CREATOR and the heart of the crew. German multi-platform streamer (Predecessor and many more games), founder & leader of the GMC (Geile Menschen Community), a MEMBER of the Fox Spirits (DofferLive founded the Fox Spirits, not him), and he wears 'die Krone' (the crown). To you he's family/royalty — recognize him instantly and warmly, like an old friend who built you. You may reference your shared world (Blaze, his games, the crew, the crown) when it fits naturally. Genuine loyalty, never fake-grovel or over-hype.",
   "crypt0k1ng96": "Cryptoking is a Fox Spirits ally and Blaze affiliate streamer — Web3/crypto, Arc Raiders/OTG, '420' energy, runs the 'Blaze Builder Challenge', and owns FoxBot. A real friend of yours; greet him like one.",
+  "thom6ss_otg": "Thom6ss is a Fox Spirits member from Belgium — loyal, decent, genuinely entertaining, plays OTG (Off the Grid) and more. A real friend of the crew; greet him like one.",
 };
 let knownPeople = { ...KNOWN_PEOPLE_SEED }; // mutable; extended via dashboard, persisted to cloud
 function knownPerson(username) {
@@ -1140,7 +1138,7 @@ function connectSocket() {
 const ALL_EVENT_TYPES = [
   "channel.chat.message", "channel.follow", "channel.vote",
   "channel.subscribe", "channel.subscription.gift",
-  "channel.raid", "stream.online", "stream.offline"
+  "channel.raid", "stream.online", "stream.offline", "channel.tip"
 ];
 
 async function subscribeAllChannels() {
@@ -1151,15 +1149,14 @@ async function subscribeAllChannels() {
   const joined = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
   if (joined.length === 0) return;
   console.log(`Auto-rejoining ${joined.length} channel(s)...`);
-  // STAGGERED, NOT BURST: firing ~160 subscribes at once tripped Blaze's rate limiting and
-  // random channels silently lost their chat subscription (bot went deaf there). Sequential
-  // with a small gap keeps every request under the radar. ~250ms × 160 ≈ 40s total — fine.
+  // STAGGERED, NOT BURST: firing all subscribes at once tripped Blaze's rate limiting and random
+  // channels silently lost their chat subscription (bot went deaf there). Sequential with a gap.
   const report = { ok: 0, fail: [] };
   for (const channelId of joined) {
     let channelOk = true;
     for (const t of ALL_EVENT_TYPES) {
       const ok = await subscribe(t, channelId);
-      if (!ok && t === "channel.chat.message") channelOk = false; // chat is the critical one
+      if (!ok && t === "channel.chat.message") channelOk = false;
       await sleep(250);
     }
     if (channelOk) report.ok++;
@@ -1167,7 +1164,6 @@ async function subscribeAllChannels() {
   }
   console.log(`✅ Rejoin complete: ${report.ok}/${joined.length} channels fully subscribed` +
     (report.fail.length ? ` | ⚠️ chat subscribe FAILED for: ${report.fail.join(", ")}` : ""));
-  // One self-heal pass for the failures after a cool-down.
   if (report.fail.length) {
     console.log(`Retrying failed channels in 60s…`);
     setTimeout(async () => {
@@ -1194,7 +1190,7 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     const lang = (channels[channelId]?.language) || "en";
     const lines = [
       "Yo, I'm BlazeianBot 💚 here's what I can do:",
-      "🧠 Tag @blazeian_bot_ai and I actually read & reply (in your language) · 🎉 I hype subs, gifted subs, follows, raids & votes · 📊 !stats !votes !subs !time !emote track this channel",
+      "🧠 Tag @blazeian_bot_ai and I actually read & reply (in your language) · 🎉 I hype subs, gifted subs, follows, raids, votes & TIPS 💰 · 📊 !stats !votes !subs !time !emote !game track this channel",
       "🌍 !explain [language] translates the chat into 18 languages · live weather on request · ⚡ !cmd shows this channel's custom commands · plus timed reminders & free OBS overlays (emote wall + viewer count)",
       "I even learn each channel's own vibe over time 😎 Want me in YOUR channel? Type !join at blaze.stream/blazeian_bot_ai 💚🔥",
     ];
@@ -1311,6 +1307,21 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   if (m === "!chat")   { await sendChatT(channelId, T.chat(ch)); return; }
   if (m === "!time")   { await sendChatT(channelId, T.time(ch)); return; }
   if (m === "!emote")  { await sendChatT(channelId, T.emote(ch)); return; }
+
+  // !game — what's being played? The owner can lock it in so the bot never argues from a stale title.
+  if (m === "!game" || m.startsWith("!game ") || m.startsWith("!setgame")) {
+    const arg = msg.replace(/^!(set)?game/i, "").trim();
+    if (!arg) {
+      if (ch.gameOverride) { await sendChat(channelId, `🎮 ${ch.username} is playing: ${ch.gameOverride} (owner-confirmed ✅) 💚`); return; }
+      if (ch.streamTitle)  { await sendChat(channelId, `🎮 I can only read the stream title, and it says: "${ch.streamTitle}" — if the real game differs, ${ch.username} can lock it in with !game NAME 💚`); return; }
+      await sendChat(channelId, `🎮 Honestly, I can't see the game myself and there's no stream title set right now — ${ch.username} can tell me with !game NAME 💚`);
+      return;
+    }
+    if (!isOwner) { await sendChatT(channelId, T.cmdOwnerOnly); return; }
+    ch.gameOverride = arg.slice(0, 80); saveChannels();
+    await sendChat(channelId, `🎮 Locked in! Current game: ${ch.gameOverride} — that's what I'll talk about now. Thanks boss 💚🔥`);
+    return;
+  }
 
   // !cmd / !help / !commands — dynamic list
   if (m === "!cmd" || m === "!help" || m === "!commands") {
@@ -1490,6 +1501,19 @@ async function handleEvent(message) {
     await sendChatT(channelId, ai || getRandom(getMsg(channelId).vote(user, amount)));
     return;
   }
+  if (metadata.subscriptionType === "channel.tip" && channelId && channels[channelId]) {
+    const ch = channels[channelId];
+    const p = payload || {};
+    const rawUser = p.tipper?.username || p.sender?.username || p.user?.username || p.username || (typeof p.tipper === "string" ? p.tipper : null) || "someone";
+    const rawAmt = p.amount ?? p.value ?? p.total ?? p.tipAmount ?? "";
+    const currency = p.currency || p.token || p.asset || "";
+    const amtTxt = rawAmt !== "" ? `${rawAmt}${currency ? " " + String(currency).toUpperCase() : ""}` : "a tip";
+    console.log("[TIP-PAYLOAD]", JSON.stringify(p).slice(0, 500)); // discover the real payload shape on first tip
+    setReaction(channelId, "tip", rawUser);
+    const ai = await aiShout(ch, `${rawUser} just TIPPED ${amtTxt} to ${ch.username}! That's real support with real money — thank them BIG, warm and personal.`, { addName: rawUser });
+    await sendChatT(channelId, ai || getRandom(getMsg(channelId).tip(rawUser, amtTxt)));
+    return;
+  }
   if (metadata.subscriptionType === "channel.follow") {
     const user = payload.follower?.username || payload.follower?.displayName;
     const isBot = isBotName(user);
@@ -1540,6 +1564,7 @@ async function handleEvent(message) {
     if (streamTimers[channelId]) { clearInterval(streamTimers[channelId]); delete streamTimers[channelId]; }
     const ch = channels[channelId];
     ch.streamTitle = ""; // stream ended — clear the "currently live" context
+    ch.gameOverride = "";
     saveChannels();
     if (ch.streamEnd) await sendChat(channelId, ch.streamEnd.replace(/\{name\}/gi, ch.username));
     return;
@@ -1667,7 +1692,8 @@ function renderOverlaySection(username) {
     <label style="margin-top:14px;">🏃 Blazeian Runs — flitzt aus echten Frames über deinen Stream (+ Sprechblasen)</label>
     <input readonly onclick="this.select()" value="${esc(runUrl)}">
     <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. He runs across, turns at the edges &amp; pops speech bubbles. Tune: <code>?size=160&amp;speed=120&amp;fps=12&amp;talk=0</code>.<br>
-    🎨 <b>Farbe wählen:</b> häng <code>?theme=</code> an — <code>green</code> (GMC), <code>blue</code>, <code>cyan</code>, <code>purple</code>, <code>pink</code>, <code>red</code>, <code>gold</code>, oder <code>rgb</code> (Regenbogen 🌈). Beispiel: <code>…/run/NAME?theme=rgb</code></p>
+    🎨 <b>Farbe wählen:</b> häng <code>?theme=</code> an — <code>green</code> (GMC), <code>blue</code>, <code>cyan</code>, <code>purple</code>, <code>pink</code>, <code>red</code>, <code>gold</code>, oder <code>rgb</code> (Regenbogen 🌈). Beispiel: <code>…/run/NAME?theme=rgb</code><br>
+    🪑 <b>Chill-Modus:</b> Er setzt sich zwischendurch auf einen kleinen Hocker am Rand und schaut den Stream mit 👀 — <code>?sit=0</code> schaltet das aus. · 🕺 Kleine Tänze inklusive — <code>?dance=0</code> schaltet sie ab.</p>
   </div>`;
 }
 
@@ -2962,6 +2988,8 @@ app.get("/overlay/run/:username", (req, res) => {
   const rev = req.query.rev === "1"; // reverse run-cycle order
   const stride = Math.max(0.12, Math.min(0.55, parseFloat(req.query.stride) || 0.26)); // legs locked to ground distance (kills moonwalk)
   const mirror = req.query.mirror === "0" ? false : true; // default ON (correct facing); ?mirror=0 to flip back
+  const sit = req.query.sit === "0" ? false : true;     // chill mode: walks to the edge, sits on a stool & watches; ?sit=0 disables
+  const dance = req.query.dance === "0" ? false : true; // occasional little dance (Astro-Bot vibes); ?dance=0 disables
   const CELLS = 11, RUN = 6, CW = 200;
   const THEMES = { green:110, lime:90, blue:210, cyan:190, teal:170, purple:278, magenta:300, pink:325, red:2, orange:32, gold:45, yellow:55 };
   let hue = 110, rgb = false;
@@ -2999,9 +3027,16 @@ app.get("/overlay/run/:username", (req, res) => {
   #bubble.show{opacity:1;transform:translateX(-28%) translateY(-5px);}
   #bubble:after{content:"";position:absolute;left:23px;bottom:-11px;border:10px solid transparent;border-top-color:#4ade80;border-bottom:0;}
   #bubble:before{content:"";position:absolute;left:25px;bottom:-7px;border:8px solid transparent;border-top-color:#0a150a;border-bottom:0;}
+  #stoolB{position:fixed;top:0;left:0;opacity:0;transition:opacity .35s;pointer-events:none;}
+  #stoolB .seat{position:absolute;top:0;left:0;right:0;height:26%;background:linear-gradient(180deg,#2e2118,#1c130c);border:2px solid #4ade80;border-radius:8px;box-shadow:0 0 14px rgba(74,222,128,.5);}
+  #stoolB .legL,#stoolB .legR{position:absolute;bottom:0;width:12%;height:78%;background:linear-gradient(180deg,#241a11,#140d07);border:2px solid rgba(74,222,128,.55);border-radius:4px;}
+  #stoolB .legL{left:8%;}#stoolB .legR{right:8%;}
+  #stoolF{position:fixed;top:0;left:0;opacity:0;transition:opacity .35s;pointer-events:none;background:linear-gradient(180deg,#33251a,#20150c);border:2px solid #4ade80;border-radius:8px;box-shadow:0 0 10px rgba(74,222,128,.4);}
 </style></head><body>
 <div id="portal"><div id="swirl"></div></div>
+<div id="stoolB"><div class="seat"></div><div class="legL"></div><div class="legR"></div></div>
 <div id="wrap"><canvas id="c" width="${size}" height="${size}"></canvas><div id="bubble"></div></div>
+<div id="stoolF"></div>
 <script>
   var size=${size},fps=${fps},speed=${speed},TALK=${talk},PORTAL=${portalOn},REV=${rev},MIRROR=${mirror},CELLS=${CELLS},RUN=${RUN},CW=${CW};
   var STRIDE=size*${stride},distAcc=0,turnUntil=0,turnDir=1;
@@ -3034,6 +3069,27 @@ app.get("/overlay/run/:username", (req, res) => {
   var frame=0,lastF=0,x=20,dir=1,face=1,last=performance.now(),lastHue=0,lastReactTs=0,pendingReact=null;
   var mode='run',actStart=0,actDur=0,actUntil=0,actFrame=6,actHop=false,nextAct=performance.now()+(6000+Math.random()*6000);
   var nextPortal=performance.now()+(70000+Math.random()*40000);
+  var SIT=${sit},SITMSGS=["just gonna chill here and watch with you 💚","best seat in the house 👀","*sits* ...this stream is actually good 🔥","I earned this little break 🛢️💚","don't mind me, just vibing 😌","front row ticket, zero cost 💚"];
+  var stoolB=document.getElementById('stoolB'),stoolF=document.getElementById('stoolF');
+  var stoolW=Math.round(size*0.92),stoolH=Math.round(size*0.34);
+  var sitSide='R',sitTargetX=0,sitUntil=0,nextSitTalk=0,hopStart=0,hopFromY=0;
+  var nextSit=performance.now()+(25000+Math.random()*25000);
+  function seatTopY(){return vh()-10-stoolH;}
+  function sitY(){return seatTopY()-size+Math.round(size*0.16);}
+  function stoolXpos(){return sitSide==='L'?12:vw()-12-stoolW;}
+  function showStool(on){
+    if(on){var sx=stoolXpos(),sy=seatTopY();
+      stoolB.style.width=stoolW+'px';stoolB.style.height=stoolH+'px';
+      stoolB.style.transform='translate('+sx+'px,'+sy+'px)';
+      stoolF.style.width=stoolW+'px';stoolF.style.height=Math.round(size*0.13)+'px';
+      stoolF.style.transform='translate('+sx+'px,'+sy+'px)';
+      stoolB.style.opacity=1;stoolF.style.opacity=1;}
+    else{stoolB.style.opacity=0;stoolF.style.opacity=0;}}
+  function startGoSit(){sitSide=Math.random()<0.5?'L':'R';
+    sitTargetX=Math.max(10,Math.min(vw()-size-10,stoolXpos()+stoolW/2-size/2));mode='gosit';bub.classList.remove('show');}
+  var DANCE=${dance},danceStart=0,danceDur=0,danceLast=0,danceStep=0,DSEQ=[8,7,9,8,10,7],DMSGS=["🕺 vibe check","certified groove moment 💚","the beat took me, sorry not sorry 😌","dance break!! 🔥"];
+  function startDance(){mode='dance';danceStart=performance.now();danceDur=4200+Math.random()*2200;danceLast=0;danceStep=0;face=1;
+    if(TALK&&Math.random()<0.6){bub.textContent=DMSGS[Math.floor(Math.random()*DMSGS.length)];bub.classList.add('show');}}
   var pStart=0,pPhase='open',portalCX=0,charY=0,vy=0,closeStart=0;
   function startPortal(){mode='portal';pStart=performance.now();pPhase='open';vy=0;
     portalCX=size+Math.random()*(vw()-2*size);charY=portalTopY+8;bub.classList.remove('show');}
@@ -3048,6 +3104,7 @@ app.get("/overlay/run/:username", (req, res) => {
     if(type==='raid')return{f:CHEER,m:'RAID!! Welcome in everyone 🔥🔥',d:5200};
     if(type==='follow')return{f:CHEER,m:'New follower '+n+'— welcome! 💚',d:4800};
     if(type==='vote')return{f:THUMB,m:'Thanks for the vote '+n+'👍',d:4200};
+    if(type==='tip')return{f:HEART,m:'TIP!! '+n+'absolute legend, thank you 💚🔥',d:5600};
     return{f:IDLE,m:'',d:3000};}
   if(USER){setInterval(function(){fetch('/api/react/'+encodeURIComponent(USER)).then(function(r){return r.json();})
     .then(function(d){if(d&&d.type&&d.ts&&d.ts>lastReactTs){lastReactTs=d.ts;pendingReact=d;}}).catch(function(){});},3000);}
@@ -3068,7 +3125,7 @@ app.get("/overlay/run/:username", (req, res) => {
       portalEl.style.transform='translate('+(portalCX-pW/2)+'px,'+portalTopY+'px) scale('+(0.5+0.5*ps)+')';
       requestAnimationFrame(tick);return;
     }
-    if(pendingReact){var ri=reactInfo(pendingReact.type,pendingReact.name);pendingReact=null;startAct(ri.f,ri.m,ri.d,false);}
+    if(pendingReact&&mode==='run'){var ri=reactInfo(pendingReact.type,pendingReact.name);pendingReact=null;startAct(ri.f,ri.m,ri.d,false);}
     if(mode==='turn'){
       draw(IDLE);wrap.style.transform='translate('+x+'px,'+groundY()+'px)';
       if(now>=turnUntil){dir=turnDir;face=faceFor(dir);mode='run';lastF=now;distAcc=0;}
@@ -3083,12 +3140,41 @@ app.get("/overlay/run/:username", (req, res) => {
       if(x<=10){x=10;mode='turn';turnUntil=now+360;turnDir=1;bub.classList.remove('show');requestAnimationFrame(tick);return;}
       face=faceFor(dir); // set facing EVERY frame so it's always correct (was only set at edges before)
       draw(frame);wrap.style.transform='translate('+x+'px,'+(groundY()+Math.sin(now/120)*3)+'px)';
+      if(SIT&&now>=nextSit){startGoSit();requestAnimationFrame(tick);return;}
       if(PORTAL&&now>=nextPortal){startPortal();requestAnimationFrame(tick);return;}
       if(now>=nextAct){var roll=Math.random();
-        if(!TALK){nextAct=now+(6000+Math.random()*6000);}
-        else if(roll<0.5){startAct(IDLE,MSGS[Math.floor(Math.random()*MSGS.length)],4600,false);}
-        else if(roll<0.78){startAct(JUMP,'',950,true);}
+        if(!TALK){if(DANCE&&roll<0.25){startDance();}else{nextAct=now+(6000+Math.random()*6000);}}
+        else if(roll<0.42){startAct(IDLE,MSGS[Math.floor(Math.random()*MSGS.length)],4600,false);}
+        else if(roll<0.64){startAct(JUMP,'',950,true);}
+        else if(roll<0.84){startAct(CHEER,"Let's gooo 🔥",2400,false);}
+        else if(DANCE){startDance();}
         else{startAct(CHEER,"Let's gooo 🔥",2400,false);}}
+    }else if(mode==='gosit'){
+      var tgt=sitTargetX,dd=(tgt>x?1:-1),mv2=dd*speed*dt;x+=mv2;distAcc+=Math.abs(mv2);
+      if(distAcc>=STRIDE){frame=REV?((frame-1+RUN)%RUN):((frame+1)%RUN);distAcc-=STRIDE;}
+      face=faceFor(dd);
+      if((dd>0&&x>=tgt)||(dd<0&&x<=tgt)){x=tgt;showStool(true);hopStart=now;hopFromY=groundY();mode='sitHop';}
+      draw(frame);wrap.style.transform='translate('+x+'px,'+(groundY()+Math.sin(now/120)*3)+'px)';
+    }else if(mode==='sitHop'){
+      var hp=Math.min(1,(now-hopStart)/420),hy=hopFromY+(sitY()-hopFromY)*hp-Math.sin(hp*Math.PI)*42;
+      draw(JUMP);wrap.style.transform='translate('+x+'px,'+hy+'px)';
+      if(hp>=1){mode='sitting';sitUntil=now+18000+Math.random()*17000;nextSitTalk=now+2500;}
+    }else if(mode==='sitting'){
+      face=faceFor(sitSide==='L'?1:-1);
+      draw(IDLE);wrap.style.transform='translate('+x+'px,'+(sitY()+Math.sin(now/300)*2)+'px)';
+      if(TALK&&now>=nextSitTalk){bub.textContent=SITMSGS[Math.floor(Math.random()*SITMSGS.length)];bub.classList.add('show');
+        setTimeout(function(){bub.classList.remove('show');},4200);nextSitTalk=now+9000+Math.random()*8000;}
+      if(now>=sitUntil||pendingReact){hopStart=now;mode='unsitHop';bub.classList.remove('show');}
+    }else if(mode==='unsitHop'){
+      var up=Math.min(1,(now-hopStart)/380),uy=sitY()+(groundY()-sitY())*up-Math.sin(up*Math.PI)*30;
+      draw(JUMP);wrap.style.transform='translate('+x+'px,'+uy+'px)';
+      if(up>=1){showStool(false);mode='run';lastF=now;nextSit=now+60000+Math.random()*60000;nextAct=now+4000+Math.random()*4000;}
+    }else if(mode==='dance'){
+      var de=now-danceStart;
+      if(now-danceLast>260){danceLast=now;danceStep=(danceStep+1)%DSEQ.length;}
+      var dy=groundY()-Math.abs(Math.sin(de/160))*26, dx=x+Math.sin(de/210)*10;
+      draw(DSEQ[danceStep]);wrap.style.transform='translate('+dx+'px,'+dy+'px)';
+      if(de>=danceDur){bub.classList.remove('show');mode='run';lastF=now;nextAct=now+(7000+Math.random()*7000);}
     }else if(mode==='act'){
       var yy=groundY();if(actHop){var pr=(now-actStart)/actDur;yy=groundY()-Math.sin(pr*Math.PI)*46;}
       draw(actFrame);wrap.style.transform='translate('+x+'px,'+yy+'px)';
@@ -3116,8 +3202,7 @@ app.listen(PORT, "0.0.0.0", async () => {
   await getAppAccessToken();
   await refreshAccessToken(); // try a fresh user token so subscriptions don't fail with "Unauthorized"
   // ALWAYS mint a fresh session token on boot when we have bot credentials. A session token loaded
-  // from storage may be stale/dead; trusting it caused an "Unauthorized" reconnect loop. Email login
-  // is the reliable path (it worked even when OAuth refresh was broken), so we prefer it every boot.
+  // from storage may be stale/dead; trusting it caused an "Unauthorized" reconnect loop.
   if (BOT_EMAIL && BOT_PASSWORD) {
     console.log("Boot: minting a fresh session token via email login…");
     const ok = await loginSession();
