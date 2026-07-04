@@ -348,8 +348,8 @@
       "stats": {
         "totalVotes": 385,
         "totalSubs": 2,
-        "totalChatMessages": 268,
-        "totalStreamMinutes": 680,
+        "totalChatMessages": 270,
+        "totalStreamMinutes": 685,
         "emotes": {
           "📊": 3,
           "🔥": 48,
@@ -414,7 +414,8 @@
           "🌙": 2,
           "🌈": 1,
           "🧡": 1,
-          "😍": 2
+          "😍": 2,
+          "💃": 3
         },
         "emoteNames": {
           "📊": "📊",
@@ -480,18 +481,11 @@
           "🌙": "🌙",
           "🌈": "🌈",
           "🧡": "🧡",
-          "😍": "😍"
+          "😍": "😍",
+          "💃": "💃"
         }
       },
       "chatMemory": [
-        {
-          "user": "thom6ss_otg",
-          "msg": "🔥🔥🔥🔥🔥"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "My new favorite game @thom6ss_otg"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
@@ -523,6 +517,14 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "fluffy",
+          "msg": "hey hey! have a nice weekend"
+        },
+        {
+          "user": "fluffy",
+          "msg": "💃💃💃"
         }
       ],
       "customCommands": {},
@@ -1424,7 +1426,7 @@
         "totalVotes": 18,
         "totalSubs": 2,
         "totalChatMessages": 15,
-        "totalStreamMinutes": 56,
+        "totalStreamMinutes": 61,
         "emotes": {},
         "emoteNames": {}
       },
