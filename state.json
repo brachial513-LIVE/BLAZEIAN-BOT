@@ -348,13 +348,13 @@
       "stats": {
         "totalVotes": 385,
         "totalSubs": 1,
-        "totalChatMessages": 255,
-        "totalStreamMinutes": 645,
+        "totalChatMessages": 267,
+        "totalStreamMinutes": 650,
         "emotes": {
           "📊": 3,
           "🔥": 48,
           "🤣": 7,
-          "💚": 10,
+          "💚": 11,
           "❤": 1,
           "😜": 1,
           "✌": 1,
@@ -485,34 +485,6 @@
       },
       "chatMemory": [
         {
-          "user": "crypt0k1ng96",
-          "msg": "Use !startquest type goal. Example: !startquest foxhunt 10"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Community Quest Started: foxhunt 0/10. Reward: 100 FoxCoins for everyone who claims after completion."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "RAID LOVE! Huge thanks to @🔥Yooo for bringing the community over. +250 FoxCoins. Balance: 250 FoxCoins."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "RAID LOVE! Huge thanks to @RAID for bringing the community over. +250 FoxCoins. Balance: 250 FoxCoins."
-        },
-        {
-          "user": "octo",
-          "msg": "sleep well when you do thom and have a good!"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Ty ty"
-        },
-        {
-          "user": "thom6ss_otg",
-          "msg": "Appreciate you Octo!"
-        },
-        {
           "user": "thom6ss_otg",
           "msg": "tahnks fellas, had a lot of fun! See you later!"
         },
@@ -523,6 +495,34 @@
         {
           "user": "crypt0k1ng96",
           "msg": "My new favorite game @thom6ss_otg"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thank you @💚 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 3 FoxCoins."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thank you @Thank for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 402 FoxCoins."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 35 damage and earned 10 FoxCoins! Boss HP: 465/500. Your total boss damage: 35. Balance: 135 FoxCoins."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Unknown command. Type !help"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 17 damage and earned 9 FoxCoins! Boss HP: 448/500. Your total boss damage: 52. Balance: 144 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -532,8 +532,8 @@
       "locked": false,
       "followed": true,
       "streamTitle": "WILDER WORLD GAME NIGHT W/ FOX SPIRITS🔥FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Wilder World",
-      "profile": "High-energy IRL streams with lively chat, playful joking, \"Blaze it\", \"GM GM\" slang, and celebratory emojis (🔥, 💚), fueled by FoxBot and Blazeian Bot interactions, loving lighthearted vibes, FoxBot rewards, and \"FoxBot role shoutout\" in the Blaze Builder Challenge.",
-      "_profileAtCount": 191
+      "profile": "High-energy IRL streams with lively chat, playful joking, and celebratory vibes (🔥, 💚). The community loves \"GM GM\", \"Blaze it\", and \"RAID LOVE\" slang. We're fueled by FoxBot and Blazeian Bot interactions, loving lighthearted vibes, FoxBot rewards, and the Blaze Builder Challenge, with a focus on Wilder World game nights.",
+      "_profileAtCount": 259
     },
     "cef62e02-6fea-468d-9f76-2f4feb1060b7": {
       "username": "thom6ss_otg",
@@ -1424,7 +1424,7 @@
         "totalVotes": 18,
         "totalSubs": 1,
         "totalChatMessages": 11,
-        "totalStreamMinutes": 21,
+        "totalStreamMinutes": 26,
         "emotes": {},
         "emoteNames": {}
       },
