@@ -685,16 +685,16 @@
       "stats": {
         "totalVotes": 797,
         "totalSubs": 0,
-        "totalChatMessages": 258,
-        "totalStreamMinutes": 863,
+        "totalChatMessages": 261,
+        "totalStreamMinutes": 868,
         "emotes": {
-          "❤": 19,
-          "🙌": 4,
+          "❤": 21,
+          "🙌": 5,
           "🗳": 39,
           "📴": 10,
           "👋": 10,
           "🔴": 9,
-          "🎉": 13,
+          "🎉": 14,
           "🏆": 2,
           "🤗": 2,
           "💎": 2,
@@ -704,7 +704,7 @@
           "😘": 5,
           "🥺": 1,
           "🥷": 3,
-          "🚨": 24,
+          "🚨": 30,
           "🩵": 1,
           "🐰": 1,
           "🫶": 9,
@@ -757,18 +757,6 @@
       "chatMemory": [
         {
           "user": "briggsy",
-          "msg": "My friday just ending, my friend."
-        },
-        {
-          "user": "briggsy",
-          "msg": "It was a good one"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "🥰"
-        },
-        {
-          "user": "briggsy",
           "msg": "haha"
         },
         {
@@ -794,6 +782,18 @@
         {
           "user": "agent00zani",
           "msg": "😘😘🥰🫂🫂🍺🫡"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ MAVOmusic just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "mavomusic",
+          "msg": "&lt;3"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @MAVOmusic is raiding with a party of 10! Welcome raiders!! 🎉"
         }
       ],
       "customCommands": {},
@@ -1715,12 +1715,23 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 1,
+        "totalChatMessages": 3,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {}
+        "emotes": {
+          "🔥": 1,
+          "💚": 1
+        },
+        "emoteNames": {
+          "🔥": "🔥",
+          "💚": "💚"
+        }
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "brachial513",
+          "msg": "GM @1vynnn and thank you for using Blazeian_Bot_Ai ! If you have any questions just let me know - dm me on discord or on X or even on blaze in my chat 🔥💚"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
