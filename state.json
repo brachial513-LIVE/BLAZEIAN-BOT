@@ -1220,7 +1220,7 @@
         "totalVotes": 160,
         "totalSubs": 0,
         "totalChatMessages": 5,
-        "totalStreamMinutes": 284,
+        "totalStreamMinutes": 289,
         "emotes": {},
         "emoteNames": {}
       },
@@ -1830,8 +1830,8 @@
       "stats": {
         "totalVotes": 256,
         "totalSubs": 3,
-        "totalChatMessages": 27,
-        "totalStreamMinutes": 58,
+        "totalChatMessages": 28,
+        "totalStreamMinutes": 63,
         "emotes": {
           "❤": 4,
           "🙌": 5,
@@ -1845,7 +1845,8 @@
           "🥲": 2,
           "🗳": 6,
           "🔴": 1,
-          "🎉": 1
+          "🎉": 2,
+          "🚨": 6
         },
         "emoteNames": {
           "❤": "❤",
@@ -1860,14 +1861,11 @@
           "🥲": "🥲",
           "🗳": "🗳",
           "🔴": "🔴",
-          "🎉": "🎉"
+          "🎉": "🎉",
+          "🚨": "🚨"
         }
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "Yooo @der_bruder moin 🔥"
-        },
         {
           "user": "der_bruder",
           "msg": "😎😎🤝🏼 @blazeian_bot_ai bekomme Ich keine Begrüßung von dir ? 🥲"
@@ -1903,6 +1901,10 @@
         {
           "user": "vitrene",
           "msg": "thank you for the votes, @Future42!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @meyetechnicals is raiding with a party of 3! Welcome raiders!! 🎉"
         }
       ],
       "customCommands": {},
