@@ -996,7 +996,7 @@
         "totalVotes": 207,
         "totalSubs": 5,
         "totalChatMessages": 191,
-        "totalStreamMinutes": 1260,
+        "totalStreamMinutes": 1265,
         "emotes": {
           "😊": 3,
           "🌵": 23,
@@ -1548,12 +1548,12 @@
       "stats": {
         "totalVotes": 22,
         "totalSubs": 0,
-        "totalChatMessages": 32,
-        "totalStreamMinutes": 34,
+        "totalChatMessages": 34,
+        "totalStreamMinutes": 39,
         "emotes": {
           "🔥": 6,
           "🥰": 3,
-          "😘": 1,
+          "😘": 2,
           "🦊": 3,
           "😂": 1
         },
@@ -1566,14 +1566,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "zsoltech",
-          "msg": "we LIVEEEE"
-        },
-        {
-          "user": "alliveall",
-          "msg": "gmgm Daddy Z 😂"
-        },
         {
           "user": "agent00zani",
           "msg": "love that new shirt"
@@ -1605,6 +1597,14 @@
         {
           "user": "agent00zani",
           "msg": "steal his car"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "gtg guys... hope you get lots of loot"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "😘"
         }
       ],
       "customCommands": {},
@@ -1842,7 +1842,9 @@
       "greeted": true,
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "profile": "**vitrene's Community Profile**\n\nWelcome to vitrene's Blaze community, where the vibes are chill and the generosity is real! We're a tight-knit group of Blazeians who love to support each other, especially with those sweet subs. You'll catch us throwing around German slang like \"geil\" and \"hammer geil\", and maybe even some Fox Spirits Giveaways. Let's keep blazein' and stay amazing!",
+      "_profileAtCount": 20
     }
   },
   "blocklist": [
