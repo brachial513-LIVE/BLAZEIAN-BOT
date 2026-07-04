@@ -542,7 +542,7 @@
         "totalVotes": 438,
         "totalSubs": 2,
         "totalChatMessages": 432,
-        "totalStreamMinutes": 393,
+        "totalStreamMinutes": 398,
         "emotes": {
           "🗳": 27,
           "🤣": 3,
@@ -660,7 +660,7 @@
         "totalVotes": 787,
         "totalSubs": 0,
         "totalChatMessages": 226,
-        "totalStreamMinutes": 785,
+        "totalStreamMinutes": 790,
         "emotes": {
           "❤": 19,
           "🙌": 4,
@@ -944,15 +944,15 @@
       "stats": {
         "totalVotes": 206,
         "totalSubs": 5,
-        "totalChatMessages": 177,
-        "totalStreamMinutes": 1062,
+        "totalChatMessages": 178,
+        "totalStreamMinutes": 1067,
         "emotes": {
           "😊": 3,
           "🌵": 21,
           "🔥": 69,
           "🤪": 1,
           "👋": 4,
-          "👍": 4,
+          "👍": 5,
           "🥰": 1,
           "💜": 1,
           "😇": 1,
@@ -1002,10 +1002,6 @@
       "chatMemory": [
         {
           "user": "cactus_jack440",
-          "msg": "Good Morning @blazeian_bot_ai"
-        },
-        {
-          "user": "cactus_jack440",
           "msg": "@blazeian_bot_ai who is Bonnie?"
         },
         {
@@ -1039,6 +1035,10 @@
         {
           "user": "cactus_jack440",
           "msg": "🌵🔥🌵"
+        },
+        {
+          "user": "steadyember",
+          "msg": "nice setup 👍"
         }
       ],
       "customCommands": {},
@@ -1491,17 +1491,21 @@
       "stats": {
         "totalVotes": 17,
         "totalSubs": 0,
-        "totalChatMessages": 4,
-        "totalStreamMinutes": 0,
+        "totalChatMessages": 6,
+        "totalStreamMinutes": 2,
         "emotes": {
           "❤": 2,
           "🙌": 1,
-          "🗳": 3
+          "🗳": 3,
+          "🔴": 1,
+          "🎉": 1
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
-          "🗳": "🗳"
+          "🗳": "🗳",
+          "🔴": "🔴",
+          "🎉": "🎉"
         }
       },
       "chatMemory": [
@@ -1520,6 +1524,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @zenifirrules just gave 4 vote(s) (total: 4)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -1527,7 +1539,8 @@
       "streamEnd": "",
       "timedMessages": [],
       "greeted": true,
-      "locked": false
+      "locked": false,
+      "streamTitle": "❤️Grinding on Path of Exile 2!❤️ — Path Of Exile 2"
     }
   },
   "blocklist": [
