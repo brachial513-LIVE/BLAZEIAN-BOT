@@ -685,8 +685,8 @@
       "stats": {
         "totalVotes": 797,
         "totalSubs": 1,
-        "totalChatMessages": 279,
-        "totalStreamMinutes": 923,
+        "totalChatMessages": 281,
+        "totalStreamMinutes": 928,
         "emotes": {
           "❤": 21,
           "🙌": 6,
@@ -720,7 +720,9 @@
           "🍺": 1,
           "🫡": 1,
           "💚": 4,
-          "💃": 2
+          "💃": 2,
+          "🙏": 1,
+          "💪": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -755,18 +757,12 @@
           "🍺": "🍺",
           "🫡": "🫡",
           "💚": "💚",
-          "💃": "💃"
+          "💃": "💃",
+          "🙏": "🙏",
+          "💪": "💪"
         }
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "heyyy @agent00zani happy Saturday"
-        },
-        {
-          "user": "guney",
-          "msg": "wussup?"
-        },
         {
           "user": "guney",
           "msg": "missed you guys"
@@ -798,6 +794,14 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @Zer0Cache just gifted a sub to @guney! How generous!! 🙌"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "Have a great stream dude 🙏"
+        },
+        {
+          "user": "guney",
+          "msg": "@Zer0Cache 💪"
         }
       ],
       "customCommands": {},
