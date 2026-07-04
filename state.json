@@ -348,8 +348,8 @@
       "stats": {
         "totalVotes": 390,
         "totalSubs": 3,
-        "totalChatMessages": 361,
-        "totalStreamMinutes": 885,
+        "totalChatMessages": 362,
+        "totalStreamMinutes": 890,
         "emotes": {
           "📊": 3,
           "🔥": 61,
@@ -492,10 +492,6 @@
       "chatMemory": [
         {
           "user": "crypt0k1ng96",
-          "msg": "@crypt0k1ng96, you need 10 FoxCoins to redeem hug. Your balance: 0 FoxCoins."
-        },
-        {
-          "user": "crypt0k1ng96",
           "msg": "🏆 Elite Fox Legend Rewards: 💎📢 sponsor 10000 | 🎥👑 producer 15000 | 🎤🎬 streamsegment 20000 | 🌙🌟 vipnight 25000 | 🏆🦊🔥 foxlegend 50000 | 🎁 Redeem: !redeem name"
         },
         {
@@ -529,6 +525,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "💎 Premium Chaos Rewards: 🦊🏆✨ goldenfox 2500 | 💰🗺️ treasurecall 3000 | ⚔️👹 bossboost 3500 | ✖️2️⃣✨ doublepoints 4000 | 🎟️🎁 giveawayboost 4500 | 🎁❓ mysterybox 5000 | 🎁 Redeem: !redeem name"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
         }
       ],
       "customCommands": {},
