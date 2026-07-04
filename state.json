@@ -877,7 +877,7 @@
       "stats": {
         "totalVotes": 1518,
         "totalSubs": 2,
-        "totalChatMessages": 1798,
+        "totalChatMessages": 1802,
         "totalStreamMinutes": 395,
         "emotes": {
           "❤": 534,
@@ -885,7 +885,7 @@
           "💃": 46,
           "🔥": 114,
           "💚": 8,
-          "👋": 26,
+          "👋": 29,
           "🚨": 49,
           "😊": 1,
           "🚀": 3,
@@ -910,7 +910,7 @@
           "🥚": 3,
           "🙏": 6,
           "😀": 10,
-          "♥": 5,
+          "♥": 7,
           "🥶": 1,
           "😎": 6,
           "🫡": 2,
@@ -991,22 +991,6 @@
         },
         {
           "user": "weri",
-          "msg": "It will be so funny for me"
-        },
-        {
-          "user": "weri",
-          "msg": "Fat head it will make me laugh so hard"
-        },
-        {
-          "user": "sheshi",
-          "msg": "i just enabled the delegate unclefunk"
-        },
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
-        {
-          "user": "weri",
           "msg": "This blue bakkie of uncle dick is a tracktor"
         },
         {
@@ -1024,6 +1008,22 @@
         {
           "user": "weri",
           "msg": "I had so much trouble with my principal"
+        },
+        {
+          "user": "weri",
+          "msg": "And a lady in the shoe"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "unclefunk",
+          "msg": "cheers nerds"
+        },
+        {
+          "user": "venessa",
+          "msg": "👋👋👋♥️♥️"
         }
       ],
       "customCommands": {},
@@ -1032,7 +1032,7 @@
       "locked": false,
       "botVip": true,
       "followed": true,
-      "streamTitle": "Funk Show daily! We are building an incredible game here!!! — Crypto",
+      "streamTitle": "",
       "profile": "Yo, I'm part of the upbeat 'oontz oontz oontz' community, the Funk family, celebrating crypto/OSP game vibes with 'lesgoo'ing our way to success. We love KATSU YUKI Packs, 'Haaaayyy', 'YASSSSS', 'Noice', 'Wow', 'Yaaas', 'Funk O'clock', 'May the fourth bee with you!', 'Shakey shakey jiggle bum', and 'Courage'! Let's 'go' and get that Courage while watching Uncle's Funk Show!",
       "_profileAtCount": 1787,
       "loyalty": {
@@ -1041,7 +1041,8 @@
           "months": 1,
           "tier": 1
         }
-      }
+      },
+      "gameOverride": ""
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -1219,7 +1220,7 @@
         "totalVotes": 85,
         "totalSubs": 0,
         "totalChatMessages": 2,
-        "totalStreamMinutes": 166,
+        "totalStreamMinutes": 171,
         "emotes": {},
         "emoteNames": {}
       },
