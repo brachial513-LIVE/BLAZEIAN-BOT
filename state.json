@@ -989,7 +989,7 @@
         "totalVotes": 207,
         "totalSubs": 5,
         "totalChatMessages": 190,
-        "totalStreamMinutes": 1220,
+        "totalStreamMinutes": 1225,
         "emotes": {
           "😊": 3,
           "🌵": 23,
@@ -1541,8 +1541,8 @@
       "stats": {
         "totalVotes": 22,
         "totalSubs": 0,
-        "totalChatMessages": 18,
-        "totalStreamMinutes": 3,
+        "totalChatMessages": 22,
+        "totalStreamMinutes": 5,
         "emotes": {
           "🔥": 6,
           "🥰": 3,
@@ -1557,22 +1557,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "LFG 😘"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "🔥🦊🔥🦊🔥🦊"
-        },
-        {
-          "user": "zsoltech",
-          "msg": "LFG"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "how was your day today @zsoltech"
-        },
         {
           "user": "zsoltech",
           "msg": "@blazeian_bot_ai whats up"
@@ -1596,6 +1580,22 @@
         {
           "user": "zsoltech",
           "msg": "in my stream"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "its black"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "ughhhh why lol"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "i like your music"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "ok let me try some settings"
         }
       ],
       "customCommands": {},
@@ -1604,7 +1604,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "Wilder World Game — Wilder World"
+      "streamTitle": ""
     },
     "ba279e65-999c-4da7-b674-08b540222e0f": {
       "username": "nadietv",
@@ -1755,17 +1755,19 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 2,
+        "totalChatMessages": 3,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
           "🙌": 2,
-          "🎁": 2
+          "🎁": 2,
+          "🚀": 1
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
-          "🎁": "🎁"
+          "🎁": "🎁",
+          "🚀": "🚀"
         }
       },
       "chatMemory": [
@@ -1776,6 +1778,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @BLAZEIAN_BOT_AI! How generous!! 🙌"
+        },
+        {
+          "user": "vitrene",
+          "msg": "🚀"
         }
       ],
       "customCommands": {},
