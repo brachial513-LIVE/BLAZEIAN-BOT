@@ -1425,8 +1425,8 @@
       "stats": {
         "totalVotes": 392,
         "totalSubs": 5,
-        "totalChatMessages": 626,
-        "totalStreamMinutes": 294,
+        "totalChatMessages": 629,
+        "totalStreamMinutes": 296,
         "emotes": {
           "❤": 17,
           "🙌": 7,
@@ -1434,10 +1434,10 @@
           "✌": 1,
           "😊": 1,
           "👍": 1,
-          "🔴": 4,
-          "🎉": 9,
-          "📴": 4,
-          "👋": 4,
+          "🔴": 5,
+          "🎉": 10,
+          "📴": 5,
+          "👋": 5,
           "⚡": 3,
           "😂": 5,
           "😍": 6,
@@ -1461,7 +1461,8 @@
           "🥳": 1,
           "❗": 2,
           "⭕": 1,
-          "🤗": 1
+          "🤗": 1,
+          "👀": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -1497,22 +1498,11 @@
           "🥳": "🥳",
           "❗": "❗",
           "⭕": "⭕",
-          "🤗": "🤗"
+          "🤗": "🤗",
+          "👀": "👀"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ just_for_lucas just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "lucycork",
-          "msg": "🥳"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @briggsy just gifted a sub to @lucycork! How generous!! 🙌"
@@ -1540,6 +1530,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @guney just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 briggsy is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "👀"
         }
       ],
       "customCommands": {},
@@ -1548,7 +1550,9 @@
       "greeted": true,
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "streamTitle": "",
+      "gameOverride": ""
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -1669,10 +1673,10 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 119,
+        "totalVotes": 169,
         "totalSubs": 0,
-        "totalChatMessages": 22,
-        "totalStreamMinutes": 388,
+        "totalChatMessages": 23,
+        "totalStreamMinutes": 393,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -1705,10 +1709,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "or check your discord dm 🤣💚"
-        },
         {
           "user": "botger",
           "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
@@ -1744,6 +1744,10 @@
         {
           "user": "wisewoof",
           "msg": "fall guys"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @Future42!"
         }
       ],
       "customCommands": {},
