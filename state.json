@@ -1671,21 +1671,22 @@
       "stats": {
         "totalVotes": 119,
         "totalSubs": 0,
-        "totalChatMessages": 15,
-        "totalStreamMinutes": 248,
+        "totalChatMessages": 20,
+        "totalStreamMinutes": 253,
         "emotes": {
           "❤": 2,
           "🙌": 1,
           "🗳": 6,
           "🔴": 2,
-          "🎉": 2,
+          "🎉": 3,
           "📴": 1,
           "👋": 1,
           "🔥": 3,
           "💪": 1,
           "🤖": 1,
           "💚": 2,
-          "🤣": 1
+          "🤣": 1,
+          "🚨": 6
         },
         "emoteNames": {
           "❤": "❤",
@@ -1699,30 +1700,11 @@
           "💪": "💪",
           "🤖": "🤖",
           "💚": "💚",
-          "🤣": "🤣"
+          "🤣": "🤣",
+          "🚨": "🚨"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @TimDraws!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "brachial513",
           "msg": "¡Gracias, @Nadie, por usar Blazeian_Bot_AI en Blaze!\n¡Tengo algo nuevo!\n🔥🔥\n\n\nAquí tienes una novedad de la actualización:\nañade esta fuente a tu OBS:\n\n\nblazeian-bot.onrender.com/overlay/run/\nNadieTv?theme=green&mirror=1&fps=14&speed=200\n\n\nEl pequeño Blazeian camina por ahí, dice cosas agradables y más.\nPor supuesto, puedes cambiar el color, incluso a RGB.\n\n\nSolo cambia \"green\" en la URL por...\nblue\ncyan\npurple\npink\nred\ngold\nRGB\n...-"
@@ -1742,6 +1724,26 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @wisewoof is raiding with a party of 2! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@wisewoof is raiding with a party of 2! Welcome, raiders!"
+        },
+        {
+          "user": "wisewoof",
+          "msg": "wisewoof raid"
+        },
+        {
+          "user": "wisewoof",
+          "msg": "stream was fun"
+        },
+        {
+          "user": "wisewoof",
+          "msg": "im good"
         }
       ],
       "customCommands": {},
