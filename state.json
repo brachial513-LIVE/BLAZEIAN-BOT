@@ -733,8 +733,8 @@
       "stats": {
         "totalVotes": 824,
         "totalSubs": 2,
-        "totalChatMessages": 324,
-        "totalStreamMinutes": 1002,
+        "totalChatMessages": 325,
+        "totalStreamMinutes": 1007,
         "emotes": {
           "❤": 22,
           "🙌": 7,
@@ -743,10 +743,10 @@
           "👋": 13,
           "🔴": 11,
           "🎉": 16,
-          "🏆": 4,
-          "🤗": 4,
-          "💎": 4,
-          "🎁": 6,
+          "🏆": 5,
+          "🤗": 5,
+          "💎": 5,
+          "🎁": 7,
           "📢": 9,
           "🔥": 59,
           "😘": 7,
@@ -814,10 +814,6 @@
       },
       "chatMemory": [
         {
-          "user": "time",
-          "msg": "😊"
-        },
-        {
           "user": "agent00zani",
           "msg": "i am just here chating with a nice person"
         },
@@ -852,6 +848,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @KilllaB just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "🏆 140 Votes + 🤗 Hugs | 💎 1 Sub = 1 Entry | 🎁 Gift Subs = 2 Entries"
         }
       ],
       "customCommands": {},
@@ -1567,7 +1567,7 @@
         "totalVotes": 23,
         "totalSubs": 5,
         "totalChatMessages": 26,
-        "totalStreamMinutes": 292,
+        "totalStreamMinutes": 297,
         "emotes": {
           "💃": 3,
           "🔥": 1
