@@ -736,7 +736,7 @@
         "totalVotes": 824,
         "totalSubs": 2,
         "totalChatMessages": 347,
-        "totalStreamMinutes": 1102,
+        "totalStreamMinutes": 1107,
         "emotes": {
           "❤": 23,
           "🙌": 7,
@@ -1568,22 +1568,22 @@
       "stats": {
         "totalVotes": 33,
         "totalSubs": 5,
-        "totalChatMessages": 32,
+        "totalChatMessages": 33,
         "totalStreamMinutes": 340,
         "emotes": {
           "💃": 6,
-          "🔥": 1
+          "🔥": 1,
+          "😶": 3,
+          "🌫": 3
         },
         "emoteNames": {
           "💃": "💃",
-          "🔥": "🔥"
+          "🔥": "🔥",
+          "😶": "😶",
+          "🌫": "🌫"
         }
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "How are you?"
-        },
         {
           "user": "agent00zani",
           "msg": "Ty Ty for the gift"
@@ -1619,6 +1619,10 @@
         {
           "user": "zer0cache",
           "msg": "Hope you're all good dude!"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️"
         }
       ],
       "customCommands": {},
