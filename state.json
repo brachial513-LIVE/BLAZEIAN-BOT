@@ -1425,7 +1425,7 @@
       "stats": {
         "totalVotes": 392,
         "totalSubs": 6,
-        "totalChatMessages": 633,
+        "totalChatMessages": 635,
         "totalStreamMinutes": 296,
         "emotes": {
           "❤": 17,
@@ -1434,8 +1434,8 @@
           "✌": 1,
           "😊": 1,
           "👍": 1,
-          "🔴": 6,
-          "🎉": 11,
+          "🔴": 7,
+          "🎉": 12,
           "📴": 6,
           "👋": 6,
           "⚡": 3,
@@ -1462,7 +1462,7 @@
           "❗": 2,
           "⭕": 1,
           "🤗": 1,
-          "👀": 1
+          "👀": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -1505,14 +1505,6 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @octo just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @NiRuntz just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @guney just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         },
         {
@@ -1542,6 +1534,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 briggsy is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "👀👀"
         }
       ],
       "customCommands": {},
@@ -1551,7 +1551,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "Late night shenanigans — IRL",
       "gameOverride": ""
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
@@ -1675,8 +1675,8 @@
       "stats": {
         "totalVotes": 169,
         "totalSubs": 0,
-        "totalChatMessages": 45,
-        "totalStreamMinutes": 403,
+        "totalChatMessages": 46,
+        "totalStreamMinutes": 408,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -1690,7 +1690,8 @@
           "🤖": 1,
           "💚": 2,
           "🤣": 1,
-          "🚨": 6
+          "🚨": 6,
+          "😎": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -1705,14 +1706,11 @@
           "🤖": "🤖",
           "💚": "💚",
           "🤣": "🤣",
-          "🚨": "🚨"
+          "🚨": "🚨",
+          "😎": "😎"
         }
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "Gonna stream a Pokémon rip next werk"
-        },
         {
           "user": "future42",
           "msg": "The weekend"
@@ -1748,6 +1746,10 @@
         {
           "user": "future42",
           "msg": "Family is Family Brother......Gonna crash...good chatting with you"
+        },
+        {
+          "user": "future42",
+          "msg": "😎😎😎"
         }
       ],
       "customCommands": {},
