@@ -1075,7 +1075,7 @@
         "totalVotes": 216,
         "totalSubs": 5,
         "totalChatMessages": 209,
-        "totalStreamMinutes": 1605,
+        "totalStreamMinutes": 1610,
         "emotes": {
           "😊": 3,
           "🌵": 23,
@@ -1671,7 +1671,7 @@
         "totalVotes": 119,
         "totalSubs": 0,
         "totalChatMessages": 15,
-        "totalStreamMinutes": 218,
+        "totalStreamMinutes": 223,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -1757,21 +1757,25 @@
       "stats": {
         "totalVotes": 64,
         "totalSubs": 0,
-        "totalChatMessages": 4,
-        "totalStreamMinutes": 151,
+        "totalChatMessages": 5,
+        "totalStreamMinutes": 155,
         "emotes": {
           "❤": 2,
           "🙌": 1,
           "🔥": 1,
           "🔴": 1,
-          "🎉": 1
+          "🎉": 1,
+          "📴": 1,
+          "👋": 1
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
           "🔥": "🔥",
           "🔴": "🔴",
-          "🎉": "🎉"
+          "🎉": "🎉",
+          "📴": "📴",
+          "👋": "👋"
         }
       },
       "chatMemory": [
@@ -1790,6 +1794,10 @@
         {
           "user": "thekingofc",
           "msg": "gm gm"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -1798,7 +1806,8 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🎙️PRIDEESSNCE l PVP INFINITO — Lineage 2"
+      "streamTitle": "",
+      "gameOverride": ""
     },
     "d7c03cf7-26bc-4966-b436-ec5820565e9c": {
       "username": "1vynnn",
