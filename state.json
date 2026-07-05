@@ -1425,8 +1425,8 @@
       "stats": {
         "totalVotes": 392,
         "totalSubs": 6,
-        "totalChatMessages": 643,
-        "totalStreamMinutes": 299,
+        "totalChatMessages": 650,
+        "totalStreamMinutes": 304,
         "emotes": {
           "❤": 17,
           "🙌": 8,
@@ -1509,39 +1509,39 @@
         },
         {
           "user": "triz_draw",
-          "msg": "👀👀"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "Wow"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "This stream is different"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 briggsy is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 briggsy is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "triz_draw",
           "msg": "Late night  shenanigans ?"
         },
         {
           "user": "triz_draw",
           "msg": "Haahaa"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "Whaaaaa"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "It's very dark"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "The fireworks look great"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "Ahahaahah"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "What's that??"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "Fan?"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "Watermelon i"
         }
       ],
       "customCommands": {},
@@ -1675,16 +1675,16 @@
       "stats": {
         "totalVotes": 169,
         "totalSubs": 0,
-        "totalChatMessages": 46,
-        "totalStreamMinutes": 413,
+        "totalChatMessages": 48,
+        "totalStreamMinutes": 415,
         "emotes": {
           "❤": 2,
           "🙌": 1,
           "🗳": 9,
           "🔴": 2,
           "🎉": 3,
-          "📴": 1,
-          "👋": 1,
+          "📴": 2,
+          "👋": 2,
           "🔥": 3,
           "💪": 1,
           "🤖": 1,
@@ -1711,14 +1711,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "The weekend"
-        },
-        {
-          "user": "future42",
-          "msg": "2"
-        },
         {
           "user": "future42",
           "msg": "Then back on for 12 days"
@@ -1750,6 +1742,14 @@
         {
           "user": "future42",
           "msg": "😎😎😎"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -1758,9 +1758,10 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "❤️Grinding on Path of Exile 2!❤️ — Path Of Exile 2",
+      "streamTitle": "",
       "profile": "nadietv - Your go-to for gaming grind sessions & chill vibes! We're all about Path of Exile 2, raiding, and getting those Ws. Don't forget to drop those votes for our streamer & shout out your favorite gaming moments. Let's get this grind on!",
-      "_profileAtCount": 44
+      "_profileAtCount": 44,
+      "gameOverride": ""
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
