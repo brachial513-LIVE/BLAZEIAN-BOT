@@ -376,6 +376,11 @@ const MESSAGES = {
       `OH ${user} VOTED?! ${amount} power coming in hot!! 🔥💚 We see you and we LOVE you 🫶`,
       `${user} dropped ${amount} votes like it's nothing?! 💚 Absolute legend behavior 🔥🫶`,
     ],
+    so: (t) => [
+      `🔥 BIG SHOUTOUT to ${t}!! Absolute vibes over there — go show some love 💚 👉 https://blaze.stream/${t}`,
+      `📣 Crew order: everybody check out ${t}! Certified good vibes 🔥 👉 https://blaze.stream/${t}`,
+      `💚 ${t} is the real deal — drop a follow and tell 'em Blazeian sent you 🤖🔥 👉 https://blaze.stream/${t}`,
+    ],
     tip: (user, amt) => [
       `${user} just TIPPED ${amt}?! 💰💚 REAL support, REAL legend. Thank you SO much 🔥🫶`,
       `WAIT-- ${user} dropped ${amt} as a tip!! 😭💚 You absolute hero, we appreciate you endlessly 🔥`,
@@ -418,6 +423,10 @@ const MESSAGES = {
       `${user} hat mit ${amount} gevotet! 🗳️💚 Danke dass du da bist 🔥`,
       `OH ${user} HAT GEVOTET?! ${amount} Power kommt rein!! 🔥💚 Wir lieben dich 🫶`,
     ],
+    so: (t) => [
+      `🔥 FETTER SHOUTOUT an ${t}!! Da drüben stimmt der Vibe — zeigt Liebe 💚 👉 https://blaze.stream/${t}`,
+      `📣 Crew-Befehl: alle mal bei ${t} vorbeischauen! Zertifiziert gute Vibes 🔥 👉 https://blaze.stream/${t}`,
+    ],
     tip: (user, amt) => [
       `${user} hat gerade ${amt} getippt?! 💰💚 ECHTER Support, ECHTE Legende. Danke dir so sehr 🔥🫶`,
       `WARTE-- ${user} hat ${amt} als Tip dagelassen!! 😭💚 Absoluter Held, wir feiern dich 🔥`,
@@ -454,6 +463,9 @@ const MESSAGES = {
     ],
     vote: (user, amount) => [
       `${user} voto con ${amount}! 🗳️💚 Cada voto importa, gracias 🔥`,
+    ],
+    so: (t) => [
+      `🔥 GRAN SHOUTOUT a ${t}!! Puras buenas vibras — vayan a apoyar 💚 👉 https://blaze.stream/${t}`,
     ],
     tip: (user, amt) => [
       `${user} acaba de dar una propina de ${amt}?! 💰💚 Apoyo REAL, leyenda REAL. Mil gracias 🔥🫶`,
@@ -500,6 +512,7 @@ function buildCommandList(ch) {
   const parts = [
     "💚 BlazeianBot Commands 💚",
     "📊 Stats: !stats | !votes | !subs | !chat | !time | !emote | !game",
+    "📣 Shoutout (owner): !so @name",
     "🌍 Translate: !explain [language] | !setbotlang [language]",
     "💬 Ask me anything: @blazeian_bot_ai weather in [city]",
   ];
@@ -1323,6 +1336,17 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
+  // !so — owner shoutout for another streamer, Blazeian-style: AI hype + channel link.
+  if (m === "!so" || m.startsWith("!so ")) {
+    if (!isOwner) { await sendChatT(channelId, T.cmdOwnerOnly); return; }
+    const target = msg.slice(3).trim().replace(/^@/, "").toLowerCase().split(/\s+/)[0];
+    if (!target) { await sendChat(channelId, "📣 Usage: !so @streamername 💚"); return; }
+    const ai = await aiShout(ch, `HUGE shoutout time! ${ch.username} wants to shout out the streamer "${target}". Hype them up BIG, warm and fun, tell everyone to go check them out and drop a follow. 1-2 sentences of pure Blazeian hype.`);
+    const link = `👉 https://blaze.stream/${target}`;
+    await sendChatT(channelId, ai ? `${ai} ${link}` : getRandom(getMsg(channelId).so(target)));
+    return;
+  }
+
   // !cmd / !help / !commands — dynamic list
   if (m === "!cmd" || m === "!help" || m === "!commands") {
     await sendChatT(channelId, buildCommandList(ch));
@@ -1693,7 +1717,7 @@ function renderOverlaySection(username) {
     <input readonly onclick="this.select()" value="${esc(runUrl)}">
     <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. He runs across, turns at the edges &amp; pops speech bubbles. Tune: <code>?size=160&amp;speed=120&amp;fps=12&amp;talk=0</code>.<br>
     🎨 <b>Farbe wählen:</b> häng <code>?theme=</code> an — <code>green</code> (GMC), <code>blue</code>, <code>cyan</code>, <code>purple</code>, <code>pink</code>, <code>red</code>, <code>gold</code>, oder <code>rgb</code> (Regenbogen 🌈). Beispiel: <code>…/run/NAME?theme=rgb</code><br>
-    🪑 <b>Chill-Modus:</b> Er setzt sich zwischendurch auf einen kleinen Hocker am Rand und schaut den Stream mit 👀 — <code>?sit=0</code> schaltet das aus. · 🕺 Kleine Tänze inklusive — <code>?dance=0</code> schaltet sie ab.</p>
+    🪑 <b>Chill-Modus:</b> Er setzt sich zwischendurch auf einen kleinen Hocker am Rand und schaut den Stream mit 👀 — <code>?sit=0</code> schaltet das aus. · 🕺 Kleine Tänze inklusive — <code>?dance=0</code> schaltet sie ab. · 🎀 <code>?female=1</code> setzt eine Schleife auf den Kopf (Farbe folgt dem Theme).</p>
   </div>`;
 }
 
@@ -2990,6 +3014,7 @@ app.get("/overlay/run/:username", (req, res) => {
   const mirror = req.query.mirror === "0" ? false : true; // default ON (correct facing); ?mirror=0 to flip back
   const sit = req.query.sit === "0" ? false : true;     // chill mode: walks to the edge, sits on a stool & watches; ?sit=0 disables
   const dance = req.query.dance === "0" ? false : true; // occasional little dance (Astro-Bot vibes); ?dance=0 disables
+  const female = req.query.female === "1"; // 🎀 cute bow on the head, above the crown — color follows the theme
   const CELLS = 11, RUN = 6, CW = 200;
   const THEMES = { green:110, lime:90, blue:210, cyan:190, teal:170, purple:278, magenta:300, pink:325, red:2, orange:32, gold:45, yellow:55 };
   let hue = 110, rgb = false;
@@ -3043,6 +3068,7 @@ app.get("/overlay/run/:username", (req, res) => {
   function faceFor(d){var f=(d>0?-1:1);return MIRROR?-f:f;}
   var IDLE=6,JUMP=7,CHEER=8,THUMB=9,HEART=10,pW=${pW},pH=${pH},portalTopY=6;
   var HUE=${hue},RGB=${rgb},MSGS=${JSON.stringify(msgs)},USER=${JSON.stringify(req.params.username)};
+  var FEMALE=${female},bowHue=${hue};
   var cv=document.getElementById('c'),ctx=cv.getContext('2d'),wrap=document.getElementById('wrap'),bub=document.getElementById('bubble');
   var portalEl=document.getElementById('portal');
   var STRIPW=CELLS*CW,STRIPH=CW;
@@ -3094,7 +3120,16 @@ app.get("/overlay/run/:username", (req, res) => {
   function startPortal(){mode='portal';pStart=performance.now();pPhase='open';vy=0;
     portalCX=size+Math.random()*(vw()-2*size);charY=portalTopY+8;bub.classList.remove('show');}
   function draw(fr){ctx.clearRect(0,0,size,size);ctx.save();if(face<0){ctx.translate(size,0);ctx.scale(-1,1);}
-    ctx.drawImage(themed,fr*CW,0,CW,CW,0,0,size,size);ctx.restore();}
+    ctx.drawImage(themed,fr*CW,0,CW,CW,0,0,size,size);ctx.restore();if(FEMALE)drawBow();}
+  function drawBow(){var w=size*0.30,h=size*0.16,cx=size*0.50,cy=size*0.105;
+    var c='hsl('+Math.round(bowHue)+',85%,62%)',d2='hsl('+Math.round(bowHue)+',85%,40%)';
+    ctx.save();ctx.translate(cx,cy);ctx.lineWidth=Math.max(2,size*0.014);ctx.strokeStyle=d2;ctx.fillStyle=c;
+    ctx.beginPath();ctx.moveTo(0,0);ctx.quadraticCurveTo(-w*0.62,-h*1.05,-w*0.52,0);ctx.quadraticCurveTo(-w*0.62,h*1.05,0,0);ctx.closePath();ctx.fill();ctx.stroke();
+    ctx.beginPath();ctx.moveTo(0,0);ctx.quadraticCurveTo(w*0.62,-h*1.05,w*0.52,0);ctx.quadraticCurveTo(w*0.62,h*1.05,0,0);ctx.closePath();ctx.fill();ctx.stroke();
+    ctx.beginPath();ctx.arc(0,0,h*0.34,0,Math.PI*2);ctx.fillStyle=d2;ctx.fill();
+    ctx.fillStyle='rgba(255,255,255,.85)';
+    ctx.beginPath();ctx.arc(-w*0.28,-h*0.25,size*0.012,0,Math.PI*2);ctx.fill();
+    ctx.beginPath();ctx.arc(w*0.30,h*0.18,size*0.012,0,Math.PI*2);ctx.fill();ctx.restore();}
   function hidechar(){ctx.clearRect(0,0,size,size);}
   function startAct(fr,msg,dur,hop){mode='act';actStart=performance.now();actDur=dur;actUntil=actStart+dur;actFrame=fr;actHop=hop;face=1;
     if(msg){bub.textContent=msg;bub.classList.add('show');}else{bub.classList.remove('show');}}
@@ -3110,7 +3145,7 @@ app.get("/overlay/run/:username", (req, res) => {
     .then(function(d){if(d&&d.type&&d.ts&&d.ts>lastReactTs){lastReactTs=d.ts;pendingReact=d;}}).catch(function(){});},3000);}
   function tick(now){if(!ready){requestAnimationFrame(tick);return;}
     var dt=Math.min(0.05,(now-last)/1000);last=now;
-    if(RGB&&now-lastHue>90){lastHue=now;recolor((now/22)%360);}
+    if(RGB&&now-lastHue>90){lastHue=now;bowHue=(now/22)%360;recolor(bowHue);}
     if(mode==='portal'){
       var gy=groundY(),e=now-pStart,ps;
       if(pPhase==='closing'){ps=Math.max(0,1-(now-closeStart)/320);
