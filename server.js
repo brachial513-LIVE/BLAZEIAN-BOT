@@ -234,7 +234,10 @@ async function _writeStateToGitHub() {
             sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
   };
   const content = Buffer.from(JSON.stringify(body, null, 2), "utf8").toString("base64");
-  const payload = { message: `state update ${new Date().toISOString()}`, content, branch: GH_BRANCH };
+  // "[skip render]" tells Render to IGNORE this commit for auto-deploy. The bot commits its state
+  // into the same repo Render watches, so without this every save would trigger a needless redeploy
+  // (and restart the bot mid-stream). With it: bot state saves quietly, only YOUR code commits deploy.
+  const payload = { message: `state update ${new Date().toISOString()} [skip render]`, content, branch: GH_BRANCH };
   if (_stateSha) payload.sha = _stateSha;
   try {
     const res = await axios.put(GH_API, payload, { headers: GH_HEADERS, timeout: 15000 });
@@ -899,14 +902,24 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
     botNote = `\n\nNOTE: "${username}" is another BOT in the chat, not a human. Reply with short, witty, playfully CHEEKY bot-to-bot banter — you can be a little smug/clever that you're the one with a real brain, tease them lightly, keep it fun and good-natured (never actually mean). One short line.`;
   }
   try {
+    // CONVERSATION MEMORY: give the model the last few chat lines so it replies IN CONTEXT instead of
+    // to one isolated message (that's what made it feel "drunk"/random). Cheap, and hugely more human.
+    const recent = (ch?.chatMemory || []).slice(-6)
+      .filter(e => e && e.user && e.msg && !(e.user === username && e.msg === userMessage));
+    const historyMsgs = recent.map(e => ({
+      role: (isBotName(e.user) ? "assistant" : "user"),
+      content: isBotName(e.user) ? e.msg : `${e.user}: ${e.msg}`
+    }));
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL,
       messages: [
-        { role: "system", content: BOT_PERSONA + channelContext(ch) },
-        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} said to you: "${userMessage}"${botNote}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.` }
+        { role: "system", content: BOT_PERSONA + channelContext(ch) +
+          `\n\nRECENT CHAT is provided so you understand the ongoing conversation. Reply to the LAST message from ${username} in the natural flow — reference what was just said if it's relevant, don't repeat yourself, and don't answer as if you have no context.` },
+        ...historyMsgs,
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.` }
       ],
       max_tokens: 120,
-      temperature: 0.95,
+      temperature: 0.9,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 9000 });
     let text = (res.data?.choices?.[0]?.message?.content || "").trim();
     text = text.replace(/^["']|["']$/g, "").replace(new RegExp("^@?" + username + "[,:\\s]+", "i"), "").trim();
@@ -1197,16 +1210,24 @@ async function subscribeAllChannels() {
   console.log(`✅ Rejoin complete: ${report.ok}/${joined.length} channels fully subscribed` +
     (report.fail.length ? ` | ⚠️ chat subscribe FAILED for: ${report.fail.join(", ")}` : ""));
   if (report.fail.length) {
-    // If EVERYTHING failed, the auth token is the culprit — refresh the app token (never expires)
-    // before retrying, so the bot heals itself instead of sitting deaf until a manual token swap.
     const total = report.ok === 0;
+    // THROTTLE: only allow one self-heal pass every 5 minutes. A dead USER token makes every retry
+    // fail (Blaze binds subscriptions to the user token), so an unthrottled retry would loop forever
+    // and hammer the API. One quiet attempt, then wait — no spam, no self-inflicted restart storm.
+    const nowMs = Date.now();
+    if (total && nowMs - _lastSelfHeal < 5 * 60 * 1000) {
+      console.log("Self-heal already ran recently — waiting. If this persists, the USER token needs refreshing (see /admin).");
+      return;
+    }
+    _lastSelfHeal = nowMs;
     const delay = total ? 8000 : 60000;
     console.log(total
-      ? `⚠️ ALL channels failed — refreshing app token and retrying in ${delay/1000}s (self-heal)…`
+      ? `⚠️ ALL channels failed — one self-heal attempt in ${delay/1000}s (app+user token refresh)…`
       : `Retrying failed channels in ${delay/1000}s…`);
     setTimeout(async () => {
-      await getAppAccessToken();               // fresh app token — the reliable, non-expiring path
-      if (SESSION_TOKEN === null && BOT_EMAIL && BOT_PASSWORD) await loginSession();
+      await getAppAccessToken();
+      await refreshAccessToken();
+      if (!SESSION_TOKEN && BOT_EMAIL && BOT_PASSWORD) await loginSession();
       for (const channelId of joined) {
         const name = channels[channelId]?.username || channelId;
         if (!total && !report.fail.includes(name)) continue;
@@ -1217,6 +1238,7 @@ async function subscribeAllChannels() {
     }, delay);
   }
 }
+let _lastSelfHeal = 0;
 
 // =============================================
 // COMMAND HANDLER
@@ -2022,17 +2044,17 @@ app.get("/callback", async (req, res) => {
     if (pa.kind === "owner") {
       ACCESS_TOKEN  = tokenRes.data.accessToken;
       REFRESH_TOKEN = tokenRes.data.refreshToken;
-      console.log("New owner token");
-      saveChannels(); // persist fresh tokens to the cloud immediately
+      console.log("New owner token ✅ — fresh access + refresh token stored.");
+      saveChannelsNow(); // persist fresh tokens to the cloud IMMEDIATELY
       connectSocket();
+      // Re-subscribe every channel with the fresh token so the bot recovers instantly (no restart needed).
+      setTimeout(() => { subscribeAllChannels().catch(e => console.log("post-login resub error:", e.message)); }, 3000);
       return res.send(`
-        <html><body style="background:#111;color:#fff;font-family:sans-serif;padding:40px;">
-          <h1>Login successful!</h1>
-          <p><strong>BLAZE_ACCESS_TOKEN:</strong><br>
-          <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${ACCESS_TOKEN}</textarea></p>
-          <p><strong>BLAZE_REFRESH_TOKEN:</strong><br>
-          <textarea style="width:100%;height:60px;background:#222;color:#f5a623;border:1px solid #444;padding:8px;">${REFRESH_TOKEN}</textarea></p>
-          <p><a href="/" style="color:#f5a623;">Status page</a></p>
+        <html><body style="background:#0a150a;color:#fff;font-family:sans-serif;padding:40px;text-align:center;">
+          <h1 style="color:#4ade80;">🔥 Blazeian is back online!</h1>
+          <p style="color:#cbd5e1;font-size:18px;">Fresh token stored and saved. The bot is re-subscribing to all channels right now — give it about a minute and everything's live again. 💚</p>
+          <p style="color:#64748b;">You can close this tab. No need to touch Render or the terminal.</p>
+          <p><a href="/" style="color:#f5a623;">→ Status page</a></p>
         </body></html>`);
     }
 
