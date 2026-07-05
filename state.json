@@ -741,7 +741,7 @@
       "stats": {
         "totalVotes": 853,
         "totalSubs": 2,
-        "totalChatMessages": 385,
+        "totalChatMessages": 390,
         "totalStreamMinutes": 1658,
         "emotes": {
           "❤": 23,
@@ -750,7 +750,7 @@
           "📴": 13,
           "👋": 13,
           "🔴": 11,
-          "🎉": 17,
+          "🎉": 18,
           "🏆": 5,
           "🤗": 5,
           "💎": 5,
@@ -760,7 +760,7 @@
           "😘": 7,
           "🥺": 1,
           "🥷": 4,
-          "🚨": 36,
+          "🚨": 42,
           "🩵": 1,
           "🐰": 1,
           "🫶": 9,
@@ -781,7 +781,8 @@
           "💪": 1,
           "😊": 1,
           "👀": 1,
-          "💩": 2
+          "💩": 2,
+          "🙄": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -821,30 +822,11 @@
           "💪": "💪",
           "😊": "😊",
           "👀": "👀",
-          "💩": "💩"
+          "💩": "💩",
+          "🙄": "🙄"
         }
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "💃💃💃💃💃"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "🥰 ty ty for everyone that eneter raffle .. dorpped something for you guys"
-        },
-        {
-          "user": "piweb",
-          "msg": "Let's go zani"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "how you doing @piweb"
-        },
-        {
-          "user": "piweb",
-          "msg": "All good"
-        },
         {
           "user": "piweb",
           "msg": "Chilling, watching Brazil vs Norway"
@@ -864,6 +846,26 @@
         {
           "user": "agent00zani",
           "msg": "waiting on teammate"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @CedriCDebleD is raiding with a party of 11! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "lostsnow",
+          "msg": "ZANIIIIIIIIIIII"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "🙄"
+        },
+        {
+          "user": "lostsnow",
+          "msg": "RAAAAID"
+        },
+        {
+          "user": "lostsnow",
+          "msg": "about to grab a snack"
         }
       ],
       "customCommands": {},
@@ -2112,7 +2114,8 @@
       "streamEnd": "",
       "timedMessages": [],
       "greeted": true,
-      "locked": false
+      "locked": false,
+      "followed": true
     }
   },
   "blocklist": [
