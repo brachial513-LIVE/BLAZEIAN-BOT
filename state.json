@@ -1425,8 +1425,8 @@
       "stats": {
         "totalVotes": 392,
         "totalSubs": 6,
-        "totalChatMessages": 650,
-        "totalStreamMinutes": 304,
+        "totalChatMessages": 676,
+        "totalStreamMinutes": 306,
         "emotes": {
           "❤": 17,
           "🙌": 8,
@@ -1436,21 +1436,21 @@
           "👍": 1,
           "🔴": 9,
           "🎉": 14,
-          "📴": 8,
-          "👋": 8,
+          "📴": 9,
+          "👋": 9,
           "⚡": 3,
           "😂": 5,
           "😍": 6,
           "🔥": 16,
           "😎": 3,
-          "😁": 3,
+          "😁": 6,
           "😄": 2,
           "💚": 20,
           "🩵": 10,
           "🩷": 1,
           "💙": 10,
           "💃": 4,
-          "🤣": 3,
+          "🤣": 4,
           "🧡": 13,
           "🚨": 12,
           "😘": 1,
@@ -1462,7 +1462,9 @@
           "❗": 2,
           "⭕": 1,
           "🤗": 1,
-          "👀": 3
+          "👀": 3,
+          "🙂": 2,
+          "↕": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -1499,49 +1501,51 @@
           "❗": "❗",
           "⭕": "⭕",
           "🤗": "🤗",
-          "👀": "👀"
+          "👀": "👀",
+          "🙂": "🙂",
+          "↕": "↕"
         }
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🔴 briggsy is now live! Welcome everyone! 🎉"
+          "user": "briggsy",
+          "msg": "Yes, thank you for kept the chat going."
+        },
+        {
+          "user": "briggsy",
+          "msg": "Oh, thank i g"
         },
         {
           "user": "triz_draw",
-          "msg": "Late night  shenanigans ?"
+          "msg": "🤣 yw"
+        },
+        {
+          "user": "briggsy",
+          "msg": "thank you."
         },
         {
           "user": "triz_draw",
-          "msg": "Haahaa"
+          "msg": "Talking to yourself is good"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Haha"
         },
         {
           "user": "triz_draw",
-          "msg": "Whaaaaa"
+          "msg": "(conmigo)"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Yes, underrated"
         },
         {
           "user": "triz_draw",
-          "msg": "It's very dark"
+          "msg": "Nite nite 🙂‍↕️🙂‍↕️"
         },
         {
-          "user": "triz_draw",
-          "msg": "The fireworks look great"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "Ahahaahah"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "What's that??"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "Fan?"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "Watermelon i"
+          "user": "briggsy",
+          "msg": "Nite nite"
         }
       ],
       "customCommands": {},
@@ -1551,7 +1555,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "Late night shenanigans — IRL",
+      "streamTitle": "",
       "gameOverride": ""
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
