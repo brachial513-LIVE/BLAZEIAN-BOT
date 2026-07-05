@@ -1074,15 +1074,15 @@
       "stats": {
         "totalVotes": 216,
         "totalSubs": 5,
-        "totalChatMessages": 208,
-        "totalStreamMinutes": 1510,
+        "totalChatMessages": 209,
+        "totalStreamMinutes": 1515,
         "emotes": {
           "😊": 3,
           "🌵": 23,
           "🔥": 89,
           "🤪": 1,
           "👋": 7,
-          "👍": 6,
+          "👍": 7,
           "🥰": 1,
           "💜": 1,
           "😇": 1,
@@ -1164,10 +1164,6 @@
       "chatMemory": [
         {
           "user": "angge_wf",
-          "msg": "HI"
-        },
-        {
-          "user": "angge_wf",
           "msg": "HELLO"
         },
         {
@@ -1201,6 +1197,10 @@
         {
           "user": "thekingofc",
           "msg": "gm gm live stream"
+        },
+        {
+          "user": "capt_rob_advent",
+          "msg": "👍"
         }
       ],
       "customCommands": {},
@@ -1757,8 +1757,8 @@
       "stats": {
         "totalVotes": 64,
         "totalSubs": 0,
-        "totalChatMessages": 3,
-        "totalStreamMinutes": 56,
+        "totalChatMessages": 4,
+        "totalStreamMinutes": 61,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -1786,6 +1786,10 @@
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "thekingofc",
+          "msg": "gm gm"
         }
       ],
       "customCommands": {},
@@ -1842,9 +1846,9 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 256,
+        "totalVotes": 312,
         "totalSubs": 3,
-        "totalChatMessages": 29,
+        "totalChatMessages": 30,
         "totalStreamMinutes": 83,
         "emotes": {
           "❤": 4,
@@ -1859,10 +1863,11 @@
           "🥲": 2,
           "🗳": 6,
           "🔴": 1,
-          "🎉": 2,
+          "🎉": 3,
           "🚨": 6,
           "📴": 1,
-          "👋": 1
+          "👋": 1,
+          "🏅": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -1880,14 +1885,11 @@
           "🎉": "🎉",
           "🚨": "🚨",
           "📴": "📴",
-          "👋": "👋"
+          "👋": "👋",
+          "🏅": "🏅"
         }
       },
       "chatMemory": [
-        {
-          "user": "der_bruder",
-          "msg": "Akzeptiert 🥲🤣🤝🏼"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @woshi just gave 130 vote(s) (total: 130)! Thank you!! 🗳️"
@@ -1923,6 +1925,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🏅 You finished 2nd in Badges Matter this week and earned 56 bonus votes from botger! 🎉"
         }
       ],
       "customCommands": {},
