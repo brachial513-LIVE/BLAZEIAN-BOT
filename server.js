@@ -630,7 +630,15 @@ let refreshingForSubscribe = null;
 // then fall back to the user OAuth token. This is the key to self-healing: when the OAuth refresh
 // token dies, the app token still carries every subscription, so the bot NEVER goes deaf and you
 // NEVER have to run get-token.js again. Mirrors how sendChatOnce already works for messages.
-async function subscribe(type, channelId, attempt = 0) {
+async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
+  // GUARD: subscribing before the socket handshake (session_welcome) has set SESSION_ID produces
+  // "NOT_FOUND" / "Invalid socket subscription request". Wait briefly for the session, then bail
+  // gracefully so a premature call can't spam errors — the post-welcome pass will handle it.
+  if (!global.SESSION_ID) {
+    if (sessWait < 10) { await sleep(500); return subscribe(type, channelId, attempt, sessWait + 1); }
+    console.log(`Subscribe skipped (${type} on ${channelId}): no socket session yet`);
+    return false;
+  }
   const body = { type, version: "1", sessionId: global.SESSION_ID, condition: { channelId } };
   // --- try app token first ---
   if (APP_ACCESS_TOKEN) {
@@ -1431,16 +1439,16 @@ async function handleEvent(message) {
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
     console.log("SESSION:", global.SESSION_ID);
-    // Always refresh the user token before (re)subscribing — an expired token makes every subscribe fail with "Unauthorized"
+    // Refresh the user token if we still have a refresh token (best effort). Even if it fails,
+    // we STILL subscribe — the app token carries subscriptions on its own. The old code gated
+    // subscribing behind "if (ACCESS_TOKEN)", so a dead user token meant ZERO subscriptions.
     await refreshAccessToken();
-    if (ACCESS_TOKEN) {
-      // Announce only once per process so reconnects don't spam the channel
-      if (!global.ANNOUNCED) {
-        global.ANNOUNCED = true;
-        await sendChat(BOT_CHANNEL_ID, "BlazeianBot is online! Type !join here to add me to your channel 💚🔥");
-      }
-      setTimeout(subscribeAllChannels, 1500);
+    if (!APP_ACCESS_TOKEN) await getAppAccessToken(); // guarantee the app token exists before subscribing
+    if (!global.ANNOUNCED) {
+      global.ANNOUNCED = true;
+      await sendChat(BOT_CHANNEL_ID, "BlazeianBot is online! Type !join here to add me to your channel 💚🔥");
     }
+    setTimeout(subscribeAllChannels, 1500); // now runs regardless of user-token state
     return;
   }
 
