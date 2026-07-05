@@ -623,17 +623,36 @@ function sendChat(channelId, message) {
 }
 
 let refreshingForSubscribe = null;
+// Subscriptions try the APP token FIRST (client_credentials — never expires, no user login needed),
+// then fall back to the user OAuth token. This is the key to self-healing: when the OAuth refresh
+// token dies, the app token still carries every subscription, so the bot NEVER goes deaf and you
+// NEVER have to run get-token.js again. Mirrors how sendChatOnce already works for messages.
 async function subscribe(type, channelId, attempt = 0) {
+  const body = { type, version: "1", sessionId: global.SESSION_ID, condition: { channelId } };
+  // --- try app token first ---
+  if (APP_ACCESS_TOKEN) {
+    try {
+      await axios.post(`${API}/v1/events/subscriptions`, body, { headers: appHeaders() });
+      console.log(`Subscribed: ${type} on ${channelId} (app)`);
+      return true;
+    } catch (e) {
+      const status = e.response?.status;
+      const msg = e.response?.data?.message || e.message;
+      if (status === 401 && attempt < 2) { await getAppAccessToken(); return subscribe(type, channelId, attempt + 1); }
+      const rl = status === 429 || /too many|rate.?limit/i.test(msg || "");
+      if (rl && attempt < 3) { await sleep(1500 * (attempt + 1)); return subscribe(type, channelId, attempt + 1); }
+      // app token couldn't do it (e.g. 403 needs a user-scoped token) → fall through to user token
+    }
+  }
+  // --- fall back to user token ---
   try {
-    await axios.post(`${API}/v1/events/subscriptions`, {
-      type, version: "1", sessionId: global.SESSION_ID, condition: { channelId }
-    }, { headers: headers() });
-    console.log(`Subscribed: ${type} on ${channelId}`);
+    await axios.post(`${API}/v1/events/subscriptions`, body, { headers: headers() });
+    console.log(`Subscribed: ${type} on ${channelId} (user)`);
     return true;
   } catch (e) {
     const status = e.response?.status;
     const msg = e.response?.data?.message || e.message;
-    const unauth = status === 401 || /unauthor/i.test(msg || "");
+    const unauth = status === 401 || status === 403 || /unauthor|forbidden/i.test(msg || "");
     const rateLimited = status === 429 || /too many|rate.?limit/i.test(msg || "");
     if (unauth && attempt === 0) {
       if (!refreshingForSubscribe) refreshingForSubscribe = refreshAccessToken().finally(() => { refreshingForSubscribe = null; });
@@ -641,7 +660,7 @@ async function subscribe(type, channelId, attempt = 0) {
       if (ok) return subscribe(type, channelId, attempt + 1);
     }
     if (rateLimited && attempt < 3) {
-      await sleep(1500 * (attempt + 1)); // back off, then retry
+      await sleep(1500 * (attempt + 1));
       return subscribe(type, channelId, attempt + 1);
     }
     console.log(`Subscribe error (${type} on ${channelId}):`, msg);
@@ -1178,15 +1197,24 @@ async function subscribeAllChannels() {
   console.log(`✅ Rejoin complete: ${report.ok}/${joined.length} channels fully subscribed` +
     (report.fail.length ? ` | ⚠️ chat subscribe FAILED for: ${report.fail.join(", ")}` : ""));
   if (report.fail.length) {
-    console.log(`Retrying failed channels in 60s…`);
+    // If EVERYTHING failed, the auth token is the culprit — refresh the app token (never expires)
+    // before retrying, so the bot heals itself instead of sitting deaf until a manual token swap.
+    const total = report.ok === 0;
+    const delay = total ? 8000 : 60000;
+    console.log(total
+      ? `⚠️ ALL channels failed — refreshing app token and retrying in ${delay/1000}s (self-heal)…`
+      : `Retrying failed channels in ${delay/1000}s…`);
     setTimeout(async () => {
+      await getAppAccessToken();               // fresh app token — the reliable, non-expiring path
+      if (SESSION_TOKEN === null && BOT_EMAIL && BOT_PASSWORD) await loginSession();
       for (const channelId of joined) {
         const name = channels[channelId]?.username || channelId;
-        if (!report.fail.includes(name)) continue;
-        for (const t of ALL_EVENT_TYPES) { await subscribe(t, channelId); await sleep(400); }
+        if (!total && !report.fail.includes(name)) continue;
+        for (const t of ALL_EVENT_TYPES) { await subscribe(t, channelId); await sleep(300); }
         console.log(`Retried subscriptions for ${name}`);
       }
-    }, 60 * 1000);
+      console.log("Self-heal retry pass complete.");
+    }, delay);
   }
 }
 
