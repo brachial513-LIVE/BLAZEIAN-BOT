@@ -1211,11 +1211,15 @@ async function subscribeAllChannels() {
   const joined = Object.keys(channels);
   console.log(`Subscribing ${joined.length} channel(s)…`);
   // PHASE 1 — chat.message for EVERY channel first. This is the only event that matters for the bot
-  // to HEAR and respond. Doing it first means that even if Blaze kills the socket partway through,
-  // the bot is already listening everywhere it managed to reach before the session died.
+  // to HEAR and respond. A 403 on chat.message means the bot lacks read access in that channel —
+  // following the channel (session token) satisfies Blaze's followers-only gate and unlocks reading.
+  // So: follow first (cheap, idempotent — "already following" is fine), THEN subscribe to chat.
   let heard = 0;
   for (const channelId of joined) {
     if (!global.SESSION_ID) { console.log(`Session died after ${heard} chat subs — stopping; reconnect will resume.`); return; }
+    if (channelId !== BOT_CHANNEL_ID && !channels[channelId]?.followed) {
+      await followChannel(channelId).catch(() => {}); // best-effort; unlocks chat read in followers-only channels
+    }
     if (await subscribe("channel.chat.message", channelId)) heard++;
     await sleep(200);
   }
