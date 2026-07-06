@@ -666,9 +666,9 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
       if (status === 401 && attempt < 2) { await refreshAccessToken(); return subscribe(type, channelId, attempt + 1); }
       const rl = status === 429 || /too many|rate.?limit/i.test(msg || "");
       if (rl && attempt < 3) { await sleep(1500 * (attempt + 1)); return subscribe(type, channelId, attempt + 1); }
-      // FULL response body (not just .message) — channel.tip 400s with just {channelId} as condition,
-      // which contradicts the old assumption that {channelId} alone was correct for tip. Need the raw
-      // body (field-level validation errors etc.) to know what Blaze actually wants instead of guessing.
+      // FULL response body (not just .message) — this is what revealed that "channel.tip" was never a
+      // valid type at all (Blaze's real event is "channel.thanks", see dev.blaze.stream/docs/events).
+      // Kept for any future type-name mismatches — this is what will show the real reason next time.
       console.log(`Subscribe error user-token (${type} on ${channelId}) [${status || "?"}]:`, JSON.stringify(e.response?.data) || msg);
       return false;
     }
@@ -1232,12 +1232,12 @@ function connectSocket() {
 const ALL_EVENT_TYPES = [
   "channel.chat.message", "channel.follow", "channel.vote",
   "channel.subscribe", "channel.subscription.gift",
-  "channel.raid", "stream.online", "stream.offline", "channel.tip"
+  "channel.raid", "stream.online", "stream.offline", "channel.thanks"
 ];
 
 // =============================================
 // SECOND SOCKET — USER-TOKEN EVENTS
-// (channel.follow / channel.vote / channel.subscribe / channel.subscription.gift / channel.tip)
+// (channel.follow / channel.vote / channel.subscribe / channel.subscription.gift / channel.thanks)
 // These 5 types require a USER access token, not the app token. Subscribing them on the
 // app-token socket session used to trigger AUTH_CONTEXT_MISMATCH (409) and kill the WHOLE
 // session, deafening chat.message too. So they get their own fully separate socket/session —
@@ -1271,7 +1271,7 @@ function connectUserSocket() {
   userSocket.on("eventsub", handleUserSocketEvent);
 }
 
-const USER_TOKEN_TYPES = ["channel.follow", "channel.vote", "channel.subscribe", "channel.subscription.gift", "channel.tip"];
+const USER_TOKEN_TYPES = ["channel.follow", "channel.vote", "channel.subscribe", "channel.subscription.gift", "channel.thanks"];
 
 // Only handles the handshake for THIS socket, then hands every real event straight to the
 // existing handleEvent() — same payload shape, same celebration/loyalty/AI logic, unchanged.
@@ -1667,14 +1667,16 @@ async function handleEvent(message) {
     await sendChatT(channelId, ai || getRandom(getMsg(channelId).vote(user, amount)));
     return;
   }
-  if (metadata.subscriptionType === "channel.tip" && channelId && channels[channelId]) {
+  // Blaze's real event name is "channel.thanks" (per dev.blaze.stream/docs/events), not "channel.tip" —
+  // documented payload is { channelId, sender: { username, ... }, amount, message, createdAt }.
+  if (metadata.subscriptionType === "channel.thanks" && channelId && channels[channelId]) {
     const ch = channels[channelId];
     const p = payload || {};
-    const rawUser = p.tipper?.username || p.sender?.username || p.user?.username || p.username || (typeof p.tipper === "string" ? p.tipper : null) || "someone";
+    const rawUser = p.sender?.username || p.tipper?.username || p.user?.username || p.username || (typeof p.tipper === "string" ? p.tipper : null) || "someone";
     const rawAmt = p.amount ?? p.value ?? p.total ?? p.tipAmount ?? "";
-    const currency = p.currency || p.token || p.asset || "";
-    const amtTxt = rawAmt !== "" ? `${rawAmt}${currency ? " " + String(currency).toUpperCase() : ""}` : "a tip";
-    console.log("[TIP-PAYLOAD]", JSON.stringify(p).slice(0, 500)); // discover the real payload shape on first tip
+    const currency = p.currency || p.token || p.asset || "Blaze"; // undocumented in the payload — Blaze's own tip currency
+    const amtTxt = rawAmt !== "" ? `${rawAmt} ${String(currency).toUpperCase()}` : "a tip";
+    console.log("[TIP-PAYLOAD]", JSON.stringify(p).slice(0, 500)); // confirm the real payload shape on first live tip
     setReaction(channelId, "tip", rawUser);
     const ai = await aiShout(ch, `${rawUser} just TIPPED ${amtTxt} to ${ch.username}! That's real support with real money — thank them BIG, warm and personal.`, { addName: rawUser });
     await sendChatT(channelId, ai || getRandom(getMsg(channelId).tip(rawUser, amtTxt)));
