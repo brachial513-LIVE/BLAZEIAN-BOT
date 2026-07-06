@@ -636,6 +636,41 @@ let refreshingForSubscribe = null;
 // token dies, the app token still carries every subscription, so the bot NEVER goes deaf and you
 // NEVER have to run get-token.js again. Mirrors how sendChatOnce already works for messages.
 async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
+  // Blaze splits subscription types by token type — proven from the logs:
+  //   • channel.chat.message → APP token, condition needs { channelId, userId } (bot's identity).
+  //   • channel.raid / stream.online / stream.offline → APP token, condition { channelId } only.
+  //   • channel.follow / vote / subscribe / subscription.gift / tip → "Only user access tokens are
+  //     allowed": USER token, condition { channelId } (NO userId, or it 409s).
+  // These two groups now live on TWO SEPARATE SOCKET SESSIONS so one can never take the other down:
+  //   • app-token group  → global.SESSION_ID     (main socket, connectSocket())
+  //   • user-token group → global.USER_SESSION_ID (second socket, connectUserSocket())
+  const isUserTokenType = USER_TOKEN_TYPES.includes(type);
+
+  if (isUserTokenType) {
+    // GUARD: wait briefly for the user socket's own session handshake.
+    if (!global.USER_SESSION_ID) {
+      if (sessWait < 10) { await sleep(500); return subscribe(type, channelId, attempt, sessWait + 1); }
+      console.log(`Subscribe skipped (${type} on ${channelId}): no user-socket session yet`);
+      return false;
+    }
+    if (!ACCESS_TOKEN) { console.log(`Subscribe skipped (${type} on ${channelId}): no user ACCESS_TOKEN`); return false; }
+    const condition = { channelId };
+    const body = { type, version: "1", sessionId: global.USER_SESSION_ID, condition };
+    try {
+      await axios.post(`${API}/v1/events/subscriptions`, body, { headers: headers() });
+      console.log(`Subscribed (user-token): ${type} on ${channelId}`);
+      return true;
+    } catch (e) {
+      const status = e.response?.status;
+      const msg = e.response?.data?.message || e.message;
+      if (status === 401 && attempt < 2) { await refreshAccessToken(); return subscribe(type, channelId, attempt + 1); }
+      const rl = status === 429 || /too many|rate.?limit/i.test(msg || "");
+      if (rl && attempt < 3) { await sleep(1500 * (attempt + 1)); return subscribe(type, channelId, attempt + 1); }
+      console.log(`Subscribe error user-token (${type} on ${channelId}) [${status || "?"}]:`, msg);
+      return false;
+    }
+  }
+
   // GUARD: subscribing before the socket handshake (session_welcome) has set SESSION_ID produces
   // "NOT_FOUND" / "Invalid socket subscription request". Wait briefly for the session, then bail.
   if (!global.SESSION_ID) {
@@ -643,18 +678,6 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
     console.log(`Subscribe skipped (${type} on ${channelId}): no socket session yet`);
     return false;
   }
-  // Blaze splits subscription types by token type — proven from the logs:
-  //   • channel.chat.message → APP token, condition needs { channelId, userId } (bot's identity).
-  //   • channel.raid / stream.online / stream.offline → APP token, condition { channelId } only.
-  //   • channel.follow / vote / subscribe / subscription.gift → "Only user access tokens are allowed":
-  //     USER token, and the identity lives in the token, so condition is { channelId } (NO userId, or it 409s).
-  //   • channel.tip → USER token, condition { channelId } (userId 400s it).
-  // USER-TOKEN EVENTS ARE DISABLED. Proven from logs: a user-token subscribe on the app-token socket
-  // session triggers AUTH_CONTEXT_MISMATCH (409) and Blaze KILLS THE WHOLE SESSION — deafening the bot
-  // everywhere. follow/vote/subscribe/gift/tip need the BOT's own user token, which we don't have.
-  // Skipping them keeps the session alive so chat.message (the thing that matters) keeps working.
-  const USER_TOKEN_TYPES = new Set(["channel.follow", "channel.vote", "channel.subscribe", "channel.subscription.gift", "channel.tip"]);
-  if (USER_TOKEN_TYPES.has(type)) return false; // silently skip — cannot work and poisons the session
   const condition = { channelId };
   const body = { type, version: "1", sessionId: global.SESSION_ID, condition };
 
@@ -1207,6 +1230,72 @@ const ALL_EVENT_TYPES = [
   "channel.subscribe", "channel.subscription.gift",
   "channel.raid", "stream.online", "stream.offline", "channel.tip"
 ];
+
+// =============================================
+// SECOND SOCKET — USER-TOKEN EVENTS
+// (channel.follow / channel.vote / channel.subscribe / channel.subscription.gift / channel.tip)
+// These 5 types require a USER access token, not the app token. Subscribing them on the
+// app-token socket session used to trigger AUTH_CONTEXT_MISMATCH (409) and kill the WHOLE
+// session, deafening chat.message too. So they get their own fully separate socket/session —
+// if this one dies, chat.message on the main socket keeps working untouched.
+let userSocket = null;
+let userReconnectTimer = null;
+let _userConnecting = false;
+let _userReconnectDelay = 3000;
+
+function connectUserSocket() {
+  if (!ACCESS_TOKEN) { console.log("connectUserSocket skipped — no ACCESS_TOKEN yet"); return; }
+  if (_userConnecting) { console.log("connectUserSocket skipped — already connecting"); return; }
+  _userConnecting = true;
+  if (userReconnectTimer) { clearTimeout(userReconnectTimer); userReconnectTimer = null; }
+  if (userSocket) { try { userSocket.removeAllListeners(); userSocket.disconnect(); } catch(_) {} userSocket = null; }
+  userSocket = io("https://blaze.stream", { path: "/ws", transports: ["websocket"], reconnection: false });
+  userSocket.on("connect", () => { console.log("User socket connected"); _userConnecting = false; _userReconnectDelay = 3000; });
+  userSocket.on("connect_error", err => {
+    console.log("User socket error:", err.message);
+    _userConnecting = false;
+    if (!userReconnectTimer) userReconnectTimer = setTimeout(connectUserSocket, _userReconnectDelay = Math.min(_userReconnectDelay * 1.5, 60000));
+  });
+  userSocket.on("disconnect", reason => {
+    console.log("User socket disconnected:", reason);
+    _userConnecting = false;
+    global.USER_SESSION_ID = null;
+    if (reason !== "io client disconnect" && !userReconnectTimer) {
+      userReconnectTimer = setTimeout(connectUserSocket, _userReconnectDelay = Math.min(_userReconnectDelay * 1.5, 60000));
+    }
+  });
+  userSocket.on("eventsub", handleUserSocketEvent);
+}
+
+const USER_TOKEN_TYPES = ["channel.follow", "channel.vote", "channel.subscribe", "channel.subscription.gift", "channel.tip"];
+
+// Only handles the handshake for THIS socket, then hands every real event straight to the
+// existing handleEvent() — same payload shape, same celebration/loyalty/AI logic, unchanged.
+async function handleUserSocketEvent(message) {
+  const { metadata, payload } = message || {};
+  if (metadata && metadata.messageType === "session_welcome") {
+    global.USER_SESSION_ID = payload.sessionId;
+    console.log("USER_SESSION:", global.USER_SESSION_ID);
+    setTimeout(subscribeUserTokenEvents, 1500);
+    return;
+  }
+  return handleEvent(message);
+}
+
+async function subscribeUserTokenEvents() {
+  if (!global.USER_SESSION_ID) { console.log("subscribeUserTokenEvents: no user session yet"); return; }
+  const ids = Object.keys(channels);
+  console.log(`Subscribing user-token events for ${ids.length} channel(s)…`);
+  for (const channelId of ids) {
+    if (!global.USER_SESSION_ID) { console.log("User session died mid-pass — stopping; reconnect resumes."); return; }
+    for (const t of USER_TOKEN_TYPES) {
+      if (!global.USER_SESSION_ID) return;
+      await subscribe(t, channelId);
+      await sleep(500);
+    }
+  }
+  console.log("✅ User-token subscribe pass complete.");
+}
 
 async function subscribeAllChannels() {
   // BOT'S OWN CHANNEL ABSOLUTELY FIRST — if the session dies mid-pass, the bot must at least hear
@@ -2046,8 +2135,10 @@ app.get("/callback", async (req, res) => {
       console.log("New owner token ✅ — fresh access + refresh token stored.");
       saveChannelsNow(); // persist fresh tokens to the cloud IMMEDIATELY
       connectSocket();
+      connectUserSocket(); // fresh user token → (re)start the follow/vote/sub/gift/tip socket too
       // Re-subscribe every channel with the fresh token so the bot recovers instantly (no restart needed).
       setTimeout(() => { subscribeAllChannels().catch(e => console.log("post-login resub error:", e.message)); }, 3000);
+      setTimeout(() => { subscribeUserTokenEvents().catch(e => console.log("post-login user resub error:", e.message)); }, 3500);
       return res.send(`
         <html><body style="background:#0a150a;color:#fff;font-family:sans-serif;padding:40px;text-align:center;">
           <h1 style="color:#4ade80;">🔥 Blazeian is back online!</h1>
@@ -3295,6 +3386,7 @@ app.listen(PORT, "0.0.0.0", async () => {
     console.log("⚠️ No session token and no BOT_EMAIL/PASSWORD — bot cannot authenticate.");
   }
   connectSocket();
+  if (ACCESS_TOKEN) connectUserSocket(); // second socket for follow/vote/sub/gift/tip, only if we have a user token
 
   // After the socket & subscriptions settle, announce a NEW version to everyone (once).
   setTimeout(startupAnnounce, 25000);
@@ -3305,9 +3397,10 @@ app.listen(PORT, "0.0.0.0", async () => {
     catch (e) { console.log("Keep-alive ping failed:", e.message); }
   }, 10 * 60 * 1000);
 
-  // Socket watchdog
+  // Socket watchdog — both sockets are checked independently, so one dying never blocks the other's reconnect.
   setInterval(() => {
-    if (!socket || socket.disconnected) { console.log("Watchdog: socket down, reconnecting..."); connectSocket(); }
+    if (!socket || socket.disconnected) { console.log("Watchdog: main socket down, reconnecting..."); connectSocket(); }
+    if (ACCESS_TOKEN && (!userSocket || userSocket.disconnected)) { console.log("Watchdog: user socket down, reconnecting..."); connectUserSocket(); }
   }, 5 * 60 * 1000);
 
   // Self-learning: every 8 min, refresh ONE channel's profile (round-robin, staggered to spread API calls).
