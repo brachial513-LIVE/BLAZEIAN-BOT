@@ -649,31 +649,14 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
   //   • channel.follow / vote / subscribe / subscription.gift → "Only user access tokens are allowed":
   //     USER token, and the identity lives in the token, so condition is { channelId } (NO userId, or it 409s).
   //   • channel.tip → USER token, condition { channelId } (userId 400s it).
+  // USER-TOKEN EVENTS ARE DISABLED. Proven from logs: a user-token subscribe on the app-token socket
+  // session triggers AUTH_CONTEXT_MISMATCH (409) and Blaze KILLS THE WHOLE SESSION — deafening the bot
+  // everywhere. follow/vote/subscribe/gift/tip need the BOT's own user token, which we don't have.
+  // Skipping them keeps the session alive so chat.message (the thing that matters) keeps working.
   const USER_TOKEN_TYPES = new Set(["channel.follow", "channel.vote", "channel.subscribe", "channel.subscription.gift", "channel.tip"]);
-  const useUser = USER_TOKEN_TYPES.has(type);
+  if (USER_TOKEN_TYPES.has(type)) return false; // silently skip — cannot work and poisons the session
   const condition = { channelId };
   const body = { type, version: "1", sessionId: global.SESSION_ID, condition };
-
-  if (useUser) {
-    // needs a user access token
-    if (!ACCESS_TOKEN) { console.log(`Subscribe error (${type} on ${channelId}): needs user token, none present`); return false; }
-    try {
-      await axios.post(`${API}/v1/events/subscriptions`, body, { headers: headers() });
-      console.log(`Subscribed: ${type} on ${channelId} (user)`);
-      return true;
-    } catch (e) {
-      const status = e.response?.status;
-      const msg = e.response?.data?.message || e.message;
-      if (status === 401 && attempt === 0 && REFRESH_TOKEN) {
-        if (!refreshingForSubscribe) refreshingForSubscribe = refreshAccessToken().finally(() => { refreshingForSubscribe = null; });
-        if (await refreshingForSubscribe) return subscribe(type, channelId, attempt + 1);
-      }
-      const rl = status === 429 || /too many|rate.?limit/i.test(msg || "");
-      if (rl && attempt < 3) { await sleep(1500 * (attempt + 1)); return subscribe(type, channelId, attempt + 1); }
-      console.log(`Subscribe error (${type} on ${channelId}) [${status || "?"}]:`, msg);
-      return false;
-    }
-  }
 
   // app token path (chat.message, raid, stream.*)
   if (!APP_ACCESS_TOKEN) await getAppAccessToken();
@@ -1191,13 +1174,31 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
 // =============================================
 let socket = null;
 let reconnectTimer = null;
+let _connecting = false;
+let _reconnectDelay = 3000;
 function connectSocket() {
-  if (socket) { try { socket.disconnect(); } catch(_) {} }
+  if (_connecting) { console.log("connectSocket skipped — already connecting"); return; }
+  _connecting = true;
   if (reconnectTimer) { clearTimeout(reconnectTimer); reconnectTimer = null; }
-  socket = io("https://blaze.stream", { path: "/ws", transports: ["websocket"] });
-  socket.on("connect", () => console.log("Socket connected"));
-  socket.on("connect_error", err => { console.log("Socket error:", err.message); reconnectTimer = setTimeout(connectSocket, 10000); });
-  socket.on("disconnect", reason => { console.log("Socket disconnected:", reason); if (reason !== "io client disconnect") reconnectTimer = setTimeout(connectSocket, 5000); });
+  // Fully tear down any previous socket — remove listeners too, or the old socket's disconnect
+  // handler can fire a SECOND reconnect chain. Overlapping sockets from the same account make
+  // Blaze kick each other with "io server disconnect" in an endless loop (the bug we're fixing).
+  if (socket) { try { socket.removeAllListeners(); socket.disconnect(); } catch(_) {} socket = null; }
+  socket = io("https://blaze.stream", { path: "/ws", transports: ["websocket"], reconnection: false });
+  socket.on("connect", () => { console.log("Socket connected"); _connecting = false; _reconnectDelay = 3000; });
+  socket.on("connect_error", err => {
+    console.log("Socket error:", err.message);
+    _connecting = false;
+    if (!reconnectTimer) reconnectTimer = setTimeout(connectSocket, _reconnectDelay = Math.min(_reconnectDelay * 1.5, 60000));
+  });
+  socket.on("disconnect", reason => {
+    console.log("Socket disconnected:", reason);
+    _connecting = false;
+    global.SESSION_ID = null; // session is gone with the socket — mark it dead so stray subscribes bail
+    if (reason !== "io client disconnect" && !reconnectTimer) {
+      reconnectTimer = setTimeout(connectSocket, _reconnectDelay = Math.min(_reconnectDelay * 1.5, 60000));
+    }
+  });
   socket.on("eventsub", handleEvent);
 }
 
