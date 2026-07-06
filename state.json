@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 703,
         "totalSubs": 7,
-        "totalChatMessages": 310,
+        "totalChatMessages": 311,
         "totalStreamMinutes": 103,
         "emotes": {
           "❤": 22,
@@ -295,12 +295,12 @@
       "stats": {
         "totalVotes": 3215,
         "totalSubs": 0,
-        "totalChatMessages": 51,
+        "totalChatMessages": 52,
         "totalStreamMinutes": 0,
         "emotes": {
           "🗳": 102,
-          "❤": 2,
-          "🙌": 1
+          "❤": 4,
+          "🙌": 2
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -309,10 +309,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @guney just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -348,6 +344,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ artistbyron just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -776,7 +776,7 @@
       "stats": {
         "totalVotes": 877,
         "totalSubs": 2,
-        "totalChatMessages": 461,
+        "totalChatMessages": 463,
         "totalStreamMinutes": 1658,
         "emotes": {
           "❤": 32,
@@ -796,7 +796,7 @@
           "🥺": 1,
           "🥷": 6,
           "🚨": 48,
-          "🩵": 1,
+          "🩵": 2,
           "🐰": 1,
           "🫶": 9,
           "🫂": 3,
@@ -810,7 +810,7 @@
           "😅": 1,
           "🍺": 1,
           "🫡": 1,
-          "💚": 12,
+          "💚": 13,
           "💃": 21,
           "🙏": 1,
           "💪": 1,
@@ -819,7 +819,9 @@
           "💩": 2,
           "🙄": 1,
           "😍": 1,
-          "☠": 4
+          "☠": 4,
+          "💙": 1,
+          "🩷": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -862,18 +864,12 @@
           "💩": "💩",
           "🙄": "🙄",
           "😍": "😍",
-          "☠": "☠"
+          "☠": "☠",
+          "💙": "💙",
+          "🩷": "🩷"
         }
       },
       "chatMemory": [
-        {
-          "user": "tuff3rmrd3ano",
-          "msg": "😘😘😘😘😘"
-        },
-        {
-          "user": "time",
-          "msg": "I did a live stream a few hours ago. I'm thinking of doing one again. @grindingdragon"
-        },
         {
           "user": "grindingdragon",
           "msg": "nice i will join the stream than @time"
@@ -905,6 +901,14 @@
         {
           "user": "time",
           "msg": "thank you my dear fren @grindingdragon"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "no problem @time"
+        },
+        {
+          "user": "time",
+          "msg": "💚💙🩷🩵"
         }
       ],
       "customCommands": {},
