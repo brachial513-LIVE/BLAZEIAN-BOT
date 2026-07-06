@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 754,
         "totalSubs": 7,
-        "totalChatMessages": 316,
+        "totalChatMessages": 317,
         "totalStreamMinutes": 103,
         "emotes": {
           "❤": 22,
@@ -57,10 +57,6 @@
       "chatMemory": [
         {
           "user": "brachial513",
-          "msg": "@blazeian_bot_ai Welcome back - do you know why you were dead ?"
-        },
-        {
-          "user": "brachial513",
           "msg": "@blazeian_bot_ai how many people do you already have in your crew now ?"
         },
         {
@@ -94,6 +90,10 @@
         {
           "user": "brachial513",
           "msg": "@blazeian_bot_ai who won the latest WM match ?"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai Who won the latest WM match?"
         }
       ],
       "language": "en",
@@ -293,12 +293,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 4396,
+        "totalVotes": 5396,
         "totalSubs": 0,
-        "totalChatMessages": 56,
+        "totalChatMessages": 58,
         "totalStreamMinutes": 0,
         "emotes": {
-          "🗳": 114,
+          "🗳": 117,
           "❤": 4,
           "🙌": 2
         },
@@ -309,14 +309,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 20 vote(s) (total: 70)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @senseibulrog just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -348,6 +340,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 1000 vote(s) (total: 1000)! Thank you!! 🗳️"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "got your baack"
         }
       ],
       "customCommands": {},
@@ -1781,7 +1781,7 @@
       "stats": {
         "totalVotes": 297,
         "totalSubs": 0,
-        "totalChatMessages": 59,
+        "totalChatMessages": 60,
         "totalStreamMinutes": 419,
         "emotes": {
           "❤": 2,
@@ -1791,7 +1791,7 @@
           "🎉": 4,
           "📴": 2,
           "👋": 2,
-          "🔥": 3,
+          "🔥": 6,
           "💪": 1,
           "🤖": 1,
           "💚": 2,
@@ -1817,10 +1817,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 100 votes, @vRoshi55!"
@@ -1856,6 +1852,10 @@
         {
           "user": "vroshi55",
           "msg": "No problem."
+        },
+        {
+          "user": "just_for_lucas",
+          "msg": "GM 🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -2238,9 +2238,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 146,
+        "totalVotes": 171,
         "totalSubs": 7,
-        "totalChatMessages": 115,
+        "totalChatMessages": 116,
         "totalStreamMinutes": 118,
         "emotes": {
           "❤": 2,
@@ -2251,7 +2251,7 @@
           "🙂": 3,
           "🔥": 3,
           "😎": 2,
-          "🗳": 12,
+          "🗳": 15,
           "📴": 1,
           "👋": 1,
           "🎁": 14
@@ -2272,10 +2272,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "grindingdragon",
-          "msg": "but i did loss"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -2311,6 +2307,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @time just gifted a sub to @sinnerz! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -2404,13 +2404,15 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 3,
+        "totalChatMessages": 7,
         "totalStreamMinutes": 0,
         "emotes": {
-          "💚": 4
+          "💚": 4,
+          "🔥": 3
         },
         "emoteNames": {
-          "💚": "💚"
+          "💚": "💚",
+          "🔥": "🔥"
         }
       },
       "chatMemory": [
@@ -2425,6 +2427,22 @@
         {
           "user": "brachial513",
           "msg": "i keep up the work on the blazeian now, have a good time and thanks for using him ! 💚💚"
+        },
+        {
+          "user": "just_for_lucas",
+          "msg": "GM 🔥🔥🔥"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @just_for_lucas!"
+        },
+        {
+          "user": "dragofenix2",
+          "msg": "Hello hello! have nice stream"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @dragofenix2!"
         }
       ],
       "customCommands": {},
@@ -2460,7 +2478,7 @@
   "auth": {
     "accessToken": "edff7dd686afaadbe11fb12d6075674e",
     "refreshToken": "554bc27d420e9e019f6ee55a07950fbd",
-    "sessionToken": "0344ef9ed422d97f8163e72cb0a19205",
+    "sessionToken": "5af2e1d4fbd2d5559bf989a7c891ddb9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
