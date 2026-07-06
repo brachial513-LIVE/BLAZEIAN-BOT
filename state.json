@@ -1504,14 +1504,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 580,
+        "totalVotes": 600,
         "totalSubs": 8,
-        "totalChatMessages": 686,
+        "totalChatMessages": 687,
         "totalStreamMinutes": 313,
         "emotes": {
           "❤": 17,
           "🙌": 10,
-          "🗳": 42,
+          "🗳": 45,
           "✌": 1,
           "😊": 1,
           "👍": 1,
@@ -1590,10 +1590,6 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @triz_draw just gifted a sub to @just_for_lucas! How generous!! 🙌"
-        },
-        {
-          "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @triz_draw just gifted a sub to @BLAZEIAN_BOT_AI! How generous!! 🙌"
         },
         {
@@ -1627,6 +1623,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -2240,7 +2240,7 @@
       "stats": {
         "totalVotes": 136,
         "totalSubs": 0,
-        "totalChatMessages": 103,
+        "totalChatMessages": 107,
         "totalStreamMinutes": 118,
         "emotes": {
           "❤": 2,
@@ -2251,7 +2251,9 @@
           "🙂": 3,
           "🔥": 3,
           "😎": 2,
-          "🗳": 9
+          "🗳": 9,
+          "📴": 1,
+          "👋": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -2262,26 +2264,12 @@
           "🙂": "🙂",
           "🔥": "🔥",
           "😎": "😎",
-          "🗳": "🗳"
+          "🗳": "🗳",
+          "📴": "📴",
+          "👋": "👋"
         }
       },
       "chatMemory": [
-        {
-          "user": "grindingdragon",
-          "msg": "it look's painful for my brain when i don't understand modern art"
-        },
-        {
-          "user": "botger",
-          "msg": "https://discord.gg/PXwUmyWwN"
-        },
-        {
-          "user": "grindingdragon",
-          "msg": "i know it's hard"
-        },
-        {
-          "user": "grindingdragon",
-          "msg": "the country and the leanguge is Lithuanian"
-        },
         {
           "user": "time",
           "msg": "are you Lithuanian"
@@ -2305,6 +2293,22 @@
         {
           "user": "botger",
           "msg": "https://www.youtube.com/@Time.Art.Studio"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "last time i did play chess it was when i was 10 years old so 16 years ago"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "and that last time was in the turnament"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "but i did loss"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2313,10 +2317,11 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "Digital Drawing / 3d Architectural Design / Editing — Art",
+      "streamTitle": "",
       "profile": "Welcome to Time's Digital Drawing & 3D Architectural Design stream, where creativity meets positivity! This community is all about good vibes, love, and celebration. We're a party crew, shouting \"Let's party!\" and \"❤️\" galore, with members like @brachial513 spreading the love in Turkish. Bring the heat with \"🔥\" and \"💚\" to make Time's day!",
       "_profileAtCount": 80,
-      "followed": true
+      "followed": true,
+      "gameOverride": ""
     },
     "27422fb2-063e-4a22-8cde-41c2baf0f386": {
       "username": "cymatrix",
