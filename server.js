@@ -1213,22 +1213,22 @@ async function subscribeAllChannels() {
   // PHASE 1 — chat.message for EVERY channel first. This is the only event that matters for the bot
   // to HEAR and respond. A 403 on chat.message means the bot lacks read access in that channel —
   // following the channel (session token) satisfies Blaze's followers-only gate and unlocks reading.
-  // So: follow first (cheap, idempotent — "already following" is fine), THEN subscribe to chat.
+  const liveChannels = []; // channels where chat.message actually worked — the only ones worth doing alerts for
   let heard = 0;
   for (const channelId of joined) {
     if (!global.SESSION_ID) { console.log(`Session died after ${heard} chat subs — stopping; reconnect will resume.`); return; }
     if (channelId !== BOT_CHANNEL_ID && !channels[channelId]?.followed) {
       await followChannel(channelId).catch(() => {}); // best-effort; unlocks chat read in followers-only channels
     }
-    if (await subscribe("channel.chat.message", channelId)) heard++;
+    if (await subscribe("channel.chat.message", channelId)) { heard++; liveChannels.push(channelId); }
     await sleep(200);
   }
   console.log(`👂 Listening on ${heard}/${joined.length} channels (chat.message).`);
-  // PHASE 2 — the alert events (follow/vote/sub/gift/raid/stream/tip). Nice-to-have, lower priority.
-  // If the session dies here, we bail immediately instead of hammering a dead session with 404s
-  // (that 404 storm is what was burning Render bandwidth).
+  // PHASE 2 — alert events ONLY for channels where chat.message succeeded. CIRCUIT BREAKER: if the bot
+  // can't even read chat in a channel, every other event there fails too — so we DON'T try them. This
+  // kills the 403/404 storm that was burning Render bandwidth (was ~200 failing requests/pass, now ~0).
   const ALERT_TYPES = ALL_EVENT_TYPES.filter(t => t !== "channel.chat.message");
-  for (const channelId of joined) {
+  for (const channelId of liveChannels) {
     if (!global.SESSION_ID) { console.log("Session died during alert subs — stopping; reconnect will resume."); return; }
     for (const t of ALERT_TYPES) {
       if (!global.SESSION_ID) return;
@@ -1236,7 +1236,7 @@ async function subscribeAllChannels() {
       await sleep(200);
     }
   }
-  console.log("✅ Subscribe pass complete.");
+  console.log(`✅ Subscribe pass complete — ${liveChannels.length} live channel(s).`);
 }
 let _lastSelfHeal = 0;
 
