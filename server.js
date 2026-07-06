@@ -23,6 +23,11 @@ const AI_MODEL       = process.env.AI_MODEL || "llama-3.3-70b-versatile";
 // Cheaper, MUCH higher daily-token-limit model for background work (profile learning,
 // event shoutouts). Keeps the smart 70b's limited daily budget free for real chat replies.
 const AI_MODEL_LIGHT = process.env.AI_MODEL_LIGHT || "llama-3.1-8b-instant";
+// Live web search (optional) — set TAVILY_API_KEY in Render (tavily.com: 1,000 free API credits/month,
+// no credit card required, built for AI-agent use cases) to let the bot answer real "what would I
+// Google" questions (scores, news, prices, etc.) instead of just admitting it can't. Without this
+// key set, the bot stays honest about not having live data.
+const TAVILY_API_KEY = process.env.TAVILY_API_KEY || "";
 
 let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN  || null;
 let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
@@ -857,6 +862,43 @@ async function getWeather(city) {
 }
 
 // =============================================
+// WEB SEARCH (Tavily Search API — 1,000 free API credits/month, no credit card required, built
+// for AI-agent use cases — optional, needs TAVILY_API_KEY)
+// =============================================
+async function webSearch(query) {
+  if (!TAVILY_API_KEY) return null;
+  try {
+    const res = await axios.post("https://api.tavily.com/search",
+      { query, max_results: 4, search_depth: "basic" },
+      { headers: { authorization: `Bearer ${TAVILY_API_KEY}`, "content-type": "application/json" }, timeout: 8000 });
+    const results = (res.data?.results || []).slice(0, 4)
+      .map(r => ({ title: r.title, snippet: r.content, url: r.url }));
+    return results.length ? results : null;
+  } catch (e) {
+    console.log("Web search error:", e.response?.data || e.message);
+    return null;
+  }
+}
+
+// Cheap classifier (light model) — decides whether a message needs a live search at all, so we don't
+// burn a search + extra tokens on every single chat message, only ones that actually ask for real facts.
+async function needsWebSearch(userMessage) {
+  if (!AI_KEY) return false;
+  try {
+    const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
+      model: AI_MODEL_LIGHT,
+      messages: [{ role: "user", content:
+        `Message: "${userMessage}"\n\nDoes answering this need a LIVE web search for current/real-world facts (news, scores, results, prices, "the latest X", who won something, real events) that a language model's training data likely doesn't reliably have? Reply with EXACTLY one word: YES or NO.` }],
+      max_tokens: 3,
+      temperature: 0,
+    }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 5000 });
+    return (res.data?.choices?.[0]?.message?.content || "").trim().toUpperCase().startsWith("Y");
+  } catch (e) {
+    return false; // classifier failing just means we skip search — askAI() still answers normally
+  }
+}
+
+// =============================================
 // AI BRAIN (optional — needs GROQ_API_KEY)
 // =============================================
 const BOT_PERSONA = `You are BlazeianBot, a beloved AI chat companion living inside Blaze.stream livestream chats. You were CREATED by Brachial513, but you now live in and support MANY different streamers' channels — you are NOT owned by any one of them.
@@ -886,8 +928,9 @@ WHAT YOU CAN ACTUALLY DO (this is the truth — NEVER invent or promise features
 - Automatic stream start / stream end announcements.
 - Follow channels automatically so you can talk even in followers-only chat.
 - The channel owner can lock in the CURRENT GAME with "!game NAME" — after that you KNOW the game for certain.
+- Look up real, current facts on the web (news, scores, results, prices, general "what would I Google" questions) via a live web search when needed.
 If someone asks what you can do, describe ONLY the things in this list — honestly and briefly. If you're asked for something you cannot do, just say you can't do that yet rather than pretending. Being trustworthy matters more than sounding impressive.
-You have NO access to real-time sports scores, news, search results, or any live internet data beyond weather and translation. If asked about a game score, tournament result, current event, or "the latest X" — do NOT invent a number or pretend to check something. Say plainly you don't have access to that (live scores/news aren't something you can check), warmly and briefly, instead of making anything up.
+LIVE SEARCH RESULTS: for real-time facts (scores, news, current events, prices, etc.), you may be given "LIVE SEARCH RESULTS" further down in this conversation. When they're present, answer USING ONLY those results — cite them naturally in your reply's own language (e.g. "according to Google, ..." translated appropriately), never invent facts beyond what they say. If NO search results are given for something that clearly needs current/real-world info, say honestly you couldn't find that right now rather than guessing or inventing a number.
 
 YOUR LORE (true events you KNOW about and can joke about):
 - On July 3rd, 2026 you were OFFLINE for a few hours (a technical meltdown — dead tokens, broken storage, the works). Brachial513 pulled an emergency all-nighter and brought you back to life, stronger than before.
@@ -932,6 +975,16 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   } else if (isBot) {
     botNote = `\n\nNOTE: "${username}" is another BOT in the chat, not a human. Reply with short, witty, playfully CHEEKY bot-to-bot banter — you can be a little smug/clever that you're the one with a real brain, tease them lightly, keep it fun and good-natured (never actually mean). One short line.`;
   }
+  // LIVE WEB SEARCH: only for messages that look like they need real current-world facts, and only
+  // when Tavily is configured. Cheap classifier first so we don't search on every chat line.
+  let searchBlock = "";
+  if (TAVILY_API_KEY && await needsWebSearch(userMessage)) {
+    const results = await webSearch(userMessage);
+    searchBlock = results
+      ? `\n\nLIVE SEARCH RESULTS for "${userMessage}" (use ONLY these to answer — cite them naturally, e.g. "according to Google, ..." in your reply's own language; never invent beyond them):\n` +
+        results.map((r, i) => `${i + 1}. ${r.title} — ${r.snippet}`).join("\n")
+      : `\n\nYou tried a live web search for this but got no usable results — be honest you couldn't find a reliable answer right now, don't guess.`;
+  }
   try {
     // CONVERSATION MEMORY: give the model the last few chat lines so it replies IN CONTEXT instead of
     // to one isolated message (that's what made it feel "drunk"/random). Cheap, and hugely more human.
@@ -947,7 +1000,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
         { role: "system", content: BOT_PERSONA + channelContext(ch) +
           `\n\nRECENT CHAT is provided so you understand the ongoing conversation. Reply to the LAST message from ${username} in the natural flow — reference what was just said if it's relevant, don't repeat yourself, and don't answer as if you have no context.` },
         ...historyMsgs,
-        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix. Ignore the language of any earlier chat lines above.` }
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${searchBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix. Ignore the language of any earlier chat lines above.` }
       ],
       max_tokens: 120,
       temperature: 0.9,
