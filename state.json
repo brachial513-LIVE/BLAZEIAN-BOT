@@ -776,7 +776,7 @@
       "stats": {
         "totalVotes": 877,
         "totalSubs": 2,
-        "totalChatMessages": 463,
+        "totalChatMessages": 468,
         "totalStreamMinutes": 1658,
         "emotes": {
           "❤": 32,
@@ -871,26 +871,6 @@
       },
       "chatMemory": [
         {
-          "user": "grindingdragon",
-          "msg": "nice i will join the stream than @time"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @thom6ss_otg is raiding with a party of 5! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "welcome in raided"
-        },
-        {
-          "user": "thom6ss_otg",
-          "msg": "🔥🔥🔥🔥"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "ty ty raid @thom6ss_otg"
-        },
-        {
           "user": "agent00zani",
           "msg": "🔥🔥"
         },
@@ -909,6 +889,26 @@
         {
           "user": "time",
           "msg": "💚💙🩷🩵"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "@time maybe next year  i will go visit turkey"
+        },
+        {
+          "user": "time",
+          "msg": "oww realy"
+        },
+        {
+          "user": "time",
+          "msg": "ı am waiting you"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "i know you going to wait @time :)"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "okay going to eat and watch netflix for a bit"
         }
       ],
       "customCommands": {},
@@ -2233,6 +2233,46 @@
       "timedMessages": [],
       "locked": false,
       "followed": true
+    },
+    "25b30dc5-23f5-4bea-94ce-ba178c73c022": {
+      "username": "time",
+      "language": "en",
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 3,
+        "totalStreamMinutes": 0,
+        "emotes": {
+          "❤": 2,
+          "🙌": 1,
+          "💚": 3
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌",
+          "💚": "💚"
+        }
+      },
+      "chatMemory": [
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "time",
+          "msg": "hey @blazeian_bot_ai welcome my stream"
+        },
+        {
+          "user": "time",
+          "msg": "💚💚💚"
+        }
+      ],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "timedMessages": [],
+      "greeted": true,
+      "locked": false
     }
   },
   "blocklist": [
