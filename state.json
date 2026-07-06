@@ -2239,12 +2239,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 146,
-        "totalSubs": 2,
-        "totalChatMessages": 110,
+        "totalSubs": 4,
+        "totalChatMessages": 112,
         "totalStreamMinutes": 118,
         "emotes": {
           "❤": 2,
-          "🙌": 3,
+          "🙌": 5,
           "💚": 10,
           "🔴": 1,
           "🎉": 1,
@@ -2254,7 +2254,7 @@
           "🗳": 12,
           "📴": 1,
           "👋": 1,
-          "🎁": 4
+          "🎁": 8
         },
         "emoteNames": {
           "❤": "❤",
@@ -2272,14 +2272,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "grindingdragon",
-          "msg": "it's the hardest i fink in the world"
-        },
-        {
-          "user": "time",
-          "msg": "chess or raid?"
-        },
         {
           "user": "botger",
           "msg": "https://www.youtube.com/@Time.Art.Studio"
@@ -2311,6 +2303,14 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @time just gifted a sub to @fluffy! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @time just gifted a sub to @dae! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @time just gifted a sub to @NiRuntz! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -2404,15 +2404,23 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 1,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {}
+        "emotes": {
+          "💚": 2
+        },
+        "emoteNames": {
+          "💚": "💚"
+        }
       },
       "chatMemory": [
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
+        },
+        {
+          "user": "brachial513",
+          "msg": "wow lets gooo ! have fun ! and if you have any problems or ideas feel free to dm me on discord 💚💚"
         }
       ],
       "customCommands": {},
