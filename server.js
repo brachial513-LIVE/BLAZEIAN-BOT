@@ -666,7 +666,10 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
       if (status === 401 && attempt < 2) { await refreshAccessToken(); return subscribe(type, channelId, attempt + 1); }
       const rl = status === 429 || /too many|rate.?limit/i.test(msg || "");
       if (rl && attempt < 3) { await sleep(1500 * (attempt + 1)); return subscribe(type, channelId, attempt + 1); }
-      console.log(`Subscribe error user-token (${type} on ${channelId}) [${status || "?"}]:`, msg);
+      // FULL response body (not just .message) — channel.tip 400s with just {channelId} as condition,
+      // which contradicts the old assumption that {channelId} alone was correct for tip. Need the raw
+      // body (field-level validation errors etc.) to know what Blaze actually wants instead of guessing.
+      console.log(`Subscribe error user-token (${type} on ${channelId}) [${status || "?"}]:`, JSON.stringify(e.response?.data) || msg);
       return false;
     }
   }
