@@ -2280,13 +2280,26 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {}
+        "emotes": {
+          "❤": 2,
+          "🙌": 1
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌"
+        }
       },
-      "chatMemory": [],
-      "customCommands": {},
+      "chatMemory": [
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        }
+      ],
+      "customCommands": {
+        "lg": "Lesssss Gooooooo!!!!! \r\nTime To Get Rocked!\r\nShake It!!!"
+      },
       "streamStart": "",
       "streamEnd": "",
       "timedMessages": [],
