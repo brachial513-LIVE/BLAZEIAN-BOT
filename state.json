@@ -2238,9 +2238,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 136,
+        "totalVotes": 146,
         "totalSubs": 0,
-        "totalChatMessages": 107,
+        "totalChatMessages": 108,
         "totalStreamMinutes": 118,
         "emotes": {
           "❤": 2,
@@ -2251,7 +2251,7 @@
           "🙂": 3,
           "🔥": 3,
           "😎": 2,
-          "🗳": 9,
+          "🗳": 12,
           "📴": 1,
           "👋": 1
         },
@@ -2270,10 +2270,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "are you Lithuanian"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
@@ -2309,6 +2305,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @dae just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
