@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 754,
         "totalSubs": 7,
-        "totalChatMessages": 315,
+        "totalChatMessages": 316,
         "totalStreamMinutes": 103,
         "emotes": {
           "❤": 22,
@@ -56,10 +56,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🟥 GMC HQ OVER AND OUT : We are Offline now - Thanks for beeing a part of this Community 🫂💚"
-        },
-        {
           "user": "brachial513",
           "msg": "@blazeian_bot_ai Welcome back - do you know why you were dead ?"
         },
@@ -94,6 +90,10 @@
         {
           "user": "brachial513",
           "msg": "@blazeian_bot_ai all good ?"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai who won the latest WM match ?"
         }
       ],
       "language": "en",
@@ -1781,7 +1781,7 @@
       "stats": {
         "totalVotes": 297,
         "totalSubs": 0,
-        "totalChatMessages": 56,
+        "totalChatMessages": 59,
         "totalStreamMinutes": 419,
         "emotes": {
           "❤": 2,
@@ -1818,18 +1818,6 @@
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
           "user": "botger",
           "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
         },
@@ -1856,6 +1844,18 @@
         {
           "user": "vroshi55",
           "msg": "Yep. It's my gig until I don't want it anymore."
+        },
+        {
+          "user": "vroshi55",
+          "msg": "I saw that."
+        },
+        {
+          "user": "vroshi55",
+          "msg": "Anyways, BLAZE ON. I'll catch you later."
+        },
+        {
+          "user": "vroshi55",
+          "msg": "No problem."
         }
       ],
       "customCommands": {},
@@ -2432,7 +2432,8 @@
       "streamEnd": "",
       "timedMessages": [],
       "greeted": true,
-      "locked": false
+      "locked": false,
+      "followed": true
     }
   },
   "blocklist": [
@@ -2459,7 +2460,7 @@
   "auth": {
     "accessToken": "03938303144ba96ce7752719f7f5f901",
     "refreshToken": "70b518b48df5e7a0b2d7739de0aa6f8c",
-    "sessionToken": "77d0e45b5059d073c6c61feb8ecf7cf8",
+    "sessionToken": "70bff25441f3438d4274aff9c78bda58",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
