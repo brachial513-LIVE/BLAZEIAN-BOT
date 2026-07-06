@@ -2239,12 +2239,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 146,
-        "totalSubs": 6,
-        "totalChatMessages": 114,
+        "totalSubs": 7,
+        "totalChatMessages": 115,
         "totalStreamMinutes": 118,
         "emotes": {
           "❤": 2,
-          "🙌": 7,
+          "🙌": 8,
           "💚": 10,
           "🔴": 1,
           "🎉": 1,
@@ -2254,7 +2254,7 @@
           "🗳": 12,
           "📴": 1,
           "👋": 1,
-          "🎁": 12
+          "🎁": 14
         },
         "emoteNames": {
           "❤": "❤",
@@ -2272,10 +2272,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "grindingdragon",
-          "msg": "and that last time was in the turnament"
-        },
         {
           "user": "grindingdragon",
           "msg": "but i did loss"
@@ -2311,6 +2307,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @time just gifted a sub to @agent00zani! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @time just gifted a sub to @sinnerz! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -2457,8 +2457,8 @@
   },
   "lastAnnouncedVersion": "2026-07-04.1",
   "auth": {
-    "accessToken": "109bc54e4b9d9200414795c8c647d6d1",
-    "refreshToken": "25354ef7570be93b5bad1f0001f4be5a",
+    "accessToken": "907913b7b9a33d48df15648f3973eb47",
+    "refreshToken": "1a62c090410dacdede1d937bc0ba53e3",
     "sessionToken": "d772eb63bcb30645e27547d44ab2835c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
