@@ -2305,7 +2305,9 @@
           "msg": "@blazeian_bot_ai how are you?"
         }
       ],
-      "customCommands": {},
+      "customCommands": {
+        "lg": "Break the Matrix!\r\nMelt the Speakers!\r\nDrop it like it's your mom!!"
+      },
       "streamStart": "CYMATRIX IS LIVE!!",
       "streamEnd": "AND THIS CONCLUDES OUR BROADCAST DAY",
       "timedMessages": [],
