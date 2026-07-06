@@ -1139,8 +1139,8 @@
       "stats": {
         "totalVotes": 244,
         "totalSubs": 5,
-        "totalChatMessages": 213,
-        "totalStreamMinutes": 2148,
+        "totalChatMessages": 215,
+        "totalStreamMinutes": 2153,
         "emotes": {
           "😊": 3,
           "🌵": 25,
@@ -1181,7 +1181,11 @@
           "🐟": 1,
           "🪸": 1,
           "🐚": 1,
-          "🪼": 1
+          "🪼": 1,
+          "⛴": 1,
+          "🚢": 1,
+          "🛥": 1,
+          "🛳": 1
         },
         "emoteNames": {
           "😊": "😊",
@@ -1223,18 +1227,14 @@
           "🐟": "🐟",
           "🪸": "🪸",
           "🐚": "🐚",
-          "🪼": "🪼"
+          "🪼": "🪼",
+          "⛴": "⛴",
+          "🚢": "🚢",
+          "🛥": "🛥",
+          "🛳": "🛳"
         }
       },
       "chatMemory": [
-        {
-          "user": "grook",
-          "msg": "gm gm have a great day !!"
-        },
-        {
-          "user": "steadyember",
-          "msg": "Have a good 4th everyone"
-        },
         {
           "user": "capt_rob_advent",
           "msg": "👋"
@@ -1266,6 +1266,14 @@
         {
           "user": "cactus_jack440",
           "msg": "🌵🔥🌵"
+        },
+        {
+          "user": "midnight_driv3r",
+          "msg": "blaze love so captain can match the hot beans coming out :P"
+        },
+        {
+          "user": "canawilks",
+          "msg": "⛴️🚢🛥🛳"
         }
       ],
       "customCommands": {},
