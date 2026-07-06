@@ -1727,7 +1727,8 @@
       "streamStart": "",
       "streamEnd": "",
       "greeted": true,
-      "locked": false
+      "locked": false,
+      "followed": true
     },
     "ba279e65-999c-4da7-b674-08b540222e0f": {
       "username": "nadietv",
@@ -1821,7 +1822,8 @@
       "streamTitle": "",
       "profile": "nadietv - Your go-to for gaming grind sessions & chill vibes! We're all about Path of Exile 2, raiding, and getting those Ws. Don't forget to drop those votes for our streamer & shout out your favorite gaming moments. Let's get this grind on!",
       "_profileAtCount": 44,
-      "gameOverride": ""
+      "gameOverride": "",
+      "followed": true
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -1899,7 +1901,8 @@
       "greeted": true,
       "locked": false,
       "streamTitle": "",
-      "gameOverride": ""
+      "gameOverride": "",
+      "followed": true
     },
     "d7c03cf7-26bc-4966-b436-ec5820565e9c": {
       "username": "1vynnn",
@@ -1941,7 +1944,8 @@
       "streamEnd": "",
       "timedMessages": [],
       "greeted": true,
-      "locked": false
+      "locked": false,
+      "followed": true
     },
     "79ffc47e-8cb0-4618-9272-c9281368d26e": {
       "username": "vitrene",
@@ -2189,9 +2193,9 @@
   },
   "lastAnnouncedVersion": "2026-07-04.1",
   "auth": {
-    "accessToken": "b76c90f85fdb0a1c63a449c3cabf7a86",
-    "refreshToken": "7b9847eddf001eb5f0851335665674fc",
-    "sessionToken": "8fcace70b8f18c6b615d7d730a50eb89",
+    "accessToken": "7b6c88662b38ad63fe7bfe6beb5cd431",
+    "refreshToken": null,
+    "sessionToken": "870f07b922f39d6f2285eba8beb4549a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
