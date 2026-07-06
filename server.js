@@ -681,30 +681,21 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
       await sleep(1500 * (attempt + 1));
       return subscribe(type, channelId, attempt + 1);
     }
-    // fall through to the SESSION token — this is the real fix
+    // fall through
   }
-  // --- final fallback: SESSION token (email/password login) ---
-  // The OAuth ACCESS_TOKEN is dead when there's no REFRESH_TOKEN. The SESSION token carries the
-  // user-scope rights needed for chat.message/follow/vote/tip/gift, which is why those were 403/404-ing.
-  if (SESSION_TOKEN && SESSION_VISITOR_ID) {
-    try {
-      await axios.post(`${API}/v1/events/subscriptions`, body, { headers: sessHeaders() });
-      console.log(`Subscribed: ${type} on ${channelId} (session)`);
-      return true;
-    } catch (e) {
-      const status = e.response?.status;
-      const msg = e.response?.data?.message || e.message;
-      // session token might be stale — mint a fresh one ONCE via email/password, then retry
-      if ((status === 401 || status === 403) && attempt === 0 && BOT_EMAIL && BOT_PASSWORD) {
-        const ok = await loginSession();
-        if (ok) return subscribe(type, channelId, attempt + 1);
-      }
-      console.log(`Subscribe error (${type} on ${channelId}) [${status || "?"}]:`, msg);
-      return false;
-    }
+  // The EventSub subscribe API (api.blaze.stream/v1/events/subscriptions) ONLY accepts the OAuth
+  // ACCESS_TOKEN. The app token can't do user-scoped events, and the browser SESSION token returns
+  // 401 here (it's only valid for the bapi/* endpoints like follow). So if we land here, the OAuth
+  // token is dead and there's no refresh token to revive it — the owner MUST re-auth via /login.
+  // We do NOT loop loginSession() here: that just spams Blaze with logins and risks a ban.
+  const now = Date.now();
+  if (!global._lastReauthWarn || now - global._lastReauthWarn > 60000) {
+    global._lastReauthWarn = now;
+    console.log("🔑 SUBSCRIBE BLOCKED — OAuth ACCESS_TOKEN is dead and no REFRESH_TOKEN to renew it.");
+    console.log("   FIX: open https://blazeian-bot.onrender.com/login and log in with the bot account.");
+    console.log("   That mints a fresh ACCESS_TOKEN + REFRESH_TOKEN and subscriptions will work again.");
   }
-  // no session token available at all
-  console.log(`Subscribe error (${type} on ${channelId}) [${userErr?.status || "?"}]:`, userErr?.msg || "no session token — set BLAZE_BOT_EMAIL/PASSWORD or /admin/setsession");
+  console.log(`Subscribe error (${type} on ${channelId}) [${userErr?.status || "?"}]:`, userErr?.msg || "no valid OAuth token");
   return false;
 }
 
