@@ -651,7 +651,7 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
   //   • channel.tip → USER token, condition { channelId } (userId 400s it).
   const USER_TOKEN_TYPES = new Set(["channel.follow", "channel.vote", "channel.subscribe", "channel.subscription.gift", "channel.tip"]);
   const useUser = USER_TOKEN_TYPES.has(type);
-  const condition = (type === "channel.chat.message") ? { channelId, userId: BOT_USER_ID } : { channelId };
+  const condition = { channelId };
   const body = { type, version: "1", sessionId: global.SESSION_ID, condition };
 
   if (useUser) {
@@ -1208,32 +1208,30 @@ const ALL_EVENT_TYPES = [
 ];
 
 async function subscribeAllChannels() {
-  const joined = Object.keys(channels);
-  console.log(`Subscribing ${joined.length} channel(s)…`);
-  // PHASE 1 — chat.message for EVERY channel first. This is the only event that matters for the bot
-  // to HEAR and respond. A 403 on chat.message means the bot lacks read access in that channel —
-  // following the channel (session token) satisfies Blaze's followers-only gate and unlocks reading.
-  const liveChannels = []; // channels where chat.message actually worked — the only ones worth doing alerts for
+  // BOT'S OWN CHANNEL ABSOLUTELY FIRST — if the session dies mid-pass, the bot must at least hear
+  // its own chat. Everything else is secondary to that.
+  const others = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
+  const joined = [BOT_CHANNEL_ID, ...others];
+  console.log(`Subscribing ${joined.length} channel(s)… (home channel first)`);
+  const GAP = 500; // bigger gap: Blaze was kicking the socket (io server disconnect) when we fired too fast
+  const liveChannels = [];
   let heard = 0;
   for (const channelId of joined) {
-    if (!global.SESSION_ID) { console.log(`Session died after ${heard} chat subs — stopping; reconnect will resume.`); return; }
+    if (!global.SESSION_ID) { console.log(`Session died after ${heard} chat subs — stopping; reconnect resumes.`); break; }
     if (channelId !== BOT_CHANNEL_ID && !channels[channelId]?.followed) {
-      await followChannel(channelId).catch(() => {}); // best-effort; unlocks chat read in followers-only channels
+      await followChannel(channelId).catch(() => {});
     }
     if (await subscribe("channel.chat.message", channelId)) { heard++; liveChannels.push(channelId); }
-    await sleep(200);
+    await sleep(GAP);
   }
   console.log(`👂 Listening on ${heard}/${joined.length} channels (chat.message).`);
-  // PHASE 2 — alert events ONLY for channels where chat.message succeeded. CIRCUIT BREAKER: if the bot
-  // can't even read chat in a channel, every other event there fails too — so we DON'T try them. This
-  // kills the 403/404 storm that was burning Render bandwidth (was ~200 failing requests/pass, now ~0).
   const ALERT_TYPES = ALL_EVENT_TYPES.filter(t => t !== "channel.chat.message");
   for (const channelId of liveChannels) {
-    if (!global.SESSION_ID) { console.log("Session died during alert subs — stopping; reconnect will resume."); return; }
+    if (!global.SESSION_ID) { console.log("Session died during alert subs — stopping; reconnect resumes."); return; }
     for (const t of ALERT_TYPES) {
       if (!global.SESSION_ID) return;
       await subscribe(t, channelId);
-      await sleep(200);
+      await sleep(GAP);
     }
   }
   console.log(`✅ Subscribe pass complete — ${liveChannels.length} live channel(s).`);
