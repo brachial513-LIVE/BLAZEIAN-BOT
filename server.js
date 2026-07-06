@@ -881,8 +881,15 @@ async function webSearch(query) {
   }
 }
 
+// Keyword safety net (English + German) — the small/fast classifier model below doesn't always
+// follow the "reply YES/NO" instruction reliably (proven live: it said NO to "who won the latest WM
+// match?"). This regex catches the obvious cases regardless of what the classifier decides.
+const SEARCH_KEYWORDS = /\b(latest|newest|current|today|yesterday|score|scores|result|results|won|winner|news|update|updates|price|prices|who\s+won|what\s+happened|aktuell|neuest|heute|gestern|ergebnis|ergebnisse|gewonnen|gewinner|nachrichten|neuigkeiten|preis|preise)\b/i;
+function looksLikeSearchQuery(msg) { return SEARCH_KEYWORDS.test(msg || ""); }
+
 // Cheap classifier (light model) — decides whether a message needs a live search at all, so we don't
 // burn a search + extra tokens on every single chat message, only ones that actually ask for real facts.
+// Combined with looksLikeSearchQuery() via OR (see askAI()) since this model alone isn't fully reliable.
 async function needsWebSearch(userMessage) {
   if (!AI_KEY) return false;
   try {
@@ -890,7 +897,7 @@ async function needsWebSearch(userMessage) {
       model: AI_MODEL_LIGHT,
       messages: [{ role: "user", content:
         `Message: "${userMessage}"\n\nDoes answering this need a LIVE web search for current/real-world facts (news, scores, results, prices, "the latest X", who won something, real events) that a language model's training data likely doesn't reliably have? Reply with EXACTLY one word: YES or NO.` }],
-      max_tokens: 3,
+      max_tokens: 6,
       temperature: 0,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 5000 });
     return (res.data?.choices?.[0]?.message?.content || "").trim().toUpperCase().startsWith("Y");
@@ -932,7 +939,7 @@ WHAT YOU CAN ACTUALLY DO (this is the truth — NEVER invent or promise features
 - The channel owner can lock in the CURRENT GAME with "!game NAME" — after that you KNOW the game for certain.
 - Look up real, current facts on the web (news, scores, results, prices, general "what would I Google" questions) via a live web search when needed.
 If someone asks what you can do, describe ONLY the things in this list — honestly and briefly. If you're asked for something you cannot do, just say you can't do that yet rather than pretending. Being trustworthy matters more than sounding impressive.
-LIVE SEARCH RESULTS: for real-time facts (scores, news, current events, prices, etc.), you may be given "LIVE SEARCH RESULTS" further down in this conversation. When they're present, answer USING ONLY those results — cite them naturally in your reply's own language (e.g. "according to Google, ..." translated appropriately), never invent facts beyond what they say. If NO search results are given for something that clearly needs current/real-world info, say honestly you couldn't find that right now rather than guessing or inventing a number.
+LIVE SEARCH RESULTS: for real-time facts (scores, news, current events, prices, etc.), you may be given a block literally labeled "LIVE SEARCH RESULTS" further down in THIS message. Only if that exact block is present may you answer using it (cite naturally, translated into your reply's language — never invent facts beyond what it says). If that block is NOT present, you have NOT checked anything and NOT found anything — do not say "let me check", "I'm looking into it", "according to Google" or similar, even as a placeholder. Just say plainly, in one short line, that you can't look that up right now.
 
 YOUR LORE (true events you KNOW about and can joke about):
 - On July 3rd, 2026 you were OFFLINE for a few hours (a technical meltdown — dead tokens, broken storage, the works). Brachial513 pulled an emergency all-nighter and brought you back to life, stronger than before.
@@ -981,8 +988,9 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   // when Tavily is configured. Cheap classifier first so we don't search on every chat line.
   let searchBlock = "";
   if (TAVILY_API_KEY) {
-    const wants = await needsWebSearch(userMessage);
-    console.log(`[SEARCH] needsWebSearch=${wants ? "YES" : "no"} for: "${userMessage}"`);
+    const keywordHit = looksLikeSearchQuery(userMessage);
+    const wants = keywordHit || await needsWebSearch(userMessage);
+    console.log(`[SEARCH] needsWebSearch=${wants ? "YES" : "no"} (keyword=${keywordHit}) for: "${userMessage}"`);
     if (wants) {
       const results = await webSearch(userMessage);
       console.log(`[SEARCH] Tavily returned ${results ? results.length : 0} result(s)`);
