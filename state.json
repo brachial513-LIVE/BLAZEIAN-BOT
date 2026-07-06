@@ -2240,7 +2240,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 3,
+        "totalChatMessages": 4,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
@@ -2265,6 +2265,10 @@
         {
           "user": "time",
           "msg": "💚💚💚"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "hello i'm waiting for the stream"
         }
       ],
       "customCommands": {},
@@ -2300,8 +2304,8 @@
       "customCommands": {
         "lg": "Lesssss Gooooooo!!!!! \r\nTime To Get Rocked!\r\nShake It!!!"
       },
-      "streamStart": "",
-      "streamEnd": "",
+      "streamStart": "CYMATRIX IS LIVE!!",
+      "streamEnd": "AND THIS CONCLUDES OUR BROADCAST DAY",
       "timedMessages": [],
       "locked": false,
       "followed": true,
