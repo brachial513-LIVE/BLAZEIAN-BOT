@@ -663,7 +663,8 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
   } catch (e) {
     const status = e.response?.status;
     const msg = e.response?.data?.message || e.message;
-    const unauth = status === 401 || status === 403 || /unauthor|forbidden/i.test(msg || "");
+    const unauth = status === 401 || /unauthor/i.test(msg || "");
+    const forbidden = status === 403 || /forbidden/i.test(msg || "");
     const rateLimited = status === 429 || /too many|rate.?limit/i.test(msg || "");
     if (unauth && attempt === 0) {
       if (!refreshingForSubscribe) refreshingForSubscribe = refreshAccessToken().finally(() => { refreshingForSubscribe = null; });
@@ -674,7 +675,18 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
       await sleep(1500 * (attempt + 1));
       return subscribe(type, channelId, attempt + 1);
     }
-    console.log(`Subscribe error (${type} on ${channelId}):`, msg);
+    // 403 = Blaze rejected the request. The #1 cause here is a DEAD SESSION_ID: the socket got
+    // kicked (io server disconnect) and every subscribe still sends the old, now-invalid sessionId.
+    // Refreshing tokens can NOT fix this — only a fresh socket handshake gives a new SESSION_ID.
+    // So on a 403 storm, force ONE socket reconnect (guarded), which re-runs subscribeAllChannels
+    // from a clean session. This is the fix for the endless "1/24 channels subscribed" bug.
+    if (forbidden && !global.RECONNECTING_FOR_403) {
+      global.RECONNECTING_FOR_403 = true;
+      console.log("⚠️ 403 — session likely dead, forcing socket reconnect for a fresh SESSION_ID…");
+      global.SESSION_ID = null; // stop other in-flight subscribes from hammering the dead session
+      setTimeout(() => { try { connectSocket(); } catch (_) {} }, 3000);
+    }
+    console.log(`Subscribe error (${type} on ${channelId}) [${status || "?"}]:`, msg);
     return false;
   }
 }
@@ -1228,17 +1240,28 @@ async function subscribeAllChannels() {
       return;
     }
     _lastSelfHeal = nowMs;
-    const delay = total ? 8000 : 60000;
-    console.log(total
-      ? `⚠️ ALL channels failed — one self-heal attempt in ${delay/1000}s (app+user token refresh)…`
-      : `Retrying failed channels in ${delay/1000}s…`);
+    // TOTAL failure = almost always a dead SESSION_ID (socket got kicked). Token refresh alone
+    // can't fix that — reconnect the socket, and its fresh session_welcome re-runs subscribeAllChannels
+    // with a valid SESSION_ID. PARTIAL failure = a few channels; just retry those with tokens refreshed.
+    if (total) {
+      console.log("⚠️ ALL channels failed — reconnecting socket in 8s for a fresh session (this self-heals the 403 storm)…");
+      setTimeout(async () => {
+        await getAppAccessToken();
+        await refreshAccessToken();
+        if (!SESSION_TOKEN && BOT_EMAIL && BOT_PASSWORD) await loginSession();
+        try { connectSocket(); } catch (_) {} // fresh socket → new SESSION_ID → session_welcome re-subscribes everything
+      }, 8000);
+      return;
+    }
+    const delay = 60000;
+    console.log(`Retrying failed channels in ${delay/1000}s…`);
     setTimeout(async () => {
       await getAppAccessToken();
       await refreshAccessToken();
       if (!SESSION_TOKEN && BOT_EMAIL && BOT_PASSWORD) await loginSession();
       for (const channelId of joined) {
         const name = channels[channelId]?.username || channelId;
-        if (!total && !report.fail.includes(name)) continue;
+        if (!report.fail.includes(name)) continue;
         for (const t of ALL_EVENT_TYPES) { await subscribe(t, channelId); await sleep(300); }
         console.log(`Retried subscriptions for ${name}`);
       }
@@ -1438,6 +1461,7 @@ async function handleEvent(message) {
 
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
+    global.RECONNECTING_FOR_403 = false; // fresh session → allow a future 403-triggered reconnect if ever needed again
     console.log("SESSION:", global.SESSION_ID);
     // Refresh the user token if we still have a refresh token (best effort). Even if it fails,
     // we STILL subscribe — the app token carries subscriptions on its own. The old code gated
