@@ -1208,59 +1208,31 @@ const ALL_EVENT_TYPES = [
 ];
 
 async function subscribeAllChannels() {
-  // OWN channel first — the bot must always hear its home chat.
-  for (const t of ["channel.chat.message", "channel.follow", "channel.vote"]) {
-    await subscribe(t, BOT_CHANNEL_ID);
-  }
-  const joined = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
-  if (joined.length === 0) return;
-  console.log(`Auto-rejoining ${joined.length} channel(s)...`);
-  // STAGGERED, NOT BURST: firing all subscribes at once tripped Blaze's rate limiting and random
-  // channels silently lost their chat subscription (bot went deaf there). Sequential with a gap.
-  const report = { ok: 0, fail: [] };
+  const joined = Object.keys(channels);
+  console.log(`Subscribing ${joined.length} channel(s)…`);
+  // PHASE 1 — chat.message for EVERY channel first. This is the only event that matters for the bot
+  // to HEAR and respond. Doing it first means that even if Blaze kills the socket partway through,
+  // the bot is already listening everywhere it managed to reach before the session died.
+  let heard = 0;
   for (const channelId of joined) {
-    let channelOk = true;
-    for (const t of ALL_EVENT_TYPES) {
-      const ok = await subscribe(t, channelId);
-      if (!ok && t === "channel.chat.message") channelOk = false;
-      await sleep(250);
-    }
-    if (channelOk) report.ok++;
-    else report.fail.push(channels[channelId]?.username || channelId);
+    if (!global.SESSION_ID) { console.log(`Session died after ${heard} chat subs — stopping; reconnect will resume.`); return; }
+    if (await subscribe("channel.chat.message", channelId)) heard++;
+    await sleep(200);
   }
-  console.log(`✅ Rejoin complete: ${report.ok}/${joined.length} channels fully subscribed` +
-    (report.fail.length ? ` | ⚠️ chat subscribe FAILED for: ${report.fail.join(", ")}` : ""));
-  if (report.fail.length) {
-    const total = report.ok === 0;
-    // THROTTLE: only allow one self-heal pass every 5 minutes. A dead USER token makes every retry
-    // fail (Blaze binds subscriptions to the user token), so an unthrottled retry would loop forever
-    // and hammer the API. One quiet attempt, then wait — no spam, no self-inflicted restart storm.
-    const nowMs = Date.now();
-    if (total && nowMs - _lastSelfHeal < 5 * 60 * 1000) {
-      console.log("Self-heal already ran recently — waiting. If this persists, the USER token needs refreshing (see /admin).");
-      return;
+  console.log(`👂 Listening on ${heard}/${joined.length} channels (chat.message).`);
+  // PHASE 2 — the alert events (follow/vote/sub/gift/raid/stream/tip). Nice-to-have, lower priority.
+  // If the session dies here, we bail immediately instead of hammering a dead session with 404s
+  // (that 404 storm is what was burning Render bandwidth).
+  const ALERT_TYPES = ALL_EVENT_TYPES.filter(t => t !== "channel.chat.message");
+  for (const channelId of joined) {
+    if (!global.SESSION_ID) { console.log("Session died during alert subs — stopping; reconnect will resume."); return; }
+    for (const t of ALERT_TYPES) {
+      if (!global.SESSION_ID) return;
+      await subscribe(t, channelId);
+      await sleep(200);
     }
-    _lastSelfHeal = nowMs;
-    // Refresh every credential we have, then retry the failed channels. The subscribe() function
-    // itself now falls back app-token → user-token → SESSION-token, so making sure a fresh SESSION
-    // token exists (email/password) is what actually recovers chat.message/follow/vote/tip/gift.
-    const delay = total ? 10000 : 60000;
-    console.log(total
-      ? `⚠️ ALL channels failed — self-heal in ${delay/1000}s (refresh app token + mint fresh session login)…`
-      : `Retrying failed channels in ${delay/1000}s…`);
-    setTimeout(async () => {
-      await getAppAccessToken();
-      if (REFRESH_TOKEN) await refreshAccessToken();
-      if (BOT_EMAIL && BOT_PASSWORD) await loginSession(); // always mint a fresh session token on self-heal
-      for (const channelId of joined) {
-        const name = channels[channelId]?.username || channelId;
-        if (!total && !report.fail.includes(name)) continue;
-        for (const t of ALL_EVENT_TYPES) { await subscribe(t, channelId); await sleep(300); }
-        console.log(`Retried subscriptions for ${name}`);
-      }
-      console.log("Self-heal retry pass complete.");
-    }, delay);
   }
+  console.log("✅ Subscribe pass complete.");
 }
 let _lastSelfHeal = 0;
 
@@ -1458,7 +1430,7 @@ async function handleEvent(message) {
     // Refresh the user token if we still have a refresh token (best effort). Even if it fails,
     // we STILL subscribe — the app token carries subscriptions on its own. The old code gated
     // subscribing behind "if (ACCESS_TOKEN)", so a dead user token meant ZERO subscriptions.
-    await refreshAccessToken();
+    if (REFRESH_TOKEN) await refreshAccessToken();
     if (!APP_ACCESS_TOKEN) await getAppAccessToken(); // guarantee the app token exists before subscribing
     if (!global.ANNOUNCED) {
       global.ANNOUNCED = true;
