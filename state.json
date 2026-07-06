@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 703,
         "totalSubs": 7,
-        "totalChatMessages": 306,
+        "totalChatMessages": 307,
         "totalStreamMinutes": 103,
         "emotes": {
           "❤": 22,
@@ -55,10 +55,6 @@
       "chatMemory": [
         {
           "user": "omom_",
-          "msg": "ich schicke dir ein Screenshot"
-        },
-        {
-          "user": "omom_",
           "msg": "🤣🤣🤣 so wahr"
         },
         {
@@ -92,6 +88,10 @@
         {
           "user": "brachial513",
           "msg": "@blazeian_bot_ai Welcome back - do you know why you were dead ?"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai how many people do you already have in your crew now ?"
         }
       ],
       "language": "en",
@@ -619,7 +619,7 @@
       "stats": {
         "totalVotes": 545,
         "totalSubs": 3,
-        "totalChatMessages": 851,
+        "totalChatMessages": 860,
         "totalStreamMinutes": 588,
         "emotes": {
           "🗳": 42,
@@ -633,7 +633,7 @@
           "📴": 7,
           "👋": 7,
           "🔴": 7,
-          "🎉": 14,
+          "🎉": 15,
           "✌": 2,
           "😊": 3,
           "☕": 1,
@@ -641,7 +641,7 @@
           "🧡": 1,
           "🚨": 18,
           "😂": 12,
-          "⚡": 4,
+          "⚡": 5,
           "👍": 3,
           "💪": 8,
           "🎮": 8,
@@ -661,7 +661,8 @@
           "🍀": 12,
           "🍺": 3,
           "🛒": 2,
-          "🪙": 2
+          "🪙": 2,
+          "😍": 1
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -703,49 +704,50 @@
           "🍀": "🍀",
           "🍺": "🍺",
           "🛒": "🛒",
-          "🪙": "🪙"
+          "🪙": "🪙",
+          "😍": "😍"
         }
       },
       "chatMemory": [
         {
           "user": "helios",
-          "msg": "Later @zsoltech"
-        },
-        {
-          "user": "helios",
-          "msg": "Yeah it's really good"
-        },
-        {
-          "user": "helios",
-          "msg": "Never been a fan of energy drinks"
-        },
-        {
-          "user": "helios",
-          "msg": "I don't have a specific brand but any fruit juice"
-        },
-        {
-          "user": "helios",
-          "msg": "Not a coffee fan either"
-        },
-        {
-          "user": "helios",
-          "msg": "I make some myself"
-        },
-        {
-          "user": "helios",
-          "msg": "My favorite is the coconut and pineapple mix"
-        },
-        {
-          "user": "helios",
-          "msg": "M16+headshots = insane damage"
-        },
-        {
-          "user": "helios",
-          "msg": "Higher ranks should be tougher"
-        },
-        {
-          "user": "helios",
           "msg": "Especially if it's mid-late season where most of the good players already ranked up early"
+        },
+        {
+          "user": "helios",
+          "msg": "Too awesome not to clip"
+        },
+        {
+          "user": "botger",
+          "msg": "🎉 Helios just reached Level 5! ⚡ (7,451 XP)"
+        },
+        {
+          "user": "helios",
+          "msg": "Road to mythic? Why not?"
+        },
+        {
+          "user": "helios",
+          "msg": "I've seen your gameplays in other games. You've got this"
+        },
+        {
+          "user": "helios",
+          "msg": "Just need a solid team also"
+        },
+        {
+          "user": "helios",
+          "msg": "😍"
+        },
+        {
+          "user": "helios",
+          "msg": "Yes. More kitty on kitty cam"
+        },
+        {
+          "user": "helios",
+          "msg": "I'm into every animal"
+        },
+        {
+          "user": "helios",
+          "msg": "Except wasps and hornets"
         }
       ],
       "customCommands": {},
@@ -2199,9 +2201,9 @@
   },
   "lastAnnouncedVersion": "2026-07-04.1",
   "auth": {
-    "accessToken": "7b6c88662b38ad63fe7bfe6beb5cd431",
-    "refreshToken": null,
-    "sessionToken": "6430f19ef41893c3a881d1bc60590875",
+    "accessToken": "90b3be2506e8622a041367d223ee82b8",
+    "refreshToken": "9710717696fb8c5d533acd9dbb2a447f",
+    "sessionToken": "9f4283f2c868156fc042fc594efe0af5",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
