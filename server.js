@@ -28,6 +28,7 @@ const AI_MODEL_LIGHT = process.env.AI_MODEL_LIGHT || "llama-3.1-8b-instant";
 // Google" questions (scores, news, prices, etc.) instead of just admitting it can't. Without this
 // key set, the bot stays honest about not having live data.
 const TAVILY_API_KEY = process.env.TAVILY_API_KEY || "";
+console.log(`[SEARCH] Tavily web search: ${TAVILY_API_KEY ? "configured (" + TAVILY_API_KEY.length + " char key)" : "NOT configured — TAVILY_API_KEY env var missing"}`);
 
 let ACCESS_TOKEN  = process.env.BLAZE_ACCESS_TOKEN  || null;
 let REFRESH_TOKEN = process.env.BLAZE_REFRESH_TOKEN || null;
@@ -894,6 +895,7 @@ async function needsWebSearch(userMessage) {
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 5000 });
     return (res.data?.choices?.[0]?.message?.content || "").trim().toUpperCase().startsWith("Y");
   } catch (e) {
+    console.log("[SEARCH] needsWebSearch classifier error:", e.response?.data?.error?.message || e.message);
     return false; // classifier failing just means we skip search — askAI() still answers normally
   }
 }
@@ -978,12 +980,17 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   // LIVE WEB SEARCH: only for messages that look like they need real current-world facts, and only
   // when Tavily is configured. Cheap classifier first so we don't search on every chat line.
   let searchBlock = "";
-  if (TAVILY_API_KEY && await needsWebSearch(userMessage)) {
-    const results = await webSearch(userMessage);
-    searchBlock = results
-      ? `\n\nLIVE SEARCH RESULTS for "${userMessage}" (use ONLY these to answer — cite them naturally, e.g. "according to Google, ..." in your reply's own language; never invent beyond them):\n` +
-        results.map((r, i) => `${i + 1}. ${r.title} — ${r.snippet}`).join("\n")
-      : `\n\nYou tried a live web search for this but got no usable results — be honest you couldn't find a reliable answer right now, don't guess.`;
+  if (TAVILY_API_KEY) {
+    const wants = await needsWebSearch(userMessage);
+    console.log(`[SEARCH] needsWebSearch=${wants ? "YES" : "no"} for: "${userMessage}"`);
+    if (wants) {
+      const results = await webSearch(userMessage);
+      console.log(`[SEARCH] Tavily returned ${results ? results.length : 0} result(s)`);
+      searchBlock = results
+        ? `\n\nLIVE SEARCH RESULTS for "${userMessage}" (use ONLY these to answer — cite them naturally, e.g. "according to Google, ..." in your reply's own language; never invent beyond them):\n` +
+          results.map((r, i) => `${i + 1}. ${r.title} — ${r.snippet}`).join("\n")
+        : `\n\nYou tried a live web search for this but got no usable results — be honest you couldn't find a reliable answer right now, don't guess.`;
+    }
   }
   try {
     // CONVERSATION MEMORY: give the model the last few chat lines so it replies IN CONTEXT instead of
