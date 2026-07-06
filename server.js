@@ -644,7 +644,12 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
     console.log(`Subscribe skipped (${type} on ${channelId}): no socket session yet`);
     return false;
   }
-  const body = { type, version: "1", sessionId: global.SESSION_ID, condition: { channelId } };
+  // Blaze requires a userId in the condition for USER-SCOPED events so it knows WHO is listening.
+  // Without it, chat.message/follow/vote/tip/gift return 403/404 while channel-wide events
+  // (stream.online/offline, raid) work fine — which is exactly the failure pattern we saw.
+  const USER_SCOPED = new Set(["channel.chat.message", "channel.follow", "channel.vote", "channel.tip", "channel.subscription.gift", "channel.subscribe"]);
+  const condition = USER_SCOPED.has(type) ? { channelId, userId: BOT_USER_ID } : { channelId };
+  const body = { type, version: "1", sessionId: global.SESSION_ID, condition };
   // --- try app token first ---
   if (APP_ACCESS_TOKEN) {
     try {
