@@ -539,6 +539,11 @@ async function sendChatT(channelId, text) {
 const API = "https://api.blaze.stream";
 const headers    = () => ({ authorization: `Bearer ${ACCESS_TOKEN}`,     "client-id": CLIENT_ID, "content-type": "application/json" });
 const appHeaders = () => ({ authorization: `Bearer ${APP_ACCESS_TOKEN}`, "client-id": CLIENT_ID, "content-type": "application/json" });
+// SESSION-token headers: the browser session (email/password login) has the user-scope rights that
+// the OAuth ACCESS_TOKEN lacks once its refresh token is gone. This is the SAME auth that makes
+// followChannel() work. We use it as the final subscribe fallback so chat.message/follow/vote/tip/gift
+// (which app-token can't do and the dead user-token can't either) still subscribe successfully.
+const sessHeaders = () => ({ authorization: `Bearer ${SESSION_TOKEN}`, "visitor-id": SESSION_VISITOR_ID, "client-id": CLIENT_ID, "content-type": "application/json", origin: "https://blaze.stream" });
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const MAX_MSG = 480;
@@ -655,7 +660,8 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
       // app token couldn't do it (e.g. 403 needs a user-scoped token) → fall through to user token
     }
   }
-  // --- fall back to user token ---
+  // --- fall back to user (OAuth) token ---
+  let userErr = null;
   try {
     await axios.post(`${API}/v1/events/subscriptions`, body, { headers: headers() });
     console.log(`Subscribed: ${type} on ${channelId} (user)`);
@@ -663,10 +669,10 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
   } catch (e) {
     const status = e.response?.status;
     const msg = e.response?.data?.message || e.message;
+    userErr = { status, msg };
     const unauth = status === 401 || /unauthor/i.test(msg || "");
-    const forbidden = status === 403 || /forbidden/i.test(msg || "");
     const rateLimited = status === 429 || /too many|rate.?limit/i.test(msg || "");
-    if (unauth && attempt === 0) {
+    if (unauth && attempt === 0 && REFRESH_TOKEN) {
       if (!refreshingForSubscribe) refreshingForSubscribe = refreshAccessToken().finally(() => { refreshingForSubscribe = null; });
       const ok = await refreshingForSubscribe;
       if (ok) return subscribe(type, channelId, attempt + 1);
@@ -675,20 +681,31 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
       await sleep(1500 * (attempt + 1));
       return subscribe(type, channelId, attempt + 1);
     }
-    // 403 = Blaze rejected the request. The #1 cause here is a DEAD SESSION_ID: the socket got
-    // kicked (io server disconnect) and every subscribe still sends the old, now-invalid sessionId.
-    // Refreshing tokens can NOT fix this — only a fresh socket handshake gives a new SESSION_ID.
-    // So on a 403 storm, force ONE socket reconnect (guarded), which re-runs subscribeAllChannels
-    // from a clean session. This is the fix for the endless "1/24 channels subscribed" bug.
-    if (forbidden && !global.RECONNECTING_FOR_403) {
-      global.RECONNECTING_FOR_403 = true;
-      console.log("⚠️ 403 — session likely dead, forcing socket reconnect for a fresh SESSION_ID…");
-      global.SESSION_ID = null; // stop other in-flight subscribes from hammering the dead session
-      setTimeout(() => { try { connectSocket(); } catch (_) {} }, 3000);
-    }
-    console.log(`Subscribe error (${type} on ${channelId}) [${status || "?"}]:`, msg);
-    return false;
+    // fall through to the SESSION token — this is the real fix
   }
+  // --- final fallback: SESSION token (email/password login) ---
+  // The OAuth ACCESS_TOKEN is dead when there's no REFRESH_TOKEN. The SESSION token carries the
+  // user-scope rights needed for chat.message/follow/vote/tip/gift, which is why those were 403/404-ing.
+  if (SESSION_TOKEN && SESSION_VISITOR_ID) {
+    try {
+      await axios.post(`${API}/v1/events/subscriptions`, body, { headers: sessHeaders() });
+      console.log(`Subscribed: ${type} on ${channelId} (session)`);
+      return true;
+    } catch (e) {
+      const status = e.response?.status;
+      const msg = e.response?.data?.message || e.message;
+      // session token might be stale — mint a fresh one ONCE via email/password, then retry
+      if ((status === 401 || status === 403) && attempt === 0 && BOT_EMAIL && BOT_PASSWORD) {
+        const ok = await loginSession();
+        if (ok) return subscribe(type, channelId, attempt + 1);
+      }
+      console.log(`Subscribe error (${type} on ${channelId}) [${status || "?"}]:`, msg);
+      return false;
+    }
+  }
+  // no session token available at all
+  console.log(`Subscribe error (${type} on ${channelId}) [${userErr?.status || "?"}]:`, userErr?.msg || "no session token — set BLAZE_BOT_EMAIL/PASSWORD or /admin/setsession");
+  return false;
 }
 
 async function getChannelIdBySlug(slug) {
@@ -1240,28 +1257,20 @@ async function subscribeAllChannels() {
       return;
     }
     _lastSelfHeal = nowMs;
-    // TOTAL failure = almost always a dead SESSION_ID (socket got kicked). Token refresh alone
-    // can't fix that — reconnect the socket, and its fresh session_welcome re-runs subscribeAllChannels
-    // with a valid SESSION_ID. PARTIAL failure = a few channels; just retry those with tokens refreshed.
-    if (total) {
-      console.log("⚠️ ALL channels failed — reconnecting socket in 8s for a fresh session (this self-heals the 403 storm)…");
-      setTimeout(async () => {
-        await getAppAccessToken();
-        await refreshAccessToken();
-        if (!SESSION_TOKEN && BOT_EMAIL && BOT_PASSWORD) await loginSession();
-        try { connectSocket(); } catch (_) {} // fresh socket → new SESSION_ID → session_welcome re-subscribes everything
-      }, 8000);
-      return;
-    }
-    const delay = 60000;
-    console.log(`Retrying failed channels in ${delay/1000}s…`);
+    // Refresh every credential we have, then retry the failed channels. The subscribe() function
+    // itself now falls back app-token → user-token → SESSION-token, so making sure a fresh SESSION
+    // token exists (email/password) is what actually recovers chat.message/follow/vote/tip/gift.
+    const delay = total ? 10000 : 60000;
+    console.log(total
+      ? `⚠️ ALL channels failed — self-heal in ${delay/1000}s (refresh app token + mint fresh session login)…`
+      : `Retrying failed channels in ${delay/1000}s…`);
     setTimeout(async () => {
       await getAppAccessToken();
-      await refreshAccessToken();
-      if (!SESSION_TOKEN && BOT_EMAIL && BOT_PASSWORD) await loginSession();
+      if (REFRESH_TOKEN) await refreshAccessToken();
+      if (BOT_EMAIL && BOT_PASSWORD) await loginSession(); // always mint a fresh session token on self-heal
       for (const channelId of joined) {
         const name = channels[channelId]?.username || channelId;
-        if (!report.fail.includes(name)) continue;
+        if (!total && !report.fail.includes(name)) continue;
         for (const t of ALL_EVENT_TYPES) { await subscribe(t, channelId); await sleep(300); }
         console.log(`Retried subscriptions for ${name}`);
       }
@@ -1461,7 +1470,6 @@ async function handleEvent(message) {
 
   if (metadata.messageType === "session_welcome") {
     global.SESSION_ID = payload.sessionId;
-    global.RECONNECTING_FOR_403 = false; // fresh session → allow a future 403-triggered reconnect if ever needed again
     console.log("SESSION:", global.SESSION_ID);
     // Refresh the user token if we still have a refresh token (best effort). Even if it fails,
     // we STILL subscribe — the app token carries subscriptions on its own. The old code gated
