@@ -1139,12 +1139,12 @@
       "stats": {
         "totalVotes": 244,
         "totalSubs": 5,
-        "totalChatMessages": 211,
-        "totalStreamMinutes": 2144,
+        "totalChatMessages": 213,
+        "totalStreamMinutes": 2148,
         "emotes": {
           "😊": 3,
-          "🌵": 23,
-          "🔥": 89,
+          "🌵": 25,
+          "🔥": 90,
           "🤪": 1,
           "👋": 8,
           "👍": 8,
@@ -1228,14 +1228,6 @@
       },
       "chatMemory": [
         {
-          "user": "angge_wf",
-          "msg": "GM"
-        },
-        {
-          "user": "cactus_jack440",
-          "msg": "Howdy @angge_wf"
-        },
-        {
           "user": "grook",
           "msg": "gm gm have a great day !!"
         },
@@ -1266,6 +1258,14 @@
         {
           "user": "capt_rob_advent",
           "msg": "👍"
+        },
+        {
+          "user": "midnight_driv3r",
+          "msg": "weeee"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "🌵🔥🌵"
         }
       ],
       "customCommands": {},
@@ -2478,7 +2478,7 @@
   "auth": {
     "accessToken": "ecee705862f76d1b35885b04f25175da",
     "refreshToken": "c0d9183710b187f43eee4bca667f6f93",
-    "sessionToken": "5603197e19206ff78300edaeb98d90ef",
+    "sessionToken": "b6651ab4454f2d29d85b673f34bddf2c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
