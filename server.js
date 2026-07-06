@@ -637,71 +637,36 @@ let refreshingForSubscribe = null;
 // NEVER have to run get-token.js again. Mirrors how sendChatOnce already works for messages.
 async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
   // GUARD: subscribing before the socket handshake (session_welcome) has set SESSION_ID produces
-  // "NOT_FOUND" / "Invalid socket subscription request". Wait briefly for the session, then bail
-  // gracefully so a premature call can't spam errors — the post-welcome pass will handle it.
+  // "NOT_FOUND" / "Invalid socket subscription request". Wait briefly for the session, then bail.
   if (!global.SESSION_ID) {
     if (sessWait < 10) { await sleep(500); return subscribe(type, channelId, attempt, sessWait + 1); }
     console.log(`Subscribe skipped (${type} on ${channelId}): no socket session yet`);
     return false;
   }
-  // Blaze requires a userId in the condition for USER-SCOPED events so it knows WHO is listening.
-  // Without it, chat.message/follow/vote/tip/gift return 403/404 while channel-wide events
-  // (stream.online/offline, raid) work fine — which is exactly the failure pattern we saw.
-  const USER_SCOPED = new Set(["channel.chat.message", "channel.follow", "channel.vote", "channel.tip", "channel.subscription.gift", "channel.subscribe"]);
-  const condition = USER_SCOPED.has(type) ? { channelId, userId: BOT_USER_ID } : { channelId };
+  // Blaze needs a userId in the condition for events the bot listens to AS a user (chat/follow/vote/gift/subscribe)
+  // so it knows WHO is listening. channel.tip and the stream.* / raid events must NOT carry userId (they 400 if it's present).
+  const NEEDS_USERID = new Set(["channel.chat.message", "channel.follow", "channel.vote", "channel.subscription.gift", "channel.subscribe"]);
+  const condition = NEEDS_USERID.has(type) ? { channelId, userId: BOT_USER_ID } : { channelId };
   const body = { type, version: "1", sessionId: global.SESSION_ID, condition };
-  // --- try app token first ---
-  if (APP_ACCESS_TOKEN) {
-    try {
-      await axios.post(`${API}/v1/events/subscriptions`, body, { headers: appHeaders() });
-      console.log(`Subscribed: ${type} on ${channelId} (app)`);
-      return true;
-    } catch (e) {
-      const status = e.response?.status;
-      const msg = e.response?.data?.message || e.message;
-      if (status === 401 && attempt < 2) { await getAppAccessToken(); return subscribe(type, channelId, attempt + 1); }
-      const rl = status === 429 || /too many|rate.?limit/i.test(msg || "");
-      if (rl && attempt < 3) { await sleep(1500 * (attempt + 1)); return subscribe(type, channelId, attempt + 1); }
-      // app token couldn't do it (e.g. 403 needs a user-scoped token) → fall through to user token
-    }
-  }
-  // --- fall back to user (OAuth) token ---
-  let userErr = null;
+  // APP TOKEN ONLY. The app token (client_credentials) is the BOT's own identity, never expires, needs no
+  // login, and is proven to subscribe chat.message. The user OAuth token caused AUTH_CONTEXT_MISMATCH (409)
+  // because its identity (the person who logged in) != the BOT_USER_ID in the condition. So we don't use it.
+  if (!APP_ACCESS_TOKEN) await getAppAccessToken();
   try {
-    await axios.post(`${API}/v1/events/subscriptions`, body, { headers: headers() });
-    console.log(`Subscribed: ${type} on ${channelId} (user)`);
+    await axios.post(`${API}/v1/events/subscriptions`, body, { headers: appHeaders() });
+    console.log(`Subscribed: ${type} on ${channelId}`);
     return true;
   } catch (e) {
     const status = e.response?.status;
     const msg = e.response?.data?.message || e.message;
-    userErr = { status, msg };
-    const unauth = status === 401 || /unauthor/i.test(msg || "");
-    const rateLimited = status === 429 || /too many|rate.?limit/i.test(msg || "");
-    if (unauth && attempt === 0 && REFRESH_TOKEN) {
-      if (!refreshingForSubscribe) refreshingForSubscribe = refreshAccessToken().finally(() => { refreshingForSubscribe = null; });
-      const ok = await refreshingForSubscribe;
-      if (ok) return subscribe(type, channelId, attempt + 1);
-    }
-    if (rateLimited && attempt < 3) {
-      await sleep(1500 * (attempt + 1));
-      return subscribe(type, channelId, attempt + 1);
-    }
-    // fall through
+    if (status === 401 && attempt < 2) { await getAppAccessToken(); return subscribe(type, channelId, attempt + 1); }
+    const rl = status === 429 || /too many|rate.?limit/i.test(msg || "");
+    if (rl && attempt < 3) { await sleep(1500 * (attempt + 1)); return subscribe(type, channelId, attempt + 1); }
+    // NOT_FOUND / invalid request usually = the socket session died mid-pass; the next reconnect's
+    // session_welcome will re-run the whole subscribe pass with a fresh SESSION_ID. Don't loop here.
+    console.log(`Subscribe error (${type} on ${channelId}) [${status || "?"}]:`, msg);
+    return false;
   }
-  // The EventSub subscribe API (api.blaze.stream/v1/events/subscriptions) ONLY accepts the OAuth
-  // ACCESS_TOKEN. The app token can't do user-scoped events, and the browser SESSION token returns
-  // 401 here (it's only valid for the bapi/* endpoints like follow). So if we land here, the OAuth
-  // token is dead and there's no refresh token to revive it — the owner MUST re-auth via /login.
-  // We do NOT loop loginSession() here: that just spams Blaze with logins and risks a ban.
-  const now = Date.now();
-  if (!global._lastReauthWarn || now - global._lastReauthWarn > 60000) {
-    global._lastReauthWarn = now;
-    console.log("🔑 SUBSCRIBE BLOCKED — OAuth ACCESS_TOKEN is dead and no REFRESH_TOKEN to renew it.");
-    console.log("   FIX: open https://blazeian-bot.onrender.com/login and log in with the bot account.");
-    console.log("   That mints a fresh ACCESS_TOKEN + REFRESH_TOKEN and subscriptions will work again.");
-  }
-  console.log(`Subscribe error (${type} on ${channelId}) [${userErr?.status || "?"}]:`, userErr?.msg || "no valid OAuth token");
-  return false;
 }
 
 async function getChannelIdBySlug(slug) {
