@@ -2240,8 +2240,8 @@
       "stats": {
         "totalVotes": 1,
         "totalSubs": 0,
-        "totalChatMessages": 45,
-        "totalStreamMinutes": 38,
+        "totalChatMessages": 46,
+        "totalStreamMinutes": 43,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -2264,10 +2264,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "translate turkish the alerts are actual disabled but i fix this soon as possible ! @blazeian_bot_ai çevir"
-        },
         {
           "user": "brachial513",
           "msg": "Hahaha, özür dilerim, hala geliştirmeye çalışıyorum - uyarıların şu an devre dışı olmasının sebebinin bugün botla ilgili bazı sorunlar yaşamam olduğunu yazdım, ama yakında düzelteceğim."
@@ -2303,6 +2299,10 @@
         {
           "user": "botger",
           "msg": "https://salvor.io/collections/0x4ffb0924d999bc2015f69f58f403ceadfc16963d"
+        },
+        {
+          "user": "botger",
+          "msg": "https://discord.gg/PXwUmyWwN"
         }
       ],
       "customCommands": {},
@@ -2351,6 +2351,36 @@
       "locked": false,
       "followed": true,
       "botVip": true
+    },
+    "19b7a7c0-fe26-4df4-b40e-ac7489b8f42a": {
+      "username": "helios",
+      "language": "en",
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 1,
+        "totalStreamMinutes": 0,
+        "emotes": {
+          "❤": 2,
+          "🙌": 1
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌"
+        }
+      },
+      "chatMemory": [
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        }
+      ],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "timedMessages": [],
+      "locked": false,
+      "followed": true
     }
   },
   "blocklist": [
@@ -2375,8 +2405,8 @@
   },
   "lastAnnouncedVersion": "2026-07-04.1",
   "auth": {
-    "accessToken": "19782e0fba43489f1c54434bff0cad29",
-    "refreshToken": "e0604e51e0986ae57e7557e8d49dd058",
+    "accessToken": "ea1b0d308cd1b2a69a17eecf6ad5769b",
+    "refreshToken": "3cfc7c689f9659669303ede193c78853",
     "sessionToken": "b209f70532f82c1e163f2f90520d7912",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
