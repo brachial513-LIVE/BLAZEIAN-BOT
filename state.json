@@ -2239,12 +2239,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 146,
-        "totalSubs": 0,
-        "totalChatMessages": 108,
+        "totalSubs": 2,
+        "totalChatMessages": 110,
         "totalStreamMinutes": 118,
         "emotes": {
           "❤": 2,
-          "🙌": 1,
+          "🙌": 3,
           "💚": 10,
           "🔴": 1,
           "🎉": 1,
@@ -2253,7 +2253,8 @@
           "😎": 2,
           "🗳": 12,
           "📴": 1,
-          "👋": 1
+          "👋": 1,
+          "🎁": 4
         },
         "emoteNames": {
           "❤": "❤",
@@ -2266,18 +2267,11 @@
           "😎": "😎",
           "🗳": "🗳",
           "📴": "📴",
-          "👋": "👋"
+          "👋": "👋",
+          "🎁": "🎁"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
-        {
-          "user": "grindingdragon",
-          "msg": "yes"
-        },
         {
           "user": "grindingdragon",
           "msg": "it's the hardest i fink in the world"
@@ -2309,6 +2303,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @dae just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @time just gifted a sub to @Brachial513! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @time just gifted a sub to @fluffy! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -2395,6 +2397,30 @@
       "timedMessages": [],
       "locked": false,
       "followed": true
+    },
+    "d3b88120-1dbc-422f-930b-6dcb2fccf9f4": {
+      "username": "tai_",
+      "language": "en",
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 1,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {}
+      },
+      "chatMemory": [
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
+        }
+      ],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "timedMessages": [],
+      "greeted": true,
+      "locked": false
     }
   },
   "blocklist": [
