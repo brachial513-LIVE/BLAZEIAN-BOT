@@ -887,23 +887,27 @@ async function webSearch(query) {
 const SEARCH_KEYWORDS = /\b(latest|newest|current|today|yesterday|score|scores|result|results|won|winner|news|update|updates|price|prices|who\s+won|what\s+happened|aktuell|neuest|heute|gestern|ergebnis|ergebnisse|gewonnen|gewinner|nachrichten|neuigkeiten|preis|preise)\b/i;
 function looksLikeSearchQuery(msg) { return SEARCH_KEYWORDS.test(msg || ""); }
 
-// Cheap classifier (light model) — decides whether a message needs a live search at all, so we don't
-// burn a search + extra tokens on every single chat message, only ones that actually ask for real facts.
+// Cheap classifier + query-rewriter (light model): decides if a live search is needed, AND — if so —
+// writes a clear, unambiguous search query instead of passing the raw chat message to Tavily verbatim.
+// Proven live why this matters: the raw message "who won the latest WM match?" made Tavily return
+// WWE WrestleMania results instead of football World Cup ones, because "WM" is ambiguous in English.
 // Combined with looksLikeSearchQuery() via OR (see askAI()) since this model alone isn't fully reliable.
-async function needsWebSearch(userMessage) {
-  if (!AI_KEY) return false;
+async function planWebSearch(userMessage) {
+  if (!AI_KEY) return { needed: false, query: null };
   try {
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL_LIGHT,
       messages: [{ role: "user", content:
-        `Message: "${userMessage}"\n\nDoes answering this need a LIVE web search for current/real-world facts (news, scores, results, prices, "the latest X", who won something, real events) that a language model's training data likely doesn't reliably have? Reply with EXACTLY one word: YES or NO.` }],
-      max_tokens: 6,
+        `Message: "${userMessage}"\n\nDoes answering this need a LIVE web search for current/real-world facts (news, scores, results, prices, "the latest X", who won something, real events) that a language model's training data likely doesn't reliably have?\n\nReply in EXACTLY this format, nothing else:\nLine 1: YES or NO\nLine 2 (ONLY if YES): a short, clear, unambiguous web search query for it — spell out any abbreviation you're confident about instead of repeating it as-is (e.g. "WM" in a German/football context means "World Cup" — search for that, not literally "WM").` }],
+      max_tokens: 40,
       temperature: 0,
-    }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 5000 });
-    return (res.data?.choices?.[0]?.message?.content || "").trim().toUpperCase().startsWith("Y");
+    }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 6000 });
+    const lines = (res.data?.choices?.[0]?.message?.content || "").trim().split("\n").map(l => l.trim()).filter(Boolean);
+    const needed = (lines[0] || "").toUpperCase().startsWith("Y");
+    return { needed, query: needed ? (lines[1] || userMessage) : null };
   } catch (e) {
-    console.log("[SEARCH] needsWebSearch classifier error:", e.response?.data?.error?.message || e.message);
-    return false; // classifier failing just means we skip search — askAI() still answers normally
+    console.log("[SEARCH] planWebSearch error:", e.response?.data?.error?.message || e.message);
+    return { needed: false, query: null }; // classifier failing just means we skip search — askAI() still answers normally
   }
 }
 
@@ -989,15 +993,17 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   let searchBlock = "";
   if (TAVILY_API_KEY) {
     const keywordHit = looksLikeSearchQuery(userMessage);
-    const wants = keywordHit || await needsWebSearch(userMessage);
-    console.log(`[SEARCH] needsWebSearch=${wants ? "YES" : "no"} (keyword=${keywordHit}) for: "${userMessage}"`);
+    const plan = await planWebSearch(userMessage);
+    const wants = keywordHit || plan.needed;
+    const query = plan.query || userMessage; // fall back to the raw message if the rewriter didn't fire
+    console.log(`[SEARCH] wants=${wants ? "YES" : "no"} (keyword=${keywordHit}, ai=${plan.needed}) query="${query}"`);
     if (wants) {
-      const results = await webSearch(userMessage);
-      console.log(`[SEARCH] Tavily returned ${results ? results.length : 0} result(s)`);
+      const results = await webSearch(query);
+      console.log(`[SEARCH] Tavily returned ${results ? results.length : 0} result(s) for query "${query}"`);
       searchBlock = results
-        ? `\n\nLIVE SEARCH RESULTS for "${userMessage}" (use ONLY these to answer — cite them naturally, e.g. "according to Google, ..." in your reply's own language; never invent beyond them):\n` +
+        ? `\n\nLIVE SEARCH RESULTS for "${query}" (use ONLY these to answer — cite them naturally, e.g. "according to Google, ..." in your reply's own language; never invent beyond them; if these results don't actually answer the question, say so plainly instead of guessing or offering to search again — you only get this one shot, there is no "again"):\n` +
           results.map((r, i) => `${i + 1}. ${r.title} — ${r.snippet}`).join("\n")
-        : `\n\nYou tried a live web search for this but got no usable results — be honest you couldn't find a reliable answer right now, don't guess.`;
+        : `\n\nYou tried a live web search for this but got no usable results — be honest you couldn't find a reliable answer right now, don't guess, don't offer to check again.`;
     }
   }
   try {
