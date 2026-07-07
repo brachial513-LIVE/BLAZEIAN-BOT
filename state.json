@@ -5,13 +5,13 @@
       "stats": {
         "totalVotes": 754,
         "totalSubs": 7,
-        "totalChatMessages": 329,
+        "totalChatMessages": 331,
         "totalStreamMinutes": 103,
         "emotes": {
           "❤": 22,
           "🙌": 11,
-          "🔥": 13,
-          "💚": 36,
+          "🔥": 24,
+          "💚": 45,
           "💀": 2,
           "🤣": 41,
           "💰": 2,
@@ -58,14 +58,6 @@
       },
       "chatMemory": [
         {
-          "user": "brachial513",
-          "msg": "@blazeian_bot_ai who won the latest WM match ?"
-        },
-        {
-          "user": "brachial513",
-          "msg": "@blazeian_bot_ai who won the latest WM match?"
-        },
-        {
           "user": "mistersupercool",
           "msg": "@blazeian_bot_ai Wann war das letzte Match der Klitchkos ?"
         },
@@ -96,6 +88,14 @@
         {
           "user": "brachial513",
           "msg": "🔥👍"
+        },
+        {
+          "user": "brachial513",
+          "msg": "🔥🔥🔥💚💚💚🔥🔥"
+        },
+        {
+          "user": "brachial513",
+          "msg": "🔥🔥🔥🔥🔥🔥💚💚💚💚💚💚"
         }
       ],
       "language": "en",
@@ -2531,27 +2531,39 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 14,
+        "totalChatMessages": 24,
         "totalStreamMinutes": 0,
         "emotes": {
-          "🔥": 2,
-          "🔴": 2,
-          "💚": 2
+          "🔥": 6,
+          "🔴": 4,
+          "💚": 4,
+          "🤣": 3,
+          "☕": 2
         },
         "emoteNames": {
           "🔥": "🔥",
           "🔴": "🔴",
-          "💚": "💚"
+          "💚": "💚",
+          "🤣": "🤣",
+          "☕": "☕"
         }
       },
       "chatMemory": [
+        {
+          "user": "brachial513",
+          "msg": "soo lets see"
+        },
         {
           "user": "brachial513",
           "msg": "@blazeian_bot_ai any news on Delta Force right now?"
         },
         {
           "user": "brachial513",
-          "msg": "@blazeian_bot_ai he did just yet haha"
+          "msg": "still stupid haha i fix it tommorow - GOOD NIGHT MY FRIEND hahaha"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
         },
         {
           "user": "botger",
@@ -2559,31 +2571,23 @@
         },
         {
           "user": "brachial513",
-          "msg": "bro droppin 2k24 bars over here, gonna fix this then i sleep finally hahaha"
+          "msg": "@blazeian_bot_ai ok any news on Delta Force ( video game ) right now?"
         },
         {
           "user": "brachial513",
-          "msg": "so now one last test haha"
-        },
-        {
-          "user": "brachial513",
-          "msg": "@blazeian_bot_ai Any news on Delta Force right now ?"
-        },
-        {
-          "user": "brachial513",
-          "msg": "LOL wtfg"
+          "msg": "fuck you"
         },
         {
           "user": "brachial513",
           "msg": "hahahaha"
         },
         {
-          "user": "botger",
-          "msg": "Come follow ALL my socials and see what goes on after stream! \nhttps://streemrz.com/u/xxtowerdogxx/"
+          "user": "brachial513",
+          "msg": "ok now for real gn8 🤣🤣🤣💚💚"
         },
         {
           "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+          "msg": "🔥TOWER is partnered with ☕BLACKOUT COFFEE CO.☕ if you're looking for the best coffee on the planet then go get yours and use code TOWER for 20% all your orders!🔥  https://www.blackoutcoffee.com?p=LPw95Fmiz"
         }
       ],
       "customCommands": {},
@@ -2619,7 +2623,7 @@
   "auth": {
     "accessToken": "018a4790266322e2b61174e00b9da03b",
     "refreshToken": "b0e0d4f1758832f7daad2e08622816fa",
-    "sessionToken": "7036f6f5d389f6ed5f487113dcda3857",
+    "sessionToken": "3017a8b30c7015c2a0238558d6ac3060",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
