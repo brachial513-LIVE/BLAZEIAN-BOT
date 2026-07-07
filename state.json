@@ -1531,14 +1531,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 636,
+        "totalVotes": 639,
         "totalSubs": 8,
-        "totalChatMessages": 692,
+        "totalChatMessages": 693,
         "totalStreamMinutes": 313,
         "emotes": {
           "❤": 17,
           "🙌": 10,
-          "🗳": 60,
+          "🗳": 63,
           "✌": 1,
           "😊": 1,
           "👍": 1,
@@ -1617,10 +1617,6 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
-        },
-        {
-          "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
         },
         {
@@ -1654,6 +1650,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 3 vote(s) (total: 9)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xscheun just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
