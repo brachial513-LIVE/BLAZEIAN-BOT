@@ -314,7 +314,8 @@ function getOrCreateChannel(channelId, username) {
       chatMemory: [],
       customCommands: {},
       streamStart: "",
-      streamEnd: ""
+      streamEnd: "",
+      schedule: ""
     };
     // NOT saveChannels() (5-min debounce) — a brand-new registration must survive an immediate
     // restart/spin-down (Render free tier), or the join is silently lost before it ever reaches
@@ -327,6 +328,7 @@ function getOrCreateChannel(channelId, username) {
   if (!c.customCommands) c.customCommands = {};
   if (c.streamStart === undefined) c.streamStart = "";
   if (c.streamEnd === undefined) c.streamEnd = "";
+  if (c.schedule === undefined) c.schedule = "";
   if (!Array.isArray(c.timedMessages)) c.timedMessages = []; // [{text, intervalMin, onlyLive, lastSent}]
   return c;
 }
@@ -530,6 +532,7 @@ function buildCommandList(ch) {
   const parts = [
     "💚 BlazeianBot Commands 💚",
     "📊 Stats: !stats | !votes | !subs | !chat | !time | !emote | !game",
+    "📅 Schedule: !schedule (owner sets it with !setschedule [text])",
     "📣 Shoutout (owner): !so @name",
     "🌍 Translate: !explain [language] | !setbotlang [language]",
     "💬 Ask me anything: @blazeian_bot_ai weather in [city]",
@@ -1569,6 +1572,20 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     if (!text) { await sendChat(channelId, "Usage: !setoffline [message] — use {name} for the streamer name 💚"); return; }
     ch.streamEnd = text; saveChannels();
     await sendChat(channelId, "✅ Stream-OFFLINE message set! 💚");
+    return;
+  }
+
+  // !setschedule [text] — owner only. Free-text streaming schedule, shown to viewers via !schedule.
+  if (m.startsWith("!setschedule")) {
+    if (!isOwner) { await sendChatT(channelId, T.cmdOwnerOnly); return; }
+    const text = msg.includes(" ") ? msg.slice(msg.indexOf(" ") + 1).trim() : "";
+    if (!text) { await sendChat(channelId, "Usage: !setschedule [text] — e.g. !setschedule Mon/Wed/Fri 8PM CET 💚"); return; }
+    ch.schedule = text.slice(0, 200); saveChannels();
+    await sendChat(channelId, "✅ Streaming schedule set! Viewers can check it with !schedule 💚");
+    return;
+  }
+  if (m === "!schedule") {
+    await sendChat(channelId, ch.schedule ? `📅 ${ch.username}'s schedule: ${ch.schedule}` : `📅 ${ch.username} hasn't set a schedule yet.`);
     return;
   }
 
