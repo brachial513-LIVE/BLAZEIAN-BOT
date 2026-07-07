@@ -1533,8 +1533,8 @@
       "stats": {
         "totalVotes": 643,
         "totalSubs": 8,
-        "totalChatMessages": 713,
-        "totalStreamMinutes": 383,
+        "totalChatMessages": 714,
+        "totalStreamMinutes": 384,
         "emotes": {
           "❤": 17,
           "🙌": 10,
@@ -1543,7 +1543,7 @@
           "😊": 1,
           "👍": 1,
           "🔴": 12,
-          "🎉": 17,
+          "🎉": 18,
           "📴": 11,
           "👋": 11,
           "⚡": 3,
@@ -1560,7 +1560,7 @@
           "💃": 4,
           "🤣": 4,
           "🧡": 13,
-          "🚨": 12,
+          "🚨": 18,
           "😘": 1,
           "🥰": 9,
           "🎁": 12,
@@ -1622,10 +1622,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🔴 briggsy is now live! Welcome everyone! 🎉"
-        },
-        {
           "user": "agent00zani",
           "msg": "💜💜💜💜💜"
         },
@@ -1660,6 +1656,10 @@
         {
           "user": "briggsy",
           "msg": "hey angge"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @ItsBigBroZo is raiding with a party of 3! Welcome raiders!! 🎉"
         }
       ],
       "customCommands": {},
@@ -2613,6 +2613,24 @@
       "gameOverride": "",
       "profile": "xxtowerdogxx's Tower Crew is a high-energy community fueled by 🔥 passion, 💪 motivation, and a dash of humor. We're all about gaming and streaming, with a focus on [insert topic/game]. When you're here, expect epic streams, giveaways, and a welcoming vibe. Don't forget to follow @botger for the ultimate bot experience and use xxtowerdogxx to support the community.",
       "_profileAtCount": 36
+    },
+    "b1d9a6f8-4003-43ab-8962-830173e1225a": {
+      "username": "saboomafoo",
+      "language": "en",
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {}
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "timedMessages": [],
+      "greeted": true
     }
   },
   "blocklist": [
