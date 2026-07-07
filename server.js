@@ -1082,12 +1082,17 @@ async function aiShout(ch, instruction, { addName } = {}) {
   const cid = Object.keys(channels).find(id => channels[id] === ch);
   if (cid && onCooldown(cid, "aishout", 4000)) return null;
   if (cid) markFired(cid, "aishout");
+  // Event celebrations (votes/subs/tips/etc.) have no user chat message to detect language from —
+  // the general LANGUAGE RULE in BOT_PERSONA doesn't apply here, proven live: a vote shoutout came
+  // back in German with no signal telling it to. Explicitly pin it to the channel's configured
+  // language (set via !setbotlang, default English) instead of leaving it to guess.
+  const langName = LANG_DISPLAY[ch.language] || "English";
   try {
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL_LIGHT,
       messages: [
         { role: "system", content: BOT_PERSONA + channelContext(ch) },
-        { role: "user", content: `${instruction}\n\nWrite ONE short, punchy chat message in character (max ~1 sentence). No quotation marks, no markdown.` }
+        { role: "user", content: `${instruction}\n\nWrite ONE short, punchy chat message in character (max ~1 sentence). No quotation marks, no markdown. If a concrete number or fact is given above (like a vote count), state it PLAINLY and literally — never replace it with a vague phrase instead. LANGUAGE: this is an event celebration, not a reply to someone's chat message, so there's no message to detect a language from — reply in ${langName} (this channel's configured language), don't mix in any other language.` }
       ],
       max_tokens: 80,
       temperature: 1.0,
