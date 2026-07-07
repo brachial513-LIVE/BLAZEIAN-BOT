@@ -630,7 +630,7 @@
       "stats": {
         "totalVotes": 606,
         "totalSubs": 3,
-        "totalChatMessages": 1059,
+        "totalChatMessages": 1066,
         "totalStreamMinutes": 604,
         "emotes": {
           "🗳": 63,
@@ -735,30 +735,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "Thank you for redeeming PUSH UPS @thom6ss_otg!"
-        },
-        {
-          "user": "tarzan",
-          "msg": "Bro buying push ups .."
-        },
-        {
-          "user": "tarzan",
-          "msg": "Lots of guys but where the girls? 👀"
-        },
-        {
-          "user": "tarzan",
-          "msg": "You said lots of guys here ."
-        },
-        {
-          "user": "tarzan",
-          "msg": "You gotta play against Fluffy and kingbreaker, they wiped me and dragon last time. But they were a team a 3 and we were 2"
-        },
-        {
-          "user": "tarzan",
-          "msg": "But you can't be friends in game"
-        },
-        {
           "user": "tarzan",
           "msg": "Dragon was leader... Well as far s I know"
         },
@@ -773,6 +749,30 @@
         {
           "user": "botger",
           "msg": "🎉 tarzan just reached Level 2! ⚡ (2,208 XP)"
+        },
+        {
+          "user": "botger",
+          "msg": "Join the Fox Spirits Discord for an amazing community, raids, giveaways, events, points, and much more! We welcome artists, gamers, crypto enthusiasts, anime lovers, dog lovers, and all kinds of people! https://discord.gg/fCNG5T5FbD"
+        },
+        {
+          "user": "thom6ss_otg",
+          "msg": "@blazeian_bot_ai what do you know about kintara?"
+        },
+        {
+          "user": "helios",
+          "msg": "New game?"
+        },
+        {
+          "user": "helios",
+          "msg": "Oh. Looks cute"
+        },
+        {
+          "user": "helios",
+          "msg": "My OBS keeps disconnecting again so I'm done with streaming for now"
+        },
+        {
+          "user": "helios",
+          "msg": "Wow. I'll check it out"
         }
       ],
       "customCommands": {},
@@ -783,7 +783,7 @@
       "streamTitle": "🦊 FOX SPIRITS  -- FARLIGHT84 ROAD TO TOP 10 !shop -- LOYALTY SYSTEM!🔥 — Farlight 84",
       "profile": "Thom6ss_otg's community is a high-energy crew, where we say \"WASSUP BROTHER\" and celebrate with \"🔴 thom6ss_otg is now live! 🎉\" and \"❤️ NEW FOLLOWER!! ❤️\" announcements. We're the Blazeian crew, rocking Fox Spirits merch in Farlight 84, loving web3 humor, moonshine, and giving our streamer love. GGS MEN, LET'S GOOOO, and WASSUP BROTHER!",
       "_profileAtCount": 1045,
-      "gameOverride": "",
+      "gameOverride": "kintara",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/71414b9a-4930-430d-af61-ab1de093476a.png"
     },
     "5e9d9b5f-98cf-4b92-a93c-ed876703b55a": {
@@ -2440,24 +2440,26 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 5,
-        "totalStreamMinutes": 0,
+        "totalChatMessages": 11,
+        "totalStreamMinutes": 8,
         "emotes": {
           "❤": 2,
           "🙌": 1,
-          "💚": 5
+          "💚": 5,
+          "🔥": 7,
+          "📴": 2,
+          "👋": 2
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
-          "💚": "💚"
+          "💚": "💚",
+          "🔥": "🔥",
+          "📴": "📴",
+          "👋": "👋"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "brachial513",
           "msg": "lettttts go have a nice stream and thank you for using blazeian my friend !!"
@@ -2473,6 +2475,30 @@
         {
           "user": "brachial513",
           "msg": "thank you for your kind energy !"
+        },
+        {
+          "user": "thom6ss_otg",
+          "msg": "🔥🔥🔥🔥"
+        },
+        {
+          "user": "helios",
+          "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "helios",
+          "msg": "OBS at it again"
+        },
+        {
+          "user": "botger",
+          "msg": "Helios is now live!! Let's get building"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2481,7 +2507,9 @@
       "timedMessages": [],
       "locked": false,
       "followed": true,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4366a4c8-c3fa-4296-9014-212a08f2fae3.gif"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4366a4c8-c3fa-4296-9014-212a08f2fae3.gif",
+      "streamTitle": "",
+      "gameOverride": ""
     },
     "d3b88120-1dbc-422f-930b-6dcb2fccf9f4": {
       "username": "tai_",
