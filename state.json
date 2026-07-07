@@ -2474,6 +2474,25 @@
       "followed": true,
       "streamTitle": "",
       "gameOverride": ""
+    },
+    "58950ad2-950b-4431-9fb5-32221e9e035d": {
+      "username": "bidloperv",
+      "language": "en",
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {}
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "timedMessages": [],
+      "greeted": true,
+      "locked": false
     }
   },
   "blocklist": [
@@ -2498,8 +2517,8 @@
   },
   "lastAnnouncedVersion": "2026-07-04.1",
   "auth": {
-    "accessToken": "0da6bd5a2c2553aaf4140be112ba7ad1",
-    "refreshToken": "9e8f7aa606ab5fb8ee6d60d8fc820fb7",
+    "accessToken": "454fc227f6fb64a42f58a4efc075c254",
+    "refreshToken": "869cbf2fb3f85ab7c537c60b36838f18",
     "sessionToken": "306add93aaca6686660e1a526ca5162d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
