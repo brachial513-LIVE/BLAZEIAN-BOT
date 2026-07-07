@@ -2414,7 +2414,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 8,
+        "totalChatMessages": 9,
         "totalStreamMinutes": 0,
         "emotes": {
           "💚": 4,
@@ -2457,6 +2457,10 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -2465,7 +2469,9 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "followed": true
+      "followed": true,
+      "streamTitle": "",
+      "gameOverride": ""
     }
   },
   "blocklist": [
