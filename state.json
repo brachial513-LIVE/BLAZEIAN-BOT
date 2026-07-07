@@ -1139,8 +1139,8 @@
       "stats": {
         "totalVotes": 244,
         "totalSubs": 5,
-        "totalChatMessages": 215,
-        "totalStreamMinutes": 2153,
+        "totalChatMessages": 216,
+        "totalStreamMinutes": 2158,
         "emotes": {
           "😊": 3,
           "🌵": 25,
@@ -1185,7 +1185,8 @@
           "⛴": 1,
           "🚢": 1,
           "🛥": 1,
-          "🛳": 1
+          "🛳": 1,
+          "🏝": 1
         },
         "emoteNames": {
           "😊": "😊",
@@ -1231,14 +1232,11 @@
           "⛴": "⛴",
           "🚢": "🚢",
           "🛥": "🛥",
-          "🛳": "🛳"
+          "🛳": "🛳",
+          "🏝": "🏝"
         }
       },
       "chatMemory": [
-        {
-          "user": "capt_rob_advent",
-          "msg": "👋"
-        },
         {
           "user": "capt_rob_advent",
           "msg": "👋"
@@ -1274,6 +1272,10 @@
         {
           "user": "canawilks",
           "msg": "⛴️🚢🛥🛳"
+        },
+        {
+          "user": "canawilks",
+          "msg": "🏝"
         }
       ],
       "customCommands": {},
