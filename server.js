@@ -718,6 +718,25 @@ async function getChannelIdBySlug(slug) {
   return null;
 }
 
+// Backfills a channel's Blaze profile picture for the homepage "My crew" cards. Fire-and-forget —
+// never awaited by the homepage route, so a slow/failing lookup can't slow down page loads. Once
+// cached on the channel object it's never re-fetched (avatars basically never change).
+// "avatarUrl" is the confirmed real field name Blaze uses (per dev.blaze.stream/docs/events, seen on
+// the channel.thanks sender object) — reused here since the channel-lookup API follows the same shape.
+async function backfillChannelAvatar(channelId, username) {
+  try {
+    const res = await axios.get(`${API}/v1/channels?slug[]=${encodeURIComponent(username)}&type=all`, { headers: headers() });
+    const row = res.data?.data?.rows?.[0];
+    const avatarUrl = row?.avatarUrl || row?.avatar || row?.imageUrl || null;
+    if (avatarUrl && channels[channelId]) {
+      channels[channelId].avatarUrl = avatarUrl;
+      saveChannels();
+    }
+  } catch (e) {
+    // silent — just retries on the next homepage render, no need to log noise for a cosmetic feature
+  }
+}
+
 // THE unlock: the bot follows the channel using its BROWSER SESSION token (not the OAuth token).
 // Following is the only thing that satisfies Blaze's "followers-only" chat — VIP/Mod do NOT bypass it.
 // Proven working request: Authorization: Bearer <session-token> + visitor-id header + body "{}".
@@ -2278,12 +2297,16 @@ const LANG_FLAG = { de:"🇩🇪", en:"🇬🇧", es:"🇪🇸", fr:"🇫🇷", 
 
 app.get("/", (req, res) => {
   const total = Object.keys(channels).length;
-  const cards = Object.values(channels).map(ch => {
+  const cards = Object.entries(channels).map(([cid, ch]) => {
     const flag = LANG_FLAG[ch.language] || "🌍";
     const chips = Object.keys(ch.customCommands || {}).slice(0, 12)
       .map(c => `<span class="chip">!${esc(c)}</span>`).join("") || `<span class="chip muted2">getting set up…</span>`;
+    if (!ch.avatarUrl) backfillChannelAvatar(cid, ch.username).catch(() => {}); // fills in for the NEXT render, never blocks this one
+    const avatar = ch.avatarUrl
+      ? `<img class="uavatar" src="${esc(ch.avatarUrl)}" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'uavatar uavatar-fallback',textContent:'${esc((ch.username || "?")[0].toUpperCase())}'}))">`
+      : `<div class="uavatar uavatar-fallback">${esc((ch.username || "?")[0].toUpperCase())}</div>`;
     return `<a class="ucard" href="https://blaze.stream/${encodeURIComponent(ch.username)}" target="_blank" rel="noopener">
-      <div class="uhead"><span class="uname">${esc(ch.username)}</span><span class="uflag">${flag}</span></div>
+      <div class="uhead">${avatar}<span class="uname">${esc(ch.username)}</span><span class="uflag">${flag}</span></div>
       <div class="ustats">💬 ${ch.stats.totalChatMessages} &nbsp; ⭐ ${ch.stats.totalSubs} &nbsp; 🗳️ ${ch.stats.totalVotes}</div>
       <div class="uchips">${chips}</div>
       <div class="uvisit">visit channel →</div>
@@ -2315,17 +2338,19 @@ app.get("/", (req, res) => {
       .pill{display:inline-block;background:#0f1a0f;border:1px solid #2c5a2c;color:#bfeebf;border-radius:30px;padding:6px 16px;margin:4px;font-size:13px;}
       .pill b{color:#5cf472;}
       .point{text-align:center;color:#7CFC9A;font-size:18px;font-weight:700;margin:26px 0 6px;letter-spacing:.5px;}
-      .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:8px;}
-      .ucard{display:block;text-decoration:none;background:linear-gradient(160deg,rgba(22,40,18,.95),rgba(12,16,12,.95));border:1px solid #2f5f2f;border-radius:14px;padding:15px;box-shadow:0 4px 18px rgba(0,0,0,.45);transition:transform .15s, box-shadow .15s;}
-      .ucard:hover{transform:translateY(-3px);box-shadow:0 0 22px rgba(92,244,114,.35);border-color:#5cf472;}
-      .uhead{display:flex;justify-content:space-between;align-items:center;}
-      .uname{color:#7CFC9A;font-weight:700;font-size:17px;word-break:break-word;}
-      .uflag{font-size:20px;}
-      .ustats{color:#bcd6bc;font-size:13px;margin:8px 0 10px;}
+      .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin-top:8px;}
+      .ucard{display:block;text-decoration:none;background:rgba(18,26,17,.7);border:1px solid #223822;border-radius:10px;padding:12px 14px;transition:border-color .15s, background .15s;}
+      .ucard:hover{background:rgba(22,34,20,.9);border-color:#3d6b3d;}
+      .uhead{display:flex;align-items:center;gap:9px;}
+      .uavatar{width:28px;height:28px;border-radius:50%;object-fit:cover;flex-shrink:0;border:1px solid #2f5f2f;}
+      .uavatar-fallback{display:flex;align-items:center;justify-content:center;background:#16281b;color:#6fae7a;font-weight:700;font-size:13px;}
+      .uname{color:#8fcf9a;font-weight:600;font-size:14px;word-break:break-word;flex:1;}
+      .uflag{font-size:14px;opacity:.85;}
+      .ustats{color:#8ba98b;font-size:12px;margin:8px 0 8px;}
       .uchips{display:flex;flex-wrap:wrap;gap:5px;}
-      .chip{background:#0f160f;border:1px solid #2a3a2a;color:#9fe0a8;font-size:11px;padding:3px 9px;border-radius:20px;}
-      .muted2{color:#6f836f;font-style:italic;}
-      .uvisit{color:#f5a623;font-size:11px;margin-top:10px;opacity:0;transition:opacity .15s;}
+      .chip{background:#0f160f;border:1px solid #223022;color:#7fb587;font-size:10px;padding:2px 8px;border-radius:20px;}
+      .muted2{color:#5a6b5a;font-style:italic;}
+      .uvisit{color:#c98a3a;font-size:10px;margin-top:8px;opacity:0;transition:opacity .15s;}
       .ucard:hover .uvisit{opacity:1;}
       .foot{text-align:center;color:#6f836f;font-size:12px;margin-top:34px;line-height:1.7;}
       .foot b{color:#9fc99f;}
@@ -2378,12 +2403,13 @@ app.get("/", (req, res) => {
     <h2 style="text-align:center;border:0;">⚡ What I do best</h2>
     <div class="feats">
       <div class="feat"><h4>🧠 I Actually Think</h4><p>Tag me <code style="all:unset;color:#ffd23f;">@blazeian_bot_ai</code> and I read what you said and reply for real — in character, in <b>your</b> language. No canned lines, an actual brain. 💚</p></div>
+      <div class="feat"><h4>🔍 Real Answers, Not Guesses</h4><p>Ask me something you'd normally Google — news, scores, current stuff — and I'll actually look it up live and tell you what I found, honestly, instead of making something up.</p></div>
       <div class="feat"><h4>🌍 Live Translation</h4><p>A signature move — <code style="all:unset;color:#ffd23f;">!explain [language]</code> translates the last chat messages into 18 languages. Nobody gets left out.</p></div>
-      <div class="feat"><h4>🎉 Stream Alerts with Soul</h4><p>Raids, subs, gift subs, votes & follows — celebrated with real personality, never robotic.</p></div>
+      <div class="feat"><h4>🎉 Stream Alerts with Soul</h4><p>Raids, subs, gift subs, votes, follows & tips — every one celebrated with real personality, never robotic.</p></div>
       <div class="feat"><h4>⚡ Custom Commands</h4><p>Build your own commands in seconds from your dashboard. <code style="all:unset;color:#ffd23f;">!giveaway</code>, <code style="all:unset;color:#ffd23f;">!socials</code>, anything you want.</p></div>
       <div class="feat"><h4>📊 Stats & Tracking</h4><p>Votes, subs, stream time, top emote — <code style="all:unset;color:#ffd23f;">!stats</code> shows it all, per channel.</p></div>
       <div class="feat"><h4>💬 Reads the Vibe</h4><p>I react to GG, GM, hype & hearts when it fits, drop live weather on request — and set my whole language per channel with <code style="all:unset;color:#ffd23f;">!setbotlang</code>.</p></div>
-      <div class="feat"><h4>🎬 Free OBS Overlays</h4><p>A live <b>Emote Wall</b> and a <b>BLAZE viewer counter</b> for your stream — grab your browser-source links right in your dashboard. No setup, no cost.</p></div>
+      <div class="feat"><h4>🎬 Free OBS Overlays</h4><p>Log in once below and your <b>personal dashboard</b> gives you ready-to-paste links for an animated <b>Emote Wall</b> and a live <b>viewer counter</b> — just copy the link into an OBS Browser Source, no extra setup, no cost. Everything's explained step-by-step right there.</p></div>
       <div class="feat"><h4>⏱️ Timed Messages & Learning</h4><p>I auto-post your reminders on a timer, and I quietly <b>learn each channel's own vibe</b> so I talk like a real regular over time.</p></div>
     </div>
 
