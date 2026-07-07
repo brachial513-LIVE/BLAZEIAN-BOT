@@ -266,9 +266,14 @@ async function _writeStateToGitHub() {
     console.log("GitHub save error:", e.response?.status, e.response?.data?.message || e.message);
   }
 }
-// GitHub allows 5000 requests/hour, but each save is also a git commit, so we still coalesce
-// routine saves (chat stats, profiles, greetings) into ONE write every 5 MINUTES. Critical data
-// (tokens, new channel joins) uses saveChannelsNow() for an immediate write.
+// GitHub allows 5000 requests/hour, but each save is also a git commit AND re-uploads the FULL
+// channels object (every channel's chat memory, stats, custom commands, etc.) — with 31+ active
+// channels constantly incrementing chat counters, a 5-minute debounce meant up to ~288 full-state
+// uploads/day. Proven live: this was the dominant driver of Render's bandwidth bill (4.96GB of
+// 5.09GB used was "Service-Initiated" — our own outbound calls — not the OBS overlay traffic).
+// 20 minutes cuts save frequency (and thus this bandwidth) by ~4x; losing a few extra minutes of
+// stats on an unexpected crash is a fully acceptable tradeoff for that.
+// Critical data (tokens, new channel joins) still uses saveChannelsNow() for an immediate write.
 let _saveTimer = null, _savePending = false;
 function saveChannels() {
   _savePending = true;
@@ -276,7 +281,7 @@ function saveChannels() {
   _saveTimer = setTimeout(() => {
     _saveTimer = null;
     if (_savePending) { _savePending = false; saveChannelsToCloud().catch(e => console.log("Save error:", e.message)); }
-  }, 5 * 60 * 1000);
+  }, 20 * 60 * 1000);
 }
 // Immediate write for things that MUST survive a restart (tokens, channel registration).
 function saveChannelsNow() {
@@ -3055,7 +3060,7 @@ app.get("/overlay/emotes/:username", (req, res) => {
       (d.emotes||[]).forEach((it,i)=>setTimeout(()=>spawn(it), i*120));
     }catch(e){}
   }
-  setInterval(poll,2000); poll();
+  setInterval(poll,4000); poll(); // was 2000 — halves request volume across all channels; no visible lag since emotes just batch slightly more per poll
 </script></body></html>`);
 });
 
@@ -3405,7 +3410,7 @@ app.get("/overlay/run/:username", (req, res) => {
     if(type==='tip')return{f:HEART,m:'TIP!! '+n+'absolute legend, thank you 💚🔥',d:5600};
     return{f:IDLE,m:'',d:3000};}
   if(USER){setInterval(function(){fetch('/api/react/'+encodeURIComponent(USER)).then(function(r){return r.json();})
-    .then(function(d){if(d&&d.type&&d.ts&&d.ts>lastReactTs){lastReactTs=d.ts;pendingReact=d;}}).catch(function(){});},3000);}
+    .then(function(d){if(d&&d.type&&d.ts&&d.ts>lastReactTs){lastReactTs=d.ts;pendingReact=d;}}).catch(function(){});},6000);} // was 3000 — halves request volume; celebrations already display for 4-6s so a few extra seconds of poll lag is imperceptible
   function tick(now){if(!ready){requestAnimationFrame(tick);return;}
     var dt=Math.min(0.05,(now-last)/1000);last=now;
     if(RGB&&now-lastHue>90){lastHue=now;bowHue=(now/22)%360;recolor(bowHue);}
