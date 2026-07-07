@@ -892,8 +892,11 @@ async function getWeather(city) {
 async function webSearch(query) {
   if (!TAVILY_API_KEY) return null;
   try {
+    // topic:"news" biases toward genuinely current/real-time sources instead of old announcement
+    // pages ranking high on general relevance — proven live: a generic search for "Delta Force news"
+    // surfaced a stale Q4 2024 early-access announcement instead of anything actually current.
     const res = await axios.post("https://api.tavily.com/search",
-      { query, max_results: 4, search_depth: "basic" },
+      { query, max_results: 4, search_depth: "basic", topic: "news" },
       { headers: { authorization: `Bearer ${TAVILY_API_KEY}`, "content-type": "application/json" }, timeout: 8000 });
     const results = (res.data?.results || []).slice(0, 4)
       .map(r => ({ title: r.title, snippet: r.content, url: r.url }));
@@ -1024,7 +1027,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
       const results = await webSearch(query);
       console.log(`[SEARCH] Tavily returned ${results ? results.length : 0} result(s) for query "${query}"`);
       searchBlock = results
-        ? `\n\nLIVE SEARCH RESULTS for "${query}" (use ONLY these to answer — cite them naturally, e.g. "according to Google, ..." in your reply's own language; never invent beyond them; if these results don't actually answer the question, say so plainly instead of guessing or offering to search again — you only get this one shot, there is no "again"):\n` +
+        ? `\n\nLIVE SEARCH RESULTS for "${query}" (use ONLY these to answer — cite them naturally, e.g. "according to Google, ..." in your reply's own language; never invent beyond them; if these results don't actually answer the question, say so plainly instead of guessing or offering to search again — you only get this one shot, there is no "again". IMPORTANT: these results can be OUTDATED (e.g. an old "coming soon" announcement for something that has clearly already happened/launched). Cross-check them against what you ALREADY know is true right now from this channel's own live context above (e.g. the current game/stream info) — if a search result obviously contradicts or predates that live context, trust the live context, not the stale search result):\n` +
           results.map((r, i) => `${i + 1}. ${r.title} — ${r.snippet}`).join("\n")
         : `\n\nYou tried a live web search for this but got no usable results — be honest you couldn't find a reliable answer right now, don't guess, don't offer to check again.`;
     }
