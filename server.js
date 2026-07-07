@@ -330,7 +330,19 @@ function getOrCreateChannel(channelId, username) {
   if (c.streamEnd === undefined) c.streamEnd = "";
   if (c.schedule === undefined) c.schedule = "";
   if (!Array.isArray(c.timedMessages)) c.timedMessages = []; // [{text, intervalMin, onlyLive, lastSent}]
+  if (!Array.isArray(c.tipTiers)) c.tipTiers = []; // [{min, count}] — optional "tip for a reward" tiers, see !settiptier
   return c;
+}
+
+// For streamers running their own "tip $X for Y reward" promo (e.g. UncleFunk's Blazeborn Egg tiers:
+// $2→1-3, $5→9, $10→18...). Returns the HIGHEST tier the amount qualifies for, or null if none/no tiers set.
+function findTipTier(ch, amount) {
+  const amt = parseFloat(amount);
+  if (!Number.isFinite(amt) || !Array.isArray(ch.tipTiers) || !ch.tipTiers.length) return null;
+  const sorted = [...ch.tipTiers].sort((a, b) => a.min - b.min);
+  let match = null;
+  for (const t of sorted) { if (amt >= t.min) match = t; else break; }
+  return match;
 }
 
 const streamTimers = {};
@@ -1589,6 +1601,48 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
+  // Tip-tier reward config (owner only) — for streamers running their own "tip $X for Y" promo.
+  // !settipreward [name] — what the reward is called (e.g. "eggs")
+  if (m.startsWith("!settipreward")) {
+    if (!isOwner) { await sendChatT(channelId, T.cmdOwnerOnly); return; }
+    const name = msg.includes(" ") ? msg.slice(msg.indexOf(" ") + 1).trim() : "";
+    if (!name) { await sendChat(channelId, "Usage: !settipreward [name] — e.g. !settipreward eggs 💚"); return; }
+    ch.tipRewardName = name.slice(0, 40); saveChannels();
+    await sendChat(channelId, `✅ Tip reward name set to "${ch.tipRewardName}" 💚`);
+    return;
+  }
+  // !settiptier [amount] [count] — e.g. !settiptier 10 18  (a $10+ tip = 18 eggs)
+  if (m.startsWith("!settiptier")) {
+    if (!isOwner) { await sendChatT(channelId, T.cmdOwnerOnly); return; }
+    const parts = msg.trim().split(/\s+/);
+    const min = parseFloat(parts[1]);
+    const count = parts.slice(2).join(" ");
+    if (!Number.isFinite(min) || !count) { await sendChat(channelId, "Usage: !settiptier [amount] [count] — e.g. !settiptier 10 18 💚"); return; }
+    if (!Array.isArray(ch.tipTiers)) ch.tipTiers = [];
+    ch.tipTiers = ch.tipTiers.filter(t => t.min !== min);
+    ch.tipTiers.push({ min, count });
+    saveChannels();
+    await sendChat(channelId, `✅ Tip tier set: $${min}+ = ${count} ${ch.tipRewardName || "reward(s)"} 💚`);
+    return;
+  }
+  // !deltiptier [amount] — remove a tier
+  if (m.startsWith("!deltiptier")) {
+    if (!isOwner) { await sendChatT(channelId, T.cmdOwnerOnly); return; }
+    const min = parseFloat(msg.trim().split(/\s+/)[1]);
+    if (!Number.isFinite(min) || !Array.isArray(ch.tipTiers) || !ch.tipTiers.some(t => t.min === min)) {
+      await sendChat(channelId, `Usage: !deltiptier [amount] — no tier found for that amount.`); return;
+    }
+    ch.tipTiers = ch.tipTiers.filter(t => t.min !== min); saveChannels();
+    await sendChat(channelId, `✅ Removed the $${min} tip tier 💚`);
+    return;
+  }
+  if (m === "!tiptiers") {
+    if (!Array.isArray(ch.tipTiers) || !ch.tipTiers.length) { await sendChat(channelId, `No tip tiers set for ${ch.username} yet.`); return; }
+    const list = [...ch.tipTiers].sort((a, b) => a.min - b.min).map(t => `$${t.min}+ = ${t.count}`).join(" | ");
+    await sendChat(channelId, `🥚 ${ch.username}'s tip tiers (${ch.tipRewardName || "reward"}): ${list}`);
+    return;
+  }
+
   // Built-in stat commands
   if (m === "!stats")  { await sendChatT(channelId, T.stats(ch)); return; }
   if (m === "!votes")  { await sendChatT(channelId, T.votes(ch)); return; }
@@ -1812,7 +1866,11 @@ async function handleEvent(message) {
     const amtTxt = rawAmt !== "" ? `${rawAmt} ${String(currency).toUpperCase()}` : "a tip";
     console.log("[TIP-PAYLOAD]", JSON.stringify(p).slice(0, 500)); // confirm the real payload shape on first live tip
     setReaction(channelId, "tip", rawUser);
-    const ai = await aiShout(ch, `${rawUser} just TIPPED ${amtTxt} to ${ch.username}! That's real support with real money — thank them BIG, warm and personal.`, { addName: rawUser });
+    // Some streamers run their own "tip for a reward" promo (e.g. buy X per tip tier) — !settiptier
+    // lets an owner configure that, so the celebration mentions the actual reward, not just the tip.
+    const tier = findTipTier(ch, rawAmt);
+    const rewardNote = tier ? ` This tip qualifies for ${tier.count} ${ch.tipRewardName || "reward(s)"} — mention that specifically.` : "";
+    const ai = await aiShout(ch, `${rawUser} just TIPPED ${amtTxt} to ${ch.username}! That's real support with real money — thank them BIG, warm and personal.${rewardNote}`, { addName: rawUser });
     await sendChatT(channelId, ai || getRandom(getMsg(channelId).tip(rawUser, amtTxt)));
     return;
   }
