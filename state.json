@@ -1383,9 +1383,9 @@
       "language": "en",
       "stats": {
         "totalVotes": 531,
-        "totalSubs": 3,
-        "totalChatMessages": 206,
-        "totalStreamMinutes": 486,
+        "totalSubs": 4,
+        "totalChatMessages": 219,
+        "totalStreamMinutes": 506,
         "emotes": {
           "✨": 1,
           "🖥": 7,
@@ -1398,7 +1398,7 @@
           "🏆": 8,
           "💥": 8,
           "🗳": 23,
-          "🎁": 8,
+          "🎁": 9,
           "👑": 16,
           "💜": 2,
           "🏹": 1,
@@ -1469,44 +1469,44 @@
       },
       "chatMemory": [
         {
-          "user": "tarzan",
-          "msg": "How are you"
+          "user": "zer0cache",
+          "msg": "lol yea my plugin picks it all up!"
         },
         {
           "user": "zer0cache",
-          "msg": "all good thanks dude! how are you doing?"
+          "msg": "thanks for dropping by!"
         },
         {
-          "user": "tarzan",
-          "msg": "🥺"
+          "user": "zsoltech",
+          "msg": "Cheers."
         },
         {
-          "user": "tarzan",
-          "msg": "On my way home"
+          "user": "zsoltech",
+          "msg": "Your screen is a bit off. Or is that to zoom in kn the action"
         },
         {
-          "user": "cachebot",
-          "msg": "🖥️  Zer0Cache, Thanks for Testing CacheBot out!"
+          "user": "zer0cache",
+          "msg": "ahh you're right!"
         },
         {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 5 votes, @saboomafoo! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "saboomafoo",
-          "msg": "🦊🦊🍀🦊🦊🦊lets gooo fox !"
+          "user": "zsoltech",
+          "msg": "Lol I hate that adjustment thing"
         },
         {
           "user": "cachebot",
-          "msg": "🛎️ [HYPE]: Magnificent! @saboomafoo delivers energy with the sharp, satisfying punch of a five-star hotel concierge ensuring absolute perfection. Top-tier!"
+          "msg": "🎁 [GIFTED SUB]: @A user just passed a gifted sub to @a community member! Absolute legend."
         },
         {
-          "user": "cachebot",
-          "msg": "🛎️ [HYPE]: Magnificent! @fluffy delivers energy with the sharp, satisfying punch of a five-star hotel concierge ensuring absolute perfection. Top-tier!"
+          "user": "zsoltech",
+          "msg": "Happens by itself sometimes"
         },
         {
-          "user": "tarzan",
-          "msg": "Agreed @cachebot.. good one"
+          "user": "zsoltech",
+          "msg": "Cheers"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "you're welcome, thanks for pointing that out!"
         }
       ],
       "customCommands": {},
@@ -2064,13 +2064,13 @@
       "language": "en",
       "stats": {
         "totalVotes": 515,
-        "totalSubs": 7,
-        "totalChatMessages": 47,
-        "totalStreamMinutes": 172,
+        "totalSubs": 8,
+        "totalChatMessages": 49,
+        "totalStreamMinutes": 181,
         "emotes": {
           "❤": 6,
-          "🙌": 10,
-          "🎁": 14,
+          "🙌": 11,
+          "🎁": 16,
           "🚀": 1,
           "😂": 1,
           "🤣": 4,
@@ -2082,8 +2082,8 @@
           "🔴": 2,
           "🎉": 4,
           "🚨": 6,
-          "📴": 1,
-          "👋": 1,
+          "📴": 2,
+          "👋": 2,
           "🏅": 1
         },
         "emoteNames": {
@@ -2107,14 +2107,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "@gaara27 N'Abend"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @vRoshi55 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -2146,6 +2138,14 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @zoob_21! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @woshi! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -2158,7 +2158,7 @@
       "botVip": true,
       "profile": "**vitrene's Community Profile**\n\nWelcome to vitrene's Blaze community, where the vibes are chill and the generosity is real! We're a tight-knit group of Blazeians who love to support each other, especially with those sweet subs. You'll catch us throwing around German slang like \"geil\" and \"hammer geil\", and maybe even some Fox Spirits Giveaways. Let's keep blazein' and stay amazing!",
       "_profileAtCount": 20,
-      "streamTitle": "BOOM... HEADSHOT! 🎯 | Battlefield 6 — Battlefield 6",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif"
     },
@@ -2783,7 +2783,7 @@
         "totalVotes": 121,
         "totalSubs": 0,
         "totalChatMessages": 8,
-        "totalStreamMinutes": 135,
+        "totalStreamMinutes": 155,
         "emotes": {
           "❤": 2,
           "🙌": 1,
