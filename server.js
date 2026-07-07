@@ -918,14 +918,21 @@ function looksLikeSearchQuery(msg) { return SEARCH_KEYWORDS.test(msg || ""); }
 // Proven live why this matters: the raw message "who won the latest WM match?" made Tavily return
 // WWE WrestleMania results instead of football World Cup ones, because "WM" is ambiguous in English.
 // Combined with looksLikeSearchQuery() via OR (see askAI()) since this model alone isn't fully reliable.
-async function planWebSearch(userMessage) {
+async function planWebSearch(userMessage, ch) {
   if (!AI_KEY) return { needed: false, query: null };
+  // Give the rewriter what THIS channel is actually playing/streaming right now, so it can tell apart
+  // an ambiguous term's game/stream meaning from an unrelated real-world one — proven live: a search
+  // for "Delta Force" (the game currently live on-stream) surfaced a Delta AIRLINES news story instead,
+  // because the query had no way to know "Delta Force" here means the game, not the airline.
+  const liveContext = ch?.gameOverride || ch?.streamTitle
+    ? `\n\nCONTEXT: this channel is currently playing/streaming "${ch.gameOverride || ch.streamTitle}" — if the message's subject matches or relates to this, your query MUST make clear it's about that specific game/show/topic (e.g. add "video game" or the platform/genre), not an unrelated real-world thing that happens to share the same name.`
+    : "";
   try {
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL_LIGHT,
       messages: [{ role: "user", content:
-        `Message: "${userMessage}"\n\nDoes answering this need a LIVE web search for current/real-world facts (news, scores, results, prices, "the latest X", who won something, real events) that a language model's training data likely doesn't reliably have?\n\nReply in EXACTLY this format, nothing else:\nLine 1: YES or NO\nLine 2 (ONLY if YES): a short, clear, unambiguous web search query for it. IMPORTANT: "WM" is German shorthand for "Weltmeisterschaft" — when you see "WM" with no other sport specified, it means the FOOTBALL/SOCCER WORLD CUP. Always write your query as "World Cup" in that case — NEVER interpret "WM" as WWE, WrestleMania, or wrestling.` }],
-      max_tokens: 40,
+        `Message: "${userMessage}"${liveContext}\n\nDoes answering this need a LIVE web search for current/real-world facts (news, scores, results, prices, "the latest X", who won something, real events) that a language model's training data likely doesn't reliably have?\n\nReply in EXACTLY this format, nothing else:\nLine 1: YES or NO\nLine 2 (ONLY if YES): a short, clear, unambiguous web search query for it. Add disambiguating words whenever the subject could also mean something unrelated in the real world (e.g. a game/show title that's also a common word or brand name). IMPORTANT: "WM" is German shorthand for "Weltmeisterschaft" — when you see "WM" with no other sport specified, it means the FOOTBALL/SOCCER WORLD CUP. Always write your query as "World Cup" in that case — NEVER interpret "WM" as WWE, WrestleMania, or wrestling.` }],
+      max_tokens: 50,
       temperature: 0,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 6000 });
     const lines = (res.data?.choices?.[0]?.message?.content || "").trim().split("\n").map(l => l.trim()).filter(Boolean);
@@ -1019,7 +1026,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   let searchBlock = "";
   if (TAVILY_API_KEY) {
     const keywordHit = looksLikeSearchQuery(userMessage);
-    const plan = await planWebSearch(userMessage);
+    const plan = await planWebSearch(userMessage, ch);
     const wants = keywordHit || plan.needed;
     const query = plan.query || userMessage; // fall back to the raw message if the rewriter didn't fire
     console.log(`[SEARCH] wants=${wants ? "YES" : "no"} (keyword=${keywordHit}, ai=${plan.needed}) query="${query}"`);
@@ -1954,14 +1961,14 @@ function renderOverlaySection(username) {
     <label style="margin-top:14px;">👁️ Live Viewer Count (BLAZE)</label>
     <input readonly onclick="this.select()" value="${esc(viewerUrl)}">
     <p class="hint">OBS → + → Browser → paste URL → Width <b>340</b>, Height <b>110</b>. Red dot = offline, green = live.</p>
-    <label style="margin-top:14px;">🤖 Blazeian Mascot — portal-appears & watches with you</label>
+    <label style="margin-top:14px;">🤖 Blazeian Mascot (simple) — portal-appears & watches with you</label>
     <input readonly onclick="this.select()" value="${esc(mascotUrl)}">
-    <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. First appearance ~4s, then every ~1–2 min. Add <code>?img=URL</code> for a custom sprite.</p>
-    <label style="margin-top:14px;">🏃 Blazeian Runs — flitzt aus echten Frames über deinen Stream (+ Sprechblasen)</label>
+    <p class="hint">Only need this if you want a <b>custom image</b> instead of Blazeian's real animated character (add <code>?img=URL</code> for that). Otherwise skip this one and just use <b>Blazeian Runs</b> below — it already does portal-appearing AND watching, plus a lot more. OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. First appearance ~4s, then every ~1–2 min.</p>
+    <label style="margin-top:14px;">🏃 Blazeian Runs (recommended) — the full package: runs, sits & watches, dances, pops speech bubbles</label>
     <input readonly onclick="this.select()" value="${esc(runUrl)}">
-    <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. He runs across, turns at the edges &amp; pops speech bubbles. Tune: <code>?size=160&amp;speed=120&amp;fps=12&amp;talk=0</code>.<br>
-    🎨 <b>Farbe wählen:</b> häng <code>?theme=</code> an — <code>green</code> (GMC), <code>blue</code>, <code>cyan</code>, <code>purple</code>, <code>pink</code>, <code>red</code>, <code>gold</code>, oder <code>rgb</code> (Regenbogen 🌈). Beispiel: <code>…/run/NAME?theme=rgb</code><br>
-    🪑 <b>Chill-Modus:</b> Er setzt sich zwischendurch auf einen kleinen Hocker am Rand und schaut den Stream mit 👀 — <code>?sit=0</code> schaltet das aus. · 🕺 Kleine Tänze inklusive — <code>?dance=0</code> schaltet sie ab. · 🎀 <code>?female=1</code> setzt eine Schleife auf den Kopf (Farbe folgt dem Theme).</p>
+    <p class="hint">This is the one most people want — it already includes everything Mascot does (portal-appear + watching) plus real running animation, chill/sit mode and dancing, all in one. OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. He runs across, turns at the edges &amp; pops speech bubbles. Tune: <code>?size=160&amp;speed=120&amp;fps=12&amp;talk=0</code>.<br>
+    🎨 <b>Pick a color:</b> add <code>?theme=</code> — <code>green</code> (GMC), <code>blue</code>, <code>cyan</code>, <code>purple</code>, <code>pink</code>, <code>red</code>, <code>gold</code>, or <code>rgb</code> (rainbow 🌈). Example: <code>…/run/NAME?theme=rgb</code><br>
+    🪑 <b>Chill mode:</b> he occasionally sits on a little stool at the edge and watches the stream with you 👀 — <code>?sit=0</code> turns that off. · 🕺 Little dances included — <code>?dance=0</code> turns them off. · 🎀 <code>?female=1</code> adds a bow on his head (color follows the theme).</p>
   </div>`;
 }
 
@@ -2396,6 +2403,9 @@ app.get("/", (req, res) => {
       <span class="pill">💚 Looking after <b>${total}</b> channel${total === 1 ? "" : "s"}</span>
       <span class="pill">🌍 <b>18</b> languages</span>
       <span class="pill">✅ <b>100% free</b></span>
+    </div>
+    <div style="text-align:center;margin:10px 0 0;">
+      <a href="/dashboard" style="display:inline-block;color:#5cf472;font-size:13px;text-decoration:none;border:1px solid #2c5a2c;border-radius:20px;padding:6px 16px;background:rgba(15,26,15,.6);">🎛️ Already added me? Go to your Dashboard →</a>
     </div>
 
     <div style="max-width:760px;margin:18px auto 0;padding:14px 18px;border:1px solid #2c7a4a;border-radius:14px;background:rgba(18,40,24,.5);text-align:center;font-size:14px;line-height:1.5;">
@@ -3030,13 +3040,13 @@ app.get("/overlay/emotes/:username", (req, res) => {
   function spawn(item){
     const el=document.createElement('div'); el.className='emote';
     el.style.left=(Math.random()*92+2)+'vw';
-    el.style.setProperty('--dur',(4.5+Math.random()*3)+'s');
+    el.style.setProperty('--dur',(9+Math.random()*6)+'s');
     el.style.setProperty('--drift',((Math.random()*160-80))+'px');
     el.style.setProperty('--rot',((Math.random()*60-30))+'deg');
     el.style.fontSize=(48+Math.random()*40)+'px';
     if(item.img){ el.innerHTML='<img src="'+item.e+'">'; } else { el.textContent=item.e; }
     wall.appendChild(el);
-    setTimeout(()=>el.remove(),8000);
+    setTimeout(()=>el.remove(),16000);
   }
   async function poll(){
     try{
