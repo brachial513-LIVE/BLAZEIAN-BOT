@@ -1533,8 +1533,8 @@
       "stats": {
         "totalVotes": 643,
         "totalSubs": 8,
-        "totalChatMessages": 704,
-        "totalStreamMinutes": 348,
+        "totalChatMessages": 711,
+        "totalStreamMinutes": 353,
         "emotes": {
           "❤": 17,
           "🙌": 10,
@@ -1572,7 +1572,10 @@
           "🤗": 1,
           "👀": 3,
           "🙂": 2,
-          "↕": 2
+          "↕": 2,
+          "💜": 5,
+          "💗": 1,
+          "🎵": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -1611,38 +1614,13 @@
           "🤗": "🤗",
           "👀": "👀",
           "🙂": "🙂",
-          "↕": "↕"
+          "↕": "↕",
+          "💜": "💜",
+          "💗": "💗",
+          "🎵": "🎵"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 3 vote(s) (total: 12)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 briggsy is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 briggsy is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "marowak33",
-          "msg": "gm"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "briggsy",
           "msg": "Hey Marowak"
@@ -1654,6 +1632,34 @@
         {
           "user": "botger",
           "msg": "🔴 briggsy is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "💜💜💜💜💜"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "All best in your day 💗"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "Just saying hi bro"
+        },
+        {
+          "user": "briggsy",
+          "msg": "hey zani"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "Nice music 🎵"
+        },
+        {
+          "user": "briggsy",
+          "msg": "hey to you"
+        },
+        {
+          "user": "briggsy",
+          "msg": "are you getting on tonight?"
         }
       ],
       "customCommands": {},
