@@ -1384,15 +1384,15 @@
       "stats": {
         "totalVotes": 531,
         "totalSubs": 4,
-        "totalChatMessages": 231,
-        "totalStreamMinutes": 531,
+        "totalChatMessages": 237,
+        "totalStreamMinutes": 548,
         "emotes": {
           "✨": 1,
           "🖥": 7,
-          "🔥": 12,
-          "👋": 4,
-          "🎬": 5,
-          "❤": 7,
+          "🔥": 13,
+          "👋": 5,
+          "🎬": 7,
+          "❤": 9,
           "🚨": 4,
           "⚡": 10,
           "🏆": 8,
@@ -1473,30 +1473,6 @@
       },
       "chatMemory": [
         {
-          "user": "cachebot",
-          "msg": "🦢 [HYPE]: Exquisite! @zsoltech glides through the lobby with the regal, completely unbothered posture of an imperial swan owning the riverway."
-        },
-        {
-          "user": "agent00zani",
-          "msg": "Finally"
-        },
-        {
-          "user": "zer0cache",
-          "msg": "you home?"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "Yes"
-        },
-        {
-          "user": "zer0cache",
-          "msg": "🫶"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "Did you at least kill brad ?"
-        },
-        {
           "user": "agent00zani",
           "msg": "Ggs"
         },
@@ -1511,6 +1487,30 @@
         {
           "user": "agent00zani",
           "msg": "😊"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "What you doing know ?"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "quick round of otg i think"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "nooooooooooooooooo"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Fox Spirits - Among Us. Drop a greeting in chat! 👋"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -1519,7 +1519,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Fox Spirits - Among Us — Off The Grid",
+      "streamTitle": "",
       "profile": "zer0cache's community is a lively, high-energy crew living their best OTG grind. They're obsessed with Fox Spirits - Off The Grid, celebrating zer0cache with over-the-top praise and humor. Expect playful jabs, \"HYPE\" reactions, and the occasional \"OTG\" shoutout. Don't forget the signature catchphrase: \"lets gooo fox!",
       "_profileAtCount": 203,
       "loyalty": {
@@ -1529,7 +1529,8 @@
           "tier": 1
         }
       },
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
+      "gameOverride": ""
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -2787,7 +2788,7 @@
         "totalVotes": 121,
         "totalSubs": 0,
         "totalChatMessages": 8,
-        "totalStreamMinutes": 180,
+        "totalStreamMinutes": 200,
         "emotes": {
           "❤": 2,
           "🙌": 1,
