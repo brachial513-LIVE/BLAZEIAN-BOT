@@ -796,16 +796,16 @@
       "stats": {
         "totalVotes": 888,
         "totalSubs": 2,
-        "totalChatMessages": 494,
-        "totalStreamMinutes": 1658,
+        "totalChatMessages": 495,
+        "totalStreamMinutes": 1677,
         "emotes": {
           "❤": 32,
           "🙌": 9,
           "🗳": 60,
           "📴": 14,
           "👋": 14,
-          "🔴": 11,
-          "🎉": 20,
+          "🔴": 12,
+          "🎉": 21,
           "🏆": 5,
           "🤗": 5,
           "💎": 5,
@@ -891,10 +891,6 @@
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "Haha"
-        },
-        {
           "user": "agent00zani",
           "msg": "all best on work today"
         },
@@ -929,6 +925,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -936,7 +936,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "🎮 No Plan... Just Games with the bros 👀 | 🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle — Games + Demos",
       "profile": "**agent00zani** - Blaze Livestream Channel\n\nA chill, welcoming space for ARC Raiders enthusiasts. Expect doggo talk, shoutouts, and heartfelt appreciation for votes and support. \"Blazedian love\" is key, with recurring phrases like \"Go go @agent00zani!!\" and \"Blazedian bot is full of surprises.\" Community members celebrate with \"Blazedian hugs,\" votes, and emojis, especially during \"Silver Nation Raids.",
       "_profileAtCount": 489,
       "loyalty": {
@@ -1946,14 +1946,14 @@
       "stats": {
         "totalVotes": 427,
         "totalSubs": 2,
-        "totalChatMessages": 13,
+        "totalChatMessages": 14,
         "totalStreamMinutes": 155,
         "emotes": {
           "❤": 4,
           "🙌": 2,
           "🔥": 1,
-          "🔴": 1,
-          "🎉": 1,
+          "🔴": 2,
+          "🎉": 2,
           "📴": 2,
           "👋": 2
         },
@@ -1968,10 +1968,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "Yoo GM ! Thank you for using Blazeian_Bot_AI - if you have any ideas or wishes what to add just let me know ! 🔥"
-        },
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
@@ -2007,6 +2003,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ shogunmaster just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -2015,7 +2015,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🎙️PRIDEESSNCE l PVP INFINITO — Lineage 2",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png"
@@ -2787,7 +2787,7 @@
       "stats": {
         "totalVotes": 121,
         "totalSubs": 0,
-        "totalChatMessages": 9,
+        "totalChatMessages": 11,
         "totalStreamMinutes": 205,
         "emotes": {
           "❤": 2,
@@ -2803,10 +2803,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "botger is signing off. Goodbye! 👋"
@@ -2838,6 +2834,14 @@
         {
           "user": "just_for_lucas",
           "msg": "GM 🔥🔥"
+        },
+        {
+          "user": "saboomafoo",
+          "msg": "tinaaaaaaaaaaaaaaa"
+        },
+        {
+          "user": "saboomafoo",
+          "msg": "tenkkiuuu"
         }
       ],
       "customCommands": {},
@@ -2876,7 +2880,7 @@
   "auth": {
     "accessToken": "ad0ea0348a33005fe9842c3cba22dc15",
     "refreshToken": "4058dfd19efaabab3474fa8c6a9e9977",
-    "sessionToken": "3df2d926d0c4a0165ae940db31a3bd24",
+    "sessionToken": "5e1903772826049fac25de5c031bb5e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
