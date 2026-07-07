@@ -1297,7 +1297,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Loading Barges and Fueling Ships in South East Texas — IRL",
+      "streamTitle": "",
       "profile": "capt_rob_advent's community is a high-energy, IRL-loving crew that fuels the streamer's enthusiasm with 🔥 emojis, casual greetings like \"Howdy\", and lighthearted teasing. They're known for hyping up the streamer and each other with \"🔥🔥🔥\" and \"TTS DOWN\". They're passionate about IRL streams, especially those involving boats and ships.",
       "_profileAtCount": 204,
       "gameOverride": "",
@@ -2531,7 +2531,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 34,
+        "totalChatMessages": 36,
         "totalStreamMinutes": 0,
         "emotes": {
           "🔥": 11,
@@ -2539,7 +2539,9 @@
           "💚": 4,
           "🤣": 3,
           "☕": 2,
-          "💪": 2
+          "💪": 2,
+          "📴": 1,
+          "👋": 1
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -2547,18 +2549,12 @@
           "💚": "💚",
           "🤣": "🤣",
           "☕": "☕",
-          "💪": "💪"
+          "💪": "💪",
+          "📴": "📴",
+          "👋": "👋"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
-        {
-          "user": "fluffy",
-          "msg": "Hey @xxtowerdogxx how you doing"
-        },
         {
           "user": "fluffy",
           "msg": "I just woke up, need some coffee hehe"
@@ -2590,6 +2586,14 @@
         {
           "user": "fluffy",
           "msg": "🔥🔥🔥💪💪"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2598,7 +2602,11 @@
       "timedMessages": [],
       "locked": false,
       "followed": true,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
+      "streamTitle": "",
+      "gameOverride": "",
+      "profile": "xxtowerdogxx's Tower Crew is a high-energy community fueled by 🔥 passion, 💪 motivation, and a dash of humor. We're all about gaming and streaming, with a focus on [insert topic/game]. When you're here, expect epic streams, giveaways, and a welcoming vibe. Don't forget to follow @botger for the ultimate bot experience and use xxtowerdogxx to support the community.",
+      "_profileAtCount": 36
     }
   },
   "blocklist": [
