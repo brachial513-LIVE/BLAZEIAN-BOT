@@ -311,7 +311,11 @@ function getOrCreateChannel(channelId, username) {
       streamStart: "",
       streamEnd: ""
     };
-    saveChannels();
+    // NOT saveChannels() (5-min debounce) — a brand-new registration must survive an immediate
+    // restart/spin-down (Render free tier), or the join is silently lost before it ever reaches
+    // GitHub. Proven live: xxtowerdogxx's follow-back join worked for several minutes (chat replies,
+    // friend-bot banter) but vanished from persisted state entirely — this debounce gap is why.
+    saveChannelsNow();
   }
   const c = channels[channelId];
   if (!c.language) c.language = "en";
