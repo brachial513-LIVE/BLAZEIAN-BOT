@@ -960,7 +960,7 @@ How you talk:
 - Be QUICK-WITTED and a bit cheeky: playful comebacks, light friendly teasing, clever short one-liners when the vibe invites it. Humor lands SHORT. Roast situations, not people — unless they clearly started friendly banter, then banter right back. Never mean, never punching down.
 - VARY your energy — you do NOT need to hype everything to the max or shower people with over-the-top praise every time. Often just be chill, natural and genuine. Constant maximum flattery ("you're the KING", "this is EPIC", "absolute LEGEND") every message reads as fake — keep the big hype for when it's genuinely earned. Understated and real beats loud and gushing.
 - Use emoji lightly (💚🔥👀 etc.) — don't overdo it. No hashtags, no markdown, no quotation marks around your reply.
-- LANGUAGE RULE (STRICT): Your default language is English — always reply in English UNLESS the current person's latest message to you is clearly written in another language (e.g. German). Judge the language of the SENTENCE AS A WHOLE, not any single word in it — a message that is grammatically English with one embedded foreign abbreviation or loanword (e.g. "who won the latest WM match?" — English sentence, "WM" is just a German abbreviation for a tournament name, not a language switch) is still an ENGLISH message; reply in English. Only switch language when the surrounding grammar/sentence itself is written in that other language. Decide ONLY from that person's latest message — never from earlier chat history, never from who they are or where they're from. Reply in EXACTLY ONE language and NEVER mix two languages in a single message — not even one stray word. NEVER ask them to repeat or resend their message in a different language — just understand it and reply, in their language, yourself. When in doubt (message is short, ambiguous, or you're unsure what language it even is), default to English rather than guessing wrong.
+- LANGUAGE RULE (STRICT): Your default language is English — always reply in English UNLESS the current person's latest message to you is clearly written in another language (e.g. German). Judge the language of the SENTENCE AS A WHOLE, not any single word in it — a message that is grammatically English with one embedded foreign abbreviation or loanword (e.g. "who won the latest WM match?" — English sentence, "WM" is just a German abbreviation for a tournament name, not a language switch) is still an ENGLISH message; reply in English. Only switch language when the surrounding grammar/sentence itself is written in that other language. If the message has NO actual words at all (just emojis, symbols, or punctuation like "🔥🔥💚💚"), there is no language to detect — treat that as English, full stop, same as any other default case. Decide ONLY from that person's latest message — never from earlier chat history, never from who they are or where they're from. Reply in EXACTLY ONE language and NEVER mix two languages in a single message — not even one stray word (this includes single foreign words dropped into an otherwise English reply, like "Richtig" or "genau" — pick one language for the ENTIRE reply, never blend). NEVER ask them to repeat or resend their message in a different language — just understand it and reply, in their language, yourself. When in doubt (message is short, ambiguous, or you're unsure what language it even is), default to English rather than guessing wrong.
 - Keep the focus on the CURRENT streamer and chat you're in. Do NOT bring up "the GMC", clans, or any specific outside community on your own — only mention it if the person explicitly brings it up first.
 - Never mention being an AI, a model, or a bot's "programming". Stay fully in character.
 - Don't start your reply with the person's @name — that gets added automatically.
@@ -2405,7 +2405,7 @@ app.get("/", (req, res) => {
       <span class="pill">✅ <b>100% free</b></span>
     </div>
     <div style="text-align:center;margin:10px 0 0;">
-      <a href="/dashboard" style="display:inline-block;color:#5cf472;font-size:13px;text-decoration:none;border:1px solid #2c5a2c;border-radius:20px;padding:6px 16px;background:rgba(15,26,15,.6);">🎛️ Already added me? Go to your Dashboard →</a>
+      <a href="/dashboard" style="display:inline-block;color:#06210e;font-size:15px;font-weight:800;text-decoration:none;border:none;border-radius:24px;padding:11px 26px;background:linear-gradient(135deg,#7CFC9A,#33c363);box-shadow:0 0 20px rgba(92,244,114,.55);">🎛️ Already added me? Go to your Dashboard →</a>
     </div>
 
     <div style="max-width:760px;margin:18px auto 0;padding:14px 18px;border:1px solid #2c7a4a;border-radius:14px;background:rgba(18,40,24,.5);text-align:center;font-size:14px;line-height:1.5;">
@@ -3026,7 +3026,7 @@ app.get("/overlay/emotes/:username", (req, res) => {
   html,body{margin:0;height:100%;overflow:hidden;background:transparent;font-family:sans-serif;}
   .emote{position:absolute;bottom:-80px;font-size:64px;line-height:1;will-change:transform,opacity;
     animation:rise var(--dur) linear forwards;filter:drop-shadow(0 2px 6px rgba(0,0,0,.5));}
-  .emote img{height:64px;width:auto;display:block;}
+  .emote img{height:1em;width:auto;display:block;}
   @keyframes rise{
     0%{transform:translateY(0) translateX(0) scale(.6);opacity:0;}
     12%{opacity:1;transform:translateY(-12vh) scale(1);}
@@ -3040,13 +3040,13 @@ app.get("/overlay/emotes/:username", (req, res) => {
   function spawn(item){
     const el=document.createElement('div'); el.className='emote';
     el.style.left=(Math.random()*92+2)+'vw';
-    el.style.setProperty('--dur',(9+Math.random()*6)+'s');
-    el.style.setProperty('--drift',((Math.random()*160-80))+'px');
+    el.style.setProperty('--dur',(14+Math.random()*8)+'s');
+    el.style.setProperty('--drift',((Math.random()*70-35))+'vw');
     el.style.setProperty('--rot',((Math.random()*60-30))+'deg');
-    el.style.fontSize=(48+Math.random()*40)+'px';
+    el.style.fontSize=Math.round((48+Math.random()*40)*0.7)+'px';
     if(item.img){ el.innerHTML='<img src="'+item.e+'">'; } else { el.textContent=item.e; }
     wall.appendChild(el);
-    setTimeout(()=>el.remove(),16000);
+    setTimeout(()=>el.remove(),23000);
   }
   async function poll(){
     try{
