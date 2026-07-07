@@ -2787,17 +2787,19 @@
       "stats": {
         "totalVotes": 121,
         "totalSubs": 0,
-        "totalChatMessages": 8,
-        "totalStreamMinutes": 200,
+        "totalChatMessages": 9,
+        "totalStreamMinutes": 205,
         "emotes": {
           "❤": 2,
           "🙌": 1,
-          "👋": 1
+          "👋": 1,
+          "🔥": 2
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
-          "👋": "👋"
+          "👋": "👋",
+          "🔥": "🔥"
         }
       },
       "chatMemory": [
@@ -2832,6 +2834,10 @@
         {
           "user": "saboomafoo",
           "msg": "tyy dofferr"
+        },
+        {
+          "user": "just_for_lucas",
+          "msg": "GM 🔥🔥"
         }
       ],
       "customCommands": {},
@@ -2868,8 +2874,8 @@
   },
   "lastAnnouncedVersion": "2026-07-04.1",
   "auth": {
-    "accessToken": "c61cfd51c123154850f0d7215cf9ac95",
-    "refreshToken": "7380ebb7b74cfa5791d1f86dcfa6073a",
+    "accessToken": "a69fcdc48aed945e3132db9356c893bb",
+    "refreshToken": "44bb20e92eddd4cf5ba9897822dcbb9f",
     "sessionToken": "98b316c766be0d858eff183552c1a94f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
