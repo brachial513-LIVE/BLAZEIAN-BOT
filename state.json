@@ -2531,16 +2531,43 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 4,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {}
+        "emotes": {
+          "🔥": 2,
+          "🔴": 2,
+          "💚": 2
+        },
+        "emoteNames": {
+          "🔥": "🔥",
+          "🔴": "🔴",
+          "💚": "💚"
+        }
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "brachial513",
+          "msg": "ohhh lets go @blazeian_bot_ai whats up youre now in here?"
+        },
+        {
+          "user": "botger",
+          "msg": "Come follow ALL my socials and see what goes on after stream! \nhttps://streemrz.com/u/xxtowerdogxx/"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
+        },
+        {
+          "user": "brachial513",
+          "msg": "💚💚thanks for your lovely support @xxtowerdogxx"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
-      "timedMessages": []
+      "timedMessages": [],
+      "locked": false,
+      "followed": true
     }
   },
   "blocklist": [
