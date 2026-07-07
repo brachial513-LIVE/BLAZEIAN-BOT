@@ -2524,6 +2524,23 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b75c9dc9-4139-4301-a1f4-4b77cb0e8bec.gif",
       "followed": true
+    },
+    "3cabf7ae-39d3-4ebb-9a48-7f2c6d06b2a4": {
+      "username": "xxtowerdogxx",
+      "language": "en",
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {}
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "timedMessages": []
     }
   },
   "blocklist": [
@@ -2550,7 +2567,7 @@
   "auth": {
     "accessToken": "e7d682149b8c65e32b48ee66f836a6db",
     "refreshToken": "1dc53222250f4a491122fb3957b84f16",
-    "sessionToken": "469166fc388a0ec5772e7b5190ac4c58",
+    "sessionToken": "aa22ca9ddfa31c0fdd3c5b0804db7235",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
