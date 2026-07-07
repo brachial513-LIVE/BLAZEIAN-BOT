@@ -630,7 +630,7 @@
       "stats": {
         "totalVotes": 606,
         "totalSubs": 3,
-        "totalChatMessages": 1046,
+        "totalChatMessages": 1050,
         "totalStreamMinutes": 604,
         "emotes": {
           "🗳": 63,
@@ -736,14 +736,6 @@
       "chatMemory": [
         {
           "user": "helios",
-          "msg": "GGs"
-        },
-        {
-          "user": "fluffy",
-          "msg": "hey hey"
-        },
-        {
-          "user": "helios",
           "msg": "Hey fluffy"
         },
         {
@@ -773,6 +765,14 @@
         {
           "user": "botger",
           "msg": "Join the Fox Spirits Discord for an amazing community, raids, giveaways, events, points, and much more! We welcome artists, gamers, crypto enthusiasts, anime lovers, dog lovers, and all kinds of people! https://discord.gg/fCNG5T5FbD"
+        },
+        {
+          "user": "botger",
+          "msg": "Thank you for redeeming PUSH UPS @thom6ss_otg!"
+        },
+        {
+          "user": "botger",
+          "msg": "Thank you for redeeming PUSH UPS @thom6ss_otg!"
         }
       ],
       "customCommands": {},
@@ -2435,21 +2435,39 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 1,
+        "totalChatMessages": 5,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
-          "🙌": 1
+          "🙌": 1,
+          "💚": 5
         },
         "emoteNames": {
           "❤": "❤",
-          "🙌": "🙌"
+          "🙌": "🙌",
+          "💚": "💚"
         }
       },
       "chatMemory": [
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "brachial513",
+          "msg": "lettttts go have a nice stream and thank you for using blazeian my friend !!"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai take care of helios !"
+        },
+        {
+          "user": "brachial513",
+          "msg": "💚💚💚💚💚"
+        },
+        {
+          "user": "brachial513",
+          "msg": "thank you for your kind energy !"
         }
       ],
       "customCommands": {},
@@ -2694,7 +2712,7 @@
   "auth": {
     "accessToken": "f41347715f6108362234c167cddf4b59",
     "refreshToken": "95eefcf394aad5f6e431992309061f24",
-    "sessionToken": "c5ed94532859f6d6b912a21eea8102cc",
+    "sessionToken": "98b316c766be0d858eff183552c1a94f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
