@@ -965,7 +965,7 @@
       "stats": {
         "totalVotes": 1720,
         "totalSubs": 2,
-        "totalChatMessages": 2409,
+        "totalChatMessages": 2410,
         "totalStreamMinutes": 648,
         "emotes": {
           "❤": 755,
@@ -1007,7 +1007,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 1,
-          "💜": 30,
+          "💜": 31,
           "🧔": 1,
           "🤺": 1,
           "🥳": 3,
@@ -1084,10 +1084,6 @@
       },
       "chatMemory": [
         {
-          "user": "bee12",
-          "msg": "💃💃💃"
-        },
-        {
           "user": "sheshi",
           "msg": "brazil massive steal the show"
         },
@@ -1110,6 +1106,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         },
         {
           "user": "rob_osp",
@@ -2058,7 +2058,7 @@
         "totalVotes": 956,
         "totalSubs": 50,
         "totalChatMessages": 6,
-        "totalStreamMinutes": 104,
+        "totalStreamMinutes": 109,
         "emotes": {
           "🔥": 5,
           "💚": 1
@@ -2451,8 +2451,8 @@
       "stats": {
         "totalVotes": 22,
         "totalSubs": 0,
-        "totalChatMessages": 50,
-        "totalStreamMinutes": 121,
+        "totalChatMessages": 52,
+        "totalStreamMinutes": 126,
         "emotes": {
           "❤": 14,
           "🙌": 3,
@@ -2460,8 +2460,8 @@
           "🔴": 2,
           "🎉": 2,
           "💛": 3,
-          "📴": 1,
-          "👋": 1
+          "📴": 2,
+          "👋": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -2475,14 +2475,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 cymatrix is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "Gotta love the influencers"
-        },
         {
           "user": "cymatrix",
           "msg": "got an echo trying to workout. do you hear it?"
@@ -2514,6 +2506,14 @@
         {
           "user": "cymatrix",
           "msg": "thanks!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -2528,7 +2528,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
-      "streamTitle": "ROCKIN TUNES & OSP GRIDLOCK — Music",
+      "streamTitle": "",
       "profile": "**cymatrix Community Profile**\n\nWe're a chill, music-loving community that's all about rocking out and having a blast. Expect OSP gridlock and sick beats in our streams. We're a fan of thingies, and we love celebrating our members' contributions with votes and love. Don't forget to Rock Out With Your Socks Out and show some love for @BLAZEIAN_BOT_AI!",
       "_profileAtCount": 24,
       "gameOverride": ""
@@ -2963,8 +2963,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783504533031,
   "auth": {
-    "accessToken": "ee8a06e4f226687756aa2dc282501160",
-    "refreshToken": "ed07badd4a6afc377244883c15ec73ef",
+    "accessToken": "55ea88e280ee183d1698debc3decd035",
+    "refreshToken": "ca1d14c20b69359b9fd1b7e219b06f5a",
     "sessionToken": "2f973eb27710209248d03a9f655398cd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
