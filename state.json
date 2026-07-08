@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 807,
         "totalSubs": 7,
-        "totalChatMessages": 344,
+        "totalChatMessages": 345,
         "totalStreamMinutes": 103,
         "emotes": {
           "❤": 22,
@@ -59,10 +59,6 @@
       "chatMemory": [
         {
           "user": "brachial513",
-          "msg": "@blazeian_bot_ai weather in cologne"
-        },
-        {
-          "user": "brachial513",
           "msg": "@blazeian_bot_ai hows your crew beeing ? All good ?"
         },
         {
@@ -96,6 +92,10 @@
         {
           "user": "brachial513",
           "msg": "@blazeian_bot_ai still here ?"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai youre good ?"
         }
       ],
       "language": "en",
@@ -301,25 +301,23 @@
       "language": "en",
       "stats": {
         "totalVotes": 5716,
-        "totalSubs": 0,
-        "totalChatMessages": 65,
+        "totalSubs": 1,
+        "totalChatMessages": 66,
         "totalStreamMinutes": 0,
         "emotes": {
           "🗳": 138,
           "❤": 4,
-          "🙌": 2
+          "🙌": 3,
+          "🔥": 2
         },
         "emoteNames": {
           "🗳": "🗳",
           "❤": "❤",
-          "🙌": "🙌"
+          "🙌": "🙌",
+          "🔥": "🔥"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 1000 vote(s) (total: 1000)! Thank you!! 🗳️"
@@ -355,6 +353,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 101 vote(s) (total: 101)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Desirablebottom has resubscribed — 3 months total, 2 months streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -362,7 +364,14 @@
       "streamEnd": "Thanks for tuning in! Streamers supporting Streamers. That's what BLAZE is all about.",
       "locked": false,
       "followed": true,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4ce42a11-487b-4284-a22a-526582545a5e.jpg"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4ce42a11-487b-4284-a22a-526582545a5e.jpg",
+      "loyalty": {
+        "desirablebottom": {
+          "name": "desirablebottom",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "8c847dcf-65a9-4234-8980-c59102c8aa60": {
       "username": "jt_squared2",
