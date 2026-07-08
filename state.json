@@ -2058,7 +2058,7 @@
         "totalVotes": 951,
         "totalSubs": 50,
         "totalChatMessages": 6,
-        "totalStreamMinutes": 39,
+        "totalStreamMinutes": 59,
         "emotes": {
           "🔥": 5,
           "💚": 1
@@ -2451,15 +2451,17 @@
       "stats": {
         "totalVotes": 22,
         "totalSubs": 0,
-        "totalChatMessages": 36,
-        "totalStreamMinutes": 62,
+        "totalChatMessages": 42,
+        "totalStreamMinutes": 76,
         "emotes": {
           "❤": 12,
           "🙌": 2,
           "🗳": 6,
-          "🔴": 1,
-          "🎉": 1,
-          "💛": 3
+          "🔴": 2,
+          "🎉": 2,
+          "💛": 3,
+          "📴": 1,
+          "👋": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -2467,34 +2469,12 @@
           "🗳": "🗳",
           "🔴": "🔴",
           "🎉": "🎉",
-          "💛": "💛"
+          "💛": "💛",
+          "📴": "📴",
+          "👋": "👋"
         }
       },
       "chatMemory": [
-        {
-          "user": "algento",
-          "msg": "cool bot you got here"
-        },
-        {
-          "user": "algento",
-          "msg": "buon pomerigio"
-        },
-        {
-          "user": "algento",
-          "msg": "❤️❤️❤️❤️"
-        },
-        {
-          "user": "makesonlybeats",
-          "msg": "@blazeian_bot_ai have you heard the ElectrIX album?"
-        },
-        {
-          "user": "makesonlybeats",
-          "msg": "that's what they are playing now. too bad you can't hear the ear candy"
-        },
-        {
-          "user": "pepay2125",
-          "msg": "yow"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ pepay2125 just followed the channel! Welcome!! 🙌"
@@ -2510,6 +2490,30 @@
         {
           "user": "cymatrix",
           "msg": "welcome"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "Stay tuned, we'll be back at quarter too the hour"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 cymatrix is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "Gotta love the influencers"
         }
       ],
       "customCommands": {
@@ -2526,7 +2530,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
       "streamTitle": "ROCKIN TUNES & OSP GRIDLOCK — Music",
       "profile": "**cymatrix Community Profile**\n\nWe're a chill, music-loving community that's all about rocking out and having a blast. Expect OSP gridlock and sick beats in our streams. We're a fan of thingies, and we love celebrating our members' contributions with votes and love. Don't forget to Rock Out With Your Socks Out and show some love for @BLAZEIAN_BOT_AI!",
-      "_profileAtCount": 24
+      "_profileAtCount": 24,
+      "gameOverride": ""
     },
     "19b7a7c0-fe26-4df4-b40e-ac7489b8f42a": {
       "username": "helios",
