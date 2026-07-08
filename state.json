@@ -806,16 +806,16 @@
       "stats": {
         "totalVotes": 890,
         "totalSubs": 2,
-        "totalChatMessages": 497,
-        "totalStreamMinutes": 1701,
+        "totalChatMessages": 498,
+        "totalStreamMinutes": 1704,
         "emotes": {
           "❤": 32,
           "🙌": 9,
           "🗳": 60,
           "📴": 15,
           "👋": 15,
-          "🔴": 12,
-          "🎉": 21,
+          "🔴": 13,
+          "🎉": 22,
           "🏆": 5,
           "🤗": 5,
           "💎": 5,
@@ -901,10 +901,6 @@
       },
       "chatMemory": [
         {
-          "user": "agent00zani",
-          "msg": "don't get caught"
-        },
-        {
           "user": "briggsy",
           "msg": "You too in your endeavors."
         },
@@ -939,6 +935,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -946,7 +946,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "🎮 No Plan... Just Games with the bros 👀 | 🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle — Games + Demos",
       "profile": "**agent00zani** - Blaze Livestream Channel\n\nA chill, welcoming space for ARC Raiders enthusiasts. Expect doggo talk, shoutouts, and heartfelt appreciation for votes and support. \"Blazedian love\" is key, with recurring phrases like \"Go go @agent00zani!!\" and \"Blazedian bot is full of surprises.\" Community members celebrate with \"Blazedian hugs,\" votes, and emojis, especially during \"Silver Nation Raids.",
       "_profileAtCount": 489,
       "loyalty": {
@@ -2058,7 +2058,7 @@
         "totalVotes": 956,
         "totalSubs": 50,
         "totalChatMessages": 6,
-        "totalStreamMinutes": 109,
+        "totalStreamMinutes": 121,
         "emotes": {
           "🔥": 5,
           "💚": 1
@@ -2094,7 +2094,8 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/269cfcc4-59f4-4231-9358-1b592b4b5b80.jpg",
-      "streamTitle": "Dota 2 Dawn of Wars — IRL"
+      "streamTitle": "Dota 2 Dawn of Wars — IRL",
+      "gameOverride": ""
     },
     "79ffc47e-8cb0-4618-9272-c9281368d26e": {
       "username": "vitrene",
@@ -2449,14 +2450,14 @@
       "username": "cymatrix",
       "language": "en",
       "stats": {
-        "totalVotes": 22,
+        "totalVotes": 23,
         "totalSubs": 0,
-        "totalChatMessages": 52,
+        "totalChatMessages": 54,
         "totalStreamMinutes": 126,
         "emotes": {
           "❤": 14,
           "🙌": 3,
-          "🗳": 6,
+          "🗳": 9,
           "🔴": 2,
           "🎉": 2,
           "💛": 3,
@@ -2475,14 +2476,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "cymatrix",
-          "msg": "got an echo trying to workout. do you hear it?"
-        },
-        {
-          "user": "algento",
-          "msg": "yeah"
-        },
         {
           "user": "allthethingies",
           "msg": "yeah"
@@ -2514,6 +2507,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @allthethingies!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @allthethingies just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
