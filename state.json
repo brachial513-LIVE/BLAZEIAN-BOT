@@ -807,7 +807,7 @@
         "totalVotes": 890,
         "totalSubs": 2,
         "totalChatMessages": 508,
-        "totalStreamMinutes": 1769,
+        "totalStreamMinutes": 1774,
         "emotes": {
           "❤": 32,
           "🙌": 9,
@@ -1397,7 +1397,7 @@
         "totalVotes": 533,
         "totalSubs": 4,
         "totalChatMessages": 244,
-        "totalStreamMinutes": 612,
+        "totalStreamMinutes": 617,
         "emotes": {
           "✨": 1,
           "🖥": 7,
@@ -1572,8 +1572,8 @@
       "stats": {
         "totalVotes": 826,
         "totalSubs": 8,
-        "totalChatMessages": 732,
-        "totalStreamMinutes": 495,
+        "totalChatMessages": 742,
+        "totalStreamMinutes": 500,
         "emotes": {
           "❤": 21,
           "🙌": 12,
@@ -1601,7 +1601,7 @@
           "🧡": 13,
           "🚨": 18,
           "😘": 1,
-          "🥰": 9,
+          "🥰": 10,
           "🎁": 12,
           "😅": 2,
           "🙈": 1,
@@ -1615,7 +1615,8 @@
           "💜": 5,
           "💗": 1,
           "🎵": 1,
-          "🤟": 5
+          "🤟": 5,
+          "🥪": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -1658,49 +1659,50 @@
           "💜": "💜",
           "💗": "💗",
           "🎵": "🎵",
-          "🤟": "🤟"
+          "🤟": "🤟",
+          "🥪": "🥪"
         }
       },
       "chatMemory": [
         {
           "user": "briggsy",
-          "msg": "Hey Fluffy, man"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ Desirablebottom just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ Potato_Pete just followed the channel! Welcome!! 🙌"
+          "msg": "Can draw you a sandwich?"
         },
         {
           "user": "briggsy",
-          "msg": "Hey @blazeian_bot_ai thanks for welcoming in new people"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 briggsy is now live! Welcome everyone! 🎉"
+          "msg": "🥪"
         },
         {
           "user": "agent00zani",
-          "msg": "i am zani"
+          "msg": "me ."
+        },
+        {
+          "user": "agent00zani",
+          "msg": "I can buy one"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "i send you hugs"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "too hungry to think"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "🥰"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "i want to que up same game with Brad and suprise him"
         },
         {
           "user": "briggsy",
-          "msg": "hey Zani"
+          "msg": "haha"
         },
         {
-          "user": "agent00zani",
-          "msg": "I am so hungry ,, what you make for lunch ?"
+          "user": "briggsy",
+          "msg": "yea, it's free on steam"
         }
       ],
       "customCommands": {},
@@ -2968,8 +2970,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783504533031,
   "auth": {
-    "accessToken": "9d616826b58b3d16888e009a759e0ffd",
-    "refreshToken": "825b5a6edf075dd4c152c66cf0c009fc",
+    "accessToken": "40de32ec6c722e9d59a520708774031b",
+    "refreshToken": "782073142d3029fa5a8132a99237203a",
     "sessionToken": "2f973eb27710209248d03a9f655398cd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
