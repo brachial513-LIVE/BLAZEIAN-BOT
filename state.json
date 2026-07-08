@@ -806,8 +806,8 @@
       "stats": {
         "totalVotes": 890,
         "totalSubs": 2,
-        "totalChatMessages": 514,
-        "totalStreamMinutes": 1839,
+        "totalChatMessages": 515,
+        "totalStreamMinutes": 1842,
         "emotes": {
           "❤": 32,
           "🙌": 9,
@@ -839,7 +839,7 @@
           "😂": 8,
           "😅": 1,
           "🍺": 1,
-          "🫡": 1,
+          "🫡": 2,
           "💚": 13,
           "💃": 24,
           "🙏": 1,
@@ -903,10 +903,6 @@
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "Wanted to stream, probably won't be able to"
-        },
-        {
           "user": "agent00zani",
           "msg": "hope you have happy day with family today"
         },
@@ -941,6 +937,10 @@
         {
           "user": "fluffy",
           "msg": "Im fine, play with broski"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "🫡"
         }
       ],
       "customCommands": {},
@@ -1175,7 +1175,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 369,
-        "totalSubs": 5,
+        "totalSubs": 6,
         "totalChatMessages": 238,
         "totalStreamMinutes": 2187,
         "emotes": {
@@ -1325,7 +1325,14 @@
       "profile": "capt_rob_advent's community is a high-energy, IRL-loving crew that fuels the streamer's enthusiasm with 🔥 emojis, casual greetings like \"Howdy\", and lighthearted teasing. They're known for hyping up the streamer and each other with \"🔥🔥🔥\" and \"TTS DOWN\". They're passionate about IRL streams, especially those involving boats and ships.",
       "_profileAtCount": 204,
       "gameOverride": "",
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/30ffbf64-8a9b-4fd3-9136-b50d87e108d5.gif"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/30ffbf64-8a9b-4fd3-9136-b50d87e108d5.gif",
+      "loyalty": {
+        "vroshi55": {
+          "name": "vroshi55",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -1397,7 +1404,7 @@
         "totalVotes": 533,
         "totalSubs": 4,
         "totalChatMessages": 245,
-        "totalStreamMinutes": 682,
+        "totalStreamMinutes": 685,
         "emotes": {
           "✨": 1,
           "🖥": 7,
@@ -1572,8 +1579,8 @@
       "stats": {
         "totalVotes": 926,
         "totalSubs": 8,
-        "totalChatMessages": 782,
-        "totalStreamMinutes": 554,
+        "totalChatMessages": 783,
+        "totalStreamMinutes": 556,
         "emotes": {
           "❤": 21,
           "🙌": 12,
@@ -1600,7 +1607,7 @@
           "🤣": 4,
           "🧡": 13,
           "🚨": 18,
-          "😘": 1,
+          "😘": 2,
           "🥰": 10,
           "🎁": 12,
           "😅": 2,
@@ -1667,10 +1674,6 @@
       },
       "chatMemory": [
         {
-          "user": "time",
-          "msg": "I cant"
-        },
-        {
           "user": "briggsy",
           "msg": "You make me smile"
         },
@@ -1705,6 +1708,10 @@
         {
           "user": "lucycork",
           "msg": "I’m liking this game, Briggsy!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "😘"
         }
       ],
       "customCommands": {},
@@ -2460,8 +2467,8 @@
       "stats": {
         "totalVotes": 24,
         "totalSubs": 0,
-        "totalChatMessages": 95,
-        "totalStreamMinutes": 135,
+        "totalChatMessages": 99,
+        "totalStreamMinutes": 137,
         "emotes": {
           "❤": 35,
           "🙌": 3,
@@ -2472,11 +2479,11 @@
           "📴": 2,
           "👋": 2,
           "🐝": 10,
-          "🎶": 2,
+          "🎶": 3,
           "💃": 5,
           "🎵": 4,
           "🕺": 1,
-          "🔥": 1,
+          "🔥": 4,
           "🎹": 1,
           "🔦": 1,
           "😘": 2,
@@ -2507,22 +2514,6 @@
       },
       "chatMemory": [
         {
-          "user": "bee12",
-          "msg": "weri pahahhahaa!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @TwistedTinker!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @TwistedTinker just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
-        {
-          "user": "weri",
-          "msg": "Crawling all over the page"
-        },
-        {
           "user": "cymatrix",
           "msg": "oh yeah! we're like mega crawlers"
         },
@@ -2545,12 +2536,29 @@
         {
           "user": "cymatrix",
           "msg": "❤️❤️❤️🎵🎶🕺💃💃🔥🎹🔦😘😘😍☝️🐝"
+        },
+        {
+          "user": "bee12",
+          "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "sheshi",
+          "msg": "🎶"
+        },
+        {
+          "user": "bee12",
+          "msg": "lesgoooooo"
+        },
+        {
+          "user": "weri",
+          "msg": "One cool tune weri weri cool"
         }
       ],
       "customCommands": {
         "lg": "Lessss Gooooo!!!\r\nBreak the Matrix!\r\nMelt the Speakers!\r\nDrop it like it's your mom!!",
         "bee": "Welcome @bee12 how you bee???\r\n❤️❤️❤️❤️",
-        "osp": "Have you played OSP?\r\nOperation Safe Place\r\nhttps://osp.cymatrixgroup.com to game with us!"
+        "osp": "Have you played OSP?\r\nOperation Safe Place\r\nhttps://osp.cymatrixgroup.com to game with us!",
+        "request": "If you have something you just have to hear lemme know!"
       },
       "streamStart": "CYMATRIX IS LIVE!!",
       "streamEnd": "AND THIS CONCLUDES OUR BROADCAST DAY",
@@ -2903,7 +2911,7 @@
         "totalVotes": 143,
         "totalSubs": 0,
         "totalChatMessages": 11,
-        "totalStreamMinutes": 260,
+        "totalStreamMinutes": 263,
         "emotes": {
           "❤": 2,
           "🙌": 1,
