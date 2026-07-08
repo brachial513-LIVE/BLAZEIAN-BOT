@@ -806,8 +806,8 @@
       "stats": {
         "totalVotes": 890,
         "totalSubs": 2,
-        "totalChatMessages": 507,
-        "totalStreamMinutes": 1729,
+        "totalChatMessages": 508,
+        "totalStreamMinutes": 1749,
         "emotes": {
           "❤": 32,
           "🙌": 9,
@@ -816,8 +816,8 @@
           "👋": 15,
           "🔴": 13,
           "🎉": 22,
-          "🏆": 5,
-          "🤗": 5,
+          "🏆": 6,
+          "🤗": 6,
           "💎": 5,
           "🎁": 7,
           "📢": 13,
@@ -851,7 +851,8 @@
           "😍": 1,
           "☠": 4,
           "💙": 1,
-          "🩷": 1
+          "🩷": 1,
+          "🎰": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -896,14 +897,11 @@
           "😍": "😍",
           "☠": "☠",
           "💙": "💙",
-          "🩷": "🩷"
+          "🩷": "🩷",
+          "🎰": "🎰"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "briggsy",
           "msg": "morning, @agent00zani man"
@@ -939,6 +937,10 @@
         {
           "user": "briggsy",
           "msg": "Thank you, my friend.\nJam on!!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "| 🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle"
         }
       ],
       "customCommands": {},
@@ -965,7 +967,7 @@
       "stats": {
         "totalVotes": 1720,
         "totalSubs": 2,
-        "totalChatMessages": 2410,
+        "totalChatMessages": 2411,
         "totalStreamMinutes": 648,
         "emotes": {
           "❤": 755,
@@ -1007,7 +1009,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 1,
-          "💜": 31,
+          "💜": 32,
           "🧔": 1,
           "🤺": 1,
           "🥳": 3,
@@ -1084,10 +1086,6 @@
       },
       "chatMemory": [
         {
-          "user": "sheshi",
-          "msg": "brazil massive steal the show"
-        },
-        {
           "user": "rob_osp",
           "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         },
@@ -1106,6 +1104,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         },
         {
           "user": "rob_osp",
@@ -1394,8 +1396,8 @@
       "stats": {
         "totalVotes": 533,
         "totalSubs": 4,
-        "totalChatMessages": 243,
-        "totalStreamMinutes": 572,
+        "totalChatMessages": 244,
+        "totalStreamMinutes": 592,
         "emotes": {
           "✨": 1,
           "🖥": 7,
@@ -1485,10 +1487,6 @@
       },
       "chatMemory": [
         {
-          "user": "zer0cache",
-          "msg": "quick round of otg i think"
-        },
-        {
           "user": "cachebot",
           "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         },
@@ -1523,6 +1521,10 @@
         {
           "user": "agent00zani",
           "msg": "I am Zani"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "hard games today"
         }
       ],
       "customCommands": {},
