@@ -301,14 +301,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 5821,
-        "totalSubs": 1,
-        "totalChatMessages": 67,
+        "totalSubs": 2,
+        "totalChatMessages": 68,
         "totalStreamMinutes": 0,
         "emotes": {
           "🗳": 141,
           "❤": 4,
-          "🙌": 3,
-          "🔥": 2
+          "🙌": 4,
+          "🔥": 4
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -318,10 +318,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "dofferlive",
-          "msg": "got your baack"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -357,6 +353,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @joseph has resubscribed — 16 months total, 16 months streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -368,6 +368,11 @@
       "loyalty": {
         "desirablebottom": {
           "name": "desirablebottom",
+          "months": 1,
+          "tier": 1
+        },
+        "joseph": {
+          "name": "joseph",
           "months": 1,
           "tier": 1
         }
@@ -806,22 +811,22 @@
       "stats": {
         "totalVotes": 990,
         "totalSubs": 2,
-        "totalChatMessages": 531,
-        "totalStreamMinutes": 2039,
+        "totalChatMessages": 537,
+        "totalStreamMinutes": 2059,
         "emotes": {
-          "❤": 32,
+          "❤": 33,
           "🙌": 9,
           "🗳": 63,
           "📴": 17,
           "👋": 17,
           "🔴": 15,
           "🎉": 25,
-          "🏆": 6,
-          "🤗": 6,
+          "🏆": 7,
+          "🤗": 7,
           "💎": 5,
           "🎁": 7,
-          "📢": 13,
-          "🔥": 77,
+          "📢": 14,
+          "🔥": 79,
           "😘": 13,
           "🥺": 1,
           "🥷": 6,
@@ -852,7 +857,7 @@
           "☠": 4,
           "💙": 1,
           "🩷": 1,
-          "🎰": 1
+          "🎰": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -903,26 +908,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @avisi is raiding with a party of 10! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "ty ty for the raid @avisis"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
           "user": "agent00zani",
           "msg": "ty ty future for the votes"
         },
@@ -941,6 +926,26 @@
         {
           "user": "briggsy",
           "msg": "You're really mixing up the games today"
+        },
+        {
+          "user": "animebio",
+          "msg": "./wave"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "hi hi @animebio"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "how you are ?"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @animebio, streamer of ROBLOX! 🔥 Make sure to check out https://blaze.stream/animebio and show some support ❤️‍🔥"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "s | 🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle"
         }
       ],
       "customCommands": {},
