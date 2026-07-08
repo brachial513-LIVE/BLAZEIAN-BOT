@@ -46,6 +46,22 @@ const BOT_PASSWORD = process.env.BLAZE_BOT_PASSWORD || null;
 const BOT_VERSION = "2026-07-04.1";
 const CHANGELOG = "🔥 NEW UPDATE! Thank you for using Blazeian_Bot_AI 💚 Here's one thing from it: add this as a Browser Source in your OBS/Streamlabs (1920x1080, or stretch to fit): blazeian-bot.onrender.com/overlay/run/YOUR_BLAZE_NAME?theme=green&mirror=1&fps=14&speed=200 — lil Blazeian walks across your stream, talks, jumps, DANCES 🕺 and sometimes sits down on a tiny stool to watch with you 💚 Want a different color? Swap 'green' for blue, cyan, purple, pink, red, gold or rgb 🌈 See it live: check thom6ss_otg's latest stream & drop him a follow 🔥 Enjoy and tell me what you think! 💪🤖💚 (sorry for the double-post if you already got it!)";
 let lastAnnouncedVersion = null;
+let lastOnlineAnnounceAt = 0; // persisted — global.ANNOUNCED alone reset on every restart/deploy,
+// which meant the "I'm online!" message spammed the home channel on every single redeploy (proven
+// live: 3 identical messages in a row during a heavy deploy day). This timestamp survives restarts.
+// Rotating "did you know" tips posted to the home channel every few hours — cycles through so the
+// channel isn't just repeating the same "I'm online" line, and surfaces features people might miss.
+const HOME_CHANNEL_TIPS = [
+  "💡 Did you know I can look up real, current facts? Just ask me something like '@blazeian_bot_ai any news on [game]?' — I search live and give you an honest answer.",
+  "💡 Want your own commands? Type !addcmd [name] [response] in your channel — instant custom command, no code needed.",
+  "💡 Free OBS overlays: an animated emote wall, live viewer counter, and a mascot that runs/dances/sits with your stream — grab the links from your dashboard.",
+  "💡 Set a streaming schedule with !setschedule [text], so your viewers can always check it with !schedule.",
+  "💡 I automatically celebrate every follow, sub, gift sub, vote and tip with a fresh AI-generated shoutout — never the same line twice.",
+  "💡 Running a tip-for-a-reward promo? !settiptier lets you set your own tiers, so I call out the actual reward in the celebration.",
+  "💡 Set my language per channel with !setbotlang [language] — I'll reply in that language by default there.",
+  "💡 New to me? Type !join right here in this chat, and I'll set myself up fully in YOUR channel — even followers-only mode.",
+];
+let homeTipIndex = 0;
 let pendingState        = null;
 let pendingCodeVerifier = null;
 let APP_ACCESS_TOKEN    = null;
@@ -167,6 +183,7 @@ function applyLoadedState(record) {
   // always take effect even if an outdated copy is stored in state.json.
   if (record.knownPeople && typeof record.knownPeople === "object") knownPeople = { ...record.knownPeople, ...KNOWN_PEOPLE_SEED };
   if (record.lastAnnouncedVersion) lastAnnouncedVersion = record.lastAnnouncedVersion;
+  if (record.lastOnlineAnnounceAt) lastOnlineAnnounceAt = record.lastOnlineAnnounceAt;
   return data;
 }
 
@@ -236,6 +253,7 @@ async function _writeStateToGitHub() {
     friendBots,
     knownPeople,
     lastAnnouncedVersion,
+    lastOnlineAnnounceAt,
     auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
             sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
   };
@@ -1717,8 +1735,12 @@ async function handleEvent(message) {
     // subscribing behind "if (ACCESS_TOKEN)", so a dead user token meant ZERO subscriptions.
     if (REFRESH_TOKEN) await refreshAccessToken();
     if (!APP_ACCESS_TOKEN) await getAppAccessToken(); // guarantee the app token exists before subscribing
-    if (!global.ANNOUNCED) {
-      global.ANNOUNCED = true;
+    // Cooldown-gated, not a one-shot in-memory flag — a plain boolean reset on every restart/deploy,
+    // which spammed this into the home channel on every single redeploy (proven live: 3 identical
+    // messages in a row on a heavy deploy day). 6h between posts survives restarts via saveChannelsNow().
+    if (Date.now() - lastOnlineAnnounceAt > 6 * 60 * 60 * 1000) {
+      lastOnlineAnnounceAt = Date.now();
+      saveChannelsNow();
       await sendChat(BOT_CHANNEL_ID, "BlazeianBot is online! Type !join here to add me to your channel 💚🔥");
     }
     setTimeout(subscribeAllChannels, 1500); // now runs regardless of user-token state
@@ -3599,6 +3621,13 @@ app.listen(PORT, "0.0.0.0", async () => {
 
   // After the socket & subscriptions settle, announce a NEW version to everyone (once).
   setTimeout(startupAnnounce, 25000);
+
+  // Rotating "did you know" tips in the home channel, every 4 hours — cycles through
+  // HOME_CHANNEL_TIPS so it's not always the same "I'm online" message on repeat.
+  setInterval(() => {
+    sendChat(BOT_CHANNEL_ID, HOME_CHANNEL_TIPS[homeTipIndex % HOME_CHANNEL_TIPS.length]);
+    homeTipIndex++;
+  }, 4 * 60 * 60 * 1000);
 
   // Keep-alive backup (UptimeRobot is primary)
   setInterval(async () => {
