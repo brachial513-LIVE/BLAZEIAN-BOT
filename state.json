@@ -806,8 +806,8 @@
       "stats": {
         "totalVotes": 890,
         "totalSubs": 2,
-        "totalChatMessages": 498,
-        "totalStreamMinutes": 1704,
+        "totalChatMessages": 499,
+        "totalStreamMinutes": 1724,
         "emotes": {
           "❤": 32,
           "🙌": 9,
@@ -901,10 +901,6 @@
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "You too in your endeavors."
-        },
-        {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @behunted is raiding with a party of 3! Welcome raiders!! 🎉"
         },
@@ -939,6 +935,10 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "briggsy",
+          "msg": "morning, @agent00zani man"
         }
       ],
       "customCommands": {},
@@ -1394,13 +1394,13 @@
       "stats": {
         "totalVotes": 533,
         "totalSubs": 4,
-        "totalChatMessages": 238,
-        "totalStreamMinutes": 548,
+        "totalChatMessages": 242,
+        "totalStreamMinutes": 567,
         "emotes": {
           "✨": 1,
           "🖥": 7,
-          "🔥": 13,
-          "👋": 5,
+          "🔥": 14,
+          "👋": 6,
           "🎬": 7,
           "❤": 9,
           "🚨": 4,
@@ -1436,7 +1436,8 @@
           "🍀": 1,
           "🛎": 2,
           "🫶": 1,
-          "😊": 1
+          "😊": 1,
+          "⚔": 1
         },
         "emoteNames": {
           "✨": "✨",
@@ -1478,22 +1479,11 @@
           "🍀": "🍀",
           "🛎": "🛎",
           "🫶": "🫶",
-          "😊": "😊"
+          "😊": "😊",
+          "⚔": "⚔"
         }
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "Ohh I hear time .. hi hi time"
-        },
-        {
-          "user": "zer0cache",
-          "msg": "yes, killed and stabbed in the back when he was my co-impostor 😂😂😂"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "😊"
-        },
         {
           "user": "agent00zani",
           "msg": "What you doing know ?"
@@ -1521,6 +1511,18 @@
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 2 votes, @dwb9000! Your support is truly appreciated! 🙌"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Fox Spirits - Among Us. Drop a greeting in chat! 👋"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "Zero my hero"
+        },
+        {
+          "user": "cachebot",
+          "msg": "⚔️ [HYPE]: Stupendous! @zer0cache's ability to parry incoming distress and counter with pure, high-tier gameplay is a sight that could move a grown blacksmith to tears!"
         }
       ],
       "customCommands": {},
@@ -1529,7 +1531,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Fox Spirits - Among Us — Off The Grid",
       "profile": "zer0cache's community is a lively, high-energy crew living their best OTG grind. They're obsessed with Fox Spirits - Off The Grid, celebrating zer0cache with over-the-top praise and humor. Expect playful jabs, \"HYPE\" reactions, and the occasional \"OTG\" shoutout. Don't forget the signature catchphrase: \"lets gooo fox!",
       "_profileAtCount": 203,
       "loyalty": {
@@ -2058,7 +2060,7 @@
         "totalVotes": 956,
         "totalSubs": 50,
         "totalChatMessages": 6,
-        "totalStreamMinutes": 121,
+        "totalStreamMinutes": 127,
         "emotes": {
           "🔥": 5,
           "💚": 1
@@ -2094,7 +2096,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/269cfcc4-59f4-4231-9358-1b592b4b5b80.jpg",
-      "streamTitle": "Dota 2 Dawn of Wars — IRL",
+      "streamTitle": "",
       "gameOverride": ""
     },
     "79ffc47e-8cb0-4618-9272-c9281368d26e": {
