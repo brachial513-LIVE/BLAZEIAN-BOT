@@ -806,16 +806,16 @@
       "stats": {
         "totalVotes": 890,
         "totalSubs": 2,
-        "totalChatMessages": 520,
-        "totalStreamMinutes": 1950,
+        "totalChatMessages": 523,
+        "totalStreamMinutes": 1969,
         "emotes": {
           "❤": 32,
           "🙌": 9,
           "🗳": 60,
-          "📴": 16,
-          "👋": 16,
-          "🔴": 14,
-          "🎉": 23,
+          "📴": 17,
+          "👋": 17,
+          "🔴": 15,
+          "🎉": 24,
           "🏆": 6,
           "🤗": 6,
           "💎": 5,
@@ -903,18 +903,6 @@
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "haha"
-        },
-        {
-          "user": "fluffy",
-          "msg": "Heyyy"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "how are you today @fluffy .. so happy to see you todasy"
-        },
-        {
           "user": "fluffy",
           "msg": "Im fine, play with broski"
         },
@@ -933,6 +921,18 @@
         {
           "user": "agent00zani",
           "msg": "i am alone"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "yoooo @agent00zani"
         },
         {
           "user": "botger",
@@ -1403,8 +1403,8 @@
       "stats": {
         "totalVotes": 533,
         "totalSubs": 4,
-        "totalChatMessages": 262,
-        "totalStreamMinutes": 795,
+        "totalChatMessages": 264,
+        "totalStreamMinutes": 815,
         "emotes": {
           "✨": 1,
           "🖥": 7,
@@ -1423,7 +1423,7 @@
           "🏹": 1,
           "🦢": 2,
           "👀": 4,
-          "🥰": 2,
+          "🥰": 3,
           "😘": 16,
           "🟥": 6,
           "❌": 1,
@@ -1496,14 +1496,6 @@
       },
       "chatMemory": [
         {
-          "user": "zer0cache",
-          "msg": "i've crashed twice now"
-        },
-        {
-          "user": "zer0cache",
-          "msg": "never played it in the daytime. looks bright!"
-        },
-        {
           "user": "fluffy",
           "msg": "helloooooow"
         },
@@ -1534,6 +1526,14 @@
         {
           "user": "agent00zani",
           "msg": "ggs"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "🥰"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "how you ?"
         }
       ],
       "customCommands": {},
@@ -1582,7 +1582,7 @@
         "totalVotes": 926,
         "totalSubs": 8,
         "totalChatMessages": 831,
-        "totalStreamMinutes": 669,
+        "totalStreamMinutes": 689,
         "emotes": {
           "❤": 21,
           "🙌": 12,
@@ -2475,21 +2475,21 @@
       "stats": {
         "totalVotes": 25,
         "totalSubs": 0,
-        "totalChatMessages": 327,
-        "totalStreamMinutes": 249,
+        "totalChatMessages": 340,
+        "totalStreamMinutes": 253,
         "emotes": {
-          "❤": 131,
+          "❤": 150,
           "🙌": 4,
           "🗳": 15,
           "🔴": 3,
           "🎉": 3,
           "💛": 12,
-          "📴": 2,
-          "👋": 2,
+          "📴": 3,
+          "👋": 3,
           "🐝": 29,
           "🎶": 9,
           "💃": 18,
-          "🎵": 23,
+          "🎵": 26,
           "🕺": 16,
           "🔥": 33,
           "🎹": 1,
@@ -2540,44 +2540,44 @@
       },
       "chatMemory": [
         {
-          "user": "sheshi",
-          "msg": "FINE"
-        },
-        {
           "user": "bee12",
-          "msg": "awwwwwww"
-        },
-        {
-          "user": "sheshi",
-          "msg": "take care"
-        },
-        {
-          "user": "bee12",
-          "msg": "thank you so much❤️❤️❤️"
-        },
-        {
-          "user": "bee12",
-          "msg": "You are awesome!!!"
+          "msg": "🎵🎵🎵"
         },
         {
           "user": "bee12",
           "msg": "❤️❤️❤️"
         },
         {
-          "user": "twistedtinker",
-          "msg": "later all!"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "no you!!!"
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         },
         {
           "user": "bee12",
-          "msg": "Youuuuuuuuu"
+          "msg": "❤️❤️❤️❤️❤️❤️"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "bee12",
+          "msg": "❤️❤️❤️"
         },
         {
           "user": "cymatrix",
-          "msg": "USSSSSS"
+          "msg": "❤️❤️❤️❤️"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "have a great rest of your night"
+        },
+        {
+          "user": "bee12",
+          "msg": "you too, my friend❤️❤️❤️"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "https://blazeian-bot.onrender.com/overlay/emotes/cymatrix"
         }
       ],
       "customCommands": {
@@ -2598,7 +2598,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
-      "streamTitle": "Crypto Dreams Album — Music",
+      "streamTitle": "",
       "profile": "**cymatrix Community Profile**\n\nWe're a chill, music-loving community rocking out to sick beats and having a blast. Expect \"blazinnnnn\" energy, \"bee bee bee\" vibes, and \"funk O'clock\" excitement. We love celebrating members' contributions with votes and love. Show some love for @BLAZEIAN_BOT_AI and rock out with your socks out!",
       "_profileAtCount": 303,
       "gameOverride": ""
