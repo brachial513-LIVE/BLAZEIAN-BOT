@@ -807,7 +807,7 @@
         "totalVotes": 890,
         "totalSubs": 2,
         "totalChatMessages": 518,
-        "totalStreamMinutes": 1864,
+        "totalStreamMinutes": 1865,
         "emotes": {
           "❤": 32,
           "🙌": 9,
@@ -2471,8 +2471,8 @@
       "stats": {
         "totalVotes": 24,
         "totalSubs": 0,
-        "totalChatMessages": 203,
-        "totalStreamMinutes": 159,
+        "totalChatMessages": 204,
+        "totalStreamMinutes": 160,
         "emotes": {
           "❤": 82,
           "🙌": 4,
@@ -2530,10 +2530,6 @@
       },
       "chatMemory": [
         {
-          "user": "cymatrix",
-          "msg": "I think AI can do much better now with the graphics, this is like old school now"
-        },
-        {
           "user": "generalkev",
           "msg": "🐫🐫"
         },
@@ -2568,6 +2564,10 @@
         {
           "user": "sheshi",
           "msg": "on osp website - https://ospgame.com/shop/blobbies"
+        },
+        {
+          "user": "generalkev",
+          "msg": "These AI companies are outpricing themselves because people simply leave their platforms when they hike the prices like they are doing"
         }
       ],
       "customCommands": {
@@ -2575,7 +2575,8 @@
         "bee": "Welcome @bee12 how you bee???\r\n❤️❤️❤️❤️",
         "osp": "Have you played OSP?\r\nOperation Safe Place\r\nhttps://osp.cymatrixgroup.com to game with us!",
         "request": "If you have something you just have to hear lemme know!",
-        "beelove": "Let's show @bee12 some lovie dovies!!"
+        "beelove": "Let's show @bee12 some lovie dovies!!",
+        "blobbies": "Get'cher Blobby! \r\nhttps://ospgame.com/shop/blobbies"
       },
       "streamStart": "CYMATRIX IS LIVE!!",
       "streamEnd": "AND THIS CONCLUDES OUR BROADCAST DAY",
