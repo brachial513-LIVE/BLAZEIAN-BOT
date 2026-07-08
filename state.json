@@ -806,8 +806,8 @@
       "stats": {
         "totalVotes": 890,
         "totalSubs": 2,
-        "totalChatMessages": 523,
-        "totalStreamMinutes": 1989,
+        "totalChatMessages": 525,
+        "totalStreamMinutes": 1994,
         "emotes": {
           "❤": 32,
           "🙌": 9,
@@ -815,7 +815,7 @@
           "📴": 17,
           "👋": 17,
           "🔴": 15,
-          "🎉": 24,
+          "🎉": 25,
           "🏆": 6,
           "🤗": 6,
           "💎": 5,
@@ -825,7 +825,7 @@
           "😘": 13,
           "🥺": 1,
           "🥷": 6,
-          "🚨": 54,
+          "🚨": 60,
           "🩵": 2,
           "🐰": 1,
           "🫶": 9,
@@ -903,14 +903,6 @@
       },
       "chatMemory": [
         {
-          "user": "fluffy",
-          "msg": "Im fine, play with broski"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "🫡"
-        },
-        {
           "user": "briggsy",
           "msg": "Hey man, just saying hi"
         },
@@ -941,6 +933,14 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @avisi is raiding with a party of 10! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty for the raid @avisis"
         }
       ],
       "customCommands": {},
@@ -1404,7 +1404,7 @@
         "totalVotes": 533,
         "totalSubs": 4,
         "totalChatMessages": 264,
-        "totalStreamMinutes": 835,
+        "totalStreamMinutes": 840,
         "emotes": {
           "✨": 1,
           "🖥": 7,
@@ -1582,7 +1582,7 @@
         "totalVotes": 951,
         "totalSubs": 8,
         "totalChatMessages": 837,
-        "totalStreamMinutes": 709,
+        "totalStreamMinutes": 714,
         "emotes": {
           "❤": 21,
           "🙌": 12,
@@ -3034,8 +3034,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783504533031,
   "auth": {
-    "accessToken": "8d66cad8e29e2d9c14dbc6f28031c3b2",
-    "refreshToken": "e4f5dd32b0a7d73fa8e210433d0f6cac",
+    "accessToken": "5b6a9f6fed551a0bd219ee3de417ab9c",
+    "refreshToken": "60c04f080422304ed002afcd418aad2f",
     "sessionToken": "2f973eb27710209248d03a9f655398cd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
