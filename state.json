@@ -302,26 +302,24 @@
       "stats": {
         "totalVotes": 5822,
         "totalSubs": 2,
-        "totalChatMessages": 68,
+        "totalChatMessages": 69,
         "totalStreamMinutes": 0,
         "emotes": {
           "🗳": 141,
           "❤": 4,
           "🙌": 4,
-          "🔥": 4
+          "🔥": 4,
+          "☺": 1
         },
         "emoteNames": {
           "🗳": "🗳",
           "❤": "❤",
           "🙌": "🙌",
-          "🔥": "🔥"
+          "🔥": "🔥",
+          "☺": "☺"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -357,6 +355,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @joseph has resubscribed — 16 months total, 16 months streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "dress_n_draw",
+          "msg": "Thank you for your votes☺️"
         }
       ],
       "customCommands": {},
@@ -1989,7 +1991,7 @@
         "totalVotes": 428,
         "totalSubs": 3,
         "totalChatMessages": 39,
-        "totalStreamMinutes": 282,
+        "totalStreamMinutes": 287,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -2692,7 +2694,7 @@
         "totalVotes": 36,
         "totalSubs": 0,
         "totalChatMessages": 18,
-        "totalStreamMinutes": 84,
+        "totalStreamMinutes": 89,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2862,7 +2864,7 @@
         "totalVotes": 31,
         "totalSubs": 0,
         "totalChatMessages": 93,
-        "totalStreamMinutes": 61,
+        "totalStreamMinutes": 66,
         "emotes": {
           "🔥": 35,
           "🔴": 14,
@@ -3045,8 +3047,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783552520740,
   "auth": {
-    "accessToken": "63acaa770711f7ca5bf8c5146d592239",
-    "refreshToken": "d40497d23781faccebff42fd71fc1387",
+    "accessToken": "4e7c9231ce8539dd5c66d746f4763dbf",
+    "refreshToken": "70178859e085b3c60c4066a36cbfb3cb",
     "sessionToken": "2f973eb27710209248d03a9f655398cd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
