@@ -1891,7 +1891,7 @@
         "totalVotes": 465,
         "totalSubs": 0,
         "totalChatMessages": 134,
-        "totalStreamMinutes": 466,
+        "totalStreamMinutes": 471,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -1991,7 +1991,7 @@
         "totalVotes": 428,
         "totalSubs": 3,
         "totalChatMessages": 39,
-        "totalStreamMinutes": 372,
+        "totalStreamMinutes": 377,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -2694,7 +2694,7 @@
         "totalVotes": 36,
         "totalSubs": 0,
         "totalChatMessages": 18,
-        "totalStreamMinutes": 174,
+        "totalStreamMinutes": 179,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2765,8 +2765,8 @@
       "stats": {
         "totalVotes": 164,
         "totalSubs": 2,
-        "totalChatMessages": 285,
-        "totalStreamMinutes": 247,
+        "totalChatMessages": 288,
+        "totalStreamMinutes": 252,
         "emotes": {
           "🧏": 1,
           "♂": 1,
@@ -2782,7 +2782,8 @@
           "❤": 24,
           "😆": 1,
           "😂": 1,
-          "🤘": 3
+          "🤘": 3,
+          "🎵": 5
         },
         "emoteNames": {
           "🧏": "🧏",
@@ -2799,22 +2800,11 @@
           "❤": "❤",
           "😆": "😆",
           "😂": "😂",
-          "🤘": "🤘"
+          "🤘": "🤘",
+          "🎵": "🎵"
         }
       },
       "chatMemory": [
-        {
-          "user": "makesonlybeats",
-          "msg": "It might just be you and I in here now bro"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "And CyMatrIX of course"
-        },
-        {
-          "user": "makesonlybeats",
-          "msg": "naturally"
-        },
         {
           "user": "makesonlybeats",
           "msg": "rock on"
@@ -2842,6 +2832,18 @@
         {
           "user": "slothsm",
           "msg": "lets go"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "lfg bidlo"
+        },
+        {
+          "user": "slothsm",
+          "msg": "lets go"
+        },
+        {
+          "user": "slothsm",
+          "msg": "🎵🎵🎵🎵🎵"
         }
       ],
       "customCommands": {},
@@ -2864,7 +2866,7 @@
         "totalVotes": 31,
         "totalSubs": 0,
         "totalChatMessages": 96,
-        "totalStreamMinutes": 151,
+        "totalStreamMinutes": 156,
         "emotes": {
           "🔥": 35,
           "🔴": 14,
@@ -3047,8 +3049,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783552520740,
   "auth": {
-    "accessToken": "a2f05d0e2b091eaf0299ec5d25a63ce1",
-    "refreshToken": "91db8ec29285cd1a8c5a1db646b4d4f3",
+    "accessToken": "1c4b66d8a1e81348015fc98f72f6e102",
+    "refreshToken": "c63a113cf733a8cb54621985737ccb93",
     "sessionToken": "2f973eb27710209248d03a9f655398cd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
