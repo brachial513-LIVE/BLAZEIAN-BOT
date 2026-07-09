@@ -1891,7 +1891,7 @@
         "totalVotes": 465,
         "totalSubs": 0,
         "totalChatMessages": 134,
-        "totalStreamMinutes": 516,
+        "totalStreamMinutes": 533,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -1989,9 +1989,9 @@
       "language": "en",
       "stats": {
         "totalVotes": 432,
-        "totalSubs": 4,
+        "totalSubs": 5,
         "totalChatMessages": 42,
-        "totalStreamMinutes": 422,
+        "totalStreamMinutes": 438,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -2696,7 +2696,7 @@
         "totalVotes": 36,
         "totalSubs": 0,
         "totalChatMessages": 18,
-        "totalStreamMinutes": 224,
+        "totalStreamMinutes": 241,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2767,13 +2767,13 @@
       "stats": {
         "totalVotes": 164,
         "totalSubs": 2,
-        "totalChatMessages": 289,
-        "totalStreamMinutes": 297,
+        "totalChatMessages": 298,
+        "totalStreamMinutes": 314,
         "emotes": {
           "🧏": 1,
           "♂": 1,
           "👀": 3,
-          "🔥": 11,
+          "🔥": 14,
           "🙃": 1,
           "😛": 2,
           "🤭": 2,
@@ -2784,8 +2784,9 @@
           "❤": 24,
           "😆": 1,
           "😂": 1,
-          "🤘": 3,
-          "🎵": 5
+          "🤘": 5,
+          "🎵": 5,
+          "💀": 1
         },
         "emoteNames": {
           "🧏": "🧏",
@@ -2803,49 +2804,50 @@
           "😆": "😆",
           "😂": "😂",
           "🤘": "🤘",
-          "🎵": "🎵"
+          "🎵": "🎵",
+          "💀": "💀"
         }
       },
       "chatMemory": [
         {
-          "user": "makesonlybeats",
-          "msg": "rock on"
-        },
-        {
-          "user": "makesonlybeats",
-          "msg": "awesome show today man, gotta run my daughter to work, ketcha on the flipside!"
-        },
-        {
-          "user": "makesonlybeats",
-          "msg": "legendary"
-        },
-        {
-          "user": "makesonlybeats",
-          "msg": "absolutely, thanks! likewise"
-        },
-        {
-          "user": "marowak33",
-          "msg": "yeah"
-        },
-        {
-          "user": "slothsm",
-          "msg": "lets go"
-        },
-        {
-          "user": "sinnerz",
-          "msg": "lfg bidlo"
-        },
-        {
-          "user": "slothsm",
-          "msg": "lets go"
-        },
-        {
-          "user": "slothsm",
-          "msg": "🎵🎵🎵🎵🎵"
-        },
-        {
           "user": "slothsm",
           "msg": "nice"
+        },
+        {
+          "user": "thewill3ffect",
+          "msg": "hey there long time no see"
+        },
+        {
+          "user": "avisi",
+          "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "avisi",
+          "msg": "Gud Gud!"
+        },
+        {
+          "user": "thewill3ffect",
+          "msg": "just beenbusy broke a bone in my hgand two week ago so recovering from that"
+        },
+        {
+          "user": "slothsm",
+          "msg": "hello bro"
+        },
+        {
+          "user": "slothsm",
+          "msg": "gm gm"
+        },
+        {
+          "user": "avisi",
+          "msg": "artist choice"
+        },
+        {
+          "user": "thewill3ffect",
+          "msg": "nice end it the way you want to"
+        },
+        {
+          "user": "avisi",
+          "msg": "🤘💀🤘"
         }
       ],
       "customCommands": {},
@@ -2868,7 +2870,7 @@
         "totalVotes": 31,
         "totalSubs": 0,
         "totalChatMessages": 96,
-        "totalStreamMinutes": 201,
+        "totalStreamMinutes": 217,
         "emotes": {
           "🔥": 35,
           "🔴": 14,
@@ -3026,6 +3028,25 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
       "streamTitle": "",
       "gameOverride": ""
+    },
+    "0e1fadd4-b37a-451e-a957-c797b606507e": {
+      "username": "thewill3ffect",
+      "language": "en",
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {}
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "timedMessages": [],
+      "tipTiers": []
     }
   },
   "blocklist": [
@@ -3053,7 +3074,7 @@
   "auth": {
     "accessToken": "6717ddd0c807f3c9efbf2923eca47405",
     "refreshToken": "7e72b24c1b7de56c05642f6d4efe77ea",
-    "sessionToken": "2f973eb27710209248d03a9f655398cd",
+    "sessionToken": "d9ff8fbc6d8bd48da70c4a8c1b792706",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
