@@ -300,12 +300,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 5917,
+        "totalVotes": 5942,
         "totalSubs": 2,
-        "totalChatMessages": 71,
+        "totalChatMessages": 72,
         "totalStreamMinutes": 0,
         "emotes": {
-          "🗳": 147,
+          "🗳": 150,
           "❤": 4,
           "🙌": 4,
           "🔥": 4,
@@ -320,10 +320,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @badger just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -359,6 +355,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @_VladEnzo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xlords just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -2704,9 +2704,9 @@
       "language": "en",
       "stats": {
         "totalVotes": 37,
-        "totalSubs": 0,
-        "totalChatMessages": 18,
-        "totalStreamMinutes": 784,
+        "totalSubs": 3,
+        "totalChatMessages": 21,
+        "totalStreamMinutes": 798,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2719,18 +2719,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @alacrityyy!"
-        },
-        {
-          "user": "wingz",
-          "msg": "dale tai"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -2758,6 +2746,18 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 20 votes, @wayfindersplays!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@tai_ gifted a Sub to @hydra! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@tai_ gifted a Sub to @Brachial513! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@tai_ gifted a Sub to @dragofenix2! Thank you!"
         }
       ],
       "customCommands": {},
@@ -2886,7 +2886,7 @@
         "totalVotes": 56,
         "totalSubs": 0,
         "totalChatMessages": 100,
-        "totalStreamMinutes": 761,
+        "totalStreamMinutes": 774,
         "emotes": {
           "🔥": 35,
           "🔴": 14,
@@ -3147,8 +3147,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783587584640,
   "auth": {
-    "accessToken": "1476ef396ae024fe50852a7231c26901",
-    "refreshToken": "c3e737adba7ec369cbdaeb7645789419",
+    "accessToken": "6339dc59fc006fdc90bd48e66c624550",
+    "refreshToken": "659a940a3005abe39a69db41a147e128",
     "sessionToken": "d9ff8fbc6d8bd48da70c4a8c1b792706",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
