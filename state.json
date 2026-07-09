@@ -653,7 +653,7 @@
         "totalVotes": 768,
         "totalSubs": 3,
         "totalChatMessages": 1220,
-        "totalStreamMinutes": 688,
+        "totalStreamMinutes": 708,
         "emotes": {
           "🗳": 75,
           "🤣": 12,
@@ -818,14 +818,14 @@
       "stats": {
         "totalVotes": 1130,
         "totalSubs": 2,
-        "totalChatMessages": 546,
-        "totalStreamMinutes": 2126,
+        "totalChatMessages": 547,
+        "totalStreamMinutes": 2145,
         "emotes": {
           "❤": 38,
           "🙌": 10,
           "🗳": 66,
-          "📴": 18,
-          "👋": 18,
+          "📴": 19,
+          "👋": 19,
           "🔴": 16,
           "🎉": 27,
           "🏆": 7,
@@ -915,10 +915,6 @@
       },
       "chatMemory": [
         {
-          "user": "agent00zani",
-          "msg": "s | 🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle"
-        },
-        {
           "user": "animebio",
           "msg": "doing great haha"
         },
@@ -953,6 +949,10 @@
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @GrindingDragon is raiding with a party of 2! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -960,7 +960,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "🎮Live in Blaze discord w/@animebio and some Friends | 🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle — ROBLOX",
+      "streamTitle": "",
       "profile": "**agent00zani** - Blaze Livestream Channel\n\nA chill, welcoming space for ARC Raiders enthusiasts. Expect doggo talk, shoutouts, and heartfelt appreciation for votes and support. \"Blazedian love\" is key, with recurring phrases like \"Go go @agent00zani!!\" and \"Blazedian bot is full of surprises.\" Community members celebrate with \"Blazedian hugs,\" votes, and emojis, especially during \"Silver Nation Raids.",
       "_profileAtCount": 537,
       "loyalty": {
@@ -1352,16 +1352,12 @@
       "stats": {
         "totalVotes": 647,
         "totalSubs": 5,
-        "totalChatMessages": 11,
+        "totalChatMessages": 12,
         "totalStreamMinutes": 305,
         "emotes": {},
         "emoteNames": {}
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @Future42!"
@@ -1397,6 +1393,10 @@
         {
           "user": "scurvybot",
           "msg": "@AnikiSnow gifted a Sub to @Kinah! Thank you!"
+        },
+        {
+          "user": "marcosb",
+          "msg": "eae"
         }
       ],
       "customCommands": {},
@@ -2002,7 +2002,7 @@
         "totalVotes": 450,
         "totalSubs": 6,
         "totalChatMessages": 47,
-        "totalStreamMinutes": 607,
+        "totalStreamMinutes": 627,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -2146,8 +2146,8 @@
       "stats": {
         "totalVotes": 605,
         "totalSubs": 8,
-        "totalChatMessages": 56,
-        "totalStreamMinutes": 318,
+        "totalChatMessages": 57,
+        "totalStreamMinutes": 335,
         "emotes": {
           "❤": 6,
           "🙌": 11,
@@ -2163,8 +2163,8 @@
           "🔴": 3,
           "🎉": 5,
           "🚨": 6,
-          "📴": 2,
-          "👋": 2,
+          "📴": 3,
+          "👋": 3,
           "🏅": 1
         },
         "emoteNames": {
@@ -2188,10 +2188,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @zoob_21! How generous!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -2227,6 +2223,10 @@
         {
           "user": "vitrene",
           "msg": "he is a hectic helmsman xD"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2239,7 +2239,7 @@
       "botVip": true,
       "profile": "**vitrene's Community Profile**\n\nWelcome to vitrene's Blaze community, where the vibes are chill and the generosity is real! We're a tight-knit group of Blazeians who love to support each other, especially with those sweet subs. You'll catch us throwing around German slang like \"geil\" and \"hammer geil\", and maybe even some Fox Spirits Giveaways. Let's keep blazein' and stay amazing!",
       "_profileAtCount": 20,
-      "streamTitle": "Time for Plunder and Loot! ☠️ | Assassin's Creed IV: Black Flag — Assassin's Creed IV: Black Flag",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif"
     },
@@ -2711,25 +2711,23 @@
       "language": "en",
       "stats": {
         "totalVotes": 50,
-        "totalSubs": 3,
-        "totalChatMessages": 21,
-        "totalStreamMinutes": 1459,
+        "totalSubs": 4,
+        "totalChatMessages": 22,
+        "totalStreamMinutes": 1479,
         "emotes": {
           "💚": 4,
           "🔥": 4,
-          "🤘": 1
+          "🤘": 1,
+          "🎉": 1
         },
         "emoteNames": {
           "💚": "💚",
           "🔥": "🔥",
-          "🤘": "🤘"
+          "🤘": "🤘",
+          "🎉": "🎉"
         }
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 10 votes, @hydra!"
@@ -2765,6 +2763,10 @@
         {
           "user": "scurvybot",
           "msg": "@tai_ gifted a Sub to @dragofenix2! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@wayfindersplays just subscribed for the first month! Welcome to the community! 🎉"
         }
       ],
       "customCommands": {},
@@ -2778,7 +2780,14 @@
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/12660284-7663-43c6-92ac-32776ec39b0d.gif",
       "profile": "tai_ is the fearless captain of the Wayfinders crew, leading @chupacol and @corinloch on epic adventures. This squad's all about that 🔥 energy, fueled by Valeusss vibes and 10s of votes from their loyal crew, @hydra, @wayfindersplays, @Brachial513, and @dragofenix2.",
-      "_profileAtCount": 21
+      "_profileAtCount": 21,
+      "loyalty": {
+        "wayfindersplays": {
+          "name": "wayfindersplays",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "58950ad2-950b-4431-9fb5-32221e9e035d": {
       "username": "bidloperv",
@@ -2910,18 +2919,18 @@
       "stats": {
         "totalVotes": 69,
         "totalSubs": 0,
-        "totalChatMessages": 100,
-        "totalStreamMinutes": 1436,
+        "totalChatMessages": 112,
+        "totalStreamMinutes": 1456,
         "emotes": {
-          "🔥": 35,
-          "🔴": 14,
+          "🔥": 43,
+          "🔴": 16,
           "💚": 4,
           "🤣": 3,
           "☕": 4,
           "💪": 2,
           "📴": 3,
           "👋": 3,
-          "👽": 12,
+          "👽": 16,
           "💀": 5,
           "🗳": 6,
           "💗": 1
@@ -2943,44 +2952,44 @@
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @Future42, who is live now, currently streaming IRL to 1 viewers at https://blaze.stream/future42!"
+          "user": "botger",
+          "msg": "xxtowerdogxx is in the house! 🔥Welcome to the HOTTEST channel on BLAZE🔥"
         },
         {
           "user": "botger",
-          "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
+          "msg": "Come follow ALL my socials and see what goes on after stream! \nhttps://streemrz.com/u/xxtowerdogxx/"
         },
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
         },
         {
-          "user": "avisi",
-          "msg": "ayyy @xxtowerdogxx always good to catch you on!"
+          "user": "xxtowerdogxx",
+          "msg": "👽👽👽👽"
         },
         {
           "user": "scurvybot",
-          "msg": "@Skyhawks is raiding with a party of 2! Welcome, raiders!"
+          "msg": "@agent00zani is raiding with a party of 3! Welcome, raiders!"
         },
         {
-          "user": "scurvybot",
-          "msg": "@DofferLive is raiding with a party of 3! Welcome, raiders!"
+          "user": "agent00zani",
+          "msg": "i go nap gn"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @CG777!"
+          "user": "agent00zani",
+          "msg": "all best in your day"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+          "msg": "🔥Shoutout to agent00zani 🔥 Make sure to drop a follow and show that Tower Crew support for this legend! 🔥 https://blaze.stream/agent00zani 🔥"
         },
         {
           "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
+          "msg": "Let's take a moment to follow @agent00zani, who is live now, currently streaming ROBLOX to 1 viewers at https://blaze.stream/agent00zani!"
         },
         {
           "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
         }
       ],
       "customCommands": {},
@@ -2990,7 +2999,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "💥☢️ Chillin' Beachside, Killin' Tactical Style | Gamefolio  and A-Bomb Fuelled☢️💥 — Delta Force",
+      "streamTitle": "💣 Dropping A-Bombs in Delta Force💥 Powered by Gamefolio & A-Bomb Energy☢️ — Delta Force",
       "gameOverride": "",
       "profile": "xxtowerdogxx's Tower Crew is a high-energy community fueled by 🔥 passion and 💪 motivation. We're all about gaming and streaming Delta Force, with a dash of humor. Expect epic streams, giveaways, and a welcoming vibe. Use xxtowerdogxx to support the community, and don't forget to follow @botger for the ultimate bot experience.",
       "_profileAtCount": 86
@@ -3002,7 +3011,7 @@
         "totalVotes": 281,
         "totalSubs": 0,
         "totalChatMessages": 17,
-        "totalStreamMinutes": 737,
+        "totalStreamMinutes": 750,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -3067,7 +3076,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
-      "streamTitle": "FOXSPIRITS | MapleStory. Spanish Stream — Stumble Guys",
+      "streamTitle": "",
       "gameOverride": ""
     },
     "0e1fadd4-b37a-451e-a957-c797b606507e": {
