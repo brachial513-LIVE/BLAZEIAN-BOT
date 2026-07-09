@@ -2702,7 +2702,7 @@
         "totalVotes": 37,
         "totalSubs": 0,
         "totalChatMessages": 18,
-        "totalStreamMinutes": 449,
+        "totalStreamMinutes": 469,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2882,7 +2882,7 @@
         "totalVotes": 56,
         "totalSubs": 0,
         "totalChatMessages": 100,
-        "totalStreamMinutes": 426,
+        "totalStreamMinutes": 446,
         "emotes": {
           "🔥": 35,
           "🔴": 14,
@@ -2973,7 +2973,7 @@
         "totalVotes": 148,
         "totalSubs": 0,
         "totalChatMessages": 11,
-        "totalStreamMinutes": 437,
+        "totalStreamMinutes": 457,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -3047,21 +3047,25 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 7,
-        "totalStreamMinutes": 180,
+        "totalChatMessages": 9,
+        "totalStreamMinutes": 198,
         "emotes": {
           "❤": 2,
           "🙌": 1,
           "🔴": 1,
           "🎉": 1,
-          "😂": 2
+          "😂": 2,
+          "📴": 1,
+          "👋": 1
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
           "🔴": "🔴",
           "🎉": "🎉",
-          "😂": "😂"
+          "😂": "😂",
+          "📴": "📴",
+          "👋": "👋"
         }
       },
       "chatMemory": [
@@ -3092,6 +3096,14 @@
         {
           "user": "senseibulrog",
           "msg": "Fuck man, makin faded look like it’s well run 😂"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -3104,7 +3116,8 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/eaf52e0e-c43a-4a95-ae72-8f8f3836332e.jpeg",
-      "streamTitle": "Getting Dark in Here??? — Dark And Darker"
+      "streamTitle": "",
+      "gameOverride": ""
     }
   },
   "blocklist": [
