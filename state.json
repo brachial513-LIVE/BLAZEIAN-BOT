@@ -974,7 +974,7 @@
       "stats": {
         "totalVotes": 1721,
         "totalSubs": 2,
-        "totalChatMessages": 2470,
+        "totalChatMessages": 2471,
         "totalStreamMinutes": 648,
         "emotes": {
           "❤": 809,
@@ -1016,7 +1016,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 1,
-          "💜": 32,
+          "💜": 33,
           "🧔": 1,
           "🤺": 1,
           "🥳": 3,
@@ -1093,10 +1093,6 @@
       },
       "chatMemory": [
         {
-          "user": "makesonlybeats",
-          "msg": "I'll fire up the engins"
-        },
-        {
           "user": "bee12",
           "msg": "legend"
         },
@@ -1131,6 +1127,10 @@
         {
           "user": "bee12",
           "msg": "❤️❤️❤️"
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         }
       ],
       "customCommands": {},
@@ -2702,7 +2702,7 @@
         "totalVotes": 37,
         "totalSubs": 0,
         "totalChatMessages": 18,
-        "totalStreamMinutes": 626,
+        "totalStreamMinutes": 629,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2882,7 +2882,7 @@
         "totalVotes": 56,
         "totalSubs": 0,
         "totalChatMessages": 100,
-        "totalStreamMinutes": 602,
+        "totalStreamMinutes": 606,
         "emotes": {
           "🔥": 35,
           "🔴": 14,
@@ -3143,8 +3143,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783587584640,
   "auth": {
-    "accessToken": "7861534c12519dc40f6ba3a3f72f7ce5",
-    "refreshToken": "4c7fb5bc32b6ba35d049d54c69298035",
+    "accessToken": "41648f4ea2b2f024bbce7afdaed61b27",
+    "refreshToken": "241111f2f0a1cf34540244c2671d7f32",
     "sessionToken": "d9ff8fbc6d8bd48da70c4a8c1b792706",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
