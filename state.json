@@ -302,22 +302,23 @@
       "stats": {
         "totalVotes": 6388,
         "totalSubs": 4,
-        "totalChatMessages": 119,
-        "totalStreamMinutes": 53,
+        "totalChatMessages": 126,
+        "totalStreamMinutes": 73,
         "emotes": {
           "🗳": 168,
           "❤": 6,
           "🙌": 7,
-          "🔥": 8,
+          "🔥": 15,
           "☺": 1,
           "🔴": 2,
-          "🎉": 2,
+          "🎉": 3,
           "📴": 2,
           "👋": 2,
           "🫶": 1,
           "💃": 1,
           "😂": 2,
-          "😜": 1
+          "😜": 1,
+          "🚨": 6
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -332,38 +333,11 @@
           "🫶": "🫶",
           "💃": "💃",
           "😂": "😂",
-          "😜": "😜"
+          "😜": "😜",
+          "🚨": "🚨"
         }
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "The bull whip of ice"
-        },
-        {
-          "user": "briggsy",
-          "msg": "How kinky"
-        },
-        {
-          "user": "briggsy",
-          "msg": "So close"
-        },
-        {
-          "user": "briggsy",
-          "msg": "yay"
-        },
-        {
-          "user": "briggsy",
-          "msg": "haha Gander"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Gandalf Gander"
-        },
-        {
-          "user": "zsoltech",
-          "msg": "heyoooooo"
-        },
         {
           "user": "zsoltech",
           "msg": "wassssuppppp vroshi playing games"
@@ -375,6 +349,34 @@
         {
           "user": "zsoltech",
           "msg": "right on haha enjoy. this game looks fun"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @RedmanFXH is raiding with a party of 3! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "redmanfxh",
+          "msg": "🔥🔥🔥🔥🔥🔥🔥"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "haha damn. almost"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "Gm gm"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "All best in your day today"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Hey Zani"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Hey Zsol"
         }
       ],
       "customCommands": {},
@@ -405,8 +407,8 @@
           "tier": 1
         }
       },
-      "profile": "Welcome to the vroshi55 squad! We're a high-energy community fueled by RESUB HYPE, VOTE ALERTS, and non-stop gaming goodness. Our streamer loves shoutouts, especially for 3-month resubs, and we celebrate with 🙌 and 🗳️. We're all about that 0-60 life, where votes and subs are key. Let's keep it lit!",
-      "_profileAtCount": 76,
+      "profile": "Welcome to the vroshi55 squad! We're a high-energy community fueled by RESUB HYPE, VOTE ALERTS, and non-stop gaming goodness. We love shoutouts, especially for 3-month resubs, and celebrate with 🙌 and 🗳️. Our streamer plays Crypto, Gaming & Life and we're all about that 0-60 life, where votes and subs are key. Let's keep it lit with RESUB HYPE and RAID ALERTS!",
+      "_profileAtCount": 126,
       "streamTitle": "Crypto, Gaming & Life — Crypto",
       "gameOverride": ""
     },
@@ -2738,7 +2740,7 @@
         "totalVotes": 50,
         "totalSubs": 4,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 1664,
+        "totalStreamMinutes": 1684,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2944,8 +2946,8 @@
       "stats": {
         "totalVotes": 79,
         "totalSubs": 0,
-        "totalChatMessages": 123,
-        "totalStreamMinutes": 1641,
+        "totalChatMessages": 127,
+        "totalStreamMinutes": 1661,
         "emotes": {
           "🔥": 44,
           "🔴": 16,
@@ -2979,22 +2981,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
-        {
-          "user": "flash",
-          "msg": "😱"
-        },
-        {
-          "user": "flash",
-          "msg": "fire"
-        },
-        {
-          "user": "flash",
-          "msg": "🔥"
-        },
-        {
           "user": "scurvybot",
           "msg": "Thanks for the 10 votes, @NiRuntz!"
         },
@@ -3017,6 +3003,22 @@
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "agent00zani",
+          "msg": "Just lurking..."
+        },
+        {
+          "user": "agent00zani",
+          "msg": "Hope your day is going well"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "That awesome mi"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "Www"
         }
       ],
       "customCommands": {},
@@ -3218,7 +3220,7 @@
   "auth": {
     "accessToken": "bb039889d7cd3ae6deae8bac132c56a9",
     "refreshToken": "cd1dbd4879aa17670eb578e8da12e23b",
-    "sessionToken": "d9ff8fbc6d8bd48da70c4a8c1b792706",
+    "sessionToken": "22c43fbc918864c44dbc17273c860838",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
