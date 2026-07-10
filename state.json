@@ -917,12 +917,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 1283,
-        "totalSubs": 2,
-        "totalChatMessages": 556,
-        "totalStreamMinutes": 2193,
+        "totalSubs": 3,
+        "totalChatMessages": 557,
+        "totalStreamMinutes": 2198,
         "emotes": {
           "❤": 38,
-          "🙌": 10,
+          "🙌": 11,
           "🗳": 72,
           "📴": 19,
           "👋": 19,
@@ -931,7 +931,7 @@
           "🏆": 8,
           "🤗": 8,
           "💎": 5,
-          "🎁": 7,
+          "🎁": 9,
           "📢": 14,
           "🔥": 79,
           "😘": 13,
@@ -1016,10 +1016,6 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @fluffy just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         },
         {
@@ -1053,6 +1049,10 @@
         {
           "user": "agent00zani",
           "msg": "🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Zer0Cache just gifted a sub to @oxmed! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -1520,7 +1520,7 @@
         "totalVotes": 554,
         "totalSubs": 5,
         "totalChatMessages": 320,
-        "totalStreamMinutes": 1126,
+        "totalStreamMinutes": 1131,
         "emotes": {
           "✨": 1,
           "🖥": 7,
@@ -2370,7 +2370,7 @@
         "totalVotes": 1161,
         "totalSubs": 0,
         "totalChatMessages": 23,
-        "totalStreamMinutes": 340,
+        "totalStreamMinutes": 345,
         "emotes": {
           "❤": 5,
           "🙌": 2,
@@ -2837,7 +2837,7 @@
         "totalVotes": 285,
         "totalSubs": 4,
         "totalChatMessages": 23,
-        "totalStreamMinutes": 2919,
+        "totalStreamMinutes": 2924,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -3054,7 +3054,7 @@
         "totalVotes": 79,
         "totalSubs": 0,
         "totalChatMessages": 137,
-        "totalStreamMinutes": 1712,
+        "totalStreamMinutes": 1717,
         "emotes": {
           "🔥": 48,
           "🔴": 18,
@@ -3415,8 +3415,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783718823845,
   "auth": {
-    "accessToken": "9c05579c2c997dd176b2cb3458d1eac3",
-    "refreshToken": "701375a3ae6c4d4fb545b65c4d4cc4c0",
+    "accessToken": "2ec3d2946d2b6a5162e8fe8f6471032f",
+    "refreshToken": "fd8c853a08c42b1cc87f1369a02654c2",
     "sessionToken": "22c43fbc918864c44dbc17273c860838",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
