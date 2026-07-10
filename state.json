@@ -300,65 +300,75 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 6262,
+        "totalVotes": 6363,
         "totalSubs": 3,
-        "totalChatMessages": 76,
-        "totalStreamMinutes": 0,
+        "totalChatMessages": 91,
+        "totalStreamMinutes": 8,
         "emotes": {
-          "🗳": 159,
+          "🗳": 165,
           "❤": 4,
           "🙌": 5,
           "🔥": 6,
-          "☺": 1
+          "☺": 1,
+          "🔴": 2,
+          "🎉": 2,
+          "📴": 2,
+          "👋": 2,
+          "🫶": 1
         },
         "emoteNames": {
           "🗳": "🗳",
           "❤": "❤",
           "🙌": "🙌",
           "🔥": "🔥",
-          "☺": "☺"
+          "☺": "☺",
+          "🔴": "🔴",
+          "🎉": "🎉",
+          "📴": "📴",
+          "👋": "👋",
+          "🫶": "🫶"
         }
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+          "user": "faithy_",
+          "msg": "🫶"
+        },
+        {
+          "user": "faithy_",
+          "msg": "how's your day?"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "Master Roshi"
+        },
+        {
+          "user": "faithy_",
+          "msg": "nice to hear."
+        },
+        {
+          "user": "niruntz",
+          "msg": "hey roshiii!"
         },
         {
           "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @joseph has resubscribed — 16 months total, 16 months streak! Thank you for the continued support! 🙌"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @NiRuntz just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         },
         {
-          "user": "dress_n_draw",
-          "msg": "Thank you for your votes☺️"
+          "user": "niruntz",
+          "msg": "what we playin man!"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @NadieTv just gave 40 vote(s) (total: 40)! Thank you!! 🗳️"
+          "user": "marowak33",
+          "msg": "hf"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @_VladEnzo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xlords just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+          "user": "faithy_",
+          "msg": "nirunt drinking beer while watching chill"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @piweb has resubscribed — 9 months total, 9 months streak! Thank you for the continued support! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @yamall9 just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -385,7 +395,9 @@
         }
       },
       "profile": "Welcome to the vroshi55 squad! We're a high-energy community fueled by RESUB HYPE, VOTE ALERTS, and non-stop gaming goodness. Our streamer loves shoutouts, especially for 3-month resubs, and we celebrate with 🙌 and 🗳️. We're all about that 0-60 life, where votes and subs are key. Let's keep it lit!",
-      "_profileAtCount": 76
+      "_profileAtCount": 76,
+      "streamTitle": "Crypto, Gaming & Life — Crypto",
+      "gameOverride": ""
     },
     "8c847dcf-65a9-4234-8980-c59102c8aa60": {
       "username": "jt_squared2",
@@ -2004,7 +2016,7 @@
         "totalVotes": 450,
         "totalSubs": 8,
         "totalChatMessages": 55,
-        "totalStreamMinutes": 753,
+        "totalStreamMinutes": 767,
         "emotes": {
           "❤": 8,
           "🙌": 4,
@@ -2715,7 +2727,7 @@
         "totalVotes": 50,
         "totalSubs": 4,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 1606,
+        "totalStreamMinutes": 1619,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2922,7 +2934,7 @@
         "totalVotes": 79,
         "totalSubs": 0,
         "totalChatMessages": 120,
-        "totalStreamMinutes": 1582,
+        "totalStreamMinutes": 1596,
         "emotes": {
           "🔥": 44,
           "🔴": 16,
@@ -3193,8 +3205,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783642578049,
   "auth": {
-    "accessToken": "7f0bd061998a9da843f96e638104d146",
-    "refreshToken": "22e900c8cacef8de984f6d69df94e03a",
+    "accessToken": "652ce1d91cb5cef71c09e25688b37112",
+    "refreshToken": "b609782986de642a66bb53810a10592d",
     "sessionToken": "d9ff8fbc6d8bd48da70c4a8c1b792706",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
