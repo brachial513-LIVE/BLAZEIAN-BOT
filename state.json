@@ -2746,7 +2746,7 @@
         "totalVotes": 175,
         "totalSubs": 4,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 2352,
+        "totalStreamMinutes": 2353,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -3219,19 +3219,31 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {}
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "brachial513",
+          "msg": "ahhhhhh"
+        },
+        {
+          "user": "brachial513",
+          "msg": "there you see !setbotlang espanol"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
       "timedMessages": [],
       "tipTiers": [],
-      "greeted": true
+      "greeted": true,
+      "locked": false,
+      "followed": true,
+      "botVip": true
     }
   },
   "blocklist": [
