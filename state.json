@@ -843,14 +843,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 1130,
+        "totalVotes": 1140,
         "totalSubs": 2,
-        "totalChatMessages": 547,
+        "totalChatMessages": 548,
         "totalStreamMinutes": 2145,
         "emotes": {
           "❤": 38,
           "🙌": 10,
-          "🗳": 66,
+          "🗳": 69,
           "📴": 19,
           "👋": 19,
           "🔴": 16,
@@ -942,10 +942,6 @@
       },
       "chatMemory": [
         {
-          "user": "animebio",
-          "msg": "doing great haha"
-        },
-        {
           "user": "agent00zani",
           "msg": "ty ty vroshi55  for the votes"
         },
@@ -980,6 +976,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @fluffy just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -2746,7 +2746,7 @@
         "totalVotes": 50,
         "totalSubs": 4,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 1889,
+        "totalStreamMinutes": 1909,
         "emotes": {
           "💚": 4,
           "🔥": 4,
