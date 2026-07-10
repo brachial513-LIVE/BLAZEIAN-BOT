@@ -301,14 +301,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 6388,
-        "totalSubs": 3,
-        "totalChatMessages": 115,
-        "totalStreamMinutes": 48,
+        "totalSubs": 4,
+        "totalChatMessages": 119,
+        "totalStreamMinutes": 53,
         "emotes": {
           "🗳": 168,
           "❤": 6,
-          "🙌": 6,
-          "🔥": 6,
+          "🙌": 7,
+          "🔥": 8,
           "☺": 1,
           "🔴": 2,
           "🎉": 2,
@@ -338,22 +338,6 @@
       "chatMemory": [
         {
           "user": "briggsy",
-          "msg": "This is how Roshi unwinds"
-        },
-        {
-          "user": "briggsy",
-          "msg": "\"Embrace the Pain\""
-        },
-        {
-          "user": "briggsy",
-          "msg": "😂😂😜"
-        },
-        {
-          "user": "niruntz",
-          "msg": "you'll be fine man hahahahahaha"
-        },
-        {
-          "user": "briggsy",
           "msg": "The bull whip of ice"
         },
         {
@@ -375,6 +359,22 @@
         {
           "user": "briggsy",
           "msg": "Gandalf Gander"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "heyoooooo"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "wassssuppppp vroshi playing games"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @zsoltech has resubscribed — 3 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "right on haha enjoy. this game looks fun"
         }
       ],
       "customCommands": {},
@@ -396,6 +396,11 @@
         },
         "piweb": {
           "name": "piweb",
+          "months": 1,
+          "tier": 1
+        },
+        "zsoltech": {
+          "name": "zsoltech",
           "months": 1,
           "tier": 1
         }
@@ -2733,7 +2738,7 @@
         "totalVotes": 50,
         "totalSubs": 4,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 1659,
+        "totalStreamMinutes": 1664,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2940,7 +2945,7 @@
         "totalVotes": 79,
         "totalSubs": 0,
         "totalChatMessages": 123,
-        "totalStreamMinutes": 1636,
+        "totalStreamMinutes": 1641,
         "emotes": {
           "🔥": 44,
           "🔴": 16,
@@ -3211,8 +3216,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783642578049,
   "auth": {
-    "accessToken": "652ce1d91cb5cef71c09e25688b37112",
-    "refreshToken": "b609782986de642a66bb53810a10592d",
+    "accessToken": "bb039889d7cd3ae6deae8bac132c56a9",
+    "refreshToken": "cd1dbd4879aa17670eb578e8da12e23b",
     "sessionToken": "d9ff8fbc6d8bd48da70c4a8c1b792706",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
