@@ -1215,8 +1215,8 @@
       "stats": {
         "totalVotes": 419,
         "totalSubs": 6,
-        "totalChatMessages": 238,
-        "totalStreamMinutes": 2196,
+        "totalChatMessages": 243,
+        "totalStreamMinutes": 2216,
         "emotes": {
           "😊": 3,
           "🌵": 25,
@@ -1314,26 +1314,6 @@
       },
       "chatMemory": [
         {
-          "user": "vroshi55",
-          "msg": "Anyways, enjoy. I'm going to grab a bite to eat."
-        },
-        {
-          "user": "vroshi55",
-          "msg": "BLAZE ON Capt."
-        },
-        {
-          "user": "cactus_jack440",
-          "msg": "🔥🔥🔥"
-        },
-        {
-          "user": "peperonitostv",
-          "msg": "Have a nice stream!"
-        },
-        {
-          "user": "angge_wf",
-          "msg": "GM"
-        },
-        {
           "user": "angge_wf",
           "msg": "hi how are you"
         },
@@ -1352,6 +1332,26 @@
         {
           "user": "senseibulrog",
           "msg": "there's a boat, that's good enough for some votes"
+        },
+        {
+          "user": "capt_rob_advent",
+          "msg": "Hi"
+        },
+        {
+          "user": "alwaysready54",
+          "msg": "full of sh;;t"
+        },
+        {
+          "user": "alwaysready54",
+          "msg": "hi youhave agood time"
+        },
+        {
+          "user": "alwaysready54",
+          "msg": "you  kids have a good time 2 nite...."
+        },
+        {
+          "user": "alwaysready54",
+          "msg": "Grapes are good for Hang Overs"
         }
       ],
       "customCommands": {},
@@ -2740,7 +2740,7 @@
         "totalVotes": 50,
         "totalSubs": 4,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 1754,
+        "totalStreamMinutes": 1774,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -3113,18 +3113,19 @@
       "language": "en",
       "stats": {
         "totalVotes": 14,
-        "totalSubs": 20,
-        "totalChatMessages": 50,
+        "totalSubs": 21,
+        "totalChatMessages": 52,
         "totalStreamMinutes": 198,
         "emotes": {
           "❤": 2,
-          "🙌": 21,
+          "🙌": 22,
           "🔴": 1,
           "🎉": 1,
           "😂": 2,
           "📴": 1,
           "👋": 1,
-          "🎁": 40
+          "🎁": 40,
+          "🔥": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -3134,18 +3135,11 @@
           "😂": "😂",
           "📴": "📴",
           "👋": "👋",
-          "🎁": "🎁"
+          "🎁": "🎁",
+          "🔥": "🔥"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @senseibulrog just gifted a sub to @botger! How generous!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@senseibulrog gifted a Sub to @infamousex! Thank you!"
-        },
         {
           "user": "scurvybot",
           "msg": "@senseibulrog gifted a Sub to @Zer0Cache! Thank you!"
@@ -3177,6 +3171,14 @@
         {
           "user": "scurvybot",
           "msg": "@senseibulrog gifted a Sub to @jakehusdon12! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@senseibulrog resubscribed, they've been subbed for 3 months! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @senseibulrog has resubscribed — 3 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -3192,7 +3194,14 @@
       "streamTitle": "",
       "gameOverride": "",
       "profile": "thewill3ffect profile: \nThis community is a tight-knit, generous bunch where @senseibulrog frequently gifts subs to their favorite streamers, especially @igotbeatz, @JaggerJack, @TwiceSlice, and @williamzenx. They love celebrating with 🎁 GIFTED SUB!! 🎁 and \"How generous!! 🙌\" vibes, often referencing their favorite game and sharing love for their streamer.",
-      "_profileAtCount": 50
+      "_profileAtCount": 50,
+      "loyalty": {
+        "senseibulrog": {
+          "name": "senseibulrog",
+          "months": 1,
+          "tier": 1
+        }
+      }
     }
   },
   "blocklist": [
