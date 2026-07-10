@@ -2743,10 +2743,10 @@
       "username": "tai_",
       "language": "en",
       "stats": {
-        "totalVotes": 175,
+        "totalVotes": 185,
         "totalSubs": 4,
-        "totalChatMessages": 22,
-        "totalStreamMinutes": 2404,
+        "totalChatMessages": 23,
+        "totalStreamMinutes": 2424,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2761,10 +2761,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @hydra!"
-        },
         {
           "user": "hydra",
           "msg": "🔥"
@@ -2800,6 +2796,10 @@
         {
           "user": "scurvybot",
           "msg": "@wayfindersplays just subscribed for the first month! Welcome to the community! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @wayfindersplays!"
         }
       ],
       "customCommands": {},
@@ -3219,26 +3219,20 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 13,
+        "totalChatMessages": 15,
         "totalStreamMinutes": 0,
         "emotes": {
           "💪": 2,
-          "💚": 7
+          "💚": 7,
+          "🔥": 3
         },
         "emoteNames": {
           "💪": "💪",
-          "💚": "💚"
+          "💚": "💚",
+          "🔥": "🔥"
         }
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "ahhhhhh"
-        },
-        {
-          "user": "brachial513",
-          "msg": "there you see !setbotlang espanol"
-        },
         {
           "user": "brachial513",
           "msg": "and thank you for free using the Blazeian bot 💪💚 if you use OBS or other you also can add him as overlay in pink color and female looking design haha"
@@ -3270,6 +3264,14 @@
         {
           "user": "brachial513",
           "msg": "💚💚💚💚"
+        },
+        {
+          "user": "dimifw",
+          "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
         }
       ],
       "customCommands": {},
