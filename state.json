@@ -655,7 +655,7 @@
         "totalVotes": 768,
         "totalSubs": 3,
         "totalChatMessages": 1229,
-        "totalStreamMinutes": 753,
+        "totalStreamMinutes": 758,
         "emotes": {
           "🗳": 75,
           "🤣": 12,
@@ -2004,7 +2004,7 @@
         "totalVotes": 450,
         "totalSubs": 7,
         "totalChatMessages": 53,
-        "totalStreamMinutes": 672,
+        "totalStreamMinutes": 677,
         "emotes": {
           "❤": 8,
           "🙌": 4,
@@ -2715,7 +2715,7 @@
         "totalVotes": 50,
         "totalSubs": 4,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 1524,
+        "totalStreamMinutes": 1529,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2921,8 +2921,8 @@
       "stats": {
         "totalVotes": 69,
         "totalSubs": 0,
-        "totalChatMessages": 114,
-        "totalStreamMinutes": 1501,
+        "totalChatMessages": 115,
+        "totalStreamMinutes": 1506,
         "emotes": {
           "🔥": 43,
           "🔴": 16,
@@ -2935,7 +2935,8 @@
           "👽": 16,
           "💀": 5,
           "🗳": 6,
-          "💗": 1
+          "💗": 1,
+          "😱": 1
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -2949,14 +2950,11 @@
           "👽": "👽",
           "💀": "💀",
           "🗳": "🗳",
-          "💗": "💗"
+          "💗": "💗",
+          "😱": "😱"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
         {
           "user": "xxtowerdogxx",
           "msg": "👽👽👽👽"
@@ -2992,6 +2990,10 @@
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "flash",
+          "msg": "😱"
         }
       ],
       "customCommands": {},
@@ -3191,8 +3193,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783587584640,
   "auth": {
-    "accessToken": "909b0de76d5feb8bc027e1aa01fd6650",
-    "refreshToken": "e0bcf1d3b93f70378bc7ff5180827177",
+    "accessToken": "10592651e2c579b639f93fb399ff3a98",
+    "refreshToken": "fe7b05a830da4ea2555624352f50b52b",
     "sessionToken": "d9ff8fbc6d8bd48da70c4a8c1b792706",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
