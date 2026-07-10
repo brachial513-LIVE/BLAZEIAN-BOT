@@ -2746,7 +2746,7 @@
         "totalVotes": 50,
         "totalSubs": 4,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 1934,
+        "totalStreamMinutes": 1954,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -2952,7 +2952,7 @@
       "stats": {
         "totalVotes": 79,
         "totalSubs": 0,
-        "totalChatMessages": 132,
+        "totalChatMessages": 134,
         "totalStreamMinutes": 1704,
         "emotes": {
           "🔥": 46,
@@ -2967,7 +2967,9 @@
           "💀": 5,
           "🗳": 9,
           "💗": 1,
-          "😱": 1
+          "😱": 1,
+          "❤": 2,
+          "🙌": 1
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -2982,18 +2984,12 @@
           "💀": "💀",
           "🗳": "🗳",
           "💗": "💗",
-          "😱": "😱"
+          "😱": "😱",
+          "❤": "❤",
+          "🙌": "🙌"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
-        {
-          "user": "agent00zani",
-          "msg": "Just lurking..."
-        },
         {
           "user": "agent00zani",
           "msg": "Hope your day is going well"
@@ -3025,6 +3021,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @rhywyn!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ rhywyn just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
