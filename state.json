@@ -916,7 +916,7 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 1281,
+        "totalVotes": 1283,
         "totalSubs": 2,
         "totalChatMessages": 549,
         "totalStreamMinutes": 2145,
@@ -1519,8 +1519,8 @@
       "stats": {
         "totalVotes": 552,
         "totalSubs": 4,
-        "totalChatMessages": 299,
-        "totalStreamMinutes": 996,
+        "totalChatMessages": 305,
+        "totalStreamMinutes": 1016,
         "emotes": {
           "✨": 1,
           "🖥": 7,
@@ -1565,7 +1565,10 @@
           "⚔": 1,
           "🫂": 1,
           "🎯": 1,
-          "😁": 1
+          "😁": 1,
+          "👾": 1,
+          "😉": 2,
+          "💃": 3
         },
         "emoteNames": {
           "✨": "✨",
@@ -1611,30 +1614,13 @@
           "⚔": "⚔",
           "🫂": "🫂",
           "🎯": "🎯",
-          "😁": "😁"
+          "😁": "😁",
+          "👾": "👾",
+          "😉": "😉",
+          "💃": "💃"
         }
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "night"
-        },
-        {
-          "user": "time",
-          "msg": "00.06"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 5 votes, @time! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Taming the Update. Drop a greeting in chat! 👋"
-        },
         {
           "user": "tarzan",
           "msg": "Zero my hero"
@@ -1654,6 +1640,26 @@
         {
           "user": "tarzan",
           "msg": "I am happy you happy 😁"
+        },
+        {
+          "user": "avisi",
+          "msg": "GG's"
+        },
+        {
+          "user": "cachebot",
+          "msg": "👾 [HYPE]: Simply jaw-dropping! @avisi possesses the rare, breathtaking game sense of a digital deity who has memorized the source code purely for the aesthetic pleasure of it. Magnificent play!"
+        },
+        {
+          "user": "avisi",
+          "msg": "careful- flattery will get you... everywhere"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "😉😉"
+        },
+        {
+          "user": "fluffy",
+          "msg": "💃💃💃"
         }
       ],
       "customCommands": {},
@@ -2261,7 +2267,7 @@
         "totalVotes": 611,
         "totalSubs": 8,
         "totalChatMessages": 60,
-        "totalStreamMinutes": 387,
+        "totalStreamMinutes": 407,
         "emotes": {
           "❤": 6,
           "🙌": 11,
@@ -2364,7 +2370,7 @@
         "totalVotes": 1161,
         "totalSubs": 0,
         "totalChatMessages": 23,
-        "totalStreamMinutes": 210,
+        "totalStreamMinutes": 230,
         "emotes": {
           "❤": 5,
           "🙌": 2,
@@ -2523,7 +2529,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 598,
+        "totalVotes": 600,
         "totalSubs": 7,
         "totalChatMessages": 182,
         "totalStreamMinutes": 307,
@@ -2828,10 +2834,10 @@
       "username": "tai_",
       "language": "en",
       "stats": {
-        "totalVotes": 185,
+        "totalVotes": 285,
         "totalSubs": 4,
         "totalChatMessages": 23,
-        "totalStreamMinutes": 2789,
+        "totalStreamMinutes": 2809,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -3036,7 +3042,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b75c9dc9-4139-4301-a1f4-4b77cb0e8bec.gif",
       "followed": true,
-      "streamTitle": "Guitar and Chill! Request for a chance at 75 Votes — Music",
+      "streamTitle": "",
       "profile": "Channel: bidloperv\n\nThis chill, upbeat space is where friends jam out to guitar music and share laughs. Expect Legend! celebrations, Canadian pride, and Blazian Bot jokes. We vibe on Fortify!!, Mega-byte, and Feed the beast with Aussie humor. Shout \"Legend!\" when Bidlo rocks the guitar. We play guitar games, request songs, and reference Aussie culture and memes.",
       "_profileAtCount": 754,
       "gameOverride": ""
