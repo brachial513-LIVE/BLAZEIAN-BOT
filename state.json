@@ -918,14 +918,14 @@
       "stats": {
         "totalVotes": 1283,
         "totalSubs": 3,
-        "totalChatMessages": 557,
-        "totalStreamMinutes": 2198,
+        "totalChatMessages": 562,
+        "totalStreamMinutes": 2204,
         "emotes": {
           "❤": 38,
           "🙌": 11,
           "🗳": 72,
-          "📴": 19,
-          "👋": 19,
+          "📴": 20,
+          "👋": 20,
           "🔴": 17,
           "🎉": 28,
           "🏆": 8,
@@ -1015,26 +1015,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @fluffy just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "grindingdragon",
-          "msg": "hello"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "what up @GrindingDragon"
-        },
-        {
           "user": "grindingdragon",
           "msg": "i going to sleep hew a wonderful stream zani"
         },
@@ -1053,6 +1033,26 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @Zer0Cache just gifted a sub to @oxmed! How generous!! 🙌"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty Zer0Cache"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "loading uop new game"
+        },
+        {
+          "user": "fluffy",
+          "msg": "Where are you?"
+        },
+        {
+          "user": "fluffy",
+          "msg": "Hey hey"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -1060,7 +1060,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "🎮I am ZANI ..gaming with the bros | 🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle — Farlight 84",
+      "streamTitle": "",
       "profile": "**agent00zani** - Blaze Livestream Channel\n\nA chill, welcoming space for ARC Raiders enthusiasts. Expect doggo talk, shoutouts, and heartfelt appreciation for votes and support. \"Blazedian love\" is key, with recurring phrases like \"Go go @agent00zani!!\" and \"Blazedian bot is full of surprises.\" Community members celebrate with \"Blazedian hugs,\" votes, and emojis, especially during \"Silver Nation Raids.",
       "_profileAtCount": 537,
       "loyalty": {
@@ -1519,15 +1519,15 @@
       "stats": {
         "totalVotes": 554,
         "totalSubs": 5,
-        "totalChatMessages": 320,
-        "totalStreamMinutes": 1131,
+        "totalChatMessages": 322,
+        "totalStreamMinutes": 1137,
         "emotes": {
           "✨": 1,
           "🖥": 7,
-          "🔥": 21,
-          "👋": 10,
-          "🎬": 11,
-          "❤": 13,
+          "🔥": 22,
+          "👋": 11,
+          "🎬": 12,
+          "❤": 14,
           "🚨": 4,
           "⚡": 10,
           "🏆": 8,
@@ -1622,14 +1622,6 @@
       },
       "chatMemory": [
         {
-          "user": "agent00zani",
-          "msg": "🥰"
-        },
-        {
-          "user": "avisi",
-          "msg": "GG's"
-        },
-        {
           "user": "avisi",
           "msg": "Thanks for games @zer0cache! Always a pleasure my fren."
         },
@@ -1660,6 +1652,14 @@
         {
           "user": "agent00zani",
           "msg": "ggs"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Taming the Update. Drop a greeting in chat! 👋"
         }
       ],
       "customCommands": {},
@@ -2370,7 +2370,7 @@
         "totalVotes": 1161,
         "totalSubs": 0,
         "totalChatMessages": 23,
-        "totalStreamMinutes": 345,
+        "totalStreamMinutes": 355,
         "emotes": {
           "❤": 5,
           "🙌": 2,
@@ -2837,7 +2837,7 @@
         "totalVotes": 285,
         "totalSubs": 4,
         "totalChatMessages": 23,
-        "totalStreamMinutes": 2924,
+        "totalStreamMinutes": 2935,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -3054,7 +3054,7 @@
         "totalVotes": 79,
         "totalSubs": 0,
         "totalChatMessages": 137,
-        "totalStreamMinutes": 1717,
+        "totalStreamMinutes": 1728,
         "emotes": {
           "🔥": 48,
           "🔴": 18,
@@ -3415,8 +3415,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783718823845,
   "auth": {
-    "accessToken": "2ec3d2946d2b6a5162e8fe8f6471032f",
-    "refreshToken": "fd8c853a08c42b1cc87f1369a02654c2",
+    "accessToken": "242d3b90dee5a265f7510869dc4a10c4",
+    "refreshToken": "bcfa6599c79e575145415b5e3c71dfd7",
     "sessionToken": "22c43fbc918864c44dbc17273c860838",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
