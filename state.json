@@ -302,12 +302,12 @@
       "stats": {
         "totalVotes": 6664,
         "totalSubs": 6,
-        "totalChatMessages": 565,
+        "totalChatMessages": 566,
         "totalStreamMinutes": 214,
         "emotes": {
           "🗳": 174,
-          "❤": 8,
-          "🙌": 10,
+          "❤": 10,
+          "🙌": 11,
           "🔥": 16,
           "☺": 1,
           "🔴": 3,
@@ -379,10 +379,6 @@
       },
       "chatMemory": [
         {
-          "user": "sipofcoke",
-          "msg": "GN ALL"
-        },
-        {
           "user": "time",
           "msg": "see you"
         },
@@ -417,6 +413,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ noodles just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -447,8 +447,8 @@
           "tier": 1
         }
       },
-      "profile": "Welcome to the vroshi55 squad! We're a high-energy community fueled by RESUB HYPE, VOTE ALERTS, and non-stop gaming goodness. We love shoutouts, especially for 3-month resubs, and celebrate with 🙌 and 🗳️. Our streamer plays Crypto, Gaming & Life and we're all about that 0-60 life, where votes and subs are key. Let's keep it lit with RESUB HYPE and RAID ALERTS!",
-      "_profileAtCount": 126,
+      "profile": "Welcome to the vroshi55 squad! We're a high-energy community fueled by RESUB HYPE, VOTE ALERTS, and non-stop gaming goodness. We love shoutouts, especially for 3-month resubs, and celebrate with 🙌 and 🗳️. We play Crypto, Gaming & Life, and keep it lit with RESUB HYPE and RAID ALERTS! Thanks for being part of our 0-60 crew!",
+      "_profileAtCount": 566,
       "streamTitle": "",
       "gameOverride": ""
     },
@@ -2062,7 +2062,7 @@
         "totalVotes": 555,
         "totalSubs": 1,
         "totalChatMessages": 304,
-        "totalStreamMinutes": 730,
+        "totalStreamMinutes": 750,
         "emotes": {
           "❤": 6,
           "🙌": 4,
@@ -2891,7 +2891,7 @@
         "totalVotes": 285,
         "totalSubs": 4,
         "totalChatMessages": 23,
-        "totalStreamMinutes": 3104,
+        "totalStreamMinutes": 3124,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -3108,7 +3108,7 @@
         "totalVotes": 89,
         "totalSubs": 0,
         "totalChatMessages": 153,
-        "totalStreamMinutes": 1897,
+        "totalStreamMinutes": 1917,
         "emotes": {
           "🔥": 56,
           "🔴": 20,
@@ -3471,7 +3471,7 @@
   "auth": {
     "accessToken": "60541bdacc202170556bb160a808db6f",
     "refreshToken": "37e060928caad441aec44f6d8758c5b9",
-    "sessionToken": "22c43fbc918864c44dbc17273c860838",
+    "sessionToken": "4a1f65e6688169c06475db851acc2dc5",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
