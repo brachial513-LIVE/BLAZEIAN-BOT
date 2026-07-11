@@ -308,7 +308,7 @@
       "stats": {
         "totalVotes": 6699,
         "totalSubs": 8,
-        "totalChatMessages": 955,
+        "totalChatMessages": 956,
         "totalStreamMinutes": 322,
         "emotes": {
           "🗳": 177,
@@ -318,8 +318,8 @@
           "☺": 2,
           "🔴": 4,
           "🎉": 14,
-          "📴": 4,
-          "👋": 10,
+          "📴": 5,
+          "👋": 11,
           "🫶": 1,
           "💃": 1,
           "😂": 54,
@@ -407,10 +407,6 @@
       },
       "chatMemory": [
         {
-          "user": "tigresa",
-          "msg": "❤️"
-        },
-        {
           "user": "sipofcoke",
           "msg": "have a great weekend everybody!"
         },
@@ -445,6 +441,10 @@
         {
           "user": "tigresa",
           "msg": "byeee"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -988,8 +988,8 @@
       "stats": {
         "totalVotes": 1601,
         "totalSubs": 3,
-        "totalChatMessages": 637,
-        "totalStreamMinutes": 2440,
+        "totalChatMessages": 641,
+        "totalStreamMinutes": 2445,
         "emotes": {
           "❤": 43,
           "🙌": 13,
@@ -1085,22 +1085,6 @@
       },
       "chatMemory": [
         {
-          "user": "lostsnow",
-          "msg": "my family is doing good thank you"
-        },
-        {
-          "user": "lostsnow",
-          "msg": "fun fact, the original artist who created the first heroes like Tracer in overwatch is the same artist who created my PFP"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "that is amazing"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "wow"
-        },
-        {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         },
@@ -1123,6 +1107,22 @@
         {
           "user": "fluffy",
           "msg": "Cant stream drop frames, but games runs okey"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ggs"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "i was at a lost"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "but your were top @healer"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "you were top healer @fluffy"
         }
       ],
       "customCommands": {},
@@ -1996,7 +1996,7 @@
         "totalVotes": 98,
         "totalSubs": 6,
         "totalChatMessages": 49,
-        "totalStreamMinutes": 654,
+        "totalStreamMinutes": 656,
         "emotes": {
           "💃": 9,
           "🔥": 1,
@@ -2064,7 +2064,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "OFF THE GRID! COMPLETE OVERHAUL UPDATE CHECK IT OUT! — Off The Grid",
       "profile": "killlab's squad is a chill crew of gamers who love Red Dead Redemption 2 and Wild West vibes. We're a laid-back group, often saying \"lets go\" and \"hf\" (have fun). Our streamer loves being celebrated with \"nice stream\" and \"have a nice weekend\" messages, especially when we're getting close to a milestone like 3 more subs.",
       "_profileAtCount": 18,
       "gameOverride": "",
@@ -2250,9 +2250,9 @@
       "language": "en",
       "stats": {
         "totalVotes": 450,
-        "totalSubs": 11,
+        "totalSubs": 12,
         "totalChatMessages": 62,
-        "totalStreamMinutes": 900,
+        "totalStreamMinutes": 905,
         "emotes": {
           "❤": 14,
           "🙌": 7,
@@ -3553,8 +3553,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783772498849,
   "auth": {
-    "accessToken": "364b046caf8520398934bd04bb1bd041",
-    "refreshToken": "0e55ac9c94e59631810875c605039fc9",
+    "accessToken": "a385249e59bf22c8de6767c5995389b9",
+    "refreshToken": "f8afe61fe673c06ada83eba8df8e98a4",
     "sessionToken": "ba9f1c6138060244e596b6febafb6784",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
