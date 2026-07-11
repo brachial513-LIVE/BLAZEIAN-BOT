@@ -3186,23 +3186,30 @@ app.get("/admin/livestats/:username", async (req, res) => {
 });
 
 // Live viewer count via Blaze's live-stats (field: data.viewerCount). Cached ~15s to spare the API.
+// Uses appHeaders() (not the user ACCESS_TOKEN) since that token has a history of going stale here
+// while the app token stays reliable — this data is public per-channel info, no user scope needed.
 const liveStatsCache = {};
 async function getLiveStats(channelId) {
   const c = liveStatsCache[channelId];
   if (c && Date.now() - c.ts < 15000) return c.data;
   try {
-    const r = await axios.get(`${API}/v1/channels/live-stats?channelId=${channelId}`, { headers: headers(), timeout: 8000 });
+    const r = await axios.get(`${API}/v1/channels/live-stats?channelId=${channelId}`, { headers: appHeaders(), timeout: 8000 });
     const data = r.data?.data || {};
     liveStatsCache[channelId] = { ts: Date.now(), data };
     return data;
-  } catch (e) { return c?.data || null; }
+  } catch (e) {
+    console.log("getLiveStats error:", channelId, e.response?.status, e.response?.data || e.message);
+    return c?.data || null;
+  }
 }
 app.get("/api/viewers/:username", async (req, res) => {
   res.set("Access-Control-Allow-Origin", "*");
   const channelId = findChannelByUsername(req.params.username) || await getChannelIdBySlug(req.params.username.toLowerCase());
   if (!channelId) return res.json({ viewers: 0, isLive: false });
   const d = await getLiveStats(channelId);
-  res.json({ viewers: d?.viewerCount ?? 0, isLive: !!d?.isLive });
+  // Zwei Quellen kombiniert: die REST-Antwort UND der eigene socket-basierte Live-Tracker (stream.online/offline) —
+  // damit der Indikator auch stimmt, wenn eine der beiden Quellen mal ausfaellt (z.B. abgelaufener Token oder Bot-Neustart mitten im Stream).
+  res.json({ viewers: d?.viewerCount ?? 0, isLive: !!d?.isLive || isLive(channelId) });
 });
 
 // Viewer-count overlay. OBS Browser Source, transparent, e.g. 340x110.
