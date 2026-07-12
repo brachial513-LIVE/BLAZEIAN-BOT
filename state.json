@@ -989,12 +989,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 1602,
-        "totalSubs": 4,
-        "totalChatMessages": 741,
-        "totalStreamMinutes": 2820,
+        "totalSubs": 5,
+        "totalChatMessages": 746,
+        "totalStreamMinutes": 2840,
         "emotes": {
           "❤": 43,
-          "🙌": 15,
+          "🙌": 16,
           "🗳": 81,
           "📴": 27,
           "👋": 27,
@@ -1005,7 +1005,7 @@
           "💎": 5,
           "🎁": 11,
           "📢": 15,
-          "🔥": 95,
+          "🔥": 97,
           "😘": 13,
           "🥺": 2,
           "🥷": 6,
@@ -1091,26 +1091,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Zani can't keep away from Blaze 😜😀🙌"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Ok ok"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "playing a new game"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "cursed compainons"
-        },
-        {
           "user": "agent00zani",
           "msg": "how are you ?"
         },
@@ -1129,6 +1109,26 @@
         {
           "user": "agent00zani",
           "msg": "whay u have for dinner?"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @Vitrene to the channel! Thank you so much for subscribing! 🙌"
+        },
+        {
+          "user": "vitrene",
+          "msg": "thanks for stopping by earlier!\nHave an awesome stream!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty soo much"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "@Vitrene much love"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "add you to my wheel"
         }
       ],
       "customCommands": {},
@@ -1142,6 +1142,11 @@
       "loyalty": {
         "crypt0k1ng96": {
           "name": "crypt0k1ng96",
+          "months": 1,
+          "tier": 1
+        },
+        "vitrene": {
+          "name": "vitrene",
           "months": 1,
           "tier": 1
         }
@@ -2431,8 +2436,8 @@
       "stats": {
         "totalVotes": 673,
         "totalSubs": 11,
-        "totalChatMessages": 106,
-        "totalStreamMinutes": 807,
+        "totalChatMessages": 109,
+        "totalStreamMinutes": 814,
         "emotes": {
           "❤": 14,
           "🙌": 19,
@@ -2448,8 +2453,8 @@
           "🔴": 5,
           "🎉": 10,
           "🚨": 12,
-          "📴": 4,
-          "👋": 5,
+          "📴": 5,
+          "👋": 6,
           "🏅": 2,
           "💪": 1,
           "😁": 1,
@@ -2486,18 +2491,6 @@
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "Thanks @Vitrene for the sub, man"
-        },
-        {
-          "user": "vitrene",
-          "msg": "you are welcome, @briggsy!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ avisi just followed the channel! Welcome!! 🙌"
-        },
-        {
           "user": "avisi",
           "msg": "Hey! @vitrene new follow✌️😌👍"
         },
@@ -2524,6 +2517,18 @@
         {
           "user": "botger",
           "msg": "🎉 BLAZEIAN_BOT_AI just reached Level 1! ⚡ (1,000 XP)"
+        },
+        {
+          "user": "vitrene",
+          "msg": "alright, I am going to close the stream now.\n\nThanks for watching!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "vitrene",
+          "msg": "and see you next time!"
         }
       ],
       "customCommands": {},
@@ -2536,7 +2541,7 @@
       "botVip": true,
       "profile": "Welcome to vitrene's Blaze community, where the vibes are chill and the generosity is real! We're a tight-knit group of Blazeians who love to support each other, especially with those sweet subs. We throw around German slang like \"geil\", \"hammer geil\", and \"hectic helmsman\". Let's keep blazein' and stay amazing!",
       "_profileAtCount": 61,
-      "streamTitle": "Building the Fleet ☠️ | Assassin's Creed IV: Black Flag — Assassin's Creed IV: Black Flag",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif"
     },
