@@ -1128,10 +1128,14 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
         { role: "system", content: BOT_PERSONA + channelContext(ch) +
           `\n\nRECENT CHAT is provided so you understand the ongoing conversation. Reply to the LAST message from ${username} in the natural flow — reference what was just said if it's relevant, don't repeat yourself, and don't answer as if you have no context.` },
         ...historyMsgs,
-        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${searchBlock}${crewStatsBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix. Ignore the language of any earlier chat lines above.` }
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${searchBlock}${crewStatsBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
       ],
       max_tokens: 120,
-      temperature: 0.9,
+      // 0.9 gave the most "alive" replies but also let language-mixing slip through more often
+      // (proven live: "Richtig Mega vibes all around!" — German word dropped into an English reply,
+      // despite the persona explicitly forbidding exactly that). 0.8 keeps most of the personality
+      // while following the strict rules (language, no-deflect, etc.) more reliably.
+      temperature: 0.8,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 9000 });
     let text = (res.data?.choices?.[0]?.message?.content || "").trim();
     text = text.replace(/^["']|["']$/g, "").replace(new RegExp("^@?" + username + "[,:\\s]+", "i"), "").trim();
@@ -1804,6 +1808,10 @@ async function handleEvent(message) {
       ch.stats.totalChatMessages++;
       const emotes = payload.message?.emotes || payload.emotes || [];
       if (Array.isArray(emotes) && emotes.length) {
+        // Confirms the real payload shape live — e.g. reports of a custom emote (like a "green heart")
+        // not rendering on the emote-wall overlay: this shows whether Blaze actually sent a usable
+        // url/imageUrl for it, or just a name with no asset, which is otherwise invisible to debug blind.
+        console.log("[EMOTE-PAYLOAD]", JSON.stringify(emotes).slice(0, 400));
         emotes.forEach(em => {
           const id = em.id || em.emoteId, name = em.name || em.emoteName || id;
           if (id) { ch.stats.emotes[id] = (ch.stats.emotes[id] || 0) + 1; ch.stats.emoteNames[id] = name; }
@@ -2100,7 +2108,7 @@ function renderOverlaySection(username) {
     <p class="hint">Add each in OBS as a <b>Browser Source</b> — the background stays transparent. Click a link to select it, then copy. 💚</p>
     <label>🎉 Emote Wall — emotes float across your stream</label>
     <input readonly onclick="this.select()" value="${esc(emoteUrl)}">
-    <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>.</p>
+    <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. Too big/small or on-screen too briefly? Tune it with <code>?size=26&amp;vary=16&amp;dur=12&amp;durvary=6</code> (size/vary = emote pixel size, dur/durvary = seconds on screen) — e.g. <code>…/emotes/${esc(username)}?size=20&amp;dur=16</code>. Add <code>&amp;test=1</code> to preview a live demo loop in your browser while you tune it, no real chat needed.</p>
     <label style="margin-top:14px;">👁️ Live Viewer Count (BLAZE)</label>
     <input readonly onclick="this.select()" value="${esc(viewerUrl)}">
     <p class="hint">OBS → + → Browser → paste URL → Width <b>340</b>, Height <b>110</b>. Red dot = offline, green = live.</p>
@@ -3164,33 +3172,57 @@ app.get("/api/emotes/:username", (req, res) => {
 // The Emote Wall overlay page. In OBS: Browser Source → this URL, transparent background, 1920x1080.
 app.get("/overlay/emotes/:username", (req, res) => {
   const uname = esc(req.params.username);
+  // Tunable via query string so streamers can fit this to their own OBS layout without a code change —
+  // proven live: the fixed defaults read as "too big and barely visible" on brachial513's stream, but
+  // what looks right depends entirely on that streamer's own canvas/composition, so guessing one fixed
+  // number for everyone doesn't work. ?size=28 (base px) ?vary=18 (random px added on top) ?dur=12
+  // (min seconds on screen) ?durvary=6 (random seconds added on top) — defaults below are deliberately
+  // SMALLER and slower than before. ?test=1 spawns a demo loop (no real chat needed) for tuning live.
+  const clamp = (v, lo, hi, def) => { const n = parseFloat(v); return Number.isFinite(n) ? Math.max(lo, Math.min(hi, n)) : def; };
+  const baseSize = clamp(req.query.size, 12, 200, 26);
+  const sizeVary = clamp(req.query.vary, 0, 150, 16);
+  const durMin   = clamp(req.query.dur, 3, 60, 12);
+  const durVary  = clamp(req.query.durvary, 0, 40, 6);
+  const testMode = req.query.test === "1" || req.query.test === "true";
   res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Emote Wall</title>
 <style>
   html,body{margin:0;height:100%;overflow:hidden;background:transparent;font-family:sans-serif;}
-  .emote{position:absolute;bottom:-80px;font-size:64px;line-height:1;will-change:transform,opacity;
+  .emote{position:absolute;bottom:-80px;line-height:1;will-change:transform,opacity;
     animation:rise var(--dur) linear forwards;filter:drop-shadow(0 2px 6px rgba(0,0,0,.5));}
   .emote img{height:1em;width:auto;display:block;}
   @keyframes rise{
     0%{transform:translateY(0) translateX(0) scale(.6);opacity:0;}
-    12%{opacity:1;transform:translateY(-12vh) scale(1);}
+    6%{opacity:1;transform:translateY(-6vh) scale(1);}
     100%{transform:translateY(-105vh) translateX(var(--drift)) rotate(var(--rot));opacity:0;}
   }
 </style></head><body>
 <div id="wall"></div>
 <script>
   const USER=${JSON.stringify(req.params.username)};
+  const BASE_SIZE=${baseSize}, SIZE_VARY=${sizeVary}, DUR_MIN=${durMin}, DUR_VARY=${durVary};
   let since=0; const wall=document.getElementById('wall');
   function spawn(item){
     const el=document.createElement('div'); el.className='emote';
     el.style.left=(Math.random()*92+2)+'vw';
-    el.style.setProperty('--dur',(14+Math.random()*8)+'s');
+    const dur=DUR_MIN+Math.random()*DUR_VARY;
+    el.style.setProperty('--dur',dur+'s');
     el.style.setProperty('--drift',((Math.random()*70-35))+'vw');
     el.style.setProperty('--rot',((Math.random()*60-30))+'deg');
-    el.style.fontSize=Math.round((48+Math.random()*40)*0.7)+'px';
-    if(item.img){ el.innerHTML='<img src="'+item.e+'">'; } else { el.textContent=item.e; }
+    el.style.fontSize=Math.round(BASE_SIZE+Math.random()*SIZE_VARY)+'px';
+    if(item.img){
+      const img=document.createElement('img'); img.src=item.e;
+      img.onerror=()=>el.remove(); // broken/expired emote URL — remove instead of showing a broken-image box
+      el.appendChild(img);
+    } else { el.textContent=item.e; }
     wall.appendChild(el);
-    setTimeout(()=>el.remove(),23000);
+    setTimeout(()=>el.remove(),dur*1000+500);
   }
+  ${testMode ? `
+  // TEST MODE (?test=1): spawns a demo loop so you can tune ?size/?vary/?dur/?durvary live in OBS
+  // without waiting for real chat activity — includes a real Blaze green-heart-style unicode emote.
+  const TEST_EMOTES=['🔥','💚','😂','🎉','👀','🫶','💜','⚡','🙌','😎'];
+  setInterval(()=>spawn({e:TEST_EMOTES[Math.floor(Math.random()*TEST_EMOTES.length)],img:false}), 900);
+  ` : `
   async function poll(){
     try{
       const r=await fetch('/api/emotes/'+encodeURIComponent(USER)+'?since='+since);
@@ -3198,7 +3230,8 @@ app.get("/overlay/emotes/:username", (req, res) => {
       (d.emotes||[]).forEach((it,i)=>setTimeout(()=>spawn(it), i*120));
     }catch(e){}
   }
-  setInterval(poll,4000); poll(); // was 2000 — halves request volume across all channels; no visible lag since emotes just batch slightly more per poll
+  setInterval(poll,4000); poll();
+  `}
 </script></body></html>`);
 });
 
