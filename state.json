@@ -3615,7 +3615,8 @@
       "schedule": "",
       "timedMessages": [],
       "tipTiers": [],
-      "greeted": true
+      "greeted": true,
+      "locked": false
     }
   },
   "blocklist": [
@@ -3643,8 +3644,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783812731402,
   "auth": {
-    "accessToken": "1603682df30c00f01ba826a188fa6a26",
-    "refreshToken": "f843fb1269195b43605ba4fa107d2d1c",
+    "accessToken": "4b051d319155125f2a1a3c2401a9b550",
+    "refreshToken": "5c3ce87485b6a83350df590aa5fb957d",
     "sessionToken": "ba9f1c6138060244e596b6febafb6784",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
