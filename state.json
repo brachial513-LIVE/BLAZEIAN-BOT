@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 1095,
         "totalSubs": 8,
-        "totalChatMessages": 421,
+        "totalChatMessages": 423,
         "totalStreamMinutes": 301,
         "emotes": {
           "❤": 22,
@@ -33,7 +33,9 @@
           "➡": 2,
           "🟩": 2,
           "✅": 2,
-          "👀": 8
+          "👀": 8,
+          "📢": 2,
+          "🙂": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -61,18 +63,12 @@
           "➡": "➡",
           "🟩": "🟩",
           "✅": "✅",
-          "👀": "👀"
+          "👀": "👀",
+          "📢": "📢",
+          "🙂": "🙂"
         }
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "🔥 just lurking"
-        },
-        {
-          "user": "der_bruder",
-          "msg": "GG"
-        },
         {
           "user": "der_bruder",
           "msg": "Isso"
@@ -104,6 +100,14 @@
         {
           "user": "lights_out",
           "msg": "ok then"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] ════════════════ 📢 ANNOUNCEMENT 📢 ════════════════"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] You are being tracked by Lights Out — Discord's first Blaze engagement bot. This means your community has access to games and fun for all. Type /help to take a look. Please send feedback to Sentius Nox 🙂"
         }
       ],
       "language": "en",
@@ -822,7 +826,7 @@
       "stats": {
         "totalVotes": 1026,
         "totalSubs": 3,
-        "totalChatMessages": 1319,
+        "totalChatMessages": 1321,
         "totalStreamMinutes": 826,
         "emotes": {
           "🗳": 81,
@@ -875,7 +879,9 @@
           "💜": 1,
           "🍒": 3,
           "💯": 1,
-          "🎵": 1
+          "🎵": 1,
+          "📢": 2,
+          "🙂": 1
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -928,18 +934,12 @@
           "💜": "💜",
           "🍒": "🍒",
           "💯": "💯",
-          "🎵": "🎵"
+          "🎵": "🎵",
+          "📢": "📢",
+          "🙂": "🙂"
         }
       },
       "chatMemory": [
-        {
-          "user": "sentius_nox",
-          "msg": "/points"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] @Sentius_Nox You have 1295 points!"
-        },
         {
           "user": "tester",
           "msg": "/points"
@@ -971,6 +971,14 @@
         {
           "user": "tester",
           "msg": "Had to confirm a fix was fixed. All good now."
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] ════════════════ 📢 ANNOUNCEMENT 📢 ════════════════"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] You are being tracked by Lights Out — Discord's first Blaze engagement bot. This means your community has access to games and fun for all. Type /help to take a look. Please send feedback to Sentius Nox 🙂"
         }
       ],
       "customCommands": {},
@@ -3603,12 +3611,27 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {}
+        "emotes": {
+          "📢": 2,
+          "🙂": 1
+        },
+        "emoteNames": {
+          "📢": "📢",
+          "🙂": "🙂"
+        }
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] ════════════════ 📢 ANNOUNCEMENT 📢 ════════════════"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] You are being tracked by Lights Out — Discord's first Blaze engagement bot. This means your community has access to games and fun for all. Type /help to take a look. Please send feedback to Sentius Nox 🙂"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
