@@ -1812,7 +1812,7 @@
       "stats": {
         "totalVotes": 1163,
         "totalSubs": 11,
-        "totalChatMessages": 1610,
+        "totalChatMessages": 1611,
         "totalStreamMinutes": 1168,
         "emotes": {
           "❤": 38,
@@ -1889,7 +1889,8 @@
           "☹": 1,
           "✨": 1,
           "🤘": 1,
-          "🫶": 1
+          "🫶": 1,
+          "🕐": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -1966,14 +1967,11 @@
           "☹": "☹",
           "✨": "✨",
           "🤘": "🤘",
-          "🫶": "🫶"
+          "🫶": "🫶",
+          "🕐": "🕐"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @agent00zani is raiding with a party of 7! Welcome raiders!! 🎉"
-        },
         {
           "user": "agent00zani",
           "msg": "🥰"
@@ -2009,6 +2007,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @Vitrene has resubscribed — 3 months total, 3 months streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "BRB timer started — 5 minutes on the clock. 🕐"
         }
       ],
       "customCommands": {},
