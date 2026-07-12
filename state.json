@@ -1554,7 +1554,7 @@
         "totalVotes": 667,
         "totalSubs": 15,
         "totalChatMessages": 51,
-        "totalStreamMinutes": 347,
+        "totalStreamMinutes": 353,
         "emotes": {},
         "emoteNames": {}
       },
@@ -2039,7 +2039,7 @@
       "stats": {
         "totalVotes": 113,
         "totalSubs": 7,
-        "totalChatMessages": 55,
+        "totalChatMessages": 56,
         "totalStreamMinutes": 918,
         "emotes": {
           "💃": 9,
@@ -2063,10 +2063,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "killlab",
-          "msg": "@KilllaB, What do you call a pig with three eyes?"
-        },
         {
           "user": "killlab",
           "msg": "@KilllaB.. Piiig"
@@ -2102,6 +2098,10 @@
         {
           "user": "agent00zani",
           "msg": "taking lil break .... hope the rest of your day goes well ..."
+        },
+        {
+          "user": "agent00zani",
+          "msg": "Ty Ty for the votes .. Ty Ty for the kindness and support bro"
         }
       ],
       "customCommands": {},
@@ -2725,9 +2725,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 735,
+        "totalVotes": 745,
         "totalSubs": 7,
-        "totalChatMessages": 287,
+        "totalChatMessages": 288,
         "totalStreamMinutes": 402,
         "emotes": {
           "❤": 6,
@@ -2738,7 +2738,7 @@
           "🙂": 3,
           "🔥": 4,
           "😎": 2,
-          "🗳": 33,
+          "🗳": 36,
           "📴": 3,
           "👋": 3,
           "🎁": 14,
@@ -2786,10 +2786,6 @@
       },
       "chatMemory": [
         {
-          "user": "future42",
-          "msg": "Oh, you know already"
-        },
-        {
           "user": "time",
           "msg": "ahakka"
         },
@@ -2824,6 +2820,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @NiRuntz just gave 10 vote(s) (total: 20)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -3541,7 +3541,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 17,
-        "totalStreamMinutes": 191,
+        "totalStreamMinutes": 198,
         "emotes": {
           "💪": 2,
           "💚": 7,
@@ -3646,7 +3646,8 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "followed": true
+      "followed": true,
+      "avatarUrl": "https://cdn.blaze.stream/site/default_blaze.png"
     }
   },
   "blocklist": [
