@@ -1015,8 +1015,10 @@ WHAT YOU CAN ACTUALLY DO (this is the truth — NEVER invent or promise features
 - Follow channels automatically so you can talk even in followers-only chat.
 - The channel owner can lock in the CURRENT GAME with "!game NAME" — after that you KNOW the game for certain.
 - Look up real, current facts on the web (news, scores, results, prices, general "what would I Google" questions) via a live web search when needed.
+- Tell you the real, current leaderboard across every channel you're in — who has the most votes, subs, or chat activity right now — when asked.
 If someone asks what you can do, describe ONLY the things in this list — honestly and briefly. If you're asked for something you cannot do, just say you can't do that yet rather than pretending. Being trustworthy matters more than sounding impressive.
 LIVE SEARCH RESULTS: for real-time facts (scores, news, current events, prices, etc.), you may be given a block literally labeled "LIVE SEARCH RESULTS" further down in THIS message. Only if that exact block is present may you answer using it (cite naturally, translated into your reply's language — never invent facts beyond what it says). If that block is NOT present, you have NOT checked anything and NOT found anything — do not say "let me check", "I'm looking into it", "according to Google" or similar, even as a placeholder. Just say plainly, in one short line, that you can't look that up right now.
+CREW STATS: for "who has the most votes/subs" or leaderboard-style questions about your whole crew of channels, you may be given a block literally labeled "CREW STATS" further down in THIS message. Only if that exact block is present may you answer from it — state the real name(s) and number(s) it gives, plainly, never invent or guess a name that isn't listed. If that block is NOT present, or it says nothing was tracked yet, say so honestly instead of making up a leader.
 
 YOUR LORE (true events you KNOW about and can joke about):
 - On July 3rd, 2026 you were OFFLINE for a few hours (a technical meltdown — dead tokens, broken storage, the works). Brachial513 pulled an emergency all-nighter and brought you back to life, stronger than before.
@@ -1046,6 +1048,35 @@ let knownPeople = { ...KNOWN_PEOPLE_SEED }; // mutable; extended via dashboard, 
 function knownPerson(username) {
   if (!username) return null;
   return knownPeople[username.toLowerCase()] || null;
+}
+
+// =============================================
+// CREW STATS (cross-channel leaderboards) — gives the bot REAL numbers to answer "who's winning"
+// style questions instead of inventing one. Proven live failure: asked "who has the most votes in
+// your crew yet?" it invented a nonexistent leaderboard entry ("Doffer Live") out of thin air,
+// because it had zero real data and nothing telling it to admit that instead of guessing. This
+// data is already public (same numbers shown on the homepage crew cards), so no gating needed.
+// =============================================
+const CREW_STATS_KEYWORDS = /\b(most votes|most subs|leaderboard|rangliste|bestenliste|top channel|who'?s?\s+(winning|leading|in the lead)|wer\s+(führt|liegt vorne)|which channel has|who has the most|meisten\s+(votes|stimmen|subs)|vote count)\b/i;
+function looksLikeCrewStatsQuery(msg) { return CREW_STATS_KEYWORDS.test(msg || ""); }
+
+function crewLeaderboard(statKey, topN = 5) {
+  return Object.values(channels)
+    .filter(c => c?.username && c.stats && typeof c.stats[statKey] === "number" && c.stats[statKey] > 0)
+    .sort((a, b) => b.stats[statKey] - a.stats[statKey])
+    .slice(0, topN)
+    .map(c => `${c.username}: ${c.stats[statKey]}`)
+    .join(", ");
+}
+
+function buildCrewStatsBlock() {
+  const votes = crewLeaderboard("totalVotes");
+  const subs  = crewLeaderboard("totalSubs");
+  const chat  = crewLeaderboard("totalChatMessages");
+  return `\n\nCREW STATS (real, current numbers across every channel you're in right now — use ONLY this to answer, never invent a name or a number):\n` +
+    `Votes leaderboard: ${votes || "no votes tracked yet anywhere"}\n` +
+    `Subs leaderboard: ${subs || "no subs tracked yet anywhere"}\n` +
+    `Most active chat: ${chat || "no chat activity tracked yet"}`;
 }
 
 async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
@@ -1079,6 +1110,9 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
         : `\n\nYou tried a live web search for this but got no usable results — be honest you couldn't find a reliable answer right now, don't guess, don't offer to check again.`;
     }
   }
+  // CREW STATS: "who has the most votes/subs" style questions get the real cross-channel numbers
+  // instead of leaving the model to invent a leaderboard entry — see buildCrewStatsBlock() above.
+  const crewStatsBlock = looksLikeCrewStatsQuery(userMessage) ? buildCrewStatsBlock() : "";
   try {
     // CONVERSATION MEMORY: give the model the last few chat lines so it replies IN CONTEXT instead of
     // to one isolated message (that's what made it feel "drunk"/random). Cheap, and hugely more human.
@@ -1094,7 +1128,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
         { role: "system", content: BOT_PERSONA + channelContext(ch) +
           `\n\nRECENT CHAT is provided so you understand the ongoing conversation. Reply to the LAST message from ${username} in the natural flow — reference what was just said if it's relevant, don't repeat yourself, and don't answer as if you have no context.` },
         ...historyMsgs,
-        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${searchBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix. Ignore the language of any earlier chat lines above.` }
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${searchBlock}${crewStatsBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix. Ignore the language of any earlier chat lines above.` }
       ],
       max_tokens: 120,
       temperature: 0.9,
