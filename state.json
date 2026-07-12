@@ -2295,12 +2295,12 @@
       "stats": {
         "totalVotes": 450,
         "totalSubs": 14,
-        "totalChatMessages": 71,
+        "totalChatMessages": 73,
         "totalStreamMinutes": 1182,
         "emotes": {
-          "❤": 18,
-          "🙌": 9,
-          "🔥": 4,
+          "❤": 20,
+          "🙌": 10,
+          "🔥": 10,
           "🔴": 8,
           "🎉": 8,
           "📴": 9,
@@ -2336,14 +2336,6 @@
       },
       "chatMemory": [
         {
-          "user": "fartvader",
-          "msg": "thanks for dropping by brother. have a great stream!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ slyassassin just followed the channel! Welcome!! 🙌"
-        },
-        {
           "user": "slyassassin",
           "msg": "Hey Hey✌️"
         },
@@ -2374,6 +2366,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ JaggerJack just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "🔥🔥🔥🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -3670,8 +3670,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783812731402,
   "auth": {
-    "accessToken": "85399b7a4e83f89a7a55132297fe8f15",
-    "refreshToken": "4e3172b780575de9d506147c54fa0949",
+    "accessToken": "277bcaa63e03796843d76ef070bd09ca",
+    "refreshToken": "13b8832a5b002b532a32b08177c5794c",
     "sessionToken": "ba9f1c6138060244e596b6febafb6784",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
