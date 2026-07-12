@@ -1796,7 +1796,7 @@
         "totalVotes": 1163,
         "totalSubs": 10,
         "totalChatMessages": 1607,
-        "totalStreamMinutes": 1163,
+        "totalStreamMinutes": 1165,
         "emotes": {
           "❤": 36,
           "🙌": 55,
@@ -2270,7 +2270,7 @@
         "totalVotes": 450,
         "totalSubs": 14,
         "totalChatMessages": 70,
-        "totalStreamMinutes": 1176,
+        "totalStreamMinutes": 1178,
         "emotes": {
           "❤": 18,
           "🙌": 9,
@@ -2419,13 +2419,13 @@
       "language": "en",
       "stats": {
         "totalVotes": 673,
-        "totalSubs": 8,
-        "totalChatMessages": 73,
-        "totalStreamMinutes": 762,
+        "totalSubs": 9,
+        "totalChatMessages": 75,
+        "totalStreamMinutes": 763,
         "emotes": {
           "❤": 10,
-          "🙌": 13,
-          "🎁": 16,
+          "🙌": 14,
+          "🎁": 18,
           "🚀": 1,
           "😂": 1,
           "🤣": 5,
@@ -2439,7 +2439,8 @@
           "🚨": 6,
           "📴": 4,
           "👋": 4,
-          "🏅": 2
+          "🏅": 2,
+          "💪": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -2458,18 +2459,11 @@
           "🚨": "🚨",
           "📴": "📴",
           "👋": "👋",
-          "🏅": "🏅"
+          "🏅": "🏅",
+          "💪": "💪"
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "just saying hi"
-        },
         {
           "user": "agent00zani",
           "msg": "hope your day goes well bro"
@@ -2501,6 +2495,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ PixelPancakes just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "vitrene",
+          "msg": "welcome @PixelPancakes!\nsure I will check your channel out 💪"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @PixelPancakes! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -3595,8 +3597,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783812731402,
   "auth": {
-    "accessToken": "11ee9547d13a67c7e72cf4c6e8037bee",
-    "refreshToken": "d8ff93e1cf201c7ecf38e17615725414",
+    "accessToken": "89c9657954cd3b432c0c48c9e30a0a66",
+    "refreshToken": "a1fd3b29ef2679b6e6ef7550f963a18d",
     "sessionToken": "ba9f1c6138060244e596b6febafb6784",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
