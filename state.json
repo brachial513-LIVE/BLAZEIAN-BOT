@@ -991,7 +991,7 @@
         "totalVotes": 1602,
         "totalSubs": 4,
         "totalChatMessages": 741,
-        "totalStreamMinutes": 2797,
+        "totalStreamMinutes": 2817,
         "emotes": {
           "❤": 43,
           "🙌": 15,
@@ -2430,13 +2430,13 @@
       "language": "en",
       "stats": {
         "totalVotes": 673,
-        "totalSubs": 10,
-        "totalChatMessages": 99,
-        "totalStreamMinutes": 783,
+        "totalSubs": 11,
+        "totalChatMessages": 106,
+        "totalStreamMinutes": 803,
         "emotes": {
           "❤": 14,
-          "🙌": 18,
-          "🎁": 20,
+          "🙌": 19,
+          "🎁": 22,
           "🚀": 1,
           "😂": 1,
           "🤣": 5,
@@ -2446,13 +2446,17 @@
           "🥲": 2,
           "🗳": 21,
           "🔴": 5,
-          "🎉": 9,
+          "🎉": 10,
           "🚨": 12,
           "📴": 4,
           "👋": 5,
           "🏅": 2,
           "💪": 1,
-          "😁": 1
+          "😁": 1,
+          "✌": 1,
+          "😌": 1,
+          "👍": 1,
+          "⚡": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -2473,38 +2477,14 @@
           "👋": "👋",
           "🏅": "🏅",
           "💪": "💪",
-          "😁": "😁"
+          "😁": "😁",
+          "✌": "✌",
+          "😌": "😌",
+          "👍": "👍",
+          "⚡": "⚡"
         }
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Have a good rest of your (fill in the blank)"
-        },
-        {
-          "user": "vitrene",
-          "msg": "cheers"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Cheers to you"
-        },
-        {
-          "user": "vitrene",
-          "msg": "you too, my friend! Bon appetit!"
-        },
-        {
-          "user": "briggsy",
-          "msg": "🙌👋😁"
-        },
-        {
-          "user": "vitrene",
-          "msg": "🔥🔥"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @briggsy! How generous!! 🙌"
-        },
         {
           "user": "briggsy",
           "msg": "Thanks @Vitrene for the sub, man"
@@ -2516,6 +2496,34 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ avisi just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "avisi",
+          "msg": "Hey! @vitrene new follow✌️😌👍"
+        },
+        {
+          "user": "vitrene",
+          "msg": "hi @avisi! thanks for the follow!"
+        },
+        {
+          "user": "slothsm",
+          "msg": "hello bro"
+        },
+        {
+          "user": "slothsm",
+          "msg": "lets go"
+        },
+        {
+          "user": "vitrene",
+          "msg": "hi @slothsm!"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @avisi! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎉 BLAZEIAN_BOT_AI just reached Level 1! ⚡ (1,000 XP)"
         }
       ],
       "customCommands": {},
