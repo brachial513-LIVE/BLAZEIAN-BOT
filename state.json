@@ -1553,16 +1553,12 @@
       "stats": {
         "totalVotes": 667,
         "totalSubs": 15,
-        "totalChatMessages": 50,
-        "totalStreamMinutes": 342,
+        "totalChatMessages": 51,
+        "totalStreamMinutes": 347,
         "emotes": {},
         "emoteNames": {}
       },
       "chatMemory": [
-        {
-          "user": "tutu",
-          "msg": "kkkkk"
-        },
         {
           "user": "scurvybot",
           "msg": "@AnikiSnow gifted a Sub to @tutu! Thank you!"
@@ -1598,6 +1594,10 @@
         {
           "user": "catness2",
           "msg": "boraaaaaaaaaaaaa"
+        },
+        {
+          "user": "ferl2",
+          "msg": "Bom dia, o jogo é p2w"
         }
       ],
       "customCommands": {},
@@ -3541,7 +3541,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 17,
-        "totalStreamMinutes": 189,
+        "totalStreamMinutes": 191,
         "emotes": {
           "💪": 2,
           "💚": 7,
@@ -3606,7 +3606,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/57ce46fe-2b75-41bc-8bb7-fc5e7b7c1118-profile_image-300x300.png",
-      "streamTitle": "",
+      "streamTitle": "💥 Hoy toca darle un buen empujón a la historia | Neverness to Everness — IRL",
       "gameOverride": "",
       "profile": "I'm a regular in Anjanna87's Blaze livestream community. We're a fire squad (🔥) that loves free content, with a special shoutout to Blazeian bot. You can spot us using \"!setbotlang espanol\" and rocking pink overlays. We're all about good vibes, sweet moments, and celebrating Anjanna with 💚 and \"ohhhhhhhhs\".",
       "_profileAtCount": 15
@@ -3674,8 +3674,8 @@
   "lastAnnouncedVersion": "2026-07-04.1",
   "lastOnlineAnnounceAt": 1783812731402,
   "auth": {
-    "accessToken": "734a7333b12245797344c6bcda819569",
-    "refreshToken": "3b65a3cc23facea3da9ffcfaedbb671e",
+    "accessToken": "b7b1ffe3db950e2e1500aa76bc30dc92",
+    "refreshToken": "08dbc1ff2ca3f251806edb194a6d932c",
     "sessionToken": "ba9f1c6138060244e596b6febafb6784",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
