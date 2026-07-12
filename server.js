@@ -43,8 +43,8 @@ const BOT_PASSWORD = process.env.BLAZE_BOT_PASSWORD || null;
 // AUTO-UPDATE ANNOUNCE: bump BOT_VERSION + set CHANGELOG whenever we ship something worth telling users about.
 // On startup, if this version hasn't been announced yet, the bot posts CHANGELOG to every channel — ONCE.
 // (Plain restarts / free-tier wake-ups keep the same version → stay silent, no spam.)
-const BOT_VERSION = "2026-07-04.1";
-const CHANGELOG = "🔥 NEW UPDATE! Thank you for using Blazeian_Bot_AI 💚 Here's one thing from it: add this as a Browser Source in your OBS/Streamlabs (1920x1080, or stretch to fit): blazeian-bot.onrender.com/overlay/run/YOUR_BLAZE_NAME?theme=green&mirror=1&fps=14&speed=200 — lil Blazeian walks across your stream, talks, jumps, DANCES 🕺 and sometimes sits down on a tiny stool to watch with you 💚 Want a different color? Swap 'green' for blue, cyan, purple, pink, red, gold or rgb 🌈 See it live: check thom6ss_otg's latest stream & drop him a follow 🔥 Enjoy and tell me what you think! 💪🤖💚 (sorry for the double-post if you already got it!)";
+const BOT_VERSION = "2026-07-12.1";
+const CHANGELOG = "🔥 NEW UPDATE! Thank you for using Blazeian_Bot_AI 💚 What's new: 🏆 ask me \"who has the most votes/subs in the crew?\" for a REAL live leaderboard across every channel — no more guessing · 📅 streamers can set a schedule with !setschedule, checked anytime with !schedule · 🥚 running a \"tip $X for Y\" promo? !settiptier makes me call out the exact reward earned · 🎬 the OBS Emote Wall overlay is now fully tunable (size & duration) right in your dashboard · 🎯 and I got sharper overall — more consistent replies, more honest when I don't have real data. Enjoy, and sorry for the double-post if you already knew some of this! 💪🤖💚";
 let lastAnnouncedVersion = null;
 let lastOnlineAnnounceAt = 0; // persisted — global.ANNOUNCED alone reset on every restart/deploy,
 // which meant the "I'm online!" message spammed the home channel on every single redeploy (proven
