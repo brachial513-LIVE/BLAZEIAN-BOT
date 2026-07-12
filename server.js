@@ -1150,6 +1150,20 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
 
 // AI-generated shoutout/reaction (subs, follows, raids, smalltalk) — channel-aware & always fresh.
 // Short per-channel cooldown so a burst (e.g. raid) can't hammer the API — it just falls back to canned lines.
+// Groq's free tier shares ONE tokens-per-minute budget across the whole bot, not per-channel — a
+// burst of events across MANY different channels within the same minute (proven live: several votes
+// landing within ~10s of each other across different streams) can collectively blow past it even
+// though each individual channel is well under its own 4s per-channel cooldown below. This tiny
+// global queue spaces out aiShout's requests to AI_MODEL_LIGHT so a burst gets smoothed instead of
+// slamming the limit all at once — worst case an event's shoutout lands a fraction of a second later,
+// never lost (and the existing canned-message fallback still covers any request that fails anyway).
+let _aiShoutQueue = Promise.resolve();
+function throttledGroqCall(fn) {
+  const run = _aiShoutQueue.then(fn);
+  _aiShoutQueue = run.then(() => sleep(350), () => sleep(350));
+  return run;
+}
+
 async function aiShout(ch, instruction, { addName } = {}) {
   if (!AI_KEY || !ch) return null;
   const cid = Object.keys(channels).find(id => channels[id] === ch);
@@ -1161,7 +1175,7 @@ async function aiShout(ch, instruction, { addName } = {}) {
   // language (set via !setbotlang, default English) instead of leaving it to guess.
   const langName = LANG_DISPLAY[ch.language] || "English";
   try {
-    const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
+    const res = await throttledGroqCall(() => axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL_LIGHT,
       messages: [
         { role: "system", content: BOT_PERSONA + channelContext(ch) },
@@ -1169,7 +1183,7 @@ async function aiShout(ch, instruction, { addName } = {}) {
       ],
       max_tokens: 80,
       temperature: 1.0,
-    }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 7000 });
+    }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 7000 }));
     let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
     if (!text) return null;
     if (addName && !new RegExp("@?" + addName, "i").test(text)) text = `@${addName} ${text}`;
@@ -3693,6 +3707,10 @@ app.listen(PORT, "0.0.0.0", async () => {
   }
   connectSocket();
   if (ACCESS_TOKEN) connectUserSocket(); // second socket for follow/vote/sub/gift/tip, only if we have a user token
+
+  // Separate Claude-powered Discord companion (see discordBot.js) — entirely optional, silently
+  // skips itself if DISCORD_BOT_TOKEN/ANTHROPIC_API_KEY aren't set, never blocks the Blaze bot.
+  try { require("./discordBot").startDiscordBot(); } catch (e) { console.log("[DISCORD] failed to start:", e.message); }
 
   // After the socket & subscriptions settle, announce a NEW version to everyone (once).
   setTimeout(startupAnnounce, 25000);
