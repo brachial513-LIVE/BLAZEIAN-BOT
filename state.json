@@ -1021,8 +1021,8 @@
       "stats": {
         "totalVotes": 1942,
         "totalSubs": 12,
-        "totalChatMessages": 952,
-        "totalStreamMinutes": 3335,
+        "totalChatMessages": 954,
+        "totalStreamMinutes": 3340,
         "emotes": {
           "❤": 46,
           "🙌": 24,
@@ -1131,14 +1131,6 @@
       "chatMemory": [
         {
           "user": "agent00zani",
-          "msg": "how are you today ?"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @GrindingDragon just gave 77 vote(s) (total: 77)! Thank you!! 🗳️"
-        },
-        {
-          "user": "agent00zani",
           "msg": "🥰🥰🥰"
         },
         {
@@ -1168,6 +1160,14 @@
         {
           "user": "grindingdragon",
           "msg": "steam not stream"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "look in the notifications"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "in steam"
         }
       ],
       "customCommands": {},
@@ -2502,7 +2502,7 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 917,
+        "totalVotes": 1472,
         "totalSubs": 12,
         "totalChatMessages": 126,
         "totalStreamMinutes": 814,
@@ -3806,8 +3806,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1783903190969,
   "auth": {
-    "accessToken": "ded147adaca01713b2800e58e45f33c8",
-    "refreshToken": "fc759152e970cc58d042a8c4395db374",
+    "accessToken": "2a6370fbe2211cfef680f8d13e1abd44",
+    "refreshToken": "d9862260773ddd195e71a5f8d85a09ea",
     "sessionToken": "975171c75033e1b6c4399b08512ec705",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
