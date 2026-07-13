@@ -848,7 +848,7 @@
         "totalVotes": 1126,
         "totalSubs": 3,
         "totalChatMessages": 1457,
-        "totalStreamMinutes": 1084,
+        "totalStreamMinutes": 1104,
         "emotes": {
           "🗳": 90,
           "🤣": 14,
@@ -1035,8 +1035,8 @@
       "stats": {
         "totalVotes": 2177,
         "totalSubs": 12,
-        "totalChatMessages": 986,
-        "totalStreamMinutes": 3455,
+        "totalChatMessages": 996,
+        "totalStreamMinutes": 3475,
         "emotes": {
           "❤": 46,
           "🙌": 24,
@@ -1044,17 +1044,17 @@
           "📴": 34,
           "👋": 35,
           "🔴": 31,
-          "🎉": 53,
+          "🎉": 54,
           "🏆": 13,
           "🤗": 13,
           "💎": 5,
           "🎁": 25,
           "📢": 16,
           "🔥": 113,
-          "😘": 14,
+          "😘": 15,
           "🥺": 4,
           "🥷": 6,
-          "🚨": 132,
+          "🚨": 138,
           "🩵": 2,
           "🐰": 1,
           "🫶": 12,
@@ -1146,44 +1146,44 @@
       },
       "chatMemory": [
         {
+          "user": "time",
+          "msg": "heey zani"
+        },
+        {
           "user": "agent00zani",
-          "msg": "🥰"
+          "msg": "how are you today @time"
         },
         {
-          "user": "briggsy",
-          "msg": "You're crazy, @agent00zani"
+          "user": "agent00zani",
+          "msg": "almost 1 am for you"
         },
         {
-          "user": "briggsy",
-          "msg": "One game to another"
+          "user": "time",
+          "msg": "doing well"
         },
         {
-          "user": "briggsy",
-          "msg": "schitzophrenic"
+          "user": "time",
+          "msg": "n u?"
         },
         {
-          "user": "briggsy",
-          "msg": "ok, cool"
+          "user": "agent00zani",
+          "msg": "i am ok ... 50/50 😘 .. lil bit sleepy"
         },
         {
-          "user": "briggsy",
-          "msg": "Yea ,why not"
+          "user": "time",
+          "msg": "go to sleep :))"
         },
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+          "user": "agent00zani",
+          "msg": "come hang with us @time"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @bidloperv just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @GrindingDragon is raiding with a party of 5! Welcome raiders!! 🎉"
         },
         {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+          "user": "agent00zani",
+          "msg": "ty ty for the raid"
         }
       ],
       "customCommands": {},
@@ -1685,15 +1685,15 @@
       "stats": {
         "totalVotes": 1181,
         "totalSubs": 6,
-        "totalChatMessages": 418,
+        "totalChatMessages": 421,
         "totalStreamMinutes": 1655,
         "emotes": {
           "✨": 8,
           "🖥": 7,
-          "🔥": 42,
-          "👋": 16,
-          "🎬": 20,
-          "❤": 26,
+          "🔥": 46,
+          "👋": 17,
+          "🎬": 21,
+          "❤": 27,
           "🚨": 4,
           "⚡": 11,
           "🏆": 10,
@@ -1802,18 +1802,6 @@
       },
       "chatMemory": [
         {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 7 votes, @wapi! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 200 votes, @agent00zani! Your support is truly appreciated! 🙌 👑 [ALL-TIME VOTE LEADER]: @agent00zani now holds the all-time cumulative crown with 450 total votes!"
-        },
-        {
           "user": "agent00zani",
           "msg": "ggs bro .. ty ty"
         },
@@ -1840,6 +1828,18 @@
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 3 votes, @whisky! Your support is truly appreciated! 🙌"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Off the Grid. Drop a greeting in chat! 👋"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -2934,15 +2934,15 @@
       "stats": {
         "totalVotes": 141,
         "totalSubs": 5,
-        "totalChatMessages": 357,
-        "totalStreamMinutes": 274,
+        "totalChatMessages": 362,
+        "totalStreamMinutes": 294,
         "emotes": {
           "❤": 150,
           "🙌": 9,
           "🗳": 15,
           "🔴": 4,
           "🎉": 5,
-          "💛": 12,
+          "💛": 15,
           "📴": 3,
           "👋": 3,
           "🐝": 29,
@@ -3001,18 +3001,6 @@
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "@allthethingies resubscribed, they've been subbed for 4 months! Thank you!"
-        },
-        {
-          "user": "crabalicious",
-          "msg": "yes"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@CyMatrIX gifted a Sub to @crabalicious! Thank you!"
-        },
-        {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @CyMatrIX just gifted a sub to @crabalicious! How generous!! 🙌"
         },
@@ -3039,6 +3027,18 @@
         {
           "user": "cymatrix",
           "msg": "Welcome to the show!"
+        },
+        {
+          "user": "botger",
+          "msg": "bee bee bee 💛💛💛"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "@blazeian_bot_ai can feel the love in hea"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "@blazeian_bot_ai this is not the funk show, this is the CyMatrIX show"
         }
       ],
       "customCommands": {
@@ -3060,8 +3060,8 @@
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
       "streamTitle": "Funk Show Tunes!! — Music",
-      "profile": "**cymatrix Community Profile**\n\nWe're a chill, music-loving community rocking out to sick beats and having a blast. Expect \"blazinnnnn\" energy, \"bee bee bee\" vibes, and \"funk O'clock\" excitement. We love celebrating members' contributions with votes and love. Show some love for @BLAZEIAN_BOT_AI and rock out with your socks out!",
-      "_profileAtCount": 303,
+      "profile": "**cymatrix Community Profile**\n\nWe're a chill, music-loving community rocking out to sick beats and having a blast. Expect \"blazinnnnn\" energy, \"bee bee bee\" vibes, and \"funk O'clock\" excitement. We love celebrating members' contributions with votes and love, especially with gifted subs, \"blazinnnnn\" resubs, and \"funk O'clock\" excitement.",
+      "_profileAtCount": 357,
       "gameOverride": "",
       "loyalty": {
         "backwoodslabel": {
@@ -3375,8 +3375,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b75c9dc9-4139-4301-a1f4-4b77cb0e8bec.gif",
       "followed": true,
       "streamTitle": "",
-      "profile": "This chill, upbeat space is where friends jam out to guitar music and share laughs. Expect Legend! celebrations, Canadian pride, and Blazian Bot jokes. We vibe on Fortify!!, Mega-byte, and Feed the beast with Aussie humor, referencing Aussie culture and memes. Shout \"Legend!\" when Bidlo rocks the guitar, and don't forget to \"Fortify!!\" your vibes.",
-      "_profileAtCount": 988,
+      "profile": "This chill, upbeat space is where friends jam out to guitar music, share laughs, and vibe on Fortify!!, Mega-byte, and Feed the beast. Expect Aussie humor, Legend! celebrations, and Blazian Bot jokes. Shout \"Legend!\" when Bidlo rocks the guitar, \"Fortify!!\" your vibes, and get ready for \"Legend!\" moments.",
+      "_profileAtCount": 1051,
       "gameOverride": ""
     },
     "3cabf7ae-39d3-4ebb-9a48-7f2c6d06b2a4": {
@@ -3483,7 +3483,7 @@
         "totalVotes": 3086,
         "totalSubs": 90,
         "totalChatMessages": 86,
-        "totalStreamMinutes": 935,
+        "totalStreamMinutes": 955,
         "emotes": {
           "❤": 2,
           "🙌": 1,
