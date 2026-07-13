@@ -1,5 +1,6 @@
 const express = require("express");
 const axios = require("axios");
+const path = require("path");
 const { io } = require("socket.io-client");
 const app = express();
 app.use(express.json({ limit: "1mb" }));
@@ -2553,6 +2554,11 @@ app.get("/", (req, res) => {
       .donbtn.blaze{background:linear-gradient(135deg,#ffc02e,#f5870b);color:#241500;}
       .donbtn.wallet{background:#0f1a0f;border:1px solid #2c5a2c;color:#cfeccf;}
       .donbtn:hover{filter:brightness(1.12);}
+      .comicteaser{position:relative;max-width:520px;margin:34px auto 0;border-radius:16px;overflow:hidden;border:2px solid #2c5a2c;box-shadow:0 0 26px rgba(92,244,114,.2);}
+      .comicteaser-art{filter:blur(7px) brightness(.55);transform:scale(1.06);}
+      .comicteaser-art img{width:100%;display:block;}
+      .comicteaser-lock{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;background:rgba(6,12,6,.35);}
+      .comicteaser-locktext{color:#e8ffe8;font-size:16px;font-weight:700;line-height:1.4;text-shadow:0 2px 8px rgba(0,0,0,.7);}
     </style>
 
     <div class="hero">
@@ -2595,6 +2601,14 @@ app.get("/", (req, res) => {
       <div class="feat"><h4>⏱️ Timed Messages & Learning</h4><p>I auto-post your reminders on a timer, and I quietly <b>learn each channel's own vibe</b> so I talk like a real regular over time.</p></div>
     </div>
 
+    <div class="comicteaser" id="mascot-comics">
+      <div class="comicteaser-art"><img src="${esc(comicImgUrl(COMICS[0]))}" alt="" onerror="this.style.display='none'"></div>
+      <div class="comicteaser-lock">
+        <div class="comicteaser-locktext">🔒 Only available for<br>Members of the<br><b>Blazeian_Bot_Ai Crew</b></div>
+        <a class="save" href="/comics">Unlock the comics →</a>
+      </div>
+    </div>
+
     <div class="cta" id="mascot-cta">
       <h3>🔥 Want me in YOUR channel?</h3>
       <div class="step"><b>One click — that's it.</b> Completely free:<br>
@@ -2634,9 +2648,9 @@ app.get("/", (req, res) => {
 // =============================================
 function homepageMascotHTML() {
   return `
-  <div id="bmascot-wrap" style="position:fixed;left:0;top:0;width:100px;height:100px;z-index:9999;pointer-events:none;will-change:transform;">
+  <div id="bmascot-wrap" style="position:fixed;left:0;top:0;width:100px;height:100px;z-index:9999;pointer-events:auto;cursor:pointer;will-change:transform;">
     <canvas id="bmascot-c" width="100" height="100" style="filter:drop-shadow(0 6px 10px rgba(0,0,0,.45));"></canvas>
-    <div id="bmascot-bubble" style="position:absolute;left:50%;bottom:96px;transform:translateX(-28%);max-width:230px;min-width:70px;background:linear-gradient(180deg,#0c1a0c,#08120a);color:#b9ffd0;padding:9px 13px;border-radius:14px;border:2px solid #4ade80;font-size:13px;font-weight:700;line-height:1.28;box-shadow:0 0 16px rgba(74,222,128,.45),0 4px 14px rgba(0,0,0,.5);opacity:0;transition:opacity .25s,transform .25s;text-align:center;"></div>
+    <div id="bmascot-bubble" style="position:absolute;left:50%;bottom:96px;transform:translateX(-28%);max-width:230px;min-width:70px;background:linear-gradient(180deg,#0c1a0c,#08120a);color:#b9ffd0;padding:9px 13px;border-radius:14px;border:2px solid #4ade80;font-size:13px;font-weight:700;line-height:1.28;box-shadow:0 0 16px rgba(74,222,128,.45),0 4px 14px rgba(0,0,0,.5);opacity:0;transition:opacity .25s,transform .25s;text-align:center;pointer-events:none;"></div>
   </div>
   <div id="bmascot-portal" style="position:fixed;left:0;top:0;width:130px;height:52px;opacity:0;pointer-events:none;filter:drop-shadow(0 0 26px rgba(74,222,128,.8));">
     <div style="width:100%;height:100%;border-radius:50%;background:conic-gradient(from 0deg,#0b6b34,#7dff9e,#0aa04e,#c8ffd6,#0b6b34);-webkit-mask:radial-gradient(ellipse at center,#000 26%,rgba(0,0,0,.55) 52%,transparent 70%);mask:radial-gradient(ellipse at center,#000 26%,rgba(0,0,0,.55) 52%,transparent 70%);animation:bmspin 1.1s linear infinite;"></div>
@@ -2645,14 +2659,17 @@ function homepageMascotHTML() {
   @media (max-width:600px){#bmascot-wrap,#bmascot-portal{display:none;}}</style>
   <script>
   (function(){
-    var SIZE=90, RUN=6, CW=200, IDLE=6, JUMP=7, STRIDE=SIZE*0.26, speed=100;
+    var SIZE=90, RUN=6, CW=200, IDLE=6, JUMP=7, CHEER=8, THUMB=9, HEART=10, STRIDE=SIZE*0.26, speed=100;
     var LANDMARKS=[
       {sel:'#mascot-cta', msg:"👉 click here — one login adds me to YOUR channel 💚"},
       {sel:'#mascot-feats', msg:"this is everything I can actually do 🧠"},
       {sel:'#mascot-crew', msg:"these are my people — every one of them 💚"},
+      {sel:'#mascot-comics', msg:"👀 psst, crew members get comics — join up!"},
       {sel:'#mascot-support', msg:"totally optional, but it keeps me running 🛢️💚"}
     ];
     var MSGS=["gm! I'm BLAZEIAN_BOT-AI, hey 👋","tap around, I don't bite 💚","24/7 online, just like right now 🔥","psst… scroll around, I'll follow along 👀","loyal to the last drop of oil 🛢️💚"];
+    var CLICK_MSGS=["hey! 👋","that tickles 😄","yes? 💚","yo!! 🔥","yeah, I'm real 🤖","yoo what's up 😎"];
+    var DSEQ=[CHEER,JUMP,THUMB,CHEER,HEART,JUMP];
     var img=new Image(),ready=false;
     var cv=document.getElementById('bmascot-c'),ctx=cv.getContext('2d');
     var wrap=document.getElementById('bmascot-wrap'),bub=document.getElementById('bmascot-bubble'),portalEl=document.getElementById('bmascot-portal');
@@ -2685,7 +2702,14 @@ function homepageMascotHTML() {
     }
     function startAct(fr,msg,dur,hop){mode='act';actStart=performance.now();actDur=dur;actUntil=actStart+dur;actFrame=fr;actHop=hop;face=1;
       if(msg){showBubble(msg);}else{hideBubble();}}
-    img.onload=function(){ready=true;requestAnimationFrame(tick);};
+    var danceStart=0,danceDur=0,danceLast=0,danceStep=0;
+    function startDance(){mode='dance';danceStart=performance.now();danceDur=3600+Math.random()*1800;danceLast=0;danceStep=0;face=1;
+      showBubble("🕺 vibe check");}
+    wrap.addEventListener('click',function(){
+      if(mode==='portal')return; // mid-teleport — let it finish
+      startAct([CHEER,THUMB,HEART][Math.floor(Math.random()*3)], CLICK_MSGS[Math.floor(Math.random()*CLICK_MSGS.length)], 1600, false);
+    });
+    img.onload=function(){ready=true;startAct(CHEER,"gm! I'm BLAZEIAN_BOT-AI 👋",3200,false);nextAct=performance.now()+7000+Math.random()*4000;requestAnimationFrame(tick);};
     img.src='/blaze-run-strip.png';
     function tick(now){
       if(!ready){requestAnimationFrame(tick);return;}
@@ -2714,12 +2738,19 @@ function homepageMascotHTML() {
         draw(frame,x,groundY()+Math.sin(now/120)*3);
         if(now>=nextTeleport){startTeleport(now);requestAnimationFrame(tick);return;}
         if(now>=nextAct){var roll=Math.random();
-          if(roll<0.55){startAct(IDLE,MSGS[Math.floor(Math.random()*MSGS.length)],3800,false);}
-          else{startAct(JUMP,'',850,true);}}
+          if(roll<0.45){startAct(IDLE,MSGS[Math.floor(Math.random()*MSGS.length)],3800,false);}
+          else if(roll<0.75){startAct(JUMP,'',850,true);}
+          else{startDance();}}
       }else if(mode==='act'){
         var yy=groundY();if(actHop){var pr=(now-actStart)/actDur;yy=groundY()-Math.sin(pr*Math.PI)*40;}
         draw(actFrame,x,yy);
         if(now>=actUntil){hideBubble();mode='run';nextAct=now+6000+Math.random()*6000;}
+      }else if(mode==='dance'){
+        var de=now-danceStart;
+        if(now-danceLast>240){danceLast=now;danceStep=(danceStep+1)%DSEQ.length;}
+        var dy=groundY()-Math.abs(Math.sin(de/150))*22, dx=x+Math.sin(de/200)*8;
+        draw(DSEQ[danceStep],dx,dy);
+        if(de>=danceDur){hideBubble();mode='run';nextAct=now+6000+Math.random()*6000;}
       }
       requestAnimationFrame(tick);
     }
@@ -2770,6 +2801,91 @@ app.get("/dashboard", (req, res) => {
     ${renderOverlaySection(ch.username)}
     <h2>📋 Your Current Setup</h2>
     ${renderChannelBlock(ch, "/dashboard")}
+    </div></body></html>`);
+});
+
+// =============================================
+// COMICS — "BlazeianBot Adventures", crew-only (same login+join check as the dashboard).
+// Non-members get a blurred teaser on the homepage instead of the real thing (see homepage route).
+// Art files live directly at the repo root (uploaded via GitHub's "Add file -> Upload files", same
+// one-step flow as discordBot.js — no subfolder needed). Served through the dedicated /comic-art/
+// route below, NOT a blanket static mount of the repo root — that would also publicly expose
+// server.js source and state.json (which holds live tokens). Only filenames listed here are ever
+// served, so add one line below for a new issue, no other code change needed.
+// =============================================
+const COMICS = [
+  // splitPct = where page 1 ends / page 2 begins, as a fraction (0-1) of the full image's height —
+  // tune by eye once the real art is live; keeps this a pure CSS split, no image processing needed.
+  { id: "adventures-1", title: "BLAZEIAN_BOT_AI — What If? Adventures #1", file: "adventures-1.png", splitPct: 0.55 },
+];
+const comicImgUrl = c => `/comic-art/${encodeURIComponent(c.file)}`;
+app.get("/comic-art/:file", (req, res) => {
+  const known = COMICS.find(c => c.file === req.params.file);
+  if (!known) return res.status(404).end();
+  res.sendFile(path.join(__dirname, known.file));
+});
+
+function comicViewerHTML(comic) {
+  return `
+  <div class="comicviewer">
+    <h2 style="text-align:center;color:#7CFC9A;margin-bottom:4px;">${esc(comic.title)}</h2>
+    <div class="comicframe" id="comicFrame-${esc(comic.id)}">
+      <img id="comicImg-${esc(comic.id)}" src="${esc(comicImgUrl(comic))}" alt="${esc(comic.title)}" onerror="this.closest('.comicviewer').innerHTML='<p class=\\'muted\\' style=\\'text-align:center;\\'>Comic art coming soon 💚</p>'">
+    </div>
+    <div class="comicnav">
+      <button id="comicPrev-${esc(comic.id)}" class="save" disabled>← Page 1</button>
+      <span id="comicLabel-${esc(comic.id)}" class="muted">Page 1 / 2</span>
+      <button id="comicNext-${esc(comic.id)}" class="save">Page 2 →</button>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var id=${JSON.stringify(comic.id)}, split=${comic.splitPct}, page=0;
+    var frame=document.getElementById('comicFrame-'+id), img=document.getElementById('comicImg-'+id);
+    var prevBtn=document.getElementById('comicPrev-'+id), nextBtn=document.getElementById('comicNext-'+id), label=document.getElementById('comicLabel-'+id);
+    if(!frame||!img)return;
+    function apply(){
+      var natRatio=img.naturalHeight/img.naturalWidth; if(!natRatio)return;
+      var fullH=frame.clientWidth*natRatio, page1H=fullH*split, page2H=fullH-page1H;
+      frame.style.height=(page===0?page1H:page2H)+'px';
+      img.style.transform='translateY(-'+(page===0?0:page1H)+'px)';
+      prevBtn.disabled=page===0; nextBtn.disabled=page===1;
+      label.textContent='Page '+(page+1)+' / 2';
+    }
+    if(img.complete&&img.naturalWidth)apply(); img.addEventListener('load',apply);
+    window.addEventListener('resize',apply);
+    prevBtn.addEventListener('click',function(){page=0;apply();});
+    nextBtn.addEventListener('click',function(){page=1;apply();});
+  })();
+  </script>`;
+}
+
+app.get("/comics", (req, res) => {
+  const session = getSession(req);
+  if (!session) {
+    return res.send(`${pageHead("BLAZEIAN_BOT-AI Comics")}
+      <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>🔒 Crew-Only Comics</h1>
+        <p>These are just for members of the Blazeian_Bot_Ai crew. Log in with Blaze to unlock them.</p></header>
+      <div class="card" style="text-align:center;"><a class="save" href="/dashboard/login">🚀 Log in with Blaze</a></div>
+      </div></body></html>`);
+  }
+  const channelId = findChannelByUsername(session.username);
+  if (!channelId) {
+    return res.send(`${pageHead("BLAZEIAN_BOT-AI Comics")}
+      <div class="topbar"><a href="/dashboard/logout" class="link">logout</a></div>
+      <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>Almost there, ${esc(session.username)}! 👋</h1>
+        <p>Type <b>!join</b> in blaze.stream/blazeian_bot_ai to join the crew — then refresh this page and the comics unlock. 💚</p></header>
+      </div></body></html>`);
+  }
+  res.send(`${pageHead("BLAZEIAN_BOT-AI Comics")}
+    <style>
+      .comicframe{position:relative;overflow:hidden;border:2px solid #2c5a2c;border-radius:14px;box-shadow:0 0 26px rgba(92,244,114,.2);background:#0a120a;max-width:700px;margin:0 auto;}
+      .comicframe img{width:100%;display:block;position:relative;transition:transform .35s ease;}
+      .comicnav{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:14px;}
+    </style>
+    <div class="topbar"><span class="muted">logged in as <b style="color:#5cf472;">${esc(session.username)}</b></span> <a href="/" class="link">← home</a></div>
+    <h1 style="text-align:center;">📖 Crew Comics</h1>
+    ${COMICS.map(comicViewerHTML).join("<hr style='border-color:#223822;margin:40px 0;'>")}
     </div></body></html>`);
 });
 
