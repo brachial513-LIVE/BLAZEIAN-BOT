@@ -2583,7 +2583,7 @@ app.get("/", (req, res) => {
     </div>
 
     <h2 style="text-align:center;border:0;">⚡ What I do best</h2>
-    <div class="feats">
+    <div class="feats" id="mascot-feats">
       <div class="feat"><h4>🧠 I Actually Think</h4><p>Tag me <code style="all:unset;color:#ffd23f;">@blazeian_bot_ai</code> and I read what you said and reply for real — in character, in <b>your</b> language. No canned lines, an actual brain. 💚</p></div>
       <div class="feat"><h4>🔍 Real Answers, Not Guesses</h4><p>Ask me something you'd normally Google — news, scores, current stuff — and I'll actually look it up live and tell you what I found, honestly, instead of making something up.</p></div>
       <div class="feat"><h4>🌍 Live Translation</h4><p>A signature move — <code style="all:unset;color:#ffd23f;">!explain [language]</code> translates the last chat messages into 18 languages. Nobody gets left out.</p></div>
@@ -2595,7 +2595,7 @@ app.get("/", (req, res) => {
       <div class="feat"><h4>⏱️ Timed Messages & Learning</h4><p>I auto-post your reminders on a timer, and I quietly <b>learn each channel's own vibe</b> so I talk like a real regular over time.</p></div>
     </div>
 
-    <div class="cta">
+    <div class="cta" id="mascot-cta">
       <h3>🔥 Want me in YOUR channel?</h3>
       <div class="step"><b>One click — that's it.</b> Completely free:<br>
         👉 Hit the button below and log in with Blaze.<br>
@@ -2607,9 +2607,9 @@ app.get("/", (req, res) => {
     </div>
 
     <div class="point">👇 My crew — proud of every one of them 👇</div>
-    <div class="grid">${cards}</div>
+    <div class="grid" id="mascot-crew">${cards}</div>
 
-    <div class="support">
+    <div class="support" id="mascot-support">
       <h3>💚 Everything here is free — forever</h3>
       <p>Every single feature is <b>100% free</b> to use. No paywalls, no catch. I do this because I love this community.</p>
       <p>But if you ever feel like wishing me a <b>Blazeian Day</b> ☀️, you can support what we're building here — purely if <i>you</i> want to. Support based on love, never expected. 🫶</p>
@@ -2619,8 +2619,114 @@ app.get("/", (req, res) => {
 
     <p class="foot">Built with way too much love (and a tiny bit of oil 🛢️) for the Blaze community 💚<br>
     <span style="opacity:.5;">bot ${ACCESS_TOKEN ? "online" : "offline"} · <a href="/admin" class="link">owner</a></span></p>
-    </div></body></html>`);
+    </div>
+    ${homepageMascotHTML()}
+    </body></html>`);
 });
+
+// =============================================
+// HOMEPAGE MASCOT — a small, self-contained Blazeian that wanders the bottom of the viewport and
+// "teleports" (same portal effect as the OBS overlay) to whichever key section — the join CTA,
+// the feature grid, the crew, the support block — is currently scrolled into view, with a matching
+// speech bubble. Purely decorative/isolated: its own ids ("bmascot-"/"mascot-"), reuses the same
+// sprite sheet as /overlay/run but is otherwise a completely separate, trimmed-down script so it
+// can never touch or break that already-live, real-OBS-facing overlay code.
+// =============================================
+function homepageMascotHTML() {
+  return `
+  <div id="bmascot-wrap" style="position:fixed;left:0;top:0;width:100px;height:100px;z-index:9999;pointer-events:none;will-change:transform;">
+    <canvas id="bmascot-c" width="100" height="100" style="filter:drop-shadow(0 6px 10px rgba(0,0,0,.45));"></canvas>
+    <div id="bmascot-bubble" style="position:absolute;left:50%;bottom:96px;transform:translateX(-28%);max-width:230px;min-width:70px;background:linear-gradient(180deg,#0c1a0c,#08120a);color:#b9ffd0;padding:9px 13px;border-radius:14px;border:2px solid #4ade80;font-size:13px;font-weight:700;line-height:1.28;box-shadow:0 0 16px rgba(74,222,128,.45),0 4px 14px rgba(0,0,0,.5);opacity:0;transition:opacity .25s,transform .25s;text-align:center;"></div>
+  </div>
+  <div id="bmascot-portal" style="position:fixed;left:0;top:0;width:130px;height:52px;opacity:0;pointer-events:none;filter:drop-shadow(0 0 26px rgba(74,222,128,.8));">
+    <div style="width:100%;height:100%;border-radius:50%;background:conic-gradient(from 0deg,#0b6b34,#7dff9e,#0aa04e,#c8ffd6,#0b6b34);-webkit-mask:radial-gradient(ellipse at center,#000 26%,rgba(0,0,0,.55) 52%,transparent 70%);mask:radial-gradient(ellipse at center,#000 26%,rgba(0,0,0,.55) 52%,transparent 70%);animation:bmspin 1.1s linear infinite;"></div>
+  </div>
+  <style>@keyframes bmspin{to{transform:rotate(360deg);}}
+  @media (max-width:600px){#bmascot-wrap,#bmascot-portal{display:none;}}</style>
+  <script>
+  (function(){
+    var SIZE=90, RUN=6, CW=200, IDLE=6, JUMP=7, STRIDE=SIZE*0.26, speed=100;
+    var LANDMARKS=[
+      {sel:'#mascot-cta', msg:"👉 click here — one login adds me to YOUR channel 💚"},
+      {sel:'#mascot-feats', msg:"this is everything I can actually do 🧠"},
+      {sel:'#mascot-crew', msg:"these are my people — every one of them 💚"},
+      {sel:'#mascot-support', msg:"totally optional, but it keeps me running 🛢️💚"}
+    ];
+    var MSGS=["gm! I'm BLAZEIAN_BOT-AI, hey 👋","tap around, I don't bite 💚","24/7 online, just like right now 🔥","psst… scroll around, I'll follow along 👀","loyal to the last drop of oil 🛢️💚"];
+    var img=new Image(),ready=false;
+    var cv=document.getElementById('bmascot-c'),ctx=cv.getContext('2d');
+    var wrap=document.getElementById('bmascot-wrap'),bub=document.getElementById('bmascot-bubble'),portalEl=document.getElementById('bmascot-portal');
+    function vw(){return window.innerWidth||1280;} function vh(){return window.innerHeight||800;}
+    function groundY(){return vh()-SIZE-14;}
+    var x=20,dir=1,face=1,frame=0,distAcc=0,lastT=performance.now();
+    var mode='run',nextAct=lastT+4000+Math.random()*4000,nextTeleport=lastT+14000+Math.random()*8000;
+    var actUntil=0,actFrame=IDLE,actHop=false,actStart=0,actDur=0;
+    var pStart=0,pPhase='open',portalX=0,homeX=20,homeY=0,charY=0,vy=0,closeStart=0,pendingMsg='';
+    function draw(fr,tx,ty){ctx.clearRect(0,0,SIZE,SIZE);ctx.save();
+      if(face<0){ctx.translate(SIZE,0);ctx.scale(-1,1);}
+      ctx.drawImage(img,fr*CW,0,CW,CW,0,0,SIZE,SIZE);ctx.restore();
+      wrap.style.transform='translate('+tx+'px,'+ty+'px)';}
+    function showBubble(msg){bub.textContent=msg;bub.style.opacity=1;bub.style.transform='translateX(-28%) translateY(-5px)';}
+    function hideBubble(){bub.style.opacity=0;bub.style.transform='translateX(-28%)';}
+    function visibleLandmarks(){
+      return LANDMARKS.map(function(l){var el=document.querySelector(l.sel);if(!el)return null;
+        var r=el.getBoundingClientRect();
+        if(r.bottom<40||r.top>vh()-40)return null;
+        return {msg:l.msg,x:Math.max(10,Math.min(vw()-SIZE-10,r.left+r.width/2-SIZE/2)),y:Math.max(10,Math.min(vh()-SIZE-10,r.top-SIZE*0.55))};
+      }).filter(Boolean);
+    }
+    function startTeleport(now){
+      var opts=visibleLandmarks();
+      if(!opts.length){nextTeleport=now+7000+Math.random()*6000;return;}
+      var t=opts[Math.floor(Math.random()*opts.length)];
+      mode='portal';pStart=now;pPhase='open';vy=0;
+      portalX=t.x+SIZE/2;homeX=t.x;homeY=t.y;charY=homeY-40;pendingMsg=t.msg;
+      hideBubble();
+    }
+    function startAct(fr,msg,dur,hop){mode='act';actStart=performance.now();actDur=dur;actUntil=actStart+dur;actFrame=fr;actHop=hop;face=1;
+      if(msg){showBubble(msg);}else{hideBubble();}}
+    img.onload=function(){ready=true;requestAnimationFrame(tick);};
+    img.src='/blaze-run-strip.png';
+    function tick(now){
+      if(!ready){requestAnimationFrame(tick);return;}
+      var dt=Math.min(0.05,(now-lastT)/1000);lastT=now;
+      if(mode==='portal'){
+        var e=now-pStart,ps;
+        if(pPhase==='closing'){ps=Math.max(0,1-(now-closeStart)/320);
+          if(ps<=0){portalEl.style.opacity=0;mode='run';x=homeX;dir=Math.random()<0.5?-1:1;face=dir<0?-1:1;
+            showBubble(pendingMsg);setTimeout(hideBubble,4200);
+            nextAct=now+5000+Math.random()*5000;nextTeleport=now+18000+Math.random()*14000;requestAnimationFrame(tick);return;}
+          draw(IDLE,portalX-SIZE/2,homeY);}
+        else{ps=Math.min(1,e/380);
+          if(e>240){if(charY<homeY){vy+=1500*dt;charY+=vy*dt;if(charY>=homeY){charY=homeY;pPhase='closing';closeStart=now;}}
+            draw(JUMP,portalX-SIZE/2,charY);}
+          else{ctx.clearRect(0,0,SIZE,SIZE);}}
+        portalEl.style.opacity=Math.min(1,ps*1.2);
+        portalEl.style.transform='translate('+(portalX-65)+'px,'+(homeY-10)+'px) scale('+(0.5+0.5*ps)+')';
+        requestAnimationFrame(tick);return;
+      }
+      if(mode==='run'){
+        var mv=dir*speed*dt;x+=mv;distAcc+=Math.abs(mv);
+        if(distAcc>=STRIDE){frame=(frame+1)%RUN;distAcc-=STRIDE;}
+        var maxx=vw()-SIZE-10;
+        if(x>=maxx){x=maxx;dir=-1;} if(x<=10){x=10;dir=1;}
+        face=dir<0?-1:1;
+        draw(frame,x,groundY()+Math.sin(now/120)*3);
+        if(now>=nextTeleport){startTeleport(now);requestAnimationFrame(tick);return;}
+        if(now>=nextAct){var roll=Math.random();
+          if(roll<0.55){startAct(IDLE,MSGS[Math.floor(Math.random()*MSGS.length)],3800,false);}
+          else{startAct(JUMP,'',850,true);}}
+      }else if(mode==='act'){
+        var yy=groundY();if(actHop){var pr=(now-actStart)/actDur;yy=groundY()-Math.sin(pr*Math.PI)*40;}
+        draw(actFrame,x,yy);
+        if(now>=actUntil){hideBubble();mode='run';nextAct=now+6000+Math.random()*6000;}
+      }
+      requestAnimationFrame(tick);
+    }
+    window.addEventListener('resize',function(){x=Math.min(x,vw()-SIZE-10);});
+  })();
+  </script>`;
+}
 
 app.get("/stats", (req, res) => res.json(channels));
 
