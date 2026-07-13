@@ -1014,14 +1014,14 @@
       "stats": {
         "totalVotes": 1848,
         "totalSubs": 12,
-        "totalChatMessages": 928,
+        "totalChatMessages": 929,
         "totalStreamMinutes": 3216,
         "emotes": {
           "❤": 46,
           "🙌": 24,
           "🗳": 114,
-          "📴": 31,
-          "👋": 32,
+          "📴": 32,
+          "👋": 33,
           "🔴": 28,
           "🎉": 47,
           "🏆": 11,
@@ -1122,10 +1122,6 @@
       "chatMemory": [
         {
           "user": "agent00zani",
-          "msg": "15 min break"
-        },
-        {
-          "user": "agent00zani",
           "msg": "any Questions for Zani ?"
         },
         {
@@ -1159,6 +1155,10 @@
         {
           "user": "agent00zani",
           "msg": "what the plan for today"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -1166,7 +1166,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "🔥 Marvel Rivals | Super Phoenix Sports 👀 | Gaming with the Bros 🎮 — Marvel Rivals",
+      "streamTitle": "",
       "profile": "**agent00zani** - Blaze Livestream Channel\n\nA chill, welcoming space for ARC Raiders enthusiasts, where \"Blazedian love\" shines. Expect doggo talk, shoutouts, and heartfelt appreciation for votes and support. We celebrate with \"Blazedian hugs,\" votes, and emojis. Our favorite phrase is \"Go go @agent00zani!!\" We play Marvel Rivals, Valorant, and more. Let's keep it lit with \"Silver Nation Raids\" and \"Blazedian love\"!",
       "_profileAtCount": 928,
       "loyalty": {
