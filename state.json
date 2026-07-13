@@ -1035,7 +1035,7 @@
       "stats": {
         "totalVotes": 1992,
         "totalSubs": 12,
-        "totalChatMessages": 964,
+        "totalChatMessages": 965,
         "totalStreamMinutes": 3439,
         "emotes": {
           "❤": 46,
@@ -1062,7 +1062,7 @@
           "😶": 12,
           "🌫": 12,
           "👍": 11,
-          "🥰": 28,
+          "🥰": 29,
           "♥": 1,
           "🦊": 6,
           "😂": 8,
@@ -1145,10 +1145,6 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @LibraLives just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         },
         {
@@ -1182,6 +1178,10 @@
         {
           "user": "agent00zani",
           "msg": "how you @briggsy"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "🥰"
         }
       ],
       "customCommands": {},
@@ -2194,16 +2194,12 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 11,
+        "totalChatMessages": 12,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {}
       },
       "chatMemory": [
-        {
-          "user": "weri",
-          "msg": ".@blazeian_bot how can I start my own stream from my android phone"
-        },
         {
           "user": "weri",
           "msg": ".@blazeian_bot is that to stream in blaze"
@@ -2239,6 +2235,10 @@
         {
           "user": "weri",
           "msg": "BLAZEIAN_BOT_AI but remember everytime I say something you also need to say something where ever I am ok"
+        },
+        {
+          "user": "weri",
+          "msg": "Yo BLAZEIAN_BOT_AI HOW CAN I CHANCE MY AVATAR TO MOVE LIKE YOURS"
         }
       ],
       "customCommands": {},
@@ -3795,7 +3795,8 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1fce5f33-0d10-4052-a439-2d788d567380.png"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1fce5f33-0d10-4052-a439-2d788d567380.png",
+      "followed": true
     }
   },
   "blocklist": [
@@ -3825,7 +3826,7 @@
   "auth": {
     "accessToken": "456d9bda7ff2b1c13518d54c3692faad",
     "refreshToken": "130c6706beeed48219e212bd5238c962",
-    "sessionToken": "c473c18b50e6b86a68c5f5fd0df01d31",
+    "sessionToken": "257e394880efee9138e3c0e07eff81cb",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
