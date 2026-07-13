@@ -848,7 +848,7 @@
         "totalVotes": 1126,
         "totalSubs": 3,
         "totalChatMessages": 1459,
-        "totalStreamMinutes": 1124,
+        "totalStreamMinutes": 1129,
         "emotes": {
           "🗳": 90,
           "🤣": 14,
@@ -1035,14 +1035,14 @@
       "stats": {
         "totalVotes": 2177,
         "totalSubs": 12,
-        "totalChatMessages": 997,
-        "totalStreamMinutes": 3495,
+        "totalChatMessages": 998,
+        "totalStreamMinutes": 3498,
         "emotes": {
           "❤": 46,
           "🙌": 24,
           "🗳": 132,
-          "📴": 34,
-          "👋": 35,
+          "📴": 35,
+          "👋": 36,
           "🔴": 31,
           "🎉": 54,
           "🏆": 13,
@@ -1147,10 +1147,6 @@
       "chatMemory": [
         {
           "user": "agent00zani",
-          "msg": "how are you today @time"
-        },
-        {
-          "user": "agent00zani",
           "msg": "almost 1 am for you"
         },
         {
@@ -1184,6 +1180,10 @@
         {
           "user": "time",
           "msg": "good night dra and zani"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -1191,7 +1191,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "🎮 Chaos with Zani 👀 & friends ⚔️ | 🎰 Sub Raffle | 🏆 140 Votes + 🤗 Hugs — Games + Demos",
+      "streamTitle": "",
       "profile": "**agent00zani** - Blaze Livestream Channel\n\nA chill, welcoming space for ARC Raiders enthusiasts, where \"Blazedian love\" shines. Expect doggo talk, shoutouts, and heartfelt appreciation for votes and support. We celebrate with \"Blazedian hugs,\" votes, and emojis. We play Marvel Rivals, Valorant, and more. Say \"Go go @agent00zani!!\" and join \"Silver Nation Raids\" with our signature \"Blazedian love\"!",
       "_profileAtCount": 982,
       "loyalty": {
@@ -2932,14 +2932,14 @@
       "username": "cymatrix",
       "language": "en",
       "stats": {
-        "totalVotes": 141,
+        "totalVotes": 148,
         "totalSubs": 5,
-        "totalChatMessages": 365,
+        "totalChatMessages": 381,
         "totalStreamMinutes": 313,
         "emotes": {
           "❤": 150,
           "🙌": 9,
-          "🗳": 15,
+          "🗳": 27,
           "🔴": 4,
           "🎉": 5,
           "💛": 15,
@@ -3001,44 +3001,44 @@
       },
       "chatMemory": [
         {
-          "user": "crybaby",
-          "msg": "lesss goooo!"
+          "user": "spreadeagle",
+          "msg": "coolio broolio"
+        },
+        {
+          "user": "allthebuttons",
+          "msg": "got any buttons for me?"
+        },
+        {
+          "user": "linkypoo",
+          "msg": "Naw but I have a ton of linkies for you"
+        },
+        {
+          "user": "giggleboptv",
+          "msg": "that make me giggle a bit"
         },
         {
           "user": "scurvybot",
-          "msg": "@CyMatrIX gifted a Sub to @CryBaby! Thank you!"
+          "msg": "Thanks for the 4 votes, @GiggleBopTV!"
         },
         {
           "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @CyMatrIX just gifted a sub to @CryBaby! How generous!! 🙌"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @GiggleBopTV just gave 4 vote(s) (total: 4)! Thank you!! 🗳️"
         },
         {
-          "user": "cymatrix",
-          "msg": "Welcome to the show!"
+          "user": "fine",
+          "msg": "Fine!"
         },
         {
-          "user": "botger",
-          "msg": "bee bee bee 💛💛💛"
+          "user": "whatchamucallit",
+          "msg": "oh yeah what was that thing we were talking about?"
         },
         {
-          "user": "cymatrix",
-          "msg": "@blazeian_bot_ai can feel the love in hea"
+          "user": "bumbumblobby",
+          "msg": "I'll bet I can guess"
         },
         {
-          "user": "cymatrix",
-          "msg": "@blazeian_bot_ai this is not the funk show, this is the CyMatrIX show"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "user": "bumbumblobby",
+          "msg": "I'll bet I can guess"
         }
       ],
       "customCommands": {
@@ -3483,7 +3483,7 @@
         "totalVotes": 3086,
         "totalSubs": 90,
         "totalChatMessages": 86,
-        "totalStreamMinutes": 975,
+        "totalStreamMinutes": 980,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -3867,8 +3867,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1783961597640,
   "auth": {
-    "accessToken": "77e1b29e0132a5d2b5308a8ce45eed1b",
-    "refreshToken": "3abfef7ec2c564a5041792f34d9fa2de",
+    "accessToken": "f38a43a234ad0969bf1dfb9cc8e822f6",
+    "refreshToken": "4375c91c5255df215ba313b0ce708ed9",
     "sessionToken": "e7dc1ab223e445bf80920b5244ec813c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
