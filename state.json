@@ -3734,19 +3734,31 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {}
+        "emotes": {
+          "❤": 2,
+          "🙌": 1
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌"
+        }
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
       "timedMessages": [],
       "tipTiers": [],
-      "greeted": true
+      "greeted": true,
+      "locked": false
     }
   },
   "blocklist": [
@@ -3776,7 +3788,7 @@
   "auth": {
     "accessToken": "c391373ecc57a83b5fe31127fa3b112c",
     "refreshToken": "8d307ba02fe631522b06405ddcfcb1f0",
-    "sessionToken": "f728b69d878d849dc981d82b838ed5bf",
+    "sessionToken": "975171c75033e1b6c4399b08512ec705",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
