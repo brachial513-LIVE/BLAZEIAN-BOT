@@ -2280,7 +2280,14 @@ function oauthErrPage(msg) {
   </body></html>`;
 }
 
-async function startOAuth(res, scopes, kind) {
+// Only ever accept a single local path ("/comics", "/", etc.) as a post-login destination —
+// never a full URL or "//host" — otherwise this becomes an open-redirect hole (login, then get
+// silently bounced to some attacker-controlled site). Falls back to null (caller decides default).
+function safeReturnTo(v) {
+  return (typeof v === "string" && /^\/(?!\/)[^\s]*$/.test(v) && v.length < 200) ? v : null;
+}
+
+async function startOAuth(res, scopes, kind, returnTo) {
   const r = await axios.post("https://blaze.stream/bapi/oauth2/generate-auth-url", {
     clientId: CLIENT_ID, clientSecret: CLIENT_SECRET, redirectUri: REDIRECT_URI, scopes
   });
@@ -2291,11 +2298,11 @@ async function startOAuth(res, scopes, kind) {
   const url          = d.url          || d.data?.url;
   console.log(`[OAUTH] auth-url kind=${kind} state=${state?String(state).slice(0,8):"MISSING"} cv=${codeVerifier?("len"+String(codeVerifier).length):"MISSING"} url=${url?"ok":"MISSING"} keys=${Object.keys(d).join(",")}`);
   if (!state || !url) throw new Error("generate-auth-url unexpected shape: keys=" + Object.keys(d).join(","));
-  pendingAuth[state] = { codeVerifier, kind };
+  pendingAuth[state] = { codeVerifier, kind, returnTo };
   // Cold-start resilience: Render's free tier can drop this in-memory map if the
   // dyno restarts between login and callback. Stash the PKCE data in a short-lived
   // cookie too (SameSite=Lax so it survives the redirect back from Blaze).
-  const pkce = Buffer.from(JSON.stringify({ s: state, cv: codeVerifier || "", k: kind })).toString("base64");
+  const pkce = Buffer.from(JSON.stringify({ s: state, cv: codeVerifier || "", k: kind, r: returnTo || "" })).toString("base64");
   res.setHeader("Set-Cookie", `blz_pkce=${pkce}; HttpOnly; Path=/; Max-Age=900; SameSite=Lax`);
   res.redirect(url);
 }
@@ -2309,10 +2316,13 @@ app.get("/login", async (req, res) => {
   }
 });
 
-// Streamer login — identify them AND let the bot VIP itself (to bypass followers-only chat)
+// Streamer login — identify them AND let the bot VIP itself (to bypass followers-only chat).
+// ?returnTo=/some/path sends them back to wherever they actually came from (e.g. /comics) instead
+// of always dumping them on /dashboard — proven live: logging in from the comics page landed on
+// the dashboard instead, which felt disjointed rather than like one connected site.
 app.get("/dashboard/login", async (req, res) => {
   try {
-    await startOAuth(res, ["users.read", "channel.moderate"], "streamer");
+    await startOAuth(res, ["users.read", "channel.moderate"], "streamer", safeReturnTo(req.query.returnTo));
   } catch (e) {
     res.send(`<pre>Login error: ${JSON.stringify(e.response?.data || e.message)}</pre><a href="/dashboard">Retry</a>`);
   }
@@ -2396,7 +2406,7 @@ app.get("/callback", async (req, res) => {
       const raw = getCookie(req, "blz_pkce");
       if (raw) {
         const o = JSON.parse(Buffer.from(raw, "base64").toString("utf8"));
-        if (o && o.s === state) { pa = { codeVerifier: o.cv, kind: o.k }; console.log("[OAUTH] recovered PKCE from cookie"); }
+        if (o && o.s === state) { pa = { codeVerifier: o.cv, kind: o.k, returnTo: safeReturnTo(o.r) }; console.log("[OAUTH] recovered PKCE from cookie"); }
       }
     } catch (err) { console.log("[OAUTH] pkce cookie parse failed:", err.message); }
   }
@@ -2460,7 +2470,7 @@ app.get("/callback", async (req, res) => {
     const sid = crypto.randomBytes(24).toString("hex");
     sessions[sid] = { username, exp: Date.now() + 7 * 24 * 3600 * 1000 };
     setCookie(res, "sid", sid, 7 * 24 * 3600);
-    return res.redirect("/dashboard");
+    return res.redirect(pa.returnTo || "/dashboard");
   } catch (e) {
     const info = e.response?.data || e.message;
     console.log(`[OAUTH] token exchange FAILED status=${e.response?.status} data=${JSON.stringify(info)} cv=${pa.codeVerifier ? ("len" + String(pa.codeVerifier).length) : "MISSING"} codeLen=${code ? String(code).length : 0} kind=${pa.kind}`);
@@ -2476,6 +2486,7 @@ app.get("/ping", (req, res) => res.send("pong 💚"));
 const LANG_FLAG = { de:"🇩🇪", en:"🇬🇧", es:"🇪🇸", fr:"🇫🇷", pt:"🇵🇹", it:"🇮🇹", nl:"🇳🇱", ru:"🇷🇺", ja:"🇯🇵", ko:"🇰🇷", zh:"🇨🇳", ar:"🇸🇦", tr:"🇹🇷", pl:"🇵🇱", sv:"🇸🇪", uk:"🇺🇦", ro:"🇷🇴", hi:"🇮🇳" };
 
 app.get("/", (req, res) => {
+  const session = getSession(req);
   const total = Object.keys(channels).length;
   const cards = Object.entries(channels).map(([cid, ch]) => {
     const flag = LANG_FLAG[ch.language] || "🌍";
@@ -2506,6 +2517,7 @@ app.get("/", (req, res) => {
   ].filter(Boolean).join(" ");
 
   res.send(`${pageHead("BLAZEIAN_BOT-AI — Loyal on Blaze")}
+    ${session ? `<div class="topbar"><span class="muted">logged in as <b style="color:#5cf472;">${esc(session.username)}</b></span> <a href="/dashboard" class="link">🎛️ Dashboard</a> · <a href="/dashboard/logout" class="link">logout</a></div>` : ""}
     <style>
       .hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px;padding:42px 0 10px;text-align:left;}
       .hero img{width:150px;height:150px;border-radius:50%;border:3px solid #5cf472;box-shadow:0 0 38px rgba(92,244,114,.6);animation:glow 3s ease-in-out infinite;}
@@ -2830,8 +2842,9 @@ function comicViewerHTML(comic) {
   <div class="comicviewer">
     <h2 style="text-align:center;color:#7CFC9A;margin-bottom:4px;">${esc(comic.title)}</h2>
     <div class="comicframe" id="comicFrame-${esc(comic.id)}">
-      <img id="comicImg-${esc(comic.id)}" src="${esc(comicImgUrl(comic))}" alt="${esc(comic.title)}" onerror="this.closest('.comicviewer').innerHTML='<p class=\\'muted\\' style=\\'text-align:center;\\'>Comic art coming soon 💚</p>'">
+      <img id="comicImg-${esc(comic.id)}" src="${esc(comicImgUrl(comic))}" alt="${esc(comic.title)}" title="Click to zoom" onerror="this.closest('.comicviewer').innerHTML='<p class=\\'muted\\' style=\\'text-align:center;\\'>Comic art coming soon 💚</p>'">
     </div>
+    <p class="muted" style="text-align:center;font-size:12px;margin-top:6px;">🔍 click the page to zoom</p>
     <div class="comicnav">
       <button id="comicPrev-${esc(comic.id)}" class="save" disabled>← Page 1</button>
       <span id="comicLabel-${esc(comic.id)}" class="muted">Page 1 / 2</span>
@@ -2856,6 +2869,25 @@ function comicViewerHTML(comic) {
     window.addEventListener('resize',apply);
     prevBtn.addEventListener('click',function(){page=0;apply();});
     nextBtn.addEventListener('click',function(){page=1;apply();});
+    img.addEventListener('click',function(){ if(window.__openComicLightbox) window.__openComicLightbox(img.src, ${JSON.stringify(comic.title)}); });
+  })();
+  </script>`;
+}
+
+// Shared full-image zoom lightbox — one instance per page, reused by every comic's click handler
+// above. Shows the REAL full page (not the cropped page-1/page-2 view) at full size.
+function comicLightboxHTML() {
+  return `
+  <div id="comicLightbox" style="position:fixed;inset:0;background:rgba(4,10,4,.9);display:none;align-items:center;justify-content:center;z-index:99999;cursor:zoom-out;padding:26px;">
+    <img id="comicLightboxImg" style="max-width:92vw;max-height:92vh;border-radius:12px;box-shadow:0 0 60px rgba(92,244,114,.45);cursor:zoom-out;">
+  </div>
+  <script>
+  (function(){
+    var lb=document.getElementById('comicLightbox'), lbImg=document.getElementById('comicLightboxImg');
+    window.__openComicLightbox=function(src,title){ lbImg.src=src; lbImg.alt=title||''; lb.style.display='flex'; };
+    function close(){ lb.style.display='none'; }
+    lb.addEventListener('click', close);
+    document.addEventListener('keydown', function(e){ if(e.key==='Escape') close(); });
   })();
   </script>`;
 }
@@ -2866,7 +2898,7 @@ app.get("/comics", (req, res) => {
     return res.send(`${pageHead("BLAZEIAN_BOT-AI Comics")}
       <header><img src="${MASCOT_URL}" onerror="this.style.display='none'"><h1>🔒 Crew-Only Comics</h1>
         <p>These are just for members of the Blazeian_Bot_Ai crew. Log in with Blaze to unlock them.</p></header>
-      <div class="card" style="text-align:center;"><a class="save" href="/dashboard/login">🚀 Log in with Blaze</a></div>
+      <div class="card" style="text-align:center;"><a class="save" href="/dashboard/login?returnTo=/comics">🚀 Log in with Blaze</a></div>
       </div></body></html>`);
   }
   const channelId = findChannelByUsername(session.username);
@@ -2879,14 +2911,20 @@ app.get("/comics", (req, res) => {
   }
   res.send(`${pageHead("BLAZEIAN_BOT-AI Comics")}
     <style>
-      .comicframe{position:relative;overflow:hidden;border:2px solid #2c5a2c;border-radius:14px;box-shadow:0 0 26px rgba(92,244,114,.2);background:#0a120a;max-width:700px;margin:0 auto;}
+      .comicframe{position:relative;overflow:hidden;border:2px solid #2c5a2c;border-radius:14px;box-shadow:0 0 26px rgba(92,244,114,.2);background:#0a120a;max-width:700px;margin:0 auto;
+        cursor:zoom-in;animation:comicFloat 4.5s ease-in-out infinite;transform-origin:center;perspective:600px;}
+      .comicframe:hover{box-shadow:0 0 42px rgba(92,244,114,.4);}
+      @keyframes comicFloat{0%,100%{transform:translateY(0) rotateZ(0deg);}50%{transform:translateY(-9px) rotateZ(.35deg);}}
       .comicframe img{width:100%;display:block;position:relative;transition:transform .35s ease;}
       .comicnav{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:14px;}
+      @media (prefers-reduced-motion:reduce){.comicframe{animation:none;}}
     </style>
     <div class="topbar"><span class="muted">logged in as <b style="color:#5cf472;">${esc(session.username)}</b></span> <a href="/" class="link">← home</a></div>
     <h1 style="text-align:center;">📖 Crew Comics</h1>
     ${COMICS.map(comicViewerHTML).join("<hr style='border-color:#223822;margin:40px 0;'>")}
-    </div></body></html>`);
+    </div>
+    ${comicLightboxHTML()}
+    </body></html>`);
 });
 
 app.get("/dashboard/logout", (req, res) => {
