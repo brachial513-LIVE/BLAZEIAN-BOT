@@ -2330,16 +2330,16 @@
       "stats": {
         "totalVotes": 1232,
         "totalSubs": 1,
-        "totalChatMessages": 363,
-        "totalStreamMinutes": 893,
+        "totalChatMessages": 368,
+        "totalStreamMinutes": 913,
         "emotes": {
           "❤": 6,
           "🙌": 4,
           "🗳": 45,
-          "🔴": 7,
-          "🎉": 12,
-          "📴": 5,
-          "👋": 5,
+          "🔴": 8,
+          "🎉": 13,
+          "📴": 6,
+          "👋": 6,
           "🔥": 10,
           "💪": 1,
           "🤖": 1,
@@ -2386,26 +2386,6 @@
       "chatMemory": [
         {
           "user": "missaria_wf",
-          "msg": "play games so you will not be stressed"
-        },
-        {
-          "user": "missaria_wf",
-          "msg": "no, I stick playing one game in a while haha"
-        },
-        {
-          "user": "missaria_wf",
-          "msg": "I think that not my type of game haha, I'm so choosy in the game I'm playing"
-        },
-        {
-          "user": "missaria_wf",
-          "msg": "I like adventure, casual and sometime ranked games, but it depends what I feel when I play the game"
-        },
-        {
-          "user": "missaria_wf",
-          "msg": "I tried also playing Dota 2, it's so hard hahaha"
-        },
-        {
-          "user": "missaria_wf",
           "msg": "I tried playing that also"
         },
         {
@@ -2423,6 +2403,26 @@
         {
           "user": "missaria_wf",
           "msg": "I can play any games, but I never tried playing horror games"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -3457,8 +3457,8 @@
       "stats": {
         "totalVotes": 166,
         "totalSubs": 5,
-        "totalChatMessages": 208,
-        "totalStreamMinutes": 2134,
+        "totalChatMessages": 209,
+        "totalStreamMinutes": 2154,
         "emotes": {
           "🔥": 70,
           "🔴": 26,
@@ -3498,10 +3498,6 @@
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "@xxTOWERDOGxx gifted a Sub to @GrindingDragon! Thank you!"
-        },
-        {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @xxTOWERDOGxx just gifted a sub to @GrindingDragon! How generous!! 🙌"
         },
@@ -3536,6 +3532,10 @@
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
