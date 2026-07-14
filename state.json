@@ -2445,7 +2445,7 @@
         "totalVotes": 816,
         "totalSubs": 16,
         "totalChatMessages": 81,
-        "totalStreamMinutes": 1392,
+        "totalStreamMinutes": 1397,
         "emotes": {
           "❤": 22,
           "🙌": 11,
@@ -3815,12 +3815,12 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 6,
+        "totalChatMessages": 8,
         "totalStreamMinutes": 0,
         "emotes": {
-          "📢": 6,
-          "🙂": 3,
-          "👾": 2
+          "📢": 8,
+          "🙂": 4,
+          "👾": 3
         },
         "emoteNames": {
           "📢": "📢",
@@ -3836,6 +3836,14 @@
         {
           "user": "lights_out",
           "msg": "[Lights Out] You are being tracked by Lights Out — Discord's first Blaze engagement bot. This means your community has access to games and fun for all. Type /help to take a look. Please send feedback to Sentius Nox 🙂"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] ════════════════ 📢 ANNOUNCEMENT 📢 ════════════════"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] 👾 **You are being tracked by Lights Out** — Discord's first Blaze engagement bot. This means your community has access to games and fun for all. Type `/help` to take a look. Please send feedback to **Sentius Nox** 🙂"
         },
         {
           "user": "lights_out",
@@ -4007,8 +4015,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784006554392,
   "auth": {
-    "accessToken": "04654ad1f95373b7907d043082bd354d",
-    "refreshToken": "078fa802dc5a5c7e1bd5985cdf313fb3",
+    "accessToken": "e8a31f0d13d72541f811e80918de3802",
+    "refreshToken": "08ee67515ece6f84c916b001f43544ed",
     "sessionToken": "e7dc1ab223e445bf80920b5244ec813c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
