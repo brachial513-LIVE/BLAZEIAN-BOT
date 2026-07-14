@@ -2447,14 +2447,14 @@
       "stats": {
         "totalVotes": 816,
         "totalSubs": 17,
-        "totalChatMessages": 85,
-        "totalStreamMinutes": 1421,
+        "totalChatMessages": 86,
+        "totalStreamMinutes": 1424,
         "emotes": {
           "❤": 22,
           "🙌": 11,
           "🔥": 10,
-          "🔴": 11,
-          "🎉": 11,
+          "🔴": 12,
+          "🎉": 12,
           "📴": 12,
           "👋": 12,
           "😂": 4,
@@ -2487,10 +2487,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "thekingofc",
-          "msg": "gm gm"
-        },
         {
           "user": "thekingofc",
           "msg": "https://linesurvivors.com/register=slothsm"
@@ -2526,6 +2522,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -2537,7 +2537,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🔴PRIDECAST| HOJE RECEBEREMO \"BODAO\" EM NOSSO PODCAST — Talk Shows & Podcasts",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -2603,9 +2603,9 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 1728,
+        "totalVotes": 1753,
         "totalSubs": 12,
-        "totalChatMessages": 140,
+        "totalChatMessages": 147,
         "totalStreamMinutes": 831,
         "emotes": {
           "❤": 18,
@@ -2618,7 +2618,7 @@
           "😎": 2,
           "🤝": 2,
           "🥲": 2,
-          "🗳": 42,
+          "🗳": 45,
           "🔴": 6,
           "🎉": 11,
           "🚨": 12,
@@ -2632,7 +2632,9 @@
           "👍": 1,
           "⚡": 1,
           "🥰": 2,
-          "💚": 2
+          "💚": 2,
+          "😏": 1,
+          "😍": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -2659,38 +2661,12 @@
           "👍": "👍",
           "⚡": "⚡",
           "🥰": "🥰",
-          "💚": "💚"
+          "💚": "💚",
+          "😏": "😏",
+          "😍": "😍"
         }
       },
       "chatMemory": [
-        {
-          "user": "zoob_21",
-          "msg": "Hi"
-        },
-        {
-          "user": "vitrene",
-          "msg": "hi Zob!"
-        },
-        {
-          "user": "zoob_21",
-          "msg": "Thanks"
-        },
-        {
-          "user": "zoob_21",
-          "msg": "How are you"
-        },
-        {
-          "user": "vitrene",
-          "msg": "I'm awesome! How about you?"
-        },
-        {
-          "user": "zoob_21",
-          "msg": "I'm also perfect 🥰"
-        },
-        {
-          "user": "zoob_21",
-          "msg": "🔥🔥"
-        },
         {
           "user": "zoob_21",
           "msg": "💚💚"
@@ -2702,6 +2678,34 @@
         {
           "user": "vitrene",
           "msg": "thank you for the votes vRoshi55!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "😏"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "Dear Friend"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "It has been decided"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "squall 09 is in!"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "It's gonna happen 😍😍😍"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "super grateful for your push to the team to have your team in the collection!"
         }
       ],
       "customCommands": {},
@@ -3657,7 +3661,7 @@
         "totalVotes": 713,
         "totalSubs": 26,
         "totalChatMessages": 97,
-        "totalStreamMinutes": 306,
+        "totalStreamMinutes": 314,
         "emotes": {
           "❤": 5,
           "🙌": 28,
@@ -4038,8 +4042,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784060789527,
   "auth": {
-    "accessToken": "7cbfd3eaa3d144b996b9941bfd0066b3",
-    "refreshToken": "d3300612ed33baf6dab0fe803cc88ff4",
+    "accessToken": "b65524c096fc33f14a9f50333c38d0bf",
+    "refreshToken": "1fef0b830db3daa48f466e63a9e55863",
     "sessionToken": "c1ea610e3849704800366427e5ab9ff3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
