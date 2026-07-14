@@ -2829,6 +2829,7 @@ const COMICS = [
   // splitPct = where page 1 ends / page 2 begins, as a fraction (0-1) of the full image's height —
   // tune by eye once the real art is live; keeps this a pure CSS split, no image processing needed.
   { id: "adventures-1", title: "BLAZEIAN_BOT_AI — What If? Adventures #1", file: "adventures-1.png", splitPct: 0.55 },
+  { id: "adventures-2", title: "BLAZEIAN_BOT_AI — What If? Adventures #2", file: "adventures-2.png", splitPct: 0.63 },
 ];
 const comicImgUrl = c => `/comic-art/${encodeURIComponent(c.file)}`;
 app.get("/comic-art/:file", (req, res) => {
