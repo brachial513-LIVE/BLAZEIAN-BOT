@@ -2549,7 +2549,7 @@
         "totalVotes": 2439,
         "totalSubs": 100,
         "totalChatMessages": 8,
-        "totalStreamMinutes": 191,
+        "totalStreamMinutes": 196,
         "emotes": {
           "🔥": 6,
           "💚": 1
@@ -2720,8 +2720,8 @@
       "stats": {
         "totalVotes": 2851,
         "totalSubs": 50,
-        "totalChatMessages": 93,
-        "totalStreamMinutes": 426,
+        "totalChatMessages": 94,
+        "totalStreamMinutes": 430,
         "emotes": {
           "❤": 11,
           "🙌": 64,
@@ -2733,8 +2733,8 @@
           "📴": 2,
           "👋": 2,
           "🗳": 9,
-          "🔴": 1,
-          "🎉": 1,
+          "🔴": 2,
+          "🎉": 2,
           "🎁": 118
         },
         "emoteNames": {
@@ -2754,10 +2754,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @grook just gifted a sub to @nixonmania! How generous!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @grook just gifted a sub to @nixonmania! How generous!! 🙌"
@@ -2793,6 +2789,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @botger just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 grook is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -2803,7 +2803,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "1 SUB = 1 ENTRY ( 255  VOTES ) LETS GO! — Cuphead",
       "gameOverride": "",
       "profile": "grook's community is a chill, supportive space where Blazeians celebrate their love for gaming and good vibes. They're passionate about giveaways, especially the 255-vote one, and love seeing grook's streamer dashboard on https://blazeian-bot.onrender.com. Expect to hear \"tyy\" and \"avisiiiii\" as thanks, and catchphrases like \"gracias basura\" and \"xd\" - a playful jab at generosity.",
       "_profileAtCount": 77,
@@ -3739,7 +3739,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 19,
-        "totalStreamMinutes": 729,
+        "totalStreamMinutes": 734,
         "emotes": {
           "💪": 2,
           "💚": 7,
@@ -3989,8 +3989,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784006554392,
   "auth": {
-    "accessToken": "5adf2538b55992b349eef872b5457d51",
-    "refreshToken": "ab59c5f536185ae2b175066c86bfb4f0",
+    "accessToken": "9bb9ecdf4171c4e9e549b90b9fb755b5",
+    "refreshToken": "838404dde3fec85e254c03f8dcafde0d",
     "sessionToken": "e7dc1ab223e445bf80920b5244ec813c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
