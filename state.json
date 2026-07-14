@@ -847,7 +847,7 @@
       "stats": {
         "totalVotes": 1473,
         "totalSubs": 4,
-        "totalChatMessages": 2311,
+        "totalChatMessages": 2313,
         "totalStreamMinutes": 1342,
         "emotes": {
           "🗳": 191,
@@ -1035,14 +1035,6 @@
       "chatMemory": [
         {
           "user": "octo",
-          "msg": "hey no fair"
-        },
-        {
-          "user": "octo",
-          "msg": "much love to ya tho, you're a part of this community too we all gotta stick together"
-        },
-        {
-          "user": "octo",
           "msg": "ape together strong"
         },
         {
@@ -1072,6 +1064,14 @@
         {
           "user": "lights_out",
           "msg": "[Lights Out] @Sentius_Nox Shop: Vote x10 (15000pts)\n Sub (21000pts)\n Raid (25250pts)\n XP Scroll (50xp) (2500pts)\n XP Scroll (250xp) (7500pts)\n XP Scroll (1000xp) (22500pts)\n XP Scroll (15%) (43000pts)\n Gearbag (5000pts)\n Uncommon Gearbag (7500pts)\n Rare Gearbag (12500pts)\n Adventure Scroll (20000pts)\n Gun (7500pts)\n Pepper Spray (5000pts)\n Body Guard (12500pts)\n Book (How To Count Cards) (21000pts)"
+        },
+        {
+          "user": "tester",
+          "msg": "/shop"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] @tester Shop: Vote x10 (15000pts)\n Sub (21000pts)\n Raid (25250pts)\n XP Scroll (50xp) (2500pts)\n XP Scroll (250xp) (7500pts)\n XP Scroll (1000xp) (22500pts)\n XP Scroll (15%) (43000pts)\n Gearbag (5000pts)\n Uncommon Gearbag (7500pts)\n Rare Gearbag (12500pts)\n Adventure Scroll (20000pts)\n Gun (7500pts)\n Pepper Spray (5000pts)\n Body Guard (12500pts)\n Book (How To Count Cards) (21000pts)"
         }
       ],
       "customCommands": {},
@@ -3945,8 +3945,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1783961597640,
   "auth": {
-    "accessToken": "2d8698203acaaafc88f7abcdaeb2cecf",
-    "refreshToken": "ebd410a2e27f363205cc4ca60cefa721",
+    "accessToken": "781681b102e43d2ece0334fab2b9a0b1",
+    "refreshToken": "93782a7f4f9a31770b4f1e8f276b17a3",
     "sessionToken": "e7dc1ab223e445bf80920b5244ec813c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
