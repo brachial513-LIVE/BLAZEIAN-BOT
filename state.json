@@ -326,7 +326,7 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 9956,
+        "totalVotes": 9971,
         "totalSubs": 8,
         "totalChatMessages": 989,
         "totalStreamMinutes": 322,
@@ -504,7 +504,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 1966,
+        "totalVotes": 1976,
         "totalSubs": 3,
         "totalChatMessages": 1293,
         "totalStreamMinutes": 128,
@@ -1278,7 +1278,7 @@
       "stats": {
         "totalVotes": 2694,
         "totalSubs": 2,
-        "totalChatMessages": 3493,
+        "totalChatMessages": 3494,
         "totalStreamMinutes": 1047,
         "emotes": {
           "❤": 1315,
@@ -1320,7 +1320,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 13,
-          "💜": 75,
+          "💜": 76,
           "🧔": 1,
           "🤺": 1,
           "🥳": 5,
@@ -1427,10 +1427,6 @@
       },
       "chatMemory": [
         {
-          "user": "bee12",
-          "msg": "❤️❤️❤️"
-        },
-        {
           "user": "sheshi",
           "msg": "🚨 Only Believe Packs are LIVE on ENJIN! $1 & $77 packs available now → (ospgame.com/shop/only-believe) Card strategy game coming soon to The Citadel. Playable OB cards across all games! (Day 4 of 77 Days of Faith) ✨"
         },
@@ -1465,6 +1461,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         }
       ],
       "customCommands": {},
@@ -1748,10 +1748,10 @@
       "stats": {
         "totalVotes": 1181,
         "totalSubs": 6,
-        "totalChatMessages": 423,
+        "totalChatMessages": 424,
         "totalStreamMinutes": 1655,
         "emotes": {
-          "✨": 8,
+          "✨": 9,
           "🖥": 8,
           "🔥": 46,
           "👋": 17,
@@ -1866,10 +1866,6 @@
       "chatMemory": [
         {
           "user": "cachebot",
-          "msg": "🗳️ Thanks for the 2 votes, @glowgamergirl! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "cachebot",
           "msg": "🗳️ Thanks for the 18 votes, @mehmetonarcan! Your support is truly appreciated! 🙌"
         },
         {
@@ -1903,6 +1899,10 @@
         {
           "user": "cachebot",
           "msg": "🖥️  Zer0Cache, Thanks for Testing CacheBot out!"
+        },
+        {
+          "user": "cachebot",
+          "msg": "✨ [NEW FOLLOWER]: Welcome to the channel, @parky! Thank you for the follow!."
         }
       ],
       "customCommands": {},
@@ -2328,7 +2328,7 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 1242,
+        "totalVotes": 1262,
         "totalSubs": 1,
         "totalChatMessages": 386,
         "totalStreamMinutes": 942,
@@ -3558,7 +3558,7 @@
       "username": "saboomafoo",
       "language": "en",
       "stats": {
-        "totalVotes": 3090,
+        "totalVotes": 3105,
         "totalSubs": 90,
         "totalChatMessages": 93,
         "totalStreamMinutes": 1084,
@@ -3885,28 +3885,28 @@
       "stats": {
         "totalVotes": 49,
         "totalSubs": 0,
-        "totalChatMessages": 18,
-        "totalStreamMinutes": 31,
+        "totalChatMessages": 19,
+        "totalStreamMinutes": 42,
         "emotes": {
           "❤": 2,
           "🙌": 1,
           "🗳": 6,
           "🔴": 1,
-          "🎉": 1
+          "🎉": 1,
+          "📴": 1,
+          "👋": 1
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
           "🗳": "🗳",
           "🔴": "🔴",
-          "🎉": "🎉"
+          "🎉": "🎉",
+          "📴": "📴",
+          "👋": "👋"
         }
       },
       "chatMemory": [
-        {
-          "user": "niruntz",
-          "msg": "Waiting for my weed haha"
-        },
         {
           "user": "niruntz",
           "msg": "Only got shit ones on me rn"
@@ -3942,6 +3942,10 @@
         {
           "user": "niruntz",
           "msg": "Live off crypto wins"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -3954,7 +3958,8 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1fce5f33-0d10-4052-a439-2d788d567380.png",
       "followed": true,
-      "streamTitle": "Uncharted 4 — Uncharted 4: A Thief's End"
+      "streamTitle": "",
+      "gameOverride": ""
     }
   },
   "blocklist": [
