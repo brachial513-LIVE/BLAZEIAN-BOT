@@ -326,7 +326,7 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 9842,
+        "totalVotes": 9845,
         "totalSubs": 8,
         "totalChatMessages": 987,
         "totalStreamMinutes": 322,
@@ -2330,16 +2330,16 @@
       "stats": {
         "totalVotes": 1242,
         "totalSubs": 1,
-        "totalChatMessages": 381,
-        "totalStreamMinutes": 936,
+        "totalChatMessages": 386,
+        "totalStreamMinutes": 942,
         "emotes": {
           "❤": 6,
           "🙌": 4,
           "🗳": 48,
           "🔴": 9,
           "🎉": 14,
-          "📴": 7,
-          "👋": 7,
+          "📴": 8,
+          "👋": 8,
           "🔥": 10,
           "💪": 1,
           "🤖": 1,
@@ -2385,26 +2385,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Hey @nadietv ma"
-        },
-        {
-          "user": "briggsy",
-          "msg": "man"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @briggsy!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
           "user": "briggsy",
           "msg": "Real good buddy"
         },
@@ -2423,6 +2403,26 @@
         {
           "user": "briggsy",
           "msg": "At least!!"
+        },
+        {
+          "user": "briggsy",
+          "msg": "haha"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "nadietv",
+          "msg": "my internet connection went unstable"
+        },
+        {
+          "user": "nadietv",
+          "msg": "gg :c"
         }
       ],
       "customCommands": {},
@@ -2431,7 +2431,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "❤️Path of Exile 2 and dota!❤️ — Path Of Exile 2",
+      "streamTitle": "",
       "profile": "nadietv - Your go-to for gaming grind sessions & chill vibes! Expect \"Worthy Goal\" mindset, Blazeian magic, and SMOOCHES. We're all about Path of Exile 2 & Dota, getting those Ws & being clever. Let's get this grind on! Don't forget to drop those votes & shout out your favorite gaming moments! Worthy Goal, Ws, and SMOOCHES all around!",
       "_profileAtCount": 363,
       "gameOverride": "",
@@ -3455,13 +3455,13 @@
       "username": "xxtowerdogxx",
       "language": "en",
       "stats": {
-        "totalVotes": 166,
+        "totalVotes": 217,
         "totalSubs": 5,
-        "totalChatMessages": 209,
-        "totalStreamMinutes": 2179,
+        "totalChatMessages": 229,
+        "totalStreamMinutes": 2199,
         "emotes": {
-          "🔥": 70,
-          "🔴": 26,
+          "🔥": 80,
+          "🔴": 28,
           "💚": 4,
           "🤣": 3,
           "☕": 6,
@@ -3470,12 +3470,14 @@
           "👋": 5,
           "👽": 20,
           "💀": 5,
-          "🗳": 18,
+          "🗳": 24,
           "💗": 1,
           "😱": 1,
-          "❤": 2,
+          "❤": 4,
           "🙌": 6,
-          "🎁": 10
+          "🎁": 10,
+          "💜": 4,
+          "🥰": 3
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -3493,21 +3495,39 @@
           "😱": "😱",
           "❤": "❤",
           "🙌": "🙌",
-          "🎁": "🎁"
+          "🎁": "🎁",
+          "💜": "💜",
+          "🥰": "🥰"
         }
       },
       "chatMemory": [
         {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @angge_wf!"
+        },
+        {
           "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @xxTOWERDOGxx just gifted a sub to @GrindingDragon! How generous!! 🙌"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "🥰🥰🥰"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥Shoutout to Future42 🔥 Make sure to drop a follow and show that Tower Crew support for this legend! 🔥 https://blaze.stream/Future42 🔥"
         },
         {
           "user": "scurvybot",
-          "msg": "@xxTOWERDOGxx gifted a Sub to @RickyWomack! Thank you!"
+          "msg": "Let's take a moment to follow @Future42, who is live now, currently streaming IRL to 1 viewers at https://blaze.stream/future42!"
         },
         {
           "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @xxTOWERDOGxx just gifted a sub to @RickyWomack! How generous!! 🙌"
+          "msg": "🔥Shoutout to angge_wf 🔥 Make sure to drop a follow and show that Tower Crew support for this legend! 🔥 https://blaze.stream/angge_wf 🔥"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @angge_wf at https://blaze.stream/angge_wf!"
         },
         {
           "user": "botger",
@@ -3515,23 +3535,7 @@
         },
         {
           "user": "botger",
-          "msg": "🔥TOWER is partnered with ☕BLACKOUT COFFEE CO.☕ if you're looking for the best coffee on the planet then go get yours and use code TOWER for 20% all your orders!🔥  https://www.blackoutcoffee.com?p=LPw95Fmiz"
-        },
-        {
-          "user": "rickywomack",
-          "msg": "Yes doing great!!! Just wanted to come hangout with the BLAZE crew tonight"
-        },
-        {
-          "user": "rickywomack",
-          "msg": "Yoooooo thank you so much that’s crazy !!! Thank you so much"
-        },
-        {
-          "user": "botger",
           "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
-        },
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
         },
         {
           "user": "scurvybot",
