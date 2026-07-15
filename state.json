@@ -1115,8 +1115,8 @@
       "stats": {
         "totalVotes": 2271,
         "totalSubs": 12,
-        "totalChatMessages": 1159,
-        "totalStreamMinutes": 3777,
+        "totalChatMessages": 1160,
+        "totalStreamMinutes": 3782,
         "emotes": {
           "❤": 51,
           "🙌": 26,
@@ -1233,10 +1233,6 @@
       "chatMemory": [
         {
           "user": "parky",
-          "msg": "Back!"
-        },
-        {
-          "user": "parky",
           "msg": "get that DUB"
         },
         {
@@ -1270,6 +1266,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty for the votes wapi"
         }
       ],
       "customCommands": {},
@@ -4179,8 +4179,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784092717861,
   "auth": {
-    "accessToken": "d4eb3e23a49678b2ebc96f15f1cd5bb8",
-    "refreshToken": "fda6b5e2b5327bf39d8c4051548a481c",
+    "accessToken": "401ff2cdd6038835be03d3e5b02bc5ae",
+    "refreshToken": "d3b671c2f9345301b32027ff1a58a288",
     "sessionToken": "c1ea610e3849704800366427e5ab9ff3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
