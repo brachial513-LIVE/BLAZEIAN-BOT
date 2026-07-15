@@ -326,12 +326,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 10271,
+        "totalVotes": 10291,
         "totalSubs": 8,
-        "totalChatMessages": 1112,
+        "totalChatMessages": 1113,
         "totalStreamMinutes": 428,
         "emotes": {
-          "🗳": 264,
+          "🗳": 267,
           "❤": 23,
           "🙌": 24,
           "🔥": 32,
@@ -439,10 +439,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @hiray is raiding with a party of 8! Welcome raiders!! 🎉"
-        },
-        {
           "user": "hiray",
           "msg": "LFG roshi"
         },
@@ -477,6 +473,10 @@
         {
           "user": "nadietv",
           "msg": "i failed 🥲"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xlords just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1548,7 +1548,7 @@
       "username": "capt_rob_advent",
       "language": "en",
       "stats": {
-        "totalVotes": 703,
+        "totalVotes": 706,
         "totalSubs": 10,
         "totalChatMessages": 282,
         "totalStreamMinutes": 2497,
@@ -2502,8 +2502,8 @@
       "language": "en",
       "stats": {
         "totalVotes": 816,
-        "totalSubs": 19,
-        "totalChatMessages": 111,
+        "totalSubs": 22,
+        "totalChatMessages": 114,
         "totalStreamMinutes": 1725,
         "emotes": {
           "❤": 22,
@@ -2545,18 +2545,6 @@
       "chatMemory": [
         {
           "user": "thekingofc",
-          "msg": "da twitch"
-        },
-        {
-          "user": "thekingofc",
-          "msg": "to fazendo live e so esta carregando o chat"
-        },
-        {
-          "user": "thekingofc",
-          "msg": "do joguinho la"
-        },
-        {
-          "user": "thekingofc",
           "msg": "quero melhorar pra ir farma esses 50k diario de moeda"
         },
         {
@@ -2582,6 +2570,18 @@
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "marowak33",
+          "msg": "tyty"
+        },
+        {
+          "user": "g4mersm",
+          "msg": "we"
+        },
+        {
+          "user": "thekingofc",
+          "msg": "GM GM"
         }
       ],
       "customCommands": {
@@ -4205,7 +4205,7 @@
   "auth": {
     "accessToken": "9790bd963bc61aa0f5607f67d2e8e4de",
     "refreshToken": "ad8213e964ad7f79848e34e00b0bdb65",
-    "sessionToken": "f821a6780f72472ee62841f6bdef29d6",
+    "sessionToken": "5964dbad75852515ee62299edaa119e6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
