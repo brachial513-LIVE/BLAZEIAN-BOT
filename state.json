@@ -519,7 +519,7 @@
       "stats": {
         "totalVotes": 2002,
         "totalSubs": 3,
-        "totalChatMessages": 1293,
+        "totalChatMessages": 1294,
         "totalStreamMinutes": 128,
         "emotes": {
           "🔥": 28,
@@ -548,7 +548,9 @@
           "💥": 18,
           "📴": 2,
           "👋": 2,
-          "😢": 1
+          "😢": 1,
+          "⚠": 1,
+          "🎯": 1
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -577,14 +579,12 @@
           "💥": "💥",
           "📴": "📴",
           "👋": "👋",
-          "😢": "😢"
+          "😢": "😢",
+          "⚠": "⚠",
+          "🎯": "🎯"
         }
       },
       "chatMemory": [
-        {
-          "user": "cripiechuccles",
-          "msg": "thats dope!"
-        },
         {
           "user": "potato_pete",
           "msg": "nicce"
@@ -620,6 +620,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up jt_squared2! You're projected to fall below Verified (Tier 2) in approximately 7 day(s) (Jul 22 at 08:01 UTC). Current stream hours: 21.4h / 10h required. Stream more to maintain your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -2778,7 +2782,7 @@
         "totalVotes": 2851,
         "totalSubs": 50,
         "totalChatMessages": 116,
-        "totalStreamMinutes": 642,
+        "totalStreamMinutes": 662,
         "emotes": {
           "❤": 19,
           "🙌": 68,
