@@ -1274,6 +1274,21 @@ function markFired(channelId, key) {
   chatCooldowns[channelId][key] = Date.now();
 }
 
+// COMMENT MODE — per-channel setting (!setcommentmode low/regular/heavy) controlling how often event
+// celebrations (follow/vote/sub/gift/tip/raid) actually post a chat message. Proven live need: during a
+// burst of events (e.g. many votes in a row) EVERY one got its own message, which reads as spam to some
+// streamers. "low" enforces real quiet time between celebrations (message skipped entirely, not just the
+// AI text) — stats/tracking still happen underneath regardless of mode, only the chat message is gated.
+const COMMENT_MODE_COOLDOWN = { low: 25000, regular: 0, heavy: 0 };
+function shouldCelebrate(ch, channelId) {
+  const mode = (ch?.commentMode || "regular");
+  const cooldownMs = COMMENT_MODE_COOLDOWN[mode] ?? 0;
+  if (!cooldownMs) return true; // regular/heavy: always celebrate, no suppression
+  if (onCooldown(channelId, "celebrate", cooldownMs)) return false;
+  markFired(channelId, "celebrate");
+  return true;
+}
+
 const SMALLTALK_TRIGGERS = [
   { key: "gg",    pattern: /\bgg\b|\bgood game\b/i, cooldown: 90000,  prob: 0.60,
     responses: ["GG!! 🔥💚 absolute legend behavior", "GG in chat!! 💚 that was clean", "GG!! 💚🔥 let's gooo"] },
@@ -1685,6 +1700,22 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
+  // !setcommentmode [low|regular|heavy] — owner only. Controls how often event celebrations
+  // (follow/vote/sub/gift/tip/raid) actually post a message. "low" = real quiet time enforced
+  // between celebrations (skips the message entirely during a burst), "regular" = default,
+  // every event gets its own message, "heavy" = same as regular for now (no suppression).
+  if (m.startsWith("!setcommentmode")) {
+    if (!isOwner) { await sendChatT(channelId, T.cmdOwnerOnly); return; }
+    const mode = msg.includes(" ") ? msg.slice(msg.indexOf(" ") + 1).trim().toLowerCase() : "";
+    if (!["low", "regular", "heavy"].includes(mode)) {
+      await sendChat(channelId, "Usage: !setcommentmode [low|regular|heavy] — e.g. !setcommentmode low for quieter chat during busy streams 💚");
+      return;
+    }
+    ch.commentMode = mode; saveChannels();
+    await sendChat(channelId, `✅ Comment mode set to **${mode}**! ${mode === "low" ? "I'll go quieter during bursts of events." : mode === "heavy" ? "I'll celebrate every single event." : "Back to normal — every event gets its own shoutout."}`);
+    return;
+  }
+
   // Tip-tier reward config (owner only) — for streamers running their own "tip $X for Y" promo.
   // !settipreward [name] — what the reward is called (e.g. "eggs")
   if (m.startsWith("!settipreward")) {
@@ -1886,8 +1917,10 @@ async function handleEvent(message) {
     const ch = channels[channelId];
     const raider = payload.raider?.username || payload.raider?.displayName || "Someone";
     setReaction(channelId, "raid", raider);
-    const ai = await aiShout(ch, `${raider} just RAIDED ${ch.username}'s stream and brought their whole crew! Welcome the raiders with huge hype and heart.`, { addName: raider });
-    await sendChatT(channelId, ai || getRandom(getMsg(channelId).raid(raider)));
+    if (shouldCelebrate(ch, channelId)) {
+      const ai = await aiShout(ch, `${raider} just RAIDED ${ch.username}'s stream and brought their whole crew! Welcome the raiders with huge hype and heart.`, { addName: raider });
+      await sendChatT(channelId, ai || getRandom(getMsg(channelId).raid(raider)));
+    }
     return;
   }
   if (metadata.subscriptionType === "channel.subscribe" && channelId && channels[channelId]) {
@@ -1921,10 +1954,12 @@ async function handleEvent(message) {
       else if (prevRecord >= 2) info += ` (Channel record is ${prevRecord} months, held by ${ch.stats.recordUser}.)`;
     }
     setReaction(channelId, "sub", user);
-    const ai = await aiShout(ch,
-      `${user} just SUBSCRIBED to ${ch.username}'s channel! ${info} Celebrate them personally and hyped${realData ? ", mention the month count naturally, and if it's a record make a BIG deal of it" : ""}.`,
-      { addName: user });
-    await sendChatT(channelId, ai || getRandom(getMsg(channelId).sub(user)));
+    if (shouldCelebrate(ch, channelId)) {
+      const ai = await aiShout(ch,
+        `${user} just SUBSCRIBED to ${ch.username}'s channel! ${info} Celebrate them personally and hyped${realData ? ", mention the month count naturally, and if it's a record make a BIG deal of it" : ""}.`,
+        { addName: user });
+      await sendChatT(channelId, ai || getRandom(getMsg(channelId).sub(user)));
+    }
     return;
   }
   if (metadata.subscriptionType === "channel.subscription.gift" && channelId && channels[channelId]) {
@@ -1933,8 +1968,10 @@ async function handleEvent(message) {
     const count = payload.giftCount || 1;
     ch.stats.totalSubs += count; saveChannels();
     setReaction(channelId, "giftsub", sender);
-    const ai = await aiShout(ch, `${sender} just GIFTED ${count} sub(s) to ${ch.username}'s community! That's incredibly generous — hype them up as a legend and rally the chat to show love.`, { addName: sender });
-    await sendChatT(channelId, ai || getRandom(getMsg(channelId).giftsub(sender, count)));
+    if (shouldCelebrate(ch, channelId)) {
+      const ai = await aiShout(ch, `${sender} just GIFTED ${count} sub(s) to ${ch.username}'s community! That's incredibly generous — hype them up as a legend and rally the chat to show love.`, { addName: sender });
+      await sendChatT(channelId, ai || getRandom(getMsg(channelId).giftsub(sender, count)));
+    }
     return;
   }
   if (metadata.subscriptionType === "channel.vote" && channelId && channels[channelId]) {
@@ -1943,8 +1980,10 @@ async function handleEvent(message) {
     const amount = payload.amount || 1;
     ch.stats.totalVotes += amount; saveChannels();
     setReaction(channelId, "vote", user);
-    const ai = await aiShout(ch, `${user} just voted ${amount} for ${ch.username}! Thank them warmly for the support.`, { addName: user });
-    await sendChatT(channelId, ai || getRandom(getMsg(channelId).vote(user, amount)));
+    if (shouldCelebrate(ch, channelId)) {
+      const ai = await aiShout(ch, `${user} just voted ${amount} for ${ch.username}! Thank them warmly for the support.`, { addName: user });
+      await sendChatT(channelId, ai || getRandom(getMsg(channelId).vote(user, amount)));
+    }
     return;
   }
   // Blaze's real event name is "channel.thanks" (per dev.blaze.stream/docs/events), not "channel.tip" —
@@ -1962,8 +2001,10 @@ async function handleEvent(message) {
     // lets an owner configure that, so the celebration mentions the actual reward, not just the tip.
     const tier = findTipTier(ch, rawAmt);
     const rewardNote = tier ? ` This tip qualifies for ${tier.count} ${ch.tipRewardName || "reward(s)"} — mention that specifically.` : "";
-    const ai = await aiShout(ch, `${rawUser} just TIPPED ${amtTxt} to ${ch.username}! That's real support with real money — thank them BIG, warm and personal.${rewardNote}`, { addName: rawUser });
-    await sendChatT(channelId, ai || getRandom(getMsg(channelId).tip(rawUser, amtTxt)));
+    if (shouldCelebrate(ch, channelId)) {
+      const ai = await aiShout(ch, `${rawUser} just TIPPED ${amtTxt} to ${ch.username}! That's real support with real money — thank them BIG, warm and personal.${rewardNote}`, { addName: rawUser });
+      await sendChatT(channelId, ai || getRandom(getMsg(channelId).tip(rawUser, amtTxt)));
+    }
     return;
   }
   if (metadata.subscriptionType === "channel.follow") {
@@ -1997,8 +2038,10 @@ async function handleEvent(message) {
     if (channelId && channels[channelId] && user && !isBot) {
       const ch = channels[channelId];
       setReaction(channelId, "follow", user);
-      const ai = await aiShout(ch, `${user} just followed ${ch.username}! Welcome them to the family warmly.`, { addName: user });
-      await sendChatT(channelId, ai || getRandom(getMsg(channelId).follow(user)));
+      if (shouldCelebrate(ch, channelId)) {
+        const ai = await aiShout(ch, `${user} just followed ${ch.username}! Welcome them to the family warmly.`, { addName: user });
+        await sendChatT(channelId, ai || getRandom(getMsg(channelId).follow(user)));
+      }
     }
     return;
   }
