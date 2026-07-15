@@ -2792,7 +2792,7 @@
         "totalVotes": 2851,
         "totalSubs": 50,
         "totalChatMessages": 118,
-        "totalStreamMinutes": 709,
+        "totalStreamMinutes": 725,
         "emotes": {
           "❤": 19,
           "🙌": 68,
@@ -3724,8 +3724,8 @@
       "stats": {
         "totalVotes": 738,
         "totalSubs": 26,
-        "totalChatMessages": 115,
-        "totalStreamMinutes": 413,
+        "totalChatMessages": 116,
+        "totalStreamMinutes": 429,
         "emotes": {
           "❤": 5,
           "🙌": 28,
@@ -3752,10 +3752,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -3791,6 +3787,10 @@
         {
           "user": "botger",
           "msg": "🔴 thewill3ffect is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "thewill3ffect",
+          "msg": "we each got out owwn>"
         }
       ],
       "customCommands": {},
@@ -4215,8 +4215,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784124419171,
   "auth": {
-    "accessToken": "9a43e2548d3354c927194a8eb42255d1",
-    "refreshToken": "45a3a21307a595f246526a33916fb5bc",
+    "accessToken": "fd6156eadbd5c1902e53569f29c8dea6",
+    "refreshToken": "8afe7ecbe70f0b7bedc5fe69e7e2626b",
     "sessionToken": "5964dbad75852515ee62299edaa119e6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
