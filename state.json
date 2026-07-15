@@ -1971,8 +1971,8 @@
       "stats": {
         "totalVotes": 2045,
         "totalSubs": 13,
-        "totalChatMessages": 1800,
-        "totalStreamMinutes": 1426,
+        "totalChatMessages": 1819,
+        "totalStreamMinutes": 1446,
         "emotes": {
           "❤": 44,
           "🙌": 62,
@@ -1981,10 +1981,10 @@
           "😊": 5,
           "👍": 2,
           "🔴": 18,
-          "🎉": 36,
+          "🎉": 37,
           "📴": 18,
           "👋": 18,
-          "⚡": 15,
+          "⚡": 16,
           "😂": 13,
           "😍": 12,
           "🔥": 24,
@@ -1996,7 +1996,7 @@
           "🩷": 1,
           "💙": 10,
           "💃": 16,
-          "🤣": 52,
+          "🤣": 54,
           "🧡": 16,
           "🚨": 36,
           "😘": 2,
@@ -2136,32 +2136,24 @@
       },
       "chatMemory": [
         {
+          "user": "future42",
+          "msg": "Absolutely"
+        },
+        {
+          "user": "future42",
+          "msg": "Yeah"
+        },
+        {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 150)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 25 vote(s) (total: 175)! Thank you!! 🗳️"
+          "msg": "🎉 Future42 just reached Level 1! ⚡ (1,005 XP)"
         },
         {
           "user": "future42",
-          "msg": "Blaze it bro"
+          "msg": "Just got home from a traveling Poker game!!"
         },
         {
           "user": "future42",
-          "msg": "Allen Parsons project"
-        },
-        {
-          "user": "future42",
-          "msg": "Jim Croce"
-        },
-        {
-          "user": "future42",
-          "msg": "Wow"
-        },
-        {
-          "user": "future42",
-          "msg": "Your pick"
+          "msg": "Took em to school!!🤣🤣"
         },
         {
           "user": "future42",
@@ -2169,11 +2161,19 @@
         },
         {
           "user": "future42",
-          "msg": "That is EARLY!!"
+          "msg": "Correct"
         },
         {
           "user": "future42",
-          "msg": "Yes"
+          "msg": "My Poker bamr is Stacks!!"
+        },
+        {
+          "user": "future42",
+          "msg": "Poker name"
+        },
+        {
+          "user": "future42",
+          "msg": "Have a great night..."
         }
       ],
       "customCommands": {},
@@ -2185,8 +2185,8 @@
       "botVip": true,
       "streamTitle": "In the Planet Kaiju trait store — Crypto",
       "gameOverride": "",
-      "profile": "Briggsy's community thrives on good vibes, humor, and creativity, fueled by fireworks and fun, particularly in Farlight 84. Expect \"Ababa\" and \"Hahaa\" cheers, affectionate mentions of Mellow, and unique slang like \"Lutk mode,\" \"Hoho\" moments, and Draw — IRL games. Celebrate Briggsy's creativity with \"Ababa\" and \"Hahaa\" cheers, and shout out \"Mano de Dios\" and \"GN GN!",
-      "_profileAtCount": 1735,
+      "profile": "Briggsy's community thrives on good vibes, humor, and creativity, fueled by fireworks and fun, particularly in Farlight 84. Expect \"Ababa\" and \"Hahaa\" cheers, affectionate mentions of Mellow, and unique slang like \"Lutk mode,\" \"Hoho\" moments, and Draw — IRL games. Celebrate Briggsy's creativity with \"Ababa\" and \"Hahaa\" cheers, shout out \"Mano de Dios\" and \"GN GN!\" and throw in some Blaze-tastic music references like Allen Parsons project and Bob Dylan.",
+      "_profileAtCount": 1807,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/648fac6d-22b1-49d3-89fe-81a1ac7f5f81.gif",
       "loyalty": {
         "vitrene": {
@@ -4052,15 +4052,19 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 5,
-        "totalStreamMinutes": 0,
+        "totalChatMessages": 7,
+        "totalStreamMinutes": 13,
         "emotes": {
           "❤": 2,
-          "🙌": 1
+          "🙌": 1,
+          "🔴": 1,
+          "🎉": 1
         },
         "emoteNames": {
           "❤": "❤",
-          "🙌": "🙌"
+          "🙌": "🙌",
+          "🔴": "🔴",
+          "🎉": "🎉"
         }
       },
       "chatMemory": [
@@ -4083,6 +4087,14 @@
         {
           "user": "lady_iris",
           "msg": "pegar o drop"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 lady_iris is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -4092,7 +4104,8 @@
       "timedMessages": [],
       "tipTiers": [],
       "locked": false,
-      "followed": true
+      "followed": true,
+      "streamTitle": "cszinho/dota e arpgs — Crypto"
     }
   },
   "blocklist": [
