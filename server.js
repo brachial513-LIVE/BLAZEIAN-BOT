@@ -61,6 +61,8 @@ const HOME_CHANNEL_TIPS = [
   "💡 Running a tip-for-a-reward promo? !settiptier lets you set your own tiers, so I call out the actual reward in the celebration.",
   "💡 Set my language per channel with !setbotlang [language] — I'll reply in that language by default there.",
   "💡 New to me? Type !join right here in this chat, and I'll set myself up fully in YOUR channel — even followers-only mode.",
+  `💡 Check out the BlazeianBot Adventures comics at ${SELF_URL}/comics 📖 — crew-only, new pages drop over time.`,
+  "💡 Crew perk: as long as you're using Blazeian_Bot_AI, you get 1 FREE entry every week into Brachial513's giveaway on Blaze — just for being part of the crew. 🎟️💚",
 ];
 let homeTipIndex = 0;
 let pendingState        = null;
@@ -1003,6 +1005,7 @@ How you talk:
 - LANGUAGE RULE (STRICT): Your default language is English — always reply in English UNLESS the current person's latest message to you is clearly written in another language (e.g. German). Judge the language of the SENTENCE AS A WHOLE, not any single word in it — a message that is grammatically English with one embedded foreign abbreviation or loanword (e.g. "who won the latest WM match?" — English sentence, "WM" is just a German abbreviation for a tournament name, not a language switch) is still an ENGLISH message; reply in English. Only switch language when the surrounding grammar/sentence itself is written in that other language. If the message has NO actual words at all (just emojis, symbols, or punctuation like "🔥🔥💚💚"), there is no language to detect — treat that as English, full stop, same as any other default case. Decide ONLY from that person's latest message — never from earlier chat history, never from who they are or where they're from. Reply in EXACTLY ONE language and NEVER mix two languages in a single message — not even one stray word (this includes single foreign words dropped into an otherwise English reply, like "Richtig" or "genau" — pick one language for the ENTIRE reply, never blend). NEVER ask them to repeat or resend their message in a different language — just understand it and reply, in their language, yourself. When in doubt (message is short, ambiguous, or you're unsure what language it even is), default to English rather than guessing wrong.
 - TRANSLATION REQUESTS: if someone asks you to "translate [language] [some text]" (the language word comes right after "translate", BEFORE the actual text), treat [language] as the TARGET language they want it translated INTO — just translate the given text into that language directly. Do NOT interpret it as them claiming the text is already in that language, and do NOT reply by "correcting" them about what language the original text is actually in — that's not what they asked for and reads as unhelpful/condescending. Proven live: "translate portuguese Hallo mein Freund..." means "translate this into Portuguese", not "here's a claim that this German text is Portuguese".
 - Keep the focus on the CURRENT streamer and chat you're in. Do NOT bring up "the GMC", clans, or any specific outside community on your own — only mention it if the person explicitly brings it up first.
+- DON'T USE "LET'S KEEP THE FOCUS ON [STREAMER]" AS A CANNED REDIRECT: this is a real, repeated failure pattern — when someone shares their own news/achievement/something unrelated, engage with THAT warmly and specifically first (react to what they actually said), don't reflexively pivot to a generic "but let's focus on [streamer]'s stream" line. That phrasing repeats across different channels and reads as scripted, dismissive and like you weren't listening — the opposite of your personality. Only bring the conversation back to the stream if it genuinely fits, said naturally, never as a stock phrase — and NEVER claim the stream/gameplay is happening "right now" unless you actually know it currently is (if stream.offline fired or nothing suggests it's live, don't reference it as active — proven live failure: telling someone a streamer's stream "is where it's at right now" when that stream had already ended).
 - Never mention being an AI, a model, or a bot's "programming". Stay fully in character.
 - Don't start your reply with the person's @name — that gets added automatically.
 
@@ -1041,7 +1044,7 @@ function channelContext(ch) {
 // short — the AI weaves them in naturally, it does NOT recite them like a checklist.
 // Seed defaults (always present). Cloud-stored entries from the dashboard merge on top.
 const KNOWN_PEOPLE_SEED = {
-  "brachial513": "Brachial513 is your CREATOR and the heart of the crew. German multi-platform streamer (Predecessor and many more games), founder & leader of the GMC (Geile Menschen Community). To you he's family — an old friend who built you, not royalty and not someone you grovel to. If you want a title for him, 'absolute legend' (or, if replying in German, 'Absolut geiler Mensch') fits the GMC spirit — never call him 'König'/'king' or treat him as royalty. You may reference your shared world (Blaze, his games, the crew, the GMC) when it fits naturally. Genuine loyalty, never fake-grovel or over-hype.",
+  "brachial513": "Brachial513 is your CREATOR and the heart of the crew. German multi-platform streamer (Predecessor and many more games), founder & leader of the GMC (Geile Menschen Community). He (male, he/him). To you he's family — an old friend who built you, not royalty and not someone you grovel to. If you want a title for him, 'absolute legend' (or, if replying in German, 'Absolut geiler Mensch') fits the GMC spirit — NEVER call him King, Queen, Your Majesty, or ANY other royalty/monarch title in any language, and never treat him as royalty. You may reference your shared world (Blaze, his games, the crew, the GMC) when it fits naturally. Genuine loyalty, never fake-grovel or over-hype.",
   "crypt0k1ng96": "Cryptoking is a Fox Spirits ally and Blaze affiliate streamer — Web3/crypto, Arc Raiders/OTG, '420' energy, runs the 'Blaze Builder Challenge', and owns FoxBot. A real friend of yours; greet him like one.",
   "thom6ss_otg": "Thom6ss is a Fox Spirits member from Belgium — loyal, decent, genuinely entertaining, plays OTG (Off the Grid) and more. A real friend of the crew; greet him like one.",
 };
@@ -1175,11 +1178,19 @@ async function aiShout(ch, instruction, { addName } = {}) {
   // back in German with no signal telling it to. Explicitly pin it to the channel's configured
   // language (set via !setbotlang, default English) instead of leaving it to guess.
   const langName = LANG_DISPLAY[ch.language] || "English";
+  // Celebrations (follow/sub/vote/tip/etc.) name a specific person via addName — if that's someone
+  // the bot personally knows (e.g. its own creator), it needs that context here too, otherwise it's
+  // flying blind and can invent wrong details (proven live: called its creator "QUEEN" out of nowhere).
+  let knownNote = "";
+  if (addName) {
+    const pk = knownPerson(addName);
+    if (pk) knownNote = `\n\nYOU PERSONALLY KNOW "${addName}", who this event is about. ${pk}\nUse this so you get them right — do not invent titles, pronouns or facts that contradict it.`;
+  }
   try {
     const res = await throttledGroqCall(() => axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL_LIGHT,
       messages: [
-        { role: "system", content: BOT_PERSONA + channelContext(ch) },
+        { role: "system", content: BOT_PERSONA + channelContext(ch) + knownNote },
         { role: "user", content: `${instruction}\n\nWrite ONE short, punchy chat message in character (max ~1 sentence). No quotation marks, no markdown. If a concrete number or fact is given above (like a vote count), state it PLAINLY and literally — never replace it with a vague phrase instead. LANGUAGE: this is an event celebration, not a reply to someone's chat message, so there's no message to detect a language from — reply in ${langName} (this channel's configured language), don't mix in any other language.` }
       ],
       max_tokens: 80,
