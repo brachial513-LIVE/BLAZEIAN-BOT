@@ -1114,21 +1114,21 @@
       "language": "en",
       "stats": {
         "totalVotes": 2526,
-        "totalSubs": 13,
-        "totalChatMessages": 1237,
+        "totalSubs": 14,
+        "totalChatMessages": 1267,
         "totalStreamMinutes": 3857,
         "emotes": {
           "❤": 55,
-          "🙌": 29,
+          "🙌": 30,
           "🗳": 162,
           "📴": 39,
           "👋": 43,
           "🔴": 36,
           "🎉": 61,
           "🏆": 13,
-          "🤗": 13,
+          "🤗": 14,
           "💎": 5,
-          "🎁": 27,
+          "🎁": 29,
           "📢": 16,
           "🔥": 122,
           "😘": 20,
@@ -1141,16 +1141,16 @@
           "🫂": 3,
           "😶": 12,
           "🌫": 12,
-          "👍": 11,
-          "🥰": 33,
+          "👍": 12,
+          "🥰": 34,
           "♥": 1,
           "🦊": 6,
-          "😂": 8,
+          "😂": 11,
           "😅": 1,
           "🍺": 1,
           "🫡": 4,
           "💚": 13,
-          "💃": 34,
+          "💃": 37,
           "🙏": 1,
           "💪": 2,
           "😊": 1,
@@ -1176,7 +1176,10 @@
           "😄": 2,
           "🐽": 1,
           "✌": 1,
-          "💰": 2
+          "💰": 2,
+          "🐇": 3,
+          "🫨": 1,
+          "😉": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -1237,49 +1240,52 @@
           "😄": "😄",
           "🐽": "🐽",
           "✌": "✌",
-          "💰": "💰"
+          "💰": "💰",
+          "🐇": "🐇",
+          "🫨": "🫨",
+          "😉": "😉"
         }
       },
       "chatMemory": [
+        {
+          "user": "triz_draw",
+          "msg": "🤗😉"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "😂"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "👍"
+        },
         {
           "user": "botger",
           "msg": "Holi Holiii Holiiii"
         },
         {
           "user": "triz_draw",
-          "msg": "Awwwww hashaha"
+          "msg": "say hello for a while before going to draw"
         },
         {
           "user": "triz_draw",
-          "msg": "I thought I was already following you. OMG"
+          "msg": "Ahhaahaha"
         },
         {
           "user": "triz_draw",
-          "msg": "I'm here!! How ry,??"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @fluffy is raiding with a party of 3! Welcome raiders!! 🎉"
+          "msg": "Yessss"
         },
         {
           "user": "triz_draw",
-          "msg": "Enjoying?"
+          "msg": "Botger has"
         },
         {
           "user": "triz_draw",
-          "msg": "Nice nice"
+          "msg": "Yessss it's nice 😂"
         },
         {
           "user": "triz_draw",
-          "msg": "Ahhah"
-        },
-        {
-          "user": "fluffy",
-          "msg": "hey @triz_draw"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "Holiii @fluffy"
+          "msg": "So funny"
         }
       ],
       "customCommands": {},
@@ -2666,7 +2672,7 @@
         "totalVotes": 1928,
         "totalSubs": 13,
         "totalChatMessages": 212,
-        "totalStreamMinutes": 889,
+        "totalStreamMinutes": 894,
         "emotes": {
           "❤": 19,
           "🙌": 23,
@@ -4227,8 +4233,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784124419171,
   "auth": {
-    "accessToken": "b3dc505082178fd64892ce8f3ac217a0",
-    "refreshToken": "f269f22104348880ea9b12537a396148",
+    "accessToken": "82b07cd9dc5f63bbe102527f5e573216",
+    "refreshToken": "012a5791a67765bcd685ea6b93e1e50d",
     "sessionToken": "20c8f2a3557bcc3edeecd5300cddb0ea",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
