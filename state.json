@@ -2687,8 +2687,8 @@
       "stats": {
         "totalVotes": 1928,
         "totalSubs": 14,
-        "totalChatMessages": 225,
-        "totalStreamMinutes": 979,
+        "totalChatMessages": 227,
+        "totalStreamMinutes": 984,
         "emotes": {
           "❤": 19,
           "🙌": 24,
@@ -2766,10 +2766,6 @@
       },
       "chatMemory": [
         {
-          "user": "vitrene",
-          "msg": "appreciate it!"
-        },
-        {
           "user": "fluffy",
           "msg": "🥰"
         },
@@ -2804,6 +2800,10 @@
         {
           "user": "zoob_21",
           "msg": "🔥🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "No keyword set. Use !setkeyword first."
         }
       ],
       "customCommands": {},
@@ -3687,7 +3687,7 @@
         "totalVotes": 3121,
         "totalSubs": 90,
         "totalChatMessages": 95,
-        "totalStreamMinutes": 1123,
+        "totalStreamMinutes": 1128,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -4258,8 +4258,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784124419171,
   "auth": {
-    "accessToken": "21da9af6bce4bb748e5b1012ad5f7bf5",
-    "refreshToken": "ed356494d482c5a1421608350966c67c",
+    "accessToken": "4911bd3a1dc4aabf55a70bcd375b2dd0",
+    "refreshToken": "63e772ddf142661cea70c48e48a10600",
     "sessionToken": "20c8f2a3557bcc3edeecd5300cddb0ea",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
