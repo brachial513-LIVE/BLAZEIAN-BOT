@@ -2781,8 +2781,8 @@
       "stats": {
         "totalVotes": 2851,
         "totalSubs": 50,
-        "totalChatMessages": 116,
-        "totalStreamMinutes": 662,
+        "totalChatMessages": 117,
+        "totalStreamMinutes": 670,
         "emotes": {
           "❤": 19,
           "🙌": 68,
@@ -2791,8 +2791,8 @@
           "✌": 1,
           "😊": 1,
           "👍": 1,
-          "📴": 5,
-          "👋": 9,
+          "📴": 6,
+          "👋": 10,
           "🗳": 9,
           "🔴": 5,
           "🎉": 5,
@@ -2815,10 +2815,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "grook",
-          "msg": "parky"
-        },
         {
           "user": "just_for_lucas",
           "msg": "🔥🔥🔥"
@@ -2854,6 +2850,10 @@
         {
           "user": "botger",
           "msg": "🔴 grook is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2864,7 +2864,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "1 SUB = 1 ENTRY ( 255  VOTES ) LETS GO! — Cuphead",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "grook's community is a chill, supportive space where Blazeians celebrate their love for gaming and good vibes. They're passionate about giveaways, especially the 255-vote one, and love seeing grook's streamer dashboard on https://blazeian-bot.onrender.com. Expect to hear \"tyy\" and \"avisiiiii\" as thanks, and catchphrases like \"gracias basura\" and \"xd\" - a playful jab at generosity.",
       "_profileAtCount": 77,
