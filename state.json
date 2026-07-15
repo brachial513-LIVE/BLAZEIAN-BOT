@@ -2503,14 +2503,14 @@
       "stats": {
         "totalVotes": 816,
         "totalSubs": 19,
-        "totalChatMessages": 110,
-        "totalStreamMinutes": 1719,
+        "totalChatMessages": 111,
+        "totalStreamMinutes": 1720,
         "emotes": {
           "❤": 22,
           "🙌": 11,
           "🔥": 13,
-          "🔴": 13,
-          "🎉": 13,
+          "🔴": 14,
+          "🎉": 14,
           "📴": 14,
           "👋": 14,
           "😂": 4,
@@ -2543,10 +2543,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "thekingofc",
-          "msg": "o meu tambem caiu"
-        },
         {
           "user": "thekingofc",
           "msg": "da twitch"
@@ -2582,6 +2578,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -2593,7 +2593,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🔴l2PrideEssence| PvP,PvE  o melhor EE da minha Rua — Talk Shows & Podcasts",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -3822,7 +3822,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 19,
-        "totalStreamMinutes": 845,
+        "totalStreamMinutes": 865,
         "emotes": {
           "💪": 2,
           "💚": 7,
