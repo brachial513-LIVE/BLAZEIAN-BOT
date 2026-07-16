@@ -1339,8 +1339,8 @@
       "stats": {
         "totalVotes": 2943,
         "totalSubs": 2,
-        "totalChatMessages": 4014,
-        "totalStreamMinutes": 1342,
+        "totalChatMessages": 4019,
+        "totalStreamMinutes": 1346,
         "emotes": {
           "❤": 1601,
           "🎵": 154,
@@ -1492,26 +1492,6 @@
       },
       "chatMemory": [
         {
-          "user": "makesonlybeats",
-          "msg": "hey weri!"
-        },
-        {
-          "user": "makesonlybeats",
-          "msg": "oh it must be thursday"
-        },
-        {
-          "user": "weri",
-          "msg": "Yo allthethingies"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 8 votes, @MakesOnlyBeats!"
-        },
-        {
           "user": "rob_osp",
           "msg": "@makesonlybeats — thanks for the 8 votes! 🗳️ Every vote helps."
         },
@@ -1530,6 +1510,26 @@
         {
           "user": "makesonlybeats",
           "msg": "when I make a sandwich I put meat as the buns and meat in the middle, maybe some cheese here and there"
+        },
+        {
+          "user": "skyasin0077",
+          "msg": "Hello everyone"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "halloooo"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Nudes you say? Ewwww"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "See. Sam says NO NUDITY!"
+        },
+        {
+          "user": "skyasin0077",
+          "msg": "Hey uncle funk enjin weekly"
         }
       ],
       "customCommands": {},
@@ -4274,12 +4274,27 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {}
+        "emotes": {
+          "❤": 2,
+          "🙌": 1
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌"
+        }
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -4316,8 +4331,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784163324309,
   "auth": {
-    "accessToken": "2601202cd4020684bfe8944117bfbb2a",
-    "refreshToken": "3904a518aa68d104db98033185922025",
+    "accessToken": "c87919e9c599602f1bff1c0a931aebdd",
+    "refreshToken": "d986620133ff9d6c39c794038388561e",
     "sessionToken": "20c8f2a3557bcc3edeecd5300cddb0ea",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
