@@ -326,12 +326,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 10614,
+        "totalVotes": 10664,
         "totalSubs": 8,
-        "totalChatMessages": 1119,
+        "totalChatMessages": 1120,
         "totalStreamMinutes": 428,
         "emotes": {
-          "🗳": 285,
+          "🗳": 288,
           "❤": 23,
           "🙌": 24,
           "🔥": 32,
@@ -440,10 +440,6 @@
       "chatMemory": [
         {
           "user": "nadietv",
-          "msg": "NOOOOOOOOOOOOOO"
-        },
-        {
-          "user": "nadietv",
           "msg": ":C"
         },
         {
@@ -477,6 +473,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @NadieTv just gave 100 vote(s) (total: 160)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 75)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -2423,16 +2423,16 @@
       "stats": {
         "totalVotes": 1512,
         "totalSubs": 1,
-        "totalChatMessages": 487,
-        "totalStreamMinutes": 1293,
+        "totalChatMessages": 493,
+        "totalStreamMinutes": 1300,
         "emotes": {
           "❤": 6,
           "🙌": 4,
           "🗳": 63,
           "🔴": 12,
           "🎉": 19,
-          "📴": 10,
-          "👋": 10,
+          "📴": 11,
+          "👋": 11,
           "🔥": 10,
           "💪": 1,
           "🤖": 1,
@@ -2450,7 +2450,8 @@
           "😁": 1,
           "😊": 1,
           "👀": 6,
-          "👁": 3
+          "👁": 3,
+          "🥰": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -2477,34 +2478,11 @@
           "😁": "😁",
           "😊": "😊",
           "👀": "👀",
-          "👁": "👁"
+          "👁": "👁",
+          "🥰": "🥰"
         }
       },
       "chatMemory": [
-        {
-          "user": "bidloperv",
-          "msg": "oh i thought it was me lagging lol"
-        },
-        {
-          "user": "bidloperv",
-          "msg": "gotcha"
-        },
-        {
-          "user": "bidloperv",
-          "msg": "wow"
-        },
-        {
-          "user": "bidloperv",
-          "msg": "i gotta p brb"
-        },
-        {
-          "user": "bidloperv",
-          "msg": "im back"
-        },
-        {
-          "user": "bidloperv",
-          "msg": "lol"
-        },
         {
           "user": "bidloperv",
           "msg": "lol"
@@ -2520,6 +2498,30 @@
         {
           "user": "bidloperv",
           "msg": "ok"
+        },
+        {
+          "user": "bidloperv",
+          "msg": "🥰"
+        },
+        {
+          "user": "bidloperv",
+          "msg": "lol"
+        },
+        {
+          "user": "bidloperv",
+          "msg": "sensei?"
+        },
+        {
+          "user": "bidloperv",
+          "msg": "all good man haha. gn buddy"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2528,7 +2530,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🎁Giveaway Wednesday!🎁❤️Path of Exile 2!❤️ — Path Of Exile 2",
+      "streamTitle": "",
       "profile": "nadietv - Your go-to for gaming grind sessions & chill vibes! Expect \"Worthy Goal\" mindset, Blazeian magic, and SMOOCHES. We're all about Path of Exile 2 & Dota, getting those Ws & being clever. Let's get this grind on! Drop those votes, shout out your favorite gaming moments, and remember: Blaze the night, Turn up the heat, Be the best you!",
       "_profileAtCount": 476,
       "gameOverride": "",
