@@ -332,7 +332,7 @@
       "stats": {
         "totalVotes": 10670,
         "totalSubs": 8,
-        "totalChatMessages": 1120,
+        "totalChatMessages": 1121,
         "totalStreamMinutes": 428,
         "emotes": {
           "🗳": 288,
@@ -385,7 +385,8 @@
           "😀": 2,
           "🦒": 4,
           "🐐": 1,
-          "😝": 1
+          "😝": 1,
+          "👑": 2
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -438,14 +439,11 @@
           "😀": "😀",
           "🦒": "🦒",
           "🐐": "🐐",
-          "😝": "😝"
+          "😝": "😝",
+          "👑": "👑"
         }
       },
       "chatMemory": [
-        {
-          "user": "nadietv",
-          "msg": ":C"
-        },
         {
           "user": "nadietv",
           "msg": "i failed 🥲"
@@ -481,6 +479,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 75)! Thank you!! 🗳️"
+        },
+        {
+          "user": "parky",
+          "msg": "👑KING ROSHI 👑"
         }
       ],
       "customCommands": {},
@@ -1337,8 +1339,8 @@
       "stats": {
         "totalVotes": 2943,
         "totalSubs": 2,
-        "totalChatMessages": 4013,
-        "totalStreamMinutes": 1341,
+        "totalChatMessages": 4014,
+        "totalStreamMinutes": 1342,
         "emotes": {
           "❤": 1601,
           "🎵": 154,
@@ -1490,10 +1492,6 @@
       },
       "chatMemory": [
         {
-          "user": "weri",
-          "msg": "Yo mob"
-        },
-        {
           "user": "makesonlybeats",
           "msg": "hey weri!"
         },
@@ -1528,6 +1526,10 @@
         {
           "user": "makesonlybeats",
           "msg": "it would be a sammy sammy"
+        },
+        {
+          "user": "makesonlybeats",
+          "msg": "when I make a sandwich I put meat as the buns and meat in the middle, maybe some cheese here and there"
         }
       ],
       "customCommands": {},
@@ -4265,6 +4267,25 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1087d984-7048-475d-b8f9-c93c14eefc15.gif",
       "profile": "lady_iris's community is a vibrant, welcoming space where fans affectionately refer to themselves as \"Iris Squad.\" They're passionate about live streams, often using slang like \"vamo de livezinha\" and \"pegar o drop.\" This channel is all about gaming, with a dash of fun and giveaways. Don't forget to celebrate lady_iris with \"❤️ NEW FOLLOWER!!\" and \"🎉\" when they gain a new fan.",
       "_profileAtCount": 13
+    },
+    "d415dbbe-f2bf-4a91-b670-2e41987b6660": {
+      "username": "parky",
+      "language": "en",
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {}
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "timedMessages": [],
+      "tipTiers": []
     }
   },
   "blocklist": [
