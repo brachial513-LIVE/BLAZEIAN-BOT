@@ -2717,8 +2717,8 @@
       "stats": {
         "totalVotes": 1929,
         "totalSubs": 14,
-        "totalChatMessages": 247,
-        "totalStreamMinutes": 1117,
+        "totalChatMessages": 250,
+        "totalStreamMinutes": 1120,
         "emotes": {
           "❤": 19,
           "🙌": 24,
@@ -2734,8 +2734,8 @@
           "🔴": 8,
           "🎉": 15,
           "🚨": 18,
-          "📴": 7,
-          "👋": 10,
+          "📴": 8,
+          "👋": 11,
           "🏅": 2,
           "💪": 3,
           "😁": 1,
@@ -2796,18 +2796,6 @@
       },
       "chatMemory": [
         {
-          "user": "agent00zani",
-          "msg": "what up LEDGEND"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "just lurking"
-        },
-        {
-          "user": "vitrene",
-          "msg": "cyberpunk is perfect for lurking xD"
-        },
-        {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @agent00zani is raiding with a party of 5! Welcome raiders!! 🎉"
         },
@@ -2834,6 +2822,18 @@
         {
           "user": "agent00zani",
           "msg": "🔥"
+        },
+        {
+          "user": "vitrene",
+          "msg": "thanks for watching!"
+        },
+        {
+          "user": "vitrene",
+          "msg": "have an awesome night/day!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2846,7 +2846,7 @@
       "botVip": true,
       "profile": "Welcome to vitrene's Blaze community, where the vibes are chill and the generosity is real! We're a tight-knit group of Blazeians who love classic games like Assassin's Creed IV: Black Flag and throw around German slang like \"geil\" and \"hammer geil\". We celebrate subs with \"GIFTED SUB!!\" and cheer on our streamer with \"Cheers to you!\" and \"Always Wins\" 💸💸💪🦾.",
       "_profileAtCount": 203,
-      "streamTitle": "Wake the F** Up, Samurai! | Cyberpunk 2077 — Cyberpunk 2077",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -4213,7 +4213,7 @@
         "totalVotes": 2,
         "totalSubs": 0,
         "totalChatMessages": 16,
-        "totalStreamMinutes": 94,
+        "totalStreamMinutes": 99,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -4293,17 +4293,18 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 32,
-        "totalStreamMinutes": 77,
+        "totalChatMessages": 34,
+        "totalStreamMinutes": 80,
         "emotes": {
           "❤": 8,
           "🙌": 4,
           "🔴": 1,
           "🎉": 1,
-          "👋": 2,
+          "👋": 3,
           "👀": 1,
           "😱": 1,
-          "😅": 3
+          "😅": 3,
+          "📴": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -4313,18 +4314,11 @@
           "👋": "👋",
           "👀": "👀",
           "😱": "😱",
-          "😅": "😅"
+          "😅": "😅",
+          "📴": "📴"
         }
       },
       "chatMemory": [
-        {
-          "user": "marowak33",
-          "msg": "hfhf"
-        },
-        {
-          "user": "itssscat",
-          "msg": "GG"
-        },
         {
           "user": "agent00zani",
           "msg": "just lurking"
@@ -4356,6 +4350,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ sinnerz just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -4368,9 +4370,10 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d42d19f-d21c-4ab4-be64-cb54d3f85210-profile_image-300x300.png",
-      "streamTitle": "[UK] 4th STREAM ON BLAZE! With @itssscat - ADHD - POWERED BY - ASK ME ANYTHING — Marvel Rivals",
+      "streamTitle": "",
       "profile": "**parky's Blaze Crew**\n\nWe're a UK-based squad powered by ADHD energy, where we vibe out to Marvel Rivals and more! Catchphrases like \"GG\" and \"who's my number 1 viewer?\" are staples here. Our streamer loves being celebrated with \"🔴\" and \"🎉\" emojis, and we're always down for a quick math problem or chat about our fave animals and colours.",
-      "_profileAtCount": 21
+      "_profileAtCount": 21,
+      "gameOverride": ""
     }
   },
   "blocklist": [
@@ -4398,8 +4401,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784227610769,
   "auth": {
-    "accessToken": "7cea42a42e81ef32c737293db1d2c9b7",
-    "refreshToken": "f23768462b22950868d954f6ddf8de20",
+    "accessToken": "8c608af122a573037763627959b0e587",
+    "refreshToken": "3d6b01960f3dbf88969337bcdcd5ae05",
     "sessionToken": "8940318f44eab7d14eaa9e6ddaaf6038",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
