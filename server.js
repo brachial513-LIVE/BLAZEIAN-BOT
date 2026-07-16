@@ -1349,10 +1349,15 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
   // ---- Direct @mention ----
   if (ml.includes("blazeian_bot") || ml.includes("blazeianbot")) {
     // Loop guard: another BOT pinged us → at most once per 3 min AND max 5/hour per bot (no spam loops).
+    // Shared "any bot" cooldown on top: when SEVERAL different bots ping us in a tight burst (e.g. right
+    // when Blazeian joins a busy channel), each one used to get its own reply since the cooldown was keyed
+    // per-bot-name only — proven live as a spam pattern. Now only one bot-banter reply fires per window.
     if (senderIsBot) {
       if (onCooldown(channelId, "botbanter_" + user.toLowerCase(), 180000)) return;
+      if (onCooldown(channelId, "botbanter_any", 45000)) return;
       if (!botBanterAllowed(channelId, user)) return;
       markFired(channelId, "botbanter_" + user.toLowerCase());
+      markFired(channelId, "botbanter_any");
       console.log(`🤖↔️ ${isFriend ? "friend" : "bot"}-banter with ${user} in ${ch.username}`);
     }
     // Strip the bot's name/mention first so it never lands inside the city name
@@ -1895,13 +1900,19 @@ async function handleEvent(message) {
     }
 
     // First time a FRIEND BOT shows up in a channel this session → Blazeian greets them once as a buddy.
+    // Shared (not per-bot) cooldown below: in a channel with SEVERAL other bots, they all tend to post
+    // their own "hi"/"thanks for the follow" messages within seconds of each other on join — without this,
+    // each one triggered its own separate greeting back-to-back, reading as a spam burst (proven live).
     if (senderIsBot && !isBotChannel && channels[channelId] && isFriendBot(user)) {
       const gk = channelId + ":" + user.toLowerCase();
       if (!friendGreeted.has(gk)) {
-        friendGreeted.add(gk);
-        const ch = channels[channelId];
-        const ai = await aiShout(ch, `Your buddy bot "${user}" just showed up in ${ch.username}'s chat! Give them one warm, hyped buddy greeting — you two are pals who team up on Blaze and hype the streams together.`, { addName: user });
-        await sendChat(channelId, ai || `@${user} ayyy my buddy's here!! 💚🔥 we run these streams together now, love to see it`);
+        friendGreeted.add(gk); // mark handled either way — never queue it up to fire later
+        if (!onCooldown(channelId, "friendgreet_any", 45000)) {
+          markFired(channelId, "friendgreet_any");
+          const ch = channels[channelId];
+          const ai = await aiShout(ch, `Your buddy bot "${user}" just showed up in ${ch.username}'s chat! Give them one warm, hyped buddy greeting — you two are pals who team up on Blaze and hype the streams together.`, { addName: user });
+          await sendChat(channelId, ai || `@${user} ayyy my buddy's here!! 💚🔥 we run these streams together now, love to see it`);
+        }
       }
     }
 
