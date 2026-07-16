@@ -1121,8 +1121,8 @@
       "stats": {
         "totalVotes": 2589,
         "totalSubs": 15,
-        "totalChatMessages": 1356,
-        "totalStreamMinutes": 3972,
+        "totalChatMessages": 1359,
+        "totalStreamMinutes": 3977,
         "emotes": {
           "❤": 57,
           "🙌": 32,
@@ -1272,14 +1272,6 @@
       },
       "chatMemory": [
         {
-          "user": "vitrene",
-          "msg": "have an awesome stream, @agent00zani!"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "brb"
-        },
-        {
           "user": "guney",
           "msg": "have a good stream bro"
         },
@@ -1310,6 +1302,14 @@
         {
           "user": "zer0cache",
           "msg": "i didn't hear one either"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "GGs"
+        },
+        {
+          "user": "parky",
+          "msg": "LFG"
         }
       ],
       "customCommands": {},
@@ -2716,7 +2716,7 @@
         "totalVotes": 1929,
         "totalSubs": 14,
         "totalChatMessages": 240,
-        "totalStreamMinutes": 1072,
+        "totalStreamMinutes": 1077,
         "emotes": {
           "❤": 19,
           "🙌": 24,
@@ -3738,7 +3738,7 @@
         "totalVotes": 3127,
         "totalSubs": 90,
         "totalChatMessages": 102,
-        "totalStreamMinutes": 1371,
+        "totalStreamMinutes": 1376,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -4291,15 +4291,16 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 21,
-        "totalStreamMinutes": 32,
+        "totalChatMessages": 22,
+        "totalStreamMinutes": 37,
         "emotes": {
           "❤": 4,
           "🙌": 2,
           "🔴": 1,
           "🎉": 1,
           "👋": 2,
-          "👀": 1
+          "👀": 1,
+          "😱": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -4307,14 +4308,11 @@
           "🔴": "🔴",
           "🎉": "🎉",
           "👋": "👋",
-          "👀": "👀"
+          "👀": "👀",
+          "😱": "😱"
         }
       },
       "chatMemory": [
-        {
-          "user": "itssscat",
-          "msg": "how are you? @blazeian_bot_ai"
-        },
         {
           "user": "s1lent2193",
           "msg": "@blazeian_bot_ai"
@@ -4350,6 +4348,10 @@
         {
           "user": "_cookiexfalcon_",
           "msg": "👋"
+        },
+        {
+          "user": "ogb",
+          "msg": "😱"
         }
       ],
       "customCommands": {},
@@ -4362,7 +4364,9 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d42d19f-d21c-4ab4-be64-cb54d3f85210-profile_image-300x300.png",
-      "streamTitle": "[UK] 4th STREAM ON BLAZE! With @itssscat - ADHD - POWERED BY - ASK ME ANYTHING — Marvel Rivals"
+      "streamTitle": "[UK] 4th STREAM ON BLAZE! With @itssscat - ADHD - POWERED BY - ASK ME ANYTHING — Marvel Rivals",
+      "profile": "**parky's Blaze Crew**\n\nWe're a UK-based squad powered by ADHD energy, where we vibe out to Marvel Rivals and more! Catchphrases like \"GG\" and \"who's my number 1 viewer?\" are staples here. Our streamer loves being celebrated with \"🔴\" and \"🎉\" emojis, and we're always down for a quick math problem or chat about our fave animals and colours.",
+      "_profileAtCount": 21
     }
   },
   "blocklist": [
@@ -4390,8 +4394,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784227610769,
   "auth": {
-    "accessToken": "1fa5ac5c1773621eb32ab65ddb47781d",
-    "refreshToken": "9636e0311e8cc345c48ed95fa1837e94",
+    "accessToken": "7cea42a42e81ef32c737293db1d2c9b7",
+    "refreshToken": "f23768462b22950868d954f6ddf8de20",
     "sessionToken": "8940318f44eab7d14eaa9e6ddaaf6038",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
