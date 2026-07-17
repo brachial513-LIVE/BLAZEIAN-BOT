@@ -2903,9 +2903,9 @@
       "username": "grook",
       "language": "en",
       "stats": {
-        "totalVotes": 2860,
+        "totalVotes": 2865,
         "totalSubs": 50,
-        "totalChatMessages": 127,
+        "totalChatMessages": 128,
         "totalStreamMinutes": 837,
         "emotes": {
           "❤": 23,
@@ -2917,7 +2917,7 @@
           "👍": 1,
           "📴": 7,
           "👋": 11,
-          "🗳": 9,
+          "🗳": 12,
           "🔴": 6,
           "🎉": 6,
           "🎁": 118
@@ -2939,10 +2939,6 @@
         }
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 grook is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "fartvader",
           "msg": "hello, happy streaming!!  🔥🔥"
@@ -2978,6 +2974,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -3785,7 +3785,7 @@
       "username": "saboomafoo",
       "language": "en",
       "stats": {
-        "totalVotes": 3154,
+        "totalVotes": 3159,
         "totalSubs": 90,
         "totalChatMessages": 110,
         "totalStreamMinutes": 1719,
