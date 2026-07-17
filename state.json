@@ -241,7 +241,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 88,
+        "totalChatMessages": 99,
         "totalStreamMinutes": 0,
         "emotes": {
           "🪙": 3,
@@ -251,20 +251,26 @@
           "🎲": 2,
           "❓": 1,
           "🦹": 4,
-          "🎮": 2,
+          "🎮": 4,
           "⏰": 1,
           "📣": 1,
-          "⚡": 2,
-          "🏆": 1,
+          "⚡": 4,
+          "🏆": 3,
           "🥇": 2,
           "🥈": 2,
           "🥉": 2,
-          "🤖": 16,
+          "🤖": 18,
           "🔥": 1,
           "😬": 1,
           "⏱": 1,
           "✌": 1,
-          "⏳": 1
+          "⏳": 1,
+          "🛒": 2,
+          "🔧": 2,
+          "📋": 2,
+          "👀": 2,
+          "📈": 1,
+          "💬": 2
         },
         "emoteNames": {
           "🪙": "🪙",
@@ -287,28 +293,18 @@
           "😬": "😬",
           "⏱": "⏱",
           "✌": "✌",
-          "⏳": "⏳"
+          "⏳": "⏳",
+          "🛒": "🛒",
+          "🔧": "🔧",
+          "📋": "📋",
+          "👀": "👀",
+          "📈": "📈",
+          "💬": "💬"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784324624569
+        "lastChatAt": 1784327588530
       },
       "chatMemory": [
-        {
-          "user": "blazeguy",
-          "msg": "🤖 Thinking…"
-        },
-        {
-          "user": "blazeguy",
-          "msg": "🤖 @dashboard Gemini AI error — check GEMINI_API_KEY in Render env vars and try again!"
-        },
-        {
-          "user": "blazeguy",
-          "msg": "⏱ Timer added: \"Follow us\" every 30 min."
-        },
-        {
-          "user": "blazeguy",
-          "msg": "🪙 @dashboard flipped heads — YOU WIN! +10 pts 🎉 (32 total)"
-        },
         {
           "user": "blazeguy",
           "msg": "🎲 @dashboard rolled 4/6 — HIGH ROLL! +10 pts 🎉 (42 total)"
@@ -332,6 +328,22 @@
         {
           "user": "blazeguy",
           "msg": "🦹 Not enough crew for the heist! @dashboard gets their bet back."
+        },
+        {
+          "user": "blazeguy",
+          "msg": "⚡ blazeguy Commands ─ 🏆 Loyalty: !devoted !loyalty !rank !top !leaderboard !milestone !balance !stats !shoutout !give ─ 🎮 Games: !coinflip !roll !rps !8ball !dice !trivia !heist ─ 🛒 Shop: !shop !buy ─ 🤖 AI: !ask !roast !compliment !predict !story !recap ─ 🔧 Tools: !brb !poll !so !hug !quote !uptime ─ 📋 Custom: none yet"
+        },
+        {
+          "user": "blazeguy",
+          "msg": "⚡ blazeguy Commands ─ 🏆 Loyalty: !devoted !loyalty !rank !top !leaderboard !milestone !balance !stats !shoutout !give ─ 🎮 Games: !coinflip !roll !rps !8ball !dice !trivia !heist ─ 🛒 Shop: !shop !buy ─ 🤖 AI: !ask !roast !compliment !predict !story !recap ─ 🔧 Tools: !brb !poll !so !hug !quote !uptime ─ 📋 Custom: none yet"
+        },
+        {
+          "user": "blazeguy",
+          "msg": "👀 @bbjclownnsss ─ Rank #2 ┃ 56 pts ┃ Lurker ┃ 📈 44 pts to 💬 Regular"
+        },
+        {
+          "user": "blazeguy",
+          "msg": "👀 @bbjclownnsss ─ Rank #2 ┃ 57 pts ┃ Lurker ┃ 43 pts to 💬 Regular"
         }
       ],
       "locked": false,
@@ -346,12 +358,12 @@
       "stats": {
         "totalVotes": 11565,
         "totalSubs": 8,
-        "totalChatMessages": 1187,
+        "totalChatMessages": 1188,
         "totalStreamMinutes": 547,
         "emotes": {
           "🗳": 306,
-          "❤": 23,
-          "🙌": 24,
+          "❤": 25,
+          "🙌": 25,
           "🔥": 32,
           "☺": 2,
           "🔴": 6,
@@ -458,13 +470,10 @@
           "👑": "👑",
           "🤝": "🤝"
         },
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1784327675206
       },
       "chatMemory": [
-        {
-          "user": "octo",
-          "msg": "yea and estimates people get a bit unhappy about, it sucks being told a different number but also im happy for getting anything tbh"
-        },
         {
           "user": "briggsy",
           "msg": "Yea"
@@ -500,6 +509,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ tradingaloha just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -1159,7 +1172,7 @@
         "totalVotes": 2596,
         "totalSubs": 15,
         "totalChatMessages": 1369,
-        "totalStreamMinutes": 4020,
+        "totalStreamMinutes": 4031,
         "emotes": {
           "❤": 57,
           "🙌": 32,
@@ -1919,7 +1932,7 @@
         "totalVotes": 1187,
         "totalSubs": 6,
         "totalChatMessages": 464,
-        "totalStreamMinutes": 1762,
+        "totalStreamMinutes": 1773,
         "emotes": {
           "✨": 9,
           "🖥": 8,
@@ -2655,7 +2668,7 @@
         "totalVotes": 824,
         "totalSubs": 24,
         "totalChatMessages": 143,
-        "totalStreamMinutes": 2242,
+        "totalStreamMinutes": 2253,
         "emotes": {
           "❤": 48,
           "🙌": 12,
@@ -3490,8 +3503,8 @@
       "stats": {
         "totalVotes": 678,
         "totalSubs": 9,
-        "totalChatMessages": 45,
-        "totalStreamMinutes": 3853,
+        "totalChatMessages": 46,
+        "totalStreamMinutes": 3860,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -3509,13 +3522,10 @@
           "✌": "✌",
           "☺": "☺",
           "👍": "👍"
-        }
+        },
+        "lastChatAt": 1784327553337
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@chupacol gifted 5 subs!"
-        },
         {
           "user": "scurvybot",
           "msg": "@chupacol gifted a Sub to @alacrityyy! Thank you!"
@@ -3551,6 +3561,10 @@
         {
           "user": "avisi",
           "msg": "ty @tai_ ✌️☺️👍"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -3560,7 +3574,7 @@
       "greeted": true,
       "locked": true,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "WAYFINDERS BR - ESCAPE THR BACKROOMS with @corinloch @CPFnaNOT4 — IRL",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/12660284-7663-43c6-92ac-32776ec39b0d.gif",
       "profile": "tai_ is the fearless captain of the Wayfinders crew, leading @chupacol and @corinloch on epic adventures. This squad's all about that 🔥 energy, fueled by Valeusss vibes and 10s of votes from their loyal crew, @hydra, @wayfindersplays, @Brachial513, and @dragofenix2.",
@@ -4409,16 +4423,16 @@
       "language": "en",
       "stats": {
         "totalVotes": 0,
-        "totalSubs": 0,
-        "totalChatMessages": 81,
-        "totalStreamMinutes": 188,
+        "totalSubs": 22,
+        "totalChatMessages": 211,
+        "totalStreamMinutes": 199,
         "emotes": {
-          "❤": 12,
-          "🙌": 6,
+          "❤": 26,
+          "🙌": 35,
           "🔴": 3,
-          "🎉": 3,
+          "🎉": 4,
           "👋": 14,
-          "👀": 1,
+          "👀": 13,
           "😱": 1,
           "😅": 4,
           "📴": 2,
@@ -4429,8 +4443,12 @@
           "😘": 1,
           "🤝": 1,
           "💚": 1,
-          "🔥": 5,
-          "😂": 2
+          "🔥": 15,
+          "😂": 2,
+          "🚨": 6,
+          "🎁": 40,
+          "🍺": 7,
+          "🥰": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -4450,51 +4468,55 @@
           "🤝": "🤝",
           "💚": "💚",
           "🔥": "🔥",
-          "😂": "😂"
+          "😂": "😂",
+          "🚨": "🚨",
+          "🎁": "🎁",
+          "🍺": "🍺",
+          "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784327160594
+        "lastChatAt": 1784327965076
       },
       "chatMemory": [
         {
-          "user": "zer0cache",
-          "msg": "oh fair play! hope they follow you over"
+          "user": "cg777",
+          "msg": "ill get naked right now he says"
         },
         {
-          "user": "zer0cache",
-          "msg": "keep up the good work my man! hopping on Off the grid but will be lurking"
+          "user": "k1ngbre4ker",
+          "msg": "lmao"
         },
         {
-          "user": "agent00zani",
-          "msg": "just lurking"
+          "user": "marowak33",
+          "msg": "ahahaha"
         },
         {
-          "user": "agent00zani",
-          "msg": "ggs"
+          "user": "zsoltech",
+          "msg": "need 30 hours no?"
         },
         {
-          "user": "agent00zani",
-          "msg": "going to try some comp .. wish me luck"
+          "user": "piweb",
+          "msg": "Welcome and gg for getting verified"
         },
         {
-          "user": "s1lent2193",
-          "msg": "Good luck!"
+          "user": "mindgoblin",
+          "msg": "the stream might need to end to count the hours"
         },
         {
-          "user": "agent00zani",
-          "msg": "ty ty"
+          "user": "k1ngbre4ker",
+          "msg": "So Welcome to BLAZE broski!"
         },
         {
-          "user": "s1lent2193",
-          "msg": "Thanks @parky"
+          "user": "badger",
+          "msg": "The hours don't get counted until your stream ends."
         },
         {
-          "user": "s1lent2193",
-          "msg": "😅"
+          "user": "k1ngbre4ker",
+          "msg": "EASY FOR YOU PARKY!"
         },
         {
-          "user": "_cookiexfalcon_",
-          "msg": "cat smells"
+          "user": "zsoltech",
+          "msg": "pay attention lol"
         }
       ],
       "customCommands": {},
@@ -4510,7 +4532,14 @@
       "streamTitle": "[UK] #5 ITS VERIFICATION DAY!!! - ADHD - POWERED BY - ASK ME ANYTHING — Marvel Rivals",
       "profile": "**parky's Blaze Crew**\n\nWe're a UK-based squad powered by ADHD energy, where we vibe out to Marvel Rivals and more! Expect \"GG\", \"who's my number 1 viewer?\", and \"🔴\" and \"🎉\" love from our streamer. We chat about fave animals and colours, and get hyped with \"Stack some W's\" and \"Dunking on themmmm\".",
       "_profileAtCount": 62,
-      "gameOverride": ""
+      "gameOverride": "",
+      "loyalty": {
+        "cg777": {
+          "name": "cg777",
+          "months": 2,
+          "tier": 1
+        }
+      }
     },
     "29f46bc6-a11d-4529-b90b-8fc9f13b7491": {
       "username": "faithy_",
@@ -4688,8 +4717,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784311626482,
   "auth": {
-    "accessToken": "f47c621c8335105e1fe432291ef998ce",
-    "refreshToken": "89cc2e4820524c5154a755526e476f00",
+    "accessToken": "621a39b574b9b2d0b6aeaae036b211cd",
+    "refreshToken": "ab390d3c9738030e261ea280dc4117e6",
     "sessionToken": "00b68bf2b1cb9fed7f21f80e96a1f6a0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
