@@ -529,26 +529,26 @@
       "stats": {
         "totalVotes": 2354,
         "totalSubs": 3,
-        "totalChatMessages": 1359,
-        "totalStreamMinutes": 133,
+        "totalChatMessages": 1587,
+        "totalStreamMinutes": 153,
         "emotes": {
-          "🔥": 31,
+          "🔥": 34,
           "🗳": 5,
           "🔴": 3,
-          "🎉": 10,
+          "🎉": 12,
           "😍": 1,
-          "❤": 2,
+          "❤": 5,
           "🚢": 1,
-          "⏰": 35,
-          "🔜": 32,
-          "💀": 13,
+          "⏰": 50,
+          "🔜": 42,
+          "💀": 28,
           "😘": 1,
-          "🏆": 8,
-          "🎊": 7,
-          "🎰": 1,
-          "😰": 12,
-          "🍌": 13,
-          "🧟": 2,
+          "🏆": 10,
+          "🎊": 9,
+          "🎰": 2,
+          "😰": 22,
+          "🍌": 24,
+          "🧟": 3,
           "💣": 10,
           "✅": 85,
           "🎲": 10,
@@ -562,7 +562,9 @@
           "⚠": 1,
           "🎯": 1,
           "👿": 1,
-          "😂": 1
+          "😂": 2,
+          "😅": 1,
+          "✈": 5
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -595,49 +597,51 @@
           "⚠": "⚠",
           "🎯": "🎯",
           "👿": "👿",
-          "😂": "😂"
+          "😂": "😂",
+          "😅": "😅",
+          "✈": "✈"
         }
       },
       "chatMemory": [
         {
-          "user": "blazegames_bot",
-          "msg": "@time joined the game! 1 player(s) ready."
+          "user": "nadietv",
+          "msg": "hey octo :D"
         },
         {
-          "user": "blazegames_bot",
-          "msg": "@octo joined the game! 2 player(s) ready."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@dimifw joined the game! 3 player(s) ready."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@tigresa joined the game! 4 player(s) ready."
-        },
-        {
-          "user": "cymatrix",
-          "msg": "my internet is sucking so probably done for a bit... have a great stream"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@tigresa Link your wallet here: https://blazegames.store/obeez/verify/blaze?token=2e239b94c1c9ededa03190a459bd459ce5f0079a47c342df7a79e2b6bc97e6e3 (expires in 10 minutes). After connecting your wallet, come back and type !confirm"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@tigresa Wallet verified and linked! Obeez NFT detected!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@desirablebottom joined the game! 5 player(s) ready."
-        },
-        {
-          "user": "tigresa",
-          "msg": "nice!"
+          "user": "octo",
+          "msg": "zombies doesnt take too long"
         },
         {
           "user": "time",
-          "msg": "@CyMatrIX type join"
+          "msg": "hey nadie"
+        },
+        {
+          "user": "nadietv",
+          "msg": "in the meantime i'll wash the dishes xD"
+        },
+        {
+          "user": "octo",
+          "msg": "its not random, there's 64 squares and there's 4 spots if its carrier"
+        },
+        {
+          "user": "nadietv",
+          "msg": "hey time &lt;3"
+        },
+        {
+          "user": "nadietv",
+          "msg": "yeah, i'll be here"
+        },
+        {
+          "user": "sheena",
+          "msg": "IM ON MY COMPUTER IM SO READY FOR PYRO RACE but my sound is so low cause my ac is as loud as a plane"
+        },
+        {
+          "user": "dimifw",
+          "msg": "✈️✈️✈️✈️✈️"
+        },
+        {
+          "user": "octo",
+          "msg": "dont forget to throw nades"
         }
       ],
       "customCommands": {},
@@ -647,8 +651,8 @@
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
       "streamTitle": "600 Vote Giveaway - Blaze Interactive Games! — IRL",
-      "profile": "jt_squared2's community is a lively bunch, known for their \"word\" affirmations and \"doin well\" check-ins. They're passionate about Blaze Games, particularly IRL and shooting games like Kovaaks. Expect in-jokes about \"missing out\" and \"clicking people.\" When jt_squared2 goes live, the chat erupts in celebration, shouting \"Welcome everyone!\" and \"🎉\" to kick off the stream.",
-      "_profileAtCount": 1291,
+      "profile": "jt_squared2's community is a lively bunch, known for their \"word\" affirmations and \"doin well\" check-ins. They're passionate about Blaze Games, particularly IRL and shooting games like Kovaaks, with a focus on strategy and probability discussions. Expect in-jokes about \"missing out\" and \"clicking people.",
+      "_profileAtCount": 1580,
       "loyalty": {
         "tigresa": {
           "name": "tigresa",
@@ -1349,10 +1353,10 @@
       "stats": {
         "totalVotes": 2978,
         "totalSubs": 2,
-        "totalChatMessages": 4105,
+        "totalChatMessages": 4108,
         "totalStreamMinutes": 1411,
         "emotes": {
-          "❤": 1647,
+          "❤": 1653,
           "🎵": 154,
           "💃": 108,
           "🔥": 289,
@@ -1424,7 +1428,7 @@
           "🥰": 10,
           "😜": 1,
           "🚚": 1,
-          "💊": 1,
+          "💊": 2,
           "🖐": 1
         },
         "emoteNames": {
@@ -1506,18 +1510,6 @@
       },
       "chatMemory": [
         {
-          "user": "sheshi",
-          "msg": "hello mr. weri, mr. rob"
-        },
-        {
-          "user": "weri",
-          "msg": "Yo sheshi"
-        },
-        {
-          "user": "bee12",
-          "msg": "hey everyone❤️❤️❤️"
-        },
-        {
           "user": "bee12",
           "msg": "Rob heyyy❤️❤️❤️"
         },
@@ -1544,6 +1536,18 @@
         {
           "user": "weri",
           "msg": "How are u all doing today"
+        },
+        {
+          "user": "bee12",
+          "msg": "Hey everyone, Unccc is only live on Youtube tonight due to internet issues❤️❤️❤️"
+        },
+        {
+          "user": "weri",
+          "msg": "Well I just swang by to give my support but my pills 💊 is kicking my ass please tell uncle funk hey for me"
+        },
+        {
+          "user": "bee12",
+          "msg": "weri will do, take care❤️❤️❤️"
         }
       ],
       "customCommands": {},
@@ -3208,7 +3212,7 @@
       "stats": {
         "totalVotes": 429,
         "totalSubs": 6,
-        "totalChatMessages": 478,
+        "totalChatMessages": 479,
         "totalStreamMinutes": 522,
         "emotes": {
           "❤": 153,
@@ -3284,10 +3288,6 @@
       "chatMemory": [
         {
           "user": "cymatrix",
-          "msg": "hey @time, my interneet or streamyard is glitching"
-        },
-        {
-          "user": "cymatrix",
           "msg": "but it's still showing my ani, what they"
         },
         {
@@ -3321,6 +3321,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "that was some funky glitchy poo poo"
         }
       ],
       "customCommands": {
@@ -4518,14 +4522,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 3,
+        "totalVotes": 53,
         "totalSubs": 0,
-        "totalChatMessages": 2,
+        "totalChatMessages": 3,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
           "🙌": 1,
-          "🗳": 3
+          "🗳": 6
         },
         "emoteNames": {
           "❤": "❤",
@@ -4541,6 +4545,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @jt_squared2 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
