@@ -1171,8 +1171,8 @@
       "stats": {
         "totalVotes": 2596,
         "totalSubs": 15,
-        "totalChatMessages": 1408,
-        "totalStreamMinutes": 4071,
+        "totalChatMessages": 1412,
+        "totalStreamMinutes": 4076,
         "emotes": {
           "❤": 58,
           "🙌": 32,
@@ -1319,26 +1319,10 @@
           "💛": "💛",
           "👑": "👑"
         },
-        "lastChatAt": 1784330331978,
+        "lastChatAt": 1784330633846,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "octo",
-          "msg": "hey you didnt get banned like last time roshi came through you're getting better at building a tolerance to it lmao"
-        },
-        {
-          "user": "parky",
-          "msg": "AMAZING!!!"
-        },
-        {
-          "user": "octo",
-          "msg": "i woke up at 6 or 7am i think"
-        },
-        {
-          "user": "octo",
-          "msg": "thats fine i won in the competition that matters"
-        },
         {
           "user": "octo",
           "msg": "and then the other one"
@@ -1362,6 +1346,22 @@
         {
           "user": "dofferlive",
           "msg": "heey"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "eating everything"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "yeah I've been off and on for years"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "I have 1 cat. He's still dumb"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "eat the cat"
         }
       ],
       "customCommands": {},
@@ -1932,7 +1932,7 @@
         "totalVotes": 1187,
         "totalSubs": 6,
         "totalChatMessages": 464,
-        "totalStreamMinutes": 1813,
+        "totalStreamMinutes": 1818,
         "emotes": {
           "✨": 9,
           "🖥": 8,
@@ -2668,7 +2668,7 @@
         "totalVotes": 824,
         "totalSubs": 24,
         "totalChatMessages": 143,
-        "totalStreamMinutes": 2293,
+        "totalStreamMinutes": 2298,
         "emotes": {
           "❤": 48,
           "🙌": 12,
@@ -3753,11 +3753,11 @@
       "stats": {
         "totalVotes": 264,
         "totalSubs": 11,
-        "totalChatMessages": 328,
-        "totalStreamMinutes": 3034,
+        "totalChatMessages": 333,
+        "totalStreamMinutes": 3039,
         "emotes": {
-          "🔥": 119,
-          "🔴": 36,
+          "🔥": 121,
+          "🔴": 38,
           "💚": 4,
           "🤣": 3,
           "☕": 10,
@@ -3779,7 +3779,9 @@
           "🫶": 2,
           "🎉": 3,
           "⚡": 1,
-          "👀": 1
+          "👀": 1,
+          "😎": 1,
+          "🥂": 1
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -3805,32 +3807,14 @@
           "🫶": "🫶",
           "🎉": "🎉",
           "⚡": "⚡",
-          "👀": "👀"
+          "👀": "👀",
+          "😎": "😎",
+          "🥂": "🥂"
         },
-        "lastChatAt": 1784330374912,
+        "lastChatAt": 1784330606626,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -3850,6 +3834,26 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @reaperofdarknes just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "reaperofdarknes",
+          "msg": "😎"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
+        },
+        {
+          "user": "reaperofdarknes",
+          "msg": "🥂"
+        },
+        {
+          "user": "botger",
+          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "reaperofdarknes",
+          "msg": "darn it my sub gone hulk sad lol"
         }
       ],
       "customCommands": {},
@@ -4723,8 +4727,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784311626482,
   "auth": {
-    "accessToken": "621a39b574b9b2d0b6aeaae036b211cd",
-    "refreshToken": "ab390d3c9738030e261ea280dc4117e6",
+    "accessToken": "c3be3c3ed3af116e58fe24dd87dd48cf",
+    "refreshToken": "74ac84ce2db28354af02809a288e0077",
     "sessionToken": "00b68bf2b1cb9fed7f21f80e96a1f6a0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
