@@ -2073,7 +2073,7 @@
       "stats": {
         "totalVotes": 2316,
         "totalSubs": 13,
-        "totalChatMessages": 2400,
+        "totalChatMessages": 2402,
         "totalStreamMinutes": 1624,
         "emotes": {
           "❤": 48,
@@ -2264,14 +2264,6 @@
       },
       "chatMemory": [
         {
-          "user": "cactus_jack440",
-          "msg": "🌵🔥🌵"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @bidloperv just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
         },
@@ -2302,6 +2294,14 @@
         {
           "user": "octo",
           "msg": "briggsy the lord himself"
+        },
+        {
+          "user": "briggsy",
+          "msg": "haha"
+        },
+        {
+          "user": "briggsy",
+          "msg": "yer funny man"
         }
       ],
       "customCommands": {},
@@ -4453,7 +4453,8 @@
       "timedMessages": [],
       "tipTiers": [],
       "greeted": true,
-      "locked": false
+      "locked": false,
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg"
     }
   },
   "blocklist": [
