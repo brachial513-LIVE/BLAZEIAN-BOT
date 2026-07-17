@@ -1345,7 +1345,7 @@
       "stats": {
         "totalVotes": 2978,
         "totalSubs": 2,
-        "totalChatMessages": 4088,
+        "totalChatMessages": 4089,
         "totalStreamMinutes": 1411,
         "emotes": {
           "❤": 1629,
@@ -1387,7 +1387,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 13,
-          "💜": 104,
+          "💜": 105,
           "🧔": 1,
           "🤺": 1,
           "🥳": 5,
@@ -1503,10 +1503,6 @@
       "chatMemory": [
         {
           "user": "anikisnow",
-          "msg": "@sheshi \\o/"
-        },
-        {
-          "user": "anikisnow",
           "msg": "rdy for OSP game play"
         },
         {
@@ -1536,6 +1532,10 @@
         {
           "user": "anikisnow",
           "msg": "\\o/"
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         },
         {
           "user": "rob_osp",
@@ -4484,7 +4484,8 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
+      "followed": true
     }
   },
   "blocklist": [
@@ -4512,8 +4513,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784286373330,
   "auth": {
-    "accessToken": "fbf3c375b12555e16453f5cdb5b6f196",
-    "refreshToken": "46e6bede314b3de6091f0b00af531c59",
+    "accessToken": "d7de7e0b0c20772e9b8aa78630bb09b5",
+    "refreshToken": "9ec9deeb9fc7f5e29ef7b305698b93a3",
     "sessionToken": "8940318f44eab7d14eaa9e6ddaaf6038",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
