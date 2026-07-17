@@ -4341,7 +4341,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 34,
+        "totalChatMessages": 35,
         "totalStreamMinutes": 80,
         "emotes": {
           "❤": 8,
@@ -4352,7 +4352,10 @@
           "👀": 1,
           "😱": 1,
           "😅": 3,
-          "📴": 1
+          "📴": 1,
+          "✌": 1,
+          "☺": 1,
+          "👍": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -4363,14 +4366,13 @@
           "👀": "👀",
           "😱": "😱",
           "😅": "😅",
-          "📴": "📴"
+          "📴": "📴",
+          "✌": "✌",
+          "☺": "☺",
+          "👍": "👍"
         }
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "just lurking"
-        },
         {
           "user": "agent00zani",
           "msg": "ggs"
@@ -4406,6 +4408,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "avisi",
+          "msg": "was here ✌️☺️👍"
         }
       ],
       "customCommands": {},
