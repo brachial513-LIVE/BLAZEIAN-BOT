@@ -2359,6 +2359,29 @@ function renderActivityLeaderboard() {
   </div>`;
 }
 
+// Public homepage leaderboard — deliberately separate from the admin one: normal, friendly stats only
+// (chat/votes/subs + rank), nothing internal like send-failure/blocked status. Reuses the same
+// channelActivityScore weighting so both leaderboards stay consistent with each other.
+function renderPublicLeaderboard() {
+  const rows = Object.values(channels)
+    .filter(ch => ch !== channels[BOT_CHANNEL_ID])
+    .map(ch => ({ ch, score: channelActivityScore(ch) }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 10);
+  if (!rows.length) return "";
+  const medal = (i) => i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : `#${i + 1}`;
+  const items = rows.map((r, i) => `
+    <div class="lbrow${i === 0 ? " lbrow-top" : ""}">
+      <span class="lbrank">${medal(i)}</span>
+      <span class="lbname">${esc(r.ch.username)}</span>
+      <span class="lbscore">${r.score.toLocaleString()} pts</span>
+    </div>`).join("");
+  return `
+    <div class="point">🏆 Most Active Blazeian Users 🏆</div>
+    <div class="lbwrap">${items}</div>
+    <p style="text-align:center;color:#6f836f;font-size:12px;margin-top:-4px;">Ranked by chat activity, votes &amp; subs — updated live 💚</p>`;
+}
+
 // "Known People" — Blazeian recognizes these users PERSONALLY in every channel and can
 // reference things that only apply to them (their games, community, history).
 function renderPeopleSection() {
@@ -2747,6 +2770,12 @@ app.get("/", (req, res) => {
       .comicteaser-art img{width:100%;display:block;}
       .comicteaser-lock{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;background:rgba(6,12,6,.35);}
       .comicteaser-locktext{color:#e8ffe8;font-size:16px;font-weight:700;line-height:1.4;text-shadow:0 2px 8px rgba(0,0,0,.7);}
+      .lbwrap{max-width:480px;margin:0 auto;display:flex;flex-direction:column;gap:6px;}
+      .lbrow{display:flex;align-items:center;gap:12px;background:rgba(18,26,17,.7);border:1px solid #223822;border-radius:10px;padding:9px 16px;font-size:14px;}
+      .lbrow-top{border-color:#5cf472;background:rgba(34,60,26,.55);box-shadow:0 0 16px rgba(92,244,114,.25);}
+      .lbrank{width:34px;text-align:center;font-weight:800;color:#9fd6a8;}
+      .lbname{flex:1;color:#8fcf9a;font-weight:600;word-break:break-word;}
+      .lbscore{color:#ffd23f;font-weight:700;font-size:13px;white-space:nowrap;}
     </style>
 
     <div class="hero">
@@ -2807,6 +2836,8 @@ app.get("/", (req, res) => {
       </div>
       <p style="font-size:12px;opacity:.72;margin-top:12px;">💡 Prefer chat? You can also type <code>!join</code> in <code>blaze.stream/blazeian_bot_ai</code> — but the one login above is what unlocks me everywhere, instantly.</p>
     </div>
+
+    ${renderPublicLeaderboard()}
 
     <div class="point">👇 My crew — proud of every one of them 👇</div>
     <div class="grid" id="mascot-crew">${cards}</div>
