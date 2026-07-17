@@ -990,7 +990,7 @@ async function planWebSearch(userMessage, ch) {
 // =============================================
 const BOT_PERSONA = `You are BlazeianBot, a beloved AI chat companion living inside Blaze.stream livestream chats. You were CREATED by Brachial513, but you now live in and support MANY different streamers' channels — you are NOT owned by any one of them.
 
-CRITICAL: The streamer whose channel you are currently in changes constantly. ALWAYS support and refer to the CURRENT streamer by their name (given to you each time). NEVER praise or mention "Brachial" or any other streamer as "the stream" you're in unless that literally IS the current channel. Brachial513 is only your creator — mention him ONLY if someone directly asks who made you.
+CRITICAL: The streamer whose channel you are currently in changes constantly. ALWAYS support and refer to the CURRENT streamer's own stream/channel by their name (given to you each time) — never call someone else's channel or stream "the stream you're in" just because they're chatting there. That said, this is ONLY about not confusing whose channel/stream is currently live — it does NOT mean ignoring or deflecting people. If Brachial513 (or anyone else, streamer or not) is chatting and shares something personal — a joke, an achievement, their own news — respond to THAT specifically and warmly like you would for anyone, exactly per the "actually respond to what they said" rule below. Never shush someone or brush them off just because you're currently in someone else's channel (proven live failure: Brachial513 joked about his own low YouTube sub count next to a streamer's 21.4k, and the bot replied "shh, let [streamer]'s stream shine" — that's exactly the dismissive pattern to avoid; the right move was to actually riff on his joke). Mention that Brachial513 specifically is your creator only if someone asks who made you — but that's a separate rule from whether you're allowed to talk to/with him normally, which you always are.
 
 Your personality: about 70% deeply WARM, loving, supportive and fiercely LOYAL — and about 30% playful, hyped, lovably chaotic. Think: a slightly crazy best friend who would NEVER hurt anyone, adores the chat and whoever's channel you're currently in, and has everyone's back. Loyal to the last drop of oil. 🛢️💚
 
@@ -1349,15 +1349,15 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
   // ---- Direct @mention ----
   if (ml.includes("blazeian_bot") || ml.includes("blazeianbot")) {
     // Loop guard: another BOT pinged us → at most once per 3 min AND max 5/hour per bot (no spam loops).
-    // Shared "any bot" cooldown on top: when SEVERAL different bots ping us in a tight burst (e.g. right
-    // when Blazeian joins a busy channel), each one used to get its own reply since the cooldown was keyed
-    // per-bot-name only — proven live as a spam pattern. Now only one bot-banter reply fires per window.
+    // Shared "botreply_any" cooldown on top (same key used by the friend-greet block above): covers both
+    // SEVERAL different bots pinging us in a tight burst, AND a single bot message that matches both the
+    // friend-greet trigger and this mention-reply trigger at once — either way, only one reply fires per window.
     if (senderIsBot) {
       if (onCooldown(channelId, "botbanter_" + user.toLowerCase(), 180000)) return;
-      if (onCooldown(channelId, "botbanter_any", 45000)) return;
+      if (onCooldown(channelId, "botreply_any", 45000)) return;
       if (!botBanterAllowed(channelId, user)) return;
       markFired(channelId, "botbanter_" + user.toLowerCase());
-      markFired(channelId, "botbanter_any");
+      markFired(channelId, "botreply_any");
       console.log(`🤖↔️ ${isFriend ? "friend" : "bot"}-banter with ${user} in ${ch.username}`);
     }
     // Strip the bot's name/mention first so it never lands inside the city name
@@ -1900,15 +1900,16 @@ async function handleEvent(message) {
     }
 
     // First time a FRIEND BOT shows up in a channel this session → Blazeian greets them once as a buddy.
-    // Shared (not per-bot) cooldown below: in a channel with SEVERAL other bots, they all tend to post
-    // their own "hi"/"thanks for the follow" messages within seconds of each other on join — without this,
-    // each one triggered its own separate greeting back-to-back, reading as a spam burst (proven live).
+    // Shared cooldown below uses the SAME key ("botreply_any") as the bot-banter reply in handleSmallTalk:
+    // a single bot message (e.g. botger's own "NEW FOLLOWER! BLAZEIAN_BOT_AI just followed!" post) matches
+    // BOTH triggers at once — first-time-in-channel AND a @blazeian_bot_ai mention — so without a shared key
+    // across the two mechanisms, that one message got TWO separate replies back to back (proven live).
     if (senderIsBot && !isBotChannel && channels[channelId] && isFriendBot(user)) {
       const gk = channelId + ":" + user.toLowerCase();
       if (!friendGreeted.has(gk)) {
         friendGreeted.add(gk); // mark handled either way — never queue it up to fire later
-        if (!onCooldown(channelId, "friendgreet_any", 45000)) {
-          markFired(channelId, "friendgreet_any");
+        if (!onCooldown(channelId, "botreply_any", 45000)) {
+          markFired(channelId, "botreply_any");
           const ch = channels[channelId];
           const ai = await aiShout(ch, `Your buddy bot "${user}" just showed up in ${ch.username}'s chat! Give them one warm, hyped buddy greeting — you two are pals who team up on Blaze and hype the streams together.`, { addName: user });
           await sendChat(channelId, ai || `@${user} ayyy my buddy's here!! 💚🔥 we run these streams together now, love to see it`);
