@@ -1593,7 +1593,7 @@
         "totalVotes": 714,
         "totalSubs": 14,
         "totalChatMessages": 346,
-        "totalStreamMinutes": 3304,
+        "totalStreamMinutes": 3308,
         "emotes": {
           "😊": 3,
           "🌵": 35,
@@ -3204,8 +3204,8 @@
       "stats": {
         "totalVotes": 429,
         "totalSubs": 5,
-        "totalChatMessages": 436,
-        "totalStreamMinutes": 484,
+        "totalChatMessages": 437,
+        "totalStreamMinutes": 488,
         "emotes": {
           "❤": 150,
           "🙌": 9,
@@ -3271,10 +3271,6 @@
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @MakesOnlyBeats!"
-        },
-        {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @MakesOnlyBeats just gave 10 vote(s) (total: 48)! Thank you!! 🗳️"
         },
@@ -3309,6 +3305,10 @@
         {
           "user": "fine",
           "msg": "Legends"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {
@@ -4567,8 +4567,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784286373330,
   "auth": {
-    "accessToken": "1fba39097aeaf293de337011f339cd95",
-    "refreshToken": "7350cacf1dc2be5d3276441a6fc02da2",
+    "accessToken": "342a6cc7a617662878c7620115b06191",
+    "refreshToken": "73a741eb3de1ba837d28b4ef8882f6f5",
     "sessionToken": "8940318f44eab7d14eaa9e6ddaaf6038",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
