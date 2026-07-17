@@ -2638,14 +2638,14 @@
       "stats": {
         "totalVotes": 824,
         "totalSubs": 24,
-        "totalChatMessages": 142,
-        "totalStreamMinutes": 2162,
+        "totalChatMessages": 143,
+        "totalStreamMinutes": 2163,
         "emotes": {
           "❤": 48,
           "🙌": 12,
           "🔥": 13,
-          "🔴": 17,
-          "🎉": 17,
+          "🔴": 18,
+          "🎉": 18,
           "📴": 18,
           "👋": 18,
           "😂": 4,
@@ -2675,13 +2675,11 @@
           "👍": "👍",
           "🤘": "🤘",
           "😍": "😍"
-        }
+        },
+        "lastChatAt": 1784322478451,
+        "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
@@ -2717,6 +2715,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -2728,7 +2730,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🔴l2PrideEssence| PvP,PvE  o melhor EE da minha Rua — Talk Shows & Podcasts",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -4393,7 +4395,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 62,
-        "totalStreamMinutes": 105,
+        "totalStreamMinutes": 109,
         "emotes": {
           "❤": 12,
           "🙌": 6,
@@ -4668,8 +4670,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784311626482,
   "auth": {
-    "accessToken": "b0cdd8048e013236ac97f77a47b78847",
-    "refreshToken": "ff7dfeca0e7bd8686fbd3dc966c11efa",
+    "accessToken": "7249149c4ceea046439dddcfadba4aa4",
+    "refreshToken": "de9716ab216e30a187fa444a02281d48",
     "sessionToken": "00b68bf2b1cb9fed7f21f80e96a1f6a0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
