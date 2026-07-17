@@ -2479,7 +2479,7 @@
       "stats": {
         "totalVotes": 1570,
         "totalSubs": 1,
-        "totalChatMessages": 493,
+        "totalChatMessages": 496,
         "totalStreamMinutes": 1300,
         "emotes": {
           "❤": 6,
@@ -2541,10 +2541,6 @@
       "chatMemory": [
         {
           "user": "bidloperv",
-          "msg": "lol"
-        },
-        {
-          "user": "bidloperv",
           "msg": "HA"
         },
         {
@@ -2578,6 +2574,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "To view this channel's commands please visit https://scurvybot.com/blaze/NadieTv/commands"
         }
       ],
       "customCommands": {},
@@ -2591,7 +2591,8 @@
       "_profileAtCount": 476,
       "gameOverride": "",
       "followed": true,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/048bd670-d2db-433a-924c-52a8ff30b00c.gif"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/048bd670-d2db-433a-924c-52a8ff30b00c.gif",
+      "botVip": true
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -3193,8 +3194,8 @@
       "stats": {
         "totalVotes": 394,
         "totalSubs": 5,
-        "totalChatMessages": 420,
-        "totalStreamMinutes": 398,
+        "totalChatMessages": 423,
+        "totalStreamMinutes": 407,
         "emotes": {
           "❤": 150,
           "🙌": 9,
@@ -3260,10 +3261,6 @@
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
           "user": "botger",
           "msg": "🔴 cymatrix is now live! Welcome everyone! 🎉"
         },
@@ -3298,6 +3295,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @jammin_dodger just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "Thank you @jammin_dodger!"
         }
       ],
       "customCommands": {
@@ -3968,7 +3969,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 939,
+        "totalStreamMinutes": 949,
         "emotes": {
           "💪": 2,
           "💚": 7,
