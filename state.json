@@ -529,22 +529,22 @@
       "stats": {
         "totalVotes": 2354,
         "totalSubs": 3,
-        "totalChatMessages": 2171,
-        "totalStreamMinutes": 172,
+        "totalChatMessages": 2465,
+        "totalStreamMinutes": 177,
         "emotes": {
           "🔥": 35,
           "🗳": 5,
           "🔴": 4,
-          "🎉": 16,
+          "🎉": 17,
           "😍": 1,
           "❤": 5,
-          "🚢": 1,
+          "🚢": 2,
           "⏰": 65,
           "🔜": 42,
           "💀": 28,
           "😘": 1,
-          "🏆": 13,
-          "🎊": 12,
+          "🏆": 15,
+          "🎊": 13,
           "🎰": 2,
           "😰": 22,
           "🍌": 24,
@@ -554,8 +554,8 @@
           "🎲": 10,
           "😤": 1,
           "🌉": 3,
-          "💨": 26,
-          "💥": 32,
+          "💨": 36,
+          "💥": 55,
           "📴": 3,
           "👋": 3,
           "😢": 1,
@@ -613,43 +613,43 @@
       "chatMemory": [
         {
           "user": "blazegames_bot",
-          "msg": "@tigresa joined the game! 6 player(s) ready."
+          "msg": "@desirablebottom joined the game! 6 player(s) ready."
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 10 seconds!"
-        },
-        {
-          "user": "sinnerz",
-          "msg": "@octo im waiting summer legue grind on otg"
+          "msg": "@tigresa joined the game! 7 player(s) ready."
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 5 seconds!"
+          "msg": "@time You already joined!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@desirablebottom joined the game! 7 player(s) ready."
+          "msg": "@sheena You already joined!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
+          "msg": "@sipofcoke joined the game! 8 player(s) ready."
         },
         {
           "user": "octo",
-          "msg": "l"
+          "msg": "you understand what happened now @sipofcoke?"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@octo discovered a new pane! Earned a push charge. 💨"
+          "msg": "@desirablebottom You already joined!"
+        },
+        {
+          "user": "sipofcoke",
+          "msg": "@octo but I wasn't one same cell with you, can you push back too??"
+        },
+        {
+          "user": "octo",
+          "msg": "no cant push back only forward"
+        },
+        {
+          "user": "octo",
+          "msg": "i was on the same cell as you a lot"
         }
       ],
       "customCommands": {},
@@ -659,8 +659,8 @@
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
       "streamTitle": "600 Vote Giveaway - Blaze Interactive Games! — IRL",
-      "profile": "jt_squared2's community is a lively bunch, known for their \"word\" affirmations and \"doin well\" check-ins. They're passionate about Blaze Games, particularly IRL and shooting games like Kovaaks, with a focus on strategy and probability discussions. Expect in-jokes about \"missing out\" and \"clicking people.",
-      "_profileAtCount": 1580,
+      "profile": "jt_squared2's community is a lively bunch, known for their \"word\" affirmations and \"doin well\" check-ins. They're passionate about Blaze Games, particularly IRL and shooting games like Kovaaks, with a focus on strategy and probability discussions. Expect in-jokes about \"missing out\" and \"clicking people,\" as well as \"GGs\" and \"xDs\" celebrating each other's wins.",
+      "_profileAtCount": 2426,
       "loyalty": {
         "tigresa": {
           "name": "tigresa",
@@ -4596,8 +4596,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784286373330,
   "auth": {
-    "accessToken": "4fe50cfad5f489b55f9425b0b0f7d72e",
-    "refreshToken": "c158aad0c28c91f26e7cf2da0c564d13",
+    "accessToken": "aeff1a3d8cf861f3051f0c3de48e7025",
+    "refreshToken": "0995e43367f5541be460aed274cea5bd",
     "sessionToken": "f5d3173185f8d938d1210dca8911dfdf",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
