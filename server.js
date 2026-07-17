@@ -331,7 +331,8 @@ function getOrCreateChannel(channelId, username) {
     channels[channelId] = {
       username,
       language: "en",
-      stats: { totalVotes: 0, totalSubs: 0, totalChatMessages: 0, totalStreamMinutes: 0, emotes: {}, emoteNames: {} },
+      joinedAt: Date.now(),
+      stats: { totalVotes: 0, totalSubs: 0, totalChatMessages: 0, totalStreamMinutes: 0, emotes: {}, emoteNames: {}, sendFailStreak: 0 },
       chatMemory: [],
       customCommands: {},
       streamStart: "",
@@ -385,6 +386,42 @@ function getTopEmote(stats) {
   if (!e.length) return "None yet";
   e.sort((a, b) => b[1] - a[1]);
   return `${stats.emoteNames[e[0][0]] || e[0][0]} (${e[0][1]}x)`;
+}
+
+// Weighted so a sub (real support) counts for more than a vote, and a vote for more than a passing
+// chat message — a rough "how much does this community actually engage with Blazeian" score for the
+// admin leaderboard. Numbers are a starting judgment call, not a precise formula — tune freely.
+function channelActivityScore(ch) {
+  const s = ch.stats || {};
+  return (s.totalChatMessages || 0) + (s.totalVotes || 0) * 3 + (s.totalSubs || 0) * 10;
+}
+
+// Classifies a channel for the admin "who's actually using Blazeian" leaderboard — specifically built
+// to surface streamers who joined once but then blocked/demoted/muted the bot (sendFailStreak climbs on
+// every genuine send failure that isn't just the normal followers-only lock), vs. ones who are simply
+// quiet right now, vs. genuinely active ones.
+function channelHealthStatus(ch) {
+  const s = ch.stats || {};
+  const DAY = 86400000;
+  if ((s.sendFailStreak || 0) >= 3) {
+    return { key: "blocked", label: "Blocked/Muted?", color: "#e8776a", emoji: "🔴" };
+  }
+  if (s.lastChatAt && Date.now() - s.lastChatAt <= 7 * DAY) {
+    return { key: "active", label: "Active", color: "#7CFC9A", emoji: "🟢" };
+  }
+  if (ch.joinedAt && Date.now() - ch.joinedAt <= 3 * DAY && !s.lastChatAt) {
+    return { key: "new", label: "New", color: "#8ac9ff", emoji: "🆕" };
+  }
+  return { key: "quiet", label: "Quiet", color: "#e8b94a", emoji: "🟡" };
+}
+
+function timeAgo(ts) {
+  if (!ts) return "before tracking started";
+  const diff = Date.now() - ts;
+  const DAY = 86400000;
+  if (diff < 3600000) return `${Math.max(1, Math.round(diff / 60000))}m ago`;
+  if (diff < DAY) return `${Math.round(diff / 3600000)}h ago`;
+  return `${Math.round(diff / DAY)}d ago`;
 }
 
 // =============================================
@@ -623,7 +660,7 @@ async function sendChatOnce(channelId, message) {
     try {
       await axios.post(`${API}/v1/chats/messages`, { channelId, message, senderId: BOT_USER_ID }, { headers: appHeaders() });
       console.log(`[${channelId}] BOT: ${message}`);
-      if (channels[channelId]) channels[channelId].locked = false;
+      if (channels[channelId]) { channels[channelId].locked = false; channels[channelId].stats.sendFailStreak = 0; }
       return true;
     } catch(e) {
       if (e.response?.status === 401) await getAppAccessToken();
@@ -635,7 +672,7 @@ async function sendChatOnce(channelId, message) {
   try {
     await axios.post(`${API}/v1/chats/messages`, { channelId, message }, { headers: headers() });
     console.log(`[${channelId}] BOT (user token): ${message}`);
-    if (channels[channelId]) channels[channelId].locked = false;
+    if (channels[channelId]) { channels[channelId].locked = false; channels[channelId].stats.sendFailStreak = 0; }
     return true;
   } catch (e) {
     const m = e.response?.data?.message || e.message;
@@ -648,6 +685,14 @@ async function sendChatOnce(channelId, message) {
       if (channels[channelId]) channels[channelId].locked = true;
       console.log(`[BLOCKED-followers] ${channelId} (${name}): ${m}`);
     } else {
+      // NOT the "followers-only" case above (that's just an unlock-pending gate, tracked separately via
+      // `locked`) — a genuine send failure here (banned, demoted, removed as mod, etc.) is the real signal
+      // that a streamer has actually blocked/muted Blazeian, which feeds the admin activity leaderboard.
+      if (channels[channelId]) {
+        channels[channelId].stats.sendFailStreak = (channels[channelId].stats.sendFailStreak || 0) + 1;
+        channels[channelId].stats.lastSendFailAt = Date.now();
+        channels[channelId].stats.lastSendFailReason = String(m || "").slice(0, 200);
+      }
       console.log(`[SEND-FAIL] ${channelId} (${name}): ${JSON.stringify(e.response?.data || m)}`);
     }
     return false;
@@ -1868,6 +1913,7 @@ async function handleEvent(message) {
     if (!isBotChannel && channels[channelId]) {
       const ch = channels[channelId];
       ch.stats.totalChatMessages++;
+      ch.stats.lastChatAt = Date.now(); // feeds the admin activity leaderboard's "last seen"
       const emotes = payload.message?.emotes || payload.emotes || [];
       if (Array.isArray(emotes) && emotes.length) {
         // Confirms the real payload shape live — e.g. reports of a custom emote (like a "green heart")
@@ -2246,7 +2292,71 @@ function renderControlCenter() {
       <p class="hint">See all: <a href="/admin/friendbots" target="_blank">/admin/friendbots</a></p>
     </form>
   </div>
+  ${renderActivityLeaderboard()}
   ${renderPeopleSection()}`;
+}
+
+// Permanent, always-live "who's actually using Blazeian" leaderboard for the admin panel — ranks every
+// channel by an engagement score and flags ones that look blocked/muted (repeated send failures that
+// aren't just the normal followers-only lock), so joins-that-went-quiet are visible at a glance instead
+// of only showing raw per-channel stats one block at a time further down the page.
+function renderActivityLeaderboard() {
+  const rows = Object.values(channels)
+    .filter(ch => ch !== channels[BOT_CHANNEL_ID])
+    .map(ch => ({ ch, score: channelActivityScore(ch), health: channelHealthStatus(ch) }))
+    .sort((a, b) => b.score - a.score);
+
+  if (!rows.length) return `<h2>🏆 Crew Activity Leaderboard</h2><div class="card"><i class="muted">No channels yet</i></div>`;
+
+  const top = rows[0];
+  const flagged = rows.filter(r => r.health.key === "blocked");
+
+  const crown = `<div class="card" style="border-color:#5cf472;background:linear-gradient(135deg,rgba(34,60,26,.9),rgba(14,20,12,.95));text-align:center;margin-bottom:14px;">
+    <div style="font-size:13px;color:#9fd6a8;letter-spacing:1px;">👑 MOST ACTIVE BLAZEIAN USER</div>
+    <div style="font-size:24px;color:#5cf472;font-weight:800;margin-top:4px;">${esc(top.ch.username)}</div>
+    <div style="font-size:12px;color:#9fd6a8;margin-top:2px;">${top.score.toLocaleString()} engagement points</div>
+  </div>`;
+
+  const flagNote = flagged.length
+    ? `<div class="meta" style="color:#e8776a;margin-bottom:10px;">🔴 <b>${flagged.length}</b> channel(s) look like they've blocked or muted Blazeian (repeated send failures) — see flagged rows below.</div>`
+    : `<div class="meta" style="color:#7CFC9A;margin-bottom:10px;">🟢 No channels currently look blocked or muted.</div>`;
+
+  const medal = (i) => i === 0 ? "🥇" : i === 1 ? "🥈" : i === 2 ? "🥉" : `#${i + 1}`;
+
+  const tableRows = rows.map((r, i) => {
+    const { ch, score, health } = r;
+    const rowBg = health.key === "blocked" ? "background:rgba(232,119,106,.08);" : "";
+    return `<tr style="${rowBg}border-bottom:1px solid #1c301c;">
+      <td style="padding:8px 6px;color:#9fd6a8;">${medal(i)}</td>
+      <td style="padding:8px 6px;"><b style="color:#5cf472;">${esc(ch.username)}</b></td>
+      <td style="padding:8px 6px;color:${health.color};white-space:nowrap;">${health.emoji} ${health.label}</td>
+      <td style="padding:8px 6px;text-align:right;">${(ch.stats.totalChatMessages || 0).toLocaleString()}</td>
+      <td style="padding:8px 6px;text-align:right;">${(ch.stats.totalVotes || 0).toLocaleString()}</td>
+      <td style="padding:8px 6px;text-align:right;">${(ch.stats.totalSubs || 0).toLocaleString()}</td>
+      <td style="padding:8px 6px;text-align:right;color:#cfeccf;">${score.toLocaleString()}</td>
+      <td style="padding:8px 6px;color:#8aa89a;white-space:nowrap;">${timeAgo(ch.stats.lastChatAt)}</td>
+      <td style="padding:8px 6px;color:#8aa89a;white-space:nowrap;">${timeAgo(ch.joinedAt)}</td>
+    </tr>`;
+  }).join("");
+
+  return `
+  <h2>🏆 Crew Activity Leaderboard</h2>
+  <div class="card">
+    ${crown}
+    ${flagNote}
+    <div style="overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:13px;">
+        <thead><tr style="text-align:left;border-bottom:2px solid #2c5a2c;color:#8aa89a;">
+          <th style="padding:8px 6px;">#</th><th style="padding:8px 6px;">Streamer</th><th style="padding:8px 6px;">Status</th>
+          <th style="padding:8px 6px;text-align:right;">Msgs</th><th style="padding:8px 6px;text-align:right;">Votes</th>
+          <th style="padding:8px 6px;text-align:right;">Subs</th><th style="padding:8px 6px;text-align:right;">Score</th>
+          <th style="padding:8px 6px;">Last chat seen</th><th style="padding:8px 6px;">Joined</th>
+        </tr></thead>
+        <tbody>${tableRows}</tbody>
+      </table>
+    </div>
+    <p class="hint" style="margin-top:12px;">🟢 Active = chat seen in the last 7 days · 🟡 Quiet = joined but no recent chat (may just not be streaming) · 🆕 New = joined in the last 3 days, no data yet · 🔴 Blocked/Muted = Blazeian's messages keep failing to send here — a real sign they removed/demoted/blocked the bot, not just quiet.</p>
+  </div>`;
 }
 
 // "Known People" — Blazeian recognizes these users PERSONALLY in every channel and can
