@@ -528,7 +528,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 2400,
+        "totalVotes": 2415,
         "totalSubs": 6,
         "totalChatMessages": 2775,
         "totalStreamMinutes": 177,
@@ -4016,24 +4016,21 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 22,
+        "totalChatMessages": 23,
         "totalStreamMinutes": 1023,
         "emotes": {
           "💪": 2,
           "💚": 7,
-          "🔥": 7
+          "🔥": 10
         },
         "emoteNames": {
           "💪": "💪",
           "💚": "💚",
           "🔥": "🔥"
-        }
+        },
+        "lastChatAt": 1784317968422
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "💚💚💚💚"
-        },
         {
           "user": "dimifw",
           "msg": "🔥🔥🔥"
@@ -4065,6 +4062,10 @@
         {
           "user": "slothsm",
           "msg": "lets go blaze"
+        },
+        {
+          "user": "dimifw",
+          "msg": "🔥🔥🔥"
         },
         {
           "user": "dimifw",
@@ -4546,20 +4547,24 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 135,
+        "totalVotes": 145,
         "totalSubs": 0,
-        "totalChatMessages": 33,
+        "totalChatMessages": 44,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
           "🙌": 1,
-          "🗳": 15,
+          "🗳": 18,
           "🚨": 12,
           "🎉": 2,
-          "👋": 6,
+          "👋": 10,
           "🔥": 9,
           "🤔": 3,
-          "🧠": 3
+          "🧠": 3,
+          "🌀": 4,
+          "🚀": 4,
+          "👏": 3,
+          "📴": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -4570,51 +4575,55 @@
           "👋": "👋",
           "🔥": "🔥",
           "🤔": "🤔",
-          "🧠": "🧠"
+          "🧠": "🧠",
+          "🌀": "🌀",
+          "🚀": "🚀",
+          "👏": "👏",
+          "📴": "📴"
         },
-        "lastChatAt": 1784316596558,
+        "lastChatAt": 1784317784063,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
+          "user": "dimifw",
+          "msg": "🌀🌀🌀🌀"
+        },
+        {
+          "user": "dimifw",
+          "msg": "Awakeish"
+        },
+        {
+          "user": "dimifw",
+          "msg": "🚀🚀🚀🚀"
+        },
+        {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @jt_squared2 just gave 61 vote(s) (total: 111)! Thank you!! 🗳️"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @blackfox just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "dimifw",
+          "msg": "SAVEish"
+        },
+        {
+          "user": "dimifw",
+          "msg": "thanks blackfox!"
+        },
+        {
+          "user": "dimifw",
+          "msg": "overish"
+        },
+        {
+          "user": "dimifw",
+          "msg": "👏👏👏"
+        },
+        {
+          "user": "dimifw",
+          "msg": "alrighty, neat little game. thanks for watching, see yall next time 👋👋👋"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
-        },
-        {
-          "user": "dimifw",
-          "msg": "thanks for the votes!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 7 vote(s) (total: 14)! Thank you!! 🗳️"
-        },
-        {
-          "user": "dimifw",
-          "msg": "🧠🧠🧠"
-        },
-        {
-          "user": "avisi",
-          "msg": "🔥🔥🔥"
-        },
-        {
-          "user": "dimifw",
-          "msg": "brb, 5 min break"
-        },
-        {
-          "user": "dimifw",
-          "msg": "such a trippy game"
-        },
-        {
-          "user": "capt_rob_advent",
-          "msg": "Hi"
-        },
-        {
-          "user": "dimifw",
-          "msg": "hey captain"
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -4628,7 +4637,9 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/2afe39d9-f352-40ea-916f-7a71636aa65e.png",
       "followed": true,
       "profile": "dimifw: a chill gaming community centered around raiding games with a party of friends, often referencing pop culture and memes. Expect frequent \"RAID ALERTS\" and enthusiastic reactions like \"raidish\" and \"helllo\". Streamer dimifw loves being celebrated with \"🔥🔥🔥\" and \"JT Raiiiiiid!",
-      "_profileAtCount": 27
+      "_profileAtCount": 27,
+      "streamTitle": "",
+      "gameOverride": ""
     }
   },
   "blocklist": [
@@ -4658,7 +4669,7 @@
   "auth": {
     "accessToken": "751f047046b0cfe2d29a554e477011f4",
     "refreshToken": "8bc5443264f8759f43f236ca55bfe530",
-    "sessionToken": "477edad8f60ae0113c69cf12f47db59f",
+    "sessionToken": "885e9d583633dce0c3d05dd8c43fd77c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
