@@ -241,7 +241,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 117,
+        "totalChatMessages": 122,
         "totalStreamMinutes": 0,
         "emotes": {
           "🪙": 3,
@@ -254,7 +254,7 @@
           "🎮": 4,
           "⏰": 1,
           "📣": 1,
-          "⚡": 4,
+          "⚡": 5,
           "🏆": 3,
           "🥇": 2,
           "🥈": 2,
@@ -270,7 +270,11 @@
           "📋": 2,
           "👀": 2,
           "📈": 1,
-          "💬": 2
+          "💬": 2,
+          "⏸": 1,
+          "☕": 1,
+          "🔒": 1,
+          "✅": 1
         },
         "emoteNames": {
           "🪙": "🪙",
@@ -299,10 +303,14 @@
           "📋": "📋",
           "👀": "👀",
           "📈": "📈",
-          "💬": "💬"
+          "💬": "💬",
+          "⏸": "⏸",
+          "☕": "☕",
+          "🔒": "🔒",
+          "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784359534325
+        "lastChatAt": 1784360949210
       },
       "chatMemory": [
         {
@@ -335,15 +343,15 @@
         },
         {
           "user": "blazeguy",
-          "msg": "Follow us"
+          "msg": "⏸ precido1 is BRB for ~5 min! Hang tight chat ☕"
         },
         {
           "user": "blazeguy",
-          "msg": "Follow us"
+          "msg": "🔒 @precido1 — only the streamer can use !additem"
         },
         {
           "user": "blazeguy",
-          "msg": "Follow us"
+          "msg": "✅ We're back! Thanks for waiting chat ⚡"
         }
       ],
       "locked": false,
@@ -580,7 +588,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 2421,
+        "totalVotes": 2446,
         "totalSubs": 7,
         "totalChatMessages": 2776,
         "totalStreamMinutes": 177,
@@ -2170,14 +2178,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 2400,
+        "totalVotes": 2410,
         "totalSubs": 13,
-        "totalChatMessages": 2405,
+        "totalChatMessages": 2406,
         "totalStreamMinutes": 1624,
         "emotes": {
           "❤": 48,
           "🙌": 95,
-          "🗳": 213,
+          "🗳": 216,
           "✌": 3,
           "😊": 5,
           "👍": 2,
@@ -2361,13 +2369,9 @@
           "🌵": "🌵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784341993914
+        "lastChatAt": 1784361264984
       },
       "chatMemory": [
-        {
-          "user": "seventh",
-          "msg": "gm gm @briggsy"
-        },
         {
           "user": "briggsy",
           "msg": "Hey @seventh  Thanks for the follow"
@@ -2403,6 +2407,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @NiRuntz just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -2581,7 +2589,7 @@
         "totalVotes": 1718,
         "totalSubs": 7,
         "totalChatMessages": 644,
-        "totalStreamMinutes": 1759,
+        "totalStreamMinutes": 1779,
         "emotes": {
           "❤": 14,
           "🙌": 14,
@@ -2814,7 +2822,7 @@
       "username": "1vynnn",
       "language": "en",
       "stats": {
-        "totalVotes": 2451,
+        "totalVotes": 2471,
         "totalSubs": 100,
         "totalChatMessages": 8,
         "totalStreamMinutes": 226,
@@ -2825,7 +2833,8 @@
         "emoteNames": {
           "🔥": "🔥",
           "💚": "💚"
-        }
+        },
+        "sendFailStreak": 0
       },
       "chatMemory": [
         {
@@ -3017,7 +3026,7 @@
       "username": "grook",
       "language": "en",
       "stats": {
-        "totalVotes": 2865,
+        "totalVotes": 2885,
         "totalSubs": 50,
         "totalChatMessages": 134,
         "totalStreamMinutes": 1035,
@@ -4403,7 +4412,7 @@
       "username": "lady_iris",
       "language": "en",
       "stats": {
-        "totalVotes": 4,
+        "totalVotes": 24,
         "totalSubs": 0,
         "totalChatMessages": 22,
         "totalStreamMinutes": 203,
@@ -4422,7 +4431,8 @@
           "🎉": "🎉",
           "📴": "📴",
           "👋": "👋"
-        }
+        },
+        "sendFailStreak": 0
       },
       "chatMemory": [
         {
