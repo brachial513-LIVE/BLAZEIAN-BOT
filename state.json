@@ -1218,7 +1218,7 @@
         "totalVotes": 2930,
         "totalSubs": 17,
         "totalChatMessages": 1449,
-        "totalStreamMinutes": 4233,
+        "totalStreamMinutes": 4238,
         "emotes": {
           "❤": 62,
           "🙌": 34,
@@ -1688,10 +1688,10 @@
       "username": "capt_rob_advent",
       "language": "en",
       "stats": {
-        "totalVotes": 728,
+        "totalVotes": 733,
         "totalSubs": 14,
         "totalChatMessages": 347,
-        "totalStreamMinutes": 3400,
+        "totalStreamMinutes": 3405,
         "emotes": {
           "😊": 3,
           "🌵": 37,
@@ -4642,16 +4642,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 295,
+        "totalVotes": 445,
         "totalSubs": 0,
-        "totalChatMessages": 7,
+        "totalChatMessages": 8,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 4,
           "🙌": 2,
           "💚": 2,
           "🔥": 1,
-          "🗳": 12
+          "🗳": 15
         },
         "emoteNames": {
           "❤": "❤",
@@ -4661,7 +4661,7 @@
           "🗳": "🗳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784372797578
+        "lastChatAt": 1784376412511
       },
       "chatMemory": [
         {
@@ -4691,6 +4691,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -4828,8 +4832,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784311626482,
   "auth": {
-    "accessToken": "fe1c07627e7adbeda36e482dd37221da",
-    "refreshToken": "2068b72d6bdf2ffcfcdbde9485f3c9ef",
+    "accessToken": "eb9be719b7b547467cf578f122d6e893",
+    "refreshToken": "13e32cf84816952daa118ff726b96823",
     "sessionToken": "00b68bf2b1cb9fed7f21f80e96a1f6a0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
