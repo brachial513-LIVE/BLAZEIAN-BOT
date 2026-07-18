@@ -242,7 +242,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 129,
+        "totalChatMessages": 130,
         "totalStreamMinutes": 0,
         "emotes": {
           "🪙": 3,
@@ -311,13 +311,9 @@
           "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784375136599
+        "lastChatAt": 1784376936616
       },
       "chatMemory": [
-        {
-          "user": "blazeguy",
-          "msg": "⏸ precido1 is BRB for ~5 min! Hang tight chat ☕"
-        },
         {
           "user": "blazeguy",
           "msg": "🔒 @precido1 — only the streamer can use !additem"
@@ -325,6 +321,10 @@
         {
           "user": "blazeguy",
           "msg": "✅ We're back! Thanks for waiting chat ⚡"
+        },
+        {
+          "user": "blazeguy",
+          "msg": "Follow us"
         },
         {
           "user": "blazeguy",
@@ -1218,7 +1218,7 @@
         "totalVotes": 2930,
         "totalSubs": 17,
         "totalChatMessages": 1449,
-        "totalStreamMinutes": 4238,
+        "totalStreamMinutes": 4258,
         "emotes": {
           "❤": 62,
           "🙌": 34,
@@ -1689,13 +1689,13 @@
       "language": "en",
       "stats": {
         "totalVotes": 733,
-        "totalSubs": 14,
-        "totalChatMessages": 347,
-        "totalStreamMinutes": 3405,
+        "totalSubs": 15,
+        "totalChatMessages": 348,
+        "totalStreamMinutes": 3425,
         "emotes": {
           "😊": 3,
           "🌵": 37,
-          "🔥": 120,
+          "🔥": 123,
           "🤪": 1,
           "👋": 14,
           "👍": 13,
@@ -1845,13 +1845,9 @@
           "🐞": "🐞"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784375415859
+        "lastChatAt": 1784377703400
       },
       "chatMemory": [
-        {
-          "user": "capt_rob_advent",
-          "msg": "/votes"
-        },
         {
           "user": "midnight_driv3r",
           "msg": "🫡"
@@ -1887,6 +1883,10 @@
         {
           "user": "cactus_jack440",
           "msg": "🌵🔥🌵"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -3331,14 +3331,14 @@
       "stats": {
         "totalVotes": 433,
         "totalSubs": 6,
-        "totalChatMessages": 480,
-        "totalStreamMinutes": 522,
+        "totalChatMessages": 483,
+        "totalStreamMinutes": 539,
         "emotes": {
           "❤": 153,
           "🙌": 10,
           "🗳": 72,
-          "🔴": 6,
-          "🎉": 7,
+          "🔴": 7,
+          "🎉": 8,
           "💛": 15,
           "📴": 6,
           "👋": 6,
@@ -3403,22 +3403,10 @@
           "🤖": "🤖",
           "💚": "💚"
         },
-        "lastChatAt": 1784345317753,
+        "lastChatAt": 1784376722845,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cymatrix",
-          "msg": "but it's still showing my ani, what they"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "and streamyard won't end, it's froze, well hell"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -3446,6 +3434,18 @@
         {
           "user": "cymatrix",
           "msg": "that was some funky glitchy poo poo"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 cymatrix is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {
@@ -3466,7 +3466,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
-      "streamTitle": "",
+      "streamTitle": "F.A.T. Friday! — Music",
       "profile": "**cymatrix Community Profile**\n\nWe're a chill, music-loving community rocking out to sick beats and having a blast. Expect \"blazinnnnn\" energy, \"bee bee bee\" vibes, and \"funk O'clock\" excitement. We love celebrating gifted subs, \"blazinnnnn\" resubs, and members' contributions with votes and love. Our streamer's on Starlink, so bear with us when it glitches. Let's keep the Fire Funk going!",
       "_profileAtCount": 465,
       "gameOverride": "",
