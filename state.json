@@ -2575,7 +2575,7 @@
         "totalVotes": 1714,
         "totalSubs": 7,
         "totalChatMessages": 584,
-        "totalStreamMinutes": 1439,
+        "totalStreamMinutes": 1444,
         "emotes": {
           "❤": 10,
           "🙌": 12,
@@ -2705,7 +2705,7 @@
         "totalVotes": 824,
         "totalSubs": 24,
         "totalChatMessages": 146,
-        "totalStreamMinutes": 2472,
+        "totalStreamMinutes": 2477,
         "emotes": {
           "❤": 48,
           "🙌": 12,
@@ -3012,8 +3012,8 @@
       "stats": {
         "totalVotes": 2865,
         "totalSubs": 50,
-        "totalChatMessages": 128,
-        "totalStreamMinutes": 837,
+        "totalChatMessages": 129,
+        "totalStreamMinutes": 839,
         "emotes": {
           "❤": 23,
           "🙌": 70,
@@ -3025,8 +3025,8 @@
           "📴": 7,
           "👋": 11,
           "🗳": 12,
-          "🔴": 6,
-          "🎉": 6,
+          "🔴": 7,
+          "🎉": 7,
           "🎁": 118
         },
         "emoteNames": {
@@ -3043,13 +3043,11 @@
           "🔴": "🔴",
           "🎉": "🎉",
           "🎁": "🎁"
-        }
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1784341341495
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "hello, happy streaming!!  🔥🔥"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ FartVader just followed the channel! Welcome!! 🙌"
@@ -3085,6 +3083,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 grook is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -3095,7 +3097,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "1 SUB = 1 ENTRY ( 255  VOTES ) LETS GO! — Kintara",
       "gameOverride": "",
       "profile": "grook's community is a chill, supportive space celebrating gaming and good vibes. They're passionate about giveaways, especially the 255-vote one, and love seeing grook's streamer dashboard on https://blazeian-bot.onrender.com. Expect \"tyy\" and \"avisiiiii\" thanks, catchphrases like \"gracias basura\" and \"xd\", and energetic reactions to grook's gaming sessions.",
       "_profileAtCount": 117,
@@ -3790,14 +3792,14 @@
       "stats": {
         "totalVotes": 364,
         "totalSubs": 11,
-        "totalChatMessages": 361,
-        "totalStreamMinutes": 3214,
+        "totalChatMessages": 365,
+        "totalStreamMinutes": 3219,
         "emotes": {
-          "🔥": 132,
-          "🔴": 40,
+          "🔥": 136,
+          "🔴": 42,
           "💚": 4,
           "🤣": 3,
-          "☕": 10,
+          "☕": 12,
           "💪": 2,
           "📴": 9,
           "👋": 10,
@@ -3856,26 +3858,10 @@
           "💯": "💯",
           "✌": "✌"
         },
-        "lastChatAt": 1784341133147,
+        "lastChatAt": 1784341313937,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@agent00zani is raiding with a party of 6! Welcome, raiders!"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "looking good today"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "going take break amd take nap soon"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "all best in your games"
-        },
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
@@ -3899,6 +3885,22 @@
         {
           "user": "jt_squared2",
           "msg": "1111111111"
+        },
+        {
+          "user": "botger",
+          "msg": "Come follow ALL my socials and see what goes on after stream! \nhttps://streemrz.com/u/xxtowerdogxx/"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥TOWER is partnered with ☕BLACKOUT COFFEE CO.☕ if you're looking for the best coffee on the planet then go get yours and use code TOWER for 20% all your orders!🔥  https://www.blackoutcoffee.com?p=LPw95Fmiz"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "1"
         }
       ],
       "customCommands": {},
@@ -4772,8 +4774,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784311626482,
   "auth": {
-    "accessToken": "bb4d2dbc07960c6c66e39556e1497202",
-    "refreshToken": "1ca71ff76f7e2b16e91c852f12b150c0",
+    "accessToken": "4989b2d0581a9321249cec4966244fd8",
+    "refreshToken": "1b5ad85020b997fae619c62f54607168",
     "sessionToken": "00b68bf2b1cb9fed7f21f80e96a1f6a0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
