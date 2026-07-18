@@ -241,7 +241,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 102,
+        "totalChatMessages": 103,
         "totalStreamMinutes": 0,
         "emotes": {
           "🪙": 3,
@@ -302,13 +302,9 @@
           "💬": "💬"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784332534321
+        "lastChatAt": 1784334334296
       },
       "chatMemory": [
-        {
-          "user": "blazeguy",
-          "msg": "🎮 Games: !coinflip heads/tails [bet] ┃ !roll [sides] [bet] ┃ !rps rock/paper/scissors [bet] ┃ !trivia (25pts) ┃ !heist [bet] ┃ !dice [sides] ┃ !8ball question — max 50pt bet, 30s cooldown"
-        },
         {
           "user": "blazeguy",
           "msg": "⏳ @dashboard wait 30s!"
@@ -344,6 +340,10 @@
         {
           "user": "blazeguy",
           "msg": "Follow us"
+        },
+        {
+          "user": "blazeguy",
+          "msg": "Follow us"
         }
       ],
       "locked": false,
@@ -356,20 +356,20 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 11565,
-        "totalSubs": 8,
-        "totalChatMessages": 1201,
-        "totalStreamMinutes": 558,
+        "totalVotes": 12095,
+        "totalSubs": 17,
+        "totalChatMessages": 1288,
+        "totalStreamMinutes": 578,
         "emotes": {
-          "🗳": 306,
-          "❤": 25,
-          "🙌": 25,
-          "🔥": 32,
+          "🗳": 312,
+          "❤": 27,
+          "🙌": 37,
+          "🔥": 34,
           "☺": 2,
           "🔴": 7,
           "🎉": 21,
           "📴": 7,
-          "👋": 14,
+          "👋": 15,
           "🫶": 1,
           "💃": 1,
           "😂": 63,
@@ -386,12 +386,12 @@
           "🥰": 3,
           "😁": 12,
           "🍻": 1,
-          "🎁": 8,
+          "🎁": 24,
           "😆": 7,
           "💚": 11,
           "😌": 1,
           "😊": 3,
-          "😘": 7,
+          "😘": 8,
           "✨": 2,
           "🌪": 1,
           "🥲": 2,
@@ -413,7 +413,12 @@
           "🐐": 1,
           "😝": 1,
           "👑": 2,
-          "🤝": 1
+          "🤝": 1,
+          "‼": 2,
+          "⭕": 2,
+          "🚙": 1,
+          "💖": 1,
+          "🫂": 1
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -468,51 +473,56 @@
           "🐐": "🐐",
           "😝": "😝",
           "👑": "👑",
-          "🤝": "🤝"
+          "🤝": "🤝",
+          "‼": "‼",
+          "⭕": "⭕",
+          "🚙": "🚙",
+          "💖": "💖",
+          "🫂": "🫂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784333293025
+        "lastChatAt": 1784334572767
       },
       "chatMemory": [
         {
-          "user": "vroshi55",
-          "msg": "No problem. Call the Troops."
+          "user": "briggsy",
+          "msg": "‼️‼️"
+        },
+        {
+          "user": "tenshi",
+          "msg": "ezzzz"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "⭕⭕"
+        },
+        {
+          "user": "briggsy",
+          "msg": "🚙"
         },
         {
           "user": "marowak33",
-          "msg": "hmmm"
-        },
-        {
-          "user": "marowak33",
-          "msg": "is it late"
+          "msg": "that's though"
         },
         {
           "user": "faithy_",
-          "msg": "let's gooo"
+          "msg": "what is thattt"
         },
         {
-          "user": "vroshi55",
-          "msg": "Nope, all good!"
+          "user": "dress_n_draw",
+          "msg": "Hi @briggsy 👋🏻"
         },
         {
-          "user": "faithy_",
-          "msg": "@Marowak33 come on in!"
+          "user": "triz_draw",
+          "msg": "Today isn't laundry day, but I can't participate. I'm sad."
         },
         {
-          "user": "marowak33",
-          "msg": "let's call my friends too"
+          "user": "dress_n_draw",
+          "msg": "Hi dear💖🫂"
         },
         {
-          "user": "marowak33",
-          "msg": "lol"
-        },
-        {
-          "user": "sipofcoke",
-          "msg": "DnD might skip first round, she's finishing her stream soon"
-        },
-        {
-          "user": "marowak33",
-          "msg": "brb"
+          "user": "triz_draw",
+          "msg": "Holii n Bye @briggsy"
         }
       ],
       "customCommands": {},
@@ -541,10 +551,15 @@
           "name": "zsoltech",
           "months": 1,
           "tier": 1
+        },
+        "cg777": {
+          "name": "cg777",
+          "months": 1,
+          "tier": 1
         }
       },
       "profile": "Welcome to the vroshi55 squad! We're a high-energy community fueled by RESUB HYPE, RAID ALERTS, and Turkish Blazian vibes. We play Crypto, celebrating 3-month resubs with 🙌 and 🗳️, and shoutouts to our \"Sipppp\" fam with surprises, gifts, and RESUB SHOUTOUTS. We live by \"Sipppp\" and \"RESUB HYPE\"!",
-      "_profileAtCount": 1187,
+      "_profileAtCount": 1243,
       "streamTitle": "Crypto, Gaming & Life — Crypto",
       "gameOverride": "",
       "botVip": true
@@ -920,8 +935,8 @@
       "stats": {
         "totalVotes": 1516,
         "totalSubs": 4,
-        "totalChatMessages": 2334,
-        "totalStreamMinutes": 1345,
+        "totalChatMessages": 2339,
+        "totalStreamMinutes": 1365,
         "emotes": {
           "🗳": 194,
           "🤣": 49,
@@ -935,7 +950,7 @@
           "👋": 24,
           "🔴": 13,
           "🎉": 37,
-          "✌": 2,
+          "✌": 3,
           "😊": 3,
           "☕": 1,
           "🎁": 8,
@@ -943,7 +958,7 @@
           "🚨": 54,
           "😂": 27,
           "⚡": 17,
-          "👍": 3,
+          "👍": 4,
           "💪": 9,
           "🎮": 8,
           "💙": 1,
@@ -977,7 +992,7 @@
           "📢": 2,
           "🙂": 1,
           "♥": 1,
-          "☺": 1,
+          "☺": 2,
           "🤔": 1,
           "🥭": 8,
           "🥳": 2,
@@ -1104,30 +1119,10 @@
           "🦄": "🦄",
           "☠": "☠"
         },
-        "lastChatAt": 1784333274726,
+        "lastChatAt": 1784334260853,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] Thank you, dwb9000, for the 2 vote(s)"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] Thank you, noxx, for the 5 vote(s)"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 thom6ss_otg is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] You are being tracked by Lights Out — Discord's first Blaze engagement bot. This means your community has access to games and fun for all. Type /help to take a look. Please send feedback to Sentius Nox =)"
-        },
-        {
-          "user": "botger",
-          "msg": "🛒 Shop: Big W's (20pts) !buy bigw | blackjack (2,500pts) !buy bj | FS merch (30,000pts) !buy merch | Hydration (20pts) !buy hydrate | kfc (10pts) !buy kfc | hugs (20pts) !buy hugs | Fox spirits approved (40,000pts) !buy approved | Fox spirits crate (25,000pts) !buy fscrate | PUSH UPS (100pts) !buy pushup"
-        },
         {
           "user": "botger",
           "msg": "Thank you for redeeming Hydration @DofferLive!"
@@ -1147,6 +1142,26 @@
         {
           "user": "agent00zani",
           "msg": "clip me tooo"
+        },
+        {
+          "user": "hannibalbodge95",
+          "msg": "hello there"
+        },
+        {
+          "user": "botger",
+          "msg": "Join the Fox Spirits Discord for an amazing community, raids, giveaways, events, points, and much more! We welcome artists, gamers, crypto enthusiasts, anime lovers, dog lovers, and all kinds of people! https://discord.gg/fCNG5T5FbD"
+        },
+        {
+          "user": "avisi",
+          "msg": "✌️☺️👍 my $ on @thom6ss_otg!"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "ohhhh thomas is pushing"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "you can change 3rd person or 1st person by hoplindg c"
         }
       ],
       "customCommands": {},
@@ -1173,8 +1188,8 @@
       "stats": {
         "totalVotes": 2596,
         "totalSubs": 15,
-        "totalChatMessages": 1420,
-        "totalStreamMinutes": 4121,
+        "totalChatMessages": 1425,
+        "totalStreamMinutes": 4141,
         "emotes": {
           "❤": 59,
           "🙌": 32,
@@ -1188,7 +1203,7 @@
           "💎": 5,
           "🎁": 31,
           "📢": 17,
-          "🔥": 129,
+          "🔥": 133,
           "😘": 20,
           "🥺": 5,
           "🥷": 9,
@@ -1321,30 +1336,10 @@
           "💛": "💛",
           "👑": "👑"
         },
-        "lastChatAt": 1784331506875,
+        "lastChatAt": 1784334497250,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "yeah I've been off and on for years"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "I have 1 cat. He's still dumb"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "eat the cat"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "BBQ ?"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "so @DofferLive how u ?"
-        },
         {
           "user": "botger",
           "msg": "📢 Shoutout to @parky, streamer of Marvel Rivals! 🔥 Make sure to check out https://blaze.stream/parky and show some support ❤️‍🔥"
@@ -1364,6 +1359,26 @@
         {
           "user": "agent00zani",
           "msg": "🔥"
+        },
+        {
+          "user": "avisi",
+          "msg": "Breach!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "🔥🔥🔥🔥"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "you can do clips on NYONES CHANNEL FOR VOTES"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "YOU CAN DO CLIPS for votes"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "brb .."
         }
       ],
       "customCommands": {},
@@ -1933,8 +1948,8 @@
       "stats": {
         "totalVotes": 1187,
         "totalSubs": 6,
-        "totalChatMessages": 466,
-        "totalStreamMinutes": 1863,
+        "totalChatMessages": 467,
+        "totalStreamMinutes": 1883,
         "emotes": {
           "✨": 9,
           "🖥": 8,
@@ -2049,14 +2064,10 @@
           "💎": "💎",
           "🥂": "🥂"
         },
-        "lastChatAt": 1784332244029,
+        "lastChatAt": 1784333711564,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 5 votes, @noxx! Your support is truly appreciated! 🙌"
-        },
         {
           "user": "cachebot",
           "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Off the Grid. Drop a greeting in chat! 👋"
@@ -2092,6 +2103,10 @@
         {
           "user": "zsoltech",
           "msg": "im watching"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "lets gooooo"
         }
       ],
       "customCommands": {},
@@ -2546,8 +2561,8 @@
       "stats": {
         "totalVotes": 1670,
         "totalSubs": 1,
-        "totalChatMessages": 501,
-        "totalStreamMinutes": 1309,
+        "totalChatMessages": 504,
+        "totalStreamMinutes": 1329,
         "emotes": {
           "❤": 6,
           "🙌": 4,
@@ -2604,22 +2619,10 @@
           "👁": "👁",
           "🥰": "🥰"
         },
-        "lastChatAt": 1784332903951,
+        "lastChatAt": 1784334509236,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "bidloperv",
-          "msg": "sensei?"
-        },
-        {
-          "user": "bidloperv",
-          "msg": "all good man haha. gn buddy"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -2647,6 +2650,18 @@
         {
           "user": "nadietv",
           "msg": "Subathon is ON! 10 votes = 10 minutes, 1 sub = 1 hour, $1 tip = 10 minutes!"
+        },
+        {
+          "user": "avisi",
+          "msg": "@nadietv got the harmony!"
+        },
+        {
+          "user": "avisi",
+          "msg": "beautiful my fren!"
+        },
+        {
+          "user": "avisi",
+          "msg": "gud gud!"
         }
       ],
       "customCommands": {},
@@ -2670,7 +2685,7 @@
         "totalVotes": 824,
         "totalSubs": 24,
         "totalChatMessages": 143,
-        "totalStreamMinutes": 2343,
+        "totalStreamMinutes": 2363,
         "emotes": {
           "❤": 48,
           "🙌": 12,
@@ -3755,8 +3770,8 @@
       "stats": {
         "totalVotes": 264,
         "totalSubs": 11,
-        "totalChatMessages": 345,
-        "totalStreamMinutes": 3084,
+        "totalChatMessages": 346,
+        "totalStreamMinutes": 3104,
         "emotes": {
           "🔥": 128,
           "🔴": 40,
@@ -3817,14 +3832,10 @@
           "🤠": "🤠",
           "🥳": "🥳"
         },
-        "lastChatAt": 1784331557059,
+        "lastChatAt": 1784334512833,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "reaperofdarknes",
-          "msg": "👋🤠"
-        },
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
@@ -3860,6 +3871,10 @@
         {
           "user": "botger",
           "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
