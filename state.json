@@ -241,7 +241,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 108,
+        "totalChatMessages": 109,
         "totalStreamMinutes": 0,
         "emotes": {
           "🪙": 3,
@@ -302,12 +302,12 @@
           "💬": "💬"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784343334249
+        "lastChatAt": 1784345134218
       },
       "chatMemory": [
         {
           "user": "blazeguy",
-          "msg": "👀 @bbjclownnsss ─ Rank #2 ┃ 57 pts ┃ Lurker ┃ 43 pts to 💬 Regular"
+          "msg": "Follow us"
         },
         {
           "user": "blazeguy",
@@ -581,7 +581,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 2421,
-        "totalSubs": 6,
+        "totalSubs": 7,
         "totalChatMessages": 2776,
         "totalStreamMinutes": 177,
         "emotes": {
@@ -726,6 +726,11 @@
         },
         "briggsy": {
           "name": "briggsy",
+          "months": 1,
+          "tier": 1
+        },
+        "desirablebottom": {
+          "name": "desirablebottom",
           "months": 1,
           "tier": 1
         }
@@ -2576,7 +2581,7 @@
         "totalVotes": 1714,
         "totalSubs": 7,
         "totalChatMessages": 585,
-        "totalStreamMinutes": 1489,
+        "totalStreamMinutes": 1509,
         "emotes": {
           "❤": 10,
           "🙌": 12,
@@ -3014,7 +3019,7 @@
         "totalVotes": 2865,
         "totalSubs": 50,
         "totalChatMessages": 133,
-        "totalStreamMinutes": 884,
+        "totalStreamMinutes": 904,
         "emotes": {
           "❤": 25,
           "🙌": 71,
@@ -3305,7 +3310,7 @@
       "stats": {
         "totalVotes": 429,
         "totalSubs": 6,
-        "totalChatMessages": 479,
+        "totalChatMessages": 480,
         "totalStreamMinutes": 522,
         "emotes": {
           "❤": 153,
@@ -3376,7 +3381,9 @@
           "💪": "💪",
           "🤖": "🤖",
           "💚": "💚"
-        }
+        },
+        "lastChatAt": 1784345317753,
+        "sendFailStreak": 0
       },
       "chatMemory": [
         {
@@ -3793,8 +3800,8 @@
       "stats": {
         "totalVotes": 364,
         "totalSubs": 11,
-        "totalChatMessages": 367,
-        "totalStreamMinutes": 3264,
+        "totalChatMessages": 371,
+        "totalStreamMinutes": 3283,
         "emotes": {
           "🔥": 136,
           "🔴": 42,
@@ -3802,8 +3809,8 @@
           "🤣": 3,
           "☕": 12,
           "💪": 2,
-          "📴": 9,
-          "👋": 10,
+          "📴": 10,
+          "👋": 11,
           "👽": 28,
           "💀": 5,
           "🗳": 36,
@@ -3859,26 +3866,10 @@
           "💯": "💯",
           "✌": "✌"
         },
-        "lastChatAt": 1784342107185,
+        "lastChatAt": 1784345337489,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 100 votes, @vRoshi55!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @vRoshi55 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "1"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "1111111111"
-        },
         {
           "user": "botger",
           "msg": "Come follow ALL my socials and see what goes on after stream! \nhttps://streemrz.com/u/xxtowerdogxx/"
@@ -3902,6 +3893,22 @@
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "flash",
+          "msg": "I saw Country so it probably time for you to go"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -3911,7 +3918,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "Sipping Tequila 🥃, Dropping A-Bombs☢️ , Tracking Stats with Gamefolio🎮 — Delta Force",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "xxtowerdogxx's Tower Crew is a 🔥 high-energy community fueled by 💪 motivation, all about gaming Delta Force with a dash of humor. We're BLAZE time 🔥, dropping A-Bombs☢️, and tracking stats with Gamefolio🎮. Expect epic streams, giveaways, and a welcoming vibe. Show that Tower Crew support and use xxtowerdogxx to support the community!",
       "_profileAtCount": 336
