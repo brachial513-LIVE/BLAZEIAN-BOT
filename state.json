@@ -590,7 +590,7 @@
       "stats": {
         "totalVotes": 2461,
         "totalSubs": 7,
-        "totalChatMessages": 2776,
+        "totalChatMessages": 2777,
         "totalStreamMinutes": 177,
         "emotes": {
           "🔥": 42,
@@ -630,7 +630,8 @@
           "⚡": 3,
           "📊": 3,
           "💃": 1,
-          "💛": 1
+          "💛": 2,
+          "👑": 1
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -670,16 +671,13 @@
           "⚡": "⚡",
           "📊": "📊",
           "💃": "💃",
-          "💛": "💛"
+          "💛": "💛",
+          "👑": "👑"
         },
-        "lastChatAt": 1784333187715,
+        "lastChatAt": 1784363120230,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "sheena",
-          "msg": "AHHH"
-        },
         {
           "user": "sheena",
           "msg": "got it"
@@ -715,6 +713,10 @@
         {
           "user": "dofferlive",
           "msg": "how  are you doingg??"
+        },
+        {
+          "user": "parky",
+          "msg": "👑💛"
         }
       ],
       "customCommands": {},
@@ -2589,7 +2591,7 @@
         "totalVotes": 1718,
         "totalSubs": 7,
         "totalChatMessages": 646,
-        "totalStreamMinutes": 1804,
+        "totalStreamMinutes": 1824,
         "emotes": {
           "❤": 14,
           "🙌": 14,
