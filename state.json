@@ -1217,14 +1217,14 @@
       "stats": {
         "totalVotes": 2945,
         "totalSubs": 17,
-        "totalChatMessages": 1458,
-        "totalStreamMinutes": 4368,
+        "totalChatMessages": 1459,
+        "totalStreamMinutes": 4370,
         "emotes": {
           "❤": 62,
           "🙌": 34,
           "🗳": 180,
-          "📴": 43,
-          "👋": 48,
+          "📴": 44,
+          "👋": 49,
           "🔴": 40,
           "🎉": 66,
           "🏆": 13,
@@ -1365,14 +1365,10 @@
           "💛": "💛",
           "👑": "👑"
         },
-        "lastChatAt": 1784383148175,
+        "lastChatAt": 1784384509906,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "alliveall",
-          "msg": "gm Zani 👋"
-        },
         {
           "user": "fluffy",
           "msg": "hellow @agent00zani"
@@ -1408,6 +1404,10 @@
         {
           "user": "agent00zani",
           "msg": "ty ty sooo much @charddxyz char"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -1415,7 +1415,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "| Live in BLAZE Discord 🔥 | 🎰 Sub Raffle LIVE — Marvel Rivals",
+      "streamTitle": "",
       "profile": "**agent00zani** - Blaze Livestream Channel\n\nA chill, welcoming space for ARC Raiders enthusiasts. Expect doggo talk, shoutouts, and heartfelt appreciation for votes and support. We're all about \"Blazedian love,\" celebrating with \"Blazedian hugs,\" votes, and emojis. Join \"Silver Nation Raids\" and say \"Go go @agent00zani!!\" for \"Off The Grid\" vibes. We're a community of \"Blazedians\" who spread love, kindness, and 🥰.",
       "_profileAtCount": 1434,
       "loyalty": {
@@ -1691,7 +1691,7 @@
         "totalVotes": 733,
         "totalSubs": 15,
         "totalChatMessages": 350,
-        "totalStreamMinutes": 3535,
+        "totalStreamMinutes": 3540,
         "emotes": {
           "😊": 3,
           "🌵": 37,
@@ -4344,7 +4344,7 @@
         "totalVotes": 191,
         "totalSubs": 1,
         "totalChatMessages": 28,
-        "totalStreamMinutes": 105,
+        "totalStreamMinutes": 110,
         "emotes": {
           "❤": 2,
           "🙌": 2,
@@ -4850,8 +4850,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784311626482,
   "auth": {
-    "accessToken": "d19fc801bb83abdb93625628cf1a23e7",
-    "refreshToken": "5ae62eb51438e94aa000c57ee0fee3aa",
+    "accessToken": "a1a5d84022234197bec1d305f8fc1f2b",
+    "refreshToken": "ac241e0c6441366774ffccb8c435ced6",
     "sessionToken": "00b68bf2b1cb9fed7f21f80e96a1f6a0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
