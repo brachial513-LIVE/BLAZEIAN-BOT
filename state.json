@@ -1257,7 +1257,7 @@
       "stats": {
         "totalVotes": 2995,
         "totalSubs": 17,
-        "totalChatMessages": 1502,
+        "totalChatMessages": 1505,
         "totalStreamMinutes": 4534,
         "emotes": {
           "❤": 64,
@@ -1272,7 +1272,7 @@
           "💎": 5,
           "🎁": 35,
           "📢": 17,
-          "🔥": 138,
+          "🔥": 141,
           "😘": 21,
           "🥺": 5,
           "🥷": 9,
@@ -1407,22 +1407,10 @@
           "👑": "👑",
           "🥂": "🥂"
         },
-        "lastChatAt": 1784462232018,
+        "lastChatAt": 1784463673833,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "🥰"
-        },
-        {
-          "user": "helios",
-          "msg": "Gm gm Zani. Enjoy your stream"
-        },
-        {
-          "user": "parky",
-          "msg": "Im offskis ill catcvh you later on bro keep killin' it 👑💛🔥"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @Marowak33 is raiding with a party of 1! Welcome raiders!! 🎉"
@@ -1450,6 +1438,18 @@
         {
           "user": "helios",
           "msg": "I'll be lurking"
+        },
+        {
+          "user": "cabsss",
+          "msg": "to zup @agent00zani"
+        },
+        {
+          "user": "cabsss",
+          "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "whats up @cabsss"
         }
       ],
       "customCommands": {},
@@ -1958,22 +1958,14 @@
       "stats": {
         "totalVotes": 1160,
         "totalSubs": 19,
-        "totalChatMessages": 74,
+        "totalChatMessages": 76,
         "totalStreamMinutes": 864,
         "emotes": {},
         "emoteNames": {},
         "sendFailStreak": 0,
-        "lastChatAt": 1784412291132
+        "lastChatAt": 1784464354114
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @Future42!"
-        },
-        {
-          "user": "future42",
-          "msg": "Enjoy!!!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -2001,6 +1993,14 @@
         {
           "user": "cymatrix",
           "msg": "weasssssup broseph!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         },
         {
           "user": "scurvybot",
@@ -4756,16 +4756,16 @@
       "stats": {
         "totalVotes": 1086,
         "totalSubs": 0,
-        "totalChatMessages": 47,
-        "totalStreamMinutes": 207,
+        "totalChatMessages": 48,
+        "totalStreamMinutes": 222,
         "emotes": {
           "❤": 8,
           "🙌": 4,
           "💚": 2,
           "🔥": 5,
           "🗳": 27,
-          "🔴": 2,
-          "🎉": 3,
+          "🔴": 3,
+          "🎉": 4,
           "📴": 2,
           "👋": 2,
           "🚨": 6,
@@ -4789,13 +4789,9 @@
           "🦝": "🦝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784454004004
+        "lastChatAt": 1784463643523
       },
       "chatMemory": [
-        {
-          "user": "charddxyz",
-          "msg": "tingin ng item na bigay sayo"
-        },
         {
           "user": "charddxyz",
           "msg": "patingin item mo"
@@ -4831,6 +4827,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -4843,7 +4843,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Spirit Vale Grind! — IRL",
       "gameOverride": "",
       "profile": "faithy_'s community is a fiery Blaze crew, full of passionate gamers and enthusiasts. They're known for their \"BLAZE IT\" chants, wacky slang like \"kulong\" and \"wlang,\" and enthusiastic support for the streamer, who loves being celebrated with \"VOTE ALERT\" shoutouts and a warm welcome back after breaks.",
       "_profileAtCount": 17
@@ -5095,7 +5095,7 @@
   "auth": {
     "accessToken": "9217caba3667a2310fa68bc23351cdfb",
     "refreshToken": "7c3825974927252af06914615816d184",
-    "sessionToken": "87461cf5cf80f5fa65392f284a6d43f6",
+    "sessionToken": "d33acef1a4082cdcfcc3a940bb8b8fdd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
