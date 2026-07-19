@@ -1257,7 +1257,7 @@
         "totalVotes": 2995,
         "totalSubs": 17,
         "totalChatMessages": 1495,
-        "totalStreamMinutes": 4518,
+        "totalStreamMinutes": 4534,
         "emotes": {
           "❤": 64,
           "🙌": 35,
@@ -3592,15 +3592,16 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 14,
-        "totalStreamMinutes": 20,
+        "totalChatMessages": 15,
+        "totalStreamMinutes": 35,
         "emotes": {
           "❤": 4,
           "🙌": 3,
           "💚": 5,
           "🔥": 9,
           "📴": 2,
-          "👋": 2
+          "👋": 2,
+          "🥂": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -3608,16 +3609,13 @@
           "💚": "💚",
           "🔥": "🔥",
           "📴": "📴",
-          "👋": "👋"
+          "👋": "👋",
+          "🥂": "🥂"
         },
-        "lastChatAt": 1784459520148,
+        "lastChatAt": 1784460815979,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "thank you for your kind energy !"
-        },
         {
           "user": "thom6ss_otg",
           "msg": "🔥🔥🔥🔥"
@@ -3653,6 +3651,10 @@
         {
           "user": "botger",
           "msg": "Helios is now live!! Let's get building"
+        },
+        {
+          "user": "libralives",
+          "msg": "🥂"
         }
       ],
       "customCommands": {},
@@ -4972,6 +4974,27 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif"
+    },
+    "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
+      "username": "sheena",
+      "language": "en",
+      "joinedAt": 1784461195472,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "timedMessages": [],
+      "tipTiers": []
     }
   },
   "blocklist": [
