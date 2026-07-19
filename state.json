@@ -1256,7 +1256,7 @@
       "stats": {
         "totalVotes": 2995,
         "totalSubs": 17,
-        "totalChatMessages": 1495,
+        "totalChatMessages": 1497,
         "totalStreamMinutes": 4534,
         "emotes": {
           "❤": 64,
@@ -1265,7 +1265,7 @@
           "📴": 44,
           "👋": 49,
           "🔴": 41,
-          "🎉": 68,
+          "🎉": 69,
           "🏆": 13,
           "🤗": 16,
           "💎": 5,
@@ -1275,7 +1275,7 @@
           "😘": 21,
           "🥺": 5,
           "🥷": 9,
-          "🚨": 162,
+          "🚨": 168,
           "🩵": 2,
           "🐰": 1,
           "🫶": 15,
@@ -1406,18 +1406,10 @@
           "👑": "👑",
           "🥂": "🥂"
         },
-        "lastChatAt": 1784459927693,
+        "lastChatAt": 1784461675516,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "parky",
-          "msg": "😘💛"
-        },
-        {
-          "user": "parky",
-          "msg": "Yep its flown by lol"
-        },
         {
           "user": "parky",
           "msg": "Sleep is for the dead! lol"
@@ -1449,6 +1441,14 @@
         {
           "user": "parky",
           "msg": "Im offskis ill catcvh you later on bro keep killin' it 👑💛🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @Marowak33 is raiding with a party of 1! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "marowak33",
+          "msg": "heyhey"
         }
       ],
       "customCommands": {},
@@ -1731,12 +1731,12 @@
       "stats": {
         "totalVotes": 758,
         "totalSubs": 16,
-        "totalChatMessages": 366,
+        "totalChatMessages": 367,
         "totalStreamMinutes": 3954,
         "emotes": {
           "😊": 3,
-          "🌵": 41,
-          "🔥": 138,
+          "🌵": 43,
+          "🔥": 139,
           "🤪": 1,
           "👋": 14,
           "👍": 13,
@@ -1888,13 +1888,9 @@
           "🫠": "🫠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784433018983
+        "lastChatAt": 1784461726646
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "😂"
-        },
         {
           "user": "jt_squared2",
           "msg": "thank you!"
@@ -1930,6 +1926,10 @@
         {
           "user": "midnight_driv3r",
           "msg": "weee"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "🌵🔥🌵"
         }
       ],
       "customCommands": {},
@@ -4973,7 +4973,8 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
+      "followed": true
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
       "username": "sheena",
@@ -4982,13 +4983,41 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 4,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {},
-        "sendFailStreak": 0
+        "emotes": {
+          "😂": 1,
+          "💪": 1,
+          "💚": 2,
+          "😎": 1
+        },
+        "emoteNames": {
+          "😂": "😂",
+          "💪": "💪",
+          "💚": "💚",
+          "😎": "😎"
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1784461766067
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "piweb",
+          "msg": "Hi Brachial"
+        },
+        {
+          "user": "brachial513",
+          "msg": "Den druck kannst du dir zum glück selbst nehmen, ich merk das bei mir selbst immer, bin ich mal 2 tage nicht live habe ich so einen druck im körper dass ich fast durchdrehe und \"unbedingt wenigstens ne std\" streamen sollte, wahnsinn 😂"
+        },
+        {
+          "user": "brachial513",
+          "msg": "Ja, dito, mag druck in dem kontext auch nicht"
+        },
+        {
+          "user": "brachial513",
+          "msg": "klar, der weg ist das ziel - du schaffst das aufjedenfall ! Du bist nicht allein in dieser Matrix 💪💚 so ich mach mich auch mal wieder weiter, ich wünsche dir einen angenehmen stream und weiterhin einen schönen Tag 💚😎"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -5028,7 +5057,7 @@
   "auth": {
     "accessToken": "d59f6786db70447e8460c48d1da30c65",
     "refreshToken": "54155408160c584ce4272d2d3a3bce15",
-    "sessionToken": "9d9956131b8b30fb339e3e62a7b384f9",
+    "sessionToken": "7dcfc12376ccedf9987593f908ddc934",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
