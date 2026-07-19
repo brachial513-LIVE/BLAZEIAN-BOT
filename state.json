@@ -366,14 +366,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 12606,
-        "totalSubs": 21,
-        "totalChatMessages": 2560,
-        "totalStreamMinutes": 818,
+        "totalSubs": 22,
+        "totalChatMessages": 2667,
+        "totalStreamMinutes": 838,
         "emotes": {
           "🗳": 327,
-          "❤": 37,
-          "🙌": 53,
-          "🔥": 47,
+          "❤": 38,
+          "🙌": 59,
+          "🔥": 49,
           "☺": 2,
           "🔴": 9,
           "🎉": 33,
@@ -381,7 +381,7 @@
           "👋": 22,
           "🫶": 1,
           "💃": 1,
-          "😂": 171,
+          "😂": 172,
           "😜": 1,
           "🚨": 42,
           "🦊": 5,
@@ -396,15 +396,15 @@
           "😁": 20,
           "🍻": 1,
           "🎁": 32,
-          "😆": 22,
+          "😆": 29,
           "💚": 12,
-          "😌": 1,
+          "😌": 2,
           "😊": 5,
           "😘": 10,
           "✨": 2,
           "🌪": 1,
           "🥲": 3,
-          "😬": 5,
+          "😬": 8,
           "😱": 8,
           "😓": 4,
           "🙄": 2,
@@ -424,7 +424,7 @@
           "👑": 2,
           "🤝": 1,
           "‼": 2,
-          "⭕": 3,
+          "⭕": 6,
           "🚙": 4,
           "💖": 2,
           "🫂": 1,
@@ -432,7 +432,7 @@
           "🎨": 1,
           "🤭": 7,
           "😢": 2,
-          "🫠": 4,
+          "🫠": 6,
           "😍": 3,
           "🦧": 1,
           "💀": 1,
@@ -446,8 +446,10 @@
           "👌": 1,
           "👏": 1,
           "👍": 2,
-          "😭": 1,
-          "🥺": 1
+          "😭": 6,
+          "🥺": 1,
+          "😥": 1,
+          "😛": 2
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -527,51 +529,53 @@
           "👏": "👏",
           "👍": "👍",
           "😭": "😭",
-          "🥺": "🥺"
+          "🥺": "🥺",
+          "😥": "😥",
+          "😛": "😛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784422444700
+        "lastChatAt": 1784423570583
       },
       "chatMemory": [
         {
-          "user": "triz_draw",
-          "msg": "awwwwwwwww"
-        },
-        {
-          "user": "octo",
-          "msg": "coming up with something random to draw is tricky, i saw purple and thought grimace so tried that"
-        },
-        {
-          "user": "octo",
-          "msg": "i like the ghost"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "cute one"
-        },
-        {
-          "user": "time",
-          "msg": "Both so cute 😍"
-        },
-        {
-          "user": "octo",
-          "msg": "tenshi's shirt is awesome it was just up against blame jt"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "😂🙌🙌🙌🙌🙌"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "oh that was dnd's can I take my votes back?"
-        },
-        {
           "user": "tenshi",
-          "msg": "hehe"
+          "msg": "sorry guys i was about to watch tv"
+        },
+        {
+          "user": "saffire_vixen",
+          "msg": "Audience members can vote!"
+        },
+        {
+          "user": "briggsy",
+          "msg": "I’m in the audience now."
+        },
+        {
+          "user": "octo",
+          "msg": "w briggsy"
         },
         {
           "user": "triz_draw",
-          "msg": "😆"
+          "msg": "drop the phone😆😆😆😆⭕\\"
+        },
+        {
+          "user": "saffire_vixen",
+          "msg": "60 seconds"
+        },
+        {
+          "user": "saffire_vixen",
+          "msg": "30 seconds"
+        },
+        {
+          "user": "octo",
+          "msg": "idk what i drew but i sure did"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Haha"
+        },
+        {
+          "user": "saffire_vixen",
+          "msg": "10 seconds"
         }
       ],
       "customCommands": {},
@@ -603,6 +607,11 @@
         },
         "cg777": {
           "name": "cg777",
+          "months": 1,
+          "tier": 1
+        },
+        "senseibulrog": {
+          "name": "senseibulrog",
           "months": 1,
           "tier": 1
         }
@@ -1719,7 +1728,7 @@
         "totalVotes": 758,
         "totalSubs": 16,
         "totalChatMessages": 363,
-        "totalStreamMinutes": 3778,
+        "totalStreamMinutes": 3798,
         "emotes": {
           "😊": 3,
           "🌵": 39,
@@ -1926,8 +1935,8 @@
       "locked": false,
       "followed": true,
       "streamTitle": "Loading Barges and Fueling Ships in South East Texas — IRL",
-      "profile": "Channel: capt_rob_advent\nCurrent stream title: Loading Barges and Fueling Ships in South East Texas — IRL\nCommunity: This high-energy crew fuels the streamer's enthusiasm with 🔥 emojis. We're passionate about IRL streams, especially boats and ships. Expect casual greetings, lighthearted teasing, and catchphrases like \"TTS DOWN\" and \"VOR-a-issh\". Join in with boat emojis 🛳🛥🚢⛴️ and flames 🔥. Let's keep it 🔥!",
-      "_profileAtCount": 318,
+      "profile": "Channel: capt_rob_advent\nCurrent stream title: Loading Barges and Fueling Ships in South East Texas — IRL\nCommunity: High-energy crew fueling the streamer's enthusiasm with 🔥 emojis. Expect casual greetings, lighthearted teasing, and catchphrases like \"TTS DOWN\", \"VOR-a-issh\", and \"BLAZE IT!!!\". Join in with boat emojis 🛳🛥🚢⛴️ and flames 🔥. Let's keep it 🔥!",
+      "_profileAtCount": 363,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/30ffbf64-8a9b-4fd3-9136-b50d87e108d5.gif",
       "loyalty": {
@@ -2486,7 +2495,7 @@
         "totalVotes": 261,
         "totalSubs": 8,
         "totalChatMessages": 81,
-        "totalStreamMinutes": 1179,
+        "totalStreamMinutes": 1189,
         "emotes": {
           "💃": 9,
           "🔥": 1,
@@ -2568,7 +2577,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "OFF THE GRID! COMPLETE OVERHAUL UPDATE CHECK IT OUT! — Off The Grid",
+      "streamTitle": "",
       "profile": "killlab's squad is a chill crew of gamers who love Red Dead Redemption 2 and Wild West vibes. We're a laid-back group, often saying \"lets go\" and \"hf\" (have fun). We celebrate milestones with \"nice stream\" and \"have a nice weekend\" messages, and our streamer loves AgentZani's enthusiasm, especially when they say \"ty ty\" and \"yeah ggs\" – it's always a nice stream!",
       "_profileAtCount": 79,
       "gameOverride": "",
@@ -2641,8 +2650,8 @@
       "stats": {
         "totalVotes": 1723,
         "totalSubs": 7,
-        "totalChatMessages": 688,
-        "totalStreamMinutes": 1954,
+        "totalChatMessages": 691,
+        "totalStreamMinutes": 1974,
         "emotes": {
           "❤": 16,
           "🙌": 15,
@@ -2703,18 +2712,10 @@
           "👑": "👑",
           "🥳": "🥳"
         },
-        "lastChatAt": 1784420480710,
+        "lastChatAt": 1784423595889,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "parky",
-          "msg": "🥳🥳🥳🥳🥳🥳"
-        },
-        {
-          "user": "octo",
-          "msg": "ggs! haha"
-        },
         {
           "user": "parky",
           "msg": "GG"
@@ -2746,6 +2747,14 @@
         {
           "user": "botger",
           "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "zvessell",
+          "msg": "Hola. m banearon del chat d twtich ajhaj"
+        },
+        {
+          "user": "botger",
+          "msg": "Holi Holiii Holiiii"
         }
       ],
       "customCommands": {},
