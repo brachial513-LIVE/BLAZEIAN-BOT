@@ -2025,11 +2025,11 @@
       "stats": {
         "totalVotes": 1386,
         "totalSubs": 6,
-        "totalChatMessages": 517,
+        "totalChatMessages": 521,
         "totalStreamMinutes": 2140,
         "emotes": {
           "✨": 9,
-          "🖥": 12,
+          "🖥": 14,
           "🔥": 62,
           "👋": 21,
           "🎬": 25,
@@ -2145,18 +2145,10 @@
           "🌟": "🌟",
           "🌹": "🌹"
         },
-        "lastChatAt": 1784465782590,
+        "lastChatAt": 1784465966472,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "Hi @time"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "Now home 😊"
-        },
         {
           "user": "agent00zani",
           "msg": "❤️"
@@ -2176,6 +2168,14 @@
         {
           "user": "cachebot",
           "msg": "🏆 [HALL OF FAME]: 💥 Record Raid: @None (0 viewers) | 🗳️ Biggest Drop: @agent00zani (250 votes) | 👑 All-Time Voter: @zsoltech (481 votes) | 🎁 Record Gift: @A user (1 subs) | 👑 Longest Sub: @A user (1 mo) | ⚡ Elite Decker: @tarzan (630 TB stolen!)"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🖥️  Zer0Cache, Thanks for Testing CacheBot out!"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🖥️  Zer0Cache, Thanks for Testing CacheBot out!"
         },
         {
           "user": "cachebot",
@@ -2235,10 +2235,10 @@
       "stats": {
         "totalVotes": 2505,
         "totalSubs": 13,
-        "totalChatMessages": 2411,
+        "totalChatMessages": 2412,
         "totalStreamMinutes": 1624,
         "emotes": {
-          "❤": 48,
+          "❤": 49,
           "🙌": 95,
           "🗳": 222,
           "✌": 3,
@@ -2251,7 +2251,7 @@
           "⚡": 20,
           "😂": 35,
           "😍": 17,
-          "🔥": 29,
+          "🔥": 30,
           "😎": 5,
           "😁": 12,
           "😄": 19,
@@ -2424,13 +2424,9 @@
           "🌵": "🌵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784392001925
+        "lastChatAt": 1784465902470
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "yer funny man"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Dress_n_Draw just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
@@ -2466,6 +2462,10 @@
         {
           "user": "briggsy",
           "msg": "haha, thanks @tigresa"
+        },
+        {
+          "user": "infamousex",
+          "msg": "Thank you for showing up ❤️‍🔥"
         }
       ],
       "customCommands": {},
@@ -4757,7 +4757,7 @@
         "totalVotes": 1086,
         "totalSubs": 0,
         "totalChatMessages": 48,
-        "totalStreamMinutes": 242,
+        "totalStreamMinutes": 246,
         "emotes": {
           "❤": 8,
           "🙌": 4,
@@ -5093,8 +5093,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784461588803,
   "auth": {
-    "accessToken": "9217caba3667a2310fa68bc23351cdfb",
-    "refreshToken": "7c3825974927252af06914615816d184",
+    "accessToken": "2808213fb525eb73b832a59ebadffbb4",
+    "refreshToken": "9c068e1ed581fddf19640fd3de1f6720",
     "sessionToken": "d33acef1a4082cdcfcc3a940bb8b8fdd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
