@@ -1290,8 +1290,8 @@
       "stats": {
         "totalVotes": 3377,
         "totalSubs": 17,
-        "totalChatMessages": 1740,
-        "totalStreamMinutes": 5218,
+        "totalChatMessages": 1741,
+        "totalStreamMinutes": 5235,
         "emotes": {
           "❤": 69,
           "🙌": 45,
@@ -1327,7 +1327,7 @@
           "💚": 13,
           "💃": 44,
           "🙏": 1,
-          "💪": 5,
+          "💪": 6,
           "😊": 5,
           "👀": 13,
           "💩": 2,
@@ -1448,14 +1448,10 @@
           "⚡": "⚡",
           "😆": "😆"
         },
-        "lastChatAt": 1784555851483,
+        "lastChatAt": 1784556678022,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎉 agent00zani just reached Level 2! ⚡ (2,204 XP)"
-        },
         {
           "user": "agent00zani",
           "msg": "how are u doing today @Vitrene ?"
@@ -1491,6 +1487,10 @@
         {
           "user": "agent00zani",
           "msg": "ty ty @angge_wf"
+        },
+        {
+          "user": "vitrene",
+          "msg": "too busy to stream today, but will try to stream tomorrow 💪"
         }
       ],
       "customCommands": {},
@@ -4322,7 +4322,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 26,
-        "totalStreamMinutes": 1420,
+        "totalStreamMinutes": 1435,
         "emotes": {
           "💪": 2,
           "💚": 7,
@@ -4389,7 +4389,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/57ce46fe-2b75-41bc-8bb7-fc5e7b7c1118-profile_image-300x300.png",
-      "streamTitle": "🚀 ¡EMPEZAMOS ARKNIGHTS: ENDFIELD! | Primeras impresiones 🔥 — Arknights Endfield",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "I'm a regular in Anjanna87's Blaze livestream community. We're a fire squad (🔥) that loves free content, with a special shoutout to Blazeian bot. You can spot us using \"!setbotlang espanol\" and rocking pink overlays. We're all about good vibes, sweet moments, and celebrating Anjanna with 💚 and \"ohhhhhhhhs\".",
       "_profileAtCount": 15
@@ -4400,7 +4400,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 15,
+        "totalChatMessages": 20,
         "totalStreamMinutes": 0,
         "emotes": {
           "📢": 12,
@@ -4413,29 +4413,9 @@
           "👾": "👾"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784555881741
+        "lastChatAt": 1784556071627
       },
       "chatMemory": [
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] 👾 **You are being tracked by Lights Out** — Discord's first Blaze engagement bot. This means your community has access to games and fun for all. Type `/help` to take a look. Please send feedback to **Sentius Nox** 🙂"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] ════════════════ 📢 ANNOUNCEMENT 📢 ════════════════"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] 👾 **You are being tracked by Lights Out** — Discord's first Blaze engagement bot. This means your community has access to games and fun for all. Type `/help` to take a look. Please send feedback to **Sentius Nox** 🙂"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] ════════════════ 📢 ANNOUNCEMENT 📢 ════════════════"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] 👾 **You are being tracked by Lights Out** — Discord's first Blaze engagement bot. This means your community has access to games and fun for all. Type `/help` to take a look. Please send feedback to **Sentius Nox** 🙂"
-        },
         {
           "user": "lights_out",
           "msg": "[Lights Out] ════════════════ 📢 ANNOUNCEMENT 📢 ════════════════"
@@ -4455,6 +4435,26 @@
         {
           "user": "sentius_nox",
           "msg": "/points"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] @Sentius_Nox You have 2621 points!"
+        },
+        {
+          "user": "sentius_nox",
+          "msg": "/duel sentius_nox 1"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] @Sentius_Nox You cannot duel yourself!"
+        },
+        {
+          "user": "sentius_nox",
+          "msg": "/duel tester 1"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] @Sentius_Nox Couldn't find 'tester'!"
         }
       ],
       "customCommands": {},
@@ -5340,10 +5340,10 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 116,
+        "totalVotes": 117,
         "totalSubs": 4,
-        "totalChatMessages": 54,
-        "totalStreamMinutes": 2,
+        "totalChatMessages": 57,
+        "totalStreamMinutes": 19,
         "emotes": {
           "❤": 9,
           "🙌": 5,
@@ -5354,7 +5354,7 @@
           "💪": 1,
           "💚": 3,
           "🔥": 4,
-          "🗳": 12,
+          "🗳": 15,
           "🤗": 4,
           "📴": 1,
           "🎁": 8,
@@ -5379,21 +5379,9 @@
           "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784555864642
+        "lastChatAt": 1784556776687
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @angge_wf just gifted a sub to @mindgoblin! How generous!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@angge_wf gifted a Sub to @wayfinders! Thank you!"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @angge_wf just gifted a sub to @wayfinders! How generous!! 🙌"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 5 votes, @avisi!"
@@ -5421,6 +5409,18 @@
         {
           "user": "agent00zani",
           "msg": "gm gm"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @DestinoProspero!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DestinoProspero just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "destinoprospero",
+          "msg": "helloooo !"
         }
       ],
       "customCommands": {},
@@ -5601,8 +5601,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784537770723,
   "auth": {
-    "accessToken": "1d7900fc7d26daf477354059ee1fc753",
-    "refreshToken": "b4cb3997d54d350ce9ac0da92258a166",
+    "accessToken": "0e60ebddec8c4a6c837664d196272c4b",
+    "refreshToken": "bfedf51dd0fd67bd936af22437b0d4e0",
     "sessionToken": "87d2e22b9cc1a804c104569ba5abe57d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
