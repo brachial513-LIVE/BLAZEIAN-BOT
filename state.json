@@ -398,12 +398,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 14717,
+        "totalVotes": 14724,
         "totalSubs": 22,
-        "totalChatMessages": 2849,
+        "totalChatMessages": 2850,
         "totalStreamMinutes": 898,
         "emotes": {
-          "🗳": 372,
+          "🗳": 375,
           "❤": 40,
           "🙌": 60,
           "🔥": 49,
@@ -569,13 +569,9 @@
           "🤓": "🤓"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784543156947
+        "lastChatAt": 1784545806123
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @senseibulrog just gave 58 vote(s) (total: 158)! Thank you!! 🗳️"
-        },
         {
           "user": "vroshi55",
           "msg": "@blazeian_bot_ai I need you to take a break and stay out of the chat until I ask you to come back."
@@ -611,6 +607,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @seventh just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1288,14 +1288,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 3125,
+        "totalVotes": 3126,
         "totalSubs": 17,
-        "totalChatMessages": 1718,
-        "totalStreamMinutes": 5050,
+        "totalChatMessages": 1719,
+        "totalStreamMinutes": 5055,
         "emotes": {
           "❤": 69,
           "🙌": 45,
-          "🗳": 198,
+          "🗳": 201,
           "📴": 47,
           "👋": 52,
           "🔴": 44,
@@ -1448,14 +1448,10 @@
           "⚡": "⚡",
           "😆": "😆"
         },
-        "lastChatAt": 1784544184434,
+        "lastChatAt": 1784545958413,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "🫡"
-        },
         {
           "user": "botger",
           "msg": "💰 TIP ALERT!! 💰 @FoeDubb just tipped $2.00!! Thank you so much!! 🙌"
@@ -1491,6 +1487,10 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -3025,7 +3025,7 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 2185,
+        "totalVotes": 2744,
         "totalSubs": 15,
         "totalChatMessages": 332,
         "totalStreamMinutes": 1491,
@@ -5272,7 +5272,7 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 207,
+        "totalVotes": 217,
         "totalSubs": 0,
         "totalChatMessages": 7,
         "totalStreamMinutes": 0,
@@ -5586,8 +5586,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784537770723,
   "auth": {
-    "accessToken": "37973df3a6f0e62443f9e64a1cf4da3a",
-    "refreshToken": "4be9b297edeeee87e167bcca74a32b5a",
+    "accessToken": "58b9393ea60d1be0569dd2f26a1d515d",
+    "refreshToken": "c9582eb3c08ff8a51c4d330b27fdf311",
     "sessionToken": "87d2e22b9cc1a804c104569ba5abe57d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
