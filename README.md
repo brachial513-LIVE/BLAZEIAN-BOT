@@ -16,7 +16,10 @@ BlazeianBot isn't a canned-response bot — it actually reads what people say an
 - **Streaming schedule** — owner sets it once with `!setschedule`, viewers check it anytime with `!schedule`
 - **Tip-for-a-reward tiers** — owners running a "tip $X for Y" promo set their own tiers with `!settiptier`, and the bot calls out the actual reward earned in the celebration
 - **Stats tracking** — `!stats` shows votes, subs, chat activity, top emote per channel
+- **Adjustable chat volume** — owner sets `!setcommentmode low/regular/heavy` to control how often event celebrations post a message, for quieter chat during busy streams
+- **BlazeianBot Adventures comics** — an evolving comic series unlocked for crew members at `/comics`, with a free weekly giveaway entry for using the bot
 - **Crew leaderboards** — ask "who has the most votes/subs in the crew?" and it answers with real, current numbers across every channel it's in, never a guessed name
+- **Public crew leaderboard** — a live, ranked "Most Active Blazeian Users" board right on the homepage, updated automatically from real chat/vote/sub activity
 - **Free OBS overlays** — an animated emote wall, a live viewer counter, and an animated running/reacting mascot, all as simple Browser Source URLs
 - **Self-learning channel profiles** — the bot quietly picks up on each community's own slang and vibe over time, so it sounds like a regular, not a guest
 - **Automatic follow-back & channel onboarding** — one `!join` (or one follow) sets a streamer up completely, including followers-only chat access
@@ -33,6 +36,6 @@ Every streamer manages only their own channel from their own dashboard — the b
 
 ## Status
 
-Actively developed and running live 24/7 across 30+ Blaze channels, completely free for every streamer who joins.
+Actively developed and running live 24/7 across 40+ Blaze channels, completely free for every streamer who joins.
 
 Built by [Brachial513](https://x.com/BRACHIAL513) — founder of the GMC (Geile Menschen Community) — steering the product with an AI coding assistant as build partner.
