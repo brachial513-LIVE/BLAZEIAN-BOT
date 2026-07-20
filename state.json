@@ -1290,8 +1290,8 @@
       "stats": {
         "totalVotes": 3378,
         "totalSubs": 17,
-        "totalChatMessages": 1790,
-        "totalStreamMinutes": 5474,
+        "totalChatMessages": 1791,
+        "totalStreamMinutes": 5479,
         "emotes": {
           "❤": 72,
           "🙌": 48,
@@ -1448,14 +1448,10 @@
           "⚡": "⚡",
           "😆": "😆"
         },
-        "lastChatAt": 1784580744254,
+        "lastChatAt": 1784580898493,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "hope you have a wonderfull day today"
-        },
         {
           "user": "slothsm",
           "msg": "fala comigo"
@@ -1491,6 +1487,10 @@
         {
           "user": "zeltronica",
           "msg": "joking"
+        },
+        {
+          "user": "zeltronica",
+          "msg": "I'll talk to you in a moment - I'll play now"
         }
       ],
       "customCommands": {},
@@ -2848,7 +2848,7 @@
         "totalVotes": 1186,
         "totalSubs": 29,
         "totalChatMessages": 189,
-        "totalStreamMinutes": 3214,
+        "totalStreamMinutes": 3219,
         "emotes": {
           "❤": 58,
           "🙌": 15,
@@ -5674,8 +5674,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784563008070,
   "auth": {
-    "accessToken": "ad7c6d092b2ff8b85d4239c7146768a0",
-    "refreshToken": "c6099a677bfe5b3d0bc9e0f0a3e854a0",
+    "accessToken": "4c52446a38fe99276f9164b55f31654e",
+    "refreshToken": "9d6c680b0a8efeebb3515d6e5425b67d",
     "sessionToken": "87d2e22b9cc1a804c104569ba5abe57d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
