@@ -1290,8 +1290,8 @@
       "stats": {
         "totalVotes": 3151,
         "totalSubs": 17,
-        "totalChatMessages": 1724,
-        "totalStreamMinutes": 5185,
+        "totalChatMessages": 1725,
+        "totalStreamMinutes": 5190,
         "emotes": {
           "❤": 69,
           "🙌": 45,
@@ -1448,14 +1448,10 @@
           "⚡": "⚡",
           "😆": "😆"
         },
-        "lastChatAt": 1784548115453,
+        "lastChatAt": 1784554131204,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "grindingdragon",
-          "msg": "brb"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -1491,6 +1487,10 @@
         {
           "user": "curlysnow07",
           "msg": "Hope you have a great stream"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "brb"
         }
       ],
       "customCommands": {},
@@ -4538,7 +4538,7 @@
         "totalVotes": 348,
         "totalSubs": 1,
         "totalChatMessages": 58,
-        "totalStreamMinutes": 254,
+        "totalStreamMinutes": 259,
         "emotes": {
           "❤": 2,
           "🙌": 2,
@@ -5589,8 +5589,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784537770723,
   "auth": {
-    "accessToken": "b2c250a141cbc493b65c258827ec0710",
-    "refreshToken": "0131d90331e447e3789059db3e0965a5",
+    "accessToken": "1d7900fc7d26daf477354059ee1fc753",
+    "refreshToken": "b4cb3997d54d350ce9ac0da92258a166",
     "sessionToken": "87d2e22b9cc1a804c104569ba5abe57d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
