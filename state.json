@@ -1774,7 +1774,7 @@
         "totalVotes": 821,
         "totalSubs": 16,
         "totalChatMessages": 395,
-        "totalStreamMinutes": 4118,
+        "totalStreamMinutes": 4138,
         "emotes": {
           "😊": 3,
           "🌵": 43,
@@ -2842,16 +2842,16 @@
       "stats": {
         "totalVotes": 1173,
         "totalSubs": 29,
-        "totalChatMessages": 175,
-        "totalStreamMinutes": 3170,
+        "totalChatMessages": 176,
+        "totalStreamMinutes": 3180,
         "emotes": {
           "❤": 54,
           "🙌": 15,
           "🔥": 14,
           "🔴": 22,
           "🎉": 22,
-          "📴": 22,
-          "👋": 22,
+          "📴": 23,
+          "👋": 23,
           "😂": 4,
           "💚": 6,
           "💪": 2,
@@ -2880,14 +2880,10 @@
           "🤘": "🤘",
           "😍": "😍"
         },
-        "lastChatAt": 1784510388609,
+        "lastChatAt": 1784511024286,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "retrogains12",
-          "msg": "thank you for follow"
-        },
         {
           "user": "parky",
           "msg": "Hey bto, sorry i was locked it lo"
@@ -2923,6 +2919,10 @@
         {
           "user": "peperonitostv",
           "msg": "Saalve Sloth! Boa live e bom farm pra noois meu manoo!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -2934,7 +2934,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🎙️ PRIDECAST | TUNAD0 – A História de um Líder, as Guerras de uma Lenda — Talk Shows & Podcasts",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -4213,10 +4213,10 @@
       "username": "thewill3ffect",
       "language": "en",
       "stats": {
-        "totalVotes": 1208,
+        "totalVotes": 1328,
         "totalSubs": 46,
-        "totalChatMessages": 162,
-        "totalStreamMinutes": 761,
+        "totalChatMessages": 164,
+        "totalStreamMinutes": 781,
         "emotes": {
           "❤": 11,
           "🙌": 51,
@@ -4227,7 +4227,7 @@
           "👋": 8,
           "🎁": 90,
           "🔥": 8,
-          "🗳": 27,
+          "🗳": 30,
           "⚡": 1
         },
         "emoteNames": {
@@ -4244,17 +4244,9 @@
           "⚡": "⚡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784510231053
+        "lastChatAt": 1784511521508
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ bsnive just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 thewill3ffect is now live! Welcome everyone! 🎉"
@@ -4286,6 +4278,14 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 120 votes, @senseibulrog!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @senseibulrog just gave 120 vote(s) (total: 120)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5481,7 +5481,7 @@
         "totalVotes": 905,
         "totalSubs": 87,
         "totalChatMessages": 5,
-        "totalStreamMinutes": 42,
+        "totalStreamMinutes": 62,
         "emotes": {
           "🔥": 2
         },
