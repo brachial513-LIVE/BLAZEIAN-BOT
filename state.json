@@ -1522,7 +1522,7 @@
       "stats": {
         "totalVotes": 3125,
         "totalSubs": 2,
-        "totalChatMessages": 4132,
+        "totalChatMessages": 4133,
         "totalStreamMinutes": 1411,
         "emotes": {
           "❤": 1659,
@@ -1564,7 +1564,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 13,
-          "💜": 127,
+          "💜": 128,
           "🧔": 1,
           "🤺": 1,
           "🥳": 5,
@@ -1676,16 +1676,12 @@
           "💊": "💊",
           "🖐": "🖐"
         },
-        "lastChatAt": 1784528816996,
+        "lastChatAt": 1784569804148,
         "sendFailStreak": 31,
         "lastSendFailAt": 1784559835309,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
         {
           "user": "bee12",
           "msg": "hey everyone! Join us, head over to https://blaze.stream/cymatrix ❤️❤️❤️"
@@ -1721,6 +1717,10 @@
         {
           "user": "rob_osp",
           "msg": "@noxx — thanks for the 5 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         }
       ],
       "customCommands": {},
@@ -3358,7 +3358,7 @@
         "totalVotes": 1779,
         "totalSubs": 10,
         "totalChatMessages": 615,
-        "totalStreamMinutes": 1182,
+        "totalStreamMinutes": 1202,
         "emotes": {
           "❤": 9,
           "🙌": 27,
@@ -5376,21 +5376,21 @@
       "stats": {
         "totalVotes": 138,
         "totalSubs": 4,
-        "totalChatMessages": 76,
-        "totalStreamMinutes": 219,
+        "totalChatMessages": 81,
+        "totalStreamMinutes": 225,
         "emotes": {
           "❤": 9,
           "🙌": 5,
           "🫂": 1,
           "🥰": 1,
           "😘": 10,
-          "👋": 2,
+          "👋": 3,
           "💪": 1,
           "💚": 3,
           "🔥": 4,
           "🗳": 30,
           "🤗": 4,
-          "📴": 1,
+          "📴": 2,
           "🎁": 8,
           "🔴": 1,
           "🎉": 1,
@@ -5415,29 +5415,9 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784564737110
+        "lastChatAt": 1784569243224
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "xanderc",
-          "msg": "Hey lovely Anggeeeee"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @jeffstv!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @jeffstv just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
-        {
-          "user": "jeffstv",
-          "msg": "gm gm"
-        },
         {
           "user": "sinnerz",
           "msg": "helloo"
@@ -5457,6 +5437,26 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "happy streaminggg"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "gl sa games"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "huhu"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5470,7 +5470,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4e3e8a6e-187e-4044-ac4b-00376f4dd2b2.gif",
       "profile": "angge_wf's community is a lively, energetic group who love to celebrate their streamer with affectionate slang like \"Gm\" and \"Love\" (e.g. 🫂🥰😘😘). They're a gaming community who enjoy competitive games like Valorant, often participating in giveaways and voting for each other. They appreciate being called out by their streamer's nickname \"Beauti\" and enjoy hearing about her day.",
       "_profileAtCount": 75,
-      "streamTitle": "Wayfinders PH - CHILL STREAM — VALORANT",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "botVip": true
