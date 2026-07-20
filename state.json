@@ -1774,7 +1774,7 @@
         "totalVotes": 818,
         "totalSubs": 16,
         "totalChatMessages": 392,
-        "totalStreamMinutes": 4028,
+        "totalStreamMinutes": 4048,
         "emotes": {
           "😊": 3,
           "🌵": 43,
@@ -2843,7 +2843,7 @@
         "totalVotes": 1173,
         "totalSubs": 29,
         "totalChatMessages": 174,
-        "totalStreamMinutes": 3080,
+        "totalStreamMinutes": 3100,
         "emotes": {
           "❤": 54,
           "🙌": 15,
@@ -4215,13 +4215,13 @@
       "stats": {
         "totalVotes": 1208,
         "totalSubs": 46,
-        "totalChatMessages": 159,
-        "totalStreamMinutes": 680,
+        "totalChatMessages": 161,
+        "totalStreamMinutes": 691,
         "emotes": {
-          "❤": 9,
-          "🙌": 50,
-          "🔴": 8,
-          "🎉": 9,
+          "❤": 11,
+          "🙌": 51,
+          "🔴": 9,
+          "🎉": 10,
           "😂": 2,
           "📴": 8,
           "👋": 8,
@@ -4244,17 +4244,9 @@
           "⚡": "⚡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784501772741
+        "lastChatAt": 1784506029231
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "heyy"
-        },
-        {
-          "user": "time",
-          "msg": "thanks for the gift"
-        },
         {
           "user": "botger",
           "msg": "🎉 BLAZEIAN_BOT_AI just reached Level 1! ⚡ (1,005 XP)"
@@ -4286,6 +4278,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @senseibulrog just gave 30 vote(s) (total: 145)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 thewill3ffect is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ cluttysalamander just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -4298,7 +4298,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/eaf52e0e-c43a-4a95-ae72-8f8f3836332e.jpeg",
-      "streamTitle": "",
+      "streamTitle": "Grinding Runs In the DarK — Dark And Darker",
       "gameOverride": "",
       "profile": "thewill3ffect profile: \nThis community is a tight-knit, generous bunch where @senseibulrog frequently gifts subs to their favorite streamers, especially @igotbeatz, @JaggerJack, @TwiceSlice, and @williamzenx. They love celebrating with 🎁 GIFTED SUB!! 🎁 and \"How generous!! 🙌\" vibes, often referencing World of Faded Monsuta and sharing love for their streamer. They use slang like \"brutal af\" and \"slow but fun\".",
       "_profileAtCount": 144,
@@ -5057,12 +5057,12 @@
       "stats": {
         "totalVotes": 607,
         "totalSubs": 0,
-        "totalChatMessages": 6,
-        "totalStreamMinutes": 170,
+        "totalChatMessages": 7,
+        "totalStreamMinutes": 179,
         "emotes": {},
         "emoteNames": {},
         "sendFailStreak": 0,
-        "lastChatAt": 1784500942464
+        "lastChatAt": 1784505557963
       },
       "chatMemory": [
         {
@@ -5088,6 +5088,10 @@
         {
           "user": "nixonmania",
           "msg": "Helooo, Have a nice stream!!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -5100,7 +5104,8 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "DOTES — Ragnarok Online"
+      "streamTitle": "",
+      "gameOverride": ""
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
       "username": "sheena",
