@@ -5062,12 +5062,16 @@
       "stats": {
         "totalVotes": 615,
         "totalSubs": 0,
-        "totalChatMessages": 7,
+        "totalChatMessages": 9,
         "totalStreamMinutes": 179,
-        "emotes": {},
-        "emoteNames": {},
+        "emotes": {
+          "🔥": 3
+        },
+        "emoteNames": {
+          "🔥": "🔥"
+        },
         "sendFailStreak": 0,
-        "lastChatAt": 1784505557963
+        "lastChatAt": 1784532012955
       },
       "chatMemory": [
         {
@@ -5097,6 +5101,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "dimifw",
+          "msg": "🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -5109,7 +5121,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "DOTES — Ragnarok Online",
       "gameOverride": ""
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
