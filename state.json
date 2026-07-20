@@ -3355,9 +3355,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 1702,
+        "totalVotes": 1727,
         "totalSubs": 10,
-        "totalChatMessages": 592,
+        "totalChatMessages": 593,
         "totalStreamMinutes": 1107,
         "emotes": {
           "❤": 9,
@@ -3368,7 +3368,7 @@
           "🙂": 3,
           "🔥": 19,
           "😎": 3,
-          "🗳": 93,
+          "🗳": 96,
           "📴": 8,
           "👋": 8,
           "🎁": 20,
@@ -3434,13 +3434,9 @@
           "🤯": "🤯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784496959430
+        "lastChatAt": 1784543214510
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "🫂"
-        },
         {
           "user": "grindingdragon",
           "msg": "🤠🥸😎🤯"
@@ -3476,6 +3472,10 @@
         {
           "user": "botger",
           "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5586,8 +5586,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784537770723,
   "auth": {
-    "accessToken": "e2570ce8a915259a5ce2a5ce49a49edd",
-    "refreshToken": "26ec8c7411e4cb012c84a750fc70b24a",
+    "accessToken": "37973df3a6f0e62443f9e64a1cf4da3a",
+    "refreshToken": "4be9b297edeeee87e167bcca74a32b5a",
     "sessionToken": "87d2e22b9cc1a804c104569ba5abe57d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
