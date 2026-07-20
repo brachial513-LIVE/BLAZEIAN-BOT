@@ -2848,7 +2848,7 @@
         "totalVotes": 1186,
         "totalSubs": 30,
         "totalChatMessages": 194,
-        "totalStreamMinutes": 3350,
+        "totalStreamMinutes": 3370,
         "emotes": {
           "❤": 60,
           "🙌": 16,
@@ -4019,8 +4019,8 @@
       "stats": {
         "totalVotes": 448,
         "totalSubs": 11,
-        "totalChatMessages": 376,
-        "totalStreamMinutes": 3285,
+        "totalChatMessages": 379,
+        "totalStreamMinutes": 3305,
         "emotes": {
           "🔥": 138,
           "🔴": 42,
@@ -4051,7 +4051,8 @@
           "🤠": 1,
           "🥳": 1,
           "💯": 1,
-          "✌": 1
+          "✌": 1,
+          "👍": 2
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -4083,24 +4084,13 @@
           "🤠": "🤠",
           "🥳": "🥳",
           "💯": "💯",
-          "✌": "✌"
+          "✌": "✌",
+          "👍": "👍"
         },
-        "lastChatAt": 1784589110667,
+        "lastChatAt": 1784589586028,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
-        {
-          "user": "flash",
-          "msg": "I saw Country so it probably time for you to go"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -4128,6 +4118,18 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "slothsm",
+          "msg": "gm gm bro"
+        },
+        {
+          "user": "botger",
+          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "xxtowerdogxx",
+          "msg": "👍👍"
         }
       ],
       "customCommands": {},
@@ -4748,18 +4750,18 @@
       "stats": {
         "totalVotes": 741,
         "totalSubs": 22,
-        "totalChatMessages": 530,
-        "totalStreamMinutes": 595,
+        "totalChatMessages": 533,
+        "totalStreamMinutes": 597,
         "emotes": {
           "❤": 57,
           "🙌": 48,
           "🔴": 6,
           "🎉": 9,
-          "👋": 19,
+          "👋": 20,
           "👀": 13,
           "😱": 1,
           "😅": 4,
-          "📴": 5,
+          "📴": 6,
           "✌": 4,
           "☺": 3,
           "👍": 3,
@@ -4819,21 +4821,9 @@
           "🍀": "🍀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784589274584
+        "lastChatAt": 1784589431021
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 25 vote(s) (total: 300)! Thank you!! 🗳️"
-        },
-        {
-          "user": "octo",
-          "msg": "i only just recently opted into botger"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "haha  need  to make  cclip  of  youy dancinng  haha"
-        },
         {
           "user": "octo",
           "msg": "idk how to get rid of them i think there's an unjoin command or something"
@@ -4861,6 +4851,18 @@
         {
           "user": "slothsm",
           "msg": "nice"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "cya  later mann"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -4873,7 +4875,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d42d19f-d21c-4ab4-be64-cb54d3f85210-profile_image-300x300.png",
-      "streamTitle": "[UK] #8 HAPPY MONDAY - ADHD - POWERED BY - ASK ME ANYTHING — Dota 2",
+      "streamTitle": "",
       "profile": "**parky's Blaze Crew**\n\nWe're a UK-based squad powered by ADHD energy, where we vibe out to Dota 2 and more! Expect \"GG\", \"who's my number 1 viewer?\", and love. We chat about fave animals and colours, get hyped with \"Stack some W's\", \"Dunking on themmmm\", and \"Big W\". Let's celebrate with \"🔴\" and \"🎉\" love when you follow us!",
       "_profileAtCount": 485,
       "gameOverride": "",
