@@ -5,13 +5,13 @@
       "stats": {
         "totalVotes": 1758,
         "totalSubs": 9,
-        "totalChatMessages": 887,
+        "totalChatMessages": 888,
         "totalStreamMinutes": 632,
         "emotes": {
           "❤": 42,
           "🙌": 20,
           "🔥": 103,
-          "💚": 116,
+          "💚": 117,
           "💀": 3,
           "🤣": 109,
           "💰": 2,
@@ -120,13 +120,9 @@
           "👆": "👆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784496966524
+        "lastChatAt": 1784548587527
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "https://blazeian-bot.onrender.com"
-        },
         {
           "user": "walkthegrid",
           "msg": "gg"
@@ -162,6 +158,10 @@
         {
           "user": "botger",
           "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
+        },
+        {
+          "user": "brachial513",
+          "msg": "💚"
         }
       ],
       "language": "en",
@@ -1291,7 +1291,7 @@
         "totalVotes": 3151,
         "totalSubs": 17,
         "totalChatMessages": 1724,
-        "totalStreamMinutes": 5095,
+        "totalStreamMinutes": 5100,
         "emotes": {
           "❤": 69,
           "🙌": 45,
@@ -4538,7 +4538,7 @@
         "totalVotes": 348,
         "totalSubs": 1,
         "totalChatMessages": 51,
-        "totalStreamMinutes": 164,
+        "totalStreamMinutes": 169,
         "emotes": {
           "❤": 2,
           "🙌": 2,
@@ -5586,8 +5586,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784537770723,
   "auth": {
-    "accessToken": "58b9393ea60d1be0569dd2f26a1d515d",
-    "refreshToken": "c9582eb3c08ff8a51c4d330b27fdf311",
+    "accessToken": "80dff84a5aa96354278404b7021403b1",
+    "refreshToken": "24fd538e4aeeca239967241b9dd171ff",
     "sessionToken": "87d2e22b9cc1a804c104569ba5abe57d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
