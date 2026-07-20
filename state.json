@@ -1522,7 +1522,7 @@
       "stats": {
         "totalVotes": 3119,
         "totalSubs": 2,
-        "totalChatMessages": 4130,
+        "totalChatMessages": 4131,
         "totalStreamMinutes": 1411,
         "emotes": {
           "❤": 1659,
@@ -1564,7 +1564,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 13,
-          "💜": 126,
+          "💜": 127,
           "🧔": 1,
           "🤺": 1,
           "🥳": 5,
@@ -1676,16 +1676,12 @@
           "💊": "💊",
           "🖐": "🖐"
         },
-        "lastChatAt": 1784495867114,
+        "lastChatAt": 1784524920741,
         "sendFailStreak": 28,
         "lastSendFailAt": 1784523073275,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
         {
           "user": "rob_osp",
           "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
@@ -1721,6 +1717,10 @@
         {
           "user": "rob_osp",
           "msg": "@smrt — thanks for the 5 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         }
       ],
       "customCommands": {},
@@ -2282,25 +2282,25 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 2728,
-        "totalSubs": 13,
-        "totalChatMessages": 2471,
-        "totalStreamMinutes": 1687,
+        "totalVotes": 2738,
+        "totalSubs": 14,
+        "totalChatMessages": 2507,
+        "totalStreamMinutes": 1707,
         "emotes": {
           "❤": 53,
-          "🙌": 101,
-          "🗳": 240,
+          "🙌": 105,
+          "🗳": 243,
           "✌": 3,
           "😊": 5,
           "👍": 2,
           "🔴": 18,
           "🎉": 41,
           "📴": 18,
-          "👋": 19,
+          "👋": 20,
           "⚡": 20,
           "😂": 35,
           "😍": 17,
-          "🔥": 35,
+          "🔥": 37,
           "😎": 5,
           "😁": 12,
           "😄": 19,
@@ -2308,7 +2308,7 @@
           "🩵": 14,
           "🩷": 1,
           "💙": 10,
-          "💃": 16,
+          "💃": 19,
           "🤣": 54,
           "🧡": 16,
           "🚨": 36,
@@ -2473,48 +2473,48 @@
           "🌵": "🌵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784523403612
+        "lastChatAt": 1784525103065
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Sheena just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+          "user": "mindgoblin",
+          "msg": "viewer acquisition"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+          "user": "mindgoblin",
+          "msg": "im super super super bullish on auctions. i think it has the ability to surpass overall streaming/subbing/tipping revenue"
         },
         {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ mindgoblin just followed the channel! Welcome!! 🙌"
+          "user": "mindgoblin",
+          "msg": "just need a way to buy USDC with credit cards"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+          "user": "fluffy",
+          "msg": "hey hey"
         },
         {
-          "user": "agent00zani",
-          "msg": "ty ty for supprot"
+          "user": "briggsy",
+          "msg": "hey fluffy"
         },
         {
-          "user": "agent00zani",
-          "msg": "my love bro"
+          "user": "triz_draw",
+          "msg": "Holii Fluffy"
         },
         {
-          "user": "botger",
-          "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
+          "user": "fluffy",
+          "msg": "holiiiii @triz_draw"
         },
         {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ meyetechnicals just followed the channel! Welcome!! 🙌"
+          "user": "fluffy",
+          "msg": "💃💃💃"
         },
         {
-          "user": "botger",
-          "msg": "Welcome, welcome, briggsy is attempting to go live."
+          "user": "mindgoblin",
+          "msg": "whats your skin lol"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+          "user": "mindgoblin",
+          "msg": "mothman?"
         }
       ],
       "customCommands": {},
@@ -2537,6 +2537,11 @@
         },
         "lostsnow": {
           "name": "lostsnow",
+          "months": 1,
+          "tier": 1
+        },
+        "mindgoblin": {
+          "name": "mindgoblin",
           "months": 1,
           "tier": 1
         }
