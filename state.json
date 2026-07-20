@@ -1291,7 +1291,7 @@
         "totalVotes": 3377,
         "totalSubs": 17,
         "totalChatMessages": 1744,
-        "totalStreamMinutes": 5262,
+        "totalStreamMinutes": 5267,
         "emotes": {
           "❤": 70,
           "🙌": 45,
@@ -3847,8 +3847,8 @@
       "stats": {
         "totalVotes": 1818,
         "totalSubs": 6,
-        "totalChatMessages": 1464,
-        "totalStreamMinutes": 1076,
+        "totalChatMessages": 1465,
+        "totalStreamMinutes": 1081,
         "emotes": {
           "🧏": 1,
           "♂": 1,
@@ -3948,13 +3948,9 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784561938151
+        "lastChatAt": 1784562072316
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "askfk"
-        },
         {
           "user": "time",
           "msg": "my win"
@@ -3990,6 +3986,10 @@
         {
           "user": "agent00zani",
           "msg": "😍😍😍😍"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty i needed that"
         }
       ],
       "customCommands": {},
@@ -5282,34 +5282,28 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 823,
-        "totalSubs": 0,
-        "totalChatMessages": 12,
+        "totalVotes": 1573,
+        "totalSubs": 1,
+        "totalChatMessages": 14,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
-          "🙌": 2,
-          "🗳": 21,
-          "💰": 2
+          "🙌": 3,
+          "🗳": 24,
+          "💰": 2,
+          "🔥": 2
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
           "🗳": "🗳",
-          "💰": "💰"
+          "💰": "💰",
+          "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784561696647
+        "lastChatAt": 1784562216699
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "GGs for winning on the Weekly Giveaway : 10 Votes ( 1 free entry anyway because youre using the Blazeianbot ! ) Thank you !"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
         {
           "user": "agent00zani",
           "msg": "ty ty for supprot my bro"
@@ -5341,6 +5335,14 @@
         {
           "user": "botger",
           "msg": "💰 TIP ALERT!! 💰 @mindgoblin just tipped $5.00!! Thank you so much!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @mindgoblin has resubscribed — 6 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 750 vote(s) (total: 1350)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5352,7 +5354,14 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/442ba0bd-92c9-499a-936b-351b4809228a.png",
-      "followed": true
+      "followed": true,
+      "loyalty": {
+        "mindgoblin": {
+          "name": "mindgoblin",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "8b253ac1-f188-44bc-b38c-129d71ddeec3": {
       "username": "angge_wf",
@@ -5362,7 +5371,7 @@
         "totalVotes": 138,
         "totalSubs": 4,
         "totalChatMessages": 75,
-        "totalStreamMinutes": 104,
+        "totalStreamMinutes": 109,
         "emotes": {
           "❤": 9,
           "🙌": 5,
@@ -5622,8 +5631,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784537770723,
   "auth": {
-    "accessToken": "f0ac16842a6c985bb5315ae31e8602e0",
-    "refreshToken": "f7bbda66903f166472a82f00628941b1",
+    "accessToken": "2e7fe166a7bffae70d085256f0f97d85",
+    "refreshToken": "51ea1f15f38013113c05f7cc9c03562f",
     "sessionToken": "87d2e22b9cc1a804c104569ba5abe57d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
