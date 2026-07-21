@@ -1778,7 +1778,7 @@
         "totalVotes": 856,
         "totalSubs": 17,
         "totalChatMessages": 414,
-        "totalStreamMinutes": 4539,
+        "totalStreamMinutes": 4559,
         "emotes": {
           "😊": 3,
           "🌵": 47,
@@ -2855,14 +2855,14 @@
       "stats": {
         "totalVotes": 1188,
         "totalSubs": 33,
-        "totalChatMessages": 204,
-        "totalStreamMinutes": 3598,
+        "totalChatMessages": 205,
+        "totalStreamMinutes": 3606,
         "emotes": {
           "❤": 64,
           "🙌": 18,
           "🔥": 18,
-          "🔴": 24,
-          "🎉": 24,
+          "🔴": 25,
+          "🎉": 25,
           "📴": 25,
           "👋": 26,
           "😂": 4,
@@ -2895,14 +2895,10 @@
           "😍": "😍",
           "🌵": "🌵"
         },
-        "lastChatAt": 1784638134440,
+        "lastChatAt": 1784646675851,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "gn .."
-        },
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
@@ -2938,6 +2934,10 @@
         {
           "user": "capt_rob_advent",
           "msg": "👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -2949,7 +2949,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🔴PRIDE ESSENCE| PVP PVE RMT ❗RFF❗PRIDE❗PIX — Lineage 2",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -4344,8 +4344,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 28,
-        "totalStreamMinutes": 1702,
+        "totalChatMessages": 29,
+        "totalStreamMinutes": 1710,
         "emotes": {
           "💪": 2,
           "💚": 7,
@@ -4356,14 +4356,10 @@
           "💚": "💚",
           "🔥": "🔥"
         },
-        "lastChatAt": 1784579800745,
+        "lastChatAt": 1784646152494,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "nixonmania",
-          "msg": "HELLOOO, GM GM!!!"
-        },
         {
           "user": "slothsm",
           "msg": "gm gm"
@@ -4399,6 +4395,10 @@
         {
           "user": "slothsm",
           "msg": "hey hey hey lets go blaze"
+        },
+        {
+          "user": "slothsm",
+          "msg": "gm gm"
         }
       ],
       "customCommands": {},
@@ -4412,7 +4412,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/57ce46fe-2b75-41bc-8bb7-fc5e7b7c1118-profile_image-300x300.png",
-      "streamTitle": "👀 ¿Es el mejor gacha de mundo abierto? | The Seven Deadly Sins: Origin — IRL",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "I'm a regular in Anjanna87's Blaze livestream community. We're a fire squad (🔥) that loves free content, with a special shoutout to Blazeian bot. You can spot us using \"!setbotlang espanol\" and rocking pink overlays. We're all about good vibes, sweet moments, and celebrating Anjanna with 💚 and \"ohhhhhhhhs\".",
       "_profileAtCount": 15
@@ -5686,23 +5686,31 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 2,
+        "totalChatMessages": 3,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
-          "🙌": 1
+          "🙌": 1,
+          "🤝": 2,
+          "🔥": 2
         },
         "emoteNames": {
           "❤": "❤",
-          "🙌": "🙌"
+          "🙌": "🙌",
+          "🤝": "🤝",
+          "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784645478635
+        "lastChatAt": 1784646232502
       },
       "chatMemory": [
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "brachial513",
+          "msg": "Yoooo @sofrenciaplay thank you very much for using Blazeian_Bot_AI  ! You now have 1 free permanantly Entry in my weekly Giveaway on Blaze every sunday ! ( win up to 400++ votes and more ) 🤝🏼🤝🏼🔥🔥"
         }
       ],
       "customCommands": {},
@@ -5713,7 +5721,8 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg"
     }
   },
   "blocklist": [
