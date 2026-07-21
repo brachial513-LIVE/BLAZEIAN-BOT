@@ -1778,7 +1778,7 @@
         "totalVotes": 856,
         "totalSubs": 17,
         "totalChatMessages": 414,
-        "totalStreamMinutes": 4527,
+        "totalStreamMinutes": 4539,
         "emotes": {
           "😊": 3,
           "🌵": 47,
@@ -2854,7 +2854,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 1188,
-        "totalSubs": 31,
+        "totalSubs": 33,
         "totalChatMessages": 204,
         "totalStreamMinutes": 3598,
         "emotes": {
@@ -4345,7 +4345,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 28,
-        "totalStreamMinutes": 1690,
+        "totalStreamMinutes": 1702,
         "emotes": {
           "💪": 2,
           "💚": 7,
@@ -5686,13 +5686,25 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {},
-        "sendFailStreak": 0
+        "emotes": {
+          "❤": 2,
+          "🙌": 1
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌"
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1784645478635
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -5729,8 +5741,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784643593037,
   "auth": {
-    "accessToken": "299ea673e04172e20bc3c2795a89ca36",
-    "refreshToken": "a1fea35b40731d4c6872499311037495",
+    "accessToken": "008bc78327640e76b32462aa20288892",
+    "refreshToken": "a1d06b61c992d0e6e9f313d09a782f56",
     "sessionToken": "db880ad477548963ada9cbc44f9ac8cc",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
