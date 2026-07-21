@@ -830,8 +830,8 @@
       "stats": {
         "totalVotes": 698,
         "totalSubs": 4,
-        "totalChatMessages": 538,
-        "totalStreamMinutes": 1102,
+        "totalChatMessages": 550,
+        "totalStreamMinutes": 1109,
         "emotes": {
           "📊": 3,
           "🔥": 62,
@@ -844,7 +844,7 @@
           "👋": 1,
           "🚀": 5,
           "🦊": 45,
-          "😂": 11,
+          "😂": 12,
           "👑": 19,
           "⭐": 8,
           "🏆": 42,
@@ -873,7 +873,7 @@
           "🏷": 3,
           "🗳": 3,
           "🧠": 3,
-          "🛡": 8,
+          "🛡": 10,
           "🚩": 3,
           "⚔": 17,
           "🎮": 8,
@@ -904,7 +904,8 @@
           "😭": 1,
           "🤩": 2,
           "🥰": 1,
-          "😄": 1
+          "😄": 1,
+          "😑": 1
         },
         "emoteNames": {
           "📊": "📊",
@@ -978,51 +979,52 @@
           "😭": "😭",
           "🤩": "🤩",
           "🥰": "🥰",
-          "😄": "😄"
+          "😄": "😄",
+          "😑": "😑"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784669434084
+        "lastChatAt": 1784670468935
       },
       "chatMemory": [
         {
+          "user": "foxbotai",
+          "msg": "@princessjamesy, !attack is on cooldown. Try again in 3s."
+        },
+        {
           "user": "princessjamesy",
-          "msg": "Ai is taking over 😂"
+          "msg": "The cooldowns 😑"
         },
         {
           "user": "foxbotai",
-          "msg": "🎁 @crypt0k1ng96 just gifted 1 sub(s)! Huge Fox Den energy!"
-        },
-        {
-          "user": "princessjamesy",
-          "msg": "Whattt"
-        },
-        {
-          "user": "princessjamesy",
-          "msg": "Do you like me or something?"
-        },
-        {
-          "user": "princessjamesy",
-          "msg": "Ooooo you crushing?"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "XD"
+          "msg": "🛡️ Mod check! @princessjamesy is helping keep the Fox Den locked in."
         },
         {
           "user": "foxbotai",
-          "msg": "👑 The channel owner @crypt0k1ng96 is in the Fox Den!"
+          "msg": "🛡️ Mod check! @blazeian_bot_ai is helping keep the Fox Den locked in."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "RAID LOVE! Huge thanks to @Raid for bringing the community over. +250 FoxCoins. Balance: 500 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@princessjamesy attacked Cyber Fox Dragon for 45 damage and earned 7 FoxCoins! Boss HP: 304/500. Your total boss damage: 159. Balance: 288 FoxCoins."
         },
         {
           "user": "princessjamesy",
-          "msg": "Hehehehe"
+          "msg": "You would have more coins than me."
         },
         {
-          "user": "foxbotai",
-          "msg": "@princessjamesy attacked Cyber Fox Dragon for 15 damage and earned 10 FoxCoins! Boss HP: 460/500. Your total boss damage: 40. Balance: 255 FoxCoins."
+          "user": "princessjamesy",
+          "msg": "Rigged."
         },
         {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 19 damage and earned 7 FoxCoins! Boss HP: 423/500. Your total boss damage: 37. Balance: 118 FoxCoins."
+          "user": "princessjamesy",
+          "msg": "Just like the U.S. elections."
+        },
+        {
+          "user": "princessjamesy",
+          "msg": "Ok now I’m just rage baiting 😂"
         }
       ],
       "customCommands": {},
@@ -4797,7 +4799,7 @@
         "totalVotes": 741,
         "totalSubs": 22,
         "totalChatMessages": 568,
-        "totalStreamMinutes": 694,
+        "totalStreamMinutes": 701,
         "emotes": {
           "❤": 61,
           "🙌": 50,
@@ -5419,7 +5421,7 @@
         "totalVotes": 2139,
         "totalSubs": 1,
         "totalChatMessages": 72,
-        "totalStreamMinutes": 97,
+        "totalStreamMinutes": 104,
         "emotes": {
           "❤": 4,
           "🙌": 6,
@@ -5919,8 +5921,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784668222189,
   "auth": {
-    "accessToken": "fb14b96b6f6fc6a42ea84347e67aa02b",
-    "refreshToken": "d5a4e09aa117c317e323b72200ca2235",
+    "accessToken": "29650b25a1e32da4f5dbff7b98e81f6f",
+    "refreshToken": "e08d9c1578b19988065379fdc3f60eab",
     "sessionToken": "0968f5af81c003e2efd0d3833538977e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
