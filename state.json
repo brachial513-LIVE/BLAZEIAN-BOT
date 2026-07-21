@@ -5540,7 +5540,7 @@
       "stats": {
         "totalVotes": 64,
         "totalSubs": 1,
-        "totalChatMessages": 11,
+        "totalChatMessages": 12,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
@@ -5548,7 +5548,9 @@
           "📴": 1,
           "👋": 1,
           "🎁": 2,
-          "🗳": 3
+          "🗳": 3,
+          "⚠": 1,
+          "🎯": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -5556,16 +5558,14 @@
           "📴": "📴",
           "👋": "👋",
           "🎁": "🎁",
-          "🗳": "🗳"
+          "🗳": "🗳",
+          "⚠": "⚠",
+          "🎯": "🎯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784555234207
+        "lastChatAt": 1784619392318
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "angge_wf",
           "msg": "GM"
@@ -5601,6 +5601,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up ruri666! You're projected to fall below Verified (Tier 2) in approximately 7 day(s) (Jul 28 at 07:36 UTC). Current stream hours: 19.5h / 10h required. Stream more to maintain your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -5621,7 +5625,7 @@
       "language": "en",
       "joinedAt": 1784483241580,
       "stats": {
-        "totalVotes": 936,
+        "totalVotes": 938,
         "totalSubs": 87,
         "totalChatMessages": 5,
         "totalStreamMinutes": 136,
