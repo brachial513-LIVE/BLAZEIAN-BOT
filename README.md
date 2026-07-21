@@ -36,6 +36,6 @@ Every streamer manages only their own channel from their own dashboard — the b
 
 ## Status
 
-Actively developed and running live 24/7 across 40+ Blaze channels, completely free for every streamer who joins.
+Actively developed and running live 24/7 across 45+ Blaze channels, completely free for every streamer who joins.
 
 Built by [Brachial513](https://x.com/BRACHIAL513) — founder of the GMC (Geile Menschen Community) — steering the product with an AI coding assistant as build partner.
