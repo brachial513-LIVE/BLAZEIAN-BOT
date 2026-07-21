@@ -830,20 +830,20 @@
       "stats": {
         "totalVotes": 698,
         "totalSubs": 4,
-        "totalChatMessages": 550,
-        "totalStreamMinutes": 1109,
+        "totalChatMessages": 582,
+        "totalStreamMinutes": 1129,
         "emotes": {
           "📊": 3,
-          "🔥": 62,
+          "🔥": 63,
           "🤣": 7,
-          "💚": 20,
+          "💚": 22,
           "❤": 2,
           "😜": 1,
           "✌": 3,
           "😊": 2,
           "👋": 1,
           "🚀": 5,
-          "🦊": 45,
+          "🦊": 46,
           "😂": 12,
           "👑": 19,
           "⭐": 8,
@@ -905,7 +905,8 @@
           "🤩": 2,
           "🥰": 1,
           "😄": 1,
-          "😑": 1
+          "😑": 1,
+          "😩": 1
         },
         "emoteNames": {
           "📊": "📊",
@@ -980,51 +981,52 @@
           "🤩": "🤩",
           "🥰": "🥰",
           "😄": "😄",
-          "😑": "😑"
+          "😑": "😑",
+          "😩": "😩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784670468935
+        "lastChatAt": 1784671853036
       },
       "chatMemory": [
         {
           "user": "foxbotai",
-          "msg": "@princessjamesy, !attack is on cooldown. Try again in 3s."
-        },
-        {
-          "user": "princessjamesy",
-          "msg": "The cooldowns 😑"
+          "msg": "@princessjamesy, !attack is on cooldown. Try again in 1s."
         },
         {
           "user": "foxbotai",
-          "msg": "🛡️ Mod check! @princessjamesy is helping keep the Fox Den locked in."
+          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 16 damage and earned 14 FoxCoins! Boss HP: 4/500. Your total boss damage: 138. Balance: 181 FoxCoins."
         },
         {
           "user": "foxbotai",
-          "msg": "🛡️ Mod check! @blazeian_bot_ai is helping keep the Fox Den locked in."
+          "msg": "No boss is active right now. Admins can start one with !startboss Cyber Fox Dragon"
         },
         {
           "user": "foxbotai",
-          "msg": "RAID LOVE! Huge thanks to @Raid for bringing the community over. +250 FoxCoins. Balance: 500 FoxCoins."
+          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
         },
         {
           "user": "foxbotai",
-          "msg": "@princessjamesy attacked Cyber Fox Dragon for 45 damage and earned 7 FoxCoins! Boss HP: 304/500. Your total boss damage: 159. Balance: 288 FoxCoins."
+          "msg": "🦊 FoxBot commands: !connect, !profile, !rank, !disconnect, !help"
         },
         {
-          "user": "princessjamesy",
-          "msg": "You would have more coins than me."
+          "user": "foxbotai",
+          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
         },
         {
-          "user": "princessjamesy",
-          "msg": "Rigged."
+          "user": "foxbotai",
+          "msg": "Thank you @💚 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 6 FoxCoins. Lucky Bonus: @💚 found a Golden Fox Chest and earned +150 FoxCoins. Balance: 156 FoxCoins."
         },
         {
-          "user": "princessjamesy",
-          "msg": "Just like the U.S. elections."
+          "user": "foxbotai",
+          "msg": "Thank you @Whoa for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 3 FoxCoins."
         },
         {
-          "user": "princessjamesy",
-          "msg": "Ok now I’m just rage baiting 😂"
+          "user": "agent00zani",
+          "msg": "sup"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🔥 OG spotted! @agent00zani has been with the Fox Den from the jump."
         }
       ],
       "customCommands": {},
@@ -1033,7 +1035,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "OTHERSIDE 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Otherside (by Yuga Labs)",
+      "streamTitle": "",
       "profile": "High-energy IRL streams with lively chat, playful joking, and celebratory vibes (🔥, 💚). Community loves \"GM GM\", \"Blaze it\", \"RAID LOVE\", and \"KINTARA\" (post-breakfast tradition). Expect lively rewards and community celebrations, fueled by FoxBot and Blazeian Bot interactions, Wilder World game nights, and the Blaze Builder Challenge.",
       "_profileAtCount": 533,
       "gameOverride": "",
@@ -4799,7 +4801,7 @@
         "totalVotes": 741,
         "totalSubs": 22,
         "totalChatMessages": 568,
-        "totalStreamMinutes": 701,
+        "totalStreamMinutes": 721,
         "emotes": {
           "❤": 61,
           "🙌": 50,
@@ -5421,7 +5423,7 @@
         "totalVotes": 2139,
         "totalSubs": 1,
         "totalChatMessages": 72,
-        "totalStreamMinutes": 104,
+        "totalStreamMinutes": 124,
         "emotes": {
           "❤": 4,
           "🙌": 6,
@@ -5827,15 +5829,16 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 8,
-        "totalStreamMinutes": 9,
+        "totalChatMessages": 18,
+        "totalStreamMinutes": 23,
         "emotes": {
           "❤": 2,
           "🙌": 1,
-          "📴": 2,
-          "👋": 2,
-          "🔴": 1,
-          "🎉": 1
+          "📴": 3,
+          "👋": 3,
+          "🔴": 2,
+          "🎉": 2,
+          "🔥": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -5843,20 +5846,13 @@
           "📴": "📴",
           "👋": "👋",
           "🔴": "🔴",
-          "🎉": "🎉"
+          "🎉": "🎉",
+          "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784668646813
+        "lastChatAt": 1784671328914
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "guney",
-          "msg": "hello @BLAZEIAN_BOT_AI wussup"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -5867,19 +5863,35 @@
         },
         {
           "user": "guney",
-          "msg": "This is my Complete The Art game. Let's test it"
+          "msg": "https://x.com/GnyWeb3Media/status/2079684867340616164"
         },
         {
           "user": "guney",
-          "msg": "can someone tip me 1$ ?"
+          "msg": "Reveal The Art game test"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "🔥🔥🔥"
         },
         {
           "user": "guney",
-          "msg": "hold on. i will be back"
+          "msg": "is there anyone can tip me 1$ or 10 votes ?"
         },
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "user": "guney",
+          "msg": "hello @crypt0k1ng96"
+        },
+        {
+          "user": "guney",
+          "msg": "i am so excited if it works or not"
+        },
+        {
+          "user": "guney",
+          "msg": "pls someone tip me 1$ i will send back :)"
+        },
+        {
+          "user": "guney",
+          "msg": "help me to test my game"
         }
       ],
       "customCommands": {},
@@ -5891,7 +5903,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0ed76298-e9ef-4bc3-8291-482815414931.gif",
-      "streamTitle": "",
+      "streamTitle": "Complete The Art Game — Art",
       "gameOverride": "",
       "followed": true
     }
