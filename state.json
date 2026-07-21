@@ -4758,7 +4758,7 @@
       "stats": {
         "totalVotes": 741,
         "totalSubs": 22,
-        "totalChatMessages": 533,
+        "totalChatMessages": 534,
         "totalStreamMinutes": 597,
         "emotes": {
           "❤": 57,
@@ -4792,7 +4792,9 @@
           "💯": 3,
           "📢": 2,
           "⚡": 1,
-          "🍀": 1
+          "🍀": 1,
+          "🤜": 1,
+          "🤛": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -4826,16 +4828,14 @@
           "💯": "💯",
           "📢": "📢",
           "⚡": "⚡",
-          "🍀": "🍀"
+          "🍀": "🍀",
+          "🤜": "🤜",
+          "🤛": "🤛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784589431021
+        "lastChatAt": 1784629573189
       },
       "chatMemory": [
-        {
-          "user": "octo",
-          "msg": "idk how to get rid of them i think there's an unjoin command or something"
-        },
         {
           "user": "octo",
           "msg": "its probably different commands for each too, to be fair"
@@ -4871,6 +4871,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "avisi",
+          "msg": "was here 🤜🤛"
         }
       ],
       "customCommands": {},
@@ -5699,8 +5703,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784614154100,
   "auth": {
-    "accessToken": "59e96d92f46866be4ae0206ce176e5f3",
-    "refreshToken": "e00311e6a2a0adb1f9ad1f6b865838b3",
+    "accessToken": "60bd798b4b15d8a84f056db41dbdf817",
+    "refreshToken": "6c6594e13737e7c7c183aecaf7737e5c",
     "sessionToken": "db880ad477548963ada9cbc44f9ac8cc",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
