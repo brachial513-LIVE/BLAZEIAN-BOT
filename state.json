@@ -2856,7 +2856,7 @@
         "totalVotes": 1188,
         "totalSubs": 33,
         "totalChatMessages": 205,
-        "totalStreamMinutes": 3716,
+        "totalStreamMinutes": 3721,
         "emotes": {
           "❤": 64,
           "🙌": 18,
@@ -3367,8 +3367,8 @@
       "stats": {
         "totalVotes": 1927,
         "totalSubs": 10,
-        "totalChatMessages": 748,
-        "totalStreamMinutes": 1333,
+        "totalChatMessages": 749,
+        "totalStreamMinutes": 1338,
         "emotes": {
           "❤": 10,
           "🙌": 27,
@@ -3376,7 +3376,7 @@
           "🔴": 12,
           "🎉": 20,
           "🙂": 3,
-          "🔥": 19,
+          "🔥": 22,
           "😎": 4,
           "🗳": 117,
           "📴": 11,
@@ -3452,13 +3452,9 @@
           "🍀": "🍀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784651992810
+        "lastChatAt": 1784653852771
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 60 vote(s) (total: 60)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -3494,6 +3490,10 @@
         {
           "user": "botger",
           "msg": "https://salvor.io/collections/0x4ffb0924d999bc2015f69f58f403ceadfc16963d"
+        },
+        {
+          "user": "dimifw",
+          "msg": "🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -5003,14 +5003,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 1777,
+        "totalVotes": 1778,
         "totalSubs": 1,
-        "totalChatMessages": 244,
+        "totalChatMessages": 245,
         "totalStreamMinutes": 151,
         "emotes": {
           "❤": 4,
           "🙌": 4,
-          "🗳": 66,
+          "🗳": 69,
           "🚨": 18,
           "🎉": 4,
           "👋": 12,
@@ -5065,14 +5065,10 @@
           "😅": "😅",
           "👑": "👑"
         },
-        "lastChatAt": 1784642159302,
+        "lastChatAt": 1784653922806,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "dimifw",
-          "msg": "hey sloth"
-        },
         {
           "user": "dimifw",
           "msg": "alright ffs done, can't do this anymore today"
@@ -5108,6 +5104,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @RealmOfCrimson just gave 28 vote(s) (total: 28)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @He_Nose just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5750,8 +5750,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784643593037,
   "auth": {
-    "accessToken": "8ed6bae8edb00ae40c4801556c8709ae",
-    "refreshToken": "4224d08aadca939286460e09dfaf4ae1",
+    "accessToken": "0d3ebd3ee1ff018da27c0c37a8071815",
+    "refreshToken": "cad2dd336010d160d1e67551322e8859",
     "sessionToken": "db880ad477548963ada9cbc44f9ac8cc",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
