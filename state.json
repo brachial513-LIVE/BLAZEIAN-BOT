@@ -1774,7 +1774,7 @@
         "totalVotes": 830,
         "totalSubs": 16,
         "totalChatMessages": 400,
-        "totalStreamMinutes": 4232,
+        "totalStreamMinutes": 4237,
         "emotes": {
           "😊": 3,
           "🌵": 45,
@@ -2709,8 +2709,8 @@
       "stats": {
         "totalVotes": 1969,
         "totalSubs": 7,
-        "totalChatMessages": 828,
-        "totalStreamMinutes": 2185,
+        "totalChatMessages": 835,
+        "totalStreamMinutes": 2190,
         "emotes": {
           "❤": 16,
           "🙌": 18,
@@ -2741,7 +2741,9 @@
           "👑": 4,
           "🥳": 6,
           "💔": 1,
-          "😬": 1
+          "😬": 1,
+          "☺": 1,
+          "✌": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -2773,40 +2775,14 @@
           "👑": "👑",
           "🥳": "🥳",
           "💔": "💔",
-          "😬": "😬"
+          "😬": "😬",
+          "☺": "☺",
+          "✌": "✌"
         },
-        "lastChatAt": 1784596966345,
+        "lastChatAt": 1784597381095,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "sinnerz",
-          "msg": "bruh poe2 seems so good"
-        },
-        {
-          "user": "tenshi",
-          "msg": "looks nice"
-        },
-        {
-          "user": "tenshi",
-          "msg": "starting a new game is a commitment for sure"
-        },
-        {
-          "user": "sinnerz",
-          "msg": "im corious always. people earn r money grinding this game?"
-        },
-        {
-          "user": "tenshi",
-          "msg": "nice :D"
-        },
-        {
-          "user": "sinnerz",
-          "msg": "short answer yes. i like this answer haha"
-        },
-        {
-          "user": "tenshi",
-          "msg": "my last longer game was persona 3 which took me 80 hrs and i wasn't familiar with the concept of jrpg back then.. safe to say i didn't touch any game for a few years after"
-        },
         {
           "user": "tenshi",
           "msg": "damn haha"
@@ -2818,6 +2794,34 @@
         {
           "user": "tenshi",
           "msg": "same.. i have a backlog of 1 year total"
+        },
+        {
+          "user": "tenshi",
+          "msg": "ooh nice ive never played it"
+        },
+        {
+          "user": "tenshi",
+          "msg": "its on my list"
+        },
+        {
+          "user": "tenshi",
+          "msg": "i didn't know that :O i enjoy watching such games rather than playing"
+        },
+        {
+          "user": "tenshi",
+          "msg": "i drew lady from devil may cry last year"
+        },
+        {
+          "user": "tenshi",
+          "msg": "sorry i cant answer :( im not familiar with any aspect of its lore"
+        },
+        {
+          "user": "avisi",
+          "msg": "Heya @nadietv! ☺️✌️ have GG's my fren. Always good to see you on."
+        },
+        {
+          "user": "tenshi",
+          "msg": "lady looks nice tho"
         }
       ],
       "customCommands": {},
@@ -2848,7 +2852,7 @@
         "totalVotes": 1186,
         "totalSubs": 31,
         "totalChatMessages": 196,
-        "totalStreamMinutes": 3480,
+        "totalStreamMinutes": 3485,
         "emotes": {
           "❤": 60,
           "🙌": 16,
@@ -4020,7 +4024,7 @@
         "totalVotes": 451,
         "totalSubs": 11,
         "totalChatMessages": 404,
-        "totalStreamMinutes": 3415,
+        "totalStreamMinutes": 3420,
         "emotes": {
           "🔥": 147,
           "🔴": 46,
@@ -5125,8 +5129,8 @@
       "stats": {
         "totalVotes": 620,
         "totalSubs": 0,
-        "totalChatMessages": 14,
-        "totalStreamMinutes": 228,
+        "totalChatMessages": 15,
+        "totalStreamMinutes": 233,
         "emotes": {
           "🔥": 3
         },
@@ -5134,13 +5138,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784596330731
+        "lastChatAt": 1784597117119
       },
       "chatMemory": [
-        {
-          "user": "slothsm",
-          "msg": "aoo prof"
-        },
         {
           "user": "nixonmania",
           "msg": "Helooo, Have a nice stream!!"
@@ -5176,6 +5176,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "peperonitostv",
+          "msg": "Have a nice stream!"
         }
       ],
       "customCommands": {},
@@ -5687,8 +5691,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784563008070,
   "auth": {
-    "accessToken": "afa7184a2b9c33fd2e1e006800a9513a",
-    "refreshToken": "016b38993f337e4b0b84649b0ff062d7",
+    "accessToken": "fcaf574901248f48f3a152b0a2e64bcc",
+    "refreshToken": "55574a27bf1928e31b34203ab8acbfb6",
     "sessionToken": "87d2e22b9cc1a804c104569ba5abe57d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
