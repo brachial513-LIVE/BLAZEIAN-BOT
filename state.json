@@ -663,8 +663,8 @@
       "stats": {
         "totalVotes": 3158,
         "totalSubs": 7,
-        "totalChatMessages": 2846,
-        "totalStreamMinutes": 223,
+        "totalChatMessages": 2847,
+        "totalStreamMinutes": 243,
         "emotes": {
           "🔥": 48,
           "🗳": 7,
@@ -751,14 +751,10 @@
           "🤗": "🤗",
           "🙌": "🙌"
         },
-        "lastChatAt": 1784604940567,
+        "lastChatAt": 1784605617402,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "sinnerz",
-          "msg": "its 6.30 am here lol"
-        },
         {
           "user": "desirablebottom",
           "msg": "that the one you need"
@@ -794,6 +790,10 @@
         {
           "user": "dimifw",
           "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Keeper of the Flame"
         }
       ],
       "customCommands": {},
@@ -2713,16 +2713,16 @@
       "stats": {
         "totalVotes": 1999,
         "totalSubs": 7,
-        "totalChatMessages": 913,
-        "totalStreamMinutes": 2322,
+        "totalChatMessages": 915,
+        "totalStreamMinutes": 2337,
         "emotes": {
           "❤": 16,
           "🙌": 18,
           "🗳": 81,
           "🔴": 17,
           "🎉": 29,
-          "📴": 15,
-          "👋": 15,
+          "📴": 16,
+          "👋": 16,
           "🔥": 16,
           "💪": 1,
           "🤖": 1,
@@ -2783,18 +2783,10 @@
           "☺": "☺",
           "✌": "✌"
         },
-        "lastChatAt": 1784602388276,
+        "lastChatAt": 1784606400922,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "you are already doing it"
-        },
-        {
-          "user": "future42",
-          "msg": "when someone shows you a kindness....."
-        },
         {
           "user": "future42",
           "msg": "you do a kindness for someone else"
@@ -2826,6 +2818,14 @@
         {
           "user": "future42",
           "msg": "GN"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2834,7 +2834,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🛞Wheel of PAIN is ON🛞❤️Path of Exile 2!❤️ — Path Of Exile 2",
+      "streamTitle": "",
       "profile": "nadietv - Your go-to for gaming grind sessions & chill vibes! Expect \"Worthy Goal\" mindset & Blazeian magic. We're all about Path of Exile 2 & Dota, getting those Ws & being clever. Let's get this grind on! 🔥🎤❤️ \"Blaze the night, Turn up the heat, Be the best you! Ws, Self-Care, and BLAZE Group shenanigans ahead! GGs, Wheel & Song incoming, stay tuned!",
       "_profileAtCount": 846,
       "gameOverride": "",
