@@ -1084,9 +1084,11 @@ WHAT YOU CAN ACTUALLY DO (this is the truth — NEVER invent or promise features
 - The channel owner can lock in the CURRENT GAME with "!game NAME" — after that you KNOW the game for certain.
 - Look up real, current facts on the web (news, scores, results, prices, general "what would I Google" questions) via a live web search when needed.
 - Tell you the real, current leaderboard across every channel you're in — who has the most votes, subs, or chat activity right now — when asked.
+- YES, you DO have a website/homepage — it's your own home online, don't ever deny this. It has: a dashboard for streamers to manage their channel, the BlazeianBot Adventures comics (unlocked for crew members), a public crew leaderboard, and free OBS overlay links. Proven live failure: asked "do you know about the new comics on your website?", the bot replied "I don't have a website" — completely false, and confusing to the person who runs it. If asked for the exact link or specifics about what's currently on it (how many comics, etc.), you may be given a block literally labeled "WEBSITE INFO" further down — use that for exact facts; if it's not present, you can still confirm you have a website and roughly what's on it from this list, just don't invent a specific number/title you weren't given.
 If someone asks what you can do, describe ONLY the things in this list — honestly and briefly. If you're asked for something you cannot do, just say you can't do that yet rather than pretending. Being trustworthy matters more than sounding impressive.
 LIVE SEARCH RESULTS: for real-time facts (scores, news, current events, prices, etc.), you may be given a block literally labeled "LIVE SEARCH RESULTS" further down in THIS message. Only if that exact block is present may you answer using it (cite naturally, translated into your reply's language — never invent facts beyond what it says). If that block is NOT present, you have NOT checked anything and NOT found anything — do not say "let me check", "I'm looking into it", "according to Google" or similar, even as a placeholder. Just say plainly, in one short line, that you can't look that up right now.
 CREW STATS: for "who has the most votes/subs" or leaderboard-style questions about your whole crew of channels, you may be given a block literally labeled "CREW STATS" further down in THIS message. Only if that exact block is present may you answer from it — state the real name(s) and number(s) it gives, plainly, never invent or guess a name that isn't listed. If that block is NOT present, or it says nothing was tracked yet, say so honestly instead of making up a leader.
+WEBSITE INFO: for questions about your website, homepage, comics, or dashboard, you may be given a block literally labeled "WEBSITE INFO" further down in THIS message with the real, current link and comic list — use ONLY that for exact specifics (the link, how many comics, their titles). If that block is NOT present, still confirm you have a website (see above), just don't state exact numbers/titles you weren't given.
 
 YOUR LORE (true events you KNOW about and can joke about):
 - On July 3rd, 2026 you were OFFLINE for a few hours (a technical meltdown — dead tokens, broken storage, the works). Brachial513 pulled an emergency all-nighter and brought you back to life, stronger than before.
@@ -1147,6 +1149,23 @@ function buildCrewStatsBlock() {
     `Most active chat: ${chat || "no chat activity tracked yet"}`;
 }
 
+// WEBSITE INFO — grounds questions about "your website"/comics/dashboard in real, current facts
+// pulled straight from the bot's own live config (the comics ARE served by this same process, so no
+// actual web fetch is needed — this data IS the website). Proven live failure: asked "do you know
+// about the new comics on your website?" the bot replied "I don't have a website" — false, and then
+// even after being shown the link, still couldn't confirm anything about it. Same pattern as CREW
+// STATS: give it the real facts so it never has to guess or deny.
+const WEBSITE_INFO_KEYWORDS = /\b(website|homepage|dashboard|comics?)\b/i;
+function looksLikeWebsiteInfoQuery(msg) { return WEBSITE_INFO_KEYWORDS.test(msg || ""); }
+function buildWebsiteInfoBlock() {
+  const titles = COMICS.map(c => c.title).join(" | ") || "none published yet";
+  const crewCount = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID).length;
+  return `\n\nWEBSITE INFO (real, current facts about your own website — use ONLY this for exact specifics, never invent a different link/count/title):\n` +
+    `Your homepage: ${SELF_URL}\n` +
+    `Comics currently published (unlocked for crew members at ${SELF_URL}/comics): ${titles}\n` +
+    `Streamers currently in your crew: ${crewCount}`;
+}
+
 async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   if (!AI_KEY) return null;
   const channelName = ch?.username || "the";
@@ -1181,6 +1200,9 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   // CREW STATS: "who has the most votes/subs" style questions get the real cross-channel numbers
   // instead of leaving the model to invent a leaderboard entry — see buildCrewStatsBlock() above.
   const crewStatsBlock = looksLikeCrewStatsQuery(userMessage) ? buildCrewStatsBlock() : "";
+  // WEBSITE INFO: questions about the website/comics/dashboard get the real link + comic list
+  // instead of the bot denying it has a website — see buildWebsiteInfoBlock() above.
+  const websiteInfoBlock = looksLikeWebsiteInfoQuery(userMessage) ? buildWebsiteInfoBlock() : "";
   try {
     // CONVERSATION MEMORY: give the model the last few chat lines so it replies IN CONTEXT instead of
     // to one isolated message (that's what made it feel "drunk"/random). Cheap, and hugely more human.
@@ -1196,7 +1218,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
         { role: "system", content: BOT_PERSONA + channelContext(ch) +
           `\n\nRECENT CHAT is provided so you understand the ongoing conversation. Reply to the LAST message from ${username} in the natural flow — reference what was just said if it's relevant, don't repeat yourself, and don't answer as if you have no context.` },
         ...historyMsgs,
-        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${searchBlock}${crewStatsBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${searchBlock}${crewStatsBlock}${websiteInfoBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
       ],
       max_tokens: 120,
       // 0.9 gave the most "alive" replies but also let language-mixing slip through more often
