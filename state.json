@@ -2856,7 +2856,7 @@
         "totalVotes": 1188,
         "totalSubs": 33,
         "totalChatMessages": 205,
-        "totalStreamMinutes": 3671,
+        "totalStreamMinutes": 3676,
         "emotes": {
           "❤": 64,
           "🙌": 18,
@@ -3367,8 +3367,8 @@
       "stats": {
         "totalVotes": 1927,
         "totalSubs": 10,
-        "totalChatMessages": 745,
-        "totalStreamMinutes": 1288,
+        "totalChatMessages": 746,
+        "totalStreamMinutes": 1293,
         "emotes": {
           "❤": 10,
           "🙌": 27,
@@ -3452,13 +3452,9 @@
           "🍀": "🍀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784651020050
+        "lastChatAt": 1784651344278
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "https://salvor.io/collections/0x4ffb0924d999bc2015f69f58f403ceadfc16963d"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -3494,6 +3490,10 @@
         {
           "user": "botger",
           "msg": "https://discord.gg/PXwUmyWwN"
+        },
+        {
+          "user": "botger",
+          "msg": "https://x.com/e_buket_erkul"
         }
       ],
       "customCommands": {},
@@ -5750,8 +5750,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784643593037,
   "auth": {
-    "accessToken": "94cd7f817252379e317a13c05a048bb5",
-    "refreshToken": "ae673cdde16624ee6673e621d8b775eb",
+    "accessToken": "8ed6bae8edb00ae40c4801556c8709ae",
+    "refreshToken": "4224d08aadca939286460e09dfaf4ae1",
     "sessionToken": "db880ad477548963ada9cbc44f9ac8cc",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
