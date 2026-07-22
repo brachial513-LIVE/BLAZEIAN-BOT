@@ -832,7 +832,7 @@
       "stats": {
         "totalVotes": 716,
         "totalSubs": 4,
-        "totalChatMessages": 586,
+        "totalChatMessages": 587,
         "totalStreamMinutes": 1129,
         "emotes": {
           "📊": 3,
@@ -987,13 +987,9 @@
           "😩": "😩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784672161236
+        "lastChatAt": 1784705485759
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "🦊 FoxBot commands: !connect, !profile, !rank, !disconnect, !help"
-        },
         {
           "user": "foxbotai",
           "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
@@ -1029,6 +1025,10 @@
         {
           "user": "agent00zani",
           "msg": "wait"
+        },
+        {
+          "user": "libralives",
+          "msg": "I'm in chat. Wen sub :D"
         }
       ],
       "customCommands": {},
@@ -5051,7 +5051,7 @@
       "stats": {
         "totalVotes": 1813,
         "totalSubs": 1,
-        "totalChatMessages": 325,
+        "totalChatMessages": 326,
         "totalStreamMinutes": 212,
         "emotes": {
           "❤": 4,
@@ -5096,7 +5096,9 @@
           "🚗": 3,
           "❄": 2,
           "🫪": 2,
-          "😱": 2
+          "😱": 2,
+          "⚠": 1,
+          "🎯": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -5141,16 +5143,14 @@
           "🚗": "🚗",
           "❄": "❄",
           "🫪": "🫪",
-          "😱": "😱"
+          "😱": "😱",
+          "⚠": "⚠",
+          "🎯": "🎯"
         },
-        "lastChatAt": 1784695220123,
+        "lastChatAt": 1784705830722,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "🫪"
-        },
         {
           "user": "triz_draw",
           "msg": "See you later, Dimei. I'll do some sketches... enjoy"
@@ -5186,6 +5186,10 @@
         {
           "user": "triz_draw",
           "msg": "congrats  Holii Holder"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up dimifw! You're projected to fall below Verified (Tier 2) in approximately 7 day(s) (Jul 29 at 07:37 UTC). Current stream hours: 16.3h / 10h required. Stream more to maintain your Verified status! 🎯"
         }
       ],
       "customCommands": {},
