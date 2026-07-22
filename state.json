@@ -832,8 +832,8 @@
       "stats": {
         "totalVotes": 716,
         "totalSubs": 5,
-        "totalChatMessages": 603,
-        "totalStreamMinutes": 1167,
+        "totalChatMessages": 607,
+        "totalStreamMinutes": 1172,
         "emotes": {
           "📊": 3,
           "🔥": 63,
@@ -989,17 +989,9 @@
           "🥴": "🥴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784728240431
+        "lastChatAt": 1784729484604
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "@libralives now sub! :D"
-        },
-        {
-          "user": "princessjamesy",
-          "msg": "🥴"
-        },
         {
           "user": "princessjamesy",
           "msg": "Pay attention to meeeee"
@@ -1031,6 +1023,14 @@
         {
           "user": "crypt0k1ng96",
           "msg": "🛡️ Mod check! @blazeian_bot_ai is helping keep the Fox Den locked in."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "@princessjamesy attacked Cyber Fox Dragon for 28 damage and earned 5 FoxCoins! Boss HP: 378/500. Your total boss damage: 122. Balance: 40 FoxCoins."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 30 damage and earned 14 FoxCoins! Boss HP: 310/500. Your total boss damage: 68. Balance: 29 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -1304,8 +1304,8 @@
       "stats": {
         "totalVotes": 3520,
         "totalSubs": 17,
-        "totalChatMessages": 1860,
-        "totalStreamMinutes": 5910,
+        "totalChatMessages": 1864,
+        "totalStreamMinutes": 5915,
         "emotes": {
           "❤": 75,
           "🙌": 51,
@@ -1462,26 +1462,10 @@
           "⚡": "⚡",
           "😆": "😆"
         },
-        "lastChatAt": 1784729300427,
+        "lastChatAt": 1784729414519,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "the stream was not updating"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "fluffy",
-          "msg": "hiya"
-        },
         {
           "user": "agent00zani",
           "msg": "hi hi"
@@ -1505,6 +1489,22 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
+        },
+        {
+          "user": "future42",
+          "msg": "Get em zani !!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "how are u today @Future42"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "?"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty for votes bro"
         }
       ],
       "customCommands": {},
@@ -1788,7 +1788,7 @@
         "totalVotes": 874,
         "totalSubs": 17,
         "totalChatMessages": 425,
-        "totalStreamMinutes": 4817,
+        "totalStreamMinutes": 4822,
         "emotes": {
           "😊": 3,
           "🌵": 51,
@@ -6025,8 +6025,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784716805670,
   "auth": {
-    "accessToken": "68744b002a8de5904b8910fdc3842c35",
-    "refreshToken": "ad39f6b1613c76d0bbb0d3c726f8f3b6",
+    "accessToken": "d5f890d76bbe3d374dc14b4deef9950c",
+    "refreshToken": "6386f6bf2c815d67b81382123302e41e",
     "sessionToken": "0968f5af81c003e2efd0d3833538977e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
