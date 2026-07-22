@@ -4073,8 +4073,8 @@
       "stats": {
         "totalVotes": 470,
         "totalSubs": 11,
-        "totalChatMessages": 427,
-        "totalStreamMinutes": 3800,
+        "totalChatMessages": 429,
+        "totalStreamMinutes": 3812,
         "emotes": {
           "🔥": 153,
           "🔴": 48,
@@ -4082,8 +4082,8 @@
           "🤣": 3,
           "☕": 14,
           "💪": 2,
-          "📴": 11,
-          "👋": 12,
+          "📴": 12,
+          "👋": 13,
           "👽": 28,
           "💀": 5,
           "🗳": 42,
@@ -4141,18 +4141,10 @@
           "✌": "✌",
           "👍": "👍"
         },
-        "lastChatAt": 1784691441560,
+        "lastChatAt": 1784692570353,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥TOWER is partnered with ☕BLACKOUT COFFEE CO.☕ if you're looking for the best coffee on the planet then go get yours and use code TOWER for 20% all your orders!🔥  https://www.blackoutcoffee.com?p=LPw95Fmiz"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
@@ -4184,6 +4176,14 @@
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -4193,7 +4193,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "BATTLEFIELD 6! 💥 Explosive Gameplay ft. Gamefolio & A-Bomb Energy | Join Dark Solar Tactical Gaming — Battlefield 6",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "xxtowerdogxx's Tower Crew is a 🔥 high-energy community fueled by 💪 motivation, all about gaming Delta Force with a dash of humor. We're BLAZE time 🔥, dropping A-Bombs☢️, and tracking stats with Gamefolio🎮. Expect epic streams, giveaways, and a welcoming vibe. Show that Tower Crew support with a \"🔥Shoutout\" and use xxtowerdogxx to support the community!",
       "_profileAtCount": 404
@@ -4205,7 +4205,7 @@
         "totalVotes": 5939,
         "totalSubs": 189,
         "totalChatMessages": 120,
-        "totalStreamMinutes": 1984,
+        "totalStreamMinutes": 2004,
         "emotes": {
           "❤": 2,
           "🙌": 1,
