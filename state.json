@@ -831,8 +831,8 @@
       "language": "en",
       "stats": {
         "totalVotes": 716,
-        "totalSubs": 4,
-        "totalChatMessages": 587,
+        "totalSubs": 5,
+        "totalChatMessages": 588,
         "totalStreamMinutes": 1129,
         "emotes": {
           "📊": 3,
@@ -987,13 +987,9 @@
           "😩": "😩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784705485759
+        "lastChatAt": 1784710594278
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
-        },
         {
           "user": "foxbotai",
           "msg": "Thank you @💚 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 6 FoxCoins. Lucky Bonus: @💚 found a Golden Fox Chest and earned +150 FoxCoins. Balance: 156 FoxCoins."
@@ -1029,6 +1025,10 @@
         {
           "user": "libralives",
           "msg": "I'm in chat. Wen sub :D"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "@libralives now sub! :D"
         }
       ],
       "customCommands": {},
@@ -6021,8 +6021,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784690934022,
   "auth": {
-    "accessToken": "e9736a0d85527137e55d6756f86cd42f",
-    "refreshToken": "9a6518841d445eb4ba234c6e626f231e",
+    "accessToken": "c1b89f867b000fcd92f6caf630dc5f89",
+    "refreshToken": "c239ddf5b8f29ef0dcc28a0d6522aa59",
     "sessionToken": "0968f5af81c003e2efd0d3833538977e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
