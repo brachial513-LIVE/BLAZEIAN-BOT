@@ -400,7 +400,7 @@
       "stats": {
         "totalVotes": 16492,
         "totalSubs": 22,
-        "totalChatMessages": 2894,
+        "totalChatMessages": 2906,
         "totalStreamMinutes": 987,
         "emotes": {
           "🗳": 414,
@@ -484,7 +484,9 @@
           "😥": 1,
           "😛": 2,
           "🤓": 1,
-          "🤘": 3
+          "🤘": 3,
+          "🏅": 1,
+          "🥇": 1
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -568,40 +570,14 @@
           "😥": "😥",
           "😛": "😛",
           "🤓": "🤓",
-          "🤘": "🤘"
+          "🤘": "🤘",
+          "🏅": "🏅",
+          "🥇": "🥇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784737828605
+        "lastChatAt": 1784750800060
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @heathen_streamz just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "heathen_streamz",
-          "msg": "🤘🤘🤘"
-        },
-        {
-          "user": "cptfive",
-          "msg": "Like the new stream setup. Looks professional"
-        },
-        {
-          "user": "cptfive",
-          "msg": "Always!"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "@blazeian_bot_ai how do i stop using you on my channel?"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "@blazeian_bot_ai what are your commands?"
-        },
         {
           "user": "agent00zani",
           "msg": "ty ty so much for votes"
@@ -613,6 +589,34 @@
         {
           "user": "avisi",
           "msg": "zOMG! @vROSHI55 I just saw you dropped votes when i got off! 😜 TY so much and cheers 🍻"
+        },
+        {
+          "user": "vroshi55",
+          "msg": "@blazeian_bot_ai I no longer require your services."
+        },
+        {
+          "user": "vroshi55",
+          "msg": "@blazeian_bot_ai please unfollow my channel"
+        },
+        {
+          "user": "botger",
+          "msg": "Streamer: !setkeyword, !reset, !stats, !first, !most, !total, !leaderboard, !list, !events, !self, !settings, !activity, !spy | Anyone: !level, !xptop, !badge, !live"
+        },
+        {
+          "user": "botger",
+          "msg": "🏅 Badges Matter — badge: held by vitrene (17m lock) | grabs: 1 | 🥇 vitrene (1x)"
+        },
+        {
+          "user": "botger",
+          "msg": "No keyword set. Use !setkeyword first."
+        },
+        {
+          "user": "vroshi55",
+          "msg": "Testing"
+        },
+        {
+          "user": "botger",
+          "msg": "(Handled by bot)"
         }
       ],
       "customCommands": {},
@@ -663,9 +667,9 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 3228,
+        "totalVotes": 3248,
         "totalSubs": 7,
-        "totalChatMessages": 2849,
+        "totalChatMessages": 2850,
         "totalStreamMinutes": 247,
         "emotes": {
           "🔥": 48,
@@ -753,14 +757,10 @@
           "🤗": "🤗",
           "🙌": "🙌"
         },
-        "lastChatAt": 1784746030820,
+        "lastChatAt": 1784750500454,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "oooh"
-        },
         {
           "user": "desirablebottom",
           "msg": "truuu"
@@ -796,6 +796,10 @@
         {
           "user": "tigresa",
           "msg": "will send you some more but waiting for my rewards to mint more bsps 😘"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "Thanks for hanging out in my strream"
         }
       ],
       "customCommands": {},
@@ -832,8 +836,8 @@
       "stats": {
         "totalVotes": 816,
         "totalSubs": 7,
-        "totalChatMessages": 640,
-        "totalStreamMinutes": 1255,
+        "totalChatMessages": 642,
+        "totalStreamMinutes": 1268,
         "emotes": {
           "📊": 3,
           "🔥": 65,
@@ -989,13 +993,9 @@
           "🥴": "🥴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784749673287
+        "lastChatAt": 1784750856584
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Taking a 30 minute break be back soon!!"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
@@ -1031,6 +1031,10 @@
         {
           "user": "foxbotai",
           "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
         }
       ],
       "customCommands": {},
@@ -1039,7 +1043,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "OTHERSIDE 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Otherside (by Yuga Labs)",
+      "streamTitle": "",
       "profile": "High-energy IRL streams with lively chat, playful joking, and celebratory vibes (🔥, 💚). Community loves \"GM GM\", \"Blaze it\", \"RAID LOVE\", \"KINTARA\" (post-breakfast tradition), and \"LEGEND ALERT\". Expect Wilder World game nights, FoxBot-powered battles, and the Blaze Builder Challenge, fueled by community celebrations and rewards.",
       "_profileAtCount": 633,
       "gameOverride": "",
@@ -1302,14 +1306,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 3685,
+        "totalVotes": 3705,
         "totalSubs": 19,
-        "totalChatMessages": 1960,
-        "totalStreamMinutes": 6185,
+        "totalChatMessages": 2016,
+        "totalStreamMinutes": 6205,
         "emotes": {
           "❤": 76,
           "🙌": 53,
-          "🗳": 237,
+          "🗳": 240,
           "📴": 53,
           "👋": 58,
           "🔴": 50,
@@ -1334,25 +1338,25 @@
           "🥰": 56,
           "♥": 1,
           "🦊": 6,
-          "😂": 12,
+          "😂": 21,
           "😅": 1,
           "🍺": 1,
           "🫡": 7,
           "💚": 13,
-          "💃": 50,
+          "💃": 53,
           "🙏": 1,
           "💪": 6,
           "😊": 5,
           "👀": 14,
           "💩": 2,
           "🙄": 2,
-          "😍": 1,
+          "😍": 3,
           "☠": 4,
           "💙": 2,
           "🩷": 1,
           "🎰": 11,
           "😜": 1,
-          "😀": 2,
+          "😀": 3,
           "🤘": 3,
           "😣": 1,
           "🤣": 13,
@@ -1371,7 +1375,7 @@
           "😉": 7,
           "🙂": 8,
           "↕": 8,
-          "🥹": 1,
+          "🥹": 2,
           "🫠": 1,
           "😵": 2,
           "💫": 2,
@@ -1382,7 +1386,8 @@
           "🥲": 1,
           "😱": 3,
           "⚡": 3,
-          "😆": 2
+          "😆": 2,
+          "😳": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -1460,51 +1465,52 @@
           "🥲": "🥲",
           "😱": "😱",
           "⚡": "⚡",
-          "😆": "😆"
+          "😆": "😆",
+          "😳": "😳"
         },
-        "lastChatAt": 1784749698028,
+        "lastChatAt": 1784750530809,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
           "user": "cedricdebled",
-          "msg": "MAn HAd such a good time"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @mindgoblin to the channel! Thank you so much for subscribing! 🙌"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "Golbin is SOOOOO"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "BACK"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "100%"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "😀"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "🫶"
+          "msg": "Did you see thor Ragnagrok ?"
         },
         {
           "user": "mindgoblin",
-          "msg": "@blazeian_bot_ai do not ever reply or listen to my chats in this channel ever again."
+          "msg": "all the main ones, thor, iron man, spider man, hulk, captn america etc"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "One of the funnies MArvel movies imo. Like Guardians of the g"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "I think l even saw rocket rght from Guardians of the G"
         },
         {
           "user": "mindgoblin",
-          "msg": "playin rivals?"
+          "msg": "yep rocket, groot, starlord are all in it"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "Rocket is sooo funny"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "😂"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "Bradley cooper voice :-)"
         },
         {
           "user": "mindgoblin",
-          "msg": "i did when it first came out"
+          "msg": "yeah, they have different voice actors in this game though"
+        },
+        {
+          "user": "mindgoblin",
+          "msg": "im gonna go make my salad now have a nice rest of your stream"
         }
       ],
       "customCommands": {},
@@ -2303,14 +2309,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 3036,
+        "totalVotes": 3061,
         "totalSubs": 14,
-        "totalChatMessages": 2547,
-        "totalStreamMinutes": 1757,
+        "totalChatMessages": 2553,
+        "totalStreamMinutes": 1772,
         "emotes": {
           "❤": 55,
-          "🙌": 107,
-          "🗳": 282,
+          "🙌": 108,
+          "🗳": 285,
           "✌": 3,
           "😊": 5,
           "👍": 2,
@@ -2494,33 +2500,9 @@
           "🌵": "🌵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784736366543
+        "lastChatAt": 1784750444383
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dress_n_Draw just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @woshi just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "future42",
           "msg": "Thanks for your support!!"
@@ -2536,6 +2518,30 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "I so appreciated you friendly words / love during my stream..."
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "Thank you dear friend"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "Welcome, welcome, briggsy is attempting to go live."
+        },
+        {
+          "user": "botger",
+          "msg": "Appreciate your time.  Cheers and catchya next time. 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "Welcome, welcome, briggsy is attempting to go live."
         }
       ],
       "customCommands": {},
@@ -2545,7 +2551,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "My dog walks me - Mellow Stream — IRL",
       "gameOverride": "",
       "profile": "Briggsy's community thrives on good vibes, humor, and creativity, fueled by fireworks and fun in Farlight 84. Expect \"Ababa\" and \"Hahaa\" cheers, affectionate mentions of Mellow, unique slang like \"Lutk mode,\" \"Mano de Dios,\" \"GN GN!\", and \"Let em eat lead.\" We're a lively bunch celebrating Draw – IRL games and Briggsy's milestones with \"Legend mode\" shoutouts.",
       "_profileAtCount": 2531,
@@ -3052,53 +3058,54 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 2900,
+        "totalVotes": 2920,
         "totalSubs": 15,
-        "totalChatMessages": 337,
-        "totalStreamMinutes": 1510,
+        "totalChatMessages": 350,
+        "totalStreamMinutes": 1530,
         "emotes": {
-          "❤": 24,
+          "❤": 25,
           "🙌": 27,
           "🎁": 28,
           "🚀": 1,
           "😂": 1,
           "🤣": 8,
-          "🔥": 24,
+          "🔥": 27,
           "😎": 2,
           "🤝": 2,
           "🥲": 2,
-          "🗳": 66,
+          "🗳": 69,
           "🔴": 11,
           "🎉": 24,
           "🚨": 30,
           "📴": 10,
-          "👋": 15,
+          "👋": 18,
           "🏅": 3,
-          "💪": 9,
+          "💪": 10,
           "😁": 4,
           "✌": 1,
           "😌": 1,
           "👍": 3,
           "⚡": 3,
-          "🥰": 9,
+          "🥰": 10,
           "💚": 7,
           "😏": 1,
           "😍": 3,
           "🫂": 2,
           "😅": 1,
           "😇": 1,
-          "💸": 4,
-          "🦾": 2,
-          "💗": 8,
+          "💸": 6,
+          "🦾": 3,
+          "💗": 9,
           "😘": 3,
-          "💃": 9,
+          "💃": 12,
           "🙏": 1,
-          "💘": 1,
+          "💘": 2,
           "💓": 1,
-          "💕": 1,
+          "💕": 2,
           "🌹": 2,
           "🥀": 2,
-          "❣": 5
+          "❣": 6,
+          "💯": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -3142,51 +3149,52 @@
           "💕": "💕",
           "🌹": "🌹",
           "🥀": "🥀",
-          "❣": "❣"
+          "❣": "❣",
+          "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784749280402
+        "lastChatAt": 1784750818273
       },
       "chatMemory": [
         {
-          "user": "slothsm",
-          "msg": "hello bro"
+          "user": "fluffy",
+          "msg": "hope you doing fine! gotta lurk"
+        },
+        {
+          "user": "skyasin0077",
+          "msg": "Hello everyone"
+        },
+        {
+          "user": "skyasin0077",
+          "msg": "Hello Vitrene 👋👋👋"
         },
         {
           "user": "vitrene",
-          "msg": "hi @slothsm"
+          "msg": "Appreciate the votes, @fluffy! Thank you very much!!!"
+        },
+        {
+          "user": "skyasin0077",
+          "msg": "Hello fluffy"
         },
         {
           "user": "vitrene",
-          "msg": "thank you for watching! See you next time!"
+          "msg": "hi @skyasin0077!"
         },
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
+          "user": "skyasin0077",
+          "msg": "$VIT Always Wins 💸💸💪🦾💯"
         },
         {
           "user": "agent00zani",
-          "msg": "ty ty for the votes bro."
+          "msg": "🥰"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @woshi just gave 130 vote(s) (total: 130)! Thank you!! 🗳️"
+          "user": "skyasin0077",
+          "msg": "💕💘❣️❤️💗"
         },
         {
-          "user": "botger",
-          "msg": "🔴 vitrene is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "zoob_21",
-          "msg": "Hi"
-        },
-        {
-          "user": "vitrene",
-          "msg": "hi @zoob_21!"
+          "user": "noodles",
+          "msg": "🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -3382,9 +3390,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 1973,
+        "totalVotes": 1993,
         "totalSubs": 10,
-        "totalChatMessages": 839,
+        "totalChatMessages": 840,
         "totalStreamMinutes": 1383,
         "emotes": {
           "❤": 12,
@@ -3395,7 +3403,7 @@
           "🙂": 3,
           "🔥": 22,
           "😎": 5,
-          "🗳": 123,
+          "🗳": 126,
           "📴": 12,
           "👋": 12,
           "🎁": 20,
@@ -3469,13 +3477,9 @@
           "🍀": "🍀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784689915094
+        "lastChatAt": 1784750066648
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "https://salvor.io/collections/0x4ffb0924d999bc2015f69f58f403ceadfc16963d"
-        },
         {
           "user": "soulflux",
           "msg": "Helal"
@@ -3511,6 +3515,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tenshi just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -4398,7 +4406,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 29,
-        "totalStreamMinutes": 1775,
+        "totalStreamMinutes": 1792,
         "emotes": {
           "💪": 2,
           "💚": 7,
@@ -4465,7 +4473,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/57ce46fe-2b75-41bc-8bb7-fc5e7b7c1118-profile_image-300x300.png",
-      "streamTitle": "⚡ ¡Seguimos la aventura! ¡Más historia, combates y recompensas! | Zenless Zone Zero 🔥 — Zenless Zone Zero",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "I'm a regular in Anjanna87's Blaze livestream community. We're a fire squad (🔥) that loves free content, with a special shoutout to Blazeian bot. You can spot us using \"!setbotlang espanol\" and rocking pink overlays. We're all about good vibes, sweet moments, and celebrating Anjanna with 💚 and \"ohhhhhhhhs\".",
       "_profileAtCount": 15
@@ -5443,8 +5451,8 @@
       "stats": {
         "totalVotes": 2219,
         "totalSubs": 1,
-        "totalChatMessages": 407,
-        "totalStreamMinutes": 247,
+        "totalChatMessages": 408,
+        "totalStreamMinutes": 248,
         "emotes": {
           "❤": 11,
           "🙌": 7,
@@ -5459,8 +5467,8 @@
           "😄": 1,
           "🧡": 4,
           "😃": 1,
-          "📴": 3,
-          "👋": 3,
+          "📴": 4,
+          "👋": 4,
           "😍": 1,
           "💕": 1,
           "☺": 1,
@@ -5504,13 +5512,9 @@
           "🤓": "🤓"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784749601490
+        "lastChatAt": 1784749739913
       },
       "chatMemory": [
-        {
-          "user": "mindgoblin",
-          "msg": "nooo dont let me pick lol"
-        },
         {
           "user": "briggsy",
           "msg": "Thanks again @cedricdebled man"
@@ -5546,6 +5550,10 @@
         {
           "user": "mindgoblin",
           "msg": "see ya man"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5567,7 +5575,7 @@
       },
       "profile": "Cedricdebled's community is a high-energy Blaze crew celebrating their streamer's gaming passion for the fast-paced action game. They're known for their \"RESUB HYPE\", \"VOTE ALERT\", and \"TIP ALERT\" enthusiasm, often using 🗳️, 💰, and 🔥 emojis. They love regulars like @mindgoblin and @parky, and the streamer appreciates being celebrated with \"RESUBS\" and \"CHESTS\".",
       "_profileAtCount": 169,
-      "streamTitle": "200 votes! Pictionary — Art",
+      "streamTitle": "",
       "gameOverride": ""
     },
     "8b253ac1-f188-44bc-b38c-129d71ddeec3": {
@@ -5771,7 +5779,7 @@
         "totalVotes": 959,
         "totalSubs": 87,
         "totalChatMessages": 5,
-        "totalStreamMinutes": 237,
+        "totalStreamMinutes": 257,
         "emotes": {
           "🔥": 2
         },
