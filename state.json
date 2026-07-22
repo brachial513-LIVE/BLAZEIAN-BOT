@@ -3060,8 +3060,8 @@
       "stats": {
         "totalVotes": 3086,
         "totalSubs": 15,
-        "totalChatMessages": 366,
-        "totalStreamMinutes": 1620,
+        "totalChatMessages": 367,
+        "totalStreamMinutes": 1625,
         "emotes": {
           "❤": 25,
           "🙌": 27,
@@ -3153,13 +3153,9 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784756019965
+        "lastChatAt": 1784756488204
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "my day is going awesome! I hope yours is going great too!"
-        },
         {
           "user": "agent00zani",
           "msg": "yeah .. i hope so too"
@@ -3195,6 +3191,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @vRoshi55 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "vitrene",
+          "msg": "big thank you vRoshi!"
         }
       ],
       "customCommands": {},
@@ -4822,7 +4822,7 @@
         "totalVotes": 862,
         "totalSubs": 22,
         "totalChatMessages": 590,
-        "totalStreamMinutes": 786,
+        "totalStreamMinutes": 791,
         "emotes": {
           "❤": 65,
           "🙌": 53,
@@ -5779,7 +5779,7 @@
         "totalVotes": 960,
         "totalSubs": 87,
         "totalChatMessages": 5,
-        "totalStreamMinutes": 347,
+        "totalStreamMinutes": 352,
         "emotes": {
           "🔥": 2
         },
@@ -6058,8 +6058,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784747994641,
   "auth": {
-    "accessToken": "fa7192ef2bc6aaf25e797fffadc08933",
-    "refreshToken": "8569bda423e79338def3f0d6d526652b",
+    "accessToken": "262f52b3f4995c7655d3559aef8debb2",
+    "refreshToken": "f2eaa184eb1f2a5fcaae28849aeb0a09",
     "sessionToken": "bb1f5b9cdfe163a56c871af21b7efe69",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
