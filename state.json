@@ -836,8 +836,8 @@
       "stats": {
         "totalVotes": 817,
         "totalSubs": 7,
-        "totalChatMessages": 652,
-        "totalStreamMinutes": 1272,
+        "totalChatMessages": 656,
+        "totalStreamMinutes": 1278,
         "emotes": {
           "📊": 3,
           "🔥": 65,
@@ -993,21 +993,9 @@
           "🥴": "🥴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784817203183
+        "lastChatAt": 1784817962574
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "Thank you @💚 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 3 FoxCoins."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
-        },
         {
           "user": "foxbotai",
           "msg": "🦊 FoxBot commands: !connect, !profile, !rank, !disconnect, !help"
@@ -1035,6 +1023,18 @@
         {
           "user": "foxbotai",
           "msg": "FoxBot 8-ball says: No doubt."
+        },
+        {
+          "user": "princessjamesy",
+          "msg": "Whoot"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@princessjamesy attacked Cyber Fox Dragon for 34 damage and earned 16 FoxCoins! Boss HP: 380/500. Your total boss damage: 120. Balance: 55 FoxCoins."
+        },
+        {
+          "user": "princessjamesy",
+          "msg": "Help"
         }
       ],
       "customCommands": {},
@@ -1043,7 +1043,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "OTHERSIDE 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Otherside (by Yuga Labs)",
+      "streamTitle": "",
       "profile": "High-energy IRL streams with lively chat, playful joking, and celebratory vibes (🔥, 💚). Community loves \"GM GM\", \"Blaze it\", \"RAID LOVE\", \"KINTARA\" (post-breakfast tradition), and \"LEGEND ALERT\". Expect Wilder World game nights, FoxBot-powered battles, and the Blaze Builder Challenge, fueled by community celebrations and rewards.",
       "_profileAtCount": 633,
       "gameOverride": "",
@@ -4431,30 +4431,22 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 29,
-        "totalStreamMinutes": 1858,
+        "totalChatMessages": 32,
+        "totalStreamMinutes": 1878,
         "emotes": {
           "💪": 2,
-          "💚": 7,
-          "🔥": 10
+          "💚": 11,
+          "🔥": 11
         },
         "emoteNames": {
           "💪": "💪",
           "💚": "💚",
           "🔥": "🔥"
         },
-        "lastChatAt": 1784646152494,
+        "lastChatAt": 1784818382450,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "slothsm",
-          "msg": "gm gm"
-        },
-        {
-          "user": "slothsm",
-          "msg": "lets go blaze"
-        },
         {
           "user": "dimifw",
           "msg": "🔥🔥🔥"
@@ -4486,6 +4478,14 @@
         {
           "user": "slothsm",
           "msg": "gm gm"
+        },
+        {
+          "user": "brachial513",
+          "msg": "GM 💚🔥"
+        },
+        {
+          "user": "brachial513",
+          "msg": "Keep up Blazeing 💚💚💚"
         }
       ],
       "customCommands": {},
@@ -5612,7 +5612,7 @@
         "totalVotes": 390,
         "totalSubs": 4,
         "totalChatMessages": 105,
-        "totalStreamMinutes": 277,
+        "totalStreamMinutes": 297,
         "emotes": {
           "❤": 11,
           "🙌": 6,
