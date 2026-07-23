@@ -1808,12 +1808,12 @@
       "stats": {
         "totalVotes": 975,
         "totalSubs": 17,
-        "totalChatMessages": 427,
-        "totalStreamMinutes": 4910,
+        "totalChatMessages": 428,
+        "totalStreamMinutes": 4928,
         "emotes": {
           "😊": 3,
-          "🌵": 51,
-          "🔥": 165,
+          "🌵": 53,
+          "🔥": 166,
           "🤪": 1,
           "👋": 20,
           "👍": 15,
@@ -1969,13 +1969,9 @@
           "☺": "☺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784848062857
+        "lastChatAt": 1784850339553
       },
       "chatMemory": [
-        {
-          "user": "steadyember",
-          "msg": "gorgeous sunsets as always. Thanks 4 starlink streaming. We wouldn't get this otherwise."
-        },
         {
           "user": "steadyember",
           "msg": "Did you say that's a methane flare? So it's like a giant fart flame? That's both funny and amazing lol"
@@ -2011,6 +2007,10 @@
         {
           "user": "midnight_driv3r",
           "msg": "🤗🤗🤗"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "Good evening Captain Happy Birthday my friend 🌵🔥🌵"
         }
       ],
       "customCommands": {},
@@ -2900,7 +2900,7 @@
         "totalVotes": 1208,
         "totalSubs": 35,
         "totalChatMessages": 228,
-        "totalStreamMinutes": 4284,
+        "totalStreamMinutes": 4302,
         "emotes": {
           "❤": 64,
           "🙌": 18,
@@ -4129,8 +4129,8 @@
       "stats": {
         "totalVotes": 621,
         "totalSubs": 11,
-        "totalChatMessages": 459,
-        "totalStreamMinutes": 4131,
+        "totalChatMessages": 460,
+        "totalStreamMinutes": 4149,
         "emotes": {
           "🔥": 163,
           "🔴": 50,
@@ -4197,14 +4197,10 @@
           "✌": "✌",
           "👍": "👍"
         },
-        "lastChatAt": 1784848134628,
+        "lastChatAt": 1784850816317,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "xxtowerdogxx",
-          "msg": "👍👍👍👍"
-        },
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
@@ -4240,6 +4236,10 @@
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -5884,7 +5884,7 @@
       "stats": {
         "totalVotes": 186,
         "totalSubs": 0,
-        "totalChatMessages": 1851,
+        "totalChatMessages": 1854,
         "totalStreamMinutes": 658,
         "emotes": {
           "❤": 6,
@@ -5945,17 +5945,9 @@
           "🤭": "🤭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784835172593
+        "lastChatAt": 1784850730533
       },
       "chatMemory": [
-        {
-          "user": "lucas93925052",
-          "msg": "Salve galera"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Boa tarde mauh"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -5987,6 +5979,14 @@
         {
           "user": "junior7_",
           "msg": "Deu ruim"
+        },
+        {
+          "user": "botger",
+          "msg": "programação, carteira e maratona: https://shre.ink/LvCM"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "desgraça de blaze, cadê a recompensa sua maldita"
         }
       ],
       "customCommands": {},
@@ -6138,7 +6138,8 @@
       "timedMessages": [],
       "tipTiers": [],
       "greeted": true,
-      "locked": false
+      "locked": false,
+      "followed": true
     }
   },
   "blocklist": [
@@ -6166,8 +6167,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784850001697,
   "auth": {
-    "accessToken": "2ed442f541db21187fd3c83745866170",
-    "refreshToken": "fb90f2030c345121ecde0b9c3def88e2",
+    "accessToken": "cc6a8d21e37384aca54b78ddb2aeba19",
+    "refreshToken": "f2fc4dbf65d7c4ddbdd97fd16c1a1c07",
     "sessionToken": "868c393abc87dce5a9edc25f10269499",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
