@@ -2313,8 +2313,8 @@
       "stats": {
         "totalVotes": 3247,
         "totalSubs": 14,
-        "totalChatMessages": 2738,
-        "totalStreamMinutes": 1947,
+        "totalChatMessages": 2739,
+        "totalStreamMinutes": 1962,
         "emotes": {
           "❤": 57,
           "🙌": 125,
@@ -2329,7 +2329,7 @@
           "⚡": 20,
           "😂": 41,
           "😍": 17,
-          "🔥": 48,
+          "🔥": 51,
           "😎": 5,
           "😁": 12,
           "😄": 19,
@@ -2504,13 +2504,9 @@
           "🤨": "🤨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784787619084
+        "lastChatAt": 1784788286857
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Good to see you"
-        },
         {
           "user": "fluffy",
           "msg": "Good to see ya too @briggsy"
@@ -2546,6 +2542,10 @@
         {
           "user": "briggsy",
           "msg": "hey seventh"
+        },
+        {
+          "user": "dimifw",
+          "msg": "🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -6106,8 +6106,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784788138934,
   "auth": {
-    "accessToken": "1e81855652451da72192c8d7eaccd573",
-    "refreshToken": "7440569e5012a5c1758fc5722cfdf74e",
+    "accessToken": "417f91bdb1119f70edb547dc1c31c3b9",
+    "refreshToken": "fb58fcb690ec08a96944749684a99afc",
     "sessionToken": "bb1f5b9cdfe163a56c871af21b7efe69",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
