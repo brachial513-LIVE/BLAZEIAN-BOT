@@ -4432,7 +4432,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 29,
-        "totalStreamMinutes": 1821,
+        "totalStreamMinutes": 1838,
         "emotes": {
           "💪": 2,
           "💚": 7,
@@ -5609,10 +5609,10 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 389,
+        "totalVotes": 390,
         "totalSubs": 4,
-        "totalChatMessages": 99,
-        "totalStreamMinutes": 241,
+        "totalChatMessages": 105,
+        "totalStreamMinutes": 257,
         "emotes": {
           "❤": 11,
           "🙌": 6,
@@ -5623,7 +5623,7 @@
           "💪": 1,
           "💚": 3,
           "🔥": 4,
-          "🗳": 48,
+          "🗳": 51,
           "🤗": 4,
           "📴": 2,
           "🎁": 8,
@@ -5650,33 +5650,9 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784814722859
+        "lastChatAt": 1784815947395
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @wayfinders just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @piggymoto!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ piggymoto just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @Ruri666!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Ruri666 just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "botger",
           "msg": "🔴 angge_wf is now live! Welcome everyone! 🎉"
@@ -5692,6 +5668,30 @@
         {
           "user": "xeukuxaixang",
           "msg": "and you"
+        },
+        {
+          "user": "taffa",
+          "msg": "hello angge"
+        },
+        {
+          "user": "taffa",
+          "msg": "have a good stream"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @Taffa!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Taffa just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "pepay2125",
+          "msg": "yow"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -6108,8 +6108,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784815015914,
   "auth": {
-    "accessToken": "e1d1bfb9d6ef0d9d64f18452c0246b00",
-    "refreshToken": "1287839598bf258ff4bd7c1d6e443795",
+    "accessToken": "dcd86df6062b976b7056bd2f60b85ab2",
+    "refreshToken": "00cb88a5e811bc6f09bf92f9fd033a7b",
     "sessionToken": "bb1f5b9cdfe163a56c871af21b7efe69",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
