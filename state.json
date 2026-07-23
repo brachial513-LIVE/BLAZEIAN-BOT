@@ -2313,8 +2313,8 @@
       "stats": {
         "totalVotes": 3247,
         "totalSubs": 14,
-        "totalChatMessages": 2737,
-        "totalStreamMinutes": 1937,
+        "totalChatMessages": 2738,
+        "totalStreamMinutes": 1947,
         "emotes": {
           "❤": 57,
           "🙌": 125,
@@ -2504,13 +2504,9 @@
           "🤨": "🤨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784787500317
+        "lastChatAt": 1784787619084
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "How are you doing"
-        },
         {
           "user": "briggsy",
           "msg": "Good to see you"
@@ -2546,6 +2542,10 @@
         {
           "user": "seventh",
           "msg": "gm gm @briggsy"
+        },
+        {
+          "user": "briggsy",
+          "msg": "hey seventh"
         }
       ],
       "customCommands": {},
@@ -6106,8 +6106,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784747994641,
   "auth": {
-    "accessToken": "4a0320fb9fb6d7b724df7eb915bd0e2e",
-    "refreshToken": "95d49d126f02e8b5304379f00c7f8e4b",
+    "accessToken": "1e81855652451da72192c8d7eaccd573",
+    "refreshToken": "7440569e5012a5c1758fc5722cfdf74e",
     "sessionToken": "bb1f5b9cdfe163a56c871af21b7efe69",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
