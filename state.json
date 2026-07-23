@@ -1809,7 +1809,7 @@
         "totalVotes": 975,
         "totalSubs": 17,
         "totalChatMessages": 427,
-        "totalStreamMinutes": 4878,
+        "totalStreamMinutes": 4883,
         "emotes": {
           "😊": 3,
           "🌵": 51,
@@ -2900,7 +2900,7 @@
         "totalVotes": 1208,
         "totalSubs": 35,
         "totalChatMessages": 224,
-        "totalStreamMinutes": 4252,
+        "totalStreamMinutes": 4257,
         "emotes": {
           "❤": 64,
           "🙌": 18,
@@ -4129,8 +4129,8 @@
       "stats": {
         "totalVotes": 621,
         "totalSubs": 11,
-        "totalChatMessages": 458,
-        "totalStreamMinutes": 4099,
+        "totalChatMessages": 459,
+        "totalStreamMinutes": 4104,
         "emotes": {
           "🔥": 163,
           "🔴": 50,
@@ -4197,14 +4197,10 @@
           "✌": "✌",
           "👍": "👍"
         },
-        "lastChatAt": 1784848082535,
+        "lastChatAt": 1784848134628,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "xxtowerdogxx is in the house! 🔥Welcome to the HOTTEST channel on BLAZE🔥"
-        },
         {
           "user": "xxtowerdogxx",
           "msg": "👍👍👍👍"
@@ -4240,6 +4236,10 @@
         {
           "user": "scurvybot",
           "msg": "@Zer0Cache is raiding with a party of 1! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
         }
       ],
       "customCommands": {},
@@ -6127,8 +6127,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784815015914,
   "auth": {
-    "accessToken": "6ddc7aa5c796debb9b29df1ee7ae4234",
-    "refreshToken": "a00ce986e93695b428452be3fa8e1a4d",
+    "accessToken": "4136a0418e717eacd46498630825785b",
+    "refreshToken": "2826611070180078dc7b730e3fe0d3d5",
     "sessionToken": "868c393abc87dce5a9edc25f10269499",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
