@@ -5774,7 +5774,7 @@
       "stats": {
         "totalVotes": 108,
         "totalSubs": 3,
-        "totalChatMessages": 36,
+        "totalChatMessages": 37,
         "totalStreamMinutes": 185,
         "emotes": {
           "❤": 4,
@@ -5789,7 +5789,8 @@
           "🎉": 2,
           "🚨": 6,
           "😀": 1,
-          "👍": 1
+          "👍": 1,
+          "😜": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -5804,16 +5805,13 @@
           "🎉": "🎉",
           "🚨": "🚨",
           "😀": "😀",
-          "👍": "👍"
+          "👍": "👍",
+          "😜": "😜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784877078550
+        "lastChatAt": 1784882485611
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @Ruri666 just gifted a sub to @SrChois! How generous!! 🙌"
-        },
         {
           "user": "ruri666",
           "msg": "GM GM @SrChois"
@@ -5849,6 +5847,10 @@
         {
           "user": "muddy_4x4_gmc",
           "msg": "😀👍"
+        },
+        {
+          "user": "avisi",
+          "msg": "was here! 😜"
         }
       ],
       "customCommands": {},
@@ -6267,7 +6269,7 @@
   "auth": {
     "accessToken": "a3014e435609f8abdda28155a474baba",
     "refreshToken": "c700e2dce41092ef260f630959440238",
-    "sessionToken": "915b941a4bc9b529a7ec6cc031e24a6a",
+    "sessionToken": "12376d0bb56be75d15db3667c480f1be",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
