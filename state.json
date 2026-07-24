@@ -841,21 +841,21 @@
       "language": "en",
       "stats": {
         "totalVotes": 820,
-        "totalSubs": 7,
-        "totalChatMessages": 723,
-        "totalStreamMinutes": 1741,
+        "totalSubs": 9,
+        "totalChatMessages": 733,
+        "totalStreamMinutes": 1761,
         "emotes": {
           "📊": 3,
-          "🔥": 97,
+          "🔥": 98,
           "🤣": 7,
-          "💚": 30,
+          "💚": 31,
           "❤": 2,
           "😜": 1,
           "✌": 3,
           "😊": 2,
           "👋": 1,
           "🚀": 5,
-          "🦊": 52,
+          "🦊": 53,
           "😂": 12,
           "👑": 24,
           "⭐": 8,
@@ -920,7 +920,8 @@
           "😑": 1,
           "😩": 1,
           "🥴": 1,
-          "🐐": 5
+          "🐐": 5,
+          "✅": 4
         },
         "emoteNames": {
           "📊": "📊",
@@ -998,12 +999,17 @@
           "😑": "😑",
           "😩": "😩",
           "🥴": "🥴",
-          "🐐": "🐐"
+          "🐐": "🐐",
+          "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784919912358
+        "lastChatAt": 1784924481099
       },
       "chatMemory": [
+        {
+          "user": "foxbotai",
+          "msg": "@crypt0k1ng96 rolled a D6 and got 5!"
+        },
         {
           "user": "foxbotai",
           "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
@@ -1014,35 +1020,31 @@
         },
         {
           "user": "foxbotai",
-          "msg": "Thank you @Blaze for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 3 FoxCoins."
+          "msg": "Thank you @Yaaaaay for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 3 FoxCoins."
         },
         {
           "user": "foxbotai",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+          "msg": "LEGEND ALERT: @LEGEND gifted 1 subs! Everyone show some love. +500 FoxCoins. Balance: 500 FoxCoins."
+        },
+        {
+          "user": "fluffy",
+          "msg": "hey hey"
         },
         {
           "user": "foxbotai",
-          "msg": "Thank you @💚 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 6 FoxCoins."
+          "msg": "RAID LOVE! Huge thanks to @LEGEND for bringing the community over. +250 FoxCoins. Balance: 750 FoxCoins."
         },
         {
-          "user": "foxbotai",
-          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
+          "user": "crypt0k1ng96",
+          "msg": "Hi @fluffy !!!"
         },
         {
-          "user": "foxbotai",
-          "msg": "No giveaway is open right now."
+          "user": "crypt0k1ng96",
+          "msg": "how are you?"
         },
         {
-          "user": "foxbotai",
-          "msg": "Unknown command. Type !help"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot Arcade commands: !foxhunt, !coinflip, !roll, !roll 20, !8ball your question, !rps rock/paper/scissors"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96 rolled a D6 and got 5!"
+          "user": "crypt0k1ng96",
+          "msg": "🦊 FOXBOT CHALLENGE: Set up FoxBot on your Blaze channel and earn $5 in Blaze!\n\n✅ Register your channel\n✅ Add @foxbotai as a moderator\n✅ Test it with !help\n✅ Send me your channel so I can verify it\n\nStart here: https://foxbot-ai-chatbot.onrender.com\n\nComplete the setup, get FoxBot working, and claim your $5! 🔥"
         }
       ],
       "customCommands": {},
@@ -1052,8 +1054,8 @@
       "locked": false,
       "followed": true,
       "streamTitle": "VIBE CODING FOXBOT 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — IRL",
-      "profile": "High-energy IRL streams with lively chat, playful joking, and celebratory vibes (🔥, 💚). Community loves \"GM GM\", \"Blaze it\", \"RAID LOVE\", \"KINTARA\" (post-breakfast tradition), and \"LEGEND ALERT\". Expect Wilder World game nights, FoxBot-powered battles, and the Blaze Builder Challenge, fueled by community celebrations and rewards, with a dash of \"RAID LOVE\" and \"Fox Spirits\" appreciation.",
-      "_profileAtCount": 686,
+      "profile": "High-energy IRL streams with lively chat, playful joking, and celebratory vibes (🔥, 💚). Community loves \"GM GM\", \"Blaze it\", \"RAID LOVE\", \"KINTARA\" (post-breakfast tradition), \"LEGEND ALERT\", and \"Fox Spirits\" appreciation. Expect Wilder World game nights, FoxBot-powered battles, and the Blaze Builder Challenge, fueled by community celebrations and rewards.",
+      "_profileAtCount": 732,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b0561010-9481-4f1e-a8ec-e56599bc3d49.jpg"
     },
@@ -2138,7 +2140,7 @@
         "totalVotes": 1654,
         "totalSubs": 8,
         "totalChatMessages": 613,
-        "totalStreamMinutes": 2546,
+        "totalStreamMinutes": 2566,
         "emotes": {
           "✨": 10,
           "🖥": 15,
@@ -2639,11 +2641,11 @@
       "stats": {
         "totalVotes": 351,
         "totalSubs": 8,
-        "totalChatMessages": 81,
-        "totalStreamMinutes": 1337,
+        "totalChatMessages": 83,
+        "totalStreamMinutes": 1357,
         "emotes": {
           "💃": 9,
-          "🔥": 1,
+          "🔥": 3,
           "😶": 3,
           "🌫": 3,
           "✌": 1,
@@ -2672,17 +2674,9 @@
           "👀": "👀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784422181343
+        "lastChatAt": 1784924082640
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "made me smile a bit ... ty ty .. i needed that"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "🥰"
-        },
         {
           "user": "agent00zani",
           "msg": "I don't have that skin ... as I don't have the pro ... this is really awesome"
@@ -2714,6 +2708,14 @@
         {
           "user": "agent00zani",
           "msg": "❤️"
+        },
+        {
+          "user": "guney",
+          "msg": "🔥🔥"
+        },
+        {
+          "user": "guney",
+          "msg": "good luck man"
         }
       ],
       "customCommands": {},
@@ -3123,8 +3125,8 @@
       "stats": {
         "totalVotes": 3089,
         "totalSubs": 15,
-        "totalChatMessages": 374,
-        "totalStreamMinutes": 1702,
+        "totalChatMessages": 377,
+        "totalStreamMinutes": 1722,
         "emotes": {
           "❤": 25,
           "🙌": 28,
@@ -3160,7 +3162,7 @@
           "🦾": 3,
           "💗": 9,
           "😘": 3,
-          "💃": 12,
+          "💃": 15,
           "🙏": 1,
           "💘": 2,
           "💓": 1,
@@ -3216,21 +3218,9 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784922815185
+        "lastChatAt": 1784924391469
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "thank you for the votes, @briggsy!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @vRoshi55 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "vitrene",
-          "msg": "big thank you vRoshi!"
-        },
         {
           "user": "just_for_lucas",
           "msg": "🔥🔥🔥"
@@ -3258,6 +3248,18 @@
         {
           "user": "botger",
           "msg": "🔴 vitrene is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "fluffy",
+          "msg": "hey hey"
+        },
+        {
+          "user": "fluffy",
+          "msg": "💃💃💃"
+        },
+        {
+          "user": "vitrene",
+          "msg": "hi @fluffy! how you are doing?"
         }
       ],
       "customCommands": {},
@@ -3959,21 +3961,21 @@
       "username": "bidloperv",
       "language": "en",
       "stats": {
-        "totalVotes": 2176,
-        "totalSubs": 8,
-        "totalChatMessages": 2240,
-        "totalStreamMinutes": 1655,
+        "totalVotes": 2186,
+        "totalSubs": 9,
+        "totalChatMessages": 2262,
+        "totalStreamMinutes": 1675,
         "emotes": {
           "🧏": 1,
           "♂": 1,
           "👀": 12,
-          "🔥": 123,
+          "🔥": 125,
           "🙃": 4,
           "😛": 2,
           "🤭": 2,
           "😉": 3,
           "😭": 12,
-          "🤣": 87,
+          "🤣": 89,
           "👋": 7,
           "❤": 56,
           "😆": 8,
@@ -3996,7 +3998,7 @@
           "🦕": 1,
           "🦖": 1,
           "💯": 1,
-          "💃": 1,
+          "💃": 6,
           "🎉": 9,
           "🥰": 6,
           "😊": 4,
@@ -4120,48 +4122,48 @@
           "🩷": "🩷"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784923970248
+        "lastChatAt": 1784925045833
       },
       "chatMemory": [
         {
-          "user": "0xwacky",
-          "msg": "Torment"
-        },
-        {
-          "user": "0xwacky",
-          "msg": "Check if you have it"
-        },
-        {
-          "user": "0xwacky",
-          "msg": "the band i sent on discord"
-        },
-        {
-          "user": "0xwacky",
-          "msg": "a friend of mine"
-        },
-        {
-          "user": "0xwacky",
-          "msg": "Yes please"
+          "user": "xeukuxaixang",
+          "msg": "I'm afraid my gym headphones will disconnect and everyone will hear the Lorna Shore singer screaming kkkkk"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "🤣🤣🤣"
+          "msg": "🤣🤣"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "If I do this, I'll probably twist my hand into a knot"
+          "msg": "oh"
         },
         {
-          "user": "time",
-          "msg": "🔥🧡🧡"
+          "user": "xeukuxaixang",
+          "msg": "play"
         },
         {
-          "user": "avisi",
-          "msg": "🔥❤️‍🔥🔥"
+          "user": "xeukuxaixang",
+          "msg": "play"
         },
         {
-          "user": "time",
-          "msg": "🩷🩷🩷"
+          "user": "xeukuxaixang",
+          "msg": "these song"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "c'mon"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "where's lyric"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "I'm gonna go to the gym listening to your stream"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "I think better"
         }
       ],
       "customCommands": {},
@@ -4315,7 +4317,7 @@
         "totalVotes": 6163,
         "totalSubs": 189,
         "totalChatMessages": 134,
-        "totalStreamMinutes": 2653,
+        "totalStreamMinutes": 2673,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -5554,14 +5556,14 @@
       "stats": {
         "totalVotes": 2374,
         "totalSubs": 2,
-        "totalChatMessages": 580,
-        "totalStreamMinutes": 315,
+        "totalChatMessages": 640,
+        "totalStreamMinutes": 335,
         "emotes": {
-          "❤": 16,
-          "🙌": 9,
+          "❤": 18,
+          "🙌": 10,
           "🗳": 57,
           "💰": 8,
-          "🔥": 19,
+          "🔥": 20,
           "💛": 3,
           "🔴": 6,
           "🎉": 6,
@@ -5578,7 +5580,7 @@
           "💃": 2,
           "😆": 4,
           "😎": 1,
-          "🤣": 64,
+          "🤣": 74,
           "😋": 3,
           "👏": 16,
           "🍻": 1,
@@ -5586,10 +5588,12 @@
           "🤓": 1,
           "🤙": 3,
           "🎁": 2,
-          "⚡": 2,
+          "⚡": 3,
           "😈": 1,
           "👀": 2,
-          "🤔": 2
+          "🤔": 3,
+          "🫡": 1,
+          "😅": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -5624,51 +5628,55 @@
           "⚡": "⚡",
           "😈": "😈",
           "👀": "👀",
-          "🤔": "🤔"
+          "🤔": "🤔",
+          "🫡": "🫡",
+          "😅": "😅"
         },
-        "sendFailStreak": 0,
-        "lastChatAt": 1784923937952
+        "sendFailStreak": 1,
+        "lastChatAt": 1784925135389,
+        "lastSendFailAt": 1784924708700,
+        "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
         {
           "user": "mindgoblin",
-          "msg": "yeah i mean its just about getting lucky enough to getting the wheel to land on gifted sub to previous winner lol"
+          "msg": "i got your page tabbed @Cheeseyeggs for next time you go live"
+        },
+        {
+          "user": "cheeseyeggs",
+          "msg": "I am a huge Hell Let Loose fan and the open playtest is live right now. I was considering going live or not, but it doesnt seem like its most peoples style"
         },
         {
           "user": "mindgoblin",
-          "msg": "8% chance to hit"
+          "msg": "i have obs open cuz i was about to go live till i saw ced online and when you followed the alert went off and scared me haha"
+        },
+        {
+          "user": "cheeseyeggs",
+          "msg": "Yeah, Hell Let Loose: Vietnam is the new one"
+        },
+        {
+          "user": "mindgoblin",
+          "msg": "Vietnam is a separate game @cedricdebled"
+        },
+        {
+          "user": "mindgoblin",
+          "msg": "the OG is WWII"
+        },
+        {
+          "user": "mindgoblin",
+          "msg": "its super super realistic and hardcore"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "Why does the Blaze token have small pumps every now and then?"
+          "msg": "ads"
         },
         {
-          "user": "mindgoblin",
-          "msg": "which is crazy that it hasnt hit"
-        },
-        {
-          "user": "mindgoblin",
-          "msg": "vroshi is managing a few positions and using the revenue to buyback the token @xeukuxaixang"
-        },
-        {
-          "user": "mindgoblin",
-          "msg": "thats where the prizes for this minting contest are coming from"
+          "user": "cheeseyeggs",
+          "msg": "Yeah, the Vietnam is the 2nd in the series"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "🤔"
-        },
-        {
-          "user": "mindgoblin",
-          "msg": "team gave him funds to work with and manage the liquidity. and i believe he contributed a sizeable amount of xPHAR as well from his personal balance"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "hard work"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "what"
+          "msg": "🤣🤣🤣🤣🤣🤣🤣🤣🤣"
         }
       ],
       "customCommands": {},
@@ -6097,7 +6105,7 @@
       "stats": {
         "totalVotes": 105,
         "totalSubs": 0,
-        "totalChatMessages": 130,
+        "totalChatMessages": 133,
         "totalStreamMinutes": 766,
         "emotes": {
           "❤": 11,
@@ -6140,21 +6148,9 @@
           "✌": "✌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784922778771
+        "lastChatAt": 1784924003314
       },
       "chatMemory": [
-        {
-          "user": "marowak33",
-          "msg": "heyo"
-        },
-        {
-          "user": "guney",
-          "msg": "🔥🔥✌️✌️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @slothsm just gave 1 vote(s) (total: 2)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @He_Nose just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
@@ -6182,6 +6178,18 @@
         {
           "user": "killlab",
           "msg": "yo summer league hope the games are good"
+        },
+        {
+          "user": "guney",
+          "msg": "thank you so much @KilllaB"
+        },
+        {
+          "user": "guney",
+          "msg": "just having fun"
+        },
+        {
+          "user": "guney",
+          "msg": "i missed the last week"
         }
       ],
       "customCommands": {},
