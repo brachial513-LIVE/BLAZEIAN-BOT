@@ -843,7 +843,7 @@
         "totalVotes": 820,
         "totalSubs": 9,
         "totalChatMessages": 733,
-        "totalStreamMinutes": 1826,
+        "totalStreamMinutes": 1831,
         "emotes": {
           "📊": 3,
           "🔥": 98,
@@ -2139,8 +2139,8 @@
       "stats": {
         "totalVotes": 1654,
         "totalSubs": 8,
-        "totalChatMessages": 630,
-        "totalStreamMinutes": 2631,
+        "totalChatMessages": 632,
+        "totalStreamMinutes": 2636,
         "emotes": {
           "✨": 10,
           "🖥": 15,
@@ -2271,18 +2271,10 @@
           "🔮": "🔮",
           "🙂": "🙂"
         },
-        "lastChatAt": 1784929006694,
+        "lastChatAt": 1784929284762,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "tarzan",
-          "msg": "Catch you later."
-        },
-        {
-          "user": "tarzan",
-          "msg": "Not hearing you if you speak"
-        },
         {
           "user": "tarzan",
           "msg": "But game audio works nice 🙂👍"
@@ -2314,6 +2306,14 @@
         {
           "user": "zer0cache",
           "msg": "sweaty lobbies tonight!!"
+        },
+        {
+          "user": "tarzan",
+          "msg": "Nooooo"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "no chance in that lobby"
         }
       ],
       "customCommands": {},
@@ -2646,7 +2646,7 @@
         "totalVotes": 356,
         "totalSubs": 9,
         "totalChatMessages": 86,
-        "totalStreamMinutes": 1422,
+        "totalStreamMinutes": 1427,
         "emotes": {
           "💃": 9,
           "🔥": 3,
@@ -3130,7 +3130,7 @@
         "totalVotes": 3089,
         "totalSubs": 15,
         "totalChatMessages": 377,
-        "totalStreamMinutes": 1787,
+        "totalStreamMinutes": 1792,
         "emotes": {
           "❤": 25,
           "🙌": 28,
@@ -4924,13 +4924,13 @@
       "stats": {
         "totalVotes": 943,
         "totalSubs": 22,
-        "totalChatMessages": 688,
-        "totalStreamMinutes": 1066,
+        "totalChatMessages": 690,
+        "totalStreamMinutes": 1071,
         "emotes": {
           "❤": 71,
           "🙌": 56,
           "🔴": 10,
-          "🎉": 13,
+          "🎉": 14,
           "👋": 27,
           "👀": 13,
           "😱": 1,
@@ -4945,7 +4945,7 @@
           "💚": 1,
           "🔥": 44,
           "😂": 3,
-          "🚨": 12,
+          "🚨": 18,
           "🎁": 40,
           "🍺": 11,
           "🥰": 3,
@@ -5005,17 +5005,9 @@
           "🩷": "🩷"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784928674226
+        "lastChatAt": 1784929332511
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @xeukuxaixang!"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ xeukuxaixang just followed the channel! Welcome!! 🙌"
@@ -5047,6 +5039,14 @@
         {
           "user": "octo",
           "msg": "there he is! w"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@avisi is raiding with a party of 1! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @avisi is raiding with a party of 1! Welcome raiders!! 🎉"
         }
       ],
       "customCommands": {},
@@ -6484,8 +6484,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784901779351,
   "auth": {
-    "accessToken": "8dc5d568a843d880a51191785d867466",
-    "refreshToken": "128dee8fda49d77a6a668bd80ae20ebc",
+    "accessToken": "7692c08f517afffc3ca3a152b95e11c1",
+    "refreshToken": "ae30f4db296710b563f4efa1b4860124",
     "sessionToken": "0ad35642301ae89f59da640fc3a901e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
