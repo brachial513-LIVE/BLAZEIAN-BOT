@@ -277,7 +277,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 158,
+        "totalChatMessages": 159,
         "totalStreamMinutes": 0,
         "emotes": {
           "🪙": 3,
@@ -346,7 +346,7 @@
           "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784880242751
+        "lastChatAt": 1784883842771
       },
       "chatMemory": [
         {
@@ -2135,13 +2135,13 @@
       "stats": {
         "totalVotes": 1629,
         "totalSubs": 8,
-        "totalChatMessages": 588,
-        "totalStreamMinutes": 2434,
+        "totalChatMessages": 589,
+        "totalStreamMinutes": 2453,
         "emotes": {
           "✨": 10,
           "🖥": 15,
-          "🔥": 68,
-          "👋": 23,
+          "🔥": 69,
+          "👋": 24,
           "🎬": 27,
           "❤": 39,
           "🚨": 5,
@@ -2261,14 +2261,10 @@
           "🦜": "🦜",
           "🤵": "🤵"
         },
-        "lastChatAt": 1784853030771,
+        "lastChatAt": 1784883790252,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "grindingdragon",
-          "msg": "no that my duble in the discord"
-        },
         {
           "user": "grindingdragon",
           "msg": "no the person in discord is imposter"
@@ -2304,6 +2300,10 @@
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 2 votes, @dwb9000! Your support is truly appreciated! 🙌"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Off The Grid. Drop a greeting in chat! 👋"
         }
       ],
       "customCommands": {},
@@ -2312,7 +2312,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Off The Grid — Off The Grid",
       "profile": "zer0cache's community is a high-energy crew obsessed with Wilder World game nights, particularly Blaze Event exploits. Expect playful jabs, \"HYPE\" reactions, and OTG shoutouts. They love to \"lets gooo fox!\" and shower zer0cache with affection, calling them \"my hero.\" Unique slang includes \"HYPE,\" \"GG's,\" and \"lets gooo.",
       "_profileAtCount": 588,
       "loyalty": {
@@ -6269,7 +6269,7 @@
   "auth": {
     "accessToken": "f32b5a69c740b7a9e0dca62a2255565d",
     "refreshToken": "4579c871af453bb28dffdf8b36b6fc7a",
-    "sessionToken": "064cd37fed40393034c3d7b03ea9348b",
+    "sessionToken": "70081a7f7d36c267784f5ec29d7dba37",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
