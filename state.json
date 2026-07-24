@@ -2783,16 +2783,16 @@
       "stats": {
         "totalVotes": 2378,
         "totalSubs": 7,
-        "totalChatMessages": 1055,
-        "totalStreamMinutes": 2929,
+        "totalChatMessages": 1057,
+        "totalStreamMinutes": 2930,
         "emotes": {
           "❤": 17,
           "🙌": 18,
           "🗳": 105,
           "🔴": 20,
           "🎉": 32,
-          "📴": 18,
-          "👋": 18,
+          "📴": 19,
+          "👋": 19,
           "🔥": 19,
           "💪": 1,
           "🤖": 1,
@@ -2853,18 +2853,10 @@
           "☺": "☺",
           "✌": "✌"
         },
-        "lastChatAt": 1784864587704,
+        "lastChatAt": 1784864663869,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "doktorgrav",
-          "msg": "I think I will have to downsize a bit"
-        },
-        {
-          "user": "doktorgrav",
-          "msg": "the objects in the world may hit a limit and crash"
-        },
         {
           "user": "doktorgrav",
           "msg": "i think I need to make two save"
@@ -2896,6 +2888,14 @@
         {
           "user": "doktorgrav",
           "msg": "enjoy"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2904,7 +2904,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "❤️PoE grind!❤️ — Path Of Exile 2",
+      "streamTitle": "",
       "profile": "nadietv - Your go-to for gaming grind sessions & chill vibes! Expect \"Worthy Goal\" mindset, BLAZE magic, & no salt, no sugar. We're all about Path of Exile 2 & Dota. Let's get this grind on! GGs, Wheel & Song incoming. Ws for everyone! Pay it forward, Wheel & Song vibes only.",
       "_profileAtCount": 1051,
       "gameOverride": "",
@@ -2926,7 +2926,7 @@
         "totalVotes": 1210,
         "totalSubs": 35,
         "totalChatMessages": 238,
-        "totalStreamMinutes": 4527,
+        "totalStreamMinutes": 4547,
         "emotes": {
           "❤": 64,
           "🙌": 18,
@@ -3274,7 +3274,7 @@
         "totalVotes": 4569,
         "totalSubs": 110,
         "totalChatMessages": 207,
-        "totalStreamMinutes": 1312,
+        "totalStreamMinutes": 1332,
         "emotes": {
           "❤": 31,
           "🙌": 134,
@@ -5043,8 +5043,8 @@
       "stats": {
         "totalVotes": 1833,
         "totalSubs": 0,
-        "totalChatMessages": 87,
-        "totalStreamMinutes": 633,
+        "totalChatMessages": 91,
+        "totalStreamMinutes": 646,
         "emotes": {
           "❤": 14,
           "🙌": 7,
@@ -5053,8 +5053,8 @@
           "🗳": 60,
           "🔴": 6,
           "🎉": 7,
-          "📴": 5,
-          "👋": 5,
+          "📴": 6,
+          "👋": 6,
           "🚨": 6,
           "🥂": 1,
           "🫶": 1,
@@ -5080,25 +5080,9 @@
           "👄": "👄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784859387875
+        "lastChatAt": 1784865336775
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ cactus_jack440 just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "cactus_jack440",
-          "msg": "🌵🔥🌵"
-        },
-        {
-          "user": "niruntz",
-          "msg": "Yo faithy!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @NiRuntz just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
         {
           "user": "briggsy",
           "msg": "Hey Faithy"
@@ -5122,6 +5106,22 @@
         {
           "user": "korosuplays",
           "msg": "👄"
+        },
+        {
+          "user": "faithy_",
+          "msg": "feeling hungry"
+        },
+        {
+          "user": "faithy_",
+          "msg": "thnks for watching will continue!"
+        },
+        {
+          "user": "faithy_",
+          "msg": "later on"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5134,7 +5134,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "Cabal Grinderist! Come chat for a while! — CABAL Online",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "faithy_'s community is a high-energy Blaze crew passionate about gaming, known for their \"BLAZE IT\" chants, wacky slang like \"kulong\" and \"wlang,\" and enthusiastic support for the streamer. They celebrate with \"VOTE ALERT\" shoutouts and a warm welcome back after breaks, all set to a lively atmosphere.",
       "_profileAtCount": 69
