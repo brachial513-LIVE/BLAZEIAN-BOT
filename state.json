@@ -6160,11 +6160,11 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 40,
+        "totalChatMessages": 42,
         "totalStreamMinutes": 0,
         "emotes": {
-          "❤": 2,
-          "🙌": 1,
+          "❤": 4,
+          "🙌": 2,
           "🔴": 1,
           "🎉": 1,
           "🔥": 1,
@@ -6181,17 +6181,9 @@
           "👋": "👋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784863950311
+        "lastChatAt": 1784883365016
       },
       "chatMemory": [
-        {
-          "user": "timdraws",
-          "msg": "cyberpunk!"
-        },
-        {
-          "user": "timdraws",
-          "msg": "🔥"
-        },
         {
           "user": "timdraws",
           "msg": "like the game ?"
@@ -6223,6 +6215,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ Brachial513 just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "brachial513",
+          "msg": "yoo gm and thank you very much for using BlazeianBot AI!"
         }
       ],
       "customCommands": {},
@@ -6269,7 +6269,7 @@
   "auth": {
     "accessToken": "fb485f950d52ee0d60eb42c7a4eca912",
     "refreshToken": "545d2f072dc9817486e50330d99f3903",
-    "sessionToken": "27aed45916b16dd3a6158ed39ca8fc50",
+    "sessionToken": "d54f7045c5cc8211b18b39e47f09aef0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
