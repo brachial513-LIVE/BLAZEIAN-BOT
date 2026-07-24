@@ -843,7 +843,7 @@
         "totalVotes": 820,
         "totalSubs": 7,
         "totalChatMessages": 723,
-        "totalStreamMinutes": 1696,
+        "totalStreamMinutes": 1697,
         "emotes": {
           "📊": 3,
           "🔥": 97,
@@ -2640,7 +2640,7 @@
         "totalVotes": 351,
         "totalSubs": 8,
         "totalChatMessages": 81,
-        "totalStreamMinutes": 1292,
+        "totalStreamMinutes": 1294,
         "emotes": {
           "💃": 9,
           "🔥": 1,
@@ -3961,8 +3961,8 @@
       "stats": {
         "totalVotes": 2176,
         "totalSubs": 6,
-        "totalChatMessages": 2166,
-        "totalStreamMinutes": 1610,
+        "totalChatMessages": 2168,
+        "totalStreamMinutes": 1611,
         "emotes": {
           "🧏": 1,
           "♂": 1,
@@ -4116,17 +4116,9 @@
           "🍷": "🍷"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784921269468
+        "lastChatAt": 1784921360267
       },
       "chatMemory": [
-        {
-          "user": "noxx",
-          "msg": "o//////"
-        },
-        {
-          "user": "briggsy",
-          "msg": "I’m good @time"
-        },
         {
           "user": "time",
           "msg": "glad to hear that Bri"
@@ -4158,6 +4150,14 @@
         {
           "user": "xeukuxaixang",
           "msg": "wait"
+        },
+        {
+          "user": "time",
+          "msg": "ofcourse"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Patience"
         }
       ],
       "customCommands": {},
@@ -4311,7 +4311,7 @@
         "totalVotes": 6163,
         "totalSubs": 189,
         "totalChatMessages": 134,
-        "totalStreamMinutes": 2608,
+        "totalStreamMinutes": 2610,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -5550,10 +5550,10 @@
       "stats": {
         "totalVotes": 2374,
         "totalSubs": 1,
-        "totalChatMessages": 439,
-        "totalStreamMinutes": 270,
+        "totalChatMessages": 446,
+        "totalStreamMinutes": 271,
         "emotes": {
-          "❤": 13,
+          "❤": 14,
           "🙌": 7,
           "🗳": 57,
           "💰": 8,
@@ -5613,33 +5613,9 @@
           "🤙": "🤙"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784920970634
+        "lastChatAt": 1784921369967
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "what happened"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "hacksaw ridge"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "fvkc Stream is of !"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "Restart"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 cedricdebled is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
@@ -5655,6 +5631,30 @@
         {
           "user": "cedricdebled",
           "msg": "❤️"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "❤️"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "bot funny"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "no problem"
+        },
+        {
+          "user": "mindgoblin",
+          "msg": "hello gang"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "oh"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "my"
         }
       ],
       "customCommands": {},
@@ -6083,7 +6083,7 @@
       "stats": {
         "totalVotes": 105,
         "totalSubs": 0,
-        "totalChatMessages": 125,
+        "totalChatMessages": 126,
         "totalStreamMinutes": 766,
         "emotes": {
           "❤": 9,
@@ -6126,13 +6126,9 @@
           "✌": "✌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784921220532
+        "lastChatAt": 1784921307446
       },
       "chatMemory": [
-        {
-          "user": "xeukuxaixang",
-          "msg": "or spin again"
-        },
         {
           "user": "xeukuxaixang",
           "msg": "I see you later"
@@ -6168,6 +6164,10 @@
         {
           "user": "briggsy",
           "msg": "Hey @guney man"
+        },
+        {
+          "user": "briggsy",
+          "msg": "You playing with Sinnerz?"
         }
       ],
       "customCommands": {},
@@ -6429,7 +6429,9 @@
   "blocklist": [
     "meyetechnicals"
   ],
-  "optedOutUsers": [],
+  "optedOutUsers": [
+    "mindgoblin"
+  ],
   "friendBots": [
     "cinder",
     "foxbot",
