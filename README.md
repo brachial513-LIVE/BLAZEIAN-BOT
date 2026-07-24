@@ -23,6 +23,7 @@ BlazeianBot isn't a canned-response bot — it actually reads what people say an
 - **Free OBS overlays** — an animated emote wall, a live viewer counter, and an animated running/reacting mascot, all as simple Browser Source URLs
 - **Self-learning channel profiles** — the bot quietly picks up on each community's own slang and vibe over time, so it sounds like a regular, not a guest
 - **Automatic follow-back & channel onboarding** — one `!join` (or one follow) sets a streamer up completely, including followers-only chat access
+- **Personal opt-out** — anyone can type `!ignoreme` to stop the bot replying to them specifically, in any channel, no streamer involvement needed
 
 Every streamer manages only their own channel from their own dashboard — the bot never mixes context between channels.
 
