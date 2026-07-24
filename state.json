@@ -2356,7 +2356,7 @@
       "stats": {
         "totalVotes": 3299,
         "totalSubs": 14,
-        "totalChatMessages": 2746,
+        "totalChatMessages": 2747,
         "totalStreamMinutes": 1976,
         "emotes": {
           "❤": 57,
@@ -2547,13 +2547,9 @@
           "🤨": "🤨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784856909818
+        "lastChatAt": 1784867302284
       },
       "chatMemory": [
-        {
-          "user": "seventh",
-          "msg": "gm gm @briggsy"
-        },
         {
           "user": "briggsy",
           "msg": "hey seventh"
@@ -2589,6 +2585,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 5 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "Welcome, welcome, briggsy is attempting to go live."
         }
       ],
       "customCommands": {},
@@ -2598,7 +2598,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "Games and Grind - Thursday Edition — Farlight 84",
       "gameOverride": "",
       "profile": "Briggsy's community thrives on good vibes, humor, and creativity in Farlight 84. Expect \"Ababa\" and \"Hahaa\" cheers, affectionate mentions of Mellow, unique slang like \"Lutk mode,\" \"Mano de Dios,\" \"GN GN!\", \"Let em eat lead,\" and \"Legend mode\" shoutouts for Briggsy's milestones. We celebrate Draw – IRL games with laughter and enthusiasm.",
       "_profileAtCount": 2707,
@@ -2925,16 +2925,16 @@
       "stats": {
         "totalVotes": 1210,
         "totalSubs": 35,
-        "totalChatMessages": 238,
-        "totalStreamMinutes": 4567,
+        "totalChatMessages": 239,
+        "totalStreamMinutes": 4568,
         "emotes": {
           "❤": 64,
           "🙌": 18,
           "🔥": 18,
           "🔴": 29,
           "🎉": 29,
-          "📴": 29,
-          "👋": 30,
+          "📴": 30,
+          "👋": 31,
           "😂": 4,
           "💚": 6,
           "💪": 2,
@@ -2965,14 +2965,10 @@
           "😍": "😍",
           "🌵": "🌵"
         },
-        "lastChatAt": 1784864184106,
+        "lastChatAt": 1784867051848,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "xeukuxaixang",
-          "msg": "ei slots"
-        },
         {
           "user": "xeukuxaixang",
           "msg": "slots"
@@ -3008,6 +3004,10 @@
         {
           "user": "xeukuxaixang",
           "msg": "kkkkkkkkkkkkkkkkkkk"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -3019,7 +3019,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🔴PRIDE ESSENCE| PVP PVE RMT ❗RFF❗PRIDE❗PIX — Lineage 2",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -6244,8 +6244,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784850001697,
   "auth": {
-    "accessToken": "41a5ff877c42dda7a746e931a7fb0e7a",
-    "refreshToken": "6b532babe4ffe111a94a7d7b5cb0338b",
+    "accessToken": "c688e86dce32dc481bb4a96ccd9ea403",
+    "refreshToken": "00b1c22bfb98bfec065d4f47db9ebefa",
     "sessionToken": "868c393abc87dce5a9edc25f10269499",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
