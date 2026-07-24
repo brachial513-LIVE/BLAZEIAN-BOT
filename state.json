@@ -843,7 +843,7 @@
         "totalVotes": 819,
         "totalSubs": 7,
         "totalChatMessages": 691,
-        "totalStreamMinutes": 1561,
+        "totalStreamMinutes": 1575,
         "emotes": {
           "📊": 3,
           "🔥": 65,
@@ -2936,7 +2936,7 @@
         "totalVotes": 1210,
         "totalSubs": 37,
         "totalChatMessages": 246,
-        "totalStreamMinutes": 4683,
+        "totalStreamMinutes": 4696,
         "emotes": {
           "❤": 64,
           "🙌": 18,
@@ -4304,8 +4304,8 @@
       "stats": {
         "totalVotes": 6161,
         "totalSubs": 189,
-        "totalChatMessages": 131,
-        "totalStreamMinutes": 2473,
+        "totalChatMessages": 133,
+        "totalStreamMinutes": 2487,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -4325,17 +4325,9 @@
           "🎮": "🎮"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784737613904
+        "lastChatAt": 1784914000835
       },
       "chatMemory": [
-        {
-          "user": "saboomafoo",
-          "msg": "hello"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "Have a great stream!"
-        },
         {
           "user": "saboomafoo",
           "msg": "matryx"
@@ -4367,6 +4359,14 @@
         {
           "user": "tinapay",
           "msg": "Ooohhh niceeee"
+        },
+        {
+          "user": "loboblanco",
+          "msg": "saboo"
+        },
+        {
+          "user": "loboblanco",
+          "msg": "yo también quiero tener ese bot peee"
         }
       ],
       "customCommands": {},
@@ -5164,7 +5164,7 @@
         "totalVotes": 2008,
         "totalSubs": 1,
         "totalChatMessages": 338,
-        "totalStreamMinutes": 231,
+        "totalStreamMinutes": 245,
         "emotes": {
           "❤": 4,
           "🙌": 7,
@@ -6271,14 +6271,14 @@
       "stats": {
         "totalVotes": 26,
         "totalSubs": 0,
-        "totalChatMessages": 59,
-        "totalStreamMinutes": 76,
+        "totalChatMessages": 61,
+        "totalStreamMinutes": 88,
         "emotes": {
           "❤": 4,
           "🙌": 2,
           "🗳": 9,
-          "🔴": 1,
-          "🎉": 1,
+          "🔴": 2,
+          "🎉": 2,
           "🏃": 1,
           "♂": 1,
           "💨": 1,
@@ -6306,17 +6306,9 @@
           "👋": "👋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784910287307
+        "lastChatAt": 1784913249674
       },
       "chatMemory": [
-        {
-          "user": "magusdala",
-          "msg": "So no gooner games yet"
-        },
-        {
-          "user": "magusdala",
-          "msg": "There really isn't an abundance of good gooner games."
-        },
         {
           "user": "magusdala",
           "msg": "Can you fix it?"
@@ -6348,6 +6340,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @KilllaB just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -6360,10 +6360,32 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "A mostly sober stream about stuff — IRL",
       "profile": "Channel: noxx\nCurrent stream title: A mostly sober stream about stuff — IRL\nProfile: noxx is a chill streamer who loves to hang out IRL, sharing his life and experiences with the community. This crew is all about good vibes, with catchphrases like \"NEW FOLLOWER!!\" and \"🗳️ VOTE ALERT!!\". They're a gaming community that loves to upgrade and build, with a dash of humor and sarcasm.",
       "_profileAtCount": 21,
       "gameOverride": ""
+    },
+    "143c4620-2a6d-4182-8bda-bc93350bd2da": {
+      "username": "loboblanco",
+      "language": "en",
+      "joinedAt": 1784914016208,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "timedMessages": [],
+      "tipTiers": [],
+      "greeted": true
     }
   },
   "blocklist": [
