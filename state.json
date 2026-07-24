@@ -2357,7 +2357,7 @@
         "totalVotes": 3299,
         "totalSubs": 14,
         "totalChatMessages": 2868,
-        "totalStreamMinutes": 2103,
+        "totalStreamMinutes": 2123,
         "emotes": {
           "❤": 58,
           "🙌": 131,
@@ -5770,8 +5770,8 @@
       "stats": {
         "totalVotes": 108,
         "totalSubs": 3,
-        "totalChatMessages": 28,
-        "totalStreamMinutes": 95,
+        "totalChatMessages": 29,
+        "totalStreamMinutes": 115,
         "emotes": {
           "❤": 2,
           "🙌": 4,
@@ -5797,13 +5797,9 @@
           "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784874345833
+        "lastChatAt": 1784876016843
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 20 votes, @angge_wf!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
@@ -5839,6 +5835,10 @@
         {
           "user": "ruri666",
           "msg": "GM GM @SrChois"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
