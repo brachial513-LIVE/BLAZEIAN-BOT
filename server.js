@@ -3103,6 +3103,7 @@ const COMICS = [
   { id: "adventures-1", title: "BLAZEIAN_BOT_AI — What If? Adventures #1", file: "adventures-1.png", splitPct: 0.55 },
   { id: "adventures-2", title: "BLAZEIAN_BOT_AI — What If? Adventures #2", file: "adventures-2.png", splitPct: 0.63 },
   { id: "adventures-3", title: "BLAZEIAN_BOT_AI — What If? Adventures #3", file: "adventures-3.png", splitPct: 0.56 },
+  { id: "adventures-4", title: "BLAZEIAN_BOT_AI — What If? Adventures #4", file: "adventures-4.png", splitPct: 0.50 },
 ];
 const comicImgUrl = c => `/comic-art/${encodeURIComponent(c.file)}`;
 app.get("/comic-art/:file", (req, res) => {
