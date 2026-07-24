@@ -181,6 +181,7 @@ function applyLoadedState(record) {
     console.log("Restored tokens from storage ☁️" + (SESSION_TOKEN ? " (session token present)" : " (NO session token)"));
   }
   if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
+  if (Array.isArray(record.optedOutUsers)) optedOutUsers = record.optedOutUsers;
   if (Array.isArray(record.friendBots)) friendBots = record.friendBots;
   // Cloud people first, then SEED wins for core entries — so corrections shipped in code
   // always take effect even if an outdated copy is stored in state.json.
@@ -253,6 +254,7 @@ async function _writeStateToGitHub() {
   const body = {
     channels,
     blocklist,
+    optedOutUsers,
     friendBots,
     knownPeople,
     lastAnnouncedVersion,
@@ -315,6 +317,18 @@ let blocklist = []; // usernames the bot must NOT serve (kicked trolls) — no f
 function isBlocked(username) {
   if (!username) return false;
   return blocklist.map(b => b.toLowerCase()).includes(username.toLowerCase());
+}
+
+// Self-service opt-out (!ignoreme) — different from blocklist: this is for someone who's fine with the
+// bot in general but personally doesn't want it replying to THEM specifically, in any channel they chat
+// in. Proven live request: a viewer couldn't get the bot to stop replying to them just by asking in
+// chat (the AI doesn't reliably "remember" a spoken request like that), and as a mere viewer they have no
+// way to change a streamer's channel settings — this gives them a real, persistent, self-service switch.
+// Global (not per-channel) since they may chat across several channels the bot is in.
+let optedOutUsers = [];
+function isOptedOut(username) {
+  if (!username) return false;
+  return optedOutUsers.map(u => u.toLowerCase()).includes(username.toLowerCase());
 }
 
 // FRIEND BOTS — fellow bots the bot treats as buddies (warm best-friend banter instead of cheeky).
@@ -1670,12 +1684,28 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
       "🧠 Tag @blazeian_bot_ai and I actually read & reply (in your language) · 🎉 I hype subs, gifted subs, follows, raids, votes & TIPS 💰 · 📊 !stats !votes !subs !time !emote !game track this channel",
       "🌍 !explain [language] translates the chat into 18 languages · live weather on request · ⚡ !cmd shows this channel's custom commands · plus timed reminders & free OBS overlays (emote wall + viewer count)",
       "I even learn each channel's own vibe over time 😎 Want me in YOUR channel? Type !join at blaze.stream/blazeian_bot_ai 💚🔥",
+      "🤫 Prefer I don't reply to you personally? Type !ignoreme anytime (works in any channel, undo it the same way).",
     ];
     for (const line of lines) {
       let out = line;
       if (!/^en/i.test(lang)) { try { const t = await translateText(line, lang); if (t) out = t; } catch (e) {} }
       await sendChat(channelId, out);
     }
+    return;
+  }
+
+  // !ignoreme — self-service, works for ANYONE in ANY channel (no owner check, this is about the
+  // person typing it, not the channel). Toggles whether the bot ever replies to THEM specifically —
+  // commands like !stats still work, only conversational replies (mentions/small talk) are suppressed.
+  if (m === "!ignoreme") {
+    if (isOptedOut(user)) {
+      optedOutUsers = optedOutUsers.filter(u => u.toLowerCase() !== user.toLowerCase());
+      await sendChat(channelId, `@${user} Okay, welcome back! I'll talk to you again 💚`);
+    } else {
+      optedOutUsers.push(user);
+      await sendChat(channelId, `@${user} Got it — I won't reply to you anymore in any channel. Type !ignoreme again anytime to undo this 💚`);
+    }
+    await saveChannelsToCloud();
     return;
   }
 
@@ -2006,7 +2036,7 @@ async function handleEvent(message) {
 
     if (msg.startsWith("!")) {
       await handleCommand(channelId, user, msg, isBotChannel);
-    } else if (!isBotChannel && channels[channelId]) {
+    } else if (!isBotChannel && channels[channelId] && !isOptedOut(user)) {
       await handleSmallTalk(channelId, user, msg, senderIsBot);
     }
     return;
