@@ -843,7 +843,7 @@
         "totalVotes": 819,
         "totalSubs": 7,
         "totalChatMessages": 691,
-        "totalStreamMinutes": 1511,
+        "totalStreamMinutes": 1516,
         "emotes": {
           "📊": 3,
           "🔥": 65,
@@ -1316,14 +1316,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 3809,
+        "totalVotes": 3829,
         "totalSubs": 20,
-        "totalChatMessages": 2040,
+        "totalChatMessages": 2041,
         "totalStreamMinutes": 6348,
         "emotes": {
           "❤": 78,
           "🙌": 55,
-          "🗳": 243,
+          "🗳": 246,
           "📴": 55,
           "👋": 60,
           "🔴": 51,
@@ -1478,14 +1478,10 @@
           "😆": "😆",
           "😳": "😳"
         },
-        "lastChatAt": 1784894787257,
+        "lastChatAt": 1784910323853,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "we in blaze vc rn .. join us @time ?"
-        },
         {
           "user": "time",
           "msg": "ı am watching a movie Zani"
@@ -1521,6 +1517,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Zer0Cache just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @KilllaB just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -2936,7 +2936,7 @@
         "totalVotes": 1210,
         "totalSubs": 35,
         "totalChatMessages": 242,
-        "totalStreamMinutes": 4633,
+        "totalStreamMinutes": 4638,
         "emotes": {
           "❤": 64,
           "🙌": 18,
@@ -4301,7 +4301,7 @@
         "totalVotes": 6161,
         "totalSubs": 189,
         "totalChatMessages": 131,
-        "totalStreamMinutes": 2423,
+        "totalStreamMinutes": 2428,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -6265,14 +6265,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 11,
+        "totalVotes": 26,
         "totalSubs": 0,
-        "totalChatMessages": 57,
+        "totalChatMessages": 59,
         "totalStreamMinutes": 76,
         "emotes": {
           "❤": 4,
           "🙌": 2,
-          "🗳": 6,
+          "🗳": 9,
           "🔴": 1,
           "🎉": 1,
           "🏃": 1,
@@ -6302,17 +6302,9 @@
           "👋": "👋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784895118008
+        "lastChatAt": 1784910287307
       },
       "chatMemory": [
-        {
-          "user": "magusdala",
-          "msg": "No it's a game called OFFBEAT"
-        },
-        {
-          "user": "magusdala",
-          "msg": "It's about making beats"
-        },
         {
           "user": "magusdala",
           "msg": "So no gooner games yet"
@@ -6344,6 +6336,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 15 votes, @KilllaB!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @KilllaB just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6388,8 +6388,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784901779351,
   "auth": {
-    "accessToken": "658fde06ec69e9c2b2ac1ce3a20b07fd",
-    "refreshToken": "b607ea235727d503329ce0c0f78e1090",
+    "accessToken": "a6b9e824436bd356c7641b0981f636c7",
+    "refreshToken": "43216a6bbc2a10fbb232bddd5c00f59a",
     "sessionToken": "0ad35642301ae89f59da640fc3a901e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
