@@ -2935,14 +2935,14 @@
       "stats": {
         "totalVotes": 1210,
         "totalSubs": 35,
-        "totalChatMessages": 239,
-        "totalStreamMinutes": 4568,
+        "totalChatMessages": 240,
+        "totalStreamMinutes": 4570,
         "emotes": {
           "❤": 64,
           "🙌": 18,
           "🔥": 18,
-          "🔴": 29,
-          "🎉": 29,
+          "🔴": 30,
+          "🎉": 30,
           "📴": 30,
           "👋": 31,
           "😂": 4,
@@ -2975,14 +2975,10 @@
           "😍": "😍",
           "🌵": "🌵"
         },
-        "lastChatAt": 1784867051848,
+        "lastChatAt": 1784906203667,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "xeukuxaixang",
-          "msg": "slots"
-        },
         {
           "user": "xeukuxaixang",
           "msg": "sloths porra"
@@ -3018,6 +3014,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -3029,7 +3029,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "😨 Achei Que Ia Morrer nos Primeiros 10 Minutos... — The Walking Dead: Survival Instinct",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -6386,7 +6386,7 @@
   "auth": {
     "accessToken": "6cf3d1410e5b172b1fa390a85a42d13f",
     "refreshToken": "fe4b5396c509cf788bd082d6b21f3398",
-    "sessionToken": "97e50a937d00639270eedce481ed2284",
+    "sessionToken": "0ad35642301ae89f59da640fc3a901e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
