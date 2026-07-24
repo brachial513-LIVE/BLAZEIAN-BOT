@@ -3603,14 +3603,14 @@
       "stats": {
         "totalVotes": 918,
         "totalSubs": 8,
-        "totalChatMessages": 842,
-        "totalStreamMinutes": 814,
+        "totalChatMessages": 844,
+        "totalStreamMinutes": 818,
         "emotes": {
           "❤": 353,
           "🙌": 12,
           "🗳": 99,
-          "🔴": 8,
-          "🎉": 9,
+          "🔴": 9,
+          "🎉": 10,
           "💛": 18,
           "📴": 8,
           "👋": 8,
@@ -3685,18 +3685,10 @@
           "🫶": "🫶",
           "🪘": "🪘"
         },
-        "lastChatAt": 1784900818654,
+        "lastChatAt": 1784901494155,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "sheshi",
-          "msg": "@TwistedTinker share me ur evm"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -3728,6 +3720,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @allthethingies just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 cymatrix is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -3749,7 +3749,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
-      "streamTitle": "",
+      "streamTitle": "Funk Show & OSP Tunes! — Music",
       "profile": "**cymatrix Community Profile**\n\nWe're a chill music community rocking out to sick beats and having a blast. Expect \"blazinnnnn\" energy, \"bee bee bee\" vibes, and \"funk O'clock\" excitement. We love celebrating gifted subs, \"blazinnnnn\" resubs, and members' contributions with votes and love, especially with our signature phrase \"saboomafoo\".",
       "_profileAtCount": 833,
       "gameOverride": "",
@@ -6068,7 +6068,7 @@
         "totalVotes": 98,
         "totalSubs": 0,
         "totalChatMessages": 122,
-        "totalStreamMinutes": 721,
+        "totalStreamMinutes": 732,
         "emotes": {
           "❤": 9,
           "🙌": 5,
@@ -6384,8 +6384,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784876640401,
   "auth": {
-    "accessToken": "6ed82013dd010ae759eda26f0405d03b",
-    "refreshToken": "addbe0d521668445718ed67442a48928",
+    "accessToken": "712aeff6247e6b22161026a5dc138b9e",
+    "refreshToken": "de2bee02f2e69cf1d9f9a840bdd884a7",
     "sessionToken": "70081a7f7d36c267784f5ec29d7dba37",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
