@@ -277,7 +277,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 159,
+        "totalChatMessages": 160,
         "totalStreamMinutes": 0,
         "emotes": {
           "🪙": 3,
@@ -346,7 +346,7 @@
           "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784883842771
+        "lastChatAt": 1784885642795
       },
       "chatMemory": [
         {
@@ -2135,8 +2135,8 @@
       "stats": {
         "totalVotes": 1629,
         "totalSubs": 8,
-        "totalChatMessages": 590,
-        "totalStreamMinutes": 2458,
+        "totalChatMessages": 592,
+        "totalStreamMinutes": 2477,
         "emotes": {
           "✨": 10,
           "🖥": 15,
@@ -2261,18 +2261,10 @@
           "🦜": "🦜",
           "🤵": "🤵"
         },
-        "lastChatAt": 1784885171356,
+        "lastChatAt": 1784885784665,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "👑 [SUB ALERT]: HUGE hype! @grindingdragon just locked in a Tier 1 sub for month 1! Thank you for keeping the dream alive!"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "LFG @grindingdragon"
-        },
         {
           "user": "agent00zani",
           "msg": "🥰"
@@ -2304,6 +2296,14 @@
         {
           "user": "grindingdragon",
           "msg": "Hello"
+        },
+        {
+          "user": "tarzan",
+          "msg": "Zero my hero"
+        },
+        {
+          "user": "tarzan",
+          "msg": "Hi @grindingdragon"
         }
       ],
       "customCommands": {},
@@ -6267,8 +6267,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784876640401,
   "auth": {
-    "accessToken": "f32b5a69c740b7a9e0dca62a2255565d",
-    "refreshToken": "4579c871af453bb28dffdf8b36b6fc7a",
+    "accessToken": "45782cc0cbc1e59bbc0146e63e0add03",
+    "refreshToken": "a66a195a49e1c945f14bfe5f25af0668",
     "sessionToken": "70081a7f7d36c267784f5ec29d7dba37",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
