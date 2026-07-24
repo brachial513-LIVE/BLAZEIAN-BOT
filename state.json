@@ -2135,7 +2135,7 @@
       "stats": {
         "totalVotes": 1654,
         "totalSubs": 8,
-        "totalChatMessages": 611,
+        "totalChatMessages": 612,
         "totalStreamMinutes": 2537,
         "emotes": {
           "✨": 10,
@@ -2263,14 +2263,10 @@
           "🤵": "🤵",
           "🎩": "🎩"
         },
-        "lastChatAt": 1784890005966,
+        "lastChatAt": 1784890540097,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "💃💃💃"
-        },
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 25 votes, @future42! Your support is truly appreciated! 🙌"
@@ -2306,6 +2302,10 @@
         {
           "user": "cachebot",
           "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
+        },
+        {
+          "user": "tarzan",
+          "msg": "Ggs"
         }
       ],
       "customCommands": {},
@@ -5875,7 +5875,7 @@
       "language": "en",
       "joinedAt": 1784483241580,
       "stats": {
-        "totalVotes": 972,
+        "totalVotes": 980,
         "totalSubs": 87,
         "totalChatMessages": 7,
         "totalStreamMinutes": 393,
@@ -6065,8 +6065,8 @@
       "stats": {
         "totalVotes": 98,
         "totalSubs": 0,
-        "totalChatMessages": 59,
-        "totalStreamMinutes": 539,
+        "totalChatMessages": 62,
+        "totalStreamMinutes": 566,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -6096,21 +6096,9 @@
           "🚨": "🚨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784889789259
+        "lastChatAt": 1784890648624
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "i am good thank you so much"
-        },
-        {
-          "user": "guney",
-          "msg": "kind of off day"
-        },
-        {
-          "user": "guney",
-          "msg": "i will play mostly"
-        },
         {
           "user": "guney",
           "msg": "what about you?"
@@ -6138,6 +6126,18 @@
         {
           "user": "sinnerz",
           "msg": "akşam 8 de"
+        },
+        {
+          "user": "guney",
+          "msg": "did you play BR1 infinite"
+        },
+        {
+          "user": "guney",
+          "msg": "@sinnerz"
+        },
+        {
+          "user": "guney",
+          "msg": "another web3 game"
         }
       ],
       "customCommands": {},
@@ -6249,37 +6249,75 @@
       "stats": {
         "totalVotes": 5,
         "totalSubs": 0,
-        "totalChatMessages": 4,
-        "totalStreamMinutes": 0,
+        "totalChatMessages": 17,
+        "totalStreamMinutes": 21,
         "emotes": {
-          "❤": 2,
-          "🙌": 1,
-          "🗳": 3
+          "❤": 4,
+          "🙌": 2,
+          "🗳": 3,
+          "🔴": 1,
+          "🎉": 1,
+          "🏃": 1,
+          "♂": 1,
+          "💨": 1,
+          "😶": 2,
+          "🌫": 2
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
-          "🗳": "🗳"
+          "🗳": "🗳",
+          "🔴": "🔴",
+          "🎉": "🎉",
+          "🏃": "🏃",
+          "♂": "♂",
+          "💨": "💨",
+          "😶": "😶",
+          "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784888743516
+        "lastChatAt": 1784891620207
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
-        },
-        {
           "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+          "msg": "❤️ NEW FOLLOWER!! ❤️ halukkskn just followed the channel! Welcome!! 🙌"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @Sheena!"
+          "user": "desirablebottom",
+          "msg": "Mecca?"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Sheena just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+          "user": "desirablebottom",
+          "msg": "whats this Noxxxx"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "your zooming around"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "🏃‍♂️💨"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "are there different ones or different attachments you can put on your character?"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "you can show me after the match if you want"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "0 builds"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "hmmmm find it!"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "😶‍🌫️😶‍🌫️"
         }
       ],
       "customCommands": {},
@@ -6290,7 +6328,9 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
+      "followed": true,
+      "streamTitle": "A mostly sober stream about stuff — IRL"
     }
   },
   "blocklist": [
@@ -6319,8 +6359,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784876640401,
   "auth": {
-    "accessToken": "1e9df075459f7b3e94596de04d227e5e",
-    "refreshToken": "cdacda12a29aacba1992aa084eb8a23f",
+    "accessToken": "c6873a0a328e023940684ae5cd7e962c",
+    "refreshToken": "00980bde1c5c19f392f669df7bb7e734",
     "sessionToken": "70081a7f7d36c267784f5ec29d7dba37",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
