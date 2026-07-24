@@ -2136,7 +2136,7 @@
         "totalVotes": 1629,
         "totalSubs": 8,
         "totalChatMessages": 595,
-        "totalStreamMinutes": 2501,
+        "totalStreamMinutes": 2504,
         "emotes": {
           "✨": 10,
           "🖥": 15,
@@ -3115,7 +3115,7 @@
       "stats": {
         "totalVotes": 3088,
         "totalSubs": 15,
-        "totalChatMessages": 369,
+        "totalChatMessages": 370,
         "totalStreamMinutes": 1683,
         "emotes": {
           "❤": 25,
@@ -3208,13 +3208,9 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784760110990
+        "lastChatAt": 1784887877805
       },
       "chatMemory": [
-        {
-          "user": "skyasin0077",
-          "msg": "Hello @noodles 👋👋"
-        },
         {
           "user": "skyasin0077",
           "msg": "Hello @zoob_21 👋👋"
@@ -3250,6 +3246,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "vitrene",
+          "msg": "test"
         }
       ],
       "customCommands": {},
@@ -6063,15 +6063,15 @@
       "stats": {
         "totalVotes": 98,
         "totalSubs": 0,
-        "totalChatMessages": 45,
+        "totalChatMessages": 46,
         "totalStreamMinutes": 503,
         "emotes": {
           "❤": 4,
           "🙌": 1,
           "📴": 5,
           "👋": 5,
-          "🔴": 3,
-          "🎉": 4,
+          "🔴": 4,
+          "🎉": 5,
           "🔥": 3,
           "🗳": 9,
           "😀": 1,
@@ -6094,13 +6094,9 @@
           "🚨": "🚨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784844850732
+        "lastChatAt": 1784887983796
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 guney is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "xeukuxaixang",
           "msg": "wassup guney jr."
@@ -6136,6 +6132,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 guney is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -6147,7 +6147,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0ed76298-e9ef-4bc3-8291-482815414931.gif",
-      "streamTitle": "",
+      "streamTitle": "OTG time — Art",
       "gameOverride": "",
       "followed": true,
       "profile": "guney's community is a fire squad of Blaze enthusiasts, known for their energetic \"🔥🔥🔥\" reactions and love for testing new games. We're a tight-knit crew who \"help guney test his game\" and shower him with love when he succeeds. Tip him a buck and he'll send it back, and we all cheer for \"Reveal The Art game test\" victories.",
@@ -6239,6 +6239,28 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dd930668-5bab-4b93-ba23-cf1acb8a4199.png",
       "streamTitle": "",
       "gameOverride": ""
+    },
+    "3608d1ce-2597-48b3-9d01-51ba55d16d4d": {
+      "username": "noxx",
+      "language": "en",
+      "joinedAt": 1784887997966,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "timedMessages": [],
+      "tipTiers": [],
+      "greeted": true
     }
   },
   "blocklist": [
