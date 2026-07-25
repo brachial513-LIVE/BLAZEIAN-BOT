@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 2008,
         "totalSubs": 9,
-        "totalChatMessages": 896,
+        "totalChatMessages": 900,
         "totalStreamMinutes": 632,
         "emotes": {
           "❤": 44,
@@ -122,7 +122,7 @@
           "😎": "😎"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784871034627
+        "lastChatAt": 1784977519658
       },
       "chatMemory": [
         {
@@ -255,10 +255,12 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 3,
+        "totalChatMessages": 4,
         "totalStreamMinutes": 0,
         "emotes": {},
-        "emoteNames": {}
+        "emoteNames": {},
+        "lastChatAt": 1784977251336,
+        "sendFailStreak": 0
       },
       "chatMemory": [
         {
@@ -849,8 +851,8 @@
       "stats": {
         "totalVotes": 823,
         "totalSubs": 11,
-        "totalChatMessages": 822,
-        "totalStreamMinutes": 2129,
+        "totalChatMessages": 828,
+        "totalStreamMinutes": 2149,
         "emotes": {
           "📊": 3,
           "🔥": 108,
@@ -862,7 +864,7 @@
           "😊": 2,
           "👋": 1,
           "🚀": 5,
-          "🦊": 63,
+          "🦊": 66,
           "😂": 12,
           "👑": 27,
           "⭐": 8,
@@ -1014,25 +1016,9 @@
           "🥺": "🥺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784976222730
+        "lastChatAt": 1784977459168
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "hugs for boss"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Nooo kill him haha"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Get those fox coins 🤣"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@princessjamesy attacked Cyber Fox Dragon for 30 damage and earned 15 FoxCoins! Boss HP: 233/500. Your total boss damage: 147. Balance: 49 FoxCoins."
-        },
         {
           "user": "foxbotai",
           "msg": "Thank you @💚 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 18 FoxCoins."
@@ -1056,6 +1042,22 @@
         {
           "user": "foxbotai",
           "msg": "🎁 @crypt0k1ng96 just gifted 1 sub(s)! Huge Fox Den energy!"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🦊 FoxBot commands: !connect, !profile, !rank, !disconnect, !help"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🦊 @crypt0k1ng96 FoxBot Owner Profile | Status: connected | Role: Channel Owner | Commands: !connect, !profile, !rank, !help"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🦊 @crypt0k1ng96 FoxBot Profile | Status: connected | FoxCoins: 50 | Messages: 2 | Stars: 0"
         }
       ],
       "customCommands": {},
@@ -1065,8 +1067,8 @@
       "locked": false,
       "followed": true,
       "streamTitle": "VIBE CODING FOXBOT 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — IRL",
-      "profile": "High-energy IRL streams with lively chat, playful joking, and celebratory vibes (🔥, 💚). Community loves \"GM GM\", \"Blaze it\", \"RAID LOVE\", \"KINTARA\" (post-breakfast tradition), \"LEGEND ALERT\", and \"Fox Spirits\" appreciation. Expect Wilder World game nights, FoxBot-powered battles, and the Blaze Builder Challenge, fueled by community celebrations and rewards.",
-      "_profileAtCount": 732,
+      "profile": "High-energy IRL streams with lively chat, playful joking, and celebratory vibes (🔥, 💚). Community loves \"GM GM\", \"Blaze it\", \"RAID LOVE\", \"KINTARA\" (post-breakfast tradition), \"LEGEND ALERT\", and \"Fox Spirits\" appreciation. Expect Wilder World game nights, FoxBot-powered battles, and the Blaze Builder Challenge, fueled by community celebrations and rewards. \"Blaze it\" and get those FoxCoins!",
+      "_profileAtCount": 822,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b0561010-9481-4f1e-a8ec-e56599bc3d49.jpg"
     },
@@ -2359,10 +2361,12 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 1,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
         "emotes": {},
-        "emoteNames": {}
+        "emoteNames": {},
+        "lastChatAt": 1784977386682,
+        "sendFailStreak": 0
       },
       "chatMemory": [],
       "customCommands": {},
@@ -6163,7 +6167,7 @@
         "totalVotes": 245,
         "totalSubs": 0,
         "totalChatMessages": 144,
-        "totalStreamMinutes": 783,
+        "totalStreamMinutes": 803,
         "emotes": {
           "❤": 11,
           "🙌": 6,
