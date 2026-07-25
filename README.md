@@ -24,6 +24,8 @@ BlazeianBot isn't a canned-response bot — it actually reads what people say an
 - **Self-learning channel profiles** — the bot quietly picks up on each community's own slang and vibe over time, so it sounds like a regular, not a guest
 - **Automatic follow-back & channel onboarding** — one `!join` (or one follow) sets a streamer up completely, including followers-only chat access
 - **Personal opt-out** — anyone can type `!ignoreme` to stop the bot replying to them specifically, in any channel, no streamer involvement needed
+- **Person memory** — the bot recognises crew streamers everywhere automatically, and quietly builds up short notes on the regulars it talks to, so it knows who it's speaking to without anyone maintaining a list
+- **Setup nudges** — once per channel, on a quiet moment, it offers the owner a feature they haven't set up yet instead of waiting to be read about
 
 Every streamer manages only their own channel from their own dashboard — the bot never mixes context between channels.
 
