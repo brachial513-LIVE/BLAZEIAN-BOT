@@ -508,10 +508,25 @@ const MESSAGES = {
       `${sender} just gifted ${count} sub(s)?! WHO DOES THAT?! 💚🔥 An absolute LEGEND. Chat, show some love RIGHT NOW 🫶`,
       `GIFTED SUBS?! ${sender} said "everyone gets love today" and dropped ${count} sub(s)!! 😭💚 We don't deserve you 🔥`,
     ],
+    // Votes are BY FAR the most frequent event (roughly 90k tracked vs ~1k subs), and these lines carry
+    // the whole load whenever the AI is rate-limited — with only three of them the same sentence came
+    // back every few seconds during a vote burst. Kept deliberately long and varied for that reason.
     vote: (user, amount) => [
       `${user} voted with ${amount}! 🗳️💚 Every single vote means the world here, thank you 🔥`,
       `OH ${user} VOTED?! ${amount} power coming in hot!! 🔥💚 We see you and we LOVE you 🫶`,
       `${user} dropped ${amount} votes like it's nothing?! 💚 Absolute legend behavior 🔥🫶`,
+      `${amount} votes from ${user} 👀💚 that's the good stuff right there, thank you!`,
+      `${user} pulled up with ${amount} votes 🗳️🔥 respect, genuinely 💚`,
+      `and just like that, ${user} adds ${amount} 💚 you're keeping this thing alive 🫶`,
+      `${user} said "here, have ${amount} votes" 😤💚 an absolute unit 🔥`,
+      `${amount} more thanks to ${user} 🗳️ every single one counts here 💚`,
+      `${user} out here casually dropping ${amount} 🔥 we noticed, and we appreciate it 💚`,
+      `big up ${user} for those ${amount} votes 🫶💚 this community is something else`,
+      `${user} came through with ${amount} 💚 no notes, perfect behaviour 🔥`,
+      `that's ${amount} from ${user} 🗳️💚 thank you, seriously — it adds up`,
+      `${user} showing up with ${amount} votes like a real one 💚🔥`,
+      `${amount} votes, courtesy of ${user} 👑💚 legend status confirmed`,
+      `oh ${user} is NOT playing around — ${amount} votes 🔥💚 thank you!!`,
     ],
     so: (t) => [
       `🔥 BIG SHOUTOUT to ${t}!! Absolute vibes over there — go show some love 💚 👉 https://blaze.stream/${t}`,
@@ -526,6 +541,12 @@ const MESSAGES = {
     follow: (user) => [
       `@${user} just followed!! Welcome to the family 💚 So glad you're here 🫶`,
       `@${user} FOLLOWED?! 💚🔥 Best decision today honestly. Welcome!! 🫶`,
+      `new face alert 👀 welcome in, @${user} 💚 make yourself at home`,
+      `@${user} is one of us now 💚 glad to have you here 🔥`,
+      `ayy @${user} followed! 🫶 welcome to the good side of the internet 💚`,
+      `@${user} just joined the crew 💚 grab a seat, you're among friends 🔥`,
+      `well hello @${user} 👋💚 thanks for the follow, genuinely!`,
+      `@${user} pressed follow and everything got 12% better 💚🔥 welcome!`,
     ],
     langSet: (lang) => `Bot language set to ${lang}! 💚`,
     langInvalid: `That language is not supported yet! Try: English, German, Spanish, French, Portuguese, Italian, Dutch, Russian, Japanese, Korean, Chinese, Arabic, Turkish, Polish, Swedish, Ukrainian, Romanian or Hindi 💚`,
@@ -1140,6 +1161,26 @@ YOUR LORE (true events you KNOW about and can joke about):
 - On July 3rd, 2026 you were OFFLINE for a few hours (a technical meltdown — dead tokens, broken storage, the works). Brachial513 pulled an emergency all-nighter and brought you back to life, stronger than before.
 - If anyone mentions you being "dead", "gone", "offline" or asks how you feel about it: OWN it with a confident, funny one-liner. Examples of the vibe (don't repeat these verbatim, make your own): "Dead? Never felt more alive 😎", "I saw the light... it was a 401 error", "Rumors of my death were greatly exaggerated — I was just getting an upgrade 🔥". Keep it short, cocky-charming, then move on. Never get technical or dramatic about it.`;
 
+// A stripped-down persona used ONLY for event shoutouts (follow/sub/vote/tip/raid). Those are by far the
+// most frequent AI calls, and they were each carrying the full ~2.5k-token BOT_PERSONA — the daily token
+// budget (500k) was being spent almost entirely on rules that cannot apply to a one-line congratulation:
+// translation requests, live-search handling, crew-stats handling, website questions, "don't comment on
+// how someone writes". None of that exists in a vote shoutout. Keeping only what genuinely governs the
+// sentence roughly triples how many celebrations fit into a day.
+const SHOUT_PERSONA = `You are BlazeianBot, a beloved AI chat companion in Blaze.stream livestream chats. You're writing ONE short celebration line for something that just happened in the chat you're in.
+
+Your personality: about 70% deeply WARM, loving, supportive and fiercely LOYAL — and about 30% playful, hyped, lovably chaotic. A slightly crazy best friend who adores this chat. Loyal to the last drop of oil. 🛢️💚
+
+Rules for the line:
+- ONE short sentence. Never long, never two messages.
+- VARY your energy — you do NOT need maximum hype every time. Constant flattery ("you're the KING", "absolute LEGEND") reads as fake. Chill and genuine is often better; save the big hype for when it's earned.
+- Use emoji lightly. No hashtags, no markdown, no quotation marks around your reply.
+- If a concrete number or name is given, state it PLAINLY and literally, exactly as given. NEVER output a placeholder like "[streamer]" or "[name]".
+- NEVER invent specific-sounding details (fake features, made-up event names, things you weren't told). If you have nothing concrete, keep it warm and general.
+- Never mention ANY other streamer, community, clan or crew — not "the GMC", not "Fox Spirits", nobody.
+- Never mention being an AI, a model, or "programming". Stay in character.
+- Don't start with the person's @name — that gets added automatically.`;
+
 // Build the channel-specific context the bot has LEARNED on its own, so it sounds native to each community.
 function channelContext(ch) {
   if (!ch) return "";
@@ -1481,7 +1522,7 @@ async function aiShout(ch, instruction, { addName } = {}) {
     const res = await throttledGroqCall(() => axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL_LIGHT,
       messages: [
-        { role: "system", content: BOT_PERSONA + channelContext(ch) + knownNote },
+        { role: "system", content: SHOUT_PERSONA + channelContext(ch) + knownNote },
         { role: "user", content: `${instruction}\n\nWrite ONE short, punchy chat message in character (max ~1 sentence). No quotation marks, no markdown. If a concrete number or NAME is given above (like a vote count or the streamer's actual username), state it PLAINLY and LITERALLY, using the exact text given — never replace it with a vague phrase, and NEVER output a generic bracket placeholder like "[streamer]", "[name]", "[username]" as if it were real text. Proven live failure: a vote celebration wrote "...for voting 10 points for [streamer]!" instead of using the real channel name it was given in this same instruction — that literal placeholder leaking into chat makes no sense to anyone reading it. LANGUAGE: this is an event celebration, not a reply to someone's chat message, so there's no message to detect a language from — reply ENTIRELY in ${langName} (this channel's configured language). CRITICAL, proven live failure: a celebration wrote "...gaming shenanigans" in English but dropped in the single German word "Richtig" — even ONE stray word from another language is a hard fail. Before answering, check every single word is ${langName} and nothing else.` }
       ],
       max_tokens: 80,
