@@ -1368,10 +1368,10 @@
       "stats": {
         "totalVotes": 3964,
         "totalSubs": 20,
-        "totalChatMessages": 2066,
-        "totalStreamMinutes": 6560,
+        "totalChatMessages": 2069,
+        "totalStreamMinutes": 6565,
         "emotes": {
-          "❤": 78,
+          "❤": 79,
           "🙌": 55,
           "🗳": 246,
           "📴": 57,
@@ -1382,8 +1382,8 @@
           "🤗": 22,
           "💎": 5,
           "🎁": 39,
-          "📢": 22,
-          "🔥": 180,
+          "📢": 23,
+          "🔥": 182,
           "😘": 22,
           "🥺": 7,
           "🥷": 9,
@@ -1530,18 +1530,10 @@
           "😳": "😳",
           "🐐": "🐐"
         },
-        "lastChatAt": 1785009490760,
+        "lastChatAt": 1785009657622,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "| 🎰 Sub Raffle LIVE | 🏆 140 Votes + 🤗 Hugs"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "@blazeian_bot_ai 🥺how you today ?"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "🔥🔥🔥"
@@ -1573,6 +1565,14 @@
         {
           "user": "itssscat",
           "msg": "Hiyaa! Im here lurking!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "HI HI @itssscat"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @briggsy, streamer of Farlight 84! 🔥 Make sure to check out https://blaze.stream/briggsy and show some support ❤️‍🔥"
         }
       ],
       "customCommands": {},
@@ -6074,7 +6074,7 @@
       "stats": {
         "totalVotes": 312,
         "totalSubs": 0,
-        "totalChatMessages": 4026,
+        "totalChatMessages": 4055,
         "totalStreamMinutes": 950,
         "emotes": {
           "❤": 6,
@@ -6083,7 +6083,7 @@
           "🔥": 3,
           "🔴": 7,
           "🎉": 21,
-          "🪙": 91,
+          "🪙": 92,
           "⚡": 21,
           "👀": 7,
           "🍿": 2,
@@ -6116,7 +6116,8 @@
           "💤": 1,
           "💚": 2,
           "🫡": 1,
-          "🦆": 1
+          "🦆": 1,
+          "🆘": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -6158,51 +6159,52 @@
           "💤": "💤",
           "💚": "💚",
           "🫡": "🫡",
-          "🦆": "🦆"
+          "🦆": "🦆",
+          "🆘": "🆘"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785009516813
+        "lastChatAt": 1785009816070
       },
       "chatMemory": [
         {
-          "user": "sarinhaa11",
-          "msg": "nilo"
+          "user": "solucao",
+          "msg": "Cortou o cabelo"
         },
         {
           "user": "solucao",
-          "msg": "Nilao foi dormir"
+          "msg": "Lipão"
         },
         {
-          "user": "botger",
-          "msg": "Doações Live pix: https://livepix.gg/maniadk"
+          "user": "lipeman",
+          "msg": "kkkkkk"
         },
         {
-          "user": "botger",
-          "msg": "🪙 @solucao 18,680 points."
-        },
-        {
-          "user": "sarinhaa11",
-          "msg": "rechi da onde vc so apanha? a gente ver tu si mitando  kkkkk"
+          "user": "lipeman",
+          "msg": "bora"
         },
         {
           "user": "sarinhaa11",
-          "msg": "so"
+          "msg": "kkkkkkkkkkkkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "sim"
         },
         {
           "user": "sarinhaa11",
-          "msg": "kkkkk"
-        },
-        {
-          "user": "sarinhaa11",
-          "msg": "kkkkk"
+          "msg": "ta certo"
         },
         {
           "user": "solucao",
-          "msg": "Vamos Sarinha"
+          "msg": "Zezinho universitário sumiu"
         },
         {
-          "user": "sarinhaa11",
-          "msg": "infinitaaaaaaaaaaa"
+          "user": "lipeman",
+          "msg": "depois eu vejo o jogo do Mauh"
+        },
+        {
+          "user": "lipeman",
+          "msg": "eu tive que sair"
         }
       ],
       "customCommands": {},
@@ -6664,8 +6666,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784982888733,
   "auth": {
-    "accessToken": "af377cc2cfc13e3f42c2e2cb43f64840",
-    "refreshToken": "eb35e3c1d51c2aec7a747c1d622f579b",
+    "accessToken": "2516bd6831425bd06680ac26bbc2b8b2",
+    "refreshToken": "57f2d19f33b61ef84f3047486604d4c0",
     "sessionToken": "7edb6a1affa5d12ccb632dd298c05124",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
