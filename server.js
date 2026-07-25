@@ -455,6 +455,10 @@ function channelStatusDetail(ch) {
   if (s.recoveredAt) {
     parts.push(`✅ Reachable again since ${timeAgo(s.recoveredAt)}${s.recoveredFrom ? ` (was failing ×${s.recoveredFrom})` : ""}`);
   }
+  // One-click live check — turns "they claim they unbanned me" into a yes/no in two seconds.
+  if ((s.sendFailStreak || 0) > 0) {
+    parts.push(`<a href="/admin/testsend/${encodeURIComponent(ch.username)}" target="_blank" style="color:#7CFC9A;">▶ test right now</a>`);
+  }
   return parts.join("<br>");
 }
 
@@ -1509,6 +1513,11 @@ async function maybeNudgeOwner(channelId, speaker) {
   if (ch.nudgedAt) return;                                   // one per channel, ever
   if (speaker.toLowerCase() !== ch.username.toLowerCase()) return;  // only to the owner, while they're here
   if (!ch.profile) return;                                   // bot hasn't settled into this channel yet
+  // Four streamers have now banned the bot for being too chatty. Anyone who set a quieter mode, or who
+  // has ever blocked the bot, has already told us what they want — an unprompted tip is the last thing
+  // they need, however well meant. Silence is the correct behaviour there.
+  if (ch.commentMode === "low") return;
+  if ((ch.stats?.sendFailStreak || 0) > 0 || ch.stats?.recoveredAt) return;
   if (ch.joinedAt && Date.now() - ch.joinedAt < 3 * 86400000) return; // give it a few days first
   if (!chatIsQuiet(channelId)) return;                       // never interrupt a lively chat
   if (onCooldown(channelId, "nudge", 3600000)) return;
@@ -3574,6 +3583,25 @@ app.get("/admin/remove/:username", async (req, res) => {
 });
 
 // KICK + BAN a troll: remove their channel, unfollow them, and block them from ever re-joining or triggering follow-back.
+// Ground truth on demand: is the bot able to post in this channel RIGHT NOW? The health board can only
+// report the last time something was tried, which lags reality — a streamer who says "I unbanned you"
+// leaves the old flag standing until the next event happens to fire. This posts one real (invisible-ish)
+// message and reports exactly what Blaze answers, so a claim can be checked in seconds instead of guessed at.
+app.get("/admin/testsend/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const uname = req.params.username;
+  const channelId = findChannelByUsername(uname);
+  if (!channelId) return res.send(`<pre>Channel "${esc(uname)}" not found.</pre>`);
+  const ch = channels[channelId];
+  const before = ch.stats.sendFailStreak || 0;
+  const ok = await sendChatOnce(channelId, "💚");
+  const s = ch.stats;
+  const verdict = ok
+    ? `✅ WORKS — the bot CAN post in ${esc(ch.username)}'s channel right now.\n   Any earlier block has been lifted.`
+    : `❌ BLOCKED — Blaze refused the message just now.\n   Reason: "${esc(s.lastSendFailReason || "unknown")}"\n   This is live, not cached: the attempt happened seconds ago.`;
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">Test send to ${esc(ch.username)} — ${new Date().toISOString().slice(0,16).replace("T"," ")} UTC\n\n${verdict}\n\nFailure streak before this test: ${before}\nFailure streak now: ${s.sendFailStreak || 0}\n\n<a href="/admin">← back to admin</a></pre>`);
+});
+
 app.get("/admin/kick/:username", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const uname = req.params.username;
