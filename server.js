@@ -2588,7 +2588,8 @@ function renderControlCenter() {
     </form>
   </div>
   ${renderActivityLeaderboard()}
-  ${renderPeopleSection()}`;
+  ${renderPeopleSection()}
+  ${renderLearnedPeopleSection()}`;
 }
 
 // Permanent, always-live "who's actually using Blazeian" leaderboard for the admin panel — ranks every
@@ -2705,6 +2706,39 @@ function renderPeopleSection() {
       <textarea name="desc" rows="3" placeholder="e.g. NadieTV — Fox Spirits member, plays Arc Raiders, big into the GMC. An old friend of the crew." required></textarea>
       <button class="save" style="margin-top:8px;">Add / update person</button>
     </form>
+    <div style="margin-top:14px;">${rows}</div>
+  </div>`;
+}
+
+// What the bot has worked out about people ON ITS OWN — the counterpart to the hand-written list above.
+// Worth seeing rather than trusting blindly: these notes go into real replies, so a wrong or awkward one
+// should be removable, and a genuinely good one is worth promoting into the curated list where it can't
+// be overwritten by later guesses.
+function renderLearnedPeopleSection() {
+  const entries = Object.entries(learnedPeople)
+    .sort((a, b) => (b[1].at || 0) - (a[1].at || 0));
+  const rows = entries.map(([name, e]) => `
+    <div class="cmd">
+      <form method="POST" action="/admin/dellearned" class="delform" style="display:inline;">
+        <input type="hidden" name="name" value="${esc(name)}">
+        <button class="del">forget</button>
+      </form>
+      <b>@${esc(name)}</b>
+      <span class="tag" style="background:#2c7a4a;color:#eaffea;">learned</span>
+      ${knownPeople[name] ? '<span class="tag">also curated</span>' : ""}
+      <span style="color:#8aa89a;font-size:11px;margin-left:6px;">updated ${timeAgo(e.at)} · rewritten ${e.n || 1}×</span>
+      <div class="cmdtext">${esc(e.note)}</div>
+      ${knownPeople[name] ? "" : `<form method="POST" action="/admin/addperson" style="margin-top:6px;">
+        <input type="hidden" name="name" value="${esc(name)}">
+        <input type="hidden" name="desc" value="${esc(e.note)}">
+        <button class="save" style="padding:4px 10px;font-size:12px;background:#2c7a4a;">promote to curated ↑</button>
+      </form>`}
+    </div>`).join("") || "<i class='muted'>Nothing learned yet — the bot needs to see someone chat a fair bit first (15+ messages), then it writes a note within ~11 minutes.</i>";
+
+  return `
+  <h2>🧠 What Blazeian Figured Out Himself <span style="font-size:13px;color:#8aa;">— ${entries.length} ${entries.length === 1 ? "person" : "people"}</span></h2>
+  <div class="card">
+    <p class="hint" style="margin-top:0;">These notes are written by the bot from what people actually say about themselves — nobody types them. They're used in replies, ranked BELOW your curated entries above, so anything you write by hand always wins. <b>Forget</b> deletes a note (he may learn it again later); <b>promote</b> copies it into your curated list, where it's permanent and he'll stop guessing.</p>
     <div style="margin-top:14px;">${rows}</div>
   </div>`;
 }
@@ -3657,6 +3691,12 @@ app.post("/admin/addperson", async (req, res) => {
   const name = String(req.body.name || "").trim().toLowerCase().replace(/^@/, "");
   const desc = String(req.body.desc || "").trim().slice(0, 600);
   if (name && desc) { knownPeople[name] = desc; await saveChannelsToCloud(); }
+  res.redirect("/admin");
+});
+app.post("/admin/dellearned", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden");
+  const name = String(req.body.name || "").trim().toLowerCase().replace(/^@/, "");
+  if (name && learnedPeople[name]) { delete learnedPeople[name]; await saveChannelsToCloud(); }
   res.redirect("/admin");
 });
 app.post("/admin/delperson", async (req, res) => {
