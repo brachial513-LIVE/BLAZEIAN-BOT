@@ -847,13 +847,13 @@
       "stats": {
         "totalVotes": 820,
         "totalSubs": 9,
-        "totalChatMessages": 737,
-        "totalStreamMinutes": 1863,
+        "totalChatMessages": 740,
+        "totalStreamMinutes": 1873,
         "emotes": {
           "📊": 3,
           "🔥": 99,
           "🤣": 7,
-          "💚": 32,
+          "💚": 33,
           "❤": 2,
           "😜": 1,
           "✌": 3,
@@ -1008,17 +1008,9 @@
           "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784960222004
+        "lastChatAt": 1784960530708
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "Thank you @Yaaaaay for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 3 FoxCoins."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "LEGEND ALERT: @LEGEND gifted 1 subs! Everyone show some love. +500 FoxCoins. Balance: 500 FoxCoins."
-        },
         {
           "user": "fluffy",
           "msg": "hey hey"
@@ -1050,6 +1042,14 @@
         {
           "user": "crypt0k1ng96",
           "msg": "🦊 FOXBOT CHALLENGE: Set up FoxBot on your Blaze channel and earn $5 in Blaze!\n\n✅ Register your channel\n✅ Add @foxbotai as a moderator\n✅ Test it with !help\n✅ Send me your channel so I can verify it\n\nStart here: https://foxbot-ai-chatbot.onrender.com\n\nComplete the setup, get FoxBot working, and claim your $5! 🔥"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Thank you @💚 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 9 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -2650,11 +2650,11 @@
       "stats": {
         "totalVotes": 356,
         "totalSubs": 9,
-        "totalChatMessages": 87,
+        "totalChatMessages": 88,
         "totalStreamMinutes": 1461,
         "emotes": {
           "💃": 9,
-          "🔥": 3,
+          "🔥": 5,
           "😶": 3,
           "🌫": 3,
           "✌": 1,
@@ -2683,13 +2683,9 @@
           "👀": "👀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784933866909
+        "lastChatAt": 1784960519964
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "it was not the skin but was a profile pic"
-        },
         {
           "user": "agent00zani",
           "msg": "all good"
@@ -2725,6 +2721,10 @@
         {
           "user": "agent00zani",
           "msg": "ty ty for votes bro"
+        },
+        {
+          "user": "killlab",
+          "msg": "🔥🔥"
         }
       ],
       "customCommands": {},
@@ -6548,8 +6548,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784901779351,
   "auth": {
-    "accessToken": "b9d343d2c75ea1c6ceb6dfc4ce02ad23",
-    "refreshToken": "97bc4a307e13ea8542123b9799bf4989",
+    "accessToken": "30b09972e386ee2ecea6955d83130e88",
+    "refreshToken": "8e481cd6daf3fa19b37ff924fda5fb78",
     "sessionToken": "0ad35642301ae89f59da640fc3a901e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
