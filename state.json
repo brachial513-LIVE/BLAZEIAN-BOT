@@ -2806,16 +2806,16 @@
       "stats": {
         "totalVotes": 2500,
         "totalSubs": 7,
-        "totalChatMessages": 1168,
-        "totalStreamMinutes": 3128,
+        "totalChatMessages": 1170,
+        "totalStreamMinutes": 3136,
         "emotes": {
           "❤": 21,
           "🙌": 26,
           "🗳": 117,
           "🔴": 21,
           "🎉": 34,
-          "📴": 19,
-          "👋": 19,
+          "📴": 20,
+          "👋": 20,
           "🔥": 22,
           "💪": 1,
           "🤖": 1,
@@ -2882,18 +2882,10 @@
           "😏": "😏",
           "🍀": "🍀"
         },
-        "lastChatAt": 1784948591614,
+        "lastChatAt": 1784952655646,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "corneto",
-          "msg": "what is the name of your class."
-        },
-        {
-          "user": "corneto",
-          "msg": "its like necro in diablo 2"
-        },
         {
           "user": "corneto",
           "msg": "ahahahaha so big"
@@ -2925,6 +2917,14 @@
         {
           "user": "corneto",
           "msg": "RMT?"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2933,7 +2933,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "❤️PoE2 grind!❤️ — Path Of Exile 2",
+      "streamTitle": "",
       "profile": "nadietv - Your go-to for gaming grind sessions & chill vibes! Expect \"Worthy Goal\" mindset, BLAZE magic, & no salt, no sugar. We're all about Path of Exile 2, grinding for that perfect gear! Let's get this grind on! GGs, Wheel & Song incoming. Ws for everyone! Pay it forward, Wheel & Song vibes only.",
       "_profileAtCount": 1168,
       "gameOverride": "",
@@ -5951,7 +5951,7 @@
         "totalVotes": 986,
         "totalSubs": 87,
         "totalChatMessages": 9,
-        "totalStreamMinutes": 482,
+        "totalStreamMinutes": 502,
         "emotes": {
           "🔥": 2
         },
