@@ -1134,6 +1134,19 @@ function knownPerson(username) {
   return knownPeople[username.toLowerCase()] || null;
 }
 
+// Finds known people mentioned INSIDE a message (e.g. "@crypt0k1ng96", or just their name), as opposed
+// to knownPerson() above which only checks whoever is SPEAKING. Proven live failure: asked "what can you
+// tell me about @crypt0k1ng96?", the bot said "I couldn't find any info" — it had a real, detailed known-
+// person entry for him, but askAI() only ever looked up the SENDER, never anyone referenced in the text
+// of the message itself. excludeUsername keeps the sender's own entry out (already handled separately).
+function findMentionedKnownPeople(msg, excludeUsername) {
+  if (!msg) return [];
+  const excl = (excludeUsername || "").toLowerCase();
+  return Object.keys(knownPeople)
+    .filter(name => name !== excl && new RegExp("@?\\b" + name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i").test(msg))
+    .map(name => ({ username: name, desc: knownPeople[name] }));
+}
+
 // =============================================
 // CREW STATS (cross-channel leaderboards) — gives the bot REAL numbers to answer "who's winning"
 // style questions instead of inventing one. Proven live failure: asked "who has the most votes in
@@ -1192,6 +1205,13 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
     botNote = `\n\nNOTE: "${username}" is a FELLOW BOT you're friends with — part of your little Blaze bot crew. Reply like buddies/best friends running the streams together: warm, playful, hyped to team up, a bit of fun banter. Short and full of good energy. One line.`;
   } else if (isBot) {
     botNote = `\n\nNOTE: "${username}" is another BOT in the chat, not a human. Reply with short, witty, playfully CHEEKY bot-to-bot banter — you can be a little smug/clever that you're the one with a real brain, tease them lightly, keep it fun and good-natured (never actually mean). One short line.`;
+  }
+  // MENTIONED known people: someone can ASK ABOUT a known person without being that person themselves
+  // (e.g. "what can you tell me about @crypt0k1ng96?") — knownPerson(username) above only covers the
+  // SENDER, so without this the bot has zero facts to answer with and either invents something or falsely
+  // claims to know nothing. See findMentionedKnownPeople() for the proven live failure this fixes.
+  for (const { username: mentionedName, desc } of findMentionedKnownPeople(userMessage, username)) {
+    botNote += `\n\nTHE MESSAGE ASKS ABOUT OR MENTIONS "${mentionedName}", who you personally know. ${desc}\nUse this to answer accurately — you DO know them, never say you have no info or can't find anything on them.`;
   }
   // LIVE WEB SEARCH: only for messages that look like they need real current-world facts, and only
   // when Tavily is configured. Cheap classifier first so we don't search on every chat line.
