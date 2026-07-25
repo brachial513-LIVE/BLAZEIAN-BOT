@@ -848,7 +848,7 @@
         "totalVotes": 820,
         "totalSubs": 10,
         "totalChatMessages": 758,
-        "totalStreamMinutes": 1973,
+        "totalStreamMinutes": 1978,
         "emotes": {
           "📊": 3,
           "🔥": 106,
@@ -1329,7 +1329,7 @@
       "stats": {
         "totalVotes": 3954,
         "totalSubs": 20,
-        "totalChatMessages": 2041,
+        "totalChatMessages": 2042,
         "totalStreamMinutes": 6348,
         "emotes": {
           "❤": 78,
@@ -1489,14 +1489,10 @@
           "😆": "😆",
           "😳": "😳"
         },
-        "lastChatAt": 1784910323853,
+        "lastChatAt": 1784966921606,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "ı am watching a movie Zani"
-        },
         {
           "user": "time",
           "msg": "thank you"
@@ -1532,6 +1528,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @KilllaB just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "00560 manabus novice EU server"
         }
       ],
       "customCommands": {},
@@ -6551,8 +6551,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784960925861,
   "auth": {
-    "accessToken": "27d0e0c55d0c7c013c8d9b98c0f5fbc5",
-    "refreshToken": "93c90795d70a7705c8864b534711b205",
+    "accessToken": "42c237c3d426f358d0838e123a8f677d",
+    "refreshToken": "e188ec7c6979d1e1029688d0e7216b71",
     "sessionToken": "0ad35642301ae89f59da640fc3a901e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
