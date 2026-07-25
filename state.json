@@ -847,8 +847,8 @@
       "stats": {
         "totalVotes": 820,
         "totalSubs": 9,
-        "totalChatMessages": 740,
-        "totalStreamMinutes": 1873,
+        "totalChatMessages": 741,
+        "totalStreamMinutes": 1888,
         "emotes": {
           "📊": 3,
           "🔥": 99,
@@ -860,7 +860,7 @@
           "😊": 2,
           "👋": 1,
           "🚀": 5,
-          "🦊": 54,
+          "🦊": 55,
           "😂": 12,
           "👑": 24,
           "⭐": 8,
@@ -1008,13 +1008,9 @@
           "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784960530708
+        "lastChatAt": 1784961314870
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "hey hey"
-        },
         {
           "user": "foxbotai",
           "msg": "RAID LOVE! Huge thanks to @LEGEND for bringing the community over. +250 FoxCoins. Balance: 750 FoxCoins."
@@ -1050,6 +1046,10 @@
         {
           "user": "foxbotai",
           "msg": "Thank you @💚 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 9 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🦊 FoxBot commands: !connect, !profile, !rank, !disconnect, !help"
         }
       ],
       "customCommands": {},
@@ -6517,7 +6517,8 @@
       "timedMessages": [],
       "tipTiers": [],
       "greeted": true,
-      "locked": false
+      "locked": false,
+      "followed": true
     }
   },
   "blocklist": [
@@ -6548,8 +6549,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784960925861,
   "auth": {
-    "accessToken": "30b09972e386ee2ecea6955d83130e88",
-    "refreshToken": "8e481cd6daf3fa19b37ff924fda5fb78",
+    "accessToken": "f659b08189b8adffb2a7aed3c4c5b749",
+    "refreshToken": "a780ea02f5abd701802f6a611f958f2c",
     "sessionToken": "0ad35642301ae89f59da640fc3a901e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
