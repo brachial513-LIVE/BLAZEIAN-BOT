@@ -2264,7 +2264,8 @@ function pageHead(title) {
   // Blaze or WhatsApp rendered as a bare URL — no image, no name, no crown. For a project built on
   // visual recognition that's the cheapest reach we were leaving on the table: now every share is a
   // branded card with Blazeian's face on it. Absolute URLs are required here — relative ones are ignored.
-  const OG_DESC = "Your loyal little chaos-gremlin on Blaze — a real AI agent that actually thinks, talks back in 18 languages, and hypes your whole stream. 100% free.";
+  // Kept under ~125 chars on purpose — longer descriptions get truncated mid-sentence on mobile previews.
+  const OG_DESC = "Your loyal chaos-gremlin on Blaze — a real AI agent that thinks, talks back in 18 languages & hypes your chat. Free.";
   const CROWN = `${SELF_URL}/crown.png`; // absolute — relative URLs are ignored by social-preview crawlers
   return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${title}</title>` +
     `<meta name="description" content="${esc(OG_DESC)}">` +
