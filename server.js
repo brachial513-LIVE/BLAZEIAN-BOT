@@ -1190,6 +1190,30 @@ function knownPerson(username) {
 let learnedPeople = {}; // lowercased username -> { note, at, n }
 const LEARNED_PEOPLE_MAX = 300; // hard cap so state.json can't grow unbounded
 
+// Topics the bot must never keep notes on. Kept as a filter on the OUTPUT rather than trusting the
+// instruction: it recorded someone's cannabis use and someone else's ancestry while both were already
+// forbidden in the prompt. A note is discarded whole if it touches any of these — half a note about
+// someone's health is not better than none.
+const SENSITIVE_NOTE_RE = new RegExp([
+  "weed|cannabis|marijuana|smok(e|es|ing)|vap(e|es|ing)|drug|stoner|high\\b|420",
+  "alcohol|drunk|beer|wine|booze|sober",
+  "ill(ness)?|sick|disease|diagnos|disorder|adhd|autis|depress|anxiet|therapy|medicat|meds\\b|disab|cancer|surgery|hospital",
+  "mental|psycholog|psychiat|trauma|burnout|neurodiver",
+  "gay|lesbian|bisexual|trans(gender)?|queer|sexuality|girlfriend|boyfriend|wife|husband|married|divorce|single\\b",
+  "muslim|christian|jewish|hindu|buddhis|religio|church|mosque|atheis",
+  "politic|left-wing|right-wing|conservative|liberal|vote[ds]? for",
+  "german|turkish|brazilian|ancestry|ethnic|nationality|immigrant|refugee",
+  "\\bage[ds]?\\b|years old|teenager|minor\\b|salary|unemploy|broke\\b|rich\\b|poor\\b",
+].join("|"), "i");
+
+// Cuts to a length without slicing a word in half — a note ending in "They value authe" reads as broken.
+function trimToWord(s, max) {
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max);
+  const at = Math.max(cut.lastIndexOf(" "), cut.lastIndexOf("."), cut.lastIndexOf(","));
+  return (at > max * 0.6 ? cut.slice(0, at) : cut).replace(/[\s,;:-]+$/, "") + "…";
+}
+
 function crewStreamerNote(username) {
   const cid = findChannelByUsername(username);
   if (!cid || cid === BOT_CHANNEL_ID) return null;
@@ -1233,6 +1257,7 @@ async function learnAboutPerson(username) {
   const key = username.toLowerCase();
   const samples = personSamples[key] || [];
   if (samples.length < 15) return;                       // not enough to say anything real
+  if (knownPeople[key]) return;                          // hand-written entry exists → yours wins, don't guess over it
   const prev = learnedPeople[key];
   if (prev && Date.now() - prev.at < 12 * 3600000) return; // at most twice a day per person
   if (!prev && Object.keys(learnedPeople).length >= LEARNED_PEOPLE_MAX) return;
@@ -1240,16 +1265,29 @@ async function learnAboutPerson(username) {
     const prompt = `Below are chat messages written BY one person ("${username}") on a livestream platform.\n\n` +
       `${samples.slice(-20).join("\n")}\n\n` +
       `Existing notes about them: ${prev?.note || "(none yet)"}\n\n` +
-      `Write MAX 25 words of durable, useful facts about this person — what they play, what they're into, ` +
-      `how they talk, anything they clearly stated about themselves. Merge with the existing notes and keep what still holds. ` +
-      `ONLY state what is genuinely supported by their messages. If nothing durable can be said, reply exactly: NOTHING. ` +
-      `No speculation about age, gender, location or anything personal they did not state themselves. Output only the notes.`;
+      `Write ONE short sentence (MAX 25 words, no bullet points, no lists) capturing what is useful to remember ` +
+      `about this person for friendly chat — the games they play, their interests, their humour. ` +
+      `Merge with the existing notes and keep what still holds.\n\n` +
+      `STRICTLY OFF LIMITS — never record, hint at or infer any of this, even if they mention it themselves:\n` +
+      `health or medical matters (illness, diagnoses, disabilities, medication, therapy), drugs, alcohol or smoking of any kind, ` +
+      `age, gender, sexuality, relationships, religion, politics, nationality, ethnicity or ancestry, location, job or money.\n` +
+      `These are private. A note that touches any of them is worse than no note at all.\n\n` +
+      `Only state what is plainly supported by their messages — no guessing. If nothing safe and durable can be said, ` +
+      `reply exactly: NOTHING. Output only the sentence itself.`;
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL_LIGHT, messages: [{ role: "user", content: prompt }], max_tokens: 90, temperature: 0.3,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 12000 });
     let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
     if (!text || /^nothing\b/i.test(text)) return;
-    learnedPeople[key] = { note: text.slice(0, 240), at: Date.now(), n: (prev?.n || 0) + 1 };
+    text = text.replace(/^(notes?|summary)\s*:\s*/i, "").replace(/^[-•*]\s*/gm, "").replace(/\s*\n\s*/g, " ").trim();
+    // Hard safety net: the instruction alone is not enough — it has produced notes about cannabis use and
+    // about someone's ancestry despite both being explicitly forbidden. Anything touching health, drugs or
+    // identity gets thrown away entirely rather than stored and later spoken aloud in someone's chat.
+    if (SENSITIVE_NOTE_RE.test(text)) {
+      console.log(`[PERSON] discarded a note about ${username} — touched a private topic`);
+      return;
+    }
+    learnedPeople[key] = { note: trimToWord(text, 220), at: Date.now(), n: (prev?.n || 0) + 1 };
     saveChannels();
     console.log(`[PERSON] ${username}: ${text.slice(0, 80)}…`);
   } catch (e) { console.log("[PERSON] error:", e.response?.data?.error?.message || e.message); }
