@@ -2260,7 +2260,20 @@ const PAGE_CSS = `<style>
 </style>`;
 
 function pageHead(title) {
-  return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${title}</title><link rel="icon" type="image/png" href="${MASCOT_URL}"><link rel="apple-touch-icon" href="${MASCOT_URL}">${PAGE_CSS}</head><body><div class="wrap">`;
+  // SOCIAL PREVIEW (Open Graph + Twitter Card): without these, every share of this link in Discord, X,
+  // Blaze or WhatsApp rendered as a bare URL — no image, no name, no crown. For a project built on
+  // visual recognition that's the cheapest reach we were leaving on the table: now every share is a
+  // branded card with Blazeian's face on it. Absolute URLs are required here — relative ones are ignored.
+  const OG_DESC = "Your loyal little chaos-gremlin on Blaze — a real AI agent that actually thinks, talks back in 18 languages, and hypes your whole stream. 100% free.";
+  const CROWN = `${SELF_URL}/crown.png`; // absolute — relative URLs are ignored by social-preview crawlers
+  return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${title}</title>` +
+    `<meta name="description" content="${esc(OG_DESC)}">` +
+    `<meta property="og:type" content="website"><meta property="og:site_name" content="BLAZEIAN_BOT-AI">` +
+    `<meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(OG_DESC)}">` +
+    `<meta property="og:image" content="${esc(CROWN)}"><meta property="og:url" content="${esc(SELF_URL)}">` +
+    `<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}">` +
+    `<meta name="twitter:description" content="${esc(OG_DESC)}"><meta name="twitter:image" content="${esc(CROWN)}">` +
+    `<link rel="icon" type="image/png" href="/crown.png"><link rel="apple-touch-icon" href="/crown.png">${PAGE_CSS}</head><body><div class="wrap">`;
 }
 
 // Render the command list + stream messages for a single channel (used in both panels)
@@ -4240,6 +4253,15 @@ app.get("/blaze-fist.jpg", (req, res) => {
   res.set("Content-Type", "image/jpeg");
   res.set("Cache-Control", "public, max-age=86400");
   res.end(Buffer.from(FIST_JPG_B64, "base64"));
+});
+
+// The GMC crown — THE recognition mark across everything (comics, NFTs, this site, the Otherside skin).
+// Served from the repo file rather than baked in as base64 (like blaze-fist above) so the deploy
+// copy-paste stays small. Used as the favicon + social-share image, so it's the first thing anyone
+// sees whether they open the site, glance at a browser tab, or just see the link posted somewhere.
+app.get("/crown.png", (req, res) => {
+  res.set("Cache-Control", "public, max-age=86400");
+  res.sendFile(path.join(__dirname, "CrownOfTheGmc.png"));
 });
 
 // =============================================
