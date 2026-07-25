@@ -426,7 +426,7 @@
       "stats": {
         "totalVotes": 17498,
         "totalSubs": 23,
-        "totalChatMessages": 3600,
+        "totalChatMessages": 3603,
         "totalStreamMinutes": 1323,
         "emotes": {
           "🗳": 468,
@@ -609,17 +609,9 @@
           "🤞": "🤞"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784995548600
+        "lastChatAt": 1784995554164
       },
       "chatMemory": [
-        {
-          "user": "nadietv",
-          "msg": "hahaha"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "Unfortunally we just started round 2"
-        },
         {
           "user": "cedricdebled",
           "msg": "DAMN it is"
@@ -651,6 +643,14 @@
         {
           "user": "mindgoblin",
           "msg": "oh watch this chat"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "GOod excuses to draw boobies. But Jt is not here"
+        },
+        {
+          "user": "mindgoblin",
+          "msg": "WAIT"
         }
       ],
       "customCommands": {},
@@ -6582,7 +6582,9 @@
   "blocklist": [
     "meyetechnicals"
   ],
-  "optedOutUsers": [],
+  "optedOutUsers": [
+    "mindgoblin"
+  ],
   "friendBots": [
     "cinder",
     "foxbot",
