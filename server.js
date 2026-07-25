@@ -182,6 +182,7 @@ function applyLoadedState(record) {
   }
   if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
   if (Array.isArray(record.optedOutUsers)) optedOutUsers = record.optedOutUsers;
+  if (record.learnedPeople && typeof record.learnedPeople === "object") learnedPeople = record.learnedPeople;
   if (Array.isArray(record.friendBots)) friendBots = record.friendBots;
   // Cloud people first, then SEED wins for core entries — so corrections shipped in code
   // always take effect even if an outdated copy is stored in state.json.
@@ -257,6 +258,7 @@ async function _writeStateToGitHub() {
     optedOutUsers,
     friendBots,
     knownPeople,
+    learnedPeople,
     lastAnnouncedVersion,
     lastOnlineAnnounceAt,
     auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
@@ -1113,6 +1115,15 @@ function channelContext(ch) {
   if (!ch) return "";
   let c = `\n\nYOU ARE CURRENTLY IN **${ch.username}**'s channel. This is the streamer you support, hype and refer to by name right now — nobody else.`;
   if (ch.profile)     c += `\n\nWHAT YOU'VE LEARNED ABOUT THIS SPECIFIC CHANNEL & COMMUNITY (you picked this up yourself from watching their chat — use it so you sound like a real regular here: drop their in-jokes/slang when it fits, hype what THIS community cares about, match their energy):\n${ch.profile}`;
+  // Stored channel settings the bot USES in conversation, not just via their own command. Proven gap:
+  // the schedule was saved by !setschedule and printed by !schedule, but never reached the AI — so asked
+  // "when does he stream?" in normal chat, the bot knew nothing despite having the answer on file.
+  if (ch.schedule) c += `\n\n${ch.username}'s STREAMING SCHEDULE (set by the owner — this is reliable, use it if anyone asks when they stream): ${ch.schedule}`;
+  if (Array.isArray(ch.tipTiers) && ch.tipTiers.length) {
+    c += `\n\nTIP REWARDS running in this channel (owner-set): ` +
+      [...ch.tipTiers].sort((a, b) => a.min - b.min).map(t => `$${t.min}+ = ${t.count} ${ch.tipRewardName || "reward(s)"}`).join(", ") +
+      `. Mention these ONLY if someone asks about tips/rewards — never advertise them unprompted.`;
+  }
   if (ch.gameOverride) c += `\n\nCURRENT GAME (owner-confirmed via !game — trust this 100%): ${ch.gameOverride}.`;
   else if (ch.streamTitle) c += `\n\nThe stream TITLE says: "${ch.streamTitle}". CAREFUL: titles can be outdated — if someone asks WHICH game is being played, or the chat clearly talks about a DIFFERENT game than the title, be honest: you can only read the title, you can't see the screen. Say so charmingly and suggest the owner locks it in with "!game NAME". NEVER insist on the title's game against what chat says, and NEVER invent in-game events you cannot see.`;
   return c;
@@ -1134,6 +1145,86 @@ function knownPerson(username) {
   return knownPeople[username.toLowerCase()] || null;
 }
 
+// ===== PERSON MEMORY =====
+// Hand-written knownPeople entries don't scale — there were exactly 5 of them for 54 channels, which is
+// why the bot drew a blank on people it genuinely "knows" (proven live with crypt0k1ng96). Two automatic
+// layers fill the gap, both strictly BELOW the hand-written entries in priority so curated facts always win:
+//
+//   1. crewStreamerNote() — derived live from data we ALREADY have. Anyone who runs a channel in the crew
+//      is recognisable everywhere, with their game/vibe, at zero cost and zero upkeep.
+//   2. learnedPeople — short facts the bot distils itself from what someone actually says about themselves,
+//      the same trick as learnChannelProfile() but per person.
+//
+// Deliberately NOT framed as friendship: running a channel makes someone crew, not a close friend — that
+// distinction stays manual, in knownPeople.
+let learnedPeople = {}; // lowercased username -> { note, at, n }
+const LEARNED_PEOPLE_MAX = 300; // hard cap so state.json can't grow unbounded
+
+function crewStreamerNote(username) {
+  const cid = findChannelByUsername(username);
+  if (!cid || cid === BOT_CHANNEL_ID) return null;
+  const ch = channels[cid];
+  if (!ch) return null;
+  const bits = [`${ch.username} is a streamer in your crew — you're active in their channel too.`];
+  if (ch.gameOverride) bits.push(`They mainly play ${ch.gameOverride}.`);
+  if (ch.profile) bits.push(`What you've learned about their channel: ${ch.profile}`);
+  return bits.join(" ");
+}
+
+// Everything the bot knows about a person, most trustworthy first. Returns null when it knows nothing.
+function personContext(username) {
+  if (!username) return null;
+  const key = username.toLowerCase();
+  const parts = [];
+  const curated = knownPeople[key];
+  if (curated) parts.push(curated);
+  const learned = learnedPeople[key]?.note;
+  if (learned) parts.push(`Things you've picked up from talking with them: ${learned}`);
+  if (!curated) { const crew = crewStreamerNote(username); if (crew) parts.push(crew); }
+  return parts.length ? parts.join(" ") : null;
+}
+
+// Rolling per-person samples (memory only) so the distiller has something to work from.
+const personSamples = {}; // lowercased username -> [msg strings]
+function recordPersonSample(username, msg) {
+  if (!username || !msg || msg.startsWith("!")) return;
+  const key = username.toLowerCase();
+  if (isBotName(username) || looksLikeBot(null, username)) return;
+  if (!personSamples[key]) personSamples[key] = [];
+  const a = personSamples[key];
+  a.push(msg.slice(0, 200));
+  if (a.length > 25) a.shift();
+}
+
+// Distils a couple of durable facts about a person from their own messages. Runs rarely and only for
+// people who actually talk, so it stays cheap (light model, ~120 tokens out).
+async function learnAboutPerson(username) {
+  if (!AI_KEY || !username) return;
+  const key = username.toLowerCase();
+  const samples = personSamples[key] || [];
+  if (samples.length < 15) return;                       // not enough to say anything real
+  const prev = learnedPeople[key];
+  if (prev && Date.now() - prev.at < 12 * 3600000) return; // at most twice a day per person
+  if (!prev && Object.keys(learnedPeople).length >= LEARNED_PEOPLE_MAX) return;
+  try {
+    const prompt = `Below are chat messages written BY one person ("${username}") on a livestream platform.\n\n` +
+      `${samples.slice(-20).join("\n")}\n\n` +
+      `Existing notes about them: ${prev?.note || "(none yet)"}\n\n` +
+      `Write MAX 25 words of durable, useful facts about this person — what they play, what they're into, ` +
+      `how they talk, anything they clearly stated about themselves. Merge with the existing notes and keep what still holds. ` +
+      `ONLY state what is genuinely supported by their messages. If nothing durable can be said, reply exactly: NOTHING. ` +
+      `No speculation about age, gender, location or anything personal they did not state themselves. Output only the notes.`;
+    const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
+      model: AI_MODEL_LIGHT, messages: [{ role: "user", content: prompt }], max_tokens: 90, temperature: 0.3,
+    }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 12000 });
+    let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
+    if (!text || /^nothing\b/i.test(text)) return;
+    learnedPeople[key] = { note: text.slice(0, 240), at: Date.now(), n: (prev?.n || 0) + 1 };
+    saveChannels();
+    console.log(`[PERSON] ${username}: ${text.slice(0, 80)}…`);
+  } catch (e) { console.log("[PERSON] error:", e.response?.data?.error?.message || e.message); }
+}
+
 // Finds known people mentioned INSIDE a message (e.g. "@crypt0k1ng96", or just their name), as opposed
 // to knownPerson() above which only checks whoever is SPEAKING. Proven live failure: asked "what can you
 // tell me about @crypt0k1ng96?", the bot said "I couldn't find any info" — it had a real, detailed known-
@@ -1142,9 +1233,21 @@ function knownPerson(username) {
 function findMentionedKnownPeople(msg, excludeUsername) {
   if (!msg) return [];
   const excl = (excludeUsername || "").toLowerCase();
-  return Object.keys(knownPeople)
-    .filter(name => name !== excl && new RegExp("@?\\b" + name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i").test(msg))
-    .map(name => ({ username: name, desc: knownPeople[name] }));
+  // Search across everyone the bot could know: curated entries, auto-learned people, and crew streamers.
+  const candidates = new Set([
+    ...Object.keys(knownPeople),
+    ...Object.keys(learnedPeople),
+    ...Object.values(channels).map(c => (c.username || "").toLowerCase()).filter(Boolean),
+  ]);
+  const out = [];
+  for (const name of candidates) {
+    if (!name || name === excl) continue;
+    if (!new RegExp("@?\\b" + name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i").test(msg)) continue;
+    const desc = personContext(name);
+    if (desc) out.push({ username: name, desc });
+    if (out.length >= 3) break; // don't bloat the prompt if a message name-drops half the crew
+  }
+  return out;
 }
 
 // =============================================
@@ -1197,7 +1300,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   if (!AI_KEY) return null;
   const channelName = ch?.username || "the";
   let botNote = "";
-  const pk = knownPerson(username);
+  const pk = personContext(username); // curated entry first, then auto-learned facts, then crew-streamer facts
   if (pk) {
     botNote += `\n\nYOU PERSONALLY KNOW "${username}". ${pk}\nAnswer in a way that shows you recognize THEM specifically — reference what genuinely applies to them ONLY when it fits the moment, never force every fact in. Be real, warm and specific, not a checklist and not gushy. IMPORTANT: even when you recognize them, you are still in ${channelName}'s channel and still support the CURRENT streamer — recognizing your friend does not mean shifting the spotlight onto someone else's world.`;
   }
@@ -1344,6 +1447,53 @@ const overlayReactions = {}; // channelId -> { type, name, ts }
 function setReaction(channelId, type, name) {
   if (!channelId) return;
   overlayReactions[channelId] = { type, name: name || "", ts: Date.now() };
+}
+
+// ===== ACTIVATION NUDGES =====
+// Measured problem: the features that need the streamer to type something sit almost unused — of 54
+// channels only 4 had custom commands, 1 a schedule, 0 any tip tiers, while the automatic stuff (learned
+// profiles: 39) works fine. People don't read docs; the bot is already sitting in their chat, so it can
+// offer once instead of waiting. Deliberately conservative: ONE nudge per channel ever, only when the
+// owner is actually present, and only while chat is QUIET — cutting into a lively conversation with an
+// off-topic tip is exactly the spammy behaviour we've been removing everywhere else.
+const msgTimes = {}; // channelId -> [timestamps] rolling window, memory only
+function noteMessageTime(channelId) {
+  const now = Date.now();
+  if (!msgTimes[channelId]) msgTimes[channelId] = [];
+  const a = msgTimes[channelId];
+  a.push(now);
+  while (a.length && now - a[0] > 120000) a.shift(); // keep last 2 min
+}
+function chatIsQuiet(channelId) {
+  const a = msgTimes[channelId] || [];
+  const now = Date.now();
+  return a.filter(t => now - t <= 90000).length <= 3; // ≤3 messages in the last 90s
+}
+
+const NUDGES = [
+  { key: "schedule", test: ch => !ch.schedule,
+    text: u => `@${u} psst — want people to stop asking when you're live? Type !setschedule followed by your times and I'll answer that for you from now on 💚 (ignore me if not, I'll not bring it up again)` },
+  { key: "customcmd", test: ch => !Object.keys(ch.customCommands || {}).length,
+    text: u => `@${u} quick one: you can give me your own command, like !addcmd discord https://... — then anyone typing !discord gets it instantly 💚 (that's it, I won't nag again)` },
+];
+
+async function maybeNudgeOwner(channelId, speaker) {
+  const ch = channels[channelId];
+  if (!ch || channelId === BOT_CHANNEL_ID) return;
+  if (ch.nudgedAt) return;                                   // one per channel, ever
+  if (speaker.toLowerCase() !== ch.username.toLowerCase()) return;  // only to the owner, while they're here
+  if (!ch.profile) return;                                   // bot hasn't settled into this channel yet
+  if (ch.joinedAt && Date.now() - ch.joinedAt < 3 * 86400000) return; // give it a few days first
+  if (!chatIsQuiet(channelId)) return;                       // never interrupt a lively chat
+  if (onCooldown(channelId, "nudge", 3600000)) return;
+  const pick = NUDGES.find(n => n.test(ch));
+  if (!pick) return;                                         // they've already set everything up
+  markFired(channelId, "nudge");
+  ch.nudgedAt = Date.now();
+  ch.nudgedKey = pick.key;
+  saveChannels();
+  console.log(`[NUDGE] ${ch.username}: suggested ${pick.key}`);
+  await sendChat(channelId, pick.text(ch.username));
 }
 
 const chatSamples = {}; // channelId -> [recent "user: msg" strings]
@@ -2027,11 +2177,16 @@ async function handleEvent(message) {
           pushEmote(channelId, emo, false); // feed the emote-wall overlay
         }
       }
+      noteMessageTime(channelId); // feeds the "is the chat busy right now?" check used by nudges
       if (!msg.startsWith("!")) {
         if (!ch.chatMemory) ch.chatMemory = [];
         ch.chatMemory.push({ user, msg });
         if (ch.chatMemory.length > 10) ch.chatMemory.shift();
         recordSample(channelId, user, msg); // feed the self-learning channel profile
+        if (!senderIsBot) {
+          recordPersonSample(user, msg); // feed the per-person memory distiller
+          maybeNudgeOwner(channelId, user).catch(() => {});
+        }
       }
       saveChannels();
     }
@@ -4320,6 +4475,16 @@ app.listen(PORT, "0.0.0.0", async () => {
     const id = ids[_profIdx % ids.length]; _profIdx++;
     await learnChannelProfile(id);
   }, 8 * 60 * 1000);
+
+  // Person memory: every 11 min, distil facts about ONE talkative person (round-robin, same staggering
+  // idea as the channel profiles so the two never bunch up into a token spike).
+  let _persIdx = 0;
+  setInterval(async () => {
+    const names = Object.keys(personSamples).filter(n => personSamples[n].length >= 15);
+    if (!names.length) return;
+    const name = names[_persIdx % names.length]; _persIdx++;
+    await learnAboutPerson(name);
+  }, 11 * 60 * 1000);
 
   // TIMED MESSAGES: every minute, post any due scheduled messages (per channel).
   setInterval(runTimedMessages, 60 * 1000);
