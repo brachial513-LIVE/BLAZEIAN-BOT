@@ -1367,7 +1367,7 @@
         "totalVotes": 3964,
         "totalSubs": 20,
         "totalChatMessages": 2058,
-        "totalStreamMinutes": 6515,
+        "totalStreamMinutes": 6520,
         "emotes": {
           "❤": 78,
           "🙌": 55,
@@ -6072,7 +6072,7 @@
       "stats": {
         "totalVotes": 312,
         "totalSubs": 0,
-        "totalChatMessages": 3970,
+        "totalChatMessages": 3980,
         "totalStreamMinutes": 950,
         "emotes": {
           "❤": 6,
@@ -6082,7 +6082,7 @@
           "🔴": 7,
           "🎉": 21,
           "🪙": 88,
-          "⚡": 20,
+          "⚡": 21,
           "👀": 7,
           "🍿": 2,
           "🤗": 2,
@@ -6157,41 +6157,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785006831577
+        "lastChatAt": 1785007120067
       },
       "chatMemory": [
-        {
-          "user": "solucao",
-          "msg": "Entendi pokémon"
-        },
-        {
-          "user": "paulo_santos20",
-          "msg": "30 carinhas desses, os Polygons?"
-        },
-        {
-          "user": "solucao",
-          "msg": "Saga Poseidon"
-        },
-        {
-          "user": "botger",
-          "msg": "🪙 @solucao 18,580 points."
-        },
-        {
-          "user": "paulo_santos20",
-          "msg": "A plateia vai à loucura kkkkk"
-        },
-        {
-          "user": "solucao",
-          "msg": "Olha que bonito que legal"
-        },
-        {
-          "user": "solucao",
-          "msg": "Rechi eletricista foi tomar café"
-        },
-        {
-          "user": "paulo_santos20",
-          "msg": "Boss Final?"
-        },
         {
           "user": "paulo_santos20",
           "msg": "EdenM"
@@ -6199,6 +6167,38 @@
         {
           "user": "paulo_santos20",
           "msg": "*Eden?"
+        },
+        {
+          "user": "paulo_santos20",
+          "msg": "Master Hand"
+        },
+        {
+          "user": "botger",
+          "msg": "⚡ solucao — Level 6 | 12,109 XP (807 to Level 7)"
+        },
+        {
+          "user": "solucao",
+          "msg": "Coitado do link"
+        },
+        {
+          "user": "solucao",
+          "msg": "Cadê a Zelda"
+        },
+        {
+          "user": "solucao",
+          "msg": "Pra"
+        },
+        {
+          "user": "solucao",
+          "msg": "Ajudar"
+        },
+        {
+          "user": "paulo_santos20",
+          "msg": "O que é esse H.P do chefe, Mauh?"
+        },
+        {
+          "user": "paulo_santos20",
+          "msg": "Comentário para o Mauh, Eden!"
         }
       ],
       "customCommands": {},
@@ -6653,8 +6653,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1784982888733,
   "auth": {
-    "accessToken": "0fbf27351521df0fc0bd5cdafeb47d48",
-    "refreshToken": "6973de176bf0293f32754b5dea7fcb7c",
+    "accessToken": "af377cc2cfc13e3f42c2e2cb43f64840",
+    "refreshToken": "eb35e3c1d51c2aec7a747c1d622f579b",
     "sessionToken": "7edb6a1affa5d12ccb632dd298c05124",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
