@@ -321,6 +321,25 @@ function isBlocked(username) {
   return blocklist.map(b => b.toLowerCase()).includes(username.toLowerCase());
 }
 
+// "Don't talk to me right now." Said to the bot in briggsy's chat, and the bot answered "got it, taking a
+// break from chatting with you for now" — a promise with nothing behind it, so the next mention would have
+// started the whole thing again. This makes the words true: a short, automatic personal quiet period.
+// Deliberately TEMPORARY (not !ignoreme, which is a deliberate permanent choice) — someone snapping in the
+// moment shouldn't be written off for good. Memory only; 45 minutes is long enough to defuse a situation.
+const hushedUsers = {}; // lowercased username -> timestamp until which the bot stays quiet toward them
+const HUSH_MS = 45 * 60 * 1000;
+const HUSH_RE = /\b(do\s?n'?t|dont|stop|quit|no)\b[^.!?]{0,20}\b(talk|talking|speak|speaking|reply|replying|answer)\b|\bleave me alone\b|\bshut up\b|\blass mich in ruhe\b|\bh(ö|oe)r auf\b[^.!?]{0,20}\bmit mir\b|\bhalt die klappe\b/i;
+function isHushed(username) {
+  const until = hushedUsers[(username || "").toLowerCase()];
+  if (!until) return false;
+  if (Date.now() > until) { delete hushedUsers[(username || "").toLowerCase()]; return false; }
+  return true;
+}
+function hushUser(username) {
+  hushedUsers[(username || "").toLowerCase()] = Date.now() + HUSH_MS;
+  console.log(`[HUSH] ${username} asked for quiet — no replies to them for 45 min`);
+}
+
 // Self-service opt-out (!ignoreme) — different from blocklist: this is for someone who's fine with the
 // bot in general but personally doesn't want it replying to THEM specifically, in any channel they chat
 // in. Proven live request: a viewer couldn't get the bot to stop replying to them just by asking in
@@ -1296,6 +1315,19 @@ function stripMetaPreamble(text) {
   return t;
 }
 
+// The canned redirect. The persona has forbidden it for weeks and it keeps coming back — "let's keep the
+// focus on X's stream", "now let's get back to X's epic stream". It reads as scripted and dismissive,
+// especially when tacked onto an apology or a correction. Rules didn't hold, so it gets cut off the end
+// of the sentence; if that leaves nothing meaningful, the whole reply is dropped.
+const REDIRECT_RE = /[,.!;–—-]?\s*(?:and\s+|so\s+|but\s+|now\s+)?(?:let'?s|let\s+us)\s+(?:all\s+)?(?:keep|get|turn|bring|focus|head)\b[^.!?]*$/i;
+function stripCannedRedirect(text) {
+  if (!text) return text;
+  if (!REDIRECT_RE.test(text)) return text;
+  const cut = text.replace(REDIRECT_RE, "").trim().replace(/[,;–—-]+$/, "").trim();
+  if (cut.length < 12) return null;      // the redirect WAS the whole message — better to say nothing
+  return cut;
+}
+
 // Cuts to a length without slicing a word in half — a note ending in "They value authe" reads as broken.
 function trimToWord(s, max) {
   if (s.length <= max) return s;
@@ -1524,7 +1556,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 9000 });
     let text = (res.data?.choices?.[0]?.message?.content || "").trim();
     text = text.replace(/^["']|["']$/g, "").replace(new RegExp("^@?" + username + "[,:\\s]+", "i"), "").trim();
-    text = stripMetaPreamble(text);
+    text = stripCannedRedirect(stripMetaPreamble(text));
     if (!text) return null;
     if (foreignStreamerNamed(text, ch, userMessage)) {
       console.log(`[AI] dropped a reply naming an unrelated streamer in ${ch?.username}'s channel`);
@@ -1583,7 +1615,7 @@ async function aiShout(ch, instruction, { addName } = {}) {
       temperature: 1.0,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 7000 }));
     let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
-    text = stripMetaPreamble(text);
+    text = stripCannedRedirect(stripMetaPreamble(text));
     if (!text) return null; // null → the caller falls back to a written line, which is always safe
     if (foreignStreamerNamed(text, ch, instruction)) {
       console.log(`[SHOUT] dropped a reply naming an unrelated streamer in ${ch.username}'s channel`);
@@ -1667,6 +1699,20 @@ async function maybeNudgeOwner(channelId, speaker) {
   saveChannels();
   console.log(`[NUDGE] ${ch.username}: suggested ${pick.key}`);
   await sendChat(channelId, pick.text(ch.username));
+}
+
+// Who has already spoken in a channel recently. Without this the bot "welcomes" people who have been
+// sitting in chat for an hour — proven live: it greeted vroshi55 with "welcome to the Farlight 84 fun
+// here with briggsy" while vroshi55 had been chatting the whole time, and had to be corrected.
+const seenInChannel = {}; // channelId -> { username: lastSeenTs }
+const SEEN_WINDOW = 3 * 3600000;
+function noteSeen(channelId, user) {
+  if (!seenInChannel[channelId]) seenInChannel[channelId] = {};
+  seenInChannel[channelId][(user || "").toLowerCase()] = Date.now();
+}
+function seenRecently(channelId, user) {
+  const ts = seenInChannel[channelId]?.[(user || "").toLowerCase()];
+  return !!ts && Date.now() - ts < SEEN_WINDOW;
 }
 
 const chatSamples = {}; // channelId -> [recent "user: msg" strings]
@@ -1791,6 +1837,19 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
   const ml = msg.toLowerCase().trim();
   const isFriend = senderIsBot && isFriendBot(user);
 
+  const mentionsBot = ml.includes("blazeian_bot") || ml.includes("blazeianbot");
+  // Someone telling the bot to leave them alone. Acknowledge ONCE, then actually go quiet toward them —
+  // saying "taking a break from chatting with you" and then replying again two minutes later is worse
+  // than never having said it.
+  if (mentionsBot && !senderIsBot && HUSH_RE.test(ml)) {
+    if (!isHushed(user)) {
+      hushUser(user);
+      await sendChat(channelId, `@${user} understood — I'll leave you be 💚`);
+    }
+    return;
+  }
+  if (isHushed(user)) return; // they asked for quiet; respect it silently
+
   // ---- Direct @mention ----
   if (ml.includes("blazeian_bot") || ml.includes("blazeianbot")) {
     // Loop guard: another BOT pinged us → at most once per 3 min AND max 5/hour per bot (no spam loops).
@@ -1859,6 +1918,9 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
         /@\w+/.test(msg) || // @-mention of someone (bot mentions were already handled above)
         new RegExp("\\b(hi+|hey+|hello+|yo|hiya|heya)\\b\\s+(?!" + generalWords + "\\b)[a-z0-9_]{2,}", "i").test(ml);
       if (directedAtSomeoneElse) return;
+      // Only welcome ARRIVALS. Someone who's been in chat for a while saying "hey" is not arriving, and
+      // greeting them as new reads as not paying attention (proven live with vroshi55 in briggsy's chat).
+      if (seenRecently(channelId, user)) return;
       const aiG = await aiShout(ch, `${user} just greeted the chat. Welcome them warmly to ${ch.username}'s stream.`, { addName: user });
       if (aiG) { await sendChatT(channelId, aiG); return; }
       const greetings = [
@@ -2392,6 +2454,9 @@ async function handleEvent(message) {
     } else if (!isBotChannel && channels[channelId] && !isOptedOut(user)) {
       await handleSmallTalk(channelId, user, msg, senderIsBot);
     }
+    // AFTER handling, never before: the greeting check asks "have I seen them already?", so marking them
+    // seen too early would mean nobody is ever welcomed.
+    if (!senderIsBot && !isBotChannel) noteSeen(channelId, user);
     return;
   }
 
