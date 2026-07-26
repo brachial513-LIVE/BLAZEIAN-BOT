@@ -2858,16 +2858,16 @@
       "stats": {
         "totalVotes": 2575,
         "totalSubs": 7,
-        "totalChatMessages": 1184,
-        "totalStreamMinutes": 3340,
+        "totalChatMessages": 1186,
+        "totalStreamMinutes": 3344,
         "emotes": {
           "❤": 21,
           "🙌": 26,
           "🗳": 120,
           "🔴": 22,
           "🎉": 35,
-          "📴": 20,
-          "👋": 20,
+          "📴": 21,
+          "👋": 21,
           "🔥": 25,
           "💪": 1,
           "🤖": 1,
@@ -2934,18 +2934,10 @@
           "😏": "😏",
           "🍀": "🍀"
         },
-        "lastChatAt": 1785035719875,
+        "lastChatAt": 1785037352452,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @Future42!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 25 vote(s) (total: 225)! Thank you!! 🗳️"
-        },
         {
           "user": "future42",
           "msg": "Boom"
@@ -2977,6 +2969,14 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2985,7 +2985,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "Should i do a voteathon?❤️PoE2 grind!❤️ — Path Of Exile 2",
+      "streamTitle": "",
       "profile": "nadietv - Your go-to for gaming grind sessions & chill vibes! Expect \"Worthy Goal\" mindset, BLAZE magic, & no salt, no sugar. We're all about Path of Exile 2, grinding for that perfect gear! Let's get this grind on! GGs, Wheel & Song incoming. Ws for everyone! Pay it forward, Wheel & Song vibes only.",
       "_profileAtCount": 1168,
       "gameOverride": "",
@@ -3007,7 +3007,7 @@
         "totalVotes": 1250,
         "totalSubs": 39,
         "totalChatMessages": 257,
-        "totalStreamMinutes": 5071,
+        "totalStreamMinutes": 5091,
         "emotes": {
           "❤": 64,
           "🙌": 18,
@@ -6023,7 +6023,7 @@
         "totalVotes": 1523,
         "totalSubs": 87,
         "totalChatMessages": 9,
-        "totalStreamMinutes": 576,
+        "totalStreamMinutes": 588,
         "emotes": {
           "🔥": 2
         },
@@ -6080,7 +6080,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/80b2aa04-8593-46e3-8985-a0ba115eb944.png",
-      "streamTitle": "",
+      "streamTitle": "FOXSPIRIT | LOL!!! Spanish Stream — League of Legends",
       "gameOverride": "",
       "followed": true
     },
@@ -6091,7 +6091,7 @@
       "stats": {
         "totalVotes": 512,
         "totalSubs": 0,
-        "totalChatMessages": 4940,
+        "totalChatMessages": 5040,
         "totalStreamMinutes": 950,
         "emotes": {
           "❤": 8,
@@ -6138,7 +6138,10 @@
           "🍓": 1,
           "🤣": 2,
           "🐉": 1,
-          "👻": 1
+          "👻": 1,
+          "😰": 1,
+          "☹": 1,
+          "🙁": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -6185,51 +6188,54 @@
           "🍓": "🍓",
           "🤣": "🤣",
           "🐉": "🐉",
-          "👻": "👻"
+          "👻": "👻",
+          "😰": "😰",
+          "☹": "☹",
+          "🙁": "🙁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785037092105
+        "lastChatAt": 1785038294378
       },
       "chatMemory": [
         {
-          "user": "lovemikami",
-          "msg": "kkkkkkkkkkkkkk"
+          "user": "lipeman",
+          "msg": "num vai dar"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkk"
         },
         {
           "user": "dany_kaizo",
-          "msg": "Essa tem glutch"
-        },
-        {
-          "user": "lipeman",
-          "msg": "iiiiiiiiii"
-        },
-        {
-          "user": "lipeman",
-          "msg": "de primeira"
+          "msg": "Ih esse Mário"
         },
         {
           "user": "dany_kaizo",
-          "msg": "Aeeeee"
+          "msg": "Só tenho raiva desse 1"
+        },
+        {
+          "user": "dany_kaizo",
+          "msg": "O 2 e o 3 são de boa, tirando mundo da gelo do smb3"
+        },
+        {
+          "user": "dany_kaizo",
+          "msg": "O yt tá travado"
+        },
+        {
+          "user": "rechigamer",
+          "msg": "No YouTube está num Loop infinito do rei kaizao"
         },
         {
           "user": "lovemikami",
-          "msg": "simmm kkkkkkkkk"
+          "msg": "@dany_kaizo eu tenho mais raiva do mario the lost levels kkkkkkkkkk"
         },
         {
-          "user": "lovemikami",
-          "msg": "quero vê essa habilidade"
+          "user": "dany_kaizo",
+          "msg": "O yt tá travado no rei leao"
         },
         {
-          "user": "lipeman",
-          "msg": "kkkkkkkkkk"
-        },
-        {
-          "user": "lipeman",
-          "msg": "Brentilda"
-        },
-        {
-          "user": "lipeman",
-          "msg": "kkkkkkkk"
+          "user": "dany_kaizo",
+          "msg": "Kkkkk"
         }
       ],
       "customCommands": {},
@@ -6243,8 +6249,8 @@
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
       "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
-      "profile": "**sofrenciaplay Profile:**\nA lively Retro multiplayer community fueled by humor and camaraderie, expect \"Te amo blaze kkk\" moments and \"Vai chover\" jokes. We play Retro multiplayer games like Bomberman, DK 64, Tobal 2, and Mario games. Nicknames like Lipão, Zezinho universitário, Sarinha, and Nilo are welcome, but no vigarice! Join the fun and don't forget \"Te amo blaze kkk\", \"Rei kaizao\", and \"Fase kaizo\"!",
-      "_profileAtCount": 4876,
+      "profile": "**sofrenciaplay Profile:**\nA lively Retro multiplayer community fueled by humor and camaraderie, expect \"Te amo blaze kkk\" moments and \"Vai chover\" jokes. We play Retro multiplayer games like Bomberman, DK 64, and Mario games. Nicknames like Lipão, Zezinho universitário, Sarinha, and Nilo are welcome, but no vigarice! Join the fun and don't forget \"Te amo blaze kkk\", \"Rei kaizao\", \"Fase kaizo\", and \"Capsula do poder\"!",
+      "_profileAtCount": 4987,
       "gameOverride": "",
       "commentMode": "low"
     },
@@ -6709,6 +6715,11 @@
     "lovemikami": {
       "note": "They enjoy playing classic video games like Streets of Rage 3 and Golden Axe 2, and have a humorous and lighthearted tone in their chat.",
       "at": 1785029437463,
+      "n": 1
+    },
+    "dany_kaizo": {
+      "note": "dany_kaizo appears to play video games, enjoys humorously commenting on frustrating experiences, and references pop culture memes.",
+      "at": 1785037357456,
       "n": 1
     }
   },
