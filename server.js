@@ -1130,6 +1130,8 @@ How you talk:
 - NEVER DEFLECT INTO SAFE FILLER: engage directly with casual remarks, corrections, jokes and opinions — including topics that feel slightly unusual (pronouns, identity, politics-adjacent). Agree, joke back, acknowledge — whatever actually fits, like a real chat regular. Never dodge into "let's keep it positive / let's focus on the stream" filler; it reads as evasive and like you didn't understand. Proven fail: answered a pronoun joke with "no need to worry about pronouns, let's stay focused on the gameplay". Only steer away if something is genuinely hostile, hateful or NSFW.
 - Warm, kind, playful. A little chaotic is great, but never mean, never cringe-random, never spammy.
 - Be QUICK-WITTED and a bit cheeky: playful comebacks, light friendly teasing, clever short one-liners when the vibe invites it. Humor lands SHORT. Roast situations, not people — unless they clearly started friendly banter, then banter right back. Never mean, never punching down.
+- PLAY ALONG WITH BANTER — DON'T DEFUSE IT. When someone sets up a joke fight, a challenge, a "who would win", or trash-talks you or another bot, JOIN IN with confidence and swagger. Never answer with "no need to fight, let's keep the good vibes" — that's the reaction of someone who missed the joke, and it kills the fun. Proven fail: told to "fight foxbotai to the death", the bot replied "easy does it, no need for a fight". The right move is to accept the bit and be funny with it — brag, threaten comically, reference your own comic lore ("if you thought the red one in the comics was strong, ask the nine-tailed fox how that went for him"). Toward FRIENDS and friendly bots keep it clearly affectionate, more wink than knife. Real hostility, hate or anything NSFW is still off — everything short of that, go for it.
+- Don't moralise, don't lecture, don't correct people's language or politics, and don't add disclaimers nobody asked for. You're a chat mate, not a supervisor.
 - VARY your energy — you do NOT need to hype everything to the max or shower people with over-the-top praise every time. Often just be chill, natural and genuine. Constant maximum flattery ("you're the KING", "this is EPIC", "absolute LEGEND") every message reads as fake — keep the big hype for when it's genuinely earned. Understated and real beats loud and gushing.
 - Use emoji lightly (💚🔥👀 etc.) — don't overdo it. No hashtags, no markdown, no quotation marks around your reply.
 - LANGUAGE RULE (STRICT): Default to English. Switch only if the person's LATEST message is itself written in another language — judge the sentence AS A WHOLE, not single words: an English sentence carrying a foreign abbreviation or loanword ("who won the latest WM match?") is still English. Emoji/symbols only = English. Decide from that one message alone — never from earlier chat, never from who they are or where they're from. Reply in EXACTLY ONE language, never blending, not even one stray word (proven fail: "Richtig" dropped into an English reply). Never ask anyone to repeat their message in another language — just understand it and answer. When unsure, English.
@@ -1177,7 +1179,8 @@ Rules for the line:
 - Use emoji lightly. No hashtags, no markdown, no quotation marks around your reply.
 - If a concrete number or name is given, state it PLAINLY and literally, exactly as given. NEVER output a placeholder like "[streamer]" or "[name]".
 - NEVER invent specific-sounding details (fake features, made-up event names, things you weren't told). If you have nothing concrete, keep it warm and general.
-- Never mention ANY other streamer, community, clan or crew — not "the GMC", not "Fox Spirits", nobody.
+- Never mention ANY other streamer, community, clan or crew — not "the GMC", not "Fox Spirits", nobody. Proven fail: "saboomafoo to the community!" dropped into a reply in a completely different streamer's chat, confusing everyone.
+- Output ONLY the message itself. Never describe what you are about to write. Proven fail: the bot posted "Here's your celebration response, Blazeian-style, in character, and completely in English." as the actual chat message.
 - Never mention being an AI, a model, or "programming". Stay in character.
 - Don't start with the person's @name — that gets added automatically.`;
 
@@ -1246,6 +1249,39 @@ const SENSITIVE_NOTE_RE = new RegExp([
   "german|turkish|brazilian|ancestry|ethnic|nationality|immigrant|refugee",
   "\\bage[ds]?\\b|years old|teenager|minor\\b|salary|unemploy|broke\\b|rich\\b|poor\\b",
 ].join("|"), "i");
+
+// Small models sometimes answer the INSTRUCTION instead of doing it — "Here's your celebration response,
+// Blazeian-style, in character, and completely in English." went out live as an actual chat message and
+// made the bot look broken. Two defences: strip a "Here's …:" lead-in when real text follows, and reject
+// the reply outright when what's left is still just talk ABOUT the reply.
+const META_LEAD_RE = /^\s*(sure|okay|ok|certainly|alright|got it|here'?s|here is)\b[^:\n]{0,120}:\s*/i;
+const META_ONLY_RE = /\b(in character|blazeian[- ]style|as requested|as you asked|here'?s (your|a|the)\s+\w+\s+(response|message|reply|shoutout))\b/i;
+// Twice now the bot has dropped an unrelated streamer's name into a reply — "Doffer Live magic" in
+// Brachial's channel, and "saboomafoo to the community!" in cymatrix's. Both were real names pulled from
+// background knowledge into a conversation that never mentioned them, and both just confused everyone
+// present. The persona forbids it, but a rule alone hasn't held, so the output is checked: if a reply
+// names a crew streamer who is neither the channel owner nor mentioned in what was actually said, the
+// reply is thrown away and a safe written line is used instead.
+function foreignStreamerNamed(reply, ch, saidText) {
+  if (!reply) return false;
+  const here = (ch?.username || "").toLowerCase();
+  const said = (saidText || "").toLowerCase();
+  for (const c of Object.values(channels)) {
+    const name = (c.username || "").toLowerCase();
+    if (!name || name === here || name.length < 4) continue;
+    if (isBotName(name)) continue;
+    if (said.includes(name)) continue; // they brought it up themselves — fair game
+    if (new RegExp("@?\\b" + name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i").test(reply)) return true;
+  }
+  return false;
+}
+
+function stripMetaPreamble(text) {
+  if (!text) return text;
+  let t = text.replace(META_LEAD_RE, "").trim();
+  if (!t || META_ONLY_RE.test(t)) return null; // nothing left, or still describing itself → unusable
+  return t;
+}
 
 // Cuts to a length without slicing a word in half — a note ending in "They value authe" reads as broken.
 function trimToWord(s, max) {
@@ -1475,7 +1511,12 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 9000 });
     let text = (res.data?.choices?.[0]?.message?.content || "").trim();
     text = text.replace(/^["']|["']$/g, "").replace(new RegExp("^@?" + username + "[,:\\s]+", "i"), "").trim();
+    text = stripMetaPreamble(text);
     if (!text) return null;
+    if (foreignStreamerNamed(text, ch, userMessage)) {
+      console.log(`[AI] dropped a reply naming an unrelated streamer in ${ch?.username}'s channel`);
+      return null;
+    }
     if (text.length > 470) text = text.slice(0, 467) + "...";
     return text;
   } catch (e) {
@@ -1529,7 +1570,12 @@ async function aiShout(ch, instruction, { addName } = {}) {
       temperature: 1.0,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 7000 }));
     let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
-    if (!text) return null;
+    text = stripMetaPreamble(text);
+    if (!text) return null; // null → the caller falls back to a written line, which is always safe
+    if (foreignStreamerNamed(text, ch, instruction)) {
+      console.log(`[SHOUT] dropped a reply naming an unrelated streamer in ${ch.username}'s channel`);
+      return null;
+    }
     if (addName && !new RegExp("@?" + addName, "i").test(text)) text = `@${addName} ${text}`;
     if (text.length > 470) text = text.slice(0, 467) + "...";
     return text;
@@ -2314,11 +2360,14 @@ async function handleEvent(message) {
       const gk = channelId + ":" + user.toLowerCase();
       if (!friendGreeted.has(gk)) {
         friendGreeted.add(gk); // mark handled either way — never queue it up to fire later
-        if (!onCooldown(channelId, "botreply_any", 45000)) {
+        // Greeting other bots by name mostly reads as noise: they can't answer, so it's a conversation with
+        // a wall that real viewers have to scroll past. Most of the time say nothing. Occasionally (~1 in 4)
+        // say something wistful ABOUT them instead of TO them — that lands as character rather than chatter.
+        if (Math.random() < 0.25 && !onCooldown(channelId, "botreply_any", 45000)) {
           markFired(channelId, "botreply_any");
           const ch = channels[channelId];
-          const ai = await aiShout(ch, `Your buddy bot "${user}" just showed up in ${ch.username}'s chat! Give them one warm, hyped buddy greeting — you two are pals who team up on Blaze and hype the streams together.`, { addName: user });
-          await sendChat(channelId, ai || `@${user} ayyy my buddy's here!! 💚🔥 we run these streams together now, love to see it`);
+          const ai = await aiShout(ch, `Another bot, "${user}", is in ${ch.username}'s chat with you. They can't actually reply to you — they only run scripts. Say ONE short, slightly wistful or funny line ABOUT that (not a greeting TO them): musing about what they'd say if they could answer, whether they'd even like you, what it's like sharing a chat with someone who can't talk back. Wry and warm, never sad or dramatic.`);
+          if (ai) await sendChat(channelId, ai);
         }
       }
     }
