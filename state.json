@@ -893,7 +893,7 @@
         "totalVotes": 1228,
         "totalSubs": 18,
         "totalChatMessages": 994,
-        "totalStreamMinutes": 2722,
+        "totalStreamMinutes": 2742,
         "emotes": {
           "📊": 3,
           "🔥": 117,
@@ -1389,14 +1389,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 4385,
+        "totalVotes": 4410,
         "totalSubs": 21,
-        "totalChatMessages": 2148,
+        "totalChatMessages": 2150,
         "totalStreamMinutes": 6944,
         "emotes": {
           "❤": 82,
           "🙌": 58,
-          "🗳": 270,
+          "🗳": 273,
           "📴": 59,
           "👋": 64,
           "🔴": 55,
@@ -1415,8 +1415,8 @@
           "🐰": 1,
           "🫶": 21,
           "🫂": 6,
-          "😶": 12,
-          "🌫": 12,
+          "😶": 17,
+          "🌫": 17,
           "👍": 20,
           "🥰": 62,
           "♥": 1,
@@ -1553,18 +1553,10 @@
           "😳": "😳",
           "🐐": "🐐"
         },
-        "lastChatAt": 1785093588423,
+        "lastChatAt": 1785096141182,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "osohigh",
-          "msg": "tear it up that looks fun"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Zani, have fun man"
-        },
         {
           "user": "charddxyz",
           "msg": "hey Zani"
@@ -1596,6 +1588,14 @@
         {
           "user": "agent00zani",
           "msg": "🔥🔥🔥🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 25 vote(s) (total: 75)! Thank you!! 🗳️"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️ have a good stream dude"
         }
       ],
       "customCommands": {},
@@ -2453,8 +2453,8 @@
       "stats": {
         "totalVotes": 3867,
         "totalSubs": 15,
-        "totalChatMessages": 3005,
-        "totalStreamMinutes": 2340,
+        "totalChatMessages": 3010,
+        "totalStreamMinutes": 2360,
         "emotes": {
           "❤": 59,
           "🙌": 134,
@@ -2552,7 +2552,9 @@
           "✈": 1,
           "😝": 1,
           "💤": 2,
-          "🌞": 1
+          "🌞": 1,
+          "😶": 5,
+          "🌫": 5
         },
         "emoteNames": {
           "❤": "❤",
@@ -2651,32 +2653,14 @@
           "✈": "✈",
           "😝": "😝",
           "💤": "💤",
-          "🌞": "🌞"
+          "🌞": "🌞",
+          "😶": "😶",
+          "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785094370374
+        "lastChatAt": 1785096127730
       },
       "chatMemory": [
-        {
-          "user": "soulflux",
-          "msg": "yes I agree.  Putting myself out is the hard part for me / sorry my connect’on got lost"
-        },
-        {
-          "user": "fluffy",
-          "msg": "💃💃💃"
-        },
-        {
-          "user": "soulflux",
-          "msg": "Sorry its getting lost constantly"
-        },
-        {
-          "user": "soulflux",
-          "msg": "see you soon have a good stream"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 10 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "capt_rob_advent",
           "msg": "Hi"
@@ -2696,6 +2680,26 @@
         {
           "user": "capt_rob_advent",
           "msg": "Yes"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "how you today ?"
+        },
+        {
+          "user": "piweb",
+          "msg": "Kill them all briggs"
+        },
+        {
+          "user": "piweb",
+          "msg": "No mercy on Sunday lol"
+        },
+        {
+          "user": "fluffy",
+          "msg": "how games going"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️"
         }
       ],
       "customCommands": {},
@@ -4431,10 +4435,10 @@
       "username": "saboomafoo",
       "language": "en",
       "stats": {
-        "totalVotes": 6735,
+        "totalVotes": 6785,
         "totalSubs": 189,
-        "totalChatMessages": 136,
-        "totalStreamMinutes": 2796,
+        "totalChatMessages": 137,
+        "totalStreamMinutes": 2816,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -4454,13 +4458,9 @@
           "🎮": "🎮"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785093788433
+        "lastChatAt": 1785095254950
       },
       "chatMemory": [
-        {
-          "user": "saboomafoo",
-          "msg": "tinaaaaaaaa"
-        },
         {
           "user": "saboomafoo",
           "msg": "hellow"
@@ -4496,6 +4496,10 @@
         {
           "user": "saboomafoo",
           "msg": "ty for the votes"
+        },
+        {
+          "user": "saboomafoo",
+          "msg": "wapi ty"
         }
       ],
       "customCommands": {},
@@ -6619,7 +6623,7 @@
         "totalVotes": 697,
         "totalSubs": 0,
         "totalChatMessages": 15,
-        "totalStreamMinutes": 364,
+        "totalStreamMinutes": 384,
         "emotes": {
           "🔥": 3,
           "🐺": 2,
