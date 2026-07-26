@@ -891,8 +891,8 @@
       "language": "en",
       "stats": {
         "totalVotes": 1218,
-        "totalSubs": 16,
-        "totalChatMessages": 963,
+        "totalSubs": 17,
+        "totalChatMessages": 969,
         "totalStreamMinutes": 2715,
         "emotes": {
           "📊": 3,
@@ -1067,25 +1067,9 @@
           "💸": "💸"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785081131540
+        "lastChatAt": 1785082307110
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem hug, !boss, !attack, !arcade, !socials, !leaderboard"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@agent00zani redeemed a FoxBot hug from the shop! Balance: 9998 FoxCoins."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "You can redeem 9990 more haha"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@testviewer, you have 0 FoxCoins."
-        },
         {
           "user": "agent00zani",
           "msg": "When do i get my hugs ?  do I have to come to you to get ?"
@@ -1109,6 +1093,22 @@
         {
           "user": "agent00zani",
           "msg": "just bieng a zani"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 36 damage and earned 17 FoxCoins! Boss HP: 386/500. Your total boss damage: 114. Balance: 133 FoxCoins."
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "happy streaming @crypt0k1ng96"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thank you @nekoschwan !!"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 45 damage and earned 8 FoxCoins! Boss HP: 341/500. Your total boss damage: 159. Balance: 141 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -1387,9 +1387,9 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 4355,
+        "totalVotes": 4360,
         "totalSubs": 21,
-        "totalChatMessages": 2137,
+        "totalChatMessages": 2138,
         "totalStreamMinutes": 6944,
         "emotes": {
           "❤": 82,
@@ -1551,14 +1551,10 @@
           "😳": "😳",
           "🐐": "🐐"
         },
-        "lastChatAt": 1785080380264,
+        "lastChatAt": 1785082147921,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "TY for asking"
-        },
         {
           "user": "future42",
           "msg": "I will let him know"
@@ -1594,6 +1590,10 @@
         {
           "user": "agent00zani",
           "msg": "hope your day goes well ... all best on work today @future42"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "happy streaming @agent00zani"
         }
       ],
       "customCommands": {},
@@ -3714,7 +3714,7 @@
       "stats": {
         "totalVotes": 1073,
         "totalSubs": 10,
-        "totalChatMessages": 872,
+        "totalChatMessages": 873,
         "totalStreamMinutes": 852,
         "emotes": {
           "❤": 354,
@@ -3798,14 +3798,10 @@
           "🪘": "🪘",
           "💰": "💰"
         },
-        "lastChatAt": 1785070827888,
+        "lastChatAt": 1785081346869,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cymatrix",
-          "msg": "Thank you"
-        },
         {
           "user": "cymatrix",
           "msg": "For every stream"
@@ -3841,6 +3837,10 @@
         {
           "user": "brachial513",
           "msg": "ggs for winning on our weekly Giveaway : 35 Votes - you also still have 1 free entry permantly for using blazeianbot ! thank you !"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "You all rock! Thank you for the voters!"
         }
       ],
       "customCommands": {
@@ -3887,7 +3887,9 @@
           "months": 1,
           "tier": 1
         }
-      }
+      },
+      "nudgedAt": 1785081346870,
+      "nudgedKey": "schedule"
     },
     "19b7a7c0-fe26-4df4-b40e-ac7489b8f42a": {
       "username": "helios",
@@ -4427,7 +4429,7 @@
       "username": "saboomafoo",
       "language": "en",
       "stats": {
-        "totalVotes": 6527,
+        "totalVotes": 6530,
         "totalSubs": 189,
         "totalChatMessages": 134,
         "totalStreamMinutes": 2726,
@@ -5474,7 +5476,7 @@
       "language": "en",
       "joinedAt": 1784453301135,
       "stats": {
-        "totalVotes": 851,
+        "totalVotes": 854,
         "totalSubs": 0,
         "totalChatMessages": 23,
         "totalStreamMinutes": 563,
@@ -5849,25 +5851,26 @@
       "stats": {
         "totalVotes": 698,
         "totalSubs": 4,
-        "totalChatMessages": 174,
-        "totalStreamMinutes": 422,
+        "totalChatMessages": 183,
+        "totalStreamMinutes": 442,
         "emotes": {
           "❤": 19,
           "🙌": 7,
           "🫂": 1,
           "🥰": 6,
-          "😘": 10,
+          "😘": 11,
           "👋": 5,
           "💪": 1,
           "💚": 5,
-          "🔥": 8,
+          "🔥": 12,
           "🗳": 75,
           "🤗": 4,
           "📴": 4,
           "🎁": 8,
           "🔴": 3,
           "🎉": 3,
-          "👍": 4
+          "👍": 4,
+          "😍": 4
         },
         "emoteNames": {
           "❤": "❤",
@@ -5885,51 +5888,52 @@
           "🎁": "🎁",
           "🔴": "🔴",
           "🎉": "🎉",
-          "👍": "👍"
+          "👍": "👍",
+          "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785081144133
+        "lastChatAt": 1785082209250
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @Brachial513!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Brachial513 just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "brachial513",
-          "msg": "GGs for winning 5 Votes + 1 Free entry on our weekly Giveaway - You also still have 1 permantly free entry because of using blazeian bot ! Thank you !"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 angge_wf is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "mentira",
-          "msg": "Hola"
-        },
-        {
-          "user": "mentira",
-          "msg": "How you doing"
-        },
-        {
           "user": "agent00zani",
           "msg": "hi hi"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "how are you doing angge 😍😍😍😍"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "@blazeian_bot_ai dont make everything i say to you talkinng point"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "where is  the cam?"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "had  good  rounnd  🔥🔥🔥🔥😘"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "nnnooooooooooo"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "now time to  winn!!!"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "yay!!"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "happy streaming @angge_wf"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "you  playinng  with friends?"
         }
       ],
       "customCommands": {},
@@ -6608,7 +6612,7 @@
       "language": "en",
       "joinedAt": 1784914016208,
       "stats": {
-        "totalVotes": 391,
+        "totalVotes": 395,
         "totalSubs": 0,
         "totalChatMessages": 15,
         "totalStreamMinutes": 354,
