@@ -881,7 +881,7 @@
         "totalVotes": 1218,
         "totalSubs": 16,
         "totalChatMessages": 934,
-        "totalStreamMinutes": 2420,
+        "totalStreamMinutes": 2425,
         "emotes": {
           "📊": 3,
           "🔥": 116,
@@ -1378,7 +1378,7 @@
         "totalVotes": 4324,
         "totalSubs": 20,
         "totalChatMessages": 2088,
-        "totalStreamMinutes": 6649,
+        "totalStreamMinutes": 6654,
         "emotes": {
           "❤": 80,
           "🙌": 55,
@@ -1620,7 +1620,7 @@
       "stats": {
         "totalVotes": 4274,
         "totalSubs": 2,
-        "totalChatMessages": 4159,
+        "totalChatMessages": 4160,
         "totalStreamMinutes": 1411,
         "emotes": {
           "❤": 1661,
@@ -1662,7 +1662,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 13,
-          "💜": 136,
+          "💜": 137,
           "🧔": 1,
           "🤺": 1,
           "🥳": 5,
@@ -1774,16 +1774,12 @@
           "💊": "💊",
           "🖐": "🖐"
         },
-        "lastChatAt": 1785003601082,
-        "sendFailStreak": 57,
-        "lastSendFailAt": 1785000550414,
+        "lastChatAt": 1785062640672,
+        "sendFailStreak": 58,
+        "lastSendFailAt": 1785062641434,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "rob_osp",
-          "msg": "@deafprincess1989 — welcome and thanks for the follow! 🖤 Type !link to grab OSP courage while you watch."
-        },
         {
           "user": "rob_osp",
           "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
@@ -1815,6 +1811,10 @@
         {
           "user": "bee12",
           "msg": "♥️♥️♥️"
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         },
         {
           "user": "rob_osp",
@@ -6279,7 +6279,7 @@
         "totalVotes": 374,
         "totalSubs": 0,
         "totalChatMessages": 170,
-        "totalStreamMinutes": 833,
+        "totalStreamMinutes": 838,
         "emotes": {
           "❤": 11,
           "🙌": 6,
@@ -6777,8 +6777,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785016000896,
   "auth": {
-    "accessToken": "2c0f4895ce4f0dbae6a4b3b9251b442e",
-    "refreshToken": "18da61ec7600ccd2f0b74504b9464cce",
+    "accessToken": "7446b0ddcae1c9dc5bd4abba115a112a",
+    "refreshToken": "d9f9b5df0689dba8f06d5d4fd8c01a9e",
     "sessionToken": "dc2e76cca79f7975069706b22dabe9a0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
