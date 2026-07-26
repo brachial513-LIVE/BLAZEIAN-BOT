@@ -1188,7 +1188,7 @@ Rules for the line:
 function channelContext(ch) {
   if (!ch) return "";
   let c = `\n\nYOU ARE CURRENTLY IN **${ch.username}**'s channel. This is the streamer you support, hype and refer to by name right now — nobody else.`;
-  if (ch.profile)     c += `\n\nWHAT YOU'VE LEARNED ABOUT THIS SPECIFIC CHANNEL & COMMUNITY (you picked this up yourself from watching their chat — use it so you sound like a real regular here: drop their in-jokes/slang when it fits, hype what THIS community cares about, match their energy):\n${ch.profile}`;
+  if (ch.profile)     c += `\n\nWHAT YOU'VE LEARNED ABOUT THIS SPECIFIC CHANNEL & COMMUNITY (you picked this up yourself from watching their chat — use it so you sound like a real regular here: drop their in-jokes/slang when it fits, hype what THIS community cares about, match their energy). Use it for TONE only: if it happens to contain anyone's name, never repeat that name — mentioning someone the current conversation didn't bring up confuses everybody:\n${ch.profile}`;
   // Stored channel settings the bot USES in conversation, not just via their own command. Proven gap:
   // the schedule was saved by !setschedule and printed by !schedule, but never reached the AI — so asked
   // "when does he stream?" in normal chat, the bot knew nothing despite having the answer on file.
@@ -1266,12 +1266,25 @@ function foreignStreamerNamed(reply, ch, saidText) {
   if (!reply) return false;
   const here = (ch?.username || "").toLowerCase();
   const said = (saidText || "").toLowerCase();
-  for (const c of Object.values(channels)) {
-    const name = (c.username || "").toLowerCase();
-    if (!name || name === here || name.length < 4) continue;
+  // Every person the bot could possibly name: crew streamers, curated entries, and people it taught
+  // itself about. The first version only checked registered channels, which is why "dofferlive" — a
+  // viewer, not a channel owner — slipped straight through.
+  const known = new Set([
+    ...Object.values(channels).map(c => (c.username || "").toLowerCase()),
+    ...Object.keys(knownPeople),
+    ...Object.keys(learnedPeople),
+  ]);
+  // Words in the reply that could be a name. Compared BOTH ways against each known name, because the
+  // model shortens them: it wrote "Doffer" for "dofferlive", which an exact match never catches.
+  const words = (reply.toLowerCase().match(/[a-z0-9_]{5,}/g) || []);
+  for (const name of known) {
+    if (!name || name === here || name.length < 5) continue;
     if (isBotName(name)) continue;
-    if (said.includes(name)) continue; // they brought it up themselves — fair game
-    if (new RegExp("@?\\b" + name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i").test(reply)) return true;
+    if (said.includes(name)) continue;              // they raised it themselves — fair game
+    for (const w of words) {
+      if (said.includes(w)) continue;              // that word came from their own message
+      if (w === name || name.startsWith(w) || w.startsWith(name)) return true;
+    }
   }
   return false;
 }
@@ -1676,7 +1689,9 @@ async function learnChannelProfile(channelId) {
     const prompt = `You maintain a short living profile of a Blaze livestream channel, so a chat bot can sound like a true regular of THIS community.\n\n` +
       `Channel: ${ch.username}\n${ch.streamTitle ? `Current stream title: ${ch.streamTitle}\n` : ""}` +
       `Existing profile: ${ch.profile || "(none yet)"}\n\nRecent chat:\n${recent.join("\n")}\n\n` +
-      `Rewrite the profile in MAX 60 words. Capture concretely: the community's vibe/energy, recurring slang/in-jokes/phrases UNIQUE to here (name the ACTUAL words you see — e.g. a catchphrase, a community nickname), the game/topic, and how the streamer likes to be celebrated. Merge with the existing profile, keep what's still true. Output ONLY the profile text.`;
+      `Rewrite the profile in MAX 60 words. Capture the community's vibe/energy, recurring slang and catchphrases UNIQUE to here (quote the actual words), the game/topic, and how the streamer likes to be celebrated. Merge with the existing profile, keep what's still true.\n\n` +
+      `CRITICAL — NEVER include the name of ANY person, viewer, streamer or bot, except "${ch.username}" (whose channel this is). No usernames, no nicknames, no "X's shoutouts", not even as an example of a catchphrase. This profile is injected into every single reply, so a name in here gets repeated at random in unrelated moments — proven live: a profile said the chat loves "Doffer Live" shoutouts, and the bot then announced "Doffer just got a love fest!" to a chat where nobody had mentioned him. Describe HABITS, never PEOPLE.\n\n` +
+      `Output ONLY the profile text.`;
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
       model: AI_MODEL_LIGHT, messages: [{ role: "user", content: prompt }], max_tokens: 150, temperature: 0.4,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 12000 });
@@ -2689,6 +2704,7 @@ function renderControlCenter() {
       <a class="save" style="text-decoration:none;background:#3a5;" href="/admin/profiles" target="_blank">🧠 Learned profiles</a>
       <a class="save" style="text-decoration:none;background:#555;" href="/admin/blocklist" target="_blank">🚫 Blocklist</a>
       <a class="save" style="text-decoration:none;background:#555;" href="/admin/sessionstatus" target="_blank">📊 Health JSON</a>
+      <a class="save" style="text-decoration:none;background:#7a4a2c;" href="/admin/wipeprofiles" target="_blank">🧹 Reset learned profiles</a>
     </div>
     <div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:16px;">
       <form action="/admin/announce" method="get" style="flex:1;min-width:280px;">
@@ -3821,6 +3837,22 @@ app.post("/admin/addperson", async (req, res) => {
   if (name && desc) { knownPeople[name] = desc; await saveChannelsToCloud(); }
   res.redirect("/admin");
 });
+// Existing profiles were written under the old prompt, which actively invited nicknames ("name the ACTUAL
+// words you see"), so some already carry people's names and will keep leaking them until they're rewritten.
+// This clears every profile at once; each channel writes a fresh, name-free one after a bit of new chat.
+app.get("/admin/wipeprofiles", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const hit = [];
+  for (const c of Object.values(channels)) {
+    if (!c.profile) continue;
+    hit.push(c.username);
+    c.profile = "";
+    c._profileAtCount = 0; // let it relearn immediately rather than waiting for 40 fresh messages
+  }
+  await saveChannelsToCloud();
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">🧹 Cleared ${hit.length} learned channel profile(s).\n\n${esc(hit.join(", "))}\n\nEach one rewrites itself from live chat within minutes — this time without any personal names in it.\n\n<a href="/admin">← back to admin</a></pre>`);
+});
+
 app.post("/admin/dellearned", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden");
   const name = String(req.body.name || "").trim().toLowerCase().replace(/^@/, "");
