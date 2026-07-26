@@ -881,7 +881,7 @@
         "totalVotes": 1218,
         "totalSubs": 16,
         "totalChatMessages": 959,
-        "totalStreamMinutes": 2465,
+        "totalStreamMinutes": 2470,
         "emotes": {
           "📊": 3,
           "🔥": 117,
@@ -1378,7 +1378,7 @@
         "totalVotes": 4324,
         "totalSubs": 20,
         "totalChatMessages": 2089,
-        "totalStreamMinutes": 6694,
+        "totalStreamMinutes": 6699,
         "emotes": {
           "❤": 80,
           "🙌": 55,
@@ -5177,8 +5177,8 @@
       "stats": {
         "totalVotes": 2034,
         "totalSubs": 0,
-        "totalChatMessages": 139,
-        "totalStreamMinutes": 866,
+        "totalChatMessages": 144,
+        "totalStreamMinutes": 871,
         "emotes": {
           "❤": 16,
           "🙌": 8,
@@ -5186,10 +5186,10 @@
           "🔥": 6,
           "🗳": 69,
           "🔴": 11,
-          "🎉": 14,
+          "🎉": 15,
           "📴": 10,
           "👋": 10,
-          "🚨": 18,
+          "🚨": 24,
           "🥂": 1,
           "🫶": 1,
           "🦝": 1,
@@ -5216,29 +5216,9 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785064959435
+        "lastChatAt": 1785065313012
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 10 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @badger is raiding with a party of 2! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "badger",
-          "msg": "RAID!!!!!!!!!!!!!!!!!!!!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ Desirablebottom just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "desirablebottom",
           "msg": "Raaaaaaaaaaaaid"
@@ -5258,6 +5238,26 @@
         {
           "user": "botger",
           "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @LibraLives is raiding with a party of 10! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "libralives",
+          "msg": "Cute game"
+        },
+        {
+          "user": "libralives",
+          "msg": "That a money maker?"
+        },
+        {
+          "user": "libralives",
+          "msg": "How's that work? You wager to play and hopefully get more than you spent?"
+        },
+        {
+          "user": "faithy_",
+          "msg": "https://lobby.cambria.gg/?code=23ab57c7"
         }
       ],
       "customCommands": {},
@@ -6279,7 +6279,7 @@
         "totalVotes": 374,
         "totalSubs": 0,
         "totalChatMessages": 170,
-        "totalStreamMinutes": 878,
+        "totalStreamMinutes": 883,
         "emotes": {
           "❤": 11,
           "🙌": 6,
@@ -6482,8 +6482,8 @@
       "stats": {
         "totalVotes": 306,
         "totalSubs": 0,
-        "totalChatMessages": 80,
-        "totalStreamMinutes": 234,
+        "totalChatMessages": 81,
+        "totalStreamMinutes": 239,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -6519,13 +6519,9 @@
           "🚨": "🚨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785064989414
+        "lastChatAt": 1785065293967
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "botger",
           "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
@@ -6561,6 +6557,10 @@
         {
           "user": "agent00zani",
           "msg": "just lurking playing some rivals"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -6777,8 +6777,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785016000896,
   "auth": {
-    "accessToken": "7446b0ddcae1c9dc5bd4abba115a112a",
-    "refreshToken": "d9f9b5df0689dba8f06d5d4fd8c01a9e",
+    "accessToken": "807ae8c02ece549ae5aedcf971381a90",
+    "refreshToken": "05fe4a12420a095084eb45fe550512ac",
     "sessionToken": "dc2e76cca79f7975069706b22dabe9a0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
