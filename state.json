@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 2063,
         "totalSubs": 10,
-        "totalChatMessages": 966,
+        "totalChatMessages": 967,
         "totalStreamMinutes": 701,
         "emotes": {
           "❤": 49,
@@ -64,7 +64,7 @@
           "👆": 1,
           "😎": 1,
           "🦊": 1,
-          "💛": 1,
+          "💛": 4,
           "🦝": 1,
           "😩": 1,
           "🧐": 1
@@ -132,13 +132,9 @@
           "🧐": "🧐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785075283336
+        "lastChatAt": 1785084976309
       },
       "chatMemory": [
-        {
-          "user": "omom_",
-          "msg": "Was das ?"
-        },
         {
           "user": "omom_",
           "msg": "Ohaaa"
@@ -174,6 +170,10 @@
         {
           "user": "mistersupercool",
           "msg": "😂😂😂"
+        },
+        {
+          "user": "parky",
+          "msg": "💛💛💛"
         }
       ],
       "language": "en",
@@ -1389,7 +1389,7 @@
       "stats": {
         "totalVotes": 4360,
         "totalSubs": 21,
-        "totalChatMessages": 2139,
+        "totalChatMessages": 2140,
         "totalStreamMinutes": 6944,
         "emotes": {
           "❤": 82,
@@ -1551,14 +1551,10 @@
           "😳": "😳",
           "🐐": "🐐"
         },
-        "lastChatAt": 1785083961859,
+        "lastChatAt": 1785084431831,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "96.5 years old"
-        },
         {
           "user": "future42",
           "msg": "Yeah"
@@ -1594,6 +1590,10 @@
         {
           "user": "osohigh",
           "msg": "tear it up that looks fun"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Zani, have fun man"
         }
       ],
       "customCommands": {},
@@ -5851,21 +5851,21 @@
       "stats": {
         "totalVotes": 698,
         "totalSubs": 4,
-        "totalChatMessages": 190,
-        "totalStreamMinutes": 466,
+        "totalChatMessages": 195,
+        "totalStreamMinutes": 468,
         "emotes": {
           "❤": 19,
           "🙌": 8,
           "🫂": 1,
           "🥰": 6,
           "😘": 11,
-          "👋": 5,
+          "👋": 6,
           "💪": 1,
           "💚": 5,
           "🔥": 20,
           "🗳": 75,
           "🤗": 4,
-          "📴": 4,
+          "📴": 5,
           "🎁": 8,
           "🔴": 3,
           "🎉": 3,
@@ -5894,29 +5894,9 @@
           "😆": "😆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785083110328
+        "lastChatAt": 1785084593086
       },
       "chatMemory": [
-        {
-          "user": "dofferlive",
-          "msg": "yay!!"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "happy streaming @angge_wf"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "you  playinng  with friends?"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "you  feelinng good  today?!?!"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "okay 🔥🔥🔥🔥"
-        },
         {
           "user": "dofferlive",
           "msg": "tell your  friends to play  better haha"
@@ -5936,6 +5916,26 @@
         {
           "user": "dofferlive",
           "msg": "🔥🔥🔥🔥"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "damnn"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "you stopped stream so early thoooooooooooooooo"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "anggeeeee"
         }
       ],
       "customCommands": {},
@@ -5949,7 +5949,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4e3e8a6e-187e-4044-ac4b-00376f4dd2b2.gif",
       "profile": "angge_wf's community is a lively, energetic group who love to celebrate their streamer, \"Beauti,\" with affectionate slang like \"Gm\" and \"Love\" (e.g. 🫂🥰😘😘). They're a competitive gaming community who enjoy Valorant, participate in giveaways, and vote for each other. They shout \"Madagdaa umaga\" and \"Love\" to show appreciation, and affectionately call Beauti \"Beauti.",
       "_profileAtCount": 161,
-      "streamTitle": "Wayfinders PH - CHILL STREAM — VALORANT",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "botVip": true
@@ -6802,6 +6802,11 @@
     "time": {
       "note": "This person appears to be a fan of the livestreamer's content, particularly the pyro, and has a playful and humorous personality.",
       "at": 1785060457450,
+      "n": 1
+    },
+    "dofferlive": {
+      "note": "They appear to be enthusiastic about gaming, likely playing competitive games, and have a humorous and encouraging personality.",
+      "at": 1785084726967,
       "n": 1
     }
   },
