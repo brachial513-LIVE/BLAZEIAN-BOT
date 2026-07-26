@@ -2423,8 +2423,8 @@
       "stats": {
         "totalVotes": 3517,
         "totalSubs": 14,
-        "totalChatMessages": 2924,
-        "totalStreamMinutes": 2138,
+        "totalChatMessages": 2927,
+        "totalStreamMinutes": 2152,
         "emotes": {
           "❤": 58,
           "🙌": 132,
@@ -2622,17 +2622,9 @@
           "💤": "💤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1784987396731
+        "lastChatAt": 1785051212026
       },
       "chatMemory": [
-        {
-          "user": "ambi",
-          "msg": "Thank you! Good night!🩷🩷"
-        },
-        {
-          "user": "briggsy",
-          "msg": "ok"
-        },
         {
           "user": "briggsy",
           "msg": "will do"
@@ -2664,6 +2656,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @0xscheun just gave 4 vote(s) (total: 4)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "Welcome, welcome, briggsy is attempting to go live."
+        },
+        {
+          "user": "briggsy",
+          "msg": "Welcome guys"
         }
       ],
       "customCommands": {},
@@ -2673,7 +2673,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "Games and Grind - early Sunday AM edition — Farlight 84",
       "gameOverride": "",
       "profile": "Briggsy's community is a lively, humorous space celebrating creativity in Farlight 84. Expect \"Ababa\" and \"Hahaa\" cheers, slang like \"Lutk mode,\" \"Mano de Dios,\" \"GN GN!\", \"Let em eat lead,\" and \"Legend mode\" shoutouts for Briggsy's milestones. We celebrate Draw – IRL games with laughter and enthusiasm, often referencing \"Mellow\" and using unique phrases like \"Pufffs\" and \"😵‍💫🫠\".",
       "_profileAtCount": 2849,
@@ -2694,7 +2694,9 @@
           "months": 1,
           "tier": 1
         }
-      }
+      },
+      "nudgedAt": 1785051188620,
+      "nudgedKey": "schedule"
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
