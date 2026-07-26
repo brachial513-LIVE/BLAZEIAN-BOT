@@ -893,7 +893,7 @@
         "totalVotes": 1254,
         "totalSubs": 19,
         "totalChatMessages": 1025,
-        "totalStreamMinutes": 2812,
+        "totalStreamMinutes": 2816,
         "emotes": {
           "📊": 3,
           "🔥": 117,
@@ -2453,7 +2453,7 @@
       "stats": {
         "totalVotes": 4377,
         "totalSubs": 22,
-        "totalChatMessages": 3332,
+        "totalChatMessages": 3335,
         "totalStreamMinutes": 2430,
         "emotes": {
           "❤": 64,
@@ -2490,7 +2490,7 @@
           "❗": 2,
           "⭕": 13,
           "🤗": 5,
-          "👀": 175,
+          "👀": 178,
           "🙂": 9,
           "↕": 7,
           "💜": 5,
@@ -2682,21 +2682,9 @@
           "🫨": "🫨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785103086927
+        "lastChatAt": 1785103323303
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "yeah dimi, sheena and vitrene"
-        },
-        {
-          "user": "corinloch",
-          "msg": "@brachial513 :D im thinking about go live in germany"
-        },
-        {
-          "user": "brachial513",
-          "msg": "-in- ? damn wtf this is nice twist 🫨😂 you mean like IRL stream ?"
-        },
         {
           "user": "brachial513",
           "msg": "oh living"
@@ -2724,6 +2712,18 @@
         {
           "user": "brachial513",
           "msg": "i played a time ago on cod with a squad called \"Chris P. Bacon\" and \"Mon K. Ey\" 😭😂"
+        },
+        {
+          "user": "corinloch",
+          "msg": "this game remember me the old apex legends"
+        },
+        {
+          "user": "corinloch",
+          "msg": "love valorant"
+        },
+        {
+          "user": "k1ngbre4ker",
+          "msg": "👀👀👀"
         }
       ],
       "customCommands": {},
@@ -3267,7 +3267,7 @@
         "totalVotes": 3339,
         "totalSubs": 16,
         "totalChatMessages": 430,
-        "totalStreamMinutes": 1948,
+        "totalStreamMinutes": 1953,
         "emotes": {
           "❤": 27,
           "🙌": 30,
@@ -3432,9 +3432,9 @@
       "username": "grook",
       "language": "en",
       "stats": {
-        "totalVotes": 5194,
+        "totalVotes": 5307,
         "totalSubs": 110,
-        "totalChatMessages": 215,
+        "totalChatMessages": 216,
         "totalStreamMinutes": 1443,
         "emotes": {
           "❤": 33,
@@ -3446,7 +3446,7 @@
           "👍": 1,
           "📴": 13,
           "👋": 17,
-          "🗳": 18,
+          "🗳": 21,
           "🔴": 12,
           "🎉": 12,
           "🎁": 238
@@ -3467,13 +3467,9 @@
           "🎁": "🎁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785004781149
+        "lastChatAt": 1785103364668
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 grook is now live! Welcome everyone! 🎉"
@@ -3509,6 +3505,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ Desirablebottom just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @saboomafoo just gave 113 vote(s) (total: 113)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5078,7 +5078,7 @@
         "totalVotes": 1432,
         "totalSubs": 22,
         "totalChatMessages": 772,
-        "totalStreamMinutes": 1186,
+        "totalStreamMinutes": 1191,
         "emotes": {
           "❤": 75,
           "🙌": 58,
@@ -6857,13 +6857,18 @@
       "note": "They enjoy playing various games, value humor and camaraderie, and appreciate unique game mechanics and personalities.",
       "at": 1785098970477,
       "n": 1
+    },
+    "corinloch": {
+      "note": "They play games like Terraria, Farlight, and Valorant, have a humorous tone, and are proud of their streaming achievements.",
+      "at": 1785103345242,
+      "n": 1
     }
   },
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785080106930,
   "auth": {
-    "accessToken": "e85a217ae5575dfc5ee66fa555605c75",
-    "refreshToken": "4642255cf24154368a9891a38694aa76",
+    "accessToken": "af051c01982a78b7658cf6b5c16c70b3",
+    "refreshToken": "50a4ec61f37d9b3245771af7f6e5a144",
     "sessionToken": "c9d797e03a1214da46ffccec15b9236f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
