@@ -880,8 +880,8 @@
       "stats": {
         "totalVotes": 1218,
         "totalSubs": 16,
-        "totalChatMessages": 917,
-        "totalStreamMinutes": 2375,
+        "totalChatMessages": 919,
+        "totalStreamMinutes": 2380,
         "emotes": {
           "📊": 3,
           "🔥": 116,
@@ -1055,17 +1055,9 @@
           "💸": "💸"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785058542317
+        "lastChatAt": 1785059874145
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot Arcade commands: !foxhunt, !coinflip, !roll, !roll 20, !8ball your question, !rps rock/paper/scissors"
-        },
         {
           "user": "foxbotai",
           "msg": "Thank you @crypt0k1ng96 for voting with 1 votes! Fox Spirits appreciates the support. +3 FoxCoins. Balance: 89 FoxCoins."
@@ -1097,6 +1089,14 @@
         {
           "user": "foxbotai",
           "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 34 damage and earned 9 FoxCoins! Boss HP: 466/500. Your total boss damage: 34. Balance: 98 FoxCoins."
+        },
+        {
+          "user": "agent00zani",
+          "msg": "sup"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "What’s up @agent00zani"
         }
       ],
       "customCommands": {},
@@ -5455,7 +5455,7 @@
         "totalVotes": 801,
         "totalSubs": 0,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 549,
+        "totalStreamMinutes": 554,
         "emotes": {
           "🔥": 3
         },
@@ -6771,8 +6771,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785016000896,
   "auth": {
-    "accessToken": "d20820fc14d526ebf596739d21df9f12",
-    "refreshToken": "e1163a3c030ec62c828c2a3bc10e2dc2",
+    "accessToken": "2c0f4895ce4f0dbae6a4b3b9251b442e",
+    "refreshToken": "18da61ec7600ccd2f0b74504b9464cce",
     "sessionToken": "dc2e76cca79f7975069706b22dabe9a0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
