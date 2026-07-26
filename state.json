@@ -880,8 +880,8 @@
       "stats": {
         "totalVotes": 1218,
         "totalSubs": 16,
-        "totalChatMessages": 899,
-        "totalStreamMinutes": 2330,
+        "totalChatMessages": 901,
+        "totalStreamMinutes": 2335,
         "emotes": {
           "📊": 3,
           "🔥": 112,
@@ -1047,13 +1047,9 @@
           "🍝": "🍝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785018694535
+        "lastChatAt": 1785057046370
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "wife is cooking the pasta 🍝"
-        },
         {
           "user": "agent00zani",
           "msg": "yum"
@@ -1089,6 +1085,10 @@
         {
           "user": "foxbotai",
           "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
         }
       ],
       "customCommands": {},
@@ -2424,7 +2424,7 @@
         "totalVotes": 3517,
         "totalSubs": 15,
         "totalChatMessages": 2949,
-        "totalStreamMinutes": 2242,
+        "totalStreamMinutes": 2247,
         "emotes": {
           "❤": 58,
           "🙌": 133,
@@ -5447,7 +5447,7 @@
         "totalVotes": 801,
         "totalSubs": 0,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 504,
+        "totalStreamMinutes": 509,
         "emotes": {
           "🔥": 3
         },
@@ -6758,8 +6758,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785016000896,
   "auth": {
-    "accessToken": "5fe5c770a46f6087888879afe022ec0f",
-    "refreshToken": "7e852420d23fa99b477e468ae86339a9",
+    "accessToken": "d20820fc14d526ebf596739d21df9f12",
+    "refreshToken": "e1163a3c030ec62c828c2a3bc10e2dc2",
     "sessionToken": "dc2e76cca79f7975069706b22dabe9a0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
