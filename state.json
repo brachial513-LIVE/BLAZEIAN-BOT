@@ -892,7 +892,7 @@
       "stats": {
         "totalVotes": 1218,
         "totalSubs": 17,
-        "totalChatMessages": 969,
+        "totalChatMessages": 971,
         "totalStreamMinutes": 2715,
         "emotes": {
           "📊": 3,
@@ -1067,13 +1067,9 @@
           "💸": "💸"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785082307110
+        "lastChatAt": 1785082637814
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "When do i get my hugs ?  do I have to come to you to get ?"
-        },
         {
           "user": "agent00zani",
           "msg": "🥰\\"
@@ -1109,6 +1105,10 @@
         {
           "user": "foxbotai",
           "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 45 damage and earned 8 FoxCoins! Boss HP: 341/500. Your total boss damage: 159. Balance: 141 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 40 damage and earned 16 FoxCoins! Boss HP: 301/500. Your total boss damage: 199. Balance: 157 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -5851,8 +5851,8 @@
       "stats": {
         "totalVotes": 698,
         "totalSubs": 4,
-        "totalChatMessages": 183,
-        "totalStreamMinutes": 442,
+        "totalChatMessages": 188,
+        "totalStreamMinutes": 446,
         "emotes": {
           "❤": 19,
           "🙌": 7,
@@ -5862,7 +5862,7 @@
           "👋": 5,
           "💪": 1,
           "💚": 5,
-          "🔥": 12,
+          "🔥": 16,
           "🗳": 75,
           "🤗": 4,
           "📴": 4,
@@ -5870,7 +5870,8 @@
           "🔴": 3,
           "🎉": 3,
           "👍": 4,
-          "😍": 4
+          "😍": 4,
+          "😆": 6
         },
         "emoteNames": {
           "❤": "❤",
@@ -5889,32 +5890,13 @@
           "🔴": "🔴",
           "🎉": "🎉",
           "👍": "👍",
-          "😍": "😍"
+          "😍": "😍",
+          "😆": "😆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785082209250
+        "lastChatAt": 1785082680447
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "hi hi"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "how are you doing angge 😍😍😍😍"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "@blazeian_bot_ai dont make everything i say to you talkinng point"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "where is  the cam?"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "had  good  rounnd  🔥🔥🔥🔥😘"
-        },
         {
           "user": "dofferlive",
           "msg": "nnnooooooooooo"
@@ -5934,6 +5916,26 @@
         {
           "user": "dofferlive",
           "msg": "you  playinng  with friends?"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "you  feelinng good  today?!?!"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "okay 🔥🔥🔥🔥"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "tell your  friends to play  better haha"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "😆😆😆😆😆😆"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "yoou got this"
         }
       ],
       "customCommands": {},
@@ -6806,8 +6808,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785080106930,
   "auth": {
-    "accessToken": "059d0a6637a295261412caa7d959372e",
-    "refreshToken": "3ba8802163c3f3c65cb7935988fff96e",
+    "accessToken": "b177b2a9ddde813c3c5245818dcdb2cb",
+    "refreshToken": "ce71fec9dff89b981860863ef54351b4",
     "sessionToken": "1ec9e4635b8c48c856e3cee40c1aee1d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
