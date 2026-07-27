@@ -6785,20 +6785,26 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 3,
+        "totalChatMessages": 5,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
           "🙌": 1,
-          "👋": 1
+          "👋": 1,
+          "🔥": 1,
+          "🤝": 1,
+          "💚": 1
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
-          "👋": "👋"
+          "👋": "👋",
+          "🔥": "🔥",
+          "🤝": "🤝",
+          "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785110264102
+        "lastChatAt": 1785138309741
       },
       "chatMemory": [
         {
@@ -6808,6 +6814,14 @@
         {
           "user": "botger",
           "msg": "botger is signing off. Goodbye! 👋"
+        },
+        {
+          "user": "brachial513",
+          "msg": "Hey gm @panipeys ! Thank you so much for using Blazeian_Bot_AI  ! You now also have 1 permantly free Entry for my weekly Giveaway on Blaze ( win up to 400 votes and more ) 🔥🤝🏼💚"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai just be nice to @panipeys and his Community"
         }
       ],
       "customCommands": {},
@@ -6933,8 +6947,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785080106930,
   "auth": {
-    "accessToken": "2ccadc2a2010fafba8e3e05405c330cb",
-    "refreshToken": "738c3693ba389498a56fd64f34130d8c",
+    "accessToken": "ff7cc3d7a4084df5d1b46592c1fa8f31",
+    "refreshToken": "b36ff74214ba854610b7ad37bbb77a65",
     "sessionToken": "c9d797e03a1214da46ffccec15b9236f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
