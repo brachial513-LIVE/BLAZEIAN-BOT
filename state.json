@@ -892,11 +892,11 @@
       "stats": {
         "totalVotes": 1259,
         "totalSubs": 19,
-        "totalChatMessages": 1033,
+        "totalChatMessages": 1036,
         "totalStreamMinutes": 2822,
         "emotes": {
           "📊": 3,
-          "🔥": 117,
+          "🔥": 118,
           "🤣": 9,
           "💚": 39,
           "❤": 4,
@@ -910,10 +910,10 @@
           "👑": 28,
           "⭐": 8,
           "🏆": 47,
-          "🤗": 14,
-          "💪": 14,
-          "🎁": 81,
-          "💎": 39,
+          "🤗": 15,
+          "💪": 15,
+          "🎁": 82,
+          "💎": 40,
           "😶": 4,
           "🌫": 4,
           "🪙": 3,
@@ -923,14 +923,14 @@
           "💧": 5,
           "🧊": 5,
           "🧘": 4,
-          "✨": 35,
+          "✨": 36,
           "📜": 4,
           "🎬": 18,
           "✂": 4,
           "👀": 8,
           "💜": 4,
-          "🌟": 19,
-          "📣": 3,
+          "🌟": 20,
+          "📣": 4,
           "🔗": 6,
           "🏷": 3,
           "🗳": 3,
@@ -957,7 +957,7 @@
           "🎤": 14,
           "🌙": 14,
           "🌈": 1,
-          "🧡": 1,
+          "🧡": 2,
           "😍": 2,
           "💃": 3,
           "😌": 1,
@@ -1069,21 +1069,9 @@
           "💔": "💔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785140939376
+        "lastChatAt": 1785142631948
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "Rock Paper Scissors: @crypt0k1ng96 chose paper, FoxBot chose paper. It's a tie!"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "Rock Paper Scissors: @crypt0k1ng96 chose scissors, FoxBot chose rock. FoxBot wins!"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "GGs @foxbotai"
-        },
         {
           "user": "foxbotai",
           "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
@@ -1111,6 +1099,18 @@
         {
           "user": "foxbotai",
           "msg": "Point amount must be greater than 0."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "FoxBot Reward Shop: hug 🤗 10 FoxCoins | hype 🔥 25 FoxCoins | flex 💪 50 FoxCoins | mysterybox 🎁 75 FoxCoins | sponsor 💎 150 FoxCoins | Use !redeem rewardname"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "📣🌟 REDEEMED! @testviewer claimed Stream Shoutout for 500 FoxCoins! ✨ Pending streamer approval 🧡 | Full viewer shoutout."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Use !addreward name cost message. Example: !addreward hydrate 25 @{username} redeemed hydrate!"
         }
       ],
       "customCommands": {},
@@ -5245,7 +5245,7 @@
         "totalVotes": 2245,
         "totalSubs": 0,
         "totalChatMessages": 167,
-        "totalStreamMinutes": 1045,
+        "totalStreamMinutes": 1065,
         "emotes": {
           "❤": 18,
           "🙌": 9,
