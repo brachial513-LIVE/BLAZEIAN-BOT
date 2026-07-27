@@ -26,6 +26,8 @@ BlazeianBot isn't a canned-response bot — it actually reads what people say an
 - **Personal opt-out** — anyone can type `!ignoreme` to stop the bot replying to them specifically, in any channel, no streamer involvement needed
 - **Person memory** — the bot recognises crew streamers everywhere automatically, and quietly builds up short notes on the regulars it talks to, so it knows who it's speaking to without anyone maintaining a list
 - **Setup nudges** — once per channel, on a quiet moment, it offers the owner a feature they haven't set up yet instead of waiting to be read about
+- **Giveaway awareness** — it knows the real details of the weekly crew giveaway (entries, prizes, past winners) and drops a fitting one into conversation, never invented
+- **Knows when to stay quiet** — tell it to leave you alone and it actually does, it won't welcome people who were already in chat, and it won't name someone the conversation never mentioned
 
 Every streamer manages only their own channel from their own dashboard — the bot never mixes context between channels.
 
