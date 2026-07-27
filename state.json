@@ -893,7 +893,7 @@
         "totalVotes": 1260,
         "totalSubs": 20,
         "totalChatMessages": 1093,
-        "totalStreamMinutes": 3086,
+        "totalStreamMinutes": 3091,
         "emotes": {
           "📊": 3,
           "🔥": 119,
@@ -4991,7 +4991,7 @@
         "totalVotes": 3579,
         "totalSubs": 70,
         "totalChatMessages": 301,
-        "totalStreamMinutes": 511,
+        "totalStreamMinutes": 516,
         "emotes": {
           "❤": 12,
           "🙌": 76,
@@ -5903,10 +5903,10 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 1252,
+        "totalVotes": 1272,
         "totalSubs": 6,
-        "totalChatMessages": 216,
-        "totalStreamMinutes": 597,
+        "totalChatMessages": 219,
+        "totalStreamMinutes": 602,
         "emotes": {
           "❤": 21,
           "🙌": 11,
@@ -5917,7 +5917,7 @@
           "💪": 1,
           "💚": 5,
           "🔥": 20,
-          "🗳": 84,
+          "🗳": 87,
           "🤗": 4,
           "📴": 5,
           "🎁": 12,
@@ -5948,21 +5948,9 @@
           "😆": "😆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785165689777
+        "lastChatAt": 1785167981051
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Ruri666 just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 angge_wf is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "agent00zani",
           "msg": "gm gm gm gm gm"
@@ -5990,6 +5978,18 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 20 votes, @Lionheart!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Lionheart just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "lionheart",
+          "msg": "Have a great stream"
         }
       ],
       "customCommands": {},
@@ -6016,7 +6016,7 @@
         "totalVotes": 311,
         "totalSubs": 4,
         "totalChatMessages": 57,
-        "totalStreamMinutes": 317,
+        "totalStreamMinutes": 322,
         "emotes": {
           "❤": 5,
           "🙌": 6,
@@ -6974,8 +6974,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785080106930,
   "auth": {
-    "accessToken": "b705f7def2af362cb82440f2e940acf0",
-    "refreshToken": "abe44f8f2a247a8bb13e13ab9999a260",
+    "accessToken": "d913a0401ec3d0d9ea24b97861e86268",
+    "refreshToken": "5033cc552ac37cd0f3f0a40875912925",
     "sessionToken": "c9d797e03a1214da46ffccec15b9236f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
