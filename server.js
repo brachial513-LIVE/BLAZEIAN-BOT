@@ -2814,6 +2814,11 @@ function renderControlCenter() {
       <input name="u" placeholder="username">
       <button class="save" style="margin-top:8px;background:#555;">Unblock</button>
     </form>
+    <form onsubmit="if(this.u.value){location.href='/admin/resetnudge/'+encodeURIComponent(this.u.value.trim());}return false;" style="margin-top:12px;">
+      <label>♻️ Give a streamer their setup tip back (if theirs landed badly)</label>
+      <input name="u" placeholder="e.g. lady_iris">
+      <button class="save" style="margin-top:8px;background:#555;">Reset nudge</button>
+    </form>
     <form onsubmit="if(this.u.value){location.href='/admin/friendbot/'+encodeURIComponent(this.u.value.trim());}return false;" style="margin-top:12px;">
       <label>🤝 Add a friend bot (Blazeian banters with it like a buddy)</label>
       <input name="u" placeholder="e.g. cinder, foxbot">
@@ -3961,6 +3966,20 @@ app.get("/admin/wipeprofiles", async (req, res) => {
   }
   await saveChannelsToCloud();
   res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">🧹 Cleared ${hit.length} learned channel profile(s).\n\n${esc(hit.join(", "))}\n\nEach one rewrites itself from live chat within minutes — this time without any personal names in it.\n\n<a href="/admin">← back to admin</a></pre>`);
+});
+
+// Gives a channel its one setup tip back. The nudge is deliberately once-per-channel-forever, so a tip
+// that landed badly (lady_iris got hers in English, mid-conversation, before those two bugs were fixed)
+// would otherwise mean that streamer never gets a proper one. Reusable rather than a one-off edit.
+app.get("/admin/resetnudge/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const cid = findChannelByUsername(req.params.username);
+  if (!cid) return res.send(`<pre>Channel "${esc(req.params.username)}" not found.</pre>`);
+  const ch = channels[cid];
+  const had = !!ch.nudgedAt;
+  delete ch.nudgedAt; delete ch.nudgedKey;
+  await saveChannelsToCloud();
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">${had ? "♻️ Reset" : "ℹ️ Nothing to reset — hadn't been nudged yet"}: ${esc(ch.username)}\n\nThey can receive one setup tip again — this time in their own language and only during a real lull.\n\n<a href="/admin">← back to admin</a></pre>`);
 });
 
 app.post("/admin/setgiveaway", async (req, res) => {
