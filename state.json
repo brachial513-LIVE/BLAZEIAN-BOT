@@ -1647,7 +1647,7 @@
       "stats": {
         "totalVotes": 4378,
         "totalSubs": 2,
-        "totalChatMessages": 4171,
+        "totalChatMessages": 4172,
         "totalStreamMinutes": 1411,
         "emotes": {
           "❤": 1661,
@@ -1689,7 +1689,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 13,
-          "💜": 139,
+          "💜": 140,
           "🧔": 1,
           "🤺": 1,
           "🥳": 5,
@@ -1801,16 +1801,12 @@
           "💊": "💊",
           "🖐": "🖐"
         },
-        "lastChatAt": 1785176914631,
-        "sendFailStreak": 75,
-        "lastSendFailAt": 1785176887812,
+        "lastChatAt": 1785178080724,
+        "sendFailStreak": 76,
+        "lastSendFailAt": 1785178081142,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 7 votes, @MakesOnlyBeats!"
-        },
         {
           "user": "rob_osp",
           "msg": "@makesonlybeats — thanks for the 7 votes! 🗳️ Every vote helps."
@@ -1846,6 +1842,10 @@
         {
           "user": "rob_osp",
           "msg": "@badger — thanks for the 25 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         }
       ],
       "customCommands": {},
@@ -4118,23 +4118,23 @@
       "stats": {
         "totalVotes": 2775,
         "totalSubs": 10,
-        "totalChatMessages": 2348,
-        "totalStreamMinutes": 1785,
+        "totalChatMessages": 2363,
+        "totalStreamMinutes": 1790,
         "emotes": {
           "🧏": 1,
           "♂": 1,
-          "👀": 13,
+          "👀": 14,
           "🔥": 125,
           "🙃": 4,
           "😛": 2,
           "🤭": 2,
           "😉": 3,
-          "😭": 12,
+          "😭": 16,
           "🤣": 128,
           "👋": 7,
           "❤": 56,
           "😆": 8,
-          "😂": 31,
+          "😂": 32,
           "🤘": 32,
           "🎵": 5,
           "💀": 4,
@@ -4158,7 +4158,7 @@
           "🥰": 6,
           "😊": 4,
           "👍": 2,
-          "🙌": 15,
+          "🙌": 17,
           "🤩": 1,
           "😏": 4,
           "😃": 4,
@@ -4196,7 +4196,9 @@
           "🗿": 2,
           "🍷": 2,
           "🫡": 1,
-          "🩷": 3
+          "🩷": 3,
+          "🤗": 1,
+          "😬": 1
         },
         "emoteNames": {
           "🧏": "🧏",
@@ -4274,51 +4276,53 @@
           "🗿": "🗿",
           "🍷": "🍷",
           "🫡": "🫡",
-          "🩷": "🩷"
+          "🩷": "🩷",
+          "🤗": "🤗",
+          "😬": "😬"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785177832641
+        "lastChatAt": 1785177952127
       },
       "chatMemory": [
         {
+          "user": "triz_draw",
+          "msg": "MONDAY"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "yess"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "ohhhh"
+        },
+        {
           "user": "bidlo_bot",
-          "msg": "@sinnerz Added \"System of a Down - Hypnotize\" to the queue! (Position #2)"
-        },
-        {
-          "user": "sinnerz",
-          "msg": "💀💀"
-        },
-        {
-          "user": "haircoolass",
-          "msg": "where is my song ?"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "Good! For a Monday"
+          "msg": "@agent00zani Added \"Sum 41 - The Hell Song\" to the queue! (Position #3)"
         },
         {
           "user": "triz_draw",
-          "msg": "Holii Legend!"
+          "msg": "It doesn't work here @agent00zani"
         },
         {
           "user": "triz_draw",
-          "msg": "🙌🙌🙌🙌🙌"
+          "msg": "👀😬"
         },
         {
           "user": "triz_draw",
-          "msg": "I hope you're off to a great start this week"
+          "msg": "no botger ahhaahha"
         },
         {
           "user": "triz_draw",
           "msg": "🙌🙌"
         },
         {
-          "user": "haircoolass",
-          "msg": "well done"
+          "user": "triz_draw",
+          "msg": "😂"
         },
         {
-          "user": "agent00zani",
-          "msg": "sup"
+          "user": "triz_draw",
+          "msg": "😭😭😭😭"
         }
       ],
       "customCommands": {},
@@ -4553,7 +4557,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
-      "streamTitle": "",
+      "streamTitle": "FOXSPIRITS | COLABORADOR MSNXCURATOR MAPLESTORY — MapleStory",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0
@@ -4668,7 +4672,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 33,
-        "totalStreamMinutes": 2323,
+        "totalStreamMinutes": 2328,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -6487,7 +6491,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 115,
-        "totalStreamMinutes": 272,
+        "totalStreamMinutes": 277,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -6978,8 +6982,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785169531629,
   "auth": {
-    "accessToken": "cae0256e7bb75c542d94153955c61e44",
-    "refreshToken": "344949e1504c4d75711cbde73cb0b62e",
+    "accessToken": "c9e3007bdc7ea1af2e1c6f8181764070",
+    "refreshToken": "ad0b2dacb4d8ff73ddb6505b081c95c4",
     "sessionToken": "dcfe21c248b5cfdfb994bbdae72bd5eb",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
