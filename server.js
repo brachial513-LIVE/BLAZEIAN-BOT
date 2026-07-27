@@ -183,6 +183,7 @@ function applyLoadedState(record) {
   if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
   if (Array.isArray(record.optedOutUsers)) optedOutUsers = record.optedOutUsers;
   if (record.learnedPeople && typeof record.learnedPeople === "object") learnedPeople = record.learnedPeople;
+  if (typeof record.giveawayInfo === "string") giveawayInfo = record.giveawayInfo;
   if (Array.isArray(record.friendBots)) friendBots = record.friendBots;
   // Cloud people first, then SEED wins for core entries — so corrections shipped in code
   // always take effect even if an outdated copy is stored in state.json.
@@ -259,6 +260,7 @@ async function _writeStateToGitHub() {
     friendBots,
     knownPeople,
     learnedPeople,
+    giveawayInfo,
     lastAnnouncedVersion,
     lastOnlineAnnounceAt,
     auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
@@ -1281,9 +1283,10 @@ const META_ONLY_RE = /\b(in character|blazeian[- ]style|as requested|as you aske
 // present. The persona forbids it, but a rule alone hasn't held, so the output is checked: if a reply
 // names a crew streamer who is neither the channel owner nor mentioned in what was actually said, the
 // reply is thrown away and a safe written line is used instead.
-function foreignStreamerNamed(reply, ch, saidText) {
+function foreignStreamerNamed(reply, ch, saidText, speaker) {
   if (!reply) return false;
   const here = (ch?.username || "").toLowerCase();
+  const talkingTo = (speaker || "").toLowerCase();
   const said = (saidText || "").toLowerCase();
   // Every person the bot could possibly name: crew streamers, curated entries, and people it taught
   // itself about. The first version only checked registered channels, which is why "dofferlive" — a
@@ -1298,6 +1301,7 @@ function foreignStreamerNamed(reply, ch, saidText) {
   const words = (reply.toLowerCase().match(/[a-z0-9_]{5,}/g) || []);
   for (const name of known) {
     if (!name || name === here || name.length < 5) continue;
+    if (name === talkingTo) continue;               // naming the person you're replying to is normal, not a namedrop
     if (isBotName(name)) continue;
     if (said.includes(name)) continue;              // they raised it themselves — fair game
     for (const w of words) {
@@ -1486,6 +1490,19 @@ function buildWebsiteInfoBlock() {
     `Streamers currently in your crew: ${crewCount}`;
 }
 
+// GIVEAWAY INFO — facts about Brachial513's weekly Blaze giveaway, editable from /admin. Proven need:
+// when he welcomed a new crew member and explained their free entry, the bot had nothing to add and fell
+// back to a generic "ask me anything" line. With real facts it can join in properly — confirm the perk,
+// name past winners, mention which round it is — instead of standing there like it heard nothing.
+let giveawayInfo = "";
+const GIVEAWAY_RE = /\b(giveaway|verlosung|gewinnspiel|entry|entries|raffle|winner|gewinner|sorteio)\b/i;
+function looksLikeGiveawayQuery(msg) { return GIVEAWAY_RE.test(msg || ""); }
+function buildGiveawayBlock() {
+  if (!giveawayInfo) return "";
+  return `\n\nGIVEAWAY INFO (real facts about Brachial513's weekly giveaway, written by him — use ONLY these, never invent numbers, winners or prizes):\n${giveawayInfo}\n` +
+    `Bring a fact in only when it genuinely fits the moment. If someone is being welcomed or thanked, agree warmly and add ONE real detail — never recite the whole list.`;
+}
+
 async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   if (!AI_KEY) return null;
   const channelName = ch?.username || "the";
@@ -1530,6 +1547,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   // WEBSITE INFO: questions about the website/comics/dashboard get the real link + comic list
   // instead of the bot denying it has a website — see buildWebsiteInfoBlock() above.
   const websiteInfoBlock = looksLikeWebsiteInfoQuery(userMessage) ? buildWebsiteInfoBlock() : "";
+  const giveawayBlock = looksLikeGiveawayQuery(userMessage) ? buildGiveawayBlock() : "";
   try {
     // CONVERSATION MEMORY: give the model the last few chat lines so it replies IN CONTEXT instead of
     // to one isolated message (that's what made it feel "drunk"/random). Cheap, and hugely more human.
@@ -1545,7 +1563,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
         { role: "system", content: BOT_PERSONA + channelContext(ch) +
           `\n\nRECENT CHAT is provided so you understand the ongoing conversation. Reply to the LAST message from ${username} in the natural flow — reference what was just said if it's relevant, don't repeat yourself, and don't answer as if you have no context.` },
         ...historyMsgs,
-        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${searchBlock}${crewStatsBlock}${websiteInfoBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${searchBlock}${crewStatsBlock}${websiteInfoBlock}${giveawayBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
       ],
       max_tokens: 120,
       // 0.9 gave the most "alive" replies but also let language-mixing slip through more often
@@ -1558,7 +1576,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
     text = text.replace(/^["']|["']$/g, "").replace(new RegExp("^@?" + username + "[,:\\s]+", "i"), "").trim();
     text = stripCannedRedirect(stripMetaPreamble(text));
     if (!text) return null;
-    if (foreignStreamerNamed(text, ch, userMessage)) {
+    if (foreignStreamerNamed(text, ch, userMessage, username)) {
       console.log(`[AI] dropped a reply naming an unrelated streamer in ${ch?.username}'s channel`);
       return null;
     }
@@ -1617,7 +1635,7 @@ async function aiShout(ch, instruction, { addName } = {}) {
     let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
     text = stripCannedRedirect(stripMetaPreamble(text));
     if (!text) return null; // null → the caller falls back to a written line, which is always safe
-    if (foreignStreamerNamed(text, ch, instruction)) {
+    if (foreignStreamerNamed(text, ch, instruction, addName)) {
       console.log(`[SHOUT] dropped a reply naming an unrelated streamer in ${ch.username}'s channel`);
       return null;
     }
@@ -1667,7 +1685,10 @@ function noteMessageTime(channelId) {
 function chatIsQuiet(channelId) {
   const a = msgTimes[channelId] || [];
   const now = Date.now();
-  return a.filter(t => now - t <= 90000).length <= 3; // ≤3 messages in the last 90s
+  // Strict on purpose. The first version allowed up to 3 messages in 90s and fired straight into a running
+  // two-person conversation (lady_iris and a viewer were mid-exchange) — exactly the interruption this was
+  // meant to prevent. Now it needs a genuine lull: nothing but the owner's own message in the last 90s.
+  return a.filter(t => now - t <= 90000).length <= 1;
 }
 
 const NUDGES = [
@@ -1677,9 +1698,11 @@ const NUDGES = [
     text: u => `@${u} quick one: you can give me your own command, like !addcmd discord https://... — then anyone typing !discord gets it instantly 💚 (that's it, I won't nag again)` },
 ];
 
-async function maybeNudgeOwner(channelId, speaker) {
+async function maybeNudgeOwner(channelId, speaker, ownerMsg) {
   const ch = channels[channelId];
   if (!ch || channelId === BOT_CHANNEL_ID) return;
+  // If the owner is talking TO someone, they're in a conversation — cutting in with a setup tip is rude.
+  if (ownerMsg && (/@\w+/.test(ownerMsg) || /\b(oi|hi|hey|hello|hallo|ola|olá)\b\s+[a-z0-9_]{2,}/i.test(ownerMsg))) return;
   if (ch.nudgedAt) return;                                   // one per channel, ever
   if (speaker.toLowerCase() !== ch.username.toLowerCase()) return;  // only to the owner, while they're here
   if (!ch.profile) return;                                   // bot hasn't settled into this channel yet
@@ -1698,7 +1721,9 @@ async function maybeNudgeOwner(channelId, speaker) {
   ch.nudgedKey = pick.key;
   saveChannels();
   console.log(`[NUDGE] ${ch.username}: suggested ${pick.key}`);
-  await sendChat(channelId, pick.text(ch.username));
+  // sendChatT, not sendChat: the tip is written in English but the channel may not be. Proven live —
+  // lady_iris runs a Portuguese chat and got the English version, which is worse than saying nothing.
+  await sendChatT(channelId, pick.text(ch.username));
 }
 
 // Who has already spoken in a channel recently. Without this the bot "welcomes" people who have been
@@ -2422,7 +2447,7 @@ async function handleEvent(message) {
         recordSample(channelId, user, msg); // feed the self-learning channel profile
         if (!senderIsBot) {
           recordPersonSample(user, msg); // feed the per-person memory distiller
-          maybeNudgeOwner(channelId, user).catch(() => {});
+          maybeNudgeOwner(channelId, user, msg).catch(() => {});
         }
       }
       saveChannels();
@@ -2796,6 +2821,7 @@ function renderControlCenter() {
       <p class="hint">See all: <a href="/admin/friendbots" target="_blank">/admin/friendbots</a></p>
     </form>
   </div>
+  ${renderGiveawaySection()}
   ${renderActivityLeaderboard()}
   ${renderPeopleSection()}
   ${renderLearnedPeopleSection()}`;
@@ -2916,6 +2942,25 @@ function renderPeopleSection() {
       <button class="save" style="margin-top:8px;">Add / update person</button>
     </form>
     <div style="margin-top:14px;">${rows}</div>
+  </div>`;
+}
+
+// Facts about the weekly giveaway that the bot may bring up. Free text on purpose: the interesting bits
+// (which round it is, who won what, what the top prize was) change every week and only Brachial knows them.
+function renderGiveawaySection() {
+  return `
+  <h2>🎁 Giveaway Facts <span style="font-size:13px;color:#8aa;">— what Blazeian may say about it</span></h2>
+  <div class="card">
+    <p class="hint" style="margin-top:0;">Write down what he's allowed to mention when the giveaway comes up in chat — which round it is, past winners, the biggest prize so far, how entries work. He'll weave in ONE fitting detail at a time, never the whole list, and he can't invent anything that isn't written here. Leave it empty and he simply won't bring up specifics.</p>
+    <form method="POST" action="/admin/setgiveaway">
+      <textarea name="info" rows="7" placeholder="e.g.
+Runs every week, ends with the Blaze epoch. Prizes up to 400 votes.
+20 votes = 1 entry · 1 sub = 3 entries · 1 gifted sub = 5 entries.
+Anyone using BlazeianBot gets 1 permanent free entry every week.
+Special NFTs have gone to Future42 and Vitrene so far.
+This is round 14.">${esc(giveawayInfo)}</textarea>
+      <button class="save" style="margin-top:8px;">Save giveaway facts</button>
+    </form>
   </div>`;
 }
 
@@ -3918,6 +3963,12 @@ app.get("/admin/wipeprofiles", async (req, res) => {
   res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">🧹 Cleared ${hit.length} learned channel profile(s).\n\n${esc(hit.join(", "))}\n\nEach one rewrites itself from live chat within minutes — this time without any personal names in it.\n\n<a href="/admin">← back to admin</a></pre>`);
 });
 
+app.post("/admin/setgiveaway", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden");
+  giveawayInfo = String(req.body.info || "").trim().slice(0, 1200);
+  await saveChannelsToCloud();
+  res.redirect("/admin");
+});
 app.post("/admin/dellearned", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden");
   const name = String(req.body.name || "").trim().toLowerCase().replace(/^@/, "");
