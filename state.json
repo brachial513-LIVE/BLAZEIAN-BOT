@@ -5077,9 +5077,7 @@
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1087d984-7048-475d-b8f9-c93c14eefc15.gif",
       "profile": "lady_iris's community is a lively bunch of enthusiasts who love cszinho, Dota, and ARPGs, often using slang like \"vai\" and \"yuppie\" to express excitement. They adore when lady_iris is playing her Tetris build, and celebrate with \"yayyyyyyyy\" and \"yuppiiiiii\" when she's on a roll. They appreciate shoutouts and love to see lady_iris's \"S2\" moments.",
-      "_profileAtCount": 277,
-      "nudgedAt": 1785166703602,
-      "nudgedKey": "schedule"
+      "_profileAtCount": 277
     },
     "d415dbbe-f2bf-4a91-b670-2e41987b6660": {
       "username": "parky",
@@ -5905,7 +5903,7 @@
       "stats": {
         "totalVotes": 1272,
         "totalSubs": 6,
-        "totalChatMessages": 221,
+        "totalChatMessages": 223,
         "totalStreamMinutes": 622,
         "emotes": {
           "❤": 21,
@@ -5913,13 +5911,13 @@
           "🫂": 1,
           "🥰": 7,
           "😘": 11,
-          "👋": 6,
+          "👋": 7,
           "💪": 1,
           "💚": 5,
           "🔥": 20,
           "🗳": 87,
           "🤗": 4,
-          "📴": 5,
+          "📴": 6,
           "🎁": 12,
           "🔴": 4,
           "🎉": 4,
@@ -5948,17 +5946,9 @@
           "😆": "😆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785169289612
+        "lastChatAt": 1785172927926
       },
       "chatMemory": [
-        {
-          "user": "xeukuxaixang",
-          "msg": "magadga umaga"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "phantom is better than vandal"
-        },
         {
           "user": "xeukuxaixang",
           "msg": "my opnion"
@@ -5990,6 +5980,14 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6977,7 +6975,7 @@
   "auth": {
     "accessToken": "2ec8d468fea0b97bda7c81a774d63f91",
     "refreshToken": "274a8a321168c09814fc4967bcfabde7",
-    "sessionToken": "8d991a8df055c42136ca04777fdffb6a",
+    "sessionToken": "dcfe21c248b5cfdfb994bbdae72bd5eb",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
