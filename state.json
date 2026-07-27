@@ -1391,8 +1391,8 @@
       "stats": {
         "totalVotes": 4622,
         "totalSubs": 21,
-        "totalChatMessages": 2172,
-        "totalStreamMinutes": 6958,
+        "totalChatMessages": 2177,
+        "totalStreamMinutes": 6963,
         "emotes": {
           "❤": 84,
           "🙌": 59,
@@ -1439,7 +1439,7 @@
           "🩷": 1,
           "🎰": 14,
           "😜": 1,
-          "😀": 3,
+          "😀": 4,
           "🤘": 4,
           "😣": 1,
           "🤣": 13,
@@ -1553,30 +1553,10 @@
           "😳": "😳",
           "🐐": "🐐"
         },
-        "lastChatAt": 1785148781577,
+        "lastChatAt": 1785149301396,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "😏"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "😂"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "You're welcome mister Zani man"
-        },
         {
           "user": "agent00zani",
           "msg": "ty ty"
@@ -1596,6 +1576,26 @@
         {
           "user": "agent00zani",
           "msg": "hope your day is awesome"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "Did you see Blade Runner ?"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "The movie"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "100%"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "😀"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "Sci-FI"
         }
       ],
       "customCommands": {},
@@ -6947,8 +6947,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785080106930,
   "auth": {
-    "accessToken": "9354d9e58481f7681eeb4cca16c97c48",
-    "refreshToken": "d09bdc6a8e332df12cf3e4198bd68fc5",
+    "accessToken": "834b53e3e018ebaf7e625f24b3ea1a6d",
+    "refreshToken": "0e7ab87b83d5189578256c371ef0daa3",
     "sessionToken": "c9d797e03a1214da46ffccec15b9236f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
