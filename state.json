@@ -1639,7 +1639,7 @@
       "stats": {
         "totalVotes": 4352,
         "totalSubs": 2,
-        "totalChatMessages": 4169,
+        "totalChatMessages": 4170,
         "totalStreamMinutes": 1411,
         "emotes": {
           "❤": 1661,
@@ -1681,7 +1681,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 13,
-          "💜": 138,
+          "💜": 139,
           "🧔": 1,
           "🤺": 1,
           "🥳": 5,
@@ -1793,16 +1793,12 @@
           "💊": "💊",
           "🖐": "🖐"
         },
-        "lastChatAt": 1785106486083,
-        "sendFailStreak": 72,
-        "lastSendFailAt": 1785106467071,
+        "lastChatAt": 1785122280828,
+        "sendFailStreak": 73,
+        "lastSendFailAt": 1785122281347,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
         {
           "user": "rob_osp",
           "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
@@ -1838,6 +1834,10 @@
         {
           "user": "rob_osp",
           "msg": "@smrt — thanks for the 6 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         }
       ],
       "customCommands": {},
@@ -5245,7 +5245,7 @@
         "totalVotes": 2243,
         "totalSubs": 0,
         "totalChatMessages": 159,
-        "totalStreamMinutes": 933,
+        "totalStreamMinutes": 938,
         "emotes": {
           "❤": 18,
           "🙌": 9,
@@ -6931,8 +6931,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785080106930,
   "auth": {
-    "accessToken": "1619f66e4873793ed065b8c82f169c82",
-    "refreshToken": "215e49caa99f88929a8c8368098cffc3",
+    "accessToken": "4445906e1240e835f24a4f05631922f0",
+    "refreshToken": "b10f0d1fe6f438cfcae91f46471a9438",
     "sessionToken": "c9d797e03a1214da46ffccec15b9236f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
