@@ -892,7 +892,7 @@
       "stats": {
         "totalVotes": 1260,
         "totalSubs": 20,
-        "totalChatMessages": 1095,
+        "totalChatMessages": 1096,
         "totalStreamMinutes": 3111,
         "emotes": {
           "📊": 3,
@@ -903,7 +903,7 @@
           "😜": 1,
           "✌": 3,
           "😊": 2,
-          "👋": 1,
+          "👋": 2,
           "🚀": 6,
           "🦊": 75,
           "😂": 13,
@@ -1077,13 +1077,9 @@
           "🦕": "🦕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785169319436
+        "lastChatAt": 1785171777919
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "@testviewer, !powerattack is on cooldown. Try again in 8s."
-        },
         {
           "user": "foxbotai",
           "msg": "Community Quest Started: foxhunt 0/10. Reward: 100 FoxCoins for everyone who claims after completion."
@@ -1119,6 +1115,10 @@
         {
           "user": "fluffy",
           "msg": "💃💃"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Hi @fluffy 👋"
         }
       ],
       "customCommands": {},
