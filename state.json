@@ -4020,8 +4020,8 @@
       "stats": {
         "totalVotes": 1699,
         "totalSubs": 9,
-        "totalChatMessages": 57,
-        "totalStreamMinutes": 3968,
+        "totalChatMessages": 58,
+        "totalStreamMinutes": 3988,
         "emotes": {
           "💚": 4,
           "🔥": 4,
@@ -4040,13 +4040,9 @@
           "☺": "☺",
           "👍": "👍"
         },
-        "lastChatAt": 1785108089928
+        "lastChatAt": 1785111690543
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 200 votes, @wayfinders!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @wayfinders!"
@@ -4078,6 +4074,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         },
         {
           "user": "scurvybot",
@@ -4545,7 +4545,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
-      "streamTitle": "FOXSPIRITS | COLABORADOR MSNXCURATOR MAPLESTORY — MapleStory",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0
@@ -6468,8 +6468,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 66,
-        "totalStreamMinutes": 173,
+        "totalChatMessages": 91,
+        "totalStreamMinutes": 193,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -6477,7 +6477,9 @@
           "🎉": 4,
           "🔥": 1,
           "📴": 3,
-          "👋": 3
+          "👋": 3,
+          "🐺": 1,
+          "⚡": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -6486,51 +6488,53 @@
           "🎉": "🎉",
           "🔥": "🔥",
           "📴": "📴",
-          "👋": "👋"
+          "👋": "👋",
+          "🐺": "🐺",
+          "⚡": "⚡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785111453310
+        "lastChatAt": 1785112667513
       },
       "chatMemory": [
         {
           "user": "mindgoblin",
-          "msg": "thats too hard for me lolol"
+          "msg": "wait"
         },
         {
           "user": "mindgoblin",
-          "msg": "you die like like 5 hits"
+          "msg": "its ready"
         },
         {
           "user": "mindgoblin",
-          "msg": "omg"
+          "msg": "whats your steam?"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "1539930150"
         },
         {
           "user": "mindgoblin",
-          "msg": "whoopsies"
+          "msg": "added"
         },
         {
           "user": "mindgoblin",
-          "msg": "GASOLINA"
+          "msg": "discord call/"
         },
         {
           "user": "mindgoblin",
-          "msg": "RIP"
+          "msg": "?"
         },
         {
           "user": "mindgoblin",
-          "msg": "downloading"
+          "msg": "im in blaze server unless you wanna do another server"
         },
         {
-          "user": "mindgoblin",
-          "msg": "FORE!"
+          "user": "loboblanco",
+          "msg": "L4D? Bro, if you need one more, let me know 🐺⚡"
         },
         {
-          "user": "mindgoblin",
-          "msg": "stinky"
-        },
-        {
-          "user": "mindgoblin",
-          "msg": "are you gonna make it?"
+          "user": "loboblanco",
+          "msg": "Si hermano, es mi juego favorito XD"
         }
       ],
       "customCommands": {},
@@ -6542,8 +6546,8 @@
       "greeted": true,
       "locked": false,
       "followed": true,
-      "profile": "",
-      "_profileAtCount": 0,
+      "profile": "Left 4 Dead 2 squad, rejoice! We're a community of no-lifes, screaming \"GASOLINA\" at every opportunity. \"Whoopsies\" happen, but we always \"DO VS\" and \"FORE!\" our way through the apocalypse. We love \"lucidthings\" and celebrating \"RIP\" moments. Our streamer's Steam ID is 1539930150, and we're always up for a Discord call.",
+      "_profileAtCount": 88,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dd930668-5bab-4b93-ba23-cf1acb8a4199.png",
       "streamTitle": "left4 dead2 os caba é menino #lucidthings — Left 4 Dead 2",
       "gameOverride": ""
