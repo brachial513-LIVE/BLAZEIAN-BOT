@@ -893,7 +893,7 @@
         "totalVotes": 1260,
         "totalSubs": 19,
         "totalChatMessages": 1065,
-        "totalStreamMinutes": 2951,
+        "totalStreamMinutes": 2956,
         "emotes": {
           "📊": 3,
           "🔥": 118,
@@ -1394,7 +1394,7 @@
         "totalVotes": 4624,
         "totalSubs": 21,
         "totalChatMessages": 2199,
-        "totalStreamMinutes": 7097,
+        "totalStreamMinutes": 7102,
         "emotes": {
           "❤": 86,
           "🙌": 60,
@@ -3266,9 +3266,9 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 3908,
+        "totalVotes": 3933,
         "totalSubs": 16,
-        "totalChatMessages": 434,
+        "totalChatMessages": 435,
         "totalStreamMinutes": 2005,
         "emotes": {
           "❤": 27,
@@ -3281,7 +3281,7 @@
           "😎": 2,
           "🤝": 2,
           "🥲": 2,
-          "🗳": 87,
+          "🗳": 90,
           "🔴": 14,
           "🎉": 31,
           "🚨": 42,
@@ -3361,13 +3361,9 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785106539093
+        "lastChatAt": 1785159873083
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "hey hey! have a nice stream mate"
-        },
         {
           "user": "fluffy",
           "msg": "💃💃💃"
@@ -3403,6 +3399,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -4474,7 +4474,7 @@
         "totalVotes": 8635,
         "totalSubs": 189,
         "totalChatMessages": 145,
-        "totalStreamMinutes": 2922,
+        "totalStreamMinutes": 2927,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -4662,7 +4662,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 33,
-        "totalStreamMinutes": 2268,
+        "totalStreamMinutes": 2273,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -6007,8 +6007,8 @@
       "stats": {
         "totalVotes": 308,
         "totalSubs": 4,
-        "totalChatMessages": 43,
-        "totalStreamMinutes": 185,
+        "totalChatMessages": 46,
+        "totalStreamMinutes": 187,
         "emotes": {
           "❤": 4,
           "🙌": 6,
@@ -6018,12 +6018,14 @@
           "🗳": 18,
           "⚠": 1,
           "🎯": 1,
-          "🔴": 1,
-          "🎉": 2,
+          "🔴": 2,
+          "🎉": 3,
           "🚨": 6,
           "😀": 1,
           "👍": 1,
-          "😜": 1
+          "😜": 1,
+          "💙": 1,
+          "💜": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -6039,24 +6041,14 @@
           "🚨": "🚨",
           "😀": "😀",
           "👍": "👍",
-          "😜": "😜"
+          "😜": "😜",
+          "💙": "💙",
+          "💜": "💜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785140746481
+        "lastChatAt": 1785160007198
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @muddy_4x4_gmc!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ muddy_4x4_gmc just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "muddy_4x4_gmc",
-          "msg": "😀👍"
-        },
         {
           "user": "avisi",
           "msg": "was here! 😜"
@@ -6084,6 +6076,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "ruri666",
+          "msg": "Soundtrip and Valorant Night 💙💜"
         }
       ],
       "customCommands": {},
@@ -6956,8 +6960,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785080106930,
   "auth": {
-    "accessToken": "36cf8de53e0ae8c0e7bf53b30fdff966",
-    "refreshToken": "a2b4d06061545439e532a701a119e698",
+    "accessToken": "9d84a25436b6277eeafb40f93d8f642c",
+    "refreshToken": "cc79a2a302941df257bd9aa0c54e1a57",
     "sessionToken": "c9d797e03a1214da46ffccec15b9236f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
