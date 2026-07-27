@@ -892,7 +892,7 @@
       "stats": {
         "totalVotes": 1259,
         "totalSubs": 19,
-        "totalChatMessages": 1036,
+        "totalChatMessages": 1039,
         "totalStreamMinutes": 2822,
         "emotes": {
           "📊": 3,
@@ -1069,21 +1069,9 @@
           "💔": "💔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785142631948
+        "lastChatAt": 1785144613411
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@testviewer, you have 0 FoxCoins."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@testviewer received 100 FoxCoins! New balance: 100 FoxCoins."
-        },
         {
           "user": "foxbotai",
           "msg": "FoxBot leaderboard: 1. crypt0k1ng96 — 3 commands | 2. testviewer — 1 commands"
@@ -1111,6 +1099,18 @@
         {
           "user": "foxbotai",
           "msg": "Use !addreward name cost message. Example: !addreward hydrate 25 @{username} redeemed hydrate!"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Stream Event Started: Golden Fox | Fox Hunt rewards are doubled while Golden Fox is active. Type !event to claim/check."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@testviewer claimed the Golden Fox event reward: +50 FoxCoins. Balance: 150 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "FoxBot Events: goldenfox, spiritstorm, treasuredrop, foxfrenzy. Admins can use !startevent random or !startevent goldenfox."
         }
       ],
       "customCommands": {},
@@ -5244,8 +5244,8 @@
       "stats": {
         "totalVotes": 2245,
         "totalSubs": 0,
-        "totalChatMessages": 167,
-        "totalStreamMinutes": 1070,
+        "totalChatMessages": 168,
+        "totalStreamMinutes": 1085,
         "emotes": {
           "❤": 18,
           "🙌": 9,
@@ -5254,8 +5254,8 @@
           "🗳": 78,
           "🔴": 14,
           "🎉": 18,
-          "📴": 13,
-          "👋": 13,
+          "📴": 14,
+          "👋": 14,
           "🚨": 24,
           "🥂": 1,
           "🫶": 1,
@@ -5283,13 +5283,9 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785140824465
+        "lastChatAt": 1785144855061
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
@@ -5325,6 +5321,10 @@
         {
           "user": "tinapay",
           "msg": "Helloooo"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5337,7 +5337,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "New Epoch Play Cambria Fun! — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! We're a chill community that's all about vibes, love, and Crypto. You'll catch us saying 'will eat first', 'hungryyy', and 'appreciate you all' - so don't forget to vote and show your love! We're all about the fun, so grab some snacks and join the party!",
       "_profileAtCount": 167,
@@ -6924,9 +6924,9 @@
       "n": 2
     },
     "k1ngbre4ker": {
-      "note": "They enjoy playing various games, value humor and camaraderie, and appreciate unique game mechanics and personalities.",
-      "at": 1785098970477,
-      "n": 1
+      "note": "They enjoy playing various games, value humor and camaraderie, appreciate unique game mechanics and personalities, and enjoy relaxed, social streaming experiences.",
+      "at": 1785144925325,
+      "n": 2
     },
     "corinloch": {
       "note": "They play games like Terraria, Farlight, and Valorant, have a humorous tone, and are proud of their streaming achievements.",
