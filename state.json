@@ -892,7 +892,7 @@
       "stats": {
         "totalVotes": 1302,
         "totalSubs": 22,
-        "totalChatMessages": 1116,
+        "totalChatMessages": 1118,
         "totalStreamMinutes": 3111,
         "emotes": {
           "📊": 3,
@@ -1079,13 +1079,9 @@
           "🐺": "🐺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785186418142
+        "lastChatAt": 1785191421287
       },
       "chatMemory": [
-        {
-          "user": "loboblanco",
-          "msg": "Thanks for joining us, brother; it was a lot of fun 🐺⚡"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Thank you bro it was fun! lets keep playing haha"
@@ -1121,6 +1117,10 @@
         {
           "user": "foxbotai",
           "msg": "Thank you @viewer for voting with 25 votes! FoxBot AI appreciates your support! +75 FoxCoins. Balance: 474 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
         }
       ],
       "customCommands": {},
@@ -1129,7 +1129,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "FLAW TOURNAMENT 🔥 RIP TOPCAT 💔 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Off The Grid",
+      "streamTitle": "",
       "profile": "Welcome to the Wilder World game nights 🔥! We're all about that \"FOX BOT\" magic, where the vibes are lit and the foxes are fierce! Expect \"FOX BOT help\" commands, \"FOX BOT\" shenanigans, and plenty of \"RIP\" jokes. Don't forget to give crypt0k1ng96 love – we love our shoutouts! 🔥 Let's \"SLAY A DRAGON\" and keep the \"FOX BOT\" energy high!",
       "_profileAtCount": 1116,
       "gameOverride": "",
@@ -3090,16 +3090,16 @@
       "stats": {
         "totalVotes": 1636,
         "totalSubs": 40,
-        "totalChatMessages": 264,
-        "totalStreamMinutes": 5112,
+        "totalChatMessages": 266,
+        "totalStreamMinutes": 5115,
         "emotes": {
           "❤": 64,
           "🙌": 18,
           "🔥": 18,
-          "🔴": 34,
-          "🎉": 34,
-          "📴": 35,
-          "👋": 36,
+          "🔴": 35,
+          "🎉": 35,
+          "📴": 36,
+          "👋": 37,
           "😂": 4,
           "💚": 6,
           "💪": 2,
@@ -3136,18 +3136,10 @@
           "🌫": "🌫",
           "😁": "😁"
         },
-        "lastChatAt": 1785186035783,
+        "lastChatAt": 1785191447001,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "peperonitostv",
           "msg": "Saaalve meu mano Sloth! Boa live e bom farm pra nois meu manoo! Tamo juunto!"
@@ -3179,6 +3171,14 @@
         {
           "user": "agent00zani",
           "msg": "just lurking a bit"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -3190,7 +3190,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🔥 A HISTÓRIA QUE NINGUÉM TE CONTOU! BEHIVE_ AO VIVO NO PRIDECAST — Talk Shows & Podcasts",
+      "streamTitle": "⚡ | PRIDE ESSENCE💀 UP, PvP e MUITA RESENHA! — Lineage 2",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -5108,7 +5108,7 @@
         "totalVotes": 1703,
         "totalSubs": 22,
         "totalChatMessages": 787,
-        "totalStreamMinutes": 1293,
+        "totalStreamMinutes": 1305,
         "emotes": {
           "❤": 75,
           "🙌": 58,
@@ -7027,8 +7027,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785169531629,
   "auth": {
-    "accessToken": "c1bc46be14a8865167326f127175a1ba",
-    "refreshToken": "9f7a0be5b20eda78c2a08bcb22c508df",
+    "accessToken": "fc1d32fda91d60cc281871fe6dada1f5",
+    "refreshToken": "02a909e997702daafe376370d236ee20",
     "sessionToken": "dcfe21c248b5cfdfb994bbdae72bd5eb",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
