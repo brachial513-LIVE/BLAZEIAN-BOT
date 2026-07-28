@@ -436,12 +436,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 19190,
+        "totalVotes": 19290,
         "totalSubs": 38,
-        "totalChatMessages": 3969,
+        "totalChatMessages": 3970,
         "totalStreamMinutes": 1377,
         "emotes": {
-          "🗳": 513,
+          "🗳": 516,
           "❤": 195,
           "🙌": 114,
           "🔥": 67,
@@ -625,13 +625,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785194745721
+        "lastChatAt": 1785207048156
       },
       "chatMemory": [
-        {
-          "user": "mindgoblin",
-          "msg": "oops read it wrong sorry :)"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ Cheeseyeggs just followed the channel! Welcome!! 🙌"
@@ -667,6 +663,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -726,7 +726,7 @@
         "totalVotes": 3621,
         "totalSubs": 7,
         "totalChatMessages": 2880,
-        "totalStreamMinutes": 278,
+        "totalStreamMinutes": 298,
         "emotes": {
           "🔥": 49,
           "🗳": 8,
@@ -1909,7 +1909,7 @@
         "totalVotes": 1638,
         "totalSubs": 18,
         "totalChatMessages": 558,
-        "totalStreamMinutes": 5793,
+        "totalStreamMinutes": 5813,
         "emotes": {
           "😊": 3,
           "🌵": 63,
@@ -2950,7 +2950,7 @@
       "stats": {
         "totalVotes": 3078,
         "totalSubs": 7,
-        "totalChatMessages": 1275,
+        "totalChatMessages": 1278,
         "totalStreamMinutes": 3479,
         "emotes": {
           "❤": 21,
@@ -3026,22 +3026,10 @@
           "😏": "😏",
           "🍀": "🍀"
         },
-        "lastChatAt": 1785206231264,
+        "lastChatAt": 1785206687882,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "Got it"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @Future42!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @Future42!"
@@ -3069,6 +3057,18 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "nadietv",
+          "msg": "dunno what happened"
+        },
+        {
+          "user": "nadietv",
+          "msg": "reconnecting"
+        },
+        {
+          "user": "nadietv",
+          "msg": "F, my internet went nuts"
         }
       ],
       "customCommands": {},
@@ -3090,7 +3090,9 @@
           "months": 1,
           "tier": 1
         }
-      }
+      },
+      "nudgedAt": 1785206538951,
+      "nudgedKey": "schedule"
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -4370,8 +4372,8 @@
       "stats": {
         "totalVotes": 1011,
         "totalSubs": 11,
-        "totalChatMessages": 556,
-        "totalStreamMinutes": 4701,
+        "totalChatMessages": 557,
+        "totalStreamMinutes": 4721,
         "emotes": {
           "🔥": 183,
           "🔴": 58,
@@ -4448,14 +4450,10 @@
           "🤪": "🤪",
           "😍": "😍"
         },
-        "lastChatAt": 1785205491223,
+        "lastChatAt": 1785207246853,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @Future42!"
@@ -4491,6 +4489,10 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -5286,8 +5288,8 @@
       "stats": {
         "totalVotes": 2430,
         "totalSubs": 1,
-        "totalChatMessages": 216,
-        "totalStreamMinutes": 1166,
+        "totalChatMessages": 224,
+        "totalStreamMinutes": 1186,
         "emotes": {
           "❤": 18,
           "🙌": 10,
@@ -5304,7 +5306,8 @@
           "🦝": 1,
           "🌵": 2,
           "👄": 1,
-          "😁": 1
+          "😁": 1,
+          "👀": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -5322,44 +5325,13 @@
           "🦝": "🦝",
           "🌵": "🌵",
           "👄": "👄",
-          "😁": "😁"
+          "😁": "😁",
+          "👀": "👀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785205824556
+        "lastChatAt": 1785207517320
       },
       "chatMemory": [
-        {
-          "user": "seventh",
-          "msg": "nung kakabili ko din biglang nabaliw server nila eh"
-        },
-        {
-          "user": "seventh",
-          "msg": "muntikan kong nirefund hahaha"
-        },
-        {
-          "user": "lunaria",
-          "msg": "ito na ba laruin natin?"
-        },
-        {
-          "user": "lunaria",
-          "msg": "f2p friendly ba to?"
-        },
-        {
-          "user": "lunaria",
-          "msg": "ano server tayo?"
-        },
-        {
-          "user": "peperonitostv",
-          "msg": "Have a nice stream!"
-        },
-        {
-          "user": "lunaria",
-          "msg": "nakagawa n aq, ano ggwin q d2? san mga quest? haha"
-        },
-        {
-          "user": "lunaria",
-          "msg": "summoner"
-        },
         {
           "user": "lunaria",
           "msg": "langya wala man lang tutorial ahaha"
@@ -5367,6 +5339,38 @@
         {
           "user": "lunaria",
           "msg": "isang summon lang ba pwede?"
+        },
+        {
+          "user": "lunaria",
+          "msg": "ggwin d2? grind lang ng grind sa lvl bracket mo?>"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "👀👀👀"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "My song is recorded damn"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "Hahahhaa"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "I call it faithy are goat song"
+        },
+        {
+          "user": "faithy_",
+          "msg": "hahaha"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "@blazeian_bot_ai you little man"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "@blazeian_bot_ai you wanna fight?"
         }
       ],
       "customCommands": {},
@@ -5571,8 +5575,8 @@
       "stats": {
         "totalVotes": 1629,
         "totalSubs": 0,
-        "totalChatMessages": 23,
-        "totalStreamMinutes": 563,
+        "totalChatMessages": 24,
+        "totalStreamMinutes": 567,
         "emotes": {
           "🔥": 3
         },
@@ -5580,13 +5584,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785060516298
+        "lastChatAt": 1785207251080
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
@@ -5622,6 +5622,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -5634,7 +5638,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "DOTES — Ragnarok Online",
       "gameOverride": ""
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
@@ -6527,8 +6531,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 127,
-        "totalStreamMinutes": 493,
+        "totalChatMessages": 129,
+        "totalStreamMinutes": 513,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -6554,17 +6558,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785205684093
+        "lastChatAt": 1785207532184
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "XeuMan"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "brb"
-        },
         {
           "user": "briggsy",
           "msg": "@xeukuxaixang still going strong."
@@ -6596,6 +6592,14 @@
         {
           "user": "botger",
           "msg": "🔴 xeukuxaixang is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "ursopolar004",
+          "msg": "Um dos 3 e gay, n sei dizer quem é"
+        },
+        {
+          "user": "ursopolar004",
+          "msg": "You don't spk english? Traducting is soo tired"
         }
       ],
       "customCommands": {},
@@ -6730,7 +6734,7 @@
         "totalVotes": 2463,
         "totalSubs": 0,
         "totalChatMessages": 29,
-        "totalStreamMinutes": 794,
+        "totalStreamMinutes": 800,
         "emotes": {
           "🔥": 6,
           "🐺": 2,
@@ -6799,7 +6803,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/46963d69-f6f0-479b-8169-7ef0626be6ec.png",
-      "streamTitle": "",
+      "streamTitle": "🔥🐺 FOXSPIRIT | Playing Palworld for the first time 🐺🔥 — Palworld",
       "gameOverride": "",
       "profile": "**Loboblanco's Community Profile**\n\nWe're a laid-back, welcoming crew who love to \"bienvenido hermano\" new friends. Our streamer's all about playing Halo and \"amanecida\" vibes. We're a bit goofy, so expect some \"heeey\" greetings and \"hermano\" love. We even have a \"votorn\" for every time our streamer \"muere\" in-game. When you're here, you're part of the fam, so don't be shy to say \"ola\" and join the fun!",
       "_profileAtCount": 28
@@ -7049,6 +7053,11 @@
     "niruntz": {
       "note": "This person appears to be a friendly and social individual who enjoys spending time with friends, watching sunsets, and drinking with them, possibly playing games together.",
       "at": 1785202436816,
+      "n": 1
+    },
+    "vroshi55": {
+      "note": "Existing notes: (none yet) This person appears to be enthusiastic about a livestream platform, dropping votes, and participating in a game called \"NIRUNTZ\", with a humorous and energetic personality. Existing notes…",
+      "at": 1785206396858,
       "n": 1
     }
   },
