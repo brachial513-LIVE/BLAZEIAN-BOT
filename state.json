@@ -436,12 +436,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 19341,
+        "totalVotes": 19342,
         "totalSubs": 38,
-        "totalChatMessages": 3971,
+        "totalChatMessages": 3972,
         "totalStreamMinutes": 1377,
         "emotes": {
-          "🗳": 519,
+          "🗳": 522,
           "❤": 195,
           "🙌": 114,
           "🔥": 67,
@@ -625,13 +625,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785226730136
+        "lastChatAt": 1785228351269
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
@@ -667,6 +663,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @sinnerz just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Ruri666 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5299,7 +5299,7 @@
         "totalVotes": 2431,
         "totalSubs": 1,
         "totalChatMessages": 235,
-        "totalStreamMinutes": 1268,
+        "totalStreamMinutes": 1288,
         "emotes": {
           "❤": 18,
           "🙌": 10,
@@ -6070,8 +6070,8 @@
       "stats": {
         "totalVotes": 355,
         "totalSubs": 5,
-        "totalChatMessages": 65,
-        "totalStreamMinutes": 342,
+        "totalChatMessages": 67,
+        "totalStreamMinutes": 343,
         "emotes": {
           "❤": 5,
           "🙌": 7,
@@ -6081,8 +6081,8 @@
           "🗳": 24,
           "⚠": 1,
           "🎯": 1,
-          "🔴": 2,
-          "🎉": 3,
+          "🔴": 3,
+          "🎉": 4,
           "🚨": 6,
           "😀": 1,
           "👍": 1,
@@ -6113,17 +6113,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785176879053
+        "lastChatAt": 1785228500452
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "thankyou timmm"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
@@ -6155,6 +6147,14 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @Ruri666 just gifted a sub to @angge_wf! How generous!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -6166,7 +6166,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0e14bbf3-b90e-49a5-ac9c-ec64e50a164d.jpg",
-      "streamTitle": "",
+      "streamTitle": "WAYFINDERS PH - CHILL STREAM — VALORANT",
       "gameOverride": "",
       "followed": true,
       "profile": "We're a chill community that loves VALORANT and good vibes. We're all about that \"valooooo\" life, with a side of \"sali ako pagtapos\" moments. Our streamer, ruri666, is always down for a \"Soundtrip and Valorant Night\" and we love celebrating their wins with \"🗳️ VOTE ALERT!!\" and a good \"🎉\" to boot.",
@@ -7070,6 +7070,11 @@
     "vroshi55": {
       "note": "Existing notes: (none yet) This person appears to be enthusiastic about a livestream platform, dropping votes, and participating in a game called \"NIRUNTZ\", with a humorous and energetic personality. Existing notes…",
       "at": 1785206396858,
+      "n": 1
+    },
+    "faithy_": {
+      "note": "They appear to be enthusiastic about gaming and streaming, with a lighthearted and humorous tone. Existing notes: (nothing yet)",
+      "at": 1785228176808,
       "n": 1
     }
   },
