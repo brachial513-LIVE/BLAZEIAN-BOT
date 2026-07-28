@@ -443,12 +443,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 19677,
+        "totalVotes": 20777,
         "totalSubs": 38,
-        "totalChatMessages": 3976,
+        "totalChatMessages": 3977,
         "totalStreamMinutes": 1377,
         "emotes": {
-          "🗳": 534,
+          "🗳": 537,
           "❤": 195,
           "🙌": 114,
           "🔥": 67,
@@ -632,13 +632,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785258036295
+        "lastChatAt": 1785258781797
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 102 vote(s) (total: 102)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @badger just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -674,6 +670,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 1100 vote(s) (total: 1100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -912,7 +912,7 @@
         "totalVotes": 1409,
         "totalSubs": 24,
         "totalChatMessages": 1143,
-        "totalStreamMinutes": 3247,
+        "totalStreamMinutes": 3267,
         "emotes": {
           "📊": 3,
           "🔥": 125,
@@ -1827,8 +1827,8 @@
           "🖐": "🖐"
         },
         "lastChatAt": 1785234180682,
-        "sendFailStreak": 79,
-        "lastSendFailAt": 1785215483524,
+        "sendFailStreak": 80,
+        "lastSendFailAt": 1785258876327,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
@@ -3659,23 +3659,23 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 2982,
-        "totalSubs": 10,
-        "totalChatMessages": 1120,
+        "totalVotes": 2984,
+        "totalSubs": 15,
+        "totalChatMessages": 1125,
         "totalStreamMinutes": 1654,
         "emotes": {
           "❤": 18,
-          "🙌": 35,
+          "🙌": 40,
           "💚": 10,
           "🔴": 14,
           "🎉": 26,
           "🙂": 3,
-          "🔥": 30,
+          "🔥": 32,
           "😎": 5,
           "🗳": 153,
           "📴": 14,
           "👋": 14,
-          "🎁": 20,
+          "🎁": 28,
           "😂": 30,
           "🚨": 24,
           "😍": 16,
@@ -3752,29 +3752,9 @@
           "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785224515811
+        "lastChatAt": 1785259149964
       },
       "chatMemory": [
-        {
-          "user": "marowak33",
-          "msg": "ufak işim var"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "💰 TIP ALERT!! 💰 @guney just tipped $1.00!! Thank you so much!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ degenmike just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @jt_squared2 just gave 32 vote(s) (total: 32)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 30 vote(s) (total: 30)! Thank you!! 🗳️"
@@ -3794,6 +3774,26 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @sinnerz just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @mindgoblin has resubscribed — 2 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @degenmike! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @mediart! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @parky! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @meyetechnicals! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -3807,7 +3807,14 @@
       "_profileAtCount": 0,
       "followed": true,
       "gameOverride": "",
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d431edc1-cd60-4813-82d2-d4d6399d94ae.jpg"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d431edc1-cd60-4813-82d2-d4d6399d94ae.jpg",
+      "loyalty": {
+        "mindgoblin": {
+          "name": "mindgoblin",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "27422fb2-063e-4a22-8cde-41c2baf0f386": {
       "username": "cymatrix",
@@ -5443,14 +5450,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 4111,
+        "totalVotes": 4211,
         "totalSubs": 1,
-        "totalChatMessages": 348,
+        "totalChatMessages": 349,
         "totalStreamMinutes": 262,
         "emotes": {
           "❤": 6,
           "🙌": 8,
-          "🗳": 108,
+          "🗳": 111,
           "🚨": 24,
           "🎉": 7,
           "👋": 14,
@@ -5541,14 +5548,10 @@
           "⚠": "⚠",
           "🎯": "🎯"
         },
-        "lastChatAt": 1785258075371,
+        "lastChatAt": 1785258901092,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "dimifw",
-          "msg": "hey sloth"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -5584,6 +5587,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5833,14 +5840,14 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 4721,
+        "totalVotes": 4746,
         "totalSubs": 3,
-        "totalChatMessages": 716,
+        "totalChatMessages": 717,
         "totalStreamMinutes": 338,
         "emotes": {
           "❤": 19,
           "🙌": 12,
-          "🗳": 75,
+          "🗳": 78,
           "💰": 8,
           "🔥": 20,
           "💛": 3,
@@ -5920,17 +5927,13 @@
           "💪": "💪"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785253147110,
+        "lastChatAt": 1785259129173,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "all good haha 💚 thank you my friend !"
-        },
         {
           "user": "brachial513",
           "msg": "ah i tryd for you but hes muted our little friend lol"
@@ -5966,6 +5969,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6595,7 +6602,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 151,
-        "totalStreamMinutes": 569,
+        "totalStreamMinutes": 589,
         "emotes": {
           "❤": 4,
           "🙌": 2,
