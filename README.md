@@ -12,6 +12,7 @@ BlazeianBot isn't a canned-response bot — it actually reads what people say an
 - **Live web search** — for real, current-world questions (news, scores, results) it looks them up live and answers honestly, citing what it found
 - **Stream alerts with personality** — follows, subs, gifted subs, votes, tips and raids are all celebrated with a fresh, AI-generated shoutout, never a repeated line
 - **Live translation** — `!explain [language]` translates recent chat into 18 languages
+- **Live weather** — ask for any city and get it back in both °C and °F, so nobody has to convert anything
 - **Per-channel custom commands** — streamers add their own via a dashboard, no code required
 - **Streaming schedule** — owner sets it once with `!setschedule`, viewers check it anytime with `!schedule`
 - **Tip-for-a-reward tiers** — owners running a "tip $X for Y" promo set their own tiers with `!settiptier`, and the bot calls out the actual reward earned in the celebration
