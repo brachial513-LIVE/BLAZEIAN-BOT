@@ -436,12 +436,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 19342,
+        "totalVotes": 19392,
         "totalSubs": 38,
-        "totalChatMessages": 3972,
+        "totalChatMessages": 3973,
         "totalStreamMinutes": 1377,
         "emotes": {
-          "🗳": 522,
+          "🗳": 525,
           "❤": 195,
           "🙌": 114,
           "🔥": 67,
@@ -625,13 +625,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785228351269
+        "lastChatAt": 1785232262762
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -667,6 +663,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Ruri666 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5298,8 +5298,8 @@
       "stats": {
         "totalVotes": 2431,
         "totalSubs": 1,
-        "totalChatMessages": 238,
-        "totalStreamMinutes": 1347,
+        "totalChatMessages": 241,
+        "totalStreamMinutes": 1352,
         "emotes": {
           "❤": 18,
           "🙌": 10,
@@ -5308,8 +5308,8 @@
           "🗳": 87,
           "🔴": 16,
           "🎉": 20,
-          "📴": 15,
-          "👋": 16,
+          "📴": 16,
+          "👋": 17,
           "🚨": 24,
           "🥂": 1,
           "🫶": 1,
@@ -5341,21 +5341,9 @@
           "✋": "✋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785231485383
+        "lastChatAt": 1785232431410
       },
       "chatMemory": [
-        {
-          "user": "dofferlive",
-          "msg": "@blazeian_bot_ai see you flirting agsin"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "@blazeian_bot_ai stop ✋"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "@blazeian_bot_ai yes stop talking to me in 50 min"
-        },
         {
           "user": "dofferlive",
           "msg": "@blazeian_bot_ai good"
@@ -5383,6 +5371,18 @@
         {
           "user": "missaria_wf",
           "msg": "uy paldo na naman si boss @faithy_"
+        },
+        {
+          "user": "faithy_",
+          "msg": "i'm going back later"
+        },
+        {
+          "user": "faithy_",
+          "msg": "will wait for pay out first ahhhhh"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5395,7 +5395,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "Cambria Risk To Earn — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! We're a chill community that's all about vibes, love, and Crypto. You'll catch us saying 'will eat first', 'hungryyy', and 'appreciate you all' - so don't forget to vote and show your love! Grab some snacks, join the party, and remember, 'it's time to grind'!",
       "_profileAtCount": 232,
@@ -6070,8 +6070,8 @@
       "stats": {
         "totalVotes": 355,
         "totalSubs": 5,
-        "totalChatMessages": 71,
-        "totalStreamMinutes": 402,
+        "totalChatMessages": 72,
+        "totalStreamMinutes": 422,
         "emotes": {
           "❤": 5,
           "🙌": 7,
@@ -6113,13 +6113,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785229974475
+        "lastChatAt": 1785232446740
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -6155,6 +6151,10 @@
         {
           "user": "ruri666",
           "msg": "hello hello @Tinapay"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -7125,6 +7125,11 @@
     "fartvader": {
       "note": "They play games like Palworld and Farlight, enjoy chatting with others, and have a lighthearted sense of humor. Existing notes: They play games like Palworld and Farlight, enjoy chatting with others, and have a…",
       "at": 1785231476830,
+      "n": 1
+    },
+    "fluffy": {
+      "note": "They appear to enjoy music, dancing, and gaming, with a lighthearted and playful sense of humor. (existing notes: none)",
+      "at": 1785232136816,
       "n": 1
     }
   },
