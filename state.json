@@ -2479,8 +2479,8 @@
       "stats": {
         "totalVotes": 4791,
         "totalSubs": 23,
-        "totalChatMessages": 3551,
-        "totalStreamMinutes": 2574,
+        "totalChatMessages": 3552,
+        "totalStreamMinutes": 2575,
         "emotes": {
           "❤": 66,
           "🙌": 150,
@@ -2710,13 +2710,9 @@
           "💛": "💛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785218598192
+        "lastChatAt": 1785218622797
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "true"
-        },
         {
           "user": "fluffy",
           "msg": "try to pick purple area for deploy it has better loot"
@@ -2752,6 +2748,10 @@
         {
           "user": "brachial513",
           "msg": "@blazeian_bot_ai what weather do we have in London"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai Weather in New york"
         }
       ],
       "customCommands": {},
@@ -7075,8 +7075,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785218609421,
   "auth": {
-    "accessToken": "e3b8449131f6cdbe495fe746143c55fd",
-    "refreshToken": "cd6fa3b8a29a1ae030a839ac56fe8967",
+    "accessToken": "c69a979fcf3b619a6f31630427c508f9",
+    "refreshToken": "fe6d560cbbb44b7d7c493b84151c5ae4",
     "sessionToken": "dcfe21c248b5cfdfb994bbdae72bd5eb",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
