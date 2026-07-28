@@ -912,7 +912,7 @@
         "totalVotes": 1409,
         "totalSubs": 24,
         "totalChatMessages": 1143,
-        "totalStreamMinutes": 3312,
+        "totalStreamMinutes": 3332,
         "emotes": {
           "📊": 3,
           "🔥": 125,
@@ -4178,8 +4178,8 @@
       "stats": {
         "totalVotes": 3351,
         "totalSubs": 10,
-        "totalChatMessages": 2540,
-        "totalStreamMinutes": 1927,
+        "totalChatMessages": 2542,
+        "totalStreamMinutes": 1947,
         "emotes": {
           "🧏": 1,
           "♂": 1,
@@ -4355,13 +4355,9 @@
           "🍻": "🍻"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785186297396
+        "lastChatAt": 1785263056541
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Oooo, sexy wheel."
-        },
         {
           "user": "briggsy",
           "msg": "😆"
@@ -4397,6 +4393,10 @@
         {
           "user": "future42",
           "msg": "A pleasure as ALWAYS"
+        },
+        {
+          "user": "bidlo_bot",
+          "msg": "@bidloperv Added \"Jeff Loomis - Miles of Machines\" to the queue! (Position #1)"
         }
       ],
       "customCommands": {},
@@ -6602,7 +6602,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 151,
-        "totalStreamMinutes": 634,
+        "totalStreamMinutes": 654,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -6803,8 +6803,8 @@
       "stats": {
         "totalVotes": 2463,
         "totalSubs": 0,
-        "totalChatMessages": 29,
-        "totalStreamMinutes": 1004,
+        "totalChatMessages": 31,
+        "totalStreamMinutes": 1024,
         "emotes": {
           "🔥": 6,
           "🐺": 2,
@@ -6818,17 +6818,9 @@
           "😃": "😃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785181940451
+        "lastChatAt": 1785262824379
       },
       "chatMemory": [
-        {
-          "user": "peperonitostv",
-          "msg": "Have a nice stream!"
-        },
-        {
-          "user": "sofrenciaplay",
-          "msg": "😃"
-        },
         {
           "user": "sofrenciaplay",
           "msg": "ola"
@@ -6860,6 +6852,14 @@
         {
           "user": "crypt0k1ng96",
           "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "lets gooo"
+        },
+        {
+          "user": "loboblanco",
+          "msg": "Haré unos ajustes extra a la resolución"
         }
       ],
       "customCommands": {},
@@ -6876,7 +6876,9 @@
       "streamTitle": "🔥🐺 FOXSPIRIT | Llegó el día 🐺🔥 — Halo Campaign Evolved",
       "gameOverride": "",
       "profile": "**Loboblanco's Community Profile**\n\nWe're a laid-back, welcoming crew who love to \"bienvenido hermano\" new friends. Our streamer's all about playing Halo and \"amanecida\" vibes. We're a bit goofy, so expect some \"heeey\" greetings and \"hermano\" love. We even have a \"votorn\" for every time our streamer \"muere\" in-game. When you're here, you're part of the fam, so don't be shy to say \"ola\" and join the fun!",
-      "_profileAtCount": 28
+      "_profileAtCount": 28,
+      "nudgedAt": 1785262824379,
+      "nudgedKey": "schedule"
     },
     "cb2ce9ff-c2d0-425e-9238-54b535f07d02": {
       "username": "homiedrew",
