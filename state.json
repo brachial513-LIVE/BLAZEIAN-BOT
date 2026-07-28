@@ -5299,7 +5299,7 @@
         "totalVotes": 2431,
         "totalSubs": 1,
         "totalChatMessages": 237,
-        "totalStreamMinutes": 1322,
+        "totalStreamMinutes": 1336,
         "emotes": {
           "❤": 18,
           "🙌": 10,
@@ -6071,7 +6071,7 @@
         "totalVotes": 355,
         "totalSubs": 5,
         "totalChatMessages": 71,
-        "totalStreamMinutes": 377,
+        "totalStreamMinutes": 391,
         "emotes": {
           "❤": 5,
           "🙌": 7,
@@ -6914,6 +6914,27 @@
       "botVip": true,
       "streamTitle": "",
       "gameOverride": ""
+    },
+    "1babc035-cb76-44e0-8f37-6c648418d047": {
+      "username": "missaria_wf",
+      "language": "en",
+      "joinedAt": 1785231455893,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "timedMessages": [],
+      "tipTiers": []
     }
   },
   "blocklist": [
@@ -7080,6 +7101,11 @@
     "ursopolar004": {
       "note": "They have a playful and humorous personality, often using slang and making lighthearted jokes, and appear to enjoy interacting with others in a casual setting.",
       "at": 1785230156819,
+      "n": 1
+    },
+    "badger": {
+      "note": "Existing notes: (none yet) They enjoy playing games, have a humorous and enthusiastic personality, and appreciate friendly interactions with others.",
+      "at": 1785230816783,
       "n": 1
     }
   },
