@@ -1422,14 +1422,14 @@
       "stats": {
         "totalVotes": 4979,
         "totalSubs": 21,
-        "totalChatMessages": 2255,
+        "totalChatMessages": 2256,
         "totalStreamMinutes": 7392,
         "emotes": {
           "❤": 87,
           "🙌": 63,
           "🗳": 306,
-          "📴": 62,
-          "👋": 67,
+          "📴": 63,
+          "👋": 68,
           "🔴": 59,
           "🎉": 102,
           "🏆": 19,
@@ -1586,14 +1586,10 @@
           "🐐": "🐐",
           "💯": "💯"
         },
-        "lastChatAt": 1785279103003,
+        "lastChatAt": 1785279754906,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "🙌🙌🙌"
-        },
         {
           "user": "botger",
           "msg": "Holi Holiii Holiiii"
@@ -1629,6 +1625,10 @@
         {
           "user": "agent00zani",
           "msg": "🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -1636,7 +1636,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "🐍 Words Are Cheap... Actions Speak 👀 | Marvel Rivals ⚔️ | 🎰 Sub Raffle LIVE — Marvel Rivals",
+      "streamTitle": "",
       "profile": "This community is all about the hype, fueled by 🔥 and 🎰. We're a Marvel Rivals squad, living for those epic battles. Expect pizza-fueled streams, weirdness, and a dash of Sci-Fi love, especially for Blade Runner. Catchphrases like \"VOTE ALERT!!\", \"NEW FOLLOWER!!\", and \"Hugs\" are staples here. Agent00zani loves being celebrated with 🤗 and 🏆, and we \"SLAP\" each other with a wooden horse.",
       "_profileAtCount": 2248,
       "loyalty": {
@@ -2255,7 +2255,7 @@
         "totalVotes": 1963,
         "totalSubs": 10,
         "totalChatMessages": 692,
-        "totalStreamMinutes": 3072,
+        "totalStreamMinutes": 3077,
         "emotes": {
           "✨": 11,
           "🖥": 17,
@@ -3135,7 +3135,7 @@
         "totalVotes": 1638,
         "totalSubs": 41,
         "totalChatMessages": 273,
-        "totalStreamMinutes": 5266,
+        "totalStreamMinutes": 5271,
         "emotes": {
           "❤": 64,
           "🙌": 18,
@@ -6326,8 +6326,8 @@
       "stats": {
         "totalVotes": 1965,
         "totalSubs": 0,
-        "totalChatMessages": 5365,
-        "totalStreamMinutes": 972,
+        "totalChatMessages": 5372,
+        "totalStreamMinutes": 977,
         "emotes": {
           "❤": 8,
           "🙌": 6,
@@ -6429,37 +6429,9 @@
           "🙁": "🙁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785279734913
+        "lastChatAt": 1785279999411
       },
       "chatMemory": [
-        {
-          "user": "gustavoguedin",
-          "msg": "Vai bem lá no canto"
-        },
-        {
-          "user": "gustavoguedin",
-          "msg": "Tem que segurar uma arma"
-        },
-        {
-          "user": "gustavoguedin",
-          "msg": "Vai bem no canto da direita pra conseguir pular"
-        },
-        {
-          "user": "gustavoguedin",
-          "msg": "Pra andar de lado com o dpad tem que estar segurando uma arma"
-        },
-        {
-          "user": "gustavoguedin",
-          "msg": "Eu jogo mais a versão de PS2, aí vira a câmera no analógico"
-        },
-        {
-          "user": "gustavoguedin",
-          "msg": "É que tu queria jogar a versão europeia pra ter o idioma português, aí a versão de PS2 é 25 fps por causa das limitações das TVs da época"
-        },
-        {
-          "user": "gustavoguedin",
-          "msg": "Segura L e R e aperta quadrado"
-        },
         {
           "user": "gustavoguedin",
           "msg": "Sim, mas jogar a chave nesse jogo não é muito útil. É muito lento"
@@ -6471,6 +6443,34 @@
         {
           "user": "gustavoguedin",
           "msg": "O hipertiro é aquele equipamento que serve pra se pendurar"
+        },
+        {
+          "user": "gustavoguedin",
+          "msg": "Pronto"
+        },
+        {
+          "user": "gustavoguedin",
+          "msg": "Já reabasteceu"
+        },
+        {
+          "user": "gustavoguedin",
+          "msg": "O primeiro item que aparece é pra comprar todas as munições"
+        },
+        {
+          "user": "botger",
+          "msg": "Doações Live pix: https://livepix.gg/maniadk"
+        },
+        {
+          "user": "gustavoguedin",
+          "msg": "Tem multiplayer sim. No PSP era online, no PS2 é local"
+        },
+        {
+          "user": "gustavoguedin",
+          "msg": "Galera tá toda no YouTube kkkk"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "tava fazendo o pêlo"
         }
       ],
       "customCommands": {},
@@ -6823,7 +6823,7 @@
         "totalVotes": 2478,
         "totalSubs": 0,
         "totalChatMessages": 34,
-        "totalStreamMinutes": 1294,
+        "totalStreamMinutes": 1299,
         "emotes": {
           "🔥": 6,
           "🐺": 2,
@@ -7306,8 +7306,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785218609421,
   "auth": {
-    "accessToken": "ef2f0b1d12607942c58d2aaaa649b010",
-    "refreshToken": "aec01a545f1bd9b14bd8837c840c28e7",
+    "accessToken": "5a2bc9d0f06893e76afb28a5dec1a6c6",
+    "refreshToken": "1afe88e05f4d8e139d6b6be0cf69aacd",
     "sessionToken": "5a79625439fae3ba2cf0768d6e60d8dd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
