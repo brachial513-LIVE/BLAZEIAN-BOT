@@ -436,12 +436,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 19291,
+        "totalVotes": 19341,
         "totalSubs": 38,
-        "totalChatMessages": 3970,
+        "totalChatMessages": 3971,
         "totalStreamMinutes": 1377,
         "emotes": {
-          "🗳": 516,
+          "🗳": 519,
           "❤": 195,
           "🙌": 114,
           "🔥": 67,
@@ -625,13 +625,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785207048156
+        "lastChatAt": 1785226730136
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ Cheeseyeggs just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
@@ -667,6 +663,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @sinnerz just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5299,7 +5299,7 @@
         "totalVotes": 2431,
         "totalSubs": 1,
         "totalChatMessages": 235,
-        "totalStreamMinutes": 1252,
+        "totalStreamMinutes": 1257,
         "emotes": {
           "❤": 18,
           "🙌": 10,
@@ -7077,8 +7077,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785218609421,
   "auth": {
-    "accessToken": "aa82e06d30a69a238363d6287809ada5",
-    "refreshToken": "46cadaacd3828b4edf56eae3aab54109",
+    "accessToken": "155af1819e3bdacb3b1bdf9bb2bdeceb",
+    "refreshToken": "57ed699a5f88b3bf91978a04a50720c8",
     "sessionToken": "dcfe21c248b5cfdfb994bbdae72bd5eb",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
