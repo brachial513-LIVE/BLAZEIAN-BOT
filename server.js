@@ -1058,6 +1058,29 @@ async function translateMessages(messages, targetLangCode) {
 // =============================================
 // WEATHER (wttr.in — no API key needed)
 // =============================================
+// Pulls the place name out of a weather question. The old one-liner regex grabbed whatever followed the
+// word "weather", which produced real live failures: "Weather Los angeles in Fahrenheit" searched for a
+// city called "Los angeles in Fahrenheit", and "what weather do we have in London" searched for "do we
+// have in London". Units are stripped first (they are never places), then the LAST "in/for/at <place>"
+// wins, which is what people actually say.
+function extractWeatherCity(text) {
+  let t = String(text || "");
+  t = t.replace(/\b(?:in|as|to|using|with)\s+(?:degrees?\s+)?(?:fahrenheit|celsius|centigrade)\b/gi, " ")
+       .replace(/\b(?:fahrenheit|celsius|centigrade)\b/gi, " ")
+       .replace(/\s+/g, " ");
+  let city = "";
+  const prep = t.match(/\b(?:in|for|at)\s+([^?!.,]+)$/i);
+  if (prep) city = prep[1];
+  if (!city) {
+    const after = t.match(/\b(?:weather|temperature|temp)\b\s*(?:is\s+)?[:,-]?\s*(.+)$/i);
+    if (after) city = after[1];
+  }
+  city = city.replace(/[?!.]+$/g, "").replace(/^(?:the|for|in|at|of|like)\s+/i, "").trim();
+  // What's left is a question fragment, not a place — treat as "no city given" and ask.
+  if (/^(?:do we|do you|is it|are we|what|how|right now|now|today|here|there|please|u|you)\b/i.test(city)) city = "";
+  return city.slice(0, 60);
+}
+
 async function getWeather(city) {
   try {
     const encoded = encodeURIComponent(city);
@@ -1069,7 +1092,10 @@ async function getWeather(city) {
     const areaName = area?.areaName?.[0]?.value || city;
     const country  = area?.country?.[0]?.value  || "";
     const desc     = c.weatherDesc[0].value;
-    return `${areaName}${country ? ", " + country : ""}: ${desc} | 🌡️ ${c.temp_C}°C (feels ${c.FeelsLikeC}°C) | 💧 ${c.humidity}% | 💨 ${c.windspeedKmph} km/h 💚`;
+    // Both units, always. The API returns them anyway, and viewers kept asking "can I get that in
+    // Fahrenheit?" — which then got parsed as a city name and failed. Showing both answers the question
+    // before it's asked and costs nothing.
+    return `${areaName}${country ? ", " + country : ""}: ${desc} | 🌡️ ${c.temp_C}°C / ${c.temp_F}°F (feels ${c.FeelsLikeC}°C / ${c.FeelsLikeF}°F) | 💧 ${c.humidity}% | 💨 ${c.windspeedKmph} km/h 💚`;
   } catch(e) {
     console.log("Weather error:", e.message);
     return null;
@@ -1891,11 +1917,12 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
     }
     // Strip the bot's name/mention first so it never lands inside the city name
     const cleaned = msg.replace(/@?blazeian_?bot(_ai)?/gi, " ").replace(/\s+/g, " ").trim();
-    if (!senderIsBot && /\bweather\b/i.test(cleaned)) {
-      const m = cleaned.match(/weather\s*(?:is\s+)?(?:in|for|at|of|like(?:\s+in)?)?\s*[:,-]?\s*(.+)?/i);
-      let city = (m && m[1] ? m[1] : "").trim().replace(/[?!.]+$/g, "").replace(/^(the\s+)/i, "").trim();
+    // "temp"/"temperature" count too — briggsy asked "what is the temp in Los Angeles" and the weather
+    // path never fired, because only the word "weather" was accepted.
+    if (!senderIsBot && /\b(?:weather|temperature|temp)\b/i.test(cleaned)) {
+      const city = extractWeatherCity(cleaned);
       if (!city) {
-        await sendChat(channelId, `@${user} sure! which city? 🌍 e.g. "@blazeian_bot_ai weather in Berlin" 💚`);
+        await sendChat(channelId, `@${user} sure! which city? 🌍 e.g. "@blazeian_bot_ai weather in Berlin" 💚 (I always give you both °C and °F)`);
         return;
       }
       await sendChat(channelId, `@${user} checking the weather for ${city}... ⏳`);
