@@ -436,12 +436,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 19392,
+        "totalVotes": 19512,
         "totalSubs": 38,
-        "totalChatMessages": 3973,
+        "totalChatMessages": 3974,
         "totalStreamMinutes": 1377,
         "emotes": {
-          "🗳": 525,
+          "🗳": 528,
           "❤": 195,
           "🙌": 114,
           "🔥": 67,
@@ -625,13 +625,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785232262762
+        "lastChatAt": 1785234829203
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -667,6 +663,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @infamousex just gave 70 vote(s) (total: 70)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6071,7 +6071,7 @@
         "totalVotes": 355,
         "totalSubs": 5,
         "totalChatMessages": 72,
-        "totalStreamMinutes": 442,
+        "totalStreamMinutes": 447,
         "emotes": {
           "❤": 5,
           "🙌": 7,
@@ -7063,9 +7063,9 @@
       "n": 1
     },
     "xeventv38": {
-      "note": "They appear to enjoy playing games, appreciate humor, and have a lighthearted tone, often using comedic expressions like \"kkkkkk\".",
-      "at": 1785176696906,
-      "n": 1
+      "note": "They appear to enjoy playing games, appreciate humor, and have a lighthearted tone, often using comedic expressions.",
+      "at": 1785234776754,
+      "n": 2
     },
     "triz_draw": {
       "note": "There is NOTHING to note about this person. They seem to enjoy watching or playing games, possibly Dune, and have a humorous and playful tone in their chat.",
@@ -7137,8 +7137,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785218609421,
   "auth": {
-    "accessToken": "5a22038b012fbc160ac5ad30300979f0",
-    "refreshToken": "b79d5eaa6bf3d393fddd16d599a7fdeb",
+    "accessToken": "6e5fc8478a7190f1bcaa4bbc7ec3872f",
+    "refreshToken": "7a529774062ca06790b3c6607bd91242",
     "sessionToken": "dcfe21c248b5cfdfb994bbdae72bd5eb",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
