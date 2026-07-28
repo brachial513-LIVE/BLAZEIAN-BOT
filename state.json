@@ -313,7 +313,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 163,
+        "totalChatMessages": 164,
         "totalStreamMinutes": 0,
         "emotes": {
           "🪙": 3,
@@ -382,7 +382,7 @@
           "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785229821708
+        "lastChatAt": 1785231621705
       },
       "chatMemory": [
         {
@@ -5298,8 +5298,8 @@
       "stats": {
         "totalVotes": 2431,
         "totalSubs": 1,
-        "totalChatMessages": 237,
-        "totalStreamMinutes": 1336,
+        "totalChatMessages": 238,
+        "totalStreamMinutes": 1347,
         "emotes": {
           "❤": 18,
           "🙌": 10,
@@ -5341,13 +5341,9 @@
           "✋": "✋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785229990440
+        "lastChatAt": 1785231485383
       },
       "chatMemory": [
-        {
-          "user": "dofferlive",
-          "msg": "@blazeian_bot_ai watch the stream yourself"
-        },
         {
           "user": "dofferlive",
           "msg": "@blazeian_bot_ai see you flirting agsin"
@@ -5383,6 +5379,10 @@
         {
           "user": "tinapay",
           "msg": "Oh damn haha @dofferlive is talking to the bot hahha"
+        },
+        {
+          "user": "missaria_wf",
+          "msg": "uy paldo na naman si boss @faithy_"
         }
       ],
       "customCommands": {},
@@ -6071,7 +6071,7 @@
         "totalVotes": 355,
         "totalSubs": 5,
         "totalChatMessages": 71,
-        "totalStreamMinutes": 391,
+        "totalStreamMinutes": 402,
         "emotes": {
           "❤": 5,
           "🙌": 7,
@@ -6922,19 +6922,33 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {},
-        "sendFailStreak": 0
+        "emotes": {
+          "❤": 2,
+          "🙌": 1
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌"
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1785231461408
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
       "timedMessages": [],
-      "tipTiers": []
+      "tipTiers": [],
+      "locked": false,
+      "followed": true
     }
   },
   "blocklist": [
@@ -7107,14 +7121,19 @@
       "note": "Existing notes: (none yet) They enjoy playing games, have a humorous and enthusiastic personality, and appreciate friendly interactions with others.",
       "at": 1785230816783,
       "n": 1
+    },
+    "fartvader": {
+      "note": "They play games like Palworld and Farlight, enjoy chatting with others, and have a lighthearted sense of humor. Existing notes: They play games like Palworld and Farlight, enjoy chatting with others, and have a…",
+      "at": 1785231476830,
+      "n": 1
     }
   },
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 20 votes = 1 entry · 1 sub = 3 entries · 1 gifted sub = 5 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 400 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\nThe current round is the 17th giveaway, running 27th July to 2nd August. A new round starts each week.",
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785218609421,
   "auth": {
-    "accessToken": "51d4311e2e76ab46b9ff201ad1505a8f",
-    "refreshToken": "202ae38d6f1ec207f7fddca287e730d3",
+    "accessToken": "5a22038b012fbc160ac5ad30300979f0",
+    "refreshToken": "b79d5eaa6bf3d393fddd16d599a7fdeb",
     "sessionToken": "dcfe21c248b5cfdfb994bbdae72bd5eb",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
