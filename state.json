@@ -5280,7 +5280,7 @@
       "stats": {
         "totalVotes": 2420,
         "totalSubs": 1,
-        "totalChatMessages": 177,
+        "totalChatMessages": 178,
         "totalStreamMinutes": 1099,
         "emotes": {
           "❤": 18,
@@ -5319,7 +5319,7 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785202339611
+        "lastChatAt": 1785202342849
       },
       "chatMemory": [
         {
@@ -6897,7 +6897,9 @@
   "blocklist": [
     "meyetechnicals"
   ],
-  "optedOutUsers": [],
+  "optedOutUsers": [
+    "mindgoblin"
+  ],
   "friendBots": [
     "cinder",
     "foxbot",
