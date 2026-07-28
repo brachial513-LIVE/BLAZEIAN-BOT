@@ -1903,7 +1903,7 @@
         "totalVotes": 1613,
         "totalSubs": 18,
         "totalChatMessages": 553,
-        "totalStreamMinutes": 5723,
+        "totalStreamMinutes": 5727,
         "emotes": {
           "😊": 3,
           "🌵": 61,
@@ -2945,7 +2945,7 @@
         "totalVotes": 2978,
         "totalSubs": 7,
         "totalChatMessages": 1248,
-        "totalStreamMinutes": 3410,
+        "totalStreamMinutes": 3414,
         "emotes": {
           "❤": 21,
           "🙌": 26,
@@ -4365,7 +4365,7 @@
         "totalVotes": 986,
         "totalSubs": 11,
         "totalChatMessages": 546,
-        "totalStreamMinutes": 4631,
+        "totalStreamMinutes": 4635,
         "emotes": {
           "🔥": 179,
           "🔴": 58,
@@ -5279,14 +5279,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 2420,
-        "totalSubs": 0,
-        "totalChatMessages": 172,
-        "totalStreamMinutes": 1096,
+        "totalSubs": 1,
+        "totalChatMessages": 177,
+        "totalStreamMinutes": 1099,
         "emotes": {
           "❤": 18,
-          "🙌": 9,
+          "🙌": 10,
           "💚": 2,
-          "🔥": 6,
+          "🔥": 8,
           "🗳": 84,
           "🔴": 15,
           "🎉": 19,
@@ -5319,25 +5319,9 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785201595408
+        "lastChatAt": 1785202339611
       },
       "chatMemory": [
-        {
-          "user": "faithy_",
-          "msg": "hungryyy"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
-        },
         {
           "user": "tinapay",
           "msg": "Helloooo"
@@ -5361,6 +5345,22 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @vRoshi55 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "faithy_",
+          "msg": "thank youuu"
+        },
+        {
+          "user": "faithy_",
+          "msg": "been googling some equipments to craft lol"
+        },
+        {
+          "user": "mindgoblin",
+          "msg": "Hey @faithy_"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @mindgoblin to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {},
@@ -5379,7 +5379,14 @@
       "_profileAtCount": 167,
       "nudgedAt": 1785035839478,
       "nudgedKey": "schedule",
-      "botVip": true
+      "botVip": true,
+      "loyalty": {
+        "mindgoblin": {
+          "name": "mindgoblin",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "4e8116b6-6705-4e00-a83c-c7e455b3a446": {
       "username": "dimifw",
@@ -6890,9 +6897,7 @@
   "blocklist": [
     "meyetechnicals"
   ],
-  "optedOutUsers": [
-    "mindgoblin"
-  ],
+  "optedOutUsers": [],
   "friendBots": [
     "cinder",
     "foxbot",
