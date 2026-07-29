@@ -1422,8 +1422,8 @@
       "stats": {
         "totalVotes": 4984,
         "totalSubs": 21,
-        "totalChatMessages": 2346,
-        "totalStreamMinutes": 7591,
+        "totalChatMessages": 2349,
+        "totalStreamMinutes": 7596,
         "emotes": {
           "❤": 87,
           "🙌": 63,
@@ -1461,7 +1461,7 @@
           "🙏": 1,
           "💪": 6,
           "😊": 5,
-          "👀": 14,
+          "👀": 15,
           "💩": 2,
           "🙄": 2,
           "😍": 3,
@@ -1590,22 +1590,10 @@
           "☺": "☺",
           "🙃": "🙃"
         },
-        "lastChatAt": 1785333447072,
+        "lastChatAt": 1785333868041,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "Just waiting on a bro to start a game"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @fluffy is raiding with a party of 7! Welcome raiders!! 🎉"
@@ -1633,6 +1621,18 @@
         {
           "user": "grindingdragon",
           "msg": "i'm good eating"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "i don't know what is the name in english"
+        },
+        {
+          "user": "grindingdragon",
+          "msg": "koldunai su kopustais"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "👀"
         }
       ],
       "customCommands": {},
@@ -3695,8 +3695,8 @@
       "stats": {
         "totalVotes": 3300,
         "totalSubs": 15,
-        "totalChatMessages": 1182,
-        "totalStreamMinutes": 1693,
+        "totalChatMessages": 1200,
+        "totalStreamMinutes": 1698,
         "emotes": {
           "❤": 18,
           "🙌": 40,
@@ -3710,7 +3710,7 @@
           "📴": 14,
           "👋": 14,
           "🎁": 28,
-          "😂": 49,
+          "😂": 50,
           "🚨": 30,
           "😍": 16,
           "🤩": 17,
@@ -3739,7 +3739,8 @@
           "🍀": 1,
           "♥": 1,
           "🫠": 2,
-          "💰": 2
+          "💰": 2,
+          "🫡": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -3783,51 +3784,52 @@
           "🍀": "🍀",
           "♥": "♥",
           "🫠": "🫠",
-          "💰": "💰"
+          "💰": "💰",
+          "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785333613590
+        "lastChatAt": 1785334032724
       },
       "chatMemory": [
         {
           "user": "joseph",
-          "msg": "son olsun"
+          "msg": "devami gelmio"
         },
         {
           "user": "joseph",
-          "msg": "Acim accx😂😂"
+          "msg": "🫡"
         },
         {
           "user": "joseph",
-          "msg": "Dortnala gidiyoruz valla"
-        },
-        {
-          "user": "botger",
-          "msg": "https://x.com/e_buket_erkul"
+          "msg": "sevdigim bi oyun"
         },
         {
           "user": "joseph",
-          "msg": "😂😂"
+          "msg": "yoksa karnimizi doyurmuyo😂"
         },
         {
           "user": "joseph",
-          "msg": "Son bi oyun daha oynayalim. Ama defans yap. Saldirir dusunme"
-        },
-        {
-          "user": "botger",
-          "msg": "https://www.youtube.com/@Time.Art.Studio"
+          "msg": "Yok be ya"
         },
         {
           "user": "joseph",
-          "msg": "Simdi oynayalim artik😂"
+          "msg": "Bi seyi de zevkine yapalim"
         },
         {
           "user": "joseph",
-          "msg": "Kim demis yok diye"
+          "msg": "Daha olamadim"
         },
         {
-          "user": "botger",
-          "msg": "https://salvor.io/collections/0x4ffb0924d999bc2015f69f58f403ceadfc16963d"
+          "user": "joseph",
+          "msg": "1900u gecemedim ya"
+        },
+        {
+          "user": "joseph",
+          "msg": "Zor zor hileciler cok var"
+        },
+        {
+          "user": "joseph",
+          "msg": "kac defa kaybettigim oyun ardindan mail geliyo. Rakibiniz hile yaptigi icin puaniniz geri verildi diye"
         }
       ],
       "customCommands": {},
@@ -4801,7 +4803,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 38,
-        "totalStreamMinutes": 2671,
+        "totalStreamMinutes": 2676,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -7420,8 +7422,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785315508852,
   "auth": {
-    "accessToken": "96806e3dfd4e66d856a4c40f7593ecc2",
-    "refreshToken": "7ee1570ee0a85d80b031656d62fd6f5c",
+    "accessToken": "c9695139e3addbd39062b3787b11006f",
+    "refreshToken": "8b9641b7f4effd5a9c7c7c44402f8f48",
     "sessionToken": "bf5e5071b275e88917bda7a19a92f1d1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
