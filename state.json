@@ -3167,7 +3167,7 @@
         "totalVotes": 1638,
         "totalSubs": 41,
         "totalChatMessages": 275,
-        "totalStreamMinutes": 5516,
+        "totalStreamMinutes": 5521,
         "emotes": {
           "❤": 64,
           "🙌": 18,
@@ -6394,8 +6394,8 @@
       "stats": {
         "totalVotes": 1965,
         "totalSubs": 0,
-        "totalChatMessages": 6272,
-        "totalStreamMinutes": 1225,
+        "totalChatMessages": 6274,
+        "totalStreamMinutes": 1230,
         "emotes": {
           "❤": 8,
           "🙌": 6,
@@ -6537,17 +6537,9 @@
           "🪈": "🪈"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785347198892
+        "lastChatAt": 1785347519387
       },
       "chatMemory": [
-        {
-          "user": "solucao",
-          "msg": "Boa tarde Zezinho universitário"
-        },
-        {
-          "user": "sofrenciaplay",
-          "msg": "salve"
-        },
         {
           "user": "sofrenciaplay",
           "msg": "xevent"
@@ -6579,6 +6571,14 @@
         {
           "user": "sofrenciaplay",
           "msg": "eita"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "kkk"
+        },
+        {
+          "user": "solucao",
+          "msg": "Olha ele aí"
         }
       ],
       "customCommands": {},
@@ -7434,8 +7434,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785315508852,
   "auth": {
-    "accessToken": "3610e0048301c0bf0a1c69da57efcc06",
-    "refreshToken": "c98d64f67b0901183d10cf8830543fdc",
+    "accessToken": "04360f7812823ed5a4944f96fcf35e99",
+    "refreshToken": "c4e266f8e2c9063384d6a42b7b2a3700",
     "sessionToken": "bf5e5071b275e88917bda7a19a92f1d1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
