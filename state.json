@@ -5499,14 +5499,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 4212,
+        "totalVotes": 4232,
         "totalSubs": 1,
-        "totalChatMessages": 349,
+        "totalChatMessages": 350,
         "totalStreamMinutes": 262,
         "emotes": {
           "❤": 6,
           "🙌": 8,
-          "🗳": 111,
+          "🗳": 114,
           "🚨": 24,
           "🎉": 7,
           "👋": 14,
@@ -5597,14 +5597,10 @@
           "⚠": "⚠",
           "🎯": "🎯"
         },
-        "lastChatAt": 1785258901092,
+        "lastChatAt": 1785308997114,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 18 vote(s) (total: 18)! Thank you!! 🗳️"
@@ -5640,6 +5636,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5672,8 +5672,8 @@
       "stats": {
         "totalVotes": 1634,
         "totalSubs": 5,
-        "totalChatMessages": 42,
-        "totalStreamMinutes": 823,
+        "totalChatMessages": 43,
+        "totalStreamMinutes": 828,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -5687,13 +5687,9 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785305740490
+        "lastChatAt": 1785308516008
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@nekoschwan gifted a Sub to @avisi! Thank you!"
-        },
         {
           "user": "scurvybot",
           "msg": "@nekoschwan gifted a Sub to @snollken! Thank you!"
@@ -5729,6 +5725,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -5741,7 +5741,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "DOTES — Ragnarok Online",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to pr0ff's Ragnarok Online stream, where the 🔥 vibes are always lit! This community lives for 'DOTES' and loves when you 'gift a Sub' to celebrate milestones. Don't forget to throw in some 🔥 emojis and shout out 'thanks' when you get a love fest! pr0ff's all about the Ragnarok grind and appreciates your support.",
       "_profileAtCount": 40
@@ -7390,6 +7390,11 @@
     "he_nose": {
       "note": "Existing notes about them: They are active on a livestream platform, seem to enjoy interacting with others, and appreciate their viewers' support. They play a game that has updates and a system for verification, and…",
       "at": 1785302836315,
+      "n": 1
+    },
+    "sofrenciaplay": {
+      "note": "They seem to enjoy playing games, appear to be familiar with fantasy or mythology, and have a humorous and enthusiastic personality.",
+      "at": 1785309436203,
       "n": 1
     }
   },
