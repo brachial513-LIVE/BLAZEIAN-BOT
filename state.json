@@ -3003,14 +3003,14 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 3252,
+        "totalVotes": 3262,
         "totalSubs": 8,
-        "totalChatMessages": 1506,
+        "totalChatMessages": 1508,
         "totalStreamMinutes": 3672,
         "emotes": {
           "❤": 21,
           "🙌": 31,
-          "🗳": 219,
+          "🗳": 222,
           "🔴": 25,
           "🎉": 39,
           "📴": 24,
@@ -3083,18 +3083,10 @@
           "🍀": "🍀",
           "😜": "😜"
         },
-        "lastChatAt": 1785295855599,
+        "lastChatAt": 1785312224922,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "dofferlive",
-          "msg": "see u"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@wisewoof is raiding with a party of 2! Welcome, raiders!"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @wisewoof is raiding with a party of 2! Welcome raiders!! 🎉"
@@ -3126,6 +3118,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @DimiFW!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7402,8 +7402,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785285652184,
   "auth": {
-    "accessToken": "674aebbb80e5324628cfc87b71a4fa12",
-    "refreshToken": "c6a13627df24e8eca1b58038f6736c5a",
+    "accessToken": "3974a3fb642c11f4120ff965c86e1559",
+    "refreshToken": "46fa3f16c0ff767179738b589690d0e9",
     "sessionToken": "5a79625439fae3ba2cf0768d6e60d8dd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
