@@ -3356,7 +3356,7 @@
       "stats": {
         "totalVotes": 4114,
         "totalSubs": 16,
-        "totalChatMessages": 481,
+        "totalChatMessages": 485,
         "totalStreamMinutes": 2152,
         "emotes": {
           "❤": 28,
@@ -3373,8 +3373,8 @@
           "🔴": 16,
           "🎉": 33,
           "🚨": 42,
-          "📴": 15,
-          "👋": 27,
+          "📴": 16,
+          "👋": 28,
           "🏅": 4,
           "💪": 13,
           "😁": 4,
@@ -3453,25 +3453,9 @@
           "😀": "😀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785363632307
+        "lastChatAt": 1785367876854
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "yeah I will read it"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "You got this"
-        },
-        {
-          "user": "vitrene",
-          "msg": "thanks Zani!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "agent00zani",
           "msg": "I like this game... almost make me want to play it again"
@@ -3495,6 +3479,22 @@
         {
           "user": "agent00zani",
           "msg": "❤️"
+        },
+        {
+          "user": "vitrene",
+          "msg": "thank you for the vote tom2329!"
+        },
+        {
+          "user": "vitrene",
+          "msg": "thank you for watching, I will call it a night!"
+        },
+        {
+          "user": "vitrene",
+          "msg": "have an awesome day/night!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -3507,7 +3507,7 @@
       "botVip": true,
       "profile": "vitrene's community is a lively bunch of gamers who love to \"Goat!\" each other's achievements. They frequently use \"🔴 VOTE ALERT!! 🗳️\" to celebrate milestones and appreciate votes. The chat loves to dance with \"💃💃💃\" and bid farewell with \"have a great stream as well!\" and \"have an awesome night/day!\". They're passionate about Halo, often referencing the Covenant, the Flood, and Spartans.",
       "_profileAtCount": 481,
-      "streamTitle": "The Covenant, The Flood and a Spartan 🪖 | Halo: Campaign Evolved — Halo Campaign Evolved",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -3520,7 +3520,9 @@
       },
       "commentMode": "heavy",
       "nudgedAt": 1785010424974,
-      "nudgedKey": "customcmd"
+      "nudgedKey": "customcmd",
+      "lastStreamInfo": "The Covenant, The Flood and a Spartan 🪖 | Halo: Campaign Evolved — Halo Campaign Evolved",
+      "lastStreamEndedAt": 1785367871653
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
       "username": "grook",
@@ -4488,7 +4490,7 @@
         "totalVotes": 1038,
         "totalSubs": 11,
         "totalChatMessages": 586,
-        "totalStreamMinutes": 5033,
+        "totalStreamMinutes": 5038,
         "emotes": {
           "🔥": 195,
           "🔴": 60,
@@ -7498,8 +7500,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785359858628,
   "auth": {
-    "accessToken": "80878f47367a4e735b8615c034bfa98d",
-    "refreshToken": "a13c896629128d60edb3144ee5f6da71",
+    "accessToken": "c46c99d241aacf7c53e49c00373ba74a",
+    "refreshToken": "32e394259cb3d36d65eb4a11e1beb237",
     "sessionToken": "52721090f1ef48b6d3688b979001c423",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
