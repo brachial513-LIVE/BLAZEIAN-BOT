@@ -1246,6 +1246,9 @@ function channelContext(ch) {
       `. Mention these ONLY if someone asks about tips/rewards — never advertise them unprompted.`;
   }
   if (ch.gameOverride) c += `\n\nCURRENT GAME (owner-confirmed via !game — trust this 100%): ${ch.gameOverride}.`;
+  // What the PREVIOUS stream was about, so "what did they play last time?" is answerable. Explicitly
+  // labelled as past so it can never be mistaken for what's running now.
+  if (ch.lastStreamInfo) c += `\n\nTHEIR PREVIOUS STREAM (already ENDED ${timeAgo(ch.lastStreamEndedAt)} — past tense only, never present it as live): ${ch.lastStreamInfo}. If someone asks what ${ch.username} played or streamed last time, this is the answer. Note it's what the title said, so if it's vague, say so honestly rather than guessing at a game.`;
   else if (ch.streamTitle) c += `\n\nThe stream TITLE says: "${ch.streamTitle}". CAREFUL: titles can be outdated — if someone asks WHICH game is being played, or the chat clearly talks about a DIFFERENT game than the title, be honest: you can only read the title, you can't see the screen. Say so charmingly and suggest the owner locks it in with "!game NAME". NEVER insist on the title's game against what chat says, and NEVER invent in-game events you cannot see.`;
   return c;
 }
@@ -2657,6 +2660,12 @@ async function handleEvent(message) {
   if (metadata.subscriptionType === "stream.offline" && channelId && channels[channelId]) {
     if (streamTimers[channelId]) { clearInterval(streamTimers[channelId]); delete streamTimers[channelId]; }
     const ch = channels[channelId];
+    // Remember what the stream WAS before wiping the "currently live" context. Proven live gap: asked
+    // "what game did brachial513 play last stream?", the bot had to answer that it couldn't find out —
+    // it had known the answer an hour earlier and thrown it away. Clearing the live fields is still right
+    // (it must never claim a stream is running), but forgetting the past entirely was overkill.
+    const wasPlaying = ch.gameOverride || ch.streamTitle;
+    if (wasPlaying) { ch.lastStreamInfo = String(wasPlaying).slice(0, 160); ch.lastStreamEndedAt = Date.now(); }
     ch.streamTitle = ""; // stream ended — clear the "currently live" context
     ch.gameOverride = "";
     saveChannels();
