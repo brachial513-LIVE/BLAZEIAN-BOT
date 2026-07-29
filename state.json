@@ -2282,15 +2282,15 @@
       "stats": {
         "totalVotes": 1965,
         "totalSubs": 11,
-        "totalChatMessages": 710,
+        "totalChatMessages": 712,
         "totalStreamMinutes": 3256,
         "emotes": {
           "✨": 12,
           "🖥": 17,
           "🔥": 77,
           "👋": 29,
-          "🎬": 32,
-          "❤": 50,
+          "🎬": 33,
+          "❤": 51,
           "🚨": 6,
           "⚡": 18,
           "🏆": 15,
@@ -2424,18 +2424,10 @@
           "🥀": "🥀",
           "😤": "😤"
         },
-        "lastChatAt": 1785360378232,
+        "lastChatAt": 1785362170727,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Blaze x Otherside. Drop a greeting in chat! 👋"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🎁 [GIFTED SUB]: @zer0cache just gifted a sub to a lucky community member! Absolute legend."
-        },
         {
           "user": "agent00zani",
           "msg": "🥺"
@@ -2467,6 +2459,14 @@
         {
           "user": "cachebot",
           "msg": "🚨 [SYSTEM CRITICAL]: @Zer0Cache JUST OVERRODE THE SECTOR MAINFRAME! A brand-new ALL-TIME RECORD heist of 955 TB of encrypted files has been secured! ⚡"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ggs"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -2475,7 +2475,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Blaze x Otherside — Otherside (by Yuga Labs)",
+      "streamTitle": "",
       "profile": "zer0cache's community lives for high-stakes data heists, magnetic personalities, and Off The Grid vibes. We're a crew of elite deckers, hackers, and raiders, fueled by proxy security alarms, gifted subs, and lavish praise. Expect \"tearing it up,\" \"splendid form,\" and \"absolute legends\" – we love a good hype fest and celebrating our TB-stolen heroes.",
       "_profileAtCount": 683,
       "loyalty": {
@@ -2491,7 +2491,9 @@
         }
       },
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
-      "gameOverride": ""
+      "gameOverride": "",
+      "lastStreamInfo": "Blaze x Otherside — Otherside (by Yuga Labs)",
+      "lastStreamEndedAt": 1785362170302
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -3354,7 +3356,7 @@
       "stats": {
         "totalVotes": 4063,
         "totalSubs": 16,
-        "totalChatMessages": 471,
+        "totalChatMessages": 472,
         "totalStreamMinutes": 2152,
         "emotes": {
           "❤": 27,
@@ -3451,13 +3453,9 @@
           "😀": "😀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785360654503
+        "lastChatAt": 1785361217183
       },
       "chatMemory": [
-        {
-          "user": "cedricdebled",
-          "msg": "He brother"
-        },
         {
           "user": "cedricdebled",
           "msg": "i am drawin miss Vitrene :-)"
@@ -3493,6 +3491,10 @@
         {
           "user": "cedricdebled",
           "msg": "Loved that you mentioned this."
+        },
+        {
+          "user": "vitrene",
+          "msg": "yeah I will read it"
         }
       ],
       "customCommands": {},
@@ -5234,13 +5236,13 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 1733,
+        "totalVotes": 1734,
         "totalSubs": 22,
-        "totalChatMessages": 863,
+        "totalChatMessages": 874,
         "totalStreamMinutes": 1457,
         "emotes": {
           "❤": 83,
-          "🙌": 62,
+          "🙌": 64,
           "🔴": 14,
           "🎉": 19,
           "👋": 33,
@@ -5256,7 +5258,7 @@
           "🤝": 1,
           "💚": 1,
           "🔥": 48,
-          "😂": 3,
+          "😂": 7,
           "🚨": 24,
           "🎁": 40,
           "🍺": 11,
@@ -5265,7 +5267,7 @@
           "😜": 1,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 60,
+          "🗳": 63,
           "🥷": 2,
           "💯": 3,
           "📢": 2,
@@ -5283,7 +5285,8 @@
           "💃": 3,
           "🧡": 3,
           "🫂": 1,
-          "😀": 1
+          "😀": 1,
+          "😆": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -5330,51 +5333,52 @@
           "💃": "💃",
           "🧡": "🧡",
           "🫂": "🫂",
-          "😀": "😀"
+          "😀": "😀",
+          "😆": "😆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785360031051
+        "lastChatAt": 1785362269883
       },
       "chatMemory": [
         {
+          "user": "triz_draw",
+          "msg": "lol"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "😆😂😂😂😂"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "killlll them"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "wassup @parky"
+        },
+        {
+          "user": "cheeseyeggs",
+          "msg": "TURBO!"
+        },
+        {
+          "user": "cheeseyeggs",
+          "msg": "Right, im off bro. Hope you have a good one! Much love!"
+        },
+        {
           "user": "scurvybot",
-          "msg": "Thanks for the follow, @nekoschwan!"
+          "msg": "Thanks for the 1 vote, @Cheeseyeggs!"
         },
         {
           "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ nekoschwan just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "just checking in"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 parky is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "itssscat",
-          "msg": "Hiiiii!"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Cheeseyeggs just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         },
         {
           "user": "cheeseyeggs",
-          "msg": "Hey baby cakes!"
+          "msg": "Here bro, have my 1 and only vote"
         },
         {
           "user": "cheeseyeggs",
-          "msg": "Its not easy being a Lion Hunter in Slough!"
-        },
-        {
-          "user": "s1lent2193",
-          "msg": "👋"
-        },
-        {
-          "user": "cheeseyeggs",
-          "msg": "😀"
+          "msg": "Night buddy"
         }
       ],
       "customCommands": {},
@@ -5935,7 +5939,7 @@
       "stats": {
         "totalVotes": 4873,
         "totalSubs": 3,
-        "totalChatMessages": 1125,
+        "totalChatMessages": 1126,
         "totalStreamMinutes": 443,
         "emotes": {
           "❤": 20,
@@ -6052,17 +6056,13 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785359505835,
+        "lastChatAt": 1785361986980,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "u toooooo"
-        },
         {
           "user": "triz_draw",
           "msg": "pásala chevere doct"
@@ -6098,6 +6098,10 @@
         {
           "user": "vitrene",
           "msg": "hi @cedricdebled!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ggs'"
         }
       ],
       "customCommands": {},
