@@ -733,7 +733,7 @@
         "totalVotes": 3621,
         "totalSubs": 7,
         "totalChatMessages": 3002,
-        "totalStreamMinutes": 444,
+        "totalStreamMinutes": 449,
         "emotes": {
           "🔥": 49,
           "🗳": 8,
@@ -1922,9 +1922,9 @@
       "language": "en",
       "stats": {
         "totalVotes": 2201,
-        "totalSubs": 20,
-        "totalChatMessages": 752,
-        "totalStreamMinutes": 5954,
+        "totalSubs": 32,
+        "totalChatMessages": 779,
+        "totalStreamMinutes": 5959,
         "emotes": {
           "😊": 3,
           "🌵": 65,
@@ -2018,7 +2018,8 @@
           "⛱": 1,
           "🔆": 1,
           "😍": 5,
-          "🐐": 5
+          "🐐": 5,
+          "😝": 2
         },
         "emoteNames": {
           "😊": "😊",
@@ -2113,51 +2114,52 @@
           "⛱": "⛱",
           "🔆": "🔆",
           "😍": "😍",
-          "🐐": "🐐"
+          "🐐": "🐐",
+          "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785295932344
+        "lastChatAt": 1785296169290
       },
       "chatMemory": [
         {
-          "user": "dofferlive",
-          "msg": "@blazeian_bot_ai  shut  up  i told you whenn im  here  today"
+          "user": "cg777",
+          "msg": "nice hat"
+        },
+        {
+          "user": "briggsy",
+          "msg": "haha"
+        },
+        {
+          "user": "he_nose",
+          "msg": "My boy got the hat"
+        },
+        {
+          "user": "he_nose",
+          "msg": "legend status"
+        },
+        {
+          "user": "cg777",
+          "msg": "Nice"
         },
         {
           "user": "dofferlive",
-          "msg": "that's  why we  need to  do a  call"
+          "msg": "legennd cap"
         },
         {
-          "user": "dofferlive",
-          "msg": "vc inn  blaze"
+          "user": "cg777",
+          "msg": "going to do a free giveaway soon for all who buy/bought merch"
         },
         {
-          "user": "dofferlive",
-          "msg": "we are there"
+          "user": "m_wright19",
+          "msg": "Boo"
         },
         {
-          "user": "steadyember",
-          "msg": "cheers!"
+          "user": "he_nose",
+          "msg": "Always good to see you brother"
         },
         {
-          "user": "dofferlive",
-          "msg": "dofferlive."
-        },
-        {
-          "user": "dofferlive",
-          "msg": "on discord"
-        },
-        {
-          "user": "steadyember",
-          "msg": "😂"
-        },
-        {
-          "user": "mindgoblin",
-          "msg": "hey capt!"
-        },
-        {
-          "user": "octo",
-          "msg": "whatup goblin gang"
+          "user": "he_nose",
+          "msg": "Appreciate the sub"
         }
       ],
       "customCommands": {},
@@ -4453,8 +4455,8 @@
       "stats": {
         "totalVotes": 1038,
         "totalSubs": 11,
-        "totalChatMessages": 581,
-        "totalStreamMinutes": 5012,
+        "totalChatMessages": 583,
+        "totalStreamMinutes": 5014,
         "emotes": {
           "🔥": 193,
           "🔴": 60,
@@ -4462,8 +4464,8 @@
           "🤣": 3,
           "☕": 18,
           "💪": 2,
-          "📴": 16,
-          "👋": 17,
+          "📴": 17,
+          "👋": 18,
           "👽": 28,
           "💀": 6,
           "🗳": 69,
@@ -4533,18 +4535,10 @@
           "😍": "😍",
           "🤘": "🤘"
         },
-        "lastChatAt": 1785292089086,
+        "lastChatAt": 1785296093068,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "flash",
-          "msg": "🇺🇸"
-        },
-        {
-          "user": "botger",
-          "msg": "Come follow ALL my socials and see what goes on after stream! \nhttps://streemrz.com/u/xxtowerdogxx/"
-        },
         {
           "user": "just_for_lucas",
           "msg": "🔥🔥🔥Blaze on!!"
@@ -4576,6 +4570,14 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -4585,7 +4587,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "FULL SEND WITH TEAM VPZONE 💥Gamefolio & A-Bomb Energy Fueled☢️  UNSTOPPABLE SQUAD — Delta Force",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "We're a BLAZE community fueled by gaming, anime, and a passion for dropping votes 💥🎮, celebrating with BLAZE ON Brother! and TTYL! shoutouts. We're all about the TOWER Crew, voting is LIVE, and subs are appreciated. We're partnered with BLACKOUT COFFEE CO. and love a good ☕. Our streamer xxtowerdogxx loves to play Delta Force and goes FULL SEND with Team VPZONE 💥, fuelled by Gamefolio & A-Bomb Energy.",
       "_profileAtCount": 580,
@@ -7377,8 +7379,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785285652184,
   "auth": {
-    "accessToken": "f9939b8c83aba35701be23ad841fb8d1",
-    "refreshToken": "9c6f2e8899ef699c4733aa3a14e4e9a0",
+    "accessToken": "b5b6e0eaf3aa9bbb21a17c3283017bed",
+    "refreshToken": "15579262d1bce1c4d4a2a59c9ca5833c",
     "sessionToken": "5a79625439fae3ba2cf0768d6e60d8dd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
