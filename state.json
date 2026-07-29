@@ -3693,9 +3693,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 3095,
+        "totalVotes": 3145,
         "totalSubs": 15,
-        "totalChatMessages": 1130,
+        "totalChatMessages": 1131,
         "totalStreamMinutes": 1654,
         "emotes": {
           "❤": 18,
@@ -3706,7 +3706,7 @@
           "🙂": 3,
           "🔥": 32,
           "😎": 5,
-          "🗳": 165,
+          "🗳": 168,
           "📴": 14,
           "👋": 14,
           "🎁": 28,
@@ -3786,13 +3786,9 @@
           "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785318790230
+        "lastChatAt": 1785328491474
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @mindgoblin has resubscribed — 2 months total, 1 month streak! Thank you for the continued support! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @degenmike! How generous!! 🙌"
@@ -3828,6 +3824,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @dae just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7420,8 +7420,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785315508852,
   "auth": {
-    "accessToken": "89036cca04f3a6d585a57fbdf9251656",
-    "refreshToken": "f59b5e3493e367c83ea73ec7890b9b7b",
+    "accessToken": "ab9b02cf4ff189df0f8140512a66b67c",
+    "refreshToken": "3e439c8dc6c0ef2827ffe7ad67f8cc22",
     "sessionToken": "bf5e5071b275e88917bda7a19a92f1d1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
