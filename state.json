@@ -912,7 +912,7 @@
         "totalVotes": 1409,
         "totalSubs": 25,
         "totalChatMessages": 1201,
-        "totalStreamMinutes": 3604,
+        "totalStreamMinutes": 3622,
         "emotes": {
           "📊": 3,
           "🔥": 126,
@@ -2520,14 +2520,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 4961,
+        "totalVotes": 4971,
         "totalSubs": 24,
-        "totalChatMessages": 3643,
+        "totalChatMessages": 3644,
         "totalStreamMinutes": 2651,
         "emotes": {
           "❤": 66,
           "🙌": 153,
-          "🗳": 414,
+          "🗳": 417,
           "✌": 3,
           "😊": 9,
           "👍": 6,
@@ -2757,13 +2757,9 @@
           "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785314114218
+        "lastChatAt": 1785317273578
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "@blazeian_bot_ai Weather London"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
@@ -2799,6 +2795,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xlords just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5383,16 +5383,16 @@
       "stats": {
         "totalVotes": 2546,
         "totalSubs": 1,
-        "totalChatMessages": 244,
-        "totalStreamMinutes": 1352,
+        "totalChatMessages": 245,
+        "totalStreamMinutes": 1366,
         "emotes": {
           "❤": 18,
           "🙌": 10,
           "💚": 2,
           "🔥": 8,
           "🗳": 96,
-          "🔴": 16,
-          "🎉": 20,
+          "🔴": 17,
+          "🎉": 21,
           "📴": 16,
           "👋": 17,
           "🚨": 24,
@@ -5426,13 +5426,9 @@
           "✋": "✋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785310768653
+        "lastChatAt": 1785316958773
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "tinapay",
           "msg": "Helloooooo"
@@ -5468,6 +5464,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -5480,7 +5480,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Cambria Fun Disclaimer it is RISK TO EARN! — Crypto",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! We're a chill community that's all about vibes, love, and Crypto. You'll catch us saying 'will eat first', 'hungryyy', and 'appreciate you all' - so don't forget to vote and show your love! Grab some snacks, join the party, and remember, 'it's time to grind'!",
       "_profileAtCount": 232,
@@ -7402,8 +7402,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785315508852,
   "auth": {
-    "accessToken": "342c0e80ec4d8b8517716f4eebc6e6e4",
-    "refreshToken": "768d0cacd5aa8a04d4010f46534badc1",
+    "accessToken": "14dc94e7a5a572e168fc5e350edcdd1a",
+    "refreshToken": "4cb45da43a7e4801e1275a808cf8de7f",
     "sessionToken": "5a79625439fae3ba2cf0768d6e60d8dd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
