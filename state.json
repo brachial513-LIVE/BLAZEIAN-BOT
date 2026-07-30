@@ -911,8 +911,8 @@
       "stats": {
         "totalVotes": 1433,
         "totalSubs": 26,
-        "totalChatMessages": 1228,
-        "totalStreamMinutes": 3835,
+        "totalChatMessages": 1229,
+        "totalStreamMinutes": 3838,
         "emotes": {
           "📊": 3,
           "🔥": 128,
@@ -1100,13 +1100,9 @@
           "😎": "😎"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785412972130
+        "lastChatAt": 1785413824051
       },
       "chatMemory": [
-        {
-          "user": "piggymoto",
-          "msg": "Happy Streaming!!"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Thanks @piggymoto"
@@ -1142,6 +1138,10 @@
         {
           "user": "foxbotai",
           "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
         }
       ],
       "customCommands": {},
@@ -1150,7 +1150,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "OTHERSIDE 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Otherside (by Yuga Labs)",
       "profile": "Welcome to the Wilder World game nights 🔥! We're all about that \"FOX BOT\" magic, where the vibes are lit and the foxes are fierce! Expect \"FOX BOT help\" commands, \"FOX BOT\" shenanigans, and plenty of \"RIP\" jokes. Let's \"SLAY A DRAGON\" and keep the \"FOX BOT\" energy high! Don't forget to give crypt0k1ng96 love – we love our shoutouts!",
       "_profileAtCount": 1226,
       "gameOverride": "",
@@ -6170,7 +6170,7 @@
         "totalVotes": 1854,
         "totalSubs": 11,
         "totalChatMessages": 333,
-        "totalStreamMinutes": 1065,
+        "totalStreamMinutes": 1070,
         "emotes": {
           "❤": 25,
           "🙌": 18,
@@ -7319,7 +7319,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 5,
-        "totalStreamMinutes": 23,
+        "totalStreamMinutes": 28,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -7642,8 +7642,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785389450456,
   "auth": {
-    "accessToken": "09e12794434882107e84475aa37cb261",
-    "refreshToken": "17bfa40b1c46e06d75c4cbc43cc694f7",
+    "accessToken": "e750e63d9d10933d3c9813cfa5e34a19",
+    "refreshToken": "70fe9a57052793ad600b1a5639b6b820",
     "sessionToken": "52721090f1ef48b6d3688b979001c423",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
