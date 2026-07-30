@@ -911,7 +911,7 @@
       "stats": {
         "totalVotes": 1433,
         "totalSubs": 26,
-        "totalChatMessages": 1226,
+        "totalChatMessages": 1228,
         "totalStreamMinutes": 3835,
         "emotes": {
           "📊": 3,
@@ -1100,13 +1100,9 @@
           "😎": "😎"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785345556404
+        "lastChatAt": 1785412972130
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot Reward Shop: hug 🤗 10 FoxCoins | hype 🔥 25 FoxCoins | flex 💪 50 FoxCoins | mysterybox 🎁 75 FoxCoins | sponsor 💎 150 FoxCoins | Use !redeem rewardname"
-        },
         {
           "user": "piggymoto",
           "msg": "Happy Streaming!!"
@@ -1142,6 +1138,10 @@
         {
           "user": "foxbotai",
           "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
         }
       ],
       "customCommands": {},
@@ -5443,8 +5443,8 @@
       "stats": {
         "totalVotes": 2983,
         "totalSubs": 15,
-        "totalChatMessages": 392,
-        "totalStreamMinutes": 1662,
+        "totalChatMessages": 393,
+        "totalStreamMinutes": 1666,
         "emotes": {
           "❤": 18,
           "🙌": 24,
@@ -5453,8 +5453,8 @@
           "🗳": 120,
           "🔴": 19,
           "🎉": 24,
-          "📴": 18,
-          "👋": 19,
+          "📴": 19,
+          "👋": 20,
           "🚨": 30,
           "🥂": 1,
           "🫶": 1,
@@ -5500,13 +5500,9 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785411775176
+        "lastChatAt": 1785412568217
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @supercyclereal just gave 100 vote(s) (total: 300)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -5542,6 +5538,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @seventh! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5554,7 +5554,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "Cambria Dungeons *RISK TO EARN!* — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! It's all about vibes, love, and Crypto. You'll catch us saying 'will eat first', 'hungryyy', and 'appreciate you all' - so don't forget to vote and show your love! We love 'GIFTED SUBS', 'VOTE ALERTS', 'ROI YAN' moments, and when someone gets 'patay' or 'spanked'! Grab some snacks, join the party, and remember, 'it's time to grind'!",
       "_profileAtCount": 364,
@@ -5568,8 +5568,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "Cambria Fun Disclaimer it is RISK TO EARN! — Crypto",
-      "lastStreamEndedAt": 1785380987943
+      "lastStreamInfo": "Cambria Dungeons *RISK TO EARN!* — Crypto",
+      "lastStreamEndedAt": 1785412562920
     },
     "4e8116b6-6705-4e00-a83c-c7e455b3a446": {
       "username": "dimifw",
@@ -6169,8 +6169,8 @@
       "stats": {
         "totalVotes": 1854,
         "totalSubs": 11,
-        "totalChatMessages": 332,
-        "totalStreamMinutes": 1045,
+        "totalChatMessages": 333,
+        "totalStreamMinutes": 1065,
         "emotes": {
           "❤": 25,
           "🙌": 18,
@@ -6224,13 +6224,9 @@
           "👀": "👀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785411898260
+        "lastChatAt": 1785412502462
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @angge_wf just gifted a sub to @Future42! How generous!! 🙌"
-        },
         {
           "user": "scurvybot",
           "msg": "@angge_wf gifted a Sub to @capt_rob_advent! Thank you!"
@@ -6266,6 +6262,10 @@
         {
           "user": "seventh",
           "msg": "gm gm ate @angge_wf"
+        },
+        {
+          "user": "marowak33",
+          "msg": "future"
         }
       ],
       "customCommands": {},
@@ -7319,7 +7319,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 5,
-        "totalStreamMinutes": 3,
+        "totalStreamMinutes": 23,
         "emotes": {
           "❤": 2,
           "🙌": 1,
