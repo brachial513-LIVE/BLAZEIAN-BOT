@@ -730,7 +730,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 4024,
+        "totalVotes": 4126,
         "totalSubs": 7,
         "totalChatMessages": 3076,
         "totalStreamMinutes": 496,
@@ -6170,7 +6170,7 @@
         "totalVotes": 1854,
         "totalSubs": 8,
         "totalChatMessages": 311,
-        "totalStreamMinutes": 961,
+        "totalStreamMinutes": 980,
         "emotes": {
           "❤": 25,
           "🙌": 15,
@@ -6907,14 +6907,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 1278,
+        "totalVotes": 1333,
         "totalSubs": 0,
-        "totalChatMessages": 123,
+        "totalChatMessages": 125,
         "totalStreamMinutes": 412,
         "emotes": {
           "❤": 6,
           "🙌": 3,
-          "🗳": 36,
+          "🗳": 39,
           "🔴": 3,
           "🎉": 6,
           "🏃": 1,
@@ -6950,17 +6950,9 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785376130793
+        "lastChatAt": 1785407485770
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 15 votes, @briggsy!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 24 votes, @XanderC!"
@@ -6992,6 +6984,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 120 vote(s) (total: 270)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 55 votes, @Desirablebottom!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 55 vote(s) (total: 157)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7625,8 +7625,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785389450456,
   "auth": {
-    "accessToken": "38f24a12ea39a962eec6fdca543f8c3a",
-    "refreshToken": "54c42edd4afeccc15b294c44f644d0ad",
+    "accessToken": "a692ea9ea2a1e3a52b507408d3e0a7b5",
+    "refreshToken": "9cf9c0961b90ee69b7297cb67ba2b60d",
     "sessionToken": "52721090f1ef48b6d3688b979001c423",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
