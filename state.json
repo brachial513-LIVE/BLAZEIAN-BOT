@@ -5444,7 +5444,7 @@
         "totalVotes": 2983,
         "totalSubs": 14,
         "totalChatMessages": 387,
-        "totalStreamMinutes": 1637,
+        "totalStreamMinutes": 1642,
         "emotes": {
           "❤": 18,
           "🙌": 23,
@@ -6169,8 +6169,8 @@
       "stats": {
         "totalVotes": 1854,
         "totalSubs": 11,
-        "totalChatMessages": 329,
-        "totalStreamMinutes": 1020,
+        "totalChatMessages": 331,
+        "totalStreamMinutes": 1025,
         "emotes": {
           "❤": 25,
           "🙌": 18,
@@ -6194,7 +6194,8 @@
           "🚨": 12,
           "😇": 1,
           "🫶": 1,
-          "🤩": 3
+          "🤩": 3,
+          "👀": 5
         },
         "emoteNames": {
           "❤": "❤",
@@ -6219,20 +6220,13 @@
           "🚨": "🚨",
           "😇": "😇",
           "🫶": "🫶",
-          "🤩": "🤩"
+          "🤩": "🤩",
+          "👀": "👀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785410196691
+        "lastChatAt": 1785410997662
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@angge_wf gifted a Sub to @Desirablebottom! Thank you!"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @angge_wf just gifted a sub to @Desirablebottom! How generous!! 🙌"
-        },
         {
           "user": "scurvybot",
           "msg": "@angge_wf gifted a Sub to @Future42! Thank you!"
@@ -6264,6 +6258,14 @@
         {
           "user": "tuff3rmrd3ano",
           "msg": "🙃🙃🙃🙃"
+        },
+        {
+          "user": "future42",
+          "msg": "👀👀👀👀👀"
+        },
+        {
+          "user": "future42",
+          "msg": "GM"
         }
       ],
       "customCommands": {},
@@ -7627,8 +7629,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785389450456,
   "auth": {
-    "accessToken": "a692ea9ea2a1e3a52b507408d3e0a7b5",
-    "refreshToken": "9cf9c0961b90ee69b7297cb67ba2b60d",
+    "accessToken": "09e12794434882107e84475aa37cb261",
+    "refreshToken": "17bfa40b1c46e06d75c4cbc43cc694f7",
     "sessionToken": "52721090f1ef48b6d3688b979001c423",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
