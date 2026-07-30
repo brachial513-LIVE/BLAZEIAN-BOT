@@ -2546,11 +2546,11 @@
       "stats": {
         "totalVotes": 5257,
         "totalSubs": 24,
-        "totalChatMessages": 3927,
-        "totalStreamMinutes": 2957,
+        "totalChatMessages": 3929,
+        "totalStreamMinutes": 2961,
         "emotes": {
           "❤": 88,
-          "🙌": 166,
+          "🙌": 167,
           "🗳": 450,
           "✌": 3,
           "😊": 9,
@@ -2781,17 +2781,9 @@
           "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785454053478
+        "lastChatAt": 1785454171729
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "LEt's go! Last one's a W"
-        },
-        {
-          "user": "briggsy",
-          "msg": "yesss"
-        },
         {
           "user": "agent00zani",
           "msg": "ty ty for the games"
@@ -2811,6 +2803,14 @@
         {
           "user": "briggsy",
           "msg": "folks"
+        },
+        {
+          "user": "botger",
+          "msg": "Welcome, welcome, briggsy is attempting to go live."
+        },
+        {
+          "user": "botger",
+          "msg": "Appreciate your time.  Cheers and catchya next time. 🙌"
         },
         {
           "user": "botger",
@@ -2867,7 +2867,7 @@
       "nudgedAt": 1785051188620,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Mellow walk — IRL",
-      "lastStreamEndedAt": 1785453912853
+      "lastStreamEndedAt": 1785454144784
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -3195,7 +3195,7 @@
         "totalVotes": 1664,
         "totalSubs": 42,
         "totalChatMessages": 287,
-        "totalStreamMinutes": 5836,
+        "totalStreamMinutes": 5841,
         "emotes": {
           "❤": 66,
           "🙌": 19,
@@ -4523,8 +4523,8 @@
       "stats": {
         "totalVotes": 1056,
         "totalSubs": 11,
-        "totalChatMessages": 604,
-        "totalStreamMinutes": 5356,
+        "totalChatMessages": 605,
+        "totalStreamMinutes": 5361,
         "emotes": {
           "🔥": 201,
           "🔴": 62,
@@ -4609,14 +4609,10 @@
           "😵": "😵",
           "💫": "💫"
         },
-        "lastChatAt": 1785454054954,
+        "lastChatAt": 1785454063347,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
         {
           "user": "scurvybot",
           "msg": "@agent00zani is raiding with a party of 3! Welcome, raiders!"
@@ -4652,6 +4648,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 25 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "future42",
+          "msg": "Blaze it Brother"
         }
       ],
       "customCommands": {},
@@ -7545,8 +7545,8 @@
     },
     "dofferlive": {
       "note": "They appear to be enthusiastic about gaming, likely playing competitive games, with a humorous and encouraging personality, and an interest in tattoos.",
-      "at": 1785398138677,
-      "n": 6
+      "at": 1785454238832,
+      "n": 7
     },
     "k1ngbre4ker": {
       "note": "They enjoy playing various games, value humor and camaraderie, appreciate unique game mechanics and personalities, and enjoy relaxed, social streaming experiences.",
@@ -7733,8 +7733,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785438108378,
   "auth": {
-    "accessToken": "67bc5cff9be9061ea736db08b5d7d629",
-    "refreshToken": "84f931e74267384cac20273176aa18a2",
+    "accessToken": "ce190a6bf37253ab61ebb7515483f92f",
+    "refreshToken": "cb00973fe1fd9542a3debd8b945b6990",
     "sessionToken": "08df85cdbd8067016ddb7955c8fa4563",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
