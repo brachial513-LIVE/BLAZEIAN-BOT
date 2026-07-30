@@ -5442,12 +5442,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 2983,
-        "totalSubs": 14,
-        "totalChatMessages": 387,
-        "totalStreamMinutes": 1642,
+        "totalSubs": 15,
+        "totalChatMessages": 392,
+        "totalStreamMinutes": 1662,
         "emotes": {
           "❤": 18,
-          "🙌": 23,
+          "🙌": 24,
           "💚": 2,
           "🔥": 8,
           "🗳": 120,
@@ -5467,7 +5467,7 @@
           "✌": 1,
           "☺": 1,
           "👍": 1,
-          "🎁": 26,
+          "🎁": 28,
           "😶": 6,
           "🌫": 6,
           "😍": 4
@@ -5500,29 +5500,9 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785410273040
+        "lastChatAt": 1785411775176
       },
       "chatMemory": [
-        {
-          "user": "faithy_",
-          "msg": "i'm finishing my live now"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "faithy_",
-          "msg": "😍😍"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @supercyclereal just gave 100 vote(s) (total: 300)! Thank you!! 🗳️"
@@ -5542,6 +5522,26 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @supercyclereal! How generous!! 🙌"
+        },
+        {
+          "user": "seventh",
+          "msg": "gm gm kuya @faithy_"
+        },
+        {
+          "user": "seventh",
+          "msg": "bat di na spiritvale? hahaha"
+        },
+        {
+          "user": "seventh",
+          "msg": "paldo ka ah"
+        },
+        {
+          "user": "seventh",
+          "msg": "paldooooo!!"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @seventh! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -6169,8 +6169,8 @@
       "stats": {
         "totalVotes": 1854,
         "totalSubs": 11,
-        "totalChatMessages": 331,
-        "totalStreamMinutes": 1025,
+        "totalChatMessages": 332,
+        "totalStreamMinutes": 1045,
         "emotes": {
           "❤": 25,
           "🙌": 18,
@@ -6224,13 +6224,9 @@
           "👀": "👀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785410997662
+        "lastChatAt": 1785411898260
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@angge_wf gifted a Sub to @Future42! Thank you!"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @angge_wf just gifted a sub to @Future42! How generous!! 🙌"
@@ -6266,6 +6262,10 @@
         {
           "user": "future42",
           "msg": "GM"
+        },
+        {
+          "user": "seventh",
+          "msg": "gm gm ate @angge_wf"
         }
       ],
       "customCommands": {},
@@ -7318,24 +7318,28 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 3,
-        "totalStreamMinutes": 0,
+        "totalChatMessages": 5,
+        "totalStreamMinutes": 3,
         "emotes": {
           "❤": 2,
           "🙌": 1,
           "🔥": 2,
           "💚": 3,
-          "🤝": 1
+          "🤝": 1,
+          "🔴": 1,
+          "🎉": 1
         },
         "emoteNames": {
           "❤": "❤",
           "🙌": "🙌",
           "🔥": "🔥",
           "💚": "💚",
-          "🤝": "🤝"
+          "🤝": "🤝",
+          "🔴": "🔴",
+          "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785406066188
+        "lastChatAt": 1785412125852
       },
       "chatMemory": [
         {
@@ -7349,6 +7353,14 @@
         {
           "user": "brachial513",
           "msg": "Hey GM @seventh and thank you for using Blazeian_Bot_AI  ! 🔥🔥💚💚 You now also have 1 permanently free Entry for my Weekly Giveaway on Blaze 🤝🏼💚"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 seventh is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -7359,7 +7371,8 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg",
+      "streamTitle": "Grindin' and Farming!! 😬🔥 — Crypto"
     }
   },
   "blocklist": [
