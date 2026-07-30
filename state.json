@@ -912,7 +912,7 @@
         "totalVotes": 1434,
         "totalSubs": 26,
         "totalChatMessages": 1259,
-        "totalStreamMinutes": 3923,
+        "totalStreamMinutes": 3928,
         "emotes": {
           "📊": 3,
           "🔥": 128,
@@ -2532,14 +2532,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 5242,
+        "totalVotes": 5252,
         "totalSubs": 24,
-        "totalChatMessages": 3787,
+        "totalChatMessages": 3788,
         "totalStreamMinutes": 2856,
         "emotes": {
           "❤": 83,
           "🙌": 162,
-          "🗳": 441,
+          "🗳": 444,
           "✌": 3,
           "😊": 9,
           "👍": 6,
@@ -2769,13 +2769,9 @@
           "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785397288057
+        "lastChatAt": 1785419187257
       },
       "chatMemory": [
-        {
-          "user": "tigresa",
-          "msg": "I want prizes go to good people"
-        },
         {
           "user": "tigresa",
           "msg": "hahaha yes"
@@ -2811,6 +2807,10 @@
         {
           "user": "briggsy",
           "msg": "Catchya next time"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 10 vote(s) (total: 30)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6172,7 +6172,7 @@
         "totalVotes": 1854,
         "totalSubs": 11,
         "totalChatMessages": 336,
-        "totalStreamMinutes": 1155,
+        "totalStreamMinutes": 1160,
         "emotes": {
           "❤": 25,
           "🙌": 18,
@@ -7321,7 +7321,7 @@
         "totalVotes": 1,
         "totalSubs": 0,
         "totalChatMessages": 8,
-        "totalStreamMinutes": 113,
+        "totalStreamMinutes": 118,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -7658,8 +7658,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785389450456,
   "auth": {
-    "accessToken": "abc44fbf2e07639c88b8a9ec7edee45b",
-    "refreshToken": "dd246f3f152cb853955d6adfb1e43ff8",
+    "accessToken": "936258ce6c707382e9070fdccc26d7d3",
+    "refreshToken": "5d8577340f982c7b27a8c2dd90e28f37",
     "sessionToken": "52721090f1ef48b6d3688b979001c423",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
