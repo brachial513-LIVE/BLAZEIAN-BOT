@@ -1928,7 +1928,7 @@
         "totalVotes": 2241,
         "totalSubs": 35,
         "totalChatMessages": 985,
-        "totalStreamMinutes": 6263,
+        "totalStreamMinutes": 6268,
         "emotes": {
           "😊": 3,
           "🌵": 67,
@@ -4156,8 +4156,8 @@
       "stats": {
         "totalVotes": 1971,
         "totalSubs": 9,
-        "totalChatMessages": 71,
-        "totalStreamMinutes": 4186,
+        "totalChatMessages": 72,
+        "totalStreamMinutes": 4191,
         "emotes": {
           "💚": 4,
           "🔥": 7,
@@ -4176,13 +4176,9 @@
           "☺": "☺",
           "👍": "👍"
         },
-        "lastChatAt": 1785385670486
+        "lastChatAt": 1785386591645
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -4218,6 +4214,10 @@
         {
           "user": "tai_",
           "msg": "thanksss @peperonitostv"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @nicollasvargas!"
         }
       ],
       "customCommands": {},
@@ -7555,8 +7555,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785359858628,
   "auth": {
-    "accessToken": "a8da294476c15e67890445cce413fb50",
-    "refreshToken": "34bbb7ee7315aab6d09af0764a1f9de5",
+    "accessToken": "d77a8c9629fe13e52ef6404466b2eda3",
+    "refreshToken": "1309e9715eca29398458c1d8c593e304",
     "sessionToken": "52721090f1ef48b6d3688b979001c423",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
