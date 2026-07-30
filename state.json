@@ -6169,8 +6169,8 @@
       "stats": {
         "totalVotes": 1854,
         "totalSubs": 8,
-        "totalChatMessages": 304,
-        "totalStreamMinutes": 935,
+        "totalChatMessages": 305,
+        "totalStreamMinutes": 941,
         "emotes": {
           "❤": 25,
           "🙌": 15,
@@ -6220,13 +6220,9 @@
           "🫶": "🫶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785404907996
+        "lastChatAt": 1785405876458
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @walkthegrid!"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ walkthegrid just followed the channel! Welcome!! 🙌"
@@ -6262,6 +6258,10 @@
         {
           "user": "cedricdebled",
           "msg": "Do your best"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -7314,18 +7314,24 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 2,
+        "totalChatMessages": 3,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
-          "🙌": 1
+          "🙌": 1,
+          "🔥": 2,
+          "💚": 3,
+          "🤝": 1
         },
         "emoteNames": {
           "❤": "❤",
-          "🙌": "🙌"
+          "🙌": "🙌",
+          "🔥": "🔥",
+          "💚": "💚",
+          "🤝": "🤝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785405367703
+        "lastChatAt": 1785406066188
       },
       "chatMemory": [
         {
@@ -7335,6 +7341,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "brachial513",
+          "msg": "Hey GM @seventh and thank you for using Blazeian_Bot_AI  ! 🔥🔥💚💚 You now also have 1 permanently free Entry for my Weekly Giveaway on Blaze 🤝🏼💚"
         }
       ],
       "customCommands": {},
@@ -7344,7 +7354,8 @@
       "timedMessages": [],
       "tipTiers": [],
       "greeted": true,
-      "locked": false
+      "locked": false,
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg"
     }
   },
   "blocklist": [
