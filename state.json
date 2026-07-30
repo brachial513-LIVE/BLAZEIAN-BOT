@@ -6170,7 +6170,7 @@
         "totalVotes": 1854,
         "totalSubs": 8,
         "totalChatMessages": 304,
-        "totalStreamMinutes": 928,
+        "totalStreamMinutes": 935,
         "emotes": {
           "❤": 25,
           "🙌": 15,
@@ -7314,20 +7314,37 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {},
-        "sendFailStreak": 0
+        "emotes": {
+          "❤": 2,
+          "🙌": 1
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌"
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1785405367703
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
       "timedMessages": [],
       "tipTiers": [],
-      "greeted": true
+      "greeted": true,
+      "locked": false
     }
   },
   "blocklist": [
@@ -7597,8 +7614,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785389450456,
   "auth": {
-    "accessToken": "2d1731cdd4b42dfc0755d87fe08b91dd",
-    "refreshToken": "7a9338a54a1bf9667f833ce77d861494",
+    "accessToken": "38f24a12ea39a962eec6fdca543f8c3a",
+    "refreshToken": "54c42edd4afeccc15b294c44f644d0ad",
     "sessionToken": "52721090f1ef48b6d3688b979001c423",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
