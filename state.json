@@ -910,12 +910,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 1436,
-        "totalSubs": 26,
-        "totalChatMessages": 1260,
-        "totalStreamMinutes": 3993,
+        "totalSubs": 27,
+        "totalChatMessages": 1262,
+        "totalStreamMinutes": 4013,
         "emotes": {
           "📊": 3,
-          "🔥": 128,
+          "🔥": 129,
           "🤣": 9,
           "💚": 43,
           "❤": 4,
@@ -1005,7 +1005,9 @@
           "🦕": 1,
           "🐺": 1,
           "😎": 3,
-          "🙂": 1
+          "🙂": 1,
+          "🔺": 1,
+          "🫡": 1
         },
         "emoteNames": {
           "📊": "📊",
@@ -1099,20 +1101,14 @@
           "🦕": "🦕",
           "🐺": "🐺",
           "😎": "😎",
-          "🙂": "🙂"
+          "🙂": "🙂",
+          "🔺": "🔺",
+          "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785422987031
+        "lastChatAt": 1785424352605
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 44 damage and earned 20 FoxCoins! Boss HP: 366/500. Your total boss damage: 44. Balance: 495 FoxCoins."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "What do you mean??"
-        },
         {
           "user": "tarzan",
           "msg": "I would send you a DM .. one moment"
@@ -1144,6 +1140,14 @@
         {
           "user": "fluffy",
           "msg": "hey hey! have a nice stream my friend"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thank you @fluffy !!!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thank you @angge_wf 🔥🔺🫡"
         }
       ],
       "customCommands": {},
@@ -6917,14 +6921,14 @@
       "stats": {
         "totalVotes": 1333,
         "totalSubs": 0,
-        "totalChatMessages": 125,
-        "totalStreamMinutes": 412,
+        "totalChatMessages": 128,
+        "totalStreamMinutes": 425,
         "emotes": {
           "❤": 6,
           "🙌": 3,
           "🗳": 39,
-          "🔴": 3,
-          "🎉": 6,
+          "🔴": 4,
+          "🎉": 7,
           "🏃": 1,
           "♂": 1,
           "💨": 1,
@@ -6958,21 +6962,9 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785407485770
+        "lastChatAt": 1785423876531
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 24 votes, @XanderC!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 24 vote(s) (total: 24)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 150 votes, @senseibulrog!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @senseibulrog just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
@@ -7000,6 +6992,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 55 vote(s) (total: 157)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -7012,7 +7016,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Hellldivin and thrivin — IRL",
       "profile": "",
       "_profileAtCount": 0,
       "gameOverride": ""
@@ -7323,7 +7327,7 @@
         "totalVotes": 1,
         "totalSubs": 0,
         "totalChatMessages": 9,
-        "totalStreamMinutes": 183,
+        "totalStreamMinutes": 203,
         "emotes": {
           "❤": 2,
           "🙌": 1,
