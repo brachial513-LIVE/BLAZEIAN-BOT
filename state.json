@@ -909,10 +909,10 @@
       "username": "crypt0k1ng96",
       "language": "en",
       "stats": {
-        "totalVotes": 1433,
+        "totalVotes": 1434,
         "totalSubs": 26,
-        "totalChatMessages": 1255,
-        "totalStreamMinutes": 3878,
+        "totalChatMessages": 1258,
+        "totalStreamMinutes": 3883,
         "emotes": {
           "📊": 3,
           "🔥": 128,
@@ -1102,21 +1102,9 @@
           "🙂": "🙂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785415818596
+        "lastChatAt": 1785416410490
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "FoxCoins leaderboard: 1. agent00zani — 10298 FoxCoins | 2. test — 1998 FoxCoins | 3. viewer — 588 FoxCoins | 4. crypt0k1ng96 — 485 FoxCoins | 5. testviewer — 324 FoxCoins"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96 redeemed a FoxBot hug from the shop! Balance: 475 FoxCoins."
-        },
-        {
-          "user": "tarzan",
-          "msg": "Sup"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "What’s up @tarzan !!"
@@ -1144,6 +1132,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Will be back streaming otherside in about and hour!!"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Thank you @viewer for voting with 1 votes! FoxBot AI appreciates your support! +3 FoxCoins. Balance: 591 FoxCoins."
+        },
+        {
+          "user": "angge_wf",
+          "msg": "HAVE A NICE STREAM"
         }
       ],
       "customCommands": {},
@@ -6172,7 +6172,7 @@
         "totalVotes": 1854,
         "totalSubs": 11,
         "totalChatMessages": 334,
-        "totalStreamMinutes": 1110,
+        "totalStreamMinutes": 1115,
         "emotes": {
           "❤": 25,
           "🙌": 18,
@@ -7318,10 +7318,10 @@
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 0,
+        "totalVotes": 1,
         "totalSubs": 0,
-        "totalChatMessages": 5,
-        "totalStreamMinutes": 68,
+        "totalChatMessages": 8,
+        "totalStreamMinutes": 73,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -7329,7 +7329,8 @@
           "💚": 3,
           "🤝": 1,
           "🔴": 1,
-          "🎉": 1
+          "🎉": 1,
+          "🗳": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -7338,10 +7339,11 @@
           "💚": "💚",
           "🤝": "🤝",
           "🔴": "🔴",
-          "🎉": "🎉"
+          "🎉": "🎉",
+          "🗳": "🗳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785412125852
+        "lastChatAt": 1785416449864
       },
       "chatMemory": [
         {
@@ -7363,6 +7365,18 @@
         {
           "user": "botger",
           "msg": "🔴 seventh is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @angge_wf!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7644,8 +7658,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785389450456,
   "auth": {
-    "accessToken": "e750e63d9d10933d3c9813cfa5e34a19",
-    "refreshToken": "70fe9a57052793ad600b1a5639b6b820",
+    "accessToken": "abc44fbf2e07639c88b8a9ec7edee45b",
+    "refreshToken": "dd246f3f152cb853955d6adfb1e43ff8",
     "sessionToken": "52721090f1ef48b6d3688b979001c423",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
