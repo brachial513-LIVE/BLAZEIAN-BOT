@@ -6195,18 +6195,18 @@
       "stats": {
         "totalVotes": 1864,
         "totalSubs": 11,
-        "totalChatMessages": 441,
-        "totalStreamMinutes": 1254,
+        "totalChatMessages": 445,
+        "totalStreamMinutes": 1260,
         "emotes": {
           "❤": 31,
           "🙌": 21,
           "🫂": 1,
-          "🥰": 16,
+          "🥰": 19,
           "😘": 21,
           "👋": 9,
           "💪": 1,
           "💚": 6,
-          "🔥": 36,
+          "🔥": 40,
           "🗳": 153,
           "🤗": 4,
           "📴": 8,
@@ -6225,7 +6225,8 @@
           "✌": 1,
           "☺": 1,
           "😁": 1,
-          "😀": 1
+          "😀": 1,
+          "🦊": 6
         },
         "emoteNames": {
           "❤": "❤",
@@ -6255,28 +6256,13 @@
           "✌": "✌",
           "☺": "☺",
           "😁": "😁",
-          "😀": "😀"
+          "😀": "😀",
+          "🦊": "🦊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785508221990
+        "lastChatAt": 1785508619723
       },
       "chatMemory": [
-        {
-          "user": "piggymoto",
-          "msg": "ikaw talaga bubuhat iba ata napanyuod mo haha"
-        },
-        {
-          "user": "angge_wf",
-          "msg": "LAG517"
-        },
-        {
-          "user": "piggymoto",
-          "msg": "opening"
-        },
-        {
-          "user": "starmouse307319",
-          "msg": "@angge_wf What's you favorite character?"
-        },
         {
           "user": "angge_wf",
           "msg": "IM PLAYING WITH @piggymoto 🥰🥰🥰🥰"
@@ -6300,6 +6286,22 @@
         {
           "user": "dofferlive",
           "msg": "@angge_wf you wiinnnning good"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "Well done easy"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "🔥🔥🔥🔥🦊🦊🦊🦊🦊🦊"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "🥰🥰🥰"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "GGWP_"
         }
       ],
       "customCommands": {},
@@ -7775,8 +7777,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785477470436,
   "auth": {
-    "accessToken": "9a7925159b8c73629500a83b5cfbf285",
-    "refreshToken": "de029677dffca978e0e48814869f306e",
+    "accessToken": "bc3fe502cdfb12441c58c0f46886f6f9",
+    "refreshToken": "b18e8042f3d5f816a9c413014d5f06be",
     "sessionToken": "08df85cdbd8067016ddb7955c8fa4563",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
