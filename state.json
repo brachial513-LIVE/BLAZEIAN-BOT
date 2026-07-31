@@ -3733,9 +3733,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 3494,
+        "totalVotes": 3499,
         "totalSubs": 15,
-        "totalChatMessages": 1277,
+        "totalChatMessages": 1278,
         "totalStreamMinutes": 1888,
         "emotes": {
           "❤": 20,
@@ -3746,7 +3746,7 @@
           "🙂": 3,
           "🔥": 32,
           "😎": 5,
-          "🗳": 198,
+          "🗳": 201,
           "📴": 15,
           "👋": 15,
           "🎁": 28,
@@ -3840,13 +3840,9 @@
           "☺": "☺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785466140669
+        "lastChatAt": 1785499979921
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "https://x.com/e_buket_erkul"
-        },
         {
           "user": "botger",
           "msg": "https://www.youtube.com/@Time.Art.Studio"
@@ -3882,6 +3878,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 150)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 5 vote(s) (total: 15)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7771,8 +7771,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785477470436,
   "auth": {
-    "accessToken": "7c670263d30274ecb630a1e48e2c78d2",
-    "refreshToken": "5ed9c06043d2cd04416209d733cd79c7",
+    "accessToken": "86b2997048f5a33b6dcb637dc50ab30b",
+    "refreshToken": "2c8825edb83de62b22c2b4fa9b201b0d",
     "sessionToken": "08df85cdbd8067016ddb7955c8fa4563",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
