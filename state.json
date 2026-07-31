@@ -1692,7 +1692,7 @@
       "stats": {
         "totalVotes": 4841,
         "totalSubs": 2,
-        "totalChatMessages": 4181,
+        "totalChatMessages": 4182,
         "totalStreamMinutes": 1411,
         "emotes": {
           "❤": 1661,
@@ -1734,7 +1734,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 13,
-          "💜": 144,
+          "💜": 145,
           "🧔": 1,
           "🤺": 1,
           "🥳": 5,
@@ -1846,16 +1846,12 @@
           "💊": "💊",
           "🖐": "🖐"
         },
-        "lastChatAt": 1785418560779,
-        "sendFailStreak": 89,
-        "lastSendFailAt": 1785418561344,
+        "lastChatAt": 1785484020670,
+        "sendFailStreak": 90,
+        "lastSendFailAt": 1785484021198,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
         {
           "user": "rob_osp",
           "msg": "@consumerbreak — thanks for the 5 votes! 🗳️ Every vote helps."
@@ -1887,6 +1883,10 @@
         {
           "user": "rob_osp",
           "msg": "@bronzeagle — thanks for the 5 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         },
         {
           "user": "rob_osp",
@@ -5773,7 +5773,7 @@
         "totalVotes": 1651,
         "totalSubs": 5,
         "totalChatMessages": 46,
-        "totalStreamMinutes": 967,
+        "totalStreamMinutes": 970,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -6743,7 +6743,7 @@
         "totalVotes": 718,
         "totalSubs": 1,
         "totalChatMessages": 193,
-        "totalStreamMinutes": 1097,
+        "totalStreamMinutes": 1100,
         "emotes": {
           "❤": 11,
           "🙌": 7,
@@ -7718,8 +7718,8 @@
     },
     "piggymoto": {
       "note": "They enjoy watching and likely play fighting games, have a humorous and playful personality, and are a fan of the streamer \"Capt\".",
-      "at": 1785438398617,
-      "n": 2
+      "at": 1785483938826,
+      "n": 3
     },
     "tigresa": {
       "note": "They enjoy playing games, particularly Mambo Mondays, and have a humorous and affectionate tone in their chat.",
@@ -7766,8 +7766,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785477470436,
   "auth": {
-    "accessToken": "cbd38f0c52dd880d3174587ef52aebbf",
-    "refreshToken": "eab54ad6efb5713c789e874ae2a24ec9",
+    "accessToken": "c4fe22d4bc66e7e0357db889b3bc079d",
+    "refreshToken": "5e1b5f138e8a46fc942bccde6ca17f1c",
     "sessionToken": "08df85cdbd8067016ddb7955c8fa4563",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
