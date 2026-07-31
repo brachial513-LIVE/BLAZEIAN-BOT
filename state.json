@@ -443,12 +443,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 21804,
+        "totalVotes": 21854,
         "totalSubs": 38,
-        "totalChatMessages": 4001,
-        "totalStreamMinutes": 1381,
+        "totalChatMessages": 4003,
+        "totalStreamMinutes": 1386,
         "emotes": {
-          "🗳": 582,
+          "🗳": 585,
           "❤": 195,
           "🙌": 116,
           "🔥": 69,
@@ -632,17 +632,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785459177954
+        "lastChatAt": 1785459728063
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "oh, event done bro but here you go. thanks for participating! 🔥🔥"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "fartvader",
           "msg": "thank you so much for the votes bro! I really appreciate it"
@@ -674,6 +666,14 @@
         {
           "user": "botger",
           "msg": "🔴 vroshi55 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "faithy_",
+          "msg": "happy streaming ser!"
         }
       ],
       "customCommands": {},
@@ -3034,7 +3034,7 @@
         "totalVotes": 3411,
         "totalSubs": 8,
         "totalChatMessages": 1654,
-        "totalStreamMinutes": 3933,
+        "totalStreamMinutes": 3938,
         "emotes": {
           "❤": 24,
           "🙌": 32,
@@ -3197,7 +3197,7 @@
         "totalVotes": 1664,
         "totalSubs": 43,
         "totalChatMessages": 287,
-        "totalStreamMinutes": 5926,
+        "totalStreamMinutes": 5931,
         "emotes": {
           "❤": 66,
           "🙌": 19,
@@ -4526,7 +4526,7 @@
         "totalVotes": 1056,
         "totalSubs": 11,
         "totalChatMessages": 605,
-        "totalStreamMinutes": 5446,
+        "totalStreamMinutes": 5451,
         "emotes": {
           "🔥": 201,
           "🔴": 62,
@@ -6508,9 +6508,9 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 2196,
+        "totalVotes": 2346,
         "totalSubs": 0,
-        "totalChatMessages": 6766,
+        "totalChatMessages": 6767,
         "totalStreamMinutes": 1559,
         "emotes": {
           "❤": 8,
@@ -6526,7 +6526,7 @@
           "🤗": 2,
           "😊": 3,
           "🌻": 1,
-          "🗳": 60,
+          "🗳": 63,
           "☺": 3,
           "😎": 2,
           "😁": 1,
@@ -6667,13 +6667,9 @@
           "💲": "💲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785457361746
+        "lastChatAt": 1785459648341
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🪙 @sofrenciaplay 0 points."
-        },
         {
           "user": "botger",
           "msg": "🪙 @lovemikami 0 points."
@@ -6709,6 +6705,10 @@
         {
           "user": "botger",
           "msg": "🪙 @lovemikami 140,000 points."
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @LipeMan just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7527,8 +7527,8 @@
     },
     "lovemikami": {
       "note": "They enjoy playing classic video games, have a humorous and lighthearted tone, and appreciate gaming-related humor, often referencing popular gaming culture.",
-      "at": 1785313396309,
-      "n": 5
+      "at": 1785459518669,
+      "n": 6
     },
     "dany_kaizo": {
       "note": "dany_kaizo appears to play video games, enjoys humorously commenting on frustrating experiences, and references pop culture memes.",
@@ -7745,8 +7745,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785438108378,
   "auth": {
-    "accessToken": "0c4a388986bc66578230c1f3748dcb5a",
-    "refreshToken": "02717a5b9c640f6934473ca31a472001",
+    "accessToken": "d56ba833fdedbe3ae8886128e97f413f",
+    "refreshToken": "ecb6bd1cdd2ab52c406b425e33e02fad",
     "sessionToken": "08df85cdbd8067016ddb7955c8fa4563",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
