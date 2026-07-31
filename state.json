@@ -445,18 +445,18 @@
       "stats": {
         "totalVotes": 21804,
         "totalSubs": 38,
-        "totalChatMessages": 3998,
-        "totalStreamMinutes": 1377,
+        "totalChatMessages": 4001,
+        "totalStreamMinutes": 1381,
         "emotes": {
           "🗳": 582,
           "❤": 195,
           "🙌": 116,
           "🔥": 69,
           "☺": 3,
-          "🔴": 13,
-          "🎉": 48,
-          "📴": 14,
-          "👋": 27,
+          "🔴": 15,
+          "🎉": 50,
+          "📴": 15,
+          "👋": 28,
           "🫶": 1,
           "💃": 1,
           "😂": 277,
@@ -632,21 +632,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785455888027
+        "lastChatAt": 1785459177954
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @senseibulrog just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @NadieTv just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "fartvader",
           "msg": "oh, event done bro but here you go. thanks for participating! 🔥🔥"
@@ -674,6 +662,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @K1NGBRE4KER just gave 239 vote(s) (total: 292)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 vroshi55 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 vroshi55 is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -721,10 +721,12 @@
       },
       "profile": "Welcome to vroshi55's fire zone! We're all about leveling up and getting that XP 💪! Shoutouts to our squad for keeping it lit 🔥 with vote alerts 🗳️ and tips 💸. Don't forget to 'get that love fest' and 'keep it 100' when we're crushing it! Level up, tip up, and let's get this win!",
       "_profileAtCount": 3986,
-      "streamTitle": "",
+      "streamTitle": "Crypto, Gaming & Life — Crypto",
       "gameOverride": "",
       "botVip": true,
-      "commentMode": "low"
+      "commentMode": "low",
+      "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
+      "lastStreamEndedAt": 1785459126741
     },
     "8c847dcf-65a9-4234-8980-c59102c8aa60": {
       "username": "jt_squared2",
@@ -3032,7 +3034,7 @@
         "totalVotes": 3411,
         "totalSubs": 8,
         "totalChatMessages": 1654,
-        "totalStreamMinutes": 3913,
+        "totalStreamMinutes": 3933,
         "emotes": {
           "❤": 24,
           "🙌": 32,
@@ -3195,7 +3197,7 @@
         "totalVotes": 1664,
         "totalSubs": 43,
         "totalChatMessages": 287,
-        "totalStreamMinutes": 5906,
+        "totalStreamMinutes": 5926,
         "emotes": {
           "❤": 66,
           "🙌": 19,
@@ -4524,7 +4526,7 @@
         "totalVotes": 1056,
         "totalSubs": 11,
         "totalChatMessages": 605,
-        "totalStreamMinutes": 5426,
+        "totalStreamMinutes": 5446,
         "emotes": {
           "🔥": 201,
           "🔴": 62,
@@ -7731,6 +7733,11 @@
     "tarzan": {
       "note": "They play games, particularly Marvel games, and have a friendly, affectionate, and humorous personality.",
       "at": 1785456218763,
+      "n": 1
+    },
+    "curlysnow07": {
+      "note": "They seem to be a supportive and enthusiastic viewer who appreciates the streamer's content and is open to trying out new things. Existing notes: They seem to be a supportive and enthusiastic viewer who appreciates the…",
+      "at": 1785458858716,
       "n": 1
     }
   },
