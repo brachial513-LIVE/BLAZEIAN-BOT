@@ -2312,7 +2312,7 @@
         "totalVotes": 2034,
         "totalSubs": 11,
         "totalChatMessages": 761,
-        "totalStreamMinutes": 3525,
+        "totalStreamMinutes": 3530,
         "emotes": {
           "✨": 13,
           "🖥": 19,
@@ -4539,7 +4539,7 @@
         "totalVotes": 1134,
         "totalSubs": 12,
         "totalChatMessages": 635,
-        "totalStreamMinutes": 5652,
+        "totalStreamMinutes": 5657,
         "emotes": {
           "🔥": 203,
           "🔴": 62,
@@ -6763,8 +6763,8 @@
       "stats": {
         "totalVotes": 995,
         "totalSubs": 1,
-        "totalChatMessages": 243,
-        "totalStreamMinutes": 1669,
+        "totalChatMessages": 244,
+        "totalStreamMinutes": 1674,
         "emotes": {
           "❤": 15,
           "🙌": 7,
@@ -6785,7 +6785,7 @@
           "🤣": 1,
           "✌": 2,
           "💃": 5,
-          "😂": 4,
+          "😂": 7,
           "😕": 1,
           "🙏": 5,
           "😭": 1,
@@ -6820,13 +6820,9 @@
           "🤯": "🤯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785540439928
+        "lastChatAt": 1785540515061
       },
       "chatMemory": [
-        {
-          "user": "zer0cache",
-          "msg": "17 in match 🤯🤯"
-        },
         {
           "user": "guney",
           "msg": "trying to fix the game sound"
@@ -6862,6 +6858,10 @@
         {
           "user": "guney",
           "msg": ":D"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "6 looks better 😂😂😂"
         }
       ],
       "customCommands": {},
@@ -7820,8 +7820,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785533613374,
   "auth": {
-    "accessToken": "9d757d8d21df2599860f80a4885b23ab",
-    "refreshToken": "f902fb1e0461c50d43082ab8a9177e16",
+    "accessToken": "5366ab24235b2dee9dd282f60f1cbc1b",
+    "refreshToken": "3980d6603b1874fd1b595cb56a108a3e",
     "sessionToken": "084dfe4019813b19b37ec8fc67ea0f2d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
