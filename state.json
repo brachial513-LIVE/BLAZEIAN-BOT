@@ -5772,8 +5772,8 @@
       "stats": {
         "totalVotes": 1651,
         "totalSubs": 5,
-        "totalChatMessages": 46,
-        "totalStreamMinutes": 1010,
+        "totalChatMessages": 47,
+        "totalStreamMinutes": 1012,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -5787,13 +5787,9 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785482660003
+        "lastChatAt": 1785486605335
       },
       "chatMemory": [
-        {
-          "user": "pr0ff",
-          "msg": "🔥🔥🔥🔥🔥"
-        },
         {
           "user": "pr0ff",
           "msg": "thanks @nekoschwan"
@@ -5829,6 +5825,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -5841,12 +5841,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "DOTES — Ragnarok Online",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to pr0ff's Ragnarok Online stream, where the 🔥 vibes are always lit! This community lives for 'DOTES' and loves when you 'gift a Sub' to celebrate milestones. Don't forget to throw in some 🔥 emojis and shout out 'thanks' when you get a love fest! pr0ff's all about the Ragnarok grind and appreciates your support.",
       "_profileAtCount": 40,
       "lastStreamInfo": "DOTES — Ragnarok Online",
-      "lastStreamEndedAt": 1785381045068
+      "lastStreamEndedAt": 1785486605092
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
       "username": "sheena",
@@ -6743,7 +6743,7 @@
         "totalVotes": 718,
         "totalSubs": 1,
         "totalChatMessages": 195,
-        "totalStreamMinutes": 1140,
+        "totalStreamMinutes": 1145,
         "emotes": {
           "❤": 11,
           "🙌": 7,
@@ -7771,8 +7771,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785477470436,
   "auth": {
-    "accessToken": "c4fe22d4bc66e7e0357db889b3bc079d",
-    "refreshToken": "5e1b5f138e8a46fc942bccde6ca17f1c",
+    "accessToken": "ff007fa04fe7d40e6b572f58268dee84",
+    "refreshToken": "5dc44533b5070cf2f235ae43cb29b6d5",
     "sessionToken": "08df85cdbd8067016ddb7955c8fa4563",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
