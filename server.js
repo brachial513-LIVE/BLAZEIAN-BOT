@@ -1300,6 +1300,19 @@ const SENSITIVE_NOTE_RE = new RegExp([
   "\\bage[ds]?\\b|years old|teenager|minor\\b|salary|unemploy|broke\\b|rich\\b|poor\\b",
 ].join("|"), "i");
 
+// A person-memory answer that is really a "no info" refusal, not a note. The model was told to reply
+// exactly "NOTHING" in that case but usually writes a whole sentence around it, which then got stored as
+// content (proven live on blazeguy: "There is NOTHING to remember about this person for friendly chat.").
+// Matches the word wherever it lands, plus the usual paraphrases, so these are dropped rather than saved.
+const NO_INFO_RE = new RegExp([
+  "\\bnothing\\b",
+  "\\bno (?:useful|durable|relevant|specific|clear|real|notable)\\b",
+  "\\bnot enough\\b",
+  "\\b(?:can'?t|cannot|couldn'?t|unable to) (?:say|tell|determine|find|infer|remember)\\b",
+  "\\bno (?:notes?|info(?:rmation)?|details?)\\b",
+  "\\bn/?a\\b",
+].join("|"), "i");
+
 // Small models sometimes answer the INSTRUCTION instead of doing it — "Here's your celebration response,
 // Blazeian-style, in character, and completely in English." went out live as an actual chat message and
 // made the bot look broken. Two defences: strip a "Here's …:" lead-in when real text follows, and reject
@@ -1433,7 +1446,11 @@ async function learnAboutPerson(username) {
       model: AI_MODEL_LIGHT, messages: [{ role: "user", content: prompt }], max_tokens: 90, temperature: 0.3,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 12000 });
     let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
-    if (!text || /^nothing\b/i.test(text)) return;
+    // The model was told to reply exactly "NOTHING" when there's nothing to store, but it often wraps that
+    // in a sentence instead — "There is NOTHING to remember about this person." — which then got saved AS a
+    // note (proven live on blazeguy, a quiet alt account). Catch the refusal wherever the word sits, plus
+    // the common paraphrases, so an "I have nothing" answer is treated as no note rather than as content.
+    if (!text || NO_INFO_RE.test(text)) return;
     text = text.replace(/^(notes?|summary)\s*:\s*/i, "").replace(/^[-•*]\s*/gm, "").replace(/\s*\n\s*/g, " ").trim();
     // Hard safety net: the instruction alone is not enough — it has produced notes about cannabis use and
     // about someone's ancestry despite both being explicitly forbidden. Anything touching health, drugs or
