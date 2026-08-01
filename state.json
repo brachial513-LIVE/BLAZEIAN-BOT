@@ -947,7 +947,7 @@
         "totalVotes": 2341,
         "totalSubs": 41,
         "totalChatMessages": 1464,
-        "totalStreamMinutes": 4721,
+        "totalStreamMinutes": 4726,
         "emotes": {
           "📊": 3,
           "🔥": 158,
@@ -1470,7 +1470,7 @@
         "totalVotes": 5443,
         "totalSubs": 25,
         "totalChatMessages": 2492,
-        "totalStreamMinutes": 8257,
+        "totalStreamMinutes": 8262,
         "emotes": {
           "❤": 94,
           "🙌": 68,
@@ -1982,7 +1982,7 @@
         "totalVotes": 2245,
         "totalSubs": 35,
         "totalChatMessages": 1091,
-        "totalStreamMinutes": 6660,
+        "totalStreamMinutes": 6665,
         "emotes": {
           "😊": 3,
           "🌵": 73,
@@ -2341,7 +2341,7 @@
         "totalVotes": 2263,
         "totalSubs": 11,
         "totalChatMessages": 781,
-        "totalStreamMinutes": 3620,
+        "totalStreamMinutes": 3625,
         "emotes": {
           "✨": 13,
           "🖥": 19,
@@ -4221,8 +4221,8 @@
       "stats": {
         "totalVotes": 2190,
         "totalSubs": 14,
-        "totalChatMessages": 83,
-        "totalStreamMinutes": 4245,
+        "totalChatMessages": 85,
+        "totalStreamMinutes": 4246,
         "emotes": {
           "💚": 4,
           "🔥": 7,
@@ -4241,17 +4241,9 @@
           "☺": "☺",
           "👍": "👍"
         },
-        "lastChatAt": 1785620815307
+        "lastChatAt": 1785621158283
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @degendemon!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "scurvybot",
           "msg": "@chupacol gifted 5 subs!"
@@ -4283,6 +4275,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -4304,8 +4304,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "WAYFINDERS BR - ROBLOX e FOFOCA with @blueesouull @chupacol @corinloch — ROBLOX",
-      "lastStreamEndedAt": 1785390047854
+      "lastStreamInfo": "WAYFINDERS BR - WILDER WORLD — IRL",
+      "lastStreamEndedAt": 1785620977337
     },
     "58950ad2-950b-4431-9fb5-32221e9e035d": {
       "username": "bidloperv",
@@ -7954,8 +7954,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785602581753,
   "auth": {
-    "accessToken": "de496729edfb8f0ecaacc060580f1955",
-    "refreshToken": "e4c1071034ccbe9df6d7f3f1db500038",
+    "accessToken": "0605ed7807ef8b2f5a98312df082f62b",
+    "refreshToken": "38713984bd20eb889249e09193f0658e",
     "sessionToken": "fef4280caac9126dff639c0240599bfe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
