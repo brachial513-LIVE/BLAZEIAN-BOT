@@ -2572,7 +2572,7 @@
         "totalVotes": 5778,
         "totalSubs": 25,
         "totalChatMessages": 3996,
-        "totalStreamMinutes": 3150,
+        "totalStreamMinutes": 3170,
         "emotes": {
           "❤": 94,
           "🙌": 172,
@@ -7333,8 +7333,8 @@
       "stats": {
         "totalVotes": 391,
         "totalSubs": 6,
-        "totalChatMessages": 77,
-        "totalStreamMinutes": 358,
+        "totalChatMessages": 79,
+        "totalStreamMinutes": 361,
         "emotes": {
           "❤": 8,
           "🙌": 8,
@@ -7345,8 +7345,8 @@
           "💛": 1,
           "🗳": 18,
           "🎁": 10,
-          "📴": 1,
-          "👋": 1,
+          "📴": 2,
+          "👋": 2,
           "💖": 1,
           "☺": 4,
           "✌": 2,
@@ -7376,17 +7376,9 @@
           "🎤": "🎤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785559410900
+        "lastChatAt": 1785562504488
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "ha! not seriously. love music tho"
-        },
-        {
-          "user": "avisi",
-          "msg": "i can two step xD"
-        },
         {
           "user": "avisi",
           "msg": "haha! can't shower without music! everyday routine"
@@ -7418,6 +7410,14 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "missaria_wf",
+          "msg": "Thank you so much guys"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7429,7 +7429,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c954957e-f37f-4197-9291-1529478c7136.gif",
-      "streamTitle": "Wayfinders PH | Chill stream ✨ — Music",
+      "streamTitle": "",
       "profile": "Welcome to missaria_wf's cozy corner of Blaze, where Wayfinders PH vibes meet chill streams ✨. We're all about good music, gaming, and quality time with our favorite streamer. Shoutouts to 'Doffer Live' for keeping it real, and remember: 'turn down music, turn up voice' and 'palworld once human' are our jam! We love 'do hard', 'palworld once human', and 'turn down music, turn up voice' vibes, and our streamer loves being gifted subs and celebrated with votes.",
       "_profileAtCount": 76,
       "gameOverride": "",
@@ -7441,7 +7441,9 @@
         }
       },
       "nudgedAt": 1785549785246,
-      "nudgedKey": "schedule"
+      "nudgedKey": "schedule",
+      "lastStreamInfo": "Wayfinders PH | Chill stream ✨ — Music",
+      "lastStreamEndedAt": 1785562499259
     },
     "95732898-439b-4107-86f2-fd7abf4652ef": {
       "username": "seventh",
@@ -7727,9 +7729,9 @@
       "n": 2
     },
     "xeukuxaixang": {
-      "note": "Xeukuxaixang is a fan of the game \"Honor of Kings,\" enjoys a lighthearted and humorous tone, and is interested in music, particularly guitar.",
-      "at": 1785479978769,
-      "n": 5
+      "note": "Xeukuxaixang is a fan of the game \"Honor of Kings,\" enjoys a lighthearted and humorous tone, and likely enjoys music, particularly guitar.",
+      "at": 1785563138994,
+      "n": 6
     },
     "tenshi": {
       "note": "They enjoy playing JRPGs, particularly the Persona series, appreciate manga over anime, and have a lighthearted and humorous tone.",
@@ -7874,6 +7876,11 @@
     "sheena": {
       "note": "Sheena is a lively and enthusiastic person who plays games like Glassbridge and Bob game, and enjoys expressing herself with humor and excitement.",
       "at": 1785559839015,
+      "n": 1
+    },
+    "zer0cache": {
+      "note": "They play games, have a sense of humor, and seem to enjoy quick-paced gaming sessions with friends. Existing notes: (nothing yet)",
+      "at": 1785562479055,
       "n": 1
     }
   },
