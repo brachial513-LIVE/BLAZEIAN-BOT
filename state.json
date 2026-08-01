@@ -6570,7 +6570,7 @@
       "stats": {
         "totalVotes": 3480,
         "totalSubs": 0,
-        "totalChatMessages": 7289,
+        "totalChatMessages": 7293,
         "totalStreamMinutes": 2169,
         "emotes": {
           "❤": 13,
@@ -6579,7 +6579,7 @@
           "🔥": 14,
           "🔴": 18,
           "🎉": 48,
-          "🪙": 215,
+          "🪙": 216,
           "⚡": 48,
           "👀": 7,
           "🍿": 2,
@@ -6649,7 +6649,15 @@
           "🕷": 1,
           "💲": 1,
           "👍": 1,
-          "💋": 1
+          "💋": 1,
+          "💜": 2,
+          "💗": 1,
+          "🌹": 1,
+          "🩶": 1,
+          "🖤": 1,
+          "🤎": 1,
+          "💙": 1,
+          "🩵": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -6728,20 +6736,20 @@
           "🕷": "🕷",
           "💲": "💲",
           "👍": "👍",
-          "💋": "💋"
+          "💋": "💋",
+          "💜": "💜",
+          "💗": "💗",
+          "🌹": "🌹",
+          "🩶": "🩶",
+          "🖤": "🖤",
+          "🤎": "🤎",
+          "💙": "💙",
+          "🩵": "🩵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785610169984
+        "lastChatAt": 1785610359728
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Doações Live pix: https://livepix.gg/maniadk"
-        },
-        {
-          "user": "botger",
-          "msg": "⚡ solucao — Level 8 | 19,965 XP (834 to Level 9)"
-        },
         {
           "user": "solucao",
           "msg": "Começou o Chris"
@@ -6773,6 +6781,14 @@
         {
           "user": "solucao",
           "msg": "Cris me ajuda a resgatar o jogo Dk 64 no canal do edao"
+        },
+        {
+          "user": "solucao",
+          "msg": "Cris 💜💗🌹🩶🖤🤎💜💙🩵"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @solucao 480 points."
         }
       ],
       "customCommands": {},
@@ -7916,8 +7932,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785602581753,
   "auth": {
-    "accessToken": "4bbf42be1fcba3c7f0d33dd10a1bde6b",
-    "refreshToken": "1e27cd7dde98c516c20968740b29e3a4",
+    "accessToken": "47623ab1913b1b681708bbccf936092e",
+    "refreshToken": "59570c6cd52a3eb6f774ffd29766b45d",
     "sessionToken": "fef4280caac9126dff639c0240599bfe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
