@@ -5528,16 +5528,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 3754,
+        "totalVotes": 3769,
         "totalSubs": 17,
-        "totalChatMessages": 453,
+        "totalChatMessages": 455,
         "totalStreamMinutes": 2104,
         "emotes": {
           "❤": 19,
           "🙌": 27,
           "💚": 2,
           "🔥": 9,
-          "🗳": 144,
+          "🗳": 150,
           "🔴": 23,
           "🎉": 30,
           "📴": 23,
@@ -5587,17 +5587,9 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785666347371
+        "lastChatAt": 1785667104391
       },
       "chatMemory": [
-        {
-          "user": "kyoujirou",
-          "msg": "gm gm @faithy_"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @infamousex is raiding with a party of 6! Welcome raiders!! 🎉"
-        },
         {
           "user": "infamousex",
           "msg": "Raid!!!"
@@ -5629,6 +5621,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @korosuplays just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @korosuplays just gave 5 vote(s) (total: 15)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7994,8 +7994,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785602581753,
   "auth": {
-    "accessToken": "4697f149f08966ef16becbc4ad8ed45d",
-    "refreshToken": "7ee7b6494d6c117abc315c38e6be8c66",
+    "accessToken": "d11c0207ac4883602cb37bf882a0cca3",
+    "refreshToken": "eed4d3aa0d4d9ca113d656086321274e",
     "sessionToken": "fef4280caac9126dff639c0240599bfe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
