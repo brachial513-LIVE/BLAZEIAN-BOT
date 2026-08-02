@@ -326,7 +326,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 209,
+        "totalChatMessages": 210,
         "totalStreamMinutes": 0,
         "emotes": {
           "🪙": 3,
@@ -395,7 +395,7 @@
           "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785655008823
+        "lastChatAt": 1785656808862
       },
       "chatMemory": [
         {
@@ -756,7 +756,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 4743,
+        "totalVotes": 4748,
         "totalSubs": 13,
         "totalChatMessages": 5018,
         "totalStreamMinutes": 711,
@@ -3082,16 +3082,16 @@
       "stats": {
         "totalVotes": 4039,
         "totalSubs": 8,
-        "totalChatMessages": 1839,
-        "totalStreamMinutes": 4507,
+        "totalChatMessages": 1841,
+        "totalStreamMinutes": 4518,
         "emotes": {
           "❤": 24,
           "🙌": 37,
           "🗳": 252,
           "🔴": 28,
           "🎉": 46,
-          "📴": 26,
-          "👋": 29,
+          "📴": 27,
+          "👋": 30,
           "🔥": 68,
           "💪": 1,
           "🤖": 1,
@@ -3170,18 +3170,10 @@
           "😌": "😌",
           "😀": "😀"
         },
-        "lastChatAt": 1785654626123,
+        "lastChatAt": 1785656943339,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "gracias !"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "same same!"
-        },
         {
           "user": "triz_draw",
           "msg": "que descanses mañana"
@@ -3213,6 +3205,14 @@
         {
           "user": "triz_draw",
           "msg": "te entiendo , me pasa"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -3221,7 +3221,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "⏱️VOTESUBATHON⏱️🛞Wheel of PAIN is ON🛞❤️Starting with WuWa!❤️ — Wuthering Waves",
+      "streamTitle": "",
       "profile": "We're a chill gaming community loving Path of Exile 2 and Dota. Expect \"Blazeee\" vibes, \"Will be relax day\" shenanigans, and \"VOTE ALERT!!\" celebrations. We \"pull a roshi,\" get \"drained\" in the best way, and enjoy \"Love fest!\" moments. Our community loves \"6969\" jokes, \"Let's gooooo,\" and \"METAL!\" outbursts. We're about good company, wine, and \"Will be relax day\" together.",
       "_profileAtCount": 1839,
       "gameOverride": "",
@@ -3242,8 +3242,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "❤️Dota Thursday!❤️ — Dota 2",
-      "lastStreamEndedAt": 1785466991497
+      "lastStreamInfo": "⏱️VOTESUBATHON⏱️🛞Wheel of PAIN is ON🛞❤️Starting with WuWa!❤️ — Wuthering Waves",
+      "lastStreamEndedAt": 1785656938144
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -6396,8 +6396,8 @@
       "stats": {
         "totalVotes": 665,
         "totalSubs": 8,
-        "totalChatMessages": 96,
-        "totalStreamMinutes": 537,
+        "totalChatMessages": 97,
+        "totalStreamMinutes": 557,
         "emotes": {
           "❤": 9,
           "🙌": 11,
@@ -6441,13 +6441,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785655983947
+        "lastChatAt": 1785657100650
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "Thankyou for the vote 💜💜💜"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -6483,6 +6479,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @Ruri666 just gifted a sub to @blueesouull! How generous!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -7977,6 +7977,11 @@
     "helios": {
       "note": "Existing notes about them: They seem to be a gamer and a content creator, possibly in the field of 3D modeling and animation. They enjoy humor, as evidenced by their use of \"lol\" and \"Damn. King scorpion\".",
       "at": 1785631478985,
+      "n": 1
+    },
+    "piweb": {
+      "note": "They enjoy playing games, have a preference for gin tonic, and appreciate humor related to classic drinks and beach activities. (Existing notes: none)",
+      "at": 1785657219062,
       "n": 1
     }
   },
