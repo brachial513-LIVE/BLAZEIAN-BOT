@@ -1213,7 +1213,7 @@
         "totalVotes": 2978,
         "totalSubs": 6,
         "totalChatMessages": 2784,
-        "totalStreamMinutes": 2072,
+        "totalStreamMinutes": 2077,
         "emotes": {
           "🗳": 254,
           "🤣": 50,
@@ -3081,7 +3081,7 @@
         "totalVotes": 3500,
         "totalSubs": 8,
         "totalChatMessages": 1705,
-        "totalStreamMinutes": 4142,
+        "totalStreamMinutes": 4147,
         "emotes": {
           "❤": 24,
           "🙌": 32,
@@ -3246,7 +3246,7 @@
         "totalVotes": 1910,
         "totalSubs": 44,
         "totalChatMessages": 294,
-        "totalStreamMinutes": 6355,
+        "totalStreamMinutes": 6360,
         "emotes": {
           "❤": 66,
           "🙌": 19,
@@ -5524,16 +5524,16 @@
       "stats": {
         "totalVotes": 3727,
         "totalSubs": 17,
-        "totalChatMessages": 418,
-        "totalStreamMinutes": 1865,
+        "totalChatMessages": 419,
+        "totalStreamMinutes": 1867,
         "emotes": {
           "❤": 18,
           "🙌": 26,
           "💚": 2,
           "🔥": 8,
           "🗳": 138,
-          "🔴": 21,
-          "🎉": 26,
+          "🔴": 22,
+          "🎉": 27,
           "📴": 21,
           "👋": 22,
           "🚨": 30,
@@ -5581,13 +5581,9 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785567376167
+        "lastChatAt": 1785634562945
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Hey Faithy"
-        },
         {
           "user": "briggsy",
           "msg": "haha"
@@ -5623,6 +5619,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -5635,7 +5635,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "The Otherside with Faithy — Otherside (by Yuga Labs)",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! It's all about vibes, love, and Crypto. You'll catch us saying 'will eat first', 'hungryyy', and 'appreciate you all' - so don't forget to vote and show your love! We love 'GIFTED SUBS', 'VOTE ALERTS', 'ROI YAN' moments, 'patay', 'spanked', 'it's time to grind', and generous subs. Grab some snacks, join the party, and remember, 'appreciate you all'!",
       "_profileAtCount": 404,
@@ -5834,7 +5834,7 @@
         "totalVotes": 1653,
         "totalSubs": 5,
         "totalChatMessages": 48,
-        "totalStreamMinutes": 1053,
+        "totalStreamMinutes": 1058,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -6583,7 +6583,7 @@
       "stats": {
         "totalVotes": 3480,
         "totalSubs": 0,
-        "totalChatMessages": 7659,
+        "totalChatMessages": 7661,
         "totalStreamMinutes": 2169,
         "emotes": {
           "❤": 15,
@@ -6774,7 +6774,7 @@
           "🪨": "🪨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785634418727
+        "lastChatAt": 1785634544483
       },
       "chatMemory": [
         {
@@ -7974,8 +7974,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785602581753,
   "auth": {
-    "accessToken": "073ccf111c5ac4ac4cb9b3de7e54e88e",
-    "refreshToken": "62cf391b3a0fd42bacebaaf42bd4e0b7",
+    "accessToken": "5bf5ed8fe32e3de128945eeaa613a31f",
+    "refreshToken": "47cdac7d9556b90a5e6c6cbd728e14cd",
     "sessionToken": "fef4280caac9126dff639c0240599bfe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
