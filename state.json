@@ -1473,7 +1473,7 @@
       "stats": {
         "totalVotes": 5588,
         "totalSubs": 25,
-        "totalChatMessages": 2497,
+        "totalChatMessages": 2498,
         "totalStreamMinutes": 8284,
         "emotes": {
           "❤": 94,
@@ -1641,14 +1641,10 @@
           "☺": "☺",
           "🙃": "🙃"
         },
-        "lastChatAt": 1785622551029,
+        "lastChatAt": 1785661571785,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "zsoltech",
-          "msg": "i see you"
-        },
         {
           "user": "agent00zani",
           "msg": "🔥"
@@ -1684,6 +1680,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "noodles",
+          "msg": "Thank you so much @agent00zani for the votes!!!!"
         }
       ],
       "customCommands": {},
@@ -5531,7 +5531,7 @@
         "totalVotes": 3749,
         "totalSubs": 17,
         "totalChatMessages": 444,
-        "totalStreamMinutes": 2022,
+        "totalStreamMinutes": 2027,
         "emotes": {
           "❤": 18,
           "🙌": 26,
@@ -6396,13 +6396,13 @@
       "stats": {
         "totalVotes": 665,
         "totalSubs": 10,
-        "totalChatMessages": 178,
-        "totalStreamMinutes": 622,
+        "totalChatMessages": 180,
+        "totalStreamMinutes": 623,
         "emotes": {
           "❤": 9,
           "🙌": 13,
-          "📴": 5,
-          "👋": 5,
+          "📴": 6,
+          "👋": 6,
           "🎁": 18,
           "🗳": 27,
           "⚠": 1,
@@ -6441,17 +6441,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785661112785
+        "lastChatAt": 1785661456116
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "I'll visit your live"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "Sometimes I just hanging with my buddies, don't matter the game"
-        },
         {
           "user": "agent00zani",
           "msg": "We meet half way... ?"
@@ -6483,6 +6475,14 @@
         {
           "user": "ruri666",
           "msg": "What is your discord"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6494,7 +6494,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0e14bbf3-b90e-49a5-ac9c-ec64e50a164d.jpg",
-      "streamTitle": "WAYFINDERS PH - CHILL STREAM — VALORANT",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "We're a chill community that loves VALORANT and good vibes. We're all about that \"valooooo\" life, with a side of \"sali ako pagtapos\" moments. Our streamer, ruri666, is always down for a \"Soundtrip and Valorant Night\" and we love celebrating their wins with \"VOTE ALERT!!\" and a good \"🎉\". We also love \"🗳️\" and \"🎁\" moments, especially when they gift subs.",
@@ -6502,7 +6502,7 @@
       "nudgedAt": 1785164605243,
       "nudgedKey": "schedule",
       "lastStreamInfo": "WAYFINDERS PH - CHILL STREAM — VALORANT",
-      "lastStreamEndedAt": 1785655360476
+      "lastStreamEndedAt": 1785661450891
     },
     "9cc85373-5150-438b-95b7-0c7ff092bfe4": {
       "username": "willdres",
@@ -7994,8 +7994,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785602581753,
   "auth": {
-    "accessToken": "6902fc72f0cbdbae1af7b2fde7ad6450",
-    "refreshToken": "2c5209d59bee2199e6f6f10bab1ac376",
+    "accessToken": "e9fed8029e508b44fe2489edc1d3edda",
+    "refreshToken": "f7899535429fd7b8cc68cc38957f737f",
     "sessionToken": "fef4280caac9126dff639c0240599bfe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
