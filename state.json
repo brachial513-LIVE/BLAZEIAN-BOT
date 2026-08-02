@@ -2592,8 +2592,8 @@
       "stats": {
         "totalVotes": 5861,
         "totalSubs": 25,
-        "totalChatMessages": 4033,
-        "totalStreamMinutes": 3265,
+        "totalChatMessages": 4035,
+        "totalStreamMinutes": 3270,
         "emotes": {
           "❤": 94,
           "🙌": 173,
@@ -2827,17 +2827,9 @@
           "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785650595415
+        "lastChatAt": 1785650812727
       },
       "chatMemory": [
-        {
-          "user": "infamousex",
-          "msg": "Sup Briggsy!?"
-        },
-        {
-          "user": "briggsy",
-          "msg": "klHey"
-        },
         {
           "user": "fluffy",
           "msg": "hey @infamousex"
@@ -2869,6 +2861,14 @@
         {
           "user": "infamousex",
           "msg": "I did but just have some issue with my meta mask"
+        },
+        {
+          "user": "infamousex",
+          "msg": "I will probably make a new one. The thing is that i do not use my wallet on my pc. Only on my phone that’s probably the issue as well"
+        },
+        {
+          "user": "infamousex",
+          "msg": "I’m not putting my secret phase anywhere so I need to find different way to log in. I had trust wallet before but get robbed like twice with different wallets because of some shity tokens. Didn’t have any issue with meta mask in years"
         }
       ],
       "customCommands": {},
@@ -3083,7 +3083,7 @@
         "totalVotes": 4030,
         "totalSubs": 8,
         "totalChatMessages": 1731,
-        "totalStreamMinutes": 4412,
+        "totalStreamMinutes": 4417,
         "emotes": {
           "❤": 24,
           "🙌": 32,
@@ -7976,8 +7976,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785602581753,
   "auth": {
-    "accessToken": "e912b57f7f86a3eb14af32567198876b",
-    "refreshToken": "debc3142e6c88dfc6d04ac577b78ef41",
+    "accessToken": "883facf00fa5e76702705196d5dd6fb7",
+    "refreshToken": "9d7e0b3b6481b8059a8c5aee8660fb44",
     "sessionToken": "fef4280caac9126dff639c0240599bfe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
