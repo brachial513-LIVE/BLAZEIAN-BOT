@@ -3124,8 +3124,8 @@
       "stats": {
         "totalVotes": 4141,
         "totalSubs": 8,
-        "totalChatMessages": 1887,
-        "totalStreamMinutes": 4684,
+        "totalChatMessages": 1889,
+        "totalStreamMinutes": 4689,
         "emotes": {
           "❤": 24,
           "🙌": 37,
@@ -3212,18 +3212,10 @@
           "😌": "😌",
           "😀": "😀"
         },
-        "lastChatAt": 1785711487731,
+        "lastChatAt": 1785713009797,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 6 votes, @briggsy!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 6 vote(s) (total: 35)! Thank you!! 🗳️"
-        },
         {
           "user": "briggsy",
           "msg": "My last votes buddy"
@@ -3255,6 +3247,14 @@
         {
           "user": "briggsy",
           "msg": "you're too kind and cool, man"
+        },
+        {
+          "user": "avisi",
+          "msg": "let's go @nadietv! always good to see you"
+        },
+        {
+          "user": "avisi",
+          "msg": "hanging out waiting for halo: campaign evolved."
         }
       ],
       "customCommands": {},
@@ -3293,16 +3293,16 @@
       "stats": {
         "totalVotes": 3053,
         "totalSubs": 53,
-        "totalChatMessages": 324,
-        "totalStreamMinutes": 6502,
+        "totalChatMessages": 325,
+        "totalStreamMinutes": 6505,
         "emotes": {
           "❤": 76,
           "🙌": 24,
           "🔥": 26,
           "🔴": 43,
           "🎉": 43,
-          "📴": 44,
-          "👋": 45,
+          "📴": 45,
+          "👋": 46,
           "😂": 4,
           "💚": 6,
           "💪": 2,
@@ -3341,14 +3341,10 @@
           "😁": "😁",
           "☺": "☺"
         },
-        "lastChatAt": 1785711810835,
+        "lastChatAt": 1785712904906,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "rooredex",
-          "msg": "redex 10"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ rooredex just followed the channel! Welcome!! 🙌"
@@ -3384,6 +3380,10 @@
         {
           "user": "anikisnow",
           "msg": "a minha tbm bugou"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -3395,7 +3395,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "💥PRIDECAST l AO VIVO AGORA! Zina, Ziggi e Felipinho Sem Filtro! — Talk Shows & Podcasts",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -3403,7 +3403,7 @@
       "_profileAtCount": 272,
       "botVip": true,
       "lastStreamInfo": "💥PRIDECAST l AO VIVO AGORA! Zina, Ziggi e Felipinho Sem Filtro! — Talk Shows & Podcasts",
-      "lastStreamEndedAt": 1785639742947,
+      "lastStreamEndedAt": 1785712899672,
       "nudgedAt": 1785710754625,
       "nudgedKey": "schedule"
     },
@@ -3488,7 +3488,7 @@
         "totalVotes": 4492,
         "totalSubs": 17,
         "totalChatMessages": 549,
-        "totalStreamMinutes": 2440,
+        "totalStreamMinutes": 2445,
         "emotes": {
           "❤": 30,
           "🙌": 32,
@@ -4276,7 +4276,7 @@
         "totalVotes": 2418,
         "totalSubs": 14,
         "totalChatMessages": 108,
-        "totalStreamMinutes": 4341,
+        "totalStreamMinutes": 4346,
         "emotes": {
           "💚": 4,
           "🔥": 7,
@@ -5581,7 +5581,7 @@
         "totalVotes": 3866,
         "totalSubs": 17,
         "totalChatMessages": 467,
-        "totalStreamMinutes": 2255,
+        "totalStreamMinutes": 2260,
         "emotes": {
           "❤": 19,
           "🙌": 27,
@@ -8172,8 +8172,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785694119299,
   "auth": {
-    "accessToken": "ad84c0d43632abe448e3274b8fcdd482",
-    "refreshToken": "0ef0920f79d81d1dda2f0ab04cede942",
+    "accessToken": "f98321ccf9773504dd0c0c03f4676333",
+    "refreshToken": "b59214a7d3de142770eeaa7edaa307a6",
     "sessionToken": "2d9c73a1fc168165922c9a8cbd8a9dcd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
