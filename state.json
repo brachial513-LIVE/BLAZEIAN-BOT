@@ -2593,7 +2593,7 @@
         "totalVotes": 5861,
         "totalSubs": 25,
         "totalChatMessages": 4038,
-        "totalStreamMinutes": 3310,
+        "totalStreamMinutes": 3315,
         "emotes": {
           "❤": 94,
           "🙌": 173,
@@ -3083,7 +3083,7 @@
         "totalVotes": 4030,
         "totalSubs": 8,
         "totalChatMessages": 1732,
-        "totalStreamMinutes": 4457,
+        "totalStreamMinutes": 4462,
         "emotes": {
           "❤": 24,
           "🙌": 32,
@@ -6392,8 +6392,8 @@
       "stats": {
         "totalVotes": 664,
         "totalSubs": 6,
-        "totalChatMessages": 84,
-        "totalStreamMinutes": 490,
+        "totalChatMessages": 85,
+        "totalStreamMinutes": 495,
         "emotes": {
           "❤": 7,
           "🙌": 9,
@@ -6435,13 +6435,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785653133894
+        "lastChatAt": 1785653500558
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @TimDraws!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 1 vote(s) (total: 4)! Thank you!! 🗳️"
@@ -6477,6 +6473,10 @@
         {
           "user": "ruri666",
           "msg": "hello, thanks for the follow @groggyrob"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -7976,8 +7976,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785602581753,
   "auth": {
-    "accessToken": "883facf00fa5e76702705196d5dd6fb7",
-    "refreshToken": "9d7e0b3b6481b8059a8c5aee8660fb44",
+    "accessToken": "89faf71a113828a0b20492631cdf059d",
+    "refreshToken": "c1d576367d5c2c205193ecc0196cef7c",
     "sessionToken": "fef4280caac9126dff639c0240599bfe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
