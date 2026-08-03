@@ -1508,7 +1508,7 @@
         "totalVotes": 6017,
         "totalSubs": 31,
         "totalChatMessages": 2774,
-        "totalStreamMinutes": 9189,
+        "totalStreamMinutes": 9209,
         "emotes": {
           "❤": 109,
           "🙌": 79,
@@ -2007,15 +2007,21 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 1,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
         "emotes": {},
-        "emoteNames": {}
+        "emoteNames": {},
+        "sendFailStreak": 0,
+        "lastChatAt": 1785797383041
       },
       "chatMemory": [
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @BLAZEIAN_BOT!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @time!"
         }
       ],
       "customCommands": {},
@@ -3310,14 +3316,14 @@
       "stats": {
         "totalVotes": 3063,
         "totalSubs": 53,
-        "totalChatMessages": 325,
-        "totalStreamMinutes": 6505,
+        "totalChatMessages": 326,
+        "totalStreamMinutes": 6507,
         "emotes": {
           "❤": 76,
           "🙌": 24,
           "🔥": 26,
-          "🔴": 43,
-          "🎉": 43,
+          "🔴": 44,
+          "🎉": 44,
           "📴": 45,
           "👋": 46,
           "😂": 4,
@@ -3358,14 +3364,10 @@
           "😁": "😁",
           "☺": "☺"
         },
-        "lastChatAt": 1785712904906,
+        "lastChatAt": 1785797745882,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ rooredex just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "slothsm",
           "msg": "ty jon"
@@ -3401,6 +3403,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -3412,7 +3418,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -3504,7 +3510,7 @@
       "stats": {
         "totalVotes": 4627,
         "totalSubs": 17,
-        "totalChatMessages": 572,
+        "totalChatMessages": 573,
         "totalStreamMinutes": 2534,
         "emotes": {
           "❤": 30,
@@ -3521,8 +3527,8 @@
           "🔴": 19,
           "🎉": 39,
           "🚨": 42,
-          "📴": 18,
-          "👋": 30,
+          "📴": 19,
+          "👋": 31,
           "🏅": 5,
           "💪": 15,
           "😁": 4,
@@ -3601,13 +3607,9 @@
           "😀": "😀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785796700129
+        "lastChatAt": 1785796759772
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "agent00zani",
           "msg": "ty ty for the support .. means a lot"
@@ -3643,6 +3645,10 @@
         {
           "user": "vitrene",
           "msg": "Have an awesome day/night!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -3655,7 +3661,7 @@
       "botVip": true,
       "profile": "Vitrene's community is a lively bunch of gamers who love to \"Goat!\" each other's achievements. They frequently use \"🔴 VOTE ALERT!! 🗳️\" to celebrate milestones and appreciate votes. Expect \"VIT 🔥🔥\", \"$VIT Always Wins!\", \"ggs\", and \"💃💃💃\" to dance with. They're passionate about Halo and Star Wars, often referencing the Covenant, the Flood, and Spartans. They bid farewell with \"have a great stream as well!\" and \"have an awesome night/day!\".",
       "_profileAtCount": 568,
-      "streamTitle": "Reputation is Everything 👑 | Star Wars Outlaws — Star Wars Outlaw",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -3669,8 +3675,8 @@
       "commentMode": "heavy",
       "nudgedAt": 1785010424974,
       "nudgedKey": "customcmd",
-      "lastStreamInfo": "Crime Pays... In Space 💰 | Star Wars Outlaws — Star Wars Outlaw",
-      "lastStreamEndedAt": 1785713527055
+      "lastStreamInfo": "Reputation is Everything 👑 | Star Wars Outlaws — Star Wars Outlaw",
+      "lastStreamEndedAt": 1785796754570
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
       "username": "grook",
@@ -4660,8 +4666,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b75c9dc9-4139-4301-a1f4-4b77cb0e8bec.gif",
       "followed": true,
       "streamTitle": "",
-      "profile": "bidloperv's community is a chill crew that lives for heavy riffs and good vibes, celebrating \"MONDAY\", \"Holii Legend!\", and \"🙌\" vibes. We go wild for \"Copernican Heresy Revocation\" and \"Tony hawks pro skater soundtrack\" gems, and epic \"Bidlo Wheel\" moments. We shout \"GET OUTTA TOWN\" in the \"BidloZone\", love \"raid\" excitement, and \"random shiit\" jams. We celebrate \"100 votes\" and \"love fest\" during \"Guitar and Chill\" sessions, and go wild for epic growls and Larry LaLonde vibes.",
-      "_profileAtCount": 3531,
+      "profile": "bidloperv's community is a chill crew that lives for heavy riffs and good vibes, celebrating \"MONDAY\", \"Holii Legend!\", and \"🙌\" vibes. We go wild for epic \"Bidlo Wheel\" moments, \"Copernican Heresy Revocation\" gems, and \"Tony hawks pro skater soundtrack\" jams. We shout \"GET OUTTA TOWN\" in the \"BidloZone\", love \"raid\" excitement, and \"random shiit\" jams. We celebrate \"100 votes\", \"love fest\" during \"Guitar and Chill\" sessions, and epic growls and Larry LaLonde vibes.",
+      "_profileAtCount": 3618,
       "gameOverride": "",
       "loyalty": {
         "mindgoblin": {
@@ -5450,10 +5456,10 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 2202,
+        "totalVotes": 2207,
         "totalSubs": 22,
-        "totalChatMessages": 896,
-        "totalStreamMinutes": 1549,
+        "totalChatMessages": 899,
+        "totalStreamMinutes": 1569,
         "emotes": {
           "❤": 83,
           "🙌": 64,
@@ -5481,7 +5487,7 @@
           "😜": 1,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 69,
+          "🗳": 72,
           "🥷": 2,
           "💯": 3,
           "📢": 2,
@@ -5492,8 +5498,8 @@
           "🦵": 1,
           "⏰": 1,
           "🩷": 1,
-          "😶": 6,
-          "🌫": 6,
+          "😶": 10,
+          "🌫": 10,
           "👑": 1,
           "💛": 1,
           "💃": 3,
@@ -5551,21 +5557,9 @@
           "😆": "😆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785795345541
+        "lastChatAt": 1785797680205
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Cheeseyeggs just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "cheeseyeggs",
-          "msg": "NOTICE ME!"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "zani just lurking around today"
-        },
         {
           "user": "cheeseyeggs",
           "msg": "Reyt, i cant get this mF to work so ima bounce"
@@ -5593,6 +5587,18 @@
         {
           "user": "agent00zani",
           "msg": "i am the no where man"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @meyetechnicals!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6183,14 +6189,14 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 7693,
+        "totalVotes": 7718,
         "totalSubs": 8,
-        "totalChatMessages": 1171,
+        "totalChatMessages": 1172,
         "totalStreamMinutes": 443,
         "emotes": {
           "❤": 20,
           "🙌": 31,
-          "🗳": 234,
+          "🗳": 237,
           "💰": 10,
           "🔥": 31,
           "💛": 3,
@@ -6302,17 +6308,13 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785791714703,
+        "lastChatAt": 1785797290308,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 22 vote(s) (total: 140)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 22 vote(s) (total: 162)! Thank you!! 🗳️"
@@ -6348,6 +6350,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 55 vote(s) (total: 55)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 25 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7211,14 +7217,14 @@
       "stats": {
         "totalVotes": 3533,
         "totalSubs": 0,
-        "totalChatMessages": 342,
-        "totalStreamMinutes": 938,
+        "totalChatMessages": 346,
+        "totalStreamMinutes": 957,
         "emotes": {
           "❤": 16,
           "🙌": 7,
           "🗳": 108,
-          "🔴": 7,
-          "🎉": 11,
+          "🔴": 8,
+          "🎉": 12,
           "🏃": 1,
           "♂": 1,
           "💨": 1,
@@ -7226,8 +7232,8 @@
           "🌫": 2,
           "🤣": 6,
           "😂": 10,
-          "📴": 6,
-          "👋": 6,
+          "📴": 7,
+          "👋": 7,
           "🚨": 18,
           "🔥": 17,
           "💚": 6,
@@ -7282,25 +7288,9 @@
           "💃": "💃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785795765193
+        "lastChatAt": 1785796750910
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "💃💃"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @CedriCDebleD!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "foxcrochet",
-          "msg": "The backroooms!"
-        },
         {
           "user": "desirablebottom",
           "msg": "good Call @foxcrochet"
@@ -7324,6 +7314,22 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -7336,12 +7342,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
-      "streamTitle": "Helldiving with the SQUAD and probably game hopping after — IRL",
+      "streamTitle": "Meccha Chameleon - Hide and Seek with Shotguns — IRL",
       "profile": "noxx's community is a lively bunch of bug slayers and vote warriors who live for Hellldivin and thrivin. They're known for their \"slay all the bugs\" spirit, love giving shoutouts with \"🗳️ VOTE ALERT!!\" and \"love fest!\" vibes, and frequently exclaim \"Wild gaem!\" and \"RIP!\" in response to noxx's gaming prowess and IRL adventures. They love to celebrate with \"👀👀👀\" and \"clipping it!",
       "_profileAtCount": 226,
       "gameOverride": "",
-      "lastStreamInfo": "Hellldivin and thrivin — IRL",
-      "lastStreamEndedAt": 1785762352903
+      "lastStreamInfo": "Helldiving with the SQUAD and probably game hopping after — IRL",
+      "lastStreamEndedAt": 1785796721382
     },
     "143c4620-2a6d-4182-8bda-bc93350bd2da": {
       "username": "loboblanco",
