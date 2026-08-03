@@ -5585,12 +5585,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 3870,
-        "totalSubs": 20,
-        "totalChatMessages": 504,
-        "totalStreamMinutes": 2578,
+        "totalSubs": 21,
+        "totalChatMessages": 506,
+        "totalStreamMinutes": 2583,
         "emotes": {
           "❤": 21,
-          "🙌": 31,
+          "🙌": 32,
           "💚": 2,
           "🔥": 11,
           "🗳": 162,
@@ -5610,7 +5610,7 @@
           "✌": 2,
           "☺": 1,
           "👍": 1,
-          "🎁": 38,
+          "🎁": 40,
           "😶": 6,
           "🌫": 6,
           "😍": 4,
@@ -5645,17 +5645,9 @@
           "☕": "☕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785734312992
+        "lastChatAt": 1785734404541
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "hey @faithy_"
-        },
-        {
-          "user": "briggsy",
-          "msg": "back from Lunch?"
-        },
         {
           "user": "srchois",
           "msg": "Thanks for the votes, appreciate it po"
@@ -5687,6 +5679,14 @@
         {
           "user": "lunaria",
           "msg": "pa sponsor master haha"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @lunaria! How generous!! 🙌"
+        },
+        {
+          "user": "lunaria",
+          "msg": "ui thank you berde na"
         }
       ],
       "customCommands": {},
@@ -8190,8 +8190,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785694119299,
   "auth": {
-    "accessToken": "1aa30bd178e888e31e1febd0ecef9f3a",
-    "refreshToken": "60baa712c406be33db34f77b91c141b9",
+    "accessToken": "3366c28f4f1a46bd6227cdb98c6ceb7e",
+    "refreshToken": "4f2227853d0ddcc5fd0471a7943302ad",
     "sessionToken": "2d9c73a1fc168165922c9a8cbd8a9dcd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
