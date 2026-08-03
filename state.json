@@ -971,9 +971,9 @@
       "language": "en",
       "stats": {
         "totalVotes": 4018,
-        "totalSubs": 55,
-        "totalChatMessages": 1646,
-        "totalStreamMinutes": 5261,
+        "totalSubs": 56,
+        "totalChatMessages": 1647,
+        "totalStreamMinutes": 5266,
         "emotes": {
           "📊": 3,
           "🔥": 164,
@@ -1175,13 +1175,9 @@
           "🙄": "🙄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785768186172
+        "lastChatAt": 1785769573400
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Thank you bonsaifox for the votes"
-        },
         {
           "user": "foxbotai",
           "msg": "Thank you @crypt0k1ng96 for voting with 1 votes! FoxBot AI appreciates your support! +3 FoxCoins. Balance: 1226 FoxCoins. Lucky Bonus: @crypt0k1ng96 found a Golden Fox Chest and earned +50 FoxCoins. Balance: 1276 FoxCoins."
@@ -1217,6 +1213,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Back in an hour!!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thank you @ambi"
         }
       ],
       "customCommands": {},
@@ -1504,7 +1504,7 @@
         "totalVotes": 5894,
         "totalSubs": 31,
         "totalChatMessages": 2726,
-        "totalStreamMinutes": 8835,
+        "totalStreamMinutes": 8840,
         "emotes": {
           "❤": 101,
           "🙌": 77,
@@ -6485,8 +6485,8 @@
       "stats": {
         "totalVotes": 984,
         "totalSubs": 10,
-        "totalChatMessages": 201,
-        "totalStreamMinutes": 646,
+        "totalChatMessages": 206,
+        "totalStreamMinutes": 651,
         "emotes": {
           "❤": 9,
           "🙌": 13,
@@ -6505,7 +6505,7 @@
           "💙": 2,
           "💜": 5,
           "📢": 1,
-          "🔥": 2,
+          "🔥": 4,
           "💖": 1,
           "🤟": 2,
           "👽": 1
@@ -6534,29 +6534,9 @@
           "👽": "👽"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785768401216
+        "lastChatAt": 1785769655285
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @ITACHIAVAX!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "ruri666",
-          "msg": "Thankyouuu ITAAAAAA!!!!"
-        },
         {
           "user": "destinoprospero",
           "msg": "hello Ruri !"
@@ -6576,6 +6556,26 @@
         {
           "user": "ruri666",
           "msg": "hello !!!"
+        },
+        {
+          "user": "fartvader",
+          "msg": "hey yo @ruri666 happy streaming brother!"
+        },
+        {
+          "user": "ruri666",
+          "msg": "YOOO HELLO @FartVader"
+        },
+        {
+          "user": "ruri666",
+          "msg": "Thankyou brother"
+        },
+        {
+          "user": "fartvader",
+          "msg": "🔥🔥"
+        },
+        {
+          "user": "ruri666",
+          "msg": "Losing game hahaha"
         }
       ],
       "customCommands": {},
@@ -8246,8 +8246,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785765417128,
   "auth": {
-    "accessToken": "1e76e7703f575971c221e211a3eb9501",
-    "refreshToken": "ac0e84f70b3af7fa69696dbbd8941997",
+    "accessToken": "4bb7cb463739d316286b771315971827",
+    "refreshToken": "e67c343be955ec6d2a2397bd7923e27b",
     "sessionToken": "2d9c73a1fc168165922c9a8cbd8a9dcd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
