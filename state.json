@@ -455,12 +455,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 24142,
+        "totalVotes": 24192,
         "totalSubs": 47,
-        "totalChatMessages": 4919,
+        "totalChatMessages": 4920,
         "totalStreamMinutes": 1720,
         "emotes": {
-          "🗳": 645,
+          "🗳": 648,
           "❤": 209,
           "🙌": 128,
           "🔥": 120,
@@ -662,13 +662,9 @@
           "😪": "😪"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785748684919
+        "lastChatAt": 1785756203789
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "agent00zani",
           "msg": "ty ty for support"
@@ -704,6 +700,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @sinnerz just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -973,7 +973,7 @@
         "totalVotes": 3979,
         "totalSubs": 52,
         "totalChatMessages": 1622,
-        "totalStreamMinutes": 5038,
+        "totalStreamMinutes": 5043,
         "emotes": {
           "📊": 3,
           "🔥": 160,
@@ -1503,8 +1503,8 @@
       "stats": {
         "totalVotes": 5893,
         "totalSubs": 31,
-        "totalChatMessages": 2693,
-        "totalStreamMinutes": 8779,
+        "totalChatMessages": 2700,
+        "totalStreamMinutes": 8784,
         "emotes": {
           "❤": 99,
           "🙌": 76,
@@ -1675,38 +1675,10 @@
           "😒": "😒",
           "😔": "😔"
         },
-        "lastChatAt": 1785755911246,
+        "lastChatAt": 1785756138503,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "curlysnow07",
-          "msg": "hope you have a great day"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "ty ty soo much"
-        },
-        {
-          "user": "3block",
-          "msg": "ZANI"
-        },
-        {
-          "user": "3block",
-          "msg": "how goes?"
-        },
-        {
-          "user": "3block",
-          "msg": "dude, my breakfast consisted of pizza and chicken wraps😔"
-        },
-        {
-          "user": "3block",
-          "msg": "road to big backsville ...😔"
-        },
-        {
-          "user": "3block",
-          "msg": "got some admin/work done"
-        },
         {
           "user": "3block",
           "msg": "setting up to go live soon"
@@ -1718,6 +1690,34 @@
         {
           "user": "3block",
           "msg": "lol"
+        },
+        {
+          "user": "3block",
+          "msg": "nice"
+        },
+        {
+          "user": "3block",
+          "msg": "weekend of champions"
+        },
+        {
+          "user": "3block",
+          "msg": "lol"
+        },
+        {
+          "user": "3block",
+          "msg": "today is Monday, the day after Sunday and before tuesday"
+        },
+        {
+          "user": "3block",
+          "msg": "26 is almost done"
+        },
+        {
+          "user": "3block",
+          "msg": "how's dragon? if you see him tell him I say AYO"
+        },
+        {
+          "user": "3block",
+          "msg": "how much did you invest in your pc? Im looking to upgrade soon"
         }
       ],
       "customCommands": {},
@@ -8210,8 +8210,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785694119299,
   "auth": {
-    "accessToken": "1a0f8fe1a51ca6be9390598cfc8751aa",
-    "refreshToken": "c41a45e9f3179ebcf048930dc67b674c",
+    "accessToken": "e2cb862b89f5dd035168f4157c4fd9ce",
+    "refreshToken": "98a83b2aa9fcc2f2fad4820007874871",
     "sessionToken": "2d9c73a1fc168165922c9a8cbd8a9dcd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
