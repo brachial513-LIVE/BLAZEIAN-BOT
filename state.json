@@ -1247,7 +1247,7 @@
         "totalVotes": 3163,
         "totalSubs": 6,
         "totalChatMessages": 2805,
-        "totalStreamMinutes": 2173,
+        "totalStreamMinutes": 2178,
         "emotes": {
           "🗳": 260,
           "🤣": 50,
@@ -1507,14 +1507,14 @@
       "stats": {
         "totalVotes": 6017,
         "totalSubs": 31,
-        "totalChatMessages": 2774,
-        "totalStreamMinutes": 9229,
+        "totalChatMessages": 2775,
+        "totalStreamMinutes": 9230,
         "emotes": {
           "❤": 109,
           "🙌": 79,
           "🗳": 390,
-          "📴": 74,
-          "👋": 79,
+          "📴": 75,
+          "👋": 80,
           "🔴": 72,
           "🎉": 124,
           "🏆": 19,
@@ -1681,14 +1681,10 @@
           "😔": "😔",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785794825110,
+        "lastChatAt": 1785799193008,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "Heagag"
-        },
         {
           "user": "fluffy",
           "msg": "What we play"
@@ -1724,6 +1720,10 @@
         {
           "user": "agent00zani",
           "msg": "🥰"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -1731,7 +1731,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "Zani with good buddies in OTHERSIDE// CRYPTOCATS EVENT| 🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle LIVE — Otherside (by Yuga Labs)",
+      "streamTitle": "",
       "profile": "This community is fueled by 🔥 and 🎰, living for epic battles in Marvel Rivals. We \"SLAP\" each other with a wooden horse, and love being celebrated with 🤗 and 🏆. Expect pizza-fueled streams, weirdness, and Sci-Fi love, especially for Blade Runner. Catchphrases like \"VOTE ALERT!!\", \"Huge W\", \"MVP\", and \"Hugs\" are staples here. Agent00zani loves being celebrated with 🤗 and 🏆, and appreciates \"ty ty\" for votes and raids.",
       "_profileAtCount": 2749,
       "loyalty": {
@@ -1770,8 +1770,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/fc5ab98b-e0a9-4580-a90b-de6d7af4203e.png",
       "nudgedAt": 1785006485591,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "🌍 Surviving Once Human 👀 | 🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle LIVE — Once Human",
-      "lastStreamEndedAt": 1785786388464
+      "lastStreamInfo": "Zani with good buddies in OTHERSIDE// CRYPTOCATS EVENT| 🏆 140 Votes + 🤗 Hugs | 🎰 Sub Raffle LIVE — Otherside (by Yuga Labs)",
+      "lastStreamEndedAt": 1785799187742
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
@@ -3317,7 +3317,7 @@
         "totalVotes": 3064,
         "totalSubs": 53,
         "totalChatMessages": 326,
-        "totalStreamMinutes": 6527,
+        "totalStreamMinutes": 6532,
         "emotes": {
           "❤": 76,
           "🙌": 24,
@@ -5447,8 +5447,8 @@
       "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1087d984-7048-475d-b8f9-c93c14eefc15.gif",
-      "profile": "lady_iris's community is a lively bunch of enthusiasts who love cszinho, Dota, and ARPGs, often using slang like \"vai\" and \"yuppie\" to express excitement. They adore when lady_iris is playing her Tetris build, celebrating with \"yayyyyyyyy\" and \"yuppiiiiii\" when she's on a roll. They appreciate shoutouts, especially \"S2\" moments, and love to see lady_iris's skills shine.",
-      "_profileAtCount": 317,
+      "profile": "lady_iris's community is a lively bunch of enthusiasts who love cszinho, Dota, and ARPGs, often using slang like \"vai\" and \"yuppie\" to express excitement. They adore \"yayyyyyyyy\" and \"yuppiiiiii\" when lady_iris is on a roll with her Tetris build, celebrating her skills and \"S2\" moments. They love shoutouts and \"trans muda\" hype.",
+      "_profileAtCount": 402,
       "lastStreamInfo": "cszinho/dota e arpgs — Crypto",
       "lastStreamEndedAt": 1785791473066
     },
@@ -7217,8 +7217,8 @@
       "stats": {
         "totalVotes": 3533,
         "totalSubs": 0,
-        "totalChatMessages": 346,
-        "totalStreamMinutes": 977,
+        "totalChatMessages": 347,
+        "totalStreamMinutes": 982,
         "emotes": {
           "❤": 16,
           "🙌": 7,
@@ -7288,13 +7288,9 @@
           "💃": "💃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785796750910
+        "lastChatAt": 1785799365204
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "good Call @foxcrochet"
-        },
         {
           "user": "desirablebottom",
           "msg": "make it work"
@@ -7330,6 +7326,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -8369,8 +8369,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785765417128,
   "auth": {
-    "accessToken": "03c8b7bee93c54529554ea11eaf3dbe1",
-    "refreshToken": "d76e00e46f068aea9741b704d50cf4a0",
+    "accessToken": "1eadd251a5acffffed768f92a1f3b921",
+    "refreshToken": "472990f08c6a84ad44df1b05768f86a3",
     "sessionToken": "dc3881f591b83c91bc43cf69b531d895",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
