@@ -972,8 +972,8 @@
       "stats": {
         "totalVotes": 4018,
         "totalSubs": 57,
-        "totalChatMessages": 1657,
-        "totalStreamMinutes": 5331,
+        "totalChatMessages": 1669,
+        "totalStreamMinutes": 5351,
         "emotes": {
           "📊": 3,
           "🔥": 164,
@@ -1068,7 +1068,7 @@
           "😎": 3,
           "🙂": 1,
           "🔺": 1,
-          "🫡": 4,
+          "🫡": 5,
           "☺": 2,
           "🙌": 1,
           "🍀": 9,
@@ -1175,48 +1175,48 @@
           "🙄": "🙄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785772592514
+        "lastChatAt": 1785774752553
       },
       "chatMemory": [
         {
           "user": "crypt0k1ng96",
-          "msg": "Thank you @ambi"
+          "msg": "Thank you @avisi I just noticed that as well"
         },
         {
-          "user": "crypt0k1ng96",
-          "msg": "Welcome @capt_rob_advent"
-        },
-        {
-          "user": "capt_rob_advent",
-          "msg": "Hiya"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "How's it going?"
-        },
-        {
-          "user": "capt_rob_advent",
-          "msg": "Thank you for the gifted sub"
+          "user": "avisi",
+          "msg": "prime example: i just said vote and it thinks its a vote. the bot should not look for the word vote to establish that a vote was given. it should be listening for the vote event and parsing the data from the websocket instead!"
         },
         {
           "user": "foxbotai",
-          "msg": "LEGEND ALERT: @capt_rob_advent gifted 1 subs! Everyone show some love. +500 FoxCoins. Balance: 500 FoxCoins."
+          "msg": "Thank you @avisi for voting with 1 votes! FoxBot AI appreciates your support! +3 FoxCoins. Balance: 1809 FoxCoins."
         },
         {
-          "user": "crypt0k1ng96",
-          "msg": "of course buddy"
+          "user": "avisi",
+          "msg": "here's 1000000 votes!"
         },
         {
-          "user": "crypt0k1ng96",
-          "msg": "check out @foxbotai if you are looking for a cool bot for your stream!"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🚨 100 VOTE GIVEAWAY IS LIVE! 🚨\n\nI’m giving back to the community—and helping build the future of Blaze at the same time.\n\nHere’s how to earn entries:\n\n🗳️ Vote\n• 1–10 Votes = 1 Entry\n• 10–50 Votes = 2 Entries\n• 50+ Votes = 3 Entries\n\n⭐ Subscribe\n• 1 Sub = 1 Entry\n• 1 Gifted Sub = 2 Entries\n\n🦊 Test FoxBot AI\n• Test FoxBot AI = 2 Entries\n• Report a bug or suggestion = +1 Entry\n• Share your feedback = +1 Entry\n\nEvery vote helps support the stream"
+          "user": "avisi",
+          "msg": "1000000 vote"
         },
         {
           "user": "foxbotai",
-          "msg": "100 VOTE WEEKLY GIVEAWAY | ENTER HERE:\nhttps://x.com/Pardon_my_trade/status/2079868166218432757?s=20"
+          "msg": "Thank you @avisi for voting with 50 votes! FoxBot AI appreciates your support! +150 FoxCoins. Balance: 1959 FoxCoins."
+        },
+        {
+          "user": "avisi",
+          "msg": "good enough to illustrate how i can manipulate my credits without voting"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Right…"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Will fix asap!!"
+        },
+        {
+          "user": "avisi",
+          "msg": "🫡"
         }
       ],
       "customCommands": {},
@@ -1503,8 +1503,8 @@
       "stats": {
         "totalVotes": 5894,
         "totalSubs": 31,
-        "totalChatMessages": 2729,
-        "totalStreamMinutes": 8905,
+        "totalChatMessages": 2730,
+        "totalStreamMinutes": 8925,
         "emotes": {
           "❤": 105,
           "🙌": 78,
@@ -1675,14 +1675,10 @@
           "😒": "😒",
           "😔": "😔"
         },
-        "lastChatAt": 1785773538522,
+        "lastChatAt": 1785773696617,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "Hello, GM GM zaniiii"
-        },
         {
           "user": "agent00zani",
           "msg": "🥰"
@@ -1718,6 +1714,10 @@
         {
           "user": "silverbolt99",
           "msg": "spreading the love around but ill be lurkin 🥷🥷❤️‍🔥❤️‍🔥"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty"
         }
       ],
       "customCommands": {},
@@ -6351,8 +6351,8 @@
       "stats": {
         "totalVotes": 2506,
         "totalSubs": 11,
-        "totalChatMessages": 502,
-        "totalStreamMinutes": 1794,
+        "totalChatMessages": 505,
+        "totalStreamMinutes": 1811,
         "emotes": {
           "❤": 32,
           "🙌": 21,
@@ -6362,13 +6362,13 @@
           "👋": 11,
           "💪": 1,
           "💚": 6,
-          "🔥": 44,
+          "🔥": 47,
           "🗳": 168,
           "🤗": 4,
           "📴": 10,
           "🎁": 22,
-          "🔴": 8,
-          "🎉": 12,
+          "🔴": 9,
+          "🎉": 13,
           "👍": 7,
           "😍": 5,
           "😆": 6,
@@ -6416,21 +6416,9 @@
           "🦊": "🦊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785764089927
+        "lastChatAt": 1785774167299
       },
       "chatMemory": [
-        {
-          "user": "anikisnow",
-          "msg": "sweetie"
-        },
-        {
-          "user": "anikisnow",
-          "msg": "S2"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 75 votes, @wapi!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
@@ -6458,6 +6446,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 angge_wf is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -6471,7 +6471,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4e3e8a6e-187e-4044-ac4b-00376f4dd2b2.gif",
       "profile": "Welcome to the chill vibes of angge_wf's stream, where Wayfinders PH hangs out and plays Valorant! We're all about \"VOTE ALERT\", \"NEW FOLLOWER\" love, and \"gm gm gm gm gm\" mornings. We celebrate with \"🗳️\" and \"❤️\"s, passionate about Phantom vs Vandal debates, and generous subs and votes. Let's keep it real and show love with \"magadga umaga\" mornings, \"🤩🤩🤩\" reactions, and \"🔥🔥🔥\" fire.",
       "_profileAtCount": 468,
-      "streamTitle": "",
+      "streamTitle": "Wayfinders PH - CHILL STREAM — VALORANT",
       "gameOverride": "",
       "followed": true,
       "botVip": true,
@@ -7181,8 +7181,8 @@
       "stats": {
         "totalVotes": 3432,
         "totalSubs": 0,
-        "totalChatMessages": 251,
-        "totalStreamMinutes": 553,
+        "totalChatMessages": 252,
+        "totalStreamMinutes": 573,
         "emotes": {
           "❤": 10,
           "🙌": 5,
@@ -7199,7 +7199,7 @@
           "📴": 6,
           "👋": 6,
           "🚨": 18,
-          "🔥": 8,
+          "🔥": 11,
           "💚": 6,
           "👀": 5,
           "😄": 2,
@@ -7238,13 +7238,9 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785773595947
+        "lastChatAt": 1785774111106
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "just lurking"
-        },
         {
           "user": "noxx",
           "msg": "yo yo!"
@@ -7280,6 +7276,10 @@
         {
           "user": "ruri666",
           "msg": "Beat is fire"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "🔥🔥🔥"
         }
       ],
       "customCommands": {},
