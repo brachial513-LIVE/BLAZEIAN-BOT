@@ -1503,16 +1503,16 @@
       "stats": {
         "totalVotes": 5820,
         "totalSubs": 30,
-        "totalChatMessages": 2598,
-        "totalStreamMinutes": 8645,
+        "totalChatMessages": 2599,
+        "totalStreamMinutes": 8649,
         "emotes": {
           "❤": 95,
           "🙌": 73,
           "🗳": 363,
           "📴": 72,
           "👋": 77,
-          "🔴": 69,
-          "🎉": 117,
+          "🔴": 70,
+          "🎉": 118,
           "🏆": 19,
           "🤗": 23,
           "💎": 5,
@@ -1673,14 +1673,10 @@
           "🙃": "🙃",
           "😒": "😒"
         },
-        "lastChatAt": 1785705146850,
+        "lastChatAt": 1785747860736,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "just chilling"
-        },
         {
           "user": "agent00zani",
           "msg": "playing some games"
@@ -1716,6 +1712,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -1723,7 +1723,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "🎮 Farlight 84 with Fluffy 👀 | 🎰 Sub Raffle LIVE | 🏆 140 Votes + 🤗 Hugs — Farlight 84",
       "profile": "This community is fueled by 🔥 and 🎰, living for epic battles in Marvel Rivals. We \"SLAP\" each other with a wooden horse, and love being celebrated with 🤗 and 🏆. Expect pizza-fueled streams, weirdness, and Sci-Fi love, especially for Blade Runner. Catchphrases like \"VOTE ALERT!!\", \"Huge W\", \"MVP\", and \"Hugs\" are staples here. Agent00zani loves being celebrated with 🤗 and 🏆.",
       "_profileAtCount": 2570,
       "loyalty": {
@@ -5590,7 +5590,7 @@
       "stats": {
         "totalVotes": 4008,
         "totalSubs": 23,
-        "totalChatMessages": 515,
+        "totalChatMessages": 516,
         "totalStreamMinutes": 2668,
         "emotes": {
           "❤": 23,
@@ -5598,8 +5598,8 @@
           "💚": 2,
           "🔥": 11,
           "🗳": 171,
-          "🔴": 26,
-          "🎉": 33,
+          "🔴": 27,
+          "🎉": 34,
           "📴": 26,
           "👋": 27,
           "🚨": 42,
@@ -5649,13 +5649,9 @@
           "☕": "☕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785746403882
+        "lastChatAt": 1785748100448
       },
       "chatMemory": [
-        {
-          "user": "lunaria",
-          "msg": "ui thank you berde na"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
@@ -5691,6 +5687,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @noxx! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -5703,7 +5703,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Blaze Palworld Marathon — Palworld",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! It's all about vibes, love, and Crypto. We love 'GIFTED SUBS', 'VOTE ALERTS', 'ROI YAN', 'patay', 'spanked', 'it's time to grind', and generous subs. We play Blaze Palworld and enjoy 'will eat first', 'hungryyy', 'appreciate you all', and 'pashout out idol' vibes. Grab some snacks, join the party, and remember, 'mahal haha' and 'pa sponsor master'!",
       "_profileAtCount": 509,
@@ -8196,8 +8196,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785694119299,
   "auth": {
-    "accessToken": "826675cdf3751ea8f88899b6902ecb0d",
-    "refreshToken": "90135347fd9f784046b30e5aa78d064f",
+    "accessToken": "12fec61000a032121ed04ec5437bd239",
+    "refreshToken": "d9d84cc75bafaeb116aef10cb11b429f",
     "sessionToken": "2d9c73a1fc168165922c9a8cbd8a9dcd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
