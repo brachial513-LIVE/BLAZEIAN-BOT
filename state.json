@@ -4275,8 +4275,8 @@
       "stats": {
         "totalVotes": 2418,
         "totalSubs": 14,
-        "totalChatMessages": 127,
-        "totalStreamMinutes": 4546,
+        "totalChatMessages": 128,
+        "totalStreamMinutes": 4553,
         "emotes": {
           "💚": 4,
           "🔥": 10,
@@ -4303,13 +4303,9 @@
           "🥲": "🥲",
           "🤗": "🤗"
         },
-        "lastChatAt": 1785724712803
+        "lastChatAt": 1785725400308
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "just_for_lucas",
           "msg": "🔥🔥Happy Monday Streaming"
@@ -4345,6 +4341,10 @@
         {
           "user": "tai_",
           "msg": "thanks for raid @avisi 💖"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -4354,7 +4354,7 @@
       "greeted": true,
       "locked": true,
       "followed": true,
-      "streamTitle": "WAYFINDERS BR - WILDER WORLD — IRL",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/12660284-7663-43c6-92ac-32776ec39b0d.gif",
       "profile": "This is a chill Blaze community where we vibe out to 🔥🔥🔥 content, celebrating our streamer's \"gm gmmm\" mornings and thanking each other with \"thanksss\". We're all about the \"gm gmmm\" energy, love \"KKKKKKKKKKK\" reactions, and enthusiastic good mornings. Our streamer loves being celebrated with fire emojis and \"oiee\" greetings. We play WAYFINDERS BR in a Wilder World IRL setting.",
@@ -4367,7 +4367,7 @@
         }
       },
       "lastStreamInfo": "WAYFINDERS BR - WILDER WORLD — IRL",
-      "lastStreamEndedAt": 1785621420026,
+      "lastStreamEndedAt": 1785725400081,
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule"
     },
@@ -5587,7 +5587,7 @@
         "totalVotes": 3866,
         "totalSubs": 19,
         "totalChatMessages": 484,
-        "totalStreamMinutes": 2423,
+        "totalStreamMinutes": 2443,
         "emotes": {
           "❤": 19,
           "🙌": 29,
