@@ -1508,7 +1508,7 @@
         "totalVotes": 6017,
         "totalSubs": 31,
         "totalChatMessages": 2774,
-        "totalStreamMinutes": 9164,
+        "totalStreamMinutes": 9184,
         "emotes": {
           "❤": 109,
           "🙌": 79,
@@ -3505,7 +3505,7 @@
         "totalVotes": 4627,
         "totalSubs": 17,
         "totalChatMessages": 568,
-        "totalStreamMinutes": 2509,
+        "totalStreamMinutes": 2529,
         "emotes": {
           "❤": 30,
           "🙌": 32,
@@ -3653,8 +3653,8 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "profile": "vitrene's community is a lively bunch of gamers who love to \"Goat!\" each other's achievements. They frequently use \"🔴 VOTE ALERT!! 🗳️\" to celebrate milestones and appreciate votes. The chat loves to dance with \"💃💃💃\", bid farewell with \"have a great stream as well!\" and \"have an awesome night/day!\". They're passionate about Halo, often referencing the Covenant, the Flood, and Spartans. Expect \"VIT 🔥🔥\", \"$VIT Always Wins!\", and \"ggs\" as part of the lively atmosphere.",
-      "_profileAtCount": 524,
+      "profile": "Vitrene's community is a lively bunch of gamers who love to \"Goat!\" each other's achievements. They frequently use \"🔴 VOTE ALERT!! 🗳️\" to celebrate milestones and appreciate votes. Expect \"VIT 🔥🔥\", \"$VIT Always Wins!\", \"ggs\", and \"💃💃💃\" to dance with. They're passionate about Halo and Star Wars, often referencing the Covenant, the Flood, and Spartans. They bid farewell with \"have a great stream as well!\" and \"have an awesome night/day!\".",
+      "_profileAtCount": 568,
       "streamTitle": "Reputation is Everything 👑 | Star Wars Outlaws — Star Wars Outlaw",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
@@ -5452,8 +5452,8 @@
       "stats": {
         "totalVotes": 2202,
         "totalSubs": 22,
-        "totalChatMessages": 895,
-        "totalStreamMinutes": 1524,
+        "totalChatMessages": 896,
+        "totalStreamMinutes": 1544,
         "emotes": {
           "❤": 83,
           "🙌": 64,
@@ -5551,13 +5551,9 @@
           "😆": "😆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785792608241
+        "lastChatAt": 1785795345541
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @Cheeseyeggs!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Cheeseyeggs just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -5593,6 +5589,10 @@
         {
           "user": "fluffy",
           "msg": "Hey @parky have a nice stream pal"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "i am the no where man"
         }
       ],
       "customCommands": {},
@@ -6183,7 +6183,7 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 7649,
+        "totalVotes": 7693,
         "totalSubs": 8,
         "totalChatMessages": 1171,
         "totalStreamMinutes": 443,
@@ -7211,8 +7211,8 @@
       "stats": {
         "totalVotes": 3533,
         "totalSubs": 0,
-        "totalChatMessages": 341,
-        "totalStreamMinutes": 913,
+        "totalChatMessages": 342,
+        "totalStreamMinutes": 933,
         "emotes": {
           "❤": 16,
           "🙌": 7,
@@ -7282,13 +7282,9 @@
           "💃": "💃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785794341032
+        "lastChatAt": 1785795765193
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "Seems fun"
-        },
         {
           "user": "fluffy",
           "msg": "💃💃"
@@ -7324,6 +7320,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
