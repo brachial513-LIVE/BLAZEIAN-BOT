@@ -973,7 +973,7 @@
         "totalVotes": 3989,
         "totalSubs": 52,
         "totalChatMessages": 1633,
-        "totalStreamMinutes": 5173,
+        "totalStreamMinutes": 5178,
         "emotes": {
           "📊": 3,
           "🔥": 160,
@@ -5596,12 +5596,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 4039,
-        "totalSubs": 24,
-        "totalChatMessages": 524,
-        "totalStreamMinutes": 2763,
+        "totalSubs": 25,
+        "totalChatMessages": 527,
+        "totalStreamMinutes": 2768,
         "emotes": {
           "❤": 23,
-          "🙌": 36,
+          "🙌": 37,
           "💚": 2,
           "🔥": 11,
           "🗳": 177,
@@ -5621,7 +5621,7 @@
           "✌": 2,
           "☺": 1,
           "👍": 1,
-          "🎁": 46,
+          "🎁": 48,
           "😶": 6,
           "🌫": 6,
           "😍": 4,
@@ -5656,21 +5656,9 @@
           "☕": "☕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785763987726
+        "lastChatAt": 1785764145179
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @noxx! How generous!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -5698,6 +5686,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "faithy_",
+          "msg": "everyone who comes and not subscriber come on chat"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @Tinapay! How generous!! 🙌"
+        },
+        {
+          "user": "faithy_",
+          "msg": "thank you for the votes!"
         }
       ],
       "customCommands": {},
@@ -6347,9 +6347,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 2505,
+        "totalVotes": 2506,
         "totalSubs": 11,
-        "totalChatMessages": 500,
+        "totalChatMessages": 502,
         "totalStreamMinutes": 1794,
         "emotes": {
           "❤": 32,
@@ -6361,7 +6361,7 @@
           "💪": 1,
           "💚": 6,
           "🔥": 44,
-          "🗳": 165,
+          "🗳": 168,
           "🤗": 4,
           "📴": 10,
           "🎁": 22,
@@ -6414,17 +6414,9 @@
           "🦊": "🦊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785739503847
+        "lastChatAt": 1785764089927
       },
       "chatMemory": [
-        {
-          "user": "anikisnow",
-          "msg": "Hiiiiiiiiiiiiiiiiiiiiii"
-        },
-        {
-          "user": "anikisnow",
-          "msg": "thanks for pop 1 sweeetir"
-        },
         {
           "user": "anikisnow",
           "msg": "sweetie"
@@ -6456,6 +6448,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Ruri666 just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @Tinapay!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7284,7 +7284,7 @@
       "followed": true,
       "streamTitle": "",
       "profile": "noxx's community is a lively bunch of bug slayers and vote warriors who live for Hellldivin and thrivin. They're known for their \"slay all the bugs\" spirit, love giving shoutouts with \"🗳️ VOTE ALERT!!\" and \"love fest!\" vibes, and frequently exclaim \"Wild gaem!\" and \"RIP!\" in response to noxx's gaming prowess and IRL adventures. They love to celebrate with \"👀👀👀\" and \"clipping it!",
-      "_profileAtCount": 178,
+      "_profileAtCount": 226,
       "gameOverride": "",
       "lastStreamInfo": "Hellldivin and thrivin — IRL",
       "lastStreamEndedAt": 1785762352903
@@ -8220,8 +8220,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785694119299,
   "auth": {
-    "accessToken": "8d2c35443592a1ab6a26832dc3f621d3",
-    "refreshToken": "3ecbc8b91ea986f840aac0ab5e81fe5f",
+    "accessToken": "45bbb9bcf81f455b5d0310992fccf2d3",
+    "refreshToken": "9f8e9ad7b16e3285b6708cdf69f4b16e",
     "sessionToken": "2d9c73a1fc168165922c9a8cbd8a9dcd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
