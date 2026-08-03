@@ -332,7 +332,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 272,
+        "totalChatMessages": 273,
         "totalStreamMinutes": 0,
         "emotes": {
           "🪙": 3,
@@ -401,7 +401,7 @@
           "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785775404998
+        "lastChatAt": 1785777205158
       },
       "chatMemory": [
         {
@@ -972,8 +972,8 @@
       "stats": {
         "totalVotes": 4018,
         "totalSubs": 57,
-        "totalChatMessages": 1669,
-        "totalStreamMinutes": 5376,
+        "totalChatMessages": 1670,
+        "totalStreamMinutes": 5396,
         "emotes": {
           "📊": 3,
           "🔥": 164,
@@ -1175,13 +1175,9 @@
           "🙄": "🙄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785774752553
+        "lastChatAt": 1785776870583
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Thank you @avisi I just noticed that as well"
-        },
         {
           "user": "avisi",
           "msg": "prime example: i just said vote and it thinks its a vote. the bot should not look for the word vote to establish that a vote was given. it should be listening for the vote event and parsing the data from the websocket instead!"
@@ -1217,6 +1213,10 @@
         {
           "user": "avisi",
           "msg": "🫡"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Otherside event starts in 1 hour!!"
         }
       ],
       "customCommands": {},
@@ -1501,14 +1501,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 5894,
+        "totalVotes": 5904,
         "totalSubs": 31,
-        "totalChatMessages": 2733,
-        "totalStreamMinutes": 8950,
+        "totalChatMessages": 2745,
+        "totalStreamMinutes": 8970,
         "emotes": {
           "❤": 105,
           "🙌": 78,
-          "🗳": 378,
+          "🗳": 381,
           "📴": 73,
           "👋": 78,
           "🔴": 71,
@@ -1518,7 +1518,7 @@
           "💎": 5,
           "🎁": 55,
           "📢": 26,
-          "🔥": 260,
+          "🔥": 265,
           "😘": 28,
           "🥺": 7,
           "🥷": 13,
@@ -1675,49 +1675,49 @@
           "😒": "😒",
           "😔": "😔"
         },
-        "lastChatAt": 1785776171014,
+        "lastChatAt": 1785777456187,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "behunted",
-          "msg": "may do both"
+          "user": "anikisnow",
+          "msg": "Here we gooooooo! for one more week"
         },
         {
-          "user": "crypt0k1ng96",
-          "msg": "🔥🔥🔥"
-        },
-        {
-          "user": "ruri666",
-          "msg": "Zani my idol"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ capt_rob_advent just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "capt_rob_advent",
-          "msg": "Hello"
-        },
-        {
-          "user": "silverbolt99",
-          "msg": "spreading the love around but ill be lurkin 🥷🥷❤️‍🔥❤️‍🔥"
+          "user": "anikisnow",
+          "msg": "🔥🔥🔥🔥🔥"
         },
         {
           "user": "agent00zani",
-          "msg": "ty ty"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @fluffy is raiding with a party of 4! Welcome raiders!! 🎉"
+          "msg": "is it brg bro snow or lil bro snow'"
         },
         {
           "user": "agent00zani",
-          "msg": "ty ty for raid"
+          "msg": "how u doing today ?"
         },
         {
-          "user": "silverbolt99",
-          "msg": "🥷🥷"
+          "user": "agent00zani",
+          "msg": "brb"
+        },
+        {
+          "user": "anikisnow",
+          "msg": "k"
+        },
+        {
+          "user": "anikisnow",
+          "msg": "Im good"
+        },
+        {
+          "user": "avisi",
+          "msg": "where Zani go?"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty for votes @avisi"
         }
       ],
       "customCommands": {},
@@ -3845,8 +3845,8 @@
       "stats": {
         "totalVotes": 4030,
         "totalSubs": 15,
-        "totalChatMessages": 1311,
-        "totalStreamMinutes": 1910,
+        "totalChatMessages": 1325,
+        "totalStreamMinutes": 1930,
         "emotes": {
           "❤": 20,
           "🙌": 41,
@@ -3892,11 +3892,12 @@
           "💰": 2,
           "🫡": 1,
           "💖": 2,
-          "👍": 2,
+          "👍": 3,
           "😀": 1,
           "🙏": 4,
-          "✌": 1,
-          "☺": 1
+          "✌": 2,
+          "☺": 1,
+          "🎵": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -3947,31 +3948,44 @@
           "😀": "😀",
           "🙏": "🙏",
           "✌": "✌",
-          "☺": "☺"
+          "☺": "☺",
+          "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785776296293
+        "lastChatAt": 1785777400320
       },
       "chatMemory": [
         {
+          "user": "time",
+          "msg": "yes: evet"
+        },
+        {
           "user": "jt_squared2",
-          "msg": "its otherside.xyz"
+          "msg": "how do you pronounce that?"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "okay that's easy"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "evet I am learning"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "yes I like it. Is it on spotify?"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "yes that is where I listen to most"
         },
         {
           "user": "botger",
           "msg": "https://www.youtube.com/@Time.Art.Studio"
         },
         {
-          "user": "marowak33",
-          "msg": "time2"
-        },
-        {
-          "user": "marowak33",
-          "msg": "dfsdfsfs"
-        },
-        {
-          "user": "marowak33",
-          "msg": "para kazandırıyor mu bari bu otherside"
+          "user": "avisi",
+          "msg": "✌️🎵👍 Müziğin keyfini her zaman çıkarıyorum! Seni görmek güzel @time"
         },
         {
           "user": "botger",
@@ -3980,18 +3994,6 @@
         {
           "user": "botger",
           "msg": "https://discord.gg/PXwUmyWwN"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "I like to hear you sing"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "I do like it. It is very southing"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "hi hi .. i am zani"
         }
       ],
       "customCommands": {},
@@ -6349,10 +6351,10 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 2511,
+        "totalVotes": 2521,
         "totalSubs": 11,
-        "totalChatMessages": 510,
-        "totalStreamMinutes": 1836,
+        "totalChatMessages": 513,
+        "totalStreamMinutes": 1856,
         "emotes": {
           "❤": 32,
           "🙌": 21,
@@ -6362,14 +6364,14 @@
           "👋": 11,
           "💪": 1,
           "💚": 6,
-          "🔥": 47,
-          "🗳": 171,
+          "🔥": 48,
+          "🗳": 174,
           "🤗": 4,
           "📴": 10,
           "🎁": 22,
           "🔴": 9,
           "🎉": 13,
-          "👍": 7,
+          "👍": 8,
           "😍": 5,
           "😆": 6,
           "🙃": 11,
@@ -6378,7 +6380,7 @@
           "🫶": 1,
           "🤩": 7,
           "👀": 5,
-          "✌": 1,
+          "✌": 2,
           "☺": 1,
           "😁": 2,
           "😀": 2,
@@ -6416,21 +6418,9 @@
           "🦊": "🦊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785776177621
+        "lastChatAt": 1785776927838
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @Tinapay!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "botger",
           "msg": "🔴 angge_wf is now live! Welcome everyone! 🎉"
@@ -6458,6 +6448,18 @@
         {
           "user": "emperorevilk1ng",
           "msg": "hi cutie"
+        },
+        {
+          "user": "avisi",
+          "msg": "GM @angge_wf ✌️🔥👍 nice shot!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @avisi!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6686,8 +6688,8 @@
       "stats": {
         "totalVotes": 3635,
         "totalSubs": 0,
-        "totalChatMessages": 7681,
-        "totalStreamMinutes": 2191,
+        "totalChatMessages": 7684,
+        "totalStreamMinutes": 2211,
         "emotes": {
           "❤": 17,
           "🙌": 15,
@@ -6695,7 +6697,7 @@
           "🔥": 14,
           "🔴": 19,
           "🎉": 51,
-          "🪙": 240,
+          "🪙": 241,
           "⚡": 54,
           "👀": 7,
           "🍿": 2,
@@ -6879,17 +6881,9 @@
           "⏰": "⏰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785775063340
+        "lastChatAt": 1785777356905
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "⏱️ +20m 0s added to the subathon! Time remaining: 12h 2m 55s"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Brachial513 just gave 40 vote(s) (total: 40)! Thank you!! 🗳️"
-        },
         {
           "user": "brachial513",
           "msg": "ggs for winning 40 Votes on my weekly Giveaway !"
@@ -6921,6 +6915,14 @@
         {
           "user": "botger",
           "msg": "Doações Live pix: https://livepix.gg/maniadk"
+        },
+        {
+          "user": "solucao",
+          "msg": "Boa tarde edao rei do Dk tudo bem"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @solucao 810 points."
         }
       ],
       "customCommands": {},
@@ -7179,14 +7181,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 3432,
+        "totalVotes": 3442,
         "totalSubs": 0,
-        "totalChatMessages": 252,
-        "totalStreamMinutes": 598,
+        "totalChatMessages": 257,
+        "totalStreamMinutes": 618,
         "emotes": {
           "❤": 10,
           "🙌": 5,
-          "🗳": 81,
+          "🗳": 84,
           "🔴": 7,
           "🎉": 11,
           "🏃": 1,
@@ -7199,7 +7201,7 @@
           "📴": 6,
           "👋": 6,
           "🚨": 18,
-          "🔥": 11,
+          "🔥": 12,
           "💚": 6,
           "👀": 5,
           "😄": 2,
@@ -7208,7 +7210,9 @@
           "💀": 3,
           "⚡": 1,
           "♥": 1,
-          "🥰": 2
+          "🥰": 2,
+          "✌": 1,
+          "👍": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7235,32 +7239,14 @@
           "💀": "💀",
           "⚡": "⚡",
           "♥": "♥",
-          "🥰": "🥰"
+          "🥰": "🥰",
+          "✌": "✌",
+          "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785774111106
+        "lastChatAt": 1785776955325
       },
       "chatMemory": [
-        {
-          "user": "noxx",
-          "msg": "yo yo!"
-        },
-        {
-          "user": "noxx",
-          "msg": "Setting up and getting ready! Thank you all for lurking and the votes!!!!"
-        },
-        {
-          "user": "ruri666",
-          "msg": "hello NOXXXXXXXX!!!!!!!!!!!!"
-        },
-        {
-          "user": "noxx",
-          "msg": "Ruriiiiii!!!!!!!!!!!!!!!!!!"
-        },
-        {
-          "user": "noxx",
-          "msg": "Almost ready! bout a minute to start"
-        },
         {
           "user": "ruri666",
           "msg": "What are you goin to play"
@@ -7280,6 +7266,26 @@
         {
           "user": "crypt0k1ng96",
           "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "avisi",
+          "msg": "✌️🔥👍 been a while since i saw you on. Good to see you @noxx"
+        },
+        {
+          "user": "avisi",
+          "msg": "i gotta try this some time. looks so good!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @avisi!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -7795,7 +7801,7 @@
         "totalVotes": 86,
         "totalSubs": 0,
         "totalChatMessages": 5,
-        "totalStreamMinutes": 24,
+        "totalStreamMinutes": 44,
         "emotes": {
           "❤": 2,
           "🙌": 1,
