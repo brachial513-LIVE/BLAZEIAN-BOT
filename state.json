@@ -976,8 +976,8 @@
       "stats": {
         "totalVotes": 4030,
         "totalSubs": 62,
-        "totalChatMessages": 1726,
-        "totalStreamMinutes": 5667,
+        "totalChatMessages": 1728,
+        "totalStreamMinutes": 5670,
         "emotes": {
           "📊": 3,
           "🔥": 174,
@@ -1179,13 +1179,9 @@
           "🙄": "🙄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785793885265
+        "lastChatAt": 1785794152055
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Just working on Foxbot"
-        },
         {
           "user": "fluffy",
           "msg": "Was nice to play with ya earlier"
@@ -1221,6 +1217,10 @@
         {
           "user": "foxbotai",
           "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
         }
       ],
       "customCommands": {},
@@ -1229,7 +1229,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "OTHERSIDE EVENT W/ @CryptoCatsApe 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Otherside (by Yuga Labs)",
+      "streamTitle": "",
       "profile": "Welcome to the Wilder World game nights 🔥! We're all about that \"FOX BOT\" magic, where the vibes are lit and the foxes are fierce! Expect \"FOX BOT help\" commands, \"FOX BOT\" shenanigans, and plenty of \"RIP\" jokes. We love \"SLAYING DRAGONS\", \"FOX BOT\" love, and \"LOVE FEST\" shoutouts! It's a community that's all about \"SLAY A DRAGON\" spirit, giveaways, and \"FOX BOT\" love – don't forget to give crypt0k1ng96 love!",
       "_profileAtCount": 1657,
       "gameOverride": "",
@@ -1238,7 +1238,7 @@
       "nudgedKey": "schedule",
       "commentMode": "heavy",
       "lastStreamInfo": "OTHERSIDE EVENT W/ @CryptoCatsApe 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Otherside (by Yuga Labs)",
-      "lastStreamEndedAt": 1785793403039
+      "lastStreamEndedAt": 1785794163540
     },
     "cef62e02-6fea-468d-9f76-2f4feb1060b7": {
       "username": "thom6ss_otg",
@@ -1507,8 +1507,8 @@
       "stats": {
         "totalVotes": 6017,
         "totalSubs": 31,
-        "totalChatMessages": 2773,
-        "totalStreamMinutes": 9144,
+        "totalChatMessages": 2774,
+        "totalStreamMinutes": 9164,
         "emotes": {
           "❤": 109,
           "🙌": 79,
@@ -1534,7 +1534,7 @@
           "😶": 17,
           "🌫": 17,
           "👍": 23,
-          "🥰": 78,
+          "🥰": 79,
           "♥": 1,
           "🦊": 8,
           "😂": 201,
@@ -1681,14 +1681,10 @@
           "😔": "😔",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785793702115,
+        "lastChatAt": 1785794825110,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "❤️"
-        },
         {
           "user": "fluffy",
           "msg": "Heagag"
@@ -1724,6 +1720,10 @@
         {
           "user": "fluffy",
           "msg": "How games goes"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "🥰"
         }
       ],
       "customCommands": {},
@@ -3502,10 +3502,10 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 4602,
+        "totalVotes": 4627,
         "totalSubs": 17,
         "totalChatMessages": 568,
-        "totalStreamMinutes": 2489,
+        "totalStreamMinutes": 2509,
         "emotes": {
           "❤": 30,
           "🙌": 32,
@@ -5453,7 +5453,7 @@
         "totalVotes": 2202,
         "totalSubs": 22,
         "totalChatMessages": 895,
-        "totalStreamMinutes": 1504,
+        "totalStreamMinutes": 1524,
         "emotes": {
           "❤": 83,
           "🙌": 64,
@@ -6377,9 +6377,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 2568,
+        "totalVotes": 2570,
         "totalSubs": 11,
-        "totalChatMessages": 543,
+        "totalChatMessages": 544,
         "totalStreamMinutes": 1993,
         "emotes": {
           "❤": 39,
@@ -6446,13 +6446,9 @@
           "🥺": "🥺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785785717566
+        "lastChatAt": 1785794304072
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @He_Nose just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
-        },
         {
           "user": "he_nose",
           "msg": "❤️❤️❤️❤️❤️"
@@ -6488,6 +6484,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 2 votes, @piweb!"
         }
       ],
       "customCommands": {},
@@ -7209,14 +7209,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 3523,
+        "totalVotes": 3533,
         "totalSubs": 0,
-        "totalChatMessages": 339,
-        "totalStreamMinutes": 893,
+        "totalChatMessages": 341,
+        "totalStreamMinutes": 913,
         "emotes": {
           "❤": 16,
           "🙌": 7,
-          "🗳": 105,
+          "🗳": 108,
           "🔴": 7,
           "🎉": 11,
           "🏃": 1,
@@ -7282,17 +7282,9 @@
           "💃": "💃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785794005689
+        "lastChatAt": 1785794341032
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "Hey @noxx"
-        },
-        {
-          "user": "fluffy",
-          "msg": "I wanna play it too, soon"
-        },
         {
           "user": "fluffy",
           "msg": "Seems fun"
@@ -7324,6 +7316,14 @@
         {
           "user": "desirablebottom",
           "msg": "your doing the back bend lol"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @piweb!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8044,9 +8044,9 @@
       "n": 10
     },
     "haircoolass": {
-      "note": "They appear to be enthusiastic about music and upcoming tours, with a casual and playful tone in their chat messages. Existing notes about them: They are a fan of the bands Erra, Currents, Caspian, and Aviana.",
-      "at": 1785182636885,
-      "n": 1
+      "note": "They appear to be enthusiastic about music, particularly upcoming tours, with a casual and playful tone, and are fans of bands like Erra and Currents.",
+      "at": 1785794499311,
+      "n": 2
     },
     "briggsy": {
       "note": "Briggsy is a fan of music, particularly Bidlo and Primus, has a humorous and playful personality, often referencing gaming terminology.",
