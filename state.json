@@ -762,7 +762,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 5132,
+        "totalVotes": 5152,
         "totalSubs": 13,
         "totalChatMessages": 6014,
         "totalStreamMinutes": 1024,
@@ -2634,8 +2634,8 @@
       "stats": {
         "totalVotes": 6520,
         "totalSubs": 25,
-        "totalChatMessages": 4202,
-        "totalStreamMinutes": 3401,
+        "totalChatMessages": 4207,
+        "totalStreamMinutes": 3406,
         "emotes": {
           "❤": 100,
           "🙌": 176,
@@ -2873,29 +2873,9 @@
           "🤤": "🤤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785742414985
+        "lastChatAt": 1785742598522
       },
       "chatMemory": [
-        {
-          "user": "capt_rob_advent",
-          "msg": "Oh gotcha. Yeah. With me doing IRL, I probably wouldn't fit in"
-        },
-        {
-          "user": "capt_rob_advent",
-          "msg": "I have seen it. Pretty good game"
-        },
-        {
-          "user": "capt_rob_advent",
-          "msg": "Hi @octo"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Let's make it a great week guys"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Yessireee Bob"
-        },
         {
           "user": "octo",
           "msg": "so you just pick a color you dont paint?"
@@ -2915,6 +2895,26 @@
         {
           "user": "tigresa",
           "msg": "Happy Mambo Mondays"
+        },
+        {
+          "user": "tigresa",
+          "msg": "Join if you can"
+        },
+        {
+          "user": "tigresa",
+          "msg": "9pm utc"
+        },
+        {
+          "user": "tigresa",
+          "msg": "No need to engage, just say hi and I'll add you to the races"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Good to see you and thanks for the votes"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Love some Mambo Mondays"
         }
       ],
       "customCommands": {},
@@ -8196,8 +8196,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785694119299,
   "auth": {
-    "accessToken": "e155564cb5a0251b233a1667aaf60060",
-    "refreshToken": "e6a812793d69537253fb2f8306f34961",
+    "accessToken": "ab42e4790a97fded72febef8f43e3e7f",
+    "refreshToken": "2fab1cc429e1c9fdbb3d0fccb424a0d6",
     "sessionToken": "2d9c73a1fc168165922c9a8cbd8a9dcd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
