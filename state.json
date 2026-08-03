@@ -973,7 +973,7 @@
         "totalVotes": 3964,
         "totalSubs": 52,
         "totalChatMessages": 1617,
-        "totalStreamMinutes": 4993,
+        "totalStreamMinutes": 4998,
         "emotes": {
           "📊": 3,
           "🔥": 160,
@@ -1503,11 +1503,11 @@
       "stats": {
         "totalVotes": 5868,
         "totalSubs": 30,
-        "totalChatMessages": 2652,
-        "totalStreamMinutes": 8734,
+        "totalChatMessages": 2654,
+        "totalStreamMinutes": 8739,
         "emotes": {
-          "❤": 97,
-          "🙌": 74,
+          "❤": 99,
+          "🙌": 75,
           "🗳": 372,
           "📴": 72,
           "👋": 77,
@@ -1673,18 +1673,10 @@
           "🙃": "🙃",
           "😒": "😒"
         },
-        "lastChatAt": 1785753218654,
+        "lastChatAt": 1785753370141,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "okey print some @ejotpl"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @fluffy just gave 40 vote(s) (total: 40)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
@@ -1716,6 +1708,14 @@
         {
           "user": "helios",
           "msg": "Fluffy raid!!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ just_jc just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "sup"
         }
       ],
       "customCommands": {},
@@ -8196,8 +8196,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785694119299,
   "auth": {
-    "accessToken": "4dfcc59c9a15d6da0118f909bcb003e1",
-    "refreshToken": "60606c1202af331ca07408cc937472ad",
+    "accessToken": "1a0f8fe1a51ca6be9390598cfc8751aa",
+    "refreshToken": "c41a45e9f3179ebcf048930dc67b674c",
     "sessionToken": "2d9c73a1fc168165922c9a8cbd8a9dcd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
