@@ -985,7 +985,7 @@
         "totalVotes": 4058,
         "totalSubs": 62,
         "totalChatMessages": 1742,
-        "totalStreamMinutes": 5869,
+        "totalStreamMinutes": 5883,
         "emotes": {
           "📊": 3,
           "🔥": 174,
@@ -1246,7 +1246,7 @@
       "nudgedKey": "schedule",
       "commentMode": "heavy",
       "lastStreamInfo": "CONNECT TO FOXBOT 🦊 DASHBOARD V2 COMING SOON! 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — IRL",
-      "lastStreamEndedAt": 1785835104267
+      "lastStreamEndedAt": 1785846313488
     },
     "cef62e02-6fea-468d-9f76-2f4feb1060b7": {
       "username": "thom6ss_otg",
@@ -5671,16 +5671,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 4344,
+        "totalVotes": 4359,
         "totalSubs": 26,
-        "totalChatMessages": 567,
+        "totalChatMessages": 569,
         "totalStreamMinutes": 3231,
         "emotes": {
           "❤": 23,
           "🙌": 38,
           "💚": 2,
           "🔥": 19,
-          "🗳": 192,
+          "🗳": 195,
           "🔴": 31,
           "🎉": 38,
           "📴": 30,
@@ -5732,17 +5732,9 @@
           "☕": "☕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785845301854
+        "lastChatAt": 1785846136951
       },
       "chatMemory": [
-        {
-          "user": "faithy_",
-          "msg": "thnks john!"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "cg777",
           "msg": "HEY HEY"
@@ -5774,6 +5766,14 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @CG777 has resubscribed — 5 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "korosuplays",
+          "msg": "kow addicted sa palworld ah"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @korosuplays just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7618,9 +7618,9 @@
       "language": "en",
       "joinedAt": 1785231455893,
       "stats": {
-        "totalVotes": 646,
+        "totalVotes": 696,
         "totalSubs": 6,
-        "totalChatMessages": 104,
+        "totalChatMessages": 105,
         "totalStreamMinutes": 507,
         "emotes": {
           "❤": 12,
@@ -7632,8 +7632,8 @@
           "💛": 1,
           "🗳": 30,
           "🎁": 10,
-          "📴": 3,
-          "👋": 4,
+          "📴": 4,
+          "👋": 5,
           "💖": 1,
           "☺": 4,
           "✌": 2,
@@ -7665,13 +7665,9 @@
           "📢": "📢"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785844899019
+        "lastChatAt": 1785846399252
       },
       "chatMemory": [
-        {
-          "user": "missaria_wf",
-          "msg": "thank you @nekoschwan @fartvader next time ulit"
-        },
         {
           "user": "fartvader",
           "msg": "🔥🔥thank you thank you!!! 🔥🔥"
@@ -7707,6 +7703,10 @@
         {
           "user": "nekoschwan",
           "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7718,7 +7718,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c954957e-f37f-4197-9291-1529478c7136.gif",
-      "streamTitle": "Otherside with @nekoschwan ✨ — Otherside (by Yuga Labs)",
+      "streamTitle": "",
       "profile": "Welcome to missaria_wf's cozy corner of Blaze, where Wayfinders PH vibes meet chill streams ✨. We're all about good music, gaming, and quality time with our favorite streamer. Shoutouts to 'Doffer Live' for keeping it real, and remember: 'turn down music, turn up voice' and 'palworld once human' are our jam! We love 'do hard', 'palworld once human', and 'turn down music, turn up voice' vibes, and our streamer loves being gifted subs and celebrated with votes.",
       "_profileAtCount": 76,
       "gameOverride": "",
@@ -7731,17 +7731,17 @@
       },
       "nudgedAt": 1785549785246,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "Overcooked 2 — Overcooked! 2",
-      "lastStreamEndedAt": 1785592929103
+      "lastStreamInfo": "Otherside with @nekoschwan ✨ — Otherside (by Yuga Labs)",
+      "lastStreamEndedAt": 1785846394059
     },
     "95732898-439b-4107-86f2-fd7abf4652ef": {
       "username": "seventh",
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 59,
+        "totalVotes": 69,
         "totalSubs": 0,
-        "totalChatMessages": 22,
+        "totalChatMessages": 25,
         "totalStreamMinutes": 268,
         "emotes": {
           "❤": 2,
@@ -7751,7 +7751,7 @@
           "🤝": 1,
           "🔴": 2,
           "🎉": 2,
-          "🗳": 12,
+          "🗳": 15,
           "📴": 2,
           "👋": 2
         },
@@ -7768,21 +7768,9 @@
           "👋": "👋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785842402119
+        "lastChatAt": 1785847156357
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 2 votes, @ellyroux!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @ellyroux just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @Tinapay!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
@@ -7810,6 +7798,18 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "osohigh",
+          "msg": "gm hope you have a great stream"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @CG777!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7836,7 +7836,7 @@
       "stats": {
         "totalVotes": 545,
         "totalSubs": 0,
-        "totalChatMessages": 8,
+        "totalChatMessages": 9,
         "totalStreamMinutes": 49,
         "emotes": {
           "❤": 2,
@@ -7844,7 +7844,9 @@
           "🗳": 6,
           "♥": 1,
           "🔴": 1,
-          "🎉": 1
+          "🎉": 1,
+          "📴": 1,
+          "👋": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7852,10 +7854,12 @@
           "🗳": "🗳",
           "♥": "♥",
           "🔴": "🔴",
-          "🎉": "🎉"
+          "🎉": "🎉",
+          "📴": "📴",
+          "👋": "👋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785845125231
+        "lastChatAt": 1785846385329
       },
       "chatMemory": [
         {
@@ -7889,6 +7893,10 @@
         {
           "user": "missaria_wf",
           "msg": "lez goo haha"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7901,7 +7909,10 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7cb4e023-0199-4148-ad4f-ad2e7ba411d3.gif",
       "followed": true,
-      "streamTitle": "✨Saturday Night Valo!!✨ VOTE, TIP & SUB to support! ✨ — VALORANT"
+      "streamTitle": "",
+      "lastStreamInfo": "✨Saturday Night Valo!!✨ VOTE, TIP & SUB to support! ✨ — VALORANT",
+      "lastStreamEndedAt": 1785846380016,
+      "gameOverride": ""
     },
     "3bccdf81-654d-4135-86ac-f0d392a4c718": {
       "username": "marioscy5",
