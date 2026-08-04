@@ -1564,20 +1564,18 @@ function buildGiveawayBlock() {
 // endpoint answers publicly, no auth. Only used for CREW channels the bot actually serves.
 const VERIFY_FOLLOWER_GOAL = 20;
 const VERIFY_SUB_GOAL = 10;
+// The ONLY endpoint carrying the true subscriberCount is blaze.stream/bapi/channels/{id}/stats, and it is
+// gated to Blaze's own frontend: it 500s "Missing parameter" for everything except a request bearing the
+// frontend's own client-id — confirmed by testing the bot's credentials (500), a bare call (500), and even
+// a same-origin fetch from within Blaze's loaded page WITH cookies (still 500). The public /v1 stats
+// endpoint wrongly reports subscriberCount:0. So the exact sub count is NOT reachable with the bot's
+// legitimate credentials; the only way in would be to impersonate Blaze's frontend client-id, which is
+// fragile and a bad look for a registered Blaze builder — deliberately not done. Left here, short-circuited,
+// so it's trivial to enable IF a real header is ever found; until then verification questions get the
+// honest "I can't see your exact numbers, cheering you on" note instead of a guessed figure.
 const goalStatsCache = {}; // channelId -> { ts, data:{followers,subs} }
 async function getChannelGoalStats(channelId) {
-  const c = goalStatsCache[channelId];
-  if (c && Date.now() - c.ts < 120000) return c.data; // 2-min cache, these numbers move slowly
-  try {
-    // headers() carries the bot's client-id + bearer — a bare call 500s with "Missing parameter" (the
-    // client-id header is the missing piece; the same header set already works for other bapi calls).
-    const r = await axios.get(`https://blaze.stream/bapi/channels/${channelId}/stats`, { headers: headers(), timeout: 7000 });
-    const d = r.data?.data || {};
-    const data = { followers: typeof d.followerCount === "number" ? d.followerCount : null,
-                   subs: typeof d.subscriberCount === "number" ? d.subscriberCount : null };
-    goalStatsCache[channelId] = { ts: Date.now(), data };
-    return data;
-  } catch (e) { console.log("[GOALS] error:", channelId, e.response?.status || e.message); return null; }
+  return null; // endpoint gated to Blaze's frontend — see note above
 }
 // Which crew channel a Blaze-status question is about: a crew member named in the message, else the
 // current channel. Only crew channels (ones the bot serves) resolve — that's the "must be a crew member"
