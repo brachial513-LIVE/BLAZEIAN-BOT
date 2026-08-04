@@ -1255,7 +1255,7 @@
         "totalVotes": 3258,
         "totalSubs": 6,
         "totalChatMessages": 2940,
-        "totalStreamMinutes": 2487,
+        "totalStreamMinutes": 2492,
         "emotes": {
           "🗳": 272,
           "🤣": 53,
@@ -4327,7 +4327,7 @@
         "totalVotes": 2428,
         "totalSubs": 14,
         "totalChatMessages": 156,
-        "totalStreamMinutes": 4731,
+        "totalStreamMinutes": 4736,
         "emotes": {
           "💚": 4,
           "🔥": 12,
@@ -4946,7 +4946,7 @@
         "totalVotes": 2309,
         "totalSubs": 71,
         "totalChatMessages": 235,
-        "totalStreamMinutes": 1181,
+        "totalStreamMinutes": 1186,
         "emotes": {
           "❤": 13,
           "🙌": 77,
@@ -5276,7 +5276,7 @@
         "totalVotes": 947,
         "totalSubs": 4,
         "totalChatMessages": 135,
-        "totalStreamMinutes": 435,
+        "totalStreamMinutes": 440,
         "emotes": {
           "❤": 4,
           "🙌": 6,
@@ -5654,7 +5654,7 @@
         "totalVotes": 4167,
         "totalSubs": 25,
         "totalChatMessages": 538,
-        "totalStreamMinutes": 3018,
+        "totalStreamMinutes": 3023,
         "emotes": {
           "❤": 23,
           "🙌": 37,
@@ -7235,14 +7235,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 3705,
+        "totalVotes": 3730,
         "totalSubs": 0,
-        "totalChatMessages": 360,
+        "totalChatMessages": 362,
         "totalStreamMinutes": 991,
         "emotes": {
           "❤": 16,
           "🙌": 7,
-          "🗳": 114,
+          "🗳": 117,
           "🔴": 8,
           "🎉": 13,
           "🏃": 1,
@@ -7308,17 +7308,9 @@
           "💃": "💃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785802031779
+        "lastChatAt": 1785818220560
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @meyetechnicals is raiding with a party of 3! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "zakumo",
-          "msg": "Was fun watching!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -7350,6 +7342,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 25 votes, @briggsy!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8423,8 +8423,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785765417128,
   "auth": {
-    "accessToken": "302c0dd7c2d8526948a9ebd16c0638b3",
-    "refreshToken": "44eb72bbe602bd936b138440a26f9b8e",
+    "accessToken": "050cc3b18cc2e0daf62ade211252063d",
+    "refreshToken": "1e29f243a75244ca5b861a74c97b8b76",
     "sessionToken": "dc3881f591b83c91bc43cf69b531d895",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
