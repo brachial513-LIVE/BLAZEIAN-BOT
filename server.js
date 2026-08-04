@@ -3959,12 +3959,23 @@ app.get("/admin/channelinfo/:username", async (req, res) => {
   } catch (e) { out.channelRow = { error: e.response?.status, body: e.response?.data || e.message }; }
   const cid = out.channelRow?.id || findChannelByUsername(slug);
   if (cid) {
-    for (const url of [
+    // The stats endpoints return subscriberCount:0 (session-only), but Blaze's own UI shows a real
+    // "3/10 subscriptions" goal — so the lifetime/goal number lives at an endpoint we haven't found yet.
+    // Probe the likely candidates; whichever returns the real "3" is the one to build the feature on.
+    const candidates = [
       `${API}/v1/channels/stats?channelId=${cid}`,
       `${API}/v1/channels/live-stats?channelId=${cid}`,
-    ]) {
-      try { const r = await axios.get(url, { headers: headers(), timeout: 8000 }); out[url] = r.data; }
-      catch (e) { out[url] = { error: e.response?.status, body: e.response?.data || e.message }; }
+      `${API}/v1/channels/goals?channelId=${cid}`,
+      `${API}/v1/channels/${cid}/goals`,
+      `${API}/v1/channels/${cid}`,
+      `${API}/v1/subscriptions/count?channelId=${cid}`,
+      `${API}/v1/channels/subscriptions?channelId=${cid}`,
+      `https://blaze.stream/bapi/channels/${cid}/goals`,
+      `https://blaze.stream/bapi/channels/${slug}`,
+    ];
+    for (const url of candidates) {
+      try { const r = await axios.get(url, { headers: headers(), timeout: 7000 }); out[url] = r.data; }
+      catch (e) { out[url] = `❌ [${e.response?.status || "?"}] ${JSON.stringify(e.response?.data)?.slice(0,120) || e.message}`; }
     }
   }
   res.send(`<pre style="font-family:monospace;font-size:12px;white-space:pre-wrap;">RAW Blaze data for "${esc(slug)}":\n\n${esc(JSON.stringify(out, null, 2))}</pre>`);
