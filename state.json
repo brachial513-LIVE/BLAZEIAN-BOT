@@ -768,10 +768,10 @@
       "stats": {
         "totalVotes": 5576,
         "totalSubs": 13,
-        "totalChatMessages": 6374,
-        "totalStreamMinutes": 1110,
+        "totalChatMessages": 6387,
+        "totalStreamMinutes": 1115,
         "emotes": {
-          "🔥": 269,
+          "🔥": 270,
           "🗳": 12,
           "🔴": 18,
           "🎉": 60,
@@ -823,7 +823,7 @@
           "✌": 1,
           "☺": 1,
           "👍": 1,
-          "🥔": 188,
+          "🥔": 189,
           "🔄": 109,
           "🤖": 31,
           "😏": 4,
@@ -898,29 +898,21 @@
           "🧪": "🧪",
           "🙄": "🙄"
         },
-        "lastChatAt": 1785814859160,
+        "lastChatAt": 1785815599788,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "bidloperv",
-          "msg": "venmo?"
+          "user": "nadietv",
+          "msg": "yeah"
         },
         {
           "user": "nadietv",
-          "msg": "aaah bitmo"
+          "msg": "i'm here xD"
         },
         {
           "user": "nadietv",
-          "msg": "aaah ofc"
-        },
-        {
-          "user": "nadietv",
-          "msg": "there's tiers i guess"
-        },
-        {
-          "user": "nadietv",
-          "msg": "brb"
+          "msg": "i'm learning xD"
         },
         {
           "user": "blazegames_bot",
@@ -935,12 +927,20 @@
           "msg": "(Handled by bot — joins the channel and confirms in chat)"
         },
         {
-          "user": "nadietv",
-          "msg": "back"
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Play in real-time: blazegames.store/play/jt_squared2?token=p3y20jcg"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@nadietv Play in real-time: blazegames.store/play/jt_squared2?token=26l62dei"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@nadietv joined the game! 2 player(s) ready."
         },
         {
           "user": "nadietv",
-          "msg": "it shouldn't change"
+          "msg": "yes, bad gateway"
         }
       ],
       "customCommands": {},
@@ -1255,7 +1255,7 @@
         "totalVotes": 3243,
         "totalSubs": 6,
         "totalChatMessages": 2919,
-        "totalStreamMinutes": 2443,
+        "totalStreamMinutes": 2448,
         "emotes": {
           "🗳": 266,
           "🤣": 53,
@@ -4325,7 +4325,7 @@
         "totalVotes": 2428,
         "totalSubs": 14,
         "totalChatMessages": 155,
-        "totalStreamMinutes": 4686,
+        "totalStreamMinutes": 4691,
         "emotes": {
           "💚": 4,
           "🔥": 12,
@@ -5273,14 +5273,14 @@
       "stats": {
         "totalVotes": 937,
         "totalSubs": 4,
-        "totalChatMessages": 114,
-        "totalStreamMinutes": 391,
+        "totalChatMessages": 115,
+        "totalStreamMinutes": 395,
         "emotes": {
           "❤": 4,
           "🙌": 6,
           "🗳": 36,
-          "🔴": 10,
-          "🎉": 10,
+          "🔴": 11,
+          "🎉": 11,
           "📴": 10,
           "👋": 10,
           "🎁": 8,
@@ -5306,13 +5306,9 @@
           "🤣": "🤣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785766835508
+        "lastChatAt": 1785815365379
       },
       "chatMemory": [
-        {
-          "user": "xeukuxaixang",
-          "msg": "do yu have ghost of tushima"
-        },
         {
           "user": "xeukuxaixang",
           "msg": "nice"
@@ -5348,6 +5344,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -5360,7 +5360,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1fce5f33-0d10-4052-a439-2d788d567380.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Uncharted 4 — Uncharted 4: A Thief's End",
       "gameOverride": "",
       "profile": "0xscheun's community is a chill crew that loves gaming and good vibes. We're all about \"gm\" greetings, \"sup\" check-ins, and \"yessir\" appreciation. Our fave games include Farlight and Uncharted, and we love celebrating each other's gaming wins with \"thank you\"s and love fests.",
       "_profileAtCount": 83,
@@ -5648,7 +5648,7 @@
         "totalVotes": 4162,
         "totalSubs": 25,
         "totalChatMessages": 537,
-        "totalStreamMinutes": 2973,
+        "totalStreamMinutes": 2978,
         "emotes": {
           "❤": 23,
           "🙌": 37,
@@ -8417,8 +8417,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785765417128,
   "auth": {
-    "accessToken": "dc97dedcdd08f0d2528fa9de5c81dfd8",
-    "refreshToken": "4cb72a9817c7db0b3d705ef374dc15e3",
+    "accessToken": "302c0dd7c2d8526948a9ebd16c0638b3",
+    "refreshToken": "44eb72bbe602bd936b138440a26f9b8e",
     "sessionToken": "dc3881f591b83c91bc43cf69b531d895",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
