@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5625,
         "totalSubs": 13,
-        "totalChatMessages": 6565,
+        "totalChatMessages": 6570,
         "totalStreamMinutes": 1140,
         "emotes": {
           "🔥": 282,
@@ -898,18 +898,10 @@
           "🧪": "🧪",
           "🙄": "🙄"
         },
-        "lastChatAt": 1785862372226,
+        "lastChatAt": 1785862726383,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "test"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "No Obeez holders with votes yet."
-        },
         {
           "user": "blazegames_bot",
           "msg": "No Obeez holders with votes yet."
@@ -941,6 +933,14 @@
         {
           "user": "blazegames_bot",
           "msg": "No Obeez holders with votes yet."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "No Obeez holders with votes yet."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 You are not a registered Obeez holder."
         }
       ],
       "customCommands": {},
@@ -985,7 +985,7 @@
         "totalVotes": 4061,
         "totalSubs": 63,
         "totalChatMessages": 1760,
-        "totalStreamMinutes": 6037,
+        "totalStreamMinutes": 6042,
         "emotes": {
           "📊": 3,
           "🔥": 179,
@@ -4077,7 +4077,7 @@
         "totalVotes": 1669,
         "totalSubs": 10,
         "totalChatMessages": 886,
-        "totalStreamMinutes": 870,
+        "totalStreamMinutes": 875,
         "emotes": {
           "❤": 354,
           "🙌": 15,
@@ -6431,7 +6431,7 @@
         "totalVotes": 2888,
         "totalSubs": 11,
         "totalChatMessages": 572,
-        "totalStreamMinutes": 2194,
+        "totalStreamMinutes": 2199,
         "emotes": {
           "❤": 39,
           "🙌": 22,
@@ -7938,7 +7938,7 @@
         "totalVotes": 92,
         "totalSubs": 0,
         "totalChatMessages": 13,
-        "totalStreamMinutes": 118,
+        "totalStreamMinutes": 123,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -8530,8 +8530,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785845919274,
   "auth": {
-    "accessToken": "397fbeb030dc2fba9b6662dea822b657",
-    "refreshToken": "6581906bd90f6564f4e73843be5634fe",
+    "accessToken": "5969c5e8c3a32ba605c83cffbf0ec658",
+    "refreshToken": "edc684d656a9a78e19485c19a92d244b",
     "sessionToken": "fc65914f08f00fbd0a967b09915e4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
