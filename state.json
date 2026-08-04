@@ -768,22 +768,22 @@
       "stats": {
         "totalVotes": 5576,
         "totalSubs": 13,
-        "totalChatMessages": 6051,
-        "totalStreamMinutes": 1032,
+        "totalChatMessages": 6179,
+        "totalStreamMinutes": 1045,
         "emotes": {
-          "🔥": 223,
+          "🔥": 250,
           "🗳": 12,
-          "🔴": 17,
-          "🎉": 56,
+          "🔴": 18,
+          "🎉": 59,
           "😍": 1,
           "❤": 23,
           "🚢": 3,
-          "⏰": 215,
+          "⏰": 225,
           "🔜": 177,
-          "💀": 87,
+          "💀": 91,
           "😘": 2,
-          "🏆": 44,
-          "🎊": 39,
+          "🏆": 46,
+          "🎊": 41,
           "🎰": 4,
           "😰": 42,
           "🍌": 37,
@@ -823,9 +823,9 @@
           "✌": 1,
           "☺": 1,
           "👍": 1,
-          "🥔": 145,
-          "🔄": 103,
-          "🤖": 29,
+          "🥔": 172,
+          "🔄": 109,
+          "🤖": 30,
           "😏": 4,
           "❌": 1,
           "🙃": 3
@@ -890,49 +890,49 @@
           "❌": "❌",
           "🙃": "🙃"
         },
-        "lastChatAt": 1785808588679,
+        "lastChatAt": 1785811340708,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "jt_squared2",
-          "msg": "r"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🏆 @jt_squared2 crossed the bridge! Position: #1"
+          "msg": "⏰ Game starting in 3 seconds!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🏆 WINNER: jt_squared2! 🎉 Congratulations! 🎊"
+          "msg": "⏰ Game starting in 2 seconds!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🔥 Pyro Race starting in 180 seconds! Answer questions to race! Type !join to play!"
+          "msg": "⏰ Game starting in 1 second!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 No game is currently active! Wait for the streamer to start one."
+          "msg": "@jt_squared2 You have the potato! Type !toss! 🥔🔥"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 No game is currently active!"
+          "msg": "@badger You have the potato! Type !toss! 🥔🔥"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🔥 Pyro Race starting in 180 seconds! Answer questions to race! Type !join to play!"
+          "msg": "@jt_squared2 You have the potato! Type !toss! 🥔🔥"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
+          "msg": "💀 jt_squared2 has been eliminated! 1 player remaining."
         },
         {
           "user": "blazegames_bot",
-          "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
+          "msg": "@jt_squared2 You are not in the game!"
         },
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "user": "blazegames_bot",
+          "msg": "🏆 WINNER: badger! 🎉 Survived 1 rounds! Congratulations! 🎊"
         }
       ],
       "customCommands": {},
@@ -941,7 +941,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
-      "streamTitle": "",
+      "streamTitle": "Vibe Coding - New Hot Potato Blaze Game — IRL",
       "profile": "jt_squared2's squad is a hype-loving crew that goes wild with \"Holi Holiii Holiiii\" and \"🙌🙌🙌\" whenever their favorite streamer gets \"hood\" with their gameplay, shouting \"helll noo\" or \"🤣\". They love creative projects, coding, and music, often using slang like \"fiiiiiine\", \"hood\", and \"palatable\". They're obsessed with Hot Potato, shouting \"helll noo\" when someone gets eliminated, and love \"love fest\" vibes, minus end-game Pal's – that's just \"ruining the game\".",
       "_profileAtCount": 5989,
       "loyalty": {
@@ -1247,7 +1247,7 @@
         "totalVotes": 3243,
         "totalSubs": 6,
         "totalChatMessages": 2913,
-        "totalStreamMinutes": 2358,
+        "totalStreamMinutes": 2378,
         "emotes": {
           "🗳": 266,
           "🤣": 53,
@@ -3148,7 +3148,7 @@
         "totalVotes": 4276,
         "totalSubs": 8,
         "totalChatMessages": 1906,
-        "totalStreamMinutes": 4942,
+        "totalStreamMinutes": 4962,
         "emotes": {
           "❤": 24,
           "🙌": 37,
@@ -3855,9 +3855,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 4269,
+        "totalVotes": 4299,
         "totalSubs": 15,
-        "totalChatMessages": 1446,
+        "totalChatMessages": 1447,
         "totalStreamMinutes": 2172,
         "emotes": {
           "❤": 26,
@@ -3868,7 +3868,7 @@
           "🙂": 3,
           "🔥": 35,
           "😎": 5,
-          "🗳": 264,
+          "🗳": 267,
           "📴": 17,
           "👋": 17,
           "🎁": 28,
@@ -3976,13 +3976,9 @@
           "⌚": "⌚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785802045835
+        "lastChatAt": 1785810221035
       },
       "chatMemory": [
-        {
-          "user": "zer0cache",
-          "msg": "boiling - very very hot!"
-        },
         {
           "user": "zer0cache",
           "msg": "hope project goes well, i'll be lurking and playing"
@@ -4018,6 +4014,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 30 vote(s) (total: 30)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -4317,7 +4317,7 @@
         "totalVotes": 2428,
         "totalSubs": 14,
         "totalChatMessages": 138,
-        "totalStreamMinutes": 4601,
+        "totalStreamMinutes": 4621,
         "emotes": {
           "💚": 4,
           "🔥": 10,
@@ -5363,11 +5363,11 @@
       "stats": {
         "totalVotes": 3889,
         "totalSubs": 70,
-        "totalChatMessages": 402,
+        "totalChatMessages": 404,
         "totalStreamMinutes": 892,
         "emotes": {
-          "❤": 14,
-          "🙌": 77,
+          "❤": 16,
+          "🙌": 78,
           "🔴": 7,
           "🎉": 7,
           "📴": 7,
@@ -5394,17 +5394,9 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785791478272
+        "lastChatAt": 1785810236032
       },
       "chatMemory": [
-        {
-          "user": "lady_iris",
-          "msg": "sim"
-        },
-        {
-          "user": "lady_iris",
-          "msg": "da pra ver"
-        },
         {
           "user": "corinloch",
           "msg": "vamos jogar hoj"
@@ -5436,6 +5428,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @galegaaa!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ galegaaa just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -5636,7 +5636,7 @@
         "totalVotes": 4141,
         "totalSubs": 25,
         "totalChatMessages": 535,
-        "totalStreamMinutes": 2888,
+        "totalStreamMinutes": 2908,
         "emotes": {
           "❤": 23,
           "🙌": 37,
@@ -8082,8 +8082,8 @@
     },
     "briggsy": {
       "note": "Briggsy is a fan of music, particularly Bidlo and Primus, has a humorous and playful personality, often referencing gaming terminology.",
-      "at": 1785746319169,
-      "n": 10
+      "at": 1785810339260,
+      "n": 11
     },
     "lostsnow": {
       "note": "lostsnow appears to be a friendly and humorous person who enjoys intense music, particularly country and pop music, and engages in lighthearted banter.",
@@ -8327,8 +8327,8 @@
     },
     "piweb": {
       "note": "They enjoy playing games, have a preference for gin tonic, appreciate humor related to classic drinks and beach activities, and enjoy lighthearted banter.",
-      "at": 1785746979253,
-      "n": 3
+      "at": 1785810999302,
+      "n": 4
     },
     "ruri666": {
       "note": "They enjoy drawing, play free games, find multiplayer games more fun, and have a humorous and casual tone in their chat.",
