@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5625,
         "totalSubs": 13,
-        "totalChatMessages": 6586,
+        "totalChatMessages": 6593,
         "totalStreamMinutes": 1140,
         "emotes": {
           "🔥": 283,
@@ -778,7 +778,7 @@
           "😍": 1,
           "❤": 23,
           "🚢": 3,
-          "⏰": 268,
+          "⏰": 273,
           "🔜": 177,
           "💀": 93,
           "😘": 2,
@@ -798,7 +798,7 @@
           "📴": 17,
           "👋": 21,
           "😢": 2,
-          "⚠": 10,
+          "⚠": 11,
           "🎯": 2,
           "👿": 1,
           "😂": 19,
@@ -898,38 +898,10 @@
           "🧪": "🧪",
           "🙄": "🙄"
         },
-        "lastChatAt": 1785864087896,
+        "lastChatAt": 1785864373103,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "🗳️ Vote Leaderboard: 1. jt_squared2 - 74 (74 NFT + 0 games) | 2. dimifw - 65 (65 NFT + 0 games) | 3. tigresa - 31 (31 NFT + 0 games) | 4. mindgoblin - 16 (16 NFT + 0 games) | 5. badger - 13 (13 NFT + 0 games) | 6. briggsy - 5 (5 NFT + 0 games) | 7. sheena - 5 (5 NFT + 0 games) | 8. time - 4 (4 NFT + 0 games) | 9. soulflux - 3 (3 NFT + 0 games) | 10. https://blaze.stream/faithy_ - 3 (3 NFT + 0 games) | 11. libralives - 2 (2 NFT + 0 games) | 12. octo - 2 (2 NFT + 0 games)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "13. joseph - 2 (2 NFT + 0 games) | 14. cedricdebled - 1 (1 NFT + 0 games) | 15. bellaching - 1 (1 NFT + 0 games) | 16. 0xboa - 1 (1 NFT + 0 games) | 17. desirablebottom - 1 (1 NFT + 0 games) | 18. timdraws - 1 (1 NFT + 0 games) | 19. sipofcoke - 1 (1 NFT + 0 games) | 20. guney - 1 (1 NFT + 0 games) | 21. sinnerz - 1 (1 NFT + 0 games)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "No Obeez holders with votes yet."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "No Obeez holders with votes yet."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🗳️ Vote Leaderboard: 1. jt_squared2 - 74 (74 NFT + 0 games) | 2. dimifw - 65 (65 NFT + 0 games) | 3. tigresa - 31 (31 NFT + 0 games) | 4. mindgoblin - 16 (16 NFT + 0 games) | 5. badger - 13 (13 NFT + 0 games) | 6. briggsy - 5 (5 NFT + 0 games) | 7. sheena - 5 (5 NFT + 0 games) | 8. time - 4 (4 NFT + 0 games) | 9. soulflux - 3 (3 NFT + 0 games) | 10. https://blaze.stream/faithy_ - 3 (3 NFT + 0 games) | 11. libralives - 2 (2 NFT + 0 games) | 12. octo - 2 (2 NFT + 0 games)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "13. joseph - 2 (2 NFT + 0 games) | 14. cedricdebled - 1 (1 NFT + 0 games) | 15. bellaching - 1 (1 NFT + 0 games) | 16. 0xboa - 1 (1 NFT + 0 games) | 17. desirablebottom - 1 (1 NFT + 0 games) | 18. timdraws - 1 (1 NFT + 0 games) | 19. sipofcoke - 1 (1 NFT + 0 games) | 20. guney - 1 (1 NFT + 0 games) | 21. sinnerz - 1 (1 NFT + 0 games)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🥔🔥 Hot Potato starting in 300 seconds! Don't get caught holding the potato when the music stops! Type !join to play!"
-        },
         {
           "user": "blazegames_bot",
           "msg": "@jt_squared2 joined the game! 1 player(s) ready."
@@ -941,6 +913,34 @@
         {
           "user": "jt_squared2",
           "msg": "yo"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "test"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 10 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⚠️ Not enough players to start! Need at least 2."
         }
       ],
       "customCommands": {},
@@ -976,7 +976,9 @@
       },
       "gameOverride": "",
       "lastStreamInfo": "Vibe Coding - New Hot Potato Blaze Game — IRL",
-      "lastStreamEndedAt": 1785817082386
+      "lastStreamEndedAt": 1785817082386,
+      "nudgedAt": 1785864236148,
+      "nudgedKey": "schedule"
     },
     "b9c5a280-713e-4870-b505-623751badfa0": {
       "username": "crypt0k1ng96",
@@ -985,7 +987,7 @@
         "totalVotes": 4061,
         "totalSubs": 63,
         "totalChatMessages": 1760,
-        "totalStreamMinutes": 6062,
+        "totalStreamMinutes": 6082,
         "emotes": {
           "📊": 3,
           "🔥": 179,
@@ -4077,7 +4079,7 @@
         "totalVotes": 1669,
         "totalSubs": 10,
         "totalChatMessages": 894,
-        "totalStreamMinutes": 895,
+        "totalStreamMinutes": 915,
         "emotes": {
           "❤": 354,
           "🙌": 15,
@@ -4225,8 +4227,8 @@
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
       "streamTitle": "Funk Show & OSP Tunes! — Music",
-      "profile": "",
-      "_profileAtCount": 0,
+      "profile": "We're a funky community vibin' to the beats of cymatrix's Funk Show & OSP Tunes! We're all about \"VOTE ALERT!!\"s, celebrating each other's 25s, and dancing to the rhythm with 💃. We love when cymatrix says \"Heye!\" and \"You bet!\" - it's always a Tuesday, and we're feeling the love. Let's keep it funky and full of \"VOTE ALERT!!\"s!",
+      "_profileAtCount": 894,
       "gameOverride": "",
       "loyalty": {
         "backwoodslabel": {
@@ -6431,7 +6433,7 @@
         "totalVotes": 2888,
         "totalSubs": 11,
         "totalChatMessages": 572,
-        "totalStreamMinutes": 2219,
+        "totalStreamMinutes": 2239,
         "emotes": {
           "❤": 39,
           "🙌": 22,
@@ -7938,7 +7940,7 @@
         "totalVotes": 92,
         "totalSubs": 0,
         "totalChatMessages": 13,
-        "totalStreamMinutes": 143,
+        "totalStreamMinutes": 163,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -8031,7 +8033,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 3,
+        "totalChatMessages": 5,
         "totalStreamMinutes": 0,
         "emotes": {
           "💚": 1
@@ -8040,7 +8042,7 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785845151639
+        "lastChatAt": 1785864292758
       },
       "chatMemory": [
         {
@@ -8054,6 +8056,14 @@
         {
           "user": "brachial513",
           "msg": "i gonna fix this issue haha"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai how's clutchking's road to getting verified looking?"
+        },
+        {
+          "user": "brachial513",
+          "msg": "well sounds a bit better now not my final goal but okay"
         }
       ],
       "customCommands": {},
