@@ -1557,6 +1557,60 @@ function buildGiveawayBlock() {
     `Bring a fact in only when it genuinely fits the moment. If someone is being welcomed or thanked, agree warmly and add ONE real detail — never recite the whole list.`;
 }
 
+// VERIFICATION / VOTE-ELIGIBILITY progress. Blaze shows a channel goal ("X/20 followers, Y/10 subs")
+// toward voting eligibility. The real numbers live at blaze.stream/bapi/channels/{id}/stats (confirmed by
+// inspecting Blaze's own page load — the /v1/ stats endpoint wrongly returns subscriberCount:0; the bapi
+// one returns the true 3). Thresholds (20 followers, 10 subs) confirmed identical on two channels. This
+// endpoint answers publicly, no auth. Only used for CREW channels the bot actually serves.
+const VERIFY_FOLLOWER_GOAL = 20;
+const VERIFY_SUB_GOAL = 10;
+const goalStatsCache = {}; // channelId -> { ts, data:{followers,subs} }
+async function getChannelGoalStats(channelId) {
+  const c = goalStatsCache[channelId];
+  if (c && Date.now() - c.ts < 120000) return c.data; // 2-min cache, these numbers move slowly
+  try {
+    // headers() carries the bot's client-id + bearer — a bare call 500s with "Missing parameter" (the
+    // client-id header is the missing piece; the same header set already works for other bapi calls).
+    const r = await axios.get(`https://blaze.stream/bapi/channels/${channelId}/stats`, { headers: headers(), timeout: 7000 });
+    const d = r.data?.data || {};
+    const data = { followers: typeof d.followerCount === "number" ? d.followerCount : null,
+                   subs: typeof d.subscriberCount === "number" ? d.subscriberCount : null };
+    goalStatsCache[channelId] = { ts: Date.now(), data };
+    return data;
+  } catch (e) { console.log("[GOALS] error:", channelId, e.response?.status || e.message); return null; }
+}
+// Which crew channel a Blaze-status question is about: a crew member named in the message, else the
+// current channel. Only crew channels (ones the bot serves) resolve — that's the "must be a crew member"
+// rule, and also the only channels we'd have a channelId for.
+function resolveStatusTarget(msg, currentCh) {
+  const ml = (msg || "").toLowerCase();
+  for (const c of Object.values(channels)) {
+    if (c === channels[BOT_CHANNEL_ID]) continue;
+    const u = (c.username || "").toLowerCase();
+    if (!u || u.length < 4) continue;
+    if (new RegExp("@?\\b" + u.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i").test(ml)) return c;
+  }
+  return currentCh;
+}
+async function buildVerificationBlock(msg, ch) {
+  const target = resolveStatusTarget(msg, ch);
+  const cid = target && Object.keys(channels).find(id => channels[id] === target && id !== BOT_CHANNEL_ID);
+  const honest = `\n\nNOTE: this is about Blaze verification / vote-eligibility progress. You could NOT look up exact numbers here — do NOT invent any. Cheer them toward it warmly and honestly instead of stating figures.`;
+  if (!cid) return honest;
+  const stats = await getChannelGoalStats(cid);
+  if (!stats || stats.followers == null || stats.subs == null) return honest;
+  const fGo = Math.max(0, VERIFY_FOLLOWER_GOAL - stats.followers);
+  const sGo = Math.max(0, VERIFY_SUB_GOAL - stats.subs);
+  const who = target.username;
+  if (fGo === 0 && sGo === 0) {
+    return `\n\nBLAZE VERIFICATION (real, current): ${who} has hit BOTH goals (${VERIFY_FOLLOWER_GOAL}+ followers, ${VERIFY_SUB_GOAL}+ subs) — they're vote-eligible / verified! Congratulate them warmly and specifically.`;
+  }
+  const parts = [];
+  if (fGo > 0) parts.push(`${fGo} more follower${fGo === 1 ? "" : "s"}`);
+  if (sGo > 0) parts.push(`${sGo} more sub${sGo === 1 ? "" : "s"}`);
+  return `\n\nBLAZE VERIFICATION (real, current — state these numbers plainly, never round or invent): ${who} needs ${parts.join(" and ")} to reach the goal (${VERIFY_FOLLOWER_GOAL} followers + ${VERIFY_SUB_GOAL} subs for vote-eligibility). They're at ${stats.followers} followers and ${stats.subs} subs right now. Say the exact number they still need, warmly, and hype them on.`;
+}
+
 async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   if (!AI_KEY) return null;
   const channelName = ch?.username || "the";
@@ -1580,8 +1634,10 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   // LIVE WEB SEARCH: only for messages that look like they need real current-world facts, and only
   // when Tavily is configured. Cheap classifier first so we don't search on every chat line.
   // Blaze-internal status questions must never hit the web search — the answer isn't on the open web.
+  // For crew members we now pull the REAL follower/sub numbers and compute exact "X subs to go"; for
+  // anyone else we fall back to an honest "can't see it, cheering you on" note.
   const blazeStatusNote = looksLikeBlazeStatusQuery(userMessage)
-    ? `\n\nNOTE: this is about Blaze-internal status (verification / vote-eligibility / how many subs or followers someone still needs). This is NOT something a web search can find — do not claim to have searched for it. Answer warmly and honestly: you can't see a channel's exact verification progress from here, so cheer them on toward it rather than stating numbers you don't have.`
+    ? await buildVerificationBlock(userMessage, ch)
     : "";
 
   let searchBlock = "";
@@ -3963,15 +4019,8 @@ app.get("/admin/channelinfo/:username", async (req, res) => {
     // "3/10 subscriptions" goal — so the lifetime/goal number lives at an endpoint we haven't found yet.
     // Probe the likely candidates; whichever returns the real "3" is the one to build the feature on.
     const candidates = [
-      `${API}/v1/channels/stats?channelId=${cid}`,
-      `${API}/v1/channels/live-stats?channelId=${cid}`,
-      `${API}/v1/channels/goals?channelId=${cid}`,
-      `${API}/v1/channels/${cid}/goals`,
-      `${API}/v1/channels/${cid}`,
-      `${API}/v1/subscriptions/count?channelId=${cid}`,
-      `${API}/v1/channels/subscriptions?channelId=${cid}`,
-      `https://blaze.stream/bapi/channels/${cid}/goals`,
-      `https://blaze.stream/bapi/channels/${slug}`,
+      `https://blaze.stream/bapi/channels/${cid}/stats`, // ← the real one: returns the true subscriberCount
+      `${API}/v1/channels/stats?channelId=${cid}`,        // (for comparison — wrongly returns subs:0)
     ];
     for (const url of candidates) {
       try { const r = await axios.get(url, { headers: headers(), timeout: 7000 }); out[url] = r.data; }
