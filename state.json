@@ -985,7 +985,7 @@
         "totalVotes": 4058,
         "totalSubs": 62,
         "totalChatMessages": 1742,
-        "totalStreamMinutes": 5844,
+        "totalStreamMinutes": 5864,
         "emotes": {
           "📊": 3,
           "🔥": 174,
@@ -5277,14 +5277,14 @@
       "username": "0xscheun",
       "language": "en",
       "stats": {
-        "totalVotes": 953,
+        "totalVotes": 956,
         "totalSubs": 4,
-        "totalChatMessages": 212,
+        "totalChatMessages": 213,
         "totalStreamMinutes": 524,
         "emotes": {
           "❤": 4,
           "🙌": 8,
-          "🗳": 42,
+          "🗳": 45,
           "🔴": 11,
           "🎉": 11,
           "📴": 11,
@@ -5320,13 +5320,9 @@
           "🫶": "🫶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785843634925
+        "lastChatAt": 1785845002735
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "briggsy",
           "msg": "oh whaa?"
@@ -5362,6 +5358,10 @@
         {
           "user": "srchois",
           "msg": "Thanks for the visit"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5662,7 +5662,7 @@
         "totalVotes": 4344,
         "totalSubs": 25,
         "totalChatMessages": 559,
-        "totalStreamMinutes": 3206,
+        "totalStreamMinutes": 3226,
         "emotes": {
           "❤": 23,
           "🙌": 37,
@@ -6411,9 +6411,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 2806,
+        "totalVotes": 2808,
         "totalSubs": 11,
-        "totalChatMessages": 548,
+        "totalChatMessages": 550,
         "totalStreamMinutes": 1993,
         "emotes": {
           "❤": 39,
@@ -6425,7 +6425,7 @@
           "💪": 1,
           "💚": 6,
           "🔥": 48,
-          "🗳": 189,
+          "🗳": 192,
           "🤗": 4,
           "📴": 11,
           "🎁": 22,
@@ -6480,17 +6480,9 @@
           "🥺": "🥺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785842437877
+        "lastChatAt": 1785845019549
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Lionheart just gave 39 vote(s) (total: 39)! Thank you!! 🗳️"
-        },
-        {
-          "user": "lionheart",
-          "msg": "Im home about to play some mistfall hunter"
-        },
         {
           "user": "lionheart",
           "msg": "Extraction type game"
@@ -6522,6 +6514,14 @@
         {
           "user": "angge_wf",
           "msg": "🥰🥰🥰"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 2 votes, @ITACHIAVAX!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7014,13 +7014,13 @@
       "stats": {
         "totalVotes": 1335,
         "totalSubs": 3,
-        "totalChatMessages": 269,
-        "totalStreamMinutes": 1768,
+        "totalChatMessages": 270,
+        "totalStreamMinutes": 1779,
         "emotes": {
           "❤": 15,
           "🙌": 9,
-          "📴": 11,
-          "👋": 12,
+          "📴": 12,
+          "👋": 13,
           "🔴": 10,
           "🎉": 14,
           "🔥": 23,
@@ -7075,13 +7075,9 @@
           "🎁": "🎁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785843146006
+        "lastChatAt": 1785844459495
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "Gm @seventh"
-        },
         {
           "user": "guney",
           "msg": "have a great day"
@@ -7117,6 +7113,10 @@
         {
           "user": "0xscheun",
           "msg": "Gm gm"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7128,7 +7128,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0ed76298-e9ef-4bc3-8291-482815414931.gif",
-      "streamTitle": "Off The Grid Summer League — Off The Grid",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "guney's community is a high-energy space where \"Kankaaaa\" and \"Good morningggg\" are common greetings. They love celebrating milestones with \"Love fest!\" shoutouts and voting for their favorite streamer. They're passionate about Web3, frequently use 🔥 and 🎉 emojis, and enjoy dancing to \"💃💃💃\". They frequently use \"Yooo\" to get guney's attention and shout \"fuckn minigun\" when excited.",
@@ -7142,8 +7142,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "Reveal The Art and get the prize pool — Art",
-      "lastStreamEndedAt": 1785542704175
+      "lastStreamInfo": "Off The Grid Summer League — Off The Grid",
+      "lastStreamEndedAt": 1785844454274
     },
     "e4825903-47a5-4dbb-86ba-1f58c6049ad4": {
       "username": "xeukuxaixang",
@@ -7603,13 +7603,13 @@
       "stats": {
         "totalVotes": 646,
         "totalSubs": 6,
-        "totalChatMessages": 103,
-        "totalStreamMinutes": 482,
+        "totalChatMessages": 104,
+        "totalStreamMinutes": 502,
         "emotes": {
           "❤": 12,
           "🙌": 9,
           "💚": 2,
-          "🔥": 20,
+          "🔥": 23,
           "🔴": 4,
           "🎉": 4,
           "💛": 1,
@@ -7648,13 +7648,9 @@
           "📢": "📢"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785843527630
+        "lastChatAt": 1785844899019
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "missaria_wf",
           "msg": "thank you @nekoschwan @fartvader next time ulit"
@@ -7690,6 +7686,10 @@
         {
           "user": "botger",
           "msg": "🔴 missaria is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -7820,7 +7820,7 @@
         "totalVotes": 545,
         "totalSubs": 0,
         "totalChatMessages": 7,
-        "totalStreamMinutes": 24,
+        "totalStreamMinutes": 44,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -7983,13 +7983,27 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {},
-        "sendFailStreak": 0
+        "emotes": {
+          "💚": 1
+        },
+        "emoteNames": {
+          "💚": "💚"
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1785845013705
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "brachial513",
+          "msg": "GM and thank you for using BlazeianBotAI ! 💚 I wish youre going to be Verified soon as possible ! You can do it, Keep blazeing Clutchking !"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@BLAZEIAN_BOT_AI sweetheart you lol - clutchking needs 7 Subs more to get verified on Blaze"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -7998,7 +8012,8 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/12cc7796-5a80-429d-a740-9356570a78ec.png"
     }
   },
   "blocklist": [
@@ -8075,8 +8090,8 @@
     },
     "lucas93925052": {
       "note": "Lucas93925052 appears to be a playful and competitive gamer, likely interested in humorous and social games, with a sense of camaraderie and playful banter, enjoying late-night gaming sessions.",
-      "at": 1785791199206,
-      "n": 8
+      "at": 1785843999256,
+      "n": 9
     },
     "time": {
       "note": "This person appears to be a fan of the livestreamer's content, particularly pyro, has a playful and humorous personality, and enjoys design and architecture, with an interest in facade design.",
@@ -8174,9 +8189,9 @@
       "n": 4
     },
     "fluffy": {
-      "note": "They have a lighthearted and playful sense of humor, enjoy interacting with others, and appreciate talent, with interests possibly including gaming and music.",
-      "at": 1785799779244,
-      "n": 6
+      "note": "They have a lighthearted and playful sense of humor, enjoy interacting with others, appreciate talent, and are interested in gaming and music.",
+      "at": 1785844659342,
+      "n": 7
     },
     "nekoschwan": {
       "note": "They appear to be a friendly and humorous person who enjoys interacting with their chat, possibly playing games as a streamer, and is interested in gaming platforms and metaverse-like experiences.",
