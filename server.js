@@ -1130,6 +1130,14 @@ async function webSearch(query) {
 const SEARCH_KEYWORDS = /\b(latest|newest|current|today|yesterday|score|scores|result|results|won|winner|news|update|updates|price|prices|who\s+won|what\s+happened|aktuell|neuest|heute|gestern|ergebnis|ergebnisse|gewonnen|gewinner|nachrichten|neuigkeiten|preis|preise)\b/i;
 function looksLikeSearchQuery(msg) { return SEARCH_KEYWORDS.test(msg || ""); }
 
+// Blaze-internal status (verification, vote-eligibility, "X subs/followers to go"). A live web search can
+// NEVER answer this — it's platform-internal, not on the open web. Proven live: asked about clutchking's
+// "verification status", the bot ran a Tavily search, found nothing, and gave a confusing "according to
+// the search results I couldn't find any info" reply. When this matches, the web search is skipped and a
+// note is injected so the bot answers honestly (and, once we have the real numbers, from real data).
+const BLAZE_INTERNAL_RE = /\b(verif(y|ied|ication)|eligib|vote[- ]?eligible|affiliate|partner(ed|ship)?)\b|\b\d+\s*(subs?|subscriptions?|followers?)\s*(to go|more|left|needed|away)\b|\b(subs?|subscriptions?|followers?)\s*(to go|needed|left|remaining)\b/i;
+function looksLikeBlazeStatusQuery(msg) { return BLAZE_INTERNAL_RE.test(msg || ""); }
+
 // Cheap classifier + query-rewriter (light model): decides if a live search is needed, AND — if so —
 // writes a clear, unambiguous search query instead of passing the raw chat message to Tavily verbatim.
 // Proven live why this matters: the raw message "who won the latest WM match?" made Tavily return
@@ -1571,8 +1579,13 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
   }
   // LIVE WEB SEARCH: only for messages that look like they need real current-world facts, and only
   // when Tavily is configured. Cheap classifier first so we don't search on every chat line.
+  // Blaze-internal status questions must never hit the web search — the answer isn't on the open web.
+  const blazeStatusNote = looksLikeBlazeStatusQuery(userMessage)
+    ? `\n\nNOTE: this is about Blaze-internal status (verification / vote-eligibility / how many subs or followers someone still needs). This is NOT something a web search can find — do not claim to have searched for it. Answer warmly and honestly: you can't see a channel's exact verification progress from here, so cheer them on toward it rather than stating numbers you don't have.`
+    : "";
+
   let searchBlock = "";
-  if (TAVILY_API_KEY) {
+  if (TAVILY_API_KEY && !blazeStatusNote) {
     const keywordHit = looksLikeSearchQuery(userMessage);
     const plan = await planWebSearch(userMessage, ch);
     const wants = keywordHit || plan.needed;
@@ -1609,7 +1622,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
         { role: "system", content: BOT_PERSONA + channelContext(ch) +
           `\n\nRECENT CHAT is provided so you understand the ongoing conversation. Reply to the LAST message from ${username} in the natural flow — reference what was just said if it's relevant, don't repeat yourself, and don't answer as if you have no context.` },
         ...historyMsgs,
-        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${searchBlock}${crewStatsBlock}${websiteInfoBlock}${giveawayBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${blazeStatusNote}${searchBlock}${crewStatsBlock}${websiteInfoBlock}${giveawayBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
       ],
       max_tokens: 120,
       // 0.9 gave the most "alive" replies but also let language-mixing slip through more often
@@ -3933,6 +3946,30 @@ app.get("/admin/remove/:username", async (req, res) => {
 // report the last time something was tried, which lags reality — a streamer who says "I unbanned you"
 // leaves the old flag standing until the next event happens to fire. This posts one real (invisible-ish)
 // message and reports exactly what Blaze answers, so a claim can be checked in seconds instead of guessed at.
+// Shows the RAW Blaze API data for a channel, so we can see whether follower/subscriber counts and any
+// verification/eligibility fields actually exist before building a "X subs to verify" feature on them.
+// Guessing field names has burned us before — this checks the real response instead.
+app.get("/admin/channelinfo/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const slug = req.params.username.toLowerCase();
+  const out = {};
+  try {
+    const r = await axios.get(`${API}/v1/channels?slug[]=${encodeURIComponent(slug)}&type=all`, { headers: headers(), timeout: 8000 });
+    out.channelRow = r.data?.data?.rows?.[0] || r.data;
+  } catch (e) { out.channelRow = { error: e.response?.status, body: e.response?.data || e.message }; }
+  const cid = out.channelRow?.id || findChannelByUsername(slug);
+  if (cid) {
+    for (const url of [
+      `${API}/v1/channels/stats?channelId=${cid}`,
+      `${API}/v1/channels/live-stats?channelId=${cid}`,
+    ]) {
+      try { const r = await axios.get(url, { headers: headers(), timeout: 8000 }); out[url] = r.data; }
+      catch (e) { out[url] = { error: e.response?.status, body: e.response?.data || e.message }; }
+    }
+  }
+  res.send(`<pre style="font-family:monospace;font-size:12px;white-space:pre-wrap;">RAW Blaze data for "${esc(slug)}":\n\n${esc(JSON.stringify(out, null, 2))}</pre>`);
+});
+
 app.get("/admin/testsend/:username", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const uname = req.params.username;
