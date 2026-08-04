@@ -987,7 +987,7 @@
         "totalVotes": 4061,
         "totalSubs": 63,
         "totalChatMessages": 1760,
-        "totalStreamMinutes": 6087,
+        "totalStreamMinutes": 6107,
         "emotes": {
           "📊": 3,
           "🔥": 179,
@@ -4078,8 +4078,8 @@
       "stats": {
         "totalVotes": 1669,
         "totalSubs": 10,
-        "totalChatMessages": 894,
-        "totalStreamMinutes": 920,
+        "totalChatMessages": 896,
+        "totalStreamMinutes": 936,
         "emotes": {
           "❤": 354,
           "🙌": 15,
@@ -4087,8 +4087,8 @@
           "🔴": 10,
           "🎉": 11,
           "💛": 18,
-          "📴": 9,
-          "👋": 9,
+          "📴": 10,
+          "👋": 10,
           "🐝": 59,
           "🎶": 35,
           "💃": 55,
@@ -4162,18 +4162,10 @@
           "🪘": "🪘",
           "💰": "💰"
         },
-        "lastChatAt": 1785864079812,
+        "lastChatAt": 1785866584016,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "makesonlybeats",
-          "msg": "hope you all are doing well"
-        },
-        {
-          "user": "fluffy",
-          "msg": "Hey hey. Hope you have amazing stream"
-        },
         {
           "user": "cymatrix",
           "msg": "hey fluffy!!!"
@@ -4205,6 +4197,14 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -4226,7 +4226,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
-      "streamTitle": "Funk Show & OSP Tunes! — Music",
+      "streamTitle": "",
       "profile": "We're a funky community vibin' to the beats of cymatrix's Funk Show & OSP Tunes! We're all about \"VOTE ALERT!!\"s, celebrating each other's 25s, and dancing to the rhythm with 💃. We love when cymatrix says \"Heye!\" and \"You bet!\" - it's always a Tuesday, and we're feeling the love. Let's keep it funky and full of \"VOTE ALERT!!\"s!",
       "_profileAtCount": 894,
       "gameOverride": "",
@@ -4253,7 +4253,9 @@
         }
       },
       "nudgedAt": 1785081346870,
-      "nudgedKey": "schedule"
+      "nudgedKey": "schedule",
+      "lastStreamInfo": "Funk Show & OSP Tunes! — Music",
+      "lastStreamEndedAt": 1785866578787
     },
     "19b7a7c0-fe26-4df4-b40e-ac7489b8f42a": {
       "username": "helios",
@@ -5293,14 +5295,14 @@
       "stats": {
         "totalVotes": 959,
         "totalSubs": 4,
-        "totalChatMessages": 213,
-        "totalStreamMinutes": 524,
+        "totalChatMessages": 214,
+        "totalStreamMinutes": 538,
         "emotes": {
           "❤": 4,
           "🙌": 8,
           "🗳": 45,
-          "🔴": 11,
-          "🎉": 11,
+          "🔴": 12,
+          "🎉": 12,
           "📴": 11,
           "👋": 11,
           "🎁": 8,
@@ -5334,13 +5336,9 @@
           "🫶": "🫶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785845002735
+        "lastChatAt": 1785865936429
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "oh whaa?"
-        },
         {
           "user": "0xscheun",
           "msg": "gotta go"
@@ -5376,6 +5374,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -5388,7 +5390,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1fce5f33-0d10-4052-a439-2d788d567380.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Uncharted 4 — Uncharted 4: A Thief's End",
       "gameOverride": "",
       "profile": "0xscheun's community is a chill crew that loves gaming and good vibes. We're all about \"gm\" greetings, \"sup\" check-ins, and \"yessir\" appreciation. Our fave games include Farlight and Uncharted, and we love celebrating each other's gaming wins with \"thank you\"s and love fests. We live for intense gaming moments, and \"thank you\"s are always in order.",
       "_profileAtCount": 211,
@@ -6236,15 +6238,15 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 7832,
-        "totalSubs": 8,
-        "totalChatMessages": 1174,
+        "totalVotes": 7882,
+        "totalSubs": 23,
+        "totalChatMessages": 1191,
         "totalStreamMinutes": 443,
         "emotes": {
           "❤": 20,
-          "🙌": 31,
-          "🗳": 243,
-          "💰": 10,
+          "🙌": 47,
+          "🗳": 246,
+          "💰": 12,
           "🔥": 31,
           "💛": 3,
           "🔴": 8,
@@ -6269,7 +6271,7 @@
           "👿": 1,
           "🤓": 1,
           "🤙": 3,
-          "🎁": 14,
+          "🎁": 44,
           "⚡": 3,
           "😈": 1,
           "👀": 3,
@@ -6355,7 +6357,7 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785856540207,
+        "lastChatAt": 1785866657331,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
@@ -6364,43 +6366,43 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 100 vote(s) (total: 2000)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @doktorgrav! How generous!! 🙌"
         },
         {
           "user": "botger",
-          "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @gustavojj! How generous!! 🙌"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @SEEKAS! How generous!! 🙌"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @yamall9 just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @itsjustmebells! How generous!! 🙌"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @TheArmenianX! How generous!! 🙌"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @domoking! How generous!! 🙌"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 55 vote(s) (total: 55)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @gzn! How generous!! 🙌"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 25 vote(s) (total: 50)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @SoulsAlwaysOn! How generous!! 🙌"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 10 vote(s) (total: 110)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @TwistedTinker! How generous!! 🙌"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6433,7 +6435,7 @@
         "totalVotes": 2888,
         "totalSubs": 11,
         "totalChatMessages": 572,
-        "totalStreamMinutes": 2244,
+        "totalStreamMinutes": 2264,
         "emotes": {
           "❤": 39,
           "🙌": 22,
@@ -7268,16 +7270,16 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 4080,
+        "totalVotes": 4090,
         "totalSubs": 0,
-        "totalChatMessages": 453,
-        "totalStreamMinutes": 991,
+        "totalChatMessages": 465,
+        "totalStreamMinutes": 1000,
         "emotes": {
           "❤": 16,
           "🙌": 7,
-          "🗳": 138,
-          "🔴": 8,
-          "🎉": 13,
+          "🗳": 141,
+          "🔴": 9,
+          "🎉": 15,
           "🏃": 1,
           "♂": 1,
           "💨": 1,
@@ -7285,8 +7287,8 @@
           "🌫": 8,
           "🤣": 10,
           "😂": 12,
-          "📴": 8,
-          "👋": 8,
+          "📴": 9,
+          "👋": 9,
           "🚨": 24,
           "🔥": 23,
           "💚": 6,
@@ -7295,7 +7297,7 @@
           "😁": 1,
           "😏": 4,
           "💀": 3,
-          "⚡": 1,
+          "⚡": 2,
           "♥": 1,
           "🥰": 3,
           "✌": 1,
@@ -7345,48 +7347,48 @@
           "😎": "😎"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785864080406
+        "lastChatAt": 1785866740069
       },
       "chatMemory": [
         {
-          "user": "meyetechnicals",
-          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️"
-        },
-        {
           "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @meyetechnicals!"
+          "msg": "Stream is now live! Come hang out and watch."
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 3 vote(s) (total: 5)! Thank you!! 🗳️"
+          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
         },
         {
-          "user": "zakumo",
-          "msg": "What game is this?"
+          "user": "briggsy",
+          "msg": "Did Triz take your power for a minutes @noxx??"
         },
         {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+          "user": "briggsy",
+          "msg": "gmgm man"
         },
         {
-          "user": "lostsnow",
-          "msg": "oh no the cursed game"
-        },
-        {
-          "user": "lostsnow",
-          "msg": "🤣"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 150 votes, @vRoshi55!"
+          "user": "briggsy",
+          "msg": "haha"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @vRoshi55 just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
+          "msg": "🎉 briggsy just reached Level 1! ⚡ (1,008 XP)"
+        },
+        {
+          "user": "briggsy",
+          "msg": "nice!!"
         },
         {
           "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+          "msg": "Thanks for the 10 votes, @CyMatrIX!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CyMatrIX just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "Happy Streaming!"
         }
       ],
       "customCommands": {},
@@ -7399,7 +7401,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Outlast trials with DEEEBS — IRL",
       "profile": "noxx's community is a lively bunch of bug slayers and vote warriors who live for Hellldivin and thrivin. They're known for their \"slay all the bugs\" spirit, love giving shoutouts with \"🗳️ VOTE ALERT!!\" and \"love fest!\" vibes, and frequently exclaim \"Wild gaem!\" and \"RIP!\" in response to noxx's gaming prowess and IRL adventures. They celebrate victories with \"👀👀👀\", \"clipping it!\", and \"Raid ALERT!!",
       "_profileAtCount": 440,
       "gameOverride": "",
@@ -7939,8 +7941,8 @@
       "stats": {
         "totalVotes": 92,
         "totalSubs": 0,
-        "totalChatMessages": 13,
-        "totalStreamMinutes": 168,
+        "totalChatMessages": 15,
+        "totalStreamMinutes": 188,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -7951,7 +7953,8 @@
           "🎉": 2,
           "🗳": 3,
           "📴": 1,
-          "👋": 1
+          "👋": 1,
+          "☺": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7963,20 +7966,13 @@
           "🎉": "🎉",
           "🗳": "🗳",
           "📴": "📴",
-          "👋": "👋"
+          "👋": "👋",
+          "☺": "☺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785861344986
+        "lastChatAt": 1785866761053
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "angge_wf",
           "msg": "GM"
@@ -8008,6 +8004,14 @@
         {
           "user": "botger",
           "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "tarzan",
+          "msg": "Like I finally found your stream"
+        },
+        {
+          "user": "tarzan",
+          "msg": "GM gm ☺️"
         }
       ],
       "customCommands": {},
