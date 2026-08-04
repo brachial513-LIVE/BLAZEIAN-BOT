@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5625,
         "totalSubs": 13,
-        "totalChatMessages": 6593,
+        "totalChatMessages": 6620,
         "totalStreamMinutes": 1140,
         "emotes": {
           "🔥": 283,
@@ -777,8 +777,8 @@
           "🎉": 61,
           "😍": 1,
           "❤": 23,
-          "🚢": 3,
-          "⏰": 273,
+          "🚢": 4,
+          "⏰": 278,
           "🔜": 177,
           "💀": 93,
           "😘": 2,
@@ -825,7 +825,7 @@
           "👍": 1,
           "🥔": 201,
           "🔄": 113,
-          "🤖": 34,
+          "🤖": 35,
           "😏": 4,
           "❌": 1,
           "🙃": 3,
@@ -898,49 +898,49 @@
           "🧪": "🧪",
           "🙄": "🙄"
         },
-        "lastChatAt": 1785864373103,
+        "lastChatAt": 1785867960601,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "botger",
-          "msg": "(Handled by bot — joins the channel and confirms in chat)"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "yo"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "test"
+          "msg": "@jt_squared2 board is ready! (4/4 ready)"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 10 seconds!"
+          "msg": "All boards are set! Let the battle begin!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 5 seconds!"
+          "msg": "E7: hit jt_squared2!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
+          "msg": "E6: hit jt_squared2! | hit WildHero20! | hit CleverChampion6!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
+          "msg": "E5: hit jt_squared2! | hit LuckyWarrior77! | hit WildHero20!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
+          "msg": "D6: hit WildHero20! | hit CleverChampion6!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⚠️ Not enough players to start! Need at least 2."
+          "msg": "C3: hit jt_squared2! | hit CleverChampion6!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "E8: Miss!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "F6: hit jt_squared2! | sunk CleverChampion6's Cruiser!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "WildHero20 sank CleverChampion6's Cruiser!"
         }
       ],
       "customCommands": {},
@@ -950,8 +950,8 @@
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
       "streamTitle": "",
-      "profile": "jt_squared2's squad is a hype-loving crew that goes wild with \"Holi Holiii Holiiii\" and \"🙌🙌🙌\" whenever their favorite streamer gets \"hood\" with their gameplay, shouting \"helll noo\" or \"🤣\". They thrive on \"love fest\" vibes, minus end-game Pal's – that's just \"ruining the game\". They love creative projects, coding, and music, often using slang like \"fiiiiiine\", \"hood\", and \"palatable\". Hot Potato is their jam, and they'll \"helll noo\" when someone gets eliminated.",
-      "_profileAtCount": 6547,
+      "profile": "jt_squared2's squad thrives on \"love fest\" vibes, minus end-game Pal's – that's just \"ruining the game\". They love creative projects, coding, and music, often using slang like \"fiiiiiine\", \"hood\", and \"palatable\". They go wild with \"Holi Holiii Holiiii\" and \"🙌🙌🙌\" whenever their favorite streamer gets \"hood\" with their gameplay, shouting \"helll noo\" or \"🤣\". Hot Potato is their jam, and they'll \"helll noo\" when someone gets eliminated.",
+      "_profileAtCount": 6601,
       "loyalty": {
         "tigresa": {
           "name": "tigresa",
@@ -987,7 +987,7 @@
         "totalVotes": 4061,
         "totalSubs": 63,
         "totalChatMessages": 1760,
-        "totalStreamMinutes": 6107,
+        "totalStreamMinutes": 6127,
         "emotes": {
           "📊": 3,
           "🔥": 179,
@@ -2679,14 +2679,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 6781,
+        "totalVotes": 6785,
         "totalSubs": 25,
-        "totalChatMessages": 4295,
+        "totalChatMessages": 4296,
         "totalStreamMinutes": 3453,
         "emotes": {
           "❤": 101,
           "🙌": 177,
-          "🗳": 546,
+          "🗳": 549,
           "✌": 3,
           "😊": 9,
           "👍": 8,
@@ -2920,13 +2920,9 @@
           "🤤": "🤤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785859272038
+        "lastChatAt": 1785867035835
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Appreciate your time.  Cheers and catchya next time. 🙌"
-        },
         {
           "user": "briggsy",
           "msg": "Thanks guys for being here and all the votes."
@@ -2962,6 +2958,10 @@
         {
           "user": "fartvader",
           "msg": "@briggsy my broooo...thank you for the votes. I love you man(not gay), brotherly love. 🔥❤️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dress_n_Draw just gave 4 vote(s) (total: 7)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5295,8 +5295,8 @@
       "stats": {
         "totalVotes": 959,
         "totalSubs": 4,
-        "totalChatMessages": 214,
-        "totalStreamMinutes": 538,
+        "totalChatMessages": 228,
+        "totalStreamMinutes": 558,
         "emotes": {
           "❤": 4,
           "🙌": 8,
@@ -5309,12 +5309,13 @@
           "🤝": 1,
           "🔥": 5,
           "💚": 1,
-          "😂": 11,
+          "😂": 14,
           "🤣": 3,
           "🖐": 1,
           "😆": 3,
           "🤗": 3,
-          "🫶": 2
+          "🫶": 2,
+          "😁": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -5333,51 +5334,52 @@
           "🖐": "🖐",
           "😆": "😆",
           "🤗": "🤗",
-          "🫶": "🫶"
+          "🫶": "🫶",
+          "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785865936429
+        "lastChatAt": 1785867360583
       },
       "chatMemory": [
         {
           "user": "0xscheun",
-          "msg": "gotta go"
+          "msg": "yeah haha"
         },
         {
           "user": "briggsy",
-          "msg": "okok bro"
+          "msg": "you need a boat, man"
         },
         {
           "user": "briggsy",
-          "msg": "adios"
+          "msg": "haha"
         },
         {
           "user": "0xscheun",
-          "msg": "thanks @briggsy"
+          "msg": "wish i could get pone haha"
         },
         {
           "user": "briggsy",
-          "msg": "yeppur"
+          "msg": "I swear when I went to bed you were driving that thing around banging in to rocks. 😁😁"
         },
         {
           "user": "0xscheun",
-          "msg": "have a great day"
+          "msg": "😂😂😂"
+        },
+        {
+          "user": "briggsy",
+          "msg": "That girl must have serious whiplash"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Alright man, I gotta get my day started.  I'll catchya later."
+        },
+        {
+          "user": "briggsy",
+          "msg": "yessir"
         },
         {
           "user": "0xscheun",
-          "msg": "the whiplash haha"
-        },
-        {
-          "user": "srchois",
-          "msg": "Thanks for the visit"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
+          "msg": "thank you"
         }
       ],
       "customCommands": {},
@@ -6422,8 +6424,8 @@
           "tier": 1
         }
       },
-      "profile": "Welcome to Cedricdebled's vibes! We're all about 'GGs' and 'love fests' in here. When we're not 'lowkey' hyping up a game of Pictionary, we're 'highkey' voting for our favorite art. Cedric loves the love, so don't be shy with the shoutouts! Keep it lit, keep it fun, and always remember: 'the vibes are real'!",
-      "_profileAtCount": 1137,
+      "profile": "Welcome to Cedricdebled's vibes! We're all about 'GGs' and 'love fests' in here. When we're not 'lowkey' hyping up a game of Pictionary, we're 'highkey' voting for our favorite art. Cedric loves the love, so don't be shy with the shoutouts! Remember: 'the vibes are real'! Keep it lit, keep it fun, and always expect 'love fest' moments and generous gifts!",
+      "_profileAtCount": 1191,
       "streamTitle": "Pictionary & date update — Art",
       "gameOverride": ""
     },
@@ -6434,8 +6436,8 @@
       "stats": {
         "totalVotes": 2888,
         "totalSubs": 11,
-        "totalChatMessages": 572,
-        "totalStreamMinutes": 2264,
+        "totalChatMessages": 573,
+        "totalStreamMinutes": 2284,
         "emotes": {
           "❤": 39,
           "🙌": 22,
@@ -6501,13 +6503,9 @@
           "🥺": "🥺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785862332589
+        "lastChatAt": 1785867153787
       },
       "chatMemory": [
-        {
-          "user": "galegaaa",
-          "msg": "Gm gm"
-        },
         {
           "user": "galegaaa",
           "msg": "Talk to me!!!"
@@ -6543,6 +6541,10 @@
         {
           "user": "jeffstv",
           "msg": "gm gm"
+        },
+        {
+          "user": "briggsy",
+          "msg": "GE @angge_wf"
         }
       ],
       "customCommands": {},
@@ -7272,8 +7274,8 @@
       "stats": {
         "totalVotes": 4090,
         "totalSubs": 0,
-        "totalChatMessages": 465,
-        "totalStreamMinutes": 1000,
+        "totalChatMessages": 466,
+        "totalStreamMinutes": 1020,
         "emotes": {
           "❤": 16,
           "🙌": 7,
@@ -7347,13 +7349,9 @@
           "😎": "😎"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785866740069
+        "lastChatAt": 1785867679970
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "botger",
           "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
@@ -7389,6 +7387,10 @@
         {
           "user": "cymatrix",
           "msg": "Happy Streaming!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -7941,8 +7943,8 @@
       "stats": {
         "totalVotes": 92,
         "totalSubs": 0,
-        "totalChatMessages": 15,
-        "totalStreamMinutes": 188,
+        "totalChatMessages": 17,
+        "totalStreamMinutes": 208,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -7970,17 +7972,9 @@
           "☺": "☺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785866761053
+        "lastChatAt": 1785866842685
       },
       "chatMemory": [
-        {
-          "user": "angge_wf",
-          "msg": "GM"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @angge_wf!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
@@ -8012,6 +8006,14 @@
         {
           "user": "tarzan",
           "msg": "GM gm ☺️"
+        },
+        {
+          "user": "tarzan",
+          "msg": "OTG pro skills in marvel rivals"
+        },
+        {
+          "user": "tarzan",
+          "msg": "It's it natural talent or pure skill ... Just hard work ..... You got this"
         }
       ],
       "customCommands": {},
