@@ -985,7 +985,7 @@
         "totalVotes": 4058,
         "totalSubs": 62,
         "totalChatMessages": 1753,
-        "totalStreamMinutes": 5947,
+        "totalStreamMinutes": 5952,
         "emotes": {
           "📊": 3,
           "🔥": 179,
@@ -6430,8 +6430,8 @@
       "stats": {
         "totalVotes": 2835,
         "totalSubs": 11,
-        "totalChatMessages": 561,
-        "totalStreamMinutes": 2104,
+        "totalChatMessages": 562,
+        "totalStreamMinutes": 2109,
         "emotes": {
           "❤": 39,
           "🙌": 22,
@@ -6497,13 +6497,9 @@
           "🥺": "🥺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785856615375
+        "lastChatAt": 1785857413576
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "nekoschwan",
           "msg": "happy streaming! 🔥🔥🔥 @angge_wf"
@@ -6539,6 +6535,10 @@
         {
           "user": "silverbolt99",
           "msg": "heyy ang how r yu love"
+        },
+        {
+          "user": "silverbolt99",
+          "msg": "how r the games"
         }
       ],
       "customCommands": {},
@@ -7268,7 +7268,7 @@
       "stats": {
         "totalVotes": 3924,
         "totalSubs": 0,
-        "totalChatMessages": 442,
+        "totalChatMessages": 443,
         "totalStreamMinutes": 991,
         "emotes": {
           "❤": 16,
@@ -7343,13 +7343,9 @@
           "😎": "😎"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785856879884
+        "lastChatAt": 1785857315990
       },
       "chatMemory": [
-        {
-          "user": "foxcrochet",
-          "msg": "Wasssap bitches 😎"
-        },
         {
           "user": "super8437",
           "msg": "This is like my 4 time on blaze I have no idea what im doing lol"
@@ -7385,6 +7381,10 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "foxcrochet",
+          "msg": "Use Datura with it lol"
         }
       ],
       "customCommands": {},
@@ -8530,8 +8530,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785845919274,
   "auth": {
-    "accessToken": "257298f08f569f8288730670ddcfef93",
-    "refreshToken": "14dc58501fb161d51eaaceae6714a0e0",
+    "accessToken": "81e3c9e6640771a615bf39dc79a8aef1",
+    "refreshToken": "c40d08498b30d209f7605e974a91acac",
     "sessionToken": "fc65914f08f00fbd0a967b09915e4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
