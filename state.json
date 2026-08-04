@@ -1247,7 +1247,7 @@
         "totalVotes": 3243,
         "totalSubs": 6,
         "totalChatMessages": 2913,
-        "totalStreamMinutes": 2352,
+        "totalStreamMinutes": 2358,
         "emotes": {
           "🗳": 266,
           "🤣": 53,
@@ -3147,8 +3147,8 @@
       "stats": {
         "totalVotes": 4276,
         "totalSubs": 8,
-        "totalChatMessages": 1905,
-        "totalStreamMinutes": 4935,
+        "totalChatMessages": 1906,
+        "totalStreamMinutes": 4942,
         "emotes": {
           "❤": 24,
           "🙌": 37,
@@ -3235,14 +3235,10 @@
           "😌": "😌",
           "😀": "😀"
         },
-        "lastChatAt": 1785809642237,
+        "lastChatAt": 1785809974338,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "bidloperv",
-          "msg": "yo yo"
-        },
         {
           "user": "bidloperv",
           "msg": "all good man, just chillin"
@@ -3278,6 +3274,10 @@
         {
           "user": "bidloperv",
           "msg": "no dont get sick"
+        },
+        {
+          "user": "bidloperv",
+          "msg": "lolol"
         }
       ],
       "customCommands": {},
@@ -4316,8 +4316,8 @@
       "stats": {
         "totalVotes": 2428,
         "totalSubs": 14,
-        "totalChatMessages": 137,
-        "totalStreamMinutes": 4594,
+        "totalChatMessages": 138,
+        "totalStreamMinutes": 4601,
         "emotes": {
           "💚": 4,
           "🔥": 10,
@@ -4346,13 +4346,9 @@
           "🤗": "🤗",
           "🤠": "🤠"
         },
-        "lastChatAt": 1785807753154
+        "lastChatAt": 1785810165938
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -4388,6 +4384,10 @@
         {
           "user": "tai_",
           "msg": "🤠🤠"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -5636,7 +5636,7 @@
         "totalVotes": 4141,
         "totalSubs": 25,
         "totalChatMessages": 535,
-        "totalStreamMinutes": 2881,
+        "totalStreamMinutes": 2888,
         "emotes": {
           "❤": 23,
           "🙌": 37,
@@ -8405,8 +8405,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785765417128,
   "auth": {
-    "accessToken": "8395a8c7d5e4d9c9f28f1e71b3711c37",
-    "refreshToken": "20a62046b970a2ede5fecd07957a4193",
+    "accessToken": "9385b297eaab9d6a35e8b572d8c100f6",
+    "refreshToken": "ee7cbf51c9a2daa6bee9c250ae0e2fd6",
     "sessionToken": "dc3881f591b83c91bc43cf69b531d895",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
