@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5800,
         "totalSubs": 13,
-        "totalChatMessages": 7399,
+        "totalChatMessages": 7400,
         "totalStreamMinutes": 1140,
         "emotes": {
           "🔥": 399,
@@ -900,14 +900,10 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785876701746,
+        "lastChatAt": 1785881692494,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "💥 @jt_squared2 fell through the glass! Respawning..."
-        },
         {
           "user": "jt_squared2",
           "msg": "RIGHT"
@@ -943,6 +939,10 @@
         {
           "user": "desirablebottom",
           "msg": "I really appreciate the votes every week. Thank you so much for your continued support!"
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
         }
       ],
       "customCommands": {},
@@ -980,7 +980,8 @@
       "lastStreamInfo": "Vibe Coding - New Hot Potato Blaze Game — IRL",
       "lastStreamEndedAt": 1785817082386,
       "nudgedAt": 1785864236148,
-      "nudgedKey": "schedule"
+      "nudgedKey": "schedule",
+      "botVip": true
     },
     "b9c5a280-713e-4870-b505-623751badfa0": {
       "username": "crypt0k1ng96",
@@ -3543,7 +3544,7 @@
         "totalVotes": 4681,
         "totalSubs": 18,
         "totalChatMessages": 611,
-        "totalStreamMinutes": 2609,
+        "totalStreamMinutes": 2614,
         "emotes": {
           "❤": 32,
           "🙌": 33,
@@ -5525,7 +5526,7 @@
         "totalVotes": 2322,
         "totalSubs": 22,
         "totalChatMessages": 920,
-        "totalStreamMinutes": 1635,
+        "totalStreamMinutes": 1640,
         "emotes": {
           "❤": 84,
           "🙌": 64,
@@ -7065,7 +7066,7 @@
         "totalVotes": 1565,
         "totalSubs": 5,
         "totalChatMessages": 309,
-        "totalStreamMinutes": 1959,
+        "totalStreamMinutes": 1964,
         "emotes": {
           "❤": 24,
           "🙌": 13,
@@ -7206,8 +7207,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 182,
-        "totalStreamMinutes": 1225,
+        "totalChatMessages": 183,
+        "totalStreamMinutes": 1230,
         "emotes": {
           "❤": 10,
           "🙌": 5,
@@ -7233,13 +7234,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785877623099
+        "lastChatAt": 1785881675465
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ 0xscheun just followed the channel! Welcome!! 🙌"
@@ -7275,6 +7272,10 @@
         {
           "user": "destinoprospero",
           "msg": "🔥🔥🔥🔥"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "brb"
         }
       ],
       "customCommands": {},
@@ -7304,7 +7305,7 @@
         "totalVotes": 4103,
         "totalSubs": 0,
         "totalChatMessages": 496,
-        "totalStreamMinutes": 1085,
+        "totalStreamMinutes": 1090,
         "emotes": {
           "❤": 16,
           "🙌": 7,
@@ -8570,6 +8571,11 @@
     "super8437": {
       "note": "Existing notes about them: This person appears to be a fan of humorous and absurd stories about a character named Nox, likely from a video game series, and enjoys sharing them in a lighthearted manner.",
       "at": 1785855337815,
+      "n": 1
+    },
+    "wapi": {
+      "note": "They are a musician, likely enjoy gaming as they mention \"musicians raid\", and have a casual, humorous tone.",
+      "at": 1785881737766,
       "n": 1
     }
   },
