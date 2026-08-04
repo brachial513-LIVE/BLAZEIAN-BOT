@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5586,
         "totalSubs": 13,
-        "totalChatMessages": 6499,
+        "totalChatMessages": 6504,
         "totalStreamMinutes": 1140,
         "emotes": {
           "🔥": 277,
@@ -778,7 +778,7 @@
           "😍": 1,
           "❤": 23,
           "🚢": 3,
-          "⏰": 244,
+          "⏰": 248,
           "🔜": 177,
           "💀": 93,
           "😘": 2,
@@ -798,7 +798,7 @@
           "📴": 17,
           "👋": 21,
           "😢": 2,
-          "⚠": 5,
+          "⚠": 6,
           "🎯": 2,
           "👿": 1,
           "😂": 19,
@@ -898,30 +898,10 @@
           "🧪": "🧪",
           "🙄": "🙄"
         },
-        "lastChatAt": 1785820256858,
+        "lastChatAt": 1785827768999,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "botger",
-          "msg": "(Handled by bot — joins the channel and confirms in chat)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "Usage: !switch"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 switched to female body, future head! 🔄"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
-        },
         {
           "user": "blazegames_bot",
           "msg": "Usage: !switch"
@@ -941,6 +921,26 @@
         {
           "user": "blazegames_bot",
           "msg": "🥔🔥 Hot Potato starting in 300 seconds! Don't get caught holding the potato when the music stops! Type !join to play!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⚠️ Not enough players to start! Need at least 2."
         }
       ],
       "customCommands": {},
