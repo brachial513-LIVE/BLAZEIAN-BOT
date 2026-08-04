@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5800,
         "totalSubs": 13,
-        "totalChatMessages": 7398,
+        "totalChatMessages": 7399,
         "totalStreamMinutes": 1140,
         "emotes": {
           "🔥": 399,
@@ -900,14 +900,10 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785872417272,
+        "lastChatAt": 1785876701746,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "LEFT"
-        },
         {
           "user": "blazegames_bot",
           "msg": "💥 @jt_squared2 fell through the glass! Respawning..."
@@ -943,6 +939,10 @@
         {
           "user": "blazegames_bot",
           "msg": "🏆 WINNER: jt_squared2! 🎉 Congratulations! 🎊"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "I really appreciate the votes every week. Thank you so much for your continued support!"
         }
       ],
       "customCommands": {},
@@ -952,8 +952,8 @@
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
       "streamTitle": "",
-      "profile": "jt_squared2's squad thrives on \"love fest\" vibes, minus end-game Pal's – that's just \"ruining the game\". They love creative projects, coding, and music, often using slang like \"fiiiiiine\", \"hood\", and \"palatable\". They go wild with \"Holi Holiii Holiiii\" and \"🙌🙌🙌\" whenever their favorite streamer gets \"hood\" with their gameplay, shouting \"helll noo\" or \"🤣\". Hot Potato is their jam, and they'll \"helll noo\" when someone gets eliminated.",
-      "_profileAtCount": 6601,
+      "profile": "jt_squared2's squad thrives on \"love fest\" vibes, minus end-game Pal's – that's just \"ruining the game\". They love creative projects, coding, and music, often using slang like \"fiiiiiine\", \"hood\", and \"palatable\". They go wild with \"Holi Holiii Holiiii\" and \"🙌🙌🙌\" whenever their favorite streamer gets \"hood\" with their gameplay, shouting \"helll noo\" or \"🤣\". Hot Potato is their jam, and they'll \"helll noo\" when someone gets eliminated. They're all about Glass Bridge, cheering on their favorite",
+      "_profileAtCount": 7399,
       "loyalty": {
         "tigresa": {
           "name": "tigresa",
@@ -989,7 +989,7 @@
         "totalVotes": 4062,
         "totalSubs": 64,
         "totalChatMessages": 1762,
-        "totalStreamMinutes": 6264,
+        "totalStreamMinutes": 6284,
         "emotes": {
           "📊": 3,
           "🔥": 179,
@@ -2435,15 +2435,15 @@
       "stats": {
         "totalVotes": 2726,
         "totalSubs": 11,
-        "totalChatMessages": 809,
-        "totalStreamMinutes": 3803,
+        "totalChatMessages": 811,
+        "totalStreamMinutes": 3812,
         "emotes": {
           "✨": 13,
           "🖥": 19,
           "🔥": 95,
           "👋": 36,
-          "🎬": 37,
-          "❤": 60,
+          "🎬": 38,
+          "❤": 61,
           "🚨": 6,
           "⚡": 19,
           "🏆": 16,
@@ -2579,18 +2579,10 @@
           "😤": "😤",
           "🎼": "🎼"
         },
-        "lastChatAt": 1785875702811,
+        "lastChatAt": 1785876912692,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 2 votes, @sheshi! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 1 votes, @tom2329! Your support is truly appreciated! 🙌"
-        },
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 2 votes, @whisky! Your support is truly appreciated! 🙌"
@@ -2622,6 +2614,14 @@
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 1 votes, @consumerbreak! Your support is truly appreciated! 🙌"
+        },
+        {
+          "user": "tarzan",
+          "msg": "Ggs"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -2630,7 +2630,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Off The Grid — Off The Grid",
+      "streamTitle": "",
       "profile": "zer0cache's community lives for high-stakes data heists, magnetic personalities, and Off The Grid vibes. We're a crew of elite deckers, hackers, and raiders, fueled by proxy security alarms, gifted subs, and lavish praise. Expect \"tearing it up,\" \"splendid form,\" and \"absolute legends\" – we love a good hype fest, celebrating our TB-stolen heroes, and \"dropping in\" to new adventures. \"Tearing it up,\" \"splendid form,\" and \"absolute legends\" are what we live for, with a dash of \"icon 3 congrats\" an",
       "_profileAtCount": 765,
       "loyalty": {
@@ -2647,8 +2647,8 @@
       },
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
-      "lastStreamInfo": "Dropping in to Teardrop — Off The Grid",
-      "lastStreamEndedAt": 1785624952825,
+      "lastStreamInfo": "Off The Grid — Off The Grid",
+      "lastStreamEndedAt": 1785876912198,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule"
     },
@@ -3542,8 +3542,8 @@
       "stats": {
         "totalVotes": 4681,
         "totalSubs": 17,
-        "totalChatMessages": 573,
-        "totalStreamMinutes": 2534,
+        "totalChatMessages": 574,
+        "totalStreamMinutes": 2544,
         "emotes": {
           "❤": 30,
           "🙌": 32,
@@ -3556,8 +3556,8 @@
           "🤝": 2,
           "🥲": 2,
           "🗳": 114,
-          "🔴": 19,
-          "🎉": 39,
+          "🔴": 20,
+          "🎉": 40,
           "🚨": 42,
           "📴": 19,
           "👋": 31,
@@ -3639,13 +3639,9 @@
           "😀": "😀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785796759772
+        "lastChatAt": 1785876941025
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "ty ty for the support .. means a lot"
-        },
         {
           "user": "fluffy",
           "msg": "Hey @vitrene"
@@ -3681,6 +3677,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 vitrene is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -3693,7 +3693,7 @@
       "botVip": true,
       "profile": "Vitrene's community is a lively bunch of gamers who love to \"Goat!\" each other's achievements. They frequently use \"🔴 VOTE ALERT!! 🗳️\" to celebrate milestones and appreciate votes. Expect \"VIT 🔥🔥\", \"$VIT Always Wins!\", \"ggs\", and \"💃💃💃\" to dance with. They're passionate about Halo and Star Wars, often referencing the Covenant, the Flood, and Spartans. They bid farewell with \"have a great stream as well!\" and \"have an awesome night/day!\".",
       "_profileAtCount": 568,
-      "streamTitle": "",
+      "streamTitle": "Gigs, Gigs, Gigs 💰  | Star Wars Outlaws — Star Wars Outlaw",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -4457,14 +4457,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 4876,
-        "totalSubs": 16,
-        "totalChatMessages": 3850,
-        "totalStreamMinutes": 2859,
+        "totalSubs": 17,
+        "totalChatMessages": 3907,
+        "totalStreamMinutes": 2879,
         "emotes": {
           "🧏": 1,
           "♂": 1,
           "👀": 25,
-          "🔥": 245,
+          "🔥": 247,
           "🙃": 4,
           "😛": 2,
           "🤭": 2,
@@ -4472,10 +4472,10 @@
           "😭": 16,
           "🤣": 261,
           "👋": 12,
-          "❤": 68,
+          "❤": 69,
           "😆": 10,
           "😂": 39,
-          "🤘": 105,
+          "🤘": 110,
           "🎵": 5,
           "💀": 4,
           "💜": 9,
@@ -4496,7 +4496,7 @@
           "💃": 16,
           "🎉": 22,
           "🥰": 13,
-          "😊": 6,
+          "😊": 7,
           "👍": 3,
           "🙌": 33,
           "🤩": 1,
@@ -4505,7 +4505,7 @@
           "😎": 3,
           "🐠": 1,
           "🕺": 5,
-          "🎸": 4,
+          "🎸": 6,
           "😘": 3,
           "😍": 10,
           "😀": 1,
@@ -4547,15 +4547,18 @@
           "🍸": 2,
           "🍻": 7,
           "💔": 2,
-          "🤔": 2,
+          "🤔": 3,
           "🙏": 1,
           "🫶": 3,
           "💛": 3,
           "🐷": 3,
           "🦁": 3,
-          "😢": 1,
+          "😢": 2,
           "💪": 1,
-          "☺": 3
+          "☺": 3,
+          "😜": 1,
+          "💚": 2,
+          "🤓": 2
         },
         "emoteNames": {
           "🧏": "🧏",
@@ -4652,51 +4655,54 @@
           "🦁": "🦁",
           "😢": "😢",
           "💪": "💪",
-          "☺": "☺"
+          "☺": "☺",
+          "😜": "😜",
+          "💚": "💚",
+          "🤓": "🤓"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785876395752
+        "lastChatAt": 1785877597178
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "yesssir"
+          "user": "mavomusic",
+          "msg": "🔥🤘"
         },
         {
           "user": "briggsy",
-          "msg": "I get the 'working' thing @MAVOmusic"
+          "msg": "haha"
         },
         {
           "user": "briggsy",
-          "msg": "zactly"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Bidlo ain't going nowhere"
+          "msg": "Jimi"
         },
         {
           "user": "mavomusic",
-          "msg": "Life just lifeing. 5 days 12 hours per week just got me so no energy to do anything."
+          "msg": "W"
         },
         {
           "user": "briggsy",
-          "msg": "Oh shiii"
+          "msg": "nice man"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Grind those teeth off"
+        },
+        {
+          "user": "time",
+          "msg": "Awesome"
         },
         {
           "user": "mavomusic",
-          "msg": "Make sure to send me the version you liked so i can use as sample"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Damn, you got me beat Mavo"
-        },
-        {
-          "user": "briggsy",
-          "msg": "T/hat's brutal"
+          "msg": ":p"
         },
         {
           "user": "mavomusic",
-          "msg": "Sleep, work, sometimes eat, sometime stream, repeat"
+          "msg": "💚"
+        },
+        {
+          "user": "mavomusic",
+          "msg": "@blazeian_bot_ai Monday? 🤓"
         }
       ],
       "customCommands": {},
@@ -7051,7 +7057,7 @@
         "totalVotes": 1540,
         "totalSubs": 5,
         "totalChatMessages": 301,
-        "totalStreamMinutes": 1874,
+        "totalStreamMinutes": 1894,
         "emotes": {
           "❤": 22,
           "🙌": 11,
@@ -7190,8 +7196,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 179,
-        "totalStreamMinutes": 1140,
+        "totalChatMessages": 180,
+        "totalStreamMinutes": 1160,
         "emotes": {
           "❤": 10,
           "🙌": 5,
@@ -7217,13 +7223,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785873279709
+        "lastChatAt": 1785877589054
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ blueesouull just followed the channel! Welcome!! 🙌"
@@ -7259,6 +7261,10 @@
         {
           "user": "xeukuxaixang",
           "msg": "Idk ;("
+        },
+        {
+          "user": "destinoprospero",
+          "msg": "booora xai xang"
         }
       ],
       "customCommands": {},
