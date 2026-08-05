@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5885,
         "totalSubs": 13,
-        "totalChatMessages": 8360,
+        "totalChatMessages": 8362,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
@@ -900,7 +900,7 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785930085866,
+        "lastChatAt": 1785930346370,
         "sendFailStreak": 10,
         "lastSendFailAt": 1785918859489,
         "lastSendFailReason": "You are banned from this channel."
@@ -908,6 +908,18 @@
       "chatMemory": [
         {
           "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
+        },
+        {
+          "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
         },
         {
@@ -933,18 +945,6 @@
         {
           "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
-          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
         }
       ],
       "customCommands": {},
@@ -991,8 +991,8 @@
       "stats": {
         "totalVotes": 4062,
         "totalSubs": 65,
-        "totalChatMessages": 1779,
-        "totalStreamMinutes": 6569,
+        "totalChatMessages": 1781,
+        "totalStreamMinutes": 6574,
         "emotes": {
           "📊": 3,
           "🔥": 180,
@@ -1198,17 +1198,9 @@
           "🍺": "🍺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785929390823
+        "lastChatAt": 1785930377441
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "GM Zani"
-        },
-        {
-          "user": "brachial513",
-          "msg": "GM my G"
-        },
         {
           "user": "pillow",
           "msg": "Gm ☕"
@@ -1240,6 +1232,14 @@
         {
           "user": "foxbotai",
           "msg": "RAID LOVE! Huge thanks to @K1NGBRE4KER for bringing the community over. +250 FoxCoins. Balance: 550 FoxCoins."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Ty for the raids!!!"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "RAID LOVE! Huge thanks to @crypt0k1ng96 for bringing the community over. +250 FoxCoins. Balance: 1378 FoxCoins. Lucky Bonus: @crypt0k1ng96 found a Golden Fox Chest and earned +150 FoxCoins. Balance: 1528 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -8685,8 +8685,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785889129402,
   "auth": {
-    "accessToken": "47194f6e23aa91bccac908000396da15",
-    "refreshToken": "06e2f8f317ef72b59795c6e5b4c3494a",
+    "accessToken": "9fbe3fe2f1e9aa2c0189ef1fb021b436",
+    "refreshToken": "2f42580a83d5bd61f6e8c8f882062164",
     "sessionToken": "fc65914f08f00fbd0a967b09915e4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
