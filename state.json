@@ -2698,14 +2698,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 7366,
-        "totalSubs": 25,
-        "totalChatMessages": 4458,
+        "totalVotes": 7445,
+        "totalSubs": 26,
+        "totalChatMessages": 4460,
         "totalStreamMinutes": 3632,
         "emotes": {
           "❤": 102,
-          "🙌": 179,
-          "🗳": 588,
+          "🙌": 180,
+          "🗳": 591,
           "✌": 3,
           "😊": 9,
           "👍": 8,
@@ -2716,7 +2716,7 @@
           "⚡": 32,
           "😂": 67,
           "😍": 23,
-          "🔥": 140,
+          "🔥": 142,
           "😎": 5,
           "😁": 18,
           "😄": 20,
@@ -2941,17 +2941,9 @@
           "😃": "😃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785939333101
+        "lastChatAt": 1785964504399
       },
       "chatMemory": [
-        {
-          "user": "xeukuxaixang",
-          "msg": "Nice"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "You're playing and reading"
-        },
         {
           "user": "xeukuxaixang",
           "msg": "Nice"
@@ -2983,6 +2975,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @Desirablebottom to the channel! Thank you so much for subscribing! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 79 vote(s) (total: 105)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -3025,6 +3025,11 @@
         },
         "johngalt": {
           "name": "johngalt",
+          "months": 1,
+          "tier": 1
+        },
+        "desirablebottom": {
+          "name": "desirablebottom",
           "months": 1,
           "tier": 1
         }
@@ -3383,7 +3388,7 @@
         "totalVotes": 3076,
         "totalSubs": 55,
         "totalChatMessages": 333,
-        "totalStreamMinutes": 6819,
+        "totalStreamMinutes": 6839,
         "emotes": {
           "❤": 76,
           "🙌": 24,
@@ -3577,7 +3582,7 @@
         "totalVotes": 5261,
         "totalSubs": 20,
         "totalChatMessages": 640,
-        "totalStreamMinutes": 2730,
+        "totalStreamMinutes": 2750,
         "emotes": {
           "❤": 32,
           "🙌": 35,
@@ -5569,7 +5574,7 @@
         "totalVotes": 2330,
         "totalSubs": 22,
         "totalChatMessages": 939,
-        "totalStreamMinutes": 1724,
+        "totalStreamMinutes": 1744,
         "emotes": {
           "❤": 86,
           "🙌": 65,
@@ -7140,7 +7145,7 @@
         "totalVotes": 1691,
         "totalSubs": 7,
         "totalChatMessages": 367,
-        "totalStreamMinutes": 2262,
+        "totalStreamMinutes": 2282,
         "emotes": {
           "❤": 24,
           "🙌": 15,
@@ -8156,7 +8161,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 41,
-        "totalStreamMinutes": 132,
+        "totalStreamMinutes": 152,
         "emotes": {
           "💚": 1
         },
@@ -8233,7 +8238,9 @@
           "months": 1,
           "tier": 1
         }
-      }
+      },
+      "profile": "Clutchking's squad is a lively bunch, always hyping up the Nations SMP Minecraft streams with \"Clutch!\" and \"Good bud.\" We're a community that loves speedrunning, kelp farming, and nostalgic gaming memories. We're all about that \"Clutch\" life, where we \"Yoo\" each other up and celebrate good times with homemade treats.",
+      "_profileAtCount": 41
     }
   },
   "blocklist": [
