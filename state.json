@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5875,
         "totalSubs": 13,
-        "totalChatMessages": 8152,
+        "totalChatMessages": 8155,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
@@ -900,7 +900,7 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785902998173,
+        "lastChatAt": 1785903385360,
         "sendFailStreak": 9,
         "lastSendFailAt": 1785893430020,
         "lastSendFailReason": "You are banned from this channel."
@@ -908,18 +908,6 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
-          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
-        },
-        {
-          "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
         },
         {
@@ -945,6 +933,18 @@
         {
           "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
         }
       ],
       "customCommands": {},
@@ -5728,8 +5728,8 @@
       "stats": {
         "totalVotes": 4533,
         "totalSubs": 28,
-        "totalChatMessages": 589,
-        "totalStreamMinutes": 3398,
+        "totalChatMessages": 590,
+        "totalStreamMinutes": 3403,
         "emotes": {
           "❤": 23,
           "🙌": 40,
@@ -5787,13 +5787,9 @@
           "☕": "☕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785903094304
+        "lastChatAt": 1785903129817
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @wayfinders just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @wapi! How generous!! 🙌"
@@ -5829,6 +5825,10 @@
         {
           "user": "briggsy",
           "msg": "Hey @faithy_ buddy"
+        },
+        {
+          "user": "briggsy",
+          "msg": "all is well, Faithy"
         }
       ],
       "customCommands": {},
@@ -8657,8 +8657,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785889129402,
   "auth": {
-    "accessToken": "1ac3d9626cd31b0d3b18a3264821d6c6",
-    "refreshToken": "0050c05c13a337cb1a0ef553bf958e64",
+    "accessToken": "69a2751109e13a3cf0ed922ec2f589a1",
+    "refreshToken": "48c1a704bbbfa80661a9bee97360e93e",
     "sessionToken": "fc65914f08f00fbd0a967b09915e4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
