@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5875,
         "totalSubs": 13,
-        "totalChatMessages": 8107,
+        "totalChatMessages": 8113,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
@@ -900,7 +900,7 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785897165106,
+        "lastChatAt": 1785897941574,
         "sendFailStreak": 9,
         "lastSendFailAt": 1785893430020,
         "lastSendFailReason": "You are banned from this channel."
@@ -908,10 +908,6 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
         },
         {
@@ -941,6 +937,10 @@
         {
           "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
         },
         {
           "user": "botger",
@@ -2069,10 +2069,10 @@
       "username": "capt_rob_advent",
       "language": "en",
       "stats": {
-        "totalVotes": 2552,
+        "totalVotes": 2617,
         "totalSubs": 35,
-        "totalChatMessages": 1140,
-        "totalStreamMinutes": 6942,
+        "totalChatMessages": 1142,
+        "totalStreamMinutes": 6956,
         "emotes": {
           "😊": 3,
           "🌵": 79,
@@ -2276,17 +2276,9 @@
           "🥂": "🥂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785893810581
+        "lastChatAt": 1785897836428
       },
       "chatMemory": [
-        {
-          "user": "cactus_jack440",
-          "msg": "Hell yeah"
-        },
-        {
-          "user": "cactus_jack440",
-          "msg": "🌵🔥🌵"
-        },
         {
           "user": "cactus_jack440",
           "msg": "yes"
@@ -2318,6 +2310,14 @@
         {
           "user": "dooky_creek",
           "msg": "Oh ok just making sure it wasnt a shorting out extention cord lol"
+        },
+        {
+          "user": "future42",
+          "msg": "Hey Capt"
+        },
+        {
+          "user": "steadyember",
+          "msg": ":)"
         }
       ],
       "customCommands": {},
@@ -2688,11 +2688,11 @@
       "stats": {
         "totalVotes": 7353,
         "totalSubs": 25,
-        "totalChatMessages": 4454,
-        "totalStreamMinutes": 3630,
+        "totalChatMessages": 4455,
+        "totalStreamMinutes": 3632,
         "emotes": {
           "❤": 102,
-          "🙌": 178,
+          "🙌": 179,
           "🗳": 585,
           "✌": 3,
           "😊": 9,
@@ -2927,13 +2927,9 @@
           "🤤": "🤤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785896934851
+        "lastChatAt": 1785897354212
       },
       "chatMemory": [
-        {
-          "user": "xeukuxaixang",
-          "msg": "Oh"
-        },
         {
           "user": "xeukuxaixang",
           "msg": "You have appstore"
@@ -2969,6 +2965,10 @@
         {
           "user": "briggsy",
           "msg": "Thanks Xeu"
+        },
+        {
+          "user": "botger",
+          "msg": "Appreciate your time.  Cheers and catchya next time. 🙌"
         }
       ],
       "customCommands": {},
@@ -2978,7 +2978,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "Otherside event: Chaos Trials w/Dino — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Briggsy's community is a vibrant, supportive space where \"Epoch Flip Day\" fun and \"Farlight 84\" shenanigans reign supreme, with \"heeeeeyaaaa\" greetings, \"🥰🥰🥰\" enthusiasm, and \"💃💃💃\" celebrations. They live for \"Reds\" and \"BLAZE DEFI\" buzz, welcoming new followers with ❤️, celebrating with \"it's good\" affirmations, \"Always if I'm here, it's my pleasure\" vibes, and \"u want it\" affirmations. They love Fortnite, Unreal Engine, and \"heeeeeyaaaa\" moments, often referencing \"Fartvader\" and \"Trizva",
       "_profileAtCount": 4365,
@@ -3017,8 +3017,8 @@
       },
       "nudgedAt": 1785051188620,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "Late night hang - some fortnite w/Triz — Fortnite",
-      "lastStreamEndedAt": 1785886761792
+      "lastStreamInfo": "Otherside event: Chaos Trials w/Dino — Crypto",
+      "lastStreamEndedAt": 1785897348981
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -3180,16 +3180,16 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 4329,
+        "totalVotes": 4454,
         "totalSubs": 8,
-        "totalChatMessages": 2031,
-        "totalStreamMinutes": 5124,
+        "totalChatMessages": 2086,
+        "totalStreamMinutes": 5138,
         "emotes": {
           "❤": 24,
           "🙌": 39,
-          "🗳": 273,
+          "🗳": 282,
           "🔴": 32,
-          "🎉": 52,
+          "🎉": 53,
           "📴": 30,
           "👋": 33,
           "🔥": 77,
@@ -3197,7 +3197,7 @@
           "🤖": 1,
           "💚": 6,
           "🤣": 8,
-          "🚨": 120,
+          "🚨": 126,
           "😎": 3,
           "😅": 4,
           "😆": 29,
@@ -3208,7 +3208,7 @@
           "😄": 4,
           "😁": 8,
           "😊": 1,
-          "👀": 40,
+          "👀": 41,
           "👁": 5,
           "🥰": 10,
           "👑": 4,
@@ -3282,49 +3282,49 @@
           "‼": "‼",
           "👍": "👍"
         },
-        "lastChatAt": 1785891490001,
+        "lastChatAt": 1785897993699,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "triz_draw",
-          "msg": "🙌🙌🥰🥰🥰"
+          "user": "briggsy",
+          "msg": "Nadie the Sagie"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @senseibulrog!"
+          "user": "briggsy",
+          "msg": "haha"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @senseibulrog just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+          "user": "future42",
+          "msg": "Gonna go check stream real quick and then crash"
         },
         {
-          "user": "senseibulrog",
-          "msg": "i saw backstage voting rewards sent out, did creator rewards get sent out yet?"
+          "user": "future42",
+          "msg": "get some rest buddy"
         },
         {
-          "user": "senseibulrog",
-          "msg": "there you go, that sounds like a good time!"
+          "user": "briggsy",
+          "msg": "Thanks buddy"
         },
         {
-          "user": "senseibulrog",
-          "msg": "oh dang, didn't even know i was gettin added LUL"
+          "user": "future42",
+          "msg": "you look a bit tired"
         },
         {
-          "user": "senseibulrog",
-          "msg": "they'll get there LUL"
+          "user": "briggsy",
+          "msg": "GN @Future42 man"
         },
         {
-          "user": "senseibulrog",
-          "msg": "it's been wednesday or thursday for a while, at least it comes eventually LUL"
+          "user": "future42",
+          "msg": "see  ya briggsy"
         },
         {
-          "user": "senseibulrog",
-          "msg": "nice, that sounds awesome!"
+          "user": "briggsy",
+          "msg": "see ya"
         },
         {
-          "user": "senseibulrog",
-          "msg": "exactly, slow and steady wins the race!"
+          "user": "briggsy",
+          "msg": "oh, a mini game"
         }
       ],
       "customCommands": {},
@@ -5726,16 +5726,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 4513,
-        "totalSubs": 27,
-        "totalChatMessages": 583,
-        "totalStreamMinutes": 3300,
+        "totalVotes": 4533,
+        "totalSubs": 28,
+        "totalChatMessages": 587,
+        "totalStreamMinutes": 3313,
         "emotes": {
           "❤": 23,
-          "🙌": 39,
+          "🙌": 40,
           "💚": 2,
           "🔥": 22,
-          "🗳": 204,
+          "🗳": 207,
           "🔴": 32,
           "🎉": 39,
           "📴": 31,
@@ -5752,7 +5752,7 @@
           "✌": 2,
           "☺": 1,
           "👍": 1,
-          "🎁": 50,
+          "🎁": 52,
           "😶": 6,
           "🌫": 6,
           "😍": 4,
@@ -5787,25 +5787,9 @@
           "☕": "☕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785893118149
+        "lastChatAt": 1785897738776
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "happy streaming! 🔥🔥🔥"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "@faithy_"
-        },
-        {
-          "user": "faithy_",
-          "msg": "gn gn"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -5829,6 +5813,22 @@
         {
           "user": "faithy_",
           "msg": "Grinding All Day this week for Palworld Blaze! Thank you for all support!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @capt_rob_advent! How generous!! 🙌"
+        },
+        {
+          "user": "faithy_",
+          "msg": "thank you for support !"
+        },
+        {
+          "user": "capt_rob_advent",
+          "msg": "Thank you for the gifted sub"
         }
       ],
       "customCommands": {},
@@ -6045,7 +6045,7 @@
         "totalVotes": 1738,
         "totalSubs": 5,
         "totalChatMessages": 52,
-        "totalStreamMinutes": 1316,
+        "totalStreamMinutes": 1329,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -8657,8 +8657,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785889129402,
   "auth": {
-    "accessToken": "665ecf681dccda414facbfa87efd2d82",
-    "refreshToken": "6dcca77b20a9f849fe1cd40be422b01e",
+    "accessToken": "7a8fa1fa27d7dbbbc3a30dfa6bba6663",
+    "refreshToken": "7f28b0a728e916921903dcf9e370349d",
     "sessionToken": "fc65914f08f00fbd0a967b09915e4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
