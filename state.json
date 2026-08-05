@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5875,
         "totalSubs": 13,
-        "totalChatMessages": 8256,
+        "totalChatMessages": 8258,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
@@ -900,7 +900,7 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785916517008,
+        "lastChatAt": 1785916777689,
         "sendFailStreak": 9,
         "lastSendFailAt": 1785893430020,
         "lastSendFailReason": "You are banned from this channel."
@@ -912,14 +912,6 @@
         },
         {
           "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
           "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
         },
         {
@@ -945,6 +937,14 @@
         {
           "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
         }
       ],
       "customCommands": {},
@@ -992,7 +992,7 @@
         "totalVotes": 4062,
         "totalSubs": 64,
         "totalChatMessages": 1768,
-        "totalStreamMinutes": 6344,
+        "totalStreamMinutes": 6349,
         "emotes": {
           "📊": 3,
           "🔥": 179,
@@ -8679,8 +8679,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785889129402,
   "auth": {
-    "accessToken": "7c6170308286f19df48a5869b05e7e97",
-    "refreshToken": "34c232235520408dfc81141914c64afd",
+    "accessToken": "9f42e921566878dcacb8ca512e8b63c8",
+    "refreshToken": "5b57bca97a1234b0fe6b5795741ac5d4",
     "sessionToken": "fc65914f08f00fbd0a967b09915e4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
