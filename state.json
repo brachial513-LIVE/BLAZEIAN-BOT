@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5888,
         "totalSubs": 13,
-        "totalChatMessages": 8419,
+        "totalChatMessages": 8420,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
@@ -900,7 +900,7 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785938118442,
+        "lastChatAt": 1785938313568,
         "sendFailStreak": 11,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel."
@@ -908,10 +908,6 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
-        },
-        {
-          "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
         },
         {
@@ -945,6 +941,10 @@
         {
           "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
         }
       ],
       "customCommands": {},
@@ -992,7 +992,7 @@
         "totalVotes": 4064,
         "totalSubs": 66,
         "totalChatMessages": 1806,
-        "totalStreamMinutes": 6704,
+        "totalStreamMinutes": 6709,
         "emotes": {
           "📊": 3,
           "🔥": 182,
@@ -5735,7 +5735,7 @@
         "totalVotes": 4566,
         "totalSubs": 31,
         "totalChatMessages": 626,
-        "totalStreamMinutes": 3802,
+        "totalStreamMinutes": 3807,
         "emotes": {
           "❤": 25,
           "🙌": 44,
@@ -6134,7 +6134,7 @@
         "totalVotes": 4634,
         "totalSubs": 10,
         "totalChatMessages": 438,
-        "totalStreamMinutes": 540,
+        "totalStreamMinutes": 545,
         "emotes": {
           "😂": 14,
           "💪": 2,
@@ -7834,7 +7834,7 @@
         "totalVotes": 98,
         "totalSubs": 0,
         "totalChatMessages": 43,
-        "totalStreamMinutes": 335,
+        "totalStreamMinutes": 340,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -8692,8 +8692,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785889129402,
   "auth": {
-    "accessToken": "a0be9da4ca74049604f1cf0e66493f1d",
-    "refreshToken": "710d217c2b47615013d65ed9aff86e8e",
+    "accessToken": "42ec239f2b54d585fa9b3bcec5e7f529",
+    "refreshToken": "d9193c51c8d398cafe26d02bfe81f77b",
     "sessionToken": "f795f50b9381aaf844aa491ccd832930",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
