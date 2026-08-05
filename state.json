@@ -768,10 +768,10 @@
       "stats": {
         "totalVotes": 5825,
         "totalSubs": 13,
-        "totalChatMessages": 7571,
-        "totalStreamMinutes": 1172,
+        "totalChatMessages": 7599,
+        "totalStreamMinutes": 1177,
         "emotes": {
-          "🔥": 409,
+          "🔥": 410,
           "🗳": 14,
           "🔴": 21,
           "🎉": 73,
@@ -823,8 +823,8 @@
           "✌": 1,
           "☺": 1,
           "👍": 1,
-          "🥔": 327,
-          "🔄": 133,
+          "🥔": 328,
+          "🔄": 135,
           "🤖": 44,
           "😏": 4,
           "❌": 1,
@@ -900,51 +900,51 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785892251408,
-        "sendFailStreak": 2,
-        "lastSendFailAt": 1785887779688,
+        "lastChatAt": 1785892591410,
+        "sendFailStreak": 4,
+        "lastSendFailAt": 1785892591918,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
         {
+          "user": "xeukuxaixang",
+          "msg": "test"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "test2"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "crazy"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "holy shit"
+        },
+        {
           "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
         },
         {
-          "user": "xeukuxaixang",
-          "msg": "lol"
+          "user": "blazegames_bot",
+          "msg": "Usage: !switch"
         },
         {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 switched to female body, future head! 🔄"
         },
         {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+          "user": "blazegames_bot",
+          "msg": "Usage: !switch"
         },
         {
-          "user": "xeukuxaixang",
-          "msg": "aaaaaaaaaaaaaaaaa"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "lol"
+          "user": "blazegames_bot",
+          "msg": "@xeukuxaixang switched to female body, octo head! 🔄"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "never"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "lol"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "🤣🤣🤣🤣🤣🤣🤣🤣"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "make the background transparent"
+          "msg": "octo head lol"
         }
       ],
       "customCommands": {},
@@ -2071,8 +2071,8 @@
       "stats": {
         "totalVotes": 2502,
         "totalSubs": 35,
-        "totalChatMessages": 1132,
-        "totalStreamMinutes": 6861,
+        "totalChatMessages": 1133,
+        "totalStreamMinutes": 6866,
         "emotes": {
           "😊": 3,
           "🌵": 79,
@@ -2276,13 +2276,9 @@
           "🥂": "🥂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785892190351
+        "lastChatAt": 1785892321809
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Tom Jones is still performing? 😁😁"
-        },
         {
           "user": "cactus_jack440",
           "msg": "gone"
@@ -2318,6 +2314,10 @@
         {
           "user": "cactus_jack440",
           "msg": "🌵🔥🌵"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "yes"
         }
       ],
       "customCommands": {},
@@ -2688,8 +2688,8 @@
       "stats": {
         "totalVotes": 7236,
         "totalSubs": 25,
-        "totalChatMessages": 4376,
-        "totalStreamMinutes": 3548,
+        "totalChatMessages": 4379,
+        "totalStreamMinutes": 3553,
         "emotes": {
           "❤": 102,
           "🙌": 178,
@@ -2927,21 +2927,9 @@
           "🤤": "🤤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785891655049
+        "lastChatAt": 1785892462836
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Welcome, welcome, briggsy is attempting to go live."
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @DofferLive is raiding with a party of 4! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "briggsy",
-          "msg": "No waaay"
-        },
         {
           "user": "briggsy",
           "msg": "Thank you kindly"
@@ -2969,6 +2957,18 @@
         {
           "user": "briggsy",
           "msg": "Fun fun"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "dance time"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Triz, join Mackiveli bubble"
+        },
+        {
+          "user": "briggsy",
+          "msg": "unless you did already"
         }
       ],
       "customCommands": {},
@@ -3183,7 +3183,7 @@
         "totalVotes": 4329,
         "totalSubs": 8,
         "totalChatMessages": 2031,
-        "totalStreamMinutes": 5043,
+        "totalStreamMinutes": 5048,
         "emotes": {
           "❤": 24,
           "🙌": 39,
@@ -6045,7 +6045,7 @@
         "totalVotes": 1738,
         "totalSubs": 5,
         "totalChatMessages": 50,
-        "totalStreamMinutes": 1235,
+        "totalStreamMinutes": 1240,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -6831,8 +6831,8 @@
       "stats": {
         "totalVotes": 3948,
         "totalSubs": 0,
-        "totalChatMessages": 7991,
-        "totalStreamMinutes": 2564,
+        "totalChatMessages": 7997,
+        "totalStreamMinutes": 2569,
         "emotes": {
           "❤": 19,
           "🙌": 16,
@@ -7030,29 +7030,9 @@
           "🚀": "🚀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785892282203
+        "lastChatAt": 1785892514421
       },
       "chatMemory": [
-        {
-          "user": "pandora",
-          "msg": "boa noite"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Kkkkkkk"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "2 é"
-        },
-        {
-          "user": "junior7_",
-          "msg": "2"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Eita"
-        },
         {
           "user": "lucas93925052",
           "msg": "Agora ficou fácil 9 só"
@@ -7072,6 +7052,26 @@
         {
           "user": "lovemikami",
           "msg": "só assim pro fraco time do santos ganhar né"
+        },
+        {
+          "user": "pandora",
+          "msg": "quem joga no teclado é um gênio mal compreendido"
+        },
+        {
+          "user": "pandora",
+          "msg": "neyminhoca kj"
+        },
+        {
+          "user": "lucas93925052",
+          "msg": "Kkkkkkk"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "sigma é kaizo em qualquer mega man kkkkkkkk não gosto desse cara"
+        },
+        {
+          "user": "pandora",
+          "msg": "lovemikami sua foto do perfil tem movimento?"
         }
       ],
       "customCommands": {},
@@ -8110,7 +8110,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 5,
-        "totalStreamMinutes": 19,
+        "totalStreamMinutes": 24,
         "emotes": {
           "💚": 1
         },
@@ -8630,8 +8630,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785889129402,
   "auth": {
-    "accessToken": "b8b9fdf9e6d6e41d39c5c97c47791d88",
-    "refreshToken": "48e3956954d2f8f65800b40912e7d8c3",
+    "accessToken": "aae0db252d0a939917c4a81fb2eeb119",
+    "refreshToken": "9b666dd99713933bfa257340c4e0f1bf",
     "sessionToken": "fc65914f08f00fbd0a967b09915e4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
