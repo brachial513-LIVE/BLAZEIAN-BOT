@@ -3388,7 +3388,7 @@
         "totalVotes": 3076,
         "totalSubs": 55,
         "totalChatMessages": 333,
-        "totalStreamMinutes": 6844,
+        "totalStreamMinutes": 6851,
         "emotes": {
           "❤": 76,
           "🙌": 24,
@@ -3582,7 +3582,7 @@
         "totalVotes": 5261,
         "totalSubs": 20,
         "totalChatMessages": 640,
-        "totalStreamMinutes": 2755,
+        "totalStreamMinutes": 2761,
         "emotes": {
           "❤": 32,
           "🙌": 35,
@@ -5035,7 +5035,7 @@
         "totalVotes": 2322,
         "totalSubs": 71,
         "totalChatMessages": 237,
-        "totalStreamMinutes": 1288,
+        "totalStreamMinutes": 1294,
         "emotes": {
           "❤": 13,
           "🙌": 77,
@@ -5573,18 +5573,18 @@
       "stats": {
         "totalVotes": 2330,
         "totalSubs": 22,
-        "totalChatMessages": 939,
+        "totalChatMessages": 941,
         "totalStreamMinutes": 1749,
         "emotes": {
           "❤": 86,
           "🙌": 65,
           "🔴": 17,
           "🎉": 22,
-          "👋": 42,
+          "👋": 43,
           "👀": 14,
           "😱": 1,
           "😅": 5,
-          "📴": 16,
+          "📴": 17,
           "✌": 4,
           "☺": 3,
           "👍": 3,
@@ -5676,17 +5676,9 @@
           "😊": "😊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785962142330
+        "lastChatAt": 1785965529925
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "Or read"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "I just wanna be jeff"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -5718,6 +5710,14 @@
         {
           "user": "s1lent2193",
           "msg": "👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5730,7 +5730,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d42d19f-d21c-4ab4-be64-cb54d3f85210-profile_image-300x300.png",
-      "streamTitle": "[UK] #19 HUMP DAY!!!!! - ADHD - POWERED BY - ASK ME ANYTHING — Dota 2",
+      "streamTitle": "",
       "profile": "Channel: parky\nA cheeky, ADHD-powered community vibes on Sundays with Dota 2, fueled by 'CHEEKY SUNDAY NIGHT' energy and 'MAKE LOVE NOT WARCRRAFT' vibes. Expect 'LOVE FESTS' and 'SUNDAY FUNDAY' celebrations after wins, 'ASK ME ANYTHING' shenanigans, and 'LURK A BIT' before jumping into action. Powered by passion, we 'MAKE LOVE NOT WARCRRAFT'.",
       "_profileAtCount": 933,
       "gameOverride": "",
@@ -5743,8 +5743,8 @@
       },
       "nudgedAt": 1785010054808,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "[UK] #18 BEST TUESDAY EVEEEEERRRRRRR - ADHD - POWERED BY - ASK ME ANYTHING — Dota 2",
-      "lastStreamEndedAt": 1785885015436
+      "lastStreamInfo": "[UK] #19 HUMP DAY!!!!! - ADHD - POWERED BY - ASK ME ANYTHING — Dota 2",
+      "lastStreamEndedAt": 1785965524029
     },
     "29f46bc6-a11d-4529-b90b-8fc9f13b7491": {
       "username": "faithy_",
@@ -7145,7 +7145,7 @@
         "totalVotes": 1691,
         "totalSubs": 7,
         "totalChatMessages": 367,
-        "totalStreamMinutes": 2287,
+        "totalStreamMinutes": 2293,
         "emotes": {
           "❤": 24,
           "🙌": 15,
@@ -8160,8 +8160,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 2,
-        "totalChatMessages": 41,
-        "totalStreamMinutes": 157,
+        "totalChatMessages": 42,
+        "totalStreamMinutes": 163,
         "emotes": {
           "💚": 1
         },
@@ -8169,13 +8169,9 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785962369281
+        "lastChatAt": 1785965562831
       },
       "chatMemory": [
-        {
-          "user": "mindgoblin",
-          "msg": "whos your fav minecraft youtuber"
-        },
         {
           "user": "clutchking",
           "msg": "wemmbu"
@@ -8211,6 +8207,10 @@
         {
           "user": "mindgoblin",
           "msg": "brb i gotta head to meet a friend whos bringing me some hommeade Tamales lol"
+        },
+        {
+          "user": "clutchking",
+          "msg": "brb chat"
         }
       ],
       "customCommands": {},
@@ -8336,9 +8336,9 @@
       "n": 3
     },
     "mindgoblin": {
-      "note": "They enjoy playing games with friends, have a casual and humorous tone, and likely participate in competitive multiplayer settings.",
-      "at": 1785312076315,
-      "n": 3
+      "note": "They enjoy playing games with friends, particularly Minecraft and competitive multiplayer settings, and have a casual and humorous tone.",
+      "at": 1785965557765,
+      "n": 4
     },
     "loboblanco": {
       "note": "They enjoy playing Left 4 Dead, have a sense of humor, and are enthusiastic about gaming, often making light of gaming-related issues.",
@@ -8740,8 +8740,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785956432213,
   "auth": {
-    "accessToken": "209a43b450b457b2b72579494b1787fe",
-    "refreshToken": "2047f39a301ae884c3797ea40cc4875a",
+    "accessToken": "f495e7dee3d480b722faf11cdaea28d2",
+    "refreshToken": "b2925d5cd6f82ecf3aa5ca059b400eb5",
     "sessionToken": "f795f50b9381aaf844aa491ccd832930",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
