@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5825,
         "totalSubs": 13,
-        "totalChatMessages": 7529,
+        "totalChatMessages": 7535,
         "totalStreamMinutes": 1162,
         "emotes": {
           "🔥": 409,
@@ -900,7 +900,7 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785888294776,
+        "lastChatAt": 1785889076177,
         "sendFailStreak": 2,
         "lastSendFailAt": 1785887779688,
         "lastSendFailReason": "You are banned from this channel."
@@ -928,10 +928,6 @@
         },
         {
           "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
         },
         {
@@ -945,6 +941,10 @@
         {
           "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
         }
       ],
       "customCommands": {},
@@ -2069,7 +2069,7 @@
       "username": "capt_rob_advent",
       "language": "en",
       "stats": {
-        "totalVotes": 2499,
+        "totalVotes": 2502,
         "totalSubs": 35,
         "totalChatMessages": 1131,
         "totalStreamMinutes": 6856,
@@ -3182,14 +3182,14 @@
       "stats": {
         "totalVotes": 4290,
         "totalSubs": 8,
-        "totalChatMessages": 1911,
-        "totalStreamMinutes": 4983,
+        "totalChatMessages": 1913,
+        "totalStreamMinutes": 4990,
         "emotes": {
           "❤": 24,
           "🙌": 37,
           "🗳": 261,
-          "🔴": 31,
-          "🎉": 51,
+          "🔴": 32,
+          "🎉": 52,
           "📴": 30,
           "👋": 33,
           "🔥": 77,
@@ -3270,18 +3270,10 @@
           "😌": "😌",
           "😀": "😀"
         },
-        "lastChatAt": 1785812671031,
+        "lastChatAt": 1785888690065,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "bidloperv",
-          "msg": "well you are still doing better than i would"
-        },
-        {
-          "user": "bidloperv",
-          "msg": "that sucks"
-        },
         {
           "user": "bidloperv",
           "msg": "jesees"
@@ -3313,6 +3305,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -3321,7 +3321,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "❤️WuWa Tuesday!❤️ — Wuthering Waves",
       "profile": "We're a chill gaming community loving Path of Exile 2 and Dota. Expect \"Blazeee\" vibes, \"Will be relax day\" shenanigans, and \"VOTE ALERT!!\" celebrations. We \"pull a roshi,\" get \"drained\" in the best way, and enjoy \"Love fest!\" moments. Our community loves \"6969\" jokes, \"Let's gooooo,\" and \"METAL!\" outbursts. We're about good company, wine, and \"Will be relax day\" together.",
       "_profileAtCount": 1889,
       "gameOverride": "",
@@ -3351,12 +3351,12 @@
       "stats": {
         "totalVotes": 3069,
         "totalSubs": 54,
-        "totalChatMessages": 330,
-        "totalStreamMinutes": 6718,
+        "totalChatMessages": 331,
+        "totalStreamMinutes": 6730,
         "emotes": {
           "❤": 76,
           "🙌": 24,
-          "🔥": 26,
+          "🔥": 27,
           "🔴": 45,
           "🎉": 45,
           "📴": 46,
@@ -3365,9 +3365,9 @@
           "💚": 6,
           "💪": 2,
           "🤣": 5,
-          "✌": 3,
+          "✌": 4,
           "😌": 1,
-          "👍": 6,
+          "👍": 7,
           "🤘": 3,
           "😍": 3,
           "🌵": 2,
@@ -3399,14 +3399,10 @@
           "😁": "😁",
           "☺": "☺"
         },
-        "lastChatAt": 1785882232520,
+        "lastChatAt": 1785888981227,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "slothsm",
-          "msg": "full lag hj"
-        },
         {
           "user": "slothsm",
           "msg": "essa treta da teka ten 1 hora que acabou mano"
@@ -3442,6 +3438,10 @@
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "avisi",
+          "msg": "How goes your stream @slothsm? ✌️🔥👍 good to see you"
         }
       ],
       "customCommands": {
@@ -6819,17 +6819,17 @@
       "stats": {
         "totalVotes": 3858,
         "totalSubs": 0,
-        "totalChatMessages": 7868,
-        "totalStreamMinutes": 2499,
+        "totalChatMessages": 7896,
+        "totalStreamMinutes": 2511,
         "emotes": {
           "❤": 17,
           "🙌": 15,
           "🤝": 2,
           "🔥": 14,
           "🔴": 20,
-          "🎉": 52,
-          "🪙": 260,
-          "⚡": 57,
+          "🎉": 53,
+          "🪙": 261,
+          "⚡": 58,
           "👀": 8,
           "🍿": 2,
           "🤗": 4,
@@ -6914,7 +6914,8 @@
           "🐡": 1,
           "😄": 1,
           "🪨": 1,
-          "⏰": 1
+          "⏰": 1,
+          "🦁": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7009,51 +7010,52 @@
           "🐡": "🐡",
           "😄": "😄",
           "🪨": "🪨",
-          "⏰": "⏰"
+          "⏰": "⏰",
+          "🦁": "🦁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785888358128
+        "lastChatAt": 1785889065009
       },
       "chatMemory": [
         {
           "user": "lucas93925052",
-          "msg": "Patolino doído kkkkkkkk"
+          "msg": "Boa éden pró player"
         },
         {
-          "user": "lucas93925052",
-          "msg": "Tela do infinito kakakakaka não acaba"
+          "user": "paulo_santos20",
+          "msg": "Boa Noite, @lucas93925052 e @solucaon"
         },
         {
-          "user": "lucas93925052",
-          "msg": "Agora o jogo vai ficar melhor"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Cava"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Cava éden o chão"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Leva isso pra girafa"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Não vai"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "E com Pernalonga kkkkkkk"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Cava"
+          "user": "paulo_santos20",
+          "msg": "*@solucao"
         },
         {
           "user": "lucas93925052",
           "msg": "Kkkkkkk"
+        },
+        {
+          "user": "solucao",
+          "msg": "Júnior futebol pergunta amanhã terá recompensa"
+        },
+        {
+          "user": "lucas93925052",
+          "msg": "A primeira vez jogando é kaizos  porque agente não sabe o que fazer"
+        },
+        {
+          "user": "solucao",
+          "msg": "8 minutos"
+        },
+        {
+          "user": "lucas93925052",
+          "msg": "Kkkkkkkkkkkkkkkkkkk"
+        },
+        {
+          "user": "paulo_santos20",
+          "msg": "Boa Noite, Júnior Futebol!"
+        },
+        {
+          "user": "lucas93925052",
+          "msg": "Eita"
         }
       ],
       "customCommands": {},
@@ -7224,7 +7226,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 190,
-        "totalStreamMinutes": 1340,
+        "totalStreamMinutes": 1352,
         "emotes": {
           "❤": 10,
           "🙌": 5,
@@ -7320,8 +7322,8 @@
       "stats": {
         "totalVotes": 4123,
         "totalSubs": 0,
-        "totalChatMessages": 509,
-        "totalStreamMinutes": 1200,
+        "totalChatMessages": 511,
+        "totalStreamMinutes": 1203,
         "emotes": {
           "❤": 16,
           "🙌": 7,
@@ -7335,8 +7337,8 @@
           "🌫": 10,
           "🤣": 11,
           "😂": 12,
-          "📴": 10,
-          "👋": 11,
+          "📴": 11,
+          "👋": 12,
           "🚨": 24,
           "🔥": 30,
           "💚": 6,
@@ -7399,17 +7401,9 @@
           "🎈": "🎈"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785886837396
+        "lastChatAt": 1785888603155
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "And hello chat🤝🏼🔥"
-        },
-        {
-          "user": "brachial513",
-          "msg": "Yo @blazeian_bot_ai take good care of Noxx 🤣🔥"
-        },
         {
           "user": "brachial513",
           "msg": "I think he's playing Mechachameleon @blazeian_bot_ai"
@@ -7441,6 +7435,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Sheena just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7453,12 +7455,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
-      "streamTitle": "Outlast trials with DEEEBS — IRL",
+      "streamTitle": "",
       "profile": "noxx's community is a lively bunch of bug slayers and vote warriors who live for Hellldivin and thrivin. They're known for their \"slay all the bugs\" spirit, love giving shoutouts with \"🗳️ VOTE ALERT!!\" and \"love fest!\" vibes, and frequently exclaim \"Wild gaem!\" and \"RIP!\" in response to noxx's gaming prowess and IRL adventures. They celebrate victories with \"👀👀👀\", \"clipping it!\", and \"Raid ALERT!!\" and enthusiastically respond to pogo moments.",
       "_profileAtCount": 480,
       "gameOverride": "",
       "lastStreamInfo": "Outlast trials with DEEEBS — IRL",
-      "lastStreamEndedAt": 1785870160296,
+      "lastStreamEndedAt": 1785888597879,
       "nudgedAt": 1785880640807,
       "nudgedKey": "schedule"
     },
@@ -8608,8 +8610,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785845919274,
   "auth": {
-    "accessToken": "55ffd8e83c36d5929b4469f37b57e6dc",
-    "refreshToken": "753c4bf810a2562a2d45f46f8e780bb8",
+    "accessToken": "a140ee894cb65293d1b2ce794e384d03",
+    "refreshToken": "893073c167fb9d7580f27d5fb0a578fc",
     "sessionToken": "fc65914f08f00fbd0a967b09915e4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
