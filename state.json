@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5875,
         "totalSubs": 13,
-        "totalChatMessages": 8215,
+        "totalChatMessages": 8217,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
@@ -900,7 +900,7 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785911180738,
+        "lastChatAt": 1785911440139,
         "sendFailStreak": 9,
         "lastSendFailAt": 1785893430020,
         "lastSendFailReason": "You are banned from this channel."
@@ -908,6 +908,18 @@
       "chatMemory": [
         {
           "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
+        },
+        {
+          "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
         },
         {
@@ -933,18 +945,6 @@
         {
           "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
-          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
         }
       ],
       "customCommands": {},
@@ -5731,7 +5731,7 @@
         "totalVotes": 4533,
         "totalSubs": 29,
         "totalChatMessages": 598,
-        "totalStreamMinutes": 3533,
+        "totalStreamMinutes": 3538,
         "emotes": {
           "❤": 23,
           "🙌": 41,
@@ -8668,14 +8668,19 @@
       "note": "They appear to be a fan of music, particularly metal and bass guitar, with a good sense of humor and enthusiasm for live performances.",
       "at": 1785904837795,
       "n": 1
+    },
+    "angge_wf": {
+      "note": "They have a lighthearted and playful personality, frequently expressing excitement and enthusiasm during the stream.",
+      "at": 1785911437798,
+      "n": 1
     }
   },
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 20 votes = 1 entry · 1 sub = 3 entries · 1 gifted sub = 5 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 400 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\nThe current round is the 17th giveaway, running 27th July to 2nd August. A new round starts each week.",
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785889129402,
   "auth": {
-    "accessToken": "c44ec23eb3b9b5acb5ba0149fa1acf28",
-    "refreshToken": "ac8e5d49cdc92bae529faafa5722e0af",
+    "accessToken": "2e28469e580a970362d5b00f7ae3bfde",
+    "refreshToken": "7e895d55f55643a606c12376a0439091",
     "sessionToken": "fc65914f08f00fbd0a967b09915e4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
