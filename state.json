@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5888,
         "totalSubs": 13,
-        "totalChatMessages": 8434,
+        "totalChatMessages": 8441,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
@@ -900,18 +900,16 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785941051328,
-        "sendFailStreak": 11,
+        "lastChatAt": 1785942218569,
+        "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
-        "lastSendFailReason": "You are banned from this channel."
+        "lastSendFailReason": "You are banned from this channel.",
+        "recoveredAt": 1785942126509,
+        "recoveredFrom": 11
       },
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
-        },
-        {
-          "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
         },
         {
@@ -945,6 +943,10 @@
         {
           "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
         }
       ],
       "customCommands": {},
@@ -983,7 +985,8 @@
       "lastStreamEndedAt": 1785896108270,
       "nudgedAt": 1785864236148,
       "nudgedKey": "schedule",
-      "botVip": true
+      "botVip": true,
+      "commentMode": "low"
     },
     "b9c5a280-713e-4870-b505-623751badfa0": {
       "username": "crypt0k1ng96",
@@ -991,7 +994,7 @@
       "stats": {
         "totalVotes": 4064,
         "totalSubs": 66,
-        "totalChatMessages": 1811,
+        "totalChatMessages": 1812,
         "totalStreamMinutes": 6751,
         "emotes": {
           "📊": 3,
@@ -1198,13 +1201,9 @@
           "🍺": "🍺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785941125446
+        "lastChatAt": 1785942394951
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "It is a blaze creator tool and chatbot"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "https://foxbot-ai-chatbot.onrender.com"
@@ -1240,6 +1239,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Thank you Fluffy!!!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Will be back in 30 minutes"
         }
       ],
       "customCommands": {},
@@ -6133,8 +6136,8 @@
       "stats": {
         "totalVotes": 4734,
         "totalSubs": 10,
-        "totalChatMessages": 499,
-        "totalStreamMinutes": 590,
+        "totalChatMessages": 509,
+        "totalStreamMinutes": 610,
         "emotes": {
           "😂": 14,
           "💪": 2,
@@ -6168,7 +6171,8 @@
           "🍺": 3,
           "😈": 1,
           "🥹": 1,
-          "😱": 1
+          "😱": 1,
+          "😞": 1
         },
         "emoteNames": {
           "😂": "😂",
@@ -6203,51 +6207,52 @@
           "🍺": "🍺",
           "😈": "😈",
           "🥹": "🥹",
-          "😱": "😱"
+          "😱": "😱",
+          "😞": "😞"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785941189450
+        "lastChatAt": 1785941334114
       },
       "chatMemory": [
         {
           "user": "xeukuxaixang",
-          "msg": "translate"
+          "msg": "play re7 sheena"
         },
         {
           "user": "xeukuxaixang",
-          "msg": ";-;"
+          "msg": "no scary"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "attack him"
+          "msg": "re7"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "😡"
+          "msg": "😞"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "lol"
+          "msg": "heavy rain"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "@blazeian_bot_ai 😱"
+          "msg": "tempest"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "omg"
+          "msg": "dont die"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "sheena driving"
+          "msg": "sheena"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "O_o"
+          "msg": "dont die"
         },
         {
           "user": "xeukuxaixang",
-          "msg": "the assasin"
+          "msg": "relax"
         }
       ],
       "customCommands": {},
@@ -6496,8 +6501,8 @@
           "tier": 1
         }
       },
-      "profile": "Welcome to Cedricdebled's vibes! We're all about 'GGs' and 'love fests' in here. When we're not 'lowkey' hyping up a game of Pictionary, we're 'highkey' voting for our favorite art. Cedric loves the love, so don't be shy with the shoutouts! Remember: 'the vibes are real'! Keep it lit, keep it fun, and always expect 'love fest' moments and generous gifts!",
-      "_profileAtCount": 1191,
+      "profile": "Welcome to Cedricdebled's vibes! We're all about 'GGs' and 'love fests' in here. When we're not 'lowkey' hyping up a game of Pictionary, we're 'highkey' voting for our favorite art. Cedric loves the love, so don't be shy with the shoutouts! Remember: 'the vibes are real', 'keep it lit', and 'love fest' moments are always expected.",
+      "_profileAtCount": 1233,
       "streamTitle": "",
       "gameOverride": "",
       "lastStreamInfo": "Pictionary & date update — Art",
@@ -6508,10 +6513,10 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 3019,
+        "totalVotes": 3059,
         "totalSubs": 11,
-        "totalChatMessages": 593,
-        "totalStreamMinutes": 2300,
+        "totalChatMessages": 600,
+        "totalStreamMinutes": 2320,
         "emotes": {
           "❤": 39,
           "🙌": 22,
@@ -6522,7 +6527,7 @@
           "💪": 1,
           "💚": 6,
           "🔥": 52,
-          "🗳": 216,
+          "🗳": 225,
           "🤗": 4,
           "📴": 12,
           "🎁": 22,
@@ -6577,37 +6582,9 @@
           "🥺": "🥺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785941106154
+        "lastChatAt": 1785942387349
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 angge_wf is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @DestinoProspero!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DestinoProspero just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
-        {
-          "user": "destinoprospero",
-          "msg": "hello angge !"
-        },
-        {
-          "user": "emperorevilk1ng",
-          "msg": "hi all"
-        },
         {
           "user": "emperorevilk1ng",
           "msg": "were you able to hear me on my stream and the game?"
@@ -6619,6 +6596,34 @@
         {
           "user": "emperorevilk1ng",
           "msg": "good luck on that tour is that a tournment your in"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 25 votes, @cripiechuccles!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @cripiechuccles!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 10 vote(s) (total: 35)! Thank you!! 🗳️"
+        },
+        {
+          "user": "justinotv25",
+          "msg": "HI MISS ANNGE"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @Justinotv25!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Justinotv25 just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7118,12 +7123,12 @@
       "joinedAt": 1784664490215,
       "stats": {
         "totalVotes": 1643,
-        "totalSubs": 6,
-        "totalChatMessages": 323,
-        "totalStreamMinutes": 2031,
+        "totalSubs": 7,
+        "totalChatMessages": 328,
+        "totalStreamMinutes": 2051,
         "emotes": {
           "❤": 24,
-          "🙌": 14,
+          "🙌": 15,
           "📴": 13,
           "👋": 14,
           "🔴": 12,
@@ -7148,7 +7153,7 @@
           "🫶": 2,
           "🤯": 2,
           "😤": 3,
-          "🎁": 10,
+          "🎁": 12,
           "😅": 1,
           "🤘": 1
         },
@@ -7184,29 +7189,9 @@
           "🤘": "🤘"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785941091080
+        "lastChatAt": 1785941627128
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "thank you so much"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "Sup bro"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @guney just gifted a sub to @agent00zani! How generous!! 🙌"
-        },
-        {
-          "user": "guney",
-          "msg": "good bro thank you"
-        },
-        {
-          "user": "guney",
-          "msg": "bed time now"
-        },
         {
           "user": "guney",
           "msg": "have a good night everyone"
@@ -7226,6 +7211,26 @@
         {
           "user": "fluffy",
           "msg": "Hey @guney kanka, hope you doing well"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @guney just gifted a sub to @fluffy! How generous!! 🙌"
+        },
+        {
+          "user": "guney",
+          "msg": "fluffyyyy"
+        },
+        {
+          "user": "guney",
+          "msg": "kankaaa"
+        },
+        {
+          "user": "guney",
+          "msg": "im good thank you"
+        },
+        {
+          "user": "guney",
+          "msg": "wotking at the same time"
         }
       ],
       "customCommands": {},
@@ -7843,8 +7848,8 @@
       "stats": {
         "totalVotes": 98,
         "totalSubs": 0,
-        "totalChatMessages": 43,
-        "totalStreamMinutes": 385,
+        "totalChatMessages": 45,
+        "totalStreamMinutes": 399,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -7854,8 +7859,8 @@
           "🔴": 3,
           "🎉": 3,
           "🗳": 18,
-          "📴": 3,
-          "👋": 3,
+          "📴": 4,
+          "👋": 4,
           "💛": 1,
           "🥰": 1,
           "📢": 2
@@ -7876,17 +7881,9 @@
           "📢": "📢"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785937655936
+        "lastChatAt": 1785942015038
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📢 Shoutout to @nekoschwan, streamer of Otherside (by Yuga Labs)! 🔥 Make sure to check out https://blaze.stream/nekoschwan and show some support ❤️‍🔥"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @nekoschwan at https://blaze.stream/nekoschwan!"
-        },
         {
           "user": "botger",
           "msg": "📢 Shoutout to @angge_wf, streamer of VALORANT! 🔥 Make sure to check out https://blaze.stream/angge_wf and show some support ❤️‍🔥"
@@ -7918,6 +7915,14 @@
         {
           "user": "angge_wf",
           "msg": "GM"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7929,9 +7934,9 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg",
-      "streamTitle": "Chill Stream 😬🔥 — Crypto",
-      "lastStreamInfo": "Chill Stream 😬🔥 — VALORANT",
-      "lastStreamEndedAt": 1785842396849,
+      "streamTitle": "",
+      "lastStreamInfo": "Chill Stream 😬🔥 — Crypto",
+      "lastStreamEndedAt": 1785942009719,
       "gameOverride": "",
       "profile": "GMs are the best! 🔥🔥💚💚 We're a community that loves to 'NEW FOLLOWER!!' and celebrate our streamer's live streams with 🎉 and 🔴 alerts. Weekly Giveaways on Blaze are a thing, and we're all about those 'permanently free Entries'! 💚 Vote alerts are a thing too, so don't forget to 'VOTE ALERT!!'. seventh loves being celebrated, so let's give 'em a love fest! See you next time, and remember: 🔥🔥🔥",
       "_profileAtCount": 12,
