@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5885,
         "totalSubs": 13,
-        "totalChatMessages": 8350,
+        "totalChatMessages": 8360,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
@@ -900,7 +900,7 @@
           "🙄": "🙄",
           "🎮": "🎮"
         },
-        "lastChatAt": 1785928781670,
+        "lastChatAt": 1785930085866,
         "sendFailStreak": 10,
         "lastSendFailAt": 1785918859489,
         "lastSendFailReason": "You are banned from this channel."
@@ -991,8 +991,8 @@
       "stats": {
         "totalVotes": 4062,
         "totalSubs": 65,
-        "totalChatMessages": 1775,
-        "totalStreamMinutes": 6549,
+        "totalChatMessages": 1779,
+        "totalStreamMinutes": 6569,
         "emotes": {
           "📊": 3,
           "🔥": 180,
@@ -1092,7 +1092,8 @@
           "🙌": 2,
           "🍀": 9,
           "🙄": 1,
-          "☕": 1
+          "☕": 1,
+          "🍺": 3
         },
         "emoteNames": {
           "📊": "📊",
@@ -1193,28 +1194,13 @@
           "🙌": "🙌",
           "🍀": "🍀",
           "🙄": "🙄",
-          "☕": "☕"
+          "☕": "☕",
+          "🍺": "🍺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785927512214
+        "lastChatAt": 1785929390823
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "GM Blazers!"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "Follow the creator here: Blaze: https://blaze.stream/crypt0k1ng96 | X: x.com/pardon_my_trade | YouTube: youtube.com/@Crypt0k1ng96 | Rumble: rumble.com/Crypt0k1ng96"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "gm gm"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "GM Zani"
@@ -1238,6 +1224,22 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Welcome @jaggerjack"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "GM gm"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "I zani"
+        },
+        {
+          "user": "k1ngbre4ker",
+          "msg": "🍺🍺🍺 Switching stream thought id raid over!"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "RAID LOVE! Huge thanks to @K1NGBRE4KER for bringing the community over. +250 FoxCoins. Balance: 550 FoxCoins."
         }
       ],
       "customCommands": {},
