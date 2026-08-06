@@ -768,7 +768,7 @@
       "stats": {
         "totalVotes": 5898,
         "totalSubs": 13,
-        "totalChatMessages": 8712,
+        "totalChatMessages": 8724,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
@@ -778,7 +778,7 @@
           "😍": 1,
           "❤": 23,
           "🚢": 7,
-          "⏰": 395,
+          "⏰": 400,
           "🔜": 237,
           "💀": 120,
           "😘": 2,
@@ -825,7 +825,7 @@
           "👍": 1,
           "🥔": 368,
           "🔄": 143,
-          "🤖": 53,
+          "🤖": 54,
           "😏": 4,
           "❌": 1,
           "🙃": 3,
@@ -834,7 +834,7 @@
           "🧪": 1,
           "🙄": 2,
           "🎮": 2,
-          "🪅": 16,
+          "🪅": 17,
           "🍬": 20,
           "🛑": 1
         },
@@ -906,7 +906,7 @@
           "🍬": "🍬",
           "🛑": "🛑"
         },
-        "lastChatAt": 1785989305702,
+        "lastChatAt": 1785989739002,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4416,7 +4416,7 @@
         "totalVotes": 2831,
         "totalSubs": 19,
         "totalChatMessages": 203,
-        "totalStreamMinutes": 4942,
+        "totalStreamMinutes": 4947,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -5923,8 +5923,8 @@
       "stats": {
         "totalVotes": 6438,
         "totalSubs": 1,
-        "totalChatMessages": 457,
-        "totalStreamMinutes": 303,
+        "totalChatMessages": 460,
+        "totalStreamMinutes": 308,
         "emotes": {
           "❤": 11,
           "🙌": 9,
@@ -5963,7 +5963,7 @@
           "😔": 1,
           "😵": 3,
           "💫": 3,
-          "👀": 6,
+          "👀": 7,
           "⚽": 3,
           "🚗": 3,
           "❄": 2,
@@ -5976,7 +5976,8 @@
           "😜": 3,
           "👍": 1,
           "👐": 1,
-          "🖐": 2
+          "🖐": 2,
+          "☺": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -6029,26 +6030,15 @@
           "😜": "😜",
           "👍": "👍",
           "👐": "👐",
-          "🖐": "🖐"
+          "🖐": "🖐",
+          "☺": "☺"
         },
-        "lastChatAt": 1785989488425,
+        "lastChatAt": 1785989627357,
         "sendFailStreak": 8,
         "lastSendFailAt": 1785989352863,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "hahaha I like that @dimifw"
-        },
-        {
-          "user": "briggsy",
-          "msg": "yessir"
-        },
-        {
-          "user": "dimifw",
-          "msg": "somehow i am climbing back up my rank tired and still little bit drunk. this game makes no sense"
-        },
         {
           "user": "briggsy",
           "msg": "haha"
@@ -6076,6 +6066,18 @@
         {
           "user": "dimifw",
           "msg": "hey tai"
+        },
+        {
+          "user": "faithy_",
+          "msg": "Have a good stream @dimifw and @briggsy ☺️ gonna have my lunch"
+        },
+        {
+          "user": "dimifw",
+          "msg": "cya faithy"
+        },
+        {
+          "user": "dimifw",
+          "msg": "👀"
         }
       ],
       "customCommands": {},
@@ -8813,8 +8815,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785956432213,
   "auth": {
-    "accessToken": "8948f08329ad061628bf9ba286437eb3",
-    "refreshToken": "9d74dd65ddd5939435081bbe94291c7f",
+    "accessToken": "2a6ae1f0fbfa26aa072be05e5123029f",
+    "refreshToken": "b6fdd949367de682114be31584b26a78",
     "sessionToken": "f795f50b9381aaf844aa491ccd832930",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
