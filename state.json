@@ -1000,8 +1000,8 @@
       "stats": {
         "totalVotes": 4216,
         "totalSubs": 66,
-        "totalChatMessages": 1840,
-        "totalStreamMinutes": 7037,
+        "totalChatMessages": 1842,
+        "totalStreamMinutes": 7057,
         "emotes": {
           "📊": 3,
           "🔥": 182,
@@ -1102,7 +1102,8 @@
           "🍀": 9,
           "🙄": 1,
           "☕": 1,
-          "🍺": 3
+          "🍺": 3,
+          "🙃": 5
         },
         "emoteNames": {
           "📊": "📊",
@@ -1204,20 +1205,13 @@
           "🍀": "🍀",
           "🙄": "🙄",
           "☕": "☕",
-          "🍺": "🍺"
+          "🍺": "🍺",
+          "🙃": "🙃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786006412241
+        "lastChatAt": 1786008495812
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "100 VOTE WEEKLY GIVEAWAY:\nhttps://x.com/Pardon_my_trade/status/2079868166218432757?s=20"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🚨 100 VOTE GIVEAWAY IS LIVE! 🚨\n\nI’m giving back to the community—and helping build the future of Blaze at the same time.\n\nHere’s how to earn entries:\n\n🗳️ Vote\n• 1–10 Votes = 1 Entry\n• 10–50 Votes = 2 Entries\n• 50+ Votes = 3 Entries\n\n⭐ Subscribe\n• 1 Sub = 1 Entry\n• 1 Gifted Sub = 2 Entries\n\n🦊 Test FoxBot AI\n• Test FoxBot AI = 2 Entries\n• Report a bug or suggestion = +1 Entry\n• Share your feedback = +1 Entry\n\nEvery vote helps support the stream"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "https://foxbot-ai-chatbot.onrender.com"
@@ -1249,6 +1243,14 @@
         {
           "user": "foxbotai",
           "msg": "Giveaway entries: 8 total | Latest: dwb9000, marowak33, old_mankey, tom2329, angge_wf, xburntx, consumerbreak, zimzimma"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "🙃🙃🙃🙃🙃"
         }
       ],
       "customCommands": {},
@@ -5782,8 +5784,8 @@
       "stats": {
         "totalVotes": 5026,
         "totalSubs": 33,
-        "totalChatMessages": 654,
-        "totalStreamMinutes": 3909,
+        "totalChatMessages": 655,
+        "totalStreamMinutes": 3928,
         "emotes": {
           "❤": 29,
           "🙌": 52,
@@ -5845,13 +5847,9 @@
           "🤗": "🤗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786006610419
+        "lastChatAt": 1786008492213
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "nite nite"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @triz_draw! How generous!! 🙌"
@@ -5887,6 +5885,10 @@
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @senseibulrog is raiding with a party of 13! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
         }
       ],
       "customCommands": {},
@@ -8818,14 +8820,19 @@
       "note": "This person enjoys playing video games, particularly those that might be part of the Mario or Super Mario series, and has a humorous and lighthearted tone in their chat.",
       "at": 1786001198049,
       "n": 1
+    },
+    "dimifw": {
+      "note": "They play games, enjoy driving in-game cars, and have a humorous and enthusiastic personality.",
+      "at": 1786008457810,
+      "n": 1
     }
   },
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 20 votes = 1 entry · 1 sub = 3 entries · 1 gifted sub = 5 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 400 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\nThe current round is the 17th giveaway, running 27th July to 2nd August. A new round starts each week.",
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785991950674,
   "auth": {
-    "accessToken": "4429658beef1b05b4143c758567f6903",
-    "refreshToken": "7a64d58f2d5b2721c4bb0be247da57a7",
+    "accessToken": "01654401052a7c53f85eb9f47d60be03",
+    "refreshToken": "a47a48978da908af8e3a1ad054d63997",
     "sessionToken": "f795f50b9381aaf844aa491ccd832930",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
