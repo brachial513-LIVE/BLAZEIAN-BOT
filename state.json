@@ -1000,8 +1000,8 @@
       "stats": {
         "totalVotes": 4216,
         "totalSubs": 66,
-        "totalChatMessages": 1837,
-        "totalStreamMinutes": 7007,
+        "totalChatMessages": 1838,
+        "totalStreamMinutes": 7012,
         "emotes": {
           "📊": 3,
           "🔥": 182,
@@ -1207,13 +1207,9 @@
           "🍺": "🍺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786005565251
+        "lastChatAt": 1786005960618
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
-        },
         {
           "user": "foxbotai",
           "msg": "🚨 100 VOTE GIVEAWAY IS LIVE! 🚨\n\nI’m giving back to the community—and helping build the future of Blaze at the same time.\n\nHere’s how to earn entries:\n\n🗳️ Vote\n• 1–10 Votes = 1 Entry\n• 10–50 Votes = 2 Entries\n• 50+ Votes = 3 Entries\n\n⭐ Subscribe\n• 1 Sub = 1 Entry\n• 1 Gifted Sub = 2 Entries\n\n🦊 Test FoxBot AI\n• Test FoxBot AI = 2 Entries\n• Report a bug or suggestion = +1 Entry\n• Share your feedback = +1 Entry\n\nEvery vote helps support the stream"
@@ -1249,6 +1245,10 @@
         {
           "user": "foxbotai",
           "msg": "160 VOTE WEEKLY GIVEAWAY:\nhttps://x.com/Pardon_my_trade/status/2085283128105472207?s=20"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "GIVEAWAY LIVE: Weekly Giveaway | Type !enter to join! Type !enter to join. One entry per viewer."
         }
       ],
       "customCommands": {},
@@ -5783,7 +5783,7 @@
         "totalVotes": 5026,
         "totalSubs": 33,
         "totalChatMessages": 653,
-        "totalStreamMinutes": 3878,
+        "totalStreamMinutes": 3883,
         "emotes": {
           "❤": 29,
           "🙌": 52,
@@ -8616,8 +8616,8 @@
     },
     "dofferlive": {
       "note": "They appear to be enthusiastic about games, particularly Dota 2, with a lighthearted and humorous tone, often using playful language and emojis.",
-      "at": 1785954997807,
-      "n": 6
+      "at": 1786005817770,
+      "n": 7
     },
     "galegaaa": {
       "note": "They appear to be enthusiastic about Valorant and League of Legends, with a playful and energetic personality, likely enjoying competitive gaming and humorously referencing game-related content.",
@@ -8824,8 +8824,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785991950674,
   "auth": {
-    "accessToken": "f5c29e40199c3f0eacc12164eb650558",
-    "refreshToken": "3856996e5b458c8af216de33f85ee300",
+    "accessToken": "cf39ea1f829811e98506ac7d9ac26956",
+    "refreshToken": "883bba6ca32a3b7b90e2b1861f724617",
     "sessionToken": "f795f50b9381aaf844aa491ccd832930",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
