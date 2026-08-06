@@ -768,18 +768,18 @@
       "stats": {
         "totalVotes": 5898,
         "totalSubs": 13,
-        "totalChatMessages": 8466,
+        "totalChatMessages": 8504,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
           "🗳": 14,
           "🔴": 22,
-          "🎉": 78,
+          "🎉": 79,
           "😍": 1,
           "❤": 23,
           "🚢": 7,
-          "⏰": 343,
-          "🔜": 229,
+          "⏰": 353,
+          "🔜": 232,
           "💀": 120,
           "😘": 2,
           "🏆": 59,
@@ -798,14 +798,14 @@
           "📴": 21,
           "👋": 25,
           "😢": 2,
-          "⚠": 11,
+          "⚠": 12,
           "🎯": 2,
           "👿": 1,
           "😂": 19,
           "😅": 4,
           "✈": 5,
           "🔧": 1,
-          "⚡": 7,
+          "⚡": 8,
           "📊": 3,
           "💃": 1,
           "💛": 3,
@@ -825,7 +825,7 @@
           "👍": 1,
           "🥔": 368,
           "🔄": 143,
-          "🤖": 46,
+          "🤖": 47,
           "😏": 4,
           "❌": 1,
           "🙃": 3,
@@ -834,7 +834,7 @@
           "🧪": 1,
           "🙄": 2,
           "🎮": 1,
-          "🪅": 1
+          "🪅": 3
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -902,7 +902,7 @@
           "🎮": "🎮",
           "🪅": "🪅"
         },
-        "lastChatAt": 1785982724842,
+        "lastChatAt": 1785985537426,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -910,10 +910,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
         {
           "user": "botger",
           "msg": "(Handled by bot — joins the channel and confirms in chat)"
@@ -941,6 +937,10 @@
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "@jt_squared2 Swing queued! It will execute when it's your turn. 🔜"
         },
         {
           "user": "jt_squared2",
@@ -2086,7 +2086,7 @@
         "totalVotes": 2796,
         "totalSubs": 35,
         "totalChatMessages": 1165,
-        "totalStreamMinutes": 7110,
+        "totalStreamMinutes": 7117,
         "emotes": {
           "😊": 3,
           "🌵": 81,
@@ -2340,7 +2340,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Captain Not Abandoning Chat... Day 5. Big Ray is Buying Dinner — IRL",
+      "streamTitle": "",
       "profile": "We're a Blaze community that's all about IRL maritime streams, focusing on activities like loading barges and fueling ships. We love to surf, vote for our favorite streamers, celebrate with \"BLAZE ON\", shout \"Sweet!\" when new content drops, do shots saying \"shots shots!\", and enjoy celebrating with \"BLAZE ON\".",
       "_profileAtCount": 1121,
       "gameOverride": "",
@@ -2365,7 +2365,7 @@
       "nudgedAt": 1785066991188,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Captain Not Abandoning Chat... Day 5. Big Ray is Buying Dinner — IRL",
-      "lastStreamEndedAt": 1785899888460
+      "lastStreamEndedAt": 1785984813266
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -3201,19 +3201,19 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 4472,
+        "totalVotes": 4487,
         "totalSubs": 9,
-        "totalChatMessages": 2251,
-        "totalStreamMinutes": 5276,
+        "totalChatMessages": 2263,
+        "totalStreamMinutes": 5296,
         "emotes": {
           "❤": 26,
           "🙌": 53,
-          "🗳": 288,
+          "🗳": 297,
           "🔴": 33,
           "🎉": 54,
           "📴": 31,
           "👋": 34,
-          "🔥": 97,
+          "🔥": 102,
           "💪": 1,
           "🤖": 1,
           "💚": 6,
@@ -3313,49 +3313,49 @@
           "🙄": "🙄",
           "😓": "😓"
         },
-        "lastChatAt": 1785984352008,
+        "lastChatAt": 1785984941863,
         "sendFailStreak": 0
       },
       "chatMemory": [
+        {
+          "user": "jaggerjack",
+          "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "all good mate lol"
+        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 5 votes, @FartVader!"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 5 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 7 votes, @JaggerJack!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @JaggerJack just gave 7 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "lets goo"
         },
         {
           "user": "fartvader",
-          "msg": "you're welcome my bro! ❤️❤️"
+          "msg": "cool I got 1 entry now"
         },
         {
           "user": "fartvader",
-          "msg": "uhm I'm planning on streaming again later with my buddies. just got back to playing Albion after a long while"
+          "msg": "🔥🔥"
         },
         {
-          "user": "fartvader",
-          "msg": "yes bro. am just learning again after a very long time..I specifically love playing support roles on my mmorpg games"
-        },
-        {
-          "user": "fartvader",
-          "msg": "was it out on steam or does it have separate pc launcher?"
-        },
-        {
-          "user": "fartvader",
-          "msg": "i'm curious about that game..if it has healers, I'm in.. lol"
-        },
-        {
-          "user": "fartvader",
-          "msg": "hahaha got it bro. I'd stay away from it then"
-        },
-        {
-          "user": "fartvader",
-          "msg": "I don't like mmo games with auto play in it..pretty much boring for me"
-        },
-        {
-          "user": "fartvader",
-          "msg": "100%"
+          "user": "jaggerjack",
+          "msg": "Sick Infernalist"
         }
       ],
       "customCommands": {},
@@ -4411,8 +4411,8 @@
       "stats": {
         "totalVotes": 2831,
         "totalSubs": 14,
-        "totalChatMessages": 188,
-        "totalStreamMinutes": 4857,
+        "totalChatMessages": 189,
+        "totalStreamMinutes": 4877,
         "emotes": {
           "💚": 4,
           "🔥": 12,
@@ -4455,13 +4455,9 @@
           "👾": "👾",
           "🤧": "🤧"
         },
-        "lastChatAt": 1785982663295
+        "lastChatAt": 1785984558827
       },
       "chatMemory": [
-        {
-          "user": "tai_",
-          "msg": "tropa das franjudas"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -4497,6 +4493,10 @@
         {
           "user": "tai_",
           "msg": "tailandesa eh foda"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -4527,15 +4527,15 @@
       "username": "bidloperv",
       "language": "en",
       "stats": {
-        "totalVotes": 5332,
+        "totalVotes": 5337,
         "totalSubs": 18,
-        "totalChatMessages": 4248,
-        "totalStreamMinutes": 3055,
+        "totalChatMessages": 4254,
+        "totalStreamMinutes": 3075,
         "emotes": {
           "🧏": 1,
-          "♂": 1,
+          "♂": 2,
           "👀": 25,
-          "🔥": 267,
+          "🔥": 273,
           "🙃": 4,
           "😛": 2,
           "🤭": 2,
@@ -4606,7 +4606,7 @@
           "😱": 11,
           "🗿": 2,
           "🍷": 2,
-          "🫡": 3,
+          "🫡": 4,
           "🩷": 3,
           "🤗": 5,
           "😬": 1,
@@ -4633,7 +4633,8 @@
           "😓": 1,
           "♥": 1,
           "🤨": 1,
-          "☠": 1
+          "☠": 1,
+          "🤷": 1
         },
         "emoteNames": {
           "🧏": "🧏",
@@ -4737,32 +4738,13 @@
           "😓": "😓",
           "♥": "♥",
           "🤨": "🤨",
-          "☠": "☠"
+          "☠": "☠",
+          "🤷": "🤷"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785984137285
+        "lastChatAt": 1785985498215
       },
       "chatMemory": [
-        {
-          "user": "inn",
-          "msg": "☠️"
-        },
-        {
-          "user": "fartvader",
-          "msg": "sure, let me think of something"
-        },
-        {
-          "user": "fartvader",
-          "msg": "got any bruno mars from the playlist bro?"
-        },
-        {
-          "user": "bidlo_bot",
-          "msg": "@fartvader Found 17 matches: 1. Bruno Mars - Treasure | 2. Bruno Mars - Locked out of Heaven | 3. Mark Ronson Ft. Bruno Mars - Uptown Funk | 4. Bruno Mars - 24K Magic | 5. Bruno Maaa (Bruno Mars) - Jump in the Caac (That's What I Like) | 6. Bruno Mars - That's What I Like | 7. Ed Sheeran - Blow (With Chris Stapleton & Bruno Mars) | 8. Snoop Dogg & Wiz Khalifa - Young, Wild & Free (feat. Bruno Mars) — Reply !pick 1-8 to select"
-        },
-        {
-          "user": "bidlo_bot",
-          "msg": "@fartvader Added \"Mark Ronson Ft. Bruno Mars - Uptown Funk\" to the queue! (Position #1)"
-        },
         {
           "user": "johngalt",
           "msg": "thanks man you too"
@@ -4782,6 +4764,26 @@
         {
           "user": "fartvader",
           "msg": "wow thank you so much for that bro!"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "🔥🔥🔥🔥"
+        },
+        {
+          "user": "bidlo_bot",
+          "msg": "@inn Added \"Heart - Barracuda\" to the queue! (Position #1)"
+        },
+        {
+          "user": "inn",
+          "msg": "🤷‍♂️"
+        },
+        {
+          "user": "inn",
+          "msg": "🫡"
+        },
+        {
+          "user": "fartvader",
+          "msg": "🔥🔥"
         }
       ],
       "customCommands": {},
