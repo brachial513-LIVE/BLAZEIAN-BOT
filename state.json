@@ -467,12 +467,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 26401,
+        "totalVotes": 26551,
         "totalSubs": 47,
-        "totalChatMessages": 4947,
+        "totalChatMessages": 4948,
         "totalStreamMinutes": 1720,
         "emotes": {
-          "🗳": 717,
+          "🗳": 720,
           "❤": 209,
           "🙌": 128,
           "🔥": 120,
@@ -673,14 +673,12 @@
           "😟": "😟",
           "😪": "😪"
         },
-        "sendFailStreak": 0,
-        "lastChatAt": 1786039869445
+        "sendFailStreak": 1,
+        "lastChatAt": 1786048231475,
+        "lastSendFailAt": 1786048229545,
+        "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "eze_",
-          "msg": "Yo bro"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @0xlords just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -716,6 +714,10 @@
         {
           "user": "dofferlive",
           "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3] [emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3] [emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:d1b3387d-1153-48be-9fad-2e982d5ff0a7] [emote:d92d1be4-f155-4406-809d-4b9b295c53bf] [emote:d92d1be4-f155-4406-809d-4b9b295c53bf] [emote:77f5141b-727f-472e-810b-e598e92449fd] [emote:849b2d68-7a30-4dcc-9981-1906ce5d70ca] [emote:ac8822db-d04d-41d9-bc2b-0b32a8839d11] [emote:5a07a582-019e-4405-bd0c-69824925b3f4] [emote:b8d92475-43c4-40eb-837e-c5ee5ab01980] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6] [emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6] [emote:c3edcb93-8502-41fd-9d2b-253cdf3b664a] [emote:b0c224ec-5e5a-4725-ab69-45a2e948ad58] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3] [emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:37719561-c923-4260-b1a5-e3eda10c103d]"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @senseibulrog just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1009,7 +1011,7 @@
         "totalVotes": 4230,
         "totalSubs": 69,
         "totalChatMessages": 1914,
-        "totalStreamMinutes": 7707,
+        "totalStreamMinutes": 7717,
         "emotes": {
           "📊": 3,
           "🔥": 196,
@@ -2475,7 +2477,7 @@
         "totalVotes": 2728,
         "totalSubs": 11,
         "totalChatMessages": 821,
-        "totalStreamMinutes": 3870,
+        "totalStreamMinutes": 3880,
         "emotes": {
           "✨": 14,
           "🖥": 19,
@@ -3620,8 +3622,8 @@
       "stats": {
         "totalVotes": 5261,
         "totalSubs": 22,
-        "totalChatMessages": 673,
-        "totalStreamMinutes": 2887,
+        "totalChatMessages": 675,
+        "totalStreamMinutes": 2898,
         "emotes": {
           "❤": 32,
           "🙌": 37,
@@ -3664,14 +3666,15 @@
           "💕": 2,
           "🌹": 2,
           "🥀": 2,
-          "❣": 15,
+          "❣": 23,
           "💯": 5,
           "👀": 1,
           "😀": 1,
           "🫡": 1,
           "😊": 2,
           "😳": 1,
-          "🤗": 2
+          "🤗": 2,
+          "💤": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -3722,20 +3725,13 @@
           "🫡": "🫡",
           "😊": "😊",
           "😳": "😳",
-          "🤗": "🤗"
+          "🤗": "🤗",
+          "💤": "💤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786047231572
+        "lastChatAt": 1786048032021
       },
       "chatMemory": [
-        {
-          "user": "zoob_21",
-          "msg": "What's up"
-        },
-        {
-          "user": "vitrene",
-          "msg": "I'm awesome, how about you?"
-        },
         {
           "user": "zoob_21",
           "msg": "Thanks I'm also perfect 🥰"
@@ -3767,6 +3763,14 @@
         {
           "user": "zoob_21",
           "msg": "💚💚"
+        },
+        {
+          "user": "skyasin0077",
+          "msg": "❣️❣️❣️❣️VIT❣️❣️❣️❣️"
+        },
+        {
+          "user": "skyasin0077",
+          "msg": "Good night everyone 💤💤💤"
         }
       ],
       "customCommands": {},
@@ -3976,7 +3980,7 @@
         "totalVotes": 5127,
         "totalSubs": 15,
         "totalChatMessages": 1489,
-        "totalStreamMinutes": 2294,
+        "totalStreamMinutes": 2305,
         "emotes": {
           "❤": 26,
           "🙌": 44,
@@ -4554,8 +4558,8 @@
       "stats": {
         "totalVotes": 5429,
         "totalSubs": 19,
-        "totalChatMessages": 4432,
-        "totalStreamMinutes": 3210,
+        "totalChatMessages": 4452,
+        "totalStreamMinutes": 3220,
         "emotes": {
           "🧏": 1,
           "♂": 2,
@@ -4767,48 +4771,48 @@
           "🤷": "🤷"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786047581610
+        "lastChatAt": 1786048166537
       },
       "chatMemory": [
         {
-          "user": "soulflux",
-          "msg": "Its good I was working and listeming toyou silently"
+          "user": "bidlo_bot",
+          "msg": "@cr33pling Found 3 matches: 1. Sleeping With Sirens - The Strays | 2. Sleeping With Sirens - The Bomb Dot Com V2.0 | 3. Sleeping With Sirens - A Trophy Father's Trophy Son — Reply !pick 1-3 to select"
         },
         {
-          "user": "soulflux",
-          "msg": "😁"
+          "user": "doktorgrav",
+          "msg": "good day to you sir"
         },
         {
-          "user": "marowak33",
-          "msg": "no distraction this time"
+          "user": "tenshi",
+          "msg": "hi hi"
         },
         {
-          "user": "marowak33",
-          "msg": "%100"
+          "user": "doktorgrav",
+          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
         },
         {
-          "user": "soulflux",
-          "msg": "Everything you play"
+          "user": "cr33pling",
+          "msg": "yowww."
         },
         {
-          "user": "soulflux",
-          "msg": "Btw how are you"
+          "user": "bidlo_bot",
+          "msg": "@tenshi Added \"Devics - Red Morning\" to the queue! (Position #2)"
         },
         {
-          "user": "soulflux",
-          "msg": "Sorry I have works on my hands"
+          "user": "bidlo_bot",
+          "msg": "@cr33pling Found 19 matches: 1. Sleeping With Sirens - All My Heart | 2. Sleeping With Sirens - Congratulations | 3. Sleeping With Sirens - If I'm James Dean, You're Audrey Hepburn | 4. Sleeping With Sirens - If You Cant Hang | 5. Sleeping With Sirens - Do It Now Remember It Later | 6. Sleeping With Sirens - Kick Me | 7. Sleeping With Sirens - Roger Rabbit | 8. Sleeping With Sirens - James Dean & Audrey Hepburn (Acoustic Version) — Reply !pick 1-8 to select"
         },
         {
-          "user": "soulflux",
-          "msg": "How is he in these days? Good days?"
+          "user": "bidlo_bot",
+          "msg": "@cr33pling Added \"Sleeping With Sirens - If I'm James Dean, You're Audrey Hepburn\" to the queue! (Position #3)"
         },
         {
-          "user": "soulflux",
-          "msg": "Happy to hear that. Bless him ❤️"
+          "user": "cr33pling",
+          "msg": "there you go hehe"
         },
         {
-          "user": "soulflux",
-          "msg": "💪"
+          "user": "doktorgrav",
+          "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d]"
         }
       ],
       "customCommands": {},
@@ -6633,7 +6637,7 @@
         "totalVotes": 3105,
         "totalSubs": 11,
         "totalChatMessages": 669,
-        "totalStreamMinutes": 2841,
+        "totalStreamMinutes": 2851,
         "emotes": {
           "❤": 46,
           "🙌": 23,
@@ -6977,8 +6981,8 @@
       "stats": {
         "totalVotes": 4209,
         "totalSubs": 0,
-        "totalChatMessages": 8464,
-        "totalStreamMinutes": 2992,
+        "totalChatMessages": 8476,
+        "totalStreamMinutes": 3002,
         "emotes": {
           "❤": 19,
           "🙌": 16,
@@ -6986,7 +6990,7 @@
           "🔥": 14,
           "🔴": 22,
           "🎉": 56,
-          "🪙": 292,
+          "🪙": 293,
           "⚡": 62,
           "👀": 8,
           "🍿": 2,
@@ -6997,8 +7001,8 @@
           "☺": 3,
           "😎": 2,
           "😁": 1,
-          "📴": 21,
-          "👋": 22,
+          "📴": 22,
+          "👋": 23,
           "🛒": 6,
           "😀": 1,
           "😍": 4,
@@ -7176,48 +7180,48 @@
           "🚀": "🚀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786047579613
+        "lastChatAt": 1786048268543
       },
       "chatMemory": [
         {
+          "user": "botger",
+          "msg": "🪙 @paulo_santos20 840 points."
+        },
+        {
           "user": "paulo_santos20",
-          "msg": "Uma vaca como presente?"
+          "msg": "Depois dessa live aqui, terá uma pausa, e à noite tem Mania DK?"
+        },
+        {
+          "user": "paulo_santos20",
+          "msg": "OK!"
+        },
+        {
+          "user": "solucao",
+          "msg": "Pausa do edao"
+        },
+        {
+          "user": "paulo_santos20",
+          "msg": "Pode resgatar a última parte, Mauh, se quiser!"
+        },
+        {
+          "user": "paulo_santos20",
+          "msg": "Parabéns, Mauh! Última parte você zera!"
+        },
+        {
+          "user": "paulo_santos20",
+          "msg": "GG!"
         },
         {
           "user": "botger",
           "msg": "Doações Live pix: https://livepix.gg/maniadk"
         },
         {
-          "user": "lovemikami",
-          "msg": "Mickey castelo da ilusão?"
-        },
-        {
           "user": "paulo_santos20",
-          "msg": "Castelo do Karol kkkkkk"
-        },
-        {
-          "user": "paulo_santos20",
-          "msg": "Tem 15 minutos, será que dá pro Mauh zerar?"
-        },
-        {
-          "user": "paulo_santos20",
-          "msg": "Esse castelo do Ganondorf é a última Dangeon?"
-        },
-        {
-          "user": "paulo_santos20",
-          "msg": "Ou considera?"
-        },
-        {
-          "user": "paulo_santos20",
-          "msg": "Hey!"
-        },
-        {
-          "user": "paulo_santos20",
-          "msg": "Kkkkk"
+          "msg": "Valeu Eden, Mauh e a todos! Até depois!"
         },
         {
           "user": "botger",
-          "msg": "🪙 @solucao 5,410 points."
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7230,13 +7234,13 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
-      "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
-      "profile": "Sofrenciaplay's community is a lively bunch of gamers who \"torram os pontos\" and participate in 1h30m gaming sessions. They frequently use slang like \"torrar,\" \"pegar a vaga,\" and \"deixa quieto.\" They love shoutouts, especially \"JOGA SEU JOGO,\" and celebrate when viewers \"torram os pontos\" to redeem rewards. They crack jokes about \"Tim craft, Vivo craft,\" \"bolinho de chuva,\" and \"webcam de chuva.\" They enjoy gaming sessions about Retro multiplayer and reward each other with points, aiming to \"to",
-      "_profileAtCount": 8250,
+      "streamTitle": "",
+      "profile": "Sofrenciaplay's community is a lively bunch of gamers who \"torram os pontos\" and participate in 1h30m gaming sessions. They frequently use slang like \"torrar,\" \"pegar a vaga,\" and \"deixa quieto.\" They love shoutouts, especially \"JOGA SEU JOGO,\" and celebrate when viewers \"torram os pontos\" to redeem rewards. They crack jokes about \"Tim craft, Vivo craft,\" \"bolinho de chuva,\" and \"webcam de chuva.\" They enjoy gaming sessions about Retro multiplayer, aiming to \"torrar os pontos\" and rewarding each",
+      "_profileAtCount": 8471,
       "gameOverride": "",
       "commentMode": "low",
       "lastStreamInfo": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
-      "lastStreamEndedAt": 1785962899585
+      "lastStreamEndedAt": 1786048263237
     },
     "c6f961d4-99d9-43a9-af38-8f62a07c68f9": {
       "username": "guney",
@@ -8278,7 +8282,7 @@
         "totalVotes": 3523,
         "totalSubs": 10,
         "totalChatMessages": 191,
-        "totalStreamMinutes": 629,
+        "totalStreamMinutes": 639,
         "emotes": {
           "💚": 1,
           "🙃": 1,
@@ -8867,8 +8871,8 @@
     },
     "cr33pling": {
       "note": "They're a fan of music, particularly metal and bass guitar, with a good sense of humor and enthusiasm for live performances.",
-      "at": 1785997897770,
-      "n": 2
+      "at": 1786048057813,
+      "n": 3
     },
     "angge_wf": {
       "note": "They have a lighthearted and playful personality, frequently expressing excitement and enthusiasm during the stream, and use playful nicknames like \"ninong\" and \"wf\".",
@@ -8900,8 +8904,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786038016271,
   "auth": {
-    "accessToken": "53a788082860270d302712a01117a5c2",
-    "refreshToken": "ccc54b770d44178684b9391c05d79de8",
+    "accessToken": "6d29f5e0054d1626dd71afc261a61a7b",
+    "refreshToken": "19ff7396dcaff7125f70e674193cb5c5",
     "sessionToken": "33a0c201cc82996a148ee42f6b414074",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
