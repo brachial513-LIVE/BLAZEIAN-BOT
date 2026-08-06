@@ -1009,7 +1009,7 @@
         "totalVotes": 4216,
         "totalSubs": 67,
         "totalChatMessages": 1857,
-        "totalStreamMinutes": 7367,
+        "totalStreamMinutes": 7372,
         "emotes": {
           "📊": 3,
           "🔥": 195,
@@ -1289,7 +1289,7 @@
         "totalVotes": 3440,
         "totalSubs": 7,
         "totalChatMessages": 2967,
-        "totalStreamMinutes": 2631,
+        "totalStreamMinutes": 2636,
         "emotes": {
           "🗳": 278,
           "🤣": 53,
@@ -2104,7 +2104,7 @@
         "totalVotes": 2846,
         "totalSubs": 35,
         "totalChatMessages": 1167,
-        "totalStreamMinutes": 7157,
+        "totalStreamMinutes": 7162,
         "emotes": {
           "😊": 3,
           "🌵": 83,
@@ -6751,7 +6751,7 @@
       "stats": {
         "totalVotes": 1179,
         "totalSubs": 11,
-        "totalChatMessages": 260,
+        "totalChatMessages": 262,
         "totalStreamMinutes": 827,
         "emotes": {
           "❤": 15,
@@ -6762,8 +6762,8 @@
           "🗳": 45,
           "⚠": 1,
           "🎯": 1,
-          "🔴": 8,
-          "🎉": 9,
+          "🔴": 9,
+          "🎉": 10,
           "🚨": 6,
           "😀": 1,
           "👍": 4,
@@ -6802,17 +6802,9 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785909235535
+        "lastChatAt": 1786027567522
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "Wala din dito baril baril lang"
-        },
-        {
-          "user": "ruri666",
-          "msg": "beng beng lang den"
-        },
         {
           "user": "ruri666",
           "msg": "HAHAHAHAHA"
@@ -6844,6 +6836,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -6855,7 +6855,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0e14bbf3-b90e-49a5-ac9c-ec64e50a164d.jpg",
-      "streamTitle": "",
+      "streamTitle": "OTHERSIDE 💜💜 - WAYFINDERS PH — VALORANT",
       "gameOverride": "",
       "followed": true,
       "profile": "We're a chill community that loves VALORANT and good vibes, living that \"valooooo\" life with \"sali ako pagtapos\" moments. We enjoy \"Soundtrip and Valorant Night\", \"VOTE ALERT!!\", and celebrating wins with a good \"🎉\". We love \"🗳️\" and \"🎁\" moments, especially when ruri666 gifts subs, and we're all about playing together, making the game more fun, and hanging out with buddies. We say \"RURAAAAAAAAAAAAAAAAY\" and \"NOXXXXXXXXXXXXXXXXXX!!!!!!\" when we're excited, and \"beng beng lang\" when we're havin",
@@ -7223,7 +7223,7 @@
         "totalVotes": 1716,
         "totalSubs": 7,
         "totalChatMessages": 377,
-        "totalStreamMinutes": 2418,
+        "totalStreamMinutes": 2423,
         "emotes": {
           "❤": 24,
           "🙌": 15,
@@ -8248,10 +8248,10 @@
       "language": "en",
       "joinedAt": 1785809834886,
       "stats": {
-        "totalVotes": 2329,
+        "totalVotes": 3329,
         "totalSubs": 9,
-        "totalChatMessages": 122,
-        "totalStreamMinutes": 289,
+        "totalChatMessages": 124,
+        "totalStreamMinutes": 294,
         "emotes": {
           "💚": 1,
           "🙃": 1,
@@ -8259,7 +8259,7 @@
           "🤓": 1,
           "😂": 1,
           "🤡": 1,
-          "🔥": 1,
+          "🔥": 6,
           "😃": 1
         },
         "emoteNames": {
@@ -8273,17 +8273,9 @@
           "😃": "😃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785982569898
+        "lastChatAt": 1786027452274
       },
       "chatMemory": [
-        {
-          "user": "niruntz",
-          "msg": "Yes serrr!"
-        },
-        {
-          "user": "niruntz",
-          "msg": "See ya guys!"
-        },
         {
           "user": "clutchking",
           "msg": "yes niruntz! we can pla ysometime"
@@ -8315,6 +8307,14 @@
         {
           "user": "niruntz",
           "msg": "Will do!"
+        },
+        {
+          "user": "johngalt",
+          "msg": "yooo clutch!"
+        },
+        {
+          "user": "johngalt",
+          "msg": "🔥🔥🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -8864,8 +8864,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785991950674,
   "auth": {
-    "accessToken": "585197d4759366ac0c625cd43967a0f8",
-    "refreshToken": "fa7a4c7df59481be875e043abfe3762e",
+    "accessToken": "ba94f6a59523011d52428e28f4dfe140",
+    "refreshToken": "5048ef2bdbb90e579b88512ae90d12e5",
     "sessionToken": "33a0c201cc82996a148ee42f6b414074",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
