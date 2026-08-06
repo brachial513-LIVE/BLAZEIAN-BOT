@@ -5063,7 +5063,7 @@
         "totalVotes": 2332,
         "totalSubs": 71,
         "totalChatMessages": 244,
-        "totalStreamMinutes": 1487,
+        "totalStreamMinutes": 1496,
         "emotes": {
           "❤": 13,
           "🙌": 77,
@@ -5780,16 +5780,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 4626,
+        "totalVotes": 4726,
         "totalSubs": 32,
-        "totalChatMessages": 638,
+        "totalChatMessages": 640,
         "totalStreamMinutes": 3826,
         "emotes": {
           "❤": 27,
-          "🙌": 46,
+          "🙌": 47,
           "💚": 2,
           "🔥": 22,
-          "🗳": 219,
+          "🗳": 222,
           "🔴": 34,
           "🎉": 42,
           "📴": 34,
@@ -5810,7 +5810,8 @@
           "😶": 6,
           "🌫": 6,
           "😍": 6,
-          "☕": 3
+          "☕": 3,
+          "💰": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -5838,20 +5839,13 @@
           "😶": "😶",
           "🌫": "🌫",
           "😍": "😍",
-          "☕": "☕"
+          "☕": "☕",
+          "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785970174048
+        "lastChatAt": 1785992177877
       },
       "chatMemory": [
-        {
-          "user": "zsoltech",
-          "msg": "What is that big dinosaur thingy"
-        },
-        {
-          "user": "zsoltech",
-          "msg": "Haha its hugggee"
-        },
         {
           "user": "zsoltech",
           "msg": "Enjoy the stream man. I go back to work"
@@ -5883,6 +5877,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 10 vote(s) (total: 120)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "💰 TIP ALERT!! 💰 @mindgoblin just tipped $10.00!! Thank you so much!! 🙌"
         }
       ],
       "customCommands": {},
@@ -8815,8 +8817,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1785991950674,
   "auth": {
-    "accessToken": "15d64d62294895213a5c446ee37bb31e",
-    "refreshToken": "23415008d93101bf56dd27ace7550240",
+    "accessToken": "e0741720e7f06f4e31b8508986e9cbb6",
+    "refreshToken": "9c525d96310e732ecd3cf8f9b0c0cc0c",
     "sessionToken": "f795f50b9381aaf844aa491ccd832930",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
