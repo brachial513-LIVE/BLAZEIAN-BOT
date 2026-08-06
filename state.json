@@ -1556,7 +1556,7 @@
         "totalVotes": 6245,
         "totalSubs": 33,
         "totalChatMessages": 2877,
-        "totalStreamMinutes": 9577,
+        "totalStreamMinutes": 9582,
         "emotes": {
           "❤": 111,
           "🙌": 82,
@@ -3624,8 +3624,8 @@
       "stats": {
         "totalVotes": 5261,
         "totalSubs": 23,
-        "totalChatMessages": 781,
-        "totalStreamMinutes": 2997,
+        "totalChatMessages": 782,
+        "totalStreamMinutes": 3002,
         "emotes": {
           "❤": 34,
           "🙌": 39,
@@ -3731,13 +3731,9 @@
           "💤": "💤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786053538106
+        "lastChatAt": 1786054517493
       },
       "chatMemory": [
-        {
-          "user": "doktorgrav",
-          "msg": "rgr that"
-        },
         {
           "user": "doktorgrav",
           "msg": "woah"
@@ -3773,6 +3769,10 @@
         {
           "user": "doktorgrav",
           "msg": "good point"
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "brb"
         }
       ],
       "customCommands": {},
@@ -8288,7 +8288,7 @@
         "totalVotes": 3523,
         "totalSubs": 10,
         "totalChatMessages": 191,
-        "totalStreamMinutes": 739,
+        "totalStreamMinutes": 744,
         "emotes": {
           "💚": 1,
           "🙃": 1,
@@ -8910,8 +8910,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786038016271,
   "auth": {
-    "accessToken": "ef8d35a3513a490a3b157e79de8975b0",
-    "refreshToken": "41fd491ac36da016c11f1cbaccf5f40b",
+    "accessToken": "8451e7b1f6c9ad6274d4de5d0b7cb43b",
+    "refreshToken": "f7e9e29065fe5b06d0911cdf066058d1",
     "sessionToken": "33a0c201cc82996a148ee42f6b414074",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
