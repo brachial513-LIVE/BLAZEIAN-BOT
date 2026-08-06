@@ -1556,7 +1556,7 @@
         "totalVotes": 6245,
         "totalSubs": 33,
         "totalChatMessages": 2877,
-        "totalStreamMinutes": 9582,
+        "totalStreamMinutes": 9602,
         "emotes": {
           "❤": 111,
           "🙌": 82,
@@ -1834,7 +1834,7 @@
       "stats": {
         "totalVotes": 5692,
         "totalSubs": 2,
-        "totalChatMessages": 4210,
+        "totalChatMessages": 4211,
         "totalStreamMinutes": 1466,
         "emotes": {
           "❤": 1664,
@@ -1876,7 +1876,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 13,
-          "💜": 154,
+          "💜": 155,
           "🧔": 1,
           "🤺": 1,
           "🥳": 5,
@@ -1988,16 +1988,12 @@
           "💊": "💊",
           "🖐": "🖐"
         },
-        "lastChatAt": 1785995940882,
-        "sendFailStreak": 121,
-        "lastSendFailAt": 1785995941313,
+        "lastChatAt": 1786055220808,
+        "sendFailStreak": 122,
+        "lastSendFailAt": 1786055221344,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 537 votes, @blazingjohn2026!"
-        },
         {
           "user": "rob_osp",
           "msg": "@blazingjohn2026 — thanks for the 537 votes! 🗳️ Every vote helps."
@@ -2017,6 +2013,10 @@
         {
           "user": "rob_osp",
           "msg": "@noxx — thanks for the 5 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         },
         {
           "user": "rob_osp",
@@ -2478,7 +2478,7 @@
       "stats": {
         "totalVotes": 2728,
         "totalSubs": 12,
-        "totalChatMessages": 830,
+        "totalChatMessages": 831,
         "totalStreamMinutes": 3935,
         "emotes": {
           "✨": 14,
@@ -2624,14 +2624,10 @@
           "🎼": "🎼",
           "💕": "💕"
         },
-        "lastChatAt": 1786051629930,
+        "lastChatAt": 1786055523657,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "zer0cache",
-          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:ac8822db-d04d-41d9-bc2b-0b32a8839d11] [emote:d1b3387d-1153-48be-9fad-2e982d5ff0a7] [emote:d1b3387d-1153-48be-9fad-2e982d5ff0a7] [emote:b8d92475-43c4-40eb-837e-c5ee5ab01980] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6]"
@@ -2667,6 +2663,10 @@
         {
           "user": "cachebot",
           "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "[emote:9fc90900-beb2-4aa5-8c45-1e72eef81f82]"
         }
       ],
       "customCommands": {},
@@ -3624,8 +3624,8 @@
       "stats": {
         "totalVotes": 5261,
         "totalSubs": 23,
-        "totalChatMessages": 782,
-        "totalStreamMinutes": 3002,
+        "totalChatMessages": 785,
+        "totalStreamMinutes": 3022,
         "emotes": {
           "❤": 34,
           "🙌": 39,
@@ -3731,21 +3731,9 @@
           "💤": "💤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786054517493
+        "lastChatAt": 1786055368300
       },
       "chatMemory": [
-        {
-          "user": "doktorgrav",
-          "msg": "woah"
-        },
-        {
-          "user": "doktorgrav",
-          "msg": "he is sounds more human"
-        },
-        {
-          "user": "vitrene",
-          "msg": "that took a dark turn"
-        },
         {
           "user": "doktorgrav",
           "msg": "your droid"
@@ -3773,6 +3761,18 @@
         {
           "user": "doktorgrav",
           "msg": "brb"
+        },
+        {
+          "user": "vitrene",
+          "msg": "alright"
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "bak"
+        },
+        {
+          "user": "vitrene",
+          "msg": "welcome back"
         }
       ],
       "customCommands": {},
@@ -8288,7 +8288,7 @@
         "totalVotes": 3523,
         "totalSubs": 10,
         "totalChatMessages": 191,
-        "totalStreamMinutes": 744,
+        "totalStreamMinutes": 764,
         "emotes": {
           "💚": 1,
           "🙃": 1,
