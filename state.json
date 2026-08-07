@@ -1011,7 +1011,7 @@
         "totalVotes": 4256,
         "totalSubs": 72,
         "totalChatMessages": 1943,
-        "totalStreamMinutes": 8066,
+        "totalStreamMinutes": 8071,
         "emotes": {
           "📊": 3,
           "🔥": 200,
@@ -8020,16 +8020,16 @@
       "stats": {
         "totalVotes": 109,
         "totalSubs": 0,
-        "totalChatMessages": 45,
-        "totalStreamMinutes": 399,
+        "totalChatMessages": 47,
+        "totalStreamMinutes": 402,
         "emotes": {
           "❤": 4,
           "🙌": 1,
           "🔥": 13,
           "💚": 3,
           "🤝": 1,
-          "🔴": 3,
-          "🎉": 3,
+          "🔴": 4,
+          "🎉": 4,
           "🗳": 18,
           "📴": 4,
           "👋": 4,
@@ -8053,17 +8053,9 @@
           "📢": "📢"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1785942015038
+        "lastChatAt": 1786105701258
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📢 Shoutout to @angge_wf, streamer of VALORANT! 🔥 Make sure to check out https://blaze.stream/angge_wf and show some support ❤️‍🔥"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @angge_wf, who is live now, currently streaming VALORANT to 7 viewers at https://blaze.stream/angge_wf!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -8095,6 +8087,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 seventh is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -8106,7 +8106,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg",
-      "streamTitle": "",
+      "streamTitle": "Rainy and Cold Stream 😬🔥 — VALORANT",
       "lastStreamInfo": "Chill Stream 😬🔥 — Crypto",
       "lastStreamEndedAt": 1785942009719,
       "gameOverride": "",
@@ -8960,8 +8960,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786088156718,
   "auth": {
-    "accessToken": "72c51cb4f4d4124d2f170f274754420e",
-    "refreshToken": "86839b93c0abb2dd42f26fb9fcc739d3",
+    "accessToken": "398f43fe29da4420f299a1416a73e618",
+    "refreshToken": "ad723582d0c79e0b1d245306e048dba5",
     "sessionToken": "33a0c201cc82996a148ee42f6b414074",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
