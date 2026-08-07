@@ -1010,7 +1010,7 @@
       "stats": {
         "totalVotes": 4256,
         "totalSubs": 72,
-        "totalChatMessages": 1950,
+        "totalChatMessages": 1951,
         "totalStreamMinutes": 8136,
         "emotes": {
           "📊": 3,
@@ -1225,13 +1225,9 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786112468459
+        "lastChatAt": 1786115401311
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 15 damage and earned 5 FoxCoins! Boss HP: 485/500. Your total boss damage: 15. Balance: 1559 FoxCoins."
-        },
         {
           "user": "foxbotai",
           "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 23 damage and earned 7 FoxCoins! Boss HP: 462/500. Your total boss damage: 38. Balance: 1566 FoxCoins."
@@ -1267,6 +1263,10 @@
         {
           "user": "ruri666",
           "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:37719561-c923-4260-b1a5-e3eda10c103d]"
         }
       ],
       "customCommands": {},
@@ -3449,14 +3449,14 @@
       "stats": {
         "totalVotes": 3128,
         "totalSubs": 58,
-        "totalChatMessages": 344,
-        "totalStreamMinutes": 7210,
+        "totalChatMessages": 345,
+        "totalStreamMinutes": 7214,
         "emotes": {
           "❤": 78,
           "🙌": 25,
           "🔥": 28,
-          "🔴": 47,
-          "🎉": 47,
+          "🔴": 48,
+          "🎉": 48,
           "📴": 49,
           "👋": 50,
           "😂": 4,
@@ -3499,14 +3499,10 @@
           "☺": "☺",
           "🤗": "🤗"
         },
-        "lastChatAt": 1786064198445,
+        "lastChatAt": 1786115703676,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "hi hi"
-        },
         {
           "user": "just_for_lucas",
           "msg": "GM 🤗🤗"
@@ -3542,6 +3538,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -3553,7 +3553,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -5561,15 +5561,15 @@
       "stats": {
         "totalVotes": 4001,
         "totalSubs": 70,
-        "totalChatMessages": 434,
+        "totalChatMessages": 437,
         "totalStreamMinutes": 941,
         "emotes": {
           "❤": 16,
           "🙌": 78,
           "🔴": 9,
           "🎉": 9,
-          "📴": 8,
-          "👋": 8,
+          "📴": 9,
+          "👋": 9,
           "🗳": 27,
           "🎁": 140,
           "🤗": 1,
@@ -5594,21 +5594,9 @@
           "😇": "😇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786113591239
+        "lastChatAt": 1786115598942
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 lady_iris is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "ruri666",
-          "msg": "HELLO! GM GM 😇😇"
-        },
         {
           "user": "ruri666",
           "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
@@ -5636,6 +5624,18 @@
         {
           "user": "ldcdld",
           "msg": "live dos campeoes"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5646,13 +5646,13 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "streamTitle": "Hantec 5k - USA session | @DestinoProspero trading student — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1087d984-7048-475d-b8f9-c93c14eefc15.gif",
       "profile": "lady_iris's community is a lively bunch of enthusiasts who love cszinho, Dota, and ARPGs, often using slang like \"vai\" and \"yuppie\" to express excitement. They adore \"yayyyyyyyy\" and \"yuppiiiiii\" when lady_iris is on a roll with her Tetris build, celebrating her skills and \"S2\" moments. They love shoutouts and \"trans muda\" hype.",
       "_profileAtCount": 402,
-      "lastStreamInfo": "cszinho/dota e arpgs — Crypto",
-      "lastStreamEndedAt": 1786053775720,
+      "lastStreamInfo": "Hantec 5k - USA session | @DestinoProspero trading student — Crypto",
+      "lastStreamEndedAt": 1786115593701,
       "nudgedAt": 1786053663388,
       "nudgedKey": "schedule"
     },
@@ -6807,8 +6807,8 @@
       "stats": {
         "totalVotes": 1243,
         "totalSubs": 11,
-        "totalChatMessages": 356,
-        "totalStreamMinutes": 962,
+        "totalChatMessages": 362,
+        "totalStreamMinutes": 982,
         "emotes": {
           "❤": 24,
           "🙌": 17,
@@ -6860,33 +6860,9 @@
           "💛": "💛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786112832730
+        "lastChatAt": 1786115561174
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @missaria_wf, who is live now, currently streaming Overcooked! 2 to 8 viewers at https://blaze.stream/missaria_wf!"
-        },
-        {
-          "user": "botger",
-          "msg": "📢 Shoutout to @missaria_wf, streamer of Overcooked! 2! 🔥 Make sure to check out https://blaze.stream/missaria_wf and show some support ❤️‍🔥"
-        },
-        {
-          "user": "fartvader",
-          "msg": "mahina lang naman hehe..oks parin boses"
-        },
-        {
-          "user": "missaria_wf",
-          "msg": "wala naman"
-        },
-        {
-          "user": "missaria_wf",
-          "msg": "laksan mo lang volume ng mic mo"
-        },
-        {
-          "user": "fartvader",
-          "msg": "rinig siya pag sa headset..minimal lang"
-        },
         {
           "user": "missaria_wf",
           "msg": "wala ako sinabeng meron hahaha"
@@ -6902,6 +6878,30 @@
         {
           "user": "missaria_wf",
           "msg": "wag ka na mag valo"
+        },
+        {
+          "user": "xs1rk",
+          "msg": "GL Ruri"
+        },
+        {
+          "user": "ruri666",
+          "msg": "Thankyou @xs1rk"
+        },
+        {
+          "user": "ruri666",
+          "msg": "welcome in my stream"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "xs1rk",
+          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
+        },
+        {
+          "user": "ruri666",
+          "msg": "[emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea]"
         }
       ],
       "customCommands": {},
@@ -7527,8 +7527,8 @@
       "stats": {
         "totalVotes": 4289,
         "totalSubs": 2,
-        "totalChatMessages": 585,
-        "totalStreamMinutes": 1248,
+        "totalChatMessages": 598,
+        "totalStreamMinutes": 1268,
         "emotes": {
           "❤": 16,
           "🙌": 10,
@@ -7610,48 +7610,48 @@
           "😅": "😅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786114713084
+        "lastChatAt": 1786115452291
       },
       "chatMemory": [
         {
-          "user": "foxcrochet",
-          "msg": "Lame asses"
+          "user": "fuyu",
+          "msg": "I was going to use them for myself"
         },
         {
           "user": "fuyu",
-          "msg": "wait blaze has an app?"
-        },
-        {
-          "user": "foxcrochet",
-          "msg": "Wooooooo"
+          "msg": "but arena emote project never happened"
         },
         {
           "user": "fuyu",
-          "msg": "trying to my emote palates"
+          "msg": "maybe I will just give them to you"
         },
         {
           "user": "fuyu",
-          "msg": "find*"
-        },
-        {
-          "user": "foxcrochet",
-          "msg": "There should be skrunky emotes"
+          "msg": "if it's into your ling"
         },
         {
           "user": "fuyu",
-          "msg": "found my palate"
-        },
-        {
-          "user": "foxcrochet",
-          "msg": "New fortnite skin lol"
+          "msg": "liking*"
         },
         {
           "user": "fuyu",
-          "msg": "man xcome look"
+          "msg": "I will"
         },
         {
           "user": "fuyu",
-          "msg": "if it's there"
+          "msg": "just deciding on character"
+        },
+        {
+          "user": "fuyu",
+          "msg": "I'll just change the character"
+        },
+        {
+          "user": "fuyu",
+          "msg": "yea let me decide on the new character"
+        },
+        {
+          "user": "fuyu",
+          "msg": "I will just change it to them"
         }
       ],
       "customCommands": {},
@@ -8922,8 +8922,8 @@
     },
     "cr33pling": {
       "note": "They're a fan of music, particularly metal and bass guitar, with a good sense of humor and enthusiasm for live performances.",
-      "at": 1786048057813,
-      "n": 3
+      "at": 1786115492857,
+      "n": 4
     },
     "angge_wf": {
       "note": "They have a lighthearted and playful personality, frequently expressing excitement and enthusiasm during the stream, and use playful nicknames like \"ninong\" and \"wf\".",
@@ -8973,6 +8973,11 @@
     "soulflux": {
       "note": "They appear to be enthusiastic about the livestreamer's content, enjoy rewatching and listening to the streamer while working, and have a playful sense of humor.",
       "at": 1786104817863,
+      "n": 1
+    },
+    "fuyu": {
+      "note": "Existing notes: (none yet) This person enjoys gaming, possibly with a focus on AI, and has a playful, sarcastic sense of humor.",
+      "at": 1786114832856,
       "n": 1
     }
   },
