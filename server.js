@@ -1186,6 +1186,7 @@ How you talk:
 - Warm, kind, playful. A little chaotic is great, but never mean, never cringe-random, never spammy.
 - Be QUICK-WITTED and a bit cheeky: playful comebacks, light friendly teasing, clever short one-liners when the vibe invites it. Humor lands SHORT. Roast situations, not people — unless they clearly started friendly banter, then banter right back. Never mean, never punching down.
 - PLAY ALONG WITH BANTER — DON'T DEFUSE IT. When someone sets up a joke fight, a challenge, a "who would win", or trash-talks you or another bot, JOIN IN with confidence and swagger. Never answer with "no need to fight, let's keep the good vibes" — that's the reaction of someone who missed the joke, and it kills the fun. Proven fail: told to "fight foxbotai to the death", the bot replied "easy does it, no need for a fight". The right move is to accept the bit and be funny with it — brag, threaten comically, reference your own comic lore ("if you thought the red one in the comics was strong, ask the nine-tailed fox how that went for him"). Toward FRIENDS and friendly bots keep it clearly affectionate, more wink than knife. Real hostility, hate or anything NSFW is still off — everything short of that, go for it.
+- DARK HUMOR & SARCASM ARE WELCOME: you get edgy, deadpan, morbid and ironic jokes, and you can dish them out — dry sarcasm, gallows humor, absurd exaggeration, roasting a situation, and playing along with an edgy bit someone else started (like riffing back on a "gay enemies ftw" type joke about a game). Don't flinch, don't go wholesome, don't add a disclaimer when a joke is dark — understand it and match it, sharp and quick. Dry and clever beats loud and shocking. The only hard lines that stay: nothing genuinely hateful aimed at a REAL person (no slurs used to actually demean someone, no punching down on who someone truly is), and nothing NSFW. Everything short of that is fair game.
 - Don't moralise, don't lecture, don't correct people's language or politics, and don't add disclaimers nobody asked for. You're a chat mate, not a supervisor.
 - VARY your energy — you do NOT need to hype everything to the max or shower people with over-the-top praise every time. Often just be chill, natural and genuine. Constant maximum flattery ("you're the KING", "this is EPIC", "absolute LEGEND") every message reads as fake — keep the big hype for when it's genuinely earned. Understated and real beats loud and gushing.
 - Use emoji lightly (💚🔥👀 etc.) — don't overdo it. No hashtags, no markdown, no quotation marks around your reply.
@@ -1931,11 +1932,11 @@ function shouldCelebrate(ch, channelId) {
 }
 
 const SMALLTALK_TRIGGERS = [
-  { key: "gg",    pattern: /\bgg\b|\bgood game\b/i, cooldown: 90000,  prob: 0.60,
+  { key: "gg",    pattern: /\bgg\b|\bgood game\b/i, cooldown: 90000,  prob: 0.60, literal: true,
     responses: ["GG!! 🔥💚 absolute legend behavior", "GG in chat!! 💚 that was clean", "GG!! 💚🔥 let's gooo"] },
-  { key: "gm",    pattern: /\bgm\b|\bgood morning\b/i, cooldown: 120000, prob: 0.70,
+  { key: "gm",    pattern: /\bgm\b|\bgood morning\b/i, cooldown: 120000, prob: 0.70, literal: true,
     responses: ["GM!! ☀️💚 hope your day absolutely slaps", "Good morning!! ☀️ welcome to the chaos 💚🔥", "GM gm gm!! ☀️ let's GET it 💚", "GM!! ☀️💚 you showed up, that already makes today better 🫶"] },
-  { key: "gn",    pattern: /\bgn\b|\bgood night\b/i, cooldown: 120000, prob: 0.70,
+  { key: "gn",    pattern: /\bgn\b|\bgood night\b/i, cooldown: 120000, prob: 0.70, literal: true,
     responses: ["GN!! 🌙💚 sleep well, come back soon 🫶", "Good night!! 🌙 take care of yourself 💚", "GN!! 💚 you'll be missed!! 🌙🫶", "GN!! 🌙💚 dream of good games 🎮"] },
   { key: "hearts", pattern: /[❤️💚🫶💕💗💖💝🥰😍💓💞🩷🧡💛💙💜🤍🖤]/u, cooldown: 60000, prob: 0.55,
     responses: ["💚 right back at you!!", "awww 🫶💚 we love you too!!", "so much love in this chat I genuinely cannot 💚😭", "💚💚💚 the vibes in here are immaculate", "giving that love right back 🫶💚🔥"] },
@@ -1943,7 +1944,7 @@ const SMALLTALK_TRIGGERS = [
     responses: ["😂💚 same honestly", "bro I'm actually crying 😂🔥", "LMAOO 💚 not me cackling right now", "😂😂💚 I can't", "okay that got me ngl 😂💚"] },
   { key: "hype",  pattern: /\bpog\b|\bpoggers\b|\bpogchamp\b|\blets go\b|\blet's go\b|\blfg\b|\bhype\b|\bbanger\b/i, cooldown: 90000, prob: 0.60,
     responses: ["POG!! 🔥💚", "POGGERS IN CHAT!! 🔥🔥💚", "LET'S GOOOO!! 🔥💚", "W!! 💚🔥 absolute W", "HYPE!! 🔥🔥🔥💚 let's GO"] },
-  { key: "f",     pattern: /^\s*f\s*$|^f in chat\s*$/i, cooldown: 60000, prob: 0.70,
+  { key: "f",     pattern: /^\s*f\s*$|^f in chat\s*$/i, cooldown: 60000, prob: 0.70, literal: true,
     responses: ["F 🫡💚 we pay our respects", "F in chat 🫡💚", "F 🫡 rip 💚"] },
   { key: "rip",   pattern: /\brip\b/i, cooldown: 90000, prob: 0.50,
     responses: ["RIP 🫡💚 F in chat", "rip 😔💚 we remember", "F 🫡 RIP 💚"] },
@@ -2083,6 +2084,10 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
       await sendChatT(channelId, getRandom(greetings));
       return;
     }
+    // Short, unambiguous acronyms (gg/gm/gn/f) answer straight from their canned pool. Letting the AI
+    // freestyle on a two-letter token risks a misread — e.g. replying "good morning" to "gg" (good game),
+    // which reads as not understanding the chat. The richer triggers below still get a fresh AI reaction.
+    if (trigger.literal) { await sendChatT(channelId, getRandom(trigger.responses)); return; }
     // AI reaction first (channel-aware, always fresh) → canned pool as instant fallback
     const aiLine = await aiShout(ch, `Someone in ${ch.username}'s chat wrote "${msg}" (it matches the "${trigger.key}" vibe). React briefly and in-character to that vibe — like a real regular of this chat.`);
     await sendChatT(channelId, aiLine || getRandom(trigger.responses));
