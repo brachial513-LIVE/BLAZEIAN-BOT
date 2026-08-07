@@ -2502,12 +2502,12 @@
       "stats": {
         "totalVotes": 2735,
         "totalSubs": 12,
-        "totalChatMessages": 833,
-        "totalStreamMinutes": 3962,
+        "totalChatMessages": 834,
+        "totalStreamMinutes": 3966,
         "emotes": {
           "✨": 14,
           "🖥": 20,
-          "🔥": 96,
+          "🔥": 99,
           "👋": 38,
           "🎬": 39,
           "❤": 64,
@@ -2648,14 +2648,10 @@
           "🎼": "🎼",
           "💕": "💕"
         },
-        "lastChatAt": 1786139765329,
+        "lastChatAt": 1786140877198,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "wow"
-        },
         {
           "user": "agent00zani",
           "msg": "you popping today"
@@ -2691,6 +2687,10 @@
         {
           "user": "cachebot",
           "msg": "🖥️  Zer0Cache, Thanks for Testing CacheBot out!"
+        },
+        {
+          "user": "guney",
+          "msg": "🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -3102,7 +3102,7 @@
         "totalVotes": 673,
         "totalSubs": 9,
         "totalChatMessages": 88,
-        "totalStreamMinutes": 1586,
+        "totalStreamMinutes": 1590,
         "emotes": {
           "💃": 9,
           "🔥": 5,
@@ -7027,8 +7027,8 @@
       "stats": {
         "totalVotes": 4215,
         "totalSubs": 0,
-        "totalChatMessages": 8480,
-        "totalStreamMinutes": 3007,
+        "totalChatMessages": 8483,
+        "totalStreamMinutes": 3011,
         "emotes": {
           "❤": 19,
           "🙌": 16,
@@ -7226,17 +7226,9 @@
           "🚀": "🚀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786140611764
+        "lastChatAt": 1786140800344
       },
       "chatMemory": [
-        {
-          "user": "paulo_santos20",
-          "msg": "Depois dessa live aqui, terá uma pausa, e à noite tem Mania DK?"
-        },
-        {
-          "user": "paulo_santos20",
-          "msg": "OK!"
-        },
         {
           "user": "solucao",
           "msg": "Pausa do edao"
@@ -7268,6 +7260,14 @@
         {
           "user": "botger",
           "msg": "🔴 sofrenciaplay is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "junior7_",
+          "msg": "Anônimo nosso brother"
+        },
+        {
+          "user": "junior7_",
+          "msg": "Ótimo gosto"
         }
       ],
       "customCommands": {},
@@ -7295,7 +7295,7 @@
       "stats": {
         "totalVotes": 1736,
         "totalSubs": 8,
-        "totalChatMessages": 423,
+        "totalChatMessages": 424,
         "totalStreamMinutes": 2600,
         "emotes": {
           "❤": 27,
@@ -7368,13 +7368,9 @@
           "😇": "😇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786139836481
+        "lastChatAt": 1786140774660
       },
       "chatMemory": [
-        {
-          "user": "piweb",
-          "msg": "Haven't played in 2 weeks"
-        },
         {
           "user": "piweb",
           "msg": "Can't play rn but probably next week"
@@ -7410,6 +7406,10 @@
         {
           "user": "zer0cache",
           "msg": "and all using maxigun"
+        },
+        {
+          "user": "guney",
+          "msg": "yeah bro maxigun"
         }
       ],
       "customCommands": {},
@@ -7542,7 +7542,7 @@
       "stats": {
         "totalVotes": 4507,
         "totalSubs": 2,
-        "totalChatMessages": 799,
+        "totalChatMessages": 800,
         "totalStreamMinutes": 1409,
         "emotes": {
           "❤": 20,
@@ -7555,8 +7555,8 @@
           "💨": 1,
           "😶": 15,
           "🌫": 15,
-          "🤣": 12,
-          "😂": 12,
+          "🤣": 14,
+          "😂": 13,
           "📴": 16,
           "👋": 17,
           "🚨": 24,
@@ -7627,13 +7627,9 @@
           "👏": "👏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786140494900
+        "lastChatAt": 1786140688108
       },
       "chatMemory": [
-        {
-          "user": "meyetechnicals",
-          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️"
-        },
         {
           "user": "desirablebottom",
           "msg": "wake TF up!"
@@ -7669,6 +7665,10 @@
         {
           "user": "fluffy",
           "msg": "Howdy"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "😂🤣🤣"
         }
       ],
       "customCommands": {},
@@ -9012,8 +9012,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786133384642,
   "auth": {
-    "accessToken": "3153298216357bcf89130ad03e919d8b",
-    "refreshToken": "3cd18d6a48b863b54c03ca4cd065ba09",
+    "accessToken": "db90a25518660fdcc29adf5818ed7bf4",
+    "refreshToken": "ea93c6b8ead47a794864ff19b89bbeb1",
     "sessionToken": "c4726dfbff051ca2e2e0d3d4b01f32c3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
