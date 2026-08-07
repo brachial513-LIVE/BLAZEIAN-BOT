@@ -1772,6 +1772,18 @@ function pushEmote(channelId, e, isImg) {
   if (recentEmotes[channelId].length > 80) recentEmotes[channelId].shift();
 }
 
+// channelId -> [{user, msg, emotes:[url], ts}] rolling buffer for the OBS CHAT overlay (/overlay/chat).
+// This is the robust, self-hosted replacement for Social Stream Ninja's Blaze capture: SSN scrapes Blaze's
+// web page and breaks on every Blaze redesign, whereas the bot rides Blaze's real event connection, so it
+// keeps working. Twitch/YouTube stay in SSN; Blaze pops in from here as its own transient Browser Source.
+const recentChat = {}; // rolling buffer, capped so memory stays tiny
+function pushChat(channelId, user, msg, emotes) {
+  if (!channelId || !user || !msg) return;
+  if (!recentChat[channelId]) recentChat[channelId] = [];
+  recentChat[channelId].push({ user, msg, emotes: (emotes || []).slice(0, 6), ts: Date.now() });
+  if (recentChat[channelId].length > 60) recentChat[channelId].shift();
+}
+
 // Live reactions for the running-mascot overlay: an event here makes the on-screen Blazeian
 // jump / cheer / heart. The overlay polls /api/react/:username and plays the matching pose.
 const overlayReactions = {}; // channelId -> { type, name, ts }
@@ -2532,6 +2544,7 @@ async function handleEvent(message) {
       ch.stats.totalChatMessages++;
       ch.stats.lastChatAt = Date.now(); // feeds the admin activity leaderboard's "last seen"
       const emotes = payload.message?.emotes || payload.emotes || [];
+      const emoteUrls = []; // custom-emote image URLs in THIS message, shown inline in the chat overlay
       if (Array.isArray(emotes) && emotes.length) {
         // Confirms the real payload shape live — e.g. reports of a custom emote (like a "green heart")
         // not rendering on the emote-wall overlay: this shows whether Blaze actually sent a usable
@@ -2541,6 +2554,7 @@ async function handleEvent(message) {
           const id = em.id || em.emoteId, name = em.name || em.emoteName || id;
           if (id) { ch.stats.emotes[id] = (ch.stats.emotes[id] || 0) + 1; ch.stats.emoteNames[id] = name; }
           const url = em.url || em.imageUrl || em.image;
+          if (url) emoteUrls.push(url);
           pushEmote(channelId, url || name, !!url); // feed the emote-wall overlay
         });
       }
@@ -2560,6 +2574,7 @@ async function handleEvent(message) {
         if (ch.chatMemory.length > 10) ch.chatMemory.shift();
         recordSample(channelId, user, msg); // feed the self-learning channel profile
         if (!senderIsBot) {
+          pushChat(channelId, user, msg, emoteUrls); // feed the OBS chat overlay (real humans only)
           recordPersonSample(user, msg); // feed the per-person memory distiller
           maybeNudgeOwner(channelId, user, msg).catch(() => {});
         }
@@ -2874,6 +2889,7 @@ function renderForms(actionPrefix, channelField) {
 // OBS overlay links for a channel (shown in the streamer dashboard so everyone can grab their own).
 function renderOverlaySection(username) {
   const emoteUrl  = `${SELF_URL}/overlay/emotes/${encodeURIComponent(username)}`;
+  const chatUrl   = `${SELF_URL}/overlay/chat/${encodeURIComponent(username)}`;
   const viewerUrl = `${SELF_URL}/overlay/viewers/${encodeURIComponent(username)}`;
   const mascotUrl = `${SELF_URL}/overlay/mascot/${encodeURIComponent(username)}`;
   const runUrl    = `${SELF_URL}/overlay/run/${encodeURIComponent(username)}`;
@@ -2884,6 +2900,9 @@ function renderOverlaySection(username) {
     <label>🎉 Emote Wall — emotes float across your stream</label>
     <input readonly onclick="this.select()" value="${esc(emoteUrl)}">
     <p class="hint">OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. Too big/small or on-screen too briefly? Tune it with <code>?size=26&amp;vary=16&amp;dur=12&amp;durvary=6</code> (size/vary = emote pixel size, dur/durvary = seconds on screen) — e.g. <code>…/emotes/${esc(username)}?size=20&amp;dur=16</code>. Add <code>&amp;test=1</code> to preview a live demo loop in your browser while you tune it, no real chat needed.</p>
+    <label style="margin-top:14px;">💬 Blaze Chat — live chat pops onto your stream (robust, no Social Stream Ninja needed)</label>
+    <input readonly onclick="this.select()" value="${esc(chatUrl)}">
+    <p class="hint">Shows your <b>Blaze</b> chat as transient popups — the self-hosted replacement for tools that scrape Blaze and break on every update. Twitch/YouTube can keep coming from your existing setup; this just adds Blaze reliably. OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. Tune: <code>?size=22&amp;dur=14&amp;max=8&amp;width=520&amp;pos=bottom-left</code> (<code>pos</code> = <code>bottom-left</code>/<code>top-left</code>/<code>bottom-right</code>/<code>top-right</code>). Add <code>&amp;test=1</code> to preview a demo loop while you tune it.</p>
     <label style="margin-top:14px;">👁️ Live Viewer Count (BLAZE)</label>
     <input readonly onclick="this.select()" value="${esc(viewerUrl)}">
     <p class="hint">OBS → + → Browser → paste URL → Width <b>340</b>, Height <b>110</b>. Red dot = offline, green = live.</p>
@@ -4511,6 +4530,94 @@ app.get("/overlay/emotes/:username", (req, res) => {
     }catch(e){}
   }
   setInterval(poll,4000); poll();
+  `}
+</script></body></html>`);
+});
+
+// Live feed of recent CHAT messages for the chat overlay (polled by the overlay). No auth — public chat only.
+app.get("/api/chat/:username", (req, res) => {
+  const channelId = findChannelByUsername(req.params.username);
+  res.set("Access-Control-Allow-Origin", "*");
+  if (!channelId) return res.json({ now: Date.now(), messages: [] });
+  const since = parseInt(req.query.since, 10) || 0;
+  const list = (recentChat[channelId] || []).filter(x => x.ts > since);
+  res.json({ now: Date.now(), messages: list });
+});
+
+// The Blaze CHAT overlay page. In OBS: Browser Source → this URL, transparent background, 1920x1080.
+// Transient popups (each line fades out after ?dur seconds) — the self-hosted replacement for SSN's
+// Blaze capture. Tunables via query string so it fits any OBS layout without a code change:
+//   ?size=22 (font px) ?dur=14 (seconds a line stays) ?max=8 (max lines on screen) ?width=520 (px)
+//   ?pos=bottom-left|top-left|bottom-right|top-right ?test=1 (demo loop, no real chat needed)
+app.get("/overlay/chat/:username", (req, res) => {
+  const clamp = (v, lo, hi, def) => { const n = parseFloat(v); return Number.isFinite(n) ? Math.max(lo, Math.min(hi, n)) : def; };
+  const fontSize = clamp(req.query.size, 12, 80, 22);
+  const dur      = clamp(req.query.dur, 3, 120, 14);
+  const maxLines = clamp(req.query.max, 1, 30, 8);
+  const width    = clamp(req.query.width, 200, 1200, 520);
+  const posRaw   = String(req.query.pos || "bottom-left");
+  const pos = ["bottom-left","top-left","bottom-right","top-right"].includes(posRaw) ? posRaw : "bottom-left";
+  const testMode = req.query.test === "1" || req.query.test === "true";
+  const vert  = pos.startsWith("top") ? "top:2vh;" : "bottom:2vh;";
+  const horiz = pos.endsWith("right") ? "right:2vw;" : "left:2vw;";
+  const colTop = pos.startsWith("top"); // top positions stack downward (newest at bottom of the visual stack)
+  res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Blaze Chat</title>
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:transparent;
+    font-family:'Segoe UI',system-ui,sans-serif;}
+  #feed{position:fixed;${vert}${horiz}width:${width}px;max-width:96vw;display:flex;
+    flex-direction:${colTop ? "column" : "column-reverse"};gap:8px;}
+  .msg{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px;padding:8px 12px;border-radius:14px;
+    background:rgba(10,14,12,.62);backdrop-filter:blur(2px);
+    box-shadow:0 2px 10px rgba(0,0,0,.55);border:1px solid rgba(124,252,154,.18);
+    font-size:${fontSize}px;line-height:1.25;color:#f2fff6;
+    text-shadow:0 1px 2px rgba(0,0,0,.9);
+    animation:pop .35s cubic-bezier(.2,1.3,.4,1) both;will-change:transform,opacity;}
+  .msg.out{animation:fade .5s ease forwards;}
+  .badge{flex:0 0 auto;font-size:.82em;font-weight:700;color:#0a0e0c;background:#7CFC9A;
+    border-radius:5px;padding:1px 5px;line-height:1.3;}
+  .user{font-weight:700;}
+  .user::after{content:':';color:#9fb7a8;font-weight:400;margin-left:1px;}
+  .text{word-break:break-word;}
+  .text img{height:1.15em;width:auto;vertical-align:-.2em;margin:0 1px;}
+  @keyframes pop{0%{opacity:0;transform:translateY(12px) scale(.96);}100%{opacity:1;transform:none;}}
+  @keyframes fade{to{opacity:0;transform:translateY(-6px);}}
+</style></head><body>
+<div id="feed"></div>
+<script>
+  const USER=${JSON.stringify(req.params.username)};
+  const DUR=${dur}, MAX=${maxLines};
+  const feed=document.getElementById('feed');
+  // stable per-user color: hash the name to a pleasant hue (green-biased to match the Blaze/GMC look)
+  function userColor(name){let h=0;for(let i=0;i<name.length;i++)h=(h*31+name.charCodeAt(i))>>>0;
+    const hue=h%360;return 'hsl('+hue+',70%,68%)';}
+  function render(m){
+    const el=document.createElement('div');el.className='msg';
+    const b=document.createElement('span');b.className='badge';b.textContent='B';el.appendChild(b);
+    const u=document.createElement('span');u.className='user';u.style.color=userColor(m.user);
+    u.textContent=m.user;el.appendChild(u);
+    const t=document.createElement('span');t.className='text';t.textContent=m.msg;
+    (m.emotes||[]).forEach(url=>{const img=document.createElement('img');img.src=url;
+      img.onerror=()=>img.remove();t.appendChild(document.createTextNode(' '));t.appendChild(img);});
+    el.appendChild(t);
+    feed.appendChild(el);
+    while(feed.children.length>MAX) feed.removeChild(feed.firstChild);
+    setTimeout(()=>{el.classList.add('out');setTimeout(()=>el.remove(),500);},DUR*1000);
+  }
+  ${testMode ? `
+  const DEMO=[['clutchking','GM everyone 💚',[]],['hollowgames','lets gooo 🔥',[]],
+    ['brachial513','the bot is live again haha',[]],['angge_wf','gm vlutch 🫶',[]],
+    ['JohnGalt','emotes!! 😂',[]],['Utku','new feature haha',[]]];
+  let di=0;setInterval(()=>{const d=DEMO[di++%DEMO.length];render({user:d[0],msg:d[1],emotes:d[2]});},1600);
+  ` : `
+  let since=0;
+  async function poll(){
+    try{const r=await fetch('/api/chat/'+encodeURIComponent(USER)+'?since='+since);
+      const d=await r.json();since=d.now||since;
+      (d.messages||[]).forEach((m,i)=>setTimeout(()=>render(m),i*140));
+    }catch(e){}
+  }
+  setInterval(poll,3000);poll();
   `}
 </script></body></html>`);
 });
