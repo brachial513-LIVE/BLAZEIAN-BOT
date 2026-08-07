@@ -3234,14 +3234,14 @@
       "stats": {
         "totalVotes": 5362,
         "totalSubs": 10,
-        "totalChatMessages": 2346,
-        "totalStreamMinutes": 5365,
+        "totalChatMessages": 2349,
+        "totalStreamMinutes": 5370,
         "emotes": {
           "❤": 28,
           "🙌": 54,
           "🗳": 309,
           "🔴": 34,
-          "🎉": 56,
+          "🎉": 57,
           "📴": 32,
           "👋": 35,
           "🔥": 104,
@@ -3249,7 +3249,7 @@
           "🤖": 1,
           "💚": 6,
           "🤣": 9,
-          "🚨": 132,
+          "🚨": 138,
           "😎": 3,
           "😅": 4,
           "😆": 41,
@@ -3344,22 +3344,10 @@
           "🙄": "🙄",
           "😓": "😓"
         },
-        "lastChatAt": 1786067532407,
+        "lastChatAt": 1786068078683,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "johngalt",
-          "msg": "yoooo @nadietv"
-        },
-        {
-          "user": "johngalt",
-          "msg": "how you doing?"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 500 votes, @JohnGalt!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @JohnGalt just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
@@ -3387,6 +3375,18 @@
         {
           "user": "avisi",
           "msg": "killing it"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@wisewoof is raiding with a party of 3! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @wisewoof is raiding with a party of 3! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "sounding good nadie"
         }
       ],
       "customCommands": {},
@@ -5821,7 +5821,7 @@
         "totalVotes": 5034,
         "totalSubs": 34,
         "totalChatMessages": 664,
-        "totalStreamMinutes": 4017,
+        "totalStreamMinutes": 4022,
         "emotes": {
           "❤": 29,
           "🙌": 53,
@@ -8715,9 +8715,9 @@
       "n": 4
     },
     "cactus_jack440": {
-      "note": "They appear to be enthusiastic about the livestream and have a sense of humor, often using emojis and playful language. Existing notes: They appear to be enthusiastic about the livestream and have a sense of humor…",
-      "at": 1785540039265,
-      "n": 1
+      "note": "They appear to be enthusiastic about the livestream and have a sense of humor, often using emojis and playful language, enjoying the Captain's antics and emotes.",
+      "at": 1786067857892,
+      "n": 2
     },
     "guney": {
       "note": "They are a regular participant in a livestream, likely playing games, and seem to have a friendly relationship with the streamer and other viewers, with a focus on friendly and enthusiastic interactions, and they appear…",
@@ -8914,8 +8914,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786038016271,
   "auth": {
-    "accessToken": "02847e96ae0e328956b0607baf263457",
-    "refreshToken": "d9406ea73342bf525a417d2ece2c9ff4",
+    "accessToken": "cad29bb15b995d7f1af2ad2dcfdc369b",
+    "refreshToken": "02d9b93ac2ebb6bd952d454814315163",
     "sessionToken": "33a0c201cc82996a148ee42f6b414074",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
