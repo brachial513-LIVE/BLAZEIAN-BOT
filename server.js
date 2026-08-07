@@ -1182,6 +1182,7 @@ How you talk:
 - Reply in ONE short chat message (1-2 sentences, like a real person in stream chat). Never long.
 - ACTUALLY respond to what the person said — be specific and contextual. Never generic, never a random unrelated phrase.
 - NEVER INVENT FAKE SPECIFIC-SOUNDING DETAILS: if you don't actually have a real, concrete detail about THIS channel/game/event (from channelContext, the instruction you were given, or what someone actually said), keep hype GENERAL and vibe-based — energy, warmth, welcome — instead of making up specific-sounding names, phrases, or "features" that aren't real just to sound personalized.
+- NEVER FIRE FAKE EVENT ALERTS: never write "VOTE ALERT", "NEW FOLLOWER", "NEW SUB", "RAID INCOMING", "GIFTED SUB" or any similar hype-banner inside a normal conversational reply. Those lines are only ever posted automatically, on their own, when a REAL event actually happens (handled separately). Dropping one into a chat reply invents an event that did not occur and misleads chat. Proven fail: replied to "take good care of Noxx" with a random "VOTE ALERT!!" when nobody had voted. When you are just talking, only talk.
 - NEVER DEFLECT INTO SAFE FILLER: engage directly with casual remarks, corrections, jokes and opinions — including topics that feel slightly unusual (pronouns, identity, politics-adjacent). Agree, joke back, acknowledge — whatever actually fits, like a real chat regular. Never dodge into "let's keep it positive / let's focus on the stream" filler; it reads as evasive and like you didn't understand. Proven fail: answered a pronoun joke with "no need to worry about pronouns, let's stay focused on the gameplay". Only steer away if something is genuinely hostile, hateful or NSFW.
 - Warm, kind, playful. A little chaotic is great, but never mean, never cringe-random, never spammy.
 - Be QUICK-WITTED and a bit cheeky: playful comebacks, light friendly teasing, clever short one-liners when the vibe invites it. Humor lands SHORT. Roast situations, not people — unless they clearly started friendly banter, then banter right back. Never mean, never punching down.
@@ -1235,6 +1236,7 @@ Rules for the line:
 - Use emoji lightly. No hashtags, no markdown, no quotation marks around your reply.
 - If a concrete number or name is given, state it PLAINLY and literally, exactly as given. NEVER output a placeholder like "[streamer]" or "[name]".
 - NEVER invent specific-sounding details (fake features, made-up event names, things you weren't told). If you have nothing concrete, keep it warm and general.
+- Do NOT build a welcome or greeting around a specific GAME, and never call the chat "the [game] family" or "the [game] game nights" (proven fail: "Welcome ruri666 to the Wilder World game nights" and "Welcome zimzimma to our Wilder World family" when nobody knew that game was even on). The game you may see in context can be stale, from an old session, or simply not what's live right now — forcing it in reads as scripted and is often just wrong. Welcome people to the STREAM and the community in general. Only name the game if the person's own message is actually about it.
 - Never mention ANY other streamer, community, clan or crew — not "the GMC", not "Fox Spirits", nobody. Proven fail: "saboomafoo to the community!" dropped into a reply in a completely different streamer's chat, confusing everyone.
 - Output ONLY the message itself. Never describe what you are about to write. Proven fail: the bot posted "Here's your celebration response, Blazeian-style, in character, and completely in English." as the actual chat message.
 - Never mention being an AI, a model, or "programming". Stay in character.
@@ -3501,6 +3503,22 @@ app.get("/", (req, res) => {
       .comicteaser-art img{width:100%;display:block;}
       .comicteaser-lock{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;background:rgba(6,12,6,.35);}
       .comicteaser-locktext{color:#e8ffe8;font-size:16px;font-weight:700;line-height:1.4;text-shadow:0 2px 8px rgba(0,0,0,.7);}
+      .teaserrow{display:flex;flex-wrap:wrap;gap:20px;align-items:stretch;justify-content:center;max-width:1080px;margin:34px auto 0;}
+      .teaserrow .comicteaser{margin:0;flex:1 1 340px;max-width:520px;}
+      .cmdcard{position:relative;overflow:hidden;flex:1 1 340px;max-width:520px;text-align:left;
+        background:linear-gradient(135deg,rgba(34,60,26,.55),rgba(14,20,12,.92));
+        border:2px solid #2c5a2c;border-radius:16px;padding:20px 22px;box-shadow:0 0 26px rgba(92,244,114,.18);}
+      .cmdcard h3{margin:0 0 6px;color:#5cf472;font-size:20px;}
+      .cmdintro{color:#cfeccf;font-size:14px;line-height:1.5;margin:0 0 14px;}
+      .cmdgroup{margin:0 0 12px;font-size:13.5px;color:#bcd6bc;line-height:1.9;position:relative;z-index:1;}
+      .cmdlabel{display:block;color:#7CFC9A;font-weight:800;font-size:12px;letter-spacing:1px;text-transform:uppercase;margin-bottom:2px;}
+      .cmdcard code{background:#0f1a0f;border:1px solid #2c5a2c;color:#ffd23f;padding:2px 7px;border-radius:6px;font-size:13px;white-space:nowrap;}
+      .cmdcrown{position:absolute;right:-12px;bottom:-10px;width:120px;opacity:.10;pointer-events:none;filter:drop-shadow(0 0 6px rgba(124,252,154,.4));}
+      .cmdlang{position:absolute;top:12px;right:14px;display:flex;gap:6px;z-index:2;}
+      .flagbtn{background:rgba(0,0,0,.35);border:1px solid #2c5a2c;border-radius:5px;padding:2px;cursor:pointer;line-height:0;opacity:.55;transition:opacity .15s,border-color .15s;}
+      .flagbtn:hover,.flagbtn.on{opacity:1;border-color:#5cf472;}
+      .flagbtn svg{display:block;width:26px;height:18px;border-radius:2px;}
+      .cmdcard h3{padding-right:70px;}
       .lbwrap{max-width:480px;margin:0 auto;display:flex;flex-direction:column;gap:6px;}
       .lbrow{display:flex;align-items:center;gap:12px;background:rgba(18,26,17,.7);border:1px solid #223822;border-radius:10px;padding:9px 16px;font-size:14px;}
       .lbrow-top{border-color:#5cf472;background:rgba(34,60,26,.55);box-shadow:0 0 16px rgba(92,244,114,.25);}
@@ -3545,15 +3563,58 @@ app.get("/", (req, res) => {
       <div class="feat"><h4>⚡ Custom Commands</h4><p>Build your own commands in seconds from your dashboard. <code style="all:unset;color:#ffd23f;">!giveaway</code>, <code style="all:unset;color:#ffd23f;">!socials</code>, anything you want.</p></div>
       <div class="feat"><h4>📊 Stats & Tracking</h4><p>Votes, subs, stream time, top emote — <code style="all:unset;color:#ffd23f;">!stats</code> shows it all, per channel.</p></div>
       <div class="feat"><h4>💬 Reads the Vibe</h4><p>I react to GG, GM, hype & hearts when it fits, drop live weather on request — and set my whole language per channel with <code style="all:unset;color:#ffd23f;">!setbotlang</code>.</p></div>
-      <div class="feat"><h4>🎬 Free OBS Overlays</h4><p>Log in once below and your <b>personal dashboard</b> gives you ready-to-paste links for an animated <b>Emote Wall</b> and a live <b>viewer counter</b> — just copy the link into an OBS Browser Source, no extra setup, no cost. Everything's explained step-by-step right there.</p></div>
+      <div class="feat"><h4>🎬 Free OBS Overlays</h4><p>Log in once below and your <b>personal dashboard</b> gives you ready-to-paste links for an animated <b>Emote Wall</b>, a live <b>viewer counter</b>, an animated <b>mascot</b>, and a live <b>Blaze chat overlay</b> — just copy a link into an OBS Browser Source, no extra setup, no cost. Everything's explained step-by-step right there.</p></div>
       <div class="feat"><h4>⏱️ Timed Messages & Learning</h4><p>I auto-post your reminders on a timer, and I quietly <b>learn each channel's own vibe</b> so I talk like a real regular over time.</p></div>
     </div>
 
-    <div class="comicteaser" id="mascot-comics">
-      <div class="comicteaser-art"><img src="${esc(comicImgUrl(COMICS[0]))}" alt="" onerror="this.style.display='none'"></div>
-      <div class="comicteaser-lock">
-        <div class="comicteaser-locktext">🔒 Only available for<br>Members of the<br><b>Blazeian_Bot_Ai Crew</b></div>
-        <a class="save" href="/comics">Unlock the comics →</a>
+    <div class="teaserrow">
+      <div class="comicteaser" id="mascot-comics">
+        <div class="comicteaser-art"><img src="${esc(comicImgUrl(COMICS[0]))}" alt="" onerror="this.style.display='none'"></div>
+        <div class="comicteaser-lock">
+          <div class="comicteaser-locktext">🔒 Only available for<br>Members of the<br><b>Blazeian_Bot_Ai Crew</b></div>
+          <a class="save" href="/comics">Unlock the comics →</a>
+        </div>
+      </div>
+      <div class="cmdcard">
+        <img class="cmdcrown" src="/crown.png" alt="" onerror="this.style.display='none'">
+        <div class="cmdlang">
+          <button type="button" class="flagbtn" data-l="en" title="English" aria-label="English"><svg viewBox="0 0 7 4"><rect width="7" height="4" fill="#fff"/><rect width="7" height="4" fill="#B22234" y="0" style="clip-path:none"/><rect width="7" height="0.57" y="0.57" fill="#fff"/><rect width="7" height="0.57" y="1.71" fill="#fff"/><rect width="7" height="0.57" y="2.86" fill="#fff"/><rect width="3" height="2.15" fill="#3C3B6E"/></svg></button>
+          <button type="button" class="flagbtn" data-l="de" title="Deutsch" aria-label="Deutsch"><svg viewBox="0 0 5 3"><rect width="5" height="1" y="0" fill="#000"/><rect width="5" height="1" y="1" fill="#DD0000"/><rect width="5" height="1" y="2" fill="#FFCE00"/></svg></button>
+        </div>
+        <div class="cl cl-en">
+          <h3>&#127918; How to switch me on</h3>
+          <p class="cmdintro">Add me once &mdash; then it's all simple chat commands. Type <code>!cmd</code> anytime and I'll list everything for that channel.</p>
+          <div class="cmdgroup"><span class="cmdlabel">Get started</span>
+            <code>!join</code> add me to your channel &nbsp;&middot;&nbsp; <code>!cmd</code> see every command
+          </div>
+          <div class="cmdgroup"><span class="cmdlabel">For everyone</span>
+            <code>!stats</code> &nbsp;&middot;&nbsp; <code>!explain [language]</code> live translate &nbsp;&middot;&nbsp; <code>@blazeian_bot_ai weather in [city]</code> &nbsp;&middot;&nbsp; <code>!ignoreme</code>
+          </div>
+          <div class="cmdgroup"><span class="cmdlabel">Streamer only</span>
+            <code>!game NAME</code> lock the game &nbsp;&middot;&nbsp; <code>!so @name</code> shoutout &nbsp;&middot;&nbsp; <code>!schedule</code> / <code>!setschedule</code> &nbsp;&middot;&nbsp; <code>!setcommentmode</code> chat volume
+          </div>
+        </div>
+        <div class="cl cl-de" hidden>
+          <h3>&#127918; So schaltest du mich ein</h3>
+          <p class="cmdintro">Einmal hinzuf&uuml;gen &mdash; danach sind es nur einfache Chat-Befehle. Tippe jederzeit <code>!cmd</code> und ich liste alles f&uuml;r diesen Kanal auf.</p>
+          <div class="cmdgroup"><span class="cmdlabel">Loslegen</span>
+            <code>!join</code> mich zum Kanal hinzuf&uuml;gen &nbsp;&middot;&nbsp; <code>!cmd</code> alle Befehle zeigen
+          </div>
+          <div class="cmdgroup"><span class="cmdlabel">F&uuml;r alle</span>
+            <code>!stats</code> &nbsp;&middot;&nbsp; <code>!explain [sprache]</code> live &uuml;bersetzen &nbsp;&middot;&nbsp; <code>@blazeian_bot_ai weather in [stadt]</code> &nbsp;&middot;&nbsp; <code>!ignoreme</code>
+          </div>
+          <div class="cmdgroup"><span class="cmdlabel">Nur Streamer</span>
+            <code>!game NAME</code> Spiel festlegen &nbsp;&middot;&nbsp; <code>!so @name</code> Shoutout &nbsp;&middot;&nbsp; <code>!schedule</code> / <code>!setschedule</code> &nbsp;&middot;&nbsp; <code>!setcommentmode</code> Chat-Lautst&auml;rke
+          </div>
+        </div>
+        <script>
+        (function(){var card=document.currentScript.parentNode;
+          var btns=card.querySelectorAll('.flagbtn');
+          function set(l){card.querySelectorAll('.cl').forEach(function(el){el.hidden=!el.classList.contains('cl-'+l);});
+            btns.forEach(function(b){b.classList.toggle('on',b.getAttribute('data-l')===l);});}
+          btns.forEach(function(b){b.addEventListener('click',function(){set(b.getAttribute('data-l'));});});
+          set('en');})();
+        </script>
       </div>
     </div>
 
@@ -4563,6 +4624,7 @@ app.get("/overlay/chat/:username", (req, res) => {
   const posRaw   = String(req.query.pos || "bottom-left");
   const pos = ["bottom-left","top-left","bottom-right","top-right"].includes(posRaw) ? posRaw : "bottom-left";
   const testMode = req.query.test === "1" || req.query.test === "true";
+  const logo = req.query.logo ? String(req.query.logo).slice(0, 300) : ""; // ?logo=URL → real logo image in the badge
   const vert  = pos.startsWith("top") ? "top:2vh;" : "bottom:2vh;";
   const horiz = pos.endsWith("right") ? "right:2vw;" : "left:2vw;";
   const colTop = pos.startsWith("top"); // top positions stack downward (newest at bottom of the visual stack)
@@ -4579,8 +4641,10 @@ app.get("/overlay/chat/:username", (req, res) => {
     text-shadow:0 1px 2px rgba(0,0,0,.9);
     animation:pop .35s cubic-bezier(.2,1.3,.4,1) both;will-change:transform,opacity;}
   .msg.out{animation:fade .5s ease forwards;}
-  .badge{flex:0 0 auto;font-size:.82em;font-weight:700;color:#0a0e0c;background:#7CFC9A;
+  .badge{flex:0 0 auto;font-size:.82em;font-weight:800;color:#241500;background:#ffc62e;
     border-radius:5px;padding:1px 5px;line-height:1.3;}
+  .badge.img{background:none;padding:0;}
+  .badge.img img{height:1.05em;width:auto;display:block;border-radius:4px;}
   .user{font-weight:700;}
   .user::after{content:':';color:#9fb7a8;font-weight:400;margin-left:1px;}
   .text{word-break:break-word;}
@@ -4591,14 +4655,18 @@ app.get("/overlay/chat/:username", (req, res) => {
 <div id="feed"></div>
 <script>
   const USER=${JSON.stringify(req.params.username)};
-  const DUR=${dur}, MAX=${maxLines};
+  const DUR=${dur}, MAX=${maxLines}, LOGO=${JSON.stringify(logo)};
   const feed=document.getElementById('feed');
   // stable per-user color: hash the name to a pleasant hue (green-biased to match the Blaze/GMC look)
   function userColor(name){let h=0;for(let i=0;i<name.length;i++)h=(h*31+name.charCodeAt(i))>>>0;
     const hue=h%360;return 'hsl('+hue+',70%,68%)';}
   function render(m){
     const el=document.createElement('div');el.className='msg';
-    const b=document.createElement('span');b.className='badge';b.textContent='B';el.appendChild(b);
+    const b=document.createElement('span');b.className='badge';
+    if(LOGO){b.classList.add('img');const bi=document.createElement('img');bi.src=LOGO;
+      bi.onerror=()=>{b.classList.remove('img');b.textContent='B';};b.appendChild(bi);}
+    else{b.textContent='B';}
+    el.appendChild(b);
     const u=document.createElement('span');u.className='user';u.style.color=userColor(m.user);
     u.textContent=m.user;el.appendChild(u);
     const t=document.createElement('span');t.className='text';t.textContent=m.msg;
