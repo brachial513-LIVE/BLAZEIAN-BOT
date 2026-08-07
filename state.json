@@ -778,7 +778,7 @@
       "stats": {
         "totalVotes": 6762,
         "totalSubs": 19,
-        "totalChatMessages": 11905,
+        "totalChatMessages": 11929,
         "totalStreamMinutes": 1335,
         "emotes": {
           "🔥": 623,
@@ -788,7 +788,7 @@
           "😍": 1,
           "❤": 33,
           "🚢": 8,
-          "⏰": 531,
+          "⏰": 541,
           "🔜": 349,
           "💀": 164,
           "😘": 2,
@@ -835,7 +835,7 @@
           "👍": 1,
           "🥔": 522,
           "🔄": 210,
-          "🤖": 69,
+          "🤖": 71,
           "😏": 4,
           "❌": 1,
           "🙃": 3,
@@ -844,7 +844,7 @@
           "🧪": 1,
           "🙄": 2,
           "🎮": 4,
-          "🪅": 32,
+          "🪅": 34,
           "🍬": 53,
           "🛑": 2,
           "💚": 7,
@@ -924,7 +924,7 @@
           "⚔": "⚔",
           "😊": "😊"
         },
-        "lastChatAt": 1786143162183,
+        "lastChatAt": 1786144454120,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -945,12 +945,12 @@
           "msg": "@jt_squared2 joined the game! 1 player(s) ready."
         },
         {
-          "user": "botger",
-          "msg": "(Handled by bot — joins the channel and confirms in chat)"
-        },
-        {
           "user": "jt_squared2",
           "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
+        },
+        {
+          "user": "botger",
+          "msg": "(Handled by bot — joins the channel and confirms in chat)"
         },
         {
           "user": "jt_squared2",
@@ -2503,7 +2503,7 @@
         "totalVotes": 2755,
         "totalSubs": 12,
         "totalChatMessages": 853,
-        "totalStreamMinutes": 4011,
+        "totalStreamMinutes": 4031,
         "emotes": {
           "✨": 14,
           "🖥": 20,
@@ -3101,11 +3101,11 @@
       "stats": {
         "totalVotes": 673,
         "totalSubs": 11,
-        "totalChatMessages": 95,
-        "totalStreamMinutes": 1635,
+        "totalChatMessages": 103,
+        "totalStreamMinutes": 1655,
         "emotes": {
           "💃": 9,
-          "🔥": 10,
+          "🔥": 13,
           "😶": 3,
           "🌫": 3,
           "✌": 1,
@@ -3116,7 +3116,8 @@
           "🥂": 1,
           "🦝": 1,
           "🥰": 2,
-          "👀": 1
+          "👀": 1,
+          "😂": 4
         },
         "emoteNames": {
           "💃": "💃",
@@ -3131,44 +3132,13 @@
           "🥂": "🥂",
           "🦝": "🦝",
           "🥰": "🥰",
-          "👀": "👀"
+          "👀": "👀",
+          "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786143570572
+        "lastChatAt": 1786143896149
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "robbie is the hex master"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "ty ty for votes bro"
-        },
-        {
-          "user": "killlab",
-          "msg": "🔥🔥"
-        },
-        {
-          "user": "zer0cache",
-          "msg": "yooo @killlab"
-        },
-        {
-          "user": "zer0cache",
-          "msg": "hows it going dude?"
-        },
-        {
-          "user": "zer0cache",
-          "msg": "all good brother, be better when robbie puts those maxis away"
-        },
-        {
-          "user": "zer0cache",
-          "msg": "not hearing any horns?"
-        },
-        {
-          "user": "zer0cache",
-          "msg": "nope, faulty horns!"
-        },
         {
           "user": "zer0cache",
           "msg": "there we go!! 🔥🔥🔥🔥🔥"
@@ -3176,6 +3146,38 @@
         {
           "user": "zer0cache",
           "msg": "have you seen the glitch in little kyiv?"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "fall through the floor somewhere"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "maybe thats the same 1"
+        },
+        {
+          "user": "guney",
+          "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "i've just loaded in to a single lobby.....1 player in match 😂😂😂😂"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "in ranked!!"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "might be a full bot lobby"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "crashed me back to homescreen sadly"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "woulda cleaned up them hexes"
         }
       ],
       "customCommands": {},
@@ -3464,14 +3466,14 @@
       "stats": {
         "totalVotes": 3137,
         "totalSubs": 59,
-        "totalChatMessages": 347,
-        "totalStreamMinutes": 7239,
+        "totalChatMessages": 348,
+        "totalStreamMinutes": 7253,
         "emotes": {
           "❤": 78,
           "🙌": 25,
           "🔥": 28,
-          "🔴": 48,
-          "🎉": 48,
+          "🔴": 49,
+          "🎉": 49,
           "📴": 50,
           "👋": 51,
           "😂": 4,
@@ -3514,14 +3516,10 @@
           "☺": "☺",
           "🤗": "🤗"
         },
-        "lastChatAt": 1786124827513,
+        "lastChatAt": 1786143883799,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "doktorgrav",
-          "msg": "hope your day is going well"
-        },
         {
           "user": "marowak33",
           "msg": "hfhf"
@@ -3557,6 +3555,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -3568,7 +3570,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -7027,8 +7029,8 @@
       "stats": {
         "totalVotes": 4226,
         "totalSubs": 0,
-        "totalChatMessages": 8568,
-        "totalStreamMinutes": 3056,
+        "totalChatMessages": 8588,
+        "totalStreamMinutes": 3076,
         "emotes": {
           "❤": 19,
           "🙌": 16,
@@ -7036,8 +7038,8 @@
           "🔥": 14,
           "🔴": 23,
           "🎉": 58,
-          "🪙": 299,
-          "⚡": 64,
+          "🪙": 300,
+          "⚡": 65,
           "👀": 8,
           "🍿": 2,
           "🤗": 4,
@@ -7103,7 +7105,7 @@
           "☠": 1,
           "💣": 1,
           "🏸": 1,
-          "🕷": 1,
+          "🕷": 2,
           "💲": 1,
           "👍": 1,
           "💋": 1,
@@ -7228,48 +7230,48 @@
           "🛗": "🛗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786143522318
+        "lastChatAt": 1786144760522
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🪙 @solucao 5,490 points."
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Eu acho que cheguei pôr aí nesse boss"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Não é Boss"
-        },
-        {
           "user": "solucao",
-          "msg": "Tá com fome"
-        },
-        {
-          "user": "solucao",
-          "msg": "Supermercado"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Kkkkkkk"
-        },
-        {
-          "user": "solucao",
-          "msg": "Usa aquele item no chão que sobe"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Olha"
+          "msg": "Vai Rambo"
         },
         {
           "user": "botger",
-          "msg": "🎉 lucas93925052 just reached Level 5! ⚡ (7,449 XP)"
+          "msg": "🪙 @solucao 5,510 points."
         },
         {
           "user": "solucao",
-          "msg": "Edao dica"
+          "msg": "Chave"
+        },
+        {
+          "user": "solucao",
+          "msg": "Boa noite Bruno desafio"
+        },
+        {
+          "user": "brunoseven",
+          "msg": "@solucao salve"
+        },
+        {
+          "user": "brunoseven",
+          "msg": "vou para a vermelha"
+        },
+        {
+          "user": "solucao",
+          "msg": "Poção"
+        },
+        {
+          "user": "solucao",
+          "msg": "Chave"
+        },
+        {
+          "user": "solucao",
+          "msg": "Olha que bonito que legal"
+        },
+        {
+          "user": "botger",
+          "msg": "⚡ solucao — Level 9 | 25,122 XP (837 to Level 10)"
         }
       ],
       "customCommands": {},
@@ -7297,7 +7299,7 @@
       "stats": {
         "totalVotes": 1856,
         "totalSubs": 8,
-        "totalChatMessages": 439,
+        "totalChatMessages": 443,
         "totalStreamMinutes": 2600,
         "emotes": {
           "❤": 27,
@@ -7322,7 +7324,7 @@
           "😂": 12,
           "😕": 1,
           "🙏": 5,
-          "😭": 1,
+          "😭": 5,
           "🫶": 2,
           "🤯": 2,
           "😤": 3,
@@ -7372,25 +7374,9 @@
           "🙄": "🙄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786143580130
+        "lastChatAt": 1786144602470
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 125)! Thank you!! 🗳️"
-        },
-        {
-          "user": "future42",
-          "msg": "Sure"
-        },
-        {
-          "user": "killlab",
-          "msg": "yes yes @guney hows the games you running solo?"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @KilllaB just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
         {
           "user": "killlab",
           "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
@@ -7414,6 +7400,22 @@
         {
           "user": "guney",
           "msg": "much love guys"
+        },
+        {
+          "user": "guney",
+          "msg": "btw you can join SWRM family @zer0cache"
+        },
+        {
+          "user": "guney",
+          "msg": "i dont have a clan tag but i am in Swarm"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "i'm a trainee in the discord!"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "stole my purple 😭😭😭😭"
         }
       ],
       "customCommands": {},
@@ -7544,14 +7546,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 4557,
+        "totalVotes": 4607,
         "totalSubs": 2,
-        "totalChatMessages": 817,
+        "totalChatMessages": 841,
         "totalStreamMinutes": 1409,
         "emotes": {
           "❤": 20,
           "🙌": 12,
-          "🗳": 180,
+          "🗳": 183,
           "🔴": 16,
           "🎉": 23,
           "🏃": 1,
@@ -7631,48 +7633,48 @@
           "👏": "👏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786143337607
+        "lastChatAt": 1786144777803
       },
       "chatMemory": [
         {
-          "user": "future42",
-          "msg": "Hope your feeling better"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @Future42!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 75)! Thank you!! 🗳️"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "lort!"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "🙏🙏🙏"
+          "user": "capt_rob_advent",
+          "msg": "Heya noxx"
         },
         {
           "user": "foxcrochet",
-          "msg": "[emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6]"
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
         },
         {
           "user": "foxcrochet",
-          "msg": "I'm back"
+          "msg": "Aaaargghh"
         },
         {
           "user": "foxcrochet",
-          "msg": "I was summoned"
+          "msg": "So close!!"
         },
         {
-          "user": "foxcrochet",
-          "msg": "Omg is that candy land???"
+          "user": "senseibulrog",
+          "msg": "oh my bad, was trying to say i can't hop on just yet, gotta smoke with the mrs, didn't mean to disrupt the game LUL"
         },
         {
-          "user": "doktorgrav",
-          "msg": "lol"
+          "user": "briggsy",
+          "msg": "Hey @noxx man"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Real good"
+        },
+        {
+          "user": "briggsy",
+          "msg": "I’m driving g."
+        },
+        {
+          "user": "briggsy",
+          "msg": "Rn"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Oh fun."
         }
       ],
       "customCommands": {},
@@ -7687,7 +7689,7 @@
       "followed": true,
       "streamTitle": "Helldiving with the BOIZ — Helldivers 2",
       "profile": "noxx's community is a lively bunch of bug slayers and vote warriors who live for Hellldivin and thrivin. They're known for their \"slay all the bugs\" spirit, love giving shoutouts with \"🗳️ VOTE ALERT!!\", \"love fest!\" vibes, and frequently exclaim \"Wild gaem!\" and \"RIP!\" in response to noxx's gaming prowess and IRL adventures. They celebrate victories with \"👀👀👀\", \"clipping it!\", and \"Raid ALERT!!\", enthusiastically respond to pogo moments, and occasionally drop \"skrunky emotes\".",
-      "_profileAtCount": 773,
+      "_profileAtCount": 821,
       "gameOverride": "",
       "lastStreamInfo": "MG3 Snake Eater Remastered (Delta?) — Metal Gear Solid 3: Snake Eater",
       "lastStreamEndedAt": 1786128627717,
@@ -8508,8 +8510,8 @@
     },
     "solucao": {
       "note": "This person hosts a livestream channel where they play video games, enjoy humorous moments, and showcase their love for games like Cavaleiros do Zodíaco, often referencing fruits in their humor.",
-      "at": 1786063897827,
-      "n": 15
+      "at": 1786144122634,
+      "n": 16
     },
     "mauhzera": {
       "note": "This person enjoys playing FPS, Mania DK, and Bomberman, often using humor and witty remarks in their messages.",
