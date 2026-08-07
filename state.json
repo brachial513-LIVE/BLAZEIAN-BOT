@@ -469,10 +469,10 @@
       "stats": {
         "totalVotes": 26943,
         "totalSubs": 47,
-        "totalChatMessages": 4952,
+        "totalChatMessages": 4953,
         "totalStreamMinutes": 1720,
         "emotes": {
-          "🗳": 729,
+          "🗳": 732,
           "❤": 209,
           "🙌": 128,
           "🔥": 120,
@@ -674,15 +674,11 @@
           "😪": "😪"
         },
         "sendFailStreak": 8,
-        "lastChatAt": 1786090974690,
+        "lastChatAt": 1786105134895,
         "lastSendFailAt": 1786100196542,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 300 vote(s) (total: 600)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 150 vote(s) (total: 750)! Thank you!! 🗳️"
@@ -718,6 +714,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @_VladEnzo just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 10 vote(s) (total: 20)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1009,9 +1009,9 @@
       "language": "en",
       "stats": {
         "totalVotes": 4256,
-        "totalSubs": 71,
-        "totalChatMessages": 1942,
-        "totalStreamMinutes": 8046,
+        "totalSubs": 72,
+        "totalChatMessages": 1943,
+        "totalStreamMinutes": 8066,
         "emotes": {
           "📊": 3,
           "🔥": 200,
@@ -1225,13 +1225,9 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786103050097
+        "lastChatAt": 1786104920995
       },
       "chatMemory": [
-        {
-          "user": "tarzan",
-          "msg": "When some games with Zani ?"
-        },
         {
           "user": "tarzan",
           "msg": "Just saying hi... I see you working very hard on the fox bot"
@@ -1267,6 +1263,10 @@
         {
           "user": "foxbotai",
           "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 17 damage and earned 16 FoxCoins! Boss HP: 445/500. Your total boss damage: 55. Balance: 1582 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "HUGE THANK YOU @mpfeiffer for subscribing! Welcome to the FoxBot AI family. +500 FoxCoins. Balance: 515 FoxCoins. Lucky Bonus: @mpfeiffer found a Golden Fox Chest and earned +100 FoxCoins. Balance: 615 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -1284,7 +1284,14 @@
       "nudgedKey": "schedule",
       "commentMode": "heavy",
       "lastStreamInfo": "VOTE GIVEAWAY ❤️‍🔥 CONNECT TO FOXBOT! DASHBOARD V2 IN PROGRESS 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Otherside (by Yuga Labs)",
-      "lastStreamEndedAt": 1786092763244
+      "lastStreamEndedAt": 1786092763244,
+      "loyalty": {
+        "mpfeiffer": {
+          "name": "mpfeiffer",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "cef62e02-6fea-468d-9f76-2f4feb1060b7": {
       "username": "thom6ss_otg",
@@ -7890,7 +7897,7 @@
       "language": "en",
       "joinedAt": 1785231455893,
       "stats": {
-        "totalVotes": 842,
+        "totalVotes": 892,
         "totalSubs": 10,
         "totalChatMessages": 113,
         "totalStreamMinutes": 507,
@@ -8734,9 +8741,9 @@
       "n": 2
     },
     "guney": {
-      "note": "They are a regular participant in a livestream, likely playing games, and seem to have a friendly relationship with the streamer and other viewers, with a focus on friendly and enthusiastic interactions, and they appear…",
-      "at": 1785993277812,
-      "n": 4
+      "note": "They are a regular participant in a livestream, likely playing games, with a friendly and enthusiastic personality, and a focus on friendly interactions.",
+      "at": 1786105477861,
+      "n": 5
     },
     "sipofcoke": {
       "note": "This person appears to enjoy playing games with a humorous, playful tone, particularly one with a \"shirtality\" system.",
@@ -8941,6 +8948,11 @@
     "cymatrix": {
       "note": "Existing notes: This person is friendly, uses informal greetings and expressions, and seems to enjoy the streamer's content. A useful note to remember about this person for friendly chat is: They appear to be…",
       "at": 1786102838006,
+      "n": 1
+    },
+    "soulflux": {
+      "note": "They appear to be enthusiastic about the livestreamer's content, enjoy rewatching and listening to the streamer while working, and have a playful sense of humor.",
+      "at": 1786104817863,
       "n": 1
     }
   },
