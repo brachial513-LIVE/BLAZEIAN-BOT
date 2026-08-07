@@ -778,7 +778,7 @@
       "stats": {
         "totalVotes": 6400,
         "totalSubs": 13,
-        "totalChatMessages": 8814,
+        "totalChatMessages": 8816,
         "totalStreamMinutes": 1218,
         "emotes": {
           "🔥": 450,
@@ -916,7 +916,7 @@
           "🍬": "🍬",
           "🛑": "🛑"
         },
-        "lastChatAt": 1786057834962,
+        "lastChatAt": 1786065340876,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -924,14 +924,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "[emote:0cac470e-bc68-46d9-abe1-33a00ae58aa2]"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "[emote:bd79fad7-8c59-4cd2-a46b-4b716882d1e5]"
-        },
         {
           "user": "jt_squared2",
           "msg": "[emote:f5b3bb4d-a27d-4d3c-9550-4420f5215cba]"
@@ -963,6 +955,14 @@
         {
           "user": "jt_squared2",
           "msg": "[emote:fa062ede-44c6-4eac-a6e7-1bb686c3c28e]"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "[emote:0cac470e-bc68-46d9-abe1-33a00ae58aa2] [emote:abf8af46-e1c0-4d9c-8d32-ce11a7267769]"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "[emote:8b1c4294-3272-43bf-aabe-ecac7dcf8159] [emote:d1d6139e-2d09-4e9b-8543-4a930c3db777]"
         }
       ],
       "customCommands": {},
@@ -2109,8 +2109,8 @@
       "stats": {
         "totalVotes": 2870,
         "totalSubs": 36,
-        "totalChatMessages": 1230,
-        "totalStreamMinutes": 7402,
+        "totalChatMessages": 1231,
+        "totalStreamMinutes": 7407,
         "emotes": {
           "😊": 3,
           "🌵": 85,
@@ -2318,13 +2318,9 @@
           "🍀": "🍀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786065070933
+        "lastChatAt": 1786065321791
       },
       "chatMemory": [
-        {
-          "user": "cactus_jack440",
-          "msg": "Howdy @briggsy"
-        },
         {
           "user": "libralives",
           "msg": "🍀🦝🍀"
@@ -2360,6 +2356,10 @@
         {
           "user": "cactus_jack440",
           "msg": "[emote:00f62a5c-5ca3-4887-8ce1-dcd57e6a2dd3] [emote:00f62a5c-5ca3-4887-8ce1-dcd57e6a2dd3] [emote:00f62a5c-5ca3-4887-8ce1-dcd57e6a2dd3]"
+        },
+        {
+          "user": "canawilks",
+          "msg": "Nice emote"
         }
       ],
       "customCommands": {},
@@ -5821,7 +5821,7 @@
         "totalVotes": 5029,
         "totalSubs": 33,
         "totalChatMessages": 658,
-        "totalStreamMinutes": 3972,
+        "totalStreamMinutes": 3977,
         "emotes": {
           "❤": 29,
           "🙌": 52,
@@ -8289,8 +8289,8 @@
       "stats": {
         "totalVotes": 3533,
         "totalSubs": 10,
-        "totalChatMessages": 203,
-        "totalStreamMinutes": 919,
+        "totalChatMessages": 205,
+        "totalStreamMinutes": 924,
         "emotes": {
           "💚": 1,
           "🙃": 1,
@@ -8316,17 +8316,9 @@
           "❤": "❤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786064647155
+        "lastChatAt": 1786065372800
       },
       "chatMemory": [
-        {
-          "user": "hydra",
-          "msg": "i good broo and you?"
-        },
-        {
-          "user": "hydra",
-          "msg": "how long time"
-        },
         {
           "user": "johngalt",
           "msg": "yo @briggsy and @hydra"
@@ -8358,6 +8350,14 @@
         {
           "user": "blackfox",
           "msg": "Hey!"
+        },
+        {
+          "user": "johngalt",
+          "msg": "hey @blackfox"
+        },
+        {
+          "user": "hydra",
+          "msg": "sir you can check discord? after"
         }
       ],
       "customCommands": {},
@@ -8912,8 +8912,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786038016271,
   "auth": {
-    "accessToken": "3232ae10ca6ce6f05cfa2c4460ce8bf6",
-    "refreshToken": "8129e7bbe23f76366ba3b13ec006157e",
+    "accessToken": "02847e96ae0e328956b0607baf263457",
+    "refreshToken": "d9406ea73342bf525a417d2ece2c9ff4",
     "sessionToken": "33a0c201cc82996a148ee42f6b414074",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
