@@ -7903,7 +7903,7 @@
       "stats": {
         "totalVotes": 922,
         "totalSubs": 10,
-        "totalChatMessages": 182,
+        "totalChatMessages": 184,
         "totalStreamMinutes": 533,
         "emotes": {
           "❤": 19,
@@ -7911,7 +7911,7 @@
           "💚": 2,
           "🔥": 34,
           "🔴": 5,
-          "🎉": 5,
+          "🎉": 6,
           "💛": 1,
           "🗳": 51,
           "🎁": 18,
@@ -7927,7 +7927,8 @@
           "📢": 4,
           "✨": 1,
           "😍": 4,
-          "🫠": 3
+          "🫠": 3,
+          "🚨": 6
         },
         "emoteNames": {
           "❤": "❤",
@@ -7951,20 +7952,13 @@
           "📢": "📢",
           "✨": "✨",
           "😍": "😍",
-          "🫠": "🫠"
+          "🫠": "🫠",
+          "🚨": "🚨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786114578133
+        "lastChatAt": 1786118025388
       },
       "chatMemory": [
-        {
-          "user": "cabsss",
-          "msg": "Let's gooooo"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @cr33pling just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "cr33pling",
           "msg": "yessss maem !"
@@ -7996,6 +7990,14 @@
         {
           "user": "cr33pling",
           "msg": "🔥🔥🔥🔥🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @nekoschwan is raiding with a party of 2! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "watch muna ako sa inyo hahaha"
         }
       ],
       "customCommands": {},
@@ -8133,7 +8135,7 @@
       "stats": {
         "totalVotes": 791,
         "totalSubs": 0,
-        "totalChatMessages": 55,
+        "totalChatMessages": 56,
         "totalStreamMinutes": 83,
         "emotes": {
           "❤": 4,
@@ -8142,8 +8144,8 @@
           "♥": 1,
           "🔴": 2,
           "🎉": 3,
-          "📴": 1,
-          "👋": 1,
+          "📴": 2,
+          "👋": 2,
           "🚨": 6,
           "😍": 2,
           "🫠": 3
@@ -8162,13 +8164,9 @@
           "🫠": "🫠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786114512198
+        "lastChatAt": 1786117968968
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @cr33pling just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "cabsss",
           "msg": "ready na ba firefighter?"
@@ -8204,6 +8202,10 @@
         {
           "user": "cr33pling",
           "msg": "what was thattttttttttttttt"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -8987,7 +8989,7 @@
   "auth": {
     "accessToken": "11817b1185693fb35336812b2dc88cd3",
     "refreshToken": "79cfbfd61752d11ec403741fa77fa159",
-    "sessionToken": "e0c2c5a925c0d89ce8fecb26000f30fb",
+    "sessionToken": "e53d6f54d8fef94239e549105e0c7727",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
