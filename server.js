@@ -4175,6 +4175,25 @@ app.get("/admin/channelinfo/:username", async (req, res) => {
   res.send(`<pre style="font-family:monospace;font-size:12px;white-space:pre-wrap;">RAW Blaze data for "${esc(slug)}":\n\n${esc(JSON.stringify(out, null, 2))}</pre>`);
 });
 
+// DIAGNOSTIC: does the bot's own legit credentials (not a frontend-spoofed client-id) get real emote
+// image URLs from Blaze's internal bapi/emotes endpoints? Found live via network inspection of a public,
+// unauthenticated blaze.stream page load (200 OK there) — testing here with the BOT's real headers() to
+// see if it's actually open to any authenticated app, or gated to Blaze's frontend only (like /bapi/channels/:id/stats was).
+app.get("/admin/emotecheck/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const channelId = findChannelByUsername(req.params.username.toLowerCase());
+  const out = {};
+  const candidates = [
+    `https://blaze.stream/bapi/emotes/blaze`,
+    channelId ? `https://blaze.stream/bapi/emotes/channels/${channelId}` : null,
+  ].filter(Boolean);
+  for (const url of candidates) {
+    try { const r = await axios.get(url, { headers: headers(), timeout: 7000 }); out[url] = r.data; }
+    catch (e) { out[url] = `❌ [${e.response?.status || "?"}] ${JSON.stringify(e.response?.data)?.slice(0,200) || e.message}`; }
+  }
+  res.send(`<pre style="font-family:monospace;font-size:12px;white-space:pre-wrap;">${esc(JSON.stringify(out, null, 2))}</pre>`);
+});
+
 app.get("/admin/testsend/:username", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const uname = req.params.username;
