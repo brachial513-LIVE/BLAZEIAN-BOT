@@ -1837,7 +1837,7 @@ async function maybeNudgeOwner(channelId, speaker, ownerMsg) {
   // Four streamers have now banned the bot for being too chatty. Anyone who set a quieter mode, or who
   // has ever blocked the bot, has already told us what they want — an unprompted tip is the last thing
   // they need, however well meant. Silence is the correct behaviour there.
-  if (ch.commentMode === "low") return;
+  if (ch.commentMode === "low" || ch.commentMode === "silent") return;
   if ((ch.stats?.sendFailStreak || 0) > 0 || ch.stats?.recoveredAt) return;
   if (ch.joinedAt && Date.now() - ch.joinedAt < 3 * 86400000) return; // give it a few days first
   if (!chatIsQuiet(channelId)) return;                       // never interrupt a lively chat
@@ -1926,6 +1926,7 @@ function markFired(channelId, key) {
 const COMMENT_MODE_COOLDOWN = { low: 25000, regular: 0, heavy: 0 };
 function shouldCelebrate(ch, channelId) {
   const mode = (ch?.commentMode || "regular");
+  if (mode === "silent") return false; // silent mode: no event shoutouts at all — only @mention replies
   const cooldownMs = COMMENT_MODE_COOLDOWN[mode] ?? 0;
   if (!cooldownMs) return true; // regular/heavy: always celebrate, no suppression
   if (onCooldown(channelId, "celebrate", cooldownMs)) return false;
@@ -2056,6 +2057,10 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
   // Don't do casual smalltalk with OTHER bots (they post constantly — would be spammy & loop-prone).
   // Bots only get the cheeky reply above when they @mention us directly.
   if (senderIsBot) return;
+
+  // SILENT MODE (!setcommentmode silent): only ever reply to a direct @mention (handled and returned
+  // above). Skip ALL casual smalltalk, greetings and reactions here so the bot stays quiet unless tagged.
+  if (ch.commentMode === "silent") return;
 
   // ---- Casual triggers (roll chance FIRST, only then consume cooldown) ----
   for (const trigger of SMALLTALK_TRIGGERS) {
@@ -2393,12 +2398,16 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   if (m.startsWith("!setcommentmode")) {
     if (!isOwner) { await sendChatT(channelId, T.cmdOwnerOnly); return; }
     const mode = msg.includes(" ") ? msg.slice(msg.indexOf(" ") + 1).trim().toLowerCase() : "";
-    if (!["low", "regular", "heavy"].includes(mode)) {
-      await sendChat(channelId, "Usage: !setcommentmode [low|regular|heavy] — e.g. !setcommentmode low for quieter chat during busy streams 💚");
+    if (!["silent", "low", "regular", "heavy"].includes(mode)) {
+      await sendChat(channelId, "Usage: !setcommentmode [silent|low|regular|heavy] — silent = I only speak when someone @tags me; low = quieter during event bursts 💚");
       return;
     }
     ch.commentMode = mode; saveChannels();
-    await sendChat(channelId, `✅ Comment mode set to **${mode}**! ${mode === "low" ? "I'll go quieter during bursts of events." : mode === "heavy" ? "I'll celebrate every single event." : "Back to normal — every event gets its own shoutout."}`);
+    const modeNote = mode === "silent" ? "Silent mode ON — I'll stay quiet and ONLY reply when someone @tags me. No auto-chat, no greetings, no event shoutouts."
+      : mode === "low" ? "I'll go quieter during bursts of events."
+      : mode === "heavy" ? "I'll celebrate every single event."
+      : "Back to normal — every event gets its own shoutout.";
+    await sendChat(channelId, `✅ Comment mode set to **${mode}**! ${modeNote}`);
     return;
   }
 
@@ -2462,6 +2471,11 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
       return;
     }
     if (!isOwner) { await sendChatT(channelId, T.cmdOwnerOnly); return; }
+    if (/^(off|clear|none|reset|remove|unset)$/i.test(arg)) {
+      delete ch.gameOverride; saveChannels();
+      await sendChat(channelId, `🎮 Cleared the locked game — I'll stop assuming what's being played until you set it again with !game NAME 💚`);
+      return;
+    }
     ch.gameOverride = arg.slice(0, 80); saveChannels();
     await sendChat(channelId, `🎮 Locked in! Current game: ${ch.gameOverride} — that's what I'll talk about now. Thanks boss 💚🔥`);
     return;
@@ -3481,6 +3495,11 @@ app.get("/", (req, res) => {
       .blazebtn{display:inline-flex;align-items:center;gap:11px;background:linear-gradient(135deg,#1d1d1d,#0c0c0c);color:#fff;font-weight:800;font-size:18px;padding:18px 38px;border-radius:14px;text-decoration:none;border:2px solid #f5a623;box-shadow:0 0 26px rgba(245,166,35,.55);animation:bpulse 2.2s ease-in-out infinite;transition:transform .15s;}
       .blazebtn:hover{transform:translateY(-2px) scale(1.02);}
       .blazeword{font-weight:900;font-style:italic;color:#ffc62e;text-shadow:2px 2px 0 #6b3d00,3px 3px 0 #4a2a00;letter-spacing:1px;font-size:23px;}
+      .builtbadges{display:flex;gap:16px;align-items:center;margin:0 0 14px;flex-wrap:wrap;}
+      .bb{display:inline-flex;align-items:center;gap:9px;text-decoration:none;padding:6px 13px;border:1px solid #223822;border-radius:12px;background:rgba(12,20,12,.55);transition:border-color .15s,transform .15s;}
+      .bb:hover{border-color:#5cf472;transform:translateY(-1px);}
+      .bblabel{color:#8fce9a;font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;}
+      .bb img{height:26px;width:auto;display:block;}
       @keyframes bpulse{0%,100%{box-shadow:0 0 22px rgba(245,166,35,.5);}50%{box-shadow:0 0 44px rgba(245,166,35,.92);}}
       .feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:10px;}
       .feat{background:rgba(16,24,15,.8);border:1px solid #244a24;border-radius:12px;padding:14px 16px;}
@@ -3527,6 +3546,16 @@ app.get("/", (req, res) => {
       .lbscore{color:#ffd23f;font-weight:700;font-size:13px;white-space:nowrap;}
     </style>
 
+    <div class="builtbadges">
+      <a class="bb" href="https://blaze.stream/" target="_blank" rel="noopener noreferrer" title="Blaze">
+        <span class="bblabel">Built for</span>
+        <img src="/blaze-logo.png" alt="Blaze" onerror="this.closest('.bb').style.display='none'">
+      </a>
+      <a class="bb" href="https://www.avax.network/" target="_blank" rel="noopener noreferrer" title="Avalanche">
+        <span class="bblabel">Built on</span>
+        <img src="/avax-logo.png" alt="Avalanche" onerror="this.closest('.bb').style.display='none'">
+      </a>
+    </div>
     <div class="hero">
       <img src="${MASCOT_URL}" onerror="this.style.display='none'">
       <div class="bubble">Hey hey! 👋 I'm <b>BLAZEIAN_BOT-AI</b> — and these right here?<br>These are <b>MY</b> people. Every. Single. One. 💚<br>I'd cross the whole galaxy for this crew. 🔥</div>
@@ -5140,6 +5169,18 @@ app.get("/blaze-fist.jpg", (req, res) => {
 app.get("/crown.png", (req, res) => {
   res.set("Cache-Control", "public, max-age=86400");
   res.sendFile(path.join(__dirname, "CrownOfTheGmc.png"));
+});
+
+// Platform trust badges on the homepage ("Built for Blaze" / "Built on Avalanche"). Served from repo
+// files (whitelisted, like the crown) so the deploy copy-paste stays small. Upload blaze-logo.png and
+// avax-logo.png to the repo root once; missing files just hide gracefully (onerror in the markup).
+app.get("/blaze-logo.png", (req, res) => {
+  res.set("Cache-Control", "public, max-age=86400");
+  res.sendFile(path.join(__dirname, "blaze-logo.png"), err => { if (err) res.status(404).end(); });
+});
+app.get("/avax-logo.png", (req, res) => {
+  res.set("Cache-Control", "public, max-age=86400");
+  res.sendFile(path.join(__dirname, "avax-logo.png"), err => { if (err) res.status(404).end(); });
 });
 
 // =============================================
