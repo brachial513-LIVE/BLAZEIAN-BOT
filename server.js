@@ -3495,7 +3495,7 @@ app.get("/", (req, res) => {
       .blazebtn{display:inline-flex;align-items:center;gap:11px;background:linear-gradient(135deg,#1d1d1d,#0c0c0c);color:#fff;font-weight:800;font-size:18px;padding:18px 38px;border-radius:14px;text-decoration:none;border:2px solid #f5a623;box-shadow:0 0 26px rgba(245,166,35,.55);animation:bpulse 2.2s ease-in-out infinite;transition:transform .15s;}
       .blazebtn:hover{transform:translateY(-2px) scale(1.02);}
       .blazeword{font-weight:900;font-style:italic;color:#ffc62e;text-shadow:2px 2px 0 #6b3d00,3px 3px 0 #4a2a00;letter-spacing:1px;font-size:23px;}
-      .builtbadges{display:flex;gap:16px;align-items:center;margin:0 0 14px;flex-wrap:wrap;}
+      .builtbadges{display:flex;gap:16px;align-items:center;justify-content:center;margin:0 0 14px;flex-wrap:wrap;}
       .bb{display:inline-flex;align-items:center;gap:9px;text-decoration:none;padding:6px 13px;border:1px solid #223822;border-radius:12px;background:rgba(12,20,12,.55);transition:border-color .15s,transform .15s;}
       .bb:hover{border-color:#5cf472;transform:translateY(-1px);}
       .bblabel{color:#8fce9a;font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;}
@@ -3620,7 +3620,7 @@ app.get("/", (req, res) => {
             <code>!stats</code> &nbsp;&middot;&nbsp; <code>!explain [language]</code> live translate &nbsp;&middot;&nbsp; <code>@blazeian_bot_ai weather in [city]</code> &nbsp;&middot;&nbsp; <code>!ignoreme</code>
           </div>
           <div class="cmdgroup"><span class="cmdlabel">Streamer only</span>
-            <code>!game NAME</code> lock the game &nbsp;&middot;&nbsp; <code>!so @name</code> shoutout &nbsp;&middot;&nbsp; <code>!schedule</code> / <code>!setschedule</code> &nbsp;&middot;&nbsp; <code>!setcommentmode</code> chat volume
+            <code>!game NAME</code> lock the game (<code>!game off</code> to clear) &nbsp;&middot;&nbsp; <code>!so @name</code> shoutout &nbsp;&middot;&nbsp; <code>!schedule</code> / <code>!setschedule</code> &nbsp;&middot;&nbsp; <code>!setcommentmode silent/low/regular/heavy</code> chat volume &mdash; <code>silent</code> = only replies when @tagged
           </div>
         </div>
         <div class="cl cl-de" hidden>
@@ -3633,7 +3633,7 @@ app.get("/", (req, res) => {
             <code>!stats</code> &nbsp;&middot;&nbsp; <code>!explain [sprache]</code> live &uuml;bersetzen &nbsp;&middot;&nbsp; <code>@blazeian_bot_ai weather in [stadt]</code> &nbsp;&middot;&nbsp; <code>!ignoreme</code>
           </div>
           <div class="cmdgroup"><span class="cmdlabel">Nur Streamer</span>
-            <code>!game NAME</code> Spiel festlegen &nbsp;&middot;&nbsp; <code>!so @name</code> Shoutout &nbsp;&middot;&nbsp; <code>!schedule</code> / <code>!setschedule</code> &nbsp;&middot;&nbsp; <code>!setcommentmode</code> Chat-Lautst&auml;rke
+            <code>!game NAME</code> Spiel festlegen (<code>!game off</code> zum L&ouml;schen) &nbsp;&middot;&nbsp; <code>!so @name</code> Shoutout &nbsp;&middot;&nbsp; <code>!schedule</code> / <code>!setschedule</code> &nbsp;&middot;&nbsp; <code>!setcommentmode silent/low/regular/heavy</code> Chat-Lautst&auml;rke &mdash; <code>silent</code> = antwortet nur bei @-Tag
           </div>
         </div>
         <script>
