@@ -5143,7 +5143,7 @@
       "stats": {
         "totalVotes": 2385,
         "totalSubs": 71,
-        "totalChatMessages": 250,
+        "totalChatMessages": 251,
         "totalStreamMinutes": 1616,
         "emotes": {
           "❤": 13,
@@ -5151,8 +5151,8 @@
           "🔴": 15,
           "🎉": 17,
           "😂": 2,
-          "📴": 15,
-          "👋": 15,
+          "📴": 16,
+          "👋": 16,
           "🎁": 140,
           "🔥": 8,
           "🗳": 66,
@@ -5176,13 +5176,9 @@
           "🤗": "🤗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786121366874
+        "lastChatAt": 1786169499323
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "avisi",
           "msg": "clutch spawn"
@@ -5218,6 +5214,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @crypto_gam3r just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
