@@ -778,7 +778,7 @@
       "stats": {
         "totalVotes": 6762,
         "totalSubs": 19,
-        "totalChatMessages": 11992,
+        "totalChatMessages": 11993,
         "totalStreamMinutes": 1335,
         "emotes": {
           "🔥": 623,
@@ -924,7 +924,7 @@
           "⚔": "⚔",
           "😊": "😊"
         },
-        "lastChatAt": 1786163862368,
+        "lastChatAt": 1786172661865,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1023,8 +1023,8 @@
       "stats": {
         "totalVotes": 4426,
         "totalSubs": 73,
-        "totalChatMessages": 1988,
-        "totalStreamMinutes": 8234,
+        "totalChatMessages": 1993,
+        "totalStreamMinutes": 8254,
         "emotes": {
           "📊": 3,
           "🔥": 209,
@@ -1036,10 +1036,10 @@
           "😊": 2,
           "👋": 6,
           "🚀": 7,
-          "🦊": 103,
+          "🦊": 104,
           "😂": 23,
           "👑": 30,
-          "⭐": 28,
+          "⭐": 29,
           "🏆": 54,
           "🤗": 20,
           "💪": 20,
@@ -1064,7 +1064,7 @@
           "📣": 4,
           "🔗": 6,
           "🏷": 3,
-          "🗳": 23,
+          "🗳": 24,
           "🧠": 3,
           "🛡": 30,
           "🚩": 3,
@@ -1111,7 +1111,7 @@
           "📩": 1,
           "💸": 1,
           "💔": 1,
-          "🚨": 40,
+          "🚨": 42,
           "😇": 5,
           "🌲": 5,
           "🦕": 2,
@@ -1238,25 +1238,9 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786133649417
+        "lastChatAt": 1786172733718
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "It knows 👀"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Thank you for fixing @brachial513"
-        },
         {
           "user": "brachial513",
           "msg": "always my brother 💪"
@@ -1280,6 +1264,22 @@
         {
           "user": "foxbotai",
           "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "GM GM"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "160 VOTE WEEKLY GIVEAWAY:\nhttps://x.com/Pardon_my_trade/status/2085283128105472207?s=20"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🚨 160 VOTE GIVEAWAY IS LIVE! 🚨\n\nI’m giving back to the community—and helping build the future of Blaze at the same time.\n\nHere’s how to earn entries:\n\n🗳️ Vote\n• 1–10 Votes = 1 Entry\n• 10–50 Votes = 2 Entries\n• 50+ Votes = 3 Entries\n\n⭐ Subscribe\n• 1 Sub = 1 Entry\n• 1 Gifted Sub = 2 Entries\n\n🦊 Test FoxBot AI\n• Test FoxBot AI = 2 Entries\n• Report a bug or suggestion = +1 Entry\n• Share your feedback = +1 Entry\n\nEvery vote helps support the stream!!"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Unknown command. Type !foxhelp"
         }
       ],
       "customCommands": {},
@@ -8504,20 +8504,28 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1786172861722
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "fartvader",
+          "msg": "~cmd"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
       "timedMessages": [],
       "tipTiers": [],
-      "greeted": true
+      "greeted": true,
+      "locked": false,
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/ec1082d4-18b9-4e76-ad37-3f807fe24197.gif"
     }
   },
   "blocklist": [
