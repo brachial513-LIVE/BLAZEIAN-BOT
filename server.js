@@ -4660,7 +4660,7 @@ app.get("/overlay/chat/:username", (req, res) => {
   // Real Blaze logo by default (hosted on this server, uploaded alongside the crown) — ?logo=URL still
   // overrides it if a different image is ever wanted. Fixes the placeholder gold "B" badge that isn't
   // Blaze's actual logo.
-  const logo = req.query.logo ? String(req.query.logo).slice(0, 300) : `${SELF_URL}/blaze-logo.png`;
+  const logo = req.query.logo ? String(req.query.logo).slice(0, 300) : `${SELF_URL}/blaze-badge.png`;
   const vert  = pos.startsWith("top") ? "top:2vh;" : "bottom:2vh;";
   const horiz = pos.endsWith("right") ? "right:2vw;" : "left:2vw;";
   const colTop = pos.startsWith("top"); // top positions stack downward (newest at bottom of the visual stack)
@@ -5198,6 +5198,12 @@ app.get("/blaze-logo.png", (req, res) => {
 app.get("/avax-logo.png", (req, res) => {
   res.set("Cache-Control", "public, max-age=86400");
   res.sendFile(path.join(__dirname, "avax-logo.png"), err => { if (err) res.status(404).end(); });
+});
+// Compact "B" mark cropped tight from Blaze's own wordmark — for small inline spots (the chat overlay
+// badge) where the full wide "BLAZE" wordmark reads as an illegible sliver at ~26px tall.
+app.get("/blaze-badge.png", (req, res) => {
+  res.set("Cache-Control", "public, max-age=86400");
+  res.sendFile(path.join(__dirname, "blaze-badge.png"), err => { if (err) res.status(404).end(); });
 });
 
 // =============================================
