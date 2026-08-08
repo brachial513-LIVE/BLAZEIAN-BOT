@@ -4708,16 +4708,23 @@ app.get("/overlay/chat/:username", (req, res) => {
     const t=document.createElement('span');t.className='text';
     // Blaze embeds custom emotes as literal "[emote:ID]" tokens inside the text — replace each token
     // with its real image AT that spot (never show the raw bracket text); unresolved tokens are dropped.
+    // Plain string scanning on purpose, no regex literal: a bracket-escaping regex survived locally but
+    // came out broken after his GitHub copy-paste deploy (backslashes got stripped, "Unmatched )" crash
+    // that silently killed the whole render() function client-side) — this version has zero backslashes.
     const emap=m.emap||{};
-    const re=/\[emote:([a-zA-Z0-9-]+)\]/g;
-    let last=0, mt;
-    while((mt=re.exec(m.msg))){
-      if(mt.index>last) t.appendChild(document.createTextNode(m.msg.slice(last,mt.index)));
-      const url=emap[mt[1]];
+    const OPEN='[emote:', CLOSE=']';
+    let i=0;
+    while(i<m.msg.length){
+      const s=m.msg.indexOf(OPEN,i);
+      if(s===-1){ t.appendChild(document.createTextNode(m.msg.slice(i))); break; }
+      if(s>i) t.appendChild(document.createTextNode(m.msg.slice(i,s)));
+      const e=m.msg.indexOf(CLOSE,s);
+      if(e===-1){ t.appendChild(document.createTextNode(m.msg.slice(s))); break; }
+      const id=m.msg.slice(s+OPEN.length,e);
+      const url=emap[id];
       if(url){const img=document.createElement('img');img.src=url;img.onerror=()=>img.remove();t.appendChild(img);}
-      last=re.lastIndex;
+      i=e+1;
     }
-    if(last<m.msg.length) t.appendChild(document.createTextNode(m.msg.slice(last)));
     el.appendChild(t);
     feed.appendChild(el);
     while(feed.children.length>MAX) feed.removeChild(feed.firstChild);
