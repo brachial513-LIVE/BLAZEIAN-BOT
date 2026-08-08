@@ -1034,7 +1034,7 @@
         "totalVotes": 4426,
         "totalSubs": 73,
         "totalChatMessages": 2000,
-        "totalStreamMinutes": 8526,
+        "totalStreamMinutes": 8531,
         "emotes": {
           "📊": 3,
           "🔥": 209,
@@ -7575,8 +7575,8 @@
       "stats": {
         "totalVotes": 4627,
         "totalSubs": 2,
-        "totalChatMessages": 893,
-        "totalStreamMinutes": 1607,
+        "totalChatMessages": 894,
+        "totalStreamMinutes": 1612,
         "emotes": {
           "❤": 20,
           "🙌": 12,
@@ -7595,7 +7595,7 @@
           "🚨": 42,
           "🔥": 30,
           "💚": 6,
-          "👀": 6,
+          "👀": 9,
           "😄": 2,
           "😁": 1,
           "😏": 4,
@@ -7660,13 +7660,9 @@
           "👏": "👏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786190328336
+        "lastChatAt": 1786190655314
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "gm Noxxie"
-        },
         {
           "user": "desirablebottom",
           "msg": "zooo haii haii"
@@ -7702,6 +7698,10 @@
         {
           "user": "desirablebottom",
           "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "👀👀👀"
         }
       ],
       "customCommands": {},
@@ -9089,8 +9089,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786163291999,
   "auth": {
-    "accessToken": "fe85b349e1199739fbb51752a65eb1e1",
-    "refreshToken": "8c7e571e2c204bd441e993580a017a1f",
+    "accessToken": "b2f76159e5d8c94bfea4337e864783f2",
+    "refreshToken": "7a6f1dce5ccdb36b7e030fce801b987c",
     "sessionToken": "e36e5fb8631399ce7737e2f5cf07af5b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
