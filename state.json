@@ -1029,7 +1029,7 @@
         "totalVotes": 4426,
         "totalSubs": 73,
         "totalChatMessages": 1995,
-        "totalStreamMinutes": 8356,
+        "totalStreamMinutes": 8361,
         "emotes": {
           "📊": 3,
           "🔥": 209,
@@ -5693,7 +5693,7 @@
       "stats": {
         "totalVotes": 2336,
         "totalSubs": 22,
-        "totalChatMessages": 947,
+        "totalChatMessages": 948,
         "totalStreamMinutes": 1749,
         "emotes": {
           "❤": 92,
@@ -5796,13 +5796,9 @@
           "😊": "😊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786046777467
+        "lastChatAt": 1786180028892
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 parky is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "s1lent2193",
           "msg": "👋"
@@ -5838,6 +5834,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ dinopawnz just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "parky",
+          "msg": "[emote:713450fe-afd8-40c1-abee-17cd0c75c754] [emote:30a2b611-e60d-46a9-beff-f8a6596a2622] [emote:0c3f34c5-15c9-46f4-830a-064df642d47e] [emote:69396c3d-db1f-4827-bb00-bef34516dc64] [emote:03ebac3e-5d2e-4747-9669-49077cc86614]"
         }
       ],
       "customCommands": {},
@@ -7567,7 +7567,7 @@
         "totalVotes": 4607,
         "totalSubs": 2,
         "totalChatMessages": 858,
-        "totalStreamMinutes": 1427,
+        "totalStreamMinutes": 1432,
         "emotes": {
           "❤": 20,
           "🙌": 12,
@@ -9080,8 +9080,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786163291999,
   "auth": {
-    "accessToken": "1294ca17440c05be98afc6e2046f3075",
-    "refreshToken": "4072f947273623c05c207c1dc5e28793",
+    "accessToken": "84ecffc76416ca787877fd09ee16677e",
+    "refreshToken": "5409a10401f6f450312c3861cbf14815",
     "sessionToken": "e36e5fb8631399ce7737e2f5cf07af5b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
