@@ -469,7 +469,7 @@
       "stats": {
         "totalVotes": 27260,
         "totalSubs": 48,
-        "totalChatMessages": 4960,
+        "totalChatMessages": 4962,
         "totalStreamMinutes": 1720,
         "emotes": {
           "🗳": 741,
@@ -478,7 +478,7 @@
           "🔥": 122,
           "☺": 3,
           "🔴": 17,
-          "🎉": 59,
+          "🎉": 60,
           "📴": 18,
           "👋": 37,
           "🫶": 3,
@@ -490,7 +490,7 @@
           "😅": 17,
           "🤗": 10,
           "😄": 17,
-          "⚡": 30,
+          "⚡": 31,
           "🤣": 148,
           "😋": 1,
           "👀": 63,
@@ -673,16 +673,14 @@
           "😟": "😟",
           "😪": "😪"
         },
-        "sendFailStreak": 15,
-        "lastChatAt": 1786180351755,
-        "lastSendFailAt": 1786193411193,
-        "lastSendFailReason": "You are banned from this channel."
+        "sendFailStreak": 0,
+        "lastChatAt": 1786199664056,
+        "lastSendFailAt": 1786199415720,
+        "lastSendFailReason": "You are banned from this channel.",
+        "recoveredAt": 1786199663228,
+        "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "tenshi",
-          "msg": "sorry i haven't been streaming for a while and saw you gave me 100 votes. thank you so much!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @_VladEnzo just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -718,6 +716,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 10 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🎉 BLAZEIAN_BOT_AI just reached Level 6! ⚡ (9,940 XP)"
         }
       ],
       "customCommands": {},
@@ -773,7 +775,7 @@
       "streamTitle": "",
       "gameOverride": "",
       "botVip": true,
-      "commentMode": "low",
+      "commentMode": "silent",
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1785602194981
     },
@@ -783,22 +785,22 @@
       "stats": {
         "totalVotes": 6783,
         "totalSubs": 20,
-        "totalChatMessages": 12070,
+        "totalChatMessages": 12256,
         "totalStreamMinutes": 1335,
         "emotes": {
-          "🔥": 623,
+          "🔥": 687,
           "🗳": 16,
           "🔴": 23,
-          "🎉": 99,
+          "🎉": 101,
           "😍": 1,
           "❤": 33,
           "🚢": 8,
-          "⏰": 586,
+          "⏰": 601,
           "🔜": 349,
-          "💀": 164,
+          "💀": 169,
           "😘": 2,
-          "🏆": 68,
-          "🎊": 59,
+          "🏆": 70,
+          "🎊": 61,
           "🎰": 6,
           "😰": 66,
           "🍌": 37,
@@ -838,9 +840,9 @@
           "✌": 1,
           "☺": 1,
           "👍": 1,
-          "🥔": 522,
-          "🔄": 210,
-          "🤖": 78,
+          "🥔": 586,
+          "🔄": 215,
+          "🤖": 81,
           "😏": 4,
           "❌": 1,
           "🙃": 3,
@@ -849,7 +851,7 @@
           "🧪": 1,
           "🙄": 2,
           "🎮": 4,
-          "🪅": 39,
+          "🪅": 40,
           "🍬": 57,
           "🛑": 2,
           "💚": 7,
@@ -929,7 +931,7 @@
           "⚔": "⚔",
           "😊": "😊"
         },
-        "lastChatAt": 1786197740355,
+        "lastChatAt": 1786200154647,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -939,15 +941,15 @@
       "chatMemory": [
         {
           "user": "jt_squared2",
-          "msg": "🌉 Glass Bridge starting in 180 seconds! Cross the bridge by typing LEFT or RIGHT! Type !join to play!"
+          "msg": "🏆 WINNER: WildStar23! 🎉 Survived 3 rounds! Congratulations! 🎊"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "🪅 Pinata starting in 30 seconds! Swing the bat and break the pinata for candy! Type !join to play!"
         },
         {
           "user": "jt_squared2",
           "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "botger",
-          "msg": "🎉 jt_squared2 just reached Level 8! ⚡ (16,505 XP)"
         },
         {
           "user": "botger",
@@ -1031,13 +1033,13 @@
       "username": "crypt0k1ng96",
       "language": "en",
       "stats": {
-        "totalVotes": 4586,
+        "totalVotes": 4606,
         "totalSubs": 75,
-        "totalChatMessages": 2083,
-        "totalStreamMinutes": 8666,
+        "totalChatMessages": 2086,
+        "totalStreamMinutes": 8686,
         "emotes": {
           "📊": 3,
-          "🔥": 218,
+          "🔥": 219,
           "🤣": 16,
           "💚": 46,
           "❤": 11,
@@ -1068,7 +1070,7 @@
           "📜": 4,
           "🎬": 20,
           "✂": 4,
-          "👀": 11,
+          "👀": 12,
           "💜": 5,
           "🌟": 22,
           "📣": 4,
@@ -1252,21 +1254,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786198313999
+        "lastChatAt": 1786199743700
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "@princessjamesy attacked Cyber Fox Dragon for 38 damage and earned 16 FoxCoins! Boss HP: 44/500. Your total boss damage: 249. Balance: 101 FoxCoins."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 16 damage and earned 15 FoxCoins! Boss HP: 28/500. Your total boss damage: 223. Balance: 95 FoxCoins."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@princessjamesy attacked Cyber Fox Dragon for 32 damage and earned 12 FoxCoins! Boss HP: 0/500. Your total boss damage: 281. Balance: 113 FoxCoins. Boss defeated! MVP @princessjamesy earned a 100 FoxCoins bonus. Total bosses defeated: 3."
-        },
         {
           "user": "foxbotai",
           "msg": "No boss is active right now. Admins can start one with !startboss Cyber Fox Dragon"
@@ -1294,6 +1284,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thank you @tekorei_web3 for the votes!!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "BRB smoke break"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "We watching Rick and Morty until Otherside event 👀🔥"
         }
       ],
       "customCommands": {},
@@ -2145,14 +2147,14 @@
       "stats": {
         "totalVotes": 2976,
         "totalSubs": 36,
-        "totalChatMessages": 1253,
-        "totalStreamMinutes": 7605,
+        "totalChatMessages": 1256,
+        "totalStreamMinutes": 7610,
         "emotes": {
           "😊": 3,
           "🌵": 87,
           "🔥": 272,
           "🤪": 1,
-          "👋": 31,
+          "👋": 32,
           "👍": 20,
           "🥰": 4,
           "💜": 1,
@@ -2354,21 +2356,9 @@
           "🍀": "🍀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786155502614
+        "lastChatAt": 1786200094333
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "thank you so much again for the raid and votes kind sir @capt_rob_advent . have a good one! [emote:5a07a582-019e-4405-bd0c-69824925b3f4]"
-        },
-        {
-          "user": "cactus_jack440",
-          "msg": "[emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c]"
-        },
-        {
-          "user": "capt_rob_advent",
-          "msg": "Test"
-        },
         {
           "user": "cactus_jack440",
           "msg": "pass"
@@ -2396,6 +2386,18 @@
         {
           "user": "capt_rob_advent",
           "msg": "[emote:248db14b-f100-4838-be4d-8e265634e892] [emote:c4434ae2-5fd7-4797-aa90-c2eacea581ff] [emote:795f0ae8-10ec-4faa-8160-503dbd0e593d] [emote:accf2463-21c2-4bfe-b880-8e643531aca9] [emote:00f62a5c-5ca3-4887-8ce1-dcd57e6a2dd3] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:c785e46c-2979-46af-983c-d2eab8a975ce]"
+        },
+        {
+          "user": "canawilks",
+          "msg": "It looks pretty out."
+        },
+        {
+          "user": "twerkin_herbert",
+          "msg": "👋"
+        },
+        {
+          "user": "canawilks",
+          "msg": "Yes"
         }
       ],
       "customCommands": {},
@@ -2404,7 +2406,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Standing by in the fleet waiting on orders — IRL",
       "profile": "We're a Blaze community that's all about IRL maritime streams, focusing on activities like loading barges and fueling ships. We love to surf, vote for our favorite streamers, celebrate with \"BLAZE ON\", shout \"Sweet!\" when new content drops, do shots saying \"shots shots!\", and enjoy celebrating with \"BLAZE ON\".",
       "_profileAtCount": 1239,
       "gameOverride": "",
@@ -3486,15 +3488,15 @@
       "language": "en",
       "stats": {
         "totalVotes": 3407,
-        "totalSubs": 59,
-        "totalChatMessages": 349,
-        "totalStreamMinutes": 7411,
+        "totalSubs": 60,
+        "totalChatMessages": 350,
+        "totalStreamMinutes": 7425,
         "emotes": {
           "❤": 78,
           "🙌": 25,
           "🔥": 28,
-          "🔴": 49,
-          "🎉": 49,
+          "🔴": 50,
+          "🎉": 50,
           "📴": 51,
           "👋": 52,
           "😂": 4,
@@ -3537,14 +3539,10 @@
           "☺": "☺",
           "🤗": "🤗"
         },
-        "lastChatAt": 1786154232454,
+        "lastChatAt": 1786199296843,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
@@ -3580,6 +3578,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -3591,7 +3593,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -6711,10 +6713,10 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 3272,
+        "totalVotes": 3322,
         "totalSubs": 11,
-        "totalChatMessages": 688,
-        "totalStreamMinutes": 2991,
+        "totalChatMessages": 693,
+        "totalStreamMinutes": 3005,
         "emotes": {
           "❤": 46,
           "🙌": 23,
@@ -6725,12 +6727,12 @@
           "💪": 1,
           "💚": 6,
           "🔥": 65,
-          "🗳": 255,
+          "🗳": 258,
           "🤗": 4,
           "📴": 16,
           "🎁": 22,
-          "🔴": 14,
-          "🎉": 20,
+          "🔴": 15,
+          "🎉": 21,
           "👍": 9,
           "😍": 5,
           "😆": 6,
@@ -6782,29 +6784,9 @@
           "🐐": "🐐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786164089787
+        "lastChatAt": 1786199902387
       },
       "chatMemory": [
-        {
-          "user": "shogunmaster",
-          "msg": "Tiger Power"
-        },
-        {
-          "user": "he_nose",
-          "msg": "Yooooooooo"
-        },
-        {
-          "user": "he_nose",
-          "msg": "gm gm Angge"
-        },
-        {
-          "user": "he_nose",
-          "msg": "[emote:5a07a582-019e-4405-bd0c-69824925b3f4]"
-        },
-        {
-          "user": "he_nose",
-          "msg": "Doing good, just eating some lunch"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -6824,6 +6806,26 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 angge_wf is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @Future42!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 75)! Thank you!! 🗳️"
+        },
+        {
+          "user": "future42",
+          "msg": "GM. Enjoy"
         }
       ],
       "customCommands": {},
@@ -6837,7 +6839,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4e3e8a6e-187e-4044-ac4b-00376f4dd2b2.gif",
       "profile": "Welcome to the chill vibes of angge_wf's stream, where Wayfinders PH hangs out and plays Valorant! We're all about \"magadga umaga\" mornings, \"🤩🤩🤩\" reactions, and \"🔥🔥🔥\" fire. We celebrate \"VOTE ALERT\", \"❤️\"s, passionate debates, generous subs and votes, and \"gm gm gm gm gm\" mornings. Expect \"🗳️\"s and \"🔥\"s.",
       "_profileAtCount": 669,
-      "streamTitle": "",
+      "streamTitle": "Wayfinders PH - CHILL STREAM — VALORANT",
       "gameOverride": "",
       "followed": true,
       "botVip": true,
@@ -7579,8 +7581,8 @@
       "stats": {
         "totalVotes": 4653,
         "totalSubs": 2,
-        "totalChatMessages": 997,
-        "totalStreamMinutes": 1747,
+        "totalChatMessages": 1005,
+        "totalStreamMinutes": 1767,
         "emotes": {
           "❤": 23,
           "🙌": 13,
@@ -7664,41 +7666,9 @@
           "👏": "👏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786198982243
+        "lastChatAt": 1786199338957
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Leave none alive"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Hide from ThaiViking haha"
-        },
-        {
-          "user": "octo",
-          "msg": "you know what noxx, the post said 6 utc you were right"
-        },
-        {
-          "user": "octo",
-          "msg": "the sunday times were earlier lol"
-        },
-        {
-          "user": "octo",
-          "msg": "t for talk, optimal binding"
-        },
-        {
-          "user": "octo",
-          "msg": "tilde seems common"
-        },
-        {
-          "user": "octo",
-          "msg": "lets goooo lol"
-        },
-        {
-          "user": "octo",
-          "msg": "you can equip stuff so you can call loadouts and get that stuff in match"
-        },
         {
           "user": "octo",
           "msg": "gotta unlock em tho"
@@ -7706,6 +7676,38 @@
         {
           "user": "octo",
           "msg": "you roll em in the lootboxes"
+        },
+        {
+          "user": "octo",
+          "msg": "some of the challenges give you lootboxes"
+        },
+        {
+          "user": "octo",
+          "msg": "you can also find them ingame and extract them in the machines"
+        },
+        {
+          "user": "octo",
+          "msg": "haha glgl"
+        },
+        {
+          "user": "foxcrochet",
+          "msg": "This is like cyberpunk for outdoor dads lol"
+        },
+        {
+          "user": "octo",
+          "msg": "if you hit the map it should show you where you can extract"
+        },
+        {
+          "user": "octo",
+          "msg": "mans gotta earn a living"
+        },
+        {
+          "user": "slothsm",
+          "msg": "gm gm bro"
+        },
+        {
+          "user": "slothsm",
+          "msg": "gl"
         }
       ],
       "customCommands": {},
@@ -7719,8 +7721,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
       "streamTitle": "Saturday Gamin n Chillin — IRL",
-      "profile": "noxx's community is a lively bunch of bug slayers and vote warriors who live for Hellldivin and thrivin. They're known for their \"slay all the bugs\" spirit, love giving shoutouts with \"🗳️ VOTE ALERT!!\", \"love fest!\" vibes, and frequently exclaim \"Wild gaem!\" and \"RIP!\" in response to noxx's gaming prowess and IRL adventures. They celebrate victories with \"👀👀👀\", \"clipping it!\", and \"Raid ALERT!!\", enthusiastically respond to pogo moments, and occasionally drop \"skrunky emotes\" while playing H",
-      "_profileAtCount": 911,
+      "profile": "noxx's community is a lively bunch of bug slayers and vote warriors who live for Hellldivin and thrivin, fueled by a \"slay all the bugs\" spirit. They love giving shoutouts with \"🗳️ VOTE ALERT!!\", exclaim \"Wild gaem!\" and \"RIP!\" in response to gaming prowess, and celebrate victories with \"👀👀👀\", \"clipping it!\", and \"Raid ALERT!!\" while frequently dropping \"skrunky emotes\" while playing H, especially during pogo moments.",
+      "_profileAtCount": 1005,
       "gameOverride": "",
       "lastStreamInfo": "Helldiving with the BOIZ — Helldivers 2",
       "lastStreamEndedAt": 1786149959510,
@@ -8090,8 +8092,8 @@
       "stats": {
         "totalVotes": 114,
         "totalSubs": 1,
-        "totalChatMessages": 67,
-        "totalStreamMinutes": 565,
+        "totalChatMessages": 69,
+        "totalStreamMinutes": 580,
         "emotes": {
           "❤": 7,
           "🙌": 3,
@@ -8101,8 +8103,8 @@
           "🔴": 5,
           "🎉": 5,
           "🗳": 18,
-          "📴": 5,
-          "👋": 5,
+          "📴": 6,
+          "👋": 6,
           "💛": 1,
           "🥰": 1,
           "📢": 3,
@@ -8125,17 +8127,9 @@
           "🎁": "🎁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786198453712
+        "lastChatAt": 1786199866786
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @zimzimma!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ zimzimma just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -8167,6 +8161,14 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:37719561-c923-4260-b1a5-e3eda10c103d]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -8178,9 +8180,9 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg",
-      "streamTitle": "Rainy and Cold Stream 😬🔥 — Crypto",
-      "lastStreamInfo": "Rainy and Cold Stream 😬🔥 — VALORANT",
-      "lastStreamEndedAt": 1786116333605,
+      "streamTitle": "",
+      "lastStreamInfo": "Rainy and Cold Stream 😬🔥 — Crypto",
+      "lastStreamEndedAt": 1786199861520,
       "gameOverride": "",
       "profile": "GMs are the best! 🔥🔥💚💚 We're a community that loves to 'NEW FOLLOWER!!' and celebrate our streamer's live streams with 🎉 and 🔴 alerts. Weekly Giveaways on Blaze are a thing, and we're all about those 'permanently free Entries'! 💚 We 'VOTE ALERT!!' and shower love on our streamer with 'love fest' shoutouts. seventh loves being celebrated, so let's give 'em a love fest!",
       "_profileAtCount": 55,
@@ -8609,9 +8611,9 @@
       "n": 8
     },
     "foxbotai": {
-      "note": "They host a livestream on Blaze.stream, engaging with their audience through giveaways, events, and games like FoxBot, showcasing enthusiasm and community spirit.",
-      "at": 1786097557909,
-      "n": 17
+      "note": "They host a livestream on Blaze.stream, engaging with their audience through giveaways, events, and games like FoxBot, showcasing enthusiasm and community spirit, with a sense of humor through witty comments and…",
+      "at": 1786199596553,
+      "n": 18
     },
     "paulo_santos20": {
       "note": "Paulo_santos20 is likely into video games, particularly Nintendo games, and uses humor in friendly chat interactions.",
