@@ -1780,11 +1780,29 @@ function pushEmote(channelId, e, isImg) {
 // web page and breaks on every Blaze redesign, whereas the bot rides Blaze's real event connection, so it
 // keeps working. Twitch/YouTube stay in SSN; Blaze pops in from here as its own transient Browser Source.
 const recentChat = {}; // rolling buffer, capped so memory stays tiny
-function pushChat(channelId, user, msg, emoteMap) {
+function pushChat(channelId, user, msg, emoteMap, sender) {
   if (!channelId || !user || !msg) return;
   if (!recentChat[channelId]) recentChat[channelId] = [];
-  recentChat[channelId].push({ user, msg, emap: emoteMap || {}, ts: Date.now() });
+  // `sender` (raw payload.sender) is stashed as-is, unused by the overlay yet — once /admin/rawchat
+  // confirms the real avatar-image field name, wire it into the overlay's render() without another
+  // guess-and-redeploy cycle (the emote url field name was already guessed wrong twice this way).
+  recentChat[channelId].push({ user, msg, emap: emoteMap || {}, sender: sender || null, ts: Date.now() });
   if (recentChat[channelId].length > 60) recentChat[channelId].shift();
+}
+
+// Rolling raw-payload debug buffer, per channel — lets us see EXACTLY what Blaze sends for sender/emotes
+// on real live messages via a URL instead of guessing field names or digging through Render's log
+// dashboard. Not wired into any user-facing feature; purely a diagnostic aid, gated like other /admin routes.
+const rawChatDebug = {};
+function captureRawChat(channelId, payload) {
+  if (!rawChatDebug[channelId]) rawChatDebug[channelId] = [];
+  rawChatDebug[channelId].push({
+    sender: payload.sender,
+    emotes: payload.message?.emotes || payload.emotes || null,
+    msg: typeof payload.message === "string" ? payload.message : payload.message?.text,
+    ts: Date.now(),
+  });
+  if (rawChatDebug[channelId].length > 5) rawChatDebug[channelId].shift();
 }
 
 // Live reactions for the running-mascot overlay: an event here makes the on-screen Blazeian
@@ -2552,10 +2570,21 @@ async function handleEvent(message) {
 
   if (metadata.subscriptionType === "channel.chat.message") {
     const user = payload.sender?.username;
-    if (!user || isBotName(user)) return;
+    if (!user) return;
     if (!channelId) return;
     const msg = typeof payload.message === "string" ? payload.message : payload.message?.text || "";
     if (!msg) return;
+    captureRawChat(channelId, payload); // rolling debug buffer — see /admin/rawchat/:username
+    if (isBotName(user)) {
+      // Blazeian's OWN replies never reach the reply-generation logic below (avoids self-triggering
+      // loops), but the chat OVERLAY should still show them — proven live: a real Twitch/Blaze chat
+      // embed shows the bot's own messages too, and hiding them made the overlay look like the bot
+      // never answered even though it visibly did in the real Blaze chat.
+      if (channelId !== BOT_CHANNEL_ID && channels[channelId]) {
+        pushChat(channelId, user, msg, {}, payload.sender);
+      }
+      return;
+    }
     const isBotChannel = channelId === BOT_CHANNEL_ID;
     const senderIsBot = looksLikeBot(payload.sender, user);
     console.log(`[${isBotChannel ? "BOT_CHAN" : channelId}] ${user}${senderIsBot ? " 🤖" : ""}: ${msg}`);
@@ -2599,7 +2628,7 @@ async function handleEvent(message) {
         if (ch.chatMemory.length > 10) ch.chatMemory.shift();
         recordSample(channelId, user, msg); // feed the self-learning channel profile
         if (!senderIsBot) {
-          pushChat(channelId, user, msg, emoteMap); // feed the OBS chat overlay (real humans only)
+          pushChat(channelId, user, msg, emoteMap, payload.sender); // feed the OBS chat overlay
           recordPersonSample(user, msg); // feed the per-person memory distiller
           maybeNudgeOwner(channelId, user, msg).catch(() => {});
         }
@@ -4634,6 +4663,16 @@ app.get("/overlay/emotes/:username", (req, res) => {
 });
 
 // Live feed of recent CHAT messages for the chat overlay (polled by the overlay). No auth — public chat only.
+// DIAGNOSTIC: dump the last few RAW chat.message payloads (sender + emotes) for a channel — so avatar
+// and emote fields can be confirmed against real data instead of guessed. /admin/rawchat/NAME?key=...
+app.get("/admin/rawchat/:username", (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const channelId = findChannelByUsername(req.params.username);
+  if (!channelId) return res.status(404).send("Channel not found");
+  res.set("Content-Type", "text/plain; charset=utf-8");
+  res.send(JSON.stringify(rawChatDebug[channelId] || [], null, 2));
+});
+
 app.get("/api/chat/:username", (req, res) => {
   const channelId = findChannelByUsername(req.params.username);
   res.set("Access-Control-Allow-Origin", "*");
