@@ -783,22 +783,22 @@
       "stats": {
         "totalVotes": 6783,
         "totalSubs": 20,
-        "totalChatMessages": 11995,
+        "totalChatMessages": 12045,
         "totalStreamMinutes": 1335,
         "emotes": {
           "🔥": 623,
           "🗳": 16,
           "🔴": 23,
-          "🎉": 97,
+          "🎉": 98,
           "😍": 1,
           "❤": 33,
           "🚢": 8,
-          "⏰": 566,
+          "⏰": 576,
           "🔜": 349,
           "💀": 164,
           "😘": 2,
-          "🏆": 66,
-          "🎊": 58,
+          "🏆": 68,
+          "🎊": 59,
           "🎰": 6,
           "😰": 66,
           "🍌": 37,
@@ -807,13 +807,13 @@
           "✅": 238,
           "🎲": 40,
           "😤": 1,
-          "🌉": 10,
-          "💨": 85,
-          "💥": 137,
+          "🌉": 13,
+          "💨": 87,
+          "💥": 139,
           "📴": 22,
           "👋": 26,
           "😢": 2,
-          "⚠": 15,
+          "⚠": 16,
           "🎯": 2,
           "👿": 1,
           "😂": 34,
@@ -840,7 +840,7 @@
           "👍": 1,
           "🥔": 522,
           "🔄": 210,
-          "🤖": 75,
+          "🤖": 76,
           "😏": 4,
           "❌": 1,
           "🙃": 3,
@@ -929,7 +929,7 @@
           "⚔": "⚔",
           "😊": "😊"
         },
-        "lastChatAt": 1786195895864,
+        "lastChatAt": 1786196231629,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -939,11 +939,7 @@
       "chatMemory": [
         {
           "user": "jt_squared2",
-          "msg": "⚠️ Not enough players to start! Need at least 2."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🪅 Pinata starting in 30 seconds! Swing the bat and break the pinata for candy! Type !join to play!"
+          "msg": "🌉 Glass Bridge starting in 30 seconds! Cross the bridge by typing LEFT or RIGHT! Type !join to play!"
         },
         {
           "user": "jt_squared2",
@@ -955,7 +951,7 @@
         },
         {
           "user": "jt_squared2",
-          "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
+          "msg": "@jt_squared2 Unknown game type! Games: roulette, niruntz, rumble, zombies, gorillas, battleship, pyrorace, glassbridge, hotpotato, pinata"
         },
         {
           "user": "jt_squared2",
@@ -976,6 +972,10 @@
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "⚠️ Not enough players to start! Need at least 2."
         }
       ],
       "customCommands": {},
@@ -1034,7 +1034,7 @@
         "totalVotes": 4581,
         "totalSubs": 74,
         "totalChatMessages": 2009,
-        "totalStreamMinutes": 8616,
+        "totalStreamMinutes": 8621,
         "emotes": {
           "📊": 3,
           "🔥": 216,
@@ -5486,7 +5486,7 @@
         "totalVotes": 1002,
         "totalSubs": 9,
         "totalChatMessages": 245,
-        "totalStreamMinutes": 683,
+        "totalStreamMinutes": 688,
         "emotes": {
           "❤": 4,
           "🙌": 13,
@@ -7575,8 +7575,8 @@
       "stats": {
         "totalVotes": 4653,
         "totalSubs": 2,
-        "totalChatMessages": 943,
-        "totalStreamMinutes": 1697,
+        "totalChatMessages": 944,
+        "totalStreamMinutes": 1702,
         "emotes": {
           "❤": 23,
           "🙌": 13,
@@ -7660,13 +7660,9 @@
           "👏": "👏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786195916290
+        "lastChatAt": 1786196261033
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "Somebody say BEER???"
-        },
         {
           "user": "fartvader",
           "msg": "lol"
@@ -7702,6 +7698,10 @@
         {
           "user": "fartvader",
           "msg": "oh wow that one's good"
+        },
+        {
+          "user": "fartvader",
+          "msg": "haha we'll see"
         }
       ],
       "customCommands": {},
@@ -8087,7 +8087,7 @@
         "totalVotes": 114,
         "totalSubs": 1,
         "totalChatMessages": 64,
-        "totalStreamMinutes": 515,
+        "totalStreamMinutes": 520,
         "emotes": {
           "❤": 7,
           "🙌": 3,
@@ -9109,8 +9109,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786163291999,
   "auth": {
-    "accessToken": "3374959d3f272ec205d651c6c0051cc8",
-    "refreshToken": "7250e70089afcd9663abece234c6ecc1",
+    "accessToken": "c45d773f77a0235a939f94baa8625825",
+    "refreshToken": "481cb4d21c6dd40ec28bcfdfbd520742",
     "sessionToken": "e36e5fb8631399ce7737e2f5cf07af5b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
