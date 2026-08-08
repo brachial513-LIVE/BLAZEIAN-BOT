@@ -1033,8 +1033,8 @@
       "stats": {
         "totalVotes": 4426,
         "totalSubs": 73,
-        "totalChatMessages": 1995,
-        "totalStreamMinutes": 8401,
+        "totalChatMessages": 1997,
+        "totalStreamMinutes": 8406,
         "emotes": {
           "📊": 3,
           "🔥": 209,
@@ -1248,13 +1248,9 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786178749905
+        "lastChatAt": 1786182666839
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "💚💚"
-        },
         {
           "user": "foxbotai",
           "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
@@ -1290,6 +1286,10 @@
         {
           "user": "foxbotai",
           "msg": "@brachial513, you have 0 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
         }
       ],
       "customCommands": {},
@@ -5878,7 +5878,7 @@
         "totalVotes": 5194,
         "totalSubs": 37,
         "totalChatMessages": 754,
-        "totalStreamMinutes": 4476,
+        "totalStreamMinutes": 4481,
         "emotes": {
           "❤": 29,
           "🙌": 56,
@@ -7572,7 +7572,7 @@
         "totalVotes": 4607,
         "totalSubs": 2,
         "totalChatMessages": 861,
-        "totalStreamMinutes": 1472,
+        "totalStreamMinutes": 1477,
         "emotes": {
           "❤": 20,
           "🙌": 12,
@@ -9085,8 +9085,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786163291999,
   "auth": {
-    "accessToken": "84ecffc76416ca787877fd09ee16677e",
-    "refreshToken": "5409a10401f6f450312c3861cbf14815",
+    "accessToken": "e77bce412798e3b9b2897517b7ad37bc",
+    "refreshToken": "d6174218cf3bfd7382a25a442df5bf79",
     "sessionToken": "e36e5fb8631399ce7737e2f5cf07af5b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
