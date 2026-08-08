@@ -1028,8 +1028,8 @@
       "stats": {
         "totalVotes": 4426,
         "totalSubs": 73,
-        "totalChatMessages": 1993,
-        "totalStreamMinutes": 8336,
+        "totalChatMessages": 1995,
+        "totalStreamMinutes": 8356,
         "emotes": {
           "📊": 3,
           "🔥": 209,
@@ -1243,17 +1243,9 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786172733718
+        "lastChatAt": 1786178749905
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "always my brother 💪"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@brachial513 received 500 FoxCoins! New balance: 628 FoxCoins."
-        },
         {
           "user": "brachial513",
           "msg": "💚💚"
@@ -1285,6 +1277,14 @@
         {
           "user": "foxbotai",
           "msg": "Unknown command. Type !foxhelp"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@testviewer, you have 0 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@brachial513, you have 0 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -7566,14 +7566,14 @@
       "stats": {
         "totalVotes": 4607,
         "totalSubs": 2,
-        "totalChatMessages": 852,
-        "totalStreamMinutes": 1409,
+        "totalChatMessages": 858,
+        "totalStreamMinutes": 1427,
         "emotes": {
           "❤": 20,
           "🙌": 12,
           "🗳": 183,
-          "🔴": 16,
-          "🎉": 23,
+          "🔴": 17,
+          "🎉": 26,
           "🏃": 1,
           "♂": 1,
           "💨": 1,
@@ -7583,7 +7583,7 @@
           "😂": 13,
           "📴": 17,
           "👋": 18,
-          "🚨": 30,
+          "🚨": 42,
           "🔥": 30,
           "💚": 6,
           "👀": 6,
@@ -7651,33 +7651,9 @@
           "👏": "👏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786149964663
+        "lastChatAt": 1786179354358
       },
       "chatMemory": [
-        {
-          "user": "foxcrochet",
-          "msg": "Unda da seeaa"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "just lurking"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "hope your day is going well bro"
-        },
-        {
-          "user": "briggsy",
-          "msg": "It’s already hard enough for hunters."
-        },
-        {
-          "user": "foxcrochet",
-          "msg": "Star boy lmao"
-        },
-        {
-          "user": "timdraws",
-          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
-        },
         {
           "user": "timdraws",
           "msg": "doing well, been 3d printing a lot"
@@ -7693,6 +7669,30 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@frozenbluey1 is raiding with a party of 8! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @frozenbluey1 is raiding with a party of 8! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@frozenbluey1 is raiding with a party of 2! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @frozenbluey1 is raiding with a party of 2! Welcome raiders!! 🎉"
         }
       ],
       "customCommands": {},
@@ -7705,7 +7705,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Saturday Gamin n Chillin — IRL",
       "profile": "noxx's community is a lively bunch of bug slayers and vote warriors who live for Hellldivin and thrivin. They're known for their \"slay all the bugs\" spirit, love giving shoutouts with \"🗳️ VOTE ALERT!!\", \"love fest!\" vibes, and frequently exclaim \"Wild gaem!\" and \"RIP!\" in response to noxx's gaming prowess and IRL adventures. They celebrate victories with \"👀👀👀\", \"clipping it!\", and \"Raid ALERT!!\", enthusiastically respond to pogo moments, and occasionally drop \"skrunky emotes\".",
       "_profileAtCount": 821,
       "gameOverride": "",
