@@ -2808,7 +2808,7 @@ function findChannelByUsername(username) {
 const PAGE_CSS = `<style>
   *{box-sizing:border-box;}
   body{background:radial-gradient(circle at 50% -5%, #16300f 0%, #0a0c0a 55%);color:#e8ffe8;font-family:'Segoe UI',Roboto,sans-serif;margin:0;padding:0 16px 70px;}
-  .wrap{max-width:860px;margin:0 auto;}
+  .wrap{max-width:860px;margin:0 auto;position:relative;}
   header{text-align:center;padding:38px 0 14px;}
   header img{width:128px;height:128px;border-radius:50%;border:3px solid #5cf472;box-shadow:0 0 34px rgba(92,244,114,.55);object-fit:cover;animation:glow 3s ease-in-out infinite;}
   @keyframes glow{0%,100%{box-shadow:0 0 26px rgba(92,244,114,.45);}50%{box-shadow:0 0 44px rgba(255,140,0,.5);}}
@@ -3471,7 +3471,7 @@ app.get("/", (req, res) => {
   res.send(`${pageHead("BLAZEIAN_BOT-AI — Loyal on Blaze")}
     ${session ? `<div class="topbar"><span class="muted">logged in as <b style="color:#5cf472;">${esc(session.username)}</b></span> <a href="/dashboard" class="link">🎛️ Dashboard</a> · <a href="/dashboard/logout" class="link">logout</a></div>` : ""}
     <style>
-      .hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px;padding:42px 0 10px;text-align:left;}
+      .hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px;padding:118px 0 10px;text-align:left;}
       .hero img{width:150px;height:150px;border-radius:50%;border:3px solid #5cf472;box-shadow:0 0 38px rgba(92,244,114,.6);animation:glow 3s ease-in-out infinite;}
       .bubble{position:relative;background:rgba(18,26,16,.92);border:1px solid #2c5a2c;border-radius:16px;padding:16px 20px;max-width:430px;font-size:16px;line-height:1.5;color:#e8ffe8;box-shadow:0 6px 24px rgba(0,0,0,.5);}
       .bubble:before{content:"";position:absolute;left:-12px;top:48px;border:7px solid transparent;border-right-color:#2c5a2c;}
@@ -3495,7 +3495,7 @@ app.get("/", (req, res) => {
       .blazebtn{display:inline-flex;align-items:center;gap:11px;background:linear-gradient(135deg,#1d1d1d,#0c0c0c);color:#fff;font-weight:800;font-size:18px;padding:18px 38px;border-radius:14px;text-decoration:none;border:2px solid #f5a623;box-shadow:0 0 26px rgba(245,166,35,.55);animation:bpulse 2.2s ease-in-out infinite;transition:transform .15s;}
       .blazebtn:hover{transform:translateY(-2px) scale(1.02);}
       .blazeword{font-weight:900;font-style:italic;color:#ffc62e;text-shadow:2px 2px 0 #6b3d00,3px 3px 0 #4a2a00;letter-spacing:1px;font-size:23px;}
-      .builtbadges{display:flex;gap:16px;align-items:center;justify-content:center;margin:0 0 14px;flex-wrap:wrap;}
+      .builtbadges{position:absolute;top:6px;left:0;display:flex;flex-direction:column;gap:8px;align-items:flex-start;}
       .bb{display:inline-flex;align-items:center;gap:9px;text-decoration:none;padding:6px 13px;border:1px solid #223822;border-radius:12px;background:rgba(12,20,12,.55);transition:border-color .15s,transform .15s;}
       .bb:hover{border-color:#5cf472;transform:translateY(-1px);}
       .bblabel{color:#8fce9a;font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;}
