@@ -1780,10 +1780,10 @@ function pushEmote(channelId, e, isImg) {
 // web page and breaks on every Blaze redesign, whereas the bot rides Blaze's real event connection, so it
 // keeps working. Twitch/YouTube stay in SSN; Blaze pops in from here as its own transient Browser Source.
 const recentChat = {}; // rolling buffer, capped so memory stays tiny
-function pushChat(channelId, user, msg, emotes) {
+function pushChat(channelId, user, msg, emoteMap) {
   if (!channelId || !user || !msg) return;
   if (!recentChat[channelId]) recentChat[channelId] = [];
-  recentChat[channelId].push({ user, msg, emotes: (emotes || []).slice(0, 6), ts: Date.now() });
+  recentChat[channelId].push({ user, msg, emap: emoteMap || {}, ts: Date.now() });
   if (recentChat[channelId].length > 60) recentChat[channelId].shift();
 }
 
@@ -2565,7 +2565,11 @@ async function handleEvent(message) {
       ch.stats.totalChatMessages++;
       ch.stats.lastChatAt = Date.now(); // feeds the admin activity leaderboard's "last seen"
       const emotes = payload.message?.emotes || payload.emotes || [];
-      const emoteUrls = []; // custom-emote image URLs in THIS message, shown inline in the chat overlay
+      // Blaze embeds custom emotes as literal "[emote:ID]" tokens INSIDE the message text (confirmed
+      // live: "test test [emote:841539a5-...]" showed the raw bracket token in the chat overlay instead
+      // of the emote image). Build an id->url map so the overlay can replace each token inline with its
+      // real image, in the correct position — not just append images after the text.
+      const emoteMap = {};
       if (Array.isArray(emotes) && emotes.length) {
         // Confirms the real payload shape live — e.g. reports of a custom emote (like a "green heart")
         // not rendering on the emote-wall overlay: this shows whether Blaze actually sent a usable
@@ -2575,7 +2579,7 @@ async function handleEvent(message) {
           const id = em.id || em.emoteId, name = em.name || em.emoteName || id;
           if (id) { ch.stats.emotes[id] = (ch.stats.emotes[id] || 0) + 1; ch.stats.emoteNames[id] = name; }
           const url = em.url || em.imageUrl || em.image;
-          if (url) emoteUrls.push(url);
+          if (id && url) emoteMap[id] = url;
           pushEmote(channelId, url || name, !!url); // feed the emote-wall overlay
         });
       }
@@ -2595,7 +2599,7 @@ async function handleEvent(message) {
         if (ch.chatMemory.length > 10) ch.chatMemory.shift();
         recordSample(channelId, user, msg); // feed the self-learning channel profile
         if (!senderIsBot) {
-          pushChat(channelId, user, msg, emoteUrls); // feed the OBS chat overlay (real humans only)
+          pushChat(channelId, user, msg, emoteMap); // feed the OBS chat overlay (real humans only)
           recordPersonSample(user, msg); // feed the per-person memory distiller
           maybeNudgeOwner(channelId, user, msg).catch(() => {});
         }
@@ -4653,7 +4657,10 @@ app.get("/overlay/chat/:username", (req, res) => {
   const posRaw   = String(req.query.pos || "bottom-left");
   const pos = ["bottom-left","top-left","bottom-right","top-right"].includes(posRaw) ? posRaw : "bottom-left";
   const testMode = req.query.test === "1" || req.query.test === "true";
-  const logo = req.query.logo ? String(req.query.logo).slice(0, 300) : ""; // ?logo=URL → real logo image in the badge
+  // Real Blaze logo by default (hosted on this server, uploaded alongside the crown) — ?logo=URL still
+  // overrides it if a different image is ever wanted. Fixes the placeholder gold "B" badge that isn't
+  // Blaze's actual logo.
+  const logo = req.query.logo ? String(req.query.logo).slice(0, 300) : `${SELF_URL}/blaze-logo.png`;
   const vert  = pos.startsWith("top") ? "top:2vh;" : "bottom:2vh;";
   const horiz = pos.endsWith("right") ? "right:2vw;" : "left:2vw;";
   const colTop = pos.startsWith("top"); // top positions stack downward (newest at bottom of the visual stack)
@@ -4698,9 +4705,19 @@ app.get("/overlay/chat/:username", (req, res) => {
     el.appendChild(b);
     const u=document.createElement('span');u.className='user';u.style.color=userColor(m.user);
     u.textContent=m.user;el.appendChild(u);
-    const t=document.createElement('span');t.className='text';t.textContent=m.msg;
-    (m.emotes||[]).forEach(url=>{const img=document.createElement('img');img.src=url;
-      img.onerror=()=>img.remove();t.appendChild(document.createTextNode(' '));t.appendChild(img);});
+    const t=document.createElement('span');t.className='text';
+    // Blaze embeds custom emotes as literal "[emote:ID]" tokens inside the text — replace each token
+    // with its real image AT that spot (never show the raw bracket text); unresolved tokens are dropped.
+    const emap=m.emap||{};
+    const re=/\[emote:([a-zA-Z0-9-]+)\]/g;
+    let last=0, mt;
+    while((mt=re.exec(m.msg))){
+      if(mt.index>last) t.appendChild(document.createTextNode(m.msg.slice(last,mt.index)));
+      const url=emap[mt[1]];
+      if(url){const img=document.createElement('img');img.src=url;img.onerror=()=>img.remove();t.appendChild(img);}
+      last=re.lastIndex;
+    }
+    if(last<m.msg.length) t.appendChild(document.createTextNode(m.msg.slice(last)));
     el.appendChild(t);
     feed.appendChild(el);
     while(feed.children.length>MAX) feed.removeChild(feed.firstChild);
