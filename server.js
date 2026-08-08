@@ -4720,10 +4720,17 @@ app.get("/overlay/chat/:username", (req, res) => {
     border-radius:5px;padding:1px 5px;line-height:1.3;}
   .badge.img{background:none;padding:0;}
   .badge.img img{height:1.05em;width:auto;display:block;border-radius:4px;}
+  .avatar{flex:0 0 auto;width:1.7em;height:1.7em;border-radius:50%;object-fit:cover;align-self:center;
+    box-shadow:0 0 0 2px rgba(124,252,154,.35);}
   .user{font-weight:700;}
   .user::after{content:':';color:#9fb7a8;font-weight:400;margin-left:1px;}
   .text{word-break:break-word;}
   .text img{height:1.15em;width:auto;vertical-align:-.2em;margin:0 1px;}
+  /* Blaze doesn't include an image URL for its own custom emotes in the chat event (confirmed via live
+     payload capture — "emotes" was literally null even though the text carried [emote:ID] tokens), so
+     an unresolved token shows this small placeholder dot instead of vanishing into nothing. */
+  .emote-ph{display:inline-block;width:1em;height:1em;border-radius:3px;vertical-align:-.15em;margin:0 1px;
+    background:rgba(124,252,154,.35);border:1px solid rgba(124,252,154,.6);}
   @keyframes pop{0%{opacity:0;transform:translateY(12px) scale(.96);}100%{opacity:1;transform:none;}}
   @keyframes fade{to{opacity:0;transform:translateY(-6px);}}
 </style></head><body>
@@ -4742,6 +4749,9 @@ app.get("/overlay/chat/:username", (req, res) => {
       bi.onerror=()=>{b.classList.remove('img');b.textContent='B';};b.appendChild(bi);}
     else{b.textContent='B';}
     el.appendChild(b);
+    const avatarUrl=m.sender&&m.sender.avatarUrl;
+    if(avatarUrl){const av=document.createElement('img');av.className='avatar';av.src=avatarUrl;
+      av.onerror=()=>av.remove();el.appendChild(av);}
     const u=document.createElement('span');u.className='user';u.style.color=userColor(m.user);
     u.textContent=m.user;el.appendChild(u);
     const t=document.createElement('span');t.className='text';
@@ -4762,6 +4772,7 @@ app.get("/overlay/chat/:username", (req, res) => {
       const id=m.msg.slice(s+OPEN.length,e);
       const url=emap[id];
       if(url){const img=document.createElement('img');img.src=url;img.onerror=()=>img.remove();t.appendChild(img);}
+      else{const ph=document.createElement('span');ph.className='emote-ph';t.appendChild(ph);}
       i=e+1;
     }
     el.appendChild(t);
