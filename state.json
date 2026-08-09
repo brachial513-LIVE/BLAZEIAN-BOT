@@ -2808,7 +2808,7 @@
         "totalVotes": 7970,
         "totalSubs": 32,
         "totalChatMessages": 5408,
-        "totalStreamMinutes": 4091,
+        "totalStreamMinutes": 4096,
         "emotes": {
           "❤": 107,
           "🙌": 196,
@@ -5206,7 +5206,7 @@
       "stats": {
         "totalVotes": 2840,
         "totalSubs": 71,
-        "totalChatMessages": 259,
+        "totalChatMessages": 260,
         "totalStreamMinutes": 1759,
         "emotes": {
           "❤": 13,
@@ -5214,8 +5214,8 @@
           "🔴": 17,
           "🎉": 19,
           "😂": 2,
-          "📴": 17,
-          "👋": 17,
+          "📴": 18,
+          "👋": 18,
           "🎁": 140,
           "🔥": 8,
           "🗳": 72,
@@ -5239,13 +5239,9 @@
           "🤗": "🤗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786248490371
+        "lastChatAt": 1786254396655
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @crypto_gam3r just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -5281,6 +5277,10 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5293,7 +5293,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/eaf52e0e-c43a-4a95-ae72-8f8f3836332e.jpeg",
-      "streamTitle": "Just Grinding — Dark And Darker",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to thewill3ffect's squad! We're a community of gamers living for that sweet, sweet 'Slay Mode' and 'Meme Mode' combo. When we're not getting hyped for our favorite game, we're celebrating our mods with 'GIFTED SUBS' and 'LOVE FESTS' - it's all about showing love and appreciation for the will3ffect fam. Let's keep it lit and keep it 100% will3ffect!",
       "_profileAtCount": 224,
@@ -5305,7 +5305,7 @@
         }
       },
       "lastStreamInfo": "Just Grinding — Dark And Darker",
-      "lastStreamEndedAt": 1786189537189
+      "lastStreamEndedAt": 1786254391396
     },
     "c9fc8afb-4c03-476a-8a6f-93aabd1bfca7": {
       "username": "anjanna87",
@@ -9220,8 +9220,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786241174478,
   "auth": {
-    "accessToken": "27856baeeffe8f1b59ed275a34d9a1c5",
-    "refreshToken": "8c59367fcf619783c5825f5a02baf2b3",
+    "accessToken": "a71ee59a753cb383bb0b8f4012fe12b9",
+    "refreshToken": "16edb941f838dbe121fcbe1e18b09ce9",
     "sessionToken": "4a4eeef776e1622fffdbe2fab0de3584",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
