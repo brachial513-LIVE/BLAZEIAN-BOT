@@ -4548,8 +4548,8 @@
       "stats": {
         "totalVotes": 3007,
         "totalSubs": 19,
-        "totalChatMessages": 211,
-        "totalStreamMinutes": 4992,
+        "totalChatMessages": 212,
+        "totalStreamMinutes": 4995,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -4592,13 +4592,9 @@
           "👾": "👾",
           "🤧": "🤧"
         },
-        "lastChatAt": 1786243454715
+        "lastChatAt": 1786243783103
       },
       "chatMemory": [
-        {
-          "user": "peperonitostv",
-          "msg": "Boa livee!"
-        },
         {
           "user": "tai_",
           "msg": "valeuss"
@@ -4634,6 +4630,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -4643,7 +4643,7 @@
       "greeted": true,
       "locked": true,
       "followed": true,
-      "streamTitle": "WILDER WORLD — Wilder World",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/12660284-7663-43c6-92ac-32776ec39b0d.gif",
       "profile": "This is a chill Blaze community where we vibe out to 🔥🔥🔥 content, celebrating \"gm gmmm\" mornings with \"oiee\" greetings and thanking each other with \"thanksss\". We're all about the \"gm gmmm\" energy, love \"KKKKKKKKKKK\" reactions, and enthusiastic good mornings. We play WAYFINDERS BR in a Wilder World IRL setting, and our streamer loves being celebrated with fire emojis.",
@@ -4655,8 +4655,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "ROBLOX with @blueesouull @corinloch — ROBLOX",
-      "lastStreamEndedAt": 1786224700838,
+      "lastStreamInfo": "WILDER WORLD — Wilder World",
+      "lastStreamEndedAt": 1786243782917,
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule"
     },
@@ -9218,8 +9218,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786241174478,
   "auth": {
-    "accessToken": "a012fba021675502adf62b9260a49775",
-    "refreshToken": "cfd9c1a2e522c5abb2e0dd69d90c6ad4",
+    "accessToken": "1242f142dae32821a4a04225334416f8",
+    "refreshToken": "024705de21ce61db69cd0cdfd6b27ae2",
     "sessionToken": "4a4eeef776e1622fffdbe2fab0de3584",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
