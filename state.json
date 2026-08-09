@@ -1613,7 +1613,7 @@
         "totalVotes": 6792,
         "totalSubs": 34,
         "totalChatMessages": 2979,
-        "totalStreamMinutes": 10109,
+        "totalStreamMinutes": 10114,
         "emotes": {
           "❤": 118,
           "🙌": 84,
@@ -2481,7 +2481,7 @@
         "totalVotes": 4246,
         "totalSubs": 60,
         "totalChatMessages": 260,
-        "totalStreamMinutes": 1898,
+        "totalStreamMinutes": 1903,
         "emotes": {
           "🔥": 3,
           "❤": 2,
@@ -6915,7 +6915,7 @@
         "totalVotes": 1358,
         "totalSubs": 11,
         "totalChatMessages": 369,
-        "totalStreamMinutes": 1024,
+        "totalStreamMinutes": 1029,
         "emotes": {
           "❤": 28,
           "🙌": 19,
@@ -7395,11 +7395,11 @@
       "stats": {
         "totalVotes": 1930,
         "totalSubs": 8,
-        "totalChatMessages": 509,
-        "totalStreamMinutes": 2882,
+        "totalChatMessages": 510,
+        "totalStreamMinutes": 2887,
         "emotes": {
           "❤": 34,
-          "🙌": 18,
+          "🙌": 19,
           "📴": 18,
           "👋": 19,
           "🔴": 17,
@@ -7410,7 +7410,7 @@
           "👀": 6,
           "😃": 1,
           "🚨": 60,
-          "💰": 6,
+          "💰": 8,
           "🍻": 1,
           "🥂": 1,
           "😄": 1,
@@ -7472,13 +7472,9 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786286261139
+        "lastChatAt": 1786286958646
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "hello @just_for_lucas"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @noxx is raiding with a party of 9! Welcome raiders!! 🎉"
@@ -7514,6 +7510,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "💰 TIP ALERT!! 💰 @meyetechnicals just tipped $1.00!! Thank you so much!! 🙌"
         }
       ],
       "customCommands": {},
@@ -8603,26 +8603,28 @@
       "stats": {
         "totalVotes": 321,
         "totalSubs": 0,
-        "totalChatMessages": 34,
-        "totalStreamMinutes": 16,
+        "totalChatMessages": 35,
+        "totalStreamMinutes": 21,
         "emotes": {
           "😅": 1,
           "🔥": 4,
-          "🍻": 1
+          "🍻": 1,
+          "✌": 1,
+          "😊": 1,
+          "👍": 1
         },
         "emoteNames": {
           "😅": "😅",
           "🔥": "🔥",
-          "🍻": "🍻"
+          "🍻": "🍻",
+          "✌": "✌",
+          "😊": "😊",
+          "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786286042223
+        "lastChatAt": 1786286879862
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "thank youuuu sir!"
-        },
         {
           "user": "cr33pling",
           "msg": "yooooooooo"
@@ -8658,6 +8660,10 @@
         {
           "user": "agent00zani",
           "msg": "just lurking a bit"
+        },
+        {
+          "user": "avisi",
+          "msg": "GM @fartvader ✌️😊👍 always good to see you on!"
         }
       ],
       "customCommands": {},
@@ -9242,8 +9248,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786241174478,
   "auth": {
-    "accessToken": "96eed634fbe0fdd47bcd24d8893f7537",
-    "refreshToken": "961f4bf3c402a36cbbcf3439716cd3e1",
+    "accessToken": "2c5b20a0958fa65fae0df03aa8105751",
+    "refreshToken": "2a892fc5e8ba171fc52a671965b50ec2",
     "sessionToken": "4a4eeef776e1622fffdbe2fab0de3584",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
