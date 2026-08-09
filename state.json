@@ -806,7 +806,7 @@
       "stats": {
         "totalVotes": 7220,
         "totalSubs": 21,
-        "totalChatMessages": 12604,
+        "totalChatMessages": 12608,
         "totalStreamMinutes": 1454,
         "emotes": {
           "🔥": 696,
@@ -827,7 +827,7 @@
           "🍌": 37,
           "🧟": 5,
           "💣": 54,
-          "✅": 238,
+          "✅": 239,
           "🎲": 40,
           "😤": 1,
           "🌉": 15,
@@ -952,7 +952,7 @@
           "⚔": "⚔",
           "😊": "😊"
         },
-        "lastChatAt": 1786304883162,
+        "lastChatAt": 1786308795895,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -960,14 +960,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "lostsnow",
-          "msg": "I suck at digital painting"
-        },
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
         {
           "user": "lostsnow",
           "msg": "I need to experiment with brushes"
@@ -999,6 +991,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "✅ @crypt0k1ng96 Bot activated for your channel! Add the overlay URL to OBS: https://blazegames.store/overlay/user/crypt0k1ng96 — Then use !start  in your channel to play!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Play in real-time: https://blazegames.store/play/jt_squared2 — Use !join when a game starts."
         }
       ],
       "customCommands": {},
@@ -1061,8 +1061,8 @@
       "stats": {
         "totalVotes": 6537,
         "totalSubs": 80,
-        "totalChatMessages": 2154,
-        "totalStreamMinutes": 8838,
+        "totalChatMessages": 2185,
+        "totalStreamMinutes": 8854,
         "emotes": {
           "📊": 3,
           "🔥": 230,
@@ -1282,48 +1282,48 @@
           "💩": "💩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786298428740
+        "lastChatAt": 1786309022644
       },
       "chatMemory": [
         {
           "user": "foxbotai",
-          "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "gm gm"
+          "msg": "Unknown command. Type !foxhelp"
         },
         {
           "user": "crypt0k1ng96",
-          "msg": "GM @agent00zani"
+          "msg": "I must have conflicting commands"
         },
         {
           "user": "crypt0k1ng96",
-          "msg": "Thank you for the votes @zackevan"
+          "msg": "might have to build around it"
         },
         {
           "user": "foxbotai",
-          "msg": "160 VOTE WEEKLY GIVEAWAY:\nhttps://x.com/Pardon_my_trade/status/2085283128105472207?s=20"
+          "msg": "Unknown command. Type !foxhelp"
         },
         {
           "user": "foxbotai",
-          "msg": "🚨 160 VOTE GIVEAWAY IS LIVE! 🚨\n\nI’m giving back to the community—and helping build the future of Blaze at the same time.\n\nHere’s how to earn entries:\n\n🗳️ Vote\n• 1–10 Votes = 1 Entry\n• 10–50 Votes = 2 Entries\n• 50+ Votes = 3 Entries\n\n⭐ Subscribe\n• 1 Sub = 1 Entry\n• 1 Gifted Sub = 2 Entries\n\n🦊 Test FoxBot AI\n• Test FoxBot AI = 2 Entries\n• Report a bug or suggestion = +1 Entry\n• Share your feedback = +1 Entry\n\nEvery vote helps support the stream!!"
+          "msg": "Unknown command. Type !foxhelp"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "well the \"conflicting\" commands don't really matter. You would just have two bots responding to the same commands"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Unknown command. Type !foxhelp"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "the pinata is best played with the /play window btw"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "you can access yours here\nhttps://blazegames.store/play/crypt0k1ng96"
         },
         {
           "user": "crypt0k1ng96",
-          "msg": "Thank you for the votes we are doing our giveaway later today!! 🔥🔥🔥"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "160 VOTE WEEKLY GIVEAWAY:\nhttps://x.com/Pardon_my_trade/status/2085283128105472207?s=20"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🚨 160 VOTE GIVEAWAY IS LIVE! 🚨\n\nI’m giving back to the community—and helping build the future of Blaze at the same time.\n\nHere’s how to earn entries:\n\n🗳️ Vote\n• 1–10 Votes = 1 Entry\n• 10–50 Votes = 2 Entries\n• 50+ Votes = 3 Entries\n\n⭐ Subscribe\n• 1 Sub = 1 Entry\n• 1 Gifted Sub = 2 Entries\n\n🦊 Test FoxBot AI\n• Test FoxBot AI = 2 Entries\n• Report a bug or suggestion = +1 Entry\n• Share your feedback = +1 Entry\n\nEvery vote helps support the stream!!"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "3 HOURS LEFT 🔥🫡"
+          "msg": "right.. that unknown command is annoying"
         }
       ],
       "customCommands": {},
@@ -1332,7 +1332,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "WILDER GAME NIGHT!! VOTE GIVEAWAY ❤️‍🔥 CONNECT TO FOXBOT! DASHBOARD V2 IN PROGRESS 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Wilder World",
       "profile": "Welcome to the Wilder World game nights 🔥! We \"SLAY DRAGONS\", have \"LOVE FEST\" shoutouts, and enjoy \"FOX BOT\" love. Expect \"FOX BOT help\" commands, \"FOX BOT\" shenanigans, and plenty of \"RIP\" jokes. Let's \"BLAZE THE DAY\" with \"FOX BOT\" magic, where the vibes are lit and the foxes are fierce!",
       "_profileAtCount": 2122,
       "gameOverride": "",
@@ -1341,7 +1341,7 @@
       "nudgedKey": "schedule",
       "commentMode": "heavy",
       "lastStreamInfo": "WILDER GAME NIGHT!! VOTE GIVEAWAY ❤️‍🔥 CONNECT TO FOXBOT! DASHBOARD V2 IN PROGRESS 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — Wilder World",
-      "lastStreamEndedAt": 1786227497187,
+      "lastStreamEndedAt": 1786308313648,
       "loyalty": {
         "mpfeiffer": {
           "name": "mpfeiffer",
@@ -1356,21 +1356,21 @@
       "stats": {
         "totalVotes": 3603,
         "totalSubs": 7,
-        "totalChatMessages": 2989,
-        "totalStreamMinutes": 2852,
+        "totalChatMessages": 2998,
+        "totalStreamMinutes": 2860,
         "emotes": {
           "🗳": 281,
           "🤣": 53,
           "🔥": 129,
           "💚": 33,
-          "❤": 44,
-          "🙌": 24,
+          "❤": 50,
+          "🙌": 26,
           "👀": 7,
           "😘": 4,
           "📴": 23,
           "👋": 34,
-          "🔴": 22,
-          "🎉": 53,
+          "🔴": 23,
+          "🎉": 54,
           "✌": 3,
           "😊": 4,
           "☕": 1,
@@ -1550,49 +1550,49 @@
           "🤘": "🤘",
           "😇": "😇"
         },
-        "lastChatAt": 1786296640727,
+        "lastChatAt": 1786309002147,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "fartvader",
-          "msg": "cool looking game..is it like a free for all arena battle?"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] Thank you, bidloperv, for the 100 vote(s)"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @bidloperv just gave 100 vote(s) (total: 200)! Thank you!! 🗳️"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] Thank you, Jiminy, for the 6 vote(s)"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] Thank you, bronzeagle, for the 5 vote(s)"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] Thank you, jt_squared2, for the 45 vote(s)"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] Thank you, smrt, for the 5 vote(s)"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] Thank you, mahsaali, for the 1 vote(s)"
-        },
-        {
           "user": "lights_out",
           "msg": "[Lights Out] Thank you, Zer0Cache, for the 1 vote(s)"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 thom6ss_otg is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] ❤️ Welcome to the stream, **blueesouull**! Glad to have you with us."
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ blueesouull just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] ❤️ Welcome to the stream, **weri**! Glad to have you with us."
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ weri just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "weri",
+          "msg": "Yo tgom"
+        },
+        {
+          "user": "weri",
+          "msg": "No i have been around"
+        },
+        {
+          "user": "weri",
+          "msg": "Love web 3 gaming"
+        },
+        {
+          "user": "weri",
+          "msg": "No i havent"
         }
       ],
       "customCommands": {},
@@ -1600,7 +1600,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "🦊 FOX SPIRITS  --on chain WOW? !shop LOYALTY SYSTEM!🔥 — Crypto",
       "profile": "Welcome to thom6ss_otg's Blaze stream, where we're all about 🔥 molten vibes and FOX SPIRITS shenanigans! We LOVE FEST!s, W moments, and being celebrated. Type /help for fun games and giveaways. Let's get this Gucci and show some LOVE FEST!s - we're all about being nicee and nince! We're all about LOOT FEST!, BR1 INFINITE PLAYTEST action, and 'legend!' moments. We're a community of gamers, artists, crypto enthusiasts, anime lovers, dog lovers, and more, living LOOT FEST! and having a blast!",
       "_profileAtCount": 2983,
       "gameOverride": "",
@@ -1619,13 +1619,13 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 6865,
+        "totalVotes": 6866,
         "totalSubs": 34,
-        "totalChatMessages": 3005,
+        "totalChatMessages": 3008,
         "totalStreamMinutes": 10159,
         "emotes": {
-          "❤": 122,
-          "🙌": 86,
+          "❤": 124,
+          "🙌": 87,
           "🗳": 429,
           "📴": 82,
           "👋": 87,
@@ -1799,22 +1799,10 @@
           "😓": "😓",
           "😲": "😲"
         },
-        "lastChatAt": 1786307323333,
+        "lastChatAt": 1786308921190,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "foedubb",
-          "msg": "happy sunday gang hope all is well n swell"
-        },
-        {
-          "user": "wingz",
-          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "ty ty wapi"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @noxx is raiding with a party of 12! Welcome raiders!! 🎉"
@@ -1842,6 +1830,18 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ blueesouull just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "[emote:b8d92475-43c4-40eb-837e-c5ee5ab01980] [emote:b8d92475-43c4-40eb-837e-c5ee5ab01980] [emote:b8d92475-43c4-40eb-837e-c5ee5ab01980] [emote:b8d92475-43c4-40eb-837e-c5ee5ab01980] [emote:b8d92475-43c4-40eb-837e-c5ee5ab01980]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "how are you doing today bro ?"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ piggymoto just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -1851,7 +1851,7 @@
       "followed": true,
       "streamTitle": "🧟 Zani Was Once Human... What Happened? 👀 | 🎰 Sub Raffle LIVE | 🏆 140 Votes + 🤗 Hugs — Once Human",
       "profile": "This community is fueled by 🔥 and 🎰, living for epic battles in Wilder World. We \"SLAP\" each other with a wooden horse, love being celebrated with 🤗 and 🏆, and shout \"VOTE ALERT!!\", \"Huge W\", \"MVP\", and \"Hugs\". Agent00zani loves pizza-fueled streams, weirdness, and Sci-Fi love, especially for Blade Runner, and appreciates \"ty ty\" for votes and raids.",
-      "_profileAtCount": 2949,
+      "_profileAtCount": 3006,
       "loyalty": {
         "crypt0k1ng96": {
           "name": "crypt0k1ng96",
@@ -2487,7 +2487,7 @@
       "username": "anikisnow",
       "language": "en",
       "stats": {
-        "totalVotes": 4886,
+        "totalVotes": 4936,
         "totalSubs": 74,
         "totalChatMessages": 328,
         "totalStreamMinutes": 1948,
@@ -5224,7 +5224,7 @@
       "username": "thewill3ffect",
       "language": "en",
       "stats": {
-        "totalVotes": 3969,
+        "totalVotes": 4020,
         "totalSubs": 71,
         "totalChatMessages": 269,
         "totalStreamMinutes": 1824,
@@ -5956,7 +5956,7 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 5334,
+        "totalVotes": 5335,
         "totalSubs": 38,
         "totalChatMessages": 779,
         "totalStreamMinutes": 4692,
@@ -6386,7 +6386,7 @@
       "language": "en",
       "joinedAt": 1784461195472,
       "stats": {
-        "totalVotes": 5748,
+        "totalVotes": 5749,
         "totalSubs": 16,
         "totalChatMessages": 647,
         "totalStreamMinutes": 827,
@@ -6786,7 +6786,7 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 3472,
+        "totalVotes": 3473,
         "totalSubs": 11,
         "totalChatMessages": 743,
         "totalStreamMinutes": 3096,
@@ -8300,11 +8300,11 @@
       "stats": {
         "totalVotes": 2059,
         "totalSubs": 7,
-        "totalChatMessages": 106,
-        "totalStreamMinutes": 302,
+        "totalChatMessages": 107,
+        "totalStreamMinutes": 322,
         "emotes": {
-          "❤": 8,
-          "🙌": 11,
+          "❤": 10,
+          "🙌": 12,
           "🗳": 36,
           "♥": 1,
           "🔴": 6,
@@ -8335,13 +8335,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786304097967
+        "lastChatAt": 1786307932103
       },
       "chatMemory": [
-        {
-          "user": "seekas",
-          "msg": "4 na tayo"
-        },
         {
           "user": "seekas",
           "msg": "bye EJO"
@@ -8377,6 +8373,10 @@
         {
           "user": "tinapay",
           "msg": "GM ateeeee"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ tcwarrioretp just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -8639,7 +8639,7 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 389,
+        "totalVotes": 390,
         "totalSubs": 0,
         "totalChatMessages": 74,
         "totalStreamMinutes": 66,
