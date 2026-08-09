@@ -7393,10 +7393,10 @@
       "language": "en",
       "joinedAt": 1784664490215,
       "stats": {
-        "totalVotes": 1895,
+        "totalVotes": 1915,
         "totalSubs": 8,
-        "totalChatMessages": 489,
-        "totalStreamMinutes": 2792,
+        "totalChatMessages": 492,
+        "totalStreamMinutes": 2797,
         "emotes": {
           "❤": 32,
           "🙌": 17,
@@ -7404,8 +7404,8 @@
           "👋": 19,
           "🔴": 17,
           "🎉": 25,
-          "🔥": 44,
-          "🗳": 117,
+          "🔥": 46,
+          "🗳": 120,
           "😀": 1,
           "👀": 5,
           "😃": 1,
@@ -7431,7 +7431,8 @@
           "🌫": 3,
           "🤗": 2,
           "😇": 2,
-          "🙄": 1
+          "🙄": 1,
+          "💚": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7467,24 +7468,13 @@
           "🌫": "🌫",
           "🤗": "🤗",
           "😇": "😇",
-          "🙄": "🙄"
+          "🙄": "🙄",
+          "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786280901686
+        "lastChatAt": 1786281667184
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "have a beautiful day"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @thewill3ffect is raiding with a party of 7! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "guney",
-          "msg": "omg"
-        },
         {
           "user": "guney",
           "msg": "thank you so much"
@@ -7512,6 +7502,18 @@
         {
           "user": "just_for_lucas",
           "msg": "GM GM"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 20 vote(s) (total: 45)! Thank you!! 🗳️"
+        },
+        {
+          "user": "brachial513",
+          "msg": "Hey GM 🔥🔥💚"
+        },
+        {
+          "user": "brachial513",
+          "msg": "Women sitting on pool"
         }
       ],
       "customCommands": {},
@@ -7642,14 +7644,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 4709,
+        "totalVotes": 4759,
         "totalSubs": 2,
-        "totalChatMessages": 1300,
-        "totalStreamMinutes": 2183,
+        "totalChatMessages": 1302,
+        "totalStreamMinutes": 2188,
         "emotes": {
           "❤": 28,
           "🙌": 15,
-          "🗳": 204,
+          "🗳": 207,
           "🔴": 18,
           "🎉": 33,
           "🏃": 1,
@@ -7735,17 +7737,9 @@
           "🫂": "🫂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786281337856
+        "lastChatAt": 1786281560194
       },
       "chatMemory": [
-        {
-          "user": "lunaria",
-          "msg": "GM noxx"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @lunaria!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @lunaria just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
@@ -7777,6 +7771,14 @@
         {
           "user": "weri",
           "msg": "That nice can I play it in my phone"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @wapi!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8366,7 +8368,7 @@
         "totalVotes": 105,
         "totalSubs": 1,
         "totalChatMessages": 35,
-        "totalStreamMinutes": 465,
+        "totalStreamMinutes": 470,
         "emotes": {
           "❤": 3,
           "🙌": 2,
@@ -9238,8 +9240,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786241174478,
   "auth": {
-    "accessToken": "0057e21e353556c23804be6af630396b",
-    "refreshToken": "217fec94d2cd20c98f649dde6b68ba13",
+    "accessToken": "ed0299c9a12327c8adaa350d99857c8c",
+    "refreshToken": "ef6c8f2d24125af8c5bf9a81f7542266",
     "sessionToken": "4a4eeef776e1622fffdbe2fab0de3584",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
