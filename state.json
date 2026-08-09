@@ -6788,7 +6788,7 @@
       "stats": {
         "totalVotes": 3472,
         "totalSubs": 11,
-        "totalChatMessages": 742,
+        "totalChatMessages": 743,
         "totalStreamMinutes": 3096,
         "emotes": {
           "❤": 52,
@@ -6861,13 +6861,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786306066895
+        "lastChatAt": 1786306517504
       },
       "chatMemory": [
-        {
-          "user": "he_nose",
-          "msg": "Hey angge"
-        },
         {
           "user": "he_nose",
           "msg": "gm gm"
@@ -6903,6 +6899,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 75 votes, @wapi!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -6916,12 +6916,12 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4e3e8a6e-187e-4044-ac4b-00376f4dd2b2.gif",
       "profile": "Welcome to the chill vibes of angge_wf's stream, where Wayfinders PH hangs out and plays Valorant! We're all about \"magadga umaga\" mornings, \"🤩🤩🤩\" reactions, and \"🔥🔥🔥\" fire. Expect \"🗳️\"s, \"VOTE ALERT\", and passionate debates. We celebrate generous subs and votes, \"gm gm gm gm gm\" mornings, and \"❤️\"s.",
       "_profileAtCount": 732,
-      "streamTitle": "Wayfinders PH - CHILL STREAM — VALORANT",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "botVip": true,
       "lastStreamInfo": "Wayfinders PH - CHILL STREAM — VALORANT",
-      "lastStreamEndedAt": 1786135895595,
+      "lastStreamEndedAt": 1786306517263,
       "nudgedAt": 1785842437877,
       "nudgedKey": "schedule"
     },
@@ -7572,7 +7572,7 @@
         "totalVotes": 530,
         "totalSubs": 9,
         "totalChatMessages": 221,
-        "totalStreamMinutes": 1638,
+        "totalStreamMinutes": 1643,
         "emotes": {
           "❤": 10,
           "🙌": 13,
@@ -7673,7 +7673,7 @@
         "totalVotes": 4906,
         "totalSubs": 2,
         "totalChatMessages": 1320,
-        "totalStreamMinutes": 2283,
+        "totalStreamMinutes": 2288,
         "emotes": {
           "❤": 28,
           "🙌": 15,
@@ -8301,7 +8301,7 @@
         "totalVotes": 2058,
         "totalSubs": 7,
         "totalChatMessages": 106,
-        "totalStreamMinutes": 277,
+        "totalStreamMinutes": 282,
         "emotes": {
           "❤": 8,
           "🙌": 11,
@@ -9402,8 +9402,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786290423315,
   "auth": {
-    "accessToken": "1b00cb4a92e5acc66110c52ea37255b9",
-    "refreshToken": "606f0d43e9cf7212aca53a900c454eef",
+    "accessToken": "b7080dcc7c823db3346d32e1a9f2295c",
+    "refreshToken": "fa6021dd4882e5dcbaad497b53d599eb",
     "sessionToken": "3cfd9ac480753df7cbdecf3d09ed7e76",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
