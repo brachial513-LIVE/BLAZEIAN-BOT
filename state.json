@@ -1608,8 +1608,8 @@
       "stats": {
         "totalVotes": 6767,
         "totalSubs": 34,
-        "totalChatMessages": 2958,
-        "totalStreamMinutes": 9946,
+        "totalChatMessages": 2959,
+        "totalStreamMinutes": 9951,
         "emotes": {
           "❤": 114,
           "🙌": 83,
@@ -1786,14 +1786,10 @@
           "😓": "😓",
           "😲": "😲"
         },
-        "lastChatAt": 1786270544378,
+        "lastChatAt": 1786270763255,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "@blazeian_bot_ai fluffy is Awesome .. do you agree ?"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @K1NGBRE4KER just gave 82 vote(s) (total: 82)! Thank you!! 🗳️"
@@ -1829,6 +1825,10 @@
         {
           "user": "noxx",
           "msg": "ayyyy"
+        },
+        {
+          "user": "fluffy",
+          "msg": "Ayooo"
         }
       ],
       "customCommands": {},
@@ -5539,7 +5539,7 @@
         "totalVotes": 1052,
         "totalSubs": 9,
         "totalChatMessages": 270,
-        "totalStreamMinutes": 789,
+        "totalStreamMinutes": 794,
         "emotes": {
           "❤": 6,
           "🙌": 13,
@@ -7632,8 +7632,8 @@
       "stats": {
         "totalVotes": 4688,
         "totalSubs": 2,
-        "totalChatMessages": 1236,
-        "totalStreamMinutes": 2003,
+        "totalChatMessages": 1237,
+        "totalStreamMinutes": 2008,
         "emotes": {
           "❤": 26,
           "🙌": 14,
@@ -7723,13 +7723,9 @@
           "🫂": "🫂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786270430357
+        "lastChatAt": 1786270719178
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "Nice. I don't have enough space for it yet"
-        },
         {
           "user": "helios",
           "msg": "Just chilling mostly. Taking a break off streaming for like a month and using that time to work on 3D animations and work"
@@ -7765,6 +7761,10 @@
         {
           "user": "helios",
           "msg": "[emote:21f398af-51dd-49cb-a896-76bf8af659ea]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ohh I see otg"
         }
       ],
       "customCommands": {},
@@ -9224,8 +9224,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786241174478,
   "auth": {
-    "accessToken": "6650b157cd3ef16cc02093c5e2708288",
-    "refreshToken": "60ff3e8b5d65d12609aaed7e6f72400e",
+    "accessToken": "88210362987f1961dfa542671d8f5ba3",
+    "refreshToken": "20b4bf6ca24586ed0e9c1288d2dfbc42",
     "sessionToken": "4a4eeef776e1622fffdbe2fab0de3584",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
