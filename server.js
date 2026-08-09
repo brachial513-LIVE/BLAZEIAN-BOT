@@ -182,6 +182,7 @@ function applyLoadedState(record) {
   }
   if (Array.isArray(record.blocklist)) blocklist = record.blocklist;
   if (Array.isArray(record.optedOutUsers)) optedOutUsers = record.optedOutUsers;
+  if (Array.isArray(record.ignoredPeople)) ignoredPeople = record.ignoredPeople;
   if (record.learnedPeople && typeof record.learnedPeople === "object") learnedPeople = record.learnedPeople;
   if (typeof record.giveawayInfo === "string") giveawayInfo = record.giveawayInfo;
   if (Array.isArray(record.friendBots)) friendBots = record.friendBots;
@@ -257,6 +258,7 @@ async function _writeStateToGitHub() {
     channels,
     blocklist,
     optedOutUsers,
+    ignoredPeople,
     friendBots,
     knownPeople,
     learnedPeople,
@@ -353,6 +355,22 @@ function isOptedOut(username) {
   if (!username) return false;
   return optedOutUsers.map(u => u.toLowerCase()).includes(username.toLowerCase());
 }
+
+// IGNORE LIST — owner's deliberate "act like this person doesn't exist" choice (set via !ignore @name or
+// the admin panel). Stronger and colder than a hush: the bot NEVER greets them, never small-talks, never
+// reacts, and never even @mention-replies to them — the ONE exception is a DIRECT insult aimed at the bot
+// itself, which unlocks a single sharp, witty clap-back (see INSULT_RE + the ignore gate in handleEvent).
+// Different from blocklist (blocklist = kicked trolls, also blocks !join/follow-back/serving); an ignored
+// person can still be a normal member of a channel, the bot just personally gives them zero attention.
+let ignoredPeople = [];
+function isIgnored(username) {
+  if (!username) return false;
+  return ignoredPeople.map(u => u.toLowerCase()).includes(username.toLowerCase());
+}
+// A DIRECT insult at the bot: must mention the bot AND carry an insulting term. Kept deliberately tight so
+// only a real, targeted attack breaks the silence — a grumpy message that merely mentions the bot in
+// passing should NOT trigger a comeback. English + German slurs/insults commonly thrown at bots.
+const INSULT_RE = /\b(stupid|dumb|idiot|trash|garbage|useless|suck[s]?|shit|shitty|cringe|lame|bot\s*sucks|kill\s*yourself|kys|loser|pathetic|worthless|annoying|shut\s*up|fuck\s*(you|off)|screw\s*you|hate\s*(you|this\s*bot))\b|\b(dumm|bl(ö|oe)d|blöd|scheiße|scheisse|schei(ß|ss)|müll|muell|nutzlos|h(ä|ae)sslich|hässlich|schnauze|fresse|maul|klappe|verpiss|schwuchtel|hurensohn|wichser|spast|spasti|behindert|opfer|nervst|nervig|asozial[a-z]*|assi|trottel|vollidiot|halt'?s|halt\s*(die|dein))\b/i;
 
 // FRIEND BOTS — fellow bots the bot treats as buddies (warm best-friend banter instead of cheeky).
 // Seeded with the Fox Spirits / Blaze bot crew; editable live via /admin (survives redeploys).
@@ -2629,7 +2647,7 @@ async function handleEvent(message) {
         recordSample(channelId, user, msg); // feed the self-learning channel profile
         if (!senderIsBot) {
           pushChat(channelId, user, msg, emoteMap, payload.sender); // feed the OBS chat overlay
-          recordPersonSample(user, msg); // feed the per-person memory distiller
+          if (!isIgnored(user)) recordPersonSample(user, msg); // don't keep learning about someone the owner ignores
           maybeNudgeOwner(channelId, user, msg).catch(() => {});
         }
       }
@@ -2659,6 +2677,21 @@ async function handleEvent(message) {
 
     if (msg.startsWith("!")) {
       await handleCommand(channelId, user, msg, isBotChannel);
+    } else if (!isBotChannel && channels[channelId] && isIgnored(user)) {
+      // Owner told the bot to act like this person doesn't exist (!ignore). Default = total silence: no
+      // greeting, no smalltalk, no reply, not even when they @mention the bot. The ONE exception is a
+      // DIRECT insult aimed at the bot, which unlocks a single ice-cold clap-back (rate-limited per person
+      // so they can't bait a spam loop). Everything else from them gets the cold shoulder, on purpose.
+      const ml = msg.toLowerCase();
+      const mentionsBot = ml.includes("blazeian_bot") || ml.includes("blazeianbot");
+      const ck = "ignore_clap_" + user.toLowerCase();
+      if (mentionsBot && INSULT_RE.test(msg) && !onCooldown(channelId, ck, 120000)) {
+        markFired(channelId, ck);
+        const ch = channels[channelId];
+        const line = await aiShout(ch, `A person called "${user}" — known in this community for trash-talking the bots and never actually supporting his own people — is someone you deliberately IGNORE for that disloyalty. He just took a direct shot at you: "${msg}". Break your silence for EXACTLY ONE line. Make it a smart, dry, sarcastic comeback that quietly exposes how weak or hypocritical his attack is — e.g. the irony of someone who contributes nothing sniping at people who actually show up for the community. Land it through wit and cool composure, never anger: measured, effortlessly above it, the kind of line that makes HIM look small without you ever raising your voice. CRUCIAL: it must sound like YOUR OWN natural sarcasm in the moment — never like a scripted or "programmed" attack, never over-the-top, no slurs, no rant, no trying-too-hard. One clean line, then you're done with him.`, { addName: user });
+        if (line) await sendChatT(channelId, line);
+      }
+      // otherwise: deliberate silence — do nothing.
     } else if (!isBotChannel && channels[channelId] && !isOptedOut(user)) {
       await handleSmallTalk(channelId, user, msg, senderIsBot);
     }
@@ -4237,6 +4270,24 @@ app.get("/admin/unblock/:username", async (req, res) => {
   blocklist = blocklist.filter(b => b.toLowerCase() !== req.params.username.toLowerCase());
   await saveChannelsToCloud();
   res.send(`${before === blocklist.length ? "Wasn't on the blocklist" : "Unblocked"} "${esc(req.params.username)}".`);
+});
+
+// IGNORE LIST — "act like this person doesn't exist" (softer than blocklist: they stay a normal chatter,
+// the bot just gives them ZERO attention — no greeting, no smalltalk, no reply — except a single ice-cold
+// clap-back if they DIRECTLY insult the bot). Global, gated behind the admin key.
+app.get("/admin/ignore/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const uname = req.params.username.replace(/^@/, "");
+  if (!isIgnored(uname)) { ignoredPeople.push(uname); await saveChannelsToCloud(); }
+  res.send(`<pre style="font-family:monospace;font-size:14px;white-space:pre-wrap;">🙈 Now ignoring "${esc(uname)}" everywhere.\n   Blazeian will give them zero attention — no greeting, no smalltalk, no reply —\n   EXCEPT one sharp clap-back if they directly insult him.\n\nCurrently ignored (${ignoredPeople.length}):\n${ignoredPeople.map(u => "  • " + esc(u)).join("\n") || "  (none)"}\n\nStop ignoring: /admin/unignore/USERNAME?key=...</pre>`);
+});
+app.get("/admin/unignore/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const uname = req.params.username.replace(/^@/, "");
+  const before = ignoredPeople.length;
+  ignoredPeople = ignoredPeople.filter(u => u.toLowerCase() !== uname.toLowerCase());
+  await saveChannelsToCloud();
+  res.send(`${before === ignoredPeople.length ? "Wasn't on the ignore list" : "No longer ignoring"} "${esc(uname)}". Now: ${ignoredPeople.map(esc).join(", ") || "(none)"}`);
 });
 
 // FRIEND BOTS — the crew the bot banters with as buddies. Add/list/remove live.
