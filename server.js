@@ -2973,6 +2973,11 @@ function renderForms(actionPrefix, channelField) {
   </form>`;
 }
 
+// Only these Blaze usernames see the commissioned Captain-Rob seagull overlay in their dashboard
+// list — it's a paid one-off for Rob, so keep it off everyone else's board. The raw /overlay/seagull
+// URL stays reachable (so OBS can load it), it just isn't advertised to other streamers. Lower-case.
+const SEAGULL_DASH_USERS = ["brachial513" /* add Rob's Blaze username here if he ever gets a dashboard */];
+
 // OBS overlay links for a channel (shown in the streamer dashboard so everyone can grab their own).
 function renderOverlaySection(username) {
   const emoteUrl  = `${SELF_URL}/overlay/emotes/${encodeURIComponent(username)}`;
@@ -2980,6 +2985,8 @@ function renderOverlaySection(username) {
   const viewerUrl = `${SELF_URL}/overlay/viewers/${encodeURIComponent(username)}`;
   const mascotUrl = `${SELF_URL}/overlay/mascot/${encodeURIComponent(username)}`;
   const runUrl    = `${SELF_URL}/overlay/run/${encodeURIComponent(username)}`;
+  const seagullUrl = `${SELF_URL}/overlay/seagull`;
+  const showSeagull = SEAGULL_DASH_USERS.includes((username || "").toLowerCase());
   return `
   <h2>🎬 OBS Overlays (free!)</h2>
   <div class="card">
@@ -3001,6 +3008,10 @@ function renderOverlaySection(username) {
     <p class="hint">This is the one most people want — it already includes everything Mascot does (portal-appear + watching) plus real running animation, chill/sit mode and dancing, all in one. OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. He runs across, turns at the edges &amp; pops speech bubbles. Tune: <code>?size=160&amp;speed=120&amp;fps=12&amp;talk=0</code>.<br>
     🎨 <b>Pick a color:</b> add <code>?theme=</code> — <code>green</code> (GMC), <code>blue</code>, <code>cyan</code>, <code>purple</code>, <code>pink</code>, <code>red</code>, <code>gold</code>, or <code>rgb</code> (rainbow 🌈). Example: <code>…/run/NAME?theme=rgb</code><br>
     🪑 <b>Chill mode:</b> he occasionally sits on a little stool at the edge and watches the stream with you 👀 — <code>?sit=0</code> turns that off. · 🕺 Little dances included — <code>?dance=0</code> turns them off. · 🎀 <code>?female=1</code> adds a bow on his head (color follows the theme).</p>
+    ${showSeagull ? `
+    <label style="margin-top:14px;">🦅 CaptainRob's Seagull-Blazeian — flies across the top &amp; makes a portal entrance</label>
+    <input readonly onclick="this.select()" value="${esc(seagullUrl)}">
+    <p class="hint">A custom flying seagull mascot (mecha-chibi captain seagull) commissioned for <b>Captain Rob</b> — it flaps across the top of the stream and makes a "Blazeian transforms into the seagull" portal entrance on load. OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. Tune: <code>?size=200&amp;speed=140&amp;flapfps=9&amp;top=6</code> (size = px height, speed = px/s, flapfps = wing-beat tempo, top = % from top). <code>?intro=0</code> skips the portal entrance · <code>?logo=0</code> = portal without the Blaze-B · <code>?dir=left</code> starts leftward.</p>` : ``}
   </div>`;
 }
 
@@ -5331,6 +5342,136 @@ app.get("/avax-logo.png", (req, res) => {
 app.get("/blaze-badge.png", (req, res) => {
   res.set("Cache-Control", "public, max-age=86400");
   res.sendFile(path.join(__dirname, "blaze-badge.png"), err => { if (err) res.status(404).end(); });
+});
+
+// =============================================
+// 🦅 Captain Rob's flying seagull — a commissioned mascot overlay. A crowned mecha-chibi captain
+// seagull (GMC crown on the cap) that flaps across the TOP of the stream and makes a "Blazeian
+// transforms into the seagull" portal entrance on load. Three wing frames (up/out/down) are served
+// from the repo (magenta-keyed + feet-aligned so only the wings move, not the body). Transparent
+// bg, self-contained per response. NOT per-user themed — it's Rob's specific bird — so :username is
+// optional/cosmetic. Upload seagull_up.png / seagull_out.png / seagull_down.png to the repo root
+// once (like crown.png). Flight/flap timing is tied to accumulated animation-frame time (not a wall
+// clock) so the portal intro and the flight stay in sync and it runs reliably in OBS.
+// =============================================
+function seagullFrame(name, res){ res.set("Cache-Control","public, max-age=86400"); res.sendFile(path.join(__dirname, name), err => { if (err) res.status(404).end(); }); }
+app.get("/seagull_up.png",   (req, res) => seagullFrame("seagull_up.png",   res));
+app.get("/seagull_out.png",  (req, res) => seagullFrame("seagull_out.png",  res));
+app.get("/seagull_down.png", (req, res) => seagullFrame("seagull_down.png", res));
+
+app.get(["/overlay/seagull", "/overlay/seagull/:username"], (req, res) => {
+  const qn = (v, d, lo, hi) => { let n = parseFloat(v); if (isNaN(n)) n = d; return Math.max(lo, Math.min(hi, n)); };
+  const size     = qn(req.query.size,     200, 80, 400);
+  const speed    = qn(req.query.speed,    140, 30, 400);
+  const flapfps  = qn(req.query.flapfps,    9,  3,  20);
+  const top      = qn(req.query.top,        6,  0,  80);
+  const bob      = qn(req.query.bob,       14,  0,  60);
+  const bobspeed = qn(req.query.bobspeed, 0.9,  0,   5);
+  const margin   = qn(req.query.margin,    40,  0, 400);
+  const rot      = qn(req.query.rot,        4,  0,  20);
+  const introx   = qn(req.query.introx,    50,  0, 100);
+  const intro    = req.query.intro === "0" ? 0 : 1;
+  const logo     = req.query.logo  === "0" ? 0 : 1;
+  const dir      = req.query.dir === "left" ? "left" : "right";
+  res.set("Content-Type", "text/html");
+  res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Captain Rob Seagull</title>
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:transparent}
+  #stage{position:absolute;inset:0}
+  #bird{position:absolute;left:0;top:0;will-change:transform;z-index:2}
+  #scale{transform-origin:center center}
+  #flip{position:relative;will-change:transform}
+  img.fr{position:absolute;left:0;top:0;width:100%;height:100%;opacity:0;display:block}
+  img.fr.on{opacity:1}
+  #ring,#core,#flash,#logo{position:absolute;pointer-events:none;opacity:0}
+  #ring{width:190px;height:190px;border-radius:50%;z-index:1;
+    background:radial-gradient(closest-side, transparent 62%, rgba(60,255,120,0) 63%, rgba(60,255,120,.9) 72%, rgba(20,120,50,0) 100%);
+    box-shadow:0 0 40px 10px rgba(60,255,120,.55), inset 0 0 30px rgba(120,255,160,.6);
+    animation: spin 2.4s linear infinite, ringFade 2.4s ease forwards;}
+  #ring::before{content:"";position:absolute;inset:-6px;border-radius:50%;
+    background:conic-gradient(from 0deg, rgba(60,255,120,0), rgba(150,255,180,.9), rgba(60,255,120,0) 40%, rgba(150,255,180,.7) 65%, rgba(60,255,120,0) 90%);
+    -webkit-mask:radial-gradient(closest-side, transparent 64%, #000 66%, #000 78%, transparent 80%);
+            mask:radial-gradient(closest-side, transparent 64%, #000 66%, #000 78%, transparent 80%);}
+  #core{width:170px;height:170px;border-radius:50%;z-index:1;
+    background:radial-gradient(closest-side, rgba(180,255,200,.95), rgba(50,220,90,.75) 45%, rgba(20,120,50,.15) 75%, transparent 100%);
+    filter:blur(2px); animation: coreFade 2.4s ease forwards, corePulse 1.15s ease-in-out infinite;}
+  #logo{height:150px;z-index:2;filter:drop-shadow(0 0 12px rgba(120,255,160,.9)); animation: logoIn 2.4s ease forwards;}
+  #flash{width:70px;height:70px;border-radius:50%;z-index:3;
+    background:radial-gradient(closest-side, #fff, rgba(200,255,210,.9) 40%, rgba(90,255,140,.5) 65%, transparent 100%);
+    animation: flash 2.4s ease-out forwards;}
+  .spark{position:absolute;width:10px;height:10px;border-radius:50%;z-index:3;pointer-events:none;
+    background:radial-gradient(closest-side,#fff,rgba(120,255,160,.9),transparent);}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes ringFade{0%{opacity:0}14%{opacity:1}80%{opacity:1}100%{opacity:0}}
+  @keyframes coreFade{0%{opacity:0}14%{opacity:.95}55%{opacity:.9}80%{opacity:.5}100%{opacity:0}}
+  @keyframes corePulse{0%,100%{transform:scale(.9)}50%{transform:scale(1.06)}}
+  @keyframes logoIn{0%{opacity:0;transform:scale(.3) rotate(-12deg)}17%{opacity:0;transform:scale(.45) rotate(-8deg)}44%{opacity:1;transform:scale(1) rotate(0)}52%{opacity:1;transform:scale(1.02) rotate(3deg)}60%{opacity:0;transform:scale(1.5) rotate(8deg)}100%{opacity:0;transform:scale(1.6)}}
+  @keyframes flash{0%,52%{opacity:0;transform:scale(.2)}55%{opacity:1;transform:scale(.6)}72%{opacity:0;transform:scale(2.4)}100%{opacity:0;transform:scale(2.6)}}
+  @keyframes emerge{0%,57%{opacity:0;transform:scale(0)}60%{opacity:1;transform:scale(.25)}78%{opacity:1;transform:scale(1.08)}86%{transform:scale(.98)}100%{opacity:1;transform:scale(1)}}
+</style></head><body>
+<div id="stage">
+  <div id="ring"></div><div id="core"></div>
+  <img id="logo" src="/blaze-badge.png" alt="">
+  <div id="flash"></div>
+  <div id="bird"><div id="scale"><div id="flip">
+    <img class="fr on" id="fr0" src="/seagull_up.png" alt="">
+    <img class="fr" id="fr1" src="/seagull_out.png" alt="">
+    <img class="fr" id="fr2" src="/seagull_down.png" alt="">
+  </div></div></div>
+</div>
+<script>
+var CFG={size:${size},speed:${speed},flapfps:${flapfps},top:${top},bob:${bob},bobspeed:${bobspeed},margin:${margin},rot:${rot},dir:"${dir}",intro:${intro},logo:${logo},introx:${introx}};
+(function(){
+  var C=CFG, ASPECT=623/495;
+  var bird=document.getElementById('bird'), scaleEl=document.getElementById('scale'),
+      flip=document.getElementById('flip'), stage=document.getElementById('stage');
+  var frames=[document.getElementById('fr0'),document.getElementById('fr1'),document.getElementById('fr2')];
+  var portalEls=['ring','core','logo','flash'].map(function(id){return document.getElementById(id);});
+  var FLAPSEQ=[0,1,2,1], curFrame=-1, INTRO_SEC=(C.intro?2.4:0);
+  var birdW,birdH,maxX,x,dir=(C.dir==='left'?-1:1),baseY,spawnX,cx,cy;
+  function layout(){
+    birdH=C.size; birdW=C.size*ASPECT;
+    flip.style.width=birdW+'px'; flip.style.height=birdH+'px';
+    baseY=(C.top/100)*window.innerHeight;
+    maxX=Math.max(C.margin, window.innerWidth-C.margin-birdW);
+    spawnX=Math.min(maxX, Math.max(C.margin, (C.introx/100)*window.innerWidth - birdW/2));
+    if(x===undefined) x=(C.intro? spawnX : (dir===1?C.margin:maxX));
+    cx=spawnX+birdW/2; cy=baseY+birdH/2; placePortal();
+  }
+  function placePortal(){ portalEls.forEach(function(el){ var w=el.offsetWidth||0,h=el.offsetHeight||0; el.style.left=(cx-w/2)+'px'; el.style.top=(cy-h/2)+'px'; }); }
+  layout(); window.addEventListener('resize', layout);
+  if(!C.intro){ portalEls.forEach(function(el){ el.style.display='none'; }); scaleEl.style.transform='scale(1)'; }
+  else { if(!C.logo) document.getElementById('logo').style.display='none'; scaleEl.style.animation='emerge 2400ms ease forwards'; setTimeout(placePortal,40); }
+  var sparked=false, cleaned=false;
+  function spawnSparks(){
+    for(var i=0;i<14;i++){
+      var s=document.createElement('div'); s.className='spark'; var sz=6+Math.random()*8;
+      s.style.left=cx+'px'; s.style.top=cy+'px'; s.style.width=sz+'px'; s.style.height=sz+'px'; stage.appendChild(s);
+      var ang=Math.random()*Math.PI*2, dist=70+Math.random()*90;
+      s.animate([{transform:'translate(-50%,-50%) scale(1)',opacity:1},{transform:'translate('+(Math.cos(ang)*dist-50)+'%,'+(Math.sin(ang)*dist-50)+'%) scale(.2)',opacity:0}],{duration:520+Math.random()*260,easing:'cubic-bezier(.2,.7,.3,1)',fill:'forwards'});
+      (function(node){ setTimeout(function(){ if(node.parentNode) node.parentNode.removeChild(node); },950); })(s);
+    }
+  }
+  function setFrame(i){ if(i===curFrame)return; if(curFrame>=0)frames[curFrame].classList.remove('on'); frames[i].classList.add('on'); curFrame=i; }
+  var last=performance.now(), t=0;
+  function tick(now){
+    var dt=(now-last)/1000; if(dt>0.1)dt=0.1; last=now; t+=dt;
+    if(C.intro && !sparked && t>=1.32){ sparked=true; spawnSparks(); }
+    if(C.intro && !cleaned && t>=2.55){ cleaned=true; portalEls.forEach(function(el){ el.style.display='none'; }); }
+    var flying=(t>=INTRO_SEC), y=baseY, r=0;
+    if(flying){
+      x+=dir*C.speed*dt;
+      if(x>=maxX){x=maxX;dir=-1;} else if(x<=C.margin){x=C.margin;dir=1;}
+      var ph=t*C.bobspeed*2*Math.PI; y=baseY+Math.sin(ph)*C.bob; r=Math.sin(ph+Math.PI/3)*C.rot;
+    } else { x=spawnX; }
+    bird.style.transform='translate('+x.toFixed(1)+'px,'+y.toFixed(1)+'px) rotate('+r.toFixed(2)+'deg)';
+    flip.style.transform='scaleX('+dir+')';
+    setFrame(FLAPSEQ[Math.floor(t*C.flapfps)%FLAPSEQ.length]);
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+})();
+</script></body></html>`);
 });
 
 // =============================================
