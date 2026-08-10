@@ -5453,20 +5453,28 @@ var CFG={size:${size},speed:${speed},flapfps:${flapfps},top:${top},bob:${bob},bo
     }
   }
   function setFrame(i){ if(i===curFrame)return; if(curFrame>=0)frames[curFrame].classList.remove('on'); frames[i].classList.add('on'); curFrame=i; }
-  var last=performance.now(), t=0;
+  // Everything is keyed to the WALL CLOCK (elapsed real time since load), not to accumulated
+  // animation-frame deltas. On a cold first load / OBS scene-switch the main thread is briefly
+  // starved (image decode, layout) so rAF lags while the compositor plays the CSS intro — with an
+  // accumulated timer the flight would never trigger ("floats motionless until refresh"). Reading
+  // real elapsed time means the moment any frame fires after INTRO_SEC, it flies. Only the horizontal
+  // position integrates dt (needs continuity, but that only matters once it's actually running).
+  var startT=performance.now(), lastT=startT;
+  document.addEventListener('visibilitychange', function(){ if(!document.hidden) lastT=performance.now(); });
   function tick(now){
-    var dt=(now-last)/1000; if(dt>0.1)dt=0.1; last=now; t+=dt;
-    if(C.intro && !sparked && t>=1.32){ sparked=true; spawnSparks(); }
-    if(C.intro && !cleaned && t>=2.55){ cleaned=true; portalEls.forEach(function(el){ el.style.display='none'; }); }
-    var flying=(t>=INTRO_SEC), y=baseY, r=0;
+    var elapsed=(now-startT)/1000;
+    var dt=(now-lastT)/1000; if(dt>0.1)dt=0.1; if(dt<0)dt=0; lastT=now;
+    if(C.intro && !sparked && elapsed>=1.32){ sparked=true; spawnSparks(); }
+    if(C.intro && !cleaned && elapsed>=2.55){ cleaned=true; portalEls.forEach(function(el){ el.style.display='none'; }); }
+    var flying=(elapsed>=INTRO_SEC), y=baseY, r=0;
     if(flying){
       x+=dir*C.speed*dt;
       if(x>=maxX){x=maxX;dir=-1;} else if(x<=C.margin){x=C.margin;dir=1;}
-      var ph=t*C.bobspeed*2*Math.PI; y=baseY+Math.sin(ph)*C.bob; r=Math.sin(ph+Math.PI/3)*C.rot;
+      var ph=elapsed*C.bobspeed*2*Math.PI; y=baseY+Math.sin(ph)*C.bob; r=Math.sin(ph+Math.PI/3)*C.rot;
     } else { x=spawnX; }
     bird.style.transform='translate('+x.toFixed(1)+'px,'+y.toFixed(1)+'px) rotate('+r.toFixed(2)+'deg)';
     flip.style.transform='scaleX('+dir+')';
-    setFrame(FLAPSEQ[Math.floor(t*C.flapfps)%FLAPSEQ.length]);
+    setFrame(FLAPSEQ[Math.floor(elapsed*C.flapfps)%FLAPSEQ.length]);
     requestAnimationFrame(tick);
   }
   requestAnimationFrame(tick);
