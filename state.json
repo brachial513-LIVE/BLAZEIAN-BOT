@@ -6420,7 +6420,7 @@
       "stats": {
         "totalVotes": 5952,
         "totalSubs": 16,
-        "totalChatMessages": 650,
+        "totalChatMessages": 651,
         "totalStreamMinutes": 827,
         "emotes": {
           "😂": 16,
@@ -6436,7 +6436,7 @@
           "🎉": 14,
           "👋": 17,
           "🤣": 107,
-          "🗳": 165,
+          "🗳": 168,
           "📴": 11,
           "🎁": 22,
           "🔴": 10,
@@ -6501,13 +6501,9 @@
           "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786378411867
+        "lastChatAt": 1786380282478
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 250 vote(s) (total: 550)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 350 vote(s) (total: 900)! Thank you!! 🗳️"
@@ -6543,6 +6539,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ blazegames_bot just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dress_n_Draw just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9479,9 +9479,9 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786371564718,
   "auth": {
-    "accessToken": "025dd2d1854dcdc109415ad5513d88a6",
-    "refreshToken": "7457ea676e070c929ddaca273f9494e1",
-    "sessionToken": "1a951d2382abd60549b0a7546eb77242",
+    "accessToken": "9c457be289fb045e95cbbfa323a8b835",
+    "refreshToken": "53df9940db2985c59599e8499d6850ac",
+    "sessionToken": "1a6a001a7e6e39e82a030e8d8873f698",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
