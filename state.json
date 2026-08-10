@@ -1062,7 +1062,7 @@
         "totalVotes": 7395,
         "totalSubs": 84,
         "totalChatMessages": 2810,
-        "totalStreamMinutes": 9532,
+        "totalStreamMinutes": 9537,
         "emotes": {
           "📊": 3,
           "🔥": 248,
@@ -4744,9 +4744,9 @@
       "language": "en",
       "stats": {
         "totalVotes": 6253,
-        "totalSubs": 21,
-        "totalChatMessages": 5017,
-        "totalStreamMinutes": 3457,
+        "totalSubs": 22,
+        "totalChatMessages": 5040,
+        "totalStreamMinutes": 3462,
         "emotes": {
           "🧏": 1,
           "♂": 2,
@@ -4964,48 +4964,48 @@
           "🎂": "🎂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786397131431
+        "lastChatAt": 1786397460002
       },
       "chatMemory": [
         {
-          "user": "cr33pling",
-          "msg": "really ? hahaha"
-        },
-        {
-          "user": "future42",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
-        },
-        {
-          "user": "future42",
-          "msg": "jt just knows stuff"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "💯"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "lmao [emote:21f398af-51dd-49cb-a896-76bf8af659ea]"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "yeah that's an emoji, not an emote. They are supported natively in most chats"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "nice riffssss"
+          "user": "nadietv",
+          "msg": "nice! xD"
         },
         {
           "user": "nadietv",
-          "msg": "you can watch social stream ninja documentation, they were able to add the emotes on his chat, maybe they say how they did it"
+          "msg": "poor fingers xD"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "hmm yes that would be cool if you could show me that"
         },
         {
           "user": "nadietv",
-          "msg": "🔥🔥🔥🔥"
+          "msg": "i'll dm you the app doc"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "thanks"
+        },
+        {
+          "user": "future42",
+          "msg": "Improv!!!!"
+        },
+        {
+          "user": "future42",
+          "msg": "Have fun"
+        },
+        {
+          "user": "future42",
+          "msg": "Shred away"
+        },
+        {
+          "user": "avisi",
+          "msg": "alternatively you can scrape if you can reconstruct a url or use curl to grab the channel html and match them... but you need to then throw it in a db and worry about stale upon update between interval... hackz"
+        },
+        {
+          "user": "nadietv",
+          "msg": "new strings, remember xD"
         }
       ],
       "customCommands": {},
@@ -7491,7 +7491,7 @@
         "totalVotes": 2018,
         "totalSubs": 8,
         "totalChatMessages": 524,
-        "totalStreamMinutes": 2912,
+        "totalStreamMinutes": 2917,
         "emotes": {
           "❤": 39,
           "🙌": 20,
@@ -9529,8 +9529,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786371564718,
   "auth": {
-    "accessToken": "e103e1075645b229fbc38c7af9d11f76",
-    "refreshToken": "219ae4d86a93f8717614c9809878c516",
+    "accessToken": "409bd254b378577e4451bb24475d2ff8",
+    "refreshToken": "b3bfb87c78d1f20b0f8c8387b7ad7c5e",
     "sessionToken": "6c320f9be7a39525e1994241456d7ab3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
