@@ -3551,16 +3551,16 @@
       "stats": {
         "totalVotes": 4405,
         "totalSubs": 63,
-        "totalChatMessages": 376,
-        "totalStreamMinutes": 7876,
+        "totalChatMessages": 377,
+        "totalStreamMinutes": 7880,
         "emotes": {
           "❤": 85,
           "🙌": 28,
           "🔥": 33,
           "🔴": 53,
           "🎉": 53,
-          "📴": 54,
-          "👋": 55,
+          "📴": 55,
+          "👋": 56,
           "😂": 4,
           "💚": 6,
           "💪": 2,
@@ -3603,14 +3603,10 @@
           "🤗": "🤗",
           "🥷": "🥷"
         },
-        "lastChatAt": 1786328219505,
+        "lastChatAt": 1786329664555,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "ggs for winning 100 Votes on the weekly Giveaway Wheel !"
-        },
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
@@ -3646,6 +3642,10 @@
         {
           "user": "peperonitostv",
           "msg": "Saalve meu mano! Boa live e bom farm! Tamo juunto!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -3657,7 +3657,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -3665,7 +3665,7 @@
       "_profileAtCount": 325,
       "botVip": true,
       "lastStreamInfo": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
-      "lastStreamEndedAt": 1786245637692,
+      "lastStreamEndedAt": 1786329659229,
       "nudgedAt": 1785710754625,
       "nudgedKey": "schedule"
     },
