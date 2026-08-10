@@ -804,7 +804,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 7456,
+        "totalVotes": 7466,
         "totalSubs": 21,
         "totalChatMessages": 12613,
         "totalStreamMinutes": 1454,
@@ -1061,14 +1061,14 @@
       "stats": {
         "totalVotes": 7229,
         "totalSubs": 83,
-        "totalChatMessages": 2359,
+        "totalChatMessages": 2365,
         "totalStreamMinutes": 9468,
         "emotes": {
           "📊": 3,
           "🔥": 235,
           "🤣": 16,
           "💚": 46,
-          "❤": 11,
+          "❤": 12,
           "😜": 1,
           "✌": 6,
           "😊": 2,
@@ -1171,7 +1171,7 @@
           "😅": 2,
           "😋": 1,
           "💩": 1,
-          "🕺": 1
+          "🕺": 2
         },
         "emoteNames": {
           "📊": "📊",
@@ -1284,33 +1284,9 @@
           "🕺": "🕺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786378543212
+        "lastChatAt": 1786381800050
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "@jt_squared2, FoxBot access is trialing. Days remaining: 7."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96, FoxBot access is trialing. Days remaining: 7."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Don’t know why no messages from blazegames is not showing?"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "yeah not sure. I'm working on fixing that now"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Okay lmk if you find out what’s wrong"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Everything else is working!"
-        },
         {
           "user": "blazegames_bot",
           "msg": "okay I think I fixed the response bug... and the !endgame issue. I think it wasn't responding because the bot wasn't following you. Added some logic to automatically follow all subscribers of jt_squared2 channel"
@@ -1326,6 +1302,30 @@
         {
           "user": "blazegames_bot",
           "msg": "cool. If you want I can add a secondary command so people can use a different command to join blazegames"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Will test it once this is pushed"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "❤️"
+        },
+        {
+          "user": "wingz",
+          "msg": "heyyy cryptok1ng"
+        },
+        {
+          "user": "wingz",
+          "msg": "🕺"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Hey wingz!!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3]"
         }
       ],
       "customCommands": {},
@@ -3579,11 +3579,11 @@
       "stats": {
         "totalVotes": 4409,
         "totalSubs": 63,
-        "totalChatMessages": 380,
+        "totalChatMessages": 383,
         "totalStreamMinutes": 7911,
         "emotes": {
-          "❤": 85,
-          "🙌": 28,
+          "❤": 87,
+          "🙌": 29,
           "🔥": 33,
           "🔴": 54,
           "🎉": 54,
@@ -3631,22 +3631,10 @@
           "🤗": "🤗",
           "🥷": "🥷"
         },
-        "lastChatAt": 1786377573605,
+        "lastChatAt": 1786381464066,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "slothsm",
-          "msg": "k"
-        },
-        {
-          "user": "slothsm",
-          "msg": "ty]"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ piggymoto just followed the channel! Welcome!! 🙌"
@@ -3674,6 +3662,18 @@
         {
           "user": "brachial513",
           "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:c3edcb93-8502-41fd-9d2b-253cdf3b664a]"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ josedavi just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "josedavi",
+          "msg": "BOA TARDE"
+        },
+        {
+          "user": "josedavi",
+          "msg": "VC E BR TAMBEM"
         }
       ],
       "customCommands": {
@@ -6139,12 +6139,12 @@
       "stats": {
         "totalVotes": 7892,
         "totalSubs": 2,
-        "totalChatMessages": 576,
+        "totalChatMessages": 577,
         "totalStreamMinutes": 473,
         "emotes": {
           "❤": 11,
           "🙌": 13,
-          "🗳": 243,
+          "🗳": 246,
           "🚨": 36,
           "🎉": 12,
           "👋": 21,
@@ -6253,16 +6253,12 @@
           "😊": "😊",
           "🦊": "🦊"
         },
-        "lastChatAt": 1786355744248,
+        "lastChatAt": 1786381348993,
         "sendFailStreak": 50,
         "lastSendFailAt": 1786365786062,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @jt_squared2 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @badger just gave 50 vote(s) (total: 300)! Thank you!! 🗳️"
@@ -6298,6 +6294,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @RealmOfCrimson just gave 28 vote(s) (total: 28)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7707,14 +7707,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 5442,
+        "totalVotes": 5452,
         "totalSubs": 3,
-        "totalChatMessages": 1663,
+        "totalChatMessages": 1665,
         "totalStreamMinutes": 2627,
         "emotes": {
           "❤": 30,
           "🙌": 17,
-          "🗳": 234,
+          "🗳": 237,
           "🔴": 22,
           "🎉": 43,
           "🏃": 1,
@@ -7804,17 +7804,9 @@
           "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786378417691
+        "lastChatAt": 1786381482983
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "How are you"
-        },
-        {
-          "user": "fluffy",
-          "msg": "Welcome to teardropp"
-        },
         {
           "user": "fluffy",
           "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
@@ -7846,6 +7838,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @blazegames_bot!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @time!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9481,7 +9481,7 @@
   "auth": {
     "accessToken": "d1d8b8987b1f7557517337655eeabb5f",
     "refreshToken": "4516ac9fe1c600b02284dec86f522724",
-    "sessionToken": "d9d69e12ccbc66ac05267f3ca02bb66f",
+    "sessionToken": "6c320f9be7a39525e1994241456d7ab3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
