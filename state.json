@@ -1061,7 +1061,7 @@
       "stats": {
         "totalVotes": 7229,
         "totalSubs": 83,
-        "totalChatMessages": 2365,
+        "totalChatMessages": 2372,
         "totalStreamMinutes": 9468,
         "emotes": {
           "📊": 3,
@@ -1171,7 +1171,8 @@
           "😅": 2,
           "😋": 1,
           "💩": 1,
-          "🕺": 2
+          "🕺": 2,
+          "🧟": 2
         },
         "emoteNames": {
           "📊": "📊",
@@ -1281,32 +1282,13 @@
           "😅": "😅",
           "😋": "😋",
           "💩": "💩",
-          "🕺": "🕺"
+          "🕺": "🕺",
+          "🧟": "🧟"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786381800050
+        "lastChatAt": 1786381878726
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "okay I think I fixed the response bug... and the !endgame issue. I think it wasn't responding because the bot wasn't following you. Added some logic to automatically follow all subscribers of jt_squared2 channel"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Nice"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "I’m working on the conflicting Foxbot message when people type !join"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "cool. If you want I can add a secondary command so people can use a different command to join blazegames"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Will test it once this is pushed"
-        },
         {
           "user": "jt_squared2",
           "msg": "❤️"
@@ -1326,6 +1308,26 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3]"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🧟 Zombie Survival starting in 50 seconds! Survive the horde! Type !join to play!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "🧟 Zombie Survival starting in 50 seconds! Survive the horde! Type !join to play!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@crypt0k1ng96 joined the game! 1 player(s) ready."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "@crypt0k1ng96 joined the game! 1 player(s) ready."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@crypt0k1ng96, FoxBot access is trialing. Days remaining: 7."
         }
       ],
       "customCommands": {},
@@ -8532,7 +8534,9 @@
           "msg": "Doffer thank you very much for the votes broo appreciate it thank you"
         }
       ],
-      "customCommands": {},
+      "customCommands": {
+        "giveaway entries": "username= entries"
+      },
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
