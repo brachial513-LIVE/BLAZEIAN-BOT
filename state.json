@@ -2822,8 +2822,8 @@
       "stats": {
         "totalVotes": 9151,
         "totalSubs": 33,
-        "totalChatMessages": 5517,
-        "totalStreamMinutes": 4319,
+        "totalChatMessages": 5530,
+        "totalStreamMinutes": 4323,
         "emotes": {
           "❤": 112,
           "🙌": 202,
@@ -2900,7 +2900,7 @@
           "✨": 1,
           "🤘": 2,
           "🫶": 4,
-          "🕐": 1,
+          "🕐": 3,
           "🔪": 1,
           "💖": 2,
           "😲": 2,
@@ -2919,7 +2919,7 @@
           "🤨": 1,
           "🎸": 3,
           "✈": 1,
-          "😝": 1,
+          "😝": 5,
           "💤": 2,
           "🌞": 2,
           "😶": 13,
@@ -2936,7 +2936,7 @@
           "🫡": 2,
           "🧛": 1,
           "🫨": 1,
-          "💛": 4,
+          "💛": 7,
           "🫂": 2,
           "💰": 2,
           "😉": 1,
@@ -3069,48 +3069,48 @@
           "💎": "💎"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786341406635
+        "lastChatAt": 1786341666251
       },
       "chatMemory": [
         {
-          "user": "fartvader",
-          "msg": "eyoooo...how are you good sir?"
+          "user": "badger",
+          "msg": "there's commands for it too. !brb "
+        },
+        {
+          "user": "botger",
+          "msg": "BRB timer started [Dinner Break] — 5 minutes on the clock. 🕐"
+        },
+        {
+          "user": "botger",
+          "msg": "BRB timer started [Dinner Break] — 5 minutes on the clock. 🕐"
+        },
+        {
+          "user": "badger",
+          "msg": "but it's not showing on your screen"
+        },
+        {
+          "user": "badger",
+          "msg": "yes"
+        },
+        {
+          "user": "badger",
+          "msg": "HAHAHA"
         },
         {
           "user": "briggsy",
-          "msg": "😀😀"
+          "msg": "😝😝😝😝"
         },
         {
           "user": "badger",
-          "msg": "all good bro. still raining"
+          "msg": "LFG!"
         },
         {
           "user": "briggsy",
-          "msg": "https://tenor.com/view/goodnight-good-night-good-night-sweet-dreams-good-night-and-sweet-dreams-nighty-night-gif-9829583534286750611"
+          "msg": "haha"
         },
         {
-          "user": "badger",
-          "msg": "show me your obs please briggsy"
-        },
-        {
-          "user": "badger",
-          "msg": "no, I was asking fart father if it's still raining"
-        },
-        {
-          "user": "badger",
-          "msg": "scroll to the bottom please"
-        },
-        {
-          "user": "fartvader",
-          "msg": "yes it is, I believe another storm closing in."
-        },
-        {
-          "user": "badger",
-          "msg": "click the Refresh when scene becomes active checkbox please"
-        },
-        {
-          "user": "badger",
-          "msg": "oh, don't worry about the time.. i'm still up lol"
+          "user": "briggsy",
+          "msg": "operator error"
         }
       ],
       "customCommands": {},
@@ -8831,7 +8831,8 @@
   ],
   "optedOutUsers": [
     "mindgoblin",
-    "faithy_"
+    "faithy_",
+    "badger"
   ],
   "ignoredPeople": [
     "DofferLive"
