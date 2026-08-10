@@ -1061,12 +1061,12 @@
       "stats": {
         "totalVotes": 7229,
         "totalSubs": 83,
-        "totalChatMessages": 2372,
+        "totalChatMessages": 2390,
         "totalStreamMinutes": 9468,
         "emotes": {
           "📊": 3,
           "🔥": 235,
-          "🤣": 16,
+          "🤣": 17,
           "💚": 46,
           "❤": 12,
           "😜": 1,
@@ -1172,7 +1172,9 @@
           "😋": 1,
           "💩": 1,
           "🕺": 2,
-          "🧟": 2
+          "🧟": 2,
+          "⏰": 10,
+          "⚠": 2
         },
         "emoteNames": {
           "📊": "📊",
@@ -1283,51 +1285,53 @@
           "😋": "😋",
           "💩": "💩",
           "🕺": "🕺",
-          "🧟": "🧟"
+          "🧟": "🧟",
+          "⏰": "⏰",
+          "⚠": "⚠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786381878726
+        "lastChatAt": 1786382175033
       },
       "chatMemory": [
         {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
+        },
+        {
           "user": "jt_squared2",
-          "msg": "❤️"
-        },
-        {
-          "user": "wingz",
-          "msg": "heyyy cryptok1ng"
-        },
-        {
-          "user": "wingz",
-          "msg": "🕺"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Hey wingz!!"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3]"
+          "msg": "⏰ Game starting in 2 seconds!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🧟 Zombie Survival starting in 50 seconds! Survive the horde! Type !join to play!"
+          "msg": "⚠️ Not enough players to start! Need at least 2."
         },
         {
           "user": "jt_squared2",
-          "msg": "🧟 Zombie Survival starting in 50 seconds! Survive the horde! Type !join to play!"
+          "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "⚠️ Not enough players to start! Need at least 2."
         },
         {
           "user": "blazegames_bot",
-          "msg": "@crypt0k1ng96 joined the game! 1 player(s) ready."
+          "msg": "@wingz No game is currently active! Wait for the streamer to start one."
         },
         {
           "user": "jt_squared2",
-          "msg": "@crypt0k1ng96 joined the game! 1 player(s) ready."
+          "msg": "@wingz No game is currently active! Wait for the streamer to start one."
         },
         {
           "user": "foxbotai",
-          "msg": "@crypt0k1ng96, FoxBot access is trialing. Days remaining: 7."
+          "msg": "@wingz, your FoxBot 7-day trial is active. Use !access anytime to check your status."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Hold up wingz almost fixed 🤣"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Changing @foxbotai command to !joinfox so they don’t get mixed up"
         }
       ],
       "customCommands": {},
@@ -1337,8 +1341,8 @@
       "locked": false,
       "followed": true,
       "streamTitle": "VOTE GIVEAWAY ❤️‍🔥 CONNECT TO FOXBOT! DASHBOARD V2 IN PROGRESS 🔥 FOX BOT X BLAZEIAN BOT 🦊💚🔥 — IRL",
-      "profile": "Welcome to the Wilder World game nights 🔥! We \"SLAY DRAGONS\", have \"LOVE FEST\" moments, and enjoy \"FOX BOT\" love. Expect \"FOX BOT help\" commands, \"FOX BOT\" shenanigans, and \"RIP\" jokes. Let's \"BLAZE THE DAY\" with \"FOX BOT\" magic, where the vibes are lit and the foxes are fierce! We \"BLAZE THE DAY\" every week, with game nights, wheelspins, and giveaways, so come for the fun and stay for the \"FOX BOT\" love.",
-      "_profileAtCount": 2286,
+      "profile": "Welcome to the Wilder World game nights 🔥! We \"SLAY DRAGONS\", have \"LOVE FEST\" moments, and enjoy \"FOX BOT\" love. Expect \"FOX BOT help\" commands, \"FOX BOT\" shenanigans, and \"RIP\" jokes. Let's \"BLAZE THE DAY\" with \"FOX BOT\" magic, where the vibes are lit and the foxes are fierce! We \"BLAZE THE DAY\" every week, with game nights, wheelspins, and giveaways, so come for the fun and stay for the \"FOX BOT\" love. Don't forget to \"BLAZE THE DAY\" and shout \"BLAZE THE DAY\" with us!",
+      "_profileAtCount": 2390,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b0561010-9481-4f1e-a8ec-e56599bc3d49.jpg",
       "nudgedAt": 1785001902195,
@@ -2582,9 +2586,9 @@
       "username": "zer0cache",
       "language": "en",
       "stats": {
-        "totalVotes": 3342,
+        "totalVotes": 3347,
         "totalSubs": 13,
-        "totalChatMessages": 887,
+        "totalChatMessages": 888,
         "totalStreamMinutes": 4189,
         "emotes": {
           "✨": 16,
@@ -2597,7 +2601,7 @@
           "⚡": 19,
           "🏆": 16,
           "💥": 13,
-          "🗳": 132,
+          "🗳": 133,
           "🎁": 22,
           "👑": 39,
           "💜": 8,
@@ -2611,7 +2615,7 @@
           "🛡": 2,
           "🫡": 8,
           "🏰": 4,
-          "🙌": 119,
+          "🙌": 120,
           "💩": 22,
           "🤣": 3,
           "😂": 16,
@@ -2730,14 +2734,10 @@
           "🎼": "🎼",
           "💕": "💕"
         },
-        "lastChatAt": 1786345195663,
+        "lastChatAt": 1786381935232,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 2 votes, @alliveall! Your support is truly appreciated! 🙌"
-        },
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 200 votes, @agent00zani! Your support is truly appreciated! 🙌 👑 [ALL-TIME VOTE LEADER]: @agent00zani now holds the all-time cumulative crown with 1235 total votes!"
@@ -2773,6 +2773,10 @@
         {
           "user": "cachebot",
           "msg": "✨ [NEW FOLLOWER]: Welcome to the channel, @fartvader! Thank you for the follow!."
+        },
+        {
+          "user": "cachebot",
+          "msg": "🗳️ Thanks for the 5 votes, @time! Your support is truly appreciated! 🙌"
         }
       ],
       "customCommands": {},
@@ -2834,14 +2838,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 9447,
+        "totalVotes": 9457,
         "totalSubs": 33,
-        "totalChatMessages": 5701,
+        "totalChatMessages": 5703,
         "totalStreamMinutes": 4478,
         "emotes": {
           "❤": 116,
           "🙌": 205,
-          "🗳": 681,
+          "🗳": 684,
           "✌": 4,
           "😊": 9,
           "👍": 10,
@@ -3099,17 +3103,9 @@
           "😒": "😒"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786378460271
+        "lastChatAt": 1786382676002
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "yessir can't really go anywhere"
-        },
-        {
-          "user": "fartvader",
-          "msg": "absolutelyyy! [emote:d931b45c-0a09-4c75-89d6-68d82d7bc05d]"
-        },
         {
           "user": "fartvader",
           "msg": "yep it is..starting July"
@@ -3141,6 +3137,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ blazegames_bot just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
         }
       ],
       "customCommands": {},
@@ -4134,24 +4138,24 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 5455,
-        "totalSubs": 15,
-        "totalChatMessages": 1496,
-        "totalStreamMinutes": 2311,
+        "totalVotes": 5496,
+        "totalSubs": 16,
+        "totalChatMessages": 1528,
+        "totalStreamMinutes": 2320,
         "emotes": {
-          "❤": 30,
-          "🙌": 46,
+          "❤": 32,
+          "🙌": 48,
           "💚": 10,
-          "🔴": 18,
-          "🎉": 33,
+          "🔴": 19,
+          "🎉": 34,
           "🙂": 3,
-          "🔥": 35,
+          "🔥": 37,
           "😎": 5,
-          "🗳": 294,
+          "🗳": 306,
           "📴": 18,
           "👋": 18,
           "🎁": 28,
-          "😂": 51,
+          "😂": 52,
           "🚨": 36,
           "😍": 16,
           "🤩": 17,
@@ -4255,48 +4259,48 @@
           "⌚": "⌚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786378436498
+        "lastChatAt": 1786382843814
       },
       "chatMemory": [
         {
-          "user": "sinnerz",
-          "msg": "[emote:45b804ef-0a31-4455-bb8c-7c618e588f07]"
+          "user": "cr33pling",
+          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
+        },
+        {
+          "user": "briggsy",
+          "msg": "[emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6]"
+        },
+        {
+          "user": "briggsy",
+          "msg": "@time you need to upload some fun emojis!!"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "its okayyyyyyyy timee"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6]"
         },
         {
           "user": "sinnerz",
-          "msg": "coh sıcak"
+          "msg": "eloo Time"
         },
         {
           "user": "botger",
-          "msg": "https://x.com/e_buket_erkul"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @sinnerz just gave 5 vote(s) (total: 55)! Thank you!! 🗳️"
         },
         {
           "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "msg": "https://salvor.io/collections/0x4ffb0924d999bc2015f69f58f403ceadfc16963d"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "😂"
         },
         {
           "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ sadoq just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @jt_squared2 just gave 50 vote(s) (total: 65)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @botger just gave 16 vote(s) (total: 16)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ blazegames_bot just followed the channel! Welcome!! 🙌"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 30 vote(s) (total: 30)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -4305,7 +4309,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "Chess — Art",
       "profile": "We're a tight-knit community passionate about Chess and celebrating life's moments with a \"Hirslarini onlarin\" vibe. We love \"Zor zor hileciler cok var\" and appreciate love fests, shouting \"🙏🙏\" to show our appreciation. We're always ready to give shoutouts and celebrate with \"Hirslarini onlarin\" and \"Zor zor hileciler cok var\".",
       "_profileAtCount": 1490,
       "followed": true,
@@ -4314,6 +4318,11 @@
       "loyalty": {
         "mindgoblin": {
           "name": "mindgoblin",
+          "months": 1,
+          "tier": 1
+        },
+        "briggsy": {
+          "name": "briggsy",
           "months": 1,
           "tier": 1
         }
@@ -5712,7 +5721,7 @@
       "stats": {
         "totalVotes": 4031,
         "totalSubs": 70,
-        "totalChatMessages": 455,
+        "totalChatMessages": 456,
         "totalStreamMinutes": 1055,
         "emotes": {
           "❤": 16,
@@ -5745,13 +5754,9 @@
           "😇": "😇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786374624856
+        "lastChatAt": 1786382450100
       },
       "chatMemory": [
-        {
-          "user": "anikisnow",
-          "msg": "live esta sem som mesmo?"
-        },
         {
           "user": "anikisnow",
           "msg": "nem uma musikinha panox"
@@ -5787,6 +5792,10 @@
         {
           "user": "lady_iris",
           "msg": "0 operacoes abertas"
+        },
+        {
+          "user": "anikisnow",
+          "msg": ":D"
         }
       ],
       "customCommands": {},
@@ -6141,14 +6150,14 @@
       "stats": {
         "totalVotes": 7892,
         "totalSubs": 2,
-        "totalChatMessages": 577,
-        "totalStreamMinutes": 473,
+        "totalChatMessages": 582,
+        "totalStreamMinutes": 477,
         "emotes": {
           "❤": 11,
           "🙌": 13,
           "🗳": 246,
           "🚨": 36,
-          "🎉": 12,
+          "🎉": 13,
           "👋": 21,
           "🔥": 68,
           "🤔": 3,
@@ -6158,7 +6167,7 @@
           "👏": 3,
           "📴": 7,
           "🥰": 3,
-          "🔴": 6,
+          "🔴": 7,
           "🕺": 11,
           "😁": 1,
           "🤣": 17,
@@ -6255,32 +6264,12 @@
           "😊": "😊",
           "🦊": "🦊"
         },
-        "lastChatAt": 1786381348993,
+        "lastChatAt": 1786382627011,
         "sendFailStreak": 50,
         "lastSendFailAt": 1786365786062,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @badger just gave 50 vote(s) (total: 300)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 2 vote(s) (total: 156)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 10 vote(s) (total: 166)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @jt_squared2 just gave 75 vote(s) (total: 125)! Thank you!! 🗳️"
@@ -6300,6 +6289,26 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 dimifw is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "dimifw",
+          "msg": "GMish"
+        },
+        {
+          "user": "dimifw",
+          "msg": "[emote:17f4960d-e4a6-4efd-96a8-157a71aab1f5] [emote:17f4960d-e4a6-4efd-96a8-157a71aab1f5] [emote:17f4960d-e4a6-4efd-96a8-157a71aab1f5]"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "[emote:45b804ef-0a31-4455-bb8c-7c618e588f07]"
+        },
+        {
+          "user": "dimifw",
+          "msg": "hey sinnerz"
         }
       ],
       "customCommands": {},
@@ -6314,7 +6323,7 @@
       "followed": true,
       "profile": "dimifw's community is a trash-talking, vote-hungry crew who love giving \"cya\"s when the streamer throws in the towel, celebrating with \"what's gooooood\"s, and \"fucking trash game\" rants. They're passionate about 4x speed Rocket League gaming, known for \"stfu\" moments, \"GMish\" mornings, and \"cya\"s, eagerly awaiting updates to this fast-paced game, and throwing in the occasional \"raidish\" and \"DJ Dimish\" shoutouts.",
       "_profileAtCount": 536,
-      "streamTitle": "",
+      "streamTitle": "Streamish #99 - Rocket League — Rocket League",
       "gameOverride": "",
       "loyalty": {
         "cg777": {
@@ -6825,9 +6834,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 3579,
+        "totalVotes": 3584,
         "totalSubs": 11,
-        "totalChatMessages": 747,
+        "totalChatMessages": 752,
         "totalStreamMinutes": 3096,
         "emotes": {
           "❤": 52,
@@ -6839,7 +6848,7 @@
           "💪": 1,
           "💚": 6,
           "🔥": 66,
-          "🗳": 279,
+          "🗳": 282,
           "🤗": 4,
           "📴": 16,
           "🎁": 22,
@@ -6900,29 +6909,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786324039424
+        "lastChatAt": 1786382169770
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @RickyWomackLive!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ RickyWomackLive just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "rickywomacklive",
-          "msg": "Hello!! i hope all is well today"
-        },
-        {
-          "user": "gabrel",
-          "msg": "Heeey"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 75 votes, @wapi!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -6942,6 +6931,26 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @time!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "GM"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:7bad73a2-5ed8-4e75-b6f2-f019a76a1135] [emote:7bad73a2-5ed8-4e75-b6f2-f019a76a1135] [emote:7bad73a2-5ed8-4e75-b6f2-f019a76a1135]"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "hi"
         }
       ],
       "customCommands": {},
@@ -8459,16 +8468,16 @@
       "stats": {
         "totalVotes": 436,
         "totalSubs": 1,
-        "totalChatMessages": 60,
-        "totalStreamMinutes": 754,
+        "totalChatMessages": 65,
+        "totalStreamMinutes": 762,
         "emotes": {
           "❤": 5,
           "🙌": 3,
           "🔥": 2,
           "💚": 2,
           "🤝": 1,
-          "🔴": 6,
-          "🎉": 6,
+          "🔴": 7,
+          "🎉": 7,
           "🗳": 12,
           "📴": 5,
           "👋": 5,
@@ -8490,25 +8499,9 @@
           "🎁": "🎁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786345070269
+        "lastChatAt": 1786382460888
       },
       "chatMemory": [
-        {
-          "user": "marioscy5",
-          "msg": "thank youu"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @blueesouull!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ blueesouull just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "marioscy5",
           "msg": "Thanks for the follows and the votes"
@@ -8532,6 +8525,22 @@
         {
           "user": "marioscy5",
           "msg": "Doffer thank you very much for the votes broo appreciate it thank you"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "To use our Giveaway Wheel, please visit https://scurvybot.com/overlays/giveaway-wheel?platform=blaze&uuid=3bccdf81-654d-4135-86ac-f0d392a4c718"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "marioscy5",
+          "msg": "100 votes giveaway\nhttps://x.com/MariosCy5/status/2086859914454917467"
         }
       ],
       "customCommands": {
@@ -8547,7 +8556,7 @@
       "avatarUrl": "https://pbs.twimg.com/profile_images/1997811286168440832/QsvpEBYx_normal.jpg",
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "OTG Solos — Off The Grid",
       "lastStreamInfo": "OTG w/ @K1ngbre4ker and @DofferLive — Off The Grid",
       "lastStreamEndedAt": 1786306109671,
       "gameOverride": "",
@@ -8699,7 +8708,7 @@
       "stats": {
         "totalVotes": 540,
         "totalSubs": 0,
-        "totalChatMessages": 81,
+        "totalChatMessages": 87,
         "totalStreamMinutes": 73,
         "emotes": {
           "😅": 1,
@@ -8722,33 +8731,9 @@
           "🤫": "🤫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786378544069
+        "lastChatAt": 1786382264473
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "thank you guys! pls stay for a while..we will raid someone"
-        },
-        {
-          "user": "fartvader",
-          "msg": "oks lets raid seekas"
-        },
-        {
-          "user": "fartvader",
-          "msg": "thank you again guys!"
-        },
-        {
-          "user": "tuff3rmrd3ano",
-          "msg": "always around my friend so no need to thank me"
-        },
-        {
-          "user": "eze_",
-          "msg": "GM GM"
-        },
-        {
-          "user": "fartvader",
-          "msg": "hello guys!"
-        },
         {
           "user": "fartvader",
           "msg": "helloooo welcome! stream starting soon!"
@@ -8764,6 +8749,30 @@
         {
           "user": "brachial513",
           "msg": "GM have a good stream @fartvader [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "WHATS UP BONETE MAN"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "sup bro! taking a quick break..will switch game"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "@jaggerjack whats up bread man alone"
         }
       ],
       "customCommands": {},
@@ -8790,11 +8799,11 @@
       "stats": {
         "totalVotes": 83,
         "totalSubs": 8,
-        "totalChatMessages": 39,
+        "totalChatMessages": 41,
         "totalStreamMinutes": 88,
         "emotes": {
-          "❤": 10,
-          "🙌": 13,
+          "❤": 12,
+          "🙌": 14,
           "🎁": 16,
           "🔴": 1,
           "🎉": 1,
@@ -8813,17 +8822,9 @@
           "👋": "👋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786344754537
+        "lastChatAt": 1786382759617
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @dookie!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @blueesouull!"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ blueesouull just followed the channel! Welcome!! 🙌"
@@ -8855,6 +8856,14 @@
         {
           "user": "fartvader",
           "msg": "Heyy, how are you? I'm currently going through my list and I\njust want to thank you for taking the time show your support from the previous\nepoch. I’m deeply grateful for each and every vote! I really appreciate you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @tuff3rmrd3ano!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ tuff3rmrd3ano just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
