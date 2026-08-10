@@ -5453,15 +5453,16 @@ var CFG={size:${size},speed:${speed},flapfps:${flapfps},top:${top},bob:${bob},bo
     }
   }
   function setFrame(i){ if(i===curFrame)return; if(curFrame>=0)frames[curFrame].classList.remove('on'); frames[i].classList.add('on'); curFrame=i; }
-  // Everything is keyed to the WALL CLOCK (elapsed real time since load), not to accumulated
-  // animation-frame deltas. On a cold first load / OBS scene-switch the main thread is briefly
-  // starved (image decode, layout) so rAF lags while the compositor plays the CSS intro — with an
-  // accumulated timer the flight would never trigger ("floats motionless until refresh"). Reading
-  // real elapsed time means the moment any frame fires after INTRO_SEC, it flies. Only the horizontal
-  // position integrates dt (needs continuity, but that only matters once it's actually running).
+  // Driven by setInterval, NOT requestAnimationFrame. In OBS browser sources (and some cold
+  // first-load / occluded states in plain browsers too) rAF is paused while the CSS intro still
+  // plays on the compositor — that's the "portal appears but the bird floats motionless until you
+  // refresh the source" bug. setInterval keeps firing in exactly those states (verified live: rAF
+  // ticked 0x while setInterval ticked ~62/s and moved the element). Timing is read from the WALL
+  // CLOCK (performance.now) so it stays correct even if the interval is throttled/jittery; only the
+  // horizontal position integrates dt.
   var startT=performance.now(), lastT=startT;
-  document.addEventListener('visibilitychange', function(){ if(!document.hidden) lastT=performance.now(); });
-  function tick(now){
+  function frame(){
+    var now=performance.now();
     var elapsed=(now-startT)/1000;
     var dt=(now-lastT)/1000; if(dt>0.1)dt=0.1; if(dt<0)dt=0; lastT=now;
     if(C.intro && !sparked && elapsed>=1.32){ sparked=true; spawnSparks(); }
@@ -5475,9 +5476,9 @@ var CFG={size:${size},speed:${speed},flapfps:${flapfps},top:${top},bob:${bob},bo
     bird.style.transform='translate('+x.toFixed(1)+'px,'+y.toFixed(1)+'px) rotate('+r.toFixed(2)+'deg)';
     flip.style.transform='scaleX('+dir+')';
     setFrame(FLAPSEQ[Math.floor(elapsed*C.flapfps)%FLAPSEQ.length]);
-    requestAnimationFrame(tick);
   }
-  requestAnimationFrame(tick);
+  setInterval(frame, 16);
+  frame();
 })();
 </script></body></html>`);
 });
