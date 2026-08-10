@@ -1061,12 +1061,12 @@
       "stats": {
         "totalVotes": 7279,
         "totalSubs": 83,
-        "totalChatMessages": 2512,
+        "totalChatMessages": 2539,
         "totalStreamMinutes": 9468,
         "emotes": {
           "📊": 3,
-          "🔥": 243,
-          "🤣": 17,
+          "🔥": 245,
+          "🤣": 20,
           "💚": 46,
           "❤": 12,
           "😜": 1,
@@ -1078,7 +1078,7 @@
           "😂": 24,
           "👑": 30,
           "⭐": 33,
-          "🏆": 57,
+          "🏆": 58,
           "🤗": 20,
           "💪": 20,
           "🎁": 100,
@@ -1173,13 +1173,13 @@
           "💩": 1,
           "🕺": 2,
           "🧟": 6,
-          "⏰": 40,
-          "⚠": 5,
-          "💀": 5,
+          "⏰": 50,
+          "⚠": 6,
+          "💀": 6,
           "🎰": 1,
-          "🎉": 2,
-          "🎊": 2,
-          "🍌": 2
+          "🎉": 3,
+          "🎊": 3,
+          "🍌": 3
         },
         "emoteNames": {
           "📊": "📊",
@@ -1300,9 +1300,13 @@
           "🍌": "🍌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786386347991
+        "lastChatAt": 1786386661009
       },
       "chatMemory": [
+        {
+          "user": "blazegames_bot",
+          "msg": "@crypt0k1ng96 joined the game! 1 player(s) ready."
+        },
         {
           "user": "blazegames_bot",
           "msg": "⏰ Game starting in 10 seconds!"
@@ -1328,20 +1332,16 @@
           "msg": "⚠️ Not enough players to start! Need at least 2."
         },
         {
-          "user": "blazegames_bot",
-          "msg": "@agent00zani No game is currently active! Wait for the streamer to start one."
+          "user": "jt_squared2",
+          "msg": ":O"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🍌 Gorillas starting in 50 seconds! Throw bananas at rival gorillas! Type !join to play!"
+          "msg": "🔥 Pyro Race starting in 30 seconds! Answer questions to race! Type !join to play!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@agent00zani joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@crypt0k1ng96 joined the game! 2 player(s) ready."
+          "msg": "@crypt0k1ng96 joined the game! 1 player(s) ready."
         }
       ],
       "customCommands": {},
@@ -5284,7 +5284,7 @@
         "totalVotes": 4589,
         "totalSubs": 71,
         "totalChatMessages": 270,
-        "totalStreamMinutes": 1835,
+        "totalStreamMinutes": 1840,
         "emotes": {
           "❤": 13,
           "🙌": 77,
@@ -6165,7 +6165,7 @@
         "totalVotes": 7892,
         "totalSubs": 2,
         "totalChatMessages": 588,
-        "totalStreamMinutes": 536,
+        "totalStreamMinutes": 541,
         "emotes": {
           "❤": 11,
           "🙌": 13,
@@ -8483,7 +8483,7 @@
         "totalVotes": 736,
         "totalSubs": 1,
         "totalChatMessages": 81,
-        "totalStreamMinutes": 821,
+        "totalStreamMinutes": 826,
         "emotes": {
           "❤": 6,
           "🙌": 3,
@@ -9508,8 +9508,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786371564718,
   "auth": {
-    "accessToken": "44a46c6e75b736ae10591c6f8fe4d6cb",
-    "refreshToken": "847302b94d767197b234c5cfa11989ad",
+    "accessToken": "feb3b1178818bf339b65d4eef465f0aa",
+    "refreshToken": "17bab0d206f58eead927df73feb24e4e",
     "sessionToken": "6c320f9be7a39525e1994241456d7ab3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
