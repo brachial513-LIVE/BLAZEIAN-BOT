@@ -477,12 +477,12 @@
       "stats": {
         "totalVotes": 30682,
         "totalSubs": 52,
-        "totalChatMessages": 5453,
+        "totalChatMessages": 5454,
         "totalStreamMinutes": 1786,
         "emotes": {
           "🗳": 810,
-          "❤": 211,
-          "🙌": 134,
+          "❤": 213,
+          "🙌": 135,
           "🔥": 130,
           "☺": 3,
           "🔴": 18,
@@ -690,17 +690,13 @@
           "😐": "😐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786392425917,
+        "lastChatAt": 1786404337070,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @fluffy just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
         {
           "user": "fluffy",
           "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
@@ -736,6 +732,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ blazegames_bot just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -806,7 +806,7 @@
       "stats": {
         "totalVotes": 7536,
         "totalSubs": 21,
-        "totalChatMessages": 12638,
+        "totalChatMessages": 12658,
         "totalStreamMinutes": 1454,
         "emotes": {
           "🔥": 696,
@@ -816,7 +816,7 @@
           "😍": 1,
           "❤": 33,
           "🚢": 8,
-          "⏰": 621,
+          "⏰": 631,
           "🔜": 349,
           "💀": 170,
           "😘": 2,
@@ -863,7 +863,7 @@
           "👍": 1,
           "🥔": 595,
           "🔄": 215,
-          "🤖": 83,
+          "🤖": 85,
           "😏": 4,
           "❌": 1,
           "🙃": 3,
@@ -872,7 +872,7 @@
           "🧪": 1,
           "🙄": 2,
           "🎮": 5,
-          "🪅": 43,
+          "🪅": 45,
           "🍬": 122,
           "🛑": 2,
           "💚": 7,
@@ -956,7 +956,7 @@
           "🍊": "🍊",
           "🍎": "🍎"
         },
-        "lastChatAt": 1786403976512,
+        "lastChatAt": 1786404761060,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -965,44 +965,44 @@
       },
       "chatMemory": [
         {
-          "user": "jt_squared2",
-          "msg": "[emote:d1d6139e-2d09-4e9b-8543-4a930c3db777]"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 10 seconds!"
         },
         {
           "user": "jt_squared2",
-          "msg": "[emote:d1d6139e-2d09-4e9b-8543-4a930c3db777]"
+          "msg": "⏰ Game starting in 10 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
         },
         {
           "user": "jt_squared2",
-          "msg": "[emote:93f3564c-14d5-412f-8856-f2df4eaf6e10]"
+          "msg": "⏰ Game starting in 5 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
         },
         {
           "user": "jt_squared2",
-          "msg": "[emote:d1d6139e-2d09-4e9b-8543-4a930c3db777]"
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
         },
         {
           "user": "jt_squared2",
-          "msg": "[emote:e5d4b0d8-d752-488e-9c95-d1a62b6f8bcb]"
+          "msg": "⏰ Game starting in 2 seconds!"
         },
         {
           "user": "jt_squared2",
-          "msg": "[emote:32d0bd66-fa0e-4eb3-9df3-edfc57ccc778]"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "[emote:87fe35f2-f7e8-4689-a8cd-70714d391677] [emote:2aa4a57c-7229-47e4-90e7-664b7365e6de]"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "[emote:2aa4a57c-7229-47e4-90e7-664b7365e6de]"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🍊"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🍎"
+          "msg": "⏰ Game starting in 1 second!"
         }
       ],
       "customCommands": {},
@@ -1641,14 +1641,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 7225,
+        "totalVotes": 7250,
         "totalSubs": 39,
-        "totalChatMessages": 3147,
-        "totalStreamMinutes": 10550,
+        "totalChatMessages": 3180,
+        "totalStreamMinutes": 10570,
         "emotes": {
           "❤": 130,
           "🙌": 94,
-          "🗳": 462,
+          "🗳": 465,
           "📴": 85,
           "👋": 90,
           "🔴": 83,
@@ -1665,7 +1665,7 @@
           "🚨": 306,
           "🩵": 2,
           "🐰": 1,
-          "🫶": 30,
+          "🫶": 31,
           "🫂": 6,
           "😶": 19,
           "🌫": 19,
@@ -1673,10 +1673,10 @@
           "🥰": 102,
           "♥": 1,
           "🦊": 8,
-          "😂": 208,
+          "😂": 211,
           "😅": 1,
           "🍺": 2,
-          "🫡": 9,
+          "🫡": 10,
           "💚": 13,
           "💃": 81,
           "🙏": 2,
@@ -1821,49 +1821,49 @@
           "😓": "😓",
           "😲": "😲"
         },
-        "lastChatAt": 1786403208516,
+        "lastChatAt": 1786405262779,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @guney just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+          "user": "big_scaggs",
+          "msg": "Idk lol life never has a plan lol"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+          "user": "big_scaggs",
+          "msg": "hahaahh your bot is funny"
         },
         {
-          "user": "future42",
-          "msg": "Start the Week"
+          "user": "big_scaggs",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
         },
         {
-          "user": "future42",
-          "msg": "Working...then hopefully be able to go online later tonight"
+          "user": "big_scaggs",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
         },
         {
-          "user": "future42",
-          "msg": "All good"
+          "user": "big_scaggs",
+          "msg": "well let him know he did a pretty good job lol makin the bot have jokes like that 😂😂"
         },
         {
-          "user": "agent00zani",
-          "msg": "when some marvel rivals with Zani ?"
+          "user": "big_scaggs",
+          "msg": "anyways alright ill let you go get that nap my man"
         },
         {
-          "user": "agent00zani",
-          "msg": "Hope your day at work is peacefull"
+          "user": "big_scaggs",
+          "msg": "got more votes coming soon"
         },
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "user": "big_scaggs",
+          "msg": "thats it my man and keep workin and grindin"
         },
         {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+          "user": "big_scaggs",
+          "msg": "later brother man🫡"
         },
         {
-          "user": "agent00zani",
-          "msg": "❤️"
+          "user": "big_scaggs",
+          "msg": "hahahha. your funny for that one"
         }
       ],
       "customCommands": {},
@@ -3382,14 +3382,14 @@
       "stats": {
         "totalVotes": 5929,
         "totalSubs": 11,
-        "totalChatMessages": 2862,
-        "totalStreamMinutes": 5757,
+        "totalChatMessages": 2864,
+        "totalStreamMinutes": 5772,
         "emotes": {
           "❤": 32,
           "🙌": 85,
           "🗳": 342,
-          "🔴": 36,
-          "🎉": 60,
+          "🔴": 37,
+          "🎉": 61,
           "📴": 35,
           "👋": 38,
           "🔥": 116,
@@ -3508,18 +3508,10 @@
           "😶": "😶",
           "🌫": "🌫"
         },
-        "lastChatAt": 1786404026831,
+        "lastChatAt": 1786404361416,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @Brachial513!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Brachial513 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "brachial513",
           "msg": "ggs for winning 50 Votes on the weekly Giveaway Wheel !"
@@ -3551,6 +3543,14 @@
         {
           "user": "nadietv",
           "msg": "[emote:8d6a9c8a-0dd1-4b0e-92fc-cacac9789ea0]"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -3559,7 +3559,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "❤️Stumble guys with the bois!❤️ — Stumble Guys",
       "profile": "We're a chill gaming community loving Path of Exile 2 and Dota. Expect \"Blazeee\" vibes, \"Will be relax day\" shenanigans, \"VOTE ALERT!!\" celebrations, and \"pull a roshi,\" \"drained\" moments, and \"Love fest!\" moments. We appreciate gifted subs, generous votes, and \"hard reset\" humor, and love \"6969\" jokes, \"METAL!\" outbursts, \"Castigo castigo,\" and \"haslo de nuevo\" enthusiasm, \"Let's gooooo,\" and \"Theroan mode cat!",
       "_profileAtCount": 2777,
       "gameOverride": "",
@@ -3600,7 +3600,7 @@
         "totalVotes": 4409,
         "totalSubs": 63,
         "totalChatMessages": 395,
-        "totalStreamMinutes": 7983,
+        "totalStreamMinutes": 8003,
         "emotes": {
           "❤": 87,
           "🙌": 29,
@@ -5052,11 +5052,11 @@
       "stats": {
         "totalVotes": 1611,
         "totalSubs": 12,
-        "totalChatMessages": 674,
-        "totalStreamMinutes": 6179,
+        "totalChatMessages": 681,
+        "totalStreamMinutes": 6199,
         "emotes": {
-          "🔥": 215,
-          "🔴": 66,
+          "🔥": 217,
+          "🔴": 68,
           "💚": 4,
           "🤣": 3,
           "☕": 18,
@@ -5144,34 +5144,10 @@
           "💃": "💃",
           "🫐": "🫐"
         },
-        "lastChatAt": 1786403722191,
+        "lastChatAt": 1786404764718,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "Ty ty you winner of my raffle this week ....\n+ some hugs \nYour support means alot"
-        },
-        {
-          "user": "botger",
-          "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @mindgoblin!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
-        },
-        {
-          "user": "xxtowerdogxx",
-          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -5187,6 +5163,30 @@
         {
           "user": "blueberry",
           "msg": "[emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07] [emote:45b804ef-0a31-4455-bb8c-7c618e588f07]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "juts lurking a bit ... forgot to say hi"
+        },
+        {
+          "user": "botger",
+          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "agent00zani",
+          "msg": "hope your day was great today"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @agent00zani, who is live now, currently streaming Once Human to 4 viewers at https://blaze.stream/agent00zani!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "btw sleep is good thing"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
         }
       ],
       "customCommands": {},
@@ -7220,8 +7220,8 @@
       "stats": {
         "totalVotes": 5822,
         "totalSubs": 0,
-        "totalChatMessages": 9277,
-        "totalStreamMinutes": 3390,
+        "totalChatMessages": 9290,
+        "totalStreamMinutes": 3410,
         "emotes": {
           "❤": 19,
           "🙌": 16,
@@ -7229,8 +7229,8 @@
           "🔥": 15,
           "🔴": 25,
           "🎉": 62,
-          "🪙": 329,
-          "⚡": 76,
+          "🪙": 330,
+          "⚡": 77,
           "👀": 8,
           "🍿": 2,
           "🤗": 4,
@@ -7322,7 +7322,8 @@
           "🛗": 1,
           "🐴": 1,
           "🚬": 1,
-          "📷": 1
+          "📷": 1,
+          "🪡": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7424,51 +7425,52 @@
           "🛗": "🛗",
           "🐴": "🐴",
           "🚬": "🚬",
-          "📷": "📷"
+          "📷": "📷",
+          "🪡": "🪡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786403976056
+        "lastChatAt": 1786405170287
       },
       "chatMemory": [
         {
-          "user": "lovemikami",
-          "msg": "certo"
+          "user": "botger",
+          "msg": "⚡ solucao — Level 10 | 28,856 XP (3,294 to Level 11)"
+        },
+        {
+          "user": "demonscrest",
+          "msg": "jogo infinito"
         },
         {
           "user": "solucao",
-          "msg": "Nilao rei da Bahia"
+          "msg": "Boa noite Diego áudio"
         },
         {
-          "user": "lovemikami",
-          "msg": "saga, camus e shura"
+          "user": "sofrenciaplay",
+          "msg": "vem pro youtube"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "stamos la meu brother"
+        },
+        {
+          "user": "solucao",
+          "msg": "Shaka é muito habilidade"
+        },
+        {
+          "user": "solucao",
+          "msg": "Leão poderoso"
+        },
+        {
+          "user": "solucao",
+          "msg": "15 pontos"
+        },
+        {
+          "user": "solucao",
+          "msg": "Da agulha 🪡"
         },
         {
           "user": "botger",
-          "msg": "🪙 @mauhzera 254,770 points."
-        },
-        {
-          "user": "solucao",
-          "msg": "Tá rico"
-        },
-        {
-          "user": "solucao",
-          "msg": "Saga é chato"
-        },
-        {
-          "user": "solucao",
-          "msg": "Mestre ancião é muito forte"
-        },
-        {
-          "user": "solucao",
-          "msg": "Dohko"
-        },
-        {
-          "user": "botger",
-          "msg": "Doações Live pix: https://livepix.gg/maniadk"
-        },
-        {
-          "user": "botger",
-          "msg": "🪙 @solucao 10,330 points."
+          "msg": "🪙 @solucao 10,360 points."
         }
       ],
       "customCommands": {},
@@ -9231,9 +9233,9 @@
       "n": 2
     },
     "avisi": {
-      "note": "They are enthusiastic about gaming, use humor and colloquial expressions, and enjoy interacting with others in a friendly and competitive manner, often referencing games like The Isle, Once Human, and PAL.",
-      "at": 1786056637851,
-      "n": 6
+      "note": "They are enthusiastic about gaming, use humor and colloquial expressions, and enjoy interacting with others in a friendly and competitive manner.",
+      "at": 1786404364526,
+      "n": 7
     },
     "junior7_": {
       "note": "They enjoy playing games like Mania, have a humorous tone, and like joking with friends, often referencing their gaming experiences.",
@@ -9528,6 +9530,11 @@
     "corneto": {
       "note": "They appear to be a fan of the game Palword, enjoy humorous interactions, and have an interest in creative machine designs.",
       "at": 1786374243313,
+      "n": 1
+    },
+    "thewill3ffect": {
+      "note": "They enjoy music, seem to appreciate a good show, and have a lighthearted and playful sense of humor. Existing notes: They enjoy music, seem to appreciate a good show, and have a lighthearted and playful sense of humor.",
+      "at": 1786405024403,
       "n": 1
     }
   },
