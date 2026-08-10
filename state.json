@@ -2822,23 +2822,23 @@
       "stats": {
         "totalVotes": 9151,
         "totalSubs": 33,
-        "totalChatMessages": 5530,
-        "totalStreamMinutes": 4323,
+        "totalChatMessages": 5532,
+        "totalStreamMinutes": 4324,
         "emotes": {
           "❤": 112,
-          "🙌": 202,
+          "🙌": 203,
           "🗳": 654,
           "✌": 3,
           "😊": 9,
           "👍": 8,
           "🔴": 18,
-          "🎉": 75,
+          "🎉": 76,
           "📴": 18,
           "👋": 24,
           "⚡": 37,
           "😂": 74,
           "😍": 26,
-          "🔥": 154,
+          "🔥": 155,
           "😎": 5,
           "😁": 18,
           "😄": 20,
@@ -2864,7 +2864,7 @@
           "↕": 7,
           "💜": 5,
           "💗": 1,
-          "🎵": 1,
+          "🎵": 2,
           "🤟": 5,
           "🥪": 1,
           "🙃": 10,
@@ -2897,7 +2897,7 @@
           "😭": 35,
           "😬": 8,
           "☹": 1,
-          "✨": 1,
+          "✨": 2,
           "🤘": 2,
           "🫶": 4,
           "🕐": 3,
@@ -2936,7 +2936,7 @@
           "🫡": 2,
           "🧛": 1,
           "🫨": 1,
-          "💛": 7,
+          "💛": 8,
           "🫂": 2,
           "💰": 2,
           "😉": 1,
@@ -2944,7 +2944,14 @@
           "😃": 2,
           "🔍": 9,
           "‼": 2,
-          "💎": 3
+          "💎": 3,
+          "🍫": 1,
+          "🍨": 1,
+          "🍻": 1,
+          "🌟": 1,
+          "🕺": 1,
+          "🍀": 1,
+          "🍦": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -3066,20 +3073,19 @@
           "😃": "😃",
           "🔍": "🔍",
           "‼": "‼",
-          "💎": "💎"
+          "💎": "💎",
+          "🍫": "🍫",
+          "🍨": "🍨",
+          "🍻": "🍻",
+          "🌟": "🌟",
+          "🕺": "🕺",
+          "🍀": "🍀",
+          "🍦": "🍦"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786341666251
+        "lastChatAt": 1786341699415
       },
       "chatMemory": [
-        {
-          "user": "badger",
-          "msg": "there's commands for it too. !brb "
-        },
-        {
-          "user": "botger",
-          "msg": "BRB timer started [Dinner Break] — 5 minutes on the clock. 🕐"
-        },
         {
           "user": "botger",
           "msg": "BRB timer started [Dinner Break] — 5 minutes on the clock. 🕐"
@@ -3111,6 +3117,14 @@
         {
           "user": "briggsy",
           "msg": "operator error"
+        },
+        {
+          "user": "briggsy",
+          "msg": "https://tenor.com/view/goodnight-good-night-good-night-sweet-dreams-good-night-and-sweet-dreams-nighty-night-gif-9829583534286750611"
+        },
+        {
+          "user": "badger",
+          "msg": "💛🍫🔥🎉🍨🍻🎵🌟🕺🙌✨🍀🍦"
         }
       ],
       "customCommands": {},
@@ -9423,8 +9437,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786290423315,
   "auth": {
-    "accessToken": "f2de7220e9126c9123e3f87fc15e79f5",
-    "refreshToken": "3925b7a994b13350d9edc4167e1920c1",
+    "accessToken": "a22b686ebc5ad3697454e819c8e65fa5",
+    "refreshToken": "cebee3688b46af27c6fb82e331008828",
     "sessionToken": "3cfd9ac480753df7cbdecf3d09ed7e76",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
