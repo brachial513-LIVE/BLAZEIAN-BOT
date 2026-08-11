@@ -1066,7 +1066,7 @@
         "totalVotes": 7605,
         "totalSubs": 88,
         "totalChatMessages": 2981,
-        "totalStreamMinutes": 10160,
+        "totalStreamMinutes": 10165,
         "emotes": {
           "📊": 3,
           "🔥": 258,
@@ -4636,8 +4636,8 @@
       "stats": {
         "totalVotes": 3285,
         "totalSubs": 19,
-        "totalChatMessages": 217,
-        "totalStreamMinutes": 5082,
+        "totalChatMessages": 218,
+        "totalStreamMinutes": 5083,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -4680,16 +4680,12 @@
           "👾": "👾",
           "🤧": "🤧"
         },
-        "lastChatAt": 1786468006678,
+        "lastChatAt": 1786470111688,
         "sendFailStreak": 12,
         "lastSendFailAt": 1786459097557,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 83 votes, @zsoltech!"
@@ -4725,6 +4721,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -4734,7 +4734,7 @@
       "greeted": true,
       "locked": true,
       "followed": true,
-      "streamTitle": "Stuffed with @chupacol @blueesooull @gabrel — IRL",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/12660284-7663-43c6-92ac-32776ec39b0d.gif",
       "profile": "This is a chill Blaze community where we vibe out to 🔥🔥🔥 content, celebrating \"gm gmmm\" mornings with \"oiee\" greetings and thanking each other with \"thanksss\". We're all about the \"gm gmmm\" energy, love \"KKKKKKKKKKK\" reactions, and enthusiastic good mornings. We play WAYFINDERS BR in a Wilder World IRL setting, and our streamer loves being celebrated with fire emojis.",
@@ -4746,8 +4746,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "SHIFT AT MIDNIGHT with @chupacol — Crypto",
-      "lastStreamEndedAt": 1786248512544,
+      "lastStreamInfo": "Stuffed with @chupacol @blueesooull @gabrel — IRL",
+      "lastStreamEndedAt": 1786470111522,
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule"
     },
@@ -6187,8 +6187,8 @@
       "stats": {
         "totalVotes": 9222,
         "totalSubs": 2,
-        "totalChatMessages": 647,
-        "totalStreamMinutes": 610,
+        "totalChatMessages": 651,
+        "totalStreamMinutes": 615,
         "emotes": {
           "❤": 11,
           "🙌": 13,
@@ -6247,7 +6247,8 @@
           "😝": 1,
           "👃": 3,
           "🙂": 3,
-          "↕": 3
+          "↕": 3,
+          "🧦": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -6307,30 +6308,15 @@
           "😝": "😝",
           "👃": "👃",
           "🙂": "🙂",
-          "↕": "↕"
+          "↕": "↕",
+          "🧦": "🧦"
         },
-        "lastChatAt": 1786469925017,
+        "lastChatAt": 1786470290688,
         "sendFailStreak": 60,
         "lastSendFailAt": 1786469907452,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "dimifw",
-          "msg": "GMish"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 dimifw is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "dimifw",
-          "msg": "[emote:df7edb9d-58c3-4b1a-904f-8a85a9c3d5ab] [emote:df7edb9d-58c3-4b1a-904f-8a85a9c3d5ab] [emote:df7edb9d-58c3-4b1a-904f-8a85a9c3d5ab]"
-        },
         {
           "user": "sipofcoke",
           "msg": "HOLY SPONGEBOBING MOLY!!!"
@@ -6354,6 +6340,22 @@
         {
           "user": "dimifw",
           "msg": "thanks sip :D"
+        },
+        {
+          "user": "sipofcoke",
+          "msg": "nice graphics, simple but cool"
+        },
+        {
+          "user": "dimifw",
+          "msg": "yeah looks pretty nice ^^"
+        },
+        {
+          "user": "sipofcoke",
+          "msg": "lmao spongebob the destroyer"
+        },
+        {
+          "user": "dimifw",
+          "msg": "🧦🧦🧦"
         }
       ],
       "customCommands": {},
@@ -6882,7 +6884,7 @@
         "totalVotes": 4088,
         "totalSubs": 11,
         "totalChatMessages": 811,
-        "totalStreamMinutes": 3193,
+        "totalStreamMinutes": 3198,
         "emotes": {
           "❤": 52,
           "🙌": 26,
@@ -7232,8 +7234,8 @@
       "stats": {
         "totalVotes": 5842,
         "totalSubs": 0,
-        "totalChatMessages": 9360,
-        "totalStreamMinutes": 3525,
+        "totalChatMessages": 9361,
+        "totalStreamMinutes": 3530,
         "emotes": {
           "❤": 19,
           "🙌": 16,
@@ -7441,7 +7443,7 @@
           "🪡": "🪡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786470034634
+        "lastChatAt": 1786470229364
       },
       "chatMemory": [
         {
@@ -7508,9 +7510,9 @@
       "language": "en",
       "joinedAt": 1784664490215,
       "stats": {
-        "totalVotes": 2208,
+        "totalVotes": 2227,
         "totalSubs": 8,
-        "totalChatMessages": 525,
+        "totalChatMessages": 526,
         "totalStreamMinutes": 2938,
         "emotes": {
           "❤": 39,
@@ -7520,7 +7522,7 @@
           "🔴": 18,
           "🎉": 28,
           "🔥": 46,
-          "🗳": 138,
+          "🗳": 141,
           "😀": 1,
           "👀": 6,
           "😃": 1,
@@ -7593,13 +7595,9 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786398765175
+        "lastChatAt": 1786470274902
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
-        },
         {
           "user": "agent00zani",
           "msg": "ty ty for games"
@@ -7635,6 +7633,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @sinnerz just gave 19 vote(s) (total: 19)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7769,14 +7771,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 5962,
+        "totalVotes": 6012,
         "totalSubs": 3,
-        "totalChatMessages": 1681,
+        "totalChatMessages": 1683,
         "totalStreamMinutes": 2627,
         "emotes": {
           "❤": 30,
           "🙌": 17,
-          "🗳": 258,
+          "🗳": 261,
           "🔴": 22,
           "🎉": 43,
           "🏃": 1,
@@ -7866,17 +7868,9 @@
           "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786463738210
+        "lastChatAt": 1786470249996
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @TimDraws!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 5 votes, @capt_rob_advent!"
@@ -7908,6 +7902,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @sinnerz!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @sinnerz just gave 50 vote(s) (total: 55)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8526,7 +8528,7 @@
         "totalVotes": 828,
         "totalSubs": 1,
         "totalChatMessages": 111,
-        "totalStreamMinutes": 1029,
+        "totalStreamMinutes": 1034,
         "emotes": {
           "❤": 10,
           "🙌": 5,
@@ -8774,7 +8776,7 @@
         "totalVotes": 788,
         "totalSubs": 0,
         "totalChatMessages": 220,
-        "totalStreamMinutes": 278,
+        "totalStreamMinutes": 283,
         "emotes": {
           "😅": 1,
           "🔥": 4,
@@ -9571,8 +9573,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786465485356,
   "auth": {
-    "accessToken": "59028032b1a6d2d8056ccc4ee22c900b",
-    "refreshToken": "f3361338dd381dfd5026c76004db7ff0",
+    "accessToken": "f738fcf6dd7c44940fd000810f5f516e",
+    "refreshToken": "d9ecb4aa70499a539e95fd662f11ca84",
     "sessionToken": "6536df381822e350c89b27604edd66be",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
