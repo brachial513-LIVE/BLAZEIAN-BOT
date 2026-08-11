@@ -1066,7 +1066,7 @@
         "totalVotes": 7605,
         "totalSubs": 88,
         "totalChatMessages": 2980,
-        "totalStreamMinutes": 10120,
+        "totalStreamMinutes": 10121,
         "emotes": {
           "📊": 3,
           "🔥": 258,
@@ -6882,7 +6882,7 @@
         "totalVotes": 4088,
         "totalSubs": 11,
         "totalChatMessages": 807,
-        "totalStreamMinutes": 3153,
+        "totalStreamMinutes": 3155,
         "emotes": {
           "❤": 52,
           "🙌": 26,
@@ -8416,12 +8416,12 @@
       "stats": {
         "totalVotes": 2520,
         "totalSubs": 18,
-        "totalChatMessages": 150,
+        "totalChatMessages": 151,
         "totalStreamMinutes": 451,
         "emotes": {
           "❤": 10,
           "🙌": 23,
-          "🗳": 39,
+          "🗳": 42,
           "♥": 1,
           "🔴": 8,
           "🎉": 11,
@@ -8455,13 +8455,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786467652489
+        "lastChatAt": 1786467663590
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @nekoschwan just gifted a sub to @piggymoto! How generous!! 🙌"
-        },
         {
           "user": "piggymoto",
           "msg": "Thank you! Anong game yan?"
@@ -8497,6 +8493,10 @@
         {
           "user": "angge_wf",
           "msg": "hi ate necko"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8526,7 +8526,7 @@
         "totalVotes": 828,
         "totalSubs": 1,
         "totalChatMessages": 110,
-        "totalStreamMinutes": 989,
+        "totalStreamMinutes": 990,
         "emotes": {
           "❤": 10,
           "🙌": 5,
@@ -8603,7 +8603,8 @@
         }
       ],
       "customCommands": {
-        "giveaway entries": "username= entries"
+        "giveaway entries": "username= entries",
+        "wheelentries": "Doffer           15 entries\r\nK1ngbreaker 15 entries\r\nLibra Lives      4 entries\r\nFuture            2 entries\r\nguney            1 entry"
       },
       "streamStart": "",
       "streamEnd": "",
@@ -8771,10 +8772,10 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 787,
+        "totalVotes": 788,
         "totalSubs": 0,
-        "totalChatMessages": 209,
-        "totalStreamMinutes": 238,
+        "totalChatMessages": 210,
+        "totalStreamMinutes": 240,
         "emotes": {
           "😅": 1,
           "🔥": 4,
@@ -8798,13 +8799,9 @@
           "🤘": "🤘"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786465895007
+        "lastChatAt": 1786467676457
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "thank you nekooo [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
-        },
         {
           "user": "cr33pling",
           "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
@@ -8840,6 +8837,10 @@
         {
           "user": "cr33pling",
           "msg": "[emote:da339ef7-1574-4f2f-8b48-666688167af3] [emote:da339ef7-1574-4f2f-8b48-666688167af3] [emote:da339ef7-1574-4f2f-8b48-666688167af3]"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "hi"
         }
       ],
       "customCommands": {},
@@ -9573,7 +9574,7 @@
   "auth": {
     "accessToken": "59028032b1a6d2d8056ccc4ee22c900b",
     "refreshToken": "f3361338dd381dfd5026c76004db7ff0",
-    "sessionToken": "6c320f9be7a39525e1994241456d7ab3",
+    "sessionToken": "6536df381822e350c89b27604edd66be",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
