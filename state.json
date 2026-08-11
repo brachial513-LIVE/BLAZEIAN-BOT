@@ -1383,7 +1383,7 @@
         "totalVotes": 4432,
         "totalSubs": 11,
         "totalChatMessages": 3693,
-        "totalStreamMinutes": 3842,
+        "totalStreamMinutes": 3843,
         "emotes": {
           "🗳": 332,
           "🤣": 53,
@@ -1652,7 +1652,7 @@
         "totalVotes": 7525,
         "totalSubs": 40,
         "totalChatMessages": 3196,
-        "totalStreamMinutes": 10632,
+        "totalStreamMinutes": 10633,
         "emotes": {
           "❤": 131,
           "🙌": 95,
@@ -3616,7 +3616,7 @@
         "totalVotes": 4444,
         "totalSubs": 63,
         "totalChatMessages": 400,
-        "totalStreamMinutes": 8371,
+        "totalStreamMinutes": 8373,
         "emotes": {
           "❤": 87,
           "🙌": 29,
@@ -5072,8 +5072,8 @@
       "stats": {
         "totalVotes": 1639,
         "totalSubs": 12,
-        "totalChatMessages": 713,
-        "totalStreamMinutes": 6469,
+        "totalChatMessages": 714,
+        "totalStreamMinutes": 6471,
         "emotes": {
           "🔥": 229,
           "🔴": 70,
@@ -5164,14 +5164,10 @@
           "💃": "💃",
           "🫐": "🫐"
         },
-        "lastChatAt": 1786491949750,
+        "lastChatAt": 1786491968921,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @Zer0Cache!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Zer0Cache just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -5207,6 +5203,10 @@
         {
           "user": "agent00zani",
           "msg": "good timing as always bro"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "hope your day goes well"
         }
       ],
       "customCommands": {},
@@ -9587,8 +9587,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786465485356,
   "auth": {
-    "accessToken": "d120eadf84ffd4396b932eec04122ac4",
-    "refreshToken": "b6afbb4fb327ecb4554f581275e3cbb5",
+    "accessToken": "f1b8d186ac035098f24fc55b9c24fc49",
+    "refreshToken": "4c0c7617f5240e23ae389038c530650f",
     "sessionToken": "6536df381822e350c89b27604edd66be",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
