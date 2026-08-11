@@ -806,7 +806,7 @@
       "stats": {
         "totalVotes": 7706,
         "totalSubs": 21,
-        "totalChatMessages": 12792,
+        "totalChatMessages": 12815,
         "totalStreamMinutes": 1455,
         "emotes": {
           "🔥": 697,
@@ -816,7 +816,7 @@
           "😍": 1,
           "❤": 33,
           "🚢": 8,
-          "⏰": 671,
+          "⏰": 681,
           "🔜": 349,
           "💀": 170,
           "😘": 2,
@@ -863,7 +863,7 @@
           "👍": 1,
           "🥔": 596,
           "🔄": 215,
-          "🤖": 92,
+          "🤖": 94,
           "😏": 4,
           "❌": 1,
           "🙃": 3,
@@ -872,7 +872,7 @@
           "🧪": 5,
           "🙄": 2,
           "🎮": 8,
-          "🪅": 54,
+          "🪅": 56,
           "🍬": 122,
           "🛑": 5,
           "💚": 7,
@@ -956,7 +956,7 @@
           "🍊": "🍊",
           "🍎": "🍎"
         },
-        "lastChatAt": 1786475212727,
+        "lastChatAt": 1786476600722,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -966,30 +966,18 @@
       "chatMemory": [
         {
           "user": "blazegames_bot",
-          "msg": "🛑 Game ended by the streamer. No winners this round."
+          "msg": "⏰ Game starting in 10 seconds!"
         },
         {
-          "user": "blazegames_bot",
-          "msg": "🪅 Pinata starting in 30 seconds! Swing the bat and break the pinata for candy! Type !join to play!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "botger",
-          "msg": "(Handled by bot — joins the channel and confirms in chat)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🤖 Added 14 bot(s) to the game! 15 player(s) ready."
-        },
-        {
-          "user": "blazegames_bot",
+          "user": "jt_squared2",
           "msg": "⏰ Game starting in 10 seconds!"
         },
         {
           "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
+        },
+        {
+          "user": "jt_squared2",
           "msg": "⏰ Game starting in 5 seconds!"
         },
         {
@@ -1001,7 +989,19 @@
           "msg": "⏰ Game starting in 2 seconds!"
         },
         {
+          "user": "jt_squared2",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
           "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "jt_squared2",
           "msg": "⏰ Game starting in 1 second!"
         }
       ],
@@ -1065,11 +1065,11 @@
       "stats": {
         "totalVotes": 7605,
         "totalSubs": 88,
-        "totalChatMessages": 2982,
-        "totalStreamMinutes": 10255,
+        "totalChatMessages": 2983,
+        "totalStreamMinutes": 10275,
         "emotes": {
           "📊": 3,
-          "🔥": 259,
+          "🔥": 260,
           "🤣": 32,
           "💚": 46,
           "❤": 14,
@@ -1078,7 +1078,7 @@
           "😊": 2,
           "👋": 8,
           "🚀": 7,
-          "🦊": 114,
+          "🦊": 115,
           "😂": 27,
           "👑": 31,
           "⭐": 35,
@@ -1304,13 +1304,9 @@
           "🍌": "🍌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786474897992
+        "lastChatAt": 1786476400198
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 32 damage and earned 12 FoxCoins! Boss HP: 57/500. Your total boss damage: 170. Balance: 170 FoxCoins."
-        },
         {
           "user": "foxbotai",
           "msg": "@crypt0k1ng96 attacked Cyber Fox Dragon for 36 damage and earned 8 FoxCoins! Boss HP: 21/500. Your total boss damage: 206. Balance: 178 FoxCoins."
@@ -1346,6 +1342,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "FOXBOT CASINO COMING SOON!! 🔥🦊"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Type !join to win the race!! Winner gets 1000 Foxcoins 🔥🦊"
         }
       ],
       "customCommands": {},
@@ -4757,8 +4757,8 @@
       "stats": {
         "totalVotes": 6438,
         "totalSubs": 22,
-        "totalChatMessages": 5226,
-        "totalStreamMinutes": 3574,
+        "totalChatMessages": 5240,
+        "totalStreamMinutes": 3589,
         "emotes": {
           "🧏": 1,
           "♂": 2,
@@ -4976,48 +4976,48 @@
           "🎂": "🎂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786475748187
+        "lastChatAt": 1786476747768
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "What the hell?"
-        },
-        {
-          "user": "briggsy",
-          "msg": "It seems like they only have Malcom's part transcribed"
-        },
-        {
-          "user": "briggsy",
-          "msg": "That's weird"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Well, that was two disasterous picks"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Way to throw things off track"
-        },
-        {
-          "user": "briggsy",
-          "msg": "@hazykey get back in here buddy.  Save the show"
-        },
-        {
-          "user": "hazykey",
-          "msg": "hold on"
-        },
-        {
-          "user": "hazykey",
-          "msg": "I'll get one"
+          "user": "fartvader",
+          "msg": "eyyy eyyy eyyy guys..hope I'm not late in the parteyyyyy [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         },
         {
           "user": "bidlo_bot",
-          "msg": "@briggsy No songs found for \"Freeway Jam Jeff Beck\". Try a different search."
+          "msg": "@briggsy Found 7 matches: 1. Jeff Beck - Cause We've Ended As Lovers | 2. Jeff Beck - Beck's Bolero | 3. Jeff Beck - People Get Ready | 4. Jeff Beck - Scatterbrain | 5. Jeff Beck - I Ain't Superstitious | 6. Jeff Beck - Greensleeves | 7. Jeff Beck - Led Boots — Reply !pick 1-7 to select"
         },
         {
-          "user": "hazykey",
-          "msg": "oh yeah you definitely read it lol"
+          "user": "bidlo_bot",
+          "msg": "@hazykey Added \"Born of Osiris - Angel or Alien\" to the queue! (Position #2)"
+        },
+        {
+          "user": "fartvader",
+          "msg": "@briggsy [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "yessir!!"
+        },
+        {
+          "user": "bidlo_bot",
+          "msg": "@avisi No songs found for \"vortex - make them suffer\". Try a different search."
+        },
+        {
+          "user": "bidlo_bot",
+          "msg": "@avisi Found 9 matches: 1. The GazettE - 『VORTEX』 | 2. Megadeth - Vortex | 3. Gloryhammer - Legends from Beyond the Galactic Terrorvortex Album | 4. Jinjer - Vortex (5 String Bass) | 5. MORF - Vortex of Chaos | 6. The Odious Construct - Vortex of Self | 7. Bal-Sagoth - As The Vortex Illumines The Crystalline Walls Of Kor-Avul-Thaa | 8. 9mm Parabellum Bullet - Vortex — Reply !pick 1-8 to select"
+        },
+        {
+          "user": "avisi",
+          "msg": "oh no! we lost the bidlo!"
+        },
+        {
+          "user": "bidloperv",
+          "msg": "oh good"
+        },
+        {
+          "user": "bidloperv",
+          "msg": "song just ended rip"
         }
       ],
       "customCommands": {},
@@ -5050,7 +5050,7 @@
         }
       },
       "lastStreamInfo": "Guitar and Chill! Request songs for a chance at 100 Votes! — Music",
-      "lastStreamEndedAt": 1786399926041,
+      "lastStreamEndedAt": 1786476531214,
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule"
     },
@@ -6188,7 +6188,7 @@
         "totalVotes": 9257,
         "totalSubs": 2,
         "totalChatMessages": 699,
-        "totalStreamMinutes": 705,
+        "totalStreamMinutes": 725,
         "emotes": {
           "❤": 11,
           "🙌": 13,
@@ -7235,7 +7235,7 @@
         "totalVotes": 5842,
         "totalSubs": 0,
         "totalChatMessages": 9378,
-        "totalStreamMinutes": 3620,
+        "totalStreamMinutes": 3640,
         "emotes": {
           "❤": 19,
           "🙌": 16,
