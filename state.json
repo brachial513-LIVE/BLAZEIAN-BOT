@@ -1066,7 +1066,7 @@
         "totalVotes": 7603,
         "totalSubs": 86,
         "totalChatMessages": 2868,
-        "totalStreamMinutes": 9890,
+        "totalStreamMinutes": 9895,
         "emotes": {
           "📊": 3,
           "🔥": 251,
@@ -1379,7 +1379,7 @@
         "totalVotes": 4134,
         "totalSubs": 10,
         "totalChatMessages": 3559,
-        "totalStreamMinutes": 3609,
+        "totalStreamMinutes": 3614,
         "emotes": {
           "🗳": 308,
           "🤣": 53,
@@ -6039,7 +6039,7 @@
         "totalVotes": 6541,
         "totalSubs": 40,
         "totalChatMessages": 825,
-        "totalStreamMinutes": 5035,
+        "totalStreamMinutes": 5040,
         "emotes": {
           "❤": 31,
           "🙌": 60,
@@ -7767,14 +7767,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 5925,
+        "totalVotes": 5935,
         "totalSubs": 3,
-        "totalChatMessages": 1671,
+        "totalChatMessages": 1673,
         "totalStreamMinutes": 2627,
         "emotes": {
           "❤": 30,
           "🙌": 17,
-          "🗳": 246,
+          "🗳": 249,
           "🔴": 22,
           "🎉": 43,
           "🏃": 1,
@@ -7864,17 +7864,9 @@
           "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786451988717
+        "lastChatAt": 1786454124918
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ blazegames_bot just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @blazegames_bot!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 10 votes, @time!"
@@ -7906,6 +7898,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 15 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @TimDraws!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8177,7 +8177,7 @@
         "totalVotes": 1379,
         "totalSubs": 10,
         "totalChatMessages": 206,
-        "totalStreamMinutes": 582,
+        "totalStreamMinutes": 587,
         "emotes": {
           "❤": 23,
           "🙌": 16,
@@ -9565,8 +9565,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786408806244,
   "auth": {
-    "accessToken": "7d2985597b74a6e8f07b5a843f25c7d4",
-    "refreshToken": "557254684e2eabff6a8d9eaa3ca1f519",
+    "accessToken": "3abd4eb452c408732180dd739dbaa03e",
+    "refreshToken": "82f791d49a9ffc30154bf91b7754223b",
     "sessionToken": "6c320f9be7a39525e1994241456d7ab3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
