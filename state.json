@@ -804,7 +804,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 7689,
+        "totalVotes": 7704,
         "totalSubs": 21,
         "totalChatMessages": 12777,
         "totalStreamMinutes": 1455,
@@ -1065,8 +1065,8 @@
       "stats": {
         "totalVotes": 7603,
         "totalSubs": 85,
-        "totalChatMessages": 2862,
-        "totalStreamMinutes": 9825,
+        "totalChatMessages": 2864,
+        "totalStreamMinutes": 9845,
         "emotes": {
           "📊": 3,
           "🔥": 251,
@@ -1304,13 +1304,9 @@
           "🍌": "🍌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786441746535
+        "lastChatAt": 1786451098458
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Thanks for the votes @noxx"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "GM GM"
@@ -1346,6 +1342,10 @@
         {
           "user": "foxbotai",
           "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@thewill3ffect No game is currently active! Wait for the streamer to start one."
         }
       ],
       "customCommands": {},
@@ -1379,7 +1379,7 @@
         "totalVotes": 4134,
         "totalSubs": 10,
         "totalChatMessages": 3559,
-        "totalStreamMinutes": 3544,
+        "totalStreamMinutes": 3564,
         "emotes": {
           "🗳": 308,
           "🤣": 53,
@@ -2858,14 +2858,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 9845,
+        "totalVotes": 9855,
         "totalSubs": 33,
-        "totalChatMessages": 5707,
+        "totalChatMessages": 5708,
         "totalStreamMinutes": 4478,
         "emotes": {
           "❤": 116,
           "🙌": 205,
-          "🗳": 696,
+          "🗳": 699,
           "✌": 4,
           "😊": 9,
           "👍": 10,
@@ -3123,13 +3123,9 @@
           "😒": "😒"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786434531027
+        "lastChatAt": 1786450626098
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "thank you brooo for the kind words..catch you later bro!"
-        },
         {
           "user": "botger",
           "msg": "Appreciate your time.  Cheers and catchya next time. 🙌"
@@ -3165,6 +3161,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6038,8 +6038,8 @@
       "stats": {
         "totalVotes": 6541,
         "totalSubs": 40,
-        "totalChatMessages": 821,
-        "totalStreamMinutes": 4970,
+        "totalChatMessages": 823,
+        "totalStreamMinutes": 4990,
         "emotes": {
           "❤": 31,
           "🙌": 60,
@@ -6105,17 +6105,9 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786449174419
+        "lastChatAt": 1786450208578
       },
       "chatMemory": [
-        {
-          "user": "charddxyz",
-          "msg": "bakit ka malungkot haha"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @charddxyz just gave 30 vote(s) (total: 30)! Thank you!! 🗳️"
-        },
         {
           "user": "charddxyz",
           "msg": "ano haha"
@@ -6147,6 +6139,14 @@
         {
           "user": "botger",
           "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "missaria_wf",
+          "msg": "hello boss @faithy_"
+        },
+        {
+          "user": "faithy_",
+          "msg": "@missaria_wf helo helo"
         }
       ],
       "customCommands": {},
@@ -8176,15 +8176,15 @@
       "stats": {
         "totalVotes": 1379,
         "totalSubs": 10,
-        "totalChatMessages": 192,
-        "totalStreamMinutes": 533,
+        "totalChatMessages": 194,
+        "totalStreamMinutes": 537,
         "emotes": {
-          "❤": 19,
+          "❤": 20,
           "🙌": 15,
           "💚": 2,
-          "🔥": 34,
-          "🔴": 5,
-          "🎉": 6,
+          "🔥": 35,
+          "🔴": 6,
+          "🎉": 7,
           "💛": 1,
           "🗳": 60,
           "🎁": 18,
@@ -8201,7 +8201,8 @@
           "✨": 1,
           "😍": 4,
           "🫠": 3,
-          "🚨": 6
+          "🚨": 6,
+          "😊": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -8226,20 +8227,13 @@
           "✨": "✨",
           "😍": "😍",
           "🫠": "🫠",
-          "🚨": "🚨"
+          "🚨": "🚨",
+          "😊": "😊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786399637582
+        "lastChatAt": 1786451015783
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @nekoschwan is raiding with a party of 2! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "watch muna ako sa inyo hahaha"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @charddxyz just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -8271,6 +8265,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wayfinders just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 missaria is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "missaria",
+          "msg": "I will play Tomb Raider for today's stream 😊 You can follow, subscribe & vote to support my stream ❤️‍🔥"
         }
       ],
       "customCommands": {},
@@ -8282,7 +8284,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c954957e-f37f-4197-9291-1529478c7136.gif",
-      "streamTitle": "",
+      "streamTitle": "Hello Blaze 👋 Chill stream ❤️‍🔥 — Overcooked! 2",
       "profile": "Welcome to missaria_wf's cozy corner of Blaze, where Wayfinders PH vibes meet chill streams ✨. We're all about good music, gaming, and quality time with our favorite streamer. Shoutouts to 'Doffer Live' for keeping it real, and remember: 'turn down music, turn up voice' and 'palworld once human' are our jam! We love 'do hard', 'palworld once human', and 'turn down music, turn up voice' vibes, and our streamer loves being gifted subs and celebrated with votes.",
       "_profileAtCount": 147,
       "gameOverride": "",
