@@ -2229,14 +2229,14 @@
       "stats": {
         "totalVotes": 4788,
         "totalSubs": 36,
-        "totalChatMessages": 1452,
-        "totalStreamMinutes": 8167,
+        "totalChatMessages": 1454,
+        "totalStreamMinutes": 8177,
         "emotes": {
           "😊": 4,
           "🌵": 87,
           "🔥": 287,
           "🤪": 1,
-          "👋": 33,
+          "👋": 34,
           "👍": 21,
           "🥰": 4,
           "💜": 1,
@@ -2444,17 +2444,9 @@
           "🫶": "🫶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786418877931
+        "lastChatAt": 1786419826289
       },
       "chatMemory": [
-        {
-          "user": "nadietv",
-          "msg": "you ok?"
-        },
-        {
-          "user": "nadietv",
-          "msg": "xD"
-        },
         {
           "user": "nadietv",
           "msg": "hahaha"
@@ -2486,6 +2478,14 @@
         {
           "user": "steadyember",
           "msg": "He's adorable:)"
+        },
+        {
+          "user": "steadyember",
+          "msg": "Night 👋"
+        },
+        {
+          "user": "capt_rob_advent",
+          "msg": "Oh man. Look at your emotes. Love them"
         }
       ],
       "customCommands": {},
@@ -2494,7 +2494,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Heading out to bunker a ship in South East Texas — IRL",
+      "streamTitle": "",
       "profile": "We're a community all about IRL maritime streams, focusing on activities like loading barges and fueling ships. We love to surf, vote for our favorite streamers, celebrate with \"BLAZE ON\", shout \"Sweet!\" when new content drops, do shots saying \"shots shots!\", and enjoy celebrating with \"BLAZE ON\".",
       "_profileAtCount": 1446,
       "gameOverride": "",
@@ -2519,7 +2519,7 @@
       "nudgedAt": 1785066991188,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Heading out to bunker a ship in South East Texas — IRL",
-      "lastStreamEndedAt": 1786411343922
+      "lastStreamEndedAt": 1786419664991
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -3605,16 +3605,16 @@
       "stats": {
         "totalVotes": 4413,
         "totalSubs": 63,
-        "totalChatMessages": 396,
-        "totalStreamMinutes": 8233,
+        "totalChatMessages": 397,
+        "totalStreamMinutes": 8239,
         "emotes": {
           "❤": 87,
           "🙌": 29,
           "🔥": 35,
           "🔴": 55,
           "🎉": 55,
-          "📴": 56,
-          "👋": 57,
+          "📴": 57,
+          "👋": 58,
           "😂": 4,
           "💚": 7,
           "💪": 2,
@@ -3661,14 +3661,10 @@
           "💀": "💀",
           "🤝": "🤝"
         },
-        "lastChatAt": 1786418239269,
+        "lastChatAt": 1786419403586,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "slothsm",
-          "msg": "nice"
-        },
         {
           "user": "jaggerjack",
           "msg": "[emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3] [emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3] [emote:baf375f8-8af4-4f45-9f1f-cc04d05a44f3]"
@@ -3704,6 +3700,10 @@
         {
           "user": "peperonitostv",
           "msg": "Boa live meu manoo! Tamo juunto!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -3715,7 +3715,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -3723,7 +3723,7 @@
       "_profileAtCount": 393,
       "botVip": true,
       "lastStreamInfo": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
-      "lastStreamEndedAt": 1786389629682,
+      "lastStreamEndedAt": 1786419398322,
       "nudgedAt": 1785710754625,
       "nudgedKey": "schedule"
     },
@@ -5303,7 +5303,7 @@
         "totalVotes": 4742,
         "totalSubs": 71,
         "totalChatMessages": 301,
-        "totalStreamMinutes": 2112,
+        "totalStreamMinutes": 2132,
         "emotes": {
           "❤": 13,
           "🙌": 77,
