@@ -806,7 +806,7 @@
       "stats": {
         "totalVotes": 7639,
         "totalSubs": 21,
-        "totalChatMessages": 12710,
+        "totalChatMessages": 12777,
         "totalStreamMinutes": 1455,
         "emotes": {
           "🔥": 697,
@@ -816,7 +816,7 @@
           "😍": 1,
           "❤": 33,
           "🚢": 8,
-          "⏰": 641,
+          "⏰": 666,
           "🔜": 349,
           "💀": 170,
           "😘": 2,
@@ -863,7 +863,7 @@
           "👍": 1,
           "🥔": 596,
           "🔄": 215,
-          "🤖": 86,
+          "🤖": 91,
           "😏": 4,
           "❌": 1,
           "🙃": 3,
@@ -871,10 +871,10 @@
           "💰": 3,
           "🧪": 5,
           "🙄": 2,
-          "🎮": 5,
-          "🪅": 48,
+          "🎮": 7,
+          "🪅": 53,
           "🍬": 122,
-          "🛑": 2,
+          "🛑": 4,
           "💚": 7,
           "💪": 1,
           "⚔": 4,
@@ -956,7 +956,7 @@
           "🍊": "🍊",
           "🍎": "🍎"
         },
-        "lastChatAt": 1786415102687,
+        "lastChatAt": 1786417340187,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -966,43 +966,43 @@
       "chatMemory": [
         {
           "user": "jt_squared2",
-          "msg": "⚠️ Not enough players to start! Need at least 2."
+          "msg": "@jt_squared2 No game is currently active!"
         },
         {
-          "user": "jt_squared2",
-          "msg": "[emote:b0c224ec-5e5a-4725-ab69-45a2e948ad58]"
+          "user": "blazegames_bot",
+          "msg": "🪅 Pinata starting in 30 seconds! Swing the bat and break the pinata for candy! Type !join to play!"
         },
         {
-          "user": "jt_squared2",
-          "msg": "test"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 jt_squared2 is now live! Welcome everyone! 🎉"
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
         },
         {
           "user": "botger",
-          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
+          "msg": "(Handled by bot — joins the channel and confirms in chat)"
         },
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "user": "blazegames_bot",
+          "msg": "🤖 Added 14 bot(s) to the game! 15 player(s) ready."
         },
         {
-          "user": "jt_squared2",
-          "msg": "test"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 10 seconds!"
         },
         {
-          "user": "jt_squared2",
-          "msg": "[emote:21f398af-51dd-49cb-a896-76bf8af659ea]"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
         },
         {
-          "user": "jt_squared2",
-          "msg": "[emote:b0c224ec-5e5a-4725-ab69-45a2e948ad58]"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
         },
         {
-          "user": "jt_squared2",
-          "msg": "[emote:45b804ef-0a31-4455-bb8c-7c618e588f07]"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
         }
       ],
       "customCommands": {},
@@ -2230,7 +2230,7 @@
         "totalVotes": 4788,
         "totalSubs": 36,
         "totalChatMessages": 1446,
-        "totalStreamMinutes": 8122,
+        "totalStreamMinutes": 8142,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -3606,7 +3606,7 @@
         "totalVotes": 4412,
         "totalSubs": 63,
         "totalChatMessages": 395,
-        "totalStreamMinutes": 8188,
+        "totalStreamMinutes": 8208,
         "emotes": {
           "❤": 87,
           "🙌": 29,
@@ -5059,7 +5059,7 @@
         "totalVotes": 1613,
         "totalSubs": 12,
         "totalChatMessages": 697,
-        "totalStreamMinutes": 6384,
+        "totalStreamMinutes": 6404,
         "emotes": {
           "🔥": 223,
           "🔴": 70,
@@ -5302,8 +5302,8 @@
       "stats": {
         "totalVotes": 4742,
         "totalSubs": 71,
-        "totalChatMessages": 298,
-        "totalStreamMinutes": 2067,
+        "totalChatMessages": 300,
+        "totalStreamMinutes": 2087,
         "emotes": {
           "❤": 13,
           "🙌": 77,
@@ -5317,7 +5317,8 @@
           "🗳": 75,
           "⚡": 1,
           "🚨": 18,
-          "🤗": 2
+          "🤗": 2,
+          "🎶": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -5332,20 +5333,13 @@
           "🗳": "🗳",
           "⚡": "⚡",
           "🚨": "🚨",
-          "🤗": "🤗"
+          "🤗": "🤗",
+          "🎶": "🎶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786415102269
+        "lastChatAt": 1786417512786
       },
       "chatMemory": [
-        {
-          "user": "senseibulrog",
-          "msg": "it's incredibly pointless and for some reason i alway shave it running"
-        },
-        {
-          "user": "senseibulrog",
-          "msg": "there's an old rod right now, but it's 750k coin"
-        },
         {
           "user": "senseibulrog",
           "msg": "reduces fall damage? what do we take fall damage from in this game?"
@@ -5377,6 +5371,14 @@
         {
           "user": "senseibulrog",
           "msg": "aight, gonna spend some time with the mrs before she knocks out, see you on the flip side fam!"
+        },
+        {
+          "user": "inn",
+          "msg": "Spider man spider man 🎶"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Come chill in Chainers, a super simple and fun farming game anyone can enjoy — even the kids. Build, farm, earn crypto, and vibe with a laid‑back community. It’s free, it’s easy, and it’s actually addicting in the best way. Jump in and start growing with us: https://chainers.io/?r=mixncg74"
         }
       ],
       "customCommands": {},
