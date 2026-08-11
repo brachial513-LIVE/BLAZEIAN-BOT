@@ -1066,7 +1066,7 @@
         "totalVotes": 7605,
         "totalSubs": 88,
         "totalChatMessages": 2980,
-        "totalStreamMinutes": 10070,
+        "totalStreamMinutes": 10075,
         "emotes": {
           "📊": 3,
           "🔥": 258,
@@ -6882,7 +6882,7 @@
         "totalVotes": 4063,
         "totalSubs": 11,
         "totalChatMessages": 801,
-        "totalStreamMinutes": 3104,
+        "totalStreamMinutes": 3108,
         "emotes": {
           "❤": 52,
           "🙌": 26,
@@ -8773,8 +8773,8 @@
       "stats": {
         "totalVotes": 732,
         "totalSubs": 0,
-        "totalChatMessages": 192,
-        "totalStreamMinutes": 189,
+        "totalChatMessages": 194,
+        "totalStreamMinutes": 193,
         "emotes": {
           "😅": 1,
           "🔥": 4,
@@ -8796,17 +8796,9 @@
           "🤫": "🤫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786464459579
+        "lastChatAt": 1786464929612
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:4b835a57-eefa-482f-a3eb-1e5cfe3e9820]"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "summoning technique: summon jaggerjack"
-        },
         {
           "user": "fartvader",
           "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
@@ -8838,6 +8830,14 @@
         {
           "user": "fartvader",
           "msg": "how are you doing bro? you good?"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Yes, I'm good.  Distracted, I'm working on something."
+        },
+        {
+          "user": "briggsy",
+          "msg": "I'll be back in in a minute."
         }
       ],
       "customCommands": {},
@@ -8867,7 +8867,7 @@
         "totalVotes": 400,
         "totalSubs": 16,
         "totalChatMessages": 80,
-        "totalStreamMinutes": 240,
+        "totalStreamMinutes": 245,
         "emotes": {
           "❤": 14,
           "🙌": 23,
@@ -9569,8 +9569,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786408806244,
   "auth": {
-    "accessToken": "b58cc2f01d374a3f353afb867b8212a2",
-    "refreshToken": "60ab348078f61635cef86ca7c8f39139",
+    "accessToken": "c02cf2b825543acbc0b652b49a61545c",
+    "refreshToken": "f5cdf3d88ac3a9cf05b37e26b0610d1b",
     "sessionToken": "6c320f9be7a39525e1994241456d7ab3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
