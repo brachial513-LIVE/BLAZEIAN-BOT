@@ -1071,7 +1071,7 @@
         "totalVotes": 7702,
         "totalSubs": 94,
         "totalChatMessages": 3687,
-        "totalStreamMinutes": 10921,
+        "totalStreamMinutes": 10926,
         "emotes": {
           "📊": 3,
           "🔥": 271,
@@ -1662,8 +1662,8 @@
       "stats": {
         "totalVotes": 7607,
         "totalSubs": 40,
-        "totalChatMessages": 3241,
-        "totalStreamMinutes": 10986,
+        "totalChatMessages": 3242,
+        "totalStreamMinutes": 10991,
         "emotes": {
           "❤": 134,
           "🙌": 96,
@@ -1842,14 +1842,10 @@
           "😲": "😲",
           "🤠": "🤠"
         },
-        "lastChatAt": 1786558874129,
+        "lastChatAt": 1786559167488,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6]"
-        },
         {
           "user": "ruri666",
           "msg": "GM ZANIIIIIII"
@@ -1885,6 +1881,10 @@
         {
           "user": "marioscy5",
           "msg": "hello zani!!!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "hi hi @marioscy5"
         }
       ],
       "customCommands": {},
@@ -5332,16 +5332,16 @@
       "stats": {
         "totalVotes": 4847,
         "totalSubs": 73,
-        "totalChatMessages": 384,
-        "totalStreamMinutes": 2476,
+        "totalChatMessages": 385,
+        "totalStreamMinutes": 2478,
         "emotes": {
           "❤": 19,
           "🙌": 82,
           "🔴": 23,
           "🎉": 28,
           "😂": 2,
-          "📴": 23,
-          "👋": 23,
+          "📴": 24,
+          "👋": 24,
           "🎁": 142,
           "🔥": 10,
           "🗳": 81,
@@ -5369,13 +5369,9 @@
           "🤣": "🤣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786558626173
+        "lastChatAt": 1786559251271
       },
       "chatMemory": [
-        {
-          "user": "onyxouroboros",
-          "msg": "this is TCG card shop simulartor right?"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @CG777!"
@@ -5411,6 +5407,10 @@
         {
           "user": "onyxouroboros",
           "msg": "Yeah, that shows backed with WAX, but I don't think it shows backed with other tokens"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5423,7 +5423,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/eaf52e0e-c43a-4a95-ae72-8f8f3836332e.jpeg",
-      "streamTitle": "Let's Talk GiveAway (& Play Some Games) — Just Chatting",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to thewill3ffect's squad! We're all about 'Slay Mode' and 'Meme Mode' combos, celebrating mods with 'GIFTED SUBS' and 'LOVE FESTS.' We vibe for 'RAID ALERTS,' 'LOVE FESTS,' and Space Mining & Dungeon Crawler Games. Let's keep it lit and 100% will3ffect!",
       "_profileAtCount": 310,
@@ -5434,8 +5434,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "Dark and Darker W/SenseiBulrog — Dark And Darker",
-      "lastStreamEndedAt": 1786522470542,
+      "lastStreamInfo": "Let's Talk GiveAway (& Play Some Games) — Just Chatting",
+      "lastStreamEndedAt": 1786559246074,
       "nudgedAt": 1786555068712,
       "nudgedKey": "schedule"
     },
@@ -8577,8 +8577,8 @@
       "stats": {
         "totalVotes": 831,
         "totalSubs": 1,
-        "totalChatMessages": 120,
-        "totalStreamMinutes": 1087,
+        "totalChatMessages": 121,
+        "totalStreamMinutes": 1092,
         "emotes": {
           "❤": 12,
           "🙌": 6,
@@ -8610,13 +8610,9 @@
           "🍺": "🍺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786557535630
+        "lastChatAt": 1786559213484
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @LibraLives just gave 40 vote(s) (total: 40)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -8652,6 +8648,10 @@
         {
           "user": "agent00zani",
           "msg": "[emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "all best in your games bro"
         }
       ],
       "customCommands": {
@@ -9721,8 +9721,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786528287483,
   "auth": {
-    "accessToken": "efe1ae25b56d902f1de696bc74127f6b",
-    "refreshToken": "baecb3c85cd137dbb7ec1780d5038b19",
+    "accessToken": "f6a9422861fd0b0ed5afe0d215957aca",
+    "refreshToken": "87c7409494c82deb556d12ef90b7d4f0",
     "sessionToken": "15f566becd8e6c57ae726124fa43f7db",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
