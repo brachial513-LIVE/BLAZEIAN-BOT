@@ -1383,7 +1383,7 @@
         "totalVotes": 4457,
         "totalSubs": 11,
         "totalChatMessages": 3707,
-        "totalStreamMinutes": 3894,
+        "totalStreamMinutes": 3914,
         "emotes": {
           "🗳": 335,
           "🤣": 53,
@@ -1652,7 +1652,7 @@
         "totalVotes": 7553,
         "totalSubs": 40,
         "totalChatMessages": 3201,
-        "totalStreamMinutes": 10684,
+        "totalStreamMinutes": 10704,
         "emotes": {
           "❤": 131,
           "🙌": 95,
@@ -3396,14 +3396,14 @@
       "stats": {
         "totalVotes": 6234,
         "totalSubs": 11,
-        "totalChatMessages": 2895,
-        "totalStreamMinutes": 5922,
+        "totalChatMessages": 2897,
+        "totalStreamMinutes": 5938,
         "emotes": {
           "❤": 32,
           "🙌": 85,
           "🗳": 345,
-          "🔴": 38,
-          "🎉": 63,
+          "🔴": 39,
+          "🎉": 64,
           "📴": 37,
           "👋": 40,
           "🔥": 116,
@@ -3524,18 +3524,10 @@
           "🌫": "🌫",
           "💛": "💛"
         },
-        "lastChatAt": 1786414622275,
+        "lastChatAt": 1786495286709,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "badger",
-          "msg": "💛💛💛"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -3567,6 +3559,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -3575,7 +3575,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "❤️A bit of Fn and Dota❤️ — Fortnite",
       "profile": "We're a chill gaming community loving Path of Exile 2 and Dota. Expect \"Blazeee\" vibes, \"Will be relax day\" shenanigans, \"VOTE ALERT!!\" celebrations, and \"pull a roshi,\" \"drained\" moments, and \"Love fest!\" moments. We appreciate gifted subs, generous votes, and \"hard reset\" humor, and love \"6969\" jokes, \"METAL!\" outbursts, \"Castigo castigo,\" and \"haslo de nuevo\" enthusiasm, \"Let's gooooo,\" and \"Theroan mode cat!\" New followers get a warm welcome, and we're always excited for VC sessions.",
       "_profileAtCount": 2875,
       "gameOverride": "",
@@ -3616,7 +3616,7 @@
         "totalVotes": 4444,
         "totalSubs": 63,
         "totalChatMessages": 400,
-        "totalStreamMinutes": 8423,
+        "totalStreamMinutes": 8443,
         "emotes": {
           "❤": 87,
           "🙌": 29,
@@ -5070,13 +5070,13 @@
       "username": "xxtowerdogxx",
       "language": "en",
       "stats": {
-        "totalVotes": 1639,
+        "totalVotes": 1664,
         "totalSubs": 12,
-        "totalChatMessages": 714,
-        "totalStreamMinutes": 6522,
+        "totalChatMessages": 719,
+        "totalStreamMinutes": 6542,
         "emotes": {
-          "🔥": 229,
-          "🔴": 70,
+          "🔥": 231,
+          "🔴": 72,
           "💚": 4,
           "🤣": 3,
           "☕": 18,
@@ -5085,7 +5085,7 @@
           "👋": 23,
           "👽": 28,
           "💀": 6,
-          "🗳": 87,
+          "🗳": 90,
           "💗": 1,
           "😱": 19,
           "❤": 7,
@@ -5164,30 +5164,10 @@
           "💃": "💃",
           "🫐": "🫐"
         },
-        "lastChatAt": 1786491968921,
+        "lastChatAt": 1786496272246,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Zer0Cache just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "sup"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "what type of words u like then ?"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥Shoutout to agent00zani 🔥 Make sure to drop a follow and show that Tower Crew support for this legend! 🔥 https://blaze.stream/agent00zani 🔥"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @agent00zani, who is live now, currently streaming Once Human to 4 viewers at https://blaze.stream/agent00zani!"
-        },
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
@@ -5207,6 +5187,26 @@
         {
           "user": "agent00zani",
           "msg": "hope your day goes well"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 25 votes, @Future42!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "future42",
+          "msg": "Enjoy"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
         }
       ],
       "customCommands": {},
@@ -9114,8 +9114,8 @@
     },
     "senseibulrog": {
       "note": "They enjoy playing games with dark and quirky themes, appreciate offbeat comedy, and have a quirky sense of humor referencing nostalgic games and TV shows.",
-      "at": 1786418224368,
-      "n": 2
+      "at": 1786495444381,
+      "n": 3
     },
     "niruntz": {
       "note": "This person appears to be a friendly and social individual who enjoys spending time with friends, watching sunsets, appreciates music, and has a humorous and enthusiastic personality, likely playing games like chess and…",
@@ -9333,9 +9333,9 @@
       "n": 7
     },
     "helios": {
-      "note": "This person is a gamer with a sense of humor, interested in games like Warhammer and possibly 3D modeling and animation, and enjoys friendly banter.",
-      "at": 1786438024389,
-      "n": 7
+      "note": "This person is a gamer with a sense of humor, interested in games like Warhammer, and enjoys friendly banter, possibly 3D modeling and animation.",
+      "at": 1786496104532,
+      "n": 8
     },
     "piweb": {
       "note": "They enjoy playing games like Fortnite and backgammon, appreciate humor related to leisure activities, and engage in lighthearted banter.",
