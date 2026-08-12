@@ -1065,8 +1065,8 @@
       "stats": {
         "totalVotes": 7664,
         "totalSubs": 91,
-        "totalChatMessages": 3284,
-        "totalStreamMinutes": 10631,
+        "totalChatMessages": 3288,
+        "totalStreamMinutes": 10636,
         "emotes": {
           "📊": 3,
           "🔥": 268,
@@ -1308,21 +1308,9 @@
           "🔜": "🔜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786541418356
+        "lastChatAt": 1786541954227
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Wish I could do IRL streams here maybe soon!"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "happy streaming @crypt0k1ng96"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "how to join here"
-        },
         {
           "user": "foxbotai",
           "msg": "Thank you @XanderC for voting with 5 votes! FoxBot AI appreciates your support! +15 FoxCoins. Balance: 15 FoxCoins. Lucky Bonus: @XanderC found a Golden Fox Chest and earned +100 FoxCoins. Balance: 115 FoxCoins."
@@ -1350,6 +1338,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Drink up chat"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@walkthegrid joined the game (late join)! 3 player(s) ready."
+        },
+        {
+          "user": "walkthegrid",
+          "msg": "too fast too hot"
+        },
+        {
+          "user": "walkthegrid",
+          "msg": "[emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:555a557b-672c-4db0-80d4-85564e0bbac4]"
         }
       ],
       "customCommands": {},
@@ -2238,7 +2238,7 @@
         "totalVotes": 4828,
         "totalSubs": 36,
         "totalChatMessages": 1478,
-        "totalStreamMinutes": 8311,
+        "totalStreamMinutes": 8316,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -8199,7 +8199,7 @@
         "totalVotes": 1544,
         "totalSubs": 10,
         "totalChatMessages": 224,
-        "totalStreamMinutes": 705,
+        "totalStreamMinutes": 710,
         "emotes": {
           "❤": 23,
           "🙌": 16,
@@ -8437,7 +8437,7 @@
         "totalVotes": 2627,
         "totalSubs": 19,
         "totalChatMessages": 170,
-        "totalStreamMinutes": 505,
+        "totalStreamMinutes": 509,
         "emotes": {
           "❤": 12,
           "🙌": 25,
@@ -8793,8 +8793,8 @@
       "stats": {
         "totalVotes": 873,
         "totalSubs": 0,
-        "totalChatMessages": 245,
-        "totalStreamMinutes": 410,
+        "totalChatMessages": 246,
+        "totalStreamMinutes": 414,
         "emotes": {
           "😅": 1,
           "🔥": 4,
@@ -8820,13 +8820,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786541701645
+        "lastChatAt": 1786542044973
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "booting up the game now"
-        },
         {
           "user": "tuff3rmrd3ano",
           "msg": "lets go"
@@ -8862,6 +8858,10 @@
         {
           "user": "avisi",
           "msg": "Ayy @fartvader! GM GM"
+        },
+        {
+          "user": "fartvader",
+          "msg": "oh no I got disconnected in stream"
         }
       ],
       "customCommands": {},
@@ -8874,12 +8874,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/ec1082d4-18b9-4e76-ad37-3f807fe24197.gif",
       "followed": true,
-      "streamTitle": "[EN/PH] Ghost Recon Wildlands | w/ @nekoschwan @missaria and Mutzume 🎮 — Tom Clancy's Ghost Recon: Wildlands",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "It's a wild ride on fartvader's channel, where you can catch [EN/PH] Ghost Recon Wildlands gameplay with friends. The community loves \"eyyyyy\", \"yooo welcome bros!!\", \"happy gaming kuys!\", \"GM GM\", and \"much love ❤️❤️\". Expect \"brooo\" and \"bros\" celebrations, and drop a \"follow for a follow\" 🍻🔥.",
       "_profileAtCount": 220,
-      "lastStreamInfo": "[EN/PH] Ghost Recon Wildlands | w/ @nekoschwan and Mutzume 🎮 — Tom Clancy's Ghost Recon: Wildlands",
-      "lastStreamEndedAt": 1786474829050,
+      "lastStreamInfo": "[EN/PH] Ghost Recon Wildlands | w/ @nekoschwan @missaria and Mutzume 🎮 — Tom Clancy's Ghost Recon: Wildlands",
+      "lastStreamEndedAt": 1786541992994,
       "nudgedAt": 1786436806709,
       "nudgedKey": "schedule"
     },
@@ -8975,6 +8975,28 @@
       "lastStreamEndedAt": 1786535789220,
       "gameOverride": "",
       "followed": true
+    },
+    "b10d6195-7cf2-4d3f-ada2-4ce767a69d5b": {
+      "username": "korosuplays",
+      "language": "en",
+      "joinedAt": 1786542046720,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "timedMessages": [],
+      "tipTiers": [],
+      "greeted": true
     }
   },
   "blocklist": [
