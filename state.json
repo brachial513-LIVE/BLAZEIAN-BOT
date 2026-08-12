@@ -6050,8 +6050,8 @@
       "stats": {
         "totalVotes": 6878,
         "totalSubs": 42,
-        "totalChatMessages": 858,
-        "totalStreamMinutes": 5234,
+        "totalChatMessages": 859,
+        "totalStreamMinutes": 5239,
         "emotes": {
           "❤": 33,
           "🙌": 63,
@@ -6117,13 +6117,9 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786523829807
+        "lastChatAt": 1786524082967
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
@@ -6159,6 +6155,10 @@
         {
           "user": "fartvader",
           "msg": "yoww thanks for the votes [emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "idlip muna ako bro.. prep for shift later..happy streaming! [emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f]"
         }
       ],
       "customCommands": {},
@@ -6407,8 +6407,8 @@
       "stats": {
         "totalVotes": 2239,
         "totalSubs": 5,
-        "totalChatMessages": 59,
-        "totalStreamMinutes": 1530,
+        "totalChatMessages": 61,
+        "totalStreamMinutes": 1535,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -6422,17 +6422,9 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786523715162
+        "lastChatAt": 1786524316178
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -6464,6 +6456,14 @@
         {
           "user": "xanderc",
           "msg": "Just dropping in for Lurk and to support !! Have an amazing stream"
+        },
+        {
+          "user": "pr0ff",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "happy streaming @pr0ff ..just dropped by to say Hi!"
         }
       ],
       "customCommands": {},
@@ -6481,7 +6481,9 @@
       "profile": "Welcome to pr0ff's Ragnarok Online stream, where the 🔥 vibes are always lit! This community lives for 'DOTES' and loves when you 'gift a Sub' to celebrate milestones. Don't forget to throw in some 🔥 emojis and shout out 'thanks' when you get a love fest! pr0ff's all about the Ragnarok grind and appreciates your support.",
       "_profileAtCount": 40,
       "lastStreamInfo": "DOTES — Ragnarok Online",
-      "lastStreamEndedAt": 1785902614558
+      "lastStreamEndedAt": 1785902614558,
+      "nudgedAt": 1786524138354,
+      "nudgedKey": "schedule"
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
       "username": "sheena",
@@ -9592,8 +9594,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786492051163,
   "auth": {
-    "accessToken": "9e374d98951c910d52659cb52c56c821",
-    "refreshToken": "323365384ec74bf083302e18540cfef7",
+    "accessToken": "93e4759f41127b46fbf9ff3c567d53fe",
+    "refreshToken": "81bb9af3a47a711367965e5e7e65a94b",
     "sessionToken": "6536df381822e350c89b27604edd66be",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
