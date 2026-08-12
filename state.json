@@ -3396,11 +3396,11 @@
       "stats": {
         "totalVotes": 6889,
         "totalSubs": 11,
-        "totalChatMessages": 3047,
-        "totalStreamMinutes": 6091,
+        "totalChatMessages": 3050,
+        "totalStreamMinutes": 6111,
         "emotes": {
-          "❤": 32,
-          "🙌": 86,
+          "❤": 34,
+          "🙌": 87,
           "🗳": 357,
           "🔴": 39,
           "🎉": 65,
@@ -3524,22 +3524,10 @@
           "🌫": "🌫",
           "💛": "💛"
         },
-        "lastChatAt": 1786505157759,
+        "lastChatAt": 1786505683563,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "lol"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "omggg"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "😏😏😏😏😏😏😏😏😏😏😏😏😏😏😏"
-        },
         {
           "user": "triz_draw",
           "msg": "ahahha"
@@ -3567,6 +3555,18 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ sadoq just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @sadoq!"
+        },
+        {
+          "user": "sadoq",
+          "msg": "go go ! .)"
         }
       ],
       "customCommands": {},
@@ -7686,7 +7686,7 @@
       "stats": {
         "totalVotes": 661,
         "totalSubs": 9,
-        "totalChatMessages": 226,
+        "totalChatMessages": 227,
         "totalStreamMinutes": 1656,
         "emotes": {
           "❤": 12,
@@ -7694,8 +7694,8 @@
           "🔴": 14,
           "🎉": 14,
           "🔥": 11,
-          "📴": 13,
-          "👋": 13,
+          "📴": 14,
+          "👋": 14,
           "🐺": 1,
           "⚡": 2,
           "😂": 2,
@@ -7717,13 +7717,9 @@
           "🗳": "🗳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786504892486
+        "lastChatAt": 1786505718724
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "ggs for winning 50 Votes on the weekly Giveaway Wheel with your Free entry because of using BlazeianBotAI ! Thank you !"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -7759,6 +7755,10 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
