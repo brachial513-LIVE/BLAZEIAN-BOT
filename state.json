@@ -1066,7 +1066,7 @@
         "totalVotes": 7659,
         "totalSubs": 91,
         "totalChatMessages": 3274,
-        "totalStreamMinutes": 10606,
+        "totalStreamMinutes": 10611,
         "emotes": {
           "📊": 3,
           "🔥": 267,
@@ -2237,8 +2237,8 @@
       "stats": {
         "totalVotes": 4823,
         "totalSubs": 36,
-        "totalChatMessages": 1475,
-        "totalStreamMinutes": 8286,
+        "totalChatMessages": 1476,
+        "totalStreamMinutes": 8291,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -2452,13 +2452,9 @@
           "🫶": "🫶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786539664463
+        "lastChatAt": 1786540279490
       },
       "chatMemory": [
-        {
-          "user": "cactus_jack440",
-          "msg": "doing good...you?"
-        },
         {
           "user": "fartvader",
           "msg": "rainy evening here in PH..it's been like two wks of non-stop rain..but doing fine, not flooded yet here my friend. Thanks God, but am praying for others safety as some areas already flooded"
@@ -2494,6 +2490,10 @@
         {
           "user": "steadyember",
           "msg": "nice!"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:37719561-c923-4260-b1a5-e3eda10c103d]"
         }
       ],
       "customCommands": {},
@@ -8199,7 +8199,7 @@
         "totalVotes": 1534,
         "totalSubs": 10,
         "totalChatMessages": 221,
-        "totalStreamMinutes": 680,
+        "totalStreamMinutes": 685,
         "emotes": {
           "❤": 23,
           "🙌": 16,
@@ -8437,7 +8437,7 @@
         "totalVotes": 2623,
         "totalSubs": 19,
         "totalChatMessages": 165,
-        "totalStreamMinutes": 480,
+        "totalStreamMinutes": 485,
         "emotes": {
           "❤": 10,
           "🙌": 24,
@@ -8794,7 +8794,7 @@
         "totalVotes": 869,
         "totalSubs": 0,
         "totalChatMessages": 239,
-        "totalStreamMinutes": 385,
+        "totalStreamMinutes": 390,
         "emotes": {
           "😅": 1,
           "🔥": 4,
@@ -9152,8 +9152,8 @@
     },
     "fartvader": {
       "note": "They have a lighthearted sense of humor, enjoy chatting with others, and play games like Ghost Recon Wildlands and Palworld.",
-      "at": 1786465084416,
-      "n": 10
+      "at": 1786540324450,
+      "n": 11
     },
     "fluffy": {
       "note": "They have a lighthearted and playful sense of humor, enjoy interacting with others, appreciate talent, are interested in gaming, music, and enthusiastic expressions.",
@@ -9600,8 +9600,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786528287483,
   "auth": {
-    "accessToken": "4c39bf5ddd81664c888b9b2d67efb9ac",
-    "refreshToken": "10dcf3a801f57be0e22d7b40f7dd1e9d",
+    "accessToken": "02ce1cf311ed0c37702d371c24c0fd92",
+    "refreshToken": "4933838eb0e521fe25f60a6e5c0be663",
     "sessionToken": "6536df381822e350c89b27604edd66be",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
