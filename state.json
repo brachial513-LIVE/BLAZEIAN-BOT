@@ -2253,7 +2253,7 @@
         "totalVotes": 4914,
         "totalSubs": 36,
         "totalChatMessages": 1501,
-        "totalStreamMinutes": 8473,
+        "totalStreamMinutes": 8480,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -3635,14 +3635,14 @@
       "stats": {
         "totalVotes": 4450,
         "totalSubs": 63,
-        "totalChatMessages": 401,
-        "totalStreamMinutes": 8461,
+        "totalChatMessages": 402,
+        "totalStreamMinutes": 8462,
         "emotes": {
           "❤": 87,
           "🙌": 29,
           "🔥": 35,
-          "🔴": 56,
-          "🎉": 56,
+          "🔴": 57,
+          "🎉": 57,
           "📴": 58,
           "👋": 59,
           "😂": 4,
@@ -3691,14 +3691,10 @@
           "💀": "💀",
           "🤝": "🤝"
         },
-        "lastChatAt": 1786497341963,
+        "lastChatAt": 1786575552747,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "@jaggerjack and I just finished our stream..how you doing bro?"
-        },
         {
           "user": "fartvader",
           "msg": "have a good stream bro! cya"
@@ -3734,6 +3730,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -3745,7 +3745,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -3837,8 +3837,8 @@
       "stats": {
         "totalVotes": 6470,
         "totalSubs": 29,
-        "totalChatMessages": 899,
-        "totalStreamMinutes": 3401,
+        "totalChatMessages": 903,
+        "totalStreamMinutes": 3406,
         "emotes": {
           "❤": 39,
           "🙌": 47,
@@ -3854,8 +3854,8 @@
           "🔴": 24,
           "🎉": 46,
           "🚨": 42,
-          "📴": 23,
-          "👋": 35,
+          "📴": 24,
+          "👋": 36,
           "🏅": 6,
           "💪": 23,
           "😁": 4,
@@ -3946,25 +3946,9 @@
           "😜": "😜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786572758381
+        "lastChatAt": 1786575535177
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "How are you doing ❤️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "vitrene",
-          "msg": "I'm doing awesome. how about you?"
-        },
-        {
-          "user": "vitrene",
-          "msg": "thank you very much for the votes!"
-        },
         {
           "user": "agent00zani",
           "msg": "You a real legend"
@@ -3988,6 +3972,22 @@
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "vitrene",
+          "msg": "alright, I am going to close the stream now"
+        },
+        {
+          "user": "vitrene",
+          "msg": "thank you for watching!"
+        },
+        {
+          "user": "vitrene",
+          "msg": "And see you next time!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -4000,7 +4000,7 @@
       "botVip": true,
       "profile": "Vitrene's community is a lively bunch of gamers who love to \"Goat!\" each other's achievements, frequently using \"🔴 VOTE ALERT!! 🗳️\" to celebrate milestones and appreciate votes. Expect \"VIT 🔥🔥\", \"$VIT Always Wins!\", \"ggs\", and \"💃💃💃\" to dance with. They're passionate about Halo and Star Wars, often referencing the Covenant, the Flood, and Spartans. They bid farewell with \"have a great stream as well!\" and \"have an awesome night/day!",
       "_profileAtCount": 839,
-      "streamTitle": "Star Wars Outlaws: When Do I Get Paid? — Star Wars Outlaw",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -4014,8 +4014,8 @@
       "commentMode": "heavy",
       "nudgedAt": 1785010424974,
       "nudgedKey": "customcmd",
-      "lastStreamInfo": "Star Wars Outlaws: Just Scoundrel Things — Star Wars Outlaw",
-      "lastStreamEndedAt": 1786226934836
+      "lastStreamInfo": "Star Wars Outlaws: When Do I Get Paid? — Star Wars Outlaw",
+      "lastStreamEndedAt": 1786575529923
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
       "username": "grook",
@@ -5338,11 +5338,11 @@
       "stats": {
         "totalVotes": 4847,
         "totalSubs": 75,
-        "totalChatMessages": 414,
-        "totalStreamMinutes": 2589,
+        "totalChatMessages": 416,
+        "totalStreamMinutes": 2596,
         "emotes": {
-          "❤": 19,
-          "🙌": 82,
+          "❤": 21,
+          "🙌": 83,
           "🔴": 24,
           "🎉": 29,
           "😂": 2,
@@ -5375,17 +5375,9 @@
           "🤣": "🤣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786574985055
+        "lastChatAt": 1786575345229
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Come chill in Chainers, a super simple and fun farming game anyone can enjoy — even the kids. Build, farm, earn crypto, and vibe with a laid‑back community. It’s free, it’s easy, and it’s actually addicting in the best way. Jump in and start growing with us: https://chainers.io/?r=mixncg74"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros congratulations! You successfully dug up Twitchy Bugs Series 1 from Twitchy Tides. View here: https://scurvybot.com/wax/tx/8b2c866e66dcefc2155ba46eaf63a95fe73c5a0dd530a7e63bc0bc51b9f1728f"
-        },
         {
           "user": "onyxouroboros",
           "msg": "Found a bug pack!"
@@ -5417,6 +5409,14 @@
         {
           "user": "onyxouroboros",
           "msg": "gotta wait six more minutes to dig again"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@itssscat is raiding with a party of 3! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ itssscat just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -7283,8 +7283,8 @@
       "stats": {
         "totalVotes": 6136,
         "totalSubs": 0,
-        "totalChatMessages": 9588,
-        "totalStreamMinutes": 3976,
+        "totalChatMessages": 9591,
+        "totalStreamMinutes": 3983,
         "emotes": {
           "❤": 19,
           "🙌": 16,
@@ -7492,21 +7492,9 @@
           "🪡": "🪡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786575240325
+        "lastChatAt": 1786575342834
       },
       "chatMemory": [
-        {
-          "user": "dany_kaizo",
-          "msg": "É kkkkk"
-        },
-        {
-          "user": "botger",
-          "msg": "Doações Live pix: https://livepix.gg/maniadk"
-        },
-        {
-          "user": "dany_kaizo",
-          "msg": "Nao"
-        },
         {
           "user": "dany_kaizo",
           "msg": "Só a agulha dela"
@@ -7534,6 +7522,18 @@
         {
           "user": "dany_kaizo",
           "msg": "Eita kkkkk"
+        },
+        {
+          "user": "dany_kaizo",
+          "msg": "Quase nem uso o marcador"
+        },
+        {
+          "user": "dany_kaizo",
+          "msg": "Mas vale a pena pra conquista"
+        },
+        {
+          "user": "dany_kaizo",
+          "msg": "Kai lai lai lai"
         }
       ],
       "customCommands": {},
@@ -7562,7 +7562,7 @@
         "totalVotes": 2397,
         "totalSubs": 8,
         "totalChatMessages": 564,
-        "totalStreamMinutes": 3368,
+        "totalStreamMinutes": 3375,
         "emotes": {
           "❤": 41,
           "🙌": 20,
@@ -9159,8 +9159,8 @@
     },
     "paulo_santos20": {
       "note": "Paulo_santos20 is likely into video games, particularly Nintendo games, and uses humor in friendly chat interactions.",
-      "at": 1786523164415,
-      "n": 12
+      "at": 1786575304476,
+      "n": 13
     },
     "agent00zani": {
       "note": "They are enthusiastic, friendly, and have a humorous tone, likely enjoying anime and participating in gaming events, particularly playing games like \"Once Human\" and \"Zootopia 2\".",
@@ -9737,8 +9737,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786561556485,
   "auth": {
-    "accessToken": "b9177cf9c3cbc7c6b65358094951bd8c",
-    "refreshToken": "726b4661a776a3b0fd64b257eddcb633",
+    "accessToken": "6b816d95f3dc2dce6f2c235dee898df8",
+    "refreshToken": "696993070d52a0589989ae329d738356",
     "sessionToken": "15f566becd8e6c57ae726124fa43f7db",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
