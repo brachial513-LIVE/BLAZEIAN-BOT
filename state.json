@@ -1383,7 +1383,7 @@
         "totalVotes": 4482,
         "totalSubs": 12,
         "totalChatMessages": 3713,
-        "totalStreamMinutes": 3972,
+        "totalStreamMinutes": 3977,
         "emotes": {
           "🗳": 338,
           "🤣": 53,
@@ -3396,14 +3396,14 @@
       "stats": {
         "totalVotes": 6334,
         "totalSubs": 11,
-        "totalChatMessages": 2910,
-        "totalStreamMinutes": 5996,
+        "totalChatMessages": 2915,
+        "totalStreamMinutes": 6001,
         "emotes": {
           "❤": 32,
           "🙌": 85,
           "🗳": 348,
           "🔴": 39,
-          "🎉": 64,
+          "🎉": 65,
           "📴": 37,
           "👋": 40,
           "🔥": 116,
@@ -3411,7 +3411,7 @@
           "🤖": 1,
           "💚": 6,
           "🤣": 17,
-          "🚨": 150,
+          "🚨": 156,
           "😎": 3,
           "😅": 6,
           "😆": 53,
@@ -3524,30 +3524,10 @@
           "🌫": "🌫",
           "💛": "💛"
         },
-        "lastChatAt": 1786499107229,
+        "lastChatAt": 1786500051178,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "What up buddy"
-        },
-        {
-          "user": "future42",
-          "msg": "Just got home...."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "fartnite"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "going good. About to try out this game thomas told me about"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "I dunno the game is full of bugs"
-        },
         {
           "user": "jt_squared2",
           "msg": "red flag meaning you think its a scam?"
@@ -3567,6 +3547,26 @@
         {
           "user": "jt_squared2",
           "msg": "oh yeah. you could put it on grotto"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@wisewoof is raiding with a party of 2! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @wisewoof is raiding with a party of 2! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "wisewoof",
+          "msg": "hi bro wisewoof raid"
+        },
+        {
+          "user": "wisewoof",
+          "msg": "fall guys again"
+        },
+        {
+          "user": "wisewoof",
+          "msg": "im good"
         }
       ],
       "customCommands": {},
@@ -5073,7 +5073,7 @@
         "totalVotes": 1689,
         "totalSubs": 12,
         "totalChatMessages": 722,
-        "totalStreamMinutes": 6599,
+        "totalStreamMinutes": 6604,
         "emotes": {
           "🔥": 231,
           "🔴": 72,
@@ -6051,7 +6051,7 @@
         "totalVotes": 6738,
         "totalSubs": 40,
         "totalChatMessages": 835,
-        "totalStreamMinutes": 5072,
+        "totalStreamMinutes": 5077,
         "emotes": {
           "❤": 31,
           "🙌": 60,
@@ -9592,8 +9592,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786492051163,
   "auth": {
-    "accessToken": "216352dc2f726caedcb174a774c183eb",
-    "refreshToken": "2b490ec5324e1ca3fe450915abd2e57b",
+    "accessToken": "f79af6f481aa195266196a438287f809",
+    "refreshToken": "048fcd17f246210c5a557ff7465c8729",
     "sessionToken": "6536df381822e350c89b27604edd66be",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
