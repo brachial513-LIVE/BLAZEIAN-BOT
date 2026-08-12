@@ -1070,11 +1070,11 @@
       "stats": {
         "totalVotes": 7702,
         "totalSubs": 94,
-        "totalChatMessages": 3688,
-        "totalStreamMinutes": 10946,
+        "totalChatMessages": 3729,
+        "totalStreamMinutes": 10961,
         "emotes": {
           "📊": 3,
-          "🔥": 271,
+          "🔥": 272,
           "🤣": 41,
           "💚": 46,
           "❤": 14,
@@ -1084,7 +1084,7 @@
           "👋": 8,
           "🚀": 7,
           "🦊": 119,
-          "😂": 30,
+          "😂": 32,
           "👑": 31,
           "⭐": 37,
           "🏆": 67,
@@ -1116,7 +1116,7 @@
           "🛡": 30,
           "🚩": 3,
           "⚔": 26,
-          "🎮": 8,
+          "🎮": 9,
           "🎯": 3,
           "🔫": 3,
           "🪂": 3,
@@ -1182,7 +1182,7 @@
           "💩": 1,
           "🕺": 2,
           "🧟": 8,
-          "⏰": 125,
+          "⏰": 130,
           "⚠": 16,
           "💀": 8,
           "🎰": 4,
@@ -1193,7 +1193,9 @@
           "🔜": 1,
           "🙏": 1,
           "🍻": 3,
-          "🫶": 1
+          "🫶": 1,
+          "🤞": 1,
+          "🛑": 1
         },
         "emoteNames": {
           "📊": "📊",
@@ -1316,12 +1318,18 @@
           "🔜": "🔜",
           "🙏": "🙏",
           "🍻": "🍻",
-          "🫶": "🫶"
+          "🫶": "🫶",
+          "🤞": "🤞",
+          "🛑": "🛑"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786560599238
+        "lastChatAt": 1786561529118
       },
       "chatMemory": [
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
         {
           "user": "blazegames_bot",
           "msg": "⏰ Game starting in 2 seconds!"
@@ -1331,36 +1339,32 @@
           "msg": "⏰ Game starting in 1 second!"
         },
         {
+          "user": "crypt0k1ng96",
+          "msg": "No"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "lol"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Oops"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "endgame"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "the command works now"
+        },
+        {
           "user": "blazegames_bot",
-          "msg": "⚠️ Not enough players to start! Need at least 2."
+          "msg": "🎮 Game ended! Thanks for playing!"
         },
         {
-          "user": "foxbotai",
-          "msg": "FoxBot Arcade commands: !foxhunt, !coinflip, !roll, !roll 20, !8ball your question, !rps rock/paper/scissors"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Thank you @old_mankey"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "160 VOTE WEEKLY GIVEAWAY:\nhttps://x.com/Pardon_my_trade/status/2085283128105472207?s=20"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🚨 160 VOTE GIVEAWAY IS LIVE! 🚨\n\nI’m giving back to the community—and helping build the future of Blaze at the same time.\n\nHere’s how to earn entries:\n\n🗳️ Vote\n• 1–10 Votes = 1 Entry\n• 10–50 Votes = 2 Entries\n• 50+ Votes = 3 Entries\n\n⭐ Subscribe\n• 1 Sub = 1 Entry\n• 1 Gifted Sub = 2 Entries\n\n🦊 Test FoxBot AI\n• Test FoxBot AI = 2 Entries\n• Report a bug or suggestion = +1 Entry\n• Share your feedback = +1 Entry\n\nEvery vote helps support the stream!!"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "Thank you @b1injaninja for voting with 10 votes! FoxBot AI appreciates your support! +30 FoxCoins. Balance: 30 FoxCoins."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Tip"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "https://x.com/Pardon_my_trade/status/2087600938466836869?s=20"
+          "user": "blazegames_bot",
+          "msg": "🛑 Game ended by the streamer. No winners this round."
         }
       ],
       "customCommands": {},
@@ -1662,8 +1666,8 @@
       "stats": {
         "totalVotes": 7607,
         "totalSubs": 40,
-        "totalChatMessages": 3248,
-        "totalStreamMinutes": 11011,
+        "totalChatMessages": 3250,
+        "totalStreamMinutes": 11026,
         "emotes": {
           "❤": 134,
           "🙌": 96,
@@ -1842,18 +1846,10 @@
           "😲": "😲",
           "🤠": "🤠"
         },
-        "lastChatAt": 1786560480808,
+        "lastChatAt": 1786560863242,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "how are u ?"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "@jagsman hi hi"
-        },
         {
           "user": "marioscy5",
           "msg": "hello zani!!!"
@@ -1885,6 +1881,14 @@
         {
           "user": "agent00zani",
           "msg": "i just ate lunch"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Nice"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "missing you today @briggsy"
         }
       ],
       "customCommands": {},
@@ -7556,7 +7560,7 @@
         "totalVotes": 2361,
         "totalSubs": 8,
         "totalChatMessages": 556,
-        "totalStreamMinutes": 3125,
+        "totalStreamMinutes": 3140,
         "emotes": {
           "❤": 41,
           "🙌": 20,
@@ -8578,7 +8582,7 @@
         "totalVotes": 831,
         "totalSubs": 1,
         "totalChatMessages": 121,
-        "totalStreamMinutes": 1112,
+        "totalStreamMinutes": 1127,
         "emotes": {
           "❤": 12,
           "🙌": 6,
@@ -9721,8 +9725,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786528287483,
   "auth": {
-    "accessToken": "f6a9422861fd0b0ed5afe0d215957aca",
-    "refreshToken": "87c7409494c82deb556d12ef90b7d4f0",
+    "accessToken": "e0fc634c7692ce535a96ef783d96ade1",
+    "refreshToken": "a037617bffcbb6414ea82c64bcbe9aff",
     "sessionToken": "15f566becd8e6c57ae726124fa43f7db",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
