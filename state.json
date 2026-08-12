@@ -1066,7 +1066,7 @@
         "totalVotes": 7656,
         "totalSubs": 90,
         "totalChatMessages": 3230,
-        "totalStreamMinutes": 10471,
+        "totalStreamMinutes": 10476,
         "emotes": {
           "📊": 3,
           "🔥": 266,
@@ -1652,7 +1652,7 @@
         "totalVotes": 7603,
         "totalSubs": 40,
         "totalChatMessages": 3227,
-        "totalStreamMinutes": 10800,
+        "totalStreamMinutes": 10805,
         "emotes": {
           "❤": 131,
           "🙌": 95,
@@ -6051,7 +6051,7 @@
         "totalVotes": 6878,
         "totalSubs": 43,
         "totalChatMessages": 875,
-        "totalStreamMinutes": 5369,
+        "totalStreamMinutes": 5374,
         "emotes": {
           "❤": 33,
           "🙌": 64,
@@ -8887,13 +8887,13 @@
       "joinedAt": 1786292034700,
       "stats": {
         "totalVotes": 466,
-        "totalSubs": 18,
-        "totalChatMessages": 95,
-        "totalStreamMinutes": 335,
+        "totalSubs": 19,
+        "totalChatMessages": 99,
+        "totalStreamMinutes": 340,
         "emotes": {
           "❤": 14,
-          "🙌": 25,
-          "🎁": 36,
+          "🙌": 26,
+          "🎁": 38,
           "🔴": 3,
           "🎉": 3,
           "🗳": 27,
@@ -8911,25 +8911,9 @@
           "👋": "👋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786531900974
+        "lastChatAt": 1786532331634
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @angge_wf!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @wapi!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -8953,6 +8937,22 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @charddxyz just gifted a sub to @corneto! How generous!! 🙌"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty for votes bro"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@charddxyz gifted a Sub to @agent00zani! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @charddxyz just gifted a sub to @agent00zani! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -9596,8 +9596,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786528287483,
   "auth": {
-    "accessToken": "5bb27c9c31cc4c38c37a4661d1fc8c75",
-    "refreshToken": "975b266308083259b86d5d2906c3b7c6",
+    "accessToken": "bcda4f700c15bb5eb6bb74c6d7b7d38e",
+    "refreshToken": "730150fd011f8f16160efc0d3c1fec05",
     "sessionToken": "6536df381822e350c89b27604edd66be",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
