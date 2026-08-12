@@ -4370,14 +4370,14 @@
       "username": "cymatrix",
       "language": "en",
       "stats": {
-        "totalVotes": 1762,
+        "totalVotes": 1772,
         "totalSubs": 10,
-        "totalChatMessages": 902,
+        "totalChatMessages": 904,
         "totalStreamMinutes": 936,
         "emotes": {
           "❤": 356,
           "🙌": 16,
-          "🗳": 117,
+          "🗳": 120,
           "🔴": 10,
           "🎉": 11,
           "💛": 18,
@@ -4460,18 +4460,10 @@
           "⚠": "⚠",
           "🎯": "🎯"
         },
-        "lastChatAt": 1786388971732,
+        "lastChatAt": 1786509936241,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @fluffy at https://blaze.stream/fluffy!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -4503,6 +4495,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @MakesOnlyBeats just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @algento!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @algento just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
