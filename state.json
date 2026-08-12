@@ -3397,7 +3397,7 @@
         "totalVotes": 6889,
         "totalSubs": 11,
         "totalChatMessages": 3047,
-        "totalStreamMinutes": 6086,
+        "totalStreamMinutes": 6091,
         "emotes": {
           "❤": 32,
           "🙌": 86,
@@ -6049,19 +6049,19 @@
       "language": "en",
       "stats": {
         "totalVotes": 6843,
-        "totalSubs": 41,
-        "totalChatMessages": 845,
-        "totalStreamMinutes": 5162,
+        "totalSubs": 42,
+        "totalChatMessages": 849,
+        "totalStreamMinutes": 5166,
         "emotes": {
           "❤": 33,
-          "🙌": 62,
+          "🙌": 63,
           "💚": 3,
           "🔥": 27,
           "🗳": 288,
           "🔴": 47,
           "🎉": 58,
-          "📴": 45,
-          "👋": 47,
+          "📴": 46,
+          "👋": 48,
           "🚨": 66,
           "🥂": 1,
           "🫶": 3,
@@ -6074,7 +6074,7 @@
           "✌": 2,
           "☺": 1,
           "👍": 1,
-          "🎁": 78,
+          "🎁": 80,
           "😶": 6,
           "🌫": 6,
           "😍": 6,
@@ -6117,25 +6117,9 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786504983647
+        "lastChatAt": 1786505385902
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Hey @faithy_"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Hope all is good."
-        },
-        {
-          "user": "briggsy",
-          "msg": "Ohh, that steed is so good."
-        },
-        {
-          "user": "briggsy",
-          "msg": "Gotta run, buddy. I’ll check in later."
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @vRoshi55 just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -6159,6 +6143,22 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "faithy_",
+          "msg": "thanks for the votes!"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @peperonitostv! How generous!! 🙌"
+        },
+        {
+          "user": "faithy_",
+          "msg": "i'll making my lunch early need to do something will continue our AC Odyssey in hour!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6171,7 +6171,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "Checking my Pals! — Palworld",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! We love 'GIFTED SUBS', 'VOTE ALERTS', 'ROI YAN', 'patay', 'spanked', 'TAAS NA LEVEL MO AH', 'PURE LOVE', generous subs, and 'GGS' vibes. We celebrate with 'GIFTED SUB', enjoy 'TAAS NA LEVEL MO AH', and 'it's time to grind' moments.",
       "_profileAtCount": 831,
@@ -6190,8 +6190,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "Ancient Greece at AC! — Assassin's Creed Odyssey",
-      "lastStreamEndedAt": 1786454866224
+      "lastStreamInfo": "Checking my Pals! — Palworld",
+      "lastStreamEndedAt": 1786505380693
     },
     "4e8116b6-6705-4e00-a83c-c7e455b3a446": {
       "username": "dimifw",
@@ -8430,14 +8430,14 @@
       "language": "en",
       "joinedAt": 1785689052676,
       "stats": {
-        "totalVotes": 2570,
+        "totalVotes": 2580,
         "totalSubs": 19,
-        "totalChatMessages": 157,
+        "totalChatMessages": 158,
         "totalStreamMinutes": 451,
         "emotes": {
           "❤": 10,
           "🙌": 24,
-          "🗳": 45,
+          "🗳": 48,
           "♥": 1,
           "🔴": 8,
           "🎉": 11,
@@ -8471,13 +8471,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786474521151
+        "lastChatAt": 1786505314979
       },
       "chatMemory": [
-        {
-          "user": "anikisnow",
-          "msg": ":*"
-        },
         {
           "user": "anikisnow",
           "msg": "\\o/"
@@ -8513,6 +8509,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9592,8 +9592,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786492051163,
   "auth": {
-    "accessToken": "bcee8c78328cffa893d9e6df6277e691",
-    "refreshToken": "2f72643a9cf8f5110485545c8ec2109e",
+    "accessToken": "434b635e32c1df73c9e49b3adb55a448",
+    "refreshToken": "efe96dfa49a806104ff3e8e6b393f02f",
     "sessionToken": "6536df381822e350c89b27604edd66be",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
