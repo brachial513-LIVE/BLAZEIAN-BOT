@@ -1070,8 +1070,8 @@
       "stats": {
         "totalVotes": 7702,
         "totalSubs": 94,
-        "totalChatMessages": 3963,
-        "totalStreamMinutes": 11011,
+        "totalChatMessages": 3968,
+        "totalStreamMinutes": 11016,
         "emotes": {
           "📊": 3,
           "🔥": 276,
@@ -1323,29 +1323,9 @@
           "🛑": "🛑"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786564325089
+        "lastChatAt": 1786564856983
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "✅ @crypt0k1ng96 got it right!"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "DAO"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Liquidity"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Need to make the answers easier 😅"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🎮 Game ended! Thanks for playing!"
-        },
         {
           "user": "blazegames_bot",
           "msg": "🛑 Game ended by the streamer. No winners this round."
@@ -1365,6 +1345,26 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Want to actually teach people instead of confuse them 🤣"
+        },
+        {
+          "user": "capt_rob_advent",
+          "msg": "When do you usually run the games?"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "I'll do the multiple choice thing later tonight. That will make it easier I think"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "I am still working on setting it all up"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "omg that graphic looks so good"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "But will be running them during my streams"
         }
       ],
       "customCommands": {},
@@ -7281,8 +7281,8 @@
       "stats": {
         "totalVotes": 6134,
         "totalSubs": 0,
-        "totalChatMessages": 9467,
-        "totalStreamMinutes": 3798,
+        "totalChatMessages": 9469,
+        "totalStreamMinutes": 3803,
         "emotes": {
           "❤": 19,
           "🙌": 16,
@@ -7290,7 +7290,7 @@
           "🔥": 15,
           "🔴": 27,
           "🎉": 64,
-          "🪙": 350,
+          "🪙": 351,
           "⚡": 82,
           "👀": 8,
           "🍿": 2,
@@ -7490,13 +7490,9 @@
           "🪡": "🪡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786564261614
+        "lastChatAt": 1786564659779
       },
       "chatMemory": [
-        {
-          "user": "solucao",
-          "msg": "Boa noite edao rei do Dk tudo bem"
-        },
         {
           "user": "botger",
           "msg": "⚡ solucao — Level 10 | 29,636 XP (2,514 to Level 11)"
@@ -7532,6 +7528,10 @@
         {
           "user": "botger",
           "msg": "🔴 sofrenciaplay is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @solucao 10,550 points."
         }
       ],
       "customCommands": {},
@@ -7560,7 +7560,7 @@
         "totalVotes": 2361,
         "totalSubs": 8,
         "totalChatMessages": 556,
-        "totalStreamMinutes": 3190,
+        "totalStreamMinutes": 3195,
         "emotes": {
           "❤": 41,
           "🙌": 20,
@@ -8582,7 +8582,7 @@
         "totalVotes": 831,
         "totalSubs": 1,
         "totalChatMessages": 122,
-        "totalStreamMinutes": 1177,
+        "totalStreamMinutes": 1182,
         "emotes": {
           "❤": 12,
           "🙌": 6,
@@ -9726,8 +9726,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786561556485,
   "auth": {
-    "accessToken": "85bd0170b418ff66f403edea28b0601a",
-    "refreshToken": "8adad7feada154fe32e0a51ae21f9390",
+    "accessToken": "a93858f72c5daeb2f2af2b502fea3a12",
+    "refreshToken": "be084134bb96e76863a97bfa597f9725",
     "sessionToken": "15f566becd8e6c57ae726124fa43f7db",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
