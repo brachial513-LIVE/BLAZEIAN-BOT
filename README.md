@@ -6,7 +6,7 @@ A live AI chat agent for [Blaze.stream](https://blaze.stream) — built for the 
 
 ## What it does
 
-BlazeianBot isn't a canned-response bot — it actually reads what people say and replies in character, using a real LLM (Groq/Llama) grounded in the official Blaze API.
+BlazeianBot isn't a canned-response bot — it actually reads what people say and replies in character, using a real LLM (via Groq) grounded in the official Blaze API.
 
 - **Real conversation** — tag `@blazeian_bot_ai` and it understands and replies contextually, in the language it was addressed in
 - **Live web search** — for real, current-world questions (news, scores, results) it looks them up live and answers honestly, citing what it found
@@ -32,6 +32,7 @@ BlazeianBot isn't a canned-response bot — it actually reads what people say an
 - **Setup nudges** — once per channel, on a quiet moment, it offers the owner a feature they haven't set up yet instead of waiting to be read about
 - **Giveaway awareness** — it knows the real details of the weekly crew giveaway (entries, prizes, past winners) and drops a fitting one into conversation, never invented
 - **Knows when to stay quiet** — tell it to leave you alone and it actually does, it won't welcome people who were already in chat, and it won't name someone the conversation never mentioned
+- **Ignore list** — the operator can have the bot completely ignore a specific person everywhere (no greeting, no smalltalk, no reply), with one exception: a direct insult at the bot unlocks a single sharp, witty clap-back
 
 Every streamer manages only their own channel from their own dashboard — the bot never mixes context between channels.
 
@@ -39,7 +40,7 @@ Every streamer manages only their own channel from their own dashboard — the b
 
 - **Node.js + Express**, talking to the [official Blaze API](https://dev.blaze.stream/) over both REST and a real-time Socket.IO event stream
 - **Two independent Socket.IO sessions** — one for app-token events (chat, raids, stream status), one for user-token-only events (follows, votes, subs, gifts, tips) — so a problem on one can never take down the other
-- **Groq (Llama 3.3 / 3.1)** for the conversational brain and event shoutouts
+- **Groq** — Llama 3.3 70B for real chat replies, GPT-OSS-20B for background work & event shoutouts
 - **Tavily Search API** for live, current-world facts
 - State (channels, stats, settings) is persisted to this same repo's `state.json` via the GitHub API — no separate database
 
