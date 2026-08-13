@@ -21,9 +21,11 @@ const crypto         = require("crypto");
 // AI brain (optional) — set GROQ_API_KEY in Render to switch the bot from canned replies to a real, contextual brain
 const AI_KEY         = process.env.GROQ_API_KEY || process.env.AI_API_KEY || "";
 const AI_MODEL       = process.env.AI_MODEL || "llama-3.3-70b-versatile";
-// Cheaper, MUCH higher daily-token-limit model for background work (profile learning,
-// event shoutouts). Keeps the smart 70b's limited daily budget free for real chat replies.
-const AI_MODEL_LIGHT = process.env.AI_MODEL_LIGHT || "llama-3.1-8b-instant";
+// Cheaper, high-throughput model for background work (profile learning, event shoutouts)
+// and light/quick chat tasks. Keeps the smart 70b's limited daily budget free for real replies.
+// NOTE: was llama-3.1-8b-instant until Groq decommissioned that model on 2026-08-16; migrated to
+// Groq's recommended replacement gpt-oss-20b (even faster on Groq, ~1000 tps). Override via env.
+const AI_MODEL_LIGHT = process.env.AI_MODEL_LIGHT || "openai/gpt-oss-20b";
 // Live web search (optional) — set TAVILY_API_KEY in Render (tavily.com: 1,000 free API credits/month,
 // no credit card required, built for AI-agent use cases) to let the bot answer real "what would I
 // Google" questions (scores, news, prices, etc.) instead of just admitting it can't. Without this
