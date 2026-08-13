@@ -5344,8 +5344,8 @@
       "stats": {
         "totalVotes": 4847,
         "totalSubs": 76,
-        "totalChatMessages": 446,
-        "totalStreamMinutes": 2647,
+        "totalChatMessages": 458,
+        "totalStreamMinutes": 2654,
         "emotes": {
           "❤": 21,
           "🙌": 83,
@@ -5381,33 +5381,9 @@
           "🤣": "🤣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786596690685
+        "lastChatAt": 1786597138887
       },
       "chatMemory": [
-        {
-          "user": "onyxouroboros",
-          "msg": "25 Shiny Things for another empty hole"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@inn resubscribed, they've been subbed for 3 months! Thank you!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@thewill3ffect, voting session has started! Voting options: 1. win | 2. lose 5m - Use !vote [number] to cast your vote."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros, your vote has been recorded for win."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros you cannot dig yet. Please wait another 6 minutes before trying again."
-        },
-        {
-          "user": "onyxouroboros",
-          "msg": "gotta wait six more mintues to dig again"
-        },
         {
           "user": "thewill3ffect",
           "msg": "thank you for being here @onyxouroboros"
@@ -5423,6 +5399,30 @@
         {
           "user": "onyxouroboros",
           "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@thewill3ffect, voting has been stopped for the current session! Please wait for the streamer to end the voting session and announce the winning option."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@thewill3ffect, voting session ended! 1 vote was cast. Results: 1. win: 1 votes (100%) | 2. lose 5m: 0 votes (0%) The winning option was: lose 5m with 0 votes! Voters: nobody"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@thewill3ffect, voting session has started! Voting options: 1. win | 2. lose - Use !vote [number] to cast your vote."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@thewill3ffect, voting has been stopped for the current session! Please wait for the streamer to end the voting session and announce the winning option."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@thewill3ffect, no votes were cast during this session, the session has been ended."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@thewill3ffect, please provide at least 2 voting options separated by commas."
         }
       ],
       "customCommands": {},
@@ -6449,7 +6449,7 @@
         "totalVotes": 2242,
         "totalSubs": 9,
         "totalChatMessages": 71,
-        "totalStreamMinutes": 1744,
+        "totalStreamMinutes": 1752,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -7735,7 +7735,7 @@
         "totalVotes": 680,
         "totalSubs": 9,
         "totalChatMessages": 236,
-        "totalStreamMinutes": 1799,
+        "totalStreamMinutes": 1807,
         "emotes": {
           "❤": 12,
           "🙌": 14,
@@ -9122,7 +9122,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 1,
-        "totalStreamMinutes": 53,
+        "totalStreamMinutes": 61,
         "emotes": {},
         "emoteNames": {},
         "sendFailStreak": 0,
@@ -9783,8 +9783,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786595608908,
   "auth": {
-    "accessToken": "e793b8b0108ca150141dad7df4d3b417",
-    "refreshToken": "f2ae7b542915ceefcd0dcd7dd1b1d058",
+    "accessToken": "6dd9b945cd281c2a98998906bd1c6c09",
+    "refreshToken": "a03d140781d044284ea4a05e0396c1b9",
     "sessionToken": "15f566becd8e6c57ae726124fa43f7db",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
