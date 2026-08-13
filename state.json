@@ -5344,8 +5344,8 @@
       "stats": {
         "totalVotes": 4847,
         "totalSubs": 76,
-        "totalChatMessages": 458,
-        "totalStreamMinutes": 2654,
+        "totalChatMessages": 465,
+        "totalStreamMinutes": 2674,
         "emotes": {
           "❤": 21,
           "🙌": 83,
@@ -5381,25 +5381,9 @@
           "🤣": "🤣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786597138887
+        "lastChatAt": 1786597479695
       },
       "chatMemory": [
-        {
-          "user": "thewill3ffect",
-          "msg": "thank you for being here @onyxouroboros"
-        },
-        {
-          "user": "thewill3ffect",
-          "msg": "if no one else shows up you get a pass tonight"
-        },
-        {
-          "user": "thewill3ffect",
-          "msg": "if they do we wil lstart a wheel"
-        },
-        {
-          "user": "onyxouroboros",
-          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
-        },
         {
           "user": "scurvybot",
           "msg": "@thewill3ffect, voting has been stopped for the current session! Please wait for the streamer to end the voting session and announce the winning option."
@@ -5423,6 +5407,22 @@
         {
           "user": "scurvybot",
           "msg": "@thewill3ffect, please provide at least 2 voting options separated by commas."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@thewill3ffect, voting session has started! Voting options: 1. win | 2. lose 5m - Use !vote [number] to cast your vote."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros, your vote has been recorded for lose 5m."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! You successfully dug up I Gotta Rock from Faded Monsuta. View here: https://scurvybot.com/wax/tx/cec1f790e5342d7aa7df5b7538d538e24cbd172264a0b9179a1ef7326768edec"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "got a rock, let's add it to the pile"
         }
       ],
       "customCommands": {},
@@ -6449,7 +6449,7 @@
         "totalVotes": 2242,
         "totalSubs": 9,
         "totalChatMessages": 71,
-        "totalStreamMinutes": 1752,
+        "totalStreamMinutes": 1772,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -7735,7 +7735,7 @@
         "totalVotes": 680,
         "totalSubs": 9,
         "totalChatMessages": 236,
-        "totalStreamMinutes": 1807,
+        "totalStreamMinutes": 1827,
         "emotes": {
           "❤": 12,
           "🙌": 14,
@@ -9122,7 +9122,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 1,
-        "totalStreamMinutes": 61,
+        "totalStreamMinutes": 66,
         "emotes": {},
         "emoteNames": {},
         "sendFailStreak": 0,
@@ -9142,7 +9142,10 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "streamTitle": "Ghost Recon: Wildlands — Tom Clancy's Ghost Recon: Wildlands"
+      "streamTitle": "",
+      "lastStreamInfo": "Ghost Recon: Wildlands — Tom Clancy's Ghost Recon: Wildlands",
+      "lastStreamEndedAt": 1786597561817,
+      "gameOverride": ""
     }
   },
   "blocklist": [
@@ -9390,8 +9393,8 @@
     },
     "jt_squared2": {
       "note": "jt_squared2 enjoys gaming, has a dry sense of humor, engages in friendly banter, and is familiar with gaming terminology and development.",
-      "at": 1786550224409,
-      "n": 21
+      "at": 1786597744505,
+      "n": 22
     },
     "bidloperv": {
       "note": "This person is enthusiastic about gaming, particularly metal music, with a lighthearted and affectionate personality, often using humorous and playful language.",
