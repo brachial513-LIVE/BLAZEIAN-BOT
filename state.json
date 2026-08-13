@@ -6089,8 +6089,8 @@
       "stats": {
         "totalVotes": 6961,
         "totalSubs": 48,
-        "totalChatMessages": 925,
-        "totalStreamMinutes": 5823,
+        "totalChatMessages": 926,
+        "totalStreamMinutes": 5824,
         "emotes": {
           "❤": 37,
           "🙌": 71,
@@ -6099,8 +6099,8 @@
           "🗳": 315,
           "🔴": 51,
           "🎉": 67,
-          "📴": 48,
-          "👋": 50,
+          "📴": 49,
+          "👋": 51,
           "🚨": 96,
           "🥂": 1,
           "🫶": 3,
@@ -6158,13 +6158,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786624564889
+        "lastChatAt": 1786624733666
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @tigresa! How generous!! 🙌"
@@ -6200,6 +6196,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @Sheena! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6212,7 +6212,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "Odyssey Continues! — Assassin's Creed Odyssey",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! We love 'GIFTED SUBS', 'VOTE ALERTS', 'ROI YAN', 'patay', 'spanked', 'TAAS NA LEVEL MO AH', 'PURE LOVE', generous subs, and 'GGS' vibes. We celebrate with 'GIFTED SUB', enjoy 'TAAS NA LEVEL MO AH', and 'it's time to grind' moments, all while playing Assassin's Creed Odyssey.",
       "_profileAtCount": 875,
@@ -6232,7 +6232,7 @@
         }
       },
       "lastStreamInfo": "Odyssey Continues! — Assassin's Creed Odyssey",
-      "lastStreamEndedAt": 1786593581181
+      "lastStreamEndedAt": 1786624728415
     },
     "4e8116b6-6705-4e00-a83c-c7e455b3a446": {
       "username": "dimifw",
@@ -7737,7 +7737,7 @@
         "totalVotes": 682,
         "totalSubs": 9,
         "totalChatMessages": 236,
-        "totalStreamMinutes": 2264,
+        "totalStreamMinutes": 2265,
         "emotes": {
           "❤": 12,
           "🙌": 14,
@@ -9200,7 +9200,10 @@
       "streamEnd": "",
       "schedule": "",
       "timedMessages": [],
-      "tipTiers": []
+      "tipTiers": [],
+      "locked": false,
+      "followed": true,
+      "botVip": true
     }
   },
   "blocklist": [
