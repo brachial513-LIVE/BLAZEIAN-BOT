@@ -1070,7 +1070,7 @@
       "stats": {
         "totalVotes": 7819,
         "totalSubs": 95,
-        "totalChatMessages": 4060,
+        "totalChatMessages": 4062,
         "totalStreamMinutes": 11713,
         "emotes": {
           "📊": 3,
@@ -1323,13 +1323,9 @@
           "🛑": "🛑"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786644677403
+        "lastChatAt": 1786653323160
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
-        },
         {
           "user": "foxbotai",
           "msg": "@princessjamesy attacked Cyber Fox Dragon for 34 damage and earned 14 FoxCoins! Boss HP: 466/500. Your total boss damage: 34. Balance: 464 FoxCoins."
@@ -1365,6 +1361,10 @@
         {
           "user": "blazegames_bot",
           "msg": "🎮 Game ended! Thanks for playing!"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
         }
       ],
       "customCommands": {},
@@ -4793,7 +4793,7 @@
       "stats": {
         "totalVotes": 7120,
         "totalSubs": 36,
-        "totalChatMessages": 5943,
+        "totalChatMessages": 5947,
         "totalStreamMinutes": 3889,
         "emotes": {
           "🧏": 1,
@@ -4805,7 +4805,7 @@
           "🤭": 2,
           "😉": 4,
           "😭": 16,
-          "🤣": 343,
+          "🤣": 345,
           "👋": 15,
           "❤": 80,
           "😆": 11,
@@ -5020,25 +5020,9 @@
           "🧿": "🧿"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786653198950
+        "lastChatAt": 1786653458873
       },
       "chatMemory": [
-        {
-          "user": "xeukuxaixang",
-          "msg": "🤣🤣"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "new pb"
-        },
-        {
-          "user": "bidlo_bot",
-          "msg": "@cr33pling Found 19 matches: 1. Black Sabbath - Sabbath Bloody Sabbath | 2. Black Sabbath - The Sign Of The Southern Cross | 3. Black Sabbath - Children Of The Sea | 4. Black Sabbath - God is dead? | 5. Black Sabbath - End of the Beginning | 6. Black Sabbath - Age of Reason | 7. Black Sabbath - A National Acrobat | 8. Black Sabbath - Letters From Earth — Reply !pick 1-8 to select"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "🤣🤣🤣"
-        },
         {
           "user": "johngalt",
           "msg": "hey @bidloperv"
@@ -5062,6 +5046,22 @@
         {
           "user": "xeukuxaixang",
           "msg": "bid pro"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "I can't see the War pigs of Mr. Oz"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "appreciate it"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "🤣🤣"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:8341a7e3-a341-4ee5-a638-f8432c929257] [emote:3c817ff3-fa56-40b6-83b8-5054c76e354a] [emote:8341a7e3-a341-4ee5-a638-f8432c929257]"
         }
       ],
       "customCommands": {},
@@ -7302,7 +7302,7 @@
       "stats": {
         "totalVotes": 6142,
         "totalSubs": 0,
-        "totalChatMessages": 9768,
+        "totalChatMessages": 9772,
         "totalStreamMinutes": 4122,
         "emotes": {
           "❤": 19,
@@ -7511,17 +7511,9 @@
           "🪡": "🪡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786652987322
+        "lastChatAt": 1786653498587
       },
       "chatMemory": [
-        {
-          "user": "paulo_santos20",
-          "msg": "Quem é Benício?"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Salve paulo"
-        },
         {
           "user": "junior7_",
           "msg": "Filho do Eden"
@@ -7553,6 +7545,14 @@
         {
           "user": "paulo_santos20",
           "msg": "Sua esposa"
+        },
+        {
+          "user": "botger",
+          "msg": "Doações Live pix: https://livepix.gg/maniadk"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "deixa ele ai éder"
         }
       ],
       "customCommands": {},
@@ -9942,8 +9942,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786627926893,
   "auth": {
-    "accessToken": "3f99cabeb7db485a295c4270020ec4bb",
-    "refreshToken": "edac7a8f5730dc8fca757443ef757716",
+    "accessToken": "8337d44657b1f821064ca224af5fcc8e",
+    "refreshToken": "f2a902e61c1f3c6be719ae9f0e282e27",
     "sessionToken": "10b7ef37838e92f83c5df3ebe5ea1abd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
