@@ -6442,9 +6442,9 @@
       "joinedAt": 1784453301135,
       "stats": {
         "totalVotes": 2242,
-        "totalSubs": 8,
-        "totalChatMessages": 69,
-        "totalStreamMinutes": 1698,
+        "totalSubs": 9,
+        "totalChatMessages": 71,
+        "totalStreamMinutes": 1707,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -6458,17 +6458,9 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786591308838
+        "lastChatAt": 1786594237291
       },
       "chatMemory": [
-        {
-          "user": "pr0ff",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "happy streaming @pr0ff ..just dropped by to say Hi!"
-        },
         {
           "user": "pr0ff",
           "msg": "sup kuys"
@@ -6500,6 +6492,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "seekas",
+          "msg": "halo halooo"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Pr0ff gifted a Sub to @SEEKAS! Thank you!"
         }
       ],
       "customCommands": {},
@@ -7727,10 +7727,10 @@
       "language": "en",
       "joinedAt": 1784849405521,
       "stats": {
-        "totalVotes": 665,
+        "totalVotes": 680,
         "totalSubs": 9,
-        "totalChatMessages": 229,
-        "totalStreamMinutes": 1753,
+        "totalChatMessages": 234,
+        "totalStreamMinutes": 1762,
         "emotes": {
           "❤": 12,
           "🙌": 14,
@@ -7743,7 +7743,7 @@
           "⚡": 2,
           "😂": 2,
           "🎁": 16,
-          "🗳": 12
+          "🗳": 15
         },
         "emoteNames": {
           "❤": "❤",
@@ -7760,30 +7760,10 @@
           "🗳": "🗳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786588778736
+        "lastChatAt": 1786594476294
       },
       "chatMemory": [
         {
-          "user": "sheena",
-          "msg": "XÖ"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "Sheeeeeeeeeenaaaaaaaaaaaaaaaaa"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ LaMoony just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @bidloperv just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
           "user": "botger",
           "msg": "🔴 xeukuxaixang is now live! Welcome everyone! 🎉"
         },
@@ -7802,6 +7782,26 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Hey @xeukuxaixang"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Pretty in tense"
+        },
+        {
+          "user": "briggsy",
+          "msg": "intense"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
+        },
+        {
+          "user": "briggsy",
+          "msg": "yesss"
         }
       ],
       "customCommands": {},
@@ -9116,13 +9116,19 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
-        "totalStreamMinutes": 7,
+        "totalChatMessages": 1,
+        "totalStreamMinutes": 16,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1786594270283
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "pr0ff",
+          "msg": "sup kuys"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -9767,8 +9773,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786561556485,
   "auth": {
-    "accessToken": "da01c5f870da146bb07af058c408bf9f",
-    "refreshToken": "1249f665b76e1abec29f0511ed6be563",
+    "accessToken": "94d4158a61daec63f1a5adb77ad97c13",
+    "refreshToken": "10da87f3e01504d5470cc41269abc01e",
     "sessionToken": "15f566becd8e6c57ae726124fa43f7db",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
