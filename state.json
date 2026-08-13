@@ -1071,7 +1071,7 @@
         "totalVotes": 7702,
         "totalSubs": 94,
         "totalChatMessages": 4019,
-        "totalStreamMinutes": 11361,
+        "totalStreamMinutes": 11381,
         "emotes": {
           "📊": 3,
           "🔥": 277,
@@ -6087,7 +6087,7 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 6961,
+        "totalVotes": 7011,
         "totalSubs": 48,
         "totalChatMessages": 926,
         "totalStreamMinutes": 5824,
@@ -7737,7 +7737,7 @@
         "totalVotes": 682,
         "totalSubs": 9,
         "totalChatMessages": 236,
-        "totalStreamMinutes": 2265,
+        "totalStreamMinutes": 2285,
         "emotes": {
           "❤": 12,
           "🙌": 14,
@@ -9188,13 +9188,55 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 22,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1786625805333
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "generalkev",
+          "msg": "@blazeian_bot_ai weather in london"
+        },
+        {
+          "user": "generalkev",
+          "msg": "@BLAZEIAN_BOT_AI hi!"
+        },
+        {
+          "user": "generalkev",
+          "msg": "@BLAZEIAN_BOT_AI whats the date today"
+        },
+        {
+          "user": "generalkev",
+          "msg": "@BLAZEIAN_BOT_AI go for it"
+        },
+        {
+          "user": "generalkev",
+          "msg": "yes"
+        },
+        {
+          "user": "generalkev",
+          "msg": "@BLAZEIAN_BOT_AI whats the current price of bitcoin"
+        },
+        {
+          "user": "generalkev",
+          "msg": "@blazeian_bot_ai how old is Elon Musk"
+        },
+        {
+          "user": "generalkev",
+          "msg": "@blazeian_bot_ai where was he born?"
+        },
+        {
+          "user": "generalkev",
+          "msg": "@blazeian_bot_ai what is your current thoughts of web3 gaming"
+        },
+        {
+          "user": "generalkev",
+          "msg": "@blazeian_bot_ai Do you think NFTs will have a big part to play in the future of gaming?"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
