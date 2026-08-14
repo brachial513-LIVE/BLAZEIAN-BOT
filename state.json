@@ -1070,12 +1070,12 @@
       "stats": {
         "totalVotes": 7822,
         "totalSubs": 97,
-        "totalChatMessages": 4281,
-        "totalStreamMinutes": 11986,
+        "totalChatMessages": 4416,
+        "totalStreamMinutes": 12006,
         "emotes": {
           "📊": 3,
           "🔥": 282,
-          "🤣": 53,
+          "🤣": 54,
           "💚": 46,
           "❤": 14,
           "😜": 1,
@@ -1087,7 +1087,7 @@
           "😂": 38,
           "👑": 31,
           "⭐": 40,
-          "🏆": 68,
+          "🏆": 70,
           "🤗": 21,
           "💪": 20,
           "🎁": 107,
@@ -1149,7 +1149,7 @@
           "😩": 1,
           "🥴": 1,
           "🐐": 6,
-          "✅": 241,
+          "✅": 252,
           "😀": 4,
           "🥺": 1,
           "🍝": 1,
@@ -1182,20 +1182,23 @@
           "💩": 1,
           "🕺": 2,
           "🧟": 8,
-          "⏰": 150,
+          "⏰": 160,
           "⚠": 16,
-          "💀": 8,
+          "💀": 9,
           "🎰": 4,
-          "🎉": 9,
-          "🎊": 9,
-          "🍌": 3,
+          "🎉": 11,
+          "🎊": 11,
+          "🍌": 6,
           "😰": 8,
-          "🔜": 1,
+          "🔜": 3,
           "🙏": 1,
           "🍻": 3,
           "🫶": 2,
           "🤞": 1,
-          "🛑": 3
+          "🛑": 3,
+          "🌉": 1,
+          "💥": 8,
+          "💨": 5
         },
         "emoteNames": {
           "📊": "📊",
@@ -1320,51 +1323,54 @@
           "🍻": "🍻",
           "🫶": "🫶",
           "🤞": "🤞",
-          "🛑": "🛑"
+          "🛑": "🛑",
+          "🌉": "🌉",
+          "💥": "💥",
+          "💨": "💨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786711404553
+        "lastChatAt": 1786712605225
       },
       "chatMemory": [
         {
-          "user": "crypt0k1ng96",
-          "msg": "Only lowercase haha"
-        },
-        {
           "user": "octo",
-          "msg": "testnet"
+          "msg": "l"
         },
         {
           "user": "blazegames_bot",
-          "msg": "✅ @octo got it right!"
+          "msg": "💥 @octo fell through the glass! Respawning..."
         },
         {
           "user": "crypt0k1ng96",
-          "msg": "testnet"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "✅ @crypt0k1ng96 got it right!"
+          "msg": "r"
         },
         {
           "user": "octo",
-          "msg": "eth"
+          "msg": "r"
+        },
+        {
+          "user": "octo",
+          "msg": "l"
         },
         {
           "user": "crypt0k1ng96",
-          "msg": "eth"
+          "msg": "l"
         },
         {
           "user": "octo",
-          "msg": "ether"
+          "msg": "l"
+        },
+        {
+          "user": "octo",
+          "msg": "l"
+        },
+        {
+          "user": "octo",
+          "msg": "r"
         },
         {
           "user": "blazegames_bot",
-          "msg": "✅ @octo got it right!"
-        },
-        {
-          "user": "octo",
-          "msg": "didnt know that lol"
+          "msg": "@octo discovered a new pane! Earned a push charge. 💨"
         }
       ],
       "customCommands": {},
@@ -2252,8 +2258,8 @@
       "stats": {
         "totalVotes": 5013,
         "totalSubs": 39,
-        "totalChatMessages": 1612,
-        "totalStreamMinutes": 9141,
+        "totalChatMessages": 1619,
+        "totalStreamMinutes": 9161,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -2467,29 +2473,9 @@
           "🫶": "🫶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786708269357
+        "lastChatAt": 1786711939976
       },
       "chatMemory": [
-        {
-          "user": "cactus_jack440",
-          "msg": "[emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c]"
-        },
-        {
-          "user": "just_for_lucas",
-          "msg": "[emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea]"
-        },
-        {
-          "user": "tinapay",
-          "msg": "Helloooo"
-        },
-        {
-          "user": "angge_wf",
-          "msg": "hi"
-        },
-        {
-          "user": "angge_wf",
-          "msg": "take care at work"
-        },
         {
           "user": "cactus_jack440",
           "msg": "[emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c]"
@@ -2509,6 +2495,26 @@
         {
           "user": "cactus_jack440",
           "msg": "[emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c]"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Morning Cap't Rob, man"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Saying Hey!"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Off to work here"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Catchya later"
+        },
+        {
+          "user": "just_for_lucas",
+          "msg": "[emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea]"
         }
       ],
       "customCommands": {},
@@ -6131,8 +6137,8 @@
       "stats": {
         "totalVotes": 7120,
         "totalSubs": 48,
-        "totalChatMessages": 941,
-        "totalStreamMinutes": 6059,
+        "totalChatMessages": 943,
+        "totalStreamMinutes": 6060,
         "emotes": {
           "❤": 37,
           "🙌": 72,
@@ -6141,8 +6147,8 @@
           "🗳": 315,
           "🔴": 52,
           "🎉": 68,
-          "📴": 50,
-          "👋": 52,
+          "📴": 51,
+          "👋": 53,
           "🚨": 96,
           "🥂": 1,
           "🫶": 3,
@@ -6200,17 +6206,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786710663374
+        "lastChatAt": 1786711453135
       },
       "chatMemory": [
-        {
-          "user": "faithy_",
-          "msg": "[emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f]"
-        },
-        {
-          "user": "b1injaninja",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
         {
           "user": "faithy_",
           "msg": "BRB"
@@ -6242,6 +6240,14 @@
         {
           "user": "briggsy",
           "msg": "[emote:eee3a57c-87ac-4a06-b684-aec2eecaf243] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
+        },
+        {
+          "user": "faithy_",
+          "msg": "ggs!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6254,7 +6260,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "Continue our Odyssey! — Assassin's Creed Odyssey",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! We love 'GIFTED SUBS', 'VOTE ALERTS', 'ROI YAN', 'patay', 'spanked', 'TAAS NA LEVEL MO AH', 'PURE LOVE', generous subs, and 'GGS' vibes. We celebrate with 'GIFTED SUB', enjoy 'TAAS NA LEVEL MO AH', and 'it's time to grind' moments, all while playing Assassin's Creed Odyssey.",
       "_profileAtCount": 875,
@@ -6273,8 +6279,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "Play Palworld Blaze and Sing with me?! — Palworld",
-      "lastStreamEndedAt": 1786702656422
+      "lastStreamInfo": "Continue our Odyssey! — Assassin's Creed Odyssey",
+      "lastStreamEndedAt": 1786711447830
     },
     "4e8116b6-6705-4e00-a83c-c7e455b3a446": {
       "username": "dimifw",
@@ -8646,12 +8652,12 @@
       "joinedAt": 1785705447548,
       "stats": {
         "totalVotes": 837,
-        "totalSubs": 3,
-        "totalChatMessages": 161,
-        "totalStreamMinutes": 1629,
+        "totalSubs": 4,
+        "totalChatMessages": 164,
+        "totalStreamMinutes": 1649,
         "emotes": {
           "❤": 14,
-          "🙌": 9,
+          "🙌": 10,
           "🔥": 4,
           "💚": 2,
           "🤝": 1,
@@ -8661,7 +8667,7 @@
           "📴": 11,
           "👋": 11,
           "☺": 1,
-          "🎁": 6,
+          "🎁": 8,
           "🍺": 10,
           "🫶": 1
         },
@@ -8682,21 +8688,9 @@
           "🫶": "🫶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786710702676
+        "lastChatAt": 1786712211323
       },
       "chatMemory": [
-        {
-          "user": "d3crypt_ttv",
-          "msg": "pin it on them get k1ng gone haha"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -8724,6 +8718,18 @@
         {
           "user": "botger",
           "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "just_for_lucas",
+          "msg": "[emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@marioscy5 gifted a Sub to @just_for_lucas! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @marioscy5 just gifted a sub to @just_for_lucas! How generous!! 🙌"
         }
       ],
       "customCommands": {
