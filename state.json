@@ -811,24 +811,24 @@
       "stats": {
         "totalVotes": 8141,
         "totalSubs": 21,
-        "totalChatMessages": 14263,
-        "totalStreamMinutes": 1515,
+        "totalChatMessages": 14357,
+        "totalStreamMinutes": 1520,
         "emotes": {
           "🔥": 795,
           "🗳": 18,
           "🔴": 26,
-          "🎉": 112,
+          "🎉": 114,
           "😍": 1,
           "❤": 33,
           "🚢": 8,
-          "⏰": 746,
-          "🔜": 377,
-          "💀": 180,
+          "⏰": 751,
+          "🔜": 386,
+          "💀": 183,
           "😘": 2,
           "🏆": 73,
           "🎊": 63,
           "🎰": 7,
-          "😰": 66,
+          "😰": 73,
           "🍌": 37,
           "🧟": 5,
           "💣": 54,
@@ -848,7 +848,7 @@
           "😅": 4,
           "✈": 5,
           "🔧": 1,
-          "⚡": 26,
+          "⚡": 28,
           "📊": 3,
           "💃": 1,
           "💛": 6,
@@ -860,7 +860,7 @@
           "🤭": 6,
           "😆": 7,
           "👀": 11,
-          "😬": 4,
+          "😬": 6,
           "🔪": 2,
           "🙏": 6,
           "✌": 1,
@@ -965,7 +965,7 @@
           "🐷": "🐷",
           "🐢": "🐢"
         },
-        "lastChatAt": 1786731499927,
+        "lastChatAt": 1786731798221,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -974,44 +974,44 @@
       },
       "chatMemory": [
         {
+          "user": "triz_draw",
+          "msg": "whaaaaaaaa"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@octo Action queued! It will execute when it's your turn. 🔜"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@badger Not your turn! It's DimiFW's turn."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@DimiFW Action queued! It will execute when it's your turn. 🔜"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@tigresa is pulling the trigger... 😰"
+        },
+        {
           "user": "badger",
-          "msg": "gg sip"
-        },
-        {
-          "user": "octo",
-          "msg": "holding it awhile is strategic lol"
-        },
-        {
-          "user": "badger",
-          "msg": "Ijust muted the web page lol"
-        },
-        {
-          "user": "octo",
-          "msg": "just held it too long that time"
-        },
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+          "msg": "RIGGED"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🎰 Blaze Roulette starting in 180 seconds! Type !join to play!"
+          "msg": "💀 tigresa has been eliminated! 5 players remaining."
+        },
+        {
+          "user": "tigresa",
+          "msg": "grrrr"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@DimiFW joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "octo",
-          "msg": "rounds go for so long i think id like if the song went for less time"
-        },
-        {
-          "user": "botger",
-          "msg": "THAT'S WHAT SHE SAID!!!! 🤣😂🤣"
+          "msg": "@octo Action queued! It will execute when it's your turn. 🔜"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@octo joined the game! 2 player(s) ready."
+          "msg": "@sipofcoke is pulling the trigger... 😰"
         }
       ],
       "customCommands": {},
@@ -1075,7 +1075,7 @@
         "totalVotes": 7862,
         "totalSubs": 99,
         "totalChatMessages": 4486,
-        "totalStreamMinutes": 12321,
+        "totalStreamMinutes": 12326,
         "emotes": {
           "📊": 3,
           "🔥": 283,
@@ -4835,7 +4835,7 @@
         "totalVotes": 7178,
         "totalSubs": 36,
         "totalChatMessages": 6017,
-        "totalStreamMinutes": 3896,
+        "totalStreamMinutes": 3901,
         "emotes": {
           "🧏": 1,
           "♂": 2,
@@ -7002,7 +7002,7 @@
         "totalVotes": 4153,
         "totalSubs": 12,
         "totalChatMessages": 911,
-        "totalStreamMinutes": 3783,
+        "totalStreamMinutes": 3788,
         "emotes": {
           "❤": 52,
           "🙌": 27,
@@ -7354,8 +7354,8 @@
       "stats": {
         "totalVotes": 6179,
         "totalSubs": 0,
-        "totalChatMessages": 9821,
-        "totalStreamMinutes": 4183,
+        "totalChatMessages": 9823,
+        "totalStreamMinutes": 4188,
         "emotes": {
           "❤": 19,
           "🙌": 16,
@@ -7563,13 +7563,9 @@
           "🪡": "🪡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786730043101
+        "lastChatAt": 1786731624161
       },
       "chatMemory": [
-        {
-          "user": "junior7_",
-          "msg": "Buenas Daniel e sim mês q vem tô sem pedidos"
-        },
         {
           "user": "lovemikami",
           "msg": "sai dai"
@@ -7605,6 +7601,10 @@
         {
           "user": "botger",
           "msg": "Doações Live pix: https://livepix.gg/maniadk"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "junhu salve, tem blaze ai? tipo pra doar pro daniel? tô bolando uma coisa pra eu adquirir 10 votos e chegar a 100"
         }
       ],
       "customCommands": {},
@@ -8909,8 +8909,8 @@
       "stats": {
         "totalVotes": 1347,
         "totalSubs": 14,
-        "totalChatMessages": 427,
-        "totalStreamMinutes": 914,
+        "totalChatMessages": 429,
+        "totalStreamMinutes": 919,
         "emotes": {
           "😅": 1,
           "🔥": 13,
@@ -8942,17 +8942,9 @@
           "😜": "😜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786731267983
+        "lastChatAt": 1786731773804
       },
       "chatMemory": [
-        {
-          "user": "seekas",
-          "msg": "happy gaming kuya!"
-        },
-        {
-          "user": "fartvader",
-          "msg": "@seekas thank you brooo!"
-        },
         {
           "user": "fartvader",
           "msg": "you too seek!"
@@ -8984,6 +8976,14 @@
         {
           "user": "fartvader",
           "msg": "@fluffy how are you doing??? we miss you"
+        },
+        {
+          "user": "fartvader",
+          "msg": "brb guys, restarting game"
+        },
+        {
+          "user": "baxang",
+          "msg": "happy gaming pows!! [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea]"
         }
       ],
       "customCommands": {},
@@ -10000,8 +10000,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786721423472,
   "auth": {
-    "accessToken": "a8ea298d9ba60f465c7fe5ab42c00332",
-    "refreshToken": "f01e431ccff2f5daff837053c64e0c8f",
+    "accessToken": "dcf487de8a9f490ac348cfc4be50795b",
+    "refreshToken": "296df343b5238e553748ad1191aeb9e6",
     "sessionToken": "10b7ef37838e92f83c5df3ebe5ea1abd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
