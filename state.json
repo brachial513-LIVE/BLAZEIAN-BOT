@@ -1398,7 +1398,7 @@
         "totalVotes": 4496,
         "totalSubs": 13,
         "totalChatMessages": 3811,
-        "totalStreamMinutes": 4248,
+        "totalStreamMinutes": 4255,
         "emotes": {
           "🗳": 341,
           "🤣": 53,
@@ -3413,8 +3413,8 @@
       "stats": {
         "totalVotes": 8618,
         "totalSubs": 18,
-        "totalChatMessages": 3336,
-        "totalStreamMinutes": 6399,
+        "totalChatMessages": 3337,
+        "totalStreamMinutes": 6406,
         "emotes": {
           "❤": 36,
           "🙌": 99,
@@ -3549,14 +3549,10 @@
           "👂": "👂",
           "🪇": "🪇"
         },
-        "lastChatAt": 1786671775896,
+        "lastChatAt": 1786672188066,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@capt_rob_advent is raiding with a party of 5! Welcome, raiders!"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @capt_rob_advent is raiding with a party of 5! Welcome raiders!! 🎉"
@@ -3592,6 +3588,10 @@
         {
           "user": "sipofcoke",
           "msg": "NICEEE"
+        },
+        {
+          "user": "sipofcoke",
+          "msg": "Thank you for the karaoke! Happy bathroom time!"
         }
       ],
       "customCommands": {},
@@ -4693,8 +4693,8 @@
       "stats": {
         "totalVotes": 3297,
         "totalSubs": 20,
-        "totalChatMessages": 238,
-        "totalStreamMinutes": 5136,
+        "totalChatMessages": 242,
+        "totalStreamMinutes": 5143,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -4739,28 +4739,12 @@
           "🤧": "🤧",
           "♥": "♥"
         },
-        "lastChatAt": 1786671534367,
+        "lastChatAt": 1786672342850,
         "sendFailStreak": 18,
         "lastSendFailAt": 1786670219000,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "tai_",
-          "msg": "♥️♥️"
-        },
-        {
-          "user": "lady_iris",
-          "msg": "lindaaaaa"
-        },
-        {
-          "user": "tai_",
-          "msg": "oieeee"
-        },
-        {
-          "user": "tai_",
-          "msg": "vocee @lady_iris ♥️"
-        },
         {
           "user": "blueesouull",
           "msg": "divos"
@@ -4784,6 +4768,22 @@
         {
           "user": "tai_",
           "msg": "calado invejoso"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "cpfnan0t4",
+          "msg": "pessoal demorando uma eternidade pra subir kk"
+        },
+        {
+          "user": "tai_",
+          "msg": "pser"
+        },
+        {
+          "user": "tai_",
+          "msg": "demoram demais"
         }
       ],
       "customCommands": {},
@@ -5132,7 +5132,7 @@
         "totalVotes": 1698,
         "totalSubs": 12,
         "totalChatMessages": 891,
-        "totalStreamMinutes": 7055,
+        "totalStreamMinutes": 7062,
         "emotes": {
           "🔥": 259,
           "🔴": 88,
@@ -7775,7 +7775,7 @@
         "totalVotes": 836,
         "totalSubs": 9,
         "totalChatMessages": 344,
-        "totalStreamMinutes": 2805,
+        "totalStreamMinutes": 2812,
         "emotes": {
           "❤": 14,
           "🙌": 15,
@@ -9974,8 +9974,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786666416258,
   "auth": {
-    "accessToken": "e3fc4733ead354594941bc161cc700b9",
-    "refreshToken": "9384a38af1842453537dcf26419ab628",
+    "accessToken": "c1d1904b7eda0e254d0e271f9210c60c",
+    "refreshToken": "2f6cfa2501c083331bb1ba7587fe57be",
     "sessionToken": "10b7ef37838e92f83c5df3ebe5ea1abd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
