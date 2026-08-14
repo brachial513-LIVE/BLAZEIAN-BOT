@@ -475,12 +475,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 32500,
+        "totalVotes": 32650,
         "totalSubs": 54,
-        "totalChatMessages": 5482,
+        "totalChatMessages": 5483,
         "totalStreamMinutes": 1786,
         "emotes": {
-          "🗳": 867,
+          "🗳": 870,
           "❤": 213,
           "🙌": 138,
           "🔥": 132,
@@ -690,17 +690,13 @@
           "😐": "😐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786655769069,
+        "lastChatAt": 1786685571052,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @Big_Scaggs! How generous!! 🙌"
-        },
         {
           "user": "future42",
           "msg": "Wow...thank you for the support and those votes....Roshi"
@@ -736,6 +732,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 100 vote(s) (total: 500)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @octo just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9091,15 +9091,15 @@
       "stats": {
         "totalVotes": 9,
         "totalSubs": 3,
-        "totalChatMessages": 36,
-        "totalStreamMinutes": 250,
+        "totalChatMessages": 38,
+        "totalStreamMinutes": 260,
         "emotes": {
           "❤": 3,
           "🙌": 4,
           "📢": 1,
           "🔥": 2,
-          "📴": 2,
-          "👋": 2,
+          "📴": 3,
+          "👋": 3,
           "🎁": 6,
           "🔴": 2,
           "🎉": 2,
@@ -9118,17 +9118,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786677957533
+        "lastChatAt": 1786684987606
       },
       "chatMemory": [
-        {
-          "user": "corneto",
-          "msg": "[emote:48cbdddd-1248-41c3-8d0f-01076bdb86ed]"
-        },
-        {
-          "user": "corneto",
-          "msg": "[emote:9fd014db-3ca4-48b3-9fdf-f62b1d7dd2da]"
-        },
         {
           "user": "corneto",
           "msg": "[emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea]"
@@ -9160,6 +9152,14 @@
         {
           "user": "corneto",
           "msg": "[emote:9fd014db-3ca4-48b3-9fdf-f62b1d7dd2da]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -9170,14 +9170,14 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "VARIETY GAMING — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/52d87c93-9b11-4566-829a-811f46dabd06.gif",
       "followed": true,
       "profile": "We're a Blaze livestream community that \"BLAZEs\" the night away. We're all about \"BLAZEing\" and spreading love, with a focus on games and Crypto. We shout out \"NEW FOLLOWER!!\", \"GIFTED SUB!!\", and \"BLAZEing\" achievements. Our streamer loves being celebrated with \"BLAZEing\" emojis and \"very lovely\" responses. Let's keep the \"BLAZE\" spirit alive!",
       "_profileAtCount": 17,
       "lastStreamInfo": "VARIETY GAMING — Crypto",
-      "lastStreamEndedAt": 1786609027014
+      "lastStreamEndedAt": 1786684982350
     },
     "6fe1077e-2398-4af0-a96c-ee5acc08c111": {
       "username": "jaggerjack",
