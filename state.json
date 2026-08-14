@@ -1398,7 +1398,7 @@
         "totalVotes": 4496,
         "totalSubs": 13,
         "totalChatMessages": 3811,
-        "totalStreamMinutes": 4205,
+        "totalStreamMinutes": 4210,
         "emotes": {
           "🗳": 341,
           "🤣": 53,
@@ -2253,7 +2253,7 @@
         "totalVotes": 5013,
         "totalSubs": 39,
         "totalChatMessages": 1611,
-        "totalStreamMinutes": 9064,
+        "totalStreamMinutes": 9069,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -3414,7 +3414,7 @@
         "totalVotes": 8608,
         "totalSubs": 18,
         "totalChatMessages": 3326,
-        "totalStreamMinutes": 6356,
+        "totalStreamMinutes": 6361,
         "emotes": {
           "❤": 34,
           "🙌": 98,
@@ -3651,7 +3651,7 @@
         "totalVotes": 4509,
         "totalSubs": 65,
         "totalChatMessages": 425,
-        "totalStreamMinutes": 8900,
+        "totalStreamMinutes": 8905,
         "emotes": {
           "❤": 89,
           "🙌": 30,
@@ -3760,7 +3760,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -3768,7 +3768,7 @@
       "_profileAtCount": 393,
       "botVip": true,
       "lastStreamInfo": "🔥 PRIDE ESSENCE AO VIVO | PvP, Farm e MUITA TRETA! — Lineage 2",
-      "lastStreamEndedAt": 1786587883575,
+      "lastStreamEndedAt": 1786669699069,
       "nudgedAt": 1785710754625,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -4694,7 +4694,7 @@
         "totalVotes": 3297,
         "totalSubs": 19,
         "totalChatMessages": 224,
-        "totalStreamMinutes": 5093,
+        "totalStreamMinutes": 5098,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -5130,7 +5130,7 @@
         "totalVotes": 1698,
         "totalSubs": 12,
         "totalChatMessages": 879,
-        "totalStreamMinutes": 7012,
+        "totalStreamMinutes": 7017,
         "emotes": {
           "🔥": 257,
           "🔴": 86,
@@ -7772,8 +7772,8 @@
       "stats": {
         "totalVotes": 836,
         "totalSubs": 9,
-        "totalChatMessages": 286,
-        "totalStreamMinutes": 2762,
+        "totalChatMessages": 296,
+        "totalStreamMinutes": 2767,
         "emotes": {
           "❤": 14,
           "🙌": 15,
@@ -7803,48 +7803,48 @@
           "🗳": "🗳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786669365772
+        "lastChatAt": 1786669668541
       },
       "chatMemory": [
         {
-          "user": "mindgoblin",
-          "msg": "[emote:3bdf0aa1-f961-4bc8-8f93-15ac2d172018] [emote:3bdf0aa1-f961-4bc8-8f93-15ac2d172018] [emote:3bdf0aa1-f961-4bc8-8f93-15ac2d172018]"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Never played"
-        },
-        {
-          "user": "briggsy",
-          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:258f10f6-6369-4d78-9020-6d4344802acb]"
+          "user": "xeukuxaixang",
+          "msg": "I'm using 82% ram"
         },
         {
           "user": "mindgoblin",
-          "msg": "xeu whats your bitrate at?"
+          "msg": "what CPU and GPU do you have?"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "amd ryzen 5 5600GT"
         },
         {
           "user": "mindgoblin",
-          "msg": "because your stream is very laggy. i wonder if lowering your bitrate will help."
+          "msg": "and Graphics Card?"
         },
         {
           "user": "mindgoblin",
-          "msg": "i dont think its your internet because your voice doesnt lag, just your video"
+          "msg": "whats your bitrate with OBS?"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "6000"
         },
         {
           "user": "mindgoblin",
-          "msg": "[emote:3bdf0aa1-f961-4bc8-8f93-15ac2d172018] [emote:3bdf0aa1-f961-4bc8-8f93-15ac2d172018] [emote:3bdf0aa1-f961-4bc8-8f93-15ac2d172018]"
+          "msg": "you should try to lower it to maybe 3000 and see if that helps the stream lag"
         },
         {
           "user": "mindgoblin",
-          "msg": "potato pc"
+          "msg": "i do 6000 and my pc is pretty strong"
         },
         {
           "user": "mindgoblin",
-          "msg": "gg"
+          "msg": "also what encoder do you use? because that matters too"
         },
         {
           "user": "mindgoblin",
-          "msg": "pro player"
+          "msg": "yeah you'll need to restart"
         }
       ],
       "customCommands": {},
@@ -9972,8 +9972,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786666416258,
   "auth": {
-    "accessToken": "3f9634c9e436a6f7e10126dedbda91e3",
-    "refreshToken": "f7020bdfcbeb61863255252e66d7912a",
+    "accessToken": "60cd5d0499181100acc7b0b0fc2c3310",
+    "refreshToken": "705f495dd1089673555c168abfda8ecc",
     "sessionToken": "10b7ef37838e92f83c5df3ebe5ea1abd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
