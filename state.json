@@ -1070,11 +1070,11 @@
       "stats": {
         "totalVotes": 7822,
         "totalSubs": 97,
-        "totalChatMessages": 4416,
-        "totalStreamMinutes": 12006,
+        "totalChatMessages": 4454,
+        "totalStreamMinutes": 12011,
         "emotes": {
           "📊": 3,
-          "🔥": 282,
+          "🔥": 283,
           "🤣": 54,
           "💚": 46,
           "❤": 14,
@@ -1087,7 +1087,7 @@
           "😂": 38,
           "👑": 31,
           "⭐": 40,
-          "🏆": 70,
+          "🏆": 72,
           "🤗": 21,
           "💪": 20,
           "🎁": 107,
@@ -1182,12 +1182,12 @@
           "💩": 1,
           "🕺": 2,
           "🧟": 8,
-          "⏰": 160,
-          "⚠": 16,
+          "⏰": 165,
+          "⚠": 17,
           "💀": 9,
           "🎰": 4,
-          "🎉": 11,
-          "🎊": 11,
+          "🎉": 12,
+          "🎊": 12,
           "🍌": 6,
           "😰": 8,
           "🔜": 3,
@@ -1197,8 +1197,8 @@
           "🤞": 1,
           "🛑": 3,
           "🌉": 1,
-          "💥": 8,
-          "💨": 5
+          "💥": 11,
+          "💨": 8
         },
         "emoteNames": {
           "📊": "📊",
@@ -1329,48 +1329,48 @@
           "💨": "💨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786712605225
+        "lastChatAt": 1786712774517
       },
       "chatMemory": [
         {
           "user": "octo",
-          "msg": "l"
+          "msg": "ggs!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "💥 @octo fell through the glass! Respawning..."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "r"
-        },
-        {
-          "user": "octo",
-          "msg": "r"
-        },
-        {
-          "user": "octo",
-          "msg": "l"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "l"
-        },
-        {
-          "user": "octo",
-          "msg": "l"
-        },
-        {
-          "user": "octo",
-          "msg": "l"
-        },
-        {
-          "user": "octo",
-          "msg": "r"
+          "msg": "🔥 Pyro Race starting in 30 seconds! Answer questions to race! Type !join to play!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@octo discovered a new pane! Earned a push charge. 💨"
+          "msg": "@crypt0k1ng96 joined the game! 1 player(s) ready."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 10 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⚠️ Not enough players to start! Need at least 2."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@octo received 500 FoxCoins! New balance: 1275 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -2259,7 +2259,7 @@
         "totalVotes": 5013,
         "totalSubs": 39,
         "totalChatMessages": 1619,
-        "totalStreamMinutes": 9161,
+        "totalStreamMinutes": 9166,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -8654,7 +8654,7 @@
         "totalVotes": 837,
         "totalSubs": 4,
         "totalChatMessages": 164,
-        "totalStreamMinutes": 1649,
+        "totalStreamMinutes": 1654,
         "emotes": {
           "❤": 14,
           "🙌": 10,
@@ -9990,8 +9990,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786695120694,
   "auth": {
-    "accessToken": "c5f3af91fad327d4edbd1a58d6a5db26",
-    "refreshToken": "59ba4fb301129daae6708d564be27c56",
+    "accessToken": "1775d653e071a1f11cb76aece6943aa3",
+    "refreshToken": "fc8f56bde90a3700a2219d5c0d84593a",
     "sessionToken": "10b7ef37838e92f83c5df3ebe5ea1abd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
