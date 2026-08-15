@@ -1681,7 +1681,7 @@
         "totalVotes": 7791,
         "totalSubs": 41,
         "totalChatMessages": 3272,
-        "totalStreamMinutes": 11148,
+        "totalStreamMinutes": 11153,
         "emotes": {
           "❤": 140,
           "🙌": 100,
@@ -6537,8 +6537,8 @@
       "joinedAt": 1784453301135,
       "stats": {
         "totalVotes": 2249,
-        "totalSubs": 10,
-        "totalChatMessages": 81,
+        "totalSubs": 11,
+        "totalChatMessages": 82,
         "totalStreamMinutes": 1911,
         "emotes": {
           "🔥": 8,
@@ -6553,13 +6553,9 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786788189093
+        "lastChatAt": 1786788272581
       },
       "chatMemory": [
-        {
-          "user": "jaggerjack",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 2 votes, @JaggerJack!"
@@ -6595,6 +6591,10 @@
         {
           "user": "itskeeel",
           "msg": "[emote:ee93d6f9-c5c7-437f-b223-0a1b50704257]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Pr0ff gifted a Sub to @itskeeel! Thank you!"
         }
       ],
       "customCommands": {},
@@ -10054,8 +10054,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786721423472,
   "auth": {
-    "accessToken": "d594601bad51e38964f4d8b9674f1c9d",
-    "refreshToken": "1a12df4f19ef6e64357ee02cb9f0ae53",
+    "accessToken": "72c49dc6d44ee34b7178c89b16701b5b",
+    "refreshToken": "4c5988c70d851080bc4151db9c448fe8",
     "sessionToken": "4d52bd5ed2ec3d8b7365ab28bb784d26",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
