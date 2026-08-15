@@ -477,7 +477,7 @@
       "stats": {
         "totalVotes": 33043,
         "totalSubs": 54,
-        "totalChatMessages": 5493,
+        "totalChatMessages": 5494,
         "totalStreamMinutes": 1786,
         "emotes": {
           "🗳": 882,
@@ -690,17 +690,13 @@
           "😐": "😐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786747754133,
+        "lastChatAt": 1786753240332,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "fluffy",
-          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
-        },
         {
           "user": "k1ngbre4ker",
           "msg": "Blaze on Bossman!"
@@ -736,6 +732,10 @@
         {
           "user": "eze_",
           "msg": "Yo bro"
+        },
+        {
+          "user": "clutchking",
+          "msg": "yo vroshi im so sry about not seeing your 250 votes i dont know how i missed it, again orry for missing it tysm"
         }
       ],
       "customCommands": {},
@@ -1077,7 +1077,7 @@
         "totalVotes": 7872,
         "totalSubs": 99,
         "totalChatMessages": 4505,
-        "totalStreamMinutes": 12681,
+        "totalStreamMinutes": 12686,
         "emotes": {
           "📊": 3,
           "🔥": 283,
@@ -1681,7 +1681,7 @@
         "totalVotes": 7791,
         "totalSubs": 40,
         "totalChatMessages": 3268,
-        "totalStreamMinutes": 11065,
+        "totalStreamMinutes": 11070,
         "emotes": {
           "❤": 140,
           "🙌": 99,
@@ -2267,7 +2267,7 @@
         "totalVotes": 5013,
         "totalSubs": 39,
         "totalChatMessages": 1626,
-        "totalStreamMinutes": 9316,
+        "totalStreamMinutes": 9321,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -3445,7 +3445,7 @@
         "totalVotes": 8779,
         "totalSubs": 18,
         "totalChatMessages": 3399,
-        "totalStreamMinutes": 6476,
+        "totalStreamMinutes": 6481,
         "emotes": {
           "❤": 38,
           "🙌": 101,
@@ -3684,7 +3684,7 @@
         "totalVotes": 4511,
         "totalSubs": 66,
         "totalChatMessages": 432,
-        "totalStreamMinutes": 9144,
+        "totalStreamMinutes": 9149,
         "emotes": {
           "❤": 89,
           "🙌": 30,
@@ -4859,7 +4859,7 @@
         "totalVotes": 7178,
         "totalSubs": 36,
         "totalChatMessages": 6321,
-        "totalStreamMinutes": 4092,
+        "totalStreamMinutes": 4097,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -5176,7 +5176,7 @@
         "totalVotes": 1698,
         "totalSubs": 15,
         "totalChatMessages": 948,
-        "totalStreamMinutes": 7232,
+        "totalStreamMinutes": 7237,
         "emotes": {
           "🔥": 271,
           "🔴": 94,
@@ -10045,8 +10045,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786721423472,
   "auth": {
-    "accessToken": "0e74af045fa76fc64f3537ed4729c3df",
-    "refreshToken": "ebd831df43f855d7a80cb3353abcc89a",
+    "accessToken": "c6a08fdcf8b1ac03a78fe253930f93d3",
+    "refreshToken": "decf8306682026c8a990e2ff8e8fbd5c",
     "sessionToken": "4d52bd5ed2ec3d8b7365ab28bb784d26",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
