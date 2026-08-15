@@ -2267,7 +2267,7 @@
         "totalVotes": 5094,
         "totalSubs": 39,
         "totalChatMessages": 1695,
-        "totalStreamMinutes": 9704,
+        "totalStreamMinutes": 9724,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -5183,8 +5183,8 @@
       "stats": {
         "totalVotes": 1773,
         "totalSubs": 22,
-        "totalChatMessages": 991,
-        "totalStreamMinutes": 7485,
+        "totalChatMessages": 993,
+        "totalStreamMinutes": 7505,
         "emotes": {
           "🔥": 279,
           "🔴": 98,
@@ -5277,18 +5277,10 @@
           "🫐": "🫐",
           "😇": "😇"
         },
-        "lastChatAt": 1786807832538,
+        "lastChatAt": 1786809670482,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cptfive",
-          "msg": "Sup buddy!"
-        },
-        {
-          "user": "cptfive",
-          "msg": "LLong time no talk foo"
-        },
         {
           "user": "scurvybot",
           "msg": "@xxTOWERDOGxx gifted a Sub to @cptfive! Thank you!"
@@ -5320,6 +5312,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "xxtowerdogxx",
+          "msg": "[emote:2c171ac8-a29e-416a-a8a5-b57347953f75] [emote:2c171ac8-a29e-416a-a8a5-b57347953f75] [emote:2c171ac8-a29e-416a-a8a5-b57347953f75] [emote:2c171ac8-a29e-416a-a8a5-b57347953f75]"
+        },
+        {
+          "user": "botger",
+          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
         }
       ],
       "customCommands": {},
@@ -6835,7 +6835,7 @@
         "totalVotes": 9175,
         "totalSubs": 25,
         "totalChatMessages": 1421,
-        "totalStreamMinutes": 587,
+        "totalStreamMinutes": 607,
         "emotes": {
           "❤": 22,
           "🙌": 50,
@@ -7185,13 +7185,13 @@
       "stats": {
         "totalVotes": 1992,
         "totalSubs": 18,
-        "totalChatMessages": 548,
-        "totalStreamMinutes": 1538,
+        "totalChatMessages": 550,
+        "totalStreamMinutes": 1541,
         "emotes": {
           "❤": 49,
           "🙌": 31,
-          "📴": 15,
-          "👋": 15,
+          "📴": 16,
+          "👋": 16,
           "🎁": 34,
           "🗳": 75,
           "⚠": 1,
@@ -7240,17 +7240,9 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786808425816
+        "lastChatAt": 1786808808870
       },
       "chatMemory": [
-        {
-          "user": "just_for_lucas",
-          "msg": "helllooooooo"
-        },
-        {
-          "user": "botger",
-          "msg": "📢 Shoutout to @tenshi, streamer of IRL! 🔥 Make sure to check out https://blaze.stream/tenshi and show some support ❤️‍🔥"
-        },
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @tenshi, who is live now, currently streaming IRL to 3 viewers at https://blaze.stream/tenshi!"
@@ -7282,6 +7274,14 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7293,15 +7293,15 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0e14bbf3-b90e-49a5-ac9c-ec64e50a164d.jpg",
-      "streamTitle": "WAYFINDERS PH 💜💜 - WATCH PARTY - THE INTERNATIONAL — Dota 2",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "We're a chill community that loves VALORANT and good vibes, living that \"valooooo\" life with \"sali ako pagtapos\" moments. We say \"RURAAAAAAAAAAAAAAAAY\" and \"NOXXXXXXXXXXXXXXXXXX!!!!!!\" when we're excited, and \"beng beng lang\" when we're having a chill time. We love gifts \"🎁\" and \"🗳️\" moments, especially when ruri666 gifts subs, playing together, and celebrating wins with a good \"🎉\".",
       "_profileAtCount": 466,
       "nudgedAt": 1785164605243,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "WAYFINDERS PH 💜💜 - CHILL STREAM — VALORANT",
-      "lastStreamEndedAt": 1786724619283
+      "lastStreamInfo": "WAYFINDERS PH 💜💜 - WATCH PARTY - THE INTERNATIONAL — Dota 2",
+      "lastStreamEndedAt": 1786808803645
     },
     "9cc85373-5150-438b-95b7-0c7ff092bfe4": {
       "username": "willdres",
@@ -7394,15 +7394,15 @@
       "stats": {
         "totalVotes": 7582,
         "totalSubs": 0,
-        "totalChatMessages": 10015,
-        "totalStreamMinutes": 4544,
+        "totalChatMessages": 10019,
+        "totalStreamMinutes": 4563,
         "emotes": {
           "❤": 19,
           "🙌": 16,
           "🤝": 2,
           "🔥": 15,
-          "🔴": 33,
-          "🎉": 70,
+          "🔴": 35,
+          "🎉": 72,
           "🪙": 375,
           "⚡": 83,
           "👀": 8,
@@ -7414,8 +7414,8 @@
           "☺": 3,
           "😎": 2,
           "😁": 1,
-          "📴": 32,
-          "👋": 35,
+          "📴": 34,
+          "👋": 37,
           "🛒": 7,
           "😀": 1,
           "😍": 4,
@@ -7603,25 +7603,9 @@
           "🪡": "🪡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786808495913
+        "lastChatAt": 1786809489566
       },
       "chatMemory": [
-        {
-          "user": "rechigamer",
-          "msg": "^.^"
-        },
-        {
-          "user": "botger",
-          "msg": "🪙 Added 60,000 points to rechigamer. Balance: 97,050 pts."
-        },
-        {
-          "user": "botger",
-          "msg": "🪙 @solucao 10,880 points."
-        },
-        {
-          "user": "solucao",
-          "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d]"
-        },
         {
           "user": "solucao",
           "msg": "Vc consegue"
@@ -7637,6 +7621,22 @@
         {
           "user": "botger",
           "msg": "Doações Live pix: https://livepix.gg/maniadk"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 sofrenciaplay is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 sofrenciaplay is now live! Welcome everyone! 🎉"
         },
         {
           "user": "botger",
@@ -7663,7 +7663,7 @@
       "gameOverride": "",
       "commentMode": "low",
       "lastStreamInfo": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
-      "lastStreamEndedAt": 1786808474817
+      "lastStreamEndedAt": 1786809454587
     },
     "c6f961d4-99d9-43a9-af38-8f62a07c68f9": {
       "username": "guney",
@@ -7834,13 +7834,13 @@
       "stats": {
         "totalVotes": 846,
         "totalSubs": 9,
-        "totalChatMessages": 355,
-        "totalStreamMinutes": 2843,
+        "totalChatMessages": 356,
+        "totalStreamMinutes": 2845,
         "emotes": {
           "❤": 14,
           "🙌": 15,
-          "🔴": 18,
-          "🎉": 18,
+          "🔴": 19,
+          "🎉": 19,
           "🔥": 11,
           "📴": 18,
           "👋": 18,
@@ -7865,13 +7865,9 @@
           "🗳": "🗳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786745620376
+        "lastChatAt": 1786809681761
       },
       "chatMemory": [
-        {
-          "user": "mindgoblin",
-          "msg": "drive backwards"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -7907,6 +7903,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 xeukuxaixang is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -7921,7 +7921,7 @@
       "profile": "Left 4 Dead 2 squad, rejoice! We're a community of no-lifes screaming \"GASOLINA\" at every opportunity. Expect \"Hu Hu hu Hu Hu\" and \"Macaquitoooo\" outbursts, \"lucidthings,\" and \"RIP\" moments. We celebrate \"Whoopsies\" and \"FORE!\" moments, go \"DO VS,\" and bring the \"bananas\" – don't forget to \"Eat banana\"!",
       "_profileAtCount": 236,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dd930668-5bab-4b93-ba23-cf1acb8a4199.png",
-      "streamTitle": "",
+      "streamTitle": "l4d2 bora que mao de cachorro ta atrás#lucidthings — Left 4 Dead 2",
       "gameOverride": "",
       "nudgedAt": 1785112706663,
       "nudgedKey": "schedule",
@@ -8699,16 +8699,16 @@
       "stats": {
         "totalVotes": 1437,
         "totalSubs": 4,
-        "totalChatMessages": 186,
-        "totalStreamMinutes": 1896,
+        "totalChatMessages": 188,
+        "totalStreamMinutes": 1901,
         "emotes": {
           "❤": 14,
           "🙌": 10,
           "🔥": 5,
           "💚": 2,
           "🤝": 1,
-          "🔴": 14,
-          "🎉": 14,
+          "🔴": 15,
+          "🎉": 15,
           "🗳": 45,
           "📴": 13,
           "👋": 13,
@@ -8738,17 +8738,9 @@
           "😜": "😜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786745868344
+        "lastChatAt": 1786809472307
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 200 votes, @DofferLive!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 200 vote(s) (total: 500)! Thank you!! 🗳️"
-        },
         {
           "user": "dofferlive",
           "msg": "here  u  gooo"
@@ -8780,6 +8772,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 200 vote(s) (total: 900)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -8795,7 +8795,7 @@
       "avatarUrl": "https://pbs.twimg.com/profile_images/1997811286168440832/QsvpEBYx_normal.jpg",
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "117 votes giveaway |Marvel rivals| !wheelentries — Marvel Rivals",
       "lastStreamInfo": "117 votes giveaway |OTG grind | !wheelentries — Off The Grid",
       "lastStreamEndedAt": 1786745814873,
       "gameOverride": "",
