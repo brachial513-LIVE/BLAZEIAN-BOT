@@ -816,7 +816,7 @@
       "stats": {
         "totalVotes": 8373,
         "totalSubs": 21,
-        "totalChatMessages": 15622,
+        "totalChatMessages": 15623,
         "totalStreamMinutes": 1586,
         "emotes": {
           "🔥": 797,
@@ -972,7 +972,7 @@
           "🐢": "🐢",
           "🤑": "🤑"
         },
-        "lastChatAt": 1786835184255,
+        "lastChatAt": 1786835201502,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4748,8 +4748,8 @@
       "stats": {
         "totalVotes": 3338,
         "totalSubs": 21,
-        "totalChatMessages": 255,
-        "totalStreamMinutes": 5242,
+        "totalChatMessages": 257,
+        "totalStreamMinutes": 5247,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -4794,20 +4794,12 @@
           "🤧": "🤧",
           "♥": "♥"
         },
-        "lastChatAt": 1786834838200,
+        "lastChatAt": 1786835480702,
         "sendFailStreak": 25,
         "lastSendFailAt": 1786833524792,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@chupacol gifted a Sub to @corinloch! Thank you!"
-        },
-        {
-          "user": "chupacol",
-          "msg": "EU FALECI"
-        },
         {
           "user": "chupacol",
           "msg": "de sono"
@@ -4839,6 +4831,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "gabrel",
+          "msg": "Gabriel oq?"
+        },
+        {
+          "user": "gabrel",
+          "msg": "To ouvindo em"
         }
       ],
       "customCommands": {},
@@ -10076,8 +10076,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786816311069,
   "auth": {
-    "accessToken": "b175931e79ce4d38476a82fe96e0d6c0",
-    "refreshToken": "8ec8ac2bcf0c6ae182ed8d1b30979a8b",
+    "accessToken": "c65352cb32523608bef6d098548663f4",
+    "refreshToken": "e65d9c674f99f82fab63d2732b6b644e",
     "sessionToken": "fbabbbcfc7ee2e1085c015e86701bf2d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
