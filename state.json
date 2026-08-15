@@ -1076,7 +1076,7 @@
       "stats": {
         "totalVotes": 7887,
         "totalSubs": 99,
-        "totalChatMessages": 4510,
+        "totalChatMessages": 4511,
         "totalStreamMinutes": 12719,
         "emotes": {
           "📊": 3,
@@ -1337,13 +1337,9 @@
           "😆": "😆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786756648622
+        "lastChatAt": 1786785680068
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -1379,6 +1375,10 @@
         {
           "user": "agent00zani",
           "msg": "i wanted to play something"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thank you @cesteni"
         }
       ],
       "customCommands": {},
@@ -10054,8 +10054,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786721423472,
   "auth": {
-    "accessToken": "6ea855cba06db65dca03aaf8c3d5a8ae",
-    "refreshToken": "783cda5f14e64836f2d634fecd857c9d",
+    "accessToken": "d594601bad51e38964f4d8b9674f1c9d",
+    "refreshToken": "1a12df4f19ef6e64357ee02cb9f0ae53",
     "sessionToken": "4d52bd5ed2ec3d8b7365ab28bb784d26",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
