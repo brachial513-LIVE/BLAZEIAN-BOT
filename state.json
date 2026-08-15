@@ -5183,7 +5183,7 @@
       "stats": {
         "totalVotes": 1782,
         "totalSubs": 22,
-        "totalChatMessages": 1002,
+        "totalChatMessages": 1004,
         "totalStreamMinutes": 7600,
         "emotes": {
           "🔥": 279,
@@ -5192,8 +5192,8 @@
           "🤣": 3,
           "☕": 26,
           "💪": 2,
-          "📴": 27,
-          "👋": 29,
+          "📴": 28,
+          "👋": 30,
           "👽": 28,
           "💀": 6,
           "🗳": 102,
@@ -5277,18 +5277,10 @@
           "🫐": "🫐",
           "😇": "😇"
         },
-        "lastChatAt": 1786822403535,
+        "lastChatAt": 1786823784171,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 9 votes, @tuff3rmrd3ano!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 9 vote(s) (total: 9)! Thank you!! 🗳️"
@@ -5320,6 +5312,14 @@
         {
           "user": "fluffy",
           "msg": "I just lurking"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5329,14 +5329,14 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "Poolside Combat Zone: Powered by A-Bomb Energy 🔥GAMEFOLIO PRO code TOWER for the EXTRAS⚡ — Battlefield 6",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "We're a BLAZE community fueled by gaming, especially Delta Force, anime, and a passion for dropping votes 💥🎮, celebrating with BLAZE ON Brother! and TTYL! shoutouts. We're all about the TOWER Crew, voting is LIVE, and subs are appreciated. We love a good ☕, Team VPZONE 💥, going FULL SEND, and BLAZING it! We drop BLAZE ON Brother! and BLAZE it! to celebrate milestones, and our streamer loves a good BLAZE ON Brother! and TTYL! when we show appreciation.",
       "_profileAtCount": 714,
       "nudgedAt": 1785280330455,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Poolside Combat Zone: Powered by A-Bomb Energy 🔥GAMEFOLIO PRO code TOWER for the EXTRAS⚡ — Battlefield 6",
-      "lastStreamEndedAt": 1786807780553
+      "lastStreamEndedAt": 1786823778960
     },
     "b1d9a6f8-4003-43ab-8962-830173e1225a": {
       "username": "saboomafoo",
@@ -7398,7 +7398,7 @@
       "stats": {
         "totalVotes": 7582,
         "totalSubs": 0,
-        "totalChatMessages": 10134,
+        "totalChatMessages": 10152,
         "totalStreamMinutes": 4657,
         "emotes": {
           "❤": 21,
@@ -7407,7 +7407,7 @@
           "🔥": 15,
           "🔴": 36,
           "🎉": 73,
-          "🪙": 390,
+          "🪙": 392,
           "⚡": 86,
           "👀": 8,
           "🍿": 2,
@@ -7502,7 +7502,8 @@
           "🚬": 1,
           "📷": 2,
           "🪡": 1,
-          "🐗": 1
+          "🐗": 1,
+          "🍨": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7606,51 +7607,52 @@
           "🚬": "🚬",
           "📷": "📷",
           "🪡": "🪡",
-          "🐗": "🐗"
+          "🐗": "🐗",
+          "🍨": "🍨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786823057191
+        "lastChatAt": 1786824242810
       },
       "chatMemory": [
         {
-          "user": "solucao",
-          "msg": "Boa tarde Júnior futebol"
-        },
-        {
-          "user": "nilomusculos_7",
-          "msg": "Ola Daniel sou oh nilo"
-        },
-        {
-          "user": "nilomusculos_7",
-          "msg": "Iiii kkkk"
-        },
-        {
-          "user": "nilomusculos_7",
-          "msg": "Gol do Rayo valecano"
-        },
-        {
-          "user": "nilomusculos_7",
-          "msg": "Iiii me entreguei"
-        },
-        {
-          "user": "nilomusculos_7",
-          "msg": "Falha grotesca do goleiro do srvilha"
-        },
-        {
-          "user": "nilomusculos_7",
-          "msg": "Cazetv"
-        },
-        {
-          "user": "nilomusculos_7",
-          "msg": "As 2 coisas"
-        },
-        {
-          "user": "nilomusculos_7",
-          "msg": "Hoje é tem.futebol até meia noite igual a maratona"
-        },
-        {
           "user": "nilomusculos_7",
           "msg": "Já tô no quarto jogo seguido hoje ainda tem mas 3 pra assistir kkk"
+        },
+        {
+          "user": "nilomusculos_7",
+          "msg": "Serão 7 jogos meu recorde em sequência"
+        },
+        {
+          "user": "solucao",
+          "msg": "Edao está encomendando o sorvete 🍨"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @solucao 11,150 points."
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @nilomusculos_7 40 points."
+        },
+        {
+          "user": "botger",
+          "msg": "Doações Live pix: https://livepix.gg/maniadk"
+        },
+        {
+          "user": "mig779",
+          "msg": "cheio de casais, ent minha raridatde ta maior"
+        },
+        {
+          "user": "solucao",
+          "msg": "Boa tarde Miguel tudo bem"
+        },
+        {
+          "user": "solucao",
+          "msg": "Miguel vamos jogar"
+        },
+        {
+          "user": "mig779",
+          "msg": "vamos"
         }
       ],
       "customCommands": {},
@@ -7679,7 +7681,7 @@
         "totalVotes": 2766,
         "totalSubs": 8,
         "totalChatMessages": 590,
-        "totalStreamMinutes": 3618,
+        "totalStreamMinutes": 3638,
         "emotes": {
           "❤": 44,
           "🙌": 20,
@@ -8705,8 +8707,8 @@
       "stats": {
         "totalVotes": 1437,
         "totalSubs": 4,
-        "totalChatMessages": 196,
-        "totalStreamMinutes": 2002,
+        "totalChatMessages": 201,
+        "totalStreamMinutes": 2022,
         "emotes": {
           "❤": 16,
           "🙌": 11,
@@ -8744,29 +8746,9 @@
           "😜": "😜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786822709300
+        "lastChatAt": 1786824100207
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "I am zani"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "All best in your games"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @tenshi!"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ tenshi just followed the channel! Welcome!! 🙌"
@@ -8786,6 +8768,26 @@
         {
           "user": "marioscy5",
           "msg": "Spinning my wheel in 20 minutes"
+        },
+        {
+          "user": "marioscy5",
+          "msg": "hello"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "winnner"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "i8nnner"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "winnner"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "winnn"
         }
       ],
       "customCommands": {
@@ -8974,8 +8976,8 @@
       "stats": {
         "totalVotes": 1393,
         "totalSubs": 14,
-        "totalChatMessages": 453,
-        "totalStreamMinutes": 1027,
+        "totalChatMessages": 459,
+        "totalStreamMinutes": 1047,
         "emotes": {
           "😅": 1,
           "🔥": 13,
@@ -9007,33 +9009,9 @@
           "😜": "😜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786822013465
+        "lastChatAt": 1786823466591
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "ngayon ba yon"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "dinba tmrw yun"
-        },
-        {
-          "user": "fartvader",
-          "msg": "now na siya hehe..elts join"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "hala ka"
-        },
-        {
-          "user": "fartvader",
-          "msg": "switching to the otherside.. brb folks"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:f1697b36-b55e-4126-a445-57cc12632693] [emote:f1697b36-b55e-4126-a445-57cc12632693] [emote:f1697b36-b55e-4126-a445-57cc12632693]"
-        },
         {
           "user": "fartvader",
           "msg": "my stream might get disconnected guys.."
@@ -9049,6 +9027,30 @@
         {
           "user": "seekas",
           "msg": "[emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "thank you seekas!"
+        },
+        {
+          "user": "fartvader",
+          "msg": "hehe you too"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:f1697b36-b55e-4126-a445-57cc12632693] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:f1697b36-b55e-4126-a445-57cc12632693]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "lets goooo broooooo"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "hahaha lesgooo.. [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
         }
       ],
       "customCommands": {},
