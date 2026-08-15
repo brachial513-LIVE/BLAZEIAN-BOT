@@ -6179,8 +6179,8 @@
       "stats": {
         "totalVotes": 7234,
         "totalSubs": 50,
-        "totalChatMessages": 971,
-        "totalStreamMinutes": 6228,
+        "totalChatMessages": 972,
+        "totalStreamMinutes": 6232,
         "emotes": {
           "❤": 37,
           "🙌": 74,
@@ -6248,13 +6248,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786832107592
+        "lastChatAt": 1786832743771
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 12 vote(s) (total: 12)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 5 vote(s) (total: 17)! Thank you!! 🗳️"
@@ -6290,6 +6286,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "faithy_",
+          "msg": "i need better gpu? it's 4060 might run good"
         }
       ],
       "customCommands": {},
@@ -10071,8 +10071,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786816311069,
   "auth": {
-    "accessToken": "9a369a1f93da4c51f49329721fc13fb2",
-    "refreshToken": "f91a107367cf51601d40a7b4733ffaa2",
+    "accessToken": "b175931e79ce4d38476a82fe96e0d6c0",
+    "refreshToken": "8ec8ac2bcf0c6ae182ed8d1b30979a8b",
     "sessionToken": "fbabbbcfc7ee2e1085c015e86701bf2d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
