@@ -21,11 +21,17 @@ const crypto         = require("crypto");
 // AI brain (optional) — set GROQ_API_KEY in Render to switch the bot from canned replies to a real, contextual brain
 const AI_KEY         = process.env.GROQ_API_KEY || process.env.AI_API_KEY || "";
 const AI_MODEL       = process.env.AI_MODEL || "llama-3.3-70b-versatile";
-// Cheaper, high-throughput model for background work (profile learning, event shoutouts)
-// and light/quick chat tasks. Keeps the smart 70b's limited daily budget free for real replies.
-// NOTE: was llama-3.1-8b-instant until Groq decommissioned that model on 2026-08-16; migrated to
-// Groq's recommended replacement gpt-oss-20b (even faster on Groq, ~1000 tps). Override via env.
+// The light model for background work (profile learning, event shoutouts) and quick chat tasks —
+// keeps the smart 70b's small daily budget free for real replies. History (Groq kept killing the
+// cheap small models): llama-3.1-8b-instant (decommissioned 2026-08-16) → we tried gemma2-9b-it,
+// but Groq had ALREADY decommissioned that too → Groq's only remaining light option is gpt-oss-20b.
+// It's a REASONING model with just a 200k tokens/day free cap, so we force reasoning_effort:"low" on
+// every light call below (see LIGHT_REASONING) to stop it burning ~1274 tokens on hidden reasoning
+// per short shoutout. Override the model via the AI_MODEL_LIGHT env var (it wins over this default).
 const AI_MODEL_LIGHT = process.env.AI_MODEL_LIGHT || "openai/gpt-oss-20b";
+// Only send reasoning_effort when the light model is a gpt-oss reasoning model (harmless to omit for
+// non-reasoning models, and sending an unknown param to some models could error).
+const LIGHT_REASONING = /gpt-oss/i.test(AI_MODEL_LIGHT) ? { reasoning_effort: "low" } : {};
 // Live web search (optional) — set TAVILY_API_KEY in Render (tavily.com: 1,000 free API credits/month,
 // no credit card required, built for AI-agent use cases) to let the bot answer real "what would I
 // Google" questions (scores, news, prices, etc.) instead of just admitting it can't. Without this
@@ -1174,7 +1180,7 @@ async function planWebSearch(userMessage, ch) {
     : "";
   try {
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
-      model: AI_MODEL_LIGHT,
+      model: AI_MODEL_LIGHT, ...LIGHT_REASONING,
       messages: [{ role: "user", content:
         `Message: "${userMessage}"${liveContext}\n\nDoes answering this need a LIVE web search for current/real-world facts (news, scores, results, prices, "the latest X", who won something, real events) that a language model's training data likely doesn't reliably have?\n\nReply in EXACTLY this format, nothing else:\nLine 1: YES or NO\nLine 2 (ONLY if YES): a short, clear, unambiguous web search query for it. Add disambiguating words whenever the subject could also mean something unrelated in the real world (e.g. a game/show title that's also a common word or brand name). IMPORTANT: "WM" is German shorthand for "Weltmeisterschaft" — when you see "WM" with no other sport specified, it means the FOOTBALL/SOCCER WORLD CUP. Always write your query as "World Cup" in that case — NEVER interpret "WM" as WWE, WrestleMania, or wrestling.` }],
       max_tokens: 50,
@@ -1474,7 +1480,7 @@ async function learnAboutPerson(username) {
       `Only state what is plainly supported by their messages — no guessing. If nothing safe and durable can be said, ` +
       `reply exactly: NOTHING. Output only the sentence itself.`;
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
-      model: AI_MODEL_LIGHT, messages: [{ role: "user", content: prompt }], max_tokens: 90, temperature: 0.3,
+      model: AI_MODEL_LIGHT, ...LIGHT_REASONING, messages: [{ role: "user", content: prompt }], max_tokens: 90, temperature: 0.3,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 12000 });
     let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
     // The model was told to reply exactly "NOTHING" when there's nothing to store, but it often wraps that
@@ -1760,7 +1766,7 @@ async function aiShout(ch, instruction, { addName } = {}) {
   }
   try {
     const res = await throttledGroqCall(() => axios.post("https://api.groq.com/openai/v1/chat/completions", {
-      model: AI_MODEL_LIGHT,
+      model: AI_MODEL_LIGHT, ...LIGHT_REASONING,
       messages: [
         { role: "system", content: SHOUT_PERSONA + channelContext(ch) + knownNote },
         { role: "user", content: `${instruction}\n\nWrite ONE short, punchy chat message in character (max ~1 sentence). No quotation marks, no markdown. If a concrete number or NAME is given above (like a vote count or the streamer's actual username), state it PLAINLY and LITERALLY, using the exact text given — never replace it with a vague phrase, and NEVER output a generic bracket placeholder like "[streamer]", "[name]", "[username]" as if it were real text. Proven live failure: a vote celebration wrote "...for voting 10 points for [streamer]!" instead of using the real channel name it was given in this same instruction — that literal placeholder leaking into chat makes no sense to anyone reading it. LANGUAGE: this is an event celebration, not a reply to someone's chat message, so there's no message to detect a language from — reply ENTIRELY in ${langName} (this channel's configured language). CRITICAL, proven live failure: a celebration wrote "...gaming shenanigans" in English but dropped in the single German word "Richtig" — even ONE stray word from another language is a hard fail. Before answering, check every single word is ${langName} and nothing else.` }
@@ -1930,7 +1936,7 @@ async function learnChannelProfile(channelId) {
       `CRITICAL — NEVER include the name of ANY person, viewer, streamer or bot, except "${ch.username}" (whose channel this is). No usernames, no nicknames, no "X's shoutouts", not even as an example of a catchphrase. This profile is injected into every single reply, so a name in here gets repeated at random in unrelated moments — proven live: a profile said the chat loves "Doffer Live" shoutouts, and the bot then announced "Doffer just got a love fest!" to a chat where nobody had mentioned him. Describe HABITS, never PEOPLE.\n\n` +
       `Output ONLY the profile text.`;
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
-      model: AI_MODEL_LIGHT, messages: [{ role: "user", content: prompt }], max_tokens: 150, temperature: 0.4,
+      model: AI_MODEL_LIGHT, ...LIGHT_REASONING, messages: [{ role: "user", content: prompt }], max_tokens: 150, temperature: 0.4,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 12000 });
     let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
     if (text) {
