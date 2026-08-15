@@ -2562,7 +2562,7 @@
       "username": "anikisnow",
       "language": "en",
       "stats": {
-        "totalVotes": 5464,
+        "totalVotes": 5466,
         "totalSubs": 77,
         "totalChatMessages": 332,
         "totalStreamMinutes": 1948,
@@ -3685,7 +3685,7 @@
       "username": "slothsm",
       "language": "en",
       "stats": {
-        "totalVotes": 4511,
+        "totalVotes": 4512,
         "totalSubs": 66,
         "totalChatMessages": 433,
         "totalStreamMinutes": 9177,
@@ -6173,8 +6173,8 @@
       "stats": {
         "totalVotes": 7175,
         "totalSubs": 49,
-        "totalChatMessages": 957,
-        "totalStreamMinutes": 6113,
+        "totalChatMessages": 958,
+        "totalStreamMinutes": 6118,
         "emotes": {
           "❤": 37,
           "🙌": 73,
@@ -6242,13 +6242,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786774597706
+        "lastChatAt": 1786774805247
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "faithy_",
           "msg": "Our stream continues flooded in nearby areas please be safe!"
@@ -6284,6 +6280,10 @@
         {
           "user": "briggsy",
           "msg": "More stealth"
+        },
+        {
+          "user": "faithy_",
+          "msg": "mom is calling brb."
         }
       ],
       "customCommands": {},
@@ -10050,8 +10050,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786721423472,
   "auth": {
-    "accessToken": "b5f20250b2cfff899890966366743e9c",
-    "refreshToken": "7717584998df5ceb474d5e198c80aea6",
+    "accessToken": "7b8179bac98466a656cdaf9a7de47fee",
+    "refreshToken": "d3ad679019eac19f0e5221794c2a4514",
     "sessionToken": "4d52bd5ed2ec3d8b7365ab28bb784d26",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
