@@ -7398,7 +7398,7 @@
       "stats": {
         "totalVotes": 7582,
         "totalSubs": 0,
-        "totalChatMessages": 10110,
+        "totalChatMessages": 10113,
         "totalStreamMinutes": 4657,
         "emotes": {
           "❤": 21,
@@ -7407,7 +7407,7 @@
           "🔥": 15,
           "🔴": 36,
           "🎉": 73,
-          "🪙": 388,
+          "🪙": 389,
           "⚡": 86,
           "👀": 8,
           "🍿": 2,
@@ -7609,13 +7609,9 @@
           "🐗": "🐗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786821343940
+        "lastChatAt": 1786821830490
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🪙 @solucao 11,040 points."
-        },
         {
           "user": "solucao",
           "msg": "Sombra faz parte do programa do ratinho"
@@ -7651,6 +7647,10 @@
         {
           "user": "solucao",
           "msg": "Nilao"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @solucao 11,110 points."
         }
       ],
       "customCommands": {},
@@ -9061,7 +9061,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/ec1082d4-18b9-4e76-ad37-3f807fe24197.gif",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Otherside | w/ @nekoschwan — Otherside (by Yuga Labs)",
       "gameOverride": "",
       "profile": "It's a wild ride on fartvader's channel, where you can catch EN/PH Ghost Recon Wildlands gameplay with friends. Expect \"brooo\" and \"bros\" celebrations, \"eyyyyy\", \"yooo welcome bros!!\", \"happy gaming kuys!\", \"GM GM\", and \"much love ❤️❤️\". The community loves when fartvader says \"follow for a follow\" 🍻🔥, and drops \"WC broo!\" and \"thank you for the support my bro\".",
       "_profileAtCount": 270,
@@ -9349,7 +9349,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 36,
-        "totalStreamMinutes": 63,
+        "totalStreamMinutes": 65,
         "emotes": {
           "🧡": 1,
           "💚": 1,
@@ -9415,9 +9415,9 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9f823081-5b97-4b05-8548-0b1f2a50b6b2.gif",
-      "streamTitle": "The Future Of - Anything & Everything — IRL",
+      "streamTitle": "",
       "lastStreamInfo": "The Future Of - Anything & Everything — IRL",
-      "lastStreamEndedAt": 1786806400746,
+      "lastStreamEndedAt": 1786821693617,
       "gameOverride": "",
       "profile": "generalkev's community is all about Blaze, with a vibe that's \"Stay Amazing\" and a love for \"Blazeing\" hard. We're a crew that's all about Web3 gaming, AI, and current affairs. Catchphrases like \"Go for it\" and \"Blaze is cool\" fly around, and we're always up for a \"Love fest\" when someone drops a hot topic.",
       "_profileAtCount": 33
@@ -10067,8 +10067,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786816311069,
   "auth": {
-    "accessToken": "3d1b7ea5e2d2cee25660cdfd582645bf",
-    "refreshToken": "f9539b6e98d46668a04ba74cb0bddc9d",
+    "accessToken": "5c64e3a325f729b64fb1dae8b94962e5",
+    "refreshToken": "46170ffc40114c7b0755d21c5143b634",
     "sessionToken": "91c3ad06d041118641350e5485eb83c8",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
