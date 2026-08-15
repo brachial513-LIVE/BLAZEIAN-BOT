@@ -811,7 +811,7 @@
       "stats": {
         "totalVotes": 8298,
         "totalSubs": 21,
-        "totalChatMessages": 15589,
+        "totalChatMessages": 15594,
         "totalStreamMinutes": 1586,
         "emotes": {
           "🔥": 797,
@@ -967,7 +967,7 @@
           "🐢": "🐢",
           "🤑": "🤑"
         },
-        "lastChatAt": 1786742151093,
+        "lastChatAt": 1786765968864,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2267,7 +2267,7 @@
         "totalVotes": 5017,
         "totalSubs": 39,
         "totalChatMessages": 1676,
-        "totalStreamMinutes": 9521,
+        "totalStreamMinutes": 9529,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -2531,7 +2531,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Heading out to bunker a ship in South East Texas — IRL",
+      "streamTitle": "",
       "profile": "We're a community all about IRL maritime streams, focusing on activities like loading barges and fueling ships. We love to surf, vote for our favorite streamers, celebrate with \"BLAZE ON\", shout \"Sweet!\" when new content drops, do shots saying \"shots shots!\", and enjoy celebrating with \"BLAZE ON\". We're a chatty bunch, often sharing stories of maritime adventures and the occasional \"happy walk\".",
       "_profileAtCount": 1576,
       "gameOverride": "",
@@ -2556,7 +2556,7 @@
       "nudgedAt": 1785066991188,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Heading out to bunker a ship in South East Texas — IRL",
-      "lastStreamEndedAt": 1786719331642
+      "lastStreamEndedAt": 1786765858671
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -5179,8 +5179,8 @@
       "stats": {
         "totalVotes": 1773,
         "totalSubs": 21,
-        "totalChatMessages": 977,
-        "totalStreamMinutes": 7437,
+        "totalChatMessages": 979,
+        "totalStreamMinutes": 7446,
         "emotes": {
           "🔥": 273,
           "🔴": 96,
@@ -5188,8 +5188,8 @@
           "🤣": 3,
           "☕": 26,
           "💪": 2,
-          "📴": 25,
-          "👋": 27,
+          "📴": 26,
+          "👋": 28,
           "👽": 28,
           "💀": 6,
           "🗳": 99,
@@ -5273,18 +5273,10 @@
           "🫐": "🫐",
           "😇": "😇"
         },
-        "lastChatAt": 1786762243315,
+        "lastChatAt": 1786765983105,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
-        },
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
         {
           "user": "future42",
           "msg": "Oh ..Wow!!"
@@ -5316,6 +5308,14 @@
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5325,14 +5325,14 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "FRIDAY NIGHT LIVEPLAY TAKEOVER! 🔥Community Night with Dark Solar Tactical🔥Grab a Drink & Drop In — Just Chatting",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "We're a BLAZE community fueled by gaming, especially Delta Force, anime, and a passion for dropping votes 💥🎮, celebrating with BLAZE ON Brother! and TTYL! shoutouts. We're all about the TOWER Crew, voting is LIVE, and subs are appreciated. We love a good ☕, Team VPZONE 💥, going FULL SEND, and BLAZING it! We drop BLAZE ON Brother! and BLAZE it! to celebrate milestones, and our streamer loves a good BLAZE ON Brother! and TTYL! when we show appreciation.",
       "_profileAtCount": 714,
       "nudgedAt": 1785280330455,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "GAMEFOLIO PRO & A-BOMB ENERGY ARE A WEAPON! 🎯 DSTG IS YOUR SOURCE TO GET THEM 💥💀 — Delta Force",
-      "lastStreamEndedAt": 1786678471195
+      "lastStreamInfo": "FRIDAY NIGHT LIVEPLAY TAKEOVER! 🔥Community Night with Dark Solar Tactical🔥Grab a Drink & Drop In — Just Chatting",
+      "lastStreamEndedAt": 1786765977415
     },
     "b1d9a6f8-4003-43ab-8962-830173e1225a": {
       "username": "saboomafoo",
@@ -6172,12 +6172,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 7170,
-        "totalSubs": 48,
-        "totalChatMessages": 946,
+        "totalSubs": 49,
+        "totalChatMessages": 947,
         "totalStreamMinutes": 6060,
         "emotes": {
           "❤": 37,
-          "🙌": 72,
+          "🙌": 73,
           "💚": 3,
           "🔥": 27,
           "🗳": 318,
@@ -6197,7 +6197,7 @@
           "✌": 2,
           "☺": 1,
           "👍": 1,
-          "🎁": 92,
+          "🎁": 94,
           "😶": 6,
           "🌫": 6,
           "😍": 6,
@@ -6242,13 +6242,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786747970762
+        "lastChatAt": 1786765607415
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
@@ -6284,6 +6280,10 @@
         {
           "user": "eze_",
           "msg": "Hey faithy"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @eze_! How generous!! 🙌"
         }
       ],
       "customCommands": {},
