@@ -6180,7 +6180,7 @@
         "totalVotes": 7204,
         "totalSubs": 50,
         "totalChatMessages": 965,
-        "totalStreamMinutes": 6199,
+        "totalStreamMinutes": 6203,
         "emotes": {
           "❤": 37,
           "🙌": 74,
@@ -7678,19 +7678,19 @@
       "language": "en",
       "joinedAt": 1784664490215,
       "stats": {
-        "totalVotes": 2766,
+        "totalVotes": 2816,
         "totalSubs": 8,
-        "totalChatMessages": 590,
+        "totalChatMessages": 593,
         "totalStreamMinutes": 3663,
         "emotes": {
-          "❤": 44,
+          "❤": 46,
           "🙌": 20,
           "📴": 24,
           "👋": 25,
           "🔴": 23,
           "🎉": 34,
           "🔥": 50,
-          "🗳": 168,
+          "🗳": 171,
           "😀": 2,
           "👀": 6,
           "😃": 1,
@@ -7765,21 +7765,9 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786822683986
+        "lastChatAt": 1786829335162
       },
       "chatMemory": [
-        {
-          "user": "vroshi55",
-          "msg": "BLAZE ON!"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "REDs supporting REDs"
-        },
-        {
-          "user": "guney",
-          "msg": "❤️❤️❤️"
-        },
         {
           "user": "vroshi55",
           "msg": "No worries!"
@@ -7807,6 +7795,18 @@
         {
           "user": "guney",
           "msg": "how are you?"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 125)! Thank you!! 🗳️"
+        },
+        {
+          "user": "future42",
+          "msg": "Blaze your day guney"
+        },
+        {
+          "user": "guney",
+          "msg": "❤️❤️"
         }
       ],
       "customCommands": {},
@@ -10069,8 +10069,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786816311069,
   "auth": {
-    "accessToken": "6a3a91327fe1eb15294ba63926fc4ad1",
-    "refreshToken": "12523f635c5cb5e14360bb4734a188c5",
+    "accessToken": "a75bdf7deb6233ebda253404954df457",
+    "refreshToken": "8bda2cef776734761404f485f43e8a0b",
     "sessionToken": "9d9a7910d7e1a10981eb7bc503e0d664",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
