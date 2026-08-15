@@ -1679,12 +1679,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 7791,
-        "totalSubs": 40,
-        "totalChatMessages": 3269,
+        "totalSubs": 41,
+        "totalChatMessages": 3270,
         "totalStreamMinutes": 11131,
         "emotes": {
           "❤": 140,
-          "🙌": 99,
+          "🙌": 100,
           "🗳": 492,
           "📴": 91,
           "👋": 96,
@@ -1693,7 +1693,7 @@
           "🏆": 20,
           "🤗": 23,
           "💎": 6,
-          "🎁": 72,
+          "🎁": 74,
           "📢": 28,
           "🔥": 293,
           "😘": 28,
@@ -1860,14 +1860,10 @@
           "😲": "😲",
           "🤠": "🤠"
         },
-        "lastChatAt": 1786757107698,
+        "lastChatAt": 1786764116460,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -1903,6 +1899,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @fluffy just gifted a sub to @Tinapay! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -2267,7 +2267,7 @@
         "totalVotes": 5017,
         "totalSubs": 39,
         "totalChatMessages": 1676,
-        "totalStreamMinutes": 9496,
+        "totalStreamMinutes": 9501,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -5180,7 +5180,7 @@
         "totalVotes": 1773,
         "totalSubs": 21,
         "totalChatMessages": 977,
-        "totalStreamMinutes": 7412,
+        "totalStreamMinutes": 7417,
         "emotes": {
           "🔥": 273,
           "🔴": 96,
@@ -10050,8 +10050,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786721423472,
   "auth": {
-    "accessToken": "5efa94e0fc9681416e58782cc66022fe",
-    "refreshToken": "f00b80e60a9665fd1de4670a20a8a764",
+    "accessToken": "4e557cba8edecc5a63faeb1787070092",
+    "refreshToken": "625f2041ae37002b99b0d06eaa0ac661",
     "sessionToken": "4d52bd5ed2ec3d8b7365ab28bb784d26",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
