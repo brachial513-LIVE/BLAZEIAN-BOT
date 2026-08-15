@@ -40,7 +40,7 @@ Every streamer manages only their own channel from their own dashboard — the b
 
 - **Node.js + Express**, talking to the [official Blaze API](https://dev.blaze.stream/) over both REST and a real-time Socket.IO event stream
 - **Two independent Socket.IO sessions** — one for app-token events (chat, raids, stream status), one for user-token-only events (follows, votes, subs, gifts, tips) — so a problem on one can never take down the other
-- **Groq** — Llama 3.3 70B for real chat replies, GPT-OSS-20B for background work & event shoutouts
+- **Groq** — Llama 3.3 70B for real chat replies, GPT-OSS-20B (low reasoning) for background work & event shoutouts
 - **Tavily Search API** for live, current-world facts
 - State (channels, stats, settings) is persisted to this same repo's `state.json` via the GitHub API — no separate database
 
