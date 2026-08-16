@@ -1081,7 +1081,7 @@
       "stats": {
         "totalVotes": 8407,
         "totalSubs": 99,
-        "totalChatMessages": 4511,
+        "totalChatMessages": 4515,
         "totalStreamMinutes": 12719,
         "emotes": {
           "📊": 3,
@@ -1094,10 +1094,10 @@
           "😊": 2,
           "👋": 8,
           "🚀": 7,
-          "🦊": 124,
+          "🦊": 125,
           "😂": 38,
           "👑": 31,
-          "⭐": 41,
+          "⭐": 42,
           "🏆": 72,
           "🤗": 21,
           "💪": 20,
@@ -1122,7 +1122,7 @@
           "📣": 4,
           "🔗": 6,
           "🏷": 3,
-          "🗳": 36,
+          "🗳": 37,
           "🧠": 3,
           "🛡": 30,
           "🚩": 3,
@@ -1169,7 +1169,7 @@
           "📩": 1,
           "💸": 1,
           "💔": 1,
-          "🚨": 66,
+          "🚨": 68,
           "😇": 6,
           "🌲": 5,
           "🦕": 2,
@@ -1342,21 +1342,9 @@
           "😆": "😆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786785680068
+        "lastChatAt": 1786889296377
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@agent00zani No game is currently active! Wait for the streamer to start one."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Hey zani"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Did you want to play something?"
@@ -1384,6 +1372,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Thank you @cesteni"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "200 WEEKLY VOTE GIVEAWAY:\nhttps://x.com/pardon_my_trade/status/2088277606001185129?s=46&t=bGYLjbqz8Z4UBluTyoPtog"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🚨 200 VOTE GIVEAWAY IS LIVE! 🚨\n\nI’m giving back to the community—and helping build the future of Blaze at the same time!!\n\nHere’s how to earn entries:\n\n🗳️ Vote\n• 1–10 Votes = 1 Entry\n• 10–50 Votes = 2 Entries\n• 50+ Votes = 3 Entries\n\n⭐ Subscribe\n• 1 Sub = 1 Entry\n• 1 Gifted Sub = 2 Entries\n\n🦊 Test FoxBot AI\n• Test FoxBot AI = 2 Entries\n• Report a bug or suggestion = +1 Entry\n• Share your feedback = +1 Entry\n\nEvery vote helps support the stream!!"
         }
       ],
       "customCommands": {},
@@ -1686,7 +1686,7 @@
         "totalVotes": 7814,
         "totalSubs": 41,
         "totalChatMessages": 3343,
-        "totalStreamMinutes": 11596,
+        "totalStreamMinutes": 11601,
         "emotes": {
           "❤": 140,
           "🙌": 100,
@@ -2570,7 +2570,7 @@
         "totalVotes": 6055,
         "totalSubs": 77,
         "totalChatMessages": 336,
-        "totalStreamMinutes": 2115,
+        "totalStreamMinutes": 2120,
         "emotes": {
           "🔥": 3,
           "❤": 2,
@@ -7056,7 +7056,7 @@
         "totalVotes": 4209,
         "totalSubs": 12,
         "totalChatMessages": 934,
-        "totalStreamMinutes": 3913,
+        "totalStreamMinutes": 3918,
         "emotes": {
           "❤": 52,
           "🙌": 27,
@@ -10107,8 +10107,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786816311069,
   "auth": {
-    "accessToken": "e1990cc479257a8ef943628b7ccd2bab",
-    "refreshToken": "72db796850344bb1181cadf28a589082",
+    "accessToken": "7eb62a622b0a011908bd817c21cf4690",
+    "refreshToken": "8b831f3dea9df14bc820f1a6dedf2ba3",
     "sessionToken": "fbabbbcfc7ee2e1085c015e86701bf2d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
