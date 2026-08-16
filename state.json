@@ -6637,10 +6637,10 @@
       "stats": {
         "totalVotes": 7568,
         "totalSubs": 17,
-        "totalChatMessages": 822,
-        "totalStreamMinutes": 1084,
+        "totalChatMessages": 826,
+        "totalStreamMinutes": 1089,
         "emotes": {
-          "😂": 17,
+          "😂": 20,
           "💪": 2,
           "💚": 12,
           "😎": 1,
@@ -6722,25 +6722,9 @@
           "🫠": "🫠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786899653637
+        "lastChatAt": 1786899848435
       },
       "chatMemory": [
-        {
-          "user": "joseph",
-          "msg": "BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"
-        },
-        {
-          "user": "sheena",
-          "msg": "xD"
-        },
-        {
-          "user": "joseph",
-          "msg": "BoOoOoOoOoB"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 sheena is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "joseph",
           "msg": "Grottooooooo"
@@ -6764,6 +6748,22 @@
         {
           "user": "0xscheun",
           "msg": "Yooo Sheena"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:183194c9-300a-4dbf-a21c-23854f9e48d6]"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "Sorry"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "You were coughing 😂"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "😂😂"
         }
       ],
       "customCommands": {},
@@ -7868,7 +7868,7 @@
         "totalVotes": 1298,
         "totalSubs": 11,
         "totalChatMessages": 394,
-        "totalStreamMinutes": 3059,
+        "totalStreamMinutes": 3064,
         "emotes": {
           "❤": 14,
           "🙌": 17,
@@ -10132,8 +10132,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786894589024,
   "auth": {
-    "accessToken": "e2359d5af3999b3185b4b22a50053f9e",
-    "refreshToken": "1d5d6ff9fdb7cd106e8ad21efed66e55",
+    "accessToken": "10e1a2e18f65d982df9e1ffcc9b30813",
+    "refreshToken": "063bdb9ccb3b0103364cabb86b7045e3",
     "sessionToken": "8be5e120fb17d833b8a898faf4e24d19",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
