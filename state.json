@@ -3452,12 +3452,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 9283,
-        "totalSubs": 22,
-        "totalChatMessages": 3572,
-        "totalStreamMinutes": 6742,
+        "totalSubs": 27,
+        "totalChatMessages": 3595,
+        "totalStreamMinutes": 6748,
         "emotes": {
           "❤": 39,
-          "🙌": 111,
+          "🙌": 116,
           "🗳": 405,
           "🔴": 44,
           "🎉": 74,
@@ -3474,7 +3474,7 @@
           "😆": 59,
           "💰": 4,
           "😂": 93,
-          "🎁": 30,
+          "🎁": 40,
           "✨": 1,
           "😄": 5,
           "😁": 13,
@@ -3595,49 +3595,49 @@
           "🪩": "🪩",
           "🍺": "🍺"
         },
-        "lastChatAt": 1786840925007,
+        "lastChatAt": 1786841232547,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "You won that by a long shot"
+          "user": "scurvybot",
+          "msg": "@Future42 gifted a Sub to @twerkin_herbert! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Future42 just gifted a sub to @twerkin_herbert! How generous!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Future42 gifted a Sub to @parky! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Future42 gifted a Sub to @starmouse307319! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Future42 just gifted a sub to @parky! How generous!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Future42 gifted a Sub to @kammily! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Future42 just gifted a sub to @starmouse307319! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Future42 just gifted a sub to @kammily! How generous!! 🙌"
         },
         {
           "user": "future42",
-          "msg": "👀🔥💯👀💯🔥[emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
+          "msg": "Well it is Saturday..."
         },
         {
           "user": "briggsy",
-          "msg": "Future"
-        },
-        {
-          "user": "future42",
-          "msg": "What up my friend"
-        },
-        {
-          "user": "future42",
-          "msg": "The gang is all here"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Yessir"
-        },
-        {
-          "user": "future42",
-          "msg": "What up briggsy"
-        },
-        {
-          "user": "future42",
-          "msg": "What do I have??"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Things are great, thanks"
-        },
-        {
-          "user": "briggsy",
-          "msg": "HE made you a custom emote"
+          "msg": "Saturday indeed"
         }
       ],
       "customCommands": {},
@@ -3701,7 +3701,7 @@
       "stats": {
         "totalVotes": 4830,
         "totalSubs": 66,
-        "totalChatMessages": 434,
+        "totalChatMessages": 435,
         "totalStreamMinutes": 9265,
         "emotes": {
           "❤": 89,
@@ -3709,8 +3709,8 @@
           "🔥": 35,
           "🔴": 60,
           "🎉": 60,
-          "📴": 61,
-          "👋": 62,
+          "📴": 62,
+          "👋": 63,
           "😂": 4,
           "💚": 7,
           "💪": 2,
@@ -3757,14 +3757,10 @@
           "💀": "💀",
           "🤝": "🤝"
         },
-        "lastChatAt": 1786835613462,
+        "lastChatAt": 1786840931044,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "thekingofc",
-          "msg": "aoooo"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -3800,6 +3796,10 @@
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -4754,7 +4754,7 @@
         "totalVotes": 4028,
         "totalSubs": 21,
         "totalChatMessages": 274,
-        "totalStreamMinutes": 5338,
+        "totalStreamMinutes": 5344,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -8196,7 +8196,9 @@
           "msg": "Have a nice stream!"
         }
       ],
-      "customCommands": {},
+      "customCommands": {
+        "giveaway": "📢 ¡ATENCIÓN CHAT!\r\nSolo estaré leyendo y respondiendo el chat de Twitch.\r\n🎁 El sorteo de la skin Shadowfrost se realizará exclusivamente en Twitch. ¡Pásate para participar!\r\n👉 twitch.tv/lobowhitetv"
+      },
       "streamStart": "",
       "streamEnd": "Gracias por el apoyo, los quiero mascotas! 🐺⚡",
       "schedule": "",
