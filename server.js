@@ -1746,10 +1746,23 @@ function throttledGroqCall(fn) {
   return run;
 }
 
+// Global anti-flood cap on AI shoutouts. A vote/sub spam burst — one generous person hyping across
+// many channels at once — otherwise fires a dozen aiShout calls in ~2s, each ~1200 tokens, torching
+// the free-tier daily Groq budget in seconds. Past SHOUT_MAX AI shoutouts within the last
+// SHOUT_WINDOW_SEC seconds, aiShout returns null and the caller falls back to its canned line (so
+// every channel still thanks the person — just not AI-fresh during the flood). Normal-paced events
+// are unaffected. Tunable live via the SHOUT_MAX / SHOUT_WINDOW_SEC env vars (no redeploy needed).
+const SHOUT_MAX = Number(process.env.SHOUT_MAX) || 5;
+const SHOUT_WINDOW_MS = (Number(process.env.SHOUT_WINDOW_SEC) || 15) * 1000;
+let shoutTimes = [];
 async function aiShout(ch, instruction, { addName } = {}) {
   if (!AI_KEY || !ch) return null;
   const cid = Object.keys(channels).find(id => channels[id] === ch);
   if (cid && onCooldown(cid, "aishout", 4000)) return null;
+  const _now = Date.now();
+  shoutTimes = shoutTimes.filter(t => _now - t < SHOUT_WINDOW_MS);
+  if (shoutTimes.length >= SHOUT_MAX) return null; // flood → caller uses its canned line
+  shoutTimes.push(_now);
   if (cid) markFired(cid, "aishout");
   // Event celebrations (votes/subs/tips/etc.) have no user chat message to detect language from —
   // the general LANGUAGE RULE in BOT_PERSONA doesn't apply here, proven live: a vote shoutout came
