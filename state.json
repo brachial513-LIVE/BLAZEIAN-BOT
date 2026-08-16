@@ -1686,7 +1686,7 @@
         "totalVotes": 7813,
         "totalSubs": 41,
         "totalChatMessages": 3340,
-        "totalStreamMinutes": 11551,
+        "totalStreamMinutes": 11556,
         "emotes": {
           "❤": 140,
           "🙌": 100,
@@ -2570,7 +2570,7 @@
         "totalVotes": 5868,
         "totalSubs": 77,
         "totalChatMessages": 336,
-        "totalStreamMinutes": 2070,
+        "totalStreamMinutes": 2075,
         "emotes": {
           "🔥": 3,
           "❤": 2,
@@ -8729,10 +8729,10 @@
       "language": "en",
       "joinedAt": 1785705447548,
       "stats": {
-        "totalVotes": 1444,
+        "totalVotes": 1445,
         "totalSubs": 4,
-        "totalChatMessages": 215,
-        "totalStreamMinutes": 2086,
+        "totalChatMessages": 217,
+        "totalStreamMinutes": 2091,
         "emotes": {
           "❤": 18,
           "🙌": 12,
@@ -8741,7 +8741,7 @@
           "🤝": 1,
           "🔴": 17,
           "🎉": 17,
-          "🗳": 48,
+          "🗳": 51,
           "📴": 14,
           "👋": 14,
           "☺": 1,
@@ -8772,17 +8772,9 @@
           "🤗": "🤗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786886375514
+        "lastChatAt": 1786886599880
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @slayer!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @avisi!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
@@ -8814,6 +8806,14 @@
         {
           "user": "leandrineth",
           "msg": "GM GM Have a great stream too!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @leandrineth!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @leandrineth just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -10102,8 +10102,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786816311069,
   "auth": {
-    "accessToken": "dd103fbb54852ca55b0b3808f8188fea",
-    "refreshToken": "3515ed2794208bec0b042aaa8ccd84dd",
+    "accessToken": "e1990cc479257a8ef943628b7ccd2bab",
+    "refreshToken": "72db796850344bb1181cadf28a589082",
     "sessionToken": "fbabbbcfc7ee2e1085c015e86701bf2d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
