@@ -1433,7 +1433,7 @@
       "stats": {
         "totalVotes": 5041,
         "totalSubs": 16,
-        "totalChatMessages": 4249,
+        "totalChatMessages": 4252,
         "totalStreamMinutes": 4566,
         "emotes": {
           "🗳": 350,
@@ -1631,22 +1631,10 @@
           "❌": "❌",
           "😔": "😔"
         },
-        "lastChatAt": 1786936066724,
+        "lastChatAt": 1786936151108,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "dofferlive",
-          "msg": "https://discord.com/channels/1354525921729839154/1441513746135646309"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "blaze discord"
-        },
-        {
-          "user": "one",
-          "msg": "Cant join the discord through that link"
-        },
         {
           "user": "one",
           "msg": "If you want I can help test tempered @thom6ss_otg"
@@ -1674,6 +1662,18 @@
         {
           "user": "dofferlive",
           "msg": "this one"
+        },
+        {
+          "user": "one",
+          "msg": "ThanQ Doffer!"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "blaze discord onne"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "no  problem"
         }
       ],
       "customCommands": {},
@@ -2298,8 +2298,8 @@
       "stats": {
         "totalVotes": 6087,
         "totalSubs": 50,
-        "totalChatMessages": 2081,
-        "totalStreamMinutes": 9991,
+        "totalChatMessages": 2084,
+        "totalStreamMinutes": 9992,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -2513,21 +2513,9 @@
           "🫶": "🫶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786936093466
+        "lastChatAt": 1786936172970
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "hehe"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Yep, that's cool"
-        },
-        {
-          "user": "briggsy",
-          "msg": "You just upload a picture and you can do things with it, turn it into an emoji."
-        },
         {
           "user": "briggsy",
           "msg": "Good guy, Brachial"
@@ -2555,6 +2543,18 @@
         {
           "user": "briggsy",
           "msg": "https://blaze.stream/botger"
+        },
+        {
+          "user": "briggsy",
+          "msg": "You can see if VTT is part of the free version"
+        },
+        {
+          "user": "briggsy",
+          "msg": "haha, they occasionally will banter with each other."
+        },
+        {
+          "user": "briggsy",
+          "msg": "Blazeian bot is more wordy"
         }
       ],
       "customCommands": {},
@@ -9526,20 +9526,29 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1786936139903
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
       "timedMessages": [],
       "tipTiers": [],
-      "greeted": true
+      "greeted": true,
+      "locked": false,
+      "followed": true,
+      "botVip": true
     }
   },
   "blocklist": [
