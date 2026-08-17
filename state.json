@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 5285,
         "totalSubs": 33,
-        "totalChatMessages": 1602,
+        "totalChatMessages": 1603,
         "totalStreamMinutes": 1587,
         "emotes": {
           "❤": 72,
@@ -162,13 +162,9 @@
           "🐔": "🐔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786962828065
+        "lastChatAt": 1786980164542
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🟥 GMC HQ OVER AND OUT : We are Offline now - Thanks for beeing a part of this Community 🫂💚"
-        },
         {
           "user": "eze_",
           "msg": "Hey brother! Appreciate you"
@@ -204,6 +200,10 @@
         {
           "user": "brachial513",
           "msg": "@blazeian_bot_ai i sayd TELL ME A JOKE IN GERMAN"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai Tell me a german Joke"
         }
       ],
       "language": "en",
@@ -8904,9 +8904,7 @@
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
-      "customCommands": {
-        "wheelentries": "Doffer           15 entries\r\nK1ngbreaker 15 entries\r\nZer0cach         4 entries\r\nLibra Lives      4 entries\r\nFuture            2 entries\r\nguney            1 entry"
-      },
+      "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
@@ -9480,7 +9478,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 38,
+        "totalChatMessages": 42,
         "totalStreamMinutes": 66,
         "emotes": {
           "🧡": 1,
@@ -9493,25 +9491,9 @@
           "😎": "😎"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786978274022
+        "lastChatAt": 1786980168791
       },
       "chatMemory": [
-        {
-          "user": "generalkev",
-          "msg": "@blazeian_bot_ai Blaze is cool, what do you think about it?"
-        },
-        {
-          "user": "generalkev",
-          "msg": "@blazeian_bot_ai I want to increase community engagement and chat about current affairs, focussing more on AI and Web3. Give me some suggestions for our first podcast"
-        },
-        {
-          "user": "generalkev",
-          "msg": "@blazeian_bot_ai so what subjects do you suggest to kick off the podcasts?"
-        },
-        {
-          "user": "generalkev",
-          "msg": "@blazeian_bot_ai what's the most talked about area of AI right now on social media"
-        },
         {
           "user": "generalkev",
           "msg": "@blazeian_bot_ai content creation seems to be a big subject"
@@ -9535,6 +9517,22 @@
         {
           "user": "generalkev",
           "msg": "@BLAZEIAN_BOT_AI hey"
+        },
+        {
+          "user": "generalkev",
+          "msg": "@blazeian_bot_ai what is the current price of bitcoin?"
+        },
+        {
+          "user": "generalkev",
+          "msg": "Hhmm this Bot command worked yesterday"
+        },
+        {
+          "user": "midnitecatzlady",
+          "msg": "uncooperative bot"
+        },
+        {
+          "user": "generalkev",
+          "msg": "very!"
         }
       ],
       "customCommands": {},
@@ -10346,7 +10344,7 @@
   "auth": {
     "accessToken": "cc2c40377c90426defedd6d0af762173",
     "refreshToken": "8293537f4de048e52bb81edc802f4b2d",
-    "sessionToken": "22a4156a3bfe199cd74776e879678c3f",
+    "sessionToken": "61bc9ac8406524d19415c994f4b7a2f0",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
