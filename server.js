@@ -20,7 +20,13 @@ const ADMIN_KEY      = process.env.ADMIN_KEY || "";
 const crypto         = require("crypto");
 // AI brain (optional) — set GROQ_API_KEY in Render to switch the bot from canned replies to a real, contextual brain
 const AI_KEY         = process.env.GROQ_API_KEY || process.env.AI_API_KEY || "";
-const AI_MODEL       = process.env.AI_MODEL || "llama-3.3-70b-versatile";
+// Heavy conversational brain for real @-mention replies. Was llama-3.3-70b-versatile until Groq
+// DECOMMISSIONED it 2026-08-16 (same wave as the 8B) → every real reply started erroring "model does
+// not exist or you do not have access" and fell back to a canned "what do you need?" line (looked
+// like the bot got dumber — it just had no brain to think with). Groq's recommended heavy replacement
+// is openai/gpt-oss-120b (a SEPARATE model+budget from the light gpt-oss-20b). If 120b turns out not
+// to be accessible on the account, set the AI_MODEL env var to openai/gpt-oss-20b (proven working).
+const AI_MODEL       = process.env.AI_MODEL || "openai/gpt-oss-120b";
 // The light model for background work (profile learning, event shoutouts) and quick chat tasks —
 // keeps the smart 70b's small daily budget free for real replies. History (Groq kept killing the
 // cheap small models): llama-3.1-8b-instant (decommissioned 2026-08-16) → we tried gemma2-9b-it,
@@ -32,6 +38,9 @@ const AI_MODEL_LIGHT = process.env.AI_MODEL_LIGHT || "openai/gpt-oss-20b";
 // Only send reasoning_effort when the light model is a gpt-oss reasoning model (harmless to omit for
 // non-reasoning models, and sending an unknown param to some models could error).
 const LIGHT_REASONING = /gpt-oss/i.test(AI_MODEL_LIGHT) ? { reasoning_effort: "low" } : {};
+// Same idea for the heavy @-reply model: if it's a gpt-oss reasoning model, keep replies snappy and
+// token-light with low reasoning effort (chat replies don't need deep chain-of-thought).
+const HEAVY_REASONING = /gpt-oss/i.test(AI_MODEL) ? { reasoning_effort: "low" } : {};
 // Live web search (optional) — set TAVILY_API_KEY in Render (tavily.com: 1,000 free API credits/month,
 // no credit card required, built for AI-agent use cases) to let the bot answer real "what would I
 // Google" questions (scores, news, prices, etc.) instead of just admitting it can't. Without this
@@ -1700,7 +1709,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
       content: isBotName(e.user) ? e.msg : `${e.user}: ${e.msg}`
     }));
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
-      model: AI_MODEL,
+      model: AI_MODEL, ...HEAVY_REASONING,
       messages: [
         { role: "system", content: BOT_PERSONA + channelContext(ch) +
           `\n\nRECENT CHAT is provided so you understand the ongoing conversation. Reply to the LAST message from ${username} in the natural flow — reference what was just said if it's relevant, don't repeat yourself, and don't answer as if you have no context.` },
