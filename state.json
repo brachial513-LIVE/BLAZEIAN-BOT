@@ -8688,18 +8688,18 @@
       "stats": {
         "totalVotes": 4121,
         "totalSubs": 26,
-        "totalChatMessages": 265,
-        "totalStreamMinutes": 1049,
+        "totalChatMessages": 267,
+        "totalStreamMinutes": 1054,
         "emotes": {
           "❤": 20,
           "🙌": 38,
           "🗳": 87,
           "♥": 1,
           "🔴": 15,
-          "🎉": 20,
+          "🎉": 21,
           "📴": 14,
           "👋": 14,
-          "🚨": 12,
+          "🚨": 18,
           "😍": 2,
           "🫠": 3,
           "🎁": 54,
@@ -8733,17 +8733,9 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786964461536
+        "lastChatAt": 1786964572177
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ onizuka just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 nekoschwan is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "onizuka",
           "msg": "@nekoschwan have a nice stream !)"
@@ -8775,6 +8767,14 @@
         {
           "user": "cabsss",
           "msg": "[emote:d60cda6b-8ede-482a-9ddc-66907ab5ae10] [emote:d60cda6b-8ede-482a-9ddc-66907ab5ae10] [emote:d60cda6b-8ede-482a-9ddc-66907ab5ae10]"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @cabsss is raiding with a party of 7! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "cabsss",
+          "msg": "riad raid"
         }
       ],
       "customCommands": {},
@@ -10328,8 +10328,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1786894589024,
   "auth": {
-    "accessToken": "271467e32cb3a04dd2d4f0fbf7e3ec86",
-    "refreshToken": "1c6485733b5dd00243e6327385db936a",
+    "accessToken": "4a0e269e351cfacb04fc02367ecd7341",
+    "refreshToken": "535b0cc8a5c989a1a62433963e38dac0",
     "sessionToken": "8be5e120fb17d833b8a898faf4e24d19",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
