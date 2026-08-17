@@ -1433,8 +1433,8 @@
       "stats": {
         "totalVotes": 5041,
         "totalSubs": 16,
-        "totalChatMessages": 4252,
-        "totalStreamMinutes": 4566,
+        "totalChatMessages": 4253,
+        "totalStreamMinutes": 4567,
         "emotes": {
           "🗳": 350,
           "🤣": 56,
@@ -1631,14 +1631,10 @@
           "❌": "❌",
           "😔": "😔"
         },
-        "lastChatAt": 1786936151108,
+        "lastChatAt": 1786936197437,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "one",
-          "msg": "If you want I can help test tempered @thom6ss_otg"
-        },
         {
           "user": "one",
           "msg": "Where to queue?"
@@ -1674,6 +1670,10 @@
         {
           "user": "dofferlive",
           "msg": "no  problem"
+        },
+        {
+          "user": "one",
+          "msg": "Joined it"
         }
       ],
       "customCommands": {},
@@ -2298,8 +2298,8 @@
       "stats": {
         "totalVotes": 6087,
         "totalSubs": 50,
-        "totalChatMessages": 2084,
-        "totalStreamMinutes": 9992,
+        "totalChatMessages": 2086,
+        "totalStreamMinutes": 9993,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -2513,17 +2513,9 @@
           "🫶": "🫶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786936172970
+        "lastChatAt": 1786936189840
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Good guy, Brachial"
-        },
-        {
-          "user": "briggsy",
-          "msg": "true true"
-        },
         {
           "user": "briggsy",
           "msg": "There is a free version and one that is paid by subbing."
@@ -2555,6 +2547,14 @@
         {
           "user": "briggsy",
           "msg": "Blazeian bot is more wordy"
+        },
+        {
+          "user": "briggsy",
+          "msg": "haha"
+        },
+        {
+          "user": "briggsy",
+          "msg": "true"
         }
       ],
       "customCommands": {},
@@ -6226,7 +6226,7 @@
         "totalVotes": 8765,
         "totalSubs": 50,
         "totalChatMessages": 995,
-        "totalStreamMinutes": 6546,
+        "totalStreamMinutes": 6547,
         "emotes": {
           "❤": 37,
           "🙌": 74,
@@ -6587,7 +6587,7 @@
         "totalVotes": 2273,
         "totalSubs": 11,
         "totalChatMessages": 83,
-        "totalStreamMinutes": 2094,
+        "totalStreamMinutes": 2095,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -9539,7 +9539,9 @@
           "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
         }
       ],
-      "customCommands": {},
+      "customCommands": {
+        "inn": "https://discord.gg/cEkJyyK come join us to find out more! We have daily giveaways?!"
+      },
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
