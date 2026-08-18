@@ -837,7 +837,7 @@
       "stats": {
         "totalVotes": 9517,
         "totalSubs": 21,
-        "totalChatMessages": 15809,
+        "totalChatMessages": 15822,
         "totalStreamMinutes": 1586,
         "emotes": {
           "🔥": 797,
@@ -993,7 +993,7 @@
           "🐢": "🐢",
           "🤑": "🤑"
         },
-        "lastChatAt": 1787062159636,
+        "lastChatAt": 1787066493621,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1019,18 +1019,6 @@
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2: 1 tickets | 0 wins"
-        },
-        {
-          "user": "botger",
-          "msg": "No keyword set. Use !setkeyword first."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "No game is currently active!"
-        },
-        {
-          "user": "blazegames_bot",
           "msg": "No game is currently active!"
         },
         {
@@ -1040,6 +1028,18 @@
         {
           "user": "botger",
           "msg": "No keyword set. Use !setkeyword first."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2: 1 tickets | 0 wins"
+        },
+        {
+          "user": "botger",
+          "msg": "No keyword set. Use !setkeyword first."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "No game is currently active!"
         }
       ],
       "customCommands": {},
@@ -1102,8 +1102,8 @@
       "stats": {
         "totalVotes": 10773,
         "totalSubs": 101,
-        "totalChatMessages": 4770,
-        "totalStreamMinutes": 13372,
+        "totalChatMessages": 4771,
+        "totalStreamMinutes": 13392,
         "emotes": {
           "📊": 3,
           "🔥": 307,
@@ -1237,7 +1237,7 @@
           "🌊": 2,
           "0e7260fc-922c-45c7-990b-1279793c9988": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2
         },
         "emoteNames": {
           "📊": "📊",
@@ -1375,13 +1375,9 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787065256637
+        "lastChatAt": 1787066117319
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "GM GM"
-        },
         {
           "user": "foxbotai",
           "msg": "Thank you @Ruri666 for voting with 1 votes! FoxBot AI appreciates your support! +3 FoxCoins. Balance: 3 FoxCoins."
@@ -1417,6 +1413,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Any day works for me"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
         }
       ],
       "customCommands": {},
@@ -5738,7 +5738,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 41,
+        "totalChatMessages": 42,
         "totalStreamMinutes": 3113,
         "emotes": {
           "💪": 2,
@@ -5750,14 +5750,10 @@
           "💚": "💚",
           "🔥": "🔥"
         },
-        "lastChatAt": 1787061644358,
+        "lastChatAt": 1787065356391,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "Keep up Blazeing 💚💚💚"
-        },
         {
           "user": "haidenberth",
           "msg": "Hola"
@@ -5793,6 +5789,10 @@
         {
           "user": "ruri666",
           "msg": "GM GM"
+        },
+        {
+          "user": "peperonitostv",
+          "msg": "Have a nice stream!"
         }
       ],
       "customCommands": {},
@@ -5806,12 +5806,12 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/57ce46fe-2b75-41bc-8bb7-fc5e7b7c1118-profile_image-300x300.png",
-      "streamTitle": "👑 CREADORA OFICIAL EN RANKED 🔥 ¡A POR EL RANK! | HONOR OF KINGS — Honor of kings",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0,
-      "lastStreamInfo": "👉 🔥 ¡A POR EL RANK! 👑 HONOR OF KINGS | CREADORA OFICIAL + RANKE — Honor of kings",
-      "lastStreamEndedAt": 1786999126275
+      "lastStreamInfo": "👑 CREADORA OFICIAL EN RANKED 🔥 ¡A POR EL RANK! | HONOR OF KINGS — Honor of kings",
+      "lastStreamEndedAt": 1787065359078
     },
     "30a3c675-be0d-4014-831f-6051350ffbf0": {
       "username": "tester",
@@ -6761,7 +6761,7 @@
         "totalVotes": 2343,
         "totalSubs": 11,
         "totalChatMessages": 92,
-        "totalStreamMinutes": 2314,
+        "totalStreamMinutes": 2334,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -7432,13 +7432,13 @@
       "stats": {
         "totalVotes": 2340,
         "totalSubs": 18,
-        "totalChatMessages": 588,
-        "totalStreamMinutes": 1601,
+        "totalChatMessages": 590,
+        "totalStreamMinutes": 1607,
         "emotes": {
           "❤": 56,
           "🙌": 32,
-          "📴": 16,
-          "👋": 16,
+          "📴": 17,
+          "👋": 17,
           "🎁": 34,
           "🗳": 84,
           "⚠": 1,
@@ -7487,17 +7487,9 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787065302215
+        "lastChatAt": 1787065713897
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "I appreciate it a lot &lt;3"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "jeffstv",
           "msg": "gm gm"
@@ -7529,6 +7521,14 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @peperonitostv at https://blaze.stream/peperonitostv!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7540,15 +7540,15 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0e14bbf3-b90e-49a5-ac9c-ec64e50a164d.jpg",
-      "streamTitle": "WATCH PARTY - THE INTERNATIONAL 💜💜 — Dota 2",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "We're a chill community that loves VALORANT and good vibes, living that \"valooooo\" life with \"sali ako pagtapos\" moments. We say \"RURAAAAAAAAAAAAAAAAY\" and \"NOXXXXXXXXXXXXXXXXXX!!!!!!\" when we're excited, and \"beng beng lang\" when we're having a chill time. We love gifts \"🎁\" and \"🗳️\" moments, especially when ruri666 gifts subs, playing together, and celebrating wins with a good \"🎉\".",
       "_profileAtCount": 466,
       "nudgedAt": 1785164605243,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "WAYFINDERS PH 💜💜 - WATCH PARTY - THE INTERNATIONAL — Dota 2",
-      "lastStreamEndedAt": 1786808803645
+      "lastStreamInfo": "WATCH PARTY - THE INTERNATIONAL 💜💜 — Dota 2",
+      "lastStreamEndedAt": 1787065708660
     },
     "9cc85373-5150-438b-95b7-0c7ff092bfe4": {
       "username": "willdres",
@@ -8197,7 +8197,7 @@
         "totalVotes": 7198,
         "totalSubs": 5,
         "totalChatMessages": 1822,
-        "totalStreamMinutes": 2889,
+        "totalStreamMinutes": 2909,
         "emotes": {
           "❤": 30,
           "🙌": 19,
@@ -9417,7 +9417,7 @@
         "totalVotes": 2153,
         "totalSubs": 39,
         "totalChatMessages": 258,
-        "totalStreamMinutes": 1001,
+        "totalStreamMinutes": 1021,
         "emotes": {
           "❤": 32,
           "🙌": 56,
@@ -10036,8 +10036,8 @@
     },
     "briggsy": {
       "note": "Briggsy loves music like Bidlo and Primus, chats about games and backstories, and keeps the vibe light and playful with humor.",
-      "at": 1786961908995,
-      "n": 27
+      "at": 1787066370136,
+      "n": 28
     },
     "lostsnow": {
       "note": "Friendly, humorous, loves chatting, creating digital art and NFTs, enjoys playing Kingdom Hearts and Hearthstone, and often shares lighthearted banter.",
