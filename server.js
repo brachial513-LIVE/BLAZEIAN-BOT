@@ -1716,7 +1716,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
         ...historyMsgs,
         { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${blazeStatusNote}${searchBlock}${crewStatsBlock}${websiteInfoBlock}${giveawayBlock}\n\nReply in character, in one short chat message. Support ${channelName} (the current streamer), not anyone else.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
       ],
-      max_tokens: 120,
+      max_tokens: 400, // headroom so gpt-oss reasoning (counts against this) can't truncate the reply mid-sentence; this runs on the heavy model's own budget, so no shoutout-budget impact
       // 0.9 gave the most "alive" replies but also let language-mixing slip through more often
       // (proven live: "Richtig Mega vibes all around!" — German word dropped into an English reply,
       // despite the persona explicitly forbidding exactly that). 0.8 keeps most of the personality
@@ -1793,7 +1793,10 @@ async function aiShout(ch, instruction, { addName } = {}) {
         { role: "system", content: SHOUT_PERSONA + channelContext(ch) + knownNote },
         { role: "user", content: `${instruction}\n\nWrite ONE short, punchy chat message in character (max ~1 sentence). No quotation marks, no markdown. If a concrete number or NAME is given above (like a vote count or the streamer's actual username), state it PLAINLY and LITERALLY, using the exact text given — never replace it with a vague phrase, and NEVER output a generic bracket placeholder like "[streamer]", "[name]", "[username]" as if it were real text. Proven live failure: a vote celebration wrote "...for voting 10 points for [streamer]!" instead of using the real channel name it was given in this same instruction — that literal placeholder leaking into chat makes no sense to anyone reading it. LANGUAGE: this is an event celebration, not a reply to someone's chat message, so there's no message to detect a language from — reply ENTIRELY in ${langName} (this channel's configured language). CRITICAL, proven live failure: a celebration wrote "...gaming shenanigans" in English but dropped in the single German word "Richtig" — even ONE stray word from another language is a hard fail. Before answering, check every single word is ${langName} and nothing else.` }
       ],
-      max_tokens: 80,
+      max_tokens: 220, // gpt-oss (reasoning model) spends part of this budget on hidden reasoning that
+      // COUNTS against max_tokens, so an 80-cap truncated shoutouts mid-sentence — e.g. "Huge thanks,
+      // 0xscheun, for" cut off before the vote count. 220 leaves room for low-effort reasoning + a
+      // complete one-line shoutout with the number. (Slightly more tokens/call — see the qwen note by AI_MODEL_LIGHT for the deeper fix.)
       temperature: 1.0,
     }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 7000 }));
     let text = (res.data?.choices?.[0]?.message?.content || "").trim().replace(/^["']|["']$/g, "").trim();
