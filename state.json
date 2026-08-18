@@ -837,7 +837,7 @@
       "stats": {
         "totalVotes": 9517,
         "totalSubs": 21,
-        "totalChatMessages": 15822,
+        "totalChatMessages": 15828,
         "totalStreamMinutes": 1586,
         "emotes": {
           "🔥": 797,
@@ -993,7 +993,7 @@
           "🐢": "🐢",
           "🤑": "🤑"
         },
-        "lastChatAt": 1787066493621,
+        "lastChatAt": 1787068255787,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1001,6 +1001,14 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
+        {
+          "user": "botger",
+          "msg": "No keyword set. Use !setkeyword first."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "No game is currently active!"
+        },
         {
           "user": "blazegames_bot",
           "msg": "@jt_squared2: 1 tickets | 0 wins"
@@ -1020,14 +1028,6 @@
         {
           "user": "blazegames_bot",
           "msg": "No game is currently active!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2: 1 tickets | 0 wins"
-        },
-        {
-          "user": "botger",
-          "msg": "No keyword set. Use !setkeyword first."
         },
         {
           "user": "blazegames_bot",
@@ -1102,8 +1102,8 @@
       "stats": {
         "totalVotes": 10773,
         "totalSubs": 101,
-        "totalChatMessages": 4771,
-        "totalStreamMinutes": 13412,
+        "totalChatMessages": 4774,
+        "totalStreamMinutes": 13432,
         "emotes": {
           "📊": 3,
           "🔥": 307,
@@ -1237,7 +1237,8 @@
           "🌊": 2,
           "0e7260fc-922c-45c7-990b-1279793c9988": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2,
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": 1
         },
         "emoteNames": {
           "📊": "📊",
@@ -1372,24 +1373,13 @@
           "🌊": "🌊",
           "0e7260fc-922c-45c7-990b-1279793c9988": "Foxbot",
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink",
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787066117319
+        "lastChatAt": 1787068788208
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "Thank you @Ruri666 for voting with 1 votes! FoxBot AI appreciates your support! +3 FoxCoins. Balance: 3 FoxCoins."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "GM GM @ruri666"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "You decide what we do next @blazeian_bot_ai"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Something with Otherside @blazeian_bot_ai"
@@ -1417,6 +1407,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "GM GM"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
         }
       ],
       "customCommands": {},
@@ -6760,8 +6762,8 @@
       "stats": {
         "totalVotes": 2343,
         "totalSubs": 11,
-        "totalChatMessages": 93,
-        "totalStreamMinutes": 2354,
+        "totalChatMessages": 94,
+        "totalStreamMinutes": 2367,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -6777,13 +6779,9 @@
           "ee93d6f9-c5c7-437f-b223-0a1b50704257": "waaahh"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787067574413
+        "lastChatAt": 1787068564688
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -6819,6 +6817,10 @@
         {
           "user": "angge_wf",
           "msg": "GM"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -6831,12 +6833,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "Hiii! — Dota 2",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to pr0ff's Ragnarok Online stream, where the 🔥 vibes are always lit! This community lives for 'DOTES' and loves when you 'gift a Sub' to celebrate milestones. Don't forget to throw in some 🔥 emojis and shout out 'thanks' when you get a love fest! pr0ff's all about the Ragnarok grind and appreciates your support.",
       "_profileAtCount": 40,
-      "lastStreamInfo": "Hiii! — Ragnarok Online",
-      "lastStreamEndedAt": 1787025341939,
+      "lastStreamInfo": "Hiii! — Dota 2",
+      "lastStreamEndedAt": 1787068564544,
       "nudgedAt": 1786524138354,
       "nudgedKey": "schedule"
     },
@@ -7273,9 +7275,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 4610,
+        "totalVotes": 4613,
         "totalSubs": 14,
-        "totalChatMessages": 1033,
+        "totalChatMessages": 1035,
         "totalStreamMinutes": 4003,
         "emotes": {
           "❤": 52,
@@ -7287,7 +7289,7 @@
           "💪": 1,
           "💚": 6,
           "🔥": 69,
-          "🗳": 402,
+          "🗳": 405,
           "🤗": 4,
           "📴": 22,
           "🎁": 26,
@@ -7354,17 +7356,9 @@
           "🤭": "🤭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787060538930
+        "lastChatAt": 1787068021619
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "Big appreciation & Thanks for dropping votes! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 2 votes, @Tinapay!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
@@ -7396,6 +7390,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Ruri666 just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 3 votes, @b1injaninja!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @b1injaninja just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8194,21 +8196,21 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 7198,
+        "totalVotes": 7203,
         "totalSubs": 5,
-        "totalChatMessages": 1822,
-        "totalStreamMinutes": 2929,
+        "totalChatMessages": 1828,
+        "totalStreamMinutes": 2949,
         "emotes": {
           "❤": 30,
           "🙌": 19,
-          "🗳": 354,
+          "🗳": 357,
           "🔴": 27,
           "🎉": 49,
           "🏃": 1,
           "♂": 1,
           "💨": 1,
-          "😶": 15,
-          "🌫": 15,
+          "😶": 19,
+          "🌫": 19,
           "🤣": 15,
           "😂": 26,
           "📴": 27,
@@ -8291,33 +8293,9 @@
           "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787065027107
+        "lastChatAt": 1787068771399
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @tenshi!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @tenshi just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @_VladEnzo!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @_VladEnzo just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @Ruri666!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Ruri666 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
@@ -8333,6 +8311,30 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @meyetechnicals!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "fartvader",
+          "msg": "cool..helldivers 2"
+        },
+        {
+          "user": "fartvader",
+          "msg": "do they still require playstation network acc to be linked in steam?"
         }
       ],
       "customCommands": {},
@@ -9414,17 +9416,17 @@
       "language": "en",
       "joinedAt": 1786292034700,
       "stats": {
-        "totalVotes": 2153,
+        "totalVotes": 2203,
         "totalSubs": 39,
-        "totalChatMessages": 258,
-        "totalStreamMinutes": 1041,
+        "totalChatMessages": 261,
+        "totalStreamMinutes": 1061,
         "emotes": {
           "❤": 32,
           "🙌": 56,
           "🎁": 78,
           "🔴": 9,
           "🎉": 13,
-          "🗳": 60,
+          "🗳": 63,
           "📴": 8,
           "👋": 8,
           "🚨": 24,
@@ -9447,21 +9449,9 @@
           "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787065310314
+        "lastChatAt": 1787068334056
       },
       "chatMemory": [
-        {
-          "user": "faithy_",
-          "msg": "hahahahhaha"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @seventh!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @seventh just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
         {
           "user": "seventh",
           "msg": "gm gm kuya @charddxyz"
@@ -9489,6 +9479,18 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @wapi!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
