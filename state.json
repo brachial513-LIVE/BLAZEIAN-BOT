@@ -837,7 +837,7 @@
       "stats": {
         "totalVotes": 9517,
         "totalSubs": 21,
-        "totalChatMessages": 15828,
+        "totalChatMessages": 15832,
         "totalStreamMinutes": 1586,
         "emotes": {
           "🔥": 797,
@@ -993,7 +993,7 @@
           "🐢": "🐢",
           "🤑": "🤑"
         },
-        "lastChatAt": 1787068255787,
+        "lastChatAt": 1787069526283,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1002,14 +1002,6 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "No keyword set. Use !setkeyword first."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "No game is currently active!"
-        },
-        {
           "user": "blazegames_bot",
           "msg": "@jt_squared2: 1 tickets | 0 wins"
         },
@@ -1040,6 +1032,14 @@
         {
           "user": "blazegames_bot",
           "msg": "No game is currently active!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2: 1 tickets | 0 wins"
+        },
+        {
+          "user": "botger",
+          "msg": "No keyword set. Use !setkeyword first."
         }
       ],
       "customCommands": {},
@@ -1100,10 +1100,10 @@
       "username": "crypt0k1ng96",
       "language": "en",
       "stats": {
-        "totalVotes": 10773,
+        "totalVotes": 10774,
         "totalSubs": 101,
         "totalChatMessages": 4774,
-        "totalStreamMinutes": 13435,
+        "totalStreamMinutes": 13455,
         "emotes": {
           "📊": 3,
           "🔥": 307,
@@ -3600,7 +3600,7 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 10073,
+        "totalVotes": 10074,
         "totalSubs": 28,
         "totalChatMessages": 3834,
         "totalStreamMinutes": 7514,
@@ -4091,7 +4091,7 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 8021,
+        "totalVotes": 8022,
         "totalSubs": 31,
         "totalChatMessages": 933,
         "totalStreamMinutes": 3590,
@@ -5051,7 +5051,7 @@
       "username": "bidloperv",
       "language": "en",
       "stats": {
-        "totalVotes": 7718,
+        "totalVotes": 7719,
         "totalSubs": 36,
         "totalChatMessages": 6850,
         "totalStreamMinutes": 4321,
@@ -8198,10 +8198,10 @@
       "stats": {
         "totalVotes": 7203,
         "totalSubs": 5,
-        "totalChatMessages": 1829,
-        "totalStreamMinutes": 2952,
+        "totalChatMessages": 1836,
+        "totalStreamMinutes": 2972,
         "emotes": {
-          "❤": 30,
+          "❤": 31,
           "🙌": 19,
           "🗳": 357,
           "🔴": 27,
@@ -8216,7 +8216,7 @@
           "📴": 27,
           "👋": 28,
           "🚨": 90,
-          "🔥": 41,
+          "🔥": 42,
           "💚": 19,
           "👀": 9,
           "😄": 2,
@@ -8228,7 +8228,7 @@
           "🥰": 4,
           "✌": 1,
           "👍": 2,
-          "🥷": 3,
+          "🥷": 4,
           "😀": 4,
           "🙏": 6,
           "😩": 7,
@@ -8244,7 +8244,9 @@
           "🙂": 1,
           "🫂": 3,
           "😍": 3,
-          "😭": 2
+          "😭": 2,
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -8290,40 +8292,14 @@
           "🙂": "🙂",
           "🫂": "🫂",
           "😍": "😍",
-          "😭": "😭"
+          "😭": "😭",
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2",
+          "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787069018921
+        "lastChatAt": 1787070244671
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "peperonitostv",
-          "msg": "Have a nice stream!"
-        },
-        {
-          "user": "angge_wf",
-          "msg": "GM"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @meyetechnicals!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
         {
           "user": "fartvader",
           "msg": "cool..helldivers 2"
@@ -8335,6 +8311,34 @@
         {
           "user": "fartvader",
           "msg": "ohhh thats good to know. I've stopped playing HD2 when they did that"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "hey noxx"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "nm man. Just working and lurking"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "its going good. AI does it all now so I'm just an AI babysitter"
+        },
+        {
+          "user": "silverbolt99",
+          "msg": "wats up noxxy spreading the love butill be lurkin ❤️‍🔥🥷[emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+        },
+        {
+          "user": "fluffy",
+          "msg": "Lfg @noxx"
+        },
+        {
+          "user": "fluffy",
+          "msg": "How you doing ma friend"
+        },
+        {
+          "user": "fluffy",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {},
@@ -8860,8 +8864,8 @@
       "lastStreamInfo": "Rainy and Cold Stream 😬🔥 — Crypto",
       "lastStreamEndedAt": 1787065242740,
       "gameOverride": "",
-      "profile": "GMs are the best! 🔥🔥💚💚 We're a community that loves to 'NEW FOLLOWER!!' and celebrate our streamer's live streams with 🎉 and 🔴 alerts. Weekly Giveaways on Blaze are a thing, and we're all about those 'permanently free Entries'! 💚 We 'VOTE ALERT!!' and shower love on our streamer with 'love fest' shoutouts. seventh loves being celebrated, so let's give 'em a love fest!",
-      "_profileAtCount": 55,
+      "profile": "GMs are the best! 🔥🔥💚💚 We love “NEW FOLLOWER!!” and celebrate streams with 🎉 and 🔴 alerts. Weekly Giveaways on Blaze are a thing, and we’re all about those “permanently free Entries”! 💚 We shout “VOTE ALERT!!” and shower love on the streamer with “love fest” shoutouts. seventh loves being celebrated, so let’s give ‘em a love fest!",
+      "_profileAtCount": 134,
       "followed": true
     },
     "7a2c4a3b-0542-4cd3-a90c-0e629faf6c09": {
@@ -8869,7 +8873,7 @@
       "language": "en",
       "joinedAt": 1785689052676,
       "stats": {
-        "totalVotes": 4303,
+        "totalVotes": 4304,
         "totalSubs": 26,
         "totalChatMessages": 405,
         "totalStreamMinutes": 1179,
@@ -9271,7 +9275,7 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 2222,
+        "totalVotes": 2223,
         "totalSubs": 22,
         "totalChatMessages": 580,
         "totalStreamMinutes": 1529,
@@ -9416,10 +9420,10 @@
       "language": "en",
       "joinedAt": 1786292034700,
       "stats": {
-        "totalVotes": 2203,
+        "totalVotes": 2204,
         "totalSubs": 39,
         "totalChatMessages": 261,
-        "totalStreamMinutes": 1064,
+        "totalStreamMinutes": 1084,
         "emotes": {
           "❤": 32,
           "🙌": 56,
