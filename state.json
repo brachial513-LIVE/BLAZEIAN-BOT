@@ -1107,7 +1107,7 @@
         "totalVotes": 10774,
         "totalSubs": 101,
         "totalChatMessages": 4817,
-        "totalStreamMinutes": 13795,
+        "totalStreamMinutes": 13798,
         "emotes": {
           "📊": 3,
           "🔥": 310,
@@ -1455,8 +1455,8 @@
       "stats": {
         "totalVotes": 5311,
         "totalSubs": 17,
-        "totalChatMessages": 4612,
-        "totalStreamMinutes": 4664,
+        "totalChatMessages": 4613,
+        "totalStreamMinutes": 4666,
         "emotes": {
           "🗳": 368,
           "🤣": 57,
@@ -1657,14 +1657,10 @@
           "🤪": "🤪",
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
-        "lastChatAt": 1787090579823,
+        "lastChatAt": 1787090757965,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "one",
-          "msg": "want me to trade back?"
-        },
         {
           "user": "helios",
           "msg": "Already got 12 gold"
@@ -1700,6 +1696,10 @@
         {
           "user": "helios",
           "msg": "1021 ms"
+        },
+        {
+          "user": "helios",
+          "msg": "That was insane"
         }
       ],
       "customCommands": {},
@@ -2746,8 +2746,8 @@
       "stats": {
         "totalVotes": 4041,
         "totalSubs": 19,
-        "totalChatMessages": 1015,
-        "totalStreamMinutes": 4782,
+        "totalChatMessages": 1017,
+        "totalStreamMinutes": 4784,
         "emotes": {
           "✨": 17,
           "🖥": 21,
@@ -2904,18 +2904,10 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
-        "lastChatAt": 1787090734445,
+        "lastChatAt": 1787090853917,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "tarzan",
-          "msg": "Hi"
-        },
-        {
-          "user": "parky",
-          "msg": "👋👋👋"
-        },
         {
           "user": "agent00zani",
           "msg": "Prime mister @parky"
@@ -2947,6 +2939,14 @@
         {
           "user": "guney",
           "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "not sure whats happened to audio then"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ggs"
         }
       ],
       "customCommands": {},
@@ -4101,8 +4101,8 @@
       "stats": {
         "totalVotes": 8022,
         "totalSubs": 31,
-        "totalChatMessages": 943,
-        "totalStreamMinutes": 3708,
+        "totalChatMessages": 944,
+        "totalStreamMinutes": 3711,
         "emotes": {
           "❤": 39,
           "🙌": 49,
@@ -4116,8 +4116,8 @@
           "🥲": 2,
           "🗳": 150,
           "🔴": 26,
-          "🎉": 50,
-          "🚨": 42,
+          "🎉": 51,
+          "🚨": 48,
           "📴": 26,
           "👋": 38,
           "🏅": 7,
@@ -4210,13 +4210,9 @@
           "😜": "😜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787090299695
+        "lastChatAt": 1787090756798
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🔴 vitrene is now live! Welcome everyone! 🎉"
@@ -4252,6 +4248,10 @@
         {
           "user": "vitrene",
           "msg": "I am doing awesome, how about you?"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @mindgoblin is raiding with a party of 3! Welcome raiders!! 🎉"
         }
       ],
       "customCommands": {},
@@ -5567,7 +5567,7 @@
         "totalVotes": 8879,
         "totalSubs": 189,
         "totalChatMessages": 150,
-        "totalStreamMinutes": 3202,
+        "totalStreamMinutes": 3205,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -8145,7 +8145,7 @@
         "totalVotes": 1978,
         "totalSubs": 11,
         "totalChatMessages": 443,
-        "totalStreamMinutes": 3518,
+        "totalStreamMinutes": 3520,
         "emotes": {
           "❤": 16,
           "🙌": 19,
@@ -9058,7 +9058,7 @@
         "totalVotes": 1814,
         "totalSubs": 4,
         "totalChatMessages": 277,
-        "totalStreamMinutes": 2726,
+        "totalStreamMinutes": 2728,
         "emotes": {
           "❤": 18,
           "🙌": 12,
@@ -10656,8 +10656,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787069141486,
   "auth": {
-    "accessToken": "c7776ae46e39cf0f0a516fefa32ab40c",
-    "refreshToken": null,
+    "accessToken": "5f58760ff06d8c7e81f72cc51ba25fdd",
+    "refreshToken": "992165beaf396d6424749cdc428e3f99",
     "sessionToken": "7b792f95be869a8ccb0d5eeafcef14c9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
