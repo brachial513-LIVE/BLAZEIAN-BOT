@@ -837,7 +837,7 @@
       "stats": {
         "totalVotes": 9517,
         "totalSubs": 21,
-        "totalChatMessages": 15781,
+        "totalChatMessages": 15809,
         "totalStreamMinutes": 1586,
         "emotes": {
           "🔥": 797,
@@ -993,7 +993,7 @@
           "🐢": "🐢",
           "🤑": "🤑"
         },
-        "lastChatAt": 1787023901356,
+        "lastChatAt": 1787062159636,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1027,11 +1027,11 @@
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2: 1 tickets | 0 wins"
+          "msg": "No game is currently active!"
         },
         {
-          "user": "botger",
-          "msg": "No keyword set. Use !setkeyword first."
+          "user": "blazegames_bot",
+          "msg": "No game is currently active!"
         },
         {
           "user": "blazegames_bot",
@@ -1103,7 +1103,7 @@
         "totalVotes": 10773,
         "totalSubs": 101,
         "totalChatMessages": 4762,
-        "totalStreamMinutes": 13312,
+        "totalStreamMinutes": 13332,
         "emotes": {
           "📊": 3,
           "🔥": 307,
@@ -5739,7 +5739,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 41,
-        "totalStreamMinutes": 3053,
+        "totalStreamMinutes": 3073,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -5895,7 +5895,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 16,
+        "totalChatMessages": 17,
         "totalStreamMinutes": 0,
         "emotes": {
           "👋": 2
@@ -5903,14 +5903,10 @@
         "emoteNames": {
           "👋": "👋"
         },
-        "lastChatAt": 1786909451187,
+        "lastChatAt": 1787062371337,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "parky",
-          "msg": "👋👋"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @parky!"
@@ -5946,6 +5942,10 @@
         {
           "user": "fartvader",
           "msg": "Hello!! Dropping by to say I really appreciate your support fam, I wanted to say thank you sooner than later. You are awesome! [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @capt_rob_advent!"
         }
       ],
       "customCommands": {},
@@ -6760,8 +6760,8 @@
       "stats": {
         "totalVotes": 2341,
         "totalSubs": 11,
-        "totalChatMessages": 88,
-        "totalStreamMinutes": 2258,
+        "totalChatMessages": 89,
+        "totalStreamMinutes": 2274,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -6775,13 +6775,9 @@
           "👍": "👍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787025342179
+        "lastChatAt": 1787061969278
       },
       "chatMemory": [
-        {
-          "user": "pr0ff",
-          "msg": "[emote:54621c7a-12b2-4087-b33e-76ff5bf03dff] [emote:54621c7a-12b2-4087-b33e-76ff5bf03dff] [emote:54621c7a-12b2-4087-b33e-76ff5bf03dff]"
-        },
         {
           "user": "pr0ff",
           "msg": "[emote:c620ca27-17dd-4ec2-9cff-4b8721be7064] [emote:ee93d6f9-c5c7-437f-b223-0a1b50704257] [emote:1b8b2da3-2dda-48aa-82e2-9a5000b94ad1] [emote:54621c7a-12b2-4087-b33e-76ff5bf03dff]"
@@ -6817,6 +6813,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -6829,7 +6829,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Hiii! — Dota 2",
       "gameOverride": "",
       "profile": "Welcome to pr0ff's Ragnarok Online stream, where the 🔥 vibes are always lit! This community lives for 'DOTES' and loves when you 'gift a Sub' to celebrate milestones. Don't forget to throw in some 🔥 emojis and shout out 'thanks' when you get a love fest! pr0ff's all about the Ragnarok grind and appreciates your support.",
       "_profileAtCount": 40,
@@ -7428,17 +7428,17 @@
       "language": "en",
       "joinedAt": 1784468670654,
       "stats": {
-        "totalVotes": 2335,
+        "totalVotes": 2340,
         "totalSubs": 18,
-        "totalChatMessages": 557,
-        "totalStreamMinutes": 1541,
+        "totalChatMessages": 577,
+        "totalStreamMinutes": 1561,
         "emotes": {
-          "❤": 51,
+          "❤": 54,
           "🙌": 32,
           "📴": 16,
           "👋": 16,
           "🎁": 34,
-          "🗳": 78,
+          "🗳": 84,
           "⚠": 1,
           "🎯": 1,
           "🔴": 17,
@@ -7449,8 +7449,8 @@
           "😜": 1,
           "💙": 2,
           "💜": 9,
-          "📢": 21,
-          "🔥": 51,
+          "📢": 24,
+          "🔥": 57,
           "💖": 1,
           "🤟": 2,
           "👽": 1,
@@ -7485,48 +7485,48 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787061742781
+        "lastChatAt": 1787062759208
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ Potato_Pete just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "fartvader",
-          "msg": "Hello bro! Dropping by to say I really appreciate your support fam, I wanted to say thank you sooner than later. You are awesome! [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @Tinapay!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
+          "user": "srchois",
+          "msg": "TY 4 the visit, gl hf"
         },
         {
           "user": "ruri666",
-          "msg": "WATCH PARTY - THE INTERNATIONAL 💜💜"
+          "msg": "hello hello @srchois"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @srchois, streamer of League of Legends! 🔥 Make sure to check out https://blaze.stream/srchois and show some support ❤️‍🔥"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @SrChois, who is live now, currently streaming League of Legends to 5 viewers at https://blaze.stream/srchois!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 2 votes, @b1injaninja!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @b1injaninja just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
+        },
+        {
+          "user": "ruri666",
+          "msg": "yoooo thankyou for the votes!!!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Error: Could not find Blaze channel for @b1njaninja."
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @b1njaninja, streamer of ! 🔥 Make sure to check out https://blaze.stream/b1njaninja and show some support ❤️‍🔥"
+        },
+        {
+          "user": "ruri666",
+          "msg": "I appreciate it a lot &lt;3"
         }
       ],
       "customCommands": {},
@@ -8756,12 +8756,12 @@
       "stats": {
         "totalVotes": 136,
         "totalSubs": 6,
-        "totalChatMessages": 105,
-        "totalStreamMinutes": 707,
+        "totalChatMessages": 111,
+        "totalStreamMinutes": 727,
         "emotes": {
-          "❤": 11,
+          "❤": 13,
           "🙌": 10,
-          "🔥": 15,
+          "🔥": 19,
           "💚": 3,
           "🤝": 1,
           "🔴": 6,
@@ -8771,7 +8771,7 @@
           "👋": 6,
           "💛": 1,
           "🥰": 1,
-          "📢": 3,
+          "📢": 5,
           "🎁": 12,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
@@ -8799,25 +8799,9 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787061676958
+        "lastChatAt": 1787062383547
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @seventh just gifted a sub to @FartVader! How generous!! 🙌"
-        },
-        {
-          "user": "fartvader",
-          "msg": "anyare sir"
-        },
-        {
-          "user": "fartvader",
-          "msg": "okidoks..lesgooo"
-        },
-        {
-          "user": "ruri666",
-          "msg": "GM BOWS"
-        },
         {
           "user": "fartvader",
           "msg": "buti nalang di ko nireport..muntik ko na ireport eh...jk"
@@ -8841,6 +8825,22 @@
         {
           "user": "fartvader",
           "msg": "brb bro...meeting lang hehe"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @ruri666, streamer of Dota 2! 🔥 Make sure to check out https://blaze.stream/ruri666 and show some support ❤️‍🔥"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @Ruri666, who is live now, currently streaming Dota 2 to 4 viewers at https://blaze.stream/ruri666!"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @charddxyz, streamer of Deadlock! 🔥 Make sure to check out https://blaze.stream/charddxyz and show some support ❤️‍🔥"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @charddxyz, who is live now, currently streaming Deadlock to 4 viewers at https://blaze.stream/charddxyz!"
         }
       ],
       "customCommands": {},
@@ -9412,17 +9412,17 @@
       "language": "en",
       "joinedAt": 1786292034700,
       "stats": {
-        "totalVotes": 2146,
+        "totalVotes": 2153,
         "totalSubs": 39,
-        "totalChatMessages": 249,
-        "totalStreamMinutes": 941,
+        "totalChatMessages": 254,
+        "totalStreamMinutes": 961,
         "emotes": {
           "❤": 30,
           "🙌": 55,
           "🎁": 78,
           "🔴": 9,
           "🎉": 13,
-          "🗳": 54,
+          "🗳": 60,
           "📴": 8,
           "👋": 8,
           "🚨": 24,
@@ -9445,29 +9445,9 @@
           "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787060361279
+        "lastChatAt": 1787062766808
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @DofferLive!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @onizuka!"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ onizuka just followed the channel! Welcome!! 🙌"
@@ -9487,6 +9467,26 @@
         {
           "user": "faithy_",
           "msg": "hahahahhaha"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @seventh!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @seventh just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "seventh",
+          "msg": "gm gm kuya @charddxyz"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 2 votes, @b1injaninja!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @b1injaninja just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
