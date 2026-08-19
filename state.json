@@ -1145,7 +1145,7 @@
         "totalVotes": 10800,
         "totalSubs": 103,
         "totalChatMessages": 4888,
-        "totalStreamMinutes": 14206,
+        "totalStreamMinutes": 14211,
         "emotes": {
           "📊": 3,
           "🔥": 314,
@@ -2100,8 +2100,8 @@
       "stats": {
         "totalVotes": 7037,
         "totalSubs": 6,
-        "totalChatMessages": 4485,
-        "totalStreamMinutes": 1610,
+        "totalChatMessages": 4497,
+        "totalStreamMinutes": 1615,
         "emotes": {
           "❤": 1712,
           "🎵": 157,
@@ -2186,7 +2186,8 @@
           "07de98c1-b682-4d82-b630-774474b712cc": 1,
           "b416995d-3eee-4c99-9927-86fa112b0b18": 1,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 1,
-          "dedb0949-63d9-4d58-86d1-ecf0269453d3": 1
+          "dedb0949-63d9-4d58-86d1-ecf0269453d3": 1,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -2272,9 +2273,10 @@
           "07de98c1-b682-4d82-b630-774474b712cc": "LFBLAZE2",
           "b416995d-3eee-4c99-9927-86fa112b0b18": "MEDITATINGPYRO",
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG",
-          "dedb0949-63d9-4d58-86d1-ecf0269453d3": "PYROSEGG"
+          "dedb0949-63d9-4d58-86d1-ecf0269453d3": "PYROSEGG",
+          "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
-        "lastChatAt": 1787174500639,
+        "lastChatAt": 1787174793602,
         "sendFailStreak": 0,
         "lastSendFailAt": 1786221397885,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2284,43 +2286,43 @@
       "chatMemory": [
         {
           "user": "doktorgrav",
-          "msg": "objects where they intersect but the engine handles it well for hidden if there arent many together"
-        },
-        {
-          "user": "sheshi",
-          "msg": "BACK"
-        },
-        {
-          "user": "sheshi",
-          "msg": "hello mr. weri, mrs. catz"
-        },
-        {
-          "user": "midnitecatzlady",
-          "msg": "is that the wall for the island?"
-        },
-        {
-          "user": "sheshi",
-          "msg": "hello mr. aaron"
+          "msg": "i was looking for any problems we may run into"
         },
         {
           "user": "weri",
-          "msg": "Sheshi yo you awesome dude"
-        },
-        {
-          "user": "sheshi",
-          "msg": "NO YOU ^"
+          "msg": "Everybody needs a funksol brother"
         },
         {
           "user": "doktorgrav",
-          "msg": "Unreal separates visual meshes from collision logic, making the impact dependent on your settings"
-        },
-        {
-          "user": "thearmenianx",
-          "msg": "Sheshi meshi! (Your name comes up automatically like this when I start typing! 😃)"
+          "msg": "Simple Collision (Safe): If buildings use standard \"Simple Collision\" (bounding boxes/capsules), clipping has minimal CPU impact. The engine resolves static overlaps instantly or ignores them."
         },
         {
           "user": "sheshi",
-          "msg": "🚨 Only Believe Packs are LIVE on ENJIN! $1 & $77 packs available now → (ospgame.com/shop/only-believe) Card strategy game coming soon to The Citadel. Playable OB cards across all games! (Day 7 of 77 Days of Faith) ✨"
+          "msg": "yeah i will clip this after the show"
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "but Complex Collision (Dangerous): If you enable \"Use Complex Collision as Simple,\" performance will tank. The engine attempts to calculate physics interactions for every intersecting polygon face, causing severe CPU spikes and freezing the Game Thread."
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "oh this is important. NavMesh Issues: Clipping confuses Navigation Mesh generation, potentially creating holes in AI pathfinding or forcing expensive runtime recalculations."
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "i am even more interested in Unreal now learning these differences"
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "many games I am exploring on Unreal now"
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "I was going to tell you a name of one to look at"
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "when I remember the name I will let you know"
         }
       ],
       "customCommands": {},
@@ -4252,7 +4254,7 @@
         "totalVotes": 8052,
         "totalSubs": 35,
         "totalChatMessages": 971,
-        "totalStreamMinutes": 3776,
+        "totalStreamMinutes": 3781,
         "emotes": {
           "❤": 39,
           "🙌": 53,
@@ -6160,7 +6162,7 @@
         "totalVotes": 2176,
         "totalSubs": 10,
         "totalChatMessages": 343,
-        "totalStreamMinutes": 1092,
+        "totalStreamMinutes": 1097,
         "emotes": {
           "❤": 20,
           "🙌": 21,
@@ -7043,7 +7045,7 @@
       "language": "en",
       "joinedAt": 1784461195472,
       "stats": {
-        "totalVotes": 10908,
+        "totalVotes": 10918,
         "totalSubs": 19,
         "totalChatMessages": 1130,
         "totalStreamMinutes": 1256,
@@ -7268,14 +7270,14 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 15100,
+        "totalVotes": 16600,
         "totalSubs": 27,
-        "totalChatMessages": 1497,
+        "totalChatMessages": 1498,
         "totalStreamMinutes": 644,
         "emotes": {
           "❤": 22,
           "🙌": 56,
-          "🗳": 420,
+          "🗳": 423,
           "💰": 20,
           "🔥": 41,
           "💛": 3,
@@ -7397,17 +7399,13 @@
           "💜": "💜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787170868653,
+        "lastChatAt": 1787174707141,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "desirablebottom",
           "msg": "Big appreciation & Thanks for dropping votes! 🙌"
@@ -7443,6 +7441,10 @@
         {
           "user": "cedricdebled",
           "msg": "Improve your art session"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 1500 vote(s) (total: 4550)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7782,7 +7784,7 @@
         "totalVotes": 3626,
         "totalSubs": 88,
         "totalChatMessages": 29,
-        "totalStreamMinutes": 1036,
+        "totalStreamMinutes": 1041,
         "emotes": {
           "🔥": 5,
           "😎": 1
@@ -9275,7 +9277,7 @@
         "totalVotes": 1837,
         "totalSubs": 8,
         "totalChatMessages": 310,
-        "totalStreamMinutes": 3002,
+        "totalStreamMinutes": 3007,
         "emotes": {
           "❤": 18,
           "🙌": 16,
@@ -10949,8 +10951,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787152347936,
   "auth": {
-    "accessToken": "e0faea6f417ba259efcbf5369a87b61c",
-    "refreshToken": "7a6c4ce50ea97e9936dad13bba82c250",
+    "accessToken": "2f82395203d369cb051e82033b0ccb26",
+    "refreshToken": "3f2392ae8c22f15761de62da087e982e",
     "sessionToken": "40997ffe9b2d5fb5c4278cfe3fa2143e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
