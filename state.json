@@ -3625,7 +3625,7 @@
         "totalVotes": 10164,
         "totalSubs": 28,
         "totalChatMessages": 3977,
-        "totalStreamMinutes": 7657,
+        "totalStreamMinutes": 7662,
         "emotes": {
           "❤": 43,
           "🙌": 123,
@@ -8177,7 +8177,7 @@
         "totalVotes": 1981,
         "totalSubs": 11,
         "totalChatMessages": 455,
-        "totalStreamMinutes": 3701,
+        "totalStreamMinutes": 3706,
         "emotes": {
           "❤": 16,
           "🙌": 19,
@@ -9887,7 +9887,7 @@
       "stats": {
         "totalVotes": 156,
         "totalSubs": 0,
-        "totalChatMessages": 58,
+        "totalChatMessages": 61,
         "totalStreamMinutes": 74,
         "emotes": {
           "👋": 2,
@@ -9918,17 +9918,9 @@
           "❤": "❤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787106555445
+        "lastChatAt": 1787107296603
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@flinx congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up M565 Fuel Truck from Warsaken®. View here: https://scurvybot.com/wax/tx/4ce103f2a6ffaeb5bdb8326df4440d00e52fbea03ebacede019139c439aad30d"
-        },
-        {
-          "user": "inn",
-          "msg": "Ty ty"
-        },
         {
           "user": "scurvybot",
           "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up AI Mystery Music Track 22 from The Online Inn. View here: https://scurvybot.com/wax/tx/6cd5a702eee2b05f013cbda6f119ed107e35d52545513c445bc731257b20d5f6"
@@ -9960,6 +9952,14 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @DofferLive at https://blaze.stream/dofferlive!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 10 Credits from The Online Inn. View here: https://scurvybot.com/wax/tx/cdb00c94807971577b61b0a2af6dc6479e7400b4345237a73c334abe30590b53"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "recycle some trash get some credits"
         }
       ],
       "customCommands": {
@@ -10698,8 +10698,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787090898579,
   "auth": {
-    "accessToken": "d74ae857755d183e441f7ae46563476d",
-    "refreshToken": "c42a417ba9760bc3edd5d8c9f1067e1b",
+    "accessToken": "5f80247764672948b2fccca56e4fc0f3",
+    "refreshToken": "f613b0d77a06f63fec111df1592a5d0f",
     "sessionToken": "40997ffe9b2d5fb5c4278cfe3fa2143e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
