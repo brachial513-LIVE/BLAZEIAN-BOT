@@ -1145,7 +1145,7 @@
         "totalVotes": 10797,
         "totalSubs": 103,
         "totalChatMessages": 4867,
-        "totalStreamMinutes": 13896,
+        "totalStreamMinutes": 13901,
         "emotes": {
           "📊": 3,
           "🔥": 314,
@@ -1794,7 +1794,7 @@
         "totalVotes": 8701,
         "totalSubs": 41,
         "totalChatMessages": 3692,
-        "totalStreamMinutes": 12563,
+        "totalStreamMinutes": 12568,
         "emotes": {
           "❤": 151,
           "🙌": 104,
@@ -7004,7 +7004,7 @@
       "stats": {
         "totalVotes": 10843,
         "totalSubs": 19,
-        "totalChatMessages": 1056,
+        "totalChatMessages": 1079,
         "totalStreamMinutes": 1256,
         "emotes": {
           "😂": 20,
@@ -7049,7 +7049,8 @@
           "🤬": 1,
           "🥲": 2,
           "💛": 3,
-          "🥚": 7
+          "🥚": 16,
+          "↩": 4
         },
         "emoteNames": {
           "😂": "😂",
@@ -7094,51 +7095,52 @@
           "🤬": "🤬",
           "🥲": "🥲",
           "💛": "💛",
-          "🥚": "🥚"
+          "🥚": "🥚",
+          "↩": "↩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787155325411
+        "lastChatAt": 1787155907253
       },
       "chatMemory": [
         {
           "user": "sheena",
-          "msg": "test"
+          "msg": "🥚 sheena's egg is now Level 13!"
         },
         {
           "user": "sheena",
-          "msg": "🥚 sheena's egg is now Level 6!"
+          "msg": "🥚 sheena's egg is now Level 13!"
         },
         {
           "user": "sheena",
-          "msg": "🥚 sheena's egg is now Level 7!"
+          "msg": "🥚 sheena's egg is now Level 14!"
         },
         {
           "user": "sheena",
-          "msg": "🥚 sheena's egg is now Level 8!"
+          "msg": "🥚 sheena's egg is now Level 14!"
         },
         {
           "user": "sheena",
-          "msg": "🥚 sheena's egg is now Level 9!"
+          "msg": "🥚 sheena's egg is now Level 14!"
         },
         {
-          "user": "eze_",
-          "msg": "Hi Sheena"
+          "user": "sheena",
+          "msg": "↩️ Correction: sheena's egg is actually Level 14."
         },
         {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ mediart just followed the channel! Welcome!! 🙌"
+          "user": "sheena",
+          "msg": "↩️ Correction: sheena's egg is actually Level 15."
         },
         {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @mediart just gifted a sub to @eze_! How generous!! 🙌"
+          "user": "sheena",
+          "msg": "↩️ Correction: sheena's egg is actually Level 16."
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 250 vote(s) (total: 1900)! Thank you!! 🗳️"
+          "user": "sheena",
+          "msg": "↩️ Correction: sheena's egg is actually Level 17."
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 50 vote(s) (total: 1950)! Thank you!! 🗳️"
+          "user": "sheena",
+          "msg": "🥚 sheena's egg is now Level 18!"
         }
       ],
       "customCommands": {},
@@ -9073,7 +9075,7 @@
         "totalVotes": 4489,
         "totalSubs": 27,
         "totalChatMessages": 508,
-        "totalStreamMinutes": 1389,
+        "totalStreamMinutes": 1394,
         "emotes": {
           "❤": 25,
           "🙌": 40,
@@ -9876,7 +9878,7 @@
         "totalVotes": 147,
         "totalSubs": 0,
         "totalChatMessages": 38,
-        "totalStreamMinutes": 300,
+        "totalStreamMinutes": 305,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -10879,8 +10881,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787152347936,
   "auth": {
-    "accessToken": "58cd465a756abcf8fbac8786cf93f332",
-    "refreshToken": "f8c6d54e08fd5abe4ffd143a214f899a",
+    "accessToken": "a0b7460d702a68f00298f03a277e4f79",
+    "refreshToken": "c38337a067c5a3823493bb12514c564e",
     "sessionToken": "40997ffe9b2d5fb5c4278cfe3fa2143e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
