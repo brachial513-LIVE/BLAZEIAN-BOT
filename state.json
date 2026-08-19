@@ -1459,7 +1459,7 @@
       "stats": {
         "totalVotes": 5429,
         "totalSubs": 17,
-        "totalChatMessages": 5098,
+        "totalChatMessages": 5099,
         "totalStreamMinutes": 4666,
         "emotes": {
           "🗳": 377,
@@ -1671,14 +1671,10 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO",
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
-        "lastChatAt": 1787108843197,
+        "lastChatAt": 1787109861102,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "one",
-          "msg": "discovered a lot"
-        },
         {
           "user": "one",
           "msg": "Thank you for streaming!"
@@ -1714,6 +1710,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "senseisama",
+          "msg": "cya"
         }
       ],
       "customCommands": {},
@@ -2347,12 +2347,12 @@
       "stats": {
         "totalVotes": 6289,
         "totalSubs": 50,
-        "totalChatMessages": 2185,
-        "totalStreamMinutes": 10202,
+        "totalChatMessages": 2194,
+        "totalStreamMinutes": 10207,
         "emotes": {
           "😊": 4,
           "🌵": 87,
-          "🔥": 302,
+          "🔥": 306,
           "🤪": 1,
           "👋": 37,
           "👍": 21,
@@ -2459,10 +2459,11 @@
           "📴": 2,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 2,
           "🔴": 2,
-          "🎉": 2,
+          "🎉": 3,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
+          "🚨": 6
         },
         "emoteNames": {
           "😊": "😊",
@@ -2577,51 +2578,52 @@
           "🎉": "🎉",
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
+          "🚨": "🚨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787109420660
+        "lastChatAt": 1787110003158
       },
       "chatMemory": [
         {
-          "user": "he_nose",
-          "msg": "No capture card needed, it's genius"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
-        },
-        {
-          "user": "future42",
-          "msg": "Enjoy Capt"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @He_Nose just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "he_nose",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "he_nose",
-          "msg": "Laser focus"
-        },
-        {
-          "user": "timdraws",
-          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @canawilks just gave 25 vote(s) (total: 124)! Thank you!! 🗳️"
-        },
-        {
-          "user": "he_nose",
-          "msg": "🤣"
-        },
-        {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @NadieTv is raiding with a party of 4! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "nadietv",
+          "msg": "🔥🔥🔥🔥"
+        },
+        {
+          "user": "nadietv",
+          "msg": "hey bro!"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Capt Robster"
+        },
+        {
+          "user": "nadietv",
+          "msg": "mad skills!"
+        },
+        {
+          "user": "nadietv",
+          "msg": "nooo D:"
+        },
+        {
+          "user": "nadietv",
+          "msg": "how are you doing bro?"
+        },
+        {
+          "user": "nadietv",
+          "msg": "i can see that, tetris is awesome"
+        },
+        {
+          "user": "nadietv",
+          "msg": "i'm honored bro &lt;3"
         }
       ],
       "customCommands": {},
@@ -3632,18 +3634,18 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 10164,
+        "totalVotes": 10179,
         "totalSubs": 28,
-        "totalChatMessages": 4024,
-        "totalStreamMinutes": 7702,
+        "totalChatMessages": 4031,
+        "totalStreamMinutes": 7704,
         "emotes": {
           "❤": 43,
           "🙌": 123,
-          "🗳": 462,
+          "🗳": 465,
           "🔴": 46,
           "🎉": 79,
-          "📴": 44,
-          "👋": 51,
+          "📴": 45,
+          "👋": 52,
           "🔥": 151,
           "💪": 2,
           "🤖": 1,
@@ -3816,38 +3818,10 @@
           "7d00ac99-2e3b-4229-b278-cd02fc8a5e2e": "rainbowpls",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
-        "lastChatAt": 1787109668883,
+        "lastChatAt": 1787109823771,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "xeukuxaixang",
-          "msg": "🤣"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "very luck"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "ggizi"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "I'm going to sleep"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "I see you tomorrow"
-        },
-        {
-          "user": "briggsy",
-          "msg": "hey @xeukuxaixang"
-        },
-        {
-          "user": "briggsy",
-          "msg": "We failed"
-        },
         {
           "user": "briggsy",
           "msg": "I feel like if we could organize like Sheena said."
@@ -3859,6 +3833,34 @@
         {
           "user": "briggsy",
           "msg": "too kind"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 15 votes, @briggsy!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 15 vote(s) (total: 30)! Thank you!! 🗳️"
+        },
+        {
+          "user": "briggsy",
+          "msg": "ture"
+        },
+        {
+          "user": "briggsy",
+          "msg": "true"
+        },
+        {
+          "user": "briggsy",
+          "msg": "see ya"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -3867,7 +3869,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "❤️Special Wheel of PAIN❤️ — Stumble Guys",
+      "streamTitle": "",
       "profile": "We’re a chill gaming community loving Stumble Guys, Path of Exile 2, and Dota. Expect “Blazeee” vibes, “Will be relax day” shenanigans, and “VOTE ALERT!!” celebrations. Chat loves “6969”, “METAL!”, “Castigo castigo”, “haslo de nuevo”, “Let’s gooooo”, “Theroan mode cat!”, “pull a roshi”, and “drained” moments. We cherish gifted subs, generous votes, and “hard reset” humor, celebrating every resub and vote with hype.",
       "_profileAtCount": 4023,
       "gameOverride": "",
@@ -3913,8 +3915,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "❤️Stumble guys with the bois!❤️ — Stumble Guys",
-      "lastStreamEndedAt": 1787020172870
+      "lastStreamInfo": "❤️Special Wheel of PAIN❤️ — Stumble Guys",
+      "lastStreamEndedAt": 1787109818478
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -10710,8 +10712,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787090898579,
   "auth": {
-    "accessToken": "5f80247764672948b2fccca56e4fc0f3",
-    "refreshToken": "f613b0d77a06f63fec111df1592a5d0f",
+    "accessToken": "bdac75871b6e5e1bf8b34b5b145565ea",
+    "refreshToken": "ca3299786b672d8fc6ee19b3d884ea1f",
     "sessionToken": "40997ffe9b2d5fb5c4278cfe3fa2143e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
