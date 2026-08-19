@@ -1104,9 +1104,9 @@
       "username": "crypt0k1ng96",
       "language": "en",
       "stats": {
-        "totalVotes": 10774,
+        "totalVotes": 10784,
         "totalSubs": 101,
-        "totalChatMessages": 4822,
+        "totalChatMessages": 4825,
         "totalStreamMinutes": 13798,
         "emotes": {
           "📊": 3,
@@ -1381,21 +1381,9 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787097571792
+        "lastChatAt": 1787099278349
       },
       "chatMemory": [
-        {
-          "user": "tarzan",
-          "msg": "Hi 😊"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Hey Tarzan"
-        },
-        {
-          "user": "tarzan",
-          "msg": "What up"
-        },
         {
           "user": "foxbotai",
           "msg": "@tarzan sends a big FoxBot hug to the chat! FoxBot energy is high!"
@@ -1423,6 +1411,18 @@
         {
           "user": "foxbotai",
           "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Thank you @blackfox for voting with 10 votes! FoxBot AI appreciates your support! +30 FoxCoins. Balance: 75 FoxCoins."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thank you for the votes!!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "We are playing more Otherside tonight!!!"
         }
       ],
       "customCommands": {},
@@ -1453,12 +1453,12 @@
       "username": "thom6ss_otg",
       "language": "en",
       "stats": {
-        "totalVotes": 5411,
+        "totalVotes": 5421,
         "totalSubs": 17,
-        "totalChatMessages": 4887,
+        "totalChatMessages": 4891,
         "totalStreamMinutes": 4666,
         "emotes": {
-          "🗳": 371,
+          "🗳": 374,
           "🤣": 57,
           "🔥": 157,
           "💚": 33,
@@ -1661,26 +1661,10 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO",
           "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
         },
-        "lastChatAt": 1787099126832,
+        "lastChatAt": 1787099223315,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "one",
-          "msg": "yea the cluescrolls are pretty difficult tbh"
-        },
-        {
-          "user": "one",
-          "msg": "yea last run as well, so now 2"
-        },
-        {
-          "user": "one",
-          "msg": "seems you farm them here"
-        },
-        {
-          "user": "one",
-          "msg": "lets check"
-        },
         {
           "user": "one",
           "msg": "Oh wauw, I think because I did not open that one last round"
@@ -1704,6 +1688,22 @@
         {
           "user": "one",
           "msg": "yea i was checking wiki earlier as well, I think it helps a lot"
+        },
+        {
+          "user": "one",
+          "msg": "yea I am curious to the reward!"
+        },
+        {
+          "user": "one",
+          "msg": "veilbound one should be nice reward"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] Thank you, blackfox, for the 10 vote(s)"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @blackfox just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -3615,7 +3615,7 @@
         "totalVotes": 10074,
         "totalSubs": 28,
         "totalChatMessages": 3837,
-        "totalStreamMinutes": 7527,
+        "totalStreamMinutes": 7528,
         "emotes": {
           "❤": 43,
           "🙌": 122,
@@ -3887,7 +3887,7 @@
         "totalVotes": 5854,
         "totalSubs": 66,
         "totalChatMessages": 480,
-        "totalStreamMinutes": 9720,
+        "totalStreamMinutes": 9722,
         "emotes": {
           "❤": 89,
           "🙌": 30,
@@ -10660,8 +10660,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787090898579,
   "auth": {
-    "accessToken": "457e50960ad064a7eda204a3745e2bda",
-    "refreshToken": "07b735850c1a9e93cd5a3583db975789",
+    "accessToken": "ca67551cf3e5fda61c7d55634ab04e36",
+    "refreshToken": "c89029d0e27ca1836bbe56d9014495b2",
     "sessionToken": "40997ffe9b2d5fb5c4278cfe3fa2143e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
