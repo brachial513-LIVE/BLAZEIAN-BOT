@@ -5694,10 +5694,12 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
-      "streamTitle": "FOXSPIRITS | COLABORADOR MSNXCURATOR MAPLESTORY — League of Legends",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "",
-      "_profileAtCount": 0
+      "_profileAtCount": 0,
+      "lastStreamInfo": "FOXSPIRITS | COLABORADOR MSNXCURATOR MAPLESTORY — League of Legends",
+      "lastStreamEndedAt": 1787123184388
     },
     "0e1fadd4-b37a-451e-a957-c797b606507e": {
       "username": "thewill3ffect",
@@ -6049,18 +6051,18 @@
       "language": "en",
       "stats": {
         "totalVotes": 2026,
-        "totalSubs": 9,
-        "totalChatMessages": 339,
+        "totalSubs": 10,
+        "totalChatMessages": 340,
         "totalStreamMinutes": 1084,
         "emotes": {
           "❤": 20,
-          "🙌": 20,
+          "🙌": 21,
           "🗳": 75,
           "🔴": 19,
           "🎉": 20,
           "📴": 19,
           "👋": 21,
-          "🎁": 18,
+          "🎁": 20,
           "🤝": 1,
           "🔥": 10,
           "💚": 1,
@@ -6103,13 +6105,9 @@
           "🚨": "🚨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786980522132
+        "lastChatAt": 1787122098109
       },
       "chatMemory": [
-        {
-          "user": "jiminy",
-          "msg": "SCHEUNNNNNN"
-        },
         {
           "user": "0xscheun",
           "msg": "thank you"
@@ -6145,6 +6143,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @0xscheun just gifted a sub to @Future42! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -9907,15 +9909,15 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 156,
+        "totalVotes": 161,
         "totalSubs": 0,
-        "totalChatMessages": 65,
+        "totalChatMessages": 67,
         "totalStreamMinutes": 74,
         "emotes": {
           "👋": 3,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 9,
+          "🗳": 12,
           "🔴": 2,
           "🎉": 2,
           "📴": 2,
@@ -9940,17 +9942,9 @@
           "❤": "❤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787108518833
+        "lastChatAt": 1787122813083
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@flinx congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/aadb4faf00f2b97031ca4c269626a37828e4b991ec52018cb1c3e2c59257b845"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 20 votes, @DofferLive!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
@@ -9982,6 +9976,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @NashvilleLou!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @NashvilleLou just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
