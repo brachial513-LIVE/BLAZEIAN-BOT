@@ -2347,8 +2347,8 @@
       "stats": {
         "totalVotes": 6339,
         "totalSubs": 50,
-        "totalChatMessages": 2206,
-        "totalStreamMinutes": 10252,
+        "totalChatMessages": 2210,
+        "totalStreamMinutes": 10272,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -2464,7 +2464,10 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": 2,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
           "🚨": 6,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 3
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 3,
+          "248db14b-f100-4838-be4d-8e265634e892": 1,
+          "795f0ae8-10ec-4faa-8160-503dbd0e593d": 1,
+          "555a557b-672c-4db0-80d4-85564e0bbac4": 1
         },
         "emoteNames": {
           "😊": "😊",
@@ -2581,28 +2584,15 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
           "🚨": "🚨",
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE",
+          "248db14b-f100-4838-be4d-8e265634e892": "GoldenCaptain",
+          "795f0ae8-10ec-4faa-8160-503dbd0e593d": "CaptainDuck",
+          "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787111577961
+        "lastChatAt": 1787113906588
       },
       "chatMemory": [
-        {
-          "user": "nadietv",
-          "msg": "yeah it's a struggle to adapt old consoles"
-        },
-        {
-          "user": "nadietv",
-          "msg": "nice"
-        },
-        {
-          "user": "nadietv",
-          "msg": "talking about eating, i'm starving, time to have dinner xD i'll be lurking here in the meantime, brb"
-        },
-        {
-          "user": "nadietv",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
         {
           "user": "nadietv",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
@@ -2626,6 +2616,22 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @senseibulrog just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "blanco_peso",
+          "msg": "What da hell"
+        },
+        {
+          "user": "blanco_peso",
+          "msg": "[emote:248db14b-f100-4838-be4d-8e265634e892]"
+        },
+        {
+          "user": "blanco_peso",
+          "msg": "[emote:795f0ae8-10ec-4faa-8160-503dbd0e593d]"
+        },
+        {
+          "user": "blanco_peso",
+          "msg": "[emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:555a557b-672c-4db0-80d4-85564e0bbac4]"
         }
       ],
       "customCommands": {},
@@ -2636,7 +2642,7 @@
       "followed": true,
       "streamTitle": "Nintendo NES Tetris Night. I'm Old... Don't Be Hatin' — Tetris",
       "profile": "We’re a tight IRL maritime crew, loading barges, fueling ships, and cruising a towboat in South East Texas. We shout “BLAZE ON” to celebrate, say “Sweet!” when new content drops, and do “shots shots!” for fun. We love surfing, voting for favorite streamers, and sharing “happy walk” stories. Capt_rob_advent’s streams are the heart of our salty, upbeat community.",
-      "_profileAtCount": 2156,
+      "_profileAtCount": 2206,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/30ffbf64-8a9b-4fd3-9136-b50d87e108d5.gif",
       "loyalty": {
