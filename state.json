@@ -8603,14 +8603,14 @@
       "stats": {
         "totalVotes": 7253,
         "totalSubs": 5,
-        "totalChatMessages": 1904,
-        "totalStreamMinutes": 3177,
+        "totalChatMessages": 1910,
+        "totalStreamMinutes": 3182,
         "emotes": {
           "❤": 31,
           "🙌": 19,
           "🗳": 372,
           "🔴": 28,
-          "🎉": 50,
+          "🎉": 51,
           "🏃": 1,
           "♂": 1,
           "💨": 1,
@@ -8620,7 +8620,7 @@
           "😂": 26,
           "📴": 28,
           "👋": 29,
-          "🚨": 90,
+          "🚨": 96,
           "🔥": 42,
           "💚": 19,
           "👀": 9,
@@ -8708,33 +8708,9 @@
           "😊": "😊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787210644245
+        "lastChatAt": 1787212561157
       },
       "chatMemory": [
-        {
-          "user": "pillow",
-          "msg": "Heyyyy!!!"
-        },
-        {
-          "user": "pillow",
-          "msg": "Vice city is the goat"
-        },
-        {
-          "user": "pillow",
-          "msg": "RDR2 looks way better"
-        },
-        {
-          "user": "pillow",
-          "msg": "But is 30fps…"
-        },
-        {
-          "user": "pillow",
-          "msg": "So…."
-        },
-        {
-          "user": "tarzan",
-          "msg": "Just saying hi to everyone"
-        },
         {
           "user": "tarzan",
           "msg": "@noxx hope you have a awesome day today 😊"
@@ -8750,6 +8726,30 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @noodles just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@ItsBigBroZo is raiding with a party of 1! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @ItsBigBroZo is raiding with a party of 1! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "itsbigbrozo",
+          "msg": "it meeeee"
+        },
+        {
+          "user": "itsbigbrozo",
+          "msg": ";,ap"
+        },
+        {
+          "user": "itsbigbrozo",
+          "msg": "lmao"
+        },
+        {
+          "user": "itsbigbrozo",
+          "msg": "GN GN man!"
         }
       ],
       "customCommands": {},
@@ -8763,8 +8763,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
       "streamTitle": "Depression Diving — Helldivers 2",
-      "profile": "noxx’s channel is a bug‑slayer hub, blasting “👀👀👀” after kills, “clipping it!” when a clip drops, and “Raid ALERT!!” for big moments. The crew loves skrunky emotes in Hellldivers, OTG solos, and chill Blaze VC hangs. They shout “RIP!” for losses, “🗳️ VOTE ALERT!!” for votes, and celebrate wins with “Wild gaem!” and “GGs!”",
-      "_profileAtCount": 1803,
+      "profile": "noxx’s channel is a bug‑slayer hub, blasting “👀👀👀” after kills, “clipping it!” when a clip drops, and “Raid ALERT!!” for big moments. The crew loves skrunky emotes in Helldivers, OTG solos, and chill Blaze VC hangs. They shout “RIP!” for losses, “🗳️ VOTE ALERT!!” for votes, and celebrate wins with “Wild gaem!” and “GGs!”",
+      "_profileAtCount": 1904,
       "gameOverride": "",
       "lastStreamInfo": "Tuesdays are for helldiving — Helldivers 2",
       "lastStreamEndedAt": 1787077356561,
@@ -11170,8 +11170,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787199910811,
   "auth": {
-    "accessToken": "d50216c0c3d0c1f763a472960d1420b1",
-    "refreshToken": "d21355f6c8539b1edfd09d43742c8e46",
+    "accessToken": "4db2d8225f52fb0e8a2323e789544a3f",
+    "refreshToken": "f0e841271ad42c81f9cf01925a1374e0",
     "sessionToken": "68b23eef66bea2daca79bea5688521ac",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
