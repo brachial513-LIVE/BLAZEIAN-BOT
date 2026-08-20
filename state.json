@@ -1144,8 +1144,8 @@
       "stats": {
         "totalVotes": 11179,
         "totalSubs": 103,
-        "totalChatMessages": 4934,
-        "totalStreamMinutes": 14671,
+        "totalChatMessages": 4940,
+        "totalStreamMinutes": 14691,
         "emotes": {
           "📊": 3,
           "🔥": 318,
@@ -1290,7 +1290,8 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": 1,
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": 1,
           "🦩": 8,
-          "😁": 1
+          "😁": 1,
+          "🎡": 2
         },
         "emoteNames": {
           "📊": "📊",
@@ -1436,24 +1437,13 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO",
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": "SHOOTINGPYRO",
           "🦩": "🦩",
-          "😁": "😁"
+          "😁": "😁",
+          "🎡": "🎡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787235974781
+        "lastChatAt": 1787237978216
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "200 VOTE WEEKLY GIVEAWAY: https://x.com/pardon_my_trade/status/2089385517821600094?s=46&t=bGYLjbqz8Z4UBluTyoPtog"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🚨🔥 200+ VOTE GIVEAWAY IS LIVE!! 🔥🚨\n\nWe just leveled this one ALL THE WAY UP. 👑\n\n🎁 WIN BIG:\n🎮 A RANDOM OFF THE GRID NFT\n🎨 A PERSONALIZED NFT created by ME\n🌊 Your custom NFT will be created on OpenSea specifically for the winner!\n\n🗳️ VOTE ENTRIES\n\n• 1–10 Votes = 1 Entry\n• 10–50 Votes = 2 Entries\n• 50–100 Votes = 3 Entries\n• 100+ Votes = 4 Entries\n• 200+ Votes = 5 ENTRIES 🔥\n\n⭐ SUBSCRIBE\n• 1 Sub = 1 Entry\n• 1 Gifted Sub = 2 Entries\n\n🦊 TEST FOXBOT ..."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96, casino balance: 0 promo. Convert with !convert amount, play with !casinoflip heads|tails amount."
-        },
         {
           "user": "foxbotai",
           "msg": "@crypt0k1ng96, converted 10 FoxCoins -> 10 promo credits! Casino balance: 10 promo."
@@ -1481,6 +1471,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎡 @crypt0k1ng96, ball landed on 26 black — you lost 5 promo. Balance: 0 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@crypt0k1ng96, converted 500 FoxCoins -> 500 promo credits! Casino balance: 500 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎡 @crypt0k1ng96, ball landed on 30 red — you lost 10 promo. Balance: 490 promo."
         }
       ],
       "customCommands": {},
@@ -6035,7 +6037,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 44,
-        "totalStreamMinutes": 3402,
+        "totalStreamMinutes": 3410,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -6108,12 +6110,12 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/57ce46fe-2b75-41bc-8bb7-fc5e7b7c1118-profile_image-300x300.png",
-      "streamTitle": "🔥 RANKED EN HONOR OF KINGS | HOY NO SE PERDONA 👑 — Honor of kings",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0,
-      "lastStreamInfo": "👑 ¿HASTA DÓNDE LLEGAMOS HOY? 🔥 — Honor of kings",
-      "lastStreamEndedAt": 1787169345193
+      "lastStreamInfo": "🔥 RANKED EN HONOR OF KINGS | HOY NO SE PERDONA 👑 — Honor of kings",
+      "lastStreamEndedAt": 1787237390211
     },
     "30a3c675-be0d-4014-831f-6051350ffbf0": {
       "username": "tester",
@@ -6197,7 +6199,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 21,
+        "totalChatMessages": 22,
         "totalStreamMinutes": 0,
         "emotes": {
           "👋": 2
@@ -6205,14 +6207,10 @@
         "emoteNames": {
           "👋": "👋"
         },
-        "lastChatAt": 1787172171832,
+        "lastChatAt": 1787238022500,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @LaMoony!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @blueesouull!"
@@ -6248,6 +6246,10 @@
         {
           "user": "capt_rob_advent",
           "msg": "Thank you for the vote"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @faithy_!"
         }
       ],
       "customCommands": {},
@@ -6687,8 +6689,8 @@
       "stats": {
         "totalVotes": 10443,
         "totalSubs": 64,
-        "totalChatMessages": 1234,
-        "totalStreamMinutes": 7314,
+        "totalChatMessages": 1236,
+        "totalStreamMinutes": 7332,
         "emotes": {
           "❤": 56,
           "🙌": 98,
@@ -6697,8 +6699,8 @@
           "🗳": 393,
           "🔴": 64,
           "🎉": 83,
-          "📴": 62,
-          "👋": 64,
+          "📴": 63,
+          "👋": 65,
           "🚨": 114,
           "🥂": 1,
           "🫶": 3,
@@ -6778,17 +6780,9 @@
           "e378281b-e1b0-44be-95f5-eb1cd26dedf0": "dance"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787236771043
+        "lastChatAt": 1787238040842
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "haven't played that one"
-        },
-        {
-          "user": "faithy_",
-          "msg": "asssasin creed rogue"
-        },
         {
           "user": "jt_squared2",
           "msg": "nice. I'll have to try that one out"
@@ -6820,6 +6814,14 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @jt_squared2! How generous!! 🙌"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "happy streaminggg"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6832,7 +6834,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "Ferdy Battle Defeating @NiRuntz — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! We love “GIFTED SUBS”, “VOTE ALERTS”, “ROI YAN”, “patay”, “spanked”, “TAAS NA LEVEL MO AH”, “PURE LOVE”, generous subs, and “GGS” vibes. We celebrate with “GIFTED SUB”, enjoy “TAAS NA LEVEL MO AH”, and “it's time to grind” moments, all while playing Assassin's Creed Odyssey.",
       "_profileAtCount": 1184,
@@ -6851,8 +6853,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "Diving to Odyssey! — Assassin's Creed Odyssey",
-      "lastStreamEndedAt": 1787225069383
+      "lastStreamInfo": "Ferdy Battle Defeating @NiRuntz — Crypto",
+      "lastStreamEndedAt": 1787238035493
     },
     "4e8116b6-6705-4e00-a83c-c7e455b3a446": {
       "username": "dimifw",
@@ -9217,7 +9219,7 @@
         "totalVotes": 176,
         "totalSubs": 10,
         "totalChatMessages": 218,
-        "totalStreamMinutes": 885,
+        "totalStreamMinutes": 905,
         "emotes": {
           "❤": 23,
           "🙌": 16,
@@ -9763,8 +9765,8 @@
       "stats": {
         "totalVotes": 2584,
         "totalSubs": 29,
-        "totalChatMessages": 823,
-        "totalStreamMinutes": 1927,
+        "totalChatMessages": 827,
+        "totalStreamMinutes": 1947,
         "emotes": {
           "😅": 1,
           "🔥": 44,
@@ -9866,29 +9868,13 @@
           "e5772785-5f76-4433-8159-230844a61298": "fartgengar"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787236188950,
+        "lastChatAt": 1787237601299,
         "lastSendFailAt": 1786882933475,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1786901852824,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "corneto",
-          "msg": "what game is that?"
-        },
-        {
-          "user": "corneto",
-          "msg": "narnia? hahha"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
-        },
-        {
-          "user": "corneto",
-          "msg": "so long"
-        },
         {
           "user": "corneto",
           "msg": "still loading?"
@@ -9912,6 +9898,22 @@
         {
           "user": "fartvader",
           "msg": "and we're back"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "heeeeey this aint pabahjiii"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "whats that"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "What game is this"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "Still demo game right?"
         }
       ],
       "customCommands": {},
@@ -10044,7 +10046,7 @@
         "totalVotes": 569,
         "totalSubs": 6,
         "totalChatMessages": 129,
-        "totalStreamMinutes": 749,
+        "totalStreamMinutes": 769,
         "emotes": {
           "❤": 11,
           "🙌": 8,
@@ -10163,7 +10165,7 @@
         "totalVotes": 156,
         "totalSubs": 8,
         "totalChatMessages": 144,
-        "totalStreamMinutes": 574,
+        "totalStreamMinutes": 594,
         "emotes": {
           "🧡": 1,
           "💚": 3,
