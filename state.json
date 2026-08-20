@@ -3160,14 +3160,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 12868,
+        "totalVotes": 12873,
         "totalSubs": 40,
-        "totalChatMessages": 6515,
+        "totalChatMessages": 6516,
         "totalStreamMinutes": 5041,
         "emotes": {
           "❤": 126,
           "🙌": 221,
-          "🗳": 849,
+          "🗳": 852,
           "✌": 4,
           "😊": 9,
           "👍": 10,
@@ -3515,13 +3515,9 @@
           "🪫": "🪫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787194062632
+        "lastChatAt": 1787208608884
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "Just chilling"
-        },
         {
           "user": "agent00zani",
           "msg": "I don't have it unlocked"
@@ -3557,6 +3553,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @NadieTv just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8603,8 +8603,8 @@
       "stats": {
         "totalVotes": 7242,
         "totalSubs": 5,
-        "totalChatMessages": 1877,
-        "totalStreamMinutes": 3112,
+        "totalChatMessages": 1892,
+        "totalStreamMinutes": 3132,
         "emotes": {
           "❤": 31,
           "🙌": 19,
@@ -8706,48 +8706,48 @@
           "💕": "💕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787208169584
+        "lastChatAt": 1787209607435
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "Kidding of course."
-        },
-        {
-          "user": "briggsy",
-          "msg": "Haha, I bet."
-        },
-        {
-          "user": "briggsy",
-          "msg": "Ooh thats cool."
-        },
-        {
-          "user": "briggsy",
-          "msg": "That was like the creatures in war of the worlds."
-        },
-        {
-          "user": "briggsy",
-          "msg": "Haha"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Aww. Blueberry hug."
-        },
-        {
           "user": "zakumo",
-          "msg": "I smell squid"
+          "msg": "MG Mike? Shady motherfuckers bro"
         },
         {
-          "user": "briggsy",
-          "msg": "Hey buddy, I was just perusing the streams before bed. Glad I found yours. Hope you find some moments of goodness in your day."
+          "user": "pillow",
+          "msg": "Gmgmgmgmgm"
         },
         {
-          "user": "briggsy",
-          "msg": "I’m gonna head in."
+          "user": "pillow",
+          "msg": "Want a laugh?"
         },
         {
-          "user": "briggsy",
-          "msg": "Indeed."
+          "user": "pillow",
+          "msg": "Check how viral my recent post went"
+        },
+        {
+          "user": "pillow",
+          "msg": "Lmmfffaaaooooo"
+        },
+        {
+          "user": "pillow",
+          "msg": "No it is"
+        },
+        {
+          "user": "pillow",
+          "msg": "Leaker group has leaked 2 videos yesterday"
+        },
+        {
+          "user": "pillow",
+          "msg": "Nooooooo"
+        },
+        {
+          "user": "pillow",
+          "msg": "Did you see the views???"
+        },
+        {
+          "user": "pillow",
+          "msg": "Insane lmfaoooo"
         }
       ],
       "customCommands": {},
@@ -8883,15 +8883,16 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 8,
-        "totalStreamMinutes": 180,
+        "totalChatMessages": 9,
+        "totalStreamMinutes": 185,
         "emotes": {
           "💚": 1,
-          "👋": 1,
+          "👋": 2,
           "⏰": 1,
           "🙌": 1,
           "🔴": 1,
-          "🎉": 1
+          "🎉": 1,
+          "📴": 1
         },
         "emoteNames": {
           "💚": "💚",
@@ -8899,10 +8900,11 @@
           "⏰": "⏰",
           "🙌": "🙌",
           "🔴": "🔴",
-          "🎉": "🎉"
+          "🎉": "🎉",
+          "📴": "📴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787197567094
+        "lastChatAt": 1787208687090
       },
       "chatMemory": [
         {
@@ -8932,6 +8934,10 @@
         {
           "user": "botger",
           "msg": "🔴 homiedrew is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -8944,7 +8950,10 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/3edd6fa7-1bae-41cb-8d36-480b2b9dcd85.png",
-      "streamTitle": "Games! 🔥 BLAZE 🔥 Follower Goal 11/100 🔥 — Games + Demos"
+      "streamTitle": "",
+      "lastStreamInfo": "Games! 🔥 BLAZE 🔥 Follower Goal 11/100 🔥 — Games + Demos",
+      "lastStreamEndedAt": 1787208681822,
+      "gameOverride": ""
     },
     "2c31d967-7255-462b-9cfa-41b8b75483c9": {
       "username": "panipeys",
@@ -10815,9 +10824,9 @@
       "n": 7
     },
     "helios": {
-      "note": "A gamer who loves Warhammer, controller‑friendly titles, 3D modeling/animation, and enjoys playful, friendly banter.",
-      "at": 1787142589097,
-      "n": 12
+      "note": "A friendly gamer who enjoys Warhammer, controller‑friendly games, 3D modeling/animation, and playful banter about levels, dungeons, and XP.",
+      "at": 1787209249206,
+      "n": 13
     },
     "piweb": {
       "note": "They enjoy playing games like Fortnite and backgammon, appreciate humor related to leisure activities, and engage in lighthearted banter.",
