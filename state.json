@@ -8603,8 +8603,8 @@
       "stats": {
         "totalVotes": 7242,
         "totalSubs": 5,
-        "totalChatMessages": 1855,
-        "totalStreamMinutes": 3090,
+        "totalChatMessages": 1857,
+        "totalStreamMinutes": 3092,
         "emotes": {
           "❤": 31,
           "🙌": 19,
@@ -8706,17 +8706,9 @@
           "💕": "💕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787207001220
+        "lastChatAt": 1787207191174
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @XanderC!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 15 votes, @DimiFW!"
@@ -8748,6 +8740,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "briggsy",
+          "msg": "Gmgm Noxxsay"
+        },
+        {
+          "user": "briggsy",
+          "msg": "How are you, man?"
         }
       ],
       "customCommands": {},
@@ -8884,7 +8884,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 8,
-        "totalStreamMinutes": 158,
+        "totalStreamMinutes": 160,
         "emotes": {
           "💚": 1,
           "👋": 1,
@@ -11159,8 +11159,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787199910811,
   "auth": {
-    "accessToken": "3f1d216cbe39c20c5aac120f7a499e21",
-    "refreshToken": "38bd7312cce999b1115d308e12f53169",
+    "accessToken": "755d696c712d35df8d95d0d91e3ab682",
+    "refreshToken": "099aade81accd2f304826e55776d148c",
     "sessionToken": "68b23eef66bea2daca79bea5688521ac",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
