@@ -519,12 +519,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 45415,
+        "totalVotes": 45515,
         "totalSubs": 67,
-        "totalChatMessages": 5934,
+        "totalChatMessages": 5935,
         "totalStreamMinutes": 1830,
         "emotes": {
-          "🗳": 990,
+          "🗳": 993,
           "❤": 464,
           "🙌": 155,
           "🔥": 192,
@@ -748,17 +748,13 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787172087160,
+        "lastChatAt": 1787192185793,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Cheeseyeggs just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
-        },
         {
           "user": "eze_",
           "msg": "Gm fren"
@@ -794,6 +790,10 @@
         {
           "user": "eze_",
           "msg": "🤞"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @NadieTv just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1142,10 +1142,10 @@
       "username": "crypt0k1ng96",
       "language": "en",
       "stats": {
-        "totalVotes": 11050,
+        "totalVotes": 11060,
         "totalSubs": 103,
-        "totalChatMessages": 4908,
-        "totalStreamMinutes": 14481,
+        "totalChatMessages": 4913,
+        "totalStreamMinutes": 14501,
         "emotes": {
           "📊": 3,
           "🔥": 315,
@@ -1288,7 +1288,8 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": 3,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 2,
           "da339ef7-1574-4f2f-8b48-666688167af3": 1,
-          "8185acca-b8ef-40dd-87db-4b0e469a03eb": 1
+          "8185acca-b8ef-40dd-87db-4b0e469a03eb": 1,
+          "🦩": 8
         },
         "emoteNames": {
           "📊": "📊",
@@ -1432,32 +1433,13 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE",
           "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB",
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO",
-          "8185acca-b8ef-40dd-87db-4b0e469a03eb": "SHOOTINGPYRO"
+          "8185acca-b8ef-40dd-87db-4b0e469a03eb": "SHOOTINGPYRO",
+          "🦩": "🦩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787189572255
+        "lastChatAt": 1787191575843
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "BLAZE COMMUNITY SPIN RULES | $25 USDC Giveaway | +100 Votes Sponsored by FoxBot AI | Tag 3 Friends | Like + Repost | Be Active in FoxBot AI Discord | Up to 1.50x Multiplier | 1-5 Gifted Subs = Bonus Entries | Sunday 5 PM PST | Enter here: https://x.com/Pardon_my_trade/status/2069089169738289206?s=20"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard, !convert, !casinoflip heads 10, !casino | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96, casino balance: 0 promo. Convert with !convert amount, play with !casinoflip heads|tails amount."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@crypt0k1ng96, converted 10 FoxCoins -> 10 promo credits! Casino balance: 10 promo."
-        },
-        {
-          "user": "peperonitostv",
-          "msg": "Have a nice stream!"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Thank you!!"
@@ -1477,6 +1459,26 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:8185acca-b8ef-40dd-87db-4b0e469a03eb]"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Thank you @aleksaflamingo for voting with 10 votes! FoxBot AI appreciates your support! +30 FoxCoins. Balance: 30 FoxCoins."
+        },
+        {
+          "user": "aleksaflamingo",
+          "msg": "GGssssss"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "What’s up Aleksa"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thanks for the votes!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "🦩🦩🦩🦩🦩🦩🦩🦩"
         }
       ],
       "customCommands": {},
@@ -3775,29 +3777,29 @@
       "language": "en",
       "stats": {
         "totalVotes": 10298,
-        "totalSubs": 29,
-        "totalChatMessages": 4070,
-        "totalStreamMinutes": 7802,
+        "totalSubs": 32,
+        "totalChatMessages": 4172,
+        "totalStreamMinutes": 7822,
         "emotes": {
           "❤": 43,
-          "🙌": 124,
+          "🙌": 127,
           "🗳": 468,
           "🔴": 47,
-          "🎉": 80,
+          "🎉": 81,
           "📴": 45,
           "👋": 52,
           "🔥": 153,
           "💪": 2,
           "🤖": 1,
           "💚": 6,
-          "🤣": 42,
-          "🚨": 198,
+          "🤣": 49,
+          "🚨": 204,
           "😎": 3,
           "😅": 7,
           "😆": 59,
           "💰": 10,
           "😂": 108,
-          "🎁": 42,
+          "🎁": 48,
           "✨": 1,
           "😄": 7,
           "😁": 13,
@@ -3847,8 +3849,8 @@
           "💃": 2,
           "🪩": 1,
           "🍺": 2,
-          "8f944af3-3885-4c64-8227-b2e31376e26f": 1,
-          "38558f52-d180-4a69-aa75-ce286c4a614a": 4,
+          "8f944af3-3885-4c64-8227-b2e31376e26f": 3,
+          "38558f52-d180-4a69-aa75-ce286c4a614a": 8,
           "02594d35-127e-4a44-869b-ce7d5d6cccc5": 2,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 2,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
@@ -3856,7 +3858,7 @@
           "f15ffefe-5110-4dfe-ac46-3d521eaa9388": 1,
           "849b2d68-7a30-4dcc-9981-1906ce5d70ca": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 2,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 5,
           "da339ef7-1574-4f2f-8b48-666688167af3": 1,
           "🥹": 2,
           "37719561-c923-4260-b1a5-e3eda10c103d": 1,
@@ -3864,12 +3866,18 @@
           "b05156cf-7925-4298-8e19-f29e294cc793": 1,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 1,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
-          "fc58b8aa-97a4-4db8-91ab-bd27b62b0546": 4,
+          "fc58b8aa-97a4-4db8-91ab-bd27b62b0546": 5,
           "7d00ac99-2e3b-4229-b278-cd02fc8a5e2e": 1,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2,
           "3ab760d6-0b83-4cc5-96c1-0a4c2d8abdb1": 1,
           "8094d2d7-5aea-42fc-8ad6-acdc220554fd": 1,
-          "8d6a9c8a-0dd1-4b0e-92fc-cacac9789ea0": 1
+          "8d6a9c8a-0dd1-4b0e-92fc-cacac9789ea0": 1,
+          "3d795da6-1575-47bf-b136-9caa6004eae9": 12,
+          "46fa99f5-a2a5-415e-ae5b-33d2b8cb08c7": 1,
+          "38293de5-3a7b-419d-a75e-44a7fde65079": 2,
+          "f24f3ced-f044-4710-a310-3a7f922d4975": 4,
+          "95944de8-157f-48f9-bf59-1e463a79241b": 1,
+          "89607d1d-be98-402f-b44c-4b86dd3c4ecb": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -3962,51 +3970,57 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
           "3ab760d6-0b83-4cc5-96c1-0a4c2d8abdb1": "NOWAY",
           "8094d2d7-5aea-42fc-8ad6-acdc220554fd": "KEKW",
-          "8d6a9c8a-0dd1-4b0e-92fc-cacac9789ea0": "kiddance"
+          "8d6a9c8a-0dd1-4b0e-92fc-cacac9789ea0": "kiddance",
+          "3d795da6-1575-47bf-b136-9caa6004eae9": "WW",
+          "46fa99f5-a2a5-415e-ae5b-33d2b8cb08c7": "ratJAM",
+          "38293de5-3a7b-419d-a75e-44a7fde65079": "vroshi",
+          "f24f3ced-f044-4710-a310-3a7f922d4975": "future",
+          "95944de8-157f-48f9-bf59-1e463a79241b": "jtsquared2",
+          "89607d1d-be98-402f-b44c-4b86dd3c4ecb": "woof"
         },
-        "lastChatAt": 1787190868890,
+        "lastChatAt": 1787192206141,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
           "user": "mindgoblin",
-          "msg": "[emote:8094d2d7-5aea-42fc-8ad6-acdc220554fd]"
+          "msg": "[emote:38293de5-3a7b-419d-a75e-44a7fde65079] [emote:38293de5-3a7b-419d-a75e-44a7fde65079] [emote:38293de5-3a7b-419d-a75e-44a7fde65079]"
+        },
+        {
+          "user": "future42",
+          "msg": "congrats"
+        },
+        {
+          "user": "future42",
+          "msg": "Roshi"
+        },
+        {
+          "user": "future42",
+          "msg": "Rosi"
         },
         {
           "user": "mindgoblin",
-          "msg": "[emote:fc58b8aa-97a4-4db8-91ab-bd27b62b0546] [emote:fc58b8aa-97a4-4db8-91ab-bd27b62b0546] [emote:fc58b8aa-97a4-4db8-91ab-bd27b62b0546] [emote:fc58b8aa-97a4-4db8-91ab-bd27b62b0546] [emote:fc58b8aa-97a4-4db8-91ab-bd27b62b0546]"
+          "msg": "roshi"
         },
         {
           "user": "mindgoblin",
-          "msg": "[emote:8d6a9c8a-0dd1-4b0e-92fc-cacac9789ea0] [emote:8d6a9c8a-0dd1-4b0e-92fc-cacac9789ea0] [emote:8d6a9c8a-0dd1-4b0e-92fc-cacac9789ea0] [emote:8d6a9c8a-0dd1-4b0e-92fc-cacac9789ea0]"
+          "msg": "roshi"
         },
         {
           "user": "mindgoblin",
-          "msg": "[emote:ba36f51f-1f2a-4627-958a-cf57f698e8a3] [emote:ba36f51f-1f2a-4627-958a-cf57f698e8a3] [emote:ba36f51f-1f2a-4627-958a-cf57f698e8a3] [emote:ba36f51f-1f2a-4627-958a-cf57f698e8a3]"
+          "msg": "roshi"
+        },
+        {
+          "user": "future42",
+          "msg": "Roshi"
+        },
+        {
+          "user": "future42",
+          "msg": "rosi....when my fingers are tired!!"
         },
         {
           "user": "mindgoblin",
-          "msg": "[emote:02594d35-127e-4a44-869b-ce7d5d6cccc5] [emote:02594d35-127e-4a44-869b-ce7d5d6cccc5] [emote:02594d35-127e-4a44-869b-ce7d5d6cccc5] [emote:02594d35-127e-4a44-869b-ce7d5d6cccc5]"
-        },
-        {
-          "user": "mindgoblin",
-          "msg": "you mixed this really well"
-        },
-        {
-          "user": "mindgoblin",
-          "msg": "[emote:38558f52-d180-4a69-aa75-ce286c4a614a] [emote:38558f52-d180-4a69-aa75-ce286c4a614a] [emote:38558f52-d180-4a69-aa75-ce286c4a614a] [emote:38558f52-d180-4a69-aa75-ce286c4a614a]"
-        },
-        {
-          "user": "mindgoblin",
-          "msg": "i dont understand any of it lolol but im sure its a banger. it sounds great"
-        },
-        {
-          "user": "mindgoblin",
-          "msg": "beautiful voice"
-        },
-        {
-          "user": "mindgoblin",
-          "msg": "very nice Nadie"
+          "msg": "hahahaha"
         }
       ],
       "customCommands": {},
@@ -5269,8 +5283,8 @@
       "stats": {
         "totalVotes": 7755,
         "totalSubs": 36,
-        "totalChatMessages": 7329,
-        "totalStreamMinutes": 4646,
+        "totalChatMessages": 7331,
+        "totalStreamMinutes": 4666,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -5285,7 +5299,7 @@
           "👋": 15,
           "❤": 96,
           "😆": 12,
-          "😂": 92,
+          "😂": 93,
           "🤘": 230,
           "🎵": 15,
           "💀": 5,
@@ -5386,7 +5400,7 @@
           "🎶": 10,
           "🤦": 1,
           "😡": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 9,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 10,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 2,
           "8341a7e3-a341-4ee5-a638-f8432c929257": 17,
           "3c817ff3-fa56-40b6-83b8-5054c76e354a": 11,
@@ -5520,17 +5534,9 @@
           "🫣": "🫣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787190985693
+        "lastChatAt": 1787191382866
       },
       "chatMemory": [
-        {
-          "user": "bidlo_bot",
-          "msg": "@fartvader Found 5 matches: 1. Utada Hikaru - Sanctuary | 2. Hikaru Utada - Hikari | 3. Utada Hikaru - Simple and Clean | 4. Hikaru Utada - One Last Kiss | 5. Hikaru Utada - Beautiful World — Reply !pick 1-5 to select"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "new pbb"
-        },
         {
           "user": "xeukuxaixang",
           "msg": "yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
@@ -5562,6 +5568,14 @@
         {
           "user": "fartvader",
           "msg": "yey first time playing"
+        },
+        {
+          "user": "fartvader",
+          "msg": "sorry bidlo!! i just wanted to hear this song 😂"
+        },
+        {
+          "user": "fartvader",
+          "msg": "sorry I made it look boring to you..but thank you for granting my request..much love! [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {},
@@ -5604,8 +5618,8 @@
       "stats": {
         "totalVotes": 2475,
         "totalSubs": 23,
-        "totalChatMessages": 1099,
-        "totalStreamMinutes": 7983,
+        "totalChatMessages": 1100,
+        "totalStreamMinutes": 8003,
         "emotes": {
           "🔥": 305,
           "🔴": 110,
@@ -5706,14 +5720,10 @@
           "f1a08c52-941d-4043-837b-23a97fcc0729": "Blueberry",
           "0f00728b-14b3-4c72-8561-2cf9bad78f9e": "ABomb"
         },
-        "lastChatAt": 1787190905224,
+        "lastChatAt": 1787191052347,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Come follow ALL my socials and see what goes on after stream! \nhttps://streemrz.com/u/xxtowerdogxx/"
-        },
         {
           "user": "grindingdragon",
           "msg": "Hello @flash"
@@ -5749,6 +5759,10 @@
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "mrwomack",
+          "msg": "Hahahahhahahaa ohhh man"
         }
       ],
       "customCommands": {},
@@ -6634,16 +6648,16 @@
       "stats": {
         "totalVotes": 10318,
         "totalSubs": 60,
-        "totalChatMessages": 1189,
-        "totalStreamMinutes": 6987,
+        "totalChatMessages": 1191,
+        "totalStreamMinutes": 6996,
         "emotes": {
           "❤": 54,
           "🙌": 93,
           "💚": 3,
           "🔥": 27,
           "🗳": 384,
-          "🔴": 61,
-          "🎉": 79,
+          "🔴": 62,
+          "🎉": 80,
           "📴": 60,
           "👋": 62,
           "🚨": 108,
@@ -6669,10 +6683,10 @@
           "🥰": 3,
           "😂": 1,
           "🫣": 2,
-          "🌟": 2,
-          "🎮": 1,
-          "🚀": 1,
-          "💜": 1,
+          "🌟": 4,
+          "🎮": 2,
+          "🚀": 2,
+          "💜": 2,
           "e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f": 3,
           "8f198fe9-5250-4aaa-8783-ce311112d551": 1,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
@@ -6721,17 +6735,9 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787161811671
+        "lastChatAt": 1787191655105
       },
       "chatMemory": [
-        {
-          "user": "pixelpancakes",
-          "msg": "gm ! [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @PixelPancakes! How generous!! 🙌"
-        },
         {
           "user": "0xscheun",
           "msg": "gm Faity"
@@ -6763,6 +6769,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "faithy_",
+          "msg": "🌟 SUPPORT A NEW STREAMER!SUB or GIFT A SUB to me and we’ll collect the proceeds to support deserving new streamers on Blaze! 🎮🚀\nQualified streamers will be reviewed and selected based on their activity, effort, potential, and genuine need.\n💜 Your sub can help another streamer grow.\nSUB • GIFT • SUPPORT • GROW\nLet’s give new streamers the chance they deserve! 🌟"
         }
       ],
       "customCommands": {},
@@ -6775,7 +6789,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Palworld Blaze onnnn! — Palworld",
       "gameOverride": "",
       "profile": "Welcome to faithy_'s Crypto corner, where we dive into New Epoch Play Cambria Fun! We love “GIFTED SUBS”, “VOTE ALERTS”, “ROI YAN”, “patay”, “spanked”, “TAAS NA LEVEL MO AH”, “PURE LOVE”, generous subs, and “GGS” vibes. We celebrate with “GIFTED SUB”, enjoy “TAAS NA LEVEL MO AH”, and “it's time to grind” moments, all while playing Assassin's Creed Odyssey.",
       "_profileAtCount": 1184,
@@ -7016,7 +7030,7 @@
         "totalVotes": 2447,
         "totalSubs": 13,
         "totalChatMessages": 102,
-        "totalStreamMinutes": 2454,
+        "totalStreamMinutes": 2474,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -7977,8 +7991,8 @@
       "stats": {
         "totalVotes": 8126,
         "totalSubs": 0,
-        "totalChatMessages": 10440,
-        "totalStreamMinutes": 5291,
+        "totalChatMessages": 10441,
+        "totalStreamMinutes": 5301,
         "emotes": {
           "❤": 21,
           "🙌": 17,
@@ -7997,8 +8011,8 @@
           "☺": 3,
           "😎": 2,
           "😁": 1,
-          "📴": 40,
-          "👋": 43,
+          "📴": 41,
+          "👋": 44,
           "🛒": 7,
           "😀": 1,
           "😍": 4,
@@ -8204,13 +8218,9 @@
           "7bcfac22-a4aa-493e-9fb2-8b0c9f6b2ff4": "DK1"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787190816341
+        "lastChatAt": 1787191605550
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🪙 @rechigamer 35,570 points."
-        },
         {
           "user": "rechigamer",
           "msg": "Eu resgatei seu Salfado"
@@ -8246,6 +8256,10 @@
         {
           "user": "peperonitostv",
           "msg": "Boa liveee!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -8258,13 +8272,13 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
-      "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
+      "streamTitle": "",
       "profile": "sofrenciaplay’s community is a lively bunch of gamers who “torram os pontos” in 1h30m Retro marathons, especially Donkey Kong Country. They shout “JOGA SEU JOGO,” celebrate “torradas” and “bolinhos” of points, joke about “Tim craft, Vivo craft,” “bolinho de chuva,” and “webcam de chuva.” The streamer loves being celebrated when viewers “torram os pontos” to redeem rewards.",
       "_profileAtCount": 10438,
       "gameOverride": "",
       "commentMode": "low",
       "lastStreamInfo": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
-      "lastStreamEndedAt": 1787090090096
+      "lastStreamEndedAt": 1787191600324
     },
     "c6f961d4-99d9-43a9-af38-8f62a07c68f9": {
       "username": "guney",
@@ -11054,6 +11068,11 @@
     "missaria": {
       "note": "Miss",
       "at": 1787164369009,
+      "n": 1
+    },
+    "sheshi": {
+      "note": "Sheshi frequently promotes BlazeBorn Eggs and Enjin card games on livestreams, often joking about instant airdrops and playful emojis.",
+      "at": 1787191429060,
       "n": 1
     }
   },
