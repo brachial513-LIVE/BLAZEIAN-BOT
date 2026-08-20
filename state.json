@@ -2110,7 +2110,7 @@
       "stats": {
         "totalVotes": 7037,
         "totalSubs": 6,
-        "totalChatMessages": 4626,
+        "totalChatMessages": 4627,
         "totalStreamMinutes": 1797,
         "emotes": {
           "❤": 1763,
@@ -2304,7 +2304,7 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": "BLAZEGM"
         },
-        "lastChatAt": 1787245529636,
+        "lastChatAt": 1787245590849,
         "sendFailStreak": 0,
         "lastSendFailAt": 1786221397885,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2312,10 +2312,6 @@
         "recoveredFrom": 146
       },
       "chatMemory": [
-        {
-          "user": "generalkev",
-          "msg": "Yabadabadoo"
-        },
         {
           "user": "bee12",
           "msg": "woohoooooooooooo!"
@@ -2351,6 +2347,10 @@
         {
           "user": "ospcommunity",
           "msg": "Halloooo"
+        },
+        {
+          "user": "sheshi",
+          "msg": "hello mrs. bee, mr. weri"
         }
       ],
       "customCommands": {},
@@ -9788,7 +9788,7 @@
       "stats": {
         "totalVotes": 2609,
         "totalSubs": 33,
-        "totalChatMessages": 895,
+        "totalChatMessages": 896,
         "totalStreamMinutes": 2071,
         "emotes": {
           "😅": 1,
@@ -9891,17 +9891,13 @@
           "e5772785-5f76-4433-8159-230844a61298": "fartgengar"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787245529625,
+        "lastChatAt": 1787245596915,
         "lastSendFailAt": 1786882933475,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1786901852824,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "dl demo first"
-        },
         {
           "user": "fartvader",
           "msg": "he cant join..his game's crashing"
@@ -9937,6 +9933,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @FartVader just gifted a sub to @blackfox! How generous!! 🙌"
+        },
+        {
+          "user": "fartvader",
+          "msg": "much love bro @cripiechuccles"
         }
       ],
       "customCommands": {},
@@ -10584,9 +10584,7 @@
           "msg": "sali kayo sa event ko bukas, kayong tatlo nina fart haha"
         }
       ],
-      "customCommands": {
-        "shoutout": "{name}"
-      },
+      "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
