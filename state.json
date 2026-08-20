@@ -1145,7 +1145,7 @@
         "totalVotes": 11060,
         "totalSubs": 103,
         "totalChatMessages": 4913,
-        "totalStreamMinutes": 14571,
+        "totalStreamMinutes": 14591,
         "emotes": {
           "📊": 3,
           "🔥": 315,
@@ -2104,8 +2104,8 @@
       "stats": {
         "totalVotes": 7037,
         "totalSubs": 6,
-        "totalChatMessages": 4583,
-        "totalStreamMinutes": 1714,
+        "totalChatMessages": 4585,
+        "totalStreamMinutes": 1734,
         "emotes": {
           "❤": 1724,
           "🎵": 157,
@@ -2298,7 +2298,7 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": "BLAZEGM"
         },
-        "lastChatAt": 1787196000763,
+        "lastChatAt": 1787197089522,
         "sendFailStreak": 0,
         "lastSendFailAt": 1786221397885,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2306,14 +2306,6 @@
         "recoveredFrom": 146
       },
       "chatMemory": [
-        {
-          "user": "corneto",
-          "msg": "gm @ospcommunity"
-        },
-        {
-          "user": "corneto",
-          "msg": "lurking but i see your building a game??"
-        },
         {
           "user": "ospcommunity",
           "msg": "Yo@!"
@@ -2345,6 +2337,14 @@
         {
           "user": "ospcommunity",
           "msg": "Same one. Different name"
+        },
+        {
+          "user": "peperonitostv",
+          "msg": "Have a nice stream!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -5908,7 +5908,7 @@
         "totalVotes": 5155,
         "totalSubs": 77,
         "totalChatMessages": 483,
-        "totalStreamMinutes": 2760,
+        "totalStreamMinutes": 2780,
         "emotes": {
           "❤": 23,
           "🙌": 84,
@@ -6681,8 +6681,8 @@
       "stats": {
         "totalVotes": 10318,
         "totalSubs": 60,
-        "totalChatMessages": 1192,
-        "totalStreamMinutes": 7066,
+        "totalChatMessages": 1195,
+        "totalStreamMinutes": 7086,
         "emotes": {
           "❤": 54,
           "🙌": 93,
@@ -6724,7 +6724,8 @@
           "8f198fe9-5250-4aaa-8783-ce311112d551": 1,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
-          "ef07187d-8e6c-42b9-af9c-b732de7949cb": 1
+          "ef07187d-8e6c-42b9-af9c-b732de7949cb": 1,
+          "e378281b-e1b0-44be-95f5-eb1cd26dedf0": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -6767,24 +6768,13 @@
           "8f198fe9-5250-4aaa-8783-ce311112d551": "Hype",
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": "BLAZEGM",
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink",
-          "ef07187d-8e6c-42b9-af9c-b732de7949cb": "salute"
+          "ef07187d-8e6c-42b9-af9c-b732de7949cb": "salute",
+          "e378281b-e1b0-44be-95f5-eb1cd26dedf0": "dance"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787195742634
+        "lastChatAt": 1787197472019
       },
       "chatMemory": [
-        {
-          "user": "pixelpancakes",
-          "msg": "[emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f] [emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "i'll just lurk here again bro..need to do work-related stuff hehe..brb"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 500 vote(s) (total: 900)! Thank you!! 🗳️"
@@ -6812,6 +6802,18 @@
         {
           "user": "korosuplays",
           "msg": "[emote:ef07187d-8e6c-42b9-af9c-b732de7949cb]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "eyy eyy eyy  [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0]"
+        },
+        {
+          "user": "peperonitostv",
+          "msg": "Have a nice stream!"
+        },
+        {
+          "user": "charddxyz",
+          "msg": "faithywaps"
         }
       ],
       "customCommands": {},
@@ -8881,22 +8883,26 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 7,
+        "totalChatMessages": 8,
         "totalStreamMinutes": 0,
         "emotes": {
           "💚": 1,
           "👋": 1,
           "⏰": 1,
-          "🙌": 1
+          "🙌": 1,
+          "🔴": 1,
+          "🎉": 1
         },
         "emoteNames": {
           "💚": "💚",
           "👋": "👋",
           "⏰": "⏰",
-          "🙌": "🙌"
+          "🙌": "🙌",
+          "🔴": "🔴",
+          "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1786300114283
+        "lastChatAt": 1787197567094
       },
       "chatMemory": [
         {
@@ -8922,6 +8928,10 @@
         {
           "user": "homiedrew",
           "msg": "test"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 homiedrew is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -8933,7 +8943,8 @@
       "greeted": true,
       "locked": false,
       "followed": true,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/3edd6fa7-1bae-41cb-8d36-480b2b9dcd85.png"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/3edd6fa7-1bae-41cb-8d36-480b2b9dcd85.png",
+      "streamTitle": "Games! 🔥 BLAZE 🔥 Follower Goal 11/100 🔥 — Games + Demos"
     },
     "2c31d967-7255-462b-9cfa-41b8b75483c9": {
       "username": "panipeys",
@@ -9994,13 +10005,13 @@
       "stats": {
         "totalVotes": 560,
         "totalSubs": 6,
-        "totalChatMessages": 92,
-        "totalStreamMinutes": 491,
+        "totalChatMessages": 98,
+        "totalStreamMinutes": 511,
         "emotes": {
-          "❤": 7,
+          "❤": 8,
           "🙌": 8,
-          "📢": 3,
-          "🔥": 6,
+          "📢": 4,
+          "🔥": 8,
           "📴": 4,
           "👋": 4,
           "🎁": 12,
@@ -10015,7 +10026,8 @@
           "48cbdddd-1248-41c3-8d0f-01076bdb86ed": 1,
           "9fd014db-3ca4-48b3-9fdf-f62b1d7dd2da": 1,
           "😶": 3,
-          "🌫": 3
+          "🌫": 3,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -10036,32 +10048,13 @@
           "48cbdddd-1248-41c3-8d0f-01076bdb86ed": "Cinema",
           "9fd014db-3ca4-48b3-9fdf-f62b1d7dd2da": "LO",
           "😶": "😶",
-          "🌫": "🌫"
+          "🌫": "🌫",
+          "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787195829217
+        "lastChatAt": 1787196681791
       },
       "chatMemory": [
-        {
-          "user": "korosuplays",
-          "msg": "dagdag ako soon"
-        },
-        {
-          "user": "corneto",
-          "msg": "[emote:7d370f41-dae4-4329-94b0-f57daae5e4f8]"
-        },
-        {
-          "user": "corneto",
-          "msg": "wla ako ma emote sa iyo kundi yan lng"
-        },
-        {
-          "user": "corneto",
-          "msg": "ahhaha"
-        },
-        {
-          "user": "corneto",
-          "msg": "[emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8]"
-        },
         {
           "user": "meyetechnicals",
           "msg": "😶‍🌫️😶‍🌫️😶‍🌫️"
@@ -10081,6 +10074,26 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @meyetechnicals, who is live now, currently streaming IRL to 6 viewers at https://blaze.stream/meyetechnicals!"
+        },
+        {
+          "user": "peperonitostv",
+          "msg": "Have a nice stream!"
+        },
+        {
+          "user": "korosuplays",
+          "msg": "hiii"
+        },
+        {
+          "user": "korosuplays",
+          "msg": "thank you [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @peperonitostv, streamer of Crypto! 🔥 Make sure to check out https://blaze.stream/peperonitostv and show some support ❤️‍🔥"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @peperonitostv, who is live now, currently streaming Crypto to 3 viewers at https://blaze.stream/peperonitostv!"
         }
       ],
       "customCommands": {},
@@ -10109,8 +10122,8 @@
       "stats": {
         "totalVotes": 147,
         "totalSubs": 6,
-        "totalChatMessages": 64,
-        "totalStreamMinutes": 434,
+        "totalChatMessages": 70,
+        "totalStreamMinutes": 437,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -10121,7 +10134,7 @@
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
           "5c5b297e-10fc-4c7f-aa0d-772cdbf3c303": 1,
-          "e4bf4fdc-410e-43c7-86d9-9b2add5db603": 8,
+          "e4bf4fdc-410e-43c7-86d9-9b2add5db603": 9,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1
         },
         "emoteNames": {
@@ -10138,33 +10151,9 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787168510540
+        "lastChatAt": 1787197579460
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "eyyyy lesgoo.."
-        },
-        {
-          "user": "fartvader",
-          "msg": "w @nekoschwan"
-        },
-        {
-          "user": "fartvader",
-          "msg": "imma go to bed compañero [emote:e4bf4fdc-410e-43c7-86d9-9b2add5db603]  ggs"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "hahaha companero"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "letsgoooo"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "just give me like 15 mins"
-        },
         {
           "user": "nekoschwan",
           "msg": "[emote:e4bf4fdc-410e-43c7-86d9-9b2add5db603] [emote:e4bf4fdc-410e-43c7-86d9-9b2add5db603] [emote:e4bf4fdc-410e-43c7-86d9-9b2add5db603]"
@@ -10180,6 +10169,30 @@
         {
           "user": "jaggerjack",
           "msg": "Yow! Thank you everyone for visiting my stream it means a lot to me! Much appreciated! Love ya'll!"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "Yow! Chill Stream! Let's go!"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "what the helliii"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:e4bf4fdc-410e-43c7-86d9-9b2add5db603]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "sounds in jeepney"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "Yow!"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "Stick Figgas - Ubasan"
         }
       ],
       "customCommands": {},
@@ -10190,7 +10203,7 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "PTCG Live Ft. PH Hip Hop Blazeeee On! — Pokémon Trading Card Game Online",
       "lastStreamInfo": "Blaze On! CS2 Silver Magic! — Counter Strike 2",
       "lastStreamEndedAt": 1787168459780,
       "gameOverride": "",
@@ -10294,8 +10307,8 @@
       "stats": {
         "totalVotes": 167,
         "totalSubs": 0,
-        "totalChatMessages": 86,
-        "totalStreamMinutes": 138,
+        "totalChatMessages": 99,
+        "totalStreamMinutes": 158,
         "emotes": {
           "👋": 4,
           "⚠": 2,
@@ -10329,48 +10342,48 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787195837066
+        "lastChatAt": 1787197432345
       },
       "chatMemory": [
         {
           "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/e993f213c4c22d90bbd77bfa5ea905bfd031478facd5d17745fe77e5c5f12650"
-        },
-        {
-          "user": "onyxouroboros",
-          "msg": "recycle some more trash for more credits"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Refinery Shutdown from Warsaken®. View here: https://scurvybot.com/wax/tx/156fa238482c90d5597ddd213c295b970b7e7f9d895062321aa719bd9719c14a"
-        },
-        {
-          "user": "onyxouroboros",
-          "msg": "Warsaken for some trash, nice exchange"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️"
-        },
-        {
-          "user": "scurvybot",
           "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/bef1a54c572787afadaafc20ad71149bd0900c2e36465da4eafc8cd4591524b8"
+        },
+        {
+          "user": "peperonitostv",
+          "msg": "Have a nice stream!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/f6a053871bf4602f8b0d8203c44d77f798663c27e09ffa1daa25ceb0b6e34ed4"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "Let's keep recycling trash"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/f12812dd786cd9f0e339620087f6e74c6c7ffb6375abb47dc276d5ea307c0fa5"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "more credits for more trash"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros you cannot dig yet. Please wait another 1 minute before trying again."
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "gotta wait one more minute to dig again"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/1f687eb230a0fdcaaadd01a252d3787fb26643b1ca858f335ee2167a527e65d9"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "some more credits for more trash"
         }
       ],
       "customCommands": {
