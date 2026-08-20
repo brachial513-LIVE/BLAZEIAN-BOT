@@ -6682,7 +6682,7 @@
         "totalVotes": 10376,
         "totalSubs": 62,
         "totalChatMessages": 1206,
-        "totalStreamMinutes": 7201,
+        "totalStreamMinutes": 7221,
         "emotes": {
           "❤": 56,
           "🙌": 96,
@@ -10332,7 +10332,7 @@
       "stats": {
         "totalVotes": 174,
         "totalSubs": 0,
-        "totalChatMessages": 101,
+        "totalChatMessages": 102,
         "totalStreamMinutes": 166,
         "emotes": {
           "👋": 5,
@@ -10367,13 +10367,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787198088447
+        "lastChatAt": 1787223349606
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/f6a053871bf4602f8b0d8203c44d77f798663c27e09ffa1daa25ceb0b6e34ed4"
-        },
         {
           "user": "onyxouroboros",
           "msg": "Let's keep recycling trash"
@@ -10409,6 +10405,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "allybear",
+          "msg": "love"
         }
       ],
       "customCommands": {
@@ -11153,9 +11153,9 @@
       "n": 2
     },
     "missaria": {
-      "note": "Miss",
-      "at": 1787164369009,
-      "n": 1
+      "note": "Missaria frequently streams Stumble Guys, hosts giveaways, jokes about damage and aliens, and enthusiastically invites viewers to join her events.",
+      "at": 1787223109208,
+      "n": 2
     },
     "sheshi": {
       "note": "Sheshi frequently promotes BlazeBorn Eggs and Enjin card games on livestreams, often joking about instant airdrops and playful emojis.",
@@ -11172,8 +11172,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787222216219,
   "auth": {
-    "accessToken": "a4f32609786af4fa42f57dfcbf7511ec",
-    "refreshToken": "f25033b7129c5a282a972a6030ce414f",
+    "accessToken": "02ae36e12167d446d62ab8f0801aa607",
+    "refreshToken": "a596b9f4441b7de09df7932981d152c2",
     "sessionToken": "68b23eef66bea2daca79bea5688521ac",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
