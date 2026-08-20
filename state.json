@@ -1145,7 +1145,7 @@
         "totalVotes": 11060,
         "totalSubs": 103,
         "totalChatMessages": 4913,
-        "totalStreamMinutes": 14591,
+        "totalStreamMinutes": 14611,
         "emotes": {
           "📊": 3,
           "🔥": 315,
@@ -2104,8 +2104,8 @@
       "stats": {
         "totalVotes": 7037,
         "totalSubs": 6,
-        "totalChatMessages": 4585,
-        "totalStreamMinutes": 1734,
+        "totalChatMessages": 4586,
+        "totalStreamMinutes": 1746,
         "emotes": {
           "❤": 1724,
           "🎵": 157,
@@ -2298,7 +2298,7 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": "BLAZEGM"
         },
-        "lastChatAt": 1787197089522,
+        "lastChatAt": 1787198316827,
         "sendFailStreak": 0,
         "lastSendFailAt": 1786221397885,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2306,10 +2306,6 @@
         "recoveredFrom": 146
       },
       "chatMemory": [
-        {
-          "user": "ospcommunity",
-          "msg": "Yo@!"
-        },
         {
           "user": "ospcommunity",
           "msg": "Awesome - You have audio or shall I answer here?"
@@ -2345,6 +2341,10 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -2353,7 +2353,7 @@
       "locked": false,
       "botVip": true,
       "followed": true,
-      "streamTitle": "Funk Show daily! We are building an incredible game here!!! — Crypto",
+      "streamTitle": "",
       "profile": "unclefunk's community is a funky crew of gamers who love to \"earn courage\" by watching and participating in OSP-related streams. They're all about \"every vote helps\" and celebrating each other's contributions with \"💜\" and \"connect your OSP account\". They get hyped with \"stream is now live!\" and \"stream is now offline!\" and love to see each other's \"courage\" grow, often giving shoutouts with \"❤️❤️❤️\" and using emotes like [emote:45b804ef-0a31-4455-bb8c-7c618e588f07]. They also appreciate Blazebo",
       "_profileAtCount": 4352,
       "loyalty": {
@@ -2381,7 +2381,7 @@
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "Funk Show daily! We are building an incredible game here!!! — Crypto",
-      "lastStreamEndedAt": 1787177699832
+      "lastStreamEndedAt": 1787198316665
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -5907,8 +5907,8 @@
       "stats": {
         "totalVotes": 5155,
         "totalSubs": 77,
-        "totalChatMessages": 483,
-        "totalStreamMinutes": 2780,
+        "totalChatMessages": 484,
+        "totalStreamMinutes": 2800,
         "emotes": {
           "❤": 23,
           "🙌": 84,
@@ -5946,13 +5946,9 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787194169964
+        "lastChatAt": 1787197729998
       },
       "chatMemory": [
-        {
-          "user": "onyxouroboros",
-          "msg": "25 Shiny Things for another empty hole"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -5988,6 +5984,10 @@
         {
           "user": "botger",
           "msg": "🔴 thewill3ffect is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Come chill in Chainers, a super simple and fun farming game anyone can enjoy — even the kids. Build, farm, earn crypto, and vibe with a laid‑back community. It’s free, it’s easy, and it’s actually addicting in the best way. Jump in and start growing with us: https://chainers.io/?r=mixncg74"
         }
       ],
       "customCommands": {},
@@ -6681,8 +6681,8 @@
       "stats": {
         "totalVotes": 10318,
         "totalSubs": 60,
-        "totalChatMessages": 1195,
-        "totalStreamMinutes": 7086,
+        "totalChatMessages": 1196,
+        "totalStreamMinutes": 7106,
         "emotes": {
           "❤": 54,
           "🙌": 93,
@@ -6772,13 +6772,9 @@
           "e378281b-e1b0-44be-95f5-eb1cd26dedf0": "dance"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787197472019
+        "lastChatAt": 1787198750446
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 500 vote(s) (total: 900)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "💰 TIP ALERT!! 💰 @mindgoblin just tipped $10.00!! Thank you so much!! 🙌"
@@ -6814,6 +6810,10 @@
         {
           "user": "charddxyz",
           "msg": "faithywaps"
+        },
+        {
+          "user": "faithy_",
+          "msg": "cooking my lunch atm"
         }
       ],
       "customCommands": {},
@@ -8884,7 +8884,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 8,
-        "totalStreamMinutes": 0,
+        "totalStreamMinutes": 20,
         "emotes": {
           "💚": 1,
           "👋": 1,
@@ -10006,7 +10006,7 @@
         "totalVotes": 560,
         "totalSubs": 6,
         "totalChatMessages": 98,
-        "totalStreamMinutes": 511,
+        "totalStreamMinutes": 531,
         "emotes": {
           "❤": 8,
           "🙌": 8,
@@ -10122,20 +10122,26 @@
       "stats": {
         "totalVotes": 147,
         "totalSubs": 6,
-        "totalChatMessages": 70,
-        "totalStreamMinutes": 437,
+        "totalChatMessages": 129,
+        "totalStreamMinutes": 457,
         "emotes": {
           "🧡": 1,
           "💚": 3,
-          "🔥": 2,
-          "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 2,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 1,
+          "🔥": 3,
+          "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 5,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 5,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 3,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
           "5c5b297e-10fc-4c7f-aa0d-772cdbf3c303": 1,
-          "e4bf4fdc-410e-43c7-86d9-9b2add5db603": 9,
-          "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1
+          "e4bf4fdc-410e-43c7-86d9-9b2add5db603": 11,
+          "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
+          "f6a00ee4-bc40-4d8f-8879-c122ad069225": 3,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 2,
+          "🌀": 2,
+          "🐌": 2,
+          "🙏": 2
         },
         "emoteNames": {
           "🧡": "🧡",
@@ -10148,51 +10154,57 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2",
           "5c5b297e-10fc-4c7f-aa0d-772cdbf3c303": "YELLOWPYRO",
           "e4bf4fdc-410e-43c7-86d9-9b2add5db603": "Flash",
-          "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO"
+          "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO",
+          "f6a00ee4-bc40-4d8f-8879-c122ad069225": "DAZEDPYRO",
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE",
+          "🌀": "🌀",
+          "🐌": "🐌",
+          "🙏": "🙏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787197579460
+        "lastChatAt": 1787198725374
       },
       "chatMemory": [
         {
-          "user": "nekoschwan",
-          "msg": "[emote:e4bf4fdc-410e-43c7-86d9-9b2add5db603] [emote:e4bf4fdc-410e-43c7-86d9-9b2add5db603] [emote:e4bf4fdc-410e-43c7-86d9-9b2add5db603]"
-        },
-        {
-          "user": "angge_wf",
-          "msg": "gm"
-        },
-        {
-          "user": "cripiechuccles",
-          "msg": "we here"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "Yow! Thank you everyone for visiting my stream it means a lot to me! Much appreciated! Love ya'll!"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "Yow! Chill Stream! Let's go!"
+          "user": "fartvader",
+          "msg": "oh yesss lesgooo"
         },
         {
           "user": "cr33pling",
-          "msg": "what the helliii"
+          "msg": "hahahahhaa"
+        },
+        {
+          "user": "fartvader",
+          "msg": "10 comment giveway bout to start"
         },
         {
           "user": "cr33pling",
-          "msg": "[emote:e4bf4fdc-410e-43c7-86d9-9b2add5db603]"
+          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
         },
         {
-          "user": "cr33pling",
-          "msg": "sounds in jeepney"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "Yow!"
+          "user": "fartvader",
+          "msg": "islash raid JaggerJack\n\nFartVader has raided JaggerJack with 9852 viewers! 🔥"
         },
         {
           "user": "jaggerjack",
-          "msg": "Stick Figgas - Ubasan"
+          "msg": "you trippin bro lol"
+        },
+        {
+          "user": "fartvader",
+          "msg": "hopefully i get picked. I badly need those 10 comments"
+        },
+        {
+          "user": "fartvader",
+          "msg": "🙏🙏"
+        },
+        {
+          "user": "fartvader",
+          "msg": "haha..im about to take a nap bro..have a good stream! [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "yessir, you bet!"
         }
       ],
       "customCommands": {},
@@ -10307,16 +10319,16 @@
       "stats": {
         "totalVotes": 167,
         "totalSubs": 0,
-        "totalChatMessages": 99,
-        "totalStreamMinutes": 158,
+        "totalChatMessages": 101,
+        "totalStreamMinutes": 166,
         "emotes": {
-          "👋": 4,
+          "👋": 5,
           "⚠": 2,
           "🎯": 2,
           "🗳": 18,
           "🔴": 4,
           "🎉": 4,
-          "📴": 3,
+          "📴": 4,
           "🎡": 1,
           "®": 3,
           "📢": 1,
@@ -10342,17 +10354,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787197432345
+        "lastChatAt": 1787198088447
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/bef1a54c572787afadaafc20ad71149bd0900c2e36465da4eafc8cd4591524b8"
-        },
-        {
-          "user": "peperonitostv",
-          "msg": "Have a nice stream!"
-        },
         {
           "user": "scurvybot",
           "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/f6a053871bf4602f8b0d8203c44d77f798663c27e09ffa1daa25ceb0b6e34ed4"
@@ -10384,6 +10388,14 @@
         {
           "user": "onyxouroboros",
           "msg": "some more credits for more trash"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -10398,9 +10410,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "🔥 280th Blaze Stream🔥 — Rocket League",
+      "streamTitle": "",
       "lastStreamInfo": "🔥 280th Blaze Stream🔥 — Rocket League",
-      "lastStreamEndedAt": 1787188574055,
+      "lastStreamEndedAt": 1787198083205,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” keep the vibe high‑energy, and urge more stream hours to stay Verified.",
