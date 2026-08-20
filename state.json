@@ -1145,7 +1145,7 @@
         "totalVotes": 11179,
         "totalSubs": 103,
         "totalChatMessages": 4954,
-        "totalStreamMinutes": 14811,
+        "totalStreamMinutes": 14812,
         "emotes": {
           "📊": 3,
           "🔥": 319,
@@ -2110,10 +2110,10 @@
       "stats": {
         "totalVotes": 7037,
         "totalSubs": 6,
-        "totalChatMessages": 4627,
-        "totalStreamMinutes": 1797,
+        "totalChatMessages": 4628,
+        "totalStreamMinutes": 1798,
         "emotes": {
-          "❤": 1763,
+          "❤": 1766,
           "🎵": 160,
           "💃": 111,
           "🔥": 293,
@@ -2304,7 +2304,7 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": "BLAZEGM"
         },
-        "lastChatAt": 1787245590849,
+        "lastChatAt": 1787245608784,
         "sendFailStreak": 0,
         "lastSendFailAt": 1786221397885,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2312,10 +2312,6 @@
         "recoveredFrom": 146
       },
       "chatMemory": [
-        {
-          "user": "bee12",
-          "msg": "woohoooooooooooo!"
-        },
         {
           "user": "weri",
           "msg": "Beeeeeee !!!!!!!!!!!!!!🤗🤗🤗🤗🤗🤗🤗"
@@ -2351,6 +2347,10 @@
         {
           "user": "sheshi",
           "msg": "hello mrs. bee, mr. weri"
+        },
+        {
+          "user": "bee12",
+          "msg": "sheshiiiiiiiiiiiiii❤️❤️❤️"
         }
       ],
       "customCommands": {},
@@ -4708,7 +4708,7 @@
         "totalVotes": 7608,
         "totalSubs": 25,
         "totalChatMessages": 1638,
-        "totalStreamMinutes": 2364,
+        "totalStreamMinutes": 2365,
         "emotes": {
           "❤": 34,
           "🙌": 58,
@@ -9788,16 +9788,16 @@
       "stats": {
         "totalVotes": 2609,
         "totalSubs": 33,
-        "totalChatMessages": 896,
-        "totalStreamMinutes": 2071,
+        "totalChatMessages": 900,
+        "totalStreamMinutes": 2072,
         "emotes": {
           "😅": 1,
-          "🔥": 48,
+          "🔥": 52,
           "🍻": 1,
           "✌": 1,
           "😊": 1,
           "👍": 1,
-          "❤": 35,
+          "❤": 37,
           "🤫": 1,
           "🤘": 2,
           "😂": 3,
@@ -9825,7 +9825,7 @@
           "d021d096-f2ed-48e4-92df-af5f224e1a3f": 9,
           "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 4,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
-          "📢": 15,
+          "📢": 17,
           "🚨": 36,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
@@ -9891,21 +9891,13 @@
           "e5772785-5f76-4433-8159-230844a61298": "fartgengar"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787245596915,
+        "lastChatAt": 1787245624146,
         "lastSendFailAt": 1786882933475,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1786901852824,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "he cant join..his game's crashing"
-        },
-        {
-          "user": "fartvader",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "nekoschwan",
           "msg": "[emote:ddd8e0e5-6002-45e8-9ad3-c5a6225d5daf] [emote:ddd8e0e5-6002-45e8-9ad3-c5a6225d5daf]"
@@ -9937,6 +9929,14 @@
         {
           "user": "fartvader",
           "msg": "much love bro @cripiechuccles"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @blackfox, streamer of Fortnite! 🔥 Make sure to check out https://blaze.stream/blackfox and show some support ❤️‍🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @cripiechuccles, streamer of Command & Conquer 3: Tiberium Wars! 🔥 Make sure to check out https://blaze.stream/cripiechuccles and show some support ❤️‍🔥"
         }
       ],
       "customCommands": {},
@@ -10584,7 +10584,9 @@
           "msg": "sali kayo sa event ko bukas, kayong tatlo nina fart haha"
         }
       ],
-      "customCommands": {},
+      "customCommands": {
+        "so": "shoutout {name}"
+      },
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
