@@ -893,22 +893,22 @@
       "stats": {
         "totalVotes": 9919,
         "totalSubs": 21,
-        "totalChatMessages": 17517,
+        "totalChatMessages": 17521,
         "totalStreamMinutes": 1594,
         "emotes": {
           "🔥": 1325,
           "🗳": 20,
           "🔴": 27,
-          "🎉": 173,
+          "🎉": 175,
           "😍": 1,
           "❤": 34,
           "🚢": 9,
           "⏰": 1053,
           "🔜": 494,
-          "💀": 305,
+          "💀": 307,
           "😘": 2,
-          "🏆": 123,
-          "🎊": 112,
+          "🏆": 125,
+          "🎊": 114,
           "🎰": 13,
           "😰": 88,
           "🍌": 46,
@@ -1049,7 +1049,7 @@
           "🐢": "🐢",
           "🤑": "🤑"
         },
-        "lastChatAt": 1787328384238,
+        "lastChatAt": 1787328440041,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1057,22 +1057,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "@EpicBot3 You have the potato! Type !toss! 🥔🔥"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "@CleverGamer57 You have the potato! Type !toss! 🥔🔥"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "💀 EpicBot3 has been eliminated! 3 players remaining."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "💀 CleverGamer57 has been eliminated! 3 players remaining."
-        },
         {
           "user": "blazegames_bot",
           "msg": "@QuickStar98 You have the potato! Type !toss! 🥔🔥"
@@ -1096,6 +1080,22 @@
         {
           "user": "blazegames_bot",
           "msg": "@jt_squared2 You have the potato! Type !toss! 🥔🔥"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "💀 jt_squared2 has been eliminated! 1 player remaining."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🏆 WINNER: BoldPro59! 🎉 Survived 3 rounds! Congratulations! 🎊"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "💀 SharpWarrior62 has been eliminated! 1 player remaining."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "🏆 WINNER: BraveBot59! 🎉 Survived 3 rounds! Congratulations! 🎊"
         }
       ],
       "customCommands": {},
@@ -1159,7 +1159,7 @@
         "totalVotes": 11435,
         "totalSubs": 105,
         "totalChatMessages": 5169,
-        "totalStreamMinutes": 15710,
+        "totalStreamMinutes": 15715,
         "emotes": {
           "📊": 3,
           "🔥": 333,
@@ -8585,7 +8585,7 @@
         "totalVotes": 3424,
         "totalSubs": 8,
         "totalChatMessages": 665,
-        "totalStreamMinutes": 3996,
+        "totalStreamMinutes": 4001,
         "emotes": {
           "❤": 50,
           "🙌": 23,
@@ -10818,7 +10818,7 @@
         "totalVotes": 4,
         "totalSubs": 3,
         "totalChatMessages": 14,
-        "totalStreamMinutes": 1243,
+        "totalStreamMinutes": 1248,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 2,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 1,
@@ -11646,8 +11646,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787293616214,
   "auth": {
-    "accessToken": "27965502c6c3ba9d9d154463026ccc82",
-    "refreshToken": "41a894869a45d562a4c6fa435ecdcd98",
+    "accessToken": "8ce3b31dda9454d31c3a10fbc54d49d8",
+    "refreshToken": "5b0077118e9b41754264b84e39422786",
     "sessionToken": "7b925ec101695a27c0a67a3db576850b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
