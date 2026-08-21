@@ -1158,8 +1158,8 @@
       "stats": {
         "totalVotes": 11435,
         "totalSubs": 105,
-        "totalChatMessages": 5174,
-        "totalStreamMinutes": 15724,
+        "totalChatMessages": 5200,
+        "totalStreamMinutes": 15744,
         "emotes": {
           "📊": 3,
           "🔥": 333,
@@ -1285,7 +1285,7 @@
           "🤞": 1,
           "🛑": 3,
           "🌉": 1,
-          "💥": 17,
+          "💥": 18,
           "💨": 8,
           "😆": 1,
           "🦾": 1,
@@ -1295,7 +1295,7 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 7,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 8,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 7,
-          "37719561-c923-4260-b1a5-e3eda10c103d": 8,
+          "37719561-c923-4260-b1a5-e3eda10c103d": 9,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 2,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
@@ -1305,17 +1305,17 @@
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": 1,
           "🦩": 8,
           "😁": 1,
-          "🎡": 13,
+          "🎡": 14,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
-          "🃏": 32,
-          "♥": 34,
+          "🃏": 34,
+          "♥": 39,
           "♣": 37,
-          "♠": 34,
+          "♠": 37,
           "♦": 28,
           "🩷": 1,
           "🍗": 1,
           "💞": 1,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 2,
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 1,
           "3c4113bb-2126-420f-b2db-775a012369fb": 1
         },
@@ -1479,48 +1479,48 @@
           "3c4113bb-2126-420f-b2db-775a012369fb": "TIPME"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787329235984
+        "lastChatAt": 1787329741577
       },
       "chatMemory": [
         {
-          "user": "foxbotai",
-          "msg": "🃏 @crypt0k1ng96, dealt: 9♣ 9♥ (18) vs dealer showing Q♠. !hit or !stand?"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🃏 @crypt0k1ng96, 9♣ 9♥ (18) vs dealer Q♠ 3♠ 2♥ 5♦ (20) — you lost 10 promo. Balance: 565 promo."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🎡 @crypt0k1ng96, ball landed on 28 black — you lost 10 promo. Balance: 555 promo."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🎡 @crypt0k1ng96, ball landed on 6 black — you lost 10 promo. Balance: 545 promo."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "💥 @crypt0k1ng96, crashed at 1.64x before your 2.50x cashout — you lost 10 promo. Balance: 535 promo."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "man I wish the scroll wasn't so broken on these chats. I can't scroll up to see if you said anything"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "trying to multi task but failing"
+          "user": "crypt0k1ng96",
+          "msg": "Hey cripie"
         },
         {
           "user": "crypt0k1ng96",
-          "msg": "Can you se"
+          "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d]"
         },
         {
-          "user": "crypt0k1ng96",
-          "msg": "Can you see the pinned message?"
+          "user": "foxbotai",
+          "msg": "🃏 @crypt0k1ng96, BUST! 3♥ 10♠ 10♥ (23) vs dealer 7♥ Q♠ (17) — you lost 10 promo. Balance: 625 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎡 @crypt0k1ng96, ball landed on 34 red — you lost 50 promo. Balance: 575 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "💥 @crypt0k1ng96, crashed at 1.30x before your 2.50x cashout — you lost 50 promo. Balance: 525 promo."
         },
         {
           "user": "jt_squared2",
-          "msg": "yeah I can see the pinned"
+          "msg": "oh btw I added multiple choice to pyro race so you can upload a csv for crypto and it will be a little easier"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Nice!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Will try it out"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
         }
       ],
       "customCommands": {},
@@ -8585,7 +8585,7 @@
         "totalVotes": 3424,
         "totalSubs": 8,
         "totalChatMessages": 665,
-        "totalStreamMinutes": 4010,
+        "totalStreamMinutes": 4030,
         "emotes": {
           "❤": 50,
           "🙌": 23,
@@ -10818,7 +10818,7 @@
         "totalVotes": 4,
         "totalSubs": 3,
         "totalChatMessages": 14,
-        "totalStreamMinutes": 1258,
+        "totalStreamMinutes": 1278,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 2,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 1,
@@ -11178,8 +11178,8 @@
     },
     "curlysnow07": {
       "note": "Curlysnow07 loves remote‑control car videos, PS4 gaming, Ninja Turtle jokes, bowling, and is eager to support the stream with Blaze and Foxboai.",
-      "at": 1787270629358,
-      "n": 7
+      "at": 1787329369375,
+      "n": 8
     },
     "m_wright19": {
       "note": "They have a playful and humorous personality, enjoying interactions with a chatbot, referencing pop culture and animals, and appreciating friendly conversation, with a lighthearted and inquisitive nature.",
@@ -11223,8 +11223,8 @@
     },
     "guney": {
       "note": "Friendly gamer who streams while working, loves cheering, joking, and chatting with viewers.",
-      "at": 1787267989169,
-      "n": 10
+      "at": 1787330029342,
+      "n": 11
     },
     "sipofcoke": {
       "note": "This person appears to enjoy playing games with a humorous, playful tone, particularly one with a \"shirtality\" system.",
