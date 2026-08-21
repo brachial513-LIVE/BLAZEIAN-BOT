@@ -1145,7 +1145,7 @@
         "totalVotes": 11230,
         "totalSubs": 105,
         "totalChatMessages": 5015,
-        "totalStreamMinutes": 15382,
+        "totalStreamMinutes": 15387,
         "emotes": {
           "📊": 3,
           "🔥": 323,
@@ -5745,7 +5745,7 @@
         "totalVotes": 3284,
         "totalSubs": 24,
         "totalChatMessages": 1212,
-        "totalStreamMinutes": 8254,
+        "totalStreamMinutes": 8259,
         "emotes": {
           "🔥": 343,
           "🔴": 124,
@@ -6819,7 +6819,7 @@
         "totalVotes": 10464,
         "totalSubs": 65,
         "totalChatMessages": 1250,
-        "totalStreamMinutes": 7401,
+        "totalStreamMinutes": 7406,
         "emotes": {
           "❤": 60,
           "🙌": 101,
@@ -8663,7 +8663,7 @@
         "totalVotes": 2187,
         "totalSubs": 12,
         "totalChatMessages": 475,
-        "totalStreamMinutes": 3813,
+        "totalStreamMinutes": 3818,
         "emotes": {
           "❤": 16,
           "🙌": 21,
@@ -8970,7 +8970,7 @@
         "totalVotes": 2859,
         "totalSubs": 0,
         "totalChatMessages": 47,
-        "totalStreamMinutes": 1864,
+        "totalStreamMinutes": 1869,
         "emotes": {
           "🔥": 10,
           "🐺": 2,
@@ -10528,8 +10528,8 @@
       "stats": {
         "totalVotes": 176,
         "totalSubs": 0,
-        "totalChatMessages": 126,
-        "totalStreamMinutes": 222,
+        "totalChatMessages": 128,
+        "totalStreamMinutes": 227,
         "emotes": {
           "👋": 5,
           "⚠": 2,
@@ -10563,13 +10563,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787279652755
+        "lastChatAt": 1787280015618
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@flinx congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/953ed6d3a4059f301607bcd49cfd47adb808daed19248204092bc05807ef0d43"
-        },
         {
           "user": "scurvybot",
           "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Beary Shark from The Online Inn. View here: https://scurvybot.com/wax/tx/e7e955cc5a42d1cae3a849021993b60ce38f5ec2b3fc1431b91f3a9e131b34a3"
@@ -10605,6 +10601,10 @@
         {
           "user": "onyxouroboros",
           "msg": "let's keep recycling"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/ba1913b7f13b4ea75405c2728ee9130c02e3c2e2391cdde3d6b2963c8cb8a721"
         }
       ],
       "customCommands": {
@@ -10666,7 +10666,7 @@
         "totalVotes": 1,
         "totalSubs": 3,
         "totalChatMessages": 14,
-        "totalStreamMinutes": 433,
+        "totalStreamMinutes": 438,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 2,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 1,
@@ -11464,8 +11464,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787261838719,
   "auth": {
-    "accessToken": "50f67284cfdd315b73501b5062198d7b",
-    "refreshToken": "d38e0bbc59f8a12ee90be94cee2571b7",
+    "accessToken": "fb6dc4e529f1ea4954356c8a7b5e6b69",
+    "refreshToken": "ca11ccae078614701e8adb3fe6fe11d2",
     "sessionToken": "7b925ec101695a27c0a67a3db576850b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
