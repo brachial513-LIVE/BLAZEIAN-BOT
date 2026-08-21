@@ -893,24 +893,24 @@
       "stats": {
         "totalVotes": 9919,
         "totalSubs": 21,
-        "totalChatMessages": 16496,
+        "totalChatMessages": 16791,
         "totalStreamMinutes": 1594,
         "emotes": {
-          "🔥": 991,
+          "🔥": 1070,
           "🗳": 20,
           "🔴": 27,
-          "🎉": 136,
+          "🎉": 149,
           "😍": 1,
           "❤": 34,
           "🚢": 9,
-          "⏰": 871,
-          "🔜": 493,
-          "💀": 221,
+          "⏰": 934,
+          "🔜": 494,
+          "💀": 242,
           "😘": 2,
-          "🏆": 87,
-          "🎊": 76,
-          "🎰": 11,
-          "😰": 84,
+          "🏆": 100,
+          "🎊": 89,
+          "🎰": 13,
+          "😰": 88,
           "🍌": 46,
           "🧟": 6,
           "💣": 77,
@@ -923,7 +923,7 @@
           "📴": 26,
           "👋": 30,
           "😢": 2,
-          "⚠": 20,
+          "⚠": 21,
           "🎯": 2,
           "👿": 1,
           "😂": 40,
@@ -948,9 +948,9 @@
           "✌": 1,
           "☺": 1,
           "👍": 1,
-          "🥔": 882,
-          "🔄": 242,
-          "🤖": 121,
+          "🥔": 961,
+          "🔄": 245,
+          "🤖": 133,
           "😏": 8,
           "❌": 2,
           "🙃": 3,
@@ -1049,7 +1049,7 @@
           "🐢": "🐢",
           "🤑": "🤑"
         },
-        "lastChatAt": 1787321767826,
+        "lastChatAt": 1787322998281,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1059,43 +1059,43 @@
       "chatMemory": [
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 10 seconds!"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "⏰ Game starting in 10 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 5 seconds!"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "⏰ Game starting in 5 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "⏰ Game starting in 3 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
           "msg": "⏰ Game starting in 1 second!"
         },
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⚠️ Not enough players to start! Need at least 2."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "@LuckyHero39 You have the potato! Type !toss! 🥔🔥"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "💀 LuckyHero39 has been eliminated! 4 players remaining."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "@QuickStar10 You have the potato! Type !toss! 🥔🔥"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "💀 QuickStar10 has been eliminated! 3 players remaining."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "@BraveBot60 You have the potato! Type !toss! 🥔🔥"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "💀 BraveBot60 has been eliminated! 2 players remaining."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "@QuickChampion69 You have the potato! Type !toss! 🥔🔥"
         }
       ],
       "customCommands": {},
@@ -1158,8 +1158,8 @@
       "stats": {
         "totalVotes": 11435,
         "totalSubs": 105,
-        "totalChatMessages": 5046,
-        "totalStreamMinutes": 15600,
+        "totalChatMessages": 5048,
+        "totalStreamMinutes": 15620,
         "emotes": {
           "📊": 3,
           "🔥": 329,
@@ -1469,17 +1469,9 @@
           "🩷": "🩷"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787320130377
+        "lastChatAt": 1787321884400
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "🎰 CRYPT0K1NG CASINO — NOW OPEN 💜🩷\n\n\n\n!convert  → turn FoxCoins into chips\n\n!casino → check your balance\n\n\n\nPLAY:\n\n🪙 !casinoflip heads 5 — double or nothing\n\n🎡 !roulette red 10 — spin the wheel (numbers pay 35:1!)\n\n🚀 !crash 10 2.5 — cash out before it crashes 💥\n\n🃏 !blackjack 10 — beat the dealer (!hit / !stand)"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "hey bud"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Hey buddy what’s up"
@@ -1511,6 +1503,14 @@
         {
           "user": "foxbotai",
           "msg": "🃏 @crypt0k1ng96, 3♣ 4♦ 8♠ (15) vs dealer 2♠ 9♣ 9♥ (20) — you lost 200 promo. Balance: 365 promo."
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "GM GM"
         }
       ],
       "customCommands": {},
@@ -6183,7 +6183,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 44,
-        "totalStreamMinutes": 3542,
+        "totalStreamMinutes": 3562,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -6858,8 +6858,8 @@
       "stats": {
         "totalVotes": 10479,
         "totalSubs": 68,
-        "totalChatMessages": 1276,
-        "totalStreamMinutes": 7559,
+        "totalChatMessages": 1278,
+        "totalStreamMinutes": 7579,
         "emotes": {
           "❤": 60,
           "🙌": 104,
@@ -6897,7 +6897,7 @@
           "🎮": 3,
           "🚀": 3,
           "💜": 3,
-          "e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f": 4,
+          "e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f": 5,
           "8f198fe9-5250-4aaa-8783-ce311112d551": 2,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
@@ -6907,7 +6907,8 @@
           "🍵": 1,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 1,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
+          "🦊": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -6956,20 +6957,13 @@
           "🍵": "🍵",
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO",
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
+          "🦊": "🦊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787321651761
+        "lastChatAt": 1787321871248
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
-        },
-        {
-          "user": "korosuplays",
-          "msg": "aba gising kapa?"
-        },
         {
           "user": "faithy_",
           "msg": "may nakatingin ako habang naglalaro hahah"
@@ -7001,6 +6995,14 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @NadieTv! How generous!! 🙌"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "LETS GO! 🦊"
+        },
+        {
+          "user": "lunaria",
+          "msg": "[emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f] [emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f] [emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f]"
         }
       ],
       "customCommands": {},
@@ -7867,8 +7869,8 @@
       "stats": {
         "totalVotes": 5002,
         "totalSubs": 16,
-        "totalChatMessages": 1125,
-        "totalStreamMinutes": 4536,
+        "totalChatMessages": 1128,
+        "totalStreamMinutes": 4556,
         "emotes": {
           "❤": 61,
           "🙌": 32,
@@ -7906,7 +7908,7 @@
           "😌": 1,
           "💖": 14,
           "🤭": 1,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 3,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 4,
           "🥷": 2,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 2,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2,
@@ -7917,7 +7919,8 @@
           "💛": 4,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 1
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 2,
+          "07de98c1-b682-4d82-b630-774474b712cc": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7967,24 +7970,13 @@
           "💛": "💛",
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": "BLAZEGM",
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO",
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING",
+          "07de98c1-b682-4d82-b630-774474b712cc": "LFBLAZE2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787321684169
+        "lastChatAt": 1787322690177
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "gm gm angge!"
-        },
-        {
-          "user": "fartvader",
-          "msg": "sama ka bukas g ng expedition"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -8012,6 +8004,18 @@
         {
           "user": "missaria",
           "msg": "let's gooo"
+        },
+        {
+          "user": "fartvader",
+          "msg": "hello hellooo...lesgooo"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:07de98c1-b682-4d82-b630-774474b712cc] [emote:07de98c1-b682-4d82-b630-774474b712cc]"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
         }
       ],
       "customCommands": {},
@@ -9308,13 +9312,13 @@
       "stats": {
         "totalVotes": 2206,
         "totalSubs": 25,
-        "totalChatMessages": 341,
-        "totalStreamMinutes": 1008,
+        "totalChatMessages": 351,
+        "totalStreamMinutes": 1028,
         "emotes": {
-          "❤": 35,
+          "❤": 38,
           "🙌": 37,
           "💚": 3,
-          "🔥": 39,
+          "🔥": 45,
           "🔴": 10,
           "🎉": 12,
           "💛": 1,
@@ -9329,7 +9333,7 @@
           "🎵": 1,
           "🎶": 1,
           "🎤": 1,
-          "📢": 5,
+          "📢": 8,
           "✨": 1,
           "😍": 5,
           "🫠": 3,
@@ -9342,11 +9346,12 @@
           "😂": 3,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
           "fb95c5e5-03ab-4936-891a-2b4635354d8a": 2,
-          "🦊": 1,
+          "🦊": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "2bcd9e84-33fc-416c-ae62-6a7a7dbca713": 2,
-          "8f0d7577-be4b-4d5d-83d6-6567b904476c": 1,
-          "49a9f873-9233-45b0-923a-0eebda2eb0ca": 1
+          "8f0d7577-be4b-4d5d-83d6-6567b904476c": 2,
+          "49a9f873-9233-45b0-923a-0eebda2eb0ca": 1,
+          "c50a82c4-bf5c-4da8-b3bc-2f941c321580": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -9384,44 +9389,17 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink",
           "2bcd9e84-33fc-416c-ae62-6a7a7dbca713": "Party",
           "8f0d7577-be4b-4d5d-83d6-6567b904476c": "Panic",
-          "49a9f873-9233-45b0-923a-0eebda2eb0ca": "Blaze"
+          "49a9f873-9233-45b0-923a-0eebda2eb0ca": "Blaze",
+          "c50a82c4-bf5c-4da8-b3bc-2f941c321580": "party1"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787321699125,
+        "lastChatAt": 1787322506327,
         "lastSendFailAt": 1786873818055,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1786879877203,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "missaria",
-          "msg": "Stumble Guys  name: Miss Aria WF"
-        },
-        {
-          "user": "maaykoo0",
-          "msg": "HALOOOOOOOOOO"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "dropping by let's goooo"
-        },
-        {
-          "user": "fartvader",
-          "msg": "lesgo lesgoooo [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
-        },
-        {
-          "user": "corneto",
-          "msg": "pa accept"
-        },
-        {
-          "user": "corneto",
-          "msg": "[emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713] [emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713]"
-        },
-        {
-          "user": "nadietv",
-          "msg": "hey there! i'd love to join but i'm cleaning my house, so i'll be lurking for now &lt;3"
-        },
         {
           "user": "corneto",
           "msg": "[emote:8f0d7577-be4b-4d5d-83d6-6567b904476c] [emote:8f0d7577-be4b-4d5d-83d6-6567b904476c] [emote:8f0d7577-be4b-4d5d-83d6-6567b904476c]"
@@ -9433,6 +9411,34 @@
         {
           "user": "faithy_",
           "msg": "[emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713] [emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713] [emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713] [emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713] [emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713]"
+        },
+        {
+          "user": "lunaria",
+          "msg": "[emote:8f0d7577-be4b-4d5d-83d6-6567b904476c] [emote:8f0d7577-be4b-4d5d-83d6-6567b904476c]"
+        },
+        {
+          "user": "corneto",
+          "msg": "[emote:c50a82c4-bf5c-4da8-b3bc-2f941c321580] [emote:c50a82c4-bf5c-4da8-b3bc-2f941c321580] [emote:c50a82c4-bf5c-4da8-b3bc-2f941c321580]"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "LETS GO! 🦊"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @corneto, streamer of Stumble Guys! 🔥 Make sure to check out https://blaze.stream/corneto and show some support ❤️‍🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @faithy_, streamer of Stumble Guys! 🔥 Make sure to check out https://blaze.stream/faithy_ and show some support ❤️‍🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @angge_wf, streamer of Stumble Guys! 🔥 Make sure to check out https://blaze.stream/angge_wf and show some support ❤️‍🔥"
         }
       ],
       "customCommands": {},
@@ -9582,8 +9588,8 @@
       "stats": {
         "totalVotes": 4662,
         "totalSubs": 30,
-        "totalChatMessages": 531,
-        "totalStreamMinutes": 1487,
+        "totalChatMessages": 534,
+        "totalStreamMinutes": 1507,
         "emotes": {
           "❤": 25,
           "🙌": 43,
@@ -9621,7 +9627,9 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "f31d71b2-a7ae-447d-90e1-90b26b943f88": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1,
-          "0af2f9b4-c175-4025-86ff-023dbeb75b03": 1
+          "0af2f9b4-c175-4025-86ff-023dbeb75b03": 1,
+          "🦊": 1,
+          "36f5d86b-65ac-4fc3-b1a2-858a06c1bb7f": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -9660,24 +9668,14 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink",
           "f31d71b2-a7ae-447d-90e1-90b26b943f88": "no_more_neko_jumping_on_the_bed",
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE",
-          "0af2f9b4-c175-4025-86ff-023dbeb75b03": "loadingggg"
+          "0af2f9b4-c175-4025-86ff-023dbeb75b03": "loadingggg",
+          "🦊": "🦊",
+          "36f5d86b-65ac-4fc3-b1a2-858a06c1bb7f": "yazzzzzz"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787321695416
+        "lastChatAt": 1787322260757
       },
       "chatMemory": [
-        {
-          "user": "zimzimma",
-          "msg": "😶‍🌫️😶‍🌫️"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @nekoschwan just gifted a sub to @zimzimma! How generous!! 🙌"
-        },
-        {
-          "user": "fartvader",
-          "msg": "lesgoooo nekooo"
-        },
         {
           "user": "cabsss",
           "msg": "lezzzgoooooooooooooo"
@@ -9705,6 +9703,18 @@
         {
           "user": "missaria",
           "msg": "let's gooo"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "LETS GO! 🦊"
+        },
+        {
+          "user": "corneto",
+          "msg": "[emote:36f5d86b-65ac-4fc3-b1a2-858a06c1bb7f] [emote:36f5d86b-65ac-4fc3-b1a2-858a06c1bb7f] [emote:36f5d86b-65ac-4fc3-b1a2-858a06c1bb7f]"
         }
       ],
       "customCommands": {},
@@ -10018,10 +10028,10 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 2694,
+        "totalVotes": 2744,
         "totalSubs": 35,
-        "totalChatMessages": 991,
-        "totalStreamMinutes": 2228,
+        "totalChatMessages": 1001,
+        "totalStreamMinutes": 2248,
         "emotes": {
           "😅": 1,
           "🔥": 60,
@@ -10040,22 +10050,22 @@
           "🙌": 29,
           "💪": 1,
           "👋": 7,
-          "9bbb90da-7f28-448d-9986-2748f752a3e6": 5,
-          "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 37,
+          "9bbb90da-7f28-448d-9986-2748f752a3e6": 6,
+          "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 39,
           "🔴": 5,
           "🎉": 12,
-          "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 4,
+          "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 5,
           "💎": 7,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 8,
           "37719561-c923-4260-b1a5-e3eda10c103d": 1,
           "🎁": 38,
-          "🗳": 30,
+          "🗳": 33,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 2,
           "📴": 3,
           "d021d096-f2ed-48e4-92df-af5f224e1a3f": 12,
-          "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 6,
+          "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 7,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
           "📢": 21,
           "🚨": 42,
@@ -10073,7 +10083,8 @@
           "e5772785-5f76-4433-8159-230844a61298": 2,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 1,
           "💚": 2,
-          "🫂": 1
+          "🫂": 1,
+          "🦊": 1
         },
         "emoteNames": {
           "😅": "😅",
@@ -10126,10 +10137,11 @@
           "e5772785-5f76-4433-8159-230844a61298": "fartgengar",
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": "DAZEDPYRO",
           "💚": "💚",
-          "🫂": "🫂"
+          "🫂": "🫂",
+          "🦊": "🦊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787321654342,
+        "lastChatAt": 1787322996939,
         "lastSendFailAt": 1786882933475,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1786901852824,
@@ -10137,44 +10149,44 @@
       },
       "chatMemory": [
         {
+          "user": "angge_wf",
+          "msg": "LETS GO! 🦊"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "GM"
+        },
+        {
           "user": "fartvader",
-          "msg": "[emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f]"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "panis top 1 agad"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "ez money"
-        },
-        {
-          "user": "missaria",
-          "msg": "GM @fartvader"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "Fartvader 2k hours alt account on stumble guys"
-        },
-        {
-          "user": "missaria",
-          "msg": "goodluck"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "have fun guys imma join next time something just came up"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "Vader 2k hours on Stumble Guys"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "EZ PZ LEMON SQUEEZYY"
+          "msg": "hello hello gm!"
         },
         {
           "user": "corneto",
-          "msg": "[emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5]"
+          "msg": "[emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "enjoy guys [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @cr33pling just gave 50 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "fartvader",
+          "msg": "eyyy than you for the votes brooo"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
         }
       ],
       "customCommands": {},
@@ -10304,10 +10316,10 @@
       "language": "en",
       "joinedAt": 1786542046720,
       "stats": {
-        "totalVotes": 573,
+        "totalVotes": 623,
         "totalSubs": 6,
-        "totalChatMessages": 149,
-        "totalStreamMinutes": 810,
+        "totalChatMessages": 173,
+        "totalStreamMinutes": 830,
         "emotes": {
           "❤": 13,
           "🙌": 8,
@@ -10319,19 +10331,23 @@
           "🔴": 6,
           "🎉": 6,
           "😂": 9,
-          "🗳": 9,
+          "🗳": 12,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
-          "7d370f41-dae4-4329-94b0-f57daae5e4f8": 12,
+          "7d370f41-dae4-4329-94b0-f57daae5e4f8": 17,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
-          "48cbdddd-1248-41c3-8d0f-01076bdb86ed": 3,
-          "9fd014db-3ca4-48b3-9fdf-f62b1d7dd2da": 1,
+          "48cbdddd-1248-41c3-8d0f-01076bdb86ed": 4,
+          "9fd014db-3ca4-48b3-9fdf-f62b1d7dd2da": 3,
           "😶": 3,
           "🌫": 3,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
-          "809bfa51-da4f-4570-9c70-67a802c6da7b": 1
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
+          "d226facb-93eb-41c9-aeba-43374f1b5ccd": 2,
+          "🦊": 3,
+          "6177a903-1fc8-4084-8bb6-3417b364a127": 2,
+          "9ed02167-13fa-4124-bc58-93193f860714": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -10356,51 +10372,55 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE",
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink",
-          "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2",
+          "d226facb-93eb-41c9-aeba-43374f1b5ccd": "xdd",
+          "🦊": "🦊",
+          "6177a903-1fc8-4084-8bb6-3417b364a127": "AYAYA",
+          "9ed02167-13fa-4124-bc58-93193f860714": "HOLY"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787321725658
+        "lastChatAt": 1787322911013
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "📢 Shoutout to @cabsss, streamer of Stumble Guys! 🔥 Make sure to check out https://blaze.stream/cabsss and show some support ❤️‍🔥"
+          "user": "nekoschwan",
+          "msg": "[emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8]"
         },
         {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @cabsss, who is live now, currently streaming Stumble Guys to 4 viewers at https://blaze.stream/cabsss!"
+          "user": "nekoschwan",
+          "msg": "[emote:d226facb-93eb-41c9-aeba-43374f1b5ccd] [emote:d226facb-93eb-41c9-aeba-43374f1b5ccd]"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "[emote:6177a903-1fc8-4084-8bb6-3417b364a127] [emote:6177a903-1fc8-4084-8bb6-3417b364a127] [emote:6177a903-1fc8-4084-8bb6-3417b364a127]"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "[emote:9ed02167-13fa-4124-bc58-93193f860714] [emote:9ed02167-13fa-4124-bc58-93193f860714] [emote:9ed02167-13fa-4124-bc58-93193f860714]"
+        },
+        {
+          "user": "missaria",
+          "msg": "Gm @korosuplays"
+        },
+        {
+          "user": "missaria",
+          "msg": "let's gooo"
+        },
+        {
+          "user": "korosuplays",
+          "msg": "yoo the host is here [emote:9ed02167-13fa-4124-bc58-93193f860714] [emote:9ed02167-13fa-4124-bc58-93193f860714]"
         },
         {
           "user": "fartvader",
-          "msg": "lesgoooo [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8]"
+          "msg": "yayyy"
         },
         {
-          "user": "cabsss",
-          "msg": "[emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8]"
-        },
-        {
-          "user": "lunaria",
-          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+          "user": "fartvader",
+          "msg": "[emote:9fd014db-3ca4-48b3-9fdf-f62b1d7dd2da]"
         },
         {
           "user": "korosuplays",
-          "msg": "[emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8]"
-        },
-        {
-          "user": "corneto",
-          "msg": "[emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8]"
-        },
-        {
-          "user": "corneto",
-          "msg": "[emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:7d370f41-dae4-4329-94b0-f57daae5e4f8]"
-        },
-        {
-          "user": "faithy_",
-          "msg": "[emote:48cbdddd-1248-41c3-8d0f-01076bdb86ed] [emote:48cbdddd-1248-41c3-8d0f-01076bdb86ed] [emote:48cbdddd-1248-41c3-8d0f-01076bdb86ed] [emote:48cbdddd-1248-41c3-8d0f-01076bdb86ed]"
-        },
-        {
-          "user": "korosuplays",
-          "msg": "[emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:48cbdddd-1248-41c3-8d0f-01076bdb86ed]"
+          "msg": "[emote:7d370f41-dae4-4329-94b0-f57daae5e4f8]"
         }
       ],
       "customCommands": {},
@@ -10766,7 +10786,7 @@
         "totalVotes": 4,
         "totalSubs": 3,
         "totalChatMessages": 14,
-        "totalStreamMinutes": 1133,
+        "totalStreamMinutes": 1153,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 2,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 1,
@@ -11410,9 +11430,9 @@
       "n": 1
     },
     "bee12": {
-      "note": "They seem to be enthusiastic and affectionate, using excessive emojis to express excitement and friendliness.",
-      "at": 1786225183124,
-      "n": 1
+      "note": "Enthusiastic, affectionate chatty person who loves using emojis to express excitement and friendliness.",
+      "at": 1787322109213,
+      "n": 2
     },
     "omom_": {
       "note": "They enjoy gaming, use humor and emoticons, and seem to appreciate excitement and entertainment in their livestreams.",
