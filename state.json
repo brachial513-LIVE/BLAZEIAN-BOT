@@ -1195,8 +1195,8 @@
       "stats": {
         "totalVotes": 11436,
         "totalSubs": 105,
-        "totalChatMessages": 5320,
-        "totalStreamMinutes": 16517,
+        "totalChatMessages": 5326,
+        "totalStreamMinutes": 16525,
         "emotes": {
           "📊": 3,
           "🔥": 334,
@@ -1342,13 +1342,13 @@
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": 1,
           "🦩": 8,
           "😁": 1,
-          "🎡": 15,
+          "🎡": 16,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
-          "🃏": 48,
+          "🃏": 50,
           "♥": 64,
-          "♣": 53,
-          "♠": 51,
-          "♦": 36,
+          "♣": 57,
+          "♠": 54,
+          "♦": 37,
           "🩷": 1,
           "🍗": 1,
           "💞": 1,
@@ -1516,21 +1516,9 @@
           "3c4113bb-2126-420f-b2db-775a012369fb": "TIPME"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787376605645
+        "lastChatAt": 1787377261669
       },
       "chatMemory": [
-        {
-          "user": "walkthegrid",
-          "msg": "gg"
-        },
-        {
-          "user": "walkthegrid",
-          "msg": "bull or cat"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "It’s being mean rn"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Taking buys"
@@ -1558,6 +1546,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎡 @crypt0k1ng96, ball landed on 2 black — you lost 10 promo. Balance: 570 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🃏 @crypt0k1ng96, dealt: A♠ 6♣ (17) vs dealer showing 4♣. !hit or !stand?"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🃏 @crypt0k1ng96, A♠ 6♣ (17) vs dealer 4♣ 10♠ 6♦ (20) — you lost 50 promo. Balance: 520 promo."
         }
       ],
       "customCommands": {},
@@ -1591,7 +1591,7 @@
         "totalVotes": 5513,
         "totalSubs": 18,
         "totalChatMessages": 5679,
-        "totalStreamMinutes": 5455,
+        "totalStreamMinutes": 5463,
         "emotes": {
           "🗳": 386,
           "🤣": 60,
@@ -6786,7 +6786,7 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 4440,
+        "totalVotes": 4441,
         "totalSubs": 32,
         "totalChatMessages": 1240,
         "totalStreamMinutes": 2169,
@@ -8725,7 +8725,7 @@
         "totalVotes": 3435,
         "totalSubs": 8,
         "totalChatMessages": 685,
-        "totalStreamMinutes": 4758,
+        "totalStreamMinutes": 4766,
         "emotes": {
           "❤": 50,
           "🙌": 23,
@@ -9009,7 +9009,7 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 7538,
+        "totalVotes": 7539,
         "totalSubs": 5,
         "totalChatMessages": 1991,
         "totalStreamMinutes": 3372,
@@ -11885,14 +11885,19 @@
       "note": "They enjoy gaming, cheering with emojis and friendly banter, especially after good matches.",
       "at": 1787358409344,
       "n": 1
+    },
+    "twistedtinker": {
+      "note": "They enjoy playful greetings,",
+      "at": 1787376889345,
+      "n": 1
     }
   },
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 20 votes = 1 entry · 1 sub = 3 entries · 1 gifted sub = 5 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 600 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\nThe current round is the 17th giveaway, running 27th July to 2nd August. A new round starts each week.",
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787362244832,
   "auth": {
-    "accessToken": "862d5df689b71683e2e99a9c7647c767",
-    "refreshToken": "4f0f6174250f7f1a7063dfccb6690b19",
+    "accessToken": "64ac6b19c2673c38a5d69a8f719e3dc3",
+    "refreshToken": "22f8f2824a3814e5d6033d33a1ed349d",
     "sessionToken": "1ac6f0f97b87be7a96358469c42c4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
