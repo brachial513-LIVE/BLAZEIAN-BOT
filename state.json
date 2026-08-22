@@ -1273,7 +1273,7 @@
         "totalVotes": 11462,
         "totalSubs": 106,
         "totalChatMessages": 5443,
-        "totalStreamMinutes": 16802,
+        "totalStreamMinutes": 16803,
         "emotes": {
           "📊": 3,
           "🔥": 344,
@@ -10056,7 +10056,7 @@
         "totalVotes": 1895,
         "totalSubs": 8,
         "totalChatMessages": 342,
-        "totalStreamMinutes": 3504,
+        "totalStreamMinutes": 3505,
         "emotes": {
           "❤": 22,
           "🙌": 18,
@@ -10154,7 +10154,9 @@
           "msg": "Thank you 2 entries to my wheel have been added"
         }
       ],
-      "customCommands": {},
+      "customCommands": {
+        "wheelentries": "Doffer =12 entries\r\nAvisi =5 entries\r\nWapi = 2 entries\r\nZerocache = 2 entries"
+      },
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
