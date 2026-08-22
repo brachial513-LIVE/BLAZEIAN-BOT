@@ -1904,14 +1904,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 9086,
+        "totalVotes": 9111,
         "totalSubs": 44,
-        "totalChatMessages": 3829,
-        "totalStreamMinutes": 13096,
+        "totalChatMessages": 3831,
+        "totalStreamMinutes": 13101,
         "emotes": {
           "❤": 155,
           "🙌": 109,
-          "🗳": 582,
+          "🗳": 585,
           "📴": 104,
           "👋": 116,
           "🔴": 103,
@@ -2000,7 +2000,7 @@
           "🎸": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 16,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 17,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 5,
           "b05156cf-7925-4298-8e19-f29e294cc793": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
@@ -2106,18 +2106,10 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
-        "lastChatAt": 1787399124653,
+        "lastChatAt": 1787401600051,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "lol jumpscare"
-        },
-        {
-          "user": "fartvader",
-          "msg": "bro its like the Backrooms"
-        },
         {
           "user": "fartvader",
           "msg": "hahaha"
@@ -2149,6 +2141,14 @@
         {
           "user": "fartvader",
           "msg": "its an aciton/thriller movie"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Zer0Cache just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {},
@@ -7015,7 +7015,7 @@
         "totalVotes": 10560,
         "totalSubs": 68,
         "totalChatMessages": 1290,
-        "totalStreamMinutes": 7755,
+        "totalStreamMinutes": 7760,
         "emotes": {
           "❤": 60,
           "🙌": 104,
@@ -7519,7 +7519,7 @@
       "language": "en",
       "joinedAt": 1784461195472,
       "stats": {
-        "totalVotes": 11057,
+        "totalVotes": 11062,
         "totalSubs": 20,
         "totalChatMessages": 1201,
         "totalStreamMinutes": 1352,
@@ -8435,7 +8435,7 @@
         "totalVotes": 8238,
         "totalSubs": 0,
         "totalChatMessages": 10529,
-        "totalStreamMinutes": 5532,
+        "totalStreamMinutes": 5537,
         "emotes": {
           "❤": 25,
           "🙌": 19,
@@ -11914,8 +11914,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787362244832,
   "auth": {
-    "accessToken": "017abdec6ddab437e14cd6cc7735d529",
-    "refreshToken": "80b25015719a8bd503d2f5c617baf760",
+    "accessToken": "ba22cc7f8e849e738fb7cbc31eb4a882",
+    "refreshToken": "227d1289c2898f0b2b82acb689634758",
     "sessionToken": "1ac6f0f97b87be7a96358469c42c4f70",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
