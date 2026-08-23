@@ -1332,8 +1332,8 @@
       "stats": {
         "totalVotes": 12693,
         "totalSubs": 111,
-        "totalChatMessages": 5825,
-        "totalStreamMinutes": 17882,
+        "totalChatMessages": 5829,
+        "totalStreamMinutes": 17887,
         "emotes": {
           "📊": 3,
           "🔥": 359,
@@ -1468,18 +1468,18 @@
           "0e7260fc-922c-45c7-990b-1279793c9988": 15,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 8,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 17,
-          "a80b8258-7a03-4aed-95f8-19ab819775c7": 12,
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": 13,
           "37719561-c923-4260-b1a5-e3eda10c103d": 18,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 3,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 3,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 15,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 16,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 3,
           "da339ef7-1574-4f2f-8b48-666688167af3": 1,
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": 2,
           "🦩": 8,
           "😁": 1,
-          "🎡": 29,
+          "🎡": 30,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 3,
           "🃏": 82,
           "♥": 109,
@@ -1673,21 +1673,9 @@
           "d7f4fdce-e137-41a9-837c-1afa844e7834": "PYROFIREHORSE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787524157439
+        "lastChatAt": 1787524285737
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "🃏 @crypt0k1ng96, 10♠ 9♥ (19) vs dealer K♥ 4♥ 3♦ (17) — you won 100 promo! Balance: 529 promo."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Thank you for the votes @mehmetonarcan"
-        },
-        {
-          "user": "slothsm",
-          "msg": "hello bro"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
@@ -1715,6 +1703,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:07de98c1-b682-4d82-b630-774474b712cc]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎡 @crypt0k1ng96, ball landed on 17 black — you lost 50 promo. Balance: 479 promo."
         }
       ],
       "customCommands": {},
@@ -4563,7 +4563,7 @@
         "totalVotes": 6201,
         "totalSubs": 69,
         "totalChatMessages": 518,
-        "totalStreamMinutes": 10830,
+        "totalStreamMinutes": 10835,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -5387,9 +5387,9 @@
       "language": "en",
       "stats": {
         "totalVotes": 2507,
-        "totalSubs": 18,
-        "totalChatMessages": 1047,
-        "totalStreamMinutes": 1532,
+        "totalSubs": 19,
+        "totalChatMessages": 1049,
+        "totalStreamMinutes": 1537,
         "emotes": {
           "❤": 360,
           "🙌": 26,
@@ -5480,18 +5480,10 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE",
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
-        "lastChatAt": 1787523799803,
+        "lastChatAt": 1787524373935,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 cymatrix is now live! Welcome everyone! 🎉"
@@ -5523,6 +5515,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @slothsm!"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "thabks @slothsm!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@CyMatrIX gifted a Sub to @slothsm! Thank you!"
         }
       ],
       "customCommands": {
@@ -11221,7 +11221,7 @@
       "stats": {
         "totalVotes": 733,
         "totalSubs": 0,
-        "totalChatMessages": 453,
+        "totalChatMessages": 454,
         "totalStreamMinutes": 860,
         "emotes": {
           "👋": 10,
@@ -11312,13 +11312,9 @@
           "🎣": "🎣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787521283340
+        "lastChatAt": 1787524338218
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@NashvilleLou congratulations! You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/2dacc1275e38976ada7b8e7aac5e58b8bedd546e0665a303034b870796f23eae"
-        },
         {
           "user": "nashvillelou",
           "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
@@ -11354,6 +11350,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @crypto2infinity just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "inn",
+          "msg": "all innn from here"
         }
       ],
       "customCommands": {
@@ -12399,8 +12399,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787489415818,
   "auth": {
-    "accessToken": "c9a232434429fa404563f329249eb40d",
-    "refreshToken": "c1f88fcb7f87c5857c58b0d36425d486",
+    "accessToken": "87cb5e6c68ecb3ebae3c5ac6f98d8cce",
+    "refreshToken": "4371744c026f170fb9b9877457e48144",
     "sessionToken": "0a6d2b2801d80fb85daf65db1c43f3ba",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
