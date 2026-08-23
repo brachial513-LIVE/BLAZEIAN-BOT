@@ -4089,16 +4089,16 @@
       "stats": {
         "totalVotes": 12445,
         "totalSubs": 36,
-        "totalChatMessages": 4735,
-        "totalStreamMinutes": 8539,
+        "totalChatMessages": 4739,
+        "totalStreamMinutes": 8542,
         "emotes": {
           "❤": 55,
           "🙌": 137,
           "🗳": 513,
-          "🔴": 50,
-          "🎉": 89,
-          "📴": 48,
-          "👋": 55,
+          "🔴": 51,
+          "🎉": 90,
+          "📴": 49,
+          "👋": 56,
           "🔥": 167,
           "💪": 2,
           "🤖": 1,
@@ -4349,26 +4349,10 @@
           "73946001-7661-4573-bfa7-f60b178db3e7": "BUSSERS",
           "d00dd6ef-e924-4161-a5da-80fbf3568dbc": "Chillin"
         },
-        "lastChatAt": 1787471641273,
+        "lastChatAt": 1787474426199,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "mediart",
-          "msg": "Thank you, I'm good , thanks"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:73946001-7661-4573-bfa7-f60b178db3e7]"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "nice gifs you have"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "im good"
-        },
         {
           "user": "meyetechnicals",
           "msg": "nice"
@@ -4392,6 +4376,22 @@
         {
           "user": "meyetechnicals",
           "msg": "nice"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -4400,7 +4400,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "⏳VoteSubathon⌛❤️Starting with recording @vRoshi55 's request❤️ — Wuthering Waves",
+      "streamTitle": "⏳VoteSubathon⌛❤️Starting with recording @vRoshi55 's request❤️ — Dota 2",
       "profile": "We’re a chill gaming community loving Stumble Guys, Path of Exile 2, and Dota. Expect “Blazeee” vibes, “Will be relax day” shenanigans, and “VOTE ALERT!!” celebrations. Chat loves “6969”, “METAL!”, “Castigo castigo”, “haslo de nuevo”, “Let’s gooooo”, “Theroan mode cat!”, “pull a roshi”, and “drained” moments. We cherish gifted subs, generous votes, and “hard reset” humor, celebrating every resub and vote with hype.",
       "_profileAtCount": 4673,
       "gameOverride": "",
@@ -4461,8 +4461,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "⏳VoteSubathon⌛❤️Starting with recording @vRoshi55 's request❤️ — Music",
-      "lastStreamEndedAt": 1787453314429
+      "lastStreamInfo": "⏳VoteSubathon⌛❤️Starting with recording @vRoshi55 's request❤️ — Wuthering Waves",
+      "lastStreamEndedAt": 1787474352133
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -12175,8 +12175,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787445144089,
   "auth": {
-    "accessToken": "5e14aefe3abda2e206f2b58c487bac16",
-    "refreshToken": "d7aa9a7f64bf3f1b06ef3bdcf5e847f8",
+    "accessToken": "0c902a384cde8fdc55768760b989c1f1",
+    "refreshToken": "7a95a3e1db10aceb8cfbfe9185bbbd16",
     "sessionToken": "034d949d6c0834859e74d3aabe296273",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
