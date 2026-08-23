@@ -1273,7 +1273,7 @@
         "totalVotes": 11640,
         "totalSubs": 106,
         "totalChatMessages": 5628,
-        "totalStreamMinutes": 17301,
+        "totalStreamMinutes": 17321,
         "emotes": {
           "📊": 3,
           "🔥": 351,
@@ -1985,8 +1985,8 @@
       "stats": {
         "totalVotes": 9172,
         "totalSubs": 44,
-        "totalChatMessages": 3974,
-        "totalStreamMinutes": 13578,
+        "totalChatMessages": 3975,
+        "totalStreamMinutes": 13598,
         "emotes": {
           "❤": 155,
           "🙌": 109,
@@ -2080,7 +2080,7 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 5,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 4,
           "a859cc12-453a-4bd8-b650-38710d9486de": 23,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 13,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 14,
           "b05156cf-7925-4298-8e19-f29e294cc793": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 2,
@@ -2193,14 +2193,10 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING",
           "60967948-8805-42ef-a202-051d2e2f1557": "SLEEPYRO"
         },
-        "lastChatAt": 1787451235293,
+        "lastChatAt": 1787451476905,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "You are one of the least offensive people I know,"
-        },
         {
           "user": "briggsy",
           "msg": "You're just a good guy"
@@ -2236,6 +2232,10 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
         }
       ],
       "customCommands": {},
@@ -4086,7 +4086,7 @@
         "totalVotes": 11919,
         "totalSubs": 33,
         "totalChatMessages": 4520,
-        "totalStreamMinutes": 8162,
+        "totalStreamMinutes": 8182,
         "emotes": {
           "❤": 51,
           "🙌": 132,
@@ -6826,15 +6826,15 @@
       "stats": {
         "totalVotes": 5592,
         "totalSubs": 70,
-        "totalChatMessages": 495,
-        "totalStreamMinutes": 1268,
+        "totalChatMessages": 499,
+        "totalStreamMinutes": 1280,
         "emotes": {
           "❤": 16,
           "🙌": 78,
           "🔴": 11,
           "🎉": 11,
-          "📴": 10,
-          "👋": 10,
+          "📴": 11,
+          "👋": 11,
           "🗳": 39,
           "🎁": 140,
           "🤗": 1,
@@ -6859,25 +6859,9 @@
           "😇": "😇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787448155517
+        "lastChatAt": 1787452132869
       },
       "chatMemory": [
-        {
-          "user": "xeukuxaixang",
-          "msg": "jogava pve ou pvp"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "que mentira é essa"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "pvp é a melhor parte"
-        },
-        {
-          "user": "xeukuxaixang",
-          "msg": "quem dorme apanha"
-        },
         {
           "user": "xeukuxaixang",
           "msg": "6 meses pc ligado"
@@ -6901,6 +6885,22 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "xeukuxaixang",
+          "msg": "shoow the base iris"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6911,13 +6911,13 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "streamTitle": "Hantec 5k - USA session | @DestinoProspero trading student — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1087d984-7048-475d-b8f9-c93c14eefc15.gif",
       "profile": "lady_iris’s channel is a high‑energy hub for crypto trading, Tetris builds, and gaming chatter. The community loves “vai”, “yuppie”, “yayyyyyyyy”, “yuppiiiiii”, and “trans muda” hype. They cheer “S2” moments, shout out “yayyyyyyyy” when lady_iris hits a streak, and celebrate every trade win with enthusiastic, slang‑filled cheers.",
       "_profileAtCount": 493,
       "lastStreamInfo": "Hantec 5k - USA session | @DestinoProspero trading student — Crypto",
-      "lastStreamEndedAt": 1786374583090,
+      "lastStreamEndedAt": 1787452127673,
       "nudgedAt": 1786053663388,
       "nudgedKey": "schedule"
     },
@@ -8570,7 +8570,7 @@
         "totalVotes": 8288,
         "totalSubs": 0,
         "totalChatMessages": 10550,
-        "totalStreamMinutes": 6367,
+        "totalStreamMinutes": 6387,
         "emotes": {
           "❤": 25,
           "🙌": 19,
@@ -9540,7 +9540,7 @@
         "totalVotes": 890,
         "totalSubs": 10,
         "totalChatMessages": 51,
-        "totalStreamMinutes": 445,
+        "totalStreamMinutes": 465,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -10692,8 +10692,8 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "profile": "Deadlock crew, “LOVE FEST” vibes, raiding, celebrating generosity. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, “ty ty for votes bro”, “How generous!!” when gifts, votes, or follows hit. The stream thrives on gifts, votes, hype, cheering for the next big win. charddxyz loves being celebrated with cheers, votes, and generous gifts.",
-      "_profileAtCount": 308,
+      "profile": "Deadlock crew, “LOVE FEST” vibes, raiding, celebrating generosity. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, “ty ty for votes bro”, “How generous!!” when gifts, votes, or follows hit. The stream thrives on gifts, votes, hype, cheering for the next big win. charddxyz loves being celebrated with cheers, votes, and",
+      "_profileAtCount": 369,
       "streamTitle": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/6f948e20-bb78-41a1-9c2e-6358e4a07cc5.png",
       "lastStreamInfo": "9 more wins to unlock rank mode — Deadlock",
@@ -11048,8 +11048,8 @@
       "stats": {
         "totalVotes": 305,
         "totalSubs": 0,
-        "totalChatMessages": 350,
-        "totalStreamMinutes": 708,
+        "totalChatMessages": 357,
+        "totalStreamMinutes": 728,
         "emotes": {
           "👋": 8,
           "⚠": 2,
@@ -11137,29 +11137,9 @@
           "🙌": "🙌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787451400115
+        "lastChatAt": 1787452278905
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @PaniPeys!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ PaniPeys just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "panipeys",
-          "msg": "hi hello gm. can you say hi to my stream too please?"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -11179,6 +11159,26 @@
         {
           "user": "scurvybot",
           "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/ad556259cdb404739007b310de602d0d6375f43cd40f161f17b406a298bb11c0"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "Mystery Fish for some trash recycling"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/3930ef2ae0e652e4cebbb91b6675f8c99b744745c934d71b11f6a4b8ee3b9529"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "Some more mystery fish caught while recycling trash yay"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/0d13c3abdc0aa0cb407a04fc80e92f472f0cc50e18aea1fcc7ffb72cb385e320"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "let's keep fishing for more mysteries"
         }
       ],
       "customCommands": {
