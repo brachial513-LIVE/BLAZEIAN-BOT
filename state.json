@@ -2003,8 +2003,8 @@
       "stats": {
         "totalVotes": 9197,
         "totalSubs": 44,
-        "totalChatMessages": 3980,
-        "totalStreamMinutes": 13621,
+        "totalChatMessages": 3982,
+        "totalStreamMinutes": 13625,
         "emotes": {
           "❤": 155,
           "🙌": 109,
@@ -2105,7 +2105,7 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 4,
           "da339ef7-1574-4f2f-8b48-666688167af3": 2,
           "37719561-c923-4260-b1a5-e3eda10c103d": 1,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 4,
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 5,
           "60967948-8805-42ef-a202-051d2e2f1557": 1
         },
         "emoteNames": {
@@ -2211,18 +2211,10 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING",
           "60967948-8805-42ef-a202-051d2e2f1557": "SLEEPYRO"
         },
-        "lastChatAt": 1787491833642,
+        "lastChatAt": 1787491894280,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Not in the voice"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -2254,6 +2246,14 @@
         {
           "user": "agent00zani",
           "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
+        },
+        {
+          "user": "osohigh",
+          "msg": "gm gm bro"
         }
       ],
       "customCommands": {},
@@ -12204,8 +12204,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787489415818,
   "auth": {
-    "accessToken": "e29bca55db38590da2f6d9591ff1faca",
-    "refreshToken": "04c2b86af091a861d9d7b55748e3939d",
+    "accessToken": "37a5d5f7e24fc4f45449f7410085429d",
+    "refreshToken": "4ed562393ff60cd62f93ef03e29d8138",
     "sessionToken": "0a6d2b2801d80fb85daf65db1c43f3ba",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
