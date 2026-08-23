@@ -539,7 +539,7 @@
       "stats": {
         "totalVotes": 46694,
         "totalSubs": 75,
-        "totalChatMessages": 7001,
+        "totalChatMessages": 7002,
         "totalStreamMinutes": 1953,
         "emotes": {
           "🗳": 1053,
@@ -688,7 +688,9 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
           "⚔": 4,
           "7fc3d23c-3061-4e07-be1d-ff1c414b160c": 1,
-          "🐻": 1
+          "🐻": 1,
+          "⚠": 1,
+          "🎯": 1
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -837,20 +839,18 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING",
           "⚔": "⚔",
           "7fc3d23c-3061-4e07-be1d-ff1c414b160c": "TWSS",
-          "🐻": "🐻"
+          "🐻": "🐻",
+          "⚠": "⚠",
+          "🎯": "🎯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787446637710,
+        "lastChatAt": 1787461669928,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "angge_wf",
-          "msg": "💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛💛"
-        },
         {
           "user": "briggsy",
           "msg": "fun fun fun"
@@ -886,6 +886,10 @@
         {
           "user": "leandrineth",
           "msg": "[emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc]"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up vroshi55! You're projected to fall below Verified (Tier 2) in approximately 7 day(s) (Aug 30 at 05:07 UTC). Current stream hours: 14.5h / 10h required. Stream more to maintain your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -4085,8 +4089,8 @@
       "stats": {
         "totalVotes": 12425,
         "totalSubs": 35,
-        "totalChatMessages": 4686,
-        "totalStreamMinutes": 8319,
+        "totalChatMessages": 4688,
+        "totalStreamMinutes": 8339,
         "emotes": {
           "❤": 53,
           "🙌": 135,
@@ -4345,18 +4349,10 @@
           "73946001-7661-4573-bfa7-f60b178db3e7": "BUSSERS",
           "d00dd6ef-e924-4161-a5da-80fbf3568dbc": "Chillin"
         },
-        "lastChatAt": 1787460309353,
+        "lastChatAt": 1787461304676,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "ohh?"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Interesing"
-        },
         {
           "user": "briggsy",
           "msg": "wow"
@@ -4388,6 +4384,14 @@
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @muddy_4x4_gmc is raiding with a party of 1! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "briggsy",
+          "msg": "okok"
+        },
+        {
+          "user": "briggsy",
+          "msg": "pea time"
         }
       ],
       "customCommands": {},
@@ -11683,8 +11687,8 @@
     },
     "avisi": {
       "note": "Enthusiastic gamer who loves music, playful humor, warmly engages friends, enjoys friendly competition and creative banter.",
-      "at": 1787362369321,
-      "n": 14
+      "at": 1787461369359,
+      "n": 15
     },
     "junior7_": {
       "note": "They enjoy playing games like Mania, have a humorous tone, and like joking with friends, often referencing their gaming experiences.",
@@ -11892,9 +11896,9 @@
       "n": 5
     },
     "jaggerjack": {
-      "note": "Playful, humorous, music‑loving, and enthusiastic about MMO classics, FPS, POE2, and PUBG.",
-      "at": 1787201328991,
-      "n": 5
+      "note": "Playful, humorous, music‑loving gamer who enjoys MMO classics, FPS, POE2, and PUBG, often chatting with quick jokes and friendly banter.",
+      "at": 1787462029378,
+      "n": 6
     },
     "weri": {
       "note": "Friendly gamer who loves web3 titles, enjoys God of War, and brings a playful, humorous vibe to livestream chats.",
