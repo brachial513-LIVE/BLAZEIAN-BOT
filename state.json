@@ -1273,7 +1273,7 @@
         "totalVotes": 11640,
         "totalSubs": 106,
         "totalChatMessages": 5617,
-        "totalStreamMinutes": 17191,
+        "totalStreamMinutes": 17196,
         "emotes": {
           "📊": 3,
           "🔥": 351,
@@ -2709,7 +2709,7 @@
         "totalVotes": 6890,
         "totalSubs": 50,
         "totalChatMessages": 2297,
-        "totalStreamMinutes": 10732,
+        "totalStreamMinutes": 10738,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -4084,7 +4084,7 @@
         "totalVotes": 11915,
         "totalSubs": 33,
         "totalChatMessages": 4456,
-        "totalStreamMinutes": 8052,
+        "totalStreamMinutes": 8058,
         "emotes": {
           "❤": 51,
           "🙌": 132,
@@ -4438,7 +4438,7 @@
         "totalVotes": 5999,
         "totalSubs": 69,
         "totalChatMessages": 515,
-        "totalStreamMinutes": 10754,
+        "totalStreamMinutes": 10759,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -4666,8 +4666,8 @@
       "stats": {
         "totalVotes": 8236,
         "totalSubs": 37,
-        "totalChatMessages": 1097,
-        "totalStreamMinutes": 4314,
+        "totalChatMessages": 1100,
+        "totalStreamMinutes": 4318,
         "emotes": {
           "❤": 54,
           "🙌": 55,
@@ -4683,8 +4683,8 @@
           "🔴": 30,
           "🎉": 60,
           "🚨": 60,
-          "📴": 30,
-          "👋": 42,
+          "📴": 31,
+          "👋": 43,
           "🏅": 8,
           "💪": 28,
           "😁": 4,
@@ -4795,21 +4795,9 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787443200982
+        "lastChatAt": 1787445100798
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "wow she is pretty"
-        },
-        {
-          "user": "vitrene",
-          "msg": "you mean Panam?"
-        },
         {
           "user": "agent00zani",
           "msg": "I forgot her name ..... not really at 100% rn ...."
@@ -4837,6 +4825,18 @@
         {
           "user": "botger",
           "msg": "🏅 You finished 2nd in Badges Matter this week and earned 60 bonus votes from botger! 🎉"
+        },
+        {
+          "user": "vitrene",
+          "msg": "I am going to end the stream here"
+        },
+        {
+          "user": "vitrene",
+          "msg": "thank you for watching!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -4849,7 +4849,7 @@
       "botVip": true,
       "profile": "Vitrene’s channel is a lively Cyberpunk 2077 hub where fans “Goat!” each other’s wins, shout “VIT 🔥🔥” and “$VIT Always Wins!” to hype the stream. They celebrate milestones with “🔴 VOTE ALERT!! 🗳️”, dance with “💃💃💃”, love raids, gifts, and level‑up cheers, and always end with “have a great stream as well!” or “have an awesome night/day!”.",
       "_profileAtCount": 1068,
-      "streamTitle": "Cyberpunk 2077: Night City Tourist Tour (Gangster Edition) — Cyberpunk 2077",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -4863,8 +4863,8 @@
       "commentMode": "heavy",
       "nudgedAt": 1785010424974,
       "nudgedKey": "customcmd",
-      "lastStreamInfo": "Cyberpunk 2077: BASED CHOOMS ONLY 🎸 — Cyberpunk 2077",
-      "lastStreamEndedAt": 1787350907936
+      "lastStreamInfo": "Cyberpunk 2077: Night City Tourist Tour (Gangster Edition) — Cyberpunk 2077",
+      "lastStreamEndedAt": 1787445095439
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
       "username": "grook",
@@ -6819,7 +6819,7 @@
         "totalVotes": 5592,
         "totalSubs": 70,
         "totalChatMessages": 494,
-        "totalStreamMinutes": 1158,
+        "totalStreamMinutes": 1164,
         "emotes": {
           "❤": 16,
           "🙌": 78,
@@ -8562,7 +8562,7 @@
         "totalVotes": 8288,
         "totalSubs": 0,
         "totalChatMessages": 10549,
-        "totalStreamMinutes": 6257,
+        "totalStreamMinutes": 6263,
         "emotes": {
           "❤": 25,
           "🙌": 19,
@@ -11038,15 +11038,15 @@
       "stats": {
         "totalVotes": 305,
         "totalSubs": 0,
-        "totalChatMessages": 343,
-        "totalStreamMinutes": 602,
+        "totalChatMessages": 345,
+        "totalStreamMinutes": 604,
         "emotes": {
           "👋": 8,
           "⚠": 2,
           "🎯": 2,
           "🗳": 27,
-          "🔴": 7,
-          "🎉": 9,
+          "🔴": 8,
+          "🎉": 10,
           "📴": 7,
           "🎡": 2,
           "®": 3,
@@ -11127,17 +11127,9 @@
           "🙌": "🙌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787420602737
+        "lastChatAt": 1787444997078
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 inn is now live! Welcome everyone! 🎉"
@@ -11169,6 +11161,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -11183,7 +11183,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "First Hard Playthrough🔥 282nd Blaze Stream🔥 — Palworld",
       "lastStreamInfo": "First Hard Playthrough🔥 282nd Blaze Stream🔥 — Palworld",
       "lastStreamEndedAt": 1787420597451,
       "gameOverride": "",
@@ -12119,8 +12119,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787362244832,
   "auth": {
-    "accessToken": "c86a86c5f4d7a70abf0c598999d2dc4f",
-    "refreshToken": "b9e7a1911a7b627e1727b5d78ddf3186",
+    "accessToken": "fec7a92b5fe9c31c353cd087685b1679",
+    "refreshToken": "50da8e376aa0207275a57472fbca5f6e",
     "sessionToken": "034d949d6c0834859e74d3aabe296273",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
