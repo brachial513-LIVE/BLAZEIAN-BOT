@@ -4087,18 +4087,18 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 12445,
+        "totalVotes": 12470,
         "totalSubs": 36,
-        "totalChatMessages": 4739,
-        "totalStreamMinutes": 8562,
+        "totalChatMessages": 4743,
+        "totalStreamMinutes": 8580,
         "emotes": {
           "❤": 55,
           "🙌": 137,
-          "🗳": 513,
+          "🗳": 516,
           "🔴": 51,
           "🎉": 90,
-          "📴": 49,
-          "👋": 56,
+          "📴": 50,
+          "👋": 57,
           "🔥": 167,
           "💪": 2,
           "🤖": 1,
@@ -4349,26 +4349,10 @@
           "73946001-7661-4573-bfa7-f60b178db3e7": "BUSSERS",
           "d00dd6ef-e924-4161-a5da-80fbf3568dbc": "Chillin"
         },
-        "lastChatAt": 1787474426199,
+        "lastChatAt": 1787476802337,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "meyetechnicals",
-          "msg": "nice"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "its 8AM here"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:2deeee8b-5a34-4fdf-a770-4ba5b15bfdc5]"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:be80caa6-f1da-42a8-afd5-82aafd5418f6] [emote:dbabb6c9-a042-43f6-b4a0-8e842416ee69]"
-        },
         {
           "user": "meyetechnicals",
           "msg": "how are you doing with building your music"
@@ -4392,6 +4376,22 @@
         {
           "user": "botger",
           "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 25 votes, @Big_Scaggs!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Big_Scaggs just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -4400,7 +4400,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "⏳VoteSubathon⌛❤️Starting with recording @vRoshi55 's request❤️ — Dota 2",
+      "streamTitle": "",
       "profile": "We’re a chill gaming community loving Stumble Guys, Path of Exile 2, and Dota. Expect “Blazeee” vibes, “Will be relax day” shenanigans, and “VOTE ALERT!!” celebrations. Chat loves “6969”, “METAL!”, “Castigo castigo”, “haslo de nuevo”, “Let’s gooooo”, “Theroan mode cat!”, “pull a roshi”, and “drained” moments. We cherish gifted subs, generous votes, and “hard reset” humor, celebrating every resub and vote with hype.",
       "_profileAtCount": 4673,
       "gameOverride": "",
@@ -4461,8 +4461,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "⏳VoteSubathon⌛❤️Starting with recording @vRoshi55 's request❤️ — Wuthering Waves",
-      "lastStreamEndedAt": 1787474352133
+      "lastStreamInfo": "⏳VoteSubathon⌛❤️Starting with recording @vRoshi55 's request❤️ — Dota 2",
+      "lastStreamEndedAt": 1787476778136
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -11841,9 +11841,9 @@
       "n": 1
     },
     "super8437": {
-      "note": "Enjoys sharing absurd stories about Nox, playing lighthearted games with friends, and laughing to music and comedy.",
-      "at": 1787386129453,
-      "n": 7
+      "note": "Enjoy sharing absurd Nox stories, playing lighthearted games with friends, and laughing to music and comedy.",
+      "at": 1787476549448,
+      "n": 8
     },
     "wapi": {
       "note": "They are a musician, enjoy a casual and humorous tone, and have organized online presence around specific times, likely enjoying gaming, and appreciate humor.",
@@ -12168,6 +12168,11 @@
     "durk": {
       "note": "Playful chatty style with humor about weather, casual references to strip‑club jokes, and a light‑hearted, informal tone.",
       "at": 1787468629456,
+      "n": 1
+    },
+    "hydra": {
+      "note": "Enjoy",
+      "at": 1787475889570,
       "n": 1
     }
   },
