@@ -4090,7 +4090,7 @@
         "totalVotes": 12445,
         "totalSubs": 36,
         "totalChatMessages": 4735,
-        "totalStreamMinutes": 8519,
+        "totalStreamMinutes": 8539,
         "emotes": {
           "❤": 55,
           "🙌": 137,
@@ -10743,15 +10743,15 @@
       "stats": {
         "totalVotes": 678,
         "totalSubs": 6,
-        "totalChatMessages": 199,
-        "totalStreamMinutes": 991,
+        "totalChatMessages": 201,
+        "totalStreamMinutes": 995,
         "emotes": {
           "❤": 13,
           "🙌": 8,
           "📢": 9,
           "🔥": 18,
-          "📴": 7,
-          "👋": 7,
+          "📴": 8,
+          "👋": 8,
           "🎁": 12,
           "🔴": 7,
           "🎉": 7,
@@ -10806,17 +10806,9 @@
           "3dd7cc5f-56cf-4537-98c0-d38fb1a3e76a": "tf"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787466010331
+        "lastChatAt": 1787473225286
       },
       "chatMemory": [
-        {
-          "user": "corneto",
-          "msg": "ggssssssssssss"
-        },
-        {
-          "user": "fartvader",
-          "msg": "ggs!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 10 votes, @missaria!"
@@ -10848,6 +10840,14 @@
         {
           "user": "botger",
           "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -10858,14 +10858,14 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "Let's play more League! — League of Legends",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/52d87c93-9b11-4566-829a-811f46dabd06.gif",
       "followed": true,
       "profile": "We’re a Blaze livestream community that “BLAZEs” the night away, focusing on games and Crypto. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, and celebrate “BLAZEing” achievements with emojis and “very lovely” responses. The streamer loves being celebrated with “BLAZEing” emojis and enthusiastic “BLAZE” shoutouts. Keep the “BLAZE” spirit alive!",
       "_profileAtCount": 197,
-      "lastStreamInfo": "STUMBLE GUYS COMMUNITY EVENT by @missaria - SUPPORTING MY PH FRIENDS <3 — Stumble Guys",
-      "lastStreamEndedAt": 1787325684965,
+      "lastStreamInfo": "Let's play more League! — League of Legends",
+      "lastStreamEndedAt": 1787473220043,
       "nudgedAt": 1787193926827,
       "nudgedKey": "schedule"
     },
@@ -11906,9 +11906,9 @@
       "n": 6
     },
     "weri": {
-      "note": "Friendly gamer who loves web3 titles, enjoys God of War, and brings a playful, humorous vibe to livestream chats.",
-      "at": 1787355109438,
-      "n": 6
+      "note": "Friendly gamer who loves God of War, web3 titles, and brings a playful, humorous vibe to livestream chats.",
+      "at": 1787473249438,
+      "n": 7
     },
     "cymatrix": {
       "note": "Friendly, upbeat fan who loves music, crypto jokes, pop‑culture references, cheers the streamer, and enjoys games like Drawful and Apple",
