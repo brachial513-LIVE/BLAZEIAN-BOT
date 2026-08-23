@@ -4088,23 +4088,23 @@
       "language": "en",
       "stats": {
         "totalVotes": 12425,
-        "totalSubs": 35,
-        "totalChatMessages": 4693,
-        "totalStreamMinutes": 8404,
+        "totalSubs": 36,
+        "totalChatMessages": 4699,
+        "totalStreamMinutes": 8409,
         "emotes": {
           "❤": 53,
-          "🙌": 135,
+          "🙌": 136,
           "🗳": 510,
           "🔴": 50,
-          "🎉": 88,
+          "🎉": 89,
           "📴": 48,
           "👋": 55,
-          "🔥": 165,
+          "🔥": 167,
           "💪": 2,
           "🤖": 1,
           "💚": 6,
           "🤣": 72,
-          "🚨": 210,
+          "🚨": 216,
           "😎": 3,
           "😅": 7,
           "😆": 64,
@@ -4349,34 +4349,10 @@
           "73946001-7661-4573-bfa7-f60b178db3e7": "BUSSERS",
           "d00dd6ef-e924-4161-a5da-80fbf3568dbc": "Chillin"
         },
-        "lastChatAt": 1787465815401,
+        "lastChatAt": 1787466373296,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "true"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@muddy_4x4_gmc is raiding with a party of 1! Welcome, raiders!"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @muddy_4x4_gmc is raiding with a party of 1! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "briggsy",
-          "msg": "okok"
-        },
-        {
-          "user": "briggsy",
-          "msg": "pea time"
-        },
-        {
-          "user": "zenifirrules",
-          "msg": "ya es la final en un ratito mas XD"
-        },
         {
           "user": "zenifirrules",
           "msg": "Team spirit y paravision"
@@ -4392,6 +4368,30 @@
         {
           "user": "precido1",
           "msg": "hey nadie"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@cripiechuccles is raiding with a party of 13! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @cripiechuccles is raiding with a party of 13! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@cripiechuccles resubscribed, they've been subbed for 2 months! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @cripiechuccles has resubscribed — 2 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "lets gooo"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "we here"
         }
       ],
       "customCommands": {},
@@ -4450,6 +4450,11 @@
         },
         "bidloperv": {
           "name": "bidloperv",
+          "months": 1,
+          "tier": 1
+        },
+        "cripiechuccles": {
+          "name": "cripiechuccles",
           "months": 1,
           "tier": 1
         }
@@ -10739,7 +10744,7 @@
         "totalVotes": 678,
         "totalSubs": 6,
         "totalChatMessages": 199,
-        "totalStreamMinutes": 876,
+        "totalStreamMinutes": 881,
         "emotes": {
           "❤": 13,
           "🙌": 8,
@@ -12165,8 +12170,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787445144089,
   "auth": {
-    "accessToken": "5f1def8243b937a7230693e776c3091f",
-    "refreshToken": "0d848a06dca21e6819b1357f0c2fb779",
+    "accessToken": "84aa2daa6c1fdf477b52154a69c74eb7",
+    "refreshToken": "668ab1f190946f851975e0416ebd69bb",
     "sessionToken": "034d949d6c0834859e74d3aabe296273",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
