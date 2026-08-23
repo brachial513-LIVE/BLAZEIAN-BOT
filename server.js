@@ -2160,6 +2160,27 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
       await sendChatT(channelId, getRandom(greetings));
       return;
     }
+    // LAUGHTER MUST BE EARNED. Don't reflexively "haha/😂" just because a message contains "lol"/"haha"/
+    // "xd" — that made the bot laugh at things that weren't jokes (proven live: it "😂😂 I can't"-ed at a
+    // self-deprecating "1 sub 16.1k blaze but i have 13.9 lol im sorry"). So for this trigger, give the
+    // model the RECENT CHAT as context and let it judge honestly: only react amused if it's GENUINELY
+    // funny. If it's a habitual "lol", or self-deprecating/sad/neutral/not a real joke, it returns
+    // NOTHING and the bot stays SILENT — deliberately NO canned-laugh fallback here.
+    if (trigger.key === "lol") {
+      const recent = (ch.chatMemory || []).slice(-6)
+        .map(e => (e && e.user && e.msg) ? `${e.user}: ${e.msg}` : "").filter(Boolean).join("\n");
+      const aiLaugh = await aiShout(ch,
+        `Recent chat in ${ch.username}'s stream:\n${recent || "(no earlier lines)"}\n\n` +
+        `${user} just wrote: "${msg}".\n\n` +
+        `Decide HONESTLY whether this is genuinely funny given the context. ONLY react with laughter or ` +
+        `amusement if it actually is — and note that SARCASM, dry wit, irony and clever burns DO count as ` +
+        `genuinely funny: catching those and playing along shows you actually get the joke, so react to them. ` +
+        `But if it's just a habitual "lol", or it's self-deprecating, sad, neutral, or not a real joke, DO NOT ` +
+        `fake-laugh — either add ONE brief, fitting, in-character line about the ACTUAL content, or, if there's ` +
+        `genuinely nothing worth adding, reply with exactly: NOTHING.`);
+      if (aiLaugh && !/^nothing\b/i.test(aiLaugh.trim())) await sendChatT(channelId, aiLaugh);
+      return;
+    }
     // Short, unambiguous acronyms (gg/gm/gn/f) answer straight from their canned pool. Letting the AI
     // freestyle on a two-letter token risks a misread — e.g. replying "good morning" to "gg" (good game),
     // which reads as not understanding the chat. The richer triggers below still get a fresh AI reaction.
@@ -2657,10 +2678,17 @@ async function handleEvent(message) {
         console.log("[EMOTE-PAYLOAD]", JSON.stringify(emotes).slice(0, 400));
         emotes.forEach(em => {
           const id = em.id || em.emoteId, name = em.name || em.emoteName || id;
-          if (id) { ch.stats.emotes[id] = (ch.stats.emotes[id] || 0) + 1; ch.stats.emoteNames[id] = name; }
           const url = em.url || em.imageUrl || em.image;
           if (id && url) emoteMap[id] = url;
-          pushEmote(channelId, url || name, !!url); // feed the emote-wall overlay
+          // Blaze lists each custom emote ONCE in the emotes array but embeds "[emote:ID]" once PER use in
+          // the message text — so count the uses and spawn one flying emote per use (a 10x crown = 10
+          // crowns flying, so chat can fully escalate). Capped so a single spam message can't flood the
+          // overlay/browser. Unicode emojis are already counted per-occurrence further below.
+          let uses = 1;
+          if (id) { const c = msg.split("[emote:" + id + "]").length - 1; if (c > 0) uses = c; }
+          uses = Math.min(uses, 50);
+          if (id) { ch.stats.emotes[id] = (ch.stats.emotes[id] || 0) + uses; ch.stats.emoteNames[id] = name; }
+          for (let k = 0; k < uses; k++) pushEmote(channelId, url || name, !!url); // feed the emote-wall overlay
         });
       }
       // Blaze emotes are unicode emojis right in the message text — track those for the "top emote" stat
