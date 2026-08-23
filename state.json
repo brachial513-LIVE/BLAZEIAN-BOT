@@ -4089,8 +4089,8 @@
       "stats": {
         "totalVotes": 12445,
         "totalSubs": 36,
-        "totalChatMessages": 4731,
-        "totalStreamMinutes": 8494,
+        "totalChatMessages": 4735,
+        "totalStreamMinutes": 8499,
         "emotes": {
           "❤": 55,
           "🙌": 137,
@@ -4190,14 +4190,14 @@
           "95944de8-157f-48f9-bf59-1e463a79241b": 1,
           "89607d1d-be98-402f-b44c-4b86dd3c4ecb": 4,
           "022678e3-1b96-4a20-a88e-3cb54cca477b": 1,
-          "2deeee8b-5a34-4fdf-a770-4ba5b15bfdc5": 1,
+          "2deeee8b-5a34-4fdf-a770-4ba5b15bfdc5": 2,
           "40b32399-b774-4742-af0f-4cb53635e769": 2,
           "85bc92da-0bf0-4357-a36a-48624e6fb778": 4,
           "579cce98-01b9-4c4e-aded-e8a7d6692b7f": 1,
           "0ec398a2-c3b9-4312-9191-75a653e456b1": 1,
           "7e247bfc-7ca4-47e5-aa10-a9d213c9c561": 1,
           "77ce2af7-987f-4b52-9fc2-e4c30c294bb6": 2,
-          "dbabb6c9-a042-43f6-b4a0-8e842416ee69": 1,
+          "dbabb6c9-a042-43f6-b4a0-8e842416ee69": 2,
           "🎶": 1,
           "🙂": 1,
           "↕": 1,
@@ -4213,7 +4213,7 @@
           "🥂": 3,
           "3baf9b09-d43e-43d4-ad8f-e237843af12e": 2,
           "d76994cc-fce6-4348-954b-5dfe6bd89279": 1,
-          "be80caa6-f1da-42a8-afd5-82aafd5418f6": 2,
+          "be80caa6-f1da-42a8-afd5-82aafd5418f6": 3,
           "db35d9eb-1e2f-4904-ba11-6c8a94375559": 1,
           "120ea6ce-25f1-4fcc-839a-3a35a799ce6c": 1,
           "8d9ec02d-3279-4659-86c9-0ea2643dea9b": 1,
@@ -4349,26 +4349,10 @@
           "73946001-7661-4573-bfa7-f60b178db3e7": "BUSSERS",
           "d00dd6ef-e924-4161-a5da-80fbf3568dbc": "Chillin"
         },
-        "lastChatAt": 1787471444092,
+        "lastChatAt": 1787471641273,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "he_nose",
-          "msg": "Worked til midnight. Have to work tomorrow but it's my Friday."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @mediart!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ mediart just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "mediart",
-          "msg": "Hi"
-        },
         {
           "user": "mediart",
           "msg": "Thank you, I'm good , thanks"
@@ -4392,6 +4376,22 @@
         {
           "user": "meyetechnicals",
           "msg": "its 8AM here"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "[emote:2deeee8b-5a34-4fdf-a770-4ba5b15bfdc5]"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "[emote:be80caa6-f1da-42a8-afd5-82aafd5418f6] [emote:dbabb6c9-a042-43f6-b4a0-8e842416ee69]"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "how are you doing with building your music"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "nice"
         }
       ],
       "customCommands": {},
@@ -10744,7 +10744,7 @@
         "totalVotes": 678,
         "totalSubs": 6,
         "totalChatMessages": 199,
-        "totalStreamMinutes": 966,
+        "totalStreamMinutes": 971,
         "emotes": {
           "❤": 13,
           "🙌": 8,
@@ -12175,8 +12175,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787445144089,
   "auth": {
-    "accessToken": "1d2692d742f97bfc8bfe180de4859c00",
-    "refreshToken": "2bc9f72a0828b17974c7dcdd79fb28e6",
+    "accessToken": "5e14aefe3abda2e206f2b58c487bac16",
+    "refreshToken": "d7aa9a7f64bf3f1b06ef3bdcf5e847f8",
     "sessionToken": "034d949d6c0834859e74d3aabe296273",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
