@@ -1273,7 +1273,7 @@
         "totalVotes": 11640,
         "totalSubs": 106,
         "totalChatMessages": 5628,
-        "totalStreamMinutes": 17321,
+        "totalStreamMinutes": 17326,
         "emotes": {
           "📊": 3,
           "🔥": 351,
@@ -1986,7 +1986,7 @@
         "totalVotes": 9172,
         "totalSubs": 44,
         "totalChatMessages": 3975,
-        "totalStreamMinutes": 13598,
+        "totalStreamMinutes": 13603,
         "emotes": {
           "❤": 155,
           "🙌": 109,
@@ -4086,7 +4086,7 @@
         "totalVotes": 11919,
         "totalSubs": 33,
         "totalChatMessages": 4520,
-        "totalStreamMinutes": 8182,
+        "totalStreamMinutes": 8187,
         "emotes": {
           "❤": 51,
           "🙌": 132,
@@ -8570,7 +8570,7 @@
         "totalVotes": 8288,
         "totalSubs": 0,
         "totalChatMessages": 10550,
-        "totalStreamMinutes": 6387,
+        "totalStreamMinutes": 6392,
         "emotes": {
           "❤": 25,
           "🙌": 19,
@@ -9540,7 +9540,7 @@
         "totalVotes": 890,
         "totalSubs": 10,
         "totalChatMessages": 51,
-        "totalStreamMinutes": 465,
+        "totalStreamMinutes": 470,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -11048,8 +11048,8 @@
       "stats": {
         "totalVotes": 305,
         "totalSubs": 0,
-        "totalChatMessages": 357,
-        "totalStreamMinutes": 728,
+        "totalChatMessages": 360,
+        "totalStreamMinutes": 733,
         "emotes": {
           "👋": 8,
           "⚠": 2,
@@ -11137,17 +11137,9 @@
           "🙌": "🙌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787452278905
+        "lastChatAt": 1787452631049
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/1c5a47be610c98afd4ca85895505d9682941ee13934d2981746a3d24a5d2f2ab"
@@ -11179,6 +11171,14 @@
         {
           "user": "onyxouroboros",
           "msg": "let's keep fishing for more mysteries"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/8f9d2878f5ec2cd762c8d5c1ac09e6ac2c0855aabfd91cb94ae2be4d977878cc"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "Another credit for recycling some trash"
         }
       ],
       "customCommands": {
@@ -12000,9 +12000,9 @@
       "n": 4
     },
     "meyetechnicals": {
-      "note": "Enjoys medieval adventure games like Expedition: Into Darkness, loves squad play, gear loss, and uses playful emotes while chatting.",
-      "at": 1787250169692,
-      "n": 2
+      "note": "Enjoys medieval adventure games, squad play, and gear loss, often inviting friends to join parties, voice chat, and using playful emotes while streaming.",
+      "at": 1787452789477,
+      "n": 3
     },
     "emperorevilk1ng": {
       "note": "They chat casually, mention playing Fall Guys, enjoy light humor, and casually reference fitness like push‑ups.",
@@ -12134,8 +12134,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787445144089,
   "auth": {
-    "accessToken": "231bebab5fea7e248dc307c453e8cd7d",
-    "refreshToken": "36c94fa8254d3091770c18dd7f7f1604",
+    "accessToken": "f2bac165aff6dc833c5e88d1c93aff08",
+    "refreshToken": "dcb74ccd7b315443c3e445c34ad960b9",
     "sessionToken": "034d949d6c0834859e74d3aabe296273",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
