@@ -1272,8 +1272,8 @@
       "stats": {
         "totalVotes": 11565,
         "totalSubs": 106,
-        "totalChatMessages": 5608,
-        "totalStreamMinutes": 17146,
+        "totalChatMessages": 5609,
+        "totalStreamMinutes": 17166,
         "emotes": {
           "📊": 3,
           "🔥": 350,
@@ -1409,7 +1409,7 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 8,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 12,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 10,
-          "37719561-c923-4260-b1a5-e3eda10c103d": 13,
+          "37719561-c923-4260-b1a5-e3eda10c103d": 14,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 3,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 3,
@@ -1605,13 +1605,9 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787441695555
+        "lastChatAt": 1787442482322
       },
       "chatMemory": [
-        {
-          "user": "zsoltech",
-          "msg": "much appreciated"
-        },
         {
           "user": "agent00zani",
           "msg": "ggs"
@@ -1647,6 +1643,10 @@
         {
           "user": "cripiechuccles",
           "msg": "we here"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d]"
         }
       ],
       "customCommands": {},
@@ -2709,7 +2709,7 @@
         "totalVotes": 6815,
         "totalSubs": 50,
         "totalChatMessages": 2294,
-        "totalStreamMinutes": 10687,
+        "totalStreamMinutes": 10707,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -3434,9 +3434,9 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 13588,
+        "totalVotes": 13628,
         "totalSubs": 40,
-        "totalChatMessages": 6618,
+        "totalChatMessages": 6619,
         "totalStreamMinutes": 5065,
         "emotes": {
           "❤": 126,
@@ -3446,7 +3446,7 @@
           "😊": 9,
           "👍": 10,
           "🔴": 18,
-          "🎉": 83,
+          "🎉": 84,
           "📴": 18,
           "👋": 24,
           "⚡": 43,
@@ -3576,7 +3576,7 @@
           "🔄": 1,
           "🎡": 2,
           "🥠": 1,
-          "🏅": 1,
+          "🏅": 2,
           "🔓": 1,
           "😇": 1,
           "37719561-c923-4260-b1a5-e3eda10c103d": 1,
@@ -3813,13 +3813,9 @@
           "51d5d291-383d-4ca1-a27a-6678041b3a66": "haha1"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787429363988
+        "lastChatAt": 1787443201284
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Prism is weird."
-        },
         {
           "user": "briggsy",
           "msg": "Catch ya later guys."
@@ -3855,6 +3851,10 @@
         {
           "user": "briggsy",
           "msg": "Thanks @octo. My remote prism streams are spotty at best. They rarely last more than 3-4 min. Anyway, I like to show off my guy at the beach. So much joy."
+        },
+        {
+          "user": "botger",
+          "msg": "🏅 You finished 3rd in Badges Matter this week and earned 40 bonus votes from botger! 🎉"
         }
       ],
       "customCommands": {},
@@ -4081,14 +4081,14 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 11865,
+        "totalVotes": 11915,
         "totalSubs": 33,
-        "totalChatMessages": 4427,
-        "totalStreamMinutes": 8007,
+        "totalChatMessages": 4449,
+        "totalStreamMinutes": 8027,
         "emotes": {
           "❤": 51,
           "🙌": 132,
-          "🗳": 489,
+          "🗳": 492,
           "🔴": 49,
           "🎉": 83,
           "📴": 47,
@@ -4180,7 +4180,7 @@
           "3d795da6-1575-47bf-b136-9caa6004eae9": 14,
           "46fa99f5-a2a5-415e-ae5b-33d2b8cb08c7": 2,
           "38293de5-3a7b-419d-a75e-44a7fde65079": 2,
-          "f24f3ced-f044-4710-a310-3a7f922d4975": 4,
+          "f24f3ced-f044-4710-a310-3a7f922d4975": 6,
           "95944de8-157f-48f9-bf59-1e463a79241b": 1,
           "89607d1d-be98-402f-b44c-4b86dd3c4ecb": 2,
           "022678e3-1b96-4a20-a88e-3cb54cca477b": 1,
@@ -4321,49 +4321,49 @@
           "🤘": "🤘",
           "🫠": "🫠"
         },
-        "lastChatAt": 1787441728196,
+        "lastChatAt": 1787443290770,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
+          "user": "future42",
+          "msg": "hey...how did you make my image emogi?"
         },
         {
-          "user": "botger",
-          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
+          "user": "briggsy",
+          "msg": "Sorry I'm late"
         },
         {
-          "user": "nadietv",
-          "msg": "VoteSubathon is ON! 10 votes = 5 minutes, 1 sub = 30 minutes!"
+          "user": "future42",
+          "msg": "[emote:f24f3ced-f044-4710-a310-3a7f922d4975]"
         },
         {
-          "user": "zsoltech",
-          "msg": "yoooooo"
+          "user": "briggsy",
+          "msg": "Sounds sooo goood!!"
         },
         {
-          "user": "zsoltech",
-          "msg": "whats good"
+          "user": "future42",
+          "msg": "How did you do that"
         },
         {
-          "user": "zsoltech",
-          "msg": "what are you making"
+          "user": "future42",
+          "msg": "yes"
         },
         {
-          "user": "zsoltech",
-          "msg": "good man just chilling for now"
+          "user": "future42",
+          "msg": "you have skills"
         },
         {
-          "user": "zsoltech",
-          "msg": "is this fl studio?"
+          "user": "future42",
+          "msg": "you will have to walk me through it...."
         },
         {
-          "user": "zsoltech",
-          "msg": "haha awesome. lets hear it"
+          "user": "briggsy",
+          "msg": "He definitely does have da skillz"
         },
         {
-          "user": "cripiechuccles",
-          "msg": "lets gooo"
+          "user": "future42",
+          "msg": "ok"
         }
       ],
       "customCommands": {},
@@ -4438,7 +4438,7 @@
         "totalVotes": 5999,
         "totalSubs": 69,
         "totalChatMessages": 515,
-        "totalStreamMinutes": 10709,
+        "totalStreamMinutes": 10729,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -4664,10 +4664,10 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 8176,
+        "totalVotes": 8236,
         "totalSubs": 37,
-        "totalChatMessages": 1096,
-        "totalStreamMinutes": 4269,
+        "totalChatMessages": 1097,
+        "totalStreamMinutes": 4289,
         "emotes": {
           "❤": 54,
           "🙌": 55,
@@ -4681,11 +4681,11 @@
           "🥲": 2,
           "🗳": 159,
           "🔴": 30,
-          "🎉": 59,
+          "🎉": 60,
           "🚨": 60,
           "📴": 30,
           "👋": 42,
-          "🏅": 7,
+          "🏅": 8,
           "💪": 28,
           "😁": 4,
           "✌": 2,
@@ -4795,13 +4795,9 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787439329530
+        "lastChatAt": 1787443200982
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "then it will be easier"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
@@ -4837,6 +4833,10 @@
         {
           "user": "vitrene",
           "msg": "audio and video any good?"
+        },
+        {
+          "user": "botger",
+          "msg": "🏅 You finished 2nd in Badges Matter this week and earned 60 bonus votes from botger! 🎉"
         }
       ],
       "customCommands": {},
@@ -6819,7 +6819,7 @@
         "totalVotes": 5592,
         "totalSubs": 70,
         "totalChatMessages": 493,
-        "totalStreamMinutes": 1113,
+        "totalStreamMinutes": 1133,
         "emotes": {
           "❤": 16,
           "🙌": 78,
@@ -6906,8 +6906,8 @@
       "streamTitle": "Hantec 5k - USA session | @DestinoProspero trading student — Crypto",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1087d984-7048-475d-b8f9-c93c14eefc15.gif",
-      "profile": "lady_iris's community is a lively bunch of enthusiasts who love cszinho, Dota, and ARPGs, often using slang like \"vai\" and \"yuppie\" to express excitement. They adore \"yayyyyyyyy\" and \"yuppiiiiii\" when lady_iris is on a roll with her Tetris build, celebrating her skills and \"S2\" moments. They love shoutouts and \"trans muda\" hype.",
-      "_profileAtCount": 402,
+      "profile": "lady_iris’s channel is a high‑energy hub for crypto trading, Tetris builds, and gaming chatter. The community loves “vai”, “yuppie”, “yayyyyyyyy”, “yuppiiiiii”, and “trans muda” hype. They cheer “S2” moments, shout out “yayyyyyyyy” when lady_iris hits a streak, and celebrate every trade win with enthusiastic, slang‑filled cheers.",
+      "_profileAtCount": 493,
       "lastStreamInfo": "Hantec 5k - USA session | @DestinoProspero trading student — Crypto",
       "lastStreamEndedAt": 1786374583090,
       "nudgedAt": 1786053663388,
@@ -8562,7 +8562,7 @@
         "totalVotes": 8238,
         "totalSubs": 0,
         "totalChatMessages": 10546,
-        "totalStreamMinutes": 6212,
+        "totalStreamMinutes": 6232,
         "emotes": {
           "❤": 25,
           "🙌": 19,
@@ -9530,7 +9530,7 @@
       "joinedAt": 1785110114264,
       "stats": {
         "totalVotes": 890,
-        "totalSubs": 9,
+        "totalSubs": 10,
         "totalChatMessages": 51,
         "totalStreamMinutes": 373,
         "emotes": {
@@ -9622,7 +9622,14 @@
       "streamTitle": "",
       "gameOverride": "",
       "lastStreamInfo": "Chill Streaming — MapleStory",
-      "lastStreamEndedAt": 1787420342264
+      "lastStreamEndedAt": 1787420342264,
+      "loyalty": {
+        "missaria": {
+          "name": "missaria",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "1babc035-cb76-44e0-8f37-6c648418d047": {
       "username": "missaria_wf",
@@ -9630,14 +9637,14 @@
       "joinedAt": 1785231455893,
       "stats": {
         "totalVotes": 2502,
-        "totalSubs": 31,
-        "totalChatMessages": 409,
+        "totalSubs": 32,
+        "totalChatMessages": 410,
         "totalStreamMinutes": 1079,
         "emotes": {
           "❤": 47,
-          "🙌": 44,
+          "🙌": 45,
           "💚": 3,
-          "🔥": 54,
+          "🔥": 56,
           "🔴": 10,
           "🎉": 12,
           "💛": 1,
@@ -9724,17 +9731,13 @@
           "904850b1-2a13-4aba-8703-2af241ddab2d": "Love"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787368058398,
+        "lastChatAt": 1787442969987,
         "lastSendFailAt": 1787327834573,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1787344721041,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @JaggerJack just gave 20 vote(s) (total: 30)! Thank you!! 🗳️"
@@ -9770,6 +9773,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @missaria just gifted a sub to @xeventv38! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @PaniPeys has resubscribed — 4 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -9788,6 +9795,11 @@
       "loyalty": {
         "itsbigbrozo": {
           "name": "itsbigbrozo",
+          "months": 1,
+          "tier": 1
+        },
+        "panipeys": {
+          "name": "panipeys",
           "months": 1,
           "tier": 1
         }
@@ -11464,8 +11476,8 @@
     },
     "briggsy": {
       "note": "Briggsy loves music like Bidlo and Primus, chats about games and backstories, and keeps the vibe light and playful with humor.",
-      "at": 1787331349376,
-      "n": 32
+      "at": 1787442229340,
+      "n": 33
     },
     "lostsnow": {
       "note": "Friendly, humorous, loves chatting, creating digital art and NFTs, enjoys playing Kingdom Hearts and Hearthstone, and often shares lighthearted banter.",
