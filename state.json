@@ -1766,8 +1766,8 @@
       "stats": {
         "totalVotes": 5684,
         "totalSubs": 18,
-        "totalChatMessages": 5740,
-        "totalStreamMinutes": 5545,
+        "totalChatMessages": 5746,
+        "totalStreamMinutes": 5550,
         "emotes": {
           "🗳": 395,
           "🤣": 60,
@@ -1994,34 +1994,10 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
-        "lastChatAt": 1787610462881,
+        "lastChatAt": 1787610878297,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] Thank you, agent00zani, for the 20 vote(s)"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "hope your day goes well ..afk foe a few"
-        },
-        {
-          "user": "botger",
-          "msg": "Thank you for redeeming hugs @agent00zani!"
-        },
-        {
-          "user": "one",
-          "msg": "Is they trading you?"
-        },
-        {
-          "user": "one",
-          "msg": "will you hide screen here?"
-        },
         {
           "user": "one",
           "msg": "oke ney"
@@ -2037,6 +2013,30 @@
         {
           "user": "one",
           "msg": "damnn you hidden good"
+        },
+        {
+          "user": "one",
+          "msg": "I checked all mountains"
+        },
+        {
+          "user": "one",
+          "msg": "whut"
+        },
+        {
+          "user": "one",
+          "msg": "was the first things I checked"
+        },
+        {
+          "user": "one",
+          "msg": "I knew you were there 100 procent"
+        },
+        {
+          "user": "one",
+          "msg": "haha"
+        },
+        {
+          "user": "one",
+          "msg": "nice one"
         }
       ],
       "customCommands": {},
@@ -7143,10 +7143,10 @@
       "stats": {
         "totalVotes": 4808,
         "totalSubs": 34,
-        "totalChatMessages": 1319,
-        "totalStreamMinutes": 2408,
+        "totalChatMessages": 1322,
+        "totalStreamMinutes": 2413,
         "emotes": {
-          "❤": 113,
+          "❤": 114,
           "🙌": 88,
           "🔴": 23,
           "🎉": 33,
@@ -7162,7 +7162,7 @@
           "😘": 2,
           "🤝": 1,
           "💚": 1,
-          "🔥": 69,
+          "🔥": 71,
           "😂": 8,
           "🚨": 54,
           "🎁": 58,
@@ -7175,7 +7175,7 @@
           "🗳": 171,
           "🥷": 2,
           "💯": 3,
-          "📢": 8,
+          "📢": 9,
           "⚡": 1,
           "🍀": 1,
           "🤜": 1,
@@ -7274,17 +7274,9 @@
           "🙏": "🙏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787610608768
+        "lastChatAt": 1787610635226
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:1ec71433-9e46-4649-890d-720b6fae9be1]"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@Zer0Cache is raiding with a party of 2! Welcome, raiders!"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @Zer0Cache is raiding with a party of 2! Welcome raiders!! 🎉"
@@ -7316,6 +7308,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Zer0Cache just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @Zer0Cache, streamer of ! 🔥 Make sure to check out https://blaze.stream/Zer0Cache and show some support ❤️‍🔥"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @Zer0Cache at https://blaze.stream/zer0cache!"
         }
       ],
       "customCommands": {},
@@ -8812,7 +8812,7 @@
         "totalVotes": 8464,
         "totalSubs": 0,
         "totalChatMessages": 10581,
-        "totalStreamMinutes": 6723,
+        "totalStreamMinutes": 6728,
         "emotes": {
           "❤": 25,
           "🙌": 19,
@@ -9405,7 +9405,7 @@
         "totalVotes": 9235,
         "totalSubs": 13,
         "totalChatMessages": 2378,
-        "totalStreamMinutes": 3941,
+        "totalStreamMinutes": 3946,
         "emotes": {
           "❤": 48,
           "🙌": 36,
@@ -12609,8 +12609,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787605569784,
   "auth": {
-    "accessToken": "501d530d72acbe49df8a5858dac81c17",
-    "refreshToken": "9019e85db6875ca63670fad2437e7084",
+    "accessToken": "cf9c94339d411764d7ec8da3111b6735",
+    "refreshToken": "5af23afb21bf275c1b7b6c6c0d63589e",
     "sessionToken": "a05a0b324217b79ff7884a2c5a62f209",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
