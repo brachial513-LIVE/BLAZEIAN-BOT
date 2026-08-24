@@ -1343,8 +1343,8 @@
       "stats": {
         "totalVotes": 13078,
         "totalSubs": 111,
-        "totalChatMessages": 5914,
-        "totalStreamMinutes": 18274,
+        "totalChatMessages": 5917,
+        "totalStreamMinutes": 18279,
         "emotes": {
           "📊": 3,
           "🔥": 364,
@@ -1492,11 +1492,11 @@
           "😁": 1,
           "🎡": 31,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 3,
-          "🃏": 87,
-          "♥": 112,
+          "🃏": 90,
+          "♥": 119,
           "♣": 91,
-          "♠": 88,
-          "♦": 79,
+          "♠": 91,
+          "♦": 81,
           "🩷": 1,
           "🍗": 1,
           "💞": 1,
@@ -1692,21 +1692,9 @@
           "😉": "😉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787602437419
+        "lastChatAt": 1787605478894
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🃏 @crypt0k1ng96, dealt: 4♦ 4♣ (8) vs dealer showing 10♣. !hit or !stand?"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🃏 @crypt0k1ng96, drew K♥ — hand: 4♦ 4♣ K♥ (18) vs dealer showing 10♣. !hit or !stand?"
-        },
         {
           "user": "foxbotai",
           "msg": "🃏 @crypt0k1ng96, 4♦ 4♣ K♥ (18) vs dealer 10♣ 8♦ (18) — push, bet returned. Balance: 479 promo."
@@ -1734,6 +1722,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🃏 @crypt0k1ng96, 5♥ 10♥ (15) vs dealer 10♠ J♥ (20) — you lost 10 promo. Balance: 129 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🃏 @crypt0k1ng96, BLACKJACK! A♦ K♥ (21) vs dealer 9♥ 10♠ (19) — you won 25 promo! Balance: 144 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🃏 @crypt0k1ng96, BLACKJACK! A♥ J♠ (21) vs dealer 3♦ 10♥ (13) — you won 25 promo! Balance: 159 promo."
         }
       ],
       "customCommands": {},
@@ -2391,18 +2391,18 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 8389,
-        "totalSubs": 20,
-        "totalChatMessages": 6328,
-        "totalStreamMinutes": 2860,
+        "totalVotes": 8400,
+        "totalSubs": 22,
+        "totalChatMessages": 6366,
+        "totalStreamMinutes": 2865,
         "emotes": {
-          "❤": 2437,
-          "🎵": 233,
+          "❤": 2458,
+          "🎵": 236,
           "💃": 159,
-          "🔥": 404,
+          "🔥": 410,
           "💚": 22,
           "👋": 107,
-          "🚨": 163,
+          "🚨": 165,
           "😊": 2,
           "🚀": 4,
           "😂": 42,
@@ -2435,7 +2435,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 17,
-          "💜": 230,
+          "💜": 231,
           "🧔": 1,
           "🤺": 5,
           "🥳": 9,
@@ -2449,7 +2449,7 @@
           "💘": 4,
           "🌐": 2,
           "💬": 2,
-          "🗳": 100,
+          "🗳": 102,
           "❣": 13,
           "🫢": 9,
           "🙃": 1,
@@ -2472,15 +2472,15 @@
           "🖐": 1,
           "👌": 3,
           "🤧": 1,
-          "🎁": 9,
+          "🎁": 11,
           "☝": 20,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 36,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 40,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 3,
           "07de98c1-b682-4d82-b630-774474b712cc": 1,
           "b416995d-3eee-4c99-9927-86fa112b0b18": 4,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 7,
           "dedb0949-63d9-4d58-86d1-ecf0269453d3": 3,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 12,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 21,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 6,
           "849b2d68-7a30-4dcc-9981-1906ce5d70ca": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 3,
@@ -2501,7 +2501,7 @@
           "57033a2d-497d-4cb1-afa8-831b55347aae": 19,
           "29492159-a350-4196-b94c-6e01af87a634": 70,
           "b9a50ea5-8eb3-49d9-bfdf-8c922496aef8": 47,
-          "4aafb92a-a21b-49ff-99f6-8430048f9fc4": 28,
+          "4aafb92a-a21b-49ff-99f6-8430048f9fc4": 29,
           "fc7e2ae0-ece5-463c-9aaf-b7655525559b": 25,
           "213445d2-f92b-400c-a56f-b091519e6ff7": 13,
           "bce37112-0e5c-44d5-b1d3-62cf02d591b3": 17,
@@ -2514,7 +2514,7 @@
           "bfb66467-56b9-4e4b-a691-80fa5f012fa6": 11,
           "🪀": 1,
           "0df03081-f425-43c1-b55e-56aa722c820e": 33,
-          "a2e96b00-96b1-49ae-a19b-5ca81e50a614": 52,
+          "a2e96b00-96b1-49ae-a19b-5ca81e50a614": 63,
           "🐕": 1,
           "🦴": 2,
           "🪘": 8,
@@ -2673,53 +2673,53 @@
           "👏": "👏",
           "🤔": "🤔"
         },
-        "lastChatAt": 1787605124517,
-        "sendFailStreak": 69,
-        "lastSendFailAt": 1787604807287,
+        "lastChatAt": 1787605503658,
+        "sendFailStreak": 76,
+        "lastSendFailAt": 1787605477507,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146
       },
       "chatMemory": [
         {
+          "user": "bee12",
+          "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "nadietv",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "bee12",
+          "msg": "Cymatrix heyyy❤️❤️❤️"
+        },
+        {
+          "user": "generalkev",
+          "msg": "Hey cymatrix!"
+        },
+        {
+          "user": "nadietv",
+          "msg": "ty unc &lt;3"
+        },
+        {
+          "user": "rob_osp",
+          "msg": "@bee12 — thanks for the 5 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "nadietv",
+          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
           "user": "sheshi",
-          "msg": "[emote:3a0bbdaa-5c9d-44bc-8291-5e4446aac8d5]"
-        },
-        {
-          "user": "venessa2",
-          "msg": "❤️❤️❤️🔥🔥"
-        },
-        {
-          "user": "generalkev",
-          "msg": "has the sound gone?"
+          "msg": "hey cymatrix aka mob aka mr. joshua, watchumucallit, bumbumblobby and all the thingies"
         },
         {
           "user": "bee12",
-          "msg": "yassssss"
+          "msg": "🎵🎵🎵"
         },
         {
           "user": "generalkev",
-          "msg": "not just me then"
-        },
-        {
-          "user": "bee12",
-          "msg": "uncccccccccc"
-        },
-        {
-          "user": "venessa2",
-          "msg": "Yes no sound"
-        },
-        {
-          "user": "generalkev",
-          "msg": "we thought you'd rugged us! LOL"
-        },
-        {
-          "user": "venessa2",
-          "msg": "Sound back"
-        },
-        {
-          "user": "bee12",
-          "msg": "it still worked on arena!"
+          "msg": "[emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614]"
         }
       ],
       "customCommands": {},
@@ -3296,7 +3296,7 @@
         "totalVotes": 5015,
         "totalSubs": 26,
         "totalChatMessages": 1157,
-        "totalStreamMinutes": 5372,
+        "totalStreamMinutes": 5377,
         "emotes": {
           "✨": 24,
           "🖥": 21,
@@ -5860,10 +5860,10 @@
       "username": "bidloperv",
       "language": "en",
       "stats": {
-        "totalVotes": 9927,
+        "totalVotes": 9932,
         "totalSubs": 39,
-        "totalChatMessages": 8808,
-        "totalStreamMinutes": 5340,
+        "totalChatMessages": 8816,
+        "totalStreamMinutes": 5343,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -5983,7 +5983,7 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 6,
           "8341a7e3-a341-4ee5-a638-f8432c929257": 139,
           "3c817ff3-fa56-40b6-83b8-5054c76e354a": 46,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 104,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 106,
           "8f16ba67-efd7-4ce4-b6e3-f9f9e5a4019e": 5,
           "🤫": 1,
           "🫣": 1,
@@ -6169,41 +6169,9 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787605168832
+        "lastChatAt": 1787605380579
       },
       "chatMemory": [
-        {
-          "user": "cymatrix",
-          "msg": "damn gina! I missed bidlo cry cry sob sob"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "WOAH"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "congrats ! @inn"
-        },
-        {
-          "user": "nadietv",
-          "msg": "W @inn congrats!"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "I always wanted to be part of the inn crowd"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "ketcha on the flipside broseph"
-        },
-        {
-          "user": "nadietv",
-          "msg": "lfg"
-        },
         {
           "user": "nadietv",
           "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
@@ -6211,6 +6179,38 @@
         {
           "user": "cymatrix",
           "msg": "[emote:9669c537-4585-4a5c-8fb9-b7e17f2e6d99] [emote:9669c537-4585-4a5c-8fb9-b7e17f2e6d99] [emote:3c817ff3-fa56-40b6-83b8-5054c76e354a] [emote:8341a7e3-a341-4ee5-a638-f8432c929257] [emote:3c817ff3-fa56-40b6-83b8-5054c76e354a] [emote:9669c537-4585-4a5c-8fb9-b7e17f2e6d99]"
+        },
+        {
+          "user": "nadietv",
+          "msg": "nice!!"
+        },
+        {
+          "user": "nadietv",
+          "msg": "you are awesome bro"
+        },
+        {
+          "user": "nadietv",
+          "msg": "i hope you have a wonderful day [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
+        },
+        {
+          "user": "zakumo",
+          "msg": "Was great, have a good one!"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "threaten me with a good time"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "raid ospcommunity"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "funk is back online"
+        },
+        {
+          "user": "nadietv",
+          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
         }
       ],
       "customCommands": {},
@@ -6221,7 +6221,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b75c9dc9-4139-4301-a1f4-4b77cb0e8bec.gif",
       "followed": true,
-      "streamTitle": "Scareoke Metal Karaoke! Requests OPEN! — Music",
+      "streamTitle": "",
       "profile": "Bidloperv’s chill crew lives for heavy riffs, good vibes, and epic “Bidlo Wheel” moments. We rock Tony Hawk soundtrack jams, growling songs, and “Guitar and Chill” sessions with “love fest” vibes. Shout “GET OUTTA TOWN” and “LET’S GOOO” in the BidloZone, celebrate “100 votes” milestones, raid excitement, and “Bidlo lore” on Lore Tuesday. We love “Bidlo Silverhand” moments and reply with !pick and “Bidlo emote”.",
       "_profileAtCount": 8533,
       "gameOverride": "",
@@ -6248,7 +6248,7 @@
         }
       },
       "lastStreamInfo": "Scareoke Metal Karaoke! Requests OPEN! — Music",
-      "lastStreamEndedAt": 1787363191572,
+      "lastStreamEndedAt": 1787605390342,
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule"
     },
@@ -8800,7 +8800,7 @@
         "totalVotes": 8432,
         "totalSubs": 0,
         "totalChatMessages": 10569,
-        "totalStreamMinutes": 6633,
+        "totalStreamMinutes": 6638,
         "emotes": {
           "❤": 25,
           "🙌": 19,
@@ -9393,7 +9393,7 @@
         "totalVotes": 9225,
         "totalSubs": 13,
         "totalChatMessages": 2362,
-        "totalStreamMinutes": 3851,
+        "totalStreamMinutes": 3856,
         "emotes": {
           "❤": 46,
           "🙌": 35,
@@ -10196,7 +10196,7 @@
       "language": "en",
       "joinedAt": 1785689052676,
       "stats": {
-        "totalVotes": 5729,
+        "totalVotes": 5779,
         "totalSubs": 34,
         "totalChatMessages": 612,
         "totalStreamMinutes": 1799,
@@ -10366,8 +10366,8 @@
       "stats": {
         "totalVotes": 2002,
         "totalSubs": 8,
-        "totalChatMessages": 385,
-        "totalStreamMinutes": 4106,
+        "totalChatMessages": 389,
+        "totalStreamMinutes": 4111,
         "emotes": {
           "❤": 22,
           "🙌": 18,
@@ -10431,25 +10431,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787605201642
+        "lastChatAt": 1787605467053
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "zer0cache",
           "msg": "hey @marioscy5 , hope you're having a good stream dude"
@@ -10473,6 +10457,22 @@
         {
           "user": "agent00zani",
           "msg": "you finishing up warzone ?"
+        },
+        {
+          "user": "marioscy5",
+          "msg": "yes just now"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "i took nap just woke up"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "sorry i missed u"
+        },
+        {
+          "user": "marioscy5",
+          "msg": "Will you play or ?"
         }
       ],
       "customCommands": {
@@ -12587,8 +12587,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787574720654,
   "auth": {
-    "accessToken": "473b8444aa9a1a7067bffcf85e71d6da",
-    "refreshToken": "1fb8bca63f63763a7b5033274b22c13a",
+    "accessToken": "424a6ef0b83e481a1dd8a2a76c402ef1",
+    "refreshToken": "6e0059a72c47bf0363db14b3b8f5e7d7",
     "sessionToken": "a05a0b324217b79ff7884a2c5a62f209",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
