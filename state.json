@@ -2058,8 +2058,8 @@
       "stats": {
         "totalVotes": 9924,
         "totalSubs": 44,
-        "totalChatMessages": 4148,
-        "totalStreamMinutes": 14069,
+        "totalChatMessages": 4149,
+        "totalStreamMinutes": 14073,
         "emotes": {
           "❤": 162,
           "🙌": 112,
@@ -2152,7 +2152,7 @@
           "🎸": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 11,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 19,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 35,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 36,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 19,
           "b05156cf-7925-4298-8e19-f29e294cc793": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 10,
@@ -2274,14 +2274,10 @@
           "💀": "💀",
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
-        "lastChatAt": 1787559395165,
+        "lastChatAt": 1787560931872,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 105 vote(s) (total: 105)! Thank you!! 🗳️"
-        },
         {
           "user": "cripiechuccles",
           "msg": "lets gooo"
@@ -2317,6 +2313,10 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {},
@@ -7295,8 +7295,8 @@
       "stats": {
         "totalVotes": 11108,
         "totalSubs": 72,
-        "totalChatMessages": 1347,
-        "totalStreamMinutes": 8045,
+        "totalChatMessages": 1351,
+        "totalStreamMinutes": 8049,
         "emotes": {
           "❤": 63,
           "🙌": 109,
@@ -7408,25 +7408,9 @@
           "🍺": "🍺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787560412595
+        "lastChatAt": 1787560838349
       },
       "chatMemory": [
-        {
-          "user": "tinapay",
-          "msg": "Magandang umagaaaaaaaa"
-        },
-        {
-          "user": "tinapay",
-          "msg": "mabuhaaaay"
-        },
-        {
-          "user": "faithy_",
-          "msg": "[emote:ef07187d-8e6c-42b9-af9c-b732de7949cb] [emote:ef07187d-8e6c-42b9-af9c-b732de7949cb]"
-        },
-        {
-          "user": "faithy_",
-          "msg": "Don't forget to say hi on my livestream! thank you for always support!"
-        },
         {
           "user": "tinapay",
           "msg": "yooow"
@@ -7450,6 +7434,22 @@
         {
           "user": "tere",
           "msg": "Thanks cutie faith @faithy_"
+        },
+        {
+          "user": "missaria",
+          "msg": "Hello boss faithyy"
+        },
+        {
+          "user": "missaria",
+          "msg": "overcooked naman mamaya"
+        },
+        {
+          "user": "missaria",
+          "msg": "overcooked 2?"
+        },
+        {
+          "user": "missaria",
+          "msg": "madali yung pag madami haha"
         }
       ],
       "customCommands": {},
@@ -11634,7 +11634,8 @@
       },
       "chatMemory": [],
       "customCommands": {
-        "discord": "Become a Warrior Join the Discord: https://discord.gg/kQFWth3TUc"
+        "discord": "Become a Warrior Join the Discord: https://discord.gg/kQFWth3TUc",
+        "check in": "{name} Has Check In"
       },
       "streamStart": "HUGE! Stream Ahead",
       "streamEnd": "",
@@ -11643,7 +11644,8 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c1b73074-914a-4a28-a5ad-8b21cb24da6d.png"
     }
   },
   "blocklist": [
