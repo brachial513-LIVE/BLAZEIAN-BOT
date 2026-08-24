@@ -2059,7 +2059,7 @@
         "totalVotes": 9924,
         "totalSubs": 44,
         "totalChatMessages": 4148,
-        "totalStreamMinutes": 14067,
+        "totalStreamMinutes": 14069,
         "emotes": {
           "❤": 162,
           "🙌": 112,
@@ -7296,7 +7296,7 @@
         "totalVotes": 11108,
         "totalSubs": 72,
         "totalChatMessages": 1347,
-        "totalStreamMinutes": 8043,
+        "totalStreamMinutes": 8045,
         "emotes": {
           "❤": 63,
           "🙌": 109,
@@ -11633,7 +11633,9 @@
         "sendFailStreak": 0
       },
       "chatMemory": [],
-      "customCommands": {},
+      "customCommands": {
+        "discord": "Become a Warrior Join the Discord: https://discord.gg/kQFWth3TUc"
+      },
       "streamStart": "HUGE! Stream Ahead",
       "streamEnd": "",
       "schedule": "",
