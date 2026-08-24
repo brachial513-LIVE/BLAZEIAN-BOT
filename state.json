@@ -2059,7 +2059,7 @@
         "totalVotes": 9924,
         "totalSubs": 44,
         "totalChatMessages": 4148,
-        "totalStreamMinutes": 14050,
+        "totalStreamMinutes": 14066,
         "emotes": {
           "❤": 162,
           "🙌": 112,
@@ -2799,7 +2799,7 @@
       "stats": {
         "totalVotes": 7058,
         "totalSubs": 50,
-        "totalChatMessages": 2305,
+        "totalChatMessages": 2306,
         "totalStreamMinutes": 10740,
         "emotes": {
           "😊": 4,
@@ -2814,7 +2814,7 @@
           "😂": 25,
           "😆": 14,
           "🍉": 4,
-          "❤": 26,
+          "❤": 28,
           "✌": 3,
           "😌": 1,
           "🤗": 4,
@@ -2906,7 +2906,7 @@
           "💪": 4,
           "🍺": 9,
           "🫶": 3,
-          "🙌": 16,
+          "🙌": 17,
           "🗳": 51,
           "📴": 6,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 9,
@@ -3066,13 +3066,9 @@
           "⏰": "⏰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787553471216
+        "lastChatAt": 1787560395887
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "Hey Cap't   have a great stream"
-        },
         {
           "user": "cactus_jack440",
           "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c]"
@@ -3108,6 +3104,10 @@
         {
           "user": "he_nose",
           "msg": "[emote:248db14b-f100-4838-be4d-8e265634e892] [emote:248db14b-f100-4838-be4d-8e265634e892] [emote:248db14b-f100-4838-be4d-8e265634e892] [emote:248db14b-f100-4838-be4d-8e265634e892] [emote:248db14b-f100-4838-be4d-8e265634e892] [emote:248db14b-f100-4838-be4d-8e265634e892]"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ tcwarrioretp just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -7294,12 +7294,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 11108,
-        "totalSubs": 71,
-        "totalChatMessages": 1344,
-        "totalStreamMinutes": 8026,
+        "totalSubs": 72,
+        "totalChatMessages": 1347,
+        "totalStreamMinutes": 8042,
         "emotes": {
           "❤": 63,
-          "🙌": 108,
+          "🙌": 109,
           "💚": 3,
           "🔥": 34,
           "🗳": 438,
@@ -7319,7 +7319,7 @@
           "✌": 3,
           "☺": 1,
           "👍": 2,
-          "🎁": 138,
+          "🎁": 140,
           "😶": 9,
           "🌫": 9,
           "😍": 6,
@@ -7408,21 +7408,9 @@
           "🍺": "🍺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787556279318
+        "lastChatAt": 1787560412595
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "fartvader",
-          "msg": "orayt lesgooo [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "time to grind [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
         {
           "user": "tinapay",
           "msg": "Magandang umagaaaaaaaa"
@@ -7450,6 +7438,18 @@
         {
           "user": "tinapay",
           "msg": "hahahaha"
+        },
+        {
+          "user": "tere",
+          "msg": "hi"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @tere! How generous!! 🙌"
+        },
+        {
+          "user": "tere",
+          "msg": "Thanks cutie faith @faithy_"
         }
       ],
       "customCommands": {},
@@ -11618,6 +11618,27 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/bb1f16ec-ae76-47ba-be49-3ace4b2e5189.png",
       "followed": true
+    },
+    "8f390b56-fc05-4001-96d5-a8ed5bf4e78d": {
+      "username": "tcwarrioretp",
+      "language": "en",
+      "joinedAt": 1787560561979,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "timedMessages": [],
+      "tipTiers": []
     }
   },
   "blocklist": [
