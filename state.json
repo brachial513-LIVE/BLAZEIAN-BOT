@@ -2058,14 +2058,14 @@
       "stats": {
         "totalVotes": 9921,
         "totalSubs": 44,
-        "totalChatMessages": 4146,
-        "totalStreamMinutes": 14045,
+        "totalChatMessages": 4147,
+        "totalStreamMinutes": 14047,
         "emotes": {
           "❤": 162,
           "🙌": 112,
           "🗳": 636,
-          "📴": 116,
-          "👋": 131,
+          "📴": 117,
+          "👋": 132,
           "🔴": 115,
           "🎉": 185,
           "🏆": 22,
@@ -2274,14 +2274,10 @@
           "💀": "💀",
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
-        "lastChatAt": 1787537656321,
+        "lastChatAt": 1787538109905,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @aleksaflamingo just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
@@ -2317,6 +2313,10 @@
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2324,7 +2324,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "💥 Warzone Chaos 👀 | Zani .. No idea what I am doing 🎮 | 🎰 Sub Raffle LIVE — Call Of Duty Warzone",
+      "streamTitle": "",
       "profile": "Agent00zani’s channel is a high‑energy hub of 🔥, 🎰, and epic battles. We “SLAP” each other with a wooden horse, shout “VOTE ALERT!!”, “Huge W”, “MVP”, and “Hugs” after wins. Pizza‑fueled streams, Sci‑Fi love (Blade Runner), and Palworld survival are staples. Celebrate with “ty ty” for votes, raids, and a big hug.",
       "_profileAtCount": 4130,
       "loyalty": {
@@ -2368,16 +2368,16 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/fc5ab98b-e0a9-4580-a90b-de6d7af4203e.png",
       "nudgedAt": 1785006485591,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "💥 Warzone Chaos 👀 | Zani & Marioscy5 🎮 | 🎰 Sub Raffle LIVE | 🏆 140 Votes + 🤗 Hugs — Call Of Duty Warzone",
-      "lastStreamEndedAt": 1787522227166
+      "lastStreamInfo": "💥 Warzone Chaos 👀 | Zani .. No idea what I am doing 🎮 | 🎰 Sub Raffle LIVE — Call Of Duty Warzone",
+      "lastStreamEndedAt": 1787538104719
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 7840,
+        "totalVotes": 7925,
         "totalSubs": 16,
-        "totalChatMessages": 5767,
+        "totalChatMessages": 5768,
         "totalStreamMinutes": 2613,
         "emotes": {
           "❤": 2164,
@@ -2433,7 +2433,7 @@
           "💘": 4,
           "🌐": 2,
           "💬": 2,
-          "🗳": 93,
+          "🗳": 94,
           "❣": 11,
           "🫢": 9,
           "🙃": 1,
@@ -2639,7 +2639,7 @@
           "🙌": "🙌",
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO"
         },
-        "lastChatAt": 1787523727946,
+        "lastChatAt": 1787538901606,
         "sendFailStreak": 0,
         "lastSendFailAt": 1786221397885,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2647,10 +2647,6 @@
         "recoveredFrom": 146
       },
       "chatMemory": [
-        {
-          "user": "generalkev",
-          "msg": "😁😁😁"
-        },
         {
           "user": "bee12",
           "msg": "❤️❤️❤️"
@@ -2686,6 +2682,10 @@
         {
           "user": "rob_osp",
           "msg": "@jiminy — thanks for the 6 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "@doctorgeorgio — thanks for the 85 votes! 🗳️ Every vote helps."
         }
       ],
       "customCommands": {},
@@ -4572,7 +4572,7 @@
         "totalVotes": 6221,
         "totalSubs": 69,
         "totalChatMessages": 520,
-        "totalStreamMinutes": 11060,
+        "totalStreamMinutes": 11080,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -11231,7 +11231,7 @@
         "totalVotes": 853,
         "totalSubs": 0,
         "totalChatMessages": 471,
-        "totalStreamMinutes": 977,
+        "totalStreamMinutes": 997,
         "emotes": {
           "👋": 11,
           "⚠": 2,
@@ -12089,9 +12089,9 @@
       "n": 3
     },
     "cr33pling": {
-      "note": "Enthusiastic gamer who loves metal, live shows, and PUBG, always chatting with playful slang and energetic emojis.",
-      "at": 1787290429382,
-      "n": 11
+      "note": "Enthusiastic gamer who loves metal, live shows, and titles like PUBG, Valorant, CS2, Ghost Recon, Warzone, always chatting with playful slang and emojis.",
+      "at": 1787538255910,
+      "n": 12
     },
     "angge_wf": {
       "note": "Playful, enthusiastic gamer who loves Stumble Guys, frequently greets with “gm,” shares emojis, and bursts into laughter with long “HAHA” bursts.",
@@ -12379,9 +12379,9 @@
       "n": 1
     },
     "rob_osp": {
-      "note": "They run a livestream, thanking viewers for subs, votes, gifts, and promoting OSP for earning courage while watching",
-      "at": 1787450809454,
-      "n": 1
+      "note": "Livestream host thanks viewers for subs, votes, gifts, and promotes OSP for earning courage while watching.",
+      "at": 1787538915775,
+      "n": 2
     },
     "charddxyz": {
       "note": "Enjoys gaming chats, uses playful emojis, often says “lezzgo” and “capt rob” while keeping a light, humorous tone.",
