@@ -11626,16 +11626,16 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1787560983962
       },
       "chatMemory": [],
       "customCommands": {
-        "discord": "Become a Warrior Join the Discord: https://discord.gg/kQFWth3TUc",
-        "check in": "{name} Has Check In"
+        "discord": "Become a Warrior Join the Discord: https://discord.gg/kQFWth3TUc"
       },
       "streamStart": "HUGE! Stream Ahead",
       "streamEnd": "",
