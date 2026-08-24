@@ -3541,7 +3541,7 @@
       "stats": {
         "totalVotes": 14206,
         "totalSubs": 40,
-        "totalChatMessages": 6631,
+        "totalChatMessages": 6635,
         "totalStreamMinutes": 5065,
         "emotes": {
           "❤": 128,
@@ -3583,7 +3583,7 @@
           "↕": 7,
           "💜": 5,
           "💗": 1,
-          "🎵": 2,
+          "🎵": 3,
           "🤟": 5,
           "🥪": 1,
           "🙃": 10,
@@ -3696,7 +3696,7 @@
           "2cb52c55-9a82-4c39-92b7-6d2c4840c30e": 5,
           "d69119bc-d210-494b-9cd1-4231ee6b3d50": 3,
           "b1184fb6-b463-495d-816c-28f21c50e2d6": 4,
-          "0dfdfc88-3d2b-4df5-bad8-1386a8152264": 1,
+          "0dfdfc88-3d2b-4df5-bad8-1386a8152264": 2,
           "f331d2ff-359a-475e-a566-0f2180bcb070": 1,
           "b452c358-941e-402c-924c-86d5adff6752": 1,
           "061b83c4-4a6b-4f78-a1b8-58e3c3c832e6": 4,
@@ -3730,7 +3730,9 @@
           "18ec2e34-50e2-4079-961b-8aac13188d41": 1,
           "51d5d291-383d-4ca1-a27a-6678041b3a66": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 2,
-          "809bfa51-da4f-4570-9c70-67a802c6da7b": 1
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
+          "🎶": 1,
+          "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -3919,24 +3921,14 @@
           "18ec2e34-50e2-4079-961b-8aac13188d41": "FirePixel",
           "51d5d291-383d-4ca1-a27a-6678041b3a66": "haha1",
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
-          "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2",
+          "🎶": "🎶",
+          "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": "True1"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787535622510
+        "lastChatAt": 1787545143506
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @MAVOmusic just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
-        },
-        {
-          "user": "mavomusic",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "Hello bro briggsy!! Dropping by to say I really appreciate you bro, I wanted to say thank you sooner than later. You are awesome! [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "botger",
           "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
@@ -3964,6 +3956,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🎶badum badum bum bum🎵"
+        },
+        {
+          "user": "briggsy",
+          "msg": "[emote:e36a7e26-f8f9-4a3c-bdb6-de59497c3463] [emote:e36a7e26-f8f9-4a3c-bdb6-de59497c3463]"
+        },
+        {
+          "user": "briggsy",
+          "msg": "[emote:0dfdfc88-3d2b-4df5-bad8-1386a8152264]"
         }
       ],
       "customCommands": {},
@@ -11921,8 +11925,8 @@
     },
     "avisi": {
       "note": "Enthusiastic gamer who loves music, playful humor, warmly engages friends, enjoys friendly competition and creative banter.",
-      "at": 1787461369359,
-      "n": 15
+      "at": 1787545515990,
+      "n": 16
     },
     "junior7_": {
       "note": "They enjoy playing games like Mania, have a humorous tone, and like joking with friends, often referencing their gaming experiences.",
