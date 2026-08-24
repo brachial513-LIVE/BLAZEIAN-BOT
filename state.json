@@ -11234,16 +11234,16 @@
       "stats": {
         "totalVotes": 853,
         "totalSubs": 0,
-        "totalChatMessages": 475,
-        "totalStreamMinutes": 1062,
+        "totalChatMessages": 478,
+        "totalStreamMinutes": 1066,
         "emotes": {
-          "👋": 11,
+          "👋": 12,
           "⚠": 2,
           "🎯": 2,
           "🗳": 33,
           "🔴": 11,
           "🎉": 15,
-          "📴": 10,
+          "📴": 11,
           "🎡": 3,
           "®": 3,
           "📢": 4,
@@ -11325,21 +11325,9 @@
           "🎣": "🎣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787542801657
+        "lastChatAt": 1787543319290
       },
       "chatMemory": [
-        {
-          "user": "peperonitostv",
-          "msg": "Have a nice stream!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 100 votes, @senseibulrog!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @senseibulrog just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ activated999 just followed the channel! Welcome!! 🙌"
@@ -11367,6 +11355,18 @@
         {
           "user": "peter_force",
           "msg": "[emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa] [emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa] [emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa] [emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa]"
+        },
+        {
+          "user": "inn",
+          "msg": "Much love Peter!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -11381,9 +11381,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "Voter Wheel🔥 282nd Blaze Stream🔥 — Fortnite",
+      "streamTitle": "",
       "lastStreamInfo": "Voter Wheel🔥 282nd Blaze Stream🔥 — Fortnite",
-      "lastStreamEndedAt": 1787530478550,
+      "lastStreamEndedAt": 1787543314088,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” keep the vibe high‑energy, urge more stream hours to stay Verified, and shout “Something",
@@ -12412,8 +12412,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787489415818,
   "auth": {
-    "accessToken": "dafeab8e977f3b5271ff107f13301386",
-    "refreshToken": "c06747caf6d877db22bfd3d7038ba8bf",
+    "accessToken": "e99929d166827f18ebb70ac31ef7c0c2",
+    "refreshToken": "0c5df2b59ac1395641f713541e65bb1c",
     "sessionToken": "0a6d2b2801d80fb85daf65db1c43f3ba",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
