@@ -7407,11 +7407,11 @@
       "stats": {
         "totalVotes": 12789,
         "totalSubs": 78,
-        "totalChatMessages": 1426,
+        "totalChatMessages": 1427,
         "totalStreamMinutes": 8375,
         "emotes": {
           "❤": 69,
-          "🙌": 119,
+          "🙌": 120,
           "💚": 3,
           "🔥": 35,
           "🗳": 480,
@@ -7436,7 +7436,7 @@
           "🌫": 9,
           "😍": 6,
           "☕": 3,
-          "💰": 8,
+          "💰": 10,
           "🤗": 4,
           "😆": 1,
           "🥰": 3,
@@ -7526,13 +7526,9 @@
           "7c4338cb-2027-4da7-a5c6-e89019df721b": "Scream"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787636098151
+        "lastChatAt": 1787637345467
       },
       "chatMemory": [
-        {
-          "user": "tcwarrioretp",
-          "msg": "i haven't joined the server yet"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -7568,6 +7564,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @bradgames! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "💰 TIP ALERT!! 💰 @mindgoblin just tipped $10.00!! Thank you so much!! 🙌"
         }
       ],
       "customCommands": {},
@@ -8178,14 +8178,14 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 19174,
+        "totalVotes": 19624,
         "totalSubs": 33,
-        "totalChatMessages": 2234,
-        "totalStreamMinutes": 909,
+        "totalChatMessages": 2237,
+        "totalStreamMinutes": 926,
         "emotes": {
           "❤": 37,
           "🙌": 65,
-          "🗳": 453,
+          "🗳": 462,
           "💰": 22,
           "🔥": 45,
           "💛": 3,
@@ -8357,25 +8357,13 @@
           "🍺": "🍺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787636377236,
+        "lastChatAt": 1787636946395,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "💰 TIP ALERT!! 💰 @mindgoblin just tipped $10.00!! Thank you so much!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @capt_rob_advent! How generous!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 2000 vote(s) (total: 2000)! Thank you!! 🗳️"
@@ -8403,6 +8391,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 100 vote(s) (total: 2200)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 100 vote(s) (total: 2300)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 250 vote(s) (total: 2550)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8447,7 +8447,7 @@
         "totalVotes": 6164,
         "totalSubs": 18,
         "totalChatMessages": 1377,
-        "totalStreamMinutes": 5263,
+        "totalStreamMinutes": 5280,
         "emotes": {
           "❤": 71,
           "🙌": 39,
@@ -10146,7 +10146,7 @@
         "totalVotes": 382,
         "totalSubs": 11,
         "totalChatMessages": 269,
-        "totalStreamMinutes": 1267,
+        "totalStreamMinutes": 1283,
         "emotes": {
           "❤": 32,
           "🙌": 21,
@@ -12702,14 +12702,19 @@
       "note": "They’re a new streamer on Blaze, enjoy playing Palworld, appreciate gifts, and are just getting settled into the community.",
       "at": 1787635936072,
       "n": 1
+    },
+    "1_karen": {
+      "note": "NOT",
+      "at": 1787637256049,
+      "n": 1
     }
   },
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 20 votes = 1 entry · 1 sub = 3 entries · 1 gifted sub = 5 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 600 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\nThe current round is the 17th giveaway, running 27th July to 2nd August. A new round starts each week.",
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787605569784,
   "auth": {
-    "accessToken": "a3e4f8ba5b338c83400098dc5eb778a1",
-    "refreshToken": "ec0d51f84d0fb402c0c5e6b4071a6228",
+    "accessToken": "a8b20db738b3b55a61c05661ba985796",
+    "refreshToken": "b923196dfa22108328fce41b80314923",
     "sessionToken": "a05a0b324217b79ff7884a2c5a62f209",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
