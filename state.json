@@ -2110,7 +2110,7 @@
       "stats": {
         "totalVotes": 10362,
         "totalSubs": 45,
-        "totalChatMessages": 4305,
+        "totalChatMessages": 4306,
         "totalStreamMinutes": 14279,
         "emotes": {
           "❤": 164,
@@ -2219,7 +2219,8 @@
           "💀": 1,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 3,
           "🥱": 1,
-          "cd2d0478-cb09-4023-9a6a-750599f9623a": 2
+          "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
+          "💜": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -2328,16 +2329,13 @@
           "💀": "💀",
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
           "🥱": "🥱",
-          "cd2d0478-cb09-4023-9a6a-750599f9623a": "CALMPYRO"
+          "cd2d0478-cb09-4023-9a6a-750599f9623a": "CALMPYRO",
+          "💜": "💜"
         },
-        "lastChatAt": 1787635730904,
+        "lastChatAt": 1787660113833,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "zer0cache",
-          "msg": "🫶🫶🫶"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @Zer0Cache just gifted a sub to @marioscy5! How generous!! 🙌"
@@ -2373,6 +2371,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "Thanks for showing your support with those votes! 💜"
         }
       ],
       "customCommands": {},
@@ -6949,7 +6951,7 @@
         "totalVotes": 2530,
         "totalSubs": 10,
         "totalChatMessages": 391,
-        "totalStreamMinutes": 1449,
+        "totalStreamMinutes": 1469,
         "emotes": {
           "❤": 22,
           "🙌": 22,
@@ -12713,6 +12715,11 @@
     "sinnerz": {
       "note": "Enjoys Dota 2 with 5k hours, loves Mirana and bounty hunter, jokes about wraith king, and often chats about votes and sub‑thanks.",
       "at": 1787649796148,
+      "n": 1
+    },
+    "inn": {
+      "note": "They enjoy playful, emoji‑heavy chat, joking about prizes, fishing, and quirky references like pineapple and polka.",
+      "at": 1787659696145,
       "n": 1
     }
   },
