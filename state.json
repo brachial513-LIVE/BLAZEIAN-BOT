@@ -6948,14 +6948,14 @@
       "stats": {
         "totalVotes": 2530,
         "totalSubs": 10,
-        "totalChatMessages": 388,
-        "totalStreamMinutes": 1445,
+        "totalChatMessages": 391,
+        "totalStreamMinutes": 1449,
         "emotes": {
           "❤": 22,
           "🙌": 22,
           "🗳": 102,
-          "🔴": 25,
-          "🎉": 26,
+          "🔴": 26,
+          "🎉": 27,
           "📴": 24,
           "👋": 26,
           "🎁": 20,
@@ -6977,7 +6977,7 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 2,
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 2,
           "2e5b1db1-6251-44ab-af91-db641e067abd": 5,
-          "809bfa51-da4f-4570-9c70-67a802c6da7b": 3,
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": 5,
           "90de29ae-7900-4058-8ce3-67e55a3fbcd9": 1,
           "35c9d3d9-d9a3-4084-b1a8-294697db0e89": 5,
           "d5605de6-7f76-42d0-ae9a-f78959fa2fb5": 1
@@ -7015,21 +7015,9 @@
           "d5605de6-7f76-42d0-ae9a-f78959fa2fb5": "amaze"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787646332388
+        "lastChatAt": 1787659281082
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ smellynelly71 just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "smellynelly71",
-          "msg": "yoyoyo hope your well"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "0xscheun",
           "msg": "welcome bro"
@@ -7057,6 +7045,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "gm"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
         }
       ],
       "customCommands": {},
@@ -7069,7 +7069,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1fce5f33-0d10-4052-a439-2d788d567380.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "GOW RAGNAROK — God of War",
       "gameOverride": "",
       "profile": "0xscheun’s community is a chill crew that loves gaming and good vibes. We greet with “gm gm” and “sup”, celebrate wins with “thank you” and “yessir”, and laugh at “tiddies” and “nirus supplier” jokes. Fave games: Farlight, Uncharted. We live for intense moments, throw love fests, and keep the energy high with constant emotes and playful banter.",
       "_profileAtCount": 365,
@@ -12720,8 +12720,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787637424124,
   "auth": {
-    "accessToken": "d3d5499de951f716c34687f7728e0357",
-    "refreshToken": "22bf65bc0ca878b2a05a1fb053fd070b",
+    "accessToken": "44aee844d19acd70384f6ff5f1b03c90",
+    "refreshToken": "a963acce39a046d1fcebd8a08fd9af46",
     "sessionToken": "a05a0b324217b79ff7884a2c5a62f209",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
