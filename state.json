@@ -6716,7 +6716,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 51,
-        "totalStreamMinutes": 4257,
+        "totalStreamMinutes": 4262,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -10751,8 +10751,8 @@
       "stats": {
         "totalVotes": 4200,
         "totalSubs": 43,
-        "totalChatMessages": 1489,
-        "totalStreamMinutes": 3137,
+        "totalChatMessages": 1492,
+        "totalStreamMinutes": 3142,
         "emotes": {
           "😅": 1,
           "🔥": 104,
@@ -10775,7 +10775,7 @@
           "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 64,
           "🔴": 8,
           "🎉": 24,
-          "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 18,
+          "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 20,
           "💎": 7,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 22,
@@ -10868,25 +10868,13 @@
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787664607851,
+        "lastChatAt": 1787664645672,
         "lastSendFailAt": 1787327474865,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1787329005351,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "but most of my streams i have mic on lol"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5]"
-        },
-        {
-          "user": "corinloch",
-          "msg": "xD its okay"
-        },
         {
           "user": "fartvader",
           "msg": "eyyy meye my bro!! [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
@@ -10914,6 +10902,18 @@
         {
           "user": "corinloch",
           "msg": "its a good game? i will buy to play with my friends"
+        },
+        {
+          "user": "fartvader",
+          "msg": "yep this is a very good game..lots of classes to choose from..about 24 i believe"
+        },
+        {
+          "user": "fartvader",
+          "msg": "oh yeah..its a very good game..definitely go give it a try!"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79]"
         }
       ],
       "customCommands": {},
@@ -12731,8 +12731,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787637424124,
   "auth": {
-    "accessToken": "82c0d4c812105bce939fb5d331545aca",
-    "refreshToken": "f7c48affcecdcc17bdb10c30571bb628",
+    "accessToken": "a4526bc97e7bf356dc24fe2c68bc155f",
+    "refreshToken": "b73bf9d319f516fb9e2107005e710ba9",
     "sessionToken": "dff1f4c42fc13a8507620aa881934628",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
