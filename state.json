@@ -1359,7 +1359,7 @@
       "stats": {
         "totalVotes": 13406,
         "totalSubs": 112,
-        "totalChatMessages": 6008,
+        "totalChatMessages": 6009,
         "totalStreamMinutes": 18375,
         "emotes": {
           "📊": 3,
@@ -1541,7 +1541,7 @@
           "70b1737e-7945-4743-bbc1-882e1228fab0": 1,
           "20a29d22-5535-494c-8a0a-dbdace2f4d3f": 1,
           "22a2df8d-1151-4c75-954e-30c7527dbf40": 1,
-          "af42e4d4-d26a-4320-b2f6-d49836809481": 1
+          "af42e4d4-d26a-4320-b2f6-d49836809481": 2
         },
         "emoteNames": {
           "📊": "📊",
@@ -1726,13 +1726,9 @@
           "af42e4d4-d26a-4320-b2f6-d49836809481": "MakeItRain"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787636260127
+        "lastChatAt": 1787665413502
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "🏆 WINNER: crypt0k1ng96! 🎉 Congratulations! 🎊"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:f11e4f46-3937-4b39-a184-e3ff3bbc460f]"
@@ -1764,6 +1760,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:22a2df8d-1151-4c75-954e-30c7527dbf40]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:af42e4d4-d26a-4320-b2f6-d49836809481]"
         },
         {
           "user": "crypt0k1ng96",
@@ -6716,7 +6716,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 51,
-        "totalStreamMinutes": 4262,
+        "totalStreamMinutes": 4282,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -9458,14 +9458,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 9637,
+        "totalVotes": 9639,
         "totalSubs": 13,
-        "totalChatMessages": 2389,
+        "totalChatMessages": 2391,
         "totalStreamMinutes": 4024,
         "emotes": {
           "❤": 48,
           "🙌": 36,
-          "🗳": 465,
+          "🗳": 468,
           "🔴": 38,
           "🎉": 66,
           "🏃": 1,
@@ -9597,17 +9597,9 @@
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787639478675
+        "lastChatAt": 1787666020753
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @vRoshi55 just gave 250 vote(s) (total: 250)! Thank you!! 🗳️"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "BLAZE ON!"
-        },
         {
           "user": "vroshi55",
           "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6]"
@@ -9639,6 +9631,14 @@
         {
           "user": "dofferlive",
           "msg": "that's big support thanks!!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 2 votes, @sadoq!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @sadoq just gave 2 vote(s) (total: 7)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -10751,16 +10751,16 @@
       "stats": {
         "totalVotes": 4200,
         "totalSubs": 43,
-        "totalChatMessages": 1492,
-        "totalStreamMinutes": 3142,
+        "totalChatMessages": 1510,
+        "totalStreamMinutes": 3162,
         "emotes": {
           "😅": 1,
-          "🔥": 104,
+          "🔥": 106,
           "🍻": 2,
           "✌": 1,
           "😊": 1,
           "👍": 1,
-          "❤": 85,
+          "❤": 86,
           "🤫": 1,
           "🤘": 2,
           "😂": 6,
@@ -10771,14 +10771,14 @@
           "🙌": 47,
           "💪": 1,
           "👋": 10,
-          "9bbb90da-7f28-448d-9986-2748f752a3e6": 32,
+          "9bbb90da-7f28-448d-9986-2748f752a3e6": 35,
           "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 64,
           "🔴": 8,
           "🎉": 24,
           "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 20,
           "💎": 7,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 22,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 23,
           "37719561-c923-4260-b1a5-e3eda10c103d": 2,
           "🎁": 54,
           "🗳": 96,
@@ -10788,7 +10788,7 @@
           "d021d096-f2ed-48e4-92df-af5f224e1a3f": 23,
           "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 11,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
-          "📢": 43,
+          "📢": 44,
           "🚨": 96,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
@@ -10868,7 +10868,7 @@
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787664645672,
+        "lastChatAt": 1787666086819,
         "lastSendFailAt": 1787327474865,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1787329005351,
@@ -10877,43 +10877,43 @@
       "chatMemory": [
         {
           "user": "fartvader",
-          "msg": "eyyy meye my bro!! [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "haha later i'll turn it on when they're ready to hop in with me for a game"
-        },
-        {
-          "user": "fartvader",
-          "msg": "we'd be playing \"how to fish\""
+          "msg": "yes I believe you can..we just have to find a common server to play on"
         },
         {
           "user": "corinloch",
-          "msg": "oh"
+          "msg": "lets play anything one day"
         },
         {
           "user": "corinloch",
-          "msg": "ik this game"
+          "msg": "a big party game"
         },
         {
           "user": "corinloch",
-          "msg": "its on a steam offer"
+          "msg": "like crabgame"
+        },
+        {
+          "user": "fartvader",
+          "msg": "oh absolutely..would like to play with us later? game called \"How to Fish\""
+        },
+        {
+          "user": "fartvader",
+          "msg": "our host has a mod which allows up to 32 players"
         },
         {
           "user": "corinloch",
-          "msg": "its a good game? i will buy to play with my friends"
+          "msg": "i dont have time this week"
         },
         {
           "user": "fartvader",
-          "msg": "yep this is a very good game..lots of classes to choose from..about 24 i believe"
+          "msg": "oh ok gotcha...hit me up on discord when you're free"
+        },
+        {
+          "user": "corinloch",
+          "msg": "off course i will :D"
         },
         {
           "user": "fartvader",
-          "msg": "oh yeah..its a very good game..definitely go give it a try!"
-        },
-        {
-          "user": "fartvader",
-          "msg": "[emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79]"
+          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {},
@@ -12597,9 +12597,9 @@
       "n": 3
     },
     "midnitecatzlady": {
-      "note": "Enjoys gaming, music, and playful humor, often joking about game events and sharing upbeat vibes.",
-      "at": 1787612835986,
-      "n": 3
+      "note": "Enjoy gaming, music, and playful humor, often joking about game events and sharing upbeat vibes.",
+      "at": 1787664976147,
+      "n": 4
     },
     "mrwomack": {
       "note": "Enjoys playing Diablo 4, is excited about BLAZE and its Discord, loves giving and receiving shoutouts, and often injects playful, upbeat humor into chats.",
