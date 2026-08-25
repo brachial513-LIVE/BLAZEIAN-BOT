@@ -6571,7 +6571,7 @@
         "totalVotes": 5840,
         "totalSubs": 77,
         "totalChatMessages": 501,
-        "totalStreamMinutes": 2931,
+        "totalStreamMinutes": 2936,
         "emotes": {
           "❤": 23,
           "🙌": 84,
@@ -8164,8 +8164,8 @@
       "stats": {
         "totalVotes": 18924,
         "totalSubs": 33,
-        "totalChatMessages": 2228,
-        "totalStreamMinutes": 886,
+        "totalChatMessages": 2229,
+        "totalStreamMinutes": 889,
         "emotes": {
           "❤": 37,
           "🙌": 65,
@@ -8173,8 +8173,8 @@
           "💰": 22,
           "🔥": 45,
           "💛": 3,
-          "🔴": 21,
-          "🎉": 24,
+          "🔴": 22,
+          "🎉": 25,
           "😀": 8,
           "😂": 66,
           "😄": 1,
@@ -8341,17 +8341,13 @@
           "🍺": "🍺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787632895762,
+        "lastChatAt": 1787635010844,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "cedricdebled",
-          "msg": "am ready"
-        },
         {
           "user": "cedricdebled",
           "msg": "Appreciate it"
@@ -8387,6 +8383,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 2000 vote(s) (total: 2000)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 cedricdebled is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -8418,7 +8418,7 @@
       },
       "profile": "Welcome to cedricdebled’s vibes! We’re all about “GGs” and “love fests” while voting for art. When we’re not “lowkey” hyping a game of Pictionary, we’re “highkey” cheering for the best pieces. The channel loves shoutouts, “the vibes are real,” “keep it lit,” and “love fest” moments. Celebrate with us—every vote, every comment, every “GG.”",
       "_profileAtCount": 2196,
-      "streamTitle": "",
+      "streamTitle": "Spin the Goblin wheel LIVE — Art",
       "gameOverride": "",
       "lastStreamInfo": "Art Workshop — Art",
       "lastStreamEndedAt": 1787632826117
@@ -8431,7 +8431,7 @@
         "totalVotes": 6164,
         "totalSubs": 18,
         "totalChatMessages": 1377,
-        "totalStreamMinutes": 5238,
+        "totalStreamMinutes": 5243,
         "emotes": {
           "❤": 71,
           "🙌": 39,
@@ -12687,8 +12687,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787605569784,
   "auth": {
-    "accessToken": "b14d5d1e9f5109e32e6399e4be2f86bb",
-    "refreshToken": "8e292255df7514fdac9e4b81d33d9245",
+    "accessToken": "a3e4f8ba5b338c83400098dc5eb778a1",
+    "refreshToken": "ec0d51f84d0fb402c0c5e6b4071a6228",
     "sessionToken": "a05a0b324217b79ff7884a2c5a62f209",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
