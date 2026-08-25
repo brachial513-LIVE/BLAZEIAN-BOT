@@ -1047,7 +1047,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 11961,
+        "totalVotes": 11971,
         "totalSubs": 22,
         "totalChatMessages": 18969,
         "totalStreamMinutes": 1804,
@@ -3622,14 +3622,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 15146,
+        "totalVotes": 15156,
         "totalSubs": 41,
-        "totalChatMessages": 6756,
+        "totalChatMessages": 6757,
         "totalStreamMinutes": 5119,
         "emotes": {
           "❤": 130,
           "🙌": 229,
-          "🗳": 933,
+          "🗳": 936,
           "✌": 4,
           "😊": 9,
           "👍": 10,
@@ -4019,13 +4019,9 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787626743215
+        "lastChatAt": 1787650520033
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎉 FartVader just reached Level 3! ⚡ (3,645 XP)"
-        },
         {
           "user": "fartvader",
           "msg": "gl on your matches!"
@@ -4061,6 +4057,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 10 vote(s) (total: 30)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5908,7 +5908,7 @@
       "username": "bidloperv",
       "language": "en",
       "stats": {
-        "totalVotes": 10034,
+        "totalVotes": 10039,
         "totalSubs": 39,
         "totalChatMessages": 8817,
         "totalStreamMinutes": 5343,
@@ -7608,14 +7608,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 13837,
+        "totalVotes": 13842,
         "totalSubs": 8,
-        "totalChatMessages": 903,
+        "totalChatMessages": 904,
         "totalStreamMinutes": 1031,
         "emotes": {
           "❤": 15,
           "🙌": 21,
-          "🗳": 381,
+          "🗳": 384,
           "🚨": 54,
           "🎉": 21,
           "👋": 34,
@@ -7750,16 +7750,12 @@
           "✅": "✅",
           "35c5c2ba-6f7c-4560-838b-72614abe98ba": "KidDanceish"
         },
-        "lastChatAt": 1787648098380,
-        "sendFailStreak": 182,
-        "lastSendFailAt": 1787648480562,
+        "lastChatAt": 1787650638018,
+        "sendFailStreak": 183,
+        "lastSendFailAt": 1787650635807,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @MAVOmusic just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
-        },
         {
           "user": "mavomusic",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -7795,6 +7791,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @RealmOfCrimson just gave 28 vote(s) (total: 28)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 5 vote(s) (total: 55)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9169,9 +9169,9 @@
       "language": "en",
       "joinedAt": 1784664490215,
       "stats": {
-        "totalVotes": 4163,
+        "totalVotes": 4166,
         "totalSubs": 8,
-        "totalChatMessages": 688,
+        "totalChatMessages": 689,
         "totalStreamMinutes": 4958,
         "emotes": {
           "❤": 50,
@@ -9181,7 +9181,7 @@
           "🔴": 28,
           "🎉": 39,
           "🔥": 56,
-          "🗳": 210,
+          "🗳": 213,
           "😀": 2,
           "👀": 6,
           "😃": 1,
@@ -9270,13 +9270,9 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787572716921
+        "lastChatAt": 1787650145841
       },
       "chatMemory": [
-        {
-          "user": "just_for_lucas",
-          "msg": "GM GM"
-        },
         {
           "user": "fluffy",
           "msg": "Kankaaaaa hey. How are you"
@@ -9312,6 +9308,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -12602,8 +12602,8 @@
     },
     "lunaria": {
       "note": "Lunaria loves livestream gaming, jokes about bosses and events, enjoys playful banter about game challenges, and often talks about pets and audio looping.",
-      "at": 1787581815926,
-      "n": 5
+      "at": 1787650456165,
+      "n": 6
     },
     "veilboundgg": {
       "note": "Game developer who loves adding capes, statues, and random artifacts to maps, coding new classes, joking about quests, and tweaking camera angles.",
@@ -12646,9 +12646,9 @@
       "n": 1
     },
     "rob_osp": {
-      "note": "Livestream host thanks viewers for subs, votes, gifts, promotes OSP for earning courage while watching, and plays various games.",
-      "at": 1787582476201,
-      "n": 3
+      "note": "The host thanks viewers for votes, subs, gifts, promotes OSP courage, and streams a variety of games with friendly, upbeat humor.",
+      "at": 1787651116175,
+      "n": 4
     },
     "charddxyz": {
       "note": "Enjoys gaming chats, uses playful emojis, often says “lezzgo” and “capt rob” while keeping a light, humorous tone.",
