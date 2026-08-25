@@ -599,12 +599,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 50328,
+        "totalVotes": 50343,
         "totalSubs": 76,
-        "totalChatMessages": 7045,
+        "totalChatMessages": 7046,
         "totalStreamMinutes": 1953,
         "emotes": {
-          "🗳": 1134,
+          "🗳": 1137,
           "❤": 476,
           "🙌": 168,
           "🔥": 201,
@@ -906,17 +906,13 @@
           "🎯": "🎯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787624130200,
+        "lastChatAt": 1787626840219,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
@@ -952,6 +948,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @0xscheun just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1047,8 +1047,8 @@
       "stats": {
         "totalVotes": 11958,
         "totalSubs": 22,
-        "totalChatMessages": 18896,
-        "totalStreamMinutes": 1742,
+        "totalChatMessages": 18901,
+        "totalStreamMinutes": 1747,
         "emotes": {
           "🔥": 1418,
           "🗳": 23,
@@ -1243,7 +1243,7 @@
           "60967948-8805-42ef-a202-051d2e2f1557": "SLEEPYRO",
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO"
         },
-        "lastChatAt": 1787626808811,
+        "lastChatAt": 1787627103913,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1251,14 +1251,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "No keyword set. Use !setkeyword first."
-        },
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
         {
           "user": "blazegames_bot",
           "msg": "@jt_squared2: 1 tickets | 0 wins"
@@ -1290,6 +1282,14 @@
         {
           "user": "botger",
           "msg": "No keyword set. Use !setkeyword first."
+        },
+        {
+          "user": "botger",
+          "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
         }
       ],
       "customCommands": {},
@@ -7390,7 +7390,7 @@
         "totalVotes": 12089,
         "totalSubs": 74,
         "totalChatMessages": 1404,
-        "totalStreamMinutes": 8269,
+        "totalStreamMinutes": 8274,
         "emotes": {
           "❤": 65,
           "🙌": 112,
@@ -8427,7 +8427,7 @@
         "totalVotes": 6148,
         "totalSubs": 17,
         "totalChatMessages": 1299,
-        "totalStreamMinutes": 5103,
+        "totalStreamMinutes": 5108,
         "emotes": {
           "❤": 67,
           "🙌": 36,
@@ -11372,7 +11372,7 @@
         "totalVotes": 1007,
         "totalSubs": 0,
         "totalChatMessages": 523,
-        "totalStreamMinutes": 1235,
+        "totalStreamMinutes": 1240,
         "emotes": {
           "👋": 13,
           "⚠": 2,
@@ -11762,7 +11762,7 @@
         "totalVotes": 288,
         "totalSubs": 0,
         "totalChatMessages": 41,
-        "totalStreamMinutes": 242,
+        "totalStreamMinutes": 247,
         "emotes": {
           "✌": 1,
           "🔥": 1,
@@ -12677,8 +12677,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787605569784,
   "auth": {
-    "accessToken": "fa0cb083a955f072ea6e50ee8aa55f27",
-    "refreshToken": "f4fb61fe4f5bb3bd852e103e815890d4",
+    "accessToken": "f9b85f49a3e290ab3e60a8c49eb39695",
+    "refreshToken": "16c3f7ccf33f772f5ae9e3f17e7ae919",
     "sessionToken": "a05a0b324217b79ff7884a2c5a62f209",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
