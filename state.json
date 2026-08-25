@@ -3237,7 +3237,7 @@
       "username": "anikisnow",
       "language": "en",
       "stats": {
-        "totalVotes": 7611,
+        "totalVotes": 7613,
         "totalSubs": 80,
         "totalChatMessages": 366,
         "totalStreamMinutes": 2353,
@@ -6950,16 +6950,16 @@
       "stats": {
         "totalVotes": 2530,
         "totalSubs": 10,
-        "totalChatMessages": 391,
-        "totalStreamMinutes": 1469,
+        "totalChatMessages": 393,
+        "totalStreamMinutes": 1487,
         "emotes": {
           "❤": 22,
           "🙌": 22,
           "🗳": 102,
-          "🔴": 26,
-          "🎉": 27,
-          "📴": 24,
-          "👋": 26,
+          "🔴": 27,
+          "🎉": 28,
+          "📴": 25,
+          "👋": 27,
           "🎁": 20,
           "🤝": 1,
           "🔥": 10,
@@ -7017,17 +7017,9 @@
           "d5605de6-7f76-42d0-ae9a-f78959fa2fb5": "amaze"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787659281082
+        "lastChatAt": 1787661461139
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "welcome bro"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -7059,6 +7051,14 @@
         {
           "user": "0xscheun",
           "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -7078,7 +7078,7 @@
       "nudgedAt": 1785078532098,
       "nudgedKey": "schedule",
       "lastStreamInfo": "GOW RAGNAROK — God of War",
-      "lastStreamEndedAt": 1787587308092
+      "lastStreamEndedAt": 1787661354081
     },
     "79438541-610a-4083-b103-5d45043a9664": {
       "username": "lady_iris",
