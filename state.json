@@ -6716,7 +6716,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 51,
-        "totalStreamMinutes": 4302,
+        "totalStreamMinutes": 4307,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -9461,7 +9461,7 @@
         "totalVotes": 9639,
         "totalSubs": 13,
         "totalChatMessages": 2394,
-        "totalStreamMinutes": 4029,
+        "totalStreamMinutes": 4034,
         "emotes": {
           "❤": 48,
           "🙌": 36,
@@ -10751,8 +10751,8 @@
       "stats": {
         "totalVotes": 4200,
         "totalSubs": 43,
-        "totalChatMessages": 1519,
-        "totalStreamMinutes": 3182,
+        "totalChatMessages": 1521,
+        "totalStreamMinutes": 3187,
         "emotes": {
           "😅": 1,
           "🔥": 106,
@@ -10771,7 +10771,7 @@
           "🙌": 47,
           "💪": 1,
           "👋": 10,
-          "9bbb90da-7f28-448d-9986-2748f752a3e6": 39,
+          "9bbb90da-7f28-448d-9986-2748f752a3e6": 40,
           "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 66,
           "🔴": 8,
           "🎉": 24,
@@ -10868,21 +10868,13 @@
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787666789698,
+        "lastChatAt": 1787667613332,
         "lastSendFailAt": 1787327474865,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1787329005351,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:e5772785-5f76-4433-8159-230844a61298] [emote:e5772785-5f76-4433-8159-230844a61298] [emote:e5772785-5f76-4433-8159-230844a61298] [emote:e5772785-5f76-4433-8159-230844a61298]"
-        },
         {
           "user": "fartvader",
           "msg": "eyyyy [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
@@ -10914,6 +10906,14 @@
         {
           "user": "fartvader",
           "msg": "thanks mi bro! [emote:ddd8e0e5-6002-45e8-9ad3-c5a6225d5daf] [emote:ddd8e0e5-6002-45e8-9ad3-c5a6225d5daf]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "opening mic in a while"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
         }
       ],
       "customCommands": {},
@@ -12731,8 +12731,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787637424124,
   "auth": {
-    "accessToken": "a4526bc97e7bf356dc24fe2c68bc155f",
-    "refreshToken": "b73bf9d319f516fb9e2107005e710ba9",
+    "accessToken": "dbc92634c7c5cfa0aeb326020f8fcc9b",
+    "refreshToken": "644596d572f9a8e6e01c6131951ef9a8",
     "sessionToken": "dff1f4c42fc13a8507620aa881934628",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
