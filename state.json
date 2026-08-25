@@ -1767,7 +1767,7 @@
         "totalVotes": 6109,
         "totalSubs": 18,
         "totalChatMessages": 5799,
-        "totalStreamMinutes": 5705,
+        "totalStreamMinutes": 5725,
         "emotes": {
           "🗳": 401,
           "🤣": 60,
@@ -4255,16 +4255,16 @@
       "stats": {
         "totalVotes": 13598,
         "totalSubs": 36,
-        "totalChatMessages": 4757,
-        "totalStreamMinutes": 8682,
+        "totalChatMessages": 4762,
+        "totalStreamMinutes": 8698,
         "emotes": {
           "❤": 55,
           "🙌": 137,
           "🗳": 525,
-          "🔴": 52,
-          "🎉": 91,
-          "📴": 50,
-          "👋": 57,
+          "🔴": 53,
+          "🎉": 92,
+          "📴": 51,
+          "👋": 58,
           "🔥": 167,
           "💪": 2,
           "🤖": 1,
@@ -4519,30 +4519,10 @@
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink",
           "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
         },
-        "lastChatAt": 1787620170775,
+        "lastChatAt": 1787620707976,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 250 votes, @vRoshi55!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @vRoshi55 just gave 250 vote(s) (total: 250)! Thank you!! 🗳️"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "Vote Bomb & Run!"
-        },
         {
           "user": "vroshi55",
           "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
@@ -4562,6 +4542,26 @@
         {
           "user": "cripiechuccles",
           "msg": "lets gooo"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "nadietv",
+          "msg": "stream crashed"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -4570,7 +4570,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "❤️Stumble monday with the bois!❤️ — Stumble Guys",
+      "streamTitle": "❤️Stumble monday with the bois!❤️ — Dota 2",
       "profile": "We’re a chill gaming community loving Stumble Guys, Path of Exile 2, and Dota. Expect “Blazeee” vibes, “Will be relax day” shenanigans, and “VOTE ALERT!!” celebrations. Chat loves “6969”, “METAL!”, “Castigo castigo”, “haslo de nuevo”, “Let’s gooooo”, “Theroan mode cat!”, “pull a roshi”, and “drained” moments. We cherish gifted subs, generous votes, and “hard reset” humor, celebrating every resub and vote with hype.",
       "_profileAtCount": 4743,
       "gameOverride": "",
@@ -4631,8 +4631,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "⏳VoteSubathon⌛❤️Starting with recording @vRoshi55 's request❤️ — Dota 2",
-      "lastStreamEndedAt": 1787476778136
+      "lastStreamInfo": "❤️Stumble monday with the bois!❤️ — Stumble Guys",
+      "lastStreamEndedAt": 1787620505916
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -4641,7 +4641,7 @@
         "totalVotes": 6237,
         "totalSubs": 69,
         "totalChatMessages": 522,
-        "totalStreamMinutes": 11264,
+        "totalStreamMinutes": 11284,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -6237,7 +6237,7 @@
       "followed": true,
       "streamTitle": "",
       "profile": "Bidloperv’s chill crew lives for heavy riffs, good vibes, and epic “Bidlo Wheel” moments. We rock Tony Hawk soundtrack jams, growling songs, and “Guitar and Chill” sessions with “love fest” vibes. Shout “GET OUTTA TOWN” and “LET’S GOOO” in the BidloZone, celebrate “100 votes” milestones, raid excitement, and “Bidlo lore” on Lore Tuesday. We love “Bidlo Silverhand” moments and reply with !pick and “Bidlo emote”.",
-      "_profileAtCount": 8533,
+      "_profileAtCount": 8816,
       "gameOverride": "",
       "loyalty": {
         "mindgoblin": {
@@ -8821,7 +8821,7 @@
       "stats": {
         "totalVotes": 8487,
         "totalSubs": 0,
-        "totalChatMessages": 10585,
+        "totalChatMessages": 10587,
         "totalStreamMinutes": 6757,
         "emotes": {
           "❤": 25,
@@ -9058,13 +9058,9 @@
           "🚨": "🚨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787613069938
+        "lastChatAt": 1787620429138
       },
       "chatMemory": [
-        {
-          "user": "brunoseven",
-          "msg": "boa noite a todos"
-        },
         {
           "user": "botger",
           "msg": "🎉 brunoseven just reached Level 3! ⚡ (3,641 XP)"
@@ -9100,6 +9096,10 @@
         {
           "user": "botger",
           "msg": "🪙 @solucao 1,600 points."
+        },
+        {
+          "user": "botger",
+          "msg": "Thank you for redeeming JOGA SEU JOGO 2H @mauhzera!"
         }
       ],
       "customCommands": {},
@@ -11355,8 +11355,8 @@
       "stats": {
         "totalVotes": 1007,
         "totalSubs": 0,
-        "totalChatMessages": 499,
-        "totalStreamMinutes": 1125,
+        "totalChatMessages": 505,
+        "totalStreamMinutes": 1145,
         "emotes": {
           "👋": 13,
           "⚠": 2,
@@ -11450,25 +11450,9 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787619454940
+        "lastChatAt": 1787620925994
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 100 votes, @bidloperv!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @bidloperv just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/d92e43c0e83f9c4e35bb246b48596de1b296a73a3043db3d5d2be39bdec571b1"
@@ -11492,6 +11476,22 @@
         {
           "user": "onyxouroboros",
           "msg": "mystery fish again, nice"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/103aeeab0f5b5e497f3f994d5d09c7443592c571acd1f4e02b539893c1a0f5ae"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "mystery fish promo pack nice"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/b075e660fbcb697d42f9b546425445504e47a8b211932e476130e16e7cdd5564"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "Mystery Fish Promo Pack, yay"
         }
       ],
       "customCommands": {
@@ -11745,8 +11745,8 @@
       "stats": {
         "totalVotes": 288,
         "totalSubs": 0,
-        "totalChatMessages": 16,
-        "totalStreamMinutes": 132,
+        "totalChatMessages": 29,
+        "totalStreamMinutes": 152,
         "emotes": {
           "✌": 1,
           "🔥": 1,
@@ -11766,48 +11766,48 @@
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787618606433
+        "lastChatAt": 1787621271406
       },
       "chatMemory": [
         {
-          "user": "anonamoose",
-          "msg": "Sup dog. Gaming streaming platforms starting to feel like Movie platforms."
+          "user": "octo",
+          "msg": "wandered around a lot lol"
         },
         {
-          "user": "anonamoose",
-          "msg": "with all the different ones hehe."
+          "user": "octo",
+          "msg": "yup thats the one"
         },
         {
-          "user": "anonamoose",
-          "msg": "Netflix used to be the top, now it's pretty bad."
+          "user": "octo",
+          "msg": "requiem, yea lol"
         },
         {
-          "user": "anonamoose",
-          "msg": "That's cool. I'm all for competition and choice."
+          "user": "octo",
+          "msg": "lmao all good, hard to play and read at the same time"
         },
         {
-          "user": "anonamoose",
-          "msg": "OH yeah, with the epic follows and subs. That was amazing."
+          "user": "octo",
+          "msg": "wym community games?"
         },
         {
-          "user": "avisi",
-          "msg": "Good to see you ✌️🔥👍"
+          "user": "timdraws",
+          "msg": "love this game"
         },
         {
-          "user": "avisi",
-          "msg": "I appreciate that! Support the word and the mission."
+          "user": "timdraws",
+          "msg": "looking forward to division 3"
         },
         {
-          "user": "niruntz",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+          "user": "timdraws",
+          "msg": "ye division 2 graphics is amazing"
         },
         {
-          "user": "vroshi55",
-          "msg": "Stream surfing and dropping Votes!"
+          "user": "timdraws",
+          "msg": "but i stopped playing because the grind wasnt fun after 100hrs"
         },
         {
-          "user": "vroshi55",
-          "msg": "BLAZE ON! [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:8abbb6f5-e697-4e18-9c04-77de7fa6e1f6]"
+          "user": "timdraws",
+          "msg": "6-7 months ago"
         }
       ],
       "customCommands": {
@@ -12315,9 +12315,9 @@
       "n": 13
     },
     "angge_wf": {
-      "note": "Playful, enthusiastic gamer who loves Stumble Guys, frequently greets with “gm,” shares emojis, and bursts into laughter with long “HAHA” bursts.",
-      "at": 1787455429447,
-      "n": 7
+      "note": "Playful gamer who loves Stumble Guys, greets with “gm,” uses emojis, and bursts into long “HAHA” laughs.",
+      "at": 1787620756157,
+      "n": 8
     },
     "pillow": {
       "note": "Enthusiastic gamer who loves GTA, Vice City, and RDR2, jokes loudly, and enjoys CryptoKings music.",
