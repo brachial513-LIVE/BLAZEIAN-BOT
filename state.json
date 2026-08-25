@@ -4697,7 +4697,7 @@
         "totalVotes": 6239,
         "totalSubs": 69,
         "totalChatMessages": 529,
-        "totalStreamMinutes": 11560,
+        "totalStreamMinutes": 11565,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -4930,7 +4930,7 @@
         "totalVotes": 9362,
         "totalSubs": 38,
         "totalChatMessages": 1167,
-        "totalStreamMinutes": 4528,
+        "totalStreamMinutes": 4533,
         "emotes": {
           "❤": 56,
           "🙌": 57,
@@ -6344,7 +6344,7 @@
         "totalVotes": 3936,
         "totalSubs": 24,
         "totalChatMessages": 1293,
-        "totalStreamMinutes": 8840,
+        "totalStreamMinutes": 8845,
         "emotes": {
           "🔥": 367,
           "🔴": 130,
@@ -8917,7 +8917,7 @@
         "totalVotes": 8489,
         "totalSubs": 0,
         "totalChatMessages": 10590,
-        "totalStreamMinutes": 6812,
+        "totalStreamMinutes": 6817,
         "emotes": {
           "❤": 25,
           "🙌": 19,
@@ -11464,8 +11464,8 @@
       "stats": {
         "totalVotes": 1009,
         "totalSubs": 1,
-        "totalChatMessages": 566,
-        "totalStreamMinutes": 1416,
+        "totalChatMessages": 569,
+        "totalStreamMinutes": 1421,
         "emotes": {
           "👋": 16,
           "⚠": 2,
@@ -11575,17 +11575,9 @@
           "🎁": "🎁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787699157581
+        "lastChatAt": 1787699907159
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "scurvybot",
           "msg": "@inn gifted a Sub to @ScurvyBot! Thank you!"
@@ -11617,6 +11609,14 @@
         {
           "user": "onyxouroboros",
           "msg": "Mystery Fish yay"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/7acc491cdb80971df3bf1d8e695f8d47fe780985bec8fbdbbd2cec8962524211"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "got another credit for recycling more trash"
         }
       ],
       "customCommands": {
@@ -11803,15 +11803,16 @@
       "stats": {
         "totalVotes": 390,
         "totalSubs": 2,
-        "totalChatMessages": 37,
-        "totalStreamMinutes": 58,
+        "totalChatMessages": 39,
+        "totalStreamMinutes": 63,
         "emotes": {
           "🥰": 3,
           "❤": 5,
           "🙏": 2,
           "🦡": 3,
-          "😍": 1,
-          "😊": 1
+          "😍": 2,
+          "😊": 1,
+          "😂": 2
         },
         "emoteNames": {
           "🥰": "🥰",
@@ -11819,20 +11820,13 @@
           "🙏": "🙏",
           "🦡": "🦡",
           "😍": "😍",
-          "😊": "😊"
+          "😊": "😊",
+          "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787699491631
+        "lastChatAt": 1787699869786
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "Wow cool"
-        },
-        {
-          "user": "mediart",
-          "msg": "Hi @triz_draw , thank you"
-        },
         {
           "user": "triz_draw",
           "msg": "Badger 🦡🦡🦡"
@@ -11864,6 +11858,14 @@
         {
           "user": "badger",
           "msg": "yay let's see!"
+        },
+        {
+          "user": "badger",
+          "msg": "haha CG has a badger pic on his desk!! 😂"
+        },
+        {
+          "user": "mediart",
+          "msg": "Yes😂😍"
         }
       ],
       "customCommands": {},
@@ -12173,9 +12175,9 @@
       "n": 2
     },
     "xeukuxaixang": {
-      "note": "A playful gamer who loves League of Legends, Honor of Kings, Tokyo Ghoul, Digimon, and frequently uses emojis and jokes in chat.",
-      "at": 1787434969328,
-      "n": 24
+      "note": "Playful gamer who loves League of Legends, Honor of Kings, Tokyo Ghoul, Digimon, and frequently uses emojis and jokes in chat.",
+      "at": 1787699956217,
+      "n": 25
     },
     "tenshi": {
       "note": "Enjoys playing MOBAs, shares upbeat music links, uses playful emotes, and keeps a light, humorous tone to keep chats lively.",
@@ -12832,8 +12834,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787690736538,
   "auth": {
-    "accessToken": "2eba4b080aa124c78f312c83ca114480",
-    "refreshToken": "9611ea4ac3af8f2ad0e83309024d2ef7",
+    "accessToken": "557082f73448c76b8f3ac3fb9ffbc205",
+    "refreshToken": "2fc28b4741a3587d3e04ab715685a795",
     "sessionToken": "dff1f4c42fc13a8507620aa881934628",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
