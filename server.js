@@ -17,6 +17,12 @@ const CLIENT_SECRET  = process.env.BLAZE_CLIENT_SECRET;
 const REDIRECT_URI   = "https://blazeian-bot.onrender.com/callback";
 const SELF_URL       = process.env.SELF_URL || "https://blazeian-bot.onrender.com";
 const ADMIN_KEY      = process.env.ADMIN_KEY || "";
+// Raid-alert media pickers (optional) — set these in Render to enable the in-dashboard GIF & sound
+// browsers. KLIPY = GIF search (get a free key at klipy.com/developers). FREESOUND = sound search
+// (free token at freesound.org, Creative Commons audio). Keys stay server-side; the browser only ever
+// talks to our own /api/klipy/search & /api/freesound/search proxies, never to the providers directly.
+const KLIPY_API_KEY     = process.env.KLIPY_API_KEY || "";
+const FREESOUND_API_KEY = process.env.FREESOUND_API_KEY || "";
 const crypto         = require("crypto");
 // AI brain (optional) — set GROQ_API_KEY in Render to switch the bot from canned replies to a real, contextual brain
 const AI_KEY         = process.env.GROQ_API_KEY || process.env.AI_API_KEY || "";
@@ -3080,12 +3086,179 @@ function renderOverlaySection(username) {
     🪑 <b>Chill mode:</b> he occasionally sits on a little stool at the edge and watches the stream with you 👀 — <code>?sit=0</code> turns that off. · 🕺 Little dances included — <code>?dance=0</code> turns them off. · 🎀 <code>?female=1</code> adds a bow on his head (color follows the theme).</p>
     <label style="margin-top:14px;">🎊 Raid Alert — clean banner + sound when someone raids you</label>
     <input readonly onclick="this.select()" value="${esc(raidUrl)}">
-    <p class="hint">A clean raid alert on top of your stream (Sound-Alerts style): when someone raids you, a banner drops in reading "<b>&lt;Raider&gt; hat deinen Kanal mit &lt;N&gt; Zuschauern geraided!</b>" with a hype sound and light confetti — on TOP of the chat welcome Blazeian already posts. OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. Tune: <code>?dur=8</code> (seconds shown) · <code>?sound=0</code> mutes it · <code>?confetti=0</code> turns confetti off · <code>?audio=URL</code> plays YOUR own sound/song file instead of the built-in fanfare · <code>?gif=URL</code> adds a custom GIF/avatar under the text · <code>?label=RAID</code> changes the little badge word · <code>?test=1</code> fires a demo loop so you can place it in OBS.</p>
+    <p class="hint">Paste this ONE URL into OBS (Browser Source, <b>1920×1080</b>) — it never changes. Everything below is set right here in the dashboard and applies automatically. Banner reads "<b>&lt;Raider&gt; hat deinen Kanal mit &lt;N&gt; Zuschauern geraided!</b>". Add <code>?test=1</code> to the URL to place it in OBS.</p>
+    ${renderRaidPanel(username)}
     ${showSeagull ? `
     <label style="margin-top:14px;">🦅 CaptainRob's Seagull-Blazeian — flies across the top &amp; makes a portal entrance</label>
     <input readonly onclick="this.select()" value="${esc(seagullUrl)}">
     <p class="hint">A custom flying seagull mascot (mecha-chibi captain seagull) commissioned for <b>Captain Rob</b> — it flaps across the top of the stream and makes a "Blazeian transforms into the seagull" portal entrance on load. OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. Tune: <code>?size=200&amp;speed=140&amp;flapfps=9&amp;top=6</code> (size = px height, speed = px/s, flapfps = wing-beat tempo, top = % from top). <code>?intro=0</code> skips the portal entrance · <code>?logo=0</code> = portal without the Blaze-B · <code>?dir=left</code> starts leftward.</p>` : ``}
   </div>`;
+}
+
+// Sound-Alerts-style raid config panel for the streamer dashboard: pick a GIF (Klipy) and a sound
+// (Freesound) with live search, or paste any URL (e.g. a Myinstants meme MP3), tune duration/label,
+// save (persisted per channel), and Test straight into an OBS-ready preview tab. Talks only to our own
+// /api/klipy/search & /api/freesound/search proxies — provider keys never reach the browser.
+function renderRaidPanel(username) {
+  const cid = findChannelByUsername(username);
+  const cfg = (cid && channels[cid] && channels[cid].raidConfig) || {};
+  const gif = cfg.gif || "";
+  const audio = cfg.audio || "";
+  const credit = cfg.audioCredit || "";
+  const label = cfg.label || "RAID";
+  const dur = Number(cfg.dur) || 8;
+  const soundChecked = (cfg.sound !== false) ? "checked" : "";
+  const confChecked = (cfg.confetti !== false) ? "checked" : "";
+  return `
+  <div id="raidcfg" class="rc-wrap">
+    <style>
+      .rc-wrap{margin-top:12px;border:1px solid rgba(92,244,114,.25);border-radius:12px;padding:14px;background:rgba(10,22,12,.35);}
+      .rc-tabs{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap;}
+      .rc-tab{cursor:pointer;border:1px solid rgba(92,244,114,.35);background:rgba(20,40,22,.5);color:#d7ffe0;font-weight:700;padding:7px 14px;border-radius:999px;font-size:14px;}
+      .rc-tab.on{background:linear-gradient(135deg,#7CFC9A,#33c363);color:#06210e;border-color:transparent;}
+      .rc-pane{display:none;} .rc-pane.on{display:block;}
+      .rc-row{display:flex;gap:8px;margin-bottom:8px;} .rc-row input{flex:1;}
+      .rc-btn{cursor:pointer;border:none;border-radius:9px;padding:9px 15px;font-weight:800;background:linear-gradient(135deg,#7CFC9A,#33c363);color:#06210e;}
+      .rc-btn.alt{background:#2a2f36;color:#e8f7ec;}
+      .rc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px;max-height:280px;overflow:auto;margin:6px 0;}
+      .rc-cell{cursor:pointer;border:2px solid transparent;border-radius:10px;overflow:hidden;background:#0c1a0e;padding:0;aspect-ratio:1/1;}
+      .rc-cell img{width:100%;height:100%;object-fit:cover;display:block;}
+      .rc-cell.sel{border-color:#ffd23f;}
+      .rc-list{max-height:300px;overflow:auto;margin:6px 0;display:flex;flex-direction:column;gap:6px;}
+      .rc-snd{display:flex;align-items:center;gap:10px;background:rgba(20,40,22,.4);border:1px solid rgba(92,244,114,.15);border-radius:9px;padding:7px 10px;}
+      .rc-snd.sel{border-color:#ffd23f;}
+      .rc-snd .t{flex:1;min-width:0;} .rc-snd .t b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px;}
+      .rc-snd .t span{font-size:11px;color:#9fb8a5;}
+      .rc-mini{cursor:pointer;border:none;border-radius:7px;width:34px;height:34px;font-size:15px;background:#1d3a22;color:#7CFC9A;}
+      .rc-note{font-size:12px;color:#e8b94a;margin:4px 0 8px;}
+      .rc-prev{margin-top:6px;font-size:12px;color:#9fb8a5;word-break:break-all;}
+      .rc-prev img{max-height:70px;border-radius:8px;display:block;margin-top:4px;}
+      .rc-grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+      #raidcfg label{margin-top:8px;}
+    </style>
+    <form method="POST" action="/dashboard/setraid" id="rc-form">
+      <div class="rc-tabs">
+        <span class="rc-tab on" data-tab="gif">🎞️ GIF</span>
+        <span class="rc-tab" data-tab="snd">🔊 Sound</span>
+        <span class="rc-tab" data-tab="more">⚙️ Mehr</span>
+      </div>
+
+      <div class="rc-pane on" data-pane="gif">
+        <div class="rc-row"><input id="rc-gifq" placeholder="GIF suchen (z.B. raid, hype, welcome)…"><button type="button" class="rc-btn" id="rc-gifgo">Suchen</button></div>
+        <div class="rc-note" id="rc-gifnote"></div>
+        <div class="rc-grid" id="rc-gifgrid"></div>
+        <label>… oder GIF-URL direkt einfügen (auch von Klipy im Browser kopiert)</label>
+        <input name="gif" id="rc-gifurl" placeholder="https://…/etwas.gif" value="${esc(gif)}">
+        <div class="rc-prev" id="rc-gifprev"></div>
+      </div>
+
+      <div class="rc-pane" data-pane="snd">
+        <div class="rc-row"><input id="rc-sndq" placeholder="Sound suchen (z.B. airhorn, fanfare, boom)…"><button type="button" class="rc-btn" id="rc-sndgo">Suchen</button></div>
+        <div class="rc-note" id="rc-sndnote"></div>
+        <div class="rc-list" id="rc-sndlist"></div>
+        <label>… oder Sound-URL (MP3) direkt einfügen — z.B. eine Myinstants-Meme-URL</label>
+        <input name="audio" id="rc-sndurl" placeholder="https://…/sound.mp3" value="${esc(audio)}">
+        <input type="hidden" name="audioCredit" id="rc-credit" value="${esc(credit)}">
+        <div class="rc-prev" id="rc-sndprev"></div>
+      </div>
+
+      <div class="rc-pane" data-pane="more">
+        <div class="rc-grid2">
+          <div><label>Anzeigedauer (Sek.)</label><input type="number" name="dur" id="rc-dur" min="3" max="30" value="${dur}"></div>
+          <div><label>Badge-Text</label><input name="label" id="rc-label" maxlength="24" value="${esc(label)}"></div>
+        </div>
+        <label style="display:block;margin-top:10px;"><input type="checkbox" name="sound" value="1" ${soundChecked}> 🔊 Sound abspielen (aus = stumm, nur Banner)</label>
+        <label style="display:block;margin-top:4px;"><input type="checkbox" name="confetti" value="1" ${confChecked}> 🎊 Konfetti anzeigen</label>
+      </div>
+
+      <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;">
+        <button type="submit" class="rc-btn">💾 Speichern</button>
+        <button type="button" class="rc-btn alt" id="rc-test">▶️ Test-Vorschau öffnen</button>
+        <audio id="rc-audio" style="display:none;"></audio>
+      </div>
+    </form>
+  </div>
+  <script>
+  (function(){
+    var USER=${JSON.stringify(username)};
+    var root=document.getElementById('raidcfg'); if(!root||root.dataset.init) return; root.dataset.init='1';
+    function $(id){return document.getElementById(id);}
+    // tabs
+    root.querySelectorAll('.rc-tab').forEach(function(t){ t.addEventListener('click',function(){
+      root.querySelectorAll('.rc-tab').forEach(function(x){x.classList.remove('on');}); t.classList.add('on');
+      root.querySelectorAll('.rc-pane').forEach(function(p){ p.classList.toggle('on', p.getAttribute('data-pane')===t.getAttribute('data-tab')); });
+    });});
+    // gif preview
+    var gifurl=$('rc-gifurl'), gifprev=$('rc-gifprev');
+    function showGif(){ var u=gifurl.value.trim(); if(u){ gifprev.innerHTML=''; var im=new Image(); im.src=u; gifprev.appendChild(im);} else gifprev.innerHTML=''; }
+    gifurl.addEventListener('input',showGif); showGif();
+    // gif search
+    $('rc-gifgo').addEventListener('click',function(){ doGif(); });
+    $('rc-gifq').addEventListener('keydown',function(e){ if(e.key==='Enter'){e.preventDefault(); doGif();} });
+    function doGif(){
+      var note=$('rc-gifnote'), grid=$('rc-gifgrid'); note.textContent='Suche…'; grid.innerHTML='';
+      fetch('/api/klipy/search?q='+encodeURIComponent($('rc-gifq').value.trim())).then(function(r){return r.json();}).then(function(d){
+        if(d.error==='nokey'){ note.innerHTML='⚠️ Kein Klipy-API-Key gesetzt. Hol dir einen gratis bei <b>klipy.com/developers</b>, dann trägt Brachial ihn als <code>KLIPY_API_KEY</code> in Render ein. Solange kannst du GIF-URLs unten manuell einfügen.'; return; }
+        if(d.error){ note.textContent='Fehler bei der GIF-Suche ('+(d.detail||d.error)+'). URL unten geht immer.'; return; }
+        note.textContent = d.items.length? '' : 'Nichts gefunden — anderen Begriff probieren.';
+        d.items.forEach(function(it){
+          var b=document.createElement('button'); b.type='button'; b.className='rc-cell';
+          var im=new Image(); im.loading='lazy'; im.src=it.preview||it.gif; b.appendChild(im);
+          b.addEventListener('click',function(){
+            grid.querySelectorAll('.rc-cell').forEach(function(c){c.classList.remove('sel');}); b.classList.add('sel');
+            gifurl.value=it.gif; showGif();
+          });
+          grid.appendChild(b);
+        });
+      }).catch(function(){ note.textContent='Netzwerkfehler. URL unten geht immer.'; });
+    }
+    // sound preview
+    var sndurl=$('rc-sndurl'), credit=$('rc-credit'), sndprev=$('rc-sndprev'), au=$('rc-audio');
+    function showSnd(){ var u=sndurl.value.trim(); sndprev.textContent=u?('🔊 '+u):''; }
+    sndurl.addEventListener('input',function(){ credit.value=''; showSnd(); }); showSnd();
+    // sound search
+    $('rc-sndgo').addEventListener('click',function(){ doSnd(); });
+    $('rc-sndq').addEventListener('keydown',function(e){ if(e.key==='Enter'){e.preventDefault(); doSnd();} });
+    function doSnd(){
+      var note=$('rc-sndnote'), list=$('rc-sndlist'); note.textContent='Suche…'; list.innerHTML='';
+      fetch('/api/freesound/search?q='+encodeURIComponent($('rc-sndq').value.trim())).then(function(r){return r.json();}).then(function(d){
+        if(d.error==='nokey'){ note.innerHTML='⚠️ Kein Freesound-Token gesetzt. Hol dir einen gratis bei <b>freesound.org</b> (API-Key), dann trägt Brachial ihn als <code>FREESOUND_API_KEY</code> in Render ein. Solange kannst du MP3-URLs unten manuell einfügen (z.B. von Myinstants).'; return; }
+        if(d.error){ note.textContent='Fehler bei der Sound-Suche ('+(d.detail||d.error)+'). URL unten geht immer.'; return; }
+        note.textContent = d.items.length? 'Vorschau ▶ · „Wählen" setzt den Sound. CC-BY-Sounds zeigen automatisch eine kleine Credit-Zeile.' : 'Nichts gefunden — anderen Begriff probieren.';
+        d.items.forEach(function(it){
+          var row=document.createElement('div'); row.className='rc-snd';
+          var play=document.createElement('button'); play.type='button'; play.className='rc-mini'; play.textContent='▶';
+          play.addEventListener('click',function(){ try{ au.src=it.mp3; au.play(); }catch(e){} });
+          var t=document.createElement('div'); t.className='t';
+          var nm=document.createElement('b'); nm.textContent=it.title;
+          var meta=document.createElement('span'); meta.textContent=(it.author?('von '+it.author):'')+(it.license?(' · '+it.license):'');
+          t.appendChild(nm); t.appendChild(meta);
+          var ch=document.createElement('button'); ch.type='button'; ch.className='rc-btn alt'; ch.style.padding='6px 12px'; ch.textContent='Wählen';
+          ch.addEventListener('click',function(){
+            list.querySelectorAll('.rc-snd').forEach(function(c){c.classList.remove('sel');}); row.classList.add('sel');
+            sndurl.value=it.mp3;
+            var isCC0 = /(^|\\b)(cc0|creative commons 0|zero)/i.test(it.license||'');
+            credit.value = isCC0 ? '' : ((it.title||'Sound')+(it.author?(' — '+it.author):'')+' (Freesound'+(it.license?(', '+it.license):'')+')').slice(0,120);
+            showSnd();
+          });
+          row.appendChild(play); row.appendChild(t); row.appendChild(ch); list.appendChild(row);
+        });
+      }).catch(function(){ note.textContent='Netzwerkfehler. URL unten geht immer.'; });
+    }
+    // test preview — build the overlay URL from the CURRENT (unsaved) values
+    $('rc-test').addEventListener('click',function(){
+      var p=new URLSearchParams(); p.set('test','1');
+      if(gifurl.value.trim()) p.set('gif',gifurl.value.trim());
+      if(sndurl.value.trim()) p.set('audio',sndurl.value.trim());
+      if(credit.value.trim()) p.set('credit',credit.value.trim());
+      p.set('label',($('rc-label').value||'RAID').trim());
+      p.set('dur',$('rc-dur').value||'8');
+      p.set('sound', root.querySelector('[name=sound]').checked?'1':'0');
+      p.set('confetti', root.querySelector('[name=confetti]').checked?'1':'0');
+      window.open('/overlay/raid/'+encodeURIComponent(USER)+'?'+p.toString(),'_blank');
+    });
+  })();
+  </script>`;
 }
 
 // OWNER control-center: live status + one-click actions (uses the admin cookie, so no need to type the key).
@@ -4153,6 +4326,96 @@ app.post("/dashboard/setstream", async (req, res) => {
   res.redirect("/dashboard");
 });
 
+// Save the streamer's raid-alert media/config (GIF, sound, duration, label…). Persisted per channel,
+// so the OBS overlay URL stays constant and the /overlay/raid route picks these up as its defaults.
+app.post("/dashboard/setraid", async (req, res) => {
+  const channelId = dashboardChannelId(req);
+  if (!channelId) return res.status(403).send("Not logged in. <a href='/dashboard'>Login</a>");
+  const b = req.body || {};
+  const clean = (v, max) => (v == null ? "" : String(v)).trim().slice(0, max);
+  const dur = Math.max(3, Math.min(30, parseFloat(b.dur) || 8));
+  channels[channelId].raidConfig = {
+    gif: clean(b.gif, 500),
+    audio: clean(b.audio, 500),
+    audioCredit: clean(b.audioCredit, 120),
+    label: clean(b.label, 24) || "RAID",
+    dur,
+    sound: b.sound != null,        // unchecked checkbox isn't sent → sound off
+    confetti: b.confetti != null   // same convention for confetti
+  };
+  await saveChannelsToCloud();
+  res.redirect("/dashboard#raidcfg");
+});
+
+// Defensively pull a usable GIF + thumbnail URL out of a KLIPY result item. KLIPY's exact JSON nesting
+// isn't fully public, so we probe the likely size/type paths rather than hard-coding one that may change.
+function pickKlipyItem(it) {
+  const f = (it && (it.file || it.files)) || {};
+  const at = (size, type) => (f && f[size] && f[size][type] && f[size][type].url) || null;
+  const sizes = ["md", "sm", "hd", "lg", "xs", "o", "original"];
+  const types = ["gif", "webp"];
+  let gif = null, preview = null;
+  for (const s of sizes) for (const t of types) { if (!gif) gif = at(s, t); }
+  for (const s of ["xs", "sm", "md", "hd"]) for (const t of types) { if (!preview) preview = at(s, t); }
+  gif = gif || it.url || it.gif || (it.images && it.images.original && it.images.original.url) || null;
+  preview = preview || gif;
+  return { gif, preview, title: (it && (it.title || it.slug)) || "" };
+}
+
+// GIF search proxy (KLIPY). Session-gated so the API quota can't be burned by anonymous callers, and
+// the key never reaches the browser. Returns a normalized {items:[{gif,preview,title}]} shape.
+app.get("/api/klipy/search", async (req, res) => {
+  const cid = dashboardChannelId(req);
+  if (!cid) return res.status(403).json({ error: "auth", items: [] });
+  if (!KLIPY_API_KEY) return res.json({ error: "nokey", items: [] });
+  const qy = (req.query.q || "").toString().slice(0, 80);
+  const page = Math.max(1, parseInt(req.query.page, 10) || 1);
+  try {
+    const url = `https://api.klipy.com/api/v1/${encodeURIComponent(KLIPY_API_KEY)}/gifs/${qy ? "search" : "trending"}`;
+    const params = { per_page: 24, page, customer_id: cid };
+    if (qy) params.q = qy;
+    const r = await axios.get(url, { params, timeout: 9000 });
+    const box = (r.data && r.data.data) || {};
+    const raw = Array.isArray(box.data) ? box.data : (Array.isArray(box) ? box : []);
+    const items = raw.map(pickKlipyItem).filter(x => x.gif);
+    res.json({ items, hasNext: !!box.has_next });
+  } catch (e) {
+    res.json({ error: "fetch", detail: (e.response && e.response.status) || e.message, items: [] });
+  }
+});
+
+// Sound search proxy (Freesound). Preview MP3s don't need OAuth, only the token. CC-BY sounds carry an
+// author/license the overlay must credit — we hand those back so the picker can store a credit line.
+app.get("/api/freesound/search", async (req, res) => {
+  const cid = dashboardChannelId(req);
+  if (!cid) return res.status(403).json({ error: "auth", items: [] });
+  if (!FREESOUND_API_KEY) return res.json({ error: "nokey", items: [] });
+  const qy = (req.query.q || "").toString().slice(0, 80);
+  const page = Math.max(1, parseInt(req.query.page, 10) || 1);
+  try {
+    const r = await axios.get("https://freesound.org/apiv2/search/text/", {
+      params: {
+        query: qy || "raid alert hype",
+        page, page_size: 24,
+        fields: "id,name,previews,username,license",
+        filter: "duration:[0.5 TO 20]",
+        token: FREESOUND_API_KEY
+      },
+      timeout: 9000
+    });
+    const raw = (r.data && r.data.results) || [];
+    const items = raw.map(s => ({
+      mp3: (s.previews && (s.previews["preview-hq-mp3"] || s.previews["preview-lq-mp3"])) || null,
+      title: s.name || "sound",
+      author: s.username || "",
+      license: s.license || ""
+    })).filter(x => x.mp3);
+    res.json({ items, hasNext: !!(r.data && r.data.next) });
+  } catch (e) {
+    res.json({ error: "fetch", detail: (e.response && e.response.status) || e.message, items: [] });
+  }
+});
+
 // =============================================
 // OWNER ADMIN PANEL (password protected — controls ALL channels)
 // =============================================
@@ -5015,12 +5278,17 @@ app.get("/api/raid/:username", (req, res) => {
 // sound/song file to use that instead. ?gif=URL adds a custom GIF/avatar under the text.
 app.get("/overlay/raid/:username", (req, res) => {
   const clamp = (v, lo, hi, def) => { const n = parseFloat(v); return Number.isFinite(n) ? Math.max(lo, Math.min(hi, n)) : def; };
-  const dur = clamp(req.query.dur, 3, 30, 8);
-  const soundOn = req.query.sound !== "0";
-  const confettiOn = req.query.confetti !== "0";
-  const audioUrl = (req.query.audio || "").toString();
-  const gifUrl = (req.query.gif || "").toString();
-  const label = (req.query.label || "RAID").toString().slice(0, 24);
+  // Saved dashboard config is the default; a URL query param, when present, still overrides it.
+  const cid = findChannelByUsername(req.params.username);
+  const cfg = (cid && channels[cid] && channels[cid].raidConfig) || {};
+  const q = req.query;
+  const dur = clamp(q.dur, 3, 30, Number(cfg.dur) || 8);
+  const soundOn = q.sound != null ? q.sound !== "0" : (cfg.sound !== false);
+  const confettiOn = q.confetti != null ? q.confetti !== "0" : (cfg.confetti !== false);
+  const audioUrl = (q.audio != null ? q.audio : (cfg.audio || "")).toString();
+  const gifUrl = (q.gif != null ? q.gif : (cfg.gif || "")).toString();
+  const label = (q.label != null ? q.label : (cfg.label || "RAID")).toString().slice(0, 24);
+  const credit = (q.credit != null ? q.credit : (cfg.audioCredit || "")).toString().slice(0, 120);
   const testMode = req.query.test === "1" || req.query.test === "true";
   res.set("Content-Type", "text/html");
   res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Raid Alert</title>
@@ -5037,18 +5305,21 @@ app.get("/overlay/raid/:username", (req, res) => {
   .line b{color:#4ade80;text-shadow:0 0 16px rgba(74,222,128,.9);}
   .line b.num{color:#ffd23f;text-shadow:0 0 16px rgba(255,210,63,.8);}
   .gif{max-width:38vw;max-height:26vh;margin-top:18px;border-radius:14px;box-shadow:0 0 24px rgba(74,222,128,.5);display:none;}
+  .credit{margin-top:10px;font-size:clamp(10px,1vw,13px);font-weight:600;color:rgba(255,255,255,.6);text-shadow:0 1px 2px #000;display:none;}
   .confetti{position:fixed;top:-20px;width:12px;height:12px;border-radius:2px;pointer-events:none;}
 </style></head><body>
 <div id="alert"><div class="banner">
   <div class="eyebrow" id="eyebrow"></div>
   <div class="line" id="line"></div>
   <img class="gif" id="gif" alt="">
+  <div class="credit" id="credit"></div>
 </div></div>
 <script>
   var USER=${JSON.stringify(req.params.username)};
-  var DUR=${dur}, SOUND=${soundOn ? 1 : 0}, CONFETTI=${confettiOn ? 1 : 0}, AUDIO=${JSON.stringify(audioUrl)}, GIF=${JSON.stringify(gifUrl)}, LABEL=${JSON.stringify(label)};
-  var alertEl=document.getElementById('alert'), eyebrow=document.getElementById('eyebrow'), line=document.getElementById('line'), gifEl=document.getElementById('gif');
+  var DUR=${dur}, SOUND=${soundOn ? 1 : 0}, CONFETTI=${confettiOn ? 1 : 0}, AUDIO=${JSON.stringify(audioUrl)}, GIF=${JSON.stringify(gifUrl)}, LABEL=${JSON.stringify(label)}, CREDIT=${JSON.stringify(credit)};
+  var alertEl=document.getElementById('alert'), eyebrow=document.getElementById('eyebrow'), line=document.getElementById('line'), gifEl=document.getElementById('gif'), creditEl=document.getElementById('credit');
   eyebrow.textContent=LABEL;
+  if(CREDIT){ creditEl.textContent='🔊 '+CREDIT; creditEl.style.display='block'; }
   var since=0, busy=false, first=true;
   var COLORS=['#4ade80','#ffd23f','#7CFC9A','#ff7a00','#ffffff','#22d3ee'];
   function confetti(){
