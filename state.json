@@ -7014,18 +7014,18 @@
       "language": "en",
       "stats": {
         "totalVotes": 2540,
-        "totalSubs": 10,
-        "totalChatMessages": 394,
+        "totalSubs": 11,
+        "totalChatMessages": 395,
         "totalStreamMinutes": 1497,
         "emotes": {
           "❤": 22,
-          "🙌": 22,
+          "🙌": 23,
           "🗳": 102,
           "🔴": 27,
           "🎉": 28,
           "📴": 26,
           "👋": 28,
-          "🎁": 20,
+          "🎁": 22,
           "🤝": 1,
           "🔥": 10,
           "💚": 1,
@@ -7082,13 +7082,9 @@
           "d5605de6-7f76-42d0-ae9a-f78959fa2fb5": "amaze"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787662510682
+        "lastChatAt": 1787732327436
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Sinnerz just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
@@ -7124,6 +7120,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @0xscheun just gifted a sub to @triz_draw! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -10229,7 +10229,7 @@
         "totalVotes": 386,
         "totalSubs": 11,
         "totalChatMessages": 280,
-        "totalStreamMinutes": 1568,
+        "totalStreamMinutes": 1573,
         "emotes": {
           "❤": 32,
           "🙌": 21,
@@ -11151,7 +11151,7 @@
         "totalVotes": 854,
         "totalSubs": 6,
         "totalChatMessages": 228,
-        "totalStreamMinutes": 1231,
+        "totalStreamMinutes": 1236,
         "emotes": {
           "❤": 17,
           "🙌": 9,
@@ -12812,8 +12812,8 @@
     },
     "mediart": {
       "note": "Mediart loves livestream art, warmly thanks viewers and bots, and often greets with friendly emojis.",
-      "at": 1787649136089,
-      "n": 3
+      "at": 1787732296658,
+      "n": 4
     },
     "henzyzxc": {
       "note": "Enjoys lively, humorous chats about MMORPGs, especially bard characters, and keeps the stream light‑hearted with playful jokes and banter.",
@@ -12890,8 +12890,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787728102015,
   "auth": {
-    "accessToken": "1eae9265fd305da18c2f9a621d003e58",
-    "refreshToken": "d5b0c7b968b9573810a4be2e369bccfc",
+    "accessToken": "eeb2788891a9e1b249e6a9c641f50861",
+    "refreshToken": "c4e9b99215255734810306e960968594",
     "sessionToken": "dff1f4c42fc13a8507620aa881934628",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
