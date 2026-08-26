@@ -1826,6 +1826,12 @@ function pushEmote(channelId, e, isImg) {
   if (recentEmotes[channelId].length > 80) recentEmotes[channelId].shift();
 }
 
+// RAID ALERTS — latest raid per channel, polled by the /overlay/raid "Welcome to my house" alert overlay.
+const raidAlerts = {}; // channelId -> { raider, viewers, ts }
+function pushRaid(channelId, raider, viewers) {
+  raidAlerts[channelId] = { raider: raider || "Someone", viewers: Number(viewers) || 0, ts: Date.now() };
+}
+
 // channelId -> [{user, msg, emotes:[url], ts}] rolling buffer for the OBS CHAT overlay (/overlay/chat).
 // This is the robust, self-hosted replacement for Social Stream Ninja's Blaze capture: SSN scrapes Blaze's
 // web page and breaks on every Blaze redesign, whereas the bot rides Blaze's real event connection, so it
@@ -2765,7 +2771,9 @@ async function handleEvent(message) {
   if (metadata.subscriptionType === "channel.raid" && channelId && channels[channelId]) {
     const ch = channels[channelId];
     const raider = payload.raider?.username || payload.raider?.displayName || "Someone";
+    const raidViewers = payload.viewers || payload.viewerCount || payload.raider?.viewers || payload.raider?.viewerCount || 0;
     setReaction(channelId, "raid", raider);
+    pushRaid(channelId, raider, raidViewers); // fire the "Welcome to my house" raid-alert overlay
     if (shouldCelebrate(ch, channelId)) {
       const ai = await aiShout(ch, `${raider} just RAIDED ${ch.username}'s stream and brought their whole crew! Welcome the raiders with huge hype and heart.`, { addName: raider });
       await sendChatT(channelId, ai || getRandom(getMsg(channelId).raid(raider)));
@@ -3046,6 +3054,7 @@ function renderOverlaySection(username) {
   const viewerUrl = `${SELF_URL}/overlay/viewers/${encodeURIComponent(username)}`;
   const mascotUrl = `${SELF_URL}/overlay/mascot/${encodeURIComponent(username)}`;
   const runUrl    = `${SELF_URL}/overlay/run/${encodeURIComponent(username)}`;
+  const raidUrl   = `${SELF_URL}/overlay/raid/${encodeURIComponent(username)}`;
   const seagullUrl = `${SELF_URL}/overlay/seagull`;
   const showSeagull = SEAGULL_DASH_USERS.includes((username || "").toLowerCase());
   return `
@@ -3069,6 +3078,9 @@ function renderOverlaySection(username) {
     <p class="hint">This is the one most people want — it already includes everything Mascot does (portal-appear + watching) plus real running animation, chill/sit mode and dancing, all in one. OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. He runs across, turns at the edges &amp; pops speech bubbles. Tune: <code>?size=160&amp;speed=120&amp;fps=12&amp;talk=0</code>.<br>
     🎨 <b>Pick a color:</b> add <code>?theme=</code> — <code>green</code> (GMC), <code>blue</code>, <code>cyan</code>, <code>purple</code>, <code>pink</code>, <code>red</code>, <code>gold</code>, or <code>rgb</code> (rainbow 🌈). Example: <code>…/run/NAME?theme=rgb</code><br>
     🪑 <b>Chill mode:</b> he occasionally sits on a little stool at the edge and watches the stream with you 👀 — <code>?sit=0</code> turns that off. · 🕺 Little dances included — <code>?dance=0</code> turns them off. · 🎀 <code>?female=1</code> adds a bow on his head (color follows the theme).</p>
+    <label style="margin-top:14px;">🎊 Raid Alert — clean banner + sound when someone raids you</label>
+    <input readonly onclick="this.select()" value="${esc(raidUrl)}">
+    <p class="hint">A clean raid alert on top of your stream (Sound-Alerts style): when someone raids you, a banner drops in reading "<b>&lt;Raider&gt; hat deinen Kanal mit &lt;N&gt; Zuschauern geraided!</b>" with a hype sound and light confetti — on TOP of the chat welcome Blazeian already posts. OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. Tune: <code>?dur=8</code> (seconds shown) · <code>?sound=0</code> mutes it · <code>?confetti=0</code> turns confetti off · <code>?audio=URL</code> plays YOUR own sound/song file instead of the built-in fanfare · <code>?gif=URL</code> adds a custom GIF/avatar under the text · <code>?label=RAID</code> changes the little badge word · <code>?test=1</code> fires a demo loop so you can place it in OBS.</p>
     ${showSeagull ? `
     <label style="margin-top:14px;">🦅 CaptainRob's Seagull-Blazeian — flies across the top &amp; makes a portal entrance</label>
     <input readonly onclick="this.select()" value="${esc(seagullUrl)}">
@@ -4983,6 +4995,97 @@ app.get("/api/viewers/:username", async (req, res) => {
   // Zwei Quellen kombiniert: die REST-Antwort UND der eigene socket-basierte Live-Tracker (stream.online/offline) —
   // damit der Indikator auch stimmt, wenn eine der beiden Quellen mal ausfaellt (z.B. abgelaufener Token oder Bot-Neustart mitten im Stream).
   res.json({ viewers: d?.viewerCount ?? 0, isLive: !!d?.isLive || isLive(channelId) });
+});
+
+// Raid alert — latest raid for a channel, polled by the /overlay/raid "Welcome to my house" alert.
+// Returns the raid only when it's newer than ?since, so the overlay fires the alert exactly once.
+app.get("/api/raid/:username", (req, res) => {
+  res.set("Access-Control-Allow-Origin", "*");
+  const channelId = findChannelByUsername(req.params.username);
+  const r = channelId && raidAlerts[channelId];
+  const since = Number(req.query.since) || 0;
+  const raid = (r && r.ts > since) ? { raider: r.raider, viewers: r.viewers, ts: r.ts } : null;
+  res.json({ raid, now: Date.now() });
+});
+
+// RAID ALERT overlay — clean Sound-Alerts style. OBS Browser Source, 1920x1080, transparent.
+// When the channel gets raided, a banner drops in naming the raider: "<Raider> hat deinen Kanal
+// mit <N> Zuschauern geraided!" + a hype fanfare (and light confetti). Can't legally bundle a
+// copyrighted song — default sound is a synthesized fanfare; point ?audio=URL at your OWN hosted
+// sound/song file to use that instead. ?gif=URL adds a custom GIF/avatar under the text.
+app.get("/overlay/raid/:username", (req, res) => {
+  const clamp = (v, lo, hi, def) => { const n = parseFloat(v); return Number.isFinite(n) ? Math.max(lo, Math.min(hi, n)) : def; };
+  const dur = clamp(req.query.dur, 3, 30, 8);
+  const soundOn = req.query.sound !== "0";
+  const confettiOn = req.query.confetti !== "0";
+  const audioUrl = (req.query.audio || "").toString();
+  const gifUrl = (req.query.gif || "").toString();
+  const label = (req.query.label || "RAID").toString().slice(0, 24);
+  const testMode = req.query.test === "1" || req.query.test === "true";
+  res.set("Content-Type", "text/html");
+  res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Raid Alert</title>
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:transparent;font-family:'Segoe UI',system-ui,sans-serif;}
+  #alert{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:7vh;opacity:0;pointer-events:none;}
+  #alert.show{animation:pop .6s cubic-bezier(.2,1.3,.4,1) forwards;}
+  #alert.hide{animation:fade .6s ease forwards;}
+  @keyframes pop{0%{opacity:0;transform:translateY(-60px) scale(.7);}100%{opacity:1;transform:translateY(0) scale(1);}}
+  @keyframes fade{to{opacity:0;transform:translateY(-30px) scale(.95);}}
+  .banner{background:linear-gradient(180deg,rgba(10,25,10,.92),rgba(6,16,8,.92));border:3px solid #4ade80;border-radius:20px;padding:26px 48px;text-align:center;box-shadow:0 0 50px rgba(74,222,128,.6),0 10px 40px rgba(0,0,0,.6);max-width:84vw;}
+  .eyebrow{display:inline-block;font-size:clamp(15px,1.6vw,22px);font-weight:900;letter-spacing:3px;color:#0a1a0c;background:#4ade80;padding:4px 16px;border-radius:999px;box-shadow:0 0 18px rgba(74,222,128,.7);}
+  .line{margin-top:16px;font-size:clamp(24px,3.4vw,46px);font-weight:800;color:#fff;line-height:1.15;text-shadow:0 0 12px rgba(74,222,128,.45);}
+  .line b{color:#4ade80;text-shadow:0 0 16px rgba(74,222,128,.9);}
+  .line b.num{color:#ffd23f;text-shadow:0 0 16px rgba(255,210,63,.8);}
+  .gif{max-width:38vw;max-height:26vh;margin-top:18px;border-radius:14px;box-shadow:0 0 24px rgba(74,222,128,.5);display:none;}
+  .confetti{position:fixed;top:-20px;width:12px;height:12px;border-radius:2px;pointer-events:none;}
+</style></head><body>
+<div id="alert"><div class="banner">
+  <div class="eyebrow" id="eyebrow"></div>
+  <div class="line" id="line"></div>
+  <img class="gif" id="gif" alt="">
+</div></div>
+<script>
+  var USER=${JSON.stringify(req.params.username)};
+  var DUR=${dur}, SOUND=${soundOn ? 1 : 0}, CONFETTI=${confettiOn ? 1 : 0}, AUDIO=${JSON.stringify(audioUrl)}, GIF=${JSON.stringify(gifUrl)}, LABEL=${JSON.stringify(label)};
+  var alertEl=document.getElementById('alert'), eyebrow=document.getElementById('eyebrow'), line=document.getElementById('line'), gifEl=document.getElementById('gif');
+  eyebrow.textContent=LABEL;
+  var since=0, busy=false, first=true;
+  var COLORS=['#4ade80','#ffd23f','#7CFC9A','#ff7a00','#ffffff','#22d3ee'];
+  function confetti(){
+    if(!CONFETTI) return;
+    for(var i=0;i<70;i++){
+      var c=document.createElement('div'); c.className='confetti';
+      c.style.left=(Math.random()*100)+'vw'; c.style.background=COLORS[Math.floor(Math.random()*COLORS.length)];
+      document.body.appendChild(c);
+      var x=(Math.random()*40-20), fall=DUR*1000*(0.6+Math.random()*0.5);
+      c.animate([{transform:'translateY(0) rotate(0)',opacity:1},{transform:'translateY(112vh) translateX('+x+'vw) rotate('+(Math.random()*720-360)+'deg)',opacity:.2}],{duration:fall,easing:'linear',fill:'forwards'});
+      (function(n){ setTimeout(function(){ if(n.parentNode) n.parentNode.removeChild(n); }, fall+400); })(c);
+    }
+  }
+  function fanfare(){
+    if(!SOUND) return;
+    if(AUDIO){ try{ var a=new Audio(AUDIO); a.volume=0.9; a.play().catch(function(){}); }catch(e){} return; }
+    try{
+      var AC=window.AudioContext||window.webkitAudioContext; var ac=new AC();
+      var notes=[392,523,659,784,880];
+      for(var i=0;i<notes.length;i++){ var o=ac.createOscillator(),g=ac.createGain(); o.type='square'; o.frequency.value=notes[i];
+        var t=ac.currentTime+i*0.13; g.gain.setValueAtTime(0.0001,t); g.gain.exponentialRampToValueAtTime(0.25,t+0.02); g.gain.exponentialRampToValueAtTime(0.0001,t+0.22);
+        o.connect(g); g.connect(ac.destination); o.start(t); o.stop(t+0.25); }
+    }catch(e){}
+  }
+  function fire(raid){
+    if(busy) return; busy=true;
+    var name=String(raid.raider||'Jemand').replace(/[<>&]/g,'');
+    var v=Number(raid.viewers)||0, vtxt='';
+    if(v>1){ vtxt='mit <b class="num">'+v+'</b> Zuschauern '; }
+    else if(v===1){ vtxt='mit <b class="num">1</b> Zuschauer '; }
+    line.innerHTML='<b>'+name+'</b> hat deinen Kanal '+vtxt+'geraided!';
+    if(GIF){ gifEl.src=GIF; gifEl.style.display='block'; }
+    alertEl.className='show'; confetti(); fanfare();
+    setTimeout(function(){ alertEl.className='hide'; setTimeout(function(){ alertEl.className=''; busy=false; }, 700); }, DUR*1000);
+  }
+  ${testMode ? "setTimeout(function(){fire({raider:'TestRaider',viewers:1000});},700); setInterval(function(){fire({raider:'TestRaider',viewers:1000});},(DUR+3)*1000);" : "async function poll(){ try{ var r=await fetch('/api/raid/'+encodeURIComponent(USER)+'?since='+since); var d=await r.json(); if(first){ first=false; since=d.now||Date.now(); return; } if(d.now) since=Math.max(since,d.now); if(d.raid) fire(d.raid); }catch(e){} } setInterval(poll,2500); poll();"}
+</script></body></html>`);
 });
 
 // Viewer-count overlay. OBS Browser Source, transparent, e.g. 340x110.
