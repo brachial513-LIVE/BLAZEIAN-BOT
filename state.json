@@ -2467,7 +2467,7 @@
       "stats": {
         "totalVotes": 9091,
         "totalSubs": 31,
-        "totalChatMessages": 6874,
+        "totalChatMessages": 6875,
         "totalStreamMinutes": 3114,
         "emotes": {
           "❤": 2681,
@@ -2509,7 +2509,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 20,
-          "💜": 243,
+          "💜": 244,
           "🧔": 1,
           "🤺": 5,
           "🥳": 22,
@@ -2755,18 +2755,14 @@
           "🌸": "🌸",
           "🤝": "🤝"
         },
-        "lastChatAt": 1787769393635,
-        "sendFailStreak": 166,
-        "lastSendFailAt": 1787767623597,
+        "lastChatAt": 1787769441381,
+        "sendFailStreak": 167,
+        "lastSendFailAt": 1787769441621,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146
       },
       "chatMemory": [
-        {
-          "user": "jaxom",
-          "msg": "I'm a little surprised you weren't dragged back to Destiny unc"
-        },
         {
           "user": "unclefunk",
           "msg": "Too focused on building OSP!"
@@ -2802,6 +2798,10 @@
         {
           "user": "venessa2",
           "msg": "Ritual is not always bad"
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         }
       ],
       "customCommands": {},
@@ -8966,7 +8966,7 @@
       "stats": {
         "totalVotes": 8562,
         "totalSubs": 0,
-        "totalChatMessages": 10605,
+        "totalChatMessages": 10606,
         "totalStreamMinutes": 7075,
         "emotes": {
           "❤": 27,
@@ -9203,7 +9203,7 @@
           "🚨": "🚨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787767068737
+        "lastChatAt": 1787769456046
       },
       "chatMemory": [
         {
@@ -12122,7 +12122,8 @@
         }
       ],
       "customCommands": {
-        "discord": "Join my discord https://discord.gg/6PPHuDvH2d"
+        "discord": "Join my discord https://discord.gg/6PPHuDvH2d",
+        "kick": "Follow my https://kick.com/gamergliderrider"
       },
       "streamStart": "",
       "streamEnd": "",
