@@ -10878,8 +10878,8 @@
       "stats": {
         "totalVotes": 4242,
         "totalSubs": 49,
-        "totalChatMessages": 1742,
-        "totalStreamMinutes": 3644,
+        "totalChatMessages": 1744,
+        "totalStreamMinutes": 3646,
         "emotes": {
           "😅": 1,
           "🔥": 117,
@@ -10905,7 +10905,7 @@
           "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 32,
           "💎": 7,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 29,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 30,
           "37719561-c923-4260-b1a5-e3eda10c103d": 8,
           "🎁": 66,
           "🗳": 111,
@@ -11001,21 +11001,13 @@
           "💃": "💃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787757852985,
+        "lastChatAt": 1787758124460,
         "lastSendFailAt": 1787327474865,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1787329005351,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
-        },
-        {
-          "user": "mutzume",
-          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
-        },
         {
           "user": "cr33pling",
           "msg": "whats up pogiii [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
@@ -11047,6 +11039,14 @@
         {
           "user": "fartvader",
           "msg": "all good brother..lezgereron! [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "avisi",
+          "msg": "xD mi familia carleone"
         }
       ],
       "customCommands": {},
@@ -11334,7 +11334,7 @@
         "totalVotes": 725,
         "totalSubs": 10,
         "totalChatMessages": 446,
-        "totalStreamMinutes": 1633,
+        "totalStreamMinutes": 1636,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -11765,12 +11765,12 @@
       "stats": {
         "totalVotes": 525,
         "totalSubs": 8,
-        "totalChatMessages": 119,
+        "totalChatMessages": 120,
         "totalStreamMinutes": 2376,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 4,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 6,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 5,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 6,
           "6086f447-72aa-4a46-af45-bc82b22a737a": 5,
           "🔥": 4,
           "1bd0019a-1845-4b41-9a15-ee3f6a716b64": 11,
@@ -11818,13 +11818,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787712242880
+        "lastChatAt": 1787758154705
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "[emote:13f023f5-da8d-4708-ad02-f25c9bf6df01]"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -11860,6 +11856,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @Marowak33!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
         }
       ],
       "customCommands": {
@@ -12979,8 +12979,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787754678089,
   "auth": {
-    "accessToken": "ca680c403cb8241c96457759b5d043cf",
-    "refreshToken": "e2fe169d92f1f52d36121ef894561db3",
+    "accessToken": "56a8e93d4650059053ba7c3086dd3fa0",
+    "refreshToken": "f68a4eeb16abf92d84eb2a69b7aecfec",
     "sessionToken": "cfb48b44ce5eb4bdd84ce2df06fe030b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
