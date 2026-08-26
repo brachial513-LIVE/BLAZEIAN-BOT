@@ -3,7 +3,7 @@
     "7c0e8169-a149-4c3c-813b-709ad6862002": {
       "username": "brachial513",
       "stats": {
-        "totalVotes": 7209,
+        "totalVotes": 7259,
         "totalSubs": 36,
         "totalChatMessages": 1947,
         "totalStreamMinutes": 2141,
@@ -1371,7 +1371,7 @@
       "stats": {
         "totalVotes": 13439,
         "totalSubs": 115,
-        "totalChatMessages": 6131,
+        "totalChatMessages": 6133,
         "totalStreamMinutes": 18776,
         "emotes": {
           "📊": 3,
@@ -1561,7 +1561,8 @@
           "40e2bb38-258d-4257-93d7-258c4ce090b9": 1,
           "008de469-bdf8-4cdc-84a3-18c80a17fb9e": 2,
           "7cf92fc4-db3c-4fa7-9a14-fa463f5670d7": 2,
-          "90a79666-6a1e-4bbf-9027-28b1ed6b7dc2": 1
+          "90a79666-6a1e-4bbf-9027-28b1ed6b7dc2": 1,
+          "4db717df-01cb-4963-b5aa-df732cddc4c2": 1
         },
         "emoteNames": {
           "📊": "📊",
@@ -1751,20 +1752,13 @@
           "40e2bb38-258d-4257-93d7-258c4ce090b9": "BurgerFox",
           "008de469-bdf8-4cdc-84a3-18c80a17fb9e": "OthersideFox",
           "7cf92fc4-db3c-4fa7-9a14-fa463f5670d7": "ClipThat",
-          "90a79666-6a1e-4bbf-9027-28b1ed6b7dc2": "StayLit"
+          "90a79666-6a1e-4bbf-9027-28b1ed6b7dc2": "StayLit",
+          "4db717df-01cb-4963-b5aa-df732cddc4c2": "SadFox"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787781274407
+        "lastChatAt": 1787782055764
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:d86d3a9f-5ae8-439b-abe6-716bc3c4ce0c]"
@@ -1796,6 +1790,14 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:20a29d22-5535-494c-8a0a-dbdace2f4d3f]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "TRADE LOST [emote:4db717df-01cb-4963-b5aa-df732cddc4c2]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "BRB"
         }
       ],
       "customCommands": {},
@@ -4745,7 +4747,7 @@
         "totalVotes": 6240,
         "totalSubs": 69,
         "totalChatMessages": 534,
-        "totalStreamMinutes": 11822,
+        "totalStreamMinutes": 11833,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -4978,7 +4980,7 @@
         "totalVotes": 9363,
         "totalSubs": 38,
         "totalChatMessages": 1187,
-        "totalStreamMinutes": 4713,
+        "totalStreamMinutes": 4724,
         "emotes": {
           "❤": 56,
           "🙌": 57,
@@ -5864,7 +5866,7 @@
         "totalVotes": 5496,
         "totalSubs": 25,
         "totalChatMessages": 357,
-        "totalStreamMinutes": 5900,
+        "totalStreamMinutes": 5910,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -10582,7 +10584,7 @@
       "stats": {
         "totalVotes": 2013,
         "totalSubs": 9,
-        "totalChatMessages": 413,
+        "totalChatMessages": 415,
         "totalStreamMinutes": 4390,
         "emotes": {
           "❤": 22,
@@ -10593,8 +10595,8 @@
           "🔴": 29,
           "🎉": 31,
           "🗳": 87,
-          "📴": 28,
-          "👋": 29,
+          "📴": 29,
+          "👋": 30,
           "☺": 2,
           "🎁": 18,
           "🍺": 10,
@@ -10649,17 +10651,9 @@
           "😊": "😊"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787773475527
+        "lastChatAt": 1787782170283
       },
       "chatMemory": [
-        {
-          "user": "tarzan",
-          "msg": "Hi hi"
-        },
-        {
-          "user": "tarzan",
-          "msg": "Whats up"
-        },
         {
           "user": "tarzan",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -10691,6 +10685,14 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @marioscy5 just gifted a sub to @agent00zani! How generous!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -13022,8 +13024,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787780822265,
   "auth": {
-    "accessToken": "660a3b764440ae3dc1c8cc07e9dd3523",
-    "refreshToken": "07a98118028bff9cf1e22722d99ed259",
+    "accessToken": "74c46538470598809754a6559fbc85ab",
+    "refreshToken": "a7f1f932b33a5501561bac2840baff85",
     "sessionToken": "ff6b63ee32db5879d27d3530e0766242",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
