@@ -1371,7 +1371,7 @@
       "stats": {
         "totalVotes": 13434,
         "totalSubs": 115,
-        "totalChatMessages": 6091,
+        "totalChatMessages": 6096,
         "totalStreamMinutes": 18776,
         "emotes": {
           "📊": 3,
@@ -1520,11 +1520,11 @@
           "😁": 1,
           "🎡": 32,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 3,
-          "🃏": 100,
+          "🃏": 102,
           "♥": 132,
           "♣": 99,
-          "♠": 100,
-          "♦": 95,
+          "♠": 104,
+          "♦": 99,
           "🩷": 1,
           "🍗": 1,
           "💞": 1,
@@ -1754,17 +1754,9 @@
           "90a79666-6a1e-4bbf-9027-28b1ed6b7dc2": "StayLit"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787768936648
+        "lastChatAt": 1787769526602
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "300 VOTES + $100 BIRTHDAY GIVEAWAY:\nhttps://x.com/Pardon_my_trade/status/2091907095545434378?s=20"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🚨 LEVEL 30 BIRTHDAY WEEK IS LIVE 🚨\n\nTag 3 Blaze streamers, like & repost, and comment 30 to be entered into a giveaway raffle of $100 in prizes, NFTs, and crypto!!! 🎰✅💰\n\nhttps://x.com/Pardon_my_trade/status/2091907095545434378?s=20\n\nROAD TO 30 STARTS NOW. 👑"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "GM GM"
@@ -1796,6 +1788,14 @@
         {
           "user": "foxbotai",
           "msg": "🃏 @crypt0k1ng96, 10♦ K♦ (20) vs dealer 4♠ 10♥ 9♦ (23) — you won 60 promo! Balance: 554 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🃏 @crypt0k1ng96, dealt: 7♦ 4♦ (11) vs dealer showing 3♠. !hit or !stand?"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🃏 @crypt0k1ng96, drew 7♠ — hand: 7♦ 4♦ 7♠ (18) vs dealer showing 3♠. !hit or !stand?"
         }
       ],
       "customCommands": {},
@@ -9559,7 +9559,7 @@
       "stats": {
         "totalVotes": 9679,
         "totalSubs": 14,
-        "totalChatMessages": 2570,
+        "totalChatMessages": 2571,
         "totalStreamMinutes": 4215,
         "emotes": {
           "❤": 50,
@@ -9570,8 +9570,8 @@
           "🏃": 1,
           "♂": 1,
           "💨": 1,
-          "😶": 19,
-          "🌫": 19,
+          "😶": 26,
+          "🌫": 26,
           "🤣": 17,
           "😂": 39,
           "📴": 44,
@@ -9704,13 +9704,9 @@
           "💙": "💙"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787766308250
+        "lastChatAt": 1787769509565
       },
       "chatMemory": [
-        {
-          "user": "peter_force",
-          "msg": "hope all are well"
-        },
         {
           "user": "noxx",
           "msg": "hey peter!"
@@ -9746,6 +9742,10 @@
         {
           "user": "capt_rob_advent",
           "msg": "Doing good. Haven't streamed in a few days"
+        },
+        {
+          "user": "peter_force",
+          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️"
         }
       ],
       "customCommands": {},
@@ -12123,7 +12123,8 @@
       ],
       "customCommands": {
         "discord": "Join my discord https://discord.gg/6PPHuDvH2d",
-        "kick": "Follow my https://kick.com/gamergliderrider"
+        "kick": "Follow my https://kick.com/gamergliderrider",
+        "twitch": "Follow my twitch https://www.twitch.tv/gamergliderrider"
       },
       "streamStart": "",
       "streamEnd": "",
