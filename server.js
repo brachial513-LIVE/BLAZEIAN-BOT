@@ -3001,6 +3001,7 @@ function pageHead(title) {
 function renderChannelBlock(ch, actionPrefix) {
   const cmds = Object.entries(ch.customCommands || {}).map(([name, resp]) =>
     `<div class="cmd">
+      <button type="button" class="edit-btn" data-n="${esc(name)}" data-r="${esc(resp)}" data-u="${esc(ch.username)}" onclick="rcEditCmd(this.dataset.n,this.dataset.r,this.dataset.u)">edit</button>
       <form method="POST" action="${actionPrefix}/delcmd" class="delform">
         <input type="hidden" name="username" value="${esc(ch.username)}">
         <input type="hidden" name="name" value="${esc(name)}">
@@ -3019,6 +3020,7 @@ function renderChannelBlock(ch, actionPrefix) {
     ${lockNote}
     <div class="meta"><b>📺 LIVE message:</b> ${esc(ch.streamStart) || "<i class='muted'>not set</i>"}</div>
     <div class="meta"><b>🔴 OFFLINE message:</b> ${esc(ch.streamEnd) || "<i class='muted'>not set</i>"}</div>
+    <button type="button" class="edit-btn" data-s="${esc(ch.streamStart || "")}" data-e="${esc(ch.streamEnd || "")}" data-u="${esc(ch.username)}" onclick="rcEditStream(this.dataset.s,this.dataset.e,this.dataset.u)">edit messages</button>
     <div style="margin-top:10px;">${cmds}</div>
   </div>`;
 }
@@ -3026,26 +3028,37 @@ function renderChannelBlock(ch, actionPrefix) {
 // Command + stream forms (channelValue is fixed for dashboard, dropdown for admin)
 function renderForms(actionPrefix, channelField) {
   return `
+  <style>.edit-btn{cursor:pointer;background:#1d3a55;color:#8ecaff;border:1px solid #2f6296;border-radius:7px;padding:3px 10px;font-size:12px;font-weight:700;margin-right:6px;}</style>
   <h2>➕ Add / Update a Command</h2>
-  <form method="POST" action="${actionPrefix}/setcmd" class="card">
+  <form method="POST" action="${actionPrefix}/setcmd" class="card" id="rc-cmdform">
     ${channelField}
     <label>Command name (without !)</label>
-    <input name="name" placeholder="giveaway">
+    <input name="name" id="rc-cmdname" placeholder="giveaway">
     <label>Response</label>
-    <textarea name="response" rows="6" placeholder="The full text the bot should reply with..."></textarea>
+    <textarea name="response" id="rc-cmdresp" rows="6" placeholder="The full text the bot should reply with..."></textarea>
     <button class="save">Save Command</button>
+    <p class="hint">Editing an existing command? Hit its <b>edit</b> button below — it loads the command here so you can change it and save over it. 💚</p>
   </form>
 
   <h2>📺 Stream Start / End Messages</h2>
-  <form method="POST" action="${actionPrefix}/setstream" class="card">
+  <form method="POST" action="${actionPrefix}/setstream" class="card" id="rc-streamform">
     ${channelField}
     <label>Stream START message (when you go live)</label>
-    <textarea name="streamStart" rows="2" placeholder="LIVE NOW: {name} 🔥"></textarea>
+    <textarea name="streamStart" id="rc-streamstart" rows="2" placeholder="LIVE NOW: {name} 🔥"></textarea>
     <label>Stream END message (when you go offline)</label>
-    <textarea name="streamEnd" rows="2" placeholder="Offline now - thanks everyone 💚"></textarea>
+    <textarea name="streamEnd" id="rc-streamend" rows="2" placeholder="Offline now - thanks everyone 💚"></textarea>
     <p class="hint">Tip: use {name} and it gets replaced with the streamer's name automatically.</p>
     <button class="save">Save Stream Messages</button>
-  </form>`;
+  </form>
+  <script>
+    function rcSetChan(form,u){ if(!u) return; var s=form.querySelector('select[name=username]'); if(s){ s.value=u; } }
+    window.rcEditCmd=function(n,r,u){ var f=document.getElementById('rc-cmdform'); if(!f) return; rcSetChan(f,u);
+      var nm=document.getElementById('rc-cmdname'), rp=document.getElementById('rc-cmdresp');
+      if(nm) nm.value=n; if(rp) rp.value=r; if(nm){ nm.scrollIntoView({behavior:'smooth',block:'center'}); nm.focus(); } };
+    window.rcEditStream=function(s,e,u){ var f=document.getElementById('rc-streamform'); if(!f) return; rcSetChan(f,u);
+      var ss=document.getElementById('rc-streamstart'), se=document.getElementById('rc-streamend');
+      if(ss) ss.value=s; if(se) se.value=e; if(ss){ ss.scrollIntoView({behavior:'smooth',block:'center'}); ss.focus(); } };
+  </script>`;
 }
 
 // Only these Blaze usernames see the commissioned Captain-Rob seagull overlay in their dashboard
@@ -3140,40 +3153,43 @@ function renderRaidPanel(username) {
       <div class="rc-tabs">
         <span class="rc-tab on" data-tab="gif">🎞️ GIF</span>
         <span class="rc-tab" data-tab="snd">🔊 Sound</span>
-        <span class="rc-tab" data-tab="more">⚙️ Mehr</span>
+        <span class="rc-tab" data-tab="more">⚙️ More</span>
       </div>
 
       <div class="rc-pane on" data-pane="gif">
-        <div class="rc-row"><input id="rc-gifq" placeholder="GIF suchen (z.B. raid, hype, welcome)…"><button type="button" class="rc-btn" id="rc-gifgo">Suchen</button></div>
+        <div class="rc-row"><input id="rc-gifq" placeholder="Search GIFs (e.g. raid, hype, welcome)…"><button type="button" class="rc-btn" id="rc-gifgo">Search</button></div>
         <div class="rc-note" id="rc-gifnote"></div>
         <div class="rc-grid" id="rc-gifgrid"></div>
-        <label>… oder GIF-URL direkt einfügen (auch von Klipy im Browser kopiert)</label>
-        <input name="gif" id="rc-gifurl" placeholder="https://…/etwas.gif" value="${esc(gif)}">
+        <label>… or paste a GIF URL directly (e.g. copied from Klipy in your browser)</label>
+        <input name="gif" id="rc-gifurl" placeholder="https://…/something.gif" value="${esc(gif)}">
         <div class="rc-prev" id="rc-gifprev"></div>
       </div>
 
       <div class="rc-pane" data-pane="snd">
-        <div class="rc-row"><input id="rc-sndq" placeholder="Sound suchen (z.B. airhorn, fanfare, boom)…"><button type="button" class="rc-btn" id="rc-sndgo">Suchen</button></div>
+        <div class="rc-row"><input id="rc-sndq" placeholder="Search sounds (e.g. airhorn, fanfare, boom)…"><button type="button" class="rc-btn" id="rc-sndgo">Search</button></div>
         <div class="rc-note" id="rc-sndnote"></div>
         <div class="rc-list" id="rc-sndlist"></div>
-        <label>… oder Sound-URL (MP3) direkt einfügen — z.B. eine Myinstants-Meme-URL</label>
+        <label>… or paste a direct MP3 URL — e.g. a Myinstants meme URL (a SoundCloud page link will NOT work — it's not a direct audio file)</label>
         <input name="audio" id="rc-sndurl" placeholder="https://…/sound.mp3" value="${esc(audio)}">
         <input type="hidden" name="audioCredit" id="rc-credit" value="${esc(credit)}">
+        <label style="margin-top:10px;">… or upload your own sound file (MP3, max 25 MB)</label>
+        <div class="rc-row"><input type="file" id="rc-sndfile" accept="audio/mpeg,audio/mp3,.mp3" style="flex:1;"><button type="button" class="rc-btn" id="rc-sndupload">⬆️ Upload</button></div>
+        <div class="rc-note" id="rc-uplnote"></div>
         <div class="rc-prev" id="rc-sndprev"></div>
       </div>
 
       <div class="rc-pane" data-pane="more">
         <div class="rc-grid2">
-          <div><label>Anzeigedauer (Sek.)</label><input type="number" name="dur" id="rc-dur" min="3" max="30" value="${dur}"></div>
-          <div><label>Badge-Text</label><input name="label" id="rc-label" maxlength="24" value="${esc(label)}"></div>
+          <div><label>Display time (sec.)</label><input type="number" name="dur" id="rc-dur" min="3" max="30" value="${dur}"></div>
+          <div><label>Badge text</label><input name="label" id="rc-label" maxlength="24" value="${esc(label)}"></div>
         </div>
-        <label style="display:block;margin-top:10px;"><input type="checkbox" name="sound" value="1" ${soundChecked}> 🔊 Sound abspielen (aus = stumm, nur Banner)</label>
-        <label style="display:block;margin-top:4px;"><input type="checkbox" name="confetti" value="1" ${confChecked}> 🎊 Konfetti anzeigen</label>
+        <label style="display:block;margin-top:10px;"><input type="checkbox" name="sound" value="1" ${soundChecked}> 🔊 Play sound (off = muted, banner only)</label>
+        <label style="display:block;margin-top:4px;"><input type="checkbox" name="confetti" value="1" ${confChecked}> 🎊 Show confetti</label>
       </div>
 
       <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;">
-        <button type="submit" class="rc-btn">💾 Speichern</button>
-        <button type="button" class="rc-btn alt" id="rc-test">▶️ Test-Vorschau öffnen</button>
+        <button type="submit" class="rc-btn">💾 Save</button>
+        <button type="button" class="rc-btn alt" id="rc-test">▶️ Open test preview</button>
         <audio id="rc-audio" style="display:none;"></audio>
       </div>
     </form>
@@ -3196,11 +3212,11 @@ function renderRaidPanel(username) {
     $('rc-gifgo').addEventListener('click',function(){ doGif(); });
     $('rc-gifq').addEventListener('keydown',function(e){ if(e.key==='Enter'){e.preventDefault(); doGif();} });
     function doGif(){
-      var note=$('rc-gifnote'), grid=$('rc-gifgrid'); note.textContent='Suche…'; grid.innerHTML='';
+      var note=$('rc-gifnote'), grid=$('rc-gifgrid'); note.textContent='Searching…'; grid.innerHTML='';
       fetch('/api/klipy/search?q='+encodeURIComponent($('rc-gifq').value.trim())).then(function(r){return r.json();}).then(function(d){
-        if(d.error==='nokey'){ note.innerHTML='⚠️ Kein Klipy-API-Key gesetzt. Hol dir einen gratis bei <b>klipy.com/developers</b>, dann trägt Brachial ihn als <code>KLIPY_API_KEY</code> in Render ein. Solange kannst du GIF-URLs unten manuell einfügen.'; return; }
-        if(d.error){ note.textContent='Fehler bei der GIF-Suche ('+(d.detail||d.error)+'). URL unten geht immer.'; return; }
-        note.textContent = d.items.length? '' : 'Nichts gefunden — anderen Begriff probieren.';
+        if(d.error==='nokey'){ note.innerHTML='⚠️ No Klipy API key set. Grab a free one at <b>klipy.com/developers</b> and set it as <code>KLIPY_API_KEY</code> in Render. Until then you can paste GIF URLs in the field below.'; return; }
+        if(d.error){ note.textContent='GIF search failed ('+(d.detail||d.error)+'). The URL field below always works.'; return; }
+        note.textContent = d.items.length? '' : 'Nothing found — try another term.';
         d.items.forEach(function(it){
           var b=document.createElement('button'); b.type='button'; b.className='rc-cell';
           var im=new Image(); im.loading='lazy'; im.src=it.preview||it.gif; b.appendChild(im);
@@ -3210,7 +3226,7 @@ function renderRaidPanel(username) {
           });
           grid.appendChild(b);
         });
-      }).catch(function(){ note.textContent='Netzwerkfehler. URL unten geht immer.'; });
+      }).catch(function(){ note.textContent='Network error. The URL field below always works.'; });
     }
     // sound preview
     var sndurl=$('rc-sndurl'), credit=$('rc-credit'), sndprev=$('rc-sndprev'), au=$('rc-audio');
@@ -3220,20 +3236,20 @@ function renderRaidPanel(username) {
     $('rc-sndgo').addEventListener('click',function(){ doSnd(); });
     $('rc-sndq').addEventListener('keydown',function(e){ if(e.key==='Enter'){e.preventDefault(); doSnd();} });
     function doSnd(){
-      var note=$('rc-sndnote'), list=$('rc-sndlist'); note.textContent='Suche…'; list.innerHTML='';
+      var note=$('rc-sndnote'), list=$('rc-sndlist'); note.textContent='Searching…'; list.innerHTML='';
       fetch('/api/freesound/search?q='+encodeURIComponent($('rc-sndq').value.trim())).then(function(r){return r.json();}).then(function(d){
-        if(d.error==='nokey'){ note.innerHTML='⚠️ Kein Freesound-Token gesetzt. Hol dir einen gratis bei <b>freesound.org</b> (API-Key), dann trägt Brachial ihn als <code>FREESOUND_API_KEY</code> in Render ein. Solange kannst du MP3-URLs unten manuell einfügen (z.B. von Myinstants).'; return; }
-        if(d.error){ note.textContent='Fehler bei der Sound-Suche ('+(d.detail||d.error)+'). URL unten geht immer.'; return; }
-        note.textContent = d.items.length? 'Vorschau ▶ · „Wählen" setzt den Sound. CC-BY-Sounds zeigen automatisch eine kleine Credit-Zeile.' : 'Nichts gefunden — anderen Begriff probieren.';
+        if(d.error==='nokey'){ note.innerHTML='⚠️ No Freesound token set. Grab a free one at <b>freesound.org</b> (API key) and set it as <code>FREESOUND_API_KEY</code> in Render. Until then you can paste MP3 URLs below or upload your own file.'; return; }
+        if(d.error){ note.textContent='Sound search failed ('+(d.detail||d.error)+'). The URL field below always works.'; return; }
+        note.textContent = d.items.length? 'Preview ▶ · "Choose" sets the sound. CC-BY sounds automatically show a small credit line.' : 'Nothing found — try another term.';
         d.items.forEach(function(it){
           var row=document.createElement('div'); row.className='rc-snd';
           var play=document.createElement('button'); play.type='button'; play.className='rc-mini'; play.textContent='▶';
           play.addEventListener('click',function(){ try{ au.src=it.mp3; au.play(); }catch(e){} });
           var t=document.createElement('div'); t.className='t';
           var nm=document.createElement('b'); nm.textContent=it.title;
-          var meta=document.createElement('span'); meta.textContent=(it.author?('von '+it.author):'')+(it.license?(' · '+it.license):'');
+          var meta=document.createElement('span'); meta.textContent=(it.author?('by '+it.author):'')+(it.license?(' · '+it.license):'');
           t.appendChild(nm); t.appendChild(meta);
-          var ch=document.createElement('button'); ch.type='button'; ch.className='rc-btn alt'; ch.style.padding='6px 12px'; ch.textContent='Wählen';
+          var ch=document.createElement('button'); ch.type='button'; ch.className='rc-btn alt'; ch.style.padding='6px 12px'; ch.textContent='Choose';
           ch.addEventListener('click',function(){
             list.querySelectorAll('.rc-snd').forEach(function(c){c.classList.remove('sel');}); row.classList.add('sel');
             sndurl.value=it.mp3;
@@ -3243,8 +3259,21 @@ function renderRaidPanel(username) {
           });
           row.appendChild(play); row.appendChild(t); row.appendChild(ch); list.appendChild(row);
         });
-      }).catch(function(){ note.textContent='Netzwerkfehler. URL unten geht immer.'; });
+      }).catch(function(){ note.textContent='Network error. The URL field below always works.'; });
     }
+    // upload own sound file (MP3 ≤25MB) — browser POSTs the raw bytes, server commits it to the repo
+    $('rc-sndupload').addEventListener('click',function(){
+      var f=$('rc-sndfile').files[0], note=$('rc-uplnote');
+      if(!f){ note.textContent='Pick an MP3 file first.'; return; }
+      if(f.size > 25*1024*1024){ note.textContent='File too big (max 25 MB).'; return; }
+      note.textContent='Uploading…';
+      fetch('/dashboard/uploadraidsound',{method:'POST',headers:{'Content-Type':'audio/mpeg'},body:f}).then(function(r){return r.json();}).then(function(d){
+        if(d.error==='nostorage'){ note.textContent='Upload storage not configured (no GITHUB_TOKEN in Render).'; return; }
+        if(d.error==='toobig'){ note.textContent='File too big (max 25 MB).'; return; }
+        if(d.error){ note.textContent='Upload failed ('+(d.detail||d.error)+').'; return; }
+        sndurl.value=d.url; credit.value=''; showSnd(); note.textContent='✅ Uploaded — now click Save to keep it.';
+      }).catch(function(){ note.textContent='Upload error.'; });
+    });
     // test preview — build the overlay URL from the CURRENT (unsaved) values
     $('rc-test').addEventListener('click',function(){
       var p=new URLSearchParams(); p.set('test','1');
@@ -4345,6 +4374,63 @@ app.post("/dashboard/setraid", async (req, res) => {
   };
   await saveChannelsToCloud();
   res.redirect("/dashboard#raidcfg");
+});
+
+// Commit a binary file into the repo via the GitHub Contents API (same persistence path the bot
+// already uses for state.json), so uploads survive Render restarts/redeploys. Overwrites need the
+// current blob SHA, so we GET it first (404 = brand-new file, no SHA needed).
+async function githubPutFile(path, buffer, message) {
+  if (!GH_TOKEN) throw new Error("no GITHUB_TOKEN");
+  const api = `https://api.github.com/repos/${GH_REPO}/contents/${path}`;
+  let sha = null;
+  try {
+    const g = await axios.get(api, { headers: GH_HEADERS, params: { ref: GH_BRANCH } });
+    sha = g.data && g.data.sha;
+  } catch (e) { /* 404 → new file */ }
+  const body = { message, content: buffer.toString("base64"), branch: GH_BRANCH };
+  if (sha) body.sha = sha;
+  await axios.put(api, body, { headers: GH_HEADERS });
+}
+
+const _raidSoundCache = {}; // channelId -> Buffer, so we don't refetch the mp3 from GitHub on every play
+const safeId = s => String(s || "").replace(/[^a-zA-Z0-9_-]/g, "");
+
+// Upload a streamer's own raid-alert sound (MP3, ≤25MB). No multipart lib needed — the browser POSTs
+// the raw file bytes and express.raw() (built in) hands us the Buffer. Stored in the repo so it persists.
+app.post("/dashboard/uploadraidsound", express.raw({ type: () => true, limit: "26mb" }), async (req, res) => {
+  const cid = dashboardChannelId(req);
+  if (!cid) return res.status(403).json({ error: "auth" });
+  if (!GH_TOKEN) return res.json({ error: "nostorage" });
+  const buf = req.body;
+  if (!buf || !buf.length) return res.json({ error: "empty" });
+  if (buf.length > 25 * 1024 * 1024) return res.json({ error: "toobig" });
+  const id = safeId(cid);
+  try {
+    await githubPutFile(`raid-sounds/${id}.mp3`, buf, `raid sound upload for ${id}`);
+    _raidSoundCache[id] = buf;
+    res.json({ url: `${SELF_URL}/raid-sound/${id}?v=${Date.now()}` });
+  } catch (e) {
+    res.json({ error: "upload", detail: (e.response && e.response.status) || e.message });
+  }
+});
+
+// Serve an uploaded raid sound. The repo is private (it holds tokens), so raw.githubusercontent.com
+// won't serve it unauthenticated — we fetch it with the token and stream it, cached in memory.
+app.get("/raid-sound/:cid", async (req, res) => {
+  const id = safeId(req.params.cid);
+  try {
+    if (!_raidSoundCache[id]) {
+      const api = `https://api.github.com/repos/${GH_REPO}/contents/raid-sounds/${id}.mp3`;
+      const r = await axios.get(api, { headers: { ...GH_HEADERS, Accept: "application/vnd.github.raw" }, params: { ref: GH_BRANCH }, responseType: "arraybuffer" });
+      _raidSoundCache[id] = Buffer.from(r.data);
+    }
+    res.set("Content-Type", "audio/mpeg");
+    res.set("Cache-Control", "public, max-age=300");
+    res.set("Access-Control-Allow-Origin", "*");
+    res.send(_raidSoundCache[id]);
+  } catch (e) {
+    res.status(404).send("no sound");
+  }
 });
 
 // Defensively pull a usable GIF + thumbnail URL out of a KLIPY result item. KLIPY's exact JSON nesting
