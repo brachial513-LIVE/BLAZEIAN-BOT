@@ -488,7 +488,7 @@ function channelHealthStatus(ch) {
   if ((s.sendFailStreak || 0) >= 3) {
     const age = s.lastSendFailAt ? Date.now() - s.lastSendFailAt : Infinity;
     if (age <= DAY) return { key: "blocked", label: "Blocked/Muted?", color: "#e8776a", emoji: "🔴" };
-    return { key: "stale", label: "War blockiert — ungeprüft", color: "#e8b94a", emoji: "🟠" };
+    return { key: "stale", label: "Was blocked — unverified", color: "#e8b94a", emoji: "🟠" };
   }
   if (s.lastChatAt && Date.now() - s.lastChatAt <= 7 * DAY) {
     return { key: "active", label: "Active", color: "#7CFC9A", emoji: "🟢" };
@@ -3099,7 +3099,7 @@ function renderOverlaySection(username) {
     🪑 <b>Chill mode:</b> he occasionally sits on a little stool at the edge and watches the stream with you 👀 — <code>?sit=0</code> turns that off. · 🕺 Little dances included — <code>?dance=0</code> turns them off. · 🎀 <code>?female=1</code> adds a bow on his head (color follows the theme).</p>
     <label style="margin-top:14px;">🎊 Raid Alert — clean banner + sound when someone raids you</label>
     <input readonly onclick="this.select()" value="${esc(raidUrl)}">
-    <p class="hint">Paste this ONE URL into OBS (Browser Source, <b>1920×1080</b>) — it never changes. Everything below is set right here in the dashboard and applies automatically. Banner reads "<b>&lt;Raider&gt; hat deinen Kanal mit &lt;N&gt; Zuschauern geraided!</b>". Add <code>?test=1</code> to the URL to place it in OBS.</p>
+    <p class="hint">Paste this ONE URL into OBS (Browser Source, <b>1920×1080</b>) — it never changes. Everything below is set right here in the dashboard and applies automatically. Banner text is fully editable in the <b>More</b> tab (default: "<b>&lt;Raider&gt; has raided your Channel with &lt;N&gt; Awesome People !</b>"). Add <code>?test=1</code> to the URL to place it in OBS.</p>
     ${renderRaidPanel(username)}
     ${showSeagull ? `
     <label style="margin-top:14px;">🦅 CaptainRob's Seagull-Blazeian — flies across the top &amp; makes a portal entrance</label>
@@ -3119,6 +3119,7 @@ function renderRaidPanel(username) {
   const audio = cfg.audio || "";
   const credit = cfg.audioCredit || "";
   const label = cfg.label || "RAID";
+  const text = cfg.text || "{raider} has raided your Channel with {count} Awesome People !";
   const dur = Number(cfg.dur) || 8;
   const soundChecked = (cfg.sound !== false) ? "checked" : "";
   const confChecked = (cfg.confetti !== false) ? "checked" : "";
@@ -3179,6 +3180,9 @@ function renderRaidPanel(username) {
       </div>
 
       <div class="rc-pane" data-pane="more">
+        <label>Banner text</label>
+        <input name="text" id="rc-text" maxlength="200" value="${esc(text)}">
+        <p class="hint" style="margin-top:2px;">Use <code>{raider}</code> for the raider's name and <code>{count}</code> for the viewer number. E.g. <code>{raider} has raided your Channel with {count} Awesome People !</code></p>
         <div class="rc-grid2">
           <div><label>Display time (sec.)</label><input type="number" name="dur" id="rc-dur" min="3" max="30" value="${dur}"></div>
           <div><label>Badge text</label><input name="label" id="rc-label" maxlength="24" value="${esc(label)}"></div>
@@ -3280,6 +3284,7 @@ function renderRaidPanel(username) {
       if(gifurl.value.trim()) p.set('gif',gifurl.value.trim());
       if(sndurl.value.trim()) p.set('audio',sndurl.value.trim());
       if(credit.value.trim()) p.set('credit',credit.value.trim());
+      if($('rc-text').value.trim()) p.set('text',$('rc-text').value);
       p.set('label',($('rc-label').value||'RAID').trim());
       p.set('dur',$('rc-dur').value||'8');
       p.set('sound', root.querySelector('[name=sound]').checked?'1':'0');
@@ -4368,6 +4373,7 @@ app.post("/dashboard/setraid", async (req, res) => {
     audio: clean(b.audio, 500),
     audioCredit: clean(b.audioCredit, 120),
     label: clean(b.label, 24) || "RAID",
+    text: clean(b.text, 200),
     dur,
     sound: b.sound != null,        // unchecked checkbox isn't sent → sound off
     confetti: b.confetti != null   // same convention for confetti
@@ -5358,8 +5364,9 @@ app.get("/api/raid/:username", (req, res) => {
 });
 
 // RAID ALERT overlay — clean Sound-Alerts style. OBS Browser Source, 1920x1080, transparent.
-// When the channel gets raided, a banner drops in naming the raider: "<Raider> hat deinen Kanal
-// mit <N> Zuschauern geraided!" + a hype fanfare (and light confetti). Can't legally bundle a
+// When the channel gets raided, a banner drops in naming the raider (default: "<Raider> has raided
+// your Channel with <N> Awesome People !", fully editable) + a hype fanfare (and light confetti).
+// {raider}/{count} (or <Raider>/<N>) in the text are replaced live. Can't legally bundle a
 // copyrighted song — default sound is a synthesized fanfare; point ?audio=URL at your OWN hosted
 // sound/song file to use that instead. ?gif=URL adds a custom GIF/avatar under the text.
 app.get("/overlay/raid/:username", (req, res) => {
@@ -5375,6 +5382,8 @@ app.get("/overlay/raid/:username", (req, res) => {
   const gifUrl = (q.gif != null ? q.gif : (cfg.gif || "")).toString();
   const label = (q.label != null ? q.label : (cfg.label || "RAID")).toString().slice(0, 24);
   const credit = (q.credit != null ? q.credit : (cfg.audioCredit || "")).toString().slice(0, 120);
+  const RAID_TEXT_DEFAULT = "{raider} has raided your Channel with {count} Awesome People !";
+  const text = (q.text != null ? q.text : (cfg.text || RAID_TEXT_DEFAULT)).toString().slice(0, 200);
   const testMode = req.query.test === "1" || req.query.test === "true";
   res.set("Content-Type", "text/html");
   res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Raid Alert</title>
@@ -5402,7 +5411,7 @@ app.get("/overlay/raid/:username", (req, res) => {
 </div></div>
 <script>
   var USER=${JSON.stringify(req.params.username)};
-  var DUR=${dur}, SOUND=${soundOn ? 1 : 0}, CONFETTI=${confettiOn ? 1 : 0}, AUDIO=${JSON.stringify(audioUrl)}, GIF=${JSON.stringify(gifUrl)}, LABEL=${JSON.stringify(label)}, CREDIT=${JSON.stringify(credit)};
+  var DUR=${dur}, SOUND=${soundOn ? 1 : 0}, CONFETTI=${confettiOn ? 1 : 0}, AUDIO=${JSON.stringify(audioUrl)}, GIF=${JSON.stringify(gifUrl)}, LABEL=${JSON.stringify(label)}, CREDIT=${JSON.stringify(credit)}, TEXT=${JSON.stringify(text)};
   var alertEl=document.getElementById('alert'), eyebrow=document.getElementById('eyebrow'), line=document.getElementById('line'), gifEl=document.getElementById('gif'), creditEl=document.getElementById('credit');
   eyebrow.textContent=LABEL;
   if(CREDIT){ creditEl.textContent='🔊 '+CREDIT; creditEl.style.display='block'; }
@@ -5430,13 +5439,17 @@ app.get("/overlay/raid/:username", (req, res) => {
         o.connect(g); g.connect(ac.destination); o.start(t); o.stop(t+0.25); }
     }catch(e){}
   }
+  function escHtml(s){ return String(s).replace(/[&<>]/g,function(m){return m==='&'?'&amp;':(m==='<'?'&lt;':'&gt;');}); }
+  function fillTokens(s,name,v){
+    s=s.replace(/\\{raider\\}|\\{name\\}|&lt;raider&gt;|&lt;name&gt;/gi,'<b>'+name+'</b>');
+    s=s.replace(/\\{count\\}|\\{viewers\\}|\\{n\\}|&lt;n&gt;|&lt;count&gt;|&lt;viewers&gt;/gi,'<b class="num">'+v+'</b>');
+    return s;
+  }
   function fire(raid){
     if(busy) return; busy=true;
-    var name=String(raid.raider||'Jemand').replace(/[<>&]/g,'');
-    var v=Number(raid.viewers)||0, vtxt='';
-    if(v>1){ vtxt='mit <b class="num">'+v+'</b> Zuschauern '; }
-    else if(v===1){ vtxt='mit <b class="num">1</b> Zuschauer '; }
-    line.innerHTML='<b>'+name+'</b> hat deinen Kanal '+vtxt+'geraided!';
+    var name=String(raid.raider||'Someone').replace(/[<>&]/g,'');
+    var v=Number(raid.viewers)||0;
+    line.innerHTML=fillTokens(escHtml(TEXT),name,v);
     if(GIF){ gifEl.src=GIF; gifEl.style.display='block'; }
     alertEl.className='show'; confetti(); fanfare();
     setTimeout(function(){ alertEl.className='hide'; setTimeout(function(){ alertEl.className=''; busy=false; }, 700); }, DUR*1000);
