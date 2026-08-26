@@ -11567,15 +11567,15 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 1009,
+        "totalVotes": 1028,
         "totalSubs": 1,
-        "totalChatMessages": 579,
+        "totalChatMessages": 581,
         "totalStreamMinutes": 1579,
         "emotes": {
           "👋": 18,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 39,
+          "🗳": 42,
           "🔴": 17,
           "🎉": 22,
           "📴": 17,
@@ -11684,17 +11684,9 @@
           "c69b92f1-d1d3-40dc-858b-9d7dce310cdc": "PopcornPufferfish"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787713588407
+        "lastChatAt": 1787769368030
       },
       "chatMemory": [
-        {
-          "user": "onyxouroboros",
-          "msg": "got another credit for recycling more trash"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -11726,6 +11718,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 19 votes, @Dan!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dan just gave 19 vote(s) (total: 19)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -12100,12 +12100,12 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 11,
+        "totalChatMessages": 12,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
         "sendFailStreak": 0,
-        "lastChatAt": 1787753961963
+        "lastChatAt": 1787769360502
       },
       "chatMemory": [
         {
@@ -13004,7 +13004,7 @@
   "auth": {
     "accessToken": "0bd62571c7987a8e340745e82c1d4ef2",
     "refreshToken": "2ad7160a74ec614374a7f8311d5bbd4a",
-    "sessionToken": "c77ef37e234e174367a72a82ad04ce9f",
+    "sessionToken": "9a8cca57a735773cf8b55c05610b2600",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
