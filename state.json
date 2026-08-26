@@ -2467,7 +2467,7 @@
       "stats": {
         "totalVotes": 9091,
         "totalSubs": 31,
-        "totalChatMessages": 6873,
+        "totalChatMessages": 6874,
         "totalStreamMinutes": 3114,
         "emotes": {
           "❤": 2681,
@@ -2755,7 +2755,7 @@
           "🌸": "🌸",
           "🤝": "🤝"
         },
-        "lastChatAt": 1787767623197,
+        "lastChatAt": 1787769393635,
         "sendFailStreak": 166,
         "lastSendFailAt": 1787767623597,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2763,10 +2763,6 @@
         "recoveredFrom": 146
       },
       "chatMemory": [
-        {
-          "user": "rob_osp",
-          "msg": "@unclefunk — thanks for gifting sub to the community! 🎁 Absolute legend."
-        },
         {
           "user": "jaxom",
           "msg": "I'm a little surprised you weren't dragged back to Destiny unc"
@@ -2802,6 +2798,10 @@
         {
           "user": "rob_osp",
           "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
+        },
+        {
+          "user": "venessa2",
+          "msg": "Ritual is not always bad"
         }
       ],
       "customCommands": {},
@@ -12121,7 +12121,9 @@
           "msg": "English"
         }
       ],
-      "customCommands": {},
+      "customCommands": {
+        "discord": "Join my discord https://discord.gg/6PPHuDvH2d"
+      },
       "streamStart": "",
       "streamEnd": "",
       "schedule": "Monday- Friday 8:00 am",
