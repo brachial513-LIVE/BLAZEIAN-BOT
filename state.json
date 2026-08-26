@@ -3644,14 +3644,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 15432,
+        "totalVotes": 16432,
         "totalSubs": 46,
-        "totalChatMessages": 7695,
+        "totalChatMessages": 7698,
         "totalStreamMinutes": 5547,
         "emotes": {
           "❤": 147,
           "🙌": 244,
-          "🗳": 963,
+          "🗳": 966,
           "✌": 4,
           "😊": 10,
           "👍": 10,
@@ -4069,21 +4069,9 @@
           "🦾": "🦾"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787728097080
+        "lastChatAt": 1787728213014
       },
       "chatMemory": [
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:e4d6ab94-8895-4ace-95f5-74fbd5a80c9c] [emote:e4d6ab94-8895-4ace-95f5-74fbd5a80c9c] [emote:92bcf2c9-dff9-4282-85e5-c46c1b4f970b] [emote:e4d6ab94-8895-4ace-95f5-74fbd5a80c9c] [emote:e4d6ab94-8895-4ace-95f5-74fbd5a80c9c]"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:2cb52c55-9a82-4c39-92b7-6d2c4840c30e] [emote:2cb52c55-9a82-4c39-92b7-6d2c4840c30e]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "yep @meyetechnicals W"
-        },
         {
           "user": "fartvader",
           "msg": "yessir, lesgooo!"
@@ -4111,6 +4099,18 @@
         {
           "user": "dofferlive",
           "msg": "damn"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "@marowak33  i  think  he's not"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 1000 vote(s) (total: 1000)! Thank you!! 🗳️"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "let me dorp 1000  votes"
         }
       ],
       "customCommands": {},
@@ -4337,14 +4337,14 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 13666,
+        "totalVotes": 13696,
         "totalSubs": 36,
-        "totalChatMessages": 4868,
+        "totalChatMessages": 4870,
         "totalStreamMinutes": 8940,
         "emotes": {
           "❤": 55,
           "🙌": 137,
-          "🗳": 552,
+          "🗳": 555,
           "🔴": 54,
           "🎉": 94,
           "📴": 53,
@@ -4603,18 +4603,10 @@
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink",
           "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
         },
-        "lastChatAt": 1787714731570,
+        "lastChatAt": 1787729165330,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "hiray",
-          "msg": "i'm fine and you?"
-        },
-        {
-          "user": "hiray",
-          "msg": "i was playing PEAK with my friends"
-        },
         {
           "user": "hiray",
           "msg": "it is fun with a lot of friends"
@@ -4646,6 +4638,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 30 votes, @meyetechnicals!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 30 vote(s) (total: 30)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7912,8 +7912,8 @@
       "stats": {
         "totalVotes": 3089,
         "totalSubs": 13,
-        "totalChatMessages": 113,
-        "totalStreamMinutes": 2912,
+        "totalChatMessages": 114,
+        "totalStreamMinutes": 2925,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -7937,13 +7937,9 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787725414082
+        "lastChatAt": 1787728910010
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -7979,6 +7975,10 @@
         {
           "user": "fartvader",
           "msg": "have a great stream proff! [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -7991,12 +7991,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "Hiii! — Ragnarok Online",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to pr0ff's Ragnarok Online stream, where the 🔥 vibes are always lit! This community lives for 'DOTES' and loves when you 'gift a Sub' to celebrate milestones. Don't forget to throw in some 🔥 emojis and shout out 'thanks' when you get a love fest! pr0ff's all about the Ragnarok grind and appreciates your support.",
       "_profileAtCount": 40,
       "lastStreamInfo": "Hiii! — Ragnarok Online",
-      "lastStreamEndedAt": 1787575524030,
+      "lastStreamEndedAt": 1787728909811,
       "nudgedAt": 1786524138354,
       "nudgedKey": "schedule"
     },
@@ -10229,7 +10229,7 @@
         "totalVotes": 386,
         "totalSubs": 11,
         "totalChatMessages": 279,
-        "totalStreamMinutes": 1501,
+        "totalStreamMinutes": 1521,
         "emotes": {
           "❤": 32,
           "🙌": 21,
@@ -11151,7 +11151,7 @@
         "totalVotes": 854,
         "totalSubs": 6,
         "totalChatMessages": 228,
-        "totalStreamMinutes": 1164,
+        "totalStreamMinutes": 1184,
         "emotes": {
           "❤": 17,
           "🙌": 9,
@@ -12306,9 +12306,9 @@
       "n": 3
     },
     "octo": {
-      "note": "Enjoys zombie‑style games, playful banter, tweaking Discord, and careful multistreaming with music.",
-      "at": 1787578516008,
-      "n": 15
+      "note": "Enjoys zombie‑style games, playful banter, tweaking Discord, careful multistreaming with music, and chatting about GPU power and ice‑cream treats.",
+      "at": 1787728996230,
+      "n": 16
     },
     "rabisright": {
       "note": "The person, \"rabisright\", enjoys playing Valve games, particularly the Half Life and Portal series, and has a humorous reaction to intense gaming moments.",
