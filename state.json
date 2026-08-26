@@ -10229,7 +10229,7 @@
         "totalVotes": 386,
         "totalSubs": 11,
         "totalChatMessages": 279,
-        "totalStreamMinutes": 1521,
+        "totalStreamMinutes": 1528,
         "emotes": {
           "❤": 32,
           "🙌": 21,
@@ -10832,9 +10832,9 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 4230,
+        "totalVotes": 4240,
         "totalSubs": 49,
-        "totalChatMessages": 1725,
+        "totalChatMessages": 1726,
         "totalStreamMinutes": 3633,
         "emotes": {
           "😅": 1,
@@ -10864,7 +10864,7 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": 29,
           "37719561-c923-4260-b1a5-e3eda10c103d": 8,
           "🎁": 66,
-          "🗳": 105,
+          "🗳": 108,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 6,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 6,
           "📴": 8,
@@ -10957,17 +10957,13 @@
           "💃": "💃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787715583053,
+        "lastChatAt": 1787729470796,
         "lastSendFailAt": 1787327474865,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1787329005351,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "meyetechnicals",
-          "msg": "router reatarted"
-        },
         {
           "user": "fartvader",
           "msg": "gotcha bro"
@@ -11003,6 +10999,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -11151,7 +11151,7 @@
         "totalVotes": 854,
         "totalSubs": 6,
         "totalChatMessages": 228,
-        "totalStreamMinutes": 1184,
+        "totalStreamMinutes": 1191,
         "emotes": {
           "❤": 17,
           "🙌": 9,
@@ -12081,9 +12081,9 @@
       "n": 13
     },
     "agent00zani": {
-      "note": "Energetic streamer who loves anime, plays Once Human, Delta Force, Valorant, Warzone, and keeps chat lively with upbeat, humorous banter.",
-      "at": 1787646496151,
-      "n": 36
+      "note": "Energetic streamer who loves anime and keeps chat lively with upbeat, humorous banter while playing Once Human, Delta Force, Valorant, and Warzone.",
+      "at": 1787729656424,
+      "n": 37
     },
     "crypt0k1ng96": {
       "note": "Notes:\n- Their username is crypt0k1ng96.\n- They are into Blaze, a platform that offers rewards in the form of Blaze.\n- They are testing FoxBot AI, a chatbot, and are offering $5 in Blaze to help test it.\n- They have a wife who cooks pasta.\n",
@@ -12890,8 +12890,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787728102015,
   "auth": {
-    "accessToken": "0b5f17396ef0f8b717b4e6586691ddba",
-    "refreshToken": "c954278fbd8bdf850ca603484ede8bba",
+    "accessToken": "1eae9265fd305da18c2f9a621d003e58",
+    "refreshToken": "d5b0c7b968b9573810a4be2e369bccfc",
     "sessionToken": "dff1f4c42fc13a8507620aa881934628",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
