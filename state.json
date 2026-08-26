@@ -3646,8 +3646,8 @@
       "stats": {
         "totalVotes": 15417,
         "totalSubs": 44,
-        "totalChatMessages": 7598,
-        "totalStreamMinutes": 5395,
+        "totalChatMessages": 7600,
+        "totalStreamMinutes": 5415,
         "emotes": {
           "❤": 145,
           "🙌": 240,
@@ -3656,7 +3656,7 @@
           "😊": 10,
           "👍": 10,
           "🔴": 18,
-          "🎉": 94,
+          "🎉": 95,
           "📴": 18,
           "👋": 24,
           "⚡": 56,
@@ -3673,7 +3673,7 @@
           "💃": 46,
           "🤣": 133,
           "🧡": 16,
-          "🚨": 168,
+          "🚨": 174,
           "😘": 2,
           "🥰": 26,
           "🎁": 66,
@@ -4069,17 +4069,9 @@
           "🦾": "🦾"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787718706436
+        "lastChatAt": 1787720107120
       },
       "chatMemory": [
-        {
-          "user": "precido1",
-          "msg": "grotto games for noe"
-        },
-        {
-          "user": "precido1",
-          "msg": "nowstill looking for another thing to do"
-        },
         {
           "user": "precido1",
           "msg": "yeah wrathtank"
@@ -4111,6 +4103,14 @@
         {
           "user": "briggsy",
           "msg": "[emote:51d5d291-383d-4ca1-a27a-6678041b3a66]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "bro, i'll be on lurk mode..work activity just started."
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @Marowak33 is raiding with a party of 3! Welcome raiders!! 🎉"
         }
       ],
       "customCommands": {},
@@ -12874,6 +12874,11 @@
     "mistersupercool": {
       "note": "Mistersupercool greets viewers with playful emotes, says “GM,” and jokes with “lol gg” while chatting casually.",
       "at": 1787717776310,
+      "n": 1
+    },
+    "precido1": {
+      "note": "They enjoy playing Grotto Games and Wrathtank, and they chat",
+      "at": 1787719756371,
       "n": 1
     }
   },
