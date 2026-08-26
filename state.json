@@ -11179,7 +11179,7 @@
         "totalVotes": 874,
         "totalSubs": 6,
         "totalChatMessages": 252,
-        "totalStreamMinutes": 1426,
+        "totalStreamMinutes": 1427,
         "emotes": {
           "❤": 20,
           "🙌": 10,
@@ -12055,13 +12055,19 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1787753290008
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
