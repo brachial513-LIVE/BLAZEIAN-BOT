@@ -10931,8 +10931,8 @@
       "stats": {
         "totalVotes": 4272,
         "totalSubs": 49,
-        "totalChatMessages": 1830,
-        "totalStreamMinutes": 3814,
+        "totalChatMessages": 1832,
+        "totalStreamMinutes": 3819,
         "emotes": {
           "😅": 1,
           "🔥": 129,
@@ -10977,7 +10977,7 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": 5,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 4,
           "🎮": 1,
-          "21f398af-51dd-49cb-a896-76bf8af659ea": 1,
+          "21f398af-51dd-49cb-a896-76bf8af659ea": 6,
           "f1697b36-b55e-4126-a445-57cc12632693": 11,
           "ddd8e0e5-6002-45e8-9ad3-c5a6225d5daf": 19,
           "4b835a57-eefa-482f-a3eb-1e5cfe3e9820": 8,
@@ -11056,21 +11056,13 @@
           "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": "ANGRYPYRO2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787820850139,
+        "lastChatAt": 1787823462216,
         "lastSendFailAt": 1787327474865,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1787329005351,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]  hahha g"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f]"
-        },
         {
           "user": "mutzume",
           "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
@@ -11102,6 +11094,14 @@
         {
           "user": "botger",
           "msg": "📢 Shoutout to @noodles, streamer of Mobile Legends: Bang bang! 🔥 Make sure to check out https://blaze.stream/noodles and show some support ❤️‍🔥"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "[emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea] [emote:21f398af-51dd-49cb-a896-76bf8af659ea]"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "helloooooooooooooooo"
         }
       ],
       "customCommands": {},
@@ -11393,7 +11393,7 @@
         "totalVotes": 730,
         "totalSubs": 10,
         "totalChatMessages": 461,
-        "totalStreamMinutes": 1801,
+        "totalStreamMinutes": 1806,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -13060,8 +13060,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787780822265,
   "auth": {
-    "accessToken": "f843f1deec19a6042483cf5ddad7afe9",
-    "refreshToken": "71a24d11c2ad045d99dc636f457784cf",
+    "accessToken": "2e128ec8337ad847a0d038998004ba15",
+    "refreshToken": "7201d9962e3a7008492b0b1562ca45d3",
     "sessionToken": "ee9665a4285f083c42e310a425d8514b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
