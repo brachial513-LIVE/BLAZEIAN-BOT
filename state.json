@@ -4365,7 +4365,7 @@
       "stats": {
         "totalVotes": 15032,
         "totalSubs": 36,
-        "totalChatMessages": 4995,
+        "totalChatMessages": 4996,
         "totalStreamMinutes": 9086,
         "emotes": {
           "❤": 59,
@@ -4468,7 +4468,7 @@
           "022678e3-1b96-4a20-a88e-3cb54cca477b": 1,
           "2deeee8b-5a34-4fdf-a770-4ba5b15bfdc5": 2,
           "40b32399-b774-4742-af0f-4cb53635e769": 2,
-          "85bc92da-0bf0-4357-a36a-48624e6fb778": 4,
+          "85bc92da-0bf0-4357-a36a-48624e6fb778": 5,
           "579cce98-01b9-4c4e-aded-e8a7d6692b7f": 1,
           "0ec398a2-c3b9-4312-9191-75a653e456b1": 1,
           "7e247bfc-7ca4-47e5-aa10-a9d213c9c561": 2,
@@ -4637,14 +4637,10 @@
           "0673c28c-2730-429d-bc8e-5e73d60dc53d": "bidlo",
           "0c236159-891b-4b33-b65b-b2bcc52a8061": "sipdance"
         },
-        "lastChatAt": 1787797677328,
+        "lastChatAt": 1787811118938,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "lol"
-        },
         {
           "user": "briggsy",
           "msg": "Haha"
@@ -4680,6 +4676,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "[emote:85bc92da-0bf0-4357-a36a-48624e6fb778]"
         }
       ],
       "customCommands": {},
@@ -6707,16 +6707,16 @@
       "stats": {
         "totalVotes": 5968,
         "totalSubs": 77,
-        "totalChatMessages": 610,
-        "totalStreamMinutes": 3302,
+        "totalChatMessages": 612,
+        "totalStreamMinutes": 3314,
         "emotes": {
           "❤": 27,
           "🙌": 86,
           "🔴": 31,
           "🎉": 36,
           "😂": 4,
-          "📴": 31,
-          "👋": 31,
+          "📴": 32,
+          "👋": 32,
           "🎁": 142,
           "🔥": 10,
           "🗳": 81,
@@ -6748,17 +6748,9 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787806974168
+        "lastChatAt": 1787810669898
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Come chill in Chainers, a super simple and fun farming game anyone can enjoy — even the kids. Build, farm, earn crypto, and vibe with a laid‑back community. It’s free, it’s easy, and it’s actually addicting in the best way. Jump in and start growing with us: https://chainers.io/?r=mixncg74"
-        },
-        {
-          "user": "inn",
-          "msg": "come play faded! didnt see ya on here till now!"
-        },
         {
           "user": "inn",
           "msg": "this game does look a lil sick tho"
@@ -6790,6 +6782,14 @@
         {
           "user": "scurvybot",
           "msg": "Come chill in Chainers, a super simple and fun farming game anyone can enjoy — even the kids. Build, farm, earn crypto, and vibe with a laid‑back community. It’s free, it’s easy, and it’s actually addicting in the best way. Jump in and start growing with us: https://chainers.io/?r=mixncg74"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Come chill in Chainers, a super simple and fun farming game anyone can enjoy — even the kids. Build, farm, earn crypto, and vibe with a laid‑back community. It’s free, it’s easy, and it’s actually addicting in the best way. Jump in and start growing with us: https://chainers.io/?r=mixncg74"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6802,7 +6802,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/eaf52e0e-c43a-4a95-ae72-8f8f3836332e.jpeg",
-      "streamTitle": "Just a little Faded Before Work — Faded Monsuta",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to thewill3ffect’s squad! We live in “Slay Mode” + “Meme Mode” combos, celebrating mods with “GIFTED SUBS” and “LOVE FESTS.” Raid alerts, Space Mining & Dungeon Crawler keep the vibe lit",
       "_profileAtCount": 597,
@@ -6824,7 +6824,7 @@
         }
       },
       "lastStreamInfo": "Just a little Faded Before Work — Faded Monsuta",
-      "lastStreamEndedAt": 1787780601417,
+      "lastStreamEndedAt": 1787810664667,
       "nudgedAt": 1786555068712,
       "nudgedKey": "schedule"
     },
