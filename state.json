@@ -623,7 +623,7 @@
       "stats": {
         "totalVotes": 52848,
         "totalSubs": 76,
-        "totalChatMessages": 7071,
+        "totalChatMessages": 7072,
         "totalStreamMinutes": 1953,
         "emotes": {
           "🗳": 1176,
@@ -773,8 +773,8 @@
           "⚔": 4,
           "7fc3d23c-3061-4e07-be1d-ff1c414b160c": 1,
           "🐻": 1,
-          "⚠": 1,
-          "🎯": 1,
+          "⚠": 2,
+          "🎯": 2,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 6,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 2
         },
@@ -932,17 +932,13 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787858317249,
+        "lastChatAt": 1787871078820,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @MAVOmusic just gave 5 vote(s) (total: 505)! Thank you!! 🗳️"
-        },
         {
           "user": "jaggerjack",
           "msg": "Master Roshi! I really appreciate the votes! It means a lot to me! Thank you again!"
@@ -978,6 +974,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up vroshi55! You're projected to fall below Verified (Tier 2) in approximately 3 day(s) (Aug 30 at 22:51 UTC). Current stream hours: 10.2h / 10h required. Stream more to maintain your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -1071,7 +1071,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 12236,
+        "totalVotes": 12286,
         "totalSubs": 22,
         "totalChatMessages": 18970,
         "totalStreamMinutes": 1804,
@@ -4789,7 +4789,7 @@
         "totalVotes": 6241,
         "totalSubs": 69,
         "totalChatMessages": 537,
-        "totalStreamMinutes": 12058,
+        "totalStreamMinutes": 12074,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -6457,8 +6457,8 @@
       "stats": {
         "totalVotes": 4691,
         "totalSubs": 27,
-        "totalChatMessages": 1398,
-        "totalStreamMinutes": 9274,
+        "totalChatMessages": 1399,
+        "totalStreamMinutes": 9290,
         "emotes": {
           "🔥": 401,
           "🔴": 142,
@@ -6581,14 +6581,10 @@
           "6e88b7f9-bd2e-441e-8cd2-3c5aaf5d0f91": "DSTG",
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
-        "lastChatAt": 1787869847318,
+        "lastChatAt": 1787871996696,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @xxTOWERDOGxx just gifted a sub to @retrogains12! How generous!! 🙌"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -6624,6 +6620,10 @@
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "flash",
+          "msg": "blaze"
         }
       ],
       "customCommands": {},
@@ -7253,8 +7253,8 @@
       "stats": {
         "totalVotes": 5743,
         "totalSubs": 70,
-        "totalChatMessages": 507,
-        "totalStreamMinutes": 1344,
+        "totalChatMessages": 508,
+        "totalStreamMinutes": 1361,
         "emotes": {
           "❤": 16,
           "🙌": 78,
@@ -7270,7 +7270,9 @@
           "🤔": 1,
           "😇": 2,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 2,
-          "b17e837c-fe4f-480c-ac68-9bb027ff5923": 1
+          "b17e837c-fe4f-480c-ac68-9bb027ff5923": 1,
+          "⚠": 1,
+          "🎯": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7287,16 +7289,14 @@
           "🤔": "🤔",
           "😇": "😇",
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE",
-          "b17e837c-fe4f-480c-ac68-9bb027ff5923": "BLAZEICONX"
+          "b17e837c-fe4f-480c-ac68-9bb027ff5923": "BLAZEICONX",
+          "⚠": "⚠",
+          "🎯": "🎯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787868435103
+        "lastChatAt": 1787871087091
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -7332,6 +7332,10 @@
         {
           "user": "lady_iris",
           "msg": "bem vindo querido"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up lady_iris! You're projected to fall below Verified (Tier 2) in approximately 6 day(s) (Sep 02 at 22:51 UTC). Current stream hours: 15.4h / 10h required. Stream more to maintain your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -9647,14 +9651,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 11074,
+        "totalVotes": 11084,
         "totalSubs": 14,
-        "totalChatMessages": 2646,
+        "totalChatMessages": 2648,
         "totalStreamMinutes": 4215,
         "emotes": {
           "❤": 52,
           "🙌": 39,
-          "🗳": 510,
+          "🗳": 513,
           "🔴": 45,
           "🎉": 75,
           "🏃": 1,
@@ -9794,17 +9798,9 @@
           "💙": "💙"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787858280179
+        "lastChatAt": 1787871623870
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @noodles!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @noodles just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 10 votes, @joseph!"
@@ -9836,6 +9832,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 10 vote(s) (total: 35)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @CedriCDebleD!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -10490,14 +10494,14 @@
       "language": "en",
       "joinedAt": 1785689052676,
       "stats": {
-        "totalVotes": 6204,
+        "totalVotes": 6208,
         "totalSubs": 34,
-        "totalChatMessages": 724,
+        "totalChatMessages": 725,
         "totalStreamMinutes": 2034,
         "emotes": {
           "❤": 38,
           "🙌": 51,
-          "🗳": 174,
+          "🗳": 177,
           "♥": 4,
           "🔴": 25,
           "🎉": 36,
@@ -10591,13 +10595,9 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787850939078
+        "lastChatAt": 1787871702139
       },
       "chatMemory": [
-        {
-          "user": "seventh",
-          "msg": "gm gm ate @nekoschwan"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -10633,6 +10633,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 4 vote(s) (total: 4)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -12118,7 +12122,7 @@
         "totalVotes": 357,
         "totalSubs": 0,
         "totalChatMessages": 84,
-        "totalStreamMinutes": 532,
+        "totalStreamMinutes": 549,
         "emotes": {
           "✌": 2,
           "🔥": 2,
@@ -12626,9 +12630,9 @@
       "n": 17
     },
     "piweb": {
-      "note": "They enjoy playing games like Fortnite and backgammon, appreciate humor related to leisure activities, and engage in lighthearted banter.",
-      "at": 1786615564588,
-      "n": 9
+      "note": "They play Fortnite and backgammon, enjoy lighthearted banter and humor about gaming and everyday life.",
+      "at": 1787871709457,
+      "n": 10
     },
     "ruri666": {
       "note": "They love drawing, playing free and multiplayer games, and keep the chat lively with casual, enthusiastic humor.",
@@ -13145,8 +13149,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787863444929,
   "auth": {
-    "accessToken": "e50e9ffbddd1949e25c872b0bc3d8235",
-    "refreshToken": "604bac30b4c0452cd504102bf489b0dd",
+    "accessToken": "fe45d2acd85b885c6664200b8fc3baa9",
+    "refreshToken": "3b1d3e8b8e9ff6987155e8bf976dc892",
     "sessionToken": "ee9665a4285f083c42e310a425d8514b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
