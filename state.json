@@ -1386,7 +1386,7 @@
         "totalVotes": 13524,
         "totalSubs": 118,
         "totalChatMessages": 6235,
-        "totalStreamMinutes": 19098,
+        "totalStreamMinutes": 19102,
         "emotes": {
           "📊": 3,
           "🔥": 370,
@@ -6873,7 +6873,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 52,
-        "totalStreamMinutes": 4687,
+        "totalStreamMinutes": 4691,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -9348,15 +9348,15 @@
       "stats": {
         "totalVotes": 4177,
         "totalSubs": 8,
-        "totalChatMessages": 691,
+        "totalChatMessages": 693,
         "totalStreamMinutes": 4958,
         "emotes": {
           "❤": 50,
           "🙌": 23,
           "📴": 30,
           "👋": 32,
-          "🔴": 28,
-          "🎉": 39,
+          "🔴": 29,
+          "🎉": 40,
           "🔥": 56,
           "🗳": 213,
           "😀": 2,
@@ -9447,17 +9447,9 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787860971897
+        "lastChatAt": 1787863920329
       },
       "chatMemory": [
-        {
-          "user": "peperonitostv",
-          "msg": "Have a nice stream!"
-        },
-        {
-          "user": "missaria",
-          "msg": "hello @guney"
-        },
         {
           "user": "missaria",
           "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
@@ -9489,6 +9481,14 @@
         {
           "user": "piweb",
           "msg": "What's up with OTG"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 guney is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "fluffy",
+          "msg": "Hey kankaaa have a good stream"
         }
       ],
       "customCommands": {},
@@ -10655,7 +10655,7 @@
         "totalVotes": 2013,
         "totalSubs": 9,
         "totalChatMessages": 430,
-        "totalStreamMinutes": 4622,
+        "totalStreamMinutes": 4626,
         "emotes": {
           "❤": 26,
           "🙌": 21,
@@ -12104,7 +12104,7 @@
         "totalVotes": 357,
         "totalSubs": 0,
         "totalChatMessages": 82,
-        "totalStreamMinutes": 410,
+        "totalStreamMinutes": 414,
         "emotes": {
           "✌": 2,
           "🔥": 2,
@@ -13131,8 +13131,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787863444929,
   "auth": {
-    "accessToken": "fca0a8c08c05b224ecadadd7e8701461",
-    "refreshToken": "137423497d247848aec5c22f9c127705",
+    "accessToken": "4cbef4a46b9b208c80d8f5cba835a84f",
+    "refreshToken": "fc4a62d23c9070d0998e573be4dc9d11",
     "sessionToken": "ee9665a4285f083c42e310a425d8514b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
