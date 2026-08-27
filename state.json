@@ -4789,7 +4789,7 @@
         "totalVotes": 6241,
         "totalSubs": 69,
         "totalChatMessages": 537,
-        "totalStreamMinutes": 12024,
+        "totalStreamMinutes": 12029,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -7244,7 +7244,7 @@
         "totalVotes": 5743,
         "totalSubs": 70,
         "totalChatMessages": 507,
-        "totalStreamMinutes": 1311,
+        "totalStreamMinutes": 1316,
         "emotes": {
           "❤": 16,
           "🙌": 78,
@@ -10658,8 +10658,8 @@
       "stats": {
         "totalVotes": 2014,
         "totalSubs": 9,
-        "totalChatMessages": 432,
-        "totalStreamMinutes": 4711,
+        "totalChatMessages": 434,
+        "totalStreamMinutes": 4713,
         "emotes": {
           "❤": 26,
           "🙌": 21,
@@ -10669,8 +10669,8 @@
           "🔴": 30,
           "🎉": 33,
           "🗳": 90,
-          "📴": 29,
-          "👋": 30,
+          "📴": 30,
+          "👋": 31,
           "☺": 2,
           "🎁": 18,
           "🍺": 10,
@@ -10729,17 +10729,9 @@
           "d7f4fdce-e137-41a9-837c-1afa844e7834": "PYROFIREHORSE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787868191930
+        "lastChatAt": 1787869230126
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:07de98c1-b682-4d82-b630-774474b712cc]"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:d7f4fdce-e137-41a9-837c-1afa844e7834]"
-        },
         {
           "user": "tarzan",
           "msg": "Let's goo Mario's"
@@ -10771,6 +10763,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @retrogains12 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -10786,9 +10786,9 @@
       "avatarUrl": "https://pbs.twimg.com/profile_images/1997811286168440832/QsvpEBYx_normal.jpg",
       "followed": true,
       "botVip": true,
-      "streamTitle": "200 vote giveaway this Thursday|  Warzone ranked  | !wheelentries — Call Of Duty Warzone",
+      "streamTitle": "",
       "lastStreamInfo": "200 vote giveaway this Thursday|  Warzone ranked  | !wheelentries — Call Of Duty Warzone",
-      "lastStreamEndedAt": 1787695002925,
+      "lastStreamEndedAt": 1787869224830,
       "gameOverride": "",
       "profile": "marioscy5 streams chill vibes, OTG pro skills, and “Like I finally found your stream” moments. The chat screams “You got this” in Counter‑Strike, erupts with “GIFTED SUB!!” when subs drop, and goes wild when “GM gm” starts the stream. Expect “❤️ NEW FOLLOWER!! ❤️” alerts, vote shoutouts, and a community that loves celebrating every win.",
       "_profileAtCount": 410,
@@ -12108,7 +12108,7 @@
         "totalVotes": 357,
         "totalSubs": 0,
         "totalChatMessages": 84,
-        "totalStreamMinutes": 499,
+        "totalStreamMinutes": 504,
         "emotes": {
           "✌": 2,
           "🔥": 2,
@@ -13135,8 +13135,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787863444929,
   "auth": {
-    "accessToken": "3ee50686f800427ce703f6a5c2928bbc",
-    "refreshToken": "42a36ba6d5c7c7ca763f1d6de1f34b31",
+    "accessToken": "e50e9ffbddd1949e25c872b0bc3d8235",
+    "refreshToken": "604bac30b4c0452cd504102bf489b0dd",
     "sessionToken": "ee9665a4285f083c42e310a425d8514b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
