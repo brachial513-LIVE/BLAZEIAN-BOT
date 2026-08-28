@@ -7255,15 +7255,15 @@
       "stats": {
         "totalVotes": 5743,
         "totalSubs": 70,
-        "totalChatMessages": 525,
-        "totalStreamMinutes": 1896,
+        "totalChatMessages": 527,
+        "totalStreamMinutes": 1897,
         "emotes": {
           "❤": 18,
           "🙌": 79,
           "🔴": 12,
           "🎉": 12,
-          "📴": 11,
-          "👋": 11,
+          "📴": 12,
+          "👋": 12,
           "🗳": 39,
           "🎁": 140,
           "🤗": 1,
@@ -7298,17 +7298,9 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787901534663
+        "lastChatAt": 1787904240797
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ tcwarrioretp just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "chupacol",
           "msg": "vai dormir iris"
@@ -7340,6 +7332,14 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7350,13 +7350,13 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "streamTitle": "ARK Survival com o amigo Cavera — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1087d984-7048-475d-b8f9-c93c14eefc15.gif",
       "profile": "lady_iris’s channel is a high‑energy hub for crypto trading, Tetris builds, and gaming chatter. The community loves “vai”, “yuppie”, “yayyyyyyyy”, “yuppiiiiii”, and “trans muda” hype. They cheer “S2” moments, shout out “yayyyyyyyy” when lady_iris hits a streak, and celebrate every trade win with enthusiastic, slang‑filled cheers.",
       "_profileAtCount": 493,
-      "lastStreamInfo": "Hantec 5k - USA session | @DestinoProspero trading student — Crypto",
-      "lastStreamEndedAt": 1787452127673,
+      "lastStreamInfo": "ARK Survival com o amigo Cavera — Crypto",
+      "lastStreamEndedAt": 1787904235537,
       "nudgedAt": 1786053663388,
       "nudgedKey": "schedule"
     },
@@ -13188,8 +13188,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787898935919,
   "auth": {
-    "accessToken": "1ba74a6ac68f788c22aa82a88d17c5b0",
-    "refreshToken": "86baebe3e61c16353bf44115cd762a64",
+    "accessToken": "3c4f1f0481cca57b7e122eb7adc3e0a9",
+    "refreshToken": "c51adc4648d97588121bd13549f484dd",
     "sessionToken": "8930d226e05a83da233d313f117981af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
