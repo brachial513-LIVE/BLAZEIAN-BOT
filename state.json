@@ -1406,7 +1406,7 @@
         "totalVotes": 13549,
         "totalSubs": 121,
         "totalChatMessages": 6351,
-        "totalStreamMinutes": 19492,
+        "totalStreamMinutes": 19497,
         "emotes": {
           "📊": 3,
           "🔥": 374,
@@ -2520,7 +2520,7 @@
         "totalVotes": 9223,
         "totalSubs": 34,
         "totalChatMessages": 7388,
-        "totalStreamMinutes": 3536,
+        "totalStreamMinutes": 3541,
         "emotes": {
           "❤": 3064,
           "🎵": 303,
@@ -4821,7 +4821,7 @@
         "totalVotes": 6242,
         "totalSubs": 69,
         "totalChatMessages": 541,
-        "totalStreamMinutes": 12476,
+        "totalStreamMinutes": 12481,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -7402,8 +7402,8 @@
       "stats": {
         "totalVotes": 5168,
         "totalSubs": 34,
-        "totalChatMessages": 1335,
-        "totalStreamMinutes": 2459,
+        "totalChatMessages": 1337,
+        "totalStreamMinutes": 2464,
         "emotes": {
           "❤": 116,
           "🙌": 89,
@@ -7464,10 +7464,11 @@
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "da339ef7-1574-4f2f-8b48-666688167af3": 2,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 1,
-          "82fcfea6-f363-4412-9dfe-f2e560aceb8f": 1,
+          "82fcfea6-f363-4412-9dfe-f2e560aceb8f": 2,
           "1ec71433-9e46-4649-890d-720b6fae9be1": 1,
           "🙏": 1,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1,
+          "d725f791-b459-406f-927f-e7e8443a3326": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7532,20 +7533,13 @@
           "82fcfea6-f363-4412-9dfe-f2e560aceb8f": "Butters",
           "1ec71433-9e46-4649-890d-720b6fae9be1": "sharingan",
           "🙏": "🙏",
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE",
+          "d725f791-b459-406f-927f-e7e8443a3326": "Kyle"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787952756806
+        "lastChatAt": 1787952890290
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @octo!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @octo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 100 votes, @Cheeseyeggs!"
@@ -7577,6 +7571,14 @@
         {
           "user": "cookiexfalcon_",
           "msg": "👋"
+        },
+        {
+          "user": "cookiexfalcon_",
+          "msg": "its going good sir how are you?"
+        },
+        {
+          "user": "s1lent2193",
+          "msg": "[emote:82fcfea6-f363-4412-9dfe-f2e560aceb8f] [emote:d725f791-b459-406f-927f-e7e8443a3326]"
         }
       ],
       "customCommands": {},
@@ -13260,8 +13262,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787947590752,
   "auth": {
-    "accessToken": "e21cc84138f7da1ad08d38b14da81993",
-    "refreshToken": "436fc7ad6c4e7899ef2d1f7a35502b8b",
+    "accessToken": "356bed594119c73e54b9c69fa953ae30",
+    "refreshToken": "6b469da0abe8b506ad29fc12eff3147d",
     "sessionToken": "8930d226e05a83da233d313f117981af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
