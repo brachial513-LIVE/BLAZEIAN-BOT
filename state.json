@@ -1385,8 +1385,8 @@
       "stats": {
         "totalVotes": 13549,
         "totalSubs": 119,
-        "totalChatMessages": 6290,
-        "totalStreamMinutes": 19263,
+        "totalChatMessages": 6293,
+        "totalStreamMinutes": 19272,
         "emotes": {
           "📊": 3,
           "🔥": 371,
@@ -1553,7 +1553,7 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 22,
           "bf90af59-ac95-4416-b7bc-859f438903d4": 1,
           "4350ff7d-5837-4d9c-9e2a-828c83923b57": 1,
-          "07de98c1-b682-4d82-b630-774474b712cc": 8,
+          "07de98c1-b682-4d82-b630-774474b712cc": 9,
           "d7f4fdce-e137-41a9-837c-1afa844e7834": 2,
           "🪅": 2,
           "🎂": 2,
@@ -1572,9 +1572,9 @@
           "f3467606-71eb-4f39-a82b-fb7761acebaa": 3,
           "2c730e4b-9ee3-4a88-ba72-1ed5264694bd": 2,
           "77acf707-ea5e-439c-a0d4-fd28803f8316": 1,
-          "40e2bb38-258d-4257-93d7-258c4ce090b9": 1,
+          "40e2bb38-258d-4257-93d7-258c4ce090b9": 2,
           "008de469-bdf8-4cdc-84a3-18c80a17fb9e": 2,
-          "7cf92fc4-db3c-4fa7-9a14-fa463f5670d7": 3,
+          "7cf92fc4-db3c-4fa7-9a14-fa463f5670d7": 4,
           "90a79666-6a1e-4bbf-9027-28b1ed6b7dc2": 1,
           "4db717df-01cb-4963-b5aa-df732cddc4c2": 1,
           "36d81463-d945-442b-8b8b-74f298f4d9e5": 1,
@@ -1786,21 +1786,9 @@
           "70f64626-0432-4a47-9d38-6641189de9c6": "KingFox"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787938610089
+        "lastChatAt": 1787939214612
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Yes all good"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "I have cheap one with minigun haha"
-        },
-        {
-          "user": "piweb",
-          "msg": "I got to play much faster"
-        },
         {
           "user": "piweb",
           "msg": "Or I won't make it"
@@ -1828,6 +1816,18 @@
         {
           "user": "piweb",
           "msg": "Like the dude is playing solo"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:07de98c1-b682-4d82-b630-774474b712cc]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:40e2bb38-258d-4257-93d7-258c4ce090b9]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:7cf92fc4-db3c-4fa7-9a14-fa463f5670d7]"
         }
       ],
       "customCommands": {},
@@ -2497,18 +2497,18 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 9173,
+        "totalVotes": 9183,
         "totalSubs": 34,
-        "totalChatMessages": 7142,
-        "totalStreamMinutes": 3307,
+        "totalChatMessages": 7153,
+        "totalStreamMinutes": 3316,
         "emotes": {
-          "❤": 2873,
-          "🎵": 276,
+          "❤": 2889,
+          "🎵": 279,
           "💃": 177,
           "🔥": 452,
           "💚": 22,
           "👋": 120,
-          "🚨": 180,
+          "🚨": 182,
           "😊": 2,
           "🚀": 4,
           "😂": 45,
@@ -2530,7 +2530,7 @@
           "🥹": 4,
           "🤣": 218,
           "🥚": 13,
-          "🙏": 127,
+          "🙏": 131,
           "😀": 13,
           "♥": 203,
           "🥶": 2,
@@ -2628,7 +2628,7 @@
           "💛": 7,
           "👨": 1,
           "🎊": 1,
-          "🙌": 26,
+          "🙌": 30,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 2,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 1,
           "😬": 1,
@@ -2642,7 +2642,8 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
           "😘": 1,
           "🌸": 6,
-          "🤝": 2
+          "🤝": 2,
+          "🌹": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -2785,55 +2786,56 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
           "😘": "😘",
           "🌸": "🌸",
-          "🤝": "🤝"
+          "🤝": "🤝",
+          "🌹": "🌹"
         },
-        "lastChatAt": 1787939003218,
-        "sendFailStreak": 220,
-        "lastSendFailAt": 1787938977343,
+        "lastChatAt": 1787939561491,
+        "sendFailStreak": 224,
+        "lastSendFailAt": 1787939519544,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146
       },
       "chatMemory": [
         {
+          "user": "venessa2",
+          "msg": "🙌🙌🙌🙌🌹🌹🌹🙏🙏🙏🙏❤️❤️❤️ Love this song beautiful"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Me too!"
+        },
+        {
+          "user": "bee12",
+          "msg": "🎵🎵🎵"
+        },
+        {
+          "user": "venessa2",
+          "msg": "Awesome ❤️❤️❤️"
+        },
+        {
           "user": "midnitecatzlady",
           "msg": "❤️❤️❤️❤️"
         },
         {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
-        {
-          "user": "midnitecatzlady",
-          "msg": "get the blood pumping"
-        },
-        {
-          "user": "bee12",
-          "msg": "🙏🙏🙏"
-        },
-        {
-          "user": "venessa2",
-          "msg": "Hey everyone hey uncle funk ❤️❤️❤️"
-        },
-        {
-          "user": "bee12",
-          "msg": "hey lovely venessaaaaaaa❤️❤️❤️"
-        },
-        {
-          "user": "venessa2",
-          "msg": "Beautiful beeeeee 💗💗💗"
-        },
-        {
           "user": "unclefunk",
-          "msg": "Venesssaaaaaa"
+          "msg": "All these lyrics are written by David (the dude in the Bible)."
         },
         {
-          "user": "midnitecatzlady",
-          "msg": "Venessa, hello!"
+          "user": "bee12",
+          "msg": "❤️❤️❤️"
         },
         {
-          "user": "venessa2",
-          "msg": "❤️❤️❤️❤️🙏"
+          "user": "sheshi",
+          "msg": "BACK"
+        },
+        {
+          "user": "sheshi",
+          "msg": "hello mrs. venessa"
+        },
+        {
+          "user": "sheshi",
+          "msg": "🚨 Funk Sol Brother (Only 33) — collection on LaunchMyNFT. Minting one gives you whitelist for 12 guaranteed Ultra-Exotic NFTs in OSP Defense. Mint SOL BROTHER: https://bit.ly/4db96EI 🚨"
         }
       ],
       "customCommands": {},
@@ -4789,7 +4791,7 @@
         "totalVotes": 6242,
         "totalSubs": 69,
         "totalChatMessages": 539,
-        "totalStreamMinutes": 12344,
+        "totalStreamMinutes": 12353,
         "emotes": {
           "❤": 93,
           "🙌": 31,
@@ -11018,7 +11020,7 @@
         "totalVotes": 4412,
         "totalSubs": 49,
         "totalChatMessages": 1999,
-        "totalStreamMinutes": 4389,
+        "totalStreamMinutes": 4398,
         "emotes": {
           "😅": 1,
           "🔥": 135,
@@ -11217,7 +11219,7 @@
         "totalVotes": 6706,
         "totalSubs": 63,
         "totalChatMessages": 510,
-        "totalStreamMinutes": 2024,
+        "totalStreamMinutes": 2033,
         "emotes": {
           "❤": 66,
           "🙌": 99,
@@ -11328,7 +11330,7 @@
       "greeted": true,
       "locked": false,
       "profile": "Deadlock crew, “LOVE FEST” vibes, raiding, celebrating generosity. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, “ty ty for votes bro”, “How generous!!” when gifts, votes, or follows hit. The stream thrives on gifts, votes, hype, cheering for the next big win. charddxyz loves being celebrated with cheers, votes, and constant hype.",
-      "_profileAtCount": 467,
+      "_profileAtCount": 510,
       "streamTitle": "Rank Calibration & Good Music | Chill Stream — Deadlock",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/6f948e20-bb78-41a1-9c2e-6358e4a07cc5.png",
       "lastStreamInfo": "Rank Calibration & Good Music | Chill Stream — Deadlock",
@@ -11481,7 +11483,7 @@
         "totalVotes": 730,
         "totalSubs": 10,
         "totalChatMessages": 503,
-        "totalStreamMinutes": 2357,
+        "totalStreamMinutes": 2366,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -11923,7 +11925,7 @@
         "totalVotes": 525,
         "totalSubs": 8,
         "totalChatMessages": 129,
-        "totalStreamMinutes": 2450,
+        "totalStreamMinutes": 2459,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 4,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 6,
@@ -13226,8 +13228,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787898935919,
   "auth": {
-    "accessToken": "4f300298fd4153663fe530a7275b177c",
-    "refreshToken": "3bd8e797781f219237e1533562efe188",
+    "accessToken": "231f3c94dec6bbcf3798651bf3cb5ca9",
+    "refreshToken": "1de642df488d61250216aad556fe7ad3",
     "sessionToken": "8930d226e05a83da233d313f117981af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
