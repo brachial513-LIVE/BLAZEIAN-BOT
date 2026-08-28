@@ -6885,7 +6885,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 56,
-        "totalStreamMinutes": 4827,
+        "totalStreamMinutes": 4832,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -7805,7 +7805,7 @@
       "stats": {
         "totalVotes": 14010,
         "totalSubs": 8,
-        "totalChatMessages": 946,
+        "totalChatMessages": 948,
         "totalStreamMinutes": 1151,
         "emotes": {
           "❤": 15,
@@ -7951,20 +7951,12 @@
           "🙏": "🙏",
           "🤞": "🤞"
         },
-        "lastChatAt": 1787696701135,
+        "lastChatAt": 1787928570371,
         "sendFailStreak": 191,
         "lastSendFailAt": 1787744089909,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "dimifw",
-          "msg": "thanks briggsy"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Hey buddy"
-        },
         {
           "user": "slothsm",
           "msg": "hey bro"
@@ -7996,6 +7988,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "octo",
+          "msg": "the diminator"
+        },
+        {
+          "user": "octo",
+          "msg": "doug dimidome owner of the dimisdale dimidome"
         }
       ],
       "customCommands": {},
@@ -10194,7 +10194,7 @@
         "totalVotes": 3027,
         "totalSubs": 39,
         "totalChatMessages": 613,
-        "totalStreamMinutes": 1526,
+        "totalStreamMinutes": 1531,
         "emotes": {
           "❤": 71,
           "🙌": 60,
@@ -10388,7 +10388,7 @@
         "totalVotes": 429,
         "totalSubs": 12,
         "totalChatMessages": 435,
-        "totalStreamMinutes": 2121,
+        "totalStreamMinutes": 2126,
         "emotes": {
           "❤": 36,
           "🙌": 23,
@@ -13222,8 +13222,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787898935919,
   "auth": {
-    "accessToken": "1ab7fd0f8172793c2bb55818b508adc3",
-    "refreshToken": "2ebe48097ff1e0fef36010e0a13d5f20",
+    "accessToken": "603ea3135bd7c876259fa2a08303c414",
+    "refreshToken": "5f0ecb9f23f69a1cce855d7ee4815e40",
     "sessionToken": "8930d226e05a83da233d313f117981af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
