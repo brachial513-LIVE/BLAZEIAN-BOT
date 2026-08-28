@@ -1386,7 +1386,7 @@
         "totalVotes": 13524,
         "totalSubs": 118,
         "totalChatMessages": 6242,
-        "totalStreamMinutes": 19132,
+        "totalStreamMinutes": 19137,
         "emotes": {
           "📊": 3,
           "🔥": 371,
@@ -10194,7 +10194,7 @@
         "totalVotes": 3088,
         "totalSubs": 39,
         "totalChatMessages": 635,
-        "totalStreamMinutes": 1571,
+        "totalStreamMinutes": 1576,
         "emotes": {
           "❤": 73,
           "🙌": 61,
@@ -10390,7 +10390,7 @@
         "totalVotes": 429,
         "totalSubs": 12,
         "totalChatMessages": 442,
-        "totalStreamMinutes": 2166,
+        "totalStreamMinutes": 2171,
         "emotes": {
           "❤": 36,
           "🙌": 23,
@@ -11216,14 +11216,14 @@
       "stats": {
         "totalVotes": 6656,
         "totalSubs": 63,
-        "totalChatMessages": 495,
-        "totalStreamMinutes": 1896,
+        "totalChatMessages": 497,
+        "totalStreamMinutes": 1898,
         "emotes": {
           "❤": 66,
           "🙌": 99,
           "🎁": 126,
-          "🔴": 16,
-          "🎉": 22,
+          "🔴": 17,
+          "🎉": 23,
           "🗳": 138,
           "📴": 17,
           "👋": 17,
@@ -11273,17 +11273,9 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787926361266
+        "lastChatAt": 1787931337854
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @_VladEnzo!"
@@ -11315,6 +11307,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 charddxyz is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -11327,7 +11327,7 @@
       "locked": false,
       "profile": "Deadlock crew, “LOVE FEST” vibes, raiding, celebrating generosity. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, “ty ty for votes bro”, “How generous!!” when gifts, votes, or follows hit. The stream thrives on gifts, votes, hype, cheering for the next big win. charddxyz loves being celebrated with cheers, votes, and constant hype.",
       "_profileAtCount": 467,
-      "streamTitle": "",
+      "streamTitle": "Rank Calibration & Good Music | Chill Stream — Deadlock",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/6f948e20-bb78-41a1-9c2e-6358e4a07cc5.png",
       "lastStreamInfo": "Rank Calibration & Good Music | Chill Stream — Deadlock",
       "lastStreamEndedAt": 1787926356015,
@@ -13224,8 +13224,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787898935919,
   "auth": {
-    "accessToken": "603ea3135bd7c876259fa2a08303c414",
-    "refreshToken": "5f0ecb9f23f69a1cce855d7ee4815e40",
+    "accessToken": "122c9a8a6aec60f3a8d4cc6b43ca5b77",
+    "refreshToken": "878e4a3fa71f3ad3d4cda6057e988bc5",
     "sessionToken": "8930d226e05a83da233d313f117981af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
