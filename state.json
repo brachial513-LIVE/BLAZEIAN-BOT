@@ -1405,8 +1405,8 @@
       "stats": {
         "totalVotes": 13549,
         "totalSubs": 121,
-        "totalChatMessages": 6329,
-        "totalStreamMinutes": 19447,
+        "totalChatMessages": 6333,
+        "totalStreamMinutes": 19452,
         "emotes": {
           "📊": 3,
           "🔥": 373,
@@ -1456,7 +1456,7 @@
           "🔫": 3,
           "🪂": 3,
           "📍": 3,
-          "🎲": 5,
+          "🎲": 6,
           "🕹": 3,
           "🔊": 3,
           "💰": 33,
@@ -1552,7 +1552,7 @@
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": 2,
           "🦩": 8,
           "😁": 1,
-          "🎡": 34,
+          "🎡": 35,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 3,
           "🃏": 118,
           "♥": 148,
@@ -1806,17 +1806,9 @@
           "70f64626-0432-4a47-9d38-6641189de9c6": "KingFox"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787949907840
+        "lastChatAt": 1787950146833
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Taking a smoke break BRB"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:07de98c1-b682-4d82-b630-774474b712cc]"
-        },
         {
           "user": "foxbotai",
           "msg": "🃏 @crypt0k1ng96, dealt: 7♥ 6♣ (13) vs dealer showing 8♥. !hit or !stand?"
@@ -1848,6 +1840,14 @@
         {
           "user": "foxbotai",
           "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard, !convert, !casinoflip heads 10, !casino, !roulette red 10, !crash 10 2.5, !blackjack 10, !hit, !stand, !dice high 10, !slots 10 | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎲 @crypt0k1ng96, rolled 6 (predicted high) — you won 58 promo! Balance: 477 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎡 @crypt0k1ng96, ball landed on 27 red — you won 60 promo! Balance: 507 promo."
         }
       ],
       "customCommands": {},
@@ -2520,7 +2520,7 @@
         "totalVotes": 9223,
         "totalSubs": 34,
         "totalChatMessages": 7388,
-        "totalStreamMinutes": 3491,
+        "totalStreamMinutes": 3496,
         "emotes": {
           "❤": 3064,
           "🎵": 303,
@@ -13260,8 +13260,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787947590752,
   "auth": {
-    "accessToken": "4b5535186fea1cdfcc33fc5d368a87f7",
-    "refreshToken": "3f10a39940c3e30343155211c093a452",
+    "accessToken": "e21cc84138f7da1ad08d38b14da81993",
+    "refreshToken": "436fc7ad6c4e7899ef2d1f7a35502b8b",
     "sessionToken": "8930d226e05a83da233d313f117981af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
