@@ -12234,22 +12234,28 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 19,
+        "totalChatMessages": 20,
         "totalStreamMinutes": 63,
         "emotes": {
           "849b2d68-7a30-4dcc-9981-1906ce5d70ca": 1,
           "🤝": 2,
           "💚": 1,
-          "🔥": 1
+          "🔥": 1,
+          "37719561-c923-4260-b1a5-e3eda10c103d": 1,
+          "555a557b-672c-4db0-80d4-85564e0bbac4": 1,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 1
         },
         "emoteNames": {
           "849b2d68-7a30-4dcc-9981-1906ce5d70ca": "StarPyro",
           "🤝": "🤝",
           "💚": "💚",
-          "🔥": "🔥"
+          "🔥": "🔥",
+          "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
+          "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB",
+          "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787882040788
+        "lastChatAt": 1787909638193
       },
       "chatMemory": [
         {
@@ -12271,6 +12277,10 @@
         {
           "user": "gamergliderride",
           "msg": "@brachial513 thank for the follow and thank for the welcome can't wait to be streaming on here more"
+        },
+        {
+          "user": "brachial513",
+          "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:555a557b-672c-4db0-80d4-85564e0bbac4][emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {
@@ -13188,8 +13198,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787898935919,
   "auth": {
-    "accessToken": "57b4e75aa02cbee77901f0bf5a19fba0",
-    "refreshToken": "f2c90ac2b83fbae7501821d7d6b0a32e",
+    "accessToken": "f6765e3e381a1f37c7705afaa86fab7d",
+    "refreshToken": "105d22cbc8bea2781cc5e83cb0272723",
     "sessionToken": "8930d226e05a83da233d313f117981af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
