@@ -9072,7 +9072,7 @@
       "stats": {
         "totalVotes": 8814,
         "totalSubs": 0,
-        "totalChatMessages": 10705,
+        "totalChatMessages": 10707,
         "totalStreamMinutes": 7287,
         "emotes": {
           "❤": 27,
@@ -9081,7 +9081,7 @@
           "🔥": 15,
           "🔴": 52,
           "🎉": 94,
-          "🪙": 427,
+          "🪙": 428,
           "⚡": 94,
           "👀": 8,
           "🍿": 2,
@@ -9313,13 +9313,9 @@
           "❌": "❌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787886196326
+        "lastChatAt": 1787917416126
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🪙 @lovemikami 76,730 points."
-        },
         {
           "user": "lovemikami",
           "msg": "sqn não tem pontos"
@@ -9355,6 +9351,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @LipeMan 30,491 points."
         }
       ],
       "customCommands": {},
@@ -13198,8 +13198,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787898935919,
   "auth": {
-    "accessToken": "7e262d85cd2c3d6b451e256d3c4b056c",
-    "refreshToken": "73f80202a37f47762961ad20c48e7622",
+    "accessToken": "5eb4ba7793e002d78f3ddf05952f9c0a",
+    "refreshToken": "e7bc1ebf163f6e2ec6ad3ccc44ac64aa",
     "sessionToken": "8930d226e05a83da233d313f117981af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
