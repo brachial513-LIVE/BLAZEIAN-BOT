@@ -623,8 +623,8 @@
       "stats": {
         "totalVotes": 53790,
         "totalSubs": 76,
-        "totalChatMessages": 7593,
-        "totalStreamMinutes": 2080,
+        "totalChatMessages": 7596,
+        "totalStreamMinutes": 2085,
         "emotes": {
           "🗳": 1200,
           "❤": 478,
@@ -632,14 +632,14 @@
           "🔥": 207,
           "☺": 5,
           "🔴": 22,
-          "🎉": 84,
+          "🎉": 85,
           "📴": 21,
           "👋": 44,
           "🫶": 3,
           "💃": 2,
           "😂": 705,
           "😜": 2,
-          "🚨": 108,
+          "🚨": 114,
           "🦊": 10,
           "😅": 24,
           "🤗": 10,
@@ -940,25 +940,13 @@
           "🏆": "🏆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788035862404,
+        "lastChatAt": 1788036678316,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "sipofcoke",
-          "msg": "THANK YOU VROSHI!!!! HAVE A GREAT DAY!"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 50 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "tigresa",
           "msg": "Ty for everything!"
@@ -986,6 +974,18 @@
         {
           "user": "time",
           "msg": "heeey"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @xxTOWERDOGxx is raiding with a party of 4! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "xxtowerdogxx",
+          "msg": "Good evening"
+        },
+        {
+          "user": "xxtowerdogxx",
+          "msg": "Hows the games?"
         }
       ],
       "customCommands": {},
@@ -1414,7 +1414,7 @@
         "totalVotes": 13632,
         "totalSubs": 123,
         "totalChatMessages": 7773,
-        "totalStreamMinutes": 19983,
+        "totalStreamMinutes": 19988,
         "emotes": {
           "📊": 3,
           "🔥": 426,
@@ -2219,7 +2219,7 @@
         "totalVotes": 10798,
         "totalSubs": 46,
         "totalChatMessages": 4454,
-        "totalStreamMinutes": 14624,
+        "totalStreamMinutes": 14629,
         "emotes": {
           "❤": 171,
           "🙌": 118,
@@ -5098,7 +5098,7 @@
         "totalVotes": 9385,
         "totalSubs": 38,
         "totalChatMessages": 1191,
-        "totalStreamMinutes": 4765,
+        "totalStreamMinutes": 4770,
         "emotes": {
           "❤": 56,
           "🙌": 57,
@@ -5489,7 +5489,7 @@
         "totalVotes": 9468,
         "totalSubs": 26,
         "totalChatMessages": 1814,
-        "totalStreamMinutes": 2781,
+        "totalStreamMinutes": 2786,
         "emotes": {
           "❤": 38,
           "🙌": 61,
@@ -6541,8 +6541,8 @@
       "stats": {
         "totalVotes": 5227,
         "totalSubs": 31,
-        "totalChatMessages": 1615,
-        "totalStreamMinutes": 10124,
+        "totalChatMessages": 1617,
+        "totalStreamMinutes": 10128,
         "emotes": {
           "🔥": 448,
           "🔴": 166,
@@ -6550,8 +6550,8 @@
           "🤣": 4,
           "☕": 42,
           "💪": 2,
-          "📴": 41,
-          "👋": 43,
+          "📴": 42,
+          "👋": 44,
           "👽": 28,
           "💀": 6,
           "🗳": 207,
@@ -6667,18 +6667,10 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": "BLAZEICON"
         },
-        "lastChatAt": 1788035428722,
+        "lastChatAt": 1788036719150,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
-        {
-          "user": "agent00zani",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]  just lurkin .. trying to optimize a game"
-        },
         {
           "user": "agent00zani",
           "msg": "how was your day"
@@ -6710,6 +6702,14 @@
         {
           "user": "theaicampa",
           "msg": "now going to sleep"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6719,14 +6719,14 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "DSTG Making Moves Squad Up | Multiplayer Madness | MW4 Beta — Call Of Duty: Modern Warfare 4",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "We’re a BLAZE community fueled by gaming, especially Delta Force, anime, and dropping votes. We shout “BLAZE ON Brother!” and “TTYL!” to celebrate milestones, love a good ☕, and go FULL SEND. Voting is LIVE, subs are appreciated, and we keep the TOWER Crew hype with “Welcome to the TOWER Crew, 🔴 Voting is LIVE 🔴.” We celebrate with BLAZE ON Brother! and TTYL! when we show appreciation.",
       "_profileAtCount": 1585,
       "nudgedAt": 1785280330455,
       "nudgedKey": "schedule",
       "lastStreamInfo": "DSTG Making Moves Squad Up | Multiplayer Madness | MW4 Beta — Call Of Duty: Modern Warfare 4",
-      "lastStreamEndedAt": 1788027409518,
+      "lastStreamEndedAt": 1788036710511,
       "loyalty": {
         "johngalt": {
           "name": "johngalt",
@@ -8748,7 +8748,7 @@
       "stats": {
         "totalVotes": 6415,
         "totalSubs": 21,
-        "totalChatMessages": 1615,
+        "totalChatMessages": 1616,
         "totalStreamMinutes": 5926,
         "emotes": {
           "❤": 77,
@@ -8879,13 +8879,9 @@
           "🥹": "🥹"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788035489699
+        "lastChatAt": 1788036540733
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @leandrineth!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @leandrineth just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
@@ -8921,6 +8917,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "fartvader",
+          "msg": "ggs ggs!"
         }
       ],
       "customCommands": {},
@@ -9174,7 +9174,7 @@
         "totalVotes": 8981,
         "totalSubs": 0,
         "totalChatMessages": 10752,
-        "totalStreamMinutes": 8002,
+        "totalStreamMinutes": 8007,
         "emotes": {
           "❤": 27,
           "🙌": 20,
@@ -9484,7 +9484,7 @@
         "totalVotes": 4380,
         "totalSubs": 8,
         "totalChatMessages": 725,
-        "totalStreamMinutes": 5055,
+        "totalStreamMinutes": 5060,
         "emotes": {
           "❤": 50,
           "🙌": 23,
@@ -11581,19 +11581,19 @@
       "stats": {
         "totalVotes": 744,
         "totalSubs": 10,
-        "totalChatMessages": 583,
+        "totalChatMessages": 584,
         "totalStreamMinutes": 2923,
         "emotes": {
           "🧡": 1,
           "💚": 3,
           "🔥": 3,
-          "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 12,
+          "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 13,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 14,
           "a859cc12-453a-4bd8-b650-38710d9486de": 11,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 2,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 3,
           "5c5b297e-10fc-4c7f-aa0d-772cdbf3c303": 1,
-          "e4bf4fdc-410e-43c7-86d9-9b2add5db603": 102,
+          "e4bf4fdc-410e-43c7-86d9-9b2add5db603": 103,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 6,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 4,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 8,
@@ -11652,13 +11652,9 @@
           "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": "ANGRYPYRO2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788025998919
+        "lastChatAt": 1788036515146
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "ask vader bro"
-        },
         {
           "user": "cr33pling",
           "msg": "ask him bro"
@@ -11694,6 +11690,10 @@
         {
           "user": "cr33pling",
           "msg": "hahaha may ilong daw"
+        },
+        {
+          "user": "fartvader",
+          "msg": "thank you bro..ggs!! [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:e4bf4fdc-410e-43c7-86d9-9b2add5db603]"
         }
       ],
       "customCommands": {},
@@ -13416,8 +13416,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787996389315,
   "auth": {
-    "accessToken": "0c145c714aa87cb70133cb0fc2af5845",
-    "refreshToken": "2f9cd16c3342c7a76a031397769cd206",
+    "accessToken": "a45a21bbf22c438ee256e5ca9e577a87",
+    "refreshToken": "4dd3699377b98bd7dc7bf7d4057c5fa9",
     "sessionToken": "cfa1ceb1c4f22abeeab0cc387bf77a32",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
