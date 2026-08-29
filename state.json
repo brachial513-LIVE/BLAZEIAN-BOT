@@ -2526,7 +2526,7 @@
         "totalVotes": 9232,
         "totalSubs": 34,
         "totalChatMessages": 7390,
-        "totalStreamMinutes": 4346,
+        "totalStreamMinutes": 4351,
         "emotes": {
           "❤": 3064,
           "🎵": 303,
@@ -6931,7 +6931,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 0,
-        "totalSubs": 0,
+        "totalSubs": 1,
         "totalChatMessages": 56,
         "totalStreamMinutes": 4956,
         "emotes": {
@@ -7013,7 +7013,14 @@
       "profile": "",
       "_profileAtCount": 0,
       "lastStreamInfo": "🏆🔥 ¡NOS VAMOS AL CAMPEONATO! ⚔️ — Mobile Legends: Bang bang",
-      "lastStreamEndedAt": 1787948474439
+      "lastStreamEndedAt": 1787948474439,
+      "loyalty": {
+        "elenatroya": {
+          "name": "elenatroya",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "30a3c675-be0d-4014-831f-6051350ffbf0": {
       "username": "tester",
@@ -8436,7 +8443,7 @@
         "totalVotes": 20725,
         "totalSubs": 35,
         "totalChatMessages": 2256,
-        "totalStreamMinutes": 939,
+        "totalStreamMinutes": 944,
         "emotes": {
           "❤": 37,
           "🙌": 66,
@@ -13304,8 +13311,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787996389315,
   "auth": {
-    "accessToken": "d396f26a9393a6e58c14118783f33250",
-    "refreshToken": "1ec0c219b2c28fbc43e94e782171a866",
+    "accessToken": "62dc447ae59e0cbb3ecb05ecb2e2368f",
+    "refreshToken": "cb5f4d37631bc1b7b90a8d0c02b923b2",
     "sessionToken": "cfa1ceb1c4f22abeeab0cc387bf77a32",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
