@@ -1405,8 +1405,8 @@
       "stats": {
         "totalVotes": 13557,
         "totalSubs": 121,
-        "totalChatMessages": 6547,
-        "totalStreamMinutes": 19610,
+        "totalChatMessages": 6598,
+        "totalStreamMinutes": 19617,
         "emotes": {
           "📊": 3,
           "🔥": 378,
@@ -1417,7 +1417,7 @@
           "✌": 6,
           "😊": 5,
           "👋": 12,
-          "🚀": 29,
+          "🚀": 35,
           "🦊": 142,
           "😂": 41,
           "👑": 54,
@@ -1426,7 +1426,7 @@
           "🤗": 22,
           "💪": 21,
           "🎁": 122,
-          "💎": 64,
+          "💎": 66,
           "😶": 4,
           "🌫": 4,
           "🪙": 8,
@@ -1441,7 +1441,7 @@
           "🎬": 21,
           "✂": 4,
           "👀": 25,
-          "💜": 31,
+          "💜": 39,
           "🌟": 23,
           "📣": 4,
           "🔗": 6,
@@ -1520,7 +1520,7 @@
           "⏰": 215,
           "⚠": 22,
           "💀": 11,
-          "🎰": 34,
+          "🎰": 40,
           "🎉": 14,
           "🎊": 14,
           "🍌": 6,
@@ -1532,7 +1532,7 @@
           "🤞": 1,
           "🛑": 5,
           "🌉": 1,
-          "💥": 26,
+          "💥": 27,
           "💨": 8,
           "😆": 1,
           "🦾": 2,
@@ -1554,11 +1554,11 @@
           "😁": 1,
           "🎡": 35,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 4,
-          "🃏": 122,
+          "🃏": 124,
           "♥": 153,
-          "♣": 126,
+          "♣": 127,
           "♠": 127,
-          "♦": 122,
+          "♦": 129,
           "🩷": 1,
           "🍗": 1,
           "💞": 1,
@@ -1607,7 +1607,9 @@
           "70f64626-0432-4a47-9d38-6641189de9c6": 5,
           "7898bf49-ecbd-427c-923f-fba5ad23a9fc": 1,
           "🥳": 2,
-          "💯": 1
+          "💯": 1,
+          "🍰": 44,
+          "190c596e-5d54-4572-ab38-e92b46672684": 1
         },
         "emoteNames": {
           "📊": "📊",
@@ -1809,51 +1811,53 @@
           "70f64626-0432-4a47-9d38-6641189de9c6": "KingFox",
           "7898bf49-ecbd-427c-923f-fba5ad23a9fc": "LaugingFox",
           "🥳": "🥳",
-          "💯": "💯"
+          "💯": "💯",
+          "🍰": "🍰",
+          "190c596e-5d54-4572-ab38-e92b46672684": "GGFox"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788013671587
+        "lastChatAt": 1788014092274
       },
       "chatMemory": [
         {
-          "user": "precido1",
-          "msg": "But there is a loud sound overshadowing it"
+          "user": "foxbotai",
+          "msg": "🎰 @precido1, 🚀 💎 💜 — you lost 5 promo. Balance: 20 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎰 @precido1, 7️⃣ 💜 🚀 — you lost 5 promo. Balance: 15 promo."
+        },
+        {
+          "user": "angge_wf",
+          "msg": "ohhh i will try"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎰 @precido1, 💜 💜 🚀 — you lost 5 promo. Balance: 10 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@crypt0k1ng96, converted 50 FoxCoins -> 50 promo credits! Casino balance: 587 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎰 @precido1, 💜 💜 💎 — you lost 5 promo. Balance: 5 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎰 @precido1, 🚀 💜 7️⃣ — you lost 5 promo. Balance: 0 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@angge_wf, you have 289 FoxCoins."
         },
         {
           "user": "precido1",
-          "msg": "Like bee buzzing"
+          "msg": "[emote:190c596e-5d54-4572-ab38-e92b46672684]"
         },
         {
-          "user": "crypt0k1ng96",
-          "msg": "You get to pick the first game"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "For 10 votes!"
-        },
-        {
-          "user": "precido1",
-          "msg": "Ok pull it up"
-        },
-        {
-          "user": "precido1",
-          "msg": "Hot potato"
-        },
-        {
-          "user": "precido1",
-          "msg": "Your link ?"
-        },
-        {
-          "user": "precido1",
-          "msg": "To the Blaze games ?"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Blazegames.store/play/crypt0k1ng96"
-        },
-        {
-          "user": "precido1",
-          "msg": "Perfect ty"
+          "user": "foxbotai",
+          "msg": "Use !convert amount. Example: !convert 5 converts FoxCoins into casino promo credits."
         }
       ],
       "customCommands": {},
@@ -2526,7 +2530,7 @@
         "totalVotes": 9232,
         "totalSubs": 34,
         "totalChatMessages": 7391,
-        "totalStreamMinutes": 4551,
+        "totalStreamMinutes": 4558,
         "emotes": {
           "❤": 3064,
           "🎵": 303,
@@ -2995,7 +2999,7 @@
         "totalVotes": 7967,
         "totalSubs": 53,
         "totalChatMessages": 2370,
-        "totalStreamMinutes": 11220,
+        "totalStreamMinutes": 11228,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -6933,7 +6937,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 57,
-        "totalStreamMinutes": 5084,
+        "totalStreamMinutes": 5091,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -9134,7 +9138,7 @@
         "totalVotes": 8981,
         "totalSubs": 0,
         "totalChatMessages": 10752,
-        "totalStreamMinutes": 7622,
+        "totalStreamMinutes": 7629,
         "emotes": {
           "❤": 27,
           "🙌": 20,
@@ -11077,7 +11081,7 @@
         "totalVotes": 4436,
         "totalSubs": 49,
         "totalChatMessages": 2033,
-        "totalStreamMinutes": 4670,
+        "totalStreamMinutes": 4677,
         "emotes": {
           "😅": 1,
           "🔥": 138,
@@ -11540,7 +11544,7 @@
         "totalVotes": 738,
         "totalSubs": 10,
         "totalChatMessages": 507,
-        "totalStreamMinutes": 2642,
+        "totalStreamMinutes": 2649,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -11763,7 +11767,7 @@
         "totalVotes": 1142,
         "totalSubs": 3,
         "totalChatMessages": 780,
-        "totalStreamMinutes": 2155,
+        "totalStreamMinutes": 2162,
         "emotes": {
           "👋": 21,
           "⚠": 2,
@@ -13357,8 +13361,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787996389315,
   "auth": {
-    "accessToken": "4dd43708786e1242ec7fe79f51134107",
-    "refreshToken": "d69a37d9657883687db761f08069ccd1",
+    "accessToken": "7a2780152118ceae82b532d17deff3c7",
+    "refreshToken": "8b6e687c554b0b44103f87cf09ec288c",
     "sessionToken": "cfa1ceb1c4f22abeeab0cc387bf77a32",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
