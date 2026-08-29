@@ -623,21 +623,21 @@
       "stats": {
         "totalVotes": 53465,
         "totalSubs": 76,
-        "totalChatMessages": 7129,
-        "totalStreamMinutes": 1969,
+        "totalChatMessages": 7213,
+        "totalStreamMinutes": 1988,
         "emotes": {
           "🗳": 1191,
           "❤": 476,
           "🙌": 168,
-          "🔥": 203,
+          "🔥": 204,
           "☺": 5,
           "🔴": 21,
           "🎉": 77,
           "📴": 20,
           "👋": 43,
           "🫶": 3,
-          "💃": 1,
-          "😂": 433,
+          "💃": 2,
+          "😂": 554,
           "😜": 2,
           "🚨": 96,
           "🦊": 9,
@@ -697,7 +697,7 @@
           "😶": 5,
           "🫣": 9,
           "😔": 1,
-          "🥹": 2,
+          "🥹": 3,
           "💰": 8,
           "👌": 1,
           "👏": 3,
@@ -736,29 +736,29 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 5,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 4,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 14,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 15,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 2,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
           "f3f963aa-cbae-4673-855f-b5ad2a0805a3": 10,
-          "f92c2c6b-e199-40a4-88fe-0d9c14f13eb7": 4,
+          "f92c2c6b-e199-40a4-88fe-0d9c14f13eb7": 8,
           "e661a7b6-441f-4fa5-9fe1-46815d76b9db": 3,
           "81d1d4c4-39ed-46c7-a3d5-e7d5941b4846": 5,
           "af310954-e2c3-414b-ace5-0ac453857437": 4,
-          "3a2eab57-a029-49e9-bc75-f4e53af226e1": 3,
+          "3a2eab57-a029-49e9-bc75-f4e53af226e1": 7,
           "🟢": 1,
           "✅": 1,
           "💹": 2,
           "ce425a1d-facf-4b1b-a1c9-60a91436f0ee": 8,
           "32a64c41-b6d0-42cd-8cd7-f0e06a0d5874": 3,
           "5b987160-8591-447b-a278-18d1ab41dec5": 20,
-          "c0c66508-8d3b-4794-818a-0eca4538dbf1": 18,
+          "c0c66508-8d3b-4794-818a-0eca4538dbf1": 23,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 1,
           "0bb4be4c-82d7-421a-98e0-c3138248c131": 2,
           "634b025b-bffd-470c-8cc2-54ddc7097f82": 8,
           "13642557-2c56-4c01-bd65-26608fdea0d1": 4,
           "2a79c507-34a7-4e14-a100-e724cd6dd7a6": 5,
           "89722872-c7ff-4e4d-8e84-7c85816cc62d": 1,
-          "de2c8fde-0fa3-4b47-9ff9-d1d10044c39f": 11,
+          "de2c8fde-0fa3-4b47-9ff9-d1d10044c39f": 14,
           "5b61525d-70f4-4cdf-82e1-05007cb5031a": 7,
           "a2e50cc0-d65d-4519-bd1a-15b75696b183": 5,
           "c2244706-819f-4727-b3f8-eb47856c88ac": 4,
@@ -776,7 +776,10 @@
           "⚠": 2,
           "🎯": 2,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 6,
-          "809bfa51-da4f-4570-9c70-67a802c6da7b": 2
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": 2,
+          "0212ab09-5819-41ef-a982-40116e22dfc4": 1,
+          "😮": 1,
+          "💨": 1
         },
         "emoteNames": {
           "🗳": "🗳",
@@ -929,10 +932,13 @@
           "⚠": "⚠",
           "🎯": "🎯",
           "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB",
-          "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2",
+          "0212ab09-5819-41ef-a982-40116e22dfc4": "Whatever",
+          "😮": "😮",
+          "💨": "💨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788016258779,
+        "lastChatAt": 1788017450207,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
@@ -940,44 +946,44 @@
       },
       "chatMemory": [
         {
-          "user": "k1ngbre4ker",
-          "msg": "yes"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "U have no sound"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "But I’m back"
-        },
-        {
           "user": "briggsy",
-          "msg": "It's a bit low but I do have sound"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "Yes!"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "I’m sorry Guys"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "Had to reload"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "I’m ready"
+          "msg": "my worst nightmare too"
         },
         {
           "user": "k1ngbre4ker",
-          "msg": "He talking about XPHAR rocking right now, Check the LRED Disc and BITCOIN went up 30% last night"
+          "msg": "im sure im right"
+        },
+        {
+          "user": "k1ngbre4ker",
+          "msg": "drat"
         },
         {
           "user": "briggsy",
-          "msg": "It's ok"
+          "msg": "JT dammit"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "I am from the future"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "This time it was with a comma !"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "1,000"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "That's crazy"
+        },
+        {
+          "user": "briggsy",
+          "msg": "yes yuo are"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "True @vroshi55"
         }
       ],
       "customCommands": {},
@@ -1405,11 +1411,11 @@
       "stats": {
         "totalVotes": 13557,
         "totalSubs": 122,
-        "totalChatMessages": 6774,
-        "totalStreamMinutes": 19653,
+        "totalChatMessages": 6777,
+        "totalStreamMinutes": 19673,
         "emotes": {
           "📊": 3,
-          "🔥": 421,
+          "🔥": 422,
           "🤣": 86,
           "💚": 46,
           "❤": 15,
@@ -1822,21 +1828,9 @@
           "🔄": "🔄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788016123837
+        "lastChatAt": 1788017320474
       },
       "chatMemory": [
-        {
-          "user": "k1ngbre4ker",
-          "msg": "Cheers man hope you haveing a great day."
-        },
-        {
-          "user": "k1ngbre4ker",
-          "msg": "🔥🔥🔥🔥"
-        },
-        {
-          "user": "k1ngbre4ker",
-          "msg": "Cheers man"
-        },
         {
           "user": "k1ngbre4ker",
           "msg": "Yeah just got up too, im just getting concious 🤣\n\nNice hide and seek can be fun"
@@ -1864,6 +1858,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "We have OTG match for $5 as well 🤣🫡"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "FIRST PERSON TO SHOW UP TO THE PIRATE SHIP IN THE SWAMP GETS $5 IN BLAZE 🔥"
+        },
+        {
+          "user": "precido1",
+          "msg": "Hey hey I am back"
+        },
+        {
+          "user": "precido1",
+          "msg": "Lemme switch on my laptop"
         }
       ],
       "customCommands": {},
@@ -2536,7 +2542,7 @@
         "totalVotes": 9232,
         "totalSubs": 34,
         "totalChatMessages": 7391,
-        "totalStreamMinutes": 4594,
+        "totalStreamMinutes": 4614,
         "emotes": {
           "❤": 3064,
           "🎵": 303,
@@ -3005,7 +3011,7 @@
         "totalVotes": 7967,
         "totalSubs": 53,
         "totalChatMessages": 2375,
-        "totalStreamMinutes": 11263,
+        "totalStreamMinutes": 11283,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -9144,7 +9150,7 @@
         "totalVotes": 8981,
         "totalSubs": 0,
         "totalChatMessages": 10752,
-        "totalStreamMinutes": 7665,
+        "totalStreamMinutes": 7685,
         "emotes": {
           "❤": 27,
           "🙌": 20,
@@ -11086,8 +11092,8 @@
       "stats": {
         "totalVotes": 4436,
         "totalSubs": 49,
-        "totalChatMessages": 2053,
-        "totalStreamMinutes": 4713,
+        "totalChatMessages": 2056,
+        "totalStreamMinutes": 4733,
         "emotes": {
           "😅": 1,
           "🔥": 138,
@@ -11211,25 +11217,13 @@
           "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": "ANGRYPYRO2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788016204366,
+        "lastChatAt": 1788017244918,
         "lastSendFailAt": 1787327474865,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1787329005351,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "gday gday"
-        },
-        {
-          "user": "briggsy",
-          "msg": "It's raining in the game.  So relevant"
-        },
-        {
-          "user": "briggsy",
-          "msg": "I love your laugh, Vadey"
-        },
         {
           "user": "briggsy",
           "msg": "It's the best"
@@ -11257,6 +11251,18 @@
         {
           "user": "fartvader",
           "msg": "thank you so much for dropping by! [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
+        },
+        {
+          "user": "corneto",
+          "msg": "yow @briggsy"
+        },
+        {
+          "user": "corneto",
+          "msg": "yow @fartvader"
+        },
+        {
+          "user": "corneto",
+          "msg": "gonna grind 2 hours :D"
         }
       ],
       "customCommands": {},
@@ -11272,7 +11278,7 @@
       "streamTitle": "All it took was a bite |  w/ @jaggerjack @cr33pling 🔥🎮 — 7 Days to Die",
       "gameOverride": "",
       "profile": "fartvader’s channel is a high‑energy, supportive playground where “brooo”, “eyyyyy”, “yooo welcome bros!!”, “happy gaming kuys!”, “GM GM”, and “much love ❤️❤️” echo through every stream. Fans celebrate with “follow for a follow” 🍻🔥, “WC broo!” drops, shoutouts, emotes, and nonstop “gg”. The community loves raiding, 7‑days‑to‑die gameplay, and nonstop hype.",
-      "_profileAtCount": 2005,
+      "_profileAtCount": 2056,
       "lastStreamInfo": "All it took was a bite |  w/ @jaggerjack @cr33pling 🔥🎮 — 7 Days to Die",
       "lastStreamEndedAt": 1787945886743,
       "nudgedAt": 1786436806709,
@@ -11549,8 +11555,8 @@
       "stats": {
         "totalVotes": 738,
         "totalSubs": 10,
-        "totalChatMessages": 551,
-        "totalStreamMinutes": 2685,
+        "totalChatMessages": 554,
+        "totalStreamMinutes": 2705,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -11616,21 +11622,9 @@
           "🤣": "🤣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788016162269
+        "lastChatAt": 1788016730685
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "ayan may gift"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "kaya nga dapat laruin mo @angge_wf"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "di naman mababalik yan sa funds kahit decline mo huhu"
-        },
         {
           "user": "nekoschwan",
           "msg": "sapilitan to @angge_wf para sayooo"
@@ -11658,6 +11652,18 @@
         {
           "user": "nekoschwan",
           "msg": "angge add kita sa steam"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "hahaha"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "iba na map nyan?"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "angge name ko ate"
         }
       ],
       "customCommands": {},
@@ -11774,8 +11780,8 @@
       "stats": {
         "totalVotes": 1142,
         "totalSubs": 3,
-        "totalChatMessages": 784,
-        "totalStreamMinutes": 2198,
+        "totalChatMessages": 787,
+        "totalStreamMinutes": 2218,
         "emotes": {
           "👋": 21,
           "⚠": 2,
@@ -11831,7 +11837,7 @@
           "🎁": 4,
           "2d235d6d-6b4b-4846-bef8-7e95ff218cbd": 1,
           "c69b92f1-d1d3-40dc-858b-9d7dce310cdc": 1,
-          "a80b8258-7a03-4aed-95f8-19ab819775c7": 7,
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": 8,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 2,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
@@ -11899,17 +11905,9 @@
           "🥳": "🥳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788015944199
+        "lastChatAt": 1788017311082
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @treefrognada has resubscribed — 6 months total, 1 month streak! Thank you for the continued support! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@treefrognada gifted a Sub to @onyxouroboros! Thank you!"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @treefrognada just gifted a sub to @onyxouroboros! How generous!! 🙌"
@@ -11941,6 +11939,14 @@
         {
           "user": "scurvybot",
           "msg": "@treefrognada, congratulations! You've won 10 Credits from The Online Inn. View here: https://scurvybot.com/wax/tx/23ac3fe1ca9ce480ccd07814d2c2c4b4ef58e26c4d0194ecfcf403104016c4e0"
+        },
+        {
+          "user": "nashvillelou",
+          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@NashvilleLou congratulations! You successfully dug up Beary Shark from The Online Inn. View here: https://scurvybot.com/wax/tx/b9fa62a152d399da2ee3250d07197a7f02d7b7c39d52d12d0d219de356599cd7"
         }
       ],
       "customCommands": {
@@ -13151,9 +13157,9 @@
       "n": 9
     },
     "sheshi": {
-      "note": "Enjin card games, BlazeBorn Eggs, OSPTD, Grid Lock, Shieldfall, and The Citadel are favorites, and they joke about instant airdrops with playful emojis.",
-      "at": 1787928469604,
-      "n": 8
+      "note": "Sheshi loves Enjin card games, BlazeBorn Eggs, OSPTD, Grid Lock, Shieldfall, The Citadel, and jokes with playful emojis about instant airdrops.",
+      "at": 1788016909515,
+      "n": 9
     },
     "ospcommunity": {
       "note": "Avid gamer who streams third‑person shooter tower defense, loves AI‑generated content and NFTs, and uses playful emojis and humor.",
