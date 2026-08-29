@@ -2190,8 +2190,8 @@
       "stats": {
         "totalVotes": 10733,
         "totalSubs": 45,
-        "totalChatMessages": 4443,
-        "totalStreamMinutes": 14531,
+        "totalChatMessages": 4444,
+        "totalStreamMinutes": 14535,
         "emotes": {
           "❤": 171,
           "🙌": 117,
@@ -2284,7 +2284,7 @@
           "🎸": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 12,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 27,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 55,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 56,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 23,
           "b05156cf-7925-4298-8e19-f29e294cc793": 2,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 16,
@@ -2416,14 +2416,10 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO",
           "c600ade4-93cb-4118-a13c-b786761b45f8": "BRIGHTESTPYRO"
         },
-        "lastChatAt": 1787966178454,
+        "lastChatAt": 1787966313476,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @Future42 is raiding with a party of 4! Welcome raiders!! 🎉"
@@ -2459,6 +2455,10 @@
         {
           "user": "agent00zani",
           "msg": "what the plan now ?"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {},
@@ -2520,7 +2520,7 @@
         "totalVotes": 9227,
         "totalSubs": 34,
         "totalChatMessages": 7389,
-        "totalStreamMinutes": 3761,
+        "totalStreamMinutes": 3766,
         "emotes": {
           "❤": 3064,
           "🎵": 303,
@@ -4428,7 +4428,7 @@
         "totalVotes": 15191,
         "totalSubs": 36,
         "totalChatMessages": 5019,
-        "totalStreamMinutes": 9149,
+        "totalStreamMinutes": 9154,
         "emotes": {
           "❤": 61,
           "🙌": 140,
@@ -4821,7 +4821,7 @@
         "totalVotes": 6246,
         "totalSubs": 69,
         "totalChatMessages": 542,
-        "totalStreamMinutes": 12701,
+        "totalStreamMinutes": 12706,
         "emotes": {
           "❤": 95,
           "🙌": 32,
@@ -6070,8 +6070,8 @@
       "stats": {
         "totalVotes": 11460,
         "totalSubs": 43,
-        "totalChatMessages": 9680,
-        "totalStreamMinutes": 5913,
+        "totalChatMessages": 9691,
+        "totalStreamMinutes": 5918,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -6403,16 +6403,40 @@
           "🤪": "🤪"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787966228579
+        "lastChatAt": 1787966564340
       },
       "chatMemory": [
         {
           "user": "briggsy",
-          "msg": "oh boy (boy george?)"
+          "msg": "ooooo"
         },
         {
           "user": "briggsy",
-          "msg": "haha"
+          "msg": "hmmm"
+        },
+        {
+          "user": "briggsy",
+          "msg": "briggissy"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Ummm"
+        },
+        {
+          "user": "briggsy",
+          "msg": "How about do you really want to hurt me?"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Boy George"
+        },
+        {
+          "user": "briggsy",
+          "msg": "You have to know it"
+        },
+        {
+          "user": "briggsy",
+          "msg": "It was such a smash in the 80s"
         },
         {
           "user": "briggsy",
@@ -6420,31 +6444,7 @@
         },
         {
           "user": "briggsy",
-          "msg": "This is it"
-        },
-        {
-          "user": "briggsy",
           "msg": "haha"
-        },
-        {
-          "user": "future42",
-          "msg": "Enjoy....buddy"
-        },
-        {
-          "user": "briggsy",
-          "msg": "@Future42 hay man"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Happy Friday"
-        },
-        {
-          "user": "briggsy",
-          "msg": "🤘🤘🤘👋👋👋🙌🙌"
-        },
-        {
-          "user": "briggsy",
-          "msg": ":lighter:"
         }
       ],
       "customCommands": {},
@@ -6495,10 +6495,10 @@
       "username": "xxtowerdogxx",
       "language": "en",
       "stats": {
-        "totalVotes": 4921,
+        "totalVotes": 4922,
         "totalSubs": 31,
-        "totalChatMessages": 1574,
-        "totalStreamMinutes": 9728,
+        "totalChatMessages": 1576,
+        "totalStreamMinutes": 9733,
         "emotes": {
           "🔥": 438,
           "🔴": 162,
@@ -6510,7 +6510,7 @@
           "👋": 40,
           "👽": 28,
           "💀": 6,
-          "🗳": 201,
+          "🗳": 204,
           "💗": 1,
           "😱": 19,
           "❤": 43,
@@ -6623,18 +6623,10 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": "BLAZEICON"
         },
-        "lastChatAt": 1787966005317,
+        "lastChatAt": 1787966558400,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ manhitmand just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @manhitmand!"
-        },
         {
           "user": "machoolibre",
           "msg": "heyy tower so are you gonna get this game when it comes out or it not worth it"
@@ -6666,6 +6658,14 @@
         {
           "user": "future42",
           "msg": "have a great night"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @reaperofdarknes!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @reaperofdarknes just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9117,7 +9117,7 @@
         "totalVotes": 8867,
         "totalSubs": 0,
         "totalChatMessages": 10721,
-        "totalStreamMinutes": 7463,
+        "totalStreamMinutes": 7468,
         "emotes": {
           "❤": 27,
           "🙌": 20,
@@ -10025,7 +10025,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/46963d69-f6f0-479b-8169-7ef0626be6ec.png",
-      "streamTitle": "",
+      "streamTitle": "PROBANDO MODS — Halo: The Master Chief Collection",
       "gameOverride": "",
       "profile": "**Loboblanco's Community Profile**\n\nWe're a laid-back, welcoming crew who love to \"bienvenido hermano\" new friends. Our streamer's all about playing Halo and \"amanecida\" vibes. We're a bit goofy, so expect some \"heeey\" greetings and \"hermano\" love. We even have a \"votorn\" for every time our streamer \"muere\" in-game. When you're here, you're part of the fam, so don't be shy to say \"ola\" and join the fun!",
       "_profileAtCount": 28,
@@ -11746,7 +11746,7 @@
         "totalVotes": 1137,
         "totalSubs": 1,
         "totalChatMessages": 687,
-        "totalStreamMinutes": 1890,
+        "totalStreamMinutes": 1895,
         "emotes": {
           "👋": 20,
           "⚠": 2,
@@ -12194,7 +12194,7 @@
         "totalVotes": 360,
         "totalSubs": 0,
         "totalChatMessages": 86,
-        "totalStreamMinutes": 808,
+        "totalStreamMinutes": 813,
         "emotes": {
           "✌": 2,
           "🔥": 2,
@@ -13272,8 +13272,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787947590752,
   "auth": {
-    "accessToken": "d96666252ce3edb94c3e515a091d44fb",
-    "refreshToken": "d9c1eceb3ce3288b5452d47862871dd0",
+    "accessToken": "44a5800efb0b0f35657fd1f31cdf16cb",
+    "refreshToken": "8e0cda047041fc9d600c0819eb2dd7ac",
     "sessionToken": "8930d226e05a83da233d313f117981af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
