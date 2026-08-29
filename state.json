@@ -2526,7 +2526,7 @@
         "totalVotes": 9227,
         "totalSubs": 34,
         "totalChatMessages": 7389,
-        "totalStreamMinutes": 3896,
+        "totalStreamMinutes": 3901,
         "emotes": {
           "❤": 3064,
           "🎵": 303,
@@ -6505,8 +6505,8 @@
       "stats": {
         "totalVotes": 5222,
         "totalSubs": 31,
-        "totalChatMessages": 1589,
-        "totalStreamMinutes": 9863,
+        "totalChatMessages": 1591,
+        "totalStreamMinutes": 9864,
         "emotes": {
           "🔥": 440,
           "🔴": 164,
@@ -6514,8 +6514,8 @@
           "🤣": 4,
           "☕": 42,
           "💪": 2,
-          "📴": 38,
-          "👋": 40,
+          "📴": 39,
+          "👋": 41,
           "👽": 28,
           "💀": 6,
           "🗳": 207,
@@ -6631,18 +6631,10 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": "BLAZEICON"
         },
-        "lastChatAt": 1787971877095,
+        "lastChatAt": 1787974454991,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
-        },
-        {
-          "user": "johngalt",
-          "msg": "yo @xxtowerdogxxon front page of blaze"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 300 votes, @JohnGalt!"
@@ -6674,6 +6666,14 @@
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6683,14 +6683,14 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "🍹Pour the Shots, Drop the Bodies | MW4 Beta Friday Night Action💥 — Call Of Duty: Modern Warfare 4",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "We’re a BLAZE community fueled by gaming, especially Delta Force, anime, and dropping votes. We shout “BLAZE ON Brother!” and “TTYL!” to celebrate milestones, love a good ☕, and go FULL SEND. Voting is LIVE, subs are appreciated, and we keep the TOWER Crew hype with “Welcome to the TOWER Crew, 🔴 Voting is LIVE 🔴.” We celebrate with BLAZE ON Brother! and TTYL! when we show appreciation.",
       "_profileAtCount": 1585,
       "nudgedAt": 1785280330455,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "TOTAL FALLOUT: Armored Warfare & Heavy Firepower Tonight! 💥TEAM GAMEFOLIO LOCK IN — Delta Force",
-      "lastStreamEndedAt": 1787891066251,
+      "lastStreamInfo": "🍹Pour the Shots, Drop the Bodies | MW4 Beta Friday Night Action💥 — Call Of Duty: Modern Warfare 4",
+      "lastStreamEndedAt": 1787974449306,
       "loyalty": {
         "johngalt": {
           "name": "johngalt",
@@ -9960,7 +9960,7 @@
         "totalVotes": 2907,
         "totalSubs": 0,
         "totalChatMessages": 48,
-        "totalStreamMinutes": 2265,
+        "totalStreamMinutes": 2270,
         "emotes": {
           "🔥": 10,
           "🐺": 2,
@@ -11754,7 +11754,7 @@
         "totalVotes": 1137,
         "totalSubs": 1,
         "totalChatMessages": 704,
-        "totalStreamMinutes": 2025,
+        "totalStreamMinutes": 2030,
         "emotes": {
           "👋": 20,
           "⚠": 2,
@@ -12202,7 +12202,7 @@
         "totalVotes": 360,
         "totalSubs": 0,
         "totalChatMessages": 86,
-        "totalStreamMinutes": 943,
+        "totalStreamMinutes": 948,
         "emotes": {
           "✌": 2,
           "🔥": 2,
@@ -13280,8 +13280,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1787947590752,
   "auth": {
-    "accessToken": "62ea84f9dc49808e9110328f01ea4012",
-    "refreshToken": "e42ce36f9f19472971b486980a72ec4c",
+    "accessToken": "81baf748f865ade3ce1bdf33f5b8ff95",
+    "refreshToken": "903b321e319efa21d4d924cec7a8293e",
     "sessionToken": "cfa1ceb1c4f22abeeab0cc387bf77a32",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
