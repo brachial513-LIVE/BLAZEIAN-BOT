@@ -2526,7 +2526,7 @@
         "totalVotes": 9227,
         "totalSubs": 34,
         "totalChatMessages": 7389,
-        "totalStreamMinutes": 4126,
+        "totalStreamMinutes": 4146,
         "emotes": {
           "❤": 3064,
           "🎵": 303,
@@ -11397,15 +11397,15 @@
       "stats": {
         "totalVotes": 877,
         "totalSubs": 6,
-        "totalChatMessages": 262,
-        "totalStreamMinutes": 1556,
+        "totalChatMessages": 264,
+        "totalStreamMinutes": 1568,
         "emotes": {
           "❤": 20,
           "🙌": 10,
           "📢": 12,
           "🔥": 24,
-          "📴": 13,
-          "👋": 13,
+          "📴": 14,
+          "👋": 14,
           "🎁": 12,
           "🔴": 13,
           "🎉": 13,
@@ -11460,17 +11460,9 @@
           "3dd7cc5f-56cf-4537-98c0-d38fb1a3e76a": "tf"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1787986780206
+        "lastChatAt": 1787988902065
       },
       "chatMemory": [
-        {
-          "user": "just_for_lucas",
-          "msg": "GM GM"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -11502,6 +11494,14 @@
         {
           "user": "corneto",
           "msg": "hays"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -11512,14 +11512,14 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "Rainy Saturday! Let's play some games! 125x VOTE GIVEAWAY — Honkai Star Rail",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/52d87c93-9b11-4566-829a-811f46dabd06.gif",
       "followed": true,
       "profile": "We’re a Blaze livestream community that “BLAZEs” the night away, focusing on League of Legends and Crypto. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, and celebrate “BLAZEing” achievements with emojis and “very lovely” responses. The streamer loves being celebrated with “BLAZEing” emojis and enthusiastic “BLAZE” shoutouts. Keep the “BLAZE” spirit alive!",
       "_profileAtCount": 252,
-      "lastStreamInfo": "LEAGUE ARAM! 125x VOTE GIVEAWAY — League of Legends",
-      "lastStreamEndedAt": 1787757465195,
+      "lastStreamInfo": "Rainy Saturday! Let's play some games! 125x VOTE GIVEAWAY — Honkai Star Rail",
+      "lastStreamEndedAt": 1787988896706,
       "nudgedAt": 1787193926827,
       "nudgedKey": "schedule"
     },
@@ -13287,6 +13287,11 @@
     "jusjayd": {
       "note": "They enjoy classic 80s games, GTA V, and look for free or good deals",
       "at": 1787983909479,
+      "n": 1
+    },
+    "cookiexfalcon_": {
+      "note": "Enjoys gaming, planning a GPU upgrade, likes beach trips, and chats casually with a friend named Keen.",
+      "at": 1787989189575,
       "n": 1
     }
   },
