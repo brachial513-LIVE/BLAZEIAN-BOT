@@ -1090,8 +1090,8 @@
       "stats": {
         "totalVotes": 12973,
         "totalSubs": 22,
-        "totalChatMessages": 21340,
-        "totalStreamMinutes": 1978,
+        "totalChatMessages": 21342,
+        "totalStreamMinutes": 1983,
         "emotes": {
           "🔥": 1508,
           "🗳": 24,
@@ -1308,7 +1308,7 @@
           "😄": "😄",
           "🔒": "🔒"
         },
-        "lastChatAt": 1788144454774,
+        "lastChatAt": 1788144620328,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1316,14 +1316,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
         {
           "user": "botger",
           "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
@@ -1355,6 +1347,14 @@
         {
           "user": "avisi",
           "msg": "making sprites?"
+        },
+        {
+          "user": "avisi",
+          "msg": "tweening is bitch"
+        },
+        {
+          "user": "botger",
+          "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
         }
       ],
       "customCommands": {},
@@ -11583,18 +11583,18 @@
       "stats": {
         "totalVotes": 1217,
         "totalSubs": 6,
-        "totalChatMessages": 266,
-        "totalStreamMinutes": 1569,
+        "totalChatMessages": 270,
+        "totalStreamMinutes": 1572,
         "emotes": {
           "❤": 20,
           "🙌": 10,
           "📢": 12,
           "🔥": 24,
-          "📴": 14,
-          "👋": 14,
+          "📴": 15,
+          "👋": 15,
           "🎁": 12,
-          "🔴": 14,
-          "🎉": 14,
+          "🔴": 15,
+          "🎉": 15,
           "😂": 9,
           "🗳": 21,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
@@ -11646,25 +11646,9 @@
           "3dd7cc5f-56cf-4537-98c0-d38fb1a3e76a": "tf"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788144391166
+        "lastChatAt": 1788144685430
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "korosuplays",
-          "msg": "125x VOTE GIVEAWAY!\n\n1 entry - 20 votes\n5 entries - 1 sub"
-        },
-        {
-          "user": "corneto",
-          "msg": "[emote:7d370f41-dae4-4329-94b0-f57daae5e4f8] [emote:d226facb-93eb-41c9-aeba-43374f1b5ccd]"
-        },
-        {
-          "user": "korosuplays",
-          "msg": "[emote:d226facb-93eb-41c9-aeba-43374f1b5ccd]"
-        },
         {
           "user": "corneto",
           "msg": "mga babae nnaman"
@@ -11688,6 +11672,22 @@
         {
           "user": "botger",
           "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -11704,8 +11704,8 @@
       "followed": true,
       "profile": "We’re a Blaze livestream community that “BLAZEs” the night away, focusing on League of Legends and Crypto. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, and celebrate “BLAZEing” achievements with emojis and “very lovely” responses. The streamer loves being celebrated with “BLAZEing” emojis and enthusiastic “BLAZE” shoutouts. Keep the “BLAZE” spirit alive!",
       "_profileAtCount": 252,
-      "lastStreamInfo": "Rainy Saturday! Let's play some games! 125x VOTE GIVEAWAY — Honkai Star Rail",
-      "lastStreamEndedAt": 1787988896706,
+      "lastStreamInfo": "Quick Stream! Just doing dailies! 125x VOTE GIVEAWAY — Honkai Star Rail",
+      "lastStreamEndedAt": 1788144610903,
       "nudgedAt": 1787193926827,
       "nudgedKey": "schedule"
     },
@@ -13576,8 +13576,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788100524720,
   "auth": {
-    "accessToken": "5500945b0c557d0989a15fea9cdb3ac3",
-    "refreshToken": "1062e9e5af19cec3c1f85eb608e48b70",
+    "accessToken": "815d795fc91e39b7d72e925e2b9029f5",
+    "refreshToken": "86a030643533f877cf08a2632e27b2eb",
     "sessionToken": "93813bc6a16732d52fe2f988910968fe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
