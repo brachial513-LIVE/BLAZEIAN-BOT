@@ -2570,9 +2570,9 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 12328,
+        "totalVotes": 14596,
         "totalSubs": 44,
-        "totalChatMessages": 8148,
+        "totalChatMessages": 8149,
         "totalStreamMinutes": 5118,
         "emotes": {
           "❤": 3354,
@@ -2628,7 +2628,7 @@
           "💘": 4,
           "🌐": 2,
           "💬": 2,
-          "🗳": 130,
+          "🗳": 131,
           "❣": 13,
           "🫢": 12,
           "🙃": 1,
@@ -2888,18 +2888,14 @@
           "💞": "💞",
           "🥜": "🥜"
         },
-        "lastChatAt": 1788166568224,
-        "sendFailStreak": 383,
-        "lastSendFailAt": 1788166568380,
+        "lastChatAt": 1788177118243,
+        "sendFailStreak": 384,
+        "lastSendFailAt": 1788177110703,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146
       },
       "chatMemory": [
-        {
-          "user": "bee12",
-          "msg": "🤣🤣🤣"
-        },
         {
           "user": "bee12",
           "msg": "wow"
@@ -2935,6 +2931,10 @@
         {
           "user": "rob_osp",
           "msg": "@tuff3rmrd3ano — thanks for the 5 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "@doctorgeorgio — thanks for the 2268 votes! 🗳️ Every vote helps."
         }
       ],
       "customCommands": {},
@@ -3063,7 +3063,7 @@
         "totalVotes": 8221,
         "totalSubs": 53,
         "totalChatMessages": 2389,
-        "totalStreamMinutes": 11551,
+        "totalStreamMinutes": 11555,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -11594,7 +11594,7 @@
         "totalVotes": 1246,
         "totalSubs": 6,
         "totalChatMessages": 358,
-        "totalStreamMinutes": 2018,
+        "totalStreamMinutes": 2023,
         "emotes": {
           "❤": 24,
           "🙌": 11,
@@ -13616,8 +13616,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788100524720,
   "auth": {
-    "accessToken": "9e2e528f6974525b7627a5b5598cac2c",
-    "refreshToken": "5b4892a61cf3e07636121b8da3c7f589",
+    "accessToken": "e31d62f24b228195b20c9036226d9b9b",
+    "refreshToken": "f45421b6b4b2708b3061c6b6c3f6b361",
     "sessionToken": "93813bc6a16732d52fe2f988910968fe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
