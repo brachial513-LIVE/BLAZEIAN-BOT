@@ -2570,7 +2570,7 @@
       "stats": {
         "totalVotes": 11738,
         "totalSubs": 44,
-        "totalChatMessages": 8144,
+        "totalChatMessages": 8145,
         "totalStreamMinutes": 5118,
         "emotes": {
           "❤": 3354,
@@ -2612,7 +2612,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 27,
-          "💜": 280,
+          "💜": 281,
           "🧔": 1,
           "🤺": 6,
           "🥳": 25,
@@ -2886,18 +2886,14 @@
           "💞": "💞",
           "🥜": "🥜"
         },
-        "lastChatAt": 1788126345627,
-        "sendFailStreak": 374,
-        "lastSendFailAt": 1788126347561,
+        "lastChatAt": 1788149580871,
+        "sendFailStreak": 375,
+        "lastSendFailAt": 1788149581220,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146
       },
       "chatMemory": [
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
         {
           "user": "sheshi",
           "msg": "wow"
@@ -2933,6 +2929,10 @@
         {
           "user": "rob_osp",
           "msg": "@smrt — thanks for the 6 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         }
       ],
       "customCommands": {},
@@ -3533,7 +3533,7 @@
         "totalVotes": 6149,
         "totalSubs": 27,
         "totalChatMessages": 1234,
-        "totalStreamMinutes": 5708,
+        "totalStreamMinutes": 5728,
         "emotes": {
           "✨": 25,
           "🖥": 21,
@@ -10117,7 +10117,7 @@
         "totalVotes": 2932,
         "totalSubs": 0,
         "totalChatMessages": 48,
-        "totalStreamMinutes": 2362,
+        "totalStreamMinutes": 2382,
         "emotes": {
           "🔥": 10,
           "🐺": 2,
@@ -11585,15 +11585,15 @@
       "stats": {
         "totalVotes": 1217,
         "totalSubs": 6,
-        "totalChatMessages": 270,
-        "totalStreamMinutes": 1637,
+        "totalChatMessages": 272,
+        "totalStreamMinutes": 1645,
         "emotes": {
           "❤": 20,
           "🙌": 10,
           "📢": 12,
           "🔥": 24,
-          "📴": 15,
-          "👋": 15,
+          "📴": 16,
+          "👋": 16,
           "🎁": 12,
           "🔴": 15,
           "🎉": 15,
@@ -11648,18 +11648,10 @@
           "3dd7cc5f-56cf-4537-98c0-d38fb1a3e76a": "tf"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788144685430
+        "lastChatAt": 1788149146054
       },
       "chatMemory": [
         {
-          "user": "corneto",
-          "msg": "mga babae nnaman"
-        },
-        {
-          "user": "corneto",
-          "msg": "hays"
-        },
-        {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
         },
@@ -11690,6 +11682,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -11700,14 +11700,14 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "Quick Stream! Just doing dailies! 125x VOTE GIVEAWAY — Honkai Star Rail",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/52d87c93-9b11-4566-829a-811f46dabd06.gif",
       "followed": true,
       "profile": "We’re a Blaze livestream community that “BLAZEs” the night away, focusing on League of Legends and Crypto. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, and celebrate “BLAZEing” achievements with emojis and “very lovely” responses. The streamer loves being celebrated with “BLAZEing” emojis and enthusiastic “BLAZE” shoutouts. Keep the “BLAZE” spirit alive!",
       "_profileAtCount": 252,
       "lastStreamInfo": "Quick Stream! Just doing dailies! 125x VOTE GIVEAWAY — Honkai Star Rail",
-      "lastStreamEndedAt": 1788144610903,
+      "lastStreamEndedAt": 1788149140823,
       "nudgedAt": 1787193926827,
       "nudgedKey": "schedule"
     },
