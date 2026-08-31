@@ -11292,7 +11292,7 @@
         "totalVotes": 5497,
         "totalSubs": 50,
         "totalChatMessages": 2368,
-        "totalStreamMinutes": 5464,
+        "totalStreamMinutes": 5465,
         "emotes": {
           "😅": 1,
           "🔥": 166,
@@ -12756,7 +12756,10 @@
       "streamEnd": "",
       "schedule": "",
       "timedMessages": [],
-      "tipTiers": []
+      "tipTiers": [],
+      "locked": false,
+      "followed": true,
+      "botVip": true
     }
   },
   "blocklist": [
