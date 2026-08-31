@@ -3813,14 +3813,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 18075,
+        "totalVotes": 18125,
         "totalSubs": 49,
-        "totalChatMessages": 8322,
+        "totalChatMessages": 8323,
         "totalStreamMinutes": 5918,
         "emotes": {
           "❤": 163,
           "🙌": 261,
-          "🗳": 1026,
+          "🗳": 1029,
           "✌": 6,
           "😊": 10,
           "👍": 11,
@@ -4246,13 +4246,9 @@
           "5e34aafd-f466-4c04-a34e-f37598d0a31d": "Baguette"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788138479643
+        "lastChatAt": 1788139081606
       },
       "chatMemory": [
-        {
-          "user": "marowak33",
-          "msg": "anytime"
-        },
         {
           "user": "marowak33",
           "msg": "some lost relics run"
@@ -4288,6 +4284,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7775,16 +7775,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 15123,
+        "totalVotes": 15323,
         "totalSubs": 79,
-        "totalChatMessages": 1567,
+        "totalChatMessages": 1569,
         "totalStreamMinutes": 8695,
         "emotes": {
           "❤": 75,
           "🙌": 124,
           "💚": 3,
           "🔥": 36,
-          "🗳": 510,
+          "🗳": 516,
           "🔴": 77,
           "🎉": 98,
           "📴": 75,
@@ -7908,17 +7908,9 @@
           "5bb8d832-d7ef-4600-8250-5d2518128981": "Watttt"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788139064520
+        "lastChatAt": 1788139123409
       },
       "chatMemory": [
-        {
-          "user": "eze_",
-          "msg": "Yo bro"
-        },
-        {
-          "user": "avisi",
-          "msg": "was here ✌️🔥👍 tag!"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ FuriousDan45 just followed the channel! Welcome!! 🙌"
@@ -7950,6 +7942,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 125 vote(s) (total: 125)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -13576,8 +13576,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788100524720,
   "auth": {
-    "accessToken": "f797ae234567ff287ed510bf970fd2dd",
-    "refreshToken": "ce00afebaa5ee7f639f390bdd1e64c1f",
+    "accessToken": "a105dc81f058179c498ce37057731b53",
+    "refreshToken": "dcc9183c41e3809d98c9e1acbafb2631",
     "sessionToken": "52be4553ce0d19e913538edab149ca9c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
