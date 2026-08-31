@@ -3063,7 +3063,7 @@
         "totalVotes": 8349,
         "totalSubs": 53,
         "totalChatMessages": 2404,
-        "totalStreamMinutes": 11685,
+        "totalStreamMinutes": 11690,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -7056,7 +7056,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 60,
-        "totalStreamMinutes": 5334,
+        "totalStreamMinutes": 5339,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -11067,9 +11067,9 @@
       "language": "en",
       "joinedAt": 1785809834886,
       "stats": {
-        "totalVotes": 53396,
+        "totalVotes": 53646,
         "totalSubs": 12,
-        "totalChatMessages": 562,
+        "totalChatMessages": 563,
         "totalStreamMinutes": 1504,
         "emotes": {
           "💚": 1,
@@ -11086,7 +11086,7 @@
           "👍": 2,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 93,
+          "🗳": 96,
           "🙌": 16,
           "✌": 1,
           "📴": 7,
@@ -11153,16 +11153,12 @@
           "😍": "😍",
           "🤩": "🤩"
         },
-        "sendFailStreak": 173,
-        "lastChatAt": 1788163295749,
-        "lastSendFailAt": 1788183753584,
+        "sendFailStreak": 174,
+        "lastChatAt": 1788185255758,
+        "lastSendFailAt": 1788185253697,
         "lastSendFailReason": "You are banned from this channel."
       },
       "chatMemory": [
-        {
-          "user": "purple_nugzzzz",
-          "msg": "PFP is dope too yo"
-        },
         {
           "user": "purple_nugzzzz",
           "msg": "Don't know what it is but it's pretty cool lol"
@@ -11198,6 +11194,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Sinnerz just gave 250 vote(s) (total: 250)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -11471,7 +11471,7 @@
         "totalVotes": 7879,
         "totalSubs": 63,
         "totalChatMessages": 530,
-        "totalStreamMinutes": 2081,
+        "totalStreamMinutes": 2086,
         "emotes": {
           "❤": 67,
           "🙌": 99,
@@ -11602,7 +11602,7 @@
         "totalVotes": 1249,
         "totalSubs": 7,
         "totalChatMessages": 363,
-        "totalStreamMinutes": 2128,
+        "totalStreamMinutes": 2133,
         "emotes": {
           "❤": 24,
           "🙌": 12,
@@ -13624,8 +13624,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788100524720,
   "auth": {
-    "accessToken": "f54ee33971b426600a6b9a2ebeb3edc5",
-    "refreshToken": "433edd44bca0ddd3bade97472c529318",
+    "accessToken": "3ecad61b6b489d46b624da5ff9f84aa7",
+    "refreshToken": "45106d5c740a7f060aed5533ee978472",
     "sessionToken": "93813bc6a16732d52fe2f988910968fe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
