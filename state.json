@@ -1090,7 +1090,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 13526,
+        "totalVotes": 13533,
         "totalSubs": 22,
         "totalChatMessages": 21362,
         "totalStreamMinutes": 2002,
@@ -3063,7 +3063,7 @@
         "totalVotes": 8221,
         "totalSubs": 53,
         "totalChatMessages": 2391,
-        "totalStreamMinutes": 11595,
+        "totalStreamMinutes": 11600,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -7054,7 +7054,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 59,
-        "totalStreamMinutes": 5244,
+        "totalStreamMinutes": 5249,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -8326,9 +8326,9 @@
       "language": "en",
       "joinedAt": 1784461195472,
       "stats": {
-        "totalVotes": 14133,
+        "totalVotes": 14147,
         "totalSubs": 30,
-        "totalChatMessages": 1278,
+        "totalChatMessages": 1279,
         "totalStreamMinutes": 1470,
         "emotes": {
           "😂": 22,
@@ -8344,7 +8344,7 @@
           "🎉": 20,
           "👋": 27,
           "🤣": 118,
-          "🗳": 297,
+          "🗳": 300,
           "📴": 15,
           "🎁": 46,
           "🔴": 15,
@@ -8455,13 +8455,9 @@
           "🙏": "🙏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788167869309
+        "lastChatAt": 1788179676508
       },
       "chatMemory": [
-        {
-          "user": "precidobos",
-          "msg": "Hey Sheena"
-        },
         {
           "user": "brachial513",
           "msg": "Brachial fünf mark dreißig"
@@ -8497,6 +8493,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dress_n_Draw just gave 14 vote(s) (total: 14)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8856,9 +8856,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 6466,
+        "totalVotes": 6471,
         "totalSubs": 21,
-        "totalChatMessages": 1619,
+        "totalChatMessages": 1621,
         "totalStreamMinutes": 5926,
         "emotes": {
           "❤": 77,
@@ -8870,7 +8870,7 @@
           "💪": 1,
           "💚": 6,
           "🔥": 77,
-          "🗳": 543,
+          "🗳": 546,
           "🤗": 5,
           "📴": 36,
           "🎁": 38,
@@ -8989,17 +8989,9 @@
           "🥹": "🥹"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788163315005
+        "lastChatAt": 1788179630834
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @Zer0Cache!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Zer0Cache just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "timdraws",
           "msg": "liking the game so far ?"
@@ -9031,6 +9023,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @Ruri666!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Ruri666 just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -11596,7 +11596,7 @@
         "totalVotes": 1246,
         "totalSubs": 6,
         "totalChatMessages": 358,
-        "totalStreamMinutes": 2063,
+        "totalStreamMinutes": 2068,
         "emotes": {
           "❤": 24,
           "🙌": 11,
@@ -13618,8 +13618,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788100524720,
   "auth": {
-    "accessToken": "e31d62f24b228195b20c9036226d9b9b",
-    "refreshToken": "f45421b6b4b2708b3061c6b6c3f6b361",
+    "accessToken": "9f307922c1f438d016ddb97d09e142df",
+    "refreshToken": "fb69b8a62d9771d9ea4da5987076ff65",
     "sessionToken": "93813bc6a16732d52fe2f988910968fe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
