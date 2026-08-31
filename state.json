@@ -3535,7 +3535,7 @@
         "totalVotes": 6149,
         "totalSubs": 27,
         "totalChatMessages": 1239,
-        "totalStreamMinutes": 5773,
+        "totalStreamMinutes": 5778,
         "emotes": {
           "✨": 25,
           "🖥": 21,
@@ -10119,7 +10119,7 @@
         "totalVotes": 2932,
         "totalSubs": 0,
         "totalChatMessages": 48,
-        "totalStreamMinutes": 2427,
+        "totalStreamMinutes": 2432,
         "emotes": {
           "🔥": 10,
           "🐺": 2,
@@ -10596,9 +10596,9 @@
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 1388,
+        "totalVotes": 1390,
         "totalSubs": 13,
-        "totalChatMessages": 512,
+        "totalChatMessages": 514,
         "totalStreamMinutes": 2406,
         "emotes": {
           "❤": 45,
@@ -10608,7 +10608,7 @@
           "🤝": 1,
           "🔴": 15,
           "🎉": 15,
-          "🗳": 57,
+          "🗳": 60,
           "📴": 16,
           "👋": 16,
           "💛": 1,
@@ -10663,17 +10663,9 @@
           "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788118258245
+        "lastChatAt": 1788152692905
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📢 Shoutout to @Future42, streamer of ! 🔥 Make sure to check out https://blaze.stream/Future42 and show some support ❤️‍🔥"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @Future42 at https://blaze.stream/future42!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -10705,6 +10697,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ k_rl just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 2 votes, @ellyroux!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ellyroux just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -11588,7 +11588,7 @@
         "totalVotes": 1217,
         "totalSubs": 6,
         "totalChatMessages": 274,
-        "totalStreamMinutes": 1660,
+        "totalStreamMinutes": 1665,
         "emotes": {
           "❤": 20,
           "🙌": 10,
@@ -13585,8 +13585,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788100524720,
   "auth": {
-    "accessToken": "fd3ff104578ec4197528695eed19b91e",
-    "refreshToken": "f33a7caae5b4361aa5b7379c924bc29c",
+    "accessToken": "740c52ce550c4582abf1597955765fcc",
+    "refreshToken": "f03db943834e44b5fb0c55afc0cbdcee",
     "sessionToken": "93813bc6a16732d52fe2f988910968fe",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
