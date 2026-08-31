@@ -623,12 +623,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 54586,
+        "totalVotes": 55586,
         "totalSubs": 95,
-        "totalChatMessages": 7721,
+        "totalChatMessages": 7722,
         "totalStreamMinutes": 2226,
         "emotes": {
-          "🗳": 1233,
+          "🗳": 1236,
           "❤": 478,
           "🙌": 192,
           "🔥": 211,
@@ -944,17 +944,13 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788135029928,
+        "lastChatAt": 1788136387302,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 50 vote(s) (total: 125)! Thank you!! 🗳️"
@@ -990,6 +986,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @vRoshi55 just gifted a sub to @guney! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 1000 vote(s) (total: 1000)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -2231,14 +2231,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 10962,
+        "totalVotes": 11162,
         "totalSubs": 47,
-        "totalChatMessages": 4661,
+        "totalChatMessages": 4662,
         "totalStreamMinutes": 15223,
         "emotes": {
           "❤": 180,
           "🙌": 122,
-          "🗳": 693,
+          "🗳": 696,
           "📴": 129,
           "👋": 144,
           "🔴": 126,
@@ -2465,14 +2465,10 @@
           "🫣": "🫣",
           "💕": "💕"
         },
-        "lastChatAt": 1788136167311,
+        "lastChatAt": 1788136605054,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "I missed it.  What game is this buddy?"
-        },
         {
           "user": "agent00zani",
           "msg": "this is roblox"
@@ -2508,6 +2504,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @fluffy just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -3815,10 +3815,10 @@
       "stats": {
         "totalVotes": 18025,
         "totalSubs": 49,
-        "totalChatMessages": 8305,
-        "totalStreamMinutes": 5884,
+        "totalChatMessages": 8310,
+        "totalStreamMinutes": 5889,
         "emotes": {
-          "❤": 160,
+          "❤": 163,
           "🙌": 260,
           "🗳": 1020,
           "✌": 6,
@@ -4246,25 +4246,9 @@
           "5e34aafd-f466-4c04-a34e-f37598d0a31d": "Baguette"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788136317160
+        "lastChatAt": 1788136600789
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Sad to say"
-        },
-        {
-          "user": "briggsy",
-          "msg": "[emote:bfdfb3dc-ce74-415b-82a1-1c2e11e997f0]"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @K1NGBRE4KER just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "briggsy",
-          "msg": "You crazy guy you"
-        },
         {
           "user": "briggsy",
           "msg": "haha"
@@ -4288,6 +4272,22 @@
         {
           "user": "briggsy",
           "msg": "haha"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "❤️❤️❤️"
+        },
+        {
+          "user": "briggsy",
+          "msg": "What's up Zani"
+        },
+        {
+          "user": "botger",
+          "msg": "Hugs with a puppy"
+        },
+        {
+          "user": "briggsy",
+          "msg": "What were you playing?"
         }
       ],
       "customCommands": {},
@@ -13576,8 +13576,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788100524720,
   "auth": {
-    "accessToken": "e2a0f99ab4bbe3798bc992049984216a",
-    "refreshToken": "bced3552836b22218dbb4bdcfbb4de5c",
+    "accessToken": "f797ae234567ff287ed510bf970fd2dd",
+    "refreshToken": "ce00afebaa5ee7f639f390bdd1e64c1f",
     "sessionToken": "52be4553ce0d19e913538edab149ca9c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
