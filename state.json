@@ -1099,13 +1099,13 @@
       "stats": {
         "totalVotes": 13946,
         "totalSubs": 22,
-        "totalChatMessages": 21362,
-        "totalStreamMinutes": 2002,
+        "totalChatMessages": 21364,
+        "totalStreamMinutes": 2005,
         "emotes": {
           "🔥": 1508,
           "🗳": 24,
-          "🔴": 32,
-          "🎉": 203,
+          "🔴": 33,
+          "🎉": 204,
           "😍": 1,
           "❤": 37,
           "🚢": 11,
@@ -1319,7 +1319,7 @@
           "🔒": "🔒",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
-        "lastChatAt": 1788145922741,
+        "lastChatAt": 1788226853752,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1327,14 +1327,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "vroshi55",
-          "msg": "I bought 5 new Games"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "Steam had them on Sale this weekend."
-        },
         {
           "user": "botger",
           "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
@@ -1366,6 +1358,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 jt_squared2 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
         }
       ],
       "customCommands": {},
@@ -1374,7 +1374,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
-      "streamTitle": "",
+      "streamTitle": "Fixing up Bitsi sprite sheets — Art",
       "profile": "jt_squared2’s squad thrives on “love fest” vibes, dropping “Holi Holiii Holiiii” and 🙌🙌🙌 when gameplay gets “hood.” Fridays at 2 pm EST / 6 pm UTC are sacred, especially candy‑themed pinata breaks. “It’s always FUN” echoes, celebrating relaxed, uplifting “hood” art streams that boost state of mind. End‑game Pal’s are avoided, keeping the game pure.",
       "_profileAtCount": 21362,
       "loyalty": {
@@ -3090,7 +3090,7 @@
         "totalVotes": 8949,
         "totalSubs": 54,
         "totalChatMessages": 2431,
-        "totalStreamMinutes": 11906,
+        "totalStreamMinutes": 11926,
         "emotes": {
           "😊": 4,
           "🌵": 87,
@@ -4554,7 +4554,7 @@
         "totalVotes": 17125,
         "totalSubs": 36,
         "totalChatMessages": 5199,
-        "totalStreamMinutes": 9587,
+        "totalStreamMinutes": 9607,
         "emotes": {
           "❤": 61,
           "🙌": 140,
@@ -6668,7 +6668,7 @@
         "totalVotes": 5268,
         "totalSubs": 31,
         "totalChatMessages": 1655,
-        "totalStreamMinutes": 10446,
+        "totalStreamMinutes": 10466,
         "emotes": {
           "🔥": 468,
           "🔴": 170,
@@ -7074,8 +7074,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/eaf52e0e-c43a-4a95-ae72-8f8f3836332e.jpeg",
       "streamTitle": "",
       "gameOverride": "",
-      "profile": "Welcome to thewill3ffect’s squad! We live in “Slay Mode” + “Meme Mode” combos, celebrating mods with “GIFTED SUBS” and “LOVE FESTS.” Raid alerts, Space Mining & Dungeon Crawler keep the vibe lit",
-      "_profileAtCount": 597,
+      "profile": "Welcome to thewill3ffect’s squad! We’re always in “Slay Mode” + “Meme Mode” combos, celebrating mods with “GIFTED SUBS” and “LOVE FESTS.” Raid alerts, Space Mining & Dungeon Crawler keep the vibe lit. We love “precious gems,” “goldzong,” “saphira sapphire,” and “zongs” decks, and we thrive on new abilities and balancing. Keep the energy high and the laughs coming!",
+      "_profileAtCount": 696,
       "loyalty": {
         "senseibulrog": {
           "name": "senseibulrog",
@@ -7478,8 +7478,8 @@
       "followed": true,
       "streamTitle": "",
       "gameOverride": "",
-      "profile": "0xscheun’s community is a chill crew that loves gaming and good vibes. We greet with “gm gm” and “sup”, celebrate wins with “thank you” and “yessir”, and laugh at “tiddies” and “nirus supplier” jokes. Fave games: Farlight, Uncharted. We live for intense moments, throw love fests, and keep the energy high with constant emotes and playful banter.",
-      "_profileAtCount": 365,
+      "profile": "0xscheun’s crew is a chill, high‑energy squad that loves gaming, especially Farlight and Uncharted. We greet with “gm gm” and “sup”, celebrate wins with “thank you” and “yessir”, and laugh at “tiddies” and “nirus supplier” jokes. Love fests, constant emotes, and playful banter keep the vibe alive. The stream ends with a heartfelt “See you next time 👋”.",
+      "_profileAtCount": 416,
       "nudgedAt": 1785078532098,
       "nudgedKey": "schedule",
       "lastStreamInfo": "GOW RAGNAROK — God of War",
@@ -13508,8 +13508,8 @@
     },
     "one": {
       "note": "Enjoys World of Warcraft and Old School RuneScape, loves guild trading and quick loot finds, and shares enthusiastic, playful game tips with a humorous tone.",
-      "at": 1787701276204,
-      "n": 9
+      "at": 1788226789967,
+      "n": 10
     },
     "knz": {
       "note": "Enthusiastic chat participant who loves cheering, using emotes, and discussing game activation.",
