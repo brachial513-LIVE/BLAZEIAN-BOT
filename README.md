@@ -43,6 +43,7 @@ Every streamer manages only their own channel from their own dashboard — the b
 - **Node.js + Express**, talking to the [official Blaze API](https://dev.blaze.stream/) over both REST and a real-time Socket.IO event stream
 - **Two independent Socket.IO sessions** — one for app-token events (chat, raids, stream status), one for user-token-only events (follows, votes, subs, gifts, tips) — so a problem on one can never take down the other
 - **Groq** — GPT-OSS-120B for real chat replies, GPT-OSS-20B for background work & event shoutouts (both at low reasoning effort)
+- **Smart send backoff** — when a channel bounces the bot's messages 3+ times in a row (banned/muted/removed), it stops generating shoutouts and stops trying to send there, re-probing only ~twice a day; the moment a send lands again it snaps back to normal automatically. Saves the AI token budget (and Blaze API noise) that would otherwise be spent on undeliverable messages
 - **Tavily Search API** for live, current-world facts
 - State (channels, stats, settings) is persisted to this same repo's `state.json` via the GitHub API — no separate database
 
