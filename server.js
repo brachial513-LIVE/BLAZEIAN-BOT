@@ -863,8 +863,27 @@ async function drainQueue(channelId) {
   }
 }
 
+// COST/SPAM BACKOFF for channels that are currently blocking the bot. When a channel has bounced the
+// bot's messages 3+ times in a row (banned/muted/removed as mod), there's no point (a) burning Groq
+// tokens generating a shoutout that can't be delivered, or (b) spamming Blaze with sends that just
+// fail. So we go quiet there and only re-probe roughly twice a day. The instant a send succeeds again,
+// markSendSuccess() resets the streak to 0 and the bot snaps back to normal on its own — no manual step.
+const SEND_BACKOFF_STREAK = 3;
+const SEND_BACKOFF_MS = 12 * 60 * 60 * 1000; // ~2 probe attempts per day
+function inSendBackoff(ch) {
+  const s = ch && ch.stats;
+  if (!s || (s.sendFailStreak || 0) < SEND_BACKOFF_STREAK) return false;
+  const ref = Math.max(s.lastSendFailAt || 0, s.lastProbeAt || 0);
+  return (Date.now() - ref) < SEND_BACKOFF_MS;
+}
+
 // Public send: splits long messages and queues them (never blocks the caller)
 function sendChat(channelId, message) {
+  const ch = channels[channelId];
+  if (ch && (ch.stats?.sendFailStreak || 0) >= SEND_BACKOFF_STREAK) {
+    if (inSendBackoff(ch)) return Promise.resolve();   // in the quiet window → skip the send entirely
+    if (ch.stats) ch.stats.lastProbeAt = Date.now();   // this send IS our ~12h probe; mark it so parallel events stay quiet
+  }
   const parts = splitMessage(message);
   if (!sendQueues[channelId]) sendQueues[channelId] = [];
   sendQueues[channelId].push(...parts);
@@ -1772,6 +1791,7 @@ const SHOUT_WINDOW_MS = (Number(process.env.SHOUT_WINDOW_SEC) || 15) * 1000;
 let shoutTimes = [];
 async function aiShout(ch, instruction, { addName } = {}) {
   if (!AI_KEY || !ch) return null;
+  if (inSendBackoff(ch)) return null; // channel is blocking us → don't spend Groq tokens on an undeliverable shoutout
   const cid = Object.keys(channels).find(id => channels[id] === ch);
   if (cid && onCooldown(cid, "aishout", 4000)) return null;
   const _now = Date.now();
