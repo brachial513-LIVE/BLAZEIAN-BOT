@@ -8668,7 +8668,7 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 26072,
+        "totalVotes": 26082,
         "totalSubs": 39,
         "totalChatMessages": 2325,
         "totalStreamMinutes": 1045,
@@ -8943,7 +8943,7 @@
         "totalVotes": 7127,
         "totalSubs": 21,
         "totalChatMessages": 1732,
-        "totalStreamMinutes": 6200,
+        "totalStreamMinutes": 6201,
         "emotes": {
           "❤": 77,
           "🙌": 45,
@@ -12940,19 +12940,28 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1788280155435
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
       "timedMessages": [],
-      "tipTiers": []
+      "tipTiers": [],
+      "locked": false,
+      "followed": true,
+      "botVip": true
     }
   },
   "blocklist": [
