@@ -8306,7 +8306,7 @@
         "totalVotes": 3508,
         "totalSubs": 19,
         "totalChatMessages": 150,
-        "totalStreamMinutes": 3533,
+        "totalStreamMinutes": 3538,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -10687,8 +10687,8 @@
       "stats": {
         "totalVotes": 1473,
         "totalSubs": 25,
-        "totalChatMessages": 683,
-        "totalStreamMinutes": 3105,
+        "totalChatMessages": 685,
+        "totalStreamMinutes": 3108,
         "emotes": {
           "❤": 49,
           "🙌": 41,
@@ -10698,8 +10698,8 @@
           "🔴": 20,
           "🎉": 22,
           "🗳": 81,
-          "📴": 20,
-          "👋": 20,
+          "📴": 21,
+          "👋": 21,
           "💛": 1,
           "🥰": 1,
           "📢": 19,
@@ -10758,17 +10758,9 @@
           "😇": "😇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788247261445
+        "lastChatAt": 1788252616029
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 35 votes, @wapi!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 35 vote(s) (total: 35)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "@seventh gifted a Sub to @wapi! Thank you!"
@@ -10800,6 +10792,14 @@
         {
           "user": "marowak33",
           "msg": "ty"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -10811,9 +10811,9 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg",
-      "streamTitle": "We back for another Re7 gameplay 🫡 — Resident Evil 7 biohazard",
+      "streamTitle": "",
       "lastStreamInfo": "We back for another Re7 gameplay 🫡 — Resident Evil 7 biohazard",
-      "lastStreamEndedAt": 1788240371772,
+      "lastStreamEndedAt": 1788252610766,
       "gameOverride": "",
       "profile": "GMs are the best! 🔥🔥💚💚 Celebrate streams with 🎉 and 🔴 alerts. Weekly Giveaways on Blaze are a thing, and we’re all about those “permanently free Entries”! 💚 Shout “VOTE ALERT!!” and shower love on the streamer with “love fest” shoutouts. seventh loves being celebrated, so let’s give ‘em a love fest!",
       "_profileAtCount": 683,
@@ -12811,7 +12811,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 349,
+        "totalStreamMinutes": 354,
         "emotes": {
           "👋": 2,
           "❤": 10,
@@ -13382,8 +13382,8 @@
     },
     "angge_wf": {
       "note": "Playful gamer who loves Stumble Guys, greets with “gm,” uses emojis, and bursts into long “HAHA” laughs.",
-      "at": 1788087529646,
-      "n": 14
+      "at": 1788252529840,
+      "n": 15
     },
     "pillow": {
       "note": "Enthusiastic gamer who loves GTA, Vice City, and RDR2, jokes loudly, and enjoys CryptoKings music.",
@@ -13835,8 +13835,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788186929376,
   "auth": {
-    "accessToken": "ff4a811a43e6c329116374abd8c9eac8",
-    "refreshToken": "02f5b9b70f33dc3b01fc0e30a767ffb2",
+    "accessToken": "b077583b6e7166e0ad272d0678a4170d",
+    "refreshToken": "4a5bbd6f9d42c3f0163993c84279b86e",
     "sessionToken": "840d23fa46ce3a64460701b65fc06a4a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
