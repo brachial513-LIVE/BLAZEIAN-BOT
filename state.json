@@ -2607,7 +2607,7 @@
       "stats": {
         "totalVotes": 15251,
         "totalSubs": 56,
-        "totalChatMessages": 8614,
+        "totalChatMessages": 8615,
         "totalStreamMinutes": 5263,
         "emotes": {
           "❤": 3585,
@@ -2649,7 +2649,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 27,
-          "💜": 287,
+          "💜": 288,
           "🧔": 1,
           "🤺": 6,
           "🥳": 25,
@@ -2925,18 +2925,14 @@
           "🥜": "🥜",
           "😇": "😇"
         },
-        "lastChatAt": 1788249056318,
-        "sendFailStreak": 472,
-        "lastSendFailAt": 1788251625827,
+        "lastChatAt": 1788263400968,
+        "sendFailStreak": 473,
+        "lastSendFailAt": 1788263401473,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146
       },
       "chatMemory": [
-        {
-          "user": "bee12",
-          "msg": "❤️❤️❤️"
-        },
         {
           "user": "sheshi",
           "msg": "🤟"
@@ -2972,6 +2968,10 @@
         {
           "user": "rob_osp",
           "msg": "@noxx — thanks for the 20 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         }
       ],
       "customCommands": {},
@@ -10504,7 +10504,7 @@
         "totalVotes": 4118,
         "totalSubs": 39,
         "totalChatMessages": 674,
-        "totalStreamMinutes": 1706,
+        "totalStreamMinutes": 1714,
         "emotes": {
           "❤": 75,
           "🙌": 62,
@@ -11720,7 +11720,7 @@
       "stats": {
         "totalVotes": 1264,
         "totalSubs": 8,
-        "totalChatMessages": 369,
+        "totalChatMessages": 370,
         "totalStreamMinutes": 2187,
         "emotes": {
           "❤": 24,
@@ -11749,17 +11749,17 @@
           "d226facb-93eb-41c9-aeba-43374f1b5ccd": 12,
           "🦊": 3,
           "6177a903-1fc8-4084-8bb6-3417b364a127": 5,
-          "9ed02167-13fa-4124-bc58-93193f860714": 8,
+          "9ed02167-13fa-4124-bc58-93193f860714": 9,
           "3dd7cc5f-56cf-4537-98c0-d38fb1a3e76a": 2,
           "d17b5b6b-d582-4144-a61b-f84f23c86cc0": 2,
           "6ebd65f6-ee18-4849-a54f-19a8c2427e23": 2,
           "123ee963-bf35-4ffe-b991-39ae1302719f": 1,
-          "48b95fa0-97aa-4473-8d58-14bed149c72a": 3,
+          "48b95fa0-97aa-4473-8d58-14bed149c72a": 4,
           "2bdc648e-27bc-4a8e-8ec6-4dce23e905fb": 1,
           "7683816b-dfb9-41b2-afa5-97c36e999cd9": 4,
           "248df077-1173-43ba-8b39-3b1f1154c066": 2,
-          "cb2d4c2e-a237-43ac-9d6c-8672a86ee6ea": 5,
-          "6c78a6aa-9e3d-480b-825a-2714e99b1156": 9,
+          "cb2d4c2e-a237-43ac-9d6c-8672a86ee6ea": 7,
+          "6c78a6aa-9e3d-480b-825a-2714e99b1156": 10,
           "d839d001-429a-4c85-b381-84e248ff14d6": 2
         },
         "emoteNames": {
@@ -11803,13 +11803,9 @@
           "d839d001-429a-4c85-b381-84e248ff14d6": "MONKE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788188475271
+        "lastChatAt": 1788263522339
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "scurvybot",
           "msg": "@korosuplays gifted a Sub to @FartVader! Thank you!"
@@ -11845,6 +11841,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "korosuplays",
+          "msg": "125x VOTE GIVEAWAY [emote:cb2d4c2e-a237-43ac-9d6c-8672a86ee6ea] [emote:6c78a6aa-9e3d-480b-825a-2714e99b1156] [emote:cb2d4c2e-a237-43ac-9d6c-8672a86ee6ea] \n\n1 entry - 20 votes [emote:9ed02167-13fa-4124-bc58-93193f860714] \n\n5 entries - 1 sub [emote:48b95fa0-97aa-4473-8d58-14bed149c72a]"
         }
       ],
       "customCommands": {},
@@ -13861,8 +13861,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788254206929,
   "auth": {
-    "accessToken": "fd45ce57bc65679fef3679aec34ad011",
-    "refreshToken": "66fe1d8e250bd034b758f0e309c72350",
+    "accessToken": "bc98432a6f1cb35c28025792e491d75d",
+    "refreshToken": "935c999ca0621d12e54ce04645fd0f7f",
     "sessionToken": "840d23fa46ce3a64460701b65fc06a4a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
