@@ -625,7 +625,7 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 60534,
+        "totalVotes": 60584,
         "totalSubs": 101,
         "totalChatMessages": 7747,
         "totalStreamMinutes": 2226,
@@ -11262,7 +11262,7 @@
       "language": "en",
       "joinedAt": 1785809834886,
       "stats": {
-        "totalVotes": 58710,
+        "totalVotes": 58735,
         "totalSubs": 12,
         "totalChatMessages": 566,
         "totalStreamMinutes": 1504,
@@ -11348,10 +11348,11 @@
           "😍": "😍",
           "🤩": "🤩"
         },
-        "sendFailStreak": 181,
+        "sendFailStreak": 182,
         "lastChatAt": 1788270262271,
-        "lastSendFailAt": 1788270259998,
-        "lastSendFailReason": "You are banned from this channel."
+        "lastSendFailAt": 1788346661647,
+        "lastSendFailReason": "You are banned from this channel.",
+        "lastProbeAt": 1788346660410
       },
       "chatMemory": [
         {
@@ -14031,8 +14032,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788323094606,
   "auth": {
-    "accessToken": "3123eb4da72bfa131af9009534d3c3d9",
-    "refreshToken": "5f9936486c42af2bc69474386253525b",
+    "accessToken": "1fae6bfc54f070e455414bb9640b6ef0",
+    "refreshToken": "74e5ff283d1d9df97af74fb49b8c26e4",
     "sessionToken": "b0e3f7c184b0bd4b6cfe757c3398623c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
