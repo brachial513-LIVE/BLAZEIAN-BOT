@@ -426,6 +426,7 @@ function getOrCreateChannel(channelId, username) {
   const c = channels[channelId];
   if (!c.language) c.language = "en";
   if (!c.customCommands) c.customCommands = {};
+  if (!c.commandMedia) c.commandMedia = {}; // cmdName -> { sound, media, text, dur } for on-overlay media commands
   if (c.streamStart === undefined) c.streamStart = "";
   if (c.streamEnd === undefined) c.streamEnd = "";
   if (c.schedule === undefined) c.schedule = "";
@@ -1858,6 +1859,17 @@ function pushRaid(channelId, raider, viewers) {
   raidAlerts[channelId] = { raider: raider || "Someone", viewers: Number(viewers) || 0, ts: Date.now() };
 }
 
+// COMMAND MEDIA ALERTS — when a custom command that has a sound/gif/video attached is typed in chat,
+// this holds the latest one so the /overlay/alert Browser Source can fire it (song + gif/video/picture
+// on screen). `name` is the argument after the command (e.g. "!hype Zani" → name="Zani"), for {name} text.
+const cmdAlerts = {}; // channelId -> { sound, media, text, dur, name, ts }
+function pushCmdAlert(channelId, mc, argName) {
+  cmdAlerts[channelId] = {
+    sound: mc.sound || "", media: mc.media || "", text: mc.text || "",
+    dur: Number(mc.dur) || 8, name: (argName || "").toString().slice(0, 60), ts: Date.now()
+  };
+}
+
 // channelId -> [{user, msg, emotes:[url], ts}] rolling buffer for the OBS CHAT overlay (/overlay/chat).
 // This is the robust, self-hosted replacement for Social Stream Ninja's Blaze capture: SSN scrapes Blaze's
 // web page and breaks on every Blaze redesign, whereas the bot rides Blaze's real event connection, so it
@@ -2632,10 +2644,23 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
-  // Custom commands (checked after built-ins)
-  if (m.startsWith("!") && ch.customCommands) {
-    const cmdName = m.slice(1).split(/\s+/)[0];
-    if (ch.customCommands[cmdName]) { await sendChat(channelId, ch.customCommands[cmdName]); return; }
+  // Custom commands (checked after built-ins). A command can be a text reply, an on-overlay media
+  // alert (sound + gif/video/picture), or both. "!hype Zani" → the arg "Zani" fills {name} in the alert.
+  if (m.startsWith("!")) {
+    const parts = m.slice(1).split(/\s+/);
+    const cmdName = parts[0];
+    const arg = parts.slice(1).join(" ");
+    const txt = ch.customCommands && ch.customCommands[cmdName];
+    const mc = ch.commandMedia && ch.commandMedia[cmdName];
+    if (txt || (mc && (mc.sound || mc.media))) {
+      // Media alert on a short per-channel cooldown so chat can't flood the overlay with pop-ups.
+      if (mc && (mc.sound || mc.media) && !onCooldown(channelId, "cmdalert", 6000)) {
+        markFired(channelId, "cmdalert");
+        pushCmdAlert(channelId, mc, arg);
+      }
+      if (txt) await sendChat(channelId, txt);
+      return;
+    }
   }
 }
 
@@ -3019,18 +3044,20 @@ function pageHead(title) {
 
 // Render the command list + stream messages for a single channel (used in both panels)
 function renderChannelBlock(ch, actionPrefix) {
-  const cmds = Object.entries(ch.customCommands || {}).map(([name, resp]) =>
-    `<div class="cmd">
-      <button type="button" class="edit-btn" data-n="${esc(name)}" data-r="${esc(resp)}" data-u="${esc(ch.username)}" onclick="rcEditCmd(this.dataset.n,this.dataset.r,this.dataset.u)">edit</button>
+  const cmds = Object.entries(ch.customCommands || {}).map(([name, resp]) => {
+    const mc = (ch.commandMedia || {})[name] || {};
+    const badge = (mc.sound || mc.media) ? ` <span class="tag" style="background:#7CFC9A;color:#06210e;">🎬 media</span>` : "";
+    return `<div class="cmd">
+      <button type="button" class="edit-btn" data-n="${esc(name)}" data-r="${esc(resp)}" data-u="${esc(ch.username)}" data-ms="${esc(mc.sound || "")}" data-mm="${esc(mc.media || "")}" data-mt="${esc(mc.text || "")}" data-md="${esc(String(mc.dur || 8))}" onclick="rcEditCmd(this.dataset.n,this.dataset.r,this.dataset.u,this.dataset.ms,this.dataset.mm,this.dataset.mt,this.dataset.md)">edit</button>
       <form method="POST" action="${actionPrefix}/delcmd" class="delform">
         <input type="hidden" name="username" value="${esc(ch.username)}">
         <input type="hidden" name="name" value="${esc(name)}">
         <button class="del">delete</button>
       </form>
-      <b>!${esc(name)}</b>
+      <b>!${esc(name)}</b>${badge}
       <div class="cmdtext">${esc(resp)}</div>
-    </div>`
-  ).join("") || "<i class='muted'>no custom commands yet</i>";
+    </div>`;
+  }).join("") || "<i class='muted'>no custom commands yet</i>";
 
   const lockNote = ch.locked
     ? `<div class="meta" style="color:#e8b94a;"><b>🔒 LOCKED:</b> followers-only chat — this streamer needs to log into the dashboard once (or add blazeian_bot_ai as VIP/Mod, or you follow them).</div>`
@@ -3054,10 +3081,23 @@ function renderForms(actionPrefix, channelField) {
     ${channelField}
     <label>Command name (without !)</label>
     <input name="name" id="rc-cmdname" placeholder="giveaway">
-    <label>Response</label>
-    <textarea name="response" id="rc-cmdresp" rows="6" placeholder="The full text the bot should reply with..."></textarea>
-    <button class="save">Save Command</button>
-    <p class="hint">Editing an existing command? Hit its <b>edit</b> button below — it loads the command here so you can change it and save over it. 💚</p>
+    <label>Response <span class="muted" style="font-weight:400;">(optional if you add media below)</span></label>
+    <textarea name="response" id="rc-cmdresp" rows="5" placeholder="The full text the bot should reply with..."></textarea>
+    <details style="margin-top:8px;">
+      <summary style="cursor:pointer;font-weight:700;color:#7CFC9A;">🎬 Play a sound / GIF / video on your stream (optional)</summary>
+      <p class="hint">Fill any of these and the command ALSO fires a media alert on your <b>Command Alert</b> OBS overlay (grab its URL under 🎬 OBS Overlays). Type <code>!yourcmd SomeName</code> and use <code>{name}</code> in the text to name a person. A SoundCloud/YouTube page link won't work — use a direct file or the upload button.</p>
+      <label>🔊 Sound — MP3 URL, or upload a file</label>
+      <div style="display:flex;gap:8px;align-items:center;"><input name="mediaSound" id="rc-cmdmSound" placeholder="https://…/sound.mp3" style="flex:1;"><input type="file" id="rc-cmdmSoundFile" accept="audio/*" style="max-width:150px;"><button type="button" class="edit-btn" onclick="rcUpCmd('sound')">⬆️ Upload</button></div>
+      <label>🖼️ GIF / video / picture — URL, or upload a file</label>
+      <div style="display:flex;gap:8px;align-items:center;"><input name="mediaUrl" id="rc-cmdmMedia" placeholder="https://…/clip.mp4 · .gif · .png" style="flex:1;"><input type="file" id="rc-cmdmMediaFile" accept="image/*,video/*" style="max-width:150px;"><button type="button" class="edit-btn" onclick="rcUpCmd('media')">⬆️ Upload</button></div>
+      <div id="rc-cmdmNote" class="hint"></div>
+      <div style="display:flex;gap:10px;">
+        <div style="flex:1;"><label>💬 On-screen text (optional) — <code>{name}</code> = named person</label><input name="mediaText" id="rc-cmdmText" maxlength="160" placeholder="{name} got hyped! 🔥"></div>
+        <div style="width:110px;"><label>Seconds</label><input type="number" name="mediaDur" id="rc-cmdmDur" min="3" max="30" value="8"></div>
+      </div>
+    </details>
+    <button class="save" style="margin-top:10px;">Save Command</button>
+    <p class="hint">Editing an existing command? Hit its <b>edit</b> button below — it loads the command (and its media) here so you can change it and save over it. 💚</p>
   </form>
 
   <h2>📺 Stream Start / End Messages</h2>
@@ -3072,9 +3112,33 @@ function renderForms(actionPrefix, channelField) {
   </form>
   <script>
     function rcSetChan(form,u){ if(!u) return; var s=form.querySelector('select[name=username]'); if(s){ s.value=u; } }
-    window.rcEditCmd=function(n,r,u){ var f=document.getElementById('rc-cmdform'); if(!f) return; rcSetChan(f,u);
+    window.rcEditCmd=function(n,r,u,ms,mm,mt,md){ var f=document.getElementById('rc-cmdform'); if(!f) return; rcSetChan(f,u);
       var nm=document.getElementById('rc-cmdname'), rp=document.getElementById('rc-cmdresp');
-      if(nm) nm.value=n; if(rp) rp.value=r; if(nm){ nm.scrollIntoView({behavior:'smooth',block:'center'}); nm.focus(); } };
+      if(nm) nm.value=n; if(rp) rp.value=r;
+      var s=document.getElementById('rc-cmdmSound'); if(s) s.value=ms||'';
+      var mo=document.getElementById('rc-cmdmMedia'); if(mo) mo.value=mm||'';
+      var tx=document.getElementById('rc-cmdmText'); if(tx) tx.value=mt||'';
+      var du=document.getElementById('rc-cmdmDur'); if(du&&md) du.value=md;
+      var det=f.querySelector('details'); if(det&&(ms||mm||mt)) det.open=true;
+      if(nm){ nm.scrollIntoView({behavior:'smooth',block:'center'}); nm.focus(); } };
+    window.rcUpCmd=function(slot){
+      var cmd=(document.getElementById('rc-cmdname').value||'').toLowerCase().replace(/[^a-z0-9_-]/g,'');
+      var note=document.getElementById('rc-cmdmNote');
+      if(!cmd){ note.textContent='Enter a command name first (so the file can be linked to it).'; return; }
+      var fileEl=document.getElementById(slot==='sound'?'rc-cmdmSoundFile':'rc-cmdmMediaFile');
+      var f=fileEl.files[0];
+      if(!f){ note.textContent='Pick a file first.'; return; }
+      if(f.size>25*1024*1024){ note.textContent='File too big (max 25 MB).'; return; }
+      var ext=(f.name.split('.').pop()||'').toLowerCase();
+      note.textContent='Uploading…';
+      fetch('/dashboard/uploadcmdmedia?slot='+slot+'&cmd='+encodeURIComponent(cmd)+'&ext='+encodeURIComponent(ext),{method:'POST',headers:{'Content-Type':'application/octet-stream'},body:f}).then(function(r){return r.json();}).then(function(d){
+        if(d.error==='badtype'){ note.textContent='Unsupported file type.'; return; }
+        if(d.error==='nostorage'){ note.textContent='Upload storage not configured (no GITHUB_TOKEN).'; return; }
+        if(d.error){ note.textContent='Upload failed ('+(d.detail||d.error)+').'; return; }
+        document.getElementById(slot==='sound'?'rc-cmdmSound':'rc-cmdmMedia').value=d.url;
+        note.textContent='✅ Uploaded — now click Save Command.';
+      }).catch(function(){ note.textContent='Upload error.'; });
+    };
     window.rcEditStream=function(s,e,u){ var f=document.getElementById('rc-streamform'); if(!f) return; rcSetChan(f,u);
       var ss=document.getElementById('rc-streamstart'), se=document.getElementById('rc-streamend');
       if(ss) ss.value=s; if(se) se.value=e; if(ss){ ss.scrollIntoView({behavior:'smooth',block:'center'}); ss.focus(); } };
@@ -3094,6 +3158,7 @@ function renderOverlaySection(username) {
   const mascotUrl = `${SELF_URL}/overlay/mascot/${encodeURIComponent(username)}`;
   const runUrl    = `${SELF_URL}/overlay/run/${encodeURIComponent(username)}`;
   const raidUrl   = `${SELF_URL}/overlay/raid/${encodeURIComponent(username)}`;
+  const alertUrl  = `${SELF_URL}/overlay/alert/${encodeURIComponent(username)}`;
   const seagullUrl = `${SELF_URL}/overlay/seagull`;
   const showSeagull = SEAGULL_DASH_USERS.includes((username || "").toLowerCase());
   return `
@@ -3121,6 +3186,9 @@ function renderOverlaySection(username) {
     <input readonly onclick="this.select()" value="${esc(raidUrl)}">
     <p class="hint">Paste this ONE URL into OBS (Browser Source, <b>1920×1080</b>) — it never changes. Everything below is set right here in the dashboard and applies automatically. Banner text is fully editable in the <b>More</b> tab (default: "<b>&lt;Raider&gt; has raided your Channel with &lt;N&gt; Awesome People !</b>"). Add <code>?test=1</code> to the URL to place it in OBS.</p>
     ${renderRaidPanel(username)}
+    <label style="margin-top:14px;">🎬 Command Alert — plays a command's sound + GIF/video/picture on stream</label>
+    <input readonly onclick="this.select()" value="${esc(alertUrl)}">
+    <p class="hint">Add this as a Browser Source (1920×1080, transparent). When a command that has media attached (set it up in <b>➕ Add / Update a Command</b> — the "🎬 Play a sound / GIF / video" section) is typed in chat, its sound + GIF/video/picture pops up here. Tune size with <code>?scale=1.3</code>. Add <code>?test=1</code> to preview a demo. Type <code>!yourcmd SomeName</code> to fill <code>{name}</code>.</p>
     ${showSeagull ? `
     <label style="margin-top:14px;">🦅 CaptainRob's Seagull-Blazeian — flies across the top &amp; makes a portal entrance</label>
     <input readonly onclick="this.select()" value="${esc(seagullUrl)}">
@@ -3141,8 +3209,10 @@ function renderRaidPanel(username) {
   const label = cfg.label || "RAID";
   const text = cfg.text || "{raider} has raided your Channel with {count} Awesome People !";
   const dur = Number(cfg.dur) || 8;
+  const scale = Number(cfg.scale) || 1;
   const soundChecked = (cfg.sound !== false) ? "checked" : "";
   const confChecked = (cfg.confetti !== false) ? "checked" : "";
+  const boxChecked = (cfg.box !== false) ? "checked" : "";
   return `
   <div id="raidcfg" class="rc-wrap">
     <style>
@@ -3207,6 +3277,11 @@ function renderRaidPanel(username) {
           <div><label>Display time (sec.)</label><input type="number" name="dur" id="rc-dur" min="3" max="30" value="${dur}"></div>
           <div><label>Badge text</label><input name="label" id="rc-label" maxlength="24" value="${esc(label)}"></div>
         </div>
+        <div class="rc-grid2">
+          <div><label>Text &amp; GIF size (1 = normal)</label><input type="number" name="scale" id="rc-scale" min="0.5" max="3" step="0.1" value="${scale}"></div>
+          <div style="display:flex;align-items:flex-end;padding-bottom:6px;"><label style="margin:0;"><input type="checkbox" name="box" value="1" ${boxChecked}> 🟩 Show green background box</label></div>
+        </div>
+        <p class="hint" style="margin-top:2px;">Putting this inside your OWN frame/box (e.g. your GMC-Alert-Box)? Turn <b>Show green background box</b> OFF so only the text + GIF show (transparent), and bump the size up to fill your frame.</p>
         <label style="display:block;margin-top:10px;"><input type="checkbox" name="sound" value="1" ${soundChecked}> 🔊 Play sound (off = muted, banner only)</label>
         <label style="display:block;margin-top:4px;"><input type="checkbox" name="confetti" value="1" ${confChecked}> 🎊 Show confetti</label>
       </div>
@@ -3307,6 +3382,8 @@ function renderRaidPanel(username) {
       if($('rc-text').value.trim()) p.set('text',$('rc-text').value);
       p.set('label',($('rc-label').value||'RAID').trim());
       p.set('dur',$('rc-dur').value||'8');
+      p.set('scale',$('rc-scale').value||'1');
+      p.set('box', root.querySelector('[name=box]').checked?'1':'0');
       p.set('sound', root.querySelector('[name=sound]').checked?'1':'0');
       p.set('confetti', root.querySelector('[name=confetti]').checked?'1':'0');
       window.open('/overlay/raid/'+encodeURIComponent(USER)+'?'+p.toString(),'_blank');
@@ -4352,11 +4429,21 @@ function dashboardChannelId(req) {
 app.post("/dashboard/setcmd", async (req, res) => {
   const channelId = dashboardChannelId(req);
   if (!channelId) return res.status(403).send("Not logged in. <a href='/dashboard'>Login</a>");
-  const cmdName = (req.body.name || "").toLowerCase().replace(/^!/, "").trim();
-  const response = (req.body.response || "").trim();
-  if (cmdName && response) {
-    if (!channels[channelId].customCommands) channels[channelId].customCommands = {};
-    channels[channelId].customCommands[cmdName] = response;
+  const b = req.body || {};
+  const cmdName = (b.name || "").toLowerCase().replace(/^!/, "").trim();
+  const response = (b.response || "").trim();
+  const clean = (v, max) => (v == null ? "" : String(v)).trim().slice(0, max);
+  const mSound = clean(b.mediaSound, 500);
+  const mMedia = clean(b.mediaUrl, 500);
+  const mText = clean(b.mediaText, 160);
+  const mDur = Math.max(3, Math.min(30, parseFloat(b.mediaDur) || 8));
+  if (cmdName && (response || mSound || mMedia)) {
+    const ch = channels[channelId];
+    if (!ch.customCommands) ch.customCommands = {};
+    if (!ch.commandMedia) ch.commandMedia = {};
+    ch.customCommands[cmdName] = response; // may be "" for a media-only command — the trigger still matches by name
+    if (mSound || mMedia || mText) ch.commandMedia[cmdName] = { sound: mSound, media: mMedia, text: mText, dur: mDur };
+    else delete ch.commandMedia[cmdName]; // media cleared → back to a plain text command
     await saveChannelsToCloud();
   }
   res.redirect("/dashboard");
@@ -4367,6 +4454,7 @@ app.post("/dashboard/delcmd", async (req, res) => {
   if (!channelId) return res.status(403).send("Not logged in. <a href='/dashboard'>Login</a>");
   const cmdName = (req.body.name || "").toLowerCase().replace(/^!/, "").trim();
   if (channels[channelId].customCommands) delete channels[channelId].customCommands[cmdName];
+  if (channels[channelId].commandMedia) delete channels[channelId].commandMedia[cmdName];
   await saveChannelsToCloud();
   res.redirect("/dashboard");
 });
@@ -4395,6 +4483,8 @@ app.post("/dashboard/setraid", async (req, res) => {
     label: clean(b.label, 24) || "RAID",
     text: clean(b.text, 200),
     dur,
+    scale: Math.max(0.5, Math.min(3, parseFloat(b.scale) || 1)),
+    box: b.box != null,            // unchecked → transparent (no green box), for use inside a custom frame
     sound: b.sound != null,        // unchecked checkbox isn't sent → sound off
     confetti: b.confetti != null   // same convention for confetti
   };
@@ -5404,6 +5494,8 @@ app.get("/overlay/raid/:username", (req, res) => {
   const credit = (q.credit != null ? q.credit : (cfg.audioCredit || "")).toString().slice(0, 120);
   const RAID_TEXT_DEFAULT = "{raider} has raided your Channel with {count} Awesome People !";
   const text = (q.text != null ? q.text : (cfg.text || RAID_TEXT_DEFAULT)).toString().slice(0, 200);
+  const showBox = q.box != null ? q.box !== "0" : (cfg.box !== false);        // green background box (off = transparent, for use inside your own frame)
+  const scale = clamp(q.scale, 0.5, 3, Number(cfg.scale) || 1);               // overall size multiplier for text + gif
   const testMode = req.query.test === "1" || req.query.test === "true";
   res.set("Content-Type", "text/html");
   res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Raid Alert</title>
@@ -5415,15 +5507,18 @@ app.get("/overlay/raid/:username", (req, res) => {
   @keyframes pop{0%{opacity:0;transform:translateY(-60px) scale(.7);}100%{opacity:1;transform:translateY(0) scale(1);}}
   @keyframes fade{to{opacity:0;transform:translateY(-30px) scale(.95);}}
   .banner{background:linear-gradient(180deg,rgba(10,25,10,.92),rgba(6,16,8,.92));border:3px solid #4ade80;border-radius:20px;padding:26px 48px;text-align:center;box-shadow:0 0 50px rgba(74,222,128,.6),0 10px 40px rgba(0,0,0,.6);max-width:min(920px,86vw);}
-  .eyebrow{display:inline-block;font-size:clamp(15px,1.6vw,22px);font-weight:900;letter-spacing:3px;color:#0a1a0c;background:#4ade80;padding:4px 16px;border-radius:999px;box-shadow:0 0 18px rgba(74,222,128,.7);}
-  .line{margin-top:16px;font-size:clamp(24px,3.4vw,46px);font-weight:800;color:#fff;line-height:1.15;text-shadow:0 0 12px rgba(74,222,128,.45);}
+  .banner.nobox{background:none;border:none;box-shadow:none;padding:4px 6px;}
+  .eyebrow{display:inline-block;font-size:calc(clamp(15px,1.6vw,22px)*var(--scale,1));font-weight:900;letter-spacing:3px;color:#0a1a0c;background:#4ade80;padding:4px 16px;border-radius:999px;box-shadow:0 0 18px rgba(74,222,128,.7);}
+  .line{margin-top:16px;font-size:calc(clamp(24px,3.4vw,46px)*var(--scale,1));font-weight:800;color:#fff;line-height:1.15;text-shadow:0 0 12px rgba(74,222,128,.45);}
   .line b{color:#4ade80;text-shadow:0 0 16px rgba(74,222,128,.9);}
   .line b.num{color:#ffd23f;text-shadow:0 0 16px rgba(255,210,63,.8);}
-  .gif{max-width:38vw;max-height:26vh;margin-top:18px;border-radius:14px;box-shadow:0 0 24px rgba(74,222,128,.5);display:none;}
+  .line b.rdr{display:inline-block;animation:wobble 1.5s ease-in-out infinite;transform-origin:center bottom;}
+  @keyframes wobble{0%,100%{transform:rotate(-2.5deg) translateY(0);}50%{transform:rotate(2.5deg) translateY(-2px);}}
+  .gif{max-width:calc(38vw*var(--scale,1));max-height:calc(26vh*var(--scale,1));margin:18px auto 0;border-radius:14px;box-shadow:0 0 24px rgba(74,222,128,.5);display:none;}
   .credit{margin-top:10px;font-size:clamp(10px,1vw,13px);font-weight:600;color:rgba(255,255,255,.6);text-shadow:0 1px 2px #000;display:none;}
   .confetti{position:fixed;top:-20px;width:12px;height:12px;border-radius:2px;pointer-events:none;}
 </style></head><body>
-<div id="alert"><div class="banner">
+<div id="alert"><div class="banner${showBox ? "" : " nobox"}" style="--scale:${scale};">
   <div class="eyebrow" id="eyebrow"></div>
   <div class="line" id="line"></div>
   <img class="gif" id="gif" alt="">
@@ -5462,7 +5557,7 @@ app.get("/overlay/raid/:username", (req, res) => {
   }
   function escHtml(s){ return String(s).replace(/[&<>]/g,function(m){return m==='&'?'&amp;':(m==='<'?'&lt;':'&gt;');}); }
   function fillTokens(s,name,v){
-    s=s.replace(/\\{raider\\}|\\{name\\}|&lt;raider&gt;|&lt;name&gt;/gi,'<b>'+name+'</b>');
+    s=s.replace(/\\{raider\\}|\\{name\\}|&lt;raider&gt;|&lt;name&gt;/gi,'<b class="rdr">'+name+'</b>');
     s=s.replace(/\\{count\\}|\\{viewers\\}|\\{n\\}|&lt;n&gt;|&lt;count&gt;|&lt;viewers&gt;/gi,'<b class="num">'+v+'</b>');
     return s;
   }
@@ -5476,6 +5571,114 @@ app.get("/overlay/raid/:username", (req, res) => {
     setTimeout(function(){ alertEl.className='hide'; setTimeout(function(){ alertEl.className=''; busy=false; }, 700); }, DUR*1000);
   }
   ${testMode ? "setTimeout(function(){fire({raider:'TestRaider',viewers:1000});},700); setInterval(function(){fire({raider:'TestRaider',viewers:1000});},(DUR+3)*1000);" : "async function poll(){ try{ var r=await fetch('/api/raid/'+encodeURIComponent(USER)+'?since='+since); var d=await r.json(); if(first){ first=false; since=d.now||Date.now(); return; } if(d.now) since=Math.max(since,d.now); if(d.raid) fire(d.raid); }catch(e){} } setInterval(poll,2500); poll();"}
+</script></body></html>`);
+});
+
+// ── COMMAND MEDIA ALERTS ─────────────────────────────────────────────────────────────────────
+// A custom command with a sound/gif/video/picture attached fires here. /overlay/alert is one OBS
+// Browser Source that plays the latest one; /api/alert is what it polls.
+app.get("/api/alert/:username", (req, res) => {
+  res.set("Access-Control-Allow-Origin", "*");
+  const channelId = findChannelByUsername(req.params.username);
+  const a = channelId && cmdAlerts[channelId];
+  const since = Number(req.query.since) || 0;
+  const alert = (a && a.ts > since) ? a : null;
+  res.json({ alert, now: Date.now() });
+});
+
+const _cmdMediaCache = {}; // "cid/file" -> Buffer
+const MEDIA_CT = { mp3:"audio/mpeg", ogg:"audio/ogg", wav:"audio/wav", m4a:"audio/mp4", gif:"image/gif", png:"image/png", jpg:"image/jpeg", jpeg:"image/jpeg", webp:"image/webp", mp4:"video/mp4", webm:"video/webm", mov:"video/quicktime", m4v:"video/x-m4v" };
+
+// Upload a command's sound or media file (≤25MB) — raw bytes, no multipart lib needed. slot=sound|media,
+// cmd=<command name>, ext=<file extension>. Stored in the repo so it survives restarts, like raid sounds.
+app.post("/dashboard/uploadcmdmedia", express.raw({ type: () => true, limit: "26mb" }), async (req, res) => {
+  const cid = dashboardChannelId(req);
+  if (!cid) return res.status(403).json({ error: "auth" });
+  if (!GH_TOKEN) return res.json({ error: "nostorage" });
+  const buf = req.body;
+  if (!buf || !buf.length) return res.json({ error: "empty" });
+  if (buf.length > 25 * 1024 * 1024) return res.json({ error: "toobig" });
+  const slot = (req.query.slot === "media") ? "media" : "sound";
+  const cmd = safeId((req.query.cmd || "cmd").toString()).slice(0, 40) || "cmd";
+  const ext = (req.query.ext || "").toString().toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 4);
+  if (!MEDIA_CT[ext]) return res.json({ error: "badtype" });
+  const file = `${cmd}-${slot}.${ext}`;
+  try {
+    await githubPutFile(`cmdmedia/${safeId(cid)}/${file}`, buf, `command media upload ${cid}/${file}`);
+    _cmdMediaCache[`${safeId(cid)}/${file}`] = buf;
+    res.json({ url: `${SELF_URL}/cmdmedia/${safeId(cid)}/${file}?v=${Date.now()}` });
+  } catch (e) {
+    res.json({ error: "upload", detail: (e.response && e.response.status) || e.message });
+  }
+});
+
+// Serve an uploaded command media/sound file (private repo → fetched with the token, cached in memory).
+app.get("/cmdmedia/:cid/:file", async (req, res) => {
+  const cid = safeId(req.params.cid);
+  const file = (req.params.file || "").replace(/[^a-zA-Z0-9._-]/g, "");
+  const key = `${cid}/${file}`;
+  const ext = (file.split(".").pop() || "").toLowerCase();
+  try {
+    if (!_cmdMediaCache[key]) {
+      const api = `https://api.github.com/repos/${GH_REPO}/contents/cmdmedia/${cid}/${file}`;
+      const r = await axios.get(api, { headers: { ...GH_HEADERS, Accept: "application/vnd.github.raw" }, params: { ref: GH_BRANCH }, responseType: "arraybuffer" });
+      _cmdMediaCache[key] = Buffer.from(r.data);
+    }
+    res.set("Content-Type", MEDIA_CT[ext] || "application/octet-stream");
+    res.set("Cache-Control", "public, max-age=300");
+    res.set("Access-Control-Allow-Origin", "*");
+    res.send(_cmdMediaCache[key]);
+  } catch (e) {
+    res.status(404).send("no media");
+  }
+});
+
+// Command-media alert overlay. OBS Browser Source, 1920x1080, transparent. Fires a sound + a
+// gif/video/picture (auto-detected by extension) with optional on-screen text when a media command runs.
+app.get("/overlay/alert/:username", (req, res) => {
+  const clamp = (v, lo, hi, def) => { const n = parseFloat(v); return Number.isFinite(n) ? Math.max(lo, Math.min(hi, n)) : def; };
+  const scale = clamp(req.query.scale, 0.5, 3, 1);
+  const testMode = req.query.test === "1" || req.query.test === "true";
+  res.set("Content-Type", "text/html");
+  res.send(`<!doctype html><html><head><meta charset="utf-8"><title>Command Alert</title>
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:transparent;font-family:'Segoe UI',system-ui,sans-serif;}
+  #wrap{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;pointer-events:none;--scale:${scale};}
+  #wrap.show{animation:pop .5s cubic-bezier(.2,1.3,.4,1) forwards;}
+  #wrap.hide{animation:fade .5s ease forwards;}
+  @keyframes pop{0%{opacity:0;transform:translateY(-40px) scale(.7);}100%{opacity:1;transform:translateY(0) scale(1);}}
+  @keyframes fade{to{opacity:0;transform:scale(.95);}}
+  #ctext{font-size:calc(clamp(24px,3.6vw,52px)*var(--scale,1));font-weight:900;color:#fff;text-align:center;line-height:1.1;text-shadow:0 0 14px rgba(74,222,128,.7),0 3px 8px #000;max-width:86vw;}
+  #ctext b{color:#4ade80;}
+  #cmedia{max-width:calc(46vw*var(--scale,1));max-height:calc(50vh*var(--scale,1));margin-top:20px;border-radius:16px;box-shadow:0 0 30px rgba(0,0,0,.6);display:none;}
+</style></head><body>
+<div id="wrap">
+  <div id="ctext"></div>
+  <img id="cmedia" alt="">
+  <video id="cvideo" style="display:none;max-width:calc(46vw*var(--scale,1));max-height:calc(50vh*var(--scale,1));margin-top:20px;border-radius:16px;box-shadow:0 0 30px rgba(0,0,0,.6);" playsinline></video>
+  <audio id="caudio" style="display:none;"></audio>
+</div>
+<script>
+  var USER=${JSON.stringify(req.params.username)};
+  var wrap=document.getElementById('wrap'), ctext=document.getElementById('ctext'), img=document.getElementById('cmedia'), vid=document.getElementById('cvideo'), au=document.getElementById('caudio');
+  var since=0, busy=false, first=true, _snd=null;
+  function escHtml(s){ return String(s).replace(/[&<>]/g,function(m){return m==='&'?'&amp;':(m==='<'?'&lt;':'&gt;');}); }
+  function isVid(u){ return /\\.(mp4|webm|mov|m4v)(\\?|$)/i.test(u||''); }
+  function fire(a){
+    if(busy) return; busy=true;
+    var dur=(Number(a.dur)||8)*1000;
+    var nm=String(a.name||'').replace(/[<>&]/g,'');
+    var t=a.text?escHtml(a.text).replace(/\\{name\\}|&lt;name&gt;/gi, nm?('<b>'+nm+'</b>'):''):'';
+    ctext.innerHTML=t; ctext.style.display=t?'block':'none';
+    img.style.display='none'; vid.style.display='none';
+    if(a.media){ if(isVid(a.media)){ vid.src=a.media; vid.style.display='block'; vid.currentTime=0; try{vid.play();}catch(e){} } else { img.src=a.media; img.style.display='block'; } }
+    if(a.sound){ try{ if(_snd){_snd.pause();} _snd=new Audio(a.sound); _snd.volume=0.9; _snd.play().catch(function(){}); }catch(e){} }
+    wrap.className='show';
+    setTimeout(function(){ wrap.className='hide'; try{vid.pause();}catch(e){} if(_snd){try{_snd.pause();}catch(e){}} setTimeout(function(){ wrap.className=''; busy=false; }, 500); }, dur);
+  }
+  ${testMode
+    ? "setTimeout(function(){fire({text:'{name} got hyped!',name:'TestUser',media:'',sound:'',dur:6});},600);"
+    : "async function poll(){ try{ var r=await fetch('/api/alert/'+encodeURIComponent(USER)+'?since='+since); var d=await r.json(); if(first){first=false; since=d.now||Date.now(); return;} if(d.now) since=Math.max(since,d.now); if(d.alert) fire(d.alert); }catch(e){} } setInterval(poll,2000); poll();"}
 </script></body></html>`);
 });
 
