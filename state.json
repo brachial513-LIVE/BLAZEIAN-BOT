@@ -3602,15 +3602,15 @@
       "stats": {
         "totalVotes": 6340,
         "totalSubs": 29,
-        "totalChatMessages": 1307,
-        "totalStreamMinutes": 6217,
+        "totalChatMessages": 1308,
+        "totalStreamMinutes": 6225,
         "emotes": {
           "✨": 25,
           "🖥": 21,
           "🔥": 127,
           "👋": 64,
-          "🎬": 61,
-          "❤": 87,
+          "🎬": 62,
+          "❤": 88,
           "🚨": 7,
           "⚡": 21,
           "🏆": 18,
@@ -3782,14 +3782,10 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
           "07de98c1-b682-4d82-b630-774474b712cc": "LFBLAZE2"
         },
-        "lastChatAt": 1788332820754,
+        "lastChatAt": 1788335375993,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:b05156cf-7925-4298-8e19-f29e294cc793]"
-        },
         {
           "user": "agent00zani",
           "msg": "we not in same game"
@@ -3825,6 +3821,10 @@
         {
           "user": "cachebot",
           "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Unwinding with OTG. Drop a greeting in chat! 👋"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -3833,7 +3833,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Unwinding with OTG — Off The Grid",
+      "streamTitle": "",
       "profile": "zer0cache’s crew lives for high‑stakes data heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. The channel thrives on relentless energy, magnetic camaraderie, and the thrill of dropping in to new adventures.",
       "_profileAtCount": 1279,
       "loyalty": {
@@ -3856,7 +3856,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
       "lastStreamInfo": "Unwinding with OTG — Off The Grid",
-      "lastStreamEndedAt": 1788332741474,
+      "lastStreamEndedAt": 1788335375545,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule"
     },
@@ -6953,7 +6953,7 @@
         "totalVotes": 9183,
         "totalSubs": 189,
         "totalChatMessages": 213,
-        "totalStreamMinutes": 5523,
+        "totalStreamMinutes": 5536,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -7920,12 +7920,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 15831,
-        "totalSubs": 80,
-        "totalChatMessages": 1597,
-        "totalStreamMinutes": 8761,
+        "totalSubs": 81,
+        "totalChatMessages": 1598,
+        "totalStreamMinutes": 8774,
         "emotes": {
           "❤": 77,
-          "🙌": 126,
+          "🙌": 127,
           "💚": 3,
           "🔥": 37,
           "🗳": 534,
@@ -7945,7 +7945,7 @@
           "✌": 6,
           "☺": 1,
           "👍": 5,
-          "🎁": 156,
+          "🎁": 158,
           "😶": 9,
           "🌫": 9,
           "😍": 6,
@@ -8054,13 +8054,9 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788334861824
+        "lastChatAt": 1788335501519
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "haha astig"
-        },
         {
           "user": "briggsy",
           "msg": "Hey @faithy_"
@@ -8096,6 +8092,10 @@
         {
           "user": "fartvader",
           "msg": "heyy @avisi lesgoo"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @avisi! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -12927,7 +12927,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 41,
-        "totalStreamMinutes": 1287,
+        "totalStreamMinutes": 1300,
         "emotes": {
           "👋": 3,
           "❤": 20,
@@ -14029,8 +14029,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788323094606,
   "auth": {
-    "accessToken": "25820bf03ae8728da7afbb9447a8cd24",
-    "refreshToken": "12a8fcc0f42fe8b9381a2cbf4b8887b7",
+    "accessToken": "c876efb73a84953cc0ca42018eb617e1",
+    "refreshToken": "ec7c5d8c609f60525c37a9627016d6a0",
     "sessionToken": "b0e3f7c184b0bd4b6cfe757c3398623c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
