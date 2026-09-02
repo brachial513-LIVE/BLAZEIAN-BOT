@@ -2276,7 +2276,7 @@
         "totalVotes": 12013,
         "totalSubs": 49,
         "totalChatMessages": 4884,
-        "totalStreamMinutes": 15767,
+        "totalStreamMinutes": 15772,
         "emotes": {
           "❤": 180,
           "🙌": 124,
@@ -3124,7 +3124,7 @@
         "totalVotes": 9754,
         "totalSubs": 56,
         "totalChatMessages": 2583,
-        "totalStreamMinutes": 12307,
+        "totalStreamMinutes": 12312,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -3897,7 +3897,7 @@
       "stats": {
         "totalVotes": 19498,
         "totalSubs": 50,
-        "totalChatMessages": 8586,
+        "totalChatMessages": 8587,
         "totalStreamMinutes": 6072,
         "emotes": {
           "❤": 163,
@@ -4330,13 +4330,9 @@
           "e8124c9d-a6dd-4913-943b-cbc529fca886": "ByeBye"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788329256497
+        "lastChatAt": 1788354477981
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "Good to see you too"
-        },
         {
           "user": "botger",
           "msg": "Welcome, welcome, briggsy is attempting to go live."
@@ -4372,6 +4368,10 @@
         {
           "user": "botger",
           "msg": "✓ Verified! Your dashboard is now unlocked at https://botger.devely.ca/dashboard"
+        },
+        {
+          "user": "tenshi",
+          "msg": "thank you so much for the votes!!"
         }
       ],
       "customCommands": {},
@@ -7190,7 +7190,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 61,
-        "totalStreamMinutes": 5593,
+        "totalStreamMinutes": 5598,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -7926,7 +7926,7 @@
         "totalVotes": 15832,
         "totalSubs": 86,
         "totalChatMessages": 1636,
-        "totalStreamMinutes": 8922,
+        "totalStreamMinutes": 8927,
         "emotes": {
           "❤": 81,
           "🙌": 134,
@@ -10594,7 +10594,7 @@
         "totalVotes": 4290,
         "totalSubs": 42,
         "totalChatMessages": 709,
-        "totalStreamMinutes": 1888,
+        "totalStreamMinutes": 1893,
         "emotes": {
           "❤": 75,
           "🙌": 65,
@@ -14040,8 +14040,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788346744137,
   "auth": {
-    "accessToken": "11304d2b536189f62fb763157f8d6330",
-    "refreshToken": "6bff01828edc57c41452a9e58284d8e5",
+    "accessToken": "9aac1fbbd085ea981f39ec6230948c9c",
+    "refreshToken": "f98a54c0ab0294830ce0d065a5910f7a",
     "sessionToken": "b0e3f7c184b0bd4b6cfe757c3398623c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
