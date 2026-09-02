@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 7887,
         "totalSubs": 36,
-        "totalChatMessages": 2154,
+        "totalChatMessages": 2156,
         "totalStreamMinutes": 2414,
         "emotes": {
           "❤": 89,
@@ -300,7 +300,7 @@
           "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788200801288
+        "lastChatAt": 1788375037205
       },
       "chatMemory": [
         {
@@ -2652,7 +2652,7 @@
       "stats": {
         "totalVotes": 15763,
         "totalSubs": 58,
-        "totalChatMessages": 9080,
+        "totalChatMessages": 9081,
         "totalStreamMinutes": 5328,
         "emotes": {
           "❤": 3871,
@@ -2978,7 +2978,7 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO",
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
-        "lastChatAt": 1788374044019,
+        "lastChatAt": 1788375015527,
         "sendFailStreak": 512,
         "lastSendFailAt": 1788368951098,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2987,10 +2987,6 @@
         "lastProbeAt": 1788368950894
       },
       "chatMemory": [
-        {
-          "user": "bee12",
-          "msg": "he-looooooo"
-        },
         {
           "user": "sheshi",
           "msg": "money is a piece of someone's life"
@@ -3026,6 +3022,10 @@
         {
           "user": "weri",
           "msg": "Thanx"
+        },
+        {
+          "user": "weri",
+          "msg": "Don't worry about tomorrow because God is already there"
         }
       ],
       "customCommands": {},
@@ -10136,7 +10136,7 @@
       "stats": {
         "totalVotes": 12450,
         "totalSubs": 18,
-        "totalChatMessages": 2882,
+        "totalChatMessages": 2885,
         "totalStreamMinutes": 4414,
         "emotes": {
           "❤": 54,
@@ -10151,8 +10151,8 @@
           "🌫": 33,
           "🤣": 18,
           "😂": 44,
-          "📴": 47,
-          "👋": 53,
+          "📴": 48,
+          "👋": 54,
           "🚨": 138,
           "🔥": 46,
           "💚": 19,
@@ -10291,21 +10291,9 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788373925479
+        "lastChatAt": 1788375039508
       },
       "chatMemory": [
-        {
-          "user": "sheena",
-          "msg": "[emote:60967948-8805-42ef-a202-051d2e2f1557]"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:07de98c1-b682-4d82-b630-774474b712cc]"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
@@ -10333,6 +10321,18 @@
         {
           "user": "fluffy",
           "msg": "hey hey"
+        },
+        {
+          "user": "fuyu",
+          "msg": "oh hush you are a master"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -12047,7 +12047,7 @@
       "stats": {
         "totalVotes": 1070,
         "totalSubs": 10,
-        "totalChatMessages": 774,
+        "totalChatMessages": 775,
         "totalStreamMinutes": 3921,
         "emotes": {
           "🧡": 1,
@@ -12124,7 +12124,7 @@
           "60967948-8805-42ef-a202-051d2e2f1557": "SLEEPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788372578393
+        "lastChatAt": 1788375116504
       },
       "chatMemory": [
         {
@@ -14122,16 +14122,11 @@
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 20 votes = 1 entry · 1 sub = 3 entries · 1 gifted sub = 5 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 600 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\nThe current round is the 17th giveaway, running 27th July to 2nd August. A new round starts each week.",
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788370766629,
-  "sessions": {
-    "90e2be2e54648fa589cba695543566af8c1984d562c4560a": {
-      "username": "brachial513",
-      "exp": 1788979120077
-    }
-  },
+  "sessions": {},
   "auth": {
     "accessToken": "b83a263bb1f567691743ae86d2308060",
     "refreshToken": "41ee66034865745e145fb8c715b39475",
-    "sessionToken": "d62726349d3bb676791ba5b128fdd6cf",
+    "sessionToken": "5e326b2d9fbf6623920967ad814b117c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
