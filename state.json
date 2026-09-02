@@ -2288,14 +2288,14 @@
       "stats": {
         "totalVotes": 12043,
         "totalSubs": 50,
-        "totalChatMessages": 4999,
+        "totalChatMessages": 5000,
         "totalStreamMinutes": 15967,
         "emotes": {
           "❤": 180,
           "🙌": 125,
           "🗳": 750,
-          "📴": 133,
-          "👋": 150,
+          "📴": 134,
+          "👋": 151,
           "🔴": 131,
           "🎉": 213,
           "🏆": 22,
@@ -2536,14 +2536,10 @@
           "f6f2189c-c5fb-4f5b-a252-118456b6944d": "ORANGEPYRO",
           "e249163f-4c3c-45de-91dd-68d0ee9c1b9e": "YES"
         },
-        "lastChatAt": 1788385101154,
+        "lastChatAt": 1788387423932,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "timdraws",
-          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
-        },
         {
           "user": "cr33pling",
           "msg": "ZANIIIIIII"
@@ -2579,6 +2575,10 @@
         {
           "user": "agent00zani",
           "msg": "how was your day today ?"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -2590,7 +2590,7 @@
       "streamEnd": "",
       "locked": false,
       "followed": true,
-      "streamTitle": "🎮 I am Jeff the sharky ?? Playing some games w @FLuffy & @AVisi| 🎰 Sub Raffle LIVE | 🏆 150 Votes + 🤗 Hugs — Marvel Rivals",
+      "streamTitle": "",
       "profile": "agent00zani’s channel is a high‑energy hub of 🔥 Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, and cheers, while the streamer loves being thanked with “ty ty soo much” and emotes.",
       "_profileAtCount": 4946,
       "loyalty": {
@@ -2644,8 +2644,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/fc5ab98b-e0a9-4580-a90b-de6d7af4203e.png",
       "nudgedAt": 1785006485591,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "🎮 I am Jeff the sharky ?? w @crypt0k1ng96 & @marioscy5| 🎰 Sub Raffle LIVE | 🏆 150 Votes + 🤗 Hugs — Off The Grid",
-      "lastStreamEndedAt": 1788363831392,
+      "lastStreamInfo": "🎮 I am Jeff the sharky ?? Playing some games w @FLuffy & @AVisi| 🎰 Sub Raffle LIVE | 🏆 150 Votes + 🤗 Hugs — Marvel Rivals",
+      "lastStreamEndedAt": 1788387418636,
       "botVip": true,
       "commandMedia": {
         "fluffy": {
@@ -3658,15 +3658,15 @@
       "stats": {
         "totalVotes": 6385,
         "totalSubs": 29,
-        "totalChatMessages": 1345,
+        "totalChatMessages": 1346,
         "totalStreamMinutes": 6333,
         "emotes": {
           "✨": 27,
           "🖥": 21,
           "🔥": 129,
           "👋": 68,
-          "🎬": 63,
-          "❤": 89,
+          "🎬": 64,
+          "❤": 90,
           "🚨": 7,
           "⚡": 21,
           "🏆": 18,
@@ -3840,14 +3840,10 @@
           "07de98c1-b682-4d82-b630-774474b712cc": "LFBLAZE2",
           "🎮": "🎮"
         },
-        "lastChatAt": 1788385244567,
+        "lastChatAt": 1788387289935,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "bradgames",
-          "msg": "💩💩💩💩💩💩💩💩"
-        },
         {
           "user": "cachebot",
           "msg": "✨ [NEW FOLLOWER]: Welcome to the channel, @vitrene! Thank you for the follow!."
@@ -3883,6 +3879,10 @@
         {
           "user": "cr33pling",
           "msg": "[emote:1cc6ceb4-8d03-4583-9811-075d68cf43a9] [emote:1cc6ceb4-8d03-4583-9811-075d68cf43a9] [emote:1cc6ceb4-8d03-4583-9811-075d68cf43a9] [emote:1cc6ceb4-8d03-4583-9811-075d68cf43a9]"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -3891,7 +3891,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Unwinding with OTG — Off The Grid",
+      "streamTitle": "",
       "profile": "zer0cache’s crew lives for high‑stakes data heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. The channel thrives on relentless energy, magnetic camaraderie, and the thrill of dropping in to new adventures.",
       "_profileAtCount": 1328,
       "loyalty": {
@@ -3914,7 +3914,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
       "lastStreamInfo": "Unwinding with OTG — Off The Grid",
-      "lastStreamEndedAt": 1788342836666,
+      "lastStreamEndedAt": 1788387289428,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule"
     },
@@ -5301,7 +5301,7 @@
       "stats": {
         "totalVotes": 10752,
         "totalSubs": 41,
-        "totalChatMessages": 1251,
+        "totalChatMessages": 1256,
         "totalStreamMinutes": 4917,
         "emotes": {
           "❤": 64,
@@ -5316,8 +5316,8 @@
           "🥲": 2,
           "🗳": 204,
           "🔴": 34,
-          "🎉": 67,
-          "🚨": 72,
+          "🎉": 68,
+          "🚨": 78,
           "📴": 34,
           "👋": 46,
           "🏅": 9,
@@ -5368,7 +5368,8 @@
           "07de98c1-b682-4d82-b630-774474b712cc": 1,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 3,
           "😄": 2,
-          "37719561-c923-4260-b1a5-e3eda10c103d": 1
+          "37719561-c923-4260-b1a5-e3eda10c103d": 1,
+          "😴": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -5435,32 +5436,13 @@
           "07de98c1-b682-4d82-b630-774474b712cc": "LFBLAZE2",
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
           "😄": "😄",
-          "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
+          "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
+          "😴": "😴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788385108169
+        "lastChatAt": 1788387267026
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "is there a delay?"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "not sure. Just the conversation from the characters are not in sync with their mouths"
-        },
-        {
-          "user": "vitrene",
-          "msg": "ok then it is the game"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Zer0Cache just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
-        {
-          "user": "vitrene",
-          "msg": "thank you for the votes @Zer0Cache !"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ xeukuxaixang just followed the channel! Welcome!! 🙌"
@@ -5480,6 +5462,26 @@
         {
           "user": "vitrene",
           "msg": "I am doing awesome, how about you?"
+        },
+        {
+          "user": "vitrene",
+          "msg": "finally we get to play the new game"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @Zer0Cache is raiding with a party of 4! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "vitrene",
+          "msg": "thank you for the raid Zero! And welcome! Got an awesome game for you today :D"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "have a good stream! time for bed for me 😴😴"
+        },
+        {
+          "user": "vitrene",
+          "msg": "have a great rest!"
         }
       ],
       "customCommands": {},
@@ -6165,15 +6167,15 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 46,
-        "totalStreamMinutes": 114,
+        "totalChatMessages": 53,
+        "totalStreamMinutes": 132,
         "emotes": {
           "❤": 10,
           "🙌": 7,
           "💚": 5,
           "🔥": 12,
-          "📴": 8,
-          "👋": 11,
+          "📴": 9,
+          "👋": 12,
           "🥂": 1,
           "🎁": 2,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1
@@ -6189,38 +6191,10 @@
           "🎁": "🎁",
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
-        "lastChatAt": 1788386249440,
+        "lastChatAt": 1788387239383,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "Need to restart"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "sheena",
-          "msg": "ehm show again i just saw obs when i looked then i looked at my second screen and waited"
-        },
-        {
-          "user": "sheena",
-          "msg": "XD"
-        },
-        {
-          "user": "botger",
-          "msg": "Helios is now live!! Let's get building"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "Helios is now live!! Let's get building"
-        },
         {
           "user": "helios",
           "msg": "Just fixing a couple of things"
@@ -6232,6 +6206,34 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "Helios is now live!! Let's get building"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "Helios is now live!! Let's get building"
+        },
+        {
+          "user": "time",
+          "msg": "heeey"
+        },
+        {
+          "user": "helios",
+          "msg": "Hey time"
+        },
+        {
+          "user": "helios",
+          "msg": "Welcome"
+        },
+        {
+          "user": "time",
+          "msg": "thank you"
         }
       ],
       "customCommands": {},
@@ -6241,10 +6243,10 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4366a4c8-c3fa-4296-9014-212a08f2fae3.gif",
-      "streamTitle": "",
+      "streamTitle": "Chill gaming — Ryse: Son of Rome",
       "gameOverride": "",
       "lastStreamInfo": "Chill gaming — Ryse: Son of Rome",
-      "lastStreamEndedAt": 1788386244138
+      "lastStreamEndedAt": 1788386382202
     },
     "d3b88120-1dbc-422f-930b-6dcb2fccf9f4": {
       "username": "tai_",
@@ -7771,7 +7773,7 @@
       "stats": {
         "totalVotes": 6405,
         "totalSubs": 37,
-        "totalChatMessages": 1730,
+        "totalChatMessages": 1732,
         "totalStreamMinutes": 2950,
         "emotes": {
           "❤": 127,
@@ -7918,17 +7920,9 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788385540515
+        "lastChatAt": 1788387246792
       },
       "chatMemory": [
-        {
-          "user": "cheeseyeggs",
-          "msg": "Also cant hear shit atm cos of this music!!"
-        },
-        {
-          "user": "cheeseyeggs",
-          "msg": "[emote:82fcfea6-f363-4412-9dfe-f2e560aceb8f]"
-        },
         {
           "user": "cheeseyeggs",
           "msg": "Yeah my music"
@@ -7960,6 +7954,14 @@
         {
           "user": "doktorgrav",
           "msg": "hello"
+        },
+        {
+          "user": "time",
+          "msg": "hellooo"
+        },
+        {
+          "user": "time",
+          "msg": "doing good and you"
         }
       ],
       "customCommands": {},
@@ -11242,7 +11244,7 @@
       "stats": {
         "totalVotes": 2605,
         "totalSubs": 9,
-        "totalChatMessages": 503,
+        "totalChatMessages": 505,
         "totalStreamMinutes": 5512,
         "emotes": {
           "❤": 37,
@@ -11253,8 +11255,8 @@
           "🔴": 36,
           "🎉": 39,
           "🗳": 105,
-          "📴": 35,
-          "👋": 36,
+          "📴": 36,
+          "👋": 37,
           "☺": 2,
           "🎁": 18,
           "🍺": 10,
@@ -11317,17 +11319,9 @@
           "😇": "😇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788381999084
+        "lastChatAt": 1788387157000
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -11359,6 +11353,14 @@
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -12323,15 +12325,15 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 1367,
+        "totalVotes": 1369,
         "totalSubs": 4,
-        "totalChatMessages": 961,
-        "totalStreamMinutes": 2821,
+        "totalChatMessages": 1002,
+        "totalStreamMinutes": 2841,
         "emotes": {
           "👋": 29,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 73,
+          "🗳": 79,
           "🔴": 28,
           "🎉": 36,
           "📴": 27,
@@ -12454,48 +12456,48 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788386200976
+        "lastChatAt": 1788387325390
       },
       "chatMemory": [
         {
-          "user": "cr33pling",
-          "msg": "hey whats up inn"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:bcb8d7f1-9b24-4655-8d6e-1082f3ea1da1] [emote:bcb8d7f1-9b24-4655-8d6e-1082f3ea1da1] [emote:bcb8d7f1-9b24-4655-8d6e-1082f3ea1da1] [emote:bcb8d7f1-9b24-4655-8d6e-1082f3ea1da1] [emote:bcb8d7f1-9b24-4655-8d6e-1082f3ea1da1] [emote:bcb8d7f1-9b24-4655-8d6e-1082f3ea1da1]"
-        },
-        {
           "user": "scurvybot",
-          "msg": "@treefrognada congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/23b4ceba79ec89557d5229f3e22ed71788d1dc38c554bbc76df21f179874e0d3"
-        },
-        {
-          "user": "allybear",
-          "msg": "woohoo!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/1975f4e22ad2c6ce25689f72dffa44f66951bbe4bd584360e67ec06ed19e9a2e"
-        },
-        {
-          "user": "treefrognada",
-          "msg": "I hope no one overbids, I only have $1 LOL"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@allybear congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/e5b72b682ce102a0489efdbe3279793f07ce9ba3e82a016ac4111c831ce4cb14"
-        },
-        {
-          "user": "allybear",
-          "msg": "yayy ty"
+          "msg": "@mikygigi74 congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/2e9f857c4d98dd03880114c121f934e8f67782de67135202259a48f0eabf019f"
         },
         {
           "user": "mikygigi74",
-          "msg": "good morning or good evening"
+          "msg": "thank you"
+        },
+        {
+          "user": "allybear",
+          "msg": "hi miky"
         },
         {
           "user": "onyxouroboros",
-          "msg": "you can sell blaze to get USDC"
+          "msg": "boo"
+        },
+        {
+          "user": "mikygigi74",
+          "msg": "hi sweet lady allybear"
+        },
+        {
+          "user": "mikygigi74",
+          "msg": "sorry if i don't was here,i play poker"
+        },
+        {
+          "user": "mikygigi74",
+          "msg": "and for moment i am chips leader"
+        },
+        {
+          "user": "mikygigi74",
+          "msg": "uhhh"
+        },
+        {
+          "user": "mikygigi74",
+          "msg": "was"
+        },
+        {
+          "user": "mikygigi74",
+          "msg": "now in 2 th"
         }
       ],
       "customCommands": {
@@ -12516,7 +12518,7 @@
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” keep the vibe high‑energy, urge more stream hours to stay Verified, and shout “Something.”",
-      "_profileAtCount": 930,
+      "_profileAtCount": 995,
       "nudgedAt": 1787282253705,
       "nudgedKey": "schedule",
       "loyalty": {
