@@ -1443,7 +1443,7 @@
       "stats": {
         "totalVotes": 14361,
         "totalSubs": 135,
-        "totalChatMessages": 8252,
+        "totalChatMessages": 8253,
         "totalStreamMinutes": 21604,
         "emotes": {
           "📊": 3,
@@ -1624,7 +1624,7 @@
           "2f15e1db-4870-4a55-a744-bf1850ee7c22": 1,
           "70b1737e-7945-4743-bbc1-882e1228fab0": 3,
           "20a29d22-5535-494c-8a0a-dbdace2f4d3f": 16,
-          "22a2df8d-1151-4c75-954e-30c7527dbf40": 15,
+          "22a2df8d-1151-4c75-954e-30c7527dbf40": 16,
           "af42e4d4-d26a-4320-b2f6-d49836809481": 6,
           "d86d3a9f-5ae8-439b-abe6-716bc3c4ce0c": 5,
           "f3467606-71eb-4f39-a82b-fb7761acebaa": 4,
@@ -1888,13 +1888,9 @@
           "01e17de5-d329-4e89-9b48-9bea2ce602ca": "LivenowFoxGif"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788371026283
+        "lastChatAt": 1788371106194
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:20a29d22-5535-494c-8a0a-dbdace2f4d3f]"
-        },
         {
           "user": "princessjamesy",
           "msg": "Do something exciting"
@@ -1930,6 +1926,10 @@
         {
           "user": "piweb",
           "msg": "LFG"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:22a2df8d-1151-4c75-954e-30c7527dbf40]"
         }
       ],
       "customCommands": {},
@@ -2627,7 +2627,15 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "🎮 I am Jeff the sharky ?? w @crypt0k1ng96 & @marioscy5| 🎰 Sub Raffle LIVE | 🏆 150 Votes + 🤗 Hugs — Off The Grid",
       "lastStreamEndedAt": 1788363831392,
-      "botVip": true
+      "botVip": true,
+      "commandMedia": {
+        "fluffy": {
+          "sound": "",
+          "media": "",
+          "text": "FLUFFY",
+          "dur": 8
+        }
+      }
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
@@ -2635,7 +2643,7 @@
       "stats": {
         "totalVotes": 15762,
         "totalSubs": 57,
-        "totalChatMessages": 9051,
+        "totalChatMessages": 9052,
         "totalStreamMinutes": 5328,
         "emotes": {
           "❤": 3862,
@@ -2664,7 +2672,7 @@
           "😃": 4,
           "💪": 33,
           "🥹": 5,
-          "🤣": 276,
+          "🤣": 279,
           "🥚": 16,
           "🙏": 232,
           "😀": 14,
@@ -2959,7 +2967,7 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO"
         },
-        "lastChatAt": 1788371099880,
+        "lastChatAt": 1788371190862,
         "sendFailStreak": 512,
         "lastSendFailAt": 1788368951098,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2968,10 +2976,6 @@
         "lastProbeAt": 1788368950894
       },
       "chatMemory": [
-        {
-          "user": "sheshi",
-          "msg": "2027 new trailer for spiderman, and that's unclefunk"
-        },
         {
           "user": "bee12",
           "msg": "omg nightmare!"
@@ -3007,6 +3011,10 @@
         {
           "user": "bee12",
           "msg": "absolutely!"
+        },
+        {
+          "user": "bee12",
+          "msg": "🤣🤣🤣"
         }
       ],
       "customCommands": {},
@@ -8768,7 +8776,7 @@
       "stats": {
         "totalVotes": 26469,
         "totalSubs": 39,
-        "totalChatMessages": 2403,
+        "totalChatMessages": 2404,
         "totalStreamMinutes": 1081,
         "emotes": {
           "❤": 41,
@@ -8955,17 +8963,13 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788371102330,
+        "lastChatAt": 1788371201186,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Still here"
-        },
         {
           "user": "briggsy",
           "msg": "Makes sense."
@@ -9001,6 +9005,10 @@
         {
           "user": "briggsy",
           "msg": "More music."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "thoughts on proper grip technique on your pencil? I think I might drive people crazy if they saw how I hold a pencil"
         }
       ],
       "customCommands": {},
