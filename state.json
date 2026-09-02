@@ -5066,14 +5066,14 @@
       "stats": {
         "totalVotes": 6761,
         "totalSubs": 69,
-        "totalChatMessages": 557,
-        "totalStreamMinutes": 13202,
+        "totalChatMessages": 558,
+        "totalStreamMinutes": 13217,
         "emotes": {
           "❤": 99,
           "🙌": 34,
           "🔥": 41,
-          "🔴": 84,
-          "🎉": 84,
+          "🔴": 85,
+          "🎉": 85,
           "📴": 87,
           "👋": 91,
           "😂": 4,
@@ -5138,14 +5138,10 @@
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": "DAZEDPYRO",
           "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
         },
-        "lastChatAt": 1788309616941,
+        "lastChatAt": 1788389220878,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "starmouse307319",
-          "msg": "Hello"
-        },
         {
           "user": "starmouse307319",
           "msg": "How is going game?"
@@ -5181,6 +5177,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -5192,7 +5192,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🔥 PRIDE ESSENCE — DIA DE TREINAMENTO !PIX — Lineage 2",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -6166,20 +6166,21 @@
       "language": "en",
       "stats": {
         "totalVotes": 0,
-        "totalSubs": 1,
-        "totalChatMessages": 62,
-        "totalStreamMinutes": 154,
+        "totalSubs": 2,
+        "totalChatMessages": 73,
+        "totalStreamMinutes": 174,
         "emotes": {
           "❤": 10,
-          "🙌": 7,
+          "🙌": 8,
           "💚": 5,
-          "🔥": 12,
+          "🔥": 14,
           "📴": 11,
           "👋": 14,
           "🥂": 1,
           "🎁": 2,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 1
+          "a859cc12-453a-4bd8-b650-38710d9486de": 1,
+          "🙏": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -6191,51 +6192,52 @@
           "🥂": "🥂",
           "🎁": "🎁",
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING",
-          "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
+          "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
+          "🙏": "🙏"
         },
-        "lastChatAt": 1788388933395,
+        "lastChatAt": 1788389836303,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
+          "user": "desirablebottom",
+          "msg": "MARCH!"
+        },
+        {
           "user": "helios",
-          "msg": "Welcome"
+          "msg": "Thank you for the sub DB"
         },
         {
-          "user": "time",
-          "msg": "thank you"
+          "user": "helios",
+          "msg": "Hey zani"
         },
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "user": "helios",
+          "msg": "Can't use mic atm"
         },
         {
-          "user": "botger",
-          "msg": "Helios is now live!! Let's get building"
+          "user": "desirablebottom",
+          "msg": "yw"
         },
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "user": "desirablebottom",
+          "msg": "no worries ^_^"
         },
         {
-          "user": "botger",
-          "msg": "Helios is now live!! Let's get building"
+          "user": "desirablebottom",
+          "msg": "how are you enjoying the game thus far!"
         },
         {
-          "user": "agent00zani",
-          "msg": "I am zani"
+          "user": "helios",
+          "msg": "Love it"
         },
         {
-          "user": "agent00zani",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+          "user": "helios",
+          "msg": "Ending stream soon though. Almost midnight"
         },
         {
-          "user": "botger",
-          "msg": "Holi Holiii Holiiii"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "just lurking a bit.. all the best in your stream"
+          "user": "desirablebottom",
+          "msg": "🙏🙏🙏"
         }
       ],
       "customCommands": {},
@@ -6250,7 +6252,16 @@
       "lastStreamInfo": "Chill gaming — Ryse: Son of Rome",
       "lastStreamEndedAt": 1788388035118,
       "profile": "Helios streams chill gaming, currently rocking Ryse: Son of Rome. The chat buzzes with “Let’s get building,” “heeey,” “Welcome,” and “thank you” as quick hail‑outs. Members cheer with “Cheers” and “Good vibes.” The community thrives on friendly banter, quick shout‑outs, and a relaxed, supportive atmosphere. Celebrations are simple: a wave, a shout, and a collective “Good game!”",
-      "_profileAtCount": 57
+      "_profileAtCount": 57,
+      "loyalty": {
+        "desirablebottom": {
+          "name": "desirablebottom",
+          "months": 1,
+          "tier": 1
+        }
+      },
+      "nudgedAt": 1788389516650,
+      "nudgedKey": "schedule"
     },
     "d3b88120-1dbc-422f-930b-6dcb2fccf9f4": {
       "username": "tai_",
@@ -6840,10 +6851,10 @@
       "stats": {
         "totalVotes": 6051,
         "totalSubs": 33,
-        "totalChatMessages": 1688,
+        "totalChatMessages": 1690,
         "totalStreamMinutes": 10520,
         "emotes": {
-          "🔥": 478,
+          "🔥": 480,
           "🔴": 174,
           "💚": 4,
           "🤣": 4,
@@ -6966,18 +6977,10 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": "BLAZEICON"
         },
-        "lastChatAt": 1788327025922,
+        "lastChatAt": 1788390123542,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "retrogains12",
-          "msg": "anytime"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥Welcome to the TOWER Crew,🔴 Voting is LIVE🔴, Subs are appreciated and your time is most valuable, thank you for stopping in! 🔥"
-        },
         {
           "user": "botger",
           "msg": "New to BLAZE and need a bot for your channel the botger is what you need! make sure to use xxtowerdogxx to support us both, enter my username when setting up your dashboard."
@@ -7009,6 +7012,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "xxtowerdogxx is in the house! 🔥Welcome to the HOTTEST channel on BLAZE🔥"
         }
       ],
       "customCommands": {},
@@ -7018,7 +7029,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "",
+      "streamTitle": "Frontline Operations: Pushing Hard with Team Gamefolio 🛡️🔥A-Bombing the lines with DSTG 🚀🎯 — Delta Force",
       "gameOverride": "",
       "profile": "We’re a BLAZE community fueled by gaming, especially Delta Force, anime, and dropping votes. We shout “BLAZE ON Brother!” and “TTYL!” to celebrate milestones, love a good ☕, and go FULL SEND. Voting is LIVE, subs are appreciated, and we keep the TOWER Crew hype with “Welcome to the TOWER Crew, 🔴 Voting is LIVE 🔴.” We celebrate with BLAZE ON Brother! and TTYL! when we show appreciation.",
       "_profileAtCount": 1684,
@@ -7777,18 +7788,18 @@
       "stats": {
         "totalVotes": 6405,
         "totalSubs": 37,
-        "totalChatMessages": 1734,
+        "totalChatMessages": 1736,
         "totalStreamMinutes": 2950,
         "emotes": {
           "❤": 127,
           "🙌": 98,
           "🔴": 27,
           "🎉": 40,
-          "👋": 59,
+          "👋": 60,
           "👀": 15,
           "😱": 1,
           "😅": 7,
-          "📴": 27,
+          "📴": 28,
           "✌": 4,
           "☺": 3,
           "👍": 3,
@@ -7924,17 +7935,9 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788388263138
+        "lastChatAt": 1788389867668
       },
       "chatMemory": [
-        {
-          "user": "cheeseyeggs",
-          "msg": "Hahahah honestly, if i turn it up a couple of deciblez, then ill be in the squinton having my ears drained of blood"
-        },
-        {
-          "user": "sinnerz",
-          "msg": "Yessssir"
-        },
         {
           "user": "sinnerz",
           "msg": "🍺"
@@ -7966,6 +7969,14 @@
         {
           "user": "scurvybot",
           "msg": "@itssscat is raiding with a party of 2! Welcome, raiders!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7978,7 +7989,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d42d19f-d21c-4ab4-be64-cb54d3f85210-profile_image-300x300.png",
-      "streamTitle": "[UK] #29 SUBtember - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING — Dota 2",
+      "streamTitle": "",
       "profile": "Channel: parky – a cheeky, ADHD‑powered Dota 2 hub. Sundays explode with “CHEEKY SUNDAY NIGHT”, “MAKE LOVE NOT WARCRRAFT”, and “LOVE FESTS” after wins. Chat thrives on “ASK ME ANYTHING”, “LURK A BIT” pre‑action, and “SUNDAY FUNDAY” celebrations. Celebrate with passion, love, and a touch of mischief, keeping the vibe lively and mischievous.",
       "_profileAtCount": 1715,
       "gameOverride": "",
@@ -8011,8 +8022,8 @@
       },
       "nudgedAt": 1785010054808,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "[UK] #29 VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING — Deadlock",
-      "lastStreamEndedAt": 1788304055130
+      "lastStreamInfo": "[UK] #29 SUBtember - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING — Dota 2",
+      "lastStreamEndedAt": 1788389862346
     },
     "29f46bc6-a11d-4529-b90b-8fc9f13b7491": {
       "username": "faithy_",
@@ -9571,7 +9582,7 @@
       "stats": {
         "totalVotes": 9425,
         "totalSubs": 0,
-        "totalChatMessages": 10773,
+        "totalChatMessages": 10774,
         "totalStreamMinutes": 8847,
         "emotes": {
           "❤": 29,
@@ -9591,8 +9602,8 @@
           "☺": 3,
           "😎": 2,
           "😁": 1,
-          "📴": 56,
-          "👋": 59,
+          "📴": 57,
+          "👋": 60,
           "🛒": 7,
           "😀": 1,
           "😍": 4,
@@ -9812,13 +9823,9 @@
           "❌": "❌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788313313005
+        "lastChatAt": 1788389211345
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 sofrenciaplay is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -9854,6 +9861,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mauhzera just gave 109 vote(s) (total: 109)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -9866,13 +9877,13 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
-      "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
+      "streamTitle": "",
       "profile": "sofrenciaplay’s community is a lively bunch of gamers who “torram os pontos” in 1h30m Retro marathons, especially Donkey Kong Country. They shout “JOGA SEU JOGO,” celebrate “torradas” and “bolinhos” of points, joke about “Tim craft, Vivo craft,” and love a “Multiplayer COM AMIGO 1H E 30M.” The streamer thrives on vote alerts, point giveaways, and live‑pix donations, celebrating every win with cheers and “JOGA SEU JOGO!”",
       "_profileAtCount": 10752,
       "gameOverride": "",
       "commentMode": "low",
       "lastStreamInfo": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
-      "lastStreamEndedAt": 1788317820834
+      "lastStreamEndedAt": 1788389206147
     },
     "c6f961d4-99d9-43a9-af38-8f62a07c68f9": {
       "username": "guney",
