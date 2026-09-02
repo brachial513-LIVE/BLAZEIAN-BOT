@@ -3602,15 +3602,15 @@
       "stats": {
         "totalVotes": 6340,
         "totalSubs": 29,
-        "totalChatMessages": 1305,
-        "totalStreamMinutes": 6181,
+        "totalChatMessages": 1307,
+        "totalStreamMinutes": 6184,
         "emotes": {
           "✨": 25,
           "🖥": 21,
-          "🔥": 126,
-          "👋": 63,
-          "🎬": 60,
-          "❤": 86,
+          "🔥": 127,
+          "👋": 64,
+          "🎬": 61,
+          "❤": 87,
           "🚨": 7,
           "⚡": 21,
           "🏆": 18,
@@ -3782,18 +3782,10 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
           "07de98c1-b682-4d82-b630-774474b712cc": "LFBLAZE2"
         },
-        "lastChatAt": 1788332356510,
+        "lastChatAt": 1788332820754,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:07de98c1-b682-4d82-b630-774474b712cc]"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "we in differernt games"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:b05156cf-7925-4298-8e19-f29e294cc793]"
@@ -3825,6 +3817,14 @@
         {
           "user": "zer0cache",
           "msg": "how are you??"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Unwinding with OTG. Drop a greeting in chat! 👋"
         }
       ],
       "customCommands": {},
@@ -3856,7 +3856,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
       "lastStreamInfo": "Unwinding with OTG — Off The Grid",
-      "lastStreamEndedAt": 1788300551210,
+      "lastStreamEndedAt": 1788332741474,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule"
     },
@@ -6953,7 +6953,7 @@
         "totalVotes": 9183,
         "totalSubs": 189,
         "totalChatMessages": 213,
-        "totalStreamMinutes": 5486,
+        "totalStreamMinutes": 5491,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -7922,7 +7922,7 @@
         "totalVotes": 15831,
         "totalSubs": 80,
         "totalChatMessages": 1588,
-        "totalStreamMinutes": 8724,
+        "totalStreamMinutes": 8729,
         "emotes": {
           "❤": 77,
           "🙌": 126,
@@ -12927,7 +12927,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 38,
-        "totalStreamMinutes": 1250,
+        "totalStreamMinutes": 1255,
         "emotes": {
           "👋": 3,
           "❤": 18,
@@ -14023,8 +14023,8 @@
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1788323094606,
   "auth": {
-    "accessToken": "2aa56f26e547d3fb4cc8902060b68a75",
-    "refreshToken": "04c9f27d62e95007fdcdfc89d7ead611",
+    "accessToken": "0a2cfae3a5c13a986789c9daf99a37d7",
+    "refreshToken": "70aaca3a008ed9439f9751fbecd26c07",
     "sessionToken": "b0e3f7c184b0bd4b6cfe757c3398623c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
