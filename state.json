@@ -1452,7 +1452,7 @@
       "stats": {
         "totalVotes": 14386,
         "totalSubs": 135,
-        "totalChatMessages": 8289,
+        "totalChatMessages": 8291,
         "totalStreamMinutes": 21604,
         "emotes": {
           "📊": 3,
@@ -1899,13 +1899,9 @@
           "fb3e6ef8-3477-4cdc-a4a0-f466514434af": "TipMe"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788382040695
+        "lastChatAt": 1788383049600
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Made a bunch of new stickers for my subscribers!!"
-        },
         {
           "user": "zer0cache",
           "msg": "ahaha you running with aleksa! dude is hilarious!"
@@ -1941,6 +1937,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
         }
       ],
       "customCommands": {},
@@ -1949,7 +1949,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "OTHERSIDE 🌌🪐 FOXBOT CASINO IS LIVE 🎰 INTERACTIVE GAMES!! ❤️‍🔥 FOXBOT X BLAZEIAN X BLAZEGAMES 🦊💚🔥 — Otherside (by Yuga Labs)",
+      "streamTitle": "",
       "profile": "Welcome to Wilder World game nights! Expect “FOX BOT” love, “RIP” jokes, “BLAZE THE DAY” vibes, “SLAY DRAGONS”, “LOVE FEST” moments, wheelspins, giveaways, interactive blackjack, and “RAID” cheers. Spin the wheel, vote for OTG NFTs, celebrate wins with “congets” and “congrats”, keep the hype alive with “BLAZE THE DAY” energy. 🚀",
       "_profileAtCount": 8211,
       "gameOverride": "",
@@ -1957,8 +1957,8 @@
       "nudgedAt": 1785001902195,
       "nudgedKey": "schedule",
       "commentMode": "heavy",
-      "lastStreamInfo": "OTHERSIDE TUESDAYS 🌌🪐 FOXBOT CASINO IS LIVE 🎰 INTERACTIVE GAMES!! ❤️‍🔥 FOXBOT X BLAZEIAN X BLAZEGAMES 🦊💚🔥 — Otherside (by Yuga Labs)",
-      "lastStreamEndedAt": 1788362334371,
+      "lastStreamInfo": "OTHERSIDE 🌌🪐 FOXBOT CASINO IS LIVE 🎰 INTERACTIVE GAMES!! ❤️‍🔥 FOXBOT X BLAZEIAN X BLAZEGAMES 🦊💚🔥 — Otherside (by Yuga Labs)",
+      "lastStreamEndedAt": 1788383011958,
       "loyalty": {
         "mpfeiffer": {
           "name": "mpfeiffer",
@@ -2287,15 +2287,15 @@
       "language": "en",
       "stats": {
         "totalVotes": 12023,
-        "totalSubs": 49,
-        "totalChatMessages": 4982,
+        "totalSubs": 50,
+        "totalChatMessages": 4984,
         "totalStreamMinutes": 15967,
         "emotes": {
           "❤": 180,
-          "🙌": 124,
+          "🙌": 125,
           "🗳": 747,
           "📴": 133,
-          "👋": 148,
+          "👋": 150,
           "🔴": 131,
           "🎉": 213,
           "🏆": 22,
@@ -2303,7 +2303,7 @@
           "💎": 7,
           "🎁": 89,
           "📢": 32,
-          "🔥": 341,
+          "🔥": 343,
           "😘": 28,
           "🥺": 9,
           "🥷": 14,
@@ -2534,18 +2534,10 @@
           "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": "ANGRYPYRO2",
           "f6f2189c-c5fb-4f5b-a252-118456b6944d": "ORANGEPYRO"
         },
-        "lastChatAt": 1788381215985,
+        "lastChatAt": 1788382989323,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "i want give you hugs"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "sleep well"
-        },
         {
           "user": "zer0cache",
           "msg": "hey @agent00zani!"
@@ -2577,6 +2569,14 @@
         {
           "user": "agent00zani",
           "msg": "yeah is a fishy"
+        },
+        {
+          "user": "parky",
+          "msg": "👋👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @bradgames to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {
@@ -2628,6 +2628,11 @@
         },
         "desirablebottom": {
           "name": "desirablebottom",
+          "months": 1,
+          "tier": 1
+        },
+        "bradgames": {
+          "name": "bradgames",
           "months": 1,
           "tier": 1
         }
@@ -3644,13 +3649,13 @@
       "stats": {
         "totalVotes": 6355,
         "totalSubs": 29,
-        "totalChatMessages": 1334,
+        "totalChatMessages": 1336,
         "totalStreamMinutes": 6333,
         "emotes": {
           "✨": 26,
           "🖥": 21,
           "🔥": 129,
-          "👋": 66,
+          "👋": 68,
           "🎬": 63,
           "❤": 89,
           "🚨": 7,
@@ -3672,7 +3677,7 @@
           "🫡": 9,
           "🏰": 4,
           "🙌": 216,
-          "💩": 33,
+          "💩": 41,
           "🤣": 3,
           "😂": 28,
           "🧐": 3,
@@ -3826,18 +3831,10 @@
           "07de98c1-b682-4d82-b630-774474b712cc": "LFBLAZE2",
           "🎮": "🎮"
         },
-        "lastChatAt": 1788381527340,
+        "lastChatAt": 1788382822381,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "raid from my hero @zer0cache"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "wwww @time"
-        },
         {
           "user": "time",
           "msg": "w zaniiii"
@@ -3869,6 +3866,14 @@
         {
           "user": "time",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "parky",
+          "msg": "👋👋"
+        },
+        {
+          "user": "bradgames",
+          "msg": "💩💩💩💩💩💩💩💩"
         }
       ],
       "customCommands": {},
@@ -5287,7 +5292,7 @@
       "stats": {
         "totalVotes": 10727,
         "totalSubs": 41,
-        "totalChatMessages": 1240,
+        "totalChatMessages": 1244,
         "totalStreamMinutes": 4917,
         "emotes": {
           "❤": 62,
@@ -5424,25 +5429,9 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788374373215
+        "lastChatAt": 1788383184256
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "and thank you for the votes!"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "you the Legend"
-        },
-        {
-          "user": "vitrene",
-          "msg": "I am pumped about a new game"
-        },
-        {
-          "user": "vitrene",
-          "msg": "dropping at midnight"
-        },
         {
           "user": "vitrene",
           "msg": "it will be epic"
@@ -5466,6 +5455,22 @@
         {
           "user": "vitrene",
           "msg": "got it pre loaded"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "the audio doesn't seemed synced up"
+        },
+        {
+          "user": "vitrene",
+          "msg": "is there a delay?"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "not sure. Just the conversation from the characters are not in sync with their mouths"
+        },
+        {
+          "user": "vitrene",
+          "msg": "ok then it is the game"
         }
       ],
       "customCommands": {},
@@ -7757,8 +7762,8 @@
       "stats": {
         "totalVotes": 6405,
         "totalSubs": 37,
-        "totalChatMessages": 1717,
-        "totalStreamMinutes": 2905,
+        "totalChatMessages": 1727,
+        "totalStreamMinutes": 2925,
         "emotes": {
           "❤": 127,
           "🙌": 98,
@@ -7780,7 +7785,7 @@
           "😂": 12,
           "🚨": 60,
           "🎁": 62,
-          "🍺": 14,
+          "🍺": 15,
           "🥰": 3,
           "🤣": 13,
           "😜": 3,
@@ -7819,7 +7824,7 @@
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "da339ef7-1574-4f2f-8b48-666688167af3": 2,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 2,
-          "82fcfea6-f363-4412-9dfe-f2e560aceb8f": 4,
+          "82fcfea6-f363-4412-9dfe-f2e560aceb8f": 5,
           "1ec71433-9e46-4649-890d-720b6fae9be1": 1,
           "🙏": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 2,
@@ -7904,48 +7909,48 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788380709119
+        "lastChatAt": 1788383129385
       },
       "chatMemory": [
         {
-          "user": "cookiexfalcon_",
-          "msg": "ik i live rent free in a few heads"
-        },
-        {
-          "user": "cookiexfalcon_",
-          "msg": "lol"
-        },
-        {
-          "user": "cookiexfalcon_",
-          "msg": "that's nice"
-        },
-        {
-          "user": "cookiexfalcon_",
-          "msg": "i cant see  it"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @saam!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ saam just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
+          "user": "itssscat",
+          "msg": "Enjoy your new company LOL"
         },
         {
           "user": "itssscat",
-          "msg": "Hiii"
+          "msg": "I got scared and move dhim"
+        },
+        {
+          "user": "cheeseyeggs",
+          "msg": "Get a job!"
+        },
+        {
+          "user": "cheeseyeggs",
+          "msg": "Also cant hear shit atm cos of this music!!"
+        },
+        {
+          "user": "cheeseyeggs",
+          "msg": "[emote:82fcfea6-f363-4412-9dfe-f2e560aceb8f]"
+        },
+        {
+          "user": "cheeseyeggs",
+          "msg": "Yeah my music"
+        },
+        {
+          "user": "cheeseyeggs",
+          "msg": "Its loud af for me, but its always quiet for stream, no idea why"
+        },
+        {
+          "user": "cheeseyeggs",
+          "msg": "Hahahah honestly, if i turn it up a couple of deciblez, then ill be in the squinton having my ears drained of blood"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "Yessssir"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "🍺"
         }
       ],
       "customCommands": {},
@@ -9096,7 +9101,7 @@
       "stats": {
         "totalVotes": 7498,
         "totalSubs": 22,
-        "totalChatMessages": 1851,
+        "totalChatMessages": 1854,
         "totalStreamMinutes": 6358,
         "emotes": {
           "❤": 77,
@@ -9239,21 +9244,9 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788376496946
+        "lastChatAt": 1788382882602
       },
       "chatMemory": [
-        {
-          "user": "tuff3rmrd3ano",
-          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "🤣🤣🤣🤣"
-        },
         {
           "user": "tinapay",
           "msg": "Hellooooo ateee"
@@ -9281,6 +9274,18 @@
         {
           "user": "cr33pling",
           "msg": "working pa din pero keri langs"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "I've come to watch you die"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "no, thank you"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "for dying"
         }
       ],
       "customCommands": {},
@@ -12309,15 +12314,15 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 1362,
+        "totalVotes": 1367,
         "totalSubs": 4,
-        "totalChatMessages": 942,
+        "totalChatMessages": 946,
         "totalStreamMinutes": 2814,
         "emotes": {
           "👋": 29,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 70,
+          "🗳": 73,
           "🔴": 27,
           "🎉": 35,
           "📴": 27,
@@ -12335,7 +12340,7 @@
           "a52b5dc1-f94b-40b0-b666-7f94a9f9580e": 15,
           "🚨": 42,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 8,
-          "b9094c24-381d-4157-ad1b-c6fa88dc25aa": 17,
+          "b9094c24-381d-4157-ad1b-c6fa88dc25aa": 22,
           "🤣": 3,
           "💃": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 7,
@@ -12345,7 +12350,7 @@
           "41ab2929-b362-475e-ba7c-840033f569af": 1,
           "0f3933df-c8c2-4982-8bcc-859d24d4e9e7": 2,
           "bcb8d7f1-9b24-4655-8d6e-1082f3ea1da1": 1,
-          "0028bc6e-d8e9-440d-81ab-7b31b4a78c15": 2,
+          "0028bc6e-d8e9-440d-81ab-7b31b4a78c15": 8,
           "c0056fc3-1f86-4358-afa0-894703213a47": 1,
           "d3028d03-055f-4e9f-906d-852bb2546f7d": 1,
           "d1187040-c76c-4135-aaf0-a1026b495f0a": 1,
@@ -12440,25 +12445,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788376677872
+        "lastChatAt": 1788382305756
       },
       "chatMemory": [
-        {
-          "user": "angge_wf",
-          "msg": "Good morning ✨✨"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 7 votes, @allybear!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @allybear just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
@@ -12482,6 +12471,22 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Dan just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @allybear!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @allybear just gave 5 vote(s) (total: 12)! Thank you!! 🗳️"
+        },
+        {
+          "user": "allybear",
+          "msg": "[emote:0028bc6e-d8e9-440d-81ab-7b31b4a78c15] [emote:0028bc6e-d8e9-440d-81ab-7b31b4a78c15] [emote:0028bc6e-d8e9-440d-81ab-7b31b4a78c15] [emote:0028bc6e-d8e9-440d-81ab-7b31b4a78c15] [emote:0028bc6e-d8e9-440d-81ab-7b31b4a78c15] [emote:0028bc6e-d8e9-440d-81ab-7b31b4a78c15]"
+        },
+        {
+          "user": "allybear",
+          "msg": "[emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa] [emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa] [emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa] [emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa] [emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa]"
         }
       ],
       "customCommands": {
