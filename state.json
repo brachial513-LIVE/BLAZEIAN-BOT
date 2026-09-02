@@ -357,7 +357,8 @@
         "love": "💚🧡❤️🧡💚❤️🧡💚❤️🧡💚🧡❤️💚💚🧡❤️🧡💚❤️🧡💚❤️🧡💚🧡❤️💚💚🧡❤️🧡💚❤️🧡💚❤️🧡💚🧡❤️💚💚🧡❤️🧡💚❤️🧡💚❤️🧡💚🧡❤️💚💚🧡❤️🧡💚❤️🧡💚❤️🧡💚🧡❤️💚💚🧡❤️🧡💚❤️🧡💚❤️🧡💚🧡❤️💚",
         "7days": "7 DAYS TO DIE ALERT 🧟🧟🧟 ➡️ YOU can interact with me ingame / controle the game ! I dont care that twitch has his integrated option for stuff - we doing this on Blaze too ! 3 Votes = i Sleep one night outside ( ingame you demon 🤣 ) 1 Sub = i fight 7 Zombies with pure Fists ⬆️ As example ! ⬆️ You choose, be creative - do you gonna let me suffer or do you gonna help me ingame ? 🤣😈👍💀👻",
         "nft": "😎 ⬛ GIVEAWAY ALERT ! - 🎉 Weekly Giveaway every Sunday! Starts between 19:00–20:00 UTC (21-22 Uhr German Time SUMMER) / 20:00–21:00 UTC (21-22 Uhr German Time WINTER). How it Works: Someone with 1 Entry STAYS ON THE WHEEL / Someone with MORE than 1 Entry will be REMOVED 1x from the Wheel PER WIN / Everyone has a Chance at 5 WINS (of 20) for the NFT. The More Entries, the HIGHER the CHANCE to WIN! - With SPECIAL NFTs! ONLY AVAIBLE ON MY LIVE HERE ON BLAZE! 🔥 10 Votes = 1 Entry / 1 Sub = 3 Entrys / 1 Gifted Sub = 5 Entrys! 🔥✅🔥 LETS BLAZE 🔥",
-        "ai": "🧠 I'm a REAL AI agent, not a canned bot! Tag me anytime with @blazeian_bot_ai + your question — I actually read what you said and reply in character, in YOUR language (18+ languages, auto-detected). Ask me real stuff too: news, scores, weather, whatever's on your mind — I look it up live and give you an honest answer, no fake info. Try me! - Go to https://blaze.stream/blazeian_bot_ai and type !join into his chat 💪 💚"
+        "ai": "🧠 I'm a REAL AI agent, not a canned bot! Tag me anytime with @blazeian_bot_ai + your question — I actually read what you said and reply in character, in YOUR language (18+ languages, auto-detected). Ask me real stuff too: news, scores, weather, whatever's on your mind — I look it up live and give you an honest answer, no fake info. Try me! - Go to https://blaze.stream/blazeian_bot_ai and type !join into his chat 💪 💚",
+        "dance": "BlazeianBot dropping his Dance Moves"
       },
       "streamStart": "➡️🟩LIVE NOW FROM THE GMC HQ : Brachial513 🔥✅",
       "streamEnd": "🟥 GMC HQ OVER AND OUT : We are Offline now - Thanks for beeing a part of this Community 🫂💚",
@@ -420,6 +421,14 @@
         "dur": 8,
         "sound": true,
         "confetti": true
+      },
+      "commandMedia": {
+        "dance": {
+          "sound": "",
+          "media": "https://blazeian-bot.onrender.com/cmdmedia/7c0e8169-a149-4c3c-813b-709ad6862002/dance-media.mp4?v=1788374374563",
+          "text": "",
+          "dur": 8
+        }
       }
     },
     "ab4452a1-3623-426e-ab45-dce684780e78": {
@@ -5268,7 +5277,7 @@
       "stats": {
         "totalVotes": 10727,
         "totalSubs": 41,
-        "totalChatMessages": 1237,
+        "totalChatMessages": 1240,
         "totalStreamMinutes": 4917,
         "emotes": {
           "❤": 62,
@@ -5405,21 +5414,9 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788374144425
+        "lastChatAt": 1788374373215
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "just lurking"
-        },
-        {
-          "user": "vitrene",
-          "msg": "legendary @agent00zani in da house!!!!"
-        },
-        {
-          "user": "vitrene",
-          "msg": "what up bro?"
-        },
         {
           "user": "vitrene",
           "msg": "and thank you for the votes!"
@@ -5447,6 +5444,18 @@
         {
           "user": "vitrene",
           "msg": "called blood of dawnwalker"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "i see"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "soo you wait"
+        },
+        {
+          "user": "vitrene",
+          "msg": "got it pre loaded"
         }
       ],
       "customCommands": {},
@@ -14122,7 +14131,7 @@
   "auth": {
     "accessToken": "2ff29f3dd46105c069f37245a6605f44",
     "refreshToken": "6d96489c13dae4d10a53f2c03fdda95a",
-    "sessionToken": "1190d0f3b9db7d9a065336d4a1d15c2c",
+    "sessionToken": "8041aab386db56e7ae2353f8ef65de2c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
