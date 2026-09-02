@@ -2641,8 +2641,8 @@
       "botVip": true,
       "commandMedia": {
         "fluffy": {
-          "sound": "",
-          "media": "",
+          "sound": "https://blazeian-bot.onrender.com/cmdmedia/5e9d9b5f-98cf-4b92-a93c-ed876703b55a/fluffy-sound.wav?v=1788376983817",
+          "media": "https://blazeian-bot.onrender.com/cmdmedia/5e9d9b5f-98cf-4b92-a93c-ed876703b55a/fluffy-media.png?v=1788377030763",
           "text": "FLUFFY",
           "dur": 8
         }
@@ -3929,7 +3929,7 @@
       "stats": {
         "totalVotes": 19548,
         "totalSubs": 50,
-        "totalChatMessages": 8587,
+        "totalChatMessages": 8588,
         "totalStreamMinutes": 6072,
         "emotes": {
           "❤": 163,
@@ -4131,7 +4131,7 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 10,
           "e4d6ab94-8895-4ace-95f5-74fbd5a80c9c": 11,
           "d0203f0d-6503-4576-82d2-10bd8a2a4eea": 7,
-          "7d43a957-9776-42b2-a502-30501741f53e": 11,
+          "7d43a957-9776-42b2-a502-30501741f53e": 12,
           "be616c6f-d527-4382-bf49-4988a5e24c1b": 11,
           "06249348-9cfc-43ae-8d32-7cbad8c27b8a": 1,
           "🔎": 8,
@@ -4362,13 +4362,9 @@
           "e8124c9d-a6dd-4913-943b-cbc529fca886": "ByeBye"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788354477981
+        "lastChatAt": 1788376913182
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Welcome, welcome, briggsy is attempting to go live."
-        },
         {
           "user": "briggsy",
           "msg": "Thanks"
@@ -4404,6 +4400,10 @@
         {
           "user": "tenshi",
           "msg": "thank you so much for the votes!!"
+        },
+        {
+          "user": "time",
+          "msg": "[emote:7d43a957-9776-42b2-a502-30501741f53e]"
         }
       ],
       "customCommands": {},
@@ -5670,14 +5670,14 @@
       "stats": {
         "totalVotes": 10532,
         "totalSubs": 34,
-        "totalChatMessages": 2253,
+        "totalChatMessages": 2260,
         "totalStreamMinutes": 3275,
         "emotes": {
           "❤": 40,
           "🙌": 74,
           "💚": 10,
           "🔴": 26,
-          "🎉": 47,
+          "🎉": 48,
           "🙂": 3,
           "🔥": 50,
           "😎": 5,
@@ -5686,7 +5686,7 @@
           "👋": 30,
           "🎁": 64,
           "😂": 53,
-          "🚨": 54,
+          "🚨": 60,
           "😍": 16,
           "🤩": 28,
           "👀": 6,
@@ -5847,37 +5847,9 @@
           "💪": "💪"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788376390912
+        "lastChatAt": 1788377030752
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Benimki. Özel."
-        },
-        {
-          "user": "briggsy",
-          "msg": "Haha"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Yess"
-        },
-        {
-          "user": "time",
-          "msg": "sdlfklsd"
-        },
-        {
-          "user": "time",
-          "msg": "dgşl"
-        },
-        {
-          "user": "time",
-          "msg": "dçgdf"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Onunla gerçekten eğlenebilirsin."
-        },
         {
           "user": "briggsy",
           "msg": "Haha"
@@ -5889,6 +5861,34 @@
         {
           "user": "briggsy",
           "msg": "Arigato"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Çok tatlılar."
+        },
+        {
+          "user": "briggsy",
+          "msg": "Haha"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Yay"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Sağ tıklayıp kaydedebilirseniz, istediğiniz herhangi birine sahip olabilirsiniz."
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @Desirablebottom is raiding with a party of 11! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "briggsy",
+          "msg": "DB Raaaiiidd!!"
+        },
+        {
+          "user": "helios",
+          "msg": "Hey time"
         }
       ],
       "customCommands": {},
@@ -7973,16 +7973,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 15832,
+        "totalVotes": 15907,
         "totalSubs": 87,
-        "totalChatMessages": 1645,
+        "totalChatMessages": 1646,
         "totalStreamMinutes": 8987,
         "emotes": {
           "❤": 81,
           "🙌": 135,
           "💚": 3,
           "🔥": 42,
-          "🗳": 537,
+          "🗳": 540,
           "🔴": 79,
           "🎉": 103,
           "📴": 77,
@@ -8112,13 +8112,9 @@
           "aa9e0a25-2430-49a6-a340-cc59dc6974c0": "moneymoney"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788358194740
+        "lastChatAt": 1788376725793
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "nekoschwan",
           "msg": "[emote:aa9e0a25-2430-49a6-a340-cc59dc6974c0] [emote:aa9e0a25-2430-49a6-a340-cc59dc6974c0] [emote:aa9e0a25-2430-49a6-a340-cc59dc6974c0] [emote:aa9e0a25-2430-49a6-a340-cc59dc6974c0]"
@@ -8154,6 +8150,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -11203,7 +11203,7 @@
       "stats": {
         "totalVotes": 2605,
         "totalSubs": 9,
-        "totalChatMessages": 498,
+        "totalChatMessages": 500,
         "totalStreamMinutes": 5512,
         "emotes": {
           "❤": 37,
@@ -11214,8 +11214,8 @@
           "🔴": 35,
           "🎉": 38,
           "🗳": 105,
-          "📴": 34,
-          "👋": 35,
+          "📴": 35,
+          "👋": 36,
           "☺": 2,
           "🎁": 18,
           "🍺": 10,
@@ -11278,17 +11278,9 @@
           "😇": "😇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788373974428
+        "lastChatAt": 1788376793202
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "match over ?"
-        },
         {
           "user": "tinapay",
           "msg": "helloooo @marioscy5"
@@ -11320,6 +11312,14 @@
         {
           "user": "fluffy",
           "msg": "hey hey"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -11335,9 +11335,9 @@
       "avatarUrl": "https://pbs.twimg.com/profile_images/1997811286168440832/QsvpEBYx_normal.jpg",
       "followed": true,
       "botVip": true,
-      "streamTitle": "200 vote giveaway | OTG Road to Icon — Off The Grid",
+      "streamTitle": "",
       "lastStreamInfo": "200 vote giveaway | OTG Road to Icon — Off The Grid",
-      "lastStreamEndedAt": 1788302898575,
+      "lastStreamEndedAt": 1788376788019,
       "gameOverride": "",
       "profile": "marioscy5 streams chill vibes, OTG pro skills, and “Like I finally found your stream” moments. The chat screams “You got this” in Counter‑Strike, erupts with “GIFTED SUB!!” when subs drop, and goes wild when “GM gm” starts the stream. Expect “❤️ NEW FOLLOWER!! ❤️” alerts, vote shoutouts, and a community that loves celebrating every win.",
       "_profileAtCount": 469,
@@ -12284,15 +12284,15 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 1357,
-        "totalSubs": 3,
-        "totalChatMessages": 938,
+        "totalVotes": 1362,
+        "totalSubs": 4,
+        "totalChatMessages": 942,
         "totalStreamMinutes": 2814,
         "emotes": {
           "👋": 29,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 67,
+          "🗳": 70,
           "🔴": 27,
           "🎉": 35,
           "📴": 27,
@@ -12329,7 +12329,7 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
           "✌": 2,
           "👍": 3,
-          "🙌": 8,
+          "🙌": 9,
           "🎣": 1,
           "⏰": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 6,
@@ -12340,7 +12340,7 @@
           "18c8fcbb-5ff9-4fd3-83d8-68a6f750f73e": 1,
           "eb6610c8-8faa-4358-87e1-ccc56a081849": 6,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 1,
-          "🎁": 4,
+          "🎁": 6,
           "2d235d6d-6b4b-4846-bef8-7e95ff218cbd": 1,
           "c69b92f1-d1d3-40dc-858b-9d7dce310cdc": 1,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 9,
@@ -12415,25 +12415,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788364606288
+        "lastChatAt": 1788376677872
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📢 Shoutout to @senseibulrog, streamer of Fall Guys! 🔥 Make sure to check out https://blaze.stream/senseibulrog and show some support ❤️‍🔥"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @senseibulrog at https://blaze.stream/senseibulrog!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "To use our Giveaway Wheel, please visit https://scurvybot.com/overlays/giveaway-wheel?platform=blaze&uuid=aeb8b4ea-5a22-4acf-b508-dbf0ce896a86"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@treefrognada congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/8907295fa12eee0e0c9908478445793c58f1209c93bf1220ca9cb72c63579b10"
-        },
         {
           "user": "angge_wf",
           "msg": "Good morning ✨✨"
@@ -12457,6 +12441,22 @@
         {
           "user": "allybear",
           "msg": "[emote:a52b5dc1-f94b-40b0-b666-7f94a9f9580e] [emote:a52b5dc1-f94b-40b0-b666-7f94a9f9580e] [emote:a52b5dc1-f94b-40b0-b666-7f94a9f9580e] [emote:a52b5dc1-f94b-40b0-b666-7f94a9f9580e] [emote:a52b5dc1-f94b-40b0-b666-7f94a9f9580e]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@thewill3ffect gifted a Sub to @cr33pling! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @thewill3ffect just gifted a sub to @cr33pling! How generous!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @Dan!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dan just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
