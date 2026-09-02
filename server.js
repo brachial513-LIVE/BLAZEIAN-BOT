@@ -3095,7 +3095,7 @@ function renderForms(actionPrefix, channelField) {
     <textarea name="response" id="rc-cmdresp" rows="5" placeholder="The full text the bot should reply with..."></textarea>
     <details style="margin-top:8px;">
       <summary style="cursor:pointer;font-weight:700;color:#7CFC9A;">🎬 Play a sound / GIF / video on your stream (optional)</summary>
-      <p class="hint">Fill any of these and the command ALSO fires a media alert on your <b>Command Alert</b> OBS overlay (grab its URL under 🎬 OBS Overlays). Type <code>!yourcmd SomeName</code> and use <code>{name}</code> in the text to name a person. A SoundCloud/YouTube page link won't work — use a direct file or the upload button.</p>
+      <p class="hint">Fill any of these and the command ALSO fires a media alert on your <b>Command Alert</b> OBS overlay (grab its URL under 🎬 OBS Overlays). Type <code>!yourcmd SomeName</code> and use <code>{name}</code> in the text to name a person. A SoundCloud/YouTube page link won't work — use a direct file or the upload button. Videos play in FULL — the <b>Seconds</b> box only sets how long a sound-only or picture alert stays on screen.</p>
       <label>🔊 Sound — MP3 URL, or upload a file</label>
       <div style="display:flex;gap:8px;align-items:center;"><input name="mediaSound" id="rc-cmdmSound" placeholder="https://…/sound.mp3" style="flex:1;"><input type="file" id="rc-cmdmSoundFile" accept="audio/*" style="max-width:150px;"><button type="button" class="edit-btn" onclick="rcUpCmd('sound')">⬆️ Upload</button></div>
       <label>🖼️ GIF / video / picture — URL, or upload a file</label>
@@ -5675,17 +5675,25 @@ app.get("/overlay/alert/:username", (req, res) => {
   var since=0, busy=false, first=true, _snd=null;
   function escHtml(s){ return String(s).replace(/[&<>]/g,function(m){return m==='&'?'&amp;':(m==='<'?'&lt;':'&gt;');}); }
   function isVid(u){ return /\\.(mp4|webm|mov|m4v)(\\?|$)/i.test(u||''); }
+  function finish(){ wrap.className='hide'; try{vid.pause();}catch(e){} if(_snd){try{_snd.pause();}catch(e){}} setTimeout(function(){ wrap.className=''; busy=false; }, 500); }
   function fire(a){
     if(busy) return; busy=true;
     var dur=(Number(a.dur)||8)*1000;
     var nm=String(a.name||'').replace(/[<>&]/g,'');
     var t=a.text?escHtml(a.text).replace(/\\{name\\}|&lt;name&gt;/gi, nm?('<b>'+nm+'</b>'):''):'';
     ctext.innerHTML=t; ctext.style.display=t?'block':'none';
-    img.style.display='none'; vid.style.display='none';
-    if(a.media){ if(isVid(a.media)){ vid.src=a.media; vid.style.display='block'; vid.currentTime=0; try{vid.play();}catch(e){} } else { img.src=a.media; img.style.display='block'; } }
+    img.style.display='none'; vid.style.display='none'; vid.onended=null;
+    var isVideo=a.media&&isVid(a.media);
+    if(a.media){ if(isVideo){ vid.src=a.media; vid.style.display='block'; vid.currentTime=0; try{vid.play();}catch(e){} } else { img.src=a.media; img.style.display='block'; } }
     if(a.sound){ try{ if(_snd){_snd.pause();} _snd=new Audio(a.sound); _snd.volume=0.9; _snd.play().catch(function(){}); }catch(e){} }
     wrap.className='show';
-    setTimeout(function(){ wrap.className='hide'; try{vid.pause();}catch(e){} if(_snd){try{_snd.pause();}catch(e){}} setTimeout(function(){ wrap.className=''; busy=false; }, 500); }, dur);
+    if(isVideo){
+      var done=false, end=function(){ if(done) return; done=true; finish(); };
+      vid.onended=end;            // play the FULL video, then hide when it actually ends
+      setTimeout(end, 120000);    // hard safety cap so a stuck video can't linger forever
+    } else {
+      setTimeout(finish, dur);    // sound/picture alerts stay for the "Seconds" duration
+    }
   }
   ${testMode
     ? "setTimeout(function(){fire({text:'{name} got hyped!',name:'TestUser',media:'',sound:'',dur:6});},600);"
