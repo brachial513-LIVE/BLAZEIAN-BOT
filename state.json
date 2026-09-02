@@ -1442,9 +1442,9 @@
       "language": "en",
       "stats": {
         "totalVotes": 14344,
-        "totalSubs": 134,
-        "totalChatMessages": 8232,
-        "totalStreamMinutes": 21514,
+        "totalSubs": 135,
+        "totalChatMessages": 8235,
+        "totalStreamMinutes": 21534,
         "emotes": {
           "📊": 3,
           "🔥": 445,
@@ -1662,7 +1662,7 @@
           "0d894430-c7fd-4036-9275-ec213522ff2c": 2,
           "3ee22006-ef93-47bd-a90d-0ee7fec2e0cc": 1,
           "9b6e3e1d-c1ff-47d6-a827-28c401ddb095": 1,
-          "f74c6daa-7987-4c98-8cc9-89270ea8edc9": 2,
+          "f74c6daa-7987-4c98-8cc9-89270ea8edc9": 3,
           "86c9645e-fcdb-4de1-bfa6-ce31e01a9193": 1,
           "01e17de5-d329-4e89-9b48-9bea2ce602ca": 1
         },
@@ -1888,21 +1888,9 @@
           "01e17de5-d329-4e89-9b48-9bea2ce602ca": "LivenowFoxGif"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788364946539
+        "lastChatAt": 1788365618435
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:0d894430-c7fd-4036-9275-ec213522ff2c]"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:01e17de5-d329-4e89-9b48-9bea2ce602ca]"
-        },
         {
           "user": "foxbotai",
           "msg": "Thank you @wapi for voting with 50 votes! FoxBot AI appreciates your support! +150 FoxCoins. Balance: 495 FoxCoins."
@@ -1930,6 +1918,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:23b84aa5-3ac2-4d27-a76d-bbce48c6bea3]"
+        },
+        {
+          "user": "ffracer",
+          "msg": "Gm Gm"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "GM GM"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:f74c6daa-7987-4c98-8cc9-89270ea8edc9]"
         }
       ],
       "customCommands": {},
@@ -6092,15 +6092,15 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 27,
-        "totalStreamMinutes": 47,
+        "totalChatMessages": 30,
+        "totalStreamMinutes": 49,
         "emotes": {
           "❤": 8,
           "🙌": 6,
           "💚": 5,
           "🔥": 12,
-          "📴": 4,
-          "👋": 4,
+          "📴": 5,
+          "👋": 5,
           "🥂": 1,
           "🎁": 2
         },
@@ -6114,22 +6114,10 @@
           "🥂": "🥂",
           "🎁": "🎁"
         },
-        "lastChatAt": 1786915245737,
+        "lastChatAt": 1788366326635,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "Helios is now live!! Let's get building"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "wellocme back"
-        },
         {
           "user": "ruri666",
           "msg": "GM GM!!"
@@ -6157,6 +6145,18 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ piggymoto just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "Helios is now live!! Let's get building"
+        },
+        {
+          "user": "helios",
+          "msg": "Starting soon. Please wait"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6167,7 +6167,9 @@
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4366a4c8-c3fa-4296-9014-212a08f2fae3.gif",
       "streamTitle": "",
-      "gameOverride": ""
+      "gameOverride": "",
+      "lastStreamInfo": "Been a while: Playing Bloodstrike and anything else — IRL",
+      "lastStreamEndedAt": 1788366321377
     },
     "d3b88120-1dbc-422f-930b-6dcb2fccf9f4": {
       "username": "tai_",
@@ -9030,7 +9032,7 @@
         "totalVotes": 7493,
         "totalSubs": 22,
         "totalChatMessages": 1811,
-        "totalStreamMinutes": 6268,
+        "totalStreamMinutes": 6288,
         "emotes": {
           "❤": 77,
           "🙌": 46,
@@ -10089,8 +10091,8 @@
       "stats": {
         "totalVotes": 12425,
         "totalSubs": 18,
-        "totalChatMessages": 2850,
-        "totalStreamMinutes": 4324,
+        "totalChatMessages": 2870,
+        "totalStreamMinutes": 4344,
         "emotes": {
           "❤": 54,
           "🙌": 44,
@@ -10162,7 +10164,8 @@
           "🔔": 1,
           "💙": 1,
           "😘": 1,
-          "f6f2189c-c5fb-4f5b-a252-118456b6944d": 1
+          "f6f2189c-c5fb-4f5b-a252-118456b6944d": 1,
+          "🍀": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -10235,51 +10238,52 @@
           "🔔": "🔔",
           "💙": "💙",
           "😘": "😘",
-          "f6f2189c-c5fb-4f5b-a252-118456b6944d": "ORANGEPYRO"
+          "f6f2189c-c5fb-4f5b-a252-118456b6944d": "ORANGEPYRO",
+          "🍀": "🍀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788365330488
+        "lastChatAt": 1788366143553
       },
       "chatMemory": [
         {
-          "user": "noxx",
-          "msg": "don't know why"
+          "user": "fuyu",
+          "msg": "did you reach the ending?"
         },
         {
-          "user": "noxx",
-          "msg": "won't let me get back on"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
+          "user": "helios",
+          "msg": "I'll be lurking"
         },
         {
           "user": "fuyu",
-          "msg": "we back baybee"
-        },
-        {
-          "user": "foxcrochet",
-          "msg": "Heeeeeeey🫶🏻"
+          "msg": "bro the ending is so philosophical as well"
         },
         {
           "user": "fuyu",
-          "msg": "ngl"
+          "msg": "bro mc looks like Robert Pattinson it triggers me"
         },
         {
           "user": "fuyu",
-          "msg": "Clair is so good"
+          "msg": "game is a bit louder than your voice"
+        },
+        {
+          "user": "fuyu",
+          "msg": "now a bit low Haha"
+        },
+        {
+          "user": "fuyu",
+          "msg": "I kinda like it as a white  noise"
+        },
+        {
+          "user": "fuyu",
+          "msg": "but your voice was getting jumbled"
+        },
+        {
+          "user": "fuyu",
+          "msg": "yeap"
+        },
+        {
+          "user": "fuyu",
+          "msg": "good to go"
         }
       ],
       "customCommands": {},
@@ -11483,9 +11487,9 @@
       "joinedAt": 1786172514205,
       "stats": {
         "totalVotes": 5894,
-        "totalSubs": 54,
-        "totalChatMessages": 2577,
-        "totalStreamMinutes": 5765,
+        "totalSubs": 55,
+        "totalChatMessages": 2592,
+        "totalStreamMinutes": 5785,
         "emotes": {
           "😅": 1,
           "🔥": 176,
@@ -11493,7 +11497,7 @@
           "✌": 2,
           "😊": 1,
           "👍": 2,
-          "❤": 154,
+          "❤": 156,
           "🤫": 1,
           "🤘": 2,
           "😂": 11,
@@ -11501,11 +11505,11 @@
           "😁": 2,
           "😜": 7,
           "🙏": 1,
-          "🙌": 75,
+          "🙌": 77,
           "💪": 1,
           "👋": 20,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 291,
-          "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 209,
+          "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 216,
           "🔴": 18,
           "🎉": 41,
           "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 94,
@@ -11513,7 +11517,7 @@
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 44,
           "37719561-c923-4260-b1a5-e3eda10c103d": 9,
-          "🎁": 72,
+          "🎁": 74,
           "🗳": 207,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 8,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 7,
@@ -11625,7 +11629,7 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788365092638,
+        "lastChatAt": 1788366266503,
         "lastSendFailAt": 1788099474426,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788100384932,
@@ -11633,44 +11637,44 @@
       },
       "chatMemory": [
         {
-          "user": "nekoschwan",
-          "msg": "why u diggin so deep"
+          "user": "ellyroux",
+          "msg": "WHERE ARE YOU FROM BROTHER"
         },
         {
-          "user": "angge_wf",
-          "msg": "how can u go up"
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @FartVader just gifted a sub to @ellyroux! How generous!! 🙌"
         },
         {
-          "user": "nekoschwan",
-          "msg": "who's who will join whooo"
+          "user": "ellyroux",
+          "msg": "im thinkin of coming back to streaming too"
         },
         {
-          "user": "nekoschwan",
-          "msg": "u gonna play diff game na"
+          "user": "ellyroux",
+          "msg": "ts play some 7 days to die when im back :)"
         },
         {
-          "user": "cr33pling",
-          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
+          "user": "ellyroux",
+          "msg": "ohh i see"
         },
         {
-          "user": "cr33pling",
-          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
+          "user": "ellyroux",
+          "msg": "do you play rust?"
         },
         {
-          "user": "cr33pling",
-          "msg": "INTRO BRB eh"
+          "user": "fartvader",
+          "msg": "oh sure broski..you can play with us btw"
         },
         {
-          "user": "cr33pling",
-          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
+          "user": "fartvader",
+          "msg": "we love playing survival games"
         },
         {
-          "user": "cr33pling",
-          "msg": "HAHAHHAHA"
+          "user": "agent00zani",
+          "msg": "All best in your games today"
         },
         {
-          "user": "cr33pling",
-          "msg": "[emote:e5772785-5f76-4433-8159-230844a61298] [emote:e5772785-5f76-4433-8159-230844a61298] [emote:e5772785-5f76-4433-8159-230844a61298] [emote:e5772785-5f76-4433-8159-230844a61298] [emote:e5772785-5f76-4433-8159-230844a61298] [emote:e5772785-5f76-4433-8159-230844a61298] [emote:e5772785-5f76-4433-8159-230844a61298]"
+          "user": "piweb",
+          "msg": "Enjoy the game Vader"
         }
       ],
       "customCommands": {},
@@ -11706,14 +11710,14 @@
       "stats": {
         "totalVotes": 9514,
         "totalSubs": 66,
-        "totalChatMessages": 564,
-        "totalStreamMinutes": 2208,
+        "totalChatMessages": 587,
+        "totalStreamMinutes": 2224,
         "emotes": {
           "❤": 69,
           "🙌": 103,
           "🎁": 132,
-          "🔴": 18,
-          "🎉": 26,
+          "🔴": 19,
+          "🎉": 27,
           "🗳": 174,
           "📴": 19,
           "👋": 19,
@@ -11767,48 +11771,48 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788222332932
+        "lastChatAt": 1788366176708
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "@charddxyz gifted a Sub to @slothsm! Thank you!"
+          "user": "ellyroux",
+          "msg": "waiting"
         },
         {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @charddxyz just gifted a sub to @slothsm! How generous!! 🙌"
+          "user": "ellyroux",
+          "msg": "sept daw"
         },
         {
-          "user": "scurvybot",
-          "msg": "@charddxyz gifted a Sub to @SrChois! Thank you!"
+          "user": "ellyroux",
+          "msg": "palag tayu dun?"
         },
         {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @charddxyz just gifted a sub to @SrChois! How generous!! 🙌"
+          "user": "ellyroux",
+          "msg": "maganda yun walng auto"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @FartVader!"
+          "user": "ellyroux",
+          "msg": "di ka bibili ng pass?"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+          "user": "ellyroux",
+          "msg": "2k lang ata ?"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1500 votes, @mindgoblin!"
+          "user": "ellyroux",
+          "msg": "netflix nuod"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 1500 vote(s) (total: 1500)! Thank you!! 🗳️"
+          "user": "ellyroux",
+          "msg": "hahaha"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @CedriCDebleD!"
+          "user": "ellyroux",
+          "msg": "sge sge baka this week babalik nako stream"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+          "user": "ellyroux",
+          "msg": "laro tayu deadlock"
         }
       ],
       "customCommands": {},
@@ -11821,7 +11825,7 @@
       "locked": false,
       "profile": "Deadlock crew, “LOVE FEST” vibes, raiding, celebrating generosity. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, “ty ty for votes bro”, “How generous!!” when gifts, votes, or follows hit. The stream thrives on gifts, votes, hype, cheering for the next big win. charddxyz loves being celebrated with cheers, votes, and constant hype.",
       "_profileAtCount": 560,
-      "streamTitle": "",
+      "streamTitle": "what to play? — Deadlock",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/6f948e20-bb78-41a1-9c2e-6358e4a07cc5.png",
       "lastStreamInfo": "what to play? — Deadlock",
       "lastStreamEndedAt": 1788192627059,
@@ -11995,7 +11999,7 @@
         "totalVotes": 1070,
         "totalSubs": 10,
         "totalChatMessages": 754,
-        "totalStreamMinutes": 3831,
+        "totalStreamMinutes": 3851,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -14025,8 +14029,8 @@
     },
     "cookiexfalcon_": {
       "note": "Enjoys gaming, upgrading GPUs, planning beach trips, and chatting casually with a friend named Keen, often sharing light‑hearted humor.",
-      "at": 1788302814521,
-      "n": 4
+      "at": 1788366174618,
+      "n": 5
     },
     "keenan0908": {
       "note": "Enjoys hunting sale jackets, watching football and movies, and getting new Pokémon tattoos, often joking about fit and future ink plans.",
