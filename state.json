@@ -6167,15 +6167,15 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 53,
-        "totalStreamMinutes": 132,
+        "totalChatMessages": 55,
+        "totalStreamMinutes": 135,
         "emotes": {
           "❤": 10,
           "🙌": 7,
           "💚": 5,
           "🔥": 12,
-          "📴": 9,
-          "👋": 12,
+          "📴": 10,
+          "👋": 13,
           "🥂": 1,
           "🎁": 2,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1
@@ -6191,18 +6191,10 @@
           "🎁": "🎁",
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
-        "lastChatAt": 1788387239383,
+        "lastChatAt": 1788387639970,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "Just fixing a couple of things"
-        },
-        {
-          "user": "parky",
-          "msg": "👋👋👋"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -6234,6 +6226,14 @@
         {
           "user": "time",
           "msg": "thank you"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "Helios is now live!! Let's get building"
         }
       ],
       "customCommands": {},
@@ -6246,7 +6246,7 @@
       "streamTitle": "Chill gaming — Ryse: Son of Rome",
       "gameOverride": "",
       "lastStreamInfo": "Chill gaming — Ryse: Son of Rome",
-      "lastStreamEndedAt": 1788386382202
+      "lastStreamEndedAt": 1788387622970
     },
     "d3b88120-1dbc-422f-930b-6dcb2fccf9f4": {
       "username": "tai_",
@@ -12327,8 +12327,8 @@
       "stats": {
         "totalVotes": 1369,
         "totalSubs": 4,
-        "totalChatMessages": 1002,
-        "totalStreamMinutes": 2841,
+        "totalChatMessages": 1007,
+        "totalStreamMinutes": 2846,
         "emotes": {
           "👋": 29,
           "⚠": 2,
@@ -12456,25 +12456,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788387325390
+        "lastChatAt": 1788387742629
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@mikygigi74 congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/2e9f857c4d98dd03880114c121f934e8f67782de67135202259a48f0eabf019f"
-        },
-        {
-          "user": "mikygigi74",
-          "msg": "thank you"
-        },
-        {
-          "user": "allybear",
-          "msg": "hi miky"
-        },
-        {
-          "user": "onyxouroboros",
-          "msg": "boo"
-        },
         {
           "user": "mikygigi74",
           "msg": "hi sweet lady allybear"
@@ -12498,6 +12482,22 @@
         {
           "user": "mikygigi74",
           "msg": "now in 2 th"
+        },
+        {
+          "user": "flinx",
+          "msg": "boo"
+        },
+        {
+          "user": "allybear",
+          "msg": "boo"
+        },
+        {
+          "user": "allybear",
+          "msg": "ggs"
+        },
+        {
+          "user": "allybear",
+          "msg": "@treefrognada"
         }
       ],
       "customCommands": {
@@ -14174,8 +14174,8 @@
     }
   },
   "auth": {
-    "accessToken": "facc6ed3862e6b0ac59a923c110acb34",
-    "refreshToken": "a7e93b76ae3078116c6c099e3b6a12e3",
+    "accessToken": "b93e08fb790116fa1862c70a54692bdf",
+    "refreshToken": "4991d8114ed742d880d13cf8798867af",
     "sessionToken": "855a794d2478b54a91423c2dbb5e5fce",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
