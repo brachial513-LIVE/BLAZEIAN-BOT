@@ -209,6 +209,15 @@ function applyLoadedState(record) {
   if (record.learnedPeople && typeof record.learnedPeople === "object") learnedPeople = record.learnedPeople;
   if (typeof record.giveawayInfo === "string") giveawayInfo = record.giveawayInfo;
   if (Array.isArray(record.friendBots)) friendBots = record.friendBots;
+  // Dashboard logins live in memory, so without this every restart/spin-down logged everyone out
+  // (their 7-day cookie pointed at a session the fresh process no longer had) — the "Upload failed
+  // (auth)" symptom. Restore the still-valid ones so a login survives redeploys and Render spin-downs.
+  if (record.sessions && typeof record.sessions === "object") {
+    const _now = Date.now();
+    for (const [sid, s] of Object.entries(record.sessions)) {
+      if (s && s.username && s.exp > _now) sessions[sid] = s;
+    }
+  }
   // Cloud people first, then SEED wins for core entries — so corrections shipped in code
   // always take effect even if an outdated copy is stored in state.json.
   if (record.knownPeople && typeof record.knownPeople === "object") knownPeople = { ...record.knownPeople, ...KNOWN_PEOPLE_SEED };
@@ -288,6 +297,7 @@ async function _writeStateToGitHub() {
     giveawayInfo,
     lastAnnouncedVersion,
     lastOnlineAnnounceAt,
+    sessions, // dashboard logins, so a redeploy/spin-down doesn't sign everyone out
     auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
             sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
   };
@@ -3131,7 +3141,7 @@ function renderForms(actionPrefix, channelField) {
       if(f.size>25*1024*1024){ note.textContent='File too big (max 25 MB).'; return; }
       var ext=(f.name.split('.').pop()||'').toLowerCase();
       note.textContent='Uploading…';
-      fetch('/dashboard/uploadcmdmedia?slot='+slot+'&cmd='+encodeURIComponent(cmd)+'&ext='+encodeURIComponent(ext),{method:'POST',headers:{'Content-Type':'application/octet-stream'},body:f}).then(function(r){return r.json();}).then(function(d){
+      fetch('/dashboard/uploadcmdmedia?slot='+slot+'&cmd='+encodeURIComponent(cmd)+'&ext='+encodeURIComponent(ext),{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/octet-stream'},body:f}).then(function(r){return r.json();}).then(function(d){
         if(d.error==='badtype'){ note.textContent='Unsupported file type.'; return; }
         if(d.error==='nostorage'){ note.textContent='Upload storage not configured (no GITHUB_TOKEN).'; return; }
         if(d.error){ note.textContent='Upload failed ('+(d.detail||d.error)+').'; return; }
@@ -3366,7 +3376,7 @@ function renderRaidPanel(username) {
       if(!f){ note.textContent='Pick an MP3 file first.'; return; }
       if(f.size > 25*1024*1024){ note.textContent='File too big (max 25 MB).'; return; }
       note.textContent='Uploading…';
-      fetch('/dashboard/uploadraidsound',{method:'POST',headers:{'Content-Type':'audio/mpeg'},body:f}).then(function(r){return r.json();}).then(function(d){
+      fetch('/dashboard/uploadraidsound',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'audio/mpeg'},body:f}).then(function(r){return r.json();}).then(function(d){
         if(d.error==='nostorage'){ note.textContent='Upload storage not configured (no GITHUB_TOKEN in Render).'; return; }
         if(d.error==='toobig'){ note.textContent='File too big (max 25 MB).'; return; }
         if(d.error){ note.textContent='Upload failed ('+(d.detail||d.error)+').'; return; }
@@ -3877,6 +3887,7 @@ app.get("/callback", async (req, res) => {
     const sid = crypto.randomBytes(24).toString("hex");
     sessions[sid] = { username, exp: Date.now() + 7 * 24 * 3600 * 1000 };
     setCookie(res, "sid", sid, 7 * 24 * 3600);
+    saveChannelsNow(); // persist the login immediately so it survives an instant spin-down/redeploy
     return res.redirect(pa.returnTo || "/dashboard");
   } catch (e) {
     const info = e.response?.data || e.message;
@@ -4414,7 +4425,7 @@ app.get("/comics", (req, res) => {
 
 app.get("/dashboard/logout", (req, res) => {
   const sid = getCookie(req, "sid");
-  if (sid) delete sessions[sid];
+  if (sid) { delete sessions[sid]; saveChannelsNow(); }
   setCookie(res, "sid", "", 0);
   res.redirect("/dashboard");
 });
