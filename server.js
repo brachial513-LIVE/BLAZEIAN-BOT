@@ -3095,7 +3095,7 @@ function renderForms(actionPrefix, channelField) {
     <textarea name="response" id="rc-cmdresp" rows="5" placeholder="The full text the bot should reply with..."></textarea>
     <details style="margin-top:8px;">
       <summary style="cursor:pointer;font-weight:700;color:#7CFC9A;">🎬 Play a sound / GIF / video on your stream (optional)</summary>
-      <p class="hint">Fill any of these and the command ALSO fires a media alert on your <b>Command Alert</b> OBS overlay (grab its URL under 🎬 OBS Overlays). Type <code>!yourcmd SomeName</code> and use <code>{name}</code> in the text to name a person. A SoundCloud/YouTube page link won't work — use a direct file or the upload button. Videos play in FULL — the <b>Seconds</b> box only sets how long a sound-only or picture alert stays on screen.</p>
+      <p class="hint">Fill any of these and the command ALSO fires a media alert on your <b>Command Alert</b> OBS overlay (grab its URL under 🎬 OBS Overlays). Type <code>!yourcmd SomeName</code> and use <code>{name}</code> in the text to name a person. A SoundCloud/YouTube page link won't work — use a direct file or the upload button. <b>Max seconds</b>: leave 0 to play a video in FULL (auto-ends when it finishes) · set a number to cap it early · sound-only and picture alerts stay for this many seconds (default cap when 0 is set: 8s for sound/picture).</p>
       <label>🔊 Sound — MP3 URL, or upload a file</label>
       <div style="display:flex;gap:8px;align-items:center;"><input name="mediaSound" id="rc-cmdmSound" placeholder="https://…/sound.mp3" style="flex:1;"><input type="file" id="rc-cmdmSoundFile" accept="audio/*" style="max-width:150px;"><button type="button" class="edit-btn" onclick="rcUpCmd('sound')">⬆️ Upload</button></div>
       <label>🖼️ GIF / video / picture — URL, or upload a file</label>
@@ -3103,7 +3103,7 @@ function renderForms(actionPrefix, channelField) {
       <div id="rc-cmdmNote" class="hint"></div>
       <div style="display:flex;gap:10px;">
         <div style="flex:1;"><label>💬 On-screen text (optional) — <code>{name}</code> = named person</label><input name="mediaText" id="rc-cmdmText" maxlength="160" placeholder="{name} got hyped! 🔥"></div>
-        <div style="width:110px;"><label>Seconds</label><input type="number" name="mediaDur" id="rc-cmdmDur" min="3" max="30" value="8"></div>
+        <div style="width:130px;"><label>Max seconds</label><input type="number" name="mediaDur" id="rc-cmdmDur" min="0" max="120" value="0" title="0 = play full video · a number caps it (also used for sound/picture alerts)"></div>
       </div>
     </details>
     <button class="save" style="margin-top:10px;">Save Command</button>
@@ -3128,7 +3128,7 @@ function renderForms(actionPrefix, channelField) {
       var s=document.getElementById('rc-cmdmSound'); if(s) s.value=ms||'';
       var mo=document.getElementById('rc-cmdmMedia'); if(mo) mo.value=mm||'';
       var tx=document.getElementById('rc-cmdmText'); if(tx) tx.value=mt||'';
-      var du=document.getElementById('rc-cmdmDur'); if(du&&md) du.value=md;
+      var du=document.getElementById('rc-cmdmDur'); if(du&&md!=null&&md!=='') du.value=md;
       var det=f.querySelector('details'); if(det&&(ms||mm||mt)) det.open=true;
       if(nm){ nm.scrollIntoView({behavior:'smooth',block:'center'}); nm.focus(); } };
     window.rcUpCmd=function(slot){
@@ -4447,7 +4447,10 @@ app.post("/dashboard/setcmd", async (req, res) => {
   const mSound = clean(b.mediaSound, 500);
   const mMedia = clean(b.mediaUrl, 500);
   const mText = clean(b.mediaText, 160);
-  const mDur = Math.max(3, Math.min(30, parseFloat(b.mediaDur) || 8));
+  // 0 = full video · a number caps it (also duration for sound/picture alerts). Was hard-clamped
+  // to 3-30 before, which is why videos couldn't play in full even after the fire()-side fix.
+  const mDurRaw = parseFloat(b.mediaDur);
+  const mDur = Number.isFinite(mDurRaw) ? Math.max(0, Math.min(120, mDurRaw)) : 0;
   if (cmdName && (response || mSound || mMedia)) {
     const ch = channels[channelId];
     if (!ch.customCommands) ch.customCommands = {};
@@ -5675,10 +5678,18 @@ app.get("/overlay/alert/:username", (req, res) => {
   var since=0, busy=false, first=true, _snd=null;
   function escHtml(s){ return String(s).replace(/[&<>]/g,function(m){return m==='&'?'&amp;':(m==='<'?'&lt;':'&gt;');}); }
   function isVid(u){ return /\\.(mp4|webm|mov|m4v)(\\?|$)/i.test(u||''); }
-  function finish(){ wrap.className='hide'; try{vid.pause();}catch(e){} if(_snd){try{_snd.pause();}catch(e){}} setTimeout(function(){ wrap.className=''; busy=false; }, 500); }
+  function finish(){
+    // Stop + fully clear the video BEFORE the fade-out so the browser doesn't repaint frame 0
+    // (rewound src) during the hide animation — which was the "first second flickers back in" bug.
+    try{ vid.pause(); vid.removeAttribute('src'); vid.load(); }catch(e){}
+    vid.style.display='none';
+    if(_snd){try{_snd.pause();}catch(e){}}
+    wrap.className='hide';
+    setTimeout(function(){ wrap.className=''; busy=false; }, 500);
+  }
   function fire(a){
     if(busy) return; busy=true;
-    var dur=(Number(a.dur)||8)*1000;
+    var durSec=Number(a.dur)||0;                    // 0 = full video · N = cap
     var nm=String(a.name||'').replace(/[<>&]/g,'');
     var t=a.text?escHtml(a.text).replace(/\\{name\\}|&lt;name&gt;/gi, nm?('<b>'+nm+'</b>'):''):'';
     ctext.innerHTML=t; ctext.style.display=t?'block':'none';
@@ -5687,12 +5698,13 @@ app.get("/overlay/alert/:username", (req, res) => {
     if(a.media){ if(isVideo){ vid.src=a.media; vid.style.display='block'; vid.currentTime=0; try{vid.play();}catch(e){} } else { img.src=a.media; img.style.display='block'; } }
     if(a.sound){ try{ if(_snd){_snd.pause();} _snd=new Audio(a.sound); _snd.volume=0.9; _snd.play().catch(function(){}); }catch(e){} }
     wrap.className='show';
+    var done=false, end=function(){ if(done) return; done=true; finish(); };
     if(isVideo){
-      var done=false, end=function(){ if(done) return; done=true; finish(); };
-      vid.onended=end;            // play the FULL video, then hide when it actually ends
-      setTimeout(end, 120000);    // hard safety cap so a stuck video can't linger forever
+      vid.onended=end;                              // play until the video actually ends…
+      if(durSec>0) setTimeout(end, durSec*1000);    // …unless the streamer capped it earlier
+      else setTimeout(end, 120000);                 // hard safety cap so a stuck video can't linger
     } else {
-      setTimeout(finish, dur);    // sound/picture alerts stay for the "Seconds" duration
+      setTimeout(end, (durSec>0?durSec:8)*1000);    // sound/picture alert stays this long
     }
   }
   ${testMode
