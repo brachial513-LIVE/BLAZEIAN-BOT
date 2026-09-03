@@ -6421,7 +6421,7 @@
         "totalVotes": 12778,
         "totalSubs": 45,
         "totalChatMessages": 10730,
-        "totalStreamMinutes": 6692,
+        "totalStreamMinutes": 6697,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -7088,7 +7088,7 @@
         "totalVotes": 9183,
         "totalSubs": 189,
         "totalChatMessages": 220,
-        "totalStreamMinutes": 5815,
+        "totalStreamMinutes": 5820,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -8057,7 +8057,7 @@
         "totalVotes": 15982,
         "totalSubs": 88,
         "totalChatMessages": 1658,
-        "totalStreamMinutes": 9242,
+        "totalStreamMinutes": 9247,
         "emotes": {
           "❤": 81,
           "🙌": 136,
@@ -8511,8 +8511,8 @@
       "stats": {
         "totalVotes": 3584,
         "totalSubs": 19,
-        "totalChatMessages": 170,
-        "totalStreamMinutes": 3706,
+        "totalChatMessages": 171,
+        "totalStreamMinutes": 3708,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -8548,13 +8548,9 @@
           "b89a4edd-a2cd-4957-99f8-b56bab5f81b5": "loveyou"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788409479229
+        "lastChatAt": 1788414555453
       },
       "chatMemory": [
-        {
-          "user": "henzyzxc",
-          "msg": "RAAAAAAIDDDD"
-        },
         {
           "user": "henzyzxc",
           "msg": "X2 RAAAAID"
@@ -8590,6 +8586,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -8602,12 +8602,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "Hiii! — PLAYERUNKNOWN'S BATTLEGROUNDS",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to pr0ff’s stream—Ragnarok grind, PUGs, and endless “DOTES” vibes! The chat loves “thanks” after a love fest, gifts a Sub to celebrate milestones, and throws 🔥 emojis everywhere. pr0ff thrives on community hype, “gift a Sub” moments, and “thanks” shoutouts. Keep the energy high, keep the 🔥 flowing!",
       "_profileAtCount": 130,
       "lastStreamInfo": "Hiii! — PLAYERUNKNOWN'S BATTLEGROUNDS",
-      "lastStreamEndedAt": 1788257941901,
+      "lastStreamEndedAt": 1788414555164,
       "nudgedAt": 1786524138354,
       "nudgedKey": "schedule"
     },
@@ -14254,8 +14254,8 @@
     }
   },
   "auth": {
-    "accessToken": "a1026aa1705828a4f4db1e581ba48ba9",
-    "refreshToken": "5ba9f3235ba51ba15891630266d199d3",
+    "accessToken": "f9c55d6e6f46c95a75d07d6b515fb713",
+    "refreshToken": "1ea4bcb48490cc282da2caeac1ace54d",
     "sessionToken": "855a794d2478b54a91423c2dbb5e5fce",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
