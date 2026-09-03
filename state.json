@@ -6421,7 +6421,7 @@
         "totalVotes": 12778,
         "totalSubs": 45,
         "totalChatMessages": 10730,
-        "totalStreamMinutes": 7093,
+        "totalStreamMinutes": 7102,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -10641,7 +10641,7 @@
         "totalVotes": 2453,
         "totalSubs": 14,
         "totalChatMessages": 58,
-        "totalStreamMinutes": 908,
+        "totalStreamMinutes": 917,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -10757,8 +10757,8 @@
       "stats": {
         "totalVotes": 4300,
         "totalSubs": 45,
-        "totalChatMessages": 753,
-        "totalStreamMinutes": 1991,
+        "totalChatMessages": 754,
+        "totalStreamMinutes": 2000,
         "emotes": {
           "❤": 75,
           "🙌": 68,
@@ -10880,17 +10880,13 @@
           "⏰": "⏰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788438388141,
+        "lastChatAt": 1788438515981,
         "lastSendFailAt": 1787523928127,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1787537093444,
         "recoveredFrom": 3
       },
       "chatMemory": [
-        {
-          "user": "panipeys",
-          "msg": "ohhh nako po"
-        },
         {
           "user": "panipeys",
           "msg": "7 to 9?"
@@ -10926,6 +10922,10 @@
         {
           "user": "panipeys",
           "msg": "Enjoy. Dinner muna haha."
+        },
+        {
+          "user": "denzelwashing",
+          "msg": "have a good stream! here for the lurk :D"
         }
       ],
       "customCommands": {},
@@ -14258,8 +14258,8 @@
     }
   },
   "auth": {
-    "accessToken": "7c5075792320a483fb5ed4cccc015319",
-    "refreshToken": "97e407e262b94e92e247d27fd2bab29b",
+    "accessToken": "837c9caf1b697444f5cff84231c4e06f",
+    "refreshToken": "c2424bef3b053a1f07dac7ed1753e2a6",
     "sessionToken": "855a794d2478b54a91423c2dbb5e5fce",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
