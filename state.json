@@ -1452,8 +1452,8 @@
       "stats": {
         "totalVotes": 14461,
         "totalSubs": 135,
-        "totalChatMessages": 8312,
-        "totalStreamMinutes": 21739,
+        "totalChatMessages": 8313,
+        "totalStreamMinutes": 21744,
         "emotes": {
           "📊": 3,
           "🔥": 448,
@@ -1899,13 +1899,9 @@
           "fb3e6ef8-3477-4cdc-a4a0-f466514434af": "TipMe"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788468878377
+        "lastChatAt": 1788469519781
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "🃏 @crypt0k1ng96, dealt: 7♣ 10♣ (17) vs dealer showing 4♠. !hit or !stand?"
-        },
         {
           "user": "foxbotai",
           "msg": "🃏 @crypt0k1ng96, 7♣ 10♣ (17) vs dealer 4♠ K♥ 5♥ (19) — you lost 30 promo. Balance: 695 promo."
@@ -1941,6 +1937,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:a410bada-e5ce-46df-992e-30b0b15cf068]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "BRB getting food"
         }
       ],
       "customCommands": {},
@@ -3671,7 +3671,7 @@
         "totalVotes": 6397,
         "totalSubs": 30,
         "totalChatMessages": 1360,
-        "totalStreamMinutes": 6501,
+        "totalStreamMinutes": 6506,
         "emotes": {
           "✨": 27,
           "🖥": 21,
@@ -5097,7 +5097,7 @@
         "totalVotes": 6773,
         "totalSubs": 69,
         "totalChatMessages": 559,
-        "totalStreamMinutes": 13358,
+        "totalStreamMinutes": 13363,
         "emotes": {
           "❤": 99,
           "🙌": 34,
@@ -6198,7 +6198,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 82,
-        "totalStreamMinutes": 246,
+        "totalStreamMinutes": 251,
         "emotes": {
           "❤": 10,
           "🙌": 8,
@@ -9648,7 +9648,7 @@
         "totalVotes": 9500,
         "totalSubs": 0,
         "totalChatMessages": 10779,
-        "totalStreamMinutes": 9136,
+        "totalStreamMinutes": 9141,
         "emotes": {
           "❤": 29,
           "🙌": 21,
@@ -11346,7 +11346,7 @@
         "totalVotes": 2642,
         "totalSubs": 9,
         "totalChatMessages": 509,
-        "totalStreamMinutes": 5627,
+        "totalStreamMinutes": 5632,
         "emotes": {
           "❤": 37,
           "🙌": 26,
@@ -12926,7 +12926,7 @@
         "totalVotes": 1931,
         "totalSubs": 0,
         "totalChatMessages": 121,
-        "totalStreamMinutes": 2061,
+        "totalStreamMinutes": 2066,
         "emotes": {
           "✌": 3,
           "🔥": 11,
@@ -14321,8 +14321,8 @@
     }
   },
   "auth": {
-    "accessToken": "0c6e0fc310f6a566451d5e2d1705f05a",
-    "refreshToken": "cab5c01e7d3c6449ac50ec606b9005de",
+    "accessToken": "65bf668ed7005de6aa0d0b7564d8587e",
+    "refreshToken": "47e7367760ab39fbd7b3385f54f49e72",
     "sessionToken": "04eb8f1c527f2c6cacecc2450e7c03d9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
