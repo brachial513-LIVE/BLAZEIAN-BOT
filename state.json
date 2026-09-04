@@ -8122,7 +8122,7 @@
         "totalVotes": 17003,
         "totalSubs": 97,
         "totalChatMessages": 1742,
-        "totalStreamMinutes": 9833,
+        "totalStreamMinutes": 9838,
         "emotes": {
           "❤": 84,
           "🙌": 143,
@@ -10864,7 +10864,7 @@
         "totalVotes": 4338,
         "totalSubs": 48,
         "totalChatMessages": 787,
-        "totalStreamMinutes": 2185,
+        "totalStreamMinutes": 2190,
         "emotes": {
           "❤": 75,
           "🙌": 70,
@@ -11075,8 +11075,8 @@
       "stats": {
         "totalVotes": 1534,
         "totalSubs": 33,
-        "totalChatMessages": 748,
-        "totalStreamMinutes": 3391,
+        "totalChatMessages": 749,
+        "totalStreamMinutes": 3396,
         "emotes": {
           "❤": 49,
           "🙌": 46,
@@ -11095,7 +11095,7 @@
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 2,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 4,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 9,
-          "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 6,
+          "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 9,
           "😆": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 2,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 8,
@@ -11152,13 +11152,9 @@
           "cd2d0478-cb09-4023-9a6a-750599f9623a": "CALMPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788525753376
+        "lastChatAt": 1788526169997
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -11194,6 +11190,10 @@
         {
           "user": "missaria",
           "msg": "Hello @seventh [emote:cd2d0478-cb09-4023-9a6a-750599f9623a]"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
         }
       ],
       "customCommands": {},
@@ -14454,8 +14454,8 @@
     }
   },
   "auth": {
-    "accessToken": "d5e7aff7e0e54b938ef7f742cae6042f",
-    "refreshToken": "04ab2554625eb7fdd48713d84e29fbe1",
+    "accessToken": "911961561b22cd21d9b7675094b39a42",
+    "refreshToken": "cd018ad4a3838df4eaea754fb4107b22",
     "sessionToken": "04eb8f1c527f2c6cacecc2450e7c03d9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
