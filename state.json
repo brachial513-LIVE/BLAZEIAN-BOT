@@ -3730,8 +3730,8 @@
       "stats": {
         "totalVotes": 6398,
         "totalSubs": 31,
-        "totalChatMessages": 1393,
-        "totalStreamMinutes": 6776,
+        "totalChatMessages": 1397,
+        "totalStreamMinutes": 6796,
         "emotes": {
           "✨": 28,
           "🖥": 21,
@@ -3794,7 +3794,7 @@
           "🦜": 4,
           "🤵": 2,
           "🎩": 1,
-          "🔮": 1,
+          "🔮": 2,
           "🙂": 3,
           "🤖": 1,
           "📱": 3,
@@ -3815,14 +3815,16 @@
           "579e7563-f746-44e4-9db3-2aa0648e31d1": 19,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 8,
           "74192a2b-0a2f-4ad7-b099-9cabee57b09e": 6,
-          "01caf6d4-f183-49ad-a652-8f85bea84607": 1,
+          "01caf6d4-f183-49ad-a652-8f85bea84607": 2,
           "b05156cf-7925-4298-8e19-f29e294cc793": 2,
           "9fc90900-beb2-4aa5-8c45-1e72eef81f82": 3,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 2,
           "07de98c1-b682-4d82-b630-774474b712cc": 2,
           "🎮": 1,
           "🍨": 1,
-          "da339ef7-1574-4f2f-8b48-666688167af3": 1
+          "da339ef7-1574-4f2f-8b48-666688167af3": 1,
+          "3c4113bb-2126-420f-b2db-775a012369fb": 1,
+          "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1
         },
         "emoteNames": {
           "✨": "✨",
@@ -3914,24 +3916,14 @@
           "07de98c1-b682-4d82-b630-774474b712cc": "LFBLAZE2",
           "🎮": "🎮",
           "🍨": "🍨",
-          "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO"
+          "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO",
+          "3c4113bb-2126-420f-b2db-775a012369fb": "TIPME",
+          "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink"
         },
-        "lastChatAt": 1788559694680,
+        "lastChatAt": 1788561599024,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "whats up @zer0cache"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "its good its good"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:579e7563-f746-44e4-9db3-2aa0648e31d1] [emote:579e7563-f746-44e4-9db3-2aa0648e31d1] [emote:579e7563-f746-44e4-9db3-2aa0648e31d1] [emote:579e7563-f746-44e4-9db3-2aa0648e31d1]"
-        },
         {
           "user": "cr33pling",
           "msg": "whats ur rig bro? i can't even play this game"
@@ -3959,6 +3951,18 @@
         {
           "user": "cr33pling",
           "msg": "[emote:579e7563-f746-44e4-9db3-2aa0648e31d1] [emote:579e7563-f746-44e4-9db3-2aa0648e31d1] [emote:579e7563-f746-44e4-9db3-2aa0648e31d1]"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🔮 [HYPE]: Witchcraft! @cr33pling reads the opponent's upcoming movements with the eerie, jaw-dropping accuracy of an aristocratic mystic staring into a crystal ball!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:3c4113bb-2126-420f-b2db-775a012369fb] [emote:01caf6d4-f183-49ad-a652-8f85bea84607]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
         }
       ],
       "customCommands": {},
@@ -5161,7 +5165,7 @@
         "totalVotes": 6773,
         "totalSubs": 69,
         "totalChatMessages": 571,
-        "totalStreamMinutes": 13932,
+        "totalStreamMinutes": 13952,
         "emotes": {
           "❤": 101,
           "🙌": 35,
@@ -7912,14 +7916,14 @@
       "stats": {
         "totalVotes": 6946,
         "totalSubs": 37,
-        "totalChatMessages": 1778,
-        "totalStreamMinutes": 3018,
+        "totalChatMessages": 1779,
+        "totalStreamMinutes": 3038,
         "emotes": {
           "❤": 127,
           "🙌": 98,
           "🔴": 28,
           "🎉": 41,
-          "👋": 60,
+          "👋": 63,
           "👀": 15,
           "😱": 1,
           "😅": 7,
@@ -8059,13 +8063,9 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788561116102
+        "lastChatAt": 1788561973026
       },
       "chatMemory": [
-        {
-          "user": "mediart",
-          "msg": "I'm good , thanks"
-        },
         {
           "user": "dofferlive",
           "msg": "i  put  it  in suggestionn the video"
@@ -8101,6 +8101,10 @@
         {
           "user": "agent00zani",
           "msg": "We need to be on same servers"
+        },
+        {
+          "user": "keenan0908",
+          "msg": "👋👋👋"
         }
       ],
       "customCommands": {},
@@ -8617,7 +8621,7 @@
         "totalVotes": 3601,
         "totalSubs": 19,
         "totalChatMessages": 179,
-        "totalStreamMinutes": 4272,
+        "totalStreamMinutes": 4292,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -9737,7 +9741,7 @@
         "totalVotes": 9500,
         "totalSubs": 0,
         "totalChatMessages": 10785,
-        "totalStreamMinutes": 9435,
+        "totalStreamMinutes": 9455,
         "emotes": {
           "❤": 29,
           "🙌": 21,
@@ -12545,7 +12549,7 @@
       "stats": {
         "totalVotes": 1471,
         "totalSubs": 4,
-        "totalChatMessages": 1124,
+        "totalChatMessages": 1126,
         "totalStreamMinutes": 3074,
         "emotes": {
           "👋": 34,
@@ -12553,7 +12557,7 @@
           "🎯": 2,
           "🗳": 91,
           "🔴": 32,
-          "🎉": 40,
+          "🎉": 41,
           "📴": 32,
           "🎡": 3,
           "®": 3,
@@ -12567,7 +12571,7 @@
           "😥": 2,
           "👀": 3,
           "a52b5dc1-f94b-40b0-b666-7f94a9f9580e": 15,
-          "🚨": 42,
+          "🚨": 48,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 8,
           "b9094c24-381d-4157-ad1b-c6fa88dc25aa": 22,
           "🤣": 3,
@@ -12674,17 +12678,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788560456632
+        "lastChatAt": 1788562393629
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dan just gave 1 vote(s) (total: 6)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -12716,6 +12712,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@allybear is raiding with a party of 5! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @allybear is raiding with a party of 5! Welcome raiders!! 🎉"
         }
       ],
       "customCommands": {
@@ -13643,8 +13647,8 @@
     },
     "agent00zani": {
       "note": "Energetic anime‑loving streamer who keeps chat lively with upbeat banter while playing Once Human, Delta Force, Valorant, Warzone, and Marvel Rivals.",
-      "at": 1788349014717,
-      "n": 43
+      "at": 1788562067836,
+      "n": 44
     },
     "crypt0k1ng96": {
       "note": "Notes:\n- Their username is crypt0k1ng96.\n- They are into Blaze, a platform that offers rewards in the form of Blaze.\n- They are testing FoxBot AI, a chatbot, and are offering $5 in Blaze to help test it.\n- They have a wife who cooks pasta.\n",
