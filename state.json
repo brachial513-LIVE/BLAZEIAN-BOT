@@ -3709,7 +3709,7 @@
         "totalVotes": 6397,
         "totalSubs": 30,
         "totalChatMessages": 1363,
-        "totalStreamMinutes": 6533,
+        "totalStreamMinutes": 6538,
         "emotes": {
           "✨": 27,
           "🖥": 21,
@@ -8119,8 +8119,8 @@
       "stats": {
         "totalVotes": 17003,
         "totalSubs": 92,
-        "totalChatMessages": 1701,
-        "totalStreamMinutes": 9594,
+        "totalChatMessages": 1702,
+        "totalStreamMinutes": 9598,
         "emotes": {
           "❤": 82,
           "🙌": 137,
@@ -8129,8 +8129,8 @@
           "🗳": 555,
           "🔴": 80,
           "🎉": 106,
-          "📴": 77,
-          "👋": 79,
+          "📴": 78,
+          "👋": 80,
           "🚨": 162,
           "🥂": 1,
           "🫶": 3,
@@ -8262,13 +8262,9 @@
           "🙏": "🙏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788495199814
+        "lastChatAt": 1788496519297
       },
       "chatMemory": [
-        {
-          "user": "cripiechuccles",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:60967948-8805-42ef-a202-051d2e2f1557] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
         {
           "user": "activated999",
           "msg": "The second is my favorite mafia 🔥🔥🤌"
@@ -8304,6 +8300,10 @@
         {
           "user": "seventh",
           "msg": "isa pa ngang yamete kuys hahaha"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -8316,7 +8316,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/dde36103-b939-4f5c-9855-5a46dd103b93.jpg",
       "followed": true,
-      "streamTitle": "Mafia Week Marathon — Mafia II",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Crypto corner of faithy_: we dive into New Epoch Play Cambria Fun and Mafia II marathon. Love “GIFTED SUBS”, “VOTE ALERTS”, “ROI YAN”, “patay”, “spanked”, “TAAS NA LEVEL MO AH”, “PURE LOVE”, generous subs, “GGS” vibes. Celebrate with “GIFTED SUB”, enjoy “TAAS NA LEVEL MO AH”, and “it's time to grind” moments, all while playing Mafia II.",
       "_profileAtCount": 1691,
@@ -8335,8 +8335,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "Mafia Week Marathon — Mafia",
-      "lastStreamEndedAt": 1788416999766
+      "lastStreamInfo": "Mafia Week Marathon — Mafia II",
+      "lastStreamEndedAt": 1788496514043
     },
     "4e8116b6-6705-4e00-a83c-c7e455b3a446": {
       "username": "dimifw",
@@ -14372,8 +14372,8 @@
     }
   },
   "auth": {
-    "accessToken": "a5400ab628214296ca792312a62234f4",
-    "refreshToken": "b222024213f650a4d6cb9d65c08e94a4",
+    "accessToken": "3b0d96ccb8a1573b07234fcf7fbd1509",
+    "refreshToken": "ad47e791ff66bbdf5948efdd80b827c7",
     "sessionToken": "04eb8f1c527f2c6cacecc2450e7c03d9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
