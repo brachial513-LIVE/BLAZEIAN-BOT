@@ -3708,8 +3708,8 @@
       "stats": {
         "totalVotes": 6397,
         "totalSubs": 31,
-        "totalChatMessages": 1369,
-        "totalStreamMinutes": 6578,
+        "totalChatMessages": 1370,
+        "totalStreamMinutes": 6583,
         "emotes": {
           "✨": 28,
           "🖥": 21,
@@ -3892,14 +3892,10 @@
           "🎮": "🎮",
           "🍨": "🍨"
         },
-        "lastChatAt": 1788498906408,
+        "lastChatAt": 1788498983648,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🎁 [GIFTED SUB]: @zer0cache just gifted a sub to a lucky community member! Absolute legend."
-        },
         {
           "user": "cachebot",
           "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
@@ -3935,6 +3931,10 @@
         {
           "user": "cachebot",
           "msg": "✨ [NEW FOLLOWER]: Welcome to the channel, @manhitmand! Thank you for the follow!."
+        },
+        {
+          "user": "zer0cache",
+          "msg": "ty for the follow @manhitmand!"
         }
       ],
       "customCommands": {},
@@ -3945,7 +3945,7 @@
       "followed": true,
       "streamTitle": "Grinding OTG Ranked — Off The Grid",
       "profile": "zer0cache’s crew lives for high‑stakes data heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. The channel thrives on relentless energy, magnetic camaraderie, and the thrill of dropping in to new adventures.",
-      "_profileAtCount": 1328,
+      "_profileAtCount": 1370,
       "loyalty": {
         "k1ngbre4ker": {
           "name": "k1ngbre4ker",
@@ -14372,8 +14372,8 @@
     }
   },
   "auth": {
-    "accessToken": "3b0d96ccb8a1573b07234fcf7fbd1509",
-    "refreshToken": "ad47e791ff66bbdf5948efdd80b827c7",
+    "accessToken": "6edbd13e74fff5eedc3ffc63197eda8e",
+    "refreshToken": "a4efe3ed769fcb7458435d8170a898de",
     "sessionToken": "04eb8f1c527f2c6cacecc2450e7c03d9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
