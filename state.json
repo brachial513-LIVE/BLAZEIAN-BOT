@@ -11735,16 +11735,16 @@
       "joinedAt": 1786172514205,
       "stats": {
         "totalVotes": 6100,
-        "totalSubs": 55,
-        "totalChatMessages": 2671,
-        "totalStreamMinutes": 5889,
+        "totalSubs": 57,
+        "totalChatMessages": 2674,
+        "totalStreamMinutes": 5896,
         "emotes": {
           "😅": 1,
-          "🔥": 178,
+          "🔥": 179,
           "🍻": 2,
-          "✌": 2,
+          "✌": 3,
           "😊": 1,
-          "👍": 4,
+          "👍": 5,
           "❤": 163,
           "🤫": 1,
           "🤘": 2,
@@ -11753,7 +11753,7 @@
           "😁": 2,
           "😜": 7,
           "🙏": 1,
-          "🙌": 80,
+          "🙌": 82,
           "💪": 1,
           "👋": 21,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 300,
@@ -11765,7 +11765,7 @@
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 44,
           "37719561-c923-4260-b1a5-e3eda10c103d": 9,
-          "🎁": 74,
+          "🎁": 78,
           "🗳": 210,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 8,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 8,
@@ -11877,25 +11877,13 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788505840234,
+        "lastChatAt": 1788506212711,
         "lastSendFailAt": 1788099474426,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788100384932,
         "recoveredFrom": 5
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Hey @meyetechnicals"
-        },
-        {
-          "user": "denzelwashing",
-          "msg": "hey @meyetechnicals whats up man"
-        },
-        {
-          "user": "corneto",
-          "msg": "can't stay for too long."
-        },
         {
           "user": "corneto",
           "msg": "always doing some stuff at work"
@@ -11923,6 +11911,18 @@
         {
           "user": "corneto",
           "msg": "ggssssssssss"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @FartVader just gifted a sub to @IMPERIALGUARD! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @FartVader just gifted a sub to @denzelwashing! How generous!! 🙌"
+        },
+        {
+          "user": "avisi",
+          "msg": "new chat... who dis? GM @fartvader ✌️🔥👍"
         }
       ],
       "customCommands": {},
@@ -12092,7 +12092,7 @@
         "totalVotes": 1326,
         "totalSubs": 10,
         "totalChatMessages": 398,
-        "totalStreamMinutes": 2510,
+        "totalStreamMinutes": 2517,
         "emotes": {
           "❤": 24,
           "🙌": 16,
@@ -12247,7 +12247,7 @@
         "totalVotes": 1092,
         "totalSubs": 10,
         "totalChatMessages": 842,
-        "totalStreamMinutes": 4065,
+        "totalStreamMinutes": 4073,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -14374,8 +14374,8 @@
     }
   },
   "auth": {
-    "accessToken": "ab9171010e7cea762ce4682119e21c32",
-    "refreshToken": "a7d95a0f93d41c638175b5a710093b32",
+    "accessToken": "2b1564a7185cd7b08198ca311f7f35cf",
+    "refreshToken": "49370dd2e559298fd26b3f9c12aa0eaf",
     "sessionToken": "04eb8f1c527f2c6cacecc2450e7c03d9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
