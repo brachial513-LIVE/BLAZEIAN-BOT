@@ -637,7 +637,7 @@
         "totalVotes": 62274,
         "totalSubs": 102,
         "totalChatMessages": 7834,
-        "totalStreamMinutes": 2391,
+        "totalStreamMinutes": 2396,
         "emotes": {
           "🗳": 1302,
           "❤": 484,
@@ -3259,7 +3259,7 @@
         "totalVotes": 10167,
         "totalSubs": 56,
         "totalChatMessages": 2614,
-        "totalStreamMinutes": 12647,
+        "totalStreamMinutes": 12652,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -6999,7 +6999,7 @@
         "totalVotes": 6749,
         "totalSubs": 36,
         "totalChatMessages": 1771,
-        "totalStreamMinutes": 11232,
+        "totalStreamMinutes": 11237,
         "emotes": {
           "🔥": 494,
           "🔴": 180,
@@ -8181,7 +8181,7 @@
         "totalVotes": 17004,
         "totalSubs": 99,
         "totalChatMessages": 1752,
-        "totalStreamMinutes": 9948,
+        "totalStreamMinutes": 9953,
         "emotes": {
           "❤": 84,
           "🙌": 145,
@@ -8642,7 +8642,7 @@
         "totalVotes": 3601,
         "totalSubs": 19,
         "totalChatMessages": 179,
-        "totalStreamMinutes": 4492,
+        "totalStreamMinutes": 4497,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -12570,8 +12570,8 @@
       "stats": {
         "totalVotes": 1471,
         "totalSubs": 4,
-        "totalChatMessages": 1140,
-        "totalStreamMinutes": 3223,
+        "totalChatMessages": 1143,
+        "totalStreamMinutes": 3228,
         "emotes": {
           "👋": 34,
           "⚠": 2,
@@ -12699,17 +12699,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788574209743
+        "lastChatAt": 1788574827419
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/2e523df94906ba9c8d272a60d551b5ca177fd0a29085ef133279fbd1c030d84e"
@@ -12741,6 +12733,14 @@
         {
           "user": "onyxouroboros",
           "msg": "enjoy the shopping tree"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/f9b995745af56dd9d9d89150250d561e22d30b36df644f684412080cf9310dd6"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "more mystery fish in exchange for some trash"
         }
       ],
       "customCommands": {
@@ -14579,8 +14579,8 @@
     }
   },
   "auth": {
-    "accessToken": "4d6c97f30996a8df200cae0741d582ab",
-    "refreshToken": "f416fb26f91da8c4d40000fc19eea7d3",
+    "accessToken": "79b3aa08bb0c8b343369437dcd624118",
+    "refreshToken": "24a4d2340fefebc08d897f4f022a3f79",
     "sessionToken": "b0d23bd88b386f4749e5194908d48d61",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
