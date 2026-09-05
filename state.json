@@ -2341,8 +2341,8 @@
       "stats": {
         "totalVotes": 12360,
         "totalSubs": 51,
-        "totalChatMessages": 5121,
-        "totalStreamMinutes": 16229,
+        "totalChatMessages": 5123,
+        "totalStreamMinutes": 16234,
         "emotes": {
           "❤": 182,
           "🙌": 128,
@@ -2435,7 +2435,7 @@
           "🎸": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 37,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 47,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 97,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 98,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 36,
           "b05156cf-7925-4298-8e19-f29e294cc793": 3,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 19,
@@ -2465,12 +2465,12 @@
           "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": 8,
           "f6f2189c-c5fb-4f5b-a252-118456b6944d": 1,
           "e249163f-4c3c-45de-91dd-68d0ee9c1b9e": 14,
-          "76ac420f-19f7-45a6-aa7c-f4caecc97bd2": 13,
+          "76ac420f-19f7-45a6-aa7c-f4caecc97bd2": 29,
           "0fff3eeb-6c7b-47af-b93b-545a58d3d42b": 14,
           "1bbf93f2-2f56-4c15-b468-a094de4be20b": 5,
-          "bfec7891-c819-455f-a184-9744fdad354a": 7,
-          "4b259e3f-6076-4b5d-b622-d4622f8ccecc": 4,
-          "23096f7c-6306-429d-9da8-028a73f63eed": 3,
+          "bfec7891-c819-455f-a184-9744fdad354a": 8,
+          "4b259e3f-6076-4b5d-b622-d4622f8ccecc": 5,
+          "23096f7c-6306-429d-9da8-028a73f63eed": 4,
           "bd452a28-6462-4485-92bf-e1d1a40150cf": 4
         },
         "emoteNames": {
@@ -2603,18 +2603,10 @@
           "23096f7c-6306-429d-9da8-028a73f63eed": "IamZani",
           "bd452a28-6462-4485-92bf-e1d1a40150cf": "NeedHugsNow"
         },
-        "lastChatAt": 1788609564549,
+        "lastChatAt": 1788609780234,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "great winnnn !"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "noooo way"
-        },
         {
           "user": "agent00zani",
           "msg": "ty ty for gift ."
@@ -2646,6 +2638,14 @@
         {
           "user": "just_for_lucas",
           "msg": "GM"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:23096f7c-6306-429d-9da8-028a73f63eed] [emote:bfec7891-c819-455f-a184-9744fdad354a] [emote:4b259e3f-6076-4b5d-b622-d4622f8ccecc]"
         }
       ],
       "customCommands": {
@@ -8683,7 +8683,7 @@
         "totalVotes": 3607,
         "totalSubs": 19,
         "totalChatMessages": 179,
-        "totalStreamMinutes": 5077,
+        "totalStreamMinutes": 5082,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -10416,14 +10416,14 @@
       "stats": {
         "totalVotes": 13248,
         "totalSubs": 19,
-        "totalChatMessages": 3088,
-        "totalStreamMinutes": 4911,
+        "totalChatMessages": 3100,
+        "totalStreamMinutes": 4916,
         "emotes": {
-          "❤": 66,
-          "🙌": 45,
+          "❤": 72,
+          "🙌": 48,
           "🗳": 594,
           "🔴": 49,
-          "🎉": 81,
+          "🎉": 82,
           "🏃": 1,
           "♂": 1,
           "💨": 1,
@@ -10433,7 +10433,7 @@
           "😂": 49,
           "📴": 49,
           "👋": 61,
-          "🚨": 144,
+          "🚨": 150,
           "🔥": 49,
           "💚": 19,
           "👀": 10,
@@ -10581,48 +10581,48 @@
           "cd2d0478-cb09-4023-9a6a-750599f9623a": "CALMPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788609559801
+        "lastChatAt": 1788609922353
       },
       "chatMemory": [
         {
-          "user": "parky",
-          "msg": "Not to much just put the baby down for a nap so we have 5 mins to chill lol"
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @nastja90!"
         },
         {
-          "user": "parky",
-          "msg": "How is it spreading democracy?"
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ nastja90 just followed the channel! Welcome!! 🙌"
         },
         {
-          "user": "parky",
-          "msg": "I love the madness in this game! right up my street! we played it alot!"
+          "user": "senseibulrog",
+          "msg": "yo yo yo!"
         },
         {
-          "user": "missaria",
-          "msg": "GM! Hope you have a great day and enjoy your stream!  [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @flantality!"
         },
         {
-          "user": "parky",
-          "msg": "You need a good team with you"
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @parrott314!"
         },
         {
-          "user": "tcwarrioretp",
-          "msg": "HAPPY STREAMING"
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ flantality just followed the channel! Welcome!! 🙌"
         },
         {
-          "user": "corneto",
-          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ parrott314 just followed the channel! Welcome!! 🙌"
         },
         {
-          "user": "corneto",
-          "msg": "destroy the helies"
+          "user": "senseibulrog",
+          "msg": "we doin good, just finished a drop event on twitch for microscape and now it's time for some sleep!"
         },
         {
-          "user": "fuyu",
-          "msg": "👍 good I totally knew you were streaming"
+          "user": "nastja90",
+          "msg": "Hello everyone"
         },
         {
-          "user": "just_for_lucas",
-          "msg": "GM"
+          "user": "nastja90",
+          "msg": "I'm doing well, thanks for asking. I hope you're all doing well, too."
         }
       ],
       "customCommands": {},
@@ -10966,19 +10966,19 @@
       "joinedAt": 1785231455893,
       "stats": {
         "totalVotes": 4345,
-        "totalSubs": 51,
-        "totalChatMessages": 849,
-        "totalStreamMinutes": 2365,
+        "totalSubs": 52,
+        "totalChatMessages": 850,
+        "totalStreamMinutes": 2370,
         "emotes": {
           "❤": 81,
-          "🙌": 76,
+          "🙌": 77,
           "💚": 3,
           "🔥": 76,
           "🔴": 21,
           "🎉": 29,
           "💛": 5,
           "🗳": 198,
-          "🎁": 94,
+          "🎁": 96,
           "📴": 19,
           "👋": 22,
           "💖": 1,
@@ -11098,17 +11098,13 @@
           "☀": "☀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788609573084,
+        "lastChatAt": 1788609899456,
         "lastSendFailAt": 1787523928127,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1787537093444,
         "recoveredFrom": 3
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "tara na"
-        },
         {
           "user": "fartvader",
           "msg": "haha hardcore yan ah"
@@ -11144,6 +11140,10 @@
         {
           "user": "just_for_lucas",
           "msg": "GM"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @missaria just gifted a sub to @GrizzlyA008! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -14639,8 +14639,8 @@
     }
   },
   "auth": {
-    "accessToken": "051c8addeda25e44fa6a4ac709c77677",
-    "refreshToken": "70595f8e766d4701b63d3d03ad3ff0c5",
+    "accessToken": "18ceea29a7f24fba650a469311a658f1",
+    "refreshToken": "6444fecefe1eefaae1e21243efdfb151",
     "sessionToken": "b0d23bd88b386f4749e5194908d48d61",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
