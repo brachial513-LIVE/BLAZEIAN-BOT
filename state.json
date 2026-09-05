@@ -1490,7 +1490,7 @@
         "totalVotes": 14782,
         "totalSubs": 142,
         "totalChatMessages": 8752,
-        "totalStreamMinutes": 22744,
+        "totalStreamMinutes": 22749,
         "emotes": {
           "📊": 3,
           "🔥": 456,
@@ -2035,7 +2035,7 @@
         "totalVotes": 6584,
         "totalSubs": 19,
         "totalChatMessages": 6250,
-        "totalStreamMinutes": 6329,
+        "totalStreamMinutes": 6334,
         "emotes": {
           "🗳": 416,
           "🤣": 60,
@@ -3756,7 +3756,7 @@
         "totalVotes": 7378,
         "totalSubs": 33,
         "totalChatMessages": 1440,
-        "totalStreamMinutes": 7262,
+        "totalStreamMinutes": 7267,
         "emotes": {
           "✨": 30,
           "🖥": 21,
@@ -5218,7 +5218,7 @@
         "totalVotes": 6773,
         "totalSubs": 69,
         "totalChatMessages": 573,
-        "totalStreamMinutes": 14029,
+        "totalStreamMinutes": 14034,
         "emotes": {
           "❤": 101,
           "🙌": 35,
@@ -7999,7 +7999,7 @@
         "totalVotes": 7012,
         "totalSubs": 38,
         "totalChatMessages": 1857,
-        "totalStreamMinutes": 3287,
+        "totalStreamMinutes": 3292,
         "emotes": {
           "❤": 133,
           "🙌": 102,
@@ -8490,7 +8490,7 @@
         "totalVotes": 16535,
         "totalSubs": 11,
         "totalChatMessages": 991,
-        "totalStreamMinutes": 1233,
+        "totalStreamMinutes": 1238,
         "emotes": {
           "❤": 17,
           "🙌": 25,
@@ -9846,7 +9846,7 @@
         "totalVotes": 9543,
         "totalSubs": 0,
         "totalChatMessages": 10837,
-        "totalStreamMinutes": 10149,
+        "totalStreamMinutes": 10154,
         "emotes": {
           "❤": 33,
           "🙌": 23,
@@ -13077,18 +13077,18 @@
       "stats": {
         "totalVotes": 2565,
         "totalSubs": 2,
-        "totalChatMessages": 114,
-        "totalStreamMinutes": 230,
+        "totalChatMessages": 115,
+        "totalStreamMinutes": 235,
         "emotes": {
           "🥰": 8,
           "❤": 9,
           "🙏": 10,
           "🦡": 3,
-          "😍": 3,
+          "😍": 4,
           "😊": 1,
           "😂": 2,
           "🫣": 1,
-          "🔥": 8,
+          "🔥": 9,
           "da339ef7-1574-4f2f-8b48-666688167af3": 3,
           "a859cc12-453a-4bd8-b650-38710d9486de": 5,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 4,
@@ -13122,13 +13122,9 @@
           "🙃": "🙃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788649815220
+        "lastChatAt": 1788650349939
       },
       "chatMemory": [
-        {
-          "user": "mediart",
-          "msg": "Oh, I'm tired."
-        },
         {
           "user": "mediart",
           "msg": "Briggsy🥰🔥"
@@ -13164,6 +13160,10 @@
         {
           "user": "mediart",
           "msg": "This artwork for Mindgoblin😍🔥"
+        },
+        {
+          "user": "mediart",
+          "msg": "This artwork for johngalt 😍🔥"
         }
       ],
       "customCommands": {},
@@ -14721,8 +14721,8 @@
     }
   },
   "auth": {
-    "accessToken": "1c5c63252ec408c8a21a03a52422d35c",
-    "refreshToken": "2573df8de2edc116425598d8aff74a67",
+    "accessToken": "89c863aadfcbe108524625c5ffe171ed",
+    "refreshToken": "129a04acc19c8787e6a1c64615fe8eee",
     "sessionToken": "6d35b09d8695e083fc36986d73a934d1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
