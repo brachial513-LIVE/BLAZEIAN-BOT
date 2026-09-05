@@ -2035,7 +2035,7 @@
         "totalVotes": 6584,
         "totalSubs": 19,
         "totalChatMessages": 6201,
-        "totalStreamMinutes": 6239,
+        "totalStreamMinutes": 6244,
         "emotes": {
           "🗳": 416,
           "🤣": 60,
@@ -3756,7 +3756,7 @@
         "totalVotes": 7378,
         "totalSubs": 31,
         "totalChatMessages": 1430,
-        "totalStreamMinutes": 7172,
+        "totalStreamMinutes": 7177,
         "emotes": {
           "✨": 30,
           "🖥": 21,
@@ -5455,7 +5455,7 @@
         "totalVotes": 10865,
         "totalSubs": 43,
         "totalChatMessages": 1284,
-        "totalStreamMinutes": 5030,
+        "totalStreamMinutes": 5035,
         "emotes": {
           "❤": 65,
           "🙌": 64,
@@ -7996,10 +7996,10 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 6952,
+        "totalVotes": 6962,
         "totalSubs": 37,
-        "totalChatMessages": 1811,
-        "totalStreamMinutes": 3197,
+        "totalChatMessages": 1814,
+        "totalStreamMinutes": 3202,
         "emotes": {
           "❤": 131,
           "🙌": 100,
@@ -8027,7 +8027,7 @@
           "😜": 3,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 195,
+          "🗳": 198,
           "🥷": 2,
           "💯": 4,
           "📢": 10,
@@ -8151,21 +8151,9 @@
           "⛽": "⛽"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788640801320
+        "lastChatAt": 1788644821901
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "heey"
-        },
-        {
-          "user": "time",
-          "msg": "[emote:d725f791-b459-406f-927f-e7e8443a3326]"
-        },
-        {
-          "user": "time",
-          "msg": "doing well and you"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @Grim1Angel!"
@@ -8193,6 +8181,18 @@
         {
           "user": "itssscat",
           "msg": "is that you?"
+        },
+        {
+          "user": "niruntz",
+          "msg": "Hey parky!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @NiRuntz!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @NiRuntz just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8248,7 +8248,7 @@
         "totalVotes": 17210,
         "totalSubs": 99,
         "totalChatMessages": 1874,
-        "totalStreamMinutes": 10172,
+        "totalStreamMinutes": 10177,
         "emotes": {
           "❤": 88,
           "🙌": 147,
@@ -9839,7 +9839,7 @@
         "totalVotes": 9543,
         "totalSubs": 0,
         "totalChatMessages": 10835,
-        "totalStreamMinutes": 10061,
+        "totalStreamMinutes": 10066,
         "emotes": {
           "❤": 33,
           "🙌": 23,
@@ -12677,7 +12677,7 @@
         "totalVotes": 1527,
         "totalSubs": 4,
         "totalChatMessages": 1183,
-        "totalStreamMinutes": 3541,
+        "totalStreamMinutes": 3546,
         "emotes": {
           "👋": 35,
           "⚠": 2,
@@ -14709,8 +14709,8 @@
     }
   },
   "auth": {
-    "accessToken": "5a8d87985997d07b2d8ac3d0c37cb09d",
-    "refreshToken": "e989af525c63d7803b63d22b2901bdcb",
+    "accessToken": "f8fd94f32b1477dfa22940523de5dec4",
+    "refreshToken": "11ca928e06cd115c5899cb2b1088f731",
     "sessionToken": "6d35b09d8695e083fc36986d73a934d1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
