@@ -1504,7 +1504,7 @@
         "totalVotes": 20740,
         "totalSubs": 156,
         "totalChatMessages": 9671,
-        "totalStreamMinutes": 23494,
+        "totalStreamMinutes": 23497,
         "emotes": {
           "📊": 3,
           "🔥": 472,
@@ -2370,7 +2370,7 @@
         "totalVotes": 13820,
         "totalSubs": 54,
         "totalChatMessages": 5510,
-        "totalStreamMinutes": 17197,
+        "totalStreamMinutes": 17199,
         "emotes": {
           "❤": 192,
           "🙌": 134,
@@ -3798,7 +3798,7 @@
         "totalVotes": 7989,
         "totalSubs": 34,
         "totalChatMessages": 1484,
-        "totalStreamMinutes": 7512,
+        "totalStreamMinutes": 7514,
         "emotes": {
           "✨": 31,
           "🖥": 21,
@@ -6497,7 +6497,7 @@
         "totalVotes": 7980,
         "totalSubs": 32,
         "totalChatMessages": 429,
-        "totalStreamMinutes": 6238,
+        "totalStreamMinutes": 6241,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -6633,7 +6633,7 @@
         "totalVotes": 13484,
         "totalSubs": 47,
         "totalChatMessages": 11810,
-        "totalStreamMinutes": 7807,
+        "totalStreamMinutes": 7809,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -9950,7 +9950,7 @@
         "totalVotes": 9773,
         "totalSubs": 0,
         "totalChatMessages": 10846,
-        "totalStreamMinutes": 10620,
+        "totalStreamMinutes": 10622,
         "emotes": {
           "❤": 33,
           "🙌": 23,
@@ -12881,16 +12881,16 @@
       "stats": {
         "totalVotes": 1864,
         "totalSubs": 4,
-        "totalChatMessages": 1425,
-        "totalStreamMinutes": 4274,
+        "totalChatMessages": 1427,
+        "totalStreamMinutes": 4275,
         "emotes": {
-          "👋": 39,
+          "👋": 40,
           "⚠": 2,
           "🎯": 2,
           "🗳": 124,
           "🔴": 38,
           "🎉": 48,
-          "📴": 37,
+          "📴": 38,
           "🎡": 3,
           "®": 3,
           "📢": 9,
@@ -13016,17 +13016,9 @@
           "15f31366-b980-4582-836d-2954d5b450e5": "blazeheart"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788814768024
+        "lastChatAt": 1788814926950
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/5d0307909277ac6b2742df2981c33ebad6d413af1512d36d59f06da67e333f56"
-        },
-        {
-          "user": "onyxouroboros",
-          "msg": "more mystery fish caught this time"
-        },
         {
           "user": "scurvybot",
           "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/40f3cc379b653f63cabb8173c09d6282899b2a8aa6107f5b45878bc18711b685"
@@ -13058,6 +13050,14 @@
         {
           "user": "onyxouroboros",
           "msg": "catching fish with trash, nice"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -13072,9 +13072,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "Watcher of realms se campaign 🔥 292nd Blaze Stream🔥 — Faded Monsuta",
-      "lastStreamInfo": "This is🔥 292nd Blaze Stream🔥 — Rocket League",
-      "lastStreamEndedAt": 1788745396243,
+      "streamTitle": "",
+      "lastStreamInfo": "Watcher of realms se campaign 🔥 292nd Blaze Stream🔥 — Faded Monsuta",
+      "lastStreamEndedAt": 1788814921738,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” keep the vibe high‑energy, urge more stream hours to stay Verified, and shout “Something.”",
@@ -13301,6 +13301,18 @@
           "months": 1,
           "tier": 1
         }
+      },
+      "raidConfig": {
+        "gif": "https://static.klipy.com/ii/71b2873e478b9d8d0482ea3ec777ba7f/66/e2/OzS5TWya.gif",
+        "audio": "",
+        "audioCredit": "",
+        "label": "RAID",
+        "text": "{raider} has raided your Channel with {count} Awesome People !",
+        "dur": 8,
+        "scale": 1,
+        "box": true,
+        "sound": true,
+        "confetti": true
       }
     },
     "66bd7dbc-2455-49cc-bc1c-bd921b9f5cee": {
