@@ -5,8 +5,8 @@
       "stats": {
         "totalVotes": 8775,
         "totalSubs": 43,
-        "totalChatMessages": 2424,
-        "totalStreamMinutes": 2655,
+        "totalChatMessages": 2425,
+        "totalStreamMinutes": 2662,
         "emotes": {
           "❤": 99,
           "🙌": 51,
@@ -121,7 +121,7 @@
           "17393f75-de54-4648-85fb-5c6ce0d197ad": 1,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 1,
           "8a356bf2-0026-4ad0-86ab-c3247b88b55e": 11,
-          "313c7f2b-bd01-43a3-afba-a6e30e7bdeb0": 12,
+          "313c7f2b-bd01-43a3-afba-a6e30e7bdeb0": 13,
           "68cc98ff-352d-445d-8fa7-a76ffada7706": 13,
           "e0b2eaea-0c65-4d63-91df-a1e895c7dd1c": 5,
           "ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca": 22,
@@ -314,13 +314,9 @@
           "81099d3b-6c70-44e1-983e-eafbd96ff062": "pet_K1ngbre4ker"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788771960900
+        "lastChatAt": 1788772874738
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "haha, cool"
-        },
         {
           "user": "der_bruder",
           "msg": "🤣🤣"
@@ -356,6 +352,10 @@
         {
           "user": "der_bruder",
           "msg": "[emote:ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca] [emote:ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca] [emote:ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca]"
+        },
+        {
+          "user": "der_bruder",
+          "msg": "Gg[emote:313c7f2b-bd01-43a3-afba-a6e30e7bdeb0]"
         }
       ],
       "language": "en",
@@ -384,19 +384,19 @@
           "text": "💚➡️Come Join my German / International Community - the GMC ( Geile Menschen Community = Awesome People Community 💚👀 ) : https://discord.gg/3Bh3eMDVJX",
           "intervalMin": 15,
           "onlyLive": true,
-          "lastSent": 1788771772655
+          "lastSent": 1788772672656
         },
         {
           "text": "🦊➡️Come Join the official first International Partner of the GMC - THE \"Fox Spirits\" : https://discord.gg/rvhjdN5Y3A 👀🔥",
           "intervalMin": 20,
           "onlyLive": true,
-          "lastSent": 1788771772655
+          "lastSent": 1788772972658
         },
         {
           "text": "➡️I am Live in \"OFF THE GRID\" / \"ARC RAIDERS\" Game or any other Game ?🔴and you want to see me suffer ? 😶‍🌫️ 🔥💚Gift a Sub and choose what i need to do for the next 2 Lobbies ! 🫡😂 ( ofc you enter the Weekly Giveaway then too 🥵😊 )",
           "intervalMin": 45,
           "onlyLive": true,
-          "lastSent": 1788769972615
+          "lastSent": 1788772672656
         },
         {
           "text": "GM💚 🟧NEW EPOCH 🟧NEW HAPPINESS 🟧NEW LOVE FOR THE COMMUNITY🟧 ➡️which also means a new giveaway, that will grow weekly THANKS TO YOU!✅ We started (Epoch #13) a 50-vote giveaway-proceeds from each Epoch will go towards BSP, which in turn will fund the next giveaway, and so on! 🎉 Weekly Giveaway every Sunday! Good Luck You Awesome People and Thank you so much everyone ! 💚🔥",
@@ -13953,14 +13953,26 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 2,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1788772840757
       },
-      "chatMemory": [],
-      "customCommands": {},
+      "chatMemory": [
+        {
+          "user": "yodaddyz_gaming",
+          "msg": "test"
+        },
+        {
+          "user": "yodaddyz_gaming",
+          "msg": "testing"
+        }
+      ],
+      "customCommands": {
+        "gt": "yodaddyz gaming"
+      },
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
