@@ -5,8 +5,8 @@
       "stats": {
         "totalVotes": 8775,
         "totalSubs": 43,
-        "totalChatMessages": 2423,
-        "totalStreamMinutes": 2643,
+        "totalChatMessages": 2424,
+        "totalStreamMinutes": 2653,
         "emotes": {
           "❤": 99,
           "🙌": 51,
@@ -124,7 +124,7 @@
           "313c7f2b-bd01-43a3-afba-a6e30e7bdeb0": 12,
           "68cc98ff-352d-445d-8fa7-a76ffada7706": 13,
           "e0b2eaea-0c65-4d63-91df-a1e895c7dd1c": 5,
-          "ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca": 19,
+          "ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca": 22,
           "8aed3bff-a40e-42d9-9b4b-7c6854c79dca": 3,
           "5387dd9d-acee-4c3c-9928-49cc5e7cb020": 3,
           "adff968b-a3ab-4efd-b780-1a30d4ce7666": 2,
@@ -314,13 +314,9 @@
           "81099d3b-6c70-44e1-983e-eafbd96ff062": "pet_K1ngbre4ker"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788771427331
+        "lastChatAt": 1788771960900
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "[emote:14e256de-8295-4e9f-982d-1da169dd622f]"
-        },
         {
           "user": "briggsy",
           "msg": "haha, cool"
@@ -356,6 +352,10 @@
         {
           "user": "der_bruder",
           "msg": "[emote:b0b14ac6-3f27-46b9-9f4d-5e53b3853691] [emote:b0b14ac6-3f27-46b9-9f4d-5e53b3853691] [emote:b0b14ac6-3f27-46b9-9f4d-5e53b3853691]"
+        },
+        {
+          "user": "der_bruder",
+          "msg": "[emote:ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca] [emote:ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca] [emote:ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca]"
         }
       ],
       "language": "en",
@@ -648,12 +648,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 66940,
+        "totalVotes": 67440,
         "totalSubs": 106,
-        "totalChatMessages": 8389,
+        "totalChatMessages": 8390,
         "totalStreamMinutes": 2634,
         "emotes": {
-          "🗳": 1377,
+          "🗳": 1380,
           "❤": 522,
           "🙌": 210,
           "🔥": 220,
@@ -985,17 +985,13 @@
           "🐝": "🐝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788767713753,
+        "lastChatAt": 1788772110252,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 25 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 250 vote(s) (total: 250)! Thank you!! 🗳️"
@@ -1031,6 +1027,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @infamousex just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @yamall9 just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -13945,6 +13945,29 @@
       "lastStreamInfo": "MOBILE- WORDLE AND SUBWAY SURFER LAST DAY OF VOTING — IRL",
       "lastStreamEndedAt": 1788767144860,
       "gameOverride": ""
+    },
+    "e33eb8b0-26e1-4601-b34e-23905dfef274": {
+      "username": "yodaddyz_gaming",
+      "language": "en",
+      "joinedAt": 1788772555582,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "commandMedia": {},
+      "timedMessages": [],
+      "tipTiers": [],
+      "greeted": true
     }
   },
   "blocklist": [
@@ -14762,9 +14785,9 @@
       "n": 5
     },
     "venessa2": {
-      "note": "Energetic livestream fan who cheers music with enthusiastic emojis, friendly greetings, upbeat support, and loves celebrating moments with lots of hearts and fire emojis.",
-      "at": 1788666347920,
-      "n": 8
+      "note": "Energetic livestream fan who cheers music with enthusiastic hearts and fire emojis, friendly greetings, and upbeat support for every moment.",
+      "at": 1788771947869,
+      "n": 9
     },
     "smellynelly71": {
       "note": "Enjoys Minecraft, Linux, weather science, and jokingly talks about zombies, GTA, Sims, Skyrim, and learning Valorant.",
