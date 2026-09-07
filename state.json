@@ -1499,11 +1499,11 @@
       "stats": {
         "totalVotes": 19066,
         "totalSubs": 152,
-        "totalChatMessages": 9348,
+        "totalChatMessages": 9352,
         "totalStreamMinutes": 23197,
         "emotes": {
           "📊": 3,
-          "🔥": 466,
+          "🔥": 469,
           "🤣": 122,
           "💚": 47,
           "❤": 15,
@@ -1681,7 +1681,7 @@
           "70b1737e-7945-4743-bbc1-882e1228fab0": 3,
           "20a29d22-5535-494c-8a0a-dbdace2f4d3f": 20,
           "22a2df8d-1151-4c75-954e-30c7527dbf40": 17,
-          "af42e4d4-d26a-4320-b2f6-d49836809481": 11,
+          "af42e4d4-d26a-4320-b2f6-d49836809481": 12,
           "d86d3a9f-5ae8-439b-abe6-716bc3c4ce0c": 5,
           "f3467606-71eb-4f39-a82b-fb7761acebaa": 4,
           "2c730e4b-9ee3-4a88-ba72-1ed5264694bd": 2,
@@ -1696,7 +1696,7 @@
           "dbdba315-77e4-4b06-8e69-d67571b1ace1": 3,
           "b416995d-3eee-4c99-9927-86fa112b0b18": 1,
           "a410bada-e5ce-46df-992e-30b0b15cf068": 7,
-          "51c39a48-0687-42cc-883e-0b791e619467": 4,
+          "51c39a48-0687-42cc-883e-0b791e619467": 5,
           "cfcc6462-a912-4c82-ae91-adeec5dd02ea": 2,
           "70f64626-0432-4a47-9d38-6641189de9c6": 7,
           "7898bf49-ecbd-427c-923f-fba5ad23a9fc": 10,
@@ -1711,7 +1711,7 @@
           "🍬": 3,
           "5eee7565-0474-4ac1-88dc-89180ce21325": 1,
           "😴": 1,
-          "16a3e670-dc91-4b4a-a7cf-a6ce361e66a2": 5,
+          "16a3e670-dc91-4b4a-a7cf-a6ce361e66a2": 6,
           "b05156cf-7925-4298-8e19-f29e294cc793": 1,
           "c96a6fe5-1123-404c-8768-789f05af7690": 2,
           "23b84aa5-3ac2-4d27-a76d-bbce48c6bea3": 3,
@@ -1976,25 +1976,9 @@
           "782879ae-badc-43e4-b73a-b08e1c880e40": "PYROMODE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788746893617
+        "lastChatAt": 1788755744936
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Yes haha"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "@dofferlive received 1000 FoxCoins! New balance: 1000 FoxCoins."
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Thanks for playing 🤣"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:5ba97ddb-ee75-44d4-aade-9bcb444fda7a]"
-        },
         {
           "user": "foxbotai",
           "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
@@ -2018,6 +2002,22 @@
         {
           "user": "dofferlive",
           "msg": "gonna have more this week coming for people subcrible"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:51c39a48-0687-42cc-883e-0b791e619467]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:af42e4d4-d26a-4320-b2f6-d49836809481]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:16a3e670-dc91-4b4a-a7cf-a6ce361e66a2]"
         }
       ],
       "customCommands": {},
@@ -5262,7 +5262,7 @@
         "totalVotes": 6855,
         "totalSubs": 69,
         "totalChatMessages": 581,
-        "totalStreamMinutes": 14486,
+        "totalStreamMinutes": 14491,
         "emotes": {
           "❤": 103,
           "🙌": 36,
@@ -8790,7 +8790,7 @@
         "totalVotes": 3840,
         "totalSubs": 19,
         "totalChatMessages": 190,
-        "totalStreamMinutes": 5320,
+        "totalStreamMinutes": 5325,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -12820,7 +12820,7 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 1758,
+        "totalVotes": 1858,
         "totalSubs": 4,
         "totalChatMessages": 1336,
         "totalStreamMinutes": 4128,
@@ -14906,8 +14906,8 @@
     }
   },
   "auth": {
-    "accessToken": "e16d08932d2a4b6e43a2c6e2c4d1db7f",
-    "refreshToken": "54977c002924238fe4767f6020bf1453",
+    "accessToken": "158b952b03a1a1d0c641d6bb4ab472b7",
+    "refreshToken": "c1af0d6e66c70ba34e56bd7bd63a8766",
     "sessionToken": "4c22b812dc8fe23c236d71f42dd9c70b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
