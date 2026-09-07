@@ -13275,7 +13275,8 @@
         }
       ],
       "customCommands": {
-        "nt": "Nice Try bro"
+        "nt": "Nice Try bro",
+        "vote": "This is love, this what I'm talkin' about. Appreciate you {name}"
       },
       "streamStart": "{name} is LIVE NOW ! 🚨🚨🚨",
       "streamEnd": "",
@@ -13312,6 +13313,14 @@
         "box": false,
         "sound": true,
         "confetti": true
+      },
+      "commandMedia": {
+        "vote": {
+          "sound": "https://blazeian-bot.onrender.com/cmdmedia/8f114ea6-29e2-4213-99b4-3357cfbe1885/vote-sound.mp3?v=1788816824300",
+          "media": "",
+          "text": "{name} Voted ! 🎉",
+          "dur": 0
+        }
       }
     },
     "66bd7dbc-2455-49cc-bc1c-bd921b9f5cee": {
@@ -15150,7 +15159,7 @@
   "auth": {
     "accessToken": "7a2baa9ecab05b7c4263b65e128d0802",
     "refreshToken": "bf04a3247b00629e66d4f31e103ee878",
-    "sessionToken": "7de221fc07ee522db9cdb74c3c0eacb5",
+    "sessionToken": "d496df29ed4558ab24fd5138196c4c4b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
