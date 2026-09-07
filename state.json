@@ -1500,7 +1500,7 @@
         "totalVotes": 16066,
         "totalSubs": 152,
         "totalChatMessages": 9341,
-        "totalStreamMinutes": 23190,
+        "totalStreamMinutes": 23195,
         "emotes": {
           "📊": 3,
           "🔥": 466,
@@ -3175,7 +3175,7 @@
       "followed": true,
       "streamTitle": "",
       "profile": "Unclefunk’s channel is a funky crew that “earn courage” by watching and playing OSP‑related streams. The chat shouts “💜” and “❤️❤️❤️”, hyping “stream is now live!” and “stream is now offline!” They love “connect your OSP account” for extra courage, and the game “Only Believe” fuels daily hype. The community thrives on shared faith, fasting, and epic song drops.",
-      "_profileAtCount": 10199,
+      "_profileAtCount": 10436,
       "loyalty": {
         "midnitecatzlady": {
           "name": "midnitecatzlady",
@@ -3296,14 +3296,14 @@
       "stats": {
         "totalVotes": 10225,
         "totalSubs": 57,
-        "totalChatMessages": 2752,
-        "totalStreamMinutes": 12925,
+        "totalChatMessages": 2756,
+        "totalStreamMinutes": 12928,
         "emotes": {
           "😊": 5,
           "🌵": 87,
           "🔥": 311,
           "🤪": 1,
-          "👋": 60,
+          "👋": 61,
           "👍": 24,
           "🥰": 4,
           "💜": 1,
@@ -3405,10 +3405,10 @@
           "🫶": 3,
           "🙌": 31,
           "🗳": 111,
-          "📴": 19,
+          "📴": 20,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 61,
-          "🔴": 19,
-          "🎉": 23,
+          "🔴": 20,
+          "🎉": 24,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 30,
           "a859cc12-453a-4bd8-b650-38710d9486de": 6,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 4,
@@ -3573,25 +3573,9 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788739251110
+        "lastChatAt": 1788739364642
       },
       "chatMemory": [
-        {
-          "user": "dooky_creek",
-          "msg": "What's uppp"
-        },
-        {
-          "user": "cactus_jack440",
-          "msg": "Howdy Dooky"
-        },
-        {
-          "user": "midnight_driv3r",
-          "msg": "howdy dooky"
-        },
-        {
-          "user": "dooky_creek",
-          "msg": "Hey guys how ya all doing tonight"
-        },
         {
           "user": "dooky_creek",
           "msg": "I been nerding out today I bought some smart outlet things and they tell me how much electricity it uses"
@@ -3615,6 +3599,22 @@
         {
           "user": "surrya",
           "msg": "Bye for now!! Love ya!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 capt_rob_advent is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "midnight_driv3r",
+          "msg": "WB"
+        },
+        {
+          "user": "midnight_driv3r",
+          "msg": "fueling ships in SE texas"
         }
       ],
       "customCommands": {},
@@ -3658,7 +3658,7 @@
       "nudgedAt": 1785066991188,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fueling Ships in South East Texas — IRL",
-      "lastStreamEndedAt": 1788736424592
+      "lastStreamEndedAt": 1788739253966
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -5260,7 +5260,7 @@
         "totalVotes": 6805,
         "totalSubs": 69,
         "totalChatMessages": 577,
-        "totalStreamMinutes": 14218,
+        "totalStreamMinutes": 14223,
         "emotes": {
           "❤": 101,
           "🙌": 35,
@@ -12811,7 +12811,7 @@
         "totalVotes": 1604,
         "totalSubs": 4,
         "totalChatMessages": 1288,
-        "totalStreamMinutes": 4026,
+        "totalStreamMinutes": 4031,
         "emotes": {
           "👋": 38,
           "⚠": 2,
@@ -14892,8 +14892,8 @@
     }
   },
   "auth": {
-    "accessToken": "d70ec31bb8719ce00356cb613b6b68af",
-    "refreshToken": "3bb27396071834e6ea2146f7519a538a",
+    "accessToken": "28e59b3e9cfdeaba2d7ab228d260b74d",
+    "refreshToken": "cb72b9faa99f1d5adeeef07f7e4358c2",
     "sessionToken": "4c22b812dc8fe23c236d71f42dd9c70b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
