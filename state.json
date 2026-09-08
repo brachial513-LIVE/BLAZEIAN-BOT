@@ -2488,8 +2488,8 @@
       "language": "en",
       "stats": {
         "totalVotes": 13948,
-        "totalSubs": 54,
-        "totalChatMessages": 5514,
+        "totalSubs": 55,
+        "totalChatMessages": 5515,
         "totalStreamMinutes": 17207,
         "emotes": {
           "❤": 192,
@@ -2757,14 +2757,10 @@
           "😬": "😬",
           "😥": "😥"
         },
-        "lastChatAt": 1788824335365,
+        "lastChatAt": 1788908273474,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
         {
           "user": "triz_draw",
           "msg": "🤗🤗🤗🤗🤗🤗🤗🤗"
@@ -2800,6 +2796,10 @@
         {
           "user": "slothsm",
           "msg": "^^"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "Zani?"
         }
       ],
       "customCommands": {
@@ -2857,6 +2857,11 @@
         },
         "bradgames": {
           "name": "bradgames",
+          "months": 1,
+          "tier": 1
+        },
+        "zsoltech": {
+          "name": "zsoltech",
           "months": 1,
           "tier": 1
         }
@@ -5425,7 +5430,7 @@
         "totalVotes": 6913,
         "totalSubs": 69,
         "totalChatMessages": 597,
-        "totalStreamMinutes": 14823,
+        "totalStreamMinutes": 14828,
         "emotes": {
           "❤": 103,
           "🙌": 36,
@@ -6659,7 +6664,7 @@
         "totalVotes": 7985,
         "totalSubs": 32,
         "totalChatMessages": 490,
-        "totalStreamMinutes": 6355,
+        "totalStreamMinutes": 6360,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -7636,8 +7641,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
       "streamTitle": "",
       "gameOverride": "",
-      "profile": "saboomafoo streams energetic League of Legends and MapleStory collabs, pumping “FOXSPIRITS” vibes. Chat loves “have a nice stream”, “GM GM GUYS”, “NEKOOOOOOOOOO”, “hellow”, “❤️❤️❤️❤️❤️”, and playful “😅😅”. The community celebrates with quick shoutouts, a warm “ty” response, and constant upbeat greetings. The channel thrives on friendly, energetic banter and constant positivity.",
-      "_profileAtCount": 213,
+      "profile": "saboomafoo streams energetic League of Legends & MapleStory collabs, pumping “FOXSPIRITS” vibes. Chat loves “have a nice stream”, “GM GM GUYS”, “NEKOOOOOOOOOO”, “hellow”, “❤️❤️❤️❤️❤️”, and playful “😅😅”. Community celebrates with quick shoutouts, a warm “ty” response, constant upbeat greetings, and constant positivity. The channel thrives on friendly, energetic banter and constant positivity.",
+      "_profileAtCount": 265,
       "lastStreamInfo": "FOXSPIRITS |MapleStory — Crypto",
       "lastStreamEndedAt": 1788904880518,
       "nudgedAt": 1788061544722,
@@ -10316,7 +10321,7 @@
         "totalVotes": 9881,
         "totalSubs": 0,
         "totalChatMessages": 10848,
-        "totalStreamMinutes": 10641,
+        "totalStreamMinutes": 10646,
         "emotes": {
           "❤": 33,
           "🙌": 23,
@@ -14693,7 +14698,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 7,
-        "totalStreamMinutes": 138,
+        "totalStreamMinutes": 143,
         "emotes": {},
         "emoteNames": {},
         "sendFailStreak": 0,
@@ -14784,7 +14789,7 @@
         "totalVotes": 3,
         "totalSubs": 0,
         "totalChatMessages": 1,
-        "totalStreamMinutes": 88,
+        "totalStreamMinutes": 93,
         "emotes": {},
         "emoteNames": {},
         "sendFailStreak": 0,
@@ -15858,8 +15863,8 @@
     }
   },
   "auth": {
-    "accessToken": "ec2b4fd4011e447e73c591ecbe9fd5b0",
-    "refreshToken": "78f3e9566428657ac40dae7ad2449b5b",
+    "accessToken": "a18315022580107072eb11ac1f2a62f9",
+    "refreshToken": "a38defe01b00fc656077ca73f07c09a1",
     "sessionToken": "7f2d7a73be69d2a1188ae28417756634",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
