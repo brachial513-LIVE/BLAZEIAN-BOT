@@ -915,24 +915,28 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
   //   • channel.raid / stream.online / stream.offline → APP token, condition { channelId } only.
   //   • channel.follow / vote / subscribe / subscription.gift / tip → "Only user access tokens are
   //     allowed": USER token, condition { channelId } (NO userId, or it 409s).
-  // These two groups now live on TWO SEPARATE SOCKET SESSIONS so one can never take the other down:
-  //   • app-token group  → global.SESSION_ID     (main socket, connectSocket())
-  //   • user-token group → global.USER_SESSION_ID (second socket, connectUserSocket())
+  // These groups live on SEPARATE SOCKET SESSIONS so one can never take the other down:
+  //   • app-token group  → global.SESSION_ID (main socket, connectSocket())
+  //   • user-token group → sharded across up to 3 user sessions (connectAllUserSessions()), each with
+  //     its own 400-room budget; shardIdx(channelId) picks this channel's session.
   const isUserTokenType = USER_TOKEN_TYPES.includes(type);
 
   if (isUserTokenType) {
-    // GUARD: wait briefly for the user socket's own session handshake.
-    if (!global.USER_SESSION_ID) {
+    // Route to the user session this channel is sharded onto (its own 400-room budget).
+    const sIdx = shardIdx(channelId);
+    const sess = userSessions[sIdx];
+    // GUARD: wait briefly for THIS channel's user session handshake.
+    if (!sess || !sess.sessionId) {
       if (sessWait < 10) { await sleep(500); return subscribe(type, channelId, attempt, sessWait + 1); }
-      console.log(`Subscribe skipped (${type} on ${channelId}): no user-socket session yet`);
+      console.log(`Subscribe skipped (${type} on ${channelId}): user session #${sIdx} not ready`);
       return false;
     }
     if (!ACCESS_TOKEN) { console.log(`Subscribe skipped (${type} on ${channelId}): no user ACCESS_TOKEN`); return false; }
     const condition = { channelId };
-    const body = { type, version: "1", sessionId: global.USER_SESSION_ID, condition };
+    const body = { type, version: "1", sessionId: sess.sessionId, condition };
     try {
       await axios.post(`${API}/v1/events/subscriptions`, body, { headers: headers() });
-      console.log(`Subscribed (user-token): ${type} on ${channelId}`);
+      console.log(`Subscribed (user-token #${sIdx}): ${type} on ${channelId}`);
       return true;
     } catch (e) {
       const status = e.response?.status;
@@ -2294,63 +2298,108 @@ const ALL_EVENT_TYPES = [
 // app-token socket session used to trigger AUTH_CONTEXT_MISMATCH (409) and kill the WHOLE
 // session, deafening chat.message too. So they get their own fully separate socket/session —
 // if this one dies, chat.message on the main socket keeps working untouched.
-let userSocket = null;
-let userReconnectTimer = null;
-let _userConnecting = false;
-let _userReconnectDelay = 3000;
+// ── USER-TOKEN SOCKET SESSIONS (SHARDED) ─────────────────────────────────────────────────────
+// Blaze caps each socket session at 400 subscription "rooms" (dev.blaze.stream/docs/events/limits)
+// and allows up to 3 user-authenticated sessions per user+app. Each channel needs 5 user-token rooms
+// (follow/vote/subscribe/gift/thanks) → ONE session tops out at ~80 channels (the ROOM_LIMIT 429s in
+// the logs). We shard channels across up to 3 sessions → ~240 channels, ALL always-on (offline too).
+// Degrades safely: if the extra sessions never come up, session #0 still carries its share exactly
+// like the old single socket did — the bot is never deafer than before.
+const MAX_USER_SESSIONS = 3;
+const CHANNELS_PER_USER_SESSION = 75; // 75×5 = 375 rooms — headroom under the 400 cap
+const userSessions = []; // idx -> { idx, socket, sessionId, connecting, timer, delay }
+let userShard = {};       // channelId -> session idx
 
-function connectUserSocket() {
-  if (!ACCESS_TOKEN) { console.log("connectUserSocket skipped — no ACCESS_TOKEN yet"); return; }
-  if (_userConnecting) { console.log("connectUserSocket skipped — already connecting"); return; }
-  _userConnecting = true;
-  if (userReconnectTimer) { clearTimeout(userReconnectTimer); userReconnectTimer = null; }
-  if (userSocket) { try { userSocket.removeAllListeners(); userSocket.disconnect(); } catch(_) {} userSocket = null; }
-  userSocket = io("https://blaze.stream", { path: "/ws", transports: ["websocket"], reconnection: false });
-  userSocket.on("connect", () => { console.log("User socket connected"); _userConnecting = false; _userReconnectDelay = 3000; });
-  userSocket.on("connect_error", err => {
-    console.log("User socket error:", err.message);
-    _userConnecting = false;
-    if (!userReconnectTimer) userReconnectTimer = setTimeout(connectUserSocket, _userReconnectDelay = Math.min(_userReconnectDelay * 1.5, 60000));
+function userSessionCount() {
+  const n = Object.keys(channels).length;
+  return Math.min(MAX_USER_SESSIONS, Math.max(1, Math.ceil(n / CHANNELS_PER_USER_SESSION)));
+}
+// Deterministic, balanced channel→session map (sorted chunks). Rebuilt at the start of each pass.
+function rebuildUserShard() {
+  const ids = Object.keys(channels).sort();
+  const map = {};
+  ids.forEach((id, i) => { map[id] = Math.min(MAX_USER_SESSIONS - 1, Math.floor(i / CHANNELS_PER_USER_SESSION)); });
+  userShard = map;
+}
+// Session index for a channel. Uses the current map; for a channel that joined since the last full
+// pass, computes the SAME deterministic sorted-chunk slot a rebuild would give it (so it never ends
+// up double-subscribed across two sessions at a shard boundary).
+function shardIdx(channelId) {
+  if (userShard[channelId] != null) return userShard[channelId];
+  const ids = Object.keys(channels).sort();
+  const i = ids.indexOf(channelId);
+  const idx = i < 0 ? 0 : Math.min(MAX_USER_SESSIONS - 1, Math.floor(i / CHANNELS_PER_USER_SESSION));
+  userShard[channelId] = idx;
+  return idx;
+}
+function anyUserSessionUp() { return userSessions.some(s => s && s.socket && !s.socket.disconnected); }
+
+function connectUserSession(idx) {
+  if (!ACCESS_TOKEN) { console.log(`connectUserSession(${idx}) skipped — no ACCESS_TOKEN yet`); return; }
+  let s = userSessions[idx];
+  if (!s) { s = userSessions[idx] = { idx, socket: null, sessionId: null, connecting: false, timer: null, delay: 3000 }; }
+  if (s.connecting) return;
+  s.connecting = true;
+  if (s.timer) { clearTimeout(s.timer); s.timer = null; }
+  if (s.socket) { try { s.socket.removeAllListeners(); s.socket.disconnect(); } catch (_) {} s.socket = null; }
+  s.sessionId = null;
+  const sock = io("https://blaze.stream", { path: "/ws", transports: ["websocket"], reconnection: false });
+  s.socket = sock;
+  sock.on("connect", () => { console.log(`User socket #${idx} connected`); s.connecting = false; s.delay = 3000; });
+  sock.on("connect_error", err => {
+    console.log(`User socket #${idx} error:`, err.message); s.connecting = false;
+    if (!s.timer) s.timer = setTimeout(() => connectUserSession(idx), s.delay = Math.min(s.delay * 1.5, 60000));
   });
-  userSocket.on("disconnect", reason => {
-    console.log("User socket disconnected:", reason);
-    _userConnecting = false;
-    global.USER_SESSION_ID = null;
-    if (reason !== "io client disconnect" && !userReconnectTimer) {
-      userReconnectTimer = setTimeout(connectUserSocket, _userReconnectDelay = Math.min(_userReconnectDelay * 1.5, 60000));
-    }
+  sock.on("disconnect", reason => {
+    console.log(`User socket #${idx} disconnected:`, reason); s.connecting = false; s.sessionId = null;
+    if (reason !== "io client disconnect" && !s.timer) s.timer = setTimeout(() => connectUserSession(idx), s.delay = Math.min(s.delay * 1.5, 60000));
   });
-  userSocket.on("eventsub", handleUserSocketEvent);
+  sock.on("eventsub", (msg) => handleUserSocketEvent(msg, idx));
+}
+// Connect (or re-ensure) every user session the current channel count needs. Idempotent — skips ones
+// already up, spins up new ones as the bot grows, and reconnects any that dropped. Safe to call often.
+function connectAllUserSessions() {
+  if (!ACCESS_TOKEN) { console.log("connectAllUserSessions skipped — no ACCESS_TOKEN yet"); return; }
+  const need = userSessionCount();
+  for (let i = 0; i < need; i++) {
+    const s = userSessions[i];
+    if (!s || !s.socket || s.socket.disconnected) connectUserSession(i);
+  }
 }
 
 const USER_TOKEN_TYPES = ["channel.follow", "channel.vote", "channel.subscribe", "channel.subscription.gift", "channel.thanks"];
 
-// Only handles the handshake for THIS socket, then hands every real event straight to the
-// existing handleEvent() — same payload shape, same celebration/loyalty/AI logic, unchanged.
-async function handleUserSocketEvent(message) {
+// Handshake for THIS specific session (idx), then every real event goes straight to the existing
+// handleEvent() — same payload shape, same celebration/loyalty/AI logic, unchanged.
+async function handleUserSocketEvent(message, idx) {
   const { metadata, payload } = message || {};
   if (metadata && metadata.messageType === "session_welcome") {
-    global.USER_SESSION_ID = payload.sessionId;
-    console.log("USER_SESSION:", global.USER_SESSION_ID);
-    setTimeout(subscribeUserTokenEvents, 1500);
+    const s = userSessions[idx];
+    if (s) s.sessionId = payload.sessionId;
+    console.log(`USER_SESSION #${idx}:`, payload.sessionId);
+    setTimeout(() => subscribeUserSessionEvents(idx), 1500);
     return;
   }
   return handleEvent(message);
 }
 
-async function subscribeUserTokenEvents() {
-  if (!global.USER_SESSION_ID) { console.log("subscribeUserTokenEvents: no user session yet"); return; }
-  const ids = Object.keys(channels);
-  console.log(`Subscribing user-token events for ${ids.length} channel(s)…`);
-  for (const channelId of ids) {
-    if (!global.USER_SESSION_ID) { console.log("User session died mid-pass — stopping; reconnect resumes."); return; }
+// Subscribe ONLY the channels assigned to session #idx, on that session. Each session runs this on
+// its own session_welcome, so the 400-room budgets stay separate and channels spread across them.
+async function subscribeUserSessionEvents(idx) {
+  const s = userSessions[idx];
+  if (!s || !s.sessionId) { console.log(`subscribeUserSessionEvents(${idx}): session not ready`); return; }
+  rebuildUserShard();
+  const mine = Object.keys(channels).filter(id => shardIdx(id) === idx);
+  console.log(`Subscribing user-token events for ${mine.length} channel(s) on session #${idx}…`);
+  for (const channelId of mine) {
+    if (!s.sessionId) { console.log(`User session #${idx} died mid-pass — stopping; reconnect resumes.`); return; }
     for (const t of USER_TOKEN_TYPES) {
-      if (!global.USER_SESSION_ID) return;
+      if (!s.sessionId) return;
       await subscribe(t, channelId);
       await sleep(500);
     }
   }
-  console.log("✅ User-token subscribe pass complete.");
+  console.log(`✅ User-token subscribe pass complete for session #${idx}.`);
 }
 
 async function subscribeAllChannels() {
@@ -3869,10 +3918,10 @@ app.get("/callback", async (req, res) => {
       console.log("New owner token ✅ — fresh access + refresh token stored.");
       saveChannelsNow(); // persist fresh tokens to the cloud IMMEDIATELY
       connectSocket();
-      connectUserSocket(); // fresh user token → (re)start the follow/vote/sub/gift/tip socket too
+      connectAllUserSessions(); // fresh user token → (re)start the sharded follow/vote/sub/gift/tip sockets
       // Re-subscribe every channel with the fresh token so the bot recovers instantly (no restart needed).
+      // The user sessions auto-subscribe their own shard on each session_welcome, so only chat/app subs need this.
       setTimeout(() => { subscribeAllChannels().catch(e => console.log("post-login resub error:", e.message)); }, 3000);
-      setTimeout(() => { subscribeUserTokenEvents().catch(e => console.log("post-login user resub error:", e.message)); }, 3500);
       return res.send(`
         <html><body style="background:#0a150a;color:#fff;font-family:sans-serif;padding:40px;text-align:center;">
           <h1 style="color:#4ade80;">🔥 Blazeian is back online!</h1>
@@ -6375,7 +6424,7 @@ app.listen(PORT, "0.0.0.0", async () => {
     console.log("⚠️ No session token and no BOT_EMAIL/PASSWORD — bot cannot authenticate.");
   }
   connectSocket();
-  if (ACCESS_TOKEN) connectUserSocket(); // second socket for follow/vote/sub/gift/tip, only if we have a user token
+  if (ACCESS_TOKEN) connectAllUserSessions(); // sharded user-token sockets for follow/vote/sub/gift/tip
 
   // Separate Claude-powered Discord companion (see discordBot.js) — entirely optional, silently
   // skips itself if DISCORD_BOT_TOKEN/ANTHROPIC_API_KEY aren't set, never blocks the Blaze bot.
@@ -6400,7 +6449,13 @@ app.listen(PORT, "0.0.0.0", async () => {
   // Socket watchdog — both sockets are checked independently, so one dying never blocks the other's reconnect.
   setInterval(() => {
     if (!socket || socket.disconnected) { console.log("Watchdog: main socket down, reconnecting..."); connectSocket(); }
-    if (ACCESS_TOKEN && (!userSocket || userSocket.disconnected)) { console.log("Watchdog: user socket down, reconnecting..."); connectUserSocket(); }
+    if (ACCESS_TOKEN) {
+      const need = userSessionCount();
+      let down = 0;
+      for (let i = 0; i < need; i++) { const s = userSessions[i]; if (!s || !s.socket || s.socket.disconnected) down++; }
+      if (down) console.log(`Watchdog: ${down}/${need} user session(s) down, reconnecting...`);
+      connectAllUserSessions(); // reconnects any dropped session AND spins up new ones as the bot grows
+    }
   }, 5 * 60 * 1000);
 
   // Self-learning: every 8 min, refresh ONE channel's profile (round-robin, staggered to spread API calls).
