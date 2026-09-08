@@ -1142,7 +1142,7 @@
         "totalVotes": 16086,
         "totalSubs": 25,
         "totalChatMessages": 23465,
-        "totalStreamMinutes": 2184,
+        "totalStreamMinutes": 2187,
         "emotes": {
           "🔥": 1628,
           "🗳": 25,
@@ -4834,7 +4834,7 @@
         "totalVotes": 20198,
         "totalSubs": 49,
         "totalChatMessages": 5943,
-        "totalStreamMinutes": 10568,
+        "totalStreamMinutes": 10570,
         "emotes": {
           "❤": 71,
           "🙌": 161,
@@ -8350,7 +8350,7 @@
         "totalVotes": 18223,
         "totalSubs": 106,
         "totalChatMessages": 1929,
-        "totalStreamMinutes": 10580,
+        "totalStreamMinutes": 10583,
         "emotes": {
           "❤": 88,
           "🙌": 154,
@@ -12894,7 +12894,7 @@
         "totalVotes": 1864,
         "totalSubs": 4,
         "totalChatMessages": 1429,
-        "totalStreamMinutes": 4388,
+        "totalStreamMinutes": 4391,
         "emotes": {
           "👋": 40,
           "⚠": 2,
@@ -14155,13 +14155,19 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1788832045192
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -15193,10 +15199,6 @@
     "a9c4cb090b665a79621a08e423032b956d9c60a9fac10cf4": {
       "username": "jaggerjack",
       "exp": 1789385975078
-    },
-    "4f111d4003ea16816f07ab57050e74d391c3bddfeb209634": {
-      "username": "reddeadrasta",
-      "exp": 1789436842841
     }
   },
   "auth": {
