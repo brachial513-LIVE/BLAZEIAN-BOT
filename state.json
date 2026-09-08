@@ -12106,8 +12106,8 @@
       "stats": {
         "totalVotes": 7921,
         "totalSubs": 64,
-        "totalChatMessages": 3421,
-        "totalStreamMinutes": 7112,
+        "totalChatMessages": 3432,
+        "totalStreamMinutes": 7124,
         "emotes": {
           "😅": 1,
           "🔥": 186,
@@ -12140,7 +12140,7 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 17,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 10,
           "📴": 25,
-          "d021d096-f2ed-48e4-92df-af5f224e1a3f": 107,
+          "d021d096-f2ed-48e4-92df-af5f224e1a3f": 110,
           "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 67,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 17,
           "📢": 79,
@@ -12275,7 +12275,7 @@
           "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788862144158,
+        "lastChatAt": 1788862973202,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -12285,43 +12285,43 @@
       "chatMemory": [
         {
           "user": "potato_pete",
-          "msg": "i can show you a wheel if you like, i created one"
-        },
-        {
-          "user": "fartvader",
-          "msg": "yeah i was thinking the same but have to adjust the screen"
-        },
-        {
-          "user": "fartvader",
-          "msg": "i'd like to somehow like create a command for ppl to be able to join and another command to list all ppl that already joined"
-        },
-        {
-          "user": "corneto",
-          "msg": "you can maybe just use a seperate scene"
-        },
-        {
-          "user": "corneto",
-          "msg": "for now"
-        },
-        {
-          "user": "fartvader",
-          "msg": "also, my wheel should not have duplicate winners"
-        },
-        {
-          "user": "corneto",
-          "msg": "if you really want it to be up fast"
-        },
-        {
-          "user": "corneto",
-          "msg": "you want automatic delete after one win?"
-        },
-        {
-          "user": "fartvader",
-          "msg": "ok I'll try this..im going to mess with the OBS for now"
+          "msg": "yes"
         },
         {
           "user": "potato_pete",
-          "msg": "mine has a command also"
+          "msg": "if you want a sneak a peak i can show you live"
+        },
+        {
+          "user": "fartvader",
+          "msg": "oh sure pete, i would love that.."
+        },
+        {
+          "user": "potato_pete",
+          "msg": "sweet"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "whats up bro"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "eyy..just working for the votes giveaway"
+        },
+        {
+          "user": "fartvader",
+          "msg": "heya @potato_pete , i'll keep in touch with you. i'm gonna check with the blazeian bot first with brachial if its possible on what i intend to do."
+        },
+        {
+          "user": "potato_pete",
+          "msg": "right on"
+        },
+        {
+          "user": "fartvader",
+          "msg": "thank you so much pete! ..gonna end stream for now"
         }
       ],
       "customCommands": {},
@@ -12334,12 +12334,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/ec1082d4-18b9-4e76-ad37-3f807fe24197.gif",
       "followed": true,
-      "streamTitle": "Test Stream only🔥🎮 — Games + Demos",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "fartvader’s channel is a high‑energy, supportive playground where “brooo”, “eyyyyy”, “yooo welcome bros!!”, “happy gaming kuys!”, “GM GM”, and “much love ❤️❤️” echo. Fans celebrate with “follow for a follow” 🍻🔥, “WC broo!” drops, shoutouts, emotes, nonstop “gg”, raiding, 7‑days‑to‑die gameplay, and nonstop hype. The community thrives on constant hype, emote‑filled chatter, and mutual support.",
       "_profileAtCount": 3221,
-      "lastStreamInfo": "Buffy the Vampire Slayer | Chill Gaming w/ @jaggerjack🔥🎮 — Games + Demos",
-      "lastStreamEndedAt": 1788804534238,
+      "lastStreamInfo": "Test Stream only🔥🎮 — Games + Demos",
+      "lastStreamEndedAt": 1788862985780,
       "nudgedAt": 1786436806709,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -12501,7 +12501,7 @@
         "totalVotes": 1423,
         "totalSubs": 11,
         "totalChatMessages": 491,
-        "totalStreamMinutes": 3273,
+        "totalStreamMinutes": 3288,
         "emotes": {
           "❤": 24,
           "🙌": 16,
@@ -14248,7 +14248,8 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8d25b2fc-f364-4336-bf1d-ead90c28a3bc-profile_image-300x300.png"
     }
   },
   "blocklist": [
@@ -15289,8 +15290,8 @@
     }
   },
   "auth": {
-    "accessToken": "7333014100d75302238dc6bb6b4990d5",
-    "refreshToken": "53f9c1c3e840cf6de680ec7293e7e7ac",
+    "accessToken": "c3dd8594fd6004d380d093cb4a8d4ba0",
+    "refreshToken": "2d87c4e86c457f79c3c109b572ccdc5e",
     "sessionToken": "d994a9a72a1e412add10f81fb3c8edcb",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
