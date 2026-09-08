@@ -4124,7 +4124,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 22250,
-        "totalSubs": 58,
+        "totalSubs": 59,
         "totalChatMessages": 9449,
         "totalStreamMinutes": 6419,
         "emotes": {
@@ -4677,6 +4677,11 @@
         },
         "alliveall": {
           "name": "alliveall",
+          "months": 1,
+          "tier": 1
+        },
+        "ambi": {
+          "name": "ambi",
           "months": 1,
           "tier": 1
         }
@@ -8650,10 +8655,10 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 17422,
-        "totalSubs": 12,
-        "totalChatMessages": 1138,
-        "totalStreamMinutes": 1660,
+        "totalVotes": 17427,
+        "totalSubs": 13,
+        "totalChatMessages": 1143,
+        "totalStreamMinutes": 1665,
         "emotes": {
           "❤": 19,
           "🙌": 27,
@@ -8715,7 +8720,7 @@
           "↕": 3,
           "🧦": 3,
           "🎁": 16,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 8,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 9,
           "17f4960d-e4a6-4efd-96a8-157a71aab1f5": 14,
           "e0769a7a-c040-442c-8a8c-d65095b1f14e": 1,
           "9acf3717-2c94-4054-8c7d-5be493de1012": 4,
@@ -8730,7 +8735,8 @@
           "😍": 1,
           "🫶": 1,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 3
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 3,
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -8808,35 +8814,16 @@
           "😍": "😍",
           "🫶": "🫶",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE",
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
         },
-        "lastChatAt": 1788878119191,
+        "lastChatAt": 1788878693276,
         "sendFailStreak": 241,
         "lastSendFailAt": 1788873676957,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1788873675363
       },
       "chatMemory": [
-        {
-          "user": "dimifw",
-          "msg": "gm vader and bye :D"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dress_n_Draw just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "dimifw",
-          "msg": "GMish"
-        },
         {
           "user": "dimifw",
           "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
@@ -8856,6 +8843,26 @@
         {
           "user": "dimifw",
           "msg": "hey vader"
+        },
+        {
+          "user": "noxx",
+          "msg": "Streamish"
+        },
+        {
+          "user": "dimifw",
+          "msg": "noxxish"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+        },
+        {
+          "user": "dimifw",
+          "msg": "thanks jack"
+        },
+        {
+          "user": "dimifw",
+          "msg": "thanks for the sub sip"
         }
       ],
       "customCommands": {},
@@ -8892,6 +8899,11 @@
           "name": "briggsy",
           "months": 1,
           "tier": 1
+        },
+        "sipofcoke": {
+          "name": "sipofcoke",
+          "months": 1,
+          "tier": 1
         }
       },
       "commentMode": "low",
@@ -8904,8 +8916,8 @@
       "joinedAt": 1784453301135,
       "stats": {
         "totalVotes": 3853,
-        "totalSubs": 20,
-        "totalChatMessages": 197,
+        "totalSubs": 22,
+        "totalChatMessages": 199,
         "totalStreamMinutes": 5598,
         "emotes": {
           "🔥": 8,
@@ -8944,17 +8956,9 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788877979771
+        "lastChatAt": 1788878487675
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "fartvader",
-          "msg": "heyy prof..gm gm!"
-        },
         {
           "user": "jaggerjack",
           "msg": "Bossing"
@@ -8986,6 +8990,14 @@
         {
           "user": "scurvybot",
           "msg": "@Pr0ff gifted a Sub to @seventh! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Pr0ff gifted a Sub to @0xscheun! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Pr0ff gifted a Sub to @missaria! Thank you!"
         }
       ],
       "customCommands": {},
@@ -11457,7 +11469,7 @@
         "totalVotes": 1975,
         "totalSubs": 45,
         "totalChatMessages": 984,
-        "totalStreamMinutes": 3838,
+        "totalStreamMinutes": 3843,
         "emotes": {
           "❤": 53,
           "🙌": 58,
@@ -15370,8 +15382,8 @@
     }
   },
   "auth": {
-    "accessToken": "3ca5ef63498cd19b942c36c4b86b0889",
-    "refreshToken": "6a15c3876e8113b4b2041cde9505d4a3",
+    "accessToken": "48baafaa7d96137eacb7e6e719dd00bf",
+    "refreshToken": "870f2825c1d63476eda7e5111cc4a97b",
     "sessionToken": "7f2d7a73be69d2a1188ae28417756634",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
