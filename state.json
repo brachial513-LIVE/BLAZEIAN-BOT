@@ -8626,7 +8626,7 @@
         "totalVotes": 17412,
         "totalSubs": 12,
         "totalChatMessages": 1135,
-        "totalStreamMinutes": 1616,
+        "totalStreamMinutes": 1620,
         "emotes": {
           "❤": 19,
           "🙌": 27,
@@ -11425,8 +11425,8 @@
       "stats": {
         "totalVotes": 1965,
         "totalSubs": 42,
-        "totalChatMessages": 969,
-        "totalStreamMinutes": 3797,
+        "totalChatMessages": 970,
+        "totalStreamMinutes": 3798,
         "emotes": {
           "❤": 53,
           "🙌": 58,
@@ -11508,13 +11508,9 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788795049858
+        "lastChatAt": 1788875907488
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @CG777 at https://blaze.stream/cg777!"
@@ -11550,6 +11546,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -11561,7 +11561,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg",
-      "streamTitle": "",
+      "streamTitle": "Another day of being a Raider 😂 — ARC Raiders",
       "lastStreamInfo": "Loot, Die in a battle, Repeat 😂 — ARC Raiders",
       "lastStreamEndedAt": 1788700803035,
       "gameOverride": "",
@@ -15329,8 +15329,8 @@
     }
   },
   "auth": {
-    "accessToken": "20ba34220b1c94011c32417519fefeab",
-    "refreshToken": "210e117bc2a513dabac27b65b80db083",
+    "accessToken": "3ca5ef63498cd19b942c36c4b86b0889",
+    "refreshToken": "6a15c3876e8113b4b2041cde9505d4a3",
     "sessionToken": "7f2d7a73be69d2a1188ae28417756634",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
