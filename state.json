@@ -433,8 +433,10 @@
         "label": "RAID",
         "text": "{raider} has raided your Channel with {count} Awesome People !",
         "dur": 8,
+        "scale": 1,
+        "box": false,
         "sound": true,
-        "confetti": true
+        "confetti": false
       },
       "commandMedia": {
         "dance": {
@@ -648,7 +650,7 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 68763,
+        "totalVotes": 68764,
         "totalSubs": 106,
         "totalChatMessages": 8396,
         "totalStreamMinutes": 2634,
@@ -1512,7 +1514,7 @@
       "username": "crypt0k1ng96",
       "language": "en",
       "stats": {
-        "totalVotes": 20765,
+        "totalVotes": 20766,
         "totalSubs": 158,
         "totalChatMessages": 9726,
         "totalStreamMinutes": 23505,
@@ -2786,7 +2788,7 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 20004,
+        "totalVotes": 20005,
         "totalSubs": 66,
         "totalChatMessages": 10656,
         "totalStreamMinutes": 6080,
@@ -3139,12 +3141,12 @@
           "a428b52d-1e71-4a7a-9e0c-41ea8d9e326a": "ANOTHERPYRO"
         },
         "lastChatAt": 1788807548549,
-        "sendFailStreak": 518,
-        "lastSendFailAt": 1788800977259,
+        "sendFailStreak": 519,
+        "lastSendFailAt": 1788865187685,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146,
-        "lastProbeAt": 1788800977031
+        "lastProbeAt": 1788865187477
       },
       "chatMemory": [
         {
@@ -15295,7 +15297,7 @@
   "auth": {
     "accessToken": "8a77e5849813894224ca940a1cb06d79",
     "refreshToken": "39bcf0640e093a8931e9e3347351621a",
-    "sessionToken": "034d8f7ff37197b7b728df6de3a13292",
+    "sessionToken": "e056d66ab0c453f175d3bdd069ffe9de",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
 }
