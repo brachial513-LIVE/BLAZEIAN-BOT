@@ -1542,7 +1542,7 @@
         "totalVotes": 21004,
         "totalSubs": 162,
         "totalChatMessages": 9994,
-        "totalStreamMinutes": 23593,
+        "totalStreamMinutes": 23598,
         "emotes": {
           "📊": 3,
           "🔥": 482,
@@ -7447,7 +7447,7 @@
         "totalVotes": 9250,
         "totalSubs": 189,
         "totalChatMessages": 220,
-        "totalStreamMinutes": 6288,
+        "totalStreamMinutes": 6293,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -9664,7 +9664,7 @@
         "totalVotes": 8366,
         "totalSubs": 22,
         "totalChatMessages": 2111,
-        "totalStreamMinutes": 6886,
+        "totalStreamMinutes": 6891,
         "emotes": {
           "❤": 79,
           "🙌": 48,
@@ -10765,7 +10765,7 @@
         "totalVotes": 15126,
         "totalSubs": 22,
         "totalChatMessages": 3263,
-        "totalStreamMinutes": 5218,
+        "totalStreamMinutes": 5223,
         "emotes": {
           "❤": 72,
           "🙌": 50,
@@ -11926,7 +11926,7 @@
         "totalVotes": 2913,
         "totalSubs": 11,
         "totalChatMessages": 582,
-        "totalStreamMinutes": 6699,
+        "totalStreamMinutes": 6704,
         "emotes": {
           "❤": 45,
           "🙌": 32,
@@ -12291,7 +12291,7 @@
         "totalVotes": 8119,
         "totalSubs": 65,
         "totalChatMessages": 3563,
-        "totalStreamMinutes": 7214,
+        "totalStreamMinutes": 7219,
         "emotes": {
           "😅": 1,
           "🔥": 186,
@@ -12865,7 +12865,7 @@
         "totalVotes": 1682,
         "totalSubs": 10,
         "totalChatMessages": 1096,
-        "totalStreamMinutes": 5203,
+        "totalStreamMinutes": 5208,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -13118,8 +13118,8 @@
       "stats": {
         "totalVotes": 1903,
         "totalSubs": 4,
-        "totalChatMessages": 1441,
-        "totalStreamMinutes": 4517,
+        "totalChatMessages": 1443,
+        "totalStreamMinutes": 4522,
         "emotes": {
           "👋": 40,
           "⚠": 2,
@@ -13253,13 +13253,9 @@
           "15f31366-b980-4582-836d-2954d5b450e5": "blazeheart"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788888743889
+        "lastChatAt": 1788889282924
       },
       "chatMemory": [
-        {
-          "user": "inn",
-          "msg": "Welcome Inn"
-        },
         {
           "user": "peter_force",
           "msg": "yoooooooooo"
@@ -13295,6 +13291,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "To use our Giveaway Wheel, please visit https://scurvybot.com/overlays/giveaway-wheel?platform=blaze&uuid=aeb8b4ea-5a22-4acf-b508-dbf0ce896a86"
         }
       ],
       "customCommands": {
@@ -13365,7 +13365,7 @@
         "totalVotes": 2919,
         "totalSubs": 9,
         "totalChatMessages": 484,
-        "totalStreamMinutes": 4001,
+        "totalStreamMinutes": 4006,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 12,
@@ -15506,8 +15506,8 @@
     }
   },
   "auth": {
-    "accessToken": "63a9abd42b0d63ed000279b22490d9ef",
-    "refreshToken": "3755495be2e9cd3cdd8c7f37b18d5b64",
+    "accessToken": "a3cdbf333c8aa4689697ff6fd7532fbc",
+    "refreshToken": "3e4316d0108245ec361d6e70969d3774",
     "sessionToken": "7f2d7a73be69d2a1188ae28417756634",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
