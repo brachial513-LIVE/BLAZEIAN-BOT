@@ -8367,7 +8367,7 @@
         "totalVotes": 18248,
         "totalSubs": 107,
         "totalChatMessages": 1939,
-        "totalStreamMinutes": 10766,
+        "totalStreamMinutes": 10776,
         "emotes": {
           "❤": 88,
           "🙌": 154,
@@ -11163,7 +11163,7 @@
         "totalVotes": 5178,
         "totalSubs": 58,
         "totalChatMessages": 960,
-        "totalStreamMinutes": 2661,
+        "totalStreamMinutes": 2671,
         "emotes": {
           "❤": 87,
           "🙌": 86,
@@ -12357,7 +12357,13 @@
         }
       },
       "botVip": true,
-      "commandMedia": {}
+      "commandMedia": {},
+      "giveaway": {
+        "joinCmd": "fart",
+        "viewCmd": "vader",
+        "open": true,
+        "entries": []
+      }
     },
     "b4f41a7f-b0fd-471c-9f10-466564678c8e": {
       "username": "charddxyz",
