@@ -8406,7 +8406,7 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 18301,
+        "totalVotes": 18321,
         "totalSubs": 110,
         "totalChatMessages": 1948,
         "totalStreamMinutes": 10786,
@@ -8663,7 +8663,7 @@
         "totalVotes": 17477,
         "totalSubs": 13,
         "totalChatMessages": 1146,
-        "totalStreamMinutes": 1678,
+        "totalStreamMinutes": 1685,
         "emotes": {
           "❤": 19,
           "🙌": 27,
@@ -10674,9 +10674,9 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 14959,
+        "totalVotes": 14984,
         "totalSubs": 20,
-        "totalChatMessages": 3195,
+        "totalChatMessages": 3196,
         "totalStreamMinutes": 5140,
         "emotes": {
           "❤": 72,
@@ -10843,13 +10843,9 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788879370126
+        "lastChatAt": 1788879471831
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @Marowak33!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
@@ -10885,6 +10881,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 100 votes, @K1NGBRE4KER!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 25 votes, @parky!"
         }
       ],
       "customCommands": {},
@@ -11474,7 +11474,7 @@
         "totalVotes": 1975,
         "totalSubs": 45,
         "totalChatMessages": 984,
-        "totalStreamMinutes": 3855,
+        "totalStreamMinutes": 3863,
         "emotes": {
           "❤": 53,
           "🙌": 58,
@@ -11613,8 +11613,8 @@
       "lastStreamInfo": "Loot, Die in a battle, Repeat 😂 — ARC Raiders",
       "lastStreamEndedAt": 1788700803035,
       "gameOverride": "",
-      "profile": "GMs are the best! 🔥🔥💚💚 Celebrate streams with 🎉 and 🔴 alerts. Weekly Giveaways on Blaze are a thing, and we’re all about those “permanently free Entries”! 💚 Shout “VOTE ALERT!!” and shower love on the streamer with “love fest” shoutouts. seventh loves being celebrated, so let’s give ‘em a love fest!",
-      "_profileAtCount": 872,
+      "profile": "Seventh’s channel is a nonstop Raider arena, “Another day of being a Raider 😂 — ARC Raiders.” GMs are the best! 🔥🔥💚💚 Celebrate streams with 🎉 and 🔴 alerts. Weekly Giveaways on Blaze are a thing, and we’re all about those “permanently free Entries”! 💚 Shout “VOTE ALERT!!” and shower love on the streamer with “love fest” shoutouts. seventh loves being celebrated, so let’s give ‘em a love fest!",
+      "_profileAtCount": 984,
       "followed": true,
       "nudgedAt": 1787920924811,
       "nudgedKey": "schedule"
@@ -12190,8 +12190,8 @@
       "stats": {
         "totalVotes": 7934,
         "totalSubs": 65,
-        "totalChatMessages": 3432,
-        "totalStreamMinutes": 7124,
+        "totalChatMessages": 3436,
+        "totalStreamMinutes": 7128,
         "emotes": {
           "😅": 1,
           "🔥": 186,
@@ -12359,7 +12359,7 @@
           "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788862973202,
+        "lastChatAt": 1788879749481,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -12418,7 +12418,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/ec1082d4-18b9-4e76-ad37-3f807fe24197.gif",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Test Stream only🔥🎮 — Games + Demos",
       "gameOverride": "",
       "profile": "fartvader’s channel is a high‑energy, supportive playground where “brooo”, “eyyyyy”, “yooo welcome bros!!”, “happy gaming kuys!”, “GM GM”, and “much love ❤️❤️” echo. Fans celebrate with “follow for a follow” 🍻🔥, “WC broo!” drops, shoutouts, emotes, nonstop “gg”, raiding, 7‑days‑to‑die gameplay, and nonstop hype. The community thrives on constant hype, emote‑filled chatter, and mutual support.",
       "_profileAtCount": 3432,
@@ -12449,7 +12449,10 @@
         "joinCmd": "fart",
         "viewCmd": "vader",
         "open": true,
-        "entries": []
+        "entries": [
+          "fartvader",
+          "jaggerjack"
+        ]
       }
     },
     "b4f41a7f-b0fd-471c-9f10-466564678c8e": {
