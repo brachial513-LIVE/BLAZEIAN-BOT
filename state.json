@@ -9751,7 +9751,7 @@
         "totalVotes": 4068,
         "totalSubs": 28,
         "totalChatMessages": 890,
-        "totalStreamMinutes": 2127,
+        "totalStreamMinutes": 2131,
         "emotes": {
           "❤": 70,
           "🙌": 48,
@@ -11164,7 +11164,7 @@
       "stats": {
         "totalVotes": 5203,
         "totalSubs": 59,
-        "totalChatMessages": 973,
+        "totalChatMessages": 974,
         "totalStreamMinutes": 2681,
         "emotes": {
           "❤": 87,
@@ -11193,7 +11193,7 @@
           "😊": 1,
           "😁": 3,
           "🤩": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 21,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 22,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "😂": 7,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 2,
@@ -11311,17 +11311,13 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788871542240,
+        "lastChatAt": 1788872090940,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "corneto",
-          "msg": ":D"
-        },
         {
           "user": "corneto",
           "msg": "[emote:49a9f873-9233-45b0-923a-0eebda2eb0ca]"
@@ -11357,6 +11353,10 @@
         {
           "user": "curlysnow07",
           "msg": "Hope you have a great stream"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "Ty for the gifted sub[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {},
@@ -15302,8 +15302,8 @@
     }
   },
   "auth": {
-    "accessToken": "496222502b8c19a6206e886cfa48f576",
-    "refreshToken": "c95accf3f29bb55435329013111eb952",
+    "accessToken": "3691438be8528b998f4cbccde8baaf81",
+    "refreshToken": "48f000bf29504973475149fe07a56e99",
     "sessionToken": "508a4878738d142e1dd3fd055d4fb40b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
