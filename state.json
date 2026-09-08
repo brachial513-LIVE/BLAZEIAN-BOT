@@ -2775,7 +2775,7 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 19412,
+        "totalVotes": 19971,
         "totalSubs": 66,
         "totalChatMessages": 10656,
         "totalStreamMinutes": 6080,
@@ -4833,8 +4833,8 @@
       "stats": {
         "totalVotes": 20198,
         "totalSubs": 49,
-        "totalChatMessages": 5925,
-        "totalStreamMinutes": 10541,
+        "totalChatMessages": 5926,
+        "totalStreamMinutes": 10546,
         "emotes": {
           "❤": 71,
           "🙌": 161,
@@ -5145,14 +5145,10 @@
           "🤩": "🤩",
           "3d2af645-cfc7-4083-974f-c0545cf156d8": "peepocoffee"
         },
-        "lastChatAt": 1788830408262,
+        "lastChatAt": 1788830698873,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "doktorgrav",
-          "msg": "trying maybe you will make it better"
-        },
         {
           "user": "doktorgrav",
           "msg": "music soothes the soul"
@@ -5188,6 +5184,10 @@
         {
           "user": "doktorgrav",
           "msg": "your fine"
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "yeah"
         }
       ],
       "customCommands": {},
@@ -12894,7 +12894,7 @@
         "totalVotes": 1864,
         "totalSubs": 4,
         "totalChatMessages": 1429,
-        "totalStreamMinutes": 4361,
+        "totalStreamMinutes": 4366,
         "emotes": {
           "👋": 40,
           "⚠": 2,
@@ -15171,8 +15171,8 @@
     }
   },
   "auth": {
-    "accessToken": "daaa6543f18cad6ba13446c4514a6d98",
-    "refreshToken": "f190e21c734d075410310155ebc97cbc",
+    "accessToken": "46bcfbaf31682fbd2c96e4fb896d9471",
+    "refreshToken": "91f078e296d70ecc88da5f61b1d8e228",
     "sessionToken": "d994a9a72a1e412add10f81fb3c8edcb",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
