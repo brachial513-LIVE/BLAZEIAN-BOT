@@ -942,6 +942,12 @@ async function subscribe(type, channelId, attempt = 0, sessWait = 0) {
       const status = e.response?.status;
       const msg = e.response?.data?.message || e.message;
       if (status === 401 && attempt < 2) { await refreshAccessToken(); return subscribe(type, channelId, attempt + 1); }
+      // Connection-count limit (max 3 user sessions/token). Retrying the SUBSCRIBE is pointless — a
+      // whole session slot has to free up first (handled by the reconnect layer). Bail without hammering.
+      if (/AUTH_CONN_LIMIT|CONN_LIMIT/i.test(JSON.stringify(e.response?.data) || msg || "")) {
+        console.log(`Subscribe deferred (${type} on ${channelId}): AUTH_CONN_LIMIT — waiting for a user-session slot`);
+        return false;
+      }
       const rl = status === 429 || /too many|rate.?limit/i.test(msg || "");
       if (rl && attempt < 3) { await sleep(1500 * (attempt + 1)); return subscribe(type, channelId, attempt + 1); }
       // FULL response body (not just .message) — this is what revealed that "channel.tip" was never a
@@ -2345,7 +2351,11 @@ function connectUserSession(idx) {
   s.sessionId = null;
   const sock = io("https://blaze.stream", { path: "/ws", transports: ["websocket"], reconnection: false });
   s.socket = sock;
-  sock.on("connect", () => { console.log(`User socket #${idx} connected`); s.connecting = false; s.delay = 3000; });
+  // NOTE: do NOT reset s.delay here. Blaze kicks a session that pushes past the 3-user-connection cap
+  // ("io server disconnect") right AFTER it connects — resetting the backoff on connect made it hammer
+  // reconnects every 3s. Instead we reset the backoff only once a session has stayed up long enough to
+  // finish its subscribe pass (see subscribeUserSessionEvents), so a kicked session backs off properly.
+  sock.on("connect", () => { console.log(`User socket #${idx} connected`); s.connecting = false; });
   sock.on("connect_error", err => {
     console.log(`User socket #${idx} error:`, err.message); s.connecting = false;
     if (!s.timer) s.timer = setTimeout(() => connectUserSession(idx), s.delay = Math.min(s.delay * 1.5, 60000));
@@ -2399,6 +2409,7 @@ async function subscribeUserSessionEvents(idx) {
       await sleep(500);
     }
   }
+  s.delay = 3000; // session stayed up through a full pass → it's stable, so reset its reconnect backoff
   console.log(`✅ User-token subscribe pass complete for session #${idx}.`);
 }
 
