@@ -437,6 +437,8 @@ function getOrCreateChannel(channelId, username) {
   if (!c.language) c.language = "en";
   if (!c.customCommands) c.customCommands = {};
   if (!c.commandMedia) c.commandMedia = {}; // cmdName -> { sound, media, text, dur } for on-overlay media commands
+  if (!c.giveaway) c.giveaway = { joinCmd: "", viewCmd: "", open: false, entries: [] }; // spin-the-wheel style entry collection
+  if (!Array.isArray(c.giveaway.entries)) c.giveaway.entries = [];
   if (c.streamStart === undefined) c.streamStart = "";
   if (c.streamEnd === undefined) c.streamEnd = "";
   if (c.schedule === undefined) c.schedule = "";
@@ -2654,6 +2656,32 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     return;
   }
 
+  // Giveaway entry system (streamer-configured command names, e.g. !join to enter + !list to view).
+  // Checked BEFORE custom commands so the giveaway names always win. Collects unique usernames the
+  // streamer copies out of the dashboard into their spin-the-wheel.
+  const gw = ch && ch.giveaway;
+  if (gw && (gw.joinCmd || gw.viewCmd) && m.startsWith("!")) {
+    const cn = m.slice(1).split(/\s+/)[0];
+    if (gw.joinCmd && cn === gw.joinCmd) {
+      if (!Array.isArray(gw.entries)) gw.entries = [];
+      if (!gw.open) { await sendChat(channelId, `@${user} the giveaway isn't open right now ⏳`); return; }
+      if (gw.entries.some(u => (u || "").toLowerCase() === (user || "").toLowerCase())) {
+        await sendChat(channelId, `@${user} you're already in! 🎉 (${gw.entries.length} in the draw)`); return;
+      }
+      gw.entries.push(user);
+      saveChannels(); // debounced — a burst of joins doesn't hammer storage; streamer actions save immediately
+      await sendChat(channelId, `@${user} you're IN the giveaway! 🎉🍀 (${gw.entries.length} entries so far)`);
+      return;
+    }
+    if (gw.viewCmd && cn === gw.viewCmd) {
+      const n = (gw.entries || []).length;
+      const joinHint = gw.joinCmd ? ` Type !${gw.joinCmd} to enter.` : "";
+      const latest = n ? ` Latest: ${gw.entries.slice(-5).reverse().join(", ")}${n > 5 ? " …" : ""}` : "";
+      await sendChat(channelId, `🎡 Giveaway — ${n} ${n === 1 ? "entry" : "entries"} so far!${gw.open ? joinHint : " (currently closed)"}${latest}`);
+      return;
+    }
+  }
+
   // Custom commands (checked after built-ins). A command can be a text reply, an on-overlay media
   // alert (sound + gif/video/picture), or both. "!hype Zani" → the arg "Zani" fills {name} in the alert.
   if (m.startsWith("!")) {
@@ -4266,6 +4294,37 @@ function homepageMascotHTML() {
 
 app.get("/stats", (req, res) => res.json(channels));
 
+// Giveaway panel for the streamer dashboard: set the join/view command names, open/close, see the
+// live entry list (copyable, one name per line) to paste into a spin-the-wheel, and reset for a new one.
+function renderGiveawayPanel(username) {
+  const cid = findChannelByUsername(username);
+  const gw = (cid && channels[cid] && channels[cid].giveaway) || { joinCmd: "", viewCmd: "", open: false, entries: [] };
+  const entries = Array.isArray(gw.entries) ? gw.entries : [];
+  const openChecked = gw.open ? "checked" : "";
+  const statusTag = gw.open ? '<span class="tag" style="background:#2c7a2c;">OPEN</span>' : '<span class="tag" style="background:#a3372a;">CLOSED</span>';
+  return `
+  <h2 id="giveaway">🎡 Giveaway (spin-the-wheel entries)</h2>
+  <div class="card">
+    <p class="hint">Let viewers enter a giveaway with a chat command, then copy the entrant list into your own spin-the-wheel. Pick a <b>Join</b> command (viewers type it to enter — each person counts once) and a <b>View</b> command (posts the running count in chat). Open it when you start, close it before you draw.</p>
+    <form method="POST" action="/dashboard/setgiveaway">
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <div style="flex:1;min-width:150px;"><label>Join command (without !)</label><input name="joinCmd" placeholder="join" value="${esc(gw.joinCmd || "")}"></div>
+        <div style="flex:1;min-width:150px;"><label>View-list command (without !)</label><input name="viewCmd" placeholder="entries" value="${esc(gw.viewCmd || "")}"></div>
+      </div>
+      <label style="display:block;margin-top:10px;"><input type="checkbox" name="open" value="1" ${openChecked}> ✅ Giveaway is OPEN (accepting entries)</label>
+      <button class="save" style="margin-top:10px;">Save Giveaway Settings</button>
+    </form>
+    <div style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(92,244,114,.2);">
+      <label>🎫 Entries — <b>${entries.length}</b> so far &nbsp; ${statusTag}</label>
+      <textarea readonly onclick="this.select()" rows="6" style="width:100%;box-sizing:border-box;" placeholder="No entries yet — viewers type your Join command in chat to enter.">${esc(entries.join("\n"))}</textarea>
+      <p class="hint">Click the box to select all → copy → paste into your spin-the-wheel (one name per line).</p>
+      <form method="POST" action="/dashboard/resetgiveaway" onsubmit="return confirm('Clear all ${entries.length} entries and start a fresh giveaway?');">
+        <button class="del" type="submit">🗑️ Reset (clear all entries)</button>
+      </form>
+    </div>
+  </div>`;
+}
+
 // =============================================
 // STREAMER DASHBOARD (Blaze login — own channel only)
 // =============================================
@@ -4303,6 +4362,7 @@ app.get("/dashboard", (req, res) => {
       <p>Manage your commands & stream messages. Paste long text here — no character limit like the chat 💚</p></header>
     ${unlockBanner}
     ${renderForms("/dashboard", channelField)}
+    ${renderGiveawayPanel(ch.username)}
     ${renderOverlaySection(ch.username)}
     <h2>📋 Your Current Setup</h2>
     ${renderChannelBlock(ch, "/dashboard")}
@@ -4471,6 +4531,30 @@ app.post("/dashboard/delcmd", async (req, res) => {
   if (channels[channelId].commandMedia) delete channels[channelId].commandMedia[cmdName];
   await saveChannelsToCloud();
   res.redirect("/dashboard");
+});
+
+// Giveaway config: join-command, view-command, and open/closed. Streamer actions save immediately.
+app.post("/dashboard/setgiveaway", async (req, res) => {
+  const channelId = dashboardChannelId(req);
+  if (!channelId) return res.status(403).send("Not logged in. <a href='/dashboard'>Login</a>");
+  const clean = v => (v == null ? "" : String(v)).toLowerCase().replace(/^!/, "").replace(/[^a-z0-9_]/g, "").slice(0, 24);
+  const ch = channels[channelId];
+  if (!ch.giveaway) ch.giveaway = { joinCmd: "", viewCmd: "", open: false, entries: [] };
+  ch.giveaway.joinCmd = clean(req.body.joinCmd);
+  ch.giveaway.viewCmd = clean(req.body.viewCmd);
+  ch.giveaway.open = req.body.open != null; // unchecked checkbox isn't sent → closed
+  if (!Array.isArray(ch.giveaway.entries)) ch.giveaway.entries = [];
+  await saveChannelsToCloud();
+  res.redirect("/dashboard#giveaway");
+});
+
+// Clear all entries to start a fresh giveaway.
+app.post("/dashboard/resetgiveaway", async (req, res) => {
+  const channelId = dashboardChannelId(req);
+  if (!channelId) return res.status(403).send("Not logged in. <a href='/dashboard'>Login</a>");
+  if (channels[channelId].giveaway) channels[channelId].giveaway.entries = [];
+  await saveChannelsToCloud();
+  res.redirect("/dashboard#giveaway");
 });
 
 app.post("/dashboard/setstream", async (req, res) => {
