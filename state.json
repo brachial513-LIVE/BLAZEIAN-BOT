@@ -3932,7 +3932,7 @@
         "totalVotes": 8067,
         "totalSubs": 34,
         "totalChatMessages": 1526,
-        "totalStreamMinutes": 7723,
+        "totalStreamMinutes": 7728,
         "emotes": {
           "✨": 32,
           "🖥": 21,
@@ -5666,8 +5666,8 @@
       "stats": {
         "totalVotes": 11776,
         "totalSubs": 44,
-        "totalChatMessages": 1299,
-        "totalStreamMinutes": 5190,
+        "totalChatMessages": 1300,
+        "totalStreamMinutes": 5195,
         "emotes": {
           "❤": 65,
           "🙌": 66,
@@ -5683,8 +5683,8 @@
           "🔴": 35,
           "🎉": 70,
           "🚨": 78,
-          "📴": 36,
-          "👋": 49,
+          "📴": 37,
+          "👋": 50,
           "🏅": 10,
           "💪": 28,
           "😁": 4,
@@ -5811,13 +5811,9 @@
           "🙂": "🙂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788898065539
+        "lastChatAt": 1788902963160
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @botger just gave 16 vote(s) (total: 96)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -5853,6 +5849,10 @@
         {
           "user": "botger",
           "msg": "botger is here! 👋 Event alerts and OBS overlay are free for everyone. Subscribe at blaze.stream/botger to unlock keyphrases, custom commands, and weekly Blaze votes. Dashboard: https://botger.devely.ca/dashboard"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5865,7 +5865,7 @@
       "botVip": true,
       "profile": "Vitrene’s channel is a Cyberpunk 2077 hub where fans shout “VIT 🔥🔥” and “$VIT Always Wins!” to hype streams. Milestones trigger “🔴 VOTE ALERT!! 🗳️”, dances of “💃💃💃”, raids, gifts, and level‑up cheers. The community loves auto‑drive, Idris Elba DLC, and Dune updates, and always ends with “have an awesome night/day!”",
       "_profileAtCount": 1264,
-      "streamTitle": "Let's Play: The Blood of Dawnwalker #4 — Games + Demos",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -5879,8 +5879,8 @@
       "commentMode": "heavy",
       "nudgedAt": 1785010424974,
       "nudgedKey": "customcmd",
-      "lastStreamInfo": "The Blood of Dawnwalker: Middle Age Vampire Simulator — Games + Demos",
-      "lastStreamEndedAt": 1788649617393
+      "lastStreamInfo": "Let's Play: The Blood of Dawnwalker #4 — Games + Demos",
+      "lastStreamEndedAt": 1788902957947
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
       "username": "grook",
@@ -6794,7 +6794,7 @@
         "totalVotes": 13659,
         "totalSubs": 52,
         "totalChatMessages": 12137,
-        "totalStreamMinutes": 8022,
+        "totalStreamMinutes": 8027,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -7538,8 +7538,8 @@
       "stats": {
         "totalVotes": 9280,
         "totalSubs": 191,
-        "totalChatMessages": 262,
-        "totalStreamMinutes": 6513,
+        "totalChatMessages": 265,
+        "totalStreamMinutes": 6518,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -7571,21 +7571,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788902658871
+        "lastChatAt": 1788902914317
       },
       "chatMemory": [
-        {
-          "user": "saboomafoo",
-          "msg": "la gente mayormente es amable"
-        },
-        {
-          "user": "saboomafoo",
-          "msg": "pero hay como en toda parte del mundo lugares que son peligrosos"
-        },
-        {
-          "user": "starmouse307319",
-          "msg": "solo progunto me gusta saber de tu pais"
-        },
         {
           "user": "starmouse307319",
           "msg": "pregunto"
@@ -7613,6 +7601,18 @@
         {
           "user": "saboomafoo",
           "msg": "o mira debes vivir rodeado de mucha naturaleza , el español es un idioma bastante complicado ya que sus palabras pueden significar muchas cosas"
+        },
+        {
+          "user": "starmouse307319",
+          "msg": "@saboomafoo Pero en mi escuela ofrecían elegir entre varios idiomas, así que escogí el español; terminé la escuela en 2011"
+        },
+        {
+          "user": "saboomafoo",
+          "msg": "es un idioma bastante divertido"
+        },
+        {
+          "user": "saboomafoo",
+          "msg": "orque tiene como dejos según país o departamento de cada país"
         }
       ],
       "customCommands": {},
@@ -13377,10 +13377,10 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 1935,
+        "totalVotes": 1952,
         "totalSubs": 15,
-        "totalChatMessages": 1496,
-        "totalStreamMinutes": 4742,
+        "totalChatMessages": 1500,
+        "totalStreamMinutes": 4747,
         "emotes": {
           "👋": 40,
           "⚠": 2,
@@ -13446,8 +13446,9 @@
           "😂": 2,
           "dedb0949-63d9-4d58-86d1-ecf0269453d3": 1,
           "15f31366-b980-4582-836d-2954d5b450e5": 3,
-          "🩵": 1,
-          "🥂": 1
+          "🩵": 2,
+          "🥂": 1,
+          "🐰": 1
         },
         "emoteNames": {
           "👋": "👋",
@@ -13515,24 +13516,13 @@
           "dedb0949-63d9-4d58-86d1-ecf0269453d3": "PYROSEGG",
           "15f31366-b980-4582-836d-2954d5b450e5": "blazeheart",
           "🩵": "🩵",
-          "🥂": "🥂"
+          "🥂": "🥂",
+          "🐰": "🐰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788902617036
+        "lastChatAt": 1788902870379
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@LibraLives gifted a Sub to @manhitmand! Thank you!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@LibraLives gifted a Sub to @activated999! Thank you!"
-        },
-        {
-          "user": "lasvegasape",
-          "msg": "much love on the subs"
-        },
         {
           "user": "rabbitlarry",
           "msg": "🩵"
@@ -13560,6 +13550,18 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 27 votes, @rabbitlarry!"
+        },
+        {
+          "user": "rabbitlarry",
+          "msg": "🩵🐰"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 17 votes, @treefrognada!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@treefrognada congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/52145c83557f14b28608dde338c175c5ab0c2abb73938c08c5fcb630a9aa68a6"
         }
       ],
       "customCommands": {
@@ -14432,7 +14434,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 81,
-        "totalStreamMinutes": 463,
+        "totalStreamMinutes": 468,
         "emotes": {
           "👋": 6,
           "❤": 8,
@@ -14662,7 +14664,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 7,
-        "totalStreamMinutes": 48,
+        "totalStreamMinutes": 53,
         "emotes": {},
         "emoteNames": {},
         "sendFailStreak": 0,
@@ -14753,7 +14755,7 @@
         "totalVotes": 3,
         "totalSubs": 0,
         "totalChatMessages": 0,
-        "totalStreamMinutes": 0,
+        "totalStreamMinutes": 3,
         "emotes": {},
         "emoteNames": {},
         "sendFailStreak": 0
@@ -14769,7 +14771,8 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8d25b2fc-f364-4336-bf1d-ead90c28a3bc-profile_image-300x300.png"
+      "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/8d25b2fc-f364-4336-bf1d-ead90c28a3bc-profile_image-300x300.png",
+      "streamTitle": "[ES]💥 | HABBO - LUEGO RAKION Y CS2 — Habbo Hotel"
     }
   },
   "blocklist": [
@@ -15810,8 +15813,8 @@
     }
   },
   "auth": {
-    "accessToken": "ad46e64a01e17b74d89e22147114793b",
-    "refreshToken": "89c293e2d780c61aefeb155687aa3749",
+    "accessToken": "76323e25d7f32ec9ccc83122a2d891d9",
+    "refreshToken": "cac55a506c62497cdf85d7f3213663d9",
     "sessionToken": "7f2d7a73be69d2a1188ae28417756634",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
