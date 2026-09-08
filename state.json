@@ -8668,7 +8668,7 @@
         "totalVotes": 17482,
         "totalSubs": 16,
         "totalChatMessages": 1165,
-        "totalStreamMinutes": 1705,
+        "totalStreamMinutes": 1710,
         "emotes": {
           "❤": 19,
           "🙌": 27,
@@ -11496,7 +11496,7 @@
         "totalVotes": 1975,
         "totalSubs": 45,
         "totalChatMessages": 984,
-        "totalStreamMinutes": 3883,
+        "totalStreamMinutes": 3888,
         "emotes": {
           "❤": 53,
           "🙌": 58,
@@ -12212,8 +12212,8 @@
       "stats": {
         "totalVotes": 7934,
         "totalSubs": 65,
-        "totalChatMessages": 3482,
-        "totalStreamMinutes": 7148,
+        "totalChatMessages": 3486,
+        "totalStreamMinutes": 7153,
         "emotes": {
           "😅": 1,
           "🔥": 186,
@@ -12381,7 +12381,7 @@
           "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788881062560,
+        "lastChatAt": 1788881330239,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -12389,22 +12389,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "charddxyz",
-          "msg": "test"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "test only"
-        },
-        {
-          "user": "charddxyz",
-          "msg": "haha"
-        },
-        {
-          "user": "fartvader",
-          "msg": "eyyy chardd"
-        },
         {
           "user": "fartvader",
           "msg": "haha test only"
@@ -12428,6 +12412,22 @@
         {
           "user": "fartvader",
           "msg": "[emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "okay i think all good now..will send updated details/mechanics in blaze discord"
+        },
+        {
+          "user": "fartvader",
+          "msg": "thanks you guys for joining our tests!"
+        },
+        {
+          "user": "fartvader",
+          "msg": "lets do a raid"
+        },
+        {
+          "user": "fartvader",
+          "msg": "lets raid tuffer!!"
         }
       ],
       "customCommands": {},
@@ -12440,12 +12440,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/ec1082d4-18b9-4e76-ad37-3f807fe24197.gif",
       "followed": true,
-      "streamTitle": "Test Stream only🔥🎮 — Games + Demos",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "fartvader’s channel is a high‑energy, supportive playground where “brooo”, “eyyyyy”, “yooo welcome bros!!”, “happy gaming kuys!”, “GM GM”, and “much love ❤️❤️” echo. Fans celebrate with “follow for a follow” 🍻🔥, “WC broo!” drops, shoutouts, emotes, nonstop “gg”, raiding, 7‑days‑to‑die gameplay, and nonstop hype. The community thrives on constant hype, emote‑filled chatter, and mutual support.",
       "_profileAtCount": 3432,
       "lastStreamInfo": "Test Stream only🔥🎮 — Games + Demos",
-      "lastStreamEndedAt": 1788862985780,
+      "lastStreamEndedAt": 1788881396824,
       "nudgedAt": 1786436806709,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -14877,9 +14877,9 @@
       "n": 2
     },
     "dimifw": {
-      "note": "Rocket League streamer who loves car driving, uses playful, enthusiastic greetings and humor, and frequently says “GM” to start chats.",
-      "at": 1788704627918,
-      "n": 11
+      "note": "Rocket League streamer who loves car driving, uses playful, enthusiastic greetings and humor, and frequently starts chats with “GM.”",
+      "at": 1788881220851,
+      "n": 12
     },
     "cynthia_stnkmp": {
       "note": "They seem to have a playful sense of humor, enjoy gaming, specifically mentioning a game called \"Bobs Petroleum\", and appear to be a helpful and enthusiastic person.",
@@ -15415,8 +15415,8 @@
     }
   },
   "auth": {
-    "accessToken": "48baafaa7d96137eacb7e6e719dd00bf",
-    "refreshToken": "870f2825c1d63476eda7e5111cc4a97b",
+    "accessToken": "068d034271520f3ecdb5112c90f89c28",
+    "refreshToken": "4e0b9c521d3305609aaf0d58e2aaadc5",
     "sessionToken": "7f2d7a73be69d2a1188ae28417756634",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
