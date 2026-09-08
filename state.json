@@ -12324,7 +12324,9 @@
           "msg": "thank you so much pete! ..gonna end stream for now"
         }
       ],
-      "customCommands": {},
+      "customCommands": {
+        "fart": "{name} joined the 100 votes giveaway"
+      },
       "streamStart": "",
       "streamEnd": "",
       "schedule": "",
@@ -12354,7 +12356,8 @@
           "tier": 1
         }
       },
-      "botVip": true
+      "botVip": true,
+      "commandMedia": {}
     },
     "b4f41a7f-b0fd-471c-9f10-466564678c8e": {
       "username": "charddxyz",
