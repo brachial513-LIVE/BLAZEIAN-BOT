@@ -6147,7 +6147,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 12567,
+        "totalVotes": 12569,
         "totalSubs": 37,
         "totalChatMessages": 2405,
         "totalStreamMinutes": 3386,
@@ -7753,14 +7753,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 6545,
-        "totalSubs": 87,
-        "totalChatMessages": 903,
+        "totalSubs": 88,
+        "totalChatMessages": 904,
         "totalStreamMinutes": 3670,
         "emotes": {
           "❤": 31,
           "🙌": 88,
           "🔴": 32,
-          "🎉": 38,
+          "🎉": 39,
           "😂": 4,
           "📴": 34,
           "👋": 34,
@@ -7795,13 +7795,9 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788803904936
+        "lastChatAt": 1788946041668
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@thewill3ffect, voting has been stopped for the current session! Please wait for the streamer to end the voting session and announce the winning option."
-        },
         {
           "user": "scurvybot",
           "msg": "@thewill3ffect, voting session ended! 1 vote was cast. Results: 1. Secert Rare Yes: 1 votes (100%) | 2. Or Not Today Buddy Boy 5mins: 0 votes (0%) The winning option was: Or Not Today Buddy Boy 5mins with 0 votes! Voters: nobody"
@@ -7837,6 +7833,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @lasvegasape!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@consumerbreak just subscribed for the first month! Welcome to the community! 🎉"
         }
       ],
       "customCommands": {},
@@ -7871,6 +7871,11 @@
         },
         "xanderc": {
           "name": "xanderc",
+          "months": 1,
+          "tier": 1
+        },
+        "consumerbreak": {
+          "name": "consumerbreak",
           "months": 1,
           "tier": 1
         }
@@ -16090,8 +16095,8 @@
     }
   },
   "auth": {
-    "accessToken": "ccd2fd7e0456454065b621de01337282",
-    "refreshToken": "02fb7cc571b487aa972a666c2c8d1c3e",
+    "accessToken": "b8310490eb9945f95e81259ddf579c23",
+    "refreshToken": "6558c36ee8e5715cd847691b7fe43095",
     "sessionToken": "7f2d7a73be69d2a1188ae28417756634",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
