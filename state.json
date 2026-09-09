@@ -2162,7 +2162,7 @@
       "followed": true,
       "streamTitle": "",
       "profile": "Welcome to Wilder World game nights! Expect “FOX BOT” love, “RIP” jokes, “BLAZE THE DAY” vibes, “SLAY DRAGONS”, “LOVE FEST” moments, wheelspins, giveaways, interactive blackjack, and “RAID” cheers. Spin the wheel, vote for OTG NFTs, celebrate wins with “congets” and “congrats”, keep the hype alive with “BLAZE THE DAY” energy. 🚀",
-      "_profileAtCount": 9701,
+      "_profileAtCount": 10065,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b0561010-9481-4f1e-a8ec-e56599bc3d49.jpg",
       "nudgedAt": 1785001902195,
@@ -7612,7 +7612,7 @@
         "totalVotes": 9280,
         "totalSubs": 191,
         "totalChatMessages": 286,
-        "totalStreamMinutes": 6759,
+        "totalStreamMinutes": 6779,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -13539,8 +13539,8 @@
       "joinedAt": 1786936130068,
       "stats": {
         "totalVotes": 1959,
-        "totalSubs": 17,
-        "totalChatMessages": 1553,
+        "totalSubs": 18,
+        "totalChatMessages": 1554,
         "totalStreamMinutes": 5004,
         "emotes": {
           "👋": 40,
@@ -13685,13 +13685,9 @@
           "d7f4fdce-e137-41a9-837c-1afa844e7834": "PYROFIREHORSE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788924796526
+        "lastChatAt": 1788935658913
       },
       "chatMemory": [
-        {
-          "user": "flinx",
-          "msg": "the whales in those games spend tens of thosands on each game"
-        },
         {
           "user": "flinx",
           "msg": "the dev has earned over 300,000 usd from all the drops across all of the games"
@@ -13727,6 +13723,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@peter_force resubscribed, they've been subbed for 2 months! Thank you!"
         }
       ],
       "customCommands": {
@@ -13778,6 +13778,11 @@
         },
         "consumerbreak": {
           "name": "consumerbreak",
+          "months": 1,
+          "tier": 1
+        },
+        "peter_force": {
+          "name": "peter_force",
           "months": 1,
           "tier": 1
         }
@@ -14959,7 +14964,7 @@
         "totalVotes": 3,
         "totalSubs": 0,
         "totalChatMessages": 3,
-        "totalStreamMinutes": 321,
+        "totalStreamMinutes": 341,
         "emotes": {},
         "emoteNames": {},
         "sendFailStreak": 0,
