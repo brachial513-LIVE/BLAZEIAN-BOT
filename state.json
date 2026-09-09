@@ -5469,7 +5469,7 @@
         "totalVotes": 6913,
         "totalSubs": 69,
         "totalChatMessages": 597,
-        "totalStreamMinutes": 15087,
+        "totalStreamMinutes": 15092,
         "emotes": {
           "❤": 103,
           "🙌": 36,
@@ -8643,7 +8643,7 @@
         "totalVotes": 18826,
         "totalSubs": 113,
         "totalChatMessages": 1962,
-        "totalStreamMinutes": 10906,
+        "totalStreamMinutes": 10911,
         "emotes": {
           "❤": 88,
           "🙌": 154,
@@ -13482,7 +13482,7 @@
         "totalVotes": 1959,
         "totalSubs": 17,
         "totalChatMessages": 1552,
-        "totalStreamMinutes": 4996,
+        "totalStreamMinutes": 5001,
         "emotes": {
           "👋": 40,
           "⚠": 2,
@@ -13762,8 +13762,8 @@
       "stats": {
         "totalVotes": 3169,
         "totalSubs": 9,
-        "totalChatMessages": 510,
-        "totalStreamMinutes": 4287,
+        "totalChatMessages": 511,
+        "totalStreamMinutes": 4291,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 12,
@@ -13867,13 +13867,9 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788922421477
+        "lastChatAt": 1788924526259
       },
       "chatMemory": [
-        {
-          "user": "jaggerjack",
-          "msg": "You still up"
-        },
         {
           "user": "jaggerjack",
           "msg": "I mean you still up for a game or 2\n?"
@@ -13909,6 +13905,10 @@
         {
           "user": "jaggerjack",
           "msg": "better"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {
@@ -13924,9 +13924,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "🚨Valorant:Solo🚨Road to platinum — VALORANT",
-      "lastStreamInfo": "🚨Back4Blood🚨w/ @JaggerJack @FartVader — Games + Demos",
-      "lastStreamEndedAt": 1788891680631,
+      "streamTitle": "",
+      "lastStreamInfo": "🚨Valorant:Solo🚨Road to platinum — VALORANT",
+      "lastStreamEndedAt": 1788924526021,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f15f1816-f9c6-45ab-b076-748dc5a50310.png",
       "profile": "cr33pling’s Blaze channel is a high‑energy, emoji‑packed hub where “what’s uppp” and “patambay” echo through the chat. The crew loves spontaneous “🔥🔥🔥” bursts, constant “emote:6086f447” drops, and celebratory shoutouts for raids, subs, and votes. The game is a fast‑paced, community‑driven experience that thrives on spontaneous hype.",
@@ -14090,7 +14090,7 @@
         "totalVotes": 1974,
         "totalSubs": 0,
         "totalChatMessages": 123,
-        "totalStreamMinutes": 2591,
+        "totalStreamMinutes": 2596,
         "emotes": {
           "✌": 3,
           "🔥": 11,
@@ -15983,8 +15983,8 @@
     }
   },
   "auth": {
-    "accessToken": "8d7afd826601a614ce19cd708847cc6a",
-    "refreshToken": "c8ac277a9493651cbf1a995df370403d",
+    "accessToken": "9b333d069cc02395377a01d4286ae8c1",
+    "refreshToken": "376cba223f56999ace6c4e749c763973",
     "sessionToken": "7f2d7a73be69d2a1188ae28417756634",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
