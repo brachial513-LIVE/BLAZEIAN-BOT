@@ -1712,8 +1712,8 @@
       "language": "en",
       "stats": {
         "totalVotes": 21305,
-        "totalSubs": 167,
-        "totalChatMessages": 10129,
+        "totalSubs": 168,
+        "totalChatMessages": 10130,
         "totalStreamMinutes": 23972,
         "emotes": {
           "📊": 3,
@@ -2192,13 +2192,9 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788990421608
+        "lastChatAt": 1788994527326
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Lived here most my life"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:86c9645e-fcdb-4de1-bfa6-ce31e01a9193]"
@@ -2234,6 +2230,10 @@
         {
           "user": "foxbotai",
           "msg": "HUGE THANK YOU @vRoshi55 for subscribing! Welcome to the FoxBot AI family. +500 FoxCoins. Balance: 2650 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "HUGE THANK YOU @jt_squared2 for subscribing! Welcome to the FoxBot AI family. +500 FoxCoins. Balance: 4950 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -2285,6 +2285,11 @@
         },
         "vroshi55": {
           "name": "vroshi55",
+          "months": 1,
+          "tier": 1
+        },
+        "jt_squared2": {
+          "name": "jt_squared2",
           "months": 1,
           "tier": 1
         }
@@ -5633,7 +5638,7 @@
         "totalVotes": 6913,
         "totalSubs": 69,
         "totalChatMessages": 601,
-        "totalStreamMinutes": 15135,
+        "totalStreamMinutes": 15140,
         "emotes": {
           "❤": 103,
           "🙌": 36,
@@ -7918,7 +7923,7 @@
         "totalVotes": 6552,
         "totalSubs": 88,
         "totalChatMessages": 916,
-        "totalStreamMinutes": 3777,
+        "totalStreamMinutes": 3782,
         "emotes": {
           "❤": 31,
           "🙌": 88,
@@ -13706,7 +13711,7 @@
         "totalVotes": 1959,
         "totalSubs": 20,
         "totalChatMessages": 1585,
-        "totalStreamMinutes": 5048,
+        "totalStreamMinutes": 5052,
         "emotes": {
           "👋": 40,
           "⚠": 2,
@@ -15027,7 +15032,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 19,
-        "totalStreamMinutes": 364,
+        "totalStreamMinutes": 369,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -15157,7 +15162,7 @@
         "totalVotes": 3,
         "totalSubs": 1,
         "totalChatMessages": 8,
-        "totalStreamMinutes": 828,
+        "totalStreamMinutes": 833,
         "emotes": {
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 3
         },
@@ -16376,8 +16381,8 @@
     }
   },
   "auth": {
-    "accessToken": "8e2e078ccc82e9c5302c382241bb1860",
-    "refreshToken": "3288399dc73ae71e44b5c1d2379d88cb",
+    "accessToken": "747fdbb8957a691e1cefdcee482c5ed3",
+    "refreshToken": "ddbe79978739f7c1ad9b1fa2f994b9b8",
     "sessionToken": "ef463a6a87558da7fa05fecb56022565",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
