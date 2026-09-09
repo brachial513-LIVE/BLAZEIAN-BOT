@@ -2610,12 +2610,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 13999,
-        "totalSubs": 61,
-        "totalChatMessages": 5683,
+        "totalSubs": 62,
+        "totalChatMessages": 5684,
         "totalStreamMinutes": 17483,
         "emotes": {
           "❤": 192,
-          "🙌": 134,
+          "🙌": 135,
           "🗳": 816,
           "📴": 139,
           "👋": 158,
@@ -2626,7 +2626,7 @@
           "💎": 7,
           "🎁": 95,
           "📢": 32,
-          "🔥": 360,
+          "🔥": 362,
           "😘": 30,
           "🥺": 10,
           "🥷": 14,
@@ -2881,14 +2881,10 @@
           "😥": "😥",
           "ed33deac-91d6-41ec-b190-7b36e266af70": "PLAINPYRO"
         },
-        "lastChatAt": 1788989535703,
+        "lastChatAt": 1788991990721,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "yeah"
-        },
         {
           "user": "desirablebottom",
           "msg": "to emotes lol"
@@ -2924,6 +2920,10 @@
         {
           "user": "botger",
           "msg": "*** BOTGER IS BACK UP **\r\nbotger should be back up and running. If you notice anyy issues, please let me (badger) know immediately. You can tag me in discord or submit a support ticket from the botger support page. Thank you for your patience."
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @marioscy5 has resubscribed — 3 months total, 2 months streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {
@@ -3006,6 +3006,11 @@
         },
         "briggsy": {
           "name": "briggsy",
+          "months": 1,
+          "tier": 1
+        },
+        "marioscy5": {
+          "name": "marioscy5",
           "months": 1,
           "tier": 1
         }
@@ -7913,7 +7918,7 @@
         "totalVotes": 6545,
         "totalSubs": 88,
         "totalChatMessages": 916,
-        "totalStreamMinutes": 3732,
+        "totalStreamMinutes": 3737,
         "emotes": {
           "❤": 31,
           "🙌": 88,
@@ -10668,7 +10673,7 @@
       "stats": {
         "totalVotes": 10095,
         "totalSubs": 5,
-        "totalChatMessages": 11104,
+        "totalChatMessages": 11110,
         "totalStreamMinutes": 11073,
         "emotes": {
           "❤": 33,
@@ -10678,7 +10683,7 @@
           "🔴": 65,
           "🎉": 108,
           "🪙": 436,
-          "⚡": 104,
+          "⚡": 106,
           "👀": 8,
           "🍿": 2,
           "🤗": 4,
@@ -10915,25 +10920,9 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788990316559
+        "lastChatAt": 1788992026226
       },
       "chatMemory": [
-        {
-          "user": "sofrenciaplay",
-          "msg": "boa lipe"
-        },
-        {
-          "user": "botger",
-          "msg": "*** BOTGER IS BACK UP **\r\nbotger should be back up and running. If you notice anyy issues, please let me (badger) know immediately. You can tag me in discord or submit a support ticket from the botger support page. Thank you for your patience."
-        },
-        {
-          "user": "botger",
-          "msg": "loja do canal: https://botger.devely.ca/shop/sofrenciaplay"
-        },
-        {
-          "user": "botger",
-          "msg": "Thank you for redeeming JOGA SEU JOGO 1H E 30M @LipeMan!"
-        },
         {
           "user": "lipeman",
           "msg": "por enquanto mais uma parte do castlevania"
@@ -10957,6 +10946,22 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "⚡ sofrenciaplay — Level 0 | 295 XP (705 to Level 1)"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "Ola"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "Rapaz que isso."
+        },
+        {
+          "user": "botger",
+          "msg": "⚡ sofrenciaplay — Level 0 | 325 XP (675 to Level 1)"
         }
       ],
       "customCommands": {},
@@ -15022,7 +15027,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 19,
-        "totalStreamMinutes": 319,
+        "totalStreamMinutes": 324,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -15152,7 +15157,7 @@
         "totalVotes": 3,
         "totalSubs": 1,
         "totalChatMessages": 8,
-        "totalStreamMinutes": 783,
+        "totalStreamMinutes": 788,
         "emotes": {
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 3
         },
@@ -16371,8 +16376,8 @@
     }
   },
   "auth": {
-    "accessToken": "9af2c362dea3b8e7209861501d4ab428",
-    "refreshToken": "d485ecbb0761ae88ab2a6ec6e8db1c29",
+    "accessToken": "8e2e078ccc82e9c5302c382241bb1860",
+    "refreshToken": "3288399dc73ae71e44b5c1d2379d88cb",
     "sessionToken": "ef463a6a87558da7fa05fecb56022565",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
