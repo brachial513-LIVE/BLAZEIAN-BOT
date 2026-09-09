@@ -2535,7 +2535,7 @@
         "totalVotes": 13998,
         "totalSubs": 57,
         "totalChatMessages": 5520,
-        "totalStreamMinutes": 17230,
+        "totalStreamMinutes": 17235,
         "emotes": {
           "❤": 192,
           "🙌": 134,
@@ -11112,7 +11112,7 @@
       "stats": {
         "totalVotes": 15666,
         "totalSubs": 27,
-        "totalChatMessages": 3302,
+        "totalChatMessages": 3304,
         "totalStreamMinutes": 5381,
         "emotes": {
           "❤": 72,
@@ -11327,17 +11327,9 @@
           "🌹": "🌹"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788906292525
+        "lastChatAt": 1788954185116
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@cptfive just subscribed for the first month! Welcome to the community! 🎉"
-        },
-        {
-          "user": "tarzan",
-          "msg": "Hello beautiful person"
-        },
         {
           "user": "tarzan",
           "msg": "How are you doing today 🌹🌹🌹🌹🌹"
@@ -11369,6 +11361,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 5 votes, @eze_!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @poordao!"
+        },
+        {
+          "user": "poordao",
+          "msg": "we heard you want to join our group orgy"
         }
       ],
       "customCommands": {},
@@ -11635,7 +11635,7 @@
         "totalVotes": 2716,
         "totalSubs": 24,
         "totalChatMessages": 141,
-        "totalStreamMinutes": 1149,
+        "totalStreamMinutes": 1154,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -16137,8 +16137,8 @@
     }
   },
   "auth": {
-    "accessToken": "7140a5d69df9a61651045ae570c89682",
-    "refreshToken": "cd40917edb91d85d9baccf1ad0015831",
+    "accessToken": "4d87780518f21b98e27a53d74b70aae0",
+    "refreshToken": "6edae41742bf52e91f077dfe2baf1e00",
     "sessionToken": "7f2d7a73be69d2a1188ae28417756634",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
