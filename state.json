@@ -1228,7 +1228,7 @@
       "stats": {
         "totalVotes": 16881,
         "totalSubs": 39,
-        "totalChatMessages": 23765,
+        "totalChatMessages": 23766,
         "totalStreamMinutes": 2471,
         "emotes": {
           "🔥": 1628,
@@ -1496,7 +1496,7 @@
           "🥂": "🥂",
           "🍀": "🍀"
         },
-        "lastChatAt": 1788959698258,
+        "lastChatAt": 1788959699490,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1504,10 +1504,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "dangerous"
-        },
         {
           "user": "nekoschwan",
           "msg": "scary"
@@ -1543,6 +1539,10 @@
         {
           "user": "cedricdebled",
           "msg": "We need 4k HD"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "it's on tiktok shop here in philippines though"
         }
       ],
       "customCommands": {},
@@ -16019,8 +16019,8 @@
     }
   },
   "auth": {
-    "accessToken": "3854e40e75b85c615e7835be08a2ed0a",
-    "refreshToken": "b0c1be175a2601bd3f1f5cd5fe88837f",
+    "accessToken": "7678fa9af1ed3ef6818f4ae25d77642d",
+    "refreshToken": "fcde94e8b30907af7dd7332b57c539f0",
     "sessionToken": "7f2d7a73be69d2a1188ae28417756634",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
