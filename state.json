@@ -2534,8 +2534,8 @@
       "stats": {
         "totalVotes": 13998,
         "totalSubs": 57,
-        "totalChatMessages": 5519,
-        "totalStreamMinutes": 17210,
+        "totalChatMessages": 5520,
+        "totalStreamMinutes": 17230,
         "emotes": {
           "❤": 192,
           "🙌": 134,
@@ -2657,7 +2657,7 @@
           "🫢": 1,
           "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": 8,
           "f6f2189c-c5fb-4f5b-a252-118456b6944d": 1,
-          "e249163f-4c3c-45de-91dd-68d0ee9c1b9e": 65,
+          "e249163f-4c3c-45de-91dd-68d0ee9c1b9e": 68,
           "76ac420f-19f7-45a6-aa7c-f4caecc97bd2": 84,
           "0fff3eeb-6c7b-47af-b93b-545a58d3d42b": 29,
           "1bbf93f2-2f56-4c15-b468-a094de4be20b": 15,
@@ -2802,14 +2802,10 @@
           "😬": "😬",
           "😥": "😥"
         },
-        "lastChatAt": 1788950103738,
+        "lastChatAt": 1788953403449,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "zer0cache",
-          "msg": "i just missed you 🥺"
-        },
         {
           "user": "agent00zani",
           "msg": "how are you today guys and girls"
@@ -2845,6 +2841,10 @@
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "[emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e] [emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e] [emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e]"
         }
       ],
       "customCommands": {
@@ -8444,9 +8444,9 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 7729,
+        "totalVotes": 7754,
         "totalSubs": 40,
-        "totalChatMessages": 1887,
+        "totalChatMessages": 1888,
         "totalStreamMinutes": 3327,
         "emotes": {
           "❤": 135,
@@ -8601,13 +8601,9 @@
           "65f30a4f-e430-47dd-890d-9094d7a87ecd": "YEET"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788941366564
+        "lastChatAt": 1788953291604
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @He_Nose!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @He_Nose just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -8643,6 +8639,10 @@
         {
           "user": "scurvybot",
           "msg": "@avisi resubscribed, they've been subbed for 2 months! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 25 votes, @tuff3rmrd3ano!"
         }
       ],
       "customCommands": {},
@@ -11633,9 +11633,9 @@
       "joinedAt": 1785110114264,
       "stats": {
         "totalVotes": 2716,
-        "totalSubs": 23,
-        "totalChatMessages": 137,
-        "totalStreamMinutes": 1129,
+        "totalSubs": 24,
+        "totalChatMessages": 141,
+        "totalStreamMinutes": 1149,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -11677,25 +11677,9 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788952669574
+        "lastChatAt": 1788953853972
       },
       "chatMemory": [
-        {
-          "user": "lunaria",
-          "msg": "sa FN ok"
-        },
-        {
-          "user": "lunaria",
-          "msg": "yaan mo na haha"
-        },
-        {
-          "user": "lunaria",
-          "msg": "ayy ito isang FN stream q check mo to parang basag"
-        },
-        {
-          "user": "lunaria",
-          "msg": "https://blaze.stream/videos/8024897d-10b8-4c0a-be36-6f0007c26e4c"
-        },
         {
           "user": "lunaria",
           "msg": "yan ung sinasabi q"
@@ -11719,6 +11703,22 @@
         {
           "user": "panipeys",
           "msg": "@retrogains thank you for the vote!"
+        },
+        {
+          "user": "lunaria",
+          "msg": "kalakal boss?"
+        },
+        {
+          "user": "panipeys",
+          "msg": "g"
+        },
+        {
+          "user": "panipeys",
+          "msg": "rinig ba ko"
+        },
+        {
+          "user": "lunaria",
+          "msg": "sorry naka mute, nasa discord kase aq ng RF"
         }
       ],
       "customCommands": {},
@@ -11739,6 +11739,11 @@
       "loyalty": {
         "missaria": {
           "name": "missaria",
+          "months": 1,
+          "tier": 1
+        },
+        "lunaria": {
+          "name": "lunaria",
           "months": 1,
           "tier": 1
         }
@@ -14084,7 +14089,7 @@
       "stats": {
         "totalVotes": 3129,
         "totalSubs": 3,
-        "totalChatMessages": 164,
+        "totalChatMessages": 165,
         "totalStreamMinutes": 282,
         "emotes": {
           "🥰": 23,
@@ -14108,7 +14113,8 @@
           "🙃": 1,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 1,
           "😌": 1,
-          "👋": 1
+          "👋": 1,
+          "dedb0949-63d9-4d58-86d1-ecf0269453d3": 1
         },
         "emoteNames": {
           "🥰": "🥰",
@@ -14132,16 +14138,13 @@
           "🙃": "🙃",
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE",
           "😌": "😌",
-          "👋": "👋"
+          "👋": "👋",
+          "dedb0949-63d9-4d58-86d1-ecf0269453d3": "PYROSEGG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788789432738
+        "lastChatAt": 1788953301102
       },
       "chatMemory": [
-        {
-          "user": "mediart",
-          "msg": "Please buy some vote and vote me @blazeian_bot_ai"
-        },
         {
           "user": "mediart",
           "msg": "Please @blazeian_bot_ai 🥰🙏"
@@ -14177,6 +14180,10 @@
         {
           "user": "mediart",
           "msg": "Hi @yamall9, you too🥰"
+        },
+        {
+          "user": "brachial513",
+          "msg": "[emote:dedb0949-63d9-4d58-86d1-ecf0269453d3]"
         }
       ],
       "customCommands": {},
@@ -15422,9 +15429,9 @@
       "n": 8
     },
     "nadietv": {
-      "note": "Energetic gamer who loves folk music, enjoys prog metal, and frequently reacts with laughing emotes and playful comments.",
-      "at": 1788894420877,
-      "n": 25
+      "note": "They enjoy playing Dawn of Battle, love folk and progressive metal,",
+      "at": 1788953821168,
+      "n": 26
     },
     "johngalt": {
       "note": "Enjoys playing games, especially pyros, and brings a lighthearted, humorous tone to chats.",
