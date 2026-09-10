@@ -1725,8 +1725,8 @@
       "stats": {
         "totalVotes": 21305,
         "totalSubs": 170,
-        "totalChatMessages": 10214,
-        "totalStreamMinutes": 24243,
+        "totalChatMessages": 10219,
+        "totalStreamMinutes": 24263,
         "emotes": {
           "📊": 3,
           "🔥": 482,
@@ -1939,7 +1939,7 @@
           "😴": 1,
           "16a3e670-dc91-4b4a-a7cf-a6ce361e66a2": 9,
           "b05156cf-7925-4298-8e19-f29e294cc793": 1,
-          "c96a6fe5-1123-404c-8768-789f05af7690": 5,
+          "c96a6fe5-1123-404c-8768-789f05af7690": 6,
           "23b84aa5-3ac2-4d27-a76d-bbce48c6bea3": 5,
           "0d894430-c7fd-4036-9275-ec213522ff2c": 5,
           "3ee22006-ef93-47bd-a90d-0ee7fec2e0cc": 3,
@@ -2204,25 +2204,9 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789016386097
+        "lastChatAt": 1789016905444
       },
       "chatMemory": [
-        {
-          "user": "potato_pete",
-          "msg": "hey thank you fro the sub!!!"
-        },
-        {
-          "user": "potato_pete",
-          "msg": "[emote:36d81463-d945-442b-8b8b-74f298f4d9e5] [emote:36d81463-d945-442b-8b8b-74f298f4d9e5] [emote:36d81463-d945-442b-8b8b-74f298f4d9e5]"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "You are welcome!"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🃏 @crypt0k1ng96, 8♦ K♥ (18) vs dealer Q♠ A♥ (21) — you lost 30 promo. Balance: 1886 promo."
-        },
         {
           "user": "foxbotai",
           "msg": "🎰 @crypt0k1ng96, 💜 7️⃣ 💜 — you lost 30 promo. Balance: 1856 promo."
@@ -2246,6 +2230,22 @@
         {
           "user": "foxbotai",
           "msg": "Follow the creator here: Blaze: https://blaze.stream/crypt0k1ng96 | X: x.com/pardon_my_trade | YouTube: youtube.com/@Crypt0k1ng96 | Rumble: rumble.com/Crypt0k1ng96"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Ty for the follow !!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:c96a6fe5-1123-404c-8768-789f05af7690]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Welcome in!!"
         }
       ],
       "customCommands": {},
@@ -7824,7 +7824,7 @@
         "totalVotes": 9281,
         "totalSubs": 191,
         "totalChatMessages": 291,
-        "totalStreamMinutes": 7411,
+        "totalStreamMinutes": 7431,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -12032,14 +12032,14 @@
       "joinedAt": 1785231455893,
       "stats": {
         "totalVotes": 5505,
-        "totalSubs": 65,
-        "totalChatMessages": 1036,
+        "totalSubs": 66,
+        "totalChatMessages": 1037,
         "totalStreamMinutes": 2808,
         "emotes": {
           "❤": 91,
-          "🙌": 91,
+          "🙌": 92,
           "💚": 3,
-          "🔥": 83,
+          "🔥": 85,
           "🔴": 23,
           "🎉": 31,
           "💛": 8,
@@ -12182,17 +12182,13 @@
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": "BLAZEICON"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788998077327,
+        "lastChatAt": 1789017401612,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "cabsss",
-          "msg": "[emote:fb95c5e5-03ab-4936-891a-2b4635354d8a] [emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713] [emote:08f6c288-8783-4457-9261-dc00f02c6b4a]"
-        },
         {
           "user": "nekoschwan",
           "msg": "gamble?"
@@ -12228,6 +12224,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @SEEKAS just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @russelfpsx has resubscribed — 2 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -12281,6 +12281,11 @@
         },
         "fartvader": {
           "name": "fartvader",
+          "months": 1,
+          "tier": 1
+        },
+        "russelfpsx": {
+          "name": "russelfpsx",
           "months": 1,
           "tier": 1
         }
@@ -12646,8 +12651,8 @@
       "joinedAt": 1785809834886,
       "stats": {
         "totalVotes": 71881,
-        "totalSubs": 22,
-        "totalChatMessages": 956,
+        "totalSubs": 23,
+        "totalChatMessages": 957,
         "totalStreamMinutes": 1912,
         "emotes": {
           "💚": 1,
@@ -12656,7 +12661,7 @@
           "🤓": 1,
           "😂": 18,
           "🤡": 1,
-          "🔥": 18,
+          "🔥": 20,
           "😃": 1,
           "😇": 2,
           "❤": 38,
@@ -12665,7 +12670,7 @@
           "⚠": 2,
           "🎯": 2,
           "🗳": 156,
-          "🙌": 29,
+          "🙌": 30,
           "✌": 1,
           "📴": 13,
           "🔴": 12,
@@ -12745,17 +12750,13 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
           "🤣": "🤣"
         },
-        "sendFailStreak": 190,
-        "lastChatAt": 1789004000085,
-        "lastSendFailAt": 1788969980666,
+        "sendFailStreak": 191,
+        "lastChatAt": 1789016684402,
+        "lastSendFailAt": 1789016684535,
         "lastSendFailReason": "You are banned from this channel.",
-        "lastProbeAt": 1788969980424
+        "lastProbeAt": 1789016684372
       },
       "chatMemory": [
-        {
-          "user": "hydra",
-          "msg": "hey clutch!"
-        },
         {
           "user": "hydra",
           "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
@@ -12791,6 +12792,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @NadieTv just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @joseph has resubscribed — 4 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -12840,6 +12845,11 @@
         },
         "xeukuxaixang": {
           "name": "xeukuxaixang",
+          "months": 1,
+          "tier": 1
+        },
+        "joseph": {
+          "name": "joseph",
           "months": 1,
           "tier": 1
         }
@@ -13788,8 +13798,8 @@
       "stats": {
         "totalVotes": 1960,
         "totalSubs": 21,
-        "totalChatMessages": 1684,
-        "totalStreamMinutes": 5366,
+        "totalChatMessages": 1687,
+        "totalStreamMinutes": 5386,
         "emotes": {
           "👋": 41,
           "⚠": 2,
@@ -13937,17 +13947,9 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789015686346
+        "lastChatAt": 1789017369214
       },
       "chatMemory": [
-        {
-          "user": "onyxouroboros",
-          "msg": "mystery fish promo pack found with some trash bait"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/b57cd4c58eb7afb9062ff1b3c26a5193aa4aa40eea352df2ea6622c1c92e5bee"
-        },
         {
           "user": "onyxouroboros",
           "msg": "using trash to catch fish"
@@ -13979,6 +13981,14 @@
         {
           "user": "scurvybot",
           "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/fc7684784d4bfc7668da483973bb576c2a2abdb7eade25da67380b30b532dd67"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/1e81f91425037b4f4f5d2fdbe140c285f6ab51a509e4d835393fe8bf40863439"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "mystery fish caught with some trash"
         }
       ],
       "customCommands": {
