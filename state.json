@@ -1719,7 +1719,7 @@
         "totalVotes": 21305,
         "totalSubs": 168,
         "totalChatMessages": 10140,
-        "totalStreamMinutes": 24143,
+        "totalStreamMinutes": 24153,
         "emotes": {
           "📊": 3,
           "🔥": 482,
@@ -7058,7 +7058,7 @@
         "totalVotes": 13759,
         "totalSubs": 54,
         "totalChatMessages": 12257,
-        "totalStreamMinutes": 8207,
+        "totalStreamMinutes": 8217,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -7817,7 +7817,7 @@
         "totalVotes": 9281,
         "totalSubs": 191,
         "totalChatMessages": 291,
-        "totalStreamMinutes": 7311,
+        "totalStreamMinutes": 7321,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -8887,8 +8887,8 @@
       "stats": {
         "totalVotes": 18897,
         "totalSubs": 114,
-        "totalChatMessages": 2062,
-        "totalStreamMinutes": 11161,
+        "totalChatMessages": 2063,
+        "totalStreamMinutes": 11171,
         "emotes": {
           "❤": 88,
           "🙌": 154,
@@ -8929,7 +8929,7 @@
           "e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f": 13,
           "8f198fe9-5250-4aaa-8783-ce311112d551": 5,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 2,
-          "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 11,
+          "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 14,
           "ef07187d-8e6c-42b9-af9c-b732de7949cb": 13,
           "e378281b-e1b0-44be-95f5-eb1cd26dedf0": 19,
           "👉": 1,
@@ -9064,13 +9064,9 @@
           "💛": "💛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789007438626
+        "lastChatAt": 1789010962428
       },
       "chatMemory": [
-        {
-          "user": "badger",
-          "msg": "okay i go back.. have a great stream and a great day!!"
-        },
         {
           "user": "badger",
           "msg": "9:45pm"
@@ -9106,6 +9102,10 @@
         {
           "user": "fartvader",
           "msg": "sure broskii..am gonna go and take some rest again..see you again soon..have fun with your game [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0] [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0]"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "[emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d] [emote:ba9147e0-6646-4b53-87f3-1147eb8bd30d]"
         }
       ],
       "customCommands": {},
@@ -13489,7 +13489,7 @@
       "joinedAt": 1786592864058,
       "stats": {
         "totalVotes": 1732,
-        "totalSubs": 10,
+        "totalSubs": 11,
         "totalChatMessages": 1218,
         "totalStreamMinutes": 5433,
         "emotes": {
@@ -13646,7 +13646,14 @@
       "_profileAtCount": 1217,
       "nudgedAt": 1787168510541,
       "nudgedKey": "schedule",
-      "botVip": true
+      "botVip": true,
+      "loyalty": {
+        "fartvader": {
+          "name": "fartvader",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "00c816e5-574d-43f3-90c7-1808ae8a702e": {
       "username": "generalkev",
@@ -13745,7 +13752,7 @@
         "totalVotes": 1960,
         "totalSubs": 20,
         "totalChatMessages": 1659,
-        "totalStreamMinutes": 5267,
+        "totalStreamMinutes": 5276,
         "emotes": {
           "👋": 41,
           "⚠": 2,
@@ -16486,8 +16493,8 @@
     }
   },
   "auth": {
-    "accessToken": "71ff7bf476788b251a26074bf1f49c7f",
-    "refreshToken": "a078439e8c14649fd938c71f28f0d8af",
+    "accessToken": "57123b38d5b7a9bef64905fbff23ab98",
+    "refreshToken": "10760b8805748973ddee442405d9f545",
     "sessionToken": "ef463a6a87558da7fa05fecb56022565",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
