@@ -8895,7 +8895,7 @@
         "totalVotes": 18897,
         "totalSubs": 114,
         "totalChatMessages": 2079,
-        "totalStreamMinutes": 11235,
+        "totalStreamMinutes": 11240,
         "emotes": {
           "❤": 88,
           "🙌": 154,
@@ -11388,7 +11388,7 @@
         "totalVotes": 15674,
         "totalSubs": 28,
         "totalChatMessages": 3423,
-        "totalStreamMinutes": 5709,
+        "totalStreamMinutes": 5714,
         "emotes": {
           "❤": 72,
           "🙌": 51,
@@ -12044,10 +12044,10 @@
       "language": "en",
       "joinedAt": 1785231455893,
       "stats": {
-        "totalVotes": 5515,
+        "totalVotes": 5575,
         "totalSubs": 67,
-        "totalChatMessages": 1042,
-        "totalStreamMinutes": 2821,
+        "totalChatMessages": 1043,
+        "totalStreamMinutes": 2826,
         "emotes": {
           "❤": 91,
           "🙌": 93,
@@ -12056,7 +12056,7 @@
           "🔴": 24,
           "🎉": 32,
           "💛": 9,
-          "🗳": 222,
+          "🗳": 225,
           "🎁": 108,
           "📴": 22,
           "👋": 26,
@@ -12195,17 +12195,13 @@
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": "BLAZEICON"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789042374649,
+        "lastChatAt": 1789043289284,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "*** BOTGER IS BACK UP **\r\nbotger should be back up and running. If you notice anyy issues, please let me (badger) know immediately. You can tag me in discord or submit a support ticket from the botger support page. Thank you for your patience."
-        },
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @FartVader has resubscribed — 5 months total, 3 months streak! Thank you for the continued support! 🙌"
@@ -12241,6 +12237,10 @@
         {
           "user": "missaria",
           "msg": "Who's claiming these entries? 👀"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 60 vote(s) (total: 60)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -13538,7 +13538,7 @@
       "language": "en",
       "joinedAt": 1786592864058,
       "stats": {
-        "totalVotes": 1732,
+        "totalVotes": 1757,
         "totalSubs": 14,
         "totalChatMessages": 1218,
         "totalStreamMinutes": 5433,
@@ -16614,8 +16614,8 @@
     }
   },
   "auth": {
-    "accessToken": "12914a7a1c49b4d97566ab17aed9e944",
-    "refreshToken": "5a6aa2a225f485f7255b2e4d173be452",
+    "accessToken": "40a5476447a6a9ee9fd527b08a1c9ead",
+    "refreshToken": "7d87375b8acce3ea4d5d5547361f8d89",
     "sessionToken": "ef463a6a87558da7fa05fecb56022565",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
