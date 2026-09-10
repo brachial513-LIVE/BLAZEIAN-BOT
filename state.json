@@ -15354,13 +15354,19 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1789008322553
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "poderosotv",
+          "msg": "@blazeian_bot_ai, obrigado por seguir a live!"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -15373,7 +15379,10 @@
         "entries": []
       },
       "timedMessages": [],
-      "tipTiers": []
+      "tipTiers": [],
+      "locked": false,
+      "followed": true,
+      "botVip": true
     }
   },
   "blocklist": [
