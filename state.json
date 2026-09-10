@@ -9503,7 +9503,7 @@
         "totalVotes": 4066,
         "totalSubs": 22,
         "totalChatMessages": 207,
-        "totalStreamMinutes": 5718,
+        "totalStreamMinutes": 5738,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -9925,16 +9925,16 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 34423,
-        "totalSubs": 45,
-        "totalChatMessages": 2681,
+        "totalVotes": 34523,
+        "totalSubs": 46,
+        "totalChatMessages": 2683,
         "totalStreamMinutes": 1182,
         "emotes": {
           "❤": 43,
-          "🙌": 80,
-          "🗳": 597,
+          "🙌": 81,
+          "🗳": 600,
           "💰": 30,
-          "🔥": 60,
+          "🔥": 62,
           "💛": 3,
           "🔴": 26,
           "🎉": 29,
@@ -10122,21 +10122,13 @@
           "💩": "💩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788989705328,
+        "lastChatAt": 1789036116301,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "At least I’m not trapped with the app. I can always fall back on the web browser for the things I don’t have or don’t like."
-        },
-        {
-          "user": "briggsy",
-          "msg": "I can use either one."
-        },
         {
           "user": "briggsy",
           "msg": "I became pretty adept at the browser on my phone."
@@ -10168,6 +10160,14 @@
         {
           "user": "botger",
           "msg": "*** BOTGER IS BACK UP **\r\nbotger should be back up and running. If you notice anyy issues, please let me (badger) know immediately. You can tag me in discord or submit a support ticket from the botger support page. Thank you for your patience."
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @joseph has resubscribed — 10 months total, 6 months streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -10218,6 +10218,11 @@
         },
         "xeukuxaixang": {
           "name": "xeukuxaixang",
+          "months": 1,
+          "tier": 1
+        },
+        "joseph": {
+          "name": "joseph",
           "months": 1,
           "tier": 1
         }
@@ -11382,8 +11387,8 @@
       "stats": {
         "totalVotes": 15669,
         "totalSubs": 28,
-        "totalChatMessages": 3381,
-        "totalStreamMinutes": 5579,
+        "totalChatMessages": 3388,
+        "totalStreamMinutes": 5599,
         "emotes": {
           "❤": 72,
           "🙌": 51,
@@ -11396,7 +11401,7 @@
           "😶": 36,
           "🌫": 36,
           "🤣": 21,
-          "😂": 57,
+          "😂": 66,
           "📴": 51,
           "👋": 65,
           "🚨": 156,
@@ -11601,37 +11606,9 @@
           "😳": "😳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789035092283
+        "lastChatAt": 1789036291828
       },
       "chatMemory": [
-        {
-          "user": "cedricdebled",
-          "msg": "You got hurt"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "Last game you paired all 3 I remmember"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "Trying to kill god is the name of the game ?"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "Is there a build up towards this ? HAve you like gaming for days before getting here ?"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "This time she still stands"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "WOW !"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "wow she is bare foot !"
-        },
         {
           "user": "cedricdebled",
           "msg": "They are tired, you can see it how they breath."
@@ -11643,6 +11620,34 @@
         {
           "user": "cedricdebled",
           "msg": "ALMOST HALF OF HIS HEALTH"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "DID HE TAKE 2 TURNS OF AROUDN 6 HITS !"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "WOW TO your MOVES !!!"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "All PAired !!!"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "WOW you are so close !"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "Literlly \"WE did it\" !"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "Love this character"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "😂😂😂😂😂😂😂😂😂"
         }
       ],
       "customCommands": {},
@@ -12315,7 +12320,7 @@
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 2057,
+        "totalVotes": 2058,
         "totalSubs": 48,
         "totalChatMessages": 1025,
         "totalStreamMinutes": 4127,
@@ -13376,7 +13381,7 @@
       "language": "en",
       "joinedAt": 1786542046720,
       "stats": {
-        "totalVotes": 1434,
+        "totalVotes": 1435,
         "totalSubs": 11,
         "totalChatMessages": 501,
         "totalStreamMinutes": 3308,
@@ -15792,8 +15797,8 @@
     },
     "desirablebottom": {
       "note": "Enthusiastic Valorant gamer who loves lighthearted humor, pop‑culture references, encouraging teammates, and playful, edgy banter.",
-      "at": 1788983521067,
-      "n": 28
+      "at": 1789035660975,
+      "n": 29
     },
     "tarzan": {
       "note": "Friendly gamer who loves Helldivers and Super Mario, uses playful banter and emojis to engage warmly with viewers.",
