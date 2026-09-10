@@ -1725,8 +1725,8 @@
       "stats": {
         "totalVotes": 21306,
         "totalSubs": 170,
-        "totalChatMessages": 10224,
-        "totalStreamMinutes": 24333,
+        "totalChatMessages": 10226,
+        "totalStreamMinutes": 24339,
         "emotes": {
           "📊": 3,
           "🔥": 482,
@@ -2204,13 +2204,9 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789019557739
+        "lastChatAt": 1789022224287
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "Follow the creator here: Blaze: https://blaze.stream/crypt0k1ng96 | X: x.com/pardon_my_trade | YouTube: youtube.com/@Crypt0k1ng96 | Rumble: rumble.com/Crypt0k1ng96"
-        },
         {
           "user": "foxbotai",
           "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
@@ -2246,6 +2242,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
         }
       ],
       "customCommands": {},
@@ -2254,7 +2254,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "GTA 5 STORY MODE REPLAY 🔥👀 TEXT-TO-SPEECH IS HERE 🔥 FREE CASINO GAMES 🎰 300 VOTE GIVEAWAY 🔥 FOXBOT CASINO IS LIVE 🎰 — Grand Theft Auto V",
+      "streamTitle": "",
       "profile": "Welcome to Wilder World game nights! Expect “FOX BOT” love, “RIP” jokes, “BLAZE THE DAY” vibes, “SLAY DRAGONS”, “LOVE FEST” moments, wheelspins, giveaways, interactive blackjack, and “RAID” cheers. Spin the wheel, vote for OTG NFTs, celebrate wins with “congets” and “congrats”, keep the hype alive with “BLAZE THE DAY” energy. 🚀",
       "_profileAtCount": 10128,
       "gameOverride": "",
@@ -2262,8 +2262,8 @@
       "nudgedAt": 1785001902195,
       "nudgedKey": "schedule",
       "commentMode": "heavy",
-      "lastStreamInfo": "GTA 6 DEEP DIVE 🔥👀 TEXT-TO-SPEECH IS HERE 🔥 FREE CASINO GAMES 🎰 300 VOTE GIVEAWAY 🔥 FOXBOT CASINO IS LIVE 🎰 — Grand Theft Auto: Vice City",
-      "lastStreamEndedAt": 1789000925971,
+      "lastStreamInfo": "GTA 5 STORY MODE REPLAY 🔥👀 TEXT-TO-SPEECH IS HERE 🔥 FREE CASINO GAMES 🎰 300 VOTE GIVEAWAY 🔥 FOXBOT CASINO IS LIVE 🎰 — Grand Theft Auto V",
+      "lastStreamEndedAt": 1789022187124,
       "loyalty": {
         "mpfeiffer": {
           "name": "mpfeiffer",
@@ -7824,7 +7824,7 @@
         "totalVotes": 9281,
         "totalSubs": 191,
         "totalChatMessages": 291,
-        "totalStreamMinutes": 7501,
+        "totalStreamMinutes": 7521,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -15510,7 +15510,8 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/372eda2b-f7d7-4967-8e5b-6560f39c36d9-profile_image-300x300.png"
     }
   },
   "blocklist": [
