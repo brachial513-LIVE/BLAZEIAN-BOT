@@ -11623,8 +11623,8 @@
       "stats": {
         "totalVotes": 15700,
         "totalSubs": 28,
-        "totalChatMessages": 3454,
-        "totalStreamMinutes": 5806,
+        "totalChatMessages": 3455,
+        "totalStreamMinutes": 5811,
         "emotes": {
           "❤": 72,
           "🙌": 51,
@@ -11844,13 +11844,9 @@
           "🤍": "🤍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789110391765
+        "lastChatAt": 1789110740061
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "botger",
           "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
@@ -11886,6 +11882,10 @@
         {
           "user": "fartvader",
           "msg": "hahaha thats why i didnt bought the game..im bad at timing..but you're doing better than me"
+        },
+        {
+          "user": "fartvader",
+          "msg": "oh the charge up"
         }
       ],
       "customCommands": {},
@@ -11988,7 +11988,7 @@
         "totalVotes": 3145,
         "totalSubs": 1,
         "totalChatMessages": 55,
-        "totalStreamMinutes": 3126,
+        "totalStreamMinutes": 3131,
         "emotes": {
           "🔥": 10,
           "🐺": 2,
@@ -12165,7 +12165,7 @@
       "language": "en",
       "joinedAt": 1785110114264,
       "stats": {
-        "totalVotes": 2871,
+        "totalVotes": 2872,
         "totalSubs": 25,
         "totalChatMessages": 143,
         "totalStreamMinutes": 1295,
@@ -12575,7 +12575,7 @@
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 2396,
+        "totalVotes": 2397,
         "totalSubs": 49,
         "totalChatMessages": 1029,
         "totalStreamMinutes": 4127,
@@ -13672,7 +13672,7 @@
       "language": "en",
       "joinedAt": 1786542046720,
       "stats": {
-        "totalVotes": 1452,
+        "totalVotes": 1453,
         "totalSubs": 11,
         "totalChatMessages": 503,
         "totalStreamMinutes": 3308,
@@ -17074,8 +17074,8 @@
     }
   },
   "auth": {
-    "accessToken": "5bded73362cf4534de10394ca70d3587",
-    "refreshToken": "6d477ed8f7c5f119dc6575ee9d56e55d",
+    "accessToken": "62eb30f994e03ff1b1dcca33eb03c33e",
+    "refreshToken": "bdc814f55fee432dc8a3500725a5a55d",
     "sessionToken": "a420b6b4e67d05c0ad574a4d07bed87b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
