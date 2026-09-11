@@ -4252,12 +4252,12 @@
       "stats": {
         "totalVotes": 8216,
         "totalSubs": 37,
-        "totalChatMessages": 1601,
-        "totalStreamMinutes": 7990,
+        "totalChatMessages": 1611,
+        "totalStreamMinutes": 8010,
         "emotes": {
           "✨": 35,
           "🖥": 21,
-          "🔥": 149,
+          "🔥": 152,
           "👋": 84,
           "🎬": 79,
           "❤": 105,
@@ -4282,7 +4282,7 @@
           "🙌": 251,
           "💩": 47,
           "🤣": 3,
-          "😂": 28,
+          "😂": 31,
           "🧐": 3,
           "🎷": 1,
           "🗺": 1,
@@ -4337,7 +4337,7 @@
           "579e7563-f746-44e4-9db3-2aa0648e31d1": 19,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 16,
           "74192a2b-0a2f-4ad7-b099-9cabee57b09e": 9,
-          "01caf6d4-f183-49ad-a652-8f85bea84607": 5,
+          "01caf6d4-f183-49ad-a652-8f85bea84607": 6,
           "b05156cf-7925-4298-8e19-f29e294cc793": 2,
           "9fc90900-beb2-4aa5-8c45-1e72eef81f82": 3,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 5,
@@ -4351,7 +4351,8 @@
           "🏎": 1,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 1,
           "🙄": 1,
-          "🤔": 1
+          "🤔": 1,
+          "😢": 1
         },
         "emoteNames": {
           "✨": "✨",
@@ -4450,51 +4451,52 @@
           "🏎": "🏎",
           "ed33deac-91d6-41ec-b190-7b36e266af70": "PLAINPYRO",
           "🙄": "🙄",
-          "🤔": "🤔"
+          "🤔": "🤔",
+          "😢": "😢"
         },
-        "lastChatAt": 1789161998552,
+        "lastChatAt": 1789163306490,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 15 votes, @briggsy! Your support is truly appreciated! 🙌"
+          "user": "tarzan",
+          "msg": "Hi"
         },
         {
           "user": "zer0cache",
-          "msg": "gm @briggsy!"
-        },
-        {
-          "user": "briggsy",
-          "msg": "hey, gm @zer0, man"
+          "msg": "evening @tarzan"
         },
         {
           "user": "zer0cache",
-          "msg": "looping issues with my stream this morning 🙄"
+          "msg": "how are you my friend??"
+        },
+        {
+          "user": "parky",
+          "msg": "HE IS LIVE TOO!!!"
+        },
+        {
+          "user": "parky",
+          "msg": "🔥🔥🔥"
         },
         {
           "user": "zer0cache",
-          "msg": "only affecting blaze rn, can't figure it out"
+          "msg": "mostly dead right now 😂😂😂"
         },
         {
-          "user": "briggsy",
-          "msg": "Yea, I get that too sometimes."
+          "user": "tarzan",
+          "msg": "On my way somewhere 😢"
         },
         {
-          "user": "briggsy",
-          "msg": "🤔"
+          "user": "tarzan",
+          "msg": "[emote:01caf6d4-f183-49ad-a652-8f85bea84607]"
         },
         {
-          "user": "cachebot",
-          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
+          "user": "tarzan",
+          "msg": "I am not wrong."
         },
         {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 4 votes, @dwb9000! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Grinding OTG Ranked. Drop a greeting in chat! 👋"
+          "user": "tarzan",
+          "msg": "All best in your games bro ..  it's just one of those days"
         }
       ],
       "customCommands": {},
@@ -6075,17 +6077,17 @@
       "language": "en",
       "stats": {
         "totalVotes": 12459,
-        "totalSubs": 47,
-        "totalChatMessages": 1317,
-        "totalStreamMinutes": 5275,
+        "totalSubs": 48,
+        "totalChatMessages": 1318,
+        "totalStreamMinutes": 5295,
         "emotes": {
           "❤": 65,
-          "🙌": 69,
+          "🙌": 70,
           "🎁": 90,
           "🚀": 1,
           "😂": 1,
           "🤣": 8,
-          "🔥": 51,
+          "🔥": 53,
           "😎": 2,
           "🤝": 2,
           "🥲": 2,
@@ -6223,13 +6225,9 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789159442479
+        "lastChatAt": 1789162537136
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "*** BOTGER IS BACK UP **\r\nbotger should be back up and running. If you notice anyy issues, please let me (badger) know immediately. You can tag me in discord or submit a support ticket from the botger support page. Thank you for your patience."
-        },
         {
           "user": "botger",
           "msg": "🔴 vitrene is now live! Welcome everyone! 🎉"
@@ -6265,6 +6263,10 @@
         {
           "user": "zoob_21",
           "msg": "🥰🥰"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Zer0Cache has resubscribed — 2 months total, 2 months streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -6294,6 +6296,11 @@
         },
         "piweb": {
           "name": "piweb",
+          "months": 1,
+          "tier": 1
+        },
+        "zer0cache": {
+          "name": "zer0cache",
           "months": 1,
           "tier": 1
         }
@@ -8919,13 +8926,13 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 7773,
-        "totalSubs": 42,
-        "totalChatMessages": 1896,
-        "totalStreamMinutes": 3327,
+        "totalVotes": 7869,
+        "totalSubs": 43,
+        "totalChatMessages": 1911,
+        "totalStreamMinutes": 3347,
         "emotes": {
           "❤": 135,
-          "🙌": 106,
+          "🙌": 107,
           "🔴": 30,
           "🎉": 46,
           "👋": 66,
@@ -8940,8 +8947,8 @@
           "😘": 2,
           "🤝": 1,
           "💚": 1,
-          "🔥": 84,
-          "😂": 18,
+          "🔥": 86,
+          "😂": 20,
           "🚨": 72,
           "🎁": 64,
           "🍺": 17,
@@ -8950,7 +8957,7 @@
           "😜": 3,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 222,
+          "🗳": 225,
           "🥷": 2,
           "💯": 4,
           "📢": 10,
@@ -9076,48 +9083,48 @@
           "65f30a4f-e430-47dd-890d-9094d7a87ecd": "YEET"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789162166399
+        "lastChatAt": 1789163323923
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "@avisi resubscribed, they've been subbed for 2 months! Thank you!"
+          "user": "sinnerz",
+          "msg": "Parkyy"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "wasup broski"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "wel come back"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "Broo why u voted me ?"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "who want"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "cmoon"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "i told u bro cuz before dont voted me :*"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "anyway ty for support broski u king"
         },
         {
           "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @tuff3rmrd3ano!"
+          "msg": "Thanks for the 96 votes, @itssscat!"
         },
         {
           "user": "botger",
-          "msg": "*** BOTGER IS BACK UP **\r\nbotger should be back up and running. If you notice anyy issues, please let me (badger) know immediately. You can tag me in discord or submit a support ticket from the botger support page. Thank you for your patience."
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @ClutchKing to the channel! Thank you so much for subscribing! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@ClutchKing just subscribed for the first month! Welcome to the community! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@LibraLives just subscribed for the first month! Welcome to the community! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @LibraLives to the channel! Thank you so much for subscribing! 🙌"
-        },
-        {
-          "user": "parky",
-          "msg": "Hello?"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 parky is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @itssscat just gave 96 vote(s) (total: 96)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9177,6 +9184,11 @@
         },
         "libralives": {
           "name": "libralives",
+          "months": 1,
+          "tier": 1
+        },
+        "zer0cache": {
+          "name": "zer0cache",
           "months": 1,
           "tier": 1
         }
