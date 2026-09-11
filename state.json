@@ -9791,7 +9791,7 @@
         "totalVotes": 18472,
         "totalSubs": 48,
         "totalChatMessages": 1400,
-        "totalStreamMinutes": 1613,
+        "totalStreamMinutes": 1618,
         "emotes": {
           "😂": 22,
           "💪": 2,
@@ -11633,7 +11633,7 @@
         "totalVotes": 15705,
         "totalSubs": 28,
         "totalChatMessages": 3520,
-        "totalStreamMinutes": 6038,
+        "totalStreamMinutes": 6043,
         "emotes": {
           "❤": 72,
           "🙌": 51,
@@ -12175,7 +12175,7 @@
       "joinedAt": 1785110114264,
       "stats": {
         "totalVotes": 2876,
-        "totalSubs": 26,
+        "totalSubs": 27,
         "totalChatMessages": 143,
         "totalStreamMinutes": 1295,
         "emotes": {
@@ -12296,6 +12296,11 @@
         },
         "_vladenzo": {
           "name": "_vladenzo",
+          "months": 1,
+          "tier": 1
+        },
+        "nekoschwan": {
+          "name": "nekoschwan",
           "months": 1,
           "tier": 1
         }
@@ -17108,8 +17113,8 @@
     }
   },
   "auth": {
-    "accessToken": "656a03de3b43034f9e6bee78b58ea7f1",
-    "refreshToken": "97d30c367158d1dbb482e6c1f17aa77f",
+    "accessToken": "036d48edecd7be692bab165ce1bcfdaa",
+    "refreshToken": "6d43069e04cdb624e3b75bc791846c36",
     "sessionToken": "39cfc55ef7156727ebce957ff3d3645e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
