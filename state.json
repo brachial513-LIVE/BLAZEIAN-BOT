@@ -1746,15 +1746,15 @@
       "language": "en",
       "stats": {
         "totalVotes": 21424,
-        "totalSubs": 178,
-        "totalChatMessages": 10530,
-        "totalStreamMinutes": 24831,
+        "totalSubs": 179,
+        "totalChatMessages": 10532,
+        "totalStreamMinutes": 24851,
         "emotes": {
           "📊": 3,
           "🔥": 492,
           "🤣": 157,
           "💚": 47,
-          "❤": 17,
+          "❤": 18,
           "😜": 2,
           "✌": 6,
           "😊": 6,
@@ -2232,17 +2232,9 @@
           "👽": "👽"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789156600210
+        "lastChatAt": 1789157932540
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard, !convert, !casinoflip heads 10, !casino, !roulette red 10, !crash 10 2.5, !blackjack 10, !hit, !stand, !dice high 10, !slots 10 | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "Thank you @precidobos for voting with 1 votes! FoxBot AI appreciates your support! +3 FoxCoins. Balance: 39888 FoxCoins."
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Feel free to play some casino games"
@@ -2274,6 +2266,14 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Game 3!!!"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "HUGE THANK YOU @Tommy_Mag for subscribing! Welcome to the FoxBot AI family. +500 FoxCoins. Balance: 500 FoxCoins. Lucky Bonus: @Tommy_Mag found a Golden Fox Chest and earned +100 FoxCoins. Balance: 600 FoxCoins."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thank you Tommy ❤️"
         }
       ],
       "customCommands": {},
@@ -2345,6 +2345,11 @@
         },
         "unclefunk": {
           "name": "unclefunk",
+          "months": 1,
+          "tier": 1
+        },
+        "tommy_mag": {
+          "name": "tommy_mag",
           "months": 1,
           "tier": 1
         }
@@ -6066,8 +6071,8 @@
       "stats": {
         "totalVotes": 12459,
         "totalSubs": 46,
-        "totalChatMessages": 1308,
-        "totalStreamMinutes": 5195,
+        "totalChatMessages": 1311,
+        "totalStreamMinutes": 5205,
         "emotes": {
           "❤": 65,
           "🙌": 68,
@@ -6080,8 +6085,8 @@
           "🤝": 2,
           "🥲": 2,
           "🗳": 225,
-          "🔴": 35,
-          "🎉": 70,
+          "🔴": 36,
+          "🎉": 71,
           "🚨": 78,
           "📴": 37,
           "👋": 50,
@@ -6093,7 +6098,7 @@
           "👍": 7,
           "⚡": 10,
           "🥰": 19,
-          "💚": 28,
+          "💚": 30,
           "😏": 1,
           "😍": 3,
           "🫂": 2,
@@ -6213,21 +6218,9 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1788989764179
+        "lastChatAt": 1789157973890
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "botger is here! 👋 Event alerts and OBS overlay are free for everyone. Subscribe at blaze.stream/botger to unlock keyphrases, custom commands, and weekly Blaze votes. Dashboard: https://botger.devely.ca/dashboard"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "brachial513",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @Brachial513 has resubscribed — 2 months total, 1 month streak! Thank you for the continued support! 🙌"
@@ -6255,6 +6248,18 @@
         {
           "user": "botger",
           "msg": "*** BOTGER IS BACK UP **\r\nbotger should be back up and running. If you notice anyy issues, please let me (badger) know immediately. You can tag me in discord or submit a support ticket from the botger support page. Thank you for your patience."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 vitrene is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "zoob_21",
+          "msg": "hi"
+        },
+        {
+          "user": "zoob_21",
+          "msg": "💚💚"
         }
       ],
       "customCommands": {},
@@ -6267,7 +6272,7 @@
       "botVip": true,
       "profile": "Vitrene’s channel is a Cyberpunk 2077 hub where fans shout “VIT 🔥🔥” and “$VIT Always Wins!” to hype streams. Milestones trigger “🔴 VOTE ALERT!! 🗳️”, dances of “💃💃💃”, raids, gifts, and level‑up cheers. The community loves auto‑drive, Idris Elba DLC, and Dune updates, and always ends with “have an awesome night/day!”",
       "_profileAtCount": 1264,
-      "streamTitle": "",
+      "streamTitle": "Let's Play: The Blood of Dawnwalker #5 — Games + Demos",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -7249,8 +7254,8 @@
       "stats": {
         "totalVotes": 13932,
         "totalSubs": 58,
-        "totalChatMessages": 12823,
-        "totalStreamMinutes": 8565,
+        "totalChatMessages": 12873,
+        "totalStreamMinutes": 8585,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -7299,7 +7304,7 @@
           "🎸": 17,
           "😘": 4,
           "😍": 20,
-          "😀": 11,
+          "😀": 13,
           "🪓": 1,
           "🧰": 1,
           "⛏": 98,
@@ -7374,7 +7379,7 @@
           "8f16ba67-efd7-4ce4-b6e3-f9f9e5a4019e": 16,
           "🤫": 1,
           "🫣": 2,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 50,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 52,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 2,
           "🥂": 4,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 15,
@@ -7445,7 +7450,7 @@
           "298c22d7-9014-4525-aad4-fedfa7811531": 8,
           "b8f5ff16-2e11-4695-98de-e426fff3889e": 59,
           "0c0798fa-e75a-4159-a733-4400bce40207": 11,
-          "9ddd5726-8457-4a1c-903d-6d155e631d69": 115,
+          "9ddd5726-8457-4a1c-903d-6d155e631d69": 134,
           "701903b5-7d18-462b-9e72-fd943ba2f3b2": 15,
           "4e60197e-4907-4810-a34f-6b7e4427b103": 21,
           "37719561-c923-4260-b1a5-e3eda10c103d": 1,
@@ -7654,48 +7659,48 @@
           "7e1d13da-a3a4-465f-ab98-c944806f76e2": "makeitrain"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789156590939
+        "lastChatAt": 1789157913256
       },
       "chatMemory": [
         {
-          "user": "jaggerjack",
-          "msg": "[emote:dd855604-071b-4eff-b852-3657817004a3] [emote:dd855604-071b-4eff-b852-3657817004a3] [emote:dd855604-071b-4eff-b852-3657817004a3]"
-        },
-        {
           "user": "cr33pling",
-          "msg": "yeahhhhhhhhhh"
+          "msg": "@avisi @briggsy take care guys. have fun !"
         },
         {
-          "user": "jaggerjack",
-          "msg": "Thanks Mim! I really appreciate you indulging these requests for me!"
+          "user": "briggsy",
+          "msg": "haha, cool, you're funny, man"
         },
         {
-          "user": "jaggerjack",
-          "msg": "Have a great stream man! catch you later!"
+          "user": "briggsy",
+          "msg": "See ya @cr33pling"
         },
         {
-          "user": "cr33pling",
-          "msg": "GN brother!"
+          "user": "briggsy",
+          "msg": "Oh, maybe I didn't really see..."
         },
         {
-          "user": "jaggerjack",
-          "msg": "8pm EST ok will do my best to wake up"
+          "user": "metal_bot",
+          "msg": "@marowak33 Found 2 matches: 1. Linkin Park - Crawling | 2. Linkin Park - Crawling (With Oli Sykes) — Reply !pick 1-2 to select"
         },
         {
-          "user": "jaggerjack",
-          "msg": "[emote:d2923947-14ab-4e76-ae09-79a46d6c40fa] [emote:d2923947-14ab-4e76-ae09-79a46d6c40fa] [emote:d2923947-14ab-4e76-ae09-79a46d6c40fa]"
+          "user": "metal_bot",
+          "msg": "@marowak33 Added \"Linkin Park - Crawling\" to the queue! (Position #3)"
         },
         {
-          "user": "cr33pling",
-          "msg": "its 8am on us lol"
+          "user": "briggsy",
+          "msg": "haha, I'm a music lover from way back.  Got deep into punk/thrash/grind/death metal back in the late 80s."
         },
         {
-          "user": "cr33pling",
-          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
+          "user": "briggsy",
+          "msg": "But love all types of music."
         },
         {
-          "user": "cr33pling",
-          "msg": "im still here, jusst working"
+          "user": "briggsy",
+          "msg": "All genres"
+        },
+        {
+          "user": "marowak33",
+          "msg": "sounds like your karaoke songs"
         }
       ],
       "customCommands": {},
@@ -8035,7 +8040,7 @@
         "totalVotes": 9325,
         "totalSubs": 191,
         "totalChatMessages": 294,
-        "totalStreamMinutes": 8295,
+        "totalStreamMinutes": 8315,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -11140,18 +11145,18 @@
       "joinedAt": 1784645250413,
       "stats": {
         "totalVotes": 10131,
-        "totalSubs": 11,
-        "totalChatMessages": 12079,
-        "totalStreamMinutes": 11475,
+        "totalSubs": 12,
+        "totalChatMessages": 12092,
+        "totalStreamMinutes": 11495,
         "emotes": {
           "❤": 43,
-          "🙌": 36,
+          "🙌": 37,
           "🤝": 2,
-          "🔥": 27,
+          "🔥": 29,
           "🔴": 70,
           "🎉": 117,
-          "🪙": 456,
-          "⚡": 146,
+          "🪙": 458,
+          "⚡": 147,
           "👀": 9,
           "🍿": 2,
           "🤗": 4,
@@ -11400,48 +11405,48 @@
           "👂": "👂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789156794970
+        "lastChatAt": 1789157938368
       },
       "chatMemory": [
         {
-          "user": "garotosemrumo",
-          "msg": "Eden pedir gameplay posso pedir multiplayer você com outra pessoa, ou multiplayer só se fosse eu e você?"
+          "user": "lovemikami",
+          "msg": "eu vi na programação garoto, é de 2 horas"
+        },
+        {
+          "user": "botger",
+          "msg": "⚡ garotosemrumo — Level 0 | 93 XP (907 to Level 1)"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @lovemikami 925 points."
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @garotosemrumo 25 points."
         },
         {
           "user": "garotosemrumo",
-          "msg": "Eu ia surigir você jogar com alguém o mario 3 se você não quisesse jogar sozinho"
-        },
-        {
-          "user": "garotosemrumo",
-          "msg": "Sugerir*"
-        },
-        {
-          "user": "garotosemrumo",
-          "msg": "GG"
+          "msg": "To pobre aqui"
         },
         {
           "user": "lovemikami",
-          "msg": "garoto com rumo"
-        },
-        {
-          "user": "garotosemrumo",
-          "msg": "Oi, to aqui"
+          "msg": "voltou esses dias kkkkk"
         },
         {
           "user": "lovemikami",
-          "msg": "eu posso resgatar pra jogar com éden então? @garotosemrumo"
-        },
-        {
-          "user": "garotosemrumo",
-          "msg": "Sim"
+          "msg": "já tenho quase mil pontos"
         },
         {
           "user": "lovemikami",
-          "msg": "beleza, então, teu pedido é 2 horas"
+          "msg": "kkkkkkkkk"
         },
         {
-          "user": "garotosemrumo",
-          "msg": "Ixi, não lembro agora"
+          "user": "botger",
+          "msg": "Doações Live pix: https://livepix.gg/maniadk"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @Tommy_Mag to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {},
@@ -11514,6 +11519,11 @@
         },
         "slothsm": {
           "name": "slothsm",
+          "months": 1,
+          "tier": 1
+        },
+        "tommy_mag": {
+          "name": "tommy_mag",
           "months": 1,
           "tier": 1
         }
@@ -16264,8 +16274,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 594,
-        "totalStreamMinutes": 91,
+        "totalChatMessages": 633,
+        "totalStreamMinutes": 111,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -16283,48 +16293,48 @@
           "👋": "👋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789156793051
+        "lastChatAt": 1789157987218
       },
       "chatMemory": [
         {
           "user": "poderosotv",
-          "msg": "Roleta #1451: Preto (14)! Ninguém venceu nesta rodada."
+          "msg": "Roleta #1488: Branco (0)! Vencedores (retorno total): @poderosogames: 1400 pontos"
         },
         {
           "user": "poderosotv",
-          "msg": "Roleta #1452: Preto (8)! Ninguém venceu nesta rodada."
+          "msg": "@poderosotv, você tem 2970 pontos!"
         },
         {
           "user": "poderosotv",
-          "msg": "Roleta #1453: Branco (0)! Ninguém venceu nesta rodada."
+          "msg": "Roleta #1489: Vermelho (3)! Ninguém venceu nesta rodada."
         },
         {
           "user": "poderosotv",
-          "msg": "Roleta #1454: Preto (9)! Ninguém venceu nesta rodada."
+          "msg": "@poderosotv, você tem 2970 pontos!"
         },
         {
           "user": "poderosotv",
-          "msg": "Roleta #1455: Preto (11)! Ninguém venceu nesta rodada."
+          "msg": "Roleta #1490: Vermelho (7)! Ninguém venceu nesta rodada."
         },
         {
           "user": "poderosotv",
-          "msg": "Roleta #1456: Vermelho (4)! Ninguém venceu nesta rodada."
+          "msg": "Roleta #1491: Vermelho (2)! Ninguém venceu nesta rodada."
         },
         {
           "user": "poderosotv",
-          "msg": "Roleta #1457: Vermelho (7)! Ninguém venceu nesta rodada."
+          "msg": "Roleta #1492: Preto (13)! Ninguém venceu nesta rodada."
         },
         {
           "user": "poderosotv",
-          "msg": "Roleta #1458: Branco (0)! Vencedores (retorno total): @poderosogames: 1400 pontos"
+          "msg": "Roleta #1493: Preto (13)! Vencedores (retorno total): @poderosogames: 200 pontos"
         },
         {
           "user": "poderosotv",
-          "msg": "Roleta #1459: Vermelho (7)! Vencedores (retorno total): @poderosogames: 200 pontos"
+          "msg": "Roleta #1494: Vermelho (4)! Ninguém venceu nesta rodada."
         },
         {
           "user": "poderosotv",
-          "msg": "Roleta #1460: Preto (13)! Ninguém venceu nesta rodada."
+          "msg": "Roleta #1495: Preto (13)! Ninguém venceu nesta rodada."
         }
       ],
       "customCommands": {},
