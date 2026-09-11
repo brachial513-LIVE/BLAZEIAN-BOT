@@ -4253,7 +4253,7 @@
         "totalVotes": 8216,
         "totalSubs": 38,
         "totalChatMessages": 1625,
-        "totalStreamMinutes": 8030,
+        "totalStreamMinutes": 8035,
         "emotes": {
           "✨": 35,
           "🖥": 21,
@@ -6084,7 +6084,7 @@
         "totalVotes": 12459,
         "totalSubs": 48,
         "totalChatMessages": 1321,
-        "totalStreamMinutes": 5315,
+        "totalStreamMinutes": 5320,
         "emotes": {
           "❤": 65,
           "🙌": 70,
@@ -7115,14 +7115,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 8035,
-        "totalSubs": 36,
-        "totalChatMessages": 505,
+        "totalSubs": 37,
+        "totalChatMessages": 508,
         "totalStreamMinutes": 6504,
         "emotes": {
           "💚": 4,
           "🔥": 14,
           "🤘": 2,
-          "🎉": 2,
+          "🎉": 3,
           "✌": 3,
           "☺": 1,
           "👍": 2,
@@ -7178,25 +7178,13 @@
           "😭": "😭",
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO"
         },
-        "lastChatAt": 1789160392840,
+        "lastChatAt": 1789164861738,
         "sendFailStreak": 111,
         "lastSendFailAt": 1789132377458,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1789132376557
       },
       "chatMemory": [
-        {
-          "user": "chupacol",
-          "msg": "albion online"
-        },
-        {
-          "user": "jagsman",
-          "msg": "yo yo"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @jagsman!"
-        },
         {
           "user": "tai_",
           "msg": "hiiiii"
@@ -7224,6 +7212,18 @@
         {
           "user": "scurvybot",
           "msg": "@gustavojj just subscribed for the first month! Welcome to the community! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@AnikiSnow just subscribed for the first month! Welcome to the community! 🎉"
+        },
+        {
+          "user": "anikisnow",
+          "msg": "Boa lek"
+        },
+        {
+          "user": "anikisnow",
+          "msg": "Rsss"
         }
       ],
       "customCommands": {},
@@ -7261,6 +7261,11 @@
         },
         "gustavojj": {
           "name": "gustavojj",
+          "months": 1,
+          "tier": 1
+        },
+        "anikisnow": {
+          "name": "anikisnow",
           "months": 1,
           "tier": 1
         }
@@ -8076,7 +8081,7 @@
         "totalVotes": 9325,
         "totalSubs": 191,
         "totalChatMessages": 294,
-        "totalStreamMinutes": 8393,
+        "totalStreamMinutes": 8397,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -8934,7 +8939,7 @@
         "totalVotes": 7869,
         "totalSubs": 43,
         "totalChatMessages": 1913,
-        "totalStreamMinutes": 3367,
+        "totalStreamMinutes": 3372,
         "emotes": {
           "❤": 135,
           "🙌": 107,
@@ -17511,8 +17516,8 @@
     }
   },
   "auth": {
-    "accessToken": "023ecf6f5cc4a8a7ee46276aff541359",
-    "refreshToken": "7d71b2892f33240809cb616b7c3fd2ff",
+    "accessToken": "ad4aaa8d84bc576563d5df3c0cc11edb",
+    "refreshToken": "4c1de9d46e1b14c3a1818fd9b8f94850",
     "sessionToken": "39cfc55ef7156727ebce957ff3d3645e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
