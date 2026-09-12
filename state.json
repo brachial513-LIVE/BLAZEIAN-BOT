@@ -4303,7 +4303,7 @@
         "totalVotes": 8366,
         "totalSubs": 40,
         "totalChatMessages": 1651,
-        "totalStreamMinutes": 8199,
+        "totalStreamMinutes": 8200,
         "emotes": {
           "✨": 35,
           "🖥": 21,
@@ -6932,7 +6932,7 @@
         "totalVotes": 3342,
         "totalSubs": 20,
         "totalChatMessages": 1157,
-        "totalStreamMinutes": 1845,
+        "totalStreamMinutes": 1846,
         "emotes": {
           "❤": 414,
           "🙌": 30,
@@ -7256,8 +7256,8 @@
       "stats": {
         "totalVotes": 8053,
         "totalSubs": 40,
-        "totalChatMessages": 514,
-        "totalStreamMinutes": 6513,
+        "totalChatMessages": 515,
+        "totalStreamMinutes": 6514,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -7320,17 +7320,13 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO",
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": "DAZEDPYRO"
         },
-        "lastChatAt": 1789253718069,
+        "lastChatAt": 1789253765076,
         "sendFailStreak": 112,
         "lastSendFailAt": 1789204902726,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1789204901134
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@gustavojj just subscribed for the first month! Welcome to the community! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "@AnikiSnow just subscribed for the first month! Welcome to the community! 🎉"
@@ -7366,6 +7362,10 @@
         {
           "user": "sofrenciaplay",
           "msg": "[emote:f6a00ee4-bc40-4d8f-8879-c122ad069225]"
+        },
+        {
+          "user": "tai_",
+          "msg": "salveeee"
         }
       ],
       "customCommands": {},
@@ -11365,8 +11365,8 @@
       "stats": {
         "totalVotes": 10629,
         "totalSubs": 12,
-        "totalChatMessages": 13341,
-        "totalStreamMinutes": 12157,
+        "totalChatMessages": 13343,
+        "totalStreamMinutes": 12158,
         "emotes": {
           "❤": 49,
           "🙌": 39,
@@ -11636,17 +11636,9 @@
           "😏": "😏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789253489545
+        "lastChatAt": 1789253769950
       },
       "chatMemory": [
-        {
-          "user": "lipeman",
-          "msg": "hehehe"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "é aqui os pontos Lipe?"
-        },
         {
           "user": "lipeman",
           "msg": "no youtube"
@@ -11678,6 +11670,14 @@
         {
           "user": "rechigamer",
           "msg": "k"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "que jogo kaizo"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "kkkkkkkkkkkk"
         }
       ],
       "customCommands": {},
@@ -15065,7 +15065,7 @@
         "totalVotes": 3530,
         "totalSubs": 21,
         "totalChatMessages": 700,
-        "totalStreamMinutes": 4874,
+        "totalStreamMinutes": 4875,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -16180,7 +16180,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 32,
-        "totalStreamMinutes": 1017,
+        "totalStreamMinutes": 1018,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -16578,7 +16578,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 694,
-        "totalStreamMinutes": 393,
+        "totalStreamMinutes": 394,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -16671,13 +16671,25 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {},
-        "sendFailStreak": 0
+        "emotes": {
+          "❤": 2,
+          "🙌": 1
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌"
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1789253734173
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -16690,7 +16702,10 @@
         "entries": []
       },
       "timedMessages": [],
-      "tipTiers": []
+      "tipTiers": [],
+      "locked": false,
+      "followed": true,
+      "botVip": true
     }
   },
   "blocklist": [
