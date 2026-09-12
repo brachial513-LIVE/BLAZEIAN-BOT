@@ -12714,7 +12714,7 @@
       "stats": {
         "totalVotes": 5962,
         "totalSubs": 73,
-        "totalChatMessages": 1154,
+        "totalChatMessages": 1155,
         "totalStreamMinutes": 2951,
         "emotes": {
           "❤": 103,
@@ -12867,17 +12867,13 @@
           "🍀": "🍀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789211607648,
+        "lastChatAt": 1789213034775,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "cabsss",
-          "msg": "10hrs live wow"
-        },
         {
           "user": "nekoschwan",
           "msg": "goal 20hrs daw haha"
@@ -12913,6 +12909,10 @@
         {
           "user": "corneto",
           "msg": "[emote:08f6c288-8783-4457-9261-dc00f02c6b4a] [emote:08f6c288-8783-4457-9261-dc00f02c6b4a] [emote:08f6c288-8783-4457-9261-dc00f02c6b4a]"
+        },
+        {
+          "user": "seventh",
+          "msg": "gm gm ate @missaria"
         }
       ],
       "customCommands": {},
@@ -17651,8 +17651,8 @@
     }
   },
   "auth": {
-    "accessToken": "2c1032de067778194ab15d1716315471",
-    "refreshToken": "2c24ac44c7f8f93e86869e53f053d5c1",
+    "accessToken": "eaab0e60810494653e5848f8316077ed",
+    "refreshToken": "809d8f01c01f4ab86667142b8a502020",
     "sessionToken": "35254f5c04e79337f85bfa07a7066749",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
