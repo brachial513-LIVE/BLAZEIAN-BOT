@@ -12714,7 +12714,7 @@
       "stats": {
         "totalVotes": 5953,
         "totalSubs": 72,
-        "totalChatMessages": 1124,
+        "totalChatMessages": 1126,
         "totalStreamMinutes": 2951,
         "emotes": {
           "❤": 101,
@@ -12723,7 +12723,7 @@
           "🔥": 95,
           "🔴": 25,
           "🎉": 34,
-          "💛": 11,
+          "💛": 12,
           "🗳": 234,
           "🎁": 110,
           "📴": 23,
@@ -12770,8 +12770,8 @@
           "😅": 1,
           "253721e5-8c61-4b79-929e-af9537b35237": 8,
           "🎂": 2,
-          "🎯": 10,
-          "🔹": 20,
+          "🎯": 11,
+          "🔹": 22,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 6,
           "1325969b-d1c8-412b-beab-1e7846a2c5c6": 4,
           "⏰": 1,
@@ -12865,21 +12865,13 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789197042728,
+        "lastChatAt": 1789197082379,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ poorbones just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "poorbones",
-          "msg": "heya gd morning"
-        },
         {
           "user": "grim1angel",
           "msg": "[emote:fb95c5e5-03ab-4936-891a-2b4635354d8a]"
@@ -12911,6 +12903,14 @@
         {
           "user": "missaria",
           "msg": "still accepting entry for my 2nd week birthmonth giveaway!"
+        },
+        {
+          "user": "missaria",
+          "msg": "🔹 1 Gift Sub = 1 Entry \n🔹 3 Gift Subs = 4 Entries\n🎯 BONUS GOAL: Hit 10 Gift Subs and I'll choose ONE new streamer to support! 💛"
+        },
+        {
+          "user": "missaria",
+          "msg": "The draw is tomorrow 2pm UTC."
         }
       ],
       "customCommands": {},
@@ -17638,8 +17638,8 @@
     }
   },
   "auth": {
-    "accessToken": "85832c80c44941c5726f963eef88a81c",
-    "refreshToken": "7b859ccc7174dc8f8aba590325f4e810",
+    "accessToken": "8a7919dda99143cdcf29273ea132d995",
+    "refreshToken": "0f4390f0fac3b39eda859620477d2457",
     "sessionToken": "35254f5c04e79337f85bfa07a7066749",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
