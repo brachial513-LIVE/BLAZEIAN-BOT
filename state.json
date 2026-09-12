@@ -12016,14 +12016,14 @@
       "stats": {
         "totalVotes": 15709,
         "totalSubs": 28,
-        "totalChatMessages": 3538,
-        "totalStreamMinutes": 6167,
+        "totalChatMessages": 3542,
+        "totalStreamMinutes": 6175,
         "emotes": {
           "❤": 74,
           "🙌": 52,
           "🗳": 648,
           "🔴": 55,
-          "🎉": 95,
+          "🎉": 96,
           "🏃": 1,
           "♂": 1,
           "💨": 1,
@@ -12033,7 +12033,7 @@
           "😂": 76,
           "📴": 55,
           "👋": 70,
-          "🚨": 156,
+          "🚨": 162,
           "🔥": 53,
           "💚": 20,
           "👀": 10,
@@ -12237,25 +12237,9 @@
           "🤍": "🤍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789199251361
+        "lastChatAt": 1789199601510
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎉 noxx just reached Level 5! ⚡ (7,450 XP)"
-        },
-        {
-          "user": "noxx",
-          "msg": "Fuck off botger I literally live here"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -12279,6 +12263,22 @@
         {
           "user": "cabsss",
           "msg": "a lot of skills"
+        },
+        {
+          "user": "cabsss",
+          "msg": "yep still here"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @ItsBigBroZo is raiding with a party of 2! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@ItsBigBroZo is raiding with a party of 2! Welcome, raiders!"
+        },
+        {
+          "user": "itsbigbrozo",
+          "msg": "little raid for you bud"
         }
       ],
       "customCommands": {},
@@ -12714,7 +12714,7 @@
       "stats": {
         "totalVotes": 5953,
         "totalSubs": 72,
-        "totalChatMessages": 1137,
+        "totalChatMessages": 1143,
         "totalStreamMinutes": 2951,
         "emotes": {
           "❤": 101,
@@ -12865,37 +12865,13 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789198932194,
+        "lastChatAt": 1789199745735,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "laro tayo after ko eat lunch"
-        },
-        {
-          "user": "missaria",
-          "msg": "resting lang"
-        },
-        {
-          "user": "missaria",
-          "msg": "what to play?"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "walang iba kundi angggg"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "cooking ina"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "hahahha"
-        },
         {
           "user": "missaria",
           "msg": "oki haha"
@@ -12911,6 +12887,30 @@
         {
           "user": "nekoschwan",
           "msg": "nag rreport lang ako saglit sa condura"
+        },
+        {
+          "user": "missaria",
+          "msg": "g @nekoschwan"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "okay discord"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "may kausap lang ako sa condura"
+        },
+        {
+          "user": "missaria",
+          "msg": "okii"
+        },
+        {
+          "user": "missaria",
+          "msg": "Change game, we will play Overcooked 2 with @nekoschwan"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "nasa dc me"
         }
       ],
       "customCommands": {},
@@ -16702,9 +16702,9 @@
       "n": 1
     },
     "badger": {
-      "note": "Enthusiastic gamer who loves botger, custom alert sounds, and playful absurd humor during streams.",
-      "at": 1789081201032,
-      "n": 19
+      "note": "Enthusiastic gamer who loves botger, custom alert sounds, playful absurd humor, and often talks about lending NFTs like REDs and Salvors.",
+      "at": 1789200015347,
+      "n": 20
     },
     "fartvader": {
       "note": "Energetic gamer who loves Ghost Recon Wildlands, Palworld, Dota, Hero Siege, Roblox battle‑royale, and always brings playful, upbeat humor.",
@@ -17643,8 +17643,8 @@
     }
   },
   "auth": {
-    "accessToken": "beb45cd400c4ae3db276f5b236211ef5",
-    "refreshToken": "0aef079681d583fce126f04fda1fdf8b",
+    "accessToken": "8b7b8f34bf1528d0d6db5a9767b51e47",
+    "refreshToken": "7f518c28ae76b1a6e70599f287b27a5f",
     "sessionToken": "35254f5c04e79337f85bfa07a7066749",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
