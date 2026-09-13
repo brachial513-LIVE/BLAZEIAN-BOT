@@ -711,12 +711,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 72065,
+        "totalVotes": 72069,
         "totalSubs": 132,
-        "totalChatMessages": 9053,
-        "totalStreamMinutes": 2838,
+        "totalChatMessages": 9056,
+        "totalStreamMinutes": 2858,
         "emotes": {
-          "🗳": 1422,
+          "🗳": 1425,
           "❤": 525,
           "🙌": 224,
           "🔥": 238,
@@ -1054,25 +1054,13 @@
           "4671075f-9625-468a-a503-69006108dc87": "Danger"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789267446706,
+        "lastChatAt": 1789268699769,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "hjaha, yea.  It is a mystery.  Maybe they got cold feet and wanted to leave with at least something."
-        },
-        {
-          "user": "piweb",
-          "msg": "True"
-        },
-        {
-          "user": "briggsy",
-          "msg": "(I wouldn't do it, but what else could it be?)"
-        },
         {
           "user": "piweb",
           "msg": "But some were on Ferdy presale, it was obvious not to surrender knowing the team"
@@ -1100,6 +1088,18 @@
         {
           "user": "piweb",
           "msg": "Hopefully got a few alive at Summit ;)"
+        },
+        {
+          "user": "piweb",
+          "msg": "Gonna check DB, enjoy the game vRoshi"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @zimzimma just gave 4 vote(s) (total: 4)! Thank you!! 🗳️"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Is this No Man's Sky Rosh?"
         }
       ],
       "customCommands": {},
@@ -5442,14 +5442,14 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 21432,
+        "totalVotes": 21932,
         "totalSubs": 57,
-        "totalChatMessages": 6631,
-        "totalStreamMinutes": 11291,
+        "totalChatMessages": 6635,
+        "totalStreamMinutes": 11311,
         "emotes": {
           "❤": 82,
           "🙌": 174,
-          "🗳": 678,
+          "🗳": 681,
           "🔴": 66,
           "🎉": 119,
           "📴": 64,
@@ -5784,26 +5784,10 @@
           "abe03275-9e90-41cb-a6ff-94ccf9eb58fe": "PeepoHigh",
           "9dd033bb-f416-4fae-ac26-ff5fc77999eb": "winetime"
         },
-        "lastChatAt": 1789258634203,
+        "lastChatAt": 1789267642749,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "seventh",
-          "msg": "gm gm @nadietv"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "nadietv",
           "msg": "BLAEsubAthoon is ON! for every 20 votes we'll extend the stream 5 minutes, for every sub we'll extend it 30 minutes!"
@@ -5827,6 +5811,22 @@
         {
           "user": "grim1angel",
           "msg": "nailed it"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 500 votes, @JohnGalt!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @JohnGalt just gave 500 vote(s) (total: 1000)! Thank you!! 🗳️"
+        },
+        {
+          "user": "johngalt",
+          "msg": "yw Nadie"
+        },
+        {
+          "user": "johngalt",
+          "msg": "im good man, hbu?"
         }
       ],
       "customCommands": {},
@@ -6628,7 +6628,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 12709,
+        "totalVotes": 12710,
         "totalSubs": 38,
         "totalChatMessages": 2622,
         "totalStreamMinutes": 3707,
@@ -11983,7 +11983,7 @@
         "totalVotes": 6358,
         "totalSubs": 27,
         "totalChatMessages": 644,
-        "totalStreamMinutes": 4517,
+        "totalStreamMinutes": 4537,
         "emotes": {
           "❤": 30,
           "🙌": 41,
@@ -16210,7 +16210,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 32,
-        "totalStreamMinutes": 1248,
+        "totalStreamMinutes": 1268,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -16608,7 +16608,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 699,
-        "totalStreamMinutes": 624,
+        "totalStreamMinutes": 644,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -16784,7 +16784,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "avatarUrl": "https://cdn.blaze.stream/site/default_blaze.png"
+      "avatarUrl": "https://cdn.blaze.stream/site/default_blaze.png",
+      "profile": "Cem’s stream is a nonstop, high‑energy jam of indie‑rock vibes and retro gaming. The chat lives on “🔥” and “lol” loops, loves “cheers” and “gg” in rapid fire. Fans celebrate with “big thanks” and “welcome” bursts whenever a new follower drops. The community thrives on shared hype, quick emojis, and constant “keep it going” encouragement.",
+      "_profileAtCount": 25
     }
   },
   "blocklist": [
