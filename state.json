@@ -5445,7 +5445,7 @@
         "totalVotes": 21432,
         "totalSubs": 57,
         "totalChatMessages": 6631,
-        "totalStreamMinutes": 11176,
+        "totalStreamMinutes": 11196,
         "emotes": {
           "❤": 82,
           "🙌": 174,
@@ -5935,16 +5935,16 @@
       "stats": {
         "totalVotes": 6940,
         "totalSubs": 75,
-        "totalChatMessages": 698,
-        "totalStreamMinutes": 16509,
+        "totalChatMessages": 699,
+        "totalStreamMinutes": 16523,
         "emotes": {
           "❤": 119,
           "🙌": 37,
           "🔥": 41,
           "🔴": 105,
           "🎉": 105,
-          "📴": 108,
-          "👋": 112,
+          "📴": 109,
+          "👋": 113,
           "😂": 4,
           "💚": 7,
           "💪": 2,
@@ -6025,16 +6025,12 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING",
           "🐝": "🐝"
         },
-        "lastChatAt": 1789260568387,
+        "lastChatAt": 1789261530571,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         },
         {
@@ -6068,6 +6064,10 @@
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -6079,7 +6079,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🔥 PrideCast com Coruja: RESENHA GARANTIDA — Talk Shows & Podcasts",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1cbc4131-852d-4a0f-b202-139a353901d4.png",
@@ -6087,7 +6087,7 @@
       "_profileAtCount": 681,
       "botVip": true,
       "lastStreamInfo": "🔥 PrideCast com Coruja: RESENHA GARANTIDA — Talk Shows & Podcasts",
-      "lastStreamEndedAt": 1789260543683,
+      "lastStreamEndedAt": 1789261525399,
       "nudgedAt": 1785710754625,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -7096,8 +7096,8 @@
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
       "streamTitle": "",
-      "profile": "We’re a funky community vibin’ to cymatrix’s Funk Show & OSP Tunes! We love “VOTE ALERT!!”, celebrating each other's 25s, dancing with 💃, and cheering when cymatrix says “Heye!” and “You bet!” It’s always a Tuesday, full of “VOTE ALERT!!”s, crypto chatter, and “cymatrixgroup.com” links. We celebrate with sub gifts, resub hype, and nonstop hype for cymatrix.",
-      "_profileAtCount": 1093,
+      "profile": "We’re a funky community vibin’ to cymatrix’s Funk Show & OSP Tunes! We love “VOTE ALERT!!”, celebrating each other’s 25s, dancing with 💃, and cheering when cymatrix says “Heye!” and “You bet!” It’s always a Tuesday, full of “VOTE ALERT!!”s, crypto chatter, and “cymatrixgroup.com” links. We celebrate with sub gifts, resub hype, and nonstop hype for cymatrix.",
+      "_profileAtCount": 1163,
       "gameOverride": "",
       "loyalty": {
         "backwoodslabel": {
@@ -7256,8 +7256,8 @@
       "stats": {
         "totalVotes": 8173,
         "totalSubs": 40,
-        "totalChatMessages": 527,
-        "totalStreamMinutes": 6628,
+        "totalChatMessages": 530,
+        "totalStreamMinutes": 6648,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -7326,25 +7326,13 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
           "👋": "👋"
         },
-        "lastChatAt": 1789258389243,
+        "lastChatAt": 1789261266911,
         "sendFailStreak": 113,
         "lastSendFailAt": 1789256436857,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1789256436634
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @meyetechnicals!"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:b8d92475-43c4-40eb-837e-c5ee5ab01980] [emote:b8d92475-43c4-40eb-837e-c5ee5ab01980]"
-        },
         {
           "user": "shogunmaster",
           "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:37719561-c923-4260-b1a5-e3eda10c103d]"
@@ -7372,6 +7360,18 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @venus!"
+        },
+        {
+          "user": "venus",
+          "msg": "hi"
+        },
+        {
+          "user": "tai_",
+          "msg": "hi hiii venuss"
         }
       ],
       "customCommands": {},
@@ -7385,7 +7385,7 @@
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/12660284-7663-43c6-92ac-32776ec39b0d.gif",
       "profile": "Chill Blaze vibes: “gm gmmm” mornings, “oiee” greetings, “thanksss” gratitude, nonstop “kkk” laughter, “KKKKKKKKKKK” reactions. We love “WAYFINDERS BR” in Wilder World IRL, celebrate with fire emojis, energetic good mornings, enthusiastic cheers, constant “kkk” laughter. Keep the chat lively, supportive, and always ready to jump into a call or a new game.",
-      "_profileAtCount": 469,
+      "_profileAtCount": 530,
       "loyalty": {
         "wayfindersplays": {
           "name": "wayfindersplays",
@@ -11376,8 +11376,8 @@
       "stats": {
         "totalVotes": 10629,
         "totalSubs": 12,
-        "totalChatMessages": 13835,
-        "totalStreamMinutes": 12273,
+        "totalChatMessages": 13894,
+        "totalStreamMinutes": 12293,
         "emotes": {
           "❤": 51,
           "🙌": 39,
@@ -11387,7 +11387,7 @@
           "🎉": 127,
           "🪙": 503,
           "⚡": 182,
-          "👀": 14,
+          "👀": 17,
           "🍿": 4,
           "🤗": 6,
           "😊": 3,
@@ -11482,7 +11482,7 @@
           "🪡": 1,
           "🐗": 1,
           "🍨": 1,
-          "c44b7281-c442-4e6d-84ee-9d65261c0ee8": 12,
+          "c44b7281-c442-4e6d-84ee-9d65261c0ee8": 13,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 5,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 5,
@@ -11515,7 +11515,8 @@
           "bf90af59-ac95-4416-b7bc-859f438903d4": 1,
           "b05156cf-7925-4298-8e19-f29e294cc793": 1,
           "d6c82b45-1ca6-4f86-89b5-cf94492a049b": 2,
-          "cd2d0478-cb09-4023-9a6a-750599f9623a": 1
+          "cd2d0478-cb09-4023-9a6a-750599f9623a": 1,
+          "📌": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -11654,51 +11655,52 @@
           "bf90af59-ac95-4416-b7bc-859f438903d4": "PYROTHERSIDE",
           "b05156cf-7925-4298-8e19-f29e294cc793": "SADPYRO",
           "d6c82b45-1ca6-4f86-89b5-cf94492a049b": "YEP",
-          "cd2d0478-cb09-4023-9a6a-750599f9623a": "CALMPYRO"
+          "cd2d0478-cb09-4023-9a6a-750599f9623a": "CALMPYRO",
+          "📌": "📌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789260575379
+        "lastChatAt": 1789261861616
       },
       "chatMemory": [
         {
+          "user": "lucas93925052",
+          "msg": "Kkkkkkkkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkkkkkkk"
+        },
+        {
           "user": "sarinhaa11",
-          "msg": "kkkkkk"
+          "msg": "q q isso ?! kkkkk"
         },
         {
-          "user": "botger",
-          "msg": "Doações Live pix: https://midpix.live/SofrenciaPlay"
+          "user": "lipeman",
+          "msg": "rodada de jogos de luta?"
         },
         {
-          "user": "junior7_",
-          "msg": "Vou caçar umas latinhas de alumínio uai kkk"
+          "user": "lipeman",
+          "msg": "bora"
         },
         {
-          "user": "junior7_",
-          "msg": "Tá 7 conto oh kilo"
+          "user": "lipeman",
+          "msg": "kkkkkkk"
         },
         {
-          "user": "crispipoquinha",
-          "msg": "👀 🍿"
+          "user": "sarinhaa11",
+          "msg": "kkkkkkkkkkkkkkkk"
         },
         {
-          "user": "lucas93925052",
-          "msg": "Oi cheguei no Mário"
+          "user": "sarinhaa11",
+          "msg": "mds"
         },
         {
-          "user": "lucas93925052",
-          "msg": "Boa noite abordiin"
+          "user": "lipeman",
+          "msg": "esse street fighter é bom"
         },
         {
-          "user": "crispipoquinha",
-          "msg": "oin Lucas ☺️"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Oi Cris 🤗"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Boa noite"
+          "user": "sarinhaa11",
+          "msg": "kkkkkkkkkkkkk"
         }
       ],
       "customCommands": {},
@@ -14765,7 +14767,7 @@
         "totalVotes": 2054,
         "totalSubs": 23,
         "totalChatMessages": 2064,
-        "totalStreamMinutes": 5945,
+        "totalStreamMinutes": 5965,
         "emotes": {
           "👋": 48,
           "⚠": 2,
@@ -16203,7 +16205,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 32,
-        "totalStreamMinutes": 1133,
+        "totalStreamMinutes": 1153,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -16601,7 +16603,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 697,
-        "totalStreamMinutes": 509,
+        "totalStreamMinutes": 529,
         "emotes": {
           "❤": 2,
           "🙌": 1,
