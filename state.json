@@ -713,7 +713,7 @@
       "stats": {
         "totalVotes": 72330,
         "totalSubs": 134,
-        "totalChatMessages": 9110,
+        "totalChatMessages": 9111,
         "totalStreamMinutes": 3003,
         "emotes": {
           "🗳": 1431,
@@ -840,8 +840,8 @@
           "💹": 2,
           "ce425a1d-facf-4b1b-a1c9-60a91436f0ee": 22,
           "32a64c41-b6d0-42cd-8cd7-f0e06a0d5874": 14,
-          "5b987160-8591-447b-a278-18d1ab41dec5": 95,
-          "c0c66508-8d3b-4794-818a-0eca4538dbf1": 95,
+          "5b987160-8591-447b-a278-18d1ab41dec5": 96,
+          "c0c66508-8d3b-4794-818a-0eca4538dbf1": 96,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 5,
           "0bb4be4c-82d7-421a-98e0-c3138248c131": 5,
           "634b025b-bffd-470c-8cc2-54ddc7097f82": 23,
@@ -1060,17 +1060,13 @@
           "😩": "😩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789305233531,
+        "lastChatAt": 1789305424391,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Still going here."
-        },
         {
           "user": "briggsy",
           "msg": "Did you just start this game tonight?"
@@ -1106,6 +1102,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @NiRuntz just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
+        },
+        {
+          "user": "fartvader",
+          "msg": "thank you sooo much for the votes sir ! [emote:c0c66508-8d3b-4794-818a-0eca4538dbf1] [emote:5b987160-8591-447b-a278-18d1ab41dec5]"
         }
       ],
       "customCommands": {},
@@ -4150,8 +4150,8 @@
       "stats": {
         "totalVotes": 9008,
         "totalSubs": 99,
-        "totalChatMessages": 601,
-        "totalStreamMinutes": 2812,
+        "totalChatMessages": 602,
+        "totalStreamMinutes": 2832,
         "emotes": {
           "🔥": 16,
           "❤": 111,
@@ -4185,13 +4185,9 @@
           "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789304758747
+        "lastChatAt": 1789306362914
       },
       "chatMemory": [
-        {
-          "user": "wingz",
-          "msg": "boraaa cade a live"
-        },
         {
           "user": "anikisnow",
           "msg": "Daqui 1h"
@@ -4227,6 +4223,10 @@
         {
           "user": "slothsm",
           "msg": "n"
+        },
+        {
+          "user": "slothsm",
+          "msg": "bom dia"
         }
       ],
       "customCommands": {},
@@ -8538,7 +8538,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 5855,
+        "totalStreamMinutes": 5875,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -12135,8 +12135,8 @@
       "stats": {
         "totalVotes": 15826,
         "totalSubs": 29,
-        "totalChatMessages": 3698,
-        "totalStreamMinutes": 6979,
+        "totalChatMessages": 3704,
+        "totalStreamMinutes": 6999,
         "emotes": {
           "❤": 74,
           "🙌": 53,
@@ -12358,33 +12358,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789304460035
+        "lastChatAt": 1789305564375
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Still a (War) Dog, I see."
-        },
-        {
-          "user": "briggsy",
-          "msg": "Gmgm buddy"
-        },
-        {
-          "user": "fuyu",
-          "msg": "yoo brig"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Ok nice."
-        },
-        {
-          "user": "briggsy",
-          "msg": "I bet."
-        },
-        {
-          "user": "fuyu",
-          "msg": "Sup"
-        },
         {
           "user": "fuyu",
           "msg": "well I chose Verso's ending rather than Maelle"
@@ -12400,6 +12376,30 @@
         {
           "user": "fuyu",
           "msg": "you just live like a puppet to fulfill her perfect world idea"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "Gm Noxxxxxy"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "how is war dogs"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "lets goo lets goo"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "No way!"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "you can do it!"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "i believe in you!"
         }
       ],
       "customCommands": {},
@@ -12843,20 +12843,20 @@
       "language": "en",
       "joinedAt": 1785231455893,
       "stats": {
-        "totalVotes": 6875,
-        "totalSubs": 74,
-        "totalChatMessages": 1182,
-        "totalStreamMinutes": 3025,
+        "totalVotes": 6876,
+        "totalSubs": 80,
+        "totalChatMessages": 1205,
+        "totalStreamMinutes": 3045,
         "emotes": {
           "❤": 103,
-          "🙌": 104,
+          "🙌": 110,
           "💚": 3,
           "🔥": 95,
           "🔴": 26,
-          "🎉": 36,
+          "🎉": 37,
           "💛": 13,
-          "🗳": 240,
-          "🎁": 114,
+          "🗳": 243,
+          "🎁": 126,
           "📴": 24,
           "👋": 28,
           "💖": 1,
@@ -12870,7 +12870,7 @@
           "✨": 6,
           "😍": 5,
           "🫠": 3,
-          "🚨": 42,
+          "🚨": 48,
           "😊": 1,
           "😁": 3,
           "🤩": 1,
@@ -12890,7 +12890,7 @@
           "7332ae76-625b-4f2e-a6aa-3bb148cb37e5": 1,
           "6b0559ec-106b-42ec-a1c4-1b8ecf0c9552": 2,
           "178dce94-1f60-4e89-9c53-5c9a3bbe08b5": 21,
-          "904850b1-2a13-4aba-8703-2af241ddab2d": 14,
+          "904850b1-2a13-4aba-8703-2af241ddab2d": 15,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 13,
           "🤣": 2,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
@@ -12998,7 +12998,7 @@
           "🍀": "🍀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789304840095,
+        "lastChatAt": 1789306433024,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
@@ -13006,44 +13006,44 @@
       },
       "chatMemory": [
         {
-          "user": "cr33pling",
-          "msg": "[emote:178dce94-1f60-4e89-9c53-5c9a3bbe08b5] [emote:178dce94-1f60-4e89-9c53-5c9a3bbe08b5] [emote:178dce94-1f60-4e89-9c53-5c9a3bbe08b5] [emote:178dce94-1f60-4e89-9c53-5c9a3bbe08b5] [emote:178dce94-1f60-4e89-9c53-5c9a3bbe08b5]"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "[emote:49a9f873-9233-45b0-923a-0eebda2eb0ca]"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @JohnGalt just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
-        },
-        {
-          "user": "johngalt",
-          "msg": "yw"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @seventh is raiding with a party of 3! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "seventh",
-          "msg": "happy streaming ate"
-        },
-        {
-          "user": "seventh",
-          "msg": "work muna aketch hehe"
-        },
-        {
-          "user": "seventh",
-          "msg": "hello viewers"
+          "user": "the_gwc",
+          "msg": "knowing my luck i still wont win XD"
         },
         {
           "user": "cabsss",
-          "msg": "hello @missaria"
+          "msg": "GL to us"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @the_gwc just gifted a sub to @Potato_Pete! How generous!! 🙌"
+        },
+        {
+          "user": "the_gwc",
+          "msg": "have another XD"
         },
         {
           "user": "cabsss",
-          "msg": "[emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713] [emote:08f6c288-8783-4457-9261-dc00f02c6b4a] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+          "msg": "ggs haha"
+        },
+        {
+          "user": "missaria",
+          "msg": "you will have 8 entries"
+        },
+        {
+          "user": "missaria",
+          "msg": "W @the_gwc"
+        },
+        {
+          "user": "the_gwc",
+          "msg": "you never know, you could still snipe it"
+        },
+        {
+          "user": "the_gwc",
+          "msg": "anyway im off to bed.. almost midnight here"
+        },
+        {
+          "user": "missaria",
+          "msg": "Goodnight [emote:904850b1-2a13-4aba-8703-2af241ddab2d]"
         }
       ],
       "customCommands": {},
@@ -13335,8 +13335,8 @@
       "stats": {
         "totalVotes": 3311,
         "totalSubs": 16,
-        "totalChatMessages": 710,
-        "totalStreamMinutes": 7695,
+        "totalChatMessages": 712,
+        "totalStreamMinutes": 7715,
         "emotes": {
           "❤": 49,
           "🙌": 37,
@@ -13436,17 +13436,9 @@
           "d6c82b45-1ca6-4f86-89b5-cf94492a049b": "YEP"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789305255904
+        "lastChatAt": 1789305892042
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "hi hi"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "all best in your game"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @agent00zani is raiding with a party of 10! Welcome raiders!! 🎉"
@@ -13478,6 +13470,14 @@
         {
           "user": "fartvader",
           "msg": "we support each other bros [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "no worries bro..all good"
+        },
+        {
+          "user": "fartvader",
+          "msg": "enjoy your game bro!"
         }
       ],
       "customCommands": {
@@ -16727,7 +16727,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 25,
-        "totalStreamMinutes": 0,
+        "totalStreamMinutes": 12,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -16809,7 +16809,11 @@
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/site/default_blaze.png",
       "profile": "Cem’s stream is a nonstop, high‑energy jam of indie‑rock vibes and retro gaming. The chat lives on “🔥” and “lol” loops, loves “cheers” and “gg” in rapid fire. Fans celebrate with “big thanks” and “welcome” bursts whenever a new follower drops. The community thrives on shared hype, quick emojis, and constant “keep it going” encouragement.",
-      "_profileAtCount": 25
+      "_profileAtCount": 25,
+      "streamTitle": "Valorant oynuyorum — VALORANT",
+      "lastStreamInfo": "Minecraft Survival | !dc — Minecraft",
+      "lastStreamEndedAt": 1789305930357,
+      "gameOverride": ""
     }
   },
   "blocklist": [
