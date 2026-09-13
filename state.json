@@ -12135,14 +12135,14 @@
       "stats": {
         "totalVotes": 15825,
         "totalSubs": 29,
-        "totalChatMessages": 3614,
-        "totalStreamMinutes": 6722,
+        "totalChatMessages": 3620,
+        "totalStreamMinutes": 6727,
         "emotes": {
           "❤": 74,
           "🙌": 53,
           "🗳": 663,
           "🔴": 57,
-          "🎉": 99,
+          "🎉": 100,
           "🏃": 1,
           "♂": 1,
           "💨": 1,
@@ -12152,7 +12152,7 @@
           "😂": 76,
           "📴": 57,
           "👋": 72,
-          "🚨": 168,
+          "🚨": 174,
           "🔥": 58,
           "💚": 20,
           "👀": 10,
@@ -12358,33 +12358,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789282892303
+        "lastChatAt": 1789283612482
       },
       "chatMemory": [
-        {
-          "user": "seventh",
-          "msg": "gm gm @noxx"
-        },
-        {
-          "user": "parky",
-          "msg": "NOXXY BABY!!!!"
-        },
-        {
-          "user": "parky",
-          "msg": "🔥🔥🔥"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @mindgoblin!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -12400,6 +12376,30 @@
         {
           "user": "tarzan",
           "msg": "GM gm"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @lvl4goblin is raiding with a party of 3! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@lvl4goblin is raiding with a party of 3! Welcome, raiders!"
+        },
+        {
+          "user": "octo",
+          "msg": "goblin raid, whatup noxx"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "oh my D:"
+        },
+        {
+          "user": "octo",
+          "msg": "they couldnt hook you up with a server close toyou?"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "the tip prompts in this game kill me xD"
         }
       ],
       "customCommands": {},
@@ -17945,8 +17945,8 @@
     }
   },
   "auth": {
-    "accessToken": "f8033f6c79a9006bba6b37a76d659d51",
-    "refreshToken": "486d68f3004e12b544884990e39b6cce",
+    "accessToken": "9057efe38dc3f1211f1bfca24e01ea1d",
+    "refreshToken": "a22b225307d8941af387acd1836d13bc",
     "sessionToken": "8c607255becb65a432b7b7e80172a788",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
