@@ -711,12 +711,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 73635,
+        "totalVotes": 73710,
         "totalSubs": 134,
-        "totalChatMessages": 9124,
+        "totalChatMessages": 9125,
         "totalStreamMinutes": 3003,
         "emotes": {
-          "🗳": 1458,
+          "🗳": 1461,
           "❤": 525,
           "🙌": 228,
           "🔥": 240,
@@ -1060,17 +1060,13 @@
           "😩": "😩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789347893841,
+        "lastChatAt": 1789348423451,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @lunaria just gave 19 vote(s) (total: 29)! Thank you!! 🗳️"
-        },
         {
           "user": "brachial513",
           "msg": "GGs for winning 1 Free Entry for the next giveaway on my channel next Sunday ! Means you now have 2 Entrys already !"
@@ -1106,6 +1102,10 @@
         {
           "user": "vroshi55",
           "msg": "No problem!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @lunaria just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5969,7 +5969,7 @@
         "totalVotes": 7209,
         "totalSubs": 78,
         "totalChatMessages": 728,
-        "totalStreamMinutes": 16707,
+        "totalStreamMinutes": 16712,
         "emotes": {
           "❤": 123,
           "🙌": 39,
@@ -8317,7 +8317,7 @@
         "totalVotes": 9356,
         "totalSubs": 192,
         "totalChatMessages": 365,
-        "totalStreamMinutes": 9199,
+        "totalStreamMinutes": 9204,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -9487,7 +9487,7 @@
         "totalVotes": 21047,
         "totalSubs": 115,
         "totalChatMessages": 2144,
-        "totalStreamMinutes": 11596,
+        "totalStreamMinutes": 11601,
         "emotes": {
           "❤": 90,
           "🙌": 156,
@@ -14942,7 +14942,7 @@
         "totalVotes": 2172,
         "totalSubs": 23,
         "totalChatMessages": 2102,
-        "totalStreamMinutes": 6182,
+        "totalStreamMinutes": 6187,
         "emotes": {
           "👋": 49,
           "⚠": 2,
@@ -18150,8 +18150,8 @@
     }
   },
   "auth": {
-    "accessToken": "3a182a6339189bf592e75a85a33d29e0",
-    "refreshToken": "db30eb279e988aed46d8e08c5d5411a2",
+    "accessToken": "72b6d677ed7036c866202c9d77e47221",
+    "refreshToken": "e75bb4afc2ca7c5c61bcf2c8285f2f1d",
     "sessionToken": "d0daade8d44b0d1c19ca518b15244f67",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
