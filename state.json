@@ -2726,7 +2726,7 @@
         "totalVotes": 15822,
         "totalSubs": 66,
         "totalChatMessages": 6177,
-        "totalStreamMinutes": 18574,
+        "totalStreamMinutes": 18579,
         "emotes": {
           "❤": 205,
           "🙌": 144,
@@ -11212,11 +11212,11 @@
       "stats": {
         "totalVotes": 4512,
         "totalSubs": 39,
-        "totalChatMessages": 1013,
+        "totalChatMessages": 1015,
         "totalStreamMinutes": 2359,
         "emotes": {
-          "❤": 70,
-          "🙌": 59,
+          "❤": 72,
+          "🙌": 60,
           "📴": 23,
           "👋": 23,
           "🎁": 50,
@@ -11291,17 +11291,9 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789369078522
+        "lastChatAt": 1789383636768
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "saboooooooooooo @saboomafoo"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -11333,6 +11325,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ yamall9 just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @yamall9!"
         }
       ],
       "customCommands": {},
@@ -14461,7 +14461,7 @@
         "totalVotes": 2014,
         "totalSubs": 18,
         "totalChatMessages": 531,
-        "totalStreamMinutes": 3597,
+        "totalStreamMinutes": 3602,
         "emotes": {
           "❤": 24,
           "🙌": 23,
@@ -17097,9 +17097,9 @@
       "n": 1
     },
     "lovemikami": {
-      "note": "Enjoys classic console games like Mega Drive, Tiny Toons, Zelda, Dkc2, and Parsec, and often shares light‑hearted, gaming‑centric jokes.",
-      "at": 1789164360979,
-      "n": 20
+      "note": "Enjoys classic console games like Mega Drive, Tiny Toons, Zelda, Dkc2, and Parsec, and shares light‑hearted, gaming‑centric jokes.",
+      "at": 1789383495633,
+      "n": 21
     },
     "dany_kaizo": {
       "note": "dany_kaizo appears to play video games, enjoys humorously commenting on frustrating experiences, and references pop culture memes.",
@@ -18186,8 +18186,8 @@
     }
   },
   "auth": {
-    "accessToken": "4d7c529b76699517f7b0549c5c0a8cca",
-    "refreshToken": "f92f6ffd51fe75a0ef463416b6c6937b",
+    "accessToken": "56f5cad9eb4c1b40c0bb10db083010b7",
+    "refreshToken": "906688743c8f053eeb81ef56eae7dbe9",
     "sessionToken": "d0daade8d44b0d1c19ca518b15244f67",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
