@@ -8377,7 +8377,7 @@
         "totalVotes": 9467,
         "totalSubs": 193,
         "totalChatMessages": 394,
-        "totalStreamMinutes": 9584,
+        "totalStreamMinutes": 9591,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -8920,11 +8920,11 @@
       "stats": {
         "totalVotes": 4145,
         "totalSubs": 26,
-        "totalChatMessages": 507,
-        "totalStreamMinutes": 1866,
+        "totalChatMessages": 508,
+        "totalStreamMinutes": 1872,
         "emotes": {
-          "❤": 28,
-          "🙌": 33,
+          "❤": 30,
+          "🙌": 34,
           "🗳": 183,
           "🔴": 38,
           "🎉": 40,
@@ -8997,13 +8997,9 @@
           "18639f44-6915-4ff3-bd2e-083ffbe965cd": "lol"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789424389665
+        "lastChatAt": 1789425450776
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "its soccer tonight, too tired to deal wil ragnarok"
-        },
         {
           "user": "briggsy",
           "msg": "oh, haha, I see"
@@ -9039,6 +9035,10 @@
         {
           "user": "botger",
           "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ avisi just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -11579,7 +11579,7 @@
         "totalVotes": 10905,
         "totalSubs": 12,
         "totalChatMessages": 14329,
-        "totalStreamMinutes": 12676,
+        "totalStreamMinutes": 12682,
         "emotes": {
           "❤": 51,
           "🙌": 39,
@@ -15067,16 +15067,16 @@
       "stats": {
         "totalVotes": 2690,
         "totalSubs": 23,
-        "totalChatMessages": 2123,
-        "totalStreamMinutes": 6354,
+        "totalChatMessages": 2125,
+        "totalStreamMinutes": 6360,
         "emotes": {
-          "👋": 50,
+          "👋": 51,
           "⚠": 2,
           "🎯": 2,
           "🗳": 169,
           "🔴": 49,
           "🎉": 67,
-          "📴": 47,
+          "📴": 48,
           "🎡": 3,
           "®": 3,
           "📢": 9,
@@ -15222,17 +15222,9 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789424738356
+        "lastChatAt": 1789425724416
       },
       "chatMemory": [
-        {
-          "user": "thewill3ffect",
-          "msg": "Hey yo"
-        },
-        {
-          "user": "inn",
-          "msg": "sent!"
-        },
         {
           "user": "thewill3ffect",
           "msg": "no more ally on blae"
@@ -15264,6 +15256,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @flower4803 just gave 4 vote(s) (total: 4)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -15278,9 +15278,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "Tipper wheel spins and faded!   🔥 298th Blaze Stream🔥 — Faded Monsuta",
-      "lastStreamInfo": "1$ wheel spins?! voter wheel!  🔥 298th Blaze Stream🔥 — Rocket League",
-      "lastStreamEndedAt": 1789355267995,
+      "streamTitle": "",
+      "lastStreamInfo": "Tipper wheel spins and faded!   🔥 298th Blaze Stream🔥 — Faded Monsuta",
+      "lastStreamEndedAt": 1789425719199,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” keep the vibe high‑energy, urge more stream hours to stay Verified, and shout “Something.”",
@@ -17400,8 +17400,8 @@
     },
     "tarzan": {
       "note": "Friendly gamer who loves Helldivers and Super Mario, uses playful banter and emojis to warmly engage viewers.",
-      "at": 1789101661087,
-      "n": 24
+      "at": 1789425735639,
+      "n": 25
     },
     "curlysnow07": {
       "note": "Curlysnow07 loves remote‑control car videos, PS4 gaming, Ninja Turtle jokes, bowling, and supports the stream with Blaze and Foxboai.",
@@ -18298,8 +18298,8 @@
     }
   },
   "auth": {
-    "accessToken": "2854fb1c43d05a0bf3fa4a16f129a3e8",
-    "refreshToken": "aad1482252cac815de3cf5cc603c66a5",
+    "accessToken": "60073193837f4a9cbf6e48624fb3d496",
+    "refreshToken": "f18e36b79908a239ed799daac6f28e71",
     "sessionToken": "d0daade8d44b0d1c19ca518b15244f67",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
