@@ -714,12 +714,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 75368,
+        "totalVotes": 75618,
         "totalSubs": 134,
-        "totalChatMessages": 9190,
+        "totalChatMessages": 9191,
         "totalStreamMinutes": 3095,
         "emotes": {
-          "🗳": 1509,
+          "🗳": 1512,
           "❤": 525,
           "🙌": 230,
           "🔥": 240,
@@ -1063,17 +1063,13 @@
           "😩": "😩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789387568473,
+        "lastChatAt": 1789390444120,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "stogchog",
-          "msg": "Popping in before bed. Hope you have a good stream Roshi!"
-        },
         {
           "user": "stogchog",
           "msg": "[emote:2a79c507-34a7-4e14-a100-e724cd6dd7a6]"
@@ -1109,6 +1105,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 250 vote(s) (total: 250)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -13005,7 +13005,7 @@
         "totalVotes": 7606,
         "totalSubs": 80,
         "totalChatMessages": 1291,
-        "totalStreamMinutes": 3147,
+        "totalStreamMinutes": 3161,
         "emotes": {
           "❤": 105,
           "🙌": 111,
@@ -13305,7 +13305,7 @@
         "totalVotes": 4813,
         "totalSubs": 54,
         "totalChatMessages": 1131,
-        "totalStreamMinutes": 4956,
+        "totalStreamMinutes": 4970,
         "emotes": {
           "❤": 57,
           "🙌": 66,
@@ -16078,8 +16078,8 @@
       "stats": {
         "totalVotes": 2262,
         "totalSubs": 2,
-        "totalChatMessages": 36,
-        "totalStreamMinutes": 29,
+        "totalChatMessages": 37,
+        "totalStreamMinutes": 44,
         "emotes": {
           "❤": 2,
           "🙌": 4,
@@ -16109,13 +16109,9 @@
           "🎯": "🎯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789390184693
+        "lastChatAt": 1789390413918
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @spike just gave 1010 vote(s) (total: 1010)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -16151,6 +16147,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "cabsss",
+          "msg": "yo @destinoprospero gm bro"
         }
       ],
       "customCommands": {},
@@ -16927,7 +16927,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 81,
-        "totalStreamMinutes": 258,
+        "totalStreamMinutes": 272,
         "emotes": {
           "❤": 5,
           "🙌": 1,
@@ -18186,8 +18186,8 @@
     }
   },
   "auth": {
-    "accessToken": "cc10f801ab870641c4939e2ebc8785ad",
-    "refreshToken": "d451baa970bf6aeeeddc83af24ad369d",
+    "accessToken": "1bba44408418f93f36dafb69f81d6a01",
+    "refreshToken": "532953743172d9658be704363be31dfb",
     "sessionToken": "d0daade8d44b0d1c19ca518b15244f67",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
