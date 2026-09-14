@@ -1787,8 +1787,8 @@
       "stats": {
         "totalVotes": 22211,
         "totalSubs": 186,
-        "totalChatMessages": 10776,
-        "totalStreamMinutes": 26025,
+        "totalChatMessages": 10779,
+        "totalStreamMinutes": 26045,
         "emotes": {
           "📊": 3,
           "🔥": 499,
@@ -1947,7 +1947,7 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 8,
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 2,
           "3c4113bb-2126-420f-b2db-775a012369fb": 1,
-          "b8d92475-43c4-40eb-837e-c5ee5ab01980": 2,
+          "b8d92475-43c4-40eb-837e-c5ee5ab01980": 3,
           "a859cc12-453a-4bd8-b650-38710d9486de": 41,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
@@ -2033,7 +2033,9 @@
           "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": 1,
           "7e37818f-11ee-4f40-904d-bd6ef9255557": 1,
           "67645f3b-901a-4574-8ed6-8cceb73dbb09": 1,
-          "710d5292-d1cd-4d2e-a0e2-0038426d9c2b": 4
+          "710d5292-d1cd-4d2e-a0e2-0038426d9c2b": 4,
+          "8fc6cae7-36f7-46d5-89a6-71b9aaad2234": 1,
+          "760e7352-a7ed-4464-a429-08feb9820455": 1
         },
         "emoteNames": {
           "📊": "📊",
@@ -2279,24 +2281,14 @@
           "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": "ANGRYPYRO2",
           "7e37818f-11ee-4f40-904d-bd6ef9255557": "AVALANCHE",
           "67645f3b-901a-4574-8ed6-8cceb73dbb09": "AVALANCHE",
-          "710d5292-d1cd-4d2e-a0e2-0038426d9c2b": "AVAX"
+          "710d5292-d1cd-4d2e-a0e2-0038426d9c2b": "AVAX",
+          "8fc6cae7-36f7-46d5-89a6-71b9aaad2234": "TEAM1",
+          "760e7352-a7ed-4464-a429-08feb9820455": "GUNZ"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789413289511
+        "lastChatAt": 1789414564558
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "That’s better"
-        },
-        {
-          "user": "piggymoto",
-          "msg": "Happy Streaming Sir  [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:710d5292-d1cd-4d2e-a0e2-0038426d9c2b]"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Thank you piggymoto!!"
@@ -2324,6 +2316,18 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Making some new emotes"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:8fc6cae7-36f7-46d5-89a6-71b9aaad2234]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:760e7352-a7ed-4464-a429-08feb9820455]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:b8d92475-43c4-40eb-837e-c5ee5ab01980]"
         }
       ],
       "customCommands": {},
@@ -2333,8 +2337,8 @@
       "locked": false,
       "followed": true,
       "streamTitle": "MONDAY OTG 🦾🔥 AVAX SUMMIT WEEK 🔺 — Off The Grid",
-      "profile": "Welcome to Wilder World game nights! Expect “FOX BOT” love, “RIP” jokes, “BLAZE THE DAY” vibes, “SLAY DRAGONS”, “LOVE FEST” moments, wheelspins, giveaways, interactive blackjack, and “RAID” cheers. Keep seeing it everywhere, play until you fall asleep, celebrate with free casino games, giveaways, and the classic “Keep your chin up!” energy.",
-      "_profileAtCount": 10705,
+      "profile": "Welcome to Wilder World game nights! Expect “FOX BOT” love, “RIP” jokes, “BLAZE THE DAY” vibes, “SLAY DRAGONS”, “LOVE FEST” moments, wheelspins, giveaways, interactive blackjack, and “RAID” cheers. Keep seeing it everywhere, play until you fall asleep, celebrate with free casino games, giveaways, and the classic “Keep your chin up!” energy. Crypt0k1ng96 loves off‑grid AVAX summit vibes and packed emotes.",
+      "_profileAtCount": 10776,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b0561010-9481-4f1e-a8ec-e56599bc3d49.jpg",
       "nudgedAt": 1785001902195,
@@ -2697,7 +2701,7 @@
       "followed": true,
       "streamTitle": "",
       "profile": "Welcome to thom6ss_otg’s Blaze stream—where 🔥 molten vibes meet FOX SPIRITS shenanigans, Crypto, and epic raids. We LOVE “LOVE FEST!” moments, “W” moments, and the LOYALTY SYSTEM! Celebrate with shoutouts, raids, giveaways, and events. Keep the energy high, keep the “LOVE FEST!” and “W” moments coming! Join the Fox Spirits Discord for community fun, points, and more.",
-      "_profileAtCount": 6348,
+      "_profileAtCount": 6520,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/71414b9a-4930-430d-af61-ab1de093476a.png",
       "loyalty": {
@@ -3221,21 +3225,21 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 24315,
+        "totalVotes": 24337,
         "totalSubs": 71,
-        "totalChatMessages": 12203,
-        "totalStreamMinutes": 7091,
+        "totalChatMessages": 12296,
+        "totalStreamMinutes": 7111,
         "emotes": {
-          "❤": 5193,
-          "🎵": 502,
+          "❤": 5206,
+          "🎵": 505,
           "💃": 271,
-          "🔥": 924,
+          "🔥": 926,
           "💚": 22,
           "👋": 214,
           "🚨": 328,
           "😊": 6,
           "🚀": 5,
-          "😂": 101,
+          "😂": 104,
           "💯": 36,
           "💥": 16,
           "🎶": 112,
@@ -3247,14 +3251,14 @@
           "💕": 37,
           "😁": 81,
           "😆": 21,
-          "🐝": 560,
+          "🐝": 561,
           "🥷": 4,
           "😃": 4,
           "💪": 34,
           "🥹": 6,
-          "🤣": 418,
+          "🤣": 434,
           "🥚": 16,
-          "🙏": 398,
+          "🙏": 401,
           "😀": 14,
           "♥": 218,
           "🥶": 2,
@@ -3304,21 +3308,21 @@
           "🤧": 1,
           "🎁": 45,
           "☝": 20,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 210,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 215,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 16,
           "07de98c1-b682-4d82-b630-774474b712cc": 3,
           "b416995d-3eee-4c99-9927-86fa112b0b18": 11,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 22,
           "dedb0949-63d9-4d58-86d1-ecf0269453d3": 6,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 51,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 33,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 52,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 34,
           "849b2d68-7a30-4dcc-9981-1906ce5d70ca": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 4,
           "258f10f6-6369-4d78-9020-6d4344802acb": 1,
           "3334e68d-936f-4783-a8a4-78c564063655": 1,
           "3a0bbdaa-5c9d-44bc-8291-5e4446aac8d5": 2,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 24,
-          "a80b8258-7a03-4aed-95f8-19ab819775c7": 24,
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": 30,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "🛀": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 8,
@@ -3327,24 +3331,24 @@
           "🎆": 2,
           "🎉": 4,
           "🦵": 3,
-          "a43a08cd-5224-4a75-968b-1c12fcd087e3": 282,
+          "a43a08cd-5224-4a75-968b-1c12fcd087e3": 283,
           "57033a2d-497d-4cb1-afa8-831b55347aae": 49,
-          "29492159-a350-4196-b94c-6e01af87a634": 208,
-          "b9a50ea5-8eb3-49d9-bfdf-8c922496aef8": 226,
-          "4aafb92a-a21b-49ff-99f6-8430048f9fc4": 59,
-          "fc7e2ae0-ece5-463c-9aaf-b7655525559b": 141,
-          "213445d2-f92b-400c-a56f-b091519e6ff7": 62,
-          "bce37112-0e5c-44d5-b1d3-62cf02d591b3": 59,
+          "29492159-a350-4196-b94c-6e01af87a634": 209,
+          "b9a50ea5-8eb3-49d9-bfdf-8c922496aef8": 232,
+          "4aafb92a-a21b-49ff-99f6-8430048f9fc4": 60,
+          "fc7e2ae0-ece5-463c-9aaf-b7655525559b": 148,
+          "213445d2-f92b-400c-a56f-b091519e6ff7": 63,
+          "bce37112-0e5c-44d5-b1d3-62cf02d591b3": 60,
           "d7f4fdce-e137-41a9-837c-1afa844e7834": 1,
-          "9644306b-78ae-4df1-be70-b52009c76049": 90,
+          "9644306b-78ae-4df1-be70-b52009c76049": 91,
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": 1,
           "👁": 2,
           "👄": 1,
           "12d57d38-0432-4222-9f90-c2f0b1dc400f": 31,
           "bfb66467-56b9-4e4b-a691-80fa5f012fa6": 28,
           "🪀": 1,
-          "0df03081-f425-43c1-b55e-56aa722c820e": 85,
-          "a2e96b00-96b1-49ae-a19b-5ca81e50a614": 104,
+          "0df03081-f425-43c1-b55e-56aa722c820e": 86,
+          "a2e96b00-96b1-49ae-a19b-5ca81e50a614": 105,
           "🐕": 1,
           "🦴": 3,
           "🪘": 21,
@@ -3383,7 +3387,7 @@
           "🥜": 4,
           "😇": 3,
           "🤭": 1,
-          "37719561-c923-4260-b1a5-e3eda10c103d": 1,
+          "37719561-c923-4260-b1a5-e3eda10c103d": 2,
           "da339ef7-1574-4f2f-8b48-666688167af3": 2,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
           "🔫": 2,
@@ -3410,7 +3414,8 @@
           "👆": 1,
           "⛰": 3,
           "🤫": 1,
-          "🙄": 2
+          "🙄": 2,
+          "dab820c3-c946-4d12-aef8-d07703f0c052": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -3597,9 +3602,10 @@
           "👆": "👆",
           "⛰": "⛰",
           "🤫": "🤫",
-          "🙄": "🙄"
+          "🙄": "🙄",
+          "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
-        "lastChatAt": 1789413341765,
+        "lastChatAt": 1789414574015,
         "sendFailStreak": 527,
         "lastSendFailAt": 1789405307736,
         "lastSendFailReason": "You are banned from this channel.",
@@ -3609,44 +3615,44 @@
       },
       "chatMemory": [
         {
-          "user": "soulsalwayson",
-          "msg": "You need to ask questions like what is 1 + 1 lol"
+          "user": "bee12",
+          "msg": "🤣🤣🤣"
         },
         {
-          "user": "doktorgrav",
-          "msg": "hello"
+          "user": "zelzo",
+          "msg": "you can just send it in here"
         },
         {
           "user": "sheshi",
-          "msg": "they owe us money"
+          "msg": "zelzo"
+        },
+        {
+          "user": "weri",
+          "msg": "Zelzo"
+        },
+        {
+          "user": "twistedtinker",
+          "msg": "🤣"
+        },
+        {
+          "user": "knopissime",
+          "msg": "wtf"
         },
         {
           "user": "bee12",
-          "msg": "doktorgrav heyyy❤️🐝❤️"
+          "msg": "pahhahaaa"
+        },
+        {
+          "user": "soulsalwayson",
+          "msg": "Oh that's me!"
+        },
+        {
+          "user": "soulsalwayson",
+          "msg": "My new name is ZSoulsAlwaysOnO"
         },
         {
           "user": "bee12",
-          "msg": "Got here early enough to own things instead of doing them. Owe you money. Still look down on you."
-        },
-        {
-          "user": "sheshi",
-          "msg": "hello mr. grav"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "back, is there a link to these guys?"
-        },
-        {
-          "user": "soulsalwayson",
-          "msg": "I will ask Rene right now lol"
-        },
-        {
-          "user": "soulsalwayson",
-          "msg": "Only way I know of right is to buy off a CEX."
-        },
-        {
-          "user": "sheshi",
-          "msg": "efQyEV6Hm2ioWjJwGATvJ38g73idCH3ZPUw6b8qKrT2w9LXrK"
+          "msg": "🤣🤣🤣"
         }
       ],
       "customCommands": {},
@@ -4353,8 +4359,8 @@
       "stats": {
         "totalVotes": 8904,
         "totalSubs": 40,
-        "totalChatMessages": 1686,
-        "totalStreamMinutes": 8278,
+        "totalChatMessages": 1687,
+        "totalStreamMinutes": 8298,
         "emotes": {
           "✨": 35,
           "🖥": 21,
@@ -4428,7 +4434,7 @@
           "💕": 2,
           "😭": 1,
           "💚": 3,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 4,
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 5,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 25,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
@@ -4565,14 +4571,10 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO",
           "cd2d0478-cb09-4023-9a6a-750599f9623a": "CALMPYRO"
         },
-        "lastChatAt": 1789411425920,
+        "lastChatAt": 1789413547061,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:cd2d0478-cb09-4023-9a6a-750599f9623a] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:cd2d0478-cb09-4023-9a6a-750599f9623a]"
-        },
         {
           "user": "cachebot",
           "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
@@ -4608,6 +4610,10 @@
         {
           "user": "cachebot",
           "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! OTG Grind. Drop a greeting in chat! 👋"
+        },
+        {
+          "user": "piggymoto",
+          "msg": "Happy Streaming Sir  [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
         }
       ],
       "customCommands": {},
@@ -6720,10 +6726,10 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 13377,
+        "totalVotes": 13427,
         "totalSubs": 38,
-        "totalChatMessages": 2639,
-        "totalStreamMinutes": 3744,
+        "totalChatMessages": 2654,
+        "totalStreamMinutes": 3764,
         "emotes": {
           "❤": 44,
           "🙌": 82,
@@ -6733,9 +6739,9 @@
           "🙂": 3,
           "🔥": 56,
           "😎": 5,
-          "🗳": 564,
-          "📴": 34,
-          "👋": 43,
+          "🗳": 567,
+          "📴": 35,
+          "👋": 44,
           "🎁": 64,
           "😂": 54,
           "🚨": 66,
@@ -6929,24 +6935,40 @@
           "ff330119-79dd-4873-8d9f-8dc9b8941a0e": "dimi"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789413298288
+        "lastChatAt": 1789414572776
       },
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Sinnerz just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 time is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "https://discord.gg/PXwUmyWwN"
-        },
-        {
-          "user": "botger",
           "msg": "https://x.com/e_buket_erkul"
+        },
+        {
+          "user": "time",
+          "msg": "have a good work"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "time",
+          "msg": "thank you so much"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Kenara çekilmem lazım, tekrar kontrol edeceğim.  Seni görmek güzel."
+        },
+        {
+          "user": "briggsy",
+          "msg": "of course."
+        },
+        {
+          "user": "time",
+          "msg": "good to see you"
+        },
+        {
+          "user": "briggsy",
+          "msg": "thank you, you too."
         },
         {
           "user": "botger",
@@ -6954,23 +6976,7 @@
         },
         {
           "user": "botger",
-          "msg": "https://salvor.io/collections/0x4ffb0924d999bc2015f69f58f403ceadfc16963d"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "time",
-          "msg": "thank you"
-        },
-        {
-          "user": "time",
-          "msg": "break ti"
-        },
-        {
-          "user": "time",
-          "msg": "time"
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6979,7 +6985,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "Chess — Art",
+      "streamTitle": "",
       "profile": "time’s stream is a tight‑knit chess crew that celebrates life with “Hirslarini onlarin” vibes, shouting “🙏🙏” for love fests and “Zor zor hileciler cok var” when a trick lands. We love “dram dram” jokes, “çği” laughs, and always give shoutouts. Time’s streams are a place to play, chat, and celebrate with energy, humor, and community spirit.",
       "_profileAtCount": 2622,
       "followed": true,
@@ -7015,7 +7021,7 @@
       "nudgedAt": 1785780193436,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Chess — Art",
-      "lastStreamEndedAt": 1789244462814
+      "lastStreamEndedAt": 1789414567626
     },
     "27422fb2-063e-4a22-8cde-41c2baf0f386": {
       "username": "cymatrix",
@@ -8360,7 +8366,7 @@
         "totalVotes": 9467,
         "totalSubs": 192,
         "totalChatMessages": 379,
-        "totalStreamMinutes": 9457,
+        "totalStreamMinutes": 9477,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -11554,8 +11560,8 @@
       "stats": {
         "totalVotes": 10791,
         "totalSubs": 12,
-        "totalChatMessages": 14205,
-        "totalStreamMinutes": 12476,
+        "totalChatMessages": 14220,
+        "totalStreamMinutes": 12496,
         "emotes": {
           "❤": 51,
           "🙌": 39,
@@ -11843,48 +11849,48 @@
           "🔋": "🔋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789413245311
+        "lastChatAt": 1789414535668
       },
       "chatMemory": [
         {
           "user": "kwinchester",
-          "msg": "Kkkkk"
+          "msg": "Dentro das casas não tem nada"
         },
         {
           "user": "kwinchester",
-          "msg": "Grava eu acho"
-        },
-        {
-          "user": "solucao",
-          "msg": "Vai aparecer"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Esse jogo e na pegada de silent Hill pergunta"
-        },
-        {
-          "user": "solucao",
-          "msg": "Capeta"
-        },
-        {
-          "user": "solucao",
-          "msg": "Que susto"
+          "msg": "?"
         },
         {
           "user": "kwinchester",
-          "msg": "Eu nunca vi esse mas creio que sim"
-        },
-        {
-          "user": "solucao",
-          "msg": "Vai acabar a bateria 🔋"
+          "msg": "Alguém vindo alo"
         },
         {
           "user": "kwinchester",
-          "msg": "Cuidado com a velha"
+          "msg": "Ali"
         },
         {
           "user": "kwinchester",
-          "msg": "Esconde"
+          "msg": "É bom tomar cuidado com eles"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "Esconde nos barril"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "Kkkkkkkkkkkkkkkk"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "Esses aí ué"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "Você entrou em uns"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "Não tem"
         }
       ],
       "customCommands": {},
@@ -12320,8 +12326,8 @@
       "stats": {
         "totalVotes": 17375,
         "totalSubs": 32,
-        "totalChatMessages": 4155,
-        "totalStreamMinutes": 7765,
+        "totalChatMessages": 4157,
+        "totalStreamMinutes": 7785,
         "emotes": {
           "❤": 80,
           "🙌": 62,
@@ -12567,17 +12573,9 @@
           "📌": "📌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789413298372
+        "lastChatAt": 1789413529141
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @b1injaninja just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "be the doc"
-        },
         {
           "user": "desirablebottom",
           "msg": "medic?"
@@ -12609,6 +12607,14 @@
         {
           "user": "piggymoto",
           "msg": "Make the last game count!"
+        },
+        {
+          "user": "piggymoto",
+          "msg": "It's alright. Hby"
+        },
+        {
+          "user": "piggymoto",
+          "msg": "Somebody got talent"
         }
       ],
       "customCommands": {},
@@ -13569,8 +13575,8 @@
       "stats": {
         "totalVotes": 3342,
         "totalSubs": 16,
-        "totalChatMessages": 736,
-        "totalStreamMinutes": 7895,
+        "totalChatMessages": 737,
+        "totalStreamMinutes": 7915,
         "emotes": {
           "❤": 51,
           "🙌": 38,
@@ -13596,7 +13602,7 @@
           "✌": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
           "🚨": 36,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 21,
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 22,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 5,
           "😋": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 24,
@@ -13672,13 +13678,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789410078735
+        "lastChatAt": 1789413426040
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "have a great stream! just lurking before I head to bed. happy sunday!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -13714,6 +13716,10 @@
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "piggymoto",
+          "msg": "Happy Streaming Sir  [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
         }
       ],
       "customCommands": {
