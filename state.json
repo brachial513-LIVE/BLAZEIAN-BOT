@@ -714,12 +714,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 74840,
+        "totalVotes": 74855,
         "totalSubs": 134,
-        "totalChatMessages": 9183,
+        "totalChatMessages": 9184,
         "totalStreamMinutes": 3095,
         "emotes": {
-          "🗳": 1488,
+          "🗳": 1491,
           "❤": 525,
           "🙌": 230,
           "🔥": 240,
@@ -1063,17 +1063,13 @@
           "😩": "😩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789355616350,
+        "lastChatAt": 1789371746182,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @thom6ss_otg just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -1109,6 +1105,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @b1injaninja just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9804,14 +9804,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 19276,
+        "totalVotes": 19301,
         "totalSubs": 22,
-        "totalChatMessages": 1206,
+        "totalChatMessages": 1208,
         "totalStreamMinutes": 1859,
         "emotes": {
           "❤": 19,
           "🙌": 27,
-          "🗳": 495,
+          "🗳": 501,
           "🚨": 54,
           "🎉": 28,
           "👋": 41,
@@ -9980,21 +9980,13 @@
           "👧": "👧",
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
-        "lastChatAt": 1789325865753,
+        "lastChatAt": 1789372298504,
         "sendFailStreak": 248,
         "lastSendFailAt": 1789347572836,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1789347572531
       },
       "chatMemory": [
-        {
-          "user": "dimifw",
-          "msg": "[emote:17f4960d-e4a6-4efd-96a8-157a71aab1f5] [emote:17f4960d-e4a6-4efd-96a8-157a71aab1f5] [emote:17f4960d-e4a6-4efd-96a8-157a71aab1f5]"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 dimifw is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "dimifw",
           "msg": "internet runs like ass, ending it after this game"
@@ -10026,6 +10018,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 2 vote(s) (total: 12)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mediart just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @RealmOfCrimson just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -13295,10 +13295,10 @@
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 4793,
+        "totalVotes": 4808,
         "totalSubs": 54,
-        "totalChatMessages": 1104,
-        "totalStreamMinutes": 4915,
+        "totalChatMessages": 1115,
+        "totalStreamMinutes": 4928,
         "emotes": {
           "❤": 57,
           "🙌": 66,
@@ -13307,9 +13307,9 @@
           "🤝": 1,
           "🔴": 31,
           "🎉": 38,
-          "🗳": 126,
-          "📴": 31,
-          "👋": 31,
+          "🗳": 132,
+          "📴": 32,
+          "👋": 32,
           "💛": 1,
           "🥰": 1,
           "📢": 19,
@@ -13326,7 +13326,7 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 6,
           "✌": 2,
           "👍": 1,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 18,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 21,
           "💰": 4,
           "😂": 2,
           "🤣": 7,
@@ -13336,7 +13336,7 @@
           "🎶": 1,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 1,
           "37719561-c923-4260-b1a5-e3eda10c103d": 4,
-          "555a557b-672c-4db0-80d4-85564e0bbac4": 3,
+          "555a557b-672c-4db0-80d4-85564e0bbac4": 5,
           "💯": 1
         },
         "emoteNames": {
@@ -13380,28 +13380,40 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789370218830
+        "lastChatAt": 1789372172998
       },
       "chatMemory": [
         {
-          "user": "agent00zani",
-          "msg": "raid from wapi"
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @noxx at https://blaze.stream/noxx!"
         },
         {
-          "user": "agent00zani",
-          "msg": "gm gm @seventh"
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @b1injaninja!"
         },
         {
-          "user": "anikisnow",
-          "msg": "o7"
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @b1injaninja just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         },
         {
-          "user": "thekingofc",
-          "msg": "Gm Gm live"
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @b1injaninja at https://blaze.stream/b1injaninja!"
         },
         {
-          "user": "nekoschwan",
-          "msg": "have a great stream! just lurking before I head to bed. happy sunday!"
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @tuff3rmrd3ano!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @tuff3rmrd3ano at https://blaze.stream/tuff3rmrd3ano!"
         },
         {
           "user": "scurvybot",
@@ -13410,18 +13422,6 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 seventh is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @noxx at https://blaze.stream/noxx!"
         }
       ],
       "customCommands": {},
@@ -13433,9 +13433,9 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg",
-      "streamTitle": "Change game too many cheaters on Arc Raiders 😤 — VALORANT",
-      "lastStreamInfo": "Change game too many cheaters on Arc Raiders 😤 — League of Legends",
-      "lastStreamEndedAt": 1789328600312,
+      "streamTitle": "",
+      "lastStreamInfo": "Change game too many cheaters on Arc Raiders 😤 — VALORANT",
+      "lastStreamEndedAt": 1789372167824,
       "gameOverride": "",
       "profile": "Seventh’s channel is nonstop Raider arena, “Another day of being a Raider 😂 — ARC Raiders.” GMs are the best! 🔥🔥💚💚 Celebrate streams with 🎉 and 🔴 alerts. Weekly Giveaways on Blaze are a thing, and we’re all about those “permanently free Entries”! 💚 Shout “VOTE ALERT!!” and shower love on the streamer with “love fest” shoutouts. seventh loves being celebrated, so let’s give ‘em a love fest!",
       "_profileAtCount": 1064,
