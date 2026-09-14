@@ -714,12 +714,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 76430,
+        "totalVotes": 76580,
         "totalSubs": 134,
-        "totalChatMessages": 9196,
+        "totalChatMessages": 9197,
         "totalStreamMinutes": 3095,
         "emotes": {
-          "🗳": 1524,
+          "🗳": 1527,
           "❤": 527,
           "🙌": 231,
           "🔥": 240,
@@ -1063,17 +1063,13 @@
           "😩": "😩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789419172181,
+        "lastChatAt": 1789424129775,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @parky just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @0xscheun just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
@@ -1109,6 +1105,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 250 vote(s) (total: 250)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8131,9 +8131,9 @@
       "username": "xxtowerdogxx",
       "language": "en",
       "stats": {
-        "totalVotes": 9025,
+        "totalVotes": 10325,
         "totalSubs": 47,
-        "totalChatMessages": 2084,
+        "totalChatMessages": 2086,
         "totalStreamMinutes": 13206,
         "emotes": {
           "🔥": 599,
@@ -8146,7 +8146,7 @@
           "👋": 53,
           "👽": 28,
           "💀": 6,
-          "🗳": 291,
+          "🗳": 297,
           "💗": 1,
           "😱": 19,
           "❤": 57,
@@ -8271,18 +8271,10 @@
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink",
           "cd2d0478-cb09-4023-9a6a-750599f9623a": "CALMPYRO"
         },
-        "lastChatAt": 1789335063612,
+        "lastChatAt": 1789423999544,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "xxtowerdogxx is in the house! 🔥Welcome to the HOTTEST channel on BLAZE🔥"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @retrogains12 just gave 1 vote(s) (total: 9)! Thank you!! 🗳️"
@@ -8314,6 +8306,14 @@
         {
           "user": "botger",
           "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 900 vote(s) (total: 900)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 400 vote(s) (total: 1300)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8377,7 +8377,7 @@
         "totalVotes": 9467,
         "totalSubs": 193,
         "totalChatMessages": 394,
-        "totalStreamMinutes": 9552,
+        "totalStreamMinutes": 9564,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -11579,7 +11579,7 @@
         "totalVotes": 10905,
         "totalSubs": 12,
         "totalChatMessages": 14329,
-        "totalStreamMinutes": 12644,
+        "totalStreamMinutes": 12656,
         "emotes": {
           "❤": 51,
           "🙌": 39,
@@ -15068,7 +15068,7 @@
         "totalVotes": 2686,
         "totalSubs": 23,
         "totalChatMessages": 2121,
-        "totalStreamMinutes": 6322,
+        "totalStreamMinutes": 6334,
         "emotes": {
           "👋": 50,
           "⚠": 2,
@@ -18298,8 +18298,8 @@
     }
   },
   "auth": {
-    "accessToken": "52b2c7624e31b4af4fa71022d4fb5a16",
-    "refreshToken": "f59626c90806547bd385cd41bcaea35f",
+    "accessToken": "2854fb1c43d05a0bf3fa4a16f129a3e8",
+    "refreshToken": "aad1482252cac815de3cf5cc603c66a5",
     "sessionToken": "d0daade8d44b0d1c19ca518b15244f67",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
