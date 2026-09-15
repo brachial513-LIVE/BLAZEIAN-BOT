@@ -8150,7 +8150,7 @@
         "totalVotes": 10380,
         "totalSubs": 47,
         "totalChatMessages": 2118,
-        "totalStreamMinutes": 13421,
+        "totalStreamMinutes": 13426,
         "emotes": {
           "🔥": 614,
           "🔴": 200,
@@ -9581,7 +9581,7 @@
         "totalVotes": 21439,
         "totalSubs": 115,
         "totalChatMessages": 2198,
-        "totalStreamMinutes": 11890,
+        "totalStreamMinutes": 11895,
         "emotes": {
           "❤": 92,
           "🙌": 157,
@@ -11604,7 +11604,7 @@
         "totalVotes": 10905,
         "totalSubs": 12,
         "totalChatMessages": 14329,
-        "totalStreamMinutes": 12921,
+        "totalStreamMinutes": 12926,
         "emotes": {
           "❤": 51,
           "🙌": 39,
@@ -15093,7 +15093,7 @@
         "totalVotes": 2690,
         "totalSubs": 23,
         "totalChatMessages": 2128,
-        "totalStreamMinutes": 6508,
+        "totalStreamMinutes": 6513,
         "emotes": {
           "👋": 51,
           "⚠": 2,
@@ -15413,8 +15413,8 @@
       "stats": {
         "totalVotes": 3898,
         "totalSubs": 21,
-        "totalChatMessages": 774,
-        "totalStreamMinutes": 5393,
+        "totalChatMessages": 775,
+        "totalStreamMinutes": 5396,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -15536,13 +15536,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789435271575
+        "lastChatAt": 1789440261176
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "bed"
-        },
         {
           "user": "agent00zani",
           "msg": "dinner"
@@ -15578,6 +15574,10 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @slothsm, who is live now, currently streaming PLAYERUNKNOWN'S BATTLEGROUNDS to 4 viewers at https://blaze.stream/slothsm!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {
@@ -15593,9 +15593,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "🔴Valorant: Solo plat run — VALORANT",
-      "lastStreamInfo": "🔴LIVE NOW: RV There yet? w/ @FartVader @JaggerJack — Games + Demos",
-      "lastStreamEndedAt": 1789328071028,
+      "streamTitle": "",
+      "lastStreamInfo": "🔴Valorant: Solo plat run — VALORANT",
+      "lastStreamEndedAt": 1789440260939,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f15f1816-f9c6-45ab-b076-748dc5a50310.png",
       "profile": "cr33pling’s Blaze channel is a high‑energy, emoji‑packed hub where “what’s uppp” and “patambay” echo through the chat. The crew loves spontaneous “🔥🔥🔥” bursts, constant “emote:6086f447” drops, and celebratory shoutouts for raids, subs, and votes. The game is a fast‑paced, community‑driven experience that thrives on quick reactions, playful banter, and a relentless stream of hype.",
@@ -18325,8 +18325,8 @@
     }
   },
   "auth": {
-    "accessToken": "5ffee14e6a92cb1b101055ca4dcd05a9",
-    "refreshToken": "8e15b0a3bcc93f4d39466af02599e71d",
+    "accessToken": "2ceb714fe6d8b6f44c16ff9da5796857",
+    "refreshToken": "1e437658b1f769e5025314c935296f37",
     "sessionToken": "316a6f4d4dd82f21943b6aa0bb487a83",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
