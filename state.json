@@ -6749,7 +6749,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 13703,
+        "totalVotes": 13704,
         "totalSubs": 38,
         "totalChatMessages": 2825,
         "totalStreamMinutes": 3882,
@@ -11311,8 +11311,8 @@
       "stats": {
         "totalVotes": 4778,
         "totalSubs": 39,
-        "totalChatMessages": 1144,
-        "totalStreamMinutes": 2721,
+        "totalChatMessages": 1146,
+        "totalStreamMinutes": 2726,
         "emotes": {
           "❤": 76,
           "🙌": 62,
@@ -11404,17 +11404,9 @@
           "🤗": "🤗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789472344071
+        "lastChatAt": 1789472711450
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:c600ade4-93cb-4118-a13c-b786761b45f8] [emote:c600ade4-93cb-4118-a13c-b786761b45f8] [emote:c600ade4-93cb-4118-a13c-b786761b45f8] [emote:c600ade4-93cb-4118-a13c-b786761b45f8] [emote:c600ade4-93cb-4118-a13c-b786761b45f8] [emote:c600ade4-93cb-4118-a13c-b786761b45f8] [emote:c600ade4-93cb-4118-a13c-b786761b45f8] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "timdraws",
           "msg": "@ruri666 not yet, avaialbe in 6hrs"
@@ -11446,6 +11438,14 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "missaria",
+          "msg": "GM @ruri666"
+        },
+        {
+          "user": "missaria",
+          "msg": "di naman dota 2 yan"
         }
       ],
       "customCommands": {},
@@ -11621,7 +11621,7 @@
         "totalVotes": 10906,
         "totalSubs": 12,
         "totalChatMessages": 14329,
-        "totalStreamMinutes": 13461,
+        "totalStreamMinutes": 13466,
         "emotes": {
           "❤": 51,
           "🙌": 39,
@@ -13441,7 +13441,7 @@
       "stats": {
         "totalVotes": 4918,
         "totalSubs": 54,
-        "totalChatMessages": 1162,
+        "totalChatMessages": 1164,
         "totalStreamMinutes": 5132,
         "emotes": {
           "❤": 57,
@@ -13449,8 +13449,8 @@
           "🔥": 60,
           "💚": 3,
           "🤝": 1,
-          "🔴": 32,
-          "🎉": 39,
+          "🔴": 33,
+          "🎉": 40,
           "🗳": 138,
           "📴": 33,
           "👋": 33,
@@ -13524,17 +13524,9 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789400842416
+        "lastChatAt": 1789472758183
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "good luck with the game lesgooo"
-        },
-        {
-          "user": "fartvader",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
         {
           "user": "fartvader",
           "msg": "be on the lurk here brother.."
@@ -13566,6 +13558,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 seventh is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -13577,7 +13577,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg",
-      "streamTitle": "",
+      "streamTitle": "Change game too many cheaters on Arc Raiders 😤 — League of Legends",
       "lastStreamInfo": "Change game too many cheaters on Arc Raiders 😤 — VALORANT",
       "lastStreamEndedAt": 1789400837232,
       "gameOverride": "",
@@ -18352,8 +18352,8 @@
     }
   },
   "auth": {
-    "accessToken": "1330335e7a060db2600e3a22ba3def7b",
-    "refreshToken": "eda92e408ae0ec16ad3e4f785a43c077",
+    "accessToken": "780933d1dbec1a035b40c3e77a909b52",
+    "refreshToken": "26da603ecbfbade8193a72c8a38feef8",
     "sessionToken": "316a6f4d4dd82f21943b6aa0bb487a83",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
