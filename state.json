@@ -3808,7 +3808,7 @@
         "totalVotes": 14219,
         "totalSubs": 62,
         "totalChatMessages": 3038,
-        "totalStreamMinutes": 13513,
+        "totalStreamMinutes": 13518,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -8176,7 +8176,7 @@
         "totalVotes": 10549,
         "totalSubs": 47,
         "totalChatMessages": 2126,
-        "totalStreamMinutes": 13688,
+        "totalStreamMinutes": 13693,
         "emotes": {
           "🔥": 616,
           "🔴": 200,
@@ -9172,7 +9172,7 @@
         "totalVotes": 8910,
         "totalSubs": 86,
         "totalChatMessages": 639,
-        "totalStreamMinutes": 2520,
+        "totalStreamMinutes": 2525,
         "emotes": {
           "❤": 24,
           "🙌": 98,
@@ -9629,7 +9629,7 @@
         "totalVotes": 21664,
         "totalSubs": 115,
         "totalChatMessages": 2234,
-        "totalStreamMinutes": 12233,
+        "totalStreamMinutes": 12238,
         "emotes": {
           "❤": 92,
           "🙌": 158,
@@ -13715,7 +13715,7 @@
         "totalVotes": 3387,
         "totalSubs": 16,
         "totalChatMessages": 748,
-        "totalStreamMinutes": 8637,
+        "totalStreamMinutes": 8642,
         "emotes": {
           "❤": 51,
           "🙌": 38,
@@ -15190,16 +15190,16 @@
       "stats": {
         "totalVotes": 2759,
         "totalSubs": 23,
-        "totalChatMessages": 2238,
-        "totalStreamMinutes": 7032,
+        "totalChatMessages": 2240,
+        "totalStreamMinutes": 7037,
         "emotes": {
-          "👋": 54,
+          "👋": 55,
           "⚠": 2,
           "🎯": 2,
           "🗳": 184,
           "🔴": 53,
           "🎉": 73,
-          "📴": 51,
+          "📴": 52,
           "🎡": 3,
           "®": 3,
           "📢": 9,
@@ -15345,17 +15345,9 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789520860919
+        "lastChatAt": 1789526749076
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @flantality just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
-        {
-          "user": "flantality",
-          "msg": "hi"
-        },
         {
           "user": "flantality",
           "msg": "if there is a weel...\nMUCHN LOVE Fraz"
@@ -15387,6 +15379,14 @@
         {
           "user": "inn",
           "msg": "Welcome inn say hi to enter"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -15401,9 +15401,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "this is my  🔥 299th Blaze Stream🔥 — Rocket League",
-      "lastStreamInfo": "this is my  🔥 299th Blaze Stream🔥 — Faded Monsuta",
-      "lastStreamEndedAt": 1789471058312,
+      "streamTitle": "",
+      "lastStreamInfo": "this is my  🔥 299th Blaze Stream🔥 — Rocket League",
+      "lastStreamEndedAt": 1789526743820,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” keep the vibe high‑energy, urge more stream hours to stay Verified, and shout “Something.”",
@@ -18458,8 +18458,8 @@
     }
   },
   "auth": {
-    "accessToken": "dcb41fc4e29c8a15bbf2583397071a5c",
-    "refreshToken": "3515bef256c52b344e8b82d88ed35946",
+    "accessToken": "02eed997d065a450497d26f52d103da1",
+    "refreshToken": "a45fd35d83ffc0b9451e99b8da2c01c5",
     "sessionToken": "85f206da7dfe02e9ded6e6c7ea72a012",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
