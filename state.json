@@ -7613,7 +7613,7 @@
       "stats": {
         "totalVotes": 15326,
         "totalSubs": 61,
-        "totalChatMessages": 13245,
+        "totalChatMessages": 13247,
         "totalStreamMinutes": 8980,
         "emotes": {
           "🧏": 1,
@@ -8026,17 +8026,9 @@
           "🤎": "🤎"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789538748882
+        "lastChatAt": 1789538824899
       },
       "chatMemory": [
-        {
-          "user": "metal_bot",
-          "msg": "@makeitmetal Found 2 matches: 1. Kiko Loureiro - Du Monde | 2. Kiko Loureiro - Du Monde (Backing Track) — Reply !pick 1-2 to select"
-        },
-        {
-          "user": "metal_bot",
-          "msg": "@makeitmetal Added \"Kiko Loureiro - Du Monde\" to the queue! (Position #4)"
-        },
         {
           "user": "nekoschwan",
           "msg": "have a great stream @makeitmetal"
@@ -8068,6 +8060,14 @@
         {
           "user": "libralives",
           "msg": "I am experiencing a press play get CD key situation on Steam. I would like the game to actually launch so I can play music."
+        },
+        {
+          "user": "libralives",
+          "msg": "Any idea how to get program to launch without stopping"
+        },
+        {
+          "user": "libralives",
+          "msg": "This is Rocksmith 2014"
         }
       ],
       "customCommands": {},
@@ -9171,15 +9171,15 @@
       "stats": {
         "totalVotes": 8910,
         "totalSubs": 86,
-        "totalChatMessages": 646,
-        "totalStreamMinutes": 2725,
+        "totalChatMessages": 648,
+        "totalStreamMinutes": 2733,
         "emotes": {
           "❤": 26,
           "🙌": 99,
           "🔴": 16,
           "🎉": 21,
-          "📴": 15,
-          "👋": 15,
+          "📴": 16,
+          "👋": 16,
           "🗳": 63,
           "🎁": 148,
           "🤗": 1,
@@ -9226,17 +9226,9 @@
           "🚨": "🚨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789537688117
+        "lastChatAt": 1789539260302
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
@@ -9268,6 +9260,14 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -9278,13 +9278,13 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "streamTitle": "Enshrouded first impressions with my childhood online friend who is a daddy right now lol what an extense title for an stream — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1087d984-7048-475d-b8f9-c93c14eefc15.gif",
       "profile": "lady_iris’s channel is a high‑energy hub for crypto trading, Tetris builds, and gaming chatter. The community loves “vai”, “yuppie”, “yayyyyyyyy”, “yuppiiiiii”, and “trans muda” hype. They cheer “S2” moments, shout “yayyyyyyyy” when a streak hits, and celebrate every trade win with enthusiastic, slang‑filled cheers. The stream thrives on rapid, hype‑filled interaction and constant celebration.",
       "_profileAtCount": 619,
       "lastStreamInfo": "Enshrouded first impressions with my childhood online friend who is a daddy right now lol what an extense title for an stream — Crypto",
-      "lastStreamEndedAt": 1789451229250,
+      "lastStreamEndedAt": 1789539255104,
       "nudgedAt": 1786053663388,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -13721,7 +13721,7 @@
         "totalVotes": 3387,
         "totalSubs": 16,
         "totalChatMessages": 748,
-        "totalStreamMinutes": 8842,
+        "totalStreamMinutes": 8860,
         "emotes": {
           "❤": 51,
           "🙌": 38,
@@ -18250,9 +18250,9 @@
       "n": 2
     },
     "potato_pete": {
-      "note": "Casual, upbeat chatter about burgers, sleep habits, and streaming, with playful emojis and friendly greetings.",
-      "at": 1789446855850,
-      "n": 6
+      "note": "They enjoy casual, upbeat chatter about burgers, sleep habits, and streaming, with playful emojis and friendly greetings.",
+      "at": 1789539255852,
+      "n": 7
     },
     "cabsss": {
       "note": "They chat casually about Dota, Pokémon cards, boss fights, and sprinkle playful video‑game references with pop‑culture jokes.",
@@ -18464,8 +18464,8 @@
     }
   },
   "auth": {
-    "accessToken": "8d5b74624849f6aeabddaa4dbbf6c44b",
-    "refreshToken": "e5496ea62602e7a6bbbb1247d449648b",
+    "accessToken": "68bd864015b0915a763183a1a704904d",
+    "refreshToken": "7d991c711beaddbebf7af36f466639a0",
     "sessionToken": "85f206da7dfe02e9ded6e6c7ea72a012",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
