@@ -3808,7 +3808,7 @@
         "totalVotes": 14219,
         "totalSubs": 62,
         "totalChatMessages": 3038,
-        "totalStreamMinutes": 13493,
+        "totalStreamMinutes": 13513,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -5542,16 +5542,16 @@
       "stats": {
         "totalVotes": 23077,
         "totalSubs": 58,
-        "totalChatMessages": 6786,
-        "totalStreamMinutes": 11637,
+        "totalChatMessages": 6788,
+        "totalStreamMinutes": 11652,
         "emotes": {
           "❤": 82,
           "🙌": 176,
           "🗳": 696,
           "🔴": 68,
           "🎉": 121,
-          "📴": 66,
-          "👋": 77,
+          "📴": 67,
+          "👋": 78,
           "🔥": 211,
           "💪": 2,
           "🤖": 1,
@@ -5886,18 +5886,10 @@
           "🎙": "🎙",
           "🎼": "🎼"
         },
-        "lastChatAt": 1789524015781,
+        "lastChatAt": 1789526156529,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Yess!!"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Even better"
-        },
         {
           "user": "briggsy",
           "msg": "Glad you went deep."
@@ -5929,6 +5921,14 @@
         {
           "user": "jt_squared2",
           "msg": "blaze concert?"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5937,7 +5937,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🥳Fistas patrias week🥳❤️Recording a Folk song day 2❤️ — Music",
+      "streamTitle": "",
       "profile": "Chill gaming crew on nadietv, loving Stumble Guys, Path of Exile 2, Dota, retro oldies. “Blazeee” vibes, “Will be relax day” shenanigans, “VOTE ALERT!!” celebrations, and “hard reset” humor. Chat roars “6969”, “METAL!”, “Castigo castigo”, “haslo de nuevo”, “Let’s gooooo”, “Theroan mode cat!”, “pull a roshi”, and “drained” moments. Gifts, votes, resubs met with joyous hype.",
       "_profileAtCount": 6753,
       "gameOverride": "",
@@ -6033,8 +6033,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "❤️Recording a Folk song❤️ — Music",
-      "lastStreamEndedAt": 1789437326401
+      "lastStreamInfo": "🥳Fistas patrias week🥳❤️Recording a Folk song day 2❤️ — Music",
+      "lastStreamEndedAt": 1789526151359
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -8176,7 +8176,7 @@
         "totalVotes": 10549,
         "totalSubs": 47,
         "totalChatMessages": 2126,
-        "totalStreamMinutes": 13668,
+        "totalStreamMinutes": 13688,
         "emotes": {
           "🔥": 616,
           "🔴": 200,
@@ -9171,8 +9171,8 @@
       "stats": {
         "totalVotes": 8910,
         "totalSubs": 86,
-        "totalChatMessages": 638,
-        "totalStreamMinutes": 2500,
+        "totalChatMessages": 639,
+        "totalStreamMinutes": 2520,
         "emotes": {
           "❤": 24,
           "🙌": 98,
@@ -9222,13 +9222,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789522677855
+        "lastChatAt": 1789526278243
       },
       "chatMemory": [
-        {
-          "user": "slothsm",
-          "msg": "oi"
-        },
         {
           "user": "scurvybot",
           "msg": "@slothsm just subscribed for the first month! Welcome to the community! 🎉"
@@ -9252,6 +9248,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         },
         {
           "user": "scurvybot",
@@ -9628,8 +9628,8 @@
       "stats": {
         "totalVotes": 21664,
         "totalSubs": 115,
-        "totalChatMessages": 2232,
-        "totalStreamMinutes": 12213,
+        "totalChatMessages": 2234,
+        "totalStreamMinutes": 12233,
         "emotes": {
           "❤": 92,
           "🙌": 158,
@@ -9809,17 +9809,9 @@
           "👏": "👏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789525199093
+        "lastChatAt": 1789525318442
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Yea, it feels cinematic."
-        },
-        {
-          "user": "briggsy",
-          "msg": "Haha, gotta be good with the slingshot"
-        },
         {
           "user": "briggsy",
           "msg": "Classic old weapon."
@@ -9851,6 +9843,14 @@
         {
           "user": "briggsy",
           "msg": "Sneak"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Wine and roast weed chicken, please."
+        },
+        {
+          "user": "briggsy",
+          "msg": "Roasted chicken"
         }
       ],
       "customCommands": {},
@@ -13715,7 +13715,7 @@
         "totalVotes": 3387,
         "totalSubs": 16,
         "totalChatMessages": 748,
-        "totalStreamMinutes": 8617,
+        "totalStreamMinutes": 8637,
         "emotes": {
           "❤": 51,
           "🙌": 38,
@@ -15191,7 +15191,7 @@
         "totalVotes": 2759,
         "totalSubs": 23,
         "totalChatMessages": 2238,
-        "totalStreamMinutes": 7012,
+        "totalStreamMinutes": 7032,
         "emotes": {
           "👋": 54,
           "⚠": 2,
