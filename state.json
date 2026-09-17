@@ -4792,12 +4792,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 25753,
-        "totalSubs": 75,
-        "totalChatMessages": 11091,
+        "totalSubs": 76,
+        "totalChatMessages": 11092,
         "totalStreamMinutes": 6870,
         "emotes": {
           "❤": 188,
-          "🙌": 308,
+          "🙌": 309,
           "🗳": 1307,
           "✌": 10,
           "😊": 10,
@@ -4809,7 +4809,7 @@
           "⚡": 80,
           "😂": 150,
           "😍": 28,
-          "🔥": 232,
+          "🔥": 234,
           "😎": 6,
           "😁": 23,
           "😄": 24,
@@ -5280,13 +5280,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789636769713
+        "lastChatAt": 1789648451113
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @octo just gave 50 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -5322,6 +5318,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @noxx has resubscribed — 3 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -5434,6 +5434,11 @@
         },
         "itachiavax": {
           "name": "itachiavax",
+          "months": 1,
+          "tier": 1
+        },
+        "noxx": {
+          "name": "noxx",
           "months": 1,
           "tier": 1
         }
@@ -8841,8 +8846,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 66,
-        "totalStreamMinutes": 6261,
+        "totalChatMessages": 68,
+        "totalStreamMinutes": 6272,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -8850,8 +8855,9 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": 2,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 4,
           "07de98c1-b682-4d82-b630-774474b712cc": 1,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2,
-          "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 3
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 4,
+          "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 3,
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 3
         },
         "emoteNames": {
           "💪": "💪",
@@ -8861,20 +8867,13 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE",
           "07de98c1-b682-4d82-b630-774474b712cc": "LFBLAZE2",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
-          "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO"
+          "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO",
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
-        "lastChatAt": 1789483297889,
+        "lastChatAt": 1789649267068,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "elenatroya",
-          "msg": "holaaaaaaa"
-        },
-        {
-          "user": "seventh",
-          "msg": "gm gm @anjanna87"
-        },
         {
           "user": "just_for_lucas",
           "msg": "GM"
@@ -8906,6 +8905,14 @@
         {
           "user": "ruri666",
           "msg": "GM GM! HAPPY STREAMINGG!!!"
+        },
+        {
+          "user": "fartvader",
+          "msg": "AION 2 lesgooo.. gm gm! [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "time to see some gameplay.. [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
         }
       ],
       "customCommands": {},
@@ -8919,7 +8926,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/57ce46fe-2b75-41bc-8bb7-fc5e7b7c1118-profile_image-300x300.png",
-      "streamTitle": "",
+      "streamTitle": "🔥AION 2 TEST SERVER🔥 — IRL",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0,
@@ -10377,8 +10384,8 @@
       "joinedAt": 1784453301135,
       "stats": {
         "totalVotes": 4277,
-        "totalSubs": 22,
-        "totalChatMessages": 219,
+        "totalSubs": 23,
+        "totalChatMessages": 220,
         "totalStreamMinutes": 5954,
         "emotes": {
           "🔥": 8,
@@ -10399,7 +10406,8 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": 3,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 3,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
-          "a80b8258-7a03-4aed-95f8-19ab819775c7": 4
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": 4,
+          "🎉": 1
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -10420,16 +10428,13 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE",
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink",
-          "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
+          "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789328614272
+        "lastChatAt": 1789648712487
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live! Come hang out and watch."
@@ -10465,6 +10470,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @NashvilleLou!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@just_for_lucas just subscribed for the first month! Welcome to the community! 🎉"
         }
       ],
       "customCommands": {},
@@ -10484,7 +10493,14 @@
       "lastStreamInfo": "PUBG pc | JUJUTSU KAISEN collaboration — PLAYERUNKNOWN'S BATTLEGROUNDS",
       "lastStreamEndedAt": 1789232912640,
       "nudgedAt": 1786524138354,
-      "nudgedKey": "schedule"
+      "nudgedKey": "schedule",
+      "loyalty": {
+        "just_for_lucas": {
+          "name": "just_for_lucas",
+          "months": 1,
+          "tier": 1
+        }
+      }
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
       "username": "sheena",
@@ -13328,7 +13344,7 @@
         "totalVotes": 5012,
         "totalSubs": 32,
         "totalChatMessages": 173,
-        "totalStreamMinutes": 1705,
+        "totalStreamMinutes": 1725,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -13494,19 +13510,19 @@
       "joinedAt": 1785231455893,
       "stats": {
         "totalVotes": 8201,
-        "totalSubs": 81,
-        "totalChatMessages": 1342,
-        "totalStreamMinutes": 3381,
+        "totalSubs": 83,
+        "totalChatMessages": 1360,
+        "totalStreamMinutes": 3401,
         "emotes": {
           "❤": 105,
-          "🙌": 112,
+          "🙌": 114,
           "💚": 3,
           "🔥": 99,
           "🔴": 29,
           "🎉": 41,
           "💛": 15,
           "🗳": 252,
-          "🎁": 126,
+          "🎁": 130,
           "📴": 27,
           "👋": 32,
           "💖": 1,
@@ -13531,7 +13547,7 @@
           "fb95c5e5-03ab-4936-891a-2b4635354d8a": 33,
           "🦊": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
-          "2bcd9e84-33fc-416c-ae62-6a7a7dbca713": 165,
+          "2bcd9e84-33fc-416c-ae62-6a7a7dbca713": 166,
           "8f0d7577-be4b-4d5d-83d6-6567b904476c": 50,
           "49a9f873-9233-45b0-923a-0eebda2eb0ca": 30,
           "c50a82c4-bf5c-4da8-b3bc-2f941c321580": 1,
@@ -13652,7 +13668,7 @@
           "🙏": "🙏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789647559252,
+        "lastChatAt": 1789649484784,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
@@ -13660,44 +13676,44 @@
       },
       "chatMemory": [
         {
-          "user": "charddxyz",
-          "msg": "playtest mamaya ng aion2 9pm"
+          "user": "cabsss",
+          "msg": "hahaha"
         },
         {
-          "user": "fartvader",
-          "msg": "@cabsss laro narin"
+          "user": "nekoschwan",
+          "msg": "wag mo nako labanan isesend na yung prize ko ohh"
         },
         {
           "user": "cabsss",
-          "msg": "blue hair gaya sa avatar mo"
+          "msg": "baka nmn patatlo ko na to"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "nako juskwoah"
         },
         {
           "user": "cabsss",
-          "msg": "baka prince of persia laruin ko"
-        },
-        {
-          "user": "fartvader",
-          "msg": "uyyy..nice..nagjoin playtest narin ako..hirap mamili ng game"
-        },
-        {
-          "user": "fartvader",
-          "msg": "sabagay..lalake tayo.. yoko na nga mag aniimo haha"
-        },
-        {
-          "user": "cabsss",
-          "msg": "tagal gusto ko na makita gameplay"
-        },
-        {
-          "user": "fartvader",
-          "msg": "hahaha ayan na nainip na"
-        },
-        {
-          "user": "cabsss",
-          "msg": "damputin mo agad"
+          "msg": "[emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713]"
         },
         {
           "user": "missaria",
-          "msg": "Don't forget to join my giveaway, guys! The first 3 people to enter will receive an additional 1 entry. [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
+          "msg": "Thank you @nekoschwan @cabsss, you both have 1 additional entry."
+        },
+        {
+          "user": "cabsss",
+          "msg": "may additional pala na entry buti abot pa"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "@can"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "@cabsss suko na pls"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "hahahaha"
         }
       ],
       "customCommands": {},
@@ -13804,16 +13820,16 @@
       "stats": {
         "totalVotes": 5066,
         "totalSubs": 54,
-        "totalChatMessages": 1213,
-        "totalStreamMinutes": 5667,
+        "totalChatMessages": 1217,
+        "totalStreamMinutes": 5684,
         "emotes": {
           "❤": 59,
           "🙌": 67,
           "🔥": 61,
           "💚": 3,
           "🤝": 1,
-          "🔴": 34,
-          "🎉": 41,
+          "🔴": 35,
+          "🎉": 42,
           "🗳": 144,
           "📴": 35,
           "👋": 36,
@@ -13893,25 +13909,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789580772718
+        "lastChatAt": 1789649368254
       },
       "chatMemory": [
-        {
-          "user": "charddxyz",
-          "msg": "nasan si lunaria"
-        },
-        {
-          "user": "charddxyz",
-          "msg": "haha"
-        },
-        {
-          "user": "ruri666",
-          "msg": "GM GM! HAPPY STREAMING"
-        },
-        {
-          "user": "slothsm",
-          "msg": "hello"
-        },
         {
           "user": "meyetechnicals",
           "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️"
@@ -13935,6 +13935,22 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 seventh is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "fartvader",
+          "msg": "hey hey heyyy @seventh lesgoo"
+        },
+        {
+          "user": "fartvader",
+          "msg": "gl on your matches and enjoy broski!"
         }
       ],
       "customCommands": {},
@@ -13946,7 +13962,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg",
-      "streamTitle": "",
+      "streamTitle": "WE BACK ON BEING A RAIDER  w/ @charddxyz & @Lunaria — ARC Raiders",
       "lastStreamInfo": "WE BACK ON BEING A RAIDER 😬 — ARC Raiders",
       "lastStreamEndedAt": 1789580767589,
       "gameOverride": "",
@@ -14988,15 +15004,15 @@
       "stats": {
         "totalVotes": 2054,
         "totalSubs": 20,
-        "totalChatMessages": 556,
-        "totalStreamMinutes": 3777,
+        "totalChatMessages": 558,
+        "totalStreamMinutes": 3791,
         "emotes": {
           "❤": 26,
           "🙌": 26,
           "📢": 14,
           "🔥": 46,
-          "📴": 31,
-          "👋": 31,
+          "📴": 32,
+          "👋": 32,
           "🎁": 22,
           "🔴": 31,
           "🎉": 32,
@@ -15075,17 +15091,9 @@
           "9f499705-aef5-420a-a02b-41e2253f999f": "BASED"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789646458247
+        "lastChatAt": 1789649301864
       },
       "chatMemory": [
-        {
-          "user": "just_for_lucas",
-          "msg": "goodluck"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @just_for_lucas, who is live now, currently streaming S.K.I.L.L.: Special Force 2 to 2 viewers at https://blaze.stream/just_for_lucas!"
-        },
         {
           "user": "fartvader",
           "msg": "korosu lesgoooooo"
@@ -15117,6 +15125,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -15127,14 +15143,14 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "LEAGUE ARAM! — League of Legends",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/52d87c93-9b11-4566-829a-811f46dabd06.gif",
       "followed": true,
       "profile": "We’re a Blaze livestream community that “BLAZEs” the night away, focusing on League of Legends and Crypto. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, and celebrate “BLAZEing” achievements with emojis and “very lovely” responses. The streamer loves being celebrated with “BLAZEing” emojis and enthusiastic “BLAZE” shoutouts. Keep the “BLAZE” spirit alive!",
       "_profileAtCount": 528,
       "lastStreamInfo": "LEAGUE ARAM! — League of Legends",
-      "lastStreamEndedAt": 1789389941119,
+      "lastStreamEndedAt": 1789649296694,
       "nudgedAt": 1787193926827,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -15839,9 +15855,9 @@
       "language": "en",
       "joinedAt": 1787228991116,
       "stats": {
-        "totalVotes": 3991,
+        "totalVotes": 4041,
         "totalSubs": 21,
-        "totalChatMessages": 797,
+        "totalChatMessages": 798,
         "totalStreamMinutes": 5396,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
@@ -15966,13 +15982,9 @@
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": "BLAZEGM"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789610251656
+        "lastChatAt": 1789648468933
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "all best in your day bro"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:4c33b737-d824-48cc-a197-422150240273] [emote:4c33b737-d824-48cc-a197-422150240273] [emote:4c33b737-d824-48cc-a197-422150240273] [emote:4c33b737-d824-48cc-a197-422150240273] [emote:4c33b737-d824-48cc-a197-422150240273]"
@@ -16008,6 +16020,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @JaggerJack!"
         }
       ],
       "customCommands": {
