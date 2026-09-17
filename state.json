@@ -1823,8 +1823,8 @@
       "stats": {
         "totalVotes": 23254,
         "totalSubs": 193,
-        "totalChatMessages": 11416,
-        "totalStreamMinutes": 26411,
+        "totalChatMessages": 11422,
+        "totalStreamMinutes": 26414,
         "emotes": {
           "📊": 3,
           "🔥": 507,
@@ -2003,7 +2003,7 @@
           "be4c4f80-63de-4123-b164-4e6bd6f74d3e": 6,
           "2f15e1db-4870-4a55-a744-bf1850ee7c22": 1,
           "70b1737e-7945-4743-bbc1-882e1228fab0": 3,
-          "20a29d22-5535-494c-8a0a-dbdace2f4d3f": 53,
+          "20a29d22-5535-494c-8a0a-dbdace2f4d3f": 54,
           "22a2df8d-1151-4c75-954e-30c7527dbf40": 19,
           "af42e4d4-d26a-4320-b2f6-d49836809481": 26,
           "d86d3a9f-5ae8-439b-abe6-716bc3c4ce0c": 6,
@@ -2069,7 +2069,7 @@
           "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": 1,
           "7e37818f-11ee-4f40-904d-bd6ef9255557": 1,
           "67645f3b-901a-4574-8ed6-8cceb73dbb09": 4,
-          "710d5292-d1cd-4d2e-a0e2-0038426d9c2b": 17,
+          "710d5292-d1cd-4d2e-a0e2-0038426d9c2b": 19,
           "8fc6cae7-36f7-46d5-89a6-71b9aaad2234": 7,
           "760e7352-a7ed-4464-a429-08feb9820455": 4,
           "6aa5448e-bc2f-4c50-9795-1e6666bdf374": 1,
@@ -2342,33 +2342,9 @@
           "🐝": "🐝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789653468274
+        "lastChatAt": 1789653793297
       },
       "chatMemory": [
-        {
-          "user": "zsoltech",
-          "msg": "You got promotion from cg haha"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Yooo"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "What’s up buddy"
-        },
-        {
-          "user": "zsoltech",
-          "msg": "Just watched your clip when unlet cg"
-        },
-        {
-          "user": "zsoltech",
-          "msg": "You met*"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Yes it has been a great summit so far"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:710d5292-d1cd-4d2e-a0e2-0038426d9c2b]"
@@ -2384,6 +2360,30 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Just waiting on first speaker for the day"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "[emote:710d5292-d1cd-4d2e-a0e2-0038426d9c2b]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Hiii"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:710d5292-d1cd-4d2e-a0e2-0038426d9c2b]"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "we in here watching no audio hehe"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Thanks for showing up!!"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:20a29d22-5535-494c-8a0a-dbdace2f4d3f]"
         }
       ],
       "customCommands": {},
@@ -10419,8 +10419,8 @@
       "joinedAt": 1784453301135,
       "stats": {
         "totalVotes": 4277,
-        "totalSubs": 23,
-        "totalChatMessages": 220,
+        "totalSubs": 24,
+        "totalChatMessages": 221,
         "totalStreamMinutes": 5954,
         "emotes": {
           "🔥": 8,
@@ -10467,13 +10467,9 @@
           "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789648712487
+        "lastChatAt": 1789653716706
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
         {
           "user": "cabsss",
           "msg": "zup @pr0ff"
@@ -10509,6 +10505,10 @@
         {
           "user": "scurvybot",
           "msg": "@just_for_lucas just subscribed for the first month! Welcome to the community! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@korosuplays resubscribed, they've been subbed for 3 months! Thank you!"
         }
       ],
       "customCommands": {},
@@ -10532,6 +10532,11 @@
       "loyalty": {
         "just_for_lucas": {
           "name": "just_for_lucas",
+          "months": 1,
+          "tier": 1
+        },
+        "korosuplays": {
+          "name": "korosuplays",
           "months": 1,
           "tier": 1
         }
@@ -13384,7 +13389,7 @@
         "totalVotes": 5012,
         "totalSubs": 32,
         "totalChatMessages": 174,
-        "totalStreamMinutes": 1792,
+        "totalStreamMinutes": 1795,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -13552,7 +13557,7 @@
         "totalVotes": 8201,
         "totalSubs": 84,
         "totalChatMessages": 1365,
-        "totalStreamMinutes": 3468,
+        "totalStreamMinutes": 3471,
         "emotes": {
           "❤": 105,
           "🙌": 115,
@@ -13868,7 +13873,7 @@
         "totalVotes": 5066,
         "totalSubs": 55,
         "totalChatMessages": 1229,
-        "totalStreamMinutes": 5751,
+        "totalStreamMinutes": 5754,
         "emotes": {
           "❤": 59,
           "🙌": 68,
@@ -14857,7 +14862,7 @@
         "totalVotes": 10816,
         "totalSubs": 79,
         "totalChatMessages": 700,
-        "totalStreamMinutes": 3086,
+        "totalStreamMinutes": 3089,
         "emotes": {
           "❤": 81,
           "🙌": 116,
@@ -15050,14 +15055,14 @@
       "joinedAt": 1786542046720,
       "stats": {
         "totalVotes": 2054,
-        "totalSubs": 20,
-        "totalChatMessages": 562,
+        "totalSubs": 21,
+        "totalChatMessages": 564,
         "totalStreamMinutes": 3831,
         "emotes": {
           "❤": 26,
-          "🙌": 26,
+          "🙌": 27,
           "📢": 14,
-          "🔥": 46,
+          "🔥": 48,
           "📴": 33,
           "👋": 33,
           "🎁": 22,
@@ -15138,17 +15143,9 @@
           "9f499705-aef5-420a-a02b-41e2253f999f": "BASED"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789652701833
+        "lastChatAt": 1789653683528
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @FartVader at https://blaze.stream/fartvader!"
-        },
-        {
-          "user": "faithy_",
-          "msg": "[emote:248df077-1173-43ba-8b39-3b1f1154c066] [emote:248df077-1173-43ba-8b39-3b1f1154c066] [emote:248df077-1173-43ba-8b39-3b1f1154c066]"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @faithy_!"
@@ -15180,6 +15177,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Pr0ff resubscribed, they've been subbed for 3 months! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Pr0ff has resubscribed — 3 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -15243,6 +15248,11 @@
         },
         "just_for_lucas": {
           "name": "just_for_lucas",
+          "months": 1,
+          "tier": 1
+        },
+        "pr0ff": {
+          "name": "pr0ff",
           "months": 1,
           "tier": 1
         }
@@ -17583,7 +17593,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 111,
-        "totalStreamMinutes": 540,
+        "totalStreamMinutes": 543,
         "emotes": {
           "❤": 5,
           "🙌": 1,
@@ -18853,8 +18863,8 @@
     }
   },
   "auth": {
-    "accessToken": "48a6de898a5a9bc5e3828081761971cc",
-    "refreshToken": "5b6451503ef1db144832d6c0cc9cc55b",
+    "accessToken": "4232ed6bfb91ece3c6acb2fd452ed503",
+    "refreshToken": "64bb61736e3b3c588e977f6fc8ecadcb",
     "sessionToken": "4c9318252f9463c611845ba949a01ee5",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
