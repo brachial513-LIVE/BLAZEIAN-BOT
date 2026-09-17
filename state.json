@@ -723,14 +723,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 83371,
-        "totalSubs": 146,
-        "totalChatMessages": 9227,
+        "totalSubs": 147,
+        "totalChatMessages": 9228,
         "totalStreamMinutes": 3095,
         "emotes": {
           "🗳": 1572,
           "❤": 529,
-          "🙌": 246,
-          "🔥": 244,
+          "🙌": 247,
+          "🔥": 246,
           "☺": 6,
           "🔴": 30,
           "🎉": 112,
@@ -1071,17 +1071,13 @@
           "😩": "😩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789649856378,
+        "lastChatAt": 1789653630831,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @JohnGalt just gave 375 vote(s) (total: 375)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ jasroranox just followed the channel! Welcome!! 🙌"
@@ -1117,6 +1113,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @xBuRnTx has resubscribed — 2 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @K1NGBRE4KER has resubscribed — 9 months total, 6 months streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -1173,7 +1173,7 @@
         },
         "k1ngbre4ker": {
           "name": "k1ngbre4ker",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "infamousex": {
@@ -1824,7 +1824,7 @@
         "totalVotes": 23254,
         "totalSubs": 193,
         "totalChatMessages": 11416,
-        "totalStreamMinutes": 26410,
+        "totalStreamMinutes": 26411,
         "emotes": {
           "📊": 3,
           "🔥": 507,
@@ -13384,7 +13384,7 @@
         "totalVotes": 5012,
         "totalSubs": 32,
         "totalChatMessages": 174,
-        "totalStreamMinutes": 1791,
+        "totalStreamMinutes": 1792,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -13552,7 +13552,7 @@
         "totalVotes": 8201,
         "totalSubs": 84,
         "totalChatMessages": 1365,
-        "totalStreamMinutes": 3467,
+        "totalStreamMinutes": 3468,
         "emotes": {
           "❤": 105,
           "🙌": 115,
@@ -13868,7 +13868,7 @@
         "totalVotes": 5066,
         "totalSubs": 55,
         "totalChatMessages": 1229,
-        "totalStreamMinutes": 5750,
+        "totalStreamMinutes": 5751,
         "emotes": {
           "❤": 59,
           "🙌": 68,
@@ -14857,7 +14857,7 @@
         "totalVotes": 10816,
         "totalSubs": 79,
         "totalChatMessages": 700,
-        "totalStreamMinutes": 3085,
+        "totalStreamMinutes": 3086,
         "emotes": {
           "❤": 81,
           "🙌": 116,
@@ -17583,7 +17583,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 111,
-        "totalStreamMinutes": 539,
+        "totalStreamMinutes": 540,
         "emotes": {
           "❤": 5,
           "🙌": 1,
@@ -17658,7 +17658,7 @@
         }
       ],
       "customCommands": {
-        "settings": "- Resolution: 1280x800 fill\r\n- DPI: 1000\r\n- Sensitivity: 0.3\r\n- Crosshair 1-5-2-3",
+        "settings": "- Resolution: 1280x800 fill\r\n- DPI: 1000\r\n- Sensitivity: 0.3\r\n- Crosshair 1-5-2-3\r\n- Windows 10/20",
         "discord": "https://discord.gg/VJkvdEdbWq"
       },
       "streamStart": "",
