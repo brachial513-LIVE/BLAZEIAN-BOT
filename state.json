@@ -9470,14 +9470,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 10263,
-        "totalSubs": 45,
-        "totalChatMessages": 2043,
+        "totalSubs": 46,
+        "totalChatMessages": 2047,
         "totalStreamMinutes": 3619,
         "emotes": {
-          "❤": 141,
-          "🙌": 112,
+          "❤": 143,
+          "🙌": 114,
           "🔴": 33,
-          "🎉": 55,
+          "🎉": 56,
           "👋": 71,
           "👀": 15,
           "😱": 1,
@@ -9490,7 +9490,7 @@
           "😘": 2,
           "🤝": 1,
           "💚": 1,
-          "🔥": 86,
+          "🔥": 88,
           "😂": 20,
           "🚨": 108,
           "🎁": 68,
@@ -9626,25 +9626,9 @@
           "65f30a4f-e430-47dd-890d-9094d7a87ecd": "YEET"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789586993351
+        "lastChatAt": 1789648171979
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @tenshi!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @tenshi just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 20 votes, @faithy_!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @edenbe!"
@@ -9668,6 +9652,22 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Cheeseyeggs just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @_VladEnzo!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ _VladEnzo just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @_VladEnzo to the channel! Thank you so much for subscribing! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@_VladEnzo just subscribed for the first month! Welcome to the community! 🎉"
         }
       ],
       "customCommands": {},
@@ -9732,6 +9732,11 @@
         },
         "zer0cache": {
           "name": "zer0cache",
+          "months": 1,
+          "tier": 1
+        },
+        "_vladenzo": {
+          "name": "_vladenzo",
           "months": 1,
           "tier": 1
         }
@@ -13323,7 +13328,7 @@
         "totalVotes": 5012,
         "totalSubs": 32,
         "totalChatMessages": 173,
-        "totalStreamMinutes": 1700,
+        "totalStreamMinutes": 1705,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -13491,7 +13496,7 @@
         "totalVotes": 8201,
         "totalSubs": 81,
         "totalChatMessages": 1342,
-        "totalStreamMinutes": 3376,
+        "totalStreamMinutes": 3381,
         "emotes": {
           "❤": 105,
           "🙌": 112,
@@ -14984,7 +14989,7 @@
         "totalVotes": 2054,
         "totalSubs": 20,
         "totalChatMessages": 556,
-        "totalStreamMinutes": 3772,
+        "totalStreamMinutes": 3777,
         "emotes": {
           "❤": 26,
           "🙌": 26,
@@ -17813,9 +17818,9 @@
       "n": 2
     },
     "xeukuxaixang": {
-      "note": "Xeukuxaixang loves League of Legends and Honor of Kings, enjoys Tokyo Ghoul and Digimon, and chats playfully with emojis and jokes.",
-      "at": 1789604648493,
-      "n": 47
+      "note": "Xeukuxaixang loves League of Legends, Honor of Kings, Tokyo Ghoul, Digimon, and chats playfully with emojis and jokes.",
+      "at": 1789648208214,
+      "n": 48
     },
     "tenshi": {
       "note": "Enjoys MOBAs, shares upbeat music links, uses playful emotes, and keeps chats lively with light, humorous banter.",
@@ -18781,8 +18786,8 @@
     }
   },
   "auth": {
-    "accessToken": "534b13c10253c927ac7b13a336c3f3a5",
-    "refreshToken": "7a949d1e5435f1df3940309d21f797a3",
+    "accessToken": "343f83361065a1c2942e4207d204838a",
+    "refreshToken": "fb970ce6e9b2a912468d85f9ec4872f2",
     "sessionToken": "4c9318252f9463c611845ba949a01ee5",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
