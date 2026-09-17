@@ -11535,7 +11535,7 @@
         "totalVotes": 4883,
         "totalSubs": 39,
         "totalChatMessages": 1227,
-        "totalStreamMinutes": 3288,
+        "totalStreamMinutes": 3293,
         "emotes": {
           "❤": 78,
           "🙌": 63,
@@ -15395,8 +15395,8 @@
       "stats": {
         "totalVotes": 2772,
         "totalSubs": 24,
-        "totalChatMessages": 2319,
-        "totalStreamMinutes": 7497,
+        "totalChatMessages": 2321,
+        "totalStreamMinutes": 7502,
         "emotes": {
           "👋": 57,
           "⚠": 2,
@@ -15550,17 +15550,9 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": "SMILEPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789626468604
+        "lastChatAt": 1789626704879
       },
       "chatMemory": [
-        {
-          "user": "onyxouroboros",
-          "msg": "hi"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/2957c44ea8086d2b4243445b84e30ff107c0d9427c9238cd39610d4eb64698d4"
-        },
         {
           "user": "fartvader",
           "msg": "heya @inn [emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa]"
@@ -15592,6 +15584,14 @@
         {
           "user": "scurvybot",
           "msg": "@treefrognada congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/0204c9448ef508873a7b090b1e78c9083b4b2399c07936c5dc495a2c983a00b6"
+        },
+        {
+          "user": "inn",
+          "msg": "lmk if that sent terranlore if ya could!"
+        },
+        {
+          "user": "treefrognada",
+          "msg": "you sent 279 passws? :o"
         }
       ],
       "customCommands": {
@@ -18659,8 +18659,8 @@
     }
   },
   "auth": {
-    "accessToken": "548764f4d4b3a8fdcb6e5d46516c6f1f",
-    "refreshToken": "3bbe993ff7f6fbd2ec31b82f4face0ea",
+    "accessToken": "6489a352b41cfc341e3c340564d7fa74",
+    "refreshToken": "bde5b190ea27daecb6390e445f7f09b2",
     "sessionToken": "4c9318252f9463c611845ba949a01ee5",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
