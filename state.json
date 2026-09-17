@@ -2471,15 +2471,15 @@
       "stats": {
         "totalVotes": 7454,
         "totalSubs": 28,
-        "totalChatMessages": 6536,
+        "totalChatMessages": 6538,
         "totalStreamMinutes": 6707,
         "emotes": {
           "🗳": 434,
           "🤣": 65,
           "🔥": 173,
           "💚": 33,
-          "❤": 97,
-          "🙌": 63,
+          "❤": 100,
+          "🙌": 64,
           "👀": 12,
           "😘": 4,
           "📴": 38,
@@ -2705,18 +2705,10 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": "BlazeWink",
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
-        "lastChatAt": 1789654800094,
+        "lastChatAt": 1789656373265,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] Thank you, DofferLive, for the sub"
-        },
-        {
-          "user": "lights_out",
-          "msg": "[Lights Out] ❤️ Welcome to the stream, **meyetechnicals**! Glad to have you with us."
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ meyetechnicals just followed the channel! Welcome!! 🙌"
@@ -2748,6 +2740,14 @@
         {
           "user": "lights_out",
           "msg": "[Lights Out] Thank you, ezhaxx_3, for the 1 vote(s)"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] ❤️ Welcome to the stream, **blazegames_bot**! Glad to have you with us."
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ blazegames_bot just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -12772,12 +12772,12 @@
       "joinedAt": 1784887997966,
       "stats": {
         "totalVotes": 19310,
-        "totalSubs": 37,
-        "totalChatMessages": 4340,
+        "totalSubs": 38,
+        "totalChatMessages": 4342,
         "totalStreamMinutes": 8329,
         "emotes": {
           "❤": 86,
-          "🙌": 70,
+          "🙌": 71,
           "🗳": 750,
           "🔴": 66,
           "🎉": 118,
@@ -12791,7 +12791,7 @@
           "📴": 67,
           "👋": 82,
           "🚨": 192,
-          "🔥": 81,
+          "🔥": 83,
           "💚": 24,
           "👀": 27,
           "😄": 2,
@@ -13034,17 +13034,9 @@
           "👇": "👇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789654800104
+        "lastChatAt": 1789656335789
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@curlysnow07 just subscribed for the first month! Welcome to the community! 🎉"
-        },
         {
           "user": "botger",
           "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @curlysnow07 to the channel! Thank you so much for subscribing! 🙌"
@@ -13076,6 +13068,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @ezhaxx_3!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Yuechan has resubscribed — 4 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Yuechan subscribed! Thank you!"
         }
       ],
       "customCommands": {},
@@ -13199,6 +13199,11 @@
         },
         "briggsy": {
           "name": "briggsy",
+          "months": 1,
+          "tier": 1
+        },
+        "yuechan": {
+          "name": "yuechan",
           "months": 1,
           "tier": 1
         }
@@ -13399,7 +13404,7 @@
         "totalVotes": 5012,
         "totalSubs": 32,
         "totalChatMessages": 174,
-        "totalStreamMinutes": 1834,
+        "totalStreamMinutes": 1840,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -13883,7 +13888,7 @@
         "totalVotes": 5066,
         "totalSubs": 55,
         "totalChatMessages": 1229,
-        "totalStreamMinutes": 5793,
+        "totalStreamMinutes": 5799,
         "emotes": {
           "❤": 59,
           "🙌": 68,
@@ -14872,7 +14877,7 @@
         "totalVotes": 10816,
         "totalSubs": 79,
         "totalChatMessages": 700,
-        "totalStreamMinutes": 3128,
+        "totalStreamMinutes": 3134,
         "emotes": {
           "❤": 81,
           "🙌": 116,
@@ -15066,8 +15071,8 @@
       "stats": {
         "totalVotes": 2074,
         "totalSubs": 21,
-        "totalChatMessages": 567,
-        "totalStreamMinutes": 3831,
+        "totalChatMessages": 571,
+        "totalStreamMinutes": 3835,
         "emotes": {
           "❤": 26,
           "🙌": 27,
@@ -15076,8 +15081,8 @@
           "📴": 33,
           "👋": 33,
           "🎁": 22,
-          "🔴": 32,
-          "🎉": 33,
+          "🔴": 33,
+          "🎉": 34,
           "😂": 9,
           "🗳": 51,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
@@ -15153,21 +15158,9 @@
           "9f499705-aef5-420a-a02b-41e2253f999f": "BASED"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789656006015
+        "lastChatAt": 1789656270387
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -15195,6 +15188,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: LEAGUE ARAM!! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @DimiFW at https://blaze.stream/dimifw!"
         }
       ],
       "customCommands": {},
@@ -15205,7 +15210,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "LEAGUE ARAM! — League of Legends",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/52d87c93-9b11-4566-829a-811f46dabd06.gif",
       "followed": true,
@@ -17603,7 +17608,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 115,
-        "totalStreamMinutes": 582,
+        "totalStreamMinutes": 588,
         "emotes": {
           "❤": 5,
           "🙌": 1,
@@ -18873,8 +18878,8 @@
     }
   },
   "auth": {
-    "accessToken": "ff6c0e491cd515f843c0ca584ddce551",
-    "refreshToken": "55e202b6931537a49f2e5690f4fe77f0",
+    "accessToken": "a2ae539b6ccfd5d35fbdd97ec55f6066",
+    "refreshToken": "28b158fa8520d20d261868ca7359b2e2",
     "sessionToken": "4c9318252f9463c611845ba949a01ee5",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
