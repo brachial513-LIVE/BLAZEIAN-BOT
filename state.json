@@ -8489,7 +8489,7 @@
         "totalVotes": 9471,
         "totalSubs": 194,
         "totalChatMessages": 412,
-        "totalStreamMinutes": 10569,
+        "totalStreamMinutes": 10583,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -12661,9 +12661,9 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 18797,
+        "totalVotes": 19297,
         "totalSubs": 36,
-        "totalChatMessages": 4333,
+        "totalChatMessages": 4334,
         "totalStreamMinutes": 8329,
         "emotes": {
           "❤": 86,
@@ -12924,13 +12924,9 @@
           "👇": "👇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789636633076
+        "lastChatAt": 1789637615451
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@meyetechnicals resubscribed, they've been subbed for 3 months! Thank you!"
-        },
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @meyetechnicals has resubscribed — 3 months total, 2 months streak! Thank you for the continued support! 🙌"
@@ -12966,6 +12962,10 @@
         {
           "user": "botger",
           "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @curlysnow07 to the channel! Thank you so much for subscribing! 🙌"
+        },
+        {
+          "user": "noxx",
+          "msg": "https://salvor.io/collections/0x4fc11f6c642b6933e236de372fd41c4b70486d42/2"
         }
       ],
       "customCommands": {},
@@ -13384,7 +13384,7 @@
       "streamTitle": "",
       "gameOverride": "",
       "lastStreamInfo": "Architect The Land Of Exile - Intro xD — MapleStory",
-      "lastStreamEndedAt": 1789559747165,
+      "lastStreamEndedAt": 1789637479856,
       "loyalty": {
         "missaria": {
           "name": "missaria",
@@ -14382,12 +14382,12 @@
       "joinedAt": 1786172514205,
       "stats": {
         "totalVotes": 10038,
-        "totalSubs": 74,
-        "totalChatMessages": 4266,
+        "totalSubs": 76,
+        "totalChatMessages": 4268,
         "totalStreamMinutes": 8039,
         "emotes": {
           "😅": 1,
-          "🔥": 206,
+          "🔥": 210,
           "🍻": 5,
           "✌": 5,
           "😊": 1,
@@ -14400,7 +14400,7 @@
           "😁": 2,
           "😜": 7,
           "🙏": 1,
-          "🙌": 115,
+          "🙌": 117,
           "💪": 1,
           "👋": 35,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 560,
@@ -14560,7 +14560,7 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789619967375,
+        "lastChatAt": 1789637106162,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -14568,14 +14568,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "much love DB!"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "fartvader",
           "msg": "thank you so much as well briggsy! [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -14607,6 +14599,14 @@
         {
           "user": "fartvader",
           "msg": "sorry guys, been very busy lately at work..I'll be back real soon."
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @K1NGBRE4KER has resubscribed — 3 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @K1NGBRE4KER has resubscribed — 4 months total, 2 months streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -14681,6 +14681,11 @@
         "cymatrix": {
           "name": "cymatrix",
           "months": 1,
+          "tier": 1
+        },
+        "k1ngbre4ker": {
+          "name": "k1ngbre4ker",
+          "months": 2,
           "tier": 1
         }
       },
@@ -18708,8 +18713,8 @@
     }
   },
   "auth": {
-    "accessToken": "a5a4518a9396571ffb391c7a82e9196f",
-    "refreshToken": "f9fd312686fed95c964557159cca947b",
+    "accessToken": "39d4b5a606a219f9965afc8453d982ea",
+    "refreshToken": "b5c8b3ee4d214837df8d1f8cdabb2702",
     "sessionToken": "4c9318252f9463c611845ba949a01ee5",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
