@@ -6242,7 +6242,7 @@
         "totalVotes": 7227,
         "totalSubs": 83,
         "totalChatMessages": 811,
-        "totalStreamMinutes": 17560,
+        "totalStreamMinutes": 17565,
         "emotes": {
           "❤": 125,
           "🙌": 40,
@@ -13684,7 +13684,7 @@
         "totalVotes": 5014,
         "totalSubs": 32,
         "totalChatMessages": 178,
-        "totalStreamMinutes": 2082,
+        "totalStreamMinutes": 2087,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -13853,8 +13853,8 @@
       "stats": {
         "totalVotes": 8412,
         "totalSubs": 84,
-        "totalChatMessages": 1415,
-        "totalStreamMinutes": 3540,
+        "totalChatMessages": 1416,
+        "totalStreamMinutes": 3545,
         "emotes": {
           "❤": 107,
           "🙌": 116,
@@ -14014,17 +14014,13 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789745285005,
+        "lastChatAt": 1789745539488,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "gm @briggsy"
-        },
         {
           "user": "nekoschwan",
           "msg": "ikaw"
@@ -14060,6 +14056,10 @@
         {
           "user": "nekoschwan",
           "msg": "ccry na kami"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "tag isa tayo ng pan at kaldero para sakali di makamove sa kabila"
         }
       ],
       "customCommands": {},
@@ -15392,15 +15392,15 @@
       "stats": {
         "totalVotes": 2096,
         "totalSubs": 22,
-        "totalChatMessages": 595,
-        "totalStreamMinutes": 4283,
+        "totalChatMessages": 597,
+        "totalStreamMinutes": 4286,
         "emotes": {
           "❤": 26,
           "🙌": 28,
           "📢": 14,
           "🔥": 50,
-          "📴": 35,
-          "👋": 35,
+          "📴": 36,
+          "👋": 36,
           "🎁": 22,
           "🔴": 35,
           "🎉": 36,
@@ -15481,17 +15481,9 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789743669459
+        "lastChatAt": 1789745493505
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @omererkmen!"
@@ -15523,6 +15515,14 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @nekoschwan at https://blaze.stream/nekoschwan!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -15533,14 +15533,14 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "LEAGUE ARAM! — League of Legends",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/52d87c93-9b11-4566-829a-811f46dabd06.gif",
       "followed": true,
       "profile": "We’re a Blaze livestream community that “BLAZEs” the night away, focusing on League of Legends and Crypto. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, and celebrate “BLAZEing” achievements with emojis and “very lovely” responses. The streamer loves being celebrated with “BLAZEing” emojis and enthusiastic “BLAZE” shoutouts. Keep the “BLAZE” spirit alive!",
       "_profileAtCount": 573,
       "lastStreamInfo": "LEAGUE ARAM! — League of Legends",
-      "lastStreamEndedAt": 1789729621989,
+      "lastStreamEndedAt": 1789745488324,
       "nudgedAt": 1787193926827,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -19338,8 +19338,8 @@
     }
   },
   "auth": {
-    "accessToken": "b1679ca327e1a89174cbc259be8ef871",
-    "refreshToken": "dc6135574cae2c1d9732c404d3741e7e",
+    "accessToken": "18f91c07a916718e7122412db3df3145",
+    "refreshToken": "2ff11a2e12864270d1db45049e470492",
     "sessionToken": "ab7c7a983e7b2f17ed8508f737be8899",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
