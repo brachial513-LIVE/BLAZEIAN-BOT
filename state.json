@@ -724,7 +724,7 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 83582,
+        "totalVotes": 83583,
         "totalSubs": 149,
         "totalChatMessages": 9295,
         "totalStreamMinutes": 3219,
@@ -3370,7 +3370,7 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 25368,
+        "totalVotes": 25369,
         "totalSubs": 73,
         "totalChatMessages": 13148,
         "totalStreamMinutes": 7391,
@@ -3759,12 +3759,12 @@
           "🍃": "🍃"
         },
         "lastChatAt": 1789672494443,
-        "sendFailStreak": 532,
-        "lastSendFailAt": 1789669676419,
+        "sendFailStreak": 533,
+        "lastSendFailAt": 1789721255737,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146,
-        "lastProbeAt": 1789669675603
+        "lastProbeAt": 1789721255521
       },
       "chatMemory": [
         {
@@ -11124,7 +11124,7 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 40567,
+        "totalVotes": 40568,
         "totalSubs": 66,
         "totalChatMessages": 3427,
         "totalStreamMinutes": 1381,
@@ -12975,9 +12975,9 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 19615,
+        "totalVotes": 19616,
         "totalSubs": 43,
-        "totalChatMessages": 4648,
+        "totalChatMessages": 4649,
         "totalStreamMinutes": 8666,
         "emotes": {
           "❤": 86,
@@ -13250,13 +13250,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789718617843
+        "lastChatAt": 1789721255036
       },
       "chatMemory": [
-        {
-          "user": "fuyu",
-          "msg": "someone said naked women and called me"
-        },
         {
           "user": "desirablebottom",
           "msg": "w00t w00t"
@@ -13292,6 +13288,10 @@
         {
           "user": "scurvybot",
           "msg": "@woshi subscribed! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @tom2329!"
         }
       ],
       "customCommands": {},
@@ -14765,7 +14765,7 @@
       "stats": {
         "totalVotes": 10302,
         "totalSubs": 85,
-        "totalChatMessages": 4438,
+        "totalChatMessages": 4439,
         "totalStreamMinutes": 8256,
         "emotes": {
           "😅": 1,
@@ -14944,7 +14944,7 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789720307371,
+        "lastChatAt": 1789721258174,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -14952,10 +14952,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "xanderc",
-          "msg": "anyone else u might know ?"
-        },
         {
           "user": "fartvader",
           "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
@@ -14991,6 +14987,10 @@
         {
           "user": "srchois",
           "msg": "TY for the support"
+        },
+        {
+          "user": "fartvader",
+          "msg": "absolutely broski..i got you"
         }
       ],
       "customCommands": {},
@@ -15343,7 +15343,7 @@
         "totalVotes": 2094,
         "totalSubs": 21,
         "totalChatMessages": 575,
-        "totalStreamMinutes": 3995,
+        "totalStreamMinutes": 4000,
         "emotes": {
           "❤": 26,
           "🙌": 27,
@@ -19200,8 +19200,8 @@
     }
   },
   "auth": {
-    "accessToken": "ac257d5f9113454ec95be9fc095e7d89",
-    "refreshToken": "45d6e7157bd0c0e929e670e810e32f50",
+    "accessToken": "bda5702695ec8243e3cc2064dd489bee",
+    "refreshToken": "094dbdd1c283c9c4ba7d153325b051c6",
     "sessionToken": "ab7c7a983e7b2f17ed8508f737be8899",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
