@@ -9448,15 +9448,15 @@
       "stats": {
         "totalVotes": 9017,
         "totalSubs": 86,
-        "totalChatMessages": 750,
-        "totalStreamMinutes": 3657,
+        "totalChatMessages": 753,
+        "totalStreamMinutes": 3669,
         "emotes": {
           "❤": 32,
           "🙌": 103,
           "🔴": 18,
           "🎉": 24,
-          "📴": 17,
-          "👋": 17,
+          "📴": 18,
+          "👋": 18,
           "🗳": 66,
           "🎁": 148,
           "🤗": 1,
@@ -9515,21 +9515,9 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789712796655
+        "lastChatAt": 1789716650997
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @Grim1Angel!"
-        },
-        {
-          "user": "lady_iris",
-          "msg": "Thanks for the raid! S2"
-        },
-        {
-          "user": "lady_iris",
-          "msg": "Welcome everyone"
-        },
         {
           "user": "grim1angel",
           "msg": "Heyo, was playing WoW, how is this"
@@ -9557,6 +9545,18 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -9567,13 +9567,13 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "streamTitle": "Enshrouded first impressions with my childhood online friend who is a daddy right now lol what an extense title for an stream — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1087d984-7048-475d-b8f9-c93c14eefc15.gif",
       "profile": "lady_iris’s channel is a high‑energy crypto‑trading, Tetris, and gaming hub. The chat screams “vai”, “yuppie”, “yayyyyyyyy”, “yuppiiiiii”, and “trans muda” with every win. They cheer “S2” moments, shout “yayyyyyyyy” on streaks, and celebrate trades with hype‑filled, slang‑filled cheers. Rapid, hype‑filled interaction and constant celebration define the vibe.",
       "_profileAtCount": 712,
       "lastStreamInfo": "Enshrouded first impressions with my childhood online friend who is a daddy right now lol what an extense title for an stream — Crypto",
-      "lastStreamEndedAt": 1789615428991,
+      "lastStreamEndedAt": 1789716645806,
       "nudgedAt": 1786053663388,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -9947,18 +9947,18 @@
       "stats": {
         "totalVotes": 21721,
         "totalSubs": 116,
-        "totalChatMessages": 2318,
-        "totalStreamMinutes": 12833,
+        "totalChatMessages": 2320,
+        "totalStreamMinutes": 12847,
         "emotes": {
           "❤": 103,
           "🙌": 164,
           "💚": 3,
           "🔥": 68,
           "🗳": 663,
-          "🔴": 105,
-          "🎉": 137,
-          "📴": 101,
-          "👋": 104,
+          "🔴": 106,
+          "🎉": 138,
+          "📴": 102,
+          "👋": 105,
           "🚨": 198,
           "🥂": 1,
           "🫶": 3,
@@ -10130,17 +10130,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789702248757
+        "lastChatAt": 1789717038785
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "I think it costs a bit"
-        },
-        {
-          "user": "briggsy",
-          "msg": "It looks addicting"
-        },
         {
           "user": "briggsy",
           "msg": "K1ngbreaker was on for over 12 hours yesterday."
@@ -10168,6 +10160,14 @@
         {
           "user": "briggsy",
           "msg": "yess"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
         },
         {
           "user": "botger",
@@ -10248,8 +10248,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "Michael Myers Noobie Player — IRL",
-      "lastStreamEndedAt": 1789702243474
+      "lastStreamInfo": "Elderfield Farm Cozy Horror — IRL",
+      "lastStreamEndedAt": 1789717033581
     },
     "4e8116b6-6705-4e00-a83c-c7e455b3a446": {
       "username": "dimifw",
@@ -15309,7 +15309,7 @@
         "totalVotes": 2094,
         "totalSubs": 21,
         "totalChatMessages": 575,
-        "totalStreamMinutes": 3910,
+        "totalStreamMinutes": 3930,
         "emotes": {
           "❤": 26,
           "🙌": 27,
@@ -18256,8 +18256,8 @@
     },
     "octo": {
       "note": "Enjoys zombie‑style games, playful banter, tweaking Discord, careful multistreaming with music, discussing GPU power, and joking about ice‑cream treats.",
-      "at": 1789504935768,
-      "n": 26
+      "at": 1789716188239,
+      "n": 27
     },
     "rabisright": {
       "note": "The person, \"rabisright\", enjoys playing Valve games, particularly the Half Life and Portal series, and has a humorous reaction to intense gaming moments.",
@@ -19102,6 +19102,11 @@
     "dan": {
       "note": "Dan enjoys livestreaming, building dev tools, tracking voting leaderboards, joking about sub4sub, and planning public dashboards for viewers.",
       "at": 1789715528373,
+      "n": 1
+    },
+    "chupacol": {
+      "note": "They chat casually, mention playing Rocket League, editing music, and use playful emojis.",
+      "at": 1789716848321,
       "n": 1
     }
   },
