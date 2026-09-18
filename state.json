@@ -9449,7 +9449,7 @@
         "totalVotes": 9017,
         "totalSubs": 86,
         "totalChatMessages": 750,
-        "totalStreamMinutes": 3652,
+        "totalStreamMinutes": 3657,
         "emotes": {
           "❤": 32,
           "🙌": 103,
@@ -15308,8 +15308,8 @@
       "stats": {
         "totalVotes": 2094,
         "totalSubs": 21,
-        "totalChatMessages": 573,
-        "totalStreamMinutes": 3908,
+        "totalChatMessages": 575,
+        "totalStreamMinutes": 3910,
         "emotes": {
           "❤": 26,
           "🙌": 27,
@@ -15318,8 +15318,8 @@
           "📴": 34,
           "👋": 34,
           "🎁": 22,
-          "🔴": 33,
-          "🎉": 34,
+          "🔴": 34,
+          "🎉": 35,
           "😂": 9,
           "🗳": 51,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
@@ -15395,17 +15395,9 @@
           "9f499705-aef5-420a-a02b-41e2253f999f": "BASED"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789687694321
+        "lastChatAt": 1789715804219
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@Pr0ff resubscribed, they've been subbed for 3 months! Thank you!"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @Pr0ff has resubscribed — 3 months total, 1 month streak! Thank you for the continued support! 🙌"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 10 votes, @noxx!"
@@ -15437,6 +15429,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 20 votes, @corneto!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: LEAGUE ARAM!! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -15447,7 +15447,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "LEAGUE ARAM! — League of Legends",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/52d87c93-9b11-4566-829a-811f46dabd06.gif",
       "followed": true,
@@ -16974,7 +16974,7 @@
       "stats": {
         "totalVotes": 2366,
         "totalSubs": 3,
-        "totalChatMessages": 81,
+        "totalChatMessages": 83,
         "totalStreamMinutes": 313,
         "emotes": {
           "❤": 2,
@@ -16982,8 +16982,8 @@
           "🎁": 2,
           "🔴": 4,
           "🎉": 4,
-          "📴": 3,
-          "👋": 3,
+          "📴": 4,
+          "👋": 4,
           "⏰": 1,
           "🗳": 24,
           "🔥": 4,
@@ -17015,17 +17015,9 @@
           "🤣": "🤣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789712797175
+        "lastChatAt": 1789715659774
       },
       "chatMemory": [
-        {
-          "user": "destinoprospero",
-          "msg": "gm Ruri !"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -17057,6 +17049,14 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -17069,9 +17069,9 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5f46f02-430b-41d6-bfa3-774916ad25fe.gif",
-      "streamTitle": "Jogando Outward Pela Primeira Vez, RPG Mais Saboroso que ta tendo — Outward",
-      "lastStreamInfo": "Caçando Pokemon no Fortinete — Fortnite",
-      "lastStreamEndedAt": 1789487457724,
+      "streamTitle": "",
+      "lastStreamInfo": "Jogando Outward Pela Primeira Vez, RPG Mais Saboroso que ta tendo — Outward",
+      "lastStreamEndedAt": 1789715654553,
       "gameOverride": "",
       "loyalty": {
         "chupacol": {
@@ -19151,8 +19151,8 @@
     }
   },
   "auth": {
-    "accessToken": "bcd6362238d950815a68a36902be38b6",
-    "refreshToken": "f5e157b3c848d45e1d722bf5e5442986",
+    "accessToken": "32b7cd9ed2b14784508a15f55a175090",
+    "refreshToken": "3f702e941d7354c686a524189de0b4b8",
     "sessionToken": "ab7c7a983e7b2f17ed8508f737be8899",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
