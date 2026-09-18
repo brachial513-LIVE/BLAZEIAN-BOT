@@ -9027,7 +9027,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 70,
-        "totalStreamMinutes": 6502,
+        "totalStreamMinutes": 6506,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -9987,7 +9987,7 @@
         "totalVotes": 21822,
         "totalSubs": 116,
         "totalChatMessages": 2327,
-        "totalStreamMinutes": 12901,
+        "totalStreamMinutes": 12904,
         "emotes": {
           "❤": 103,
           "🙌": 164,
@@ -13007,8 +13007,8 @@
       "stats": {
         "totalVotes": 19652,
         "totalSubs": 44,
-        "totalChatMessages": 4711,
-        "totalStreamMinutes": 8861,
+        "totalChatMessages": 4712,
+        "totalStreamMinutes": 8864,
         "emotes": {
           "❤": 86,
           "🙌": 77,
@@ -13282,13 +13282,9 @@
           "d6c82b45-1ca6-4f86-89b5-cf94492a049b": "YEP"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789738741275
+        "lastChatAt": 1789740101213
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "this game is brutal. how long did it take you to save up for that helicopter?"
-        },
         {
           "user": "jt_squared2",
           "msg": "that's good. This game looks so fun"
@@ -13324,6 +13320,10 @@
         {
           "user": "helios",
           "msg": "Hello JT my fellow lurker"
+        },
+        {
+          "user": "helios",
+          "msg": "Later noxx. About to hit the road"
         }
       ],
       "customCommands": {},
@@ -13682,7 +13682,7 @@
         "totalVotes": 5014,
         "totalSubs": 32,
         "totalChatMessages": 177,
-        "totalStreamMinutes": 1994,
+        "totalStreamMinutes": 1997,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -15194,7 +15194,7 @@
         "totalVotes": 10817,
         "totalSubs": 79,
         "totalChatMessages": 707,
-        "totalStreamMinutes": 3304,
+        "totalStreamMinutes": 3308,
         "emotes": {
           "❤": 81,
           "🙌": 116,
@@ -15389,7 +15389,7 @@
         "totalVotes": 2096,
         "totalSubs": 22,
         "totalChatMessages": 592,
-        "totalStreamMinutes": 4195,
+        "totalStreamMinutes": 4198,
         "emotes": {
           "❤": 26,
           "🙌": 28,
@@ -17062,7 +17062,7 @@
         "totalVotes": 2366,
         "totalSubs": 3,
         "totalChatMessages": 86,
-        "totalStreamMinutes": 379,
+        "totalStreamMinutes": 382,
         "emotes": {
           "❤": 2,
           "🙌": 5,
@@ -18062,13 +18062,25 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {},
-        "sendFailStreak": 0
+        "emotes": {
+          "❤": 2,
+          "🙌": 1
+        },
+        "emoteNames": {
+          "❤": "❤",
+          "🙌": "🙌"
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1789740056409
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -18084,7 +18096,8 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/ec1b4732-0791-4aee-9dc9-e431cf0635f3.jpg"
     }
   },
   "blocklist": [
@@ -19293,8 +19306,8 @@
     }
   },
   "auth": {
-    "accessToken": "c27df571af3ad02b99be44b64bfb60b4",
-    "refreshToken": "422e95afd95f599c6922d97868db286d",
+    "accessToken": "2df9207b09831b8a77c33245206fd579",
+    "refreshToken": "7e871b69f29ad67f0f3515d7286dfb6f",
     "sessionToken": "ab7c7a983e7b2f17ed8508f737be8899",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
