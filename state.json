@@ -6242,7 +6242,7 @@
         "totalVotes": 7227,
         "totalSubs": 83,
         "totalChatMessages": 811,
-        "totalStreamMinutes": 17605,
+        "totalStreamMinutes": 17610,
         "emotes": {
           "❤": 125,
           "🙌": 40,
@@ -8675,7 +8675,7 @@
         "totalVotes": 9547,
         "totalSubs": 198,
         "totalChatMessages": 460,
-        "totalStreamMinutes": 11246,
+        "totalStreamMinutes": 11251,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -13684,7 +13684,7 @@
         "totalVotes": 5014,
         "totalSubs": 32,
         "totalChatMessages": 178,
-        "totalStreamMinutes": 2127,
+        "totalStreamMinutes": 2132,
         "emotes": {
           "❤": 4,
           "🙌": 1,
@@ -13853,8 +13853,8 @@
       "stats": {
         "totalVotes": 8412,
         "totalSubs": 84,
-        "totalChatMessages": 1418,
-        "totalStreamMinutes": 3585,
+        "totalChatMessages": 1421,
+        "totalStreamMinutes": 3590,
         "emotes": {
           "❤": 107,
           "🙌": 116,
@@ -14014,25 +14014,13 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789747873366,
+        "lastChatAt": 1789748076814,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Hey @nekoschwan"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "disaster haha"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "hahahha paagos ka lang sa wind haha"
-        },
         {
           "user": "nekoschwan",
           "msg": "agos? idk haha"
@@ -14060,6 +14048,18 @@
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @rhywyn is raiding with a party of 2! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "raidersss"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "w"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "w"
         }
       ],
       "customCommands": {},
@@ -19338,8 +19338,8 @@
     }
   },
   "auth": {
-    "accessToken": "18f91c07a916718e7122412db3df3145",
-    "refreshToken": "2ff11a2e12864270d1db45049e470492",
+    "accessToken": "9ca7598cb7f75e4ff41449c345695c8d",
+    "refreshToken": "881830a259c78130b159ddb9d75abb71",
     "sessionToken": "ab7c7a983e7b2f17ed8508f737be8899",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
