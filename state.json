@@ -5703,18 +5703,18 @@
       "language": "en",
       "stats": {
         "totalVotes": 23290,
-        "totalSubs": 60,
-        "totalChatMessages": 6984,
+        "totalSubs": 61,
+        "totalChatMessages": 6986,
         "totalStreamMinutes": 11986,
         "emotes": {
           "❤": 86,
-          "🙌": 179,
+          "🙌": 180,
           "🗳": 708,
           "🔴": 70,
           "🎉": 125,
           "📴": 69,
           "👋": 80,
-          "🔥": 215,
+          "🔥": 217,
           "💪": 2,
           "🤖": 1,
           "💚": 6,
@@ -6050,18 +6050,10 @@
           "🎼": "🎼",
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
-        "lastChatAt": 1789700895761,
+        "lastChatAt": 1789718201426,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "heeey, that is pretty good"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Pretty quick"
-        },
         {
           "user": "briggsy",
           "msg": "here we gooo"
@@ -6093,6 +6085,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @DimiFW to the channel! Thank you so much for subscribing! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@DimiFW subscribed! Thank you!"
         }
       ],
       "customCommands": {},
@@ -6201,6 +6201,11 @@
         },
         "makesonlybeats": {
           "name": "makesonlybeats",
+          "months": 1,
+          "tier": 1
+        },
+        "dimifw": {
+          "name": "dimifw",
           "months": 1,
           "tier": 1
         }
@@ -15309,7 +15314,7 @@
         "totalVotes": 2094,
         "totalSubs": 21,
         "totalChatMessages": 575,
-        "totalStreamMinutes": 3930,
+        "totalStreamMinutes": 3950,
         "emotes": {
           "❤": 26,
           "🙌": 27,
@@ -18335,9 +18340,9 @@
       "n": 14
     },
     "helios": {
-      "note": "Friendly gamer who loves shooting games, jokes about ping and friendly fire, enjoys food, plays many game types except sports, and frequently talks about raids.",
-      "at": 1789536615844,
-      "n": 26
+      "note": "Friendly gamer who loves shooting games, jokes about ping and friendly fire, enjoys food, plays many game types (except sports) and frequently talks about raids.",
+      "at": 1789718168271,
+      "n": 27
     },
     "piweb": {
       "note": "Enjoys chatting about Fortnite, backgammon, everyday life banter, playful birthday",
@@ -18506,8 +18511,8 @@
     },
     "fuyu": {
       "note": "Fuyu loves playing Fortnite, Snake, and AI games, and enjoys playful, spooky sarcasm in chat.",
-      "at": 1789552455862,
-      "n": 15
+      "at": 1789717508655,
+      "n": 16
     },
     "clutchking": {
       "note": "They appear to have a playful and humorous personality, often using meows and laughing emojis to express themselves.",
