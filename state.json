@@ -14770,7 +14770,7 @@
       "stats": {
         "totalVotes": 10312,
         "totalSubs": 85,
-        "totalChatMessages": 4441,
+        "totalChatMessages": 4442,
         "totalStreamMinutes": 8256,
         "emotes": {
           "😅": 1,
@@ -14779,7 +14779,7 @@
           "✌": 5,
           "😊": 1,
           "👍": 8,
-          "❤": 203,
+          "❤": 205,
           "🤫": 1,
           "🤘": 2,
           "😂": 19,
@@ -14787,7 +14787,7 @@
           "😁": 2,
           "😜": 7,
           "🙏": 1,
-          "🙌": 132,
+          "🙌": 133,
           "💪": 1,
           "👋": 36,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 588,
@@ -14949,7 +14949,7 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789723593748,
+        "lastChatAt": 1789723840187,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -14957,10 +14957,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "fartvader",
           "msg": "let me check"
@@ -14996,6 +14992,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @woshi just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ evil__lemonade just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -15348,7 +15348,7 @@
         "totalVotes": 2094,
         "totalSubs": 21,
         "totalChatMessages": 576,
-        "totalStreamMinutes": 4040,
+        "totalStreamMinutes": 4045,
         "emotes": {
           "❤": 26,
           "🙌": 27,
@@ -19205,8 +19205,8 @@
     }
   },
   "auth": {
-    "accessToken": "bda5702695ec8243e3cc2064dd489bee",
-    "refreshToken": "094dbdd1c283c9c4ba7d153325b051c6",
+    "accessToken": "a90e2696706808ebf6332851c0ea0fc5",
+    "refreshToken": "48250a906832ff2570a0090efe5d1049",
     "sessionToken": "ab7c7a983e7b2f17ed8508f737be8899",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
