@@ -6971,7 +6971,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 14121,
+        "totalVotes": 14123,
         "totalSubs": 42,
         "totalChatMessages": 2837,
         "totalStreamMinutes": 3882,
@@ -10285,17 +10285,17 @@
       "language": "en",
       "stats": {
         "totalVotes": 19924,
-        "totalSubs": 24,
-        "totalChatMessages": 1219,
+        "totalSubs": 25,
+        "totalChatMessages": 1220,
         "totalStreamMinutes": 1859,
         "emotes": {
           "❤": 19,
-          "🙌": 30,
+          "🙌": 31,
           "🗳": 522,
           "🚨": 54,
           "🎉": 28,
           "👋": 41,
-          "🔥": 85,
+          "🔥": 87,
           "🤔": 11,
           "🧠": 3,
           "🌀": 4,
@@ -10462,17 +10462,13 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
           "💰": "💰"
         },
-        "lastChatAt": 1789719711677,
+        "lastChatAt": 1789731665427,
         "sendFailStreak": 254,
         "lastSendFailAt": 1789705468606,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1789705468399
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dress_n_Draw just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -10508,6 +10504,10 @@
         {
           "user": "botger",
           "msg": "⚠️ Heads up dimifw! You're projected to fall below Verified (Tier 2) in approximately 7 day(s) (Sep 25 at 08:21 UTC). Current stream hours: 13.2h / 10h required. Stream more to maintain your Verified status! 🎯"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @NadieTv has resubscribed — 2 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -10597,6 +10597,11 @@
         },
         "noxx": {
           "name": "noxx",
+          "months": 1,
+          "tier": 1
+        },
+        "nadietv": {
+          "name": "nadietv",
           "months": 1,
           "tier": 1
         }
@@ -15174,14 +15179,14 @@
       "stats": {
         "totalVotes": 10817,
         "totalSubs": 79,
-        "totalChatMessages": 703,
-        "totalStreamMinutes": 3164,
+        "totalChatMessages": 705,
+        "totalStreamMinutes": 3168,
         "emotes": {
           "❤": 81,
           "🙌": 116,
           "🎁": 138,
-          "🔴": 25,
-          "🎉": 35,
+          "🔴": 26,
+          "🎉": 36,
           "🗳": 198,
           "📴": 26,
           "👋": 26,
@@ -15245,17 +15250,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789669827082
+        "lastChatAt": 1789731601104
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️"
-        },
         {
           "user": "fartvader",
           "msg": "yun oh...gl sa matches niyo ni seventh..lurk lang ako dito idol!"
@@ -15287,6 +15284,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @omererkmen!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 charddxyz is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: grinding to seeker! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -15299,7 +15304,7 @@
       "locked": false,
       "profile": "Deadlock crew, “LOVE FEST” vibes, raiding, celebrating generosity. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, “ty ty for votes bro”, “How generous!!” when gifts, votes, or follows hit. The stream thrives on gifts, votes, hype, cheering for the next big win. charddxyz loves being celebrated with cheers, votes, constant hype.",
       "_profileAtCount": 692,
-      "streamTitle": "",
+      "streamTitle": "grinding to seeker — Deadlock",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/6f948e20-bb78-41a1-9c2e-6358e4a07cc5.png",
       "lastStreamInfo": "Aion2 Playtest — Steam",
       "lastStreamEndedAt": 1789658312655,
@@ -18348,9 +18353,9 @@
       "n": 32
     },
     "junior7_": {
-      "note": "Enjoys playing Mania and other games, loves playful, humorous banter with friends.",
-      "at": 1789660088215,
-      "n": 8
+      "note": "Enjoys playing Mania and other games, loves playful, humorous banter with",
+      "at": 1789731368495,
+      "n": 9
     },
     "cactus_jack440": {
       "note": "Enthusiastic mod for Captain Rob who loves playful banter, uses emotes, and chats about votes and game moments.",
@@ -18598,9 +18603,9 @@
       "n": 1
     },
     "bee12": {
-      "note": "Bee12 loves cheering with hearts and bees, promotes @anikisnowsteam and JT’s streams, shares NFT links, and chats playfully and enthusiastically.",
-      "at": 1789659428287,
-      "n": 21
+      "note": "Bee12 cheers with hearts and bees, promotes @anikisnowsteam and JT’s streams, shares NFT links, and chats playfully and enthusiastically.",
+      "at": 1789730708333,
+      "n": 22
     },
     "omom_": {
       "note": "They enjoy gaming, use humor and emoticons, and seem to appreciate excitement and entertainment in their livestreams.",
