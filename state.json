@@ -8732,7 +8732,7 @@
         "totalVotes": 9547,
         "totalSubs": 198,
         "totalChatMessages": 465,
-        "totalStreamMinutes": 11942,
+        "totalStreamMinutes": 11947,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -9544,8 +9544,8 @@
       "stats": {
         "totalVotes": 9025,
         "totalSubs": 86,
-        "totalChatMessages": 768,
-        "totalStreamMinutes": 4089,
+        "totalChatMessages": 769,
+        "totalStreamMinutes": 4094,
         "emotes": {
           "❤": 32,
           "🙌": 103,
@@ -9611,13 +9611,9 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789793201541
+        "lastChatAt": 1789796801389
       },
       "chatMemory": [
-        {
-          "user": "tai_",
-          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
-        },
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
@@ -9637,6 +9633,10 @@
         {
           "user": "corinloch",
           "msg": "olá"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         },
         {
           "user": "scurvybot",
@@ -13764,7 +13764,7 @@
       "language": "en",
       "joinedAt": 1785110114264,
       "stats": {
-        "totalVotes": 5014,
+        "totalVotes": 5015,
         "totalSubs": 32,
         "totalChatMessages": 178,
         "totalStreamMinutes": 2235,
@@ -16354,9 +16354,9 @@
       "language": "en",
       "joinedAt": 1787228991116,
       "stats": {
-        "totalVotes": 4057,
+        "totalVotes": 4058,
         "totalSubs": 21,
-        "totalChatMessages": 820,
+        "totalChatMessages": 821,
         "totalStreamMinutes": 5618,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
@@ -16485,13 +16485,9 @@
           "🙃": "🙃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789696519502
+        "lastChatAt": 1789796866753
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "Heey"
-        },
         {
           "user": "time",
           "msg": "🙃"
@@ -16527,6 +16523,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @TwistedTinker!"
         }
       ],
       "customCommands": {
@@ -18401,8 +18401,8 @@
     },
     "badger": {
       "note": "Enthusiastic gamer who loves botger, custom alert sounds, playful absurd humor, and often talks about lending NFTs like REDs and Salvors.",
-      "at": 1789712228467,
-      "n": 24
+      "at": 1789796708458,
+      "n": 25
     },
     "fartvader": {
       "note": "Energetic gamer who loves Ghost Recon Wildlands, Palworld, Dota, Hero Siege, Roblox battle‑royale, and always brings playful, upbeat humor.",
@@ -19435,8 +19435,8 @@
     }
   },
   "auth": {
-    "accessToken": "1906b3c7939c2cc4dbaa53b2817bc28f",
-    "refreshToken": "9388c4c479b3345f18d8f9c14559eea3",
+    "accessToken": "2de280147e856aeffbaa0e61bfe6f2a4",
+    "refreshToken": "db218b9dce925845e68fa9dc63fc5e78",
     "sessionToken": "8a8babd4ea7a4beb9d66a14588b78e78",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
