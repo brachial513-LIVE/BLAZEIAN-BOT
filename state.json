@@ -8471,7 +8471,7 @@
         "totalVotes": 11704,
         "totalSubs": 49,
         "totalChatMessages": 2207,
-        "totalStreamMinutes": 14263,
+        "totalStreamMinutes": 14268,
         "emotes": {
           "🔥": 630,
           "🔴": 200,
@@ -8732,7 +8732,7 @@
         "totalVotes": 9547,
         "totalSubs": 198,
         "totalChatMessages": 465,
-        "totalStreamMinutes": 11762,
+        "totalStreamMinutes": 11767,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -9544,8 +9544,8 @@
       "stats": {
         "totalVotes": 9018,
         "totalSubs": 86,
-        "totalChatMessages": 765,
-        "totalStreamMinutes": 3909,
+        "totalChatMessages": 766,
+        "totalStreamMinutes": 3914,
         "emotes": {
           "❤": 32,
           "🙌": 103,
@@ -9611,13 +9611,9 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789782401778
+        "lastChatAt": 1789786002086
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "tai_",
           "msg": "OIEEEEE"
@@ -9649,6 +9645,10 @@
         {
           "user": "corinloch",
           "msg": "olá"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         },
         {
           "user": "scurvybot",
@@ -10043,8 +10043,8 @@
       "stats": {
         "totalVotes": 21822,
         "totalSubs": 119,
-        "totalChatMessages": 2333,
-        "totalStreamMinutes": 13001,
+        "totalChatMessages": 2335,
+        "totalStreamMinutes": 13006,
         "emotes": {
           "❤": 103,
           "🙌": 167,
@@ -10226,17 +10226,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789783640724
+        "lastChatAt": 1789786089920
       },
       "chatMemory": [
-        {
-          "user": "stogchog",
-          "msg": "thanks for hanging"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
@@ -10268,6 +10260,14 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @lyzamae! How generous!! 🙌"
+        },
+        {
+          "user": "faithy_",
+          "msg": "still downloading my game lol"
+        },
+        {
+          "user": "faithy_",
+          "msg": "let's have a chat first while waiting"
         }
       ],
       "customCommands": {},
@@ -13075,7 +13075,7 @@
         "totalVotes": 19777,
         "totalSubs": 45,
         "totalChatMessages": 4860,
-        "totalStreamMinutes": 9235,
+        "totalStreamMinutes": 9240,
         "emotes": {
           "❤": 90,
           "🙌": 80,
@@ -13567,7 +13567,7 @@
         "totalVotes": 3232,
         "totalSubs": 2,
         "totalChatMessages": 59,
-        "totalStreamMinutes": 4093,
+        "totalStreamMinutes": 4098,
         "emotes": {
           "🔥": 10,
           "🐺": 2,
@@ -16770,7 +16770,7 @@
         "totalVotes": 2015,
         "totalSubs": 0,
         "totalChatMessages": 123,
-        "totalStreamMinutes": 3783,
+        "totalStreamMinutes": 3788,
         "emotes": {
           "✌": 3,
           "🔥": 11,
@@ -19428,8 +19428,8 @@
     }
   },
   "auth": {
-    "accessToken": "123ccf6d90d2f729803753bba5ca1322",
-    "refreshToken": "ff300d64e4e97d3f811329d4ac632369",
+    "accessToken": "a71cd9f9d8eccf4d2663516a646af0c7",
+    "refreshToken": "38fffd28f77985526316644d82ca7ceb",
     "sessionToken": "8a8babd4ea7a4beb9d66a14588b78e78",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
