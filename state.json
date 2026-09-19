@@ -4908,22 +4908,22 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 26245,
+        "totalVotes": 26395,
         "totalSubs": 80,
-        "totalChatMessages": 11750,
+        "totalChatMessages": 11752,
         "totalStreamMinutes": 7051,
         "emotes": {
           "❤": 195,
           "🙌": 316,
-          "🗳": 1331,
+          "🗳": 1334,
           "✌": 10,
           "😊": 10,
           "👍": 15,
           "🔴": 18,
-          "🎉": 142,
+          "🎉": 143,
           "📴": 18,
           "👋": 26,
-          "⚡": 85,
+          "⚡": 86,
           "😂": 159,
           "😍": 28,
           "🔥": 238,
@@ -5405,17 +5405,9 @@
           "😕": "😕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789801823305
+        "lastChatAt": 1789802238105
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "Good bye Db ❤️😘"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "take care time &lt;3"
-        },
         {
           "user": "time",
           "msg": "You too"
@@ -5447,6 +5439,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🎉 BLAZEIAN_BOT_AI just reached Level 8! ⚡ (16,505 XP)"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 150 vote(s) (total: 175)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8729,10 +8729,10 @@
       "username": "saboomafoo",
       "language": "en",
       "stats": {
-        "totalVotes": 9547,
+        "totalVotes": 9562,
         "totalSubs": 198,
         "totalChatMessages": 475,
-        "totalStreamMinutes": 12032,
+        "totalStreamMinutes": 12037,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -9545,7 +9545,7 @@
         "totalVotes": 9045,
         "totalSubs": 86,
         "totalChatMessages": 770,
-        "totalStreamMinutes": 4179,
+        "totalStreamMinutes": 4184,
         "emotes": {
           "❤": 32,
           "🙌": 103,
@@ -19440,8 +19440,8 @@
     }
   },
   "auth": {
-    "accessToken": "6b2a87c17302e3276b52cb0be5ce5d6f",
-    "refreshToken": "23efbff9b0821c63f6029918c1d329ea",
+    "accessToken": "21158346414cac38276f77d06add8aa3",
+    "refreshToken": "57cd4dfcb9d9e5f6b0b43dd6d533fd95",
     "sessionToken": "8a8babd4ea7a4beb9d66a14588b78e78",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
