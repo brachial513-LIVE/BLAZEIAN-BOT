@@ -8737,7 +8737,7 @@
         "totalVotes": 9594,
         "totalSubs": 198,
         "totalChatMessages": 477,
-        "totalStreamMinutes": 12257,
+        "totalStreamMinutes": 12262,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -10049,7 +10049,7 @@
         "totalVotes": 21906,
         "totalSubs": 121,
         "totalChatMessages": 2364,
-        "totalStreamMinutes": 13185,
+        "totalStreamMinutes": 13190,
         "emotes": {
           "❤": 103,
           "🙌": 169,
@@ -13947,7 +13947,7 @@
         "totalVotes": 8509,
         "totalSubs": 87,
         "totalChatMessages": 1484,
-        "totalStreamMinutes": 3765,
+        "totalStreamMinutes": 3770,
         "emotes": {
           "❤": 109,
           "🙌": 120,
@@ -15490,15 +15490,15 @@
       "stats": {
         "totalVotes": 2167,
         "totalSubs": 22,
-        "totalChatMessages": 603,
-        "totalStreamMinutes": 4432,
+        "totalChatMessages": 605,
+        "totalStreamMinutes": 4435,
         "emotes": {
           "❤": 26,
           "🙌": 28,
           "📢": 14,
           "🔥": 50,
-          "📴": 36,
-          "👋": 36,
+          "📴": 37,
+          "👋": 37,
           "🎁": 22,
           "🔴": 36,
           "🎉": 37,
@@ -15579,17 +15579,9 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789815102971
+        "lastChatAt": 1789815770274
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "[emote:9fd014db-3ca4-48b3-9fdf-f62b1d7dd2da] [emote:9fd014db-3ca4-48b3-9fdf-f62b1d7dd2da] [emote:9fd014db-3ca4-48b3-9fdf-f62b1d7dd2da]"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @nekoschwan at https://blaze.stream/nekoschwan!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -15621,6 +15613,14 @@
         {
           "user": "just_for_lucas",
           "msg": "GM @korosuplays"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -15631,14 +15631,14 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "LEAGUE ARAM! — League of Legends",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/52d87c93-9b11-4566-829a-811f46dabd06.gif",
       "followed": true,
       "profile": "We’re a Blaze livestream community that “BLAZEs” the night away, focusing on League of Legends and Crypto. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, and celebrate “BLAZEing” achievements with emojis and “very lovely” responses. The streamer loves being celebrated with “BLAZEing” emojis and enthusiastic “BLAZE” shoutouts. Keep the “BLAZE” spirit alive!",
       "_profileAtCount": 573,
       "lastStreamInfo": "LEAGUE ARAM! — League of Legends",
-      "lastStreamEndedAt": 1789745488324,
+      "lastStreamEndedAt": 1789815765068,
       "nudgedAt": 1787193926827,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -19450,8 +19450,8 @@
     }
   },
   "auth": {
-    "accessToken": "5c4d2490f4cffd1bd5dbba2a705f2cf7",
-    "refreshToken": "322b5f007451d5297a2f5ae07cf4692f",
+    "accessToken": "fe54bc3810e8f3846af4d97e3cab63ec",
+    "refreshToken": "37f3157324d03a5daad070898d45d055",
     "sessionToken": "8a8babd4ea7a4beb9d66a14588b78e78",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
