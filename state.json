@@ -4908,14 +4908,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 26195,
+        "totalVotes": 26220,
         "totalSubs": 80,
-        "totalChatMessages": 11748,
+        "totalChatMessages": 11749,
         "totalStreamMinutes": 7051,
         "emotes": {
           "❤": 195,
           "🙌": 316,
-          "🗳": 1325,
+          "🗳": 1328,
           "✌": 10,
           "😊": 10,
           "👍": 15,
@@ -5405,13 +5405,9 @@
           "😕": "😕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789774297836
+        "lastChatAt": 1789791510963
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "Have a good time"
-        },
         {
           "user": "desirablebottom",
           "msg": "👀👀👀"
@@ -5447,6 +5443,10 @@
         {
           "user": "botger",
           "msg": "Appreciate your time.  Cheers and catchya next time. 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 25 vote(s) (total: 75)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7014,7 +7014,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 14397,
+        "totalVotes": 14399,
         "totalSubs": 43,
         "totalChatMessages": 3118,
         "totalStreamMinutes": 4078,
@@ -8732,7 +8732,7 @@
         "totalVotes": 9547,
         "totalSubs": 198,
         "totalChatMessages": 465,
-        "totalStreamMinutes": 11852,
+        "totalStreamMinutes": 11857,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -9545,7 +9545,7 @@
         "totalVotes": 9018,
         "totalSubs": 86,
         "totalChatMessages": 767,
-        "totalStreamMinutes": 3999,
+        "totalStreamMinutes": 4004,
         "emotes": {
           "❤": 32,
           "🙌": 103,
@@ -13077,7 +13077,7 @@
         "totalVotes": 19851,
         "totalSubs": 45,
         "totalChatMessages": 4874,
-        "totalStreamMinutes": 9325,
+        "totalStreamMinutes": 9330,
         "emotes": {
           "❤": 92,
           "🙌": 81,
@@ -19430,8 +19430,8 @@
     }
   },
   "auth": {
-    "accessToken": "6115856c0f30e6feb759d52f6e5ab584",
-    "refreshToken": "044e9c842bf288108f41f7df892f2096",
+    "accessToken": "1598363ef47d4b247e4cfbe448e7792e",
+    "refreshToken": "88ee0f36b1160b2ff06122d9999775d1",
     "sessionToken": "8a8babd4ea7a4beb9d66a14588b78e78",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
