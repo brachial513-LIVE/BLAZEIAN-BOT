@@ -8737,7 +8737,7 @@
         "totalVotes": 9594,
         "totalSubs": 198,
         "totalChatMessages": 476,
-        "totalStreamMinutes": 12212,
+        "totalStreamMinutes": 12217,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -10049,7 +10049,7 @@
         "totalVotes": 21905,
         "totalSubs": 119,
         "totalChatMessages": 2354,
-        "totalStreamMinutes": 13140,
+        "totalStreamMinutes": 13145,
         "emotes": {
           "❤": 103,
           "🙌": 167,
@@ -10695,8 +10695,8 @@
       "joinedAt": 1784453301135,
       "stats": {
         "totalVotes": 4283,
-        "totalSubs": 27,
-        "totalChatMessages": 224,
+        "totalSubs": 28,
+        "totalChatMessages": 228,
         "totalStreamMinutes": 5954,
         "emotes": {
           "🔥": 8,
@@ -10743,25 +10743,9 @@
           "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789804164187
+        "lastChatAt": 1789813038313
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 35 votes, @dyosaii!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live! Come hang out and watch."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @NashvilleLou!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @NashvilleLou!"
@@ -10785,6 +10769,22 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 6 votes, @bronzeagle!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @tenshi!"
+        },
+        {
+          "user": "tenshi",
+          "msg": "hey"
+        },
+        {
+          "user": "tenshi",
+          "msg": "sub 4 sub?"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@tenshi subscribed! Thank you!"
         }
       ],
       "customCommands": {},
@@ -10828,6 +10828,11 @@
         },
         "xanderc": {
           "name": "xanderc",
+          "months": 1,
+          "tier": 1
+        },
+        "tenshi": {
+          "name": "tenshi",
           "months": 1,
           "tier": 1
         }
@@ -13939,10 +13944,10 @@
       "language": "en",
       "joinedAt": 1785231455893,
       "stats": {
-        "totalVotes": 8508,
+        "totalVotes": 8509,
         "totalSubs": 85,
-        "totalChatMessages": 1458,
-        "totalStreamMinutes": 3720,
+        "totalChatMessages": 1461,
+        "totalStreamMinutes": 3725,
         "emotes": {
           "❤": 107,
           "🙌": 117,
@@ -13951,7 +13956,7 @@
           "🔴": 31,
           "🎉": 44,
           "💛": 17,
-          "🗳": 261,
+          "🗳": 264,
           "🎁": 132,
           "📴": 29,
           "👋": 34,
@@ -14102,25 +14107,13 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789812851453,
+        "lastChatAt": 1789813130725,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "poetbabe",
-          "msg": "no, i can't its on windows. i have mac os"
-        },
-        {
-          "user": "poetbabe",
-          "msg": "Today, I'm going to buy No Man's Sky on steam"
-        },
-        {
-          "user": "poetbabe",
-          "msg": "intergalatic space game"
-        },
         {
           "user": "poetbabe",
           "msg": "i have to go .. GGs[emote:fb95c5e5-03ab-4936-891a-2b4635354d8a]"
@@ -14148,6 +14141,18 @@
         {
           "user": "nekoschwan",
           "msg": "you could hit them first then they will for sure give it back"
+        },
+        {
+          "user": "missaria",
+          "msg": "change game, will play overcooked 2 with @nekoschwan"
+        },
+        {
+          "user": "tenshi",
+          "msg": "haha"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @tenshi just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -15486,7 +15491,7 @@
         "totalVotes": 2167,
         "totalSubs": 22,
         "totalChatMessages": 602,
-        "totalStreamMinutes": 4387,
+        "totalStreamMinutes": 4392,
         "emotes": {
           "❤": 26,
           "🙌": 28,
@@ -19445,8 +19450,8 @@
     }
   },
   "auth": {
-    "accessToken": "4eeed3492d046ac8288aced2259de45b",
-    "refreshToken": "e172a47bb1baf05363679bf5c0fe10c1",
+    "accessToken": "5c4d2490f4cffd1bd5dbba2a705f2cf7",
+    "refreshToken": "322b5f007451d5297a2f5ae07cf4692f",
     "sessionToken": "8a8babd4ea7a4beb9d66a14588b78e78",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
