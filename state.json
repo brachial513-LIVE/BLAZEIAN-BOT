@@ -2896,16 +2896,16 @@
       "stats": {
         "totalVotes": 16929,
         "totalSubs": 78,
-        "totalChatMessages": 6488,
-        "totalStreamMinutes": 19588,
+        "totalChatMessages": 6489,
+        "totalStreamMinutes": 19592,
         "emotes": {
           "❤": 209,
           "🙌": 159,
           "🗳": 909,
           "📴": 164,
           "👋": 186,
-          "🔴": 161,
-          "🎉": 256,
+          "🔴": 162,
+          "🎉": 257,
           "🏆": 22,
           "🤗": 34,
           "💎": 7,
@@ -3206,14 +3206,10 @@
           "🎵": "🎵",
           "🎶": "🎶"
         },
-        "lastChatAt": 1789901506648,
+        "lastChatAt": 1789910106805,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "GM GM @agent00zani"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @charddxyz just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
@@ -3249,6 +3245,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -3260,7 +3260,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "🎮 Zani was Once Human🎰 Sub Raffle 🏆 150 Votes — Games + Demos",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty soo much” and emotes.",
       "_profileAtCount": 6466,
       "loyalty": {
@@ -4017,7 +4017,7 @@
         "totalVotes": 15162,
         "totalSubs": 63,
         "totalChatMessages": 3165,
-        "totalStreamMinutes": 14018,
+        "totalStreamMinutes": 14023,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -4600,7 +4600,7 @@
         "totalVotes": 9472,
         "totalSubs": 47,
         "totalChatMessages": 1822,
-        "totalStreamMinutes": 9340,
+        "totalStreamMinutes": 9345,
         "emotes": {
           "✨": 37,
           "🖥": 22,
@@ -9619,7 +9619,7 @@
         "totalVotes": 10492,
         "totalSubs": 86,
         "totalChatMessages": 821,
-        "totalStreamMinutes": 5083,
+        "totalStreamMinutes": 5088,
         "emotes": {
           "❤": 34,
           "🙌": 104,
@@ -10121,8 +10121,8 @@
       "stats": {
         "totalVotes": 22327,
         "totalSubs": 125,
-        "totalChatMessages": 2446,
-        "totalStreamMinutes": 13452,
+        "totalChatMessages": 2447,
+        "totalStreamMinutes": 13457,
         "emotes": {
           "❤": 104,
           "🙌": 173,
@@ -10310,13 +10310,9 @@
           "da86e8da-e5d5-4296-8477-eb57f206e441": "WTF"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789909594714
+        "lastChatAt": 1789910078030
       },
       "chatMemory": [
-        {
-          "user": "charddxyz",
-          "msg": "haha"
-        },
         {
           "user": "corneto",
           "msg": "fyi i die using 5x key onstage 8"
@@ -10352,6 +10348,10 @@
         {
           "user": "corneto",
           "msg": "ksama ba ng corn dyan doon sa kabilang corn?"
+        },
+        {
+          "user": "timdraws",
+          "msg": "Still playing"
         }
       ],
       "customCommands": {},
@@ -12399,7 +12399,7 @@
       "stats": {
         "totalVotes": 11863,
         "totalSubs": 16,
-        "totalChatMessages": 20935,
+        "totalChatMessages": 20936,
         "totalStreamMinutes": 15853,
         "emotes": {
           "❤": 63,
@@ -12738,13 +12738,9 @@
           "♥": "♥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789877174114
+        "lastChatAt": 1789910334626
       },
       "chatMemory": [
-        {
-          "user": "rechigamer",
-          "msg": "Ninguém acreditava no Rechi"
-        },
         {
           "user": "lovemikami",
           "msg": "boa rechão"
@@ -12780,6 +12776,10 @@
         {
           "user": "lovemikami",
           "msg": "boa noite rechão"
+        },
+        {
+          "user": "anikisnow",
+          "msg": "live do brabo"
         }
       ],
       "customCommands": {},
@@ -19740,8 +19740,8 @@
     }
   },
   "auth": {
-    "accessToken": "dae76d9eeb56b7db9dd25e10c2e36270",
-    "refreshToken": "d969da3c0fca207cef46478cf84dd4c5",
+    "accessToken": "4b2168d66514e8ab353bb6cac276077c",
+    "refreshToken": "e031643b937f92d603e25576f6f64cac",
     "sessionToken": "4aeb0af155005946c14e41dc130f5ddf",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
