@@ -2895,12 +2895,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 16928,
-        "totalSubs": 77,
-        "totalChatMessages": 6480,
-        "totalStreamMinutes": 19448,
+        "totalSubs": 78,
+        "totalChatMessages": 6482,
+        "totalStreamMinutes": 19468,
         "emotes": {
           "❤": 209,
-          "🙌": 158,
+          "🙌": 159,
           "🗳": 906,
           "📴": 162,
           "👋": 184,
@@ -2911,7 +2911,7 @@
           "💎": 7,
           "🎁": 97,
           "📢": 32,
-          "🔥": 393,
+          "🔥": 395,
           "😘": 30,
           "🥺": 10,
           "🥷": 14,
@@ -3206,18 +3206,10 @@
           "🎵": "🎵",
           "🎶": "🎶"
         },
-        "lastChatAt": 1789892615151,
+        "lastChatAt": 1789893184217,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "nite nite"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Zani gonna play games all night"
-        },
         {
           "user": "triz_draw",
           "msg": "goin to sleeeep"
@@ -3249,6 +3241,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @charddxyz just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @guney has resubscribed — 5 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "guney",
+          "msg": "you're welcome bro"
         }
       ],
       "customCommands": {
@@ -3381,6 +3381,11 @@
         },
         "the_gwc": {
           "name": "the_gwc",
+          "months": 1,
+          "tier": 1
+        },
+        "guney": {
+          "name": "guney",
           "months": 1,
           "tier": 1
         }
@@ -4945,12 +4950,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 26661,
-        "totalSubs": 81,
-        "totalChatMessages": 11756,
+        "totalSubs": 82,
+        "totalChatMessages": 11757,
         "totalStreamMinutes": 7051,
         "emotes": {
           "❤": 197,
-          "🙌": 318,
+          "🙌": 319,
           "🗳": 1340,
           "✌": 10,
           "😊": 10,
@@ -4962,7 +4967,7 @@
           "⚡": 86,
           "😂": 159,
           "😍": 28,
-          "🔥": 240,
+          "🔥": 242,
           "😎": 6,
           "😁": 23,
           "😄": 26,
@@ -5441,13 +5446,9 @@
           "😕": "😕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789883253503
+        "lastChatAt": 1789893178253
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "😏😏😏"
-        },
         {
           "user": "botger",
           "msg": "Appreciate your time.  Cheers and catchya next time. 🙌"
@@ -5483,6 +5484,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ thatsicy_ just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @guney has resubscribed — 2 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -5615,6 +5620,11 @@
         },
         "lvl4goblin": {
           "name": "lvl4goblin",
+          "months": 1,
+          "tier": 1
+        },
+        "guney": {
+          "name": "guney",
           "months": 1,
           "tier": 1
         }
@@ -7751,7 +7761,7 @@
       "username": "tai_",
       "language": "en",
       "stats": {
-        "totalVotes": 10758,
+        "totalVotes": 10788,
         "totalSubs": 40,
         "totalChatMessages": 674,
         "totalStreamMinutes": 7303,
@@ -9606,10 +9616,10 @@
       "username": "lady_iris",
       "language": "en",
       "stats": {
-        "totalVotes": 10462,
+        "totalVotes": 10492,
         "totalSubs": 86,
         "totalChatMessages": 796,
-        "totalStreamMinutes": 4793,
+        "totalStreamMinutes": 4813,
         "emotes": {
           "❤": 34,
           "🙌": 104,
@@ -11790,9 +11800,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 11964,
+        "totalVotes": 11994,
         "totalSubs": 27,
-        "totalChatMessages": 2404,
+        "totalChatMessages": 2405,
         "totalStreamMinutes": 7754,
         "emotes": {
           "❤": 96,
@@ -11949,13 +11959,9 @@
           "💰": "💰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789892397242
+        "lastChatAt": 1789892788606
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "I know haha"
-        },
         {
           "user": "briggsy",
           "msg": "Ok, have a good one"
@@ -11991,6 +11997,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 51 votes, @spike!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 30 votes, @wayfinders!"
         }
       ],
       "customCommands": {},
@@ -12865,17 +12875,17 @@
       "joinedAt": 1784664490215,
       "stats": {
         "totalVotes": 7759,
-        "totalSubs": 20,
-        "totalChatMessages": 964,
+        "totalSubs": 21,
+        "totalChatMessages": 965,
         "totalStreamMinutes": 6438,
         "emotes": {
           "❤": 62,
-          "🙌": 39,
+          "🙌": 40,
           "📴": 45,
           "👋": 48,
           "🔴": 43,
           "🎉": 60,
-          "🔥": 62,
+          "🔥": 64,
           "🗳": 285,
           "😀": 4,
           "👀": 6,
@@ -12981,13 +12991,9 @@
           "🧐": "🧐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789831983772
+        "lastChatAt": 1789893483900
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "we will start to live together next month"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -13023,6 +13029,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @fluffy has resubscribed — 5 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -13045,6 +13055,11 @@
         "cynthia_stnkmp": {
           "name": "cynthia_stnkmp",
           "months": 2,
+          "tier": 1
+        },
+        "fluffy": {
+          "name": "fluffy",
+          "months": 1,
           "tier": 1
         }
       },
@@ -13213,7 +13228,7 @@
         "totalVotes": 20419,
         "totalSubs": 46,
         "totalChatMessages": 4961,
-        "totalStreamMinutes": 9715,
+        "totalStreamMinutes": 9735,
         "emotes": {
           "❤": 94,
           "🙌": 83,
@@ -13900,7 +13915,7 @@
       "language": "en",
       "joinedAt": 1785110114264,
       "stats": {
-        "totalVotes": 6338,
+        "totalVotes": 6368,
         "totalSubs": 32,
         "totalChatMessages": 178,
         "totalStreamMinutes": 2235,
@@ -14809,9 +14824,9 @@
       "language": "en",
       "joinedAt": 1785809834886,
       "stats": {
-        "totalVotes": 96284,
+        "totalVotes": 96309,
         "totalSubs": 25,
-        "totalChatMessages": 1035,
+        "totalChatMessages": 1036,
         "totalStreamMinutes": 2117,
         "emotes": {
           "💚": 1,
@@ -14828,7 +14843,7 @@
           "👍": 2,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 192,
+          "🗳": 195,
           "🙌": 37,
           "✌": 1,
           "📴": 17,
@@ -14919,17 +14934,13 @@
           "👐": "👐",
           "🥷": "🥷"
         },
-        "sendFailStreak": 203,
-        "lastChatAt": 1789849106041,
-        "lastSendFailAt": 1789838969524,
+        "sendFailStreak": 204,
+        "lastChatAt": 1789893029962,
+        "lastSendFailAt": 1789893028013,
         "lastSendFailReason": "You are banned from this channel.",
-        "lastProbeAt": 1789838969209
+        "lastProbeAt": 1789893027772
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "hello, good day! heya everyone!"
-        },
         {
           "user": "fartvader",
           "msg": "have fun playing and streaming! [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
@@ -14965,6 +14976,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -15655,7 +15670,7 @@
         "totalVotes": 2567,
         "totalSubs": 22,
         "totalChatMessages": 610,
-        "totalStreamMinutes": 4498,
+        "totalStreamMinutes": 4518,
         "emotes": {
           "❤": 26,
           "🙌": 28,
@@ -17356,7 +17371,7 @@
       "language": "en",
       "joinedAt": 1788280149842,
       "stats": {
-        "totalVotes": 3383,
+        "totalVotes": 3412,
         "totalSubs": 6,
         "totalChatMessages": 120,
         "totalStreamMinutes": 426,
@@ -19320,9 +19335,9 @@
       "n": 1
     },
     "algento": {
-      "note": "Enjoy chatting in Italian, talking about music and beach vibes with a friendly, upbeat tone.",
-      "at": 1789747868364,
-      "n": 3
+      "note": "Enjoys chatting in Italian about music, beach vibes, and friendly, upbeat banter.",
+      "at": 1789893068437,
+      "n": 4
     },
     "mistersupercool": {
       "note": "Mistersupercool greets viewers with playful emotes, says “GM,” and jokes with “lol gg” while chatting casually.",
@@ -19510,9 +19525,9 @@
       "n": 5
     },
     "lvl4goblin": {
-      "note": "Enjoys indie titles like Badger Games and Blaze, loves poking fun at quirky localization quirks, and keeps chat light with playful, humorous banter.",
-      "at": 1789786808297,
-      "n": 5
+      "note": "Enjoys indie roguelikes like Rogue and NetHack, loves poking fun at quirky localization, and keeps chat light with playful, humorous banter.",
+      "at": 1789893728297,
+      "n": 6
     },
     "guilhermesisto": {
       "note": "Guilhermesisto loves retro arcade games like Bomberman, Metal Slug, KOF, and Samurai Shodown, often joking about “colete a prova de balas” and cheering for new releases.",
