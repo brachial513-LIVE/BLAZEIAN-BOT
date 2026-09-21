@@ -8585,7 +8585,7 @@
         "totalVotes": 12104,
         "totalSubs": 51,
         "totalChatMessages": 2244,
-        "totalStreamMinutes": 14714,
+        "totalStreamMinutes": 14719,
         "emotes": {
           "🔥": 639,
           "🔴": 200,
@@ -10525,7 +10525,7 @@
         "totalVotes": 21567,
         "totalSubs": 26,
         "totalChatMessages": 1265,
-        "totalStreamMinutes": 1993,
+        "totalStreamMinutes": 1998,
         "emotes": {
           "❤": 21,
           "🙌": 33,
@@ -12986,7 +12986,7 @@
         "totalVotes": 8373,
         "totalSubs": 21,
         "totalChatMessages": 998,
-        "totalStreamMinutes": 6616,
+        "totalStreamMinutes": 6621,
         "emotes": {
           "❤": 62,
           "🙌": 40,
@@ -16311,8 +16311,8 @@
       "stats": {
         "totalVotes": 5312,
         "totalSubs": 27,
-        "totalChatMessages": 2831,
-        "totalStreamMinutes": 9053,
+        "totalChatMessages": 2836,
+        "totalStreamMinutes": 9058,
         "emotes": {
           "👋": 67,
           "⚠": 2,
@@ -16472,21 +16472,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790031804005
+        "lastChatAt": 1790032347754
       },
       "chatMemory": [
-        {
-          "user": "onyxouroboros",
-          "msg": "Oh nope, nevermind, the echo was because Ape raided into you"
-        },
-        {
-          "user": "senseibulrog",
-          "msg": "it's all us, you're doin fine KEK"
-        },
-        {
-          "user": "onyxouroboros",
-          "msg": "I forgot if you navigate to a different page that it leaves a mini window of the page open"
-        },
         {
           "user": "onyxouroboros",
           "msg": "With audio unmuted"
@@ -16514,6 +16502,18 @@
         {
           "user": "flower4803",
           "msg": "ooo, nice, thanks very much"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/f8732c23208412bc26dc6f05f0d9677334d9637a33e8f40e95ccb37a5b1cf079"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "recycle trash, earn some credit"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@peter_force, you spent 5 trash digging up an empty hole! You can try again after 5 minutes."
         }
       ],
       "customCommands": {
@@ -16533,8 +16533,8 @@
       "lastStreamEndedAt": 1789958668683,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
-      "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” keep the vibe high‑energy, urge more stream hours to stay Verified, and shout “Something.”",
-      "_profileAtCount": 2673,
+      "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” keep the vibe high‑energy",
+      "_profileAtCount": 2834,
       "nudgedAt": 1787282253705,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -18296,8 +18296,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 908,
-        "totalStreamMinutes": 1817,
+        "totalChatMessages": 909,
+        "totalStreamMinutes": 1822,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -18321,16 +18321,12 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 7,
-        "lastChatAt": 1790031894169,
+        "lastChatAt": 1790032172191,
         "lastSendFailAt": 1789999613655,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1789999370161
       },
       "chatMemory": [
-        {
-          "user": "poderosobot",
-          "msg": "Get Poderosobot for your stream! -> https://poderosobot.com"
-        },
         {
           "user": "poderosobot",
           "msg": "Poderosobot brings chat commands, community points, rewards, games, alerts, and more to the stream. Type !commands to see what you can use!"
@@ -18366,6 +18362,10 @@
         {
           "user": "poderosobot",
           "msg": "Get Poderosobot for your stream! -> https://poderosobot.com"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "Poderosobot brings chat commands, community points, rewards, games, alerts, and more to the stream. Type !commands to see what you can use!"
         }
       ],
       "customCommands": {},
@@ -19873,8 +19873,8 @@
     }
   },
   "auth": {
-    "accessToken": "d70feddd2f49183195d873f9681f1afe",
-    "refreshToken": "e546df7f786fdc8d8395ccb7f668a1a8",
+    "accessToken": "fc881b75416e66e13339cfc27ed46c90",
+    "refreshToken": "c16fd8f93443e16264029f345778f99b",
     "sessionToken": "75dfd6710a5364a5a2d0604d62da37f7",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
