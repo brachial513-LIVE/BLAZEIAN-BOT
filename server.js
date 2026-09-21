@@ -47,6 +47,10 @@ const LIGHT_REASONING = /gpt-oss/i.test(AI_MODEL_LIGHT) ? { reasoning_effort: "l
 // Same idea for the heavy @-reply model: if it's a gpt-oss reasoning model, keep replies snappy and
 // token-light with low reasoning effort (chat replies don't need deep chain-of-thought).
 const HEAVY_REASONING = /gpt-oss/i.test(AI_MODEL) ? { reasoning_effort: "low" } : {};
+// Only fire an AI vote shoutout for sizable vote drops. At 80 channels the constant small votes (1-10)
+// were the single biggest drain on the light model's daily token budget. Votes ALWAYS still count toward
+// stats / the leaderboard (done before this gate); only the chat shoutout is skipped. Tune via env.
+const VOTE_SHOUT_MIN = Number(process.env.VOTE_SHOUT_MIN) || 40;
 // Live web search (optional) — set TAVILY_API_KEY in Render (tavily.com: 1,000 free API credits/month,
 // no credit card required, built for AI-agent use cases) to let the bot answer real "what would I
 // Google" questions (scores, news, prices, etc.) instead of just admitting it can't. Without this
@@ -3135,6 +3139,7 @@ async function handleEvent(message) {
     const amount = payload.amount || 1;
     ch.stats.totalVotes += amount; saveChannels();
     setReaction(channelId, "vote", user);
+    if (amount < VOTE_SHOUT_MIN) return; // below threshold: vote already counted above, just skip the AI shoutout to save tokens
     if (shouldCelebrate(ch, channelId)) {
       const ai = await aiShout(ch, `${user} just voted ${amount} for ${ch.username}! Thank them warmly for the support.`, { addName: user });
       await sendChatT(channelId, ai || getRandom(getMsg(channelId).vote(user, amount)));
