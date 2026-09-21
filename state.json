@@ -9012,7 +9012,7 @@
         "totalVotes": 8546,
         "totalSubs": 99,
         "totalChatMessages": 1247,
-        "totalStreamMinutes": 4309,
+        "totalStreamMinutes": 4314,
         "emotes": {
           "❤": 41,
           "🙌": 93,
@@ -10158,8 +10158,8 @@
       "stats": {
         "totalVotes": 23130,
         "totalSubs": 133,
-        "totalChatMessages": 2535,
-        "totalStreamMinutes": 13730,
+        "totalChatMessages": 2538,
+        "totalStreamMinutes": 13735,
         "emotes": {
           "❤": 110,
           "🙌": 184,
@@ -10197,7 +10197,7 @@
           "🎮": 4,
           "🚀": 3,
           "💜": 3,
-          "e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f": 13,
+          "e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f": 16,
           "8f198fe9-5250-4aaa-8783-ce311112d551": 5,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 15,
@@ -10347,21 +10347,9 @@
           "da86e8da-e5d5-4296-8477-eb57f206e441": "WTF"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789974589162
+        "lastChatAt": 1789975142805
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @0xscheun! How generous!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @seventh is raiding with a party of 3! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "seventh",
-          "msg": "boss"
-        },
         {
           "user": "seventh",
           "msg": "subli ak damdama boss"
@@ -10389,6 +10377,18 @@
         {
           "user": "seventh",
           "msg": "HAHAHAHAH"
+        },
+        {
+          "user": "fartvader",
+          "msg": "lesgoo raiiddd..sorry late haha"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f] [emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f] [emote:e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "naalala ko yung chocobo dungeon sa game na yan"
         }
       ],
       "customCommands": {},
@@ -19807,6 +19807,11 @@
       "note": "They joke about cooking, food, and casual chat, often using playful emojis and light‑hearted teasing.",
       "at": 1789961708481,
       "n": 1
+    },
+    "panipeys": {
+      "note": "They greet viewers warmly, often ask for chat participation, and enjoy playful, friendly interactions during streams.",
+      "at": 1789974908566,
+      "n": 1
     }
   },
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 20 votes = 1 entry · 1 sub = 3 entries · 1 gifted sub = 5 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 600 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\nThe current round is the 17th giveaway, running 27th July to 2nd August. A new round starts each week.",
@@ -19867,8 +19872,8 @@
     }
   },
   "auth": {
-    "accessToken": "b36af810412e355b9a3caf2936adf821",
-    "refreshToken": "28c3d4c310e5fed2253b930b95f2d844",
+    "accessToken": "07688c4cf0fbcc15e75b00f348ce0836",
+    "refreshToken": "534081e88aec7d9c2383081264e3cf9f",
     "sessionToken": "7be81dccc73ff4c857d03f08fba2a6cd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
