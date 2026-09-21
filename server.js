@@ -1874,7 +1874,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
 
   let searchBlock = "";
   const cryptoBlock = await buildCryptoPriceBlock(userMessage);
-  if (TAVILY_API_KEY && !blazeStatusNote && !cryptoBlock) {
+  if (TAVILY_API_KEY && !blazeStatusNote && !cryptoBlock && !looksLikeGiveawayQuery(userMessage) && !looksLikeCrewStatsQuery(userMessage) && !looksLikeWebsiteInfoQuery(userMessage)) {
     const keywordHit = looksLikeSearchQuery(userMessage);
     const plan = await planWebSearch(userMessage, ch);
     const wants = keywordHit || plan.needed;
@@ -1924,7 +1924,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
     text = text.replace(/^["']|["']$/g, "").replace(new RegExp("^@?" + username + "[,:\\s]+", "i"), "").trim();
     text = stripCannedRedirect(stripMetaPreamble(text));
     if (!text) return null;
-    if (foreignStreamerNamed(text, ch, userMessage, username)) {
+    if (foreignStreamerNamed(text, ch, userMessage + " " + giveawayBlock + " " + crewStatsBlock + " " + websiteInfoBlock + " " + botNote + " " + blazeStatusNote, username)) {
       console.log(`[AI] dropped a reply naming an unrelated streamer in ${ch?.username}'s channel`);
       return null;
     }
