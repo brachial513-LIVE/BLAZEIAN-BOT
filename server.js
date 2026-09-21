@@ -1620,31 +1620,32 @@ function buildCrewStatsBlock() {
 // even after being shown the link, still couldn't confirm anything about it. Same pattern as CREW
 // STATS: give it the real facts so it never has to guess or deny.
 const WEBSITE_INFO_KEYWORDS = /\b(website|homepage|dashboard|comics?)\b/i;
-// LIVE CRYPTO PRICE — a language model has NO real price feed and will happily invent a plausible-but-
-// wrong number (proven live: asked AVAX, it guessed ~$8 several different ways while the real price was
-// $11+). CoinGecko's public simple/price endpoint returns the real spot price with no API key, so we
-// fetch it BEFORE the model answers and hand it the true figure to phrase — same pattern as the
-// verification / crew-stats blocks. Only well-known coins are mapped; anything else (including the crew's
-// own $GMC crowns, which are not a listed market coin) falls through to an honest "can't pull that live".
-const COIN_IDS = {
-  btc: "bitcoin", bitcoin: "bitcoin",
-  eth: "ethereum", ethereum: "ethereum",
-  avax: "avalanche-2", avalanche: "avalanche-2",
-  sol: "solana", solana: "solana",
-  bnb: "binancecoin",
-  xrp: "ripple", ripple: "ripple",
-  ada: "cardano", cardano: "cardano",
-  doge: "dogecoin", dogecoin: "dogecoin",
-  shib: "shiba-inu",
-  pepe: "pepe",
-  matic: "matic-network", pol: "matic-network", polygon: "matic-network",
-  dot: "polkadot", polkadot: "polkadot",
-  ltc: "litecoin", litecoin: "litecoin",
-  link: "chainlink", chainlink: "chainlink",
-  trx: "tron", tron: "tron",
-  ton: "the-open-network",
-  sui: "sui",
-  usdc: "usd-coin", usdt: "tether", tether: "tether",
+// LIVE CRYPTO PRICE — a language model has NO real price feed and will invent a plausible-but-wrong
+// number (proven live: asked AVAX, it guessed ~$8 while the real price was $11+). We fetch the real spot
+// price BEFORE the model answers and hand it the true figure to phrase — same pattern as the verification
+// / crew-stats blocks. Source is Coinbase's public spot API: keyless AND reliable from datacenter IPs.
+// (CoinGecko's free endpoint blocks cloud/Render IPs, so the first version always hit its honest "can't
+// pull it" fallback live.) Only well-known coins are mapped; anything else (including the crew's own $GMC
+// crowns, which are not a listed market coin) falls through to an honest "can't pull that live".
+const COIN_SYM = {
+  btc: "BTC", bitcoin: "BTC",
+  eth: "ETH", ethereum: "ETH",
+  avax: "AVAX", avalanche: "AVAX",
+  sol: "SOL", solana: "SOL",
+  bnb: "BNB",
+  xrp: "XRP", ripple: "XRP",
+  ada: "ADA", cardano: "ADA",
+  doge: "DOGE", dogecoin: "DOGE",
+  shib: "SHIB",
+  pepe: "PEPE",
+  matic: "MATIC", pol: "MATIC", polygon: "MATIC",
+  dot: "DOT", polkadot: "DOT",
+  ltc: "LTC", litecoin: "LTC",
+  link: "LINK", chainlink: "LINK",
+  trx: "TRX", tron: "TRX",
+  ton: "TON",
+  sui: "SUI",
+  usdc: "USDC", usdt: "USDT", tether: "USDT",
 };
 // Only treat it as a price question when a price cue is present, so "I came from the AVAX raid" won't fire.
 const PRICE_CUE_RE = /price|prices|cost|worth|value|how much|kurs|kostet|kosten|wert|preis|preise|dollar|euro|usd|eur/i;
@@ -1652,48 +1653,50 @@ function coinsInMessage(msg) {
   const words = String(msg || "").toLowerCase().match(/[a-z]+/g) || [];
   const out = [], seen = new Set();
   for (const w of words) {
-    const id = COIN_IDS[w];
-    if (id && !seen.has(id)) { seen.add(id); out.push({ token: w.toUpperCase(), id }); }
+    const sym = COIN_SYM[w];
+    if (sym && !seen.has(sym)) { seen.add(sym); out.push(sym); }
   }
   return out;
 }
 function looksLikeCryptoPriceQuery(msg) {
   return coinsInMessage(msg).length > 0 && PRICE_CUE_RE.test(String(msg || ""));
 }
+async function coinbaseSpot(sym, cur) {
+  try {
+    const r = await axios.get("https://api.coinbase.com/v2/prices/" + sym + "-" + cur + "/spot", { timeout: 6000 });
+    const amt = parseFloat(r.data && r.data.data && r.data.data.amount);
+    return isFinite(amt) ? amt : null;
+  } catch (e) {
+    return null;
+  }
+}
 async function buildCryptoPriceBlock(msg) {
   const wanted = looksLikeCryptoPriceQuery(msg) ? coinsInMessage(msg) : [];
   if (!wanted.length) return "";
-  try {
-    const ids = wanted.map(w => w.id).join(",");
-    const res = await axios.get("https://api.coingecko.com/api/v3/simple/price", {
-      params: { ids, vs_currencies: "usd,eur", include_24hr_change: "true" },
-      timeout: 7000,
-    });
-    const data = res.data || {};
-    let body = "";
-    for (const w of wanted) {
-      const d = data[w.id];
-      if (!d || typeof d.usd !== "number") {
-        body += `${w.token}: no live price available right now
+  let body = "", got = 0;
+  for (const sym of wanted) {
+    const [usd, eur] = await Promise.all([coinbaseSpot(sym, "USD"), coinbaseSpot(sym, "EUR")]);
+    if (usd == null && eur == null) {
+      body += `${sym}: no live price available right now
 `;
-        continue;
-      }
-      const chg = typeof d.usd_24h_change === "number"
-        ? ` (${d.usd_24h_change >= 0 ? "+" : ""}${d.usd_24h_change.toFixed(1)}% 24h)`
-        : "";
-      body += `${w.token}: $${d.usd} / €${d.eur}${chg}
-`;
+      continue;
     }
-    return `
-
-LIVE CRYPTO PRICE (real spot price fetched just now from CoinGecko — use ONLY these exact numbers, phrased in the reply's own language; NEVER guess, round wildly, or use any price from your training data; this is the truth as of right now. Give the price the person asked for, naturally, in one short line):
-${body}If a coin above says "no live price available", tell them plainly you can't pull that one right now — never invent a number.`;
-  } catch (e) {
-    console.log("[PRICE] CoinGecko error:", (e.response && e.response.status) || e.message);
+    got++;
+    const parts = [];
+    if (usd != null) parts.push(`$${usd}`);
+    if (eur != null) parts.push(`€${eur}`);
+    body += `${sym}: ${parts.join(" / ")}
+`;
+  }
+  if (!got) {
     return `
 
 You tried to fetch the live crypto price the person asked about, but the price source didn't respond just now. Tell them honestly you can't pull it this moment — do NOT guess or use a number from memory.`;
   }
+  return `
+
+LIVE CRYPTO PRICE (real spot price fetched just now from Coinbase — use ONLY these exact numbers, phrased in the reply's own language; NEVER guess, round wildly, or use any price from your training data; this is the truth as of right now. Give the price the person asked for, naturally, in one short line):
+${body}If a coin above says "no live price available", tell them plainly you can't pull that one right now — never invent a number.`;
 }
 
 function looksLikeWebsiteInfoQuery(msg) { return WEBSITE_INFO_KEYWORDS.test(msg || ""); }
