@@ -1620,6 +1620,82 @@ function buildCrewStatsBlock() {
 // even after being shown the link, still couldn't confirm anything about it. Same pattern as CREW
 // STATS: give it the real facts so it never has to guess or deny.
 const WEBSITE_INFO_KEYWORDS = /\b(website|homepage|dashboard|comics?)\b/i;
+// LIVE CRYPTO PRICE — a language model has NO real price feed and will happily invent a plausible-but-
+// wrong number (proven live: asked AVAX, it guessed ~$8 several different ways while the real price was
+// $11+). CoinGecko's public simple/price endpoint returns the real spot price with no API key, so we
+// fetch it BEFORE the model answers and hand it the true figure to phrase — same pattern as the
+// verification / crew-stats blocks. Only well-known coins are mapped; anything else (including the crew's
+// own $GMC crowns, which are not a listed market coin) falls through to an honest "can't pull that live".
+const COIN_IDS = {
+  btc: "bitcoin", bitcoin: "bitcoin",
+  eth: "ethereum", ethereum: "ethereum",
+  avax: "avalanche-2", avalanche: "avalanche-2",
+  sol: "solana", solana: "solana",
+  bnb: "binancecoin",
+  xrp: "ripple", ripple: "ripple",
+  ada: "cardano", cardano: "cardano",
+  doge: "dogecoin", dogecoin: "dogecoin",
+  shib: "shiba-inu",
+  pepe: "pepe",
+  matic: "matic-network", pol: "matic-network", polygon: "matic-network",
+  dot: "polkadot", polkadot: "polkadot",
+  ltc: "litecoin", litecoin: "litecoin",
+  link: "chainlink", chainlink: "chainlink",
+  trx: "tron", tron: "tron",
+  ton: "the-open-network",
+  sui: "sui",
+  usdc: "usd-coin", usdt: "tether", tether: "tether",
+};
+// Only treat it as a price question when a price cue is present, so "I came from the AVAX raid" won't fire.
+const PRICE_CUE_RE = /price|prices|cost|worth|value|how much|kurs|kostet|kosten|wert|preis|preise|dollar|euro|usd|eur/i;
+function coinsInMessage(msg) {
+  const words = String(msg || "").toLowerCase().match(/[a-z]+/g) || [];
+  const out = [], seen = new Set();
+  for (const w of words) {
+    const id = COIN_IDS[w];
+    if (id && !seen.has(id)) { seen.add(id); out.push({ token: w.toUpperCase(), id }); }
+  }
+  return out;
+}
+function looksLikeCryptoPriceQuery(msg) {
+  return coinsInMessage(msg).length > 0 && PRICE_CUE_RE.test(String(msg || ""));
+}
+async function buildCryptoPriceBlock(msg) {
+  const wanted = looksLikeCryptoPriceQuery(msg) ? coinsInMessage(msg) : [];
+  if (!wanted.length) return "";
+  try {
+    const ids = wanted.map(w => w.id).join(",");
+    const res = await axios.get("https://api.coingecko.com/api/v3/simple/price", {
+      params: { ids, vs_currencies: "usd,eur", include_24hr_change: "true" },
+      timeout: 7000,
+    });
+    const data = res.data || {};
+    let body = "";
+    for (const w of wanted) {
+      const d = data[w.id];
+      if (!d || typeof d.usd !== "number") {
+        body += `${w.token}: no live price available right now
+`;
+        continue;
+      }
+      const chg = typeof d.usd_24h_change === "number"
+        ? ` (${d.usd_24h_change >= 0 ? "+" : ""}${d.usd_24h_change.toFixed(1)}% 24h)`
+        : "";
+      body += `${w.token}: $${d.usd} / €${d.eur}${chg}
+`;
+    }
+    return `
+
+LIVE CRYPTO PRICE (real spot price fetched just now from CoinGecko — use ONLY these exact numbers, phrased in the reply's own language; NEVER guess, round wildly, or use any price from your training data; this is the truth as of right now. Give the price the person asked for, naturally, in one short line):
+${body}If a coin above says "no live price available", tell them plainly you can't pull that one right now — never invent a number.`;
+  } catch (e) {
+    console.log("[PRICE] CoinGecko error:", (e.response && e.response.status) || e.message);
+    return `
+
+You tried to fetch the live crypto price the person asked about, but the price source didn't respond just now. Tell them honestly you can't pull it this moment — do NOT guess or use a number from memory.`;
+  }
+}
+
 function looksLikeWebsiteInfoQuery(msg) { return WEBSITE_INFO_KEYWORDS.test(msg || ""); }
 function buildWebsiteInfoBlock() {
   const titles = COMICS.map(c => c.title).join(" | ") || "none published yet";
@@ -1725,7 +1801,8 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
     : "";
 
   let searchBlock = "";
-  if (TAVILY_API_KEY && !blazeStatusNote) {
+  const cryptoBlock = await buildCryptoPriceBlock(userMessage);
+  if (TAVILY_API_KEY && !blazeStatusNote && !cryptoBlock) {
     const keywordHit = looksLikeSearchQuery(userMessage);
     const plan = await planWebSearch(userMessage, ch);
     const wants = keywordHit || plan.needed;
@@ -1762,7 +1839,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
         { role: "system", content: BOT_PERSONA + channelContext(ch) +
           `\n\nRECENT CHAT is provided so you understand the ongoing conversation. Reply to the LAST message from ${username} in the natural flow — reference what was just said if it's relevant, don't repeat yourself, and don't answer as if you have no context.` },
         ...historyMsgs,
-        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${blazeStatusNote}${searchBlock}${crewStatsBlock}${websiteInfoBlock}${giveawayBlock}\n\nReply in character, in one short chat message. You are talking TO ${username} right now — if you name or address the person you're replying to, use "${username}" (NEVER the streamer's name in their place; ${username} and the streamer ${channelName} are usually different people). Support ${channelName} as the channel you're in, and don't name other streamers unprompted.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${blazeStatusNote}${searchBlock}${crewStatsBlock}${websiteInfoBlock}${giveawayBlock}${cryptoBlock}\n\nReply in character, in one short chat message. You are talking TO ${username} right now — if you name or address the person you're replying to, use "${username}" (NEVER the streamer's name in their place; ${username} and the streamer ${channelName} are usually different people). Support ${channelName} as the channel you're in, and don't name other streamers unprompted.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
       ],
       max_tokens: 400, // headroom so gpt-oss reasoning (counts against this) can't truncate the reply mid-sentence; this runs on the heavy model's own budget, so no shoutout-budget impact
       // 0.9 gave the most "alive" replies but also let language-mixing slip through more often
