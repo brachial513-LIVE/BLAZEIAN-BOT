@@ -4633,7 +4633,7 @@
         "totalVotes": 10094,
         "totalSubs": 48,
         "totalChatMessages": 1856,
-        "totalStreamMinutes": 9758,
+        "totalStreamMinutes": 9763,
         "emotes": {
           "✨": 39,
           "🖥": 22,
@@ -9876,7 +9876,7 @@
         "totalVotes": 13187,
         "totalSubs": 53,
         "totalChatMessages": 2246,
-        "totalStreamMinutes": 4019,
+        "totalStreamMinutes": 4024,
         "emotes": {
           "❤": 157,
           "🙌": 128,
@@ -12986,7 +12986,7 @@
         "totalVotes": 8348,
         "totalSubs": 21,
         "totalChatMessages": 988,
-        "totalStreamMinutes": 6526,
+        "totalStreamMinutes": 6531,
         "emotes": {
           "❤": 62,
           "🙌": 40,
@@ -16311,8 +16311,8 @@
       "stats": {
         "totalVotes": 5269,
         "totalSubs": 27,
-        "totalChatMessages": 2756,
-        "totalStreamMinutes": 8963,
+        "totalChatMessages": 2757,
+        "totalStreamMinutes": 8968,
         "emotes": {
           "👋": 67,
           "⚠": 2,
@@ -16472,13 +16472,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790026679936
+        "lastChatAt": 1790026715200
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/840264ca422f9c5b5b4b6d0aab31617baf4d97fe6c2dc04eb47ebf73dd2164c4"
-        },
         {
           "user": "onyxouroboros",
           "msg": "mystery fish promo pack"
@@ -16514,6 +16510,10 @@
         {
           "user": "nashvillelou",
           "msg": "hype!"
+        },
+        {
+          "user": "nashvillelou",
+          "msg": "hi"
         }
       ],
       "customCommands": {
@@ -17877,7 +17877,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 50,
-        "totalStreamMinutes": 2807,
+        "totalStreamMinutes": 2812,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -18296,8 +18296,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 880,
-        "totalStreamMinutes": 1727,
+        "totalChatMessages": 881,
+        "totalStreamMinutes": 1732,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -18321,16 +18321,12 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 7,
-        "lastChatAt": 1790026472927,
+        "lastChatAt": 1790026770977,
         "lastSendFailAt": 1789999613655,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1789999370161
       },
       "chatMemory": [
-        {
-          "user": "poderosobot",
-          "msg": "Get Poderosobot for your stream! -> https://poderosobot.com"
-        },
         {
           "user": "poderosobot",
           "msg": "Challenge another viewer with !duel @username amount. They have 2 minutes to accept with !accept or decline with !decline."
@@ -18366,6 +18362,10 @@
         {
           "user": "poderosobot",
           "msg": "Get Poderosobot for your stream! -> https://poderosobot.com"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "Poderosobot brings chat commands, community points, rewards, games, alerts, and more to the stream. Type !commands to see what you can use!"
         }
       ],
       "customCommands": {},
@@ -18518,7 +18518,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 33,
-        "totalStreamMinutes": 60,
+        "totalStreamMinutes": 65,
         "emotes": {
           "❤": 10,
           "🙌": 5,
@@ -19873,8 +19873,8 @@
     }
   },
   "auth": {
-    "accessToken": "bd335f212ab8252190b5c652b51bc4e1",
-    "refreshToken": "40b214804cf3d9ddf8089d04537adb63",
+    "accessToken": "01e12dac5e36e3c1b7672178109addc1",
+    "refreshToken": "5f786f10e9d96eba673c2f3eb0f44f7f",
     "sessionToken": "75dfd6710a5364a5a2d0604d62da37f7",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
