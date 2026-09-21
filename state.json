@@ -1350,7 +1350,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 21189,
+        "totalVotes": 21239,
         "totalSubs": 59,
         "totalChatMessages": 28071,
         "totalStreamMinutes": 2879,
@@ -10159,7 +10159,7 @@
         "totalVotes": 23150,
         "totalSubs": 134,
         "totalChatMessages": 2543,
-        "totalStreamMinutes": 13775,
+        "totalStreamMinutes": 13780,
         "emotes": {
           "❤": 110,
           "🙌": 185,
@@ -10836,8 +10836,8 @@
       "stats": {
         "totalVotes": 4390,
         "totalSubs": 32,
-        "totalChatMessages": 253,
-        "totalStreamMinutes": 6101,
+        "totalChatMessages": 254,
+        "totalStreamMinutes": 6102,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -10883,13 +10883,9 @@
           "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789977468546
+        "lastChatAt": 1789977602660
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 6 votes, @smrt!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 6 votes, @smrt!"
@@ -10925,6 +10921,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: PUBG pc | JUJUTSU KAISEN collaboration! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -10937,12 +10937,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "PUBG pc | JUJUTSU KAISEN collaboration — Dota 2",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to pr0ff’s stream—Ragnarok grind, PUGs, endless “DOTES” vibes! The chat loves “thanks” after a love fest, gifts a Sub to celebrate milestones, and throws 🔥 emojis everywhere. pr0ff thrives on community hype, “gift a Sub” moments, and “thanks” shoutouts. Keep the energy high, keep the 🔥 flowing!",
       "_profileAtCount": 240,
       "lastStreamInfo": "PUBG pc | JUJUTSU KAISEN collaboration — Dota 2",
-      "lastStreamEndedAt": 1789977449784,
+      "lastStreamEndedAt": 1789977602277,
       "nudgedAt": 1786524138354,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -13302,14 +13302,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 25465,
+        "totalVotes": 25479,
         "totalSubs": 46,
-        "totalChatMessages": 4995,
+        "totalChatMessages": 4997,
         "totalStreamMinutes": 9974,
         "emotes": {
           "❤": 99,
           "🙌": 84,
-          "🗳": 798,
+          "🗳": 801,
           "🔴": 77,
           "🎉": 140,
           "🏃": 1,
@@ -13585,17 +13585,9 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789975928103
+        "lastChatAt": 1789977640250
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 100 votes, @Chaotic!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 200 votes, @entropy!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 7 votes, @CRAFT!"
@@ -13627,6 +13619,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 14 votes, @lunaria!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @lunaria just gave 14 vote(s) (total: 14)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -19874,8 +19874,8 @@
     }
   },
   "auth": {
-    "accessToken": "07688c4cf0fbcc15e75b00f348ce0836",
-    "refreshToken": "534081e88aec7d9c2383081264e3cf9f",
+    "accessToken": "22ab36914624d5814485802f391fbb1a",
+    "refreshToken": "4cbf9dee83f772ae45768b5b3b8a74ea",
     "sessionToken": "7be81dccc73ff4c857d03f08fba2a6cd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
