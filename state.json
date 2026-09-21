@@ -4975,14 +4975,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 28970,
+        "totalVotes": 29070,
         "totalSubs": 82,
-        "totalChatMessages": 11786,
+        "totalChatMessages": 11787,
         "totalStreamMinutes": 7051,
         "emotes": {
           "❤": 197,
           "🙌": 319,
-          "🗳": 1376,
+          "🗳": 1379,
           "✌": 10,
           "😊": 10,
           "👍": 15,
@@ -5472,13 +5472,9 @@
           "😕": "😕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789982164766
+        "lastChatAt": 1789982982615
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "Hugs with a puppy"
@@ -5514,6 +5510,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @fluffy just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @octo just gave 100 vote(s) (total: 200)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -12147,15 +12147,15 @@
       "stats": {
         "totalVotes": 5709,
         "totalSubs": 39,
-        "totalChatMessages": 1364,
-        "totalStreamMinutes": 3671,
+        "totalChatMessages": 1369,
+        "totalStreamMinutes": 3676,
         "emotes": {
           "❤": 80,
           "🙌": 64,
           "📴": 30,
           "👋": 30,
           "🎁": 50,
-          "🗳": 171,
+          "🗳": 174,
           "⚠": 1,
           "🎯": 1,
           "🔴": 31,
@@ -12250,29 +12250,9 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789982598248
+        "lastChatAt": 1789983159183
       },
       "chatMemory": [
-        {
-          "user": "just_for_lucas",
-          "msg": "gg's bro"
-        },
-        {
-          "user": "ruri666",
-          "msg": "thanks bro"
-        },
-        {
-          "user": "ruri666",
-          "msg": "ggs ggs @just_for_lucas"
-        },
-        {
-          "user": "ruri666",
-          "msg": "thanks a lot."
-        },
-        {
-          "user": "ruri666",
-          "msg": "welcome guys"
-        },
         {
           "user": "ruri666",
           "msg": "hello hello"
@@ -12292,6 +12272,26 @@
         {
           "user": "fartvader",
           "msg": "gl with the matches Ruri!!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 20 votes, @b1injaninja!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @b1injaninja just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "ruri666",
+          "msg": "lets gooooo @FartVader"
+        },
+        {
+          "user": "ruri666",
+          "msg": "gm gm guys"
+        },
+        {
+          "user": "ruri666",
+          "msg": "thanks for the votes"
         }
       ],
       "customCommands": {},
@@ -19874,8 +19874,8 @@
     }
   },
   "auth": {
-    "accessToken": "0dded632f9b5527744fe9a853bfc2fa8",
-    "refreshToken": "5e9417e3098998d449142708563164ac",
+    "accessToken": "6ac45b83c1578731da8b6ea792632648",
+    "refreshToken": "c46f7f5d9a3f7f70b7c124258a548f7c",
     "sessionToken": "7be81dccc73ff4c857d03f08fba2a6cd",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
