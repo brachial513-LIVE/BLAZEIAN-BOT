@@ -1115,14 +1115,27 @@ async function unfollowChannel(channelId) {
   }
 }
 
+// Free, keyless translation via MyMemory. Google's old translate_a/single endpoint now returns an
+// anti-abuse "Sorry" HTML page, which silently broke BOTH /admin/announce translation and !explain
+// (proven live: announce logged de/fr but every channel still got English). MyMemory works fine from
+// datacenter IPs and auto-detects the source language via the literal source code "Autodetect", so one
+// path covers announce (English -> channel language) and !explain (any chat language -> target). The
+// optional MYMEMORY_EMAIL env raises the free daily quota from 5,000 to 50,000 characters.
+const MYMEMORY_EMAIL = process.env.MYMEMORY_EMAIL || "";
 async function translateText(text, targetLangCode) {
   try {
-    const encoded = encodeURIComponent(text);
-    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLangCode}&dt=t&q=${encoded}`;
-    const res = await axios.get(url, { timeout: 5000 });
-    const parts = res.data[0];
-    if (!parts) return null;
-    return parts.map(p => p[0]).filter(Boolean).join("");
+    const q = String(text || "").trim();
+    const tl = String(targetLangCode || "").trim();
+    if (!q || !tl) return null;
+    const url = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(q)
+      + "&langpair=" + encodeURIComponent("Autodetect|" + tl)
+      + (MYMEMORY_EMAIL ? "&de=" + encodeURIComponent(MYMEMORY_EMAIL) : "");
+    const res = await axios.get(url, { timeout: 6000 });
+    const d = res.data || {};
+    const out = d.responseData && d.responseData.translatedText;
+    // MyMemory signals quota/errors as an ALL-CAPS message in translatedText (and/or quotaFinished).
+    if (!out || d.quotaFinished === true || /^(MYMEMORY WARNING|QUERY LENGTH|PLEASE SELECT|INVALID)/i.test(out)) return null;
+    return out;
   } catch (e) {
     console.log("Translate error:", e.message);
     return null;
