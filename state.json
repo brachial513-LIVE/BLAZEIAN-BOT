@@ -1888,7 +1888,7 @@
         "totalVotes": 26979,
         "totalSubs": 218,
         "totalChatMessages": 11791,
-        "totalStreamMinutes": 27754,
+        "totalStreamMinutes": 27759,
         "emotes": {
           "📊": 3,
           "🔥": 512,
@@ -6363,7 +6363,7 @@
         "totalVotes": 7565,
         "totalSubs": 83,
         "totalChatMessages": 836,
-        "totalStreamMinutes": 18367,
+        "totalStreamMinutes": 18372,
         "emotes": {
           "❤": 125,
           "🙌": 40,
@@ -8834,7 +8834,7 @@
         "totalVotes": 9755,
         "totalSubs": 198,
         "totalChatMessages": 480,
-        "totalStreamMinutes": 13079,
+        "totalStreamMinutes": 13084,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -13308,7 +13308,7 @@
       "stats": {
         "totalVotes": 26283,
         "totalSubs": 46,
-        "totalChatMessages": 5072,
+        "totalChatMessages": 5074,
         "totalStreamMinutes": 9974,
         "emotes": {
           "❤": 99,
@@ -13591,17 +13591,9 @@
           "🤗": "🤗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790009009373
+        "lastChatAt": 1790009324305
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:12395b89-58db-492b-9372-dc3fac31ea09]"
-        },
-        {
-          "user": "the_gwc",
-          "msg": "5 and a half hours later... IVE HIT AFFILIATE!"
-        },
         {
           "user": "the_gwc",
           "msg": "it finally refreshed and ive got it"
@@ -13633,6 +13625,14 @@
         {
           "user": "octo",
           "msg": "i dont wish it on my worst enemy"
+        },
+        {
+          "user": "octo",
+          "msg": "but you miss 100% of the shots you dont take so might as well lay some lead down"
+        },
+        {
+          "user": "octo",
+          "msg": "noxx pick a number between 1 and 30"
         }
       ],
       "customCommands": {},
@@ -14916,9 +14916,9 @@
       "language": "en",
       "joinedAt": 1785809834886,
       "stats": {
-        "totalVotes": 101508,
+        "totalVotes": 101648,
         "totalSubs": 26,
-        "totalChatMessages": 1111,
+        "totalChatMessages": 1112,
         "totalStreamMinutes": 2260,
         "emotes": {
           "💚": 1,
@@ -14935,7 +14935,7 @@
           "👍": 2,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 213,
+          "🗳": 216,
           "🙌": 39,
           "✌": 1,
           "📴": 20,
@@ -15037,16 +15037,12 @@
           "0ed626c2-6a83-4232-995f-a3e9742000cb": "OWNYOURSTREAM"
         },
         "sendFailStreak": 206,
-        "lastChatAt": 1789986221609,
+        "lastChatAt": 1790009035720,
         "lastSendFailAt": 1789986219606,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1789986219371
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "ur welcome brother see yah [emote:0ed626c2-6a83-4232-995f-a3e9742000cb]"
-        },
         {
           "user": "fartvader",
           "msg": "im gonna be on lurk mode buddy."
@@ -15082,6 +15078,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Sinnerz just gave 700 vote(s) (total: 700)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 140 vote(s) (total: 140)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -18767,8 +18767,8 @@
     },
     "fartvader": {
       "note": "Energetic gamer who loves Ghost Recon Wildlands, Palworld, Dota, Hero Siege, Roblox battle‑royale, and always brings playful, upbeat humor.",
-      "at": 1789869968516,
-      "n": 46
+      "at": 1790009149973,
+      "n": 47
     },
     "fluffy": {
       "note": "Fluffy is playful, enthusiastic, loves gaming—especially Jackbox—and music, and jokes warmly while engaging warmly with the community.",
@@ -19832,8 +19832,8 @@
     }
   },
   "auth": {
-    "accessToken": "e20d622097c434aefd3c07921aa5ca01",
-    "refreshToken": "320d53c5459fb9496c4d8d477ee34927",
+    "accessToken": "ef871b71821506aa5c871c0573f5bced",
+    "refreshToken": "11adf7ff56bfeacd4b5bfc537323d87a",
     "sessionToken": "5c79785a22d53653e091bbd724c37585",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
