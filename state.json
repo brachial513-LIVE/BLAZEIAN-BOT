@@ -8591,7 +8591,7 @@
         "totalVotes": 12139,
         "totalSubs": 51,
         "totalChatMessages": 2254,
-        "totalStreamMinutes": 15614,
+        "totalStreamMinutes": 15619,
         "emotes": {
           "🔥": 639,
           "🔴": 200,
@@ -9211,7 +9211,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 73,
-        "totalStreamMinutes": 6739,
+        "totalStreamMinutes": 6744,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -10191,14 +10191,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 23895,
-        "totalSubs": 143,
-        "totalChatMessages": 2652,
+        "totalSubs": 144,
+        "totalChatMessages": 2653,
         "totalStreamMinutes": 14129,
         "emotes": {
           "❤": 116,
-          "🙌": 200,
+          "🙌": 201,
           "💚": 3,
-          "🔥": 86,
+          "🔥": 88,
           "🗳": 741,
           "🔴": 117,
           "🎉": 152,
@@ -10383,13 +10383,9 @@
           "5dd3fe5b-438a-450c-90a0-892f4c63365d": "BASICPYRO3"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790082042702
+        "lastChatAt": 1790086229075
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "cute kitties"
-        },
         {
           "user": "piggymoto",
           "msg": "Hello ninoooong!"
@@ -10425,6 +10421,10 @@
         {
           "user": "faithy_",
           "msg": "Thnks allive much love"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @piweb has resubscribed — 3 months total, 2 months streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -10517,6 +10517,11 @@
         },
         "maaykoo0": {
           "name": "maaykoo0",
+          "months": 1,
+          "tier": 1
+        },
+        "piweb": {
+          "name": "piweb",
           "months": 1,
           "tier": 1
         }
@@ -14223,7 +14228,7 @@
         "totalVotes": 10491,
         "totalSubs": 89,
         "totalChatMessages": 1557,
-        "totalStreamMinutes": 4086,
+        "totalStreamMinutes": 4091,
         "emotes": {
           "❤": 111,
           "🙌": 123,
@@ -18010,7 +18015,7 @@
         "totalVotes": 1132,
         "totalSubs": 10,
         "totalChatMessages": 70,
-        "totalStreamMinutes": 112,
+        "totalStreamMinutes": 117,
         "emotes": {
           "❤": 6,
           "🙌": 12,
@@ -20003,8 +20008,8 @@
     }
   },
   "auth": {
-    "accessToken": "59cc9d5bbc8730342e4de7c0b76e35e4",
-    "refreshToken": "5d2ee8ac79a7617338f16b9b34b4fcee",
+    "accessToken": "9af1b157507958e834b77198295c2a89",
+    "refreshToken": "2efccfea3621dba5ee3d00e011d64a04",
     "sessionToken": "75dfd6710a5364a5a2d0604d62da37f7",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
