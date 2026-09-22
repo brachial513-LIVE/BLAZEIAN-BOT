@@ -8591,7 +8591,7 @@
         "totalVotes": 12139,
         "totalSubs": 51,
         "totalChatMessages": 2254,
-        "totalStreamMinutes": 15393,
+        "totalStreamMinutes": 15394,
         "emotes": {
           "🔥": 639,
           "🔴": 200,
@@ -18679,7 +18679,8 @@
       },
       "timedMessages": [],
       "tipTiers": [],
-      "greeted": true
+      "greeted": true,
+      "locked": false
     }
   },
   "blocklist": [
@@ -19924,8 +19925,8 @@
     }
   },
   "auth": {
-    "accessToken": "bc9f7746ef440f1fa83fae633c790f6a",
-    "refreshToken": "3ca9c6252c32e13dc06071c42329e07f",
+    "accessToken": "b7fe49a4031ebdb0166a042bfd17d2a6",
+    "refreshToken": "3191347f75cd0483fc9616d3aa8f3179",
     "sessionToken": "75dfd6710a5364a5a2d0604d62da37f7",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
