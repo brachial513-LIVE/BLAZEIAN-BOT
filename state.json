@@ -8591,7 +8591,7 @@
         "totalVotes": 12139,
         "totalSubs": 51,
         "totalChatMessages": 2254,
-        "totalStreamMinutes": 15389,
+        "totalStreamMinutes": 15393,
         "emotes": {
           "🔥": 639,
           "🔴": 200,
@@ -15789,9 +15789,9 @@
       "language": "en",
       "joinedAt": 1786542046720,
       "stats": {
-        "totalVotes": 2782,
+        "totalVotes": 2783,
         "totalSubs": 22,
-        "totalChatMessages": 642,
+        "totalChatMessages": 643,
         "totalStreamMinutes": 4713,
         "emotes": {
           "❤": 26,
@@ -15880,13 +15880,9 @@
           "🥰": "🥰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790059480906
+        "lastChatAt": 1790072718249
       },
       "chatMemory": [
-        {
-          "user": "seventh",
-          "msg": "gm gm kuya pogi!!"
-        },
         {
           "user": "korosuplays",
           "msg": "wazzup"
@@ -15922,6 +15918,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @consumerbreak!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @walkthegrid!"
         }
       ],
       "customCommands": {},
@@ -18651,6 +18651,35 @@
       "streamTitle": "",
       "lastStreamInfo": "NEW Haunted Map?! LETS GO!!! 48/100 Followers | Special Giveaway @ 100 followers | — Call Of Duty Warzone",
       "lastStreamEndedAt": 1790030051435
+    },
+    "d7df4d38-c37d-494e-a0fe-a42c685dba20": {
+      "username": "danicuordirose",
+      "language": "en",
+      "joinedAt": 1790072864002,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "commandMedia": {},
+      "giveaway": {
+        "joinCmd": "",
+        "viewCmd": "",
+        "open": false,
+        "entries": []
+      },
+      "timedMessages": [],
+      "tipTiers": [],
+      "greeted": true
     }
   },
   "blocklist": [
