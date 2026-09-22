@@ -7119,7 +7119,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 15478,
+        "totalVotes": 15481,
         "totalSubs": 44,
         "totalChatMessages": 3348,
         "totalStreamMinutes": 4150,
@@ -8591,7 +8591,7 @@
         "totalVotes": 12139,
         "totalSubs": 51,
         "totalChatMessages": 2254,
-        "totalStreamMinutes": 15639,
+        "totalStreamMinutes": 15659,
         "emotes": {
           "🔥": 639,
           "🔴": 200,
@@ -9211,7 +9211,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 73,
-        "totalStreamMinutes": 6764,
+        "totalStreamMinutes": 6784,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -13358,14 +13358,14 @@
       "stats": {
         "totalVotes": 27262,
         "totalSubs": 46,
-        "totalChatMessages": 5130,
-        "totalStreamMinutes": 9974,
+        "totalChatMessages": 5136,
+        "totalStreamMinutes": 9979,
         "emotes": {
           "❤": 99,
           "🙌": 84,
           "🗳": 861,
-          "🔴": 77,
-          "🎉": 142,
+          "🔴": 79,
+          "🎉": 144,
           "🏃": 1,
           "♂": 2,
           "💨": 1,
@@ -13373,8 +13373,8 @@
           "🌫": 47,
           "🤣": 37,
           "😂": 88,
-          "📴": 79,
-          "👋": 96,
+          "📴": 80,
+          "👋": 97,
           "🚨": 258,
           "🔥": 104,
           "💚": 25,
@@ -13641,33 +13641,9 @@
           "🤗": "🤗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790069852699
+        "lastChatAt": 1790088712935
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @time!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 300 votes, @vRoshi55!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @noodles!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 300 votes, @badger!"
@@ -13683,6 +13659,30 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @BonsaiFox!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Wardawgs! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Wardawgs! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -13695,12 +13695,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Wardawgs — Wardogs",
       "profile": "noxx’s channel is a bug‑slayer hub blasting “👀👀👀” after kills, “clipping it!” when a clip drops, and “RAID ALERT!!” for big moments. The crew loves skrunky emotes in Helldivers, OTG solos, and chill Blaze VC hangs. They shout “RIP!” for losses, “🗳️ VOTE ALERT!!” for votes, and celebrate wins with “Wild gaem!” and “GGs!”",
       "_profileAtCount": 5096,
       "gameOverride": "",
-      "lastStreamInfo": "Wardogs Marathon day — Wardogs",
-      "lastStreamEndedAt": 1789908162857,
+      "lastStreamInfo": "Wardawgs — Wardogs",
+      "lastStreamEndedAt": 1790088691574,
       "nudgedAt": 1785880640807,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -18014,8 +18014,8 @@
       "stats": {
         "totalVotes": 1132,
         "totalSubs": 10,
-        "totalChatMessages": 70,
-        "totalStreamMinutes": 137,
+        "totalChatMessages": 74,
+        "totalStreamMinutes": 145,
         "emotes": {
           "❤": 6,
           "🙌": 12,
@@ -18028,7 +18028,8 @@
           "🎉": 1,
           "5736a7a9-7521-4563-ba44-08f69583a9ce": 5,
           "😂": 4,
-          "👋": 2
+          "👋": 3,
+          "📴": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -18042,28 +18043,13 @@
           "🎉": "🎉",
           "5736a7a9-7521-4563-ba44-08f69583a9ce": "shakeit",
           "😂": "😂",
-          "👋": "👋"
+          "👋": "👋",
+          "📴": "📴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790082455021
+        "lastChatAt": 1790088118466
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "w @alliveall"
-        },
-        {
-          "user": "corneto",
-          "msg": "ohh bad!!! no LD for organic players [emote:04bdb72b-8097-4d76-87ea-fc841b4d652d]"
-        },
-        {
-          "user": "alliveall",
-          "msg": "🔥🔥🔥"
-        },
-        {
-          "user": "fartvader",
-          "msg": "haha saw your chat from missaria"
-        },
         {
           "user": "fartvader",
           "msg": "i might be everywhere alli"
@@ -18087,6 +18073,22 @@
         {
           "user": "corneto",
           "msg": "yow @venus"
+        },
+        {
+          "user": "corneto",
+          "msg": "ggsssssssssssss"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "fartvader",
+          "msg": "ggs"
+        },
+        {
+          "user": "fartvader",
+          "msg": "next time ulit"
         }
       ],
       "customCommands": {},
@@ -18153,7 +18155,10 @@
           "tier": 1
         }
       },
-      "streamTitle": "Chill Stream for now no camera SICK :D — IRL"
+      "streamTitle": "",
+      "lastStreamInfo": "Chill Stream for now no camera SICK :D — IRL",
+      "lastStreamEndedAt": 1790088098787,
+      "gameOverride": ""
     },
     "e6b0742f-7815-478c-ae3c-3e87e3b0d11c": {
       "username": "wallacessj",
@@ -18852,9 +18857,9 @@
       "n": 24
     },
     "k1ngbre4ker": {
-      "note": "Enjoys Call of Duty, D&D, and lighthearted humor, cheering enthusiastically with playful emojis while chatting about games like OTG, WARDOGS, and other online titles",
-      "at": 1790020110350,
-      "n": 14
+      "note": "Enjoys Call of Duty, D&D, and lighthearted humor, cheering enthusiastically with playful emojis while chatting about OTG, WARDOGS, and other online titles.",
+      "at": 1790088090447,
+      "n": 15
     },
     "corinloch": {
       "note": "Enjoys streaming Terraria, Farlight, and Valorant with meme‑style jokes and light‑hearted, self‑deprecating humor.",
