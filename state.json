@@ -1889,7 +1889,7 @@
       "stats": {
         "totalVotes": 27953,
         "totalSubs": 219,
-        "totalChatMessages": 11967,
+        "totalChatMessages": 11968,
         "totalStreamMinutes": 28384,
         "emotes": {
           "📊": 3,
@@ -2102,7 +2102,7 @@
           "5eee7565-0474-4ac1-88dc-89180ce21325": 1,
           "😴": 1,
           "16a3e670-dc91-4b4a-a7cf-a6ce361e66a2": 26,
-          "b05156cf-7925-4298-8e19-f29e294cc793": 1,
+          "b05156cf-7925-4298-8e19-f29e294cc793": 2,
           "c96a6fe5-1123-404c-8768-789f05af7690": 8,
           "23b84aa5-3ac2-4d27-a76d-bbce48c6bea3": 5,
           "0d894430-c7fd-4036-9275-ec213522ff2c": 7,
@@ -2418,13 +2418,9 @@
           "❌": "❌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790121481200
+        "lastChatAt": 1790121503461
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Coughing but I live"
-        },
         {
           "user": "agent00zani",
           "msg": "sorry to hear that"
@@ -2460,6 +2456,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Soon"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:b05156cf-7925-4298-8e19-f29e294cc793]"
         }
       ],
       "customCommands": {},
@@ -6378,7 +6378,7 @@
         "totalVotes": 7576,
         "totalSubs": 83,
         "totalChatMessages": 845,
-        "totalStreamMinutes": 18870,
+        "totalStreamMinutes": 18871,
         "emotes": {
           "❤": 125,
           "🙌": 40,
@@ -8593,7 +8593,7 @@
         "totalVotes": 12257,
         "totalSubs": 51,
         "totalChatMessages": 2259,
-        "totalStreamMinutes": 16203,
+        "totalStreamMinutes": 16204,
         "emotes": {
           "🔥": 641,
           "🔴": 200,
@@ -8859,7 +8859,7 @@
         "totalVotes": 9820,
         "totalSubs": 198,
         "totalChatMessages": 483,
-        "totalStreamMinutes": 13641,
+        "totalStreamMinutes": 13642,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -12528,7 +12528,7 @@
         "totalVotes": 13576,
         "totalSubs": 17,
         "totalChatMessages": 21923,
-        "totalStreamMinutes": 16079,
+        "totalStreamMinutes": 16080,
         "emotes": {
           "❤": 70,
           "🙌": 50,
@@ -17135,7 +17135,7 @@
         "totalVotes": 2027,
         "totalSubs": 1,
         "totalChatMessages": 138,
-        "totalStreamMinutes": 4153,
+        "totalStreamMinutes": 4154,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -20055,8 +20055,8 @@
     }
   },
   "auth": {
-    "accessToken": "1b4aef7227cd12b351ad4604056b5fa6",
-    "refreshToken": "8ba4f4fd573b80d087f23fb844a3ef7c",
+    "accessToken": "2538b51138d1a43a501daea9406c12ac",
+    "refreshToken": "053cd2f9651a663349d58bf2f4f23d14",
     "sessionToken": "75aa8a0612a1841bf8e4becdc3591966",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
