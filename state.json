@@ -4633,7 +4633,7 @@
         "totalVotes": 10245,
         "totalSubs": 48,
         "totalChatMessages": 1894,
-        "totalStreamMinutes": 9809,
+        "totalStreamMinutes": 9814,
         "emotes": {
           "✨": 39,
           "🖥": 22,
@@ -4986,7 +4986,7 @@
       "stats": {
         "totalVotes": 30155,
         "totalSubs": 83,
-        "totalChatMessages": 11799,
+        "totalChatMessages": 11800,
         "totalStreamMinutes": 7051,
         "emotes": {
           "❤": 197,
@@ -5232,7 +5232,8 @@
           "🤠": 3,
           "🤦": 1,
           "♂": 1,
-          "😕": 1
+          "😕": 1,
+          "66dc823e-3a02-416e-96cb-9428f242bd1b": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -5478,16 +5479,13 @@
           "🤠": "🤠",
           "🤦": "🤦",
           "♂": "♂",
-          "😕": "😕"
+          "😕": "😕",
+          "66dc823e-3a02-416e-96cb-9428f242bd1b": "Wafflu"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790036211110
+        "lastChatAt": 1790054004381
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -5523,6 +5521,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @K1NGBRE4KER has resubscribed — 3 months total, 2 months streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "briggsy",
+          "msg": "[emote:66dc823e-3a02-416e-96cb-9428f242bd1b]"
         }
       ],
       "customCommands": {},
@@ -8587,7 +8589,7 @@
         "totalVotes": 12138,
         "totalSubs": 51,
         "totalChatMessages": 2254,
-        "totalStreamMinutes": 15074,
+        "totalStreamMinutes": 15079,
         "emotes": {
           "🔥": 639,
           "🔴": 200,
@@ -12182,7 +12184,7 @@
         "totalVotes": 5949,
         "totalSubs": 39,
         "totalChatMessages": 1422,
-        "totalStreamMinutes": 3915,
+        "totalStreamMinutes": 3920,
         "emotes": {
           "❤": 84,
           "🙌": 66,
@@ -19881,8 +19883,8 @@
     }
   },
   "auth": {
-    "accessToken": "6ef9dc9b336de9d74e718b69f603de37",
-    "refreshToken": "e0afe6e700c0e14917e59f6d706acf1f",
+    "accessToken": "f8d747cea7ecaa10e28e8704128cfd92",
+    "refreshToken": "f595c1e20d78e109c8b62a114d6f3d98",
     "sessionToken": "75dfd6710a5364a5a2d0604d62da37f7",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
