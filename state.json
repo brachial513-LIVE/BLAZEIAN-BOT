@@ -6387,7 +6387,7 @@
       "stats": {
         "totalVotes": 7576,
         "totalSubs": 83,
-        "totalChatMessages": 846,
+        "totalChatMessages": 847,
         "totalStreamMinutes": 18973,
         "emotes": {
           "❤": 125,
@@ -6489,14 +6489,10 @@
           "5534cfb4-c30c-40cb-80cc-9313e4888b8e": "MELTINGPYRO",
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS"
         },
-        "lastChatAt": 1790127646267,
+        "lastChatAt": 1790139288383,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
@@ -6532,6 +6528,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "hello"
         }
       ],
       "customCommands": {
@@ -14266,19 +14266,19 @@
       "joinedAt": 1785231455893,
       "stats": {
         "totalVotes": 10495,
-        "totalSubs": 89,
-        "totalChatMessages": 1566,
-        "totalStreamMinutes": 4183,
+        "totalSubs": 91,
+        "totalChatMessages": 1587,
+        "totalStreamMinutes": 4203,
         "emotes": {
           "❤": 111,
-          "🙌": 123,
+          "🙌": 128,
           "💚": 3,
-          "🔥": 104,
+          "🔥": 106,
           "🔴": 35,
-          "🎉": 51,
-          "💛": 19,
+          "🎉": 52,
+          "💛": 23,
           "🗳": 288,
-          "🎁": 140,
+          "🎁": 142,
           "📴": 33,
           "👋": 42,
           "💖": 1,
@@ -14292,7 +14292,7 @@
           "✨": 10,
           "😍": 5,
           "🫠": 3,
-          "🚨": 78,
+          "🚨": 84,
           "😊": 1,
           "😁": 3,
           "🤩": 1,
@@ -14428,7 +14428,7 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790138706130,
+        "lastChatAt": 1790140062234,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
@@ -14437,43 +14437,43 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+          "msg": "🔥 RESUB HYPE!! 🔥 @badger has resubscribed — 3 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "badger",
+          "msg": "my stream was good thanks! i had fun"
+        },
+        {
+          "user": "badger",
+          "msg": "thank you."
+        },
+        {
+          "user": "badger",
+          "msg": "i'll sleep in a bit"
+        },
+        {
+          "user": "badger",
+          "msg": "it's my pleasure 💛"
+        },
+        {
+          "user": "badger",
+          "msg": "i was playing portal 2, and my TTS wasn't working. sorry!"
+        },
+        {
+          "user": "badger",
+          "msg": "oh it's on Monday? 28?"
+        },
+        {
+          "user": "badger",
+          "msg": "Nice. Triz is on 25"
         },
         {
           "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "msg": "🎁 GIFTED SUB!! 🎁 @badger just gifted a sub to @jt_squared2! How generous!! 🙌"
         },
         {
-          "user": "botger",
-          "msg": "🔴 missaria is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "missaria",
-          "msg": "Quick Lunch break stream [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "missaria",
-          "msg": "500 VOTES BIRTHMONTH GIVEAWAY!\n\n🔹 1 Gift Sub = 1 Entry \n🔹 3 Gift Subs = 4 Entries\n\n🎯 BONUS GOAL: Hit 10 Gift Subs and I'll choose ONE new streamer to support! 💛"
-        },
-        {
-          "user": "timdraws",
-          "msg": "hows the game"
-        },
-        {
-          "user": "timdraws",
-          "msg": "i play it to but not so much now"
-        },
-        {
-          "user": "grim1angel",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:904850b1-2a13-4aba-8703-2af241ddab2d] [emote:fb95c5e5-03ab-4936-891a-2b4635354d8a]"
-        },
-        {
-          "user": "grim1angel",
-          "msg": "Hope you are doing well"
-        },
-        {
-          "user": "grim1angel",
-          "msg": "[emote:904850b1-2a13-4aba-8703-2af241ddab2d]"
+          "user": "badger",
+          "msg": "💛💛💛"
         }
       ],
       "customCommands": {},
@@ -14569,6 +14569,11 @@
           "name": "noxx",
           "months": 1,
           "tier": 1
+        },
+        "badger": {
+          "name": "badger",
+          "months": 1,
+          "tier": 1
         }
       },
       "nudgedAt": 1785549785246,
@@ -14586,7 +14591,7 @@
         "totalVotes": 6035,
         "totalSubs": 60,
         "totalChatMessages": 1369,
-        "totalStreamMinutes": 6242,
+        "totalStreamMinutes": 6262,
         "emotes": {
           "❤": 61,
           "🙌": 74,
@@ -16381,8 +16386,8 @@
       "stats": {
         "totalVotes": 5387,
         "totalSubs": 27,
-        "totalChatMessages": 3086,
-        "totalStreamMinutes": 9474,
+        "totalChatMessages": 3107,
+        "totalStreamMinutes": 9494,
         "emotes": {
           "👋": 69,
           "⚠": 2,
@@ -16544,48 +16549,48 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790138851501
+        "lastChatAt": 1790140100301
       },
       "chatMemory": [
         {
+          "user": "peter_force",
+          "msg": "faded pull always nice"
+        },
+        {
           "user": "onyxouroboros",
-          "msg": "But hopefully the one that will pull the bloodfoil isn't in the dead wallets"
+          "msg": "They sure are"
         },
         {
           "user": "peter_force",
-          "msg": "something like that"
+          "msg": "ys yes"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@peter_force congratulations! You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/62d14520855bff80c59df4c38d0eefa82e2c88d862a4b8f19cc4207e97128677"
         },
         {
           "user": "peter_force",
-          "msg": "i have at least one bloodfoil i know that ..i got it from fraz day he shuved other one in the mystery box .. was fun"
+          "msg": "yeahhhhhhhhh"
         },
         {
-          "user": "peter_force",
-          "msg": "cant remember if i have more now"
-        },
-        {
-          "user": "peter_force",
-          "msg": "15k looty still gets like 8 wax a day something like that..worth the click"
-        },
-        {
-          "user": "peter_force",
-          "msg": "hi"
-        },
-        {
-          "user": "flinx",
+          "user": "mebeswede",
           "msg": "hi"
         },
         {
           "user": "scurvybot",
-          "msg": "@peter_force, you spent 5 trash digging up an empty hole! You can try again after 5 minutes."
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/fd64ece67b6bee77d5ee6b03989608ad1f959a91224bed499924ed060031f394"
         },
         {
-          "user": "peter_force",
-          "msg": "yes hole!"
+          "user": "onyxouroboros",
+          "msg": "recycle trash, earn credits"
         },
         {
-          "user": "peter_force",
-          "msg": "needs that"
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/081a41ca2eb6b2e4a6c02891e95585cdc666813630785cce75dab73f28b8d786"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "mystery fish promo pack for some trash"
         }
       ],
       "customCommands": {
@@ -19321,8 +19326,8 @@
     },
     "cr33pling": {
       "note": "Enthusiastic gamer who loves PUBG, Valorant, CS2, Ghost Recon, Warzone, metal shows, and chats with playful slang and emojis.",
-      "at": 1790086770852,
-      "n": 40
+      "at": 1790139570475,
+      "n": 41
     },
     "angge_wf": {
       "note": "Playful gamer who loves Stumble Guys and Fortnite, uses emojis, bursts into long HAHA laughs, and greets with “gm.”",
