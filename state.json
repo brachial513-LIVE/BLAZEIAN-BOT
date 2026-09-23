@@ -2917,14 +2917,14 @@
       "stats": {
         "totalVotes": 18271,
         "totalSubs": 80,
-        "totalChatMessages": 6798,
-        "totalStreamMinutes": 20196,
+        "totalChatMessages": 6799,
+        "totalStreamMinutes": 20203,
         "emotes": {
           "❤": 209,
           "🙌": 161,
           "🗳": 951,
-          "📴": 172,
-          "👋": 194,
+          "📴": 173,
+          "👋": 195,
           "🔴": 170,
           "🎉": 266,
           "🏆": 22,
@@ -3231,14 +3231,10 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN",
           "c5d11b0f-661a-4d6f-b714-1c36e64195e2": "Hugback"
         },
-        "lastChatAt": 1790195957285,
+        "lastChatAt": 1790198283507,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "thats a lot"
-        },
         {
           "user": "cr33pling",
           "msg": "yup, im still at work mah bro"
@@ -3274,6 +3270,10 @@
         {
           "user": "cr33pling",
           "msg": "goodluck bruda"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -3286,7 +3286,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "🎮 Gaming with A Zani & @Zer0Cache live in Blaze VC 👀 | Just Having Some Fun | 🎰 Sub Raffle 🏆 150 Votes — Off The Grid",
+      "streamTitle": "",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty soo much” and emotes.",
       "_profileAtCount": 6796,
       "loyalty": {
@@ -3425,8 +3425,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/fc5ab98b-e0a9-4580-a90b-de6d7af4203e.png",
       "nudgedAt": 1785006485591,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "🎮 Gaming with A Zani  live in Blaze VC 👀 | Just Having Some Fun | 🎰 Sub Raffle 🏆 150 Votes — Games + Demos",
-      "lastStreamEndedAt": 1790168260626,
+      "lastStreamInfo": "🎮 Gaming with A Zani & @Zer0Cache live in Blaze VC 👀 | Just Having Some Fun | 🎰 Sub Raffle 🏆 150 Votes — Off The Grid",
+      "lastStreamEndedAt": 1790198278332,
       "botVip": true,
       "commandMedia": {
         "fluffy": {
@@ -4652,15 +4652,15 @@
       "stats": {
         "totalVotes": 10375,
         "totalSubs": 48,
-        "totalChatMessages": 1920,
-        "totalStreamMinutes": 10114,
+        "totalChatMessages": 1921,
+        "totalStreamMinutes": 10121,
         "emotes": {
           "✨": 40,
           "🖥": 22,
           "🔥": 178,
           "👋": 105,
-          "🎬": 99,
-          "❤": 126,
+          "🎬": 100,
+          "❤": 127,
           "🚨": 9,
           "⚡": 24,
           "🏆": 21,
@@ -4872,14 +4872,10 @@
           "💞": "💞",
           "🔫": "🔫"
         },
-        "lastChatAt": 1790195968915,
+        "lastChatAt": 1790198239341,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Blaze x Flaw OTG Event 26th Sept. Drop a greeting in chat! 👋"
-        },
         {
           "user": "agent00zani",
           "msg": "hi"
@@ -4915,6 +4911,10 @@
         {
           "user": "cr33pling",
           "msg": "goodluck mah man Zer0"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -4923,7 +4923,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Blaze x Flaw OTG Event 26th Sept — Off The Grid",
+      "streamTitle": "",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. The channel thrives on relentless energy, magnetic camaraderie, and the thrill of dropping in to new adventures.",
       "_profileAtCount": 1887,
       "loyalty": {
@@ -4971,7 +4971,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
       "lastStreamInfo": "Blaze x Flaw OTG Event 26th Sept — Off The Grid",
-      "lastStreamEndedAt": 1790113843236,
+      "lastStreamEndedAt": 1790198238883,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule"
     },
@@ -7489,7 +7489,7 @@
       "stats": {
         "totalVotes": 3796,
         "totalSubs": 29,
-        "totalChatMessages": 1351,
+        "totalChatMessages": 1352,
         "totalStreamMinutes": 2156,
         "emotes": {
           "❤": 443,
@@ -7593,14 +7593,10 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "🚨": "🚨"
         },
-        "lastChatAt": 1790195189662,
+        "lastChatAt": 1790198358523,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -7636,6 +7632,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @Old_Mankey!"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "thanks for the votes @dimiFW and @old_mankey"
         }
       ],
       "customCommands": {
@@ -10576,14 +10576,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 21832,
+        "totalVotes": 21837,
         "totalSubs": 27,
-        "totalChatMessages": 1305,
+        "totalChatMessages": 1307,
         "totalStreamMinutes": 2100,
         "emotes": {
           "❤": 23,
           "🙌": 35,
-          "🗳": 558,
+          "🗳": 561,
           "🚨": 60,
           "🎉": 31,
           "👋": 44,
@@ -10760,21 +10760,13 @@
           "f9308e00-3fc1-48b1-84ec-09bf6bc56858": "Blazeish",
           "01925d86-0eb7-484d-aee8-bb884cb4aac4": "Kekish"
         },
-        "lastChatAt": 1790120514715,
+        "lastChatAt": 1790198401598,
         "sendFailStreak": 260,
         "lastSendFailAt": 1790114927665,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1790114927486
       },
       "chatMemory": [
-        {
-          "user": "dimifw",
-          "msg": "donald donald duck tales"
-        },
-        {
-          "user": "briggsy",
-          "msg": "whaa?"
-        },
         {
           "user": "briggsy",
           "msg": "haha"
@@ -10806,6 +10798,14 @@
         {
           "user": "leandrineth",
           "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:37719561-c923-4260-b1a5-e3eda10c103d]"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CyMatrIX just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "thanks for the votes!"
         }
       ],
       "customCommands": {},
@@ -18453,14 +18453,14 @@
       "stats": {
         "totalVotes": 515,
         "totalSubs": 2,
-        "totalChatMessages": 58,
-        "totalStreamMinutes": 436,
+        "totalChatMessages": 60,
+        "totalStreamMinutes": 452,
         "emotes": {
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
           "🎉": 7,
           "🔴": 6,
-          "📴": 5,
-          "👋": 5,
+          "📴": 6,
+          "👋": 6,
           "❤": 12,
           "🙌": 6,
           "😶": 4,
@@ -18480,17 +18480,9 @@
           "🗳": "🗳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790193922261
+        "lastChatAt": 1790198816944
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ sofrenciaplay just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -18522,6 +18514,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: Some FM26 And The Road to FM27 #thedugout #mustardnetwork! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -18546,12 +18546,12 @@
           "tier": 1
         }
       },
-      "streamTitle": "Some FM26 And The Road to FM27 #thedugout #mustardnetwork — Music",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/6dc76b87-c95e-47ee-a6dd-6c4c6e76798f.jpg",
       "followed": true,
-      "lastStreamInfo": "Some Fortnite Deaths And Even More JoinMe Emotes Have Landed Use Creator Code IAMJAGSMAN #thedugout #mustardnetwork — Fortnite",
-      "lastStreamEndedAt": 1789761843071,
+      "lastStreamInfo": "Some FM26 And The Road to FM27 #thedugout #mustardnetwork — Music",
+      "lastStreamEndedAt": 1790198811730,
       "profile": "jagsman’s channel thrives on spontaneous hype: “❤️ NEW FOLLOWER!! ❤️” and “🗳️ VOTE ALERT!!” echo through the chat. The community loves quick cheers, “Thanks for the follow” and “Stream is now live!” The vibe is energetic, supportive, and playful, celebrating every new follower and vote with enthusiastic emojis and shoutouts. The game focus is casual, friendly competition.",
       "_profileAtCount": 38
     },
