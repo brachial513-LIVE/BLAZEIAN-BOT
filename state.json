@@ -14591,7 +14591,7 @@
         "totalVotes": 6035,
         "totalSubs": 60,
         "totalChatMessages": 1373,
-        "totalStreamMinutes": 6287,
+        "totalStreamMinutes": 6293,
         "emotes": {
           "❤": 61,
           "🙌": 74,
@@ -16386,8 +16386,8 @@
       "stats": {
         "totalVotes": 5387,
         "totalSubs": 27,
-        "totalChatMessages": 3110,
-        "totalStreamMinutes": 9519,
+        "totalChatMessages": 3115,
+        "totalStreamMinutes": 9525,
         "emotes": {
           "👋": 69,
           "⚠": 2,
@@ -16549,21 +16549,9 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790140486267
+        "lastChatAt": 1790141904548
       },
       "chatMemory": [
-        {
-          "user": "peter_force",
-          "msg": "ys yes"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@peter_force congratulations! You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/62d14520855bff80c59df4c38d0eefa82e2c88d862a4b8f19cc4207e97128677"
-        },
-        {
-          "user": "peter_force",
-          "msg": "yeahhhhhhhhh"
-        },
         {
           "user": "mebeswede",
           "msg": "hi"
@@ -16591,6 +16579,18 @@
         {
           "user": "onyxouroboros",
           "msg": "recycling trash for credits"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@onyxouroboros congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/b81cc6bf1f4f4170d1be438392554a2c3373587bc7477277f45c10ac00bf5c5e"
+        },
+        {
+          "user": "onyxouroboros",
+          "msg": "more fish caught with trash bait"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@peter_force congratulations! You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/654398143601b5d18a79606a048ba2d257eb3118c1e8ab4427c71ddb638a97cf"
         }
       ],
       "customCommands": {
@@ -20091,8 +20091,8 @@
     }
   },
   "auth": {
-    "accessToken": "32ecc958675b835a776dbfcbdd89fa79",
-    "refreshToken": "0fc3adfeec7f4654766fc21824ed6c29",
+    "accessToken": "e4645bc62498d3d2aa3fbca27d7dbc60",
+    "refreshToken": "90f1b40f976961e484dc26265e34407e",
     "sessionToken": "75aa8a0612a1841bf8e4becdc3591966",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
