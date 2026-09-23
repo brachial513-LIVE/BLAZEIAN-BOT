@@ -2918,7 +2918,7 @@
         "totalVotes": 18271,
         "totalSubs": 80,
         "totalChatMessages": 6782,
-        "totalStreamMinutes": 20126,
+        "totalStreamMinutes": 20146,
         "emotes": {
           "❤": 209,
           "🙌": 161,
@@ -4653,7 +4653,7 @@
         "totalVotes": 10375,
         "totalSubs": 48,
         "totalChatMessages": 1913,
-        "totalStreamMinutes": 10044,
+        "totalStreamMinutes": 10064,
         "emotes": {
           "✨": 40,
           "🖥": 22,
@@ -9252,7 +9252,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 74,
-        "totalStreamMinutes": 6958,
+        "totalStreamMinutes": 6978,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -11095,28 +11095,28 @@
       "joinedAt": 1784461195472,
       "stats": {
         "totalVotes": 25765,
-        "totalSubs": 54,
-        "totalChatMessages": 1867,
-        "totalStreamMinutes": 2140,
+        "totalSubs": 55,
+        "totalChatMessages": 1930,
+        "totalStreamMinutes": 2159,
         "emotes": {
           "😂": 25,
           "💪": 2,
           "💚": 12,
           "😎": 1,
-          "🔥": 52,
-          "🙌": 76,
+          "🔥": 54,
+          "🙌": 77,
           "🙃": 1,
-          "😄": 2,
-          "❤": 80,
+          "😄": 3,
+          "❤": 96,
           "🚨": 42,
-          "🎉": 31,
-          "👋": 36,
-          "🤣": 154,
+          "🎉": 32,
+          "👋": 37,
+          "🤣": 157,
           "🗳": 426,
-          "📴": 22,
+          "📴": 23,
           "🎁": 58,
-          "🔴": 23,
-          "👀": 7,
+          "🔴": 24,
+          "👀": 10,
           "😆": 13,
           "☕": 1,
           "😏": 2,
@@ -11140,7 +11140,7 @@
           "🫠": 3,
           "🤬": 1,
           "🥲": 2,
-          "💛": 3,
+          "💛": 6,
           "🥚": 34,
           "↩": 13,
           "🩷": 1,
@@ -11205,11 +11205,13 @@
           "🤛": 1,
           "🥊": 4,
           "👶": 1,
-          "🐝": 4,
+          "🐝": 9,
           "🍬": 2,
           "🍭": 2,
           "🎵": 3,
-          "🤯": 4
+          "🤯": 4,
+          "🤡": 1,
+          "✨": 1
         },
         "emoteNames": {
           "😂": "😂",
@@ -11322,51 +11324,53 @@
           "🍬": "🍬",
           "🍭": "🍭",
           "🎵": "🎵",
-          "🤯": "🤯"
+          "🤯": "🤯",
+          "🤡": "🤡",
+          "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790193643998
+        "lastChatAt": 1790194847132
       },
       "chatMemory": [
         {
-          "user": "unclefunk",
-          "msg": "DANCE!"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "🤣🤣🤣"
-        },
-        {
-          "user": "bee12",
-          "msg": "🎵🎵🎵"
+          "user": "dress_n_draw",
+          "msg": "Baking a pie, haha😄 how are yoooooooo?"
         },
         {
           "user": "unclefunk",
-          "msg": "Make it louder!!!"
+          "msg": "Ze chirmins loik the poi!"
         },
         {
           "user": "unclefunk",
-          "msg": "It was perfect"
-        },
-        {
-          "user": "bee12",
-          "msg": "🔥🔥🔥"
+          "msg": "hahaha"
         },
         {
           "user": "unclefunk",
-          "msg": "It's your headphones that are loud haha"
+          "msg": "'like the pie'"
         },
         {
-          "user": "bee12",
-          "msg": "sheena loves candyyyyyyy"
+          "user": "unclefunk",
+          "msg": "They always tell you to breathe. Bruh, I'm breathing."
         },
         {
-          "user": "bee12",
-          "msg": "❤️🐝❤️"
+          "user": "botger",
+          "msg": "I WILL CUT YOU!"
         },
         {
-          "user": "dofferlive",
-          "msg": "🤯🤯🤯🤯"
+          "user": "unclefunk",
+          "msg": "nien"
+        },
+        {
+          "user": "badger",
+          "msg": "no. not this"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "er\\"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "nein"
         }
       ],
       "customCommands": {},
@@ -11486,13 +11490,18 @@
           "name": "unclefunk",
           "months": 1,
           "tier": 1
+        },
+        "badger": {
+          "name": "badger",
+          "months": 1,
+          "tier": 1
         }
       },
       "streamTitle": "Cozy Stream - Life is strange - True colors ♥ — Life Is Strange",
       "gameOverride": "",
       "commentMode": "silent",
       "lastStreamInfo": "Cozy Stream - Life is strange - True colors ♥ — Life Is Strange",
-      "lastStreamEndedAt": 1790192245986
+      "lastStreamEndedAt": 1790193822371
     },
     "c72497f7-8e71-4205-840b-58406a94e378": {
       "username": "venom2610",
@@ -12655,7 +12664,7 @@
       "stats": {
         "totalVotes": 13654,
         "totalSubs": 17,
-        "totalChatMessages": 22988,
+        "totalChatMessages": 22989,
         "totalStreamMinutes": 16302,
         "emotes": {
           "❤": 72,
@@ -13008,13 +13017,9 @@
           "🤙": "🤙"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790193256224
+        "lastChatAt": 1790194060667
       },
       "chatMemory": [
-        {
-          "user": "lovemikami",
-          "msg": "na blaze"
-        },
         {
           "user": "botger",
           "msg": "🔴 sofrenciaplay is now live! Welcome everyone! 🎉"
@@ -13050,6 +13055,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "lucas93925052",
+          "msg": "Valeu dupla"
         }
       ],
       "customCommands": {},
@@ -14923,7 +14932,7 @@
         "totalVotes": 4459,
         "totalSubs": 19,
         "totalChatMessages": 905,
-        "totalStreamMinutes": 11227,
+        "totalStreamMinutes": 11247,
         "emotes": {
           "❤": 61,
           "🙌": 46,
@@ -18444,12 +18453,12 @@
       "stats": {
         "totalVotes": 515,
         "totalSubs": 2,
-        "totalChatMessages": 56,
-        "totalStreamMinutes": 371,
+        "totalChatMessages": 58,
+        "totalStreamMinutes": 386,
         "emotes": {
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
-          "🎉": 6,
-          "🔴": 5,
+          "🎉": 7,
+          "🔴": 6,
           "📴": 5,
           "👋": 5,
           "❤": 12,
@@ -18471,17 +18480,9 @@
           "🗳": "🗳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1789847226998
+        "lastChatAt": 1790193922261
       },
       "chatMemory": [
-        {
-          "user": "sofrenciaplay",
-          "msg": "hi"
-        },
-        {
-          "user": "sofrenciaplay",
-          "msg": "gm"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ sofrenciaplay just followed the channel! Welcome!! 🙌"
@@ -18513,6 +18514,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 200 votes, @dga_og!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 jagsman is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Some FM26 And The Road to FM27 #thedugout #mustardnetwork! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -18537,7 +18546,7 @@
           "tier": 1
         }
       },
-      "streamTitle": "",
+      "streamTitle": "Some FM26 And The Road to FM27 #thedugout #mustardnetwork — Music",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/6dc76b87-c95e-47ee-a6dd-6c4c6e76798f.jpg",
       "followed": true,
