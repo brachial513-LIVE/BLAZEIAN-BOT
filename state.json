@@ -8606,7 +8606,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 12457,
-        "totalSubs": 52,
+        "totalSubs": 53,
         "totalChatMessages": 2266,
         "totalStreamMinutes": 16434,
         "emotes": {
@@ -8856,6 +8856,11 @@
         },
         "cg777": {
           "name": "cg777",
+          "months": 1,
+          "tier": 1
+        },
+        "tuff3rmrd3ano": {
+          "name": "tuff3rmrd3ano",
           "months": 1,
           "tier": 1
         }
@@ -13397,12 +13402,12 @@
       "joinedAt": 1784887997966,
       "stats": {
         "totalVotes": 27331,
-        "totalSubs": 46,
-        "totalChatMessages": 5154,
+        "totalSubs": 47,
+        "totalChatMessages": 5156,
         "totalStreamMinutes": 10082,
         "emotes": {
           "❤": 99,
-          "🙌": 84,
+          "🙌": 85,
           "🗳": 867,
           "🔴": 79,
           "🎉": 145,
@@ -13416,7 +13421,7 @@
           "📴": 81,
           "👋": 98,
           "🚨": 264,
-          "🔥": 104,
+          "🔥": 106,
           "💚": 25,
           "👀": 44,
           "😄": 2,
@@ -13681,17 +13686,9 @@
           "🤗": "🤗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790140727697
+        "lastChatAt": 1790156197710
       },
       "chatMemory": [
-        {
-          "user": "meyetechnicals",
-          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @wapi!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -13723,6 +13720,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @missaria just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @tuff3rmrd3ano has resubscribed — 2 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@tuff3rmrd3ano subscribed! Thank you!"
         }
       ],
       "customCommands": {},
@@ -13886,6 +13891,11 @@
         },
         "missaria": {
           "name": "missaria",
+          "months": 1,
+          "tier": 1
+        },
+        "tuff3rmrd3ano": {
+          "name": "tuff3rmrd3ano",
           "months": 1,
           "tier": 1
         }
