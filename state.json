@@ -1890,7 +1890,7 @@
         "totalVotes": 27954,
         "totalSubs": 220,
         "totalChatMessages": 12023,
-        "totalStreamMinutes": 28433,
+        "totalStreamMinutes": 28439,
         "emotes": {
           "📊": 3,
           "🔥": 513,
@@ -3859,8 +3859,8 @@
           "d6c82b45-1ca6-4f86-89b5-cf94492a049b": "YEP"
         },
         "lastChatAt": 1790103982666,
-        "sendFailStreak": 537,
-        "lastSendFailAt": 1790027806076,
+        "sendFailStreak": 538,
+        "lastSendFailAt": 1790176595203,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146,
@@ -4054,14 +4054,14 @@
       "stats": {
         "totalVotes": 18020,
         "totalSubs": 63,
-        "totalChatMessages": 3310,
-        "totalStreamMinutes": 15082,
+        "totalChatMessages": 3311,
+        "totalStreamMinutes": 15083,
         "emotes": {
           "😊": 5,
           "🌵": 87,
           "🔥": 317,
           "🤪": 2,
-          "👋": 69,
+          "👋": 70,
           "👍": 24,
           "🥰": 4,
           "💜": 1,
@@ -4163,7 +4163,7 @@
           "🫶": 3,
           "🙌": 39,
           "🗳": 219,
-          "📴": 28,
+          "📴": 29,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 92,
           "🔴": 28,
           "🎉": 33,
@@ -4357,13 +4357,9 @@
           "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": "ANGRYPYRO2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790175238624
+        "lastChatAt": 1790176304525
       },
       "chatMemory": [
-        {
-          "user": "capt_rob_advent",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
         {
           "user": "cactus_jack440",
           "msg": "I got you up on all 3 sites but i am swamped this morning so will be lurking...sorry"
@@ -4399,6 +4395,10 @@
         {
           "user": "ruri666",
           "msg": "GM GM! Just lurking and bout to live. HAPPY STREAMING!!!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -4407,7 +4407,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Fueling Ships in South East Texas — IRL",
+      "streamTitle": "",
       "profile": "We’re a tight IRL maritime crew loading barges, fueling ships, and cruising a towboat in South East Texas. “BLAZE ON” celebrates every win, “Sweet!” drops new content, and “shots shots!” keeps the fun high. We surf, vote for favorite streamers, share “happy walk” stories, and love “happy walk” vibes. capt_rob_advent’s streams are the heart of our salty, upbeat community.",
       "_profileAtCount": 3279,
       "gameOverride": "",
@@ -4467,7 +4467,7 @@
       "nudgedAt": 1785066991188,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fueling Ships in South East Texas — IRL",
-      "lastStreamEndedAt": 1790133654757
+      "lastStreamEndedAt": 1790176299392
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -12251,22 +12251,22 @@
       "language": "en",
       "joinedAt": 1784468670654,
       "stats": {
-        "totalVotes": 5956,
+        "totalVotes": 5981,
         "totalSubs": 40,
-        "totalChatMessages": 1586,
-        "totalStreamMinutes": 4061,
+        "totalChatMessages": 1671,
+        "totalStreamMinutes": 4067,
         "emotes": {
-          "❤": 84,
-          "🙌": 67,
+          "❤": 86,
+          "🙌": 68,
           "📴": 32,
-          "👋": 32,
+          "👋": 35,
           "🎁": 50,
-          "🗳": 192,
+          "🗳": 195,
           "⚠": 1,
           "🎯": 1,
           "🔴": 33,
-          "🎉": 47,
-          "🚨": 54,
+          "🎉": 48,
+          "🚨": 60,
           "😀": 1,
           "👍": 5,
           "😜": 1,
@@ -12287,9 +12287,9 @@
           "⏰": 1,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 19,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 2,
-          "a80b8258-7a03-4aed-95f8-19ab819775c7": 8,
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": 9,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 22,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 24,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 26,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 5,
           "da339ef7-1574-4f2f-8b48-666688167af3": 6,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 38,
@@ -12306,20 +12306,22 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": 4,
           "aa6b0080-a887-4ffd-af27-01a548c47a01": 6,
           "d1a7d502-44d0-497d-96af-1dff4e566836": 3,
-          "2056e09a-aaf9-4064-b293-7eefa319cbf3": 10,
-          "c9d84982-16c7-4ade-a5a5-cb8529155983": 2,
+          "2056e09a-aaf9-4064-b293-7eefa319cbf3": 20,
+          "c9d84982-16c7-4ade-a5a5-cb8529155983": 6,
           "7a1e9750-fe7b-4a4c-be25-269fc26eb96a": 3,
           "c48c951e-f67d-4d51-b09e-64842d676e1d": 12,
-          "2d3dff94-e3c8-4718-923a-e33039012610": 4,
-          "f4dc2902-a7a7-4659-ba65-530024d5b445": 6,
+          "2d3dff94-e3c8-4718-923a-e33039012610": 7,
+          "f4dc2902-a7a7-4659-ba65-530024d5b445": 11,
           "e66e24a5-46b0-4988-9c1d-7dbf58ecb805": 8,
-          "444f8613-71d7-4493-939a-b44426ef3c8a": 5,
+          "444f8613-71d7-4493-939a-b44426ef3c8a": 6,
           "aed66035-12f0-4790-9c7e-2e737b7042d0": 4,
-          "4470f616-97ae-47ed-9397-a95fbfc2fe97": 13,
-          "eb0d21bd-1d9e-4be2-b519-2035799aff8e": 10,
+          "4470f616-97ae-47ed-9397-a95fbfc2fe97": 15,
+          "eb0d21bd-1d9e-4be2-b519-2035799aff8e": 16,
           "5ba37bf8-12fb-4f65-9669-56cc64ec1776": 3,
-          "🤣": 5,
-          "9757d9e4-bb70-40d5-a76b-849d0412a0db": 2
+          "🤣": 9,
+          "9757d9e4-bb70-40d5-a76b-849d0412a0db": 2,
+          "b341bfaf-209a-4ad2-9955-7650e8b5e25a": 7,
+          "3585ae1e-f3ad-47be-b6bc-ff2c80e95f9d": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -12385,51 +12387,53 @@
           "eb0d21bd-1d9e-4be2-b519-2035799aff8e": "HOLY",
           "5ba37bf8-12fb-4f65-9669-56cc64ec1776": "EYES",
           "🤣": "🤣",
-          "9757d9e4-bb70-40d5-a76b-849d0412a0db": "PET2"
+          "9757d9e4-bb70-40d5-a76b-849d0412a0db": "PET2",
+          "b341bfaf-209a-4ad2-9955-7650e8b5e25a": "CLAPPP",
+          "3585ae1e-f3ad-47be-b6bc-ff2c80e95f9d": "WTF"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790176244599
+        "lastChatAt": 1790176620227
       },
       "chatMemory": [
         {
+          "user": "ruri666",
+          "msg": "Napa english ka tuloy @seventh"
+        },
+        {
+          "user": "ruri666",
+          "msg": "HAHAHAHAHA"
+        },
+        {
+          "user": "capt_rob_advent",
+          "msg": "@seventh sorry I missed your comment earlier"
+        },
+        {
+          "user": "fartvader",
+          "msg": "we're having a really good time here my brothers..online partyyy"
+        },
+        {
           "user": "seventh",
-          "msg": "Mababan na ako dito gagi"
+          "msg": "All good brother"
         },
         {
           "user": "fartvader",
-          "msg": "[emote:eb0d21bd-1d9e-4be2-b519-2035799aff8e] [emote:eb0d21bd-1d9e-4be2-b519-2035799aff8e] [emote:eb0d21bd-1d9e-4be2-b519-2035799aff8e]"
+          "msg": "how's the voyage @capt_rob_advent"
+        },
+        {
+          "user": "seventh",
+          "msg": "[emote:eb0d21bd-1d9e-4be2-b519-2035799aff8e] [emote:eb0d21bd-1d9e-4be2-b519-2035799aff8e] [emote:eb0d21bd-1d9e-4be2-b519-2035799aff8e] [emote:eb0d21bd-1d9e-4be2-b519-2035799aff8e] [emote:eb0d21bd-1d9e-4be2-b519-2035799aff8e] [emote:eb0d21bd-1d9e-4be2-b519-2035799aff8e]"
         },
         {
           "user": "ruri666",
-          "msg": "HAHAHAHAHAHAHAHAHAHAHAHA hindi hawak kita @seventh"
+          "msg": "biglang nag fm"
         },
         {
-          "user": "missaria",
-          "msg": "Rated SPG dito"
-        },
-        {
-          "user": "fartvader",
-          "msg": "hahaha para akong nasa club"
+          "user": "seventh",
+          "msg": "Holy cross to everyone"
         },
         {
           "user": "ruri666",
-          "msg": "Ayan nabigyan ka holycross @seventh"
-        },
-        {
-          "user": "ruri666",
-          "msg": "SLEEP"
-        },
-        {
-          "user": "fartvader",
-          "msg": "virtual club"
-        },
-        {
-          "user": "ruri666",
-          "msg": "SHOOOOOOOO"
-        },
-        {
-          "user": "ruri666",
-          "msg": "HAHAHAHAHAHAHAHA"
+          "msg": "ikaw muna entertainer @seventh"
         }
       ],
       "customCommands": {},
@@ -14657,11 +14661,11 @@
       "stats": {
         "totalVotes": 6035,
         "totalSubs": 60,
-        "totalChatMessages": 1399,
+        "totalChatMessages": 1402,
         "totalStreamMinutes": 6479,
         "emotes": {
-          "❤": 61,
-          "🙌": 74,
+          "❤": 63,
+          "🙌": 75,
           "🔥": 65,
           "💚": 3,
           "🤝": 1,
@@ -14750,21 +14754,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790175636689
+        "lastChatAt": 1790176476756
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "naka dl kanaba"
-        },
-        {
-          "user": "ruri666",
-          "msg": "oo epic"
-        },
-        {
-          "user": "ruri666",
-          "msg": "busy pa ata lunaria e"
-        },
         {
           "user": "ruri666",
           "msg": "bukas try naten apat tayo laro"
@@ -14792,6 +14784,18 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @bluebreed361!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ bluebreed361 just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "bluebreed361",
+          "msg": "I'm new to Blaze whats up everyone."
         }
       ],
       "customCommands": {},
@@ -15332,12 +15336,12 @@
       "joinedAt": 1786172514205,
       "stats": {
         "totalVotes": 14901,
-        "totalSubs": 94,
-        "totalChatMessages": 4895,
+        "totalSubs": 95,
+        "totalChatMessages": 4896,
         "totalStreamMinutes": 9070,
         "emotes": {
           "😅": 1,
-          "🔥": 242,
+          "🔥": 244,
           "🍻": 5,
           "✌": 6,
           "😊": 1,
@@ -15350,7 +15354,7 @@
           "😁": 2,
           "😜": 8,
           "🙏": 1,
-          "🙌": 155,
+          "🙌": 156,
           "💪": 1,
           "👋": 40,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 684,
@@ -15532,7 +15536,7 @@
           "😬": "😬"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790173010911,
+        "lastChatAt": 1790176596490,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -15540,10 +15544,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @FartVader just gifted a sub to @Sheena! How generous!! 🙌"
-        },
         {
           "user": "sheena",
           "msg": "welp"
@@ -15579,6 +15579,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 1 vote(s) (total: 52)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Ruri666 has resubscribed — 4 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -15707,6 +15711,11 @@
         },
         "tuff3rmrd3ano": {
           "name": "tuff3rmrd3ano",
+          "months": 1,
+          "tier": 1
+        },
+        "ruri666": {
+          "name": "ruri666",
           "months": 1,
           "tier": 1
         }
@@ -18515,9 +18524,9 @@
           "🔥": "🔥",
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
-        "sendFailStreak": 7,
+        "sendFailStreak": 8,
         "lastChatAt": 1790045346745,
-        "lastSendFailAt": 1789999613655,
+        "lastSendFailAt": 1790176604342,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1789999370161
       },
