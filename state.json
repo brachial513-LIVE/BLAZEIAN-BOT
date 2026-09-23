@@ -2916,8 +2916,8 @@
       "stats": {
         "totalVotes": 18070,
         "totalSubs": 79,
-        "totalChatMessages": 6642,
-        "totalStreamMinutes": 20074,
+        "totalChatMessages": 6646,
+        "totalStreamMinutes": 20079,
         "emotes": {
           "❤": 209,
           "🙌": 160,
@@ -3011,7 +3011,7 @@
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 38,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 60,
           "a859cc12-453a-4bd8-b650-38710d9486de": 126,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 61,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 64,
           "b05156cf-7925-4298-8e19-f29e294cc793": 3,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 28,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 6,
@@ -3032,7 +3032,7 @@
           "☀": 1,
           "🫣": 1,
           "💕": 2,
-          "555a557b-672c-4db0-80d4-85564e0bbac4": 3,
+          "555a557b-672c-4db0-80d4-85564e0bbac4": 5,
           "😇": 1,
           "b416995d-3eee-4c99-9927-86fa112b0b18": 1,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 4,
@@ -3228,26 +3228,10 @@
           "🎶": "🎶",
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
-        "lastChatAt": 1790158828685,
+        "lastChatAt": 1790159589810,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "gmgm @agent00zani"
-        },
-        {
-          "user": "guney",
-          "msg": "have a good stream"
-        },
-        {
-          "user": "guney",
-          "msg": "im good thx"
-        },
-        {
-          "user": "guney",
-          "msg": "i hope you are too"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -3271,6 +3255,22 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "no game sound ?"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "i can only hear you"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "desktop audio lol how lazy lol"
         }
       ],
       "customCommands": {
@@ -20108,8 +20108,8 @@
     }
   },
   "auth": {
-    "accessToken": "8a0879bb3c482b0a51b38da8820e31ea",
-    "refreshToken": "af2a5916bcffb0f81470fa42ffef3363",
+    "accessToken": "5c06edbc4434ba4728b4de60544420f8",
+    "refreshToken": "eb2b82094b5f9e393ef6166857ed96cb",
     "sessionToken": "75aa8a0612a1841bf8e4becdc3591966",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
