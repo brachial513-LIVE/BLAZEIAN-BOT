@@ -15275,12 +15275,12 @@
       "joinedAt": 1786172514205,
       "stats": {
         "totalVotes": 14899,
-        "totalSubs": 93,
-        "totalChatMessages": 4893,
+        "totalSubs": 94,
+        "totalChatMessages": 4894,
         "totalStreamMinutes": 9070,
         "emotes": {
           "😅": 1,
-          "🔥": 240,
+          "🔥": 242,
           "🍻": 5,
           "✌": 6,
           "😊": 1,
@@ -15293,7 +15293,7 @@
           "😁": 2,
           "😜": 8,
           "🙏": 1,
-          "🙌": 154,
+          "🙌": 155,
           "💪": 1,
           "👋": 40,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 684,
@@ -15475,7 +15475,7 @@
           "😬": "😬"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790104702603,
+        "lastChatAt": 1790156527352,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -15483,10 +15483,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "sheena",
-          "msg": "i wanted to sub but i need to wait for my rewards"
-        },
         {
           "user": "sheena",
           "msg": "MY WALLET IS EMPTY"
@@ -15522,6 +15518,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @tuff3rmrd3ano has resubscribed — 5 months total, 2 months streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -15645,6 +15645,11 @@
         },
         "lvl4goblin": {
           "name": "lvl4goblin",
+          "months": 1,
+          "tier": 1
+        },
+        "tuff3rmrd3ano": {
+          "name": "tuff3rmrd3ano",
           "months": 1,
           "tier": 1
         }
@@ -20101,8 +20106,8 @@
     }
   },
   "auth": {
-    "accessToken": "f1adc907f1c507d6fc2de090667677f3",
-    "refreshToken": "60315332890ce4d206ec222e13000d1d",
+    "accessToken": "ec961a1bf28633d64141d8a422a8f6a3",
+    "refreshToken": "8abac5ed1749195f77370a669b0b452a",
     "sessionToken": "75aa8a0612a1841bf8e4becdc3591966",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
