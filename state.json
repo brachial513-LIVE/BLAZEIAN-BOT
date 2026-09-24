@@ -5,8 +5,8 @@
       "stats": {
         "totalVotes": 12234,
         "totalSubs": 57,
-        "totalChatMessages": 2761,
-        "totalStreamMinutes": 3244,
+        "totalChatMessages": 2764,
+        "totalStreamMinutes": 3252,
         "emotes": {
           "❤": 113,
           "🙌": 58,
@@ -334,17 +334,9 @@
           "♥": "♥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790257901419
+        "lastChatAt": 1790258383509
       },
       "chatMemory": [
-        {
-          "user": "venom2610",
-          "msg": "Soweit so gut und selber? Alles fit?"
-        },
-        {
-          "user": "venom2610",
-          "msg": "Vielleicht d3 mangel? Nur ne idee"
-        },
         {
           "user": "venom2610",
           "msg": "Ja das warten hat mich aber auch immer gebrochen :D"
@@ -376,6 +368,14 @@
         {
           "user": "inn",
           "msg": "hey hey! hope ya have a nice day!"
+        },
+        {
+          "user": "der_bruder",
+          "msg": "Lil"
+        },
+        {
+          "user": "der_bruder",
+          "msg": "Lol"
         }
       ],
       "language": "en",
@@ -735,14 +735,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 89650,
-        "totalSubs": 149,
-        "totalChatMessages": 9590,
+        "totalSubs": 150,
+        "totalChatMessages": 9591,
         "totalStreamMinutes": 3497,
         "emotes": {
           "🗳": 1692,
           "❤": 531,
-          "🙌": 251,
-          "🔥": 253,
+          "🙌": 252,
+          "🔥": 255,
           "☺": 6,
           "🔴": 34,
           "🎉": 122,
@@ -1091,17 +1091,13 @@
           "e898a0e4-02dd-40a8-935c-1d76494fcd30": "Lurk_Mode"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790220072486,
+        "lastChatAt": 1790258393381,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "makeitmetal",
-          "msg": "will do haha nadie"
-        },
         {
           "user": "fartvader",
           "msg": "gn MiM !! sleep well"
@@ -1137,6 +1133,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @annyoneany has resubscribed — 3 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -1338,6 +1338,11 @@
         },
         "woshi": {
           "name": "woshi",
+          "months": 1,
+          "tier": 1
+        },
+        "annyoneany": {
+          "name": "annyoneany",
           "months": 1,
           "tier": 1
         }
@@ -10263,7 +10268,7 @@
         "totalVotes": 24545,
         "totalSubs": 147,
         "totalChatMessages": 2785,
-        "totalStreamMinutes": 14885,
+        "totalStreamMinutes": 14892,
         "emotes": {
           "❤": 116,
           "🙌": 204,
