@@ -1907,8 +1907,8 @@
       "stats": {
         "totalVotes": 28261,
         "totalSubs": 220,
-        "totalChatMessages": 12254,
-        "totalStreamMinutes": 28766,
+        "totalChatMessages": 12258,
+        "totalStreamMinutes": 28770,
         "emotes": {
           "📊": 3,
           "🔥": 513,
@@ -2125,7 +2125,7 @@
           "23b84aa5-3ac2-4d27-a76d-bbce48c6bea3": 5,
           "0d894430-c7fd-4036-9275-ec213522ff2c": 7,
           "3ee22006-ef93-47bd-a90d-0ee7fec2e0cc": 3,
-          "9b6e3e1d-c1ff-47d6-a827-28c401ddb095": 4,
+          "9b6e3e1d-c1ff-47d6-a827-28c401ddb095": 5,
           "f74c6daa-7987-4c98-8cc9-89270ea8edc9": 7,
           "86c9645e-fcdb-4de1-bfa6-ce31e01a9193": 6,
           "01e17de5-d329-4e89-9b48-9bea2ce602ca": 8,
@@ -2438,25 +2438,9 @@
           "f5e28583-a1b1-43e6-83bd-d766d550d2ee": "WinkFox"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790265029663
+        "lastChatAt": 1790265230280
       },
       "chatMemory": [
-        {
-          "user": "cg777",
-          "msg": "Some OTG"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Yes sir"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Lobbies taking forever"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "🤣"
-        },
         {
           "user": "foxbotai",
           "msg": "@CG777 received 2000 FoxCoins! New balance: 2475 FoxCoins."
@@ -2480,6 +2464,22 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:90a79666-6a1e-4bbf-9027-28b1ed6b7dc2]"
+        },
+        {
+          "user": "hortenseemu44",
+          "msg": "Yo wut up"
+        },
+        {
+          "user": "hortenseemu44",
+          "msg": "[emote:9b6e3e1d-c1ff-47d6-a827-28c401ddb095]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "What up buddy"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Want to join?"
         }
       ],
       "customCommands": {},
@@ -2937,7 +2937,7 @@
         "totalVotes": 18316,
         "totalSubs": 80,
         "totalChatMessages": 6833,
-        "totalStreamMinutes": 20352,
+        "totalStreamMinutes": 20357,
         "emotes": {
           "❤": 209,
           "🙌": 161,
@@ -11148,9 +11148,9 @@
       "language": "en",
       "joinedAt": 1784461195472,
       "stats": {
-        "totalVotes": 25799,
+        "totalVotes": 26299,
         "totalSubs": 56,
-        "totalChatMessages": 1967,
+        "totalChatMessages": 1968,
         "totalStreamMinutes": 2186,
         "emotes": {
           "😂": 25,
@@ -11166,7 +11166,7 @@
           "🎉": 32,
           "👋": 38,
           "🤣": 157,
-          "🗳": 441,
+          "🗳": 444,
           "📴": 24,
           "🎁": 58,
           "🔴": 24,
@@ -11383,13 +11383,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790258509020
+        "lastChatAt": 1790265205879
       },
       "chatMemory": [
-        {
-          "user": "unclefunk",
-          "msg": "ze batcher is shwoing how to do ze tings"
-        },
         {
           "user": "badger",
           "msg": "Everything was ALL CAPS in the overlay. YES!!!"
@@ -11425,6 +11421,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @annyoneany has resubscribed — 5 months total, 1 month streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -12367,7 +12367,7 @@
         "totalVotes": 6017,
         "totalSubs": 42,
         "totalChatMessages": 1782,
-        "totalStreamMinutes": 4366,
+        "totalStreamMinutes": 4371,
         "emotes": {
           "❤": 88,
           "🙌": 71,
@@ -16103,7 +16103,7 @@
         "totalVotes": 2825,
         "totalSubs": 22,
         "totalChatMessages": 678,
-        "totalStreamMinutes": 5036,
+        "totalStreamMinutes": 5041,
         "emotes": {
           "❤": 28,
           "🙌": 29,
@@ -19175,7 +19175,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 6,
-        "totalStreamMinutes": 44,
+        "totalStreamMinutes": 49,
         "emotes": {
           "555a557b-672c-4db0-80d4-85564e0bbac4": 1
         },
@@ -20497,8 +20497,8 @@
     }
   },
   "auth": {
-    "accessToken": "952adf9d04567f9f459ffe372c862520",
-    "refreshToken": "ec991a786717cd761bde4c1544b6d00b",
+    "accessToken": "cb626f2e47e342a529d042bf7377f29c",
+    "refreshToken": "c54706a95666cbee2f0b30fb0914d893",
     "sessionToken": "ada2fe9cd8867efcdf3d865d914f0929",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
