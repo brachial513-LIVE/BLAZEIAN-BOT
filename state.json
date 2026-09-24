@@ -5010,8 +5010,8 @@
       "stats": {
         "totalVotes": 30558,
         "totalSubs": 84,
-        "totalChatMessages": 12097,
-        "totalStreamMinutes": 7232,
+        "totalChatMessages": 12099,
+        "totalStreamMinutes": 7241,
         "emotes": {
           "❤": 205,
           "🙌": 325,
@@ -5176,7 +5176,7 @@
           "5147d239-aaf5-4a20-97ab-ee128c039a1e": 6,
           "92bcf2c9-dff9-4282-85e5-c46c1b4f970b": 30,
           "778655e0-10bd-48ab-9f51-eb6f1798d7a4": 1,
-          "93796ec1-50dd-4757-a2f5-d8d984dbe883": 27,
+          "93796ec1-50dd-4757-a2f5-d8d984dbe883": 29,
           "7c20d134-7644-484f-bfcb-c21ff4db3300": 16,
           "1a7a0daf-fa5e-4452-8c03-58bc50d876e9": 5,
           "adf505fe-5d03-4608-9daa-2e2a50630dd1": 22,
@@ -5203,8 +5203,8 @@
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 23,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 13,
-          "🪐": 70,
-          "👽": 70,
+          "🪐": 71,
+          "👽": 71,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "6f01ba8a-250b-493f-9bad-596a135dea69": 22,
@@ -5515,17 +5515,9 @@
           "d68ad830-a1ed-44f9-81e4-83f2e2785ce9": "MellowThankful"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790231255101
+        "lastChatAt": 1790231618980
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ shogunmaster just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "fartvader",
-          "msg": "yep so cuutteeee"
-        },
         {
           "user": "fartvader",
           "msg": "waffle and mallows [emote:b1184fb6-b463-495d-816c-28f21c50e2d6] [emote:d69119bc-d210-494b-9cd1-4231ee6b3d50] [emote:0dfdfc88-3d2b-4df5-bad8-1386a8152264]"
@@ -5557,6 +5549,14 @@
         {
           "user": "fartvader",
           "msg": "wow you are overpowered now bro"
+        },
+        {
+          "user": "fartvader",
+          "msg": "brb broski..gonna do a quick errand"
+        },
+        {
+          "user": "botger",
+          "msg": "🪐 [emote:93796ec1-50dd-4757-a2f5-d8d984dbe883]Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone [emote:93796ec1-50dd-4757-a2f5-d8d984dbe883]👽"
         }
       ],
       "customCommands": {},
@@ -14737,7 +14737,7 @@
         "totalVotes": 6037,
         "totalSubs": 60,
         "totalChatMessages": 1454,
-        "totalStreamMinutes": 6618,
+        "totalStreamMinutes": 6627,
         "emotes": {
           "❤": 63,
           "🙌": 75,
@@ -20334,8 +20334,8 @@
     }
   },
   "auth": {
-    "accessToken": "fc30baf4385f86f5c78cdd28a133e41f",
-    "refreshToken": "e188bb5348fa863ff61fc94f7b468666",
+    "accessToken": "885eecfa5937cc7ca5d3dac57a6560f5",
+    "refreshToken": "a893fe64ebf7ab4e3d56b4f5fd45eea8",
     "sessionToken": "91b60428b2c7d624919502d0db975f61",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
