@@ -1908,7 +1908,7 @@
         "totalVotes": 28261,
         "totalSubs": 220,
         "totalChatMessages": 12286,
-        "totalStreamMinutes": 28812,
+        "totalStreamMinutes": 28815,
         "emotes": {
           "📊": 3,
           "🔥": 513,
@@ -2937,7 +2937,7 @@
         "totalVotes": 18316,
         "totalSubs": 80,
         "totalChatMessages": 6835,
-        "totalStreamMinutes": 20398,
+        "totalStreamMinutes": 20402,
         "emotes": {
           "❤": 209,
           "🙌": 161,
@@ -7870,9 +7870,9 @@
       "username": "tai_",
       "language": "en",
       "stats": {
-        "totalVotes": 11026,
+        "totalVotes": 11526,
         "totalSubs": 41,
-        "totalChatMessages": 680,
+        "totalChatMessages": 681,
         "totalStreamMinutes": 7355,
         "emotes": {
           "💚": 4,
@@ -7950,17 +7950,13 @@
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": "BLAZEGM",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
-        "lastChatAt": 1790122372585,
-        "sendFailStreak": 126,
-        "lastSendFailAt": 1790122372763,
+        "lastChatAt": 1790267878162,
+        "sendFailStreak": 127,
+        "lastSendFailAt": 1790267878377,
         "lastSendFailReason": "You are banned from this channel.",
-        "lastProbeAt": 1790122372579
+        "lastProbeAt": 1790267878209
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @crypt0k1ng96!"
@@ -7996,6 +7992,10 @@
         {
           "user": "scurvybot",
           "msg": "@DestinoProspero subscribed! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 500 votes, @mindgoblin!"
         }
       ],
       "customCommands": {},
@@ -13439,9 +13439,9 @@
       "language": "en",
       "joinedAt": 1784849405521,
       "stats": {
-        "totalVotes": 8130,
+        "totalVotes": 8630,
         "totalSubs": 32,
-        "totalChatMessages": 743,
+        "totalChatMessages": 744,
         "totalStreamMinutes": 5188,
         "emotes": {
           "❤": 34,
@@ -13455,7 +13455,7 @@
           "⚡": 2,
           "😂": 2,
           "🎁": 46,
-          "🗳": 156,
+          "🗳": 159,
           "😄": 2,
           "🤣": 7,
           "😀": 2,
@@ -13488,13 +13488,9 @@
           "b05156cf-7925-4298-8e19-f29e294cc793": "SADPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790095756876
+        "lastChatAt": 1790267964350
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @xeukuxaixang just gifted a sub to @declix3! How generous!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -13530,6 +13526,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -15024,7 +15024,7 @@
         "totalVotes": 4513,
         "totalSubs": 19,
         "totalChatMessages": 913,
-        "totalStreamMinutes": 11300,
+        "totalStreamMinutes": 11304,
         "emotes": {
           "❤": 61,
           "🙌": 46,
@@ -16103,7 +16103,7 @@
         "totalVotes": 2825,
         "totalSubs": 22,
         "totalChatMessages": 678,
-        "totalStreamMinutes": 5082,
+        "totalStreamMinutes": 5086,
         "emotes": {
           "❤": 28,
           "🙌": 29,
@@ -19175,7 +19175,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 6,
-        "totalStreamMinutes": 90,
+        "totalStreamMinutes": 94,
         "emotes": {
           "555a557b-672c-4db0-80d4-85564e0bbac4": 1
         },
@@ -20497,8 +20497,8 @@
     }
   },
   "auth": {
-    "accessToken": "847ada310a2289b25f8115253960d4fb",
-    "refreshToken": "481a702d7810b2fb2dccebc5635d347d",
+    "accessToken": "a0758fea73188007fe6636da5b8d0254",
+    "refreshToken": "444c4c06319cc696550d2f22c633d797",
     "sessionToken": "ada2fe9cd8867efcdf3d865d914f0929",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
