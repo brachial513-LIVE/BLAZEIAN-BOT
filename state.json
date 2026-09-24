@@ -14729,7 +14729,7 @@
         "totalVotes": 6037,
         "totalSubs": 60,
         "totalChatMessages": 1433,
-        "totalStreamMinutes": 6535,
+        "totalStreamMinutes": 6553,
         "emotes": {
           "❤": 63,
           "🙌": 75,
@@ -19011,18 +19011,22 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 2,
+        "totalChatMessages": 3,
         "totalStreamMinutes": 0,
         "emotes": {
           "❤": 2,
-          "🙌": 1
+          "🙌": 1,
+          "💪": 1,
+          "😂": 1
         },
         "emoteNames": {
           "❤": "❤",
-          "🙌": "🙌"
+          "🙌": "🙌",
+          "💪": "💪",
+          "😂": "😂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790225223224
+        "lastChatAt": 1790227258070
       },
       "chatMemory": [
         {
@@ -19032,6 +19036,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ BLAZEIAN_BOT_AI just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "brachial513",
+          "msg": "@blazeian_bot_ai Welcome to @hortenseemu44 Be nice to him 💪🏼😂"
         }
       ],
       "customCommands": {},
@@ -20311,8 +20319,8 @@
     }
   },
   "auth": {
-    "accessToken": "b4ac00700dc0ea1023456c5165eb8ad8",
-    "refreshToken": "cf90cfa678238c927178d3c40a57b7fe",
+    "accessToken": "73665c5cea9db78d98cdcea227f85087",
+    "refreshToken": "367385c01faa7bd7135ce87605a249f4",
     "sessionToken": "91b60428b2c7d624919502d0db975f61",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
