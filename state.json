@@ -2919,16 +2919,16 @@
       "stats": {
         "totalVotes": 18316,
         "totalSubs": 80,
-        "totalChatMessages": 6820,
-        "totalStreamMinutes": 20254,
+        "totalChatMessages": 6822,
+        "totalStreamMinutes": 20264,
         "emotes": {
           "❤": 209,
           "🙌": 161,
           "🗳": 954,
-          "📴": 173,
-          "👋": 195,
-          "🔴": 171,
-          "🎉": 268,
+          "📴": 174,
+          "👋": 196,
+          "🔴": 172,
+          "🎉": 269,
           "🏆": 22,
           "🤗": 34,
           "💎": 7,
@@ -3235,18 +3235,10 @@
           "c5d11b0f-661a-4d6f-b714-1c36e64195e2": "Hugback",
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
-        "lastChatAt": 1790246259871,
+        "lastChatAt": 1790247370543,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "how are you today btw? im all good..just battling the heat"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "i am ok"
-        },
         {
           "user": "fartvader",
           "msg": "i'll be lurkin zani..going to finish my course trainings"
@@ -3278,6 +3270,14 @@
         {
           "user": "faithy_",
           "msg": "hope you have a good stream!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -3290,7 +3290,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "🎮 It Is What It Is 👀 | Just Playing Some Games | 🎰 Sub Raffle 🏆 150 Votes — Games + Demos",
+      "streamTitle": "🎮Anything can Happen 👀 | Just Playing Some Games | 🎰 Sub Raffle 🏆 150 Votes — Games + Demos",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty soo much” and emotes.",
       "_profileAtCount": 6796,
       "loyalty": {
@@ -3429,8 +3429,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/fc5ab98b-e0a9-4580-a90b-de6d7af4203e.png",
       "nudgedAt": 1785006485591,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "🎮 Gaming with A Zani & @Zer0Cache live in Blaze VC 👀 | Just Having Some Fun | 🎰 Sub Raffle 🏆 150 Votes — Off The Grid",
-      "lastStreamEndedAt": 1790198278332,
+      "lastStreamInfo": "🎮 It Is What It Is 👀 | Just Playing Some Games | 🎰 Sub Raffle 🏆 150 Votes — Games + Demos",
+      "lastStreamEndedAt": 1790246814586,
       "botVip": true,
       "commandMedia": {
         "fluffy": {
@@ -5011,12 +5011,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 30558,
-        "totalSubs": 84,
-        "totalChatMessages": 12216,
+        "totalSubs": 85,
+        "totalChatMessages": 12217,
         "totalStreamMinutes": 7386,
         "emotes": {
           "❤": 205,
-          "🙌": 326,
+          "🙌": 327,
           "🗳": 1439,
           "✌": 10,
           "😊": 10,
@@ -5028,7 +5028,7 @@
           "⚡": 88,
           "😂": 159,
           "😍": 28,
-          "🔥": 246,
+          "🔥": 248,
           "😎": 6,
           "😁": 23,
           "😄": 26,
@@ -5517,13 +5517,9 @@
           "d68ad830-a1ed-44f9-81e4-83f2e2785ce9": "MellowThankful"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790240690365
+        "lastChatAt": 1790246539681
       },
       "chatMemory": [
-        {
-          "user": "faithy_",
-          "msg": "all good just eating some snacks"
-        },
         {
           "user": "faithy_",
           "msg": "[emote:63e378a3-c35f-4a60-a9a7-76e4894cfdba]"
@@ -5559,6 +5555,10 @@
         {
           "user": "botger",
           "msg": "Appreciate your time.  Cheers and catchya next time. 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @NiRuntz has resubscribed — 3 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -5696,6 +5696,11 @@
         },
         "guney": {
           "name": "guney",
+          "months": 1,
+          "tier": 1
+        },
+        "niruntz": {
+          "name": "niruntz",
           "months": 1,
           "tier": 1
         }
@@ -10258,7 +10263,7 @@
         "totalVotes": 24485,
         "totalSubs": 146,
         "totalChatMessages": 2771,
-        "totalStreamMinutes": 14692,
+        "totalStreamMinutes": 14712,
         "emotes": {
           "❤": 116,
           "🙌": 203,
@@ -16018,7 +16023,7 @@
         "totalVotes": 2795,
         "totalSubs": 22,
         "totalChatMessages": 656,
-        "totalStreamMinutes": 4811,
+        "totalStreamMinutes": 4831,
         "emotes": {
           "❤": 26,
           "🙌": 28,
