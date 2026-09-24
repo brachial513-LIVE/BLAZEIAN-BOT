@@ -10256,7 +10256,7 @@
         "totalVotes": 24485,
         "totalSubs": 145,
         "totalChatMessages": 2760,
-        "totalStreamMinutes": 14597,
+        "totalStreamMinutes": 14602,
         "emotes": {
           "❤": 116,
           "🙌": 202,
@@ -10946,7 +10946,7 @@
         "totalVotes": 4437,
         "totalSubs": 32,
         "totalChatMessages": 282,
-        "totalStreamMinutes": 6473,
+        "totalStreamMinutes": 6478,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -12323,7 +12323,7 @@
         "totalVotes": 5991,
         "totalSubs": 40,
         "totalChatMessages": 1709,
-        "totalStreamMinutes": 4215,
+        "totalStreamMinutes": 4220,
         "emotes": {
           "❤": 86,
           "🙌": 68,
@@ -15421,8 +15421,8 @@
       "stats": {
         "totalVotes": 14991,
         "totalSubs": 95,
-        "totalChatMessages": 4941,
-        "totalStreamMinutes": 9176,
+        "totalChatMessages": 4942,
+        "totalStreamMinutes": 9178,
         "emotes": {
           "😅": 1,
           "🔥": 244,
@@ -15440,7 +15440,7 @@
           "🙏": 1,
           "🙌": 156,
           "💪": 1,
-          "👋": 40,
+          "👋": 41,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 693,
           "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 456,
           "🔴": 36,
@@ -15454,7 +15454,7 @@
           "🗳": 438,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 30,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 18,
-          "📴": 35,
+          "📴": 36,
           "d021d096-f2ed-48e4-92df-af5f224e1a3f": 225,
           "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 113,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 18,
@@ -15620,7 +15620,7 @@
           "😬": "😬"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790240525174,
+        "lastChatAt": 1790240830568,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -15628,10 +15628,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "halooooo"
-        },
         {
           "user": "nekoschwan",
           "msg": "halaaa tagal ko ng naka wishlist yaaan"
@@ -15667,6 +15663,10 @@
         {
           "user": "fartvader",
           "msg": "raiding neko"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -15679,12 +15679,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/ec1082d4-18b9-4e76-ad37-3f807fe24197.gif",
       "followed": true,
-      "streamTitle": "Werk Werk Werk |  w/ @cr33pling @mutzume @jaggerjack🔥🎮 — Risk of Rain 2",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "fartvader’s channel is a high‑energy, supportive playground where “brooo”, “eyyyyy”, “yooo welcome bros!!”, “happy gaming kuys!”, “GM GM”, and “much love ❤️❤️” echo. Fans celebrate with “follow for a follow” 🍻🔥, “WC broo!” drops, shoutouts, emotes, nonstop “gg”, raiding, 7‑days‑to‑die gameplay, constant hype, and mutual support. The community thrives on constant hype, emote‑filled chatter, and mutual support.",
       "_profileAtCount": 4893,
-      "lastStreamInfo": "Werk Werk Werk |  w/ @mutzume @jaggerjack🔥🎮 — Valheim",
-      "lastStreamEndedAt": 1790104697411,
+      "lastStreamInfo": "Werk Werk Werk |  w/ @cr33pling @mutzume @jaggerjack🔥🎮 — Risk of Rain 2",
+      "lastStreamEndedAt": 1790240825398,
       "nudgedAt": 1786436806709,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -16016,7 +16016,7 @@
         "totalVotes": 2795,
         "totalSubs": 22,
         "totalChatMessages": 650,
-        "totalStreamMinutes": 4716,
+        "totalStreamMinutes": 4721,
         "emotes": {
           "❤": 26,
           "🙌": 28,
@@ -20334,8 +20334,8 @@
     }
   },
   "auth": {
-    "accessToken": "454ce1db78e74ed402219fc98780bad0",
-    "refreshToken": "0ae9865e35f3c560e03b6e1107ac3076",
+    "accessToken": "78dde6f8cff037b858c9388dc8a4fba2",
+    "refreshToken": "3402dd431ad63b70c789a334c10a6454",
     "sessionToken": "91b60428b2c7d624919502d0db975f61",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
