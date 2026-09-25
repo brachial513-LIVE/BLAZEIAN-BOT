@@ -1377,8 +1377,8 @@
       "stats": {
         "totalVotes": 22889,
         "totalSubs": 62,
-        "totalChatMessages": 30591,
-        "totalStreamMinutes": 3022,
+        "totalChatMessages": 30599,
+        "totalStreamMinutes": 3042,
         "emotes": {
           "🔥": 1867,
           "🗳": 28,
@@ -1683,7 +1683,7 @@
           "6a73a37f-412d-44f0-bbbf-56c67649924d": "ObeezTyping",
           "32d0bd66-fa0e-4eb3-9df3-edfc57ccc778": "ObeezBoom"
         },
-        "lastChatAt": 1790367831895,
+        "lastChatAt": 1790369098961,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1693,14 +1693,6 @@
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
-        {
-          "user": "sheena",
-          "msg": "i think you forgot to turn off your stgream after raid lmao"
-        },
-        {
-          "user": "botger",
           "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
         },
         {
@@ -1730,6 +1722,14 @@
         {
           "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@badger No game is currently active! Wait for the streamer to start one."
+        },
+        {
+          "user": "botger",
+          "msg": "(Handled by bot — joins the channel and confirms in chat)"
         }
       ],
       "customCommands": {},
@@ -7205,11 +7205,16 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 6,
-        "totalStreamMinutes": 29,
-        "emotes": {},
-        "emoteNames": {},
-        "sendFailStreak": 0
+        "totalChatMessages": 7,
+        "totalStreamMinutes": 42,
+        "emotes": {
+          "🎶": 1
+        },
+        "emoteNames": {
+          "🎶": "🎶"
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1790369031886
       },
       "chatMemory": [
         {
@@ -7223,6 +7228,10 @@
         {
           "user": "brachial513",
           "msg": "@BLAZEIAN_BOT_AI Which language are you allowed to speak on this channel ?"
+        },
+        {
+          "user": "gaara27",
+          "msg": "🎶"
         }
       ],
       "customCommands": {},
@@ -7232,8 +7241,10 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/e354fc86-2a69-404f-99c2-bcc78909269f.jpg",
-      "streamTitle": "",
-      "gameOverride": ""
+      "streamTitle": "No Mic / Just Relaxed Music — Music",
+      "gameOverride": "",
+      "lastStreamInfo": "Otherside - First Blaze Stream — Otherside (by Yuga Labs)",
+      "lastStreamEndedAt": 1790368311443
     },
     "25b30dc5-23f5-4bea-94ce-ba178c73c022": {
       "username": "time",
@@ -8146,8 +8157,8 @@
       "stats": {
         "totalVotes": 18685,
         "totalSubs": 65,
-        "totalChatMessages": 15251,
-        "totalStreamMinutes": 10271,
+        "totalChatMessages": 15261,
+        "totalStreamMinutes": 10291,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -8579,41 +8590,9 @@
           "💅": "💅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790367834063
+        "lastChatAt": 1790368977181
       },
       "chatMemory": [
-        {
-          "user": "cymatrix",
-          "msg": "rockin out with all you awesome peeps"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "Tales of Twisted Rhyme is a dark folklore series where nursery rhymes, fairy tales, and childhood warnings are pulled apart and stitched back together with older teeth."
-        },
-        {
-          "user": "octo",
-          "msg": "i gwot my fwost bwook pubwished by elmwuh fwudd"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "run fwost run!"
-        },
-        {
-          "user": "octo",
-          "msg": "he said something about huntin wabbits"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "all the words were taken by your writing bruh"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "hahaha, love it! I need to read those!"
-        },
-        {
-          "user": "metal_bot",
-          "msg": "@cymatrix Added \"Whitesnake - Still of the Night (2020 Remix)\" to the queue! (Position #2)"
-        },
         {
           "user": "cymatrix",
           "msg": "for real man, you're rockin it"
@@ -8621,6 +8600,38 @@
         {
           "user": "cymatrix",
           "msg": "oh yeeeeahhhhhhhhhhh"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "bitchen!"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "fingers are fingering but brain isn't braining... well one out of two ain't bad for a Friday"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@cymatrix Added \"Incubus - Sick Sad Little World\" to the queue! (Position #2)"
+        },
+        {
+          "user": "algento",
+          "msg": "making the metal hello!"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@algento Added \"Maneskin - For Your Love\" to the queue! (Position #3)"
+        },
+        {
+          "user": "comeatmebro",
+          "msg": "cool tunes"
+        },
+        {
+          "user": "comeatmebro",
+          "msg": "having many treats on my Friday so very good thank you"
+        },
+        {
+          "user": "comeatmebro",
+          "msg": "And you?"
         }
       ],
       "customCommands": {},
@@ -12890,8 +12901,8 @@
       "stats": {
         "totalVotes": 13872,
         "totalSubs": 20,
-        "totalChatMessages": 23762,
-        "totalStreamMinutes": 16642,
+        "totalChatMessages": 23781,
+        "totalStreamMinutes": 16662,
         "emotes": {
           "❤": 74,
           "🙌": 60,
@@ -13247,20 +13258,36 @@
           "💫": "💫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790367910565
+        "lastChatAt": 1790368732364
       },
       "chatMemory": [
         {
-          "user": "junior7_",
-          "msg": "Isso kkk"
+          "user": "mauhzera",
+          "msg": "kkkkkkkkk"
         },
         {
           "user": "mauhzera",
-          "msg": "1 hora e meia de Rechan kkkkkkk"
+          "msg": "A gente come oq tiver, mistura tudo e manda pra dentro kakakaka"
         },
         {
           "user": "mauhzera",
-          "msg": "Não joguei mais depois daquele dia"
+          "msg": "Ah sim"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "kkkkkkkkkk"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Chefe estilo Cuphead"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Ta eh me dando fome kkkkkkk"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Sobre o jogo de amanhã Eden, vc conhece hehehe"
         },
         {
           "user": "botger",
@@ -13268,27 +13295,11 @@
         },
         {
           "user": "mauhzera",
-          "msg": "Qualquer coisa a gente adianta outra kkkkkk"
+          "msg": "Foi uma afirmação Eden"
         },
         {
           "user": "mauhzera",
-          "msg": "Romã??"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "Eu dei a ideia pra resolver esse problema no grupo hj mais cedo Eden kkkkk"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Maúh quer briga kkk"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "kkkkkkkkk"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Hoje dia não.dar pra fazer isso.ta todo mundo muito Nilao das ideias pra começar uma treta é dois palito"
+          "msg": "kkkkkkk"
         }
       ],
       "customCommands": {},
@@ -13404,7 +13415,7 @@
         "totalVotes": 8714,
         "totalSubs": 21,
         "totalChatMessages": 1053,
-        "totalStreamMinutes": 7041,
+        "totalStreamMinutes": 7061,
         "emotes": {
           "❤": 64,
           "🙌": 41,
@@ -15668,7 +15679,7 @@
         "totalVotes": 15492,
         "totalSubs": 99,
         "totalChatMessages": 5237,
-        "totalStreamMinutes": 9758,
+        "totalStreamMinutes": 9778,
         "emotes": {
           "😅": 1,
           "🔥": 252,
@@ -18434,7 +18445,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 57,
-        "totalStreamMinutes": 2960,
+        "totalStreamMinutes": 2977,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -18529,7 +18540,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/53fb8a6e-2aec-4779-8b88-7fd1617bd40d.jpg",
-      "streamTitle": "",
+      "streamTitle": "🔴 LIVE: Marvel's Wolverine (NG+ Part Way Through!) ➡️ Plus Checking Out Samson: A Tyndalston Story — IRL",
       "lastStreamInfo": "Testing Software — Fortnite",
       "lastStreamEndedAt": 1790353994182,
       "gameOverride": "",
