@@ -4724,11 +4724,11 @@
       "language": "en",
       "stats": {
         "totalVotes": 10389,
-        "totalSubs": 48,
-        "totalChatMessages": 1936,
+        "totalSubs": 49,
+        "totalChatMessages": 1938,
         "totalStreamMinutes": 10311,
         "emotes": {
-          "✨": 41,
+          "✨": 42,
           "🖥": 22,
           "🔥": 179,
           "👋": 106,
@@ -4739,7 +4739,7 @@
           "🏆": 21,
           "💥": 29,
           "🗳": 314,
-          "🎁": 52,
+          "🎁": 53,
           "👑": 69,
           "💜": 8,
           "🏹": 1,
@@ -4945,18 +4945,10 @@
           "💞": "💞",
           "🔫": "🔫"
         },
-        "lastChatAt": 1790346408594,
+        "lastChatAt": 1790372098815,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "whats up Zer0"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "enjoy brother!"
-        },
         {
           "user": "agent00zani",
           "msg": "ggs"
@@ -4988,6 +4980,14 @@
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 3 votes, @ezhaxx_3! Your support is truly appreciated! 🙌"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎁 [GIFTED SUB]: @zer0cache just gifted a sub to a lucky community member! Absolute legend."
+        },
+        {
+          "user": "cachebot",
+          "msg": "✨ [NEW FOLLOWER]: Welcome to the channel, @gaara27! Thank you for the follow!."
         }
       ],
       "customCommands": {},
@@ -7205,16 +7205,18 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 7,
-        "totalStreamMinutes": 87,
+        "totalChatMessages": 10,
+        "totalStreamMinutes": 107,
         "emotes": {
-          "🎶": 1
+          "🎶": 1,
+          "😀": 1
         },
         "emoteNames": {
-          "🎶": "🎶"
+          "🎶": "🎶",
+          "😀": "😀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790369031886
+        "lastChatAt": 1790372070180
       },
       "chatMemory": [
         {
@@ -7232,6 +7234,18 @@
         {
           "user": "gaara27",
           "msg": "🎶"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "Welcome to Blaze @gaara27!"
+        },
+        {
+          "user": "gaara27",
+          "msg": "Trank you :)"
+        },
+        {
+          "user": "gaara27",
+          "msg": "Thank  you* 😀 wish  you a good  evening"
         }
       ],
       "customCommands": {},
@@ -9030,7 +9044,7 @@
         "totalVotes": 9963,
         "totalSubs": 198,
         "totalChatMessages": 483,
-        "totalStreamMinutes": 13919,
+        "totalStreamMinutes": 13939,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -9568,8 +9582,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 38,
-        "totalStreamMinutes": 26,
+        "totalChatMessages": 40,
+        "totalStreamMinutes": 35,
         "emotes": {
           "👋": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
@@ -9584,18 +9598,10 @@
           "🔥": "🔥",
           "9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2": "dancingfireball"
         },
-        "lastChatAt": 1790370985175,
+        "lastChatAt": 1790372419299,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: Just talking! Come hang out and watch."
-        },
-        {
-          "user": "omererkmen",
-          "msg": "@wapi is Live IRL"
-        },
         {
           "user": "omererkmen",
           "msg": "[emote:9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2]"
@@ -9627,6 +9633,14 @@
         {
           "user": "omererkmen",
           "msg": "[emote:9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2]"
+        },
+        {
+          "user": "omererkmen",
+          "msg": "My iPhone overheated ending…"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -9639,10 +9653,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/64454921-8814-4dcc-953b-a596de2fa6ee.gif",
       "followed": true,
-      "streamTitle": "Just talking — IRL",
+      "streamTitle": "",
       "lastStreamInfo": "Just talking — IRL",
-      "lastStreamEndedAt": 1790370490635,
-      "gameOverride": ""
+      "lastStreamEndedAt": 1790372418904,
+      "gameOverride": "",
+      "profile": "o mererkmen streams chill “Just talking” sessions, often IRL, with the community humming “Come hang out and watch.” The chat loves the signature emote 9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2 and the phrase “My iPhone overheated ending…”. Followers celebrate by cheering “Thanks for watching” and “Stream is now live” alerts, keeping the vibe relaxed and supportive.",
+      "_profileAtCount": 40
     },
     "bdaee591-b596-478b-8683-edf9950eb167": {
       "username": "0xscheun",
@@ -12909,8 +12925,8 @@
       "stats": {
         "totalVotes": 13872,
         "totalSubs": 20,
-        "totalChatMessages": 23798,
-        "totalStreamMinutes": 16707,
+        "totalChatMessages": 23859,
+        "totalStreamMinutes": 16727,
         "emotes": {
           "❤": 74,
           "🙌": 60,
@@ -12918,8 +12934,8 @@
           "🔥": 45,
           "🔴": 89,
           "🎉": 193,
-          "🪙": 692,
-          "⚡": 470,
+          "🪙": 694,
+          "⚡": 472,
           "👀": 50,
           "🍿": 12,
           "🤗": 20,
@@ -13015,7 +13031,7 @@
           "🪡": 1,
           "🐗": 1,
           "🍨": 1,
-          "c44b7281-c442-4e6d-84ee-9d65261c0ee8": 17,
+          "c44b7281-c442-4e6d-84ee-9d65261c0ee8": 18,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 17,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 10,
@@ -13266,48 +13282,48 @@
           "💫": "💫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790371832749
+        "lastChatAt": 1790372993299
       },
       "chatMemory": [
         {
           "user": "nilomusculos_7",
-          "msg": "Oh boloia me cortoukkk"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "cortei mermo"
+          "msg": "Salfado"
         },
         {
           "user": "nilomusculos_7",
-          "msg": "Kkkk"
+          "msg": "[emote:c44b7281-c442-4e6d-84ee-9d65261c0ee8]"
         },
         {
           "user": "lovemikami",
-          "msg": "fica falando bestage de músculos, urgh"
+          "msg": "ainda não"
         },
         {
-          "user": "mauhzera",
-          "msg": "Lulinha respondeu, não vai poder jogar, não ta bem"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "é?"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "Sim"
+          "user": "nilomusculos_7",
+          "msg": "Iiiii"
         },
         {
           "user": "lovemikami",
-          "msg": "então como fica a vaga Maumau?"
+          "msg": "tu num chegou ao level 1 não"
         },
         {
           "user": "lovemikami",
-          "msg": "ixi, melhoras pra ele"
+          "msg": "deixa de gaiatisse kkkkk"
+        },
+        {
+          "user": "botger",
+          "msg": "Doações Live pix: https://midpix.live/SofrenciaPlay"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @lovemikami 79,375 points."
         },
         {
           "user": "lovemikami",
-          "msg": "foi jogar ghost ghost kkkkkkk"
+          "msg": "tÔ vendo com mauh pra ser a gente, a gente tem a vez"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "apesar que o jogo do lipe não foi concluido né, mas ele jogou essa semana rsrs"
         }
       ],
       "customCommands": {},
@@ -15687,7 +15703,7 @@
         "totalVotes": 15492,
         "totalSubs": 99,
         "totalChatMessages": 5237,
-        "totalStreamMinutes": 9823,
+        "totalStreamMinutes": 9843,
         "emotes": {
           "😅": 1,
           "🔥": 252,
@@ -17639,7 +17655,7 @@
         "totalVotes": 2027,
         "totalSubs": 1,
         "totalChatMessages": 141,
-        "totalStreamMinutes": 4553,
+        "totalStreamMinutes": 4569,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -17733,7 +17749,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c1b73074-914a-4a28-a5ad-8b21cb24da6d.png",
-      "streamTitle": "",
+      "streamTitle": "Bibletime and games 9/22/2026 !SO8 for the Music I Listen to — IRL",
       "lastStreamInfo": "Bibletime and games 9/22/2026 !SO8 for the Music I Listen to — IRL",
       "lastStreamEndedAt": 1790321903600,
       "gameOverride": "",
@@ -18453,7 +18469,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 57,
-        "totalStreamMinutes": 3021,
+        "totalStreamMinutes": 3041,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -20760,6 +20776,11 @@
     "rafael_zuh": {
       "note": "Enjoys casual chess games, often chats while eating, and uses playful, light‑hearted humor.",
       "at": 1790363388422,
+      "n": 1
+    },
+    "thunderfeetxx_1": {
+      "note": "Enjoys gaming chats, uses playful humor, and prefers Howard Jones over Jesse.",
+      "at": 1790372628594,
       "n": 1
     }
   },
