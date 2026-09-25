@@ -5061,8 +5061,8 @@
       "stats": {
         "totalVotes": 30588,
         "totalSubs": 88,
-        "totalChatMessages": 12368,
-        "totalStreamMinutes": 7605,
+        "totalChatMessages": 12371,
+        "totalStreamMinutes": 7610,
         "emotes": {
           "❤": 207,
           "🙌": 332,
@@ -5227,7 +5227,7 @@
           "5147d239-aaf5-4a20-97ab-ee128c039a1e": 10,
           "92bcf2c9-dff9-4282-85e5-c46c1b4f970b": 30,
           "778655e0-10bd-48ab-9f51-eb6f1798d7a4": 1,
-          "93796ec1-50dd-4757-a2f5-d8d984dbe883": 54,
+          "93796ec1-50dd-4757-a2f5-d8d984dbe883": 56,
           "7c20d134-7644-484f-bfcb-c21ff4db3300": 16,
           "1a7a0daf-fa5e-4452-8c03-58bc50d876e9": 5,
           "adf505fe-5d03-4608-9daa-2e2a50630dd1": 22,
@@ -5254,8 +5254,8 @@
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 25,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 13,
-          "🪐": 82,
-          "👽": 82,
+          "🪐": 83,
+          "👽": 83,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "6f01ba8a-250b-493f-9bad-596a135dea69": 24,
@@ -5280,7 +5280,7 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 4,
           "💯": 3,
           "4e0b7767-702d-4685-a85b-68f2737825a0": 10,
-          "📌": 2,
+          "📌": 3,
           "e89c92dd-34d7-4610-9830-2122e4bdf0f6": 7,
           "308d337a-1e25-4ecd-9fc0-02d687f5b40e": 18,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 1,
@@ -5574,17 +5574,9 @@
           "🤸": "🤸"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790318403405
+        "lastChatAt": 1790319249870
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "Holiiiiiii"
-        },
-        {
-          "user": "fartvader",
-          "msg": "lol nakedman on the loose"
-        },
         {
           "user": "briggsy",
           "msg": "haha"
@@ -5616,6 +5608,14 @@
         {
           "user": "fartvader",
           "msg": "[emote:51d5d291-383d-4ca1-a27a-6678041b3a66] [emote:51d5d291-383d-4ca1-a27a-6678041b3a66] [emote:51d5d291-383d-4ca1-a27a-6678041b3a66]"
+        },
+        {
+          "user": "botger",
+          "msg": "📌 Clip saved at 3:39:26 — naked man"
+        },
+        {
+          "user": "botger",
+          "msg": "🪐 [emote:93796ec1-50dd-4757-a2f5-d8d984dbe883]Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone [emote:93796ec1-50dd-4757-a2f5-d8d984dbe883]👽"
         }
       ],
       "customCommands": {},
@@ -12427,7 +12427,7 @@
         "totalVotes": 6142,
         "totalSubs": 42,
         "totalChatMessages": 1798,
-        "totalStreamMinutes": 4445,
+        "totalStreamMinutes": 4450,
         "emotes": {
           "❤": 92,
           "🙌": 73,
@@ -17522,7 +17522,7 @@
         "totalVotes": 2027,
         "totalSubs": 1,
         "totalChatMessages": 141,
-        "totalStreamMinutes": 4505,
+        "totalStreamMinutes": 4510,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -20685,8 +20685,8 @@
     }
   },
   "auth": {
-    "accessToken": "9e073e02d4403d64d06c801c88ae39ab",
-    "refreshToken": "0bb4ddf5f4c9282d623100b2e711db59",
+    "accessToken": "55473b2d6251594cd66cb5bd3ae2964f",
+    "refreshToken": "259534c4ef4ab2e91af58fd0a3e469b2",
     "sessionToken": "ada2fe9cd8867efcdf3d865d914f0929",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
