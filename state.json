@@ -745,14 +745,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 90730,
-        "totalSubs": 150,
-        "totalChatMessages": 9596,
+        "totalSubs": 151,
+        "totalChatMessages": 9597,
         "totalStreamMinutes": 3497,
         "emotes": {
           "🗳": 1704,
           "❤": 531,
-          "🙌": 252,
-          "🔥": 255,
+          "🙌": 253,
+          "🔥": 257,
           "☺": 6,
           "🔴": 34,
           "🎉": 122,
@@ -1101,17 +1101,13 @@
           "e898a0e4-02dd-40a8-935c-1d76494fcd30": "Lurk_Mode"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790277628402,
+        "lastChatAt": 1790301889148,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "dofferlive",
-          "msg": "but u are a maaaaaaaaaaaaaaaaaannn"
-        },
         {
           "user": "dofferlive",
           "msg": "need  to keep packing butut nice seen u live"
@@ -1147,6 +1143,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Future42 has resubscribed — 9 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -1353,6 +1353,11 @@
         },
         "annyoneany": {
           "name": "annyoneany",
+          "months": 1,
+          "tier": 1
+        },
+        "future42": {
+          "name": "future42",
           "months": 1,
           "tier": 1
         }
@@ -5921,8 +5926,8 @@
       "stats": {
         "totalVotes": 27218,
         "totalSubs": 64,
-        "totalChatMessages": 7555,
-        "totalStreamMinutes": 13357,
+        "totalChatMessages": 7562,
+        "totalStreamMinutes": 13377,
         "emotes": {
           "❤": 104,
           "🙌": 185,
@@ -5955,7 +5960,7 @@
           "💔": 4,
           "😬": 43,
           "☺": 2,
-          "✌": 1,
+          "✌": 2,
           "😍": 18,
           "😏": 38,
           "🍀": 51,
@@ -5963,14 +5968,14 @@
           "🍆": 1,
           "😝": 3,
           "😪": 1,
-          "😌": 2,
+          "😌": 3,
           "😀": 5,
           "😱": 14,
           "🤭": 7,
           "😥": 15,
           "⭕": 25,
           "‼": 15,
-          "👍": 13,
+          "👍": 14,
           "🤗": 8,
           "😇": 2,
           "👼": 1,
@@ -6281,38 +6286,10 @@
           "🐱": "🐱",
           "🙀": "🙀"
         },
-        "lastChatAt": 1790301343888,
+        "lastChatAt": 1790302450582,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "it sounds hard"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Is that a mandolin?"
-        },
-        {
-          "user": "briggsy",
-          "msg": "brb man"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Back to old faithful"
-        },
-        {
-          "user": "briggsy",
-          "msg": "DOTA"
-        },
-        {
-          "user": "briggsy",
-          "msg": "haha, what is that image in the top left?  the spanking?"
-        },
-        {
-          "user": "briggsy",
-          "msg": "haha"
-        },
         {
           "user": "briggsy",
           "msg": "muy bien"
@@ -6324,6 +6301,34 @@
         {
           "user": "scurvybot",
           "msg": "@cripiechuccles subscribed! Thank you!"
+        },
+        {
+          "user": "avisi",
+          "msg": "Let's go @nadietv! been a minute since I saw you on ✌️😌👍\n\nabout to play some games. Have a good stream my fren!"
+        },
+        {
+          "user": "avisi",
+          "msg": "chillin chill"
+        },
+        {
+          "user": "avisi",
+          "msg": "forward march!"
+        },
+        {
+          "user": "avisi",
+          "msg": "wardogs"
+        },
+        {
+          "user": "avisi",
+          "msg": "40 usd i think"
+        },
+        {
+          "user": "avisi",
+          "msg": "if they keep building on it there's a good chance it might be worth it. \n\nI like how you gotta build up a FOB and defend it. Or play the hot zone for double capture progress."
+        },
+        {
+          "user": "avisi",
+          "msg": "well not progress but occupancy count"
         }
       ],
       "customCommands": {},
@@ -8692,8 +8697,8 @@
       "stats": {
         "totalVotes": 13516,
         "totalSubs": 53,
-        "totalChatMessages": 2310,
-        "totalStreamMinutes": 16871,
+        "totalChatMessages": 2311,
+        "totalStreamMinutes": 16891,
         "emotes": {
           "🔥": 665,
           "🔴": 200,
@@ -8739,19 +8744,19 @@
           "💃": 6,
           "🫐": 8,
           "😇": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 20,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 21,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 9,
           "f1a08c52-941d-4043-837b-23a97fcc0729": 59,
           "0f00728b-14b3-4c72-8561-2cf9bad78f9e": 36,
           "3781d681-cefb-4ade-a417-4a5390c9994c": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 6,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
-          "809bfa51-da4f-4570-9c70-67a802c6da7b": 14,
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": 15,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 23,
           "2c171ac8-a29e-416a-a8a5-b57347953f75": 21,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 15,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 17,
           "6e88b7f9-bd2e-441e-8cd2-3c5aaf5d0f91": 37,
           "37719561-c923-4260-b1a5-e3eda10c103d": 4,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 4,
@@ -8840,14 +8845,10 @@
           "😆": "😆",
           "9294e28e-48fa-409c-b43b-98287465b788": "CONTRASTPYRO2"
         },
-        "lastChatAt": 1790300427217,
+        "lastChatAt": 1790301880016,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]  normal thing...\ngn my bro"
-        },
         {
           "user": "agent00zani",
           "msg": "wishing all best in your dar @xxtowerdogxx"
@@ -8883,6 +8884,10 @@
         {
           "user": "botger",
           "msg": "Go check out Dark Solar Tactical Gamings New Website, DSTG is built to bring Mental Health Awareness and support to the gaming community and we welcome everyone to join the ranks! https://www.darksolargaming.com/?ref=xxtowerdogxx"
+        },
+        {
+          "user": "grim1angel",
+          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
         }
       ],
       "customCommands": {},
@@ -16709,8 +16714,8 @@
       "stats": {
         "totalVotes": 5440,
         "totalSubs": 27,
-        "totalChatMessages": 3294,
-        "totalStreamMinutes": 9931,
+        "totalChatMessages": 3299,
+        "totalStreamMinutes": 9951,
         "emotes": {
           "👋": 71,
           "⚠": 2,
@@ -16872,21 +16877,9 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790301459838
+        "lastChatAt": 1790302785953
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@flower4803 congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Bear With Me Royale Skin Pack #1  from The Online Inn. View here: https://scurvybot.com/wax/tx/2be947ecb5772c5b81e36996ed5273f8c21959443368ae6fb03cb94098ae2648"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@terranlore congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/b2c484591a942db593959ba2abbcf7bb35eac2a041b74c4d03063a82fde6e9c9"
-        },
-        {
-          "user": "flower4803",
-          "msg": "ooo, more skins for me"
-        },
         {
           "user": "terranlore",
           "msg": "nice, more fish."
@@ -16914,6 +16907,18 @@
         {
           "user": "flower4803",
           "msg": "hehehe, i am swimmin  with  the fikshikes now"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@terranlore congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/b1959be2c911eac32085d442e4e9b2ab9b2e6bf163e1ad07be8494f5a2942c08"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@flower4803 congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Max from The Online Inn. View here: https://scurvybot.com/wax/tx/3c65c165e32cf173077ff6cee806d1daeabad6406301bee73e487651d17a1aeb"
+        },
+        {
+          "user": "flower4803",
+          "msg": "oololo, i got max, thanks!!!"
         }
       ],
       "customCommands": {
@@ -19181,7 +19186,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 26,
-        "totalStreamMinutes": 457,
+        "totalStreamMinutes": 477,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -19552,9 +19557,9 @@
       "n": 29
     },
     "fartvader": {
-      "note": "Energetic gamer who loves Ghost Recon Wildlands, Palworld, Dota, Hero Siege, Roblox battle‑royale, and always brings playful, upbeat humor.",
-      "at": 1790236008400,
-      "n": 51
+      "note": "Energetic gamer who loves Ghost Recon Wildlands, Palworld, Dota, Hero Siege, Roblox battle‑royale, and always keeps the chat playful and upbeat.",
+      "at": 1790302008410,
+      "n": 52
     },
     "fluffy": {
       "note": "Fluffy is playful, enthusiastic, loves gaming—especially Jackbox—and music, and jokes warmly while engaging warmly with the community.",
@@ -19573,8 +19578,8 @@
     },
     "xeukuxaixang": {
       "note": "Xeukuxaixang loves League of Legends, Honor of Kings, Tokyo Ghoul, and Digimon, and chats playfully with emojis and jokes.",
-      "at": 1790236668494,
-      "n": 55
+      "at": 1790302668330,
+      "n": 56
     },
     "tenshi": {
       "note": "Enjoys MOBAs, shares upbeat music links, uses playful emotes, and keeps chats lively with light, humorous banter.",
