@@ -5921,14 +5921,14 @@
       "stats": {
         "totalVotes": 27188,
         "totalSubs": 63,
-        "totalChatMessages": 7523,
-        "totalStreamMinutes": 13236,
+        "totalChatMessages": 7525,
+        "totalStreamMinutes": 13242,
         "emotes": {
-          "❤": 102,
+          "❤": 104,
           "🙌": 184,
           "🗳": 750,
-          "🔴": 76,
-          "🎉": 135,
+          "🔴": 77,
+          "🎉": 136,
           "📴": 75,
           "👋": 86,
           "🔥": 222,
@@ -6281,18 +6281,10 @@
           "🐱": "🐱",
           "🙀": "🙀"
         },
-        "lastChatAt": 1790215546037,
+        "lastChatAt": 1790294368064,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "ya!!"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Ye, twas cool."
-        },
         {
           "user": "jt_squared2",
           "msg": "well done nadie"
@@ -6324,6 +6316,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: ❤️recording some stuff!❤️! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -6332,7 +6332,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "❤️recording some stuff!❤️ — Music",
       "profile": "Chill gaming crew on nadietv, loving WoW, Stumble Guys, Path of Exile 2, Dota, retro oldies. “Blazeee” vibes, “Will be relax day” shenanigans, “VOTE ALERT!!” celebrations, and “hard reset” humor. Chat roars “6969”, “METAL!”, “Castigo castigo”, “haslo de nuevo”, “Let’s gooooo”, “Theroan mode cat!”, “pull a roshi”, and “drained”. Gifts, votes, resubs met with joyous hype.",
       "_profileAtCount": 7523,
       "gameOverride": "",
@@ -6458,7 +6458,7 @@
         "totalVotes": 7616,
         "totalSubs": 84,
         "totalChatMessages": 852,
-        "totalStreamMinutes": 19246,
+        "totalStreamMinutes": 19266,
         "emotes": {
           "❤": 125,
           "🙌": 40,
@@ -8692,10 +8692,10 @@
       "stats": {
         "totalVotes": 13511,
         "totalSubs": 53,
-        "totalChatMessages": 2296,
-        "totalStreamMinutes": 16736,
+        "totalChatMessages": 2301,
+        "totalStreamMinutes": 16756,
         "emotes": {
-          "🔥": 661,
+          "🔥": 665,
           "🔴": 200,
           "💚": 4,
           "🤣": 5,
@@ -8739,7 +8739,7 @@
           "💃": 6,
           "🫐": 8,
           "😇": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 19,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 20,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 9,
           "f1a08c52-941d-4043-837b-23a97fcc0729": 59,
           "0f00728b-14b3-4c72-8561-2cf9bad78f9e": 36,
@@ -8749,7 +8749,7 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 14,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 23,
           "2c171ac8-a29e-416a-a8a5-b57347953f75": 21,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 15,
           "6e88b7f9-bd2e-441e-8cd2-3c5aaf5d0f91": 37,
@@ -8840,26 +8840,10 @@
           "😆": "😆",
           "9294e28e-48fa-409c-b43b-98287465b788": "CONTRASTPYRO2"
         },
-        "lastChatAt": 1790291250845,
+        "lastChatAt": 1790294561499,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥Shoutout to cripiechuccles 🔥 Make sure to drop a follow and show that Tower Crew support for this legend! 🔥 https://blaze.stream/cripiechuccles 🔥"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @theaicampa just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
-        {
-          "user": "theaicampa",
-          "msg": "my 1st vote hehee"
-        },
-        {
-          "user": "theaicampa",
-          "msg": "hey tower"
-        },
         {
           "user": "theaicampa",
           "msg": "ou are the man"
@@ -8883,6 +8867,22 @@
         {
           "user": "flash",
           "msg": "blaze"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "Get it"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥Shoutout to cripiechuccles 🔥 Make sure to drop a follow and show that Tower Crew support for this legend! 🔥 https://blaze.stream/cripiechuccles 🔥"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]  normal thing...\ngn my bro"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "wishing all best in your dar @xxtowerdogxx"
         }
       ],
       "customCommands": {},
@@ -12782,16 +12782,16 @@
       "stats": {
         "totalVotes": 13772,
         "totalSubs": 19,
-        "totalChatMessages": 23689,
+        "totalChatMessages": 23696,
         "totalStreamMinutes": 16587,
         "emotes": {
           "❤": 74,
-          "🙌": 57,
+          "🙌": 58,
           "🤝": 2,
           "🔥": 43,
           "🔴": 88,
           "🎉": 192,
-          "🪙": 690,
+          "🪙": 691,
           "⚡": 470,
           "👀": 50,
           "🍿": 12,
@@ -12812,7 +12812,7 @@
           "😘": 8,
           "😆": 1,
           "🤭": 5,
-          "💰": 22,
+          "💰": 24,
           "☄": 1,
           "😶": 13,
           "🌫": 13,
@@ -13139,25 +13139,9 @@
           "💫": "💫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790293394299
+        "lastChatAt": 1790294313054
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🪙 Added 100 points to michelle. Balance: 192,015 pts."
-        },
-        {
-          "user": "botger",
-          "msg": "Doações Live pix: https://midpix.live/SofrenciaPlay"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "subiu o nivel, paguei"
-        },
-        {
-          "user": "botger",
-          "msg": "⚡ lovemikami — Level 9 | 22,995 XP (2,964 to Level 10)"
-        },
         {
           "user": "michelle",
           "msg": "valeu!"
@@ -13181,6 +13165,22 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "💰 TIP ALERT!! 💰 @lovemikami just tipped $1.00!! Thank you so much!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @lovemikami 79,275 points."
+        },
+        {
+          "user": "lovemikami",
+          "msg": "desenrolou nada"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "eu comprei e mandei pro mauh pra ele num ficar no prejuizo"
         }
       ],
       "customCommands": {},
@@ -14156,7 +14156,7 @@
       "joinedAt": 1784914016208,
       "stats": {
         "totalVotes": 3267,
-        "totalSubs": 2,
+        "totalSubs": 3,
         "totalChatMessages": 59,
         "totalStreamMinutes": 4519,
         "emotes": {
@@ -14249,6 +14249,11 @@
         },
         "saboomafoo": {
           "name": "saboomafoo",
+          "months": 1,
+          "tier": 1
+        },
+        "sofrenciaplay": {
+          "name": "sofrenciaplay",
           "months": 1,
           "tier": 1
         }
@@ -16699,20 +16704,20 @@
       "stats": {
         "totalVotes": 5440,
         "totalSubs": 27,
-        "totalChatMessages": 3263,
-        "totalStreamMinutes": 9799,
+        "totalChatMessages": 3273,
+        "totalStreamMinutes": 9816,
         "emotes": {
           "👋": 71,
           "⚠": 2,
           "🎯": 2,
           "🗳": 277,
-          "🔴": 69,
-          "🎉": 91,
+          "🔴": 70,
+          "🎉": 92,
           "📴": 68,
           "🎡": 3,
           "®": 3,
           "📢": 9,
-          "🔥": 68,
+          "🔥": 70,
           "❤": 36,
           "😶": 3,
           "🌫": 3,
@@ -16723,7 +16728,7 @@
           "a52b5dc1-f94b-40b0-b666-7f94a9f9580e": 34,
           "🚨": 102,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 11,
-          "b9094c24-381d-4157-ad1b-c6fa88dc25aa": 29,
+          "b9094c24-381d-4157-ad1b-c6fa88dc25aa": 30,
           "🤣": 4,
           "💃": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 17,
@@ -16862,41 +16867,9 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790290618846
+        "lastChatAt": 1790294184291
       },
       "chatMemory": [
-        {
-          "user": "onyxouroboros",
-          "msg": "recycling trash for credits"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@ouga902, congratulations! You've won Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/ef70e1af563c4e6b2b17cdfbf56a7d71ba4f155b7c2997387ce4b397ffe698ba"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@ouga902, congratulations! You've won 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/11fc515a4d58e03151cf7a265fdaeb8a67618332b9fbdd8b7bda70b38b758ddd"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@ouga902, congratulations! You've won Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/1436004eed0c27f59973bced0eaf97037bde4babff23bbaeafe12ad8508f0875"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@ouga902, congratulations! You've won 1 Credit from The Online Inn. View here: https://scurvybot.com/wax/tx/60161639050b7540bdaa417613c2220b06b16750ca9ad6acdfe34645e8c3cdc4"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@inn, there are no assets available in the dig pool to send a prize to ouga902"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 10 votes, @otko5!"
@@ -16904,6 +16877,38 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 9 votes, @Old_Mankey!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "To use our Giveaway Wheel, please visit https://scurvybot.com/overlays/giveaway-wheel?platform=blaze&uuid=aeb8b4ea-5a22-4acf-b508-dbf0ce896a86"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: this is my🔥 306th Blaze Stream🔥! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "terranlore",
+          "msg": "hi"
+        },
+        {
+          "user": "allybear",
+          "msg": "Hi"
+        },
+        {
+          "user": "flower4803",
+          "msg": "hi"
+        },
+        {
+          "user": "allybear",
+          "msg": "[emote:b9094c24-381d-4157-ad1b-c6fa88dc25aa]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @allybear at https://blaze.stream/allybear!"
         }
       ],
       "customCommands": {
@@ -16918,7 +16923,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "this is my🔥 306th Blaze Stream🔥 — Rocket League",
       "lastStreamInfo": "this is my🔥 305th Blaze Stream🔥 — Rocket League",
       "lastStreamEndedAt": 1790222585750,
       "gameOverride": "",
@@ -19171,7 +19176,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 25,
-        "totalStreamMinutes": 322,
+        "totalStreamMinutes": 342,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -19848,8 +19853,8 @@
     },
     "cr33pling": {
       "note": "Enthusiastic gamer who loves PUBG, Valorant, CS2, Ghost Recon, Warzone, metal shows, and chats with playful slang and emojis.",
-      "at": 1790197068318,
-      "n": 42
+      "at": 1790294088346,
+      "n": 43
     },
     "angge_wf": {
       "note": "Playful gamer who loves Stumble Guys and Fortnite, uses emojis, bursts into long HAHA laughs, and greets with “gm.”",
