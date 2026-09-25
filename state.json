@@ -7206,7 +7206,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 7,
-        "totalStreamMinutes": 62,
+        "totalStreamMinutes": 67,
         "emotes": {
           "🎶": 1
         },
@@ -8159,8 +8159,8 @@
       "stats": {
         "totalVotes": 18686,
         "totalSubs": 65,
-        "totalChatMessages": 15287,
-        "totalStreamMinutes": 10311,
+        "totalChatMessages": 15289,
+        "totalStreamMinutes": 10316,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -8592,17 +8592,9 @@
           "💅": "💅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790370347285
+        "lastChatAt": 1790370372971
       },
       "chatMemory": [
-        {
-          "user": "metal_bot",
-          "msg": "@corinloch No songs found for \"Pullovers tudo que eu sempre sonhei\". Try a different search."
-        },
-        {
-          "user": "metal_bot",
-          "msg": "@corinloch No songs found for \"zimbra\". Try a different search."
-        },
         {
           "user": "metal_bot",
           "msg": "@corinloch Found 7 matches: 1. Pitty - Equalize | 2. Pitty - Teto De Vidro | 3. Pitty - Na Sua Estante | 4. Pitty - Me Adora | 5. Pitty - Pulsos | 6. Pitty - Máscara | 7. Pitty - SETEVIDAS — Reply !pick 1-7 to select"
@@ -8634,6 +8626,14 @@
         {
           "user": "cymatrix",
           "msg": "wahoooo!!!"
+        },
+        {
+          "user": "corinloch",
+          "msg": "GG"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "fine, threaten me with a good time"
         }
       ],
       "customCommands": {},
@@ -9030,7 +9030,7 @@
         "totalVotes": 9963,
         "totalSubs": 198,
         "totalChatMessages": 483,
-        "totalStreamMinutes": 13894,
+        "totalStreamMinutes": 13899,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -9568,36 +9568,26 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 30,
-        "totalStreamMinutes": 3,
+        "totalChatMessages": 33,
+        "totalStreamMinutes": 6,
         "emotes": {
           "👋": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
           "2556c88e-fcbb-4ad7-9043-6c376f3980c0": 1,
-          "🔥": 1
+          "🔥": 1,
+          "9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2": 1
         },
         "emoteNames": {
           "👋": "👋",
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "2556c88e-fcbb-4ad7-9043-6c376f3980c0": "mrrkmn",
-          "🔥": "🔥"
+          "🔥": "🔥",
+          "9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2": "dancingfireball"
         },
-        "lastChatAt": 1790370205634,
+        "lastChatAt": 1790370572560,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "capt_rob_advent",
-          "msg": "Thank you for the vote"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @faithy_!"
-        },
-        {
-          "user": "fartvader",
-          "msg": "Hello!! Dropping by to say I really appreciate your support fam, I wanted to say thank you sooner than later. You are awesome! [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @sadoq!"
@@ -9625,6 +9615,18 @@
         {
           "user": "omererkmen",
           "msg": "@wapi is Live IRL"
+        },
+        {
+          "user": "omererkmen",
+          "msg": "[emote:9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Just talking! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -9637,7 +9639,10 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/64454921-8814-4dcc-953b-a596de2fa6ee.gif",
       "followed": true,
-      "streamTitle": "Just talking — IRL"
+      "streamTitle": "Just talking — IRL",
+      "lastStreamInfo": "Just talking — IRL",
+      "lastStreamEndedAt": 1790370490635,
+      "gameOverride": ""
     },
     "bdaee591-b596-478b-8683-edf9950eb167": {
       "username": "0xscheun",
@@ -12905,7 +12910,7 @@
         "totalVotes": 13872,
         "totalSubs": 20,
         "totalChatMessages": 23781,
-        "totalStreamMinutes": 16682,
+        "totalStreamMinutes": 16687,
         "emotes": {
           "❤": 74,
           "🙌": 60,
@@ -13316,8 +13321,8 @@
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
       "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
-      "profile": "sofrenciaplay’s crew “torram os pontos” cranks 1h30m Retro marathons, especially Donkey Kong Country. The chat roars “JOGA SEU JOGO,” celebrates “torradas,” and chants “GG” after every win. They hype “Juntos Pelo Lipe” style support, love “pro player” tags, and end streams",
-      "_profileAtCount": 23709,
+      "profile": "sofrenciaplay’s crew “torram os pontos” cranks 1h30m Retro marathons, especially Donkey Kong Country. The chat roars “JOGA SEU JOGO,” celebrates “torradas,” and chants “GG” after every win. They hype “Juntos Pelo Lipe” style support, love “pro player” tags, and end streams with “Chefe estilo Cuphead” vibes.",
+      "_profileAtCount": 23781,
       "gameOverride": "",
       "commentMode": "low",
       "lastStreamInfo": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
@@ -13417,8 +13422,8 @@
       "stats": {
         "totalVotes": 8714,
         "totalSubs": 21,
-        "totalChatMessages": 1054,
-        "totalStreamMinutes": 7081,
+        "totalChatMessages": 1062,
+        "totalStreamMinutes": 7086,
         "emotes": {
           "❤": 64,
           "🙌": 41,
@@ -13532,41 +13537,9 @@
           "🧐": "🧐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790369897759
+        "lastChatAt": 1790370609820
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "oh is there a tournament?"
-        },
-        {
-          "user": "guney",
-          "msg": ":D"
-        },
-        {
-          "user": "briggsy",
-          "msg": "On blaze"
-        },
-        {
-          "user": "guney",
-          "msg": "i will check discord"
-        },
-        {
-          "user": "guney",
-          "msg": "thanks"
-        },
-        {
-          "user": "briggsy",
-          "msg": "yess"
-        },
-        {
-          "user": "guney",
-          "msg": "i will if i am not late"
-        },
-        {
-          "user": "briggsy",
-          "msg": "the announcements"
-        },
         {
           "user": "guney",
           "msg": "i will check after this round"
@@ -13574,6 +13547,38 @@
         {
           "user": "time",
           "msg": "gg"
+        },
+        {
+          "user": "guney",
+          "msg": "too late for the tournament"
+        },
+        {
+          "user": "time",
+          "msg": "is it done"
+        },
+        {
+          "user": "time",
+          "msg": "or late for you"
+        },
+        {
+          "user": "guney",
+          "msg": "teams allowed"
+        },
+        {
+          "user": "guney",
+          "msg": "nd there is no space"
+        },
+        {
+          "user": "guney",
+          "msg": "45 kişilikmiş dolmuş"
+        },
+        {
+          "user": "guney",
+          "msg": "aman ya:D"
+        },
+        {
+          "user": "time",
+          "msg": "sağlık olsun"
         }
       ],
       "customCommands": {},
@@ -15682,7 +15687,7 @@
         "totalVotes": 15492,
         "totalSubs": 99,
         "totalChatMessages": 5237,
-        "totalStreamMinutes": 9798,
+        "totalStreamMinutes": 9803,
         "emotes": {
           "😅": 1,
           "🔥": 252,
@@ -18448,7 +18453,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 57,
-        "totalStreamMinutes": 2997,
+        "totalStreamMinutes": 3001,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -20804,8 +20809,8 @@
     }
   },
   "auth": {
-    "accessToken": "0ef84cd85a50a819d0b8bb5e828b555e",
-    "refreshToken": "42131ecc1b70e19eb11d8b1401cdd502",
+    "accessToken": "8d19b6b7e78cf0dd020d33d392f51348",
+    "refreshToken": "bb91538575092b4a01faae6c8405f54e",
     "sessionToken": "048ec7f4199c372ae671c6eeca423473",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
