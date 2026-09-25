@@ -1377,8 +1377,8 @@
       "stats": {
         "totalVotes": 22889,
         "totalSubs": 62,
-        "totalChatMessages": 30599,
-        "totalStreamMinutes": 3042,
+        "totalChatMessages": 30601,
+        "totalStreamMinutes": 3046,
         "emotes": {
           "🔥": 1867,
           "🗳": 28,
@@ -1404,8 +1404,8 @@
           "🌉": 24,
           "💨": 160,
           "💥": 433,
-          "📴": 41,
-          "👋": 49,
+          "📴": 42,
+          "👋": 50,
           "😢": 2,
           "⚠": 21,
           "🎯": 2,
@@ -1683,7 +1683,7 @@
           "6a73a37f-412d-44f0-bbbf-56c67649924d": "ObeezTyping",
           "32d0bd66-fa0e-4eb3-9df3-edfc57ccc778": "ObeezBoom"
         },
-        "lastChatAt": 1790369098961,
+        "lastChatAt": 1790369414037,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1691,14 +1691,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
-        },
-        {
-          "user": "botger",
-          "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
-        },
         {
           "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
@@ -1730,6 +1722,14 @@
         {
           "user": "botger",
           "msg": "(Handled by bot — joins the channel and confirms in chat)"
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -1738,7 +1738,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
-      "streamTitle": "Blaze Interactive Games - Come play some games in chat! — IRL",
+      "streamTitle": "",
       "profile": "jt_squared2’s squad thrives on “love fest” vibes, dropping “Holi Holiii Holiiii” and 🙌🙌🙌 when gameplay gets “hood.” Treadmill Time streams run “make me run” marathons, with “24h stream” hype and “sub’in you for so long” chants. The community celebrates with nonstop cheers, “gg sip,” and constant gratitude for hosting games and hosting “games this",
       "_profileAtCount": 28070,
       "loyalty": {
@@ -1925,7 +1925,7 @@
       },
       "gameOverride": "",
       "lastStreamInfo": "Blaze Interactive Games - Come play some games in chat! — IRL",
-      "lastStreamEndedAt": 1789760234258,
+      "lastStreamEndedAt": 1790369408824,
       "nudgedAt": 1785864236148,
       "nudgedKey": "schedule",
       "botVip": true,
@@ -7206,7 +7206,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 7,
-        "totalStreamMinutes": 42,
+        "totalStreamMinutes": 62,
         "emotes": {
           "🎶": 1
         },
@@ -7252,7 +7252,7 @@
       "stats": {
         "totalVotes": 15949,
         "totalSubs": 44,
-        "totalChatMessages": 3576,
+        "totalChatMessages": 3577,
         "totalStreamMinutes": 4317,
         "emotes": {
           "❤": 46,
@@ -7363,7 +7363,8 @@
           "🧡": 2,
           "8e2b6fe1-5359-41d1-b770-de6739ea11cb": 1,
           "ae6c60c8-b6f3-4c23-875d-d343e08d5cbc": 1,
-          "🤔": 1
+          "🤔": 1,
+          "abf8515b-cf35-4a7c-b579-9286f4fedf00": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -7474,16 +7475,13 @@
           "🧡": "🧡",
           "8e2b6fe1-5359-41d1-b770-de6739ea11cb": "love",
           "ae6c60c8-b6f3-4c23-875d-d343e08d5cbc": "snolken",
-          "🤔": "🤔"
+          "🤔": "🤔",
+          "abf8515b-cf35-4a7c-b579-9286f4fedf00": "wgot"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790367503171
+        "lastChatAt": 1790369521177
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "it's mean your welcome"
-        },
         {
           "user": "botger",
           "msg": "https://www.youtube.com/@Time.Art.Studio"
@@ -7519,6 +7517,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "time",
+          "msg": "[emote:abf8515b-cf35-4a7c-b579-9286f4fedf00]"
         }
       ],
       "customCommands": {},
@@ -7595,12 +7597,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 3973,
-        "totalSubs": 30,
-        "totalChatMessages": 1373,
+        "totalSubs": 31,
+        "totalChatMessages": 1375,
         "totalStreamMinutes": 2156,
         "emotes": {
           "❤": 445,
-          "🙌": 46,
+          "🙌": 47,
           "🗳": 213,
           "🔴": 19,
           "🎉": 21,
@@ -7612,7 +7614,7 @@
           "💃": 55,
           "🎵": 91,
           "🕺": 29,
-          "🔥": 112,
+          "🔥": 114,
           "🎹": 1,
           "🔦": 1,
           "😘": 2,
@@ -7700,18 +7702,10 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "🚨": "🚨"
         },
-        "lastChatAt": 1790361487312,
+        "lastChatAt": 1790369170966,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 20 votes, @brothainvest!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @crypto_gam3r!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 9 votes, @Old_Mankey!"
@@ -7743,6 +7737,14 @@
         {
           "user": "botger",
           "msg": "⚠️ Heads up cymatrix! You're projected to fall below Verified (Tier 2) in approximately 4 day(s) (Sep 29 at 18:37 UTC). Current stream hours: 10.2h / 10h required. Stream more to maintain your Verified status! 🎯"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @MakesOnlyBeats has resubscribed — 16 months total, 12 months streak! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@MakesOnlyBeats subscribed! Thank you!"
         }
       ],
       "customCommands": {
@@ -7801,7 +7803,7 @@
         },
         "makesonlybeats": {
           "name": "makesonlybeats",
-          "months": 2,
+          "months": 3,
           "tier": 1
         }
       },
@@ -8155,10 +8157,10 @@
       "username": "bidloperv",
       "language": "en",
       "stats": {
-        "totalVotes": 18685,
+        "totalVotes": 18686,
         "totalSubs": 65,
-        "totalChatMessages": 15261,
-        "totalStreamMinutes": 10291,
+        "totalChatMessages": 15287,
+        "totalStreamMinutes": 10311,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -8590,48 +8592,48 @@
           "💅": "💅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790368977181
+        "lastChatAt": 1790370347285
       },
       "chatMemory": [
         {
-          "user": "cymatrix",
-          "msg": "for real man, you're rockin it"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "oh yeeeeahhhhhhhhhhh"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "bitchen!"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "fingers are fingering but brain isn't braining... well one out of two ain't bad for a Friday"
+          "user": "metal_bot",
+          "msg": "@corinloch No songs found for \"Pullovers tudo que eu sempre sonhei\". Try a different search."
         },
         {
           "user": "metal_bot",
-          "msg": "@cymatrix Added \"Incubus - Sick Sad Little World\" to the queue! (Position #2)"
-        },
-        {
-          "user": "algento",
-          "msg": "making the metal hello!"
+          "msg": "@corinloch No songs found for \"zimbra\". Try a different search."
         },
         {
           "user": "metal_bot",
-          "msg": "@algento Added \"Maneskin - For Your Love\" to the queue! (Position #3)"
+          "msg": "@corinloch Found 7 matches: 1. Pitty - Equalize | 2. Pitty - Teto De Vidro | 3. Pitty - Na Sua Estante | 4. Pitty - Me Adora | 5. Pitty - Pulsos | 6. Pitty - Máscara | 7. Pitty - SETEVIDAS — Reply !pick 1-7 to select"
         },
         {
-          "user": "comeatmebro",
-          "msg": "cool tunes"
+          "user": "metal_bot",
+          "msg": "@corinloch Added \"Pitty - Na Sua Estante\" to the queue! (Position #2)"
         },
         {
-          "user": "comeatmebro",
-          "msg": "having many treats on my Friday so very good thank you"
+          "user": "metal_bot",
+          "msg": "@corinloch Found 7 matches: 1. Pitty - Equalize | 2. Pitty - Teto De Vidro | 3. Pitty - Na Sua Estante | 4. Pitty - Me Adora | 5. Pitty - Pulsos | 6. Pitty - Máscara | 7. Pitty - SETEVIDAS — Reply !pick 1-7 to select"
         },
         {
-          "user": "comeatmebro",
-          "msg": "And you?"
+          "user": "metal_bot",
+          "msg": "@corinloch Added \"Pitty - Máscara\" to the queue! (Position #3)"
+        },
+        {
+          "user": "corinloch",
+          "msg": "oh noo"
+        },
+        {
+          "user": "corinloch",
+          "msg": "crying here"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "IRL always getting in the way"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "wahoooo!!!"
         }
       ],
       "customCommands": {},
@@ -9028,7 +9030,7 @@
         "totalVotes": 9963,
         "totalSubs": 198,
         "totalChatMessages": 483,
-        "totalStreamMinutes": 13877,
+        "totalStreamMinutes": 13894,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -9145,7 +9147,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
-      "streamTitle": "",
+      "streamTitle": "1 SUB = 30 MIN MORE // 100 VOTE = 30 MIN MORE — Crypto",
       "gameOverride": "",
       "profile": "saboomafoo streams energetic League of Legends & MapleStory collabs, pumping “FOXSPIRITS” vibes. Chat loves “have a nice stream”, “GM GM GUYS”, “NEKOOOOOOOOOO”, “hellow”, “❤️❤️❤️❤️❤️”, and playful “😅😅”. Community celebrates with quick shoutouts, a warm “ty” response, constant upbeat greetings, and constant positivity. The channel thrives on friendly, energetic banter and constant positivity.",
       "_profileAtCount": 460,
@@ -9566,8 +9568,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 28,
-        "totalStreamMinutes": 0,
+        "totalChatMessages": 30,
+        "totalStreamMinutes": 3,
         "emotes": {
           "👋": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
@@ -9580,18 +9582,10 @@
           "2556c88e-fcbb-4ad7-9043-6c376f3980c0": "mrrkmn",
           "🔥": "🔥"
         },
-        "lastChatAt": 1789822976888,
+        "lastChatAt": 1790370205634,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @eze_!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @CyMatrIX!"
-        },
         {
           "user": "capt_rob_advent",
           "msg": "Thank you for the vote"
@@ -9623,6 +9617,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @Desirablebottom!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Just talking! Come hang out and watch."
+        },
+        {
+          "user": "omererkmen",
+          "msg": "@wapi is Live IRL"
         }
       ],
       "customCommands": {},
@@ -9634,7 +9636,8 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/64454921-8814-4dcc-953b-a596de2fa6ee.gif",
-      "followed": true
+      "followed": true,
+      "streamTitle": "Just talking — IRL"
     },
     "bdaee591-b596-478b-8683-edf9950eb167": {
       "username": "0xscheun",
@@ -12902,7 +12905,7 @@
         "totalVotes": 13872,
         "totalSubs": 20,
         "totalChatMessages": 23781,
-        "totalStreamMinutes": 16662,
+        "totalStreamMinutes": 16682,
         "emotes": {
           "❤": 74,
           "🙌": 60,
@@ -13414,8 +13417,8 @@
       "stats": {
         "totalVotes": 8714,
         "totalSubs": 21,
-        "totalChatMessages": 1053,
-        "totalStreamMinutes": 7061,
+        "totalChatMessages": 1054,
+        "totalStreamMinutes": 7081,
         "emotes": {
           "❤": 64,
           "🙌": 41,
@@ -13529,13 +13532,9 @@
           "🧐": "🧐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790367654611
+        "lastChatAt": 1790369897759
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "You gonna do the OTG tournament tomorrow?"
-        },
         {
           "user": "guney",
           "msg": "oh is there a tournament?"
@@ -13571,6 +13570,10 @@
         {
           "user": "guney",
           "msg": "i will check after this round"
+        },
+        {
+          "user": "time",
+          "msg": "gg"
         }
       ],
       "customCommands": {},
@@ -15679,7 +15682,7 @@
         "totalVotes": 15492,
         "totalSubs": 99,
         "totalChatMessages": 5237,
-        "totalStreamMinutes": 9778,
+        "totalStreamMinutes": 9798,
         "emotes": {
           "😅": 1,
           "🔥": 252,
@@ -18445,7 +18448,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 57,
-        "totalStreamMinutes": 2977,
+        "totalStreamMinutes": 2997,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
