@@ -9069,7 +9069,7 @@
         "totalVotes": 9963,
         "totalSubs": 198,
         "totalChatMessages": 490,
-        "totalStreamMinutes": 14376,
+        "totalStreamMinutes": 14381,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -12531,8 +12531,8 @@
       "stats": {
         "totalVotes": 6147,
         "totalSubs": 42,
-        "totalChatMessages": 1958,
-        "totalStreamMinutes": 4770,
+        "totalChatMessages": 1960,
+        "totalStreamMinutes": 4771,
         "emotes": {
           "❤": 102,
           "🙌": 79,
@@ -12542,8 +12542,8 @@
           "🗳": 201,
           "⚠": 1,
           "🎯": 1,
-          "🔴": 37,
-          "🎉": 53,
+          "🔴": 38,
+          "🎉": 54,
           "🚨": 66,
           "😀": 1,
           "👍": 8,
@@ -12726,17 +12726,9 @@
           "👀": "👀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790357509176
+        "lastChatAt": 1790400275094
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @cripiechuccles at https://blaze.stream/cripiechuccles!"
-        },
-        {
-          "user": "ruri666",
-          "msg": "[emote:141bc466-e466-4b40-b421-87bad304c744] [emote:141bc466-e466-4b40-b421-87bad304c744] [emote:141bc466-e466-4b40-b421-87bad304c744]"
-        },
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
@@ -12768,6 +12760,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: DAILY STREAM - DOTA2/RANDOM MUSIC! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -12779,7 +12779,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0e14bbf3-b90e-49a5-ac9c-ec64e50a164d.jpg",
-      "streamTitle": "",
+      "streamTitle": "DAILY STREAM - DOTA2/RANDOM MUSIC — Dota 2",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill Dota 2 community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Keep the vibe alive, celebrate every win, and stay positive!",
@@ -15744,7 +15744,7 @@
         "totalVotes": 15492,
         "totalSubs": 99,
         "totalChatMessages": 5238,
-        "totalStreamMinutes": 10293,
+        "totalStreamMinutes": 10298,
         "emotes": {
           "😅": 1,
           "🔥": 252,
@@ -20938,8 +20938,8 @@
     }
   },
   "auth": {
-    "accessToken": "2edbb1cf05fcab4d4313faf386f18c2e",
-    "refreshToken": "2a8c3b18fd454972f5dced03e21510c2",
+    "accessToken": "9fec5f2aa4f7c88e64e23c0a9b829d2b",
+    "refreshToken": "ccca711c7ee470363a76441c8145b02c",
     "sessionToken": "048ec7f4199c372ae671c6eeca423473",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
