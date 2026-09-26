@@ -3,7 +3,7 @@
     "7c0e8169-a149-4c3c-813b-709ad6862002": {
       "username": "brachial513",
       "stats": {
-        "totalVotes": 12235,
+        "totalVotes": 12238,
         "totalSubs": 59,
         "totalChatMessages": 2778,
         "totalStreamMinutes": 3278,
@@ -11130,7 +11130,7 @@
         "totalVotes": 4559,
         "totalSubs": 34,
         "totalChatMessages": 301,
-        "totalStreamMinutes": 6957,
+        "totalStreamMinutes": 6977,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -15750,7 +15750,7 @@
         "totalVotes": 15492,
         "totalSubs": 99,
         "totalChatMessages": 5238,
-        "totalStreamMinutes": 10568,
+        "totalStreamMinutes": 10588,
         "emotes": {
           "😅": 1,
           "🔥": 252,
@@ -19637,13 +19637,29 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {},
-        "sendFailStreak": 0
+        "emotes": {
+          "💪": 1,
+          "🌄": 1,
+          "💚": 2,
+          "🤸": 1
+        },
+        "emoteNames": {
+          "💪": "💪",
+          "🌄": "🌄",
+          "💚": "💚",
+          "🤸": "🤸"
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1790417367549
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "brachial513",
+          "msg": "Hey GM and Welcome to Blaze 💪🏼🌄 Thank you for joining the Blazeiancrew! You now have one FREE permanent entry for our weekly Giveaway where you can win up to 1000 Votes, NFTs and so much more 💚🤸🏼💚"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
