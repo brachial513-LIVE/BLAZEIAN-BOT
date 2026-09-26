@@ -746,7 +746,7 @@
       "stats": {
         "totalVotes": 91778,
         "totalSubs": 155,
-        "totalChatMessages": 9761,
+        "totalChatMessages": 9763,
         "totalStreamMinutes": 3596,
         "emotes": {
           "🗳": 1722,
@@ -1105,21 +1105,13 @@
           "849b2d68-7a30-4dcc-9981-1906ce5d70ca": "StarPyro"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790436131130,
+        "lastChatAt": 1790436134783,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "piweb",
-          "msg": "Sorry guys"
-        },
-        {
-          "user": "octo",
-          "msg": "me too haha"
-        },
         {
           "user": "octo",
           "msg": "its a warmup round tho its fine"
@@ -1151,6 +1143,14 @@
         {
           "user": "jt_squared2",
           "msg": "plantains"
+        },
+        {
+          "user": "octo",
+          "msg": "yea animation is a nice twist"
+        },
+        {
+          "user": "piweb",
+          "msg": "Need to think better"
         }
       ],
       "customCommands": {},
@@ -19692,7 +19692,8 @@
       "customCommands": {
         "socials": "https://lnk.bio/Hubal_The_God_Of_Fate",
         "setup": "Hubal's rig: ASUS RTX 5090 OC White + Ryzen 9 9950X3D under the hood, Elgato Wave:3 mic, Elgato Stream Deck for scene/overlay control, GameSir Tarantula 8K controller in hand, all running through OBS.",
-        "lurk": "Lurking in the shadows, watching the rite unfold. Appreciated all the same. 🌙"
+        "lurk": "Lurking in the shadows, watching the rite unfold. Appreciated all the same. 🌙",
+        "love": "Hubal accepts your offering. 🔥"
       },
       "streamStart": "🔴 {name} awakens. The goddesses' will takes shape tonight. Enter. 🔥",
       "streamEnd": "⚫ The rite concludes. {name} returns to the stone until called again. 🌙",
