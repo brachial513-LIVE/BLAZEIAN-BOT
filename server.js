@@ -1441,25 +1441,31 @@ function foreignStreamerNamed(reply, ch, saidText, speaker) {
   const here = (ch?.username || "").toLowerCase();
   const talkingTo = (speaker || "").toLowerCase();
   const said = (saidText || "").toLowerCase();
-  // Every person the bot could possibly name: crew streamers, curated entries, and people it taught
-  // itself about. The first version only checked registered channels, which is why "dofferlive" — a
-  // viewer, not a channel owner — slipped straight through.
+  // Only guard against naming another crew STREAMER (a channel we actually serve) or a curated crew
+  // figure — NOT the auto-learned regulars (learnedPeople). That set grows without bound as the bot meets
+  // people, and any topic word in a long answer colliding with a learned name threw the whole reply away
+  // (proven live 2026-09-27: a real "what about Evercold for FF14?" answer got dropped -> bot fell back to
+  // a canned greeting, breaking its single most important feature). The streamer-name-swap this backs up
+  // is primarily fixed at the prompt level anyway; this stays only as its safety net.
   const known = new Set([
     ...Object.values(channels).map(c => (c.username || "").toLowerCase()),
     ...Object.keys(knownPeople),
-    ...Object.keys(learnedPeople),
   ]);
-  // Words in the reply that could be a name. Compared BOTH ways against each known name, because the
-  // model shortens them: it wrote "Doffer" for "dofferlive", which an exact match never catches.
   const words = (reply.toLowerCase().match(/[a-z0-9_]{5,}/g) || []);
   for (const name of known) {
     if (!name || name === here || name.length < 5) continue;
-    if (name === talkingTo) continue;               // naming the person you're replying to is normal, not a namedrop
+    if (name === talkingTo) continue;               // naming the person you're replying to is normal
     if (isBotName(name)) continue;
     if (said.includes(name)) continue;              // they raised it themselves — fair game
     for (const w of words) {
-      if (said.includes(w)) continue;              // that word came from their own message
-      if (w === name || name.startsWith(w) || w.startsWith(name)) return true;
+      if (said.includes(w)) continue;               // that word came from their own message
+      // Exact username, or a reply word that carries the full username as a prefix (e.g. "dofferlive2").
+      // The old `name.startsWith(w)` direction (a short common word being a prefix of a longer username)
+      // was the main false-drop source and is deliberately gone — the prompt handles short-form swaps.
+      if (w === name || w.startsWith(name)) {
+        console.log(`[AI] guard dropped reply — it named "${name}" (unrelated) in ${here || "?"}'s channel`);
+        return true;
+      }
     }
   }
   return false;
