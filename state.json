@@ -760,12 +760,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 93014,
+        "totalVotes": 93064,
         "totalSubs": 161,
-        "totalChatMessages": 10149,
+        "totalChatMessages": 10150,
         "totalStreamMinutes": 3685,
         "emotes": {
-          "🗳": 1737,
+          "🗳": 1740,
           "❤": 536,
           "🙌": 266,
           "🔥": 267,
@@ -1127,17 +1127,13 @@
           "1fc08ed7-f53b-4493-80c0-d667102f307c": "VIPYRO2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790497384721,
+        "lastChatAt": 1790503983089,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "nadietv",
-          "msg": "low happiness D:"
-        },
         {
           "user": "xburntx",
           "msg": "[emote:1fc08ed7-f53b-4493-80c0-d667102f307c] [emote:1fc08ed7-f53b-4493-80c0-d667102f307c] [emote:1fc08ed7-f53b-4493-80c0-d667102f307c]"
@@ -1173,6 +1169,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 100 vote(s) (total: 125)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xlords just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -10471,7 +10471,7 @@
         "totalVotes": 25315,
         "totalSubs": 149,
         "totalChatMessages": 2842,
-        "totalStreamMinutes": 15353,
+        "totalStreamMinutes": 15358,
         "emotes": {
           "❤": 116,
           "🙌": 207,
@@ -13544,7 +13544,7 @@
         "totalVotes": 8754,
         "totalSubs": 21,
         "totalChatMessages": 1116,
-        "totalStreamMinutes": 7208,
+        "totalStreamMinutes": 7213,
         "emotes": {
           "❤": 68,
           "🙌": 43,
@@ -21092,8 +21092,8 @@
     }
   },
   "auth": {
-    "accessToken": "dbbf626946464137ac002ede0b0791e0",
-    "refreshToken": "9383f10044affd73bbdd5887b25c1a2c",
+    "accessToken": "434d28f726377a0e2122f78d00bf5606",
+    "refreshToken": "04e85f8ff73b1e8a5daac0b4d79e02a4",
     "sessionToken": "cc5d10039dccd9e423681c01bf076f8f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
