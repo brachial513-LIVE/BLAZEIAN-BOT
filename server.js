@@ -1019,6 +1019,52 @@ async function backfillChannelAvatar(channelId, username) {
   }
 }
 
+// Keep each served channel's stored username (slug) and avatar in sync with Blaze, so a streamer who
+// renames or swaps their profile picture updates on the homepage grid instead of showing a stale name
+// with a dead blaze.stream/<old-name> link (proven: "missaria_wf" kept showing after she became "missaria").
+// Looks up by the STABLE channelId — a stale slug can't find a renamed channel. SAFETY: only a row whose
+// id EXACTLY matches channelId is trusted, so if Blaze ever ignored the id[] filter we no-op instead of
+// writing wrong data. Falls back to the current slug (keeps avatars fresh even if id[] isn't honoured).
+async function refreshChannelIdentity(channelId) {
+  const ch = channels[channelId];
+  if (!ch) return null;
+  const pick = rows => (rows || []).find(r => r && r.id === channelId) || null;
+  try {
+    let row = null;
+    try {
+      const res = await axios.get(`${API}/v1/channels?id[]=${encodeURIComponent(channelId)}&type=all`, { headers: headers(), timeout: 8000 });
+      row = pick(res.data?.data?.rows);
+    } catch (e) {}
+    if (!row && ch.username) {
+      const r2 = await axios.get(`${API}/v1/channels?slug[]=${encodeURIComponent(ch.username)}&type=all`, { headers: headers(), timeout: 8000 });
+      row = pick(r2.data?.data?.rows);
+    }
+    ch._idAt = Date.now();
+    if (!row) return { found: false, changed: false };
+    const newName = String(row.slug || row.username || "").toLowerCase().trim();
+    const newAvatar = row.avatarUrl || row.avatar || row.imageUrl || null;
+    let changed = false;
+    if (newName && newName !== ch.username) { ch.username = newName; changed = true; }
+    if (newAvatar && newAvatar !== ch.avatarUrl) { ch.avatarUrl = newAvatar; changed = true; }
+    if (changed) saveChannels();
+    return { found: true, changed, username: ch.username, avatarUrl: ch.avatarUrl };
+  } catch (e) {
+    return null;
+  }
+}
+// Slow background sync so renames/new avatars propagate even when nobody is viewing a page. Refreshes the
+// few stalest channels each tick (spaced out), cycling through all of them roughly every few hours, cheap.
+setInterval(() => {
+  try {
+    const now = Date.now();
+    const due = Object.keys(channels)
+      .filter(cid => cid !== BOT_CHANNEL_ID && (!channels[cid]._idAt || now - channels[cid]._idAt > 6 * 60 * 60 * 1000))
+      .sort((a, b) => (channels[a]._idAt || 0) - (channels[b]._idAt || 0))
+      .slice(0, 8);
+    due.forEach((cid, i) => setTimeout(() => refreshChannelIdentity(cid).catch(() => {}), i * 1200));
+  } catch (e) {}
+}, 20 * 60 * 1000);
+
 // THE unlock: the bot follows the channel using its BROWSER SESSION token (not the OAuth token).
 // Following is the only thing that satisfies Blaze's "followers-only" chat — VIP/Mod do NOT bypass it.
 // Proven working request: Authorization: Bearer <session-token> + visitor-id header + body "{}".
@@ -4174,7 +4220,7 @@ app.get("/", (req, res) => {
   const total = Object.keys(channels).length;
   const cards = Object.entries(channels).map(([cid, ch]) => {
     const flag = LANG_FLAG[ch.language] || "🌍";
-    if (!ch.avatarUrl) backfillChannelAvatar(cid, ch.username).catch(() => {}); // fills in for the NEXT render, never blocks this one
+    if (!ch._idAt || Date.now() - ch._idAt > 6 * 60 * 60 * 1000) refreshChannelIdentity(cid).catch(() => {}); // refresh name+avatar (rename/new pic), throttled to every 6h per channel; never blocks this render
     const avatar = ch.avatarUrl
       ? `<img class="uavatar" src="${esc(ch.avatarUrl)}" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'uavatar uavatar-fallback',textContent:'${esc((ch.username || "?")[0].toUpperCase())}'}))">`
       : `<div class="uavatar uavatar-fallback">${esc((ch.username || "?")[0].toUpperCase())}</div>`;
@@ -5068,6 +5114,24 @@ app.get("/admin/remove/:username", async (req, res) => {
 // Shows the RAW Blaze API data for a channel, so we can see whether follower/subscriber counts and any
 // verification/eligibility fields actually exist before building a "X subs to verify" feature on them.
 // Guessing field names has burned us before — this checks the real response instead.
+// Force-refresh one channel's name+avatar from Blaze by its stable id, showing before/after — to pull a
+// rename / new profile pic immediately AND to confirm the id[]-lookup actually works. Query by the name
+// the bot currently has stored (e.g. the OLD one); it resolves to the channelId, then refreshes from Blaze.
+app.get("/admin/refreshidentity/:username", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const uname = req.params.username.toLowerCase();
+  const cid = findChannelByUsername(uname) || await getChannelIdBySlug(uname);
+  if (!cid || !channels[cid]) return res.send("Not a served channel: " + esc(req.params.username));
+  const before = { username: channels[cid].username, avatarUrl: channels[cid].avatarUrl };
+  const result = await refreshChannelIdentity(cid);
+  const after = { username: channels[cid].username, avatarUrl: channels[cid].avatarUrl };
+  res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;">refreshChannelIdentity for ${esc(cid)}
+
+BEFORE: ${esc(JSON.stringify(before))}
+AFTER:  ${esc(JSON.stringify(after))}
+result: ${esc(JSON.stringify(result))}</pre>`);
+});
+
 app.get("/admin/channelinfo/:username", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const slug = req.params.username.toLowerCase();
