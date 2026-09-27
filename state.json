@@ -11180,7 +11180,7 @@
         "totalVotes": 5239,
         "totalSubs": 34,
         "totalChatMessages": 315,
-        "totalStreamMinutes": 7193,
+        "totalStreamMinutes": 7213,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -18118,14 +18118,14 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 54,
+        "totalChatMessages": 56,
         "totalStreamMinutes": 1453,
         "emotes": {
-          "👋": 4,
+          "👋": 5,
           "❤": 24,
           "🙌": 13,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 1,
-          "📴": 3,
+          "📴": 4,
           "🔴": 4,
           "🎉": 3,
           "a859cc12-453a-4bd8-b650-38710d9486de": 2,
@@ -18165,17 +18165,9 @@
           "🍻": "🍻"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790489754328
+        "lastChatAt": 1790496724644
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "⏰ Reminder: your botger free trial expires in less than 24 hours! After it ends, event alerts and OBS overlay remain free. Subscribe at blaze.stream/botger to keep keyphrases, custom commands, and weekly votes. 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "⏰ Your botger free trial has ended. Event alerts and OBS overlay are still active — they're free for everyone! Subscribe at blaze.stream/botger to restore keyphrases, custom commands, and weekly votes. 🙌"
-        },
         {
           "user": "botger",
           "msg": "*** BOTGER IS BACK UP **\r\nbotger should be back up and running. If you notice anyy issues, please let me (badger) know immediately. You can tag me in discord or submit a support ticket from the botger support page. Thank you for your patience."
@@ -18207,6 +18199,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ LibraLives just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -18222,10 +18222,10 @@
       "botVip": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/40470e91-d0dc-499f-af89-4dfd343460e2.png",
-      "streamTitle": "🔴 Crypto Live Stream | Prices, Charts, Trade Orders + Fear & Greed 📊 — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
-      "lastStreamInfo": "🔴 Bitcoin Live Stream | Price, Chart & Liquidations 🟢 — Crypto",
-      "lastStreamEndedAt": 1788344163518,
+      "lastStreamInfo": "🔴 Crypto Live Stream | Prices, Charts, Trade Orders + Fear & Greed 📊 — Crypto",
+      "lastStreamEndedAt": 1790496719480,
       "profile": "zeenlive’s stream is a nonstop, high‑energy hangout where “gm gm bro” greets the chat and “NEW FOLLOWER!!” erupts with every new join. The community thrives on quick emote bursts, playful banter, and a constant stream of “❤️” and “🙌” celebrations. The channel loves being praised with enthusiastic shoutouts, keeping the vibe lively and inclusive.",
       "_profileAtCount": 44
     },
