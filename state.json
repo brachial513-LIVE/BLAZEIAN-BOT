@@ -3017,7 +3017,7 @@
       "stats": {
         "totalVotes": 18752,
         "totalSubs": 82,
-        "totalChatMessages": 7094,
+        "totalChatMessages": 7095,
         "totalStreamMinutes": 21155,
         "emotes": {
           "❤": 214,
@@ -3341,14 +3341,10 @@
           "😞": "😞",
           "👊": "👊"
         },
-        "lastChatAt": 1790523616917,
+        "lastChatAt": 1790524313223,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "zer0cache",
-          "msg": "Wassup @agent00zani"
-        },
         {
           "user": "zer0cache",
           "msg": "Broken and in pain from garden works"
@@ -3384,6 +3380,10 @@
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @bradgames is raiding with a party of 3! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "this war zone people ...."
         }
       ],
       "customCommands": {
@@ -12616,8 +12616,8 @@
       "stats": {
         "totalVotes": 6190,
         "totalSubs": 43,
-        "totalChatMessages": 2136,
-        "totalStreamMinutes": 5198,
+        "totalChatMessages": 2137,
+        "totalStreamMinutes": 5202,
         "emotes": {
           "❤": 106,
           "🙌": 82,
@@ -12817,13 +12817,9 @@
           "c796f875-da00-4e82-bc6d-c25be4d801b8": "POPCORN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790523036003
+        "lastChatAt": 1790524223475
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "wazaaaapppp"
-        },
         {
           "user": "seventh",
           "msg": "plak plak plak"
@@ -12859,6 +12855,10 @@
         {
           "user": "ruri666",
           "msg": "bad mo boss"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -15375,16 +15375,16 @@
       "stats": {
         "totalVotes": 4773,
         "totalSubs": 21,
-        "totalChatMessages": 983,
-        "totalStreamMinutes": 12006,
+        "totalChatMessages": 985,
+        "totalStreamMinutes": 12007,
         "emotes": {
           "❤": 63,
           "🙌": 49,
           "🔥": 33,
           "💚": 2,
           "🤝": 1,
-          "🔴": 67,
-          "🎉": 76,
+          "🔴": 68,
+          "🎉": 77,
           "🗳": 168,
           "📴": 67,
           "👋": 69,
@@ -15482,17 +15482,9 @@
           "🤞": "🤞"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790516264807
+        "lastChatAt": 1790524334943
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "btw ... if you speak ... don't hear .. but hearing the game audio"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "ohh i hear you now"
-        },
         {
           "user": "agent00zani",
           "msg": "how u today ?"
@@ -15524,6 +15516,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Warzone ranked | Road to crimson! Come hang out and watch."
         }
       ],
       "customCommands": {
@@ -15539,7 +15539,7 @@
       "avatarUrl": "https://pbs.twimg.com/profile_images/1997811286168440832/QsvpEBYx_normal.jpg",
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "Warzone ranked | Road to crimson — Call Of Duty Warzone",
       "lastStreamInfo": "Warzone ranked | Road to crimson — Call Of Duty Warzone",
       "lastStreamEndedAt": 1790516259684,
       "gameOverride": "",
@@ -15860,7 +15860,7 @@
         "totalVotes": 15767,
         "totalSubs": 100,
         "totalChatMessages": 5281,
-        "totalStreamMinutes": 10932,
+        "totalStreamMinutes": 10936,
         "emotes": {
           "😅": 1,
           "🔥": 254,
@@ -17044,7 +17044,7 @@
         "totalVotes": 5770,
         "totalSubs": 27,
         "totalChatMessages": 3876,
-        "totalStreamMinutes": 10642,
+        "totalStreamMinutes": 10646,
         "emotes": {
           "👋": 75,
           "⚠": 2,
@@ -17396,7 +17396,7 @@
         "totalVotes": 6463,
         "totalSubs": 22,
         "totalChatMessages": 1300,
-        "totalStreamMinutes": 7061,
+        "totalStreamMinutes": 7065,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -21125,8 +21125,8 @@
     }
   },
   "auth": {
-    "accessToken": "456a61083b4588a4604ae080564ae824",
-    "refreshToken": "a8caec28c40e01e10f74a80bdc91a66b",
+    "accessToken": "e18b83200dd158b0a445014394479ea5",
+    "refreshToken": "e5a8a26041cf35ef2c21417291f795ea",
     "sessionToken": "6db955b6958589798e758751ff185c6a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
