@@ -777,7 +777,7 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 96568,
+        "totalVotes": 96668,
         "totalSubs": 161,
         "totalChatMessages": 10157,
         "totalStreamMinutes": 3685,
@@ -6594,7 +6594,7 @@
         "totalVotes": 8275,
         "totalSubs": 84,
         "totalChatMessages": 876,
-        "totalStreamMinutes": 19839,
+        "totalStreamMinutes": 19844,
         "emotes": {
           "❤": 125,
           "🙌": 40,
@@ -9204,7 +9204,7 @@
         "totalVotes": 10566,
         "totalSubs": 198,
         "totalChatMessages": 492,
-        "totalStreamMinutes": 14529,
+        "totalStreamMinutes": 14534,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -13854,13 +13854,13 @@
       "language": "en",
       "joinedAt": 1784849405521,
       "stats": {
-        "totalVotes": 8876,
+        "totalVotes": 8976,
         "totalSubs": 34,
-        "totalChatMessages": 758,
+        "totalChatMessages": 761,
         "totalStreamMinutes": 5287,
         "emotes": {
-          "❤": 34,
-          "🙌": 50,
+          "❤": 36,
+          "🙌": 51,
           "🔴": 41,
           "🎉": 42,
           "🔥": 30,
@@ -13870,7 +13870,7 @@
           "⚡": 2,
           "😂": 2,
           "🎁": 50,
-          "🗳": 171,
+          "🗳": 174,
           "😄": 2,
           "🤣": 7,
           "😀": 2,
@@ -13878,7 +13878,8 @@
           "😊": 3,
           "🚨": 6,
           "74cbea3a-1234-4235-a10a-1826ea344f08": 8,
-          "b05156cf-7925-4298-8e19-f29e294cc793": 1
+          "b05156cf-7925-4298-8e19-f29e294cc793": 1,
+          "🤝": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -13900,24 +13901,13 @@
           "😊": "😊",
           "🚨": "🚨",
           "74cbea3a-1234-4235-a10a-1826ea344f08": "zuh_angry",
-          "b05156cf-7925-4298-8e19-f29e294cc793": "SADPYRO"
+          "b05156cf-7925-4298-8e19-f29e294cc793": "SADPYRO",
+          "🤝": "🤝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790452655695
+        "lastChatAt": 1790545109828
       },
       "chatMemory": [
-        {
-          "user": "giant",
-          "msg": "oi"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @Rafael_Zuh just gifted a sub to @giant! How generous!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 xeukuxaixang is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "kmarquesxd",
           "msg": "Vai perder xexeu"
@@ -13945,6 +13935,18 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @MAVOmusic just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ MAVOmusic just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "mavomusic",
+          "msg": "🤝"
         }
       ],
       "customCommands": {},
@@ -17149,7 +17151,7 @@
         "totalVotes": 5793,
         "totalSubs": 27,
         "totalChatMessages": 3891,
-        "totalStreamMinutes": 10681,
+        "totalStreamMinutes": 10686,
         "emotes": {
           "👋": 76,
           "⚠": 2,
@@ -18791,7 +18793,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 57,
-        "totalStreamMinutes": 3411,
+        "totalStreamMinutes": 3416,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -21301,8 +21303,8 @@
     }
   },
   "auth": {
-    "accessToken": "2ccfc8845bdd710d9d0d2ac42d721473",
-    "refreshToken": "25744034b969151c89a623700cc12f0a",
+    "accessToken": "9a79565daf0e91b2a071593c31862062",
+    "refreshToken": "7b018ab6a99260f691d5746a8deae47b",
     "sessionToken": "d4413bad72c8c4dcdeefe5991787d05c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
