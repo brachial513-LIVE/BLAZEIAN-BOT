@@ -2331,6 +2331,24 @@ async function handleSmallTalk(channelId, user, msg, senderIsBot = false) {
     const aiReply = await askAI(cleaned || msg, user, ch, { isBot: senderIsBot, isFriend });
     if (aiReply) { await sendChat(channelId, `@${user} ${aiReply}`); return; }
 
+    // AI unreachable/failed. If they actually ASKED something (a "?" or a question/request word), don't
+    // answer with a cheery greeting — that reads as broken (proven live: a real "what about Evercold?" got
+    // "hii so good to see you"). Own it honestly and invite a retry. A bare ping keeps the playful lines.
+    const _ask = String(cleaned || msg || "").toLowerCase();
+    const _askWords = new Set(["what","whats","how","why","when","where","who","which","can","could","would","do","does","are","is","tell","explain","recommend","help","price","was","wie","warum","wann","wer","welche","kannst","hilf","gib","que","como","dime","puedes"]);
+    const askedSomething = /[?？]/.test(_ask) || (_ask.match(/[a-z]+/g) || []).some(w => _askWords.has(w));
+    if (askedSomething) {
+      const busy = [
+        `@${user} agh my brain's running a bit hot right now 😵‍💫💚 gimme a sec and hit me with that again?`,
+        `@${user} oof, I glitched on that one for a sec 🫠💚 ask me once more in a moment and I got you`,
+        `@${user} circuits a lil overloaded rn 🔥😅 try me with that again in a sec, I wanna answer it properly 💚`,
+        `@${user} brain buffering... ⏳💚 give me a beat and ask that again, promise I'll come through`,
+        `@${user} argh, couldn't grab that one just now 😤💚 one more time in a moment?`,
+      ];
+      await sendChat(channelId, pickFresh(busy, "mentionbusy_" + channelId));
+      return;
+    }
+
     // Fallback (no AI key / AI unreachable): characterful canned lines, no repeats
     const responses = [
       `@${user} I HEARD MY NAME-- 💚🔥 someone need me?? I'm SO here`,
