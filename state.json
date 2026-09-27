@@ -3008,14 +3008,14 @@
       "stats": {
         "totalVotes": 18617,
         "totalSubs": 82,
-        "totalChatMessages": 7028,
+        "totalChatMessages": 7029,
         "totalStreamMinutes": 21028,
         "emotes": {
           "❤": 214,
           "🙌": 166,
           "🗳": 978,
-          "📴": 179,
-          "👋": 201,
+          "📴": 180,
+          "👋": 202,
           "🔴": 176,
           "🎉": 276,
           "🏆": 22,
@@ -3332,14 +3332,10 @@
           "😞": "😞",
           "👊": "👊"
         },
-        "lastChatAt": 1790475748725,
+        "lastChatAt": 1790476962852,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "faithy_",
-          "msg": "all good my g just doing some cozy games right now"
-        },
         {
           "user": "faithy_",
           "msg": "hahaha it's morning rush my gf is tripping me so i looked tired lol"
@@ -3375,6 +3371,10 @@
         {
           "user": "faithy_",
           "msg": "oh nice win"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -6008,7 +6008,7 @@
       "stats": {
         "totalVotes": 27279,
         "totalSubs": 64,
-        "totalChatMessages": 7630,
+        "totalChatMessages": 7636,
         "totalStreamMinutes": 13400,
         "emotes": {
           "❤": 107,
@@ -6067,7 +6067,7 @@
           "👏": 19,
           "🖐": 1,
           "👐": 4,
-          "😢": 4,
+          "😢": 5,
           "🤔": 3,
           "😶": 5,
           "🌫": 5,
@@ -6080,7 +6080,7 @@
           "🪩": 1,
           "🍺": 3,
           "8f944af3-3885-4c64-8227-b2e31376e26f": 75,
-          "38558f52-d180-4a69-aa75-ce286c4a614a": 84,
+          "38558f52-d180-4a69-aa75-ce286c4a614a": 85,
           "02594d35-127e-4a44-869b-ce7d5d6cccc5": 163,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 12,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 19,
@@ -6370,34 +6370,10 @@
           "🙀": "🙀",
           "👆": "👆"
         },
-        "lastChatAt": 1790476733095,
+        "lastChatAt": 1790477078241,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Oh. I thought it was 1pm utc. Haha"
-        },
-        {
-          "user": "briggsy",
-          "msg": "My bad."
-        },
-        {
-          "user": "briggsy",
-          "msg": "It was 1pm est?"
-        },
-        {
-          "user": "briggsy",
-          "msg": "I blew it."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "no worries at all. Yeah 1pm est"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "totally fine. I was expecting a very light crowd since it was the first time we did it on saturday"
-        },
         {
           "user": "jt_squared2",
           "msg": "actually had more people than I was expecting"
@@ -6413,6 +6389,30 @@
         {
           "user": "jt_squared2",
           "msg": "❤️"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "[emote:38558f52-d180-4a69-aa75-ce286c4a614a]"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Ohh, I see Triz lost her power. 😢 What a bummer."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "are you doing this one for her birthday?"
+        },
+        {
+          "user": "briggsy",
+          "msg": "So glad she got to see you in rhe beginning."
+        },
+        {
+          "user": "briggsy",
+          "msg": "For sure."
+        },
+        {
+          "user": "briggsy",
+          "msg": "Your amazing, Nadie, man."
         }
       ],
       "customCommands": {},
@@ -10466,7 +10466,7 @@
       "stats": {
         "totalVotes": 25224,
         "totalSubs": 149,
-        "totalChatMessages": 2833,
+        "totalChatMessages": 2834,
         "totalStreamMinutes": 15265,
         "emotes": {
           "❤": 116,
@@ -10517,7 +10517,7 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 6,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 11,
           "🦊": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 20,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 21,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 20,
           "🤣": 26,
           "🍗": 2,
@@ -10659,13 +10659,9 @@
           "bf90af59-ac95-4416-b7bc-859f438903d4": "PYROTHERSIDE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790475987269
+        "lastChatAt": 1790477044204
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
@@ -10701,6 +10697,10 @@
         {
           "user": "agent00zani",
           "msg": "what are your thougts on the new requrimets for blaze and the new prize pool ?"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {},
@@ -13011,7 +13011,7 @@
       "stats": {
         "totalVotes": 13937,
         "totalSubs": 21,
-        "totalChatMessages": 26365,
+        "totalChatMessages": 26367,
         "totalStreamMinutes": 17540,
         "emotes": {
           "❤": 80,
@@ -13022,7 +13022,7 @@
           "🎉": 206,
           "🪙": 726,
           "⚡": 530,
-          "👀": 63,
+          "👀": 64,
           "🍿": 15,
           "🤗": 25,
           "😊": 10,
@@ -13378,17 +13378,9 @@
           "🥺": "🥺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790476639384
+        "lastChatAt": 1790476936775
       },
       "chatMemory": [
-        {
-          "user": "lipeman",
-          "msg": "Kkkkkk"
-        },
-        {
-          "user": "renato_rodr_01",
-          "msg": "Eu lembro de um jogo desse de nes que eu jogava no polystation"
-        },
         {
           "user": "lipeman",
           "msg": "Iiiiii"
@@ -13420,6 +13412,14 @@
         {
           "user": "botger",
           "msg": "Doações Live pix: https://midpix.live/SofrenciaPlay"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkkk"
+        },
+        {
+          "user": "crispipoquinha",
+          "msg": "👀"
         }
       ],
       "customCommands": {},
@@ -21070,8 +21070,8 @@
     }
   },
   "auth": {
-    "accessToken": "aaf26ea18732be568a34a758fd200431",
-    "refreshToken": "1d6ebbde85214c1256cab975d1387161",
+    "accessToken": "0e2edea0e00533ba95760023dd254f11",
+    "refreshToken": "d0346fb3e99a084fc058954d08286cfb",
     "sessionToken": "cc5d10039dccd9e423681c01bf076f8f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
