@@ -3045,7 +3045,7 @@
         "totalVotes": 20378,
         "totalSubs": 82,
         "totalChatMessages": 7271,
-        "totalStreamMinutes": 21522,
+        "totalStreamMinutes": 21527,
         "emotes": {
           "❤": 214,
           "🙌": 167,
@@ -6601,7 +6601,7 @@
         "totalVotes": 8375,
         "totalSubs": 84,
         "totalChatMessages": 878,
-        "totalStreamMinutes": 19882,
+        "totalStreamMinutes": 19887,
         "emotes": {
           "❤": 125,
           "🙌": 40,
@@ -9567,7 +9567,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 75,
-        "totalStreamMinutes": 7110,
+        "totalStreamMinutes": 7115,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -12408,7 +12408,7 @@
         "totalVotes": 14574,
         "totalSubs": 32,
         "totalChatMessages": 2804,
-        "totalStreamMinutes": 9088,
+        "totalStreamMinutes": 9093,
         "emotes": {
           "❤": 106,
           "🙌": 68,
@@ -12708,8 +12708,8 @@
       "stats": {
         "totalVotes": 6231,
         "totalSubs": 43,
-        "totalChatMessages": 2161,
-        "totalStreamMinutes": 5400,
+        "totalChatMessages": 2162,
+        "totalStreamMinutes": 5405,
         "emotes": {
           "❤": 106,
           "🙌": 82,
@@ -12909,13 +12909,9 @@
           "c796f875-da00-4e82-bc6d-c25be4d801b8": "POPCORN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790606096726
+        "lastChatAt": 1790607023736
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -12951,6 +12947,10 @@
         {
           "user": "ruri666",
           "msg": "[emote:7a1e9750-fe7b-4a4c-be25-269fc26eb96a] [emote:7a1e9750-fe7b-4a4c-be25-269fc26eb96a] [emote:7a1e9750-fe7b-4a4c-be25-269fc26eb96a] [emote:7a1e9750-fe7b-4a4c-be25-269fc26eb96a]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -15264,7 +15264,7 @@
         "totalVotes": 7209,
         "totalSubs": 61,
         "totalChatMessages": 1592,
-        "totalStreamMinutes": 7080,
+        "totalStreamMinutes": 7085,
         "emotes": {
           "❤": 65,
           "🙌": 77,
@@ -18549,7 +18549,7 @@
         }
       },
       "profile": "destinoprospero’s channel is a high‑energy, community‑first stream where “gm gm” and “broo” greet everyone. Fans cheer with “vote alerts” and “Verified status” reminders, keeping the stream hours up. The vibe is casual, supportive, and always ready for a quick shoutout. The streamer loves being thanked with “Thanks for the 1010 votes!” and “Stream is now live!”",
-      "_profileAtCount": 141,
+      "_profileAtCount": 217,
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
       "_idAt": 1790586851547
@@ -21340,8 +21340,8 @@
     }
   },
   "auth": {
-    "accessToken": "27affb5d76e350525f702e87e59829a6",
-    "refreshToken": "f1002fafdf1c5906535e5daf3025155a",
+    "accessToken": "4f55e0a3564918989a8e5d4b0d1b79ec",
+    "refreshToken": "f1238b98cc9b66058ae1917d1a2309f9",
     "sessionToken": "d4413bad72c8c4dcdeefe5991787d05c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
