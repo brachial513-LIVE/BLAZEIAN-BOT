@@ -5136,6 +5136,33 @@ app.get("/admin/idprobe/:cid", async (req, res) => {
 ${esc(out.join("\n\n"))}</pre>`);
 });
 
+// Force-refresh EVERY served channel's name + avatar from Blaze right now (spaced out), and report which
+// ones actually changed — so a batch of renames / new profile pics gets corrected in one go instead of
+// waiting for the slow background timer, and we can see who was stale (including ones nobody noticed).
+app.get("/admin/refreshall", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const ids = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
+  const changes = [];
+  let checked = 0, errors = 0;
+  for (const cid of ids) {
+    const beforeU = channels[cid].username, beforeA = channels[cid].avatarUrl;
+    const r = await refreshChannelIdentity(cid);
+    checked++;
+    if (r === null) { errors++; continue; }
+    if (r.changed) {
+      const parts = [];
+      if (beforeU !== channels[cid].username) parts.push(`name: ${beforeU} -> ${channels[cid].username}`);
+      if (beforeA !== channels[cid].avatarUrl) parts.push("avatar changed");
+      changes.push(`${channels[cid].username}: ${parts.join(", ")}`);
+    }
+    await sleep(300);
+  }
+  const body = changes.length ? changes.join(String.fromCharCode(10)) : "(nothing was stale — every name/avatar already current)";
+  res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;">refreshAll — checked ${checked}, updated ${changes.length}, errors ${errors}
+
+${esc(body)}</pre>`);
+});
+
 app.get("/admin/refreshidentity/:username", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const uname = req.params.username.toLowerCase();
@@ -6726,6 +6753,12 @@ app.listen(PORT, "0.0.0.0", async () => {
 
   // After the socket & subscriptions settle, announce a NEW version to everyone (once).
   setTimeout(startupAnnounce, 25000);
+  // On boot, refresh every channel's name+avatar once (spaced out) so renames/new pics auto-correct after
+  // each deploy without waiting for the slow timer — "check everything directly", per Brachial's request.
+  setTimeout(() => {
+    const _ids = Object.keys(channels).filter(id => id !== BOT_CHANNEL_ID);
+    _ids.forEach((cid, i) => setTimeout(() => refreshChannelIdentity(cid).catch(() => {}), i * 500));
+  }, 30000);
 
   // Rotating "did you know" tips in the home channel, every 4 hours — cycles through
   // HOME_CHANNEL_TIPS so it's not always the same "I'm online" message on repeat.
