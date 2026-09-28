@@ -1996,7 +1996,7 @@
       "username": "crypt0k1ng96",
       "language": "en",
       "stats": {
-        "totalVotes": 31652,
+        "totalVotes": 31653,
         "totalSubs": 233,
         "totalChatMessages": 12585,
         "totalStreamMinutes": 29749,
@@ -5168,14 +5168,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 32016,
+        "totalVotes": 32021,
         "totalSubs": 91,
-        "totalChatMessages": 12468,
+        "totalChatMessages": 12469,
         "totalStreamMinutes": 7705,
         "emotes": {
           "❤": 213,
           "🙌": 340,
-          "🗳": 1496,
+          "🗳": 1499,
           "✌": 11,
           "😊": 10,
           "👍": 16,
@@ -5683,13 +5683,9 @@
           "🤸": "🤸"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790569839204
+        "lastChatAt": 1790574717162
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -5725,6 +5721,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xscheun just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -21322,8 +21322,8 @@
     }
   },
   "auth": {
-    "accessToken": "24ffb362fe43b27b4a551b6165ff45d3",
-    "refreshToken": "c797e9379bd03ba8e899ad87fe2c144e",
+    "accessToken": "6e879faa0495dc32a4866fe5a8d4b521",
+    "refreshToken": "0b060801f3de4a3da80204969cbe742d",
     "sessionToken": "d4413bad72c8c4dcdeefe5991787d05c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
