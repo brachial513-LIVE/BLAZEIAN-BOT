@@ -1998,7 +1998,7 @@
       "stats": {
         "totalVotes": 31655,
         "totalSubs": 234,
-        "totalChatMessages": 12598,
+        "totalChatMessages": 12599,
         "totalStreamMinutes": 29808,
         "emotes": {
           "📊": 3,
@@ -2539,13 +2539,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790610849666
+        "lastChatAt": 1790614165559
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "GM zani"
@@ -2581,6 +2577,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "BRB need some food"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Will be back in a few hours!"
         }
       ],
       "customCommands": {},
@@ -9211,7 +9211,7 @@
         "totalVotes": 10709,
         "totalSubs": 198,
         "totalChatMessages": 496,
-        "totalStreamMinutes": 14759,
+        "totalStreamMinutes": 14760,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -16399,7 +16399,7 @@
       "giveaway": {
         "joinCmd": "fart",
         "viewCmd": "vader",
-        "open": false,
+        "open": true,
         "entries": []
       },
       "_idAt": 1790607256358
@@ -16995,7 +16995,7 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "330 Votes Raffle (10 Votes = 1 Entry) - Feat. @FartVader @cr33pling — Steam",
       "lastStreamInfo": "LFBlaze! Featuring - @cr33pling @FartVader — Steam",
       "lastStreamEndedAt": 1790533730438,
       "gameOverride": "",
