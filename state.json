@@ -606,7 +606,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/3c2c7809-ff4f-4fd6-8128-09dcaeaba07e.jpg",
-      "_idAt": 1790576483399
+      "_idAt": 1790598855225
     },
     "c793ee2d-a124-463b-88ed-d4cbb437516c": {
       "username": "mistersupercool",
@@ -1429,7 +1429,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 24891,
+        "totalVotes": 24911,
         "totalSubs": 62,
         "totalChatMessages": 31883,
         "totalStreamMinutes": 3120,
@@ -4130,7 +4130,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev! — Music",
       "lastStreamEndedAt": 1790540009341,
-      "_idAt": 1790576483405
+      "_idAt": 1790598856354
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -5162,13 +5162,13 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1790576483394
+      "_idAt": 1790598853962
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 32306,
+        "totalVotes": 32326,
         "totalSubs": 91,
         "totalChatMessages": 12475,
         "totalStreamMinutes": 7705,
@@ -6903,7 +6903,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790576483459
+      "_idAt": 1790598857536
     },
     "79ffc47e-8cb0-4618-9272-c9281368d26e": {
       "username": "vitrene",
@@ -9831,7 +9831,7 @@
       "username": "0xscheun",
       "language": "en",
       "stats": {
-        "totalVotes": 5423,
+        "totalVotes": 5433,
         "totalSubs": 29,
         "totalChatMessages": 598,
         "totalStreamMinutes": 2343,
@@ -10564,7 +10564,7 @@
         "totalVotes": 26711,
         "totalSubs": 151,
         "totalChatMessages": 2990,
-        "totalStreamMinutes": 15695,
+        "totalStreamMinutes": 15700,
         "emotes": {
           "❤": 118,
           "🙌": 209,
@@ -14025,9 +14025,9 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 28484,
+        "totalVotes": 28504,
         "totalSubs": 49,
-        "totalChatMessages": 5278,
+        "totalChatMessages": 5279,
         "totalStreamMinutes": 10235,
         "emotes": {
           "❤": 99,
@@ -14318,13 +14318,9 @@
           "1e968e87-cba2-4839-85d3-b1fb03db6a37": "Sad"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790576153236
+        "lastChatAt": 1790598927068
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @NiRuntz!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @entropy!"
@@ -14360,6 +14356,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 20 votes, @alliveall!"
         }
       ],
       "customCommands": {},
@@ -15254,7 +15254,7 @@
         "totalVotes": 7205,
         "totalSubs": 61,
         "totalChatMessages": 1581,
-        "totalStreamMinutes": 6945,
+        "totalStreamMinutes": 6950,
         "emotes": {
           "❤": 65,
           "🙌": 77,
@@ -21326,8 +21326,8 @@
     }
   },
   "auth": {
-    "accessToken": "5a289f6c5be26bb9fa89de6697d84f96",
-    "refreshToken": "52963abaf6dfc283d16c1071a1412df0",
+    "accessToken": "34e85163a836705c707ac0dfd1e1c436",
+    "refreshToken": "37ee822b96619eea977cc3c2c98e1b7b",
     "sessionToken": "d4413bad72c8c4dcdeefe5991787d05c",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
