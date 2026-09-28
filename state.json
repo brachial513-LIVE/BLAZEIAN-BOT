@@ -2671,7 +2671,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790580850369
+      "_idAt": 1790603650367
     },
     "cef62e02-6fea-468d-9f76-2f4feb1060b7": {
       "username": "thom6ss_otg",
@@ -3036,7 +3036,7 @@
       "lastStreamEndedAt": 1789956701893,
       "nudgedAt": 1786436965117,
       "nudgedKey": "schedule",
-      "_idAt": 1790580851550
+      "_idAt": 1790603651552
     },
     "5e9d9b5f-98cf-4b92-a93c-ed876703b55a": {
       "username": "agent00zani",
@@ -3044,8 +3044,8 @@
       "stats": {
         "totalVotes": 20375,
         "totalSubs": 82,
-        "totalChatMessages": 7262,
-        "totalStreamMinutes": 21457,
+        "totalChatMessages": 7263,
+        "totalStreamMinutes": 21477,
         "emotes": {
           "❤": 214,
           "🙌": 167,
@@ -3145,7 +3145,7 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": 6,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 46,
           "da339ef7-1574-4f2f-8b48-666688167af3": 6,
-          "37719561-c923-4260-b1a5-e3eda10c103d": 13,
+          "37719561-c923-4260-b1a5-e3eda10c103d": 14,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 14,
           "60967948-8805-42ef-a202-051d2e2f1557": 1,
           "07de98c1-b682-4d82-b630-774474b712cc": 4,
@@ -3368,14 +3368,10 @@
           "😞": "😞",
           "👊": "👊"
         },
-        "lastChatAt": 1790602412619,
+        "lastChatAt": 1790603904954,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "gm gm gm gm gm.. how goes your day"
-        },
         {
           "user": "lunaria",
           "msg": "im good, im good, just lurkin on some streams"
@@ -3411,6 +3407,10 @@
         {
           "user": "vitrene",
           "msg": "[emote:c5d11b0f-661a-4d6f-b714-1c36e64195e2]"
+        },
+        {
+          "user": "libralives",
+          "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d]"
         }
       ],
       "customCommands": {
@@ -3596,13 +3596,13 @@
           "dur": 0
         }
       },
-      "_idAt": 1790580849202
+      "_idAt": 1790603649185
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 32779,
+        "totalVotes": 33415,
         "totalSubs": 74,
         "totalChatMessages": 14472,
         "totalStreamMinutes": 8224,
@@ -4011,12 +4011,12 @@
           "🧀": "🧀"
         },
         "lastChatAt": 1790539911528,
-        "sendFailStreak": 542,
-        "lastSendFailAt": 1790526369286,
+        "sendFailStreak": 543,
+        "lastSendFailAt": 1790604225118,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146,
-        "lastProbeAt": 1790442332948
+        "lastProbeAt": 1790604224937
       },
       "chatMemory": [
         {
@@ -4634,7 +4634,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fueling Ships in South East Texas — IRL",
       "lastStreamEndedAt": 1790560244571,
-      "_idAt": 1790580852740
+      "_idAt": 1790603652758
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -4807,7 +4807,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790580853940
+      "_idAt": 1790603653958
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -5885,7 +5885,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Mindcop - First Playthrough — IRL",
       "lastStreamEndedAt": 1790326194772,
-      "_idAt": 1790580855154
+      "_idAt": 1790603655162
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -5985,7 +5985,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8e722545-71bf-4322-9039-50b822ebe64c.jpeg",
       "lastStreamInfo": "OFF THE GRID! Summer League — Off The Grid",
       "lastStreamEndedAt": 1786154686473,
-      "_idAt": 1790580856368
+      "_idAt": 1790603656342
     },
     "ff594749-c9c6-4c0b-9306-ec8fd4252f7e": {
       "username": "weri",
@@ -7159,7 +7159,7 @@
       "nudgedKey": "customcmd",
       "lastStreamInfo": "Let's Play #1: Dune Awakening 🏜️ — Dune Awakening",
       "lastStreamEndedAt": 1790114701917,
-      "_idAt": 1790580857570
+      "_idAt": 1790603657538
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
       "username": "grook",
@@ -9567,7 +9567,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 75,
-        "totalStreamMinutes": 7045,
+        "totalStreamMinutes": 7065,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -10566,16 +10566,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 26777,
+        "totalVotes": 26827,
         "totalSubs": 152,
-        "totalChatMessages": 3011,
-        "totalStreamMinutes": 15765,
+        "totalChatMessages": 3013,
+        "totalStreamMinutes": 15785,
         "emotes": {
           "❤": 118,
           "🙌": 210,
           "💚": 3,
           "🔥": 98,
-          "🗳": 837,
+          "🗳": 840,
           "🔴": 133,
           "🎉": 178,
           "📴": 129,
@@ -10608,7 +10608,7 @@
           "🚀": 3,
           "💜": 3,
           "e4d2fd4e-cdab-419c-bf8a-1a9b2401d03f": 22,
-          "8f198fe9-5250-4aaa-8783-ce311112d551": 17,
+          "8f198fe9-5250-4aaa-8783-ce311112d551": 20,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 10,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 15,
           "ef07187d-8e6c-42b9-af9c-b732de7949cb": 30,
@@ -10619,7 +10619,7 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 6,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 12,
           "🦊": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 24,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 25,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 20,
           "🤣": 26,
           "🍗": 2,
@@ -10767,17 +10767,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790601698104
+        "lastChatAt": 1790603269753
       },
       "chatMemory": [
-        {
-          "user": "cynthia_stnkmp",
-          "msg": "yw!"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "just lurking a bit .. sorry i missed your message"
-        },
         {
           "user": "faithy_",
           "msg": "no worries man!"
@@ -10809,6 +10801,14 @@
         {
           "user": "lunaria",
           "msg": "ninong! patambay aq d2"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:8f198fe9-5250-4aaa-8783-ce311112d551] [emote:8f198fe9-5250-4aaa-8783-ce311112d551] [emote:8f198fe9-5250-4aaa-8783-ce311112d551]  much love @faithy_ broski!! [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {},
@@ -15264,7 +15264,7 @@
         "totalVotes": 7205,
         "totalSubs": 61,
         "totalChatMessages": 1582,
-        "totalStreamMinutes": 7015,
+        "totalStreamMinutes": 7035,
         "emotes": {
           "❤": 65,
           "🙌": 77,
@@ -15974,7 +15974,7 @@
       "stats": {
         "totalVotes": 17698,
         "totalSubs": 100,
-        "totalChatMessages": 5385,
+        "totalChatMessages": 5386,
         "totalStreamMinutes": 11046,
         "emotes": {
           "😅": 1,
@@ -16004,7 +16004,7 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": 120,
           "37719561-c923-4260-b1a5-e3eda10c103d": 12,
           "🎁": 108,
-          "🗳": 498,
+          "🗳": 501,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 30,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 21,
           "📴": 41,
@@ -16185,7 +16185,7 @@
           "🤗": "🤗"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790601534792,
+        "lastChatAt": 1790603268235,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -16193,10 +16193,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "fartvader",
           "msg": "bro, no wayyy..i ran out of everything..i'll give back for sure on next week [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -16232,6 +16228,10 @@
         {
           "user": "faithy_",
           "msg": "stay legend!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @lunaria just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -18407,10 +18407,10 @@
       "language": "en",
       "joinedAt": 1788280149842,
       "stats": {
-        "totalVotes": 4921,
+        "totalVotes": 4940,
         "totalSubs": 7,
-        "totalChatMessages": 174,
-        "totalStreamMinutes": 972,
+        "totalChatMessages": 184,
+        "totalStreamMinutes": 992,
         "emotes": {
           "❤": 10,
           "🙌": 13,
@@ -18420,7 +18420,7 @@
           "📴": 10,
           "👋": 10,
           "⏰": 1,
-          "🗳": 33,
+          "🗳": 39,
           "🔥": 12,
           "⚠": 1,
           "🎯": 1,
@@ -18431,7 +18431,8 @@
           "🤣": 5,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 2,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1,
-          "📊": 1
+          "📊": 1,
+          "37719561-c923-4260-b1a5-e3eda10c103d": 4
         },
         "emoteNames": {
           "❤": "❤",
@@ -18453,51 +18454,52 @@
           "🤣": "🤣",
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO",
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE",
-          "📊": "📊"
+          "📊": "📊",
+          "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790602883842
+        "lastChatAt": 1790604138807
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 destinoprospero is now live! Welcome everyone! 🎉"
-        },
-        {
           "user": "scurvybot",
-          "msg": "Stream is now live: 📊 DayTrade | Índices • Metais • Crypto — Leitura do Mercado em Tempo Real! Come hang out and watch."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @lunaria!"
+          "msg": "Thanks for the 15 votes, @lady_iris!"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @lunaria just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "destinoprospero",
-          "msg": "thanks lunaria !!"
-        },
-        {
-          "user": "destinoprospero",
-          "msg": "S2"
-        },
-        {
-          "user": "lady_iris",
-          "msg": "BOM DIA!"
-        },
-        {
-          "user": "destinoprospero",
-          "msg": "Salve lady"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @lady_iris just gave 15 vote(s) (total: 15)! Thank you!! 🗳️"
         },
         {
           "user": "victorribeiro02",
-          "msg": "boa man"
+          "msg": "us 500 nem conpensa pegar agr"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "gm gm"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 4 votes, @0xscheun!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xscheun just gave 4 vote(s) (total: 4)! Thank you!! 🗳️"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:37719561-c923-4260-b1a5-e3eda10c103d]"
+        },
+        {
+          "user": "pedrohp",
+          "msg": "fala calebe"
+        },
+        {
+          "user": "victorribeiro02",
+          "msg": "entre medias nao te incomoda nao  esse us100"
         }
       ],
       "customCommands": {},
@@ -20592,8 +20594,8 @@
     },
     "midnight_driv3r": {
       "note": "Enjoys gaming, nostalgic childhood items, sports, and a lighthearted, humorous tone.",
-      "at": 1790560031038,
-      "n": 3
+      "at": 1790604250927,
+      "n": 4
     },
     "libralives": {
       "note": "Enjoys gaming, especially Helldivers 2, and talks about NFTs and trading while keeping a playful, light‑hearted tone.",
@@ -20701,9 +20703,9 @@
       "n": 1
     },
     "surrya": {
-      "note": "Playful gamer who shares clips, loves lighthearted banter about holidays, family, bright scenery, and driving moments.",
-      "at": 1790554090996,
-      "n": 6
+      "note": "A playful gamer who streams WoW boss pulls, loves Merge Dragons, and shares lighthearted banter about holidays, family, bright scenery, and driving moments.",
+      "at": 1790603590965,
+      "n": 7
     },
     "one": {
       "note": "Enjoys World of Warcraft and Old School RuneScape, loves guild trading and quick loot finds, and shares enthusiastic, playful game tips with a humorous tone.",
