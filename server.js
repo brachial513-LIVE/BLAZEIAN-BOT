@@ -1022,27 +1022,20 @@ async function backfillChannelAvatar(channelId, username) {
 // Keep each served channel's stored username (slug) and avatar in sync with Blaze, so a streamer who
 // renames or swaps their profile picture updates on the homepage grid instead of showing a stale name
 // with a dead blaze.stream/<old-name> link (proven: "missaria_wf" kept showing after she became "missaria").
-// Looks up by the STABLE channelId — a stale slug can't find a renamed channel. SAFETY: only a row whose
-// id EXACTLY matches channelId is trusted, so if Blaze ever ignored the id[] filter we no-op instead of
-// writing wrong data. Falls back to the current slug (keeps avatars fresh even if id[] isn't honoured).
+// Uses the bapi channel-by-id endpoint (GET /bapi/channels/{id} with the session token) — CONFIRMED via
+// /admin/idprobe as the one that returns a renamed channel's CURRENT slug + avatar (the v1 slug lookup
+// can't find a renamed channel, and v1's id[] filter is ignored, returning unrelated channels). Only a
+// payload whose channelId matches is trusted, so a wrong/empty response is a safe no-op.
 async function refreshChannelIdentity(channelId) {
   const ch = channels[channelId];
   if (!ch) return null;
-  const pick = rows => (rows || []).find(r => r && r.id === channelId) || null;
   try {
-    let row = null;
-    try {
-      const res = await axios.get(`${API}/v1/channels?id[]=${encodeURIComponent(channelId)}&type=all`, { headers: headers(), timeout: 8000 });
-      row = pick(res.data?.data?.rows);
-    } catch (e) {}
-    if (!row && ch.username) {
-      const r2 = await axios.get(`${API}/v1/channels?slug[]=${encodeURIComponent(ch.username)}&type=all`, { headers: headers(), timeout: 8000 });
-      row = pick(r2.data?.data?.rows);
-    }
+    const r = await axios.get(`https://blaze.stream/bapi/channels/${channelId}`, { headers: sessHeaders(), timeout: 8000, validateStatus: () => true });
+    const d = (r.data && r.data.data) || null;
     ch._idAt = Date.now();
-    if (!row) return { found: false, changed: false };
-    const newName = String(row.slug || row.username || "").toLowerCase().trim();
-    const newAvatar = row.avatarUrl || row.avatar || row.imageUrl || null;
+    if (!d || (d.channelId && d.channelId !== channelId)) return { found: false, changed: false };
+    const newName = String(d.slug || d.username || "").toLowerCase().trim();
+    const newAvatar = d.avatarUrl || d.avatar || d.imageUrl || null;
     let changed = false;
     if (newName && newName !== ch.username) { ch.username = newName; changed = true; }
     if (newAvatar && newAvatar !== ch.avatarUrl) { ch.avatarUrl = newAvatar; changed = true; }
@@ -1052,6 +1045,7 @@ async function refreshChannelIdentity(channelId) {
     return null;
   }
 }
+
 // Slow background sync so renames/new avatars propagate even when nobody is viewing a page. Refreshes the
 // few stalest channels each tick (spaced out), cycling through all of them roughly every few hours, cheap.
 setInterval(() => {
