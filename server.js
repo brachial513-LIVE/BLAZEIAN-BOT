@@ -5117,6 +5117,31 @@ app.get("/admin/remove/:username", async (req, res) => {
 // Force-refresh one channel's name+avatar from Blaze by its stable id, showing before/after — to pull a
 // rename / new profile pic immediately AND to confirm the id[]-lookup actually works. Query by the name
 // the bot currently has stored (e.g. the OLD one); it resolves to the channelId, then refreshes from Blaze.
+// DIAGNOSTIC: probe several by-channelId Blaze endpoints and dump the raw responses, so we can see which
+// one actually returns a renamed channel's CURRENT slug + avatar (the id[] filter alone returned nothing).
+app.get("/admin/idprobe/:cid", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const cid = req.params.cid;
+  const tries = [
+    { name: "GET bapi/channels/{cid}", url: `https://blaze.stream/bapi/channels/${cid}`, h: sessHeaders() },
+    { name: "GET v1/channels/{cid}", url: `${API}/v1/channels/${cid}`, h: headers() },
+    { name: "GET v1/channels?id[]={cid}", url: `${API}/v1/channels?id[]=${encodeURIComponent(cid)}&type=all`, h: headers() },
+    { name: "GET bapi/channels/{cid}/profile", url: `https://blaze.stream/bapi/channels/${cid}/profile`, h: sessHeaders() },
+  ];
+  const out = [];
+  for (const t of tries) {
+    try {
+      const r = await axios.get(t.url, { headers: t.h, timeout: 8000, validateStatus: () => true });
+      out.push(`### ${t.name}\nHTTP ${r.status}\n${JSON.stringify(r.data).slice(0, 900)}`);
+    } catch (e) {
+      out.push(`### ${t.name}\nERR ${e.message}`);
+    }
+  }
+  res.send(`<pre style="font-family:monospace;font-size:12px;white-space:pre-wrap;">idprobe ${esc(cid)}
+
+${esc(out.join("\n\n"))}</pre>`);
+});
+
 app.get("/admin/refreshidentity/:username", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const uname = req.params.username.toLowerCase();
@@ -5581,6 +5606,28 @@ app.get("/admin/learn/:username", async (req, res) => {
 
 // Broadcast a ONE-TIME announcement to every active channel (you control the text & timing).
 // Usage: /admin/announce?key=...&msg=Your%20message%20here
+// DIAGNOSTIC: what does MyMemory actually return to THIS server (Render's IP)? Translation fails live even
+// though it works from a dev machine — this dumps the raw MyMemory response + the real translateText result
+// so we can see quota/rate-limit/block from Render's perspective. /admin/xlate?to=de&msg=...&key=...
+app.get("/admin/xlate", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  const to = (req.query.to || "de").toString();
+  const q = (req.query.msg || "Hello everyone, this is a translation test.").toString();
+  const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(q)}&langpair=${encodeURIComponent("Autodetect|" + to)}${MYMEMORY_EMAIL ? "&de=" + encodeURIComponent(MYMEMORY_EMAIL) : ""}`;
+  const out = {};
+  try {
+    const r = await axios.get(url, { timeout: 8000, validateStatus: () => true });
+    out.http = r.status;
+    out.raw = typeof r.data === "string" ? r.data.slice(0, 700) : JSON.stringify(r.data).slice(0, 700);
+  } catch (e) {
+    out.fetchError = e.message;
+  }
+  out.translateText_result = await translateText(q, to);
+  res.send(`<pre style="font-family:monospace;font-size:12px;white-space:pre-wrap;">xlate to=${esc(to)}  MYMEMORY_EMAIL=${MYMEMORY_EMAIL ? "SET" : "none"}
+
+${esc(JSON.stringify(out, null, 2))}</pre>`);
+});
+
 app.get("/admin/announce", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   const msg = (req.query.msg || "").toString().trim();
