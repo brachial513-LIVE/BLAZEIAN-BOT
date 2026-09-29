@@ -9890,16 +9890,16 @@
       "stats": {
         "totalVotes": 5458,
         "totalSubs": 29,
-        "totalChatMessages": 614,
-        "totalStreamMinutes": 2480,
+        "totalChatMessages": 616,
+        "totalStreamMinutes": 2490,
         "emotes": {
           "❤": 32,
           "🙌": 38,
           "🗳": 228,
           "🔴": 47,
           "🎉": 49,
-          "📴": 45,
-          "👋": 47,
+          "📴": 46,
+          "👋": 48,
           "🎁": 36,
           "🤝": 1,
           "🔥": 19,
@@ -9977,17 +9977,9 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790681100207
+        "lastChatAt": 1790681701988
       },
       "chatMemory": [
-        {
-          "user": "timdraws",
-          "msg": "I see"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "i opt for mmo when i have nothing to play"
-        },
         {
           "user": "0xscheun",
           "msg": "NOT REALLY A BIG FAN"
@@ -10019,6 +10011,14 @@
         {
           "user": "alliveall",
           "msg": "😂😂"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "thank you"
         }
       ],
       "customCommands": {},
@@ -10031,14 +10031,14 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1fce5f33-0d10-4052-a439-2d788d567380.png",
       "followed": true,
-      "streamTitle": "SPIDERMAN - MILES MORALES — Marvel's Spider-Man: Miles Morales",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "0xscheun’s crew is a chill, high‑energy squad that loves gaming, especially Farlight and Uncharted. We greet with “gm gm” and “sup”, celebrate wins with “thank you” and “yessir”, laugh at “tiddies” and “nirus supplier” jokes, throw constant emotes, and end streams with a heartfelt “See you next time 👋”. The vibe is playful banter, fests, and constant celebration.",
       "_profileAtCount": 575,
       "nudgedAt": 1785078532098,
       "nudgedKey": "schedule",
       "lastStreamInfo": "SPIDERMAN - MILES MORALES — Marvel's Spider-Man: Miles Morales",
-      "lastStreamEndedAt": 1790438280173,
+      "lastStreamEndedAt": 1790681683996,
       "loyalty": {
         "anej56": {
           "name": "anej56",
@@ -10618,10 +10618,10 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 27538,
+        "totalVotes": 27588,
         "totalSubs": 152,
-        "totalChatMessages": 3042,
-        "totalStreamMinutes": 16093,
+        "totalChatMessages": 3044,
+        "totalStreamMinutes": 16104,
         "emotes": {
           "❤": 122,
           "🙌": 212,
@@ -10819,17 +10819,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790675615143
+        "lastChatAt": 1790681174344
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "hey @faithy_ man"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "whats upppppppp"
-        },
         {
           "user": "cr33pling",
           "msg": "[emote:ef07187d-8e6c-42b9-af9c-b732de7949cb] [emote:ef07187d-8e6c-42b9-af9c-b732de7949cb] [emote:ef07187d-8e6c-42b9-af9c-b732de7949cb]"
@@ -10861,6 +10853,14 @@
         {
           "user": "faithy_",
           "msg": "BRB need to do some things i'll be back in a minute"
+        },
+        {
+          "user": "future42",
+          "msg": "GM.     Have a Great Day"
+        },
+        {
+          "user": "future42",
+          "msg": "Cool"
         }
       ],
       "customCommands": {},
@@ -21424,8 +21424,8 @@
     }
   },
   "auth": {
-    "accessToken": "859e140cbfe740eaa7bfd2773e514bea",
-    "refreshToken": "c4add0567e917adea1de9b4b0d0b947c",
+    "accessToken": "be1c7d1dfed2f93ca9fbd72c3f947ce1",
+    "refreshToken": "f19a49f5c59d6f617f91cba66b498b02",
     "sessionToken": "3bb2029a27beca38e887d98ed7ec725d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
