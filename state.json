@@ -9891,7 +9891,7 @@
         "totalVotes": 5458,
         "totalSubs": 29,
         "totalChatMessages": 599,
-        "totalStreamMinutes": 2352,
+        "totalStreamMinutes": 2356,
         "emotes": {
           "❤": 32,
           "🙌": 38,
@@ -10620,8 +10620,8 @@
       "stats": {
         "totalVotes": 27538,
         "totalSubs": 152,
-        "totalChatMessages": 3039,
-        "totalStreamMinutes": 15964,
+        "totalChatMessages": 3040,
+        "totalStreamMinutes": 15969,
         "emotes": {
           "❤": 122,
           "🙌": 212,
@@ -10682,7 +10682,7 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": 9,
           "🎰": 1,
           "🚫": 1,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 22,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 26,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 4,
           "5bb8d832-d7ef-4600-8250-5d2518128981": 7,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 3,
@@ -10819,13 +10819,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790671504534
+        "lastChatAt": 1790673667650
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0] [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0] [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0] [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0] [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0] [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0]"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ twerkin_herbert just followed the channel! Welcome!! 🙌"
@@ -10861,6 +10857,10 @@
         {
           "user": "botger",
           "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "tuff3rmrd3ano",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
         }
       ],
       "customCommands": {},
@@ -11347,8 +11347,8 @@
       "stats": {
         "totalVotes": 6141,
         "totalSubs": 34,
-        "totalChatMessages": 348,
-        "totalStreamMinutes": 7372,
+        "totalChatMessages": 349,
+        "totalStreamMinutes": 7377,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -11396,13 +11396,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790672750058
+        "lastChatAt": 1790673657289
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @cvek11!"
@@ -11438,6 +11434,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: dots! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -11450,12 +11450,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "dots — Dota 2",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to pr0ff’s stream—Ragnarok grind, PUGs, endless “DOTES” vibes! The chat loves “thanks” after a love fest, gifts a Sub to celebrate milestones, and throws 🔥 emojis everywhere. pr0ff thrives on community hype, “gift a Sub” moments, and “thanks” shoutouts. Keep the energy high, keep the 🔥 flowing!",
       "_profileAtCount": 339,
       "lastStreamInfo": "dots — Dota 2",
-      "lastStreamEndedAt": 1790672669933,
+      "lastStreamEndedAt": 1790673656872,
       "nudgedAt": 1786524138354,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -21424,8 +21424,8 @@
     }
   },
   "auth": {
-    "accessToken": "9020159d1fcc27a762351742f4376fe9",
-    "refreshToken": "51a73764d6ba29a0ddeea3e1f2e9a3ca",
+    "accessToken": "598f1aa7ca29959f8df619ddbc070383",
+    "refreshToken": "f6b03e169add0b1ad769ec62e2040851",
     "sessionToken": "3bb2029a27beca38e887d98ed7ec725d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
