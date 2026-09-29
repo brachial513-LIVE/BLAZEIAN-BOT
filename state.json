@@ -7360,7 +7360,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 50,
-        "totalStreamMinutes": 319,
+        "totalStreamMinutes": 324,
         "emotes": {
           "🎶": 1,
           "😀": 1,
@@ -10623,7 +10623,7 @@
         "totalVotes": 27688,
         "totalSubs": 152,
         "totalChatMessages": 3064,
-        "totalStreamMinutes": 16189,
+        "totalStreamMinutes": 16194,
         "emotes": {
           "❤": 122,
           "🙌": 212,
@@ -15000,7 +15000,7 @@
         "totalVotes": 11576,
         "totalSubs": 92,
         "totalChatMessages": 1665,
-        "totalStreamMinutes": 4430,
+        "totalStreamMinutes": 4435,
         "emotes": {
           "❤": 116,
           "🙌": 131,
@@ -18491,14 +18491,14 @@
       "stats": {
         "totalVotes": 4940,
         "totalSubs": 7,
-        "totalChatMessages": 217,
-        "totalStreamMinutes": 1035,
+        "totalChatMessages": 219,
+        "totalStreamMinutes": 1038,
         "emotes": {
           "❤": 12,
           "🙌": 14,
           "🎁": 2,
-          "🔴": 11,
-          "🎉": 11,
+          "🔴": 12,
+          "🎉": 12,
           "📴": 12,
           "👋": 12,
           "⏰": 1,
@@ -18513,7 +18513,7 @@
           "🤣": 5,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 2,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1,
-          "📊": 2,
+          "📊": 3,
           "37719561-c923-4260-b1a5-e3eda10c103d": 4
         },
         "emoteNames": {
@@ -18540,17 +18540,9 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790606934969
+        "lastChatAt": 1790686985398
       },
       "chatMemory": [
-        {
-          "user": "lady_iris",
-          "msg": "sim"
-        },
-        {
-          "user": "victorribeiro02",
-          "msg": "vendi o jp"
-        },
         {
           "user": "victorribeiro02",
           "msg": "vlw man"
@@ -18582,6 +18574,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 destinoprospero is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 📊 DayTrade | Índices • Metais • Crypto — Leitura do Mercado em Tempo Real! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -18594,7 +18594,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5f46f02-430b-41d6-bfa3-774916ad25fe.gif",
-      "streamTitle": "",
+      "streamTitle": "📊 DayTrade | Índices • Metais • Crypto — Leitura do Mercado em Tempo Real — IRL",
       "lastStreamInfo": "📊 DayTrade | Índices • Metais • Crypto — Leitura do Mercado em Tempo Real — IRL",
       "lastStreamEndedAt": 1790606929775,
       "gameOverride": "",
@@ -21432,8 +21432,8 @@
     }
   },
   "auth": {
-    "accessToken": "1a18be50c517979924c60d75ede4a322",
-    "refreshToken": "c2247de68dd538146e566b1fb84fa03d",
+    "accessToken": "6acfd295ea4ce473dd30701540ae41a4",
+    "refreshToken": "b202c7ae6a73661206c37c933d6dc9fe",
     "sessionToken": "3bb2029a27beca38e887d98ed7ec725d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
