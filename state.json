@@ -6109,16 +6109,16 @@
       "stats": {
         "totalVotes": 28105,
         "totalSubs": 65,
-        "totalChatMessages": 7846,
-        "totalStreamMinutes": 13693,
+        "totalChatMessages": 7849,
+        "totalStreamMinutes": 13707,
         "emotes": {
           "❤": 114,
           "🙌": 189,
           "🗳": 780,
           "🔴": 80,
           "🎉": 141,
-          "📴": 78,
-          "👋": 91,
+          "📴": 79,
+          "👋": 92,
           "🔥": 226,
           "💪": 2,
           "🤖": 1,
@@ -6471,22 +6471,10 @@
           "🙀": "🙀",
           "👆": "👆"
         },
-        "lastChatAt": 1790734159718,
+        "lastChatAt": 1790736955381,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "oh nice, going to sub for sure when payout comes"
-        },
-        {
-          "user": "fartvader",
-          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "hate is a strong word. Maybe you just haven't met the right asshole"
-        },
         {
           "user": "briggsy",
           "msg": "D O T A"
@@ -6514,6 +6502,18 @@
         {
           "user": "briggsy",
           "msg": "okok"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "bye nadie"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6522,7 +6522,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "❤️Dota Tuesday❤️ — Dota 2",
+      "streamTitle": "",
       "profile": "Chill gaming crew on nadietv, loving WoW, Stumble Guys, Path of Exile 2, Dota, retro oldies. “Blazeee” vibes, “Will be relax day” shenanigans, “VOTE ALERT!!” celebrations, and “hard reset” humor. Chat roars “6969”, “METAL!”, “Castigo castigo”, “haslo de nuevo”, “Let’s gooooo”, “Theroan mode cat!”, “pull a roshi”, and “drained”. Gifts, votes, resubs met with joyous hype.",
       "_profileAtCount": 7762,
       "gameOverride": "",
@@ -6643,8 +6643,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "❤️Recording @UncleFunk 's song!❤️ — Music",
-      "lastStreamEndedAt": 1790648728198,
+      "lastStreamInfo": "❤️Dota Tuesday❤️ — Dota 2",
+      "lastStreamEndedAt": 1790736950269,
       "_idAt": 1790730691565
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
@@ -8987,10 +8987,10 @@
       "username": "xxtowerdogxx",
       "language": "en",
       "stats": {
-        "totalVotes": 15213,
+        "totalVotes": 15215,
         "totalSubs": 54,
-        "totalChatMessages": 2398,
-        "totalStreamMinutes": 17652,
+        "totalChatMessages": 2399,
+        "totalStreamMinutes": 17667,
         "emotes": {
           "🔥": 692,
           "🔴": 200,
@@ -9002,7 +9002,7 @@
           "👋": 64,
           "👽": 28,
           "💀": 6,
-          "🗳": 411,
+          "🗳": 414,
           "💗": 1,
           "😱": 19,
           "❤": 74,
@@ -9139,14 +9139,10 @@
           "9294e28e-48fa-409c-b43b-98287465b788": "CONTRASTPYRO2",
           "🤗": "🤗"
         },
-        "lastChatAt": 1790731578760,
+        "lastChatAt": 1790736914264,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "xxtowerdogxx",
-          "msg": "https://www.darksolargaming.com/"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @KGMJr32 just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
@@ -9182,6 +9178,10 @@
         {
           "user": "botger",
           "msg": "Go check out Dark Solar Tactical Gamings New Website, DSTG is built to bring Mental Health Awareness and support to the gaming community and we welcome everyone to join the ranks! https://www.darksolargaming.com/?ref=xxtowerdogxx"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -15584,7 +15584,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790713889193
+      "_idAt": 1790736689202
     },
     "3bccdf81-654d-4135-86ac-f0d392a4c718": {
       "username": "marioscy5",
@@ -15816,7 +15816,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790713890348
+      "_idAt": 1790736690385
     },
     "6f4e76b7-2f2d-4459-9343-97ed459cbf91": {
       "username": "clutchking",
@@ -16074,7 +16074,7 @@
       "_profileAtCount": 1224,
       "nudgedAt": 1786147592153,
       "nudgedKey": "schedule",
-      "_idAt": 1790713891578
+      "_idAt": 1790736691570
     },
     "a6bd36a5-1f94-4150-a0a7-678cdc9688bb": {
       "username": "fartvader",
@@ -16083,8 +16083,8 @@
       "stats": {
         "totalVotes": 18717,
         "totalSubs": 100,
-        "totalChatMessages": 5576,
-        "totalStreamMinutes": 11138,
+        "totalChatMessages": 5619,
+        "totalStreamMinutes": 11153,
         "emotes": {
           "😅": 1,
           "🔥": 256,
@@ -16103,25 +16103,25 @@
           "🙌": 182,
           "💪": 1,
           "👋": 53,
-          "9bbb90da-7f28-448d-9986-2748f752a3e6": 793,
-          "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 504,
+          "9bbb90da-7f28-448d-9986-2748f752a3e6": 802,
+          "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 507,
           "🔴": 44,
-          "🎉": 120,
-          "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 332,
+          "🎉": 121,
+          "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 334,
           "💎": 7,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 7,
           "a859cc12-453a-4bd8-b650-38710d9486de": 123,
           "37719561-c923-4260-b1a5-e3eda10c103d": 12,
           "🎁": 108,
           "🗳": 540,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 30,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 33,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 21,
           "📴": 44,
           "d021d096-f2ed-48e4-92df-af5f224e1a3f": 268,
           "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 130,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 19,
           "📢": 86,
-          "🚨": 330,
+          "🚨": 336,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 4,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 26,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 17,
@@ -16296,7 +16296,7 @@
           "👀": "👀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790736090065,
+        "lastChatAt": 1790736992627,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -16305,44 +16305,44 @@
       },
       "chatMemory": [
         {
-          "user": "tuff3rmrd3ano",
-          "msg": "Thanks man I should have checked before I raided"
-        },
-        {
-          "user": "tuff3rmrd3ano",
-          "msg": "Thanks 👍"
+          "user": "fartvader",
+          "msg": "haha for sure he is"
         },
         {
           "user": "fartvader",
-          "msg": "hehe its ok bro..thanks for the raid too!!"
+          "msg": "i hope it can display the whole list tho.."
         },
         {
-          "user": "tuff3rmrd3ano",
-          "msg": "[emote:d021d096-f2ed-48e4-92df-af5f224e1a3f]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+          "user": "briggsy",
+          "msg": "Oh, that was a cool idea"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 10 vote(s) (total: 20)! Thank you!! 🗳️"
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @NadieTv is raiding with a party of 6! Welcome raiders!! 🎉"
         },
         {
           "user": "fartvader",
-          "msg": "thank you brooo! [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
+          "msg": "thank you for joining guys"
         },
         {
-          "user": "tuff3rmrd3ano",
-          "msg": "Enjoy the rest of your day"
+          "user": "nadietv",
+          "msg": "RRRRRRRRRRRRRRRRRRAAAAAAAAAAAAAAAAAAAAIIIIIIIIIIIIIIIIIIIIIDDDDDDDDDDDDDDDDDDDDDD"
         },
         {
           "user": "fartvader",
-          "msg": "you too man, bless you more!"
+          "msg": "ohhh noooo nadieee haha"
         },
         {
-          "user": "botger",
-          "msg": "🔴 fartvader is now live! Welcome everyone! 🎉"
+          "user": "lvl4goblin",
+          "msg": "nice raid! [emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79]"
+        },
+        {
+          "user": "nadietv",
+          "msg": "how's that stream going? all good?"
+        },
+        {
+          "user": "fartvader",
+          "msg": "hahaha nothing to see here guys"
         }
       ],
       "customCommands": {},
@@ -16519,10 +16519,12 @@
           "angge_wf",
           "lunaria",
           "jt_squared2",
-          "tuff3rmrd3ano"
+          "tuff3rmrd3ano",
+          "faithy_",
+          "dimifw"
         ]
       },
-      "_idAt": 1790713892751
+      "_idAt": 1790736692770
     },
     "b4f41a7f-b0fd-471c-9f10-466564678c8e": {
       "username": "charddxyz",
@@ -16725,7 +16727,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790713893952
+      "_idAt": 1790736693975
     },
     "b10d6195-7cf2-4d3f-ada2-4ce767a69d5b": {
       "username": "korosuplays",
@@ -16949,17 +16951,17 @@
           "tier": 1
         }
       },
-      "_idAt": 1790713895164
+      "_idAt": 1790736695174
     },
     "6fe1077e-2398-4af0-a96c-ee5acc08c111": {
       "username": "jaggerjack",
       "language": "en",
       "joinedAt": 1786592864058,
       "stats": {
-        "totalVotes": 3898,
+        "totalVotes": 3908,
         "totalSubs": 23,
-        "totalChatMessages": 1523,
-        "totalStreamMinutes": 7255,
+        "totalChatMessages": 1532,
+        "totalStreamMinutes": 7270,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -17002,7 +17004,7 @@
           "✌": 1,
           "👍": 1,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 2,
-          "😆": 1,
+          "😆": 2,
           "😊": 1,
           "3cf95bc1-83e8-4de3-84a0-3af27264496d": 40,
           "🥰": 1,
@@ -17069,48 +17071,48 @@
           "🎁": "🎁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790735977243
+        "lastChatAt": 1790736870444
       },
       "chatMemory": [
         {
-          "user": "fartvader",
-          "msg": "gm gm broski"
-        },
-        {
-          "user": "fartvader",
-          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "[emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb]"
-        },
-        {
-          "user": "grim1angel",
-          "msg": "[emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041]"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "What is good man? Thank you for dropping in!"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "Just leveling up the lightning basic attack. Will try fireball next.."
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "Fk this Electrocute. Range is too short I kept on dying LOL"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Hey Jagger, man"
-        },
-        {
-          "user": "briggsy",
-          "msg": "What might this game be?"
-        },
-        {
           "user": "briggsy",
           "msg": "[emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:3cf95bc1-83e8-4de3-84a0-3af27264496d]"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "Heya! Briggs man!"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "It's called Deskrawl. It is like a mini Diablo"
+        },
+        {
+          "user": "briggsy",
+          "msg": "oh interesting"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "It's more on idle so I can do my chores at the same time lol"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "What is good man? How we doing?"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "Yow Dimi! Thank you! I will add this to your entry!"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Doing good.  Just resting after a day of work and chores.  Had dinner now about ready to pass out 😆."
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "Oh nice to hear man! Hibernation time! lol"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "I can't do mic at this time of the day. My daughter is with me she will take over lol"
         }
       ],
       "customCommands": {},
@@ -17198,7 +17200,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790713896381
+      "_idAt": 1790736696374
     },
     "00c816e5-574d-43f3-90c7-1808ae8a702e": {
       "username": "generalkev",
@@ -17288,22 +17290,22 @@
       "_profileAtCount": 33,
       "nudgedAt": 1786981105091,
       "nudgedKey": "schedule",
-      "_idAt": 1790713897547
+      "_idAt": 1790736697579
     },
     "aeb8b4ea-5a22-4acf-b508-dbf0ce896a86": {
       "username": "inn",
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 6361,
+        "totalVotes": 6363,
         "totalSubs": 27,
-        "totalChatMessages": 3981,
-        "totalStreamMinutes": 11172,
+        "totalChatMessages": 3983,
+        "totalStreamMinutes": 11186,
         "emotes": {
           "👋": 78,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 325,
+          "🗳": 328,
           "🔴": 77,
           "🎉": 101,
           "📴": 75,
@@ -17468,17 +17470,9 @@
           "☠": "☠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790735768960
+        "lastChatAt": 1790736921990
       },
       "chatMemory": [
-        {
-          "user": "treefrognada",
-          "msg": "hi"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@treefrognada congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/a74d777343a04342f1e10e72b0c30ae9463b15bdcdaaf01a460e35dc69da7390"
-        },
         {
           "user": "inn",
           "msg": "Giving away a 5$ pack all ya gotta do is say !play"
@@ -17510,6 +17504,14 @@
         {
           "user": "faithy_",
           "msg": "hope you both doing well!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 2 votes, @DimiFW!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -18946,7 +18948,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 4286,
+        "totalStreamMinutes": 4301,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -20108,7 +20110,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 4,
-        "totalStreamMinutes": 764,
+        "totalStreamMinutes": 779,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -20518,8 +20520,8 @@
     },
     "junior7_": {
       "note": "Enjoys playing Mania and other games, loves playful banter, and greets friends with casual, light‑hearted remarks.",
-      "at": 1790456448507,
-      "n": 15
+      "at": 1790736391508,
+      "n": 16
     },
     "cactus_jack440": {
       "note": "Enthusiastic Captain Rob mod who loves playful banter, uses emotes, chats about votes and game moments, and often streams or watches World",
