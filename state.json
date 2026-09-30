@@ -16084,12 +16084,12 @@
       "joinedAt": 1786172514205,
       "stats": {
         "totalVotes": 19190,
-        "totalSubs": 100,
-        "totalChatMessages": 5786,
+        "totalSubs": 101,
+        "totalChatMessages": 5787,
         "totalStreamMinutes": 11322,
         "emotes": {
           "😅": 1,
-          "🔥": 256,
+          "🔥": 258,
           "🍻": 5,
           "✌": 6,
           "😊": 1,
@@ -16102,7 +16102,7 @@
           "😁": 8,
           "😜": 11,
           "🙏": 1,
-          "🙌": 182,
+          "🙌": 183,
           "💪": 1,
           "👋": 54,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 824,
@@ -16302,7 +16302,7 @@
           "1dcd34c2-ae0c-416e-9501-86fe92e0cd77": "BASICPYRO1"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790747182734,
+        "lastChatAt": 1790763690222,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -16310,10 +16310,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "jaggerjack",
-          "msg": "what is that briggs man? is that a steam game code?"
-        },
         {
           "user": "fartvader",
           "msg": "i dont know how to compute this bro.. this is no math channel 🤣"
@@ -16349,6 +16345,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @kariman has resubscribed — 2 months total, 1 month streak! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -16507,6 +16507,11 @@
         },
         "cg777": {
           "name": "cg777",
+          "months": 1,
+          "tier": 1
+        },
+        "kariman": {
+          "name": "kariman",
           "months": 1,
           "tier": 1
         }
@@ -19517,7 +19522,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790740289205
+      "_idAt": 1790763089263
     },
     "157ed26e-c72f-49c1-877b-5101b0645fb6": {
       "username": "cem",
@@ -19629,7 +19634,7 @@
       "lastStreamInfo": "burada yeniyim !discord !settings — VALORANT",
       "lastStreamEndedAt": 1789668309772,
       "gameOverride": "",
-      "_idAt": 1790740290374
+      "_idAt": 1790763090397
     },
     "642cd761-2515-4c48-9c17-ae2e29e692e8": {
       "username": "thatsicy_",
@@ -19764,7 +19769,7 @@
       "lastStreamEndedAt": 1790720950137,
       "nudgedAt": 1790123384716,
       "nudgedKey": "schedule",
-      "_idAt": 1790740291576,
+      "_idAt": 1790763091591,
       "loyalty": {
         "desirablebottom": {
           "name": "desirablebottom",
@@ -19861,7 +19866,7 @@
       "_profileAtCount": 35,
       "followed": true,
       "botVip": true,
-      "_idAt": 1790740292778
+      "_idAt": 1790763092796
     },
     "8f59e982-1482-4327-86d9-ae96b063edc4": {
       "username": "hortenseemu44",
@@ -20017,7 +20022,7 @@
       "lastStreamInfo": "🔥 BLAZE x OTG TRIOS SHOWDOWN | BLAZE KINGS TAKE THE FIELD 🔨 | HortenseEmu44 — Aim Lab",
       "lastStreamEndedAt": 1790482235456,
       "gameOverride": "",
-      "_idAt": 1790740293986
+      "_idAt": 1790763094021
     },
     "1952fbef-bab1-4a82-8a89-9c9c123ebb45": {
       "username": "mafaz",
@@ -20113,7 +20118,7 @@
       "gameOverride": "",
       "profile": "mafaz streams action‑packed gameplay, welcoming every new Blazeian with “welcome” and “thanks.” The chat buzzes with “woot,” “happy streaming buddd,” and “enjoy the game broski!” Fans celebrate mafaz by cheering “blazeee” and using the custom emote. The vibe is energetic, friendly, and supportive—every viewer feels part of the Blazeiancrew.",
       "_profileAtCount": 15,
-      "_idAt": 1790740295175
+      "_idAt": 1790763095202
     },
     "fba94794-c563-4d68-8aec-152f85eba0e1": {
       "username": "hubal",
@@ -20123,7 +20128,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 4,
-        "totalStreamMinutes": 1209,
+        "totalStreamMinutes": 1229,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -20183,7 +20188,7 @@
       "lastStreamInfo": "Onimusha Way of the Sword - NG+ Pt. 6 — Onimusha: Way Of The Sword",
       "lastStreamEndedAt": 1790635885645,
       "gameOverride": "",
-      "_idAt": 1790740296385
+      "_idAt": 1790763096396
     },
     "5d7fc259-9ec1-46b1-a6f8-903cb08b2c61": {
       "username": "thelarsofus",
@@ -20215,7 +20220,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1790740297585,
+      "_idAt": 1790763097608,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5283cee-6005-4782-92fe-13419fd64684.png",
       "followed": true,
       "botVip": true
@@ -20568,8 +20573,8 @@
     },
     "nadietv": {
       "note": "Enjoys playing Dawn of Battle, Path of Exile 2, and Dota, loves folk and progressive metal, and chats with playful, light‑hearted humor.",
-      "at": 1790718571541,
-      "n": 41
+      "at": 1790762791471,
+      "n": 42
     },
     "johngalt": {
       "note": "Enjoys playing games like Fortnite and pyros, loves lighthearted humor, and often shares playful, casual messages.",
