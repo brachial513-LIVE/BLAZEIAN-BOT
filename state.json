@@ -2000,8 +2000,8 @@
       "stats": {
         "totalVotes": 32082,
         "totalSubs": 237,
-        "totalChatMessages": 12936,
-        "totalStreamMinutes": 30643,
+        "totalChatMessages": 12938,
+        "totalStreamMinutes": 30648,
         "emotes": {
           "📊": 3,
           "🔥": 527,
@@ -2226,7 +2226,7 @@
           "4e0ace02-ece6-4efe-be60-53e7c1883698": 15,
           "cfe942ab-6eea-4b97-8777-5fe29a9aca78": 6,
           "77eff0f6-3ddf-4421-be0c-302b8bd71830": 11,
-          "5ba97ddb-ee75-44d4-aade-9bcb444fda7a": 26,
+          "5ba97ddb-ee75-44d4-aade-9bcb444fda7a": 27,
           "fecfde94-81b4-4d93-b0ab-e21558a35359": 9,
           "d877b990-6c2b-412d-8b5c-1d022dfeeeda": 23,
           "f47f29b9-47f9-49f7-bf29-848237874bfb": 5,
@@ -2248,7 +2248,7 @@
           "67645f3b-901a-4574-8ed6-8cceb73dbb09": 4,
           "710d5292-d1cd-4d2e-a0e2-0038426d9c2b": 37,
           "8fc6cae7-36f7-46d5-89a6-71b9aaad2234": 16,
-          "760e7352-a7ed-4464-a429-08feb9820455": 9,
+          "760e7352-a7ed-4464-a429-08feb9820455": 10,
           "6aa5448e-bc2f-4c50-9795-1e6666bdf374": 1,
           "1167b366-f1c6-430f-b747-55c494413918": 3,
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": 1,
@@ -2547,17 +2547,9 @@
           "😥": "😥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790871593002
+        "lastChatAt": 1790873486839
       },
       "chatMemory": [
-        {
-          "user": "tarzan",
-          "msg": "I see"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "I will keep upgrading Foxbot over time [emote:2c730e4b-9ee3-4a88-ba72-1ed5264694bd]"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "But @foxbotai  already does a lot of fun things now 😂 I am impressed with my creation!! Never thought I’d build something like this either lol"
@@ -2589,6 +2581,14 @@
         {
           "user": "foxbotai",
           "msg": "🎡 @crypt0k1ng96, ball landed on 32 red — you won 1554 promo! Balance: 10605 promo."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:760e7352-a7ed-4464-a429-08feb9820455]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:5ba97ddb-ee75-44d4-aade-9bcb444fda7a]"
         }
       ],
       "customCommands": {},
@@ -3627,8 +3627,8 @@
       "stats": {
         "totalVotes": 35112,
         "totalSubs": 83,
-        "totalChatMessages": 15397,
-        "totalStreamMinutes": 8745,
+        "totalChatMessages": 15403,
+        "totalStreamMinutes": 8750,
         "emotes": {
           "❤": 6139,
           "🎵": 638,
@@ -3763,7 +3763,7 @@
           "🪄": 9,
           "😭": 13,
           "💖": 25,
-          "😄": 7,
+          "😄": 8,
           "💗": 8,
           "👏": 1,
           "🤔": 4,
@@ -4043,39 +4043,15 @@
           "😮": "😮",
           "🪨": "🪨"
         },
-        "lastChatAt": 1790873018578,
-        "sendFailStreak": 547,
-        "lastSendFailAt": 1790788635829,
+        "lastChatAt": 1790873406865,
+        "sendFailStreak": 548,
+        "lastSendFailAt": 1790873254910,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146,
-        "lastProbeAt": 1790788635587
+        "lastProbeAt": 1790873254735
       },
       "chatMemory": [
-        {
-          "user": "switchback",
-          "msg": "Only JESUS! 🙌🏻💪🏻"
-        },
-        {
-          "user": "weri",
-          "msg": "Uncle where are them shades this calls for shades lol"
-        },
-        {
-          "user": "weri",
-          "msg": "Now we talking lol"
-        },
-        {
-          "user": "weri",
-          "msg": "Everybody needs a funk sol brother"
-        },
-        {
-          "user": "weri",
-          "msg": "JESUS IS KING !!!!!!!!!"
-        },
-        {
-          "user": "sheshi",
-          "msg": "🚨 BlazeBorn Eggs Live on Avalanche! [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:57033a2d-497d-4cb1-afa8-831b55347aae] 1 Egg = 3 Random BlazeBorn Turrets (Common → Ultra Exotic rarities), Tip UncleFunk ($2–$100) with your EVM wallet on stream → egg airdrop. Hatch them here: https://ospgame.com/rewards, tip here on blaze: https://blaze.stream/unclefunk"
-        },
         {
           "user": "sheshi",
           "msg": "Everybody freaking jump"
@@ -4091,6 +4067,30 @@
         {
           "user": "sheshi",
           "msg": "joy"
+        },
+        {
+          "user": "weri",
+          "msg": "Joy comes in the morning but for me it's whole day"
+        },
+        {
+          "user": "switchback",
+          "msg": "I timed my playlist for Saturday's Marathon that I end with this song 😄"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Thats awesome!! hahaha"
+        },
+        {
+          "user": "weri",
+          "msg": "Won't back down"
+        },
+        {
+          "user": "tinapay",
+          "msg": "helloooooo"
+        },
+        {
+          "user": "weri",
+          "msg": "I'm always in first place with Jesus on my side"
         }
       ],
       "customCommands": {},
@@ -20296,7 +20296,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 4,
-        "totalStreamMinutes": 3049,
+        "totalStreamMinutes": 3054,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -21718,8 +21718,8 @@
     }
   },
   "auth": {
-    "accessToken": "55e1e4e29e6afb15af522d8b690683b0",
-    "refreshToken": "3b9dbb3ce273662605fb0d294390bc6f",
+    "accessToken": "ea1e1e8ddcbd75b1d7f7a1bb9caf4845",
+    "refreshToken": "e2f0b359e029f17b571a0f292b398098",
     "sessionToken": "7f7560273d3c5b9e76c516b4462f7ad3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
