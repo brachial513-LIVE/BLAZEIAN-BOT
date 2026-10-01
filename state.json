@@ -10649,7 +10649,7 @@
         "totalVotes": 27995,
         "totalSubs": 152,
         "totalChatMessages": 3212,
-        "totalStreamMinutes": 16696,
+        "totalStreamMinutes": 16700,
         "emotes": {
           "❤": 122,
           "🙌": 212,
@@ -17386,20 +17386,20 @@
       "stats": {
         "totalVotes": 6449,
         "totalSubs": 27,
-        "totalChatMessages": 4081,
-        "totalStreamMinutes": 11624,
+        "totalChatMessages": 4083,
+        "totalStreamMinutes": 11627,
         "emotes": {
           "👋": 80,
           "⚠": 2,
           "🎯": 2,
           "🗳": 343,
-          "🔴": 78,
-          "🎉": 103,
+          "🔴": 79,
+          "🎉": 104,
           "📴": 77,
           "🎡": 3,
           "®": 3,
           "📢": 9,
-          "🔥": 88,
+          "🔥": 90,
           "❤": 40,
           "😶": 3,
           "🌫": 3,
@@ -17557,17 +17557,9 @@
           "☠": "☠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790822990521
+        "lastChatAt": 1790833018843
       },
       "chatMemory": [
-        {
-          "user": "peter_force",
-          "msg": "its all scams,its all gone, take profits"
-        },
-        {
-          "user": "peter_force",
-          "msg": "\"tell em im on a mental health break\""
-        },
         {
           "user": "peter_force",
           "msg": "lololol"
@@ -17599,6 +17591,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 🔥 310th Blaze Stream🔥! Come hang out and watch."
         }
       ],
       "customCommands": {
@@ -17613,7 +17613,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "🔥 310th Blaze Stream🔥 — Rocket League",
       "lastStreamInfo": "🔥 310th Blaze Stream🔥 — Rocket League",
       "lastStreamEndedAt": 1790822985340,
       "gameOverride": "",
@@ -20197,7 +20197,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 4,
-        "totalStreamMinutes": 2379,
+        "totalStreamMinutes": 2383,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -21609,8 +21609,8 @@
     }
   },
   "auth": {
-    "accessToken": "5b9d744e47304d5d800b549a4a33c560",
-    "refreshToken": "212e145867bf014afea3e3b9e8009290",
+    "accessToken": "43b0de86735714b478fe90ee127c43fd",
+    "refreshToken": "a33def0660e4f2de2db58e6e0aad6df1",
     "sessionToken": "7f7560273d3c5b9e76c516b4462f7ad3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
