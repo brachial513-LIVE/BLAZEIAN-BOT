@@ -5225,8 +5225,8 @@
       "stats": {
         "totalVotes": 33713,
         "totalSubs": 91,
-        "totalChatMessages": 12560,
-        "totalStreamMinutes": 7785,
+        "totalChatMessages": 12562,
+        "totalStreamMinutes": 7805,
         "emotes": {
           "❤": 213,
           "🙌": 342,
@@ -5391,7 +5391,7 @@
           "5147d239-aaf5-4a20-97ab-ee128c039a1e": 10,
           "92bcf2c9-dff9-4282-85e5-c46c1b4f970b": 31,
           "778655e0-10bd-48ab-9f51-eb6f1798d7a4": 1,
-          "93796ec1-50dd-4757-a2f5-d8d984dbe883": 64,
+          "93796ec1-50dd-4757-a2f5-d8d984dbe883": 66,
           "7c20d134-7644-484f-bfcb-c21ff4db3300": 16,
           "1a7a0daf-fa5e-4452-8c03-58bc50d876e9": 5,
           "adf505fe-5d03-4608-9daa-2e2a50630dd1": 22,
@@ -5418,8 +5418,8 @@
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 25,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 13,
-          "🪐": 87,
-          "👽": 87,
+          "🪐": 88,
+          "👽": 88,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "6f01ba8a-250b-493f-9bad-596a135dea69": 24,
@@ -5446,7 +5446,7 @@
           "4e0b7767-702d-4685-a85b-68f2737825a0": 10,
           "📌": 3,
           "e89c92dd-34d7-4610-9830-2122e4bdf0f6": 7,
-          "308d337a-1e25-4ecd-9fc0-02d687f5b40e": 21,
+          "308d337a-1e25-4ecd-9fc0-02d687f5b40e": 22,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 1,
           "104be8ce-e4ce-44f4-a0eb-e3c9f0a6076a": 4,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 7,
@@ -5740,17 +5740,9 @@
           "d6c82b45-1ca6-4f86-89b5-cf94492a049b": "YEP"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790843704660
+        "lastChatAt": 1790844179748
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎉 NiRuntz just reached Level 1! ⚡ (1,001 XP)"
-        },
-        {
-          "user": "fartvader",
-          "msg": "[emote:d931b45c-0a09-4c75-89d6-68d82d7bc05d] [emote:d931b45c-0a09-4c75-89d6-68d82d7bc05d]"
-        },
         {
           "user": "niruntz",
           "msg": "Shit that looks good"
@@ -5782,6 +5774,14 @@
         {
           "user": "fartvader",
           "msg": "shuriken?"
+        },
+        {
+          "user": "fartvader",
+          "msg": "all good [emote:308d337a-1e25-4ecd-9fc0-02d687f5b40e]"
+        },
+        {
+          "user": "botger",
+          "msg": "🪐 [emote:93796ec1-50dd-4757-a2f5-d8d984dbe883]Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone [emote:93796ec1-50dd-4757-a2f5-d8d984dbe883]👽"
         }
       ],
       "customCommands": {},
@@ -6037,7 +6037,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8e722545-71bf-4322-9039-50b822ebe64c.jpeg",
       "lastStreamInfo": "OFF THE GRID! Summer League — Off The Grid",
       "lastStreamEndedAt": 1786154686473,
-      "_idAt": 1790821889296
+      "_idAt": 1790844689345
     },
     "ff594749-c9c6-4c0b-9306-ec8fd4252f7e": {
       "username": "weri",
@@ -6105,7 +6105,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7e18d17e-6183-4f08-aad4-77cff2175674.gif",
-      "_idAt": 1790821890455
+      "_idAt": 1790844690489
     },
     "ba279e65-999c-4da7-b674-08b540222e0f": {
       "username": "nadietv",
@@ -6658,7 +6658,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "🎁1400 votes giveaway Wednesday!🎁❤️New update in WuWa❤️ — Wuthering Waves",
       "lastStreamEndedAt": 1790823578469,
-      "_idAt": 1790821891656
+      "_idAt": 1790844691690
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -6892,7 +6892,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790821892855
+      "_idAt": 1790844692894
     },
     "d7c03cf7-26bc-4966-b436-ec5820565e9c": {
       "username": "1vynnn",
@@ -6974,7 +6974,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790821894057
+      "_idAt": 1790844694086
     },
     "79ffc47e-8cb0-4618-9272-c9281368d26e": {
       "username": "vitrene",
@@ -7225,7 +7225,7 @@
       "nudgedKey": "customcmd",
       "lastStreamInfo": "Let's Play Dune Awakening #2 🏜️ — Dune Awakening",
       "lastStreamEndedAt": 1790811089259,
-      "_idAt": 1790821895268
+      "_idAt": 1790844695287
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
       "username": "grook",
@@ -7339,7 +7339,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790821896466
+      "_idAt": 1790844696494
     },
     "4ec108d8-b147-4ff7-b1e6-b1f8fa882f61": {
       "username": "omom_",
@@ -7375,7 +7375,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/244df307-0e7a-4ba8-bc0d-afd751a372ab.jpg",
-      "_idAt": 1790821897671
+      "_idAt": 1790844697686
     },
     "1290a27a-b733-42cc-85fe-daa77f965b10": {
       "username": "gaara27",
@@ -20199,7 +20199,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 4,
-        "totalStreamMinutes": 2559,
+        "totalStreamMinutes": 2579,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -21263,9 +21263,9 @@
       "n": 2
     },
     "tinapay": {
-      "note": "Friendly, playful chatty personality who loves greeting everyone, joking about dogs, mentions playing Stardew, and enjoys lighthearted banter.",
-      "at": 1790777311568,
-      "n": 3
+      "note": "Friendly, playful chatty personality who loves greeting everyone, jokes about dogs, enjoys Stardew, and engages in lighthearted banter.",
+      "at": 1790844631525,
+      "n": 4
     },
     "potato_pete": {
       "note": "They enjoy casual, upbeat chatter about burgers, sleep habits, and streaming, with playful emojis and friendly greetings.",
