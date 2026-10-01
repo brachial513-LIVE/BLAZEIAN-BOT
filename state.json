@@ -2000,8 +2000,8 @@
       "stats": {
         "totalVotes": 32266,
         "totalSubs": 237,
-        "totalChatMessages": 12943,
-        "totalStreamMinutes": 30688,
+        "totalChatMessages": 12944,
+        "totalStreamMinutes": 30693,
         "emotes": {
           "📊": 3,
           "🔥": 528,
@@ -2226,7 +2226,7 @@
           "4e0ace02-ece6-4efe-be60-53e7c1883698": 15,
           "cfe942ab-6eea-4b97-8777-5fe29a9aca78": 6,
           "77eff0f6-3ddf-4421-be0c-302b8bd71830": 11,
-          "5ba97ddb-ee75-44d4-aade-9bcb444fda7a": 27,
+          "5ba97ddb-ee75-44d4-aade-9bcb444fda7a": 28,
           "fecfde94-81b4-4d93-b0ab-e21558a35359": 9,
           "d877b990-6c2b-412d-8b5c-1d022dfeeeda": 23,
           "f47f29b9-47f9-49f7-bf29-848237874bfb": 5,
@@ -2547,13 +2547,9 @@
           "😥": "😥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790874997011
+        "lastChatAt": 1790876180255
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "🃏 @crypt0k1ng96, drew 8♣ — hand: 5♥ 7♠ 8♣ (20) vs dealer showing 8♦. !hit or !stand?"
-        },
         {
           "user": "foxbotai",
           "msg": "🃏 @crypt0k1ng96, 5♥ 7♠ 8♣ (20) vs dealer 8♦ 10♣ (18) — you won 1554 promo! Balance: 9828 promo."
@@ -2589,6 +2585,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Gonna do them on camera for a clip 😂"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:5ba97ddb-ee75-44d4-aade-9bcb444fda7a]"
         }
       ],
       "customCommands": {},
@@ -3628,7 +3628,7 @@
         "totalVotes": 35191,
         "totalSubs": 84,
         "totalChatMessages": 15434,
-        "totalStreamMinutes": 8790,
+        "totalStreamMinutes": 8795,
         "emotes": {
           "❤": 6153,
           "🎵": 638,
@@ -11620,7 +11620,7 @@
         "totalVotes": 28677,
         "totalSubs": 56,
         "totalChatMessages": 1993,
-        "totalStreamMinutes": 2214,
+        "totalStreamMinutes": 2219,
         "emotes": {
           "😂": 25,
           "💪": 2,
@@ -12576,7 +12576,7 @@
         "totalVotes": 15571,
         "totalSubs": 34,
         "totalChatMessages": 2871,
-        "totalStreamMinutes": 9183,
+        "totalStreamMinutes": 9188,
         "emotes": {
           "❤": 108,
           "🙌": 70,
@@ -19398,7 +19398,7 @@
       "gameOverride": "",
       "profile": "corneto streams arcana maps, farming ammo for MoG at level 225+ with a crew that loves “yow @alliveall” and “LD incoming soon 😂😂”. The chat thrives on quick “ggsssssssssssss” and “🔥🔥🔥” reactions, celebrates votes with “🗳️ VOTE ALERT!!”, and celebrates followers with “❤️ NEW FOLLOWER!! ❤️”. The vibe is fast‑paced, playful, and always ready for the next LD.",
       "_profileAtCount": 74,
-      "_idAt": 1790853097802
+      "_idAt": 1790875898093
     },
     "e6b0742f-7815-478c-ae3c-3e87e3b0d11c": {
       "username": "wallacessj",
@@ -20301,7 +20301,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 4,
-        "totalStreamMinutes": 3094,
+        "totalStreamMinutes": 3099,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -21723,8 +21723,8 @@
     }
   },
   "auth": {
-    "accessToken": "ea1e1e8ddcbd75b1d7f7a1bb9caf4845",
-    "refreshToken": "e2f0b359e029f17b571a0f292b398098",
+    "accessToken": "977c87a3b402ff702cf7d389711b42c1",
+    "refreshToken": "df951d3ec69bb1fcfa9084db1f163824",
     "sessionToken": "79ca5327bf082f723d85ad2b2a40ec65",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
