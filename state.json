@@ -10672,7 +10672,7 @@
         "totalVotes": 27997,
         "totalSubs": 153,
         "totalChatMessages": 3262,
-        "totalStreamMinutes": 16940,
+        "totalStreamMinutes": 16945,
         "emotes": {
           "❤": 122,
           "🙌": 213,
@@ -15693,7 +15693,7 @@
         "totalVotes": 5115,
         "totalSubs": 21,
         "totalChatMessages": 1051,
-        "totalStreamMinutes": 12439,
+        "totalStreamMinutes": 12444,
         "emotes": {
           "❤": 63,
           "🙌": 49,
@@ -16855,8 +16855,8 @@
       "stats": {
         "totalVotes": 3642,
         "totalSubs": 25,
-        "totalChatMessages": 747,
-        "totalStreamMinutes": 5599,
+        "totalChatMessages": 749,
+        "totalStreamMinutes": 5604,
         "emotes": {
           "❤": 28,
           "🙌": 32,
@@ -16899,7 +16899,8 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
           "9f499705-aef5-420a-a02b-41e2253f999f": 1,
           "🥰": 1,
-          "21f398af-51dd-49cb-a896-76bf8af659ea": 5
+          "21f398af-51dd-49cb-a896-76bf8af659ea": 5,
+          "d6c82b45-1ca6-4f86-89b5-cf94492a049b": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -16943,20 +16944,13 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
           "9f499705-aef5-420a-a02b-41e2253f999f": "BASED",
           "🥰": "🥰",
-          "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
+          "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG",
+          "d6c82b45-1ca6-4f86-89b5-cf94492a049b": "YEP"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790850471302
+        "lastChatAt": 1790857164729
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@kariman subscribed! Thank you!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @omererkmen!"
-        },
         {
           "user": "botger",
           "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
@@ -16988,6 +16982,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @PublicSorrow!"
+        },
+        {
+          "user": "fartvader",
+          "msg": "good eve korosu!"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:d6c82b45-1ca6-4f86-89b5-cf94492a049b] [emote:d6c82b45-1ca6-4f86-89b5-cf94492a049b]"
         }
       ],
       "customCommands": {},
@@ -20250,7 +20252,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 4,
-        "totalStreamMinutes": 2779,
+        "totalStreamMinutes": 2784,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -20869,9 +20871,9 @@
       "n": 30
     },
     "weri": {
-      "note": "Weri streams God of War and web3 games, loves joking about UI glitches, and enjoys chatting with the “uncle funk” and “funk family” community.",
-      "at": 1790793811432,
-      "n": 33
+      "note": "Weri streams God of War and web3 games, jokes about UI glitches, and loves chatting with “uncle funk” and the funk family community.",
+      "at": 1790857171549,
+      "n": 34
     },
     "cymatrix": {
       "note": "Cymatrix loves Minecraft, Drawful, Apple games, music, crypto jokes, pop‑culture references, and cheering streamers with upbeat, playful humor.",
@@ -21672,8 +21674,8 @@
     }
   },
   "auth": {
-    "accessToken": "8a67a30ca57fdda97b169904d7105967",
-    "refreshToken": "e2b004d97c64affe6b91505b27e9cefd",
+    "accessToken": "510fe711597b7e2348753c2fe62d3ad4",
+    "refreshToken": "d4fc491cbf1d2f9b0e4c9911b3cd57c1",
     "sessionToken": "7f7560273d3c5b9e76c516b4462f7ad3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
