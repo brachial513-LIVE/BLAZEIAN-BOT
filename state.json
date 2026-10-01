@@ -5225,8 +5225,8 @@
       "stats": {
         "totalVotes": 33713,
         "totalSubs": 91,
-        "totalChatMessages": 12555,
-        "totalStreamMinutes": 7780,
+        "totalChatMessages": 12560,
+        "totalStreamMinutes": 7785,
         "emotes": {
           "❤": 213,
           "🙌": 342,
@@ -5427,7 +5427,7 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 17,
           "e4d6ab94-8895-4ace-95f5-74fbd5a80c9c": 22,
           "d0203f0d-6503-4576-82d2-10bd8a2a4eea": 19,
-          "7d43a957-9776-42b2-a502-30501741f53e": 32,
+          "7d43a957-9776-42b2-a502-30501741f53e": 35,
           "be616c6f-d527-4382-bf49-4988a5e24c1b": 15,
           "06249348-9cfc-43ae-8d32-7cbad8c27b8a": 10,
           "🔎": 8,
@@ -5446,7 +5446,7 @@
           "4e0b7767-702d-4685-a85b-68f2737825a0": 10,
           "📌": 3,
           "e89c92dd-34d7-4610-9830-2122e4bdf0f6": 7,
-          "308d337a-1e25-4ecd-9fc0-02d687f5b40e": 18,
+          "308d337a-1e25-4ecd-9fc0-02d687f5b40e": 21,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 1,
           "104be8ce-e4ce-44f4-a0eb-e3c9f0a6076a": 4,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 7,
@@ -5740,29 +5740,9 @@
           "d6c82b45-1ca6-4f86-89b5-cf94492a049b": "YEP"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790842756993
+        "lastChatAt": 1790843704660
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "ohh thats right.. apple pay? lol"
-        },
-        {
-          "user": "lvl4goblin",
-          "msg": "I almost certain someone is going to draw snow white for this. (gone frfr this time lol)"
-        },
-        {
-          "user": "fartvader",
-          "msg": "haha take care, sleep sweet!"
-        },
-        {
-          "user": "niruntz",
-          "msg": "Hey man"
-        },
-        {
-          "user": "niruntz",
-          "msg": "What we playin"
-        },
         {
           "user": "botger",
           "msg": "🎉 NiRuntz just reached Level 1! ⚡ (1,001 XP)"
@@ -5782,6 +5762,26 @@
         {
           "user": "briggsy",
           "msg": "[emote:c39beee4-6a83-4894-864e-b06efa61e593] [emote:c39beee4-6a83-4894-864e-b06efa61e593] [emote:c39beee4-6a83-4894-864e-b06efa61e593]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "it looks great briggs man"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:7d43a957-9776-42b2-a502-30501741f53e] [emote:7d43a957-9776-42b2-a502-30501741f53e] [emote:7d43a957-9776-42b2-a502-30501741f53e]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:308d337a-1e25-4ecd-9fc0-02d687f5b40e] [emote:308d337a-1e25-4ecd-9fc0-02d687f5b40e] [emote:308d337a-1e25-4ecd-9fc0-02d687f5b40e]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "whats new after spear?"
+        },
+        {
+          "user": "fartvader",
+          "msg": "shuriken?"
         }
       ],
       "customCommands": {},
@@ -5937,7 +5937,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Inktober Eve - Just stream, stream — IRL",
       "lastStreamEndedAt": 1790840015879,
-      "_idAt": 1790820697658
+      "_idAt": 1790843497691
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -20199,7 +20199,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 4,
-        "totalStreamMinutes": 2554,
+        "totalStreamMinutes": 2559,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -21616,8 +21616,8 @@
     }
   },
   "auth": {
-    "accessToken": "8be9f8f283de235078cb328a2f549c72",
-    "refreshToken": "9e135d0dcb503a71b31796b7f8daab18",
+    "accessToken": "fb82357d3b94bed237337b3b9ecc4e28",
+    "refreshToken": "83c6a17129fc4163af15aa39824930f0",
     "sessionToken": "7f7560273d3c5b9e76c516b4462f7ad3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
