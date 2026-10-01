@@ -10649,7 +10649,7 @@
         "totalVotes": 27995,
         "totalSubs": 152,
         "totalChatMessages": 3214,
-        "totalStreamMinutes": 16733,
+        "totalStreamMinutes": 16741,
         "emotes": {
           "❤": 122,
           "🙌": 212,
@@ -17386,16 +17386,16 @@
       "stats": {
         "totalVotes": 6449,
         "totalSubs": 27,
-        "totalChatMessages": 4084,
-        "totalStreamMinutes": 11659,
+        "totalChatMessages": 4086,
+        "totalStreamMinutes": 11663,
         "emotes": {
-          "👋": 80,
+          "👋": 81,
           "⚠": 2,
           "🎯": 2,
           "🗳": 343,
           "🔴": 79,
           "🎉": 104,
-          "📴": 77,
+          "📴": 78,
           "🎡": 3,
           "®": 3,
           "📢": 9,
@@ -17557,17 +17557,9 @@
           "☠": "☠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790834106914
+        "lastChatAt": 1790835418597
       },
       "chatMemory": [
-        {
-          "user": "peter_force",
-          "msg": "love that one"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@treefrognada congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/bf37eec56fc7c4b36782eb0b53fe9340721a3d4e5e9e1de52e75bb7fb67a75c1"
-        },
         {
           "user": "scurvybot",
           "msg": "@flower4803 congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/63f94204cf0dfb2cf33810f712b0bcc7c5b1ac067a81ca7f71c430b375ac68f3"
@@ -17599,6 +17591,14 @@
         {
           "user": "allybear",
           "msg": "w"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -17613,9 +17613,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "🔥 310th Blaze Stream🔥 — Rocket League",
+      "streamTitle": "",
       "lastStreamInfo": "🔥 310th Blaze Stream🔥 — Rocket League",
-      "lastStreamEndedAt": 1790822985340,
+      "lastStreamEndedAt": 1790835413425,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” love “mystery fish” drops, and keep the vibe high‑energy.",
@@ -20197,7 +20197,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 4,
-        "totalStreamMinutes": 2415,
+        "totalStreamMinutes": 2424,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -21614,8 +21614,8 @@
     }
   },
   "auth": {
-    "accessToken": "76228c994034564dd8928a7feee86e2b",
-    "refreshToken": "11efbf6ec3d39be809065c45d66f24d4",
+    "accessToken": "bac0e0e0935f6e2b1445ac41f082c2e0",
+    "refreshToken": "684e71e7e866d0dc304f331b0a137520",
     "sessionToken": "7f7560273d3c5b9e76c516b4462f7ad3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
