@@ -4893,9 +4893,9 @@
       "username": "zer0cache",
       "language": "en",
       "stats": {
-        "totalVotes": 11469,
+        "totalVotes": 11470,
         "totalSubs": 51,
-        "totalChatMessages": 2010,
+        "totalChatMessages": 2011,
         "totalStreamMinutes": 10632,
         "emotes": {
           "✨": 44,
@@ -4908,7 +4908,7 @@
           "⚡": 25,
           "🏆": 21,
           "💥": 29,
-          "🗳": 346,
+          "🗳": 347,
           "🎁": 55,
           "👑": 69,
           "💜": 8,
@@ -4922,7 +4922,7 @@
           "🛡": 3,
           "🫡": 9,
           "🏰": 4,
-          "🙌": 328,
+          "🙌": 329,
           "💩": 47,
           "🤣": 3,
           "😂": 46,
@@ -5117,14 +5117,10 @@
           "🔫": "🔫",
           "😧": "😧"
         },
-        "lastChatAt": 1790907438784,
+        "lastChatAt": 1790925252077,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "yeah .. crakle"
-        },
         {
           "user": "agent00zani",
           "msg": "special effects i guess"
@@ -5160,6 +5156,10 @@
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 3 votes, @tyler! Your support is truly appreciated! 🙌"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🗳️ Thanks for the 1 votes, @omererkmen! Your support is truly appreciated! 🙌"
         }
       ],
       "customCommands": {},
@@ -5253,27 +5253,27 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 33763,
+        "totalVotes": 33793,
         "totalSubs": 92,
-        "totalChatMessages": 12793,
-        "totalStreamMinutes": 8080,
+        "totalChatMessages": 12834,
+        "totalStreamMinutes": 8100,
         "emotes": {
           "❤": 215,
           "🙌": 345,
-          "🗳": 1562,
+          "🗳": 1565,
           "✌": 11,
           "😊": 10,
           "👍": 16,
           "🔴": 18,
           "🎉": 154,
           "📴": 18,
-          "👋": 26,
+          "👋": 27,
           "⚡": 91,
-          "😂": 179,
+          "😂": 181,
           "😍": 30,
           "🔥": 257,
           "😎": 6,
-          "😁": 23,
+          "😁": 24,
           "😄": 26,
           "💚": 70,
           "🩵": 18,
@@ -5288,13 +5288,13 @@
           "🎁": 115,
           "😅": 44,
           "🙈": 2,
-          "🥳": 1,
+          "🥳": 4,
           "❗": 2,
           "⭕": 56,
           "🤗": 15,
           "👀": 252,
-          "🙂": 10,
-          "↕": 7,
+          "🙂": 14,
+          "↕": 11,
           "💜": 7,
           "💗": 1,
           "🎵": 14,
@@ -5312,17 +5312,17 @@
           "😯": 8,
           "🔑": 1,
           "🥹": 28,
-          "🫠": 38,
+          "🫠": 40,
           "🎨": 2,
           "🖤": 2,
           "🫤": 1,
           "🐇": 1,
           "🐰": 1,
-          "🤔": 39,
+          "🤔": 42,
           "😌": 7,
-          "😳": 12,
-          "😵": 23,
-          "💫": 23,
+          "😳": 15,
+          "😵": 27,
+          "💫": 27,
           "🫢": 1,
           "💻": 2,
           "😆": 63,
@@ -5443,7 +5443,7 @@
           "efd328d1-867a-4afa-9954-a2ddcb50cb41": 36,
           "18ec2e34-50e2-4079-961b-8aac13188d41": 12,
           "51d5d291-383d-4ca1-a27a-6678041b3a66": 41,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 82,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 83,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 7,
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 26,
@@ -5470,7 +5470,7 @@
           "dedb0949-63d9-4d58-86d1-ecf0269453d3": 2,
           "☺": 11,
           "5e34aafd-f466-4c04-a34e-f37598d0a31d": 10,
-          "e8124c9d-a6dd-4913-943b-cbc529fca886": 2,
+          "e8124c9d-a6dd-4913-943b-cbc529fca886": 3,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 4,
           "💯": 3,
           "4e0b7767-702d-4685-a85b-68f2737825a0": 10,
@@ -5521,7 +5521,8 @@
           "👻": 3,
           "🤓": 1,
           "🎄": 2,
-          "🪄": 3
+          "🪄": 3,
+          "💕": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -5787,51 +5788,52 @@
           "👻": "👻",
           "🤓": "🤓",
           "🎄": "🎄",
-          "🪄": "🪄"
+          "🪄": "🪄",
+          "💕": "💕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790924764492
+        "lastChatAt": 1790925973714
       },
       "chatMemory": [
         {
-          "user": "triz_draw",
-          "msg": "I'll charge my phone, see you Briggsy, @faithy_  and whoever else is hiding🫣"
+          "user": "lvl4goblin",
+          "msg": "it's a brush setting that reduces shakiness"
         },
         {
-          "user": "triz_draw",
-          "msg": "Nite nite"
+          "user": "lvl4goblin",
+          "msg": "there's a bunch of tabs/categories besides the stroke properties"
         },
         {
-          "user": "triz_draw",
-          "msg": "Is there a tool for making circles?"
+          "user": "lvl4goblin",
+          "msg": "streamline and motion filtering also do something very similar. so definitely watch that video and experiment with it"
         },
         {
-          "user": "triz_draw",
-          "msg": "🤔🤔🤔"
+          "user": "lvl4goblin",
+          "msg": "I've got to get some sleep. Have fun and best of luck with your drawing [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         },
         {
-          "user": "triz_draw",
-          "msg": "Waaaaaaaa"
+          "user": "tarzan",
+          "msg": "Ggs"
         },
         {
-          "user": "triz_draw",
-          "msg": "What kind of witchcraft is that?"
+          "user": "tarzan",
+          "msg": "New overlays I see"
         },
         {
-          "user": "triz_draw",
-          "msg": "😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫😵‍💫"
+          "user": "tarzan",
+          "msg": "Jane is yet to come"
         },
         {
-          "user": "triz_draw",
-          "msg": "Wanna wannna wannnn wannnnaa"
+          "user": "tarzan",
+          "msg": "Noooo ... Jane .. come back"
         },
         {
-          "user": "triz_draw",
-          "msg": "I'll ask Santa   for an iPad for Christmas 🎁 🎄 🎄 😏😏🤪😂 I think I've been good!!!"
+          "user": "tarzan",
+          "msg": "I saved it on my phone as screen saver.. I see Jane everyday"
         },
         {
-          "user": "triz_draw",
-          "msg": "This is magic 🪄🪄🪄🤪😂😂"
+          "user": "tarzan",
+          "msg": "Ok GTG again 💕👋"
         }
       ],
       "customCommands": {},
@@ -7546,7 +7548,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 17551,
+        "totalVotes": 17552,
         "totalSubs": 44,
         "totalChatMessages": 3807,
         "totalStreamMinutes": 4587,
@@ -7897,9 +7899,9 @@
       "username": "cymatrix",
       "language": "en",
       "stats": {
-        "totalVotes": 5422,
+        "totalVotes": 5423,
         "totalSubs": 31,
-        "totalChatMessages": 1442,
+        "totalChatMessages": 1443,
         "totalStreamMinutes": 2295,
         "emotes": {
           "❤": 453,
@@ -8003,14 +8005,10 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "🚨": "🚨"
         },
-        "lastChatAt": 1790907438326,
+        "lastChatAt": 1790925251726,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @MakesOnlyBeats just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 10 votes, @algento!"
@@ -8046,6 +8044,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @tyler!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @omererkmen!"
         }
       ],
       "customCommands": {
@@ -9079,7 +9081,7 @@
         "totalVotes": 15251,
         "totalSubs": 54,
         "totalChatMessages": 2425,
-        "totalStreamMinutes": 18206,
+        "totalStreamMinutes": 18226,
         "emotes": {
           "🔥": 698,
           "🔴": 200,
@@ -11473,9 +11475,9 @@
       "language": "en",
       "joinedAt": 1784453301135,
       "stats": {
-        "totalVotes": 6188,
+        "totalVotes": 6189,
         "totalSubs": 44,
-        "totalChatMessages": 376,
+        "totalChatMessages": 377,
         "totalStreamMinutes": 7700,
         "emotes": {
           "🔥": 8,
@@ -11524,13 +11526,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790912339084
+        "lastChatAt": 1790925251761
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@Pr0ff gifted a sub to the community!"
-        },
         {
           "user": "scurvybot",
           "msg": "@Pr0ff gifted a sub to the community!"
@@ -11566,6 +11564,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @omererkmen!"
         }
       ],
       "customCommands": {},
@@ -15038,7 +15040,7 @@
       "language": "en",
       "joinedAt": 1785110114264,
       "stats": {
-        "totalVotes": 7754,
+        "totalVotes": 7755,
         "totalSubs": 33,
         "totalChatMessages": 221,
         "totalStreamMinutes": 2351,
@@ -18363,7 +18365,7 @@
         "totalVotes": 2027,
         "totalSubs": 2,
         "totalChatMessages": 144,
-        "totalStreamMinutes": 5957,
+        "totalStreamMinutes": 5970,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -18457,9 +18459,9 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b8df0d5-7384-4091-822d-d487a593365f.gif",
-      "streamTitle": "Bibletime and games 10/01/2026 !SO8 for the Music I Listen to — IRL",
+      "streamTitle": "",
       "lastStreamInfo": "Bibletime and games 10/01/2026 !SO8 for the Music I Listen to — IRL",
-      "lastStreamEndedAt": 1790884956484,
+      "lastStreamEndedAt": 1790925544680,
       "gameOverride": "",
       "profile": "tcwarrioretp’s channel is a high‑energy Division 2 hub where “BLAZE ON!” echoes, “Support the word and the mission” fuels the vibe, and “!SO8” tags light up the stream. Viewers drop votes, shout “goat noises,” and celebrate grind stories with “BLAZE ON!” cheers. The community thrives on shared grind, fighting‑game love, and relentless “hard to play and read at the same time.”",
       "_profileAtCount": 138,
@@ -21607,9 +21609,9 @@
       "n": 5
     },
     "timdraws": {
-      "note": "Enjoys MMORPGs like Aion and Dimraeth, plays Risk of Rain 2, chats playfully about guilds, raids, new releases, and keeps a light, humorous tone.",
-      "at": 1790809651709,
-      "n": 9
+      "note": "Enjoys MMORPGs, Risk of Rain 2, and indie titles like Graveyard Keeper, Hollow Knight, and Corekeeper, and chats playfully about guilds, raids, and new releases.",
+      "at": 1790925151634,
+      "n": 10
     },
     "lulinhaa": {
       "note": "Lulinhaa enjoys light, easy games, jokes about game over, and shares playful, casual chat with friends.",
