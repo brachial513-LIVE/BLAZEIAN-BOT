@@ -5255,8 +5255,8 @@
       "stats": {
         "totalVotes": 33753,
         "totalSubs": 92,
-        "totalChatMessages": 12659,
-        "totalStreamMinutes": 7965,
+        "totalChatMessages": 12660,
+        "totalStreamMinutes": 7985,
         "emotes": {
           "❤": 215,
           "🙌": 345,
@@ -5421,7 +5421,7 @@
           "5147d239-aaf5-4a20-97ab-ee128c039a1e": 10,
           "92bcf2c9-dff9-4282-85e5-c46c1b4f970b": 31,
           "778655e0-10bd-48ab-9f51-eb6f1798d7a4": 1,
-          "93796ec1-50dd-4757-a2f5-d8d984dbe883": 76,
+          "93796ec1-50dd-4757-a2f5-d8d984dbe883": 78,
           "7c20d134-7644-484f-bfcb-c21ff4db3300": 16,
           "1a7a0daf-fa5e-4452-8c03-58bc50d876e9": 5,
           "adf505fe-5d03-4608-9daa-2e2a50630dd1": 22,
@@ -5448,8 +5448,8 @@
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 26,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 14,
-          "🪐": 93,
-          "👽": 93,
+          "🪐": 94,
+          "👽": 94,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "6f01ba8a-250b-493f-9bad-596a135dea69": 24,
@@ -5776,13 +5776,9 @@
           "🫣": "🫣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790917128285
+        "lastChatAt": 1790918953401
       },
       "chatMemory": [
-        {
-          "user": "lvl4goblin",
-          "msg": "how's the shodwon treating you?"
-        },
         {
           "user": "potato_pete",
           "msg": "good that was a fun game"
@@ -5814,6 +5810,10 @@
         {
           "user": "lvl4goblin",
           "msg": "well done"
+        },
+        {
+          "user": "botger",
+          "msg": "🪐 [emote:93796ec1-50dd-4757-a2f5-d8d984dbe883]Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone [emote:93796ec1-50dd-4757-a2f5-d8d984dbe883]👽"
         },
         {
           "user": "botger",
@@ -9065,7 +9065,7 @@
         "totalVotes": 15251,
         "totalSubs": 54,
         "totalChatMessages": 2425,
-        "totalStreamMinutes": 18091,
+        "totalStreamMinutes": 18111,
         "emotes": {
           "🔥": 698,
           "🔴": 200,
@@ -10709,7 +10709,7 @@
         "totalVotes": 28062,
         "totalSubs": 154,
         "totalChatMessages": 3333,
-        "totalStreamMinutes": 17310,
+        "totalStreamMinutes": 17330,
         "emotes": {
           "❤": 126,
           "🙌": 216,
@@ -14270,14 +14270,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 29761,
+        "totalVotes": 29772,
         "totalSubs": 49,
-        "totalChatMessages": 5702,
+        "totalChatMessages": 5704,
         "totalStreamMinutes": 10643,
         "emotes": {
           "❤": 101,
           "🙌": 89,
-          "🗳": 960,
+          "🗳": 963,
           "🔴": 84,
           "🎉": 155,
           "🏃": 1,
@@ -14597,17 +14597,9 @@
           "🫣": "🫣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790907438580
+        "lastChatAt": 1790918859538
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 2 votes, @PublicSorrow!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 20 votes, @Vitrene!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
@@ -14639,6 +14631,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @tyler!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 11 votes, @infamousex!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @infamousex just gave 11 vote(s) (total: 11)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -14817,7 +14817,7 @@
         }
       },
       "commentMode": "silent",
-      "_idAt": 1790895096666
+      "_idAt": 1790917896680
     },
     "143c4620-2a6d-4182-8bda-bc93350bd2da": {
       "username": "loboblanco",
@@ -15527,7 +15527,7 @@
       "lastStreamEndedAt": 1790692581072,
       "commandMedia": {},
       "botVip": true,
-      "_idAt": 1790895095473
+      "_idAt": 1790917895487
     },
     "95732898-439b-4107-86f2-fd7abf4652ef": {
       "username": "seventh",
@@ -15753,7 +15753,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790895097873
+      "_idAt": 1790917897885
     },
     "3bccdf81-654d-4135-86ac-f0d392a4c718": {
       "username": "marioscy5",
@@ -15990,7 +15990,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790896289518
+      "_idAt": 1790919089547
     },
     "6f4e76b7-2f2d-4459-9343-97ed459cbf91": {
       "username": "clutchking",
@@ -16248,7 +16248,7 @@
       "_profileAtCount": 1224,
       "nudgedAt": 1786147592153,
       "nudgedKey": "schedule",
-      "_idAt": 1790896290695
+      "_idAt": 1790919090680
     },
     "a6bd36a5-1f94-4150-a0a7-678cdc9688bb": {
       "username": "fartvader",
@@ -16733,7 +16733,7 @@
           "crypt0k1ng96"
         ]
       },
-      "_idAt": 1790896291875
+      "_idAt": 1790919091880
     },
     "b4f41a7f-b0fd-471c-9f10-466564678c8e": {
       "username": "charddxyz",
@@ -16941,7 +16941,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790896293194
+      "_idAt": 1790919093085
     },
     "b10d6195-7cf2-4d3f-ada2-4ce767a69d5b": {
       "username": "korosuplays",
@@ -17177,7 +17177,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790896294267
+      "_idAt": 1790919094279
     },
     "6fe1077e-2398-4af0-a96c-ee5acc08c111": {
       "username": "jaggerjack",
@@ -18349,7 +18349,7 @@
         "totalVotes": 2027,
         "totalSubs": 2,
         "totalChatMessages": 144,
-        "totalStreamMinutes": 5842,
+        "totalStreamMinutes": 5862,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -20574,8 +20574,8 @@
     },
     "time": {
       "note": "Friendly fan who loves Jackbox, plays chess on lichess, designs facades, shares links, and jokes with light‑hearted humor.",
-      "at": 1790812951636,
-      "n": 31
+      "at": 1790918551649,
+      "n": 32
     },
     "k1ngbre4ker": {
       "note": "Enjoys Call of Duty, D&D, and lighthearted humor, cheering enthusiastically with playful emojis while chatting about OTG, WARDOGS, and other online titles.",
