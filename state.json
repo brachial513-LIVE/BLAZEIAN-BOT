@@ -3651,8 +3651,8 @@
       "stats": {
         "totalVotes": 35385,
         "totalSubs": 86,
-        "totalChatMessages": 16082,
-        "totalStreamMinutes": 9490,
+        "totalChatMessages": 16083,
+        "totalStreamMinutes": 9495,
         "emotes": {
           "❤": 6307,
           "🎵": 650,
@@ -3757,7 +3757,7 @@
           "🦵": 3,
           "a43a08cd-5224-4a75-968b-1c12fcd087e3": 326,
           "57033a2d-497d-4cb1-afa8-831b55347aae": 82,
-          "29492159-a350-4196-b94c-6e01af87a634": 330,
+          "29492159-a350-4196-b94c-6e01af87a634": 331,
           "b9a50ea5-8eb3-49d9-bfdf-8c922496aef8": 316,
           "4aafb92a-a21b-49ff-99f6-8430048f9fc4": 72,
           "fc7e2ae0-ece5-463c-9aaf-b7655525559b": 240,
@@ -4073,7 +4073,7 @@
           "💉": "💉",
           "🎮": "🎮"
         },
-        "lastChatAt": 1790979620312,
+        "lastChatAt": 1790981422417,
         "sendFailStreak": 549,
         "lastSendFailAt": 1790960675843,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4082,10 +4082,6 @@
         "lastProbeAt": 1790960675604
       },
       "chatMemory": [
-        {
-          "user": "unclefunk",
-          "msg": "Yo!"
-        },
         {
           "user": "faithy_",
           "msg": "Gm gm uncleeeee"
@@ -4121,6 +4117,10 @@
         {
           "user": "faithy_",
           "msg": "Thnks man you’ve too😊"
+        },
+        {
+          "user": "sheshi",
+          "msg": "[emote:29492159-a350-4196-b94c-6e01af87a634]"
         }
       ],
       "customCommands": {},
@@ -6750,7 +6750,7 @@
         "totalVotes": 8702,
         "totalSubs": 85,
         "totalChatMessages": 912,
-        "totalStreamMinutes": 21178,
+        "totalStreamMinutes": 21183,
         "emotes": {
           "❤": 127,
           "🙌": 41,
@@ -7071,7 +7071,7 @@
         "totalVotes": 16684,
         "totalSubs": 53,
         "totalChatMessages": 1657,
-        "totalStreamMinutes": 6457,
+        "totalStreamMinutes": 6462,
         "emotes": {
           "❤": 71,
           "🙌": 78,
@@ -9119,7 +9119,7 @@
         "totalVotes": 15256,
         "totalSubs": 54,
         "totalChatMessages": 2425,
-        "totalStreamMinutes": 19146,
+        "totalStreamMinutes": 19151,
         "emotes": {
           "🔥": 698,
           "🔴": 200,
@@ -13395,7 +13395,7 @@
       "stats": {
         "totalVotes": 15116,
         "totalSubs": 23,
-        "totalChatMessages": 29094,
+        "totalChatMessages": 29095,
         "totalStreamMinutes": 18469,
         "emotes": {
           "❤": 97,
@@ -13774,7 +13774,7 @@
           "✋": "✋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790974065139
+        "lastChatAt": 1790981196267
       },
       "chatMemory": [
         {
@@ -18438,7 +18438,7 @@
         "totalVotes": 2027,
         "totalSubs": 2,
         "totalChatMessages": 144,
-        "totalStreamMinutes": 6245,
+        "totalStreamMinutes": 6250,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -21910,8 +21910,8 @@
     }
   },
   "auth": {
-    "accessToken": "de834b4e86ce6891b3159d74e102d701",
-    "refreshToken": "3a224f52087d0ff5a87c5931aaaae332",
+    "accessToken": "5dfcb8579d49bb8d1b7cabf7fb1f79c6",
+    "refreshToken": "1bac2713cf670e34c5819aeefec6d072",
     "sessionToken": "b0d4ae2f424eebd2da748e5fb1e3440f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
