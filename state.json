@@ -784,18 +784,18 @@
       "stats": {
         "totalVotes": 106358,
         "totalSubs": 161,
-        "totalChatMessages": 10238,
-        "totalStreamMinutes": 3848,
+        "totalChatMessages": 10240,
+        "totalStreamMinutes": 3860,
         "emotes": {
           "🗳": 1839,
-          "❤": 538,
-          "🙌": 267,
+          "❤": 540,
+          "🙌": 268,
           "🔥": 270,
           "☺": 6,
           "🔴": 37,
           "🎉": 136,
-          "📴": 37,
-          "👋": 70,
+          "📴": 38,
+          "👋": 71,
           "🫶": 11,
           "💃": 2,
           "😂": 1213,
@@ -1153,21 +1153,13 @@
           "9fd66615-f12c-427c-9db1-deb571a1857f": "YES"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790909595375,
+        "lastChatAt": 1790912145925,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎉 crypt0k1ng96 just reached Level 1! ⚡ (1,000 XP)"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:af310954-e2c3-414b-ace5-0ac453857437]"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "Nice"
@@ -1199,6 +1191,14 @@
         {
           "user": "faithy_",
           "msg": "raid raid"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ peter_force just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -1426,12 +1426,12 @@
       },
       "profile": "Welcome to vroshi55’s fire zone! XP fest vibes, vote alerts, crypto chatter, and gaming talk keep the channel lit. Half‑Life, Portal, Friday/Saturday vibes dominate. Celebrate with “love fest,” cook, and spill the tea! Keep the XP fest alive, stay “lit,” and never miss a “GGS” moment. Stay hype, keep the XP fest alive, and never miss a “GGS” moment.",
       "_profileAtCount": 10167,
-      "streamTitle": "Crypto, Gaming & Life — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "botVip": true,
       "commentMode": "silent",
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
-      "lastStreamEndedAt": 1790441471858,
+      "lastStreamEndedAt": 1790912012267,
       "_idAt": 1790909495470
     },
     "8c847dcf-65a9-4234-8980-c59102c8aa60": {
@@ -4207,7 +4207,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev! — Music",
       "lastStreamEndedAt": 1790897294482,
-      "_idAt": 1790889089524
+      "_idAt": 1790911889539
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -4277,7 +4277,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1790889090674
+      "_idAt": 1790911890683
     },
     "c87ed67e-a16e-48e5-af83-6e557f72970e": {
       "username": "capt_rob_advent",
@@ -4714,7 +4714,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fueling Ships in South East Texas — IRL",
       "lastStreamEndedAt": 1790648338702,
-      "_idAt": 1790889091864
+      "_idAt": 1790911891880
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -4887,7 +4887,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790889093067
+      "_idAt": 1790911893082
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -5219,7 +5219,7 @@
       "lastStreamEndedAt": 1790892013993,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1790889094277
+      "_idAt": 1790911894288
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -5247,7 +5247,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1790889095472
+      "_idAt": 1790911895481
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -5978,7 +5978,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Inktober Eve - Just stream, stream — IRL",
       "lastStreamEndedAt": 1790850580756,
-      "_idAt": 1790889096664
+      "_idAt": 1790911896679
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -6078,7 +6078,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8e722545-71bf-4322-9039-50b822ebe64c.jpeg",
       "lastStreamInfo": "OFF THE GRID! Summer League — Off The Grid",
       "lastStreamEndedAt": 1786154686473,
-      "_idAt": 1790889097871
+      "_idAt": 1790911897877
     },
     "ff594749-c9c6-4c0b-9306-ec8fd4252f7e": {
       "username": "weri",
@@ -6155,7 +6155,7 @@
         "totalVotes": 31791,
         "totalSubs": 67,
         "totalChatMessages": 8100,
-        "totalStreamMinutes": 14090,
+        "totalStreamMinutes": 14110,
         "emotes": {
           "❤": 123,
           "🙌": 193,
@@ -9065,7 +9065,7 @@
         "totalVotes": 15251,
         "totalSubs": 54,
         "totalChatMessages": 2424,
-        "totalStreamMinutes": 17981,
+        "totalStreamMinutes": 18001,
         "emotes": {
           "🔥": 698,
           "🔴": 200,
@@ -9351,7 +9351,7 @@
         "totalVotes": 10723,
         "totalSubs": 198,
         "totalChatMessages": 498,
-        "totalStreamMinutes": 15470,
+        "totalStreamMinutes": 15490,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -10706,16 +10706,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 28015,
+        "totalVotes": 28062,
         "totalSubs": 154,
-        "totalChatMessages": 3325,
-        "totalStreamMinutes": 17200,
+        "totalChatMessages": 3328,
+        "totalStreamMinutes": 17220,
         "emotes": {
           "❤": 126,
           "🙌": 216,
           "💚": 3,
           "🔥": 102,
-          "🗳": 870,
+          "🗳": 873,
           "🔴": 143,
           "🎉": 193,
           "📴": 139,
@@ -10923,21 +10923,9 @@
           "🦾": "🦾"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790908298227
+        "lastChatAt": 1790912027280
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "oo kahit naka todo"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "sa pc me"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "pag speaker mahina pati mic at game sounds."
-        },
         {
           "user": "nekoschwan",
           "msg": "pag naka headset earphone malakas"
@@ -10965,6 +10953,18 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 47 vote(s) (total: 97)! Thank you!! 🗳️"
+        },
+        {
+          "user": "future42",
+          "msg": "Thanks for stopping by brother"
+        },
+        {
+          "user": "timdraws",
+          "msg": "steam sale going rn"
         }
       ],
       "customCommands": {},
@@ -11461,8 +11461,8 @@
       "stats": {
         "totalVotes": 6188,
         "totalSubs": 44,
-        "totalChatMessages": 375,
-        "totalStreamMinutes": 7682,
+        "totalChatMessages": 376,
+        "totalStreamMinutes": 7700,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -11510,13 +11510,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790909177215
+        "lastChatAt": 1790912339084
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@Pr0ff gifted a sub to the community!"
-        },
         {
           "user": "scurvybot",
           "msg": "@Pr0ff gifted a sub to the community!"
@@ -11552,6 +11548,10 @@
         {
           "user": "scurvybot",
           "msg": "@Pr0ff gifted a sub to the community!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -11564,12 +11564,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "dots — PLAYERUNKNOWN'S BATTLEGROUNDS",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to pr0ff’s stream—Ragnarok grind, PUGs, endless “DOTES” vibes! The chat loves “thanks” after a love fest, gifts a Sub to celebrate milestones, and throws 🔥 emojis everywhere. pr0ff thrives on community hype, “gift a Sub” moments, and “thanks” shoutouts. Keep the energy high, keep the 🔥 flowing!",
       "_profileAtCount": 339,
-      "lastStreamInfo": "dots — Dota 2",
-      "lastStreamEndedAt": 1790726810988,
+      "lastStreamInfo": "dots — PLAYERUNKNOWN'S BATTLEGROUNDS",
+      "lastStreamEndedAt": 1790912338770,
       "nudgedAt": 1786524138354,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -18349,7 +18349,7 @@
         "totalVotes": 2027,
         "totalSubs": 2,
         "totalChatMessages": 144,
-        "totalStreamMinutes": 5732,
+        "totalStreamMinutes": 5752,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -21573,9 +21573,9 @@
       "n": 3
     },
     "sarinhaa11": {
-      "note": "Enjoys strategy games, loves laughing with “kkkk” humor, and often talks about navigating game labyrinths and saving points.",
-      "at": 1790094690366,
-      "n": 5
+      "note": "Enjoys strategy games, laughing with “kkkk” humor, and often talks about navigating labyrinths and saving points.",
+      "at": 1790911291555,
+      "n": 6
     },
     "just_for_lucas": {
       "note": "Friendly, upbeat chatty streamer who greets with “GM,” says “happy streaming,” jokes about subs, and keeps a light, positive tone.",
