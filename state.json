@@ -12999,7 +12999,7 @@
       "stats": {
         "totalVotes": 6631,
         "totalSubs": 43,
-        "totalChatMessages": 2228,
+        "totalChatMessages": 2230,
         "totalStreamMinutes": 5673,
         "emotes": {
           "❤": 108,
@@ -13010,8 +13010,8 @@
           "🗳": 219,
           "⚠": 1,
           "🎯": 1,
-          "🔴": 47,
-          "🎉": 64,
+          "🔴": 48,
+          "🎉": 65,
           "🚨": 72,
           "😀": 1,
           "👍": 8,
@@ -13200,17 +13200,9 @@
           "c796f875-da00-4e82-bc6d-c25be4d801b8": "POPCORN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791027478896
+        "lastChatAt": 1791040860715
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "hes not"
-        },
-        {
-          "user": "timdraws",
-          "msg": "thought he was going to join us"
-        },
         {
           "user": "ruri666",
           "msg": "hes not playing"
@@ -13242,6 +13234,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @NashvilleLou just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: DAILY STREAM - UNCALIBRATED TO IMMORTAL! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -13253,7 +13253,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "",
+      "streamTitle": "DAILY STREAM - UNCALIBRATED TO IMMORTAL — Dota 2",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill Dota 2 community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Keep the vibe alive, celebrate every win, and stay positive!",
@@ -13434,7 +13434,7 @@
         "totalVotes": 15126,
         "totalSubs": 23,
         "totalChatMessages": 29689,
-        "totalStreamMinutes": 18699,
+        "totalStreamMinutes": 18704,
         "emotes": {
           "❤": 99,
           "🙌": 71,
@@ -13985,7 +13985,7 @@
         "totalVotes": 9821,
         "totalSubs": 23,
         "totalChatMessages": 1268,
-        "totalStreamMinutes": 7834,
+        "totalStreamMinutes": 7839,
         "emotes": {
           "❤": 78,
           "🙌": 49,
@@ -21948,8 +21948,8 @@
     },
     "thatsicy_": {
       "note": "They love gaming, music requests, playful shout‑outs, cheering teammates, and sharing animated profile‑pic tips.",
-      "at": 1790931091726,
-      "n": 2
+      "at": 1791040651866,
+      "n": 3
     },
     "squall09": {
       "note": "Enjoys fantasy games with dragons, jokes about them, chats about gaming tech, and keeps a light, playful tone.",
@@ -22019,8 +22019,8 @@
     }
   },
   "auth": {
-    "accessToken": "f50f569725799f563c05526111ea3e8a",
-    "refreshToken": "1429133b948939dfe5f35c8d6c7ce185",
+    "accessToken": "44008cbae3c5325f786a96fc8de82eff",
+    "refreshToken": "ba4912b0f27d06e55a5e456c5008f6f7",
     "sessionToken": "b0d4ae2f424eebd2da748e5fb1e3440f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
