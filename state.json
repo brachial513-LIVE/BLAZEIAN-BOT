@@ -2035,8 +2035,8 @@
       "stats": {
         "totalVotes": 33302,
         "totalSubs": 243,
-        "totalChatMessages": 13257,
-        "totalStreamMinutes": 31439,
+        "totalChatMessages": 13258,
+        "totalStreamMinutes": 31444,
         "emotes": {
           "📊": 3,
           "🔥": 542,
@@ -2261,7 +2261,7 @@
           "4e0ace02-ece6-4efe-be60-53e7c1883698": 15,
           "cfe942ab-6eea-4b97-8777-5fe29a9aca78": 6,
           "77eff0f6-3ddf-4421-be0c-302b8bd71830": 11,
-          "5ba97ddb-ee75-44d4-aade-9bcb444fda7a": 37,
+          "5ba97ddb-ee75-44d4-aade-9bcb444fda7a": 38,
           "fecfde94-81b4-4d93-b0ab-e21558a35359": 10,
           "d877b990-6c2b-412d-8b5c-1d022dfeeeda": 23,
           "f47f29b9-47f9-49f7-bf29-848237874bfb": 5,
@@ -2592,13 +2592,9 @@
           "5534cfb4-c30c-40cb-80cc-9313e4888b8e": "MELTINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791063666039
+        "lastChatAt": 1791064949919
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
         {
           "user": "guney",
           "msg": "good luck man"
@@ -2634,6 +2630,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "I’m more into OTG for the crypto aspect but it is also very fun"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:5ba97ddb-ee75-44d4-aade-9bcb444fda7a]"
         }
       ],
       "customCommands": {},
@@ -3105,7 +3105,7 @@
         "totalVotes": 21852,
         "totalSubs": 84,
         "totalChatMessages": 7634,
-        "totalStreamMinutes": 22897,
+        "totalStreamMinutes": 22902,
         "emotes": {
           "❤": 219,
           "🙌": 171,
@@ -4947,7 +4947,7 @@
         "totalVotes": 11745,
         "totalSubs": 51,
         "totalChatMessages": 2041,
-        "totalStreamMinutes": 10931,
+        "totalStreamMinutes": 10936,
         "emotes": {
           "✨": 45,
           "🖥": 23,
@@ -6789,7 +6789,7 @@
         "totalVotes": 8727,
         "totalSubs": 85,
         "totalChatMessages": 918,
-        "totalStreamMinutes": 21399,
+        "totalStreamMinutes": 21404,
         "emotes": {
           "❤": 127,
           "🙌": 41,
@@ -8348,7 +8348,7 @@
         "totalVotes": 13176,
         "totalSubs": 41,
         "totalChatMessages": 712,
-        "totalStreamMinutes": 7498,
+        "totalStreamMinutes": 7503,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -15907,7 +15907,7 @@
         "totalVotes": 5397,
         "totalSubs": 25,
         "totalChatMessages": 1137,
-        "totalStreamMinutes": 13419,
+        "totalStreamMinutes": 13424,
         "emotes": {
           "❤": 69,
           "🙌": 56,
@@ -22088,8 +22088,8 @@
     }
   },
   "auth": {
-    "accessToken": "1586c644e2426b95396650d495945b35",
-    "refreshToken": "1232c094d586c30525acefa4f4e5355a",
+    "accessToken": "4cf8a271de5c7c12c63b7a89917b8ee9",
+    "refreshToken": "e4cc939e77bd7458a595e8f21dc0224a",
     "sessionToken": "2decced7c05129827f2002d083e3b810",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
