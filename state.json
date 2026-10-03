@@ -1440,33 +1440,33 @@
       "stats": {
         "totalVotes": 26349,
         "totalSubs": 66,
-        "totalChatMessages": 32239,
-        "totalStreamMinutes": 3283,
+        "totalChatMessages": 32680,
+        "totalStreamMinutes": 3303,
         "emotes": {
           "🔥": 1953,
           "🗳": 28,
           "🔴": 47,
-          "🎉": 295,
+          "🎉": 299,
           "😍": 135,
           "❤": 64,
           "🚢": 16,
-          "⏰": 1357,
-          "🔜": 983,
-          "💀": 504,
+          "⏰": 1367,
+          "🔜": 992,
+          "💀": 509,
           "😘": 3,
-          "🏆": 181,
-          "🎊": 166,
+          "🏆": 186,
+          "🎊": 169,
           "🎰": 21,
           "😰": 162,
-          "🍌": 121,
+          "🍌": 137,
           "🧟": 18,
           "💣": 157,
           "✅": 702,
           "🎲": 101,
           "😤": 1,
-          "🌉": 25,
-          "💨": 173,
-          "💥": 449,
+          "🌉": 26,
+          "💨": 184,
+          "💥": 464,
           "📴": 45,
           "👋": 54,
           "😢": 2,
@@ -1477,7 +1477,7 @@
           "😅": 8,
           "✈": 5,
           "🔧": 1,
-          "⚡": 89,
+          "⚡": 90,
           "📊": 3,
           "💃": 1,
           "💛": 9,
@@ -1581,7 +1581,7 @@
           "💜": 1,
           "8b1c4294-3272-43bf-aabe-ecac7dcf8159": 4,
           "😌": 2,
-          "🔫": 1,
+          "🔫": 2,
           "de62bb70-e761-4741-920a-31ab3eb2e939": 13,
           "35dd33ea-8dda-4d8d-af3a-74c2bb380667": 6,
           "234bd023-4153-40f0-a6e0-f316a80f6e17": 23,
@@ -1596,7 +1596,9 @@
           "🕺": 1,
           "👆": 1,
           "🤝": 1,
-          "😭": 1
+          "😭": 1,
+          "💓": 1,
+          "😇": 1
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -1752,9 +1754,11 @@
           "🕺": "🕺",
           "👆": "👆",
           "🤝": "🤝",
-          "😭": "😭"
+          "😭": "😭",
+          "💓": "💓",
+          "😇": "😇"
         },
-        "lastChatAt": 1791042098959,
+        "lastChatAt": 1791043300440,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1763,44 +1767,44 @@
       },
       "chatMemory": [
         {
-          "user": "blazegames_bot",
-          "msg": "@rafael_zuh fires at C3!"
+          "user": "lvl4goblin",
+          "msg": "RIGHT"
+        },
+        {
+          "user": "octo",
+          "msg": "l"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "l"
+        },
+        {
+          "user": "badger",
+          "msg": "r"
+        },
+        {
+          "user": "octo",
+          "msg": "ll"
         },
         {
           "user": "blazegames_bot",
-          "msg": "C2: hit rafael_zuh!"
+          "msg": "🏆 @badger crossed the bridge! Position: #1"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "l"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@badger Shot queued at D2! It will fire when it's your turn. 🔜"
+          "msg": "🏆 @jt_squared2 crossed the bridge! Position: #2"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@badger Shot queued at A2! It will fire when it's your turn. 🔜"
+          "msg": "🏆 WINNER: badger! 🎉 Congratulations! 🎊"
         },
         {
-          "user": "blazegames_bot",
-          "msg": "@rafael_zuh fires at E7!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "E7: Miss!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "A2: hit rafael_zuh!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "C10: Miss!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@rafael_zuh fires at C10!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@badger Shot queued at D2! It will fire when it's your turn. 🔜"
+          "user": "metal_bot",
+          "msg": "Left"
         }
       ],
       "customCommands": {},
@@ -3093,8 +3097,8 @@
       "stats": {
         "totalVotes": 21674,
         "totalSubs": 84,
-        "totalChatMessages": 7585,
-        "totalStreamMinutes": 22636,
+        "totalChatMessages": 7586,
+        "totalStreamMinutes": 22656,
         "emotes": {
           "❤": 217,
           "🙌": 170,
@@ -3153,7 +3157,7 @@
           "😋": 1,
           "😄": 4,
           "🐽": 1,
-          "✌": 8,
+          "✌": 9,
           "💰": 8,
           "🐇": 3,
           "🫨": 2,
@@ -3429,14 +3433,10 @@
           "f8273a7b-043a-417f-8a85-39b5fc7aacc4": "Bunny_dance",
           "da46738e-03ae-4bb7-8d97-529a3cf338c5": "Doggo_Fluffy"
         },
-        "lastChatAt": 1791041905312,
+        "lastChatAt": 1791042195820,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "mostly 2nd place"
-        },
         {
           "user": "agent00zani",
           "msg": "I think I am winner because of the awesome people in my CHAT rn"
@@ -3472,6 +3472,10 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "guney",
+          "msg": "✌️"
         }
       ],
       "customCommands": {
@@ -9563,7 +9567,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
-      "streamTitle": "",
+      "streamTitle": "1 SUB = 30 MIN MORE // 100 VOTE = 30 MIN MORE — Crypto",
       "gameOverride": "",
       "profile": "saboomafoo streams energetic League of Legends & MapleStory collabs, pumping “FOXSPIRITS” vibes. Chat loves “have a nice stream”, “GM GM GUYS”, “NEKOOOOOOOOOO”, “hellow”, “❤️❤️❤️❤️❤️”, and playful “😅😅”. Community celebrates with quick shoutouts, a warm “ty” response, constant upbeat greetings, and constant positivity. The channel thrives on friendly, energetic banter and constant positivity.",
       "_profileAtCount": 460,
@@ -10489,9 +10493,9 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 16208,
+        "totalVotes": 17208,
         "totalSubs": 53,
-        "totalChatMessages": 2330,
+        "totalChatMessages": 2331,
         "totalStreamMinutes": 4358,
         "emotes": {
           "❤": 163,
@@ -10658,13 +10662,9 @@
           "fd227fe3-98c5-44d7-9f5f-5fcd33806932": "lfg"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791041144736
+        "lastChatAt": 1791042961764
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -10700,6 +10700,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @Future42!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1000 votes, @JohnGalt!"
         }
       ],
       "customCommands": {},
@@ -11558,8 +11562,8 @@
       "stats": {
         "totalVotes": 6213,
         "totalSubs": 44,
-        "totalChatMessages": 378,
-        "totalStreamMinutes": 7700,
+        "totalChatMessages": 379,
+        "totalStreamMinutes": 7701,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -11607,13 +11611,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790929431983
+        "lastChatAt": 1791043187041
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @TwistedTinker!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live: dots! Come hang out and watch."
@@ -11649,6 +11649,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 5 votes, @dwb9000!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: dots! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -11661,7 +11665,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "dots — PLAYERUNKNOWN'S BATTLEGROUNDS",
       "gameOverride": "",
       "profile": "Welcome to pr0ff’s stream—Ragnarok grind, PUGs, endless “DOTES” vibes! The chat loves “thanks” after a love fest, gifts a Sub to celebrate milestones, and throws 🔥 emojis everywhere. pr0ff thrives on community hype, “gift a Sub” moments, and “thanks” shoutouts. Keep the energy high, keep the 🔥 flowing!",
       "_profileAtCount": 339,
@@ -12698,8 +12702,8 @@
       "stats": {
         "totalVotes": 15804,
         "totalSubs": 34,
-        "totalChatMessages": 2889,
-        "totalStreamMinutes": 9348,
+        "totalChatMessages": 2893,
+        "totalStreamMinutes": 9362,
         "emotes": {
           "❤": 112,
           "🙌": 72,
@@ -12714,8 +12718,8 @@
           "🤗": 5,
           "📴": 56,
           "🎁": 44,
-          "🔴": 54,
-          "🎉": 87,
+          "🔴": 55,
+          "🎉": 88,
           "👍": 15,
           "😍": 6,
           "😆": 6,
@@ -12781,11 +12785,12 @@
           "🚀": 1,
           "a966f060-6fa3-48df-823e-dab2c471849c": 1,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 13,
-          "a92b1ddc-ee5f-42af-9ba3-6568561b97e3": 20,
+          "a92b1ddc-ee5f-42af-9ba3-6568561b97e3": 23,
           "🎬": 1,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 2,
           "50057020-6b81-442d-bdf6-7015ec80dda7": 5,
-          "🤘": 3
+          "🤘": 3,
+          "7a967d85-26d9-4051-ae4b-bfa6a6c93160": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -12872,28 +12877,13 @@
           "🎬": "🎬",
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": "BLAZEICON",
           "50057020-6b81-442d-bdf6-7015ec80dda7": "Fire",
-          "🤘": "🤘"
+          "🤘": "🤘",
+          "7a967d85-26d9-4051-ae4b-bfa6a6c93160": "WWW"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790993781086
+        "lastChatAt": 1791043125785
       },
       "chatMemory": [
-        {
-          "user": "saboomafoo",
-          "msg": "claim"
-        },
-        {
-          "user": "saboomafoo",
-          "msg": "angge"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @DFF!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ DFF just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -12917,6 +12907,22 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 125 votes, @JohnGalt!"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:7a967d85-26d9-4051-ae4b-bfa6a6c93160] [emote:7a967d85-26d9-4051-ae4b-bfa6a6c93160] [emote:7a967d85-26d9-4051-ae4b-bfa6a6c93160]"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 angge_wf is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "fartvader",
+          "msg": "heyyy angge..lets goooooooo"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3]"
         }
       ],
       "customCommands": {},
@@ -12930,7 +12936,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4e3e8a6e-187e-4044-ac4b-00376f4dd2b2.gif",
       "profile": "Welcome to angge_wf’s chill stream where “gm gm gm gm gm” greets mornings, “magadga umaga” vibes echo, and “VOTE ALERT” moments spark. Celebrate subs with “❤️”, hype with “🤩🤩🤩” and “🔥🔥🔥”, keep the “kkiligin” spirit alive. In 7 Days to Die we shout “foreyner”. Fast‑paced VALORANT play, quick‑fire emotes, constant cheers, and a community that loves to shout out votes and subs.",
       "_profileAtCount": 2853,
-      "streamTitle": "",
+      "streamTitle": "Chill stream - Support 🔥🎮 — VALORANT",
       "gameOverride": "",
       "followed": true,
       "botVip": true,
@@ -13004,8 +13010,8 @@
       "stats": {
         "totalVotes": 6631,
         "totalSubs": 43,
-        "totalChatMessages": 2230,
-        "totalStreamMinutes": 5693,
+        "totalChatMessages": 2232,
+        "totalStreamMinutes": 5713,
         "emotes": {
           "❤": 108,
           "🙌": 83,
@@ -13205,17 +13211,9 @@
           "c796f875-da00-4e82-bc6d-c25be4d801b8": "POPCORN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791040860715
+        "lastChatAt": 1791042623807
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "hes not playing"
-        },
-        {
-          "user": "ruri666",
-          "msg": "hes hard to convince"
-        },
         {
           "user": "ruri666",
           "msg": "HAHAHAHA"
@@ -13247,6 +13245,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: DAILY STREAM - UNCALIBRATED TO IMMORTAL! Come hang out and watch."
+        },
+        {
+          "user": "angge_wf",
+          "msg": "Gm pu"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -13438,8 +13444,8 @@
       "stats": {
         "totalVotes": 15126,
         "totalSubs": 23,
-        "totalChatMessages": 29691,
-        "totalStreamMinutes": 18724,
+        "totalChatMessages": 29695,
+        "totalStreamMinutes": 18744,
         "emotes": {
           "❤": 99,
           "🙌": 71,
@@ -13448,7 +13454,7 @@
           "🔴": 105,
           "🎉": 232,
           "🪙": 800,
-          "⚡": 663,
+          "⚡": 664,
           "👀": 76,
           "🍿": 20,
           "🤗": 33,
@@ -13623,7 +13629,7 @@
           "🥺": 2,
           "🥈": 31,
           "🥉": 31,
-          "⭐": 59,
+          "⭐": 61,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 2,
           "✊": 1,
           "✋": 1
@@ -13817,21 +13823,9 @@
           "✋": "✋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791041549552
+        "lastChatAt": 1791042803249
       },
       "chatMemory": [
-        {
-          "user": "lipeman",
-          "msg": "penso"
-        },
-        {
-          "user": "lipeman",
-          "msg": "kkkkkkkk"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "mc kaizo"
-        },
         {
           "user": "lovemikami",
           "msg": "kkkkkkkkk"
@@ -13859,6 +13853,18 @@
         {
           "user": "botger",
           "msg": "⭐️Tem 5.000 blaze na loja pra resgatar com seus pontos, vai ficar disponível por 1 semana se ninguém resgatar reseta na próxima semana, 20.000 pontos resgata 500 blaze"
+        },
+        {
+          "user": "botger",
+          "msg": "⭐️Quem conseguir pegar level 50 de XP ganha 1000 blaze e ganha pontos extra a cada level, blaze vai pra sua carteira"
+        },
+        {
+          "user": "botger",
+          "msg": "⚡ mauhzera: Level 10 | 29,320 XP (2,830 to Level 11)"
+        },
+        {
+          "user": "botger",
+          "msg": "⭐️Zerar jogo normal no canal durante a semana ganha 100 blaze e se zerar 100% ganha 200 blaze, não pode repetir jogo no mês, blaze vai pra sua carteira."
         }
       ],
       "customCommands": {},
@@ -13990,7 +13996,7 @@
         "totalVotes": 9821,
         "totalSubs": 23,
         "totalChatMessages": 1269,
-        "totalStreamMinutes": 7859,
+        "totalStreamMinutes": 7879,
         "emotes": {
           "❤": 78,
           "🙌": 49,
@@ -16384,12 +16390,12 @@
       "joinedAt": 1786172514205,
       "stats": {
         "totalVotes": 19573,
-        "totalSubs": 102,
-        "totalChatMessages": 6088,
-        "totalStreamMinutes": 11577,
+        "totalSubs": 103,
+        "totalChatMessages": 6097,
+        "totalStreamMinutes": 11597,
         "emotes": {
           "😅": 2,
-          "🔥": 260,
+          "🔥": 262,
           "🍻": 5,
           "✌": 6,
           "😊": 1,
@@ -16402,7 +16408,7 @@
           "😁": 8,
           "😜": 11,
           "🙏": 1,
-          "🙌": 186,
+          "🙌": 187,
           "💪": 1,
           "👋": 55,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 847,
@@ -16497,7 +16503,8 @@
           "😃": 1,
           "☺": 1,
           "🙃": 1,
-          "849b2d68-7a30-4dcc-9981-1906ce5d70ca": 1
+          "849b2d68-7a30-4dcc-9981-1906ce5d70ca": 1,
+          "😇": 1
         },
         "emoteNames": {
           "😅": "😅",
@@ -16609,10 +16616,11 @@
           "😃": "😃",
           "☺": "☺",
           "🙃": "🙃",
-          "849b2d68-7a30-4dcc-9981-1906ce5d70ca": "StarPyro"
+          "849b2d68-7a30-4dcc-9981-1906ce5d70ca": "StarPyro",
+          "😇": "😇"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791042046525,
+        "lastChatAt": 1791042306915,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -16620,30 +16628,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "my wish is to play with my good friends ...."
-        },
-        {
-          "user": "agent00zani",
-          "msg": "and not have them waste they preious money on me .....\nTy ty for the gift"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "among us"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "I am not saying.... \nFree games with the bros"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "have you got far in the game"
-        },
         {
           "user": "agent00zani",
           "msg": "going ninja mode"
@@ -16659,6 +16643,30 @@
         {
           "user": "meyetechnicals",
           "msg": "did you build a base"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "Gm gm"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "can you upgrade weapons & stuff"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "W giveaway"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @angge_wf has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "like the spear , can you attach knife to it & upgrade like them things"
+        },
+        {
+          "user": "angge_wf",
+          "msg": "Always welcome vad 😇"
         }
       ],
       "customCommands": {},
@@ -16827,6 +16835,11 @@
         },
         "piweb": {
           "name": "piweb",
+          "months": 1,
+          "tier": 1
+        },
+        "angge_wf": {
+          "name": "angge_wf",
           "months": 1,
           "tier": 1
         }
@@ -18011,8 +18024,8 @@
       "stats": {
         "totalVotes": 6730,
         "totalSubs": 22,
-        "totalChatMessages": 1530,
-        "totalStreamMinutes": 7531,
+        "totalChatMessages": 1532,
+        "totalStreamMinutes": 7551,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -18040,7 +18053,7 @@
           "c000e92f-564f-425e-80de-041757796011": 7,
           "ca4b195c-9e5a-4aab-b5ac-0541b389ddb7": 1,
           "935e84c1-1190-4ae0-a802-080ee0e48538": 5,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 23,
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 28,
           "1bd27a89-9b87-41e3-a83b-71389e8fbd97": 3,
           "ba3a4687-9546-4cbe-90a9-b069b7a7d584": 10,
           "370cb637-bb6c-4f8f-b59f-7c2b1c5d1da5": 22,
@@ -18068,8 +18081,8 @@
           "🫂": 1,
           "37719561-c923-4260-b1a5-e3eda10c103d": 4,
           "😆": 20,
-          "😶": 8,
-          "🌫": 8,
+          "😶": 13,
+          "🌫": 13,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 8,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 8,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 3,
@@ -18172,17 +18185,9 @@
           "😃": "😃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791041911935
+        "lastChatAt": 1791042160920
       },
       "chatMemory": [
-        {
-          "user": "jaggerjack",
-          "msg": "PALDOGGO"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "eyyy whats upp papii doggoo"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -18214,6 +18219,14 @@
         {
           "user": "agent00zani",
           "msg": "ninja mode"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
         }
       ],
       "customCommands": {
@@ -21065,8 +21078,8 @@
     },
     "anikisnow": {
       "note": "Energetic livestreamer who loves OSP/OSPD games, music, playful humor, custom emotes, and cheers enthusiastically.",
-      "at": 1790933071664,
-      "n": 29
+      "at": 1791042637182,
+      "n": 30
     },
     "tai_": {
       "note": "Energetic gamer who loves dinosaurs, frequently plays “The Isle” and enjoys playful, upbeat chat.",
@@ -21615,8 +21628,8 @@
     },
     "perfect_verdict": {
       "note": "Enjoys VR tower‑defense, new game remakes, music, and playful, upbeat jokes.",
-      "at": 1790937031596,
-      "n": 18
+      "at": 1791043298572,
+      "n": 19
     },
     "the_gwc": {
       "note": "Arc player who loves legendary guns, jokes about server hunts, and has a recurring “mixtape curse” that causes death during extraction.",
