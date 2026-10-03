@@ -6192,7 +6192,7 @@
         "totalVotes": 31898,
         "totalSubs": 67,
         "totalChatMessages": 8108,
-        "totalStreamMinutes": 14203,
+        "totalStreamMinutes": 14208,
         "emotes": {
           "❤": 125,
           "🙌": 193,
@@ -8513,7 +8513,7 @@
         "totalVotes": 20164,
         "totalSubs": 67,
         "totalChatMessages": 16143,
-        "totalStreamMinutes": 10943,
+        "totalStreamMinutes": 10948,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -9121,7 +9121,7 @@
         "totalVotes": 15256,
         "totalSubs": 54,
         "totalChatMessages": 2427,
-        "totalStreamMinutes": 19281,
+        "totalStreamMinutes": 19286,
         "emotes": {
           "🔥": 700,
           "🔴": 200,
@@ -17968,8 +17968,8 @@
       "stats": {
         "totalVotes": 6680,
         "totalSubs": 22,
-        "totalChatMessages": 1519,
-        "totalStreamMinutes": 7506,
+        "totalChatMessages": 1520,
+        "totalStreamMinutes": 7511,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -18020,7 +18020,7 @@
           "💪": 1,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 5,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 7,
-          "4c33b737-d824-48cc-a197-422150240273": 398,
+          "4c33b737-d824-48cc-a197-422150240273": 402,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 2,
           "🫂": 1,
           "37719561-c923-4260-b1a5-e3eda10c103d": 4,
@@ -18129,13 +18129,9 @@
           "😃": "😃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790986559184
+        "lastChatAt": 1790989489805
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "how did i not notice"
-        },
         {
           "user": "cripiechuccles",
           "msg": "[emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052]"
@@ -18171,6 +18167,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @Future42!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:4c33b737-d824-48cc-a197-422150240273] [emote:4c33b737-d824-48cc-a197-422150240273] [emote:4c33b737-d824-48cc-a197-422150240273] [emote:4c33b737-d824-48cc-a197-422150240273]"
         }
       ],
       "customCommands": {
@@ -21924,8 +21924,8 @@
     }
   },
   "auth": {
-    "accessToken": "a46351d518f98fae4748e6c77ae4b9ba",
-    "refreshToken": "f97b46de71e525be9be053c2a94906b8",
+    "accessToken": "8fdbae05892c633894e7a28f580be59e",
+    "refreshToken": "8d9d6fb1a602cadf964584ed07724ed3",
     "sessionToken": "b0d4ae2f424eebd2da748e5fb1e3440f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
