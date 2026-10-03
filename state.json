@@ -2013,7 +2013,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 32782,
-        "totalSubs": 238,
+        "totalSubs": 239,
         "totalChatMessages": 13206,
         "totalStreamMinutes": 31177,
         "emotes": {
@@ -2699,6 +2699,11 @@
         },
         "piweb": {
           "name": "piweb",
+          "months": 1,
+          "tier": 1
+        },
+        "triz_draw": {
+          "name": "triz_draw",
           "months": 1,
           "tier": 1
         }
@@ -6190,12 +6195,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 31998,
-        "totalSubs": 67,
-        "totalChatMessages": 8165,
-        "totalStreamMinutes": 14228,
+        "totalSubs": 68,
+        "totalChatMessages": 8208,
+        "totalStreamMinutes": 14248,
         "emotes": {
           "❤": 125,
-          "🙌": 193,
+          "🙌": 194,
           "🗳": 810,
           "🔴": 83,
           "🎉": 146,
@@ -6212,7 +6217,7 @@
           "😆": 69,
           "💰": 22,
           "😂": 134,
-          "🎁": 80,
+          "🎁": 82,
           "✨": 1,
           "😄": 9,
           "😁": 16,
@@ -6227,7 +6232,7 @@
           "☺": 2,
           "✌": 2,
           "😍": 18,
-          "😏": 38,
+          "😏": 40,
           "🍀": 51,
           "😜": 3,
           "🍆": 1,
@@ -6268,7 +6273,7 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 18,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 22,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 6,
-          "f15ffefe-5110-4dfe-ac46-3d521eaa9388": 26,
+          "f15ffefe-5110-4dfe-ac46-3d521eaa9388": 29,
           "849b2d68-7a30-4dcc-9981-1906ce5d70ca": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 16,
           "a859cc12-453a-4bd8-b650-38710d9486de": 43,
@@ -6291,15 +6296,15 @@
           "f24f3ced-f044-4710-a310-3a7f922d4975": 11,
           "95944de8-157f-48f9-bf59-1e463a79241b": 3,
           "89607d1d-be98-402f-b44c-4b86dd3c4ecb": 11,
-          "022678e3-1b96-4a20-a88e-3cb54cca477b": 5,
-          "2deeee8b-5a34-4fdf-a770-4ba5b15bfdc5": 36,
+          "022678e3-1b96-4a20-a88e-3cb54cca477b": 7,
+          "2deeee8b-5a34-4fdf-a770-4ba5b15bfdc5": 38,
           "40b32399-b774-4742-af0f-4cb53635e769": 18,
-          "85bc92da-0bf0-4357-a36a-48624e6fb778": 46,
+          "85bc92da-0bf0-4357-a36a-48624e6fb778": 48,
           "579cce98-01b9-4c4e-aded-e8a7d6692b7f": 39,
           "0ec398a2-c3b9-4312-9191-75a653e456b1": 37,
           "7e247bfc-7ca4-47e5-aa10-a9d213c9c561": 10,
           "77ce2af7-987f-4b52-9fc2-e4c30c294bb6": 20,
-          "dbabb6c9-a042-43f6-b4a0-8e842416ee69": 17,
+          "dbabb6c9-a042-43f6-b4a0-8e842416ee69": 18,
           "🎶": 5,
           "🙂": 1,
           "↕": 1,
@@ -6307,7 +6312,7 @@
           "3a0bbdaa-5c9d-44bc-8291-5e4446aac8d5": 1,
           "😭": 10,
           "☕": 3,
-          "0ab8632e-7f6e-4c26-929c-9cb486958a2f": 42,
+          "0ab8632e-7f6e-4c26-929c-9cb486958a2f": 43,
           "🤘": 9,
           "🫠": 1,
           "💕": 3,
@@ -6341,7 +6346,7 @@
           "💤": 1,
           "8982e71b-0151-4b97-bbdb-8f0fc6a98668": 19,
           "🥁": 51,
-          "f470527f-3a0f-468e-83b2-94d5704b9bc3": 38,
+          "f470527f-3a0f-468e-83b2-94d5704b9bc3": 39,
           "c04b4b71-f44c-4c1c-af75-ea30604d6fee": 2,
           "210e1bd7-f353-40c9-a468-a9bdb6c5f0ac": 30,
           "21adfdbe-2f9b-4fdf-888e-fad095dcfa08": 9,
@@ -6374,7 +6379,8 @@
           "👆": 1,
           "▪": 4,
           "🙏": 1,
-          "🫶": 3
+          "🫶": 3,
+          "890af5ea-87d4-43dc-823c-4e436cbec69f": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -6557,51 +6563,52 @@
           "👆": "👆",
           "▪": "▪",
           "🙏": "🙏",
-          "🫶": "🫶"
+          "🫶": "🫶",
+          "890af5ea-87d4-43dc-823c-4e436cbec69f": "peeopblush"
         },
-        "lastChatAt": 1790990783724,
+        "lastChatAt": 1790991874736,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "desirablebottom",
-          "msg": "agreeed"
+          "user": "cr33pling",
+          "msg": "the most intensify eq i felt, is when we're trekking at a mountain."
         },
         {
           "user": "cr33pling",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "thats dope W"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "enjoy"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "probably edits spooky games and stream surfin"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "🫶🫶🫶 we need you healthy"
-        },
-        {
-          "user": "briggsy",
-          "msg": "yess, be kind to your vocal chords"
+          "msg": "rockslide is just on our side"
         },
         {
           "user": "cr33pling",
-          "msg": "trueeeeeee"
+          "msg": "good thing yeah were safe"
         },
         {
-          "user": "desirablebottom",
-          "msg": "the best remedy"
+          "user": "cr33pling",
+          "msg": "ohhh thats why our guide, told us to cover from trees"
         },
         {
-          "user": "desirablebottom",
-          "msg": "W"
+          "user": "cr33pling",
+          "msg": "youre right"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:85bc92da-0bf0-4357-a36a-48624e6fb778] [emote:85bc92da-0bf0-4357-a36a-48624e6fb778]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "we used to play the stumble guys."
+        },
+        {
+          "user": "cr33pling",
+          "msg": "btw man, its cool to talk w/ u and stay here. really appreciate the people around. gotta grab some sleep. catch u on the next one"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:890af5ea-87d4-43dc-823c-4e436cbec69f] [emote:890af5ea-87d4-43dc-823c-4e436cbec69f] [emote:890af5ea-87d4-43dc-823c-4e436cbec69f]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "take care of ur health as well, hope you good asap"
         }
       ],
       "customCommands": {},
@@ -8514,8 +8521,8 @@
       "stats": {
         "totalVotes": 20164,
         "totalSubs": 67,
-        "totalChatMessages": 16161,
-        "totalStreamMinutes": 10968,
+        "totalChatMessages": 16166,
+        "totalStreamMinutes": 10988,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -8651,7 +8658,7 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 20,
           "9669c537-4585-4a5c-8fb9-b7e17f2e6d99": 43,
           "3a0bbdaa-5c9d-44bc-8291-5e4446aac8d5": 1,
-          "f6b7a34c-9ed7-49e5-97b4-40be46e6bf8e": 71,
+          "f6b7a34c-9ed7-49e5-97b4-40be46e6bf8e": 73,
           "🤠": 6,
           "🏃": 1,
           "🍌": 5,
@@ -8680,7 +8687,7 @@
           "⭕": 2,
           "‼": 1,
           "🤪": 1,
-          "e5e8de17-1ebf-4f87-80fa-04abbe09c500": 1134,
+          "e5e8de17-1ebf-4f87-80fa-04abbe09c500": 1136,
           "d406354b-4ee8-4dd6-98ec-cf605c7e38a1": 3049,
           "🪥": 1,
           "😩": 1,
@@ -8710,7 +8717,7 @@
           "298c22d7-9014-4525-aad4-fedfa7811531": 11,
           "b8f5ff16-2e11-4695-98de-e426fff3889e": 133,
           "0c0798fa-e75a-4159-a733-4400bce40207": 27,
-          "9ddd5726-8457-4a1c-903d-6d155e631d69": 308,
+          "9ddd5726-8457-4a1c-903d-6d155e631d69": 340,
           "701903b5-7d18-462b-9e72-fd943ba2f3b2": 118,
           "4e60197e-4907-4810-a34f-6b7e4427b103": 30,
           "37719561-c923-4260-b1a5-e3eda10c103d": 5,
@@ -8957,29 +8964,9 @@
           "😔": "😔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790990482677
+        "lastChatAt": 1790991525661
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "just studying mostly. drawful on saturday. church on sunday"
-        },
-        {
-          "user": "otakucorekidvt_",
-          "msg": "How's the docter check up?"
-        },
-        {
-          "user": "otakucorekidvt_",
-          "msg": "Am doing good"
-        },
-        {
-          "user": "otakucorekidvt_",
-          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
-        },
-        {
-          "user": "metal_bot",
-          "msg": "@avisi No songs found for \"show me your god amity affliction\". Try a different search."
-        },
         {
           "user": "metal_bot",
           "msg": "@avisi Found 4 matches: 1. Rise Of The Northstar - Show Me Your Respect | 2. Dance Gavin Dance - Pray To God For Your Mother (Instrumental) | 3. Unchain - Show Me Your Height | 4. Deserted Fear - Call Me Your God — Reply !pick 1-4 to select"
@@ -8999,6 +8986,26 @@
         {
           "user": "avisi",
           "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
+        },
+        {
+          "user": "otakucorekidvt_",
+          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
+        },
+        {
+          "user": "otakucorekidvt_",
+          "msg": "Her vocals are amazing"
+        },
+        {
+          "user": "otakucorekidvt_",
+          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:e5e8de17-1ebf-4f87-80fa-04abbe09c500] [emote:f6b7a34c-9ed7-49e5-97b4-40be46e6bf8e] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:e5e8de17-1ebf-4f87-80fa-04abbe09c500] [emote:f6b7a34c-9ed7-49e5-97b4-40be46e6bf8e] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
+        },
+        {
+          "user": "otakucorekidvt_",
+          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
+        },
+        {
+          "user": "otakucorekidvt_",
+          "msg": "hell yee"
         }
       ],
       "customCommands": {},
@@ -9123,7 +9130,7 @@
         "totalVotes": 15256,
         "totalSubs": 54,
         "totalChatMessages": 2427,
-        "totalStreamMinutes": 19306,
+        "totalStreamMinutes": 19326,
         "emotes": {
           "🔥": 700,
           "🔴": 200,
@@ -19859,7 +19866,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1790968293146
+      "_idAt": 1790991093175
     },
     "157ed26e-c72f-49c1-877b-5101b0645fb6": {
       "username": "cem",
@@ -20106,7 +20113,7 @@
       "lastStreamEndedAt": 1790965233943,
       "nudgedAt": 1790123384716,
       "nudgedKey": "schedule",
-      "_idAt": 1790968289568,
+      "_idAt": 1790991089622,
       "loyalty": {
         "desirablebottom": {
           "name": "desirablebottom",
@@ -20203,7 +20210,7 @@
       "_profileAtCount": 35,
       "followed": true,
       "botVip": true,
-      "_idAt": 1790968290743
+      "_idAt": 1790991090781
     },
     "8f59e982-1482-4327-86d9-ae96b063edc4": {
       "username": "hortenseemu44",
@@ -20359,7 +20366,7 @@
       "lastStreamInfo": "🔥 BLAZE x OTG TRIOS SHOWDOWN | BLAZE KINGS TAKE THE FIELD 🔨 | HortenseEmu44 — Aim Lab",
       "lastStreamEndedAt": 1790482235456,
       "gameOverride": "",
-      "_idAt": 1790968296740
+      "_idAt": 1790991096775
     },
     "1952fbef-bab1-4a82-8a89-9c9c123ebb45": {
       "username": "mafaz",
@@ -20455,7 +20462,7 @@
       "gameOverride": "",
       "profile": "mafaz streams action‑packed gameplay, welcoming every new Blazeian with “welcome” and “thanks.” The chat buzzes with “woot,” “happy streaming buddd,” and “enjoy the game broski!” Fans celebrate mafaz by cheering “blazeee” and using the custom emote. The vibe is energetic, friendly, and supportive—every viewer feels part of the Blazeiancrew.",
       "_profileAtCount": 15,
-      "_idAt": 1790968291947
+      "_idAt": 1790991091982
     },
     "fba94794-c563-4d68-8aec-152f85eba0e1": {
       "username": "hubal",
@@ -20549,7 +20556,7 @@
       "lastStreamInfo": "Onimusha Way of the Sword - NG+ Pt. 8 — Onimusha: Way Of The Sword",
       "lastStreamEndedAt": 1790900739016,
       "gameOverride": "",
-      "_idAt": 1790968295544
+      "_idAt": 1790991095574
     },
     "5d7fc259-9ec1-46b1-a6f8-903cb08b2c61": {
       "username": "thelarsofus",
@@ -20581,7 +20588,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1790968294328,
+      "_idAt": 1790991094371,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5283cee-6005-4782-92fe-13419fd64684.png",
       "followed": true,
       "botVip": true
@@ -21433,9 +21440,9 @@
       "n": 13
     },
     "switchback": {
-      "note": "Enjoy classic first‑person shooters like Unreal Tournament, loves gaming weekends, and brings a playful, nostalgic vibe to every chat.",
-      "at": 1790873012035,
-      "n": 2
+      "note": "Enjoy upbeat music, marathon playlists, and playful greetings, while also loving classic first‑person shooters like Unreal Tournament.",
+      "at": 1790991151812,
+      "n": 3
     },
     "algento": {
       "note": "Enjoy chatting in Italian about music, beach vibes, and friendly, upbeat banter.",
