@@ -3086,14 +3086,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 21574,
+        "totalVotes": 21674,
         "totalSubs": 84,
-        "totalChatMessages": 7511,
-        "totalStreamMinutes": 22442,
+        "totalChatMessages": 7512,
+        "totalStreamMinutes": 22446,
         "emotes": {
           "❤": 217,
           "🙌": 170,
-          "🗳": 1083,
+          "🗳": 1086,
           "📴": 190,
           "👋": 217,
           "🔴": 187,
@@ -3422,14 +3422,10 @@
           "5ba4e137-ccf1-419f-9ece-67d9e4cb07f7": "Fluffy_Doggo",
           "f8273a7b-043a-417f-8a85-39b5fc7aacc4": "Bunny_dance"
         },
-        "lastChatAt": 1791023671364,
+        "lastChatAt": 1791024478291,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "Blazing"
-        },
         {
           "user": "agent00zani",
           "msg": "whats the plan now ?"
@@ -3465,6 +3461,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @_VladEnzo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -21956,8 +21956,8 @@
     }
   },
   "auth": {
-    "accessToken": "2f7b1dfa619724d57994ac1c1e35a8b6",
-    "refreshToken": "bfa99e00a6230a589f61de0f15b6be13",
+    "accessToken": "7095ccd787cf16ec143f942c7c164e2c",
+    "refreshToken": "59342de4bf2294fc155d3265df7ee75e",
     "sessionToken": "b0d4ae2f424eebd2da748e5fb1e3440f",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
