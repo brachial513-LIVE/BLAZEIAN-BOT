@@ -1447,7 +1447,7 @@
       "stats": {
         "totalVotes": 27870,
         "totalSubs": 66,
-        "totalChatMessages": 33622,
+        "totalChatMessages": 33623,
         "totalStreamMinutes": 3359,
         "emotes": {
           "🔥": 2024,
@@ -1765,7 +1765,7 @@
           "💓": "💓",
           "😇": "😇"
         },
-        "lastChatAt": 1791046662738,
+        "lastChatAt": 1791073168237,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1773,10 +1773,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "badger",
-          "msg": "I have tears rn"
-        },
         {
           "user": "metal_bot",
           "msg": "@"
@@ -1812,6 +1808,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "dimifw",
+          "msg": "first"
         }
       ],
       "customCommands": {},
@@ -6227,7 +6227,7 @@
         "totalVotes": 32249,
         "totalSubs": 69,
         "totalChatMessages": 8220,
-        "totalStreamMinutes": 14318,
+        "totalStreamMinutes": 14323,
         "emotes": {
           "❤": 127,
           "🙌": 195,
@@ -6788,16 +6788,16 @@
       "stats": {
         "totalVotes": 8727,
         "totalSubs": 85,
-        "totalChatMessages": 920,
-        "totalStreamMinutes": 21496,
+        "totalChatMessages": 921,
+        "totalStreamMinutes": 21498,
         "emotes": {
           "❤": 127,
           "🙌": 41,
           "🔥": 41,
           "🔴": 146,
           "🎉": 146,
-          "📴": 150,
-          "👋": 154,
+          "📴": 151,
+          "👋": 155,
           "😂": 4,
           "💚": 7,
           "💪": 6,
@@ -6892,14 +6892,10 @@
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
-        "lastChatAt": 1791068366117,
+        "lastChatAt": 1791073146109,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
@@ -6935,6 +6931,10 @@
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -6946,15 +6946,15 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "⚔️ PRIDECAST AO VIVO  | SAYOZERA NA VOZ❗ — Talk Shows & Podcasts",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a3182925-83db-455f-9247-d15b2f463116.png",
       "profile": "Channel: slothsm  \nProfile: Chill, supportive farm‑simulation hub where “noois” thrive. Members greet with “juunto” and celebrate gifts with “bom farm”. The chat loves “juunto” shoutouts, especially “gift subs” and “love fest” moments, using “toma” and “akini” often. Slothsm enjoys spontaneous “love fest” celebrations for kindness and generosity, keeping the vibe calm, celebratory, and welcoming.",
       "_profileAtCount": 905,
       "botVip": true,
-      "lastStreamInfo": "⚔️pvp — Lineage 2",
-      "lastStreamEndedAt": 1791066136138,
+      "lastStreamInfo": "⚔️ PRIDECAST AO VIVO  | SAYOZERA NA VOZ❗ — Talk Shows & Podcasts",
+      "lastStreamEndedAt": 1791073140882,
       "nudgedAt": 1785710754625,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -17698,7 +17698,7 @@
         "totalVotes": 6480,
         "totalSubs": 27,
         "totalChatMessages": 4134,
-        "totalStreamMinutes": 11916,
+        "totalStreamMinutes": 11921,
         "emotes": {
           "👋": 85,
           "⚠": 2,
@@ -22088,8 +22088,8 @@
     }
   },
   "auth": {
-    "accessToken": "5172dd788aad796e5a3f6a3b1b496f85",
-    "refreshToken": "a6432497f893a52627ed8583d42b8e65",
+    "accessToken": "125271e5e039a7b7490df5cc6d22bd0e",
+    "refreshToken": "249987c20318f57cd331f948af8c527a",
     "sessionToken": "2decced7c05129827f2002d083e3b810",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
