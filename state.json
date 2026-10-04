@@ -3702,7 +3702,7 @@
       "stats": {
         "totalVotes": 35545,
         "totalSubs": 87,
-        "totalChatMessages": 16289,
+        "totalChatMessages": 16290,
         "totalStreamMinutes": 9741,
         "emotes": {
           "❤": 6425,
@@ -4126,7 +4126,7 @@
           "🎮": "🎮",
           "🍺": "🍺"
         },
-        "lastChatAt": 1791135101902,
+        "lastChatAt": 1791135387493,
         "sendFailStreak": 551,
         "lastSendFailAt": 1791102715023,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4135,10 +4135,6 @@
         "lastProbeAt": 1791102714802
       },
       "chatMemory": [
-        {
-          "user": "bee12",
-          "msg": "ejotpl heyy❤️🐝❤️"
-        },
         {
           "user": "k1ngbre4ker",
           "msg": "Hey Unc and Mrs Funk 🍺, lurking."
@@ -4174,6 +4170,10 @@
         {
           "user": "sheshi",
           "msg": "wow"
+        },
+        {
+          "user": "bee12",
+          "msg": "agreedddddddd"
         }
       ],
       "customCommands": {},
@@ -22189,8 +22189,8 @@
     }
   },
   "auth": {
-    "accessToken": "4f9affced0de01d26807ff64171f82c3",
-    "refreshToken": "bed3b0e9071941f4150b8059a7d66b23",
+    "accessToken": "004511a7e9304d222b692e4b4f1b3485",
+    "refreshToken": "93d7ec582ce3b53020e05dafdaca96f7",
     "sessionToken": "3e90e1888f5a9c7c9268e9d7eb39ee9a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
