@@ -3117,12 +3117,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 22058,
-        "totalSubs": 84,
-        "totalChatMessages": 7679,
-        "totalStreamMinutes": 23114,
+        "totalSubs": 85,
+        "totalChatMessages": 7680,
+        "totalStreamMinutes": 23119,
         "emotes": {
           "❤": 222,
-          "🙌": 172,
+          "🙌": 173,
           "🗳": 1107,
           "📴": 195,
           "👋": 224,
@@ -3133,7 +3133,7 @@
           "💎": 7,
           "🎁": 103,
           "📢": 32,
-          "🔥": 407,
+          "🔥": 409,
           "😘": 30,
           "🥺": 12,
           "🥷": 15,
@@ -3456,14 +3456,10 @@
           "da46738e-03ae-4bb7-8d97-529a3cf338c5": "Doggo_Fluffy",
           "🥵": "🥵"
         },
-        "lastChatAt": 1791126208005,
+        "lastChatAt": 1791127032577,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
@@ -3499,6 +3495,10 @@
         {
           "user": "fartvader",
           "msg": "good luck bro zaniii"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @capt_rob_advent to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {
@@ -3652,6 +3652,11 @@
         },
         "noodles": {
           "name": "noodles",
+          "months": 1,
+          "tier": 1
+        },
+        "capt_rob_advent": {
+          "name": "capt_rob_advent",
           "months": 1,
           "tier": 1
         }
@@ -4968,7 +4973,7 @@
         "totalVotes": 11926,
         "totalSubs": 52,
         "totalChatMessages": 2071,
-        "totalStreamMinutes": 11130,
+        "totalStreamMinutes": 11135,
         "emotes": {
           "✨": 46,
           "🖥": 23,
@@ -9203,7 +9208,7 @@
         "totalVotes": 17413,
         "totalSubs": 55,
         "totalChatMessages": 2444,
-        "totalStreamMinutes": 19503,
+        "totalStreamMinutes": 19508,
         "emotes": {
           "🔥": 706,
           "🔴": 200,
@@ -9675,7 +9680,7 @@
         "totalVotes": 9660,
         "totalSubs": 100,
         "totalChatMessages": 1308,
-        "totalStreamMinutes": 4811,
+        "totalStreamMinutes": 4816,
         "emotes": {
           "❤": 43,
           "🙌": 94,
@@ -13056,13 +13061,13 @@
       "stats": {
         "totalVotes": 6763,
         "totalSubs": 43,
-        "totalChatMessages": 2254,
-        "totalStreamMinutes": 5785,
+        "totalChatMessages": 2256,
+        "totalStreamMinutes": 5789,
         "emotes": {
           "❤": 108,
           "🙌": 83,
-          "📴": 47,
-          "👋": 50,
+          "📴": 48,
+          "👋": 51,
           "🎁": 50,
           "🗳": 228,
           "⚠": 1,
@@ -13257,17 +13262,9 @@
           "c796f875-da00-4e82-bc6d-c25be4d801b8": "POPCORN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791126848586
+        "lastChatAt": 1791127219865
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "lunaria",
-          "msg": "wow! sanaol may votes galing ke boss vlad"
-        },
         {
           "user": "ruri666",
           "msg": "boss ko yon e"
@@ -13299,6 +13296,14 @@
         {
           "user": "ruri666",
           "msg": "ahahaha"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -13310,7 +13315,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "DAILY STREAM - UNCALIBRATED TO IMMORTAL — Dota 2",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill Dota 2 community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Keep the vibe alive, celebrate every win, and stay positive!",
@@ -13318,7 +13323,7 @@
       "nudgedAt": 1785164605243,
       "nudgedKey": "schedule",
       "lastStreamInfo": "DAILY STREAM - UNCALIBRATED TO IMMORTAL — Dota 2",
-      "lastStreamEndedAt": 1791043900221,
+      "lastStreamEndedAt": 1791127214666,
       "loyalty": {
         "angge_wf": {
           "name": "angge_wf",
@@ -16450,8 +16455,8 @@
       "stats": {
         "totalVotes": 20040,
         "totalSubs": 107,
-        "totalChatMessages": 6351,
-        "totalStreamMinutes": 11753,
+        "totalChatMessages": 6361,
+        "totalStreamMinutes": 11758,
         "emotes": {
           "😅": 7,
           "🔥": 271,
@@ -16685,7 +16690,7 @@
           "😉": "😉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791126846451,
+        "lastChatAt": 1791127274436,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -16694,44 +16699,44 @@
       },
       "chatMemory": [
         {
-          "user": "cr33pling",
-          "msg": "[emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5]"
+          "user": "nekoschwan",
+          "msg": "helloooo"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @charddxyz just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+          "user": "nekoschwan",
+          "msg": "thanks for the votesss"
         },
         {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ capt_rob_advent just followed the channel! Welcome!! 🙌"
+          "user": "nekoschwan",
+          "msg": "daming zombebe dyan"
         },
         {
-          "user": "capt_rob_advent",
-          "msg": "Dang man I thought I was following you already"
+          "user": "nekoschwan",
+          "msg": "wth open na sayo lahat ng job haha"
         },
         {
-          "user": "capt_rob_advent",
-          "msg": "WTH"
+          "user": "lvl4goblin",
+          "msg": "oh wow, you guys really did something crazy"
         },
         {
-          "user": "capt_rob_advent",
-          "msg": "It is nice Sunday for me"
+          "user": "nekoschwan",
+          "msg": "what level?"
         },
         {
-          "user": "fartvader",
-          "msg": "great to ehar capt..any plans for today?"
+          "user": "nekoschwan",
+          "msg": "ohhh level 7 akala ko open na sayo lahat ng job"
         },
         {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @capt_rob_advent has resubscribed (4 months total, 1 month streak)! Thank you for the continued support! 🙌"
+          "user": "nekoschwan",
+          "msg": "u need help there a bit?"
         },
         {
-          "user": "capt_rob_advent",
-          "msg": "Yes sir"
+          "user": "nekoschwan",
+          "msg": "vader doing all the jobbb @cr33pling"
         },
         {
-          "user": "time",
-          "msg": "Good to see you Vader ı need to go see you good bye"
+          "user": "nekoschwan",
+          "msg": "wraaaa"
         }
       ],
       "customCommands": {},
@@ -18112,7 +18117,7 @@
         "totalVotes": 6886,
         "totalSubs": 22,
         "totalChatMessages": 1557,
-        "totalStreamMinutes": 7885,
+        "totalStreamMinutes": 7890,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -21660,9 +21665,9 @@
       "n": 14
     },
     "switchback": {
-      "note": "Enjoy upbeat music, marathon playlists, and playful greetings, while also loving classic first‑person shooters like Unreal Tournament.",
-      "at": 1790991151812,
-      "n": 3
+      "note": "Enjoy upbeat music, marathon playlists, playful greetings, and classic first‑person shooters like Unreal Tournament.",
+      "at": 1791127111982,
+      "n": 4
     },
     "algento": {
       "note": "Enjoy chatting in Italian about music, beach vibes, and friendly, upbeat banter.",
@@ -22162,8 +22167,8 @@
     }
   },
   "auth": {
-    "accessToken": "904e4d602ead45fa9708b0d1d2844d4b",
-    "refreshToken": "ff91e43d4069c7b26f2bc151d9b139e1",
+    "accessToken": "6de52c45303931b1877e707a4427c4e4",
+    "refreshToken": "180a3b54a3807cf8ffa967aa13ab6fdd",
     "sessionToken": "2decced7c05129827f2002d083e3b810",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
