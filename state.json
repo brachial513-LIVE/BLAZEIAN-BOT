@@ -2060,8 +2060,8 @@
       "stats": {
         "totalVotes": 35489,
         "totalSubs": 246,
-        "totalChatMessages": 13348,
-        "totalStreamMinutes": 31573,
+        "totalChatMessages": 13350,
+        "totalStreamMinutes": 31593,
         "emotes": {
           "📊": 3,
           "🔥": 544,
@@ -2195,7 +2195,7 @@
           "🌊": 11,
           "0e7260fc-922c-45c7-990b-1279793c9988": 45,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 29,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 89,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 90,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 45,
           "37719561-c923-4260-b1a5-e3eda10c103d": 41,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 25,
@@ -2337,7 +2337,7 @@
           "9fd66615-f12c-427c-9db1-deb571a1857f": 1,
           "🤦": 1,
           "♂": 1,
-          "5534cfb4-c30c-40cb-80cc-9313e4888b8e": 3
+          "5534cfb4-c30c-40cb-80cc-9313e4888b8e": 4
         },
         "emoteNames": {
           "📊": "📊",
@@ -2617,17 +2617,9 @@
           "5534cfb4-c30c-40cb-80cc-9313e4888b8e": "MELTINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791149748403
+        "lastChatAt": 1791150752362
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "HUGE THANK YOU @mediart for subscribing! Welcome to the FoxBot AI family. +500 FoxCoins. Balance: 500 FoxCoins."
-        },
-        {
-          "user": "mediart",
-          "msg": "Thank you so much for sub"
-        },
         {
           "user": "foxbotai",
           "msg": "🎡 @mediart won: 20 VOTES! @crypt0k1ng96 owes you one 😤"
@@ -2658,6 +2650,14 @@
         },
         {
           "user": "leandrineth",
+          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:5534cfb4-c30c-40cb-80cc-9313e4888b8e]"
+        },
+        {
+          "user": "crypt0k1ng96",
           "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
         }
       ],
@@ -3135,7 +3135,7 @@
         "totalVotes": 22162,
         "totalSubs": 85,
         "totalChatMessages": 7707,
-        "totalStreamMinutes": 23323,
+        "totalStreamMinutes": 23343,
         "emotes": {
           "❤": 222,
           "🙌": 173,
@@ -6291,7 +6291,7 @@
         "totalVotes": 32842,
         "totalSubs": 70,
         "totalChatMessages": 8333,
-        "totalStreamMinutes": 14571,
+        "totalStreamMinutes": 14591,
         "emotes": {
           "❤": 132,
           "🙌": 196,
@@ -7701,8 +7701,8 @@
       "stats": {
         "totalVotes": 17988,
         "totalSubs": 45,
-        "totalChatMessages": 3881,
-        "totalStreamMinutes": 4706,
+        "totalChatMessages": 3883,
+        "totalStreamMinutes": 4707,
         "emotes": {
           "❤": 48,
           "🙌": 96,
@@ -7713,8 +7713,8 @@
           "🔥": 74,
           "😎": 5,
           "🗳": 675,
-          "📴": 45,
-          "👋": 57,
+          "📴": 46,
+          "👋": 58,
           "🎁": 66,
           "😂": 54,
           "🚨": 102,
@@ -7932,17 +7932,9 @@
           "🥹": "🥹"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791150093407
+        "lastChatAt": 1791150136158
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "How is your healty"
-        },
-        {
-          "user": "botger",
-          "msg": "https://salvor.io/collections/0x4ffb0924d999bc2015f69f58f403ceadfc16963d"
-        },
         {
           "user": "botger",
           "msg": "https://discord.gg/PXwUmyWwN"
@@ -7974,6 +7966,14 @@
         {
           "user": "time",
           "msg": "thank you so much for join"
+        },
+        {
+          "user": "time",
+          "msg": "see you late good bye"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7982,7 +7982,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "Chess — Art",
+      "streamTitle": "",
       "profile": "time’s stream is a tight‑knit chess crew that celebrates life with “Hirslarini onlarin” vibes, shouting “🙏🙏” for love fests and “Zor zor hileciler cok var” when a trick lands. We love “dram dram” jokes, “çği” laughs, and always give shoutouts. Time’s streams are a place to play, chat, and celebrate with energy, humor, and community spirit.",
       "_profileAtCount": 3807,
       "followed": true,
@@ -8048,7 +8048,7 @@
       "nudgedAt": 1785780193436,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Chess — Art",
-      "lastStreamEndedAt": 1790802844654,
+      "lastStreamEndedAt": 1791150131044,
       "_idAt": 1791139164578
     },
     "27422fb2-063e-4a22-8cde-41c2baf0f386": {
@@ -8057,7 +8057,7 @@
       "stats": {
         "totalVotes": 5732,
         "totalSubs": 31,
-        "totalChatMessages": 1449,
+        "totalChatMessages": 1450,
         "totalStreamMinutes": 2295,
         "emotes": {
           "❤": 453,
@@ -8161,14 +8161,10 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "🚨": "🚨"
         },
-        "lastChatAt": 1791149130622,
+        "lastChatAt": 1791150388428,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @noxx!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @PublicSorrow!"
@@ -8204,6 +8200,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 10 votes, @Jiminy!"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "thank you for the votes!!"
         }
       ],
       "customCommands": {
@@ -9464,7 +9464,7 @@
       "streamTitle": "",
       "gameOverride": "",
       "profile": "We’re a BLAZE community fueled by gaming, especially Delta Force, anime, and dropping votes. We shout “BLAZE ON Brother!” and “TTYL!” to celebrate milestones, love a good ☕, and go FULL SEND. Voting is LIVE, subs are appreciated, and we keep the TOWER Crew hype with “Welcome to the TOWER Crew, 🔴 Voting is LIVE 🔴.” We celebrate with BLAZE ON Brother! and TTYL! when we show appreciation.",
-      "_profileAtCount": 2433,
+      "_profileAtCount": 2491,
       "nudgedAt": 1785280330455,
       "nudgedKey": "schedule",
       "lastStreamInfo": "💀🖥️ DSTG COMMAND ONLINE | 💀☕ BREWED FOR BATTLE | Grave Shift Coffee x Delta Force — Delta Force",
@@ -9561,7 +9561,7 @@
         "totalVotes": 10801,
         "totalSubs": 203,
         "totalChatMessages": 499,
-        "totalStreamMinutes": 15943,
+        "totalStreamMinutes": 15952,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -9678,12 +9678,12 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
-      "streamTitle": "1 SUB = 30 MIN MORE // 100 VOTE = 30 MIN MORE — Crypto",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "saboomafoo streams energetic League of Legends & MapleStory collabs, pumping “FOXSPIRITS” vibes. Chat loves “have a nice stream”, “GM GM GUYS”, “NEKOOOOOOOOOO”, “hellow”, “❤️❤️❤️❤️❤️”, and playful “😅😅”. Community celebrates with quick shoutouts, a warm “ty” response, constant upbeat greetings, and constant positivity. The channel thrives on friendly, energetic banter and constant positivity.",
       "_profileAtCount": 460,
       "lastStreamInfo": "1 SUB = 30 MIN MORE // 100 VOTE = 30 MIN MORE — Crypto",
-      "lastStreamEndedAt": 1791050640414,
+      "lastStreamEndedAt": 1791150614902,
       "nudgedAt": 1788061544722,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -14125,7 +14125,7 @@
         "totalVotes": 9982,
         "totalSubs": 24,
         "totalChatMessages": 1339,
-        "totalStreamMinutes": 8673,
+        "totalStreamMinutes": 8693,
         "emotes": {
           "❤": 82,
           "🙌": 52,
@@ -18522,16 +18522,16 @@
       "stats": {
         "totalVotes": 3487,
         "totalSubs": 12,
-        "totalChatMessages": 291,
-        "totalStreamMinutes": 611,
+        "totalChatMessages": 298,
+        "totalStreamMinutes": 630,
         "emotes": {
           "🥰": 37,
-          "❤": 26,
-          "🙏": 29,
+          "❤": 28,
+          "🙏": 31,
           "🦡": 3,
-          "😍": 7,
+          "😍": 8,
           "😊": 3,
-          "😂": 4,
+          "😂": 5,
           "🫣": 1,
           "🔥": 16,
           "da339ef7-1574-4f2f-8b48-666688167af3": 4,
@@ -18541,7 +18541,7 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": 1,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 3,
           "😅": 9,
-          "💚": 11,
+          "💚": 12,
           "🙌": 10,
           "🙃": 3,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 1,
@@ -18589,41 +18589,13 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791149637133,
+        "lastChatAt": 1791151211779,
         "lastSendFailAt": 1790973732516,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790974734782,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "mediart",
-          "msg": "It's enough for now🥰. I'm tired😅."
-        },
-        {
-          "user": "doktorgrav",
-          "msg": "hello"
-        },
-        {
-          "user": "mediart",
-          "msg": "Hi"
-        },
-        {
-          "user": "mediart",
-          "msg": "Sub4sub?"
-        },
-        {
-          "user": "mediart",
-          "msg": "Hello"
-        },
-        {
-          "user": "mediart",
-          "msg": "Thank you so much unclefunk"
-        },
-        {
-          "user": "unclefunk",
-          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
-        },
         {
           "user": "mediart",
           "msg": "Thank you, I subbed to you too"
@@ -18635,6 +18607,34 @@
         {
           "user": "mediart",
           "msg": "Thank you so much for subscribing @crypt0k1ng96❤️🙏"
+        },
+        {
+          "user": "mediart",
+          "msg": "Need 5 subscribers 😂"
+        },
+        {
+          "user": "mediart",
+          "msg": "I’m 5 subs away and would really appreciate some help. If you sub to me, I’ll sub back! 💚 Thank you so much!"
+        },
+        {
+          "user": "mediart",
+          "msg": "It's enough for today"
+        },
+        {
+          "user": "mediart",
+          "msg": "Thank you so much for watching my stream😍❤️🙏"
+        },
+        {
+          "user": "mediart",
+          "msg": "Good night"
+        },
+        {
+          "user": "mediart",
+          "msg": "See you tomorrow"
+        },
+        {
+          "user": "mediart",
+          "msg": "❤️🙏"
         }
       ],
       "customCommands": {},
@@ -18649,9 +18649,9 @@
       "followed": true,
       "profile": "mediart streams vibrant digital art, mixing quick sketches with live commentary. The chat thrives on “OMG wow” and “so cool” reactions, chanting “GGs for winning 60 Votes + 2 Free Entrys” during giveaways. Viewers love spontaneous “welcome” shoutouts, “thank you so much🥰” moments, and Discord invites. The vibe stays upbeat, supportive, and celebratory, with frequent “Next art for Joseph 🔥” and “Waiting🙃” cues.",
       "_profileAtCount": 246,
-      "streamTitle": "Creating My New Collection for XRP.cafe — Art",
+      "streamTitle": "",
       "lastStreamInfo": "Creating My New Collection for XRP.cafe — Art",
-      "lastStreamEndedAt": 1791147328839,
+      "lastStreamEndedAt": 1791151241241,
       "gameOverride": "",
       "nudgedAt": 1787785435944,
       "nudgedKey": "schedule",
@@ -20111,7 +20111,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1791127894856
+      "_idAt": 1791150694880
     },
     "157ed26e-c72f-49c1-877b-5101b0645fb6": {
       "username": "cem",
@@ -20223,7 +20223,7 @@
       "lastStreamInfo": "burada yeniyim !discord !settings — VALORANT",
       "lastStreamEndedAt": 1789668309772,
       "gameOverride": "",
-      "_idAt": 1791127890101
+      "_idAt": 1791150690101
     },
     "642cd761-2515-4c48-9c17-ae2e29e692e8": {
       "username": "thatsicy_",
@@ -20358,7 +20358,7 @@
       "lastStreamEndedAt": 1791005289429,
       "nudgedAt": 1790123384716,
       "nudgedKey": "schedule",
-      "_idAt": 1791127891256,
+      "_idAt": 1791150691272,
       "loyalty": {
         "desirablebottom": {
           "name": "desirablebottom",
@@ -20455,7 +20455,7 @@
       "_profileAtCount": 35,
       "followed": true,
       "botVip": true,
-      "_idAt": 1791127892455
+      "_idAt": 1791150692464
     },
     "8f59e982-1482-4327-86d9-ae96b063edc4": {
       "username": "hortenseemu44",
@@ -20611,7 +20611,7 @@
       "lastStreamInfo": "🔥 BLAZE x OTG TRIOS SHOWDOWN | BLAZE KINGS TAKE THE FIELD 🔨 | HortenseEmu44 — Aim Lab",
       "lastStreamEndedAt": 1790482235456,
       "gameOverride": "",
-      "_idAt": 1791127898450
+      "_idAt": 1791150698471
     },
     "1952fbef-bab1-4a82-8a89-9c9c123ebb45": {
       "username": "mafaz",
@@ -20707,7 +20707,7 @@
       "gameOverride": "",
       "profile": "mafaz streams action‑packed gameplay, welcoming every new Blazeian with “welcome” and “thanks.” The chat buzzes with “woot,” “happy streaming buddd,” and “enjoy the game broski!” Fans celebrate mafaz by cheering “blazeee” and using the custom emote. The vibe is energetic, friendly, and supportive—every viewer feels part of the Blazeiancrew.",
       "_profileAtCount": 15,
-      "_idAt": 1791127893650
+      "_idAt": 1791150693661
     },
     "fba94794-c563-4d68-8aec-152f85eba0e1": {
       "username": "hubal",
@@ -20717,7 +20717,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 10,
-        "totalStreamMinutes": 3733,
+        "totalStreamMinutes": 3753,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -20801,7 +20801,7 @@
       "lastStreamInfo": "Onimusha Way of the Sword - NG+ Pt. 8 — Onimusha: Way Of The Sword",
       "lastStreamEndedAt": 1790900739016,
       "gameOverride": "",
-      "_idAt": 1791127897254
+      "_idAt": 1791150697273
     },
     "5d7fc259-9ec1-46b1-a6f8-903cb08b2c61": {
       "username": "thelarsofus",
@@ -20833,7 +20833,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1791127896062,
+      "_idAt": 1791150696069,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5283cee-6005-4782-92fe-13419fd64684.png",
       "followed": true,
       "botVip": true
@@ -20845,8 +20845,8 @@
       "stats": {
         "totalVotes": 281,
         "totalSubs": 0,
-        "totalChatMessages": 142,
-        "totalStreamMinutes": 195,
+        "totalChatMessages": 143,
+        "totalStreamMinutes": 215,
         "emotes": {
           "❤": 6,
           "🙌": 3,
@@ -20890,13 +20890,9 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791150033661
+        "lastChatAt": 1791150278049
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
-        },
         {
           "user": "botger",
           "msg": "Donations are not required but appreciated ,if you are donating all donations are final !!! https://ko-fi.com/silverbolt99"
@@ -20932,6 +20928,10 @@
         {
           "user": "silverbolt99",
           "msg": "Legends : @brachial513 @Jiminy @Sheena"
+        },
+        {
+          "user": "botger",
+          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
         }
       ],
       "customCommands": {},
