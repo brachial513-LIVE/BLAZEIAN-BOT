@@ -809,14 +809,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 111409,
-        "totalSubs": 163,
-        "totalChatMessages": 10558,
+        "totalSubs": 164,
+        "totalChatMessages": 10560,
         "totalStreamMinutes": 3956,
         "emotes": {
           "🗳": 1926,
           "❤": 540,
-          "🙌": 270,
-          "🔥": 275,
+          "🙌": 271,
+          "🔥": 277,
           "☺": 6,
           "🔴": 38,
           "🎉": 138,
@@ -840,7 +840,7 @@
           "🍻": 5,
           "🎁": 214,
           "😆": 84,
-          "💚": 25,
+          "💚": 26,
           "😌": 3,
           "😊": 18,
           "😘": 15,
@@ -1181,21 +1181,13 @@
           "👨": "👨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791212501636,
+        "lastChatAt": 1791230135601,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 30 vote(s) (total: 30)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xscheun just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -1227,6 +1219,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
+        },
+        {
+          "user": "mediart",
+          "msg": "Hey bro , Could I give you a 1-month  subscribe and you give me the same amount back? 💚"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @mediart has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -1453,6 +1453,11 @@
         },
         "nadietv": {
           "name": "nadietv",
+          "months": 1,
+          "tier": 1
+        },
+        "mediart": {
+          "name": "mediart",
           "months": 1,
           "tier": 1
         }
@@ -3160,7 +3165,7 @@
         "totalVotes": 24129,
         "totalSubs": 86,
         "totalChatMessages": 7773,
-        "totalStreamMinutes": 23553,
+        "totalStreamMinutes": 23573,
         "emotes": {
           "❤": 232,
           "🙌": 175,
@@ -8694,9 +8699,9 @@
       "username": "makeitmetal",
       "language": "en",
       "stats": {
-        "totalVotes": 21744,
+        "totalVotes": 21749,
         "totalSubs": 68,
-        "totalChatMessages": 16415,
+        "totalChatMessages": 16440,
         "totalStreamMinutes": 11124,
         "emotes": {
           "🧏": 1,
@@ -9145,48 +9150,48 @@
           "🤺": "🤺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791229583841
+        "lastChatAt": 1791230743466
       },
       "chatMemory": [
         {
-          "user": "hazykey",
-          "msg": "that's weird man"
-        },
-        {
-          "user": "hazykey",
-          "msg": "time to get a new axe. what occasion is coming? new... halloween present? xD"
-        },
-        {
           "user": "cymatrix",
-          "msg": "all is well.... Wing-on!"
+          "msg": "Hey @algento!"
         },
         {
-          "user": "hazykey",
-          "msg": "thanks for the stream man, my work day is over now"
-        },
-        {
-          "user": "hazykey",
-          "msg": "gonna dip and grab some food"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "fine, threaten me with a good time"
-        },
-        {
-          "user": "hazykey",
-          "msg": "yumm"
+          "user": "algento",
+          "msg": "@cymatrix good to see"
         },
         {
           "user": "metal_bot",
-          "msg": "@cymatrix Found 3 matches: 1. Stevie Wonder - Signed, Sealed, Delivered I'm Yours | 2. Breakbot - Baby I'm Yours | 3. Mary Clark - Take Me I'm Yours — Reply !pick 1-3 to select"
-        },
-        {
-          "user": "metal_bot",
-          "msg": "@cymatrix Added \"Prince - Bambi\" to the queue! (Position #2)"
+          "msg": "@algento Found 12 matches: 1. Vasco Rossi - Liberi Liberi | 2. Vasco Rossi - Ogni volta | 3. Vasco Rossi - Va be' (se proprio te lo devo dire) | 4. Vasco Rossi - Gli Angeli | 5. Vasco Rossi - Gli Spari Sopra | 6. Vasco Rossi - Ridere Di Te | 7. Vasco Rossi - Siamo solo noi | 8. Vasco Rossi - Colpa d'Alfredo — Reply !pick 1-8 to select"
         },
         {
           "user": "cymatrix",
-          "msg": "100% bam bam"
+          "msg": "yeah we're 5 hrs from san diego/coronado beaches so need to go soon"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@algento No songs found for \"albachiara\". Try a different search."
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@algento Added \"Vasco Rossi - Gli Angeli\" to the queue! (Position #1)"
+        },
+        {
+          "user": "algento",
+          "msg": "found one"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@cymatrix No songs found for \"good day in hell eagles\". Try a different search."
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@cymatrix Added \"Journey - Wheel in the Sky\" to the queue! (Position #2)"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "fingers warm"
         }
       ],
       "customCommands": {},
@@ -11936,18 +11941,18 @@
       "stats": {
         "totalVotes": 29801,
         "totalSubs": 56,
-        "totalChatMessages": 2052,
-        "totalStreamMinutes": 2437,
+        "totalChatMessages": 2054,
+        "totalStreamMinutes": 2457,
         "emotes": {
           "😂": 34,
           "💪": 2,
           "💚": 14,
           "😎": 1,
           "🔥": 56,
-          "🙌": 80,
+          "🙌": 81,
           "🙃": 1,
           "😄": 3,
-          "❤": 100,
+          "❤": 102,
           "🚨": 42,
           "🎉": 35,
           "👋": 40,
@@ -12171,17 +12176,9 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791229086648
+        "lastChatAt": 1791230172584
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dress_n_Draw just gave 14 vote(s) (total: 14)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 sheena is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 22 vote(s) (total: 22)! Thank you!! 🗳️"
@@ -12213,6 +12210,14 @@
         {
           "user": "triz_draw",
           "msg": "lol"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ mamasteph401 just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "mamasteph401",
+          "msg": "Heyyy"
         }
       ],
       "customCommands": {},
@@ -12384,7 +12389,7 @@
       "stats": {
         "totalVotes": 59471,
         "totalSubs": 72,
-        "totalChatMessages": 4532,
+        "totalChatMessages": 4533,
         "totalStreamMinutes": 1788,
         "emotes": {
           "❤": 61,
@@ -12739,17 +12744,13 @@
           "🍷": "🍷"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791228715740,
+        "lastChatAt": 1791229831610,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 1200 vote(s) (total: 2750)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 900 vote(s) (total: 3650)! Thank you!! 🗳️"
@@ -12785,6 +12786,10 @@
         {
           "user": "cedricdebled",
           "msg": "See you later Brother of the states"
+        },
+        {
+          "user": "cedricdebled",
+          "msg": "Everyone that passes by. Greetings dear Friends."
         }
       ],
       "customCommands": {},
@@ -13636,7 +13641,7 @@
       "stats": {
         "totalVotes": 16654,
         "totalSubs": 23,
-        "totalChatMessages": 30014,
+        "totalChatMessages": 30074,
         "totalStreamMinutes": 18920,
         "emotes": {
           "❤": 104,
@@ -13646,7 +13651,7 @@
           "🔴": 106,
           "🎉": 235,
           "🪙": 811,
-          "⚡": 671,
+          "⚡": 672,
           "👀": 76,
           "🍿": 20,
           "🤗": 38,
@@ -13666,7 +13671,7 @@
           "😘": 8,
           "😆": 2,
           "🤭": 5,
-          "💰": 64,
+          "💰": 65,
           "☄": 1,
           "😶": 13,
           "🌫": 13,
@@ -13821,12 +13826,13 @@
           "🥺": 2,
           "🥈": 37,
           "🥉": 37,
-          "⭐": 79,
+          "⭐": 80,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 2,
           "✊": 1,
           "✋": 1,
           "🤤": 1,
-          "😋": 1
+          "😋": 1,
+          "🤑": 4
         },
         "emoteNames": {
           "❤": "❤",
@@ -14016,51 +14022,52 @@
           "✊": "✊",
           "✋": "✋",
           "🤤": "🤤",
-          "😋": "😋"
+          "😋": "😋",
+          "🤑": "🤑"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791229546955
+        "lastChatAt": 1791230661726
       },
       "chatMemory": [
         {
-          "user": "junior7_",
-          "msg": "Despedida da seleção"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Mas vai continuar jogando no clube"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Inter Miami"
-        },
-        {
           "user": "botger",
-          "msg": "🥇Top 1 - 500 blaze - 🥈Top 2 - 300 blaze - 🥉Top 3 - 200 blaze - Os top 3 doadores de blaze diário ganham blaze de segunda a sabado e vai pra sua carteira / Em caso de empate vai ter sorteio."
-        },
-        {
-          "user": "botger",
-          "msg": "🪙 @junior7_ 19,200 points."
-        },
-        {
-          "user": "botger",
-          "msg": "loja do canal: https://botger.devely.ca/shop/sofrenciaplay"
+          "msg": "⭐️Tem 4.000 blaze na loja pra resgatar com seus pontos, vai ficar disponível por 1 semana se ninguém resgatar reseta na próxima semana, 30.000 pontos resgata 500 blaze"
         },
         {
           "user": "junior7_",
-          "msg": "Kkkkk"
+          "msg": "Mas vamos a luta edao"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "quando eu presenteva sub eu colocava muito blazes pra vcs agora eu nao posso fazer isso kkkk"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "os caras estão com 170.000 blaze kkkk nao tem como competir com esses caras.."
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "nao liga pra isso nao vamos seguir em frente sem se preoculpar com isso"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "eu ajudo como posso, coloquei esses blazes pra galera resgatar na loja e ganhar no top só pra ajudar mesmo a comunidade..."
         },
         {
           "user": "junior7_",
-          "msg": "Futebol é vida edao mas essa semana vou tá mas focado nas lives"
+          "msg": "Dos subs"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "cada sub que eu dava colocava 1 dolar nas recompensas"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "50 sub colocava 50 dolar facil kkkk"
         },
         {
           "user": "junior7_",
-          "msg": "A última semana foi puxada muita coisa"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Santa Cruz , eleição"
+          "msg": "Exato edao"
         }
       ],
       "customCommands": {},
@@ -14576,14 +14583,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 33318,
+        "totalVotes": 33323,
         "totalSubs": 55,
-        "totalChatMessages": 6329,
+        "totalChatMessages": 6355,
         "totalStreamMinutes": 11512,
         "emotes": {
           "❤": 106,
           "🙌": 97,
-          "🗳": 1035,
+          "🗳": 1038,
           "🔴": 90,
           "🎉": 167,
           "🏃": 1,
@@ -14623,7 +14630,7 @@
           "🤔": 2,
           "🙂": 1,
           "🫂": 4,
-          "😍": 5,
+          "😍": 9,
           "😭": 27,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 28,
           "a859cc12-453a-4bd8-b650-38710d9486de": 66,
@@ -14718,7 +14725,7 @@
           "🍺": 5,
           "🖕": 1,
           "258f10f6-6369-4d78-9020-6d4344802acb": 2,
-          "🤗": 1,
+          "🤗": 2,
           "4172a93a-cb20-454b-b088-a169fd5b99a0": 23,
           "🥂": 3,
           "🦝": 1,
@@ -14746,7 +14753,8 @@
           "486fcb9f-2073-45f2-8af0-c33617d5156e": 3,
           "844c89da-a2d1-4a1d-a3dc-ad8c5efbaf8b": 6,
           "13940f33-84fc-40fd-97ef-2e4cb001bc78": 5,
-          "15ca553b-e40c-40fa-b773-fee1e26f2646": 3
+          "15ca553b-e40c-40fa-b773-fee1e26f2646": 3,
+          "😱": 13
         },
         "emoteNames": {
           "❤": "❤",
@@ -14914,51 +14922,52 @@
           "486fcb9f-2073-45f2-8af0-c33617d5156e": "hugg",
           "844c89da-a2d1-4a1d-a3dc-ad8c5efbaf8b": "Eepy",
           "13940f33-84fc-40fd-97ef-2e4cb001bc78": "Cry",
-          "15ca553b-e40c-40fa-b773-fee1e26f2646": "love"
+          "15ca553b-e40c-40fa-b773-fee1e26f2646": "love",
+          "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791229597214
+        "lastChatAt": 1791230215602
       },
       "chatMemory": [
         {
-          "user": "zakumo",
-          "msg": "I blink and you're a furry now playing lasers with the bout-to-be-racist one"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @b1injaninja to the channel! Thank you so much for subscribing! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@b1injaninja subscribed! Thank you!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @b1injaninja!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @b1injaninja just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "zakumo",
-          "msg": "That chest window is quite certainly a choice lol"
-        },
-        {
-          "user": "zakumo",
-          "msg": "I love the gauntlets/boots area tho, designs pretty nice"
-        },
-        {
-          "user": "zakumo",
-          "msg": "I like that honestly a good chunk of them can just be clothing fashion"
-        },
-        {
-          "user": "zakumo",
-          "msg": "which we need more of tbch"
+          "user": "triz_draw",
+          "msg": "wow"
         },
         {
           "user": "triz_draw",
-          "msg": "Holiiiiii noxiiiiiiii"
+          "msg": "I love the characters"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "😱😱😱😱😱😱😱😱😱😍😍😍"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "how mnay"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "waaaaa"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @triz_draw!"
+        },
+        {
+          "user": "zakumo",
+          "msg": "Could reach out to support to see if they can help w/ that"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "wow"
+        },
+        {
+          "user": "zakumo",
+          "msg": "Is the audio de-synced in game or stream?"
         }
       ],
       "customCommands": {},
@@ -16100,7 +16109,7 @@
         "totalVotes": 6736,
         "totalSubs": 25,
         "totalChatMessages": 1162,
-        "totalStreamMinutes": 13477,
+        "totalStreamMinutes": 13497,
         "emotes": {
           "❤": 69,
           "🙌": 56,
@@ -18593,7 +18602,7 @@
       "joinedAt": 1787497151215,
       "stats": {
         "totalVotes": 3487,
-        "totalSubs": 12,
+        "totalSubs": 13,
         "totalChatMessages": 298,
         "totalStreamMinutes": 630,
         "emotes": {
@@ -18750,6 +18759,11 @@
         },
         "crypt0k1ng96": {
           "name": "crypt0k1ng96",
+          "months": 1,
+          "tier": 1
+        },
+        "vroshi55": {
+          "name": "vroshi55",
           "months": 1,
           "tier": 1
         }
@@ -21359,9 +21373,9 @@
       "n": 35
     },
     "junior7_": {
-      "note": "Enjoys playing Mania and other games, loves playful banter, and greets friends with casual, light‑hearted remarks.",
-      "at": 1791044611903,
-      "n": 19
+      "note": "Enjoys playing Mania, loves playful banter, and greets friends with casual, light‑hearted remarks.",
+      "at": 1791230319020,
+      "n": 20
     },
     "cactus_jack440": {
       "note": "Enthusiastic Captain Rob mod who loves playful",
