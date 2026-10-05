@@ -793,12 +793,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 109040,
+        "totalVotes": 109070,
         "totalSubs": 163,
-        "totalChatMessages": 10548,
+        "totalChatMessages": 10549,
         "totalStreamMinutes": 3956,
         "emotes": {
-          "🗳": 1896,
+          "🗳": 1899,
           "❤": 540,
           "🙌": 270,
           "🔥": 275,
@@ -1166,17 +1166,13 @@
           "👨": "👨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791172842773,
+        "lastChatAt": 1791178341536,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 25 vote(s) (total: 125)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
@@ -1212,6 +1208,10 @@
         {
           "user": "desirablebottom",
           "msg": "Thank you for every single vote![emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 30 vote(s) (total: 30)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5374,14 +5374,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 35994,
+        "totalVotes": 36019,
         "totalSubs": 94,
-        "totalChatMessages": 13277,
+        "totalChatMessages": 13278,
         "totalStreamMinutes": 8440,
         "emotes": {
           "❤": 223,
           "🙌": 357,
-          "🗳": 1616,
+          "🗳": 1619,
           "✌": 11,
           "😊": 10,
           "👍": 19,
@@ -5913,13 +5913,9 @@
           "💕": "💕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791175379529
+        "lastChatAt": 1791178357576
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -5955,6 +5951,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -22348,8 +22348,8 @@
     }
   },
   "auth": {
-    "accessToken": "b30beb7b107771b2bb1657c9b79d6aef",
-    "refreshToken": "1773278fdb23a07cd4bcad846a224ba5",
+    "accessToken": "27c7040d5172a247c369e5dab249233e",
+    "refreshToken": "4dfdcd173ca9c40040e65dbb8c92aac4",
     "sessionToken": "3e90e1888f5a9c7c9268e9d7eb39ee9a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
