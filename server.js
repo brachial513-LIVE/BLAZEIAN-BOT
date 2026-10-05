@@ -3303,11 +3303,11 @@ const MASCOT_URL = process.env.BOT_AVATAR || "https://cdn.blaze.stream/uploads/a
 // SEASONAL MASCOT SKINS — static costume sprites (transparent PNGs in the repo root) the mascot overlay
 // can wear instead of the normal running animation. Extensible: add xmas/easter variants here later.
 const MASCOT_SKINS = {
-  untot:   { file: "shibi_untot.png",   label: "🧟 Undead",   motion: { speedMul: 0.45, bobAmp: 5,  bobMs: 1400, floatY: 0,   tilt: 1.5 } },
-  kuebis:  { file: "shibi_kuebis.png",  label: "🎃 Pumpkin",  motion: { speedMul: 0.9,  bobAmp: 26, bobMs: 520,  floatY: 0,   tilt: 0, hop: true } },
-  geist:   { file: "shibi_geist.png",   label: "👻 Ghost",    motion: { speedMul: 0.7,  bobAmp: 24, bobMs: 2400, floatY: 140, tilt: 3 } },
-  genaeht: { file: "shibi_genaeht.png", label: "🧵 Stitched", motion: { speedMul: 0.4,  bobAmp: 4,  bobMs: 1600, floatY: 0,   tilt: 2.5 } },
-  teufel:  { file: "shibi_teufel.png",  label: "😈 Devil",    motion: { speedMul: 1.05, bobAmp: 9,  bobMs: 560,  floatY: 0,   tilt: 1 } },
+  untot:   { file: "shibi_untot.png",   label: "🧟 Undead",   motion: { speedMul: 0.5,  bob: 14, bobMs: 760,  floatY: 0,   squash: 0.14, lean: 4, tilt: 0, float: false } },
+  kuebis:  { file: "shibi_kuebis.png",  label: "🎃 Pumpkin",  motion: { speedMul: 0.95, bob: 34, bobMs: 540,  floatY: 0,   squash: 0.18, lean: 0, tilt: 0, float: false } },
+  geist:   { file: "shibi_geist.png",   label: "👻 Ghost",    motion: { speedMul: 0.7,  bob: 24, bobMs: 2400, floatY: 140, squash: 0,    lean: 0, tilt: 3, float: true } },
+  genaeht: { file: "shibi_genaeht.png", label: "🧵 Stitched", motion: { speedMul: 0.42, bob: 10, bobMs: 920,  floatY: 0,   squash: 0.09, lean: 6, tilt: 0, float: false } },
+  teufel:  { file: "shibi_teufel.png",  label: "😈 Devil",    motion: { speedMul: 1.05, bob: 20, bobMs: 600,  floatY: 0,   squash: 0.14, lean: 3, tilt: 0, float: false } },
 };
 
 
@@ -6396,9 +6396,10 @@ app.get("/overlay/run/:username", (req, res) => {
   ];
   const pW = Math.round(size*1.3), pH = Math.round(size*0.52);
   // SEASONAL SKIN MODE: ?skin=<variant> (or ?skin=random) swaps the running sprite-strip mascot for a
-  // light-weight overlay that moves the chosen static costume with a PER-VARIANT motion profile — the
-  // ghost floats high & slow, the zombie shambles, the pumpkin hops, the stitched one staggers, the devil
-  // struts — plus portal entrance + speech bubbles. The normal mascot (no ?skin=) is untouched below.
+  // light-weight overlay that gives each static costume real animation "juice" — a stepping bounce with
+  // SQUASH & STRETCH (pivoting on the feet) + a forward lean + a waddle, tuned per variant (zombie
+  // shambles, pumpkin hops, devil struts, stitched staggers), while the ghost smoothly floats. Portal
+  // entrance + speech bubbles included. The normal animated mascot (no ?skin=) is untouched below.
   const skin = (req.query.skin || "").toLowerCase();
   if (skin && (MASCOT_SKINS[skin] || skin === "random")) {
     const names = Object.keys(MASCOT_SKINS);
@@ -6409,7 +6410,7 @@ app.get("/overlay/run/:username", (req, res) => {
     return res.send(`<!doctype html><html><head><meta charset="utf-8"><style>
   html,body{margin:0;height:100%;background:transparent;overflow:hidden;font-family:system-ui,'Segoe UI',sans-serif;}
   #wrap{position:fixed;top:0;left:0;width:${size}px;height:${size}px;will-change:transform;}
-  #spr{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 12px rgba(0,0,0,.55));opacity:0;transition:opacity .4s;}
+  #spr{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 12px rgba(0,0,0,.55));opacity:0;transition:opacity .4s;transform-origin:50% 92%;}
   #portal{position:fixed;top:0;left:0;width:${pW}px;height:${pH}px;opacity:0;pointer-events:none;filter:drop-shadow(0 0 26px rgba(74,222,128,.8));}
   #swirl{width:100%;height:100%;border-radius:50%;background:conic-gradient(from 0deg,#0b6b34,#7dff9e,#0aa04e,#c8ffd6,#0b6b34);
     -webkit-mask:radial-gradient(ellipse at center,#000 26%,rgba(0,0,0,.55) 52%,transparent 70%);
@@ -6427,7 +6428,8 @@ app.get("/overlay/run/:username", (req, res) => {
   var NAMES=${JSON.stringify(names)}, URLMAP=${JSON.stringify(urlMap)}, PROFILES=${JSON.stringify(profiles)}, SINGLE=${JSON.stringify(single)}, MSGS=${JSON.stringify(msgs)};
   var name = SINGLE || NAMES[Math.floor(Math.random()*NAMES.length)];
   var src = URLMAP[name], P = PROFILES[name] || {};
-  var SPEEDM=(P.speedMul!=null?P.speedMul:1), BOBA=(P.bobAmp!=null?P.bobAmp:10), BOBMS=(P.bobMs||520), FLOATY=(P.floatY||0), TILTA=(P.tilt!=null?P.tilt:2), HOP=!!P.hop;
+  var SPEEDM=(P.speedMul!=null?P.speedMul:1), BOBA=(P.bob!=null?P.bob:14), BOBMS=(P.bobMs||600), FLOATY=(P.floatY||0),
+      SQUASH=(P.squash||0), LEAN=(P.lean||0), TILTA=(P.tilt||0), FLOAT=!!P.float;
   var wrap=document.getElementById('wrap'), spr=document.getElementById('spr'), bub=document.getElementById('bubble'), portalEl=document.getElementById('portal');
   function vw(){return window.innerWidth||1920;} function vh(){return window.innerHeight||1080;}
   function groundY(){return vh()-SIZE-24-FLOATY;}
@@ -6440,13 +6442,14 @@ app.get("/overlay/run/:username", (req, res) => {
     setTimeout(function(){ spr.style.opacity=1; setTimeout(function(){ portalEl.style.transition='opacity .5s'; portalEl.style.opacity=0; cb(); },700); },500);
   }
   function tick(now){
-    var dt=(now-last)/1000; last=now; var by=groundY();
+    var dt=(now-last)/1000; last=now; var by=groundY(), ph=now/BOBMS*Math.PI*2, face=(dir<0?-1:1);
     if(started){ x+=dir*SPEED*SPEEDM*dt; if(x<0){x=0;dir=1;} else if(x>vw()-SIZE){x=vw()-SIZE;dir=-1;} }
-    var ph=now/BOBMS*Math.PI*2;
-    var bob=HOP?Math.abs(Math.sin(ph))*BOBA:Math.sin(ph)*BOBA;
-    var tilt=Math.sin(ph)*TILTA*dir;
+    var bob, sq, rot;
+    if(FLOAT){ bob=Math.sin(ph)*BOBA; sq=0; rot=Math.sin(ph)*TILTA; }
+    else { var b=Math.abs(Math.sin(ph)); bob=b*BOBA; sq=SQUASH*(1-b); rot=LEAN*dir+Math.sin(ph)*2; }
+    var sY=1-sq, sX=1+sq*0.7;
     wrap.style.transform='translate('+x+'px,'+(by-bob)+'px)';
-    spr.style.transform=(dir<0?'scaleX(-1)':'scaleX(1)')+' rotate('+tilt.toFixed(2)+'deg)';
+    spr.style.transform='scaleX('+(face*sX).toFixed(3)+') scaleY('+sY.toFixed(3)+') rotate('+rot.toFixed(2)+'deg)';
     if(TALK&&now>nextTalk){ showBubble(); nextTalk=now+45000+Math.random()*45000; }
     requestAnimationFrame(tick);
   }
