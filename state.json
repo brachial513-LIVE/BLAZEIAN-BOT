@@ -4390,9 +4390,9 @@
       "username": "capt_rob_advent",
       "language": "en",
       "stats": {
-        "totalVotes": 24889,
+        "totalVotes": 24939,
         "totalSubs": 66,
-        "totalChatMessages": 3777,
+        "totalChatMessages": 3778,
         "totalStreamMinutes": 15979,
         "emotes": {
           "😊": 5,
@@ -4500,7 +4500,7 @@
           "🍺": 12,
           "🫶": 3,
           "🙌": 44,
-          "🗳": 306,
+          "🗳": 309,
           "📴": 34,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 114,
           "🔴": 33,
@@ -4705,13 +4705,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791172142649
+        "lastChatAt": 1791175658023
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -4747,6 +4743,10 @@
         {
           "user": "avisi",
           "msg": "[emote:248db14b-f100-4838-be4d-8e265634e892] @capt_rob_advent have a good one brudda man"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -22348,8 +22348,8 @@
     }
   },
   "auth": {
-    "accessToken": "17f09aafb09b877b2e2ff3195a2f3791",
-    "refreshToken": "507a7749886a514096c8c63d1cf46702",
+    "accessToken": "b30beb7b107771b2bb1657c9b79d6aef",
+    "refreshToken": "1773278fdb23a07cd4bcad846a224ba5",
     "sessionToken": "3e90e1888f5a9c7c9268e9d7eb39ee9a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
