@@ -3758,7 +3758,7 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 38887,
+        "totalVotes": 39562,
         "totalSubs": 90,
         "totalChatMessages": 16784,
         "totalStreamMinutes": 9945,
@@ -4191,12 +4191,12 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "lastChatAt": 1791227578983,
-        "sendFailStreak": 553,
-        "lastSendFailAt": 1791193619250,
+        "sendFailStreak": 554,
+        "lastSendFailAt": 1791243799904,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146,
-        "lastProbeAt": 1791193619027
+        "lastProbeAt": 1791243799701
       },
       "chatMemory": [
         {
@@ -6924,7 +6924,7 @@
         "totalVotes": 8992,
         "totalSubs": 85,
         "totalChatMessages": 932,
-        "totalStreamMinutes": 21852,
+        "totalStreamMinutes": 21872,
         "emotes": {
           "❤": 127,
           "🙌": 41,
@@ -7756,9 +7756,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 18643,
+        "totalVotes": 18653,
         "totalSubs": 45,
-        "totalChatMessages": 4000,
+        "totalChatMessages": 4001,
         "totalStreamMinutes": 4832,
         "emotes": {
           "❤": 50,
@@ -7769,7 +7769,7 @@
           "🙂": 3,
           "🔥": 75,
           "😎": 5,
-          "🗳": 690,
+          "🗳": 693,
           "📴": 47,
           "👋": 59,
           "🎁": 66,
@@ -7993,13 +7993,9 @@
           "91d67537-03d5-46b5-a8c3-ea51efe18352": "omererkmen"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791211428877
+        "lastChatAt": 1791243283866
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "break time"
-        },
         {
           "user": "botger",
           "msg": "https://x.com/e_buket_erkul"
@@ -8035,6 +8031,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ens just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8118,8 +8118,8 @@
       "stats": {
         "totalVotes": 5853,
         "totalSubs": 33,
-        "totalChatMessages": 1502,
-        "totalStreamMinutes": 2438,
+        "totalChatMessages": 1504,
+        "totalStreamMinutes": 2451,
         "emotes": {
           "❤": 456,
           "🙌": 52,
@@ -8127,8 +8127,8 @@
           "🔴": 22,
           "🎉": 24,
           "💛": 30,
-          "📴": 20,
-          "👋": 20,
+          "📴": 21,
+          "👋": 21,
           "🐝": 78,
           "🎶": 36,
           "💃": 55,
@@ -8222,18 +8222,10 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "🚨": "🚨"
         },
-        "lastChatAt": 1791242864251,
+        "lastChatAt": 1791243867658,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "just lurking a bit"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "hey there"
-        },
         {
           "user": "cymatrix",
           "msg": "thanks for dropping by"
@@ -8265,6 +8257,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @andrasabel just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -8286,7 +8286,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
-      "streamTitle": "50th Birthday and Album Release Pawty! — Music",
+      "streamTitle": "",
       "profile": "We’re a funky community vibin’ to cymatrix’s Funk Show & OSP Tunes! We shout “VOTE ALERT!!”, celebrate each other’s 25s, dance with 💃, and cheer when cymatrix says “Heye!” and “You bet!” It’s always a Tuesday, full of crypto chatter and “cymatrixgroup.com” links. We celebrate with sub gifts, resub hype, and nonstop hype for cymatrix.",
       "_profileAtCount": 1444,
       "gameOverride": "",
@@ -8329,8 +8329,8 @@
       },
       "nudgedAt": 1785081346870,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "New Album: H20SIX | Midnight Circus — Music",
-      "lastStreamEndedAt": 1791217212675,
+      "lastStreamInfo": "50th Birthday and Album Release Pawty! — Music",
+      "lastStreamEndedAt": 1791243862469,
       "_idAt": 1791225741953
     },
     "19b7a7c0-fe26-4df4-b40e-ac7489b8f42a": {
@@ -9321,7 +9321,7 @@
         "totalVotes": 17822,
         "totalSubs": 57,
         "totalChatMessages": 2496,
-        "totalStreamMinutes": 19819,
+        "totalStreamMinutes": 19839,
         "emotes": {
           "🔥": 722,
           "🔴": 200,
@@ -20565,14 +20565,14 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 3,
-        "totalChatMessages": 166,
-        "totalStreamMinutes": 1293,
+        "totalChatMessages": 168,
+        "totalStreamMinutes": 1295,
         "emotes": {
           "❤": 18,
           "🙌": 12,
           "💪": 1,
           "😂": 1,
-          "🔨": 1,
+          "🔨": 2,
           "020b27e8-3bd4-4e39-93dc-5856ec1d870a": 8,
           "🤣": 13,
           "e902994e-dea3-433c-9a25-de6f5550b5c1": 8,
@@ -20584,8 +20584,8 @@
           "😎": 6,
           "📴": 3,
           "👋": 3,
-          "🔴": 2,
-          "🎉": 3,
+          "🔴": 3,
+          "🎉": 4,
           "0ee936f8-34d5-426c-9094-5c3b21c899ed": 4,
           "b7069f9f-84d1-471d-bdb6-a44407100f16": 2,
           "b72db44d-8e38-4587-b05b-4503c399cd92": 2,
@@ -20626,17 +20626,9 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1790879384460
+        "lastChatAt": 1791244120954
       },
       "chatMemory": [
-        {
-          "user": "starweather",
-          "msg": "HYPE HYPE"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @cryptohaki!"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ cryptohaki just followed the channel! Welcome!! 🙌"
@@ -20668,6 +20660,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ DFF just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 hortenseemu44 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 🔨 THE HAMMER RETURNS | MechaBREAK + Viewer Challenges | Road to Verified! Come hang out and watch."
         }
       ],
       "customCommands": {
@@ -20706,7 +20706,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8619a423-8b21-4186-b6eb-583fd5d93410.png",
-      "streamTitle": "",
+      "streamTitle": "🔨 THE HAMMER RETURNS | MechaBREAK + Viewer Challenges | Road to Verified — IRL",
       "profile": "hortenseemu44 streams Aim Lab grind, OTG Battle Pass, and Trios prep. The chat roars “HYDRATE!!” and “DRINK WATER, EAT YOUR VEGETABLES, EXERCISE REGULARLY” while laughing at “I AM THE HAMMER” and “BRB.” Viewers celebrate with emotes, chanting “HYDRATE!!,” and cheering, keeping energy high and supportive. The community thrives on humor, health tips, and relentless hype.",
       "_profileAtCount": 141,
       "lastStreamInfo": "🔥 BLAZE x OTG TRIOS SHOWDOWN | BLAZE KINGS TAKE THE FIELD 🔨 | HortenseEmu44 — Aim Lab",
@@ -20946,7 +20946,7 @@
       "stats": {
         "totalVotes": 719,
         "totalSubs": 1,
-        "totalChatMessages": 288,
+        "totalChatMessages": 290,
         "totalStreamMinutes": 455,
         "emotes": {
           "❤": 10,
@@ -21005,17 +21005,9 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791241601008
+        "lastChatAt": 1791243140790
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "⚡Friends, if you haven't joined the Club, you are missing out! Get an account, hit the follow, let's build a huge community! ⚡\n https://club.com/Silverbolt99"
-        },
-        {
-          "user": "evilshaihulud",
-          "msg": "Just studying"
-        },
         {
           "user": "evilshaihulud",
           "msg": "Hopefully I’ll take my personal trainer exam in a few months"
@@ -21047,6 +21039,14 @@
         {
           "user": "botger",
           "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "Stream Has Ended See you All Next time on the Next Episode"
         }
       ],
       "customCommands": {},
@@ -21070,9 +21070,9 @@
       "greeted": true,
       "profile": "silverbolt99’s channel is a high‑energy, community‑first hub where “welcome to the BLazeianCrew!” opens every stream and “NEW FOLLOWER!! ❤️” echoes with each new join. Weekly Sunday giveaways promise up to 1000 votes, celebrated with “Thanks for the X votes” chants. Lurkers are praised, donations appreciated, and the club hype (“⚡Friends, if you haven’t joined the Club…”) keeps the vibe playful, supportive, and always hype‑ready.",
       "_profileAtCount": 286,
-      "streamTitle": "SBEp137 Mustard Network〽️/4th Expedition Goop Grind / New Update in Oct / 5th Expedition Next year january — ARC Raiders",
-      "lastStreamInfo": "SBEp136 Mustard Network〽️/4th Expedition Goop Grind / New Update in Oct / 5th Expedition Next year january — ARC Raiders",
-      "lastStreamEndedAt": 1791165371560,
+      "streamTitle": "",
+      "lastStreamInfo": "SBEp137 Mustard Network〽️/4th Expedition Goop Grind / New Update in Oct / 5th Expedition Next year january — ARC Raiders",
+      "lastStreamEndedAt": 1791243135561,
       "gameOverride": "",
       "loyalty": {
         "jasroranox": {
