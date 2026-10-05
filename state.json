@@ -3163,12 +3163,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 24129,
-        "totalSubs": 86,
-        "totalChatMessages": 7773,
-        "totalStreamMinutes": 23578,
+        "totalSubs": 87,
+        "totalChatMessages": 7775,
+        "totalStreamMinutes": 23598,
         "emotes": {
           "❤": 232,
-          "🙌": 175,
+          "🙌": 177,
           "🗳": 1158,
           "📴": 201,
           "👋": 230,
@@ -3179,7 +3179,7 @@
           "💎": 7,
           "🎁": 103,
           "📢": 32,
-          "🔥": 412,
+          "🔥": 414,
           "😘": 30,
           "🥺": 12,
           "🥷": 15,
@@ -3225,7 +3225,7 @@
           "😄": 4,
           "🐽": 1,
           "✌": 9,
-          "💰": 8,
+          "💰": 10,
           "🐇": 3,
           "🫨": 2,
           "😉": 9,
@@ -3504,18 +3504,10 @@
           "🥵": "🥵",
           "🍻": "🍻"
         },
-        "lastChatAt": 1791229582945,
+        "lastChatAt": 1791231984142,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cripiechuccles",
-          "msg": "lets BLAZE fam"
-        },
-        {
-          "user": "cripiechuccles",
-          "msg": "cripielounge supports you fam!!"
-        },
         {
           "user": "agent00zani",
           "msg": "🥰"
@@ -3547,6 +3539,14 @@
         {
           "user": "triz_draw",
           "msg": "enjoy"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @LostSnow has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "💰 TIP ALERT!! 💰 @LostSnow just tipped $2.00!! Thank you so much!! 🙌"
         }
       ],
       "customCommands": {
@@ -3710,6 +3710,11 @@
         },
         "cripiechuccles": {
           "name": "cripiechuccles",
+          "months": 1,
+          "tier": 1
+        },
+        "lostsnow": {
+          "name": "lostsnow",
           "months": 1,
           "tier": 1
         }
@@ -8701,7 +8706,7 @@
       "stats": {
         "totalVotes": 21749,
         "totalSubs": 68,
-        "totalChatMessages": 16442,
+        "totalChatMessages": 16453,
         "totalStreamMinutes": 11124,
         "emotes": {
           "🧏": 1,
@@ -9150,41 +9155,9 @@
           "🤺": "🤺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791230950022
+        "lastChatAt": 1791231934694
       },
       "chatMemory": [
-        {
-          "user": "metal_bot",
-          "msg": "@algento Found 12 matches: 1. Vasco Rossi - Liberi Liberi | 2. Vasco Rossi - Ogni volta | 3. Vasco Rossi - Va be' (se proprio te lo devo dire) | 4. Vasco Rossi - Gli Angeli | 5. Vasco Rossi - Gli Spari Sopra | 6. Vasco Rossi - Ridere Di Te | 7. Vasco Rossi - Siamo solo noi | 8. Vasco Rossi - Colpa d'Alfredo — Reply !pick 1-8 to select"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "yeah we're 5 hrs from san diego/coronado beaches so need to go soon"
-        },
-        {
-          "user": "metal_bot",
-          "msg": "@algento No songs found for \"albachiara\". Try a different search."
-        },
-        {
-          "user": "metal_bot",
-          "msg": "@algento Added \"Vasco Rossi - Gli Angeli\" to the queue! (Position #1)"
-        },
-        {
-          "user": "algento",
-          "msg": "found one"
-        },
-        {
-          "user": "metal_bot",
-          "msg": "@cymatrix No songs found for \"good day in hell eagles\". Try a different search."
-        },
-        {
-          "user": "metal_bot",
-          "msg": "@cymatrix Added \"Journey - Wheel in the Sky\" to the queue! (Position #2)"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "fingers warm"
-        },
         {
           "user": "algento",
           "msg": "bene bene"
@@ -9192,6 +9165,38 @@
         {
           "user": "cymatrix",
           "msg": "great song"
+        },
+        {
+          "user": "algento",
+          "msg": "cool song, gratzie"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "so call the Wahmbulance"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "yeah good stuff man"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@cymatrix Added \"Living Colour - Cult of Personality\" to the queue! (Position #1)"
+        },
+        {
+          "user": "algento",
+          "msg": "I like this song"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@algento Found 17 matches: 1. Maneskin - Zitti e Buoni | 2. Maneskin - I WANNA BE YOUR SLAVE | 3. Maneskin - Beggin' | 4. Maneskin - For Your Love | 5. Maneskin - MAMMAMIA | 6. Maneskin - The Loneliest | 7. Maneskin - Chosen | 8. Maneskin - Somebody Told Me — Reply !pick 1-8 to select"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@algento Added \"Maneskin - Chosen\" to the queue! (Position #2)"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "man that one was crazy"
         }
       ],
       "customCommands": {},
@@ -9204,7 +9209,7 @@
       "followed": true,
       "streamTitle": "Metal N Chill Request songs for a chance at 100 votes — Music",
       "profile": "Bidlo crew lives for heavy riffs, good vibes, and epic “Bidlo Wheel” moments. We jam Tony Hawk soundtracks, growl‑heavy songs, and “Guitar and Chill” sessions with “love fest” vibes. Shout “GET OUTTA TOWN” and “LET’S GOOO” in the BidloZone, celebrate “100 votes” milestones, raid excitement, and “Bidlo lore” on Lore Tuesday. We love “Bidlo Silverhand” moments, reply with !pick and “Bidlo emote”.",
-      "_profileAtCount": 16403,
+      "_profileAtCount": 16444,
       "gameOverride": "",
       "loyalty": {
         "mindgoblin": {
@@ -10990,16 +10995,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 31246,
+        "totalVotes": 31746,
         "totalSubs": 154,
-        "totalChatMessages": 3552,
+        "totalChatMessages": 3553,
         "totalStreamMinutes": 18158,
         "emotes": {
           "❤": 138,
           "🙌": 220,
           "💚": 3,
           "🔥": 103,
-          "🗳": 915,
+          "🗳": 918,
           "🔴": 150,
           "🎉": 201,
           "📴": 147,
@@ -11221,13 +11226,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791211588143
+        "lastChatAt": 1791232007486
       },
       "chatMemory": [
-        {
-          "user": "faithy_",
-          "msg": "rugg"
-        },
         {
           "user": "botger",
           "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
@@ -11263,6 +11264,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @joseph just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -11941,8 +11946,8 @@
       "stats": {
         "totalVotes": 29801,
         "totalSubs": 56,
-        "totalChatMessages": 2054,
-        "totalStreamMinutes": 2462,
+        "totalChatMessages": 2055,
+        "totalStreamMinutes": 2467,
         "emotes": {
           "😂": 34,
           "💪": 2,
@@ -11955,10 +11960,10 @@
           "❤": 102,
           "🚨": 42,
           "🎉": 35,
-          "👋": 40,
+          "👋": 41,
           "🤣": 157,
           "🗳": 498,
-          "📴": 26,
+          "📴": 27,
           "🎁": 58,
           "🔴": 27,
           "👀": 13,
@@ -12176,13 +12181,9 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791230172584
+        "lastChatAt": 1791231376027
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 22 vote(s) (total: 22)! Thank you!! 🗳️"
-        },
         {
           "user": "triz_draw",
           "msg": "waaaaaaaaaaaaaa"
@@ -12218,6 +12219,10 @@
         {
           "user": "mamasteph401",
           "msg": "Heyyy"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -12349,11 +12354,11 @@
           "tier": 1
         }
       },
-      "streamTitle": "Cozy Gaming Life is STRANGE ♥ — Life Is Strange: True Colors",
+      "streamTitle": "",
       "gameOverride": "",
       "commentMode": "silent",
       "lastStreamInfo": "Cozy Gaming Life is STRANGE ♥ — Life Is Strange: True Colors",
-      "lastStreamEndedAt": 1790965948592,
+      "lastStreamEndedAt": 1791231370901,
       "_idAt": 1791225749953
     },
     "c72497f7-8e71-4205-840b-58406a94e378": {
@@ -13641,7 +13646,7 @@
       "stats": {
         "totalVotes": 16654,
         "totalSubs": 23,
-        "totalChatMessages": 30097,
+        "totalChatMessages": 30144,
         "totalStreamMinutes": 18920,
         "emotes": {
           "❤": 104,
@@ -13650,8 +13655,8 @@
           "🔥": 49,
           "🔴": 106,
           "🎉": 236,
-          "🪙": 812,
-          "⚡": 673,
+          "🪙": 814,
+          "⚡": 674,
           "👀": 76,
           "🍿": 20,
           "🤗": 38,
@@ -13826,7 +13831,7 @@
           "🥺": 2,
           "🥈": 37,
           "🥉": 37,
-          "⭐": 81,
+          "⭐": 83,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 2,
           "✊": 1,
           "✋": 1,
@@ -14026,48 +14031,48 @@
           "🤑": "🤑"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791231083247
+        "lastChatAt": 1791232280760
       },
       "chatMemory": [
-        {
-          "user": "junior7_",
-          "msg": "Remake do dk64"
-        },
-        {
-          "user": "botger",
-          "msg": "⭐️Quem conseguir pegar level 50 de XP ganha 25.000 pontos e ganha pontos extra a cada level."
-        },
-        {
-          "user": "junior7_",
-          "msg": "Q fique claro"
-        },
-        {
-          "user": "lipeman",
-          "msg": "não é remake"
-        },
         {
           "user": "lipeman",
           "msg": "kkkkkkkk"
         },
         {
           "user": "junior7_",
-          "msg": "Kkkk"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Mas não é aquele q oh Guedin jogava antigamente"
+          "msg": "Essa semana vou usar uma carta na manga"
         },
         {
           "user": "lipeman",
-          "msg": "kkkkkkkkk"
+          "msg": "tira o cartão do menino"
         },
         {
-          "user": "junior7_",
-          "msg": "Aaaaa sae dae edao"
+          "user": "lipeman",
+          "msg": "kkkkkkkk"
         },
         {
-          "user": "junior7_",
-          "msg": "Kkkk"
+          "user": "lipeman",
+          "msg": "Nilo passou uma semana treinando"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkkkkkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "Edão mestre do DK"
+        },
+        {
+          "user": "lipeman",
+          "msg": "iiiiiiiiiiii"
+        },
+        {
+          "user": "botger",
+          "msg": "⭐️Doações no pix: https://midpix.live/SofrenciaPlay"
         }
       ],
       "customCommands": {},
@@ -16108,8 +16113,8 @@
       "stats": {
         "totalVotes": 6736,
         "totalSubs": 25,
-        "totalChatMessages": 1162,
-        "totalStreamMinutes": 13502,
+        "totalChatMessages": 1163,
+        "totalStreamMinutes": 13522,
         "emotes": {
           "❤": 69,
           "🙌": 56,
@@ -16221,13 +16226,9 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791227724170
+        "lastChatAt": 1791231731374
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -16263,6 +16264,10 @@
         {
           "user": "agent00zani",
           "msg": "all best in your games"
+        },
+        {
+          "user": "d3crypt_ttv",
+          "msg": "join me after your game, ill play 1 whilst i wait"
         }
       ],
       "customCommands": {
@@ -20934,34 +20939,37 @@
       "language": "en",
       "joinedAt": 1791033739333,
       "stats": {
-        "totalVotes": 694,
+        "totalVotes": 719,
         "totalSubs": 1,
-        "totalChatMessages": 254,
+        "totalChatMessages": 277,
         "totalStreamMinutes": 455,
         "emotes": {
           "❤": 10,
           "🙌": 6,
           "🔴": 5,
-          "⚡": 30,
+          "⚡": 32,
           "〽": 5,
           "8245e8d7-5e9a-4c84-b17c-6cd3154fcdec": 1,
           "0385321d-5e5d-4192-9889-3d08fe60d750": 3,
-          "🚨": 18,
-          "🎙": 12,
-          "💗": 12,
+          "🚨": 21,
+          "🎙": 15,
+          "💗": 15,
           "🎉": 2,
           "🍺": 4,
           "😱": 1,
           "😂": 4,
           "🤣": 4,
-          "809bfa51-da4f-4570-9c70-67a802c6da7b": 2,
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": 3,
           "💚": 2,
           "😅": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 3,
-          "🗳": 24,
+          "🗳": 27,
           "🔥": 2,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 5
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 5,
+          "😶": 6,
+          "🌫": 6,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -20986,28 +20994,15 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE",
           "🗳": "🗳",
           "🔥": "🔥",
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING",
+          "😶": "😶",
+          "🌫": "🌫",
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791229378739
+        "lastChatAt": 1791231855298
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🚨🎙️ Shoutout to @meyetechnicals! make Sure to check them out on their Blaze Channel https://Blaze.Stream/meyetechnicals and show some Love and Support 💗"
-        },
-        {
-          "user": "botger",
-          "msg": "if you are lurking type !!lurk and it will triggered a lurk message"
-        },
-        {
-          "user": "botger",
-          "msg": "follow me on the following socials on https://www.linktr.ee/SilverBolt99"
-        },
-        {
-          "user": "botger",
-          "msg": "Donations are not required but appreciated ,if you are donating all donations are final !!! https://ko-fi.com/silverbolt99"
-        },
         {
           "user": "botger",
           "msg": "New streamers enter Silverbolt99 when setting up the botger dashboard. We both get 7 extra days! (Works with a FREE account or If you have an active subscription)"
@@ -21017,8 +21012,20 @@
           "msg": "⚡Friends, if you haven't joined the Club, you are missing out! Get an account, hit the follow, let's build a huge community! ⚡\n https://club.com/Silverbolt99"
         },
         {
+          "user": "evilshaihulud",
+          "msg": "Blaze is scary for me because I don’t like understand all the nft or whatever they use"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 25 votes, @Potato_Pete!"
+        },
+        {
           "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Potato_Pete just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "potato_pete",
+          "msg": "ayeeeee"
         },
         {
           "user": "botger",
@@ -21026,11 +21033,15 @@
         },
         {
           "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
+          "msg": "🚨🎙️ Shoutout to @Potato_Pete! make Sure to check them out on their Blaze Channel https://Blaze.Stream/Potato_Pete and show some Love and Support 💗"
         },
         {
-          "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @Potato_Pete at https://blaze.stream/potato_pete!"
+        },
+        {
+          "user": "potato_pete",
+          "msg": "hey thank you"
         }
       ],
       "customCommands": {},
@@ -21288,9 +21299,9 @@
       "n": 10
     },
     "sofrenciaplay": {
-      "note": "Enjoys Kaizo platform games, loves fantasy and mythology, shares crypto updates, and chats in playful Portuguese slang with a good sense of humor.",
-      "at": 1791180571956,
-      "n": 20
+      "note": "He loves Kaizo platform games, enjoys fantasy and mythology, shares crypto updates, and chats in playful Portuguese slang with a good sense of humor.",
+      "at": 1791231639454,
+      "n": 21
     },
     "joseph": {
       "note": "Joseph loves energetic, humorous livestream chats about gaming, often cheering teammates, joking with playful sarcasm, and celebrating wins with enthusiastic emojis.",
