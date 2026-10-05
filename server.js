@@ -3303,11 +3303,11 @@ const MASCOT_URL = process.env.BOT_AVATAR || "https://cdn.blaze.stream/uploads/a
 // SEASONAL MASCOT SKINS — static costume sprites (transparent PNGs in the repo root) the mascot overlay
 // can wear instead of the normal running animation. Extensible: add xmas/easter variants here later.
 const MASCOT_SKINS = {
-  untot:   { file: "shibi_untot.png",   label: "🧟 Untot" },
-  kuebis:  { file: "shibi_kuebis.png",  label: "🎃 Kübis" },
-  geist:   { file: "shibi_geist.png",   label: "👻 Geist" },
-  genaeht: { file: "shibi_genaeht.png", label: "🧵 Genäht" },
-  teufel:  { file: "shibi_teufel.png",  label: "😈 Teufel" },
+  untot:   { file: "shibi_untot.png",   label: "🧟 Undead" },
+  kuebis:  { file: "shibi_kuebis.png",  label: "🎃 Pumpkin" },
+  geist:   { file: "shibi_geist.png",   label: "👻 Ghost" },
+  genaeht: { file: "shibi_genaeht.png", label: "🧵 Stitched" },
+  teufel:  { file: "shibi_teufel.png",  label: "😈 Devil" },
 };
 
 
@@ -3508,19 +3508,18 @@ function renderOverlaySection(username) {
     <p class="hint">This is the one most people want — it already includes everything Mascot does (portal-appear + watching) plus real running animation, chill/sit mode and dancing, all in one. OBS → + → Browser → paste URL → Width <b>1920</b>, Height <b>1080</b>. He runs across, turns at the edges &amp; pops speech bubbles. Tune: <code>?size=160&amp;speed=120&amp;fps=12&amp;talk=0</code>.<br>
     🎨 <b>Pick a color:</b> add <code>?theme=</code> — <code>green</code> (GMC), <code>blue</code>, <code>cyan</code>, <code>purple</code>, <code>pink</code>, <code>red</code>, <code>gold</code>, or <code>rgb</code> (rainbow 🌈). Example: <code>…/run/NAME?theme=rgb</code><br>
     🪑 <b>Chill mode:</b> he occasionally sits on a little stool at the edge and watches the stream with you 👀 — <code>?sit=0</code> turns that off. · 🕺 Little dances included — <code>?dance=0</code> turns them off. · 🎀 <code>?female=1</code> adds a bow on his head (color follows the theme).</p>
-    <label style="margin-top:14px;">🎃 Halloween-Skin für den Mascot (Oktober) — wähle eine Variante:</label>
-    <select id="hwSkinSel" onchange="(function(v){var u=${JSON.stringify(runUrl)};document.getElementById('hwSkinUrl').value=v?u+'?skin='+v:u;})(this.value)" style="width:100%;padding:8px;border-radius:8px;background:#0e1a0e;color:#b9ffd0;border:1px solid #2f5f2f;font-weight:700;">
-      <option value="">Normal — OG Blazeian (animiert, läuft &amp; tanzt)</option>
-      <option value="untot">🧟 Untot</option>
-      <option value="kuebis">🎃 Kübis</option>
-      <option value="geist">👻 Geist</option>
-      <option value="genaeht">🧵 Genäht</option>
-      <option value="teufel">😈 Teufel</option>
-      <option value="random">🎲 Zufall (wechselt bei jedem Auftritt)</option>
+    <label style="margin-top:14px;">🎃 Halloween Mascot Skin (October) — pick a look:</label>
+    <select id="hwSkinSel" onchange="var u='${runUrl}';document.getElementById('hwSkinUrl').value=this.value?u+'?skin='+this.value:u;" style="width:100%;padding:8px;border-radius:8px;background:#0e1a0e;color:#b9ffd0;border:1px solid #2f5f2f;font-weight:700;">
+      <option value="">Normal — the original animated Blazeian (runs &amp; dances)</option>
+      <option value="untot">🧟 Undead</option>
+      <option value="kuebis">🎃 Pumpkin</option>
+      <option value="geist">👻 Ghost</option>
+      <option value="genaeht">🧵 Stitched</option>
+      <option value="teufel">😈 Devil</option>
+      <option value="random">🎲 Random (changes each appearance)</option>
     </select>
     <input id="hwSkinUrl" readonly onclick="this.select()" value="${esc(runUrl)}" style="margin-top:6px;">
-    <p class="hint">Wähle oben eine Variante → die URL unten passt sich an. Die kopierst du in OBS (1920×1080) <b>statt</b> der normalen Run-URL. „Normal" = der originale animierte Blazeian. Die Halloween-Figur <b>schwebt &amp; gleitet</b> über den Stream mit Portal-Auftritt und Sprechblasen. Größe/Tempo ans Ende hängen, z.B. <code>&amp;size=200&amp;speed=120</code>. Weihnachten/Ostern kommen später als eigene Sets dazu. 🎃</p>
-
+    <p class="hint">Pick a look above → the URL below updates automatically. Paste <b>that</b> URL into OBS (1920×1080) instead of the normal Run URL. "Normal" keeps the original animated Blazeian. The Halloween character <b>floats &amp; glides</b> across the stream with a portal entrance and speech bubbles. Append size/speed if you like, e.g. <code>&amp;size=200&amp;speed=120</code>. Christmas / Easter sets will be added later. 🎃</p>
     <label style="margin-top:14px;">🎊 Raid Alert — clean banner + sound when someone raids you</label>
     <input readonly onclick="this.select()" value="${esc(raidUrl)}">
     <p class="hint">Paste this ONE URL into OBS (Browser Source, <b>1920×1080</b>) — it never changes. Everything below is set right here in the dashboard and applies automatically. Banner text is fully editable in the <b>More</b> tab (default: "<b>&lt;Raider&gt; has raided your Channel with &lt;N&gt; Awesome People !</b>"). Add <code>?test=1</code> to the URL to place it in OBS.</p>
