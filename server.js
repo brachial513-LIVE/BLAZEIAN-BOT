@@ -3303,8 +3303,8 @@ const MASCOT_URL = process.env.BOT_AVATAR || "https://cdn.blaze.stream/uploads/a
 // SEASONAL MASCOT SKINS — static costume sprites (transparent PNGs in the repo root) the mascot overlay
 // can wear instead of the normal running animation. Extensible: add xmas/easter variants here later.
 const MASCOT_SKINS = {
-  untot:   { file: "shibi_untot.png",   label: "🧟 Undead",   motion: { speedMul: 0.5,  bob: 14, bobMs: 760,  floatY: 0,   squash: 0.14, lean: 4, tilt: 0, float: false } },
-  kuebis:  { file: "shibi_kuebis.png",  label: "🎃 Pumpkin",  motion: { speedMul: 0.95, bob: 34, bobMs: 540,  floatY: 0,   squash: 0.18, lean: 0, tilt: 0, float: false } },
+  untot:   { file: "shibi_untot.png",   label: "🧟 Undead", run: { file: "shibi_untot_run.png", frames: 8, cw: 200, fps: 10, speedMul: 0.65 }, motion: { speedMul: 0.5,  bob: 14, bobMs: 760,  floatY: 0,   squash: 0.14, lean: 4, tilt: 0, float: false } },
+  kuebis:  { file: "shibi_kuebis.png",  label: "🎃 Pumpkin", run: { file: "shibi_kuebis_run.png", frames: 8, cw: 200, fps: 13, speedMul: 1 }, motion: { speedMul: 0.95, bob: 34, bobMs: 540,  floatY: 0,   squash: 0.18, lean: 0, tilt: 0, float: false } },
   geist:   { file: "shibi_geist.png",   label: "👻 Ghost",    motion: { speedMul: 0.7,  bob: 24, bobMs: 2400, floatY: 140, squash: 0,    lean: 0, tilt: 3, float: true } },
   genaeht: { file: "shibi_genaeht.png", label: "🧵 Stitched", motion: { speedMul: 0.42, bob: 10, bobMs: 920,  floatY: 0,   squash: 0.09, lean: 6, tilt: 0, float: false } },
   teufel:  { file: "shibi_teufel.png",  label: "😈 Devil", run: { file: "shibi_teufel_run.png", frames: 8, cw: 200, fps: 12, speedMul: 1 }, motion: { speedMul: 1.05, bob: 20, bobMs: 600,  floatY: 0,   squash: 0.14, lean: 3, tilt: 0, float: false } },
@@ -6420,7 +6420,7 @@ app.get("/overlay/run/:username", (req, res) => {
     return res.send(`<!doctype html><html><head><meta charset="utf-8"><style>
   html,body{margin:0;height:100%;background:transparent;overflow:hidden;font-family:system-ui,'Segoe UI',sans-serif;}
   #wrap{position:fixed;top:0;left:0;width:${size}px;height:${size}px;will-change:transform;}
-  #flt{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 12px rgba(0,0,0,.55));opacity:0;transition:opacity .4s;transform-origin:50% 92%;}
+  #flt{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 12px rgba(0,0,0,.55));transform-origin:50% 92%;}
   #cv{position:absolute;inset:0;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45));display:none;}
   #portal{position:fixed;top:0;left:0;width:${pW}px;height:${pH}px;opacity:0;pointer-events:none;filter:drop-shadow(0 0 26px rgba(74,222,128,.8));}
   #swirl{width:100%;height:100%;border-radius:50%;background:conic-gradient(from 0deg,#0b6b34,#7dff9e,#0aa04e,#c8ffd6,#0b6b34);
@@ -6458,7 +6458,7 @@ app.get("/overlay/run/:username", (req, res) => {
     } else {
       MODE='float'; cv.style.display='none'; flt.style.display='block';
       var p=c.p||{}; SPEEDM=(p.speedMul!=null?p.speedMul:1); BOBA=(p.bob!=null?p.bob:14); BOBMS=(p.bobMs||600); FLOATY=(p.floatY||0); SQUASH=(p.squash||0); LEAN=(p.lean||0); TILTA=(p.tilt||0); FLOAT=!!p.float;
-      flt.style.opacity=0; flt.onload=function(){ flt.style.opacity=1; ready=true; }; flt.onerror=function(){ flt.style.opacity=1; ready=true; }; flt.src=c.url;
+      flt.onload=function(){ ready=true; }; flt.onerror=function(){ ready=true; }; flt.src=c.url;
     }
   }
   function pickRandom(){ var o=NAMES.filter(function(n){return n!==cur;}); return o.length?o[Math.floor(Math.random()*o.length)]:(NAMES[0]||''); }
