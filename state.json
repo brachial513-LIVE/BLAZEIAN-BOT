@@ -10492,7 +10492,7 @@
       "stats": {
         "totalVotes": 12928,
         "totalSubs": 86,
-        "totalChatMessages": 883,
+        "totalChatMessages": 884,
         "totalStreamMinutes": 5466,
         "emotes": {
           "❤": 36,
@@ -10565,13 +10565,9 @@
           "🙄": "🙄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791263057640
+        "lastChatAt": 1791263465681
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "GM @lady_iris! How do you like it so far? I was so excited to play this. Gotta wait for update 🙄"
-        },
         {
           "user": "avisi",
           "msg": "grats!"
@@ -10607,6 +10603,10 @@
         {
           "user": "botger",
           "msg": "*** botger is back ***\r\nThe server maintenance is complete. Thank you for your understanding. Have a good night and a great stream!!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -20579,7 +20579,7 @@
         "totalVotes": 0,
         "totalSubs": 3,
         "totalChatMessages": 195,
-        "totalStreamMinutes": 1610,
+        "totalStreamMinutes": 1615,
         "emotes": {
           "❤": 18,
           "🙌": 12,
@@ -22433,8 +22433,8 @@
     }
   },
   "auth": {
-    "accessToken": "372c49a6b46f0849a540183f6511ea46",
-    "refreshToken": "9a513ff5ffbc0ddd93211ac595ade3a4",
+    "accessToken": "602c043021ece8cf1d9f1557d96e48dc",
+    "refreshToken": "722d1be5adc6f4d91307cd066e9bfd01",
     "sessionToken": "802db1c5205e10fc02951b9c093d0625",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
