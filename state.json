@@ -18621,7 +18621,7 @@
       "stats": {
         "totalVotes": 3487,
         "totalSubs": 15,
-        "totalChatMessages": 298,
+        "totalChatMessages": 299,
         "totalStreamMinutes": 630,
         "emotes": {
           "🥰": 37,
@@ -18688,17 +18688,13 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791151211779,
+        "lastChatAt": 1791287758130,
         "lastSendFailAt": 1790973732516,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790974734782,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "mediart",
-          "msg": "Thank you, I subbed to you too"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
@@ -18734,6 +18730,10 @@
         {
           "user": "mediart",
           "msg": "❤️🙏"
+        },
+        {
+          "user": "mediart",
+          "msg": "Hi"
         }
       ],
       "customCommands": {},
@@ -22433,8 +22433,8 @@
     }
   },
   "auth": {
-    "accessToken": "68d8a2e8b2453e91d701e52a29a1f44c",
-    "refreshToken": "6e34a886cd84828406d4b2acc5c4630b",
+    "accessToken": "059b36dfdfc8379d218b9c9f000be719",
+    "refreshToken": "51e88e189f14299e0203d00662cad3a8",
     "sessionToken": "802db1c5205e10fc02951b9c093d0625",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
