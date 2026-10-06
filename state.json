@@ -8124,7 +8124,7 @@
       "stats": {
         "totalVotes": 5903,
         "totalSubs": 33,
-        "totalChatMessages": 1505,
+        "totalChatMessages": 1506,
         "totalStreamMinutes": 2451,
         "emotes": {
           "❤": 456,
@@ -8166,8 +8166,8 @@
           "🫶": 2,
           "🪘": 5,
           "💰": 2,
-          "⚠": 4,
-          "🎯": 4,
+          "⚠": 5,
+          "🎯": 5,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 6,
           "37719561-c923-4260-b1a5-e3eda10c103d": 1,
           "🥳": 3,
@@ -8228,14 +8228,10 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART",
           "🚨": "🚨"
         },
-        "lastChatAt": 1791246644506,
+        "lastChatAt": 1791262635863,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @runach!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @runach just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
@@ -8271,6 +8267,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @Future42!"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up cymatrix! You're projected to fall below Verified (Tier 2) in about 7 days (2026/10/13 04:57 UTC). Current stream hours: 13.3h / 10h required. Stream more to keep your Verified status! 🎯"
         }
       ],
       "customCommands": {
@@ -10492,7 +10492,7 @@
       "stats": {
         "totalVotes": 12928,
         "totalSubs": 86,
-        "totalChatMessages": 881,
+        "totalChatMessages": 883,
         "totalStreamMinutes": 5466,
         "emotes": {
           "❤": 36,
@@ -10565,17 +10565,9 @@
           "🙄": "🙄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791260383214
+        "lastChatAt": 1791263057640
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
         {
           "user": "avisi",
           "msg": "GM @lady_iris! How do you like it so far? I was so excited to play this. Gotta wait for update 🙄"
@@ -10607,6 +10599,14 @@
         {
           "user": "avisi",
           "msg": "closest thing was probably neverwinter but that was a loong time ago"
+        },
+        {
+          "user": "botger",
+          "msg": "*** NOTICE ***\r\nbotger will be going offline for maintenance in 5 minutes. It will be down for 3 to 5 minutes. Sorry for the inconvenience, and thank you for your patience."
+        },
+        {
+          "user": "botger",
+          "msg": "*** botger is back ***\r\nThe server maintenance is complete. Thank you for your understanding. Have a good night and a great stream!!"
         }
       ],
       "customCommands": {},
@@ -20578,8 +20578,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 3,
-        "totalChatMessages": 186,
-        "totalStreamMinutes": 1590,
+        "totalChatMessages": 195,
+        "totalStreamMinutes": 1610,
         "emotes": {
           "❤": 18,
           "🙌": 12,
@@ -20647,17 +20647,9 @@
           "01c94feb-f35c-47e7-a6f7-8df25756ee61": "LILLY"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791261103936
+        "lastChatAt": 1791263059742
       },
       "chatMemory": [
-        {
-          "user": "hortenseemu44",
-          "msg": "[emote:e902994e-dea3-433c-9a25-de6f5550b5c1]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "heya @hortenseemu44 ..whats up bro?"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -20689,6 +20681,14 @@
         {
           "user": "hortenseemu44",
           "msg": "[emote:e902994e-dea3-433c-9a25-de6f5550b5c1] [emote:b04a6c24-7d1a-46e6-a46f-93c74e4fd048] [emote:91c1d5ca-4646-4e56-a7a3-fce66c1b2cdc]"
+        },
+        {
+          "user": "botger",
+          "msg": "*** NOTICE ***\r\nbotger will be going offline for maintenance in 5 minutes. It will be down for 3 to 5 minutes. Sorry for the inconvenience, and thank you for your patience."
+        },
+        {
+          "user": "botger",
+          "msg": "*** botger is back ***\r\nThe server maintenance is complete. Thank you for your understanding. Have a good night and a great stream!!"
         }
       ],
       "customCommands": {
