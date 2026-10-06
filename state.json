@@ -9327,7 +9327,7 @@
         "totalVotes": 17926,
         "totalSubs": 57,
         "totalChatMessages": 2504,
-        "totalStreamMinutes": 20012,
+        "totalStreamMinutes": 20024,
         "emotes": {
           "🔥": 722,
           "🔴": 200,
@@ -11003,8 +11003,8 @@
       "stats": {
         "totalVotes": 31846,
         "totalSubs": 154,
-        "totalChatMessages": 3556,
-        "totalStreamMinutes": 18170,
+        "totalChatMessages": 3557,
+        "totalStreamMinutes": 18182,
         "emotes": {
           "❤": 138,
           "🙌": 220,
@@ -11046,7 +11046,7 @@
           "8f198fe9-5250-4aaa-8783-ce311112d551": 24,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 10,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 15,
-          "ef07187d-8e6c-42b9-af9c-b732de7949cb": 44,
+          "ef07187d-8e6c-42b9-af9c-b732de7949cb": 45,
           "e378281b-e1b0-44be-95f5-eb1cd26dedf0": 128,
           "👉": 1,
           "🍵": 1,
@@ -11232,13 +11232,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791253947713
+        "lastChatAt": 1791255032207
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "tuff3rmrd3ano",
           "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
@@ -11274,6 +11270,10 @@
         {
           "user": "botger",
           "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Hey Faithy [emote:ef07187d-8e6c-42b9-af9c-b732de7949cb]"
         }
       ],
       "customCommands": {},
@@ -20572,7 +20572,7 @@
         "totalVotes": 0,
         "totalSubs": 3,
         "totalChatMessages": 179,
-        "totalStreamMinutes": 1468,
+        "totalStreamMinutes": 1480,
         "emotes": {
           "❤": 18,
           "🙌": 12,
@@ -22426,8 +22426,8 @@
     }
   },
   "auth": {
-    "accessToken": "4c1079fee0c56705b7fa94fa8bdbfca7",
-    "refreshToken": "8c031e5fe5484a228c306d0854d1fbe4",
+    "accessToken": "39c9ee2c2a86a6921a5afec9e7a78658",
+    "refreshToken": "3dc2dae8da60b85c0ba9bc8b3517f8c8",
     "sessionToken": "802db1c5205e10fc02951b9c093d0625",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
