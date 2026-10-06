@@ -2082,8 +2082,8 @@
       "stats": {
         "totalVotes": 38524,
         "totalSubs": 248,
-        "totalChatMessages": 13546,
-        "totalStreamMinutes": 31888,
+        "totalChatMessages": 13548,
+        "totalStreamMinutes": 31908,
         "emotes": {
           "📊": 3,
           "🔥": 560,
@@ -2647,13 +2647,9 @@
           "🐼": "🐼"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791319626651
+        "lastChatAt": 1791320545034
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "🃏 @crypt0k1ng96, dealt: 6♥ 5♠ (11) vs dealer showing 8♦. !hit or !stand?"
-        },
         {
           "user": "foxbotai",
           "msg": "🃏 @crypt0k1ng96, drew A♣ — hand: 6♥ 5♠ A♣ (12) vs dealer showing 8♦. !hit or !stand?"
@@ -2689,6 +2685,10 @@
         {
           "user": "k1ngbre4ker",
           "msg": "🤣🤣🤣🤣"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@k1ngbre4ker received 1000 FoxCoins! New balance: 4150 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -4252,7 +4252,7 @@
       "followed": true,
       "streamTitle": "",
       "profile": "Unclefunk’s channel is a funky crew that “earn courage” by watching and playing OSP‑related streams. The chat shouts “💜” and “❤️❤️❤️”, hyping “stream is now live!” and “stream is now offline!” They love “connect your OSP account” for extra courage, and the game “Only Believe” fuels daily hype. The community thrives on shared faith, fasting, and epic song.",
-      "_profileAtCount": 16802,
+      "_profileAtCount": 17066,
       "loyalty": {
         "midnitecatzlady": {
           "name": "midnitecatzlady",
@@ -6934,7 +6934,7 @@
         "totalVotes": 9017,
         "totalSubs": 85,
         "totalChatMessages": 936,
-        "totalStreamMinutes": 21984,
+        "totalStreamMinutes": 22004,
         "emotes": {
           "❤": 127,
           "🙌": 41,
@@ -7760,7 +7760,7 @@
       "_profileAtCount": 44,
       "nudgedAt": 1790523497708,
       "nudgedKey": "schedule",
-      "_idAt": 1791297697153
+      "_idAt": 1791320497175
     },
     "25b30dc5-23f5-4bea-94ce-ba178c73c022": {
       "username": "time",
@@ -8120,7 +8120,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Chess — Art",
       "lastStreamEndedAt": 1791210690370,
-      "_idAt": 1791297698289
+      "_idAt": 1791320498340
     },
     "27422fb2-063e-4a22-8cde-41c2baf0f386": {
       "username": "cymatrix",
@@ -8341,7 +8341,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "50th Birthday and Album Release Pawty! — Music",
       "lastStreamEndedAt": 1791243862469,
-      "_idAt": 1791297699493
+      "_idAt": 1791320499520
     },
     "19b7a7c0-fe26-4df4-b40e-ac7489b8f42a": {
       "username": "helios",
@@ -8505,7 +8505,7 @@
       },
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
-      "_idAt": 1791297700689
+      "_idAt": 1791320500723
     },
     "d3b88120-1dbc-422f-930b-6dcb2fccf9f4": {
       "username": "tai_",
@@ -8513,8 +8513,8 @@
       "stats": {
         "totalVotes": 14437,
         "totalSubs": 41,
-        "totalChatMessages": 720,
-        "totalStreamMinutes": 7561,
+        "totalChatMessages": 721,
+        "totalStreamMinutes": 7581,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -8597,17 +8597,13 @@
           "b05156cf-7925-4298-8e19-f29e294cc793": "SADPYRO",
           "🍺": "🍺"
         },
-        "lastChatAt": 1791317465733,
+        "lastChatAt": 1791321065992,
         "sendFailStreak": 134,
         "lastSendFailAt": 1791135405288,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1791063919038
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 100 votes, @zsoltech!"
-        },
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
@@ -8639,6 +8635,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: GENSHIN TIME!!!!! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         },
         {
           "user": "scurvybot",
@@ -8713,7 +8713,7 @@
       "lastStreamEndedAt": 1791065499667,
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule",
-      "_idAt": 1791297701901
+      "_idAt": 1791320501928
     },
     "58950ad2-950b-4431-9fb5-32221e9e035d": {
       "username": "makeitmetal",
@@ -8721,8 +8721,8 @@
       "stats": {
         "totalVotes": 21994,
         "totalSubs": 68,
-        "totalChatMessages": 16591,
-        "totalStreamMinutes": 11298,
+        "totalChatMessages": 16597,
+        "totalStreamMinutes": 11318,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -9170,29 +9170,9 @@
           "🤺": "🤺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791320184703
+        "lastChatAt": 1791320900599
       },
       "chatMemory": [
-        {
-          "user": "metal_bot",
-          "msg": "@cymatrix Found 12 matches: 1. Nevermore - She Comes In Colors | 2. Hiroki Kikuta - The Color Of The Summer Sky | 3. Jamey Johnson - In Color | 4. Shoji Meguro - Colors Flying High(Singer's Melody) | 5. Nemertines - Three Colors | 6. Between the Buried and Me - Colors (Full Album) | 7. Shoji Meguro - Colors Flying High | 8. Between the Buried and Me - Colors II (Full Album) — Reply !pick 1-8 to select"
-        },
-        {
-          "user": "marowak33",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "wow"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "dude they turned out SOOOOOO good"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "very plump tacos"
-        },
         {
           "user": "cymatrix",
           "msg": "smoked some beef the other day then put it in the instapot to sit for a day and marinate, so used that juice in the taco mixture."
@@ -9212,6 +9192,26 @@
         {
           "user": "metal_bot",
           "msg": "@cymatrix No songs found for \"poison ivy faster pussycat\". Try a different search."
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@cymatrix Added \"Beastie Boys - No Sleep Till Brooklyn\" to the queue! (Position #5)"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "where can I buy your book? on your website when I click buy for the paperback it just goes to a blank screen"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "ok will wait"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "I put mine on Amazon and the quality is not very good"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "jackwagons"
         }
       ],
       "customCommands": {},
@@ -9327,7 +9327,7 @@
       "lastStreamEndedAt": 1791234374832,
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
-      "_idAt": 1791297703095
+      "_idAt": 1791320503120
     },
     "3cabf7ae-39d3-4ebb-9a48-7f2c6d06b2a4": {
       "username": "xxtowerdogxx",
@@ -9637,7 +9637,7 @@
         "sound": true,
         "confetti": true
       },
-      "_idAt": 1791297704301
+      "_idAt": 1791320504322
     },
     "b1d9a6f8-4003-43ab-8962-830173e1225a": {
       "username": "saboomafoo",
@@ -9818,7 +9818,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1791297705504
+      "_idAt": 1791320505518
     },
     "0e1fadd4-b37a-451e-a957-c797b606507e": {
       "username": "thewill3ffect",
@@ -10705,8 +10705,8 @@
       "stats": {
         "totalVotes": 18779,
         "totalSubs": 53,
-        "totalChatMessages": 2366,
-        "totalStreamMinutes": 4385,
+        "totalChatMessages": 2369,
+        "totalStreamMinutes": 4405,
         "emotes": {
           "❤": 163,
           "🙌": 131,
@@ -10725,13 +10725,13 @@
           "🤝": 1,
           "💚": 1,
           "🔥": 98,
-          "😂": 20,
+          "😂": 23,
           "🚨": 138,
           "🎁": 72,
           "🍺": 17,
           "🥰": 4,
           "🤣": 34,
-          "😜": 3,
+          "😜": 4,
           "⚠": 2,
           "🎯": 2,
           "🗳": 423,
@@ -10787,7 +10787,8 @@
           "🫡": 1,
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": 1,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 4,
-          "fd227fe3-98c5-44d7-9f5f-5fcd33806932": 4
+          "fd227fe3-98c5-44d7-9f5f-5fcd33806932": 4,
+          "😉": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -10869,24 +10870,13 @@
           "🫡": "🫡",
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG",
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING",
-          "fd227fe3-98c5-44d7-9f5f-5fcd33806932": "lfg"
+          "fd227fe3-98c5-44d7-9f5f-5fcd33806932": "lfg",
+          "😉": "😉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791318757402
+        "lastChatAt": 1791321391901
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @Future42!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @faithy_!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -10914,6 +10904,18 @@
         {
           "user": "cookiexfalcon_",
           "msg": "👋 hallo"
+        },
+        {
+          "user": "s1lent2193",
+          "msg": "I hope your playing this via mouse and keyboard 😉😜"
+        },
+        {
+          "user": "s1lent2193",
+          "msg": "😂😂"
+        },
+        {
+          "user": "s1lent2193",
+          "msg": "All good mate thanks, just wrapped for the night, watch stream for a little then crash out 😂"
         }
       ],
       "customCommands": {},
@@ -11970,8 +11972,8 @@
       "stats": {
         "totalVotes": 32228,
         "totalSubs": 57,
-        "totalChatMessages": 2246,
-        "totalStreamMinutes": 2694,
+        "totalChatMessages": 2251,
+        "totalStreamMinutes": 2714,
         "emotes": {
           "😂": 34,
           "💪": 2,
@@ -12213,29 +12215,9 @@
           "🎶": "🎶"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791320025451
+        "lastChatAt": 1791320900401
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 1 vote(s) (total: 307)! Thank you!! 🗳️"
-        },
-        {
-          "user": "tinapay",
-          "msg": "Helloooo @sheena"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Tommy_Mag just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "yayayay"
-        },
-        {
-          "user": "tommy_mag",
-          "msg": "You're welcome Sheena!"
-        },
         {
           "user": "dofferlive",
           "msg": "yayaya"
@@ -12255,6 +12237,26 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @TwistedTinker just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "W"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "its snowing"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "Awwe"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "Doooo it"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "just be YOU!"
         }
       ],
       "customCommands": {},
@@ -12942,7 +12944,7 @@
         "totalVotes": 17304,
         "totalSubs": 35,
         "totalChatMessages": 2981,
-        "totalStreamMinutes": 9896,
+        "totalStreamMinutes": 9916,
         "emotes": {
           "❤": 114,
           "🙌": 74,
@@ -13689,8 +13691,8 @@
       "stats": {
         "totalVotes": 16679,
         "totalSubs": 23,
-        "totalChatMessages": 30187,
-        "totalStreamMinutes": 18920,
+        "totalChatMessages": 30229,
+        "totalStreamMinutes": 18940,
         "emotes": {
           "❤": 104,
           "🙌": 71,
@@ -13698,8 +13700,8 @@
           "🔥": 49,
           "🔴": 107,
           "🎉": 237,
-          "🪙": 816,
-          "⚡": 676,
+          "🪙": 817,
+          "⚡": 677,
           "👀": 76,
           "🍿": 20,
           "🤗": 38,
@@ -13874,13 +13876,15 @@
           "🥺": 2,
           "🥈": 38,
           "🥉": 38,
-          "⭐": 83,
+          "⭐": 85,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 2,
           "✊": 1,
           "✋": 1,
           "🤤": 1,
           "😋": 1,
-          "🤑": 4
+          "🤑": 4,
+          "🎂": 1,
+          "🎮": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -14071,51 +14075,53 @@
           "✋": "✋",
           "🤤": "🤤",
           "😋": "😋",
-          "🤑": "🤑"
+          "🤑": "🤑",
+          "🎂": "🎂",
+          "🎮": "🎮"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791320174337
+        "lastChatAt": 1791321391792
       },
       "chatMemory": [
         {
           "user": "lipeman",
-          "msg": "mas ficou bem melhor pra jogar Eden"
+          "msg": "kkkkkkkkkkkkkkkk"
         },
         {
           "user": "lipeman",
-          "msg": "só pelo fato de não rodar a 30 fps já é outro jogo"
+          "msg": "Mauh vai trazer os de PS2"
         },
         {
           "user": "lipeman",
-          "msg": "kkkkkkk"
+          "msg": "kkkkkk"
         },
         {
           "user": "lipeman",
-          "msg": "e vc não tem delay nos controles"
+          "msg": "a volta da Alice maluca"
         },
         {
           "user": "lipeman",
-          "msg": "kkkkkkkkkk"
+          "msg": "kkkkkk"
         },
         {
           "user": "lipeman",
-          "msg": "iiiiiiii"
+          "msg": "ainda não"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "vou precisar"
         },
         {
           "user": "botger",
-          "msg": "Thank you for redeeming JOGA SEU JOGO 1H E 30M @lovemikami!"
+          "msg": "⭐️Quem conseguir pegar level 50 de XP ganha 25.000 pontos e ganha pontos extra a cada level."
         },
         {
-          "user": "botger",
-          "msg": "🪙 @lovemikami 78,320 points."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 sofrenciaplay is now live! Welcome everyone! 🎉"
+          "user": "lipeman",
+          "msg": "hmmm"
         }
       ],
       "customCommands": {},
@@ -21021,8 +21027,8 @@
       "stats": {
         "totalVotes": 719,
         "totalSubs": 1,
-        "totalChatMessages": 301,
-        "totalStreamMinutes": 723,
+        "totalChatMessages": 302,
+        "totalStreamMinutes": 743,
         "emotes": {
           "❤": 12,
           "🙌": 7,
@@ -21080,13 +21086,9 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791318733489
+        "lastChatAt": 1791321175676
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ fanatikgaming just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🔴 silverbolt99 is now live Come join The SilverBolt⚡Nation"
@@ -21094,6 +21096,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: SBEp137 Mustard Network〽️/4th Expedition Goop Grind / New Update in Oct / 5th Expedition Next year january! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
         },
         {
           "user": "botger",
@@ -21379,9 +21385,9 @@
       "n": 10
     },
     "sofrenciaplay": {
-      "note": "He loves Kaizo platform games, enjoys fantasy and mythology, shares crypto updates, and chats in playful Portuguese slang with a good sense of humor.",
-      "at": 1791275859091,
-      "n": 22
+      "note": "He loves Kaizo platformers, enjoys fantasy and mythology, shares crypto updates, and chats in playful Portuguese slang with a good sense of humor.",
+      "at": 1791320739206,
+      "n": 23
     },
     "joseph": {
       "note": "Joseph loves energetic, humorous livestream chats about gaming, often cheering teammates, joking with playful sarcasm, and celebrating wins with enthusiastic emojis.",
