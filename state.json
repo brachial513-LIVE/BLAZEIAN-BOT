@@ -3162,14 +3162,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 24279,
+        "totalVotes": 24304,
         "totalSubs": 87,
-        "totalChatMessages": 7792,
+        "totalChatMessages": 7793,
         "totalStreamMinutes": 23726,
         "emotes": {
           "❤": 232,
           "🙌": 177,
-          "🗳": 1158,
+          "🗳": 1161,
           "📴": 202,
           "👋": 231,
           "🔴": 198,
@@ -3504,14 +3504,10 @@
           "🥵": "🥵",
           "🍻": "🍻"
         },
-        "lastChatAt": 1791240028598,
+        "lastChatAt": 1791282264750,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "playing with octo"
-        },
         {
           "user": "time",
           "msg": "Heey Octo"
@@ -3547,6 +3543,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -7248,9 +7248,9 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 18291,
+        "totalVotes": 18341,
         "totalSubs": 54,
-        "totalChatMessages": 1680,
+        "totalChatMessages": 1681,
         "totalStreamMinutes": 6580,
         "emotes": {
           "❤": 71,
@@ -7263,7 +7263,7 @@
           "😎": 2,
           "🤝": 2,
           "🥲": 2,
-          "🗳": 288,
+          "🗳": 291,
           "🔴": 46,
           "🎉": 87,
           "🚨": 78,
@@ -7407,17 +7407,13 @@
           "💝": "💝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791191770910,
+        "lastChatAt": 1791282169272,
         "lastSendFailAt": 1790979696099,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790984188513,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "agent00zani",
           "msg": "ggs"
@@ -7453,6 +7449,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @squall09 has resubscribed (7 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8710,7 +8710,7 @@
       "username": "makeitmetal",
       "language": "en",
       "stats": {
-        "totalVotes": 21894,
+        "totalVotes": 21944,
         "totalSubs": 68,
         "totalChatMessages": 16462,
         "totalStreamMinutes": 11124,
@@ -14429,9 +14429,9 @@
       "language": "en",
       "joinedAt": 1784849405521,
       "stats": {
-        "totalVotes": 9760,
+        "totalVotes": 9785,
         "totalSubs": 37,
-        "totalChatMessages": 771,
+        "totalChatMessages": 772,
         "totalStreamMinutes": 5287,
         "emotes": {
           "❤": 38,
@@ -14445,7 +14445,7 @@
           "⚡": 2,
           "😂": 2,
           "🎁": 52,
-          "🗳": 192,
+          "🗳": 195,
           "😄": 2,
           "🤣": 7,
           "😀": 2,
@@ -14480,13 +14480,9 @@
           "🤝": "🤝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791141835421
+        "lastChatAt": 1791282244296
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DestinoProspero just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
@@ -14522,6 +14518,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Brachial513 just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -19657,7 +19657,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f64a634d-8908-45cf-8143-8a641931b8c8.png",
       "followed": true,
       "botVip": true,
-      "_idAt": 1791259300659
+      "_idAt": 1791282100676
     },
     "a8d36ae2-d8e9-4f53-a27d-55c1506a9fbc": {
       "username": "reddeadrasta",
@@ -19770,7 +19770,7 @@
       "_profileAtCount": 18,
       "nudgedAt": 1789878374898,
       "nudgedKey": "schedule",
-      "_idAt": 1791259301854
+      "_idAt": 1791282101869
     },
     "6b969c07-915f-40b6-8c39-c93f0c71ea7e": {
       "username": "corneto",
@@ -19926,7 +19926,7 @@
       "gameOverride": "",
       "profile": "corneto streams arcana maps, farming ammo for MoG at level 225+ with a crew that loves “yow @alliveall” and “LD incoming soon 😂😂”. The chat thrives on quick “ggsssssssssssss” and “🔥🔥🔥” reactions, celebrates votes with “🗳️ VOTE ALERT!!”, and celebrates followers with “❤️ NEW FOLLOWER!! ❤️”. The vibe is fast‑paced, playful, and always ready for the next LD.",
       "_profileAtCount": 74,
-      "_idAt": 1791259303045
+      "_idAt": 1791282103082
     },
     "e6b0742f-7815-478c-ae3c-3e87e3b0d11c": {
       "username": "wallacessj",
@@ -19995,7 +19995,7 @@
       "lastStreamInfo": "[ES/EN]💥 | HABBO - BLACK JACK | GIVEAWAY!! — Habbo Hotel",
       "lastStreamEndedAt": 1788999484327,
       "gameOverride": "",
-      "_idAt": 1791259304245
+      "_idAt": 1791282104275
     },
     "abe9ce7b-abb9-421e-8063-f29ee331e751": {
       "username": "jagsman",
@@ -20112,7 +20112,7 @@
       "lastStreamEndedAt": 1791147206088,
       "profile": "jagsman’s channel thrives on spontaneous hype: “❤️ NEW FOLLOWER!! ❤️” and “🗳️ VOTE ALERT!!” echo through the chat. The community loves quick cheers, “Thanks for the follow” and “Stream is now live!” The vibe is energetic, supportive, and playful, celebrating every new follower and vote with enthusiastic emojis and shoutouts. The game focus is casual, friendly competition.",
       "_profileAtCount": 85,
-      "_idAt": 1791259305443,
+      "_idAt": 1791282105474,
       "nudgedAt": 1791149490517,
       "nudgedKey": "schedule"
     },
@@ -22433,8 +22433,8 @@
     }
   },
   "auth": {
-    "accessToken": "53eef972e011aeb879b694b3dce697f1",
-    "refreshToken": "46d1be1aa73526ae91eb4989f9981a44",
+    "accessToken": "c1d7c2210e2a6dbb7343d1174d0b1860",
+    "refreshToken": "3a04e38f487ebcfe82b9106dabd67883",
     "sessionToken": "802db1c5205e10fc02951b9c093d0625",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
