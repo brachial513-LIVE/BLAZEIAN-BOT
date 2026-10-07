@@ -6379,6 +6379,13 @@ app.get("/mascot-run/:name.png", (req, res) => {
   res.sendFile(path.join(__dirname, m.run.file), err => { if (err) res.status(404).end(); });
 });
 // Serve the seasonal mascot skin sprites (uploaded to the repo root). Used by the ?skin= float overlay.
+app.get("/mascot-front/:name.png", (req, res) => {
+  const n = (req.params.name || "").toLowerCase();
+  const m = MASCOT_SKINS[n];
+  if (!m || !m.run) return res.status(404).end();
+  res.set("Cache-Control", "public, max-age=86400");
+  res.sendFile(path.join(__dirname, `shibi_${n}_front.png`), err => { if (err) res.status(404).end(); });
+});
 app.get("/mascot-skin/:name.png", (req, res) => {
   const skin = MASCOT_SKINS[(req.params.name || "").toLowerCase()];
   if (!skin) return res.status(404).end();
@@ -6454,7 +6461,7 @@ app.get("/overlay/run/:username", (req, res) => {
     const skinCfg = {};
     Object.keys(MASCOT_SKINS).forEach(k => {
       const m = MASCOT_SKINS[k];
-      if (m.run) skinCfg[k] = { mode: "run", url: `${SELF_URL}/mascot-run/${k}.png`, frames: m.run.frames, cw: m.run.cw || 200, fps: m.run.fps || 12, speedMul: m.run.speedMul || 1, front: `${SELF_URL}/mascot-skin/${k}.png` };
+      if (m.run) skinCfg[k] = { mode: "run", url: `${SELF_URL}/mascot-run/${k}.png`, frames: m.run.frames, cw: m.run.cw || 200, fps: m.run.fps || 12, speedMul: m.run.speedMul || 1, front: `${SELF_URL}/mascot-front/${k}.png` };
       else skinCfg[k] = { mode: "float", url: `${SELF_URL}/mascot-skin/${k}.png`, p: m.motion || {} };
     });
     const single = (skin === "random" || !MASCOT_SKINS[skin]) ? "" : skin;
