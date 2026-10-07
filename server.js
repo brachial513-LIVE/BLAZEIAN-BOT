@@ -3544,9 +3544,9 @@ function renderOverlaySection(username) {
     <input id="hwSkinUrl" readonly onclick="this.select()" value="${esc(runUrl)}" style="margin-top:6px;">
     <p class="hint">Pick a look above → the URL below updates automatically. Paste <b>that</b> URL into OBS (1920×1080) instead of the normal Run URL. "Normal" keeps the original animated Blazeian. Devil, Undead &amp; Pumpkin <b>really run</b>, the Ghost floats, Stitched glides — all with a portal entrance, and when they talk they stop and turn to face your viewers. <b>Random</b> morphs into a new look every 13 s through a portal, no OBS refresh needed (change the pace with <code>&amp;rotate=20</code>). Append size/speed if you like, e.g. <code>&amp;size=200&amp;speed=120</code>. Christmas / Easter sets will be added later. 🎃</p>
     <label id="bubbles" style="margin-top:14px;">💬 Mascot speech bubbles — what YOUR Blazeian says</label>
-    <form method="POST" action="/dashboard/setbubbles">
+    <form method="POST" action="/dashboard/setbubbles" style="margin-bottom:14px;">
       <textarea name="lines" rows="5" style="width:100%;box-sizing:border-box;" placeholder="One line = one bubble, e.g.&#10;Welcome to the stream! 💚&#10;Don't forget to drop a vote 🔥">${esc(bubLines.join("\n"))}</textarea>
-      <label style="display:block;margin-top:6px;"><input type="checkbox" name="mix" value="1" ${bubMix ? "checked" : ""}> Also keep Blazeian's default lines (mixed in with yours)</label>
+      <label style="display:block;margin-top:6px;"><input type="checkbox" name="mix" value="1" style="width:auto;display:inline-block;margin:0 8px 0 0;padding:0;vertical-align:middle;transform:scale(1.25);" ${bubMix ? "checked" : ""}> Also keep Blazeian's default lines (mixed in with yours)</label>
       <button class="save" style="margin-top:8px;">Save speech bubbles</button>
     </form>
     <p class="hint">One line = one bubble (max 20 lines, 120 characters each). Leave it empty to use Blazeian's default lines. Works for the normal Run mascot <b>and</b> every Halloween skin — your OBS overlay picks up changes within a minute, no refresh needed.</p>
@@ -4641,7 +4641,7 @@ function renderGiveawayPanel(username) {
         <div style="flex:1;min-width:150px;"><label>Join command (without !)</label><input name="joinCmd" placeholder="join" value="${esc(gw.joinCmd || "")}"></div>
         <div style="flex:1;min-width:150px;"><label>View-list command (without !)</label><input name="viewCmd" placeholder="entries" value="${esc(gw.viewCmd || "")}"></div>
       </div>
-      <label style="display:block;margin-top:10px;"><input type="checkbox" name="open" value="1" ${openChecked}> ✅ Giveaway is OPEN (accepting entries)</label>
+      <label style="display:block;margin-top:10px;"><input type="checkbox" name="open" value="1" style="width:auto;display:inline-block;margin:0 8px 0 0;padding:0;vertical-align:middle;transform:scale(1.25);" ${openChecked}> ✅ Giveaway is OPEN (accepting entries)</label>
       <button class="save" style="margin-top:10px;">Save Giveaway Settings</button>
     </form>
     <div style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(92,244,114,.2);">
