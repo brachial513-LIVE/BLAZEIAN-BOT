@@ -3169,7 +3169,7 @@
         "totalVotes": 24420,
         "totalSubs": 87,
         "totalChatMessages": 7909,
-        "totalStreamMinutes": 23940,
+        "totalStreamMinutes": 23945,
         "emotes": {
           "❤": 233,
           "🙌": 177,
@@ -4451,7 +4451,7 @@
         "totalVotes": 27312,
         "totalSubs": 71,
         "totalChatMessages": 3903,
-        "totalStreamMinutes": 16340,
+        "totalStreamMinutes": 16345,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -10050,7 +10050,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 85,
-        "totalStreamMinutes": 8407,
+        "totalStreamMinutes": 8412,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -11069,8 +11069,8 @@
       "stats": {
         "totalVotes": 33038,
         "totalSubs": 154,
-        "totalChatMessages": 3673,
-        "totalStreamMinutes": 18704,
+        "totalChatMessages": 3676,
+        "totalStreamMinutes": 18709,
         "emotes": {
           "❤": 138,
           "🙌": 220,
@@ -11298,21 +11298,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791380735801
+        "lastChatAt": 1791382242954
       },
       "chatMemory": [
-        {
-          "user": "rafael_zuh",
-          "msg": "yo faithy"
-        },
-        {
-          "user": "rafael_zuh",
-          "msg": "I'm good"
-        },
-        {
-          "user": "rafael_zuh",
-          "msg": "and you"
-        },
         {
           "user": "timdraws",
           "msg": "liking it so far ?"
@@ -11340,6 +11328,18 @@
         {
           "user": "timdraws",
           "msg": "unlock mmore inventory slots"
+        },
+        {
+          "user": "lunaria",
+          "msg": "bossing! sinu sinu kasama mo sa server?"
+        },
+        {
+          "user": "faithy_",
+          "msg": "sila fart tim"
+        },
+        {
+          "user": "faithy_",
+          "msg": "baka maglaro na rin si neko"
         }
       ],
       "customCommands": {},
@@ -14320,7 +14320,7 @@
         "totalVotes": 10430,
         "totalSubs": 31,
         "totalChatMessages": 1375,
-        "totalStreamMinutes": 9019,
+        "totalStreamMinutes": 9024,
         "emotes": {
           "❤": 84,
           "🙌": 60,
@@ -15676,8 +15676,8 @@
       "stats": {
         "totalVotes": 12897,
         "totalSubs": 92,
-        "totalChatMessages": 1756,
-        "totalStreamMinutes": 4661,
+        "totalChatMessages": 1757,
+        "totalStreamMinutes": 4664,
         "emotes": {
           "❤": 118,
           "🙌": 132,
@@ -15688,8 +15688,8 @@
           "💛": 27,
           "🗳": 303,
           "🎁": 144,
-          "📴": 37,
-          "👋": 46,
+          "📴": 38,
+          "👋": 47,
           "💖": 1,
           "☺": 4,
           "✌": 8,
@@ -15847,17 +15847,13 @@
           "👉": "👉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791381761740,
+        "lastChatAt": 1791382188021,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "poetbabe",
-          "msg": "[emote:849b2d68-7a30-4dcc-9981-1906ce5d70ca] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:849b2d68-7a30-4dcc-9981-1906ce5d70ca]"
-        },
         {
           "user": "nekoschwan",
           "msg": "bukas nalang plate up"
@@ -15893,6 +15889,10 @@
         {
           "user": "cabsss",
           "msg": "isang stick O po"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -15904,7 +15904,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a96e3b9b-e096-4d22-88d0-5625f826e0c3.gif",
-      "streamTitle": "I'm back, let's play Nivalis Nights 🔥 — Steam",
+      "streamTitle": "",
       "profile": "Welcome to missaria’s cozy corner of chill, “disaster haha” vibes. We echo “raidersss” and “w” in every raid, love “ang hirap haha” moments, “pag matagal yung veggies hagis ko na” jokes, and “next time ako buy dami commitments” plans. Celebrate with “❤️ NEW FOLLOWER!! ❤️” cheers and “🚨🚨🚨 RAID ALERT!!” shoutouts. Keep the game fun, keep the laughs rolling.",
       "_profileAtCount": 1699,
       "gameOverride": "",
@@ -15997,8 +15997,8 @@
       },
       "nudgedAt": 1785549785246,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "ALPHA TEST - Crazy Kart Classic Global 🚗 — Just Chatting",
-      "lastStreamEndedAt": 1790692581072,
+      "lastStreamInfo": "I'm back, let's play Nivalis Nights 🔥 — Steam",
+      "lastStreamEndedAt": 1791382182773,
       "commandMedia": {},
       "botVip": true,
       "_idAt": 1791369705565
@@ -22569,8 +22569,8 @@
     }
   },
   "auth": {
-    "accessToken": "0e4b3c05192aecf60db3301828639661",
-    "refreshToken": "817a459cc5dae4c8f4e5f918c71e42b0",
+    "accessToken": "734670bc9e07b1da4b47974464a01048",
+    "refreshToken": "a0052533c24150778bc201ca2246c0fb",
     "sessionToken": "5d9d68afdc6dff3c472cee6a71241bb6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
