@@ -3305,11 +3305,30 @@ const MASCOT_URL = process.env.BOT_AVATAR || "https://cdn.blaze.stream/uploads/a
 const MASCOT_SKINS = {
   untot:   { file: "shibi_untot.png",   label: "🧟 Undead", run: { file: "shibi_untot_run.png", frames: 8, cw: 200, fps: 10, speedMul: 0.65 }, motion: { speedMul: 0.5,  bob: 14, bobMs: 760,  floatY: 0,   squash: 0.14, lean: 4, tilt: 0, float: false } },
   kuebis:  { file: "shibi_kuebis.png",  label: "🎃 Pumpkin", run: { file: "shibi_kuebis_run.png", frames: 8, cw: 200, fps: 13, speedMul: 1 }, motion: { speedMul: 0.95, bob: 34, bobMs: 540,  floatY: 0,   squash: 0.18, lean: 0, tilt: 0, float: false } },
-  geist:   { file: "shibi_geist.png",   label: "👻 Ghost",    motion: { speedMul: 0.7,  bob: 24, bobMs: 2400, floatY: 140, squash: 0,    lean: 0, tilt: 3, float: true } },
+  geist:   { file: "shibi_geist.png",   label: "👻 Ghost",    motion: { speedMul: 0.7,  bob: 24, bobMs: 2400, floatY: 30, squash: 0,    lean: 0, tilt: 3, float: true } },
   genaeht: { file: "shibi_genaeht.png", label: "🧵 Stitched", motion: { speedMul: 0.42, bob: 10, bobMs: 920,  floatY: 0,   squash: 0.09, lean: 6, tilt: 0, float: false } },
   teufel:  { file: "shibi_teufel.png",  label: "😈 Devil", run: { file: "shibi_teufel_run.png", frames: 8, cw: 200, fps: 12, speedMul: 1 }, motion: { speedMul: 1.05, bob: 20, bobMs: 600,  floatY: 0,   squash: 0.14, lean: 3, tilt: 0, float: false } },
 };
 
+// Mascot speech-bubble lines. Streamers can set their own in the dashboard (channels[id].mascotMsgs);
+// mascotMsgsMix keeps these defaults mixed in. Used by /overlay/run (normal + skins) and /api/bubbles.
+const MASCOT_DEFAULT_MSGS = [
+  "gm! Blazeian_Bot_AI wishes you an epic stream 💚",
+  "You like me? Come join my crew — I do way more than just run around 🔥",
+  "Type !join in my channel and I hop into YOUR stream too 🤖",
+  "I read chat, and celebrate every sub, follow & raid 💚",
+  "Follow the streamer & drop a vote — spread the love 🔥",
+  "Loyal to the last drop of oil 🛢️💚 — that's me!",
+  "Need me? Just @ me in chat, I actually answer 👀",
+  "24/7 online, never missing a moment of your stream 💪"
+];
+function mascotBubbleLines(username) {
+  const cid = findChannelByUsername(username || "");
+  const ch = cid && channels[cid];
+  const lines = (ch && Array.isArray(ch.mascotMsgs)) ? ch.mascotMsgs : [];
+  if (!lines.length) return null;
+  return ch.mascotMsgsMix ? lines.concat(MASCOT_DEFAULT_MSGS) : lines;
+}
 
 function esc(s) { return String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
@@ -3487,6 +3506,10 @@ function renderOverlaySection(username) {
   const alertUrl  = `${SELF_URL}/overlay/alert/${encodeURIComponent(username)}`;
   const seagullUrl = `${SELF_URL}/overlay/seagull`;
   const showSeagull = SEAGULL_DASH_USERS.includes((username || "").toLowerCase());
+  const bubCid = findChannelByUsername(username || "");
+  const bubCh = bubCid && channels[bubCid];
+  const bubLines = (bubCh && Array.isArray(bubCh.mascotMsgs)) ? bubCh.mascotMsgs : [];
+  const bubMix = !!(bubCh && bubCh.mascotMsgsMix);
   return `
   <h2>🎬 OBS Overlays (free!)</h2>
   <div class="card">
@@ -3516,10 +3539,17 @@ function renderOverlaySection(username) {
       <option value="geist">👻 Ghost</option>
       <option value="genaeht">🧵 Stitched</option>
       <option value="teufel">😈 Devil</option>
-      <option value="random">🎲 Random (changes each appearance)</option>
+      <option value="random">🎲 Random (new look every 13 seconds)</option>
     </select>
     <input id="hwSkinUrl" readonly onclick="this.select()" value="${esc(runUrl)}" style="margin-top:6px;">
-    <p class="hint">Pick a look above → the URL below updates automatically. Paste <b>that</b> URL into OBS (1920×1080) instead of the normal Run URL. "Normal" keeps the original animated Blazeian. The Halloween character <b>floats &amp; glides</b> across the stream with a portal entrance and speech bubbles. Append size/speed if you like, e.g. <code>&amp;size=200&amp;speed=120</code>. Christmas / Easter sets will be added later. 🎃</p>
+    <p class="hint">Pick a look above → the URL below updates automatically. Paste <b>that</b> URL into OBS (1920×1080) instead of the normal Run URL. "Normal" keeps the original animated Blazeian. Devil, Undead &amp; Pumpkin <b>really run</b>, the Ghost floats, Stitched glides — all with a portal entrance, and when they talk they stop and turn to face your viewers. <b>Random</b> morphs into a new look every 13 s through a portal, no OBS refresh needed (change the pace with <code>&amp;rotate=20</code>). Append size/speed if you like, e.g. <code>&amp;size=200&amp;speed=120</code>. Christmas / Easter sets will be added later. 🎃</p>
+    <label id="bubbles" style="margin-top:14px;">💬 Mascot speech bubbles — what YOUR Blazeian says</label>
+    <form method="POST" action="/dashboard/setbubbles">
+      <textarea name="lines" rows="5" style="width:100%;box-sizing:border-box;" placeholder="One line = one bubble, e.g.&#10;Welcome to the stream! 💚&#10;Don't forget to drop a vote 🔥">${esc(bubLines.join("\n"))}</textarea>
+      <label style="display:block;margin-top:6px;"><input type="checkbox" name="mix" value="1" ${bubMix ? "checked" : ""}> Also keep Blazeian's default lines (mixed in with yours)</label>
+      <button class="save" style="margin-top:8px;">Save speech bubbles</button>
+    </form>
+    <p class="hint">One line = one bubble (max 20 lines, 120 characters each). Leave it empty to use Blazeian's default lines. Works for the normal Run mascot <b>and</b> every Halloween skin — your OBS overlay picks up changes within a minute, no refresh needed.</p>
     <label style="margin-top:14px;">🎊 Raid Alert — clean banner + sound when someone raids you</label>
     <input readonly onclick="this.select()" value="${esc(raidUrl)}">
     <p class="hint">Paste this ONE URL into OBS (Browser Source, <b>1920×1080</b>) — it never changes. Everything below is set right here in the dashboard and applies automatically. Banner text is fully editable in the <b>More</b> tab (default: "<b>&lt;Raider&gt; has raided your Channel with &lt;N&gt; Awesome People !</b>"). Add <code>?test=1</code> to the URL to place it in OBS.</p>
@@ -6371,6 +6401,26 @@ app.get("/api/react/:username", (req, res) => {
   res.json({ type: null });
 });
 
+// Live speech-bubble lines for the mascot overlays (they poll this every minute, so dashboard edits show
+// up in OBS without a refresh).
+app.get("/api/bubbles/:username", (req, res) => {
+  res.set("Cache-Control", "no-store");
+  res.json({ msgs: mascotBubbleLines(req.params.username) || MASCOT_DEFAULT_MSGS });
+});
+
+// Streamer's own mascot speech-bubble lines (one per line). Empty = Blazeian's default lines.
+app.post("/dashboard/setbubbles", async (req, res) => {
+  const channelId = dashboardChannelId(req);
+  if (!channelId) return res.status(403).send("Not logged in. <a href='/dashboard'>Login</a>");
+  const lines = String(req.body.lines || "").split(/\r?\n/)
+    .map(l => l.replace(/[\u0000-\u001f\u007f]/g, "").trim().slice(0, 120))
+    .filter(Boolean).slice(0, 20);
+  channels[channelId].mascotMsgs = lines;
+  channels[channelId].mascotMsgsMix = req.body.mix != null; // unchecked checkbox isn't sent
+  await saveChannelsToCloud();
+  res.redirect("/dashboard#bubbles");
+});
+
 app.get("/overlay/run/:username", (req, res) => {
   const size  = Math.max(70, Math.min(400, parseInt(req.query.size)  || 160));
   const speed = Math.max(30, Math.min(400, parseInt(req.query.speed) || 120));
@@ -6390,16 +6440,8 @@ app.get("/overlay/run/:username", (req, res) => {
   if (t === "rgb") rgb = true;
   else if (THEMES[t] !== undefined) hue = THEMES[t];
   else if (req.query.hue !== undefined) hue = ((parseInt(req.query.hue) % 360) + 360) % 360;
-  const msgs = [
-    "gm! Blazeian_Bot_AI wishes you an epic stream 💚",
-    "You like me? Come join my crew — I do way more than just run around 🔥",
-    "Type !join in my channel and I hop into YOUR stream too 🤖",
-    "I read chat, and celebrate every sub, follow & raid 💚",
-    "Follow the streamer & drop a vote — spread the love 🔥",
-    "Loyal to the last drop of oil 🛢️💚 — that's me!",
-    "Need me? Just @ me in chat, I actually answer 👀",
-    "24/7 online, never missing a moment of your stream 💪"
-  ];
+  const msgs = mascotBubbleLines(req.params.username) || MASCOT_DEFAULT_MSGS;
+  const jsonSafe = v => JSON.stringify(v).replace(/</g, "\\u003c"); // streamer-written lines can't break out of <script>
   const pW = Math.round(size*1.3), pH = Math.round(size*0.52);
   // SEASONAL SKIN MODE (unified): ?skin=<variant> or ?skin=random. Each variant renders in its own mode —
   // "run" variants (a real sprite-sheet run cycle extracted from Brachial's sheets) animate & run like the
@@ -6412,7 +6454,7 @@ app.get("/overlay/run/:username", (req, res) => {
     const skinCfg = {};
     Object.keys(MASCOT_SKINS).forEach(k => {
       const m = MASCOT_SKINS[k];
-      if (m.run) skinCfg[k] = { mode: "run", url: `${SELF_URL}/mascot-run/${k}.png`, frames: m.run.frames, cw: m.run.cw || 200, fps: m.run.fps || 12, speedMul: m.run.speedMul || 1 };
+      if (m.run) skinCfg[k] = { mode: "run", url: `${SELF_URL}/mascot-run/${k}.png`, frames: m.run.frames, cw: m.run.cw || 200, fps: m.run.fps || 12, speedMul: m.run.speedMul || 1, front: `${SELF_URL}/mascot-skin/${k}.png` };
       else skinCfg[k] = { mode: "float", url: `${SELF_URL}/mascot-skin/${k}.png`, p: m.motion || {} };
     });
     const single = (skin === "random" || !MASCOT_SKINS[skin]) ? "" : skin;
@@ -6422,32 +6464,32 @@ app.get("/overlay/run/:username", (req, res) => {
   #wrap{position:fixed;top:0;left:0;width:${size}px;height:${size}px;will-change:transform;}
   #flt{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 12px rgba(0,0,0,.55));transform-origin:50% 92%;}
   #cv{position:absolute;inset:0;filter:drop-shadow(0 6px 10px rgba(0,0,0,.45));display:none;}
-  #portal{position:fixed;top:0;left:0;width:${pW}px;height:${pH}px;opacity:0;pointer-events:none;filter:drop-shadow(0 0 26px rgba(74,222,128,.8));}
+  #portal{position:fixed;top:0;left:0;width:${pW}px;height:${pW}px;opacity:0;pointer-events:none;transform:scaleY(0.4);filter:drop-shadow(0 0 26px rgba(74,222,128,.8));}
   #swirl{width:100%;height:100%;border-radius:50%;background:conic-gradient(from 0deg,#0b6b34,#7dff9e,#0aa04e,#c8ffd6,#0b6b34);
     -webkit-mask:radial-gradient(ellipse at center,#000 26%,rgba(0,0,0,.55) 52%,transparent 70%);
     mask:radial-gradient(ellipse at center,#000 26%,rgba(0,0,0,.55) 52%,transparent 70%);animation:spin 1.1s linear infinite;}
   @keyframes spin{to{transform:rotate(360deg);}}
   #bubble{position:absolute;left:50%;bottom:${size-4}px;transform:translateX(-28%);max-width:290px;min-width:70px;
     background:linear-gradient(180deg,#0c1a0c,#08120a);color:#b9ffd0;padding:10px 14px;border-radius:14px;border:2px solid #4ade80;
-    font-size:15px;font-weight:700;line-height:1.28;box-shadow:0 0 16px rgba(74,222,128,.45),0 4px 14px rgba(0,0,0,.5);opacity:0;transition:opacity .25s;pointer-events:none;text-align:center;}
+    font-size:15px;font-weight:700;line-height:1.28;box-shadow:0 0 16px rgba(74,222,128,.45),0 4px 14px rgba(0,0,0,.5);opacity:0;transition:opacity .25s;pointer-events:none;text-align:center;width:max-content;}
   #bubble.show{opacity:1;}
 </style></head><body>
 <div id="portal"><div id="swirl"></div></div>
 <div id="wrap"><canvas id="cv" width="${size}" height="${size}"></canvas><img id="flt" alt=""><div id="bubble"></div></div>
 <script>
   var SIZE=${size}, SPEED=${speed}, TALK=${talk}, PORTAL=${portalOn}, PW=${pW}, PH=${pH}, ROTATE=${rotate}*1000;
-  var CFG=${JSON.stringify(skinCfg)}, SINGLE=${JSON.stringify(single)}, MSGS=${JSON.stringify(msgs)};
+  var CFG=${JSON.stringify(skinCfg)}, SINGLE=${JSON.stringify(single)}, MSGS=${jsonSafe(msgs)}, USER=${JSON.stringify(req.params.username)};
   var NAMES=Object.keys(CFG);
   var wrap=document.getElementById('wrap'), flt=document.getElementById('flt'), cv=document.getElementById('cv'), ctx=cv.getContext('2d'), bub=document.getElementById('bubble'), portalEl=document.getElementById('portal');
   function vw(){return window.innerWidth||1920;} function vh(){return window.innerHeight||1080;}
   var x=40, dir=1, last=performance.now(), nextTalk=last+9000;
-  var MODE='float', cur='', ready=false, morphUntil=0;
+  var MODE='float', cur='', ready=false, morphUntil=0, talkUntil=0, pendingMorph=false, hasFront=false;
   var runImg=null, RF=8, RCW=200, RSPM=1, RFPS=12, frame=0, lastF=0;
   var SPEEDM=1, BOBA=14, BOBMS=600, FLOATY=0, SQUASH=0, LEAN=0, TILTA=0, FLOAT=false;
   function groundY(){ return vh()-SIZE-24-(MODE==='float'?FLOATY:0); }
-  function showBubble(){ if(!TALK) return; bub.textContent=MSGS[Math.floor(Math.random()*MSGS.length)]; bub.classList.add('show'); setTimeout(function(){bub.classList.remove('show');},6000); }
-  function portalShow(){ if(!PORTAL) return; var by=groundY(), px=Math.min(Math.max(x,0),vw()-SIZE);
-    portalEl.style.left=(px+SIZE/2-PW/2)+'px'; portalEl.style.top=(by+SIZE-PH+6)+'px'; portalEl.style.transition='opacity .25s'; portalEl.style.opacity=1;
+  function showBubble(){ if(!TALK||!MSGS.length) return; bub.textContent=MSGS[Math.floor(Math.random()*MSGS.length)]; bub.classList.add('show'); talkUntil=performance.now()+5200; setTimeout(function(){bub.classList.remove('show');},5200); }
+  function portalShow(){ if(!PORTAL) return; var gy=vh()-SIZE-24, px=Math.min(Math.max(x,0),vw()-SIZE);
+    portalEl.style.left=(px+SIZE/2-PW/2)+'px'; portalEl.style.top=(gy+SIZE-6-PW/2)+'px'; portalEl.style.transition='opacity .25s'; portalEl.style.opacity=1;
     setTimeout(function(){ portalEl.style.transition='opacity .6s'; portalEl.style.opacity=0; }, 850); }
   function loadSkin(name){
     var c=CFG[name]; if(!c) return; cur=name; ready=false; morphUntil=performance.now()+650; portalShow();
@@ -6455,6 +6497,7 @@ app.get("/overlay/run/:username", (req, res) => {
       MODE='run'; cv.style.display='block'; flt.style.display='none';
       RF=c.frames||8; RCW=c.cw||200; RFPS=c.fps||12; RSPM=c.speedMul||1; frame=0;
       runImg=new Image(); runImg.onload=function(){ ready=true; }; runImg.onerror=function(){ ready=true; }; runImg.src=c.url;
+      hasFront=false; flt.onload=function(){ hasFront=true; }; flt.onerror=null; if(c.front) flt.src=c.front;
     } else {
       MODE='float'; cv.style.display='none'; flt.style.display='block';
       var p=c.p||{}; SPEEDM=(p.speedMul!=null?p.speedMul:1); BOBA=(p.bob!=null?p.bob:14); BOBMS=(p.bobMs||600); FLOATY=(p.floatY||0); SQUASH=(p.squash||0); LEAN=(p.lean||0); TILTA=(p.tilt||0); FLOAT=!!p.float;
@@ -6464,8 +6507,15 @@ app.get("/overlay/run/:username", (req, res) => {
   function pickRandom(){ var o=NAMES.filter(function(n){return n!==cur;}); return o.length?o[Math.floor(Math.random()*o.length)]:(NAMES[0]||''); }
   function tick(now){
     var dt=(now-last)/1000; last=now; var by=groundY(), face=(dir<0?-1:1);
-    if(ready && now>morphUntil){ var sm=(MODE==='run'?RSPM:SPEEDM); x+=dir*SPEED*sm*dt; if(x<0){x=0;dir=1;} else if(x>vw()-SIZE){x=vw()-SIZE;dir=-1;} }
-    if(MODE==='run'){
+    var talking=now<talkUntil;
+    if(pendingMorph && !talking){ pendingMorph=false; loadSkin(pickRandom()); }
+    if(ready && now>morphUntil && !talking){ var sm=(MODE==='run'?RSPM:SPEEDM); x+=dir*SPEED*sm*dt; if(x<0){x=0;dir=1;} else if(x>vw()-SIZE){x=vw()-SIZE;dir=-1;} }
+    if(MODE==='run' && talking && hasFront){
+      cv.style.display='none'; flt.style.display='block';
+      wrap.style.transform='translate('+x+'px,'+(by-Math.abs(Math.sin(now/650*Math.PI))*4)+'px)';
+      flt.style.transform='scale(0.86)';
+    } else if(MODE==='run'){
+      cv.style.display='block'; flt.style.display='none';
       if(now-lastF>1000/RFPS){ frame=(frame+1)%RF; lastF=now; }
       wrap.style.transform='translate('+x+'px,'+by+'px)';
       ctx.clearRect(0,0,SIZE,SIZE);
@@ -6478,11 +6528,12 @@ app.get("/overlay/run/:username", (req, res) => {
       wrap.style.transform='translate('+x+'px,'+(by-bob)+'px)';
       flt.style.transform='scaleX('+(face*sX).toFixed(3)+') scaleY('+sY.toFixed(3)+') rotate('+rot.toFixed(2)+'deg)';
     }
-    if(TALK&&now>nextTalk){ showBubble(); nextTalk=now+45000+Math.random()*45000; }
+    if(TALK&&now>nextTalk&&ready&&now>morphUntil){ showBubble(); nextTalk=now+25000+Math.random()*30000; }
     requestAnimationFrame(tick);
   }
   loadSkin(SINGLE || pickRandom());
-  if(!SINGLE){ setInterval(function(){ loadSkin(pickRandom()); }, ROTATE); }
+  if(!SINGLE){ setInterval(function(){ if(performance.now()<talkUntil){ pendingMorph=true; return; } loadSkin(pickRandom()); }, ROTATE); }
+  setInterval(function(){ fetch('/api/bubbles/'+encodeURIComponent(USER)).then(function(r){return r.json();}).then(function(j){ if(j&&j.msgs&&j.msgs.length) MSGS=j.msgs; }).catch(function(){}); }, 60000);
   requestAnimationFrame(tick);
 </script></body></html>`);
   }
@@ -6521,7 +6572,8 @@ app.get("/overlay/run/:username", (req, res) => {
   var STRIDE=size*${stride},distAcc=0,turnUntil=0,turnDir=1;
   function faceFor(d){var f=(d>0?-1:1);return MIRROR?-f:f;}
   var IDLE=6,JUMP=7,CHEER=8,THUMB=9,HEART=10,pW=${pW},pH=${pH},portalTopY=6;
-  var HUE=${hue},RGB=${rgb},MSGS=${JSON.stringify(msgs)},USER=${JSON.stringify(req.params.username)};
+  var HUE=${hue},RGB=${rgb},MSGS=${jsonSafe(msgs)},USER=${JSON.stringify(req.params.username)};
+  setInterval(function(){ fetch('/api/bubbles/'+encodeURIComponent(USER)).then(function(r){return r.json();}).then(function(j){ if(j&&j.msgs&&j.msgs.length) MSGS=j.msgs; }).catch(function(){}); }, 60000);
   var FEMALE=${female},bowHue=${hue};
   var cv=document.getElementById('c'),ctx=cv.getContext('2d'),wrap=document.getElementById('wrap'),bub=document.getElementById('bubble');
   var portalEl=document.getElementById('portal');
