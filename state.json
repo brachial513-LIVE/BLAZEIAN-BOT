@@ -4444,9 +4444,9 @@
       "username": "capt_rob_advent",
       "language": "en",
       "stats": {
-        "totalVotes": 26692,
+        "totalVotes": 26717,
         "totalSubs": 71,
-        "totalChatMessages": 3832,
+        "totalChatMessages": 3833,
         "totalStreamMinutes": 16220,
         "emotes": {
           "😊": 5,
@@ -4554,7 +4554,7 @@
           "🍺": 12,
           "🫶": 3,
           "🙌": 49,
-          "🗳": 336,
+          "🗳": 339,
           "📴": 35,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 121,
           "🔴": 34,
@@ -4761,13 +4761,9 @@
           "3a0bbdaa-5c9d-44bc-8291-5e4446aac8d5": "PYROBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791346153751
+        "lastChatAt": 1791360575886
       },
       "chatMemory": [
-        {
-          "user": "k1ngbre4ker",
-          "msg": "You have been marked as BuildingIT!"
-        },
         {
           "user": "k1ngbre4ker",
           "msg": "Keep your eyes out this week!"
@@ -4803,6 +4799,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5436,14 +5436,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 37149,
+        "totalVotes": 37199,
         "totalSubs": 94,
-        "totalChatMessages": 13297,
+        "totalChatMessages": 13298,
         "totalStreamMinutes": 8440,
         "emotes": {
           "❤": 223,
           "🙌": 357,
-          "🗳": 1670,
+          "🗳": 1673,
           "✌": 11,
           "😊": 10,
           "👍": 19,
@@ -5975,13 +5975,9 @@
           "💕": "💕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791351527130
+        "lastChatAt": 1791360673948
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -6017,6 +6013,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -12459,14 +12459,14 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 62172,
+        "totalVotes": 62222,
         "totalSubs": 73,
-        "totalChatMessages": 4536,
+        "totalChatMessages": 4537,
         "totalStreamMinutes": 1788,
         "emotes": {
           "❤": 61,
           "🙌": 120,
-          "🗳": 804,
+          "🗳": 807,
           "💰": 40,
           "🔥": 89,
           "💛": 3,
@@ -12816,17 +12816,13 @@
           "🍷": "🍷"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791330662802,
+        "lastChatAt": 1791360533206,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 150 vote(s) (total: 4700)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @lvl4goblin! How generous!! 🙌"
@@ -12862,6 +12858,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 200 vote(s) (total: 6300)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -22534,8 +22534,8 @@
     }
   },
   "auth": {
-    "accessToken": "5bff836aeb889a6a748b19257615e5ee",
-    "refreshToken": "fc6bdf196221ea7fd90fc38dc45d9cda",
+    "accessToken": "3149f2e75696356554a19d82a8dc8c4e",
+    "refreshToken": "961dfabfea03bb3c5f93e49ded960d3d",
     "sessionToken": "5d9d68afdc6dff3c472cee6a71241bb6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
