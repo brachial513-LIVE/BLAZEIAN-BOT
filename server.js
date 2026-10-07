@@ -3306,7 +3306,7 @@ const MASCOT_SKINS = {
   untot:   { file: "shibi_untot.png",   label: "🧟 Undead", run: { file: "shibi_untot_run.png", frames: 8, cw: 200, fps: 10, speedMul: 0.65 }, motion: { speedMul: 0.5,  bob: 14, bobMs: 760,  floatY: 0,   squash: 0.14, lean: 4, tilt: 0, float: false } },
   kuebis:  { file: "shibi_kuebis.png",  label: "🎃 Pumpkin", run: { file: "shibi_kuebis_run.png", frames: 8, cw: 200, fps: 13, speedMul: 1 }, motion: { speedMul: 0.95, bob: 34, bobMs: 540,  floatY: 0,   squash: 0.18, lean: 0, tilt: 0, float: false } },
   geist:   { file: "shibi_geist.png",   label: "👻 Ghost",    motion: { speedMul: 0.7,  bob: 24, bobMs: 2400, floatY: 30, squash: 0,    lean: 0, tilt: 3, float: true } },
-  genaeht: { file: "shibi_genaeht.png", label: "🧵 Stitched", motion: { speedMul: 0.42, bob: 10, bobMs: 920,  floatY: 0,   squash: 0.09, lean: 6, tilt: 0, float: false } },
+  genaeht: { file: "shibi_genaeht.png", label: "🧵 Stitched", run: { file: "shibi_genaeht_run.png", frames: 8, cw: 200, fps: 10, speedMul: 0.75 }, motion: { speedMul: 0.42, bob: 10, bobMs: 920,  floatY: 0,   squash: 0.09, lean: 6, tilt: 0, float: false } },
   teufel:  { file: "shibi_teufel.png",  label: "😈 Devil", run: { file: "shibi_teufel_run.png", frames: 8, cw: 200, fps: 12, speedMul: 1 }, motion: { speedMul: 1.05, bob: 20, bobMs: 600,  floatY: 0,   squash: 0.14, lean: 3, tilt: 0, float: false } },
 };
 
