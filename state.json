@@ -2793,7 +2793,19 @@
           "tier": 1
         }
       },
-      "_idAt": 1791482841551
+      "_idAt": 1791482841551,
+      "raidConfig": {
+        "gif": "",
+        "audio": "",
+        "audioCredit": "",
+        "label": "RAID",
+        "text": "{raider} has raided your Channel with {count} Awesome People !",
+        "dur": 8,
+        "scale": 1,
+        "box": true,
+        "sound": true,
+        "confetti": true
+      }
     },
     "cef62e02-6fea-468d-9f76-2f4feb1060b7": {
       "username": "thom6ss_otg",
@@ -3766,14 +3778,14 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 40132,
+        "totalVotes": 40138,
         "totalSubs": 90,
-        "totalChatMessages": 17242,
-        "totalStreamMinutes": 10150,
+        "totalChatMessages": 17267,
+        "totalStreamMinutes": 10156,
         "emotes": {
-          "❤": 6657,
+          "❤": 6660,
           "🎵": 682,
-          "💃": 313,
+          "💃": 314,
           "🔥": 1376,
           "💚": 22,
           "👋": 293,
@@ -3787,17 +3799,17 @@
           "🎸": 238,
           "🤘": 10,
           "👀": 26,
-          "🕺": 70,
+          "🕺": 71,
           "😑": 3,
           "💕": 37,
-          "😁": 87,
+          "😁": 88,
           "😆": 25,
           "🐝": 1096,
           "🥷": 4,
           "😃": 4,
           "💪": 43,
           "🥹": 6,
-          "🤣": 737,
+          "🤣": 740,
           "🥚": 16,
           "🙏": 518,
           "😀": 15,
@@ -3848,8 +3860,8 @@
           "👌": 11,
           "🤧": 2,
           "🎁": 45,
-          "☝": 28,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 326,
+          "☝": 29,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 332,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 20,
           "07de98c1-b682-4d82-b630-774474b712cc": 3,
           "b416995d-3eee-4c99-9927-86fa112b0b18": 11,
@@ -3872,24 +3884,24 @@
           "🎆": 2,
           "🎉": 8,
           "🦵": 3,
-          "a43a08cd-5224-4a75-968b-1c12fcd087e3": 337,
-          "57033a2d-497d-4cb1-afa8-831b55347aae": 93,
-          "29492159-a350-4196-b94c-6e01af87a634": 342,
-          "b9a50ea5-8eb3-49d9-bfdf-8c922496aef8": 329,
-          "4aafb92a-a21b-49ff-99f6-8430048f9fc4": 73,
-          "fc7e2ae0-ece5-463c-9aaf-b7655525559b": 265,
-          "213445d2-f92b-400c-a56f-b091519e6ff7": 281,
-          "bce37112-0e5c-44d5-b1d3-62cf02d591b3": 87,
+          "a43a08cd-5224-4a75-968b-1c12fcd087e3": 339,
+          "57033a2d-497d-4cb1-afa8-831b55347aae": 94,
+          "29492159-a350-4196-b94c-6e01af87a634": 347,
+          "b9a50ea5-8eb3-49d9-bfdf-8c922496aef8": 330,
+          "4aafb92a-a21b-49ff-99f6-8430048f9fc4": 74,
+          "fc7e2ae0-ece5-463c-9aaf-b7655525559b": 266,
+          "213445d2-f92b-400c-a56f-b091519e6ff7": 282,
+          "bce37112-0e5c-44d5-b1d3-62cf02d591b3": 88,
           "d7f4fdce-e137-41a9-837c-1afa844e7834": 5,
-          "9644306b-78ae-4df1-be70-b52009c76049": 105,
+          "9644306b-78ae-4df1-be70-b52009c76049": 106,
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": 2,
           "👁": 2,
           "👄": 1,
-          "12d57d38-0432-4222-9f90-c2f0b1dc400f": 33,
-          "bfb66467-56b9-4e4b-a691-80fa5f012fa6": 33,
+          "12d57d38-0432-4222-9f90-c2f0b1dc400f": 34,
+          "bfb66467-56b9-4e4b-a691-80fa5f012fa6": 34,
           "🪀": 1,
-          "0df03081-f425-43c1-b55e-56aa722c820e": 142,
-          "a2e96b00-96b1-49ae-a19b-5ca81e50a614": 156,
+          "0df03081-f425-43c1-b55e-56aa722c820e": 143,
+          "a2e96b00-96b1-49ae-a19b-5ca81e50a614": 157,
           "🐕": 2,
           "🦴": 4,
           "🪘": 21,
@@ -4202,7 +4214,7 @@
           "🤢": "🤢",
           "🧙": "🧙"
         },
-        "lastChatAt": 1791485475052,
+        "lastChatAt": 1791485846335,
         "sendFailStreak": 557,
         "lastSendFailAt": 1791483046270,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4212,44 +4224,44 @@
       },
       "chatMemory": [
         {
-          "user": "bee12",
-          "msg": "🔥🔥🔥"
+          "user": "doctorgeorgio",
+          "msg": "[emote:fc7e2ae0-ece5-463c-9aaf-b7655525559b] [emote:b9a50ea5-8eb3-49d9-bfdf-8c922496aef8] [emote:a2e96b00-96b1-49ae-a19b-5ca81e50a614] [emote:4aafb92a-a21b-49ff-99f6-8430048f9fc4] [emote:213445d2-f92b-400c-a56f-b091519e6ff7] [emote:bce37112-0e5c-44d5-b1d3-62cf02d591b3] [emote:9644306b-78ae-4df1-be70-b52009c76049] [emote:12d57d38-0432-4222-9f90-c2f0b1dc400f] [emote:a43a08cd-5224-4a75-968b-1c12fcd087e3] [emote:57033a2d-497d-4cb1-afa8-831b55347aae] [emote:bfb66467-56b9-4e4b-a691-80fa5f012fa6] [emote:0df03081-f425-43c1-b55e-56aa722c820e] [emote:29492159-a350-4196-b94c-6e01af87a634] [emote:29492159-a350-4196-b94c-6e01af87a634] [emote:29492159-a350-4196-b94c-6e01af87a634] [emote:29492159-a350-4196-b94c-6e01af87a634]"
         },
         {
           "user": "twistedtinker",
-          "msg": "No Grotto?"
+          "msg": "☝️"
+        },
+        {
+          "user": "twistedtinker",
+          "msg": "💃🕺[emote:a43a08cd-5224-4a75-968b-1c12fcd087e3] [emote:29492159-a350-4196-b94c-6e01af87a634]"
         },
         {
           "user": "doctorgeorgio",
-          "msg": "MAKESONLYBEATS ROCKSSSSSSSS"
+          "msg": "TWISTEDDDD THINKERRR"
         },
         {
           "user": "doctorgeorgio",
-          "msg": "No twisted not this time"
-        },
-        {
-          "user": "makesonlybeats",
-          "msg": "nnnnts nnnnts nnnnts"
+          "msg": "TINKERRRRR"
         },
         {
           "user": "bee12",
-          "msg": "it's downnnnnnn"
+          "msg": "❤️❤️❤️"
         },
         {
           "user": "doctorgeorgio",
-          "msg": "nnnnnnntssssss"
-        },
-        {
-          "user": "bee12",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
+          "msg": "DAMN"
         },
         {
           "user": "doctorgeorgio",
-          "msg": "FUNK SHOWWW BABYYY"
+          "msg": "great song"
         },
         {
-          "user": "makesonlybeats",
-          "msg": "Would be cool to hear Twisted Dirge too"
+          "user": "doctorgeorgio",
+          "msg": "Uncle should get shirtless and dance"
+        },
+        {
+          "user": "doctorgeorgio",
+          "msg": "Deep indeed"
         }
       ],
       "customCommands": {},
@@ -8793,8 +8805,8 @@
       "language": "en",
       "stats": {
         "totalVotes": 22199,
-        "totalSubs": 69,
-        "totalChatMessages": 16718,
+        "totalSubs": 70,
+        "totalChatMessages": 16729,
         "totalStreamMinutes": 11382,
         "emotes": {
           "🧏": 1,
@@ -8806,7 +8818,7 @@
           "🤭": 2,
           "😉": 7,
           "😭": 24,
-          "🤣": 1041,
+          "🤣": 1055,
           "👋": 27,
           "❤": 270,
           "😆": 30,
@@ -9243,48 +9255,48 @@
           "🤺": "🤺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791485389490
+        "lastChatAt": 1791485832814
       },
       "chatMemory": [
         {
           "user": "rafael_zuh",
-          "msg": "sorry bid"
+          "msg": "baby"
         },
         {
           "user": "rafael_zuh",
-          "msg": "but that's funny"
+          "msg": "To redeem myself lol"
         },
         {
           "user": "rafael_zuh",
-          "msg": "why is this song so difficult"
+          "msg": "fnaf bidlo"
         },
         {
           "user": "rafael_zuh",
-          "msg": "how is possible"
+          "msg": "🤣🤣🤣"
         },
         {
           "user": "rafael_zuh",
-          "msg": "five ;-;"
+          "msg": "calm bidlo"
         },
         {
           "user": "rafael_zuh",
-          "msg": "5"
+          "msg": "🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣"
         },
         {
           "user": "rafael_zuh",
-          "msg": "%"
+          "msg": "9omg"
         },
         {
           "user": "rafael_zuh",
-          "msg": "OH"
+          "msg": "omg"
         },
         {
           "user": "rafael_zuh",
-          "msg": "MY"
+          "msg": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         },
         {
           "user": "rafael_zuh",
-          "msg": "GOD"
+          "msg": "show the score"
         }
       ],
       "customCommands": {},
@@ -9397,6 +9409,11 @@
         },
         "k1ngbre4ker": {
           "name": "k1ngbre4ker",
+          "months": 1,
+          "tier": 1
+        },
+        "rafael_zuh": {
+          "name": "rafael_zuh",
           "months": 1,
           "tier": 1
         }
@@ -10089,7 +10106,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 85,
-        "totalStreamMinutes": 8569,
+        "totalStreamMinutes": 8571,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -10174,7 +10191,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1f090e45-3a71-44b8-9333-05e12b2c0f2d.png",
-      "streamTitle": "",
+      "streamTitle": "🎃👻 ¡SKINS DE HALLOWEEN EN BDO! 🦇✨ ¡Vamos a por el look más terrorífico! | Black Desert Online — Black Desert Online",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0,
@@ -13791,8 +13808,8 @@
       "stats": {
         "totalVotes": 16798,
         "totalSubs": 26,
-        "totalChatMessages": 31808,
-        "totalStreamMinutes": 19292,
+        "totalChatMessages": 31828,
+        "totalStreamMinutes": 19298,
         "emotes": {
           "❤": 116,
           "🙌": 77,
@@ -13800,8 +13817,8 @@
           "🔥": 55,
           "🔴": 110,
           "🎉": 249,
-          "🪙": 867,
-          "⚡": 731,
+          "🪙": 868,
+          "⚡": 733,
           "👀": 77,
           "🍿": 20,
           "🤗": 42,
@@ -13976,7 +13993,7 @@
           "🥺": 2,
           "🥈": 46,
           "🥉": 46,
-          "⭐": 111,
+          "⭐": 112,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 2,
           "✊": 1,
           "✋": 1,
@@ -14188,48 +14205,48 @@
           "😸": "😸"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791485506477
+        "lastChatAt": 1791485852342
       },
       "chatMemory": [
         {
-          "user": "lucaetano1",
-          "msg": "É a sequência pro lutador das os golpes"
-        },
-        {
-          "user": "lucaetano1",
-          "msg": "Dar os golpes*"
+          "user": "lovemikami",
+          "msg": "Sei kkkkk kotaro mandou vários áudios aqui hoje"
         },
         {
           "user": "botger",
-          "msg": "🏆 Gorjetas — esta época: 1. @mauhzera $2.00 · 2. @lovemikami $1.00"
+          "msg": "⚡ lovemikami: Level 14 | 71,242 XP (793 to Level 15)"
+        },
+        {
+          "user": "junior7_",
+          "msg": "Nilao nosso janones das kayzos kkk"
         },
         {
           "user": "botger",
-          "msg": "🏆 Votos — esta época: 1. @lobosolitario 485 · 2. @LipeMan 152 · 3. @lovemikami 100 · 4. @mauhzera 100 · 5. @junior7_ 81"
+          "msg": "🪙 @junior7_ 21,210 points."
         },
         {
-          "user": "lucaetano1",
-          "msg": "Gente vou ter que sair"
-        },
-        {
-          "user": "lucaetano1",
-          "msg": "Até mais"
-        },
-        {
-          "user": "mauriciosuporte",
-          "msg": "Vlw ajudou mt"
-        },
-        {
-          "user": "mauriciosuporte",
-          "msg": "Eu nao"
+          "user": "botger",
+          "msg": "⚡ XP Top 5:\n1. lovemikami (L14, 71,242)\n2. junior7_ (L12, 40,694)\n3. lipeman (L11, 37,565)\n4. mauhzera (L11, 36,695)\n5. rechigamer (L10, 27,750)"
         },
         {
           "user": "lovemikami",
-          "msg": "O kotaro"
+          "msg": "Num sou japonês não kkkkk"
+        },
+        {
+          "user": "junior7_",
+          "msg": "Kkkk"
+        },
+        {
+          "user": "mauriciosuporte",
+          "msg": "Coreano"
         },
         {
           "user": "lovemikami",
-          "msg": "Quem tá indo é o kotaro"
+          "msg": "Também não kkkkkkk"
+        },
+        {
+          "user": "junior7_",
+          "msg": "Iii cabou"
         }
       ],
       "customCommands": {},
@@ -14244,7 +14261,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
       "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
       "profile": "sofrenciaplay cranks 1h30m Retro marathons, especially Donkey Kong Country. The chat roars “JOGA SEU JOGO,” celebrates “torradas,” chants “GG” after every win, hyping “Juntos Pelo Lipe” style support. They love “pro player” tags, kaizo‑style jokes, and end streams with “Edao e galera” gratitude. Retro, teamwork, relentless cheers define the vibe.",
-      "_profileAtCount": 31713,
+      "_profileAtCount": 31810,
       "gameOverride": "",
       "commentMode": "low",
       "lastStreamInfo": "Gameplay / Maratona / Desafio / Multiplayer — Retro",
@@ -14766,7 +14783,7 @@
       "stats": {
         "totalVotes": 33943,
         "totalSubs": 57,
-        "totalChatMessages": 6431,
+        "totalChatMessages": 6433,
         "totalStreamMinutes": 11681,
         "emotes": {
           "❤": 106,
@@ -14781,8 +14798,8 @@
           "🌫": 53,
           "🤣": 39,
           "😂": 102,
-          "📴": 94,
-          "👋": 112,
+          "📴": 95,
+          "👋": 113,
           "🚨": 312,
           "🔥": 123,
           "💚": 28,
@@ -15107,17 +15124,9 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791484687539
+        "lastChatAt": 1791485555621
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "It's cool"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Good crew to Outlast with"
-        },
         {
           "user": "tarzan",
           "msg": "Sup"
@@ -15149,6 +15158,14 @@
         {
           "user": "seventh",
           "msg": "thanks for the support bro"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -15161,12 +15178,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
-      "streamTitle": "Skillshot City and stuff — IRL",
+      "streamTitle": "",
       "profile": "noxx’s channel is a bug‑slayer hub blasting “👀👀👀” after kills, “clipping it!” when a clip drops, and “RAID ALERT!!” for big moments. The crew loves skrunky emotes in Helldivers, OTG solos,",
       "_profileAtCount": 6361,
       "gameOverride": "",
-      "lastStreamInfo": "The start of an Adventure! Aion 2 — IRL",
-      "lastStreamEndedAt": 1791306370872,
+      "lastStreamInfo": "Skillshot City and stuff — IRL",
+      "lastStreamEndedAt": 1791485550434,
       "nudgedAt": 1785880640807,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -16305,7 +16322,7 @@
       "stats": {
         "totalVotes": 7143,
         "totalSubs": 25,
-        "totalChatMessages": 1201,
+        "totalChatMessages": 1203,
         "totalStreamMinutes": 13786,
         "emotes": {
           "❤": 71,
@@ -16316,8 +16333,8 @@
           "🔴": 82,
           "🎉": 92,
           "🗳": 213,
-          "📴": 83,
-          "👋": 85,
+          "📴": 84,
+          "👋": 86,
           "☺": 3,
           "🎁": 28,
           "🍺": 20,
@@ -16418,17 +16435,9 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791476615144
+        "lastChatAt": 1791485597751
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @CG777!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 25 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @CG777!"
@@ -16460,6 +16469,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: 1000 votes giveaway |Trying to get my premier rank! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -16475,9 +16492,9 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9da55831-44bb-4899-ba48-50b3bff3c19a.png",
       "followed": true,
       "botVip": true,
-      "streamTitle": "1000 votes giveaway |Trying to get my premier rank — Counter Strike 2",
-      "lastStreamInfo": "1000 votes giveaway | Warzone ranked | Pushing to Crimson — Call Of Duty Warzone",
-      "lastStreamEndedAt": 1791406987496,
+      "streamTitle": "",
+      "lastStreamInfo": "1000 votes giveaway |Trying to get my premier rank — Counter Strike 2",
+      "lastStreamEndedAt": 1791485592567,
       "gameOverride": "",
       "profile": "marioscy5 streams chill vibes, OTG pro skills, and “Like I finally found your stream” moments. The chat roars “You got this” in Counter‑Strike, erupts with “GIFTED SUB!!” when subs drop, and goes wild when “GM gm” starts the stream. Expect “❤️ NEW FOLLOWER!! ❤️” alerts, vote shout‑outs, and celebratory raid cheers.",
       "_profileAtCount": 1183,
