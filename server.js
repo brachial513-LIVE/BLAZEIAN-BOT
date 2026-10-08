@@ -6494,7 +6494,8 @@ app.get("/overlay/run/:username", (req, res) => {
   var runImg=null, RF=8, RCW=200, RSPM=1, RFPS=12, frame=0, lastF=0;
   var SPEEDM=1, BOBA=14, BOBMS=600, FLOATY=0, SQUASH=0, LEAN=0, TILTA=0, FLOAT=false;
   function groundY(){ return vh()-SIZE-24-(MODE==='float'?FLOATY:0); }
-  function showBubble(){ if(!TALK||!MSGS.length) return; bub.textContent=MSGS[Math.floor(Math.random()*MSGS.length)]; bub.classList.add('show'); talkUntil=performance.now()+5200; setTimeout(function(){bub.classList.remove('show');},5200); }
+  function placeBubble(){ var bw=bub.offsetWidth||200; var L=Math.max(8,Math.min(x+SIZE/2-bw/2, vw()-bw-8)); bub.style.left=(L-x)+'px'; bub.style.transform='none'; }
+  function showBubble(){ if(!TALK||!MSGS.length) return; bub.textContent=MSGS[Math.floor(Math.random()*MSGS.length)]; bub.classList.add('show'); placeBubble(); talkUntil=performance.now()+5200; setTimeout(function(){bub.classList.remove('show');},5200); }
   function portalShow(){ if(!PORTAL) return; var gy=vh()-SIZE-24, px=Math.min(Math.max(x,0),vw()-SIZE);
     portalEl.style.left=(px+SIZE/2-PW/2)+'px'; portalEl.style.top=(gy+SIZE-6-PW/2)+'px'; portalEl.style.transition='opacity .25s'; portalEl.style.opacity=1;
     setTimeout(function(){ portalEl.style.transition='opacity .6s'; portalEl.style.opacity=0; }, 850); }
@@ -6562,8 +6563,8 @@ app.get("/overlay/run/:username", (req, res) => {
     font-size:15px;font-weight:700;line-height:1.28;letter-spacing:.2px;text-shadow:0 0 6px rgba(74,222,128,.5);
     box-shadow:0 0 16px rgba(74,222,128,.45),0 4px 14px rgba(0,0,0,.5);opacity:0;transition:opacity .25s,transform .25s;pointer-events:none;text-align:center;}
   #bubble.show{opacity:1;transform:translateX(-28%) translateY(-5px);}
-  #bubble:after{content:"";position:absolute;left:23px;bottom:-11px;border:10px solid transparent;border-top-color:#4ade80;border-bottom:0;}
-  #bubble:before{content:"";position:absolute;left:25px;bottom:-7px;border:8px solid transparent;border-top-color:#0a150a;border-bottom:0;}
+  #bubble:after{content:"";position:absolute;left:var(--tx,23px);bottom:-11px;border:10px solid transparent;border-top-color:#4ade80;border-bottom:0;}
+  #bubble:before{content:"";position:absolute;left:calc(var(--tx,23px) + 2px);bottom:-7px;border:8px solid transparent;border-top-color:#0a150a;border-bottom:0;}
   #stoolB{position:fixed;top:0;left:0;opacity:0;transition:opacity .35s;pointer-events:none;}
   #stoolB .seat{position:absolute;top:0;left:0;right:0;height:26%;background:linear-gradient(180deg,#2e2118,#1c130c);border:2px solid #4ade80;border-radius:8px;box-shadow:0 0 14px rgba(74,222,128,.5);}
   #stoolB .legL,#stoolB .legR{position:absolute;bottom:0;width:12%;height:78%;background:linear-gradient(180deg,#241a11,#140d07);border:2px solid rgba(74,222,128,.55);border-radius:4px;}
@@ -6656,7 +6657,8 @@ app.get("/overlay/run/:username", (req, res) => {
     return{f:IDLE,m:'',d:3000};}
   if(USER){setInterval(function(){fetch('/api/react/'+encodeURIComponent(USER)).then(function(r){return r.json();})
     .then(function(d){if(d&&d.type&&d.ts&&d.ts>lastReactTs){lastReactTs=d.ts;pendingReact=d;}}).catch(function(){});},6000);} // was 3000 — halves request volume; celebrations already display for 4-6s so a few extra seconds of poll lag is imperceptible
-  function tick(now){if(!ready){requestAnimationFrame(tick);return;}
+  function placeBubble(){ var bw=bub.offsetWidth||200; var c=x+size/2; var L=Math.max(8,Math.min(c-bw/2, vw()-bw-8)); bub.style.left=(L-x)+'px'; bub.style.transform='translateY(-5px)'; bub.style.setProperty('--tx', Math.max(10,Math.min(c-L,bw-12))+'px'); }
+  function tick(now){if(!ready){requestAnimationFrame(tick);return;} if(bub.classList.contains('show'))placeBubble();
     var dt=Math.min(0.05,(now-last)/1000);last=now;
     if(RGB&&now-lastHue>90){lastHue=now;bowHue=(now/22)%360;recolor(bowHue);}
     if(mode==='portal'){
