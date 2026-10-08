@@ -3303,11 +3303,11 @@ const MASCOT_URL = process.env.BOT_AVATAR || "https://cdn.blaze.stream/uploads/a
 // SEASONAL MASCOT SKINS — static costume sprites (transparent PNGs in the repo root) the mascot overlay
 // can wear instead of the normal running animation. Extensible: add xmas/easter variants here later.
 const MASCOT_SKINS = {
-  untot:   { file: "shibi_untot.png",   label: "🧟 Undead", run: { file: "shibi_untot_run.png", frames: 8, cw: 200, fps: 10, speedMul: 0.65 }, motion: { speedMul: 0.5,  bob: 14, bobMs: 760,  floatY: 0,   squash: 0.14, lean: 4, tilt: 0, float: false } },
-  kuebis:  { file: "shibi_kuebis.png",  label: "🎃 Pumpkin", run: { file: "shibi_kuebis_run.png", frames: 8, cw: 200, fps: 13, speedMul: 1 }, motion: { speedMul: 0.95, bob: 34, bobMs: 540,  floatY: 0,   squash: 0.18, lean: 0, tilt: 0, float: false } },
-  geist:   { file: "shibi_geist.png",   label: "👻 Ghost",    motion: { speedMul: 0.7,  bob: 24, bobMs: 2400, floatY: 30, squash: 0,    lean: 0, tilt: 3, float: true } },
-  genaeht: { file: "shibi_genaeht.png", label: "🧵 Stitched", run: { file: "shibi_genaeht_run.png", frames: 8, cw: 200, fps: 10, speedMul: 0.75 }, motion: { speedMul: 0.42, bob: 10, bobMs: 920,  floatY: 0,   squash: 0.09, lean: 6, tilt: 0, float: false } },
-  teufel:  { file: "shibi_teufel.png",  label: "😈 Devil", run: { file: "shibi_teufel_run.png", frames: 8, cw: 200, fps: 12, speedMul: 1 }, motion: { speedMul: 1.05, bob: 20, bobMs: 600,  floatY: 0,   squash: 0.14, lean: 3, tilt: 0, float: false } },
+  untot:   { file: "shibi_untot.png",   label: "🧟 Undead", lines: ["Grrr... Happy Spooktober 🧟 don't forget to share your Brain... uhh... Love in the chat", "Braaains... and maybe a follow too? 🧟💚", "Dead tired, still grinding for the crew 🧟 #Team42"], run: { file: "shibi_untot_run.png", frames: 8, cw: 200, fps: 10, speedMul: 0.65 }, motion: { speedMul: 0.5,  bob: 14, bobMs: 760,  floatY: 0,   squash: 0.14, lean: 4, tilt: 0, float: false } },
+  kuebis:  { file: "shibi_kuebis.png",  label: "🎃 Pumpkin", lines: ["Dare to say I'm not happy again — YOU CARVED A SMILE RIGHT INTO MY FACE! 🎃", "Spooky season, warm heart 🎃💚 gm crew!", "Light me up like a jack-o'-lantern and let's glow 🎃🔥"], run: { file: "shibi_kuebis_run.png", frames: 8, cw: 200, fps: 13, speedMul: 1 }, motion: { speedMul: 0.95, bob: 34, bobMs: 540,  floatY: 0,   squash: 0.18, lean: 0, tilt: 0, float: false } },
+  geist:   { file: "shibi_geist.png",   label: "👻 Ghost", lines: ["Buuuhuuuu 👻 As you can see, I even keep Building after my death #Team42", "Dead but not gone — still hyping your stream 👻💚", "I float through every channel so you never stream alone 👻"], motion: { speedMul: 0.7,  bob: 24, bobMs: 2400, floatY: 30, squash: 0,    lean: 0, tilt: 3, float: true } },
+  genaeht: { file: "shibi_genaeht.png", label: "🧵 Stitched", lines: ["Think we could stitch Avalanche and Solana together? 🧵", "Built from spare parts, loyal to the last bolt 🧵💚", "It's ALIVE... and it's here for your stream 🧵⚡"], run: { file: "shibi_genaeht_run.png", frames: 8, cw: 200, fps: 10, speedMul: 0.75 }, motion: { speedMul: 0.42, bob: 10, bobMs: 920,  floatY: 0,   squash: 0.09, lean: 6, tilt: 0, float: false } },
+  teufel:  { file: "shibi_teufel.png",  label: "😈 Devil", lines: ["Can we hit 666 supporters? 😈 ...just kidding 💚", "Sell your soul? Nah — just drop a vote 😈🔥", "They told me to be good. I said be BLAZE 😈"], run: { file: "shibi_teufel_run.png", frames: 8, cw: 200, fps: 12, speedMul: 1 }, motion: { speedMul: 1.05, bob: 20, bobMs: 600,  floatY: 0,   squash: 0.14, lean: 3, tilt: 0, float: false } },
 };
 
 // Mascot speech-bubble lines. Streamers can set their own in the dashboard (channels[id].mascotMsgs);
@@ -6461,8 +6461,8 @@ app.get("/overlay/run/:username", (req, res) => {
     const skinCfg = {};
     Object.keys(MASCOT_SKINS).forEach(k => {
       const m = MASCOT_SKINS[k];
-      if (m.run) skinCfg[k] = { mode: "run", url: `${SELF_URL}/mascot-run/${k}.png`, frames: m.run.frames, cw: m.run.cw || 200, fps: m.run.fps || 12, speedMul: m.run.speedMul || 1, front: `${SELF_URL}/mascot-front/${k}.png` };
-      else skinCfg[k] = { mode: "float", url: `${SELF_URL}/mascot-skin/${k}.png`, p: m.motion || {} };
+      if (m.run) skinCfg[k] = { mode: "run", url: `${SELF_URL}/mascot-run/${k}.png`, frames: m.run.frames, cw: m.run.cw || 200, fps: m.run.fps || 12, speedMul: m.run.speedMul || 1, front: `${SELF_URL}/mascot-front/${k}.png`, lines: m.lines || [] };
+      else skinCfg[k] = { mode: "float", url: `${SELF_URL}/mascot-skin/${k}.png`, p: m.motion || {}, lines: m.lines || [] };
     });
     const single = (skin === "random" || !MASCOT_SKINS[skin]) ? "" : skin;
     res.set("Content-Type", "text/html");
@@ -6490,17 +6490,17 @@ app.get("/overlay/run/:username", (req, res) => {
   var wrap=document.getElementById('wrap'), flt=document.getElementById('flt'), cv=document.getElementById('cv'), ctx=cv.getContext('2d'), bub=document.getElementById('bubble'), portalEl=document.getElementById('portal');
   function vw(){return window.innerWidth||1920;} function vh(){return window.innerHeight||1080;}
   var x=40, dir=1, last=performance.now(), nextTalk=last+9000;
-  var MODE='float', cur='', ready=false, morphUntil=0, talkUntil=0, pendingMorph=false, hasFront=false;
+  var MODE='float', cur='', ready=false, morphUntil=0, talkUntil=0, pendingMorph=false, hasFront=false, SKINLINES=[], FRONTSCALE=0.93;
   var runImg=null, RF=8, RCW=200, RSPM=1, RFPS=12, frame=0, lastF=0;
   var SPEEDM=1, BOBA=14, BOBMS=600, FLOATY=0, SQUASH=0, LEAN=0, TILTA=0, FLOAT=false;
   function groundY(){ return vh()-SIZE-24-(MODE==='float'?FLOATY:0); }
   function placeBubble(){ var bw=bub.offsetWidth||200; var L=Math.max(8,Math.min(x+SIZE/2-bw/2, vw()-bw-8)); bub.style.left=(L-x)+'px'; bub.style.transform='none'; }
-  function showBubble(){ if(!TALK||!MSGS.length) return; bub.textContent=MSGS[Math.floor(Math.random()*MSGS.length)]; bub.classList.add('show'); placeBubble(); talkUntil=performance.now()+5200; setTimeout(function(){bub.classList.remove('show');},5200); }
+  function showBubble(){ if(!TALK) return; var pool=(SKINLINES.length && (!MSGS.length || Math.random()<0.7))?SKINLINES:MSGS; if(!pool.length) pool=SKINLINES; if(!pool.length) return; bub.textContent=pool[Math.floor(Math.random()*pool.length)]; bub.classList.add('show'); placeBubble(); talkUntil=performance.now()+5200; setTimeout(function(){bub.classList.remove('show');},5200); }
   function portalShow(){ if(!PORTAL) return; var gy=vh()-SIZE-24, px=Math.min(Math.max(x,0),vw()-SIZE);
     portalEl.style.left=(px+SIZE/2-PW/2)+'px'; portalEl.style.top=(gy+SIZE-6-PW/2)+'px'; portalEl.style.transition='opacity .25s'; portalEl.style.opacity=1;
     setTimeout(function(){ portalEl.style.transition='opacity .6s'; portalEl.style.opacity=0; }, 850); }
   function loadSkin(name){
-    var c=CFG[name]; if(!c) return; cur=name; ready=false; morphUntil=performance.now()+650; portalShow();
+    var c=CFG[name]; if(!c) return; cur=name; ready=false; morphUntil=performance.now()+650; SKINLINES=c.lines||[]; if(!SINGLE){ nextTalk=performance.now()+2600; } portalShow();
     if(c.mode==='run'){
       MODE='run'; cv.style.display='block'; flt.style.display='none';
       RF=c.frames||8; RCW=c.cw||200; RFPS=c.fps||12; RSPM=c.speedMul||1; frame=0;
@@ -6521,7 +6521,7 @@ app.get("/overlay/run/:username", (req, res) => {
     if(MODE==='run' && talking && hasFront){
       cv.style.display='none'; flt.style.display='block';
       wrap.style.transform='translate('+x+'px,'+(by-Math.abs(Math.sin(now/650*Math.PI))*4)+'px)';
-      flt.style.transform='scale(0.86)';
+      flt.style.transformOrigin='50% 100%'; flt.style.transform='scale('+FRONTSCALE+')';
     } else if(MODE==='run'){
       cv.style.display='block'; flt.style.display='none';
       if(now-lastF>1000/RFPS){ frame=(frame+1)%RF; lastF=now; }
