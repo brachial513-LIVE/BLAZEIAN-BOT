@@ -4451,7 +4451,7 @@
         "totalVotes": 27881,
         "totalSubs": 71,
         "totalChatMessages": 3943,
-        "totalStreamMinutes": 16569,
+        "totalStreamMinutes": 16574,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -10084,7 +10084,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 85,
-        "totalStreamMinutes": 8469,
+        "totalStreamMinutes": 8474,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -13028,7 +13028,7 @@
         "totalVotes": 17619,
         "totalSubs": 35,
         "totalChatMessages": 3008,
-        "totalStreamMinutes": 10091,
+        "totalStreamMinutes": 10095,
         "emotes": {
           "❤": 114,
           "🙌": 74,
@@ -14365,13 +14365,13 @@
       "stats": {
         "totalVotes": 11060,
         "totalSubs": 32,
-        "totalChatMessages": 1392,
-        "totalStreamMinutes": 9121,
+        "totalChatMessages": 1393,
+        "totalStreamMinutes": 9125,
         "emotes": {
           "❤": 84,
           "🙌": 61,
-          "📴": 69,
-          "👋": 79,
+          "📴": 70,
+          "👋": 80,
           "🔴": 67,
           "🎉": 94,
           "🔥": 83,
@@ -14492,13 +14492,9 @@
           "d6c82b45-1ca6-4f86-89b5-cf94492a049b": "YEP"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791464192716
+        "lastChatAt": 1791466155536
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "all the best in your matches bro!"
-        },
         {
           "user": "guney",
           "msg": "hello hello buddy"
@@ -14534,6 +14530,10 @@
         {
           "user": "guney",
           "msg": "hi @just_for_lucas"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -14545,7 +14545,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0ed76298-e9ef-4bc3-8291-482815414931.gif",
-      "streamTitle": "APEX Street Fighter Wildcard / OTG — Off The Grid",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "guney’s channel is a high‑energy Web3 playground where “Kankaaaa” and “Good morningggg” greet the stream, fans shout “Yooo”, celebrate milestones with “Love fest!” and “bring”, cheer wins with “fuckn minigun”, and love 🔥, 🎉, 💃💃💃 emojis. Raid and vote alerts pop up, and generous subs are praised with “How generous!! 🙌”. The community thrives on hype, emojis, and constant celebration.",
@@ -14569,8 +14569,8 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "APEX Street Fighter Wildcard — Apex Legends",
-      "lastStreamEndedAt": 1791382614780,
+      "lastStreamInfo": "APEX Street Fighter Wildcard / OTG — Off The Grid",
+      "lastStreamEndedAt": 1791466150286,
       "_idAt": 1791451544889
     },
     "e4825903-47a5-4dbb-86ba-1f58c6049ad4": {
@@ -15728,7 +15728,7 @@
         "totalVotes": 13153,
         "totalSubs": 92,
         "totalChatMessages": 1815,
-        "totalStreamMinutes": 4758,
+        "totalStreamMinutes": 4763,
         "emotes": {
           "❤": 118,
           "🙌": 132,
@@ -22637,8 +22637,8 @@
     }
   },
   "auth": {
-    "accessToken": "171cffc18a5d13d3b9d859b95ad3c24e",
-    "refreshToken": "fa599f6d8f0c89d703332cd3156fc064",
+    "accessToken": "aa6ee618176b60c8cc7c5d7a3b6b2adf",
+    "refreshToken": "4dcb2586913f5f9431d52c97ee6e6bdb",
     "sessionToken": "84574d4adf3d79702f305a0d8f981484",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
