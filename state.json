@@ -9412,7 +9412,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 18193,
-        "totalSubs": 62,
+        "totalSubs": 63,
         "totalChatMessages": 2585,
         "totalStreamMinutes": 20409,
         "emotes": {
@@ -9704,6 +9704,11 @@
         },
         "k1ngbre4ker": {
           "name": "k1ngbre4ker",
+          "months": 1,
+          "tier": 1
+        },
+        "piweb": {
+          "name": "piweb",
           "months": 1,
           "tier": 1
         }
@@ -13028,7 +13033,7 @@
         "totalVotes": 17669,
         "totalSubs": 36,
         "totalChatMessages": 3015,
-        "totalStreamMinutes": 10271,
+        "totalStreamMinutes": 10275,
         "emotes": {
           "❤": 114,
           "🙌": 75,
@@ -14371,7 +14376,7 @@
         "totalVotes": 11060,
         "totalSubs": 32,
         "totalChatMessages": 1394,
-        "totalStreamMinutes": 9133,
+        "totalStreamMinutes": 9138,
         "emotes": {
           "❤": 84,
           "🙌": 61,
@@ -14761,8 +14766,8 @@
       "stats": {
         "totalVotes": 33943,
         "totalSubs": 57,
-        "totalChatMessages": 6418,
-        "totalStreamMinutes": 11611,
+        "totalChatMessages": 6420,
+        "totalStreamMinutes": 11616,
         "emotes": {
           "❤": 106,
           "🙌": 99,
@@ -15102,17 +15107,9 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791475759778
+        "lastChatAt": 1791476933183
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @ambi!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 6 votes, @dwb9000!"
@@ -15144,6 +15141,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @FatherSena!"
+        },
+        {
+          "user": "weri",
+          "msg": "Yo noxx"
+        },
+        {
+          "user": "weri",
+          "msg": "How are u man"
         }
       ],
       "customCommands": {},
@@ -15467,7 +15472,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 31,
-        "totalStreamMinutes": 1184,
+        "totalStreamMinutes": 1189,
         "emotes": {
           "💚": 1,
           "👋": 6,
@@ -16301,7 +16306,7 @@
         "totalVotes": 7143,
         "totalSubs": 25,
         "totalChatMessages": 1201,
-        "totalStreamMinutes": 13717,
+        "totalStreamMinutes": 13722,
         "emotes": {
           "❤": 71,
           "🙌": 57,
@@ -16803,7 +16808,7 @@
         "totalVotes": 24361,
         "totalSubs": 108,
         "totalChatMessages": 6668,
-        "totalStreamMinutes": 12169,
+        "totalStreamMinutes": 12174,
         "emotes": {
           "😅": 8,
           "🔥": 275,
@@ -22642,8 +22647,8 @@
     }
   },
   "auth": {
-    "accessToken": "31d6462572dbde714c6737157fe9260a",
-    "refreshToken": "3d16e48d0f2b029b23b28d6635955a24",
+    "accessToken": "347d70acb4b577fc0ec70333e791b956",
+    "refreshToken": "bd896da1616a34aecaba98de8890c942",
     "sessionToken": "84574d4adf3d79702f305a0d8f981484",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
