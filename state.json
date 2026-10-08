@@ -810,8 +810,8 @@
       "stats": {
         "totalVotes": 113534,
         "totalSubs": 164,
-        "totalChatMessages": 10574,
-        "totalStreamMinutes": 3958,
+        "totalChatMessages": 10575,
+        "totalStreamMinutes": 3960,
         "emotes": {
           "🗳": 1959,
           "❤": 540,
@@ -1181,17 +1181,13 @@
           "👨": "👨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791500119565,
+        "lastChatAt": 1791500283423,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -1227,6 +1223,10 @@
         {
           "user": "botger",
           "msg": "🔴 vroshi55 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Heey is this where the interview with the legend will be?"
         }
       ],
       "customCommands": {},
@@ -6972,7 +6972,15 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "🎁1400 Votes Giveaway Wednesday🎁❤️Trying AION 2 day 2❤️ — AION: Legions of War",
       "lastStreamEndedAt": 1791427999449,
-      "_idAt": 1791482847556
+      "_idAt": 1791482847556,
+      "mascotMsgs": [
+        "Don't forget to Subscribe!",
+        "Bald!",
+        "Vote for this old guy!",
+        "LFG!",
+        "Keep BuildingIT!"
+      ],
+      "mascotMsgsMix": true
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -19912,7 +19920,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 4581,
+        "totalStreamMinutes": 4583,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
