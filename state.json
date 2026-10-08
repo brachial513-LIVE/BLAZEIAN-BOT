@@ -3183,7 +3183,7 @@
         "totalVotes": 24554,
         "totalSubs": 88,
         "totalChatMessages": 8001,
-        "totalStreamMinutes": 24092,
+        "totalStreamMinutes": 24097,
         "emotes": {
           "❤": 233,
           "🙌": 178,
@@ -6980,16 +6980,16 @@
       "stats": {
         "totalVotes": 9122,
         "totalSubs": 85,
-        "totalChatMessages": 943,
-        "totalStreamMinutes": 22322,
+        "totalChatMessages": 944,
+        "totalStreamMinutes": 22323,
         "emotes": {
           "❤": 127,
           "🙌": 41,
           "🔥": 41,
           "🔴": 154,
           "🎉": 154,
-          "📴": 158,
-          "👋": 162,
+          "📴": 159,
+          "👋": 163,
           "😂": 4,
           "💚": 9,
           "💪": 6,
@@ -7084,14 +7084,10 @@
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
-        "lastChatAt": 1791492456107,
+        "lastChatAt": 1791496051814,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -7127,6 +7123,10 @@
         {
           "user": "angge_wf",
           "msg": "gm"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -7138,7 +7138,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "⚔️PUBG COM OS ALIADOS — PUBG MOBILE",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a3182925-83db-455f-9247-d15b2f463116.png",
@@ -7146,7 +7146,7 @@
       "_profileAtCount": 905,
       "botVip": true,
       "lastStreamInfo": "⚔️PUBG COM OS ALIADOS — PUBG MOBILE",
-      "lastStreamEndedAt": 1791489702085,
+      "lastStreamEndedAt": 1791496046562,
       "nudgedAt": 1785710754625,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -7302,7 +7302,7 @@
         "totalVotes": 18502,
         "totalSubs": 54,
         "totalChatMessages": 1702,
-        "totalStreamMinutes": 6901,
+        "totalStreamMinutes": 6906,
         "emotes": {
           "❤": 71,
           "🙌": 79,
@@ -8810,7 +8810,7 @@
       "stats": {
         "totalVotes": 22204,
         "totalSubs": 72,
-        "totalChatMessages": 16841,
+        "totalChatMessages": 16844,
         "totalStreamMinutes": 11382,
         "emotes": {
           "🧏": 1,
@@ -9259,21 +9259,9 @@
           "🤺": "🤺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791495997501
+        "lastChatAt": 1791496275170
       },
       "chatMemory": [
-        {
-          "user": "marowak33",
-          "msg": "gg"
-        },
-        {
-          "user": "marowak33",
-          "msg": "gg again"
-        },
-        {
-          "user": "marowak33",
-          "msg": "lulz"
-        },
         {
           "user": "marowak33",
           "msg": "never heard"
@@ -9301,6 +9289,18 @@
         {
           "user": "cymatrix",
           "msg": "this is the way"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "great tune"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "have a good night man"
+        },
+        {
+          "user": "marowak33",
+          "msg": "see ya"
         }
       ],
       "customCommands": {},
@@ -19902,7 +19902,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 4510,
+        "totalStreamMinutes": 4515,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -22677,8 +22677,8 @@
     }
   },
   "auth": {
-    "accessToken": "be89ba129b6bd249096c5e85cf375ad3",
-    "refreshToken": "1a37c90c8f772d886b86099b7970de41",
+    "accessToken": "5ec5c9639329fd4b386565f898f1ea18",
+    "refreshToken": "a3355780f96f67e23636fd16f5f7e821",
     "sessionToken": "77f69ca113bd505488aa10b5d8ee6066",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
