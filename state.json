@@ -8383,7 +8383,7 @@
       "stats": {
         "totalVotes": 215,
         "totalSubs": 17,
-        "totalChatMessages": 234,
+        "totalChatMessages": 236,
         "totalStreamMinutes": 987,
         "emotes": {
           "❤": 36,
@@ -8410,7 +8410,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": 6,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 9,
           "🍺": 4,
-          "🗳": 6
+          "🗳": 6,
+          "⚠": 2,
+          "🎯": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -8437,20 +8439,14 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE",
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE",
           "🍺": "🍺",
-          "🗳": "🗳"
+          "🗳": "🗳",
+          "⚠": "⚠",
+          "🎯": "🎯"
         },
-        "lastChatAt": 1791407548557,
+        "lastChatAt": 1791435747871,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ mediart just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @triz_draw to the channel! Thank you so much for subscribing! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @BonsaiFox to the channel! Thank you so much for subscribing! 🙌"
@@ -8482,6 +8478,14 @@
         {
           "user": "botger",
           "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @tigresa to the channel! Thank you so much for subscribing! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up helios! You're projected to fall below Verified (Tier 2) in about 0 days (2026/10/08 05:02 UTC). Current stream hours: 6.9h / 10h required. Stream more to keep your Verified status! 🎯"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up helios! You're projected to fall below Verified (Tier 2) in about 0 days (2026/10/08 05:02 UTC). Current stream hours: 6.9h / 10h required. Stream more to keep your Verified status! 🎯"
         }
       ],
       "customCommands": {},
