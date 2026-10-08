@@ -810,8 +810,8 @@
       "stats": {
         "totalVotes": 113676,
         "totalSubs": 164,
-        "totalChatMessages": 10594,
-        "totalStreamMinutes": 3978,
+        "totalChatMessages": 10596,
+        "totalStreamMinutes": 3982,
         "emotes": {
           "🗳": 1965,
           "❤": 540,
@@ -949,7 +949,7 @@
           "5b61525d-70f4-4cdf-82e1-05007cb5031a": 45,
           "a2e50cc0-d65d-4519-bd1a-15b75696b183": 38,
           "c2244706-819f-4727-b3f8-eb47856c88ac": 8,
-          "e7861ade-17e2-4fe3-ae08-3b60fa900d3b": 10,
+          "e7861ade-17e2-4fe3-ae08-3b60fa900d3b": 11,
           "37bff5c5-794a-46cf-a2f5-d5bc1aea7713": 10,
           "16f30e9c-818d-498f-999c-72fe51f3ffbe": 10,
           "c7b94a01-ea5f-48a5-87b0-398b514ce98c": 7,
@@ -1181,21 +1181,13 @@
           "👨": "👨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791501444875,
+        "lastChatAt": 1791501694973,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "octo",
-          "msg": "i can relate, im on discord all the time too lol"
-        },
-        {
-          "user": "sofrenciaplay",
-          "msg": "hi"
-        },
         {
           "user": "sofrenciaplay",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -1227,6 +1219,14 @@
         {
           "user": "sipofcoke",
           "msg": "Nice tactics, we had kind of the same thing"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "this!:O"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "Gm sir @vroshi55 [emote:e7861ade-17e2-4fe3-ae08-3b60fa900d3b]"
         }
       ],
       "customCommands": {},
@@ -9448,7 +9448,7 @@
         "totalVotes": 18193,
         "totalSubs": 63,
         "totalChatMessages": 2586,
-        "totalStreamMinutes": 20421,
+        "totalStreamMinutes": 20425,
         "emotes": {
           "🔥": 739,
           "🔴": 200,
@@ -19925,7 +19925,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 4601,
+        "totalStreamMinutes": 4605,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -22704,8 +22704,8 @@
     }
   },
   "auth": {
-    "accessToken": "4abf53aa9a1cd4bdc0eb989c1df6699f",
-    "refreshToken": "f00e41042ce340df7de31a8558f4f6da",
+    "accessToken": "d477747a7f47460be670840c1dcdec6c",
+    "refreshToken": "150d604961f9266a0ff2530b4c6149cc",
     "sessionToken": "77f69ca113bd505488aa10b5d8ee6066",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
