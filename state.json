@@ -7301,8 +7301,8 @@
       "stats": {
         "totalVotes": 18502,
         "totalSubs": 54,
-        "totalChatMessages": 1702,
-        "totalStreamMinutes": 6946,
+        "totalChatMessages": 1706,
+        "totalStreamMinutes": 6950,
         "emotes": {
           "❤": 71,
           "🙌": 79,
@@ -7318,8 +7318,8 @@
           "🔴": 48,
           "🎉": 90,
           "🚨": 84,
-          "📴": 49,
-          "👋": 64,
+          "📴": 50,
+          "👋": 65,
           "🏅": 13,
           "💪": 29,
           "😁": 4,
@@ -7458,29 +7458,13 @@
           "💝": "💝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791495382097,
+        "lastChatAt": 1791498938865,
         "lastSendFailAt": 1790979696099,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790984188513,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "this first time i heard your voice"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "i feel very happy"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "ok .. i go back ninja mode"
-        },
-        {
-          "user": "angge_wf",
-          "msg": "gm"
-        },
         {
           "user": "vitrene",
           "msg": "hi @angge_wf!"
@@ -7504,6 +7488,22 @@
         {
           "user": "briggsy",
           "msg": "All good here, Vitrene, man"
+        },
+        {
+          "user": "vitrene",
+          "msg": "thanks for watching, I am going to end it right here"
+        },
+        {
+          "user": "vitrene",
+          "msg": "perhaps I will stream tomorrow :D\nIf you got any favorite games you want to see, let me know :D"
+        },
+        {
+          "user": "vitrene",
+          "msg": "bb"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7516,7 +7516,7 @@
       "botVip": true,
       "profile": "Vitrene’s channel is a Cyberpunk 2077 hub where fans shout “VIT 🔥🔥” and “$VIT Always Wins!” to hype streams. Milestones trigger “🔴 VOTE ALERT!! 🗳️”, dances of “💃💃💃”, raids, gifts, and level‑up cheers. The community loves auto‑drive, Idris Elba DLC, Dune updates, and always ends with “have an awesome night/day!”",
       "_profileAtCount": 1672,
-      "streamTitle": "Let's Play Runescape Dragonwilds 🐉 #2 — RuneScape",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -7555,8 +7555,8 @@
       "commentMode": "heavy",
       "nudgedAt": 1785010424974,
       "nudgedKey": "customcmd",
-      "lastStreamInfo": "Let's Play Runescape Dragonwilds 🐉 — RuneScape",
-      "lastStreamEndedAt": 1791413557562,
+      "lastStreamInfo": "Let's Play Runescape Dragonwilds 🐉 #2 — RuneScape",
+      "lastStreamEndedAt": 1791498933706,
       "_idAt": 1791482849062
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
@@ -19912,7 +19912,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 4555,
+        "totalStreamMinutes": 4560,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -22687,8 +22687,8 @@
     }
   },
   "auth": {
-    "accessToken": "5ec5c9639329fd4b386565f898f1ea18",
-    "refreshToken": "a3355780f96f67e23636fd16f5f7e821",
+    "accessToken": "4abf53aa9a1cd4bdc0eb989c1df6699f",
+    "refreshToken": "f00e41042ce340df7de31a8558f4f6da",
     "sessionToken": "77f69ca113bd505488aa10b5d8ee6066",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
