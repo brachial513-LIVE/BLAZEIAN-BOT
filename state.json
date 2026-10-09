@@ -16879,10 +16879,10 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 24537,
+        "totalVotes": 24539,
         "totalSubs": 109,
-        "totalChatMessages": 6844,
-        "totalStreamMinutes": 12353,
+        "totalChatMessages": 6846,
+        "totalStreamMinutes": 12358,
         "emotes": {
           "😅": 8,
           "🔥": 275,
@@ -16911,7 +16911,7 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": 153,
           "37719561-c923-4260-b1a5-e3eda10c103d": 12,
           "🎁": 110,
-          "🗳": 621,
+          "🗳": 624,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 49,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 22,
           "📴": 53,
@@ -17122,7 +17122,7 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791530506260,
+        "lastChatAt": 1791531261336,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -17130,10 +17130,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "potato_pete",
-          "msg": "its on sale so i picked it up"
-        },
         {
           "user": "fartvader",
           "msg": "109159879"
@@ -17169,6 +17165,10 @@
         {
           "user": "timdraws",
           "msg": "you like this rogue like ?"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @retrogains12 just gave 2 vote(s) (total: 3)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -22746,8 +22746,8 @@
     }
   },
   "auth": {
-    "accessToken": "4f48c0d928789fb63567f88d3d87992f",
-    "refreshToken": "2b3a3cd463c8082f596fdfbf780ca558",
+    "accessToken": "7d3fa6842a1afed134ee6b9bbf6891dd",
+    "refreshToken": "ad02be652767935c7891fd06211f98e0",
     "sessionToken": "77f69ca113bd505488aa10b5d8ee6066",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
