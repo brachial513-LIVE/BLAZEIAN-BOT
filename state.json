@@ -12576,15 +12576,15 @@
       "joinedAt": 1784468383925,
       "stats": {
         "totalVotes": 62558,
-        "totalSubs": 76,
-        "totalChatMessages": 4804,
+        "totalSubs": 77,
+        "totalChatMessages": 4805,
         "totalStreamMinutes": 1801,
         "emotes": {
           "❤": 61,
-          "🙌": 124,
+          "🙌": 125,
           "🗳": 810,
           "💰": 40,
-          "🔥": 99,
+          "🔥": 101,
           "💛": 3,
           "🔴": 40,
           "🎉": 58,
@@ -12934,17 +12934,13 @@
           "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791535836544,
+        "lastChatAt": 1791539444992,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "cedricdebled",
-          "msg": "My battery died"
-        },
         {
           "user": "briggsy",
           "msg": "Good luck with your drawing"
@@ -12980,6 +12976,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @ambi has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Anej56 has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -13080,6 +13080,11 @@
         },
         "ambi": {
           "name": "ambi",
+          "months": 1,
+          "tier": 1
+        },
+        "anej56": {
+          "name": "anej56",
           "months": 1,
           "tier": 1
         }
@@ -16887,7 +16892,7 @@
         "totalVotes": 24544,
         "totalSubs": 109,
         "totalChatMessages": 6870,
-        "totalStreamMinutes": 12488,
+        "totalStreamMinutes": 12493,
         "emotes": {
           "😅": 8,
           "🔥": 275,
@@ -17633,7 +17638,7 @@
         "totalVotes": 4046,
         "totalSubs": 25,
         "totalChatMessages": 794,
-        "totalStreamMinutes": 6081,
+        "totalStreamMinutes": 6086,
         "emotes": {
           "❤": 30,
           "🙌": 33,
@@ -20075,7 +20080,7 @@
       "_profileAtCount": 18,
       "nudgedAt": 1789878374898,
       "nudgedKey": "schedule",
-      "_idAt": 1791516411489
+      "_idAt": 1791539211542
     },
     "6b969c07-915f-40b6-8c39-c93f0c71ea7e": {
       "username": "corneto",
@@ -20231,7 +20236,7 @@
       "gameOverride": "",
       "profile": "corneto streams arcana maps, farming ammo for MoG at level 225+ with a crew that loves “yow @alliveall” and “LD incoming soon 😂😂”. The chat thrives on quick “ggsssssssssssss” and “🔥🔥🔥” reactions, celebrates votes with “🗳️ VOTE ALERT!!”, and celebrates followers with “❤️ NEW FOLLOWER!! ❤️”. The vibe is fast‑paced, playful, and always ready for the next LD.",
       "_profileAtCount": 74,
-      "_idAt": 1791516412687
+      "_idAt": 1791539212724
     },
     "e6b0742f-7815-478c-ae3c-3e87e3b0d11c": {
       "username": "wallacessj",
@@ -20300,7 +20305,7 @@
       "lastStreamInfo": "[ES/EN]💥 | HABBO - BLACK JACK | GIVEAWAY!! — Habbo Hotel",
       "lastStreamEndedAt": 1788999484327,
       "gameOverride": "",
-      "_idAt": 1791516413901
+      "_idAt": 1791539213923
     },
     "abe9ce7b-abb9-421e-8063-f29ee331e751": {
       "username": "jagsman",
@@ -20417,7 +20422,7 @@
       "lastStreamEndedAt": 1791147206088,
       "profile": "jagsman’s channel thrives on spontaneous hype: “❤️ NEW FOLLOWER!! ❤️” and “🗳️ VOTE ALERT!!” echo through the chat. The community loves quick cheers, “Thanks for the follow” and “Stream is now live!” The vibe is energetic, supportive, and playful, celebrating every new follower and vote with enthusiastic emojis and shoutouts. The game focus is casual, friendly competition.",
       "_profileAtCount": 85,
-      "_idAt": 1791516415113,
+      "_idAt": 1791539215128,
       "nudgedAt": 1791149490517,
       "nudgedKey": "schedule"
     },
@@ -22751,8 +22756,8 @@
     }
   },
   "auth": {
-    "accessToken": "67cfa316fb12662936608b61260b72a5",
-    "refreshToken": "1b2c265f45b73ea71c91ed9ac72536ef",
+    "accessToken": "fe158107134f83954c51eb6e77b95f86",
+    "refreshToken": "721d797bd88c8d4a4aca513473a2848f",
     "sessionToken": "77f69ca113bd505488aa10b5d8ee6066",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
