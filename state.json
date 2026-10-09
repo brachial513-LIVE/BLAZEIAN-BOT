@@ -16889,10 +16889,10 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 24544,
+        "totalVotes": 24545,
         "totalSubs": 109,
-        "totalChatMessages": 6879,
-        "totalStreamMinutes": 12522,
+        "totalChatMessages": 6883,
+        "totalStreamMinutes": 12538,
         "emotes": {
           "😅": 8,
           "🔥": 275,
@@ -16914,14 +16914,14 @@
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 927,
           "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 549,
           "🔴": 52,
-          "🎉": 137,
+          "🎉": 138,
           "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 372,
           "💎": 7,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 7,
           "a859cc12-453a-4bd8-b650-38710d9486de": 154,
           "37719561-c923-4260-b1a5-e3eda10c103d": 12,
           "🎁": 110,
-          "🗳": 627,
+          "🗳": 630,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 50,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 22,
           "📴": 53,
@@ -16929,7 +16929,7 @@
           "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 151,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 28,
           "📢": 86,
-          "🚨": 378,
+          "🚨": 384,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 4,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 27,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 17,
@@ -17132,7 +17132,7 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791540756197,
+        "lastChatAt": 1791541708696,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -17140,14 +17140,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "timdraws",
-          "msg": "almost all unlocked"
-        },
         {
           "user": "timdraws",
           "msg": "youre too strong now"
@@ -17179,6 +17171,14 @@
         {
           "user": "tuff3rmrd3ano",
           "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @retrogains12 just gave 1 vote(s) (total: 4)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @retrogains12 is raiding with a party of 1! Welcome raiders!! 🎉"
         }
       ],
       "customCommands": {},
@@ -21396,7 +21396,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1791518806749,
+      "_idAt": 1791541606818,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/72e62f22-bfda-4fb8-b073-3f8c1ebc5201.png",
       "greeted": true,
       "profile": "silverbolt99’s channel is a high‑energy, community‑first hub where “welcome to the BLazeianCrew!” opens every stream and “NEW FOLLOWER!! ❤️” echoes with each new join. Weekly Sunday giveaways promise up to 1000 votes, celebrated with “Thanks for the X votes” chants. Lurkers are praised, donations appreciated, and the club hype (“⚡Friends, if you haven’t joined the Club…”) keeps the vibe playful, supportive, and always hype‑ready.",
@@ -22756,8 +22756,8 @@
     }
   },
   "auth": {
-    "accessToken": "5a501aa27dcc3e62d2df6c459adc7ea7",
-    "refreshToken": "5cad38e5fc66caaf383cf2c4e0c3d5ae",
+    "accessToken": "73b9b25525b51138f72306eebafcaa6c",
+    "refreshToken": "70f133cf511cea182b80e93fa0952f06",
     "sessionToken": "77f69ca113bd505488aa10b5d8ee6066",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
