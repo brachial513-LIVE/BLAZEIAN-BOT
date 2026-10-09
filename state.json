@@ -5475,7 +5475,7 @@
       "stats": {
         "totalVotes": 37560,
         "totalSubs": 94,
-        "totalChatMessages": 13376,
+        "totalChatMessages": 13377,
         "totalStreamMinutes": 8457,
         "emotes": {
           "❤": 229,
@@ -5742,7 +5742,8 @@
           "🤓": 1,
           "🎄": 2,
           "🪄": 3,
-          "💕": 1
+          "💕": 1,
+          "cdbff455-d67c-4e05-a3c3-84d4612b80a2": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -6009,16 +6010,13 @@
           "🤓": "🤓",
           "🎄": "🎄",
           "🪄": "🪄",
-          "💕": "💕"
+          "💕": "💕",
+          "cdbff455-d67c-4e05-a3c3-84d4612b80a2": "BunnyHole"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791497156016
+        "lastChatAt": 1791525934437
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Haha lvl4"
-        },
         {
           "user": "time",
           "msg": "Take care frens"
@@ -6054,6 +6052,10 @@
         {
           "user": "briggsy",
           "msg": "Awww, thank you, Desi!!"
+        },
+        {
+          "user": "briggsy",
+          "msg": "[emote:cdbff455-d67c-4e05-a3c3-84d4612b80a2]"
         }
       ],
       "customCommands": {},
@@ -11149,7 +11151,7 @@
         "totalVotes": 33271,
         "totalSubs": 155,
         "totalChatMessages": 3737,
-        "totalStreamMinutes": 19021,
+        "totalStreamMinutes": 19026,
         "emotes": {
           "❤": 138,
           "🙌": 221,
@@ -13402,7 +13404,7 @@
         "totalVotes": 7567,
         "totalSubs": 43,
         "totalChatMessages": 2430,
-        "totalStreamMinutes": 6093,
+        "totalStreamMinutes": 6098,
         "emotes": {
           "❤": 110,
           "🙌": 83,
@@ -16864,8 +16866,8 @@
       "stats": {
         "totalVotes": 24537,
         "totalSubs": 108,
-        "totalChatMessages": 6798,
-        "totalStreamMinutes": 12263,
+        "totalChatMessages": 6804,
+        "totalStreamMinutes": 12268,
         "emotes": {
           "😅": 8,
           "🔥": 275,
@@ -17105,7 +17107,7 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791525707200,
+        "lastChatAt": 1791525883027,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -17113,30 +17115,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5] [emote:253a92e9-1563-4e0d-b8c1-5e0d4844cbb5]"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
-        },
-        {
-          "user": "imperialguard",
-          "msg": "hey @meyetechnicals"
-        },
-        {
-          "user": "imperialguard",
-          "msg": "chat lit!"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "yea , going to watch all the old 007 movies"
-        },
-        {
-          "user": "imperialguard",
-          "msg": "youre featured #1 on front page Vadere"
-        },
         {
           "user": "imperialguard",
           "msg": "Blaze featured the right Streamer"
@@ -17152,6 +17130,30 @@
         {
           "user": "imperialguard",
           "msg": "and follow him too hes badass"
+        },
+        {
+          "user": "imperialguard",
+          "msg": "yes youre very nice"
+        },
+        {
+          "user": "imperialguard",
+          "msg": "nice ill see you tomorrow long stream comin at ya"
+        },
+        {
+          "user": "imperialguard",
+          "msg": "gotta go for now"
+        },
+        {
+          "user": "imperialguard",
+          "msg": "have fun dude!"
+        },
+        {
+          "user": "imperialguard",
+          "msg": "bye chat"
+        },
+        {
+          "user": "fartvader",
+          "msg": "thank you so much bro! you rest well..catch you tomorrow on FF7 remake intergrade! take care bro"
         }
       ],
       "customCommands": {},
@@ -22724,8 +22726,8 @@
     }
   },
   "auth": {
-    "accessToken": "b5812d499a176dd09c96363c5e795dfd",
-    "refreshToken": "665abd221981ede4d3f8d9a495a98af6",
+    "accessToken": "b3c99dc3bfb30346d8bdceab4c91e3e9",
+    "refreshToken": "c34da7c53827a95e57daed65269b7547",
     "sessionToken": "77f69ca113bd505488aa10b5d8ee6066",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
