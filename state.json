@@ -2093,12 +2093,12 @@
       "stats": {
         "totalVotes": 39302,
         "totalSubs": 248,
-        "totalChatMessages": 13878,
-        "totalStreamMinutes": 32244,
+        "totalChatMessages": 13883,
+        "totalStreamMinutes": 32262,
         "emotes": {
           "📊": 3,
           "🔥": 575,
-          "🤣": 195,
+          "🤣": 196,
           "💚": 50,
           "❤": 39,
           "😜": 2,
@@ -2664,29 +2664,9 @@
           "👻": "👻"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791573685459
+        "lastChatAt": 1791575544461
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "yes it is"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Awesome let’s play"
-        },
-        {
-          "user": "fartvader",
-          "msg": "am playing zombie game with the gang now"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "I gotta focus on the match once it starts tho 😂"
-        },
-        {
-          "user": "fartvader",
-          "msg": "all the best on your matches bro!"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:5534cfb4-c30c-40cb-80cc-9313e4888b8e]"
@@ -2706,6 +2686,26 @@
         {
           "user": "crypt0k1ng96",
           "msg": "I need to FOCUS"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "SWITCH THE GAME MODE @piweb 🤣"
+        },
+        {
+          "user": "piweb",
+          "msg": "Come on, hit that play button"
+        },
+        {
+          "user": "piweb",
+          "msg": "Come on man, hit play"
+        },
+        {
+          "user": "piweb",
+          "msg": "We gonna get rekt on ranked lol"
+        },
+        {
+          "user": "piweb",
+          "msg": "Where did you get your mask"
         }
       ],
       "customCommands": {},
@@ -3792,7 +3792,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1791552406787
+      "_idAt": 1791575206822
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
@@ -4292,7 +4292,7 @@
       "followed": true,
       "streamTitle": "",
       "profile": "Unclefunk’s channel is a funky crew that “earn courage” by watching and playing OSP‑related streams. The chat shouts “💜” and “❤️❤️❤️”, hyping “stream is now live!” and “stream is now offline!” They love “connect your OSP account” for extra courage, and the game “Only Believe” fuels daily hype. The community thrives on shared faith, fasting, and epic song.",
-      "_profileAtCount": 17355,
+      "_profileAtCount": 17450,
       "loyalty": {
         "midnitecatzlady": {
           "name": "midnitecatzlady",
@@ -4404,7 +4404,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev! — Music",
       "lastStreamEndedAt": 1791571285952,
-      "_idAt": 1791552407954
+      "_idAt": 1791575207973
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -4474,7 +4474,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1791552409155
+      "_idAt": 1791575209169
     },
     "c87ed67e-a16e-48e5-af83-6e557f72970e": {
       "username": "capt_rob_advent",
@@ -4924,7 +4924,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fueling Ships in South East Texas — IRL",
       "lastStreamEndedAt": 1791474304691,
-      "_idAt": 1791552410361
+      "_idAt": 1791575210361
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -5097,7 +5097,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1791552411549
+      "_idAt": 1791575211567
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -5444,7 +5444,7 @@
       "lastStreamEndedAt": 1791494865739,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1791552412747
+      "_idAt": 1791575212778
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -5472,7 +5472,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1791552413957
+      "_idAt": 1791575213963
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -6226,7 +6226,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Sniffer walk with Mellow. — IRL",
       "lastStreamEndedAt": 1791406267692,
-      "_idAt": 1791552415153
+      "_idAt": 1791575215166
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -8835,14 +8835,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 22396,
-        "totalSubs": 73,
-        "totalChatMessages": 16962,
-        "totalStreamMinutes": 11476,
+        "totalSubs": 74,
+        "totalChatMessages": 17001,
+        "totalStreamMinutes": 11494,
         "emotes": {
           "🧏": 1,
           "♂": 3,
           "👀": 40,
-          "🔥": 566,
+          "🔥": 567,
           "🙃": 6,
           "😛": 5,
           "🤭": 2,
@@ -8925,7 +8925,7 @@
           "🍸": 2,
           "🍻": 68,
           "💔": 2,
-          "🤔": 11,
+          "🤔": 12,
           "🙏": 2,
           "🫶": 14,
           "💛": 15,
@@ -8953,7 +8953,7 @@
           "🎶": 18,
           "🤦": 1,
           "😡": 2,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 148,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 152,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 26,
           "8341a7e3-a341-4ee5-a638-f8432c929257": 236,
           "3c817ff3-fa56-40b6-83b8-5054c76e354a": 62,
@@ -9002,19 +9002,19 @@
           "⭕": 2,
           "‼": 1,
           "🤪": 1,
-          "e5e8de17-1ebf-4f87-80fa-04abbe09c500": 1360,
+          "e5e8de17-1ebf-4f87-80fa-04abbe09c500": 1364,
           "d406354b-4ee8-4dd6-98ec-cf605c7e38a1": 3348,
           "🪥": 1,
           "😩": 1,
           "70405daa-bb2b-461f-9e5b-808bc9320d2d": 15,
           "🌟": 2,
           "d2923947-14ab-4e76-ae09-79a46d6c40fa": 61,
-          "bd1612f9-f137-471b-87b2-a32fb765adab": 21,
+          "bd1612f9-f137-471b-87b2-a32fb765adab": 22,
           "b883680e-06ce-41c5-aa04-67c6d6261a64": 19,
           "👹": 3,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 4,
           "8c114381-d222-4227-9300-89b11448d35f": 1,
-          "dd855604-071b-4eff-b852-3657817004a3": 97,
+          "dd855604-071b-4eff-b852-3657817004a3": 98,
           "🥀": 2,
           "🥲": 2,
           "👃": 1,
@@ -9030,15 +9030,15 @@
           "🧬": 7,
           "〰": 8,
           "298c22d7-9014-4525-aad4-fedfa7811531": 11,
-          "b8f5ff16-2e11-4695-98de-e426fff3889e": 153,
+          "b8f5ff16-2e11-4695-98de-e426fff3889e": 157,
           "0c0798fa-e75a-4159-a733-4400bce40207": 27,
-          "9ddd5726-8457-4a1c-903d-6d155e631d69": 369,
+          "9ddd5726-8457-4a1c-903d-6d155e631d69": 375,
           "701903b5-7d18-462b-9e72-fd943ba2f3b2": 171,
           "4e60197e-4907-4810-a34f-6b7e4427b103": 30,
           "37719561-c923-4260-b1a5-e3eda10c103d": 5,
           "4acb14bd-7f0a-476a-bafb-b70c72308f5a": 2,
           "7e1d13da-a3a4-465f-ab98-c944806f76e2": 15,
-          "4b1eb76b-7dae-4653-814f-d77d2dd43065": 54,
+          "4b1eb76b-7dae-4653-814f-d77d2dd43065": 56,
           "029b05fb-e70a-4509-9552-331b609868a4": 63,
           "💙": 2,
           "🤎": 1,
@@ -9285,48 +9285,48 @@
           "🤺": "🤺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791574603132
+        "lastChatAt": 1791575668804
       },
       "chatMemory": [
         {
-          "user": "tigresa",
-          "msg": "great song!"
+          "user": "metal_bot",
+          "msg": "@briggsy Found 19 matches: 1. David Bowie - Changes | 2. David Bowie - Moonage Daydream | 3. David Bowie - Suffragette City | 4. Queen and David Bowie - Under Pressure | 5. David Bowie - Ziggy Stardust | 6. David Bowie - Space Oddity | 7. David Bowie - The Man Who Sold the World | 8. David Bowie - Rebel Rebel — Reply !pick 1-8 to select"
         },
         {
-          "user": "dofferlive",
-          "msg": "yea!!!!!"
+          "user": "metal_bot",
+          "msg": "@briggsy Added \"David Bowie - The Man Who Sold the World\" to the queue! (Position #4)"
         },
         {
-          "user": "tigresa",
-          "msg": "🔥🔥🔥🔥"
+          "user": "jt_squared2",
+          "msg": "🔥[emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
         },
         {
-          "user": "tigresa",
-          "msg": "long time no see!"
+          "user": "rafael_zuh",
+          "msg": "fast song is fuck hard"
         },
         {
-          "user": "tigresa",
-          "msg": "Doffer brought me here haha"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Great request"
+          "user": "rafael_zuh",
+          "msg": "fast song is fuck hard"
         },
         {
           "user": "fartvader",
-          "msg": "oh wow, this one sounds really good.. yep a great one"
+          "msg": "[emote:b8f5ff16-2e11-4695-98de-e426fff3889e] [emote:e5e8de17-1ebf-4f87-80fa-04abbe09c500] \n[emote:b8f5ff16-2e11-4695-98de-e426fff3889e] [emote:e5e8de17-1ebf-4f87-80fa-04abbe09c500]"
         },
         {
-          "user": "fartvader",
-          "msg": "haha MiM knows what I always request"
+          "user": "rafael_zuh",
+          "msg": "Did you learn how to play by yourself?"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "he learned how to play WITH himself"
         },
         {
           "user": "briggsy",
-          "msg": "Let's get the Frost!!!"
+          "msg": "He was so lonely.  He learned in a closet."
         },
         {
-          "user": "briggsy",
-          "msg": "MOrbid TAles"
+          "user": "rafael_zuh",
+          "msg": "🤔"
         }
       ],
       "customCommands": {},
@@ -9389,7 +9389,7 @@
         },
         "desirablebottom": {
           "name": "desirablebottom",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "vroshi55": {
@@ -10136,7 +10136,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 9062,
+        "totalStreamMinutes": 9080,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -10410,12 +10410,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 5959,
-        "totalSubs": 34,
-        "totalChatMessages": 840,
+        "totalSubs": 35,
+        "totalChatMessages": 841,
         "totalStreamMinutes": 2579,
         "emotes": {
           "❤": 32,
-          "🙌": 43,
+          "🙌": 44,
           "🗳": 252,
           "🔴": 49,
           "🎉": 51,
@@ -10423,7 +10423,7 @@
           "👋": 50,
           "🎁": 36,
           "🤝": 1,
-          "🔥": 29,
+          "🔥": 31,
           "💚": 1,
           "😂": 36,
           "🤣": 7,
@@ -10508,13 +10508,9 @@
           "😛": "😛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791561313570
+        "lastChatAt": 1791574612828
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @NiRuntz just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
@@ -10550,6 +10546,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @alliveall has resubscribed (7 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @Sentius_Nox to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {},
@@ -10638,6 +10638,11 @@
         },
         "ambi": {
           "name": "ambi",
+          "months": 1,
+          "tier": 1
+        },
+        "sentius_nox": {
+          "name": "sentius_nox",
           "months": 1,
           "tier": 1
         }
@@ -12125,16 +12130,16 @@
       "joinedAt": 1784461195472,
       "stats": {
         "totalVotes": 32417,
-        "totalSubs": 60,
-        "totalChatMessages": 2303,
-        "totalStreamMinutes": 2870,
+        "totalSubs": 61,
+        "totalChatMessages": 2325,
+        "totalStreamMinutes": 2888,
         "emotes": {
           "😂": 34,
           "💪": 2,
           "💚": 14,
           "😎": 1,
           "🔥": 64,
-          "🙌": 90,
+          "🙌": 91,
           "🙃": 1,
           "😄": 4,
           "❤": 110,
@@ -12144,7 +12149,7 @@
           "🤣": 168,
           "🗳": 651,
           "📴": 28,
-          "🎁": 58,
+          "🎁": 60,
           "🔴": 29,
           "👀": 13,
           "😆": 14,
@@ -12189,7 +12194,7 @@
           "🎯": 3,
           "🥰": 4,
           "🙏": 5,
-          "5ffd4622-d9aa-4da7-9402-aa951ff444e4": 11,
+          "5ffd4622-d9aa-4da7-9402-aa951ff444e4": 12,
           "c02a4618-577a-4a25-a86f-290eb603369b": 4,
           "26344b87-3ec5-40c9-ab88-04a29bb57e4d": 4,
           "bb332a6b-4f9f-4bfe-b49e-74c61fc89f3b": 4,
@@ -12197,7 +12202,7 @@
           "64069483-fb01-4d01-bd91-9a2f29ff590b": 30,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 2,
           "efc94bff-d695-452e-ba17-046a929589f7": 1,
-          "b486a7f5-384e-4ba1-bf4e-ae764e9f9d4b": 4,
+          "b486a7f5-384e-4ba1-bf4e-ae764e9f9d4b": 8,
           "7cd2a2b5-1099-4f0e-b731-3ffc146f0ef2": 1,
           "8f94888f-49ea-427b-90ec-f9cf95c12c55": 7,
           "fe7b8e37-73b7-43ed-8b8c-f0e9d9871a93": 1,
@@ -12209,8 +12214,8 @@
           "dd7c8e80-6407-4566-b9fa-7fbc7460f085": 2,
           "bac6e251-9317-49db-b53d-99052a02e331": 1,
           "917791b6-4279-45d7-8522-b2768b5c7d85": 1,
-          "06e30ef6-a2d0-40bc-991d-c0296825e075": 2,
-          "d912a7c1-9c82-4200-beb4-1bc890a241ab": 1,
+          "06e30ef6-a2d0-40bc-991d-c0296825e075": 3,
+          "d912a7c1-9c82-4200-beb4-1bc890a241ab": 2,
           "b6b88c47-0d67-4d6e-a50a-0690ce981bea": 1,
           "120e49c9-687f-443f-a2a3-fe3124162000": 1,
           "8cbe5dcf-b7c9-4b90-b9bf-2593b933b27e": 1,
@@ -12373,48 +12378,48 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791574155616
+        "lastChatAt": 1791575623836
       },
       "chatMemory": [
         {
-          "user": "fartvader",
-          "msg": "he wants you back tho"
+          "user": "desirablebottom",
+          "msg": "jump"
         },
         {
-          "user": "fartvader",
-          "msg": "haha..you got point"
+          "user": "desirablebottom",
+          "msg": "run"
         },
         {
-          "user": "dofferlive",
-          "msg": "yayyayayaya"
+          "user": "briggsy",
+          "msg": "Everythings"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 1 vote(s) (total: 316)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @briggsy just gifted a sub to @Desirablebottom! How generous!! 🙌"
         },
         {
-          "user": "cynthia_stnkmp",
-          "msg": "Nooo I am late!"
+          "user": "desirablebottom",
+          "msg": "ty for the gifted @briggsy"
         },
         {
-          "user": "cynthia_stnkmp",
-          "msg": "ah, awesome!"
+          "user": "briggsy",
+          "msg": "Yes yes"
         },
         {
-          "user": "fartvader",
-          "msg": "wc back!!"
+          "user": "desirablebottom",
+          "msg": "[emote:b486a7f5-384e-4ba1-bf4e-ae764e9f9d4b] [emote:b486a7f5-384e-4ba1-bf4e-ae764e9f9d4b] [emote:b486a7f5-384e-4ba1-bf4e-ae764e9f9d4b] [emote:b486a7f5-384e-4ba1-bf4e-ae764e9f9d4b]"
         },
         {
-          "user": "octo",
-          "msg": "here after jt games"
+          "user": "briggsy",
+          "msg": "[emote:06e30ef6-a2d0-40bc-991d-c0296825e075] [emote:5ffd4622-d9aa-4da7-9402-aa951ff444e4] [emote:d912a7c1-9c82-4200-beb4-1bc890a241ab]"
         },
         {
-          "user": "octo",
-          "msg": "i missed cynthia dang"
+          "user": "briggsy",
+          "msg": "Spooky sound effects"
         },
         {
-          "user": "octo",
-          "msg": "i won 2 games"
+          "user": "briggsy",
+          "msg": "HaiLoww"
         }
       ],
       "customCommands": {},
@@ -13448,7 +13453,7 @@
         "totalVotes": 7567,
         "totalSubs": 44,
         "totalChatMessages": 2592,
-        "totalStreamMinutes": 6482,
+        "totalStreamMinutes": 6500,
         "emotes": {
           "❤": 110,
           "🙌": 84,
@@ -19114,7 +19119,7 @@
         "totalVotes": 2027,
         "totalSubs": 3,
         "totalChatMessages": 153,
-        "totalStreamMinutes": 6313,
+        "totalStreamMinutes": 6331,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -20312,14 +20317,14 @@
       "stats": {
         "totalVotes": 1163,
         "totalSubs": 3,
-        "totalChatMessages": 107,
-        "totalStreamMinutes": 599,
+        "totalChatMessages": 111,
+        "totalStreamMinutes": 617,
         "emotes": {
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
-          "🎉": 10,
-          "🔴": 9,
-          "📴": 8,
-          "👋": 8,
+          "🎉": 11,
+          "🔴": 10,
+          "📴": 9,
+          "👋": 9,
           "❤": 14,
           "🙌": 8,
           "😶": 4,
@@ -20341,25 +20346,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791572519603
+        "lastChatAt": 1791574790019
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @tom2329!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @ezhaxx_3!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @Future42!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 100 votes, @noxx!"
-        },
         {
           "user": "jagsman",
           "msg": "Legend"
@@ -20375,6 +20364,22 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @Old_Mankey!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 jagsman is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: OTG Lets Get Some More Losses #thedugout #mustardnetwork! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         },
         {
           "user": "botger",
@@ -20416,8 +20421,8 @@
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/6dc76b87-c95e-47ee-a6dd-6c4c6e76798f.jpg",
       "followed": true,
-      "lastStreamInfo": "Dying Light With @dynamicrich84 #thedugout #mustardnetwork — Dying Light",
-      "lastStreamEndedAt": 1791147206088,
+      "lastStreamInfo": "OTG Lets Get Some More Losses #thedugout #mustardnetwork — Off The Grid",
+      "lastStreamEndedAt": 1791574773227,
       "profile": "jagsman’s channel thrives on spontaneous hype: “❤️ NEW FOLLOWER!! ❤️” and “🗳️ VOTE ALERT!!” echo through the chat. The community loves quick cheers, “Thanks for the follow” and “Stream is now live!” The vibe is energetic, supportive, and playful, celebrating every new follower and vote with enthusiastic emojis and shoutouts. The game focus is casual, friendly competition.",
       "_profileAtCount": 85,
       "_idAt": 1791562015173,
@@ -21273,21 +21278,21 @@
       "language": "en",
       "joinedAt": 1791033739333,
       "stats": {
-        "totalVotes": 745,
+        "totalVotes": 747,
         "totalSubs": 1,
-        "totalChatMessages": 395,
-        "totalStreamMinutes": 1151,
+        "totalChatMessages": 409,
+        "totalStreamMinutes": 1169,
         "emotes": {
           "❤": 14,
           "🙌": 8,
           "🔴": 8,
-          "⚡": 46,
+          "⚡": 48,
           "〽": 8,
           "8245e8d7-5e9a-4c84-b17c-6cd3154fcdec": 1,
           "0385321d-5e5d-4192-9889-3d08fe60d750": 4,
-          "🚨": 32,
-          "🎙": 20,
-          "💗": 20,
+          "🚨": 33,
+          "🎙": 21,
+          "💗": 21,
           "🎉": 4,
           "🍺": 4,
           "😱": 1,
@@ -21298,14 +21303,15 @@
           "😅": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 7,
-          "🗳": 36,
+          "🗳": 39,
           "🔥": 2,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 5,
           "😶": 6,
           "🌫": 6,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1,
           "bc12ed85-2c49-46f6-8e88-345dfce019ea": 3,
-          "7db5bca1-351c-45a0-b9ea-dbc8ee19b574": 1
+          "7db5bca1-351c-45a0-b9ea-dbc8ee19b574": 1,
+          "382c591d-62dd-446c-993a-b71f718b9fee": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -21335,15 +21341,24 @@
           "🌫": "🌫",
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE",
           "bc12ed85-2c49-46f6-8e88-345dfce019ea": "supermariobrossb99",
-          "7db5bca1-351c-45a0-b9ea-dbc8ee19b574": "Yodasb99"
+          "7db5bca1-351c-45a0-b9ea-dbc8ee19b574": "Yodasb99",
+          "382c591d-62dd-446c-993a-b71f718b9fee": "weedysb"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791572289025
+        "lastChatAt": 1791575167619
       },
       "chatMemory": [
         {
-          "user": "meyetechnicals",
-          "msg": "[emote:7db5bca1-351c-45a0-b9ea-dbc8ee19b574]"
+          "user": "evilshaihulud",
+          "msg": "[emote:382c591d-62dd-446c-993a-b71f718b9fee] [emote:382c591d-62dd-446c-993a-b71f718b9fee]"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🎙️ Shoutout to @evilshaihulud! make Sure to check them out on their Blaze Channel https://Blaze.Stream/evilshaihulud and show some Love and Support 💗"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @evilshaihulud at https://blaze.stream/evilshaihulud!"
         },
         {
           "user": "botger",
@@ -21354,12 +21369,16 @@
           "msg": "⚡Friends, if you haven't joined the Club, you are missing out! Get an account, hit the follow, let's build a huge community! ⚡\n https://club.com/Silverbolt99"
         },
         {
-          "user": "potato_pete",
-          "msg": "rrrg i cant view anyones channel"
+          "user": "evilshaihulud",
+          "msg": "blaze lands! lol"
         },
         {
-          "user": "potato_pete",
-          "msg": "there we go"
+          "user": "evilshaihulud",
+          "msg": "eventuallly ill get more votes to give to everyone but Im tight on money now"
+        },
+        {
+          "user": "botger",
+          "msg": "follow me on the following socials on https://www.linktr.ee/SilverBolt99"
         },
         {
           "user": "botger",
@@ -21368,18 +21387,6 @@
         {
           "user": "botger",
           "msg": "New streamers enter Silverbolt99 when setting up the botger dashboard. We both get 7 extra days! (Works with a FREE account or If you have an active subscription)"
-        },
-        {
-          "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
-        },
-        {
-          "user": "botger",
-          "msg": "follow me on the following socials on https://www.linktr.ee/SilverBolt99"
-        },
-        {
-          "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
         }
       ],
       "customCommands": {},
@@ -22607,9 +22614,9 @@
       "n": 4
     },
     "i420spit710fire": {
-      "note": "They stream games, often joke about lag and connectivity issues, and enjoy casual humor while playing titles like Rocket League.",
-      "at": 1791511188787,
-      "n": 3
+      "note": "They stream games, often joke about lag and connectivity, and enjoy casual humor while playing titles like Rocket League.",
+      "at": 1791575208738,
+      "n": 4
     },
     "poderosobot": {
       "note": "They host live roulette, slots, duels, balance checks, and community points, often promoting Poderosobot and playfully thanking viewers with chat updates.",
@@ -22762,8 +22769,8 @@
     }
   },
   "auth": {
-    "accessToken": "23df8e16d8409ceb72d3b4dbac7def48",
-    "refreshToken": "fe596410f541be5da423ab03049d1ad0",
+    "accessToken": "353dbbd54688c75f98ffa238cb82e921",
+    "refreshToken": "f16be3c5fd734584f7b21937fd615a28",
     "sessionToken": "30a6b3c36bfaaba0aa3f0a5bcd9eaee3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
