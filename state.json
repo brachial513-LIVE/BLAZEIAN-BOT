@@ -5478,14 +5478,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 37560,
+        "totalVotes": 37610,
         "totalSubs": 94,
-        "totalChatMessages": 13377,
+        "totalChatMessages": 13378,
         "totalStreamMinutes": 8457,
         "emotes": {
           "❤": 229,
           "🙌": 362,
-          "🗳": 1685,
+          "🗳": 1688,
           "✌": 11,
           "😊": 10,
           "👍": 19,
@@ -6019,13 +6019,9 @@
           "cdbff455-d67c-4e05-a3c3-84d4612b80a2": "BunnyHole"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791525934437
+        "lastChatAt": 1791536077170
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "Take care frens"
-        },
         {
           "user": "soulflux",
           "msg": "❤️"
@@ -6061,6 +6057,10 @@
         {
           "user": "briggsy",
           "msg": "[emote:cdbff455-d67c-4e05-a3c3-84d4612b80a2]"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -12576,15 +12576,15 @@
       "joinedAt": 1784468383925,
       "stats": {
         "totalVotes": 62558,
-        "totalSubs": 75,
-        "totalChatMessages": 4803,
+        "totalSubs": 76,
+        "totalChatMessages": 4804,
         "totalStreamMinutes": 1801,
         "emotes": {
           "❤": 61,
-          "🙌": 123,
+          "🙌": 124,
           "🗳": 810,
           "💰": 40,
-          "🔥": 97,
+          "🔥": 99,
           "💛": 3,
           "🔴": 40,
           "🎉": 58,
@@ -12934,17 +12934,13 @@
           "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791498625429,
+        "lastChatAt": 1791535836544,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "see ya Cedric"
-        },
         {
           "user": "cedricdebled",
           "msg": "My battery died"
@@ -12980,6 +12976,10 @@
         {
           "user": "botger",
           "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @sipofcoke to the channel! Thank you so much for subscribing! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @ambi has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -13075,6 +13075,11 @@
         },
         "sipofcoke": {
           "name": "sipofcoke",
+          "months": 1,
+          "tier": 1
+        },
+        "ambi": {
+          "name": "ambi",
           "months": 1,
           "tier": 1
         }
@@ -14435,7 +14440,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1791512806739
+      "_idAt": 1791535606792
     },
     "c6f961d4-99d9-43a9-af38-8f62a07c68f9": {
       "username": "guney",
@@ -14650,7 +14655,7 @@
       },
       "lastStreamInfo": "APEX Street Fighter Wildcard / OTG — Off The Grid",
       "lastStreamEndedAt": 1791483575743,
-      "_idAt": 1791512807889
+      "_idAt": 1791535607929
     },
     "e4825903-47a5-4dbb-86ba-1f58c6049ad4": {
       "username": "rafael_zuh",
@@ -14831,7 +14836,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1791512809082
+      "_idAt": 1791535609120
     },
     "3608d1ce-2597-48b3-9d01-51ba55d16d4d": {
       "username": "noxx",
@@ -15426,7 +15431,7 @@
         }
       },
       "commentMode": "silent",
-      "_idAt": 1791512810291
+      "_idAt": 1791535610329
     },
     "143c4620-2a6d-4182-8bda-bc93350bd2da": {
       "username": "loboblanco",
@@ -15536,7 +15541,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1791512811485
+      "_idAt": 1791535611529
     },
     "cb2ce9ff-c2d0-425e-9238-54b535f07d02": {
       "username": "homiedrew",
@@ -15626,7 +15631,7 @@
       "lastStreamInfo": "Games! | GIVEAWAYS 🔥 BLAZE 🔥 Follower Goal 14/100 🔥 — Games + Demos",
       "lastStreamEndedAt": 1791494442078,
       "gameOverride": "",
-      "_idAt": 1791512812684
+      "_idAt": 1791535612730
     },
     "2c31d967-7255-462b-9cfa-41b8b75483c9": {
       "username": "panipeys",
@@ -15802,7 +15807,7 @@
       },
       "profile": "panipeys streams chill MapleStory, looping audio jokes, “tool!! miss u haha” vibes, “yan kaya ok na?” and “everything bro..it's looping” banter. The chat loves quick “yeps” approvals, “kaway ka rin sakin haha”, “tulog n aq, simba pa mamaya” good‑night tags",
       "_profileAtCount": 178,
-      "_idAt": 1791512813901
+      "_idAt": 1791535613934
     },
     "1babc035-cb76-44e0-8f37-6c648418d047": {
       "username": "missaria",
@@ -16142,7 +16147,7 @@
       "lastStreamEndedAt": 1791469871685,
       "commandMedia": {},
       "botVip": true,
-      "_idAt": 1791512815086
+      "_idAt": 1791535615129
     },
     "95732898-439b-4107-86f2-fd7abf4652ef": {
       "username": "seventh",
@@ -16882,7 +16887,7 @@
         "totalVotes": 24539,
         "totalSubs": 109,
         "totalChatMessages": 6860,
-        "totalStreamMinutes": 12423,
+        "totalStreamMinutes": 12443,
         "emotes": {
           "😅": 8,
           "🔥": 275,
@@ -17628,7 +17633,7 @@
         "totalVotes": 4046,
         "totalSubs": 25,
         "totalChatMessages": 794,
-        "totalStreamMinutes": 6016,
+        "totalStreamMinutes": 6036,
         "emotes": {
           "❤": 30,
           "🙌": 33,
