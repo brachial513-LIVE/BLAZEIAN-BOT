@@ -16891,8 +16891,8 @@
       "stats": {
         "totalVotes": 24544,
         "totalSubs": 109,
-        "totalChatMessages": 6870,
-        "totalStreamMinutes": 12493,
+        "totalChatMessages": 6872,
+        "totalStreamMinutes": 12502,
         "emotes": {
           "😅": 8,
           "🔥": 275,
@@ -17132,7 +17132,7 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791538727400,
+        "lastChatAt": 1791539963300,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -17140,14 +17140,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
-        },
-        {
-          "user": "helios",
-          "msg": "Hey hey Vader"
-        },
         {
           "user": "helios",
           "msg": "[emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
@@ -17179,6 +17171,14 @@
         {
           "user": "fartvader",
           "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "timdraws",
+          "msg": "almost all unlocked"
+        },
+        {
+          "user": "timdraws",
+          "msg": "youre too strong now"
         }
       ],
       "customCommands": {},
@@ -17638,7 +17638,7 @@
         "totalVotes": 4046,
         "totalSubs": 25,
         "totalChatMessages": 794,
-        "totalStreamMinutes": 6086,
+        "totalStreamMinutes": 6095,
         "emotes": {
           "❤": 30,
           "🙌": 33,
@@ -22756,8 +22756,8 @@
     }
   },
   "auth": {
-    "accessToken": "fe158107134f83954c51eb6e77b95f86",
-    "refreshToken": "721d797bd88c8d4a4aca513473a2848f",
+    "accessToken": "5a501aa27dcc3e62d2df6c459adc7ea7",
+    "refreshToken": "5cad38e5fc66caaf383cf2c4e0c3d5ae",
     "sessionToken": "77f69ca113bd505488aa10b5d8ee6066",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
