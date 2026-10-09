@@ -10136,7 +10136,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 8734,
+        "totalStreamMinutes": 8747,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -13433,8 +13433,8 @@
       "stats": {
         "totalVotes": 7567,
         "totalSubs": 44,
-        "totalChatMessages": 2543,
-        "totalStreamMinutes": 6154,
+        "totalChatMessages": 2544,
+        "totalStreamMinutes": 6167,
         "emotes": {
           "❤": 110,
           "🙌": 84,
@@ -13640,13 +13640,9 @@
           "66e336ce-7d93-44f7-98b0-f1dd15bb6bdd": "BRUH"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791554638386
+        "lastChatAt": 1791555694555
       },
       "chatMemory": [
-        {
-          "user": "lunaria",
-          "msg": "low memory sinasabi haha"
-        },
         {
           "user": "ruri666",
           "msg": "sus"
@@ -13682,6 +13678,10 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @Marowak33, who is live now, currently streaming Lost Relics to 4 viewers at https://blaze.stream/marowak33!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -17434,14 +17434,14 @@
       "stats": {
         "totalVotes": 13970,
         "totalSubs": 83,
-        "totalChatMessages": 809,
-        "totalStreamMinutes": 3705,
+        "totalChatMessages": 812,
+        "totalStreamMinutes": 3711,
         "emotes": {
           "❤": 83,
           "🙌": 121,
           "🎁": 140,
-          "🔴": 30,
-          "🎉": 41,
+          "🔴": 31,
+          "🎉": 42,
           "🗳": 231,
           "📴": 31,
           "👋": 31,
@@ -17507,21 +17507,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791529572140
+        "lastChatAt": 1791555338830
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @tom2329!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @ezhaxx_3!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @Future42!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 500 votes, @mindgoblin!"
@@ -17549,6 +17537,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 charddxyz is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: degen mode on RH games! Come hang out and watch."
+        },
+        {
+          "user": "charddxyz",
+          "msg": "Glimmer guard\n\nhttps://play.glimmerguard.com/?ref=63CE6C49\n\nComputers RH\nhttps://computersrh.xyz/ref=chardd_koko"
         }
       ],
       "customCommands": {},
@@ -17561,7 +17561,7 @@
       "locked": false,
       "profile": "Deadlock crew, “LOVE FEST” vibes, raiding, celebrating generosity. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, “ty ty for votes bro”, “How generous!!” when gifts, votes, or follows hit. The stream thrives on gifts, votes, hype, cheering for the next big win. charddxyz loves being celebrated with cheers, votes, constant hype.",
       "_profileAtCount": 799,
-      "streamTitle": "",
+      "streamTitle": "degen mode on RH games — Crypto",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/6f948e20-bb78-41a1-9c2e-6358e4a07cc5.png",
       "lastStreamInfo": "its weekend, time to play — Deadlock",
       "lastStreamEndedAt": 1791012399051,
@@ -22766,8 +22766,8 @@
     }
   },
   "auth": {
-    "accessToken": "e8cd0ab46ef3f2d3577dcbdb939ed074",
-    "refreshToken": "abd07b23ba7da3577050e4b9835cbc9e",
+    "accessToken": "050f35a5b78e79609bf695dbd83c1cde",
+    "refreshToken": "1530b673883925304444010adf5454de",
     "sessionToken": "77f69ca113bd505488aa10b5d8ee6066",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
