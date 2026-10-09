@@ -10136,7 +10136,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 86,
-        "totalStreamMinutes": 8680,
+        "totalStreamMinutes": 8681,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -10410,12 +10410,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 5959,
-        "totalSubs": 32,
-        "totalChatMessages": 838,
+        "totalSubs": 33,
+        "totalChatMessages": 839,
         "totalStreamMinutes": 2579,
         "emotes": {
           "❤": 32,
-          "🙌": 41,
+          "🙌": 42,
           "🗳": 252,
           "🔴": 49,
           "🎉": 51,
@@ -10423,7 +10423,7 @@
           "👋": 50,
           "🎁": 36,
           "🤝": 1,
-          "🔥": 25,
+          "🔥": 27,
           "💚": 1,
           "😂": 36,
           "🤣": 7,
@@ -10508,13 +10508,9 @@
           "😛": "😛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791543348092
+        "lastChatAt": 1791551703547
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "😊😊"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -10550,6 +10546,10 @@
         {
           "user": "botger",
           "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @BonsaiFox to the channel! Thank you so much for subscribing! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @ambi to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {},
@@ -10633,6 +10633,11 @@
         },
         "bonsaifox": {
           "name": "bonsaifox",
+          "months": 1,
+          "tier": 1
+        },
+        "ambi": {
+          "name": "ambi",
           "months": 1,
           "tier": 1
         }
@@ -11166,7 +11171,7 @@
         "totalVotes": 33421,
         "totalSubs": 155,
         "totalChatMessages": 3799,
-        "totalStreamMinutes": 19184,
+        "totalStreamMinutes": 19185,
         "emotes": {
           "❤": 138,
           "🙌": 221,
@@ -22761,8 +22766,8 @@
     }
   },
   "auth": {
-    "accessToken": "57465fce92bea208b2f6fb9a77b10bd1",
-    "refreshToken": "01b11472ff826ab619c00656a038a36a",
+    "accessToken": "758363015483849cae219ccb4f495691",
+    "refreshToken": "43af0792becc98279cb2843b0f38ef76",
     "sessionToken": "77f69ca113bd505488aa10b5d8ee6066",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
