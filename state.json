@@ -810,7 +810,7 @@
       "stats": {
         "totalVotes": 115718,
         "totalSubs": 182,
-        "totalChatMessages": 10774,
+        "totalChatMessages": 10775,
         "totalStreamMinutes": 4043,
         "emotes": {
           "🗳": 1980,
@@ -1187,17 +1187,13 @@
           "🧠": "🧠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791527913438,
+        "lastChatAt": 1791552887077,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
-        },
         {
           "user": "dynastykingd",
           "msg": "take a shot for me lmao"
@@ -1233,6 +1229,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @DimiFW has resubscribed (6 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "peter_force",
+          "msg": "ty for sub!"
         }
       ],
       "customCommands": {},
@@ -1489,7 +1489,7 @@
       "stats": {
         "totalVotes": 30237,
         "totalSubs": 68,
-        "totalChatMessages": 35541,
+        "totalChatMessages": 35567,
         "totalStreamMinutes": 3465,
         "emotes": {
           "🔥": 2026,
@@ -1499,13 +1499,13 @@
           "😍": 135,
           "❤": 64,
           "🚢": 17,
-          "⏰": 1452,
+          "⏰": 1457,
           "🔜": 1095,
           "💀": 560,
           "😘": 3,
           "🏆": 200,
           "🎊": 183,
-          "🎰": 24,
+          "🎰": 25,
           "😰": 178,
           "🍌": 179,
           "🧟": 20,
@@ -1546,7 +1546,7 @@
           "👍": 3,
           "🥔": 1884,
           "🔄": 364,
-          "🤖": 165,
+          "🤖": 166,
           "😏": 51,
           "❌": 13,
           "🙃": 13,
@@ -1554,17 +1554,17 @@
           "💰": 3,
           "🧪": 6,
           "🙄": 2,
-          "🎮": 29,
+          "🎮": 31,
           "🪅": 69,
           "🍬": 142,
-          "🛑": 25,
+          "🛑": 27,
           "💚": 7,
           "💪": 2,
           "⚔": 11,
           "😊": 1,
           "🍊": 1,
           "🍎": 1,
-          "🐷": 82,
+          "🐷": 83,
           "🐢": 7,
           "🤑": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 39,
@@ -1823,7 +1823,7 @@
           "👏": "👏",
           "🍺": "🍺"
         },
-        "lastChatAt": 1791546467378,
+        "lastChatAt": 1791552798460,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1831,18 +1831,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "🔥 Pyro Race starting in 20 seconds! Answer questions to race! Type !join to play!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "botger",
-          "msg": "(Handled by bot — joins the channel and confirms in chat)"
-        },
         {
           "user": "blazegames_bot",
           "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
@@ -1869,7 +1857,19 @@
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 You must be an Obeez NFT holder to use !perk. Link your wallet with !link."
+          "msg": "@jt_squared2 Cannot join game in progress! Play in real-time: https://blazegames.store/play/jt_squared2"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🐷 jt_squared2 used their free Obeez perk!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🎮 Game ended! Thanks for playing!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🛑 Game ended by the streamer. No winners this round."
         }
       ],
       "customCommands": {},
@@ -3792,7 +3792,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1791529606766
+      "_idAt": 1791552406787
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
@@ -4404,7 +4404,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev! — Music",
       "lastStreamEndedAt": 1791487845047,
-      "_idAt": 1791529607913
+      "_idAt": 1791552407954
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -4474,7 +4474,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1791529609109
+      "_idAt": 1791552409155
     },
     "c87ed67e-a16e-48e5-af83-6e557f72970e": {
       "username": "capt_rob_advent",
@@ -4924,7 +4924,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fueling Ships in South East Texas — IRL",
       "lastStreamEndedAt": 1791474304691,
-      "_idAt": 1791529610318
+      "_idAt": 1791552410361
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -5097,7 +5097,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1791529611509
+      "_idAt": 1791552411549
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -5444,7 +5444,7 @@
       "lastStreamEndedAt": 1791494865739,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1791529612726
+      "_idAt": 1791552412747
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -5472,7 +5472,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1791529613917
+      "_idAt": 1791552413957
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -6226,7 +6226,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Sniffer walk with Mellow. — IRL",
       "lastStreamEndedAt": 1791406267692,
-      "_idAt": 1791529615114
+      "_idAt": 1791552415153
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -10136,7 +10136,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 86,
-        "totalStreamMinutes": 8681,
+        "totalStreamMinutes": 8701,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -11170,8 +11170,8 @@
       "stats": {
         "totalVotes": 33421,
         "totalSubs": 155,
-        "totalChatMessages": 3799,
-        "totalStreamMinutes": 19185,
+        "totalChatMessages": 3800,
+        "totalStreamMinutes": 19205,
         "emotes": {
           "❤": 138,
           "🙌": 221,
@@ -11399,13 +11399,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791550804271
+        "lastChatAt": 1791552648970
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "ay pambihira spider pala yan haha"
-        },
         {
           "user": "fartvader",
           "msg": "🤣🤣🤣"
@@ -11441,6 +11437,10 @@
         {
           "user": "faithy_",
           "msg": "nabebetime bago matulog si bossing"
+        },
+        {
+          "user": "tinapay",
+          "msg": "hello faithyyy"
         }
       ],
       "customCommands": {},
@@ -22475,9 +22475,9 @@
       "n": 7
     },
     "lucaetano1": {
-      "note": "Luca enjoys PlayStation and PC games like Bomberman, Beyblade, Jojo, KOF, and often cracks jokes about cooking mishaps.",
-      "at": 1791497988673,
-      "n": 9
+      "note": "Luca loves PlayStation and PC games like Bomberman, Beyblade, Jojo, KOF, and often cracks light‑hearted jokes about cooking mishaps.",
+      "at": 1791552108935,
+      "n": 10
     },
     "abordiin": {
       "note": "Enjoys nostalgic arcade and classic console games, jokes about Mario Kart, Mario Galaxy, and retro racing titles while keeping a playful, humorous livestream vibe.",
