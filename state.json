@@ -6409,16 +6409,16 @@
       "stats": {
         "totalVotes": 35107,
         "totalSubs": 73,
-        "totalChatMessages": 8752,
-        "totalStreamMinutes": 15117,
+        "totalChatMessages": 8754,
+        "totalStreamMinutes": 15137,
         "emotes": {
           "❤": 138,
           "🙌": 199,
           "🗳": 858,
           "🔴": 90,
           "🎉": 156,
-          "📴": 88,
-          "👋": 101,
+          "📴": 89,
+          "👋": 102,
           "🔥": 241,
           "💪": 2,
           "🤖": 1,
@@ -6805,18 +6805,10 @@
           "c5d33326-5441-43c9-bf93-ba66666ad488": "copium",
           "🫂": "🫂"
         },
-        "lastChatAt": 1791599587667,
+        "lastChatAt": 1791601273709,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "ahahahahhaahah"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "It's going to give her a heart attack"
-        },
         {
           "user": "triz_draw",
           "msg": "[emote:8094d2d7-5aea-42fc-8ad6-acdc220554fd] [emote:8094d2d7-5aea-42fc-8ad6-acdc220554fd]"
@@ -6848,6 +6840,14 @@
         {
           "user": "triz_draw",
           "msg": "😱"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -6856,7 +6856,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "❤️Recording a song <3❤️ — Music",
+      "streamTitle": "",
       "profile": "Chill gaming crew on nadietv, loving WoW, Stumble Guys, Path of Exile 2, Dota, retro oldies. “Blazeee” vibes, “Will be relax day” shenanigans, “VOTE ALERT!!” celebrations, and “hard reset” humor. Chat roars “6969”, “METAL!”, “Castigo castigo”, “haslo de nuevo”, “Let’s gooooo”, “Theroan mode cat!”, “pull a roshi”, and “drained”. Gifts, votes, resubs met with joyous hype.",
       "_profileAtCount": 8658,
       "gameOverride": "",
@@ -6997,8 +6997,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "Auction day! ❤️Recording a song <3❤️ — Music",
-      "lastStreamEndedAt": 1791505609983,
+      "lastStreamInfo": "❤️Recording a song <3❤️ — Music",
+      "lastStreamEndedAt": 1791601268499,
       "_idAt": 1791599209181,
       "mascotMsgs": [
         "Don't forget to Subscribe!",
@@ -7842,7 +7842,7 @@
       "_profileAtCount": 44,
       "nudgedAt": 1790523497708,
       "nudgedKey": "schedule",
-      "_idAt": 1791577606819
+      "_idAt": 1791600406831
     },
     "25b30dc5-23f5-4bea-94ce-ba178c73c022": {
       "username": "time",
@@ -8207,7 +8207,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Chess — Art",
       "lastStreamEndedAt": 1791571395246,
-      "_idAt": 1791577607966
+      "_idAt": 1791600407983
     },
     "27422fb2-063e-4a22-8cde-41c2baf0f386": {
       "username": "cymatrix",
@@ -8428,7 +8428,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "50th Birthday and Album Release Pawty! — Music",
       "lastStreamEndedAt": 1791243862469,
-      "_idAt": 1791577609171
+      "_idAt": 1791600409194
     },
     "19b7a7c0-fe26-4df4-b40e-ac7489b8f42a": {
       "username": "helios",
@@ -8625,7 +8625,7 @@
       },
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
-      "_idAt": 1791577610372
+      "_idAt": 1791600410383
     },
     "d3b88120-1dbc-422f-930b-6dcb2fccf9f4": {
       "username": "tai_",
@@ -8839,7 +8839,7 @@
       "lastStreamEndedAt": 1791328307427,
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule",
-      "_idAt": 1791577611573
+      "_idAt": 1791600411583
     },
     "58950ad2-950b-4431-9fb5-32221e9e035d": {
       "username": "makeitmetal",
@@ -9463,7 +9463,7 @@
       "lastStreamEndedAt": 1791581039868,
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
-      "_idAt": 1791577612766
+      "_idAt": 1791600412775
     },
     "3cabf7ae-39d3-4ebb-9a48-7f2c6d06b2a4": {
       "username": "xxtowerdogxx",
@@ -9782,7 +9782,7 @@
         "sound": true,
         "confetti": true
       },
-      "_idAt": 1791577613964
+      "_idAt": 1791600413976
     },
     "b1d9a6f8-4003-43ab-8962-830173e1225a": {
       "username": "saboomafoo",
@@ -9963,7 +9963,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1791577615174
+      "_idAt": 1791600415186
     },
     "0e1fadd4-b37a-451e-a957-c797b606507e": {
       "username": "thewill3ffect",
@@ -10147,7 +10147,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 9487,
+        "totalStreamMinutes": 9507,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -11187,7 +11187,7 @@
         "totalVotes": 34011,
         "totalSubs": 155,
         "totalChatMessages": 3809,
-        "totalStreamMinutes": 19238,
+        "totalStreamMinutes": 19258,
         "emotes": {
           "❤": 138,
           "🙌": 221,
@@ -15863,8 +15863,8 @@
       "stats": {
         "totalVotes": 13153,
         "totalSubs": 92,
-        "totalChatMessages": 1820,
-        "totalStreamMinutes": 4826,
+        "totalChatMessages": 1823,
+        "totalStreamMinutes": 4846,
         "emotes": {
           "❤": 118,
           "🙌": 132,
@@ -16040,25 +16040,13 @@
           "🍳": "🍳"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791599949259,
+        "lastChatAt": 1791600477945,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "faithy_",
-          "msg": "laro na"
-        },
-        {
-          "user": "mutzume",
-          "msg": "ayunnnnn may mic na"
-        },
-        {
-          "user": "cabsss",
-          "msg": "ang sikip di ako kakain dyan pawisan na dyan"
-        },
         {
           "user": "cabsss",
           "msg": "ay ang kalat"
@@ -16086,6 +16074,18 @@
         {
           "user": "botger",
           "msg": "🔴 missaria is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "missaria",
+          "msg": "GM everyone!"
+        },
+        {
+          "user": "missaria",
+          "msg": "Happy Saturday"
+        },
+        {
+          "user": "missaria",
+          "msg": "I'm playing Bloomshire"
         }
       ],
       "customCommands": {},
@@ -18232,8 +18232,8 @@
       "stats": {
         "totalVotes": 7081,
         "totalSubs": 31,
-        "totalChatMessages": 4405,
-        "totalStreamMinutes": 12926,
+        "totalChatMessages": 4421,
+        "totalStreamMinutes": 12946,
         "emotes": {
           "👋": 94,
           "⚠": 2,
@@ -18407,48 +18407,48 @@
           "💛": "💛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791600084146
+        "lastChatAt": 1791601273789
       },
       "chatMemory": [
         {
-          "user": "bradgames",
-          "msg": "raidddddd"
-        },
-        {
-          "user": "zer0cache",
-          "msg": "ggS"
-        },
-        {
-          "user": "botshit",
-          "msg": "This stream has officially gone down the toilet."
-        },
-        {
-          "user": "botshit",
-          "msg": "Who ordered the number two?"
-        },
-        {
-          "user": "botshit",
-          "msg": "Dropping wisdom. Mostly dropping shit."
-        },
-        {
-          "user": "botger",
-          "msg": "hello 💛"
+          "user": "i420spit710fire",
+          "msg": "Gg"
         },
         {
           "user": "i420spit710fire",
-          "msg": "The inn ordered the num 2"
+          "msg": "Noice shot"
         },
         {
           "user": "i420spit710fire",
-          "msg": "GH"
+          "msg": "@frazel t"
         },
         {
           "user": "i420spit710fire",
-          "msg": "Just got the trim left to do"
+          "msg": "Tell ouga to check discord please"
+        },
+        {
+          "user": "i420spit710fire",
+          "msg": "B4 he dipps out"
+        },
+        {
+          "user": "i420spit710fire",
+          "msg": "Thx"
+        },
+        {
+          "user": "botshit",
+          "msg": "Your daily dose of bullshit has arrived."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@i420Spit710Fire, to add ScurvyBot to your Blaze channel, sign in as a streamer at https://scurvybot.com/?login=blaze&role=streamer and we'll join your chat automatically."
         },
         {
           "user": "i420spit710fire",
           "msg": "Gg"
+        },
+        {
+          "user": "i420spit710fire",
+          "msg": "Gn guys"
         }
       ],
       "customCommands": {
@@ -21479,9 +21479,9 @@
       "n": 21
     },
     "solucao": {
-      "note": "He streams Batman, Mortal Kombat and Spider‑Man, mixing fruit puns with “Cavaleiros do Zodíaco” jokes.",
-      "at": 1791360339297,
-      "n": 31
+      "note": "Streams Batman, Mortal Kombat, and Spider‑Man, mixing fruit puns with “Cavaleiros do Zodíaco” jokes.",
+      "at": 1791600948712,
+      "n": 32
     },
     "mauhzera": {
       "note": "Mauhzera loves FPS, DK Mania, Bomberman, jokes about Zelda, plays on Mega Drive and N64, enjoys Metroid Prime, and cheers enthusiastically.",
