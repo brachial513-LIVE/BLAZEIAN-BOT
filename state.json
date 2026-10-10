@@ -4487,14 +4487,14 @@
       "stats": {
         "totalVotes": 28157,
         "totalSubs": 71,
-        "totalChatMessages": 3969,
-        "totalStreamMinutes": 16772,
+        "totalChatMessages": 3972,
+        "totalStreamMinutes": 16788,
         "emotes": {
           "😊": 5,
           "🌵": 87,
           "🔥": 350,
           "🤪": 2,
-          "👋": 79,
+          "👋": 81,
           "👍": 27,
           "🥰": 5,
           "💜": 1,
@@ -4596,10 +4596,10 @@
           "🫶": 5,
           "🙌": 51,
           "🗳": 360,
-          "📴": 38,
+          "📴": 40,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 137,
-          "🔴": 38,
-          "🎉": 44,
+          "🔴": 39,
+          "🎉": 45,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 109,
           "a859cc12-453a-4bd8-b650-38710d9486de": 13,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 12,
@@ -4808,21 +4808,9 @@
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": "BLAZEICON"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791635935859
+        "lastChatAt": 1791637860149
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "yay"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "[emote:248db14b-f100-4838-be4d-8e265634e892] [emote:248db14b-f100-4838-be4d-8e265634e892] [emote:248db14b-f100-4838-be4d-8e265634e892]"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "cactus_jack440",
           "msg": "[emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c]"
@@ -4850,6 +4838,18 @@
         {
           "user": "cactus_jack440",
           "msg": "Oh cool...hope you have a good time"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 capt_rob_advent is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -4858,7 +4858,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Fueling Ships in South East Texas — IRL",
+      "streamTitle": "",
       "profile": "We’re a tight IRL maritime crew fueling ships in South East Texas. “BLAZE ON” celebrates every win, “Sweet!” drops new content, and “shots shots!” keeps the fun high. We surf, vote for favorite streamers, share “happy walk” stories, and love “happy walk” vibes. capt_rob_advent’s streams are the heart of our salty, upbeat community.",
       "_profileAtCount": 3920,
       "gameOverride": "",
@@ -4928,7 +4928,7 @@
       "nudgedAt": 1785066991188,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fueling Ships in South East Texas — IRL",
-      "lastStreamEndedAt": 1791474304691,
+      "lastStreamEndedAt": 1791637854876,
       "_idAt": 1791620810423
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
@@ -8441,8 +8441,8 @@
       "stats": {
         "totalVotes": 295,
         "totalSubs": 17,
-        "totalChatMessages": 282,
-        "totalStreamMinutes": 1109,
+        "totalChatMessages": 284,
+        "totalStreamMinutes": 1113,
         "emotes": {
           "❤": 36,
           "🙌": 33,
@@ -8503,18 +8503,10 @@
           "🎯": "🎯",
           "🚨": "🚨"
         },
-        "lastChatAt": 1791592858951,
+        "lastChatAt": 1791637842147,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "dofferlive",
-          "msg": "hey nnew people"
-        },
-        {
-          "user": "helios",
-          "msg": "Dance dance dance"
-        },
         {
           "user": "dofferlive",
           "msg": "Oooo lookinnggg gniiiiiiiice"
@@ -8546,6 +8538,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "Helios is now live!! Let's get building"
+        },
+        {
+          "user": "helios",
+          "msg": "Testing out a new game"
         }
       ],
       "customCommands": {},
@@ -8555,7 +8555,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4366a4c8-c3fa-4296-9014-212a08f2fae3.gif",
-      "streamTitle": "",
+      "streamTitle": "Game Demos: Otite Reborn — IRL",
       "gameOverride": "",
       "lastStreamInfo": "Spooky creatures for Spooktober: Among us Impostor — Art",
       "lastStreamEndedAt": 1791592853804,
@@ -10152,7 +10152,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 10097,
+        "totalStreamMinutes": 10117,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -11199,7 +11199,7 @@
       "stats": {
         "totalVotes": 34013,
         "totalSubs": 156,
-        "totalChatMessages": 3849,
+        "totalChatMessages": 3854,
         "totalStreamMinutes": 19317,
         "emotes": {
           "❤": 138,
@@ -11428,21 +11428,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791635868945
+        "lastChatAt": 1791637791637
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "si chard nag humanitz narin haha"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "brb luto lang"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "oo nga eh"
-        },
         {
           "user": "nekoschwan",
           "msg": "di bale"
@@ -11470,6 +11458,18 @@
         {
           "user": "faithy_",
           "msg": "thank you for the votes @leandrineth"
+        },
+        {
+          "user": "marowak33",
+          "msg": "hey"
+        },
+        {
+          "user": "helios",
+          "msg": "Hey faithy"
+        },
+        {
+          "user": "helios",
+          "msg": "How's it going?"
         }
       ],
       "customCommands": {},
