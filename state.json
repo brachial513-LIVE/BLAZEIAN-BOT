@@ -5486,12 +5486,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 37660,
-        "totalSubs": 96,
-        "totalChatMessages": 13381,
+        "totalSubs": 97,
+        "totalChatMessages": 13382,
         "totalStreamMinutes": 8457,
         "emotes": {
           "❤": 229,
-          "🙌": 364,
+          "🙌": 365,
           "🗳": 1691,
           "✌": 11,
           "😊": 10,
@@ -5503,7 +5503,7 @@
           "⚡": 94,
           "😂": 181,
           "😍": 31,
-          "🔥": 263,
+          "🔥": 265,
           "😎": 6,
           "😁": 27,
           "😄": 27,
@@ -6026,13 +6026,9 @@
           "cdbff455-d67c-4e05-a3c3-84d4612b80a2": "BunnyHole"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791611189175
+        "lastChatAt": 1791614528694
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @_VladEnzo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
@@ -6068,6 +6064,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @ambi has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @_VladEnzo to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {},
@@ -6225,6 +6225,11 @@
         },
         "triz_draw": {
           "name": "triz_draw",
+          "months": 1,
+          "tier": 1
+        },
+        "_vladenzo": {
+          "name": "_vladenzo",
           "months": 1,
           "tier": 1
         }
@@ -10147,7 +10152,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 9725,
+        "totalStreamMinutes": 9737,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -10423,7 +10428,7 @@
         "totalVotes": 5959,
         "totalSubs": 35,
         "totalChatMessages": 853,
-        "totalStreamMinutes": 2596,
+        "totalStreamMinutes": 2607,
         "emotes": {
           "❤": 32,
           "🙌": 44,
@@ -16219,13 +16224,13 @@
       "joinedAt": 1785405357695,
       "stats": {
         "totalVotes": 8210,
-        "totalSubs": 80,
-        "totalChatMessages": 1726,
+        "totalSubs": 81,
+        "totalChatMessages": 1728,
         "totalStreamMinutes": 7468,
         "emotes": {
           "❤": 69,
-          "🙌": 98,
-          "🔥": 71,
+          "🙌": 99,
+          "🔥": 73,
           "💚": 3,
           "🤝": 1,
           "🔴": 61,
@@ -16315,17 +16320,9 @@
           "f47c4aa4-ee1a-4690-960b-f174d9ab2cd5": "PEACEPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791614207865
+        "lastChatAt": 1791614801550
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @seventh just gifted a sub to @dwb9000! How generous!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@seventh gifted a sub to the community!"
-        },
         {
           "user": "walkthegrid",
           "msg": "cheers for the Sub any votes ill lock them too you. ty"
@@ -16357,6 +16354,14 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @Ruri666 has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @_VladEnzo has resubscribed (2 months total, 2 months streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@_VladEnzo subscribed! Thank you!"
         }
       ],
       "customCommands": {},
@@ -16400,7 +16405,7 @@
         },
         "_vladenzo": {
           "name": "_vladenzo",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "panipeys": {
@@ -21522,8 +21527,8 @@
     },
     "agent00zani": {
       "note": "Energetic anime‑loving streamer who plays Roblox, OTG, COD Warzone, and farlight84, loves anime songs, and keeps chat lively with playful emojis.",
-      "at": 1791506568827,
-      "n": 75
+      "at": 1791614808918,
+      "n": 76
     },
     "crypt0k1ng96": {
       "note": "Notes:\n- Their username is crypt0k1ng96.\n- They are into Blaze, a platform that offers rewards in the form of Blaze.\n- They are testing FoxBot AI, a chatbot, and are offering $5 in Blaze to help test it.\n- They have a wife who cooks pasta.\n",
@@ -22806,8 +22811,8 @@
     }
   },
   "auth": {
-    "accessToken": "1695a2b753fab73d11c2e055c6fb01e4",
-    "refreshToken": "ed441b5fcac71cfb14e9996f66824e8a",
+    "accessToken": "ff9bf99d120ac4956c9c6072b3f54daa",
+    "refreshToken": "9c15dc2b8e044ae89142676100689aba",
     "sessionToken": "30a6b3c36bfaaba0aa3f0a5bcd9eaee3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
