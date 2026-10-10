@@ -1491,8 +1491,8 @@
       "stats": {
         "totalVotes": 30389,
         "totalSubs": 70,
-        "totalChatMessages": 38166,
-        "totalStreamMinutes": 3614,
+        "totalChatMessages": 38202,
+        "totalStreamMinutes": 3618,
         "emotes": {
           "🔥": 2094,
           "🗳": 31,
@@ -1502,14 +1502,14 @@
           "❤": 64,
           "🚢": 19,
           "⏰": 1527,
-          "🔜": 1187,
+          "🔜": 1188,
           "💀": 597,
           "😘": 3,
           "🏆": 214,
           "🎊": 195,
           "🎰": 28,
           "😰": 197,
-          "🍌": 205,
+          "🍌": 212,
           "🧟": 21,
           "💣": 183,
           "✅": 972,
@@ -1549,7 +1549,7 @@
           "🥔": 1951,
           "🔄": 373,
           "🤖": 166,
-          "😏": 72,
+          "😏": 75,
           "❌": 16,
           "🙃": 13,
           "🎵": 1,
@@ -1825,7 +1825,7 @@
           "👏": "👏",
           "🍺": "🍺"
         },
-        "lastChatAt": 1791643309924,
+        "lastChatAt": 1791643517170,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1834,44 +1834,44 @@
       },
       "chatMemory": [
         {
+          "user": "desirablebottom",
+          "msg": "😏😏😏"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@sipofcoke throws at 120° with 60% power! 🍌"
+        },
+        {
+          "user": "octo",
+          "msg": "the only physics i know are the jiggle ones"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Fizz assist"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@badger throws at 60° with 50% power! 🍌"
+        },
+        {
+          "user": "octo",
+          "msg": "i do refer to a protractor sometimes tho"
+        },
+        {
           "user": "nadietv",
-          "msg": "xD"
-        },
-        {
-          "user": "sipofcoke",
-          "msg": "piece of coke"
-        },
-        {
-          "user": "octo",
-          "msg": "stalling between turns"
-        },
-        {
-          "user": "octo",
-          "msg": "badger took the bait"
+          "msg": "that's the only physics that matter xD"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@badger throws at 60° with 40% power! 🍌"
+          "msg": "@time Throw queued (110°, 35% power)! It will execute when it's your turn. 🔜"
         },
         {
-          "user": "octo",
-          "msg": "aw kitty"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@time throws at 100° with 40% power! 🍌"
-        },
-        {
-          "user": "octo",
-          "msg": "big banana"
+          "user": "badger",
+          "msg": "boomerang banana"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🍌 @octo claimed the Big Banana!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@octo throws at 60° with 100% power! 🍌"
+          "msg": "🍌 @badger claimed the Boomerang Banana!"
         }
       ],
       "customCommands": {},
@@ -10154,7 +10154,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 10207,
+        "totalStreamMinutes": 10210,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -13486,7 +13486,7 @@
         "totalVotes": 7567,
         "totalSubs": 46,
         "totalChatMessages": 2601,
-        "totalStreamMinutes": 6579,
+        "totalStreamMinutes": 6582,
         "emotes": {
           "❤": 110,
           "🙌": 86,
@@ -13940,8 +13940,8 @@
       "stats": {
         "totalVotes": 16835,
         "totalSubs": 26,
-        "totalChatMessages": 32704,
-        "totalStreamMinutes": 19567,
+        "totalChatMessages": 32705,
+        "totalStreamMinutes": 19570,
         "emotes": {
           "❤": 123,
           "🙌": 82,
@@ -14339,13 +14339,9 @@
           "🛑": "🛑"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791643086475
+        "lastChatAt": 1791643354724
       },
       "chatMemory": [
-        {
-          "user": "junior7_",
-          "msg": "Iiii"
-        },
         {
           "user": "mauhzera",
           "msg": "0xa4cdb8d5bc864317fe5cfe33a5c824d4cb141a51"
@@ -14381,6 +14377,10 @@
         {
           "user": "lucaetano1",
           "msg": "Parece jogo do homem aranha"
+        },
+        {
+          "user": "lucaetano1",
+          "msg": "Jogo até bem feitinho"
         }
       ],
       "customCommands": {},
@@ -22834,8 +22834,8 @@
     }
   },
   "auth": {
-    "accessToken": "ca5bbd29e3014e4cd19c4838b4864ada",
-    "refreshToken": "1f20cae9710163d1df7e5c9cedeadc97",
+    "accessToken": "22a672b00d9da26507503e4181eb313d",
+    "refreshToken": "cb8c03bdbdac3f194129e0eefd6f332a",
     "sessionToken": "30a6b3c36bfaaba0aa3f0a5bcd9eaee3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
