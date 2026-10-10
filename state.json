@@ -811,14 +811,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 116554,
-        "totalSubs": 189,
-        "totalChatMessages": 11364,
+        "totalSubs": 190,
+        "totalChatMessages": 11365,
         "totalStreamMinutes": 4160,
         "emotes": {
           "🗳": 2004,
           "❤": 546,
-          "🙌": 299,
-          "🔥": 298,
+          "🙌": 300,
+          "🔥": 300,
           "☺": 7,
           "🔴": 40,
           "🎉": 146,
@@ -1195,17 +1195,13 @@
           "😉": "😉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791652555492,
+        "lastChatAt": 1791663444238,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "cedricdebled",
-          "msg": "MErci Friends"
-        },
         {
           "user": "sbcrypto",
           "msg": "Bye. Thank you."
@@ -1241,6 +1237,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ coopdville2000 just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Vitrene has resubscribed (5 months total, 4 months streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -1477,6 +1477,11 @@
         },
         "dimifw": {
           "name": "dimifw",
+          "months": 1,
+          "tier": 1
+        },
+        "vitrene": {
+          "name": "vitrene",
           "months": 1,
           "tier": 1
         }
@@ -2107,7 +2112,7 @@
         "totalVotes": 39513,
         "totalSubs": 253,
         "totalChatMessages": 14013,
-        "totalStreamMinutes": 32600,
+        "totalStreamMinutes": 32605,
         "emotes": {
           "📊": 3,
           "🔥": 583,
@@ -3227,7 +3232,7 @@
         "totalVotes": 24584,
         "totalSubs": 98,
         "totalChatMessages": 8127,
-        "totalStreamMinutes": 24402,
+        "totalStreamMinutes": 24407,
         "emotes": {
           "❤": 233,
           "🙌": 188,
@@ -3837,10 +3842,10 @@
       "stats": {
         "totalVotes": 40363,
         "totalSubs": 96,
-        "totalChatMessages": 17915,
-        "totalStreamMinutes": 10482,
+        "totalChatMessages": 17926,
+        "totalStreamMinutes": 10487,
         "emotes": {
-          "❤": 6838,
+          "❤": 6840,
           "🎵": 705,
           "💃": 320,
           "🔥": 1458,
@@ -3861,7 +3866,7 @@
           "💕": 37,
           "😁": 92,
           "😆": 30,
-          "🐝": 1150,
+          "🐝": 1151,
           "🥷": 4,
           "😃": 4,
           "💪": 45,
@@ -3896,7 +3901,7 @@
           "🗳": 148,
           "❣": 13,
           "🫢": 14,
-          "🙃": 1,
+          "🙃": 2,
           "🖤": 27,
           "✨": 115,
           "🤩": 4,
@@ -4027,7 +4032,7 @@
           "🙄": 2,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 17,
           "🎂": 2,
-          "😏": 1,
+          "😏": 2,
           "3aa587d2-4320-4494-801e-1e2049e83fb2": 1,
           "🍃": 1,
           "🐈": 7,
@@ -4047,14 +4052,15 @@
           "🪨": 3,
           "🌮": 5,
           "💉": 9,
-          "🎮": 9,
+          "🎮": 10,
           "🍺": 4,
           "8c114381-d222-4227-9300-89b11448d35f": 1,
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": 3,
           "46bad46f-29ce-48a3-b3bf-111156f18290": 2,
           "🤢": 2,
           "🧙": 1,
-          "60967948-8805-42ef-a202-051d2e2f1557": 1
+          "60967948-8805-42ef-a202-051d2e2f1557": 1,
+          "🫠": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -4271,9 +4277,10 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO",
           "🤢": "🤢",
           "🧙": "🧙",
-          "60967948-8805-42ef-a202-051d2e2f1557": "SLEEPYRO"
+          "60967948-8805-42ef-a202-051d2e2f1557": "SLEEPYRO",
+          "🫠": "🫠"
         },
-        "lastChatAt": 1791663386661,
+        "lastChatAt": 1791663704164,
         "sendFailStreak": 559,
         "lastSendFailAt": 1791651734847,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4284,43 +4291,43 @@
       "chatMemory": [
         {
           "user": "doctorgeorgio",
-          "msg": "wait so you can run out of fuel?"
+          "msg": "oh well, thanks boss!"
         },
         {
           "user": "doctorgeorgio",
-          "msg": "maybe add some temporary turrets that last for 30 seconds for example and can be damaged by the enemies so you make the enemy follow you instead of attacking the turret"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "could be a powerup you use that has a cooldown"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "cane be upgraded and whatever"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "or could be added as a module"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "you can either make it stationary or follows you around, or the two"
+          "msg": "is your progress saved? cz if that's the case, it's unfair for us viewers who can't play it but really want to hehehheheh 🙃🫠😏"
         },
         {
           "user": "bee12",
-          "msg": "this is soooo cool!!!"
+          "msg": "looking forward to playing it❤️🐝❤️"
         },
         {
           "user": "doctorgeorgio",
-          "msg": "it is"
+          "msg": "someone back me up"
+        },
+        {
+          "user": "sheshi",
+          "msg": "can we drop a big nuke, so it can clear lots in 1 bomb, when a player reaches certain streak they can use that bomb"
+        },
+        {
+          "user": "bee12",
+          "msg": "truth!"
         },
         {
           "user": "doctorgeorgio",
-          "msg": "how to become VIP in here?"
+          "msg": "oh cool idea sheshi"
+        },
+        {
+          "user": "bee12",
+          "msg": "oh good idea!!!! Unncccccc^^^^"
+        },
+        {
+          "user": "sheshi",
+          "msg": "🎮"
         },
         {
           "user": "doctorgeorgio",
-          "msg": "soon"
+          "msg": "yes good idea"
         }
       ],
       "customCommands": {},
@@ -7380,7 +7387,7 @@
       "stats": {
         "totalVotes": 18502,
         "totalSubs": 54,
-        "totalChatMessages": 1707,
+        "totalChatMessages": 1708,
         "totalStreamMinutes": 6950,
         "emotes": {
           "❤": 71,
@@ -7394,8 +7401,8 @@
           "🤝": 2,
           "🥲": 2,
           "🗳": 294,
-          "🔴": 48,
-          "🎉": 90,
+          "🔴": 49,
+          "🎉": 91,
           "🚨": 84,
           "📴": 50,
           "👋": 65,
@@ -7537,17 +7544,13 @@
           "💝": "💝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791499283475,
+        "lastChatAt": 1791663688403,
         "lastSendFailAt": 1790979696099,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790984188513,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @Zer0Cache is raiding with a party of 3! Welcome raiders!! 🎉"
-        },
         {
           "user": "briggsy",
           "msg": "G'day @vitrene man"
@@ -7583,6 +7586,10 @@
         {
           "user": "agent00zani",
           "msg": "ggs"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 vitrene is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -7595,7 +7602,7 @@
       "botVip": true,
       "profile": "Vitrene’s channel is a Cyberpunk 2077 hub where fans shout “VIT 🔥🔥” and “$VIT Always Wins!” to hype streams. Milestones trigger “🔴 VOTE ALERT!! 🗳️”, dances of “💃💃💃”, raids, gifts, and level‑up cheers. The community loves auto‑drive, Idris Elba DLC, Dune updates, and always ends with “have an awesome night/day!”",
       "_profileAtCount": 1672,
-      "streamTitle": "",
+      "streamTitle": "Got a Long Distance Call for Big 🐉 | Runescape Dragonwilds — RuneScape",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -9832,7 +9839,7 @@
       "username": "saboomafoo",
       "language": "en",
       "stats": {
-        "totalVotes": 11463,
+        "totalVotes": 11473,
         "totalSubs": 203,
         "totalChatMessages": 501,
         "totalStreamMinutes": 16132,
@@ -10191,7 +10198,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 10542,
+        "totalStreamMinutes": 10547,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -14571,7 +14578,7 @@
         "totalVotes": 11061,
         "totalSubs": 32,
         "totalChatMessages": 1407,
-        "totalStreamMinutes": 9367,
+        "totalStreamMinutes": 9372,
         "emotes": {
           "❤": 84,
           "🙌": 61,
@@ -16516,7 +16523,7 @@
         "totalVotes": 7253,
         "totalSubs": 26,
         "totalChatMessages": 1232,
-        "totalStreamMinutes": 14091,
+        "totalStreamMinutes": 14096,
         "emotes": {
           "❤": 71,
           "🙌": 58,
@@ -21273,7 +21280,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 12,
-        "totalStreamMinutes": 3995,
+        "totalStreamMinutes": 4000,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -21581,8 +21588,8 @@
   "learnedPeople": {
     "lipeman": {
       "note": "Playful gamer who loves Mario, Sonic, and Nintendo, jokes with friends, and keeps chat light‑hearted with lots of “kkkkkk” laughs.",
-      "at": 1791615468770,
-      "n": 22
+      "at": 1791663648761,
+      "n": 23
     },
     "solucao": {
       "note": "Streams Batman, Mortal Kombat, and Spider‑Man, mixing fruit puns with “Cavaleiros do Zodíaco” jokes.",
@@ -22890,8 +22897,8 @@
     }
   },
   "auth": {
-    "accessToken": "bcfc1629a6df13e88dbf2a2da8c6dcff",
-    "refreshToken": "89afdcaf6b1e4dd85cc04469ae1ac34a",
+    "accessToken": "bfb38e0d0f1b938bbf5f44209f71d8dd",
+    "refreshToken": "00763882368299860206cd5f9c7525e0",
     "sessionToken": "2c003e214f4bea1f461b8e74a8ed9b88",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
