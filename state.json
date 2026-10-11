@@ -10220,7 +10220,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 11082,
+        "totalStreamMinutes": 11087,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -17102,8 +17102,8 @@
       "stats": {
         "totalVotes": 25496,
         "totalSubs": 111,
-        "totalChatMessages": 6947,
-        "totalStreamMinutes": 12676,
+        "totalChatMessages": 6949,
+        "totalStreamMinutes": 12681,
         "emotes": {
           "😅": 8,
           "🔥": 279,
@@ -17142,7 +17142,7 @@
           "📢": 86,
           "🚨": 396,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 4,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 27,
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 29,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 17,
           "da339ef7-1574-4f2f-8b48-666688167af3": 5,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 47,
@@ -17343,7 +17343,7 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791694406812,
+        "lastChatAt": 1791696032565,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -17351,14 +17351,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "clutchking",
-          "msg": "im doing good! how are you"
-        },
-        {
-          "user": "clutchking",
-          "msg": "it was ok, wish i wouldve been able to start the lootrop, not enough people though so i had to pack it up"
-        },
         {
           "user": "fartvader",
           "msg": "ooops seems like i lost audio"
@@ -17390,6 +17382,14 @@
         {
           "user": "fartvader",
           "msg": "gotcha broski.."
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "we good"
         }
       ],
       "customCommands": {},
@@ -18421,8 +18421,8 @@
       "stats": {
         "totalVotes": 7086,
         "totalSubs": 33,
-        "totalChatMessages": 4460,
-        "totalStreamMinutes": 13256,
+        "totalChatMessages": 4461,
+        "totalStreamMinutes": 13261,
         "emotes": {
           "👋": 97,
           "⚠": 2,
@@ -18598,13 +18598,9 @@
           "3a0bbdaa-5c9d-44bc-8291-5e4446aac8d5": "PYROBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791695096800
+        "lastChatAt": 1791696023624
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: !play to join! 🔥 315th Blaze Stream🔥! Come hang out and watch."
-        },
         {
           "user": "i420spit710fire",
           "msg": "Sup guys"
@@ -18640,6 +18636,10 @@
         {
           "user": "walkthegrid",
           "msg": "[emote:3a0bbdaa-5c9d-44bc-8291-5e4446aac8d5] ...."
+        },
+        {
+          "user": "inn",
+          "msg": "Weird sorry"
         }
       ],
       "customCommands": {
@@ -22980,8 +22980,8 @@
     }
   },
   "auth": {
-    "accessToken": "24f292e10dda825ec6138b5cd8e0a351",
-    "refreshToken": "8b29d6446b6ab4b96f604490673c4218",
+    "accessToken": "0ef80bfa01c53e8707c9aa105f7df1fc",
+    "refreshToken": "6d921580f290f2d2ca2535c30c0f8fc0",
     "sessionToken": "2c003e214f4bea1f461b8e74a8ed9b88",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
