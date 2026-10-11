@@ -10220,7 +10220,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 11172,
+        "totalStreamMinutes": 11177,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -11684,8 +11684,8 @@
       "stats": {
         "totalVotes": 30046,
         "totalSubs": 31,
-        "totalChatMessages": 1421,
-        "totalStreamMinutes": 2324,
+        "totalChatMessages": 1426,
+        "totalStreamMinutes": 2329,
         "emotes": {
           "❤": 29,
           "🙌": 42,
@@ -11774,7 +11774,7 @@
           "💰": 2,
           "258f10f6-6369-4d78-9020-6d4344802acb": 3,
           "f9308e00-3fc1-48b1-84ec-09bf6bc56858": 8,
-          "01925d86-0eb7-484d-aee8-bb884cb4aac4": 5,
+          "01925d86-0eb7-484d-aee8-bb884cb4aac4": 8,
           "👆": 1,
           "👻": 3,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 4
@@ -11872,33 +11872,13 @@
           "👻": "👻",
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
-        "lastChatAt": 1791701206963,
+        "lastChatAt": 1791701428814,
         "sendFailStreak": 280,
         "lastSendFailAt": 1791699100365,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1791699100183
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:35c5c2ba-6f7c-4560-838b-72614abe98ba] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:35c5c2ba-6f7c-4560-838b-72614abe98ba] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:35c5c2ba-6f7c-4560-838b-72614abe98ba] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:35c5c2ba-6f7c-4560-838b-72614abe98ba]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "nice block there"
-        },
-        {
-          "user": "dimifw",
-          "msg": "thanks thanks :D"
-        },
-        {
-          "user": "dimifw",
-          "msg": "damn close one"
-        },
-        {
-          "user": "fartvader",
-          "msg": "wowww yes that was close"
-        },
         {
           "user": "fartvader",
           "msg": "almost got that goal."
@@ -11918,6 +11898,26 @@
         {
           "user": "dimifw",
           "msg": "neverending grind to ranking score 1000"
+        },
+        {
+          "user": "dimifw",
+          "msg": "Wish"
+        },
+        {
+          "user": "dimifw",
+          "msg": "[emote:01925d86-0eb7-484d-aee8-bb884cb4aac4]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:01925d86-0eb7-484d-aee8-bb884cb4aac4] [emote:01925d86-0eb7-484d-aee8-bb884cb4aac4]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "this is diamond right?"
+        },
+        {
+          "user": "dimifw",
+          "msg": "yeah i think so, i have to check lol"
         }
       ],
       "customCommands": {},
@@ -22987,8 +22987,8 @@
     }
   },
   "auth": {
-    "accessToken": "db100e8077dc2994ad0d2b1818f1775f",
-    "refreshToken": "65e8b4854eb0ff14478bfa8519ca5ba9",
+    "accessToken": "ee282c84707df2a2bd2be67bf585b8d3",
+    "refreshToken": "124c6daf08a82fe68b60be8527508777",
     "sessionToken": "2c003e214f4bea1f461b8e74a8ed9b88",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
