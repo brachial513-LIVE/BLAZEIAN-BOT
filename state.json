@@ -6294,7 +6294,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Sniffer walk with Mellow. — IRL",
       "lastStreamEndedAt": 1791406267692,
-      "_idAt": 1791689215338
+      "_idAt": 1791712015389
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -10225,7 +10225,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 11352,
+        "totalStreamMinutes": 11357,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -10504,16 +10504,16 @@
       "stats": {
         "totalVotes": 6015,
         "totalSubs": 35,
-        "totalChatMessages": 882,
-        "totalStreamMinutes": 2720,
+        "totalChatMessages": 883,
+        "totalStreamMinutes": 2724,
         "emotes": {
           "❤": 34,
           "🙌": 45,
           "🗳": 258,
           "🔴": 53,
           "🎉": 55,
-          "📴": 51,
-          "👋": 53,
+          "📴": 52,
+          "👋": 54,
           "🎁": 36,
           "🤝": 1,
           "🔥": 31,
@@ -10605,13 +10605,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791710543222
+        "lastChatAt": 1791712268026
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Haha"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -10647,6 +10643,10 @@
         {
           "user": "botger",
           "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -10659,14 +10659,14 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1fce5f33-0d10-4052-a439-2d788d567380.png",
       "followed": true,
-      "streamTitle": "FC26 — FC26",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "0xscheun’s crew is a chill, high‑energy squad that loves gaming, especially Farlight and Uncharted. We greet with “gm gm” and “sup”, celebrate wins with “thank you” and “yessir”, laugh at “tiddies” and “nirus supplier” jokes, throw constant emotes, and end streams with a heartfelt “See you next time 👋”. The vibe is playful banter, fests, and constant celebration.",
       "_profileAtCount": 831,
       "nudgedAt": 1785078532098,
       "nudgedKey": "schedule",
       "lastStreamInfo": "FC26 — FC26",
-      "lastStreamEndedAt": 1791710392677,
+      "lastStreamEndedAt": 1791712262812,
       "loyalty": {
         "anej56": {
           "name": "anej56",
@@ -11271,14 +11271,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 34134,
-        "totalSubs": 158,
-        "totalChatMessages": 3859,
+        "totalSubs": 159,
+        "totalChatMessages": 3860,
         "totalStreamMinutes": 19317,
         "emotes": {
           "❤": 138,
-          "🙌": 224,
+          "🙌": 225,
           "💚": 3,
-          "🔥": 112,
+          "🔥": 114,
           "🗳": 972,
           "🔴": 163,
           "🎉": 216,
@@ -11501,13 +11501,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791708357945
+        "lastChatAt": 1791712134466
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "oo nagka prob sa unang server kaya inulit"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @leandrineth just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
@@ -11543,6 +11539,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @CedriCDebleD has resubscribed (6 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @avisi has resubscribed (4 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -11680,6 +11680,11 @@
         },
         "cedricdebled": {
           "name": "cedricdebled",
+          "months": 1,
+          "tier": 1
+        },
+        "avisi": {
+          "name": "avisi",
           "months": 1,
           "tier": 1
         }
@@ -23026,8 +23031,8 @@
     }
   },
   "auth": {
-    "accessToken": "c7b3604f870143f088d83dd4138cb520",
-    "refreshToken": "12fd402c6f6304c1bd34df199f736ae5",
+    "accessToken": "21e0265cc3b27ae6e253bc5c6476cd49",
+    "refreshToken": "06cc59d1b71e800a7c0c068f58fa69eb",
     "sessionToken": "2c003e214f4bea1f461b8e74a8ed9b88",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
