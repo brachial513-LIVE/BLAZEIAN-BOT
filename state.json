@@ -810,12 +810,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 116560,
+        "totalVotes": 116660,
         "totalSubs": 190,
-        "totalChatMessages": 11366,
+        "totalChatMessages": 11368,
         "totalStreamMinutes": 4160,
         "emotes": {
-          "🗳": 2004,
+          "🗳": 2007,
           "❤": 548,
           "🙌": 301,
           "🔥": 300,
@@ -1195,21 +1195,13 @@
           "😉": "😉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791667036559,
+        "lastChatAt": 1791698631902,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:f3f963aa-cbae-4673-855f-b5ad2a0805a3] [emote:5b987160-8591-447b-a278-18d1ab41dec5] [emote:c0c66508-8d3b-4794-818a-0eca4538dbf1]"
-        },
-        {
-          "user": "cynthia_stnkmp",
-          "msg": "❤️"
-        },
         {
           "user": "cedricdebled",
           "msg": "Cynthia"
@@ -1241,6 +1233,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ kariman just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 100 vote(s) (total: 270)! Thank you!! 🗳️"
+        },
+        {
+          "user": "dimifw",
+          "msg": "some extra because you are the real MVP"
         }
       ],
       "customCommands": {},
@@ -10220,7 +10220,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 11127,
+        "totalStreamMinutes": 11132,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -11684,7 +11684,7 @@
       "stats": {
         "totalVotes": 30046,
         "totalSubs": 30,
-        "totalChatMessages": 1396,
+        "totalChatMessages": 1397,
         "totalStreamMinutes": 2288,
         "emotes": {
           "❤": 29,
@@ -11762,7 +11762,7 @@
           "😍": 1,
           "🫶": 1,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 7,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 9,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 10,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 7,
           "🥹": 3,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
@@ -11870,17 +11870,13 @@
           "👆": "👆",
           "👻": "👻"
         },
-        "lastChatAt": 1791573235802,
+        "lastChatAt": 1791698586934,
         "sendFailStreak": 279,
         "lastSendFailAt": 1791546342398,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1791546342179
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mediart just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
         {
           "user": "mediart",
           "msg": "Hey Dimi"
@@ -11916,6 +11912,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @jt_squared2 just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
+        },
+        {
+          "user": "missaria",
+          "msg": "Thank you Dimi for the support [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
         }
       ],
       "customCommands": {},
@@ -22980,8 +22980,8 @@
     }
   },
   "auth": {
-    "accessToken": "0ef80bfa01c53e8707c9aa105f7df1fc",
-    "refreshToken": "6d921580f290f2d2ca2535c30c0f8fc0",
+    "accessToken": "db100e8077dc2994ad0d2b1818f1775f",
+    "refreshToken": "65e8b4854eb0ff14478bfa8519ca5ba9",
     "sessionToken": "2c003e214f4bea1f461b8e74a8ed9b88",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
