@@ -3255,14 +3255,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 26106,
+        "totalVotes": 26206,
         "totalSubs": 99,
-        "totalChatMessages": 8338,
-        "totalStreamMinutes": 25017,
+        "totalChatMessages": 8342,
+        "totalStreamMinutes": 25022,
         "emotes": {
           "❤": 233,
           "🙌": 189,
-          "🗳": 1215,
+          "🗳": 1218,
           "📴": 212,
           "👋": 242,
           "🔴": 208,
@@ -3607,26 +3607,10 @@
           "✔": "✔",
           "🤟": "🤟"
         },
-        "lastChatAt": 1791791866553,
+        "lastChatAt": 1791793188027,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "curlysnow07",
-          "msg": "Thanks bro for the votes I appreciate you"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @octo just gave 140 vote(s) (total: 140)! Thank you!! 🗳️"
-        },
         {
           "user": "octo",
           "msg": "ty zani stay cool and have a good"
@@ -3650,6 +3634,22 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "avisi",
+          "msg": "you can do it!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "avisi",
+          "msg": "100 votes to ready up!"
+        },
+        {
+          "user": "avisi",
+          "msg": "its glitched you dont have the button xD"
         }
       ],
       "customCommands": {
@@ -17390,8 +17390,8 @@
       "stats": {
         "totalVotes": 26242,
         "totalSubs": 114,
-        "totalChatMessages": 7118,
-        "totalStreamMinutes": 13128,
+        "totalChatMessages": 7121,
+        "totalStreamMinutes": 13133,
         "emotes": {
           "😅": 8,
           "🔥": 285,
@@ -17635,7 +17635,7 @@
           "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791791038775,
+        "lastChatAt": 1791793242472,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -17643,14 +17643,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "alliveall",
-          "msg": "gmgm"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Alli"
-        },
         {
           "user": "briggsy",
           "msg": "Hey Faithy"
@@ -17682,6 +17674,14 @@
         {
           "user": "fartvader",
           "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "HELLOOOOO"
+        },
+        {
+          "user": "fartvader",
+          "msg": "heya neko\\"
         }
       ],
       "customCommands": {},
@@ -23354,8 +23354,8 @@
     }
   },
   "auth": {
-    "accessToken": "15633255b29dae986acb70cd00db269e",
-    "refreshToken": "edf95a25ebabb9dccf40a66de4b7859c",
+    "accessToken": "27a4156d9743842fb52df228829aea2e",
+    "refreshToken": "760398a7cb554865a486314c98996d4b",
     "sessionToken": "9bc751ce1a007248fe14563408aa7da3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
