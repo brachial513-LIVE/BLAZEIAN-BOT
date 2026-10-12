@@ -17390,8 +17390,8 @@
       "stats": {
         "totalVotes": 26242,
         "totalSubs": 114,
-        "totalChatMessages": 7111,
-        "totalStreamMinutes": 13083,
+        "totalChatMessages": 7112,
+        "totalStreamMinutes": 13088,
         "emotes": {
           "😅": 8,
           "🔥": 285,
@@ -17631,7 +17631,7 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791789343951,
+        "lastChatAt": 1791790590956,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -17639,10 +17639,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Waiting on the third..."
-        },
         {
           "user": "faithy_",
           "msg": "kelan pakita muka bossing haha"
@@ -17678,6 +17674,10 @@
         {
           "user": "briggsy",
           "msg": "Hey Faithy"
+        },
+        {
+          "user": "cabsss",
+          "msg": "yo @fartvader"
         }
       ],
       "customCommands": {},
@@ -23350,8 +23350,8 @@
     }
   },
   "auth": {
-    "accessToken": "56c3b0bf71eeb36f95986873eff48ebe",
-    "refreshToken": "ca90bf307df78bae83c689e8bd28b73a",
+    "accessToken": "15633255b29dae986acb70cd00db269e",
+    "refreshToken": "edf95a25ebabb9dccf40a66de4b7859c",
     "sessionToken": "9bc751ce1a007248fe14563408aa7da3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
