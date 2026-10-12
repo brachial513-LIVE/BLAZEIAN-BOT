@@ -9676,7 +9676,7 @@
       "username": "xxtowerdogxx",
       "language": "en",
       "stats": {
-        "totalVotes": 20219,
+        "totalVotes": 20225,
         "totalSubs": 63,
         "totalChatMessages": 2611,
         "totalStreamMinutes": 20896,
@@ -10665,7 +10665,7 @@
       "stats": {
         "totalVotes": 6309,
         "totalSubs": 35,
-        "totalChatMessages": 975,
+        "totalChatMessages": 976,
         "totalStreamMinutes": 2774,
         "emotes": {
           "❤": 36,
@@ -10774,13 +10774,9 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791847628589
+        "lastChatAt": 1791847641035
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "i will lol"
-        },
         {
           "user": "triz_draw",
           "msg": "👍👍👍"
@@ -10816,6 +10812,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ jagsman just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "heyyyoo"
         }
       ],
       "customCommands": {},
@@ -22074,13 +22074,19 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1791847640124
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -22093,7 +22099,10 @@
         "entries": []
       },
       "timedMessages": [],
-      "tipTiers": []
+      "tipTiers": [],
+      "locked": false,
+      "followed": true,
+      "botVip": true
     }
   },
   "blocklist": [
