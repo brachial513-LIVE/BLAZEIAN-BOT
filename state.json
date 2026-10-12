@@ -3260,14 +3260,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 26306,
+        "totalVotes": 26456,
         "totalSubs": 99,
-        "totalChatMessages": 8353,
+        "totalChatMessages": 8354,
         "totalStreamMinutes": 25052,
         "emotes": {
           "❤": 233,
           "🙌": 189,
-          "🗳": 1218,
+          "🗳": 1221,
           "📴": 213,
           "👋": 243,
           "🔴": 208,
@@ -3612,14 +3612,10 @@
           "✔": "✔",
           "🤟": "🤟"
         },
-        "lastChatAt": 1791795159663,
+        "lastChatAt": 1791806662860,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2]"
-        },
         {
           "user": "agent00zani",
           "msg": "sup"
@@ -3655,6 +3651,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -11413,8 +11413,8 @@
       "stats": {
         "totalVotes": 35456,
         "totalSubs": 164,
-        "totalChatMessages": 3894,
-        "totalStreamMinutes": 19599,
+        "totalChatMessages": 3895,
+        "totalStreamMinutes": 19603,
         "emotes": {
           "❤": 140,
           "🙌": 231,
@@ -11457,7 +11457,7 @@
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 10,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 15,
           "ef07187d-8e6c-42b9-af9c-b732de7949cb": 45,
-          "e378281b-e1b0-44be-95f5-eb1cd26dedf0": 174,
+          "e378281b-e1b0-44be-95f5-eb1cd26dedf0": 176,
           "👉": 1,
           "🍵": 1,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 6,
@@ -11642,13 +11642,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791805917049
+        "lastChatAt": 1791806726557
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @korosuplays has resubscribed (5 months total, 1 month streak)! Thank you for the continued support! 🙌"
-        },
         {
           "user": "korosuplays",
           "msg": "a little something so you can buy dinner later [emote:7c4338cb-2027-4da7-a5c6-e89019df721b]"
@@ -11684,6 +11680,10 @@
         {
           "user": "botger",
           "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "fartvader",
+          "msg": "lets goo.. ME-SoM [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0] [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0]"
         }
       ],
       "customCommands": {},
@@ -23364,8 +23364,8 @@
     }
   },
   "auth": {
-    "accessToken": "693b9b089159246f60d05e7a2f99e52a",
-    "refreshToken": "9dfaec6f5aa53c7cb12b995f0dbd87c0",
+    "accessToken": "9114575eed25de8416dd19ce7cb7f8bb",
+    "refreshToken": "3fd2efee335625ca9ffc617ba7a0cc42",
     "sessionToken": "9bc751ce1a007248fe14563408aa7da3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
