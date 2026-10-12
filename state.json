@@ -11401,16 +11401,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 34711,
+        "totalVotes": 34761,
         "totalSubs": 164,
-        "totalChatMessages": 3885,
-        "totalStreamMinutes": 19475,
+        "totalChatMessages": 3887,
+        "totalStreamMinutes": 19480,
         "emotes": {
           "❤": 140,
           "🙌": 231,
           "💚": 3,
-          "🔥": 122,
-          "🗳": 987,
+          "🔥": 123,
+          "🗳": 990,
           "🔴": 164,
           "🎉": 217,
           "📴": 160,
@@ -11424,9 +11424,9 @@
           "😁": 1,
           "👀": 9,
           "✋": 2,
-          "✌": 9,
+          "✌": 10,
           "☺": 1,
-          "👍": 8,
+          "👍": 9,
           "🎁": 260,
           "😶": 12,
           "🌫": 12,
@@ -11632,17 +11632,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791781900614
+        "lastChatAt": 1791782323638
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "ok cool"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @seventh just gave 36 vote(s) (total: 36)! Thank you!! 🗳️"
-        },
         {
           "user": "seventh",
           "msg": "gm gm kuya intro boy"
@@ -11674,6 +11666,14 @@
         {
           "user": "korosuplays",
           "msg": "HAHA"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "avisi",
+          "msg": "Heya! @faithy_ ✌️🔥👍 happy flip my fren!"
         }
       ],
       "customCommands": {},
@@ -17385,8 +17385,8 @@
       "stats": {
         "totalVotes": 26167,
         "totalSubs": 114,
-        "totalChatMessages": 7069,
-        "totalStreamMinutes": 12948,
+        "totalChatMessages": 7071,
+        "totalStreamMinutes": 12953,
         "emotes": {
           "😅": 8,
           "🔥": 285,
@@ -17428,7 +17428,7 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 29,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 17,
           "da339ef7-1574-4f2f-8b48-666688167af3": 5,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 47,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 52,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 32,
           "🎮": 1,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 6,
@@ -17626,7 +17626,7 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791782048279,
+        "lastChatAt": 1791782453886,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -17634,10 +17634,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "lvl4goblin",
-          "msg": "and you got elissdee! I didn't think he played anything other than street fighter lol!"
-        },
         {
           "user": "fartvader",
           "msg": "Deadzone 2 is the name of the current game now"
@@ -17673,6 +17669,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
         }
       ],
       "customCommands": {},
@@ -22345,9 +22345,9 @@
       "n": 18
     },
     "helios": {
-      "note": "He loves shooting games, jokes about ping, enjoys free‑to‑play titles, and always checks if he can run new releases.",
-      "at": 1791704568989,
-      "n": 39
+      "note": "He loves",
+      "at": 1791782449049,
+      "n": 40
     },
     "piweb": {
       "note": "Enjoys casual Fortnite and backgammon, often joking about game moments and everyday life in a light‑hearted, playful way.",
@@ -23340,8 +23340,8 @@
     }
   },
   "auth": {
-    "accessToken": "0a429221992cc5c826d44ef79990b7b7",
-    "refreshToken": "8e5dd6727f29c99e6e17e39e17e19786",
+    "accessToken": "7798d052654dd69f525e38f153d30b3f",
+    "refreshToken": "2a92609a59cb7c3013c619f4b750fa63",
     "sessionToken": "9bc751ce1a007248fe14563408aa7da3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
