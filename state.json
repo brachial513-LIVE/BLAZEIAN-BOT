@@ -824,7 +824,7 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 122576,
+        "totalVotes": 122701,
         "totalSubs": 210,
         "totalChatMessages": 11399,
         "totalStreamMinutes": 4160,
@@ -4555,7 +4555,7 @@
         "totalVotes": 29598,
         "totalSubs": 73,
         "totalChatMessages": 4063,
-        "totalStreamMinutes": 17163,
+        "totalStreamMinutes": 17168,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -8002,7 +8002,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 21283,
+        "totalVotes": 21408,
         "totalSubs": 56,
         "totalChatMessages": 4369,
         "totalStreamMinutes": 5169,
@@ -10150,7 +10150,7 @@
         "totalVotes": 10345,
         "totalSubs": 101,
         "totalChatMessages": 1553,
-        "totalStreamMinutes": 5112,
+        "totalStreamMinutes": 5117,
         "emotes": {
           "❤": 45,
           "🙌": 95,
@@ -12392,7 +12392,7 @@
       "language": "en",
       "joinedAt": 1784461195472,
       "stats": {
-        "totalVotes": 33467,
+        "totalVotes": 33592,
         "totalSubs": 62,
         "totalChatMessages": 2384,
         "totalStreamMinutes": 2944,
@@ -13416,9 +13416,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 19002,
+        "totalVotes": 19127,
         "totalSubs": 37,
-        "totalChatMessages": 3100,
+        "totalChatMessages": 3101,
         "totalStreamMinutes": 10547,
         "emotes": {
           "❤": 114,
@@ -13605,13 +13605,9 @@
           "😏": "😏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791769837714
+        "lastChatAt": 1791771571212
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 16 votes, @botger!"
-        },
         {
           "user": "botger",
           "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
@@ -13647,6 +13643,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 125 votes, @JohnGalt!"
         }
       ],
       "customCommands": {},
@@ -13742,7 +13742,7 @@
       "language": "en",
       "joinedAt": 1784468670654,
       "stats": {
-        "totalVotes": 7669,
+        "totalVotes": 7794,
         "totalSubs": 51,
         "totalChatMessages": 2650,
         "totalStreamMinutes": 6742,
@@ -14798,7 +14798,7 @@
       "language": "en",
       "joinedAt": 1784664490215,
       "stats": {
-        "totalVotes": 11203,
+        "totalVotes": 11328,
         "totalSubs": 34,
         "totalChatMessages": 1481,
         "totalStreamMinutes": 9829,
@@ -17077,7 +17077,7 @@
       "language": "en",
       "joinedAt": 1785809834886,
       "stats": {
-        "totalVotes": 157398,
+        "totalVotes": 162398,
         "totalSubs": 37,
         "totalChatMessages": 1447,
         "totalStreamMinutes": 3131,
@@ -21803,7 +21803,7 @@
         "totalVotes": 868,
         "totalSubs": 1,
         "totalChatMessages": 467,
-        "totalStreamMinutes": 1903,
+        "totalStreamMinutes": 1908,
         "emotes": {
           "❤": 14,
           "🙌": 8,
@@ -23306,8 +23306,8 @@
     }
   },
   "auth": {
-    "accessToken": "d1289d1f5e6b286dded7fefe7bbdf024",
-    "refreshToken": "f3f04c007699e9f4c3820ed131b74652",
+    "accessToken": "c74b3e9c13163bd59c82f96bd1f2a2c1",
+    "refreshToken": "ecc6b42904861cff4e04b05a6e2ab3a5",
     "sessionToken": "9bc751ce1a007248fe14563408aa7da3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
