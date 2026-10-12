@@ -11404,7 +11404,7 @@
         "totalVotes": 34761,
         "totalSubs": 164,
         "totalChatMessages": 3890,
-        "totalStreamMinutes": 19520,
+        "totalStreamMinutes": 19525,
         "emotes": {
           "❤": 140,
           "🙌": 231,
@@ -14218,9 +14218,9 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 17309,
+        "totalVotes": 17314,
         "totalSubs": 26,
-        "totalChatMessages": 34776,
+        "totalChatMessages": 34778,
         "totalStreamMinutes": 20175,
         "emotes": {
           "❤": 127,
@@ -14236,7 +14236,7 @@
           "🤗": 48,
           "😊": 11,
           "🌻": 5,
-          "🗳": 516,
+          "🗳": 519,
           "☺": 38,
           "😎": 2,
           "😁": 3,
@@ -14344,7 +14344,7 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 16,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 24,
           "37719561-c923-4260-b1a5-e3eda10c103d": 4,
-          "2f19a4d1-777a-4ed2-946e-8fe2925650f7": 35,
+          "2f19a4d1-777a-4ed2-946e-8fe2925650f7": 36,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 4,
           "a0c57d07-667e-42c5-8a86-84139bec522d": 16,
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 1,
@@ -14627,17 +14627,9 @@
           "🙃": "🙃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791776985254
+        "lastChatAt": 1791785000836
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "abordiin",
-          "msg": "boa noite a toldos"
-        },
         {
           "user": "lovemikami",
           "msg": "boa noite bordin"
@@ -14669,6 +14661,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @LipeMan just gave 152 vote(s) (total: 152)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @garotosemrumo just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "garotosemrumo",
+          "msg": "[emote:2f19a4d1-777a-4ed2-946e-8fe2925650f7]"
         }
       ],
       "customCommands": {},
@@ -17386,7 +17386,7 @@
         "totalVotes": 26167,
         "totalSubs": 114,
         "totalChatMessages": 7074,
-        "totalStreamMinutes": 12993,
+        "totalStreamMinutes": 12998,
         "emotes": {
           "😅": 8,
           "🔥": 285,
@@ -23345,8 +23345,8 @@
     }
   },
   "auth": {
-    "accessToken": "7798d052654dd69f525e38f153d30b3f",
-    "refreshToken": "2a92609a59cb7c3013c619f4b750fa63",
+    "accessToken": "24faa072edc51c08176a971c098659e4",
+    "refreshToken": "38ac949277dfddff379fc31046647b25",
     "sessionToken": "9bc751ce1a007248fe14563408aa7da3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
