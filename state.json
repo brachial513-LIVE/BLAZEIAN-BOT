@@ -3262,8 +3262,8 @@
       "stats": {
         "totalVotes": 26475,
         "totalSubs": 99,
-        "totalChatMessages": 8371,
-        "totalStreamMinutes": 25077,
+        "totalChatMessages": 8372,
+        "totalStreamMinutes": 25082,
         "emotes": {
           "❤": 233,
           "🙌": 189,
@@ -3612,14 +3612,10 @@
           "✔": "✔",
           "🤟": "🤟"
         },
-        "lastChatAt": 1791809190596,
+        "lastChatAt": 1791809423408,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "lets gooo [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:a859cc12-453a-4bd8-b650-38710d9486de]  heya bro zani"
-        },
         {
           "user": "cr33pling",
           "msg": "oy oy oy zaniii [emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e]"
@@ -3655,6 +3651,10 @@
         {
           "user": "zsoltech",
           "msg": "you like my smoke"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "gm Zaniiiiii"
         }
       ],
       "customCommands": {
@@ -10366,7 +10366,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 11676,
+        "totalStreamMinutes": 11681,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -11413,8 +11413,8 @@
       "stats": {
         "totalVotes": 35466,
         "totalSubs": 164,
-        "totalChatMessages": 3903,
-        "totalStreamMinutes": 19643,
+        "totalChatMessages": 3907,
+        "totalStreamMinutes": 19648,
         "emotes": {
           "❤": 140,
           "🙌": 231,
@@ -11471,7 +11471,7 @@
           "🍺": 10,
           "🍻": 1,
           "😎": 2,
-          "7c4338cb-2027-4da7-a5c6-e89019df721b": 72,
+          "7c4338cb-2027-4da7-a5c6-e89019df721b": 75,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 9,
           "🎰": 1,
           "🚫": 1,
@@ -11642,25 +11642,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791808591038
+        "lastChatAt": 1791809485881
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "fartvader",
-          "msg": "lets goo.. ME-SoM [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0] [emote:e378281b-e1b0-44be-95f5-eb1cd26dedf0]"
-        },
-        {
-          "user": "just_for_lucas",
-          "msg": "GM @faithy_"
-        },
-        {
-          "user": "just_for_lucas",
-          "msg": "hingi daw role ung dalawa kong tropa idolo sa discord"
-        },
         {
           "user": "agent00zani",
           "msg": "hi hi"
@@ -11684,6 +11668,22 @@
         {
           "user": "faithy_",
           "msg": "brb"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "gm Faithy"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:7c4338cb-2027-4da7-a5c6-e89019df721b] [emote:7c4338cb-2027-4da7-a5c6-e89019df721b] [emote:7c4338cb-2027-4da7-a5c6-e89019df721b]"
+        },
+        {
+          "user": "faithy_",
+          "msg": "gm gm scheun!"
+        },
+        {
+          "user": "faithy_",
+          "msg": "hope you having a good day!"
         }
       ],
       "customCommands": {},
@@ -23366,8 +23366,8 @@
     }
   },
   "auth": {
-    "accessToken": "9114575eed25de8416dd19ce7cb7f8bb",
-    "refreshToken": "3fd2efee335625ca9ffc617ba7a0cc42",
+    "accessToken": "8f945995bc0be40ee33ba22b5a8155b7",
+    "refreshToken": "4f09ba8fea966a1b37823f6d4fc3d76d",
     "sessionToken": "9bc751ce1a007248fe14563408aa7da3",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
