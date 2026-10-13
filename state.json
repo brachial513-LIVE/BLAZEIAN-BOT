@@ -15336,14 +15336,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 36063,
+        "totalVotes": 36073,
         "totalSubs": 58,
-        "totalChatMessages": 6759,
+        "totalChatMessages": 6761,
         "totalStreamMinutes": 11860,
         "emotes": {
           "❤": 110,
           "🙌": 102,
-          "🗳": 1101,
+          "🗳": 1104,
           "🔴": 93,
           "🎉": 170,
           "🏃": 1,
@@ -15679,17 +15679,9 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791883583788
+        "lastChatAt": 1791884360998
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @mediart!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mediart just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @briggsy!"
@@ -15721,6 +15713,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @BonsaiFox!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @BonsaiFox just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -17488,7 +17488,7 @@
       "stats": {
         "totalVotes": 26859,
         "totalSubs": 114,
-        "totalChatMessages": 7146,
+        "totalChatMessages": 7147,
         "totalStreamMinutes": 13161,
         "emotes": {
           "😅": 8,
@@ -17560,7 +17560,7 @@
           "😝": 2,
           "♥": 11,
           "🫵": 1,
-          "🥰": 9,
+          "🥰": 11,
           "💨": 5,
           "🍽": 1,
           "🥧": 1,
@@ -17733,7 +17733,7 @@
           "✅": "✅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791847089512,
+        "lastChatAt": 1791884892111,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -17741,10 +17741,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35]"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -17780,6 +17776,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "srchois",
+          "msg": "🥰🥰"
         }
       ],
       "customCommands": {},
@@ -23006,8 +23006,8 @@
     },
     "makesonlybeats": {
       "note": "Remixes music, hosts casual livestreams, jokes about crypto tokens, and keeps a playful, quirky sense of humor.",
-      "at": 1791813468985,
-      "n": 27
+      "at": 1791884749104,
+      "n": 28
     },
     "venessa2": {
       "note": "Energetic livestream fan who cheers games with hearts and fire emojis, greets everyone warmly, and enthusiastically supports every moment with upbeat enthusiasm.",
@@ -23587,8 +23587,8 @@
     }
   },
   "auth": {
-    "accessToken": "2630f4008333b6cada4a4b7d38436822",
-    "refreshToken": "3ae5aedf115d94414ec5ebeccbc8d7b8",
+    "accessToken": "7551bb7fa8b5467a53532dee29a76da7",
+    "refreshToken": "313a479d64fd91d45ea85d40b5bf0be3",
     "sessionToken": "9138b9ab53aed0d40186a904b91c733d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
