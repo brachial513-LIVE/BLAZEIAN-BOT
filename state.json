@@ -2134,8 +2134,8 @@
       "stats": {
         "totalVotes": 42294,
         "totalSubs": 261,
-        "totalChatMessages": 14190,
-        "totalStreamMinutes": 33362,
+        "totalChatMessages": 14192,
+        "totalStreamMinutes": 33371,
         "emotes": {
           "📊": 3,
           "🔥": 604,
@@ -2707,17 +2707,9 @@
           "🤧": "🤧"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791912021501
+        "lastChatAt": 1791913142210
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:5ba97ddb-ee75-44d4-aade-9bcb444fda7a]"
@@ -2749,6 +2741,14 @@
         {
           "user": "foxbotai",
           "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard, !convert, !casinoflip heads 10, !casino, !roulette red 10, !crash 10 2.5, !blackjack 10, !hit, !stand, !dice high 10, !slots 10 | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Why isn’t it letting me play???"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "I have the game wtf"
         }
       ],
       "customCommands": {},
@@ -2765,8 +2765,8 @@
       "nudgedAt": 1785001902195,
       "nudgedKey": "schedule",
       "commentMode": "heavy",
-      "lastStreamInfo": "THE CHOSEN OTG TOURNAMENT 🦾🔥 CASINO GAMES 🎰 — Off The Grid",
-      "lastStreamEndedAt": 1791837029962,
+      "lastStreamInfo": "RANKED OTG 🦾🔥 CASINO GAMES 🎰 — Off The Grid",
+      "lastStreamEndedAt": 1791913309468,
       "loyalty": {
         "mpfeiffer": {
           "name": "mpfeiffer",
@@ -3880,18 +3880,18 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 44527,
+        "totalVotes": 45135,
         "totalSubs": 98,
-        "totalChatMessages": 18387,
+        "totalChatMessages": 18397,
         "totalStreamMinutes": 10966,
         "emotes": {
-          "❤": 7025,
+          "❤": 7027,
           "🎵": 714,
           "💃": 320,
-          "🔥": 1511,
+          "🔥": 1513,
           "💚": 26,
           "👋": 304,
-          "🚨": 431,
+          "🚨": 433,
           "😊": 10,
           "🚀": 11,
           "😂": 154,
@@ -3906,12 +3906,12 @@
           "💕": 37,
           "😁": 92,
           "😆": 30,
-          "🐝": 1214,
+          "🐝": 1215,
           "🥷": 4,
           "😃": 4,
           "💪": 45,
           "🥹": 6,
-          "🤣": 833,
+          "🤣": 836,
           "🥚": 16,
           "🙏": 536,
           "😀": 15,
@@ -3974,7 +3974,7 @@
           "849b2d68-7a30-4dcc-9981-1906ce5d70ca": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 7,
           "258f10f6-6369-4d78-9020-6d4344802acb": 2,
-          "3334e68d-936f-4783-a8a4-78c564063655": 1,
+          "3334e68d-936f-4783-a8a4-78c564063655": 2,
           "3a0bbdaa-5c9d-44bc-8291-5e4446aac8d5": 2,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 31,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 69,
@@ -4092,7 +4092,7 @@
           "🪨": 3,
           "🌮": 5,
           "💉": 9,
-          "🎮": 11,
+          "🎮": 12,
           "🍺": 4,
           "8c114381-d222-4227-9300-89b11448d35f": 1,
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": 3,
@@ -4102,7 +4102,10 @@
           "60967948-8805-42ef-a202-051d2e2f1557": 1,
           "🫠": 1,
           "💎": 1,
-          "👉": 1
+          "👉": 1,
+          "🛠": 1,
+          "➡": 1,
+          "⚔": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -4322,9 +4325,12 @@
           "60967948-8805-42ef-a202-051d2e2f1557": "SLEEPYRO",
           "🫠": "🫠",
           "💎": "💎",
-          "👉": "👉"
+          "👉": "👉",
+          "🛠": "🛠",
+          "➡": "➡",
+          "⚔": "⚔"
         },
-        "lastChatAt": 1791912104657,
+        "lastChatAt": 1791913058698,
         "sendFailStreak": 563,
         "lastSendFailAt": 1791910917018,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4334,44 +4340,44 @@
       },
       "chatMemory": [
         {
-          "user": "generalkev",
-          "msg": "im all fingers and thumbs, i need it to work with a gamepad"
-        },
-        {
-          "user": "bee12",
-          "msg": "yasssss"
-        },
-        {
           "user": "sheshi",
-          "msg": "yes tutorial looks cool"
-        },
-        {
-          "user": "generalkev",
-          "msg": "the website is very well laid out and easy to understand, the game is smooth and gameplay is awesome"
-        },
-        {
-          "user": "midnitecatzlady",
-          "msg": "I have been having issues with 2 of my fingers cramping and curling in. . . I think its trying to tell me something"
-        },
-        {
-          "user": "generalkev",
-          "msg": "yes midnite, we need it to work with a gamepad"
-        },
-        {
-          "user": "generalkev",
-          "msg": "you can dooooooooo it"
+          "msg": "🚨 Funk Sol Brother (Only 33) — collection on LaunchMyNFT. Minting one gives you whitelist for 12 guaranteed Ultra-Exotic NFTs in OSP Defense. Mint SOL BROTHER: https://bit.ly/4db96EI 🚨"
         },
         {
           "user": "weri",
-          "msg": "Its so difficult to control on android"
+          "msg": "I fell and hit my head so tomorrow im going to have a black eye so I'm not staying long my head is splitting in half"
         },
         {
           "user": "bee12",
-          "msg": "awww❤️🐝❤️"
+          "msg": "oh nooooooooo❤️🐝❤️"
         },
         {
           "user": "sheshi",
-          "msg": "i claimed my free turret, got a boss knocker"
+          "msg": "🔥 OSP STARFALL PLAYTEST IS OPEN 🔥\n\nWatching the stream?  \nJump in and play right now 🎮  \nClaim your free turret while it’s live 🛠️\n\n➡️ https://ospstarfall.com/?ref=2FTJ8L\n\nHave fun Commanders ⚔️"
+        },
+        {
+          "user": "bee12",
+          "msg": "🤣🤣🤣"
+        },
+        {
+          "user": "sheshi",
+          "msg": "ucn didn't you said add referral or maybe you said to tell people to refer others [emote:3334e68d-936f-4783-a8a4-78c564063655]"
+        },
+        {
+          "user": "sheshi",
+          "msg": "i am playing it, very cool and very nice"
+        },
+        {
+          "user": "generalkev",
+          "msg": "no sound?"
+        },
+        {
+          "user": "bee12",
+          "msg": "where are you unccccc?"
+        },
+        {
+          "user": "generalkev",
+          "msg": "s'cone......"
         }
       ],
       "customCommands": {},
@@ -10415,7 +10421,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 12229,
+        "totalStreamMinutes": 12249,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -13848,13 +13854,13 @@
       "stats": {
         "totalVotes": 7907,
         "totalSubs": 51,
-        "totalChatMessages": 2664,
-        "totalStreamMinutes": 6832,
+        "totalChatMessages": 2666,
+        "totalStreamMinutes": 6839,
         "emotes": {
           "❤": 112,
           "🙌": 92,
-          "📴": 53,
-          "👋": 56,
+          "📴": 54,
+          "👋": 57,
           "🎁": 50,
           "🗳": 243,
           "⚠": 1,
@@ -14057,17 +14063,9 @@
           "a966f060-6fa3-48df-823e-dab2c471849c": "DONTLOOKUP"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791911544675
+        "lastChatAt": 1791912498899
       },
       "chatMemory": [
-        {
-          "user": "noxx",
-          "msg": "tutiiiiiiiiiiiiiiiii"
-        },
-        {
-          "user": "noxx",
-          "msg": "ruriiiiiiiiiiiiiiii"
-        },
         {
           "user": "ruri666",
           "msg": "noxxxxxxxxxxxxx"
@@ -14099,6 +14097,14 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -14110,7 +14116,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "AION 2 - ARCHER !!! — Music",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -14118,7 +14124,7 @@
       "nudgedAt": 1785164605243,
       "nudgedKey": "schedule",
       "lastStreamInfo": "AION 2 - ARCHER !!! — Music",
-      "lastStreamEndedAt": 1791735641232,
+      "lastStreamEndedAt": 1791912493758,
       "loyalty": {
         "angge_wf": {
           "name": "angge_wf",
@@ -15336,16 +15342,16 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 36235,
+        "totalVotes": 36285,
         "totalSubs": 58,
-        "totalChatMessages": 6815,
-        "totalStreamMinutes": 11905,
+        "totalChatMessages": 6834,
+        "totalStreamMinutes": 11925,
         "emotes": {
           "❤": 112,
           "🙌": 104,
-          "🗳": 1119,
+          "🗳": 1122,
           "🔴": 94,
-          "🎉": 172,
+          "🎉": 173,
           "🏃": 1,
           "♂": 2,
           "💨": 1,
@@ -15355,7 +15361,7 @@
           "😂": 104,
           "📴": 96,
           "👋": 114,
-          "🚨": 312,
+          "🚨": 318,
           "🔥": 125,
           "💚": 28,
           "👀": 51,
@@ -15369,7 +15375,7 @@
           "✌": 2,
           "👍": 8,
           "🥷": 5,
-          "😀": 5,
+          "😀": 6,
           "🙏": 44,
           "😩": 17,
           "💃": 2,
@@ -15398,8 +15404,8 @@
           "🌄": 1,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 13,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 5,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 32,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 61,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 33,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 71,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 93,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 21,
           "🙃": 7,
@@ -15414,7 +15420,7 @@
           "f6f2189c-c5fb-4f5b-a252-118456b6944d": 1,
           "🍀": 1,
           "60967948-8805-42ef-a202-051d2e2f1557": 5,
-          "37719561-c923-4260-b1a5-e3eda10c103d": 11,
+          "37719561-c923-4260-b1a5-e3eda10c103d": 20,
           "🤠": 1,
           "🤩": 12,
           "🐝": 4,
@@ -15679,48 +15685,48 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791912074481
+        "lastChatAt": 1791912890533
       },
       "chatMemory": [
         {
-          "user": "fartvader",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+          "user": "piweb",
+          "msg": "Welcome noxx"
         },
         {
           "user": "cedricdebled",
-          "msg": "Exactly ! sir Cedric"
+          "msg": "YES Stream is back"
         },
         {
           "user": "cedricdebled",
-          "msg": "I just took a massive nap"
+          "msg": "Internet is back"
         },
         {
           "user": "cedricdebled",
-          "msg": "😂"
+          "msg": "Hi Piweb"
+        },
+        {
+          "user": "piweb",
+          "msg": "Hi Cedric"
         },
         {
           "user": "cedricdebled",
-          "msg": "REcharge a little"
+          "msg": "😀"
         },
         {
           "user": "cedricdebled",
-          "msg": "Gonna have a painting session tonight with 3 ladies :"
+          "msg": "J'espere que ca va bien"
         },
         {
           "user": "cedricdebled",
-          "msg": "Noxx"
+          "msg": "Man, These Characters are really original !"
         },
         {
           "user": "cedricdebled",
-          "msg": "Than game looks really good !"
+          "msg": "I love it !"
         },
         {
           "user": "cedricdebled",
-          "msg": "The vibe is nice"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "Is that a rat"
+          "msg": "You play such cool games !"
         }
       ],
       "customCommands": {},
@@ -22509,9 +22515,9 @@
       "n": 2
     },
     "avisi": {
-      "note": "Enthusiastic gamer",
-      "at": 1791783109380,
-      "n": 36
+      "note": "Enthusiastic gamer who loves Aion 2, FPS, music‑powered streams, playful emojis, and sharing fun gaming moments with friends.",
+      "at": 1791913129322,
+      "n": 37
     },
     "junior7_": {
       "note": "Enjoys playing Mania, loves playful banter, and greets friends with casual, light‑hearted remarks.",
@@ -22569,9 +22575,9 @@
       "n": 18
     },
     "helios": {
-      "note": "He loves",
-      "at": 1791782449049,
-      "n": 40
+      "note": "He enjoys playing games like Stumble Guys, Among",
+      "at": 1791912469448,
+      "n": 41
     },
     "piweb": {
       "note": "Enjoys casual Fortnite and backgammon, often joking about game moments and everyday life in a light‑hearted, playful way.",
