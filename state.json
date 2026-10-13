@@ -827,7 +827,7 @@
         "totalVotes": 127878,
         "totalSubs": 212,
         "totalChatMessages": 11465,
-        "totalStreamMinutes": 4283,
+        "totalStreamMinutes": 4288,
         "emotes": {
           "🗳": 2073,
           "❤": 550,
@@ -6583,8 +6583,8 @@
       "stats": {
         "totalVotes": 37270,
         "totalSubs": 77,
-        "totalChatMessages": 8865,
-        "totalStreamMinutes": 15477,
+        "totalChatMessages": 8866,
+        "totalStreamMinutes": 15482,
         "emotes": {
           "❤": 146,
           "🙌": 206,
@@ -6981,14 +6981,10 @@
           "🫂": "🫂",
           "😋": "😋"
         },
-        "lastChatAt": 1791857738748,
+        "lastChatAt": 1791857970867,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "let's go! I'm definitely sticking around for it"
-        },
         {
           "user": "avisi",
           "msg": "that's awesome!"
@@ -7024,6 +7020,10 @@
         {
           "user": "avisi",
           "msg": "Let's BLAZE IT!"
+        },
+        {
+          "user": "avisi",
+          "msg": "that's a great idea! a lot of folks will have fun singing and watching together. exciting stuff nadie"
         }
       ],
       "customCommands": {},
@@ -9695,7 +9695,7 @@
         "totalVotes": 20350,
         "totalSubs": 63,
         "totalChatMessages": 2634,
-        "totalStreamMinutes": 21065,
+        "totalStreamMinutes": 21070,
         "emotes": {
           "🔥": 769,
           "🔴": 200,
@@ -11460,7 +11460,7 @@
         "totalVotes": 36196,
         "totalSubs": 164,
         "totalChatMessages": 3934,
-        "totalStreamMinutes": 19799,
+        "totalStreamMinutes": 19804,
         "emotes": {
           "❤": 142,
           "🙌": 232,
@@ -12280,7 +12280,7 @@
         "totalVotes": 10053,
         "totalSubs": 51,
         "totalChatMessages": 476,
-        "totalStreamMinutes": 8344,
+        "totalStreamMinutes": 8349,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -13510,7 +13510,7 @@
         "totalVotes": 19259,
         "totalSubs": 37,
         "totalChatMessages": 3119,
-        "totalStreamMinutes": 10655,
+        "totalStreamMinutes": 10660,
         "emotes": {
           "❤": 114,
           "🙌": 76,
@@ -18845,10 +18845,10 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 7538,
+        "totalVotes": 7552,
         "totalSubs": 33,
-        "totalChatMessages": 4505,
-        "totalStreamMinutes": 13389,
+        "totalChatMessages": 4506,
+        "totalStreamMinutes": 13394,
         "emotes": {
           "👋": 98,
           "⚠": 2,
@@ -19026,13 +19026,9 @@
           "🏨": "🏨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791857715602
+        "lastChatAt": 1791858021092
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ xBuRnTx just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "xburntx",
           "msg": "Welcome!!!"
@@ -19068,6 +19064,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ouga902 just gave 30 vote(s) (total: 30)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 14 votes, @dangus!"
         }
       ],
       "customCommands": {
@@ -23516,8 +23516,8 @@
     }
   },
   "auth": {
-    "accessToken": "579607e88a10b636334724a99b0cd966",
-    "refreshToken": "fb8927b466a82c3ec2432373780da5fe",
+    "accessToken": "8f9b5f78d3ae5bfdc0d41a5ff537b431",
+    "refreshToken": "e8f396a41268cea9508eaa9eecb54663",
     "sessionToken": "9138b9ab53aed0d40186a904b91c733d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
