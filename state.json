@@ -3882,7 +3882,7 @@
       "stats": {
         "totalVotes": 45145,
         "totalSubs": 98,
-        "totalChatMessages": 18415,
+        "totalChatMessages": 18416,
         "totalStreamMinutes": 10966,
         "emotes": {
           "❤": 7035,
@@ -4332,7 +4332,7 @@
           "⚔": "⚔",
           "🍿": "🍿"
         },
-        "lastChatAt": 1791914673268,
+        "lastChatAt": 1791914735680,
         "sendFailStreak": 563,
         "lastSendFailAt": 1791910917018,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4341,10 +4341,6 @@
         "lastProbeAt": 1791910916850
       },
       "chatMemory": [
-        {
-          "user": "bee12",
-          "msg": "❤️🐝❤️"
-        },
         {
           "user": "generalkev",
           "msg": "how do we activate the combos?"
@@ -4380,6 +4376,10 @@
         {
           "user": "midnitecatzlady",
           "msg": "it varies depending on the game"
+        },
+        {
+          "user": "midnitecatzlady",
+          "msg": "and the quest page, launch the game from there. I just can't think of what it is"
         }
       ],
       "customCommands": {},
@@ -9078,8 +9078,8 @@
       "stats": {
         "totalVotes": 23990,
         "totalSubs": 76,
-        "totalChatMessages": 17679,
-        "totalStreamMinutes": 11798,
+        "totalChatMessages": 17680,
+        "totalStreamMinutes": 11799,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -9533,13 +9533,9 @@
           "🎧": "🎧"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791914675541
+        "lastChatAt": 1791914760275
       },
       "chatMemory": [
-        {
-          "user": "rafael_zuh",
-          "msg": "lesson number one"
-        },
         {
           "user": "rafael_zuh",
           "msg": "🤣"
@@ -9575,6 +9571,10 @@
         {
           "user": "rafael_zuh",
           "msg": ":O"
+        },
+        {
+          "user": "rafael_zuh",
+          "msg": "remember*"
         }
       ],
       "customCommands": {},
@@ -10423,7 +10423,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 87,
-        "totalStreamMinutes": 12272,
+        "totalStreamMinutes": 12274,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -15347,7 +15347,7 @@
         "totalVotes": 36285,
         "totalSubs": 58,
         "totalChatMessages": 6853,
-        "totalStreamMinutes": 11949,
+        "totalStreamMinutes": 11950,
         "emotes": {
           "❤": 112,
           "🙌": 104,
@@ -21859,7 +21859,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 20,
-        "totalStreamMinutes": 4984,
+        "totalStreamMinutes": 4986,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -23604,8 +23604,8 @@
     }
   },
   "auth": {
-    "accessToken": "c9d8c1ac25f500cdae0fafed5e901650",
-    "refreshToken": "bb90cff920cb52f54d640c67c26760ec",
+    "accessToken": "00b3ebdace3e247a9c2de06e0a2760b7",
+    "refreshToken": "ee6c87197e9f597aeee3f81394f98efc",
     "sessionToken": "9138b9ab53aed0d40186a904b91c733d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
