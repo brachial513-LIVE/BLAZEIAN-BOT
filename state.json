@@ -2135,7 +2135,7 @@
         "totalVotes": 42720,
         "totalSubs": 264,
         "totalChatMessages": 14223,
-        "totalStreamMinutes": 33576,
+        "totalStreamMinutes": 33577,
         "emotes": {
           "📊": 3,
           "🔥": 610,
@@ -14323,7 +14323,7 @@
       "stats": {
         "totalVotes": 18276,
         "totalSubs": 26,
-        "totalChatMessages": 36973,
+        "totalChatMessages": 36974,
         "totalStreamMinutes": 20737,
         "emotes": {
           "❤": 141,
@@ -14736,13 +14736,9 @@
           "♂": "♂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791933686792
+        "lastChatAt": 1791933701190
       },
       "chatMemory": [
-        {
-          "user": "1willchicao",
-          "msg": "Sim sim"
-        },
         {
           "user": "lovemikami",
           "msg": "tô te ouvando"
@@ -14778,6 +14774,10 @@
         {
           "user": "botger",
           "msg": "⚡ lovemikami: Level 16 | 95,993 XP (9,938 to Level 17)"
+        },
+        {
+          "user": "abordiin",
+          "msg": "@1willchicao eu perdi o save kkkk"
         }
       ],
       "customCommands": {},
@@ -23617,8 +23617,8 @@
     }
   },
   "auth": {
-    "accessToken": "754cbcdfac4c6bbb164bdaf1a56e07db",
-    "refreshToken": "c660864e3d27c2ebbf57c10131399d99",
+    "accessToken": "b6813e5d4cb5b5d893f757ac402cb5b6",
+    "refreshToken": "c75615014be8b4315493d2af143de3cf",
     "sessionToken": "fed320ef118af86b248d33dd9cb36fe2",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
