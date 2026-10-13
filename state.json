@@ -824,12 +824,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 128128,
+        "totalVotes": 128253,
         "totalSubs": 212,
-        "totalChatMessages": 11477,
+        "totalChatMessages": 11478,
         "totalStreamMinutes": 4337,
         "emotes": {
-          "🗳": 2076,
+          "🗳": 2079,
           "❤": 550,
           "🙌": 324,
           "🔥": 304,
@@ -1211,17 +1211,13 @@
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": "BLAZEICON"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791861042610,
+        "lastChatAt": 1791870885554,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "thewill3ffect",
-          "msg": "command adn conquer"
-        },
         {
           "user": "thewill3ffect",
           "msg": "?"
@@ -1257,6 +1253,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -3267,14 +3267,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 26686,
+        "totalVotes": 26736,
         "totalSubs": 99,
-        "totalChatMessages": 8449,
+        "totalChatMessages": 8450,
         "totalStreamMinutes": 25391,
         "emotes": {
           "❤": 236,
           "🙌": 191,
-          "🗳": 1236,
+          "🗳": 1239,
           "📴": 215,
           "👋": 245,
           "🔴": 210,
@@ -3619,14 +3619,10 @@
           "✔": "✔",
           "🤟": "🤟"
         },
-        "lastChatAt": 1791833212407,
+        "lastChatAt": 1791871135752,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @ejotpl just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
         {
           "user": "ejotpl",
           "msg": "Smashing ranks"
@@ -3662,6 +3658,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -3872,7 +3872,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1791847607261
+      "_idAt": 1791870407406
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
@@ -4502,7 +4502,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev! — Music",
       "lastStreamEndedAt": 1791830935465,
-      "_idAt": 1791847628121
+      "_idAt": 1791870410855
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -4572,7 +4572,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1791847628118
+      "_idAt": 1791870409647
     },
     "c87ed67e-a16e-48e5-af83-6e557f72970e": {
       "username": "capt_rob_advent",
@@ -5034,7 +5034,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fueling Ships in South East Texas — IRL",
       "lastStreamEndedAt": 1791852025217,
-      "_idAt": 1791847628122
+      "_idAt": 1791870412050
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -5207,7 +5207,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1791847628123
+      "_idAt": 1791870413241
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -5571,7 +5571,7 @@
       "lastStreamEndedAt": 1791677856368,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1791847628114
+      "_idAt": 1791870408441
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -5599,7 +5599,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1791847628134
+      "_idAt": 1791870414454
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -6407,7 +6407,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Sunday - Checking In stream — IRL",
       "lastStreamEndedAt": 1791766879445,
-      "_idAt": 1791847628134
+      "_idAt": 1791870415657
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -6581,14 +6581,14 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 37770,
+        "totalVotes": 37820,
         "totalSubs": 77,
-        "totalChatMessages": 8897,
+        "totalChatMessages": 8899,
         "totalStreamMinutes": 15561,
         "emotes": {
           "❤": 147,
           "🙌": 206,
-          "🗳": 876,
+          "🗳": 879,
           "🔴": 92,
           "🎉": 158,
           "📴": 91,
@@ -6981,18 +6981,10 @@
           "🫂": "🫂",
           "😋": "😋"
         },
-        "lastChatAt": 1791862855299,
+        "lastChatAt": 1791870682759,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "reach out the blaze channels maybe"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "yeah makes sense"
-        },
         {
           "user": "jt_squared2",
           "msg": "that's how you grow"
@@ -7024,6 +7016,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @briggsy!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8041,9 +8041,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 21754,
+        "totalVotes": 21804,
         "totalSubs": 56,
-        "totalChatMessages": 4371,
+        "totalChatMessages": 4372,
         "totalStreamMinutes": 5169,
         "emotes": {
           "❤": 53,
@@ -8054,7 +8054,7 @@
           "🙂": 3,
           "🔥": 82,
           "😎": 5,
-          "🗳": 720,
+          "🗳": 723,
           "📴": 50,
           "👋": 62,
           "🎁": 82,
@@ -8280,13 +8280,9 @@
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": "JOYFULLPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791846000031
+        "lastChatAt": 1791871039986
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "ty ty for being kind"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @K1NGBRE4KER just gifted a sub to @kariman! How generous!! 🙌"
@@ -8322,6 +8318,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mediart just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -10681,14 +10681,14 @@
       "username": "0xscheun",
       "language": "en",
       "stats": {
-        "totalVotes": 6310,
+        "totalVotes": 6335,
         "totalSubs": 35,
-        "totalChatMessages": 978,
+        "totalChatMessages": 979,
         "totalStreamMinutes": 2776,
         "emotes": {
           "❤": 36,
           "🙌": 46,
-          "🗳": 273,
+          "🗳": 276,
           "🔴": 55,
           "🎉": 57,
           "📴": 54,
@@ -10792,13 +10792,9 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791847785722
+        "lastChatAt": 1791870904126
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "thank you"
-        },
         {
           "user": "sinnerz",
           "msg": "yo yo"
@@ -10834,6 +10830,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -11460,7 +11460,7 @@
         "totalVotes": 36196,
         "totalSubs": 164,
         "totalChatMessages": 3951,
-        "totalStreamMinutes": 20004,
+        "totalStreamMinutes": 20024,
         "emotes": {
           "❤": 144,
           "🙌": 234,
@@ -12464,9 +12464,9 @@
       "language": "en",
       "joinedAt": 1784461195472,
       "stats": {
-        "totalVotes": 35646,
+        "totalVotes": 35671,
         "totalSubs": 62,
-        "totalChatMessages": 2390,
+        "totalChatMessages": 2391,
         "totalStreamMinutes": 2944,
         "emotes": {
           "😂": 34,
@@ -12482,7 +12482,7 @@
           "🎉": 42,
           "👋": 44,
           "🤣": 168,
-          "🗳": 678,
+          "🗳": 681,
           "📴": 29,
           "🎁": 60,
           "🔴": 29,
@@ -12715,13 +12715,9 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791846199754
+        "lastChatAt": 1791870922864
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @supercyclereal has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
-        },
         {
           "user": "botger",
           "msg": "💰 TIP ALERT!! 💰 @mindgoblin just tipped $18.00!! Thank you so much!! 🙌"
@@ -12757,6 +12753,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mediart just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -14893,9 +14893,9 @@
       "language": "en",
       "joinedAt": 1784664490215,
       "stats": {
-        "totalVotes": 11987,
+        "totalVotes": 12012,
         "totalSubs": 34,
-        "totalChatMessages": 1505,
+        "totalChatMessages": 1506,
         "totalStreamMinutes": 10047,
         "emotes": {
           "❤": 91,
@@ -14905,7 +14905,7 @@
           "🔴": 74,
           "🎉": 102,
           "🔥": 88,
-          "🗳": 375,
+          "🗳": 378,
           "😀": 6,
           "👀": 6,
           "😃": 1,
@@ -15026,13 +15026,9 @@
           "a966f060-6fa3-48df-823e-dab2c471849c": "DONTLOOKUP"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791845356858
+        "lastChatAt": 1791870535146
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @vRoshi55 just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
-        },
         {
           "user": "guney",
           "msg": "love you man"
@@ -15068,6 +15064,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -15325,14 +15325,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 35853,
+        "totalVotes": 35903,
         "totalSubs": 58,
-        "totalChatMessages": 6751,
+        "totalChatMessages": 6753,
         "totalStreamMinutes": 11860,
         "emotes": {
           "❤": 110,
           "🙌": 102,
-          "🗳": 1089,
+          "🗳": 1092,
           "🔴": 93,
           "🎉": 170,
           "🏃": 1,
@@ -15668,17 +15668,9 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791846128065
+        "lastChatAt": 1791870729812
       },
       "chatMemory": [
-        {
-          "user": "octo",
-          "msg": "buff minions when you can, put heals on teammates, your gun kinda auto aims"
-        },
-        {
-          "user": "octo",
-          "msg": "i must run now tho glgl"
-        },
         {
           "user": "agent00zani",
           "msg": "all best in your day"
@@ -15710,6 +15702,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mediart just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @briggsy!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -18502,7 +18502,7 @@
       "language": "en",
       "joinedAt": 1786592864058,
       "stats": {
-        "totalVotes": 4680,
+        "totalVotes": 4705,
         "totalSubs": 28,
         "totalChatMessages": 1646,
         "totalStreamMinutes": 7956,
@@ -19582,7 +19582,7 @@
       "language": "en",
       "joinedAt": 1787497151215,
       "stats": {
-        "totalVotes": 5100,
+        "totalVotes": 5125,
         "totalSubs": 19,
         "totalChatMessages": 342,
         "totalStreamMinutes": 792,
