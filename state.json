@@ -11460,7 +11460,7 @@
         "totalVotes": 36196,
         "totalSubs": 164,
         "totalChatMessages": 3947,
-        "totalStreamMinutes": 19934,
+        "totalStreamMinutes": 19939,
         "emotes": {
           "❤": 142,
           "🙌": 232,
@@ -12280,7 +12280,7 @@
         "totalVotes": 10053,
         "totalSubs": 51,
         "totalChatMessages": 480,
-        "totalStreamMinutes": 8479,
+        "totalStreamMinutes": 8484,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -18855,15 +18855,15 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 7552,
+        "totalVotes": 7618,
         "totalSubs": 33,
-        "totalChatMessages": 4508,
+        "totalChatMessages": 4510,
         "totalStreamMinutes": 13416,
         "emotes": {
           "👋": 99,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 403,
+          "🗳": 406,
           "🔴": 95,
           "🎉": 123,
           "📴": 96,
@@ -19036,17 +19036,9 @@
           "🏨": "🏨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791859417833
+        "lastChatAt": 1791866087439
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @xBuRnTx at https://blaze.stream/xburntx!"
-        },
-        {
-          "user": "xburntx",
-          "msg": "Happy streaming"
-        },
         {
           "user": "avisi",
           "msg": "hey @inn good to see you on ✌️🔥👍"
@@ -19078,6 +19070,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 66 votes, @treefrognada!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @treefrognada just gave 66 vote(s) (total: 66)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -23530,8 +23530,8 @@
     }
   },
   "auth": {
-    "accessToken": "68f7888960c37fae2ec504cc9f73b640",
-    "refreshToken": "6379fbf642c7b49afeef02b22baf22cd",
+    "accessToken": "44b1ca8d5f2f78bc0151a6761e3eee7e",
+    "refreshToken": "bee4f1097bd1d2b617e74aa8558c7c93",
     "sessionToken": "9138b9ab53aed0d40186a904b91c733d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
