@@ -13551,7 +13551,7 @@
         "totalVotes": 19674,
         "totalSubs": 37,
         "totalChatMessages": 3136,
-        "totalStreamMinutes": 10706,
+        "totalStreamMinutes": 10726,
         "emotes": {
           "❤": 114,
           "🙌": 76,
@@ -18921,16 +18921,16 @@
       "stats": {
         "totalVotes": 7640,
         "totalSubs": 33,
-        "totalChatMessages": 4522,
-        "totalStreamMinutes": 13550,
+        "totalChatMessages": 4524,
+        "totalStreamMinutes": 13570,
         "emotes": {
-          "👋": 100,
+          "👋": 101,
           "⚠": 2,
           "🎯": 2,
           "🗳": 409,
           "🔴": 97,
           "🎉": 125,
-          "📴": 97,
+          "📴": 98,
           "🎡": 3,
           "®": 3,
           "📢": 9,
@@ -19100,17 +19100,9 @@
           "🏨": "🏨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791952719576
+        "lastChatAt": 1791956422033
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @omererkmen!"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live: !play to join! 🔥 315th Blaze Stream🔥! Come hang out and watch."
@@ -19142,6 +19134,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: Playing games I made! !play to join! 🔥 316th Blaze Stream🔥! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
