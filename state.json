@@ -1525,7 +1525,7 @@
       "stats": {
         "totalVotes": 32486,
         "totalSubs": 71,
-        "totalChatMessages": 38474,
+        "totalChatMessages": 38475,
         "totalStreamMinutes": 3691,
         "emotes": {
           "🔥": 2096,
@@ -1859,7 +1859,7 @@
           "👏": "👏",
           "🍺": "🍺"
         },
-        "lastChatAt": 1791850935785,
+        "lastChatAt": 1791965880816,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1867,10 +1867,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
         {
           "user": "botger",
           "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
@@ -1906,6 +1902,10 @@
         {
           "user": "future42",
           "msg": "Congrats!  You WON 250 Votes on BuildingIT"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "Congrats Holii Holder"
         }
       ],
       "customCommands": {},
@@ -18363,7 +18363,7 @@
         "totalVotes": 4620,
         "totalSubs": 29,
         "totalChatMessages": 834,
-        "totalStreamMinutes": 6156,
+        "totalStreamMinutes": 6161,
         "emotes": {
           "❤": 30,
           "🙌": 37,
@@ -18972,7 +18972,7 @@
         "totalVotes": 7640,
         "totalSubs": 33,
         "totalChatMessages": 4524,
-        "totalStreamMinutes": 13709,
+        "totalStreamMinutes": 13714,
         "emotes": {
           "👋": 101,
           "⚠": 2,
@@ -22713,8 +22713,8 @@
     },
     "0xscheun": {
       "note": "Playful, quick‑witted, upbeat, loves PS4 gaming, keeps chat light and fun with energetic humor.",
-      "at": 1791873529241,
-      "n": 16
+      "at": 1791965929255,
+      "n": 17
     },
     "noxx": {
       "note": "They stream games, create art, love music, and always add a sarcastic, humorous twist to their chat.",
@@ -23699,8 +23699,8 @@
     }
   },
   "auth": {
-    "accessToken": "9f2f1213d1ce92dc40461592deee81b6",
-    "refreshToken": "091c83cf5522b91f7fdc7ab69c28c161",
+    "accessToken": "e6fb0d73b1a1dc0b184c19d2079593f4",
+    "refreshToken": "916aea58898e67aa714a39cb9d66ef8f",
     "sessionToken": "fed320ef118af86b248d33dd9cb36fe2",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
