@@ -1524,7 +1524,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 32256,
-        "totalSubs": 70,
+        "totalSubs": 71,
         "totalChatMessages": 38474,
         "totalStreamMinutes": 3691,
         "emotes": {
@@ -1965,7 +1965,7 @@
         },
         "piweb": {
           "name": "piweb",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "dimifw": {
@@ -9718,10 +9718,10 @@
       "stats": {
         "totalVotes": 20380,
         "totalSubs": 63,
-        "totalChatMessages": 2641,
-        "totalStreamMinutes": 21164,
+        "totalChatMessages": 2646,
+        "totalStreamMinutes": 21169,
         "emotes": {
-          "🔥": 771,
+          "🔥": 779,
           "🔴": 200,
           "💚": 6,
           "🤣": 5,
@@ -9878,18 +9878,10 @@
           "🕺": "🕺",
           "✅": "✅"
         },
-        "lastChatAt": 1791935570453,
+        "lastChatAt": 1791936163137,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "work and lurk mode ✅"
-        },
-        {
-          "user": "avisi",
-          "msg": "this looks fun"
-        },
         {
           "user": "botger",
           "msg": "Go check out Dark Solar Tactical Gamings New Website, DSTG is built to bring Mental Health Awareness and support to the gaming community and we welcome everyone to join the ranks! https://www.darksolargaming.com/?ref=xxtowerdogxx"
@@ -9921,6 +9913,14 @@
         {
           "user": "xxtowerdogxx",
           "msg": "https://lowlight.gg/g/xxTOWERDOGxx"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥Shoutout to skyhawks 🔥 Make sure to drop a follow and show that Tower Crew support for this legend! 🔥 https://blaze.stream/skyhawks 🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥Shoutout to flash 🔥 Make sure to drop a follow and show that Tower Crew support for this legend! 🔥 https://blaze.stream/flash 🔥"
         }
       ],
       "customCommands": {},
@@ -14323,8 +14323,8 @@
       "stats": {
         "totalVotes": 18276,
         "totalSubs": 26,
-        "totalChatMessages": 37207,
-        "totalStreamMinutes": 20777,
+        "totalChatMessages": 37212,
+        "totalStreamMinutes": 20782,
         "emotes": {
           "❤": 141,
           "🙌": 94,
@@ -14736,29 +14736,9 @@
           "♂": "♂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791936096757
+        "lastChatAt": 1791936288828
       },
       "chatMemory": [
-        {
-          "user": "lovemikami",
-          "msg": "olha isso cara, tava ganhando 100 pontos no sábado, agora tá ganhando 20 pontos"
-        },
-        {
-          "user": "renato_rodr_01",
-          "msg": "kkk"
-        },
-        {
-          "user": "botger",
-          "msg": "⚡ lovemikami: Level 16 | 96,923 XP (9,008 to Level 17)"
-        },
-        {
-          "user": "renato_rodr_01",
-          "msg": "Essas histórias assim é pra desconfiar"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "cara do bot vive mexendo nisso, porque ele num fica quieto?"
-        },
         {
           "user": "botger",
           "msg": "⚡ lovemikami: Level 16 | 96,943 XP (8,988 to Level 17)"
@@ -14778,6 +14758,26 @@
         {
           "user": "botger",
           "msg": "🪙 @lovemikami 147,590 points."
+        },
+        {
+          "user": "renato_rodr_01",
+          "msg": "Tu é o único que usa esse bot Éden?"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "complicado, o cara fica zuando os pontos do xp"
+        },
+        {
+          "user": "renato_rodr_01",
+          "msg": "O bot é dele as regras são dele né kkkk"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "mas quem paga é o éden"
+        },
+        {
+          "user": "renato_rodr_01",
+          "msg": "Ele programa o bot em qual linguagem de programação?"
         }
       ],
       "customCommands": {},
@@ -22565,9 +22565,9 @@
       "n": 4
     },
     "zer0cache": {
-      "note": "Quick‑paced gamer who streams with friends, loves decoding hexes, uses playful emojis, thanks viewers, and jokes about mic/tech hiccups.",
-      "at": 1791788389066,
-      "n": 17
+      "note": "Quick‑paced gamer who streams with friends, loves decoding hexes, thanks viewers with emojis, jokes about mic/tech hiccups, and plays community events.",
+      "at": 1791936229284,
+      "n": 18
     },
     "nadietv": {
       "note": "Enjoys playing Dawn of Battle, Path of Exile 2, and Dota, loves folk and progressive metal, and chats with playful, light‑hearted humor.",
@@ -23617,8 +23617,8 @@
     }
   },
   "auth": {
-    "accessToken": "b6813e5d4cb5b5d893f757ac402cb5b6",
-    "refreshToken": "c75615014be8b4315493d2af143de3cf",
+    "accessToken": "1ef3be3f0a120ab306abbcbd8d14b167",
+    "refreshToken": "ceae02178024e7f721cc88a6a3be496f",
     "sessionToken": "fed320ef118af86b248d33dd9cb36fe2",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
