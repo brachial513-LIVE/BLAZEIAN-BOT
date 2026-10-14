@@ -5230,8 +5230,8 @@
       "stats": {
         "totalVotes": 14134,
         "totalSubs": 57,
-        "totalChatMessages": 2273,
-        "totalStreamMinutes": 12198,
+        "totalChatMessages": 2274,
+        "totalStreamMinutes": 12200,
         "emotes": {
           "✨": 48,
           "🖥": 23,
@@ -5271,7 +5271,7 @@
           "🦊": 8,
           "🍀": 1,
           "🛎": 5,
-          "🫶": 14,
+          "🫶": 15,
           "😊": 7,
           "⚔": 1,
           "🫂": 1,
@@ -5464,14 +5464,10 @@
           "👊": "👊",
           "🤗": "🤗"
         },
-        "lastChatAt": 1791950841589,
+        "lastChatAt": 1791951082668,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 1 votes, @consumerbreak! Your support is truly appreciated! 🙌"
-        },
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 10 votes, @noxx! Your support is truly appreciated! 🙌"
@@ -5507,6 +5503,10 @@
         {
           "user": "agent00zani",
           "msg": "Gm gm"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "gm @agent00zani 🫶"
         }
       ],
       "customCommands": {},
@@ -23639,8 +23639,8 @@
     }
   },
   "auth": {
-    "accessToken": "08bbf03382f6faf66bfb3b7873116ab4",
-    "refreshToken": "033a841c136212b53fd9aec3b6835013",
+    "accessToken": "c1044635ca1f1054824bfedd6e327fef",
+    "refreshToken": "82b95278b3f05b816378ee2f136e494c",
     "sessionToken": "fed320ef118af86b248d33dd9cb36fe2",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
