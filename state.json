@@ -826,12 +826,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 129374,
+        "totalVotes": 129404,
         "totalSubs": 212,
-        "totalChatMessages": 11483,
+        "totalChatMessages": 11484,
         "totalStreamMinutes": 4337,
         "emotes": {
-          "🗳": 2091,
+          "🗳": 2094,
           "❤": 552,
           "🙌": 325,
           "🔥": 304,
@@ -1213,17 +1213,13 @@
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": "BLAZEICON"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791927448785,
+        "lastChatAt": 1791951716315,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "senseibulrog",
-          "msg": "yo yo yo!"
-        },
         {
           "user": "senseibulrog",
           "msg": "nope, gotta be a streaming bum and go for 24hr"
@@ -1259,6 +1255,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 55 vote(s) (total: 97)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @annyoneany just gave 30 vote(s) (total: 30)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5231,7 +5231,7 @@
         "totalVotes": 14134,
         "totalSubs": 57,
         "totalChatMessages": 2274,
-        "totalStreamMinutes": 12206,
+        "totalStreamMinutes": 12225,
         "emotes": {
           "✨": 48,
           "🖥": 23,
@@ -8665,7 +8665,7 @@
       "username": "helios",
       "language": "en",
       "stats": {
-        "totalVotes": 1250,
+        "totalVotes": 1350,
         "totalSubs": 17,
         "totalChatMessages": 314,
         "totalStreamMinutes": 1148,
@@ -12318,9 +12318,9 @@
       "language": "en",
       "joinedAt": 1784453301135,
       "stats": {
-        "totalVotes": 10207,
+        "totalVotes": 10407,
         "totalSubs": 51,
-        "totalChatMessages": 486,
+        "totalChatMessages": 487,
         "totalStreamMinutes": 8577,
         "emotes": {
           "🔥": 8,
@@ -12369,13 +12369,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791903420177
+        "lastChatAt": 1791951812051
       },
       "chatMemory": [
-        {
-          "user": "jaggerjack",
-          "msg": "Solido yan boss ha bawal bisita"
-        },
         {
           "user": "jaggerjack",
           "msg": "Hahahaha"
@@ -12411,6 +12407,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 4 votes, @Whisky!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 200 votes, @DofferLive!"
         }
       ],
       "customCommands": {},
@@ -13877,12 +13877,12 @@
       "joinedAt": 1784468670654,
       "stats": {
         "totalVotes": 7982,
-        "totalSubs": 51,
-        "totalChatMessages": 2666,
+        "totalSubs": 52,
+        "totalChatMessages": 2668,
         "totalStreamMinutes": 6839,
         "emotes": {
           "❤": 112,
-          "🙌": 92,
+          "🙌": 93,
           "📴": 54,
           "👋": 57,
           "🎁": 50,
@@ -13898,7 +13898,7 @@
           "💙": 2,
           "💜": 11,
           "📢": 28,
-          "🔥": 114,
+          "🔥": 116,
           "💖": 1,
           "🤟": 2,
           "👽": 1,
@@ -14087,17 +14087,9 @@
           "a966f060-6fa3-48df-823e-dab2c471849c": "DONTLOOKUP"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791912498899
+        "lastChatAt": 1791952473706
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "noxxxxxxxxxxxxx"
-        },
-        {
-          "user": "ruri666",
-          "msg": "@noxx"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ kupid just followed the channel! Welcome!! 🙌"
@@ -14129,6 +14121,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@missaria subscribed! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @missaria has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -14242,6 +14242,11 @@
         },
         "cryptohaki": {
           "name": "cryptohaki",
+          "months": 1,
+          "tier": 1
+        },
+        "missaria": {
+          "name": "missaria",
           "months": 1,
           "tier": 1
         }
@@ -16165,7 +16170,7 @@
       "language": "en",
       "joinedAt": 1785110114264,
       "stats": {
-        "totalVotes": 10363,
+        "totalVotes": 10757,
         "totalSubs": 43,
         "totalChatMessages": 223,
         "totalStreamMinutes": 2351,
@@ -16733,9 +16738,9 @@
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 10889,
+        "totalVotes": 11089,
         "totalSubs": 87,
-        "totalChatMessages": 1820,
+        "totalChatMessages": 1821,
         "totalStreamMinutes": 7612,
         "emotes": {
           "❤": 73,
@@ -16832,13 +16837,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791929166221
+        "lastChatAt": 1791951922995
       },
       "chatMemory": [
-        {
-          "user": "seventh",
-          "msg": "thank you @noxx"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @Future42!"
@@ -16874,6 +16875,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @badger!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 200 votes, @DofferLive!"
         }
       ],
       "customCommands": {},
@@ -18056,9 +18061,9 @@
       "language": "en",
       "joinedAt": 1786292034700,
       "stats": {
-        "totalVotes": 14451,
+        "totalVotes": 14851,
         "totalSubs": 93,
-        "totalChatMessages": 967,
+        "totalChatMessages": 968,
         "totalStreamMinutes": 4013,
         "emotes": {
           "❤": 88,
@@ -18137,13 +18142,9 @@
           "🎯": "🎯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791947887156
+        "lastChatAt": 1791951946560
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "❤️❤️❤️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @glowgamergirl!"
@@ -18179,6 +18180,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 100 votes, @missaria!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 400 votes, @DofferLive!"
         }
       ],
       "customCommands": {},
@@ -22143,7 +22148,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1791929207395,
+      "_idAt": 1791952007413,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/72e62f22-bfda-4fb8-b073-3f8c1ebc5201.png",
       "greeted": true,
       "profile": "silverbolt99’s channel is a high‑energy, community‑first hub where “welcome to the BLazeianCrew!” opens every stream and “NEW FOLLOWER!! ❤️” echoes with each new join. Weekly Sunday giveaways promise up to 1000 votes, celebrated with “Thanks for the X votes” chants. Lurkers are praised, donations appreciated, and the club hype (“⚡Friends, if you haven’t joined the Club…”) keeps the vibe playful, supportive, and always hype‑ready.",
@@ -22742,9 +22747,9 @@
       "n": 7
     },
     "brunoseven": {
-      "note": "Brunoseven loves Mario games, jokes about Eden, uses playful slang, talks about subs and streaming, and often laughs with “kkkkk” and other playful emojis.",
-      "at": 1791846469007,
-      "n": 10
+      "note": "Brunoseven loves Mario games, jokes about Eden, streams with playful slang, talks about subs, and often laughs with “kkkkk.”",
+      "at": 1791952069263,
+      "n": 11
     },
     "dimifw": {
       "note": "Rocket League streamer who greets with “GM,” thanks subs, uses playful emojis, jokes about “loadish,” and keeps a light, energetic chat vibe.",
@@ -23639,8 +23644,8 @@
     }
   },
   "auth": {
-    "accessToken": "946cc021818910b322ee7213490ec287",
-    "refreshToken": "3d5f66a0935f87023e744f247d7b1d31",
+    "accessToken": "c7075d39ffe0acc87047b8de36bb292c",
+    "refreshToken": "0304e8d7bd4b0cdc19e64ab470b23823",
     "sessionToken": "fed320ef118af86b248d33dd9cb36fe2",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
