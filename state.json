@@ -5230,15 +5230,15 @@
       "stats": {
         "totalVotes": 14134,
         "totalSubs": 57,
-        "totalChatMessages": 2275,
-        "totalStreamMinutes": 12258,
+        "totalChatMessages": 2276,
+        "totalStreamMinutes": 12259,
         "emotes": {
           "✨": 49,
           "🖥": 23,
           "🔥": 212,
           "👋": 126,
-          "🎬": 119,
-          "❤": 160,
+          "🎬": 120,
+          "❤": 161,
           "🚨": 10,
           "⚡": 27,
           "🏆": 23,
@@ -5464,14 +5464,10 @@
           "👊": "👊",
           "🤗": "🤗"
         },
-        "lastChatAt": 1791954537623,
+        "lastChatAt": 1791954686829,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 4 votes, @whisky! Your support is truly appreciated! 🙌"
-        },
         {
           "user": "cachebot",
           "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! OTG Anniversary Event. Drop a greeting in chat! 👋"
@@ -5507,6 +5503,10 @@
         {
           "user": "cachebot",
           "msg": "✨ [NEW FOLLOWER]: Welcome to the channel, @deadendold! Thank you for the follow!."
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -5515,7 +5515,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "OTG — Off The Grid",
+      "streamTitle": "",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. The channel thrives on relentless energy, magnetic camaraderie, and the thrill of dropping in to new adventures.",
       "_profileAtCount": 2266,
       "loyalty": {
@@ -5582,8 +5582,8 @@
       },
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
-      "lastStreamInfo": "OTG Anniversary Event — Off The Grid",
-      "lastStreamEndedAt": 1791948016253,
+      "lastStreamInfo": "OTG — Off The Grid",
+      "lastStreamEndedAt": 1791954686549,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
       "_idAt": 1791938808561
@@ -13551,7 +13551,7 @@
         "totalVotes": 19674,
         "totalSubs": 37,
         "totalChatMessages": 3133,
-        "totalStreamMinutes": 10678,
+        "totalStreamMinutes": 10689,
         "emotes": {
           "❤": 114,
           "🙌": 76,
@@ -18922,7 +18922,7 @@
         "totalVotes": 7640,
         "totalSubs": 33,
         "totalChatMessages": 4522,
-        "totalStreamMinutes": 13522,
+        "totalStreamMinutes": 13534,
         "emotes": {
           "👋": 100,
           "⚠": 2,
@@ -23644,8 +23644,8 @@
     }
   },
   "auth": {
-    "accessToken": "98b2020f19cbb5f95266fa20bd9d5c87",
-    "refreshToken": "a745d2b3447a54bfed9a3bf42091419d",
+    "accessToken": "91c8d60b9d1c3b986ee7a9ff3695039d",
+    "refreshToken": "50459bb965317bcfda9868ca1732b112",
     "sessionToken": "fed320ef118af86b248d33dd9cb36fe2",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
