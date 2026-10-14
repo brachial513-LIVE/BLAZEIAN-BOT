@@ -5231,7 +5231,7 @@
         "totalVotes": 14134,
         "totalSubs": 57,
         "totalChatMessages": 2274,
-        "totalStreamMinutes": 12225,
+        "totalStreamMinutes": 12238,
         "emotes": {
           "✨": 48,
           "🖥": 23,
@@ -18921,20 +18921,20 @@
       "stats": {
         "totalVotes": 7640,
         "totalSubs": 33,
-        "totalChatMessages": 4520,
-        "totalStreamMinutes": 13491,
+        "totalChatMessages": 4522,
+        "totalStreamMinutes": 13502,
         "emotes": {
           "👋": 100,
           "⚠": 2,
           "🎯": 2,
           "🗳": 409,
-          "🔴": 96,
-          "🎉": 124,
+          "🔴": 97,
+          "🎉": 125,
           "📴": 97,
           "🎡": 3,
           "®": 3,
           "📢": 9,
-          "🔥": 135,
+          "🔥": 137,
           "❤": 48,
           "😶": 3,
           "🌫": 3,
@@ -19100,17 +19100,9 @@
           "🏨": "🏨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791947823758
+        "lastChatAt": 1791952719576
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @noxx!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @Whisky!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @omererkmen!"
@@ -19142,6 +19134,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Playing games I made! !play to join! 🔥 316th Blaze Stream🔥! Come hang out and watch."
         }
       ],
       "customCommands": {
@@ -19156,7 +19156,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "Playing games I made! !play to join! 🔥 316th Blaze Stream🔥 — Rocket League",
       "lastStreamInfo": "!play to join! 🔥 315th Blaze Stream🔥 — Rocket League",
       "lastStreamEndedAt": 1791947818589,
       "gameOverride": "",
@@ -22307,9 +22307,9 @@
       "n": 66
     },
     "paulo_santos20": {
-      "note": "Paulo loves Nintendo racing games, especially Mario Kart, jokes with friends, and often talks about game modes, hacks, and friendly competition.",
-      "at": 1791844489121,
-      "n": 14
+      "note": "Paulo loves Nintendo racing games, especially Mario Kart, jokes with friends about game modes, hacks, and friendly competition.",
+      "at": 1791953389299,
+      "n": 15
     },
     "agent00zani": {
       "note": "Energetic anime‑loving streamer who plays Roblox, OTG, COD Warzone, and farlight84, loves anime songs, and keeps chat lively with playful emojis.",
@@ -23433,8 +23433,8 @@
     },
     "andrebrd": {
       "note": "Enjoys joking around, loves Fortnite and Bandai games, talks about sushi, capoeira, and football while laughing loudly.",
-      "at": 1791865609154,
-      "n": 2
+      "at": 1791952729155,
+      "n": 3
     },
     "flower4803": {
       "note": "Friendly, playful chat with a love for fish, skins, and game credits, often greeting warmly and joking about collecting items.",
@@ -23644,8 +23644,8 @@
     }
   },
   "auth": {
-    "accessToken": "c7075d39ffe0acc87047b8de36bb292c",
-    "refreshToken": "0304e8d7bd4b0cdc19e64ab470b23823",
+    "accessToken": "98b2020f19cbb5f95266fa20bd9d5c87",
+    "refreshToken": "a745d2b3447a54bfed9a3bf42091419d",
     "sessionToken": "fed320ef118af86b248d33dd9cb36fe2",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
