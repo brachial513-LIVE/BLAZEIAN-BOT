@@ -3276,14 +3276,14 @@
       "stats": {
         "totalVotes": 26989,
         "totalSubs": 100,
-        "totalChatMessages": 8573,
-        "totalStreamMinutes": 25522,
+        "totalChatMessages": 8575,
+        "totalStreamMinutes": 25523,
         "emotes": {
           "❤": 236,
           "🙌": 192,
           "🗳": 1248,
-          "📴": 215,
-          "👋": 245,
+          "📴": 216,
+          "👋": 246,
           "🔴": 211,
           "🎉": 331,
           "🏆": 22,
@@ -3628,18 +3628,10 @@
           "🤟": "🤟",
           "💦": "💦"
         },
-        "lastChatAt": 1791976234367,
+        "lastChatAt": 1791976842406,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "lostsnow",
-          "msg": "just coming by to say HIIIIIIIIIII"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @curlysnow07 is raiding with a party of 2! Welcome raiders!! 🎉"
-        },
         {
           "user": "fartvader",
           "msg": "w raidddd"
@@ -3671,6 +3663,14 @@
         {
           "user": "curlysnow07",
           "msg": "curlysnow6334"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "marvel rivals , off the grid , Farlight84 ... any free game I can play with friends"
         }
       ],
       "customCommands": {
@@ -3683,7 +3683,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "🦈 Sharky the Villain/Hero .. You Decide 🖤 | 🎮 Just Games | 🎰 150 Votes Raffle live — Fortnite",
+      "streamTitle": "",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty” and massive emote showers.",
       "_profileAtCount": 8449,
       "loyalty": {
@@ -3852,8 +3852,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8d0e99ca-202f-449f-92a1-8260c74a8c9d.gif",
       "nudgedAt": 1785006485591,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "🦈 Sharky the Villain/Hero .. You Decide 🖤 | 🎮 Just Games | 🎰 150 Votes Raffle live — Games + Demos",
-      "lastStreamEndedAt": 1791833206775,
+      "lastStreamInfo": "🦈 Sharky the Villain/Hero .. You Decide 🖤 | 🎮 Just Games | 🎰 150 Votes Raffle live — Fortnite",
+      "lastStreamEndedAt": 1791976671981,
       "botVip": true,
       "commandMedia": {
         "fluffy": {
@@ -18404,7 +18404,7 @@
         "totalVotes": 4625,
         "totalSubs": 30,
         "totalChatMessages": 845,
-        "totalStreamMinutes": 6336,
+        "totalStreamMinutes": 6341,
         "emotes": {
           "❤": 30,
           "🙌": 38,
@@ -19013,7 +19013,7 @@
         "totalVotes": 7646,
         "totalSubs": 33,
         "totalChatMessages": 4525,
-        "totalStreamMinutes": 13889,
+        "totalStreamMinutes": 13894,
         "emotes": {
           "👋": 101,
           "⚠": 2,
@@ -23744,8 +23744,8 @@
     }
   },
   "auth": {
-    "accessToken": "de997c2a4b14a3670f8ea0516dce7493",
-    "refreshToken": "65562230f692b83028d1015aed44b6fd",
+    "accessToken": "6c6d577c27304070938c0d08e9ec1208",
+    "refreshToken": "a827e4e06385b967faa08383410aa484",
     "sessionToken": "fed320ef118af86b248d33dd9cb36fe2",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
