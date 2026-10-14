@@ -3276,8 +3276,8 @@
       "stats": {
         "totalVotes": 26989,
         "totalSubs": 100,
-        "totalChatMessages": 8576,
-        "totalStreamMinutes": 25523,
+        "totalChatMessages": 8578,
+        "totalStreamMinutes": 25541,
         "emotes": {
           "❤": 236,
           "🙌": 192,
@@ -3405,7 +3405,7 @@
           "1bbf93f2-2f56-4c15-b468-a094de4be20b": 24,
           "bfec7891-c819-455f-a184-9744fdad354a": 85,
           "4b259e3f-6076-4b5d-b622-d4622f8ccecc": 43,
-          "23096f7c-6306-429d-9da8-028a73f63eed": 53,
+          "23096f7c-6306-429d-9da8-028a73f63eed": 58,
           "bd452a28-6462-4485-92bf-e1d1a40150cf": 72,
           "😭": 10,
           "😬": 1,
@@ -3628,18 +3628,10 @@
           "🤟": "🤟",
           "💦": "💦"
         },
-        "lastChatAt": 1791983883106,
+        "lastChatAt": 1791984034525,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "curlysnow07",
-          "msg": "hope the games are going well"
-        },
-        {
-          "user": "curlysnow07",
-          "msg": "how are you doing"
-        },
         {
           "user": "agent00zani",
           "msg": "35% ."
@@ -3671,6 +3663,14 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "fartvader",
+          "msg": "zaniiii"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:23096f7c-6306-429d-9da8-028a73f63eed] [emote:23096f7c-6306-429d-9da8-028a73f63eed] [emote:23096f7c-6306-429d-9da8-028a73f63eed] [emote:23096f7c-6306-429d-9da8-028a73f63eed] [emote:23096f7c-6306-429d-9da8-028a73f63eed]"
         }
       ],
       "customCommands": {
@@ -3881,7 +3881,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1791961607392
+      "_idAt": 1791984407469
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
@@ -4519,7 +4519,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev! — Music",
       "lastStreamEndedAt": 1791830935465,
-      "_idAt": 1791961610985
+      "_idAt": 1791984411013
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -4589,7 +4589,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1791961609795
+      "_idAt": 1791984409812
     },
     "c87ed67e-a16e-48e5-af83-6e557f72970e": {
       "username": "capt_rob_advent",
@@ -5051,7 +5051,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Short stream before dark headed back to Galveston — IRL",
       "lastStreamEndedAt": 1791903272900,
-      "_idAt": 1791961612189
+      "_idAt": 1791984412209
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -5224,7 +5224,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1791961613419
+      "_idAt": 1791984413431
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -5588,7 +5588,7 @@
       "lastStreamEndedAt": 1791954686549,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1791961608602
+      "_idAt": 1791984408624
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -5616,7 +5616,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1791961614566
+      "_idAt": 1791984414612
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -6433,7 +6433,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Evening fun - what will we do? — IRL",
       "lastStreamEndedAt": 1791880038104,
-      "_idAt": 1791961615782
+      "_idAt": 1791984415801
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -14386,17 +14386,17 @@
       "stats": {
         "totalVotes": 18282,
         "totalSubs": 27,
-        "totalChatMessages": 37234,
+        "totalChatMessages": 37241,
         "totalStreamMinutes": 20795,
         "emotes": {
           "❤": 141,
-          "🙌": 95,
+          "🙌": 96,
           "🤝": 4,
           "🔥": 57,
           "🔴": 117,
           "🎉": 278,
-          "🪙": 962,
-          "⚡": 806,
+          "🪙": 963,
+          "⚡": 807,
           "👀": 88,
           "🍿": 21,
           "🤗": 56,
@@ -14416,7 +14416,7 @@
           "😘": 10,
           "😆": 2,
           "🤭": 6,
-          "💰": 122,
+          "💰": 124,
           "☄": 1,
           "😶": 13,
           "🌫": 13,
@@ -14799,25 +14799,9 @@
           "♂": "♂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791980342435
+        "lastChatAt": 1791984318072
       },
       "chatMemory": [
-        {
-          "user": "lovemikami",
-          "msg": "cris, queria te vê jogar sonic no canal"
-        },
-        {
-          "user": "crispipoquinha",
-          "msg": "👀"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "38 estrelas faltam"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "mário durmiu"
-        },
         {
           "user": "crispipoquinha",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -14841,6 +14825,22 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @charddxyz has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "💰 TIP ALERT!! 💰 @junior7_ just tipped $2.00!! Thank you so much!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @junior7_ 71,770 points."
+        },
+        {
+          "user": "junior7_",
+          "msg": "Tô rico de pontos hehehe"
+        },
+        {
+          "user": "botger",
+          "msg": "⚡ XP Top 5:\n1. lovemikami (L16, 97,083)\n2. lipeman (L15, 79,195)\n3. junior7_ (L12, 42,814)\n4. mauhzera (L12, 42,115)\n5. sarinhaa11 (L10, 29,735)"
         }
       ],
       "customCommands": {},
@@ -19018,7 +19018,7 @@
         "totalVotes": 7691,
         "totalSubs": 35,
         "totalChatMessages": 4542,
-        "totalStreamMinutes": 14010,
+        "totalStreamMinutes": 14029,
         "emotes": {
           "👋": 101,
           "⚠": 2,
@@ -22878,8 +22878,8 @@
     },
     "cymatrix": {
       "note": "Cymatrix loves Minecraft, Drawful, Apple games, music, crypto jokes, pop‑culture references, and cheering streamers with upbeat, playful humor.",
-      "at": 1791810829050,
-      "n": 38
+      "at": 1791984409203,
+      "n": 39
     },
     "soulflux": {
       "note": "He loves talking about animals, enjoys playful banter, and appreciates lighthearted humor during livestream chats.",
@@ -23749,8 +23749,8 @@
     }
   },
   "auth": {
-    "accessToken": "254561d66ec24785b25527836276883b",
-    "refreshToken": "69bcc2d7cb373cc70da80b20667438e0",
+    "accessToken": "6ba36e4b1e5ebdd893dd49c4ce05cb5b",
+    "refreshToken": "b753200b00b68bff66907e9d82ece0d3",
     "sessionToken": "fed320ef118af86b248d33dd9cb36fe2",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
