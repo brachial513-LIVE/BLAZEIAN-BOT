@@ -9718,8 +9718,8 @@
       "stats": {
         "totalVotes": 21384,
         "totalSubs": 63,
-        "totalChatMessages": 2656,
-        "totalStreamMinutes": 21254,
+        "totalChatMessages": 2657,
+        "totalStreamMinutes": 21259,
         "emotes": {
           "🔥": 779,
           "🔴": 200,
@@ -9878,14 +9878,10 @@
           "🕺": "🕺",
           "✅": "✅"
         },
-        "lastChatAt": 1791941246839,
+        "lastChatAt": 1791941701908,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @JohnGalt just gave 1000 vote(s) (total: 1000)! Thank you!! 🗳️"
-        },
         {
           "user": "johngalt",
           "msg": "yw man"
@@ -9921,6 +9917,10 @@
         {
           "user": "skyhawks",
           "msg": "I thought it was only Phalanx members that could join"
+        },
+        {
+          "user": "skyhawks",
+          "msg": "sounds good"
         }
       ],
       "customCommands": {},
@@ -11484,7 +11484,7 @@
         "totalVotes": 36377,
         "totalSubs": 164,
         "totalChatMessages": 3988,
-        "totalStreamMinutes": 20218,
+        "totalStreamMinutes": 20223,
         "emotes": {
           "❤": 146,
           "🙌": 235,
@@ -23617,8 +23617,8 @@
     }
   },
   "auth": {
-    "accessToken": "1ef6447cf539cd1ea2029701e1c35208",
-    "refreshToken": "c90cabf85d0f9f20092ed8a770feb9b3",
+    "accessToken": "3c1ddc26ff513ac59d318a81e339df98",
+    "refreshToken": "0332582284ddeb0a5e41fa0842f1d3d2",
     "sessionToken": "fed320ef118af86b248d33dd9cb36fe2",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
