@@ -4623,14 +4623,14 @@
       "stats": {
         "totalVotes": 32234,
         "totalSubs": 77,
-        "totalChatMessages": 4384,
-        "totalStreamMinutes": 17642,
+        "totalChatMessages": 4388,
+        "totalStreamMinutes": 17647,
         "emotes": {
           "😊": 5,
           "🌵": 87,
           "🔥": 362,
           "🤪": 2,
-          "👋": 87,
+          "👋": 88,
           "👍": 27,
           "🥰": 8,
           "💜": 1,
@@ -4732,12 +4732,12 @@
           "🫶": 5,
           "🙌": 62,
           "🗳": 420,
-          "📴": 45,
+          "📴": 46,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 159,
           "🔴": 44,
           "🎉": 51,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 141,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 15,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 16,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 15,
           "🚨": 42,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 37,
@@ -4952,25 +4952,9 @@
           "7573c501-7624-43cf-9189-0db1f8d22172": "PYROTHESTREAMER"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792033430804
+        "lastChatAt": 1792033866023
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "haha"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Belching up the stinky sock jellybean, probably"
-        },
-        {
-          "user": "nadietv",
-          "msg": "sounds tasty xD"
-        },
-        {
-          "user": "nadietv",
-          "msg": "omg"
-        },
         {
           "user": "briggsy",
           "msg": "haha, thank the lord"
@@ -4994,6 +4978,22 @@
         {
           "user": "nadietv",
           "msg": "oh that's for sure"
+        },
+        {
+          "user": "nadietv",
+          "msg": "that's what is important"
+        },
+        {
+          "user": "nadietv",
+          "msg": "k1ng is great"
+        },
+        {
+          "user": "nadietv",
+          "msg": "thank you for the stream brother, take care [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -5002,7 +5002,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Harbor watching and standing by for barge reload — IRL",
+      "streamTitle": "",
       "profile": "We’re a tight IRL maritime crew fueling ships in South East Texas. “BLAZE ON” celebrates every win, “Sweet!” drops new content, and “shots shots!” keeps the fun high. We surf, vote for favorite streamers, share “happy walk” stories, and love “happy walk” vibes. capt_rob_advent’s streams are the heart of our salty, upbeat community.",
       "_profileAtCount": 4365,
       "gameOverride": "",
@@ -5086,8 +5086,8 @@
       },
       "nudgedAt": 1785066991188,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "Short stream before dark headed back to Galveston — IRL",
-      "lastStreamEndedAt": 1791903272900,
+      "lastStreamInfo": "Harbor watching and standing by for barge reload — IRL",
+      "lastStreamEndedAt": 1792033860848,
       "_idAt": 1792030012218
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
@@ -8105,7 +8105,7 @@
       "_profileAtCount": 44,
       "nudgedAt": 1790523497708,
       "nudgedKey": "schedule",
-      "_idAt": 1792010807452
+      "_idAt": 1792033607415
     },
     "25b30dc5-23f5-4bea-94ce-ba178c73c022": {
       "username": "time",
@@ -8477,7 +8477,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Digital Drawing — Art",
       "lastStreamEndedAt": 1791750067319,
-      "_idAt": 1792010808617
+      "_idAt": 1792033608636
     },
     "27422fb2-063e-4a22-8cde-41c2baf0f386": {
       "username": "cymatrix",
@@ -8700,7 +8700,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Dark Gothic Rock Album: H20SIX | Midnight Circus — Music",
       "lastStreamEndedAt": 1791749361800,
-      "_idAt": 1792010809835
+      "_idAt": 1792033609823
     },
     "19b7a7c0-fe26-4df4-b40e-ac7489b8f42a": {
       "username": "helios",
@@ -8902,7 +8902,7 @@
       },
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
-      "_idAt": 1792010811027
+      "_idAt": 1792033611023
     },
     "d3b88120-1dbc-422f-930b-6dcb2fccf9f4": {
       "username": "tai_",
@@ -9131,7 +9131,7 @@
       "lastStreamEndedAt": 1791833697149,
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule",
-      "_idAt": 1792010812276
+      "_idAt": 1792033612214
     },
     "58950ad2-950b-4431-9fb5-32221e9e035d": {
       "username": "makeitmetal",
@@ -9770,7 +9770,7 @@
       "lastStreamEndedAt": 1791926846046,
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
-      "_idAt": 1792010813426
+      "_idAt": 1792033613423
     },
     "3cabf7ae-39d3-4ebb-9a48-7f2c6d06b2a4": {
       "username": "xxtowerdogxx",
@@ -9779,7 +9779,7 @@
         "totalVotes": 22095,
         "totalSubs": 68,
         "totalChatMessages": 2698,
-        "totalStreamMinutes": 21568,
+        "totalStreamMinutes": 21588,
         "emotes": {
           "🔥": 791,
           "🔴": 200,
@@ -10105,7 +10105,7 @@
         "sound": true,
         "confetti": true
       },
-      "_idAt": 1792010814612
+      "_idAt": 1792033614624
     },
     "b1d9a6f8-4003-43ab-8962-830173e1225a": {
       "username": "saboomafoo",
@@ -10114,7 +10114,7 @@
         "totalVotes": 12195,
         "totalSubs": 209,
         "totalChatMessages": 516,
-        "totalStreamMinutes": 16602,
+        "totalStreamMinutes": 16622,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -10311,7 +10311,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792010815810
+      "_idAt": 1792033615821
     },
     "0e1fadd4-b37a-451e-a957-c797b606507e": {
       "username": "thewill3ffect",
@@ -10508,7 +10508,7 @@
       "lastStreamEndedAt": 1791789577218,
       "nudgedAt": 1786555068712,
       "nudgedKey": "schedule",
-      "_idAt": 1792012007424
+      "_idAt": 1792034807459
     },
     "c9fc8afb-4c03-476a-8a6f-93aabd1bfca7": {
       "username": "anjanna87",
@@ -10615,7 +10615,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792012008657
+      "_idAt": 1792034808620
     },
     "30a3c675-be0d-4014-831f-6051350ffbf0": {
       "username": "tester",
@@ -21290,7 +21290,7 @@
         "totalVotes": 1513,
         "totalSubs": 3,
         "totalChatMessages": 144,
-        "totalStreamMinutes": 956,
+        "totalStreamMinutes": 976,
         "emotes": {
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
           "🎉": 13,
@@ -22656,8 +22656,8 @@
     },
     "niruntz": {
       "note": "Enthusiastic gamer who loves Fallout, tower‑defense, Discord voice chats, sunsets, music, and brings upbeat, playful humor to the stream.",
-      "at": 1791898609617,
-      "n": 10
+      "at": 1792034569387,
+      "n": 11
     },
     "vroshi55": {
       "note": "Energetic gamer who loves JackBox DRAWFUL, animated versions, playful emotes, music references, community challenges, and classic 90s RTS games.",
