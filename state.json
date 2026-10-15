@@ -3288,8 +3288,8 @@
       "stats": {
         "totalVotes": 27289,
         "totalSubs": 107,
-        "totalChatMessages": 8700,
-        "totalStreamMinutes": 25903,
+        "totalChatMessages": 8703,
+        "totalStreamMinutes": 25923,
         "emotes": {
           "❤": 239,
           "🙌": 200,
@@ -3465,7 +3465,8 @@
           "🤟": 2,
           "💦": 3,
           "🍑": 1,
-          "🦩": 1
+          "🦩": 1,
+          "🤔": 4
         },
         "emoteNames": {
           "❤": "❤",
@@ -3642,24 +3643,13 @@
           "🤟": "🤟",
           "💦": "💦",
           "🍑": "🍑",
-          "🦩": "🦩"
+          "🦩": "🦩",
+          "🤔": "🤔"
         },
-        "lastChatAt": 1792098377510,
+        "lastChatAt": 1792098788789,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "was it an accidental drift?"
-        },
-        {
-          "user": "briggsy",
-          "msg": "I know I've done that before."
-        },
-        {
-          "user": "briggsy",
-          "msg": "Or I think what I did was 'fishtailing'"
-        },
         {
           "user": "briggsy",
           "msg": "Got to sleep in.  Not working today."
@@ -3687,6 +3677,18 @@
         {
           "user": "briggsy",
           "msg": "Is this where I can find the Hero?"
+        },
+        {
+          "user": "briggsy",
+          "msg": "I don't see any villains here at all."
+        },
+        {
+          "user": "agent00zani",
+          "msg": "sometimes the Deer is the Villan to the grass ,.... and the lion is the hero"
+        },
+        {
+          "user": "briggsy",
+          "msg": "🤔🤔🤔🤔 I see..."
         }
       ],
       "customCommands": {
@@ -3902,7 +3904,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1792075607478
+      "_idAt": 1792098407434
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
@@ -4547,7 +4549,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev! — Music",
       "lastStreamEndedAt": 1792092290817,
-      "_idAt": 1792075611031
+      "_idAt": 1792098411054
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -4617,7 +4619,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1792075609835
+      "_idAt": 1792098409865
     },
     "c87ed67e-a16e-48e5-af83-6e557f72970e": {
       "username": "capt_rob_advent",
@@ -5090,7 +5092,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Harbor watching and standing by for barge reload — IRL",
       "lastStreamEndedAt": 1792033860848,
-      "_idAt": 1792075612218
+      "_idAt": 1792098412238
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -5263,7 +5265,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792075613423
+      "_idAt": 1792098413437
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -5272,7 +5274,7 @@
         "totalVotes": 14162,
         "totalSubs": 57,
         "totalChatMessages": 2283,
-        "totalStreamMinutes": 12265,
+        "totalStreamMinutes": 12285,
         "emotes": {
           "✨": 49,
           "🖥": 23,
@@ -5627,7 +5629,7 @@
       "lastStreamEndedAt": 1791954686549,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792075608650
+      "_idAt": 1792098408634
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -5655,7 +5657,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792075614626
+      "_idAt": 1792098414641
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -6472,7 +6474,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Evening fun - what will we do? — IRL",
       "lastStreamEndedAt": 1791880038104,
-      "_idAt": 1792075615820
+      "_idAt": 1792098415829
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -6572,7 +6574,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8e722545-71bf-4322-9039-50b822ebe64c.jpeg",
       "lastStreamInfo": "OFF THE GRID! Summer League — Off The Grid",
       "lastStreamEndedAt": 1786154686473,
-      "_idAt": 1792076808627
+      "_idAt": 1792099608629
     },
     "ff594749-c9c6-4c0b-9306-ec8fd4252f7e": {
       "username": "weri",
@@ -7277,7 +7279,7 @@
         "totalVotes": 9454,
         "totalSubs": 85,
         "totalChatMessages": 952,
-        "totalStreamMinutes": 22768,
+        "totalStreamMinutes": 22788,
         "emotes": {
           "❤": 129,
           "🙌": 42,
@@ -7439,7 +7441,7 @@
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a3182925-83db-455f-9247-d15b2f463116.png",
       "profile": "Channel: slothsm  \nProfile: Chill, supportive farm‑simulation hub where “noois” thrive. Members greet with “juunto” and celebrate gifts with “bom farm”. The chat loves “juunto” shoutouts, especially “gift subs” and “love fest” moments, using “toma” and “akini” often. Slothsm enjoys spontaneous “love fest” celebrations for kindness and generosity, keeping the vibe calm, celebratory, and welcoming.",
-      "_profileAtCount": 905,
+      "_profileAtCount": 952,
       "botVip": true,
       "lastStreamInfo": "⚔️PRIDEESSENCE — Lineage 2",
       "lastStreamEndedAt": 1792075971167,
@@ -7857,7 +7859,7 @@
       "nudgedKey": "customcmd",
       "lastStreamInfo": "Dune stop believing.  | Dune Awakening — Dune Awakening",
       "lastStreamEndedAt": 1792013584281,
-      "_idAt": 1792077854439
+      "_idAt": 1792099609827
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
       "username": "grook",
@@ -8007,7 +8009,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/244df307-0e7a-4ba8-bc0d-afd751a372ab.jpg",
-      "_idAt": 1792077854453
+      "_idAt": 1792099611035
     },
     "1290a27a-b733-42cc-85fe-daa77f965b10": {
       "username": "gmc_gaara27",
@@ -8015,29 +8017,30 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 150,
+        "totalChatMessages": 191,
         "totalStreamMinutes": 458,
         "emotes": {
           "🎶": 1,
           "😀": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 3,
-          "dab820c3-c946-4d12-aef8-d07703f0c052": 2,
+          "dab820c3-c946-4d12-aef8-d07703f0c052": 5,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 3,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 1,
           "9294e28e-48fa-409c-b43b-98287465b788": 1,
           "b05156cf-7925-4298-8e19-f29e294cc793": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 2,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 2,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 3,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 1,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 2,
-          "😂": 17,
-          "💪": 2,
+          "😂": 23,
+          "💪": 3,
           "🫠": 2,
           "💚": 3,
           "👍": 1,
           "😞": 1,
-          "37719561-c923-4260-b1a5-e3eda10c103d": 1
+          "37719561-c923-4260-b1a5-e3eda10c103d": 1,
+          "😆": 1
         },
         "emoteNames": {
           "🎶": "🎶",
@@ -8059,51 +8062,52 @@
           "💚": "💚",
           "👍": "👍",
           "😞": "😞",
-          "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
+          "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
+          "😆": "😆"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792098401594
+        "lastChatAt": 1792099608241
       },
       "chatMemory": [
         {
           "user": "brachial513",
-          "msg": "und alter die hintergrund melodie gibt mir richtige oldschool vibes"
+          "msg": "ah was lass laufen 24 h run"
         },
         {
           "user": "brachial513",
-          "msg": "geil"
+          "msg": "[SUCHE RAID TEAM AKT 5 FERNON]"
         },
         {
           "user": "brachial513",
-          "msg": "fast zelda / oder n64 iwas"
+          "msg": "fc"
         },
         {
           "user": "brachial513",
-          "msg": "ja"
+          "msg": "so jz aber 😂 bis morgen 😂"
         },
         {
           "user": "brachial513",
-          "msg": "und hammer die krone oben rechts pulsiert alter"
+          "msg": "@blazeian_bot_ai definiere 'hurensohn'"
         },
         {
           "user": "brachial513",
-          "msg": "zieh mal pls den chat runter"
+          "msg": "😆"
         },
         {
-          "user": "brachial513",
-          "msg": "siehe obs Vorschau"
+          "user": "briggsy",
+          "msg": "Hey @gmc_gaara27 \nBeen on a while I see.  gg, man"
         },
         {
-          "user": "brachial513",
-          "msg": "dann ist er aktuell"
+          "user": "briggsy",
+          "msg": "It's at least worth trying.\nCool you gave it a shot."
         },
         {
-          "user": "brachial513",
-          "msg": "scrollen"
+          "user": "briggsy",
+          "msg": "Yes, all different types of streamers.  \nI like the artist streams the most, then gaming.  There are some IRL boating and trucking streamers too."
         },
         {
-          "user": "brachial513",
-          "msg": "kannst du das anklicken Ansonsten 'quelle aktualisieren'"
+          "user": "briggsy",
+          "msg": "Ohh yess.  I look forward to seeing you work on some of your music on stream."
         }
       ],
       "customCommands": {},
@@ -8501,8 +8505,8 @@
       "stats": {
         "totalVotes": 6453,
         "totalSubs": 36,
-        "totalChatMessages": 1576,
-        "totalStreamMinutes": 2639,
+        "totalChatMessages": 1581,
+        "totalStreamMinutes": 2656,
         "emotes": {
           "❤": 458,
           "🙌": 56,
@@ -8510,8 +8514,8 @@
           "🔴": 25,
           "🎉": 27,
           "💛": 30,
-          "📴": 23,
-          "👋": 23,
+          "📴": 24,
+          "👋": 24,
           "🐝": 78,
           "🎶": 36,
           "💃": 55,
@@ -8607,26 +8611,10 @@
           "🚨": "🚨",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
-        "lastChatAt": 1792097339546,
+        "lastChatAt": 1792099472135,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @noxx!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @Whisky!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 6 votes, @dwb9000!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @jeffronexus!"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ jeffronexus just followed the channel! Welcome!! 🙌"
@@ -8650,6 +8638,22 @@
         {
           "user": "runach",
           "msg": "yes"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "and It's BEE's Birthday today!"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "Drop by @bee12 and say happy bday!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -8671,7 +8675,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c0e55836-f551-446b-ad0b-750bda105adf.gif",
-      "streamTitle": "Dark Gothic Rock Album: H20SIX | Midnight Circus — Music",
+      "streamTitle": "",
       "profile": "We’re a funky community vibin’ to cymatrix’s Funk Show & OSP Tunes! We shout “VOTE ALERT!!”, celebrate each other’s 25s, dance with 💃, and cheer when cymatrix says “Heye!” and “You bet!” It’s always a Tuesday, full of crypto chatter and “cymatrixgroup.com” links. We celebrate with sub gifts, resub hype, and nonstop hype for cymatrix.",
       "_profileAtCount": 1560,
       "gameOverride": "",
@@ -8715,7 +8719,7 @@
       "nudgedAt": 1785081346870,
       "nudgedKey": "schedule",
       "lastStreamInfo": "Dark Gothic Rock Album: H20SIX | Midnight Circus — Music",
-      "lastStreamEndedAt": 1791749361800,
+      "lastStreamEndedAt": 1792099467030,
       "_idAt": 1792079209823
     },
     "19b7a7c0-fe26-4df4-b40e-ac7489b8f42a": {
@@ -9155,8 +9159,8 @@
       "stats": {
         "totalVotes": 24765,
         "totalSubs": 76,
-        "totalChatMessages": 17817,
-        "totalStreamMinutes": 12190,
+        "totalChatMessages": 17839,
+        "totalStreamMinutes": 12200,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -9383,7 +9387,8 @@
           "📈": 24,
           "🎧": 3,
           "🤜": 1,
-          "🤛": 1
+          "🤛": 1,
+          "👐": 2
         },
         "emoteNames": {
           "🧏": "🧏",
@@ -9611,51 +9616,52 @@
           "📈": "📈",
           "🎧": "🎧",
           "🤜": "🤜",
-          "🤛": "🤛"
+          "🤛": "🤛",
+          "👐": "👐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792098352599
+        "lastChatAt": 1792098996805
       },
       "chatMemory": [
         {
-          "user": "metal_bot",
-          "msg": "@cymatrix Added \"Oingo Boingo - Dead Man's Party\" to the queue! (Position #5)"
+          "user": "briggsy",
+          "msg": "Keep getting better?  Amazing"
         },
         {
           "user": "cymatrix",
-          "msg": "good stuff man, so how's things? anything new?"
+          "msg": "you're so good you're like milk"
+        },
+        {
+          "user": "briggsy",
+          "msg": "haha, haven't heard that one"
         },
         {
           "user": "cymatrix",
-          "msg": "yeah I injested something Sunday that knocked me out for two days. it was definitely mullet related... party in the front business out the rear if you know what I mean"
+          "msg": "oh sure... I see"
+        },
+        {
+          "user": "briggsy",
+          "msg": "We see how you are"
+        },
+        {
+          "user": "briggsy",
+          "msg": "You'll be scariokieing at the concert"
         },
         {
           "user": "cymatrix",
-          "msg": "ooooo cool!"
+          "msg": "or you could do random scaryoke the week you miss"
+        },
+        {
+          "user": "briggsy",
+          "msg": "See ya man"
         },
         {
           "user": "cymatrix",
-          "msg": "good song"
+          "msg": "just don't hairyoke, furrballs"
         },
         {
-          "user": "cymatrix",
-          "msg": "thanks for the tunes man"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "hope you have a good rest of your night"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "3 very worthy winners right there"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "well it's about time"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "yessssss"
+          "user": "briggsy",
+          "msg": "Buy!!"
         }
       ],
       "customCommands": {},
@@ -9666,7 +9672,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/b75c9dc9-4139-4301-a1f4-4b77cb0e8bec.gif",
       "followed": true,
-      "streamTitle": "Metal N Chill Request songs for a chance at 100 votes — Music",
+      "streamTitle": "",
       "profile": "Bidlo crew lives for heavy riffs, good vibes, and epic “Bidlo Wheel” moments. We jam Tony Hawk soundtracks, growl‑heavy songs, and “Guitar and Chill” sessions with “love fest” vibes. Shout “GET OUTTA TOWN” and “LET’S GOOO” in the BidloZone, celebrate “100 votes” milestones, raid excitement, and “Bidlo lore” on Lore Tuesday. We love “Bidlo Silverhand” moments, reply with !pick and “Bidlo emote”.",
       "_profileAtCount": 17769,
       "gameOverride": "",
@@ -9783,7 +9789,7 @@
         }
       },
       "lastStreamInfo": "Metal N Chill Request songs for a chance at 100 votes — Music",
-      "lastStreamEndedAt": 1791926846046,
+      "lastStreamEndedAt": 1792099032053,
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
       "_idAt": 1792079213427
@@ -13694,7 +13700,7 @@
         "totalVotes": 19705,
         "totalSubs": 41,
         "totalChatMessages": 3177,
-        "totalStreamMinutes": 11246,
+        "totalStreamMinutes": 11266,
         "emotes": {
           "❤": 118,
           "🙌": 82,
@@ -14505,8 +14511,8 @@
       "stats": {
         "totalVotes": 18383,
         "totalSubs": 29,
-        "totalChatMessages": 38148,
-        "totalStreamMinutes": 21247,
+        "totalChatMessages": 38178,
+        "totalStreamMinutes": 21267,
         "emotes": {
           "❤": 143,
           "🙌": 108,
@@ -14514,7 +14520,7 @@
           "🔥": 61,
           "🔴": 119,
           "🎉": 282,
-          "🪙": 982,
+          "🪙": 984,
           "⚡": 821,
           "👀": 90,
           "🍿": 21,
@@ -14690,7 +14696,7 @@
           "🥺": 2,
           "🥈": 79,
           "🥉": 79,
-          "⭐": 234,
+          "⭐": 235,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 5,
           "✊": 2,
           "✋": 2,
@@ -14712,7 +14718,8 @@
           "🤦": 1,
           "♂": 1,
           "💖": 1,
-          "😡": 1
+          "😡": 1,
+          "😃": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -14919,51 +14926,52 @@
           "🤦": "🤦",
           "♂": "♂",
           "💖": "💖",
-          "😡": "😡"
+          "😡": "😡",
+          "😃": "😃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792098387931
+        "lastChatAt": 1792099581501
       },
       "chatMemory": [
         {
-          "user": "lucas93925052",
-          "msg": "Salve chat"
+          "user": "abordiin",
+          "msg": "ACABOOOOY"
         },
         {
           "user": "abordiin",
-          "msg": "Edão jogou demais o chefão KKKKKKKKKKKKKKKKKKK"
+          "msg": "CHEGAAA"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "meu controle é meu fio"
         },
         {
           "user": "lucas93925052",
-          "msg": "Salve nilão boa noite"
+          "msg": "Kkkkkkkkk iiiiiiiiii"
         },
         {
-          "user": "lucas93925052",
-          "msg": "Kkkkkkkkk"
+          "user": "lovemikami",
+          "msg": "eu comprei com  meu suor, tira o pokemon de tu"
         },
         {
           "user": "lucaetano1",
-          "msg": "No final vai todo mundo perder"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Kkkkkkkkk"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "No final todo mundo vai perder"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Kkkkkkkkk"
-        },
-        {
-          "user": "lucaetano1",
-          "msg": "Faliceu"
+          "msg": "Qual game agora ?"
         },
         {
           "user": "botger",
-          "msg": "💰Compre blaze no canal com streamer (Eden) para fazer doações ou comprar votos."
+          "msg": "🪙 @lucas93925052 11,415 points."
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @lucaetano1 3,135 points."
+        },
+        {
+          "user": "rechigamer",
+          "msg": "Aqui está chovendo desde quinta passada só hoje parou de chover"
+        },
+        {
+          "user": "lucas93925052",
+          "msg": "Aqui tá chovendo bem , ontem choveu só hoje que não choveu"
         }
       ],
       "customCommands": {},
@@ -16274,16 +16282,16 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 34,
-        "totalStreamMinutes": 1406,
+        "totalChatMessages": 35,
+        "totalStreamMinutes": 1410,
         "emotes": {
           "💚": 1,
-          "👋": 7,
+          "👋": 8,
           "⏰": 1,
           "🙌": 4,
           "🔴": 7,
           "🎉": 7,
-          "📴": 6,
+          "📴": 7,
           "❤": 6
         },
         "emoteNames": {
@@ -16297,13 +16305,9 @@
           "❤": "❤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792089172155
+        "lastChatAt": 1792098629997
       },
       "chatMemory": [
-        {
-          "user": "homiedrew",
-          "msg": "thanks all &lt;3"
-        },
         {
           "user": "botger",
           "msg": "🔴 homiedrew is now live! Welcome everyone! 🎉"
@@ -16339,6 +16343,10 @@
         {
           "user": "botger",
           "msg": "🔴 homiedrew is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -16351,9 +16359,9 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/3edd6fa7-1bae-41cb-8d36-480b2b9dcd85.png",
-      "streamTitle": "Games! | GIVEAWAYS 🔥 BLAZE 🔥 Follower Goal 14/100 🔥 — Games + Demos",
+      "streamTitle": "",
       "lastStreamInfo": "Games! | GIVEAWAYS 🔥 BLAZE 🔥 Follower Goal 14/100 🔥 — Games + Demos",
-      "lastStreamEndedAt": 1791494442078,
+      "lastStreamEndedAt": 1792098624752,
       "gameOverride": "",
       "_idAt": 1792082811052
     },
@@ -19208,7 +19216,7 @@
         "totalVotes": 7804,
         "totalSubs": 36,
         "totalChatMessages": 4559,
-        "totalStreamMinutes": 14914,
+        "totalStreamMinutes": 14934,
         "emotes": {
           "👋": 103,
           "⚠": 2,
@@ -20148,7 +20156,7 @@
         "totalVotes": 2027,
         "totalSubs": 3,
         "totalChatMessages": 153,
-        "totalStreamMinutes": 6805,
+        "totalStreamMinutes": 6825,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -21931,7 +21939,7 @@
         "totalVotes": 0,
         "totalSubs": 3,
         "totalChatMessages": 207,
-        "totalStreamMinutes": 1802,
+        "totalStreamMinutes": 1822,
         "emotes": {
           "❤": 18,
           "🙌": 12,
@@ -22193,7 +22201,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 20,
-        "totalStreamMinutes": 5437,
+        "totalStreamMinutes": 5457,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -22321,8 +22329,8 @@
       "stats": {
         "totalVotes": 963,
         "totalSubs": 1,
-        "totalChatMessages": 552,
-        "totalStreamMinutes": 2646,
+        "totalChatMessages": 553,
+        "totalStreamMinutes": 2666,
         "emotes": {
           "❤": 16,
           "🙌": 9,
@@ -22386,13 +22394,9 @@
           "382c591d-62dd-446c-993a-b71f718b9fee": "weedysb"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792096202319
+        "lastChatAt": 1792098637372
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "Stream Has Ended See you All Next time on the Next Episode"
@@ -22408,6 +22412,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: SBEp144 Mustard Network〽️/ Frozen Trail update pandola pass new map and more! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
         },
         {
           "user": "botger",
@@ -22471,7 +22479,7 @@
         "totalVotes": 180,
         "totalSubs": 1,
         "totalChatMessages": 112,
-        "totalStreamMinutes": 243,
+        "totalStreamMinutes": 263,
         "emotes": {
           "❤": 4,
           "🙌": 2,
@@ -22565,7 +22573,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792076807419,
+      "_idAt": 1792099607511,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d3b7be98-81af-4b8d-adeb-af8e99088a0b.png",
       "streamTitle": "i think day 4 of oogie boogie is out/ trying to finish the star path — Disney Dreamlight Valley",
       "lastStreamInfo": "Today is one of those days that it will short stream — AION: Legions of War",
@@ -23399,8 +23407,8 @@
     },
     "venessa2": {
       "note": "Energetic livestream fan who cheers games with hearts and fire emojis, greets everyone warmly, and enthusiastically supports every moment with upbeat enthusiasm.",
-      "at": 1791981109374,
-      "n": 24
+      "at": 1792098589292,
+      "n": 25
     },
     "smellynelly71": {
       "note": "Enjoys Minecraft, Linux, weather science, jokes about zombies, GTA, Sims, Skyrim, and learning Valorant.",
@@ -23474,8 +23482,8 @@
     },
     "unclefunk": {
       "note": "Unclefunk streams upbeat funk, jokes playfully, loves gaming, uses Streamyard and Discord for tunes, and always greets viewers with a cheerful “halloooo.”",
-      "at": 1791879469149,
-      "n": 25
+      "at": 1792099249440,
+      "n": 26
     },
     "jusjayd": {
       "note": "Enjoys classic 80s games, GTA V, hunting free or great deals, and jokes about gaming and everyday life.",
