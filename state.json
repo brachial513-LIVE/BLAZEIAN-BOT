@@ -7275,7 +7275,7 @@
         "totalVotes": 9454,
         "totalSubs": 85,
         "totalChatMessages": 950,
-        "totalStreamMinutes": 22631,
+        "totalStreamMinutes": 22636,
         "emotes": {
           "❤": 129,
           "🙌": 42,
@@ -10517,7 +10517,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 88,
-        "totalStreamMinutes": 12508,
+        "totalStreamMinutes": 12512,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -15526,14 +15526,14 @@
       "stats": {
         "totalVotes": 36962,
         "totalSubs": 59,
-        "totalChatMessages": 7110,
-        "totalStreamMinutes": 12121,
+        "totalChatMessages": 7112,
+        "totalStreamMinutes": 12124,
         "emotes": {
           "❤": 112,
           "🙌": 106,
           "🗳": 1140,
-          "🔴": 94,
-          "🎉": 175,
+          "🔴": 95,
+          "🎉": 176,
           "🏃": 1,
           "♂": 2,
           "💨": 1,
@@ -15867,17 +15867,9 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792036264105
+        "lastChatAt": 1792068525390
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 20 votes, @DimiFW!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 6 votes, @dwb9000!"
@@ -15909,6 +15901,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 20 votes, @xBuRnTx!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Phasmophobia with @desirablebottom! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -15921,7 +15921,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Phasmophobia with @desirablebottom — Phasmophobia",
       "profile": "noxx’s channel is a bug‑slayer hub blasting “👀👀👀” after kills, “clipping it!” when a clip drops, and “RAID ALERT!!” for big moments. The crew loves skrunky emotes, OTG solos, “VOTE ALERT!!”, “NEW FOLLOWER!!” cheers, pumping energy, celebrating with “RAID ALERT!!” and “VOTE ALERT!!”, keeping the stream alive.",
       "_profileAtCount": 7098,
       "gameOverride": "",
@@ -21305,7 +21305,7 @@
         "totalVotes": 1513,
         "totalSubs": 3,
         "totalChatMessages": 144,
-        "totalStreamMinutes": 1536,
+        "totalStreamMinutes": 1541,
         "emotes": {
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
           "🎉": 13,
@@ -23922,8 +23922,8 @@
     }
   },
   "auth": {
-    "accessToken": "dc113b06c5554f992798ebcb0279c157",
-    "refreshToken": "e6d876a067168264f15c52b3a1b0de4a",
+    "accessToken": "0ad2c5fe756496117e5a3ade0f948c7c",
+    "refreshToken": "0a6de087e958ac35b7949f565a7d1bc3",
     "sessionToken": "ead6e43e056cb3883113effe8720eb0a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
