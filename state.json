@@ -10158,7 +10158,7 @@
         "totalVotes": 12195,
         "totalSubs": 209,
         "totalChatMessages": 517,
-        "totalStreamMinutes": 16869,
+        "totalStreamMinutes": 16889,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -13163,14 +13163,14 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 74532,
+        "totalVotes": 74618,
         "totalSubs": 85,
-        "totalChatMessages": 5173,
+        "totalChatMessages": 5176,
         "totalStreamMinutes": 1988,
         "emotes": {
           "❤": 83,
           "🙌": 145,
-          "🗳": 882,
+          "🗳": 891,
           "💰": 46,
           "🔥": 125,
           "💛": 3,
@@ -13540,25 +13540,13 @@
           "👐": "👐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792085408220,
+        "lastChatAt": 1792167585576,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Thanks buddy"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Great to see you and be here"
-        },
-        {
-          "user": "helios",
-          "msg": "Have fun guys 🔥🔥"
-        },
         {
           "user": "briggsy",
           "msg": "they are both playing together the same game"
@@ -13586,6 +13574,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 22 vote(s) (total: 1022)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 22 vote(s) (total: 1044)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 22 vote(s) (total: 1066)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 42 vote(s) (total: 1108)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -13726,7 +13726,10 @@
       "gameOverride": "",
       "lastStreamInfo": "Drawing session with a special MySilo wheelspin — Art",
       "lastStreamEndedAt": 1792016567041,
-      "_idAt": 1792160500763
+      "_idAt": 1792160500763,
+      "_gameAt": 1792167556988,
+      "isLive": false,
+      "streamCategory": ""
     },
     "8b253ac1-f188-44bc-b38c-129d71ddeec3": {
       "username": "angge_wf",
