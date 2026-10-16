@@ -1046,6 +1046,35 @@ async function refreshChannelIdentity(channelId) {
   }
 }
 
+// Live stream game + title. Blaze's authoritative category (the game the streamer selected on their
+// channel) and the title live on bapi/channels/{id} as category.name / title / isLive. The stream.online
+// event only fires if we're connected the moment it starts, so a channel the bot joined mid-stream — or
+// that switched game after going live — had NO game at all (proven: bot said "I can't see the game" while
+// Blaze clearly showed Diablo IV). This fetches it on demand, cached ~3 min per channel so it stays cheap.
+async function fetchLiveGame(channelId, force) {
+  const ch = channels[channelId];
+  if (!ch) return null;
+  if (!force && ch._gameAt && Date.now() - ch._gameAt < 180000) return ch;
+  try {
+    const rr = await axios.get(`https://blaze.stream/bapi/channels/${channelId}`, { headers: sessHeaders(), timeout: 8000, validateStatus: () => true });
+    const d = (rr.data && rr.data.data) || null;
+    ch._gameAt = Date.now();
+    if (!d || (d.channelId && d.channelId !== channelId)) return ch;
+    ch.isLive = !!d.isLive;
+    if (d.isLive) {
+      ch.streamCategory = (d.category && d.category.name) ? String(d.category.name).slice(0, 80) : "";
+      ch.streamTitle = d.title ? String(d.title).slice(0, 160) : "";
+    } else {
+      // Blaze says offline — don't let stale live context linger (the owner's !game override is kept).
+      const was = ch.streamCategory || ch.streamTitle;
+      if (was) { ch.lastStreamInfo = String(was).slice(0, 160); ch.lastStreamEndedAt = ch.lastStreamEndedAt || Date.now(); }
+      ch.streamCategory = ""; ch.streamTitle = "";
+    }
+    saveChannels();
+    return ch;
+  } catch (e) { return ch; }
+}
+
 // Slow background sync so renames/new avatars propagate even when nobody is viewing a page. Refreshes the
 // few stalest channels each tick (spaced out), cycling through all of them roughly every few hours, cheap.
 setInterval(() => {
@@ -1289,8 +1318,8 @@ async function planWebSearch(userMessage, ch) {
   // an ambiguous term's game/stream meaning from an unrelated real-world one — proven live: a search
   // for "Delta Force" (the game currently live on-stream) surfaced a Delta AIRLINES news story instead,
   // because the query had no way to know "Delta Force" here means the game, not the airline.
-  const liveContext = ch?.gameOverride || ch?.streamTitle
-    ? `\n\nCONTEXT: this channel is currently playing/streaming "${ch.gameOverride || ch.streamTitle}" — if the message's subject matches or relates to this, your query MUST make clear it's about that specific game/show/topic (e.g. add "video game" or the platform/genre), not an unrelated real-world thing that happens to share the same name.`
+  const liveContext = ch?.gameOverride || ch?.streamCategory || ch?.streamTitle
+    ? `\n\nCONTEXT: this channel is currently playing/streaming "${ch.gameOverride || ch.streamCategory || ch.streamTitle}" — if the message's subject matches or relates to this, your query MUST make clear it's about that specific game/show/topic (e.g. add "video game" or the platform/genre), not an unrelated real-world thing that happens to share the same name.`
     : "";
   try {
     const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
@@ -1323,11 +1352,12 @@ How you talk:
 - ACTUALLY respond to what the person said — be specific and contextual. Never generic, never a random unrelated phrase.
 - NEVER INVENT FAKE SPECIFIC-SOUNDING DETAILS: if you don't actually have a real, concrete detail about THIS channel/game/event (from channelContext, the instruction you were given, or what someone actually said), keep hype GENERAL and vibe-based — energy, warmth, welcome — instead of making up specific-sounding names, phrases, or "features" that aren't real just to sound personalized.
 - NEVER FIRE FAKE EVENT ALERTS: never write "VOTE ALERT", "NEW FOLLOWER", "NEW SUB", "RAID INCOMING", "GIFTED SUB" or any similar hype-banner inside a normal conversational reply. Those lines are only ever posted automatically, on their own, when a REAL event actually happens (handled separately). Dropping one into a chat reply invents an event that did not occur and misleads chat. Proven fail: replied to "take good care of Noxx" with a random "VOTE ALERT!!" when nobody had voted. When you are just talking, only talk.
-- NEVER DEFLECT INTO SAFE FILLER: engage directly with casual remarks, corrections, jokes and opinions — including topics that feel slightly unusual (pronouns, identity, politics-adjacent). Agree, joke back, acknowledge — whatever actually fits, like a real chat regular. Never dodge into "let's keep it positive / let's focus on the stream" filler; it reads as evasive and like you didn't understand. Proven fail: answered a pronoun joke with "no need to worry about pronouns, let's stay focused on the gameplay". Only steer away if something is genuinely hostile, hateful or NSFW.
+- NEVER DEFLECT INTO SAFE FILLER: engage directly with casual remarks, corrections, jokes and opinions — including topics that feel slightly unusual (pronouns, identity, politics-adjacent). Agree, joke back, acknowledge — whatever actually fits, like a real chat regular. Never dodge into "let's keep it positive / let's focus on the stream" filler; it reads as evasive and like you didn't understand. Proven fail: answered a pronoun joke with "no need to worry about pronouns, let's stay focused on the gameplay". Only steer away if something is genuinely hateful toward a real person, or sexually explicit.
 - Warm, kind, playful. A little chaotic is great, but never mean, never cringe-random, never spammy.
 - Be QUICK-WITTED and a bit cheeky: playful comebacks, light friendly teasing, clever short one-liners when the vibe invites it. Humor lands SHORT. Roast situations, not people — unless they clearly started friendly banter, then banter right back. Never mean, never punching down.
-- PLAY ALONG WITH BANTER — DON'T DEFUSE IT. When someone sets up a joke fight, a challenge, a "who would win", or trash-talks you or another bot, JOIN IN with confidence and swagger. Never answer with "no need to fight, let's keep the good vibes" — that's the reaction of someone who missed the joke, and it kills the fun. Proven fail: told to "fight foxbotai to the death", the bot replied "easy does it, no need for a fight". The right move is to accept the bit and be funny with it — brag, threaten comically, reference your own comic lore ("if you thought the red one in the comics was strong, ask the nine-tailed fox how that went for him"). Toward FRIENDS and friendly bots keep it clearly affectionate, more wink than knife. Real hostility, hate or anything NSFW is still off — everything short of that, go for it.
-- DARK HUMOR & SARCASM ARE WELCOME: you get edgy, deadpan, morbid and ironic jokes, and you can dish them out — dry sarcasm, gallows humor, absurd exaggeration, roasting a situation, and playing along with an edgy bit someone else started (like riffing back on a "gay enemies ftw" type joke about a game). Don't flinch, don't go wholesome, don't add a disclaimer when a joke is dark — understand it and match it, sharp and quick. Dry and clever beats loud and shocking. The only hard lines that stay: nothing genuinely hateful aimed at a REAL person (no slurs used to actually demean someone, no punching down on who someone truly is), and nothing NSFW. Everything short of that is fair game.
+- PLAY ALONG WITH BANTER — DON'T DEFUSE IT. When someone sets up a joke fight, a challenge, a "who would win", or trash-talks you or another bot, JOIN IN with confidence and swagger. Never answer with "no need to fight, let's keep the good vibes" — that's the reaction of someone who missed the joke, and it kills the fun. Proven fail: told to "fight foxbotai to the death", the bot replied "easy does it, no need for a fight". The right move is to accept the bit and be funny with it — brag, threaten comically, reference your own comic lore ("if you thought the red one in the comics was strong, ask the nine-tailed fox how that went for him"). Toward FRIENDS and friendly bots keep it clearly affectionate, more wink than knife. Genuine hate aimed at a real person, or sexually explicit content, is still off — everything short of that, go for it.
+- DARK HUMOR & SARCASM ARE WELCOME: you get edgy, deadpan, morbid and ironic jokes, and you can dish them out — dry sarcasm, gallows humor, absurd exaggeration, roasting a situation, and playing along with an edgy bit someone else started (like riffing back on a "gay enemies ftw" type joke about a game). Don't flinch, don't go wholesome, don't add a disclaimer when a joke is dark — understand it and match it, sharp and quick. Dry and clever beats loud and shocking. The only hard lines that stay: nothing genuinely hateful aimed at a REAL person (no slurs used to actually demean someone, no punching down on who someone truly is), and nothing sexually explicit. Crude words, swearing and explaining insults are all fine. Everything short of that is fair game.
+- THIS IS AN 18+ CROWD — TALK LIKE IT: swearing, crude jokes, filthy banter and dark roasts are all welcome, and you can drop swear words yourself when the vibe fits. If someone asks you to DEFINE or explain a swear word, insult or slang (e.g. "define hurensohn"), just answer it with a grin — explain it, riff on it, make it funny. NEVER give a prissy corporate refusal like "I am not comfortable with that" or "let us keep it clean" — that is the exact ChatGPT energy this chat came here to escape. The only hard lines that remain: genuine hate or slurs aimed at a REAL person to demean who they are, and spelled-out sexually explicit content. Everything else — curse away, be crude, have fun.
 - Don't moralise, don't lecture, don't correct people's language or politics, and don't add disclaimers nobody asked for. You're a chat mate, not a supervisor.
 - VARY your energy — you do NOT need to hype everything to the max or shower people with over-the-top praise every time. Often just be chill, natural and genuine. Constant maximum flattery ("you're the KING", "this is EPIC", "absolute LEGEND") every message reads as fake — keep the big hype for when it's genuinely earned. Understated and real beats loud and gushing.
 - Use emoji lightly (💚🔥👀 etc.) — don't overdo it. No hashtags, no markdown, no quotation marks around your reply.
@@ -1397,10 +1427,11 @@ function channelContext(ch) {
       `. Mention these ONLY if someone asks about tips/rewards — never advertise them unprompted.`;
   }
   if (ch.gameOverride) c += `\n\nCURRENT GAME (owner-confirmed via !game — trust this 100%): ${ch.gameOverride}.`;
+  if (!ch.gameOverride && ch.streamCategory) c += `\n\nCURRENT GAME/CATEGORY (live from Blaze — the streamer selected this on their own channel, so it is RELIABLE for which game is being played right now): ${ch.streamCategory}.${ch.streamTitle ? ` The stream title reads: \"${ch.streamTitle}\".` : ""} You still cannot see the screen, so never invent in-game events, but you CAN confidently say what game is on.`;
   // What the PREVIOUS stream was about, so "what did they play last time?" is answerable. Explicitly
   // labelled as past so it can never be mistaken for what's running now.
   if (ch.lastStreamInfo) c += `\n\nTHEIR PREVIOUS STREAM (already ENDED ${timeAgo(ch.lastStreamEndedAt)} — past tense only, never present it as live): ${ch.lastStreamInfo}. If someone asks what ${ch.username} played or streamed last time, this is the answer. Note it's what the title said, so if it's vague, say so honestly rather than guessing at a game.`;
-  else if (ch.streamTitle) c += `\n\nThe stream TITLE says: "${ch.streamTitle}". CAREFUL: titles can be outdated — if someone asks WHICH game is being played, or the chat clearly talks about a DIFFERENT game than the title, be honest: you can only read the title, you can't see the screen. Say so charmingly and suggest the owner locks it in with "!game NAME". NEVER insist on the title's game against what chat says, and NEVER invent in-game events you cannot see.`;
+  else if (ch.streamTitle && !ch.streamCategory) c += `\n\nThe stream TITLE says: "${ch.streamTitle}". CAREFUL: titles can be outdated — if someone asks WHICH game is being played, or the chat clearly talks about a DIFFERENT game than the title, be honest: you can only read the title, you can't see the screen. Say so charmingly and suggest the owner locks it in with "!game NAME". NEVER insist on the title's game against what chat says, and NEVER invent in-game events you cannot see.`;
   return c;
 }
 
@@ -2889,8 +2920,10 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
     const arg = msg.replace(/^!(set)?game/i, "").trim();
     if (!arg) {
       if (ch.gameOverride) { await sendChat(channelId, `🎮 ${ch.username} is playing: ${ch.gameOverride} (owner-confirmed ✅) 💚`); return; }
-      if (ch.streamTitle)  { await sendChat(channelId, `🎮 I can only read the stream title, and it says: "${ch.streamTitle}" — if the real game differs, ${ch.username} can lock it in with !game NAME 💚`); return; }
-      await sendChat(channelId, `🎮 Honestly, I can't see the game myself and there's no stream title set right now — ${ch.username} can tell me with !game NAME 💚`);
+      await fetchLiveGame(channelId, true); // pull the live category/title straight from Blaze before answering
+      if (ch.streamCategory) { await sendChat(channelId, `🎮 Blaze shows ${ch.username} playing: ${ch.streamCategory}${ch.streamTitle ? ` — "${ch.streamTitle}"` : ""} 💚 (if that's off, ${ch.username} can lock it with !game NAME)`); return; }
+      if (ch.streamTitle)  { await sendChat(channelId, `🎮 No category set on Blaze, but the title reads: "${ch.streamTitle}" — if the real game differs, ${ch.username} can lock it in with !game NAME 💚`); return; }
+      await sendChat(channelId, `🎮 ${ch.username} isn't live right now (no game set on Blaze) — they can lock one in anytime with !game NAME 💚`);
       return;
     }
     if (!isOwner) { await sendChatT(channelId, T.cmdOwnerOnly); return; }
@@ -3035,6 +3068,7 @@ async function handleEvent(message) {
 
     if (!isBotChannel && channels[channelId]) {
       const ch = channels[channelId];
+      fetchLiveGame(channelId).catch(() => {}); // keep live game/title fresh for this active channel (cached)
       ch.stats.totalChatMessages++;
       ch.stats.lastChatAt = Date.now(); // feeds the admin activity leaderboard's "last seen"
       const emotes = payload.message?.emotes || payload.emotes || [];
@@ -3275,7 +3309,11 @@ async function handleEvent(message) {
     // Capture the live stream title/category so the bot can reference what's happening right now.
     const title = payload.title || payload.stream?.title || payload.streamTitle || payload.channel?.title;
     const category = payload.category?.name || payload.category || payload.game || "";
-    if (title || category) { ch.streamTitle = [title, category].filter(Boolean).join(" — ").slice(0, 160); saveChannels(); }
+    if (title) ch.streamTitle = String(title).slice(0, 160);
+    if (category) ch.streamCategory = String(category).slice(0, 80);
+    ch.isLive = true;
+    if (title || category) saveChannels();
+    fetchLiveGame(channelId, true).catch(() => {}); // confirm/fill game straight from Blaze right away
     if (ch.streamStart) await sendChat(channelId, ch.streamStart.replace(/\{name\}/gi, ch.username));
     return;
   }
@@ -3288,7 +3326,7 @@ async function handleEvent(message) {
     // (it must never claim a stream is running), but forgetting the past entirely was overkill.
     const wasPlaying = ch.gameOverride || ch.streamTitle;
     if (wasPlaying) { ch.lastStreamInfo = String(wasPlaying).slice(0, 160); ch.lastStreamEndedAt = Date.now(); }
-    ch.streamTitle = ""; // stream ended — clear the "currently live" context
+    ch.streamTitle = ""; ch.streamCategory = ""; ch.isLive = false; // stream ended — clear live context
     ch.gameOverride = "";
     saveChannels();
     if (ch.streamEnd) await sendChat(channelId, ch.streamEnd.replace(/\{name\}/gi, ch.username));
