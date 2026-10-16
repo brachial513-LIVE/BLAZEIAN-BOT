@@ -2155,7 +2155,7 @@
         "totalVotes": 43124,
         "totalSubs": 268,
         "totalChatMessages": 14453,
-        "totalStreamMinutes": 34131,
+        "totalStreamMinutes": 34136,
         "emotes": {
           "📊": 3,
           "🔥": 619,
@@ -4583,7 +4583,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792182378698,
-      "_idAt": 1792160483277,
+      "_idAt": 1792184448149,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792181907458
@@ -4656,7 +4656,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1792160483759
+      "_idAt": 1792184449315
     },
     "c87ed67e-a16e-48e5-af83-6e557f72970e": {
       "username": "capt_rob_advent",
@@ -5129,7 +5129,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Heading east bound in Texas to fuel a ship",
       "lastStreamEndedAt": 1792165082202,
-      "_idAt": 1792160484265,
+      "_idAt": 1792184450524,
       "_gameAt": 1792170724261,
       "isLive": false,
       "streamCategory": ""
@@ -5305,7 +5305,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792160484770
+      "_idAt": 1792184451709
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -5674,7 +5674,7 @@
       "lastStreamEndedAt": 1792101276870,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792160485306
+      "_idAt": 1792184452916
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -5702,7 +5702,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792160485774
+      "_idAt": 1792184454121
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -6524,7 +6524,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Evening fun - what will we do?",
       "lastStreamEndedAt": 1792173410377,
-      "_idAt": 1792160486261,
+      "_idAt": 1792184455321,
       "_gameAt": 1792181336942,
       "isLive": false,
       "streamCategory": ""
@@ -7663,7 +7663,7 @@
         "totalVotes": 20468,
         "totalSubs": 58,
         "totalChatMessages": 1835,
-        "totalStreamMinutes": 7432,
+        "totalStreamMinutes": 7437,
         "emotes": {
           "❤": 92,
           "🙌": 83,
@@ -8083,8 +8083,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 5,
-        "totalChatMessages": 224,
-        "totalStreamMinutes": 491,
+        "totalChatMessages": 225,
+        "totalStreamMinutes": 496,
         "emotes": {
           "🎶": 1,
           "😀": 1,
@@ -8136,13 +8136,9 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792184328657
+        "lastChatAt": 1792184708915
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "@blazeian_bot_ai Aber gmc_Gaara27 macht noch mehr, als nur westside Musik"
-        },
         {
           "user": "brachial513",
           "msg": "der hund HAHA"
@@ -8178,6 +8174,10 @@
         {
           "user": "brachial513",
           "msg": "soo jz aber gn8 ❤️"
+        },
+        {
+          "user": "gmc_gaara27",
+          "msg": "2 min afk"
         }
       ],
       "customCommands": {},
@@ -8223,7 +8223,7 @@
           "tier": 1
         }
       },
-      "_gameAt": 1792184319286,
+      "_gameAt": 1792184709082,
       "isLive": true,
       "streamCategory": "FINAL FANTASY XIV Online"
     },
@@ -20310,7 +20310,7 @@
         "totalVotes": 2027,
         "totalSubs": 3,
         "totalChatMessages": 154,
-        "totalStreamMinutes": 7286,
+        "totalStreamMinutes": 7291,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -21184,7 +21184,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 5602,
+        "totalStreamMinutes": 5607,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -24158,8 +24158,8 @@
     }
   },
   "auth": {
-    "accessToken": "47ea03d5865e454acbc5c7c5fbc9eda7",
-    "refreshToken": "0080d4105b12780264184892454f891e",
+    "accessToken": "5de853f8c555ec42207ebf60a921ab9c",
+    "refreshToken": "ed2b64b05695fbac8ea407051a96f045",
     "sessionToken": "5ae89aee480c1ea438f3354295a61f3a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
