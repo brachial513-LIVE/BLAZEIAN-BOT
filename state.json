@@ -6651,7 +6651,7 @@
         "totalVotes": 39266,
         "totalSubs": 80,
         "totalChatMessages": 9001,
-        "totalStreamMinutes": 15768,
+        "totalStreamMinutes": 15773,
         "emotes": {
           "❤": 153,
           "🙌": 209,
@@ -9808,7 +9808,7 @@
         "totalVotes": 22145,
         "totalSubs": 69,
         "totalChatMessages": 2718,
-        "totalStreamMinutes": 21795,
+        "totalStreamMinutes": 21800,
         "emotes": {
           "🔥": 797,
           "🔴": 200,
@@ -12437,7 +12437,7 @@
         "totalVotes": 10518,
         "totalSubs": 57,
         "totalChatMessages": 507,
-        "totalStreamMinutes": 8855,
+        "totalStreamMinutes": 8860,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -13707,7 +13707,7 @@
         "totalVotes": 19705,
         "totalSubs": 41,
         "totalChatMessages": 3177,
-        "totalStreamMinutes": 11511,
+        "totalStreamMinutes": 11516,
         "emotes": {
           "❤": 118,
           "🙌": 82,
@@ -19223,7 +19223,7 @@
         "totalVotes": 7804,
         "totalSubs": 36,
         "totalChatMessages": 4568,
-        "totalStreamMinutes": 15031,
+        "totalStreamMinutes": 15035,
         "emotes": {
           "👋": 104,
           "⚠": 2,
@@ -19604,7 +19604,7 @@
       "stats": {
         "totalVotes": 7883,
         "totalSubs": 31,
-        "totalChatMessages": 1686,
+        "totalChatMessages": 1687,
         "totalStreamMinutes": 8416,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
@@ -19666,7 +19666,7 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 13,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 13,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 3,
-          "🔴": 9,
+          "🔴": 10,
           "🙃": 1,
           "❤": 5,
           "👋": 9,
@@ -19767,13 +19767,9 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791999484445
+        "lastChatAt": 1792114595970
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @tom2329!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @Potato_Pete!"
@@ -19809,6 +19805,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 100 votes, @vRoshi55!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 🔴Testing IRL! Come hang out and watch."
         }
       ],
       "customCommands": {
@@ -19824,7 +19824,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "🔴Testing IRL — IRL",
       "lastStreamInfo": "🔴Grinding - new server w/ @FartVader @JaggerJack — Humanitz",
       "lastStreamEndedAt": 1791747316417,
       "gameOverride": "",
@@ -20163,7 +20163,7 @@
         "totalVotes": 2027,
         "totalSubs": 3,
         "totalChatMessages": 153,
-        "totalStreamMinutes": 7070,
+        "totalStreamMinutes": 7075,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -21034,7 +21034,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 5580,
+        "totalStreamMinutes": 5584,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -21946,7 +21946,7 @@
         "totalVotes": 0,
         "totalSubs": 3,
         "totalChatMessages": 208,
-        "totalStreamMinutes": 2067,
+        "totalStreamMinutes": 2072,
         "emotes": {
           "❤": 18,
           "🙌": 12,
@@ -24010,8 +24010,8 @@
     }
   },
   "auth": {
-    "accessToken": "b82bf92fe26e603ce68609bf9039ac27",
-    "refreshToken": "cf73162e2a9205c71a6e8b6b4872cbca",
+    "accessToken": "2eb6c260efc79e45d054da119cb8943d",
+    "refreshToken": "74f52743e460ddab5dd2d87d2a966e3e",
     "sessionToken": "6d4bc089502d99e7e2c21f69ef18a30b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
