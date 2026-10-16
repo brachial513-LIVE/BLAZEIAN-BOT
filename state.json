@@ -614,7 +614,7 @@
           "dur": 14
         }
       },
-      "_idAt": 1792118807480
+      "_idAt": 1792141459323
     },
     "ab4452a1-3623-426e-ab45-dce684780e78": {
       "username": "der_bruder",
@@ -655,7 +655,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/3c2c7809-ff4f-4fd6-8128-09dcaeaba07e.jpg",
-      "_idAt": 1792118811030
+      "_idAt": 1792141459358
     },
     "c793ee2d-a124-463b-88ed-d4cbb437516c": {
       "username": "mistersupercool",
@@ -690,7 +690,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4b76985d-7b80-4351-99be-1c1bba36a10e.jpg",
-      "_idAt": 1792118813420
+      "_idAt": 1792141459332
     },
     "4bc55098-b53d-4256-9946-f26ff28d8049": {
       "username": "bbjclownnsss",
@@ -820,7 +820,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ecb9587-f0a4-490f-b3a0-91af4a74a9d4.jpeg",
       "profile": "bbjclownnsss is a gaming community that's \"Lowkey Savage\" and \"Highkey Lit.\" We \"Get Wrecked\" in Among Us, \"Slay the Day\" in other games, and celebrate \"Lit Sundays\" with \"Savage Fails.\" We love being celebrated with \"Follow us\" spam and \"Love Fests\" - the more, the merrier. We're a family that's all about good vibes and having a blast.",
       "_profileAtCount": 266,
-      "_idAt": 1792118815819
+      "_idAt": 1792141459357
     },
     "ab310188-52eb-4bb1-b051-cb874c9749aa": {
       "username": "vroshi55",
@@ -1519,7 +1519,7 @@
       "commentMode": "silent",
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
-      "_idAt": 1792118814624
+      "_idAt": 1792141459352
     },
     "8c847dcf-65a9-4234-8980-c59102c8aa60": {
       "username": "jt_squared2",
@@ -2128,7 +2128,7 @@
       "nudgedKey": "schedule",
       "botVip": true,
       "commentMode": "silent",
-      "_idAt": 1792118812226
+      "_idAt": 1792141459368
     },
     "b9c5a280-713e-4870-b505-623751badfa0": {
       "username": "crypt0k1ng96",
@@ -2901,7 +2901,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792118808647,
+      "_idAt": 1792141459335,
       "raidConfig": {
         "gif": "",
         "audio": "",
@@ -3280,7 +3280,7 @@
       "lastStreamEndedAt": 1789956701893,
       "nudgedAt": 1786436965117,
       "nudgedKey": "schedule",
-      "_idAt": 1792118809821
+      "_idAt": 1792141459330
     },
     "5e9d9b5f-98cf-4b92-a93c-ed876703b55a": {
       "username": "agent00zani",
@@ -11606,8 +11606,8 @@
       "stats": {
         "totalVotes": 36706,
         "totalSubs": 168,
-        "totalChatMessages": 4031,
-        "totalStreamMinutes": 20406,
+        "totalChatMessages": 4032,
+        "totalStreamMinutes": 20411,
         "emotes": {
           "❤": 146,
           "🙌": 239,
@@ -11837,13 +11837,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792141064225
+        "lastChatAt": 1792141567868
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "I'll be lurking"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @K1NGBRE4KER is raiding with a party of 5! Welcome raiders!! 🎉"
@@ -11879,6 +11875,10 @@
         {
           "user": "helios",
           "msg": "Really? You're going to love it"
+        },
+        {
+          "user": "poorbones",
+          "msg": "heya gm hope ur well today"
         }
       ],
       "customCommands": {},
@@ -13712,7 +13712,7 @@
         "totalVotes": 19755,
         "totalSubs": 41,
         "totalChatMessages": 3178,
-        "totalStreamMinutes": 11961,
+        "totalStreamMinutes": 11966,
         "emotes": {
           "❤": 118,
           "🙌": 82,
@@ -23976,6 +23976,11 @@
       "note": "Enjoys Pokémon, NFTs, and playful chat; often thanks viewers, jokes about farming and bowling pins, and asks about sub‑to‑sub to regain verified badges.",
       "at": 1792079449412,
       "n": 1
+    },
+    "poetbabe": {
+      "note": "Enjoys playing No Man's Sky and other games, often shares lighthearted comments and emotes during streams.",
+      "at": 1792141489362,
+      "n": 1
     }
   },
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 40 votes = 1 entry / 80 = 3 entries / 150 = 6 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 1000 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\n21th - 27th September 2026 = 25th Giveaway on Blaze",
@@ -24020,8 +24025,8 @@
     }
   },
   "auth": {
-    "accessToken": "0c64943e58c7e4f21b23fa609b83ed5c",
-    "refreshToken": "6cc66f58ed360806750d0970d65b7674",
+    "accessToken": "17cc8344e83dedbb5cc0787b4bb0bc3d",
+    "refreshToken": "a7a281745089272d87a254b00bc6351f",
     "sessionToken": "6d4bc089502d99e7e2c21f69ef18a30b",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
