@@ -7336,14 +7336,14 @@
       "stats": {
         "totalVotes": 9454,
         "totalSubs": 86,
-        "totalChatMessages": 954,
-        "totalStreamMinutes": 22964,
+        "totalChatMessages": 955,
+        "totalStreamMinutes": 22976,
         "emotes": {
           "❤": 132,
           "🙌": 42,
           "🔥": 41,
-          "🔴": 158,
-          "🎉": 158,
+          "🔴": 159,
+          "🎉": 159,
           "📴": 163,
           "👋": 167,
           "😂": 4,
@@ -7440,14 +7440,10 @@
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
-        "lastChatAt": 1792110177238,
+        "lastChatAt": 1792189090211,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -7483,6 +7479,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -7494,7 +7494,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "⚔️PRIDEESSENCE",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a3182925-83db-455f-9247-d15b2f463116.png",
@@ -7572,7 +7572,10 @@
           "tier": 1
         }
       },
-      "_idAt": 1792185650516
+      "_idAt": 1792185650516,
+      "streamCategory": "Lineage 2",
+      "isLive": true,
+      "_gameAt": 1792189089989
     },
     "d7c03cf7-26bc-4966-b436-ec5820565e9c": {
       "username": "1vynnn",
@@ -7663,7 +7666,7 @@
         "totalVotes": 20468,
         "totalSubs": 58,
         "totalChatMessages": 1835,
-        "totalStreamMinutes": 7502,
+        "totalStreamMinutes": 7522,
         "emotes": {
           "❤": 92,
           "🙌": 83,
@@ -8082,7 +8085,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 0,
-        "totalSubs": 5,
+        "totalSubs": 6,
         "totalChatMessages": 227,
         "totalStreamMinutes": 532,
         "emotes": {
@@ -8221,6 +8224,11 @@
         },
         "bonsaifox": {
           "name": "bonsaifox",
+          "months": 1,
+          "tier": 1
+        },
+        "k1ngbre4ker": {
+          "name": "k1ngbre4ker",
           "months": 1,
           "tier": 1
         }
@@ -20318,7 +20326,7 @@
         "totalVotes": 2027,
         "totalSubs": 3,
         "totalChatMessages": 154,
-        "totalStreamMinutes": 7356,
+        "totalStreamMinutes": 7376,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -21192,7 +21200,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 5672,
+        "totalStreamMinutes": 5692,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -21532,7 +21540,7 @@
       "stats": {
         "totalVotes": 1513,
         "totalSubs": 3,
-        "totalChatMessages": 150,
+        "totalChatMessages": 152,
         "totalStreamMinutes": 1794,
         "emotes": {
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
@@ -21540,8 +21548,8 @@
           "🔴": 13,
           "📴": 13,
           "👋": 13,
-          "❤": 18,
-          "🙌": 10,
+          "❤": 20,
+          "🙌": 11,
           "😶": 4,
           "🌫": 4,
           "🗳": 12,
@@ -21561,17 +21569,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792083891958
+        "lastChatAt": 1792189004137
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: Latenight Fortnie With @dynamicrich84 use creator code IAMJAGSMAN #thedugout #mustardnetwork! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 jagsman is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -21603,6 +21603,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @remgamingtv!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ remgamingtv just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -21642,7 +21650,10 @@
       "_profileAtCount": 126,
       "_idAt": 1792186689830,
       "nudgedAt": 1791149490517,
-      "nudgedKey": "schedule"
+      "nudgedKey": "schedule",
+      "_gameAt": 1792188999263,
+      "isLive": false,
+      "streamCategory": ""
     },
     "7cd5fb0d-b65a-4f91-af4c-69680ae259af": {
       "username": "poderosotv",
