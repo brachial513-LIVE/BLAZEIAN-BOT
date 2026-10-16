@@ -1532,7 +1532,7 @@
       "stats": {
         "totalVotes": 33137,
         "totalSubs": 71,
-        "totalChatMessages": 38475,
+        "totalChatMessages": 38476,
         "totalStreamMinutes": 3691,
         "emotes": {
           "🔥": 2096,
@@ -1866,7 +1866,7 @@
           "👏": "👏",
           "🍺": "🍺"
         },
-        "lastChatAt": 1791965880816,
+        "lastChatAt": 1792170512524,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1874,10 +1874,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
-        },
         {
           "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
@@ -1913,6 +1909,10 @@
         {
           "user": "triz_draw",
           "msg": "Congrats Holii Holder"
+        },
+        {
+          "user": "dimifw",
+          "msg": "first"
         }
       ],
       "customCommands": {},
@@ -2133,7 +2133,10 @@
       "nudgedKey": "schedule",
       "botVip": true,
       "commentMode": "silent",
-      "_idAt": 1792160481266
+      "_idAt": 1792160481266,
+      "_gameAt": 1792170512643,
+      "isLive": false,
+      "streamCategory": ""
     },
     "b9c5a280-713e-4870-b505-623751badfa0": {
       "username": "crypt0k1ng96",
@@ -2141,8 +2144,8 @@
       "stats": {
         "totalVotes": 42997,
         "totalSubs": 267,
-        "totalChatMessages": 14278,
-        "totalStreamMinutes": 33886,
+        "totalChatMessages": 14325,
+        "totalStreamMinutes": 33906,
         "emotes": {
           "📊": 3,
           "🔥": 615,
@@ -2153,16 +2156,16 @@
           "✌": 6,
           "😊": 9,
           "👋": 17,
-          "🚀": 272,
+          "🚀": 275,
           "🦊": 195,
-          "😂": 230,
+          "😂": 232,
           "👑": 65,
           "⭐": 59,
           "🏆": 101,
           "🤗": 24,
           "💪": 57,
           "🎁": 169,
-          "💎": 181,
+          "💎": 183,
           "😶": 4,
           "🌫": 4,
           "🪙": 37,
@@ -2176,8 +2179,8 @@
           "📜": 4,
           "🎬": 26,
           "✂": 4,
-          "👀": 49,
-          "💜": 481,
+          "👀": 50,
+          "💜": 491,
           "🌟": 27,
           "📣": 4,
           "🔗": 6,
@@ -2222,7 +2225,7 @@
           "🐐": 7,
           "✅": 405,
           "😀": 8,
-          "🥺": 1,
+          "🥺": 3,
           "🍝": 1,
           "🤖": 3,
           "💬": 1,
@@ -2238,7 +2241,7 @@
           "🙂": 1,
           "🔺": 6,
           "🫡": 30,
-          "☺": 4,
+          "☺": 5,
           "🙌": 3,
           "🍀": 65,
           "🙄": 3,
@@ -2256,7 +2259,7 @@
           "⏰": 275,
           "⚠": 24,
           "💀": 22,
-          "🎰": 313,
+          "🎰": 318,
           "🎉": 26,
           "🎊": 17,
           "🍌": 6,
@@ -2276,13 +2279,13 @@
           "🌊": 11,
           "0e7260fc-922c-45c7-990b-1279793c9988": 46,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 29,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 95,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 96,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 50,
           "37719561-c923-4260-b1a5-e3eda10c103d": 42,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 29,
-          "21f398af-51dd-49cb-a896-76bf8af659ea": 7,
+          "21f398af-51dd-49cb-a896-76bf8af659ea": 9,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 10,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 99,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 101,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 13,
           "da339ef7-1574-4f2f-8b48-666688167af3": 6,
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": 4,
@@ -2290,11 +2293,11 @@
           "😁": 1,
           "🎡": 115,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 6,
-          "🃏": 356,
-          "♥": 430,
-          "♣": 397,
-          "♠": 366,
-          "♦": 356,
+          "🃏": 358,
+          "♥": 433,
+          "♣": 399,
+          "♠": 367,
+          "♦": 358,
           "🩷": 1,
           "🍗": 1,
           "💞": 1,
@@ -2315,7 +2318,7 @@
           "🎂": 3,
           "🦍": 1,
           "😉": 1,
-          "f11e4f46-3937-4b39-a184-e3ff3bbc460f": 20,
+          "f11e4f46-3937-4b39-a184-e3ff3bbc460f": 21,
           "04080e5d-ecdc-4902-a5ee-8d1a17dfe071": 2,
           "6ce543c2-21fc-465a-9081-fab1b0a9bb01": 8,
           "be4c4f80-63de-4123-b164-4e6bd6f74d3e": 12,
@@ -2353,8 +2356,8 @@
           "🍬": 3,
           "5eee7565-0474-4ac1-88dc-89180ce21325": 1,
           "😴": 1,
-          "16a3e670-dc91-4b4a-a7cf-a6ce361e66a2": 31,
-          "b05156cf-7925-4298-8e19-f29e294cc793": 2,
+          "16a3e670-dc91-4b4a-a7cf-a6ce361e66a2": 32,
+          "b05156cf-7925-4298-8e19-f29e294cc793": 3,
           "c96a6fe5-1123-404c-8768-789f05af7690": 10,
           "23b84aa5-3ac2-4d27-a76d-bbce48c6bea3": 6,
           "0d894430-c7fd-4036-9275-ec213522ff2c": 9,
@@ -2714,48 +2717,48 @@
           "🤧": "🤧"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792168972599
+        "lastChatAt": 1792170929887
       },
       "chatMemory": [
         {
-          "user": "foxbotai",
-          "msg": "Custom command !rules added."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "⚡ 300 VOTES\n🔺 AVAX NFT\n\n🎟️ UNLIMITED ENTRIES\n\nVotes:\n• 1–50 votes = 1 entry\n• 51–100 = 2 entries\n• 101–150 = 3 entries\n• 151–200 = 4 entries\n…and so on. 🚀\n\nSUBS:\n🔥 1 sub = 2x entries\n🔥 5 gifted subs = 3x entries"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard, !convert, !casinoflip heads 10, !casino, !roulette red 10, !crash 10 2.5, !blackjack 10, !hit, !stand, !dice high 10, !slots 10 | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
-        },
-        {
-          "user": "cripiechuccles",
-          "msg": "we here"
-        },
-        {
-          "user": "cripiechuccles",
-          "msg": "lets BLAZEE"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "💜 @cripiechuccles subscribed -- that's a spin on the Sub Prize Wheel! Spinning now... 🎡"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "HUGE THANK YOU @cripiechuccles for subscribing! Welcome to the FoxBot AI family. +500 FoxCoins. Balance: 3565 FoxCoins."
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🎡 @cripiechuccles spun the Sub Prize Wheel and won 500 FoxCoins! 🦊 Balance: 4,065"
-        },
-        {
           "user": "crypt0k1ng96",
-          "msg": "GM @cripiechuccles thank you for the sub!!!"
+          "msg": "[emote:16a3e670-dc91-4b4a-a7cf-a6ce361e66a2]"
         },
         {
-          "user": "crypt0k1ng96",
-          "msg": "Starting in 20 minutes!!!"
+          "user": "tarzan",
+          "msg": "👀"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@tarzan received 250 FoxCoins! New balance: 250 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@tarzan, converted 200 FoxCoins -> 200 promo credits! Casino balance: 200 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎰 @tarzan, 💎 💜 💜 — you lost 25 promo. Balance: 175 promo."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🎰 @tarzan, 💜 💜 💜 — you won 50 promo! Balance: 200 promo."
+        },
+        {
+          "user": "tarzan",
+          "msg": "Lol 😂 I won after gambling, about 150 coin , I got 50"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Custom FoxBot commands: !giveawaylink, !rules"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🃏 @tarzan, dealt: Q♣ 9♦ (19) vs dealer showing 7♥. !hit or !stand?"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "🃏 @tarzan, Q♣ 9♦ (19) vs dealer 7♥ 6♥ 10♠ (23) — you won 50 promo! Balance: 245 promo."
         }
       ],
       "customCommands": {},
@@ -2764,7 +2767,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "GTA 6 NEWS 🌴👀 CASINO GAMES 🎰",
+      "streamTitle": "OTG SOLO TOURNAMENT 🦾🔥 CASINO GAMES 🎰",
       "profile": "crypt0k1ng96: RANKED OTG casino nights, “BLAZE THE DAY” vibes, “SLAY DRAGONS”, “LOVE FEST” moments, wheelspins, giveaways, interactive blackjack, “RAID” cheers. Play till sleep, celebrate with free casino games, giveaways, “Keep your chin up!” energy. Loves off‑grid AVAX summit vibes, packed emotes, OTG crypto fun, weekend enjoyment. Keep your chin up!",
       "_profileAtCount": 14271,
       "gameOverride": "",
@@ -2924,9 +2927,9 @@
         "sound": true,
         "confetti": true
       },
-      "streamCategory": "IRL",
+      "streamCategory": "Off The Grid",
       "isLive": true,
-      "_gameAt": 1792168938878
+      "_gameAt": 1792170857192
     },
     "cef62e02-6fea-468d-9f76-2f4feb1060b7": {
       "username": "thom6ss_otg",
@@ -3923,13 +3926,13 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 45988,
+        "totalVotes": 46053,
         "totalSubs": 99,
-        "totalChatMessages": 18798,
-        "totalStreamMinutes": 11289,
+        "totalChatMessages": 18828,
+        "totalStreamMinutes": 11299,
         "emotes": {
-          "❤": 7143,
-          "🎵": 728,
+          "❤": 7167,
+          "🎵": 731,
           "💃": 320,
           "🔥": 1534,
           "💚": 26,
@@ -3949,7 +3952,7 @@
           "💕": 37,
           "😁": 95,
           "😆": 30,
-          "🐝": 1269,
+          "🐝": 1281,
           "🥷": 4,
           "😃": 4,
           "💪": 45,
@@ -3991,7 +3994,7 @@
           "✅": 1,
           "🤟": 22,
           "🥁": 58,
-          "🫶": 41,
+          "🫶": 44,
           "🩷": 3,
           "🌟": 11,
           "☀": 2,
@@ -4022,7 +4025,7 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": 31,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 69,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
-          "🛀": 1,
+          "🛀": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 8,
           "💙": 2,
           "🎈": 11,
@@ -4377,54 +4380,54 @@
           "🍿": "🍿",
           "🛢": "🛢"
         },
-        "lastChatAt": 1792092261306,
-        "sendFailStreak": 566,
-        "lastSendFailAt": 1792087714169,
+        "lastChatAt": 1792170881154,
+        "sendFailStreak": 567,
+        "lastSendFailAt": 1792170438164,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146,
-        "lastProbeAt": 1792087714011
+        "lastProbeAt": 1792170437992
       },
       "chatMemory": [
         {
           "user": "bee12",
-          "msg": "🐝🐝🐝🐝🐝🐝🐝🐝"
+          "msg": "unccc what is it called please?❤️🐝❤️"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "What is what called?"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "hahaha"
         },
         {
           "user": "bee12",
-          "msg": "true!"
-        },
-        {
-          "user": "sheshi",
-          "msg": "mr. twisted, mr. souls"
+          "msg": "^^^"
         },
         {
           "user": "bee12",
-          "msg": "my nephew has been telling all his mates about robloxxxxxxxx"
+          "msg": "🫶🫶🫶"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "eh! I'll upload it"
         },
         {
           "user": "bee12",
-          "msg": "they've been playing togetherrrrr"
+          "msg": "thanking you!❤️🐝❤️"
         },
         {
           "user": "bee12",
-          "msg": "❤️🐝❤️"
+          "msg": "children of the lightttttttt"
         },
         {
-          "user": "sheshi",
-          "msg": "🔥 OSP STARFALL & ONLY BELIEVE PLAYTEST IS OPEN 🔥\n\nWatching the stream?  \nJump in and play right now 🎮  \nClaim your free turret on STARFALL while it’s live 🛠️\n\n➡️ https://ospstarfall.com/?ref=2FTJ8L\n➡️ https://www.obgen.org/\n\nHave fun Commanders ⚔️"
-        },
-        {
-          "user": "bee12",
-          "msg": "❤️🐝❤️"
+          "user": "twistedtinker",
+          "msg": "Doing good, and you?"
         },
         {
           "user": "bee12",
-          "msg": "❤️❤️❤️❤️❤️❤️❤️❤️"
-        },
-        {
-          "user": "bee12",
-          "msg": "❤️🐝❤️"
+          "msg": "great to hear. I'm good thanks❤️🐝❤️"
         }
       ],
       "customCommands": {},
@@ -4433,7 +4436,7 @@
       "locked": false,
       "botVip": true,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "profile": "Unclefunk’s channel is a funky crew that “earn courage” by watching and playing OSP‑related streams. The chat shouts “💜” and “❤️❤️❤️”, hyping “stream is now live!” and “stream is now offline!” They love “connect your OSP account” for extra courage, and the game “Only Believe” fuels daily hype. The community thrives on shared faith, fasting, and epic song.",
       "_profileAtCount": 18798,
       "loyalty": {
@@ -4562,7 +4565,10 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev! — Music",
       "lastStreamEndedAt": 1792092290817,
-      "_idAt": 1792160483277
+      "_idAt": 1792160483277,
+      "streamCategory": "Music",
+      "isLive": true,
+      "_gameAt": 1792170828109
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -4638,9 +4644,9 @@
       "username": "capt_rob_advent",
       "language": "en",
       "stats": {
-        "totalVotes": 33289,
+        "totalVotes": 33389,
         "totalSubs": 77,
-        "totalChatMessages": 4442,
+        "totalChatMessages": 4443,
         "totalStreamMinutes": 17871,
         "emotes": {
           "😊": 5,
@@ -4748,7 +4754,7 @@
           "🍺": 16,
           "🫶": 5,
           "🙌": 63,
-          "🗳": 429,
+          "🗳": 432,
           "📴": 48,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 165,
           "🔴": 46,
@@ -4969,13 +4975,9 @@
           "7573c501-7624-43cf-9189-0db1f8d22172": "PYROTHESTREAMER"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792165087516
+        "lastChatAt": 1792170724135
       },
       "chatMemory": [
-        {
-          "user": "pittsburghgirl",
-          "msg": "[emote:791e4906-bd84-417a-8d27-d3005d67d960] [emote:599f964f-eb96-4136-b761-5f7c059e7f68]"
-        },
         {
           "user": "capt_rob_advent",
           "msg": "[emote:96d4dc7a-0abd-47ab-bc50-a398dec9bbdf]"
@@ -5011,6 +5013,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @He_Nose just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -5106,7 +5112,7 @@
       "lastStreamInfo": "Heading east bound in Texas to fuel a ship",
       "lastStreamEndedAt": 1792165082202,
       "_idAt": 1792160484265,
-      "_gameAt": 1792164927598,
+      "_gameAt": 1792170724261,
       "isLive": false,
       "streamCategory": ""
     },
@@ -6679,7 +6685,7 @@
       "stats": {
         "totalVotes": 39291,
         "totalSubs": 80,
-        "totalChatMessages": 9018,
+        "totalChatMessages": 9019,
         "totalStreamMinutes": 15873,
         "emotes": {
           "❤": 153,
@@ -7079,14 +7085,10 @@
           "😋": "😋",
           "🎰": "🎰"
         },
-        "lastChatAt": 1792142020157,
+        "lastChatAt": 1792170505209,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cymatrix",
-          "msg": "ok cool if I'm around I'll jump on to give assistance if you need it]"
-        },
         {
           "user": "cymatrix",
           "msg": "yes and multiple versions"
@@ -7122,6 +7124,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @parky!"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "Thanks for the sub gift; you got a  enntry"
         }
       ],
       "customCommands": {},
@@ -7301,7 +7307,10 @@
         "LFG!",
         "Keep BuildingIT!"
       ],
-      "mascotMsgsMix": true
+      "mascotMsgsMix": true,
+      "_gameAt": 1792170505334,
+      "isLive": false,
+      "streamCategory": ""
     },
     "7cbce9d2-1813-4a66-890b-7151b8c96c13": {
       "username": "slothsm",
@@ -10189,7 +10198,7 @@
         "totalVotes": 12195,
         "totalSubs": 209,
         "totalChatMessages": 517,
-        "totalStreamMinutes": 16914,
+        "totalStreamMinutes": 16934,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -11661,7 +11670,7 @@
       "stats": {
         "totalVotes": 36707,
         "totalSubs": 170,
-        "totalChatMessages": 4040,
+        "totalChatMessages": 4041,
         "totalStreamMinutes": 20495,
         "emotes": {
           "❤": 146,
@@ -11892,13 +11901,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792146652342
+        "lastChatAt": 1792170520260
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "Really? You're going to love it"
-        },
         {
           "user": "poorbones",
           "msg": "heya gm hope ur well today"
@@ -11934,6 +11939,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "dofferlive",
+          "msg": "Thanks for the sub gift; you got a  enntry"
         }
       ],
       "customCommands": {},
@@ -12117,7 +12126,10 @@
       },
       "lastStreamInfo": "Continuing Mordor! Say Hi! — Middle-earth: Shadow of Mordor",
       "lastStreamEndedAt": 1792146647219,
-      "_idAt": 1792160498276
+      "_idAt": 1792160498276,
+      "_gameAt": 1792170520362,
+      "isLive": false,
+      "streamCategory": ""
     },
     "4e8116b6-6705-4e00-a83c-c7e455b3a446": {
       "username": "dimifw",
@@ -13767,9 +13779,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 19755,
+        "totalVotes": 19855,
         "totalSubs": 41,
-        "totalChatMessages": 3178,
+        "totalChatMessages": 3180,
         "totalStreamMinutes": 12276,
         "emotes": {
           "❤": 118,
@@ -13781,7 +13793,7 @@
           "💪": 1,
           "💚": 6,
           "🔥": 133,
-          "🗳": 864,
+          "🗳": 867,
           "🤗": 5,
           "📴": 65,
           "🎁": 48,
@@ -13958,17 +13970,9 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792118168569
+        "lastChatAt": 1792170681334
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @jeffronexus!"
-        },
-        {
-          "user": "jeffronexus",
-          "msg": "HI CHAT"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ jeffronexus just followed the channel! Welcome!! 🙌"
@@ -14000,6 +14004,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @Future42!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 100 votes, @He_Nose!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @He_Nose just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -14013,7 +14025,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4e3e8a6e-187e-4044-ac4b-00376f4dd2b2.gif",
       "profile": "angge_wf’s chill stream: “gm gm gm gm gm” greets mornings, “magadga umaga” vibes echo, and “VOTE ALERT” moments spark. Celebrate subs with “❤️”, hype with “🤩🤩🤩”. Sub gifts trigger “🎁 GIFTED SUB!!”. New followers get “❤️ NEW FOLLOWER!!”. Friendly banter, emojis, quick shoutouts, spontaneous “VOTE ALERT”, “magadga umaga”, and “gm gm gm gm gm” greetings keep the community buzzing.",
       "_profileAtCount": 3175,
-      "streamTitle": "Short stream - Support 🔥🎮 — VALORANT",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "botVip": true,
@@ -14093,7 +14105,10 @@
           "tier": 1
         }
       },
-      "_idAt": 1792160501261
+      "_idAt": 1792160501261,
+      "_gameAt": 1792170679566,
+      "isLive": false,
+      "streamCategory": ""
     },
     "bc5bdd90-db42-4614-af7e-0df7e584b647": {
       "username": "ruri666",
@@ -17288,8 +17303,8 @@
       "stats": {
         "totalVotes": 8326,
         "totalSubs": 29,
-        "totalChatMessages": 1327,
-        "totalStreamMinutes": 14422,
+        "totalChatMessages": 1329,
+        "totalStreamMinutes": 14442,
         "emotes": {
           "❤": 75,
           "🙌": 64,
@@ -17318,7 +17333,7 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 22,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 5,
           "😋": 1,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 26,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 27,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 7,
           "😊": 1,
           "07de98c1-b682-4d82-b630-774474b712cc": 2,
@@ -17333,7 +17348,7 @@
           "🤣": 1,
           "💖": 2,
           "😢": 1,
-          "a80b8258-7a03-4aed-95f8-19ab819775c7": 3,
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": 4,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 6,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
           "🍀": 10,
@@ -17407,17 +17422,9 @@
           "c600ade4-93cb-4118-a13c-b786761b45f8": "BRIGHTESTPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792169080085
+        "lastChatAt": 1792169980238
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "just lurking a bit"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "ggs"
-        },
         {
           "user": "dofferlive",
           "msg": "nnoooooooo way"
@@ -17449,6 +17456,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: 1000 votes giveaway| OTG|! Come hang out and watch."
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
         }
       ],
       "customCommands": {
@@ -17552,7 +17567,7 @@
       "_idAt": 1792160507264,
       "streamCategory": "Off The Grid",
       "isLive": true,
-      "_gameAt": 1792169079771
+      "_gameAt": 1792169977847
     },
     "6f4e76b7-2f2d-4459-9343-97ed459cbf91": {
       "username": "clutchking",
