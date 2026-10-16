@@ -3319,16 +3319,16 @@
       "stats": {
         "totalVotes": 27364,
         "totalSubs": 107,
-        "totalChatMessages": 8708,
-        "totalStreamMinutes": 26047,
+        "totalChatMessages": 8711,
+        "totalStreamMinutes": 26059,
         "emotes": {
           "❤": 239,
           "🙌": 200,
           "🗳": 1254,
           "📴": 219,
           "👋": 249,
-          "🔴": 214,
-          "🎉": 338,
+          "🔴": 215,
+          "🎉": 339,
           "🏆": 22,
           "🤗": 42,
           "💎": 7,
@@ -3365,7 +3365,7 @@
           "☠": 9,
           "💙": 2,
           "🩷": 1,
-          "🎰": 19,
+          "🎰": 20,
           "😜": 12,
           "😀": 9,
           "🤘": 7,
@@ -3405,7 +3405,7 @@
           "🙃": 32,
           "😒": 1,
           "😔": 3,
-          "🎮": 2,
+          "🎮": 3,
           "😓": 1,
           "😲": 1,
           "🤠": 2,
@@ -3497,7 +3497,9 @@
           "💦": 3,
           "🍑": 1,
           "🦩": 1,
-          "🤔": 4
+          "🤔": 4,
+          "🦈": 1,
+          "🖤": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -3675,24 +3677,14 @@
           "💦": "💦",
           "🍑": "🍑",
           "🦩": "🦩",
-          "🤔": "🤔"
+          "🤔": "🤔",
+          "🦈": "🦈",
+          "🖤": "🖤"
         },
-        "lastChatAt": 1792175566654,
+        "lastChatAt": 1792193950962,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @Zer0Cache just gifted a sub to @PaniPeys! How generous!! 🙌"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Is this where I can find the Hero?"
-        },
-        {
-          "user": "briggsy",
-          "msg": "I don't see any villains here at all."
-        },
         {
           "user": "agent00zani",
           "msg": "sometimes the Deer is the Villan to the grass ,.... and the lion is the hero"
@@ -3720,6 +3712,18 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @bronzeagle!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 🦈 Villain or Hero? Hunt the Z man🖤 | 🎮 Just Games | 🎰 150 Votes Raffle LIVE!! Come hang out and watch."
+        },
+        {
+          "user": "zsoltech",
+          "msg": "lets go zani"
         }
       ],
       "customCommands": {
@@ -3732,7 +3736,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "🦈 Villain or Hero? Hunt the Z man🖤 | 🎮 Just Games | 🎰 150 Votes Raffle LIVE!",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty” and massive emote showers.",
       "_profileAtCount": 8695,
       "loyalty": {
@@ -3936,9 +3940,9 @@
         }
       },
       "_idAt": 1792184446943,
-      "_gameAt": 1792175566758,
-      "isLive": false,
-      "streamCategory": ""
+      "_gameAt": 1792193951050,
+      "isLive": true,
+      "streamCategory": "Games + Demos"
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
@@ -4664,8 +4668,8 @@
       "stats": {
         "totalVotes": 33389,
         "totalSubs": 77,
-        "totalChatMessages": 4448,
-        "totalStreamMinutes": 17912,
+        "totalChatMessages": 4449,
+        "totalStreamMinutes": 17932,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -4993,13 +4997,9 @@
           "7573c501-7624-43cf-9189-0db1f8d22172": "PYROTHESTREAMER"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792192139081
+        "lastChatAt": 1792193551162
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "lets goooooooo"
-        },
         {
           "user": "cactus_jack440",
           "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
@@ -5035,6 +5035,10 @@
         {
           "user": "cactus_jack440",
           "msg": "[emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c]"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "back"
         }
       ],
       "customCommands": {},
@@ -5130,7 +5134,7 @@
       "lastStreamInfo": "Heading east bound in Texas to fuel a ship",
       "lastStreamEndedAt": 1792165082202,
       "_idAt": 1792184450524,
-      "_gameAt": 1792192139227,
+      "_gameAt": 1792193551284,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -7337,7 +7341,7 @@
         "totalVotes": 9454,
         "totalSubs": 86,
         "totalChatMessages": 955,
-        "totalStreamMinutes": 23026,
+        "totalStreamMinutes": 23046,
         "emotes": {
           "❤": 132,
           "🙌": 42,
@@ -9914,7 +9918,7 @@
         "totalVotes": 22145,
         "totalSubs": 70,
         "totalChatMessages": 2736,
-        "totalStreamMinutes": 21900,
+        "totalStreamMinutes": 21920,
         "emotes": {
           "🔥": 804,
           "🔴": 200,
@@ -14667,16 +14671,16 @@
       "stats": {
         "totalVotes": 18383,
         "totalSubs": 29,
-        "totalChatMessages": 38726,
-        "totalStreamMinutes": 21375,
+        "totalChatMessages": 38789,
+        "totalStreamMinutes": 21388,
         "emotes": {
           "❤": 143,
           "🙌": 111,
           "🤝": 4,
           "🔥": 61,
-          "🔴": 119,
-          "🎉": 284,
-          "🪙": 994,
+          "🔴": 120,
+          "🎉": 285,
+          "🪙": 995,
           "⚡": 829,
           "👀": 90,
           "🍿": 21,
@@ -14797,7 +14801,7 @@
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 1,
           "👂": 2,
           "🙂": 1,
-          "🥇": 82,
+          "🥇": 83,
           "😞": 1,
           "💕": 5,
           "😗": 1,
@@ -14850,9 +14854,9 @@
           "60967948-8805-42ef-a202-051d2e2f1557": 1,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 1,
           "🥺": 2,
-          "🥈": 81,
-          "🥉": 81,
-          "⭐": 242,
+          "🥈": 82,
+          "🥉": 82,
+          "⭐": 243,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 5,
           "✊": 2,
           "✋": 2,
@@ -15086,48 +15090,48 @@
           "😃": "😃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792179298460
+        "lastChatAt": 1792193986647
       },
       "chatMemory": [
         {
-          "user": "lovemikami",
-          "msg": "Lipuxo"
+          "user": "1willchicao",
+          "msg": "Cheguei"
         },
         {
-          "user": "lovemikami",
-          "msg": "Liperino"
+          "user": "mauhzera",
+          "msg": "Salve Will"
         },
         {
-          "user": "sarinhaa11",
-          "msg": "ja liguei"
+          "user": "kwinchester",
+          "msg": "Kkkkkkkk hoje eu vou passar"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Hj tem neh kkkkkkk"
+        },
+        {
+          "user": "1willchicao",
+          "msg": "Salve"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "De boas Winy"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "Esse povo ta rico olha Lipe 7 dolar"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Povo rico neh kkkkkkk"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "Só se eu der meu dinheiro tudo kkk"
         },
         {
           "user": "botger",
-          "msg": "⚡ lovemikami: Level 16 | 99,943 XP (5,988 to Level 17)"
-        },
-        {
-          "user": "botger",
-          "msg": "🪙 @brunoseven 4,875 points."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "botger",
-          "msg": "loja do canal: https://botger.devely.ca/shop/sofrenciaplay"
-        },
-        {
-          "user": "botger",
-          "msg": "🏆 Gorjetas — esta época: 1. @blazeboost $10.00 · 2. @LipeMan $7.00 · 3. @sarinhaa11 $6.00 · 4. @mauhzera $5.00 · 5. @kwinchester $3.00 · 6. @rechigamer $3.00 · 7. @lovemikami $3.00 · 8. @junior7_ $2.00"
-        },
-        {
-          "user": "botger",
-          "msg": "🏆 Votos — esta época: 1. @lobosolitario 503 · 2. @LipeMan 152 · 3. @lovemikami 100 · 4. @michelle 83 · 5. @junior7_ 81 · 6. @mauhzera 50 · 7. @Future42 50 · 8. @sarinhaa11 40 · 9. @rechigamer 37 · 10. @kwinchester 20"
-        },
-        {
-          "user": "botger",
-          "msg": "Valor de blaze no site: https://www.coingecko.com/pt-br/moedas/blaze-3?chart=type%3Dprice%26mode%3Dline%26timeframe%3Dd7"
+          "msg": "🥇Top 1 - 500 blaze - 🥈Top 2 - 300 blaze - 🥉Top 3 - 200 blaze - Os top 3 doadores de blaze diário ganham blaze de segunda a sabado e vai pra sua carteira / Em caso de empate vai ter sorteio."
         }
       ],
       "customCommands": {},
@@ -15140,7 +15144,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
-      "streamTitle": "",
+      "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer",
       "profile": "sofrenciaplay cranks 1h30m Retro marathons, especially Donkey Kong Country. The chat roars “JOGA SEU JOGO,” celebrates “torradas,” chants “GG” after every win, hyping “Juntos Pelo Lipe” style support. They love “pro player” tags, kaizo‑style jokes, and end streams with “Edao e galera” gratitude. Retro, teamwork, relentless cheers define the vibe.",
       "_profileAtCount": 38720,
       "gameOverride": "",
@@ -15270,9 +15274,9 @@
         }
       },
       "_idAt": 1792186689629,
-      "_gameAt": 1792179298571,
-      "isLive": false,
-      "streamCategory": ""
+      "_gameAt": 1792193885544,
+      "isLive": true,
+      "streamCategory": "Retro"
     },
     "c6f961d4-99d9-43a9-af38-8f62a07c68f9": {
       "username": "guney",
@@ -20329,7 +20333,7 @@
         "totalVotes": 2027,
         "totalSubs": 3,
         "totalChatMessages": 154,
-        "totalStreamMinutes": 7426,
+        "totalStreamMinutes": 7446,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -21203,7 +21207,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 5742,
+        "totalStreamMinutes": 5762,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
