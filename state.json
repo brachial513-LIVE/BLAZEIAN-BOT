@@ -2154,8 +2154,8 @@
       "stats": {
         "totalVotes": 43124,
         "totalSubs": 268,
-        "totalChatMessages": 14453,
-        "totalStreamMinutes": 34181,
+        "totalChatMessages": 14455,
+        "totalStreamMinutes": 34194,
         "emotes": {
           "📊": 3,
           "🔥": 619,
@@ -2727,13 +2727,9 @@
           "🤧": "🤧"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792184374947
+        "lastChatAt": 1792188251090
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:90a79666-6a1e-4bbf-9027-28b1ed6b7dc2]"
-        },
         {
           "user": "aleksaflamingo",
           "msg": "Justin Bieber Baby"
@@ -2769,6 +2765,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "[emote:5ba97ddb-ee75-44d4-aade-9bcb444fda7a]"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
         }
       ],
       "customCommands": {},
@@ -2777,7 +2777,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "UNDERDOGS 2 OTG TOURNAMENT 🦾🔥 CASINO GAMES 🎰",
+      "streamTitle": "",
       "profile": "crypt0k1ng96: OTG casino nights, “BLAZE THE DAY” vibes, “SLAY DRAGONS”, “LOVE FEST” moments, wheelspins, giveaways, interactive blackjack, “RAID” cheers. Play till sleep, celebrate with free casino games, giveaways, “Keep your chin up!” energy. Loves off‑grid AVAX summit vibes, packed emotes, OTG crypto fun, weekend enjoyment. Keep your chin up!",
       "_profileAtCount": 14417,
       "gameOverride": "",
@@ -2785,8 +2785,8 @@
       "nudgedAt": 1785001902195,
       "nudgedKey": "schedule",
       "commentMode": "heavy",
-      "lastStreamInfo": "2ND ANNIVERSARY EVENT W/ COSMIC 🦾🔥 CASINO GAMES 🎰 — Off The Grid",
-      "lastStreamEndedAt": 1792094260791,
+      "lastStreamInfo": "UNDERDOGS 2 OTG TOURNAMENT 🦾🔥 CASINO GAMES 🎰",
+      "lastStreamEndedAt": 1792188214169,
       "loyalty": {
         "mpfeiffer": {
           "name": "mpfeiffer",
@@ -2942,9 +2942,9 @@
         "sound": true,
         "confetti": true
       },
-      "streamCategory": "Off The Grid",
-      "isLive": true,
-      "_gameAt": 1792184375052
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792188242461
     },
     "cef62e02-6fea-468d-9f76-2f4feb1060b7": {
       "username": "thom6ss_otg",
@@ -7663,7 +7663,7 @@
         "totalVotes": 20468,
         "totalSubs": 58,
         "totalChatMessages": 1835,
-        "totalStreamMinutes": 7482,
+        "totalStreamMinutes": 7502,
         "emotes": {
           "❤": 92,
           "🙌": 83,
@@ -11192,12 +11192,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 14140,
-        "totalSubs": 93,
-        "totalChatMessages": 908,
+        "totalSubs": 94,
+        "totalChatMessages": 910,
         "totalStreamMinutes": 5466,
         "emotes": {
           "❤": 36,
-          "🙌": 112,
+          "🙌": 113,
           "🔴": 22,
           "🎉": 28,
           "📴": 22,
@@ -11205,7 +11205,7 @@
           "🗳": 102,
           "🎁": 148,
           "🤗": 1,
-          "🔥": 43,
+          "🔥": 45,
           "💚": 7,
           "🤔": 1,
           "😇": 2,
@@ -11266,17 +11266,9 @@
           "🙄": "🙄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792011531610
+        "lastChatAt": 1792187681619
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @snollken has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@snollken subscribed! Thank you!"
-        },
         {
           "user": "scurvybot",
           "msg": "@tai_ subscribed! Thank you!"
@@ -11308,6 +11300,14 @@
         {
           "user": "scurvybot",
           "msg": "@CPFnaN0T4 subscribed! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@slothsm subscribed! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @slothsm has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -11380,7 +11380,7 @@
         },
         "slothsm": {
           "name": "slothsm",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "thekingofc": {
@@ -11389,7 +11389,10 @@
           "tier": 1
         }
       },
-      "_idAt": 1792186689628
+      "_idAt": 1792186689628,
+      "_gameAt": 1792187681715,
+      "isLive": false,
+      "streamCategory": ""
     },
     "d415dbbe-f2bf-4a91-b670-2e41987b6660": {
       "username": "parky",
@@ -12765,16 +12768,16 @@
       "joinedAt": 1784461195472,
       "stats": {
         "totalVotes": 37461,
-        "totalSubs": 70,
-        "totalChatMessages": 2610,
+        "totalSubs": 71,
+        "totalChatMessages": 2611,
         "totalStreamMinutes": 3162,
         "emotes": {
           "😂": 106,
           "💪": 2,
           "💚": 14,
           "😎": 1,
-          "🔥": 75,
-          "🙌": 106,
+          "🔥": 77,
+          "🙌": 107,
           "🙃": 1,
           "😄": 4,
           "❤": 121,
@@ -13021,13 +13024,9 @@
           "🔫": "🔫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792086024900
+        "lastChatAt": 1792188254761
       },
       "chatMemory": [
-        {
-          "user": "badger",
-          "msg": "Hiiii"
-        },
         {
           "user": "botger",
           "msg": "I WILL CUT YOU!"
@@ -13063,6 +13062,10 @@
         {
           "user": "future42",
           "msg": "Have a Great Weekend!!!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @mindgoblin has resubscribed (5 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -13085,7 +13088,7 @@
         },
         "mindgoblin": {
           "name": "mindgoblin",
-          "months": 2,
+          "months": 3,
           "tier": 1
         },
         "noxx": {
@@ -13219,7 +13222,10 @@
       "commentMode": "silent",
       "lastStreamInfo": "PHASMO WITH DEBEE AND NOXI — Phasmophobia",
       "lastStreamEndedAt": 1792077686580,
-      "_idAt": 1792186689629
+      "_idAt": 1792186689629,
+      "_gameAt": 1792188254864,
+      "isLive": false,
+      "streamCategory": ""
     },
     "c72497f7-8e71-4205-840b-58406a94e378": {
       "username": "venom2610",
@@ -20312,7 +20318,7 @@
         "totalVotes": 2027,
         "totalSubs": 3,
         "totalChatMessages": 154,
-        "totalStreamMinutes": 7336,
+        "totalStreamMinutes": 7356,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -21186,7 +21192,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 5652,
+        "totalStreamMinutes": 5672,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -23104,8 +23110,8 @@
     },
     "nadietv": {
       "note": "Enjoys playing Dawn of Battle, Path of Exile 2, and Dota, loves folk and progressive metal, and chats with playful, light‑hearted humor.",
-      "at": 1792035229318,
-      "n": 48
+      "at": 1792187509046,
+      "n": 49
     },
     "johngalt": {
       "note": "Enjoys playing Fortnite and pyros, loves lighthearted humor, and often shares casual, playful messages.",
