@@ -3320,7 +3320,7 @@
         "totalVotes": 27399,
         "totalSubs": 107,
         "totalChatMessages": 8803,
-        "totalStreamMinutes": 26218,
+        "totalStreamMinutes": 26223,
         "emotes": {
           "❤": 239,
           "🙌": 200,
@@ -8107,7 +8107,7 @@
         "totalVotes": 0,
         "totalSubs": 8,
         "totalChatMessages": 227,
-        "totalStreamMinutes": 532,
+        "totalStreamMinutes": 536,
         "emotes": {
           "🎶": 1,
           "😀": 1,
@@ -8212,7 +8212,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/e2392a5a-55fb-44e7-8516-fbc156fc26c6.png",
-      "streamTitle": "",
+      "streamTitle": "FF 14 Online MSQ",
       "gameOverride": "",
       "lastStreamInfo": "New on Blaze, try  to get Verified  l Switch 2",
       "lastStreamEndedAt": 1792186956196,
@@ -8263,9 +8263,9 @@
           "tier": 1
         }
       },
-      "_gameAt": 1792185977549,
-      "isLive": false,
-      "streamCategory": ""
+      "_gameAt": 1792230367843,
+      "isLive": true,
+      "streamCategory": "FINAL FANTASY XIV Online"
     },
     "25b30dc5-23f5-4bea-94ce-ba178c73c022": {
       "username": "time",
@@ -15754,14 +15754,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 36997,
+        "totalVotes": 37047,
         "totalSubs": 60,
-        "totalChatMessages": 7191,
+        "totalChatMessages": 7193,
         "totalStreamMinutes": 12495,
         "emotes": {
           "❤": 114,
           "🙌": 108,
-          "🗳": 1143,
+          "🗳": 1146,
           "🔴": 96,
           "🎉": 177,
           "🏃": 1,
@@ -16105,17 +16105,9 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792214673634
+        "lastChatAt": 1792230584798
       },
       "chatMemory": [
-        {
-          "user": "timdraws",
-          "msg": "look for somewhere to hide"
-        },
-        {
-          "user": "timdraws",
-          "msg": "like the building"
-        },
         {
           "user": "timdraws",
           "msg": "nice"
@@ -16147,6 +16139,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 35 votes, @poordao!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @_VladEnzo!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @_VladEnzo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -16361,7 +16361,7 @@
       },
       "commentMode": "silent",
       "_idAt": 1792212050537,
-      "_gameAt": 1792214673780,
+      "_gameAt": 1792230582912,
       "isLive": false,
       "streamCategory": ""
     },
@@ -18520,7 +18520,7 @@
         "totalVotes": 16962,
         "totalSubs": 103,
         "totalChatMessages": 1001,
-        "totalStreamMinutes": 4045,
+        "totalStreamMinutes": 4050,
         "emotes": {
           "❤": 88,
           "🙌": 142,
@@ -24251,8 +24251,8 @@
     }
   },
   "auth": {
-    "accessToken": "88d57874141c1676ea3a6dd5bda9a3ae",
-    "refreshToken": "d8fda42ec768718bf8c779c65357a93f",
+    "accessToken": "a45aedf9dbcee162eb1b73f5c19af64a",
+    "refreshToken": "de37acea8c304852527dafff080b66db",
     "sessionToken": "5ae89aee480c1ea438f3354295a61f3a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
