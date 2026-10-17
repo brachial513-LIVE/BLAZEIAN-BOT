@@ -1538,7 +1538,7 @@
       "stats": {
         "totalVotes": 33669,
         "totalSubs": 79,
-        "totalChatMessages": 41767,
+        "totalChatMessages": 41775,
         "totalStreamMinutes": 3857,
         "emotes": {
           "🔥": 2247,
@@ -1547,7 +1547,7 @@
           "🎉": 372,
           "😍": 141,
           "❤": 66,
-          "🚢": 22,
+          "🚢": 23,
           "⏰": 1642,
           "🔜": 1281,
           "💀": 661,
@@ -1595,7 +1595,7 @@
           "👍": 3,
           "🥔": 2100,
           "🔄": 384,
-          "🤖": 171,
+          "🤖": 172,
           "😏": 85,
           "❌": 22,
           "🙃": 13,
@@ -1878,7 +1878,7 @@
           "🙂": "🙂",
           "↕": "↕"
         },
-        "lastChatAt": 1792272767164,
+        "lastChatAt": 1792273781460,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1886,22 +1886,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 You have the potato! Type !toss! 🥔🔥"
-        },
         {
           "user": "blazegames_bot",
           "msg": "💀 jt_squared2 has been eliminated! 3 players remaining."
@@ -1925,6 +1909,22 @@
         {
           "user": "blazegames_bot",
           "msg": "🏆 WINNER: QuickStar3! 🎉 Survived 3 rounds! Congratulations! 🎊"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🚢 Battleship starting in 100 seconds! Type !join to play!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🤖 Added 3 bot(s) to the game! 3 player(s) ready."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@botger has been added to the game by the streamer! 4 player(s) now."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@botger has been removed from the game by the streamer."
         }
       ],
       "customCommands": {},
@@ -2151,7 +2151,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792251652959,
-      "_gameAt": 1792272593340,
+      "_gameAt": 1792273760952,
       "isLive": false,
       "streamCategory": ""
     },
@@ -2162,7 +2162,7 @@
         "totalVotes": 43224,
         "totalSubs": 274,
         "totalChatMessages": 14644,
-        "totalStreamMinutes": 34441,
+        "totalStreamMinutes": 34446,
         "emotes": {
           "📊": 3,
           "🔥": 625,
@@ -3327,7 +3327,7 @@
         "totalVotes": 27427,
         "totalSubs": 110,
         "totalChatMessages": 8878,
-        "totalStreamMinutes": 26741,
+        "totalStreamMinutes": 26746,
         "emotes": {
           "❤": 243,
           "🙌": 205,
@@ -5341,7 +5341,7 @@
         "totalVotes": 14558,
         "totalSubs": 58,
         "totalChatMessages": 2295,
-        "totalStreamMinutes": 12506,
+        "totalStreamMinutes": 12511,
         "emotes": {
           "✨": 49,
           "🖥": 24,
@@ -5738,14 +5738,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 42307,
+        "totalVotes": 42505,
         "totalSubs": 128,
-        "totalChatMessages": 14725,
+        "totalChatMessages": 14726,
         "totalStreamMinutes": 9190,
         "emotes": {
           "❤": 265,
           "🙌": 411,
-          "🗳": 1826,
+          "🗳": 1829,
           "✌": 11,
           "😊": 10,
           "👍": 19,
@@ -6313,13 +6313,9 @@
           "🫴": "🫴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792248797284
+        "lastChatAt": 1792273554271
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "gn"
-        },
         {
           "user": "lostsnow",
           "msg": "heeey Briggsy"
@@ -6355,6 +6351,10 @@
         {
           "user": "kupid",
           "msg": "Hey fam"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 198 vote(s) (total: 500)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6566,7 +6566,7 @@
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
       "_idAt": 1792252855374,
-      "_gameAt": 1792248797412,
+      "_gameAt": 1792273554363,
       "isLive": false,
       "streamCategory": ""
     },
@@ -9126,7 +9126,7 @@
         "totalVotes": 17448,
         "totalSubs": 51,
         "totalChatMessages": 835,
-        "totalStreamMinutes": 7980,
+        "totalStreamMinutes": 7985,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -14799,8 +14799,8 @@
       "stats": {
         "totalVotes": 18492,
         "totalSubs": 30,
-        "totalChatMessages": 41251,
-        "totalStreamMinutes": 22127,
+        "totalChatMessages": 41269,
+        "totalStreamMinutes": 22132,
         "emotes": {
           "❤": 149,
           "🙌": 117,
@@ -14984,7 +14984,7 @@
           "🥺": 2,
           "🥈": 97,
           "🥉": 97,
-          "⭐": 288,
+          "⭐": 289,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 8,
           "✊": 2,
           "✋": 2,
@@ -15222,48 +15222,48 @@
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": "JOYFULLPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792273546805
+        "lastChatAt": 1792273814412
       },
       "chatMemory": [
         {
           "user": "lovemikami",
-          "msg": "se tu puder na outra semana éden, tive pensando, no primeiro jogo assim que começar a maratona, ai tu se programa, toma cafpe"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "café"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "simm Lipe"
+          "msg": "pode ir no amador? kkkkkkkkk"
         },
         {
           "user": "lipeman",
-          "msg": "kkkkkkkk"
+          "msg": "iiiiiiiiiii"
         },
         {
           "user": "lovemikami",
-          "msg": "top gear 1"
+          "msg": "zueira kkkkkk"
         },
         {
           "user": "lovemikami",
-          "msg": "aham"
+          "msg": "top gear só vou no profissional ou championship"
         },
         {
           "user": "lipeman",
-          "msg": "top kaizo"
+          "msg": "o Rechão vai pegar o bracelete e voltar tudo de novo"
         },
         {
           "user": "lipeman",
-          "msg": "kkkkkkk"
+          "msg": "kkkkkkkkk"
+        },
+        {
+          "user": "botger",
+          "msg": "⭐️Tem 4.000 blaze na loja pra resgatar com seus pontos, vai ficar disponível por 1 semana se ninguém resgatar reseta na próxima semana, 30.000 pontos resgata 400 blaze"
         },
         {
           "user": "lovemikami",
-          "msg": "e tu já compra o pão no dia anterior"
+          "msg": "ahhh não"
         },
         {
-          "user": "solucao",
-          "msg": "Crash 1"
+          "user": "lovemikami",
+          "msg": "num é ghosti ghosti não kkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "uaaaaaaaa"
         }
       ],
       "customCommands": {},
@@ -15406,7 +15406,7 @@
         }
       },
       "_idAt": 1792256449380,
-      "_gameAt": 1792273375209,
+      "_gameAt": 1792273750966,
       "isLive": true,
       "streamCategory": "Retro"
     },
@@ -16681,7 +16681,7 @@
         "totalVotes": 11950,
         "totalSubs": 43,
         "totalChatMessages": 223,
-        "totalStreamMinutes": 2616,
+        "totalStreamMinutes": 2621,
         "emotes": {
           "❤": 5,
           "🙌": 1,
@@ -17532,7 +17532,7 @@
         "totalVotes": 8480,
         "totalSubs": 30,
         "totalChatMessages": 1350,
-        "totalStreamMinutes": 14668,
+        "totalStreamMinutes": 14673,
         "emotes": {
           "❤": 75,
           "🙌": 65,
@@ -19574,7 +19574,7 @@
         "totalVotes": 7930,
         "totalSubs": 36,
         "totalChatMessages": 4618,
-        "totalStreamMinutes": 15309,
+        "totalStreamMinutes": 15314,
         "emotes": {
           "👋": 107,
           "⚠": 2,
@@ -21410,7 +21410,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 5842,
+        "totalStreamMinutes": 5847,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -22598,7 +22598,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 5763,
+        "totalStreamMinutes": 5768,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -24408,8 +24408,8 @@
     }
   },
   "auth": {
-    "accessToken": "170d2048f5da027b17a570c89b8f1ae8",
-    "refreshToken": "7ecc549d983d6698b52c1b2987464229",
+    "accessToken": "0b25833692856d58057d548179c38ed9",
+    "refreshToken": "9ed626c68e3e4aa2e7e3672030f69ba0",
     "sessionToken": "a821810bc5c440e6ac8936481c3c827e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
