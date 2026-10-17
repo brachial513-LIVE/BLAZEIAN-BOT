@@ -5714,8 +5714,8 @@
       "stats": {
         "totalVotes": 42267,
         "totalSubs": 127,
-        "totalChatMessages": 14617,
-        "totalStreamMinutes": 8995,
+        "totalChatMessages": 14620,
+        "totalStreamMinutes": 9000,
         "emotes": {
           "❤": 264,
           "🙌": 409,
@@ -5724,10 +5724,10 @@
           "😊": 10,
           "👍": 19,
           "🔴": 18,
-          "🎉": 173,
+          "🎉": 174,
           "📴": 18,
           "👋": 30,
-          "⚡": 99,
+          "⚡": 100,
           "😂": 193,
           "😍": 37,
           "🔥": 300,
@@ -6285,21 +6285,9 @@
           "🤝": "🤝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792211243190
+        "lastChatAt": 1792211657415
       },
       "chatMemory": [
-        {
-          "user": "francisftlp",
-          "msg": "woaaaahhh"
-        },
-        {
-          "user": "badger",
-          "msg": "beautiful work!!"
-        },
-        {
-          "user": "francisftlp",
-          "msg": "thank you, thank you, thank you"
-        },
         {
           "user": "francisftlp",
           "msg": "[emote:d68ad830-a1ed-44f9-81e4-83f2e2785ce9] [emote:d68ad830-a1ed-44f9-81e4-83f2e2785ce9] [emote:d68ad830-a1ed-44f9-81e4-83f2e2785ce9]"
@@ -6327,6 +6315,18 @@
         {
           "user": "botger",
           "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "5 minute"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "of free remote session access left"
+        },
+        {
+          "user": "botger",
+          "msg": "🎉 lvl4goblin just reached Level 3! ⚡ (3,651 XP)"
         }
       ],
       "customCommands": {},
@@ -6538,7 +6538,7 @@
       "lastStreamInfo": "Evening fun - what will we do?",
       "lastStreamEndedAt": 1792173410377,
       "_idAt": 1792207255331,
-      "_gameAt": 1792211237966,
+      "_gameAt": 1792211625753,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -20355,7 +20355,7 @@
         "totalVotes": 2027,
         "totalSubs": 4,
         "totalChatMessages": 165,
-        "totalStreamMinutes": 7736,
+        "totalStreamMinutes": 7741,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -24222,8 +24222,8 @@
     }
   },
   "auth": {
-    "accessToken": "6fd35e40a3aefd744cde5c558ac55312",
-    "refreshToken": "46059e6e49c616abea4d4dcf57a4c54a",
+    "accessToken": "0dbd229cb4f712928fc0a724f5d9b9c1",
+    "refreshToken": "1f5a4d2225a851bd4738c9c9da4cddbb",
     "sessionToken": "5ae89aee480c1ea438f3354295a61f3a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
