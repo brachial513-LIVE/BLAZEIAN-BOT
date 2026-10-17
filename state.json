@@ -3319,16 +3319,16 @@
       "stats": {
         "totalVotes": 27399,
         "totalSubs": 107,
-        "totalChatMessages": 8801,
-        "totalStreamMinutes": 26216,
+        "totalChatMessages": 8803,
+        "totalStreamMinutes": 26218,
         "emotes": {
           "❤": 239,
           "🙌": 200,
           "🗳": 1257,
           "📴": 221,
           "👋": 251,
-          "🔴": 216,
-          "🎉": 341,
+          "🔴": 217,
+          "🎉": 342,
           "🏆": 22,
           "🤗": 42,
           "💎": 7,
@@ -3365,7 +3365,7 @@
           "☠": 9,
           "💙": 2,
           "🩷": 1,
-          "🎰": 21,
+          "🎰": 22,
           "😜": 12,
           "😀": 9,
           "🤘": 7,
@@ -3405,7 +3405,7 @@
           "🙃": 32,
           "😒": 1,
           "😔": 3,
-          "🎮": 4,
+          "🎮": 5,
           "😓": 1,
           "😲": 1,
           "🤠": 2,
@@ -3498,8 +3498,8 @@
           "🍑": 1,
           "🦩": 1,
           "🤔": 4,
-          "🦈": 2,
-          "🖤": 2
+          "🦈": 3,
+          "🖤": 3
         },
         "emoteNames": {
           "❤": "❤",
@@ -3681,18 +3681,10 @@
           "🦈": "🦈",
           "🖤": "🖤"
         },
-        "lastChatAt": 1792203538972,
+        "lastChatAt": 1792230188536,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: 🦈 Villain or Hero? Hunt the Z man🖤 | 🎮 Just Games | 🎰 150 Votes Raffle LIVE!! Come hang out and watch."
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "briggsy",
           "msg": "Woo hoo"
@@ -3724,6 +3716,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 🦈 Chilling hoping the Bros come out to play🖤 | 🎮 Just Games | 🎰 150 Votes Raffle LIVE!! Come hang out and watch."
         }
       ],
       "customCommands": {
@@ -3736,7 +3736,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "🦈 Chilling hoping the Bros come out to play🖤 | 🎮 Just Games | 🎰 150 Votes Raffle LIVE!",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty” and massive emote showers.",
       "_profileAtCount": 8793,
       "loyalty": {
@@ -3939,10 +3939,10 @@
           "dur": 0
         }
       },
-      "_idAt": 1792207246966,
-      "_gameAt": 1792203474519,
-      "isLive": false,
-      "streamCategory": ""
+      "_idAt": 1792230047035,
+      "_gameAt": 1792230188216,
+      "isLive": true,
+      "streamCategory": "Fortnite"
     },
     "55580c93-2db5-488f-aa09-244bb07ec815": {
       "username": "unclefunk",
@@ -4587,7 +4587,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792182378698,
-      "_idAt": 1792207248135,
+      "_idAt": 1792230048154,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792181907458
@@ -4660,7 +4660,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1792207249333
+      "_idAt": 1792230049364
     },
     "c87ed67e-a16e-48e5-af83-6e557f72970e": {
       "username": "capt_rob_advent",
@@ -5133,7 +5133,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Heading to Louisianap to fuel 2 ships",
       "lastStreamEndedAt": 1792196381495,
-      "_idAt": 1792207250540,
+      "_idAt": 1792230050555,
       "_gameAt": 1792196386900,
       "isLive": false,
       "streamCategory": ""
@@ -5309,7 +5309,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792207251735
+      "_idAt": 1792230051759
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -5678,7 +5678,7 @@
       "lastStreamEndedAt": 1792101276870,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792207252932
+      "_idAt": 1792230052960
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -5706,7 +5706,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792207254133
+      "_idAt": 1792230054159
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -6539,7 +6539,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
-      "_idAt": 1792207255331,
+      "_idAt": 1792230055352,
       "_gameAt": 1792223666399,
       "isLive": false,
       "streamCategory": ""
@@ -18520,7 +18520,7 @@
         "totalVotes": 16962,
         "totalSubs": 103,
         "totalChatMessages": 1001,
-        "totalStreamMinutes": 4025,
+        "totalStreamMinutes": 4045,
         "emotes": {
           "❤": 88,
           "🙌": 142,
@@ -20375,7 +20375,7 @@
       "stats": {
         "totalVotes": 2027,
         "totalSubs": 4,
-        "totalChatMessages": 165,
+        "totalChatMessages": 166,
         "totalStreamMinutes": 7780,
         "emotes": {
           "✌": 3,
@@ -20422,13 +20422,9 @@
           "ad8aaf40-9d3d-4840-8a2c-effbde977ad3": "Lilwarriorpanic"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792207855652
+        "lastChatAt": 1792229327840
       },
       "chatMemory": [
-        {
-          "user": "walkthegrid",
-          "msg": "yoyo hi m8 . grid"
-        },
         {
           "user": "walkthegrid",
           "msg": "chill'n watching"
@@ -20464,6 +20460,10 @@
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "walkthegrid",
+          "msg": "ty"
         }
       ],
       "customCommands": {
@@ -20508,7 +20508,7 @@
       "_idAt": 1792215648132,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792207855730
+      "_gameAt": 1792229327977
     },
     "4b8bfb4c-982c-4710-8864-97fa5ba066ef": {
       "username": "gamergliderride",
