@@ -1538,22 +1538,22 @@
       "stats": {
         "totalVotes": 33669,
         "totalSubs": 79,
-        "totalChatMessages": 41890,
+        "totalChatMessages": 41922,
         "totalStreamMinutes": 3857,
         "emotes": {
           "🔥": 2247,
           "🗳": 32,
           "🔴": 53,
-          "🎉": 372,
+          "🎉": 373,
           "😍": 141,
           "❤": 66,
           "🚢": 24,
           "⏰": 1652,
           "🔜": 1281,
-          "💀": 661,
+          "💀": 664,
           "😘": 3,
-          "🏆": 237,
-          "🎊": 216,
+          "🏆": 238,
+          "🎊": 217,
           "🎰": 31,
           "😰": 216,
           "🍌": 236,
@@ -1878,7 +1878,7 @@
           "🙂": "🙂",
           "↕": "↕"
         },
-        "lastChatAt": 1792275047112,
+        "lastChatAt": 1792275122248,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1888,43 +1888,43 @@
       "chatMemory": [
         {
           "user": "blazegames_bot",
-          "msg": "C2: sunk SharpWarrior59's Destroyer! | sunk jt_squared2's Destroyer!"
+          "msg": "💀 CleverStar75 has been eliminated! 2 players remaining."
         },
         {
           "user": "blazegames_bot",
-          "msg": "jt_squared2 sank jt_squared2's Carrier!"
+          "msg": "SharpWarrior59 sank CleverStar75's Cruiser!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "D5: hit SharpWarrior59! | hit CleverStar75! | sunk jt_squared2's Carrier!"
+          "msg": "D2: sunk CleverStar75's Cruiser!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "D4: hit CleverStar75!"
+          "msg": "G7: Miss!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "E7: hit jt_squared2! | hit LuckyMaster97!"
+          "msg": "H2: Miss!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "D6: Miss!"
+          "msg": "LuckyMaster97 sank SharpWarrior59's Cruiser!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "jt_squared2 sank SharpWarrior59's Battleship!"
+          "msg": "💀 SharpWarrior59 has been eliminated! 1 player remaining."
         },
         {
           "user": "blazegames_bot",
-          "msg": "C5: sunk SharpWarrior59's Battleship! | hit CleverStar75!"
+          "msg": "LuckyMaster97 sank LuckyMaster97's Battleship!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "C4: Miss!"
+          "msg": "H8: sunk SharpWarrior59's Cruiser! | sunk LuckyMaster97's Battleship!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "E6: hit LuckyMaster97!"
+          "msg": "🏆 WINNER: LuckyMaster97! 🎉 Congratulations! 🎊"
         }
       ],
       "customCommands": {},
@@ -2161,8 +2161,8 @@
       "stats": {
         "totalVotes": 43224,
         "totalSubs": 274,
-        "totalChatMessages": 14644,
-        "totalStreamMinutes": 34466,
+        "totalChatMessages": 14645,
+        "totalStreamMinutes": 34486,
         "emotes": {
           "📊": 3,
           "🔥": 625,
@@ -2734,13 +2734,9 @@
           "🤧": "🤧"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792272799544
+        "lastChatAt": 1792276151243
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Should do it!!"
-        },
         {
           "user": "ejotpl",
           "msg": "I will watch your stream to know where are you hidding"
@@ -2776,6 +2772,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Okay"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "i have no idea .... nothing came up"
         }
       ],
       "customCommands": {},
@@ -2951,7 +2951,7 @@
       },
       "streamCategory": "Off The Grid",
       "isLive": true,
-      "_gameAt": 1792272796698
+      "_gameAt": 1792276151337
     },
     "cef62e02-6fea-468d-9f76-2f4feb1060b7": {
       "username": "thom6ss_otg",
@@ -3953,7 +3953,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1792252847003,
+      "_idAt": 1792275647025,
       "_gameAt": 1792274879626,
       "isLive": false,
       "streamCategory": ""
@@ -4606,7 +4606,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792267574019,
-      "_idAt": 1792252848168,
+      "_idAt": 1792275648188,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792267528880
@@ -4679,7 +4679,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1792252849367
+      "_idAt": 1792275649388
     },
     "c87ed67e-a16e-48e5-af83-6e557f72970e": {
       "username": "capt_rob_advent",
@@ -5156,7 +5156,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Standing by in Louisiana to fuel 2 ships",
       "lastStreamEndedAt": 1792251353991,
-      "_idAt": 1792252850574,
+      "_idAt": 1792275650584,
       "_gameAt": 1792251243518,
       "isLive": false,
       "streamCategory": ""
@@ -5332,7 +5332,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792252851775
+      "_idAt": 1792275651785
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -5340,15 +5340,15 @@
       "stats": {
         "totalVotes": 14558,
         "totalSubs": 58,
-        "totalChatMessages": 2295,
-        "totalStreamMinutes": 12531,
+        "totalChatMessages": 2296,
+        "totalStreamMinutes": 12535,
         "emotes": {
           "✨": 49,
           "🖥": 24,
           "🔥": 212,
           "👋": 126,
-          "🎬": 121,
-          "❤": 163,
+          "🎬": 122,
+          "❤": 164,
           "🚨": 10,
           "⚡": 27,
           "🏆": 23,
@@ -5574,14 +5574,10 @@
           "👊": "👊",
           "🤗": "🤗"
         },
-        "lastChatAt": 1792272237096,
+        "lastChatAt": 1792275307857,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
-        },
         {
           "user": "cachebot",
           "msg": "👑 [SUB ALERT]: HUGE hype! @charddxyz just locked in a Tier 1 sub for month 1! Thank you for keeping the dream alive!"
@@ -5617,6 +5613,10 @@
         {
           "user": "agent00zani",
           "msg": "mruder"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -5625,7 +5625,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Wilder World Game Night",
+      "streamTitle": "",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. The channel thrives on relentless energy, magnetic camaraderie, and the thrill of dropping in to new adventures.",
       "_profileAtCount": 2266,
       "loyalty": {
@@ -5697,14 +5697,14 @@
       },
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
-      "lastStreamInfo": "OTG",
-      "lastStreamEndedAt": 1792264647613,
+      "lastStreamInfo": "Wilder World Game Night",
+      "lastStreamEndedAt": 1792275307186,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792252852973,
-      "streamCategory": "Off The Grid",
-      "isLive": true,
-      "_gameAt": 1792272237191
+      "_idAt": 1792275652994,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792275307947
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -5732,7 +5732,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792252854168
+      "_idAt": 1792275654182
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -5740,7 +5740,7 @@
       "stats": {
         "totalVotes": 42505,
         "totalSubs": 128,
-        "totalChatMessages": 14726,
+        "totalChatMessages": 14727,
         "totalStreamMinutes": 9190,
         "emotes": {
           "❤": 265,
@@ -5928,7 +5928,7 @@
           "efd328d1-867a-4afa-9954-a2ddcb50cb41": 37,
           "18ec2e34-50e2-4079-961b-8aac13188d41": 12,
           "51d5d291-383d-4ca1-a27a-6678041b3a66": 44,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 104,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 107,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 12,
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 38,
@@ -6313,13 +6313,9 @@
           "🫴": "🫴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792273554271
+        "lastChatAt": 1792275361168
       },
       "chatMemory": [
-        {
-          "user": "lostsnow",
-          "msg": "heeey Briggsy"
-        },
         {
           "user": "lostsnow",
           "msg": "just coming in to say hi"
@@ -6355,6 +6351,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 198 vote(s) (total: 500)! Thank you!! 🗳️"
+        },
+        {
+          "user": "tenshi",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]  thank you for visiting my stream briggsy"
         }
       ],
       "customCommands": {},
@@ -6565,8 +6565,8 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
-      "_idAt": 1792252855374,
-      "_gameAt": 1792273554363,
+      "_idAt": 1792275655384,
+      "_gameAt": 1792275361262,
       "isLive": false,
       "streamCategory": ""
     },
@@ -14799,8 +14799,8 @@
       "stats": {
         "totalVotes": 18492,
         "totalSubs": 30,
-        "totalChatMessages": 41321,
-        "totalStreamMinutes": 22152,
+        "totalChatMessages": 41348,
+        "totalStreamMinutes": 22172,
         "emotes": {
           "❤": 151,
           "🙌": 118,
@@ -14809,7 +14809,7 @@
           "🔴": 124,
           "🎉": 294,
           "🪙": 1039,
-          "⚡": 872,
+          "⚡": 873,
           "👀": 105,
           "🍿": 22,
           "🤗": 68,
@@ -14829,7 +14829,7 @@
           "😘": 10,
           "😆": 7,
           "🤭": 6,
-          "💰": 179,
+          "💰": 180,
           "☄": 1,
           "😶": 13,
           "🌫": 13,
@@ -14929,7 +14929,7 @@
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 1,
           "👂": 2,
           "🙂": 1,
-          "🥇": 98,
+          "🥇": 99,
           "😞": 1,
           "💕": 5,
           "😗": 1,
@@ -14982,8 +14982,8 @@
           "60967948-8805-42ef-a202-051d2e2f1557": 1,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 1,
           "🥺": 2,
-          "🥈": 97,
-          "🥉": 97,
+          "🥈": 98,
+          "🥉": 98,
           "⭐": 291,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 8,
           "✊": 2,
@@ -15222,48 +15222,48 @@
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": "JOYFULLPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792274993288
+        "lastChatAt": 1792276245585
       },
       "chatMemory": [
         {
-          "user": "rechigamer",
-          "msg": "kkkkkkkkkkkkkk"
+          "user": "lovemikami",
+          "msg": "jogo kaizo"
         },
         {
           "user": "lovemikami",
-          "msg": "kkkkkkkkkkkkk"
-        },
-        {
-          "user": "rechigamer",
-          "msg": "você joga"
-        },
-        {
-          "user": "rechigamer",
-          "msg": "eu ja joguei kkkkkkkkkk"
-        },
-        {
-          "user": "nilomusculos_7",
-          "msg": "Opa alguém falou em personagens masculinos chegay"
-        },
-        {
-          "user": "lipeman",
-          "msg": "kaizou"
-        },
-        {
-          "user": "lipeman",
-          "msg": "kkkkkkk"
-        },
-        {
-          "user": "rechigamer",
-          "msg": "Bora Lípe"
-        },
-        {
-          "user": "rechigamer",
-          "msg": "kkkkkkkkkkk"
+          "msg": "kkkkkkkkk"
         },
         {
           "user": "botger",
-          "msg": "⭐️Doações no pix: https://midpix.live/SofrenciaPlay"
+          "msg": "⚡ lovemikami: Level 16 | 105,291 XP (640 to Level 17)"
+        },
+        {
+          "user": "lipeman",
+          "msg": "aquilo é o final de tudo"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "Hummmm"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "massa"
+        },
+        {
+          "user": "zerinhogames",
+          "msg": "salve salve"
+        },
+        {
+          "user": "zerinhogames",
+          "msg": "que??"
+        },
+        {
+          "user": "zerinhogames",
+          "msg": "blz"
+        },
+        {
+          "user": "botger",
+          "msg": "💰Compre blaze no canal com streamer (Eden) para fazer doações ou comprar votos."
         }
       ],
       "customCommands": {},
@@ -15406,7 +15406,7 @@
         }
       },
       "_idAt": 1792256449380,
-      "_gameAt": 1792274993382,
+      "_gameAt": 1792276107295,
       "isLive": true,
       "streamCategory": "Retro"
     },
@@ -16681,7 +16681,7 @@
         "totalVotes": 11950,
         "totalSubs": 43,
         "totalChatMessages": 223,
-        "totalStreamMinutes": 2641,
+        "totalStreamMinutes": 2661,
         "emotes": {
           "❤": 5,
           "🙌": 1,
@@ -19573,8 +19573,8 @@
       "stats": {
         "totalVotes": 7980,
         "totalSubs": 36,
-        "totalChatMessages": 4631,
-        "totalStreamMinutes": 15334,
+        "totalChatMessages": 4635,
+        "totalStreamMinutes": 15354,
         "emotes": {
           "👋": 107,
           "⚠": 2,
@@ -19754,21 +19754,9 @@
           "9294e28e-48fa-409c-b43b-98287465b788": "CONTRASTPYRO2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792274821469
+        "lastChatAt": 1792275697264
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @flantality just gave 2 vote(s) (total: 2)! Thank you!! 🗳️"
-        },
-        {
-          "user": "flantality",
-          "msg": "hi"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@terranlore congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/46b870500a11a4ce059cd06fea3fd96c0fe71f8ec3ddbadf207226a1bb33a39d"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @Future42!"
@@ -19796,6 +19784,18 @@
         {
           "user": "scurvybot",
           "msg": "500 trash have been tipped to terranlore"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "lets gooo"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "much love lets blaze!!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @cripiechuccles at https://blaze.stream/cripiechuccles!"
         }
       ],
       "customCommands": {
@@ -19917,7 +19917,7 @@
         }
       },
       "_idAt": 1792257881491,
-      "_gameAt": 1792274821561,
+      "_gameAt": 1792275696376,
       "isLive": true,
       "streamCategory": "Just Chatting"
     },
@@ -21410,7 +21410,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 5867,
+        "totalStreamMinutes": 5887,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -22598,7 +22598,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 5788,
+        "totalStreamMinutes": 5808,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -24321,9 +24321,9 @@
       "n": 5
     },
     "rockstardkc2": {
-      "note": "Enjoys playing DK and Nio, jokes with friends, and shares playful banter about game choices.",
-      "at": 1792150729402,
-      "n": 6
+      "note": "Enjoys FPS games, jokes with friends like Eden and Lipe, and loves playful banter about game performance and pressure.",
+      "at": 1792275289036,
+      "n": 7
     },
     "renato_rodr_01": {
       "note": "Renato enjoys joking about Sonic, Amy Rose, Kongão, and quirky games like “lobsomem,” mixing playful references to gaming culture and internet humor.",
