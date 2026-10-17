@@ -5714,8 +5714,8 @@
       "stats": {
         "totalVotes": 42302,
         "totalSubs": 127,
-        "totalChatMessages": 14692,
-        "totalStreamMinutes": 9116,
+        "totalChatMessages": 14696,
+        "totalStreamMinutes": 9135,
         "emotes": {
           "❤": 264,
           "🙌": 409,
@@ -6287,25 +6287,9 @@
           "🫴": "🫴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792218515620
+        "lastChatAt": 1792219595251
       },
       "chatMemory": [
-        {
-          "user": "lvl4goblin",
-          "msg": "Did I just hear a tritone? Are we summoning a fricking demon or something?"
-        },
-        {
-          "user": "botger",
-          "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
-        },
-        {
-          "user": "lvl4goblin",
-          "msg": "I see the canvas moved behind the browser"
-        },
-        {
-          "user": "lvl4goblin",
-          "msg": "lol, that timing"
-        },
         {
           "user": "lvl4goblin",
           "msg": "liquify in push mode is kind of like a smudge tool that slides the pixels around in the direction of the brush.\n\nAnother thing that probably works better here is to use Transform -> Warp."
@@ -6329,6 +6313,22 @@
         {
           "user": "botger",
           "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "Hahaha, I love how this story kept getting deeper the whole night"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "imo, it helps to turn off stabilization when coloring stuff"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "whoops, my bad"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "and the screen capture died"
         }
       ],
       "customCommands": {},
@@ -6341,7 +6341,7 @@
       "streamTitle": "Fortnite with Zani",
       "gameOverride": "",
       "profile": "briggsy’s channel is a lively, supportive hub where “Epoch Flip Day” and “Farlight 84” shenanigans reign. The community loves art, dance with “💃💃💃”, off‑the‑grid vibes, chess, IRL streams, and celebrates with “🥰🥰🥰”, “it’s good”, “Always if I’m here, it’s my pleasure”, “u want it”, “Fartvader” jokes, and “heeeeeyaaaa” greetings. They thrive on “Reds” and “BLAZE DEFI” buzz.",
-      "_profileAtCount": 14630,
+      "_profileAtCount": 14693,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/648fac6d-22b1-49d3-89fe-81a1ac7f5f81.gif",
       "loyalty": {
         "vitrene": {
@@ -6540,7 +6540,7 @@
       "lastStreamInfo": "Evening fun - what will we do?",
       "lastStreamEndedAt": 1792173410377,
       "_idAt": 1792207255331,
-      "_gameAt": 1792218426363,
+      "_gameAt": 1792219578815,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -8100,7 +8100,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 0,
-        "totalSubs": 7,
+        "totalSubs": 8,
         "totalChatMessages": 227,
         "totalStreamMinutes": 532,
         "emotes": {
@@ -8249,6 +8249,11 @@
         },
         "badger": {
           "name": "badger",
+          "months": 1,
+          "tier": 1
+        },
+        "big_scaggs": {
+          "name": "big_scaggs",
           "months": 1,
           "tier": 1
         }
@@ -13868,7 +13873,7 @@
         "totalVotes": 19855,
         "totalSubs": 41,
         "totalChatMessages": 3183,
-        "totalStreamMinutes": 12364,
+        "totalStreamMinutes": 12383,
         "emotes": {
           "❤": 118,
           "🙌": 82,
@@ -22317,7 +22322,7 @@
       "lastStreamInfo": "🔨 THE HAMMER RETURNS | OTG Chaos + Gaming Gala Grind | Road to Verified — Off The Grid",
       "lastStreamEndedAt": 1792119451535,
       "gameOverride": "",
-      "_idAt": 1792186689923,
+      "_idAt": 1792219248136,
       "nudgedAt": 1792092388182,
       "nudgedKey": "schedule"
     },
@@ -22799,7 +22804,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792186689922,
+      "_idAt": 1792219247015,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d3b7be98-81af-4b8d-adeb-af8e99088a0b.png",
       "streamTitle": "",
       "lastStreamInfo": "🌙 Cozy Chaos in a Broken World | Once Human",
@@ -24232,8 +24237,8 @@
     }
   },
   "auth": {
-    "accessToken": "adede1d29d691599a098064d55aa85a2",
-    "refreshToken": "ba8c75708a90197710ee35423dc3a171",
+    "accessToken": "c98c05fdd25d2d971b4b302f66d357ea",
+    "refreshToken": "2e579a3d8059a0269a5ff9d7c1257661",
     "sessionToken": "5ae89aee480c1ea438f3354295a61f3a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
