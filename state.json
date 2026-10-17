@@ -13881,7 +13881,7 @@
         "totalVotes": 19855,
         "totalSubs": 42,
         "totalChatMessages": 3196,
-        "totalStreamMinutes": 12473,
+        "totalStreamMinutes": 12493,
         "emotes": {
           "❤": 118,
           "🙌": 83,
@@ -14216,13 +14216,13 @@
       "stats": {
         "totalVotes": 8229,
         "totalSubs": 58,
-        "totalChatMessages": 2793,
-        "totalStreamMinutes": 7086,
+        "totalChatMessages": 2795,
+        "totalStreamMinutes": 7087,
         "emotes": {
           "❤": 112,
           "🙌": 99,
-          "📴": 57,
-          "👋": 60,
+          "📴": 58,
+          "👋": 61,
           "🎁": 52,
           "🗳": 252,
           "⚠": 1,
@@ -14427,17 +14427,9 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792223360167
+        "lastChatAt": 1792225322480
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "*Enjoy"
-        },
-        {
-          "user": "ruri666",
-          "msg": "okay @helios take care at work"
-        },
         {
           "user": "ruri666",
           "msg": "thanks for dropping by"
@@ -14469,6 +14461,14 @@
         {
           "user": "angge_wf",
           "msg": "Tara na"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -14480,7 +14480,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -14488,7 +14488,7 @@
       "nudgedAt": 1785164605243,
       "nudgedKey": "schedule",
       "lastStreamInfo": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
-      "lastStreamEndedAt": 1792164928894,
+      "lastStreamEndedAt": 1792225317155,
       "loyalty": {
         "angge_wf": {
           "name": "angge_wf",
@@ -14607,9 +14607,9 @@
         }
       },
       "_idAt": 1792212048133,
-      "_gameAt": 1792223360275,
-      "isLive": true,
-      "streamCategory": "Music"
+      "_gameAt": 1792225317640,
+      "isLive": false,
+      "streamCategory": ""
     },
     "9cc85373-5150-438b-95b7-0c7ff092bfe4": {
       "username": "willdres",
@@ -23209,9 +23209,9 @@
       "n": 20
     },
     "helios": {
-      "note": "He streams St",
-      "at": 1792180908940,
-      "n": 44
+      "note": "He streams on St, plays games like Octo, reacts with quick jokes",
+      "at": 1792226448969,
+      "n": 45
     },
     "piweb": {
       "note": "Enjoys casual Fortnite and backgammon, often joking about game moments and everyday life in a light‑hearted, playful way.",
@@ -24219,9 +24219,9 @@
       "n": 1
     },
     "cryptohaki": {
-      "note": "Enjoys gaming, mentions hex points, banned items, customs, and likes plants; humor",
-      "at": 1792180249056,
-      "n": 1
+      "note": "Enjoys gaming, talks about hex points, banned items, and customs, loves plants, and often adds a playful, light‑hearted humor to the chat.",
+      "at": 1792225789029,
+      "n": 2
     },
     "francisftlp": {
       "note": "Enjoys Inktober drawings, loves cats, appreciates singing, frequently uses emojis, and often thanks viewers enthusiastically.",
