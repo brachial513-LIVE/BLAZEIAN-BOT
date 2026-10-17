@@ -5715,7 +5715,7 @@
         "totalVotes": 42302,
         "totalSubs": 128,
         "totalChatMessages": 14720,
-        "totalStreamMinutes": 9175,
+        "totalStreamMinutes": 9180,
         "emotes": {
           "❤": 264,
           "🙌": 410,
@@ -10974,7 +10974,7 @@
         "totalVotes": 6681,
         "totalSubs": 35,
         "totalChatMessages": 992,
-        "totalStreamMinutes": 2797,
+        "totalStreamMinutes": 2802,
         "emotes": {
           "❤": 39,
           "🙌": 47,
@@ -13876,7 +13876,7 @@
         "totalVotes": 19855,
         "totalSubs": 42,
         "totalChatMessages": 3188,
-        "totalStreamMinutes": 12423,
+        "totalStreamMinutes": 12428,
         "emotes": {
           "❤": 118,
           "🙌": 83,
@@ -14212,7 +14212,7 @@
         "totalVotes": 8229,
         "totalSubs": 58,
         "totalChatMessages": 2792,
-        "totalStreamMinutes": 7036,
+        "totalStreamMinutes": 7041,
         "emotes": {
           "❤": 112,
           "🙌": 99,
@@ -20824,7 +20824,7 @@
       "stats": {
         "totalVotes": 8446,
         "totalSubs": 14,
-        "totalChatMessages": 320,
+        "totalChatMessages": 321,
         "totalStreamMinutes": 1368,
         "emotes": {
           "❤": 20,
@@ -20837,8 +20837,8 @@
           "⏰": 1,
           "🗳": 60,
           "🔥": 20,
-          "⚠": 1,
-          "🎯": 1,
+          "⚠": 2,
+          "🎯": 2,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 1,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 2,
@@ -20873,13 +20873,9 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1791841454332
+        "lastChatAt": 1792222407404
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 100 votes, @wayfinders!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wayfinders just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -20915,6 +20911,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @alicepupu has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up destinoprospero! You're projected to fall below Verified (Tier 2) in about 7 days (2026/10/24 07:33 UTC). Current stream hours: 20.6h / 10h required. Stream more to keep your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -20987,7 +20987,10 @@
       "_profileAtCount": 285,
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
-      "_idAt": 1792216849338
+      "_idAt": 1792216849338,
+      "_gameAt": 1792222407500,
+      "isLive": false,
+      "streamCategory": ""
     },
     "b6424d70-a8c5-4dd1-a1fc-079589abbe2b": {
       "username": "starmouse307319",
@@ -23877,8 +23880,8 @@
     },
     "lvl4goblin": {
       "note": "Enjoy indie roguelikes, pokes fun at quirky localization, loves drawing and Inktober, plays Street Fighter 6, and keeps chat light with playful, humorous banter.",
-      "at": 1792176948911,
-      "n": 17
+      "at": 1792222489090,
+      "n": 18
     },
     "guilhermesisto": {
       "note": "Loves retro arcade beat‑em‑ups, jokes about “colete a prova de balas,” and cheers new releases.",
@@ -24243,8 +24246,8 @@
     }
   },
   "auth": {
-    "accessToken": "c98c05fdd25d2d971b4b302f66d357ea",
-    "refreshToken": "2e579a3d8059a0269a5ff9d7c1257661",
+    "accessToken": "cb6eb0328c6aac5b0acbba848b176e34",
+    "refreshToken": "51425eb9b50883b8496ef74adc41e96a",
     "sessionToken": "5ae89aee480c1ea438f3354295a61f3a",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
