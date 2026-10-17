@@ -1538,22 +1538,22 @@
       "stats": {
         "totalVotes": 33669,
         "totalSubs": 79,
-        "totalChatMessages": 41951,
+        "totalChatMessages": 41955,
         "totalStreamMinutes": 3857,
         "emotes": {
           "🔥": 2247,
           "🗳": 32,
           "🔴": 53,
-          "🎉": 374,
+          "🎉": 375,
           "😍": 141,
           "❤": 66,
           "🚢": 24,
           "⏰": 1662,
           "🔜": 1281,
-          "💀": 666,
+          "💀": 668,
           "😘": 3,
-          "🏆": 239,
-          "🎊": 218,
+          "🏆": 240,
+          "🎊": 219,
           "🎰": 33,
           "😰": 216,
           "🍌": 236,
@@ -1878,7 +1878,7 @@
           "🙂": "🙂",
           "↕": "↕"
         },
-        "lastChatAt": 1792279229071,
+        "lastChatAt": 1792280380791,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1886,22 +1886,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "🏆 WINNER: CleverChampion12! 🎉 Survived 11 rounds! Congratulations! 🎊"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🎰 Blaze Roulette starting in 20 seconds! Type !join to play!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🤖 Added 2 bot(s) to the game! 2 player(s) ready."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 joined the game! 3 player(s) ready."
-        },
         {
           "user": "botger",
           "msg": "(Handled by bot — joins the channel and confirms in chat)"
@@ -1925,6 +1909,22 @@
         {
           "user": "blazegames_bot",
           "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "💀 jt_squared2 has been eliminated! 2 players remaining."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "💀 CleverStar78 has been eliminated! 1 player remaining."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🏆 WINNER: EpicChampion68! 🎉 Survived 6 rounds! Congratulations! 🎊"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "test"
         }
       ],
       "customCommands": {},
@@ -2151,7 +2151,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792274452976,
-      "_gameAt": 1792279209719,
+      "_gameAt": 1792280380894,
       "isLive": false,
       "streamCategory": ""
     },
@@ -2161,8 +2161,8 @@
       "stats": {
         "totalVotes": 43224,
         "totalSubs": 275,
-        "totalChatMessages": 14671,
-        "totalStreamMinutes": 34536,
+        "totalChatMessages": 14672,
+        "totalStreamMinutes": 34552,
         "emotes": {
           "📊": 3,
           "🔥": 625,
@@ -2387,7 +2387,7 @@
           "4e0ace02-ece6-4efe-be60-53e7c1883698": 18,
           "cfe942ab-6eea-4b97-8777-5fe29a9aca78": 6,
           "77eff0f6-3ddf-4421-be0c-302b8bd71830": 15,
-          "5ba97ddb-ee75-44d4-aade-9bcb444fda7a": 64,
+          "5ba97ddb-ee75-44d4-aade-9bcb444fda7a": 68,
           "fecfde94-81b4-4d93-b0ab-e21558a35359": 13,
           "d877b990-6c2b-412d-8b5c-1d022dfeeeda": 27,
           "f47f29b9-47f9-49f7-bf29-848237874bfb": 7,
@@ -2734,13 +2734,9 @@
           "🤧": "🤧"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792277653222
+        "lastChatAt": 1792279656165
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:be4c4f80-63de-4123-b164-4e6bd6f74d3e]"
-        },
         {
           "user": "crypt0k1ng96",
           "msg": "So close!!!"
@@ -2776,6 +2772,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "You gonna win?!?"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "[emote:5ba97ddb-ee75-44d4-aade-9bcb444fda7a] [emote:5ba97ddb-ee75-44d4-aade-9bcb444fda7a] [emote:5ba97ddb-ee75-44d4-aade-9bcb444fda7a] [emote:5ba97ddb-ee75-44d4-aade-9bcb444fda7a]"
         }
       ],
       "customCommands": {},
@@ -2784,7 +2784,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "STORM CASUALS 2 🦾🔥 CASINO GAMES 🎰",
+      "streamTitle": "",
       "profile": "crypt0k1ng96: OTG casino nights, “BLAZE THE DAY” vibes, “SLAY DRAGONS”, “LOVE FEST” moments, wheelspins, giveaways, interactive blackjack, “RAID” cheers. Play till sleep, celebrate with free casino games, giveaways, “Keep your chin up!” energy. Loves off‑grid AVAX summit vibes, packed emotes, OTG crypto fun, weekend enjoyment. Keep your chin up!",
       "_profileAtCount": 14417,
       "gameOverride": "",
@@ -2792,8 +2792,8 @@
       "nudgedAt": 1785001902195,
       "nudgedKey": "schedule",
       "commentMode": "heavy",
-      "lastStreamInfo": "UNDERDOGS 2 OTG TOURNAMENT 🦾🔥 CASINO GAMES 🎰",
-      "lastStreamEndedAt": 1792188214169,
+      "lastStreamInfo": "STORM CASUALS 2 🦾🔥 CASINO GAMES 🎰",
+      "lastStreamEndedAt": 1792280211009,
       "loyalty": {
         "mpfeiffer": {
           "name": "mpfeiffer",
@@ -2949,9 +2949,9 @@
         "sound": true,
         "confetti": true
       },
-      "streamCategory": "Off The Grid",
-      "isLive": true,
-      "_gameAt": 1792277653342
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792279656256
     },
     "cef62e02-6fea-468d-9f76-2f4feb1060b7": {
       "username": "thom6ss_otg",
@@ -4687,8 +4687,8 @@
       "stats": {
         "totalVotes": 33941,
         "totalSubs": 77,
-        "totalChatMessages": 4641,
-        "totalStreamMinutes": 18144,
+        "totalChatMessages": 4646,
+        "totalStreamMinutes": 18163,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -4797,17 +4797,17 @@
           "🙌": 63,
           "🗳": 441,
           "📴": 50,
-          "72214ffa-77c3-4777-9bc2-587b6bc0581c": 169,
-          "🔴": 48,
-          "🎉": 58,
-          "a80b8258-7a03-4aed-95f8-19ab819775c7": 153,
+          "72214ffa-77c3-4777-9bc2-587b6bc0581c": 172,
+          "🔴": 49,
+          "🎉": 59,
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": 155,
           "a859cc12-453a-4bd8-b650-38710d9486de": 16,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 15,
           "🚨": 60,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 38,
           "248db14b-f100-4838-be4d-8e265634e892": 92,
           "795f0ae8-10ec-4faa-8160-503dbd0e593d": 28,
-          "555a557b-672c-4db0-80d4-85564e0bbac4": 49,
+          "555a557b-672c-4db0-80d4-85564e0bbac4": 50,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 5,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 27,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 1,
@@ -5020,29 +5020,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792251359123
+        "lastChatAt": 1792280041499
       },
       "chatMemory": [
-        {
-          "user": "canawilks",
-          "msg": "Ok"
-        },
-        {
-          "user": "surrya",
-          "msg": "are we turning?"
-        },
-        {
-          "user": "surrya",
-          "msg": "AH ok"
-        },
-        {
-          "user": "surrya",
-          "msg": "put that thing down flip it and reverse it?"
-        },
-        {
-          "user": "canawilks",
-          "msg": "Bassacwards"
-        },
         {
           "user": "surrya",
           "msg": "I gotta go rustle up some grub. If you're offline by the time I get back, have a great afternoon!"
@@ -5062,6 +5042,26 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 capt_rob_advent is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "[emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c]"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "Sorry i missed this morning. I went to my grand daughters band competition"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "yeah it was really cool"
         }
       ],
       "customCommands": {},
@@ -5070,7 +5070,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Standing by in Louisiana to fuel 2 ships",
       "profile": "We’re a tight IRL maritime crew fueling ships in South East Texas. “BLAZE ON” celebrates every win, “Sweet!” drops new content, and “shots shots!” keeps the fun high. We surf, vote for favorite streamers, share “happy walk” stories, and love “happy walk” vibes. capt_rob_advent’s streams are the heart of our salty, upbeat community.",
       "_profileAtCount": 4641,
       "gameOverride": "",
@@ -5157,9 +5157,9 @@
       "lastStreamInfo": "Standing by in Louisiana to fuel 2 ships",
       "lastStreamEndedAt": 1792251353991,
       "_idAt": 1792275650584,
-      "_gameAt": 1792251243518,
-      "isLive": false,
-      "streamCategory": ""
+      "_gameAt": 1792280022755,
+      "isLive": true,
+      "streamCategory": "IRL"
     },
     "e92f7822-2ae0-41b4-9edf-a96ae3e94901": {
       "username": "anikisnow",
@@ -8681,7 +8681,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Digital Drawing — Art",
       "lastStreamEndedAt": 1791750067319,
-      "_idAt": 1792256450575,
+      "_idAt": 1792279250581,
       "_gameAt": 1792253889561,
       "isLive": false,
       "streamCategory": ""
@@ -9114,7 +9114,7 @@
       },
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
-      "_idAt": 1792256451787,
+      "_idAt": 1792279251913,
       "_gameAt": 1792262424140,
       "isLive": false,
       "streamCategory": ""
@@ -9990,7 +9990,7 @@
       "lastStreamEndedAt": 1792099032053,
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
-      "_idAt": 1792256452969
+      "_idAt": 1792279252979
     },
     "3cabf7ae-39d3-4ebb-9a48-7f2c6d06b2a4": {
       "username": "xxtowerdogxx",
@@ -14300,7 +14300,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792256447000,
+      "_idAt": 1792279247120,
       "_gameAt": 1792271051172,
       "isLive": false,
       "streamCategory": ""
@@ -14702,7 +14702,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792257648172,
+      "_idAt": 1792280448189,
       "_gameAt": 1792256936044,
       "isLive": false,
       "streamCategory": ""
@@ -14790,7 +14790,7 @@
       },
       "lastStreamInfo": "FOXSPIRIT | MAPLE!!! Spanish Stream — MapleStory",
       "lastStreamEndedAt": 1788221244823,
-      "_idAt": 1792256448166
+      "_idAt": 1792279248197
     },
     "9e26a8e9-192e-41bd-9933-ce3d651f120d": {
       "username": "sofrenciaplay",
@@ -15405,7 +15405,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792256449380,
+      "_idAt": 1792279249386,
       "_gameAt": 1792279132984,
       "isLive": false,
       "streamCategory": ""
@@ -16581,7 +16581,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792256454184
+      "_idAt": 1792279254178
     },
     "cb2ce9ff-c2d0-425e-9238-54b535f07d02": {
       "username": "homiedrew",
@@ -16671,7 +16671,7 @@
       "lastStreamInfo": "Games! | GIVEAWAYS 🔥 BLAZE 🔥 Follower Goal 14/100 🔥 — Games + Demos",
       "lastStreamEndedAt": 1792098624752,
       "gameOverride": "",
-      "_idAt": 1792256455378
+      "_idAt": 1792279255397
     },
     "2c31d967-7255-462b-9cfa-41b8b75483c9": {
       "username": "panipeys",
@@ -18643,7 +18643,7 @@
         "open": false,
         "entries": []
       },
-      "_idAt": 1792257647020,
+      "_idAt": 1792280447003,
       "_gameAt": 1792257570087,
       "isLive": false,
       "streamCategory": ""
@@ -19574,7 +19574,7 @@
         "totalVotes": 7980,
         "totalSubs": 36,
         "totalChatMessages": 4641,
-        "totalStreamMinutes": 15404,
+        "totalStreamMinutes": 15424,
         "emotes": {
           "👋": 107,
           "⚠": 2,
@@ -21410,7 +21410,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 5937,
+        "totalStreamMinutes": 5957,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -22598,7 +22598,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 5858,
+        "totalStreamMinutes": 5878,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -23749,9 +23749,9 @@
       "n": 10
     },
     "generalkev": {
-      "note": "Enjoys playing Gridlock and nostalgic arcade games, loves gamepads, jokes about whales and pork pies, and often cheers with emojis and celebratory messages.",
-      "at": 1792145449573,
-      "n": 12
+      "note": "Enjoys Gridlock and nostalgic arcade games, loves gamepads, jokes about whales and pork pies, and cheers with emojis and celebratory messages.",
+      "at": 1792279249094,
+      "n": 13
     },
     "allybear": {
       "note": "They love gaming, cheer with emojis, enjoy friendly banter, and celebrate good matches with playful humor.",
