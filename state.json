@@ -5714,11 +5714,11 @@
       "stats": {
         "totalVotes": 42302,
         "totalSubs": 128,
-        "totalChatMessages": 14720,
-        "totalStreamMinutes": 9180,
+        "totalChatMessages": 14724,
+        "totalStreamMinutes": 9190,
         "emotes": {
-          "❤": 264,
-          "🙌": 410,
+          "❤": 265,
+          "🙌": 411,
           "🗳": 1826,
           "✌": 11,
           "😊": 10,
@@ -5730,7 +5730,7 @@
           "⚡": 101,
           "😂": 193,
           "😍": 37,
-          "🔥": 302,
+          "🔥": 303,
           "😎": 6,
           "😁": 27,
           "😄": 29,
@@ -6287,25 +6287,9 @@
           "🫴": "🫴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792222150086
+        "lastChatAt": 1792223666272
       },
       "chatMemory": [
-        {
-          "user": "lvl4goblin",
-          "msg": "IT!?"
-        },
-        {
-          "user": "briggsy",
-          "msg": "[emote:73a2043d-3f44-4a2d-8c0d-6006653020be] [emote:73a2043d-3f44-4a2d-8c0d-6006653020be] [emote:73a2043d-3f44-4a2d-8c0d-6006653020be]"
-        },
-        {
-          "user": "lvl4goblin",
-          "msg": "BUILDING IT"
-        },
-        {
-          "user": "briggsy",
-          "msg": "[emote:f3a27e59-590a-42e5-be0d-34382fba3e2e] [emote:f3a27e59-590a-42e5-be0d-34382fba3e2e]"
-        },
         {
           "user": "lvl4goblin",
           "msg": "I'm going to catch some Z's. Have a good night man"
@@ -6329,6 +6313,22 @@
         {
           "user": "botger",
           "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
+        },
+        {
+          "user": "briggsy",
+          "msg": "That was ca lo hoosee"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Close"
+        },
+        {
+          "user": "botger",
+          "msg": "Appreciate your time.  Cheers and catchya next time. 🙌"
+        },
+        {
+          "user": "infamousex",
+          "msg": "Hey bro ❤️‍🔥"
         }
       ],
       "customCommands": {},
@@ -6338,7 +6338,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "Fortnite with Zani",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "briggsy’s channel is a lively, supportive hub where “Epoch Flip Day” and “Farlight 84” shenanigans reign. The community loves art, dance with “💃💃💃”, off‑the‑grid vibes, chess, IRL streams, and celebrates with “🥰🥰🥰”, “it’s good”, “Always if I’m here, it’s my pleasure”, “u want it”, “Fartvader” jokes, and “heeeeeyaaaa” greetings. They thrive on “Reds” and “BLAZE DEFI” buzz.",
       "_profileAtCount": 14693,
@@ -6537,12 +6537,12 @@
       },
       "nudgedAt": 1785051188620,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "Evening fun - what will we do?",
-      "lastStreamEndedAt": 1792173410377,
+      "lastStreamInfo": "Fortnite with Zani",
+      "lastStreamEndedAt": 1792223149496,
       "_idAt": 1792207255331,
-      "_gameAt": 1792222150216,
-      "isLive": true,
-      "streamCategory": "IRL"
+      "_gameAt": 1792223666399,
+      "isLive": false,
+      "streamCategory": ""
     },
     "01f6c485-97c5-440d-af73-6e83bc646787": {
       "username": "killlab",
@@ -6717,18 +6717,18 @@
       "language": "en",
       "stats": {
         "totalVotes": 39511,
-        "totalSubs": 80,
-        "totalChatMessages": 9101,
+        "totalSubs": 81,
+        "totalChatMessages": 9103,
         "totalStreamMinutes": 16054,
         "emotes": {
           "❤": 155,
-          "🙌": 209,
+          "🙌": 210,
           "🗳": 891,
           "🔴": 95,
           "🎉": 161,
           "📴": 94,
           "👋": 107,
-          "🔥": 255,
+          "🔥": 257,
           "💪": 2,
           "🤖": 1,
           "💚": 7,
@@ -7118,18 +7118,10 @@
           "😋": "😋",
           "🎰": "🎰"
         },
-        "lastChatAt": 1792206681561,
+        "lastChatAt": 1792223338921,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "was that a character in Mystery Men?"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "😂"
-        },
         {
           "user": "jt_squared2",
           "msg": "I really like this song"
@@ -7161,6 +7153,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@gmc_gaara27 subscribed! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @gmc_gaara27 to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {},
@@ -7326,6 +7326,11 @@
           "name": "lasvegasape",
           "months": 1,
           "tier": 1
+        },
+        "gmc_gaara27": {
+          "name": "gmc_gaara27",
+          "months": 1,
+          "tier": 1
         }
       },
       "nudgedAt": 1785206538951,
@@ -7341,7 +7346,7 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1792206516456,
+      "_gameAt": 1792223338819,
       "isLive": false,
       "streamCategory": ""
     },
@@ -10973,16 +10978,16 @@
       "stats": {
         "totalVotes": 6681,
         "totalSubs": 35,
-        "totalChatMessages": 992,
-        "totalStreamMinutes": 2802,
+        "totalChatMessages": 993,
+        "totalStreamMinutes": 2812,
         "emotes": {
           "❤": 39,
           "🙌": 47,
           "🗳": 279,
           "🔴": 57,
           "🎉": 60,
-          "📴": 55,
-          "👋": 57,
+          "📴": 56,
+          "👋": 58,
           "🎁": 36,
           "🤝": 1,
           "🔥": 32,
@@ -11082,13 +11087,9 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792220961603
+        "lastChatAt": 1792223159286
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "have a good stream mate"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @capt_rob_advent is raiding with a party of 9! Welcome raiders!! 🎉"
@@ -11124,6 +11125,10 @@
         {
           "user": "botger",
           "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -11136,14 +11141,14 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1fce5f33-0d10-4052-a439-2d788d567380.png",
       "followed": true,
-      "streamTitle": "GOW -RAGNAROK",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "0xscheun’s crew is a chill, high‑energy squad that loves gaming, especially Farlight and Uncharted. We greet with “gm gm” and “sup”, celebrate wins with “thank you” and “yessir”, laugh at “tiddies” and “nirus supplier” jokes, throw constant emotes, and end streams with a heartfelt “See you next time 👋”. The vibe is playful banter, fests, and constant celebration.",
       "_profileAtCount": 978,
       "nudgedAt": 1785078532098,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "FC26 — FC26",
-      "lastStreamEndedAt": 1791847780461,
+      "lastStreamInfo": "GOW -RAGNAROK",
+      "lastStreamEndedAt": 1792223154136,
       "loyalty": {
         "anej56": {
           "name": "anej56",
@@ -11222,9 +11227,9 @@
         }
       },
       "_idAt": 1792213252939,
-      "streamCategory": "God of War",
-      "isLive": true,
-      "_gameAt": 1792220961451
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792223159356
     },
     "79438541-610a-4083-b103-5d45043a9664": {
       "username": "lady_iris",
@@ -13876,7 +13881,7 @@
         "totalVotes": 19855,
         "totalSubs": 42,
         "totalChatMessages": 3188,
-        "totalStreamMinutes": 12428,
+        "totalStreamMinutes": 12448,
         "emotes": {
           "❤": 118,
           "🙌": 83,
@@ -14211,8 +14216,8 @@
       "stats": {
         "totalVotes": 8229,
         "totalSubs": 58,
-        "totalChatMessages": 2792,
-        "totalStreamMinutes": 7041,
+        "totalChatMessages": 2793,
+        "totalStreamMinutes": 7061,
         "emotes": {
           "❤": 112,
           "🙌": 99,
@@ -14422,13 +14427,9 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792222208224
+        "lastChatAt": 1792223360167
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "joy your stream"
-        },
         {
           "user": "helios",
           "msg": "*Enjoy"
@@ -14464,6 +14465,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
+        },
+        {
+          "user": "angge_wf",
+          "msg": "Tara na"
         }
       ],
       "customCommands": {},
@@ -14602,7 +14607,7 @@
         }
       },
       "_idAt": 1792212048133,
-      "_gameAt": 1792222208028,
+      "_gameAt": 1792223360275,
       "isLive": true,
       "streamCategory": "Music"
     },
