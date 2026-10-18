@@ -3327,7 +3327,7 @@
         "totalVotes": 27583,
         "totalSubs": 111,
         "totalChatMessages": 8889,
-        "totalStreamMinutes": 26771,
+        "totalStreamMinutes": 26776,
         "emotes": {
           "❤": 244,
           "🙌": 206,
@@ -11864,8 +11864,8 @@
       "stats": {
         "totalVotes": 38063,
         "totalSubs": 179,
-        "totalChatMessages": 4102,
-        "totalStreamMinutes": 20952,
+        "totalChatMessages": 4103,
+        "totalStreamMinutes": 20957,
         "emotes": {
           "❤": 148,
           "🙌": 252,
@@ -11883,7 +11883,7 @@
           "🌵": 2,
           "👄": 1,
           "😁": 1,
-          "👀": 9,
+          "👀": 10,
           "✋": 2,
           "✌": 11,
           "☺": 1,
@@ -12095,13 +12095,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792322147955
+        "lastChatAt": 1792322228600
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @UncleFunk! How generous!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -12137,6 +12133,10 @@
         {
           "user": "agent00zani",
           "msg": "howu ?"
+        },
+        {
+          "user": "lyzamae",
+          "msg": "👀"
         }
       ],
       "customCommands": {},
@@ -12336,7 +12336,7 @@
       "lastStreamInfo": "Finishing the game! Say Hi!?",
       "lastStreamEndedAt": 1792296302026,
       "_idAt": 1792305655429,
-      "_gameAt": 1792322047513,
+      "_gameAt": 1792322228693,
       "isLive": true,
       "streamCategory": "Middle-earth: Shadow of Mordor"
     },
@@ -24482,8 +24482,8 @@
     }
   },
   "auth": {
-    "accessToken": "0532dcf36ff03424e4ab39d1e79bd7bc",
-    "refreshToken": "fef357eeaf107499d322a100d0df5eb6",
+    "accessToken": "2278d3bd8701ccf1f002d2f1a0afebbb",
+    "refreshToken": "c74af5589d1c489690eeafe15b4ff06d",
     "sessionToken": "a821810bc5c440e6ac8936481c3c827e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
