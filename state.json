@@ -8322,7 +8322,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 23271,
+        "totalVotes": 23276,
         "totalSubs": 58,
         "totalChatMessages": 4388,
         "totalStreamMinutes": 5169,
@@ -11521,7 +11521,7 @@
       "stats": {
         "totalVotes": 22587,
         "totalSubs": 57,
-        "totalChatMessages": 2462,
+        "totalChatMessages": 2463,
         "totalStreamMinutes": 4634,
         "emotes": {
           "❤": 167,
@@ -11604,7 +11604,8 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": 1,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 4,
           "fd227fe3-98c5-44d7-9f5f-5fcd33806932": 4,
-          "😉": 1
+          "😉": 1,
+          "f6a00ee4-bc40-4d8f-8879-c122ad069225": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -11687,16 +11688,13 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG",
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING",
           "fd227fe3-98c5-44d7-9f5f-5fcd33806932": "lfg",
-          "😉": "😉"
+          "😉": "😉",
+          "f6a00ee4-bc40-4d8f-8879-c122ad069225": "DAZEDPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792267953138
+        "lastChatAt": 1792313235519
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "hope your day is going well"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -11732,6 +11730,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @parky just gifted a sub to @Cheeseyeggs! How generous!! 🙌"
+        },
+        {
+          "user": "faithy_",
+          "msg": "[emote:f6a00ee4-bc40-4d8f-8879-c122ad069225]"
         }
       ],
       "customCommands": {},
@@ -11830,7 +11832,7 @@
       "lastStreamInfo": "[UK] #39 E-DAY - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING — Gears Of War: E-Day",
       "lastStreamEndedAt": 1792019408131,
       "_idAt": 1792304449411,
-      "_gameAt": 1792267953218,
+      "_gameAt": 1792313235650,
       "isLive": false,
       "streamCategory": ""
     },
@@ -12317,8 +12319,8 @@
       "stats": {
         "totalVotes": 32355,
         "totalSubs": 34,
-        "totalChatMessages": 1588,
-        "totalStreamMinutes": 2491,
+        "totalChatMessages": 1589,
+        "totalStreamMinutes": 2511,
         "emotes": {
           "❤": 29,
           "🙌": 45,
@@ -12386,7 +12388,7 @@
           "9acf3717-2c94-4054-8c7d-5be493de1012": 13,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 4,
           "✅": 1,
-          "35c5c2ba-6f7c-4560-838b-72614abe98ba": 87,
+          "35c5c2ba-6f7c-4560-838b-72614abe98ba": 90,
           "df7edb9d-58c3-4b1a-904f-8a85a9c3d5ab": 36,
           "🙏": 1,
           "🤞": 1,
@@ -12507,17 +12509,13 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE",
           "🐰": "🐰"
         },
-        "lastChatAt": 1792312778056,
+        "lastChatAt": 1792313782803,
         "sendFailStreak": 288,
         "lastSendFailAt": 1792287313650,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1792287313469
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @mindgoblin is raiding with a party of 5! Welcome raiders!! 🎉"
-        },
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @mindgoblin has resubscribed (6 months total, 1 month streak)! Thank you for the continued support! 🙌"
@@ -12553,6 +12551,10 @@
         {
           "user": "dimifw",
           "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
+        },
+        {
+          "user": "dimifw",
+          "msg": "[emote:35c5c2ba-6f7c-4560-838b-72614abe98ba] [emote:35c5c2ba-6f7c-4560-838b-72614abe98ba] [emote:35c5c2ba-6f7c-4560-838b-72614abe98ba]"
         }
       ],
       "customCommands": {},
@@ -12685,7 +12687,7 @@
       "lastStreamInfo": "Streamish #119 - Rocket League — Rocket League",
       "lastStreamEndedAt": 1791877266998,
       "_idAt": 1792306847072,
-      "_gameAt": 1792312728257,
+      "_gameAt": 1792313782907,
       "isLive": true,
       "streamCategory": "Rocket League"
     },
