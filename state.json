@@ -1538,22 +1538,22 @@
       "stats": {
         "totalVotes": 33669,
         "totalSubs": 79,
-        "totalChatMessages": 41976,
+        "totalChatMessages": 41982,
         "totalStreamMinutes": 3857,
         "emotes": {
           "🔥": 2247,
           "🗳": 32,
           "🔴": 53,
-          "🎉": 375,
+          "🎉": 376,
           "😍": 141,
           "❤": 66,
           "🚢": 24,
           "⏰": 1667,
           "🔜": 1281,
-          "💀": 670,
+          "💀": 671,
           "😘": 3,
-          "🏆": 240,
-          "🎊": 219,
+          "🏆": 241,
+          "🎊": 220,
           "🎰": 34,
           "😰": 216,
           "🍌": 236,
@@ -1878,7 +1878,7 @@
           "🙂": "🙂",
           "↕": "↕"
         },
-        "lastChatAt": 1792281641451,
+        "lastChatAt": 1792281945465,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1886,30 +1886,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "🤖 Added 3 bot(s) to the game! 3 player(s) ready."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 joined the game! 4 player(s) ready."
-        },
-        {
-          "user": "botger",
-          "msg": "(Handled by bot — joins the channel and confirms in chat)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 10 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 5 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
-        },
         {
           "user": "blazegames_bot",
           "msg": "⏰ Game starting in 2 seconds!"
@@ -1925,6 +1901,30 @@
         {
           "user": "blazegames_bot",
           "msg": "💀 WildStar81 has been eliminated! 2 players remaining."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "💀 LuckyMaster77 has been eliminated! 1 player remaining."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🏆 WINNER: jt_squared2! 🎉 Survived 7 rounds! Congratulations! 🎊"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "test"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "test"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "test"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "hmmm"
         }
       ],
       "customCommands": {},
@@ -2151,7 +2151,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792274452976,
-      "_gameAt": 1792281503175,
+      "_gameAt": 1792281777574,
       "isLive": false,
       "streamCategory": ""
     },
@@ -4688,7 +4688,7 @@
         "totalVotes": 34466,
         "totalSubs": 77,
         "totalChatMessages": 4652,
-        "totalStreamMinutes": 18183,
+        "totalStreamMinutes": 18188,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -11291,7 +11291,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792257881517,
+      "_idAt": 1792281652990,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792262121663
@@ -12879,7 +12879,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792257881539,
+      "_idAt": 1792281655421,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792277292508
@@ -13392,7 +13392,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a8eb7277-ff4e-49af-9173-5e3ddfa1df4f.jpg",
       "followed": true,
-      "_idAt": 1792257881503
+      "_idAt": 1792281651843
     },
     "86dae0fd-e013-428c-8d04-d67c830d36af": {
       "username": "cedricdebled",
@@ -15852,7 +15852,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792257881517,
+      "_idAt": 1792281654184,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792266568767
@@ -17519,7 +17519,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792257881501,
+      "_idAt": 1792281650592,
       "_gameAt": 1792278531312,
       "isLive": false,
       "streamCategory": ""
@@ -18089,7 +18089,7 @@
       "_profileAtCount": 1448,
       "nudgedAt": 1786147592153,
       "nudgedKey": "schedule",
-      "_idAt": 1792257881499,
+      "_idAt": 1792281649409,
       "_gameAt": 1792272555052,
       "isLive": false,
       "streamCategory": ""
@@ -19574,7 +19574,7 @@
         "totalVotes": 7980,
         "totalSubs": 36,
         "totalChatMessages": 4641,
-        "totalStreamMinutes": 15444,
+        "totalStreamMinutes": 15449,
         "emotes": {
           "👋": 107,
           "⚠": 2,
@@ -21410,7 +21410,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 5977,
+        "totalStreamMinutes": 5982,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -22598,7 +22598,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 22,
-        "totalStreamMinutes": 5898,
+        "totalStreamMinutes": 5903,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -23270,8 +23270,8 @@
     },
     "desirablebottom": {
       "note": "Enthusiastic Valorant gamer who loves lighthearted humor, encourages teammates, enjoys playful banter, builds, and chats about Outlast trials and horror game awards.",
-      "at": 1792238329172,
-      "n": 53
+      "at": 1792281889188,
+      "n": 54
     },
     "tarzan": {
       "note": "Friendly gamer who loves Helldivers and Super Mario, uses playful banter and emojis to warmly engage viewers.",
@@ -24416,8 +24416,8 @@
     }
   },
   "auth": {
-    "accessToken": "eb6dc278e392a55163f450bc4ce58311",
-    "refreshToken": "216d4f7e63bd0394a42f9a686118f8cd",
+    "accessToken": "119dd0487aba6631a136841ad1756edf",
+    "refreshToken": "7ebcdbee9a56791e4a5fb3a44db88960",
     "sessionToken": "a821810bc5c440e6ac8936481c3c827e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
