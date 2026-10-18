@@ -12685,8 +12685,8 @@
       "joinedAt": 1784453301135,
       "stats": {
         "totalVotes": 10541,
-        "totalSubs": 60,
-        "totalChatMessages": 519,
+        "totalSubs": 61,
+        "totalChatMessages": 520,
         "totalStreamMinutes": 9207,
         "emotes": {
           "🔥": 8,
@@ -12735,13 +12735,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792287122238
+        "lastChatAt": 1792297920583
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: dots! Come hang out and watch."
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -12777,6 +12773,10 @@
         {
           "user": "scurvybot",
           "msg": "@Potato_Pete subscribed! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@just_for_lucas subscribed! Thank you!"
         }
       ],
       "customCommands": {},
@@ -12800,7 +12800,7 @@
       "loyalty": {
         "just_for_lucas": {
           "name": "just_for_lucas",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "korosuplays": {
@@ -12902,7 +12902,7 @@
       "_idAt": 1792281655421,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792287122334
+      "_gameAt": 1792297920718
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
       "username": "sheena",
@@ -24443,8 +24443,8 @@
     }
   },
   "auth": {
-    "accessToken": "cb47a6df58b6ee769cf17e58a39d2fe4",
-    "refreshToken": "ddcb7c73e47697075a5279b69921478a",
+    "accessToken": "962008e4c91718e6b5bd93819c0055ff",
+    "refreshToken": "c1e57b08f4f184919f5e103ab405485c",
     "sessionToken": "a821810bc5c440e6ac8936481c3c827e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
