@@ -1538,7 +1538,7 @@
       "stats": {
         "totalVotes": 33669,
         "totalSubs": 79,
-        "totalChatMessages": 42024,
+        "totalChatMessages": 42026,
         "totalStreamMinutes": 3857,
         "emotes": {
           "🔥": 2247,
@@ -1878,7 +1878,7 @@
           "🙂": "🙂",
           "↕": "↕"
         },
-        "lastChatAt": 1792286785242,
+        "lastChatAt": 1792287109053,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1886,10 +1886,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "💀 BraveLegend7 has been eliminated! 2 players remaining."
-        },
         {
           "user": "blazegames_bot",
           "msg": "💀 QuickHero98 has been eliminated! 1 player remaining."
@@ -1925,6 +1921,10 @@
         {
           "user": "blazegames_bot",
           "msg": "@jt_squared2 bought ticket #20 | Pot: 28226.36 BLAZE ($14.85) | 1 in 10 | P10"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Manual Obeez refresh is not configured on the bot."
         }
       ],
       "customCommands": {},
@@ -2151,7 +2151,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792274452976,
-      "_gameAt": 1792286780326,
+      "_gameAt": 1792287108956,
       "isLive": false,
       "streamCategory": ""
     },
@@ -4688,7 +4688,7 @@
         "totalVotes": 34471,
         "totalSubs": 78,
         "totalChatMessages": 4660,
-        "totalStreamMinutes": 18273,
+        "totalStreamMinutes": 18278,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -5743,14 +5743,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 42505,
+        "totalVotes": 42693,
         "totalSubs": 128,
-        "totalChatMessages": 14727,
+        "totalChatMessages": 14729,
         "totalStreamMinutes": 9190,
         "emotes": {
           "❤": 265,
           "🙌": 411,
-          "🗳": 1829,
+          "🗳": 1835,
           "✌": 11,
           "😊": 10,
           "👍": 19,
@@ -6318,17 +6318,9 @@
           "🫴": "🫴"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792275361168
+        "lastChatAt": 1792287341036
       },
       "chatMemory": [
-        {
-          "user": "lostsnow",
-          "msg": "just coming in to say hi"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @LostSnow has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
@@ -6360,6 +6352,14 @@
         {
           "user": "tenshi",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]  thank you for visiting my stream briggsy"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 88 vote(s) (total: 88)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 100 vote(s) (total: 188)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6571,7 +6571,7 @@
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
       "_idAt": 1792275655384,
-      "_gameAt": 1792275361262,
+      "_gameAt": 1792287330735,
       "isLive": false,
       "streamCategory": ""
     },
@@ -6750,7 +6750,7 @@
         "totalVotes": 39738,
         "totalSubs": 85,
         "totalChatMessages": 9230,
-        "totalStreamMinutes": 16122,
+        "totalStreamMinutes": 16127,
         "emotes": {
           "❤": 162,
           "🙌": 216,
@@ -12308,14 +12308,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 32051,
+        "totalVotes": 32255,
         "totalSubs": 33,
-        "totalChatMessages": 1573,
+        "totalChatMessages": 1574,
         "totalStreamMinutes": 2455,
         "emotes": {
           "❤": 29,
           "🙌": 44,
-          "🗳": 684,
+          "🗳": 687,
           "🚨": 66,
           "🎉": 36,
           "👋": 48,
@@ -12500,17 +12500,13 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE",
           "🐰": "🐰"
         },
-        "lastChatAt": 1792037126974,
-        "sendFailStreak": 287,
-        "lastSendFailAt": 1792118168417,
+        "lastChatAt": 1792287315765,
+        "sendFailStreak": 288,
+        "lastSendFailAt": 1792287313650,
         "lastSendFailReason": "You are banned from this channel.",
-        "lastProbeAt": 1792118168235
+        "lastProbeAt": 1792287313469
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "GM GM"
-        },
         {
           "user": "dimifw",
           "msg": "GM Scheun"
@@ -12546,6 +12542,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 22 vote(s) (total: 22)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 204 vote(s) (total: 204)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -12672,7 +12672,10 @@
       "commentMode": "low",
       "lastStreamInfo": "Streamish #119 - Rocket League — Rocket League",
       "lastStreamEndedAt": 1791877266998,
-      "_idAt": 1792282855387
+      "_idAt": 1792282855387,
+      "_gameAt": 1792287315866,
+      "isLive": false,
+      "streamCategory": ""
     },
     "3fae585f-36eb-458c-976e-d3da3b360500": {
       "username": "pr0ff",
@@ -12680,8 +12683,8 @@
       "joinedAt": 1784453301135,
       "stats": {
         "totalVotes": 10541,
-        "totalSubs": 59,
-        "totalChatMessages": 518,
+        "totalSubs": 60,
+        "totalChatMessages": 519,
         "totalStreamMinutes": 9207,
         "emotes": {
           "🔥": 8,
@@ -12730,13 +12733,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792286772176
+        "lastChatAt": 1792287122238
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live: dots! Come hang out and watch."
@@ -12772,6 +12771,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @Potato_Pete!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Potato_Pete subscribed! Thank you!"
         }
       ],
       "customCommands": {},
@@ -12887,12 +12890,17 @@
           "name": "meyetechnicals",
           "months": 1,
           "tier": 1
+        },
+        "potato_pete": {
+          "name": "potato_pete",
+          "months": 1,
+          "tier": 1
         }
       },
       "_idAt": 1792281655421,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792286737073
+      "_gameAt": 1792287122334
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
       "username": "sheena",
@@ -19584,7 +19592,7 @@
         "totalVotes": 7980,
         "totalSubs": 37,
         "totalChatMessages": 4653,
-        "totalStreamMinutes": 15534,
+        "totalStreamMinutes": 15539,
         "emotes": {
           "👋": 107,
           "⚠": 2,
@@ -21425,7 +21433,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 63,
-        "totalStreamMinutes": 6067,
+        "totalStreamMinutes": 6072,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -23910,8 +23918,8 @@
     },
     "unclefunk": {
       "note": "Unclefunk streams upbeat funk, jokes playfully, loves gaming, uses Streamyard and Discord for tunes, and always greets viewers with a cheerful “halloooo.”",
-      "at": 1792099249440,
-      "n": 26
+      "at": 1792287169122,
+      "n": 27
     },
     "jusjayd": {
       "note": "Enjoys classic 80s games, GTA V, hunting free or great deals, and jokes about gaming and everyday life.",
@@ -24431,8 +24439,8 @@
     }
   },
   "auth": {
-    "accessToken": "cf845eb79e7918496262cdeea1ab45ce",
-    "refreshToken": "66a90ff7e465b4778cca1484faea4ece",
+    "accessToken": "b89f9a78cf55e11fd6d24a15239e6da5",
+    "refreshToken": "0ca00b0090775e21b90ea024ab11902e",
     "sessionToken": "a821810bc5c440e6ac8936481c3c827e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
