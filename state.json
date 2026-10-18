@@ -3332,7 +3332,7 @@
         "totalVotes": 27724,
         "totalSubs": 111,
         "totalChatMessages": 8936,
-        "totalStreamMinutes": 26951,
+        "totalStreamMinutes": 26956,
         "emotes": {
           "❤": 245,
           "🙌": 206,
@@ -5364,7 +5364,7 @@
         "totalVotes": 14710,
         "totalSubs": 58,
         "totalChatMessages": 2315,
-        "totalStreamMinutes": 12601,
+        "totalStreamMinutes": 12606,
         "emotes": {
           "✨": 49,
           "🖥": 24,
@@ -8356,8 +8356,8 @@
       "stats": {
         "totalVotes": 23355,
         "totalSubs": 59,
-        "totalChatMessages": 4486,
-        "totalStreamMinutes": 5222,
+        "totalChatMessages": 4489,
+        "totalStreamMinutes": 5227,
         "emotes": {
           "❤": 53,
           "🙌": 112,
@@ -8469,7 +8469,7 @@
           "ae6c60c8-b6f3-4c23-875d-d343e08d5cbc": 1,
           "🤔": 1,
           "abf8515b-cf35-4a7c-b579-9286f4fedf00": 3,
-          "💕": 1,
+          "💕": 2,
           "🥹": 2,
           "🥺": 1,
           "91d67537-03d5-46b5-a8c3-ea51efe18352": 1,
@@ -8601,21 +8601,9 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792338036547
+        "lastChatAt": 1792338406155
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "I’ve only done 5 days so ear."
-        },
-        {
-          "user": "briggsy",
-          "msg": "Hey @marowak33 man"
-        },
-        {
-          "user": "botger",
-          "msg": "https://discord.gg/PXwUmyWwN"
-        },
         {
           "user": "briggsy",
           "msg": "Tii, forgive me, I am working today but watching as I am able."
@@ -8643,6 +8631,18 @@
         {
           "user": "botger",
           "msg": "https://www.youtube.com/@Time.Art.Studio"
+        },
+        {
+          "user": "botger",
+          "msg": "https://objkt.com/users/tz1StXgeDD2qxKUznhNAwM8raNTkvQs7XJFG/created"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Awww I love this Tii 💕"
+        },
+        {
+          "user": "time",
+          "msg": "Briiiiiii"
         }
       ],
       "customCommands": {},
@@ -8729,7 +8729,7 @@
       "lastStreamInfo": "Digital Drawing — Art",
       "lastStreamEndedAt": 1791750067319,
       "_idAt": 1792323926232,
-      "_gameAt": 1792338036632,
+      "_gameAt": 1792338350321,
       "isLive": true,
       "streamCategory": "Art"
     },
@@ -10389,7 +10389,7 @@
         "totalVotes": 12208,
         "totalSubs": 209,
         "totalChatMessages": 517,
-        "totalStreamMinutes": 17001,
+        "totalStreamMinutes": 17006,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -11895,16 +11895,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 38066,
+        "totalVotes": 38116,
         "totalSubs": 179,
-        "totalChatMessages": 4104,
+        "totalChatMessages": 4105,
         "totalStreamMinutes": 21021,
         "emotes": {
           "❤": 148,
           "🙌": 252,
           "💚": 3,
           "🔥": 142,
-          "🗳": 1050,
+          "🗳": 1053,
           "🔴": 172,
           "🎉": 227,
           "📴": 170,
@@ -12128,13 +12128,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792326276538
+        "lastChatAt": 1792338588348
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "💰 TIP ALERT!! 💰 @mindgoblin just tipped $23.00!! Thank you so much!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ fohrerslayer just followed the channel! Welcome!! 🙌"
@@ -12170,6 +12166,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -12369,7 +12369,7 @@
       "lastStreamInfo": "Finishing the game! Say Hi!?",
       "lastStreamEndedAt": 1792326271340,
       "_idAt": 1792328239408,
-      "_gameAt": 1792326276644,
+      "_gameAt": 1792338588443,
       "isLive": false,
       "streamCategory": ""
     },
@@ -24515,8 +24515,8 @@
     }
   },
   "auth": {
-    "accessToken": "6a3997bbc7937b3fb11e2233d2c391f2",
-    "refreshToken": "7e7bddc1dcb458da41cdfd20956365aa",
+    "accessToken": "0677894b20649faf2b79186482f9451b",
+    "refreshToken": "e2c1703eb520c2cc041a25e49ad47195",
     "sessionToken": "7eaf062ee30b61abd65aa85ff5fc62a9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
