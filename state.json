@@ -11520,12 +11520,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 22587,
-        "totalSubs": 57,
-        "totalChatMessages": 2463,
+        "totalSubs": 58,
+        "totalChatMessages": 2467,
         "totalStreamMinutes": 4634,
         "emotes": {
-          "❤": 167,
-          "🙌": 138,
+          "❤": 169,
+          "🙌": 140,
           "🔴": 39,
           "🎉": 68,
           "👋": 85,
@@ -11540,7 +11540,7 @@
           "😘": 2,
           "🤝": 1,
           "💚": 1,
-          "🔥": 100,
+          "🔥": 102,
           "😂": 27,
           "🚨": 144,
           "🎁": 78,
@@ -11692,25 +11692,9 @@
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": "DAZEDPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792313235519
+        "lastChatAt": 1792314300583
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @xBuRnTx!"
-        },
-        {
-          "user": "botger",
-          "msg": "⚠️ Heads up parky! You're projected to fall below Verified (Tier 2) in about 7 days (2026/10/22 07:33 UTC). Current stream hours: 17.0h / 10h required. Stream more to keep your Verified status! 🎯"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 750 votes, @JohnGalt!"
@@ -11734,6 +11718,22 @@
         {
           "user": "faithy_",
           "msg": "[emote:f6a00ee4-bc40-4d8f-8879-c122ad069225]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @noxx!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ noxx just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @noxx to the channel! Thank you so much for subscribing! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@noxx subscribed! Thank you!"
         }
       ],
       "customCommands": {},
@@ -11825,6 +11825,11 @@
           "name": "cookiexfalcon_",
           "months": 1,
           "tier": 1
+        },
+        "noxx": {
+          "name": "noxx",
+          "months": 1,
+          "tier": 1
         }
       },
       "nudgedAt": 1785010054808,
@@ -11832,7 +11837,7 @@
       "lastStreamInfo": "[UK] #39 E-DAY - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING — Gears Of War: E-Day",
       "lastStreamEndedAt": 1792019408131,
       "_idAt": 1792304449411,
-      "_gameAt": 1792313235650,
+      "_gameAt": 1792314262702,
       "isLive": false,
       "streamCategory": ""
     },
@@ -12320,7 +12325,7 @@
         "totalVotes": 32355,
         "totalSubs": 34,
         "totalChatMessages": 1589,
-        "totalStreamMinutes": 2511,
+        "totalStreamMinutes": 2516,
         "emotes": {
           "❤": 29,
           "🙌": 45,
@@ -24455,8 +24460,8 @@
     }
   },
   "auth": {
-    "accessToken": "116dd682f586bef3c8fed86bbc39c29c",
-    "refreshToken": "035d03324be36d6469c228e77f84d07a",
+    "accessToken": "98b7d198027b70d1c33d35c7f444985d",
+    "refreshToken": "3033372e9ce33d89515cee8e5e9d9ca3",
     "sessionToken": "a821810bc5c440e6ac8936481c3c827e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
