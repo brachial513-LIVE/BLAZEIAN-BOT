@@ -12312,7 +12312,7 @@
       "stats": {
         "totalVotes": 32255,
         "totalSubs": 33,
-        "totalChatMessages": 1574,
+        "totalChatMessages": 1575,
         "totalStreamMinutes": 2455,
         "emotes": {
           "❤": 29,
@@ -12358,8 +12358,8 @@
           "❄": 2,
           "🫪": 2,
           "😱": 2,
-          "⚠": 7,
-          "🎯": 7,
+          "⚠": 8,
+          "🎯": 8,
           "🤘": 1,
           "😆": 9,
           "😜": 4,
@@ -12502,17 +12502,13 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE",
           "🐰": "🐰"
         },
-        "lastChatAt": 1792287315765,
+        "lastChatAt": 1792308811723,
         "sendFailStreak": 288,
         "lastSendFailAt": 1792287313650,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1792287313469
       },
       "chatMemory": [
-        {
-          "user": "dimifw",
-          "msg": "GM Scheun"
-        },
         {
           "user": "dimifw",
           "msg": "welcome to the neverending quest to rank score 1000"
@@ -12548,6 +12544,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 204 vote(s) (total: 204)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up dimifw! You're projected to fall below Verified (Tier 2) in about 3 days (2026/10/21 07:33 UTC). Current stream hours: 12.5h / 10h required. Stream more to keep your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -12675,7 +12675,7 @@
       "lastStreamInfo": "Streamish #119 - Rocket League — Rocket League",
       "lastStreamEndedAt": 1791877266998,
       "_idAt": 1792306847072,
-      "_gameAt": 1792287315866,
+      "_gameAt": 1792308811819,
       "isLive": false,
       "streamCategory": ""
     },
@@ -19593,16 +19593,16 @@
       "stats": {
         "totalVotes": 8140,
         "totalSubs": 37,
-        "totalChatMessages": 4697,
-        "totalStreamMinutes": 15853,
+        "totalChatMessages": 4699,
+        "totalStreamMinutes": 15855,
         "emotes": {
-          "👋": 111,
+          "👋": 112,
           "⚠": 2,
           "🎯": 2,
           "🗳": 434,
           "🔴": 107,
           "🎉": 136,
-          "📴": 107,
+          "📴": 108,
           "🎡": 3,
           "®": 3,
           "📢": 9,
@@ -19774,17 +19774,9 @@
           "9294e28e-48fa-409c-b43b-98287465b788": "CONTRASTPYRO2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792308563196
+        "lastChatAt": 1792308760623
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 inn is now live! Welcome everyone! 🎉"
@@ -19816,6 +19808,14 @@
         {
           "user": "scurvybot",
           "msg": "@jamiepenguins you have 0 trash"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -19830,9 +19830,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "🔥 319th Blaze Stream🔥",
+      "streamTitle": "",
       "lastStreamInfo": "🔥 319th Blaze Stream🔥",
-      "lastStreamEndedAt": 1792305204208,
+      "lastStreamEndedAt": 1792308755468,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” love “mystery fish” drops, and keep the vibe high‑energy.",
@@ -19942,9 +19942,9 @@
         }
       },
       "_idAt": 1792304448219,
-      "_gameAt": 1792308540528,
-      "isLive": true,
-      "streamCategory": "Fortnite"
+      "_gameAt": 1792308756072,
+      "isLive": false,
+      "streamCategory": ""
     },
     "45880919-42f4-4001-8344-15cf51f52765": {
       "username": "flantality",
@@ -24443,8 +24443,8 @@
     }
   },
   "auth": {
-    "accessToken": "18cbf8aee4b3e73c060d774aa5b3b215",
-    "refreshToken": "f626fadaa282efea1118f195076d6f4d",
+    "accessToken": "c3f53012983506227c4c81b52526a10e",
+    "refreshToken": "0b1a97d254865cec2bcb5886f3b009b1",
     "sessionToken": "a821810bc5c440e6ac8936481c3c827e",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
