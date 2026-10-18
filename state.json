@@ -3324,14 +3324,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 27427,
+        "totalVotes": 27428,
         "totalSubs": 110,
-        "totalChatMessages": 8880,
+        "totalChatMessages": 8882,
         "totalStreamMinutes": 26763,
         "emotes": {
           "❤": 243,
           "🙌": 205,
-          "🗳": 1266,
+          "🗳": 1269,
           "📴": 223,
           "👋": 253,
           "🔴": 218,
@@ -3690,18 +3690,10 @@
           "🖤": "🖤",
           "🌍": "🌍"
         },
-        "lastChatAt": 1792274884395,
+        "lastChatAt": 1792299320426,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @omererkmen!"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live: starting Soon 🌍 Wilder World 5 PM AST w/ K1ngBre4ker & Zsoltech! Come hang out and watch."
@@ -3733,6 +3725,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @Marowak33!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -3953,8 +3953,8 @@
           "dur": 0
         }
       },
-      "_idAt": 1792275647025,
-      "_gameAt": 1792274879626,
+      "_idAt": 1792298447082,
+      "_gameAt": 1792299318572,
       "isLive": false,
       "streamCategory": ""
     },
@@ -4606,7 +4606,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792267574019,
-      "_idAt": 1792275648188,
+      "_idAt": 1792298448208,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792267528880
@@ -4679,7 +4679,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1792275649388
+      "_idAt": 1792298449405
     },
     "c87ed67e-a16e-48e5-af83-6e557f72970e": {
       "username": "capt_rob_advent",
@@ -5161,7 +5161,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Standing by in Louisiana to fuel 2 ships",
       "lastStreamEndedAt": 1792292998949,
-      "_idAt": 1792275650584,
+      "_idAt": 1792298450623,
       "_gameAt": 1792293004477,
       "isLive": false,
       "streamCategory": ""
@@ -5337,15 +5337,15 @@
           "tier": 1
         }
       },
-      "_idAt": 1792275651785
+      "_idAt": 1792298451821
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
       "language": "en",
       "stats": {
-        "totalVotes": 14558,
+        "totalVotes": 14559,
         "totalSubs": 58,
-        "totalChatMessages": 2296,
+        "totalChatMessages": 2297,
         "totalStreamMinutes": 12535,
         "emotes": {
           "✨": 49,
@@ -5358,7 +5358,7 @@
           "⚡": 27,
           "🏆": 23,
           "💥": 32,
-          "🗳": 412,
+          "🗳": 413,
           "🎁": 57,
           "👑": 80,
           "💜": 8,
@@ -5372,7 +5372,7 @@
           "🛡": 3,
           "🫡": 11,
           "🏰": 4,
-          "🙌": 392,
+          "🙌": 393,
           "💩": 55,
           "🤣": 10,
           "😂": 52,
@@ -5579,14 +5579,10 @@
           "👊": "👊",
           "🤗": "🤗"
         },
-        "lastChatAt": 1792275307857,
+        "lastChatAt": 1792299306346,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "👑 [SUB ALERT]: HUGE hype! @charddxyz just locked in a Tier 1 sub for month 1! Thank you for keeping the dream alive!"
-        },
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 125 votes, @future42! Your support is truly appreciated! 🙌"
@@ -5622,6 +5618,10 @@
         {
           "user": "cachebot",
           "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🗳️ Thanks for the 1 votes, @marowak33! Your support is truly appreciated! 🙌"
         }
       ],
       "customCommands": {},
@@ -5706,10 +5706,10 @@
       "lastStreamEndedAt": 1792275307186,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792275652994,
+      "_idAt": 1792298453017,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792275307947
+      "_gameAt": 1792299306443
     },
     "c4862309-a471-4f68-a7f9-44e81edacb01": {
       "username": "hollowgames",
@@ -5737,7 +5737,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792275654182
+      "_idAt": 1792298454208
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -6570,7 +6570,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
-      "_idAt": 1792275655384,
+      "_idAt": 1792298455414,
       "_gameAt": 1792287330735,
       "isLive": false,
       "streamCategory": ""
@@ -8925,9 +8925,9 @@
       "username": "helios",
       "language": "en",
       "stats": {
-        "totalVotes": 1897,
+        "totalVotes": 1898,
         "totalSubs": 21,
-        "totalChatMessages": 345,
+        "totalChatMessages": 346,
         "totalStreamMinutes": 1232,
         "emotes": {
           "❤": 36,
@@ -8954,7 +8954,7 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": 6,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 9,
           "🍺": 4,
-          "🗳": 18,
+          "🗳": 21,
           "⚠": 2,
           "🎯": 2,
           "🚨": 6
@@ -8989,14 +8989,10 @@
           "🎯": "🎯",
           "🚨": "🚨"
         },
-        "lastChatAt": 1792262424038,
+        "lastChatAt": 1792299212061,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -9032,6 +9028,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @K1NGBRE4KER has resubscribed (5 months total, 4 months streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9122,7 +9122,7 @@
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
       "_idAt": 1792279251913,
-      "_gameAt": 1792262424140,
+      "_gameAt": 1792299212155,
       "isLive": false,
       "streamCategory": ""
     },
@@ -10341,7 +10341,7 @@
       "username": "saboomafoo",
       "language": "en",
       "stats": {
-        "totalVotes": 12195,
+        "totalVotes": 12196,
         "totalSubs": 209,
         "totalChatMessages": 517,
         "totalStreamMinutes": 16986,
@@ -11038,14 +11038,14 @@
       "username": "0xscheun",
       "language": "en",
       "stats": {
-        "totalVotes": 6692,
+        "totalVotes": 6693,
         "totalSubs": 38,
-        "totalChatMessages": 1008,
+        "totalChatMessages": 1009,
         "totalStreamMinutes": 2914,
         "emotes": {
           "❤": 39,
           "🙌": 50,
-          "🗳": 282,
+          "🗳": 285,
           "🔴": 59,
           "🎉": 62,
           "📴": 58,
@@ -11149,13 +11149,9 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792287591008
+        "lastChatAt": 1792299190495
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "gm gm"
-        },
         {
           "user": "briggsy",
           "msg": "[emote:d5605de6-7f76-42d0-ae9a-f78959fa2fb5]"
@@ -11191,6 +11187,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -11301,7 +11301,7 @@
       "_idAt": 1792281652990,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792287591102
+      "_gameAt": 1792299190610
     },
     "79438541-610a-4083-b103-5d45043a9664": {
       "username": "lady_iris",
@@ -12684,9 +12684,9 @@
       "language": "en",
       "joinedAt": 1784453301135,
       "stats": {
-        "totalVotes": 10541,
+        "totalVotes": 10542,
         "totalSubs": 61,
-        "totalChatMessages": 520,
+        "totalChatMessages": 522,
         "totalStreamMinutes": 9207,
         "emotes": {
           "🔥": 8,
@@ -12735,17 +12735,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792297920583
+        "lastChatAt": 1792299260135
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: dots! Come hang out and watch."
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -12777,6 +12769,14 @@
         {
           "user": "scurvybot",
           "msg": "@just_for_lucas subscribed! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @Marowak33!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @Marowak33!"
         }
       ],
       "customCommands": {},
@@ -12902,7 +12902,7 @@
       "_idAt": 1792281655421,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792297920718
+      "_gameAt": 1792299255878
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
       "username": "sheena",
@@ -14330,9 +14330,9 @@
       "language": "en",
       "joinedAt": 1784468670654,
       "stats": {
-        "totalVotes": 8246,
+        "totalVotes": 8247,
         "totalSubs": 59,
-        "totalChatMessages": 2798,
+        "totalChatMessages": 2799,
         "totalStreamMinutes": 7087,
         "emotes": {
           "❤": 112,
@@ -14340,7 +14340,7 @@
           "📴": 58,
           "👋": 61,
           "🎁": 52,
-          "🗳": 252,
+          "🗳": 255,
           "⚠": 1,
           "🎯": 1,
           "🔴": 60,
@@ -14543,13 +14543,9 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792257031000
+        "lastChatAt": 1792298987503
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -14585,6 +14581,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @TimDraws has resubscribed (6 months total, 4 months streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -14723,7 +14723,7 @@
         }
       },
       "_idAt": 1792280448189,
-      "_gameAt": 1792256936044,
+      "_gameAt": 1792298987631,
       "isLive": false,
       "streamCategory": ""
     },
@@ -17296,9 +17296,9 @@
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 11219,
+        "totalVotes": 11220,
         "totalSubs": 90,
-        "totalChatMessages": 1841,
+        "totalChatMessages": 1843,
         "totalStreamMinutes": 7612,
         "emotes": {
           "❤": 73,
@@ -17308,7 +17308,7 @@
           "🤝": 1,
           "🔴": 63,
           "🎉": 62,
-          "🗳": 222,
+          "🗳": 225,
           "📴": 54,
           "👋": 55,
           "💛": 1,
@@ -17395,17 +17395,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792278531189
+        "lastChatAt": 1792299182647
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@missaria subscribed! Thank you!"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @charddxyz has resubscribed (5 months total, 4 months streak)! Thank you for the continued support! 🙌"
-        },
         {
           "user": "scurvybot",
           "msg": "@charddxyz subscribed! Thank you!"
@@ -17437,6 +17429,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @TwistedTinker!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @Marowak33!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -17540,7 +17540,7 @@
         }
       },
       "_idAt": 1792281650592,
-      "_gameAt": 1792278531312,
+      "_gameAt": 1792299180773,
       "isLive": false,
       "streamCategory": ""
     },
@@ -18119,7 +18119,7 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 28130,
+        "totalVotes": 28140,
         "totalSubs": 124,
         "totalChatMessages": 7290,
         "totalStreamMinutes": 13416,
@@ -19229,7 +19229,7 @@
       "language": "en",
       "joinedAt": 1786592864058,
       "stats": {
-        "totalVotes": 5008,
+        "totalVotes": 5009,
         "totalSubs": 30,
         "totalChatMessages": 1656,
         "totalStreamMinutes": 8091,
@@ -19591,22 +19591,22 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 7980,
+        "totalVotes": 7981,
         "totalSubs": 37,
-        "totalChatMessages": 4655,
-        "totalStreamMinutes": 15699,
+        "totalChatMessages": 4663,
+        "totalStreamMinutes": 15700,
         "emotes": {
-          "👋": 108,
+          "👋": 109,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 428,
-          "🔴": 103,
-          "🎉": 132,
-          "📴": 104,
+          "🗳": 431,
+          "🔴": 105,
+          "🎉": 134,
+          "📴": 105,
           "🎡": 3,
           "®": 3,
           "📢": 9,
-          "🔥": 155,
+          "🔥": 159,
           "❤": 50,
           "😶": 3,
           "🌫": 3,
@@ -19774,40 +19774,24 @@
           "9294e28e-48fa-409c-b43b-98287465b788": "CONTRASTPYRO2"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792296923465
+        "lastChatAt": 1792299330309
       },
       "chatMemory": [
         {
-          "user": "cg777",
-          "msg": "hey"
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         },
         {
           "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @CG777 has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         },
         {
           "user": "scurvybot",
-          "msg": "@CG777 subscribed! Thank you!"
+          "msg": "Stream is now live: 🔥 319th Blaze Stream🔥! Come hang out and watch."
         },
         {
-          "user": "cg777",
-          "msg": "thabk you for the suub"
-        },
-        {
-          "user": "inn",
-          "msg": "Thanks for the sub!"
-        },
-        {
-          "user": "inn",
-          "msg": "Yo I made a bot"
-        },
-        {
-          "user": "botshit",
-          "msg": "Who ordered the number two?"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @CG777, who is live now, currently streaming IRL to 2 viewers at https://blaze.stream/cg777!"
+          "user": "botger",
+          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
         },
         {
           "user": "scurvybot",
@@ -19816,6 +19800,22 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 🔥 319th Blaze Stream🔥! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @Marowak33!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -19830,9 +19830,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "🔥 319th Blaze Stream🔥",
       "lastStreamInfo": "🔥 319th Blaze Stream🔥",
-      "lastStreamEndedAt": 1792296918196,
+      "lastStreamEndedAt": 1792299249937,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” love “mystery fish” drops, and keep the vibe high‑energy.",
@@ -19942,9 +19942,9 @@
         }
       },
       "_idAt": 1792281647021,
-      "_gameAt": 1792296918707,
-      "isLive": false,
-      "streamCategory": ""
+      "_gameAt": 1792299292435,
+      "isLive": true,
+      "streamCategory": "Fortnite"
     },
     "45880919-42f4-4001-8344-15cf51f52765": {
       "username": "flantality",
@@ -19983,9 +19983,9 @@
       "language": "en",
       "joinedAt": 1787228991116,
       "stats": {
-        "totalVotes": 7923,
+        "totalVotes": 7924,
         "totalSubs": 31,
-        "totalChatMessages": 1694,
+        "totalChatMessages": 1695,
         "totalStreamMinutes": 8419,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
@@ -20148,13 +20148,9 @@
           "😍": "😍"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792288140589
+        "lastChatAt": 1792299001787
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @FartVader!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 100 votes, @vRoshi55!"
@@ -20190,6 +20186,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 5 votes, @Potato_Pete!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @Marowak33!"
         }
       ],
       "customCommands": {
@@ -20327,7 +20327,7 @@
         }
       },
       "_idAt": 1792285248187,
-      "_gameAt": 1792288140695,
+      "_gameAt": 1792299001882,
       "isLive": false,
       "streamCategory": ""
     },
@@ -20336,7 +20336,7 @@
       "language": "en",
       "joinedAt": 1787497151215,
       "stats": {
-        "totalVotes": 5531,
+        "totalVotes": 5532,
         "totalSubs": 20,
         "totalChatMessages": 343,
         "totalStreamMinutes": 792,
@@ -23067,8 +23067,8 @@
   "learnedPeople": {
     "lipeman": {
       "note": "Playful gamer who loves Mario, Sonic, and Nintendo, keeps chat light‑hearted with jokes and lots of “kkkkkk” laughs.",
-      "at": 1792200048991,
-      "n": 28
+      "at": 1792298389164,
+      "n": 29
     },
     "solucao": {
       "note": "They love gaming streams, especially Batman, Mortal Kombat, and Spider‑Man, and enjoy playful fruit puns and Cavaleiros do Zodíaco jokes.",
@@ -24131,9 +24131,9 @@
       "n": 2
     },
     "kwinchester": {
-      "note": "Kwinchester loves gaming, cheering teammates, laughing loudly, celebrating victories with playful jokes, and often chats about Discord and in‑game strategies.",
-      "at": 1792231069038,
-      "n": 12
+      "note": "Kwinchester is a loud, playful gamer who cheers teammates,",
+      "at": 1792299049136,
+      "n": 13
     },
     "timdraws": {
       "note": "Timdraws enjoys MMORPGs like Aion 2, indie gems such as Graveyard Keeper, Hollow Knight, Corekeeper, and Risk of Rain 2, and often talks about abyss quests, guilds, and game difficulty.",
