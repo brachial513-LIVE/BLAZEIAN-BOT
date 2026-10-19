@@ -17,6 +17,7 @@ BlazeianBot isn't a canned-response bot — it actually reads what people say an
 - **Knows its limits** — asked about Blaze-internal status (verification progress, how many subs someone still needs), it answers honestly and cheers you on instead of pretending to look it up or inventing numbers
 - **Per-channel custom commands** — streamers add their own via a dashboard, no code required
 - **Giveaways (spin-the-wheel entries)** — viewers enter with a chat command the streamer names (e.g. `!join`); a second command shows the running count. Each viewer counts once, entries persist across restarts, and the dashboard shows the full copyable entrant list (one name per line) to paste straight into an external spin-the-wheel — plus open/close and reset controls
+- **Vote log (giveaway tool)** — every vote a channel receives is logged with the voter, the exact time (shown in the streamer's own timezone) and the amount, in a dashboard panel filterable by a minimum and a time window (default: current vote week since the Monday 02:00 reset). Lets streamers see exactly who dropped votes overnight for vote-based giveaways — data the Blaze leaderboard and raw logs throw away. Written before any AI call, so it survives rate-limits; kept 14 days
 - **Media commands** — any custom command can also fire a **sound + a GIF / video / picture on stream** (with optional on-screen text and a `{name}` arg, e.g. `!hype Zani`). Attach media by URL or upload a file (≤25MB, stored in the repo so it persists); it plays on a dedicated **Command Alert** OBS overlay (`/overlay/alert/NAME`), on a short cooldown so chat can't flood it
 - **Streaming schedule** — owner sets it once with `!setschedule`, viewers check it anytime with `!schedule`
 - **Tip-for-a-reward tiers** — owners running a "tip $X for Y" promo set their own tiers with `!settiptier`, and the bot calls out the actual reward earned in the celebration
@@ -54,6 +55,6 @@ Every streamer manages only their own channel from their own dashboard — the b
 
 ## Status
 
-Actively developed and running live 24/7 across 75+ Blaze channels, completely free for every streamer who joins.
+Actively developed and running live 24/7 across 85+ Blaze channels, completely free for every streamer who joins.
 
 Built by [Brachial513](https://x.com/BRACHIAL513) — founder of the GMC (Geile Menschen Community) — steering the product with an AI coding assistant as build partner.
