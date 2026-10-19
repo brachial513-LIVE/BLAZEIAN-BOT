@@ -1196,10 +1196,12 @@ async function unfollowChannel(channelId) {
 // optional MYMEMORY_EMAIL env raises the free daily quota from 5,000 to 50,000 characters.
 const MYMEMORY_EMAIL = process.env.MYMEMORY_EMAIL || "";
 async function translateText(text, targetLangCode) {
+  const q = String(text || "").trim();
+  const tl = String(targetLangCode || "").trim();
+  if (!q || !tl) return null;
+  // 1) MyMemory first — free, no token cost. BUT it rate-limits/blocks datacenter IPs (Render) sporadically,
+  //    returning null; proven live (der_bruder got English even with the email key + 50k quota set).
   try {
-    const q = String(text || "").trim();
-    const tl = String(targetLangCode || "").trim();
-    if (!q || !tl) return null;
     const url = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(q)
       + "&langpair=" + encodeURIComponent("Autodetect|" + tl)
       + (MYMEMORY_EMAIL ? "&de=" + encodeURIComponent(MYMEMORY_EMAIL) : "");
@@ -1207,10 +1209,29 @@ async function translateText(text, targetLangCode) {
     const d = res.data || {};
     const out = d.responseData && d.responseData.translatedText;
     // MyMemory signals quota/errors as an ALL-CAPS message in translatedText (and/or quotaFinished).
-    if (!out || d.quotaFinished === true || /^(MYMEMORY WARNING|QUERY LENGTH|PLEASE SELECT|INVALID)/i.test(out)) return null;
-    return out;
+    if (out && d.quotaFinished !== true && !/^(MYMEMORY WARNING|QUERY LENGTH|PLEASE SELECT|INVALID)/i.test(out)) return out;
   } catch (e) {
-    console.log("Translate error:", e.message);
+    console.log("Translate (MyMemory) error:", e.message);
+  }
+  // 2) Groq LLM fallback — reliable from Render's IP, and higher quality than MyMemory's phrase matching.
+  //    Only fires when MyMemory failed, so cost stays tiny (announces are rare, few non-English channels).
+  return await translateViaGroq(q, tl);
+}
+
+async function translateViaGroq(text, targetLangCode) {
+  if (!AI_KEY) return null;
+  const langName = LANG_DISPLAY[String(targetLangCode).toLowerCase()] || targetLangCode;
+  try {
+    const res = await axios.post("https://api.groq.com/openai/v1/chat/completions", {
+      model: AI_MODEL_LIGHT, ...LIGHT_REASONING,
+      messages: [{ role: "user", content: `Translate the text below into ${langName}. Keep all emojis, hashtags, @mentions, links and line breaks exactly as they are. Do not add anything. Output ONLY the translation — no quotes, no notes, no explanation.\n\n${text}` }],
+      max_tokens: 500, temperature: 0,
+    }, { headers: { authorization: `Bearer ${AI_KEY}`, "content-type": "application/json" }, timeout: 9000 });
+    let out = (res.data && res.data.choices && res.data.choices[0] && res.data.choices[0].message && res.data.choices[0].message.content || "").trim();
+    out = out.replace(/^["'`]+|["'`]+$/g, "").trim(); // strip accidental wrapping quotes
+    return out || null;
+  } catch (e) {
+    console.log("Translate (Groq) error:", e.response?.data?.error?.message || e.message);
     return null;
   }
 }
