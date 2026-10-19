@@ -3363,8 +3363,8 @@
       "stats": {
         "totalVotes": 29196,
         "totalSubs": 111,
-        "totalChatMessages": 9031,
-        "totalStreamMinutes": 27374,
+        "totalChatMessages": 9032,
+        "totalStreamMinutes": 27379,
         "emotes": {
           "❤": 245,
           "🙌": 206,
@@ -3457,7 +3457,7 @@
           "🎸": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 38,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 74,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 192,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 193,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 94,
           "b05156cf-7925-4298-8e19-f29e294cc793": 5,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 36,
@@ -3739,14 +3739,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792407876075,
+        "lastChatAt": 1792408694912,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 140 votes, @octo!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @octo just gave 140 vote(s) (total: 140)! Thank you!! 🗳️"
@@ -3782,6 +3778,10 @@
         {
           "user": "blazeagainst",
           "msg": "🤜🤛🍩"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {
@@ -4008,7 +4008,7 @@
         }
       },
       "_idAt": 1792389647127,
-      "_gameAt": 1792407876218,
+      "_gameAt": 1792408695028,
       "isLive": true,
       "streamCategory": "Fortnite"
     },
@@ -15028,9 +15028,9 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 19020,
+        "totalVotes": 19101,
         "totalSubs": 30,
-        "totalChatMessages": 41525,
+        "totalChatMessages": 41526,
         "totalStreamMinutes": 22222,
         "emotes": {
           "❤": 151,
@@ -15046,7 +15046,7 @@
           "🤗": 68,
           "😊": 11,
           "🌻": 5,
-          "🗳": 585,
+          "🗳": 588,
           "☺": 54,
           "😎": 2,
           "😁": 3,
@@ -15453,13 +15453,9 @@
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": "JOYFULLPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792386307367
+        "lastChatAt": 1792408668860
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @sarinhaa11 just gave 45 vote(s) (total: 45)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🪙 @sarinhaa11 40,495 points."
@@ -15495,6 +15491,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @garotosemrumo just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @junior7_ just gave 81 vote(s) (total: 81)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -15637,7 +15637,7 @@
         }
       },
       "_idAt": 1792393250680,
-      "_gameAt": 1792386307507,
+      "_gameAt": 1792408668958,
       "isLive": false,
       "streamCategory": ""
     },
@@ -24774,8 +24774,8 @@
     }
   },
   "auth": {
-    "accessToken": "a829d684bc07a1c7d79660d361ad8afb",
-    "refreshToken": "02a1292b4e3d49cf2dcecae78b74ff41",
+    "accessToken": "d37be65489647bfb66300981037b86a8",
+    "refreshToken": "b8deb3d037c79d079cb7b669d2909c11",
     "sessionToken": "7eaf062ee30b61abd65aa85ff5fc62a9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
