@@ -5805,8 +5805,8 @@
       "stats": {
         "totalVotes": 43947,
         "totalSubs": 128,
-        "totalChatMessages": 14809,
-        "totalStreamMinutes": 9264,
+        "totalChatMessages": 14810,
+        "totalStreamMinutes": 9284,
         "emotes": {
           "❤": 269,
           "🙌": 413,
@@ -6014,7 +6014,7 @@
           "🐢": 11,
           "5eb3770b-1dc4-4dd5-87a8-9562c902e07e": 34,
           "3a945e88-bb75-4549-b50d-4bb1ad5517a1": 1,
-          "73a2043d-3f44-4a2d-8c0d-6006653020be": 59,
+          "73a2043d-3f44-4a2d-8c0d-6006653020be": 63,
           "🦾": 3,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 1,
           "dedb0949-63d9-4d58-86d1-ecf0269453d3": 2,
@@ -6380,13 +6380,9 @@
           "🍩": "🍩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792384309376
+        "lastChatAt": 1792385448871
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -6422,6 +6418,10 @@
         {
           "user": "botger",
           "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "[emote:73a2043d-3f44-4a2d-8c0d-6006653020be] [emote:73a2043d-3f44-4a2d-8c0d-6006653020be] [emote:73a2043d-3f44-4a2d-8c0d-6006653020be] [emote:73a2043d-3f44-4a2d-8c0d-6006653020be]"
         }
       ],
       "customCommands": {},
@@ -6633,7 +6633,7 @@
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
       "_idAt": 1792366855455,
-      "_gameAt": 1792384309524,
+      "_gameAt": 1792385449018,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -16467,7 +16467,7 @@
       "followed": true,
       "streamTitle": "",
       "profile": "noxx’s channel is a bug‑slayer hub blasting “👀👀👀” after kills, “clipping it!” when a clip drops, and “RAID ALERT!!” for big moments. The crew loves skrunky emotes, OTG solos, “VOTE ALERT!!”, “NEW FOLLOWER!!” cheers, pumping energy, celebrating with “RAID ALERT!!” and “VOTE ALERT!!”, keeping the stream alive.",
-      "_profileAtCount": 7160,
+      "_profileAtCount": 7217,
       "gameOverride": "",
       "lastStreamInfo": "Trying Arc Raiders for the first time! — ARC Raiders",
       "lastStreamEndedAt": 1792093477967,
@@ -16679,7 +16679,7 @@
         "totalVotes": 3267,
         "totalSubs": 4,
         "totalChatMessages": 117,
-        "totalStreamMinutes": 4844,
+        "totalStreamMinutes": 4846,
         "emotes": {
           "🔥": 10,
           "🐺": 2,
@@ -16758,14 +16758,14 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/46963d69-f6f0-479b-8169-7ef0626be6ec.png",
-      "streamTitle": "Primera vez jugando Control",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "**Loboblanco's Community Profile**\n\nWe're a laid-back, welcoming crew who love to \"bienvenido hermano\" new friends. Our streamer's all about playing Halo and \"amanecida\" vibes. We're a bit goofy, so expect some \"heeey\" greetings and \"hermano\" love. We even have a \"votorn\" for every time our streamer \"muere\" in-game. When you're here, you're part of the fam, so don't be shy to say \"ola\" and join the fun!",
       "_profileAtCount": 28,
       "nudgedAt": 1785262824379,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "Sub x Sub | Big Time — Crypto",
-      "lastStreamEndedAt": 1792049454591,
+      "lastStreamInfo": "Primera vez jugando Control",
+      "lastStreamEndedAt": 1792384688718,
       "loyalty": {
         "dynastykingd": {
           "name": "dynastykingd",
@@ -16789,8 +16789,8 @@
         }
       },
       "_idAt": 1792370451863,
-      "streamCategory": "Control",
-      "isLive": true,
+      "streamCategory": "",
+      "isLive": false,
       "_gameAt": 1792379548879
     },
     "cb2ce9ff-c2d0-425e-9238-54b535f07d02": {
@@ -24532,9 +24532,9 @@
       "n": 1
     },
     "rafael_zuh": {
-      "note": "Rafael loves playful emojis, jokes about guitars, crypto, Egyptian gods, and Sweet Dreams, keeping chats light, fun, and full of quick laughs.",
-      "at": 1792233709066,
-      "n": 16
+      "note": "Rafael enjoys playful emojis, jokes about guitars, crypto, Egyptian gods, Sweet Dreams, and lighthearted gaming chats.",
+      "at": 1792384849267,
+      "n": 17
     },
     "thunderfeetxx_1": {
       "note": "Enjoys gaming chats, uses playful humor, and prefers Howard Jones over Jesse.",
