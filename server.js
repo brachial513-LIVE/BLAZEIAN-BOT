@@ -3235,7 +3235,12 @@ async function handleEvent(message) {
     const ch = channels[channelId];
     const user   = payload.voter?.username || payload.voter?.displayName || "someone";
     const amount = payload.amount || 1;
-    ch.stats.totalVotes += amount; saveChannels();
+    ch.stats.totalVotes += amount;
+    if (!Array.isArray(ch.voteLog)) ch.voteLog = [];
+    ch.voteLog.push({ t: Date.now(), v: String(user).slice(0, 40), a: amount });
+    const voteCut = Date.now() - 14 * 24 * 60 * 60 * 1000;
+    ch.voteLog = ch.voteLog.filter(e => e.t >= voteCut).slice(-2000); // keep 14 days, hard cap length
+    saveChannels();
     setReaction(channelId, "vote", user);
     if (amount < VOTE_SHOUT_MIN) return; // below threshold: vote already counted above, just skip the AI shoutout to save tokens
     if (shouldCelebrate(ch, channelId)) {
@@ -4693,6 +4698,81 @@ function renderGiveawayPanel(username) {
   </div>`;
 }
 
+// Vote-log panel for the streamer dashboard: every vote this channel received (voter, local time, amount),
+// filterable by a minimum and a time window, so streamers can see who dropped votes while they slept — the
+// data the Blaze leaderboard and the Render logs both throw away. Logged per channel in ch.voteLog (capped
+// to 14 days), written in the vote handler BEFORE any Groq/AI call, so it survives rate-limits.
+function renderVoteLogPanel(username) {
+  const cid = findChannelByUsername(username);
+  const log = (cid && channels[cid] && Array.isArray(channels[cid].voteLog)) ? channels[cid].voteLog : [];
+  return `
+  <h2 id="votelog">🗳️ Vote Log — who voted & when (for giveaways)</h2>
+  <div class="card">
+    <p class="hint">Every vote your channel gets, logged with the voter, the exact time (shown in <b>your</b> local timezone) and the amount — so you can see exactly who dropped votes overnight, even if you were asleep. Pick a window + a minimum, then copy the list for your giveaway. This records all votes from the moment it goes live (older votes aren't in here — it can't look back before it existed). Kept for 14 days.</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;">
+      <div><label>Minimum votes</label><input id="vlMin" type="number" value="40" min="1" style="width:120px;"></div>
+      <div><label>Time window</label>
+        <select id="vlRange" style="width:300px;">
+          <option value="week" selected>Current vote week (since Mon 02:00 reset)</option>
+          <option value="24">Last 24 hours</option>
+          <option value="168">Last 7 days</option>
+          <option value="0">Everything logged</option>
+        </select>
+      </div>
+    </div>
+    <div style="margin-top:14px;">
+      <label>🎫 Matching votes — <b id="vlCount">0</b> &nbsp; (total in window: <b id="vlSum">0</b>)</label>
+      <table style="width:100%;border-collapse:collapse;font-size:14px;margin-top:4px;"><thead><tr style="text-align:left;color:#8fce9a;"><th style="padding:6px 4px;">When (your time)</th><th>Voter</th><th style="text-align:right;">Votes</th></tr></thead><tbody id="vlBody"></tbody></table>
+      <p class="hint" id="vlEmpty" style="display:none;">No votes match — try a wider window or a lower minimum.</p>
+      <label style="margin-top:12px;display:block;">Copyable list (one per line)</label>
+      <textarea id="vlCopy" readonly onclick="this.select()" rows="5" style="width:100%;box-sizing:border-box;"></textarea>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var LOG = ${JSON.stringify(log)};
+    var NL = String.fromCharCode(10);
+    var minEl = document.getElementById('vlMin'), rangeEl = document.getElementById('vlRange');
+    function weekStart(){
+      var d = new Date();
+      var sinceMon = (d.getDay() + 6) % 7; // Mon->0, Sun->6
+      var mon = new Date(d.getFullYear(), d.getMonth(), d.getDate() - sinceMon, 2, 0, 0, 0); // this week's Mon 02:00 local
+      if (mon.getTime() > Date.now()) mon.setDate(mon.getDate() - 7); // not reached yet -> last week's reset
+      return mon.getTime();
+    }
+    function windowStart(mode){
+      if (mode === '24') return Date.now() - 24*3600000;
+      if (mode === '168') return Date.now() - 7*24*3600000;
+      if (mode === '0') return 0;
+      return weekStart();
+    }
+    function fmt(ts){
+      return new Date(ts).toLocaleString([], { weekday:'short', day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit' });
+    }
+    function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+    function render(){
+      var min = parseInt(minEl.value) || 1;
+      var start = windowStart(rangeEl.value);
+      var rows = LOG.filter(function(e){ return e.a >= min && e.t >= start; }).sort(function(a,b){ return b.t - a.t; });
+      var body = document.getElementById('vlBody'); body.innerHTML = '';
+      var lines = [], sum = 0;
+      rows.forEach(function(e){
+        sum += e.a;
+        var tr = document.createElement('tr'); tr.style.borderTop = '1px solid rgba(92,244,114,.15)';
+        tr.innerHTML = '<td style="padding:6px 4px;">' + fmt(e.t) + '</td><td>' + esc(e.v) + '</td><td style="text-align:right;font-weight:700;">' + e.a.toLocaleString() + '</td>';
+        body.appendChild(tr);
+        lines.push(fmt(e.t) + ' — ' + e.v + ' — ' + e.a + ' votes');
+      });
+      document.getElementById('vlCount').textContent = rows.length;
+      document.getElementById('vlSum').textContent = sum.toLocaleString();
+      document.getElementById('vlCopy').value = lines.join(NL);
+      document.getElementById('vlEmpty').style.display = rows.length ? 'none' : 'block';
+    }
+    minEl.addEventListener('input', render); rangeEl.addEventListener('change', render); render();
+  })();
+  </script>`;
+}
+
 // =============================================
 // STREAMER DASHBOARD (Blaze login — own channel only)
 // =============================================
@@ -4731,6 +4811,7 @@ app.get("/dashboard", (req, res) => {
     ${unlockBanner}
     ${renderForms("/dashboard", channelField)}
     ${renderGiveawayPanel(ch.username)}
+    ${renderVoteLogPanel(ch.username)}
     ${renderOverlaySection(ch.username)}
     <h2>📋 Your Current Setup</h2>
     ${renderChannelBlock(ch, "/dashboard")}
