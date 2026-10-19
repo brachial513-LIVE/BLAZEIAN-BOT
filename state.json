@@ -1566,7 +1566,7 @@
       "stats": {
         "totalVotes": 34138,
         "totalSubs": 83,
-        "totalChatMessages": 42543,
+        "totalChatMessages": 42563,
         "totalStreamMinutes": 3899,
         "emotes": {
           "🔥": 2247,
@@ -1576,7 +1576,7 @@
           "😍": 141,
           "❤": 66,
           "🚢": 24,
-          "⏰": 1757,
+          "⏰": 1762,
           "🔜": 1282,
           "💀": 673,
           "😘": 3,
@@ -1623,7 +1623,7 @@
           "👍": 3,
           "🥔": 2100,
           "🔄": 384,
-          "🤖": 196,
+          "🤖": 197,
           "😏": 85,
           "❌": 22,
           "🙃": 13,
@@ -1736,7 +1736,7 @@
           "30d97fce-ee29-4d4f-ae27-32f1692b404a": 2,
           "🙂": 1,
           "↕": 1,
-          "🍻": 17
+          "🍻": 18
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -1908,7 +1908,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792427652172,
+        "lastChatAt": 1792428056626,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1918,43 +1918,43 @@
       "chatMemory": [
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
+          "msg": "🤖 Added 7 bot(s) to the game! 8 player(s) ready."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 10 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
         },
         {
           "user": "botger",
           "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
         },
         {
-          "user": "jaggerjack",
-          "msg": "Heyo JT! Looking forward to that new game!"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🏆 WINNER: undefined! 🎉 Congratulations! 🎊"
+          "msg": "⏰ Game starting in 2 seconds!"
         },
         {
-          "user": "botger",
-          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
         },
         {
-          "user": "tigresa",
-          "msg": "hello"
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Turn set right for move 1."
         },
         {
-          "user": "tigresa",
-          "msg": "saw you on and wanted to say hi!"
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Turn set left for move 3."
         },
         {
-          "user": "tigresa",
-          "msg": "What are you working on?"
-        },
-        {
-          "user": "tigresa",
-          "msg": "sounds interesting"
-        },
-        {
-          "user": "botger",
-          "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Turn set left for move 2."
         }
       ],
       "customCommands": {},
@@ -2201,7 +2201,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792426521152,
-      "_gameAt": 1792427582351,
+      "_gameAt": 1792428031662,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -4047,10 +4047,10 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 54492,
+        "totalVotes": 54502,
         "totalSubs": 100,
         "totalChatMessages": 19636,
-        "totalStreamMinutes": 11867,
+        "totalStreamMinutes": 11870,
         "emotes": {
           "❤": 7451,
           "🎵": 749,
@@ -4565,7 +4565,7 @@
       "locked": false,
       "botVip": true,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "profile": "Unclefunk’s channel is a funky crew that “earn courage” by watching and playing OSP‑related streams. The chat shouts “💜” and “❤️❤️❤️”, hyping “stream is now live!” and “stream is now offline!” They love “connect your OSP account” for extra courage, and the game “Only Believe” fuels daily hype. The community thrives on shared faith, fasting, and epic song.",
       "_profileAtCount": 19636,
       "loyalty": {
@@ -4700,9 +4700,16 @@
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792352436473,
       "_idAt": 1792426523146,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792352406550
+      "streamCategory": "Music",
+      "isLive": true,
+      "_gameAt": 1792427847508,
+      "voteLog": [
+        {
+          "t": 1792428006716,
+          "v": "twistedtinker",
+          "a": 10
+        }
+      ]
     },
     "ef960b1f-ca0a-4cd1-bf32-2c2c94c53263": {
       "username": "sheshi",
@@ -8878,14 +8885,14 @@
       "username": "cymatrix",
       "language": "en",
       "stats": {
-        "totalVotes": 6640,
-        "totalSubs": 36,
-        "totalChatMessages": 1612,
+        "totalVotes": 6645,
+        "totalSubs": 38,
+        "totalChatMessages": 1621,
         "totalStreamMinutes": 2975,
         "emotes": {
           "❤": 458,
-          "🙌": 56,
-          "🗳": 267,
+          "🙌": 58,
+          "🗳": 270,
           "🔴": 27,
           "🎉": 29,
           "💛": 30,
@@ -8911,7 +8918,7 @@
           "💯": 4,
           "👍": 6,
           "🥁": 5,
-          "🎁": 52,
+          "🎁": 56,
           "🤐": 1,
           "💪": 1,
           "🤖": 1,
@@ -8988,49 +8995,49 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
           "cbbfc88a-418c-4cca-a571-10cf1dde46e7": "CONTRASTPYRO1"
         },
-        "lastChatAt": 1792379942758,
+        "lastChatAt": 1792428039844,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 100 votes, @vRoshi55!"
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DJMOB just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         },
         {
           "user": "cymatrix",
-          "msg": "Thanks @vRoshi55!!"
+          "msg": "cool @blazeian_bot_ai"
         },
         {
-          "user": "djmob",
-          "msg": "hello"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @DJMOB!"
+          "user": "andrasabel",
+          "msg": "hey"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DJMOB just gave 10 vote(s) (total: 60)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @CyMatrIX just gifted a sub to @andrasabel! How generous!! 🙌"
         },
         {
           "user": "scurvybot",
-          "msg": "Thanks for the 11 votes, @Jiminy!"
+          "msg": "@CyMatrIX gifted a sub to the community!"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 7 votes, @smrt!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 20 votes, @entropy!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @DJMOB!"
+          "user": "feymorr",
+          "msg": "when are you on?"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DJMOB just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @CyMatrIX just gifted a sub to @Feymorr! How generous!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@CyMatrIX gifted a sub to the community!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @Feymorr!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Feymorr just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -9100,7 +9107,14 @@
       "_idAt": 1792426531651,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792379941058
+      "_gameAt": 1792428010679,
+      "voteLog": [
+        {
+          "t": 1792428037620,
+          "v": "feymorr",
+          "a": 5
+        }
+      ]
     },
     "19b7a7c0-fe26-4df4-b40e-ac7489b8f42a": {
       "username": "helios",
