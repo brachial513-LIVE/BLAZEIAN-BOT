@@ -1606,7 +1606,7 @@
       "stats": {
         "totalVotes": 34502,
         "totalSubs": 84,
-        "totalChatMessages": 43039,
+        "totalChatMessages": 43135,
         "totalStreamMinutes": 3899,
         "emotes": {
           "🔥": 2247,
@@ -1616,7 +1616,7 @@
           "😍": 141,
           "❤": 66,
           "🚢": 24,
-          "⏰": 1822,
+          "⏰": 1842,
           "🔜": 1282,
           "💀": 673,
           "😘": 3,
@@ -1663,7 +1663,7 @@
           "👍": 3,
           "🥔": 2100,
           "🔄": 384,
-          "🤖": 205,
+          "🤖": 209,
           "😏": 85,
           "❌": 22,
           "🙃": 13,
@@ -1671,10 +1671,10 @@
           "💰": 7,
           "🧪": 6,
           "🙄": 3,
-          "🎮": 42,
+          "🎮": 44,
           "🪅": 69,
           "🍬": 142,
-          "🛑": 36,
+          "🛑": 38,
           "💚": 8,
           "💪": 2,
           "⚔": 12,
@@ -1776,7 +1776,7 @@
           "30d97fce-ee29-4d4f-ae27-32f1692b404a": 2,
           "🙂": 1,
           "↕": 1,
-          "🍻": 31
+          "🍻": 35
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -1948,7 +1948,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792438137692,
+        "lastChatAt": 1792439686302,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1957,44 +1957,44 @@
       },
       "chatMemory": [
         {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
+          "user": "jt_squared2",
+          "msg": "left"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
+          "msg": "@jt_squared2 Turn set left for move 2."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "right"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🏆 WINNER: House Bartender! 🎉 Congratulations! 🎊"
+          "msg": "@jt_squared2 Turn set right for move 4."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "right"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🍻 Last Call starting in 30 seconds! Join with !join. After the countdown, teams and roles are randomized. Movement: 1-3 · Turns: left/right (or l/r) · Bartender: !beer ."
+          "msg": "@jt_squared2 Turn set right for move 2."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "left"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 10 seconds!"
+          "msg": "@jt_squared2 Turn set left for move 4."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "left"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 5 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⚠️ Not enough players to start! Need at least 2."
+          "msg": "@jt_squared2 Turn set left for move 1."
         }
       ],
       "customCommands": {},
@@ -2246,7 +2246,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792426521152,
-      "_gameAt": 1792438107552,
+      "_gameAt": 1792439657754,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -2303,8 +2303,8 @@
       "stats": {
         "totalVotes": 45618,
         "totalSubs": 284,
-        "totalChatMessages": 14739,
-        "totalStreamMinutes": 34895,
+        "totalChatMessages": 14743,
+        "totalStreamMinutes": 34915,
         "emotes": {
           "📊": 3,
           "🔥": 631,
@@ -2484,7 +2484,7 @@
           "2f15e1db-4870-4a55-a744-bf1850ee7c22": 1,
           "70b1737e-7945-4743-bbc1-882e1228fab0": 3,
           "20a29d22-5535-494c-8a0a-dbdace2f4d3f": 62,
-          "22a2df8d-1151-4c75-954e-30c7527dbf40": 20,
+          "22a2df8d-1151-4c75-954e-30c7527dbf40": 22,
           "af42e4d4-d26a-4320-b2f6-d49836809481": 33,
           "d86d3a9f-5ae8-439b-abe6-716bc3c4ce0c": 6,
           "f3467606-71eb-4f39-a82b-fb7761acebaa": 33,
@@ -2882,25 +2882,9 @@
           "🍩": "🍩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792437372843
+        "lastChatAt": 1792439128644
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "🎡 Pushup Wheel landed on Free Pass! -- @crypt0k1ng96 got lucky this time 😅 (thanks @cripiechuccles!)"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "BRB just eating lunch"
-        },
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:40e2bb38-258d-4257-93d7-258c4ce090b9]"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "🔥 @Future42 sent 50 votes -- that's a spin on the Pushup Wheel! Spinning now... 🎡"
-        },
         {
           "user": "foxbotai",
           "msg": "Thank you @Future42 for voting with 50 votes! FoxBot AI appreciates your support! +150 FoxCoins. Balance: 6775 FoxCoins."
@@ -2924,6 +2908,22 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Why not 🤣"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "gm gm"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:22a2df8d-1151-4c75-954e-30c7527dbf40] [emote:22a2df8d-1151-4c75-954e-30c7527dbf40]"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Hey man GM"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "I’m trying to buy an office gotta go there now"
         }
       ],
       "customCommands": {},
@@ -3104,7 +3104,7 @@
       },
       "streamCategory": "Grand Theft Auto V",
       "isLive": true,
-      "_gameAt": 1792437363677,
+      "_gameAt": 1792439111317,
       "voteLog": [
         {
           "t": 1792429891148,
@@ -4178,8 +4178,8 @@
       "stats": {
         "totalVotes": 55395,
         "totalSubs": 100,
-        "totalChatMessages": 19925,
-        "totalStreamMinutes": 12044,
+        "totalChatMessages": 19945,
+        "totalStreamMinutes": 12064,
         "emotes": {
           "❤": 7511,
           "🎵": 755,
@@ -4638,7 +4638,7 @@
           "🥱": "🥱",
           "🌙": "🌙"
         },
-        "lastChatAt": 1792438406308,
+        "lastChatAt": 1792439460798,
         "sendFailStreak": 571,
         "lastSendFailAt": 1792401875178,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4648,44 +4648,44 @@
       },
       "chatMemory": [
         {
-          "user": "bee12",
-          "msg": "❤️🐝❤️"
+          "user": "sheshi",
+          "msg": "hello @0xscheun"
         },
         {
-          "user": "sheshi",
-          "msg": "may be that is the only way"
+          "user": "cymatrix",
+          "msg": "breaking things again?"
         },
         {
           "user": "midnitecatzlady",
-          "msg": "what does the over clock do?"
+          "msg": "sheshi has it going on"
         },
         {
-          "user": "sheshi",
-          "msg": "unc we need to enable the bot, watchers want to link their blaze account, they are pasting the code here, or that need to be figure out something like they dont have to paste the code here anymore"
+          "user": "djmob",
+          "msg": "https://www.revid.ai/?aff=MMO99n"
         },
         {
-          "user": "sheshi",
-          "msg": "my bad unclefunk"
+          "user": "djmob",
+          "msg": "there you go"
         },
         {
-          "user": "midnitecatzlady",
-          "msg": "ya I haven't seen the mr wob ad lately"
+          "user": "djmob",
+          "msg": "careful you only have 70 credits"
         },
         {
-          "user": "sheshi",
-          "msg": "will let know mr. rob about it"
+          "user": "djmob",
+          "msg": "do you have a script?"
         },
         {
-          "user": "midnitecatzlady",
-          "msg": "🎵🎵🎵🎵🎵🎵"
+          "user": "djmob",
+          "msg": "sure"
+        },
+        {
+          "user": "djmob",
+          "msg": "stage linky me"
         },
         {
           "user": "unclefunk",
-          "msg": "bot is broken, we're tryin g toi see why"
-        },
-        {
-          "user": "pukt",
-          "msg": "ok!"
+          "msg": "https://streamyard.com/irw3jd3jaw"
         }
       ],
       "customCommands": {},
@@ -4831,7 +4831,7 @@
       "_idAt": 1792426523146,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1792438347171,
+      "_gameAt": 1792439460920,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -6076,14 +6076,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 44564,
+        "totalVotes": 44614,
         "totalSubs": 131,
-        "totalChatMessages": 16289,
+        "totalChatMessages": 16290,
         "totalStreamMinutes": 9563,
         "emotes": {
           "❤": 275,
           "🙌": 419,
-          "🗳": 1910,
+          "🗳": 1913,
           "✌": 12,
           "😊": 11,
           "👍": 20,
@@ -6669,13 +6669,9 @@
           "⚠": "⚠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792423993275
+        "lastChatAt": 1792438975579
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "💀 helios has been eliminated! 2 players remaining."
-        },
         {
           "user": "briggsy",
           "msg": "haha, whaa?"
@@ -6711,6 +6707,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @guney just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6927,7 +6927,7 @@
       "lastStreamInfo": "Sunday night let's play",
       "lastStreamEndedAt": 1792402503248,
       "_idAt": 1792426526147,
-      "_gameAt": 1792423993378,
+      "_gameAt": 1792438975716,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -6960,6 +6960,11 @@
           "t": 1792436249271,
           "v": "xburntx",
           "a": 10
+        },
+        {
+          "t": 1792438973313,
+          "v": "guney",
+          "a": 50
         }
       ]
     },
@@ -9947,7 +9952,7 @@
       "stats": {
         "totalVotes": 25845,
         "totalSubs": 77,
-        "totalChatMessages": 17890,
+        "totalChatMessages": 17912,
         "totalStreamMinutes": 12200,
         "emotes": {
           "🧏": 1,
@@ -10143,7 +10148,7 @@
           "298c22d7-9014-4525-aad4-fedfa7811531": 11,
           "b8f5ff16-2e11-4695-98de-e426fff3889e": 169,
           "0c0798fa-e75a-4159-a733-4400bce40207": 27,
-          "9ddd5726-8457-4a1c-903d-6d155e631d69": 408,
+          "9ddd5726-8457-4a1c-903d-6d155e631d69": 415,
           "701903b5-7d18-462b-9e72-fd943ba2f3b2": 171,
           "4e60197e-4907-4810-a34f-6b7e4427b103": 30,
           "37719561-c923-4260-b1a5-e3eda10c103d": 5,
@@ -10410,48 +10415,48 @@
           "🤝": "🤝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792438391571
+        "lastChatAt": 1792439543191
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "Greattt joooobbb"
-        },
-        {
-          "user": "briggsy",
-          "msg": "hhaha"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Oh, achilles last stand.  Great request"
-        },
-        {
-          "user": "avisi",
-          "msg": "classic Kowalczyk :)"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "yeah, takes me back to college days"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "super chordy"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "and extension chords are the worst"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "need more fingers for those ;)"
-        },
-        {
-          "user": "briggsy",
-          "msg": "Yea, this brings me back as well"
+          "user": "metal_bot",
+          "msg": "@briggsy Found 2 matches: 1. OSTER project - Miracle Paint | 2. Leprous - Phantom Pain — Reply !pick 1-2 to select"
         },
         {
           "user": "metal_bot",
-          "msg": "@avisi Added \"Ice Nine Kills - Stabbing In The Dark\" to the queue! (Position #4)"
+          "msg": "@briggsy Found 4 matches: 1. maudlin of the Well - Birth Pains of Astral Projection | 2. OSTER project - Miracle Paint | 3. Pro-Pain - Voice of Rebellion | 4. Leprous - Phantom Pain — Reply !pick 1-4 to select"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@briggsy No songs found for \"propain\". Try a different search."
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
+        },
+        {
+          "user": "briggsy",
+          "msg": "CheunMan!!"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "gm Briggsy"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "epic"
+        },
+        {
+          "user": "avisi",
+          "msg": "fitting for Halloween: THe Michael Myers story"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@0xscheun Added \"In Flames - Meet Your Maker\" to the queue! (Position #4)"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
         }
       ],
       "customCommands": {},
@@ -10583,7 +10588,7 @@
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
       "_idAt": 1792426533154,
-      "_gameAt": 1792438390197,
+      "_gameAt": 1792439543336,
       "isLive": true,
       "streamCategory": "Music",
       "voteLog": [
@@ -10992,7 +10997,7 @@
         "totalVotes": 12454,
         "totalSubs": 211,
         "totalChatMessages": 523,
-        "totalStreamMinutes": 17128,
+        "totalStreamMinutes": 17136,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -11111,7 +11116,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
-      "streamTitle": "",
+      "streamTitle": "1 SUB = 30 MIN MORE // 100 VOTE = 30 MIN MORE",
       "gameOverride": "",
       "profile": "saboomafoo streams energetic League of Legends & MapleStory collabs, pumping “FOXSPIRITS” vibes. Chat loves “have a nice stream”, “GM GM GUYS”, “NEKOOOOOOOOOO”, “hellow”, “❤️❤️❤️❤️❤️”, and playful “😅😅”. Community celebrates with quick shoutouts, a warm “ty” response, constant upbeat greetings, and constant positivity. The channel thrives on friendly, energetic banter and constant positivity.",
       "_profileAtCount": 516,
@@ -11197,9 +11202,9 @@
         }
       },
       "_idAt": 1792426534145,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792382163953,
+      "streamCategory": "Crypto",
+      "isLive": true,
+      "_gameAt": 1792439188676,
       "voteLog": [
         {
           "t": 1792429891429,
@@ -11431,7 +11436,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 88,
-        "totalStreamMinutes": 12936,
+        "totalStreamMinutes": 12956,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -14885,7 +14890,7 @@
         "totalVotes": 21260,
         "totalSubs": 44,
         "totalChatMessages": 3325,
-        "totalStreamMinutes": 13104,
+        "totalStreamMinutes": 13124,
         "emotes": {
           "❤": 119,
           "🙌": 85,
@@ -16427,7 +16432,7 @@
       "stats": {
         "totalVotes": 12716,
         "totalSubs": 36,
-        "totalChatMessages": 1649,
+        "totalChatMessages": 1652,
         "totalStreamMinutes": 10870,
         "emotes": {
           "❤": 97,
@@ -16560,21 +16565,9 @@
           "‼": "‼"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792438462539
+        "lastChatAt": 1792438963415
       },
       "chatMemory": [
-        {
-          "user": "piweb",
-          "msg": "Rady"
-        },
-        {
-          "user": "piweb",
-          "msg": "Ready"
-        },
-        {
-          "user": "piweb",
-          "msg": "Gonna have to carry me, I'm slow af lol"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -16602,6 +16595,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "guney",
+          "msg": "oh my mic is muted"
+        },
+        {
+          "user": "guney",
+          "msg": "sorry"
+        },
+        {
+          "user": "guney",
+          "msg": "thank you so much @briggsy"
         }
       ],
       "customCommands": {},
@@ -16662,7 +16667,7 @@
       "_idAt": 1792426543158,
       "streamCategory": "Off The Grid",
       "isLive": true,
-      "_gameAt": 1792438437141,
+      "_gameAt": 1792438951784,
       "voteLog": [
         {
           "t": 1792429891425,
@@ -24010,7 +24015,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 26,
-        "totalStreamMinutes": 6389,
+        "totalStreamMinutes": 6409,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -24147,9 +24152,9 @@
       "language": "en",
       "joinedAt": 1791033739333,
       "stats": {
-        "totalVotes": 1253,
+        "totalVotes": 1257,
         "totalSubs": 1,
-        "totalChatMessages": 717,
+        "totalChatMessages": 724,
         "totalStreamMinutes": 2905,
         "emotes": {
           "❤": 20,
@@ -24159,20 +24164,20 @@
           "〽": 16,
           "8245e8d7-5e9a-4c84-b17c-6cd3154fcdec": 1,
           "0385321d-5e5d-4192-9889-3d08fe60d750": 5,
-          "🚨": 61,
-          "🎙": 37,
-          "💗": 37,
+          "🚨": 62,
+          "🎙": 38,
+          "💗": 38,
           "🎉": 9,
           "🍺": 4,
           "😱": 1,
           "😂": 4,
           "🤣": 4,
-          "809bfa51-da4f-4570-9c70-67a802c6da7b": 4,
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": 7,
           "💚": 2,
           "😅": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 10,
-          "🗳": 66,
+          "🗳": 69,
           "🔥": 2,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 8,
           "😶": 6,
@@ -24184,7 +24189,8 @@
           "🤜": 1,
           "🤛": 1,
           "🍩": 1,
-          "a80b8258-7a03-4aed-95f8-19ab819775c7": 1
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": 1,
+          "d91d6cab-aff1-455e-9795-aa5a31e90c61": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -24219,36 +24225,13 @@
           "🤜": "🤜",
           "🤛": "🤛",
           "🍩": "🍩",
-          "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
+          "d91d6cab-aff1-455e-9795-aa5a31e90c61": "Wpinksb99"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792438121462
+        "lastChatAt": 1792439465020
       },
       "chatMemory": [
-        {
-          "user": "tuff3rmrd3ano",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🎙️ Shoutout to @tuff3rmrd3ano! make Sure to check them out on their Blaze Channel https://Blaze.Stream/tuff3rmrd3ano and show some Love and Support 💗"
-        },
-        {
-          "user": "botger",
-          "msg": "🎉 BLAZEIAN_BOT_AI just reached Level 3! ⚡ (3,675 XP)"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @tuff3rmrd3ano at https://blaze.stream/tuff3rmrd3ano!"
-        },
-        {
-          "user": "botger",
-          "msg": "if you are lurking type !!lurk and it will triggered a lurk message"
-        },
-        {
-          "user": "botger",
-          "msg": "follow me on the following socials on https://www.linktr.ee/SilverBolt99"
-        },
         {
           "user": "botger",
           "msg": "Donations are not required but appreciated ,if you are donating all donations are final !!! https://ko-fi.com/silverbolt99"
@@ -24264,6 +24247,30 @@
         {
           "user": "silverbolt99",
           "msg": "Legends: @Potato_Pete @xBuRnTx @tom2329 @future42"
+        },
+        {
+          "user": "botger",
+          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 4 votes, @evilshaihulud!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @evilshaihulud just gave 4 vote(s) (total: 4)! Thank you!! 🗳️"
+        },
+        {
+          "user": "evilshaihulud",
+          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:d91d6cab-aff1-455e-9795-aa5a31e90c61]"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🎙️ Shoutout to @evilshaihulud! make Sure to check them out on their Blaze Channel https://Blaze.Stream/evilshaihulud and show some Love and Support 💗"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @evilshaihulud at https://blaze.stream/evilshaihulud!"
         }
       ],
       "customCommands": {},
@@ -24298,7 +24305,7 @@
           "tier": 1
         }
       },
-      "_gameAt": 1792438047712,
+      "_gameAt": 1792439463888,
       "isLive": true,
       "streamCategory": "ARC Raiders",
       "voteLog": [
@@ -24326,6 +24333,11 @@
           "t": 1792438046793,
           "v": "tuff3rmrd3ano",
           "a": 10
+        },
+        {
+          "t": 1792439008668,
+          "v": "evilshaihulud",
+          "a": 4
         }
       ]
     },
@@ -25054,8 +25066,8 @@
     },
     "cymatrix": {
       "note": "Cymatrix loves Minecraft, Drawful, Apple games, music, crypto jokes, pop‑culture references, and cheering streamers with upbeat, playful humor.",
-      "at": 1792278589101,
-      "n": 41
+      "at": 1792439028846,
+      "n": 42
     },
     "soulflux": {
       "note": "He loves talking about animals, enjoys playful banter, and appreciates lighthearted humor during livestream chats.",
