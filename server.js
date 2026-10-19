@@ -5834,7 +5834,7 @@ app.get("/admin/announce", async (req, res) => {
     if (translate && ch?.language && !/^en/i.test(ch.language)) {
       try { const t = await translateText(msg, ch.language); if (t) text = t; } catch (e) {}
     }
-    try { await sendChat(id, text); results.push(`${ch?.username || id} (${ch?.language || "en"}): ✅ sent`); }
+    try { await sendChat(id, text); const tag = (text !== msg) ? "🌐 translated → " : ""; const shown = text.length > 90 ? text.slice(0, 90) + "…" : text; results.push(`${ch?.username || id} (${ch?.language || "en"}): ✅ ${tag}${shown}`); }
     catch (e) { results.push(`${ch?.username || id}: ❌ ${e.message}`); }
     await sleep(600);
   }
