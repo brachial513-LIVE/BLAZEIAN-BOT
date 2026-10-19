@@ -1547,7 +1547,7 @@
       "stats": {
         "totalVotes": 34038,
         "totalSubs": 82,
-        "totalChatMessages": 42336,
+        "totalChatMessages": 42351,
         "totalStreamMinutes": 3857,
         "emotes": {
           "🔥": 2247,
@@ -1557,7 +1557,7 @@
           "😍": 141,
           "❤": 66,
           "🚢": 24,
-          "⏰": 1722,
+          "⏰": 1727,
           "🔜": 1282,
           "💀": 673,
           "😘": 3,
@@ -1604,7 +1604,7 @@
           "👍": 3,
           "🥔": 2100,
           "🔄": 384,
-          "🤖": 188,
+          "🤖": 189,
           "😏": 85,
           "❌": 22,
           "🙃": 13,
@@ -1717,7 +1717,7 @@
           "30d97fce-ee29-4d4f-ae27-32f1692b404a": 2,
           "🙂": 1,
           "↕": 1,
-          "🍻": 10
+          "🍻": 11
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -1889,7 +1889,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792419243536,
+        "lastChatAt": 1792419494099,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1898,8 +1898,8 @@
       },
       "chatMemory": [
         {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 No game is currently active! Wait for the streamer to start one."
+          "user": "botger",
+          "msg": "(Handled by bot — joins the channel and confirms in chat)"
         },
         {
           "user": "blazegames_bot",
@@ -1911,11 +1911,11 @@
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 No game is currently active!"
+          "msg": "🤖 Added 9 bot(s) to the game! 9 player(s) ready."
         },
         {
           "user": "blazegames_bot",
-          "msg": "🤖 Added 7 bot(s) to the game! 7 player(s) ready."
+          "msg": "@jt_squared2 No game is currently active!"
         },
         {
           "user": "blazegames_bot",
@@ -2177,7 +2177,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792411253091,
-      "_gameAt": 1792419203315,
+      "_gameAt": 1792419453774,
       "isLive": false,
       "streamCategory": ""
     },
@@ -4749,8 +4749,8 @@
       "stats": {
         "totalVotes": 34886,
         "totalSubs": 78,
-        "totalChatMessages": 4977,
-        "totalStreamMinutes": 18917,
+        "totalChatMessages": 4980,
+        "totalStreamMinutes": 18922,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -4871,10 +4871,10 @@
           "795f0ae8-10ec-4faa-8160-503dbd0e593d": 29,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 57,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 5,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 27,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 30,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 1,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
-          "37719561-c923-4260-b1a5-e3eda10c103d": 3,
+          "37719561-c923-4260-b1a5-e3eda10c103d": 6,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 1,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 8,
           "60967948-8805-42ef-a202-051d2e2f1557": 1,
@@ -4911,7 +4911,7 @@
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 12,
           "👌": 1,
           "1cdbf792-8819-4ff4-b549-b3a7eb3d7c4f": 5,
-          "96d4dc7a-0abd-47ab-bc50-a398dec9bbdf": 22,
+          "96d4dc7a-0abd-47ab-bc50-a398dec9bbdf": 25,
           "7573c501-7624-43cf-9189-0db1f8d22172": 2,
           "💗": 1,
           "💖": 1
@@ -5082,21 +5082,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792418588964
+        "lastChatAt": 1792419570814
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "i am ninja"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "lurking"
-        },
-        {
-          "user": "cactus_jack440",
-          "msg": "Howdy @agent00zani"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @zimzimma just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
@@ -5124,6 +5112,18 @@
         {
           "user": "cactus_jack440",
           "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+        },
+        {
+          "user": "ruri666",
+          "msg": "gm gm capt!!!"
+        },
+        {
+          "user": "ruri666",
+          "msg": "happy streaming"
+        },
+        {
+          "user": "ruri666",
+          "msg": "[emote:96d4dc7a-0abd-47ab-bc50-a398dec9bbdf] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:96d4dc7a-0abd-47ab-bc50-a398dec9bbdf] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:96d4dc7a-0abd-47ab-bc50-a398dec9bbdf] [emote:37719561-c923-4260-b1a5-e3eda10c103d] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
         }
       ],
       "customCommands": {},
@@ -5224,7 +5224,7 @@
       "lastStreamInfo": "🔥Happy EPOCH flip🔥 While IRL fueling a ship in South East Texas",
       "lastStreamEndedAt": 1792377589957,
       "_idAt": 1792412450716,
-      "_gameAt": 1792418470926,
+      "_gameAt": 1792419537552,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -8234,10 +8234,10 @@
       "username": "gmc_gaara27",
       "language": "en",
       "stats": {
-        "totalVotes": 721,
+        "totalVotes": 746,
         "totalSubs": 9,
-        "totalChatMessages": 441,
-        "totalStreamMinutes": 946,
+        "totalChatMessages": 456,
+        "totalStreamMinutes": 951,
         "emotes": {
           "🎶": 1,
           "😀": 1,
@@ -8315,48 +8315,48 @@
           "a1440971-ccf3-40ce-959e-74b5e84683ef": "GaaraKid"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792419342756
+        "lastChatAt": 1792419644990
       },
       "chatMemory": [
         {
           "user": "brachial513",
-          "msg": "sehr klar jz"
+          "msg": "yessss first switch 2 streamer on blaze broooo"
+        },
+        {
+          "user": "ruri666",
+          "msg": "happy streaming !!!"
         },
         {
           "user": "brachial513",
-          "msg": "mach mal beides, also fighte und laber dabei bissle"
+          "msg": "i think so"
         },
         {
           "user": "brachial513",
-          "msg": "ok ja, gamesound bissssschen runter, bisssschen nur"
+          "msg": "rurrrrriiiiiiii"
+        },
+        {
+          "user": "ruri666",
+          "msg": "yooooooooo"
+        },
+        {
+          "user": "ruri666",
+          "msg": "how you doing"
+        },
+        {
+          "user": "ruri666",
+          "msg": "how are you guys here"
         },
         {
           "user": "brachial513",
-          "msg": "dann optimal"
+          "msg": "all good i help him to adjust some mic settings"
         },
         {
-          "user": "brachial513",
-          "msg": "aber so 10% nur"
+          "user": "ruri666",
+          "msg": "yeah. its loud i think"
         },
         {
-          "user": "brachial513",
-          "msg": "aber deutlich besser schonmal"
-        },
-        {
-          "user": "brachial513",
-          "msg": "ok gamesound eskaliert etwas, glaube du brauchst noch diesen \"gegendruck\" - ich sende dir mal meine einstellungen in discord, also die \"Wenn deine stimme kommt, geht alles leiser\" ding"
-        },
-        {
-          "user": "brachial513",
-          "msg": "ja"
-        },
-        {
-          "user": "brachial513",
-          "msg": "höre dich"
-        },
-        {
-          "user": "brachial513",
-          "msg": "kein unterschied"
+          "user": "ruri666",
+          "msg": "HAHA"
         }
       ],
       "customCommands": {},
@@ -8422,7 +8422,7 @@
           "tier": 1
         }
       },
-      "_gameAt": 1792419338479,
+      "_gameAt": 1792419534999,
       "isLive": true,
       "streamCategory": "Hades"
     },
@@ -10908,7 +10908,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 88,
-        "totalStreamMinutes": 12838,
+        "totalStreamMinutes": 12843,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -12005,8 +12005,8 @@
       "stats": {
         "totalVotes": 39092,
         "totalSubs": 181,
-        "totalChatMessages": 4172,
-        "totalStreamMinutes": 21129,
+        "totalChatMessages": 4173,
+        "totalStreamMinutes": 21134,
         "emotes": {
           "❤": 148,
           "🙌": 254,
@@ -12236,13 +12236,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792418980624
+        "lastChatAt": 1792419551451
       },
       "chatMemory": [
-        {
-          "user": "cripiechuccles",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -12278,6 +12274,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Big_Scaggs just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "tinapay",
+          "msg": "helloooo"
         }
       ],
       "customCommands": {},
@@ -12487,7 +12487,7 @@
       "lastStreamInfo": "Trying to be healthy? GYM Manager lool!",
       "lastStreamEndedAt": 1792381985900,
       "_idAt": 1792396855479,
-      "_gameAt": 1792418885599,
+      "_gameAt": 1792419551544,
       "isLive": true,
       "streamCategory": "Left 4 Dead"
     },
@@ -12495,14 +12495,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 32729,
+        "totalVotes": 32730,
         "totalSubs": 36,
-        "totalChatMessages": 1615,
-        "totalStreamMinutes": 2671,
+        "totalChatMessages": 1618,
+        "totalStreamMinutes": 2676,
         "emotes": {
           "❤": 33,
           "🙌": 49,
-          "🗳": 702,
+          "🗳": 705,
           "🚨": 72,
           "🎉": 40,
           "👋": 50,
@@ -12592,7 +12592,8 @@
           "👻": 3,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 4,
           "🐰": 3,
-          "🍩": 3
+          "🍩": 3,
+          "1062cb77-0b58-4482-83a2-ae7b783dbd42": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -12687,27 +12688,16 @@
           "👻": "👻",
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE",
           "🐰": "🐰",
-          "🍩": "🍩"
+          "🍩": "🍩",
+          "1062cb77-0b58-4482-83a2-ae7b783dbd42": "Waveish"
         },
-        "lastChatAt": 1792418809084,
+        "lastChatAt": 1792419619210,
         "sendFailStreak": 290,
         "lastSendFailAt": 1792396422750,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1792396422574
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Dress_n_Draw just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
-        },
-        {
-          "user": "dimifw",
-          "msg": "GMish"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 dimifw is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "niruntz",
           "msg": "2d platformerish"
@@ -12735,6 +12725,18 @@
         {
           "user": "dimifw",
           "msg": "yooo, thanks honeybear for the subscriptionish"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "tinapay",
+          "msg": "helloooo dimiii"
+        },
+        {
+          "user": "dimifw",
+          "msg": "hey tina [emote:1062cb77-0b58-4482-83a2-ae7b783dbd42]"
         }
       ],
       "customCommands": {},
@@ -12872,7 +12874,7 @@
       "lastStreamInfo": "Streamish #121 - Ori and the Will of the Wisps",
       "lastStreamEndedAt": 1792364635222,
       "_idAt": 1792398051892,
-      "_gameAt": 1792418795328,
+      "_gameAt": 1792419601647,
       "isLive": true,
       "streamCategory": "Ori and the Will of the Wisps"
     },
@@ -18929,17 +18931,17 @@
       "language": "en",
       "joinedAt": 1786292034700,
       "stats": {
-        "totalVotes": 17863,
+        "totalVotes": 17864,
         "totalSubs": 104,
-        "totalChatMessages": 1066,
-        "totalStreamMinutes": 4114,
+        "totalChatMessages": 1070,
+        "totalStreamMinutes": 4119,
         "emotes": {
           "❤": 90,
           "🙌": 144,
           "🎁": 140,
           "🔴": 35,
           "🎉": 47,
-          "🗳": 267,
+          "🗳": 270,
           "📴": 35,
           "👋": 35,
           "🚨": 60,
@@ -19018,25 +19020,9 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792419322852
+        "lastChatAt": 1792419601264
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "wala kang katana or long sword?"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "naka horse ka naman pwede yon"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "wag ka lang bababa tas iwasan lang pag sumabog haha"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "need kumain para may energy"
-        },
         {
           "user": "nekoschwan",
           "msg": "ano need mo"
@@ -19060,6 +19046,22 @@
         {
           "user": "nekoschwan",
           "msg": "pero kung kukuha fuel need hose"
+        },
+        {
+          "user": "tinapay",
+          "msg": "hellooo"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @Tinapay!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "teka repair ko lang gate namin"
         }
       ],
       "customCommands": {},
@@ -19225,7 +19227,7 @@
         }
       },
       "_idAt": 1792418417733,
-      "_gameAt": 1792419246045,
+      "_gameAt": 1792419558551,
       "isLive": true,
       "streamCategory": "Humanitz"
     },
@@ -24814,8 +24816,8 @@
     }
   },
   "auth": {
-    "accessToken": "9ffb171434752e049276af8b1e051090",
-    "refreshToken": "df2d56d0ea8d44745b419e42e74e5bc9",
+    "accessToken": "9a46255b66a32a441b0b22a8465c7be9",
+    "refreshToken": "f5341e7de8b8b667c80b8f8c496c3166",
     "sessionToken": "7eaf062ee30b61abd65aa85ff5fc62a9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
