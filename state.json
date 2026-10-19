@@ -5805,8 +5805,8 @@
       "stats": {
         "totalVotes": 44245,
         "totalSubs": 130,
-        "totalChatMessages": 15002,
-        "totalStreamMinutes": 9484,
+        "totalChatMessages": 15028,
+        "totalStreamMinutes": 9489,
         "emotes": {
           "❤": 275,
           "🙌": 416,
@@ -5915,7 +5915,7 @@
           "👯": 1,
           "♀": 1,
           "🐐": 1,
-          "💪": 6,
+          "💪": 7,
           "🫡": 4,
           "🧛": 1,
           "🫨": 1,
@@ -6035,7 +6035,7 @@
           "🥀": 1,
           "⛓": 14,
           "✅": 51,
-          "⏰": 7,
+          "⏰": 17,
           "⏩": 4,
           "💀": 3,
           "💥": 2,
@@ -6091,7 +6091,8 @@
           "💓": 3,
           "🤝": 1,
           "🫴": 1,
-          "🍩": 1
+          "🍩": 1,
+          "🎰": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -6377,51 +6378,52 @@
           "💓": "💓",
           "🤝": "🤝",
           "🫴": "🫴",
-          "🍩": "🍩"
+          "🍩": "🍩",
+          "🎰": "🎰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792397700044
+        "lastChatAt": 1792398046955
       },
       "chatMemory": [
         {
-          "user": "vitrene",
-          "msg": "*jt squared"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 10 seconds!"
         },
         {
-          "user": "helios",
-          "msg": "Oh nice"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 10 seconds!"
         },
         {
-          "user": "vitrene",
-          "msg": "so when do we play? 👀"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
         },
         {
-          "user": "brachial513",
-          "msg": "love how everyone just building"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
         },
         {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ charddxyz just followed the channel! Welcome!! 🙌"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
         },
         {
-          "user": "charddxyz",
-          "msg": "[emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc] [emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc]"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
         },
         {
-          "user": "vitrene",
-          "msg": "you need the overlay"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
         },
         {
-          "user": "briggsy",
-          "msg": "welcome in"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
         },
         {
-          "user": "vitrene",
-          "msg": "on OBS probably"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
         },
         {
-          "user": "vitrene",
-          "msg": "what does the website say?"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
         }
       ],
       "customCommands": {},
@@ -6638,7 +6640,7 @@
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
       "_idAt": 1792389655483,
-      "_gameAt": 1792397637610,
+      "_gameAt": 1792397868683,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -24751,8 +24753,8 @@
     }
   },
   "auth": {
-    "accessToken": "2751d1e9a3e7b9c3f458f0489423176c",
-    "refreshToken": "c756a8774eeb65fb19a1542d21bc6a4c",
+    "accessToken": "efc027e5b830b041ac4b5425167cd722",
+    "refreshToken": "bda5a826e7b0f2dac8e1d4d23acbcbbd",
     "sessionToken": "7eaf062ee30b61abd65aa85ff5fc62a9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
