@@ -5805,21 +5805,21 @@
       "stats": {
         "totalVotes": 44045,
         "totalSubs": 130,
-        "totalChatMessages": 14852,
-        "totalStreamMinutes": 9394,
+        "totalChatMessages": 14856,
+        "totalStreamMinutes": 9399,
         "emotes": {
           "❤": 272,
           "🙌": 415,
           "🗳": 1880,
           "✌": 11,
-          "😊": 10,
+          "😊": 11,
           "👍": 19,
           "🔴": 18,
           "🎉": 177,
           "📴": 18,
           "👋": 30,
           "⚡": 102,
-          "😂": 195,
+          "😂": 196,
           "😍": 37,
           "🔥": 311,
           "😎": 6,
@@ -5836,7 +5836,7 @@
           "😘": 4,
           "🥰": 41,
           "🎁": 153,
-          "😅": 50,
+          "😅": 51,
           "🙈": 2,
           "🥳": 4,
           "❗": 2,
@@ -5977,7 +5977,7 @@
           "adf505fe-5d03-4608-9daa-2e2a50630dd1": 35,
           "f3a27e59-590a-42e5-be0d-34382fba3e2e": 20,
           "141b2775-bb3d-4b28-a11f-7cd1255727de": 3,
-          "a6a97c25-ce7b-43dc-afd8-f087dfe607af": 16,
+          "a6a97c25-ce7b-43dc-afd8-f087dfe607af": 17,
           "bfdfb3dc-ce74-415b-82a1-1c2e11e997f0": 22,
           "4f681e56-34b9-478d-905d-e0d8831f3f41": 13,
           "🪫": 12,
@@ -6056,7 +6056,7 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 3,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
-          "d68ad830-a1ed-44f9-81e4-83f2e2785ce9": 38,
+          "d68ad830-a1ed-44f9-81e4-83f2e2785ce9": 39,
           "🥂": 4,
           "🦝": 2,
           "🌄": 1,
@@ -6380,25 +6380,9 @@
           "🍩": "🍩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792392292522
+        "lastChatAt": 1792392645527
       },
       "chatMemory": [
-        {
-          "user": "libralives",
-          "msg": "nice grats haha"
-        },
-        {
-          "user": "botger",
-          "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:a97b647b-2211-491e-b316-1c0d016e8cf2]"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:076dbebb-5d78-43de-b562-3c57fc9ff85b]"
-        },
         {
           "user": "meyetechnicals",
           "msg": "i dont mind, lets do it"
@@ -6422,6 +6406,22 @@
         {
           "user": "botger",
           "msg": "🎉 mediart just reached Level 1! ⚡ (1,002 XP)"
+        },
+        {
+          "user": "mediart",
+          "msg": "I had an exam this morning, so I’m free now. I’m just gonna relax today😂"
+        },
+        {
+          "user": "mediart",
+          "msg": "[emote:d68ad830-a1ed-44f9-81e4-83f2e2785ce9] [emote:a6a97c25-ce7b-43dc-afd8-f087dfe607af]"
+        },
+        {
+          "user": "mediart",
+          "msg": "Yeah, it went well! 😊"
+        },
+        {
+          "user": "mediart",
+          "msg": "I’m in my 6th semester right now, so I still have 8 more semesters to go. Med school is 14 semesters in total 😅"
         }
       ],
       "customCommands": {},
@@ -6638,7 +6638,7 @@
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
       "_idAt": 1792389655483,
-      "_gameAt": 1792392252677,
+      "_gameAt": 1792392481072,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -24742,8 +24742,8 @@
     }
   },
   "auth": {
-    "accessToken": "5dc35123be728031a4636eb3774e47d2",
-    "refreshToken": "f78a38617ef423a9f8855d213f168883",
+    "accessToken": "c78e59646ac9e2cc043011b2db88906f",
+    "refreshToken": "8e2c0a3c35a00376e50d0fcec562791f",
     "sessionToken": "7eaf062ee30b61abd65aa85ff5fc62a9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
