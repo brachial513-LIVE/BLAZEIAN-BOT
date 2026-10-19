@@ -1589,9 +1589,9 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 34477,
+        "totalVotes": 34497,
         "totalSubs": 84,
-        "totalChatMessages": 42714,
+        "totalChatMessages": 42740,
         "totalStreamMinutes": 3899,
         "emotes": {
           "🔥": 2247,
@@ -1601,7 +1601,7 @@
           "😍": 141,
           "❤": 66,
           "🚢": 24,
-          "⏰": 1772,
+          "⏰": 1777,
           "🔜": 1282,
           "💀": 673,
           "😘": 3,
@@ -1671,10 +1671,10 @@
           "🤑": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 43,
           "a38958f2-59cf-4321-aa3c-1541c00a4b5d": 181,
-          "cd2d0478-cb09-4023-9a6a-750599f9623a": 1,
+          "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
           "6bc868b6-ab05-4fcf-99d3-7a7e48179946": 10,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 48,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 49,
           "a4248d89-52af-492e-8aa8-803548a394da": 97,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 12,
           "93f3564c-14d5-412f-8856-f2df4eaf6e10": 62,
@@ -1682,7 +1682,7 @@
           "87fe35f2-f7e8-4689-a8cd-70714d391677": 75,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 2,
           "d1d6139e-2d09-4e9b-8543-4a930c3db777": 1,
-          "37719561-c923-4260-b1a5-e3eda10c103d": 2,
+          "37719561-c923-4260-b1a5-e3eda10c103d": 3,
           "092983c8-f5de-4f77-a250-c98f0a0fa917": 2,
           "e7875b57-851d-42c7-9733-8551cdd30d7e": 6,
           "15ab72ed-6caa-490c-b95c-df2a626bff36": 4,
@@ -1761,7 +1761,7 @@
           "30d97fce-ee29-4d4f-ae27-32f1692b404a": 2,
           "🙂": 1,
           "↕": 1,
-          "🍻": 20
+          "🍻": 21
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -1933,7 +1933,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792431584575,
+        "lastChatAt": 1792431881119,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1943,43 +1943,43 @@
       "chatMemory": [
         {
           "user": "makeitmetal",
-          "msg": "i am a people with 20 minutes of freetime"
+          "msg": "beer is good...and stuff"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 Turn set left for move 3."
+          "msg": "@lvl4goblin joined the game! 2 player(s) ready."
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 Turn set right for move 2."
+          "msg": "@makeitmetal joined the game! 3 player(s) ready."
+        },
+        {
+          "user": "makeitmetal",
+          "msg": "@xBuRnTx do !join"
+        },
+        {
+          "user": "makeitmetal",
+          "msg": "one of us one of us"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 Turn set left for move 4."
-        },
-        {
-          "user": "makeitmetal",
-          "msg": "love the idea that a beer bottle is the size of the tables, dont sweat that kinda shit ahha"
-        },
-        {
-          "user": "makeitmetal",
-          "msg": "ah i se"
-        },
-        {
-          "user": "lvl4goblin",
-          "msg": "I wasn't paying attention, but I am a people 2"
-        },
-        {
-          "user": "makeitmetal",
-          "msg": "lolol"
+          "msg": "⏰ Game starting in 10 seconds!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "🏆 WINNER: House Bartender! 🎉 Congratulations! 🎊"
+          "msg": "⏰ Game starting in 5 seconds!"
         },
         {
-          "user": "makeitmetal",
-          "msg": "hi goblin"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
         }
       ],
       "customCommands": {},
@@ -2231,7 +2231,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792426521152,
-      "_gameAt": 1792431536085,
+      "_gameAt": 1792431737209,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -2264,6 +2264,11 @@
           "t": 1792431112793,
           "v": "dimifw",
           "a": 30
+        },
+        {
+          "t": 1792431701645,
+          "v": "xburntx",
+          "a": 20
         }
       ]
     },
@@ -4118,8 +4123,8 @@
       "stats": {
         "totalVotes": 55185,
         "totalSubs": 100,
-        "totalChatMessages": 19739,
-        "totalStreamMinutes": 11929,
+        "totalChatMessages": 19753,
+        "totalStreamMinutes": 11934,
         "emotes": {
           "❤": 7488,
           "🎵": 749,
@@ -4324,7 +4329,7 @@
           "😨": 1,
           "9fd66615-f12c-427c-9db1-deb571a1857f": 2,
           "💫": 1,
-          "😮": 5,
+          "😮": 6,
           "🪨": 3,
           "🌮": 5,
           "💉": 9,
@@ -4578,7 +4583,7 @@
           "🥱": "🥱",
           "🌙": "🌙"
         },
-        "lastChatAt": 1792431572940,
+        "lastChatAt": 1792431878899,
         "sendFailStreak": 571,
         "lastSendFailAt": 1792401875178,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4588,44 +4593,44 @@
       },
       "chatMemory": [
         {
+          "user": "midnitecatzlady",
+          "msg": "I see that"
+        },
+        {
           "user": "generalkev",
-          "msg": "hey midnitey!"
-        },
-        {
-          "user": "midnitecatzlady",
-          "msg": "that glowy tile thing, I thought at first it meant all the brown boxes in the back ground"
-        },
-        {
-          "user": "sheshi",
-          "msg": "hello mrs. catz"
-        },
-        {
-          "user": "midnitecatzlady",
-          "msg": "sheshi"
+          "msg": "DJMOB sounds good"
         },
         {
           "user": "unclefunk",
-          "msg": "thngies that thingie thinalily"
+          "msg": "untss untss untss"
         },
         {
-          "user": "cymatrix",
-          "msg": "Hey Kev!"
+          "user": "djmob",
+          "msg": "did you get the msg Funk?"
         },
         {
-          "user": "bee12",
-          "msg": "❤️🐝❤️"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "@unclefunk check datcord"
+          "user": "midnitecatzlady",
+          "msg": "I definitley prefer flying over ground crew"
         },
         {
           "user": "generalkev",
-          "msg": "Hey Mr Beats Sir!"
+          "msg": "you mean like the mode showing now midnite? maybe we could integrate bomb dropping into this style?"
         },
         {
-          "user": "cymatrix",
-          "msg": "Got something for you Kev when Funk can show it"
+          "user": "unclefunk",
+          "msg": "I totally could"
+        },
+        {
+          "user": "generalkev",
+          "msg": "like a 'bouncing bomb' mode haha"
+        },
+        {
+          "user": "midnitecatzlady",
+          "msg": "yes, I like this mode"
+        },
+        {
+          "user": "bee12",
+          "msg": "yassssssssss, same!"
         }
       ],
       "customCommands": {},
@@ -4771,7 +4776,7 @@
       "_idAt": 1792426523146,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1792431396977,
+      "_gameAt": 1792431821805,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -12836,14 +12841,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 32744,
+        "totalVotes": 32754,
         "totalSubs": 37,
-        "totalChatMessages": 1644,
+        "totalChatMessages": 1645,
         "totalStreamMinutes": 2696,
         "emotes": {
           "❤": 33,
           "🙌": 50,
-          "🗳": 708,
+          "🗳": 711,
           "🚨": 72,
           "🎉": 40,
           "👋": 51,
@@ -13038,17 +13043,13 @@
           "😨": "😨",
           "🦉": "🦉"
         },
-        "lastChatAt": 1792428439236,
+        "lastChatAt": 1792431696341,
         "sendFailStreak": 290,
         "lastSendFailAt": 1792396422750,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1792396422574
       },
       "chatMemory": [
-        {
-          "user": "dimifw",
-          "msg": "HER"
-        },
         {
           "user": "fartvader",
           "msg": "what is that creepy voice"
@@ -13084,6 +13085,10 @@
         {
           "user": "fartvader",
           "msg": "take care Dimi!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -13221,7 +13226,7 @@
       "lastStreamInfo": "Streamish #122 - Ori and the Will of the Wisps",
       "lastStreamEndedAt": 1792428331647,
       "_idAt": 1792426538653,
-      "_gameAt": 1792428439340,
+      "_gameAt": 1792431696463,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -13234,6 +13239,11 @@
           "t": 1792429891334,
           "v": "whisky",
           "a": 4
+        },
+        {
+          "t": 1792431694058,
+          "v": "timdraws",
+          "a": 10
         }
       ]
     },
@@ -14602,10 +14612,10 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 21142,
+        "totalVotes": 21152,
         "totalSubs": 44,
-        "totalChatMessages": 3312,
-        "totalStreamMinutes": 12989,
+        "totalChatMessages": 3314,
+        "totalStreamMinutes": 12994,
         "emotes": {
           "❤": 119,
           "🙌": 85,
@@ -14616,7 +14626,7 @@
           "💪": 1,
           "💚": 6,
           "🔥": 143,
-          "🗳": 888,
+          "🗳": 891,
           "🤗": 5,
           "📴": 68,
           "🎁": 48,
@@ -14795,17 +14805,9 @@
           "30a0596b-8cf0-42c2-84b9-f0bbe2d6409d": "Heart"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792431565940
+        "lastChatAt": 1792431824139
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "tawa tawa k nlng eh [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3]"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "4 rounds kayong olats ouch"
-        },
         {
           "user": "cr33pling",
           "msg": "pag naglaro tayo, dropan mo ko nyan phantom"
@@ -14837,6 +14839,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @xBuRnTx!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @xBuRnTx just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -14936,7 +14946,7 @@
         }
       },
       "_idAt": 1792426541147,
-      "_gameAt": 1792431564248,
+      "_gameAt": 1792431822533,
       "isLive": true,
       "streamCategory": "VALORANT",
       "voteLog": [
@@ -14958,6 +14968,11 @@
         {
           "t": 1792431563725,
           "v": "dimifw",
+          "a": 10
+        },
+        {
+          "t": 1792431821937,
+          "v": "xburntx",
           "a": 10
         }
       ]
@@ -18883,10 +18898,10 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 31672,
+        "totalVotes": 31722,
         "totalSubs": 127,
-        "totalChatMessages": 7461,
-        "totalStreamMinutes": 13617,
+        "totalChatMessages": 7467,
+        "totalStreamMinutes": 13622,
         "emotes": {
           "😅": 8,
           "🔥": 310,
@@ -18915,7 +18930,7 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": 212,
           "37719561-c923-4260-b1a5-e3eda10c103d": 12,
           "🎁": 114,
-          "🗳": 750,
+          "🗳": 753,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 50,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 24,
           "📴": 59,
@@ -19003,7 +19018,7 @@
           "💛": 4,
           "😉": 1,
           "💜": 1,
-          "9294e28e-48fa-409c-b43b-98287465b788": 1,
+          "9294e28e-48fa-409c-b43b-98287465b788": 4,
           "😍": 2,
           "❌": 1,
           "✅": 1,
@@ -19140,7 +19155,7 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792431547566,
+        "lastChatAt": 1792431844901,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -19148,26 +19163,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "cymatrix",
-          "msg": "I resemble that remark"
-        },
-        {
-          "user": "unclefunk",
-          "msg": "YOUR MOTHER is a cool lady!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ TwistedTinker just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 30 vote(s) (total: 230)! Thank you!! 🗳️"
-        },
-        {
-          "user": "twistedtinker",
-          "msg": "Hey all"
-        },
         {
           "user": "bee12",
           "msg": "twisted heyyy❤️🐝❤️"
@@ -19187,6 +19182,26 @@
         {
           "user": "bee12",
           "msg": "yassssss"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "haha"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @xBuRnTx just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "xburntx",
+          "msg": "[emote:9294e28e-48fa-409c-b43b-98287465b788] [emote:9294e28e-48fa-409c-b43b-98287465b788] [emote:9294e28e-48fa-409c-b43b-98287465b788]"
+        },
+        {
+          "user": "xburntx",
+          "msg": "Good day!"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Also level up your turrets when you are back in the turret slots"
         }
       ],
       "customCommands": {},
@@ -19443,7 +19458,7 @@
         "entries": []
       },
       "_idAt": 1792426548144,
-      "_gameAt": 1792431535596,
+      "_gameAt": 1792431844986,
       "isLive": true,
       "streamCategory": "Games + Demos",
       "voteLog": [
@@ -19476,6 +19491,11 @@
           "t": 1792431097310,
           "v": "dimifw",
           "a": 30
+        },
+        {
+          "t": 1792431617925,
+          "v": "xburntx",
+          "a": 50
         }
       ]
     },
@@ -23665,9 +23685,9 @@
       "language": "en",
       "joinedAt": 1791033739333,
       "stats": {
-        "totalVotes": 1180,
+        "totalVotes": 1190,
         "totalSubs": 1,
-        "totalChatMessages": 682,
+        "totalChatMessages": 685,
         "totalStreamMinutes": 2905,
         "emotes": {
           "❤": 20,
@@ -23690,7 +23710,7 @@
           "😅": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 7,
-          "🗳": 57,
+          "🗳": 60,
           "🔥": 2,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 8,
           "😶": 6,
@@ -23740,21 +23760,9 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792431554688
+        "lastChatAt": 1792431865161
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
-        },
-        {
-          "user": "potato_pete",
-          "msg": "zippin up a fresh copy now"
-        },
-        {
-          "user": "potato_pete",
-          "msg": "ill post in discord"
-        },
         {
           "user": "botger",
           "msg": "if you are lurking type !!lurk and it will triggered a lurk message"
@@ -23782,6 +23790,18 @@
         {
           "user": "botger",
           "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @xBuRnTx!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @xBuRnTx just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "xburntx",
+          "msg": "Good afternoon!"
         }
       ],
       "customCommands": {},
@@ -23816,7 +23836,7 @@
           "tier": 1
         }
       },
-      "_gameAt": 1792431554817,
+      "_gameAt": 1792431843942,
       "isLive": true,
       "streamCategory": "ARC Raiders",
       "voteLog": [
@@ -23824,6 +23844,11 @@
           "t": 1792429891380,
           "v": "whisky",
           "a": 4
+        },
+        {
+          "t": 1792431843378,
+          "v": "xburntx",
+          "a": 10
         }
       ]
     },
@@ -25450,8 +25475,8 @@
     }
   },
   "auth": {
-    "accessToken": "968ff20d1999ca458cd285d12a5890d1",
-    "refreshToken": "3db08f77d1a110330950886fc39fc603",
+    "accessToken": "ac3a86e6df8bc0a9ccdf261b3b9f381d",
+    "refreshToken": "75e9cd867e7d8e5bc212bed97b243ac9",
     "sessionToken": "fc7b03caf2ded6e97495109aee2fe5af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
