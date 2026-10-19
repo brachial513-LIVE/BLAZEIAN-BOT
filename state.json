@@ -3363,8 +3363,8 @@
       "stats": {
         "totalVotes": 29196,
         "totalSubs": 111,
-        "totalChatMessages": 9030,
-        "totalStreamMinutes": 27354,
+        "totalChatMessages": 9031,
+        "totalStreamMinutes": 27374,
         "emotes": {
           "❤": 245,
           "🙌": 206,
@@ -3546,10 +3546,11 @@
           "🖤": 3,
           "🌍": 1,
           "🧠": 4,
-          "🤜": 1,
-          "🤛": 1,
+          "🤜": 2,
+          "🤛": 2,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
-          "👌": 2
+          "👌": 2,
+          "🍩": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -3735,16 +3736,13 @@
           "🤜": "🤜",
           "🤛": "🤛",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink",
-          "👌": "👌"
+          "👌": "👌",
+          "🍩": "🍩"
         },
-        "lastChatAt": 1792407239662,
+        "lastChatAt": 1792407876075,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @lvl4goblin!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 140 votes, @octo!"
@@ -3780,6 +3778,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: 💪 Braver Than You Believe 🧠  Anyone Wanna Play? 👀 | 🎰 Sub Raffle — 150 Votes! 🏆! Come hang out and watch."
+        },
+        {
+          "user": "blazeagainst",
+          "msg": "🤜🤛🍩"
         }
       ],
       "customCommands": {
@@ -4006,7 +4008,7 @@
         }
       },
       "_idAt": 1792389647127,
-      "_gameAt": 1792407239350,
+      "_gameAt": 1792407876218,
       "isLive": true,
       "streamCategory": "Fortnite"
     },
@@ -7807,17 +7809,17 @@
       "language": "en",
       "stats": {
         "totalVotes": 20769,
-        "totalSubs": 58,
-        "totalChatMessages": 1842,
+        "totalSubs": 59,
+        "totalChatMessages": 1843,
         "totalStreamMinutes": 7551,
         "emotes": {
           "❤": 92,
-          "🙌": 83,
+          "🙌": 84,
           "🎁": 106,
           "🚀": 1,
           "😂": 6,
           "🤣": 39,
-          "🔥": 64,
+          "🔥": 66,
           "😎": 2,
           "🤝": 2,
           "🥲": 2,
@@ -7969,17 +7971,13 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792370229022,
+        "lastChatAt": 1792408379812,
         "lastSendFailAt": 1790979696099,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790984188513,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "Hi Briggsy!"
-        },
         {
           "user": "vitrene",
           "msg": "thanks! I will :D"
@@ -8015,6 +8013,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 140 vote(s) (total: 140)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Honeybear has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -8061,6 +8063,11 @@
           "name": "squall09",
           "months": 1,
           "tier": 1
+        },
+        "honeybear": {
+          "name": "honeybear",
+          "months": 1,
+          "tier": 1
         }
       },
       "commentMode": "heavy",
@@ -8071,7 +8078,7 @@
       "_idAt": 1792390853088,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792370229143
+      "_gameAt": 1792408379935
     },
     "409f91da-44bd-4294-9ef6-f27bac56b3ae": {
       "username": "grook",
@@ -8363,8 +8370,8 @@
       "gameOverride": "",
       "lastStreamInfo": "Hades II on Switch 2",
       "lastStreamEndedAt": 1792357128971,
-      "profile": "gmc_gaara27 streams chill beats, “PosiTief presents: West Coast G‑Funk Hour — Music.” The chat vibes with “welcome to blaze bro,” “letsgooo,” “awesome people.” They love quick “+follower” cheers, “emote” bursts, and “Verkaufe interessant.” Followers celebrate with “thank you” and “Thanks :)”. The community stays upbeat, supportive, always ready for the next groove.",
-      "_profileAtCount": 315,
+      "profile": "gmc_gaara27 streams chill beats, “PosiTief presents: West Coast G‑Funk Hour — Music.” The chat vibes with “welcome to blaze bro,” “letsgooo,” “awesome people,” “+follower” cheers, “emote” bursts, and “Verkaufe interessant.” They celebrate with “thank you” and “Thanks :)”, stay upbeat, supportive, always ready for the next groove, and love quick shoutouts and volume tweaks.",
+      "_profileAtCount": 388,
       "nudgedAt": 1790523497708,
       "nudgedKey": "schedule",
       "_idAt": 1792396847167,
