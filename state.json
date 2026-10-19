@@ -5805,8 +5805,8 @@
       "stats": {
         "totalVotes": 43947,
         "totalSubs": 128,
-        "totalChatMessages": 14808,
-        "totalStreamMinutes": 9259,
+        "totalChatMessages": 14809,
+        "totalStreamMinutes": 9264,
         "emotes": {
           "❤": 269,
           "🙌": 413,
@@ -5998,8 +5998,8 @@
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 38,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 27,
-          "🪐": 128,
-          "👽": 128,
+          "🪐": 129,
+          "👽": 129,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "6f01ba8a-250b-493f-9bad-596a135dea69": 42,
@@ -6380,13 +6380,9 @@
           "🍩": "🍩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792382581995
+        "lastChatAt": 1792384309376
       },
       "chatMemory": [
-        {
-          "user": "cripiechuccles",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -6422,6 +6418,10 @@
         {
           "user": "meyetechnicals",
           "msg": "my obs crashed so in loading up some warzone"
+        },
+        {
+          "user": "botger",
+          "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
         }
       ],
       "customCommands": {},
@@ -6633,7 +6633,7 @@
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
       "_idAt": 1792366855455,
-      "_gameAt": 1792382494634,
+      "_gameAt": 1792384309524,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -14995,9 +14995,9 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 18863,
+        "totalVotes": 19015,
         "totalSubs": 30,
-        "totalChatMessages": 41523,
+        "totalChatMessages": 41524,
         "totalStreamMinutes": 22222,
         "emotes": {
           "❤": 151,
@@ -15013,7 +15013,7 @@
           "🤗": 68,
           "😊": 11,
           "🌻": 5,
-          "🗳": 579,
+          "🗳": 582,
           "☺": 54,
           "😎": 2,
           "😁": 3,
@@ -15420,13 +15420,9 @@
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": "JOYFULLPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792378231080
+        "lastChatAt": 1792384520222
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🏆 Votos — esta época: ninguém ainda — seja o primeiro!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @lovemikami just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -15462,6 +15458,10 @@
         {
           "user": "lovemikami",
           "msg": "ricuuuuuuu"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @LipeMan just gave 152 vote(s) (total: 152)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -15604,7 +15604,7 @@
         }
       },
       "_idAt": 1792370450649,
-      "_gameAt": 1792378061204,
+      "_gameAt": 1792384520317,
       "isLive": false,
       "streamCategory": ""
     },
@@ -16679,7 +16679,7 @@
         "totalVotes": 3267,
         "totalSubs": 4,
         "totalChatMessages": 117,
-        "totalStreamMinutes": 4839,
+        "totalStreamMinutes": 4844,
         "emotes": {
           "🔥": 10,
           "🐺": 2,
@@ -24737,8 +24737,8 @@
     }
   },
   "auth": {
-    "accessToken": "68cd2fc67d97ea9d4098d6b4804524a3",
-    "refreshToken": "51a3a0e918e5fd8016cdf54b35e789f3",
+    "accessToken": "dcc317cb57bf6e843627a2c0e7e51cb0",
+    "refreshToken": "02b36c24bce90ce68ce32f7af88702f5",
     "sessionToken": "7eaf062ee30b61abd65aa85ff5fc62a9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
