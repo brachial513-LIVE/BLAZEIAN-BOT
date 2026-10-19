@@ -5804,22 +5804,22 @@
       "language": "en",
       "stats": {
         "totalVotes": 44245,
-        "totalSubs": 130,
-        "totalChatMessages": 15028,
-        "totalStreamMinutes": 9489,
+        "totalSubs": 131,
+        "totalChatMessages": 15341,
+        "totalStreamMinutes": 9509,
         "emotes": {
           "❤": 275,
-          "🙌": 416,
+          "🙌": 417,
           "🗳": 1886,
           "✌": 11,
           "😊": 11,
           "👍": 19,
           "🔴": 18,
-          "🎉": 178,
+          "🎉": 183,
           "📴": 18,
           "👋": 30,
-          "⚡": 103,
-          "😂": 207,
+          "⚡": 104,
+          "😂": 208,
           "😍": 37,
           "🔥": 311,
           "😎": 9,
@@ -5835,14 +5835,14 @@
           "🚨": 391,
           "😘": 4,
           "🥰": 41,
-          "🎁": 153,
+          "🎁": 155,
           "😅": 52,
           "🙈": 2,
           "🥳": 4,
           "❗": 2,
           "⭕": 58,
           "🤗": 15,
-          "👀": 258,
+          "👀": 259,
           "🙂": 14,
           "↕": 11,
           "💜": 7,
@@ -5998,8 +5998,8 @@
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 38,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 27,
-          "🪐": 136,
-          "👽": 136,
+          "🪐": 137,
+          "👽": 137,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "6f01ba8a-250b-493f-9bad-596a135dea69": 47,
@@ -6035,11 +6035,11 @@
           "🥀": 1,
           "⛓": 14,
           "✅": 51,
-          "⏰": 17,
+          "⏰": 37,
           "⏩": 4,
-          "💀": 3,
+          "💀": 9,
           "💥": 2,
-          "🏆": 1,
+          "🏆": 5,
           "🚀": 6,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 3,
           "♥": 4,
@@ -6092,7 +6092,12 @@
           "🤝": 1,
           "🫴": 1,
           "🍩": 1,
-          "🎰": 2
+          "🎰": 2,
+          "😰": 4,
+          "🔜": 36,
+          "🎊": 4,
+          "⚔": 2,
+          "🚢": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -6379,51 +6384,56 @@
           "🤝": "🤝",
           "🫴": "🫴",
           "🍩": "🍩",
-          "🎰": "🎰"
+          "🎰": "🎰",
+          "😰": "😰",
+          "🔜": "🔜",
+          "🎊": "🎊",
+          "⚔": "⚔",
+          "🚢": "🚢"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792398046955
+        "lastChatAt": 1792399228927
       },
       "chatMemory": [
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 10 seconds!"
+          "msg": "J12: Miss!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 10 seconds!"
+          "msg": "N5: Miss!"
+        },
+        {
+          "user": "helios",
+          "msg": "You have to use code. Clicking doesn't work lol"
+        },
+        {
+          "user": "helios",
+          "msg": "Right"
+        },
+        {
+          "user": "helios",
+          "msg": "That's why I fired at myself"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 5 seconds!"
+          "msg": "N10: Miss!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 5 seconds!"
+          "msg": "E11: Miss!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
+          "msg": "@helios Shot queued at A5! It will fire when it's your turn. 🔜"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
+          "msg": "A5: Miss!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
+          "msg": "@helios fires at A5!"
         }
       ],
       "customCommands": {},
@@ -6640,7 +6650,7 @@
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
       "_idAt": 1792389655483,
-      "_gameAt": 1792397868683,
+      "_gameAt": 1792399167707,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -12844,7 +12854,7 @@
       "commentMode": "low",
       "lastStreamInfo": "Streamish #121 - Ori and the Will of the Wisps",
       "lastStreamEndedAt": 1792364635222,
-      "_idAt": 1792375251862,
+      "_idAt": 1792398051892,
       "_gameAt": 1792396428053,
       "isLive": false,
       "streamCategory": ""
@@ -19817,7 +19827,7 @@
       "_profileAtCount": 33,
       "nudgedAt": 1786981105091,
       "nudgedKey": "schedule",
-      "_idAt": 1792375247085
+      "_idAt": 1792398047121
     },
     "aeb8b4ea-5a22-4acf-b508-dbf0ce896a86": {
       "username": "inn",
@@ -20217,7 +20227,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/128e2f4a-c34b-4d0f-b6b7-11c70bb3f295-profile_image-300x300.png",
-      "_idAt": 1792376448266
+      "_idAt": 1792399248286
     },
     "8f114ea6-29e2-4213-99b4-3357cfbe1885": {
       "username": "cr33pling",
@@ -20786,7 +20796,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792376449461
+      "_idAt": 1792399249489
     },
     "8f390b56-fc05-4001-96d5-a8ed5bf4e78d": {
       "username": "tcwarrioretp",
@@ -20925,7 +20935,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792375255450,
+      "_idAt": 1792398055483,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792229327977
@@ -21023,7 +21033,7 @@
       "lastStreamInfo": "come chat fortnite og live event  (!discord) — Fortnite",
       "lastStreamEndedAt": 1788026352900,
       "gameOverride": "",
-      "_idAt": 1792375254260
+      "_idAt": 1792398054296
     },
     "521e9714-34db-46ea-a803-c0b11d18aabd": {
       "username": "mutzume",
@@ -21114,7 +21124,7 @@
       "lastStreamInfo": "JUMP SPACE | W/ ATE @nekoschwan, KUYA @FartVader, And KUYA @cr33pling — Games + Demos",
       "lastStreamEndedAt": 1790097954170,
       "gameOverride": "",
-      "_idAt": 1792375250670,
+      "_idAt": 1792398050684,
       "loyalty": {
         "noodles": {
           "name": "noodles",
@@ -21240,7 +21250,7 @@
       "lastStreamEndedAt": 1790496719480,
       "profile": "zeenlive’s stream is a nonstop, high‑energy hangout where “gm gm bro” greets the chat and “NEW FOLLOWER!!” erupts with every new join. The community thrives on quick emote bursts, playful banter, and a constant stream of “❤️” and “🙌” celebrations. The channel loves being praised with enthusiastic shoutouts, keeping the vibe lively and inclusive.",
       "_profileAtCount": 44,
-      "_idAt": 1792375248257
+      "_idAt": 1792398048288
     },
     "ab735c59-eeea-4fe7-acf5-d0a4c112e646": {
       "username": "destinoprospero",
@@ -21516,7 +21526,7 @@
       "gameOverride": "",
       "profile": "starmouse307319 streams energetic, community‑first gameplay, shouting “Welcome everyone!” and “Thanks for watching!” to celebrate viewers. The chat loves quick “follow” prompts, “Let’s take a moment to follow” links, and playful banter. Recurring slang includes “hi welcome how are you?” and “nice to hear that”. The vibe is friendly, inclusive, and always encouraging new followers.",
       "_profileAtCount": 86,
-      "_idAt": 1792375253053
+      "_idAt": 1792398053083
     },
     "b9633d43-f55f-4bb2-825e-92c0c1422e87": {
       "username": "precidobos",
@@ -21607,7 +21617,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792375249458,
+      "_idAt": 1792398049494,
       "_gameAt": 1792257951239,
       "isLive": false,
       "streamCategory": ""
@@ -21674,7 +21684,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f64a634d-8908-45cf-8143-8a641931b8c8.png",
       "followed": true,
       "botVip": true,
-      "_idAt": 1792376447324
+      "_idAt": 1792399247106
     },
     "a8d36ae2-d8e9-4f53-a27d-55c1506a9fbc": {
       "username": "reddeadrasta",
