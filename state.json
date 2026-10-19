@@ -5805,8 +5805,8 @@
       "stats": {
         "totalVotes": 44270,
         "totalSubs": 131,
-        "totalChatMessages": 15714,
-        "totalStreamMinutes": 9529,
+        "totalChatMessages": 15804,
+        "totalStreamMinutes": 9534,
         "emotes": {
           "❤": 275,
           "🙌": 418,
@@ -5952,7 +5952,7 @@
           "391bb87b-6fa9-45dd-a026-12ff501ebd45": 71,
           "65eab4da-09a3-4eef-a32a-7a0556ecccc7": 2,
           "d931b45c-0a09-4c75-89d6-68d82d7bc05d": 388,
-          "c39beee4-6a83-4894-864e-b06efa61e593": 129,
+          "c39beee4-6a83-4894-864e-b06efa61e593": 131,
           "18c9c5a8-ceb1-461c-81ba-0c251bf77b25": 16,
           "ba9ef29a-644f-4d16-8b9f-3c6c1f49ab7f": 17,
           "99af5de7-e3b1-4a73-ac75-f0e71d60222a": 22,
@@ -5963,7 +5963,7 @@
           "0dfdfc88-3d2b-4df5-bad8-1386a8152264": 41,
           "f331d2ff-359a-475e-a566-0f2180bcb070": 24,
           "b452c358-941e-402c-924c-86d5adff6752": 1,
-          "061b83c4-4a6b-4f78-a1b8-58e3c3c832e6": 189,
+          "061b83c4-4a6b-4f78-a1b8-58e3c3c832e6": 193,
           "b4301f16-38b3-4efb-8cbc-a5eb7ddf9639": 40,
           "63e378a3-c35f-4a60-a9a7-76e4894cfdba": 86,
           "4fa0df0c-8449-4e1e-a13e-04694c2d009a": 38,
@@ -5998,8 +5998,8 @@
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 38,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 27,
-          "🪐": 137,
-          "👽": 137,
+          "🪐": 138,
+          "👽": 138,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "6f01ba8a-250b-493f-9bad-596a135dea69": 47,
@@ -6094,11 +6094,12 @@
           "🍩": 1,
           "🎰": 2,
           "😰": 4,
-          "🔜": 110,
+          "🔜": 129,
           "🎊": 4,
           "⚔": 2,
           "🚢": 2,
-          "❌": 4
+          "❌": 4,
+          "⚠": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -6391,51 +6392,52 @@
           "🎊": "🎊",
           "⚔": "⚔",
           "🚢": "🚢",
-          "❌": "❌"
+          "❌": "❌",
+          "⚠": "⚠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792400448354
+        "lastChatAt": 1792400746127
       },
       "chatMemory": [
         {
           "user": "blazegames_bot",
-          "msg": "briggsy sank briggsy's Destroyer!"
+          "msg": "F2: Miss!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "L6: hit helios! | sunk briggsy's Destroyer!"
+          "msg": "K7: Miss!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "G3: Miss!"
+          "msg": "K7: Miss!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "B6: hit briggsy!"
-        },
-        {
-          "user": "brachial513",
-          "msg": "all good i wish i can give more lol so gonna shower now see ya later Awesome people 💚"
+          "msg": "@briggsy Shot queued at C8! It will fire when it's your turn. 🔜"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@helios Shot queued at B7! It will fire when it's your turn. 🔜"
+          "msg": "@briggsy C8 has already been fired at!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@helios B7 has already been fired at!"
+          "msg": "@helios Shot queued at C11! It will fire when it's your turn. 🔜"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@briggsy Shot queued at D2! It will fire when it's your turn. 🔜"
+          "msg": "@helios Shot queued at C11! It will fire when it's your turn. 🔜"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@briggsy Shot queued at D2! It will fire when it's your turn. 🔜"
+          "msg": "N4: Miss!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "K4: Miss!"
+          "msg": "M13: Miss!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "C8: hit briggsy!"
         }
       ],
       "customCommands": {},
@@ -6652,7 +6654,7 @@
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
       "_idAt": 1792389655483,
-      "_gameAt": 1792400442433,
+      "_gameAt": 1792400623271,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -22032,7 +22034,7 @@
       "lastStreamInfo": "[ES/EN]💥 | HABBO - BLACK JACK | GIVEAWAY!! — Habbo Hotel",
       "lastStreamEndedAt": 1788999484327,
       "gameOverride": "",
-      "_idAt": 1792377651879
+      "_idAt": 1792400451896
     },
     "abe9ce7b-abb9-421e-8063-f29ee331e751": {
       "username": "jagsman",
@@ -22377,7 +22379,7 @@
       "lastStreamInfo": "burada yeniyim !discord !settings — VALORANT",
       "lastStreamEndedAt": 1789668309772,
       "gameOverride": "",
-      "_idAt": 1792377654255
+      "_idAt": 1792400454293
     },
     "642cd761-2515-4c48-9c17-ae2e29e692e8": {
       "username": "thatsicy_",
@@ -22874,7 +22876,7 @@
       "gameOverride": "",
       "profile": "mafaz streams action‑packed gameplay, welcoming every new Blazeian with “welcome” and “thanks.” The chat buzzes with “woot,” “happy streaming buddd,” and “enjoy the game broski!” Fans celebrate mafaz by cheering “blazeee” and using the custom emote. The vibe is energetic, friendly, and supportive—every viewer feels part of the Blazeiancrew.",
       "_profileAtCount": 15,
-      "_idAt": 1792377655464
+      "_idAt": 1792400455508
     },
     "fba94794-c563-4d68-8aec-152f85eba0e1": {
       "username": "hubal",
@@ -23152,7 +23154,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792377653068,
+      "_idAt": 1792400453090,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/72e62f22-bfda-4fb8-b073-3f8c1ebc5201.png",
       "greeted": true,
       "profile": "silverbolt99’s channel is a high‑energy, community‑first hub where “welcome to the BLazeianCrew!” opens every stream and “NEW FOLLOWER!! ❤️” echoes with each new join. Weekly Sunday giveaways promise up to 1000 votes, celebrated with “Thanks for the X votes” chants. Lurkers are praised, donations appreciated, and the club hype (“⚡Friends, if you haven’t joined the Club…”) keeps the vibe playful, supportive, and always hype‑ready.",
@@ -24765,8 +24767,8 @@
     }
   },
   "auth": {
-    "accessToken": "efc027e5b830b041ac4b5425167cd722",
-    "refreshToken": "bda5a826e7b0f2dac8e1d4d23acbcbbd",
+    "accessToken": "49d15684e6120c9c34f4cefc19411c41",
+    "refreshToken": "300f7fa7cdbe4cacccb94e20e9f04bc0",
     "sessionToken": "7eaf062ee30b61abd65aa85ff5fc62a9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
