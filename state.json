@@ -5766,7 +5766,7 @@
       "lastStreamEndedAt": 1792359357173,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792366853054,
+      "_idAt": 1792389653088,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792372381864
@@ -5797,7 +5797,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792366854253
+      "_idAt": 1792389654282
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -5805,8 +5805,8 @@
       "stats": {
         "totalVotes": 44002,
         "totalSubs": 128,
-        "totalChatMessages": 14834,
-        "totalStreamMinutes": 9349,
+        "totalChatMessages": 14835,
+        "totalStreamMinutes": 9354,
         "emotes": {
           "❤": 269,
           "🙌": 413,
@@ -5998,8 +5998,8 @@
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 38,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 27,
-          "🪐": 131,
-          "👽": 131,
+          "🪐": 132,
+          "👽": 132,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "6f01ba8a-250b-493f-9bad-596a135dea69": 43,
@@ -6380,13 +6380,9 @@
           "🍩": "🍩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792389650451
+        "lastChatAt": 1792389768394
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "I'm doing great"
-        },
         {
           "user": "briggsy",
           "msg": "[emote:adf505fe-5d03-4608-9daa-2e2a50630dd1] [emote:adf505fe-5d03-4608-9daa-2e2a50630dd1] [emote:adf505fe-5d03-4608-9daa-2e2a50630dd1] [emote:adf505fe-5d03-4608-9daa-2e2a50630dd1]"
@@ -6422,6 +6418,10 @@
         {
           "user": "alliveall",
           "msg": "playing solo??"
+        },
+        {
+          "user": "botger",
+          "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
         }
       ],
       "customCommands": {},
@@ -6632,8 +6632,8 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
-      "_idAt": 1792366855455,
-      "_gameAt": 1792389559911,
+      "_idAt": 1792389655483,
+      "_gameAt": 1792389768497,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -20065,7 +20065,7 @@
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” love “mystery fish” drops, and keep the vibe high‑energy.",
-      "_profileAtCount": 4690,
+      "_profileAtCount": 4832,
       "nudgedAt": 1787282253705,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -24737,8 +24737,8 @@
     }
   },
   "auth": {
-    "accessToken": "fe3bd7d51badd097a60f5e2bc503bcdd",
-    "refreshToken": "8e3fdde035347bc1138f974e4f87990d",
+    "accessToken": "5dc35123be728031a4636eb3774e47d2",
+    "refreshToken": "f78a38617ef423a9f8855d213f168883",
     "sessionToken": "7eaf062ee30b61abd65aa85ff5fc62a9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
