@@ -865,12 +865,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 136278,
+        "totalVotes": 136509,
         "totalSubs": 215,
-        "totalChatMessages": 11537,
+        "totalChatMessages": 11539,
         "totalStreamMinutes": 4337,
         "emotes": {
-          "🗳": 2205,
+          "🗳": 2211,
           "❤": 553,
           "🙌": 328,
           "🔥": 311,
@@ -1254,21 +1254,13 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792431159875,
+        "lastChatAt": 1792451023762,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 350 vote(s) (total: 350)! Thank you!! 🗳️"
@@ -1300,6 +1292,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 30 vote(s) (total: 230)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 77 vote(s) (total: 77)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 77 vote(s) (total: 154)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1559,7 +1559,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
       "_idAt": 1792449291508,
-      "_gameAt": 1792431159993,
+      "_gameAt": 1792451012622,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -1597,6 +1597,21 @@
           "t": 1792436249222,
           "v": "xburntx",
           "a": 100
+        },
+        {
+          "t": 1792451010216,
+          "v": "cg777",
+          "a": 77
+        },
+        {
+          "t": 1792451015967,
+          "v": "cg777",
+          "a": 77
+        },
+        {
+          "t": 1792451021530,
+          "v": "cg777",
+          "a": 77
         }
       ]
     },
@@ -7087,7 +7102,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8e722545-71bf-4322-9039-50b822ebe64c.jpeg",
       "lastStreamInfo": "OFF THE GRID! Summer League — Off The Grid",
       "lastStreamEndedAt": 1786154686473,
-      "_idAt": 1792426526649
+      "_idAt": 1792451686746
     },
     "ff594749-c9c6-4c0b-9306-ec8fd4252f7e": {
       "username": "weri",
@@ -7155,7 +7170,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7e18d17e-6183-4f08-aad4-77cff2175674.gif",
-      "_idAt": 1792426527147,
+      "_idAt": 1792451687931,
       "_gameAt": 1792441764890,
       "isLive": false,
       "streamCategory": "",
@@ -7795,7 +7810,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "❤️Trying @UncleFunk 's game ❤️",
       "lastStreamEndedAt": 1792294930419,
-      "_idAt": 1792426527681,
+      "_idAt": 1792451689106,
       "mascotMsgs": [
         "Don't forget to Subscribe!",
         "Bald!",
@@ -7837,7 +7852,7 @@
         "totalVotes": 9571,
         "totalSubs": 89,
         "totalChatMessages": 964,
-        "totalStreamMinutes": 23485,
+        "totalStreamMinutes": 23505,
         "emotes": {
           "❤": 132,
           "🙌": 42,
@@ -8072,7 +8087,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792426528148,
+      "_idAt": 1792451690326,
       "streamCategory": "PLAYERUNKNOWN'S BATTLEGROUNDS",
       "isLive": true,
       "_gameAt": 1792447402722
@@ -8157,7 +8172,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792426528656
+      "_idAt": 1792451691518
     },
     "79ffc47e-8cb0-4618-9272-c9281368d26e": {
       "username": "vitrene",
@@ -8430,7 +8445,7 @@
       "nudgedKey": "customcmd",
       "lastStreamInfo": "I Dune What I Want. | Dune Awakening",
       "lastStreamEndedAt": 1792191552003,
-      "_idAt": 1792426529150,
+      "_idAt": 1792451692704,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792408379935,
@@ -8564,7 +8579,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792426529661
+      "_idAt": 1792451693916
     },
     "4ec108d8-b147-4ff7-b1e6-b1f8fa882f61": {
       "username": "omom_",
@@ -8600,7 +8615,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/244df307-0e7a-4ba8-bc0d-afd751a372ab.jpg",
-      "_idAt": 1792426530145
+      "_idAt": 1792451695121
     },
     "1290a27a-b733-42cc-85fe-daa77f965b10": {
       "username": "gmc_gaara27",
@@ -10677,12 +10692,12 @@
       "username": "xxtowerdogxx",
       "language": "en",
       "stats": {
-        "totalVotes": 23629,
+        "totalVotes": 23634,
         "totalSubs": 78,
-        "totalChatMessages": 2783,
-        "totalStreamMinutes": 22496,
+        "totalChatMessages": 2786,
+        "totalStreamMinutes": 22514,
         "emotes": {
-          "🔥": 807,
+          "🔥": 809,
           "🔴": 200,
           "💚": 6,
           "🤣": 5,
@@ -10692,7 +10707,7 @@
           "👋": 79,
           "👽": 28,
           "💀": 6,
-          "🗳": 549,
+          "🗳": 552,
           "💗": 1,
           "😱": 19,
           "❤": 105,
@@ -10849,18 +10864,10 @@
           "🤛": "🤛",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792438146915,
+        "lastChatAt": 1792451489171,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥TOWER is partnered with A-Bomb Energy! Looking for the best Nootropic, Alpha GPC packed drink that will Detinate you fatigue without the crash! Tell them TOWER sent you in the the order comments for an extra bonus in your care package! https://abombenergy.com/"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @xxTOWERDOGxx just gifted a sub to @slothsm! How generous!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @xxTOWERDOGxx just gifted a sub to @agent00zani! How generous!! 🙌"
@@ -10892,6 +10899,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "xxtowerdogxx is in the house! 🔥Welcome to the HOTTEST channel on BLAZE🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @retrogains12 just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -10901,7 +10916,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "",
+      "streamTitle": "⚡ The Dark Solar Gunslinger Has Arrived! | Delta Force | Team DSTG Lowlight Partner Org  🔥",
       "gameOverride": "",
       "profile": "We’re a BLAZE community fueled by gaming—Delta Force, Gears Of War, anime—and dropping votes. We shout “BLAZE ON Brother!” and “TTYL!” to celebrate milestones, love a good ☕, and go FULL SEND. Voting is LIVE, subs are appreciated, and we keep the TOWER Crew hype with “Welcome to the TOWER Crew, 🔴 Voting is LIVE 🔴.” We celebrate with BLAZE ON Brother! and TTYL! when we show appreciation.",
       "_profileAtCount": 2750,
@@ -11013,9 +11028,9 @@
         "confetti": true
       },
       "_idAt": 1792426533664,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792438147046,
+      "streamCategory": "Delta Force",
+      "isLive": true,
+      "_gameAt": 1792451489282,
       "voteLog": [
         {
           "t": 1792429891263,
@@ -11031,6 +11046,11 @@
           "t": 1792438144627,
           "v": "tuff3rmrd3ano",
           "a": 25
+        },
+        {
+          "t": 1792451078924,
+          "v": "retrogains12",
+          "a": 5
         }
       ]
     },
@@ -11765,11 +11785,11 @@
       "stats": {
         "totalVotes": 7962,
         "totalSubs": 38,
-        "totalChatMessages": 1028,
-        "totalStreamMinutes": 2931,
+        "totalChatMessages": 1032,
+        "totalStreamMinutes": 2951,
         "emotes": {
-          "❤": 45,
-          "🙌": 53,
+          "❤": 47,
+          "🙌": 54,
           "🗳": 309,
           "🔴": 60,
           "🎉": 63,
@@ -11874,25 +11894,9 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792450068532
+        "lastChatAt": 1792451913211
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "niruntz",
-          "msg": "Scheun is playing 3d chess"
-        },
-        {
-          "user": "niruntz",
-          "msg": "3deek"
-        },
         {
           "user": "0xscheun",
           "msg": "yeah"
@@ -11916,6 +11920,22 @@
         {
           "user": "0xscheun",
           "msg": "gracias"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ lvl4goblin just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "thanks for the follow"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "Is that a win screen I'm seeing? Niiiiiice"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "yeah lmao"
         }
       ],
       "customCommands": {},
@@ -11930,8 +11950,8 @@
       "followed": true,
       "streamTitle": "CHESS",
       "gameOverride": "",
-      "profile": "0xscheun’s crew is a chill, high‑energy squad that loves gaming, especially Farlight and Uncharted. We greet with “gm gm” and “sup”, celebrate wins with “thank you” and “yessir”, laugh at “tiddies” and “nirus supplier” jokes, throw constant emotes, and end streams with a heartfelt “See you next time 👋”. The vibe is playful banter, fests, and constant celebration.",
-      "_profileAtCount": 978,
+      "profile": "0xscheun’s crew is a chill, high‑energy squad that loves gaming, especially chess. We greet with “gm gm” and “sup”, celebrate wins with “thank you” and “yessir”, laugh at “tiddies” and “nirus supplier” jokes, throw constant emotes, and end streams with a heartfelt “See you next time 👋”. The vibe is playful banter, fests, and constant celebration.",
+      "_profileAtCount": 1032,
       "nudgedAt": 1785078532098,
       "nudgedKey": "schedule",
       "lastStreamInfo": "CHESS",
@@ -12026,7 +12046,7 @@
       "_idAt": 1792426536641,
       "streamCategory": "Chess",
       "isLive": true,
-      "_gameAt": 1792449975161,
+      "_gameAt": 1792451887597,
       "voteLog": [
         {
           "t": 1792429891238,
@@ -15874,26 +15894,26 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 19142,
+        "totalVotes": 19149,
         "totalSubs": 31,
-        "totalChatMessages": 41643,
-        "totalStreamMinutes": 22255,
+        "totalChatMessages": 41738,
+        "totalStreamMinutes": 22275,
         "emotes": {
           "❤": 152,
           "🙌": 123,
           "🤝": 4,
           "🔥": 65,
           "🔴": 125,
-          "🎉": 295,
-          "🪙": 1043,
-          "⚡": 878,
+          "🎉": 296,
+          "🪙": 1047,
+          "⚡": 882,
           "👀": 107,
           "🍿": 22,
-          "🤗": 69,
+          "🤗": 70,
           "😊": 11,
           "🌻": 5,
-          "🗳": 600,
-          "☺": 56,
+          "🗳": 603,
+          "☺": 58,
           "😎": 2,
           "😁": 3,
           "📴": 126,
@@ -16006,7 +16026,7 @@
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 1,
           "👂": 2,
           "🙂": 1,
-          "🥇": 100,
+          "🥇": 101,
           "😞": 1,
           "💕": 5,
           "😗": 1,
@@ -16025,7 +16045,7 @@
           "9fd66615-f12c-427c-9db1-deb571a1857f": 1,
           "👑": 1,
           "🙋": 2,
-          "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": 3,
+          "2f733d36-16bb-4a05-bb3f-1d7e73634a6e": 4,
           "🙆": 1,
           "07de98c1-b682-4d82-b630-774474b712cc": 2,
           "🍻": 1,
@@ -16059,9 +16079,9 @@
           "60967948-8805-42ef-a202-051d2e2f1557": 2,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 1,
           "🥺": 2,
-          "🥈": 99,
-          "🥉": 99,
-          "⭐": 296,
+          "🥈": 100,
+          "🥉": 100,
+          "⭐": 297,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 8,
           "✊": 2,
           "✋": 2,
@@ -16082,7 +16102,7 @@
           "🤡": 2,
           "🤦": 1,
           "♂": 1,
-          "💖": 2,
+          "💖": 3,
           "😡": 1,
           "😃": 1,
           "😔": 1,
@@ -16301,48 +16321,48 @@
           "😉": "😉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792450785773
+        "lastChatAt": 1792451972592
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @solucao just gave 8 vote(s) (total: 8)! Thank you!! 🗳️"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Soltaram oh solução da prisão"
-        },
-        {
-          "user": "solucao",
-          "msg": "Boa noite mauh rei do Bomberman"
-        },
-        {
-          "user": "botger",
-          "msg": "💰 TIP ALERT!! 💰 @lovemikami just tipped $1.00!! Thank you so much!! 🙌"
-        },
-        {
-          "user": "solucao",
-          "msg": "Boa noite nilao rei da Bahia"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "Cadinho??"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "kkkkkkkkkk"
+          "user": "brunoseven",
+          "msg": "kkkkk"
         },
         {
           "user": "kwinchester",
-          "msg": "Boa noite Solução"
+          "msg": "Tem que pegar mais estrela rosa"
         },
         {
           "user": "kwinchester",
-          "msg": "Boa noite Junior"
+          "msg": "A mais alta"
         },
         {
           "user": "lovemikami",
-          "msg": "faltou um cadin de força ali"
+          "msg": "mas tô tentando"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "num sou nenhum tás do video"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "pra mim aquilo é tás"
+        },
+        {
+          "user": "brunoseven",
+          "msg": "1"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "Tem que pegar a mais alta e da pra pegar a da fileira quando ta descendo"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Estrela rosa eh a altura, assim qpegar uma as de mais ficam amarelas, a estrela rosa determina a altura pelo q entendi"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "Isso Mauh"
         }
       ],
       "customCommands": {},
@@ -16485,7 +16505,7 @@
         }
       },
       "_idAt": 1792426542652,
-      "_gameAt": 1792450616520,
+      "_gameAt": 1792451870494,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -16518,6 +16538,11 @@
           "t": 1792450695052,
           "v": "solucao",
           "a": 8
+        },
+        {
+          "t": 1792451148420,
+          "v": "brunoseven",
+          "a": 7
         }
       ]
     },
@@ -19404,9 +19429,9 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 31972,
+        "totalVotes": 32072,
         "totalSubs": 128,
-        "totalChatMessages": 7572,
+        "totalChatMessages": 7573,
         "totalStreamMinutes": 13693,
         "emotes": {
           "😅": 8,
@@ -19436,7 +19461,7 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": 213,
           "37719561-c923-4260-b1a5-e3eda10c103d": 12,
           "🎁": 114,
-          "🗳": 771,
+          "🗳": 774,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 50,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 24,
           "📴": 60,
@@ -19661,7 +19686,7 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792442925885,
+        "lastChatAt": 1792451708647,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -19669,10 +19694,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "much love briggsy!"
-        },
         {
           "user": "fartvader",
           "msg": "lets go raid MiM"
@@ -19708,6 +19729,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @octo just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -19964,7 +19989,7 @@
         "entries": []
       },
       "_idAt": 1792426548144,
-      "_gameAt": 1792442925986,
+      "_gameAt": 1792451708777,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -20042,6 +20067,11 @@
           "t": 1792442923678,
           "v": "triz_draw",
           "a": 5
+        },
+        {
+          "t": 1792451706397,
+          "v": "octo",
+          "a": 100
         }
       ]
     },
@@ -21036,7 +21066,7 @@
         "totalVotes": 11094,
         "totalSubs": 38,
         "totalChatMessages": 4879,
-        "totalStreamMinutes": 16196,
+        "totalStreamMinutes": 16216,
         "emotes": {
           "👋": 113,
           "⚠": 2,
@@ -24126,7 +24156,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 29,
-        "totalStreamMinutes": 6594,
+        "totalStreamMinutes": 6614,
         "emotes": {
           "💪": 1,
           "🌄": 1,
