@@ -1547,7 +1547,7 @@
       "stats": {
         "totalVotes": 33915,
         "totalSubs": 82,
-        "totalChatMessages": 42217,
+        "totalChatMessages": 42242,
         "totalStreamMinutes": 3857,
         "emotes": {
           "🔥": 2247,
@@ -1557,7 +1557,7 @@
           "😍": 141,
           "❤": 66,
           "🚢": 24,
-          "⏰": 1712,
+          "⏰": 1717,
           "🔜": 1282,
           "💀": 673,
           "😘": 3,
@@ -1604,7 +1604,7 @@
           "👍": 3,
           "🥔": 2100,
           "🔄": 384,
-          "🤖": 186,
+          "🤖": 187,
           "😏": 85,
           "❌": 22,
           "🙃": 13,
@@ -1717,7 +1717,7 @@
           "30d97fce-ee29-4d4f-ae27-32f1692b404a": 2,
           "🙂": 1,
           "↕": 1,
-          "🍻": 8
+          "🍻": 9
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -1889,7 +1889,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792364510074,
+        "lastChatAt": 1792381825755,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1897,22 +1897,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "botger",
-          "msg": "(Handled by bot — joins the channel and confirms in chat)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 No game is currently active!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🤖 Added 7 bot(s) to the game! 8 player(s) ready."
-        },
         {
           "user": "blazegames_bot",
           "msg": "⏰ Game starting in 10 seconds!"
@@ -1935,7 +1919,23 @@
         },
         {
           "user": "blazegames_bot",
-          "msg": "🏆 WINNER: House Bartender! 🎉 Congratulations! 🎊"
+          "msg": "@jt_squared2 Turn set right for move 2."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Turn set left for move 4."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Turn set left for move 2."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Turn set left for move 4."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Turn set right for move 2."
         }
       ],
       "customCommands": {},
@@ -2177,7 +2177,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792365653053,
-      "_gameAt": 1792364510192,
+      "_gameAt": 1792381708677,
       "isLive": false,
       "streamCategory": ""
     },
@@ -5803,14 +5803,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 43747,
+        "totalVotes": 43847,
         "totalSubs": 128,
-        "totalChatMessages": 14798,
-        "totalStreamMinutes": 9214,
+        "totalChatMessages": 14800,
+        "totalStreamMinutes": 9219,
         "emotes": {
           "❤": 269,
           "🙌": 413,
-          "🗳": 1859,
+          "🗳": 1862,
           "✌": 11,
           "😊": 10,
           "👍": 19,
@@ -6047,7 +6047,7 @@
           "👌": 5,
           "🤧": 3,
           "355eec0c-d8a7-4555-af08-170220289f66": 1,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 9,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 13,
           "🤠": 3,
           "🤦": 1,
           "♂": 1,
@@ -6380,17 +6380,9 @@
           "🍩": "🍩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792381551864
+        "lastChatAt": 1792381727755
       },
       "chatMemory": [
-        {
-          "user": "srchois",
-          "msg": "Yes Sis, thanks to God"
-        },
-        {
-          "user": "srchois",
-          "msg": "Yes, Neko is amazing hehe"
-        },
         {
           "user": "srchois",
           "msg": "Enjoy gaming briggsy"
@@ -6422,6 +6414,14 @@
         {
           "user": "nekoschwan",
           "msg": "enjoy your matches @briggsy"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -6633,7 +6633,7 @@
       "lastStreamInfo": "Fortnite with Zani",
       "lastStreamEndedAt": 1792223149496,
       "_idAt": 1792366855455,
-      "_gameAt": 1792381441256,
+      "_gameAt": 1792381689375,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -7459,7 +7459,7 @@
         "totalVotes": 9571,
         "totalSubs": 89,
         "totalChatMessages": 962,
-        "totalStreamMinutes": 23401,
+        "totalStreamMinutes": 23406,
         "emotes": {
           "❤": 132,
           "🙌": 42,
@@ -11969,16 +11969,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 38880,
+        "totalVotes": 38980,
         "totalSubs": 180,
-        "totalChatMessages": 4162,
-        "totalStreamMinutes": 21115,
+        "totalChatMessages": 4164,
+        "totalStreamMinutes": 21120,
         "emotes": {
           "❤": 148,
           "🙌": 253,
           "💚": 3,
           "🔥": 144,
-          "🗳": 1077,
+          "🗳": 1080,
           "🔴": 173,
           "🎉": 228,
           "📴": 170,
@@ -12033,7 +12033,7 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": 9,
           "🎰": 1,
           "🚫": 1,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 38,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 42,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 7,
           "5bb8d832-d7ef-4600-8250-5d2518128981": 8,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 6,
@@ -12202,17 +12202,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792380174075
+        "lastChatAt": 1792381716090
       },
       "chatMemory": [
-        {
-          "user": "srchois",
-          "msg": "Made my month"
-        },
-        {
-          "user": "srchois",
-          "msg": "Thanks again po, have fun gaming!"
-        },
         {
           "user": "korosuplays",
           "msg": "sa title palang kala ko irl gym na"
@@ -12244,6 +12236,14 @@
         {
           "user": "korosuplays",
           "msg": "worth 100 usd"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -12448,7 +12448,7 @@
       "lastStreamInfo": "Finishing the game! Say Hi!?",
       "lastStreamEndedAt": 1792326271340,
       "_idAt": 1792374055517,
-      "_gameAt": 1792380048886,
+      "_gameAt": 1792381699225,
       "isLive": true,
       "streamCategory": "IRL"
     },
@@ -12838,9 +12838,9 @@
       "joinedAt": 1784453301135,
       "stats": {
         "totalVotes": 11050,
-        "totalSubs": 66,
-        "totalChatMessages": 568,
-        "totalStreamMinutes": 9404,
+        "totalSubs": 67,
+        "totalChatMessages": 569,
+        "totalStreamMinutes": 9409,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -12888,13 +12888,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792380778688
+        "lastChatAt": 1792381753208
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "HAHHAHAHa"
-        },
         {
           "user": "nekoschwan",
           "msg": "laptrip"
@@ -12930,6 +12926,10 @@
         {
           "user": "srchois",
           "msg": "Hey hey have fun!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@Pr0ff gifted a sub to the community!"
         }
       ],
       "customCommands": {},
@@ -13055,7 +13055,7 @@
       "_idAt": 1792374050672,
       "streamCategory": "Dota 2",
       "isLive": true,
-      "_gameAt": 1792380778775
+      "_gameAt": 1792381753328
     },
     "18415f84-7186-46e6-ab4b-6ecacf1937ae": {
       "username": "sheena",
@@ -16663,7 +16663,7 @@
         "totalVotes": 3267,
         "totalSubs": 4,
         "totalChatMessages": 117,
-        "totalStreamMinutes": 4794,
+        "totalStreamMinutes": 4799,
         "emotes": {
           "🔥": 10,
           "🐺": 2,
@@ -19796,15 +19796,15 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 10973,
+        "totalVotes": 11073,
         "totalSubs": 38,
-        "totalChatMessages": 4817,
-        "totalStreamMinutes": 16023,
+        "totalChatMessages": 4820,
+        "totalStreamMinutes": 16028,
         "emotes": {
           "👋": 112,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 479,
+          "🗳": 482,
           "🔴": 108,
           "🎉": 140,
           "📴": 108,
@@ -19987,17 +19987,9 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792381089950
+        "lastChatAt": 1792381757138
       },
       "chatMemory": [
-        {
-          "user": "inn",
-          "msg": "Sup sup welcome inn on a smoke break brb inn less then 5"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "@briggsyyyyyy"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @nekoschwan!"
@@ -20029,6 +20021,14 @@
         {
           "user": "walkthegrid",
           "msg": "op"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 100 votes, @cripiechuccles!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -20155,7 +20155,7 @@
         }
       },
       "_idAt": 1792372854250,
-      "_gameAt": 1792381084007,
+      "_gameAt": 1792381607663,
       "isLive": true,
       "streamCategory": "Fortnite"
     },
@@ -24721,8 +24721,8 @@
     }
   },
   "auth": {
-    "accessToken": "a2376e2a721a3fe8bdc4b18b6b7dc949",
-    "refreshToken": "9d7577d75d4250a812a692cf46d11bbf",
+    "accessToken": "68cd2fc67d97ea9d4098d6b4804524a3",
+    "refreshToken": "51a3a0e918e5fd8016cdf54b35e789f3",
     "sessionToken": "7eaf062ee30b61abd65aa85ff5fc62a9",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
