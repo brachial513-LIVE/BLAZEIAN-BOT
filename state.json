@@ -1606,7 +1606,7 @@
       "stats": {
         "totalVotes": 34502,
         "totalSubs": 84,
-        "totalChatMessages": 43135,
+        "totalChatMessages": 43163,
         "totalStreamMinutes": 3899,
         "emotes": {
           "🔥": 2247,
@@ -1948,7 +1948,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792439686302,
+        "lastChatAt": 1792439767218,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1958,11 +1958,11 @@
       "chatMemory": [
         {
           "user": "jt_squared2",
-          "msg": "left"
+          "msg": "right"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 Turn set left for move 2."
+          "msg": "@jt_squared2 Turn set right for move 2."
         },
         {
           "user": "jt_squared2",
@@ -1978,7 +1978,15 @@
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 Turn set right for move 2."
+          "msg": "@jt_squared2 Your team is stunned for 2 more seconds."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "right"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Turn set right for move 1."
         },
         {
           "user": "jt_squared2",
@@ -1986,15 +1994,7 @@
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 Turn set left for move 4."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "left"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 Turn set left for move 1."
+          "msg": "@jt_squared2 Turn set left for move 3."
         }
       ],
       "customCommands": {},
@@ -2304,7 +2304,7 @@
         "totalVotes": 45618,
         "totalSubs": 284,
         "totalChatMessages": 14743,
-        "totalStreamMinutes": 34915,
+        "totalStreamMinutes": 34917,
         "emotes": {
           "📊": 3,
           "🔥": 631,
@@ -4179,7 +4179,7 @@
         "totalVotes": 55395,
         "totalSubs": 100,
         "totalChatMessages": 19945,
-        "totalStreamMinutes": 12064,
+        "totalStreamMinutes": 12066,
         "emotes": {
           "❤": 7511,
           "🎵": 755,
@@ -9952,7 +9952,7 @@
       "stats": {
         "totalVotes": 25845,
         "totalSubs": 77,
-        "totalChatMessages": 17912,
+        "totalChatMessages": 17913,
         "totalStreamMinutes": 12200,
         "emotes": {
           "🧏": 1,
@@ -10415,13 +10415,9 @@
           "🤝": "🤝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792439543191
+        "lastChatAt": 1792439752425
       },
       "chatMemory": [
-        {
-          "user": "metal_bot",
-          "msg": "@briggsy Found 2 matches: 1. OSTER project - Miracle Paint | 2. Leprous - Phantom Pain — Reply !pick 1-2 to select"
-        },
         {
           "user": "metal_bot",
           "msg": "@briggsy Found 4 matches: 1. maudlin of the Well - Birth Pains of Astral Projection | 2. OSTER project - Miracle Paint | 3. Pro-Pain - Voice of Rebellion | 4. Leprous - Phantom Pain — Reply !pick 1-4 to select"
@@ -10457,6 +10453,10 @@
         {
           "user": "0xscheun",
           "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
+        },
+        {
+          "user": "avisi",
+          "msg": "amazing work!"
         }
       ],
       "customCommands": {},
@@ -10588,7 +10588,7 @@
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
       "_idAt": 1792426533154,
-      "_gameAt": 1792439543336,
+      "_gameAt": 1792439752547,
       "isLive": true,
       "streamCategory": "Music",
       "voteLog": [
@@ -10997,7 +10997,7 @@
         "totalVotes": 12454,
         "totalSubs": 211,
         "totalChatMessages": 523,
-        "totalStreamMinutes": 17136,
+        "totalStreamMinutes": 17138,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -11436,7 +11436,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 88,
-        "totalStreamMinutes": 12956,
+        "totalStreamMinutes": 12958,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -14890,7 +14890,7 @@
         "totalVotes": 21260,
         "totalSubs": 44,
         "totalChatMessages": 3325,
-        "totalStreamMinutes": 13124,
+        "totalStreamMinutes": 13126,
         "emotes": {
           "❤": 119,
           "🙌": 85,
@@ -24015,7 +24015,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 26,
-        "totalStreamMinutes": 6409,
+        "totalStreamMinutes": 6411,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -25969,8 +25969,8 @@
     }
   },
   "auth": {
-    "accessToken": "043823e6600ecff89422dde8550d81e1",
-    "refreshToken": "b13a4c73dc34c86c8753977b8a52620b",
+    "accessToken": "6b7e5a61ab8dc0214636ae3c3c81242f",
+    "refreshToken": "ea881e4062086a2b5e3b872e5f64658a",
     "sessionToken": "fc7b03caf2ded6e97495109aee2fe5af",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
