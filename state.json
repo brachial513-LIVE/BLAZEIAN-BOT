@@ -4213,7 +4213,7 @@
           "dur": 27
         }
       },
-      "_idAt": 1792478118473,
+      "_idAt": 1792500918464,
       "_gameAt": 1792455114129,
       "isLive": false,
       "streamCategory": "",
@@ -4908,7 +4908,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792443436926,
-      "_idAt": 1792478119639,
+      "_idAt": 1792500919629,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792462733651,
@@ -5073,7 +5073,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1792478120911,
+      "_idAt": 1792500920825,
       "_gameAt": 1792441754515,
       "isLive": false,
       "streamCategory": "",
@@ -5559,7 +5559,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "West Bound south east Texas on the ICW",
       "lastStreamEndedAt": 1792423488702,
-      "_idAt": 1792478122040,
+      "_idAt": 1792500922037,
       "_gameAt": 1792423397658,
       "isLive": false,
       "streamCategory": "",
@@ -5752,7 +5752,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792478123239
+      "_idAt": 1792500923233
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -6121,7 +6121,7 @@
       "lastStreamEndedAt": 1792476153466,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792478124438,
+      "_idAt": 1792500924436,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792476154214,
@@ -6164,7 +6164,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792478125640
+      "_idAt": 1792500925638
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -7020,7 +7020,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Sunday night let's play",
       "lastStreamEndedAt": 1792402503248,
-      "_idAt": 1792478126840,
+      "_idAt": 1792500926850,
       "_gameAt": 1792483839363,
       "isLive": false,
       "streamCategory": "",
@@ -11950,12 +11950,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 7962,
-        "totalSubs": 38,
-        "totalChatMessages": 1033,
+        "totalSubs": 39,
+        "totalChatMessages": 1034,
         "totalStreamMinutes": 2981,
         "emotes": {
           "❤": 47,
-          "🙌": 54,
+          "🙌": 55,
           "🗳": 309,
           "🔴": 60,
           "🎉": 63,
@@ -11963,7 +11963,7 @@
           "👋": 61,
           "🎁": 36,
           "🤝": 1,
-          "🔥": 38,
+          "🔥": 40,
           "💚": 1,
           "😂": 44,
           "🤣": 7,
@@ -12060,13 +12060,9 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792453822605
+        "lastChatAt": 1792500349780
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "wth 😂😂😂😂"
-        },
         {
           "user": "niruntz",
           "msg": "😆😆😆😆"
@@ -12102,6 +12098,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @Honeybear to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {},
@@ -12207,12 +12207,17 @@
           "name": "k1ngbre4ker",
           "months": 2,
           "tier": 1
+        },
+        "honeybear": {
+          "name": "honeybear",
+          "months": 1,
+          "tier": 1
         }
       },
       "_idAt": 1792479828321,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792453822722,
+      "_gameAt": 1792500349904,
       "voteLog": [
         {
           "t": 1792429891238,
@@ -12481,8 +12486,8 @@
       "stats": {
         "totalVotes": 24001,
         "totalSubs": 61,
-        "totalChatMessages": 2552,
-        "totalStreamMinutes": 4709,
+        "totalChatMessages": 2556,
+        "totalStreamMinutes": 4729,
         "emotes": {
           "❤": 171,
           "🙌": 144,
@@ -12501,7 +12506,7 @@
           "🤝": 1,
           "💚": 1,
           "🔥": 106,
-          "😂": 33,
+          "😂": 37,
           "🚨": 144,
           "🎁": 80,
           "🍺": 17,
@@ -12658,25 +12663,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792500102615
+        "lastChatAt": 1792501396676
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "Is this your basement?"
-        },
-        {
-          "user": "avisi",
-          "msg": "welcome in @0xscheun!"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "Gm Avisi"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "Don't kill the music lol"
-        },
         {
           "user": "avisi",
           "msg": "fugeees!"
@@ -12700,6 +12689,22 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "avisi",
+          "msg": "candy rain"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "Nice jam right there"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "you missed a bit  😂😂"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "He'll get there 😂😂"
         }
       ],
       "customCommands": {},
@@ -12813,7 +12818,7 @@
       "lastStreamInfo": "[UK] #39 E-DAY - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING — Gears Of War: E-Day",
       "lastStreamEndedAt": 1792019408131,
       "_idAt": 1792479828323,
-      "_gameAt": 1792500049433,
+      "_gameAt": 1792501379105,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -16832,15 +16837,15 @@
       "stats": {
         "totalVotes": 13274,
         "totalSubs": 36,
-        "totalChatMessages": 1666,
+        "totalChatMessages": 1674,
         "totalStreamMinutes": 10870,
         "emotes": {
           "❤": 97,
           "🙌": 68,
           "📴": 91,
           "👋": 102,
-          "🔴": 87,
-          "🎉": 117,
+          "🔴": 88,
+          "🎉": 118,
           "🔥": 93,
           "🗳": 411,
           "😀": 6,
@@ -16864,8 +16869,8 @@
           "🎁": 54,
           "😅": 1,
           "🤘": 3,
-          "😶": 3,
-          "🌫": 3,
+          "😶": 6,
+          "🌫": 6,
           "🤗": 2,
           "😇": 2,
           "🙄": 1,
@@ -16965,41 +16970,9 @@
           "‼": "‼"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792447206429
+        "lastChatAt": 1792501311608
       },
       "chatMemory": [
-        {
-          "user": "piweb",
-          "msg": "Happened at the worst time lol"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @triz_draw just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
-        },
-        {
-          "user": "guney",
-          "msg": "no worries man"
-        },
-        {
-          "user": "guney",
-          "msg": "you are back now ? @piweb"
-        },
-        {
-          "user": "guney",
-          "msg": "thank you @triz_draw"
-        },
-        {
-          "user": "piweb",
-          "msg": "Still playing?"
-        },
-        {
-          "user": "piweb",
-          "msg": "Sent you an invite"
-        },
-        {
-          "user": "guney",
-          "msg": "maybe half an hour more"
-        },
         {
           "user": "piweb",
           "msg": "See you on the battlefield then"
@@ -17007,6 +16980,38 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 guney is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "fartvader",
+          "msg": "guney, gm gm bro!"
+        },
+        {
+          "user": "fartvader",
+          "msg": "gl with your games !"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "what a shot"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "Gm Guney"
+        },
+        {
+          "user": "guney",
+          "msg": "hello guys"
+        },
+        {
+          "user": "guney",
+          "msg": "gm all"
         }
       ],
       "customCommands": {},
@@ -17018,7 +17023,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0ed76298-e9ef-4bc3-8291-482815414931.gif",
-      "streamTitle": "",
+      "streamTitle": "OTG",
       "gameOverride": "",
       "followed": true,
       "profile": "guney’s channel is a high‑energy Web3 playground where “Kankaaaa” and “Good morningggg” greet the stream, fans shout “Yooo”, celebrate milestones with “Love fest!” and “bring”, cheer wins with “fuckn minigun”, and love 🔥, 🎉, 💃💃💃 emojis. Raid and vote alerts pop up, and generous subs are praised with “How generous!! 🙌”. The community thrives on hype, emojis, and constant celebration.",
@@ -17065,9 +17070,9 @@
       "lastStreamInfo": "OTG",
       "lastStreamEndedAt": 1792447200890,
       "_idAt": 1792479828323,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792447206569,
+      "streamCategory": "Off The Grid",
+      "isLive": true,
+      "_gameAt": 1792501232480,
       "voteLog": [
         {
           "t": 1792429891425,
@@ -18440,11 +18445,11 @@
       "stats": {
         "totalVotes": 15055,
         "totalSubs": 110,
-        "totalChatMessages": 1899,
-        "totalStreamMinutes": 5150,
+        "totalChatMessages": 1909,
+        "totalStreamMinutes": 5170,
         "emotes": {
-          "❤": 124,
-          "🙌": 153,
+          "❤": 126,
+          "🙌": 154,
           "💚": 3,
           "🔥": 131,
           "🔴": 44,
@@ -18476,7 +18481,7 @@
           "fb95c5e5-03ab-4936-891a-2b4635354d8a": 36,
           "🦊": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
-          "2bcd9e84-33fc-416c-ae62-6a7a7dbca713": 212,
+          "2bcd9e84-33fc-416c-ae62-6a7a7dbca713": 213,
           "8f0d7577-be4b-4d5d-83d6-6567b904476c": 53,
           "49a9f873-9233-45b0-923a-0eebda2eb0ca": 40,
           "c50a82c4-bf5c-4da8-b3bc-2f941c321580": 1,
@@ -18488,7 +18493,7 @@
           "904850b1-2a13-4aba-8703-2af241ddab2d": 18,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 28,
           "🤣": 12,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 9,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 11,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 6,
           "37719561-c923-4260-b1a5-e3eda10c103d": 2,
           "1d2f39f7-ba5f-4b71-a59b-e271541fe31c": 7,
@@ -18529,7 +18534,8 @@
           "👩": 1,
           "🍳": 1,
           "😶": 2,
-          "🌫": 2
+          "🌫": 2,
+          "🧟": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -18618,10 +18624,11 @@
           "👩": "👩",
           "🍳": "🍳",
           "😶": "😶",
-          "🌫": "🌫"
+          "🌫": "🌫",
+          "🧟": "🧟"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792500138491,
+        "lastChatAt": 1792500740927,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
@@ -18629,44 +18636,44 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @blazeboost just gifted a sub to @ckglobal! How generous!! 🙌"
+          "user": "fartvader",
+          "msg": "wow nice haircut btw!"
+        },
+        {
+          "user": "faithy_",
+          "msg": "wow nalaro na"
+        },
+        {
+          "user": "faithy_",
+          "msg": "katapos lng mag stream eh wait ko lng ung game mmya"
+        },
+        {
+          "user": "fartvader",
+          "msg": "@faithy_ [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713]"
+        },
+        {
+          "user": "faithy_",
+          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
         },
         {
           "user": "avisi",
-          "msg": "GM @missaria! [emote:2bcd9e84-33fc-416c-ae62-6a7a7dbca713]"
+          "msg": "GM @Missaria! 🧟 stay safe!"
         },
         {
-          "user": "cabsss",
-          "msg": "ello @missaria"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ zimzimma just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "zimzimma",
-          "msg": "😶‍🌫️😶‍🌫️"
+          "user": "avisi",
+          "msg": "zuuuuurmbiiiiiiiies!"
         },
         {
           "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @missaria just gifted a sub to @zimzimma! How generous!! 🙌"
+          "msg": "❤️ NEW FOLLOWER!! ❤️ 0xscheun just followed the channel! Welcome!! 🙌"
         },
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "user": "0xscheun",
+          "msg": "Heyyyyooo"
         },
         {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @missaria just gifted a sub to @blazeboost! How generous!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 missaria is now live! Welcome everyone! 🎉"
+          "user": "0xscheun",
+          "msg": "Gm"
         }
       ],
       "customCommands": {},
@@ -18816,7 +18823,7 @@
       "commandMedia": {},
       "botVip": true,
       "_idAt": 1792479828323,
-      "_gameAt": 1792500138431,
+      "_gameAt": 1792500612220,
       "isLive": true,
       "streamCategory": "Humanitz",
       "voteLog": [
