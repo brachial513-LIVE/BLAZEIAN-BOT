@@ -15254,7 +15254,7 @@
         "totalVotes": 21260,
         "totalSubs": 44,
         "totalChatMessages": 3344,
-        "totalStreamMinutes": 13248,
+        "totalStreamMinutes": 13259,
         "emotes": {
           "❤": 119,
           "🙌": 85,
@@ -19776,7 +19776,7 @@
         "totalVotes": 32627,
         "totalSubs": 129,
         "totalChatMessages": 7580,
-        "totalStreamMinutes": 13718,
+        "totalStreamMinutes": 13729,
         "emotes": {
           "😅": 8,
           "🔥": 314,
@@ -25120,6 +25120,35 @@
       "isLive": false,
       "streamCategory": "",
       "streamTitle": ""
+    },
+    "02cf7c2a-cc60-41ae-a7aa-4e02b632d9bc": {
+      "username": "honeybear",
+      "language": "en",
+      "joinedAt": 1792508781940,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "commandMedia": {},
+      "giveaway": {
+        "joinCmd": "",
+        "viewCmd": "",
+        "open": false,
+        "entries": []
+      },
+      "timedMessages": [],
+      "tipTiers": [],
+      "greeted": true
     }
   },
   "blocklist": [
