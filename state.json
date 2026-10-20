@@ -1621,8 +1621,8 @@
       "stats": {
         "totalVotes": 34502,
         "totalSubs": 84,
-        "totalChatMessages": 43430,
-        "totalStreamMinutes": 3903,
+        "totalChatMessages": 43441,
+        "totalStreamMinutes": 3908,
         "emotes": {
           "🔥": 2247,
           "🗳": 33,
@@ -1633,7 +1633,7 @@
           "🚢": 24,
           "⏰": 1887,
           "🔜": 1283,
-          "💀": 681,
+          "💀": 682,
           "😘": 3,
           "🏆": 267,
           "🎊": 246,
@@ -1963,7 +1963,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792459193484,
+        "lastChatAt": 1792459498604,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1972,44 +1972,44 @@
       },
       "chatMemory": [
         {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 controls QuickPlayer9! Throwing at 40° with 18% power! 🍌"
+          "user": "octo",
+          "msg": "im ok with that"
         },
         {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 controls CoolPlayer37! Throwing at 40° with 15% power! 🍌"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "💀 SwiftStar70 has been eliminated! 19 players remaining."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "💀 CleverBot67 has been eliminated! 18 players remaining."
+          "user": "octo",
+          "msg": "should still probably do throw before just so you dont accidentally trigger it"
         },
         {
           "user": "botger",
-          "msg": "🔴 jt_squared2 is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "wachya makin"
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
         },
         {
           "user": "octo",
-          "msg": "should just go by rounds"
+          "msg": "while true, always good to prevent user error when possible lol"
         },
         {
           "user": "octo",
-          "msg": "like 8-10 rounds banana should increase by x amount every time"
+          "msg": "but yea scaling up by rounds instead of time probably makes that smoother but it sounds like you already did by time"
         },
         {
           "user": "octo",
-          "msg": "does banana size affect velocity?"
+          "msg": "cuz what if people take their time for their turns"
+        },
+        {
+          "user": "octo",
+          "msg": "8-10 rounds is where it goes ok lets get it moving"
+        },
+        {
+          "user": "octo",
+          "msg": "thats true too, 30 is a lot of people lol"
+        },
+        {
+          "user": "octo",
+          "msg": "as always, you can make a toggle for either one"
+        },
+        {
+          "user": "octo",
+          "msg": "if a lot of people go by time instead, if not then rounds instead"
         }
       ],
       "customCommands": {},
@@ -2261,7 +2261,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792454152588,
-      "_gameAt": 1792459163433,
+      "_gameAt": 1792459353904,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -7196,7 +7196,7 @@
         "totalVotes": 45243,
         "totalSubs": 87,
         "totalChatMessages": 9481,
-        "totalStreamMinutes": 16319,
+        "totalStreamMinutes": 16324,
         "emotes": {
           "❤": 166,
           "🙌": 219,
@@ -15945,18 +15945,18 @@
       "stats": {
         "totalVotes": 19149,
         "totalSubs": 31,
-        "totalChatMessages": 41957,
+        "totalChatMessages": 41983,
         "totalStreamMinutes": 22309,
         "emotes": {
-          "❤": 152,
-          "🙌": 123,
+          "❤": 154,
+          "🙌": 124,
           "🤝": 4,
           "🔥": 65,
           "🔴": 125,
           "🎉": 297,
           "🪙": 1055,
           "⚡": 887,
-          "👀": 107,
+          "👀": 108,
           "🍿": 22,
           "🤗": 71,
           "😊": 11,
@@ -15966,7 +15966,7 @@
           "😎": 2,
           "😁": 3,
           "📴": 126,
-          "👋": 131,
+          "👋": 132,
           "🛒": 14,
           "😀": 3,
           "😍": 16,
@@ -15981,7 +15981,7 @@
           "🌫": 13,
           "⏱": 26,
           "😌": 5,
-          "🤔": 1,
+          "🤔": 2,
           "🪤": 1,
           "🚴": 2,
           "💤": 3,
@@ -16069,7 +16069,7 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 16,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 25,
           "37719561-c923-4260-b1a5-e3eda10c103d": 4,
-          "2f19a4d1-777a-4ed2-946e-8fe2925650f7": 40,
+          "2f19a4d1-777a-4ed2-946e-8fe2925650f7": 41,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 4,
           "a0c57d07-667e-42c5-8a86-84139bec522d": 17,
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 1,
@@ -16131,7 +16131,7 @@
           "🥈": 102,
           "🥉": 102,
           "⭐": 303,
-          "ed33deac-91d6-41ec-b190-7b36e266af70": 8,
+          "ed33deac-91d6-41ec-b190-7b36e266af70": 9,
           "✊": 2,
           "✋": 2,
           "🤤": 1,
@@ -16157,7 +16157,8 @@
           "😔": 1,
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": 1,
           "😉": 2,
-          "258f10f6-6369-4d78-9020-6d4344802acb": 1
+          "258f10f6-6369-4d78-9020-6d4344802acb": 1,
+          "🧂": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -16369,51 +16370,52 @@
           "😔": "😔",
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": "JOYFULLPYRO",
           "😉": "😉",
-          "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
+          "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN",
+          "🧂": "🧂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792459102386
+        "lastChatAt": 1792459515074
       },
       "chatMemory": [
         {
-          "user": "crispipoquinha",
-          "msg": "lipe lipe lipe"
-        },
-        {
-          "user": "lipeman",
-          "msg": "Cris Cris Cris"
-        },
-        {
-          "user": "lipeman",
-          "msg": "toma medusa"
-        },
-        {
-          "user": "lipeman",
-          "msg": "vem de novo"
-        },
-        {
-          "user": "lipeman",
-          "msg": "kkkkkkkk"
-        },
-        {
-          "user": "crispipoquinha",
-          "msg": "[emote:d6c82b45-1ca6-4f86-89b5-cf94492a049b]"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Nilao nosso meduso"
-        },
-        {
-          "user": "junior7_",
-          "msg": "[emote:9fd66615-f12c-427c-9db1-deb571a1857f] [emote:258f10f6-6369-4d78-9020-6d4344802acb]"
+          "user": "nuggetbot",
+          "msg": "👋 New here? Hit follow so you never miss a stream. Nuggets for everyone!"
         },
         {
           "user": "botger",
-          "msg": "⭐️Tem 4.000 blaze na loja pra resgatar com seus pontos, vai ficar disponível por 1 semana se ninguém resgatar reseta na próxima semana, 30.000 pontos resgata 400 blaze"
+          "msg": "❤️ NEW FOLLOWER!! ❤️ nuggetbot just followed the channel! Welcome!! 🙌"
         },
         {
-          "user": "botger",
-          "msg": "🪙 @junior7_ 12,320 points."
+          "user": "nuggetbot",
+          "msg": "Welcome to the stream, @botger! First time here, glad you came."
+        },
+        {
+          "user": "nuggetbot",
+          "msg": "@botger interesting... I'll think about it while I marinate 🧂"
+        },
+        {
+          "user": "crispipoquinha",
+          "msg": "👀"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "cris, tu já votou?"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "oinnn cris"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "cris cris cris"
+        },
+        {
+          "user": "crispipoquinha",
+          "msg": "já Nilo"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "tá melhor cris?"
         }
       ],
       "customCommands": {},
@@ -16556,7 +16558,7 @@
         }
       },
       "_idAt": 1792454174094,
-      "_gameAt": 1792459056514,
+      "_gameAt": 1792459418677,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -21117,7 +21119,7 @@
         "totalVotes": 11094,
         "totalSubs": 38,
         "totalChatMessages": 4907,
-        "totalStreamMinutes": 16292,
+        "totalStreamMinutes": 16297,
         "emotes": {
           "👋": 115,
           "⚠": 2,
@@ -22137,7 +22139,7 @@
         "totalVotes": 2027,
         "totalSubs": 4,
         "totalChatMessages": 166,
-        "totalStreamMinutes": 7814,
+        "totalStreamMinutes": 7819,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -26172,8 +26174,8 @@
     }
   },
   "auth": {
-    "accessToken": "c67ff9135adb95099f907878d00adc22",
-    "refreshToken": "a3f1399f82b4d742b3a4150cb66f2387",
+    "accessToken": "89398d837f7e040fd76b0d6678b15dfb",
+    "refreshToken": "c1024a8bb20e04524207c9ff456d6a2f",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
