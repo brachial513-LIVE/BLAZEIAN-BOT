@@ -12486,18 +12486,18 @@
       "stats": {
         "totalVotes": 24001,
         "totalSubs": 61,
-        "totalChatMessages": 2556,
-        "totalStreamMinutes": 4743,
+        "totalChatMessages": 2558,
+        "totalStreamMinutes": 4749,
         "emotes": {
           "❤": 171,
           "🙌": 144,
           "🔴": 40,
           "🎉": 69,
-          "👋": 85,
+          "👋": 86,
           "👀": 15,
           "😱": 1,
           "😅": 7,
-          "📴": 40,
+          "📴": 41,
           "✌": 4,
           "☺": 3,
           "👍": 3,
@@ -12663,17 +12663,9 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792501396676
+        "lastChatAt": 1792502592741
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "fugeees!"
-        },
-        {
-          "user": "fartvader",
-          "msg": "what up parky gm gm!"
-        },
         {
           "user": "0xscheun",
           "msg": "Oh! I see"
@@ -12705,6 +12697,14 @@
         {
           "user": "0xscheun",
           "msg": "He'll get there 😂😂"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -12717,7 +12717,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d42d19f-d21c-4ab4-be64-cb54d3f85210-profile_image-300x300.png",
-      "streamTitle": "[UK] #40 Painting the man cave - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
+      "streamTitle": "",
       "profile": "Channel: parky – a cheeky, ADHD‑powered Dota 2 hub. Sundays explode with “CHEEKY SUNDAY NIGHT”, “MAKE LOVE NOT WARCRRAFT”, “LOVE FESTS” after wins. Chat thrives on “ASK ME ANYTHING”, “LURK A BIT” pre‑action, and “SUNDAY FUNDAY” celebrations. Celebrate with passion, love, mischief, and a touch of chaos, keeping the vibe lively and mischievous.",
       "_profileAtCount": 2497,
       "gameOverride": "",
@@ -12815,12 +12815,12 @@
       },
       "nudgedAt": 1785010054808,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "[UK] #39 E-DAY - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING — Gears Of War: E-Day",
-      "lastStreamEndedAt": 1792019408131,
+      "lastStreamInfo": "[UK] #40 Painting the man cave - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
+      "lastStreamEndedAt": 1792502587580,
       "_idAt": 1792479828323,
-      "_gameAt": 1792501379105,
-      "isLive": true,
-      "streamCategory": "IRL",
+      "_gameAt": 1792502587978,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891203,
@@ -16837,7 +16837,7 @@
       "stats": {
         "totalVotes": 13274,
         "totalSubs": 36,
-        "totalChatMessages": 1676,
+        "totalChatMessages": 1679,
         "totalStreamMinutes": 10870,
         "emotes": {
           "❤": 97,
@@ -16855,7 +16855,7 @@
           "💰": 8,
           "🍻": 1,
           "🥂": 1,
-          "😄": 1,
+          "😄": 2,
           "🤣": 8,
           "✌": 9,
           "💃": 6,
@@ -16972,21 +16972,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792501667459
+        "lastChatAt": 1792502424378
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 guney is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "fartvader",
-          "msg": "guney, gm gm bro!"
-        },
-        {
-          "user": "fartvader",
-          "msg": "gl with your games !"
-        },
         {
           "user": "meyetechnicals",
           "msg": "😶‍🌫️😶‍🌫️😶‍🌫️"
@@ -17014,6 +17002,18 @@
         {
           "user": "piweb",
           "msg": "Looks who's back on teardrop lol"
+        },
+        {
+          "user": "guney",
+          "msg": "yes man"
+        },
+        {
+          "user": "guney",
+          "msg": "playing with friends now"
+        },
+        {
+          "user": "guney",
+          "msg": "can we do sub for sub thing now?😄"
         }
       ],
       "customCommands": {},
@@ -17074,7 +17074,7 @@
       "_idAt": 1792479828323,
       "streamCategory": "Off The Grid",
       "isLive": true,
-      "_gameAt": 1792501667577,
+      "_gameAt": 1792502392366,
       "voteLog": [
         {
           "t": 1792429891425,
@@ -18447,8 +18447,8 @@
       "stats": {
         "totalVotes": 15065,
         "totalSubs": 110,
-        "totalChatMessages": 1915,
-        "totalStreamMinutes": 5174,
+        "totalChatMessages": 1919,
+        "totalStreamMinutes": 5183,
         "emotes": {
           "❤": 126,
           "🙌": 154,
@@ -18495,7 +18495,7 @@
           "904850b1-2a13-4aba-8703-2af241ddab2d": 18,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 28,
           "🤣": 12,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 11,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 13,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 6,
           "37719561-c923-4260-b1a5-e3eda10c103d": 2,
           "1d2f39f7-ba5f-4b71-a59b-e271541fe31c": 7,
@@ -18630,29 +18630,13 @@
           "🧟": "🧟"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792502157623,
+        "lastChatAt": 1792502625718,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "zuuuuurmbiiiiiiiies!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ 0xscheun just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "Heyyyyooo"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "Gm"
-        },
         {
           "user": "meyetechnicals",
           "msg": "😶‍🌫️😶‍🌫️😶‍🌫️"
@@ -18676,6 +18660,22 @@
         {
           "user": "botger",
           "msg": "🔴 missaria is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "lunaria",
+          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
+        },
+        {
+          "user": "lunaria",
+          "msg": "sa dropdead server b yan?"
+        },
+        {
+          "user": "lunaria",
+          "msg": "ahhh, sumali kami kina ate neko"
+        },
+        {
+          "user": "lunaria",
+          "msg": "kaka adik yang laro n yan haha"
         }
       ],
       "customCommands": {},
@@ -18825,7 +18825,7 @@
       "commandMedia": {},
       "botVip": true,
       "_idAt": 1792479828323,
-      "_gameAt": 1792502157542,
+      "_gameAt": 1792502531864,
       "isLive": true,
       "streamCategory": "Humanitz",
       "voteLog": [
@@ -19765,12 +19765,12 @@
       "joinedAt": 1786172514205,
       "stats": {
         "totalVotes": 32627,
-        "totalSubs": 128,
-        "totalChatMessages": 7573,
+        "totalSubs": 129,
+        "totalChatMessages": 7574,
         "totalStreamMinutes": 13693,
         "emotes": {
           "😅": 8,
-          "🔥": 312,
+          "🔥": 314,
           "🍻": 5,
           "✌": 10,
           "😊": 5,
@@ -19783,7 +19783,7 @@
           "😁": 8,
           "😜": 11,
           "🙏": 1,
-          "🙌": 231,
+          "🙌": 232,
           "💪": 2,
           "👋": 71,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 1022,
@@ -20021,7 +20021,7 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792451708647,
+        "lastChatAt": 1792502512161,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -20029,10 +20029,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "lets go raid MiM"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -20068,6 +20064,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @octo just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @meyetechnicals has resubscribed (4 months total, 2 months streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -20216,7 +20216,7 @@
         },
         "meyetechnicals": {
           "name": "meyetechnicals",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "unclefunk": {
@@ -20324,7 +20324,7 @@
         "entries": []
       },
       "_idAt": 1792479828325,
-      "_gameAt": 1792451708777,
+      "_gameAt": 1792502512279,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -25403,9 +25403,9 @@
       "n": 2
     },
     "avisi": {
-      "note": "Enthusiastic gamer who loves Aion 2, FPS, music‑powered streams, playful emojis, and sharing fun gaming moments with friends.",
-      "at": 1792045789368,
-      "n": 38
+      "note": "Enthusiastic gamer who loves Aion 2 and FPS, streams with music and playful emojis, shares fun moments with friends, and often jokes about painting and procrastinating.",
+      "at": 1792502300437,
+      "n": 39
     },
     "junior7_": {
       "note": "Enjoys playing Mania, chats casually with friends, loves playful banter, jokes about game moments and teammates.",
@@ -26541,8 +26541,8 @@
     }
   },
   "auth": {
-    "accessToken": "ef4aee3014f95afc5279374707c089b4",
-    "refreshToken": "5537a976d57755b9baf963bdcca37d3e",
+    "accessToken": "053398342d8b97fea66ab6e705d60072",
+    "refreshToken": "1ddc4a80c4c3b0d168d343a5c3f5c18c",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
