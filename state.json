@@ -3526,16 +3526,16 @@
       "stats": {
         "totalVotes": 29491,
         "totalSubs": 111,
-        "totalChatMessages": 9162,
-        "totalStreamMinutes": 27675,
+        "totalChatMessages": 9170,
+        "totalStreamMinutes": 27678,
         "emotes": {
           "❤": 247,
           "🙌": 207,
           "🗳": 1311,
           "📴": 228,
           "👋": 258,
-          "🔴": 223,
-          "🎉": 350,
+          "🔴": 224,
+          "🎉": 351,
           "🏆": 25,
           "🤗": 42,
           "💎": 7,
@@ -3902,22 +3902,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792452851970,
+        "lastChatAt": 1792454615764,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "RAIDDDDDDDDDDDDDDDD"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e] [emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e] [emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e] [emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e] [emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e] [emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e] [emote:e249163f-4c3c-45de-91dd-68d0ee9c1b9e]"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:25ef8003-e31e-4a87-9e94-790582fbda61] [emote:25ef8003-e31e-4a87-9e94-790582fbda61] [emote:25ef8003-e31e-4a87-9e94-790582fbda61] [emote:25ef8003-e31e-4a87-9e94-790582fbda61] [emote:25ef8003-e31e-4a87-9e94-790582fbda61] [emote:25ef8003-e31e-4a87-9e94-790582fbda61]"
-        },
         {
           "user": "cr33pling",
           "msg": "HES DEADDDDDDDDDD"
@@ -3945,6 +3933,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "BriggsWhy: MMMM Waffmallows!!!"
+        },
+        {
+          "user": "botger",
+          "msg": "Holi Holiii Holiiii"
         }
       ],
       "customCommands": {
@@ -3959,7 +3959,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "TEST",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty” and massive emote showers.",
       "_profileAtCount": 9113,
       "loyalty": {
@@ -4175,13 +4175,13 @@
           "sound": "",
           "media": "https://blazeian-bot.onrender.com/cmdmedia/5e9d9b5f-98cf-4b92-a93c-ed876703b55a/zani-media.mp4?v=1792454086312",
           "text": "",
-          "dur": 0
+          "dur": 27
         }
       },
       "_idAt": 1792454154087,
-      "_gameAt": 1792452852094,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1792454445343,
+      "isLive": true,
+      "streamCategory": "Games + Demos",
       "voteLog": [
         {
           "t": 1792429891186,
@@ -13636,7 +13636,7 @@
       "stats": {
         "totalVotes": 11059,
         "totalSubs": 70,
-        "totalChatMessages": 586,
+        "totalChatMessages": 587,
         "totalStreamMinutes": 9421,
         "emotes": {
           "🔥": 8,
@@ -13691,13 +13691,9 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792448783103
+        "lastChatAt": 1792454635174
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@SrChois subscribed! Thank you!"
-        },
         {
           "user": "srchois",
           "msg": "🥰🥰"
@@ -13733,6 +13729,10 @@
         {
           "user": "scurvybot",
           "msg": "@Pr0ff gifted a sub to the community!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: dots! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -13745,7 +13745,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "dots",
       "gameOverride": "",
       "profile": "Welcome to pr0ff’s stream—Ragnarok grind, PUGs, endless “DOTES” vibes! The chat loves “thanks” after a love fest, gifts a Sub to celebrate milestones, and throws 🔥 emojis everywhere. pr0ff thrives on community hype, “gift a Sub” moments, and “thanks” shoutouts. Keep the energy high, keep the 🔥 flowing!",
       "_profileAtCount": 580,
@@ -13861,9 +13861,9 @@
         }
       },
       "_idAt": 1792454170587,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792448729092,
+      "streamCategory": "Dota 2",
+      "isLive": true,
+      "_gameAt": 1792454634978,
       "voteLog": [
         {
           "t": 1792429891407,
@@ -15929,7 +15929,7 @@
       "stats": {
         "totalVotes": 19149,
         "totalSubs": 31,
-        "totalChatMessages": 41825,
+        "totalChatMessages": 41833,
         "totalStreamMinutes": 22309,
         "emotes": {
           "❤": 152,
@@ -15938,7 +15938,7 @@
           "🔥": 65,
           "🔴": 125,
           "🎉": 297,
-          "🪙": 1050,
+          "🪙": 1051,
           "⚡": 885,
           "👀": 107,
           "🍿": 22,
@@ -16354,37 +16354,9 @@
           "😉": "😉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792454300485
+        "lastChatAt": 1792454622852
       },
       "chatMemory": [
-        {
-          "user": "lipeman",
-          "msg": "kkkkkkkkk"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "descansar o braço"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "prova kaizo, num sou maromba não vei"
-        },
-        {
-          "user": "lipeman",
-          "msg": "kkkkkkkkk"
-        },
-        {
-          "user": "lipeman",
-          "msg": "Edão maromba"
-        },
-        {
-          "user": "lipeman",
-          "msg": "kkkkkkkk"
-        },
-        {
-          "user": "kwinchester",
-          "msg": "Nesses quadrados"
-        },
         {
           "user": "kwinchester",
           "msg": "É lá na ponta"
@@ -16396,6 +16368,34 @@
         {
           "user": "kwinchester",
           "msg": "Tem que posicionar pra cair dentro dos quadrados"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @LipeMan 416,726 points."
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkkkkk"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "LIPE RICOO"
+        },
+        {
+          "user": "lipeman",
+          "msg": "Winchester rica"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkk"
+        },
+        {
+          "user": "kwinchester",
+          "msg": "Ces caem nos lugares errado kkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkkkk"
         }
       ],
       "customCommands": {},
@@ -16538,7 +16538,7 @@
         }
       },
       "_idAt": 1792454174094,
-      "_gameAt": 1792454173249,
+      "_gameAt": 1792454561187,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -21098,7 +21098,7 @@
       "stats": {
         "totalVotes": 11094,
         "totalSubs": 38,
-        "totalChatMessages": 4882,
+        "totalChatMessages": 4888,
         "totalStreamMinutes": 16250,
         "emotes": {
           "👋": 113,
@@ -21106,7 +21106,7 @@
           "🎯": 2,
           "🗳": 485,
           "🔴": 109,
-          "🎉": 142,
+          "🎉": 143,
           "📴": 109,
           "🎡": 3,
           "®": 3,
@@ -21120,7 +21120,7 @@
           "😥": 2,
           "👀": 4,
           "a52b5dc1-f94b-40b0-b666-7f94a9f9580e": 52,
-          "🚨": 168,
+          "🚨": 174,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 11,
           "b9094c24-381d-4157-ad1b-c6fa88dc25aa": 34,
           "🤣": 9,
@@ -21287,25 +21287,9 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792454263918
+        "lastChatAt": 1792454486831
       },
       "chatMemory": [
-        {
-          "user": "dangus",
-          "msg": "that's cool for sure"
-        },
-        {
-          "user": "inn",
-          "msg": "https://kingsbury-delivery-rush.tom-cb9.workers.dev/"
-        },
-        {
-          "user": "dangus",
-          "msg": "gonna tweak it a bit more, and maybe do a nft skin pack or something"
-        },
-        {
-          "user": "dangus",
-          "msg": "and add missions"
-        },
         {
           "user": "dangus",
           "msg": "ooooof"
@@ -21329,6 +21313,22 @@
         {
           "user": "lasvegasape",
           "msg": "gotta go make dinner brother. i'll catch you for rocket league"
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "hello we in the house"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@K1NGBRE4KER is raiding with 5 viewers! Welcome, raiders!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @K1NGBRE4KER is raiding with a party of 5! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "brujo_sa",
+          "msg": "Enjoying a great game, as always, every time I see you!"
         }
       ],
       "customCommands": {
@@ -21455,7 +21455,7 @@
         }
       },
       "_idAt": 1792454182137,
-      "_gameAt": 1792454230999,
+      "_gameAt": 1792454425249,
       "isLive": true,
       "streamCategory": "Fortnite",
       "voteLog": [
@@ -24277,14 +24277,14 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1d5e1540-6021-4fed-8b0e-2334c03cc6f5.jpg",
-      "streamTitle": "The First Berserker: Khazan - PART 10    |    𐢚𐢅𐢓𐢍𐢀 𐢃𐢛𐢖𐢛𐢏𐢛 𐢊𐢉𐢁𐢔 𐢘𐢛𐢞 𐢭",
-      "lastStreamInfo": "The First Berserker: Khazan - PART 9    |    𐢚𐢅𐢓𐢍𐢀 𐢃𐢛𐢖𐢛𐢏𐢛 𐢊𐢉𐢁𐢔 𐢘𐢛𐢞 𐢬𐢪",
-      "lastStreamEndedAt": 1792369095561,
+      "streamTitle": "",
+      "lastStreamInfo": "The First Berserker: Khazan - PART 10    |    𐢚𐢅𐢓𐢍𐢀 𐢃𐢛𐢖𐢛𐢏𐢛 𐢊𐢉𐢁𐢔 𐢘𐢛𐢞 𐢭",
+      "lastStreamEndedAt": 1792454610874,
       "gameOverride": "",
       "_idAt": 1792454193087,
       "_gameAt": 1792447312094,
-      "isLive": true,
-      "streamCategory": "Games + Demos"
+      "isLive": false,
+      "streamCategory": ""
     },
     "5d7fc259-9ec1-46b1-a6f8-903cb08b2c61": {
       "username": "thelarsofus",
