@@ -1655,7 +1655,7 @@
       "stats": {
         "totalVotes": 35160,
         "totalSubs": 84,
-        "totalChatMessages": 44467,
+        "totalChatMessages": 44474,
         "totalStreamMinutes": 3990,
         "emotes": {
           "🔥": 2247,
@@ -1825,7 +1825,7 @@
           "30d97fce-ee29-4d4f-ae27-32f1692b404a": 2,
           "🙂": 1,
           "↕": 1,
-          "🍻": 60
+          "🍻": 62
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -1997,7 +1997,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792521582664,
+        "lastChatAt": 1792521607385,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2005,26 +2005,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "3"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "l"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 Tutorial action added."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "3"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "l"
-        },
         {
           "user": "blazegames_bot",
           "msg": "@jt_squared2 Tutorial action added."
@@ -2044,6 +2024,26 @@
         {
           "user": "blazegames_bot",
           "msg": "🎮 Game ended! Thanks for playing!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🍻 Last Call starting in 30 seconds! Use !join to join. Movement: 1-3 · Turns: left/right (or l/r) · Bartender: !beer ."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🍻 Last Call tutorial starting in 30 seconds! Use !join to join. Each participant gets a personalized, interactive tutorial in /play."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
+        },
+        {
+          "user": "botger",
+          "msg": "(Handled by bot — joins the channel and confirms in chat)"
         }
       ],
       "customCommands": {},
@@ -4306,7 +4306,7 @@
         "totalVotes": 56179,
         "totalSubs": 100,
         "totalChatMessages": 20365,
-        "totalStreamMinutes": 12227,
+        "totalStreamMinutes": 12228,
         "emotes": {
           "❤": 7589,
           "🎵": 758,
@@ -25406,7 +25406,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 36,
-        "totalStreamMinutes": 109,
+        "totalStreamMinutes": 110,
         "emotes": {
           "👋": 2,
           "❤": 4,
@@ -26943,8 +26943,8 @@
     }
   },
   "auth": {
-    "accessToken": "c31b3607472d32544279f5005350c808",
-    "refreshToken": "83edde98413e7cbf73b411f2976244b9",
+    "accessToken": "e72eaa4d2d7f5bd7a085d45f70c0d8e5",
+    "refreshToken": "fb942751cf5b7902938c9035776e9b95",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
