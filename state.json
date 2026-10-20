@@ -8934,7 +8934,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 24147,
+        "totalVotes": 24152,
         "totalSubs": 60,
         "totalChatMessages": 4509,
         "totalStreamMinutes": 5266,
@@ -9367,6 +9367,11 @@
           "t": 1792452634043,
           "v": "desirablebottom",
           "a": 150
+        },
+        {
+          "t": 1792469339808,
+          "v": "omerabi",
+          "a": 5
         }
       ]
     },
@@ -21278,16 +21283,16 @@
       "stats": {
         "totalVotes": 11114,
         "totalSubs": 38,
-        "totalChatMessages": 4952,
-        "totalStreamMinutes": 16457,
+        "totalChatMessages": 4954,
+        "totalStreamMinutes": 16463,
         "emotes": {
-          "👋": 115,
+          "👋": 116,
           "⚠": 2,
           "🎯": 2,
           "🗳": 488,
           "🔴": 110,
           "🎉": 144,
-          "📴": 110,
+          "📴": 111,
           "🎡": 3,
           "®": 3,
           "📢": 9,
@@ -21475,17 +21480,9 @@
           "🚂": "🚂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792467064802
+        "lastChatAt": 1792469524352
       },
       "chatMemory": [
-        {
-          "user": "seventh",
-          "msg": "gm gm @inn happy streaming!!"
-        },
-        {
-          "user": "nuggetbot",
-          "msg": "Welcome to the stream, @seventh! First time here, glad you came."
-        },
         {
           "user": "inn",
           "msg": "https://www.royalroad.com/fiction/39519/rural-rares/chapter/616729/chicken"
@@ -21517,6 +21514,14 @@
         {
           "user": "inn",
           "msg": "https://run.world/inn/the-legend-of-frazel?analytics_source=recently_played"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -21531,9 +21536,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "🔥 319th Blaze Stream🔥",
+      "streamTitle": "",
       "lastStreamInfo": "🔥 319th Blaze Stream🔥",
-      "lastStreamEndedAt": 1792454669323,
+      "lastStreamEndedAt": 1792469519194,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” love “mystery fish” drops, and keep the vibe high‑energy.",
@@ -21643,9 +21648,9 @@
         }
       },
       "_idAt": 1792454182137,
-      "_gameAt": 1792466921063,
-      "isLive": true,
-      "streamCategory": "Rocket League",
+      "_gameAt": 1792469519724,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891170,
@@ -26388,8 +26393,8 @@
     }
   },
   "auth": {
-    "accessToken": "e9e3ac6b19e4dd5182589b2c72d7fc27",
-    "refreshToken": "681a88860a30f8b5471933e95f339272",
+    "accessToken": "a6139327e545849deedc97b2c890520f",
+    "refreshToken": "f847a3c1b5e9b4f5279501318f34f696",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
