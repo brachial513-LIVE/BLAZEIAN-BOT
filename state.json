@@ -4265,8 +4265,8 @@
       "stats": {
         "totalVotes": 55950,
         "totalSubs": 100,
-        "totalChatMessages": 19990,
-        "totalStreamMinutes": 12126,
+        "totalChatMessages": 19992,
+        "totalStreamMinutes": 12127,
         "emotes": {
           "❤": 7512,
           "🎵": 755,
@@ -4727,7 +4727,7 @@
           "🌙": "🌙",
           "😛": "😛"
         },
-        "lastChatAt": 1792511378878,
+        "lastChatAt": 1792515528733,
         "sendFailStreak": 573,
         "lastSendFailAt": 1792491540609,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4736,10 +4736,6 @@
         "lastProbeAt": 1792491540415
       },
       "chatMemory": [
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
         {
           "user": "rob_osp",
           "msg": "is the bot alive?"
@@ -4775,6 +4771,10 @@
         {
           "user": "rob_osp",
           "msg": "@vroshi55 — thanks for the 555 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "weri",
+          "msg": "Yo uncle funk yo funk family"
         }
       ],
       "customCommands": {},
@@ -4783,7 +4783,7 @@
       "locked": false,
       "botVip": true,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "profile": "Unclefunk’s channel is a funky crew that “earn courage” by watching and playing OSP‑related streams. The chat shouts “💜” and “❤️❤️❤️”, hyping “stream is now live!” and “stream is now offline!” They love “connect your OSP account” for extra courage, and the game “Only Believe” fuels daily hype. The community thrives on shared faith, fasting, and epic song.",
       "_profileAtCount": 19907,
       "loyalty": {
@@ -4918,9 +4918,9 @@
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792443436926,
       "_idAt": 1792500919629,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792511354872,
+      "streamCategory": "Music",
+      "isLive": true,
+      "_gameAt": 1792515481268,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -6179,14 +6179,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 45255,
+        "totalVotes": 45305,
         "totalSubs": 131,
-        "totalChatMessages": 16294,
+        "totalChatMessages": 16295,
         "totalStreamMinutes": 9563,
         "emotes": {
           "❤": 277,
           "🙌": 420,
-          "🗳": 1922,
+          "🗳": 1925,
           "✌": 12,
           "😊": 11,
           "👍": 20,
@@ -6772,13 +6772,9 @@
           "⚠": "⚠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792483839183
+        "lastChatAt": 1792514921993
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "E9: sunk briggsy's Carrier!"
-        },
         {
           "user": "blazegames_bot",
           "msg": "🏆 WINNER: vitrene! 🎉 Congratulations! 🎊"
@@ -6814,6 +6810,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7030,7 +7030,7 @@
       "lastStreamInfo": "Sunday night let's play",
       "lastStreamEndedAt": 1792402503248,
       "_idAt": 1792500926850,
-      "_gameAt": 1792483839363,
+      "_gameAt": 1792514922092,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -7093,6 +7093,11 @@
           "t": 1792483837012,
           "v": "itachiavax",
           "a": 5
+        },
+        {
+          "t": 1792514919764,
+          "v": "itsbigbrozo",
+          "a": 50
         }
       ]
     },
@@ -9418,14 +9423,14 @@
       "username": "cymatrix",
       "language": "en",
       "stats": {
-        "totalVotes": 6690,
+        "totalVotes": 6693,
         "totalSubs": 40,
-        "totalChatMessages": 1634,
+        "totalChatMessages": 1636,
         "totalStreamMinutes": 2975,
         "emotes": {
           "❤": 458,
           "🙌": 60,
-          "🗳": 273,
+          "🗳": 276,
           "🔴": 27,
           "🎉": 29,
           "💛": 30,
@@ -9528,18 +9533,10 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
           "cbbfc88a-418c-4cca-a571-10cf1dde46e7": "CONTRASTPYRO1"
         },
-        "lastChatAt": 1792447782818,
+        "lastChatAt": 1792515579551,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@CyMatrIX gifted a sub to the community!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @Whisky!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @tom2329!"
@@ -9571,6 +9568,14 @@
         {
           "user": "cymatrix",
           "msg": "Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 3 votes, @runach!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @runach just gave 3 vote(s) (total: 3)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -9645,7 +9650,7 @@
       "_idAt": 1792503320850,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792447782979,
+      "_gameAt": 1792515577805,
       "voteLog": [
         {
           "t": 1792428037620,
@@ -9666,6 +9671,11 @@
           "t": 1792436270104,
           "v": "generalkev",
           "a": 38
+        },
+        {
+          "t": 1792515577314,
+          "v": "runach",
+          "a": 3
         }
       ]
     },
@@ -14666,14 +14676,14 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 75973,
+        "totalVotes": 75998,
         "totalSubs": 87,
-        "totalChatMessages": 5190,
+        "totalChatMessages": 5191,
         "totalStreamMinutes": 1988,
         "emotes": {
           "❤": 83,
           "🙌": 148,
-          "🗳": 909,
+          "🗳": 912,
           "💰": 48,
           "🔥": 125,
           "💛": 3,
@@ -15043,17 +15053,13 @@
           "👐": "👐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792437798856,
+        "lastChatAt": 1792514956891,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @wapi! How generous!! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
@@ -15089,6 +15095,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 890 vote(s) (total: 890)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -15230,7 +15240,7 @@
       "lastStreamInfo": "Drawing session with a special MySilo wheelspin — Art",
       "lastStreamEndedAt": 1792016567041,
       "_idAt": 1792505617125,
-      "_gameAt": 1792437799014,
+      "_gameAt": 1792514956968,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -15258,6 +15268,11 @@
           "t": 1792462732957,
           "v": "vroshi55",
           "a": 555
+        },
+        {
+          "t": 1792514954692,
+          "v": "itsbigbrozo",
+          "a": 25
         }
       ]
     },
@@ -15268,8 +15283,8 @@
       "stats": {
         "totalVotes": 21260,
         "totalSubs": 45,
-        "totalChatMessages": 3359,
-        "totalStreamMinutes": 13352,
+        "totalChatMessages": 3361,
+        "totalStreamMinutes": 13372,
         "emotes": {
           "❤": 121,
           "🙌": 87,
@@ -15461,17 +15476,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792513313375
+        "lastChatAt": 1792515237211
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @just_for_lucas has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@just_for_lucas subscribed! Thank you!"
-        },
         {
           "user": "just_for_lucas",
           "msg": "thanks 🫡"
@@ -15503,6 +15510,14 @@
         {
           "user": "cr33pling",
           "msg": "hahaha"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "I don't understand what's happening, but yeah! kick their butts! Shoot that dude in the nuts!"
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "nice stuff, have a good evening and good luck with the rest of the match~ byebye"
         }
       ],
       "customCommands": {},
@@ -15607,7 +15622,7 @@
         }
       },
       "_idAt": 1792505617122,
-      "_gameAt": 1792513233542,
+      "_gameAt": 1792515237584,
       "isLive": true,
       "streamCategory": "VALORANT",
       "voteLog": [
@@ -16869,7 +16884,7 @@
         "totalVotes": 13274,
         "totalSubs": 37,
         "totalChatMessages": 1693,
-        "totalStreamMinutes": 10935,
+        "totalStreamMinutes": 10955,
         "emotes": {
           "❤": 97,
           "🙌": 69,
@@ -25175,49 +25190,65 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 7,
-        "totalStreamMinutes": 0,
+        "totalChatMessages": 20,
+        "totalStreamMinutes": 10,
         "emotes": {
           "👋": 1,
-          "❤": 2,
-          "🙌": 1
+          "❤": 4,
+          "🙌": 2,
+          "🔴": 1,
+          "🎉": 1
         },
         "emoteNames": {
           "👋": "👋",
           "❤": "❤",
-          "🙌": "🙌"
+          "🙌": "🙌",
+          "🔴": "🔴",
+          "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792512623218
+        "lastChatAt": 1792515457281
       },
       "chatMemory": [
         {
           "user": "scurvybot",
-          "msg": "Thanks for the follow, @BLAZEIAN_BOT_AI!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@Honeybear gifted a sub to the community!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @botger!"
+          "msg": "Thanks for the follow, @gmc_gaara27!"
         },
         {
           "user": "botger",
-          "msg": "botger is here! 👋 You have a 7-day free trial with every feature unlocked! After your trial, event alerts and OBS overlay stay free. A subscription keeps keyphrases, custom commands, and weekly Blaze votes. Dashboard: https://botger.devely.ca/dashboard"
+          "msg": "❤️ NEW FOLLOWER!! ❤️ gmc_gaara27 just followed the channel! Welcome!! 🙌"
         },
         {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ botger just followed the channel! Welcome!! 🙌"
+          "user": "gmc_gaara27",
+          "msg": "Hey hey am i too late for Watching  Runescape? How it is?"
         },
         {
-          "user": "requn96",
-          "msg": "hey"
+          "user": "honeybear",
+          "msg": "First time I have played"
         },
         {
-          "user": "squall09",
-          "msg": "Hello"
+          "user": "honeybear",
+          "msg": "got some guys joining soon in the team"
+        },
+        {
+          "user": "gmc_gaara27",
+          "msg": "I understand"
+        },
+        {
+          "user": "gmc_gaara27",
+          "msg": "Am trinken about to Buy  it  for my switch 2 like mmo games"
+        },
+        {
+          "user": "gmc_gaara27",
+          "msg": "Thinking*"
+        },
+        {
+          "user": "gmc_gaara27",
+          "msg": "Eyebrowns like Rock Lee"
+        },
+        {
+          "user": "gmc_gaara27",
+          "msg": "Charakter in Naruto"
         }
       ],
       "customCommands": {},
@@ -25235,10 +25266,10 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1792512623340,
-      "isLive": false,
-      "streamCategory": "",
-      "streamTitle": "",
+      "_gameAt": 1792515433349,
+      "isLive": true,
+      "streamCategory": "RuneScape",
+      "streamTitle": "Runescape Dragonwilds",
       "_idAt": 1792509318463,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9ae5ffbd-71b4-4992-8061-ba04225b1dc2.jpg",
       "followed": true
@@ -25421,8 +25452,8 @@
     },
     "fartvader": {
       "note": "Energetic gamer who loves Ghost Recon Wildlands, Palworld, Dota, Hero Siege, Roblox battle‑royale, idle RPGs, AION2, and brings playful, friendly humor.",
-      "at": 1792413229394,
-      "n": 74
+      "at": 1792514840428,
+      "n": 75
     },
     "fluffy": {
       "note": "Fluffy is playful, enthusiastic, loves gaming—especially Jackbox—and music, and jokes warmly while engaging warmly with the community.",
@@ -25756,8 +25787,8 @@
     },
     "doktorgrav": {
       "note": "Enjoys Star Citizen, milsim, GTA RP, Dayz RP, loves humor and strategy, often jokes about police role‑play.",
-      "at": 1792462040347,
-      "n": 19
+      "at": 1792515500402,
+      "n": 20
     },
     "jaggerjack": {
       "note": "A playful gamer who loves Valheim, MMO classics, FPS, POE2, PUBG, Dota, One Piece TCG, chess, and shares quick jokes and friendly banter.",
