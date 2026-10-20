@@ -17931,7 +17931,7 @@
         "totalVotes": 3267,
         "totalSubs": 5,
         "totalChatMessages": 120,
-        "totalStreamMinutes": 4857,
+        "totalStreamMinutes": 4877,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -18783,7 +18783,7 @@
       "stats": {
         "totalVotes": 12239,
         "totalSubs": 90,
-        "totalChatMessages": 1876,
+        "totalChatMessages": 1878,
         "totalStreamMinutes": 7612,
         "emotes": {
           "❤": 73,
@@ -18794,8 +18794,8 @@
           "🔴": 63,
           "🎉": 62,
           "🗳": 234,
-          "📴": 54,
-          "👋": 55,
+          "📴": 55,
+          "👋": 56,
           "💛": 1,
           "🥰": 1,
           "📢": 19,
@@ -18880,17 +18880,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792471244979
+        "lastChatAt": 1792472240569
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @tom2329!"
-        },
-        {
-          "user": "faithy_",
-          "msg": "wow live si introboy"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 30 votes, @faithy_!"
@@ -18922,6 +18914,14 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @angge_wf at https://blaze.stream/angge_wf!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -18933,9 +18933,9 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d8b78faa-631d-4628-8456-5cbbedca8222.jpg",
-      "streamTitle": "WE BACK AGAIN ON BLAZE!!! 🔥🔥🔥",
-      "lastStreamInfo": "WE BACK ON BLAZE!!!! 🔥🔥🔥 — VALORANT",
-      "lastStreamEndedAt": 1791730371307,
+      "streamTitle": "",
+      "lastStreamInfo": "WE BACK AGAIN ON BLAZE!!! 🔥🔥🔥",
+      "lastStreamEndedAt": 1792472235411,
       "gameOverride": "",
       "profile": "Seventh’s channel is nonstop Raider Arena, “Another day of being a Raider 😂 — ARC Raiders.” GMs are the best! 🔥🔥💚💚 Celebrate streams with 🎉 and 🔴 alerts. Weekly Giveaways on Blaze are a thing, and we’re all about those “permanently free Entries”! 💚 Shout “VOTE ALERT!!” and shower love on the streamer with “love fest” shoutouts. seventh loves being celebrated, so let’s give ‘em a love fest!",
       "_profileAtCount": 1828,
@@ -19025,9 +19025,9 @@
         }
       },
       "_idAt": 1792454178089,
-      "_gameAt": 1792471191057,
-      "isLive": true,
-      "streamCategory": "Crypto",
+      "_gameAt": 1792472235845,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891395,
@@ -24769,9 +24769,9 @@
       "language": "en",
       "joinedAt": 1791847639379,
       "stats": {
-        "totalVotes": 452,
+        "totalVotes": 472,
         "totalSubs": 3,
-        "totalChatMessages": 143,
+        "totalChatMessages": 144,
         "totalStreamMinutes": 334,
         "emotes": {
           "❤": 4,
@@ -24812,13 +24812,9 @@
           "🎯": "🎯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792434212014
+        "lastChatAt": 1792471993336
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 4 votes, @botger!"
@@ -24854,6 +24850,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @tom2329!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 20 votes, @tuff3rmrd3ano!"
         }
       ],
       "customCommands": {},
@@ -24894,7 +24894,7 @@
       },
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792434212106,
+      "_gameAt": 1792471993454,
       "nudgedAt": 1792289657162,
       "nudgedKey": "schedule",
       "voteLog": [
@@ -24907,6 +24907,11 @@
           "t": 1792434211554,
           "v": "tom2329",
           "a": 3
+        },
+        {
+          "t": 1792471992958,
+          "v": "tuff3rmrd3ano",
+          "a": 20
         }
       ]
     },
