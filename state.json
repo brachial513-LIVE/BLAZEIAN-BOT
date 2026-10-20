@@ -13396,14 +13396,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 33500,
+        "totalVotes": 33580,
         "totalSubs": 38,
-        "totalChatMessages": 1651,
+        "totalChatMessages": 1652,
         "totalStreamMinutes": 2696,
         "emotes": {
           "❤": 33,
           "🙌": 51,
-          "🗳": 726,
+          "🗳": 729,
           "🚨": 72,
           "🎉": 40,
           "👋": 51,
@@ -13598,17 +13598,13 @@
           "😨": "😨",
           "🦉": "🦉"
         },
-        "lastChatAt": 1792483561956,
+        "lastChatAt": 1792506692846,
         "sendFailStreak": 292,
         "lastSendFailAt": 1792491559195,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1792491559044
       },
       "chatMemory": [
-        {
-          "user": "dimifw",
-          "msg": "alrighty, gonna play another round tomorrow. see yall [emote:1062cb77-0b58-4482-83a2-ae7b783dbd42]"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -13644,6 +13640,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @RealmOfCrimson just gave 60 vote(s) (total: 60)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Yuechan just gave 80 vote(s) (total: 80)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -13781,7 +13781,7 @@
       "lastStreamInfo": "Streamish #122 - Ori and the Will of the Wisps",
       "lastStreamEndedAt": 1792428331647,
       "_idAt": 1792504523225,
-      "_gameAt": 1792483562129,
+      "_gameAt": 1792506692958,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -13829,6 +13829,11 @@
           "t": 1792483559388,
           "v": "realmofcrimson",
           "a": 60
+        },
+        {
+          "t": 1792506690582,
+          "v": "yuechan",
+          "a": 80
         }
       ]
     },
@@ -15248,24 +15253,24 @@
       "stats": {
         "totalVotes": 21260,
         "totalSubs": 44,
-        "totalChatMessages": 3340,
-        "totalStreamMinutes": 13229,
+        "totalChatMessages": 3344,
+        "totalStreamMinutes": 13243,
         "emotes": {
           "❤": 119,
           "🙌": 85,
           "🫂": 1,
           "🥰": 33,
           "😘": 24,
-          "👋": 76,
+          "👋": 77,
           "💪": 1,
           "💚": 6,
-          "🔥": 145,
+          "🔥": 146,
           "🗳": 903,
           "🤗": 5,
-          "📴": 70,
+          "📴": 71,
           "🎁": 48,
-          "🔴": 69,
-          "🎉": 108,
+          "🔴": 70,
+          "🎉": 109,
           "👍": 16,
           "😍": 6,
           "😆": 6,
@@ -15324,7 +15329,7 @@
           "c600ade4-93cb-4118-a13c-b786761b45f8": 2,
           "6bb3f85e-1a8e-4dfc-9df0-042aa51e00b2": 5,
           "😑": 7,
-          "🎮": 20,
+          "🎮": 21,
           "💰": 4,
           "😅": 2,
           "💜": 1,
@@ -15439,16 +15444,24 @@
           "30a0596b-8cf0-42c2-84b9-f0bbe2d6409d": "Heart"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792506306582
+        "lastChatAt": 1792507063997
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "user": "nekoschwan",
+          "msg": "anggeeeeeee"
         },
         {
-          "user": "srchois",
-          "msg": "TY for the visit po"
+          "user": "nekoschwan",
+          "msg": "wow reyna"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         },
         {
           "user": "botger",
@@ -15457,14 +15470,6 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: Short stream - Support 🔥🎮! Come hang out and watch."
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "anggeeeeeee"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "wow reyna"
         },
         {
           "user": "scurvybot",
@@ -15499,7 +15504,7 @@
       "followed": true,
       "botVip": true,
       "lastStreamInfo": "Short stream - Support 🔥🎮",
-      "lastStreamEndedAt": 1792477914932,
+      "lastStreamEndedAt": 1792506774917,
       "nudgedAt": 1785842437877,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -15580,7 +15585,7 @@
         }
       },
       "_idAt": 1792505617122,
-      "_gameAt": 1792506306279,
+      "_gameAt": 1792507063736,
       "isLive": true,
       "streamCategory": "VALORANT",
       "voteLog": [
@@ -19770,8 +19775,8 @@
       "stats": {
         "totalVotes": 32627,
         "totalSubs": 129,
-        "totalChatMessages": 7575,
-        "totalStreamMinutes": 13693,
+        "totalChatMessages": 7580,
+        "totalStreamMinutes": 13713,
         "emotes": {
           "😅": 8,
           "🔥": 314,
@@ -19790,7 +19795,7 @@
           "🙌": 232,
           "💪": 2,
           "👋": 71,
-          "9bbb90da-7f28-448d-9986-2748f752a3e6": 1022,
+          "9bbb90da-7f28-448d-9986-2748f752a3e6": 1023,
           "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 576,
           "🔴": 60,
           "🎉": 153,
@@ -20025,7 +20030,7 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792506564620,
+        "lastChatAt": 1792507256937,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -20033,22 +20038,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 175 vote(s) (total: 175)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ wapi just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "wapi",
-          "msg": "dude how was I not following u"
-        },
         {
           "user": "wapi",
           "msg": "my bad"
@@ -20072,6 +20061,22 @@
         {
           "user": "botger",
           "msg": "🔴 fartvader is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "fartvader",
+          "msg": "gm gm fam! lets play Archeage Chronicles today, gonna try out Ranger class this time."
+        },
+        {
+          "user": "timdraws",
+          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
+        },
+        {
+          "user": "timdraws",
+          "msg": "demo is too short"
+        },
+        {
+          "user": "timdraws",
+          "msg": "2-2.5 hrs"
         }
       ],
       "customCommands": {},
@@ -20328,7 +20333,7 @@
         "entries": []
       },
       "_idAt": 1792505617017,
-      "_gameAt": 1792506564498,
+      "_gameAt": 1792507165180,
       "isLive": true,
       "streamCategory": "Games + Demos",
       "voteLog": [
