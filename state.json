@@ -13341,14 +13341,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 33440,
+        "totalVotes": 33500,
         "totalSubs": 38,
-        "totalChatMessages": 1650,
+        "totalChatMessages": 1651,
         "totalStreamMinutes": 2696,
         "emotes": {
           "❤": 33,
           "🙌": 51,
-          "🗳": 723,
+          "🗳": 726,
           "🚨": 72,
           "🎉": 40,
           "👋": 51,
@@ -13543,17 +13543,13 @@
           "😨": "😨",
           "🦉": "🦉"
         },
-        "lastChatAt": 1792446799114,
+        "lastChatAt": 1792483561956,
         "sendFailStreak": 291,
         "lastSendFailAt": 1792443300109,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1792443299860
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "I'd be chilling here Dimi, i'd be playing a game with buddy.."
-        },
         {
           "user": "dimifw",
           "msg": "alrighty, gonna play another round tomorrow. see yall [emote:1062cb77-0b58-4482-83a2-ae7b783dbd42]"
@@ -13589,6 +13585,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @RealmOfCrimson just gave 60 vote(s) (total: 60)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -13726,7 +13726,7 @@
       "lastStreamInfo": "Streamish #122 - Ori and the Will of the Wisps",
       "lastStreamEndedAt": 1792428331647,
       "_idAt": 1792479828227,
-      "_gameAt": 1792446799249,
+      "_gameAt": 1792483562129,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -13769,6 +13769,11 @@
           "t": 1792462733039,
           "v": "vroshi55",
           "a": 555
+        },
+        {
+          "t": 1792483559388,
+          "v": "realmofcrimson",
+          "a": 60
         }
       ]
     },
@@ -17935,8 +17940,8 @@
       "stats": {
         "totalVotes": 3267,
         "totalSubs": 5,
-        "totalChatMessages": 120,
-        "totalStreamMinutes": 5042,
+        "totalChatMessages": 121,
+        "totalStreamMinutes": 5047,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -17960,13 +17965,9 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792471409486
+        "lastChatAt": 1792483762417
       },
       "chatMemory": [
-        {
-          "user": "srchois",
-          "msg": "Yo se quienes fueron, de pura mala leche"
-        },
         {
           "user": "srchois",
           "msg": "Vale brother, have fun!"
@@ -18002,6 +18003,10 @@
         {
           "user": "meyetechnicals",
           "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+        },
+        {
+          "user": "daenerys_84",
+          "msg": "Buenos días!"
         }
       ],
       "customCommands": {
@@ -18050,7 +18055,7 @@
       "_idAt": 1792479828322,
       "streamCategory": "Halo Campaign Evolved",
       "isLive": true,
-      "_gameAt": 1792476911716
+      "_gameAt": 1792483762563
     },
     "cb2ce9ff-c2d0-425e-9238-54b535f07d02": {
       "username": "homiedrew",
@@ -26450,8 +26455,8 @@
     }
   },
   "auth": {
-    "accessToken": "705b98a311d94e649086ab7cec7985ce",
-    "refreshToken": "7fd9b18c530571fab76cccb9e55dae1a",
+    "accessToken": "485731f9b8bf74a716f1c11f6e61156c",
+    "refreshToken": "3730bdd8db1b0c9f8ad430315dd447ef",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
