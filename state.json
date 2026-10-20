@@ -8958,7 +8958,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 24154,
+        "totalVotes": 24156,
         "totalSubs": 60,
         "totalChatMessages": 4509,
         "totalStreamMinutes": 5266,
@@ -9401,6 +9401,16 @@
           "t": 1792471092605,
           "v": "omererkmen",
           "a": 2
+        },
+        {
+          "t": 1792513835038,
+          "v": "omerabi",
+          "a": 1
+        },
+        {
+          "t": 1792513894658,
+          "v": "omererkmen",
+          "a": 1
         }
       ]
     },
@@ -15259,7 +15269,7 @@
         "totalVotes": 21260,
         "totalSubs": 45,
         "totalChatMessages": 3359,
-        "totalStreamMinutes": 13339,
+        "totalStreamMinutes": 13352,
         "emotes": {
           "❤": 121,
           "🙌": 87,
@@ -16858,8 +16868,8 @@
       "stats": {
         "totalVotes": 13274,
         "totalSubs": 37,
-        "totalChatMessages": 1692,
-        "totalStreamMinutes": 10921,
+        "totalChatMessages": 1693,
+        "totalStreamMinutes": 10935,
         "emotes": {
           "❤": 97,
           "🙌": 69,
@@ -16993,13 +17003,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792513535135
+        "lastChatAt": 1792513577162
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "brb in 15 mins"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -17035,6 +17041,10 @@
         {
           "user": "sinnerz",
           "msg": "hiç bir dediğin anlaşılmıyor"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "iyioyunlar lurk"
         }
       ],
       "customCommands": {},
@@ -21869,9 +21879,9 @@
       "language": "en",
       "joinedAt": 1787228991116,
       "stats": {
-        "totalVotes": 9132,
-        "totalSubs": 31,
-        "totalChatMessages": 1787,
+        "totalVotes": 9157,
+        "totalSubs": 32,
+        "totalChatMessages": 1789,
         "totalStreamMinutes": 8748,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
@@ -22042,17 +22052,9 @@
           "🍩": "🍩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792434212266
+        "lastChatAt": 1792513806884
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 11 votes, @Jiminy!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 8 votes, @smrt!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 105 votes, @ClutchKing!"
@@ -22084,6 +22086,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @tom2329!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@meyetechnicals subscribed! Thank you!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 25 votes, @meyetechnicals!"
         }
       ],
       "customCommands": {
@@ -22198,6 +22208,11 @@
           "name": "charddxyz",
           "months": 1,
           "tier": 1
+        },
+        "meyetechnicals": {
+          "name": "meyetechnicals",
+          "months": 1,
+          "tier": 1
         }
       },
       "raidConfig": {
@@ -22221,7 +22236,7 @@
         }
       },
       "_idAt": 1792505617120,
-      "_gameAt": 1792434212345,
+      "_gameAt": 1792513785254,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -22234,6 +22249,11 @@
           "t": 1792434211774,
           "v": "tom2329",
           "a": 3
+        },
+        {
+          "t": 1792513806516,
+          "v": "meyetechnicals",
+          "a": 25
         }
       ]
     },
@@ -25220,7 +25240,8 @@
       "streamCategory": "",
       "streamTitle": "",
       "_idAt": 1792509318463,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9ae5ffbd-71b4-4992-8061-ba04225b1dc2.jpg"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9ae5ffbd-71b4-4992-8061-ba04225b1dc2.jpg",
+      "followed": true
     }
   },
   "blocklist": [
@@ -26667,8 +26688,8 @@
     }
   },
   "auth": {
-    "accessToken": "c14ad268fe24ee281877c0945baba738",
-    "refreshToken": "d85a2efe64893e98b2ea0a1b5b9289cb",
+    "accessToken": "751ec93b881e3af6b9a4ab26117a58b1",
+    "refreshToken": "222efeb5109587c2360b4785cfbf14a6",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
