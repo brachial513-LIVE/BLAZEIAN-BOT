@@ -870,12 +870,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 136509,
+        "totalVotes": 137009,
         "totalSubs": 215,
-        "totalChatMessages": 11539,
+        "totalChatMessages": 11540,
         "totalStreamMinutes": 4337,
         "emotes": {
-          "🗳": 2211,
+          "🗳": 2214,
           "❤": 553,
           "🙌": 328,
           "🔥": 311,
@@ -1259,17 +1259,13 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792451023762,
+        "lastChatAt": 1792463686971,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 350 vote(s) (total: 350)! Thank you!! 🗳️"
-        },
         {
           "user": "wapi",
           "msg": "blaze onnn"
@@ -1305,6 +1301,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 77 vote(s) (total: 154)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1564,7 +1564,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
       "_idAt": 1792454152092,
-      "_gameAt": 1792451012622,
+      "_gameAt": 1792463687075,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -1617,6 +1617,11 @@
           "t": 1792451021530,
           "v": "cg777",
           "a": 77
+        },
+        {
+          "t": 1792463684749,
+          "v": "desirablebottom",
+          "a": 500
         }
       ]
     },
@@ -1626,25 +1631,25 @@
       "stats": {
         "totalVotes": 35134,
         "totalSubs": 84,
-        "totalChatMessages": 44061,
-        "totalStreamMinutes": 3973,
+        "totalChatMessages": 44154,
+        "totalStreamMinutes": 3984,
         "emotes": {
           "🔥": 2247,
           "🗳": 33,
           "🔴": 55,
-          "🎉": 410,
+          "🎉": 411,
           "😍": 141,
           "❤": 66,
           "🚢": 24,
           "⏰": 1927,
-          "🔜": 1283,
-          "💀": 684,
+          "🔜": 1284,
+          "💀": 687,
           "😘": 3,
-          "🏆": 271,
-          "🎊": 250,
+          "🏆": 272,
+          "🎊": 251,
           "🎰": 35,
           "😰": 216,
-          "🍌": 263,
+          "🍌": 283,
           "🧟": 25,
           "💣": 211,
           "✅": 1126,
@@ -1968,7 +1973,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792463418964,
+        "lastChatAt": 1792464050703,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1977,44 +1982,44 @@
       },
       "chatMemory": [
         {
-          "user": "jt_squared2",
-          "msg": "0 0"
-        },
-        {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 controls BraveHero38! Throwing at 0° with 0% power! 🍌"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "💀 BraveHero38 has been eliminated! 4 players remaining."
+          "msg": "🏆 WINNER: octo! 🎉 Survived 9 rounds! Congratulations! 🎊"
         },
         {
           "user": "octo",
-          "msg": "or make them kill themselves lol"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@briggsy throws at 20° with 80% power! 🍌"
+          "msg": "yea sounds good"
         },
         {
           "user": "octo",
-          "msg": "you can just do the 2 numbers now briggsy"
-        },
-        {
-          "user": "briggsy",
-          "msg": "ohh, okok"
-        },
-        {
-          "user": "briggsy",
-          "msg": "7 minutes"
+          "msg": "that sounds like a good change"
         },
         {
           "user": "octo",
-          "msg": "140 60"
+          "msg": "advantages are good, stalling the games are bad"
         },
         {
-          "user": "blazegames_bot",
-          "msg": "@octo throws at 140° with 60% power! 🍌"
+          "user": "octo",
+          "msg": "autowins are also bad"
+        },
+        {
+          "user": "octo",
+          "msg": "but yea i gotta scoot, ggs tho, w progress"
+        },
+        {
+          "user": "octo",
+          "msg": "oh yea you should make it so in glass bridge when you die it should buffer your input"
+        },
+        {
+          "user": "botger",
+          "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
+        },
+        {
+          "user": "octo",
+          "msg": "and add a/d and/or 1/2 for left/right inputs"
+        },
+        {
+          "user": "doktorgrav",
+          "msg": "I will be here when I can"
         }
       ],
       "customCommands": {},
@@ -2266,7 +2271,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792454152588,
-      "_gameAt": 1792463376981,
+      "_gameAt": 1792463954234,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -7235,8 +7240,8 @@
       "stats": {
         "totalVotes": 45848,
         "totalSubs": 87,
-        "totalChatMessages": 9507,
-        "totalStreamMinutes": 16389,
+        "totalChatMessages": 9509,
+        "totalStreamMinutes": 16400,
         "emotes": {
           "❤": 168,
           "🙌": 220,
@@ -7647,18 +7652,10 @@
           "🧂": "🧂",
           "🚂": "🚂"
         },
-        "lastChatAt": 1792463418880,
+        "lastChatAt": 1792463494542,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @nuggetbot!"
-        },
-        {
-          "user": "nuggetbot",
-          "msg": "@scurvybot no, you're awesome! Extra sauce for you 🥫"
-        },
         {
           "user": "nuggetbot",
           "msg": "@blazeian_bot_ai you rang? I was busy being golden brown ✨"
@@ -7690,6 +7687,14 @@
         {
           "user": "kariman",
           "msg": "Doing good you?"
+        },
+        {
+          "user": "kariman",
+          "msg": "just finished streaming now i'm going back to work haha"
+        },
+        {
+          "user": "kariman",
+          "msg": "It's hard to stream while working. too much apps hahaha"
         }
       ],
       "customCommands": {},
@@ -10785,7 +10790,7 @@
       "stats": {
         "totalVotes": 24280,
         "totalSubs": 82,
-        "totalChatMessages": 2813,
+        "totalChatMessages": 2821,
         "totalStreamMinutes": 22547,
         "emotes": {
           "🔥": 810,
@@ -10965,22 +10970,10 @@
           "😶": "😶",
           "🌫": "🌫"
         },
-        "lastChatAt": 1792462920613,
+        "lastChatAt": 1792463951743,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "nuggetbot",
-          "msg": "@botger you rang? I was busy being golden brown ✨"
-        },
-        {
-          "user": "nuggetbot",
-          "msg": "👋 New here? Hit follow so you never miss a stream. Nuggets for everyone!"
-        },
-        {
-          "user": "botger",
-          "msg": "Go check out Dark Solar Tactical Gamings New Website, DSTG is built to bring Mental Health Awareness and support to the gaming community and we welcome everyone to join the ranks! https://www.darksolargaming.com/?ref=xxtowerdogxx"
-        },
         {
           "user": "nuggetbot",
           "msg": "@botger please stop: links are not allowed."
@@ -11008,6 +11001,18 @@
         {
           "user": "botger",
           "msg": "🔥TOWER is partnered with A-Bomb Energy! Looking for the best Nootropic, Alpha GPC packed drink that will Detinate you fatigue without the crash! Tell them TOWER sent you in the the order comments for an extra bonus in your care package! https://abombenergy.com/"
+        },
+        {
+          "user": "flash",
+          "msg": "info"
+        },
+        {
+          "user": "botger",
+          "msg": "Go check out Dark Solar Tactical Gamings New Website, DSTG is built to bring Mental Health Awareness and support to the gaming community and we welcome everyone to join the ranks! https://www.darksolargaming.com/?ref=xxtowerdogxx"
+        },
+        {
+          "user": "kariman",
+          "msg": "Hello happy streaming"
         }
       ],
       "customCommands": {},
@@ -11131,7 +11136,7 @@
       "_idAt": 1792454165087,
       "streamCategory": "Delta Force",
       "isLive": true,
-      "_gameAt": 1792462918855,
+      "_gameAt": 1792463951876,
       "voteLog": [
         {
           "t": 1792429891263,
@@ -13739,8 +13744,8 @@
       "stats": {
         "totalVotes": 11084,
         "totalSubs": 70,
-        "totalChatMessages": 592,
-        "totalStreamMinutes": 9509,
+        "totalChatMessages": 593,
+        "totalStreamMinutes": 9520,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -13798,13 +13803,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792461455532
+        "lastChatAt": 1792463704549
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @Whisky!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @tom2329!"
@@ -13840,6 +13841,10 @@
         {
           "user": "potato_pete",
           "msg": "woot woot"
+        },
+        {
+          "user": "kariman",
+          "msg": "Hello happy streaming"
         }
       ],
       "customCommands": {},
@@ -13970,7 +13975,7 @@
       "_idAt": 1792454170587,
       "streamCategory": "Dota 2",
       "isLive": true,
-      "_gameAt": 1792461448331,
+      "_gameAt": 1792463704735,
       "voteLog": [
         {
           "t": 1792429891407,
@@ -16050,14 +16055,14 @@
       "joinedAt": 1784645250413,
       "stats": {
         "totalVotes": 19174,
-        "totalSubs": 32,
-        "totalChatMessages": 42323,
+        "totalSubs": 33,
+        "totalChatMessages": 42325,
         "totalStreamMinutes": 22309,
         "emotes": {
           "❤": 157,
-          "🙌": 126,
+          "🙌": 127,
           "🤝": 4,
-          "🔥": 67,
+          "🔥": 69,
           "🔴": 125,
           "🎉": 297,
           "🪙": 1061,
@@ -16071,8 +16076,8 @@
           "☺": 58,
           "😎": 2,
           "😁": 3,
-          "📴": 126,
-          "👋": 132,
+          "📴": 127,
+          "👋": 133,
           "🛒": 14,
           "😀": 3,
           "😍": 16,
@@ -16484,17 +16489,9 @@
           "782879ae-badc-43e4-b73a-b08e1c880e40": "PYROMODE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792463417772
+        "lastChatAt": 1792463627277
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🏆 Votos — esta época: 1. @LipeMan 152 · 2. @lovemikami 100 · 3. @junior7_ 81 · 4. @mauhzera 51 · 5. @sarinhaa11 45 · 6. @CG777 25 · 7. @kwinchester 20 · 8. @solucao 8 · 9. @brunoseven 7 · 10. @garotosemrumo 5"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "LP"
-        },
         {
           "user": "mauhzera",
           "msg": "Lipe"
@@ -16526,6 +16523,14 @@
         {
           "user": "botger",
           "msg": "⭐️Doações no pix: https://midpix.live/SofrenciaPlay"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @alliveall has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -16538,13 +16543,13 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
-      "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer",
+      "streamTitle": "",
       "profile": "sofrenciaplay cranks 1h30m Retro marathons, especially Donkey Kong Country. The chat roars “JOGA SEU JOGO,” celebrates “torradas,” chants “GG” after every win, hyping “Juntos Pelo Lipe” style support. They love “pro player” tags, kaizo‑style jokes, and end streams with “Edao e galera” gratitude. Retro, teamwork, relentless cheers define the vibe.",
       "_profileAtCount": 42086,
       "gameOverride": "",
       "commentMode": "low",
       "lastStreamInfo": "Gameplay / Maratona / Desafio / Multiplayer",
-      "lastStreamEndedAt": 1792279212556,
+      "lastStreamEndedAt": 1792463455660,
       "loyalty": {
         "badger": {
           "name": "badger",
@@ -16553,7 +16558,7 @@
         },
         "alliveall": {
           "name": "alliveall",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "capt_rob_advent": {
@@ -16668,9 +16673,9 @@
         }
       },
       "_idAt": 1792454174094,
-      "_gameAt": 1792463305141,
-      "isLive": true,
-      "streamCategory": "Retro",
+      "_gameAt": 1792463627377,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891197,
@@ -21258,8 +21263,8 @@
       "stats": {
         "totalVotes": 11114,
         "totalSubs": 38,
-        "totalChatMessages": 4927,
-        "totalStreamMinutes": 16362,
+        "totalChatMessages": 4932,
+        "totalStreamMinutes": 16372,
         "emotes": {
           "👋": 115,
           "⚠": 2,
@@ -21455,21 +21460,9 @@
           "🚂": "🚂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792461548988
+        "lastChatAt": 1792463984908
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@i420Spit710Fire, to add ScurvyBot to your Blaze channel, sign in as a streamer at https://scurvybot.com/?login=blaze&role=streamer and we'll join your chat automatically."
-        },
-        {
-          "user": "i420spit710fire",
-          "msg": "Where's the rockets?"
-        },
-        {
-          "user": "i420spit710fire",
-          "msg": "Gotcha"
-        },
         {
           "user": "i420spit710fire",
           "msg": "Lol, cool col"
@@ -21497,6 +21490,18 @@
         {
           "user": "inn",
           "msg": "https://discord.gg/cEkJyyK"
+        },
+        {
+          "user": "nuggetbot",
+          "msg": "Welcome to the stream, @jamiepenguins! First time here, glad you came."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@jamiepenguins you have 0 trash"
+        },
+        {
+          "user": "nuggetbot",
+          "msg": "Enjoying the stream? Hit follow so you know when I go live!"
         }
       ],
       "customCommands": {
@@ -21623,7 +21628,7 @@
         }
       },
       "_idAt": 1792454182137,
-      "_gameAt": 1792461549085,
+      "_gameAt": 1792463980966,
       "isLive": true,
       "streamCategory": "Rocket League",
       "voteLog": [
@@ -22286,7 +22291,7 @@
         "totalVotes": 2027,
         "totalSubs": 6,
         "totalChatMessages": 171,
-        "totalStreamMinutes": 7884,
+        "totalStreamMinutes": 7895,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -24888,6 +24893,35 @@
       "streamCategory": "",
       "streamTitle": "",
       "followed": true
+    },
+    "bc426ef3-da79-4cfb-9159-48905b440156": {
+      "username": "flash",
+      "language": "en",
+      "joinedAt": 1792464054198,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "commandMedia": {},
+      "giveaway": {
+        "joinCmd": "",
+        "viewCmd": "",
+        "open": false,
+        "entries": []
+      },
+      "timedMessages": [],
+      "tipTiers": [],
+      "greeted": true
     }
   },
   "blocklist": [
