@@ -16858,7 +16858,7 @@
       "stats": {
         "totalVotes": 13274,
         "totalSubs": 37,
-        "totalChatMessages": 1691,
+        "totalChatMessages": 1692,
         "totalStreamMinutes": 10921,
         "emotes": {
           "❤": 97,
@@ -16993,13 +16993,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792513452128
+        "lastChatAt": 1792513535135
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "good to see you too"
-        },
         {
           "user": "guney",
           "msg": "brb in 15 mins"
@@ -17035,6 +17031,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @Sinnerz has resubscribed (4 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "sinnerz",
+          "msg": "hiç bir dediğin anlaşılmıyor"
         }
       ],
       "customCommands": {},
@@ -26667,8 +26667,8 @@
     }
   },
   "auth": {
-    "accessToken": "5b25405f384dcab70dcd456964348438",
-    "refreshToken": "cf554831b66bc646262ee4c1c15666d7",
+    "accessToken": "c14ad268fe24ee281877c0945baba738",
+    "refreshToken": "d85a2efe64893e98b2ea0a1b5b9289cb",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
