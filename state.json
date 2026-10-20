@@ -870,12 +870,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 137009,
+        "totalVotes": 137109,
         "totalSubs": 216,
-        "totalChatMessages": 11542,
+        "totalChatMessages": 11543,
         "totalStreamMinutes": 4337,
         "emotes": {
-          "🗳": 2214,
+          "🗳": 2217,
           "❤": 553,
           "🙌": 329,
           "🔥": 313,
@@ -1259,17 +1259,13 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792464372574,
+        "lastChatAt": 1792464557824,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Sinnerz just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
@@ -1305,6 +1301,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @fluffy has resubscribed (4 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1564,7 +1564,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
       "_idAt": 1792454152092,
-      "_gameAt": 1792464333978,
+      "_gameAt": 1792464557943,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -1622,6 +1622,11 @@
           "t": 1792463684749,
           "v": "desirablebottom",
           "a": 500
+        },
+        {
+          "t": 1792464555628,
+          "v": "itsbigbrozo",
+          "a": 100
         }
       ]
     },
@@ -1631,7 +1636,7 @@
       "stats": {
         "totalVotes": 35134,
         "totalSubs": 84,
-        "totalChatMessages": 44161,
+        "totalChatMessages": 44165,
         "totalStreamMinutes": 3990,
         "emotes": {
           "🔥": 2247,
@@ -1658,8 +1663,8 @@
           "🌉": 31,
           "💨": 236,
           "💥": 522,
-          "📴": 53,
-          "👋": 63,
+          "📴": 54,
+          "👋": 64,
           "😢": 2,
           "⚠": 24,
           "🎯": 2,
@@ -1671,7 +1676,7 @@
           "⚡": 112,
           "📊": 3,
           "💃": 1,
-          "💛": 10,
+          "💛": 11,
           "👑": 1,
           "🤗": 5,
           "🙌": 29,
@@ -1973,7 +1978,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792464373058,
+        "lastChatAt": 1792464503097,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1981,18 +1986,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
-        },
-        {
-          "user": "octo",
-          "msg": "and add a/d and/or 1/2 for left/right inputs"
-        },
-        {
-          "user": "doktorgrav",
-          "msg": "I will be here when I can"
-        },
         {
           "user": "octo",
           "msg": "for example if i die then say L, it should remember that and put it when i respawn"
@@ -2020,6 +2013,18 @@
         {
           "user": "nuggetbot",
           "msg": "👋 New here? Hit follow so you never miss a stream. Nuggets for everyone!"
+        },
+        {
+          "user": "nuggetbot",
+          "msg": "💛 Thank you all for the support today! You make every stream extra crispy."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Registration service is currently unavailable. Please try again later."
         }
       ],
       "customCommands": {},
@@ -2028,9 +2033,9 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
-      "streamTitle": "Developing new Blaze Game - Last Call",
+      "streamTitle": "",
       "profile": "jt_squared2’s squad thrives on “love fest” vibes, dropping “Holi Holiii Holiiii” and 🙌🙌🙌 when gameplay gets “hood.” Treadmill Time streams run “make me run” marathons, with “24h stream” hype and “sub’in you for so long” chants. The community celebrates nonstop cheers, “gg sip,” “ggs,” “TAG ME PLEASE,” and constant gratitude for hosting games and “games this.”",
-      "_profileAtCount": 43820,
+      "_profileAtCount": 44165,
       "loyalty": {
         "tigresa": {
           "name": "tigresa",
@@ -2265,15 +2270,15 @@
       },
       "gameOverride": "",
       "lastStreamInfo": "Developing new Blaze Game - Last Call",
-      "lastStreamEndedAt": 1792433829201,
+      "lastStreamEndedAt": 1792464451649,
       "nudgedAt": 1785864236148,
       "nudgedKey": "schedule",
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792454152588,
       "_gameAt": 1792464369905,
-      "isLive": true,
-      "streamCategory": "IRL",
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792426545217,
@@ -7240,16 +7245,16 @@
       "stats": {
         "totalVotes": 45848,
         "totalSubs": 87,
-        "totalChatMessages": 9525,
-        "totalStreamMinutes": 16406,
+        "totalChatMessages": 9528,
+        "totalStreamMinutes": 16407,
         "emotes": {
           "❤": 168,
           "🙌": 220,
           "🗳": 930,
           "🔴": 97,
           "🎉": 166,
-          "📴": 95,
-          "👋": 109,
+          "📴": 96,
+          "👋": 110,
           "🔥": 265,
           "💪": 6,
           "🤖": 1,
@@ -7260,7 +7265,7 @@
           "😅": 9,
           "😆": 69,
           "💰": 24,
-          "😂": 141,
+          "😂": 142,
           "🎁": 90,
           "✨": 2,
           "😄": 9,
@@ -7652,22 +7657,10 @@
           "🧂": "🧂",
           "🚂": "🚂"
         },
-        "lastChatAt": 1792464388367,
+        "lastChatAt": 1792464520965,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "octo",
-          "msg": "definitely am thanks hope you are too!"
-        },
-        {
-          "user": "botger",
-          "msg": "THAT'S WHAT SHE SAID!!!! 🤣😂🤣"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "oh shooot I forgot!"
-        },
         {
           "user": "jt_squared2",
           "msg": "let me know ahead of time"
@@ -7695,6 +7688,18 @@
         {
           "user": "jt_squared2",
           "msg": "did squirtle just say fuck daddy?"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "😂"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7703,7 +7708,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🐢Squirtle week🐢❤️Dota Monday! ❤️",
+      "streamTitle": "",
       "profile": "Chill gaming crew on nadietv, loving WoW, Stumble Guys, Path of Exile 2, Dota, retro oldies. “Blazeee” vibes, “Will be relax day” shenanigans, “VOTE ALERT!!” celebrations, and “hard reset” moments. The channel thrives on spontaneous “VOTE ALERT!!” shoutouts, “hard reset” resets, and “Will be relax day” chill streams, always ending with a celebratory “hard reset” and a “Blazeee” wave.",
       "_profileAtCount": 9477,
       "gameOverride": "",
@@ -7879,8 +7884,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "❤️Trying @UncleFunk 's game ❤️",
-      "lastStreamEndedAt": 1792294930419,
+      "lastStreamInfo": "🐢Squirtle week🐢❤️Dota Monday! ❤️",
+      "lastStreamEndedAt": 1792464515803,
       "_idAt": 1792454159087,
       "mascotMsgs": [
         "Don't forget to Subscribe!",
@@ -7891,8 +7896,8 @@
       ],
       "mascotMsgsMix": true,
       "_gameAt": 1792464369270,
-      "isLive": true,
-      "streamCategory": "Dota 2",
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891059,
@@ -13745,7 +13750,7 @@
         "totalVotes": 11084,
         "totalSubs": 70,
         "totalChatMessages": 593,
-        "totalStreamMinutes": 9526,
+        "totalStreamMinutes": 9534,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -21264,7 +21269,7 @@
         "totalVotes": 11114,
         "totalSubs": 38,
         "totalChatMessages": 4932,
-        "totalStreamMinutes": 16379,
+        "totalStreamMinutes": 16387,
         "emotes": {
           "👋": 115,
           "⚠": 2,
@@ -22291,7 +22296,7 @@
         "totalVotes": 2027,
         "totalSubs": 6,
         "totalChatMessages": 171,
-        "totalStreamMinutes": 7901,
+        "totalStreamMinutes": 7909,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -24924,7 +24929,9 @@
       "greeted": true,
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "_idAt": 1792464918426,
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d087c21b-5cfa-4217-bbc8-d8ef7ad77e9f.jpg"
     }
   },
   "blocklist": [
@@ -25993,9 +26000,9 @@
       "n": 4
     },
     "crispipoquinha": {
-      "note": "They enjoy chatting playfully about games, share jokes, and use emojis to express excitement.",
-      "at": 1792365049189,
-      "n": 16
+      "note": "Crispipoquinha loves playful gaming chats, jokes, and uses emojis to show excitement.",
+      "at": 1792464680301,
+      "n": 17
     },
     "venus": {
       "note": "Venus loves racing games like Mario Kart, enjoys playful banter about stream moments, and often jokes about livestream events.",
@@ -26366,8 +26373,8 @@
     }
   },
   "auth": {
-    "accessToken": "99b2feb400fbefca372f40cfbed0f939",
-    "refreshToken": "0f4ae52a7c5757a042cadfb586fa85a9",
+    "accessToken": "11b986d679bb58084c32486c4729c47f",
+    "refreshToken": "899b1f8ca1ebe03bd971b88869c13c66",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
