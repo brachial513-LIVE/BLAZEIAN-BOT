@@ -15258,8 +15258,8 @@
       "stats": {
         "totalVotes": 21260,
         "totalSubs": 45,
-        "totalChatMessages": 3357,
-        "totalStreamMinutes": 13333,
+        "totalChatMessages": 3359,
+        "totalStreamMinutes": 13338,
         "emotes": {
           "❤": 121,
           "🙌": 87,
@@ -15451,17 +15451,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792512193321
+        "lastChatAt": 1792513313375
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ BlazeAgainst just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "just_for_lucas",
-          "msg": "g ka madam?"
-        },
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @just_for_lucas has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
@@ -15493,6 +15485,14 @@
         {
           "user": "cr33pling",
           "msg": "adik mag reyna"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "lakas pumatay ng bot"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "hahaha"
         }
       ],
       "customCommands": {},
@@ -15597,7 +15597,7 @@
         }
       },
       "_idAt": 1792505617122,
-      "_gameAt": 1792512193413,
+      "_gameAt": 1792513233542,
       "isLive": true,
       "streamCategory": "VALORANT",
       "voteLog": [
@@ -16857,17 +16857,17 @@
       "joinedAt": 1784664490215,
       "stats": {
         "totalVotes": 13274,
-        "totalSubs": 36,
-        "totalChatMessages": 1690,
-        "totalStreamMinutes": 10916,
+        "totalSubs": 37,
+        "totalChatMessages": 1691,
+        "totalStreamMinutes": 10921,
         "emotes": {
           "❤": 97,
-          "🙌": 68,
+          "🙌": 69,
           "📴": 92,
           "👋": 103,
           "🔴": 89,
           "🎉": 120,
-          "🔥": 93,
+          "🔥": 95,
           "🗳": 411,
           "😀": 6,
           "👀": 6,
@@ -16993,13 +16993,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792512112325
+        "lastChatAt": 1792513452128
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "thank you mate"
-        },
         {
           "user": "guney",
           "msg": "good to see you too"
@@ -17035,6 +17031,10 @@
         {
           "user": "fartvader",
           "msg": "good luck on your matches brother!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Sinnerz has resubscribed (4 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -17088,6 +17088,11 @@
           "name": "honeybear",
           "months": 1,
           "tier": 1
+        },
+        "sinnerz": {
+          "name": "sinnerz",
+          "months": 1,
+          "tier": 1
         }
       },
       "lastStreamInfo": "OTG",
@@ -17095,7 +17100,7 @@
       "_idAt": 1792505617014,
       "streamCategory": "Off The Grid",
       "isLive": true,
-      "_gameAt": 1792511996281,
+      "_gameAt": 1792513452218,
       "voteLog": [
         {
           "t": 1792429891425,
@@ -26662,8 +26667,8 @@
     }
   },
   "auth": {
-    "accessToken": "dfea7a943777dd1f3ab70072427b10ff",
-    "refreshToken": "f7ca5b0614ca091a0679ffc1fdf0bf34",
+    "accessToken": "5b25405f384dcab70dcd456964348438",
+    "refreshToken": "cf554831b66bc646262ee4c1c15666d7",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
