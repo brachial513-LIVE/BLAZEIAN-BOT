@@ -6170,14 +6170,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 45250,
+        "totalVotes": 45255,
         "totalSubs": 131,
-        "totalChatMessages": 16293,
+        "totalChatMessages": 16294,
         "totalStreamMinutes": 9563,
         "emotes": {
           "❤": 277,
           "🙌": 420,
-          "🗳": 1919,
+          "🗳": 1922,
           "✌": 12,
           "😊": 11,
           "👍": 20,
@@ -6763,13 +6763,9 @@
           "⚠": "⚠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792446646657
+        "lastChatAt": 1792483839183
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "💀 briggsy has been eliminated! 1 player remaining."
-        },
         {
           "user": "blazegames_bot",
           "msg": "E9: sunk briggsy's Carrier!"
@@ -6805,6 +6801,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7021,7 +7021,7 @@
       "lastStreamInfo": "Sunday night let's play",
       "lastStreamEndedAt": 1792402503248,
       "_idAt": 1792478126840,
-      "_gameAt": 1792446646770,
+      "_gameAt": 1792483839363,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -7079,6 +7079,11 @@
           "t": 1792471092508,
           "v": "omererkmen",
           "a": 1
+        },
+        {
+          "t": 1792483837012,
+          "v": "itachiavax",
+          "a": 5
         }
       ]
     },
@@ -17290,14 +17295,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 37675,
+        "totalVotes": 37680,
         "totalSubs": 60,
-        "totalChatMessages": 7231,
+        "totalChatMessages": 7233,
         "totalStreamMinutes": 12495,
         "emotes": {
           "❤": 114,
           "🙌": 108,
-          "🗳": 1179,
+          "🗳": 1182,
           "🔴": 96,
           "🎉": 177,
           "🏃": 1,
@@ -17641,17 +17646,9 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792437384890
+        "lastChatAt": 1792483851435
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mediart just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @time!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
@@ -17683,6 +17680,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @ITACHIAVAX!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ITACHIAVAX just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -17897,7 +17902,7 @@
       },
       "commentMode": "silent",
       "_idAt": 1792479828323,
-      "_gameAt": 1792437383150,
+      "_gameAt": 1792483849806,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -17930,6 +17935,11 @@
           "t": 1792437382633,
           "v": "xanderc",
           "a": 10
+        },
+        {
+          "t": 1792483849251,
+          "v": "itachiavax",
+          "a": 5
         }
       ]
     },
@@ -26455,8 +26465,8 @@
     }
   },
   "auth": {
-    "accessToken": "485731f9b8bf74a716f1c11f6e61156c",
-    "refreshToken": "3730bdd8db1b0c9f8ad430315dd447ef",
+    "accessToken": "3592275211e9e7008601c837c8561e6f",
+    "refreshToken": "8eee456df3fd1ea8fa56bc70bca26771",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
