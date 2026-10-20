@@ -1655,7 +1655,7 @@
       "stats": {
         "totalVotes": 35160,
         "totalSubs": 84,
-        "totalChatMessages": 44385,
+        "totalChatMessages": 44392,
         "totalStreamMinutes": 3990,
         "emotes": {
           "🔥": 2247,
@@ -1665,7 +1665,7 @@
           "😍": 141,
           "❤": 66,
           "🚢": 24,
-          "⏰": 1946,
+          "⏰": 1952,
           "🔜": 1284,
           "💀": 706,
           "😘": 3,
@@ -1685,7 +1685,7 @@
           "📴": 54,
           "👋": 64,
           "😢": 2,
-          "⚠": 25,
+          "⚠": 26,
           "🎯": 2,
           "👿": 1,
           "😂": 630,
@@ -1997,7 +1997,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792518620765,
+        "lastChatAt": 1792518625669,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2007,34 +2007,6 @@
       "chatMemory": [
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 No game is currently active!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🍻 Last Call starting in 30 seconds! Use !join to join. Movement: 1-3 · Turns: left/right (or l/r) · Bartender: !beer ."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🍻 Last Call tutorial starting in 30 seconds! Use !join to join. Each participant gets a personalized, interactive tutorial in /play."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "botger",
-          "msg": "(Handled by bot — joins the channel and confirms in chat)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 10 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
           "msg": "⏰ Game starting in 10 seconds!"
         },
         {
@@ -2044,6 +2016,34 @@
         {
           "user": "blazegames_bot",
           "msg": "⏰ Game starting in 5 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⚠️ Not enough players to start! Need at least 2."
         }
       ],
       "customCommands": {},
@@ -2373,7 +2373,7 @@
         "totalVotes": 46178,
         "totalSubs": 284,
         "totalChatMessages": 14758,
-        "totalStreamMinutes": 35040,
+        "totalStreamMinutes": 35045,
         "emotes": {
           "📊": 3,
           "🔥": 633,
@@ -4298,10 +4298,10 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 56119,
+        "totalVotes": 56139,
         "totalSubs": 100,
-        "totalChatMessages": 20267,
-        "totalStreamMinutes": 12178,
+        "totalChatMessages": 20279,
+        "totalStreamMinutes": 12183,
         "emotes": {
           "❤": 7577,
           "🎵": 758,
@@ -4762,7 +4762,7 @@
           "🌙": "🌙",
           "😛": "😛"
         },
-        "lastChatAt": 1792518604273,
+        "lastChatAt": 1792518883546,
         "sendFailStreak": 573,
         "lastSendFailAt": 1792491540609,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4771,18 +4771,6 @@
         "lastProbeAt": 1792491540415
       },
       "chatMemory": [
-        {
-          "user": "bee12",
-          "msg": "it's a lot!❤️🐝❤️"
-        },
-        {
-          "user": "generalkev",
-          "msg": "turning"
-        },
-        {
-          "user": "generalkev",
-          "msg": "like me?"
-        },
         {
           "user": "sheshi",
           "msg": "in training even the big echovants turns, which in cool"
@@ -4810,6 +4798,18 @@
         {
           "user": "buddykins",
           "msg": "so cool"
+        },
+        {
+          "user": "generalkev",
+          "msg": "i showed up as sending a swarm"
+        },
+        {
+          "user": "bee12",
+          "msg": "awesomeeeeeeee"
+        },
+        {
+          "user": "sheshi",
+          "msg": "i dont see my free cards which i claimed through flight school"
         }
       ],
       "customCommands": {},
@@ -4955,7 +4955,7 @@
       "_idAt": 1792500919629,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1792518589133,
+      "_gameAt": 1792518810338,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -5094,6 +5094,11 @@
         },
         {
           "t": 1792518389620,
+          "v": "bee12",
+          "a": 20
+        },
+        {
+          "t": 1792518908428,
           "v": "bee12",
           "a": 20
         }
@@ -8411,7 +8416,7 @@
         "totalVotes": 21777,
         "totalSubs": 59,
         "totalChatMessages": 1850,
-        "totalStreamMinutes": 7591,
+        "totalStreamMinutes": 7596,
         "emotes": {
           "❤": 98,
           "🙌": 84,
@@ -9073,7 +9078,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 24156,
+        "totalVotes": 24157,
         "totalSubs": 60,
         "totalChatMessages": 4509,
         "totalStreamMinutes": 5266,
@@ -9525,6 +9530,11 @@
         {
           "t": 1792513894658,
           "v": "omererkmen",
+          "a": 1
+        },
+        {
+          "t": 1792518674708,
+          "v": "omerabi",
           "a": 1
         }
       ]
@@ -15434,7 +15444,7 @@
         "totalVotes": 21260,
         "totalSubs": 45,
         "totalChatMessages": 3361,
-        "totalStreamMinutes": 13423,
+        "totalStreamMinutes": 13428,
         "emotes": {
           "❤": 121,
           "🙌": 87,
@@ -17034,7 +17044,7 @@
         "totalVotes": 13274,
         "totalSubs": 37,
         "totalChatMessages": 1693,
-        "totalStreamMinutes": 11006,
+        "totalStreamMinutes": 11011,
         "emotes": {
           "❤": 97,
           "🙌": 69,
@@ -25351,7 +25361,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 34,
-        "totalStreamMinutes": 60,
+        "totalStreamMinutes": 65,
         "emotes": {
           "👋": 2,
           "❤": 4,
@@ -26884,8 +26894,8 @@
     }
   },
   "auth": {
-    "accessToken": "972681b4fdb29c26300bb7a01164ed9e",
-    "refreshToken": "e5c082c344338e2a815dac9e90086da3",
+    "accessToken": "66d023f437fadcbc8bd6e51a327b8213",
+    "refreshToken": "64071bd43d926d966d800cba4f5dd446",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
