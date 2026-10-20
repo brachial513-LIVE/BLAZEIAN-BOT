@@ -871,14 +871,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 137009,
-        "totalSubs": 215,
-        "totalChatMessages": 11540,
+        "totalSubs": 216,
+        "totalChatMessages": 11542,
         "totalStreamMinutes": 4337,
         "emotes": {
           "🗳": 2214,
           "❤": 553,
-          "🙌": 328,
-          "🔥": 311,
+          "🙌": 329,
+          "🔥": 313,
           "☺": 7,
           "🔴": 41,
           "🎉": 149,
@@ -1259,21 +1259,13 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792463686971,
+        "lastChatAt": 1792464372574,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "wapi",
-          "msg": "blaze onnn"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mediart just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tigresa just gave 75 vote(s) (total: 75)! Thank you!! 🗳️"
@@ -1305,6 +1297,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
+        },
+        {
+          "user": "fluffy",
+          "msg": "Thanks soooo much @vroshi55 for votes"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @fluffy has resubscribed (4 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -1481,7 +1481,7 @@
         },
         "fluffy": {
           "name": "fluffy",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "cripiechuccles": {
@@ -1564,7 +1564,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
       "_idAt": 1792454152092,
-      "_gameAt": 1792463687075,
+      "_gameAt": 1792464333978,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -1631,8 +1631,8 @@
       "stats": {
         "totalVotes": 35134,
         "totalSubs": 84,
-        "totalChatMessages": 44154,
-        "totalStreamMinutes": 3984,
+        "totalChatMessages": 44161,
+        "totalStreamMinutes": 3990,
         "emotes": {
           "🔥": 2247,
           "🗳": 33,
@@ -1659,7 +1659,7 @@
           "💨": 236,
           "💥": 522,
           "📴": 53,
-          "👋": 62,
+          "👋": 63,
           "😢": 2,
           "⚠": 24,
           "🎯": 2,
@@ -1973,7 +1973,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792464050703,
+        "lastChatAt": 1792464373058,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -1981,34 +1981,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "🏆 WINNER: octo! 🎉 Survived 9 rounds! Congratulations! 🎊"
-        },
-        {
-          "user": "octo",
-          "msg": "yea sounds good"
-        },
-        {
-          "user": "octo",
-          "msg": "that sounds like a good change"
-        },
-        {
-          "user": "octo",
-          "msg": "advantages are good, stalling the games are bad"
-        },
-        {
-          "user": "octo",
-          "msg": "autowins are also bad"
-        },
-        {
-          "user": "octo",
-          "msg": "but yea i gotta scoot, ggs tho, w progress"
-        },
-        {
-          "user": "octo",
-          "msg": "oh yea you should make it so in glass bridge when you die it should buffer your input"
-        },
         {
           "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
@@ -2020,6 +1992,34 @@
         {
           "user": "doktorgrav",
           "msg": "I will be here when I can"
+        },
+        {
+          "user": "octo",
+          "msg": "for example if i die then say L, it should remember that and put it when i respawn"
+        },
+        {
+          "user": "octo",
+          "msg": "because sometimes ill have to put it in a few times and it'll show my character move but then unmove them, and just in general makes it flow nicer"
+        },
+        {
+          "user": "octo",
+          "msg": "i can show you sometime"
+        },
+        {
+          "user": "octo",
+          "msg": "sleep well when you do and have a good"
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "nuggetbot",
+          "msg": "Thanks for the follow, @nuggetbot!"
+        },
+        {
+          "user": "nuggetbot",
+          "msg": "👋 New here? Hit follow so you never miss a stream. Nuggets for everyone!"
         }
       ],
       "customCommands": {},
@@ -2271,7 +2271,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792454152588,
-      "_gameAt": 1792463954234,
+      "_gameAt": 1792464369905,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -7240,27 +7240,27 @@
       "stats": {
         "totalVotes": 45848,
         "totalSubs": 87,
-        "totalChatMessages": 9509,
-        "totalStreamMinutes": 16400,
+        "totalChatMessages": 9525,
+        "totalStreamMinutes": 16406,
         "emotes": {
           "❤": 168,
           "🙌": 220,
           "🗳": 930,
           "🔴": 97,
-          "🎉": 165,
+          "🎉": 166,
           "📴": 95,
           "👋": 109,
           "🔥": 265,
           "💪": 6,
           "🤖": 1,
           "💚": 8,
-          "🤣": 94,
-          "🚨": 366,
+          "🤣": 96,
+          "🚨": 372,
           "😎": 5,
           "😅": 9,
           "😆": 69,
           "💰": 24,
-          "😂": 140,
+          "😂": 141,
           "🎁": 90,
           "✨": 2,
           "😄": 9,
@@ -7652,49 +7652,49 @@
           "🧂": "🧂",
           "🚂": "🚂"
         },
-        "lastChatAt": 1792463494542,
+        "lastChatAt": 1792464388367,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "nuggetbot",
-          "msg": "@blazeian_bot_ai you rang? I was busy being golden brown ✨"
+          "user": "octo",
+          "msg": "definitely am thanks hope you are too!"
         },
         {
           "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ nuggetbot just followed the channel! Welcome!! 🙌"
+          "msg": "THAT'S WHAT SHE SAID!!!! 🤣😂🤣"
         },
         {
-          "user": "nuggetbot",
-          "msg": "@botger interesting... I'll think about it while I marinate 🧂"
+          "user": "jt_squared2",
+          "msg": "oh shooot I forgot!"
         },
         {
-          "user": "nuggetbot",
-          "msg": "👋 New here? Hit follow so you never miss a stream. Nuggets for everyone!"
+          "user": "jt_squared2",
+          "msg": "let me know ahead of time"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 555 votes, @vRoshi55!"
+          "user": "jt_squared2",
+          "msg": "carter really wants to play but understand if you just want it to be adults only"
         },
         {
-          "user": "nuggetbot",
-          "msg": "🚂 Hype train challenge! Can we reach level 600 followers today? Every sub, gift and tip fills the meter!"
+          "user": "jt_squared2",
+          "msg": "no you don't have to worry about that"
         },
         {
-          "user": "kariman",
-          "msg": "Hello happy streaming"
+          "user": "jt_squared2",
+          "msg": "I use that kind of language all the time around them"
         },
         {
-          "user": "kariman",
-          "msg": "Doing good you?"
+          "user": "jt_squared2",
+          "msg": "not on purpose"
         },
         {
-          "user": "kariman",
-          "msg": "just finished streaming now i'm going back to work haha"
+          "user": "jt_squared2",
+          "msg": "yeah espeically if you are wearing squirtle costume"
         },
         {
-          "user": "kariman",
-          "msg": "It's hard to stream while working. too much apps hahaha"
+          "user": "jt_squared2",
+          "msg": "did squirtle just say fuck daddy?"
         }
       ],
       "customCommands": {},
@@ -7890,7 +7890,7 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1792463390716,
+      "_gameAt": 1792464369270,
       "isLive": true,
       "streamCategory": "Dota 2",
       "voteLog": [
@@ -13745,7 +13745,7 @@
         "totalVotes": 11084,
         "totalSubs": 70,
         "totalChatMessages": 593,
-        "totalStreamMinutes": 9520,
+        "totalStreamMinutes": 9526,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -21264,7 +21264,7 @@
         "totalVotes": 11114,
         "totalSubs": 38,
         "totalChatMessages": 4932,
-        "totalStreamMinutes": 16372,
+        "totalStreamMinutes": 16378,
         "emotes": {
           "👋": 115,
           "⚠": 2,
@@ -22291,7 +22291,7 @@
         "totalVotes": 2027,
         "totalSubs": 6,
         "totalChatMessages": 171,
-        "totalStreamMinutes": 7895,
+        "totalStreamMinutes": 7901,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -24921,7 +24921,10 @@
       },
       "timedMessages": [],
       "tipTiers": [],
-      "greeted": true
+      "greeted": true,
+      "locked": false,
+      "followed": true,
+      "botVip": true
     }
   },
   "blocklist": [
