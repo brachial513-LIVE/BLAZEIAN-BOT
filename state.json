@@ -12828,14 +12828,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 39685,
-        "totalSubs": 182,
-        "totalChatMessages": 4186,
-        "totalStreamMinutes": 21168,
+        "totalSubs": 183,
+        "totalChatMessages": 4192,
+        "totalStreamMinutes": 21173,
         "emotes": {
           "❤": 148,
-          "🙌": 255,
+          "🙌": 256,
           "💚": 3,
-          "🔥": 148,
+          "🔥": 150,
           "🗳": 1104,
           "🔴": 175,
           "🎉": 230,
@@ -12891,7 +12891,7 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": 9,
           "🎰": 1,
           "🚫": 1,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 42,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 43,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 7,
           "5bb8d832-d7ef-4600-8250-5d2518128981": 8,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 6,
@@ -13060,33 +13060,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792494297711
+        "lastChatAt": 1792494579496
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @sofrenciaplay has resubscribed (5 months total, 1 month streak)! Thank you for the continued support! 🙌"
-        },
-        {
-          "user": "sofrenciaplay",
-          "msg": "thanks"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "tenshi",
-          "msg": "hey"
-        },
-        {
-          "user": "tenshi",
-          "msg": "can you sub back if I sub"
-        },
-        {
-          "user": "tenshi",
-          "msg": "because I have only limited blaze now"
-        },
         {
           "user": "tenshi",
           "msg": "ok ty"
@@ -13102,6 +13078,30 @@
         {
           "user": "tenshi",
           "msg": "soon it'll update hopefully"
+        },
+        {
+          "user": "tenshi",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @tenshi has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "tenshi",
+          "msg": "finally"
+        },
+        {
+          "user": "tenshi",
+          "msg": "haha"
+        },
+        {
+          "user": "tenshi",
+          "msg": "tysm"
+        },
+        {
+          "user": "tenshi",
+          "msg": "game looks like a movie"
         }
       ],
       "customCommands": {},
@@ -13306,12 +13306,17 @@
           "name": "alliveall",
           "months": 1,
           "tier": 1
+        },
+        "tenshi": {
+          "name": "tenshi",
+          "months": 1,
+          "tier": 1
         }
       },
       "lastStreamInfo": "Left 4 Dead",
       "lastStreamEndedAt": 1792381985900,
       "_idAt": 1792479828321,
-      "_gameAt": 1792494252862,
+      "_gameAt": 1792494449843,
       "isLive": true,
       "streamCategory": "Beyond: Two Souls",
       "voteLog": [
@@ -26486,8 +26491,8 @@
     }
   },
   "auth": {
-    "accessToken": "d4c6ed3d318568ec1b11fa58211d0f31",
-    "refreshToken": "b7224e2bda88f7303a2f18d2fdea372f",
+    "accessToken": "359982c72e02e002443a560b9773aaea",
+    "refreshToken": "338b173018b93127d2a21d7c01a20a7a",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
