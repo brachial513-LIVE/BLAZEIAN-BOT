@@ -15582,12 +15582,12 @@
       "joinedAt": 1784468670654,
       "stats": {
         "totalVotes": 10327,
-        "totalSubs": 60,
-        "totalChatMessages": 2840,
+        "totalSubs": 61,
+        "totalChatMessages": 2842,
         "totalStreamMinutes": 7210,
         "emotes": {
           "❤": 118,
-          "🙌": 104,
+          "🙌": 105,
           "📴": 60,
           "👋": 63,
           "🎁": 52,
@@ -15603,7 +15603,7 @@
           "💙": 2,
           "💜": 11,
           "📢": 28,
-          "🔥": 130,
+          "🔥": 132,
           "💖": 1,
           "🤟": 2,
           "👽": 1,
@@ -15798,17 +15798,9 @@
           "🎸": "🎸"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792432000264
+        "lastChatAt": 1792483094398
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 100 votes, @angge_wf!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @Tinapay!"
@@ -15840,6 +15832,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@curlysnow07 subscribed! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @curlysnow07 to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {},
@@ -15980,10 +15980,15 @@
           "name": "honeybear",
           "months": 1,
           "tier": 1
+        },
+        "curlysnow07": {
+          "name": "curlysnow07",
+          "months": 1,
+          "tier": 1
         }
       },
       "_idAt": 1792479828322,
-      "_gameAt": 1792431998428,
+      "_gameAt": 1792483094511,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -17931,7 +17936,7 @@
         "totalVotes": 3267,
         "totalSubs": 5,
         "totalChatMessages": 120,
-        "totalStreamMinutes": 5022,
+        "totalStreamMinutes": 5042,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
