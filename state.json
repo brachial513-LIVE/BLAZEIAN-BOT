@@ -24998,13 +24998,25 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
-        "emotes": {},
-        "emoteNames": {},
-        "sendFailStreak": 0
+        "emotes": {
+          "💚": 1,
+          "🔥": 1
+        },
+        "emoteNames": {
+          "💚": "💚",
+          "🔥": "🔥"
+        },
+        "sendFailStreak": 0,
+        "lastChatAt": 1792492114733
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "brachial513",
+          "msg": "Welcome to Blaze and thanks for joining the BlazeianCrew ! You now have 1 permanent Free Entry for our Weekly Giveaway on Blaze, where you can win up to 1000 Votes, NFTs and more ! As soon as you are able to earn votes you are in 💚🔥 Keep Blazeing and stay amazing !"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -25023,7 +25035,11 @@
       "followed": true,
       "botVip": true,
       "_idAt": 1792487718502,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d087c21b-5cfa-4217-bbc8-d8ef7ad77e9f.jpg"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d087c21b-5cfa-4217-bbc8-d8ef7ad77e9f.jpg",
+      "_gameAt": 1792492114864,
+      "isLive": false,
+      "streamCategory": "",
+      "streamTitle": ""
     }
   },
   "blocklist": [
@@ -26470,8 +26486,8 @@
     }
   },
   "auth": {
-    "accessToken": "6badd6f255d9526e640c363d2ba8b671",
-    "refreshToken": "71e84efc096201f0d5ee184b3e21f187",
+    "accessToken": "d4c6ed3d318568ec1b11fa58211d0f31",
+    "refreshToken": "b7224e2bda88f7303a2f18d2fdea372f",
     "sessionToken": "393df836a1e94598893fe719a3c970e1",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
