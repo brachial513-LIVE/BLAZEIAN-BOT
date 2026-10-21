@@ -6423,7 +6423,7 @@
         "totalVotes": 45352,
         "totalSubs": 131,
         "totalChatMessages": 16472,
-        "totalStreamMinutes": 9682,
+        "totalStreamMinutes": 9683,
         "emotes": {
           "❤": 283,
           "🙌": 423,
@@ -16873,7 +16873,7 @@
       "stats": {
         "totalVotes": 19755,
         "totalSubs": 33,
-        "totalChatMessages": 42924,
+        "totalChatMessages": 42926,
         "totalStreamMinutes": 22530,
         "emotes": {
           "❤": 157,
@@ -17308,13 +17308,9 @@
           "🎡": "🎡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792570197857
+        "lastChatAt": 1792570245556
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "34.74 Minutos have been removed from solucao. Reason: balance removal"
-        },
         {
           "user": "scurvybot",
           "msg": "@sofrenciaplay, could not find user @rodrigorechi."
@@ -17350,6 +17346,10 @@
         {
           "user": "scurvybot",
           "msg": "34,705 Minutos have been removed from solucao. Reason: balance removal"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "12,668 Minutos have been removed from sarinhaa11. Reason: balance removal"
         }
       ],
       "customCommands": {},
@@ -17492,7 +17492,7 @@
         }
       },
       "_idAt": 1792551323241,
-      "_gameAt": 1792570032266,
+      "_gameAt": 1792570244760,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -27642,8 +27642,8 @@
     }
   },
   "auth": {
-    "accessToken": "de277eb3b21d2e7293f77d9e3fc1c26f",
-    "refreshToken": "c35adf531e7f7479ec752bb51bfde6c6",
+    "accessToken": "b4f3e6b20fa1de7e4664c7632286e06d",
+    "refreshToken": "d8668088158f38ad2be7d18a01cd085e",
     "sessionToken": "e9405836ba3ac4f80c49e07747e21485",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
