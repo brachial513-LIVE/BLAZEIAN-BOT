@@ -889,12 +889,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 138490,
+        "totalVotes": 138640,
         "totalSubs": 216,
-        "totalChatMessages": 11548,
+        "totalChatMessages": 11550,
         "totalStreamMinutes": 4337,
         "emotes": {
-          "🗳": 2220,
+          "🗳": 2223,
           "❤": 555,
           "🙌": 330,
           "🔥": 313,
@@ -1278,21 +1278,13 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792565509568,
+        "lastChatAt": 1792570081184,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 77 vote(s) (total: 154)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
-        },
         {
           "user": "fluffy",
           "msg": "Thanks soooo much @vroshi55 for votes"
@@ -1324,6 +1316,14 @@
         {
           "user": "gmc_gaara27",
           "msg": "Thank you so much for the votes! Its my second week here , i will invest in Backstage Passes and try to give something back later to all who help me at beginning. [emote:555a557b-672c-4db0-80d4-85564e0bbac4]"
+        },
+        {
+          "user": "timdraws",
+          "msg": "thanks roshi!!!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1583,7 +1583,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
       "_idAt": 1792568123248,
-      "_gameAt": 1792565367922,
+      "_gameAt": 1792570072479,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -1676,6 +1676,11 @@
           "t": 1792542850207,
           "v": "johngalt",
           "a": 1100
+        },
+        {
+          "t": 1792570078932,
+          "v": "timdraws",
+          "a": 150
         }
       ]
     },
@@ -4321,7 +4326,7 @@
           "dur": 27
         }
       },
-      "_idAt": 1792546518462,
+      "_idAt": 1792569318522,
       "_gameAt": 1792545346328,
       "isLive": false,
       "streamCategory": "",
@@ -5056,7 +5061,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792528253170,
-      "_idAt": 1792546519641,
+      "_idAt": 1792569319689,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792546320956,
@@ -5296,7 +5301,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1792546520846,
+      "_idAt": 1792569320879,
       "_gameAt": 1792441754515,
       "isLive": false,
       "streamCategory": "",
@@ -5782,7 +5787,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "West Bound south east Texas on the ICW",
       "lastStreamEndedAt": 1792423488702,
-      "_idAt": 1792546522037,
+      "_idAt": 1792569322078,
       "_gameAt": 1792548010799,
       "isLive": false,
       "streamCategory": "",
@@ -5990,7 +5995,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792546523245
+      "_idAt": 1792569323281
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -6361,7 +6366,7 @@
       "lastStreamEndedAt": 1792533440697,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792546524443,
+      "_idAt": 1792569324476,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792534528142,
@@ -6409,7 +6414,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792546525638
+      "_idAt": 1792569325678
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -6417,8 +6422,8 @@
       "stats": {
         "totalVotes": 45352,
         "totalSubs": 131,
-        "totalChatMessages": 16448,
-        "totalStreamMinutes": 9667,
+        "totalChatMessages": 16472,
+        "totalStreamMinutes": 9682,
         "emotes": {
           "❤": 283,
           "🙌": 423,
@@ -6563,7 +6568,7 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": 2,
           "391bb87b-6fa9-45dd-a026-12ff501ebd45": 71,
           "65eab4da-09a3-4eef-a32a-7a0556ecccc7": 2,
-          "d931b45c-0a09-4c75-89d6-68d82d7bc05d": 399,
+          "d931b45c-0a09-4c75-89d6-68d82d7bc05d": 400,
           "c39beee4-6a83-4894-864e-b06efa61e593": 132,
           "18c9c5a8-ceb1-461c-81ba-0c251bf77b25": 16,
           "ba9ef29a-644f-4d16-8b9f-3c6c1f49ab7f": 19,
@@ -6589,18 +6594,18 @@
           "adf505fe-5d03-4608-9daa-2e2a50630dd1": 36,
           "f3a27e59-590a-42e5-be0d-34382fba3e2e": 20,
           "141b2775-bb3d-4b28-a11f-7cd1255727de": 3,
-          "a6a97c25-ce7b-43dc-afd8-f087dfe607af": 22,
+          "a6a97c25-ce7b-43dc-afd8-f087dfe607af": 23,
           "bfdfb3dc-ce74-415b-82a1-1c2e11e997f0": 22,
           "4f681e56-34b9-478d-905d-e0d8831f3f41": 13,
           "🪫": 12,
           "4c09591c-13ae-4617-840a-55261278be2f": 7,
-          "076dbebb-5d78-43de-b562-3c57fc9ff85b": 99,
+          "076dbebb-5d78-43de-b562-3c57fc9ff85b": 101,
           "15e2ef8a-3cc0-4c24-b3fc-92142bed4186": 5,
           "4b6209dc-f967-4206-ad56-1dc619d89050": 30,
           "dba9ec14-566a-48c2-a671-9881ad5b29bb": 48,
           "09c6fdf1-fd67-42b2-9194-e9ed24e4032e": 43,
           "8a14ce49-6a6a-4257-b954-603a5e1d3bfe": 24,
-          "d6556390-726e-4fdd-aae2-fe890f9bdbf9": 17,
+          "d6556390-726e-4fdd-aae2-fe890f9bdbf9": 18,
           "64740c4f-7208-4a9d-8c2b-bd679160bb78": 23,
           "efd328d1-867a-4afa-9954-a2ddcb50cb41": 37,
           "18ec2e34-50e2-4079-961b-8aac13188d41": 12,
@@ -6610,13 +6615,13 @@
           "🎶": 12,
           "e36a7e26-f8f9-4a3c-bdb6-de59497c3463": 38,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 30,
-          "🪐": 141,
-          "👽": 141,
+          "🪐": 142,
+          "👽": 142,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 1,
           "6f01ba8a-250b-493f-9bad-596a135dea69": 47,
           "db65b092-bc1b-4fdc-965d-1ea3cee15500": 14,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 19,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 20,
           "e4d6ab94-8895-4ace-95f5-74fbd5a80c9c": 27,
           "d0203f0d-6503-4576-82d2-10bd8a2a4eea": 19,
           "7d43a957-9776-42b2-a502-30501741f53e": 41,
@@ -6635,10 +6640,10 @@
           "e8124c9d-a6dd-4913-943b-cbc529fca886": 17,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 4,
           "💯": 9,
-          "4e0b7767-702d-4685-a85b-68f2737825a0": 29,
+          "4e0b7767-702d-4685-a85b-68f2737825a0": 31,
           "📌": 3,
           "e89c92dd-34d7-4610-9830-2122e4bdf0f6": 9,
-          "308d337a-1e25-4ecd-9fc0-02d687f5b40e": 29,
+          "308d337a-1e25-4ecd-9fc0-02d687f5b40e": 30,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 1,
           "104be8ce-e4ce-44f4-a0eb-e3c9f0a6076a": 6,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 10,
@@ -6668,7 +6673,7 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 5,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 3,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
-          "d68ad830-a1ed-44f9-81e4-83f2e2785ce9": 43,
+          "d68ad830-a1ed-44f9-81e4-83f2e2785ce9": 44,
           "🥂": 4,
           "🦝": 2,
           "🌄": 1,
@@ -6685,21 +6690,21 @@
           "🎄": 2,
           "🪄": 3,
           "💕": 1,
-          "cdbff455-d67c-4e05-a3c3-84d4612b80a2": 4,
-          "3e0b4c99-8708-4be5-b920-ce57815b7035": 28,
+          "cdbff455-d67c-4e05-a3c3-84d4612b80a2": 5,
+          "3e0b4c99-8708-4be5-b920-ce57815b7035": 31,
           "c673158f-1115-44a8-8908-b9b54ff5a6dc": 6,
           "ad6afd4b-1cb4-45ea-838d-6db019813fb3": 13,
           "a0d25431-4a96-4744-bb73-0c634bf2414e": 15,
           "a97b647b-2211-491e-b316-1c0d016e8cf2": 13,
           "83e14421-1219-482e-9d6c-86acbae42522": 12,
           "271e7ba8-1aea-4f66-a974-2f6d2925ece9": 9,
-          "64918f99-4c42-47aa-acca-3cf12a598df9": 21,
+          "64918f99-4c42-47aa-acca-3cf12a598df9": 25,
           "😡": 1,
           "🐣": 1,
           "🤜": 2,
           "🤛": 2,
           "🎃": 1,
-          "c584de1c-6f22-4f61-ab57-b2232ffbd668": 4,
+          "c584de1c-6f22-4f61-ab57-b2232ffbd668": 6,
           "💓": 3,
           "🤝": 1,
           "🫴": 1,
@@ -7010,48 +7015,48 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792569269766
+        "lastChatAt": 1792570197157
       },
       "chatMemory": [
         {
-          "user": "helios",
-          "msg": "Yeah. Work sucks"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "Hahaha"
+          "user": "fartvader",
+          "msg": "ggs briggs man!"
         },
         {
           "user": "fartvader",
-          "msg": "eyyy buddy"
+          "msg": "take care briggsy! catch you again soon"
         },
         {
-          "user": "0xscheun",
-          "msg": "Too bad we don't have a choice"
+          "user": "briggsy",
+          "msg": "Have a good work day"
         },
         {
-          "user": "fartvader",
-          "msg": "haha ikr"
+          "user": "botger",
+          "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
         },
         {
           "user": "helios",
-          "msg": "Right"
+          "msg": "Catch you later @briggsy"
         },
         {
           "user": "fartvader",
-          "msg": "Warcraft Peasant: \"Ready to work\""
+          "msg": "thank you man.."
         },
         {
-          "user": "fartvader",
-          "msg": "yessir..4pm up until 1am"
+          "user": "briggsy",
+          "msg": "see ya, have fun today helios"
         },
         {
           "user": "helios",
-          "msg": "Damn"
+          "msg": "[emote:076dbebb-5d78-43de-b562-3c57fc9ff85b] [emote:076dbebb-5d78-43de-b562-3c57fc9ff85b]"
         },
         {
-          "user": "fartvader",
-          "msg": "haha much better than my previous shift.. before was like 7pm-4am"
+          "user": "briggsy",
+          "msg": "[emote:c584de1c-6f22-4f61-ab57-b2232ffbd668] [emote:c584de1c-6f22-4f61-ab57-b2232ffbd668] [emote:d68ad830-a1ed-44f9-81e4-83f2e2785ce9]"
+        },
+        {
+          "user": "briggsy",
+          "msg": "[emote:308d337a-1e25-4ecd-9fc0-02d687f5b40e] [emote:4e0b7767-702d-4685-a85b-68f2737825a0] [emote:4e0b7767-702d-4685-a85b-68f2737825a0] [emote:a6a97c25-ce7b-43dc-afd8-f087dfe607af] [emote:d6556390-726e-4fdd-aae2-fe890f9bdbf9]"
         }
       ],
       "customCommands": {},
@@ -7267,8 +7272,8 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Tuesday late night fun",
       "lastStreamEndedAt": 1792567916043,
-      "_idAt": 1792546526838,
-      "_gameAt": 1792569212325,
+      "_idAt": 1792569326881,
+      "_gameAt": 1792570178957,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -16868,7 +16873,7 @@
       "stats": {
         "totalVotes": 19755,
         "totalSubs": 33,
-        "totalChatMessages": 42891,
+        "totalChatMessages": 42924,
         "totalStreamMinutes": 22530,
         "emotes": {
           "❤": 157,
@@ -17303,40 +17308,36 @@
           "🎡": "🎡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792569131321
+        "lastChatAt": 1792570197857
       },
       "chatMemory": [
         {
           "user": "scurvybot",
-          "msg": "600 Minutos have been removed from sofrenciaplay. Reason: balance removal"
+          "msg": "34.74 Minutos have been removed from solucao. Reason: balance removal"
         },
         {
           "user": "scurvybot",
-          "msg": "@sofrenciaplay you have 90 Minutos"
+          "msg": "@sofrenciaplay, could not find user @rodrigorechi."
         },
         {
           "user": "scurvybot",
-          "msg": "@sofrenciaplay you have 90 Minutos"
+          "msg": "@sofrenciaplay, could not find user @rodrigorechi."
         },
         {
           "user": "scurvybot",
-          "msg": "@sofrenciaplay, could not find user @junior7_junior7_."
+          "msg": "12.681 Minutos have been removed from sarinhaa11. Reason: balance removal"
         },
         {
           "user": "scurvybot",
-          "msg": "304,885 Minutos have been removed from junior7_. Reason: balance removal"
+          "msg": "2.94 Minutos have been removed from brunoseven. Reason: balance removal"
         },
         {
           "user": "scurvybot",
-          "msg": "@sofrenciaplay please provide the amount and username to remove balance from. Usage: !remove [amount] [username] [optional reason]"
+          "msg": "2.08 Minutos have been removed from kwinchester. Reason: balance removal"
         },
         {
           "user": "scurvybot",
-          "msg": "@sofrenciaplay please provide the amount and username to remove balance from. Usage: !remove [amount] [username] [optional reason]"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "158,356 Minutos have been removed from lovemikami. Reason: balance removal"
+          "msg": "1.37 Minutos have been removed from abordiin. Reason: balance removal"
         },
         {
           "user": "scurvybot",
@@ -17344,7 +17345,11 @@
         },
         {
           "user": "scurvybot",
-          "msg": "122,000 Minutos have been removed from lucas93925052. Reason: balance removal"
+          "msg": "74,942 Minutos have been removed from zerinhogames. Reason: balance removal"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "34,705 Minutos have been removed from solucao. Reason: balance removal"
         }
       ],
       "customCommands": {},
@@ -17487,7 +17492,7 @@
         }
       },
       "_idAt": 1792551323241,
-      "_gameAt": 1792569081012,
+      "_gameAt": 1792570032266,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -27637,8 +27642,8 @@
     }
   },
   "auth": {
-    "accessToken": "8df2bc994be0ae934d37cfa2dcf9a6ea",
-    "refreshToken": "dcdb958dafbb2c432283d347abcb1709",
+    "accessToken": "de277eb3b21d2e7293f77d9e3fc1c26f",
+    "refreshToken": "c35adf531e7f7479ec752bb51bfde6c6",
     "sessionToken": "e9405836ba3ac4f80c49e07747e21485",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
