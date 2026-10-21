@@ -12425,8 +12425,8 @@
       "stats": {
         "totalVotes": 7975,
         "totalSubs": 39,
-        "totalChatMessages": 1051,
-        "totalStreamMinutes": 3016,
+        "totalChatMessages": 1055,
+        "totalStreamMinutes": 3019,
         "emotes": {
           "❤": 51,
           "🙌": 57,
@@ -12534,25 +12534,9 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792561390274
+        "lastChatAt": 1792561532513
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Whaa?"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "obs just crashesd"
-        },
-        {
-          "user": "briggsy",
-          "msg": "okok"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "no idea why"
-        },
         {
           "user": "briggsy",
           "msg": "Why ask why"
@@ -12576,6 +12560,22 @@
         {
           "user": "briggsy",
           "msg": "Man, there's just so many games"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "yeah, very fun game back then"
+        },
+        {
+          "user": "briggsy",
+          "msg": "oh ok, cool."
+        },
+        {
+          "user": "briggsy",
+          "msg": "It's fun to be able to play old games that we used to play"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Man, your stream is still buffering from time to time"
         }
       ],
       "customCommands": {},
@@ -12691,7 +12691,7 @@
       "_idAt": 1792550125640,
       "streamCategory": "Crash Team Racing",
       "isLive": true,
-      "_gameAt": 1792561252065,
+      "_gameAt": 1792561454570,
       "voteLog": [
         {
           "t": 1792429891238,
@@ -27616,8 +27616,8 @@
     }
   },
   "auth": {
-    "accessToken": "39e889f9b50353c828268ef2f4e86574",
-    "refreshToken": "2aa3e0437f9939086254325eef078b26",
+    "accessToken": "e5217310d8e5b863e3548827bfe770c9",
+    "refreshToken": "a6a7c5a8277561559d9ef801f8d38668",
     "sessionToken": "e9405836ba3ac4f80c49e07747e21485",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
