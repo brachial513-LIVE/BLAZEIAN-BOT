@@ -889,7 +889,7 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 138640,
+        "totalVotes": 138740,
         "totalSubs": 216,
         "totalChatMessages": 11550,
         "totalStreamMinutes": 4337,
@@ -1681,6 +1681,11 @@
           "t": 1792570078932,
           "v": "timdraws",
           "a": 150
+        },
+        {
+          "t": 1792580734950,
+          "v": "parky",
+          "a": 100
         }
       ]
     },
@@ -3669,8 +3674,8 @@
       "stats": {
         "totalVotes": 30221,
         "totalSubs": 113,
-        "totalChatMessages": 9294,
-        "totalStreamMinutes": 27857,
+        "totalChatMessages": 9297,
+        "totalStreamMinutes": 27862,
         "emotes": {
           "❤": 249,
           "🙌": 210,
@@ -4045,22 +4050,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792580501479,
+        "lastChatAt": 1792580999218,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "[emote:f8273a7b-043a-417f-8a85-39b5fc7aacc4] [emote:f8273a7b-043a-417f-8a85-39b5fc7aacc4] [emote:f8273a7b-043a-417f-8a85-39b5fc7aacc4]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "gm gm! how are you doing?"
-        },
-        {
-          "user": "fartvader",
-          "msg": "am at work shift rn haha..but just chilling"
-        },
         {
           "user": "fartvader",
           "msg": "of course [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2]"
@@ -4088,6 +4081,18 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "avisi",
+          "msg": "GG"
+        },
+        {
+          "user": "avisi",
+          "msg": "ready ready"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ready .. lets do it"
         }
       ],
       "customCommands": {
@@ -4327,7 +4332,7 @@
         }
       },
       "_idAt": 1792569318522,
-      "_gameAt": 1792580501425,
+      "_gameAt": 1792580821875,
       "isLive": true,
       "streamCategory": "Fortnite",
       "voteLog": [
@@ -6423,7 +6428,7 @@
         "totalVotes": 45377,
         "totalSubs": 131,
         "totalChatMessages": 16475,
-        "totalStreamMinutes": 9857,
+        "totalStreamMinutes": 9862,
         "emotes": {
           "❤": 283,
           "🙌": 424,
@@ -14450,7 +14455,7 @@
         "totalVotes": 11187,
         "totalSubs": 74,
         "totalChatMessages": 607,
-        "totalStreamMinutes": 9827,
+        "totalStreamMinutes": 9832,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -26302,8 +26307,8 @@
     },
     "dany_kaizo": {
       "note": "Dany_kaizo streams video games, often laughing at glitches, memes, teleportation jokes, and pop‑culture references like Garfield.",
-      "at": 1791948109284,
-      "n": 5
+      "at": 1792580840479,
+      "n": 6
     },
     "lucas93925052": {
       "note": "Lucas greets warmly, jokes with “kkkkkk,” loves Resident E 4, Mario 64, balloon games, PS1 camera quirks, and often calls friends by nickname",
@@ -27681,8 +27686,8 @@
     }
   },
   "auth": {
-    "accessToken": "0a5605126be686468acc664afd45673e",
-    "refreshToken": "0de9f972bad5c62ffc23701f899584fe",
+    "accessToken": "4072531678dcf91cd8fe1a1f1761ee29",
+    "refreshToken": "f7aee34e0c44a1ce46ed75f4fe731f94",
     "sessionToken": "e9405836ba3ac4f80c49e07747e21485",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
