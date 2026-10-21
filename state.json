@@ -1700,22 +1700,22 @@
       "stats": {
         "totalVotes": 35671,
         "totalSubs": 90,
-        "totalChatMessages": 45916,
+        "totalChatMessages": 46089,
         "totalStreamMinutes": 4165,
         "emotes": {
           "🔥": 2247,
           "🗳": 33,
           "🔴": 56,
-          "🎉": 419,
+          "🎉": 422,
           "😍": 141,
           "❤": 66,
           "🚢": 24,
-          "⏰": 2082,
+          "⏰": 2102,
           "🔜": 1288,
           "💀": 951,
           "😘": 3,
-          "🏆": 278,
-          "🎊": 257,
+          "🏆": 283,
+          "🎊": 260,
           "🎰": 45,
           "😰": 216,
           "🍌": 587,
@@ -1724,13 +1724,13 @@
           "✅": 1126,
           "🎲": 139,
           "😤": 1,
-          "🌉": 36,
-          "💨": 249,
-          "💥": 541,
+          "🌉": 40,
+          "💨": 255,
+          "💥": 565,
           "📴": 55,
           "👋": 65,
           "😢": 2,
-          "⚠": 31,
+          "⚠": 32,
           "🎯": 2,
           "👿": 1,
           "😂": 631,
@@ -1757,7 +1757,7 @@
           "👍": 3,
           "🥔": 2100,
           "🔄": 384,
-          "🤖": 240,
+          "🤖": 243,
           "😏": 85,
           "❌": 27,
           "🙃": 13,
@@ -2042,7 +2042,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792608017360,
+        "lastChatAt": 1792609019298,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2051,44 +2051,44 @@
       },
       "chatMemory": [
         {
-          "user": "jt_squared2",
-          "msg": "r"
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 You already joined!"
         },
         {
-          "user": "jt_squared2",
-          "msg": "r"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "l"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "r"
+          "user": "botger",
+          "msg": "(Handled by bot — joins the channel and confirms in chat)"
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 discovered a new pane! Earned a push charge. 💨"
+          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
         },
         {
           "user": "blazegames_bot",
-          "msg": "💥 @jt_squared2 fell through the glass! Respawning..."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "r"
+          "msg": "@jt_squared2 Can only add bots before the game starts!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "💥 @jt_squared2 fell through the glass! Respawning..."
+          "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
         },
         {
           "user": "blazegames_bot",
-          "msg": "@jt_squared2 You are falling! Wait to respawn."
+          "msg": "⏰ Game starting in 10 seconds!"
         },
         {
-          "user": "jt_squared2",
-          "msg": "r"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
         }
       ],
       "customCommands": {},
@@ -2099,7 +2099,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
       "streamTitle": "",
       "profile": "jt_squared2’s squad thrives on “love fest” vibes, dropping “Holi Holiii Holiiii” and 🙌🙌🙌 when gameplay gets “hood.” Treadmill Time streams run “make me run” marathons, with “24h stream” hype and “sub’in you for so long” chants. The community celebrates nonstop cheers, “gg sip,” “ggs,” “TAG ME PLEASE,” and constant gratitude for hosting games and “games this.”",
-      "_profileAtCount": 45420,
+      "_profileAtCount": 46044,
       "loyalty": {
         "tigresa": {
           "name": "tigresa",
@@ -2340,7 +2340,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792590924470,
-      "_gameAt": 1792607863945,
+      "_gameAt": 1792608929192,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -2438,7 +2438,7 @@
         "totalVotes": 46359,
         "totalSubs": 286,
         "totalChatMessages": 14813,
-        "totalStreamMinutes": 35459,
+        "totalStreamMinutes": 35479,
         "emotes": {
           "📊": 3,
           "🔥": 637,
@@ -4437,12 +4437,12 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 56289,
+        "totalVotes": 56309,
         "totalSubs": 100,
-        "totalChatMessages": 20680,
-        "totalStreamMinutes": 12439,
+        "totalChatMessages": 20700,
+        "totalStreamMinutes": 12459,
         "emotes": {
-          "❤": 7657,
+          "❤": 7663,
           "🎵": 758,
           "💃": 324,
           "🔥": 1718,
@@ -4463,7 +4463,7 @@
           "💕": 37,
           "😁": 96,
           "😆": 32,
-          "🐝": 1466,
+          "🐝": 1473,
           "🥷": 4,
           "😃": 4,
           "💪": 46,
@@ -4484,7 +4484,7 @@
           "💜": 336,
           "🧔": 1,
           "🤺": 6,
-          "🥳": 94,
+          "🥳": 97,
           "💀": 1,
           "🤗": 112,
           "🤠": 1,
@@ -4901,7 +4901,7 @@
           "🌙": "🌙",
           "😛": "😛"
         },
-        "lastChatAt": 1792608017181,
+        "lastChatAt": 1792609157940,
         "sendFailStreak": 575,
         "lastSendFailAt": 1792601981103,
         "lastSendFailReason": "You are banned from this channel.",
@@ -4912,43 +4912,43 @@
       "chatMemory": [
         {
           "user": "bee12",
-          "msg": "🙏🙏🙏"
-        },
-        {
-          "user": "generalkev",
-          "msg": "in typical British style I bought myself a new chunky knit cardigan today! Haha treated myself"
+          "msg": "funk sol  b ships?"
         },
         {
           "user": "bee12",
-          "msg": "Love a knitted cardiiiiiiii!❤️🐝❤️"
+          "msg": "fine"
         },
         {
-          "user": "weri",
-          "msg": "Geeeepeeeetiiiiii is crazy"
-        },
-        {
-          "user": "weri",
-          "msg": "Darn camakazi pilots"
-        },
-        {
-          "user": "generalkev",
-          "msg": "as long as we can see a list of thingies that thingie then im good with that"
-        },
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
-        {
-          "user": "weri",
-          "msg": "Brb"
+          "user": "bee12",
+          "msg": "awww, smileeeeeeee"
         },
         {
           "user": "bee12",
           "msg": "❤️🐝❤️"
         },
         {
-          "user": "rob_osp",
-          "msg": "@bee12 — thanks for the 20 votes! 🗳️ Every vote helps."
+          "user": "bee12",
+          "msg": "niceeeeeeeeee"
+        },
+        {
+          "user": "weri",
+          "msg": "Weri weri nice"
+        },
+        {
+          "user": "generalkev",
+          "msg": "just to confirm the FORGING of NFTs is working very well. ive just forged 5 SHIELDING NFTs to create 1 x RARE SHIELDING NFT"
+        },
+        {
+          "user": "generalkev",
+          "msg": "flawless"
+        },
+        {
+          "user": "generalkev",
+          "msg": "yes, im waiting until i have 6 of a specific nft before forging so it leaves at least 1 common of that type"
+        },
+        {
+          "user": "generalkev",
+          "msg": "there's hints of the Titanic Theme tune in this track"
         }
       ],
       "customCommands": {},
@@ -5094,7 +5094,7 @@
       "_idAt": 1792591638432,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1792607995346,
+      "_gameAt": 1792608993234,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -5278,6 +5278,11 @@
         },
         {
           "t": 1792608016738,
+          "v": "bee12",
+          "a": 20
+        },
+        {
+          "t": 1792608046542,
           "v": "bee12",
           "a": 20
         }
@@ -6473,7 +6478,7 @@
         "totalVotes": 45527,
         "totalSubs": 131,
         "totalChatMessages": 16477,
-        "totalStreamMinutes": 10312,
+        "totalStreamMinutes": 10332,
         "emotes": {
           "❤": 285,
           "🙌": 425,
@@ -9142,7 +9147,7 @@
         "totalVotes": 1313,
         "totalSubs": 10,
         "totalChatMessages": 535,
-        "totalStreamMinutes": 1154,
+        "totalStreamMinutes": 1155,
         "emotes": {
           "🎶": 1,
           "😀": 1,
@@ -9279,7 +9284,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/e2392a5a-55fb-44e7-8516-fbc156fc26c6.png",
-      "streamTitle": "",
+      "streamTitle": "Waiting for Zelda - OOT I Hyrule Warriors",
       "gameOverride": "",
       "lastStreamInfo": "Hyrule Warriors",
       "lastStreamEndedAt": 1792579959041,
@@ -9340,9 +9345,9 @@
           "tier": 1
         }
       },
-      "_gameAt": 1792577617758,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1792609118142,
+      "isLive": true,
+      "streamCategory": "Hyrule Warriors",
       "voteLog": [
         {
           "t": 1792429891251,
@@ -9377,8 +9382,8 @@
       "stats": {
         "totalVotes": 24478,
         "totalSubs": 60,
-        "totalChatMessages": 4616,
-        "totalStreamMinutes": 5329,
+        "totalChatMessages": 4648,
+        "totalStreamMinutes": 5349,
         "emotes": {
           "❤": 57,
           "🙌": 115,
@@ -9409,7 +9414,7 @@
           "🥰": 17,
           "♟": 4,
           "🫶": 3,
-          "😘": 2,
+          "😘": 3,
           "😄": 20,
           "😆": 5,
           "🫂": 3,
@@ -9425,7 +9430,7 @@
           "🫡": 1,
           "💖": 3,
           "👍": 13,
-          "😀": 2,
+          "😀": 3,
           "🙏": 9,
           "✌": 11,
           "☺": 1,
@@ -9440,7 +9445,7 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 1,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 10,
           "💗": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 46,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 48,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 11,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 10,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 5,
@@ -9624,48 +9629,48 @@
           "😜": "😜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792608015856
+        "lastChatAt": 1792609164842
       },
       "chatMemory": [
         {
-          "user": "ssssssss",
-          "msg": "Taam"
+          "user": "agent00zani",
+          "msg": "i am going to call DB my lovey from now on"
         },
         {
-          "user": "ssssssss",
-          "msg": "Yes meam"
-        },
-        {
-          "user": "ssssssss",
-          "msg": "Şimdi oldu"
+          "user": "soulflux",
+          "msg": "Öptüm bebisim biseyler okuyayim biraz 😘"
         },
         {
           "user": "botger",
-          "msg": "https://salvor.io/collections/0x4ffb0924d999bc2015f69f58f403ceadfc16963d"
+          "msg": "https://www.youtube.com/@Time.Art.Studio"
         },
         {
-          "user": "ssssssss",
-          "msg": "Aha satıldı"
+          "user": "agent00zani",
+          "msg": "orange"
         },
         {
-          "user": "ssssssss",
-          "msg": "😜"
+          "user": "time",
+          "msg": "where is orange"
         },
         {
-          "user": "ssssssss",
-          "msg": "Sorry"
+          "user": "agent00zani",
+          "msg": "inside ear white"
         },
         {
-          "user": "ssssssss",
-          "msg": "Adhsks"
+          "user": "agent00zani",
+          "msg": "same colour as hair"
         },
         {
-          "user": "ssssssss",
-          "msg": "Gördüm de gelmedim kalabalıktı"
+          "user": "time",
+          "msg": "do you want moustache"
         },
         {
-          "user": "ssssssss",
-          "msg": "X de yazmış geleyim dedim geri gittim"
+          "user": "botger",
+          "msg": "https://objkt.com/users/tz1StXgeDD2qxKUznhNAwM8raNTkvQs7XJFG/created"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "sea blue"
         }
       ],
       "customCommands": {},
@@ -9752,7 +9757,7 @@
       "lastStreamInfo": "Digital Drawing",
       "lastStreamEndedAt": 1792340969648,
       "_idAt": 1792594518496,
-      "_gameAt": 1792607961276,
+      "_gameAt": 1792609021418,
       "isLive": true,
       "streamCategory": "Art",
       "voteLog": [
@@ -11775,7 +11780,7 @@
         "totalVotes": 12461,
         "totalSubs": 211,
         "totalChatMessages": 523,
-        "totalStreamMinutes": 17381,
+        "totalStreamMinutes": 17382,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -11894,7 +11899,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
-      "streamTitle": "",
+      "streamTitle": "1 SUB = 30 MIN MORE // 100 VOTE = 30 MIN MORE",
       "gameOverride": "",
       "profile": "saboomafoo streams energetic League of Legends & MapleStory collabs, pumping “FOXSPIRITS” vibes. Chat loves “have a nice stream”, “GM GM GUYS”, “NEKOOOOOOOOOO”, “hellow”, “❤️❤️❤️❤️❤️”, and playful “😅😅”. Community celebrates with quick shoutouts, a warm “ty” response, constant upbeat greetings, and constant positivity. The channel thrives on friendly, energetic banter and constant positivity.",
       "_profileAtCount": 516,
@@ -11980,9 +11985,9 @@
         }
       },
       "_idAt": 1792594526863,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792525120727,
+      "streamCategory": "Crypto",
+      "isLive": true,
+      "_gameAt": 1792609116001,
       "voteLog": [
         {
           "t": 1792429891429,
@@ -12234,7 +12239,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 90,
-        "totalStreamMinutes": 13151,
+        "totalStreamMinutes": 13158,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -12319,7 +12324,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1f090e45-3a71-44b8-9333-05e12b2c0f2d.png",
-      "streamTitle": "",
+      "streamTitle": "SUBIENDO DE NIVEL CON EL CLÉRIGO ✨",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0,
@@ -12333,9 +12338,9 @@
         }
       },
       "_idAt": 1792595719691,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792590121214
+      "streamCategory": "Aion 2",
+      "isLive": true,
+      "_gameAt": 1792608777035
     },
     "30a3c675-be0d-4014-831f-6051350ffbf0": {
       "username": "tester",
@@ -25832,7 +25837,7 @@
         "totalVotes": 1261,
         "totalSubs": 1,
         "totalChatMessages": 733,
-        "totalStreamMinutes": 2995,
+        "totalStreamMinutes": 3015,
         "emotes": {
           "❤": 20,
           "🙌": 11,
