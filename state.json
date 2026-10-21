@@ -1685,7 +1685,7 @@
       "stats": {
         "totalVotes": 35171,
         "totalSubs": 84,
-        "totalChatMessages": 44850,
+        "totalChatMessages": 44861,
         "totalStreamMinutes": 3990,
         "emotes": {
           "🔥": 2247,
@@ -2027,7 +2027,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792556711246,
+        "lastChatAt": 1792557160391,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2035,26 +2035,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 controls BraveGamer39! Throwing at 135° with 60% power! 🍌"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "45 55"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 controls CleverMaster16! Throwing at 45° with 55% power! 🍌"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "💀 BraveGamer39 has been eliminated! 1 player remaining."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "🏆 WINNER: CleverMaster16! 🎉 Survived 9 rounds! Congratulations! 🎊"
-        },
         {
           "user": "blazegames_bot",
           "msg": "Only the channel owner can use that command."
@@ -2074,6 +2054,26 @@
         {
           "user": "blazegames_bot",
           "msg": "Lottery opened: cgLottery. Each tip earns 1 entry per whole $1 of BLAZE."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Seed added. cgLottery prize pool: 5000.00 BLAZE ($2.51)"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Reserve: 39098.25 BLAZE ($19.62)"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Reserved for open pools and unpaid prizes: 5000.00 BLAZE ($2.51). Maintain at least this amount in the wallet."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Usage: !simulateTip  [USD amount, default 1]"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "[TEST TIP - no funds received] @Bob: +4 entries (4 total) | cgLottery prize pool: 12174.17 BLAZE ($6.11). Test entries can win; pool/reserve includes simulated funds."
         }
       ],
       "customCommands": {},
@@ -2325,7 +2325,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792545324446,
-      "_gameAt": 1792556646214,
+      "_gameAt": 1792557117283,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -3045,7 +3045,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "GTA 5 ONLINE HALLOWEEN 🎃 🏝️🔥 CASINO GAMES 🎰",
       "profile": "crypt0k1ng96: OTG casino nights, “BLAZE THE DAY” vibes, “SLAY DRAGONS”, “LOVE FEST” moments, wheelspins, giveaways, interactive blackjack, “RAID” cheers. Play till sleep, celebrate with free casino games, giveaways, “Keep your chin up!” energy. Loves off‑grid AVAX summit vibes, packed emotes, OTG crypto fun, weekend enjoyment. Keep your chin up!",
       "_profileAtCount": 14805,
       "gameOverride": "",
@@ -3215,9 +3215,9 @@
         "sound": true,
         "confetti": true
       },
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792537024726,
+      "streamCategory": "Grand Theft Auto V",
+      "isLive": true,
+      "_gameAt": 1792557907642,
       "voteLog": [
         {
           "t": 1792429891148,
@@ -7530,16 +7530,16 @@
       "stats": {
         "totalVotes": 46255,
         "totalSubs": 87,
-        "totalChatMessages": 9644,
-        "totalStreamMinutes": 16597,
+        "totalChatMessages": 9646,
+        "totalStreamMinutes": 16610,
         "emotes": {
           "❤": 170,
           "🙌": 220,
           "🗳": 951,
           "🔴": 98,
           "🎉": 167,
-          "📴": 96,
-          "👋": 110,
+          "📴": 97,
+          "👋": 111,
           "🔥": 265,
           "💪": 6,
           "🤖": 1,
@@ -7942,18 +7942,10 @@
           "🧂": "🧂",
           "🚂": "🚂"
         },
-        "lastChatAt": 1792556098295,
+        "lastChatAt": 1792557508161,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "thanks VAder, see ya later"
-        },
-        {
-          "user": "fartvader",
-          "msg": "cyaaa [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
-        },
         {
           "user": "badger",
           "msg": "have fun with cr33pling @fartvader"
@@ -7985,6 +7977,14 @@
         {
           "user": "briggsy",
           "msg": "762WBX"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -7993,7 +7993,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "🐢Squirtle week day 2🐢❤️Starfall Tuesday! ❤️",
+      "streamTitle": "",
       "profile": "Chill gaming crew on nadietv, loving WoW, Stumble Guys, Path of Exile 2, Dota, retro oldies. “Blazeee” vibes, “Will be relax day” shenanigans, spontaneous “VOTE ALERT!!” shoutouts, “hard reset” moments, and celebratory “hard reset” waves. The channel thrives on spontaneous “VOTE ALERT!!” shoutouts, “hard reset” resets, and “Will be relax day” chill streams, always ending with a celebratory “hard reset.",
       "_profileAtCount": 9637,
       "gameOverride": "",
@@ -8169,8 +8169,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "🐢Squirtle week🐢❤️Dota Monday! ❤️",
-      "lastStreamEndedAt": 1792464515803,
+      "lastStreamInfo": "🐢Squirtle week day 2🐢❤️Starfall Tuesday! ❤️",
+      "lastStreamEndedAt": 1792557502988,
       "_idAt": 1792547720838,
       "mascotMsgs": [
         "Don't forget to Subscribe!",
@@ -8180,9 +8180,9 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1792556037926,
-      "isLive": true,
-      "streamCategory": "Stumble Guys",
+      "_gameAt": 1792557503470,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891059,
@@ -18760,7 +18760,7 @@
         "totalVotes": 3267,
         "totalSubs": 5,
         "totalChatMessages": 121,
-        "totalStreamMinutes": 5412,
+        "totalStreamMinutes": 5432,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -22274,7 +22274,7 @@
         "totalVotes": 11138,
         "totalSubs": 38,
         "totalChatMessages": 4984,
-        "totalStreamMinutes": 16542,
+        "totalStreamMinutes": 16562,
         "emotes": {
           "👋": 117,
           "⚠": 2,
@@ -23977,7 +23977,7 @@
       "_profileAtCount": 285,
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
-      "_idAt": 1792534522046,
+      "_idAt": 1792557322048,
       "_gameAt": 1792269601216,
       "isLive": false,
       "streamCategory": ""
@@ -24172,7 +24172,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792534523236,
+      "_idAt": 1792557323258,
       "_gameAt": 1792257951239,
       "isLive": false,
       "streamCategory": ""
@@ -24239,7 +24239,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f64a634d-8908-45cf-8143-8a641931b8c8.png",
       "followed": true,
       "botVip": true,
-      "_idAt": 1792534524440
+      "_idAt": 1792557324460
     },
     "a8d36ae2-d8e9-4f53-a27d-55c1506a9fbc": {
       "username": "reddeadrasta",
@@ -25329,7 +25329,7 @@
       "lastStreamInfo": "🔨 THE HAMMER RETURNS | OTG Chaos + Gaming Gala Grind | Road to Verified — Off The Grid",
       "lastStreamEndedAt": 1792119451535,
       "gameOverride": "",
-      "_idAt": 1792534525638,
+      "_idAt": 1792557325648,
       "nudgedAt": 1792092388182,
       "nudgedKey": "schedule"
     },
@@ -25427,7 +25427,7 @@
       "gameOverride": "",
       "profile": "mafaz streams action‑packed gameplay, welcoming every new Blazeian with “welcome” and “thanks.” The chat buzzes with “woot,” “happy streaming buddd,” and “enjoy the game broski!” Fans celebrate mafaz by cheering “blazeee” and using the custom emote. The vibe is energetic, friendly, and supportive—every viewer feels part of the Blazeiancrew.",
       "_profileAtCount": 15,
-      "_idAt": 1792534526843
+      "_idAt": 1792557326846
     },
     "fba94794-c563-4d68-8aec-152f85eba0e1": {
       "username": "hubal",
@@ -25529,7 +25529,7 @@
       "lastStreamInfo": "The First Berserker: Khazan - PART 11    |    𐢚𐢅𐢓𐢍𐢀 𐢃𐢛𐢖𐢛𐢏𐢛 𐢊𐢉𐢁𐢔 𐢘𐢛𐢞 𐢭𐢧",
       "lastStreamEndedAt": 1792538843035,
       "gameOverride": "",
-      "_idAt": 1792534518463,
+      "_idAt": 1792557318470,
       "_gameAt": 1792520989616,
       "isLive": false,
       "streamCategory": ""
@@ -25564,7 +25564,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1792534519644,
+      "_idAt": 1792557319647,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5283cee-6005-4782-92fe-13419fd64684.png",
       "followed": true,
       "botVip": true
@@ -25876,7 +25876,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792534520882,
+      "_idAt": 1792557320860,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d3b7be98-81af-4b8d-adeb-af8e99088a0b.png",
       "streamTitle": "",
       "lastStreamInfo": "🌙 Cozy Chaos in a Broken World | Once Human",
@@ -26344,9 +26344,9 @@
       "n": 21
     },
     "nekoschwan": {
-      "note": "Enjoys late‑night Minecraft zombie survival, MIR4, and Aion, chats in playful Filipino‑English with light‑hearted humor.",
-      "at": 1792416529343,
-      "n": 52
+      "note": "Enjoys late‑night Minecraft zombie survival, MIR4, and Aion, and chats in playful Filipino‑English with light‑hearted humor.",
+      "at": 1792557740296,
+      "n": 53
     },
     "venom2610": {
       "note": "They appear to be a casual gamer who enjoys jumping and running games, has a sense of humor, often using sarcasm and playful teasing.",
