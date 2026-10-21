@@ -1685,7 +1685,7 @@
       "stats": {
         "totalVotes": 35171,
         "totalSubs": 84,
-        "totalChatMessages": 44840,
+        "totalChatMessages": 44842,
         "totalStreamMinutes": 3990,
         "emotes": {
           "🔥": 2247,
@@ -2027,7 +2027,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792526522409,
+        "lastChatAt": 1792556218262,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2035,10 +2035,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 controls SwiftWarrior13! Throwing at 45° with 70% power! 🍌"
-        },
         {
           "user": "jt_squared2",
           "msg": "135 73"
@@ -2074,6 +2070,10 @@
         {
           "user": "blazegames_bot",
           "msg": "🏆 WINNER: CleverMaster16! 🎉 Survived 9 rounds! Congratulations! 🎊"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Only the channel owner can use that command."
         }
       ],
       "customCommands": {},
@@ -2325,7 +2325,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792545324446,
-      "_gameAt": 1792526345944,
+      "_gameAt": 1792556217986,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -7530,8 +7530,8 @@
       "stats": {
         "totalVotes": 46255,
         "totalSubs": 87,
-        "totalChatMessages": 9640,
-        "totalStreamMinutes": 16572,
+        "totalChatMessages": 9644,
+        "totalStreamMinutes": 16592,
         "emotes": {
           "❤": 170,
           "🙌": 220,
@@ -7942,26 +7942,10 @@
           "🧂": "🧂",
           "🚂": "🚂"
         },
-        "lastChatAt": 1792554268837,
+        "lastChatAt": 1792556098295,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "badger",
-          "msg": "hey Farty!!"
-        },
-        {
-          "user": "badger",
-          "msg": "@fartvader you gonna play Stumble Guys with us?"
-        },
-        {
-          "user": "fartvader",
-          "msg": "oh sorry guys i cant rn, my buddy cr33pling invited me to play a game.."
-        },
-        {
-          "user": "fartvader",
-          "msg": "ome other time i'll surely join..you guys enjoy ! [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
         {
           "user": "briggsy",
           "msg": "thanks VAder, see ya later"
@@ -7985,6 +7969,22 @@
         {
           "user": "jt_squared2",
           "msg": "I was third across the finish line"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "wrapping something up for CG and then heading to bed. Was good playing with ya"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Hey fun times JT"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Thanks for all the help JT"
+        },
+        {
+          "user": "briggsy",
+          "msg": "762WBX"
         }
       ],
       "customCommands": {},
@@ -8180,7 +8180,7 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1792554268937,
+      "_gameAt": 1792556037926,
       "isLive": true,
       "streamCategory": "Stumble Guys",
       "voteLog": [
@@ -18760,7 +18760,7 @@
         "totalVotes": 3267,
         "totalSubs": 5,
         "totalChatMessages": 121,
-        "totalStreamMinutes": 5387,
+        "totalStreamMinutes": 5407,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -22273,8 +22273,8 @@
       "stats": {
         "totalVotes": 11138,
         "totalSubs": 38,
-        "totalChatMessages": 4978,
-        "totalStreamMinutes": 16517,
+        "totalChatMessages": 4984,
+        "totalStreamMinutes": 16537,
         "emotes": {
           "👋": 117,
           "⚠": 2,
@@ -22470,21 +22470,9 @@
           "🚂": "🚂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792555157810
+        "lastChatAt": 1792556128526
       },
       "chatMemory": [
-        {
-          "user": "botshit",
-          "msg": "Welcome INN. Watch your step."
-        },
-        {
-          "user": "inn",
-          "msg": "https://discord.gg/cEkJyyK"
-        },
-        {
-          "user": "inn",
-          "msg": ":rotating_light: I just made a game… and I might get banned for it :joy: Try it while you can and lmk what you think!\n\n:point_right: Join the platform: https://w.run/r/QQMY2WYE\n:video_game: Then play my game: https://run.world/inn\n\nDrop it a like if you enjoy the chaos :rofl:"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -22512,6 +22500,18 @@
         {
           "user": "senseibulrog",
           "msg": "was flawless today, 6 games, 30 stars"
+        },
+        {
+          "user": "inn",
+          "msg": "https://beta.neonbeastrpg.com/?code=NB-U78S-ZXJ7"
+        },
+        {
+          "user": "botshit",
+          "msg": "Bear necessities: snacks, naps, and questionable bathroom decisions."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Let's take a moment to follow @senseibulrog at https://blaze.stream/senseibulrog!"
         }
       ],
       "customCommands": {
@@ -22638,7 +22638,7 @@
         }
       },
       "_idAt": 1792554924441,
-      "_gameAt": 1792555146295,
+      "_gameAt": 1792556127590,
       "isLive": true,
       "streamCategory": "Just Chatting",
       "voteLog": [
@@ -23357,7 +23357,7 @@
         "totalVotes": 2027,
         "totalSubs": 6,
         "totalChatMessages": 171,
-        "totalStreamMinutes": 8054,
+        "totalStreamMinutes": 8072,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -23465,9 +23465,9 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b8df0d5-7384-4091-822d-d487a593365f.gif",
-      "streamTitle": "BibleTIme and more 10/20/2026 New Schedule!",
-      "lastStreamInfo": "BibleTIme and more 10/19/2026 New Schedule",
-      "lastStreamEndedAt": 1792467874879,
+      "streamTitle": "",
+      "lastStreamInfo": "BibleTIme and more 10/20/2026 New Schedule!",
+      "lastStreamEndedAt": 1792556277440,
       "gameOverride": "",
       "profile": "tcwarrioretp’s channel is a high‑energy Division 2 hub where “BLAZE ON!” echoes, “Support the word and the mission” fuels the vibe, and “!SO8” tags light up the stream. Viewers drop votes, shout “goat noises,” and celebrate grind stories with “BLAZE ON!” cheers. The community thrives on shared grind, fighting‑game love, and relentless “hard to play and read at the same time.”",
       "_profileAtCount": 138,
@@ -23491,8 +23491,8 @@
         }
       },
       "_idAt": 1792554925637,
-      "streamCategory": "IRL",
-      "isLive": true,
+      "streamCategory": "",
+      "isLive": false,
       "_gameAt": 1792549487005
     },
     "4b8bfb4c-982c-4710-8864-97fa5ba066ef": {
@@ -23679,7 +23679,7 @@
       "lastStreamInfo": "JUMP SPACE | W/ ATE @nekoschwan, KUYA @FartVader, And KUYA @cr33pling — Games + Demos",
       "lastStreamEndedAt": 1790097954170,
       "gameOverride": "",
-      "_idAt": 1792533318457,
+      "_idAt": 1792556118465,
       "loyalty": {
         "noodles": {
           "name": "noodles",
@@ -23805,7 +23805,7 @@
       "lastStreamEndedAt": 1790496719480,
       "profile": "zeenlive’s stream is a nonstop, high‑energy hangout where “gm gm bro” greets the chat and “NEW FOLLOWER!!” erupts with every new join. The community thrives on quick emote bursts, playful banter, and a constant stream of “❤️” and “🙌” celebrations. The channel loves being praised with enthusiastic shoutouts, keeping the vibe lively and inclusive.",
       "_profileAtCount": 44,
-      "_idAt": 1792533319643
+      "_idAt": 1792556119670
     },
     "ab735c59-eeea-4fe7-acf5-d0a4c112e646": {
       "username": "destinoprospero",
@@ -24081,7 +24081,7 @@
       "gameOverride": "",
       "profile": "starmouse307319 streams energetic, community‑first gameplay, shouting “Welcome everyone!” and “Thanks for watching!” to celebrate viewers. The chat loves quick “follow” prompts, “Let’s take a moment to follow” links, and playful banter. Recurring slang includes “hi welcome how are you?” and “nice to hear that”. The vibe is friendly, inclusive, and always encouraging new followers.",
       "_profileAtCount": 86,
-      "_idAt": 1792533320838
+      "_idAt": 1792556120840
     },
     "b9633d43-f55f-4bb2-825e-92c0c1422e87": {
       "username": "precidobos",
@@ -24511,7 +24511,7 @@
       "gameOverride": "",
       "profile": "corneto streams arcana maps, farming ammo for MoG at level 225+ with a crew that loves “yow @alliveall” and “LD incoming soon 😂😂”. The chat thrives on quick “ggsssssssssssss” and “🔥🔥🔥” reactions, celebrates votes with “🗳️ VOTE ALERT!!”, and celebrates followers with “❤️ NEW FOLLOWER!! ❤️”. The vibe is fast‑paced, playful, and always ready for the next LD.",
       "_profileAtCount": 74,
-      "_idAt": 1792533322047,
+      "_idAt": 1792556122037,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792248239742,
@@ -24818,7 +24818,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792533323238
+      "_idAt": 1792556123238
     },
     "157ed26e-c72f-49c1-877b-5101b0645fb6": {
       "username": "cem",
@@ -24930,7 +24930,7 @@
       "lastStreamInfo": "burada yeniyim !discord !settings — VALORANT",
       "lastStreamEndedAt": 1789668309772,
       "gameOverride": "",
-      "_idAt": 1792533324444
+      "_idAt": 1792556124446
     },
     "642cd761-2515-4c48-9c17-ae2e29e692e8": {
       "username": "thatsicy_",
@@ -25065,7 +25065,7 @@
       "lastStreamEndedAt": 1792208657405,
       "nudgedAt": 1790123384716,
       "nudgedKey": "schedule",
-      "_idAt": 1792533325647,
+      "_idAt": 1792556125657,
       "loyalty": {
         "desirablebottom": {
           "name": "desirablebottom",
@@ -25165,7 +25165,7 @@
       "_profileAtCount": 35,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792533326835
+      "_idAt": 1792556126840
     },
     "8f59e982-1482-4327-86d9-ae96b063edc4": {
       "username": "hortenseemu44",
@@ -26999,9 +26999,9 @@
       "n": 6
     },
     "inn": {
-      "note": "Enjoy casual games like Valheim and Fadedmonsuta, loves fishing, shares playful emojis, jokes about giveaways, and often mentions pineapple and polka.",
-      "at": 1792367029274,
-      "n": 19
+      "note": "Enjoy casual games like Valheim and Fadedmonsuta, loves fishing, jokes with playful emojis, mentions pineapple and polka, and shares links to crypto arcade and Discord invites.",
+      "at": 1792556420429,
+      "n": 20
     },
     "switchback": {
       "note": "Enjoy upbeat music, marathon playlists, playful greetings, and classic first‑person shooters like Unreal Tournament.",
