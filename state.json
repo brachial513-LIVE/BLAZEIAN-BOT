@@ -6420,14 +6420,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 45352,
+        "totalVotes": 45377,
         "totalSubs": 131,
-        "totalChatMessages": 16474,
-        "totalStreamMinutes": 9703,
+        "totalChatMessages": 16475,
+        "totalStreamMinutes": 9723,
         "emotes": {
           "❤": 283,
           "🙌": 424,
-          "🗳": 1928,
+          "🗳": 1931,
           "✌": 12,
           "😊": 11,
           "👍": 20,
@@ -7015,13 +7015,9 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792570329462
+        "lastChatAt": 1792571976865
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Have a good work day"
-        },
         {
           "user": "botger",
           "msg": "🪐 Welcome to the BriggsyZone - Do not adjust your set, you are now in the Zone 👽"
@@ -7057,6 +7053,10 @@
         {
           "user": "botger",
           "msg": "Appreciate your time.  Cheers and catchya next time. 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Anej56 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7066,7 +7066,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "Tuesday late night fun",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "briggsy’s channel is a lively, supportive hub where “Epoch Flip Day” and “Farlight 84” shenanigans reign. The community loves art, dance with “💃💃💃”, off‑the‑grid vibes, chess, IRL streams, and celebrates with “🥰🥰🥰”, “it’s good”, “Always if I’m here, it’s my pleasure”, “u want it”, “Fartvader” jokes, and “heeeeeyaaaa” greetings. They thrive on “Reds” and “BLAZE DEFI” buzz.",
       "_profileAtCount": 16286,
@@ -7270,12 +7270,12 @@
       },
       "nudgedAt": 1785051188620,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "Tuesday late night fun",
+      "lastStreamInfo": "IRL",
       "lastStreamEndedAt": 1792567916043,
       "_idAt": 1792569326881,
-      "_gameAt": 1792570178957,
-      "isLive": true,
-      "streamCategory": "IRL",
+      "_gameAt": 1792571976940,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792423991026,
@@ -7361,6 +7361,11 @@
           "t": 1792565258165,
           "v": "gmc_gaara27",
           "a": 2
+        },
+        {
+          "t": 1792571974567,
+          "v": "anej56",
+          "a": 25
         }
       ]
     },
@@ -9227,7 +9232,7 @@
       "_profileAtCount": 527,
       "nudgedAt": 1790523497708,
       "nudgedKey": "schedule",
-      "_idAt": 1792548919638,
+      "_idAt": 1792571719658,
       "loyalty": {
         "brachial513": {
           "name": "brachial513",
@@ -9689,7 +9694,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Digital Drawing",
       "lastStreamEndedAt": 1792340969648,
-      "_idAt": 1792548918473,
+      "_idAt": 1792571718475,
       "_gameAt": 1792452636354,
       "isLive": false,
       "streamCategory": "",
@@ -10024,7 +10029,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Dark Gothic Rock Album: H20SIX | Midnight Circus",
       "lastStreamEndedAt": 1792268936835,
-      "_idAt": 1792548920846,
+      "_idAt": 1792571720860,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792523979543,
@@ -10266,7 +10271,7 @@
       },
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
-      "_idAt": 1792548922047,
+      "_idAt": 1792571722051,
       "_gameAt": 1792517917795,
       "isLive": false,
       "streamCategory": "",
@@ -10530,7 +10535,7 @@
       "lastStreamEndedAt": 1792365216005,
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule",
-      "_idAt": 1792548923240,
+      "_idAt": 1792571723255,
       "_gameAt": 1792373092680,
       "isLive": false,
       "streamCategory": "",
@@ -11198,7 +11203,7 @@
       "lastStreamEndedAt": 1792530368718,
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
-      "_idAt": 1792548924440,
+      "_idAt": 1792571724551,
       "_gameAt": 1792529636795,
       "isLive": false,
       "streamCategory": "",
@@ -11629,7 +11634,7 @@
         "sound": true,
         "confetti": true
       },
-      "_idAt": 1792548925642,
+      "_idAt": 1792571725650,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792550129160,
@@ -11907,7 +11912,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792548926836,
+      "_idAt": 1792571726849,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792525120727,
@@ -16873,7 +16878,7 @@
       "stats": {
         "totalVotes": 19755,
         "totalSubs": 33,
-        "totalChatMessages": 42948,
+        "totalChatMessages": 42958,
         "totalStreamMinutes": 22530,
         "emotes": {
           "❤": 157,
@@ -16882,7 +16887,7 @@
           "🔥": 69,
           "🔴": 127,
           "🎉": 301,
-          "🪙": 1076,
+          "🪙": 1077,
           "⚡": 891,
           "👀": 112,
           "🍿": 22,
@@ -17308,25 +17313,9 @@
           "🎡": "🎡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792571376306
+        "lastChatAt": 1792571995484
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@sofrenciaplay please provide the amount and username to remove balance from. Usage: !remove [amount] [username] [optional reason]"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "2,937 Minutos have been removed from brunoseven. Reason: balance removal"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "2.077 Minutos have been removed from kwinchester. Reason: balance removal"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Error: Cannot remove 2,077 Minutos from kwinchester. Current balance: 2,075.84 Minutos"
-        },
         {
           "user": "scurvybot",
           "msg": "2,075 Minutos have been removed from kwinchester. Reason: balance removal"
@@ -17350,6 +17339,22 @@
         {
           "user": "botger",
           "msg": "⚡ sofrenciaplay: Level 4 | 6,052 XP (1,390 to Level 5)"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "90 Minutos have been removed from sofrenciaplay. Reason: balance removal"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@sofrenciaplay you have 0 Minutos"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @sofrenciaplay 27,600 points."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@sofrenciaplay you have 0 Minutos"
         }
       ],
       "customCommands": {},
@@ -17492,7 +17497,7 @@
         }
       },
       "_idAt": 1792551323241,
-      "_gameAt": 1792571346031,
+      "_gameAt": 1792571975853,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
