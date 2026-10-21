@@ -3689,8 +3689,8 @@
       "stats": {
         "totalVotes": 30236,
         "totalSubs": 116,
-        "totalChatMessages": 9379,
-        "totalStreamMinutes": 28225,
+        "totalChatMessages": 9380,
+        "totalStreamMinutes": 28245,
         "emotes": {
           "❤": 251,
           "🙌": 214,
@@ -3698,7 +3698,7 @@
           "📴": 233,
           "👋": 263,
           "🔴": 229,
-          "🎉": 360,
+          "🎉": 361,
           "🏆": 25,
           "🤗": 42,
           "💎": 7,
@@ -3708,7 +3708,7 @@
           "😘": 33,
           "🥺": 13,
           "🥷": 16,
-          "🚨": 762,
+          "🚨": 768,
           "🩵": 2,
           "🐰": 1,
           "🫶": 61,
@@ -4065,14 +4065,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792617232939,
+        "lastChatAt": 1792618989892,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @time is raiding with a party of 6! Welcome raiders!! 🎉"
-        },
         {
           "user": "time",
           "msg": "good bye"
@@ -4108,6 +4104,10 @@
         {
           "user": "botger",
           "msg": "What time is it? It's @time time!!!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @Zer0Cache is raiding with a party of 3! Welcome raiders!! 🎉"
         }
       ],
       "customCommands": {
@@ -4352,7 +4352,7 @@
         }
       },
       "_idAt": 1792612703746,
-      "_gameAt": 1792617232815,
+      "_gameAt": 1792618989989,
       "isLive": true,
       "streamCategory": "Fortnite",
       "voteLog": [
@@ -6070,15 +6070,15 @@
       "stats": {
         "totalVotes": 15276,
         "totalSubs": 59,
-        "totalChatMessages": 2371,
-        "totalStreamMinutes": 13030,
+        "totalChatMessages": 2372,
+        "totalStreamMinutes": 13046,
         "emotes": {
           "✨": 50,
           "🖥": 24,
           "🔥": 218,
           "👋": 132,
-          "🎬": 127,
-          "❤": 169,
+          "🎬": 128,
+          "❤": 170,
           "🚨": 10,
           "⚡": 27,
           "🏆": 23,
@@ -6306,14 +6306,10 @@
           "🤗": "🤗",
           "😄": "😄"
         },
-        "lastChatAt": 1792617897582,
+        "lastChatAt": 1792619035572,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! OTG. Drop a greeting in chat! 👋"
-        },
         {
           "user": "agent00zani",
           "msg": "just a lurking"
@@ -6349,6 +6345,10 @@
         {
           "user": "time",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -6357,7 +6357,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "OTG",
+      "streamTitle": "",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. Relentless energy, camaraderie, and the thrill of dropping in to new adventures keep the community buzzing.",
       "_profileAtCount": 2341,
       "loyalty": {
@@ -6430,13 +6430,13 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
       "lastStreamInfo": "OTG",
-      "lastStreamEndedAt": 1792533440697,
+      "lastStreamEndedAt": 1792619035043,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
       "_idAt": 1792612706246,
-      "streamCategory": "Off The Grid",
-      "isLive": true,
-      "_gameAt": 1792617897718,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792619035669,
       "voteLog": [
         {
           "t": 1792429891268,
@@ -17058,10 +17058,10 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 19761,
+        "totalVotes": 19772,
         "totalSubs": 33,
-        "totalChatMessages": 43358,
-        "totalStreamMinutes": 22595,
+        "totalChatMessages": 43437,
+        "totalStreamMinutes": 22615,
         "emotes": {
           "❤": 159,
           "🙌": 131,
@@ -17070,13 +17070,13 @@
           "🔴": 128,
           "🎉": 302,
           "🪙": 1088,
-          "⚡": 917,
+          "⚡": 919,
           "👀": 113,
           "🍿": 23,
           "🤗": 75,
           "😊": 12,
           "🌻": 5,
-          "🗳": 618,
+          "🗳": 621,
           "☺": 58,
           "😎": 2,
           "😁": 3,
@@ -17166,7 +17166,7 @@
           "🪡": 1,
           "🐗": 1,
           "🍨": 1,
-          "c44b7281-c442-4e6d-84ee-9d65261c0ee8": 22,
+          "c44b7281-c442-4e6d-84ee-9d65261c0ee8": 23,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 2,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 37,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 12,
@@ -17245,7 +17245,7 @@
           "🥺": 2,
           "🥈": 108,
           "🥉": 108,
-          "⭐": 324,
+          "⭐": 326,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 10,
           "✊": 2,
           "✋": 2,
@@ -17495,48 +17495,48 @@
           "🎡": "🎡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792618039753
+        "lastChatAt": 1792619266043
       },
       "chatMemory": [
         {
-          "user": "lucas93925052",
-          "msg": "Kkkkkkkkk"
+          "user": "lipeman",
+          "msg": "tudo causa dano nele"
         },
         {
-          "user": "lovemikami",
-          "msg": "Dança Especial: Pressionando o botão de ataque especial com a barra de energia cheia, Michael faz todos os inimigos da tela pararem e dançarem com ele, destruindo-os em seguida."
+          "user": "lipeman",
+          "msg": "mds"
         },
         {
-          "user": "botger",
-          "msg": "⭐️Tem 4.000 blaze na loja pra resgatar com seus pontos, vai ficar disponível por 1 semana se ninguém resgatar reseta na próxima semana, 30.000 pontos resgata 400 blaze"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "Segure o botão A por alguns segundos, solte o botão A quando ele estiver girando"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "Aeeee"
-        },
-        {
-          "user": "mauhzera",
+          "user": "lipeman",
           "msg": "kkkkkkk"
         },
         {
-          "user": "mauhzera",
-          "msg": "Gastou uma garapa de vida"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "kkkkkkkk"
+          "user": "lipeman",
+          "msg": "kkkkkkkkkkkkk"
         },
         {
           "user": "lipeman",
-          "msg": "Kaizo"
+          "msg": "muita onda"
         },
         {
           "user": "lipeman",
-          "msg": "Kkkkk"
+          "msg": "parece que custa 50% da vida"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "kkkkkkkkkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "é isso mesmo"
+        },
+        {
+          "user": "lucas93925052",
+          "msg": "Tela do clipe"
+        },
+        {
+          "user": "lipeman",
+          "msg": "tem que ter mais de 50% de vida pra usar"
         }
       ],
       "customCommands": {},
@@ -17679,7 +17679,7 @@
         }
       },
       "_idAt": 1792612723747,
-      "_gameAt": 1792617935097,
+      "_gameAt": 1792619144641,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -17762,6 +17762,11 @@
           "t": 1792616462975,
           "v": "poderosotv",
           "a": 1
+        },
+        {
+          "t": 1792618723178,
+          "v": "lucas93925052",
+          "a": 11
         }
       ]
     },
@@ -18994,7 +18999,7 @@
         "totalVotes": 3267,
         "totalSubs": 5,
         "totalChatMessages": 121,
-        "totalStreamMinutes": 5498,
+        "totalStreamMinutes": 5518,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -25894,7 +25899,7 @@
       "stats": {
         "totalVotes": 1261,
         "totalSubs": 2,
-        "totalChatMessages": 758,
+        "totalChatMessages": 760,
         "totalStreamMinutes": 3072,
         "emotes": {
           "❤": 20,
@@ -25969,17 +25974,9 @@
           "d91d6cab-aff1-455e-9795-aa5a31e90c61": "Wpinksb99"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792617187971
+        "lastChatAt": 1792619098721
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎉 Desirablebottom just reached Level 11! ⚡ (32,180 XP)"
-        },
-        {
-          "user": "botger",
-          "msg": "if you are lurking type !!lurk and it will triggered a lurk message"
-        },
         {
           "user": "botger",
           "msg": "follow me on the following socials on https://www.linktr.ee/SilverBolt99"
@@ -26011,6 +26008,14 @@
         {
           "user": "botger",
           "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "Stream Has Ended See you All Next time on the Next Episode"
         }
       ],
       "customCommands": {},
@@ -26033,10 +26038,10 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/72e62f22-bfda-4fb8-b073-3f8c1ebc5201.png",
       "greeted": true,
       "profile": "silverbolt99’s channel is a high‑energy, community‑first hub where “welcome to the BLazeianCrew!” opens every stream and “NEW FOLLOWER!! ❤️” echoes with each new join. Weekly Sunday giveaways promise up to 1000 votes, celebrated with “Thanks for the X votes” chants. Lurkers are praised, donations appreciated, and the club hype (“⚡Friends, if you haven’t joined the Club…”) keeps the vibe playful, supportive, and always hype‑ready.",
-      "_profileAtCount": 689,
-      "streamTitle": "SBEp147 Mustard Network〽️/ Amplified guns Goop Grind and more",
-      "lastStreamInfo": "SBEp146 Mustard Network〽️/ Frozen Trail update pandola pass new map and more",
-      "lastStreamEndedAt": 1792443400242,
+      "_profileAtCount": 758,
+      "streamTitle": "",
+      "lastStreamInfo": "SBEp147 Mustard Network〽️/ Amplified guns Goop Grind and more",
+      "lastStreamEndedAt": 1792619093557,
       "gameOverride": "",
       "loyalty": {
         "jasroranox": {
@@ -26050,9 +26055,9 @@
           "tier": 1
         }
       },
-      "_gameAt": 1792617188068,
-      "isLive": true,
-      "streamCategory": "ARC Raiders",
+      "_gameAt": 1792619094037,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891380,
