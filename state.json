@@ -1700,13 +1700,13 @@
       "stats": {
         "totalVotes": 35371,
         "totalSubs": 84,
-        "totalChatMessages": 44861,
-        "totalStreamMinutes": 3990,
+        "totalChatMessages": 44894,
+        "totalStreamMinutes": 4008,
         "emotes": {
           "🔥": 2247,
           "🗳": 33,
-          "🔴": 55,
-          "🎉": 412,
+          "🔴": 56,
+          "🎉": 414,
           "😍": 141,
           "❤": 66,
           "🚢": 24,
@@ -1718,7 +1718,7 @@
           "🎊": 252,
           "🎰": 45,
           "😰": 216,
-          "🍌": 445,
+          "🍌": 447,
           "🧟": 25,
           "💣": 211,
           "✅": 1126,
@@ -1737,7 +1737,7 @@
           "😅": 12,
           "✈": 5,
           "🔧": 1,
-          "⚡": 112,
+          "⚡": 113,
           "📊": 3,
           "💃": 1,
           "💛": 11,
@@ -2042,7 +2042,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792557160391,
+        "lastChatAt": 1792596918916,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2051,44 +2051,44 @@
       },
       "chatMemory": [
         {
-          "user": "blazegames_bot",
-          "msg": "Only the channel owner can use that command."
+          "user": "cg777",
+          "msg": "Maybe add \"Each $1 tipped = 1 ticket'"
+        },
+        {
+          "user": "nuggetbot",
+          "msg": "Enjoying the stream? Hit follow so you know when I go live!"
+        },
+        {
+          "user": "botger",
+          "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
+        },
+        {
+          "user": "cg777",
+          "msg": "Thanks again man. time for food then back to stream"
         },
         {
           "user": "blazegames_bot",
-          "msg": "Usage: !createLottery"
+          "msg": "🍌 Gorillas starting in 30 seconds! Throw bananas at rival gorillas! Type !join to play!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "No open lottery. Owner: !createLottery"
+          "msg": "🍌 Gorillas starting in 30 seconds! Throw bananas at rival gorillas! Type !join to play!"
         },
         {
           "user": "blazegames_bot",
-          "msg": "Usage: !createLottery"
+          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
         },
         {
           "user": "blazegames_bot",
-          "msg": "Lottery opened: cgLottery. Each tip earns 1 entry per whole $1 of BLAZE."
+          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
         },
         {
-          "user": "blazegames_bot",
-          "msg": "Seed added. cgLottery prize pool: 5000.00 BLAZE ($2.51)"
+          "user": "botger",
+          "msg": "(Handled by bot — joins the channel and confirms in chat)"
         },
         {
-          "user": "blazegames_bot",
-          "msg": "Reserve: 39098.25 BLAZE ($19.62)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "Reserved for open pools and unpaid prizes: 5000.00 BLAZE ($2.51). Maintain at least this amount in the wallet."
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "Usage: !simulateTip  [USD amount, default 1]"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "[TEST TIP - no funds received] @Bob: +4 entries (4 total) | cgLottery prize pool: 12174.17 BLAZE ($6.11). Test entries can win; pool/reserve includes simulated funds."
+          "user": "jt_squared2",
+          "msg": "30"
         }
       ],
       "customCommands": {},
@@ -2097,7 +2097,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
-      "streamTitle": "",
+      "streamTitle": "Blaze Game Devving",
       "profile": "jt_squared2’s squad thrives on “love fest” vibes, dropping “Holi Holiii Holiiii” and 🙌🙌🙌 when gameplay gets “hood.” Treadmill Time streams run “make me run” marathons, with “24h stream” hype and “sub’in you for so long” chants. The community celebrates nonstop cheers, “gg sip,” “ggs,” “TAG ME PLEASE,” and constant gratitude for hosting games and “games this.”",
       "_profileAtCount": 44840,
       "loyalty": {
@@ -2340,9 +2340,9 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792590924470,
-      "_gameAt": 1792557117283,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1792596911793,
+      "isLive": true,
+      "streamCategory": "IRL",
       "voteLog": [
         {
           "t": 1792426545217,
@@ -6443,7 +6443,7 @@
         "totalVotes": 45527,
         "totalSubs": 131,
         "totalChatMessages": 16477,
-        "totalStreamMinutes": 10107,
+        "totalStreamMinutes": 10127,
         "emotes": {
           "❤": 285,
           "🙌": 425,
@@ -12372,7 +12372,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792572920981
+      "_idAt": 1792595720881
     },
     "66d1447b-e098-49e7-af14-5c922d822d84": {
       "username": "omererkmen",
@@ -12459,7 +12459,7 @@
       "gameOverride": "",
       "profile": "o mererkmen streams chill “Just talking” sessions, often IRL, with the community humming “Come hang out and watch.” The chat loves the signature emote 9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2 and the phrase “My iPhone overheated ending…”. Followers celebrate by cheering “Thanks for watching” and “Stream is now live” alerts, keeping the vibe relaxed and supportive.",
       "_profileAtCount": 40,
-      "_idAt": 1792572922048,
+      "_idAt": 1792595722082,
       "nudgedAt": 1791616183720,
       "nudgedKey": "schedule",
       "_gameAt": 1792373321263,
@@ -12735,7 +12735,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792572925649,
+      "_idAt": 1792595725661,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792588243533,
@@ -13932,7 +13932,7 @@
       },
       "lastStreamInfo": "Indie Spooky Game! Say Hi?!",
       "lastStreamEndedAt": 1792591587415,
-      "_idAt": 1792572926847,
+      "_idAt": 1792595726886,
       "_gameAt": 1792591592694,
       "isLive": false,
       "streamCategory": "",
@@ -14392,7 +14392,7 @@
       "commentMode": "low",
       "lastStreamInfo": "Streamish #123 - Ori and the Will of the Wisps",
       "lastStreamEndedAt": 1792529775162,
-      "_idAt": 1792572923253,
+      "_idAt": 1792595723278,
       "_gameAt": 1792547832361,
       "isLive": false,
       "streamCategory": "",
@@ -14719,7 +14719,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792572924449,
+      "_idAt": 1792595724468,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792587548894,
@@ -16387,13 +16387,13 @@
       "stats": {
         "totalVotes": 11031,
         "totalSubs": 63,
-        "totalChatMessages": 2914,
-        "totalStreamMinutes": 7305,
+        "totalChatMessages": 2916,
+        "totalStreamMinutes": 7317,
         "emotes": {
           "❤": 120,
           "🙌": 108,
-          "📴": 60,
-          "👋": 63,
+          "📴": 61,
+          "👋": 64,
           "🎁": 52,
           "🗳": 276,
           "⚠": 1,
@@ -16606,17 +16606,9 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792593835880
+        "lastChatAt": 1792596485228
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "I appreciate it bud"
-        },
-        {
-          "user": "angge_wf",
-          "msg": "[emote:141bc466-e466-4b40-b421-87bad304c744]"
-        },
         {
           "user": "angge_wf",
           "msg": "[emote:2056e09a-aaf9-4064-b293-7eefa319cbf3]"
@@ -16648,6 +16640,14 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @jeffstv at https://blaze.stream/jeffstv!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -16659,7 +16659,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -16667,7 +16667,7 @@
       "nudgedAt": 1785164605243,
       "nudgedKey": "schedule",
       "lastStreamInfo": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
-      "lastStreamEndedAt": 1792345425017,
+      "lastStreamEndedAt": 1792596479987,
       "loyalty": {
         "angge_wf": {
           "name": "angge_wf",
@@ -16806,9 +16806,9 @@
         }
       },
       "_idAt": 1792574122053,
-      "_gameAt": 1792593830745,
-      "isLive": true,
-      "streamCategory": "Music",
+      "_gameAt": 1792596480505,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891310,
@@ -16944,7 +16944,7 @@
       "stats": {
         "totalVotes": 19755,
         "totalSubs": 33,
-        "totalChatMessages": 42965,
+        "totalChatMessages": 42971,
         "totalStreamMinutes": 22530,
         "emotes": {
           "❤": 159,
@@ -16954,7 +16954,7 @@
           "🔴": 127,
           "🎉": 301,
           "🪙": 1077,
-          "⚡": 891,
+          "⚡": 893,
           "👀": 112,
           "🍿": 22,
           "🤗": 73,
@@ -17379,25 +17379,9 @@
           "🎡": "🎡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792594712541
+        "lastChatAt": 1792596145827
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@sofrenciaplay you have 90 Minutos"
-        },
-        {
-          "user": "botger",
-          "msg": "⚡ sofrenciaplay: Level 4 | 6,052 XP (1,390 to Level 5)"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "90 Minutos have been removed from sofrenciaplay. Reason: balance removal"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@sofrenciaplay you have 0 Minutos"
-        },
         {
           "user": "botger",
           "msg": "🪙 @sofrenciaplay 27,600 points."
@@ -17421,6 +17405,22 @@
         {
           "user": "poderosobot",
           "msg": "Ainda não há espectadores com pontos no ranking."
+        },
+        {
+          "user": "botger",
+          "msg": "⚡ sofrenciaplay: Level 4 | 6,132 XP (1,310 to Level 5)"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "salve"
+        },
+        {
+          "user": "sofrenciaplay",
+          "msg": "galera"
+        },
+        {
+          "user": "botger",
+          "msg": "⚡ sofrenciaplay: Level 4 | 6,162 XP (1,280 to Level 5)"
         }
       ],
       "customCommands": {},
@@ -17563,7 +17563,7 @@
         }
       },
       "_idAt": 1792574123255,
-      "_gameAt": 1792594710726,
+      "_gameAt": 1792596113106,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -17890,7 +17890,7 @@
       },
       "lastStreamInfo": "OTG",
       "lastStreamEndedAt": 1792535549406,
-      "_idAt": 1792574118517,
+      "_idAt": 1792596919133,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792590229293,
@@ -18798,7 +18798,7 @@
         }
       },
       "commentMode": "silent",
-      "_idAt": 1792574119659,
+      "_idAt": 1792596919996,
       "_gameAt": 1792523979273,
       "isLive": false,
       "streamCategory": "",
@@ -20672,8 +20672,8 @@
       "stats": {
         "totalVotes": 33207,
         "totalSubs": 131,
-        "totalChatMessages": 7631,
-        "totalStreamMinutes": 13834,
+        "totalChatMessages": 7637,
+        "totalStreamMinutes": 13854,
         "emotes": {
           "😅": 8,
           "🔥": 318,
@@ -20927,7 +20927,7 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792595515903,
+        "lastChatAt": 1792596513909,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -20935,30 +20935,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "gm gm bro!"
-        },
-        {
-          "user": "fartvader",
-          "msg": "avisi gm bro!"
-        },
-        {
-          "user": "avisi",
-          "msg": "GM! drifting around the streams while working"
-        },
-        {
-          "user": "fartvader",
-          "msg": "Thank you Tim bro for sharing the game with us"
-        },
-        {
-          "user": "fartvader",
-          "msg": "all the best on your work bro!"
-        },
-        {
-          "user": "fartvader",
-          "msg": "[emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f]"
-        },
         {
           "user": "avisi",
           "msg": "appreciate you and have fun!"
@@ -20974,6 +20950,30 @@
         {
           "user": "lvl4goblin",
           "msg": "co op mystery dungeon? that's a pretty wild fan game"
+        },
+        {
+          "user": "fartvader",
+          "msg": "a coop bullet heaven game..like vampire survivors"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "eyyy broskiiiii"
+        },
+        {
+          "user": "fartvader",
+          "msg": "ey wassup bro...come on"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "is this legendary bro?"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "haha"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "HAHAHA"
         }
       ],
       "customCommands": {},
@@ -21235,7 +21235,7 @@
         "entries": []
       },
       "_idAt": 1792575318567,
-      "_gameAt": 1792595516041,
+      "_gameAt": 1792596514021,
       "isLive": true,
       "streamCategory": "Games + Demos",
       "voteLog": [
@@ -21988,10 +21988,10 @@
       "language": "en",
       "joinedAt": 1786592864058,
       "stats": {
-        "totalVotes": 6491,
+        "totalVotes": 6501,
         "totalSubs": 33,
-        "totalChatMessages": 1686,
-        "totalStreamMinutes": 8380,
+        "totalChatMessages": 1692,
+        "totalStreamMinutes": 8400,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -22029,7 +22029,7 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": 7,
           "60967948-8805-42ef-a202-051d2e2f1557": 7,
           "🙌": 1,
-          "fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb": 188,
+          "fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb": 193,
           "c3726a5d-38e3-4b44-b06f-ad1cc637e041": 348,
           "✌": 1,
           "👍": 1,
@@ -22113,33 +22113,9 @@
           "👌": "👌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792592938828
+        "lastChatAt": 1792596214484
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "[emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "ggs bros"
-        },
-        {
-          "user": "fartvader",
-          "msg": "lets play again tomorrow"
-        },
-        {
-          "user": "baxang",
-          "msg": "[emote:f6a00ee4-bc40-4d8f-8879-c122ad069225] [emote:f6a00ee4-bc40-4d8f-8879-c122ad069225]"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "hi"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "Feel free to join my mini raffle!"
-        },
         {
           "user": "fartvader",
           "msg": "[emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052]"
@@ -22155,6 +22131,30 @@
         {
           "user": "lights_out",
           "msg": "[Lights Out] @FartVader Your quest: go /touchgrass — do it in a stream with the park background. (/quit drops it)"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb]"
+        },
+        {
+          "user": "lights_out",
+          "msg": "[Lights Out] @cr33pling Your quest: go /touchgrass — do it in a stream with the park background. (/quit drops it)"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "1 lucky whinner"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "wiener"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "this pokemon bro, is slow right"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "wait bro"
         }
       ],
       "customCommands": {},
@@ -22270,7 +22270,7 @@
       "_idAt": 1792575643416,
       "streamCategory": "Steam",
       "isLive": true,
-      "_gameAt": 1792592933844,
+      "_gameAt": 1792596077379,
       "voteLog": [
         {
           "t": 1792429891447,
@@ -22296,6 +22296,11 @@
           "t": 1792580027292,
           "v": "fartvader",
           "a": 50
+        },
+        {
+          "t": 1792596089976,
+          "v": "cr33pling",
+          "a": 10
         }
       ]
     },
@@ -23725,8 +23730,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 22,
-        "totalStreamMinutes": 223,
+        "totalChatMessages": 25,
+        "totalStreamMinutes": 243,
         "emotes": {
           "❤": 10,
           "🙌": 6,
@@ -23737,7 +23742,8 @@
           "👋": 2,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 4,
           "🔥": 2,
-          "cbc8300b-64ea-4bc2-9d00-9caf2bfff141": 8
+          "cbc8300b-64ea-4bc2-9d00-9caf2bfff141": 8,
+          "9764c7bd-e942-45d8-8836-6e77d942ca68": 4
         },
         "emoteNames": {
           "❤": "❤",
@@ -23749,24 +23755,13 @@
           "👋": "👋",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
           "🔥": "🔥",
-          "cbc8300b-64ea-4bc2-9d00-9caf2bfff141": "Fighting"
+          "cbc8300b-64ea-4bc2-9d00-9caf2bfff141": "Fighting",
+          "9764c7bd-e942-45d8-8836-6e77d942ca68": "SAD"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792592926276
+        "lastChatAt": 1792596188038
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "no way u have that items hahaha"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "OP"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ Potato_Pete just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "potato_pete",
           "msg": "ayeee"
@@ -23794,6 +23789,18 @@
         {
           "user": "fartvader",
           "msg": "[emote:5908a9f8-af12-4431-9925-9fc24005a3ba] [emote:5908a9f8-af12-4431-9925-9fc24005a3ba] [emote:5908a9f8-af12-4431-9925-9fc24005a3ba]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "[emote:9764c7bd-e942-45d8-8836-6e77d942ca68] [emote:9764c7bd-e942-45d8-8836-6e77d942ca68] [emote:9764c7bd-e942-45d8-8836-6e77d942ca68] [emote:9764c7bd-e942-45d8-8836-6e77d942ca68]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "OP bro, its too fast"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "GG"
         }
       ],
       "customCommands": {},
@@ -23805,7 +23812,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/cb4c5af8-69dc-4194-a78e-ed790ae6354b.png",
-      "streamTitle": "PUBG | W/ KUYA @FartVader, KUYA @cr33pling, And KUYA @JaggerJack",
+      "streamTitle": "POKESURVIVOR | W/ KUYA @FartVader, And KUYA @JaggerJack",
       "lastStreamInfo": "JUMP SPACE | W/ ATE @nekoschwan, KUYA @FartVader, And KUYA @cr33pling — Games + Demos",
       "lastStreamEndedAt": 1790097954170,
       "gameOverride": "",
@@ -23817,9 +23824,9 @@
           "tier": 1
         }
       },
-      "streamCategory": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+      "streamCategory": "Games + Demos",
       "isLive": true,
-      "_gameAt": 1792592811070
+      "_gameAt": 1792596175195
     },
     "fe359364-dfd5-43f2-b962-fce5fa2fb10c": {
       "username": "zeenlive",
