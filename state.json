@@ -12425,16 +12425,16 @@
       "stats": {
         "totalVotes": 7975,
         "totalSubs": 39,
-        "totalChatMessages": 1037,
-        "totalStreamMinutes": 2986,
+        "totalChatMessages": 1039,
+        "totalStreamMinutes": 2998,
         "emotes": {
           "❤": 51,
           "🙌": 57,
           "🗳": 309,
-          "🔴": 61,
-          "🎉": 64,
-          "📴": 59,
-          "👋": 61,
+          "🔴": 62,
+          "🎉": 65,
+          "📴": 60,
+          "👋": 62,
           "🎁": 36,
           "🤝": 1,
           "🔥": 40,
@@ -12534,17 +12534,9 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792559076357
+        "lastChatAt": 1792559975839
       },
       "chatMemory": [
-        {
-          "user": "0xscheun",
-          "msg": "gracias"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ lvl4goblin just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "0xscheun",
           "msg": "thanks for the follow"
@@ -12576,6 +12568,14 @@
         {
           "user": "botger",
           "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -12595,7 +12595,7 @@
       "nudgedAt": 1785078532098,
       "nudgedKey": "schedule",
       "lastStreamInfo": "CHESS",
-      "lastStreamEndedAt": 1792453817377,
+      "lastStreamEndedAt": 1792559945438,
       "loyalty": {
         "anej56": {
           "name": "anej56",
@@ -12691,7 +12691,7 @@
       "_idAt": 1792550125640,
       "streamCategory": "Chess",
       "isLive": true,
-      "_gameAt": 1792559076282,
+      "_gameAt": 1792559975754,
       "voteLog": [
         {
           "t": 1792429891238,
@@ -27616,8 +27616,8 @@
     }
   },
   "auth": {
-    "accessToken": "6a41479260c03e30cb1b8876f54c0c79",
-    "refreshToken": "7d6939a4492ac863834527943090b428",
+    "accessToken": "39e889f9b50353c828268ef2f4e86574",
+    "refreshToken": "2aa3e0437f9939086254325eef078b26",
     "sessionToken": "e9405836ba3ac4f80c49e07747e21485",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
