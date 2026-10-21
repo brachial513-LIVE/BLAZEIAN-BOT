@@ -1685,7 +1685,7 @@
       "stats": {
         "totalVotes": 35171,
         "totalSubs": 84,
-        "totalChatMessages": 44842,
+        "totalChatMessages": 44850,
         "totalStreamMinutes": 3990,
         "emotes": {
           "🔥": 2247,
@@ -2027,7 +2027,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792556218262,
+        "lastChatAt": 1792556711246,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2035,22 +2035,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "135 73"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@jt_squared2 controls CleverMaster16! Throwing at 135° with 73% power! 🍌"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "💀 SwiftWarrior13 has been eliminated! 2 players remaining."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "135 60"
-        },
         {
           "user": "blazegames_bot",
           "msg": "@jt_squared2 controls BraveGamer39! Throwing at 135° with 60% power! 🍌"
@@ -2074,6 +2058,22 @@
         {
           "user": "blazegames_bot",
           "msg": "Only the channel owner can use that command."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Usage: !createLottery"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "No open lottery. Owner: !createLottery"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Usage: !createLottery"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Lottery opened: cgLottery. Each tip earns 1 entry per whole $1 of BLAZE."
         }
       ],
       "customCommands": {},
@@ -2325,7 +2325,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792545324446,
-      "_gameAt": 1792556217986,
+      "_gameAt": 1792556646214,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -7531,7 +7531,7 @@
         "totalVotes": 46255,
         "totalSubs": 87,
         "totalChatMessages": 9644,
-        "totalStreamMinutes": 16592,
+        "totalStreamMinutes": 16597,
         "emotes": {
           "❤": 170,
           "🙌": 220,
@@ -18760,7 +18760,7 @@
         "totalVotes": 3267,
         "totalSubs": 5,
         "totalChatMessages": 121,
-        "totalStreamMinutes": 5407,
+        "totalStreamMinutes": 5412,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -22274,7 +22274,7 @@
         "totalVotes": 11138,
         "totalSubs": 38,
         "totalChatMessages": 4984,
-        "totalStreamMinutes": 16537,
+        "totalStreamMinutes": 16542,
         "emotes": {
           "👋": 117,
           "⚠": 2,
@@ -27606,8 +27606,8 @@
     }
   },
   "auth": {
-    "accessToken": "88fabaa04ccc1d6fa8c4214c20b1ddc7",
-    "refreshToken": "fc806ff5395c8cf815e3a65ccdb1b314",
+    "accessToken": "3a7ed706f193d88854ac0ad0322e7366",
+    "refreshToken": "756fa2a967868d509ef36a87d70ef0e8",
     "sessionToken": "e9405836ba3ac4f80c49e07747e21485",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
