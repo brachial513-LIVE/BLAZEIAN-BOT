@@ -3674,8 +3674,8 @@
       "stats": {
         "totalVotes": 30221,
         "totalSubs": 113,
-        "totalChatMessages": 9313,
-        "totalStreamMinutes": 27907,
+        "totalChatMessages": 9315,
+        "totalStreamMinutes": 27927,
         "emotes": {
           "❤": 249,
           "🙌": 210,
@@ -3768,7 +3768,7 @@
           "🎸": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 38,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 74,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 199,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 202,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 96,
           "b05156cf-7925-4298-8e19-f29e294cc793": 5,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 37,
@@ -3830,7 +3830,7 @@
           "🎵": 1,
           "🎶": 1,
           "258f10f6-6369-4d78-9020-6d4344802acb": 3,
-          "c5d11b0f-661a-4d6f-b714-1c36e64195e2": 24,
+          "c5d11b0f-661a-4d6f-b714-1c36e64195e2": 25,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 10,
           "🫵": 1,
           "🍾": 1,
@@ -4050,18 +4050,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792583295799,
+        "lastChatAt": 1792584893469,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "EZ clap Zaniii"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "run it back"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -4093,6 +4085,14 @@
         {
           "user": "agent00zani",
           "msg": "[emote:c5d11b0f-661a-4d6f-b714-1c36e64195e2]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty for clips [emote:a859cc12-453a-4bd8-b650-38710d9486de]  @desirablebottom . you are too kind"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:c5d11b0f-661a-4d6f-b714-1c36e64195e2] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {
@@ -4332,7 +4332,7 @@
         }
       },
       "_idAt": 1792569318522,
-      "_gameAt": 1792583265639,
+      "_gameAt": 1792584893561,
       "isLive": true,
       "streamCategory": "Fortnite",
       "voteLog": [
@@ -6428,7 +6428,7 @@
         "totalVotes": 45377,
         "totalSubs": 131,
         "totalChatMessages": 16475,
-        "totalStreamMinutes": 9907,
+        "totalStreamMinutes": 9927,
         "emotes": {
           "❤": 283,
           "🙌": 424,
@@ -14454,8 +14454,8 @@
       "stats": {
         "totalVotes": 11187,
         "totalSubs": 74,
-        "totalChatMessages": 609,
-        "totalStreamMinutes": 9877,
+        "totalChatMessages": 610,
+        "totalStreamMinutes": 9894,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -14513,13 +14513,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792583421397
+        "lastChatAt": 1792584706476
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: dots! Come hang out and watch."
-        },
         {
           "user": "scurvybot",
           "msg": "@Pr0ff gifted a sub to the community!"
@@ -14555,6 +14551,10 @@
         {
           "user": "0xscheun",
           "msg": "[emote:bd1e9c29-6837-42ca-865a-c5ff8ef7298b] [emote:bd1e9c29-6837-42ca-865a-c5ff8ef7298b]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -14567,12 +14567,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "dots",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to pr0ff’s stream—Ragnarok grind, PUGs, endless “DOTES” vibes! The chat loves “thanks” after a love fest, gifts a Sub to celebrate milestones, and throws 🔥 emojis everywhere. pr0ff thrives on community hype, “gift a Sub” moments, and “thanks” shoutouts. Keep the energy high, keep the 🔥 flowing!",
       "_profileAtCount": 580,
       "lastStreamInfo": "dots",
-      "lastStreamEndedAt": 1792553892001,
+      "lastStreamEndedAt": 1792584706124,
       "nudgedAt": 1786524138354,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -14683,9 +14683,9 @@
         }
       },
       "_idAt": 1792572924449,
-      "streamCategory": "Dota 2",
-      "isLive": true,
-      "_gameAt": 1792583388400,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792584706606,
       "voteLog": [
         {
           "t": 1792429891407,
@@ -16893,7 +16893,7 @@
       "stats": {
         "totalVotes": 19755,
         "totalSubs": 33,
-        "totalChatMessages": 42958,
+        "totalChatMessages": 42959,
         "totalStreamMinutes": 22530,
         "emotes": {
           "❤": 157,
@@ -17328,7 +17328,7 @@
           "🎡": "🎡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792571995484
+        "lastChatAt": 1792584836304
       },
       "chatMemory": [
         {
@@ -17512,7 +17512,7 @@
         }
       },
       "_idAt": 1792574123255,
-      "_gameAt": 1792571975853,
+      "_gameAt": 1792584836400,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -24788,7 +24788,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 956,
+        "totalChatMessages": 957,
         "totalStreamMinutes": 2036,
         "emotes": {
           "❤": 2,
@@ -24813,7 +24813,7 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 20,
-        "lastChatAt": 1791544023931,
+        "lastChatAt": 1792584898690,
         "lastSendFailAt": 1792491584195,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1792491584023
@@ -24890,7 +24890,10 @@
           "tier": 1
         }
       },
-      "_idAt": 1792578923256
+      "_idAt": 1792578923256,
+      "_gameAt": 1792584898774,
+      "isLive": false,
+      "streamCategory": ""
     },
     "157ed26e-c72f-49c1-877b-5101b0645fb6": {
       "username": "cem",
@@ -26125,8 +26128,8 @@
       "stats": {
         "totalVotes": 255,
         "totalSubs": 1,
-        "totalChatMessages": 59,
-        "totalStreamMinutes": 186,
+        "totalChatMessages": 77,
+        "totalStreamMinutes": 206,
         "emotes": {
           "👋": 3,
           "❤": 4,
@@ -26154,48 +26157,48 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792583712412
+        "lastChatAt": 1792584520027
       },
       "chatMemory": [
         {
           "user": "vitrene",
-          "msg": "really annoying that they don't have an inbuilt voice chat"
+          "msg": "now press right"
         },
         {
           "user": "vitrene",
-          "msg": "cross play is on at default"
+          "msg": "for the invite code"
         },
         {
           "user": "vitrene",
-          "msg": "we can't hear Squall 😱"
+          "msg": "join the world and then open the menu"
         },
         {
           "user": "vitrene",
-          "msg": "remember to add your second account to listen in to discord 👀"
+          "msg": "it should be at the top right"
         },
         {
           "user": "vitrene",
-          "msg": "he needs the invite code"
+          "msg": "In the Pause menu"
         },
         {
           "user": "vitrene",
-          "msg": "click on your world"
+          "msg": "X stream?"
         },
         {
           "user": "vitrene",
-          "msg": "no sry"
+          "msg": "yeah we got lost lol"
         },
         {
           "user": "vitrene",
-          "msg": "press analog right"
+          "msg": "yes you need to create a broadcast"
         },
         {
           "user": "vitrene",
-          "msg": "turn off mic on the other account"
+          "msg": "and then enable it via OBS"
         },
         {
           "user": "vitrene",
-          "msg": "go into the session and hit the mute button"
+          "msg": "yeah do it next time"
         }
       ],
       "customCommands": {},
@@ -26213,7 +26216,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1792583546390,
+      "_gameAt": 1792584485006,
       "isLive": true,
       "streamCategory": "RuneScape",
       "streamTitle": "Runescape Dragonwilds",
