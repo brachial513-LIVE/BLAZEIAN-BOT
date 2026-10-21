@@ -3675,7 +3675,7 @@
         "totalVotes": 30221,
         "totalSubs": 113,
         "totalChatMessages": 9313,
-        "totalStreamMinutes": 27902,
+        "totalStreamMinutes": 27907,
         "emotes": {
           "❤": 249,
           "🙌": 210,
@@ -6428,7 +6428,7 @@
         "totalVotes": 45377,
         "totalSubs": 131,
         "totalChatMessages": 16475,
-        "totalStreamMinutes": 9902,
+        "totalStreamMinutes": 9907,
         "emotes": {
           "❤": 283,
           "🙌": 424,
@@ -14454,8 +14454,8 @@
       "stats": {
         "totalVotes": 11187,
         "totalSubs": 74,
-        "totalChatMessages": 608,
-        "totalStreamMinutes": 9872,
+        "totalChatMessages": 609,
+        "totalStreamMinutes": 9877,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -14463,7 +14463,7 @@
           "👍": 1,
           "ee93d6f9-c5c7-437f-b223-0a1b50704257": 10,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 5,
-          "bd1e9c29-6837-42ca-865a-c5ff8ef7298b": 12,
+          "bd1e9c29-6837-42ca-865a-c5ff8ef7298b": 14,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 3,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
           "c620ca27-17dd-4ec2-9cff-4b8721be7064": 4,
@@ -14513,13 +14513,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792583388298
+        "lastChatAt": 1792583421397
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @cvek11!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live: dots! Come hang out and watch."
@@ -14555,6 +14551,10 @@
         {
           "user": "0xscheun",
           "msg": "GM GM"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:bd1e9c29-6837-42ca-865a-c5ff8ef7298b] [emote:bd1e9c29-6837-42ca-865a-c5ff8ef7298b]"
         }
       ],
       "customCommands": {},
@@ -26125,8 +26125,8 @@
       "stats": {
         "totalVotes": 255,
         "totalSubs": 1,
-        "totalChatMessages": 48,
-        "totalStreamMinutes": 181,
+        "totalChatMessages": 59,
+        "totalStreamMinutes": 186,
         "emotes": {
           "👋": 3,
           "❤": 4,
@@ -26137,8 +26137,8 @@
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
           "🗳": 3,
-          "👀": 1,
-          "😱": 1
+          "👀": 2,
+          "😱": 2
         },
         "emoteNames": {
           "👋": "👋",
@@ -26154,48 +26154,48 @@
           "😱": "😱"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792583413953
+        "lastChatAt": 1792583712412
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 255 votes, @Vitrene!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 255 vote(s) (total: 255)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 honeybear is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: Runescape Dragonwilds! Come hang out and watch."
+          "user": "vitrene",
+          "msg": "really annoying that they don't have an inbuilt voice chat"
         },
         {
           "user": "vitrene",
-          "msg": "get those flax flowers 👀"
-        },
-        {
-          "user": "honeybear",
-          "msg": "we need flax flowers"
+          "msg": "cross play is on at default"
         },
         {
           "user": "vitrene",
-          "msg": "there is a voice in my head 😱"
+          "msg": "we can't hear Squall 😱"
         },
         {
           "user": "vitrene",
-          "msg": "classic OBS, you gotta love it"
+          "msg": "remember to add your second account to listen in to discord 👀"
         },
         {
           "user": "vitrene",
-          "msg": "get yourself better gear"
+          "msg": "he needs the invite code"
+        },
+        {
+          "user": "vitrene",
+          "msg": "click on your world"
+        },
+        {
+          "user": "vitrene",
+          "msg": "no sry"
+        },
+        {
+          "user": "vitrene",
+          "msg": "press analog right"
+        },
+        {
+          "user": "vitrene",
+          "msg": "turn off mic on the other account"
+        },
+        {
+          "user": "vitrene",
+          "msg": "go into the session and hit the mute button"
         }
       ],
       "customCommands": {},
@@ -26213,7 +26213,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1792583363108,
+      "_gameAt": 1792583546390,
       "isLive": true,
       "streamCategory": "RuneScape",
       "streamTitle": "Runescape Dragonwilds",
@@ -27690,8 +27690,8 @@
     }
   },
   "auth": {
-    "accessToken": "4072531678dcf91cd8fe1a1f1761ee29",
-    "refreshToken": "f7aee34e0c44a1ce46ed75f4fe731f94",
+    "accessToken": "d67f1e0207a1e270d29375ab08ebb7fb",
+    "refreshToken": "79bc2cd1a769096a0c3189c709806c34",
     "sessionToken": "e9405836ba3ac4f80c49e07747e21485",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
