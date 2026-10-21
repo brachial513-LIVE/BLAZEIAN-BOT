@@ -12425,8 +12425,8 @@
       "stats": {
         "totalVotes": 7975,
         "totalSubs": 39,
-        "totalChatMessages": 1055,
-        "totalStreamMinutes": 3019,
+        "totalChatMessages": 1058,
+        "totalStreamMinutes": 3028,
         "emotes": {
           "❤": 51,
           "🙌": 57,
@@ -12534,21 +12534,9 @@
           "😝": "😝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792561532513
+        "lastChatAt": 1792561986556
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Why ask why"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "who i do ask lol"
-        },
-        {
-          "user": "briggsy",
-          "msg": "haha, yea."
-        },
         {
           "user": "briggsy",
           "msg": "CTR, what is this?"
@@ -12576,6 +12564,18 @@
         {
           "user": "briggsy",
           "msg": "Man, your stream is still buffering from time to time"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "could be"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "i need to find to check it out"
+        },
+        {
+          "user": "briggsy",
+          "msg": "hmmmm"
         }
       ],
       "customCommands": {},
@@ -12691,7 +12691,7 @@
       "_idAt": 1792550125640,
       "streamCategory": "Crash Team Racing",
       "isLive": true,
-      "_gameAt": 1792561454570,
+      "_gameAt": 1792561986676,
       "voteLog": [
         {
           "t": 1792429891238,
@@ -27616,8 +27616,8 @@
     }
   },
   "auth": {
-    "accessToken": "e5217310d8e5b863e3548827bfe770c9",
-    "refreshToken": "a6a7c5a8277561559d9ef801f8d38668",
+    "accessToken": "60c77ed8f8a3b9862be2b6991b510e1d",
+    "refreshToken": "6cfd34e55deaca486d05e526c80b6127",
     "sessionToken": "e9405836ba3ac4f80c49e07747e21485",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
