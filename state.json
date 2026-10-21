@@ -7531,7 +7531,7 @@
         "totalVotes": 46255,
         "totalSubs": 87,
         "totalChatMessages": 9639,
-        "totalStreamMinutes": 16548,
+        "totalStreamMinutes": 16552,
         "emotes": {
           "❤": 170,
           "🙌": 220,
@@ -14417,8 +14417,8 @@
       "stats": {
         "totalVotes": 11089,
         "totalSubs": 73,
-        "totalChatMessages": 603,
-        "totalStreamMinutes": 9777,
+        "totalChatMessages": 604,
+        "totalStreamMinutes": 9779,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -14476,13 +14476,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792548629240
+        "lastChatAt": 1792553892385
       },
       "chatMemory": [
-        {
-          "user": "seventh",
-          "msg": "gm gm @pr0ff happy streaming"
-        },
         {
           "user": "scurvybot",
           "msg": "@Pr0ff gifted a sub to the community!"
@@ -14518,6 +14514,10 @@
         {
           "user": "nekoschwan",
           "msg": "may nakidnap pa"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -14530,12 +14530,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8b5f23b0-701b-44a9-b477-b49cdef332ef.gif",
       "followed": true,
-      "streamTitle": "dots",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Welcome to pr0ff’s stream—Ragnarok grind, PUGs, endless “DOTES” vibes! The chat loves “thanks” after a love fest, gifts a Sub to celebrate milestones, and throws 🔥 emojis everywhere. pr0ff thrives on community hype, “gift a Sub” moments, and “thanks” shoutouts. Keep the energy high, keep the 🔥 flowing!",
       "_profileAtCount": 580,
       "lastStreamInfo": "dots",
-      "lastStreamEndedAt": 1792467260903,
+      "lastStreamEndedAt": 1792553892001,
       "nudgedAt": 1786524138354,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -14646,9 +14646,9 @@
         }
       },
       "_idAt": 1792550124442,
-      "streamCategory": "Dota 2",
-      "isLive": true,
-      "_gameAt": 1792548493294,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792553892490,
       "voteLog": [
         {
           "t": 1792429891407,
@@ -23357,7 +23357,7 @@
         "totalVotes": 2027,
         "totalSubs": 6,
         "totalChatMessages": 171,
-        "totalStreamMinutes": 8030,
+        "totalStreamMinutes": 8034,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -27606,8 +27606,8 @@
     }
   },
   "auth": {
-    "accessToken": "12fc3e5424d5f4b3252ffc045a8f9223",
-    "refreshToken": "b6a94dc008a0f26bbb9d0a8356bdc051",
+    "accessToken": "88fabaa04ccc1d6fa8c4214c20b1ddc7",
+    "refreshToken": "fc806ff5395c8cf815e3a65ccdb1b314",
     "sessionToken": "e9405836ba3ac4f80c49e07747e21485",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
