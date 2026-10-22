@@ -632,7 +632,7 @@
           "dur": 14
         }
       },
-      "_idAt": 1792635467419,
+      "_idAt": 1792658267447,
       "_gameAt": 1792626978754,
       "isLive": false,
       "streamCategory": "",
@@ -748,7 +748,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/3c2c7809-ff4f-4fd6-8128-09dcaeaba07e.jpg",
-      "_idAt": 1792635468583
+      "_idAt": 1792658268628
     },
     "c793ee2d-a124-463b-88ed-d4cbb437516c": {
       "username": "mistersupercool",
@@ -783,7 +783,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4b76985d-7b80-4351-99be-1c1bba36a10e.jpg",
-      "_idAt": 1792635469783
+      "_idAt": 1792658269824
     },
     "4bc55098-b53d-4256-9946-f26ff28d8049": {
       "username": "bbjclownnsss",
@@ -19476,7 +19476,7 @@
         "totalVotes": 3267,
         "totalSubs": 5,
         "totalChatMessages": 135,
-        "totalStreamMinutes": 5729,
+        "totalStreamMinutes": 5749,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -27004,8 +27004,8 @@
       "stats": {
         "totalVotes": 269,
         "totalSubs": 1,
-        "totalChatMessages": 128,
-        "totalStreamMinutes": 318,
+        "totalChatMessages": 130,
+        "totalStreamMinutes": 338,
         "emotes": {
           "👋": 4,
           "❤": 10,
@@ -27018,8 +27018,9 @@
           "🗳": 6,
           "👀": 2,
           "😱": 2,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 1,
-          "🚨": 6
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2,
+          "🚨": 6,
+          "🔥": 3
         },
         "emoteNames": {
           "👋": "👋",
@@ -27034,20 +27035,13 @@
           "👀": "👀",
           "😱": "😱",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
-          "🚨": "🚨"
+          "🚨": "🚨",
+          "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792655159754
+        "lastChatAt": 1792658173241
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "yeah let's see how we can help him out"
-        },
-        {
-          "user": "vitrene",
-          "msg": "alright, read the full announcement and then we can discuss in TG"
-        },
         {
           "user": "vitrene",
           "msg": "until then, bb"
@@ -27079,6 +27073,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: Runescape Dragonwilds! Come hang out and watch."
+        },
+        {
+          "user": "mediart",
+          "msg": "Hey @honeybear [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
+        },
+        {
+          "user": "mediart",
+          "msg": "🔥🔥🔥"
         }
       ],
       "customCommands": {},
@@ -27096,7 +27098,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1792655159520,
+      "_gameAt": 1792658078931,
       "isLive": true,
       "streamCategory": "RuneScape",
       "streamTitle": "Runescape Dragonwilds",
