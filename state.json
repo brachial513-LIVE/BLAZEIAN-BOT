@@ -913,7 +913,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ecb9587-f0a4-490f-b3a0-91af4a74a9d4.jpeg",
       "profile": "bbjclownnsss is a gaming community that's \"Lowkey Savage\" and \"Highkey Lit.\" We \"Get Wrecked\" in Among Us, \"Slay the Day\" in other games, and celebrate \"Lit Sundays\" with \"Savage Fails.\" We love being celebrated with \"Follow us\" spam and \"Love Fests\" - the more, the merrier. We're a family that's all about good vibes and having a blast.",
       "_profileAtCount": 266,
-      "_idAt": 1792635470991
+      "_idAt": 1792658271021
     },
     "ab310188-52eb-4bb1-b051-cb874c9749aa": {
       "username": "vroshi55",
@@ -1612,7 +1612,7 @@
       "commentMode": "silent",
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
-      "_idAt": 1792635472181,
+      "_idAt": 1792658272227,
       "_gameAt": 1792634394130,
       "isLive": false,
       "streamCategory": "",
@@ -2389,7 +2389,7 @@
       "nudgedKey": "schedule",
       "botVip": true,
       "commentMode": "silent",
-      "_idAt": 1792635473392,
+      "_idAt": 1792658273421,
       "_gameAt": 1792613043114,
       "isLive": false,
       "streamCategory": "",
@@ -3292,7 +3292,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792635474586,
+      "_idAt": 1792658274622,
       "raidConfig": {
         "gif": "",
         "audio": "",
@@ -3756,7 +3756,7 @@
       "lastStreamEndedAt": 1789956701893,
       "nudgedAt": 1786436965117,
       "nudgedKey": "schedule",
-      "_idAt": 1792635475799
+      "_idAt": 1792658275827
     },
     "5e9d9b5f-98cf-4b92-a93c-ed876703b55a": {
       "username": "agent00zani",
@@ -19476,7 +19476,7 @@
         "totalVotes": 3267,
         "totalSubs": 5,
         "totalChatMessages": 135,
-        "totalStreamMinutes": 5749,
+        "totalStreamMinutes": 5754,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -27004,8 +27004,8 @@
       "stats": {
         "totalVotes": 269,
         "totalSubs": 1,
-        "totalChatMessages": 130,
-        "totalStreamMinutes": 338,
+        "totalChatMessages": 132,
+        "totalStreamMinutes": 343,
         "emotes": {
           "👋": 4,
           "❤": 10,
@@ -27020,7 +27020,9 @@
           "😱": 2,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2,
           "🚨": 6,
-          "🔥": 3
+          "🔥": 3,
+          "😎": 1,
+          "🎮": 1
         },
         "emoteNames": {
           "👋": "👋",
@@ -27036,20 +27038,14 @@
           "😱": "😱",
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO",
           "🚨": "🚨",
-          "🔥": "🔥"
+          "🔥": "🔥",
+          "😎": "😎",
+          "🎮": "🎮"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792658173241
+        "lastChatAt": 1792658395628
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "until then, bb"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -27081,6 +27077,14 @@
         {
           "user": "mediart",
           "msg": "🔥🔥🔥"
+        },
+        {
+          "user": "mediart",
+          "msg": "This game looks fun! 😎🎮"
+        },
+        {
+          "user": "honeybear",
+          "msg": "Yeah it's good, new runescape game"
         }
       ],
       "customCommands": {},
@@ -27098,7 +27102,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1792658078931,
+      "_gameAt": 1792658278334,
       "isLive": true,
       "streamCategory": "RuneScape",
       "streamTitle": "Runescape Dragonwilds",
@@ -28582,8 +28586,8 @@
     }
   },
   "auth": {
-    "accessToken": "0c2ecbc3ec3e093649f6b3aa6273ee18",
-    "refreshToken": "3fcb72884e95b9742c90f34587d49f1c",
+    "accessToken": "1ac814cadbeba9df5bbbf14a0b793321",
+    "refreshToken": "815d29c02507b4f6e8f1284df8b1cc7b",
     "sessionToken": "d00d65951a8dec30b55ddf3103fa8431",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
