@@ -6334,9 +6334,9 @@
       "username": "zer0cache",
       "language": "en",
       "stats": {
-        "totalVotes": 15282,
-        "totalSubs": 60,
-        "totalChatMessages": 2405,
+        "totalVotes": 15307,
+        "totalSubs": 61,
+        "totalChatMessages": 2407,
         "totalStreamMinutes": 13184,
         "emotes": {
           "✨": 52,
@@ -6349,9 +6349,9 @@
           "⚡": 27,
           "🏆": 23,
           "💥": 32,
-          "🗳": 428,
+          "🗳": 429,
           "🎁": 59,
-          "👑": 80,
+          "👑": 81,
           "💜": 8,
           "🏹": 1,
           "🦢": 2,
@@ -6363,7 +6363,7 @@
           "🛡": 3,
           "🫡": 11,
           "🏰": 4,
-          "🙌": 408,
+          "🙌": 409,
           "💩": 55,
           "🤣": 10,
           "😂": 56,
@@ -6572,18 +6572,10 @@
           "🤗": "🤗",
           "😄": "😄"
         },
-        "lastChatAt": 1792705195928,
+        "lastChatAt": 1792706335208,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "piweb",
-          "msg": "Picking some shit while we're 5 against 2 smh"
-        },
-        {
-          "user": "piweb",
-          "msg": "Being in a fight that early with no limbs is tough"
-        },
         {
           "user": "cr33pling",
           "msg": "hey whats up @zer0cache [emote:1cc6ceb4-8d03-4583-9811-075d68cf43a9]"
@@ -6615,6 +6607,14 @@
         {
           "user": "cachebot",
           "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
+        },
+        {
+          "user": "cachebot",
+          "msg": "👑 [SUB ALERT]: HUGE hype! @piweb just locked in a Tier 1 sub for month 2! Thank you for keeping the dream alive!"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🗳️ Thanks for the 25 votes, @piweb! Your support is truly appreciated! 🙌"
         }
       ],
       "customCommands": {},
@@ -6691,6 +6691,11 @@
           "name": "charddxyz",
           "months": 1,
           "tier": 1
+        },
+        "piweb": {
+          "name": "piweb",
+          "months": 1,
+          "tier": 1
         }
       },
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
@@ -6702,7 +6707,7 @@
       "_idAt": 1792703872239,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792705196050,
+      "_gameAt": 1792706247281,
       "voteLog": [
         {
           "t": 1792429891268,
@@ -6723,6 +6728,11 @@
           "t": 1792649824475,
           "v": "dwb9000",
           "a": 6
+        },
+        {
+          "t": 1792706334868,
+          "v": "piweb",
+          "a": 25
         }
       ]
     },
@@ -7840,7 +7850,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8e722545-71bf-4322-9039-50b822ebe64c.jpeg",
       "lastStreamInfo": "OFF THE GRID! Summer League — Off The Grid",
       "lastStreamEndedAt": 1786154686473,
-      "_idAt": 1792683467473
+      "_idAt": 1792706267454
     },
     "ff594749-c9c6-4c0b-9306-ec8fd4252f7e": {
       "username": "weri",
@@ -7908,7 +7918,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7e18d17e-6183-4f08-aad4-77cff2175674.gif",
-      "_idAt": 1792683468650,
+      "_idAt": 1792706268636,
       "_gameAt": 1792441764890,
       "isLive": false,
       "streamCategory": "",
@@ -8571,7 +8581,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "1500 votes giveaway🐢Squirtle week day 3🐢❤️Trying Mossvale! ❤️",
       "lastStreamEndedAt": 1792639590224,
-      "_idAt": 1792683469830,
+      "_idAt": 1792706269831,
       "mascotMsgs": [
         "Don't forget to Subscribe!",
         "Bald!",
@@ -9003,7 +9013,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792683471030,
+      "_idAt": 1792706271032,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792690127755
@@ -9088,7 +9098,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792683472240
+      "_idAt": 1792706272236
     },
     "79ffc47e-8cb0-4618-9272-c9281368d26e": {
       "username": "vitrene",
@@ -9097,7 +9107,7 @@
         "totalVotes": 22192,
         "totalSubs": 59,
         "totalChatMessages": 1861,
-        "totalStreamMinutes": 7852,
+        "totalStreamMinutes": 7868,
         "emotes": {
           "❤": 104,
           "🙌": 87,
@@ -9361,7 +9371,7 @@
       "nudgedKey": "customcmd",
       "lastStreamInfo": "Keeping up with the Dragons with @Honeybear",
       "lastStreamEndedAt": 1792525692449,
-      "_idAt": 1792683473454,
+      "_idAt": 1792706273438,
       "streamCategory": "RuneScape",
       "isLive": true,
       "_gameAt": 1792704008622,
@@ -9535,7 +9545,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792683474636
+      "_idAt": 1792706274645
     },
     "4ec108d8-b147-4ff7-b1e6-b1f8fa882f61": {
       "username": "omom_",
@@ -9571,7 +9581,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/244df307-0e7a-4ba8-bc0d-afd751a372ab.jpg",
-      "_idAt": 1792683475827
+      "_idAt": 1792706275845
     },
     "1290a27a-b733-42cc-85fe-daa77f965b10": {
       "username": "gmc_gaara27",
@@ -15345,10 +15355,10 @@
       "language": "en",
       "joinedAt": 1784453301135,
       "stats": {
-        "totalVotes": 11231,
+        "totalVotes": 11251,
         "totalSubs": 74,
-        "totalChatMessages": 623,
-        "totalStreamMinutes": 10095,
+        "totalChatMessages": 624,
+        "totalStreamMinutes": 10110,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -15406,13 +15416,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792706043100
+        "lastChatAt": 1792706450456
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: dots! Come hang out and watch."
-        },
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
@@ -15448,6 +15454,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: dots! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 20 votes, @SEEKAS!"
         }
       ],
       "customCommands": {},
@@ -15576,9 +15586,9 @@
         }
       },
       "_idAt": 1792687068649,
-      "streamCategory": "Dota 2",
+      "streamCategory": "PLAYERUNKNOWN'S BATTLEGROUNDS",
       "isLive": true,
-      "_gameAt": 1792706042853,
+      "_gameAt": 1792706450564,
       "voteLog": [
         {
           "t": 1792429891407,
@@ -15639,6 +15649,11 @@
           "t": 1792689012016,
           "v": "dimifw",
           "a": 5
+        },
+        {
+          "t": 1792706450030,
+          "v": "seekas",
+          "a": 20
         }
       ]
     },
@@ -18734,8 +18749,8 @@
       "stats": {
         "totalVotes": 13690,
         "totalSubs": 40,
-        "totalChatMessages": 1819,
-        "totalStreamMinutes": 11792,
+        "totalChatMessages": 1820,
+        "totalStreamMinutes": 11808,
         "emotes": {
           "❤": 99,
           "🙌": 74,
@@ -18871,13 +18886,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792706070724
+        "lastChatAt": 1792707167237
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "brb in 20 mins guys"
-        },
         {
           "user": "razmr_eth",
           "msg": "[emote:dab820c3-c946-4d12-aef8-d07703f0c052]"
@@ -18913,6 +18924,10 @@
         {
           "user": "piweb",
           "msg": "Tried but need my loadout"
+        },
+        {
+          "user": "piweb",
+          "msg": "Gg"
         }
       ],
       "customCommands": {},
@@ -18988,7 +19003,7 @@
       "_idAt": 1792688268643,
       "streamCategory": "Off The Grid",
       "isLive": true,
-      "_gameAt": 1792706070815,
+      "_gameAt": 1792707167341,
       "voteLog": [
         {
           "t": 1792429891425,
@@ -27842,9 +27857,9 @@
       "language": "en",
       "joinedAt": 1792508781940,
       "stats": {
-        "totalVotes": 295,
+        "totalVotes": 320,
         "totalSubs": 1,
-        "totalChatMessages": 187,
+        "totalChatMessages": 189,
         "totalStreamMinutes": 566,
         "emotes": {
           "👋": 7,
@@ -27855,7 +27870,7 @@
           "📴": 6,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
-          "🗳": 9,
+          "🗳": 12,
           "👀": 3,
           "😱": 2,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2,
@@ -27891,17 +27906,9 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792704638827
+        "lastChatAt": 1792706319090
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "vitrene",
           "msg": "alright, see you later!"
@@ -27933,6 +27940,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @guney just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 25 votes, @piweb!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -27950,7 +27965,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1792704636979,
+      "_gameAt": 1792706317183,
       "isLive": false,
       "streamCategory": "",
       "streamTitle": "",
@@ -27985,6 +28000,11 @@
           "t": 1792704636566,
           "v": "guney",
           "a": 20
+        },
+        {
+          "t": 1792706316772,
+          "v": "piweb",
+          "a": 25
         }
       ],
       "profile": "honeybear streams Runescape Dragonwilds with a tight crew vibe. Chat chants “NEW FOLLOWER!!” and “Thanks for watching!” while shouting “vote alert” and cracking “telegram” password jokes. Emojis ❤️, 🙌, custom emotes abound. Celebrations include “FREE Entry” giveaways, “1000 Votes” contests, and enthusiastic “see you next time 👋” sign‑offs. The channel thrives on energetic, supportive banter and constant voting.",
@@ -29449,8 +29469,8 @@
     }
   },
   "auth": {
-    "accessToken": "a9e8ec2eea0442f2afdf6205698747d0",
-    "refreshToken": "322a6ec14d4fa8f33d5b13ffea29c22b",
+    "accessToken": "87d79461b6e8ec44eab33603328a9e71",
+    "refreshToken": "621f1ea22923ff25dcaf3cadf0e93a4e",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
