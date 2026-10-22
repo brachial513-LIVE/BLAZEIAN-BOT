@@ -1770,13 +1770,13 @@
       "stats": {
         "totalVotes": 36032,
         "totalSubs": 91,
-        "totalChatMessages": 46123,
-        "totalStreamMinutes": 4165,
+        "totalChatMessages": 46132,
+        "totalStreamMinutes": 4170,
         "emotes": {
           "🔥": 2247,
           "🗳": 34,
-          "🔴": 56,
-          "🎉": 422,
+          "🔴": 57,
+          "🎉": 423,
           "😍": 141,
           "❤": 66,
           "🚢": 24,
@@ -2112,7 +2112,7 @@
           "↕": "↕",
           "🍻": "🍻"
         },
-        "lastChatAt": 1792613043567,
+        "lastChatAt": 1792677133660,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2120,30 +2120,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "[P10] Jackpot: 1898.80 BLAZE ($0.96) | Odds: 1 in 10 | Game #10 | Tickets: 1"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "Seed added. cgLottery prize pool: 17174.17 BLAZE ($8.72)"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "Unknown username. Supply their Blaze user ID as the third argument."
-        },
         {
           "user": "jt_squared2",
           "msg": "Unknown username. Supply their Blaze user ID as the third argument."
@@ -2159,6 +2135,30 @@
         {
           "user": "blazegames_bot",
           "msg": "🗳️ Vote Leaderboard: 1. jt_squared2 - 87 (74 NFT + 13 games) | 2. dimifw - 74 (74 NFT + 0 games) | 3. tigresa - 41 (41 NFT + 0 games) | 4. badger - 22 (13 NFT + 9 games) | 5. mindgoblin - 16 (16 NFT + 0 games) | 6. octo - 13 (2 NFT + 11 games) | 7. nadietv - 12 (2 NFT + 10 games) | 8. sipofcoke - 11 (1 NFT + 10 games) | 9. sheena - 9 (5 NFT + 4 games) | 10. cg777 - 7 (3 NFT + 4 games) | 11. briggsy - 6 (5 NFT + 1 games) | 12. piweb - 6 (6 NFT + 0 games)"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 jt_squared2 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Switched to P20!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "switch p50"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Switch locked by @jt_squared2 for 14 more seconds."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Switched to P50!"
         }
       ],
       "customCommands": {},
@@ -2167,7 +2167,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
-      "streamTitle": "",
+      "streamTitle": "Treadmilling",
       "profile": "jt_squared2’s squad thrives on “love fest” vibes, dropping “Holi Holiii Holiiii” and 🙌🙌🙌 when gameplay gets “hood.” Treadmill Time streams run “make me run” marathons, with “24h stream” hype and “sub’in you for so long” chants. The community celebrates nonstop cheers, “gg sip,” “ggs,” “TAG ME PLEASE,” and constant gratitude for hosting games and “games this.”",
       "_profileAtCount": 46044,
       "loyalty": {
@@ -2410,9 +2410,9 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792658273421,
-      "_gameAt": 1792613043114,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1792677034375,
+      "isLive": true,
+      "streamCategory": "IRL",
       "voteLog": [
         {
           "t": 1792426545217,
@@ -12693,7 +12693,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 90,
-        "totalStreamMinutes": 13283,
+        "totalStreamMinutes": 13303,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -13578,18 +13578,18 @@
       "stats": {
         "totalVotes": 24213,
         "totalSubs": 64,
-        "totalChatMessages": 2636,
-        "totalStreamMinutes": 4871,
+        "totalChatMessages": 2642,
+        "totalStreamMinutes": 4875,
         "emotes": {
           "❤": 177,
           "🙌": 150,
-          "🔴": 41,
-          "🎉": 71,
-          "👋": 88,
+          "🔴": 43,
+          "🎉": 73,
+          "👋": 89,
           "👀": 15,
           "😱": 1,
           "😅": 7,
-          "📴": 42,
+          "📴": 43,
           "✌": 4,
           "☺": 3,
           "👍": 3,
@@ -13763,33 +13763,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792672714022
+        "lastChatAt": 1792677158080
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @parky just gifted a sub to @Desirablebottom! How generous!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@parky gifted a sub to the community!"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @parky just gifted a sub to @itssscat! How generous!! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@parky gifted a sub to the community!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @badger!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 6 votes, @dwb9000!"
@@ -13805,6 +13781,30 @@
         {
           "user": "scurvybot",
           "msg": "@Desirablebottom subscribed! Thank you!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 parky is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: [UK] #41 PAINTING - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 parky is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: [UK] #41 PAINTING - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -13817,7 +13817,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d42d19f-d21c-4ab4-be64-cb54d3f85210-profile_image-300x300.png",
-      "streamTitle": "",
+      "streamTitle": "[UK] #41 PAINTING - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
       "profile": "Channel: parky – a cheeky, ADHD‑powered Dota 2 hub. Sundays explode with “CHEEKY SUNDAY NIGHT”, “MAKE LOVE NOT WARCRRAFT”, “LOVE FESTS” after wins. Chat thrives on “ASK ME ANYTHING”, “LURK A BIT” pre‑action, and “SUNDAY FUNDAY” celebrations. Celebrate with passion, love, mischief, and a touch of chaos, keeping the vibe lively and mischievous.",
       "_profileAtCount": 2608,
       "gameOverride": "",
@@ -13920,12 +13920,12 @@
       },
       "nudgedAt": 1785010054808,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "[UK] #40 HORDE!!!- VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
-      "lastStreamEndedAt": 1792540593534,
+      "lastStreamInfo": "[UK] #41 PAINTING - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
+      "lastStreamEndedAt": 1792677140647,
       "_idAt": 1792663074621,
-      "_gameAt": 1792672713939,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1792677157829,
+      "isLive": true,
+      "streamCategory": "IRL",
       "voteLog": [
         {
           "t": 1792429891203,
@@ -15986,11 +15986,11 @@
       "stats": {
         "totalVotes": 83837,
         "totalSubs": 87,
-        "totalChatMessages": 5198,
+        "totalChatMessages": 5199,
         "totalStreamMinutes": 1988,
         "emotes": {
-          "❤": 83,
-          "🙌": 148,
+          "❤": 85,
+          "🙌": 149,
           "🗳": 933,
           "💰": 48,
           "🔥": 125,
@@ -16361,17 +16361,13 @@
           "👐": "👐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792548038375,
+        "lastChatAt": 1792676660700,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DimiFW just gave 30 vote(s) (total: 230)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 890 vote(s) (total: 890)! Thank you!! 🗳️"
@@ -16407,6 +16403,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -16548,7 +16548,7 @@
       "lastStreamInfo": "Drawing session with a special MySilo wheelspin — Art",
       "lastStreamEndedAt": 1792016567041,
       "_idAt": 1792664272221,
-      "_gameAt": 1792548038466,
+      "_gameAt": 1792676660818,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -16657,7 +16657,7 @@
         "totalVotes": 22352,
         "totalSubs": 46,
         "totalChatMessages": 3392,
-        "totalStreamMinutes": 13696,
+        "totalStreamMinutes": 13716,
         "emotes": {
           "❤": 123,
           "🙌": 89,
@@ -18434,8 +18434,8 @@
       "stats": {
         "totalVotes": 13462,
         "totalSubs": 40,
-        "totalChatMessages": 1744,
-        "totalStreamMinutes": 11350,
+        "totalChatMessages": 1748,
+        "totalStreamMinutes": 11370,
         "emotes": {
           "❤": 99,
           "🙌": 73,
@@ -18569,25 +18569,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792675420224
+        "lastChatAt": 1792677028567
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "hey @theaicampa"
-        },
-        {
-          "user": "guney",
-          "msg": "thank you so much friend"
-        },
-        {
-          "user": "razmr_eth",
-          "msg": "LFG"
-        },
-        {
-          "user": "razmr_eth",
-          "msg": "i will bring back the sub asap"
-        },
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @guney just gifted a sub to @razmr_eth! How generous!! 🙌"
@@ -18611,6 +18595,22 @@
         {
           "user": "guney",
           "msg": "thnak youuuuu @seventh"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "Gm Guney"
+        },
+        {
+          "user": "rafael_zuh",
+          "msg": "gunye jr."
+        },
+        {
+          "user": "guney",
+          "msg": "gm @0xscheun"
+        },
+        {
+          "user": "guney",
+          "msg": "hello @rafael_zuh"
         }
       ],
       "customCommands": {},
@@ -18686,7 +18686,7 @@
       "_idAt": 1792665468620,
       "streamCategory": "Off The Grid",
       "isLive": true,
-      "_gameAt": 1792675301342,
+      "_gameAt": 1792676895451,
       "voteLog": [
         {
           "t": 1792429891425,
@@ -19032,11 +19032,11 @@
       "stats": {
         "totalVotes": 38636,
         "totalSubs": 60,
-        "totalChatMessages": 7250,
+        "totalChatMessages": 7252,
         "totalStreamMinutes": 12495,
         "emotes": {
-          "❤": 117,
-          "🙌": 109,
+          "❤": 119,
+          "🙌": 110,
           "🗳": 1191,
           "🔴": 96,
           "🎉": 177,
@@ -19381,17 +19381,9 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792675562656
+        "lastChatAt": 1792676301383
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 511 votes, @Desirablebottom!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 511 vote(s) (total: 511)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 5 votes, @BonsaiFox!"
@@ -19423,6 +19415,14 @@
         {
           "user": "mediart",
           "msg": "Thank you so much for the Votes Noxx 🥰🙏🔥🥰😍❤️🙏🔥🙏[emote:a859cc12-453a-4bd8-b650-38710d9486de] 🙏🥰"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @poderosobot!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -19637,7 +19637,7 @@
       },
       "commentMode": "silent",
       "_idAt": 1792665471022,
-      "_gameAt": 1792675562775,
+      "_gameAt": 1792676295918,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -19871,17 +19871,17 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 35,
+        "totalChatMessages": 36,
         "totalStreamMinutes": 1410,
         "emotes": {
           "💚": 1,
           "👋": 8,
           "⏰": 1,
-          "🙌": 4,
+          "🙌": 5,
           "🔴": 7,
           "🎉": 7,
           "📴": 7,
-          "❤": 6
+          "❤": 8
         },
         "emoteNames": {
           "💚": "💚",
@@ -19894,13 +19894,9 @@
           "❤": "❤"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792098629997
+        "lastChatAt": 1792676180381
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 homiedrew is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -19936,6 +19932,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -19952,7 +19952,10 @@
       "lastStreamInfo": "Games! | GIVEAWAYS 🔥 BLAZE 🔥 Follower Goal 14/100 🔥 — Games + Demos",
       "lastStreamEndedAt": 1792098624752,
       "gameOverride": "",
-      "_idAt": 1792665473420
+      "_idAt": 1792665473420,
+      "_gameAt": 1792676180494,
+      "isLive": false,
+      "streamCategory": ""
     },
     "2c31d967-7255-462b-9cfa-41b8b75483c9": {
       "username": "panipeys",
@@ -25862,7 +25865,7 @@
       "stats": {
         "totalVotes": 1513,
         "totalSubs": 3,
-        "totalChatMessages": 154,
+        "totalChatMessages": 156,
         "totalStreamMinutes": 1794,
         "emotes": {
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
@@ -25870,8 +25873,8 @@
           "🔴": 13,
           "📴": 13,
           "👋": 13,
-          "❤": 22,
-          "🙌": 12,
+          "❤": 24,
+          "🙌": 13,
           "😶": 4,
           "🌫": 4,
           "🗳": 12,
@@ -25891,17 +25894,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792531735355
+        "lastChatAt": 1792676446725
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 jagsman is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: FM26 Our spanish Save Season 3 Espanyol & Mallorca with @dynamicrich84  #thedugout #mustardnetwork! Come hang out and watch."
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @avisi!"
@@ -25933,6 +25928,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ jude_jitsu just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @poderosobot!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -25973,7 +25976,7 @@
       "_idAt": 1792669075822,
       "nudgedAt": 1791149490517,
       "nudgedKey": "schedule",
-      "_gameAt": 1792531726661,
+      "_gameAt": 1792676445935,
       "isLive": false,
       "streamCategory": ""
     },
@@ -26445,11 +26448,11 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 3,
-        "totalChatMessages": 213,
+        "totalChatMessages": 215,
         "totalStreamMinutes": 2152,
         "emotes": {
-          "❤": 18,
-          "🙌": 12,
+          "❤": 20,
+          "🙌": 13,
           "💪": 1,
           "😂": 1,
           "🔨": 3,
@@ -26514,17 +26517,9 @@
           "01c94feb-f35c-47e7-a6f7-8df25756ee61": "LILLY"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792119457287
+        "lastChatAt": 1792676060435
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "*** botger is back ***\r\nThe server maintenance is complete. Thank you for your understanding. Have a good night and a great stream!!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -26556,6 +26551,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @poderosobot!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {
@@ -26602,7 +26605,10 @@
       "gameOverride": "",
       "_idAt": 1792670272224,
       "nudgedAt": 1792092388182,
-      "nudgedKey": "schedule"
+      "nudgedKey": "schedule",
+      "_gameAt": 1792676055901,
+      "isLive": false,
+      "streamCategory": ""
     },
     "1952fbef-bab1-4a82-8a89-9c9c123ebb45": {
       "username": "mafaz",
@@ -28569,9 +28575,9 @@
       "n": 3
     },
     "sarinhaa11": {
-      "note": "He enjoys strategy labyrinth games and jokes with lots of laughter, often celebrating progress and sharing playful comments.",
-      "at": 1792622569968,
-      "n": 18
+      "note": "He loves strategy labyrinth games, jokes loudly, celebrates progress, shares playful comments, and laughs a lot.",
+      "at": 1792676690202,
+      "n": 19
     },
     "just_for_lucas": {
       "note": "Friendly, upbeat streamer who greets with “GM,” jokes about subs 2 subs, keeps a light, positive tone, and enjoys chatting about monthly quotas.",
