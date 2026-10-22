@@ -16321,8 +16321,8 @@
       "stats": {
         "totalVotes": 22344,
         "totalSubs": 46,
-        "totalChatMessages": 3382,
-        "totalStreamMinutes": 13592,
+        "totalChatMessages": 3384,
+        "totalStreamMinutes": 13597,
         "emotes": {
           "❤": 121,
           "🙌": 88,
@@ -16514,17 +16514,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792644393566
+        "lastChatAt": 1792644888267
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 555 votes, @vRoshi55!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 250 votes, @badger!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live: Short stream - Support 🔥🎮! Come hang out and watch."
@@ -16556,6 +16548,14 @@
         {
           "user": "fartvader",
           "msg": "welcome angge! [emote:50057020-6b81-442d-bdf6-7015ec80dda7]"
+        },
+        {
+          "user": "briggsy",
+          "msg": "hey Angge"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Get 'em"
         }
       ],
       "customCommands": {},
@@ -16665,7 +16665,7 @@
         }
       },
       "_idAt": 1792641473392,
-      "_gameAt": 1792644295302,
+      "_gameAt": 1792644883191,
       "isLive": true,
       "streamCategory": "VALORANT",
       "voteLog": [
@@ -27500,9 +27500,9 @@
       "n": 26
     },
     "meyetechnicals": {
-      "note": "Enjoys medieval squad adventure games and Warzone, jokes about losing gear and bots, loves dancing, and talks about crypto and web",
-      "at": 1792553120501,
-      "n": 16
+      "note": "Enjoys medieval squad adventure games and Warzone, loves dancing, jokes about losing gear and bots, and talks about crypto and web.",
+      "at": 1792645010046,
+      "n": 17
     },
     "emperorevilk1ng": {
       "note": "They chat casually, mention playing Fall Guys, enjoy light humor, and casually reference fitness like push‑ups.",
@@ -28302,8 +28302,8 @@
     }
   },
   "auth": {
-    "accessToken": "14eeae3c5e302882ed966d1f10d241b0",
-    "refreshToken": "03eeaa05e6a1dac073fe1d83e584d5e6",
+    "accessToken": "1fbfb0d7b2d7dfa1e34980804b7ecae7",
+    "refreshToken": "0765734ef629c0a5b2189e9b4e9dcbf5",
     "sessionToken": "d00d65951a8dec30b55ddf3103fa8431",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
