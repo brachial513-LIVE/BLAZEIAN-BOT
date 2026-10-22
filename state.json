@@ -14324,14 +14324,14 @@
       "username": "dimifw",
       "language": "en",
       "stats": {
-        "totalVotes": 34197,
+        "totalVotes": 34230,
         "totalSubs": 38,
-        "totalChatMessages": 1682,
+        "totalChatMessages": 1683,
         "totalStreamMinutes": 2853,
         "emotes": {
           "❤": 34,
           "🙌": 51,
-          "🗳": 744,
+          "🗳": 747,
           "🚨": 72,
           "🎉": 41,
           "👋": 52,
@@ -14526,17 +14526,13 @@
           "😨": "😨",
           "🦉": "🦉"
         },
-        "lastChatAt": 1792641191052,
+        "lastChatAt": 1792648590417,
         "sendFailStreak": 293,
         "lastSendFailAt": 1792641189263,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1792641189039
       },
       "chatMemory": [
-        {
-          "user": "triz_draw",
-          "msg": "🐰🐰🐰"
-        },
         {
           "user": "dimifw",
           "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] ❤️[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
@@ -14572,6 +14568,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @badger just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 33 vote(s) (total: 33)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -14709,7 +14709,7 @@
       "lastStreamInfo": "Streamish #123 - Ori and the Will of the Wisps",
       "lastStreamEndedAt": 1792529775162,
       "_idAt": 1792641467446,
-      "_gameAt": 1792641191132,
+      "_gameAt": 1792648590505,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -14802,6 +14802,11 @@
           "t": 1792641189039,
           "v": "badger",
           "a": 200
+        },
+        {
+          "t": 1792648588136,
+          "v": "cedricdebled",
+          "a": 33
         }
       ]
     },
@@ -16322,7 +16327,7 @@
         "totalVotes": 22344,
         "totalSubs": 46,
         "totalChatMessages": 3384,
-        "totalStreamMinutes": 13642,
+        "totalStreamMinutes": 13662,
         "emotes": {
           "❤": 121,
           "🙌": 88,
@@ -19294,7 +19299,7 @@
         "totalVotes": 3267,
         "totalSubs": 5,
         "totalChatMessages": 121,
-        "totalStreamMinutes": 5588,
+        "totalStreamMinutes": 5594,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -19375,7 +19380,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/46963d69-f6f0-479b-8169-7ef0626be6ec.png",
-      "streamTitle": "",
+      "streamTitle": "Sub x Sub | Valorant con la manada",
       "gameOverride": "",
       "profile": "**Loboblanco's Community Profile**\n\nWe’re a chill crew that loves Halo “amanecida” vibes. Expect “heeey” greetings, “bienvenido hermano” welcomes, and “hermano” love. We celebrate every “muere” with a “votorn” and shout out “ola” to newcomers. The stream’s all about fun, goofy banter, and keeping the fam tight. Keep it real, keep it loud, and enjoy the blast!",
       "_profileAtCount": 117,
@@ -19406,9 +19411,9 @@
         }
       },
       "_idAt": 1792642672202,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792615010342
+      "streamCategory": "VALORANT",
+      "isLive": true,
+      "_gameAt": 1792648560102
     },
     "cb2ce9ff-c2d0-425e-9238-54b535f07d02": {
       "username": "homiedrew",
@@ -21152,12 +21157,12 @@
       "joinedAt": 1786172514205,
       "stats": {
         "totalVotes": 33407,
-        "totalSubs": 132,
-        "totalChatMessages": 7673,
+        "totalSubs": 133,
+        "totalChatMessages": 7674,
         "totalStreamMinutes": 13978,
         "emotes": {
           "😅": 8,
-          "🔥": 320,
+          "🔥": 322,
           "🍻": 5,
           "✌": 10,
           "😊": 5,
@@ -21170,7 +21175,7 @@
           "😁": 8,
           "😜": 11,
           "🙏": 1,
-          "🙌": 235,
+          "🙌": 236,
           "💪": 2,
           "👋": 73,
           "9bbb90da-7f28-448d-9986-2748f752a3e6": 1033,
@@ -21408,7 +21413,7 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792604367379,
+        "lastChatAt": 1792648557778,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -21416,10 +21421,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "i'll share you the server details"
-        },
         {
           "user": "timdraws",
           "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
@@ -21455,6 +21456,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @angge_wf has resubscribed (4 months total, 2 months streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -21628,7 +21633,7 @@
         },
         "angge_wf": {
           "name": "angge_wf",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "badger": {
@@ -21716,7 +21721,7 @@
         "entries": []
       },
       "_idAt": 1792643871016,
-      "_gameAt": 1792604367472,
+      "_gameAt": 1792648557880,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -26379,7 +26384,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792612743751,
+      "_idAt": 1792648667433,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/72e62f22-bfda-4fb8-b073-3f8c1ebc5201.png",
       "greeted": true,
       "profile": "silverbolt99’s channel is a high‑energy, community‑first hub where “welcome to the BLazeianCrew!” opens every stream and “NEW FOLLOWER!! ❤️” echoes with each new join. Weekly Sunday giveaways promise up to 1000 votes, celebrated with “Thanks for the X votes” chants. Lurkers are praised, donations appreciated, and the club hype (“⚡Friends, if you haven’t joined the Club…”) keeps the vibe playful, supportive, and always hype‑ready.",
@@ -26549,7 +26554,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792612744242,
+      "_idAt": 1792648668610,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d3b7be98-81af-4b8d-adeb-af8e99088a0b.png",
       "streamTitle": "",
       "lastStreamInfo": "🌙 Cozy Chaos in a Broken World | Once Human",
@@ -26671,7 +26676,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1792612744746,
+      "_idAt": 1792648669815,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/afbc16ad-1c45-4fb1-a652-817ebbb29b26.jpg",
       "_gameAt": 1792505659548,
       "isLive": false,
@@ -26722,7 +26727,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792612745245,
+      "_idAt": 1792648671010,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d087c21b-5cfa-4217-bbc8-d8ef7ad77e9f.jpg",
       "_gameAt": 1792492114864,
       "isLive": false,
@@ -26832,7 +26837,7 @@
       "isLive": false,
       "streamCategory": "",
       "streamTitle": "",
-      "_idAt": 1792612745747,
+      "_idAt": 1792648672211,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9ae5ffbd-71b4-4992-8061-ba04225b1dc2.jpg",
       "followed": true,
       "lastStreamInfo": "Runescape Dragonwilds",
@@ -26975,9 +26980,9 @@
       "n": 3
     },
     "triz_draw": {
-      "note": "Enjoys playful chats, loves chess and Aion, crafts characters, and often jokes about food and gifts while drawing and cheering teammates.",
-      "at": 1792033249263,
-      "n": 53
+      "note": "Enjoys playful chats, loves chess and Aion, crafts characters, jokes about food and gifts while drawing and cheering teammates.",
+      "at": 1792648970095,
+      "n": 54
     },
     "haircoolass": {
       "note": "Enthusiastic music fan who loves new bands, light shows, and playful banter, often joking about festivals and sharing quirky, upbeat comments.",
