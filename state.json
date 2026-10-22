@@ -5,10 +5,10 @@
       "stats": {
         "totalVotes": 24977,
         "totalSubs": 77,
-        "totalChatMessages": 3690,
-        "totalStreamMinutes": 4027,
+        "totalChatMessages": 3693,
+        "totalStreamMinutes": 4032,
         "emotes": {
-          "❤": 140,
+          "❤": 142,
           "🙌": 69,
           "🔥": 341,
           "💚": 281,
@@ -46,7 +46,7 @@
           "💃": 3,
           "😵": 2,
           "🤝": 7,
-          "😀": 11,
+          "😀": 12,
           "😏": 1,
           "😳": 3,
           "😇": 4,
@@ -121,7 +121,7 @@
           "17393f75-de54-4648-85fb-5c6ce0d197ad": 1,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 1,
           "8a356bf2-0026-4ad0-86ab-c3247b88b55e": 35,
-          "313c7f2b-bd01-43a3-afba-a6e30e7bdeb0": 21,
+          "313c7f2b-bd01-43a3-afba-a6e30e7bdeb0": 22,
           "68cc98ff-352d-445d-8fa7-a76ffada7706": 21,
           "e0b2eaea-0c65-4d63-91df-a1e895c7dd1c": 44,
           "ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca": 34,
@@ -380,21 +380,9 @@
           "🎯": "🎯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792709472132
+        "lastChatAt": 1792709767673
       },
       "chatMemory": [
-        {
-          "user": "omom_",
-          "msg": "Ja sehr gut"
-        },
-        {
-          "user": "omom_",
-          "msg": "😂😂😂😂"
-        },
-        {
-          "user": "omom_",
-          "msg": "Ja klar"
-        },
         {
           "user": "omom_",
           "msg": "Ach krass"
@@ -422,6 +410,18 @@
         {
           "user": "omom_",
           "msg": "Ist gut so"
+        },
+        {
+          "user": "omom_",
+          "msg": "Hast du überhaupt ein führerschein 😀"
+        },
+        {
+          "user": "omom_",
+          "msg": "[emote:313c7f2b-bd01-43a3-afba-a6e30e7bdeb0]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "❤️❤️ just lurking"
         }
       ],
       "language": "en",
@@ -633,7 +633,7 @@
         }
       },
       "_idAt": 1792702698089,
-      "_gameAt": 1792709454905,
+      "_gameAt": 1792709666867,
       "isLive": true,
       "streamCategory": "Star Wars: Galactic Racer",
       "voteLog": [
@@ -3853,8 +3853,8 @@
       "stats": {
         "totalVotes": 30512,
         "totalSubs": 116,
-        "totalChatMessages": 9385,
-        "totalStreamMinutes": 28278,
+        "totalChatMessages": 9387,
+        "totalStreamMinutes": 28283,
         "emotes": {
           "❤": 253,
           "🙌": 215,
@@ -4229,18 +4229,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792708132156,
+        "lastChatAt": 1792709726278,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "time",
-          "msg": "bye Zani"
-        },
-        {
-          "user": "time",
-          "msg": "have a good game"
-        },
         {
           "user": "agent00zani",
           "msg": "bye bye"
@@ -4272,6 +4264,14 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "why it takes so long"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "just waiting for game to start"
         }
       ],
       "customCommands": {
@@ -4516,7 +4516,7 @@
         }
       },
       "_idAt": 1792703867459,
-      "_gameAt": 1792708132084,
+      "_gameAt": 1792709583071,
       "isLive": true,
       "streamCategory": "Fortnite",
       "voteLog": [
@@ -11204,7 +11204,7 @@
       "username": "makeitmetal",
       "language": "en",
       "stats": {
-        "totalVotes": 27645,
+        "totalVotes": 27650,
         "totalSubs": 78,
         "totalChatMessages": 18073,
         "totalStreamMinutes": 12540,
@@ -11959,6 +11959,11 @@
         {
           "t": 1792686604027,
           "v": "cymatrix",
+          "a": 5
+        },
+        {
+          "t": 1792709797474,
+          "v": "thunderfeetxx_1",
           "a": 5
         }
       ]
@@ -15363,7 +15368,7 @@
         "totalVotes": 11251,
         "totalSubs": 74,
         "totalChatMessages": 624,
-        "totalStreamMinutes": 10150,
+        "totalStreamMinutes": 10155,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -29479,8 +29484,8 @@
     }
   },
   "auth": {
-    "accessToken": "87d79461b6e8ec44eab33603328a9e71",
-    "refreshToken": "621f1ea22923ff25dcaf3cadf0e93a4e",
+    "accessToken": "bee23ff0409e0cbe70c2b59d11ea2043",
+    "refreshToken": "b66bef5279b540658318b9a14426b78d",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
