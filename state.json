@@ -924,12 +924,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 139189,
+        "totalVotes": 139689,
         "totalSubs": 216,
-        "totalChatMessages": 11555,
+        "totalChatMessages": 11556,
         "totalStreamMinutes": 4337,
         "emotes": {
-          "🗳": 2235,
+          "🗳": 2238,
           "❤": 557,
           "🙌": 331,
           "🔥": 313,
@@ -1313,17 +1313,13 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792677200798,
+        "lastChatAt": 1792679457761,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "ruri666",
-          "msg": "[emote:ce425a1d-facf-4b1b-a1c9-60a91436f0ee] [emote:ce425a1d-facf-4b1b-a1c9-60a91436f0ee] [emote:ce425a1d-facf-4b1b-a1c9-60a91436f0ee] [emote:ce425a1d-facf-4b1b-a1c9-60a91436f0ee] [emote:ce425a1d-facf-4b1b-a1c9-60a91436f0ee] [emote:ce425a1d-facf-4b1b-a1c9-60a91436f0ee]"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ gmc_gaara27 just followed the channel! Welcome!! 🙌"
@@ -1359,6 +1355,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1618,7 +1618,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
       "_idAt": 1792658272227,
-      "_gameAt": 1792677200896,
+      "_gameAt": 1792679457855,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -1761,6 +1761,11 @@
           "t": 1792668830039,
           "v": "curlysnow07",
           "a": 25
+        },
+        {
+          "t": 1792679455529,
+          "v": "capt_rob_advent",
+          "a": 500
         }
       ]
     },
@@ -1770,8 +1775,8 @@
       "stats": {
         "totalVotes": 36042,
         "totalSubs": 91,
-        "totalChatMessages": 46207,
-        "totalStreamMinutes": 4195,
+        "totalChatMessages": 46211,
+        "totalStreamMinutes": 4197,
         "emotes": {
           "🔥": 2247,
           "🗳": 34,
@@ -1797,8 +1802,8 @@
           "🌉": 41,
           "💨": 255,
           "💥": 565,
-          "📴": 55,
-          "👋": 65,
+          "📴": 56,
+          "👋": 66,
           "😢": 2,
           "⚠": 32,
           "🎯": 2,
@@ -2118,7 +2123,7 @@
           "🥺": "🥺",
           "😞": "😞"
         },
-        "lastChatAt": 1792678651313,
+        "lastChatAt": 1792678801625,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2126,22 +2131,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "👀👀👀"
-        },
-        {
-          "user": "badger",
-          "msg": "That's only so many J names lol. Not too hard to figure out. I probably already said it the last time lol"
-        },
-        {
-          "user": "badger",
-          "msg": "Hahaha damn!!"
-        },
-        {
-          "user": "desirablebottom",
-          "msg": "sheesh!"
-        },
         {
           "user": "botger",
           "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
@@ -2165,6 +2154,22 @@
         {
           "user": "briggsy",
           "msg": "Soak it in."
+        },
+        {
+          "user": "badger",
+          "msg": "What are your teaching your kids????"
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "badger",
+          "msg": "You're being a terrible husband and role model!!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -2173,7 +2178,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
-      "streamTitle": "Treadmilling",
+      "streamTitle": "",
       "profile": "jt_squared2’s squad thrives on “love fest” vibes, dropping “Holi Holiii Holiiii” and 🙌🙌🙌 when gameplay gets “hood.” Treadmill Time streams run “make me run” marathons, with “24h stream” hype and “sub’in you for so long” chants. The community celebrates nonstop cheers, “gg sip,” “ggs,” “TAG ME PLEASE,” and constant gratitude for hosting games and “games this.”",
       "_profileAtCount": 46173,
       "loyalty": {
@@ -2409,16 +2414,16 @@
         }
       },
       "gameOverride": "",
-      "lastStreamInfo": "Blaze Game Devving",
-      "lastStreamEndedAt": 1792606328693,
+      "lastStreamInfo": "Treadmilling",
+      "lastStreamEndedAt": 1792678796491,
       "nudgedAt": 1785864236148,
       "nudgedKey": "schedule",
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792658273421,
-      "_gameAt": 1792678474052,
-      "isLive": true,
-      "streamCategory": "IRL",
+      "_gameAt": 1792678716577,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792426545217,
@@ -6668,14 +6673,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 45792,
+        "totalVotes": 45817,
         "totalSubs": 131,
-        "totalChatMessages": 16478,
+        "totalChatMessages": 16479,
         "totalStreamMinutes": 10390,
         "emotes": {
           "❤": 285,
           "🙌": 425,
-          "🗳": 1937,
+          "🗳": 1940,
           "✌": 12,
           "😊": 11,
           "👍": 20,
@@ -7263,13 +7268,9 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792671973055
+        "lastChatAt": 1792679376255
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "see ya, have fun today helios"
-        },
         {
           "user": "helios",
           "msg": "[emote:076dbebb-5d78-43de-b562-3c57fc9ff85b] [emote:076dbebb-5d78-43de-b562-3c57fc9ff85b]"
@@ -7305,6 +7306,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @gmc_gaara27 just gave 4 vote(s) (total: 6)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -7521,7 +7526,7 @@
       "lastStreamInfo": "IRL",
       "lastStreamEndedAt": 1792567916043,
       "_idAt": 1792659475821,
-      "_gameAt": 1792671973152,
+      "_gameAt": 1792679376338,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -7644,6 +7649,11 @@
           "t": 1792671970824,
           "v": "gmc_gaara27",
           "a": 4
+        },
+        {
+          "t": 1792679374021,
+          "v": "capt_rob_advent",
+          "a": 25
         }
       ]
     },
@@ -11038,10 +11048,10 @@
       "username": "makeitmetal",
       "language": "en",
       "stats": {
-        "totalVotes": 27431,
+        "totalVotes": 27440,
         "totalSubs": 77,
-        "totalChatMessages": 18002,
-        "totalStreamMinutes": 12400,
+        "totalChatMessages": 18018,
+        "totalStreamMinutes": 12420,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -11051,7 +11061,7 @@
           "😛": 5,
           "🤭": 2,
           "😉": 7,
-          "😭": 24,
+          "😭": 26,
           "🤣": 1221,
           "👋": 27,
           "❤": 272,
@@ -11236,7 +11246,7 @@
           "298c22d7-9014-4525-aad4-fedfa7811531": 11,
           "b8f5ff16-2e11-4695-98de-e426fff3889e": 169,
           "0c0798fa-e75a-4159-a733-4400bce40207": 27,
-          "9ddd5726-8457-4a1c-903d-6d155e631d69": 425,
+          "9ddd5726-8457-4a1c-903d-6d155e631d69": 427,
           "701903b5-7d18-462b-9e72-fd943ba2f3b2": 171,
           "4e60197e-4907-4810-a34f-6b7e4427b103": 30,
           "37719561-c923-4260-b1a5-e3eda10c103d": 5,
@@ -11503,48 +11513,48 @@
           "🤝": "🤝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792678654883
+        "lastChatAt": 1792679658644
       },
       "chatMemory": [
         {
-          "user": "rafael_zuh",
-          "msg": "what"
-        },
-        {
-          "user": "rafael_zuh",
-          "msg": "wassup bidlo"
-        },
-        {
-          "user": "rafael_zuh",
-          "msg": "too earyl"
-        },
-        {
-          "user": "fartvader",
-          "msg": "heya MiM, gm gm!!"
+          "user": "metal_bot",
+          "msg": "@avisi You don't have a pending song selection. Use !request first."
         },
         {
           "user": "avisi",
-          "msg": "bidlo on! [emote:029b05fb-e70a-4509-9552-331b609868a4]"
+          "msg": "good nuff"
         },
         {
           "user": "metal_bot",
-          "msg": "@rafael_zuh Found 7 matches: 1. Jason Becker - Becker Ola | 2. Jason Becker - Air | 3. Jason Becker - Perpetual Burn | 4. Jason Becker - Altitudes | 5. Jason Becker (feat. Marty Friedman) - Eleven Blue Egyptians | 6. Jason Becker - Mabel's Fatal Fable | 7. Jason Becker - Valley of Fire — Reply !pick 1-7 to select"
+          "msg": "@avisi Added \"As I Lay Dying - Nothing Left\" to the queue! (Position #3)"
         },
         {
-          "user": "metal_bot",
-          "msg": "@rafael_zuh Added \"Jason Becker - Altitudes\" to the queue! (Position #1)"
+          "user": "0xscheun",
+          "msg": "Heyyyyyooooo"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "That's was fire"
         },
         {
           "user": "rafael_zuh",
-          "msg": "ahhahahaha"
+          "msg": "go"
         },
         {
           "user": "rafael_zuh",
-          "msg": "I'm playing and watching bidlo"
+          "msg": "my string snapped"
         },
         {
-          "user": "metal_bot",
-          "msg": "@avisi Found 5 matches: 1. Brand Of Sacrifice - God Hand | 2. Brand Of Sacrifice - Lifeblood | 3. Brand Of Sacrifice - Lifeblood ft. Will Ramos (Lorna Shore) | 4. We Came As Romans & Brand Of Sacrifice - Darkbloom (Reimagined) | 5. Nik Nocturnal, Brand of Sacrifice - Awaken in Ashes — Reply !pick 1-5 to select"
+          "user": "rafael_zuh",
+          "msg": "😭😭"
+        },
+        {
+          "user": "rafael_zuh",
+          "msg": "ahahaha"
         }
       ],
       "customCommands": {},
@@ -11676,7 +11686,7 @@
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
       "_idAt": 1792661873424,
-      "_gameAt": 1792678652728,
+      "_gameAt": 1792679520405,
       "isLive": true,
       "streamCategory": "Music",
       "voteLog": [
@@ -11764,6 +11774,16 @@
           "t": 1792649823893,
           "v": "dwb9000",
           "a": 6
+        },
+        {
+          "t": 1792679050867,
+          "v": "thunderfeetxx_1",
+          "a": 5
+        },
+        {
+          "t": 1792679206358,
+          "v": "0xscheun",
+          "a": 4
         }
       ]
     },
@@ -12707,7 +12727,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 90,
-        "totalStreamMinutes": 13328,
+        "totalStreamMinutes": 13348,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -13333,11 +13353,11 @@
       "stats": {
         "totalVotes": 15509,
         "totalSubs": 95,
-        "totalChatMessages": 918,
+        "totalChatMessages": 920,
         "totalStreamMinutes": 5466,
         "emotes": {
-          "❤": 36,
-          "🙌": 114,
+          "❤": 38,
+          "🙌": 115,
           "🔴": 22,
           "🎉": 28,
           "📴": 22,
@@ -13406,17 +13426,9 @@
           "🙄": "🙄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792600476342
+        "lastChatAt": 1792678731559
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@slothsm subscribed! Thank you!"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @slothsm has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
-        },
         {
           "user": "scurvybot",
           "msg": "@corinloch subscribed! Thank you!"
@@ -13448,6 +13460,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @poderosobot!"
         }
       ],
       "customCommands": {},
@@ -13530,7 +13550,7 @@
         }
       },
       "_idAt": 1792663073421,
-      "_gameAt": 1792600474560,
+      "_gameAt": 1792678731541,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -13593,7 +13613,7 @@
         "totalVotes": 24213,
         "totalSubs": 64,
         "totalChatMessages": 2644,
-        "totalStreamMinutes": 4900,
+        "totalStreamMinutes": 4920,
         "emotes": {
           "❤": 177,
           "🙌": 150,
@@ -16670,8 +16690,8 @@
       "stats": {
         "totalVotes": 22357,
         "totalSubs": 47,
-        "totalChatMessages": 3406,
-        "totalStreamMinutes": 13740,
+        "totalChatMessages": 3407,
+        "totalStreamMinutes": 13760,
         "emotes": {
           "❤": 123,
           "🙌": 90,
@@ -16863,13 +16883,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792678638901
+        "lastChatAt": 1792678687602
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "yaya"
-        },
         {
           "user": "desirablebottom",
           "msg": "np"
@@ -16905,6 +16921,10 @@
         {
           "user": "seekas",
           "msg": "ayshosh"
+        },
+        {
+          "user": "seekas",
+          "msg": "phantom buff eeyy"
         }
       ],
       "customCommands": {},
@@ -17115,9 +17135,9 @@
       "language": "en",
       "joinedAt": 1784468670654,
       "stats": {
-        "totalVotes": 11264,
+        "totalVotes": 11265,
         "totalSubs": 64,
-        "totalChatMessages": 2923,
+        "totalChatMessages": 2925,
         "totalStreamMinutes": 7317,
         "emotes": {
           "❤": 122,
@@ -17125,7 +17145,7 @@
           "📴": 61,
           "👋": 64,
           "🎁": 52,
-          "🗳": 279,
+          "🗳": 282,
           "⚠": 1,
           "🎯": 1,
           "🔴": 63,
@@ -17336,17 +17356,9 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792674074626
+        "lastChatAt": 1792679421775
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Let's take a moment to follow @jeffstv at https://blaze.stream/jeffstv!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -17378,6 +17390,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @poderosobot!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @capt_rob_advent!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -17541,7 +17561,7 @@
         }
       },
       "_idAt": 1792664274627,
-      "_gameAt": 1792674074592,
+      "_gameAt": 1792679419873,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -17609,6 +17629,11 @@
           "t": 1792666344192,
           "v": "noxx",
           "a": 50
+        },
+        {
+          "t": 1792679419513,
+          "v": "capt_rob_advent",
+          "a": 1
         }
       ]
     },
@@ -18454,7 +18479,7 @@
         "totalVotes": 13462,
         "totalSubs": 40,
         "totalChatMessages": 1753,
-        "totalStreamMinutes": 11395,
+        "totalStreamMinutes": 11415,
         "emotes": {
           "❤": 99,
           "🙌": 73,
@@ -19049,14 +19074,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 38636,
+        "totalVotes": 38686,
         "totalSubs": 60,
-        "totalChatMessages": 7252,
+        "totalChatMessages": 7254,
         "totalStreamMinutes": 12495,
         "emotes": {
           "❤": 119,
           "🙌": 110,
-          "🗳": 1191,
+          "🗳": 1194,
           "🔴": 96,
           "🎉": 177,
           "🏃": 1,
@@ -19400,17 +19425,9 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792676301383
+        "lastChatAt": 1792679335850
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @BonsaiFox!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @curlysnow07!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @gmc_gaara27!"
@@ -19442,6 +19459,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @capt_rob_advent!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -19656,7 +19681,7 @@
       },
       "commentMode": "silent",
       "_idAt": 1792665471022,
-      "_gameAt": 1792676295918,
+      "_gameAt": 1792679334147,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -19744,6 +19769,11 @@
           "t": 1792671912799,
           "v": "gmc_gaara27",
           "a": 10
+        },
+        {
+          "t": 1792679333628,
+          "v": "capt_rob_advent",
+          "a": 50
         }
       ]
     },
@@ -21689,8 +21719,8 @@
       "stats": {
         "totalVotes": 33450,
         "totalSubs": 133,
-        "totalChatMessages": 7688,
-        "totalStreamMinutes": 13990,
+        "totalChatMessages": 7724,
+        "totalStreamMinutes": 14010,
         "emotes": {
           "😅": 8,
           "🔥": 322,
@@ -21705,15 +21735,15 @@
           "🤣": 60,
           "😁": 8,
           "😜": 11,
-          "🙏": 1,
+          "🙏": 2,
           "🙌": 237,
           "💪": 2,
-          "👋": 73,
-          "9bbb90da-7f28-448d-9986-2748f752a3e6": 1040,
+          "👋": 74,
+          "9bbb90da-7f28-448d-9986-2748f752a3e6": 1043,
           "ebcc8dc4-0fdd-410e-87bf-6ee21747ac35": 580,
           "🔴": 62,
-          "🎉": 155,
-          "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 396,
+          "🎉": 156,
+          "9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79": 398,
           "💎": 7,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 7,
           "a859cc12-453a-4bd8-b650-38710d9486de": 213,
@@ -21724,10 +21754,10 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 24,
           "📴": 62,
           "d021d096-f2ed-48e4-92df-af5f224e1a3f": 319,
-          "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 173,
+          "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 178,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 38,
           "📢": 86,
-          "🚨": 426,
+          "🚨": 432,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 4,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 29,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 17,
@@ -21944,7 +21974,7 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792678645599,
+        "lastChatAt": 1792679855863,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -21953,44 +21983,44 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🔴 fartvader is now live! Welcome everyone! 🎉"
+          "user": "badger",
+          "msg": "Hey Captain Rob!"
         },
         {
-          "user": "fartvader",
-          "msg": "hello everyone, gm gm! We'd be playing Poke Survivors Doofcraft Edition today. Hope everyone's doing okay. [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
+          "user": "capt_rob_advent",
+          "msg": "Good day @badger"
         },
         {
-          "user": "seekas",
-          "msg": "GM kuya @fartvader"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @SEEKAS just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
-        },
-        {
-          "user": "seekas",
-          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
-        },
-        {
-          "user": "lunaria",
-          "msg": "GM ninong vader[emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79][emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
+          "user": "nekoschwan",
+          "msg": "hello @capt_rob_advent"
         },
         {
           "user": "potato_pete",
+          "msg": "muted the fart"
+        },
+        {
+          "user": "fartvader",
           "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
         },
         {
-          "user": "fartvader",
-          "msg": "heya Pete...how are you doing?"
+          "user": "capt_rob_advent",
+          "msg": "Hi @nekoschwan"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "had too much fart so he muited u"
         },
         {
           "user": "potato_pete",
-          "msg": "thanks for the shout, just waking up having some coffee"
+          "msg": "hah"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "is this the game u said earlier today FV?"
+        },
+        {
+          "user": "nekoschwan",
+          "msg": "alrightt"
         }
       ],
       "customCommands": {},
@@ -22252,7 +22282,7 @@
         "entries": []
       },
       "_idAt": 1792666671019,
-      "_gameAt": 1792678622143,
+      "_gameAt": 1792679750800,
       "isLive": true,
       "streamCategory": "Games + Demos",
       "voteLog": [
@@ -23056,9 +23086,9 @@
       "joinedAt": 1786592864058,
       "stats": {
         "totalVotes": 6618,
-        "totalSubs": 34,
-        "totalChatMessages": 1704,
-        "totalStreamMinutes": 8536,
+        "totalSubs": 35,
+        "totalChatMessages": 1737,
+        "totalStreamMinutes": 8556,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -23076,7 +23106,7 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 31,
           "🌀": 2,
           "🐌": 2,
-          "🙏": 2,
+          "🙏": 3,
           "👋": 8,
           "🦊": 1,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 45,
@@ -23096,8 +23126,8 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": 7,
           "60967948-8805-42ef-a202-051d2e2f1557": 7,
           "🙌": 1,
-          "fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb": 193,
-          "c3726a5d-38e3-4b44-b06f-ad1cc637e041": 350,
+          "fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb": 196,
+          "c3726a5d-38e3-4b44-b06f-ad1cc637e041": 353,
           "✌": 1,
           "👍": 1,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 2,
@@ -23117,7 +23147,8 @@
           "😅": 2,
           "🎡": 2,
           "🫡": 1,
-          "👌": 3
+          "👌": 3,
+          "💛": 1
         },
         "emoteNames": {
           "🧡": "🧡",
@@ -23177,51 +23208,52 @@
           "😅": "😅",
           "🎡": "🎡",
           "🫡": "🫡",
-          "👌": "👌"
+          "👌": "👌",
+          "💛": "💛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792678164849
+        "lastChatAt": 1792679721007
       },
       "chatMemory": [
         {
-          "user": "agent00zani",
-          "msg": "i am not here ,,, don't even try .... ninja"
+          "user": "badger",
+          "msg": "Just play your game bro. Don't worry about the sub back lol"
         },
         {
-          "user": "lights_out",
-          "msg": "[Lights Out] @agent00zani Your quest: go /touchgrass — do it in a stream with the park background. (/quit drops it)"
+          "user": "nekoschwan",
+          "msg": "which discord you guys at"
         },
         {
-          "user": "agent00zani",
-          "msg": "don't forget tarzan"
+          "user": "nekoschwan",
+          "msg": "[emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041]"
         },
         {
-          "user": "lights_out",
-          "msg": "[Lights Out] You followed me so now I'm tracking you. Say hello to Lights Out — Discord's first Blaze engagement bot. This means your community has access to games, giveaways, and fun for all. Type /help to take a look. Unfollow me to remove from your chat.Please send feedback to Sentius Nox =)"
+          "user": "badger",
+          "msg": "THANK YOU!!!"
         },
         {
-          "user": "jaggerjack",
-          "msg": "/help"
+          "user": "nekoschwan",
+          "msg": "no its okay"
         },
         {
-          "user": "lights_out",
-          "msg": "[Lights Out] @JaggerJack Commands: /points /daily /shop /buy [item] /pack /use [item] /give [user] [amount] /giveitem [user] [item] /rob [user] /duel [user] [wager] /duelaccept /dueldecline /blackjack [wager] /hit /stand /character /leaderboard /fish /cast /bait [name] /yoink /myfish /sell /equip /unequip /adventure [name] (streamer only) /join /party /help"
+          "user": "nekoschwan",
+          "msg": "just asking haha"
         },
         {
-          "user": "fartvader",
-          "msg": "[emote:3cf95bc1-83e8-4de3-84a0-3af27264496d] [emote:3cf95bc1-83e8-4de3-84a0-3af27264496d] [emote:3cf95bc1-83e8-4de3-84a0-3af27264496d]"
+          "user": "nekoschwan",
+          "msg": "im not on ded dc anyway rn"
         },
         {
-          "user": "lights_out",
-          "msg": "[Lights Out] @FartVader Your quest: /pass — do it in a stream with the alley background. (/quit drops it)"
+          "user": "nekoschwan",
+          "msg": "oh noooo u muted vaderrr"
         },
         {
-          "user": "seekas",
-          "msg": "helo kuya @jaggerjack"
+          "user": "potato_pete",
+          "msg": "he muted the fart"
         },
         {
-          "user": "seekas",
-          "msg": "[emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041]"
+          "user": "nekoschwan",
+          "msg": "@potato_pete are you down for subs? helloooo"
         }
       ],
       "customCommands": {},
@@ -23332,12 +23364,17 @@
           "name": "avisi",
           "months": 1,
           "tier": 1
+        },
+        "badger": {
+          "name": "badger",
+          "months": 1,
+          "tier": 1
         }
       },
       "_idAt": 1792666674623,
       "streamCategory": "Steam",
       "isLive": true,
-      "_gameAt": 1792678064744,
+      "_gameAt": 1792679562955,
       "voteLog": [
         {
           "t": 1792429891447,
@@ -27689,9 +27726,9 @@
       "n": 1
     },
     "badger": {
-      "note": "Enthusiastic gamer who loves WoW and Portal 2, draws on iPad with Procreate, creates layered music, and keeps a playful, energetic chat vibe.",
-      "at": 1792293109093,
-      "n": 42
+      "note": "Enthusiastic gamer who loves WoW and Portal 2, draws on iPad with Procreate, layers music, and keeps a playful, energetic chat vibe.",
+      "at": 1792679330251,
+      "n": 43
     },
     "fartvader": {
       "note": "Energetic gamer who loves Ghost Recon Wildlands, Palworld, Dota, Hero Siege, Roblox battle‑royale, idle RPGs, AION2, and brings playful, friendly humor.",
