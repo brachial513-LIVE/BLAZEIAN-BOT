@@ -19475,8 +19475,8 @@
       "stats": {
         "totalVotes": 3267,
         "totalSubs": 5,
-        "totalChatMessages": 133,
-        "totalStreamMinutes": 5704,
+        "totalChatMessages": 134,
+        "totalStreamMinutes": 5709,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -19512,13 +19512,9 @@
           "💎": "💎"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792653019640
+        "lastChatAt": 1792655845367
       },
       "chatMemory": [
-        {
-          "user": "loboblanco",
-          "msg": "Heeey hermanooo!"
-        },
         {
           "user": "meyetechnicals",
           "msg": "hi lobo"
@@ -19554,6 +19550,10 @@
         {
           "user": "meyetechnicals",
           "msg": "hey @FartVader 💎"
+        },
+        {
+          "user": "mrnoob",
+          "msg": "hey bro what does sub x sub mean?"
         }
       ],
       "customCommands": {
@@ -19602,7 +19602,7 @@
       "_idAt": 1792642672202,
       "streamCategory": "IRL",
       "isLive": true,
-      "_gameAt": 1792652862298
+      "_gameAt": 1792655845464
     },
     "cb2ce9ff-c2d0-425e-9238-54b535f07d02": {
       "username": "homiedrew",
@@ -27005,7 +27005,7 @@
         "totalVotes": 269,
         "totalSubs": 1,
         "totalChatMessages": 128,
-        "totalStreamMinutes": 293,
+        "totalStreamMinutes": 298,
         "emotes": {
           "👋": 4,
           "❤": 10,
@@ -28580,8 +28580,8 @@
     }
   },
   "auth": {
-    "accessToken": "31581bca2fc084ccbbeaf5206d1b83ed",
-    "refreshToken": "4211fd237b1799df7cb37c32dec25cc9",
+    "accessToken": "0c2ecbc3ec3e093649f6b3aa6273ee18",
+    "refreshToken": "3fcb72884e95b9742c90f34587d49f1c",
     "sessionToken": "d00d65951a8dec30b55ddf3103fa8431",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
