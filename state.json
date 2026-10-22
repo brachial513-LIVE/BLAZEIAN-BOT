@@ -2548,8 +2548,8 @@
       "stats": {
         "totalVotes": 46429,
         "totalSubs": 287,
-        "totalChatMessages": 14838,
-        "totalStreamMinutes": 35550,
+        "totalChatMessages": 14840,
+        "totalStreamMinutes": 35570,
         "emotes": {
           "📊": 3,
           "🔥": 639,
@@ -3131,13 +3131,9 @@
           "🍯": "🍯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792681297195
+        "lastChatAt": 1792681467416
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
-        },
         {
           "user": "nekoschwan",
           "msg": "firsssst"
@@ -3173,6 +3169,10 @@
         {
           "user": "foxbotai",
           "msg": "RAID LOVE! Huge thanks to @foxbotai for bringing the community over. +250 FoxCoins. Balance: 10800 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard, !convert, !casinoflip heads 10, !casino, !roulette red 10, !crash 10 2.5, !blackjack 10, !hit, !stand, !dice high 10, !slots 10 | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
         }
       ],
       "customCommands": {},
@@ -3353,7 +3353,7 @@
       },
       "streamCategory": "Grand Theft Auto V",
       "isLive": true,
-      "_gameAt": 1792681247418,
+      "_gameAt": 1792681450740,
       "voteLog": [
         {
           "t": 1792429891148,
@@ -3453,15 +3453,15 @@
       "stats": {
         "totalVotes": 10272,
         "totalSubs": 34,
-        "totalChatMessages": 6621,
+        "totalChatMessages": 6622,
         "totalStreamMinutes": 6758,
         "emotes": {
           "🗳": 461,
           "🤣": 65,
           "🔥": 186,
           "💚": 33,
-          "❤": 102,
-          "🙌": 71,
+          "❤": 104,
+          "🙌": 72,
           "👀": 12,
           "😘": 4,
           "📴": 39,
@@ -3691,14 +3691,10 @@
           "🚀": "🚀",
           "🎯": "🎯"
         },
-        "lastChatAt": 1791149452750,
+        "lastChatAt": 1792681892750,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Brachial513 just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
-        },
         {
           "user": "brachial513",
           "msg": "GGs for winning 20 Votes at our Weekly Giveaway on my Channel ! Also Thank you for beeing a part of the Blazeiancrew !"
@@ -3734,6 +3730,10 @@
         {
           "user": "botger",
           "msg": "Thank you for being a subscriber to botger! Here are your weekly subscriber votes."
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -3812,7 +3812,10 @@
       "lastStreamEndedAt": 1789956701893,
       "nudgedAt": 1786436965117,
       "nudgedKey": "schedule",
-      "_idAt": 1792681075827
+      "_idAt": 1792681075827,
+      "_gameAt": 1792681892895,
+      "isLive": false,
+      "streamCategory": ""
     },
     "5e9d9b5f-98cf-4b92-a93c-ed876703b55a": {
       "username": "agent00zani",
@@ -4482,7 +4485,7 @@
           "dur": 27
         }
       },
-      "_idAt": 1792659467455,
+      "_idAt": 1792681575981,
       "_gameAt": 1792666178232,
       "isLive": false,
       "streamCategory": "",
@@ -5254,7 +5257,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792611590628,
-      "_idAt": 1792659468627,
+      "_idAt": 1792681575996,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792672779306,
@@ -5534,7 +5537,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1792659469987,
+      "_idAt": 1792681575982,
       "_gameAt": 1792441754515,
       "isLive": false,
       "streamCategory": "",
@@ -6020,7 +6023,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "West Bound south east Texas on the ICW",
       "lastStreamEndedAt": 1792423488702,
-      "_idAt": 1792659471022,
+      "_idAt": 1792681575994,
       "_gameAt": 1792671673332,
       "isLive": false,
       "streamCategory": "",
@@ -6243,7 +6246,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792659472217
+      "_idAt": 1792681575991
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -6614,7 +6617,7 @@
       "lastStreamEndedAt": 1792619035043,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792659473426,
+      "_idAt": 1792681575989,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792672449227,
@@ -6667,7 +6670,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792659474621
+      "_idAt": 1792681575987
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -7525,7 +7528,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "IRL",
       "lastStreamEndedAt": 1792567916043,
-      "_idAt": 1792659475821,
+      "_idAt": 1792681575982,
       "_gameAt": 1792679376338,
       "isLive": false,
       "streamCategory": "",
@@ -11055,8 +11058,8 @@
       "stats": {
         "totalVotes": 27440,
         "totalSubs": 77,
-        "totalChatMessages": 18028,
-        "totalStreamMinutes": 12445,
+        "totalChatMessages": 18045,
+        "totalStreamMinutes": 12465,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -11251,7 +11254,7 @@
           "298c22d7-9014-4525-aad4-fedfa7811531": 11,
           "b8f5ff16-2e11-4695-98de-e426fff3889e": 169,
           "0c0798fa-e75a-4159-a733-4400bce40207": 27,
-          "9ddd5726-8457-4a1c-903d-6d155e631d69": 435,
+          "9ddd5726-8457-4a1c-903d-6d155e631d69": 448,
           "701903b5-7d18-462b-9e72-fd943ba2f3b2": 171,
           "4e60197e-4907-4810-a34f-6b7e4427b103": 30,
           "37719561-c923-4260-b1a5-e3eda10c103d": 5,
@@ -11518,48 +11521,48 @@
           "🤝": "🤝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792680475214
+        "lastChatAt": 1792682534081
       },
       "chatMemory": [
         {
-          "user": "soulflux",
-          "msg": "Bidlooooo"
+          "user": "jaggerjack",
+          "msg": "Still the same"
         },
         {
-          "user": "jt_squared2",
-          "msg": "hey MiM. This is early for you, no?"
+          "user": "cymatrix",
+          "msg": "mornin!"
         },
         {
-          "user": "soulflux",
-          "msg": "How is his condition?"
+          "user": "cymatrix",
+          "msg": "not often I get to say mornin"
         },
         {
-          "user": "soulflux",
-          "msg": "Hey @jt_squared2"
+          "user": "cymatrix",
+          "msg": "good man. How about yourself?"
         },
         {
-          "user": "jt_squared2",
-          "msg": "hey @soulflux"
+          "user": "cymatrix",
+          "msg": "aye fogeddabouddit"
         },
         {
-          "user": "soulflux",
-          "msg": "Whish that for him"
+          "user": "jaggerjack",
+          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
         },
         {
-          "user": "soulflux",
-          "msg": "Yaaaa 🔥"
+          "user": "cymatrix",
+          "msg": "wassup @jaggerjack"
         },
         {
-          "user": "nekoschwan",
-          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
+          "user": "metal_bot",
+          "msg": "@cymatrix Found 3 matches: 1. Plume, Fred Leonard, Laurent Parisi, Danny Elfman - Disco Jam | 2. Plume, Fred Leonard, Laurent Parisi, Danny Elfman - The Hoodstomper | 3. Danny Elfman - \"The Simpsons\" Main Title Theme — Reply !pick 1-3 to select"
         },
         {
-          "user": "nekoschwan",
-          "msg": "[emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69] [emote:9ddd5726-8457-4a1c-903d-6d155e631d69]"
+          "user": "metal_bot",
+          "msg": "@cymatrix Found 7 matches: 1. Oingo Boingo - Dead Man's Party | 2. Oingo Boingo - Stay | 3. Oingo Boingo - Private Life | 4. Oingo Boingo - Little Girls | 5. Oingo Boingo - Weird Science | 6. Oingo Boingo - Grey Matter | 7. Oingo Boingo - Only A Lad — Reply !pick 1-7 to select"
         },
         {
-          "user": "nekoschwan",
-          "msg": "always amazinggg"
+          "user": "metal_bot",
+          "msg": "@cymatrix Added \"Oingo Boingo - Grey Matter\" to the queue! (Position #2)"
         }
       ],
       "customCommands": {},
@@ -11691,7 +11694,7 @@
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
       "_idAt": 1792661873424,
-      "_gameAt": 1792680475322,
+      "_gameAt": 1792682508166,
       "isLive": true,
       "streamCategory": "Music",
       "voteLog": [
@@ -13618,7 +13621,7 @@
         "totalVotes": 24213,
         "totalSubs": 64,
         "totalChatMessages": 2646,
-        "totalStreamMinutes": 4945,
+        "totalStreamMinutes": 4965,
         "emotes": {
           "❤": 177,
           "🙌": 150,
@@ -16696,7 +16699,7 @@
         "totalVotes": 22357,
         "totalSubs": 47,
         "totalChatMessages": 3411,
-        "totalStreamMinutes": 13785,
+        "totalStreamMinutes": 13805,
         "emotes": {
           "❤": 123,
           "🙌": 90,
@@ -18484,7 +18487,7 @@
         "totalVotes": 13462,
         "totalSubs": 40,
         "totalChatMessages": 1753,
-        "totalStreamMinutes": 11440,
+        "totalStreamMinutes": 11460,
         "emotes": {
           "❤": 99,
           "🙌": 73,
@@ -21724,8 +21727,8 @@
       "stats": {
         "totalVotes": 33450,
         "totalSubs": 133,
-        "totalChatMessages": 7727,
-        "totalStreamMinutes": 14035,
+        "totalChatMessages": 7728,
+        "totalStreamMinutes": 14055,
         "emotes": {
           "😅": 8,
           "🔥": 322,
@@ -21979,7 +21982,7 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792680862557,
+        "lastChatAt": 1792682309002,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -21987,10 +21990,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "potato_pete",
-          "msg": "muted the fart"
-        },
         {
           "user": "fartvader",
           "msg": "[emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6] [emote:9bbb90da-7f28-448d-9986-2748f752a3e6]"
@@ -22026,6 +22025,10 @@
         {
           "user": "fartvader",
           "msg": "goodnight badgi! take care"
+        },
+        {
+          "user": "timdraws",
+          "msg": "liking this version more ?"
         }
       ],
       "customCommands": {},
@@ -22287,7 +22290,7 @@
         "entries": []
       },
       "_idAt": 1792666671019,
-      "_gameAt": 1792680862661,
+      "_gameAt": 1792682309100,
       "isLive": true,
       "streamCategory": "Games + Demos",
       "voteLog": [
@@ -23093,7 +23096,7 @@
         "totalVotes": 6618,
         "totalSubs": 35,
         "totalChatMessages": 1740,
-        "totalStreamMinutes": 8581,
+        "totalStreamMinutes": 8601,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -24932,11 +24935,11 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 26,
+        "totalChatMessages": 27,
         "totalStreamMinutes": 298,
         "emotes": {
-          "❤": 10,
-          "🙌": 6,
+          "❤": 12,
+          "🙌": 7,
           "5908a9f8-af12-4431-9925-9fc24005a3ba": 5,
           "🔴": 3,
           "🎉": 3,
@@ -24961,13 +24964,9 @@
           "9764c7bd-e942-45d8-8836-6e77d942ca68": "SAD"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792600219977
+        "lastChatAt": 1792681532643
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @noodles to the channel! Thank you so much for subscribing! 🙌"
@@ -25003,6 +25002,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -25028,7 +25031,7 @@
       },
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792600220070
+      "_gameAt": 1792681532740
     },
     "fe359364-dfd5-43f2-b962-fce5fa2fb10c": {
       "username": "zeenlive",
@@ -27435,7 +27438,7 @@
         "totalVotes": 269,
         "totalSubs": 1,
         "totalChatMessages": 136,
-        "totalStreamMinutes": 370,
+        "totalStreamMinutes": 390,
         "emotes": {
           "👋": 5,
           "❤": 10,
@@ -28745,8 +28748,8 @@
     },
     "andrebrd": {
       "note": "He’s a loud‑loud gamer who loves Fortnite, Bandai games, sushi, capoeira, and football, and he jokes a lot.",
-      "at": 1792630490102,
-      "n": 8
+      "at": 1792681970557,
+      "n": 9
     },
     "flower4803": {
       "note": "Friendly, playful chat with a love for fish, skins, and game credits, often greeting warmly and joking about collecting items.",
