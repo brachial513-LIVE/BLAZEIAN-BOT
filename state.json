@@ -7659,16 +7659,16 @@
       "stats": {
         "totalVotes": 50081,
         "totalSubs": 91,
-        "totalChatMessages": 9856,
-        "totalStreamMinutes": 16823,
+        "totalChatMessages": 9859,
+        "totalStreamMinutes": 16826,
         "emotes": {
           "❤": 176,
           "🙌": 226,
           "🗳": 984,
           "🔴": 99,
           "🎉": 169,
-          "📴": 97,
-          "👋": 111,
+          "📴": 98,
+          "👋": 112,
           "🔥": 269,
           "💪": 6,
           "🤖": 1,
@@ -8071,22 +8071,10 @@
           "🧂": "🧂",
           "🚂": "🚂"
         },
-        "lastChatAt": 1792638695509,
+        "lastChatAt": 1792639595361,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cg777",
-          "msg": "accept"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@CG777 is raiding with 3 viewers! Welcome, raiders!"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @CG777 is raiding with a party of 3! Welcome raiders!! 🎉"
-        },
         {
           "user": "cg777",
           "msg": "E the click enter dungeon"
@@ -8114,6 +8102,18 @@
         {
           "user": "meyetechnicals",
           "msg": "ok thanks"
+        },
+        {
+          "user": "fartvader",
+          "msg": "cya nadie..take care!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -8122,7 +8122,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "1500 votes giveaway🐢Squirtle week day 3🐢❤️Trying Mossvale! ❤️",
+      "streamTitle": "",
       "profile": "Chill gaming crew on nadietv, loving WoW, Stumble Guys, Path of Exile 2, Dota, retro oldies. “Blazeee” vibes, “Will be relax day” shenanigans, spontaneous “VOTE ALERT!!” shoutouts, “hard reset” moments, celebratory “hard reset” waves. Stream thrives on spontaneous “VOTE ALERT!!” shoutouts, “hard reset” resets, and “Will be relax day” chill streams, always ending with a celebratory “hard reset.”",
       "_profileAtCount": 9844,
       "gameOverride": "",
@@ -8308,8 +8308,8 @@
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "🐢Squirtle week day 2🐢❤️Starfall Tuesday! ❤️",
-      "lastStreamEndedAt": 1792557502988,
+      "lastStreamInfo": "1500 votes giveaway🐢Squirtle week day 3🐢❤️Trying Mossvale! ❤️",
+      "lastStreamEndedAt": 1792639590224,
       "_idAt": 1792637869790,
       "mascotMsgs": [
         "Don't forget to Subscribe!",
@@ -8319,9 +8319,9 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1792638638419,
-      "isLive": true,
-      "streamCategory": "Crypto",
+      "_gameAt": 1792639577166,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891059,
@@ -28112,8 +28112,8 @@
     }
   },
   "auth": {
-    "accessToken": "2a258e2ac1e8e10425d1758d03d92b72",
-    "refreshToken": "1512576ac3d53e7a75c701bcb69ce314",
+    "accessToken": "cbb6617fd1452aa327a36b056db0b2b2",
+    "refreshToken": "5ab1fe20f5cb18d51401db0e9efd188b",
     "sessionToken": "d00d65951a8dec30b55ddf3103fa8431",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
