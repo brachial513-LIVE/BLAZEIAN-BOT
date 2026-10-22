@@ -2549,7 +2549,7 @@
         "totalVotes": 46429,
         "totalSubs": 287,
         "totalChatMessages": 14840,
-        "totalStreamMinutes": 35570,
+        "totalStreamMinutes": 35575,
         "emotes": {
           "📊": 3,
           "🔥": 639,
@@ -11058,8 +11058,8 @@
       "stats": {
         "totalVotes": 27440,
         "totalSubs": 77,
-        "totalChatMessages": 18045,
-        "totalStreamMinutes": 12465,
+        "totalChatMessages": 18048,
+        "totalStreamMinutes": 12470,
         "emotes": {
           "🧏": 1,
           "♂": 3,
@@ -11224,7 +11224,7 @@
           "⭕": 2,
           "‼": 1,
           "🤪": 1,
-          "e5e8de17-1ebf-4f87-80fa-04abbe09c500": 1589,
+          "e5e8de17-1ebf-4f87-80fa-04abbe09c500": 1590,
           "d406354b-4ee8-4dd6-98ec-cf605c7e38a1": 3627,
           "🪥": 1,
           "😩": 1,
@@ -11521,17 +11521,9 @@
           "🤝": "🤝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792682534081
+        "lastChatAt": 1792682783211
       },
       "chatMemory": [
-        {
-          "user": "jaggerjack",
-          "msg": "Still the same"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "mornin!"
-        },
         {
           "user": "cymatrix",
           "msg": "not often I get to say mornin"
@@ -11563,6 +11555,14 @@
         {
           "user": "metal_bot",
           "msg": "@cymatrix Added \"Oingo Boingo - Grey Matter\" to the queue! (Position #2)"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@cymatrix Added \"Rob Zombie - Superbeast\" to the queue! (Position #3)"
+        },
+        {
+          "user": "avisi",
+          "msg": "[emote:e5e8de17-1ebf-4f87-80fa-04abbe09c500]"
         }
       ],
       "customCommands": {},
@@ -11694,7 +11694,7 @@
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
       "_idAt": 1792661873424,
-      "_gameAt": 1792682508166,
+      "_gameAt": 1792682783341,
       "isLive": true,
       "streamCategory": "Music",
       "voteLog": [
@@ -13621,7 +13621,7 @@
         "totalVotes": 24213,
         "totalSubs": 64,
         "totalChatMessages": 2646,
-        "totalStreamMinutes": 4965,
+        "totalStreamMinutes": 4970,
         "emotes": {
           "❤": 177,
           "🙌": 150,
@@ -16699,7 +16699,7 @@
         "totalVotes": 22357,
         "totalSubs": 47,
         "totalChatMessages": 3411,
-        "totalStreamMinutes": 13805,
+        "totalStreamMinutes": 13810,
         "emotes": {
           "❤": 123,
           "🙌": 90,
@@ -18487,7 +18487,7 @@
         "totalVotes": 13462,
         "totalSubs": 40,
         "totalChatMessages": 1753,
-        "totalStreamMinutes": 11460,
+        "totalStreamMinutes": 11465,
         "emotes": {
           "❤": 99,
           "🙌": 73,
@@ -21728,7 +21728,7 @@
         "totalVotes": 33450,
         "totalSubs": 133,
         "totalChatMessages": 7728,
-        "totalStreamMinutes": 14055,
+        "totalStreamMinutes": 14060,
         "emotes": {
           "😅": 8,
           "🔥": 322,
@@ -23096,7 +23096,7 @@
         "totalVotes": 6618,
         "totalSubs": 35,
         "totalChatMessages": 1740,
-        "totalStreamMinutes": 8601,
+        "totalStreamMinutes": 8606,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -27438,7 +27438,7 @@
         "totalVotes": 269,
         "totalSubs": 1,
         "totalChatMessages": 136,
-        "totalStreamMinutes": 390,
+        "totalStreamMinutes": 395,
         "emotes": {
           "👋": 5,
           "❤": 10,
@@ -29019,8 +29019,8 @@
     }
   },
   "auth": {
-    "accessToken": "2a459c4237780b9dea282651dcb26115",
-    "refreshToken": "b43f4df2f88afab4fe6f395430363129",
+    "accessToken": "ec46c549698ec0836262b7bc824bff6f",
+    "refreshToken": "91d615be3e6575fecbbe0212eac4ad5f",
     "sessionToken": "d00d65951a8dec30b55ddf3103fa8431",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
