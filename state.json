@@ -1729,7 +1729,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 35771,
-        "totalSubs": 90,
+        "totalSubs": 91,
         "totalChatMessages": 46123,
         "totalStreamMinutes": 4165,
         "emotes": {
@@ -2168,7 +2168,7 @@
         },
         "nadietv": {
           "name": "nadietv",
-          "months": 2,
+          "months": 3,
           "tier": 1
         },
         "vroshi55": {
@@ -11941,7 +11941,7 @@
       "username": "saboomafoo",
       "language": "en",
       "stats": {
-        "totalVotes": 12461,
+        "totalVotes": 12561,
         "totalSubs": 211,
         "totalChatMessages": 523,
         "totalStreamMinutes": 17439,
@@ -12187,6 +12187,11 @@
           "t": 1792601336692,
           "v": "twistedtinker",
           "a": 1
+        },
+        {
+          "t": 1792640780381,
+          "v": "vroshi55",
+          "a": 100
         }
       ]
     },
@@ -12394,7 +12399,7 @@
       "lastStreamEndedAt": 1791789577218,
       "nudgedAt": 1786555068712,
       "nudgedKey": "schedule",
-      "_idAt": 1792612715749
+      "_idAt": 1792640267489
     },
     "c9fc8afb-4c03-476a-8a6f-93aabd1bfca7": {
       "username": "anjanna87",
@@ -12501,7 +12506,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792612716258,
+      "_idAt": 1792640268608,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792608777035
@@ -12588,7 +12593,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792612716748
+      "_idAt": 1792640269795
     },
     "66d1447b-e098-49e7-af14-5c922d822d84": {
       "username": "omererkmen",
@@ -12675,7 +12680,7 @@
       "gameOverride": "",
       "profile": "o mererkmen streams chill “Just talking” sessions, often IRL, with the community humming “Come hang out and watch.” The chat loves the signature emote 9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2 and the phrase “My iPhone overheated ending…”. Followers celebrate by cheering “Thanks for watching” and “Stream is now live” alerts, keeping the vibe relaxed and supportive.",
       "_profileAtCount": 40,
-      "_idAt": 1792612717250,
+      "_idAt": 1792640270992,
       "nudgedAt": 1791616183720,
       "nudgedKey": "schedule",
       "_gameAt": 1792373321263,
@@ -12951,7 +12956,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792612717756,
+      "_idAt": 1792640272196,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792588243533,
@@ -13200,7 +13205,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792612718252,
+      "_idAt": 1792640273402,
       "_gameAt": 1792600474560,
       "isLive": false,
       "streamCategory": "",
@@ -13592,7 +13597,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "[UK] #40 HORDE!!!- VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
       "lastStreamEndedAt": 1792540593534,
-      "_idAt": 1792612718748,
+      "_idAt": 1792640274589,
       "_gameAt": 1792615079028,
       "isLive": false,
       "streamCategory": "",
@@ -14158,7 +14163,7 @@
       },
       "lastStreamInfo": "Indie Spooky Game! Say Hi?!",
       "lastStreamEndedAt": 1792591587415,
-      "_idAt": 1792612719244,
+      "_idAt": 1792640275790,
       "_gameAt": 1792591592694,
       "isLive": false,
       "streamCategory": "",
@@ -20026,9 +20031,9 @@
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 12245,
+        "totalVotes": 12345,
         "totalSubs": 90,
-        "totalChatMessages": 1884,
+        "totalChatMessages": 1885,
         "totalStreamMinutes": 7612,
         "emotes": {
           "❤": 75,
@@ -20125,13 +20130,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792601337056
+        "lastChatAt": 1792640780779
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @angge_wf just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @angge_wf at https://blaze.stream/angge_wf!"
@@ -20167,6 +20168,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @TwistedTinker!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 100 votes, @vRoshi55!"
         }
       ],
       "customCommands": {},
@@ -20270,7 +20275,7 @@
         }
       },
       "_idAt": 1792612727744,
-      "_gameAt": 1792601337170,
+      "_gameAt": 1792640781006,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -20308,6 +20313,11 @@
           "t": 1792601336716,
           "v": "twistedtinker",
           "a": 1
+        },
+        {
+          "t": 1792640780407,
+          "v": "vroshi55",
+          "a": 100
         }
       ]
     },
