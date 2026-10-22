@@ -7644,8 +7644,8 @@
       "stats": {
         "totalVotes": 47096,
         "totalSubs": 90,
-        "totalChatMessages": 9753,
-        "totalStreamMinutes": 16733,
+        "totalChatMessages": 9754,
+        "totalStreamMinutes": 16738,
         "emotes": {
           "❤": 176,
           "🙌": 225,
@@ -8056,14 +8056,10 @@
           "🧂": "🧂",
           "🚂": "🚂"
         },
-        "lastChatAt": 1792633653330,
+        "lastChatAt": 1792634209612,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cg777",
-          "msg": "love it"
-        },
         {
           "user": "briggsy",
           "msg": "What is the goal of this game, Nadie?"
@@ -8099,6 +8095,10 @@
         {
           "user": "mossvale",
           "msg": "Fair enough my real name is Daniel but for some reason i ended up with dan"
+        },
+        {
+          "user": "briggsy",
+          "msg": "DoffMan"
         }
       ],
       "customCommands": {},
@@ -8304,7 +8304,7 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1792633537857,
+      "_gameAt": 1792634209713,
       "isLive": true,
       "streamCategory": "Crypto",
       "voteLog": [
@@ -8457,7 +8457,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 973,
-        "totalStreamMinutes": 23786,
+        "totalStreamMinutes": 23791,
         "emotes": {
           "❤": 134,
           "🙌": 43,
@@ -14683,7 +14683,7 @@
         "totalVotes": 11189,
         "totalSubs": 74,
         "totalChatMessages": 614,
-        "totalStreamMinutes": 10023,
+        "totalStreamMinutes": 10028,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -22672,20 +22672,20 @@
       "stats": {
         "totalVotes": 11172,
         "totalSubs": 38,
-        "totalChatMessages": 4999,
-        "totalStreamMinutes": 16588,
+        "totalChatMessages": 5001,
+        "totalStreamMinutes": 16592,
         "emotes": {
           "👋": 119,
           "⚠": 2,
           "🎯": 2,
           "🗳": 494,
-          "🔴": 113,
-          "🎉": 148,
+          "🔴": 114,
+          "🎉": 149,
           "📴": 114,
           "🎡": 3,
           "®": 3,
           "📢": 9,
-          "🔥": 184,
+          "🔥": 186,
           "❤": 58,
           "😶": 7,
           "🌫": 7,
@@ -22869,17 +22869,9 @@
           "🚂": "🚂"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792632096731
+        "lastChatAt": 1792633974573
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live: I built a crypto arcade?! 🔥 320th Blaze Stream🔥! Come hang out and watch."
@@ -22911,6 +22903,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 inn is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: I built a crypto arcade?! 🔥 320th Blaze Stream🔥! Come hang out and watch."
         }
       ],
       "customCommands": {
@@ -22925,7 +22925,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "I built a crypto arcade?! 🔥 320th Blaze Stream🔥",
       "lastStreamInfo": "I built a crypto arcade?! 🔥 320th Blaze Stream🔥",
       "lastStreamEndedAt": 1792632091533,
       "gameOverride": "",
@@ -23037,9 +23037,9 @@
         }
       },
       "_idAt": 1792612731743,
-      "_gameAt": 1792632004030,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1792633974327,
+      "isLive": true,
+      "streamCategory": "Just Chatting",
       "voteLog": [
         {
           "t": 1792429891170,
@@ -28067,8 +28067,8 @@
     }
   },
   "auth": {
-    "accessToken": "1979aece2d091b30802ad9b1d406116d",
-    "refreshToken": "1183969ebfc6f8563d6c6b380c41af43",
+    "accessToken": "19896a2f0d3155e088d57bd45b044683",
+    "refreshToken": "a1c318fe14c1856f4ffc8a9b01ab936d",
     "sessionToken": "d00d65951a8dec30b55ddf3103fa8431",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
