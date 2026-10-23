@@ -23378,7 +23378,7 @@
         "totalVotes": 4961,
         "totalSubs": 30,
         "totalChatMessages": 901,
-        "totalStreamMinutes": 6721,
+        "totalStreamMinutes": 6726,
         "emotes": {
           "❤": 36,
           "🙌": 41,
@@ -24140,8 +24140,8 @@
       "stats": {
         "totalVotes": 11775,
         "totalSubs": 38,
-        "totalChatMessages": 5032,
-        "totalStreamMinutes": 16670,
+        "totalChatMessages": 5052,
+        "totalStreamMinutes": 16675,
         "emotes": {
           "👋": 120,
           "⚠": 2,
@@ -24238,7 +24238,8 @@
           "🍯": 1,
           "🍗": 1,
           "🚂": 1,
-          "60967948-8805-42ef-a202-051d2e2f1557": 1
+          "60967948-8805-42ef-a202-051d2e2f1557": 1,
+          "😭": 1
         },
         "emoteNames": {
           "👋": "👋",
@@ -24336,51 +24337,52 @@
           "🍯": "🍯",
           "🍗": "🍗",
           "🚂": "🚂",
-          "60967948-8805-42ef-a202-051d2e2f1557": "SLEEPYRO"
+          "60967948-8805-42ef-a202-051d2e2f1557": "SLEEPYRO",
+          "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792750068545
+        "lastChatAt": 1792750343677
       },
       "chatMemory": [
         {
-          "user": "botshit",
-          "msg": "Shit happens. Apparently, on command."
-        },
-        {
           "user": "brachial513",
-          "msg": "i am here for the test [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
-        },
-        {
-          "user": "allybear",
-          "msg": "lol"
-        },
-        {
-          "user": "brachial513",
-          "msg": "[emote:60967948-8805-42ef-a202-051d2e2f1557]"
-        },
-        {
-          "user": "inn",
-          "msg": "lol"
-        },
-        {
-          "user": "allybear",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "inn",
-          "msg": "well hook ya up when ya got a wallet with a bear skin! there all nfts!"
-        },
-        {
-          "user": "inn",
-          "msg": "gm tho!"
+          "msg": "😭 im to confused rn"
         },
         {
           "user": "scurvybot",
-          "msg": "@inn please provide at least a username to send the prize to. Example usage: !prize [username] [search_options]"
+          "msg": "@treefrognada congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up blue wooden meeple from Game Elements. View here: https://scurvybot.com/wax/tx/a24fe0a7f00d135b85918adbc22d8eb5915ed51799345dc465bb0bb1ea882a0e"
+        },
+        {
+          "user": "peter_force",
+          "msg": "you have to hit !setwallet and after that your wallet address"
         },
         {
           "user": "scurvybot",
-          "msg": "@inn, @Brachial513 does not have a wallet set up. They need to use !setwallet [wallet_address] to set their wallet before they can receive a prize"
+          "msg": "@peter_force, you spent 5 trash digging up an empty hole! You can try again after 5 minutes."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@peter_force you have 503.5 trash"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@peter_force, unsupported blockchain. Supported blockchains: WAX, AVAX C-Chain."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@peter_force, please provide a blockchain and wallet. Usage: !setwallet [blockchain] [wallet]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@peter_force, your WAX wallet is already set to ne3r2.wam"
+        },
+        {
+          "user": "peter_force",
+          "msg": "like that lol"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@peter_force, your AVAX C-Chain wallet is already set to 0x4542d66cba3504702138b6834e2dfeca806afebb"
         }
       ],
       "customCommands": {
@@ -24507,7 +24509,7 @@
         }
       },
       "_idAt": 1792736267521,
-      "_gameAt": 1792749912751,
+      "_gameAt": 1792750289654,
       "isLive": true,
       "streamCategory": "Just Chatting",
       "voteLog": [
@@ -25333,7 +25335,7 @@
         "totalVotes": 2027,
         "totalSubs": 7,
         "totalChatMessages": 175,
-        "totalStreamMinutes": 8633,
+        "totalStreamMinutes": 8638,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -25801,7 +25803,7 @@
         "totalVotes": 9654,
         "totalSubs": 17,
         "totalChatMessages": 340,
-        "totalStreamMinutes": 1392,
+        "totalStreamMinutes": 1397,
         "emotes": {
           "❤": 22,
           "🙌": 29,
@@ -29690,8 +29692,8 @@
     }
   },
   "auth": {
-    "accessToken": "edd092cf525b02fce0139cd93d97ff0f",
-    "refreshToken": "e03e43363a3b10c49fb0cd043aa366a5",
+    "accessToken": "ec7f4ba603f8c264c63b7e1661e5f03a",
+    "refreshToken": "cdc3624353f6281ae29f267fdee3a1c6",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
