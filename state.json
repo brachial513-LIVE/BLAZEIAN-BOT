@@ -14303,7 +14303,7 @@
         "totalVotes": 40755,
         "totalSubs": 191,
         "totalChatMessages": 4247,
-        "totalStreamMinutes": 21463,
+        "totalStreamMinutes": 21468,
         "emotes": {
           "❤": 156,
           "🙌": 268,
@@ -25245,8 +25245,8 @@
       "stats": {
         "totalVotes": 2027,
         "totalSubs": 6,
-        "totalChatMessages": 173,
-        "totalStreamMinutes": 8273,
+        "totalChatMessages": 174,
+        "totalStreamMinutes": 8278,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -25296,13 +25296,9 @@
           "👋": "👋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792620442697
+        "lastChatAt": 1792728682799
       },
       "chatMemory": [
-        {
-          "user": "walkthegrid",
-          "msg": "[emote:ad8aaf40-9d3d-4840-8a2c-effbde977ad3]"
-        },
         {
           "user": "peperonitostv",
           "msg": "Have a nice stream!"
@@ -25338,6 +25334,10 @@
         {
           "user": "nuggetbot",
           "msg": "👋 New here? Hit follow so you never miss a stream. Nuggets for everyone!"
+        },
+        {
+          "user": "nuggetbot",
+          "msg": "Thanks for the follow, @gmc_gaara27!"
         }
       ],
       "customCommands": {
@@ -25382,7 +25382,7 @@
       "_idAt": 1792713472241,
       "streamCategory": "IRL",
       "isLive": true,
-      "_gameAt": 1792716390630
+      "_gameAt": 1792728682958
     },
     "4b8bfb4c-982c-4710-8864-97fa5ba066ef": {
       "username": "gamergliderride",
@@ -29603,8 +29603,8 @@
     }
   },
   "auth": {
-    "accessToken": "a43a4b475f7a9c3ecf9930dce152d62a",
-    "refreshToken": "64296d184f17561c9a478e35a6511639",
+    "accessToken": "f28c24f42e46e446f4c5005dea1c9a6f",
+    "refreshToken": "44efbce1cb4d391cad0bcd2ce1797069",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
