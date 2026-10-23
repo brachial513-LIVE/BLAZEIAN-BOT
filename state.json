@@ -7953,7 +7953,7 @@
         "totalVotes": 51040,
         "totalSubs": 91,
         "totalChatMessages": 9880,
-        "totalStreamMinutes": 16917,
+        "totalStreamMinutes": 16922,
         "emotes": {
           "❤": 180,
           "🙌": 227,
@@ -8805,7 +8805,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 978,
-        "totalStreamMinutes": 23893,
+        "totalStreamMinutes": 23898,
         "emotes": {
           "❤": 134,
           "🙌": 43,
@@ -11997,7 +11997,7 @@
         "totalVotes": 25699,
         "totalSubs": 87,
         "totalChatMessages": 2890,
-        "totalStreamMinutes": 22877,
+        "totalStreamMinutes": 22882,
         "emotes": {
           "🔥": 838,
           "🔴": 200,
@@ -15395,7 +15395,7 @@
         "totalVotes": 11251,
         "totalSubs": 74,
         "totalChatMessages": 626,
-        "totalStreamMinutes": 10285,
+        "totalStreamMinutes": 10290,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -24428,8 +24428,8 @@
       "stats": {
         "totalVotes": 9479,
         "totalSubs": 32,
-        "totalChatMessages": 1845,
-        "totalStreamMinutes": 8944,
+        "totalChatMessages": 1846,
+        "totalStreamMinutes": 8945,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -24490,7 +24490,7 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 13,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 14,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 3,
-          "🔴": 12,
+          "🔴": 13,
           "🙃": 1,
           "❤": 5,
           "👋": 9,
@@ -24599,13 +24599,9 @@
           "🍩": "🍩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792704347806
+        "lastChatAt": 1792717870119
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
-        },
         {
           "user": "nekoschwan",
           "msg": "noooo i dont usually play demo :("
@@ -24641,6 +24637,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @Zer0Cache!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 🔴Getting chicken Feeds! Come hang out and watch."
         }
       ],
       "customCommands": {
@@ -24656,7 +24656,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "🔴Getting chicken Feeds",
       "lastStreamInfo": "🔴[DEADZONE: Rogue 2]",
       "lastStreamEndedAt": 1792550867985,
       "gameOverride": "",
@@ -24783,9 +24783,9 @@
         }
       },
       "_idAt": 1792713469842,
-      "_gameAt": 1792704347903,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1792717869853,
+      "isLive": true,
+      "streamCategory": "Counter Strike 2",
       "voteLog": [
         {
           "t": 1792429891448,
@@ -25154,7 +25154,7 @@
         "totalVotes": 2027,
         "totalSubs": 6,
         "totalChatMessages": 173,
-        "totalStreamMinutes": 8093,
+        "totalStreamMinutes": 8098,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -29511,8 +29511,8 @@
     }
   },
   "auth": {
-    "accessToken": "c0b4bc7949ec470f49395b463a7e05a0",
-    "refreshToken": "cb02536269314c0fc2263aadf663a150",
+    "accessToken": "ec9e1bb0c749344233ce2bef9ce1e8bb",
+    "refreshToken": "3dd847a9e9dfd766793b1dc0a9a25e4d",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
