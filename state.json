@@ -7963,7 +7963,7 @@
         "totalVotes": 51040,
         "totalSubs": 91,
         "totalChatMessages": 9923,
-        "totalStreamMinutes": 17052,
+        "totalStreamMinutes": 17057,
         "emotes": {
           "❤": 182,
           "🙌": 228,
@@ -14303,7 +14303,7 @@
         "totalVotes": 40755,
         "totalSubs": 191,
         "totalChatMessages": 4239,
-        "totalStreamMinutes": 21418,
+        "totalStreamMinutes": 21423,
         "emotes": {
           "❤": 156,
           "🙌": 268,
@@ -22196,7 +22196,7 @@
       "stats": {
         "totalVotes": 33758,
         "totalSubs": 136,
-        "totalChatMessages": 7851,
+        "totalChatMessages": 7852,
         "totalStreamMinutes": 14266,
         "emotes": {
           "😅": 8,
@@ -22457,7 +22457,7 @@
           "🐰": "🐰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792696119221,
+        "lastChatAt": 1792725955786,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -22465,10 +22465,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "timdraws",
-          "msg": "thought the pokemon would be rainbow colored"
-        },
         {
           "user": "timdraws",
           "msg": "selected owned"
@@ -22504,6 +22500,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CG777 just gave 77 vote(s) (total: 77)! Thank you!! 🗳️"
+        },
+        {
+          "user": "walkthegrid",
+          "msg": "ty"
         }
       ],
       "customCommands": {},
@@ -22775,7 +22775,7 @@
         "entries": []
       },
       "_idAt": 1792712271046,
-      "_gameAt": 1792696119330,
+      "_gameAt": 1792725955884,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -25246,7 +25246,7 @@
         "totalVotes": 2027,
         "totalSubs": 6,
         "totalChatMessages": 173,
-        "totalStreamMinutes": 8228,
+        "totalStreamMinutes": 8233,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -29603,8 +29603,8 @@
     }
   },
   "auth": {
-    "accessToken": "2651c1048bf7c1db04ba1bdd122f0c1e",
-    "refreshToken": "2e3cdcec6293df46090f0d58370b2188",
+    "accessToken": "a43a4b475f7a9c3ecf9930dce152d62a",
+    "refreshToken": "64296d184f17561c9a478e35a6511639",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
