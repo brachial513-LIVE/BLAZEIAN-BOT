@@ -1821,7 +1821,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 36942,
-        "totalSubs": 93,
+        "totalSubs": 94,
         "totalChatMessages": 46211,
         "totalStreamMinutes": 4197,
         "emotes": {
@@ -2456,6 +2456,11 @@
         },
         "cymatrix": {
           "name": "cymatrix",
+          "months": 1,
+          "tier": 1
+        },
+        "cynthia_stnkmp": {
+          "name": "cynthia_stnkmp",
           "months": 1,
           "tier": 1
         }
@@ -17113,9 +17118,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 22457,
+        "totalVotes": 22507,
         "totalSubs": 48,
-        "totalChatMessages": 3432,
+        "totalChatMessages": 3433,
         "totalStreamMinutes": 13902,
         "emotes": {
           "❤": 123,
@@ -17308,13 +17313,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792701540689
+        "lastChatAt": 1792750817159
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "HAHAHAHA"
-        },
         {
           "user": "cr33pling",
           "msg": "HAHAHA BOYYYYYYYYY"
@@ -17350,6 +17351,10 @@
         {
           "user": "srchois",
           "msg": "GGz PO!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @cynthia_stnkmp!"
         }
       ],
       "customCommands": {},
@@ -17464,7 +17469,7 @@
         }
       },
       "_idAt": 1792732673463,
-      "_gameAt": 1792701512808,
+      "_gameAt": 1792750817287,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -17562,6 +17567,11 @@
           "t": 1792686083782,
           "v": "he_nose",
           "a": 100
+        },
+        {
+          "t": 1792750816749,
+          "v": "cynthia_stnkmp",
+          "a": 50
         }
       ]
     },
@@ -23378,7 +23388,7 @@
         "totalVotes": 4961,
         "totalSubs": 30,
         "totalChatMessages": 901,
-        "totalStreamMinutes": 6726,
+        "totalStreamMinutes": 6746,
         "emotes": {
           "❤": 36,
           "🙌": 41,
@@ -24140,8 +24150,8 @@
       "stats": {
         "totalVotes": 11775,
         "totalSubs": 38,
-        "totalChatMessages": 5052,
-        "totalStreamMinutes": 16675,
+        "totalChatMessages": 5066,
+        "totalStreamMinutes": 16695,
         "emotes": {
           "👋": 120,
           "⚠": 2,
@@ -24165,7 +24175,7 @@
           "🚨": 180,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 11,
           "b9094c24-381d-4157-ad1b-c6fa88dc25aa": 34,
-          "🤣": 9,
+          "🤣": 10,
           "💃": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 29,
           "⚡": 1,
@@ -24204,7 +24214,7 @@
           "🥳": 4,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 3,
           "✨": 2,
-          "😂": 7,
+          "😂": 8,
           "dedb0949-63d9-4d58-86d1-ecf0269453d3": 1,
           "15f31366-b980-4582-836d-2954d5b450e5": 10,
           "🩵": 2,
@@ -24341,48 +24351,48 @@
           "😭": "😭"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792750343677
+        "lastChatAt": 1792751516417
       },
       "chatMemory": [
         {
-          "user": "brachial513",
-          "msg": "😭 im to confused rn"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@treefrognada congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up blue wooden meeple from Game Elements. View here: https://scurvybot.com/wax/tx/a24fe0a7f00d135b85918adbc22d8eb5915ed51799345dc465bb0bb1ea882a0e"
-        },
-        {
-          "user": "peter_force",
-          "msg": "you have to hit !setwallet and after that your wallet address"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@peter_force, you spent 5 trash digging up an empty hole! You can try again after 5 minutes."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@peter_force you have 503.5 trash"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@peter_force, unsupported blockchain. Supported blockchains: WAX, AVAX C-Chain."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@peter_force, please provide a blockchain and wallet. Usage: !setwallet [blockchain] [wallet]"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@peter_force, your WAX wallet is already set to ne3r2.wam"
-        },
-        {
-          "user": "peter_force",
-          "msg": "like that lol"
-        },
-        {
           "user": "scurvybot",
           "msg": "@peter_force, your AVAX C-Chain wallet is already set to 0x4542d66cba3504702138b6834e2dfeca806afebb"
+        },
+        {
+          "user": "inn",
+          "msg": "I don’t got Avax NFTs to give out tho just yet 🤣"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@peter_force, congratulations! You've won SOTC - Q3 PROMO Pack - 2025 from SouloftheCat. View here: https://scurvybot.com/wax/tx/cfd6ce25c0420c56fc58fb79e2977103282f18d1fe0cf43e09a1f8af3a6009dc"
+        },
+        {
+          "user": "peter_force",
+          "msg": "it said set it i do what it says lolol.. i have zero mind"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@treefrognada, congratulations! You've won Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/6717d1072f87262d9a93dd39cbe447487177d99184eec38e7562a78d0c7c50e1"
+        },
+        {
+          "user": "inn",
+          "msg": "😂"
+        },
+        {
+          "user": "peter_force",
+          "msg": "cool ty!"
+        },
+        {
+          "user": "inn",
+          "msg": "Welcome inn!"
+        },
+        {
+          "user": "inn",
+          "msg": "https://madallisonft.allybear22.chatgpt.site/"
+        },
+        {
+          "user": "treefrognada",
+          "msg": "Thanks :)"
         }
       ],
       "customCommands": {
@@ -24509,7 +24519,7 @@
         }
       },
       "_idAt": 1792736267521,
-      "_gameAt": 1792750289654,
+      "_gameAt": 1792751516517,
       "isLive": true,
       "streamCategory": "Just Chatting",
       "voteLog": [
@@ -25035,7 +25045,7 @@
       "language": "en",
       "joinedAt": 1787497151215,
       "stats": {
-        "totalVotes": 6810,
+        "totalVotes": 6835,
         "totalSubs": 20,
         "totalChatMessages": 363,
         "totalStreamMinutes": 792,
@@ -25323,6 +25333,11 @@
           "t": 1792746789077,
           "v": "briggsy",
           "a": 25
+        },
+        {
+          "t": 1792750816795,
+          "v": "cynthia_stnkmp",
+          "a": 25
         }
       ],
       "botVip": true
@@ -25335,7 +25350,7 @@
         "totalVotes": 2027,
         "totalSubs": 7,
         "totalChatMessages": 175,
-        "totalStreamMinutes": 8638,
+        "totalStreamMinutes": 8658,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -25803,7 +25818,7 @@
         "totalVotes": 9654,
         "totalSubs": 17,
         "totalChatMessages": 340,
-        "totalStreamMinutes": 1397,
+        "totalStreamMinutes": 1417,
         "emotes": {
           "❤": 22,
           "🙌": 29,
