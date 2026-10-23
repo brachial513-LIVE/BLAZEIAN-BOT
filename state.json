@@ -6573,15 +6573,15 @@
       "stats": {
         "totalVotes": 15332,
         "totalSubs": 61,
-        "totalChatMessages": 2423,
-        "totalStreamMinutes": 13289,
+        "totalChatMessages": 2424,
+        "totalStreamMinutes": 13306,
         "emotes": {
           "✨": 52,
           "🖥": 24,
           "🔥": 220,
           "👋": 134,
-          "🎬": 129,
-          "❤": 171,
+          "🎬": 130,
+          "❤": 172,
           "🚨": 10,
           "⚡": 27,
           "🏆": 23,
@@ -6809,14 +6809,10 @@
           "🤗": "🤗",
           "😄": "😄"
         },
-        "lastChatAt": 1792796596642,
+        "lastChatAt": 1792798487081,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "zsoltech",
-          "msg": "cheersa"
-        },
         {
           "user": "zsoltech",
           "msg": "lets do it"
@@ -6852,6 +6848,10 @@
         {
           "user": "tarzan",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -6860,7 +6860,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "OTG",
+      "streamTitle": "",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. Relentless energy, camaraderie, and the thrill of dropping in to new adventures keep the community buzzing.",
       "_profileAtCount": 2408,
       "loyalty": {
@@ -6938,13 +6938,13 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
       "lastStreamInfo": "OTG",
-      "lastStreamEndedAt": 1792705195613,
+      "lastStreamEndedAt": 1792798486553,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
       "_idAt": 1792795072350,
-      "streamCategory": "Off The Grid",
-      "isLive": true,
-      "_gameAt": 1792796596731,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792798487184,
       "voteLog": [
         {
           "t": 1792429891268,
@@ -9050,7 +9050,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 994,
-        "totalStreamMinutes": 24474,
+        "totalStreamMinutes": 24494,
         "emotes": {
           "❤": 136,
           "🙌": 44,
@@ -9378,7 +9378,7 @@
       "stats": {
         "totalVotes": 22348,
         "totalSubs": 64,
-        "totalChatMessages": 1880,
+        "totalChatMessages": 1881,
         "totalStreamMinutes": 7875,
         "emotes": {
           "❤": 106,
@@ -9395,8 +9395,8 @@
           "🔴": 57,
           "🎉": 103,
           "🚨": 84,
-          "📴": 58,
-          "👋": 73,
+          "📴": 59,
+          "👋": 74,
           "🏅": 15,
           "💪": 31,
           "😁": 4,
@@ -9539,17 +9539,13 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792794288390,
+        "lastChatAt": 1792797742580,
         "lastSendFailAt": 1790979696099,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790984188513,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "thanks @razmr_eth!"
-        },
         {
           "user": "vitrene",
           "msg": "you streaming, too?"
@@ -9585,6 +9581,10 @@
         {
           "user": "gmc_gaara27",
           "msg": "Danke dir, muss mich noch etwas vertraut mit der Plattform machen. Aber für heute reicht s, viel Spass noch später gute Nacht 💪"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -9597,7 +9597,7 @@
       "botVip": true,
       "profile": "Vitrene’s RuneScape Dragonwilds hub pumps energy with “VIT 🔥🔥” and “$VIT Always Wins!” chants. Milestones trigger “🔴 VOTE ALERT!! 🗳️” and celebratory “💃💃💃” dances. The community loves auto‑drive, Idris Elba DLC, Dune updates, and ends each stream with “have an awesome night/day!” Vitrene thrives on votes, cheers, and hype.",
       "_profileAtCount": 1830,
-      "streamTitle": "Quest-ionable decisions ahead 🧐 | Runescape Dragonwilds",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8fa3121a-8fba-4dc1-98d9-78a884fd7f11.gif",
       "schedule": "[Wed/Fr/Sa 10 PM CEST]",
@@ -9641,12 +9641,12 @@
       "commentMode": "heavy",
       "nudgedAt": 1785010424974,
       "nudgedKey": "customcmd",
-      "lastStreamInfo": "Slay. Level Up. Repeat. | Runescape Dragonwilds",
-      "lastStreamEndedAt": 1792707564109,
+      "lastStreamInfo": "Quest-ionable decisions ahead 🧐 | Runescape Dragonwilds",
+      "lastStreamEndedAt": 1792797737378,
       "_idAt": 1792797473571,
-      "streamCategory": "RuneScape",
-      "isLive": true,
-      "_gameAt": 1792794138103,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792797742674,
       "voteLog": [
         {
           "t": 1792429891290,
@@ -9832,7 +9832,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792774674740
+      "_idAt": 1792797474756
     },
     "4ec108d8-b147-4ff7-b1e6-b1f8fa882f61": {
       "username": "omom_",
@@ -9868,13 +9868,13 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/244df307-0e7a-4ba8-bc0d-afd751a372ab.jpg",
-      "_idAt": 1792774675962
+      "_idAt": 1792797475956
     },
     "1290a27a-b733-42cc-85fe-daa77f965b10": {
       "username": "gmc_gaara27",
       "language": "en",
       "stats": {
-        "totalVotes": 1404,
+        "totalVotes": 1414,
         "totalSubs": 11,
         "totalChatMessages": 564,
         "totalStreamMinutes": 1596,
@@ -10032,7 +10032,7 @@
       "_profileAtCount": 527,
       "nudgedAt": 1790523497708,
       "nudgedKey": "schedule",
-      "_idAt": 1792775867604,
+      "_idAt": 1792798667590,
       "loyalty": {
         "brachial513": {
           "name": "brachial513",
@@ -10138,6 +10138,11 @@
           "t": 1792786875496,
           "v": "crypt0k1ng96",
           "a": 15
+        },
+        {
+          "t": 1792798089879,
+          "v": "vitrene",
+          "a": 10
         }
       ]
     },
@@ -10939,7 +10944,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "The Funk Show Tunage!",
       "lastStreamEndedAt": 1792693953272,
-      "_idAt": 1792775872360,
+      "_idAt": 1792798672363,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792702346698,
@@ -11504,7 +11509,7 @@
       "lastStreamEndedAt": 1792365216005,
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule",
-      "_idAt": 1792775871145,
+      "_idAt": 1792798671159,
       "_gameAt": 1792689002542,
       "isLive": false,
       "streamCategory": "",
@@ -12209,7 +12214,7 @@
       "lastStreamEndedAt": 1792788673961,
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
-      "_idAt": 1792775868748,
+      "_idAt": 1792798668762,
       "_gameAt": 1792787225267,
       "isLive": false,
       "streamCategory": "",
@@ -12343,7 +12348,7 @@
         "totalVotes": 25700,
         "totalSubs": 88,
         "totalChatMessages": 2895,
-        "totalStreamMinutes": 23014,
+        "totalStreamMinutes": 23034,
         "emotes": {
           "🔥": 840,
           "🔴": 200,
@@ -12690,7 +12695,7 @@
         "sound": true,
         "confetti": true
       },
-      "_idAt": 1792775873545,
+      "_idAt": 1792798673570,
       "streamCategory": "Call Of Duty: Modern Warfare 4",
       "isLive": true,
       "_gameAt": 1792796725713,
@@ -13018,7 +13023,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792775869954,
+      "_idAt": 1792798669960,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792609116001,
@@ -13587,7 +13592,7 @@
         "totalVotes": 8232,
         "totalSubs": 39,
         "totalChatMessages": 1111,
-        "totalStreamMinutes": 3102,
+        "totalStreamMinutes": 3122,
         "emotes": {
           "❤": 53,
           "🙌": 58,
@@ -14201,18 +14206,18 @@
       "stats": {
         "totalVotes": 24384,
         "totalSubs": 65,
-        "totalChatMessages": 2665,
-        "totalStreamMinutes": 5211,
+        "totalChatMessages": 2667,
+        "totalStreamMinutes": 5219,
         "emotes": {
           "❤": 181,
           "🙌": 153,
           "🔴": 44,
           "🎉": 74,
-          "👋": 90,
+          "👋": 91,
           "👀": 15,
           "😱": 1,
           "😅": 7,
-          "📴": 44,
+          "📴": 45,
           "✌": 4,
           "☺": 3,
           "👍": 3,
@@ -14386,17 +14391,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792796665269
+        "lastChatAt": 1792797925002
       },
       "chatMemory": [
-        {
-          "user": "itssscat",
-          "msg": "Hello!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @razmr_eth!"
-        },
         {
           "user": "razmr_eth",
           "msg": "Have a nice stream. Real razmr ;)"
@@ -14428,6 +14425,14 @@
         {
           "user": "scurvybot",
           "msg": "@parky gifted a sub to the community!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -14440,7 +14445,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d42d19f-d21c-4ab4-be64-cb54d3f85210-profile_image-300x300.png",
-      "streamTitle": "[UK] #42 ITS FRIDAY!!! - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
+      "streamTitle": "",
       "profile": "Channel: parky – a cheeky, ADHD‑powered Dota 2 hub. Sundays explode with “CHEEKY SUNDAY NIGHT”, “MAKE LOVE NOT WARCRRAFT”, “LOVE FESTS” after wins. Chat thrives on “ASK ME ANYTHING”, “LURK A BIT” pre‑action, and “SUNDAY FUNDAY” celebrations. Celebrate with passion, love, mischief, and a touch of chaos, keeping the vibe lively and mischievous.",
       "_profileAtCount": 2649,
       "gameOverride": "",
@@ -14543,12 +14548,12 @@
       },
       "nudgedAt": 1785010054808,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "[UK] #41 PAINTING - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
-      "lastStreamEndedAt": 1792682939738,
+      "lastStreamInfo": "[UK] #42 ITS FRIDAY!!! - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
+      "lastStreamEndedAt": 1792797919814,
       "_idAt": 1792777074748,
-      "_gameAt": 1792796496679,
-      "isLive": true,
-      "streamCategory": "Gears Of War: E-Day",
+      "_gameAt": 1792797920271,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891203,
@@ -24056,7 +24061,7 @@
         "totalVotes": 6699,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 9231,
+        "totalStreamMinutes": 9251,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -25737,7 +25742,7 @@
         "totalVotes": 2027,
         "totalSubs": 7,
         "totalChatMessages": 175,
-        "totalStreamMinutes": 9423,
+        "totalStreamMinutes": 9443,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -27973,7 +27978,7 @@
         "totalVotes": 1266,
         "totalSubs": 2,
         "totalChatMessages": 806,
-        "totalStreamMinutes": 3510,
+        "totalStreamMinutes": 3530,
         "emotes": {
           "❤": 24,
           "🙌": 14,
@@ -28181,8 +28186,8 @@
       "stats": {
         "totalVotes": 840,
         "totalSubs": 4,
-        "totalChatMessages": 261,
-        "totalStreamMinutes": 690,
+        "totalChatMessages": 262,
+        "totalStreamMinutes": 710,
         "emotes": {
           "❤": 10,
           "🙌": 5,
@@ -28236,13 +28241,9 @@
           "😉": "😉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792796218963
+        "lastChatAt": 1792797592806
       },
       "chatMemory": [
-        {
-          "user": "tarzan",
-          "msg": "I see"
-        },
         {
           "user": "tarzan",
           "msg": "All of us got that same time"
@@ -28278,6 +28279,10 @@
         {
           "user": "tarzan",
           "msg": "Best price 😉"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "which level you up too now Jas"
         }
       ],
       "customCommands": {},
@@ -28316,9 +28321,9 @@
           "tier": 1
         }
       },
-      "streamCategory": "Farlight 84",
+      "streamCategory": "Aion 2",
       "isLive": true,
-      "_gameAt": 1792796149786,
+      "_gameAt": 1792797592903,
       "nudgedAt": 1792289657162,
       "nudgedKey": "schedule",
       "voteLog": [
