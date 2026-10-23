@@ -8857,14 +8857,14 @@
       "stats": {
         "totalVotes": 9571,
         "totalSubs": 90,
-        "totalChatMessages": 979,
-        "totalStreamMinutes": 23924,
+        "totalChatMessages": 980,
+        "totalStreamMinutes": 23935,
         "emotes": {
           "❤": 134,
           "🙌": 43,
           "🔥": 41,
-          "🔴": 167,
-          "🎉": 167,
+          "🔴": 168,
+          "🎉": 168,
           "📴": 172,
           "👋": 176,
           "😂": 4,
@@ -8961,14 +8961,10 @@
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
-        "lastChatAt": 1792719516093,
+        "lastChatAt": 1792762894037,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
@@ -9004,6 +9000,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {
@@ -9015,7 +9015,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "AION ATE O START DO SERVE VALHALLA",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a3182925-83db-455f-9247-d15b2f463116.png",
@@ -9094,9 +9094,9 @@
         }
       },
       "_idAt": 1792751871115,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792719516195
+      "streamCategory": "Aion 2",
+      "isLive": true,
+      "_gameAt": 1792762893886
     },
     "d7c03cf7-26bc-4966-b436-ec5820565e9c": {
       "username": "1vynnn",
@@ -9923,7 +9923,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 25994,
+        "totalVotes": 25995,
         "totalSubs": 61,
         "totalChatMessages": 4724,
         "totalStreamMinutes": 5406,
@@ -10475,6 +10475,11 @@
           "t": 1792762288801,
           "v": "omererkmen",
           "a": 2
+        },
+        {
+          "t": 1792763549950,
+          "v": "omererkmen",
+          "a": 1
         }
       ]
     },
@@ -13676,7 +13681,7 @@
       "username": "lady_iris",
       "language": "en",
       "stats": {
-        "totalVotes": 15601,
+        "totalVotes": 15901,
         "totalSubs": 95,
         "totalChatMessages": 922,
         "totalStreamMinutes": 5466,
@@ -13938,6 +13943,11 @@
           "t": 1792688974700,
           "v": "dimifw",
           "a": 5
+        },
+        {
+          "t": 1792762420450,
+          "v": "dofferlive",
+          "a": 300
         }
       ]
     },
@@ -13945,9 +13955,9 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 24264,
+        "totalVotes": 24384,
         "totalSubs": 64,
-        "totalChatMessages": 2650,
+        "totalChatMessages": 2652,
         "totalStreamMinutes": 4971,
         "emotes": {
           "❤": 177,
@@ -13976,7 +13986,7 @@
           "😜": 4,
           "⚠": 4,
           "🎯": 4,
-          "🗳": 501,
+          "🗳": 504,
           "🥷": 2,
           "💯": 4,
           "📢": 10,
@@ -14132,17 +14142,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792762207209
+        "lastChatAt": 1792763013492
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 parky is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: [UK] #41 PAINTING - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING! Come hang out and watch."
-        },
         {
           "user": "zsoltech",
           "msg": "Ohhh painting stream"
@@ -14174,6 +14176,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @omererkmen!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 120 votes, @DofferLive!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 120 vote(s) (total: 120)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -14292,7 +14302,7 @@
       "lastStreamInfo": "[UK] #41 PAINTING - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
       "lastStreamEndedAt": 1792682939738,
       "_idAt": 1792754274721,
-      "_gameAt": 1792762207368,
+      "_gameAt": 1792763011652,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -14380,6 +14390,11 @@
           "t": 1792762206852,
           "v": "omererkmen",
           "a": 1
+        },
+        {
+          "t": 1792763011165,
+          "v": "dofferlive",
+          "a": 120
         }
       ]
     },
@@ -15823,7 +15838,7 @@
       "language": "en",
       "joinedAt": 1784461195472,
       "stats": {
-        "totalVotes": 40642,
+        "totalVotes": 41042,
         "totalSubs": 76,
         "totalChatMessages": 2830,
         "totalStreamMinutes": 3444,
@@ -16386,6 +16401,11 @@
           "t": 1792746816166,
           "v": "briggsy",
           "a": 25
+        },
+        {
+          "t": 1792762726996,
+          "v": "dofferlive",
+          "a": 400
         }
       ]
     },
@@ -17163,7 +17183,7 @@
         "totalVotes": 22507,
         "totalSubs": 48,
         "totalChatMessages": 3435,
-        "totalStreamMinutes": 13906,
+        "totalStreamMinutes": 13926,
         "emotes": {
           "❤": 123,
           "🙌": 91,
@@ -18224,7 +18244,7 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 19942,
+        "totalVotes": 20342,
         "totalSubs": 33,
         "totalChatMessages": 44765,
         "totalStreamMinutes": 22983,
@@ -18970,6 +18990,11 @@
           "t": 1792683401105,
           "v": "badger",
           "a": 50
+        },
+        {
+          "t": 1792762912762,
+          "v": "dofferlive",
+          "a": 400
         }
       ]
     },
@@ -21286,9 +21311,9 @@
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 12508,
+        "totalVotes": 12908,
         "totalSubs": 90,
-        "totalChatMessages": 1892,
+        "totalChatMessages": 1893,
         "totalStreamMinutes": 7612,
         "emotes": {
           "❤": 77,
@@ -21385,13 +21410,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792683401540
+        "lastChatAt": 1792762526711
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Marowak33 just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @TwistedTinker!"
@@ -21427,6 +21448,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @badger!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 400 votes, @DofferLive!"
         }
       ],
       "customCommands": {},
@@ -21530,7 +21555,7 @@
         }
       },
       "_idAt": 1792757867551,
-      "_gameAt": 1792683401659,
+      "_gameAt": 1792762526799,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -21598,6 +21623,11 @@
           "t": 1792683401153,
           "v": "badger",
           "a": 50
+        },
+        {
+          "t": 1792762526364,
+          "v": "dofferlive",
+          "a": 400
         }
       ]
     },
@@ -23427,9 +23457,9 @@
       "language": "en",
       "joinedAt": 1786542046720,
       "stats": {
-        "totalVotes": 4961,
+        "totalVotes": 4962,
         "totalSubs": 30,
-        "totalChatMessages": 903,
+        "totalChatMessages": 904,
         "totalStreamMinutes": 6879,
         "emotes": {
           "❤": 36,
@@ -23524,13 +23554,9 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792759587869
+        "lastChatAt": 1792763550145
       },
       "chatMemory": [
-        {
-          "user": "mrnoob",
-          "msg": "lalakas pa pala ng sobra character mo dami pa aayusin"
-        },
         {
           "user": "mrnoob",
           "msg": "rings pa"
@@ -23566,6 +23592,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @omererkmen!"
         }
       ],
       "customCommands": {},
@@ -23681,7 +23711,7 @@
       "_idAt": 1792757873520,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792759583093,
+      "_gameAt": 1792763550257,
       "voteLog": [
         {
           "t": 1792429891323,
@@ -23717,6 +23747,11 @@
           "t": 1792666344078,
           "v": "noxx",
           "a": 50
+        },
+        {
+          "t": 1792763549854,
+          "v": "omererkmen",
+          "a": 1
         }
       ]
     },
@@ -23725,7 +23760,7 @@
       "language": "en",
       "joinedAt": 1786592864058,
       "stats": {
-        "totalVotes": 6698,
+        "totalVotes": 6699,
         "totalSubs": 36,
         "totalChatMessages": 1753,
         "totalStreamMinutes": 8798,
@@ -24092,6 +24127,11 @@
           "t": 1792747974724,
           "v": "briggsy",
           "a": 20
+        },
+        {
+          "t": 1792763549952,
+          "v": "omererkmen",
+          "a": 1
         }
       ]
     },
@@ -25397,7 +25437,7 @@
         "totalVotes": 2027,
         "totalSubs": 7,
         "totalChatMessages": 175,
-        "totalStreamMinutes": 8838,
+        "totalStreamMinutes": 8858,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -27767,7 +27807,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792739867530,
+      "_idAt": 1792762667577,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/72e62f22-bfda-4fb8-b073-3f8c1ebc5201.png",
       "greeted": true,
       "profile": "silverbolt99’s channel is a high‑energy, community‑first hub where “welcome to the BLazeianCrew!” opens every stream and “NEW FOLLOWER!! ❤️” echoes with each new join. Weekly Sunday giveaways promise up to 1000 votes, celebrated with “Thanks for the X votes” chants. Lurkers are praised, donations appreciated, and the club hype (“⚡Friends, if you haven’t joined the Club…”) keeps the vibe playful, supportive, and always hype‑ready.",
@@ -27942,7 +27982,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792739868684,
+      "_idAt": 1792762668731,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d3b7be98-81af-4b8d-adeb-af8e99088a0b.png",
       "streamTitle": "",
       "lastStreamInfo": "New Star Path okay DDV i see u / Some cozy games from steam fest",
@@ -28074,7 +28114,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1792739869882,
+      "_idAt": 1792762669930,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/afbc16ad-1c45-4fb1-a652-817ebbb29b26.jpg",
       "_gameAt": 1792505659548,
       "isLive": false,
@@ -28125,7 +28165,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792739871078,
+      "_idAt": 1792762671132,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d087c21b-5cfa-4217-bbc8-d8ef7ad77e9f.jpg",
       "_gameAt": 1792492114864,
       "isLive": false,
@@ -28249,7 +28289,7 @@
       "isLive": false,
       "streamCategory": "",
       "streamTitle": "",
-      "_idAt": 1792739872277,
+      "_idAt": 1792762672327,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9ae5ffbd-71b4-4992-8061-ba04225b1dc2.jpg",
       "followed": true,
       "lastStreamInfo": "Runescape Dragonwilds",
