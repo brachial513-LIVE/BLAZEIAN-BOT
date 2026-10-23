@@ -1815,7 +1815,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 36892,
+        "totalVotes": 36942,
         "totalSubs": 93,
         "totalChatMessages": 46211,
         "totalStreamMinutes": 4197,
@@ -2591,6 +2591,11 @@
           "t": 1792718792427,
           "v": "future42",
           "a": 700
+        },
+        {
+          "t": 1792745749494,
+          "v": "briggsy",
+          "a": 50
         }
       ]
     },
@@ -10710,9 +10715,9 @@
       "username": "helios",
       "language": "en",
       "stats": {
-        "totalVotes": 4022,
+        "totalVotes": 4047,
         "totalSubs": 22,
-        "totalChatMessages": 365,
+        "totalChatMessages": 366,
         "totalStreamMinutes": 1259,
         "emotes": {
           "❤": 42,
@@ -10739,7 +10744,7 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": 6,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 9,
           "🍺": 4,
-          "🗳": 39,
+          "🗳": 42,
           "⚠": 3,
           "🎯": 3,
           "🚨": 6
@@ -10774,14 +10779,10 @@
           "🎯": "🎯",
           "🚨": "🚨"
         },
-        "lastChatAt": 1792673173824,
+        "lastChatAt": 1792745654535,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "⚠️ Heads up helios! You're projected to fall below Verified (Tier 2) in about 6 days (2026/10/26 13:49 UTC). Current stream hours: 11.1h / 10h required. Stream more to keep your Verified status! 🎯"
@@ -10817,6 +10818,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -10912,7 +10917,7 @@
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
       "_idAt": 1792730274654,
-      "_gameAt": 1792673173922,
+      "_gameAt": 1792745654653,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -10960,6 +10965,11 @@
           "t": 1792694561755,
           "v": "cynthia_stnkmp",
           "a": 100
+        },
+        {
+          "t": 1792745652333,
+          "v": "briggsy",
+          "a": 25
         }
       ]
     },
@@ -23328,7 +23338,7 @@
         "totalVotes": 4961,
         "totalSubs": 30,
         "totalChatMessages": 896,
-        "totalStreamMinutes": 6636,
+        "totalStreamMinutes": 6656,
         "emotes": {
           "❤": 36,
           "🙌": 41,
@@ -25266,7 +25276,7 @@
         "totalVotes": 2027,
         "totalSubs": 7,
         "totalChatMessages": 175,
-        "totalStreamMinutes": 8548,
+        "totalStreamMinutes": 8568,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -25733,14 +25743,14 @@
       "stats": {
         "totalVotes": 9654,
         "totalSubs": 17,
-        "totalChatMessages": 333,
+        "totalChatMessages": 335,
         "totalStreamMinutes": 1368,
         "emotes": {
           "❤": 22,
           "🙌": 29,
           "🎁": 8,
-          "🔴": 14,
-          "🎉": 14,
+          "🔴": 15,
+          "🎉": 15,
           "📴": 15,
           "👋": 15,
           "⏰": 1,
@@ -25782,17 +25792,9 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792684932402
+        "lastChatAt": 1792746139144
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 960 votes, @spike!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @spike just gave 960 vote(s) (total: 960)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "@thekingofc subscribed! Thank you!"
@@ -25824,6 +25826,14 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @Rafael_Zuh has resubscribed (3 months total, 2 months streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 destinoprospero is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Cabalzin de novo! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -25836,7 +25846,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5f46f02-430b-41d6-bfa3-774916ad25fe.gif",
-      "streamTitle": "",
+      "streamTitle": "Cabalzin de novo",
       "lastStreamInfo": "Cabalzin de novo — CABAL Online",
       "lastStreamEndedAt": 1791419368750,
       "gameOverride": "",
@@ -25897,9 +25907,9 @@
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
       "_idAt": 1792737467543,
-      "_gameAt": 1792684932538,
-      "isLive": false,
-      "streamCategory": ""
+      "_gameAt": 1792746138944,
+      "isLive": true,
+      "streamCategory": "CABAL Online"
     },
     "b6424d70-a8c5-4dd1-a1fc-079589abbe2b": {
       "username": "starmouse307319",
