@@ -3898,14 +3898,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 30562,
+        "totalVotes": 30563,
         "totalSubs": 116,
-        "totalChatMessages": 9389,
+        "totalChatMessages": 9390,
         "totalStreamMinutes": 28310,
         "emotes": {
           "❤": 253,
           "🙌": 215,
-          "🗳": 1338,
+          "🗳": 1341,
           "📴": 235,
           "👋": 265,
           "🔴": 230,
@@ -4276,14 +4276,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792748697657,
+        "lastChatAt": 1792766395641,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "What time is it? It's @time time!!!"
-        },
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @Zer0Cache is raiding with a party of 3! Welcome raiders!! 🎉"
@@ -4319,6 +4315,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 1 vote(s) (total: 151)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -4563,7 +4563,7 @@
         }
       },
       "_idAt": 1792749467614,
-      "_gameAt": 1792748697770,
+      "_gameAt": 1792766395755,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -4686,6 +4686,11 @@
           "t": 1792748695403,
           "v": "briggsy",
           "a": 50
+        },
+        {
+          "t": 1792766393421,
+          "v": "desirablebottom",
+          "a": 1
         }
       ]
     },
@@ -8858,7 +8863,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 980,
-        "totalStreamMinutes": 23980,
+        "totalStreamMinutes": 23985,
         "emotes": {
           "❤": 134,
           "🙌": 43,
@@ -14415,7 +14420,7 @@
         "totalVotes": 40805,
         "totalSubs": 191,
         "totalChatMessages": 4250,
-        "totalStreamMinutes": 21523,
+        "totalStreamMinutes": 21528,
         "emotes": {
           "❤": 156,
           "🙌": 268,
@@ -17193,7 +17198,7 @@
         "totalVotes": 22507,
         "totalSubs": 48,
         "totalChatMessages": 3440,
-        "totalStreamMinutes": 13971,
+        "totalStreamMinutes": 13976,
         "emotes": {
           "❤": 125,
           "🙌": 92,
@@ -25462,7 +25467,7 @@
         "totalVotes": 2027,
         "totalSubs": 7,
         "totalChatMessages": 175,
-        "totalStreamMinutes": 8903,
+        "totalStreamMinutes": 8908,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -29824,8 +29829,8 @@
     }
   },
   "auth": {
-    "accessToken": "4f8f68e90b3497cff11340c7b112523e",
-    "refreshToken": "793b8a9607c143520be3c137517b9840",
+    "accessToken": "4b32bd3ebfc0b6fc6cdcd28ee22bae2a",
+    "refreshToken": "95d4250fde6f4f82d671045cf524a5ff",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
