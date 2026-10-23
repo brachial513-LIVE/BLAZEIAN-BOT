@@ -7963,7 +7963,7 @@
         "totalVotes": 51040,
         "totalSubs": 91,
         "totalChatMessages": 9901,
-        "totalStreamMinutes": 17007,
+        "totalStreamMinutes": 17012,
         "emotes": {
           "❤": 180,
           "🙌": 227,
@@ -12012,7 +12012,7 @@
         "totalVotes": 25700,
         "totalSubs": 87,
         "totalChatMessages": 2891,
-        "totalStreamMinutes": 22967,
+        "totalStreamMinutes": 22972,
         "emotes": {
           "🔥": 838,
           "🔴": 200,
@@ -14303,7 +14303,7 @@
         "totalVotes": 40755,
         "totalSubs": 190,
         "totalChatMessages": 4229,
-        "totalStreamMinutes": 21373,
+        "totalStreamMinutes": 21378,
         "emotes": {
           "❤": 156,
           "🙌": 267,
@@ -15420,7 +15420,7 @@
         "totalVotes": 11251,
         "totalSubs": 74,
         "totalChatMessages": 626,
-        "totalStreamMinutes": 10375,
+        "totalStreamMinutes": 10380,
         "emotes": {
           "🔥": 8,
           "✌": 1,
@@ -24513,8 +24513,8 @@
       "stats": {
         "totalVotes": 9579,
         "totalSubs": 32,
-        "totalChatMessages": 1863,
-        "totalStreamMinutes": 9030,
+        "totalChatMessages": 1864,
+        "totalStreamMinutes": 9031,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -24684,13 +24684,9 @@
           "🍩": "🍩"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792722791029
+        "lastChatAt": 1792723126740
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "eNJOY"
-        },
         {
           "user": "future42",
           "msg": "bLAZE IT"
@@ -24726,6 +24722,10 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @briggsy at https://blaze.stream/briggsy!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {
@@ -24741,9 +24741,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "🔴Getting chicken Feeds",
-      "lastStreamInfo": "🔴[DEADZONE: Rogue 2]",
-      "lastStreamEndedAt": 1792550867985,
+      "streamTitle": "",
+      "lastStreamInfo": "🔴Getting chicken Feeds",
+      "lastStreamEndedAt": 1792723126329,
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/63673caf-30aa-4dde-a418-b8179ce2b3f3.gif",
       "profile": "cr33pling’s Blaze channel is a high‑energy, emoji‑packed hub where “what’s uppp” and “patambay” echo through the chat. The crew loves spontaneous “🔥🔥🔥” bursts, constant “emote:6086f447” drops, and celebratory shoutouts for raids, subs, and votes. Quick, enthusiastic reactions and constant “patambay” cheers keep the community buzzing.",
@@ -24868,9 +24868,9 @@
         }
       },
       "_idAt": 1792713469842,
-      "_gameAt": 1792722790236,
-      "isLive": true,
-      "streamCategory": "Counter Strike 2",
+      "_gameAt": 1792723126872,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891448,
@@ -25244,7 +25244,7 @@
         "totalVotes": 2027,
         "totalSubs": 6,
         "totalChatMessages": 173,
-        "totalStreamMinutes": 8183,
+        "totalStreamMinutes": 8188,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -29601,8 +29601,8 @@
     }
   },
   "auth": {
-    "accessToken": "6da2878b2e9f85e4f7540b52cb652133",
-    "refreshToken": "4f83206924e36fa4cee31a29acadc054",
+    "accessToken": "2651c1048bf7c1db04ba1bdd122f0c1e",
+    "refreshToken": "2e3cdcec6293df46090f0d58370b2188",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
