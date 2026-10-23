@@ -946,12 +946,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 140839,
+        "totalVotes": 140859,
         "totalSubs": 216,
-        "totalChatMessages": 11558,
+        "totalChatMessages": 11559,
         "totalStreamMinutes": 4337,
         "emotes": {
-          "🗳": 2244,
+          "🗳": 2247,
           "❤": 557,
           "🙌": 331,
           "🔥": 313,
@@ -1335,17 +1335,13 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792718832017,
+        "lastChatAt": 1792731091981,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "timdraws",
-          "msg": "thanks roshi!!!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @TimDraws just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
@@ -1381,6 +1377,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 750 vote(s) (total: 750)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @annyoneany just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1640,7 +1640,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
       "_idAt": 1792725467471,
-      "_gameAt": 1792718832141,
+      "_gameAt": 1792731092104,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -1803,6 +1803,11 @@
           "t": 1792718829768,
           "v": "future42",
           "a": 750
+        },
+        {
+          "t": 1792731089738,
+          "v": "annyoneany",
+          "a": 20
         }
       ]
     },
@@ -12953,7 +12958,7 @@
       "lastStreamEndedAt": 1791789577218,
       "nudgedAt": 1786555068712,
       "nudgedKey": "schedule",
-      "_idAt": 1792708667466,
+      "_idAt": 1792731467473,
       "_gameAt": 1792677321041,
       "isLive": false,
       "streamCategory": ""
@@ -25246,7 +25251,7 @@
         "totalVotes": 2027,
         "totalSubs": 7,
         "totalChatMessages": 175,
-        "totalStreamMinutes": 8311,
+        "totalStreamMinutes": 8323,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -28431,9 +28436,9 @@
       "n": 3
     },
     "octo": {
-      "note": "He livestreams zombie‑style games, jokes about cheating, loves potato jokes, and keeps a playful, mischievous vibe.",
-      "at": 1792606580607,
-      "n": 47
+      "note": "He streams zombie‑style games, jokes about cheating, loves potato jokes, and keeps a playful, mischievous vibe.",
+      "at": 1792730810188,
+      "n": 48
     },
     "rabisright": {
       "note": "The person, \"rabisright\", enjoys playing Valve games, particularly the Half Life and Portal series, and has a humorous reaction to intense gaming moments.",
@@ -29603,8 +29608,8 @@
     }
   },
   "auth": {
-    "accessToken": "c3dff891e637297fc93cfcab006bdf13",
-    "refreshToken": "27e14e26185d8ad31890c5b0282aeef3",
+    "accessToken": "5852d905cc48676504130f2d99e26f6a",
+    "refreshToken": "9d3375583c89240c21b86eb62f0b9c6f",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
