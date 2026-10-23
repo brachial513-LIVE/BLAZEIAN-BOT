@@ -4675,7 +4675,7 @@
       "stats": {
         "totalVotes": 56414,
         "totalSubs": 100,
-        "totalChatMessages": 21034,
+        "totalChatMessages": 21035,
         "totalStreamMinutes": 12596,
         "emotes": {
           "❤": 7759,
@@ -4717,7 +4717,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 66,
-          "💜": 346,
+          "💜": 347,
           "🧔": 1,
           "🤺": 6,
           "🥳": 97,
@@ -5141,7 +5141,7 @@
           "🦖": "🦖",
           "❓": "❓"
         },
-        "lastChatAt": 1792721102092,
+        "lastChatAt": 1792744080815,
         "sendFailStreak": 577,
         "lastSendFailAt": 1792693072486,
         "lastSendFailReason": "You are banned from this channel.",
@@ -5150,10 +5150,6 @@
         "lastProbeAt": 1792693072308
       },
       "chatMemory": [
-        {
-          "user": "bee12",
-          "msg": "pahhahaaha"
-        },
         {
           "user": "rob_osp",
           "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
@@ -5185,6 +5181,10 @@
         {
           "user": "bee12",
           "msg": "pahahhaa rugged!"
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         },
         {
           "user": "rob_osp",
@@ -5334,7 +5334,7 @@
       "_idAt": 1792726675854,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792721102180,
+      "_gameAt": 1792744080922,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -23328,7 +23328,7 @@
         "totalVotes": 4961,
         "totalSubs": 30,
         "totalChatMessages": 896,
-        "totalStreamMinutes": 6612,
+        "totalStreamMinutes": 6631,
         "emotes": {
           "❤": 36,
           "🙌": 41,
@@ -25266,7 +25266,7 @@
         "totalVotes": 2027,
         "totalSubs": 7,
         "totalChatMessages": 175,
-        "totalStreamMinutes": 8524,
+        "totalStreamMinutes": 8543,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -28247,8 +28247,8 @@
     },
     "lucas93925052": {
       "note": "Lucas loves joking with “kkkkkk,” chats warmly, enjoys Mario 64, Resident E 4, balloon games, and often calls friends by nickname.",
-      "at": 1792677350319,
-      "n": 49
+      "at": 1792744670373,
+      "n": 50
     },
     "time": {
       "note": "Enjoys Jackbox, chess, designing facades",
@@ -29623,8 +29623,8 @@
     }
   },
   "auth": {
-    "accessToken": "f40ffbb61c4ed1bfacf43d156fb67551",
-    "refreshToken": "b1a202bcc774683a10c53fd7e3d0ba34",
+    "accessToken": "8e50872b50395a145fdafb89a97be848",
+    "refreshToken": "4e915e70a71bd4750ca551246167f3e7",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
