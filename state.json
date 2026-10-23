@@ -23312,8 +23312,8 @@
       "stats": {
         "totalVotes": 4961,
         "totalSubs": 30,
-        "totalChatMessages": 873,
-        "totalStreamMinutes": 6544,
+        "totalChatMessages": 875,
+        "totalStreamMinutes": 6546,
         "emotes": {
           "❤": 34,
           "🙌": 40,
@@ -23322,8 +23322,8 @@
           "📴": 47,
           "👋": 47,
           "🎁": 22,
-          "🔴": 47,
-          "🎉": 48,
+          "🔴": 48,
+          "🎉": 49,
           "😂": 9,
           "🗳": 87,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
@@ -23407,17 +23407,9 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792737963411
+        "lastChatAt": 1792739436418
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @tom2329!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @cvek11!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @omererkmen!"
@@ -23449,6 +23441,14 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ MrNooB just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Maplestory, the boosting a friend's HSR account! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -23459,7 +23459,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "Maplestory, the boosting a friend's HSR account",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/cc663e2e-024f-4be4-a124-9cdcbb5ed335.jpg",
       "followed": true,
@@ -23562,9 +23562,9 @@
         }
       },
       "_idAt": 1792735073462,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792737958837,
+      "streamCategory": "MapleStory",
+      "isLive": true,
+      "_gameAt": 1792739436161,
       "voteLog": [
         {
           "t": 1792429891323,
@@ -25251,7 +25251,7 @@
         "totalVotes": 2027,
         "totalSubs": 7,
         "totalChatMessages": 175,
-        "totalStreamMinutes": 8453,
+        "totalStreamMinutes": 8458,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -29346,9 +29346,9 @@
       "n": 13
     },
     "poderosobot": {
-      "note": "Poderosobot hosts live roulette, slots, duels, balance checks, and community points, often thanking viewers with playful chat updates.",
-      "at": 1792675370201,
-      "n": 6
+      "note": "Poderosobot hosts live roulette, slots, duels, balance checks and community points, often thanking viewers with playful chat updates and level‑up celebrations.",
+      "at": 1792739390350,
+      "n": 7
     },
     "sbcrypto": {
       "note": "Enjoy joking about cooking, food, and playful teasing with emojis while chatting about games and giveaways.",
@@ -29608,8 +29608,8 @@
     }
   },
   "auth": {
-    "accessToken": "a136a2820333b4bd69818806e4f6b7e6",
-    "refreshToken": "34a95b855571742a02cab07fd6bc9319",
+    "accessToken": "9622551fb18985b17ffa63c026692137",
+    "refreshToken": "5501a4bc62893f2898e5ca1d222dad28",
     "sessionToken": "7eb4447204795e6402ac6eea2763bc35",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
