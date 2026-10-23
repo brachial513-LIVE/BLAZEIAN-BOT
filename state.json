@@ -4695,8 +4695,8 @@
       "stats": {
         "totalVotes": 56414,
         "totalSubs": 100,
-        "totalChatMessages": 21101,
-        "totalStreamMinutes": 12644,
+        "totalChatMessages": 21122,
+        "totalStreamMinutes": 12664,
         "emotes": {
           "❤": 7760,
           "🎵": 780,
@@ -4755,7 +4755,7 @@
           "❣": 13,
           "🫢": 14,
           "🙃": 2,
-          "🖤": 29,
+          "🖤": 30,
           "✨": 115,
           "🤩": 7,
           "✅": 1,
@@ -4921,13 +4921,17 @@
           "⚔": 12,
           "🍿": 7,
           "🛢": 3,
-          "🚽": 1,
+          "🚽": 2,
           "🛌": 1,
           "🥱": 1,
           "🌙": 1,
           "😛": 1,
           "🦖": 3,
-          "❓": 1
+          "❓": 1,
+          "🎪": 2,
+          "👾": 2,
+          "🦷": 1,
+          "🪥": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -5159,9 +5163,13 @@
           "🌙": "🌙",
           "😛": "😛",
           "🦖": "🦖",
-          "❓": "❓"
+          "❓": "❓",
+          "🎪": "🎪",
+          "👾": "👾",
+          "🦷": "🦷",
+          "🪥": "🪥"
         },
-        "lastChatAt": 1792759610714,
+        "lastChatAt": 1792760255631,
         "sendFailStreak": 578,
         "lastSendFailAt": 1792758901174,
         "lastSendFailReason": "You are banned from this channel.",
@@ -5171,44 +5179,44 @@
       },
       "chatMemory": [
         {
-          "user": "sheshi",
-          "msg": "ahh ok"
-        },
-        {
-          "user": "sheshi",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
-        },
-        {
-          "user": "sheshi",
-          "msg": "yes, is it live?"
-        },
-        {
-          "user": "sheshi",
-          "msg": "oh ok"
-        },
-        {
-          "user": "sheshi",
-          "msg": "i just woke and i was on roblox testing thingie"
-        },
-        {
-          "user": "sheshi",
-          "msg": "right"
-        },
-        {
           "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
+          "msg": "@mrnoob — welcome and thanks for the follow! 🖤 Type !link to grab OSP courage while you watch."
+        },
+        {
+          "user": "mrnoob",
+          "msg": "gm gm"
         },
         {
           "user": "unclefunk",
-          "msg": "Hey everyone. Just testing the intergated blaze bot"
-        },
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
+          "msg": "heya!"
         },
         {
           "user": "unclefunk",
-          "msg": "Sure, UncleFunk! Hellfire incoming! 🔥"
+          "msg": "Sure, UncleFunk! Boss incoming! 🎪"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Sure, UncleFunk! Swarm sent! 👾"
+        },
+        {
+          "user": "sheshi",
+          "msg": "hello @slothsm"
+        },
+        {
+          "user": "sheshi",
+          "msg": "hello @mrnoob"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Sure, UncleFunk! Boss incoming! 🎪"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Sure, UncleFunk! Swarm sent! 👾"
+        },
+        {
+          "user": "sheshi",
+          "msg": "BRB 🚽🦷🪥"
         }
       ],
       "customCommands": {},
@@ -5354,7 +5362,7 @@
       "_idAt": 1792749475902,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1792759610562,
+      "_gameAt": 1792760255729,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -10747,11 +10755,11 @@
       "stats": {
         "totalVotes": 4047,
         "totalSubs": 22,
-        "totalChatMessages": 366,
+        "totalChatMessages": 367,
         "totalStreamMinutes": 1259,
         "emotes": {
-          "❤": 42,
-          "🙌": 41,
+          "❤": 44,
+          "🙌": 42,
           "💚": 5,
           "🔥": 55,
           "📴": 30,
@@ -10809,14 +10817,10 @@
           "🎯": "🎯",
           "🚨": "🚨"
         },
-        "lastChatAt": 1792745654535,
+        "lastChatAt": 1792760165073,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "⚠️ Heads up helios! You're projected to fall below Verified (Tier 2) in about 6 days (2026/10/26 13:49 UTC). Current stream hours: 11.1h / 10h required. Stream more to keep your Verified status! 🎯"
-        },
         {
           "user": "botger",
           "msg": "Helios is now live!! Let's get building"
@@ -10852,6 +10856,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ zsoltech just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -10947,7 +10955,7 @@
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
       "_idAt": 1792753074704,
-      "_gameAt": 1792745654653,
+      "_gameAt": 1792760165187,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -25355,7 +25363,7 @@
         "totalVotes": 2027,
         "totalSubs": 7,
         "totalChatMessages": 175,
-        "totalStreamMinutes": 8793,
+        "totalStreamMinutes": 8813,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -25985,7 +25993,7 @@
       "_profileAtCount": 341,
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
-      "_idAt": 1792737467543,
+      "_idAt": 1792760267552,
       "_gameAt": 1792755936733,
       "isLive": false,
       "streamCategory": ""
@@ -26089,7 +26097,7 @@
       "gameOverride": "",
       "profile": "starmouse307319 streams energetic, community‑first gameplay, shouting “Welcome everyone!” and “Thanks for watching!” to celebrate viewers. The chat loves quick “follow” prompts, “Let’s take a moment to follow” links, and playful banter. Recurring slang includes “hi welcome how are you?” and “nice to hear that”. The vibe is friendly, inclusive, and always encouraging new followers.",
       "_profileAtCount": 86,
-      "_idAt": 1792737468680
+      "_idAt": 1792760268728
     },
     "b9633d43-f55f-4bb2-825e-92c0c1422e87": {
       "username": "precidobos",
@@ -26180,7 +26188,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792737469881,
+      "_idAt": 1792760269924,
       "_gameAt": 1792257951239,
       "isLive": false,
       "streamCategory": ""
@@ -26247,7 +26255,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f64a634d-8908-45cf-8143-8a641931b8c8.png",
       "followed": true,
       "botVip": true,
-      "_idAt": 1792737471081
+      "_idAt": 1792760271134
     },
     "a8d36ae2-d8e9-4f53-a27d-55c1506a9fbc": {
       "username": "reddeadrasta",
@@ -26360,7 +26368,7 @@
       "_profileAtCount": 18,
       "nudgedAt": 1789878374898,
       "nudgedKey": "schedule",
-      "_idAt": 1792737472281,
+      "_idAt": 1792760272337,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792541861587
@@ -26519,7 +26527,7 @@
       "gameOverride": "",
       "profile": "corneto streams arcana maps, farming ammo for MoG at level 225+ with a crew that loves “yow @alliveall” and “LD incoming soon 😂😂”. The chat thrives on quick “ggsssssssssssss” and “🔥🔥🔥” reactions, celebrates votes with “🗳️ VOTE ALERT!!”, and celebrates followers with “❤️ NEW FOLLOWER!! ❤️”. The vibe is fast‑paced, playful, and always ready for the next LD.",
       "_profileAtCount": 74,
-      "_idAt": 1792737473482,
+      "_idAt": 1792760273533,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792675005141,
@@ -26593,7 +26601,7 @@
       "lastStreamInfo": "[ES/EN]💥 | HABBO - BLACK JACK | GIVEAWAY!! — Habbo Hotel",
       "lastStreamEndedAt": 1788999484327,
       "gameOverride": "",
-      "_idAt": 1792737474678
+      "_idAt": 1792760274728
     },
     "abe9ce7b-abb9-421e-8063-f29ee331e751": {
       "username": "jagsman",
@@ -26710,7 +26718,7 @@
       "lastStreamEndedAt": 1792083886713,
       "profile": "jagsman’s channel thrives on spontaneous hype: “❤️ NEW FOLLOWER!! ❤️” and “🗳️ VOTE ALERT!!” echo through the chat. The vibe is energetic, supportive, and playful, celebrating every new follower and vote with enthusiastic emojis and shoutouts. Stream is now live! Stream is now offline! Thanks for watching! The community loves quick cheers, “Thanks for the follow” and “Stream is now live!”",
       "_profileAtCount": 126,
-      "_idAt": 1792737475875,
+      "_idAt": 1792760275923,
       "nudgedAt": 1791149490517,
       "nudgedKey": "schedule",
       "_gameAt": 1792676445935,
@@ -29668,6 +29676,11 @@
       "note": "Enjoys gaming streams, trading talk, and playful Spanish humor, often cheering with “dab” and “LFBLAZE IT!” emojis.",
       "at": 1792749950268,
       "n": 2
+    },
+    "mrnoob": {
+      "note": "They chat about gaming",
+      "at": 1792759850247,
+      "n": 1
     }
   },
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 40 votes = 1 entry / 80 = 3 entries / 150 = 6 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 1000 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\n21th - 27th September 2026 = 25th Giveaway on Blaze",
