@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 25877,
         "totalSubs": 77,
-        "totalChatMessages": 3754,
+        "totalChatMessages": 3755,
         "totalStreamMinutes": 4140,
         "emotes": {
           "❤": 142,
@@ -190,8 +190,8 @@
           "b05156cf-7925-4298-8e19-f29e294cc793": 1,
           "🤘": 1,
           "ec7fa2b3-ccd6-4ec7-ae76-b70eb57bf5d9": 3,
-          "⚠": 1,
-          "🎯": 1,
+          "⚠": 2,
+          "🎯": 2,
           "b7ef7e1f-a84d-4941-b65d-155a1b48e966": 4
         },
         "emoteNames": {
@@ -382,13 +382,9 @@
           "b7ef7e1f-a84d-4941-b65d-155a1b48e966": "gmc_shoots"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792716377891
+        "lastChatAt": 1792824141470
       },
       "chatMemory": [
-        {
-          "user": "der_bruder",
-          "msg": "[emote:9bae77ce-88a9-4e2f-bcb9-15547d7282f4]"
-        },
         {
           "user": "omom_",
           "msg": "[emote:b7ef7e1f-a84d-4941-b65d-155a1b48e966]"
@@ -424,6 +420,10 @@
         {
           "user": "botger",
           "msg": "🟥 GMC HQ OVER AND OUT : We are Offline now - Thanks for beeing a part of this Community 🫂💚"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up brachial513! You're projected to fall below Verified (Tier 2) in about 7 days (2026/10/31 06:42 UTC). Current stream hours: 16.2h / 10h required. Stream more to keep your Verified status! 🎯"
         }
       ],
       "language": "en",
@@ -635,7 +635,7 @@
         }
       },
       "_idAt": 1792816669989,
-      "_gameAt": 1792716267963,
+      "_gameAt": 1792824141544,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -11022,7 +11022,7 @@
       "stats": {
         "totalVotes": 4247,
         "totalSubs": 23,
-        "totalChatMessages": 371,
+        "totalChatMessages": 372,
         "totalStreamMinutes": 1259,
         "emotes": {
           "❤": 44,
@@ -11050,8 +11050,8 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": 9,
           "🍺": 4,
           "🗳": 42,
-          "⚠": 3,
-          "🎯": 3,
+          "⚠": 4,
+          "🎯": 4,
           "🚨": 6,
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": 1,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1
@@ -11088,14 +11088,10 @@
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": "JOYFULLPYRO",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
-        "lastChatAt": 1792770042928,
+        "lastChatAt": 1792824140371,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "Trying to recreate a demo scene from a reference for a game I'm working on"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -11131,6 +11127,10 @@
         {
           "user": "helios",
           "msg": "W Doffer 🔥🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up helios! You're projected to fall below Verified (Tier 2) in about 3 days (2026/10/27 06:42 UTC). Current stream hours: 11.6h / 10h required. Stream more to keep your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -11231,7 +11231,7 @@
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
       "_idAt": 1792821474796,
-      "_gameAt": 1792770043040,
+      "_gameAt": 1792824140491,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -15698,7 +15698,7 @@
       "commentMode": "low",
       "lastStreamInfo": "Streamish #123 - Ori and the Will of the Wisps",
       "lastStreamEndedAt": 1792529775162,
-      "_idAt": 1792801067608,
+      "_idAt": 1792823867624,
       "_gameAt": 1792781617845,
       "isLive": false,
       "streamCategory": "",
@@ -16055,7 +16055,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792801068771,
+      "_idAt": 1792823868797,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792798727625,
@@ -16621,7 +16621,7 @@
       "commentMode": "silent",
       "lastStreamInfo": "The Last hour of an EPIC TO THE MOON RPG Demo ♥",
       "lastStreamEndedAt": 1792690596811,
-      "_idAt": 1792801069974,
+      "_idAt": 1792823870000,
       "_gameAt": 1792746818545,
       "isLive": false,
       "streamCategory": "",
@@ -16742,7 +16742,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a8eb7277-ff4e-49af-9173-5e3ddfa1df4f.jpg",
       "followed": true,
-      "_idAt": 1792801071169
+      "_idAt": 1792823871194
     },
     "86dae0fd-e013-428c-8d04-d67c830d36af": {
       "username": "cedricdebled",
@@ -17312,7 +17312,7 @@
       "gameOverride": "",
       "lastStreamInfo": "Drawing session with a special MySilo wheelspin — Art",
       "lastStreamEndedAt": 1792016567041,
-      "_idAt": 1792801072371,
+      "_idAt": 1792823872396,
       "_gameAt": 1792774286011,
       "isLive": false,
       "streamCategory": "",
@@ -17849,7 +17849,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792801073576,
+      "_idAt": 1792823873599,
       "_gameAt": 1792780437102,
       "isLive": false,
       "streamCategory": "",
@@ -18386,7 +18386,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792801074767,
+      "_idAt": 1792823874796,
       "_gameAt": 1792679419873,
       "isLive": false,
       "streamCategory": "",
@@ -18556,7 +18556,7 @@
       },
       "lastStreamInfo": "FOXSPIRIT | MAPLE!!! Spanish Stream — MapleStory",
       "lastStreamEndedAt": 1788221244823,
-      "_idAt": 1792801075974
+      "_idAt": 1792823875999
     },
     "9e26a8e9-192e-41bd-9933-ce3d651f120d": {
       "username": "sofrenciaplay",
@@ -22302,7 +22302,7 @@
       "stats": {
         "totalVotes": 190068,
         "totalSubs": 38,
-        "totalChatMessages": 1498,
+        "totalChatMessages": 1499,
         "totalStreamMinutes": 3232,
         "emotes": {
           "💚": 1,
@@ -22317,8 +22317,8 @@
           "❤": 65,
           "👋": 49,
           "👍": 2,
-          "⚠": 3,
-          "🎯": 3,
+          "⚠": 4,
+          "🎯": 4,
           "🗳": 423,
           "🙌": 59,
           "✌": 1,
@@ -22435,16 +22435,12 @@
           "💛": "💛"
         },
         "sendFailStreak": 244,
-        "lastChatAt": 1792793769325,
+        "lastChatAt": 1792824142545,
         "lastSendFailAt": 1792787666362,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1792787666179
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 clutchking is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "mediart",
           "msg": "Hi Clutchking,have a great stream"
@@ -22480,6 +22476,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up clutchking! You're projected to fall below Verified (Tier 2) in about 3 days (2026/10/27 06:42 UTC). Current stream hours: 14.0h / 10h required. Stream more to keep your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -22583,7 +22583,7 @@
       "nudgedAt": 1786147592153,
       "nudgedKey": "schedule",
       "_idAt": 1792803469971,
-      "_gameAt": 1792793769418,
+      "_gameAt": 1792824142623,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -24116,7 +24116,7 @@
         "totalVotes": 6699,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 9661,
+        "totalStreamMinutes": 9681,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -29629,8 +29629,8 @@
     },
     "seventh": {
       "note": "Seventh loves joking loudly, plays Aion 2 and L4D, enjoys mukbang and ASMR, and cares for dogs.",
-      "at": 1792721570232,
-      "n": 20
+      "at": 1792823870283,
+      "n": 21
     },
     "nashvillelou": {
       "note": "They enjoy gaming, often cheering with “gg,” “glhf,” and hype, and appreciate good music and closed captioning.",
