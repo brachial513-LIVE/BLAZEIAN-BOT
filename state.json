@@ -1836,13 +1836,13 @@
       "stats": {
         "totalVotes": 37676,
         "totalSubs": 94,
-        "totalChatMessages": 47936,
-        "totalStreamMinutes": 4301,
+        "totalChatMessages": 47940,
+        "totalStreamMinutes": 4302,
         "emotes": {
           "🔥": 2362,
           "🗳": 34,
-          "🔴": 58,
-          "🎉": 434,
+          "🔴": 59,
+          "🎉": 435,
           "😍": 141,
           "❤": 66,
           "🚢": 24,
@@ -1863,8 +1863,8 @@
           "🌉": 42,
           "💨": 255,
           "💥": 565,
-          "📴": 57,
-          "👋": 67,
+          "📴": 58,
+          "👋": 68,
           "😢": 2,
           "⚠": 32,
           "🎯": 2,
@@ -2188,7 +2188,7 @@
           "🎂": "🎂",
           "🫣": "🫣"
         },
-        "lastChatAt": 1792784397932,
+        "lastChatAt": 1792855563379,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2196,22 +2196,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "nadietv",
-          "msg": "ban octo en glass xD"
-        },
-        {
-          "user": "octo",
-          "msg": "kiss my glass nadie!"
-        },
-        {
-          "user": "octo",
-          "msg": "ggs yall"
-        },
-        {
-          "user": "sheena",
-          "msg": "can you sleep tomorrow octi"
-        },
         {
           "user": "briggsy",
           "msg": "Thanks for the games"
@@ -2231,6 +2215,22 @@
         {
           "user": "nadietv",
           "msg": "noice"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 jt_squared2 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "yo"
         },
         {
           "user": "botger",
@@ -2484,14 +2484,14 @@
         }
       },
       "gameOverride": "",
-      "lastStreamInfo": "Blaze Games - Interactive Chat Games for Streamers",
-      "lastStreamEndedAt": 1792784392725,
+      "lastStreamInfo": "Testing Aitum Multistream",
+      "lastStreamEndedAt": 1792855558222,
       "nudgedAt": 1785864236148,
       "nudgedKey": "schedule",
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792839468829,
-      "_gameAt": 1792784259403,
+      "_gameAt": 1792855465221,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -9093,16 +9093,16 @@
       "stats": {
         "totalVotes": 9571,
         "totalSubs": 90,
-        "totalChatMessages": 999,
-        "totalStreamMinutes": 24558,
+        "totalChatMessages": 1000,
+        "totalStreamMinutes": 24561,
         "emotes": {
           "❤": 136,
           "🙌": 44,
           "🔥": 41,
           "🔴": 176,
           "🎉": 176,
-          "📴": 180,
-          "👋": 184,
+          "📴": 181,
+          "👋": 185,
           "😂": 4,
           "💚": 9,
           "💪": 6,
@@ -9197,14 +9197,10 @@
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
-        "lastChatAt": 1792855346610,
+        "lastChatAt": 1792855570040,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "razmr_eth",
           "msg": "Have a nice stream. Real razmr ;)"
@@ -9240,6 +9236,10 @@
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -9251,7 +9251,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "AION ATE O START DO SERVE VALHALLA",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c880cae5-c7c6-48bb-a733-713670cb9bac.png",
@@ -9259,7 +9259,7 @@
       "_profileAtCount": 995,
       "botVip": true,
       "lastStreamInfo": "AION ATE O START DO SERVE VALHALLA",
-      "lastStreamEndedAt": 1792855060285,
+      "lastStreamEndedAt": 1792855564837,
       "nudgedAt": 1785710754625,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -9330,9 +9330,9 @@
         }
       },
       "_idAt": 1792843071228,
-      "streamCategory": "Aion 2",
-      "isLive": true,
-      "_gameAt": 1792855346552
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792855570112
     },
     "d7c03cf7-26bc-4966-b436-ec5820565e9c": {
       "username": "1vynnn",
@@ -13406,7 +13406,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 96,
-        "totalStreamMinutes": 13510,
+        "totalStreamMinutes": 13513,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -13499,12 +13499,12 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1f090e45-3a71-44b8-9333-05e12b2c0f2d.png",
-      "streamTitle": "⚔️ ¡Seguimos subiendo niveles! 🔥 Farmeo, aventuras y progreso 💪",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0,
       "lastStreamInfo": "⚔️ ¡Seguimos subiendo niveles! 🔥 Farmeo, aventuras y progreso 💪",
-      "lastStreamEndedAt": 1792846599027,
+      "lastStreamEndedAt": 1792855559758,
       "loyalty": {
         "elenatroya": {
           "name": "elenatroya",
@@ -13518,8 +13518,8 @@
         }
       },
       "_idAt": 1792845468829,
-      "streamCategory": "Black Desert Online",
-      "isLive": true,
+      "streamCategory": "",
+      "isLive": false,
       "_gameAt": 1792855312521
     },
     "30a3c675-be0d-4014-831f-6051350ffbf0": {
@@ -18086,8 +18086,8 @@
       "stats": {
         "totalVotes": 11440,
         "totalSubs": 64,
-        "totalChatMessages": 2925,
-        "totalStreamMinutes": 7317,
+        "totalChatMessages": 2935,
+        "totalStreamMinutes": 7321,
         "emotes": {
           "❤": 122,
           "🙌": 110,
@@ -18097,8 +18097,8 @@
           "🗳": 282,
           "⚠": 1,
           "🎯": 1,
-          "🔴": 63,
-          "🎉": 82,
+          "🔴": 64,
+          "🎉": 83,
           "🚨": 84,
           "😀": 1,
           "👍": 8,
@@ -18143,7 +18143,7 @@
           "c9d84982-16c7-4ade-a5a5-cb8529155983": 37,
           "7a1e9750-fe7b-4a4c-be25-269fc26eb96a": 59,
           "c48c951e-f67d-4d51-b09e-64842d676e1d": 15,
-          "2d3dff94-e3c8-4718-923a-e33039012610": 44,
+          "2d3dff94-e3c8-4718-923a-e33039012610": 49,
           "f4dc2902-a7a7-4659-ba65-530024d5b445": 16,
           "e66e24a5-46b0-4988-9c1d-7dbf58ecb805": 16,
           "444f8613-71d7-4493-939a-b44426ef3c8a": 13,
@@ -18305,48 +18305,48 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792679421775
+        "lastChatAt": 1792855651977
       },
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
         },
         {
           "user": "scurvybot",
-          "msg": "@just_for_lucas subscribed! Thank you!"
+          "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
         },
         {
-          "user": "botger",
-          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @just_for_lucas to the channel! Thank you so much for subscribing! 🙌"
+          "user": "lunaria",
+          "msg": "[emote:2d3dff94-e3c8-4718-923a-e33039012610] [emote:2d3dff94-e3c8-4718-923a-e33039012610]"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 100 votes, @cripiechuccles!"
+          "user": "nekoschwan",
+          "msg": "ruriiii haloooo"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @cripiechuccles just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+          "user": "nekoschwan",
+          "msg": "bat ka nag papakita ng KNEEPAULS"
         },
         {
-          "user": "dress_n_draw",
-          "msg": "Hi🤗"
+          "user": "nekoschwan",
+          "msg": "[emote:2d3dff94-e3c8-4718-923a-e33039012610] [emote:2d3dff94-e3c8-4718-923a-e33039012610] [emote:2d3dff94-e3c8-4718-923a-e33039012610]"
         },
         {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
+          "user": "ruri666",
+          "msg": "HAHAHAHAHHAHAHAHAHA di kitaaaaaa"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @poderosobot!"
+          "user": "nekoschwan",
+          "msg": "hahahhaha"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @capt_rob_advent!"
+          "user": "ruri666",
+          "msg": "tanyado yan te neko"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @capt_rob_advent just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
+          "user": "ruri666",
+          "msg": "HAHAHAHAHA"
         }
       ],
       "customCommands": {},
@@ -18358,7 +18358,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "",
+      "streamTitle": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -18510,9 +18510,9 @@
         }
       },
       "_idAt": 1792846674828,
-      "_gameAt": 1792679419873,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1792855569469,
+      "isLive": true,
+      "streamCategory": "Music",
       "voteLog": [
         {
           "t": 1792429891310,
@@ -18688,8 +18688,8 @@
       "stats": {
         "totalVotes": 20392,
         "totalSubs": 33,
-        "totalChatMessages": 46672,
-        "totalStreamMinutes": 23415,
+        "totalChatMessages": 46681,
+        "totalStreamMinutes": 23420,
         "emotes": {
           "❤": 163,
           "🙌": 138,
@@ -18697,7 +18697,7 @@
           "🔥": 69,
           "🔴": 132,
           "🎉": 488,
-          "🪙": 1151,
+          "🪙": 1152,
           "⚡": 941,
           "👀": 127,
           "🍿": 28,
@@ -19131,37 +19131,9 @@
           "🥸": "🥸"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792855371707
+        "lastChatAt": 1792855442481
       },
       "chatMemory": [
-        {
-          "user": "lipeman",
-          "msg": "o Mauh nada"
-        },
-        {
-          "user": "lipeman",
-          "msg": "vai ser vcs provavelmente"
-        },
-        {
-          "user": "lipeman",
-          "msg": "fica esperto aí Nilo"
-        },
-        {
-          "user": "botger",
-          "msg": "⭐️Zerar jogo no canal ganha 100 blaze, no hard 150 blaze, zerando 100% ganha 200 blaze, não pode repetir jogo no mês, blaze vai pra sua carteira."
-        },
-        {
-          "user": "solucao",
-          "msg": "Boa tarde nilao rei da Bahia"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "não sei se ele ficou chateado, mas poxa, sábado de manhã é complicado pra mim, comprar comida tarde o local fica lotado"
-        },
-        {
-          "user": "solucao",
-          "msg": "Boa tarde mauh rei do Bomberman"
-        },
         {
           "user": "lipeman",
           "msg": "fala solução"
@@ -19173,6 +19145,34 @@
         {
           "user": "lovemikami",
           "msg": "Mauh tá ai não daniel"
+        },
+        {
+          "user": "solucao",
+          "msg": "Boa tarde rechi dono churrascaria"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "tentei"
+        },
+        {
+          "user": "solucao",
+          "msg": "Boa tarde filho do rechi"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "@solucao: Nível 1 | 400 XP (600 para o Nível 2)"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "pois é, eu pedi"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "e vi que ele saiu da call logo em seguida, digitou duas coisas no chat e sumiu"
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @solucao 13.065 pontos."
         }
       ],
       "customCommands": {},
@@ -19315,7 +19315,7 @@
         }
       },
       "_idAt": 1792847867651,
-      "_gameAt": 1792855198287,
+      "_gameAt": 1792855380931,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -24316,7 +24316,7 @@
         "totalVotes": 6729,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 10196,
+        "totalStreamMinutes": 10201,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -30419,8 +30419,8 @@
     }
   },
   "auth": {
-    "accessToken": "2da2854ab7e4ce26bb15c551bd91d670",
-    "refreshToken": "ab84827290c38cc090c79fe17fffac9e",
+    "accessToken": "90177a11546cd49304568b9cbe31e3ff",
+    "refreshToken": "48ea0b42e384d186efed5e5b15665e86",
     "sessionToken": "63b530ce4ee47e77383ed7ce3152a122",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
