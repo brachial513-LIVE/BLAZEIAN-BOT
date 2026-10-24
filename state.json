@@ -4069,8 +4069,8 @@
       "stats": {
         "totalVotes": 30642,
         "totalSubs": 116,
-        "totalChatMessages": 9401,
-        "totalStreamMinutes": 28373,
+        "totalChatMessages": 9404,
+        "totalStreamMinutes": 28378,
         "emotes": {
           "❤": 256,
           "🙌": 215,
@@ -4445,22 +4445,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792870452032,
+        "lastChatAt": 1792871865834,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "noodles",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:865522a4-549a-4334-85d8-a34a9ad94559]"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "❤️❤️❤️"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "how you going ? soo nice to see you today"
-        },
         {
           "user": "noodles",
           "msg": "oh nooo"
@@ -4488,6 +4476,18 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "zaniiiiiiii"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "hi hi"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "how u ?"
         }
       ],
       "customCommands": {
@@ -4732,7 +4732,7 @@
         }
       },
       "_idAt": 1792862636188,
-      "_gameAt": 1792870451952,
+      "_gameAt": 1792871744333,
       "isLive": true,
       "streamCategory": "Fortnite",
       "voteLog": [
@@ -4884,36 +4884,36 @@
       "stats": {
         "totalVotes": 56553,
         "totalSubs": 117,
-        "totalChatMessages": 24763,
-        "totalStreamMinutes": 13160,
+        "totalChatMessages": 24809,
+        "totalStreamMinutes": 13165,
         "emotes": {
-          "❤": 7952,
+          "❤": 7955,
           "🎵": 789,
           "💃": 341,
-          "🔥": 1869,
+          "🔥": 1875,
           "💚": 44,
           "👋": 334,
           "🚨": 444,
           "😊": 10,
-          "🚀": 33,
+          "🚀": 34,
           "😂": 293,
           "💯": 46,
           "💥": 22,
           "🎶": 171,
           "🎸": 259,
           "🤘": 10,
-          "👀": 28,
+          "👀": 29,
           "🕺": 107,
           "😑": 3,
           "💕": 37,
           "😁": 97,
           "😆": 34,
-          "🐝": 1592,
+          "🐝": 1595,
           "🥷": 4,
           "😃": 4,
           "💪": 46,
           "🥹": 6,
-          "🤣": 1102,
+          "🤣": 1105,
           "🥚": 29,
           "🙏": 584,
           "😀": 16,
@@ -4945,7 +4945,7 @@
           "🫢": 14,
           "🙃": 2,
           "🖤": 33,
-          "✨": 127,
+          "✨": 128,
           "🤩": 7,
           "✅": 1,
           "🤟": 22,
@@ -4955,7 +4955,7 @@
           "🌟": 11,
           "☀": 2,
           "☂": 2,
-          "⚡": 6,
+          "⚡": 7,
           "🥰": 33,
           "😜": 4,
           "🚚": 1,
@@ -4965,7 +4965,7 @@
           "🤧": 2,
           "🎁": 46,
           "☝": 37,
-          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 403,
+          "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 409,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 26,
           "07de98c1-b682-4d82-b630-774474b712cc": 3,
           "b416995d-3eee-4c99-9927-86fa112b0b18": 11,
@@ -5117,22 +5117,26 @@
           "😛": 1,
           "🦖": 3,
           "❓": 1,
-          "🎪": 324,
+          "🎪": 325,
           "👾": 191,
           "🦷": 1,
           "🪥": 1,
-          "⏳": 140,
+          "⏳": 142,
           "🐢": 8,
           "🍗": 1,
           "📣": 6,
           "🛬": 13,
-          "🔊": 2,
+          "🔊": 3,
           "👊": 5,
           "🔉": 2,
           "f47c4aa4-ee1a-4690-960b-f174d9ab2cd5": 1,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 1,
           "9294e28e-48fa-409c-b43b-98287465b788": 1,
-          "🏁": 1
+          "🏁": 2,
+          "🏆": 1,
+          "🥇": 1,
+          "🥈": 1,
+          "🥉": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -5380,9 +5384,13 @@
           "f47c4aa4-ee1a-4690-960b-f174d9ab2cd5": "PEACEPYRO",
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": "DAZEDPYRO",
           "9294e28e-48fa-409c-b43b-98287465b788": "CONTRASTPYRO2",
-          "🏁": "🏁"
+          "🏁": "🏁",
+          "🏆": "🏆",
+          "🥇": "🥇",
+          "🥈": "🥈",
+          "🥉": "🥉"
         },
-        "lastChatAt": 1792871575178,
+        "lastChatAt": 1792871862147,
         "sendFailStreak": 579,
         "lastSendFailAt": 1792858205838,
         "lastSendFailReason": "You are banned from this channel.",
@@ -5392,44 +5400,44 @@
       },
       "chatMemory": [
         {
-          "user": "bee12",
-          "msg": "have you seen our starfall game yet?❤️🐝❤️"
-        },
-        {
           "user": "jt_squared2",
-          "msg": "no I don't think so"
+          "msg": "wow you even hired one of those video game voice over actors"
         },
         {
           "user": "unclefunk",
-          "msg": "🔥 DoctorGeorgio, jt_squared2 joined the BLAZELING DASH! 2 racing so far. Type !race to join."
+          "msg": "Sure, DoctorGeorgio! Laser show activated! ✨"
         },
         {
           "user": "unclefunk",
-          "msg": "🔥 sheshi joined the BLAZELING DASH! 3 racing so far. Type !race to join."
-        },
-        {
-          "user": "bee12",
-          "msg": "you'll love it, going by the games you have made"
-        },
-        {
-          "user": "unclefunk",
-          "msg": "www.ospstarfall.com"
+          "msg": "Sure, DoctorGeorgio! Overclock on! ⚡"
         },
         {
           "user": "sheshi",
-          "msg": "hello @jt_squared2"
+          "msg": "hello @sebasjps"
         },
         {
           "user": "unclefunk",
-          "msg": "🔥 bee12 joined the BLAZELING DASH! 4 racing so far. Type !race to join."
+          "msg": "DoctorGeorgio, heal is recharging! Ready in 54s. ⏳"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Sure, DoctorGeorgio! Hellfire incoming! 🔥"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "bee12, hellfire is recharging! Ready in 89s. ⏳"
         },
         {
           "user": "jt_squared2",
-          "msg": "oh wait is this the one that is like asteroids?"
+          "msg": "looks great"
         },
         {
           "user": "bee12",
-          "msg": "yassss, but there's more to itttt"
+          "msg": "❤️❤️❤️"
+        },
+        {
+          "user": "doctorgeorgio",
+          "msg": "ez"
         }
       ],
       "customCommands": {},
@@ -5580,7 +5588,7 @@
       "_idAt": 1792862636188,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1792871440304,
+      "_gameAt": 1792871810536,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -10048,7 +10056,7 @@
         "totalVotes": 1519,
         "totalSubs": 11,
         "totalChatMessages": 581,
-        "totalStreamMinutes": 1738,
+        "totalStreamMinutes": 1743,
         "emotes": {
           "🎶": 1,
           "😀": 1,
@@ -13643,7 +13651,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 96,
-        "totalStreamMinutes": 13605,
+        "totalStreamMinutes": 13610,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -19065,16 +19073,16 @@
       "stats": {
         "totalVotes": 20463,
         "totalSubs": 33,
-        "totalChatMessages": 47497,
-        "totalStreamMinutes": 23685,
+        "totalChatMessages": 47536,
+        "totalStreamMinutes": 23690,
         "emotes": {
           "❤": 167,
           "🙌": 139,
           "🤝": 4,
           "🔥": 70,
           "🔴": 132,
-          "🎉": 523,
-          "🪙": 1161,
+          "🎉": 524,
+          "🪙": 1163,
           "⚡": 941,
           "👀": 127,
           "🍿": 28,
@@ -19250,7 +19258,7 @@
           "🥺": 2,
           "🥈": 126,
           "🥉": 126,
-          "⭐": 392,
+          "⭐": 393,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 10,
           "✊": 2,
           "✋": 2,
@@ -19516,48 +19524,48 @@
           "🌟": "🌟"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792871573271
+        "lastChatAt": 1792871866187
       },
       "chatMemory": [
         {
-          "user": "lipeman",
-          "msg": "kkkkkk"
-        },
-        {
-          "user": "lipeman",
-          "msg": "deixa eu assistir"
-        },
-        {
           "user": "rechigamer",
-          "msg": "Waku Waku só tem o 7 Lípe"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NOVO SEGUIDOR!! ❤️ sebasjps acabou de seguir o canal! Boas-vindas!! 🙌"
+          "msg": "se não vai metal Slug XX"
         },
         {
           "user": "poderosobot",
-          "msg": "Parabéns, @botger! Você subiu para o Nível 9! 🎉"
-        },
-        {
-          "user": "sebasjps",
-          "msg": "hi"
+          "msg": "@alensilva: Nível 4 | 4800 XP (1100 para o Nível 5)"
         },
         {
           "user": "lipeman",
-          "msg": "fiquei com medo desse quebra cabeça"
+          "msg": "kkkkkkkkk"
         },
         {
           "user": "lipeman",
-          "msg": "unca fui bom nisso não"
+          "msg": "vcs viram o Eden?"
         },
         {
-          "user": "mauhzera",
-          "msg": "kkkkkk"
+          "user": "lipeman",
+          "msg": "eu não tu escutando nada"
         },
         {
-          "user": "poderosobot",
-          "msg": "Parabéns, @mauhzera! Você subiu para o Nível 5! 🎉"
+          "user": "lipeman",
+          "msg": "tô*"
+        },
+        {
+          "user": "alensilva",
+          "msg": "Nilo só joga com cheat nas gameplay dele"
+        },
+        {
+          "user": "lipeman",
+          "msg": "vatapá/"
+        },
+        {
+          "user": "lipeman",
+          "msg": "nham nham"
+        },
+        {
+          "user": "lipeman",
+          "msg": "com umas costelinha"
         }
       ],
       "customCommands": {},
@@ -19700,7 +19708,7 @@
         }
       },
       "_idAt": 1792870667692,
-      "_gameAt": 1792871516978,
+      "_gameAt": 1792871698911,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -22622,7 +22630,7 @@
         "totalVotes": 9779,
         "totalSubs": 33,
         "totalChatMessages": 1498,
-        "totalStreamMinutes": 15125,
+        "totalStreamMinutes": 15130,
         "emotes": {
           "❤": 97,
           "🙌": 78,
@@ -24846,7 +24854,7 @@
         "totalVotes": 6948,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 10466,
+        "totalStreamMinutes": 10471,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -28694,7 +28702,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 32,
-        "totalStreamMinutes": 7089,
+        "totalStreamMinutes": 7094,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -31039,8 +31047,8 @@
     }
   },
   "auth": {
-    "accessToken": "139bbe2e6e9c19b8fc94cc34d7e479bd",
-    "refreshToken": "5996e56e4f561f55954f1c659db1b90c",
+    "accessToken": "341be40ab9c7b99ee56d3fd0a80cdb3d",
+    "refreshToken": "6b059680e85b40d900482328edc13473",
     "sessionToken": "63b530ce4ee47e77383ed7ce3152a122",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
