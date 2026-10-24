@@ -11027,8 +11027,8 @@
       "stats": {
         "totalVotes": 4247,
         "totalSubs": 23,
-        "totalChatMessages": 372,
-        "totalStreamMinutes": 1259,
+        "totalChatMessages": 373,
+        "totalStreamMinutes": 1271,
         "emotes": {
           "❤": 44,
           "🙌": 43,
@@ -11093,14 +11093,10 @@
           "3870b89c-9793-41c6-be71-ee88a9e8f95d": "JOYFULLPYRO",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
-        "lastChatAt": 1792824140371,
+        "lastChatAt": 1792831833387,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
@@ -11136,6 +11132,10 @@
         {
           "user": "botger",
           "msg": "⚠️ Heads up helios! You're projected to fall below Verified (Tier 2) in about 3 days (2026/10/27 06:42 UTC). Current stream hours: 11.6h / 10h required. Stream more to keep your Verified status! 🎯"
+        },
+        {
+          "user": "botger",
+          "msg": "Helios is now live!! Let's get building"
         }
       ],
       "customCommands": {},
@@ -11145,7 +11145,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4366a4c8-c3fa-4296-9014-212a08f2fae3.gif",
-      "streamTitle": "",
+      "streamTitle": "Spooky 3D Art: Let's make spooky Pyro",
       "gameOverride": "",
       "lastStreamInfo": "Chill cozy 3D game art",
       "lastStreamEndedAt": 1792517912481,
@@ -11236,9 +11236,9 @@
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
       "_idAt": 1792821474796,
-      "_gameAt": 1792824140491,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1792831833322,
+      "isLive": true,
+      "streamCategory": "Art",
       "voteLog": [
         {
           "t": 1792429891213,
@@ -20008,7 +20008,7 @@
       "stats": {
         "totalVotes": 39101,
         "totalSubs": 63,
-        "totalChatMessages": 7446,
+        "totalChatMessages": 7447,
         "totalStreamMinutes": 12647,
         "emotes": {
           "❤": 121,
@@ -20357,13 +20357,9 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792831352731
+        "lastChatAt": 1792831376373
       },
       "chatMemory": [
-        {
-          "user": "fuyu",
-          "msg": "last night was like giving an electroshock to a dead whale, it hardly woke up"
-        },
         {
           "user": "fuyu",
           "msg": "bro 160 soldiers all almost 20 with a few 27-28"
@@ -20399,6 +20395,10 @@
         {
           "user": "helios",
           "msg": "😂"
+        },
+        {
+          "user": "helios",
+          "msg": "Back later Noxx. Need to start streaming also to stay verified haha"
         }
       ],
       "customCommands": {},
@@ -24176,7 +24176,7 @@
         "totalVotes": 6709,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 9796,
+        "totalStreamMinutes": 9816,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -24651,7 +24651,7 @@
         "totalVotes": 11841,
         "totalSubs": 38,
         "totalChatMessages": 5164,
-        "totalStreamMinutes": 16955,
+        "totalStreamMinutes": 16975,
         "emotes": {
           "👋": 126,
           "⚠": 2,
@@ -29113,8 +29113,8 @@
     },
     "guney": {
       "note": "Friendly gamer who streams while working, loves cheering and joking in chat, and plays Firefly, CBS, and Jetpeg.",
-      "at": 1792724210230,
-      "n": 30
+      "at": 1792832450331,
+      "n": 31
     },
     "sipofcoke": {
       "note": "Sipofcoke loves fast, playful games, cheers loudly, jokes about moves and wins, and often comments on glitches or eliminations.",
