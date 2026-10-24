@@ -1856,7 +1856,7 @@
       "stats": {
         "totalVotes": 37735,
         "totalSubs": 94,
-        "totalChatMessages": 47961,
+        "totalChatMessages": 47967,
         "totalStreamMinutes": 4302,
         "emotes": {
           "🔥": 2362,
@@ -1866,13 +1866,13 @@
           "😍": 141,
           "❤": 66,
           "🚢": 24,
-          "⏰": 2157,
+          "⏰": 2162,
           "🔜": 1295,
           "💀": 979,
           "😘": 4,
           "🏆": 291,
           "🎊": 268,
-          "🎰": 48,
+          "🎰": 49,
           "😰": 232,
           "🍌": 610,
           "🧟": 27,
@@ -2208,7 +2208,7 @@
           "🎂": "🎂",
           "🫣": "🫣"
         },
-        "lastChatAt": 1792860056005,
+        "lastChatAt": 1792860955929,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2216,30 +2216,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 3 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "⏰ Game starting in 1 second!"
-        },
         {
           "user": "blazegames_bot",
           "msg": "⚠️ Not enough players to start! Need at least 2."
@@ -2255,6 +2231,30 @@
         {
           "user": "blazegames_bot",
           "msg": "🏆 WINNER: jtsquared_2@twitch! 🎉 Survived 6 rounds! Congratulations! 🎊"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "🎰 Blaze Roulette starting in 40 seconds! Type !join to play!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 10 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
         }
       ],
       "customCommands": {},
@@ -2511,7 +2511,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792839468829,
-      "_gameAt": 1792860053173,
+      "_gameAt": 1792860917184,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -4875,8 +4875,8 @@
       "stats": {
         "totalVotes": 56543,
         "totalSubs": 114,
-        "totalChatMessages": 24091,
-        "totalStreamMinutes": 12983,
+        "totalChatMessages": 24098,
+        "totalStreamMinutes": 12985,
         "emotes": {
           "❤": 7882,
           "🎵": 780,
@@ -5116,7 +5116,7 @@
           "🐢": 8,
           "🍗": 1,
           "📣": 3,
-          "🛬": 7,
+          "🛬": 9,
           "🔊": 2,
           "👊": 5,
           "🔉": 2
@@ -5365,7 +5365,7 @@
           "👊": "👊",
           "🔉": "🔉"
         },
-        "lastChatAt": 1792858205429,
+        "lastChatAt": 1792861014289,
         "sendFailStreak": 579,
         "lastSendFailAt": 1792858205838,
         "lastSendFailReason": "You are banned from this channel.",
@@ -5374,26 +5374,6 @@
         "lastProbeAt": 1792858205160
       },
       "chatMemory": [
-        {
-          "user": "doctorgeorgio",
-          "msg": "love u all"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "cya"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "HAHAHAHA twisted"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "good one"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "lets raid ye"
-        },
         {
           "user": "rob_osp",
           "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
@@ -5413,6 +5393,26 @@
         {
           "user": "unclefunk",
           "msg": "bronzeagle, +51 JOY for the votes! ✦ You have 59."
+        },
+        {
+          "user": "weri",
+          "msg": "Yo uncle funk yo funk family"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "halloooo"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Uncle Funk is between missions, UncleFunk! Hold fire, sends open when the next sortie launches. 🛬"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Uncle Funk is between missions, weri! Hold fire, sends open when the next sortie launches. 🛬"
+        },
+        {
+          "user": "weri",
+          "msg": "I'm starting again lol"
         }
       ],
       "customCommands": {},
@@ -5421,7 +5421,7 @@
       "locked": false,
       "botVip": true,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "profile": "Unclefunk’s channel is a funky crew that “earn courage” by watching and playing OSP‑related streams. The chat shouts “💜”, “❤️❤️❤️”, hyping “stream is now live!” and “stream is now offline!” They love “connect your OSP account” for free, celebrate with “🔥🔥🔥” and “🫡❤️🎸”, keep the vibe upbeat, supportive, and game‑centric.",
       "_profileAtCount": 24086,
       "loyalty": {
@@ -5561,9 +5561,9 @@
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792792929094,
       "_idAt": 1792840676020,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792858092685,
+      "streamCategory": "Music",
+      "isLive": true,
+      "_gameAt": 1792860905265,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -9189,7 +9189,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1001,
-        "totalStreamMinutes": 24645,
+        "totalStreamMinutes": 24650,
         "emotes": {
           "❤": 136,
           "🙌": 44,
@@ -19003,8 +19003,8 @@
       "stats": {
         "totalVotes": 20463,
         "totalSubs": 33,
-        "totalChatMessages": 46921,
-        "totalStreamMinutes": 23505,
+        "totalChatMessages": 46922,
+        "totalStreamMinutes": 23510,
         "emotes": {
           "❤": 165,
           "🙌": 138,
@@ -19133,7 +19133,7 @@
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 1,
           "👂": 2,
           "🙂": 4,
-          "🥇": 124,
+          "🥇": 125,
           "😞": 1,
           "💕": 5,
           "😗": 1,
@@ -19186,8 +19186,8 @@
           "60967948-8805-42ef-a202-051d2e2f1557": 2,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 2,
           "🥺": 2,
-          "🥈": 123,
-          "🥉": 123,
+          "🥈": 124,
+          "🥉": 124,
           "⭐": 381,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 10,
           "✊": 2,
@@ -19448,13 +19448,9 @@
           "🩲": "🩲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792860732009
+        "lastChatAt": 1792860978066
       },
       "chatMemory": [
-        {
-          "user": "lipeman",
-          "msg": "oh"
-        },
         {
           "user": "lipeman",
           "msg": "kkkkkkkkk"
@@ -19490,6 +19486,10 @@
         {
           "user": "lipeman",
           "msg": "kkkkkkk"
+        },
+        {
+          "user": "botger",
+          "msg": "🥇Top 1 - 500 blaze - 🥈Top 2 - 300 blaze - 🥉Top 3 - 200 blaze - Os top 3 doadores de blaze diário ganham blaze de segunda a sabado e vai pra sua carteira / Em caso de empate vai ter sorteio."
         }
       ],
       "customCommands": {},
@@ -19503,8 +19503,8 @@
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
       "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer",
-      "profile": "sofrenciaplay cranks 1h30m Retro marathons, especially Donkey Kong Country. The chat roars “JOGA SEU JOGO,” celebrates “torradas,” chants “GG” after every win, hyping “Juntos Pelo Lipe” style support. They love “pro player” tags, kaizo‑style jokes, and end",
-      "_profileAtCount": 46329,
+      "profile": "sofrenciaplay cranks 1h30m Retro marathons, especially Donkey Kong Country. The chat roars “JOGA SEU JOGO,” celebrates “torradas,” chants “GG” after every win, hyping “Juntos Pelo Lipe” style support. They love “pro player” tags, kaizo‑style jokes, and end each stream with “kaizera” laughs. Streamer thrives on “salve” cheers, “kinda” jokes, and “muita coisa” screen chaos.",
+      "_profileAtCount": 46921,
       "gameOverride": "",
       "commentMode": "low",
       "lastStreamInfo": "Gameplay / Maratona / Desafio / Multiplayer",
@@ -19632,7 +19632,7 @@
         }
       },
       "_idAt": 1792847867651,
-      "_gameAt": 1792860730625,
+      "_gameAt": 1792860978175,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -24768,7 +24768,7 @@
         "totalVotes": 6748,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 10286,
+        "totalStreamMinutes": 10291,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -30951,8 +30951,8 @@
     }
   },
   "auth": {
-    "accessToken": "a56375035ceacfcdf379110cc5dadc8c",
-    "refreshToken": "0ba7e3147779293c8c07a69a76ba40d4",
+    "accessToken": "36350ef93ae2dbf8fab9d5e0c6ad5529",
+    "refreshToken": "7cc0810473206260cc307d6cf913f43e",
     "sessionToken": "63b530ce4ee47e77383ed7ce3152a122",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
