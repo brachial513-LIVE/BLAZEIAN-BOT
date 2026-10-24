@@ -4094,8 +4094,8 @@
       "stats": {
         "totalVotes": 30642,
         "totalSubs": 116,
-        "totalChatMessages": 9415,
-        "totalStreamMinutes": 28463,
+        "totalChatMessages": 9416,
+        "totalStreamMinutes": 28468,
         "emotes": {
           "❤": 256,
           "🙌": 215,
@@ -4193,7 +4193,7 @@
           "b05156cf-7925-4298-8e19-f29e294cc793": 5,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 37,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 8,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 64,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 67,
           "da339ef7-1574-4f2f-8b48-666688167af3": 6,
           "37719561-c923-4260-b1a5-e3eda10c103d": 20,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 21,
@@ -4470,14 +4470,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792876922238,
+        "lastChatAt": 1792877250470,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "[emote:f8273a7b-043a-417f-8a85-39b5fc7aacc4]"
-        },
         {
           "user": "agent00zani",
           "msg": "[emote:c5d11b0f-661a-4d6f-b714-1c36e64195e2]"
@@ -4513,6 +4509,10 @@
         {
           "user": "agent00zani",
           "msg": "i go get a snack .. brb 5 mins"
+        },
+        {
+          "user": "tai_",
+          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
         }
       ],
       "customCommands": {
@@ -4757,7 +4757,7 @@
         }
       },
       "_idAt": 1792862636188,
-      "_gameAt": 1792876881391,
+      "_gameAt": 1792877250562,
       "isLive": true,
       "streamCategory": "Wilder World",
       "voteLog": [
@@ -5985,9 +5985,9 @@
       "username": "capt_rob_advent",
       "language": "en",
       "stats": {
-        "totalVotes": 40080,
+        "totalVotes": 40180,
         "totalSubs": 78,
-        "totalChatMessages": 4991,
+        "totalChatMessages": 4993,
         "totalStreamMinutes": 18942,
         "emotes": {
           "😊": 5,
@@ -6095,7 +6095,7 @@
           "🍺": 22,
           "🫶": 5,
           "🙌": 66,
-          "🗳": 480,
+          "🗳": 483,
           "📴": 56,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 185,
           "🔴": 54,
@@ -6320,17 +6320,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792796597347
+        "lastChatAt": 1792877097306
       },
       "chatMemory": [
-        {
-          "user": "cactus_jack440",
-          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
-        },
-        {
-          "user": "midnight_driv3r",
-          "msg": "have a good day Capt"
-        },
         {
           "user": "cactus_jack440",
           "msg": "[emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c]"
@@ -6362,6 +6354,14 @@
         {
           "user": "cactus_jack440",
           "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "you won 100 votes for 3rd place in marble race knockout tournament out of 70 marbles"
         }
       ],
       "customCommands": {},
@@ -6462,7 +6462,7 @@
       "lastStreamInfo": "West Bound south east Texas on the ICW",
       "lastStreamEndedAt": 1792423488702,
       "_idAt": 1792862636294,
-      "_gameAt": 1792796597417,
+      "_gameAt": 1792877086044,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -6540,6 +6540,11 @@
           "t": 1792858205288,
           "v": "bronzeagle",
           "a": 1
+        },
+        {
+          "t": 1792877083715,
+          "v": "meyetechnicals",
+          "a": 100
         }
       ]
     },
@@ -6723,7 +6728,7 @@
         "totalVotes": 15340,
         "totalSubs": 61,
         "totalChatMessages": 2429,
-        "totalStreamMinutes": 13337,
+        "totalStreamMinutes": 13342,
         "emotes": {
           "✨": 52,
           "🖥": 24,
@@ -10091,7 +10096,7 @@
         "totalVotes": 1519,
         "totalSubs": 11,
         "totalChatMessages": 581,
-        "totalStreamMinutes": 1828,
+        "totalStreamMinutes": 1833,
         "emotes": {
           "🎶": 1,
           "😀": 1,
@@ -11574,7 +11579,7 @@
         "totalVotes": 18221,
         "totalSubs": 51,
         "totalChatMessages": 866,
-        "totalStreamMinutes": 8155,
+        "totalStreamMinutes": 8160,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -19123,8 +19128,8 @@
       "stats": {
         "totalVotes": 20473,
         "totalSubs": 33,
-        "totalChatMessages": 47662,
-        "totalStreamMinutes": 23775,
+        "totalChatMessages": 47674,
+        "totalStreamMinutes": 23780,
         "emotes": {
           "❤": 167,
           "🙌": 139,
@@ -19347,7 +19352,8 @@
           "🩲": 1,
           "🥭": 1,
           "😱": 1,
-          "🌟": 1
+          "🌟": 1,
+          "😜": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -19571,51 +19577,52 @@
           "🩲": "🩲",
           "🥭": "🥭",
           "😱": "😱",
-          "🌟": "🌟"
+          "🌟": "🌟",
+          "😜": "😜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792876826419
+        "lastChatAt": 1792877252478
       },
       "chatMemory": [
         {
-          "user": "mauhzera",
-          "msg": "Xpq"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "@mauhzera: Nível 5 | 6800 XP (1700 para o Nível 6)"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns, @lovemikami! Você subiu para o Nível 9! 🎉"
-        },
-        {
           "user": "lovemikami",
-          "msg": "9"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "@lovemikami: Nível 9 | 21500 XP (6100 para o Nível 10)"
+          "msg": "tem um de arcade"
         },
         {
           "user": "lipeman",
-          "msg": "foi"
+          "msg": "kkkkkk"
         },
         {
           "user": "lipeman",
-          "msg": "kkkkk"
+          "msg": "kkkkkkkkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "oxi"
         },
         {
           "user": "lovemikami",
-          "msg": "voltou"
-        },
-        {
-          "user": "botger",
-          "msg": "💰Compre blaze no canal com streamer (Eden) para fazer doações ou comprar votos."
+          "msg": "águaaaa"
         },
         {
           "user": "lovemikami",
-          "msg": "água, maçã"
+          "msg": "😜"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "tô vendo, moça bonitya"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "bonita"
+        },
+        {
+          "user": "lipeman",
+          "msg": "nunca vi essa personagem"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkkk"
         }
       ],
       "customCommands": {},
@@ -19758,7 +19765,7 @@
         }
       },
       "_idAt": 1792870667692,
-      "_gameAt": 1792876826508,
+      "_gameAt": 1792877250960,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -19942,7 +19949,7 @@
         "totalVotes": 13699,
         "totalSubs": 40,
         "totalChatMessages": 1849,
-        "totalStreamMinutes": 11943,
+        "totalStreamMinutes": 11948,
         "emotes": {
           "❤": 99,
           "🙌": 74,
@@ -22690,7 +22697,7 @@
         "totalVotes": 9779,
         "totalSubs": 33,
         "totalChatMessages": 1498,
-        "totalStreamMinutes": 15215,
+        "totalStreamMinutes": 15220,
         "emotes": {
           "❤": 97,
           "🙌": 78,
@@ -24919,7 +24926,7 @@
         "totalVotes": 6948,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 10556,
+        "totalStreamMinutes": 10561,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -28767,7 +28774,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 32,
-        "totalStreamMinutes": 7179,
+        "totalStreamMinutes": 7184,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -31112,8 +31119,8 @@
     }
   },
   "auth": {
-    "accessToken": "c4808b19dc35301b3bea4b8d0da2581a",
-    "refreshToken": "683f41619d0a7aba07255ee7b9577638",
+    "accessToken": "d2f62cc721775572e8d3ce7e4114b966",
+    "refreshToken": "46eeb530e4e94c997c2c28e6661ce072",
     "sessionToken": "7f8303548b42b993cd4448a253297fac",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
