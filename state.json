@@ -1856,8 +1856,8 @@
       "stats": {
         "totalVotes": 37735,
         "totalSubs": 94,
-        "totalChatMessages": 48028,
-        "totalStreamMinutes": 4313,
+        "totalChatMessages": 48131,
+        "totalStreamMinutes": 4318,
         "emotes": {
           "🔥": 2362,
           "🗳": 35,
@@ -1867,7 +1867,7 @@
           "❤": 66,
           "🚢": 25,
           "⏰": 2167,
-          "🔜": 1295,
+          "🔜": 1313,
           "💀": 980,
           "😘": 4,
           "🏆": 292,
@@ -1886,7 +1886,7 @@
           "📴": 58,
           "👋": 68,
           "😢": 2,
-          "⚠": 33,
+          "⚠": 34,
           "🎯": 2,
           "👿": 1,
           "😂": 638,
@@ -2210,7 +2210,7 @@
           "🫣": "🫣",
           "🐕": "🐕"
         },
-        "lastChatAt": 1792863470190,
+        "lastChatAt": 1792863750165,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2219,44 +2219,44 @@
       },
       "chatMemory": [
         {
-          "user": "blazegames_bot",
-          "msg": "@sipofcoke board is ready! (1/4 ready)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@dimifw board is ready! (2/4 ready)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@octo board is ready! (3/4 ready)"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "All boards are set! Let the battle begin!"
-        },
-        {
-          "user": "blazegames_bot",
-          "msg": "@lvl4goblin board is ready! (4/4 ready)"
-        },
-        {
           "user": "octo",
-          "msg": "thats quite a bit tbh, 25 in 2 weeks is a decent videogame"
-        },
-        {
-          "user": "octo",
-          "msg": "25 is a good videogame on sale"
+          "msg": "its so much"
         },
         {
           "user": "blazegames_bot",
-          "msg": "C7: Miss!"
+          "msg": "@sipofcoke fires at I6!"
         },
         {
-          "user": "lvl4goblin",
-          "msg": "a few good games on sale. that's a lot"
+          "user": "blazegames_bot",
+          "msg": "I6: hit sipofcoke! | sunk lvl4goblin's Cruiser!"
         },
         {
-          "user": "octo",
-          "msg": "yea thats a lot lol"
+          "user": "blazegames_bot",
+          "msg": "sipofcoke sank lvl4goblin's Cruiser!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "E4: Miss!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "B3: Miss!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@lvl4goblin Shot queued at E3! It will fire when it's your turn. 🔜"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@octo Shot queued at D2! It will fire when it's your turn. 🔜"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "D8: Miss!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@dimifw fires at D8!"
         }
       ],
       "customCommands": {},
@@ -2513,7 +2513,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1792862268866,
-      "_gameAt": 1792863343561,
+      "_gameAt": 1792863718804,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -4877,8 +4877,8 @@
       "stats": {
         "totalVotes": 56553,
         "totalSubs": 114,
-        "totalChatMessages": 24284,
-        "totalStreamMinutes": 13025,
+        "totalChatMessages": 24286,
+        "totalStreamMinutes": 13030,
         "emotes": {
           "❤": 7925,
           "🎵": 780,
@@ -4888,7 +4888,7 @@
           "👋": 334,
           "🚨": 444,
           "😊": 10,
-          "🚀": 27,
+          "🚀": 28,
           "😂": 293,
           "💯": 46,
           "💥": 22,
@@ -5367,7 +5367,7 @@
           "👊": "👊",
           "🔉": "🔉"
         },
-        "lastChatAt": 1792863296005,
+        "lastChatAt": 1792863650561,
         "sendFailStreak": 579,
         "lastSendFailAt": 1792858205838,
         "lastSendFailReason": "You are banned from this channel.",
@@ -5376,14 +5376,6 @@
         "lastProbeAt": 1792858205160
       },
       "chatMemory": [
-        {
-          "user": "sheshi",
-          "msg": "the man of awesomeness"
-        },
-        {
-          "user": "rob_osp",
-          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
-        },
         {
           "user": "mate",
           "msg": "yeah i unlocked it today a bit futher"
@@ -5415,6 +5407,14 @@
         {
           "user": "midnitecatzlady",
           "msg": "keeps my son distracted watching"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "🚀 Uncle Funk just launched a sortie! !swarm and !boss are open. Type !menu for more."
+        },
+        {
+          "user": "midnitecatzlady",
+          "msg": "needs to give you invincible for a sec when you first go back to screen  after placing turret"
         }
       ],
       "customCommands": {},
@@ -5565,7 +5565,7 @@
       "_idAt": 1792862636188,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1792863266456,
+      "_gameAt": 1792863495223,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -9196,7 +9196,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1001,
-        "totalStreamMinutes": 24690,
+        "totalStreamMinutes": 24695,
         "emotes": {
           "❤": 136,
           "🙌": 44,
@@ -19030,8 +19030,8 @@
       "stats": {
         "totalVotes": 20463,
         "totalSubs": 33,
-        "totalChatMessages": 47029,
-        "totalStreamMinutes": 23550,
+        "totalChatMessages": 47035,
+        "totalStreamMinutes": 23555,
         "emotes": {
           "❤": 165,
           "🙌": 138,
@@ -19039,7 +19039,7 @@
           "🔥": 69,
           "🔴": 132,
           "🎉": 505,
-          "🪙": 1158,
+          "🪙": 1159,
           "⚡": 941,
           "👀": 127,
           "🍿": 28,
@@ -19215,7 +19215,7 @@
           "🥺": 2,
           "🥈": 124,
           "🥉": 124,
-          "⭐": 383,
+          "⭐": 384,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 10,
           "✊": 2,
           "✋": 2,
@@ -19475,25 +19475,9 @@
           "🩲": "🩲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792863204696
+        "lastChatAt": 1792863764123
       },
       "chatMemory": [
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns, @sofrenciaplay! Você subiu para o Nível 2! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "⭐️Zerar jogo no canal ganha 100 blaze, no hard 150 blaze, zerando 100% ganha 200 blaze, não pode repetir jogo no mês, blaze vai pra sua carteira."
-        },
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns, @solucao! Você subiu para o Nível 6! 🎉"
-        },
-        {
-          "user": "rechigamer",
-          "msg": "kkkkkkkkkk"
-        },
         {
           "user": "botger",
           "msg": "🪙 @solucao 13.365 pontos."
@@ -19517,6 +19501,22 @@
         {
           "user": "solucao",
           "msg": "Rechi eu tive Atari e super Nintendo e Playstation e agora Nintendo switch"
+        },
+        {
+          "user": "botger",
+          "msg": "⭐️Quem doar no mínimo 5 reais no Pix com a mensagem (ativa as missões prime) ou comprar 5 reais em blaze no canal, libera missões diárias prime."
+        },
+        {
+          "user": "botger",
+          "msg": "🪙 @solucao 13.385 pontos."
+        },
+        {
+          "user": "poderosobot",
+          "msg": "@solucao: Nível 6 | 10000 XP (1800 para o Nível 7)"
+        },
+        {
+          "user": "solucao",
+          "msg": "Lipão dando show"
         }
       ],
       "customCommands": {},
@@ -19659,7 +19659,7 @@
         }
       },
       "_idAt": 1792847867651,
-      "_gameAt": 1792863148328,
+      "_gameAt": 1792863764383,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -22917,7 +22917,7 @@
         "totalVotes": 195078,
         "totalSubs": 38,
         "totalChatMessages": 1502,
-        "totalStreamMinutes": 3256,
+        "totalStreamMinutes": 3261,
         "emotes": {
           "💚": 1,
           "🙃": 1,
@@ -24795,7 +24795,7 @@
         "totalVotes": 6948,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 10331,
+        "totalStreamMinutes": 10336,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -30988,8 +30988,8 @@
     }
   },
   "auth": {
-    "accessToken": "36350ef93ae2dbf8fab9d5e0c6ad5529",
-    "refreshToken": "7cc0810473206260cc307d6cf913f43e",
+    "accessToken": "d669856e3ca876636353fda1ec0d5eed",
+    "refreshToken": "73e6863f6e5a19a57ea6f4607413da33",
     "sessionToken": "63b530ce4ee47e77383ed7ce3152a122",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
