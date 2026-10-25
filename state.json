@@ -1870,7 +1870,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 37945,
-        "totalSubs": 95,
+        "totalSubs": 96,
         "totalChatMessages": 48959,
         "totalStreamMinutes": 4383,
         "emotes": {
@@ -2453,7 +2453,7 @@
         },
         "tommy_mag": {
           "name": "tommy_mag",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "fartvader": {
@@ -8381,14 +8381,14 @@
       "stats": {
         "totalVotes": 51344,
         "totalSubs": 92,
-        "totalChatMessages": 10053,
-        "totalStreamMinutes": 17495,
+        "totalChatMessages": 10059,
+        "totalStreamMinutes": 17515,
         "emotes": {
           "❤": 186,
           "🙌": 229,
           "🗳": 999,
           "🔴": 102,
-          "🎉": 172,
+          "🎉": 173,
           "📴": 100,
           "👋": 114,
           "🔥": 271,
@@ -8396,7 +8396,7 @@
           "🤖": 1,
           "💚": 8,
           "🤣": 98,
-          "🚨": 378,
+          "🚨": 384,
           "😎": 5,
           "😅": 9,
           "😆": 74,
@@ -8793,34 +8793,10 @@
           "🧂": "🧂",
           "🚂": "🚂"
         },
-        "lastChatAt": 1792890067606,
+        "lastChatAt": 1792897536256,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "theaicampa",
-          "msg": "claro todos los dias stream 2 veces al dia"
-        },
-        {
-          "user": "theaicampa",
-          "msg": "si claro"
-        },
-        {
-          "user": "theaicampa",
-          "msg": "si claro soy medico lo entiendo bien, ya tengo todo controilado"
-        },
-        {
-          "user": "theaicampa",
-          "msg": "gracias por el consejo"
-        },
-        {
-          "user": "theaicampa",
-          "msg": "ahora a espoerar que me llegue la gente por que todavia no tengo muchos bien ni chatters"
-        },
-        {
-          "user": "theaicampa",
-          "msg": "tienes razon"
-        },
         {
           "user": "theaicampa",
           "msg": "gracias"
@@ -8836,6 +8812,30 @@
         {
           "user": "theaicampa",
           "msg": "cuidate"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@theaicampa is raiding with 1 viewer! Welcome, raiders!"
+        },
+        {
+          "user": "theaicampa",
+          "msg": "mi raid pa ti"
+        },
+        {
+          "user": "theaicampa",
+          "msg": ":D"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @theaicampa is raiding with a party of 1! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "theaicampa",
+          "msg": "bueno sin views pero termine el juego cosmic invation"
+        },
+        {
+          "user": "theaicampa",
+          "msg": ":D"
         }
       ],
       "customCommands": {},
@@ -9041,7 +9041,7 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1792890031023,
+      "_gameAt": 1792897493161,
       "isLive": true,
       "streamCategory": "Crypto",
       "voteLog": [
@@ -9268,16 +9268,16 @@
       "stats": {
         "totalVotes": 9571,
         "totalSubs": 90,
-        "totalChatMessages": 1003,
-        "totalStreamMinutes": 24862,
+        "totalChatMessages": 1004,
+        "totalStreamMinutes": 24869,
         "emotes": {
           "❤": 136,
           "🙌": 44,
           "🔥": 41,
           "🔴": 178,
           "🎉": 178,
-          "📴": 182,
-          "👋": 186,
+          "📴": 183,
+          "👋": 187,
           "😂": 4,
           "💚": 9,
           "💪": 6,
@@ -9372,14 +9372,10 @@
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
-        "lastChatAt": 1792889071643,
+        "lastChatAt": 1792897836146,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -9415,6 +9411,10 @@
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -9426,7 +9426,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "AION ATE O START DO SERVE VALHALLA",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c880cae5-c7c6-48bb-a733-713670cb9bac.png",
@@ -9434,7 +9434,7 @@
       "_profileAtCount": 995,
       "botVip": true,
       "lastStreamInfo": "AION ATE O START DO SERVE VALHALLA",
-      "lastStreamEndedAt": 1792865462734,
+      "lastStreamEndedAt": 1792897830619,
       "nudgedAt": 1785710754625,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -9505,9 +9505,9 @@
         }
       },
       "_idAt": 1792888671301,
-      "streamCategory": "Aion 2",
-      "isLive": true,
-      "_gameAt": 1792889071565
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792897836264
     },
     "d7c03cf7-26bc-4966-b436-ec5820565e9c": {
       "username": "1vynnn",
@@ -15162,7 +15162,7 @@
         "totalVotes": 40864,
         "totalSubs": 191,
         "totalChatMessages": 4263,
-        "totalStreamMinutes": 21623,
+        "totalStreamMinutes": 21643,
         "emotes": {
           "❤": 156,
           "🙌": 268,
@@ -25022,7 +25022,7 @@
         "totalVotes": 7198,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 10896,
+        "totalStreamMinutes": 10916,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -28255,7 +28255,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792875467696,
+      "_idAt": 1792898267742,
       "_gameAt": 1792607859391,
       "isLive": false,
       "streamCategory": ""
@@ -28370,7 +28370,7 @@
       "lastStreamInfo": "burada yeniyim !discord !settings — VALORANT",
       "lastStreamEndedAt": 1789668309772,
       "gameOverride": "",
-      "_idAt": 1792875468869
+      "_idAt": 1792898268901
     },
     "642cd761-2515-4c48-9c17-ae2e29e692e8": {
       "username": "thatsicy_",
@@ -28505,7 +28505,7 @@
       "lastStreamEndedAt": 1792208657405,
       "nudgedAt": 1790123384716,
       "nudgedKey": "schedule",
-      "_idAt": 1792875470068,
+      "_idAt": 1792898270098,
       "loyalty": {
         "desirablebottom": {
           "name": "desirablebottom",
@@ -28605,7 +28605,7 @@
       "_profileAtCount": 35,
       "followed": true,
       "botVip": true,
-      "_idAt": 1792875471265
+      "_idAt": 1792898271295
     },
     "8f59e982-1482-4327-86d9-ae96b063edc4": {
       "username": "hortenseemu44",
@@ -28769,7 +28769,7 @@
       "lastStreamInfo": "🔨 THE HAMMER RETURNS | OTG Chaos + Gaming Gala Grind | Road to Verified — Off The Grid",
       "lastStreamEndedAt": 1792119451535,
       "gameOverride": "",
-      "_idAt": 1792875472473,
+      "_idAt": 1792898272498,
       "nudgedAt": 1792092388182,
       "nudgedKey": "schedule",
       "_gameAt": 1792676055901,
@@ -28870,7 +28870,7 @@
       "gameOverride": "",
       "profile": "mafaz streams action‑packed gameplay, welcoming every new Blazeian with “welcome” and “thanks.” The chat buzzes with “woot,” “happy streaming buddd,” and “enjoy the game broski!” Fans celebrate mafaz by cheering “blazeee” and using the custom emote. The vibe is energetic, friendly, and supportive—every viewer feels part of the Blazeiancrew.",
       "_profileAtCount": 15,
-      "_idAt": 1792875473669
+      "_idAt": 1792898273707
     },
     "fba94794-c563-4d68-8aec-152f85eba0e1": {
       "username": "hubal",
@@ -28972,7 +28972,7 @@
       "lastStreamInfo": "The First Berserker: Khazan - PART 13    |    𐢚𐢅𐢓𐢍𐢀 𐢃𐢛𐢖𐢛𐢏𐢛 𐢊𐢉𐢁𐢔 𐢘𐢛𐢞 𐢭𐢩",
       "lastStreamEndedAt": 1792877765906,
       "gameOverride": "",
-      "_idAt": 1792875474869,
+      "_idAt": 1792898274896,
       "_gameAt": 1792869139394,
       "isLive": false,
       "streamCategory": ""
@@ -29007,7 +29007,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1792875476065,
+      "_idAt": 1792898276098,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5283cee-6005-4782-92fe-13419fd64684.png",
       "followed": true,
       "botVip": true
@@ -30099,8 +30099,8 @@
     },
     "nadietv": {
       "note": "Enjoys playing Dawn of Battle, Path of Exile 2, and Dota, loves folk and progressive metal, and chats with playful, light‑hearted humor.",
-      "at": 1792288488996,
-      "n": 50
+      "at": 1792898450401,
+      "n": 51
     },
     "johngalt": {
       "note": "Enjoys playing Fortnite, loves pyros, and shares lighthearted, casual humor in friendly chats.",
@@ -30933,9 +30933,9 @@
       "n": 1
     },
     "andrebrd": {
-      "note": "He’s a loud gamer who loves Fortnite, Bandai games, sushi, and jokes with a playful, sometimes edgy sense of humor.",
-      "at": 1792819910263,
-      "n": 11
+      "note": "Loud gamer who loves Fortnite, Bandai games, sushi, and playful, sometimes edgy jokes.",
+      "at": 1792897790339,
+      "n": 12
     },
     "flower4803": {
       "note": "Friendly, playful chat with a love for fish, skins, and game credits, often greeting warmly and joking about collecting items.",
