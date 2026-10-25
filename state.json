@@ -4756,7 +4756,7 @@
           "dur": 27
         }
       },
-      "_idAt": 1792862636188,
+      "_idAt": 1792886267714,
       "_gameAt": 1792883827906,
       "isLive": false,
       "streamCategory": "",
@@ -5615,7 +5615,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792875684061,
-      "_idAt": 1792862636188,
+      "_idAt": 1792886268888,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792875618624,
@@ -5975,7 +5975,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1792862636297,
+      "_idAt": 1792886276093,
       "_gameAt": 1792848574742,
       "isLive": false,
       "streamCategory": "",
@@ -6461,7 +6461,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "West Bound south east Texas on the ICW",
       "lastStreamEndedAt": 1792423488702,
-      "_idAt": 1792862636294,
+      "_idAt": 1792886273695,
       "_gameAt": 1792877086044,
       "isLive": false,
       "streamCategory": "",
@@ -6719,7 +6719,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792862636288
+      "_idAt": 1792886271287
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -7100,7 +7100,7 @@
       "lastStreamEndedAt": 1792879676124,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792862636295,
+      "_idAt": 1792886274889,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792882897957,
@@ -7168,7 +7168,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792862636287
+      "_idAt": 1792886270093
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -8026,7 +8026,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Afternoon at the beach with Mellow",
       "lastStreamEndedAt": 1792796759516,
-      "_idAt": 1792862636288,
+      "_idAt": 1792886272498,
       "_gameAt": 1792816117750,
       "isLive": false,
       "streamCategory": "",
@@ -9590,9 +9590,9 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 22357,
+        "totalVotes": 22437,
         "totalSubs": 64,
-        "totalChatMessages": 1881,
+        "totalChatMessages": 1882,
         "totalStreamMinutes": 7875,
         "emotes": {
           "❤": 106,
@@ -9607,11 +9607,11 @@
           "🥲": 2,
           "🗳": 327,
           "🔴": 57,
-          "🎉": 103,
+          "🎉": 104,
           "🚨": 84,
           "📴": 59,
           "👋": 74,
-          "🏅": 15,
+          "🏅": 16,
           "💪": 31,
           "😁": 4,
           "✌": 3,
@@ -9753,17 +9753,13 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792797742580,
+        "lastChatAt": 1792886400772,
         "lastSendFailAt": 1790979696099,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790984188513,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "vitrene",
-          "msg": "you streaming, too?"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
@@ -9799,6 +9795,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🏅 You finished 2nd in Badges Matter this week and earned 80 bonus votes from botger! 🎉"
         }
       ],
       "customCommands": {},
@@ -9860,7 +9860,7 @@
       "_idAt": 1792865873658,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792797742674,
+      "_gameAt": 1792886400862,
       "voteLog": [
         {
           "t": 1792429891290,
@@ -9941,6 +9941,11 @@
           "t": 1792858205289,
           "v": "bronzeagle",
           "a": 1
+        },
+        {
+          "t": 1792886402228,
+          "v": "botger",
+          "a": 80
         }
       ]
     },
@@ -19143,20 +19148,20 @@
       "stats": {
         "totalVotes": 20560,
         "totalSubs": 33,
-        "totalChatMessages": 48104,
-        "totalStreamMinutes": 23915,
+        "totalChatMessages": 48295,
+        "totalStreamMinutes": 23935,
         "emotes": {
-          "❤": 167,
-          "🙌": 141,
+          "❤": 169,
+          "🙌": 142,
           "🤝": 4,
           "🔥": 70,
           "🔴": 132,
-          "🎉": 545,
-          "🪙": 1171,
+          "🎉": 551,
+          "🪙": 1173,
           "⚡": 941,
           "👀": 127,
           "🍿": 28,
-          "🤗": 86,
+          "🤗": 87,
           "😊": 17,
           "🌻": 5,
           "🗳": 639,
@@ -19267,7 +19272,7 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 16,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 25,
           "37719561-c923-4260-b1a5-e3eda10c103d": 4,
-          "2f19a4d1-777a-4ed2-946e-8fe2925650f7": 47,
+          "2f19a4d1-777a-4ed2-946e-8fe2925650f7": 48,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 4,
           "a0c57d07-667e-42c5-8a86-84139bec522d": 17,
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 1,
@@ -19296,7 +19301,7 @@
           "🙆": 1,
           "07de98c1-b682-4d82-b630-774474b712cc": 2,
           "🍻": 1,
-          "🏆": 123,
+          "🏆": 124,
           "🐢": 1,
           "9294e28e-48fa-409c-b43b-98287465b788": 4,
           "♾": 3,
@@ -19328,7 +19333,7 @@
           "🥺": 2,
           "🥈": 130,
           "🥉": 130,
-          "⭐": 406,
+          "⭐": 408,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 10,
           "✊": 2,
           "✋": 2,
@@ -19598,48 +19603,48 @@
           "🫠": "🫠"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792885367294
+        "lastChatAt": 1792886567448
       },
       "chatMemory": [
         {
-          "user": "lovemikami",
-          "msg": "rayden da shopee"
+          "user": "lucas93925052",
+          "msg": "[emote:2f19a4d1-777a-4ed2-946e-8fe2925650f7]"
         },
         {
-          "user": "renato_rodr_01",
-          "msg": "Honda"
-        },
-        {
-          "user": "renato_rodr_01",
-          "msg": "É uma fralda"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "pra mim é calcinha kkkkkkkk"
+          "user": "botger",
+          "msg": "❤️ NOVO SEGUIDOR!! ❤️ alan786 acabou de seguir o canal! Boas-vindas!! 🙌"
         },
         {
           "user": "sarinhaa11",
-          "msg": "Olaaaaaaaaaar"
+          "msg": "Pois é modo torneio é rápido acho que não vai cair o golen"
         },
         {
-          "user": "lovemikami",
-          "msg": "salve sarinhaaaa"
-        },
-        {
-          "user": "guilhermesisto",
-          "msg": "Boa noite"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "boa noite guilherme"
+          "user": "poderosobot",
+          "msg": "Parabéns, @botger! Você subiu para o Nível 11! 🎉"
         },
         {
           "user": "sarinhaa11",
-          "msg": "Sim 4g"
+          "msg": "Heheheheheheheh"
         },
         {
-          "user": "guilhermesisto",
-          "msg": "Belezinha"
+          "user": "poderosobot",
+          "msg": "@sarinhaa11: Nível 6 | 9600 XP (2200 para o Nível 7)"
+        },
+        {
+          "user": "lipeman",
+          "msg": "se bugou use bugol"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kakakaka"
+        },
+        {
+          "user": "sarinhaa11",
+          "msg": "Hehehheeh"
+        },
+        {
+          "user": "lipeman",
+          "msg": "GG"
         }
       ],
       "customCommands": {},
@@ -19782,7 +19787,7 @@
         }
       },
       "_idAt": 1792870667692,
-      "_gameAt": 1792885238124,
+      "_gameAt": 1792886567542,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -24958,7 +24963,7 @@
         "totalVotes": 6948,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 10696,
+        "totalStreamMinutes": 10716,
         "emotes": {
           "🧡": 1,
           "💚": 3,
