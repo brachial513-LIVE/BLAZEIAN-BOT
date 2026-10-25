@@ -4099,14 +4099,14 @@
       "stats": {
         "totalVotes": 30642,
         "totalSubs": 117,
-        "totalChatMessages": 9432,
-        "totalStreamMinutes": 28548,
+        "totalChatMessages": 9433,
+        "totalStreamMinutes": 28553,
         "emotes": {
           "❤": 256,
           "🙌": 216,
           "🗳": 1344,
-          "📴": 237,
-          "👋": 267,
+          "📴": 238,
+          "👋": 268,
           "🔴": 233,
           "🎉": 365,
           "🏆": 25,
@@ -4475,14 +4475,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792892207561,
+        "lastChatAt": 1792895032395,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "evilshaihulud",
-          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] [emote:7512e7d9-73aa-4019-8c8d-a4a48316f221] hellol, I hope you're haveing a good day"
-        },
         {
           "user": "agent00zani",
           "msg": "how you today"
@@ -4518,6 +4514,10 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -4532,7 +4532,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "🎮 Zani's Quiet Corner 🌙 | Just Gaming, One Day at a Time 💜",
+      "streamTitle": "",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty” and massive emote showers.",
       "_profileAtCount": 9388,
       "loyalty": {
@@ -4726,8 +4726,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8d0e99ca-202f-449f-92a1-8260c74a8c9d.gif",
       "nudgedAt": 1785006485591,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "🌍 Wilder World Game night / @K1ngBre4ker & @Zsoltech",
-      "lastStreamEndedAt": 1792879610009,
+      "lastStreamInfo": "🎮 Zani's Quiet Corner 🌙 | Just Gaming, One Day at a Time 💜",
+      "lastStreamEndedAt": 1792895027228,
       "botVip": true,
       "commandMedia": {
         "fluffy": {
@@ -4762,9 +4762,9 @@
         }
       },
       "_idAt": 1792886267714,
-      "_gameAt": 1792892207491,
-      "isLive": true,
-      "streamCategory": "Games + Demos",
+      "_gameAt": 1792895032482,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891186,
@@ -8382,7 +8382,7 @@
         "totalVotes": 51344,
         "totalSubs": 92,
         "totalChatMessages": 10053,
-        "totalStreamMinutes": 17450,
+        "totalStreamMinutes": 17470,
         "emotes": {
           "❤": 186,
           "🙌": 229,
@@ -9269,7 +9269,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1003,
-        "totalStreamMinutes": 24817,
+        "totalStreamMinutes": 24837,
         "emotes": {
           "❤": 136,
           "🙌": 44,
@@ -15161,18 +15161,18 @@
       "stats": {
         "totalVotes": 40864,
         "totalSubs": 191,
-        "totalChatMessages": 4260,
-        "totalStreamMinutes": 21587,
+        "totalChatMessages": 4263,
+        "totalStreamMinutes": 21598,
         "emotes": {
           "❤": 156,
           "🙌": 268,
           "💚": 3,
           "🔥": 159,
           "🗳": 1122,
-          "🔴": 178,
-          "🎉": 234,
-          "📴": 175,
-          "👋": 181,
+          "🔴": 180,
+          "🎉": 236,
+          "📴": 176,
+          "👋": 182,
           "🚨": 342,
           "🥂": 2,
           "🫶": 3,
@@ -15396,21 +15396,9 @@
           "7573c501-7624-43cf-9189-0db1f8d22172": "PYROTHESTREAMER"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792770119485
+        "lastChatAt": 1792895233935
       },
       "chatMemory": [
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:7c4338cb-2027-4da7-a5c6-e89019df721b]"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "[emote:ef07187d-8e6c-42b9-af9c-b732de7949cb]"
-        },
-        {
-          "user": "fartvader",
-          "msg": "yoo faithy wazzaup brother"
-        },
         {
           "user": "fartvader",
           "msg": "happy streaming bro!"
@@ -15438,6 +15426,18 @@
         {
           "user": "faithy_",
           "msg": "my mic got problem thought i have my audio"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -15450,7 +15450,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/773114d0-084a-4bd6-9cfb-6a29b7ec732a.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Continue Textorcist! Spooky week",
       "gameOverride": "",
       "profile": "Crypto corner of faithy_: we dive into New Epoch Play Cambria Fun and Mafia II marathon. Love “GIFTED SUBS”, “VOTE ALERTS”, “ROI YAN”, “patay”, “spanked”, “TAAS NA LEVEL MO AH”, “PURE LOVE”, generous subs, “GGS” vibes. Celebrate with “GIFTED SUB”, enjoy “TAAS NA LEVEL MO AH”, and “it's time to grind” moments, all while playing Mafia II. Also stream Ori and the Will of the Wisps, praising music and vibrant visuals.",
       "_profileAtCount": 4229,
@@ -15664,12 +15664,12 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "BloomShire Season 0",
-      "lastStreamEndedAt": 1792770082734,
+      "lastStreamInfo": "Web2 Web3 Things Say Hi!?",
+      "lastStreamEndedAt": 1792895084353,
       "_idAt": 1792891076093,
-      "_gameAt": 1792770087590,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1792895233831,
+      "isLive": true,
+      "streamCategory": "The Textorcist",
       "voteLog": [
         {
           "t": 1792429891196,
@@ -19166,7 +19166,7 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 20810,
+        "totalVotes": 20818,
         "totalSubs": 33,
         "totalChatMessages": 48631,
         "totalStreamMinutes": 24060,
@@ -19999,6 +19999,11 @@
           "t": 1792891403551,
           "v": "vroshi55",
           "a": 250
+        },
+        {
+          "t": 1792895006000,
+          "v": "lobosolitario",
+          "a": 8
         }
       ]
     },
@@ -25017,7 +25022,7 @@
         "totalVotes": 7198,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 10851,
+        "totalStreamMinutes": 10871,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -25895,7 +25900,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792873067696,
+      "_idAt": 1792895867730,
       "_gameAt": 1792892915176,
       "isLive": false,
       "streamCategory": "",
@@ -26002,7 +26007,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/128e2f4a-c34b-4d0f-b6b7-11c70bb3f295-profile_image-300x300.png",
-      "_idAt": 1792873068870
+      "_idAt": 1792895868892
     },
     "8f114ea6-29e2-4213-99b4-3357cfbe1885": {
       "username": "cr33pling",
@@ -26365,7 +26370,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1792873070075,
+      "_idAt": 1792895870096,
       "_gameAt": 1792858093250,
       "isLive": false,
       "streamCategory": "",
@@ -26688,7 +26693,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792873071264,
+      "_idAt": 1792895871299,
       "_gameAt": 1792791457840,
       "isLive": false,
       "streamCategory": "",
@@ -26912,7 +26917,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792873072472,
+      "_idAt": 1792895872494,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792840326592
@@ -27010,7 +27015,7 @@
       "lastStreamInfo": "come chat fortnite og live event  (!discord) — Fortnite",
       "lastStreamEndedAt": 1788026352900,
       "gameOverride": "",
-      "_idAt": 1792873073666
+      "_idAt": 1792895873694
     },
     "521e9714-34db-46ea-a803-c0b11d18aabd": {
       "username": "mutzume",
@@ -27105,7 +27110,7 @@
       "lastStreamInfo": "POKESURVIVOR | W/ KUYA @FartVader, And KUYA @JaggerJack",
       "lastStreamEndedAt": 1792600214809,
       "gameOverride": "",
-      "_idAt": 1792873074872,
+      "_idAt": 1792895874897,
       "loyalty": {
         "noodles": {
           "name": "noodles",
@@ -27234,7 +27239,7 @@
       "lastStreamEndedAt": 1790496719480,
       "profile": "zeenlive’s stream is a nonstop, high‑energy hangout where “gm gm bro” greets the chat and “NEW FOLLOWER!!” erupts with every new join. The community thrives on quick emote bursts, playful banter, and a constant stream of “❤️” and “🙌” celebrations. The channel loves being praised with enthusiastic shoutouts, keeping the vibe lively and inclusive.",
       "_profileAtCount": 44,
-      "_idAt": 1792873076067,
+      "_idAt": 1792895876095,
       "_gameAt": 1792680347655,
       "isLive": false,
       "streamCategory": ""
