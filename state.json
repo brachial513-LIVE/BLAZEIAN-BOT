@@ -5,8 +5,8 @@
       "stats": {
         "totalVotes": 25920,
         "totalSubs": 77,
-        "totalChatMessages": 3854,
-        "totalStreamMinutes": 4272,
+        "totalChatMessages": 3857,
+        "totalStreamMinutes": 4274,
         "emotes": {
           "❤": 148,
           "🙌": 71,
@@ -85,7 +85,7 @@
           "🐔": 1,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 11,
           "c4145eec-85ca-4e2e-b05d-a5025ead4f71": 35,
-          "555a557b-672c-4db0-80d4-85564e0bbac4": 7,
+          "555a557b-672c-4db0-80d4-85564e0bbac4": 8,
           "60967948-8805-42ef-a202-051d2e2f1557": 2,
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 41,
@@ -122,7 +122,7 @@
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 1,
           "8a356bf2-0026-4ad0-86ab-c3247b88b55e": 37,
           "313c7f2b-bd01-43a3-afba-a6e30e7bdeb0": 22,
-          "68cc98ff-352d-445d-8fa7-a76ffada7706": 23,
+          "68cc98ff-352d-445d-8fa7-a76ffada7706": 24,
           "e0b2eaea-0c65-4d63-91df-a1e895c7dd1c": 44,
           "ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca": 39,
           "8aed3bff-a40e-42d9-9b4b-7c6854c79dca": 7,
@@ -179,7 +179,7 @@
           "🥴": 2,
           "🥂": 1,
           "258f10f6-6369-4d78-9020-6d4344802acb": 1,
-          "c7534b8f-d7d5-4587-9f56-74d3f1fbbc90": 38,
+          "c7534b8f-d7d5-4587-9f56-74d3f1fbbc90": 39,
           "9444fca6-1078-4c99-8184-497071312ba8": 3,
           "🔗": 1,
           "🍺": 30,
@@ -386,21 +386,9 @@
           "😬": "😬"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792941780260
+        "lastChatAt": 1792942054648
       },
       "chatMemory": [
-        {
-          "user": "omom_",
-          "msg": "Grüße"
-        },
-        {
-          "user": "omom_",
-          "msg": "🤣"
-        },
-        {
-          "user": "omom_",
-          "msg": "[emote:abf00198-d569-498e-bdbf-2a89b360af49]"
-        },
         {
           "user": "tarzan",
           "msg": "Sup"
@@ -428,6 +416,18 @@
         {
           "user": "botger",
           "msg": "🔴 brachial513 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "gmc_gaara27",
+          "msg": "[emote:555a557b-672c-4db0-80d4-85564e0bbac4]"
+        },
+        {
+          "user": "gmc_gaara27",
+          "msg": "Naaaa hör mal"
+        },
+        {
+          "user": "der_bruder",
+          "msg": "[emote:68cc98ff-352d-445d-8fa7-a76ffada7706] [emote:c7534b8f-d7d5-4587-9f56-74d3f1fbbc90]"
         }
       ],
       "language": "en",
@@ -639,7 +639,7 @@
         }
       },
       "_idAt": 1792930670158,
-      "_gameAt": 1792941780175,
+      "_gameAt": 1792941984758,
       "isLive": true,
       "streamCategory": "Art",
       "voteLog": [
@@ -4145,7 +4145,7 @@
         "totalVotes": 30676,
         "totalSubs": 118,
         "totalChatMessages": 9482,
-        "totalStreamMinutes": 28749,
+        "totalStreamMinutes": 28750,
         "emotes": {
           "❤": 258,
           "🙌": 218,
@@ -13981,7 +13981,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 96,
-        "totalStreamMinutes": 13719,
+        "totalStreamMinutes": 13721,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -25614,7 +25614,7 @@
         "totalVotes": 7260,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 11639,
+        "totalStreamMinutes": 11641,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -28654,7 +28654,7 @@
         "totalVotes": 1513,
         "totalSubs": 3,
         "totalChatMessages": 162,
-        "totalStreamMinutes": 1901,
+        "totalStreamMinutes": 1903,
         "emotes": {
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
           "🎉": 16,
@@ -31888,8 +31888,8 @@
     }
   },
   "auth": {
-    "accessToken": "f1912b3aa29f5dfa29af3ada8f8dded7",
-    "refreshToken": "064c60d245cbdb33a98ccdc8b4e4bef3",
+    "accessToken": "240813cffd86b95d0c605bd5cb39d3a5",
+    "refreshToken": "517d55c30a909e7cb04cfbeb6b2612cd",
     "sessionToken": "7f8303548b42b993cd4448a253297fac",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
