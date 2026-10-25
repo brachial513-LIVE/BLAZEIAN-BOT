@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 25920,
         "totalSubs": 77,
-        "totalChatMessages": 3852,
+        "totalChatMessages": 3853,
         "totalStreamMinutes": 4270,
         "emotes": {
           "❤": 148,
@@ -125,7 +125,7 @@
           "68cc98ff-352d-445d-8fa7-a76ffada7706": 23,
           "e0b2eaea-0c65-4d63-91df-a1e895c7dd1c": 44,
           "ef8f1dcd-ae1a-4fc9-bb25-1df3350dfbca": 39,
-          "8aed3bff-a40e-42d9-9b4b-7c6854c79dca": 6,
+          "8aed3bff-a40e-42d9-9b4b-7c6854c79dca": 7,
           "5387dd9d-acee-4c3c-9928-49cc5e7cb020": 5,
           "adff968b-a3ab-4efd-b780-1a30d4ce7666": 2,
           "fd3078e4-1f09-47d9-8a28-ea67aa26dca4": 33,
@@ -386,13 +386,9 @@
           "😬": "😬"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792923336118
+        "lastChatAt": 1792939811998
       },
       "chatMemory": [
-        {
-          "user": "omom_",
-          "msg": "Ja"
-        },
         {
           "user": "omom_",
           "msg": "Ja letztens schon"
@@ -428,6 +424,10 @@
         {
           "user": "brachial513",
           "msg": "[emote:eaf28c3b-73bb-475b-ae7b-a3912ca0acec]"
+        },
+        {
+          "user": "der_bruder",
+          "msg": "[emote:8aed3bff-a40e-42d9-9b4b-7c6854c79dca]"
         }
       ],
       "language": "en",
@@ -639,7 +639,7 @@
         }
       },
       "_idAt": 1792930670158,
-      "_gameAt": 1792923336207,
+      "_gameAt": 1792939812091,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -971,14 +971,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 143326,
-        "totalSubs": 219,
-        "totalChatMessages": 11572,
+        "totalSubs": 220,
+        "totalChatMessages": 11573,
         "totalStreamMinutes": 4337,
         "emotes": {
           "🗳": 2262,
           "❤": 559,
-          "🙌": 335,
-          "🔥": 319,
+          "🙌": 336,
+          "🔥": 321,
           "☺": 8,
           "🔴": 41,
           "🎉": 149,
@@ -1359,17 +1359,13 @@
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": "OG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792922693050,
+        "lastChatAt": 1792939605417,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @marioscy5 just gave 1001 vote(s) (total: 1001)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @CedriCDebleD just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
@@ -1405,6 +1401,10 @@
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @parky has resubscribed (3 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @annyoneany has resubscribed (4 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -1611,7 +1611,7 @@
         },
         "annyoneany": {
           "name": "annyoneany",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "future42": {
@@ -1674,7 +1674,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
       "_idAt": 1792930667819,
-      "_gameAt": 1792922693166,
+      "_gameAt": 1792939605507,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -4144,14 +4144,14 @@
       "stats": {
         "totalVotes": 30676,
         "totalSubs": 118,
-        "totalChatMessages": 9470,
-        "totalStreamMinutes": 28736,
+        "totalChatMessages": 9473,
+        "totalStreamMinutes": 28743,
         "emotes": {
           "❤": 256,
           "🙌": 217,
           "🗳": 1347,
-          "📴": 238,
-          "👋": 268,
+          "📴": 239,
+          "👋": 269,
           "🔴": 234,
           "🎉": 366,
           "🏆": 25,
@@ -4310,7 +4310,7 @@
           "9fd66615-f12c-427c-9db1-deb571a1857f": 1,
           "b7d2248f-1651-4238-9c83-29aaa919f6c5": 1,
           "5ba4e137-ccf1-419f-9ece-67d9e4cb07f7": 1,
-          "f8273a7b-043a-417f-8a85-39b5fc7aacc4": 99,
+          "f8273a7b-043a-417f-8a85-39b5fc7aacc4": 100,
           "da46738e-03ae-4bb7-8d97-529a3cf338c5": 2,
           "🥵": 5,
           "🍻": 1,
@@ -4520,22 +4520,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792939333997,
+        "lastChatAt": 1792939769281,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "osohigh",
-          "msg": "Tear it up gm"
-        },
-        {
-          "user": "seventh",
-          "msg": "wassup @agent00zani"
-        },
-        {
-          "user": "seventh",
-          "msg": "happy streaming brother"
-        },
         {
           "user": "agent00zani",
           "msg": "ty ty"
@@ -4563,6 +4551,18 @@
         {
           "user": "jaggerjack",
           "msg": "have a great stream man!"
+        },
+        {
+          "user": "fartvader",
+          "msg": "i'll be here chilling bro. [emote:f8273a7b-043a-417f-8a85-39b5fc7aacc4]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "ty ty everyone for watching"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -4577,7 +4577,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "💪 Stay Strong, Game On! 🎮 | Anyone Wanna Play? 👀 | 🎰 Sub Raffle  DRAW Today — 150 Votes!",
+      "streamTitle": "",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty” and massive emote showers.",
       "_profileAtCount": 9433,
       "loyalty": {
@@ -4776,8 +4776,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8d0e99ca-202f-449f-92a1-8260c74a8c9d.gif",
       "nudgedAt": 1785006485591,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "🎮 Zani's Quiet Corner 🌙 | Just Gaming, One Day at a Time 💜",
-      "lastStreamEndedAt": 1792895027228,
+      "lastStreamInfo": "💪 Stay Strong, Game On! 🎮 | Anyone Wanna Play? 👀 | 🎰 Sub Raffle  DRAW Today — 150 Votes!",
+      "lastStreamEndedAt": 1792939764115,
       "botVip": true,
       "commandMedia": {
         "fluffy": {
@@ -4812,9 +4812,9 @@
         }
       },
       "_idAt": 1792931867810,
-      "_gameAt": 1792939308783,
-      "isLive": true,
-      "streamCategory": "Games + Demos",
+      "_gameAt": 1792939695877,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891186,
@@ -13980,7 +13980,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 96,
-        "totalStreamMinutes": 13676,
+        "totalStreamMinutes": 13696,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -25613,7 +25613,7 @@
         "totalVotes": 7260,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 11596,
+        "totalStreamMinutes": 11616,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -26511,7 +26511,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792918667774,
+      "_idAt": 1792940267920,
       "_gameAt": 1792935457616,
       "isLive": false,
       "streamCategory": "",
@@ -28652,14 +28652,14 @@
       "stats": {
         "totalVotes": 1513,
         "totalSubs": 3,
-        "totalChatMessages": 158,
-        "totalStreamMinutes": 1858,
+        "totalChatMessages": 162,
+        "totalStreamMinutes": 1878,
         "emotes": {
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
-          "🎉": 15,
-          "🔴": 14,
-          "📴": 13,
-          "👋": 13,
+          "🎉": 16,
+          "🔴": 15,
+          "📴": 14,
+          "👋": 14,
           "❤": 24,
           "🙌": 13,
           "😶": 4,
@@ -28681,25 +28681,9 @@
           "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792935492214
+        "lastChatAt": 1792939845131
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @remgamingtv!"
-        },
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ remgamingtv just followed the channel! Welcome!! 🙌"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @jude_jitsu!"
@@ -28715,6 +28699,22 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 jagsman is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Captains Call MW4 And Lots O f Losses with @dynamicrich84 @mk95gaming  #thedugout #mustardnetwork! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         },
         {
           "user": "botger",
@@ -28756,14 +28756,14 @@
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/6dc76b87-c95e-47ee-a6dd-6c4c6e76798f.jpg",
       "followed": true,
-      "lastStreamInfo": "FM26 Our spanish Save Season 3 Espanyol & Mallorca with @dynamicrich84  #thedugout #mustardnetwork — Football Manager 26",
-      "lastStreamEndedAt": 1792083886713,
+      "lastStreamInfo": "Captains Call MW4 And Lots O f Losses with @dynamicrich84 @mk95gaming  #thedugout #mustardnetwork",
+      "lastStreamEndedAt": 1792939816513,
       "profile": "jagsman’s channel thrives on spontaneous hype: “❤️ NEW FOLLOWER!! ❤️” and “🗳️ VOTE ALERT!!” echo through the chat. The vibe is energetic, supportive, and playful, celebrating every new follower and vote with enthusiastic emojis and shoutouts. Stream is now live! Stream is now offline! Thanks for watching! The community loves quick cheers, “Thanks for the follow” and “Stream is now live!”",
       "_profileAtCount": 126,
       "_idAt": 1792919876140,
       "nudgedAt": 1791149490517,
       "nudgedKey": "schedule",
-      "_gameAt": 1792935491927,
+      "_gameAt": 1792939844909,
       "isLive": true,
       "streamCategory": "Call Of Duty: Modern Warfare 4"
     },
