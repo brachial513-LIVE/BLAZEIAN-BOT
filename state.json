@@ -4117,13 +4117,13 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 30672,
-        "totalSubs": 117,
-        "totalChatMessages": 9436,
-        "totalStreamMinutes": 28556,
+        "totalVotes": 30675,
+        "totalSubs": 118,
+        "totalChatMessages": 9437,
+        "totalStreamMinutes": 28576,
         "emotes": {
           "❤": 256,
-          "🙌": 216,
+          "🙌": 217,
           "🗳": 1347,
           "📴": 238,
           "👋": 268,
@@ -4134,7 +4134,7 @@
           "💎": 7,
           "🎁": 127,
           "📢": 32,
-          "🔥": 462,
+          "🔥": 464,
           "😘": 33,
           "🥺": 13,
           "🥷": 16,
@@ -4495,14 +4495,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1792928356266,
+        "lastChatAt": 1792929194241,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:bd452a28-6462-4485-92bf-e1d1a40150cf]"
-        },
         {
           "user": "agent00zani",
           "msg": "how u bro"
@@ -4538,6 +4534,10 @@
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @parky has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {
@@ -4740,6 +4740,11 @@
           "name": "time",
           "months": 1,
           "tier": 1
+        },
+        "parky": {
+          "name": "parky",
+          "months": 1,
+          "tier": 1
         }
       },
       "gameOverride": "",
@@ -4782,7 +4787,7 @@
         }
       },
       "_idAt": 1792909067759,
-      "_gameAt": 1792928356188,
+      "_gameAt": 1792929194367,
       "isLive": true,
       "streamCategory": "Games + Demos",
       "voteLog": [
@@ -4935,6 +4940,11 @@
           "t": 1792926780157,
           "v": "_vladenzo",
           "a": 25
+        },
+        {
+          "t": 1792929271652,
+          "v": "bonsaifox",
+          "a": 3
         }
       ]
     },
@@ -6020,7 +6030,7 @@
       "username": "capt_rob_advent",
       "language": "en",
       "stats": {
-        "totalVotes": 40180,
+        "totalVotes": 40184,
         "totalSubs": 78,
         "totalChatMessages": 4994,
         "totalStreamMinutes": 18942,
@@ -6580,6 +6590,11 @@
           "t": 1792877083715,
           "v": "meyetechnicals",
           "a": 100
+        },
+        {
+          "t": 1792929271726,
+          "v": "bonsaifox",
+          "a": 4
         }
       ]
     },
@@ -9635,7 +9650,7 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 23129,
+        "totalVotes": 23132,
         "totalSubs": 64,
         "totalChatMessages": 1883,
         "totalStreamMinutes": 7875,
@@ -9996,6 +10011,11 @@
           "t": 1792909211904,
           "v": "honeybear",
           "a": 692
+        },
+        {
+          "t": 1792929271738,
+          "v": "bonsaifox",
+          "a": 3
         }
       ]
     },
@@ -10153,13 +10173,13 @@
       "username": "gmc_gaara27",
       "language": "en",
       "stats": {
-        "totalVotes": 1620,
+        "totalVotes": 1623,
         "totalSubs": 11,
-        "totalChatMessages": 584,
-        "totalStreamMinutes": 1891,
+        "totalChatMessages": 588,
+        "totalStreamMinutes": 1899,
         "emotes": {
           "🎶": 1,
-          "😀": 1,
+          "😀": 2,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 4,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 5,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 3,
@@ -10174,7 +10194,7 @@
           "😂": 42,
           "💪": 5,
           "🫠": 3,
-          "💚": 11,
+          "💚": 14,
           "👍": 1,
           "😞": 1,
           "37719561-c923-4260-b1a5-e3eda10c103d": 2,
@@ -10202,7 +10222,8 @@
           "f54129b2-3c12-4fdf-8fc3-3fa7428cddc7": 1,
           "176673c8-45f3-4fa9-896a-57f640bdf7fd": 2,
           "5463e2e7-6fdc-40c6-9cc5-16d2ad457636": 1,
-          "🤝": 1
+          "🤝": 1,
+          "f47c4aa4-ee1a-4690-960b-f174d9ab2cd5": 1
         },
         "emoteNames": {
           "🎶": "🎶",
@@ -10249,28 +10270,13 @@
           "f54129b2-3c12-4fdf-8fc3-3fa7428cddc7": "Pika",
           "176673c8-45f3-4fa9-896a-57f640bdf7fd": "Enton",
           "5463e2e7-6fdc-40c6-9cc5-16d2ad457636": "Yeah",
-          "🤝": "🤝"
+          "🤝": "🤝",
+          "f47c4aa4-ee1a-4690-960b-f174d9ab2cd5": "PEACEPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792926316493
+        "lastChatAt": 1792929762018
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "ja ich verstehe dich jz optimal und gameplay auch, man hört dass mikro an geht wenn ton kommt und sonst aus ist"
-        },
-        {
-          "user": "brachial513",
-          "msg": "optimal"
-        },
-        {
-          "user": "brachial513",
-          "msg": "geiiiiistes krankes layout btw"
-        },
-        {
-          "user": "brachial513",
-          "msg": "so muss mal aufräumen usw ich meld mich später"
-        },
         {
           "user": "omom_",
           "msg": "Gib alles [emote:176673c8-45f3-4fa9-896a-57f640bdf7fd]"
@@ -10294,6 +10300,22 @@
         {
           "user": "gmc_gaara27",
           "msg": "10 min break"
+        },
+        {
+          "user": "omom_",
+          "msg": "Hallöchen 💚💚"
+        },
+        {
+          "user": "gmc_gaara27",
+          "msg": "Hey [emote:f47c4aa4-ee1a-4690-960b-f174d9ab2cd5]  wollte  nur kurz was testen :D bin spöter live. Hoffe dir gehts gut soweit :)"
+        },
+        {
+          "user": "omom_",
+          "msg": "Ja hoffe euch auch 💚 dann bis später 😀"
+        },
+        {
+          "user": "gmc_gaara27",
+          "msg": "Bei uns ist auch alles super bis nachher :)"
         }
       ],
       "customCommands": {},
@@ -10306,7 +10328,7 @@
       "streamTitle": "",
       "gameOverride": "",
       "lastStreamInfo": "🩸 SILKSONG – No Mercy, Just Pain | First Playthrough 💀",
-      "lastStreamEndedAt": 1792927946342,
+      "lastStreamEndedAt": 1792929689809,
       "profile": "gmc_gaara27 streams chill beats and “PosiTief presents: West Coast G‑Funk Hour — Music.” The chat vibes with “welcome to blaze bro,” “letsgooo,” “awesome people,” “+follower” cheers, “emote” bursts, and “Verkaufe interessant.” They celebrate with “thank you” and “Thanks :)”, stay upbeat, supportive, always ready for the next groove, love quick shoutouts and volume tweaks.",
       "_profileAtCount": 582,
       "nudgedAt": 1790523497708,
@@ -10369,7 +10391,7 @@
           "tier": 1
         }
       },
-      "_gameAt": 1792927924000,
+      "_gameAt": 1792929587732,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -10467,6 +10489,11 @@
           "t": 1792927834429,
           "v": "craft",
           "a": 6
+        },
+        {
+          "t": 1792929271408,
+          "v": "bonsaifox",
+          "a": 3
         }
       ]
     },
@@ -10474,7 +10501,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 26017,
+        "totalVotes": 26018,
         "totalSubs": 61,
         "totalChatMessages": 4725,
         "totalStreamMinutes": 5406,
@@ -11051,6 +11078,11 @@
           "t": 1792867976066,
           "v": "omerabi",
           "a": 1
+        },
+        {
+          "t": 1792929271702,
+          "v": "bonsaifox",
+          "a": 1
         }
       ]
     },
@@ -11349,7 +11381,7 @@
       "username": "helios",
       "language": "en",
       "stats": {
-        "totalVotes": 4258,
+        "totalVotes": 4261,
         "totalSubs": 27,
         "totalChatMessages": 390,
         "totalStreamMinutes": 1364,
@@ -11654,6 +11686,11 @@
           "t": 1792911138693,
           "v": "poordao",
           "a": 2
+        },
+        {
+          "t": 1792929271612,
+          "v": "bonsaifox",
+          "a": 3
         }
       ]
     },
@@ -11661,7 +11698,7 @@
       "username": "tai_",
       "language": "en",
       "stats": {
-        "totalVotes": 18271,
+        "totalVotes": 18273,
         "totalSubs": 52,
         "totalChatMessages": 869,
         "totalStreamMinutes": 8195,
@@ -11973,6 +12010,11 @@
           "t": 1792924045347,
           "v": "bit_mani",
           "a": 50
+        },
+        {
+          "t": 1792929271456,
+          "v": "bonsaifox",
+          "a": 2
         }
       ]
     },
@@ -11980,7 +12022,7 @@
       "username": "makeitmetal",
       "language": "en",
       "stats": {
-        "totalVotes": 28259,
+        "totalVotes": 28260,
         "totalSubs": 79,
         "totalChatMessages": 18357,
         "totalStreamMinutes": 12716,
@@ -12768,6 +12810,11 @@
           "t": 1792858205289,
           "v": "bronzeagle",
           "a": 1
+        },
+        {
+          "t": 1792929271718,
+          "v": "bonsaifox",
+          "a": 1
         }
       ]
     },
@@ -13266,7 +13313,7 @@
       "username": "saboomafoo",
       "language": "en",
       "stats": {
-        "totalVotes": 13047,
+        "totalVotes": 13050,
         "totalSubs": 211,
         "totalChatMessages": 523,
         "totalStreamMinutes": 17439,
@@ -13587,6 +13634,11 @@
           "t": 1792927834416,
           "v": "craft",
           "a": 6
+        },
+        {
+          "t": 1792929271334,
+          "v": "bonsaifox",
+          "a": 3
         }
       ]
     },
@@ -14107,7 +14159,7 @@
       "username": "0xscheun",
       "language": "en",
       "stats": {
-        "totalVotes": 8333,
+        "totalVotes": 8335,
         "totalSubs": 39,
         "totalChatMessages": 1114,
         "totalStreamMinutes": 3169,
@@ -14471,6 +14523,11 @@
           "t": 1792911138672,
           "v": "poordao",
           "a": 35
+        },
+        {
+          "t": 1792929271627,
+          "v": "bonsaifox",
+          "a": 2
         }
       ]
     },
@@ -14478,7 +14535,7 @@
       "username": "lady_iris",
       "language": "en",
       "stats": {
-        "totalVotes": 16506,
+        "totalVotes": 16508,
         "totalSubs": 95,
         "totalChatMessages": 922,
         "totalStreamMinutes": 5466,
@@ -14785,6 +14842,11 @@
           "t": 1792924045376,
           "v": "bit_mani",
           "a": 100
+        },
+        {
+          "t": 1792929271594,
+          "v": "bonsaifox",
+          "a": 2
         }
       ]
     },
@@ -14792,9 +14854,9 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 24943,
+        "totalVotes": 24948,
         "totalSubs": 65,
-        "totalChatMessages": 2674,
+        "totalChatMessages": 2675,
         "totalStreamMinutes": 5219,
         "emotes": {
           "❤": 181,
@@ -14979,13 +15041,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792926600858
+        "lastChatAt": 1792929272120
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@parky gifted a sub to the community!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -15021,6 +15079,10 @@
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @BonsaiFox!"
         }
       ],
       "customCommands": {},
@@ -15139,7 +15201,7 @@
       "lastStreamInfo": "[UK] #42 ITS FRIDAY!!! - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
       "lastStreamEndedAt": 1792797919814,
       "_idAt": 1792913874923,
-      "_gameAt": 1792926593556,
+      "_gameAt": 1792929272198,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -15252,6 +15314,11 @@
           "t": 1792926593080,
           "v": "agent00zani",
           "a": 50
+        },
+        {
+          "t": 1792929271667,
+          "v": "bonsaifox",
+          "a": 5
         }
       ]
     },
@@ -15259,7 +15326,7 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 40889,
+        "totalVotes": 40891,
         "totalSubs": 192,
         "totalChatMessages": 4274,
         "totalStreamMinutes": 21693,
@@ -15890,6 +15957,11 @@
           "t": 1792926773760,
           "v": "_vladenzo",
           "a": 25
+        },
+        {
+          "t": 1792929271662,
+          "v": "bonsaifox",
+          "a": 2
         }
       ]
     },
@@ -16433,9 +16505,9 @@
       "language": "en",
       "joinedAt": 1784453301135,
       "stats": {
-        "totalVotes": 12435,
+        "totalVotes": 12439,
         "totalSubs": 74,
-        "totalChatMessages": 636,
+        "totalChatMessages": 637,
         "totalStreamMinutes": 10381,
         "emotes": {
           "🔥": 8,
@@ -16494,13 +16566,9 @@
           "🌫": "🌫"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792924045899
+        "lastChatAt": 1792929272013
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 200 votes, @DofferLive!"
@@ -16536,6 +16604,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 120 votes, @bit_mani!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 4 votes, @BonsaiFox!"
         }
       ],
       "customCommands": {},
@@ -16666,7 +16738,7 @@
       "_idAt": 1792915068931,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792924045985,
+      "_gameAt": 1792929272104,
       "voteLog": [
         {
           "t": 1792429891407,
@@ -16777,6 +16849,11 @@
           "t": 1792924045395,
           "v": "bit_mani",
           "a": 120
+        },
+        {
+          "t": 1792929271621,
+          "v": "bonsaifox",
+          "a": 4
         }
       ]
     },
@@ -18227,9 +18304,9 @@
       "language": "en",
       "joinedAt": 1784468622416,
       "stats": {
-        "totalVotes": 22516,
+        "totalVotes": 22519,
         "totalSubs": 48,
-        "totalChatMessages": 3450,
+        "totalChatMessages": 3451,
         "totalStreamMinutes": 14207,
         "emotes": {
           "❤": 125,
@@ -18422,13 +18499,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792858206063
+        "lastChatAt": 1792929272132
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "heya anggeeeee... how are youuu"
-        },
         {
           "user": "fartvader",
           "msg": "have a great streammmm"
@@ -18464,6 +18537,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @bronzeagle!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 3 votes, @BonsaiFox!"
         }
       ],
       "customCommands": {},
@@ -18578,7 +18655,7 @@
         }
       },
       "_idAt": 1792915073731,
-      "_gameAt": 1792858092967,
+      "_gameAt": 1792929272226,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -18691,6 +18768,11 @@
           "t": 1792858205297,
           "v": "bronzeagle",
           "a": 1
+        },
+        {
+          "t": 1792929271637,
+          "v": "bonsaifox",
+          "a": 3
         }
       ]
     },
@@ -18699,7 +18781,7 @@
       "language": "en",
       "joinedAt": 1784468670654,
       "stats": {
-        "totalVotes": 11619,
+        "totalVotes": 11621,
         "totalSubs": 64,
         "totalChatMessages": 2964,
         "totalStreamMinutes": 7405,
@@ -19223,6 +19305,11 @@
           "t": 1792924045399,
           "v": "bit_mani",
           "a": 120
+        },
+        {
+          "t": 1792929271616,
+          "v": "bonsaifox",
+          "a": 2
         }
       ]
     },
@@ -20172,7 +20259,7 @@
       "language": "en",
       "joinedAt": 1784664490215,
       "stats": {
-        "totalVotes": 13699,
+        "totalVotes": 13701,
         "totalSubs": 40,
         "totalChatMessages": 1859,
         "totalStreamMinutes": 12089,
@@ -20529,6 +20616,11 @@
           "t": 1792858205309,
           "v": "bronzeagle",
           "a": 1
+        },
+        {
+          "t": 1792929271726,
+          "v": "bonsaifox",
+          "a": 2
         }
       ]
     },
@@ -22139,10 +22231,10 @@
       "language": "en",
       "joinedAt": 1785231455893,
       "stats": {
-        "totalVotes": 15796,
+        "totalVotes": 15798,
         "totalSubs": 111,
         "totalChatMessages": 1942,
-        "totalStreamMinutes": 5245,
+        "totalStreamMinutes": 5265,
         "emotes": {
           "❤": 130,
           "🙌": 157,
@@ -22607,6 +22699,11 @@
           "t": 1792926090963,
           "v": "cabsss",
           "a": 10
+        },
+        {
+          "t": 1792929271597,
+          "v": "bonsaifox",
+          "a": 2
         }
       ]
     },
@@ -22615,9 +22712,9 @@
       "language": "en",
       "joinedAt": 1785405357695,
       "stats": {
-        "totalVotes": 13025,
+        "totalVotes": 13029,
         "totalSubs": 90,
-        "totalChatMessages": 1899,
+        "totalChatMessages": 1900,
         "totalStreamMinutes": 7612,
         "emotes": {
           "❤": 77,
@@ -22714,13 +22811,9 @@
           "😋": "😋"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792924045811
+        "lastChatAt": 1792929271819
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @poderosobot!"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ poderosobot just followed the channel! Welcome!! 🙌"
@@ -22756,6 +22849,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 70 votes, @bit_mani!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 4 votes, @BonsaiFox!"
         }
       ],
       "customCommands": {},
@@ -22859,7 +22956,7 @@
         }
       },
       "_idAt": 1792917467782,
-      "_gameAt": 1792924045936,
+      "_gameAt": 1792929271907,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -22962,6 +23059,11 @@
           "t": 1792924045368,
           "v": "bit_mani",
           "a": 70
+        },
+        {
+          "t": 1792929271413,
+          "v": "bonsaifox",
+          "a": 4
         }
       ]
     },
@@ -23725,7 +23827,7 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 33932,
+        "totalVotes": 33934,
         "totalSubs": 137,
         "totalChatMessages": 7891,
         "totalStreamMinutes": 14472,
@@ -24509,6 +24611,11 @@
           "t": 1792926613422,
           "v": "agent00zani",
           "a": 50
+        },
+        {
+          "t": 1792929271666,
+          "v": "bonsaifox",
+          "a": 2
         }
       ]
     },
@@ -24517,9 +24624,9 @@
       "language": "en",
       "joinedAt": 1786292034700,
       "stats": {
-        "totalVotes": 17989,
+        "totalVotes": 17992,
         "totalSubs": 109,
-        "totalChatMessages": 1122,
+        "totalChatMessages": 1123,
         "totalStreamMinutes": 4139,
         "emotes": {
           "❤": 94,
@@ -24608,13 +24715,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792858205689
+        "lastChatAt": 1792929272073
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 6 votes, @dwb9000!"
@@ -24650,6 +24753,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 51 votes, @bronzeagle!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 3 votes, @BonsaiFox!"
         }
       ],
       "customCommands": {},
@@ -24820,7 +24927,7 @@
         }
       },
       "_idAt": 1792917472532,
-      "_gameAt": 1792858092820,
+      "_gameAt": 1792929272136,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -24868,6 +24975,11 @@
           "t": 1792858205161,
           "v": "bronzeagle",
           "a": 51
+        },
+        {
+          "t": 1792929271670,
+          "v": "bonsaifox",
+          "a": 3
         }
       ]
     },
@@ -24876,9 +24988,9 @@
       "language": "en",
       "joinedAt": 1786542046720,
       "stats": {
-        "totalVotes": 5582,
+        "totalVotes": 5584,
         "totalSubs": 30,
-        "totalChatMessages": 914,
+        "totalChatMessages": 915,
         "totalStreamMinutes": 6879,
         "emotes": {
           "❤": 36,
@@ -24973,13 +25085,9 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792924045863
+        "lastChatAt": 1792929271921
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 250 votes, @DofferLive!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 15 votes, @cesteni!"
@@ -25015,6 +25123,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 70 votes, @bit_mani!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 2 votes, @BonsaiFox!"
         }
       ],
       "customCommands": {},
@@ -25130,7 +25242,7 @@
       "_idAt": 1792917473727,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792924045950,
+      "_gameAt": 1792929271986,
       "voteLog": [
         {
           "t": 1792429891323,
@@ -25221,6 +25333,11 @@
           "t": 1792924045408,
           "v": "bit_mani",
           "a": 70
+        },
+        {
+          "t": 1792929271593,
+          "v": "bonsaifox",
+          "a": 2
         }
       ]
     },
@@ -25229,10 +25346,10 @@
       "language": "en",
       "joinedAt": 1786592864058,
       "stats": {
-        "totalVotes": 7198,
+        "totalVotes": 7199,
         "totalSubs": 36,
         "totalChatMessages": 1763,
-        "totalStreamMinutes": 11416,
+        "totalStreamMinutes": 11436,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -25636,6 +25753,11 @@
           "t": 1792891403578,
           "v": "vroshi55",
           "a": 250
+        },
+        {
+          "t": 1792929271630,
+          "v": "bonsaifox",
+          "a": 1
         }
       ]
     },
@@ -26672,7 +26794,7 @@
       "language": "en",
       "joinedAt": 1787497151215,
       "stats": {
-        "totalVotes": 7193,
+        "totalVotes": 7195,
         "totalSubs": 20,
         "totalChatMessages": 367,
         "totalStreamMinutes": 792,
@@ -26982,6 +27104,11 @@
           "t": 1792891403584,
           "v": "vroshi55",
           "a": 250
+        },
+        {
+          "t": 1792929271678,
+          "v": "bonsaifox",
+          "a": 2
         }
       ],
       "botVip": true
@@ -29441,9 +29568,9 @@
       "language": "en",
       "joinedAt": 1791847639379,
       "stats": {
-        "totalVotes": 1175,
+        "totalVotes": 1178,
         "totalSubs": 6,
-        "totalChatMessages": 279,
+        "totalChatMessages": 280,
         "totalStreamMinutes": 736,
         "emotes": {
           "❤": 10,
@@ -29500,13 +29627,9 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": "BLAZEFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792926374315
+        "lastChatAt": 1792929271989
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @bronzeagle!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 200 votes, @dga_og!"
@@ -29542,6 +29665,10 @@
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 3 votes, @BonsaiFox!"
         }
       ],
       "customCommands": {},
@@ -29592,7 +29719,7 @@
       },
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792926370294,
+      "_gameAt": 1792929272054,
       "nudgedAt": 1792289657162,
       "nudgedKey": "schedule",
       "voteLog": [
@@ -29690,6 +29817,11 @@
           "t": 1792926369782,
           "v": "agent00zani",
           "a": 20
+        },
+        {
+          "t": 1792929271605,
+          "v": "bonsaifox",
+          "a": 3
         }
       ]
     },
@@ -29815,9 +29947,9 @@
       "language": "en",
       "joinedAt": 1792508781940,
       "stats": {
-        "totalVotes": 353,
+        "totalVotes": 354,
         "totalSubs": 1,
-        "totalChatMessages": 192,
+        "totalChatMessages": 193,
         "totalStreamMinutes": 566,
         "emotes": {
           "👋": 7,
@@ -29864,13 +29996,9 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792858093244
+        "lastChatAt": 1792929272271
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 6 votes, @squall09!"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
@@ -29906,6 +30034,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 8 votes, @bronzeagle!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 1 vote, @BonsaiFox!"
         }
       ],
       "customCommands": {},
@@ -29923,7 +30055,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1792858093331,
+      "_gameAt": 1792929272343,
       "isLive": false,
       "streamCategory": "",
       "streamTitle": "",
@@ -29973,6 +30105,11 @@
           "t": 1792858092576,
           "v": "bronzeagle",
           "a": 8
+        },
+        {
+          "t": 1792929271745,
+          "v": "bonsaifox",
+          "a": 1
         }
       ],
       "profile": "honeybear streams Runescape Dragonwilds with a tight crew vibe. Chat chants “NEW FOLLOWER!!” and “Thanks for watching!” while shouting “vote alert” and cracking “telegram” password jokes. Emojis ❤️, 🙌, custom emotes abound. Celebrations include “FREE Entry” giveaways, “1000 Votes” contests, and enthusiastic “see you next time 👋” sign‑offs. The channel thrives on energetic, supportive banter and constant voting.",
@@ -30590,9 +30727,9 @@
       "n": 7
     },
     "big_scaggs": {
-      "note": "Big Scaggs streams Roblox with his kids, loves racing and the happy dance, and is a fan of Warframe, Fallout 76, PlayStation, Epic Games, and web development.",
-      "at": 1792867430372,
-      "n": 8
+      "note": "Big Scaggs streams Roblox with his kids, loves racing, the happy dance, Warframe, Fallout 76, PlayStation, Epic Games, and web development.",
+      "at": 1792929470459,
+      "n": 9
     },
     "hazykey": {
       "note": "They enjoy heavy metal music, particularly the band TBDM, appreciate good guitar tone, and have a humorous and enthusiastic online presence.",
@@ -31405,9 +31542,9 @@
       "n": 3
     },
     "alensilva": {
-      "note": "Alensilva loves",
-      "at": 1792801430338,
-      "n": 1
+      "note": "Alensilva enjoys retro and fighting games, often joking about characters like Nilo",
+      "at": 1792928810452,
+      "n": 2
     },
     "mate": {
       "note": "Enjoys playing games with lasers, swarm mechanics, disco shows, and farming joy before streams, often laughing and joking.",
