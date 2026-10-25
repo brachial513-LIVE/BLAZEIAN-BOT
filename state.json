@@ -1999,7 +1999,7 @@
       "stats": {
         "totalVotes": 41681,
         "totalSubs": 123,
-        "totalChatMessages": 51503,
+        "totalChatMessages": 51507,
         "totalStreamMinutes": 4443,
         "emotes": {
           "🔥": 2388,
@@ -2361,7 +2361,7 @@
           "🦊": "🦊",
           "🛡": "🛡"
         },
-        "lastChatAt": 1792971470033,
+        "lastChatAt": 1792971484734,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2369,14 +2369,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "raid"
-        },
-        {
-          "user": "cedricdebled",
-          "msg": "Everything is fine 🔥"
-        },
         {
           "user": "desirablebottom",
           "msg": "raid"
@@ -2408,6 +2400,14 @@
         {
           "user": "blazegames_bot",
           "msg": "Payout to @Future42 (2298.80 BLAZE ($0.88)) marked as completed."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Payout to @Helios (74698.80 BLAZE ($28.56)) marked as completed."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "Payout to @lvl4goblin (29026.36 BLAZE ($11.10)) marked as completed."
         }
       ],
       "customCommands": {},
@@ -2982,7 +2982,7 @@
         "totalVotes": 47636,
         "totalSubs": 299,
         "totalChatMessages": 15175,
-        "totalStreamMinutes": 36532,
+        "totalStreamMinutes": 36537,
         "emotes": {
           "📊": 3,
           "🔥": 656,
@@ -14088,7 +14088,7 @@
         "totalVotes": 13719,
         "totalSubs": 216,
         "totalChatMessages": 541,
-        "totalStreamMinutes": 17778,
+        "totalStreamMinutes": 17783,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -20605,7 +20605,7 @@
         "totalVotes": 3899,
         "totalSubs": 91,
         "totalChatMessages": 33,
-        "totalStreamMinutes": 1753,
+        "totalStreamMinutes": 1758,
         "emotes": {
           "🔥": 5,
           "😎": 1
@@ -23142,7 +23142,7 @@
         "totalVotes": 3267,
         "totalSubs": 7,
         "totalChatMessages": 148,
-        "totalStreamMinutes": 6219,
+        "totalStreamMinutes": 6224,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -27593,7 +27593,7 @@
         "totalVotes": 11879,
         "totalSubs": 38,
         "totalChatMessages": 5214,
-        "totalStreamMinutes": 17251,
+        "totalStreamMinutes": 17256,
         "emotes": {
           "👋": 129,
           "⚠": 2,
@@ -32462,9 +32462,9 @@
       "n": 4
     },
     "vitrene": {
-      "note": "Casual gamer who loves Call of Duty, Elden Ring, extraction games, RuneScape, Squall, and enjoys AI music, often",
-      "at": 1792911650410,
-      "n": 23
+      "note": "Casual gamer who loves Call of Duty, Elden Ring, extraction games, RuneScape, Squall, and enjoys AI music, with a playful, sarcastic sense of humor.",
+      "at": 1792971710523,
+      "n": 24
     },
     "helios": {
       "note": "Helios chats casually about training, national service, office work, and streaming, often using humor and emojis.",
@@ -33588,8 +33588,8 @@
     }
   },
   "auth": {
-    "accessToken": "86602a24ec6b601c52c9444f1046439c",
-    "refreshToken": "84a58c5b222d58e230e780dc937c34c1",
+    "accessToken": "1e421c469224ed39deddca35efab9612",
+    "refreshToken": "a968f802767688333818747e67aac1dd",
     "sessionToken": "9db45993353d34e95d9804d38bf352b6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
