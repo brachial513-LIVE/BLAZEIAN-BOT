@@ -27602,7 +27602,7 @@
       "_profileAtCount": 33,
       "nudgedAt": 1786981105091,
       "nudgedKey": "schedule",
-      "_idAt": 1792987067909
+      "_idAt": 1793009867973
     },
     "aeb8b4ea-5a22-4acf-b508-dbf0ce896a86": {
       "username": "inn",
@@ -28122,7 +28122,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/128e2f4a-c34b-4d0f-b6b7-11c70bb3f295-profile_image-300x300.png",
-      "_idAt": 1792987069088
+      "_idAt": 1793009869139
     },
     "8f114ea6-29e2-4213-99b4-3357cfbe1885": {
       "username": "cr33pling",
@@ -28485,7 +28485,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1792987070282,
+      "_idAt": 1793009870343,
       "_gameAt": 1792965218651,
       "isLive": false,
       "streamCategory": "",
@@ -28589,7 +28589,7 @@
       "stats": {
         "totalVotes": 7228,
         "totalSubs": 20,
-        "totalChatMessages": 370,
+        "totalChatMessages": 371,
         "totalStreamMinutes": 792,
         "emotes": {
           "🥰": 48,
@@ -28638,7 +28638,8 @@
           "5a25a7de-57b4-40e1-be95-77edb07b0bff": 4,
           "85a76966-8821-4900-8210-c7df7f3dd709": 1,
           "7d4ad274-9bf4-4de4-9132-4b3380d31a9b": 2,
-          "be462809-e218-47de-bca2-5a20890392ba": 1
+          "be462809-e218-47de-bca2-5a20890392ba": 1,
+          "ce245b7b-6434-4dc7-804f-3a0e556ff4d5": 1
         },
         "emoteNames": {
           "🥰": "🥰",
@@ -28687,20 +28688,17 @@
           "5a25a7de-57b4-40e1-be95-77edb07b0bff": "71",
           "85a76966-8821-4900-8210-c7df7f3dd709": "73",
           "7d4ad274-9bf4-4de4-9132-4b3380d31a9b": "77",
-          "be462809-e218-47de-bca2-5a20890392ba": "28"
+          "be462809-e218-47de-bca2-5a20890392ba": "28",
+          "ce245b7b-6434-4dc7-804f-3a0e556ff4d5": "16"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793003214932,
+        "lastChatAt": 1793009614179,
         "lastSendFailAt": 1790973732516,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790974734782,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "mediart",
-          "msg": "[emote:abd11a47-e207-4adc-983f-8657631843f6]"
-        },
         {
           "user": "mediart",
           "msg": "[emote:5a25a7de-57b4-40e1-be95-77edb07b0bff]"
@@ -28736,6 +28734,10 @@
         {
           "user": "mediart",
           "msg": "[emote:7d4ad274-9bf4-4de4-9132-4b3380d31a9b]"
+        },
+        {
+          "user": "mediart",
+          "msg": "[emote:ce245b7b-6434-4dc7-804f-3a0e556ff4d5]"
         }
       ],
       "customCommands": {},
@@ -28818,8 +28820,8 @@
           "tier": 1
         }
       },
-      "_idAt": 1792987072686,
-      "_gameAt": 1793003215042,
+      "_idAt": 1793009872741,
+      "_gameAt": 1793009614271,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -29057,7 +29059,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792987071491,
+      "_idAt": 1793009871551,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792840326592
@@ -29155,7 +29157,7 @@
       "lastStreamInfo": "come chat fortnite og live event  (!discord) — Fortnite",
       "lastStreamEndedAt": 1788026352900,
       "gameOverride": "",
-      "_idAt": 1792987076287
+      "_idAt": 1793009876336
     },
     "521e9714-34db-46ea-a803-c0b11d18aabd": {
       "username": "mutzume",
@@ -29250,7 +29252,7 @@
       "lastStreamInfo": "POKESURVIVOR | W/ KUYA @FartVader, And KUYA @JaggerJack",
       "lastStreamEndedAt": 1792600214809,
       "gameOverride": "",
-      "_idAt": 1792987073901,
+      "_idAt": 1793009873939,
       "loyalty": {
         "noodles": {
           "name": "noodles",
@@ -29379,7 +29381,7 @@
       "lastStreamEndedAt": 1790496719480,
       "profile": "zeenlive’s stream is a nonstop, high‑energy hangout where “gm gm bro” greets the chat and “NEW FOLLOWER!!” erupts with every new join. The community thrives on quick emote bursts, playful banter, and a constant stream of “❤️” and “🙌” celebrations. The channel loves being praised with enthusiastic shoutouts, keeping the vibe lively and inclusive.",
       "_profileAtCount": 44,
-      "_idAt": 1792987075086,
+      "_idAt": 1793009875141,
       "_gameAt": 1792680347655,
       "isLive": false,
       "streamCategory": ""
@@ -33524,9 +33526,9 @@
       "n": 2
     },
     "gmc_gaara27": {
-      "note": "They love MMORPGs like RuneScape, enjoy joking about Naruto, and chat lively during streams.",
-      "at": 1792875350317,
-      "n": 3
+      "note": "They love MMORPGs like RuneScape, joke about Naruto, and chat lively during streams.",
+      "at": 1793010650572,
+      "n": 4
     },
     "djmob": {
       "note": "Livestream gamer who jokes about credits and scripts, loves upgrading tech, enjoys music, and is enthusiastic about new videos and commentary.",
