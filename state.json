@@ -9841,7 +9841,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1007,
-        "totalStreamMinutes": 25287,
+        "totalStreamMinutes": 25307,
         "emotes": {
           "❤": 136,
           "🙌": 44,
@@ -10713,7 +10713,7 @@
         "totalVotes": 2426,
         "totalSubs": 11,
         "totalChatMessages": 600,
-        "totalStreamMinutes": 2250,
+        "totalStreamMinutes": 2270,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -12748,7 +12748,7 @@
       "stats": {
         "totalVotes": 28320,
         "totalSubs": 79,
-        "totalChatMessages": 18357,
+        "totalChatMessages": 18359,
         "totalStreamMinutes": 12716,
         "emotes": {
           "🧏": 1,
@@ -13213,13 +13213,9 @@
           "🕷": "🕷"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792787314702
+        "lastChatAt": 1793026702958
       },
       "chatMemory": [
-        {
-          "user": "nadietv",
-          "msg": "blame @rafael_zuh xD"
-        },
         {
           "user": "nadietv",
           "msg": "[emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1] [emote:d406354b-4ee8-4dd6-98ec-cf605c7e38a1]"
@@ -13255,6 +13251,10 @@
         {
           "user": "nadietv",
           "msg": "my mom asked me to help her, i'll be afk for a while bro, brb"
+        },
+        {
+          "user": "metal_bot",
+          "msg": "@makeitmetal Song requests are only available when the stream is live!"
         }
       ],
       "customCommands": {},
@@ -13396,7 +13396,7 @@
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
       "_idAt": 1793025473984,
-      "_gameAt": 1792787225267,
+      "_gameAt": 1793026700364,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -13568,7 +13568,7 @@
       "stats": {
         "totalVotes": 25804,
         "totalSubs": 90,
-        "totalChatMessages": 2925,
+        "totalChatMessages": 2926,
         "totalStreamMinutes": 23194,
         "emotes": {
           "🔥": 849,
@@ -13584,8 +13584,8 @@
           "🗳": 597,
           "💗": 1,
           "😱": 19,
-          "❤": 111,
-          "🙌": 116,
+          "❤": 113,
+          "🙌": 117,
           "🎁": 134,
           "💜": 4,
           "🥰": 6,
@@ -13748,14 +13748,10 @@
           "😶": "😶",
           "🌫": "🌫"
         },
-        "lastChatAt": 1792965190600,
+        "lastChatAt": 1793026495949,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥Shoutout to cptfive 🔥 Make sure to drop a follow and show that Tower Crew support for this legend! 🔥 https://blaze.stream/cptfive 🔥"
-        },
         {
           "user": "0xscheun",
           "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
@@ -13791,6 +13787,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 20 vote(s) (total: 45)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ lb_wovenhunter just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -13919,7 +13919,7 @@
       "_idAt": 1793025472754,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1792965190690,
+      "_gameAt": 1793026496056,
       "voteLog": [
         {
           "t": 1792429891263,
@@ -14672,7 +14672,7 @@
       "lastStreamEndedAt": 1791789577218,
       "nudgedAt": 1786555068712,
       "nudgedKey": "schedule",
-      "_idAt": 1793003867964,
+      "_idAt": 1793026668009,
       "_gameAt": 1792890739804,
       "isLive": false,
       "streamCategory": ""
@@ -14684,7 +14684,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 96,
-        "totalStreamMinutes": 13803,
+        "totalStreamMinutes": 13823,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -14795,7 +14795,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793003870325,
+      "_idAt": 1793026670360,
       "streamCategory": "Black Desert Online",
       "isLive": true,
       "_gameAt": 1793022946688
@@ -14882,7 +14882,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793003869128
+      "_idAt": 1793026669153
     },
     "66d1447b-e098-49e7-af14-5c922d822d84": {
       "username": "omererkmen",
@@ -14969,7 +14969,7 @@
       "gameOverride": "",
       "profile": "o mererkmen streams chill “Just talking” sessions, often IRL, with the community humming “Come hang out and watch.” The chat loves the signature emote 9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2 and the phrase “My iPhone overheated ending…”. Followers celebrate by cheering “Thanks for watching” and “Stream is now live” alerts, keeping the vibe relaxed and supportive.",
       "_profileAtCount": 40,
-      "_idAt": 1793003871520,
+      "_idAt": 1793026671550,
       "nudgedAt": 1791616183720,
       "nudgedKey": "schedule",
       "_gameAt": 1792950986093,
@@ -15250,7 +15250,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793003872721,
+      "_idAt": 1793026672758,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793023326955,
@@ -15599,7 +15599,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793003873925,
+      "_idAt": 1793026673951,
       "_gameAt": 1792964346003,
       "isLive": false,
       "streamCategory": "",
@@ -16111,7 +16111,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "[UK] #42 ITS FRIDAY!!! - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
       "lastStreamEndedAt": 1792797919814,
-      "_idAt": 1793003875123,
+      "_idAt": 1793026675153,
       "_gameAt": 1793016370818,
       "isLive": false,
       "streamCategory": "",
@@ -16779,7 +16779,7 @@
       },
       "lastStreamInfo": "Web3 Things Farming Season Etc!",
       "lastStreamEndedAt": 1792937213676,
-      "_idAt": 1793003876322,
+      "_idAt": 1793026676362,
       "_gameAt": 1792937218882,
       "isLive": false,
       "streamCategory": "",
@@ -17910,8 +17910,8 @@
       "stats": {
         "totalVotes": 45540,
         "totalSubs": 76,
-        "totalChatMessages": 2864,
-        "totalStreamMinutes": 3463,
+        "totalChatMessages": 2890,
+        "totalStreamMinutes": 3483,
         "emotes": {
           "😂": 106,
           "💪": 2,
@@ -17925,7 +17925,7 @@
           "🚨": 84,
           "🎉": 50,
           "👋": 52,
-          "🤣": 192,
+          "🤣": 232,
           "🗳": 735,
           "📴": 34,
           "🎁": 68,
@@ -18036,7 +18036,7 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": 3,
           "😍": 4,
           "😒": 2,
-          "🔫": 2,
+          "🔫": 3,
           "🫥": 1,
           "🤙": 1
         },
@@ -18169,28 +18169,12 @@
           "🤙": "🤙"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793025687642
+        "lastChatAt": 1793026920743
       },
       "chatMemory": [
         {
-          "user": "0xscheun",
-          "msg": "Hahah"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "So"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "Was wondering why I couldn't read it haha"
-        },
-        {
-          "user": "timdraws",
-          "msg": "[emote:dd7c8e80-6407-4566-b9fa-7fbc7460f085]"
-        },
-        {
-          "user": "timdraws",
-          "msg": "pokemon have german names to ?"
+          "user": "rafael_zuh",
+          "msg": "It's because my hair was curly"
         },
         {
           "user": "rafael_zuh",
@@ -18198,19 +18182,35 @@
         },
         {
           "user": "rafael_zuh",
-          "msg": "mewtow"
+          "msg": "hair takes a long time to grow lol"
         },
         {
           "user": "rafael_zuh",
-          "msg": "jr."
+          "msg": "🤣🤣🤣"
         },
         {
-          "user": "0xscheun",
-          "msg": "Sooo cute"
+          "user": "rafael_zuh",
+          "msg": "help he"
         },
         {
-          "user": "timdraws",
-          "msg": "pokebonk is live!"
+          "user": "rafael_zuh",
+          "msg": "her*"
+        },
+        {
+          "user": "rafael_zuh",
+          "msg": "I'm going to lunch"
+        },
+        {
+          "user": "rafael_zuh",
+          "msg": "brbr"
+        },
+        {
+          "user": "dress_n_draw",
+          "msg": "Heeeey!"
+        },
+        {
+          "user": "dress_n_draw",
+          "msg": "I’m doing okay, how are youuuu?"
         }
       ],
       "customCommands": {},
@@ -18388,7 +18388,7 @@
       "lastStreamInfo": "The Last hour of an EPIC TO THE MOON RPG Demo ♥",
       "lastStreamEndedAt": 1792690596811,
       "_idAt": 1793006271529,
-      "_gameAt": 1793025687766,
+      "_gameAt": 1793026878055,
       "isLive": true,
       "streamCategory": "Games + Demos",
       "voteLog": [
@@ -27625,7 +27625,7 @@
       "stats": {
         "totalVotes": 11879,
         "totalSubs": 38,
-        "totalChatMessages": 5242,
+        "totalChatMessages": 5245,
         "totalStreamMinutes": 17457,
         "emotes": {
           "👋": 130,
@@ -27668,7 +27668,7 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 5,
           "✌": 3,
           "👍": 8,
-          "🙌": 52,
+          "🙌": 53,
           "🎣": 1,
           "⏰": 1,
           "a859cc12-453a-4bd8-b650-38710d9486de": 24,
@@ -27700,7 +27700,7 @@
           "😅": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 4,
           "🌺": 1,
-          "💰": 12,
+          "💰": 14,
           "da339ef7-1574-4f2f-8b48-666688167af3": 2,
           "🪀": 1,
           "🤘": 1,
@@ -27832,21 +27832,9 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792983876374
+        "lastChatAt": 1793026852546
       },
       "chatMemory": [
-        {
-          "user": "thewill3ffect",
-          "msg": "but do i lose something if i fail at the ranked"
-        },
-        {
-          "user": "thewill3ffect",
-          "msg": "or am i just missing the info somewhre"
-        },
-        {
-          "user": "thewill3ffect",
-          "msg": "\"Chat moving so fast nobody will notice I have no idea what's going on.\""
-        },
         {
           "user": "thewill3ffect",
           "msg": "idk"
@@ -27874,6 +27862,18 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "💰 TIP ALERT!! 💰 @thewill3ffect just tipped $4.00!! Thank you so much!! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10,593.22 BLAZE tip ($4.00), @thewill3ffect!"
+        },
+        {
+          "user": "inn",
+          "msg": "woo ty"
         }
       ],
       "customCommands": {
@@ -28000,7 +28000,7 @@
         }
       },
       "_idAt": 1793008673935,
-      "_gameAt": 1792983871294,
+      "_gameAt": 1793026835285,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -29407,8 +29407,8 @@
       "stats": {
         "totalVotes": 10742,
         "totalSubs": 20,
-        "totalChatMessages": 376,
-        "totalStreamMinutes": 1599,
+        "totalChatMessages": 377,
+        "totalStreamMinutes": 1619,
         "emotes": {
           "❤": 24,
           "🙌": 33,
@@ -29458,13 +29458,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793025621833
+        "lastChatAt": 1793026014599
       },
       "chatMemory": [
-        {
-          "user": "theaicampa",
-          "msg": "all good?"
-        },
         {
           "user": "destinoprospero",
           "msg": "good broo!"
@@ -29500,6 +29496,10 @@
         {
           "user": "0xscheun",
           "msg": "What chart am I looking at?"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -29588,7 +29588,7 @@
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
       "_idAt": 1793011067981,
-      "_gameAt": 1793025561186,
+      "_gameAt": 1793026014697,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -32397,9 +32397,9 @@
       "n": 2
     },
     "jt_squared2": {
-      "note": "Enjoys casual browser games like Stumble Guys and Geometry Wars, loves quick emoji jokes, and often banters playfully about gaming and crypto swaps.",
-      "at": 1792901090396,
-      "n": 63
+      "note": "They enjoy casual",
+      "at": 1793026490653,
+      "n": 64
     },
     "bidloperv": {
       "note": "Enthusiastic gamer who loves metal, always upbeat, affectionate, playful, and humorously light‑hearted in chat.",
@@ -33557,9 +33557,9 @@
       "n": 2
     },
     "mossvale": {
-      "note": "Mossvale loves dungeon quests, teleporting, joking about worries, and recommending challenging dungeons and green portals.",
-      "at": 1792900430328,
-      "n": 3
+      "note": "Mossvale",
+      "at": 1793025830989,
+      "n": 4
     },
     "razmr_eth": {
       "note": "Enjoys gaming streams, trading talk, playful Spanish humor, and cheering with “dab” and “LFBLAZE IT!” emojis.",
