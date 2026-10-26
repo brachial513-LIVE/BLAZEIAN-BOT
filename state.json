@@ -2981,8 +2981,8 @@
       "stats": {
         "totalVotes": 47636,
         "totalSubs": 300,
-        "totalChatMessages": 15184,
-        "totalStreamMinutes": 36667,
+        "totalChatMessages": 15186,
+        "totalStreamMinutes": 36672,
         "emotes": {
           "📊": 3,
           "🔥": 656,
@@ -3570,13 +3570,9 @@
           "7573c501-7624-43cf-9189-0db1f8d22172": "PYROTHESTREAMER"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792975778593
+        "lastChatAt": 1792979855441
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "💪 Pushup Wheel for @Johngalt landed on: 45s Wall Sit! @crypt0k1ng96, drop and give 'em!"
-        },
         {
           "user": "foxbotai",
           "msg": "💪 Pushup Wheel for @entropy landed on: 30 Jumping Jacks! @crypt0k1ng96, drop and give 'em!"
@@ -3612,6 +3608,10 @@
         {
           "user": "crypt0k1ng96",
           "msg": "Ok no worries"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Ryan is ending stream. Thank you for hanging out, earning FoxCoins, playing FoxBot games, and supporting the Blaze community. Goodnight everyone!"
         }
       ],
       "customCommands": {},
@@ -3797,7 +3797,7 @@
       },
       "streamCategory": "Crypto",
       "isLive": true,
-      "_gameAt": 1792975778692,
+      "_gameAt": 1792979844496,
       "voteLog": [
         {
           "t": 1792429891148,
@@ -20607,7 +20607,7 @@
         "totalVotes": 3899,
         "totalSubs": 91,
         "totalChatMessages": 33,
-        "totalStreamMinutes": 1888,
+        "totalStreamMinutes": 1893,
         "emotes": {
           "🔥": 5,
           "😎": 1
@@ -23149,7 +23149,7 @@
         "totalVotes": 3267,
         "totalSubs": 7,
         "totalChatMessages": 152,
-        "totalStreamMinutes": 6354,
+        "totalStreamMinutes": 6359,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -27600,7 +27600,7 @@
         "totalVotes": 11879,
         "totalSubs": 38,
         "totalChatMessages": 5229,
-        "totalStreamMinutes": 17386,
+        "totalStreamMinutes": 17391,
         "emotes": {
           "👋": 129,
           "⚠": 2,
@@ -33608,8 +33608,8 @@
     }
   },
   "auth": {
-    "accessToken": "6c42893b40347f8a389dd18fd6326c0f",
-    "refreshToken": "509e1cd944d73dc6d5ca479e3d619aeb",
+    "accessToken": "be9de4d9069fd7918d838cc30e4c2ac8",
+    "refreshToken": "63af61c825b5cfede4083ca9b17e3c4f",
     "sessionToken": "9db45993353d34e95d9804d38bf352b6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
