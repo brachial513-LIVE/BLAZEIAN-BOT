@@ -9841,7 +9841,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1009,
-        "totalStreamMinutes": 25320,
+        "totalStreamMinutes": 25325,
         "emotes": {
           "❤": 136,
           "🙌": 44,
@@ -10713,7 +10713,7 @@
         "totalVotes": 2426,
         "totalSubs": 11,
         "totalChatMessages": 601,
-        "totalStreamMinutes": 2335,
+        "totalStreamMinutes": 2340,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -14777,12 +14777,12 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1f090e45-3a71-44b8-9333-05e12b2c0f2d.png",
-      "streamTitle": "¡LA MAGA LLEGA AL NIVEL 60! ⚡ NOS GRADUAMOS Y COMIENZA UNA NUEVA LEYENDA 🧙‍♀️🏆",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0,
-      "lastStreamInfo": "⚔️ LA MAGA DESPIERTA SU PODER 🔥",
-      "lastStreamEndedAt": 1792944171178,
+      "lastStreamInfo": "¡LA MAGA LLEGA AL NIVEL 60! ⚡ NOS GRADUAMOS Y COMIENZA UNA NUEVA LEYENDA 🧙‍♀️🏆",
+      "lastStreamEndedAt": 1793030900255,
       "loyalty": {
         "elenatroya": {
           "name": "elenatroya",
@@ -14796,8 +14796,8 @@
         }
       },
       "_idAt": 1793026670360,
-      "streamCategory": "Black Desert Online",
-      "isLive": true,
+      "streamCategory": "",
+      "isLive": false,
       "_gameAt": 1793022946688
     },
     "30a3c675-be0d-4014-831f-6051350ffbf0": {
@@ -17910,8 +17910,8 @@
       "stats": {
         "totalVotes": 45540,
         "totalSubs": 77,
-        "totalChatMessages": 2944,
-        "totalStreamMinutes": 3548,
+        "totalChatMessages": 2945,
+        "totalStreamMinutes": 3553,
         "emotes": {
           "😂": 106,
           "💪": 2,
@@ -18169,13 +18169,9 @@
           "🤙": "🤙"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793030754295
+        "lastChatAt": 1793030876541
       },
       "chatMemory": [
-        {
-          "user": "zsoltech",
-          "msg": "how do you win so much shit lmao"
-        },
         {
           "user": "zsoltech",
           "msg": "airdrop hunter master"
@@ -18211,6 +18207,10 @@
         {
           "user": "timdraws",
           "msg": "or m"
+        },
+        {
+          "user": "timdraws",
+          "msg": "baulba is best starter"
         }
       ],
       "customCommands": {},
@@ -25472,7 +25472,7 @@
         "totalVotes": 34008,
         "totalSubs": 140,
         "totalChatMessages": 7996,
-        "totalStreamMinutes": 14701,
+        "totalStreamMinutes": 14706,
         "emotes": {
           "😅": 8,
           "🔥": 336,
@@ -27091,7 +27091,7 @@
         "totalVotes": 7288,
         "totalSubs": 36,
         "totalChatMessages": 1778,
-        "totalStreamMinutes": 11904,
+        "totalStreamMinutes": 11909,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -33650,8 +33650,8 @@
     }
   },
   "auth": {
-    "accessToken": "350e250de5dd9680dfa265fc45eaa2af",
-    "refreshToken": "93482bb434d5e40bde3a32fb71b3a847",
+    "accessToken": "f36bf21e8c0588cabd2629d154cfbb2c",
+    "refreshToken": "b44fe45280b75e6b392f6c38af850bcb",
     "sessionToken": "9db45993353d34e95d9804d38bf352b6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
