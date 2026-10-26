@@ -7154,15 +7154,15 @@
       "stats": {
         "totalVotes": 15889,
         "totalSubs": 62,
-        "totalChatMessages": 2441,
-        "totalStreamMinutes": 13389,
+        "totalChatMessages": 2444,
+        "totalStreamMinutes": 13408,
         "emotes": {
           "✨": 52,
           "🖥": 24,
-          "🔥": 222,
-          "👋": 136,
-          "🎬": 132,
-          "❤": 175,
+          "🔥": 224,
+          "👋": 138,
+          "🎬": 133,
+          "❤": 176,
           "🚨": 10,
           "⚡": 27,
           "🏆": 23,
@@ -7390,22 +7390,10 @@
           "🤗": "🤗",
           "😄": "😄"
         },
-        "lastChatAt": 1792993361403,
+        "lastChatAt": 1792993917010,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 1 votes, @omererkmen! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 90 votes, @brachial513! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "brachial513",
-          "msg": "GGs for winning 90 Votes at our Weekly Fox Spirits Giveaway ! Thank you for beeing Awesome ! 💚"
-        },
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 400 votes, @agent00zani! Your support is truly appreciated! 🙌"
@@ -7433,6 +7421,18 @@
         {
           "user": "cachebot",
           "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Off The Grid. Drop a greeting in chat! 👋"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Off The Grid. Drop a greeting in chat! 👋"
         }
       ],
       "customCommands": {},
@@ -7441,7 +7441,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Off The Grid",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. Relentless energy, camaraderie, and the thrill of dropping in to new adventures keep the community buzzing.",
       "_profileAtCount": 2408,
       "loyalty": {
@@ -7523,14 +7523,14 @@
       },
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
-      "lastStreamInfo": "WilderWorld Game Night",
-      "lastStreamEndedAt": 1792993360491,
+      "lastStreamInfo": "Off The Grid",
+      "lastStreamEndedAt": 1792993900277,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
       "_idAt": 1792977475073,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792993361507,
+      "streamCategory": "Off The Grid",
+      "isLive": true,
+      "_gameAt": 1792993916733,
       "voteLog": [
         {
           "t": 1792429891268,
@@ -32631,8 +32631,8 @@
     },
     "dimifw": {
       "note": "Rocket League streamer who greets with “GM,” thanks subs, jokes about “loadish,” plays Blaze games, glass bridge, zombies, rumble, and loves playful, quick‑witted banter.",
-      "at": 1792928150462,
-      "n": 35
+      "at": 1792994150419,
+      "n": 36
     },
     "cynthia_stnkmp": {
       "note": "Playful gamer who loves Bobs Petroleum, jokes around, smudges drawings, big Geralt fan, enjoys light‑hearted chats and game references.",
@@ -33567,6 +33567,11 @@
     "noruego": {
       "note": "They love quirky, low‑effort “brain‑rot” games, enjoy joking around, and are eager to share and improve their projects with the community.",
       "at": 1792956530471,
+      "n": 1
+    },
+    "chalib": {
+      "note": "Enjoys playful humor, jokes about weather and travel, and mentions “UncleFunk” as a friendly nickname.",
+      "at": 1792993490465,
       "n": 1
     }
   },
