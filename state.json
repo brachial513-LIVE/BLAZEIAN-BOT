@@ -7154,13 +7154,13 @@
       "stats": {
         "totalVotes": 15889,
         "totalSubs": 62,
-        "totalChatMessages": 2439,
-        "totalStreamMinutes": 13382,
+        "totalChatMessages": 2440,
+        "totalStreamMinutes": 13384,
         "emotes": {
           "✨": 52,
           "🖥": 24,
-          "🔥": 221,
-          "👋": 135,
+          "🔥": 222,
+          "👋": 136,
           "🎬": 131,
           "❤": 174,
           "🚨": 10,
@@ -7390,14 +7390,10 @@
           "🤗": "🤗",
           "😄": "😄"
         },
-        "lastChatAt": 1792964813418,
+        "lastChatAt": 1792992929179,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
-        },
         {
           "user": "cachebot",
           "msg": "👑 [SUB ALERT]: HUGE hype! @helios just locked in a Tier 1 sub for month 1! Thank you for keeping the dream alive!"
@@ -7433,6 +7429,10 @@
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 50 votes, @future42! Your support is truly appreciated! 🙌"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! WilderWorld Game Night. Drop a greeting in chat! 👋"
         }
       ],
       "customCommands": {},
@@ -7441,7 +7441,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "WilderWorld Game Night",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. Relentless energy, camaraderie, and the thrill of dropping in to new adventures keep the community buzzing.",
       "_profileAtCount": 2408,
       "loyalty": {
@@ -7528,9 +7528,9 @@
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
       "_idAt": 1792977475073,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792964813487,
+      "streamCategory": "Off The Grid",
+      "isLive": true,
+      "_gameAt": 1792992926853,
       "voteLog": [
         {
           "t": 1792429891268,
@@ -33170,9 +33170,9 @@
       "n": 7
     },
     "lvl4goblin": {
-      "note": "Enjoy indie roguelikes, pokes fun at quirky localization, loves drawing and Inktober, plays Street Fighter 6,",
-      "at": 1792927490491,
-      "n": 22
+      "note": "Enjoy indie roguelikes, pokes fun at quirky localization, loves drawing and Inktober, plays Street Fighter 6, and often jokes about devops frustrations and stream desyncs.",
+      "at": 1792992830559,
+      "n": 23
     },
     "guilhermesisto": {
       "note": "Loves retro arcade beat‑em‑ups, jokes about “colete a prova de balas,” and cheers new releases.",
