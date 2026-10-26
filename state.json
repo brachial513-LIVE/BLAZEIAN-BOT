@@ -4,7 +4,7 @@
       "username": "brachial513",
       "stats": {
         "totalVotes": 26086,
-        "totalSubs": 87,
+        "totalSubs": 88,
         "totalChatMessages": 4048,
         "totalStreamMinutes": 4397,
         "emotes": {
@@ -4434,11 +4434,11 @@
       "stats": {
         "totalVotes": 31471,
         "totalSubs": 121,
-        "totalChatMessages": 9618,
+        "totalChatMessages": 9619,
         "totalStreamMinutes": 29357,
         "emotes": {
           "❤": 259,
-          "🙌": 221,
+          "🙌": 222,
           "🗳": 1377,
           "📴": 243,
           "👋": 273,
@@ -4495,7 +4495,7 @@
           "😄": 4,
           "🐽": 1,
           "✌": 10,
-          "💰": 12,
+          "💰": 14,
           "🐇": 3,
           "🫨": 2,
           "😉": 9,
@@ -4810,14 +4810,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1793055113229,
+        "lastChatAt": 1793055320211,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Tinapay just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
         {
           "user": "tinapay",
           "msg": "Hellooooo zaniiii"
@@ -4853,6 +4849,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "💰 TIP ALERT!! 💰 @blazeboost just tipped $5.00!! Thank you so much!! 🙌"
         }
       ],
       "customCommands": {
@@ -5112,7 +5112,7 @@
         }
       },
       "_idAt": 1793045868007,
-      "_gameAt": 1793055036930,
+      "_gameAt": 1793055320321,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -7276,8 +7276,8 @@
       "stats": {
         "totalVotes": 15889,
         "totalSubs": 62,
-        "totalChatMessages": 2454,
-        "totalStreamMinutes": 13526,
+        "totalChatMessages": 2455,
+        "totalStreamMinutes": 13531,
         "emotes": {
           "✨": 52,
           "🖥": 24,
@@ -7356,7 +7356,7 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": 61,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 16,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 1,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 17,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 18,
           "1cc6ceb4-8d03-4583-9811-075d68cf43a9": 28,
           "579e7563-f746-44e4-9db3-2aa0648e31d1": 24,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 23,
@@ -7512,14 +7512,10 @@
           "🤗": "🤗",
           "😄": "😄"
         },
-        "lastChatAt": 1793055090261,
+        "lastChatAt": 1793055435505,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
-        },
         {
           "user": "cachebot",
           "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Off The Grid. Drop a greeting in chat! 👋"
@@ -7555,6 +7551,10 @@
         {
           "user": "cachebot",
           "msg": "💥 [INCOMING RAID]: Warning! System breach by @agent00zani! Welcome in! Say Hi!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
         }
       ],
       "customCommands": {},
@@ -7652,7 +7652,7 @@
       "_idAt": 1793045875180,
       "streamCategory": "Off The Grid",
       "isLive": true,
-      "_gameAt": 1793055090365,
+      "_gameAt": 1793055435607,
       "voteLog": [
         {
           "t": 1792429891268,
@@ -10865,7 +10865,7 @@
         "totalVotes": 2478,
         "totalSubs": 11,
         "totalChatMessages": 610,
-        "totalStreamMinutes": 2548,
+        "totalStreamMinutes": 2549,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -11018,10 +11018,10 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/42fc3ce1-764e-412d-887f-8933114b11d3.gif",
-      "streamTitle": "🔥 Diablo IV – Story comes to End",
+      "streamTitle": "",
       "gameOverride": "",
-      "lastStreamInfo": "🔥 Diablo IV – The Road to Hell Begins! 😈 | Story Playthrough",
-      "lastStreamEndedAt": 1793034813288,
+      "lastStreamInfo": "🔥 Diablo IV – Story comes to End",
+      "lastStreamEndedAt": 1793055209137,
       "profile": "gmc_gaara27 streams chill beats and “PosiTief presents: West Coast G‑Funk Hour — Music.” The chat vibes with “welcome to blaze bro,” “letsgooo,” “awesome people,” “+follower” cheers, “emote” bursts, and “Verkaufe interessant.” They celebrate with “thank you” and “Thanks :)”, stay upbeat, supportive, always ready for the next groove, love quick shoutouts and volume tweaks.",
       "_profileAtCount": 582,
       "nudgedAt": 1790523497708,
@@ -11085,8 +11085,8 @@
         }
       },
       "_gameAt": 1793051848920,
-      "isLive": true,
-      "streamCategory": "Diablo IV",
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891251,
@@ -15170,7 +15170,7 @@
         "totalVotes": 8457,
         "totalSubs": 40,
         "totalChatMessages": 1132,
-        "totalStreamMinutes": 3249,
+        "totalStreamMinutes": 3254,
         "emotes": {
           "❤": 57,
           "🙌": 62,
@@ -18964,12 +18964,12 @@
       "joinedAt": 1784468383925,
       "stats": {
         "totalVotes": 86869,
-        "totalSubs": 88,
-        "totalChatMessages": 5268,
-        "totalStreamMinutes": 2056,
+        "totalSubs": 91,
+        "totalChatMessages": 5276,
+        "totalStreamMinutes": 2061,
         "emotes": {
-          "❤": 89,
-          "🙌": 153,
+          "❤": 91,
+          "🙌": 157,
           "🗳": 987,
           "💰": 50,
           "🔥": 127,
@@ -18996,7 +18996,7 @@
           "👿": 1,
           "🤓": 3,
           "🤙": 3,
-          "🎁": 114,
+          "🎁": 120,
           "⚡": 7,
           "😈": 1,
           "👀": 13,
@@ -19340,7 +19340,7 @@
           "👐": "👐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793054385936,
+        "lastChatAt": 1793055453907,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
@@ -19349,43 +19349,43 @@
       "chatMemory": [
         {
           "user": "vroshi55",
-          "msg": "I'll know results in 3 hours"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "what happens wednsday ?"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "BURN THE NORM NFT Auctions"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "Starting Bids at same price as BSP"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "Which is approx. $5"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "Sorry, I meant same as 1-Month SUB"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "I meant SUB not BSP"
-        },
-        {
-          "user": "vroshi55",
-          "msg": "Thanks! I missed that."
-        },
-        {
-          "user": "vroshi55",
           "msg": "Anyways, BLAZE ON!"
         },
         {
           "user": "agent00zani",
           "msg": "i like how i can hear your voice .. makes it eaier to play game"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @blazeboost just gifted a sub to @Rafael_Zuh! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @blazeboost just gifted a sub to @Zer0Cache! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @blazeboost just gifted a sub to @agent00zani! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ blazeboost just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Hey Cedric."
+        },
+        {
+          "user": "briggsy",
+          "msg": "Oh goood."
+        },
+        {
+          "user": "briggsy",
+          "msg": "I’m just getting off work."
+        },
+        {
+          "user": "briggsy",
+          "msg": "I missed everything I guess"
         }
       ],
       "customCommands": {},
@@ -19532,7 +19532,7 @@
       "lastStreamInfo": "Pictionary or ...",
       "lastStreamEndedAt": 1793050989003,
       "_idAt": 1793051027883,
-      "_gameAt": 1793054386031,
+      "_gameAt": 1793055276294,
       "isLive": true,
       "streamCategory": "Art",
       "voteLog": [
@@ -20910,7 +20910,7 @@
         "totalVotes": 3899,
         "totalSubs": 91,
         "totalChatMessages": 36,
-        "totalStreamMinutes": 2100,
+        "totalStreamMinutes": 2105,
         "emotes": {
           "🔥": 5,
           "😎": 1
@@ -21012,16 +21012,16 @@
       "stats": {
         "totalVotes": 22315,
         "totalSubs": 34,
-        "totalChatMessages": 48811,
-        "totalStreamMinutes": 24096,
+        "totalChatMessages": 48835,
+        "totalStreamMinutes": 24100,
         "emotes": {
           "❤": 171,
-          "🙌": 145,
+          "🙌": 146,
           "🤝": 4,
           "🔥": 72,
           "🔴": 133,
-          "🎉": 591,
-          "🪙": 1184,
+          "🎉": 594,
+          "🪙": 1185,
           "⚡": 941,
           "👀": 127,
           "🍿": 28,
@@ -21042,7 +21042,7 @@
           "😘": 10,
           "😆": 7,
           "🤭": 6,
-          "💰": 250,
+          "💰": 252,
           "☄": 1,
           "😶": 17,
           "🌫": 17,
@@ -21197,7 +21197,7 @@
           "🥺": 2,
           "🥈": 133,
           "🥉": 133,
-          "⭐": 417,
+          "⭐": 418,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 10,
           "✊": 2,
           "✋": 2,
@@ -21471,48 +21471,48 @@
           "📐": "📐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793055175390
+        "lastChatAt": 1793055432793
       },
       "chatMemory": [
         {
           "user": "botger",
-          "msg": "Participantes ativos prime: @sarinhaa11, @mauhzera"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "Quais as missões, zerar Orifiel, Zerar un Veio??"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "kkkkkkkk"
+          "msg": "@lovemikami tem (100) blaze."
         },
         {
           "user": "botger",
-          "msg": "@mauhzera tem (200) blaze."
-        },
-        {
-          "user": "botger",
-          "msg": "@junior7_ tem (0) blaze."
-        },
-        {
-          "user": "sarinhaa11",
-          "msg": "hehehehehehe"
-        },
-        {
-          "user": "junior7_",
-          "msg": "Kkkk"
+          "msg": "💰 ALERTA DE GORJETA!! 💰 @lovemikami acabou de dar uma gorjeta $1.00!! Muito obrigado!! 🙌"
         },
         {
           "user": "poderosobot",
-          "msg": "Parabéns, @botger! Você subiu para o Nível 8! 🎉"
+          "msg": "Parabéns, @lovemikami! Você subiu para o Nível 19! 🎉"
         },
         {
-          "user": "junior7_",
-          "msg": "Iiii só 7 horas"
+          "user": "poderosobot",
+          "msg": "lovemikami enviou uma doação! Muito obrigado pelo carinho!"
         },
         {
-          "user": "botger",
-          "msg": "@sarinhaa11 tem (2700) blaze."
+          "user": "poderosobot",
+          "msg": "Parabéns, @BLAZEIAN_BOT_AI! Você subiu para o Nível 5! 🎉"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "quase level 20"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "7 horas e 51 mais 20 minutos é 8 horas e 11"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "@lovemikami: Nível 19 | 205000 XP (27600 para o Nível 20)"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "nossa, tudo isso vei"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "tá kaizo"
         }
       ],
       "customCommands": {},
@@ -21660,7 +21660,7 @@
         }
       },
       "_idAt": 1793053068006,
-      "_gameAt": 1793055093597,
+      "_gameAt": 1793055274777,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -31464,7 +31464,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 33,
-        "totalStreamMinutes": 7341,
+        "totalStreamMinutes": 7346,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -34083,8 +34083,8 @@
     }
   },
   "auth": {
-    "accessToken": "3e1aa7bbc7179d8b04a27d41e4171a0e",
-    "refreshToken": "541de72dfc779836b3763cd14f36e051",
+    "accessToken": "18b8d79916d0fc1ba8a9c55443c7720e",
+    "refreshToken": "140c83b7f69a970c921a66ea905a89be",
     "sessionToken": "6bf6953803f72f4e47fd6425682ad5a6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
