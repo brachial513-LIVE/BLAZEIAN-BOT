@@ -5039,7 +5039,7 @@
           "dur": 27
         }
       },
-      "_idAt": 1792977467919,
+      "_idAt": 1793000267962,
       "_gameAt": 1792964021475,
       "isLive": false,
       "streamCategory": "",
@@ -5972,7 +5972,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1792960934469,
-      "_idAt": 1792977469071,
+      "_idAt": 1793000269116,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792977540964,
@@ -6367,7 +6367,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1792977476274,
+      "_idAt": 1793000276334,
       "_gameAt": 1792904268887,
       "isLive": false,
       "streamCategory": "",
@@ -6853,7 +6853,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "West Bound south east Texas on the ICW",
       "lastStreamEndedAt": 1792423488702,
-      "_idAt": 1792977473871,
+      "_idAt": 1793000273917,
       "_gameAt": 1792887624247,
       "isLive": false,
       "streamCategory": "",
@@ -7146,7 +7146,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1792977471487
+      "_idAt": 1793000271517
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -7154,15 +7154,15 @@
       "stats": {
         "totalVotes": 15889,
         "totalSubs": 62,
-        "totalChatMessages": 2450,
-        "totalStreamMinutes": 13497,
+        "totalChatMessages": 2451,
+        "totalStreamMinutes": 13504,
         "emotes": {
           "✨": 52,
           "🖥": 24,
           "🔥": 225,
           "👋": 140,
-          "🎬": 134,
-          "❤": 177,
+          "🎬": 135,
+          "❤": 178,
           "🚨": 10,
           "⚡": 27,
           "🏆": 23,
@@ -7390,14 +7390,10 @@
           "🤗": "🤗",
           "😄": "😄"
         },
-        "lastChatAt": 1792996801028,
+        "lastChatAt": 1793000429329,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
-        },
         {
           "user": "cachebot",
           "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! Off The Grid. Drop a greeting in chat! 👋"
@@ -7433,6 +7429,10 @@
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -7441,7 +7441,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Off The Grid",
+      "streamTitle": "",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. Relentless energy, camaraderie, and the thrill of dropping in to new adventures keep the community buzzing.",
       "_profileAtCount": 2408,
       "loyalty": {
@@ -7524,13 +7524,13 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
       "lastStreamInfo": "Off The Grid",
-      "lastStreamEndedAt": 1792996452915,
+      "lastStreamEndedAt": 1793000428733,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1792977475073,
-      "streamCategory": "Off The Grid",
-      "isLive": true,
-      "_gameAt": 1792996751802,
+      "_idAt": 1793000275113,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1793000429420,
       "voteLog": [
         {
           "t": 1792429891268,
@@ -7620,7 +7620,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1792977470270
+      "_idAt": 1793000270318
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -8478,7 +8478,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Afternoon at the beach with Mellow",
       "lastStreamEndedAt": 1792796759516,
-      "_idAt": 1792977472672,
+      "_idAt": 1793000272716,
       "_gameAt": 1792967228385,
       "isLive": false,
       "streamCategory": "",
@@ -26688,8 +26688,8 @@
       "stats": {
         "totalVotes": 5859,
         "totalSubs": 33,
-        "totalChatMessages": 927,
-        "totalStreamMinutes": 6879,
+        "totalChatMessages": 929,
+        "totalStreamMinutes": 6884,
         "emotes": {
           "❤": 36,
           "🙌": 44,
@@ -26698,8 +26698,8 @@
           "📴": 48,
           "👋": 48,
           "🎁": 22,
-          "🔴": 48,
-          "🎉": 49,
+          "🔴": 49,
+          "🎉": 50,
           "😂": 9,
           "🗳": 87,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
@@ -26783,17 +26783,9 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792968796282
+        "lastChatAt": 1793000870767
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@Ruri666 subscribed! Thank you!"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @SEEKAS has resubscribed (5 months total, 1 month streak)! Thank you for the continued support! 🙌"
-        },
         {
           "user": "scurvybot",
           "msg": "@SEEKAS subscribed! Thank you!"
@@ -26825,6 +26817,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @entropy!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: NEW LEAGUE ARAM!! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -26835,7 +26835,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "NEW LEAGUE ARAM!",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/cc663e2e-024f-4be4-a124-9cdcbb5ed335.jpg",
       "followed": true,
@@ -26938,9 +26938,9 @@
         }
       },
       "_idAt": 1792985869079,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1792968796366,
+      "streamCategory": "League of Legends",
+      "isLive": true,
+      "_gameAt": 1793000870463,
       "voteLog": [
         {
           "t": 1792429891323,
@@ -33299,9 +33299,9 @@
       "n": 12
     },
     "theaicampa": {
-      "note": "They stream twice daily, enjoy playing Cosmic Invasion, love playful banter, and appreciate chat",
-      "at": 1792951910500,
-      "n": 2
+      "note": "They stream twice daily, love playing Cosmic Invasion, enjoy playful banter, and appreciate chat interactions.",
+      "at": 1793000090563,
+      "n": 3
     },
     "synthnostate": {
       "note": "Chess enthusiast who jokes with “lol” and “kek,” enjoys discussing openings like the Tal Variation, and often pauses for dinner while chatting.",
