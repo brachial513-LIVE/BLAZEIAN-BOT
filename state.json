@@ -2982,7 +2982,7 @@
         "totalVotes": 47636,
         "totalSubs": 300,
         "totalChatMessages": 15180,
-        "totalStreamMinutes": 36577,
+        "totalStreamMinutes": 36582,
         "emotes": {
           "📊": 3,
           "🔥": 656,
@@ -20607,7 +20607,7 @@
         "totalVotes": 3899,
         "totalSubs": 91,
         "totalChatMessages": 33,
-        "totalStreamMinutes": 1798,
+        "totalStreamMinutes": 1803,
         "emotes": {
           "🔥": 5,
           "😎": 1
@@ -23144,7 +23144,7 @@
         "totalVotes": 3267,
         "totalSubs": 7,
         "totalChatMessages": 148,
-        "totalStreamMinutes": 6264,
+        "totalStreamMinutes": 6269,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -27595,7 +27595,7 @@
         "totalVotes": 11879,
         "totalSubs": 38,
         "totalChatMessages": 5217,
-        "totalStreamMinutes": 17296,
+        "totalStreamMinutes": 17301,
         "emotes": {
           "👋": 129,
           "⚠": 2,
@@ -31999,23 +31999,25 @@
       "joinedAt": 1792942587520,
       "stats": {
         "totalVotes": 299,
-        "totalSubs": 2,
-        "totalChatMessages": 6,
+        "totalSubs": 3,
+        "totalChatMessages": 7,
         "totalStreamMinutes": 0,
         "emotes": {
           "🎁": 4,
-          "🙌": 2,
+          "🙌": 3,
           "🗳": 6,
-          "💚": 1
+          "💚": 1,
+          "🔥": 2
         },
         "emoteNames": {
           "🎁": "🎁",
           "🙌": "🙌",
           "🗳": "🗳",
-          "💚": "💚"
+          "💚": "💚",
+          "🔥": "🔥"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792969412207
+        "lastChatAt": 1792974309067
       },
       "chatMemory": [
         {
@@ -32041,6 +32043,10 @@
         {
           "user": "botger",
           "msg": "🎁 GIFTED SUB!! 🎁 @nekoschwan just gifted a sub to @Future42! How generous!! 🙌"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @russelfpsx has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -32060,7 +32066,7 @@
       "followed": true,
       "_idAt": 1792965467909,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d30a5641-e3d3-4cba-a6b2-1a233aab45a0.gif",
-      "_gameAt": 1792969412299,
+      "_gameAt": 1792974309183,
       "isLive": false,
       "streamCategory": "",
       "streamTitle": "",
@@ -32100,7 +32106,14 @@
           "v": "entropy",
           "a": 50
         }
-      ]
+      ],
+      "loyalty": {
+        "russelfpsx": {
+          "name": "russelfpsx",
+          "months": 1,
+          "tier": 1
+        }
+      }
     }
   },
   "blocklist": [
@@ -32390,8 +32403,8 @@
     },
     "octo": {
       "note": "He streams zombie‑style games, jokes about cheating, loves potato jokes, and keeps a playful, mischievous vibe.",
-      "at": 1792914290442,
-      "n": 50
+      "at": 1792974350400,
+      "n": 51
     },
     "rabisright": {
       "note": "The person, \"rabisright\", enjoys playing Valve games, particularly the Half Life and Portal series, and has a humorous reaction to intense gaming moments.",
@@ -33590,8 +33603,8 @@
     }
   },
   "auth": {
-    "accessToken": "1e421c469224ed39deddca35efab9612",
-    "refreshToken": "a968f802767688333818747e67aac1dd",
+    "accessToken": "bd2cd08c60b4b029087cb55d43370ec9",
+    "refreshToken": "e958e18c225980d7246c1cd01fd60265",
     "sessionToken": "9db45993353d34e95d9804d38bf352b6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
