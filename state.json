@@ -7154,15 +7154,15 @@
       "stats": {
         "totalVotes": 15889,
         "totalSubs": 62,
-        "totalChatMessages": 2440,
-        "totalStreamMinutes": 13384,
+        "totalChatMessages": 2441,
+        "totalStreamMinutes": 13389,
         "emotes": {
           "✨": 52,
           "🖥": 24,
           "🔥": 222,
           "👋": 136,
-          "🎬": 131,
-          "❤": 174,
+          "🎬": 132,
+          "❤": 175,
           "🚨": 10,
           "⚡": 27,
           "🏆": 23,
@@ -7390,14 +7390,10 @@
           "🤗": "🤗",
           "😄": "😄"
         },
-        "lastChatAt": 1792992929179,
+        "lastChatAt": 1792993361403,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "👑 [SUB ALERT]: HUGE hype! @helios just locked in a Tier 1 sub for month 1! Thank you for keeping the dream alive!"
-        },
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 1 votes, @omererkmen! Your support is truly appreciated! 🙌"
@@ -7433,6 +7429,10 @@
         {
           "user": "cachebot",
           "msg": "🔥 WE ARE LIVE! @Zer0Cache just fired up the stream! WilderWorld Game Night. Drop a greeting in chat! 👋"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -7441,7 +7441,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "WilderWorld Game Night",
+      "streamTitle": "",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. Relentless energy, camaraderie, and the thrill of dropping in to new adventures keep the community buzzing.",
       "_profileAtCount": 2408,
       "loyalty": {
@@ -7523,14 +7523,14 @@
       },
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
-      "lastStreamInfo": "OTG",
-      "lastStreamEndedAt": 1792879676124,
+      "lastStreamInfo": "WilderWorld Game Night",
+      "lastStreamEndedAt": 1792993360491,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
       "_idAt": 1792977475073,
-      "streamCategory": "Off The Grid",
-      "isLive": true,
-      "_gameAt": 1792992926853,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1792993361507,
       "voteLog": [
         {
           "t": 1792429891268,
@@ -33616,8 +33616,8 @@
     }
   },
   "auth": {
-    "accessToken": "410523cd3ff6ed20b20ca47e61d04d8c",
-    "refreshToken": "bdc1e2c56671dd1035f4c27a342c0985",
+    "accessToken": "9649a8083b5724adf32158f5cfcdcdb3",
+    "refreshToken": "44f69d7c5faf36cdba97be8570d74285",
     "sessionToken": "9db45993353d34e95d9804d38bf352b6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
