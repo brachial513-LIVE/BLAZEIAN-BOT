@@ -5,7 +5,7 @@
       "stats": {
         "totalVotes": 27795,
         "totalSubs": 90,
-        "totalChatMessages": 4054,
+        "totalChatMessages": 4055,
         "totalStreamMinutes": 4397,
         "emotes": {
           "❤": 148,
@@ -198,7 +198,8 @@
           "🦢": 5,
           "🐳": 11,
           "❣": 2,
-          "c67f55e4-c44d-454a-b94e-0636fa7fc399": 1
+          "c67f55e4-c44d-454a-b94e-0636fa7fc399": 1,
+          "7ea5f33b-6272-46a5-9a14-71262c299006": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -391,16 +392,13 @@
           "🦢": "🦢",
           "🐳": "🐳",
           "❣": "❣",
-          "c67f55e4-c44d-454a-b94e-0636fa7fc399": "DARKDARKPYRO"
+          "c67f55e4-c44d-454a-b94e-0636fa7fc399": "DARKDARKPYRO",
+          "7ea5f33b-6272-46a5-9a14-71262c299006": "thumbsUpBlazeian"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793107022735
+        "lastChatAt": 1793110544006
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Good guys"
-        },
         {
           "user": "botger",
           "msg": "🟥 GMC HQ OVER AND OUT : We are Offline now - Thanks for beeing a part of this Community 🫂💚"
@@ -436,6 +434,10 @@
         {
           "user": "brachial513",
           "msg": "WE KEEP BUILDING IT FOR SURE [emote:8a356bf2-0026-4ad0-86ab-c3247b88b55e] [emote:8a356bf2-0026-4ad0-86ab-c3247b88b55e] [emote:8a356bf2-0026-4ad0-86ab-c3247b88b55e]"
+        },
+        {
+          "user": "brachial513",
+          "msg": "[emote:7ea5f33b-6272-46a5-9a14-71262c299006]"
         }
       ],
       "language": "en",
@@ -647,7 +649,7 @@
         }
       },
       "_idAt": 1793089070405,
-      "_gameAt": 1793107010107,
+      "_gameAt": 1793110544141,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -2164,7 +2166,7 @@
       "stats": {
         "totalVotes": 45897,
         "totalSubs": 123,
-        "totalChatMessages": 51603,
+        "totalChatMessages": 51620,
         "totalStreamMinutes": 4443,
         "emotes": {
           "🔥": 2388,
@@ -2174,13 +2176,13 @@
           "😍": 150,
           "❤": 283,
           "🚢": 25,
-          "⏰": 2238,
+          "⏰": 2243,
           "🔜": 1350,
           "💀": 1056,
           "😘": 4,
           "🏆": 304,
           "🎊": 281,
-          "🎰": 50,
+          "🎰": 51,
           "😰": 244,
           "🍌": 622,
           "🧟": 34,
@@ -2194,7 +2196,7 @@
           "📴": 60,
           "👋": 71,
           "😢": 2,
-          "⚠": 34,
+          "⚠": 35,
           "🎯": 2,
           "👿": 1,
           "😂": 834,
@@ -2528,7 +2530,7 @@
           "🛡": "🛡",
           "✋": "✋"
         },
-        "lastChatAt": 1793039964076,
+        "lastChatAt": 1793109683199,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2537,20 +2539,16 @@
       },
       "chatMemory": [
         {
-          "user": "jt_squared2",
-          "msg": "🏆 WINNER: LuckyLegend62! 🎉 Congratulations! 🎊"
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Play in real-time: https://blazegames.store/play/jt_squared2 — Use !join when a game starts."
         },
         {
           "user": "jt_squared2",
-          "msg": "✋ Don't Get Slapped starts in 30 seconds! Use !devjoin and open /play to enter your private clues."
+          "msg": "🎰 Blaze Roulette starting in 30 seconds! Type !devjoin to play!"
         },
         {
           "user": "jt_squared2",
           "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
         },
         {
           "user": "jt_squared2",
@@ -2574,7 +2572,11 @@
         },
         {
           "user": "jt_squared2",
-          "msg": "🏆 WINNER: BoldMaster74! 🎉 Congratulations! 🎊"
+          "msg": "⚠️ Not enough players to start! Need at least 2."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "@jt_squared2 No game is currently active!"
         }
       ],
       "customCommands": {},
@@ -2841,7 +2843,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1793089071607,
-      "_gameAt": 1793039964169,
+      "_gameAt": 1793109675418,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -11464,10 +11466,10 @@
       "username": "gmc_gaara27",
       "language": "en",
       "stats": {
-        "totalVotes": 2573,
+        "totalVotes": 2578,
         "totalSubs": 11,
-        "totalChatMessages": 610,
-        "totalStreamMinutes": 2549,
+        "totalChatMessages": 628,
+        "totalStreamMinutes": 2565,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -11569,48 +11571,48 @@
           "❣": "❣"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793051848828
+        "lastChatAt": 1793110592026
       },
       "chatMemory": [
         {
-          "user": "gmc_gaara27",
-          "msg": "5 min afk"
+          "user": "nekoschwan",
+          "msg": "ohhhh that's nice"
         },
         {
-          "user": "gmc_gaara27",
-          "msg": "Help me waitint for Ocarina of Time. Next Werk on 5th finally. Much love for the  Blaze Community. I will stream the whole game for you."
+          "user": "nekoschwan",
+          "msg": "yes broo, i understand and i'm not really that good in english too haha no worries bro ^^"
         },
         {
-          "user": "gmc_gaara27",
-          "msg": "@blazeian_bot_ai Are you hyped for the Ocarina of Time Remake?"
+          "user": "nekoschwan",
+          "msg": "it's a dream gift that i wanted to buy for my kids haha the switch haha"
         },
         {
-          "user": "brachial513",
-          "msg": "votes gehen wieder, hier für dich, jz aber, gn8 :D"
+          "user": "nekoschwan",
+          "msg": "woww"
         },
         {
-          "user": "brachial513",
-          "msg": "hab noch 200"
+          "user": "nekoschwan",
+          "msg": "it is really expensive haha"
         },
         {
-          "user": "brachial513",
-          "msg": "und die für whale wheel"
+          "user": "nekoschwan",
+          "msg": "oh no"
         },
         {
-          "user": "brachial513",
-          "msg": "💚💚"
+          "user": "nekoschwan",
+          "msg": "haha"
         },
         {
-          "user": "sheena",
-          "msg": "hoooi"
+          "user": "nekoschwan",
+          "msg": "insane bro haha"
         },
         {
-          "user": "gmc_gaara27",
-          "msg": "Heeeeey"
+          "user": "nekoschwan",
+          "msg": "oh no 80 euros is like almost 6k peso haha"
         },
         {
-          "user": "razmr_eth",
-          "msg": "LF[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+          "user": "nekoschwan",
+          "msg": "yes"
         }
       ],
       "customCommands": {},
@@ -11620,7 +11622,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/42fc3ce1-764e-412d-887f-8933114b11d3.gif",
-      "streamTitle": "",
+      "streamTitle": "🔥 Diablo IV – Story comes to End",
       "gameOverride": "",
       "lastStreamInfo": "🔥 Diablo IV – Story comes to End",
       "lastStreamEndedAt": 1793055209137,
@@ -11686,9 +11688,9 @@
           "tier": 1
         }
       },
-      "_gameAt": 1793051848920,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793110430331,
+      "isLive": true,
+      "streamCategory": "Diablo IV",
       "voteLog": [
         {
           "t": 1792429891251,
@@ -11869,6 +11871,11 @@
           "t": 1793094979128,
           "v": "tom2329",
           "a": 3
+        },
+        {
+          "t": 1793110036187,
+          "v": "nekoschwan",
+          "a": 5
         }
       ],
       "botVip": true
@@ -15614,7 +15621,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 96,
-        "totalStreamMinutes": 14015,
+        "totalStreamMinutes": 14033,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -23055,15 +23062,15 @@
       "stats": {
         "totalVotes": 14548,
         "totalSubs": 42,
-        "totalChatMessages": 1932,
-        "totalStreamMinutes": 12473,
+        "totalChatMessages": 1933,
+        "totalStreamMinutes": 12486,
         "emotes": {
           "❤": 101,
           "🙌": 77,
           "📴": 101,
           "👋": 112,
-          "🔴": 97,
-          "🎉": 133,
+          "🔴": 98,
+          "🎉": 134,
           "🔥": 119,
           "🗳": 435,
           "😀": 6,
@@ -23198,13 +23205,9 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793053593874
+        "lastChatAt": 1793109804618
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @Utku has resubscribed (7 months total, 3 months streak)! Thank you for the continued support! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Utku just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
@@ -23240,6 +23243,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 guney is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -23251,7 +23258,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0ed76298-e9ef-4bc3-8291-482815414931.gif",
-      "streamTitle": "",
+      "streamTitle": "OTG",
       "gameOverride": "",
       "followed": true,
       "profile": "guney’s channel is a high‑energy Web3 playground where “Kankaaaa” and “Good morningggg” greet the stream, fans shout “Yooo”, celebrate milestones with “Love fest!” and “bring”, cheer wins with “fuckn minigun”, and love 🔥, 🎉, 💃💃💃 emojis. Raid and vote alerts pop up, and generous subs are praised with “How generous!! 🙌”. The community thrives on hype, emojis, and constant celebration.",
@@ -23323,9 +23330,9 @@
       "lastStreamInfo": "OTG",
       "lastStreamEndedAt": 1793053588743,
       "_idAt": 1793098669214,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793053593981,
+      "streamCategory": "Off The Grid",
+      "isLive": true,
+      "_gameAt": 1793109804601,
       "voteLog": [
         {
           "t": 1792429891425,
@@ -33757,15 +33764,15 @@
       "stats": {
         "totalVotes": 1263,
         "totalSubs": 1,
-        "totalChatMessages": 250,
-        "totalStreamMinutes": 683,
+        "totalChatMessages": 253,
+        "totalStreamMinutes": 700,
         "emotes": {
-          "👋": 9,
+          "👋": 10,
           "❤": 12,
           "🙌": 6,
           "🔴": 9,
           "🎉": 11,
-          "📴": 8,
+          "📴": 9,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 2,
           "🗳": 31,
@@ -33816,21 +33823,9 @@
           "849b2d68-7a30-4dcc-9981-1906ce5d70ca": "StarPyro"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793109463362
+        "lastChatAt": 1793110493760
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ meyetechnicals just followed the channel! Welcome!! 🙌"
-        },
-        {
-          "user": "piweb",
-          "msg": "Oh man I hate it when that happens"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "its always the way"
-        },
         {
           "user": "meyetechnicals",
           "msg": "the market always knows when someone sells them it just goes up"
@@ -33858,6 +33853,18 @@
         {
           "user": "poetbabe",
           "msg": "i like the music.. very zen[emote:849b2d68-7a30-4dcc-9981-1906ce5d70ca]"
+        },
+        {
+          "user": "poetbabe",
+          "msg": "have you played MossVale yet?"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -33875,15 +33882,15 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1793109463482,
-      "isLive": true,
-      "streamCategory": "RuneScape",
-      "streamTitle": "Runescape Dragonwilds",
+      "_gameAt": 1793110489049,
+      "isLive": false,
+      "streamCategory": "",
+      "streamTitle": "",
       "_idAt": 1793103475219,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9ae5ffbd-71b4-4992-8061-ba04225b1dc2.jpg",
       "followed": true,
       "lastStreamInfo": "Runescape Dragonwilds",
-      "lastStreamEndedAt": 1793093681758,
+      "lastStreamEndedAt": 1793110488556,
       "gameOverride": "",
       "voteLog": [
         {
@@ -34203,8 +34210,8 @@
   "learnedPeople": {
     "lipeman": {
       "note": "Playful gamer who loves Mario, Sonic, and Nintendo, keeps chat light‑hearted with jokes and lots of “kkkkkk” laughs.",
-      "at": 1793017251198,
-      "n": 38
+      "at": 1793110310662,
+      "n": 39
     },
     "solucao": {
       "note": "Enjoys gaming",
@@ -34957,9 +34964,9 @@
       "n": 1
     },
     "mediart": {
-      "note": "Medi loves gaming, cheers streams with enthusiastic emojis, and enjoys friendly chat with other viewers.",
-      "at": 1793016590596,
-      "n": 23
+      "note": "Medi loves gaming, cheers streams with enthusiastic emojis, enjoys playful dog references, and keeps chat lively with friendly banter and quick humor.",
+      "at": 1793109650774,
+      "n": 24
     },
     "henzyzxc": {
       "note": "Enjoys lively, humorous chats about MMORPGs, especially bard characters, and keeps the stream light‑hearted with playful jokes and banter.",
@@ -35668,8 +35675,8 @@
     }
   },
   "auth": {
-    "accessToken": "b3299e549d036af5861d1b2f5d82c9f2",
-    "refreshToken": "92d40f84625cd0a5c0788cb0d98b8347",
+    "accessToken": "5435aba3ca026f48d19880c634230407",
+    "refreshToken": "a9a71b949c64075f884d07ff1c60dd41",
     "sessionToken": "6bf6953803f72f4e47fd6425682ad5a6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
