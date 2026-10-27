@@ -3280,7 +3280,7 @@
         "totalVotes": 48621,
         "totalSubs": 300,
         "totalChatMessages": 15209,
-        "totalStreamMinutes": 36777,
+        "totalStreamMinutes": 36783,
         "emotes": {
           "📊": 3,
           "🔥": 659,
@@ -6236,7 +6236,7 @@
       "locked": false,
       "botVip": true,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "profile": "Unclefunk’s channel is a funky crew that “earn courage” by watching and playing OSP‑related streams. The chat shouts “💜”, “❤️❤️❤️”, hyping “stream is now live!” and “stream is now offline!” They love “connect your OSP account” for free, celebrate with “🔥🔥🔥” and “🫡❤️🎸”, keep the vibe upbeat, supportive, and game‑centric.",
       "_profileAtCount": 25914,
       "loyalty": {
@@ -6401,9 +6401,9 @@
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1793048133772,
       "_idAt": 1793113283214,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793103957203,
+      "streamCategory": "Music",
+      "isLive": true,
+      "_gameAt": 1793120181888,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -10586,7 +10586,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1011,
-        "totalStreamMinutes": 25639,
+        "totalStreamMinutes": 25645,
         "emotes": {
           "❤": 136,
           "🙌": 44,
@@ -19047,8 +19047,8 @@
       "stats": {
         "totalVotes": 47947,
         "totalSubs": 91,
-        "totalChatMessages": 3192,
-        "totalStreamMinutes": 3869,
+        "totalChatMessages": 3193,
+        "totalStreamMinutes": 3874,
         "emotes": {
           "😂": 114,
           "💪": 2,
@@ -19061,10 +19061,10 @@
           "❤": 146,
           "🚨": 132,
           "🎉": 63,
-          "👋": 57,
+          "👋": 58,
           "🤣": 237,
           "🗳": 774,
-          "📴": 39,
+          "📴": 40,
           "🎁": 90,
           "🔴": 40,
           "👀": 14,
@@ -19312,17 +19312,9 @@
           "😀": "😀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793119692618
+        "lastChatAt": 1793120159357
       },
       "chatMemory": [
-        {
-          "user": "nekoschwan",
-          "msg": "hello sheenaaaaa"
-        },
-        {
-          "user": "nekoschwan",
-          "msg": "lezgooo"
-        },
         {
           "user": "nekoschwan",
           "msg": "[emote:36196d71-cc27-44d1-96ba-a08d9ef790dd] [emote:36196d71-cc27-44d1-96ba-a08d9ef790dd] [emote:36196d71-cc27-44d1-96ba-a08d9ef790dd]"
@@ -19354,6 +19346,14 @@
         {
           "user": "rafael_zuh",
           "msg": ";-;"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Thanks for popping in, SEE YA NEXT TIME BAAAAAAAAAI!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -19540,15 +19540,15 @@
           "tier": 1
         }
       },
-      "streamTitle": "POKEBONK AND ORIGIN ADDICTION",
+      "streamTitle": "",
       "gameOverride": "",
       "commentMode": "silent",
-      "lastStreamInfo": "ORIGIN",
-      "lastStreamEndedAt": 1793068529024,
+      "lastStreamInfo": "POKEBONK AND ORIGIN ADDICTION",
+      "lastStreamEndedAt": 1793120154165,
       "_idAt": 1793113299722,
-      "_gameAt": 1793119632582,
-      "isLive": true,
-      "streamCategory": "Steam",
+      "_gameAt": 1793120159523,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891283,
@@ -27163,7 +27163,7 @@
         "totalVotes": 35253,
         "totalSubs": 142,
         "totalChatMessages": 8091,
-        "totalStreamMinutes": 14927,
+        "totalStreamMinutes": 14933,
         "emotes": {
           "😅": 8,
           "🔥": 340,
@@ -28896,7 +28896,7 @@
         "totalVotes": 7321,
         "totalSubs": 37,
         "totalChatMessages": 1797,
-        "totalStreamMinutes": 12126,
+        "totalStreamMinutes": 12132,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -33165,7 +33165,7 @@
         "totalVotes": 1282,
         "totalSubs": 3,
         "totalChatMessages": 862,
-        "totalStreamMinutes": 3677,
+        "totalStreamMinutes": 3683,
         "emotes": {
           "❤": 24,
           "🙌": 16,
@@ -35738,8 +35738,8 @@
     }
   },
   "auth": {
-    "accessToken": "0e3f5fa7ed63bc43f673a594c527f622",
-    "refreshToken": "ed0d87d113f122ad256ad8cf1296caa0",
+    "accessToken": "03addb1f8a873eb5cb6804ac343ef6bb",
+    "refreshToken": "40d42a6754aed88153f96e8cb9c684ca",
     "sessionToken": "fc5af2bf68f35530231a2a7c681ae246",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
