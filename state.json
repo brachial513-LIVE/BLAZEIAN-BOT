@@ -2216,13 +2216,13 @@
       "stats": {
         "totalVotes": 46348,
         "totalSubs": 123,
-        "totalChatMessages": 51720,
+        "totalChatMessages": 51721,
         "totalStreamMinutes": 4531,
         "emotes": {
           "🔥": 2388,
           "🗳": 38,
           "🔴": 62,
-          "🎉": 468,
+          "🎉": 469,
           "😍": 150,
           "❤": 283,
           "🚢": 25,
@@ -2230,8 +2230,8 @@
           "🔜": 1350,
           "💀": 1056,
           "😘": 4,
-          "🏆": 304,
-          "🎊": 281,
+          "🏆": 305,
+          "🎊": 282,
           "🎰": 51,
           "😰": 244,
           "🍌": 622,
@@ -2580,7 +2580,7 @@
           "🛡": "🛡",
           "✋": "✋"
         },
-        "lastChatAt": 1793134496728,
+        "lastChatAt": 1793134663819,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2588,10 +2588,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Referral System - invite someone to Blaze Games that hasn't played in the last 4 weeks and get rewarded. 10 votes for you, 10 votes for them."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -2627,6 +2623,10 @@
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "🏆 WINNER: BraveGamer30! 🎉 Congratulations! 🎊"
         }
       ],
       "customCommands": {},
@@ -2893,7 +2893,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1793113281216,
-      "_gameAt": 1793134467347,
+      "_gameAt": 1793134663919,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -5761,8 +5761,8 @@
       "stats": {
         "totalVotes": 61961,
         "totalSubs": 127,
-        "totalChatMessages": 26640,
-        "totalStreamMinutes": 13914,
+        "totalChatMessages": 26643,
+        "totalStreamMinutes": 13919,
         "emotes": {
           "❤": 8213,
           "🎵": 816,
@@ -6277,7 +6277,7 @@
           "🌫": "🌫",
           "🙂": "🙂"
         },
-        "lastChatAt": 1793134543269,
+        "lastChatAt": 1793134739707,
         "sendFailStreak": 583,
         "lastSendFailAt": 1793092061245,
         "lastSendFailReason": "You are banned from this channel.",
@@ -6286,18 +6286,6 @@
         "lastProbeAt": 1793092061043
       },
       "chatMemory": [
-        {
-          "user": "unclefunk",
-          "msg": "Sure, sheshi! Boss incoming! 🎪"
-        },
-        {
-          "user": "unclefunk",
-          "msg": "Sure, UncleFunk! FUNK SWARM unleashed! 🕺"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "i gotta play a sortie"
-        },
         {
           "user": "sheshi",
           "msg": "fine"
@@ -6325,6 +6313,18 @@
         {
           "user": "soulsalwayson",
           "msg": "I'm here but I do need to leave soon"
+        },
+        {
+          "user": "sheshi",
+          "msg": "yes unc he is not here"
+        },
+        {
+          "user": "doctorgeorgio",
+          "msg": "the golden gates in sortie are new niceeee"
+        },
+        {
+          "user": "doctorgeorgio",
+          "msg": "so they give the same buff if we go through them or through the normal gate but a better buff if we go through both? or if going through one it's better to focus on the golden gate instead?"
         }
       ],
       "customCommands": {},
@@ -6500,7 +6500,7 @@
       "_idAt": 1793113283214,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1793134543383,
+      "_gameAt": 1793134739838,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -8381,14 +8381,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 49322,
+        "totalVotes": 49422,
         "totalSubs": 137,
-        "totalChatMessages": 16530,
+        "totalChatMessages": 16531,
         "totalStreamMinutes": 10397,
         "emotes": {
           "❤": 291,
           "🙌": 436,
-          "🗳": 2021,
+          "🗳": 2024,
           "✌": 12,
           "😊": 11,
           "👍": 20,
@@ -8976,17 +8976,9 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793128497300
+        "lastChatAt": 1793134617858
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mediart just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
-        },
-        {
-          "user": "piweb",
-          "msg": "Gm"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "GM gm gm!! ☀️ let's GET it 💚"
@@ -9018,6 +9010,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "@time 100 votes just landed—thank you so much for all the love! ❤️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9244,7 +9244,7 @@
       "lastStreamInfo": "Afternoon at the beach with Mellow",
       "lastStreamEndedAt": 1792796759516,
       "_idAt": 1793113286216,
-      "_gameAt": 1793128497404,
+      "_gameAt": 1793134617967,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -9642,6 +9642,11 @@
           "t": 1793128495096,
           "v": "itsbigbrozo",
           "a": 50
+        },
+        {
+          "t": 1793134615624,
+          "v": "time",
+          "a": 100
         }
       ]
     },
@@ -15340,7 +15345,7 @@
         "totalVotes": 13800,
         "totalSubs": 217,
         "totalChatMessages": 544,
-        "totalStreamMinutes": 18294,
+        "totalStreamMinutes": 18299,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -15959,7 +15964,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 97,
-        "totalStreamMinutes": 14119,
+        "totalStreamMinutes": 14124,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -19420,7 +19425,7 @@
         "totalVotes": 48576,
         "totalSubs": 92,
         "totalChatMessages": 3325,
-        "totalStreamMinutes": 4019,
+        "totalStreamMinutes": 4024,
         "emotes": {
           "😂": 115,
           "💪": 2,
@@ -22477,7 +22482,7 @@
         "totalVotes": 3899,
         "totalSubs": 91,
         "totalChatMessages": 37,
-        "totalStreamMinutes": 2304,
+        "totalStreamMinutes": 2309,
         "emotes": {
           "🔥": 5,
           "😎": 1,
@@ -23583,7 +23588,7 @@
         "totalVotes": 14644,
         "totalSubs": 42,
         "totalChatMessages": 1951,
-        "totalStreamMinutes": 12666,
+        "totalStreamMinutes": 12671,
         "emotes": {
           "❤": 101,
           "🙌": 77,
@@ -24383,14 +24388,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 41328,
+        "totalVotes": 41378,
         "totalSubs": 66,
-        "totalChatMessages": 7674,
+        "totalChatMessages": 7676,
         "totalStreamMinutes": 12647,
         "emotes": {
           "❤": 123,
           "🙌": 118,
-          "🗳": 1251,
+          "🗳": 1254,
           "🔴": 97,
           "🎉": 188,
           "🏃": 1,
@@ -24734,17 +24739,9 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793132569396
+        "lastChatAt": 1793134728361
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @mediart just gave 7 vote(s) (total: 7)! Thank you!! 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @FatherSena!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 100 votes, @FartVader!"
@@ -24776,6 +24773,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 250 votes, @vRoshi55!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @time!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -25005,7 +25010,7 @@
       },
       "commentMode": "silent",
       "_idAt": 1793113304219,
-      "_gameAt": 1793132569494,
+      "_gameAt": 1793134726517,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -25263,6 +25268,11 @@
           "t": 1793132568999,
           "v": "vroshi55",
           "a": 250
+        },
+        {
+          "t": 1793134726041,
+          "v": "time",
+          "a": 50
         }
       ]
     },
@@ -26805,7 +26815,7 @@
         "totalVotes": 11344,
         "totalSubs": 33,
         "totalChatMessages": 1519,
-        "totalStreamMinutes": 15462,
+        "totalStreamMinutes": 15467,
         "emotes": {
           "❤": 97,
           "🙌": 79,
@@ -33762,7 +33772,7 @@
         "totalVotes": 1282,
         "totalSubs": 3,
         "totalChatMessages": 892,
-        "totalStreamMinutes": 3922,
+        "totalStreamMinutes": 3927,
         "emotes": {
           "❤": 26,
           "🙌": 17,
@@ -33994,7 +34004,7 @@
         "totalVotes": 2007,
         "totalSubs": 8,
         "totalChatMessages": 314,
-        "totalStreamMinutes": 769,
+        "totalStreamMinutes": 774,
         "emotes": {
           "❤": 15,
           "🙌": 7,
@@ -36380,8 +36390,8 @@
     }
   },
   "auth": {
-    "accessToken": "8a978224832726720e42547cacfea210",
-    "refreshToken": "818557d0e753545a1a7a1eaf22e34717",
+    "accessToken": "210cd4f3cd5cc44dfe28a5e0656c840e",
+    "refreshToken": "0dd2c17c7d0a0afe699fb76f01304e3d",
     "sessionToken": "fc5af2bf68f35530231a2a7c681ae246",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
