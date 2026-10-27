@@ -26574,9 +26574,9 @@
       "language": "en",
       "joinedAt": 1785809834886,
       "stats": {
-        "totalVotes": 205070,
+        "totalVotes": 206070,
         "totalSubs": 40,
-        "totalChatMessages": 1519,
+        "totalChatMessages": 1520,
         "totalStreamMinutes": 3351,
         "emotes": {
           "💚": 1,
@@ -26593,7 +26593,7 @@
           "👍": 2,
           "⚠": 4,
           "🎯": 4,
-          "🗳": 447,
+          "🗳": 450,
           "🙌": 61,
           "✌": 1,
           "📴": 38,
@@ -26709,16 +26709,12 @@
           "💛": "💛"
         },
         "sendFailStreak": 249,
-        "lastChatAt": 1793100487410,
+        "lastChatAt": 1793105686504,
         "lastSendFailAt": 1793100358167,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1793100357952
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @snipes_legend to the channel! Thank you so much for subscribing! 🙌"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 250 vote(s) (total: 1000)! Thank you!! 🗳️"
@@ -26754,6 +26750,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Sinnerz just gave 1000 vote(s) (total: 1000)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -26867,7 +26867,7 @@
       "nudgedAt": 1786147592153,
       "nudgedKey": "schedule",
       "_idAt": 1793099876411,
-      "_gameAt": 1793100359981,
+      "_gameAt": 1793105686626,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -27080,6 +27080,11 @@
           "t": 1793101388459,
           "v": "fathersena",
           "a": 1
+        },
+        {
+          "t": 1793105674216,
+          "v": "sinnerz",
+          "a": 1000
         }
       ]
     },
@@ -30394,7 +30399,7 @@
       "language": "en",
       "joinedAt": 1787497151215,
       "stats": {
-        "totalVotes": 7381,
+        "totalVotes": 7386,
         "totalSubs": 20,
         "totalChatMessages": 466,
         "totalStreamMinutes": 933,
@@ -30777,6 +30782,11 @@
           "t": 1793103956788,
           "v": "cynthia_stnkmp",
           "a": 25
+        },
+        {
+          "t": 1793105311371,
+          "v": "piweb",
+          "a": 5
         }
       ],
       "botVip": true
@@ -33747,14 +33757,14 @@
       "stats": {
         "totalVotes": 1238,
         "totalSubs": 1,
-        "totalChatMessages": 219,
-        "totalStreamMinutes": 619,
+        "totalChatMessages": 223,
+        "totalStreamMinutes": 633,
         "emotes": {
           "👋": 9,
           "❤": 10,
           "🙌": 5,
-          "🔴": 8,
-          "🎉": 10,
+          "🔴": 9,
+          "🎉": 11,
           "📴": 8,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
@@ -33802,25 +33812,9 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793103957514
+        "lastChatAt": 1793106479102
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 5 votes, @0xscheun!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xscheun just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
-        },
-        {
-          "user": "honeybear",
-          "msg": "thanks"
-        },
         {
           "user": "honeybear",
           "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d]"
@@ -33844,6 +33838,22 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @cynthia_stnkmp!"
+        },
+        {
+          "user": "honeybear",
+          "msg": "Yo thanks for the votes guys"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 honeybear is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Runescape Dragonwilds! Come hang out and watch."
+        },
+        {
+          "user": "piweb",
+          "msg": "Gm gm"
         }
       ],
       "customCommands": {},
@@ -33861,10 +33871,10 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1793103957611,
-      "isLive": false,
-      "streamCategory": "",
-      "streamTitle": "",
+      "_gameAt": 1793106479218,
+      "isLive": true,
+      "streamCategory": "RuneScape",
+      "streamTitle": "Runescape Dragonwilds",
       "_idAt": 1793103475219,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9ae5ffbd-71b4-4992-8061-ba04225b1dc2.jpg",
       "followed": true,
@@ -33954,7 +33964,9 @@
         }
       ],
       "profile": "honeybear streams Runescape Dragonwilds with a tight crew vibe. Chat chants “NEW FOLLOWER!!” and “Thanks for watching!” while shouting “vote alert” and cracking “telegram” password jokes. Emojis ❤️, 🙌, custom emotes abound. Celebrations include “FREE Entry” giveaways, “1000 Votes” contests, and enthusiastic “see you next time 👋” sign‑offs. The channel thrives on energetic, supportive banter and constant voting.",
-      "_profileAtCount": 195
+      "_profileAtCount": 195,
+      "nudgedAt": 1793105578262,
+      "nudgedKey": "schedule"
     },
     "7a2c4a3b-0542-4cd3-a90c-0e629faf6c09": {
       "username": "nekoschwan",
@@ -34191,9 +34203,9 @@
       "n": 38
     },
     "mauhzera": {
-      "note": "Mauhzera loves FPS, Bomberman, classic Mega Drive/N64 titles, jokes about Zelda, plays Metroid Prime, and cheers enthusiastically.",
-      "at": 1792877330384,
-      "n": 40
+      "note": "Mauhzera loves FPS, Bomberman, classic Mega Drive/N64 games, jokes about Zelda, plays Metroid Prime, and always cheers enthusiastically.",
+      "at": 1793105690702,
+      "n": 41
     },
     "foxbotai": {
       "note": "FoxBot AI runs Blaze livestreams with blackjack, coinflip, slots, arcade games, giveaways, and keeps the community laughing with playful banter.",
