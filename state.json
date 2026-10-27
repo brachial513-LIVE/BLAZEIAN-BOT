@@ -2077,7 +2077,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 45280,
+        "totalVotes": 45300,
         "totalSubs": 123,
         "totalChatMessages": 51603,
         "totalStreamMinutes": 4443,
@@ -3119,6 +3119,11 @@
           "t": 1793072907368,
           "v": "fartvader",
           "a": 50
+        },
+        {
+          "t": 1793081848515,
+          "v": "alliveall",
+          "a": 20
         }
       ]
     },
@@ -4527,14 +4532,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 31688,
+        "totalVotes": 31888,
         "totalSubs": 121,
-        "totalChatMessages": 9629,
+        "totalChatMessages": 9630,
         "totalStreamMinutes": 29395,
         "emotes": {
           "❤": 259,
           "🙌": 222,
-          "🗳": 1386,
+          "🗳": 1389,
           "📴": 244,
           "👋": 274,
           "🔴": 239,
@@ -4905,14 +4910,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1793072878621,
+        "lastChatAt": 1793081594975,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "agent00zani",
           "msg": "game foze a lil bit"
@@ -4948,6 +4949,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @fluffy just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -5207,7 +5212,7 @@
         }
       },
       "_idAt": 1793068667997,
-      "_gameAt": 1793072878725,
+      "_gameAt": 1793081595061,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -5460,6 +5465,11 @@
           "t": 1793072876447,
           "v": "fartvader",
           "a": 50
+        },
+        {
+          "t": 1793081592697,
+          "v": "fluffy",
+          "a": 200
         }
       ]
     },
@@ -7898,14 +7908,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 48464,
-        "totalSubs": 134,
-        "totalChatMessages": 16519,
+        "totalVotes": 48589,
+        "totalSubs": 135,
+        "totalChatMessages": 16521,
         "totalStreamMinutes": 10397,
         "emotes": {
           "❤": 291,
-          "🙌": 433,
-          "🗳": 2000,
+          "🙌": 434,
+          "🗳": 2003,
           "✌": 12,
           "😊": 11,
           "👍": 20,
@@ -7916,7 +7926,7 @@
           "⚡": 108,
           "😂": 219,
           "😍": 37,
-          "🔥": 322,
+          "🔥": 324,
           "😎": 9,
           "😁": 28,
           "😄": 29,
@@ -8493,17 +8503,9 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793077663510
+        "lastChatAt": 1793081805931
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Brachial513 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @K1NGBRE4KER just gave 67 vote(s) (total: 67)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @K1NGBRE4KER has resubscribed (7 months total, 6 months streak)! Thank you for the continued support! 🙌"
@@ -8535,6 +8537,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @annyoneany just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @fluffy just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @DynastyKingD to the channel! Thank you so much for subscribing! 🙌"
         }
       ],
       "customCommands": {},
@@ -8744,6 +8754,11 @@
           "name": "meyetechnicals",
           "months": 1,
           "tier": 1
+        },
+        "dynastykingd": {
+          "name": "dynastykingd",
+          "months": 1,
+          "tier": 1
         }
       },
       "nudgedAt": 1785051188620,
@@ -8751,7 +8766,7 @@
       "lastStreamInfo": "Afternoon at the beach with Mellow",
       "lastStreamEndedAt": 1792796759516,
       "_idAt": 1793068672774,
-      "_gameAt": 1793077663609,
+      "_gameAt": 1793081703515,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -9074,6 +9089,16 @@
           "t": 1793077661306,
           "v": "annyoneany",
           "a": 20
+        },
+        {
+          "t": 1793081701184,
+          "v": "fluffy",
+          "a": 100
+        },
+        {
+          "t": 1793081848475,
+          "v": "alliveall",
+          "a": 25
         }
       ]
     },
@@ -14567,7 +14592,7 @@
         "totalVotes": 13744,
         "totalSubs": 217,
         "totalChatMessages": 543,
-        "totalStreamMinutes": 18195,
+        "totalStreamMinutes": 18215,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -15468,7 +15493,7 @@
       "username": "0xscheun",
       "language": "en",
       "stats": {
-        "totalVotes": 8534,
+        "totalVotes": 8544,
         "totalSubs": 41,
         "totalChatMessages": 1143,
         "totalStreamMinutes": 3306,
@@ -15899,6 +15924,11 @@
         {
           "t": 1793064719877,
           "v": "avisi",
+          "a": 10
+        },
+        {
+          "t": 1793081848415,
+          "v": "alliveall",
           "a": 10
         }
       ]
@@ -19908,7 +19938,7 @@
         }
       },
       "profile": "Welcome to cedricdebled’s vibes! We’re all about “GGs” and “love fests” while voting for art. When we’re not “lowkey” hyping a game of Pictionary, we’re “highkey” cheering for the best pieces. The channel loves shoutouts, “the vibes are real,” “keep it lit,” and “love fest” moments. Celebrate with us—every vote, every comment, every “GG.”",
-      "_profileAtCount": 5211,
+      "_profileAtCount": 5293,
       "streamTitle": "",
       "gameOverride": "",
       "lastStreamInfo": "A little concept art session",
@@ -23156,9 +23186,9 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 39340,
+        "totalVotes": 39350,
         "totalSubs": 66,
-        "totalChatMessages": 7651,
+        "totalChatMessages": 7652,
         "totalStreamMinutes": 12647,
         "emotes": {
           "❤": 123,
@@ -23507,13 +23537,9 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793060060081
+        "lastChatAt": 1793081848909
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 8 votes, @smrt!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 20 votes, @botger!"
@@ -23549,6 +23575,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @K1NGBRE4KER just gave 66 vote(s) (total: 66)! Thank you!! 🗳️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 10 votes, @alliveall!"
         }
       ],
       "customCommands": {},
@@ -23778,7 +23808,7 @@
       },
       "commentMode": "silent",
       "_idAt": 1793075870379,
-      "_gameAt": 1793060058335,
+      "_gameAt": 1793081849006,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -23961,6 +23991,11 @@
           "t": 1793051103619,
           "v": "piweb",
           "a": 50
+        },
+        {
+          "t": 1793081848556,
+          "v": "alliveall",
+          "a": 10
         }
       ]
     },
@@ -28518,16 +28553,16 @@
       "stats": {
         "totalVotes": 12482,
         "totalSubs": 38,
-        "totalChatMessages": 5305,
-        "totalStreamMinutes": 17649,
+        "totalChatMessages": 5309,
+        "totalStreamMinutes": 17656,
         "emotes": {
-          "👋": 131,
+          "👋": 132,
           "⚠": 2,
           "🎯": 2,
           "🗳": 524,
           "🔴": 124,
           "🎉": 162,
-          "📴": 125,
+          "📴": 126,
           "🎡": 3,
           "®": 3,
           "📢": 9,
@@ -28727,21 +28762,9 @@
           "💜": "💜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793080871924
+        "lastChatAt": 1793081421493
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @meyetechnicals!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @meyetechnicals just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
-        {
-          "user": "cripiechuccles",
-          "msg": "much love pew pew and potatoe!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 25 votes, @cripiechuccles!"
@@ -28769,6 +28792,18 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ boreddington just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "inn",
+          "msg": "welcome INN!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -28783,9 +28818,9 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "Come say hey for a prize! 🔥 322nd Blaze Stream🔥",
+      "streamTitle": "",
       "lastStreamInfo": "Come say hey for a prize! 🔥 322nd Blaze Stream🔥",
-      "lastStreamEndedAt": 1793069038401,
+      "lastStreamEndedAt": 1793081416316,
       "gameOverride": "",
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bfd9e85-c13e-41f9-8e40-947739093910-profile_image-300x300.png",
       "profile": "inn’s stream is a nonstop “dig‑and‑win” fiesta where every chat drop triggers a “dig booster” or a spin of the Giveaway Wheel. The crew shouts “Thanks for the follow!” and “Congrats!” celebrating each win with “You successfully dug up 1 Credit.” They hype “permanent free entry,” love “mystery fish” drops, keep the vibe high‑energy, and celebrate with loud cheers and emojis.",
@@ -28895,9 +28930,9 @@
         }
       },
       "_idAt": 1793077073992,
-      "_gameAt": 1793080838398,
-      "isLive": true,
-      "streamCategory": "Rocket League",
+      "_gameAt": 1793081382075,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891170,
@@ -32180,7 +32215,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1793059073973,
+      "_idAt": 1793081873993,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5283cee-6005-4782-92fe-13419fd64684.png",
       "followed": true,
       "botVip": true
@@ -32331,7 +32366,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1793059070374,
+      "_idAt": 1793081870398,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/72e62f22-bfda-4fb8-b073-3f8c1ebc5201.png",
       "greeted": true,
       "profile": "silverbolt99’s channel is a high‑energy, community‑first hub where every stream opens with “welcome to the BLazeianCrew!” and new followers trigger “❤️ NEW FOLLOWER!! ❤️”. Lurkers are praised, donations appreciated, and the club hype (“⚡Friends, if you haven’t joined the Club…”) keeps the vibe playful and hype‑ready. Weekly Sunday giveaways promise up to 1000 votes, celebrated with “Thanks for the X votes” chants.",
@@ -32537,7 +32572,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1793059068000,
+      "_idAt": 1793081868014,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d3b7be98-81af-4b8d-adeb-af8e99088a0b.png",
       "streamTitle": "",
       "lastStreamInfo": "Its one of those days lets play some random games",
@@ -32804,7 +32839,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1793059071575,
+      "_idAt": 1793081871595,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/afbc16ad-1c45-4fb1-a652-817ebbb29b26.jpg",
       "_gameAt": 1792505659548,
       "isLive": false,
@@ -32855,7 +32890,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1793059069174,
+      "_idAt": 1793081869193,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d087c21b-5cfa-4217-bbc8-d8ef7ad77e9f.jpg",
       "_gameAt": 1792492114864,
       "isLive": false,
@@ -33059,8 +33094,8 @@
       "stats": {
         "totalVotes": 2299,
         "totalSubs": 4,
-        "totalChatMessages": 12,
-        "totalStreamMinutes": 0,
+        "totalChatMessages": 13,
+        "totalStreamMinutes": 1,
         "emotes": {
           "🎁": 4,
           "🙌": 5,
@@ -33069,7 +33104,9 @@
           "🔥": 5,
           "💰": 2,
           "🤜": 1,
-          "🤛": 1
+          "🤛": 1,
+          "🔴": 1,
+          "🎉": 1
         },
         "emoteNames": {
           "🎁": "🎁",
@@ -33079,16 +33116,14 @@
           "🔥": "🔥",
           "💰": "💰",
           "🤜": "🤜",
-          "🤛": "🤛"
+          "🤛": "🤛",
+          "🔴": "🔴",
+          "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793070069470
+        "lastChatAt": 1793082101038
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Brachial513 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "brachial513",
           "msg": "GGs for winning 50 Votes at our Weekly Fox Spirits Giveaway ! Thank you for beeing Awesome ! 💚"
@@ -33124,6 +33159,10 @@
         {
           "user": "avisi",
           "msg": "Congrats on your win this week @nekoschwan! 🤜🤛🔥Thanks for playing Cash Me Outside!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 nekoschwan is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -33141,12 +33180,12 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "_idAt": 1793059072790,
+      "_idAt": 1793081872790,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d30a5641-e3d3-4cba-a6b2-1a233aab45a0.gif",
-      "_gameAt": 1793069978905,
-      "isLive": false,
-      "streamCategory": "",
-      "streamTitle": "",
+      "_gameAt": 1793082100607,
+      "isLive": true,
+      "streamCategory": "VALORANT",
+      "streamTitle": "✨ SUNDAY IS? ✨ VOTE, TIP & SUB to support! ✨",
       "voteLog": [
         {
           "t": 1792948307236,
@@ -34250,8 +34289,8 @@
     },
     "lvl4goblin": {
       "note": "Enjoy indie roguelikes, pokes fun at quirky localization, loves drawing and Inktober, plays Street Fighter 6, and often jokes about devops frustrations and stream desyncs.",
-      "at": 1792992830559,
-      "n": 23
+      "at": 1793081270557,
+      "n": 24
     },
     "guilhermesisto": {
       "note": "Loves retro arcade beat‑em‑ups, jokes about “colete a prova de balas,” and cheers new releases.",
