@@ -2192,8 +2192,8 @@
       "stats": {
         "totalVotes": 46348,
         "totalSubs": 123,
-        "totalChatMessages": 51700,
-        "totalStreamMinutes": 4498,
+        "totalChatMessages": 51701,
+        "totalStreamMinutes": 4500,
         "emotes": {
           "🔥": 2388,
           "🗳": 38,
@@ -2556,7 +2556,7 @@
           "🛡": "🛡",
           "✋": "✋"
         },
-        "lastChatAt": 1793131658734,
+        "lastChatAt": 1793131906660,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2564,10 +2564,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "cedricdebled",
-          "msg": "1 logo"
-        },
         {
           "user": "cedricdebled",
           "msg": "Then.. 😏"
@@ -2603,6 +2599,10 @@
         {
           "user": "botger",
           "msg": "Join Blaze Games every Friday at 2pm EST / 6pm UTC for a chance to win 600 or more votes"
+        },
+        {
+          "user": "botger",
+          "msg": "Try the blaze lottery. Tip $1 to try to win the pot."
         }
       ],
       "customCommands": {},
@@ -2869,7 +2869,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1793113281216,
-      "_gameAt": 1793131658852,
+      "_gameAt": 1793131906774,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -5733,7 +5733,7 @@
         "totalVotes": 61864,
         "totalSubs": 127,
         "totalChatMessages": 26479,
-        "totalStreamMinutes": 13869,
+        "totalStreamMinutes": 13871,
         "emotes": {
           "❤": 8208,
           "🎵": 813,
@@ -15373,10 +15373,6 @@
       },
       "chatMemory": [
         {
-          "user": "saboomafoo",
-          "msg": "proesroo hello"
-        },
-        {
           "user": "destinoprospero",
           "msg": "hello man"
         },
@@ -15411,6 +15407,10 @@
         {
           "user": "dairybrige",
           "msg": "basura"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Bienvenidos a una transmision de full maple ♥"
         }
       ],
       "customCommands": {},
@@ -15422,7 +15422,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5626734-7ff2-44b2-a4c4-efca3fb88811.jpg",
-      "streamTitle": "",
+      "streamTitle": "FARMING SEASON LETS GO!",
       "gameOverride": "",
       "profile": "saboomafoo streams energetic League of Legends & MapleStory collabs, pumping “FOXSPIRITS” vibes. Chat loves “have a nice stream”, “GM GM GUYS”, “NEKOOOOOOOOOO”, “hellow”, “❤️❤️❤️❤️❤️”, and playful “😅😅”. Community celebrates with quick shoutouts, a warm “ty” response, constant upbeat greetings, and constant positivity. The channel thrives on friendly, energetic banter and constant positivity.",
       "_profileAtCount": 516,
@@ -15518,9 +15518,9 @@
         }
       },
       "_idAt": 1793113294235,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793071776357,
+      "streamCategory": "Crypto",
+      "isLive": true,
+      "_gameAt": 1793131976920,
       "voteLog": [
         {
           "t": 1792429891429,
@@ -15920,7 +15920,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 97,
-        "totalStreamMinutes": 14074,
+        "totalStreamMinutes": 14077,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -19371,7 +19371,7 @@
         "totalVotes": 48498,
         "totalSubs": 92,
         "totalChatMessages": 3307,
-        "totalStreamMinutes": 3974,
+        "totalStreamMinutes": 3976,
         "emotes": {
           "😂": 114,
           "💪": 2,
@@ -23504,7 +23504,7 @@
         "totalVotes": 14644,
         "totalSubs": 42,
         "totalChatMessages": 1951,
-        "totalStreamMinutes": 12621,
+        "totalStreamMinutes": 12623,
         "emotes": {
           "❤": 101,
           "🙌": 77,
@@ -26716,7 +26716,7 @@
         "totalVotes": 11344,
         "totalSubs": 33,
         "totalChatMessages": 1519,
-        "totalStreamMinutes": 15417,
+        "totalStreamMinutes": 15419,
         "emotes": {
           "❤": 97,
           "🙌": 79,
@@ -33663,7 +33663,7 @@
         "totalVotes": 1282,
         "totalSubs": 3,
         "totalChatMessages": 891,
-        "totalStreamMinutes": 3877,
+        "totalStreamMinutes": 3879,
         "emotes": {
           "❤": 26,
           "🙌": 17,
@@ -36269,8 +36269,8 @@
     }
   },
   "auth": {
-    "accessToken": "4c17c11f9e8776443ebe1b6c54bf0731",
-    "refreshToken": "c893d8b70643ded6ef514de0fbc2462c",
+    "accessToken": "d9c7614acba737f8eac441ea038440c9",
+    "refreshToken": "a7c0666d1991732946c38ec2927a9367",
     "sessionToken": "fc5af2bf68f35530231a2a7c681ae246",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
