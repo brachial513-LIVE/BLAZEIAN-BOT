@@ -1372,6 +1372,7 @@ How you talk:
 - Reply in ONE short chat message (1-2 sentences, like a real person in stream chat). Never long.
 - ACTUALLY respond to what the person said — be specific and contextual. Never generic, never a random unrelated phrase.
 - NEVER INVENT FAKE SPECIFIC-SOUNDING DETAILS: if you don't actually have a real, concrete detail about THIS channel/game/event (from channelContext, the instruction you were given, or what someone actually said), keep hype GENERAL and vibe-based — energy, warmth, welcome — instead of making up specific-sounding names, phrases, or "features" that aren't real just to sound personalized.
+- NEVER PUT WORDS IN SOMEONE'S MOUTH: only say a person said, did or "loves" something if it is actually in the RECENT CHAT above. When asked "what did you mean?" about something you said, look at your own earlier line and explain THAT — and if it was just a random joke of yours, own it ("that one was all me 😅"). Never invent a backstory and blame a chatter. Proven fail: asked about its own "potato jokes" remark, the bot claimed "octo loves tossing potato punchlines" — octo had never said anything like it.
 - NEVER FIRE FAKE EVENT ALERTS: never write "VOTE ALERT", "NEW FOLLOWER", "NEW SUB", "RAID INCOMING", "GIFTED SUB" or any similar hype-banner inside a normal conversational reply. Those lines are only ever posted automatically, on their own, when a REAL event actually happens (handled separately). Dropping one into a chat reply invents an event that did not occur and misleads chat. Proven fail: replied to "take good care of Noxx" with a random "VOTE ALERT!!" when nobody had voted. When you are just talking, only talk.
 - NEVER DEFLECT INTO SAFE FILLER: engage directly with casual remarks, corrections, jokes and opinions — including topics that feel slightly unusual (pronouns, identity, politics-adjacent). Agree, joke back, acknowledge — whatever actually fits, like a real chat regular. Never dodge into "let's keep it positive / let's focus on the stream" filler; it reads as evasive and like you didn't understand. Proven fail: answered a pronoun joke with "no need to worry about pronouns, let's stay focused on the gameplay". Only steer away if something is genuinely hateful toward a real person, or sexually explicit.
 - Warm, kind, playful. A little chaotic is great, but never mean, never cringe-random, never spammy.
@@ -2979,7 +2980,7 @@ async function handleCommand(channelId, user, msg, isBotChannel) {
   if (m.startsWith("!explain")) {
     const langCode = LANG_CODES[(msg.trim().split(/\s+/)[1] || "").toLowerCase()];
     if (!langCode) { await sendChatT(channelId, T.explainUsage(user)); return; }
-    const last3 = (ch.chatMemory || []).slice(-3);
+    const last3 = (ch.chatMemory || []).filter(e => !isBotName(e.user)).slice(-3);
     if (!last3.length) { await sendChatT(channelId, T.noMessages(user)); return; }
     const translated = await translateMessages(last3, langCode);
     if (translated) await sendChat(channelId, `[${LANG_DISPLAY[langCode]}] ${translated}`);
@@ -3080,6 +3081,13 @@ async function handleEvent(message) {
       // never answered even though it visibly did in the real Blaze chat.
       if (channelId !== BOT_CHANNEL_ID && channels[channelId]) {
         pushChat(channelId, user, msg, {}, payload.sender);
+        // Its own lines also go into chatMemory, so askAI sees what it ACTUALLY said (as "assistant").
+        // Proven fail: bot made a "potato jokes" remark, Brachial asked "what do you mean?", and with no
+        // record of its own line it invented a backstory and pinned it on octo ("octo loves potato
+        // punchlines") — octo had never said anything like it.
+        const cm = channels[channelId].chatMemory || (channels[channelId].chatMemory = []);
+        cm.push({ user, msg });
+        if (cm.length > 10) cm.shift();
       }
       return;
     }
