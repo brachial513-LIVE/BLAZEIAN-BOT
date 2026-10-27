@@ -8,7 +8,7 @@ A live AI chat agent for [Blaze.stream](https://blaze.stream) — built for the 
 
 BlazeianBot isn't a canned-response bot — it actually reads what people say and replies in character, using a real LLM (via Groq) grounded in the official Blaze API.
 
-- **Real conversation** — tag `@blazeian_bot_ai` and it understands and replies contextually, in the language it was addressed in
+- **Real conversation** — tag `@blazeian_bot_ai` and it understands and replies contextually, in the language it was addressed in — it remembers its own recent lines too, so "what did you mean?" gets an honest answer instead of a made-up one
 - **Live web search** — for real, current-world questions (news, scores, results) it looks them up live and answers honestly, citing what it found
 - **Stream alerts with personality** — follows, subs, gifted subs, votes, tips and raids are all celebrated with a fresh, AI-generated shoutout, never a repeated line
 - **Live translation** — `!explain [language]` translates recent chat into 18 languages
