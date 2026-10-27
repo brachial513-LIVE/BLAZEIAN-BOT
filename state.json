@@ -14547,7 +14547,7 @@
         "totalVotes": 13719,
         "totalSubs": 217,
         "totalChatMessages": 543,
-        "totalStreamMinutes": 18080,
+        "totalStreamMinutes": 18085,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -29473,8 +29473,8 @@
       "stats": {
         "totalVotes": 7228,
         "totalSubs": 20,
-        "totalChatMessages": 426,
-        "totalStreamMinutes": 861,
+        "totalChatMessages": 427,
+        "totalStreamMinutes": 866,
         "emotes": {
           "🥰": 51,
           "❤": 31,
@@ -29520,7 +29520,7 @@
           "1222ae09-76fa-4ecd-be52-f18791e816fe": 3,
           "6366e140-9421-4857-bec3-d73eea0b1b2b": 5,
           "5a25a7de-57b4-40e1-be95-77edb07b0bff": 4,
-          "85a76966-8821-4900-8210-c7df7f3dd709": 2,
+          "85a76966-8821-4900-8210-c7df7f3dd709": 3,
           "7d4ad274-9bf4-4de4-9132-4b3380d31a9b": 3,
           "be462809-e218-47de-bca2-5a20890392ba": 3,
           "ce245b7b-6434-4dc7-804f-3a0e556ff4d5": 3,
@@ -29535,7 +29535,8 @@
           "a7bca79e-ed9d-4266-8987-b72d0ab7227d": 1,
           "3c4c8595-b05f-4571-8814-437155d8ecaf": 1,
           "7aa393b1-9e1e-4bc7-85ed-99bbfd77f468": 1,
-          "448c9480-01e3-46ce-9e64-c7592f92430e": 1
+          "448c9480-01e3-46ce-9e64-c7592f92430e": 1,
+          "6290081b-b7c6-4daf-a227-26bc73b5c440": 1
         },
         "emoteNames": {
           "🥰": "🥰",
@@ -29597,20 +29598,17 @@
           "a7bca79e-ed9d-4266-8987-b72d0ab7227d": "57",
           "3c4c8595-b05f-4571-8814-437155d8ecaf": "43",
           "7aa393b1-9e1e-4bc7-85ed-99bbfd77f468": "72",
-          "448c9480-01e3-46ce-9e64-c7592f92430e": "68"
+          "448c9480-01e3-46ce-9e64-c7592f92430e": "68",
+          "6290081b-b7c6-4daf-a227-26bc73b5c440": "60"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793073874557,
+        "lastChatAt": 1793074254810,
         "lastSendFailAt": 1790973732516,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790974734782,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "mediart",
-          "msg": "So happy to hear that🥰 [emote:85a76966-8821-4900-8210-c7df7f3dd709] [emote:a7bca79e-ed9d-4266-8987-b72d0ab7227d]"
-        },
         {
           "user": "briggsy",
           "msg": "[emote:3c4c8595-b05f-4571-8814-437155d8ecaf] [emote:7aa393b1-9e1e-4bc7-85ed-99bbfd77f468] [emote:448c9480-01e3-46ce-9e64-c7592f92430e]"
@@ -29646,6 +29644,10 @@
         {
           "user": "mediart",
           "msg": "OK, happy to hear🥰❤️🙏"
+        },
+        {
+          "user": "mediart",
+          "msg": "[emote:6290081b-b7c6-4daf-a227-26bc73b5c440] [emote:85a76966-8821-4900-8210-c7df7f3dd709]"
         }
       ],
       "customCommands": {},
@@ -29729,7 +29731,7 @@
         }
       },
       "_idAt": 1793055472777,
-      "_gameAt": 1793073801589,
+      "_gameAt": 1793074254930,
       "isLive": true,
       "streamCategory": "Art",
       "voteLog": [
@@ -29834,7 +29836,7 @@
         "totalVotes": 2027,
         "totalSubs": 10,
         "totalChatMessages": 181,
-        "totalStreamMinutes": 10053,
+        "totalStreamMinutes": 10058,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -34623,8 +34625,8 @@
     }
   },
   "auth": {
-    "accessToken": "439ecf86d6afd42d59b4fa27fcd10749",
-    "refreshToken": "80d52ce71943a5f49f3a123ecec865cb",
+    "accessToken": "a26cd897e6761d3492b699d5cd11afee",
+    "refreshToken": "7d4e197ea2dc10947dc2fda3e4b1c6c2",
     "sessionToken": "6bf6953803f72f4e47fd6425682ad5a6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
