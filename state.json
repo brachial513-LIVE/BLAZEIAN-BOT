@@ -5547,9 +5547,9 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 58056,
+        "totalVotes": 58071,
         "totalSubs": 127,
-        "totalChatMessages": 25914,
+        "totalChatMessages": 25916,
         "totalStreamMinutes": 13675,
         "emotes": {
           "❤": 8130,
@@ -5605,7 +5605,7 @@
           "💘": 4,
           "🌐": 2,
           "💬": 2,
-          "🗳": 180,
+          "🗳": 181,
           "❣": 13,
           "🫢": 14,
           "🙃": 2,
@@ -6059,23 +6059,15 @@
           "🐲": "🐲",
           "👻": "👻"
         },
-        "lastChatAt": 1793061680313,
-        "sendFailStreak": 582,
-        "lastSendFailAt": 1793034847219,
+        "lastChatAt": 1793092060515,
+        "sendFailStreak": 583,
+        "lastSendFailAt": 1793092061245,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146,
-        "lastProbeAt": 1793034847005
+        "lastProbeAt": 1793092061043
       },
       "chatMemory": [
-        {
-          "user": "generalkev",
-          "msg": "my barber is calling, i need my hair cutting! Bye de bye fer now ❤️"
-        },
-        {
-          "user": "unclefunk",
-          "msg": "Sure, GeneralKev! Heal sent! 💚"
-        },
         {
           "user": "unclefunk",
           "msg": "piweb, +50 JOY for the votes! ✦ You have 50."
@@ -6107,6 +6099,14 @@
         {
           "user": "rob_osp",
           "msg": "@johnjl18 — thanks for the 39 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "unclefunk",
+          "msg": "zimzimma, +15 JOY for the votes! ✦ You have 15."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "@zimzimma — thanks for the 15 votes! 🗳️ Every vote helps."
         }
       ],
       "customCommands": {},
@@ -6282,7 +6282,7 @@
       "_idAt": 1793091469210,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1793061680247,
+      "_gameAt": 1793092060372,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -6623,6 +6623,11 @@
           "t": 1793061679822,
           "v": "johnjl18",
           "a": 39
+        },
+        {
+          "t": 1793092059992,
+          "v": "zimzimma",
+          "a": 15
         }
       ]
     },
@@ -9295,7 +9300,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8e722545-71bf-4322-9039-50b822ebe64c.jpeg",
       "lastStreamInfo": "OFF THE GRID! Summer League — Off The Grid",
       "lastStreamEndedAt": 1786154686473,
-      "_idAt": 1793069867994
+      "_idAt": 1793092668030
     },
     "ff594749-c9c6-4c0b-9306-ec8fd4252f7e": {
       "username": "weri",
@@ -9363,7 +9368,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7e18d17e-6183-4f08-aad4-77cff2175674.gif",
-      "_idAt": 1793069869176,
+      "_idAt": 1793092669221,
       "_gameAt": 1792441764890,
       "isLive": false,
       "streamCategory": "",
@@ -10028,7 +10033,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "🔨Auction day🔨❤️Trying Mossvale part 5! ❤️",
       "lastStreamEndedAt": 1793071059770,
-      "_idAt": 1793069871575,
+      "_idAt": 1793092671608,
       "mascotMsgs": [
         "Don't forget to Subscribe!",
         "Bald!",
@@ -10605,7 +10610,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793069870375,
+      "_idAt": 1793092670412,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793048526327
@@ -10690,7 +10695,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793069876380
+      "_idAt": 1793092676407
     },
     "79ffc47e-8cb0-4618-9272-c9281368d26e": {
       "username": "vitrene",
@@ -10963,7 +10968,7 @@
       "nudgedKey": "customcmd",
       "lastStreamInfo": "Quest-ionable decisions ahead 🧐 | Runescape Dragonwilds",
       "lastStreamEndedAt": 1792797737378,
-      "_idAt": 1793069872774,
+      "_idAt": 1793092672807,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793086089982,
@@ -11212,7 +11217,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793069875178
+      "_idAt": 1793092675217
     },
     "4ec108d8-b147-4ff7-b1e6-b1f8fa882f61": {
       "username": "omom_",
@@ -11248,7 +11253,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/244df307-0e7a-4ba8-bc0d-afd751a372ab.jpg",
-      "_idAt": 1793069873977
+      "_idAt": 1793092674012
     },
     "1290a27a-b733-42cc-85fe-daa77f965b10": {
       "username": "gmc_gaara27",
@@ -12640,18 +12645,18 @@
       "stats": {
         "totalVotes": 4390,
         "totalSubs": 30,
-        "totalChatMessages": 423,
-        "totalStreamMinutes": 1454,
+        "totalChatMessages": 427,
+        "totalStreamMinutes": 1458,
         "emotes": {
           "❤": 44,
           "🙌": 52,
           "💚": 5,
-          "🔥": 73,
-          "📴": 32,
-          "👋": 36,
+          "🔥": 75,
+          "📴": 33,
+          "👋": 37,
           "🥂": 1,
           "🎁": 4,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 2,
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 4,
           "a859cc12-453a-4bd8-b650-38710d9486de": 10,
           "🙏": 3,
           "👀": 7,
@@ -12722,26 +12727,10 @@
           "💖": "💖",
           "🌍": "🌍"
         },
-        "lastChatAt": 1793091460282,
+        "lastChatAt": 1793092188027,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "I care. What's going on?"
-        },
-        {
-          "user": "helios",
-          "msg": "Right. Share with us if it's something you're comfortable putting in chat"
-        },
-        {
-          "user": "tarzan",
-          "msg": "Ty Ty for cares 😁"
-        },
-        {
-          "user": "tarzan",
-          "msg": "Just happy being here"
-        },
         {
           "user": "tarzan",
           "msg": "Thanks for always coming and saying hi in my channel 💖"
@@ -12765,6 +12754,22 @@
         {
           "user": "helios",
           "msg": "It's a product animation. Currently creating the 3D model of the product"
+        },
+        {
+          "user": "helios",
+          "msg": "I'll be back later"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "helios",
+          "msg": "Eyyyy I'm verified 🔥🔥"
+        },
+        {
+          "user": "helios",
+          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
         }
       ],
       "customCommands": {},
@@ -12774,10 +12779,10 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4366a4c8-c3fa-4296-9014-212a08f2fae3.gif",
-      "streamTitle": "Work stream: 3D design from work",
+      "streamTitle": "",
       "gameOverride": "",
       "lastStreamInfo": "Work stream: 3D design from work",
-      "lastStreamEndedAt": 1793086425567,
+      "lastStreamEndedAt": 1793092089327,
       "profile": "Helios streams chill gaming, rocking Ryse: Son of Rome and spooky Among Us Impostor art. The chat buzzes with “Let’s get building,” “heeey,” “Welcome,” “thank you,” “Cheers,” and “Good vibes.” Members celebrate with a wave, a shout, and “Good game!” Vibe is friendly banter, relaxed support, instant gratitude, and instant hype for new subs, resubs, and tips.",
       "_profileAtCount": 396,
       "loyalty": {
@@ -12880,9 +12885,9 @@
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
       "_idAt": 1793071075174,
-      "_gameAt": 1793091460377,
-      "isLive": true,
-      "streamCategory": "Art",
+      "_gameAt": 1793092080917,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891213,
@@ -14737,7 +14742,7 @@
       "username": "saboomafoo",
       "language": "en",
       "stats": {
-        "totalVotes": 13744,
+        "totalVotes": 13746,
         "totalSubs": 217,
         "totalChatMessages": 543,
         "totalStreamMinutes": 18252,
@@ -15115,6 +15120,11 @@
           "t": 1793079825664,
           "v": "meyetechnicals",
           "a": 25
+        },
+        {
+          "t": 1793092268879,
+          "v": "rexstrong",
+          "a": 2
         }
       ]
     },
@@ -26583,7 +26593,7 @@
       "language": "en",
       "joinedAt": 1786172514205,
       "stats": {
-        "totalVotes": 34928,
+        "totalVotes": 34943,
         "totalSubs": 141,
         "totalChatMessages": 8046,
         "totalStreamMinutes": 14892,
@@ -27474,6 +27484,11 @@
           "t": 1793085920099,
           "v": "dimifw",
           "a": 10
+        },
+        {
+          "t": 1793092059962,
+          "v": "zimzimma",
+          "a": 15
         }
       ]
     },
@@ -33155,10 +33170,10 @@
       "language": "en",
       "joinedAt": 1792508781940,
       "stats": {
-        "totalVotes": 1178,
+        "totalVotes": 1183,
         "totalSubs": 1,
-        "totalChatMessages": 208,
-        "totalStreamMinutes": 588,
+        "totalChatMessages": 214,
+        "totalStreamMinutes": 608,
         "emotes": {
           "👋": 8,
           "❤": 10,
@@ -33168,7 +33183,7 @@
           "📴": 7,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
-          "🗳": 22,
+          "🗳": 25,
           "👀": 3,
           "😱": 2,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 2,
@@ -33180,7 +33195,10 @@
           "⚡": 1,
           "😂": 2,
           "🤔": 1,
-          "⏰": 1
+          "⏰": 1,
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": 2,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 2,
+          "37719561-c923-4260-b1a5-e3eda10c103d": 1
         },
         "emoteNames": {
           "👋": "👋",
@@ -33203,36 +33221,15 @@
           "⚡": "⚡",
           "😂": "😂",
           "🤔": "🤔",
-          "⏰": "⏰"
+          "⏰": "⏰",
+          "809bfa51-da4f-4570-9c70-67a802c6da7b": "LFG2",
+          "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE",
+          "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793091652925
+        "lastChatAt": 1793092526294
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "appreciate the votes last week! her's a double up :)"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 500 votes, @Vitrene!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 honeybear is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: Runescape Dragonwilds! Come hang out and watch."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -33248,6 +33245,30 @@
         {
           "user": "0xscheun",
           "msg": "gm gm"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b] [emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 5 votes, @0xscheun!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @0xscheun just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "honeybear",
+          "msg": "thanks"
+        },
+        {
+          "user": "honeybear",
+          "msg": "[emote:37719561-c923-4260-b1a5-e3eda10c103d]"
         }
       ],
       "customCommands": {},
@@ -33265,7 +33286,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1793091653012,
+      "_gameAt": 1793092402804,
       "isLive": true,
       "streamCategory": "RuneScape",
       "streamTitle": "Runescape Dragonwilds",
@@ -33335,6 +33356,11 @@
           "t": 1793064307143,
           "v": "avisi",
           "a": 16
+        },
+        {
+          "t": 1793092408683,
+          "v": "0xscheun",
+          "a": 5
         }
       ],
       "profile": "honeybear streams Runescape Dragonwilds with a tight crew vibe. Chat chants “NEW FOLLOWER!!” and “Thanks for watching!” while shouting “vote alert” and cracking “telegram” password jokes. Emojis ❤️, 🙌, custom emotes abound. Celebrations include “FREE Entry” giveaways, “1000 Votes” contests, and enthusiastic “see you next time 👋” sign‑offs. The channel thrives on energetic, supportive banter and constant voting.",
@@ -33509,7 +33535,9 @@
       },
       "lastStreamInfo": "✨ Tuesday Quick Stream ✨ VOTE, TIP & SUB to support! ✨",
       "lastStreamEndedAt": 1793084586063,
-      "gameOverride": ""
+      "gameOverride": "",
+      "profile": "nekoschwan streamers love “streaming at 5000‑6000” and “6000 is good for a general baseline.” Chat drops “ayusin mo na” and “back in mindanao” while joking about “burnham park” and “real good shwarma.” They cheer “cya for now” and celebrate with “📴 Stream has ended. Thanks for watching!” The vibe is casual, supportive, and tech‑savvy.",
+      "_profileAtCount": 49
     }
   },
   "blocklist": [
@@ -34679,8 +34707,8 @@
     },
     "theaicampa": {
       "note": "They stream twice daily, love playing Cosmic Invasion, enjoy playful banter, and appreciate chat interactions.",
-      "at": 1793000090563,
-      "n": 3
+      "at": 1793092490628,
+      "n": 4
     },
     "synthnostate": {
       "note": "Chess enthusiast who jokes with “lol” and “kek,” enjoys discussing openings like the Tal Variation, and often pauses for dinner while chatting.",
