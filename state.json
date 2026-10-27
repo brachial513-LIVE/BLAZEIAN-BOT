@@ -8456,14 +8456,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 49425,
+        "totalVotes": 49450,
         "totalSubs": 137,
-        "totalChatMessages": 16531,
+        "totalChatMessages": 16532,
         "totalStreamMinutes": 10397,
         "emotes": {
           "❤": 291,
           "🙌": 436,
-          "🗳": 2024,
+          "🗳": 2027,
           "✌": 12,
           "😊": 11,
           "👍": 20,
@@ -9051,13 +9051,9 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793134617858
+        "lastChatAt": 1793138656848
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "GM gm gm!! ☀️ let's GET it 💚"
-        },
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @piweb has resubscribed (3 months total, 2 months streak)! Thank you for the continued support! 🙌"
@@ -9093,6 +9089,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @time just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Sinnerz just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9319,7 +9319,7 @@
       "lastStreamInfo": "Afternoon at the beach with Mellow",
       "lastStreamEndedAt": 1792796759516,
       "_idAt": 1793137254892,
-      "_gameAt": 1793134617967,
+      "_gameAt": 1793138656987,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -9732,6 +9732,11 @@
           "t": 1793135796202,
           "v": "b1injaninja",
           "a": 1
+        },
+        {
+          "t": 1793138654433,
+          "v": "sinnerz",
+          "a": 25
         }
       ]
     },
@@ -9833,7 +9838,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8e722545-71bf-4322-9039-50b822ebe64c.jpeg",
       "lastStreamInfo": "OFF THE GRID! Summer League — Off The Grid",
       "lastStreamEndedAt": 1786154686473,
-      "_idAt": 1793113286720
+      "_idAt": 1793138446525
     },
     "ff594749-c9c6-4c0b-9306-ec8fd4252f7e": {
       "username": "weri",
@@ -9901,7 +9906,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7e18d17e-6183-4f08-aad4-77cff2175674.gif",
-      "_idAt": 1793113287221,
+      "_idAt": 1793138447712,
       "_gameAt": 1792441764890,
       "isLive": false,
       "streamCategory": "",
@@ -10571,7 +10576,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "🔨Auction day🔨❤️Trying Mossvale part 5! ❤️",
       "lastStreamEndedAt": 1793071059770,
-      "_idAt": 1793113287755,
+      "_idAt": 1793138448917,
       "mascotMsgs": [
         "Don't forget to Subscribe!",
         "Bald!",
@@ -11183,7 +11188,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793113288229,
+      "_idAt": 1793138450109,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793126436754
@@ -11268,7 +11273,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793113288719
+      "_idAt": 1793138451316
     },
     "79ffc47e-8cb0-4618-9272-c9281368d26e": {
       "username": "vitrene",
@@ -11276,12 +11281,12 @@
       "stats": {
         "totalVotes": 24701,
         "totalSubs": 64,
-        "totalChatMessages": 1899,
-        "totalStreamMinutes": 7921,
+        "totalChatMessages": 1902,
+        "totalStreamMinutes": 7941,
         "emotes": {
           "❤": 106,
-          "🙌": 93,
-          "🎁": 116,
+          "🙌": 94,
+          "🎁": 118,
           "🚀": 1,
           "😂": 6,
           "🤣": 39,
@@ -11437,25 +11442,13 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793138382489,
+        "lastChatAt": 1793138444297,
         "lastSendFailAt": 1790979696099,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790984188513,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Thanks for the 120 votes, agent00zani! VIT 🔥🔥"
-        },
-        {
-          "user": "vitrene",
-          "msg": "you doing good, brother?"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 120 vote(s) (total: 120)! Thank you!! 🗳️"
-        },
         {
           "user": "vitrene",
           "msg": "thank you very much!"
@@ -11483,6 +11476,18 @@
         {
           "user": "avisi",
           "msg": "Vitrine! Good to see you ✌️🔥👍"
+        },
+        {
+          "user": "vitrene",
+          "msg": "hi @avisi!"
+        },
+        {
+          "user": "vitrene",
+          "msg": "what is up?"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @avisi! How generous!! 🙌"
         }
       ],
       "customCommands": {},
@@ -11541,7 +11546,7 @@
       "nudgedKey": "customcmd",
       "lastStreamInfo": "Quest-ionable decisions ahead 🧐 | Runescape Dragonwilds",
       "lastStreamEndedAt": 1792797737378,
-      "_idAt": 1793113289236,
+      "_idAt": 1793138452505,
       "streamCategory": "RuneScape",
       "isLive": true,
       "_gameAt": 1793138382584,
@@ -11820,10 +11825,10 @@
           "tier": 1
         }
       },
-      "_idAt": 1793113289729
+      "_idAt": 1793138453706
     },
     "4ec108d8-b147-4ff7-b1e6-b1f8fa882f61": {
-      "username": "omom_",
+      "username": "gmc_omom_",
       "language": "en",
       "stats": {
         "totalVotes": 0,
@@ -11855,8 +11860,8 @@
       "greeted": true,
       "locked": false,
       "followed": true,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/244df307-0e7a-4ba8-bc0d-afd751a372ab.jpg",
-      "_idAt": 1793113290218
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/ca8a30e8-2a1f-4950-8a7b-527439363ebf.jpg",
+      "_idAt": 1793138454904
     },
     "1290a27a-b733-42cc-85fe-daa77f965b10": {
       "username": "gmc_gaara27",
@@ -11865,7 +11870,7 @@
         "totalVotes": 2579,
         "totalSubs": 11,
         "totalChatMessages": 657,
-        "totalStreamMinutes": 2641,
+        "totalStreamMinutes": 2646,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -12020,10 +12025,10 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/42fc3ce1-764e-412d-887f-8933114b11d3.gif",
-      "streamTitle": "🔥 9 Days until Ocarina of Time..",
+      "streamTitle": "",
       "gameOverride": "",
-      "lastStreamInfo": "🔥 Diablo IV – Story comes to End",
-      "lastStreamEndedAt": 1793117714287,
+      "lastStreamInfo": "🔥 9 Days until Ocarina of Time..",
+      "lastStreamEndedAt": 1793138699238,
       "profile": "gmc_gaara27 streams chill beats and “PosiTief presents: West Coast G‑Funk Hour — Music.” The chat vibes with “welcome to blaze bro,” “letsgooo,” “awesome people,” “+follower” cheers, “emote” bursts, and “Verkaufe interessant.” They celebrate with “thank you” and “Thanks :)”, stay upbeat, supportive, always ready for the next groove, love quick shoutouts and volume tweaks.",
       "_profileAtCount": 582,
       "nudgedAt": 1790523497708,
@@ -12087,8 +12092,8 @@
         }
       },
       "_gameAt": 1793135360213,
-      "isLive": true,
-      "streamCategory": "Diablo IV",
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891251,
@@ -15500,7 +15505,7 @@
         "totalVotes": 13801,
         "totalSubs": 217,
         "totalChatMessages": 544,
-        "totalStreamMinutes": 18359,
+        "totalStreamMinutes": 18379,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -20571,12 +20576,12 @@
       "joinedAt": 1784468383925,
       "stats": {
         "totalVotes": 90098,
-        "totalSubs": 96,
-        "totalChatMessages": 5317,
+        "totalSubs": 97,
+        "totalChatMessages": 5318,
         "totalStreamMinutes": 2095,
         "emotes": {
           "❤": 91,
-          "🙌": 163,
+          "🙌": 164,
           "🗳": 1041,
           "💰": 52,
           "🔥": 129,
@@ -20603,7 +20608,7 @@
           "👿": 1,
           "🤓": 3,
           "🤙": 3,
-          "🎁": 128,
+          "🎁": 130,
           "⚡": 7,
           "😈": 1,
           "👀": 13,
@@ -20947,21 +20952,13 @@
           "👐": "👐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793133910809,
+        "lastChatAt": 1793138521867,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
         "recoveredFrom": 15
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "itsbigbrozo said \"here, have 50 votes\" 😤💚 an absolute unit 🔥"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @ItsBigBroZo just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "mindgoblin showing up with 100 votes like a real one 💚🔥"
@@ -20993,6 +20990,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @mindgoblin just gave 100 vote(s) (total: 2300)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @dmasktv! How generous!! 🙌"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "mindgoblin, you just dropped a sub—now let’s give the love fest a full GG! ❤️"
         }
       ],
       "customCommands": {},
@@ -21144,7 +21149,7 @@
       "lastStreamInfo": "A little concept art session",
       "lastStreamEndedAt": 1793057518936,
       "_idAt": 1793113300717,
-      "_gameAt": 1793133843464,
+      "_gameAt": 1793138522015,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -22717,7 +22722,7 @@
         "totalVotes": 3899,
         "totalSubs": 91,
         "totalChatMessages": 37,
-        "totalStreamMinutes": 2369,
+        "totalStreamMinutes": 2389,
         "emotes": {
           "🔥": 5,
           "😎": 1,
@@ -22821,16 +22826,16 @@
       "stats": {
         "totalVotes": 23010,
         "totalSubs": 35,
-        "totalChatMessages": 49925,
-        "totalStreamMinutes": 24346,
+        "totalChatMessages": 50009,
+        "totalStreamMinutes": 24366,
         "emotes": {
           "❤": 172,
           "🙌": 153,
           "🤝": 4,
           "🔥": 74,
           "🔴": 134,
-          "🎉": 683,
-          "🪙": 1226,
+          "🎉": 686,
+          "🪙": 1231,
           "⚡": 941,
           "👀": 130,
           "🍿": 30,
@@ -23006,7 +23011,7 @@
           "🥺": 2,
           "🥈": 137,
           "🥉": 137,
-          "⭐": 433,
+          "⭐": 434,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 11,
           "✊": 2,
           "✋": 2,
@@ -23280,48 +23285,48 @@
           "📐": "📐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793138389077
+        "lastChatAt": 1793139608602
       },
       "chatMemory": [
         {
-          "user": "mauhzera",
-          "msg": "Salve Solução"
+          "user": "lovemikami",
+          "msg": "ahhh simmmm, esse jogo"
         },
         {
           "user": "lovemikami",
-          "msg": "jogo kaizo kkkk"
+          "msg": "achei que donkey kong mania country"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "kkkkkkkkkkk"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Nilo não saiu dos 16Bits"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "kkkkkkkkk"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "kkkkkkkkkkkkkkk"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "8 e 16 bits é minha praia hehehehe"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "onde as câmeras são uma dlç"
         },
         {
           "user": "solucao",
-          "msg": "Parabéns mauh pelo novo microfone"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns, @lovemikami! Você subiu para o Nível 9! 🎉"
-        },
-        {
-          "user": "solucao",
-          "msg": "Headphone mauh"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "Vlw Solução"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "Chefe manipula o tempo, ele volta com toda vida"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "kkkkk"
+          "msg": "Nilao é do tempo Atari"
         },
         {
           "user": "lovemikami",
-          "msg": "daniel só tu aqui curte esse anime kkkkkkkk"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "e o Lipe eu acho"
+          "msg": "atari só joguei space invaders"
         }
       ],
       "customCommands": {},
@@ -23469,7 +23474,7 @@
         }
       },
       "_idAt": 1793113302722,
-      "_gameAt": 1793138348805,
+      "_gameAt": 1793139494957,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -34126,19 +34131,19 @@
       "stats": {
         "totalVotes": 1282,
         "totalSubs": 3,
-        "totalChatMessages": 894,
-        "totalStreamMinutes": 3986,
+        "totalChatMessages": 909,
+        "totalStreamMinutes": 4006,
         "emotes": {
-          "❤": 26,
-          "🙌": 17,
+          "❤": 28,
+          "🙌": 18,
           "🔴": 21,
-          "⚡": 110,
+          "⚡": 112,
           "〽": 21,
           "8245e8d7-5e9a-4c84-b17c-6cd3154fcdec": 1,
           "0385321d-5e5d-4192-9889-3d08fe60d750": 5,
-          "🚨": 72,
-          "🎙": 48,
-          "💗": 48,
+          "🚨": 73,
+          "🎙": 49,
+          "💗": 49,
           "🎉": 11,
           "🍺": 4,
           "😱": 1,
@@ -34209,13 +34214,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793137989585
+        "lastChatAt": 1793138796787
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "if you are lurking type !!lurk and it will triggered a lurk message"
-        },
         {
           "user": "botger",
           "msg": "follow me on the following socials on https://www.linktr.ee/SilverBolt99"
@@ -34233,24 +34234,28 @@
           "msg": "⚡Friends, if you haven't joined the Club, you are missing out! Get an account, hit the follow, let's build a huge community! ⚡\n https://club.com/Silverbolt99"
         },
         {
-          "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
+          "user": "avisi",
+          "msg": "Parky couldn’t see Kingbreaker or myself until he dropped a support ticket. Is what it is. Glad I can lurk on ya."
+        },
+        {
+          "user": "avisi",
+          "msg": "Have some GG’s"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "GG!! 🔥💚 absolute legend behavior"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "ayy @niruntz followed! 🫶 welcome to the good side of the internet 💚"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the follow, @NiRuntz!"
         },
         {
           "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
-        },
-        {
-          "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
-        },
-        {
-          "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
-        },
-        {
-          "user": "botger",
-          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
+          "msg": "❤️ NEW FOLLOWER!! ❤️ NiRuntz just followed the channel! Welcome!! 🙌"
         }
       ],
       "customCommands": {},
@@ -34295,7 +34300,7 @@
           "tier": 1
         }
       },
-      "_gameAt": 1793137989687,
+      "_gameAt": 1793138795045,
       "isLive": true,
       "streamCategory": "ARC Raiders",
       "voteLog": [
@@ -34358,8 +34363,8 @@
       "stats": {
         "totalVotes": 2013,
         "totalSubs": 8,
-        "totalChatMessages": 331,
-        "totalStreamMinutes": 833,
+        "totalChatMessages": 332,
+        "totalStreamMinutes": 853,
         "emotes": {
           "❤": 15,
           "🙌": 7,
@@ -34429,13 +34434,9 @@
           "🤌": "🤌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793137846870
+        "lastChatAt": 1793139011974
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "love it"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 5 votes, @evilshaihulud!"
@@ -34471,6 +34472,10 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @evilshaihulud at https://blaze.stream/evilshaihulud!"
+        },
+        {
+          "user": "desirablebottom",
+          "msg": "what are we doing"
         }
       ],
       "customCommands": {},
@@ -34496,7 +34501,7 @@
       "lastStreamEndedAt": 1793132474886,
       "gameOverride": "",
       "profile": "jasroranox streams casual gaming, mainly Lost Ark dungeons, with a laid‑back vibe. Chat loves “full send,” “gotcha,” and “lets dooooooo it!” They celebrate with “full send” emojis, “😏😏😏😏,” and “[emote:…]” bursts. The community jokes about RNG, shares quick life updates (“i had some tonight some salmon”), and enjoys spontaneous shoutouts and a relaxed, supportive atmosphere.",
-      "_profileAtCount": 264,
+      "_profileAtCount": 332,
       "loyalty": {
         "silverbolt99": {
           "name": "silverbolt99",
@@ -34531,7 +34536,7 @@
       },
       "streamCategory": "Games + Demos",
       "isLive": true,
-      "_gameAt": 1793137780181,
+      "_gameAt": 1793139012144,
       "nudgedAt": 1792289657162,
       "nudgedKey": "schedule",
       "voteLog": [
