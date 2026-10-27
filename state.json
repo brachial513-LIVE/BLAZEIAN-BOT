@@ -14592,7 +14592,7 @@
         "totalVotes": 13744,
         "totalSubs": 217,
         "totalChatMessages": 543,
-        "totalStreamMinutes": 18219,
+        "totalStreamMinutes": 18220,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -33094,8 +33094,8 @@
       "stats": {
         "totalVotes": 2324,
         "totalSubs": 4,
-        "totalChatMessages": 18,
-        "totalStreamMinutes": 4,
+        "totalChatMessages": 20,
+        "totalStreamMinutes": 6,
         "emotes": {
           "🎁": 4,
           "🙌": 5,
@@ -33121,17 +33121,9 @@
           "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793082286887
+        "lastChatAt": 1793082458856
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "💰 TIP ALERT!! 💰 @blazeboost just tipped $2.00!! Thank you so much!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 1800 vote(s) (total: 2000)! Thank you!! 🗳️"
@@ -33163,6 +33155,14 @@
         {
           "user": "squiddy",
           "msg": "mas malakas pa mic ni Jinggoy"
+        },
+        {
+          "user": "squiddy",
+          "msg": "baka cam nakalagay"
+        },
+        {
+          "user": "squiddy",
+          "msg": "laro ka na madam, yaan mo na hahaha ayusin mo na lang next game"
         }
       ],
       "customCommands": {},
@@ -34754,8 +34754,8 @@
     }
   },
   "auth": {
-    "accessToken": "040de71d08f1f7972e6e54d859bd2a0c",
-    "refreshToken": "267832d9652f659df69bcad727b520b8",
+    "accessToken": "1b8a324b84730d1b74561322f4bed916",
+    "refreshToken": "8ce83211ab3c1c5fd37ac221db30e1ab",
     "sessionToken": "6bf6953803f72f4e47fd6425682ad5a6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
