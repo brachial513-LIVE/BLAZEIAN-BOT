@@ -14592,7 +14592,7 @@
         "totalVotes": 13744,
         "totalSubs": 217,
         "totalChatMessages": 543,
-        "totalStreamMinutes": 18215,
+        "totalStreamMinutes": 18219,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -33092,14 +33092,14 @@
       "language": "en",
       "joinedAt": 1792942587520,
       "stats": {
-        "totalVotes": 2299,
+        "totalVotes": 2324,
         "totalSubs": 4,
-        "totalChatMessages": 13,
-        "totalStreamMinutes": 1,
+        "totalChatMessages": 18,
+        "totalStreamMinutes": 4,
         "emotes": {
           "🎁": 4,
           "🙌": 5,
-          "🗳": 12,
+          "🗳": 15,
           "💚": 1,
           "🔥": 5,
           "💰": 2,
@@ -33121,29 +33121,9 @@
           "🎉": "🎉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793082101038
+        "lastChatAt": 1793082286887
       },
       "chatMemory": [
-        {
-          "user": "brachial513",
-          "msg": "GGs for winning 50 Votes at our Weekly Fox Spirits Giveaway ! Thank you for beeing Awesome ! 💚"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @nekoschwan just gifted a sub to @Future42! How generous!! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @russelfpsx has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @Squiddy has resubscribed (5 months total, 2 months streak)! Thank you for the continued support! 🙌"
-        },
         {
           "user": "botger",
           "msg": "💰 TIP ALERT!! 💰 @blazeboost just tipped $2.00!! Thank you so much!! 🙌"
@@ -33163,6 +33143,26 @@
         {
           "user": "botger",
           "msg": "🔴 nekoschwan is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Squiddy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "squiddy",
+          "msg": "ang harot"
+        },
+        {
+          "user": "squiddy",
+          "msg": "hina ng mic mooooo niku"
+        },
+        {
+          "user": "squiddy",
+          "msg": "Yis"
+        },
+        {
+          "user": "squiddy",
+          "msg": "mas malakas pa mic ni Jinggoy"
         }
       ],
       "customCommands": {},
@@ -33182,10 +33182,10 @@
       "followed": true,
       "_idAt": 1793081872790,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d30a5641-e3d3-4cba-a6b2-1a233aab45a0.gif",
-      "_gameAt": 1793082100607,
+      "_gameAt": 1793082286978,
       "isLive": true,
       "streamCategory": "VALORANT",
-      "streamTitle": "✨ SUNDAY IS? ✨ VOTE, TIP & SUB to support! ✨",
+      "streamTitle": "✨ Tuesday Quick Stream ✨ VOTE, TIP & SUB to support! ✨",
       "voteLog": [
         {
           "t": 1792948307236,
@@ -33231,6 +33231,11 @@
           "t": 1793069988736,
           "v": "avisi",
           "a": 1800
+        },
+        {
+          "t": 1793082198641,
+          "v": "squiddy",
+          "a": 25
         }
       ],
       "loyalty": {
@@ -34749,8 +34754,8 @@
     }
   },
   "auth": {
-    "accessToken": "fb0974e28f1736529d935ac0404bc5e4",
-    "refreshToken": "b2bef554339fe8c0afd4a370134746b4",
+    "accessToken": "040de71d08f1f7972e6e54d859bd2a0c",
+    "refreshToken": "267832d9652f659df69bcad727b520b8",
     "sessionToken": "6bf6953803f72f4e47fd6425682ad5a6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
