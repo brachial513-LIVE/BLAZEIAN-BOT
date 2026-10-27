@@ -14547,7 +14547,7 @@
         "totalVotes": 13719,
         "totalSubs": 217,
         "totalChatMessages": 543,
-        "totalStreamMinutes": 18125,
+        "totalStreamMinutes": 18130,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -29478,8 +29478,8 @@
       "stats": {
         "totalVotes": 7353,
         "totalSubs": 20,
-        "totalChatMessages": 448,
-        "totalStreamMinutes": 906,
+        "totalChatMessages": 449,
+        "totalStreamMinutes": 911,
         "emotes": {
           "🥰": 55,
           "❤": 32,
@@ -29613,17 +29613,13 @@
           "70701b7c-00e2-4785-9e22-9eb874b4d975": "76"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793076644597,
+        "lastChatAt": 1793076961553,
         "lastSendFailAt": 1790973732516,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790974734782,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "mediart",
-          "msg": "[emote:be462809-e218-47de-bca2-5a20890392ba] [emote:38286613-a881-4584-aa2e-1f542afd8f94]"
-        },
         {
           "user": "mediart",
           "msg": "Thank you so much for Votes Noxx 🥰🙏 [emote:ce245b7b-6434-4dc7-804f-3a0e556ff4d5]"
@@ -29659,6 +29655,10 @@
         {
           "user": "mediart",
           "msg": "Alright, buddy! 😎💚"
+        },
+        {
+          "user": "briggsy",
+          "msg": "This one is for you, Medi."
         }
       ],
       "customCommands": {},
@@ -29742,7 +29742,7 @@
         }
       },
       "_idAt": 1793055472777,
-      "_gameAt": 1793076644686,
+      "_gameAt": 1793076961657,
       "isLive": true,
       "streamCategory": "Art",
       "voteLog": [
@@ -29857,7 +29857,7 @@
         "totalVotes": 2027,
         "totalSubs": 10,
         "totalChatMessages": 181,
-        "totalStreamMinutes": 10098,
+        "totalStreamMinutes": 10103,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -34646,8 +34646,8 @@
     }
   },
   "auth": {
-    "accessToken": "a26cd897e6761d3492b699d5cd11afee",
-    "refreshToken": "7d4e197ea2dc10947dc2fda3e4b1c6c2",
+    "accessToken": "a8006fc20337d50289f8644b0a789586",
+    "refreshToken": "95bb95762c78ae2ee727cb8ad60cca62",
     "sessionToken": "6bf6953803f72f4e47fd6425682ad5a6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
