@@ -12641,7 +12641,7 @@
         "totalVotes": 4390,
         "totalSubs": 30,
         "totalChatMessages": 420,
-        "totalStreamMinutes": 1428,
+        "totalStreamMinutes": 1433,
         "emotes": {
           "❤": 44,
           "🙌": 52,
@@ -33155,15 +33155,15 @@
       "stats": {
         "totalVotes": 1178,
         "totalSubs": 1,
-        "totalChatMessages": 201,
-        "totalStreamMinutes": 566,
+        "totalChatMessages": 207,
+        "totalStreamMinutes": 567,
         "emotes": {
-          "👋": 7,
+          "👋": 8,
           "❤": 10,
           "🙌": 5,
-          "🔴": 6,
-          "🎉": 8,
-          "📴": 6,
+          "🔴": 8,
+          "🎉": 10,
+          "📴": 7,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 1,
           "🗳": 22,
@@ -33204,33 +33204,9 @@
           "⏰": "⏰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793083011965
+        "lastChatAt": 1793090457568
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 8 votes, @bronzeagle!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @BonsaiFox!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 8 votes, @smrt!"
-        },
-        {
-          "user": "botger",
-          "msg": "⏰ Reminder: your botger free trial expires in less than 24 hours! After it ends, event alerts and OBS overlay remain free. Subscribe at blaze.stream/botger to keep keyphrases, custom commands, and weekly votes. 🗳️"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 800 votes, @squall09!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 16 votes, @avisi!"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @avisi just gave 16 vote(s) (total: 16)! Thank you!! 🗳️"
@@ -33246,6 +33222,30 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 honeybear is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Runescape Dragonwilds! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 honeybear is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: Runescape Dragonwilds! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -33263,15 +33263,15 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1793083010107,
-      "isLive": false,
-      "streamCategory": "",
-      "streamTitle": "",
+      "_gameAt": 1793090456482,
+      "isLive": true,
+      "streamCategory": "RuneScape",
+      "streamTitle": "Runescape Dragonwilds",
       "_idAt": 1793080675194,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9ae5ffbd-71b4-4992-8061-ba04225b1dc2.jpg",
       "followed": true,
       "lastStreamInfo": "Runescape Dragonwilds",
-      "lastStreamEndedAt": 1792703732298,
+      "lastStreamEndedAt": 1793090424478,
       "gameOverride": "",
       "voteLog": [
         {
@@ -35012,8 +35012,8 @@
     }
   },
   "auth": {
-    "accessToken": "1194406d5a701913b9eddf7cfd6ad418",
-    "refreshToken": "f8cd1c780eedf6f6daee094a0e56e0eb",
+    "accessToken": "8631b1145e13c7213823a6943ecd4fb5",
+    "refreshToken": "2797f3325ef12abfa76545f93e6089f8",
     "sessionToken": "6bf6953803f72f4e47fd6425682ad5a6",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
