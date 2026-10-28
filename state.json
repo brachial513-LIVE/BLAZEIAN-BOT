@@ -7226,8 +7226,8 @@
       "stats": {
         "totalVotes": 41364,
         "totalSubs": 78,
-        "totalChatMessages": 5007,
-        "totalStreamMinutes": 18957,
+        "totalChatMessages": 5008,
+        "totalStreamMinutes": 18962,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -7559,13 +7559,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793188476799
+        "lastChatAt": 1793188609747
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "🎶Boats and Ho's🎶"
-        },
         {
           "user": "avisi",
           "msg": "[emote:248db14b-f100-4838-be4d-8e265634e892] [emote:248db14b-f100-4838-be4d-8e265634e892] [emote:248db14b-f100-4838-be4d-8e265634e892]"
@@ -7601,6 +7597,10 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "Good morning!! ☀️ welcome to the chaos 💚🔥"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "Howdy @just_for_lucas"
         }
       ],
       "customCommands": {},
@@ -11122,7 +11122,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1016,
-        "totalStreamMinutes": 25786,
+        "totalStreamMinutes": 25791,
         "emotes": {
           "❤": 136,
           "🙌": 44,
@@ -12044,7 +12044,7 @@
         "totalVotes": 2591,
         "totalSubs": 11,
         "totalChatMessages": 659,
-        "totalStreamMinutes": 2651,
+        "totalStreamMinutes": 2656,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -35669,15 +35669,15 @@
       "joinedAt": 1792942587520,
       "stats": {
         "totalVotes": 2639,
-        "totalSubs": 9,
-        "totalChatMessages": 150,
-        "totalStreamMinutes": 248,
+        "totalSubs": 10,
+        "totalChatMessages": 151,
+        "totalStreamMinutes": 253,
         "emotes": {
           "🎁": 10,
-          "🙌": 10,
+          "🙌": 11,
           "🗳": 27,
           "💚": 1,
-          "🔥": 9,
+          "🔥": 11,
           "💰": 2,
           "🤜": 1,
           "🤛": 1,
@@ -35711,17 +35711,9 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": "SHOCKEDPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793188333080
+        "lastChatAt": 1793188623972
       },
       "chatMemory": [
-        {
-          "user": "desirablebottom",
-          "msg": "we need a medic!"
-        },
-        {
-          "user": "timdraws",
-          "msg": "wth they all have high lvl gear"
-        },
         {
           "user": "timdraws",
           "msg": "you can explode the building"
@@ -35753,6 +35745,14 @@
         {
           "user": "timdraws",
           "msg": "oh its a skinhaha"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @wapi has resubscribed (7 months total, 1 month streak)! Thank you for the continued support! 🙌"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Wapi, you just lit up the channel—subbing in and making nekoschwan's vibes 100% fire! 🔥💖"
         }
       ],
       "customCommands": {},
@@ -35772,7 +35772,7 @@
       "followed": true,
       "_idAt": 1793172050080,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d30a5641-e3d3-4cba-a6b2-1a233aab45a0.gif",
-      "_gameAt": 1793188273181,
+      "_gameAt": 1793188624063,
       "isLive": true,
       "streamCategory": "Enshrouded",
       "streamTitle": "✨ Trying Out New Game ✨ VOTE, TIP & SUB to support! ✨",
@@ -35901,6 +35901,11 @@
         },
         "desirablebottom": {
           "name": "desirablebottom",
+          "months": 1,
+          "tier": 1
+        },
+        "wapi": {
+          "name": "wapi",
           "months": 1,
           "tier": 1
         }
@@ -37399,8 +37404,8 @@
     }
   },
   "auth": {
-    "accessToken": "d9b6c728d45dded2a16968b76f3912e5",
-    "refreshToken": "703e1df04160dd52d8b25cd2e4aeb53d",
+    "accessToken": "3d3f8f1d07d49124e0ffbd057d6b81d6",
+    "refreshToken": "2ace492793c05c45d94fde8f5f93d1c1",
     "sessionToken": "fc5af2bf68f35530231a2a7c681ae246",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
