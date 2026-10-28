@@ -1808,7 +1808,7 @@
       "commentMode": "silent",
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
-      "_idAt": 1793136051280,
+      "_idAt": 1793158851321,
       "_gameAt": 1793141516317,
       "isLive": false,
       "streamCategory": "",
@@ -2939,7 +2939,7 @@
       "nudgedKey": "schedule",
       "botVip": true,
       "commentMode": "silent",
-      "_idAt": 1793136052474,
+      "_idAt": 1793158852526,
       "_gameAt": 1793154583782,
       "isLive": false,
       "streamCategory": "",
@@ -4223,7 +4223,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793136053681,
+      "_idAt": 1793158853715,
       "raidConfig": {
         "gif": "",
         "audio": "",
@@ -4857,7 +4857,7 @@
       "lastStreamEndedAt": 1789956701893,
       "nudgedAt": 1786436965117,
       "nudgedKey": "schedule",
-      "_idAt": 1793136054881,
+      "_idAt": 1793158855016,
       "_gameAt": 1792681892895,
       "isLive": false,
       "streamCategory": ""
@@ -10016,7 +10016,7 @@
         "totalVotes": 52989,
         "totalSubs": 96,
         "totalChatMessages": 10441,
-        "totalStreamMinutes": 17962,
+        "totalStreamMinutes": 17967,
         "emotes": {
           "❤": 195,
           "🙌": 237,
@@ -18074,16 +18074,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 41600,
+        "totalVotes": 41650,
         "totalSubs": 194,
-        "totalChatMessages": 4321,
-        "totalStreamMinutes": 21837,
+        "totalChatMessages": 4322,
+        "totalStreamMinutes": 21842,
         "emotes": {
           "❤": 156,
           "🙌": 273,
           "💚": 3,
           "🔥": 161,
-          "🗳": 1146,
+          "🗳": 1149,
           "🔴": 183,
           "🎉": 239,
           "📴": 179,
@@ -18311,17 +18311,9 @@
           "7573c501-7624-43cf-9189-0db1f8d22172": "PYROTHESTREAMER"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793158727149
+        "lastChatAt": 1793158875753
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "botger might whisper, “I’d just give a big emoji hug back!” 🌟"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Yo, I'm BlazeianBot 💚 here's what I can do:"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "🧠 Tag @blazeian_bot_ai and I actually read & reply (in your language) · 🎉 I hype subs, gifted subs, follows, raids, votes & TIPS 💰 · 📊 !stats !votes !subs !time !emote !game track this channel"
@@ -18353,6 +18345,14 @@
         {
           "user": "briggsy",
           "msg": "Hey Faithy, man"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Huge thanks briggsy for that 50 vote—your support means the whole crew!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -18815,6 +18815,11 @@
           "t": 1793146012867,
           "v": "dwb9000",
           "a": 6
+        },
+        {
+          "t": 1793158873443,
+          "v": "briggsy",
+          "a": 50
         }
       ]
     },
@@ -37223,8 +37228,8 @@
     }
   },
   "auth": {
-    "accessToken": "cb0d80a78edd941958f15f4bd8c85253",
-    "refreshToken": "b6d1f5f6b2a6c448e2843ca2be85731f",
+    "accessToken": "8f13d3855277683cfbd44ee88455dd37",
+    "refreshToken": "c45d289eee50f494fe7cd92636b46584",
     "sessionToken": "fc5af2bf68f35530231a2a7c681ae246",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
