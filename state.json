@@ -7227,7 +7227,7 @@
         "totalVotes": 41384,
         "totalSubs": 78,
         "totalChatMessages": 5023,
-        "totalStreamMinutes": 19169,
+        "totalStreamMinutes": 19176,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -12054,7 +12054,7 @@
         "totalVotes": 2591,
         "totalSubs": 11,
         "totalChatMessages": 661,
-        "totalStreamMinutes": 2710,
+        "totalStreamMinutes": 2716,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -16425,7 +16425,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 97,
-        "totalStreamMinutes": 14241,
+        "totalStreamMinutes": 14247,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -18175,7 +18175,7 @@
         "totalVotes": 41725,
         "totalSubs": 194,
         "totalChatMessages": 4348,
-        "totalStreamMinutes": 22058,
+        "totalStreamMinutes": 22065,
         "emotes": {
           "❤": 158,
           "🙌": 274,
@@ -24254,7 +24254,7 @@
         "totalVotes": 14678,
         "totalSubs": 42,
         "totalChatMessages": 1967,
-        "totalStreamMinutes": 12847,
+        "totalStreamMinutes": 12853,
         "emotes": {
           "❤": 101,
           "🙌": 77,
@@ -27590,16 +27590,16 @@
       "stats": {
         "totalVotes": 11353,
         "totalSubs": 33,
-        "totalChatMessages": 1525,
-        "totalStreamMinutes": 15482,
+        "totalChatMessages": 1527,
+        "totalStreamMinutes": 15483,
         "emotes": {
           "❤": 97,
           "🙌": 79,
           "🔥": 52,
           "💚": 2,
           "🤝": 1,
-          "🔴": 99,
-          "🎉": 112,
+          "🔴": 100,
+          "🎉": 113,
           "🗳": 261,
           "📴": 102,
           "👋": 104,
@@ -27717,17 +27717,9 @@
           "🐝": "🐝"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793146013320
+        "lastChatAt": 1793201573989
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @tom2329!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @FatherSena!"
-        },
         {
           "user": "botger",
           "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
@@ -27759,6 +27751,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 6 votes, @dwb9000!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: MW4 campaign! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -27772,7 +27772,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9da55831-44bb-4899-ba48-50b3bff3c19a.png",
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "MW4 campaign",
       "lastStreamInfo": "MW4 campaign",
       "lastStreamEndedAt": 1793135734710,
       "gameOverride": "",
@@ -27863,9 +27863,9 @@
         }
       },
       "_idAt": 1793188853694,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793146013420,
+      "streamCategory": "Call Of Duty: Modern Warfare 4",
+      "isLive": true,
+      "_gameAt": 1793201573472,
       "voteLog": [
         {
           "t": 1792429891257,
@@ -28535,7 +28535,7 @@
       "stats": {
         "totalVotes": 35913,
         "totalSubs": 142,
-        "totalChatMessages": 8122,
+        "totalChatMessages": 8123,
         "totalStreamMinutes": 15073,
         "emotes": {
           "😅": 8,
@@ -28569,7 +28569,7 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 51,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 26,
           "📴": 67,
-          "d021d096-f2ed-48e4-92df-af5f224e1a3f": 326,
+          "d021d096-f2ed-48e4-92df-af5f224e1a3f": 335,
           "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 210,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 41,
           "📢": 86,
@@ -28800,7 +28800,7 @@
           "💕": "💕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793151939802,
+        "lastChatAt": 1793201514946,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -28808,10 +28808,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "lets go raid mindgoblin"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "OH?! OH WOW-- allybear just raided us?! I'm not crying you're crying 😭💚 Welcome welcome WELCOME to the family!! 🔥"
@@ -28847,6 +28843,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "[emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f]"
         }
       ],
       "customCommands": {},
@@ -29133,7 +29133,7 @@
         "entries": []
       },
       "_idAt": 1793191247712,
-      "_gameAt": 1793151939936,
+      "_gameAt": 1793201515094,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -29517,7 +29517,7 @@
         "totalVotes": 18201,
         "totalSubs": 110,
         "totalChatMessages": 1236,
-        "totalStreamMinutes": 4276,
+        "totalStreamMinutes": 4283,
         "emotes": {
           "❤": 96,
           "🙌": 154,
@@ -30343,8 +30343,8 @@
       "stats": {
         "totalVotes": 7399,
         "totalSubs": 37,
-        "totalChatMessages": 1801,
-        "totalStreamMinutes": 12270,
+        "totalChatMessages": 1802,
+        "totalStreamMinutes": 12273,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -30382,7 +30382,7 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": 7,
           "60967948-8805-42ef-a202-051d2e2f1557": 7,
           "🙌": 1,
-          "fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb": 212,
+          "fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb": 215,
           "c3726a5d-38e3-4b44-b06f-ad1cc637e041": 359,
           "✌": 1,
           "👍": 2,
@@ -30470,13 +30470,9 @@
           "😔": "😔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793128243742
+        "lastChatAt": 1793201578542
       },
       "chatMemory": [
-        {
-          "user": "tarzan",
-          "msg": "All best in your games today both you and @FartVader"
-        },
         {
           "user": "nekoschwan",
           "msg": "[emote:3cf95bc1-83e8-4de3-84a0-3af27264496d] [emote:3cf95bc1-83e8-4de3-84a0-3af27264496d] [emote:3cf95bc1-83e8-4de3-84a0-3af27264496d]"
@@ -30512,6 +30508,10 @@
         {
           "user": "cripiechuccles",
           "msg": "[emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052]"
+        },
+        {
+          "user": "fartvader",
+          "msg": "[emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb]  lets goo"
         }
       ],
       "customCommands": {},
@@ -30522,7 +30522,7 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Get a chance to win 455 Votes! 10 Votes only per entry! Capped at 10 entries! BLAZE ON!",
       "lastStreamInfo": "Get a chance to win 455 Votes! 10 Votes only per entry! Capped at 10 entries! BLAZE ON!",
       "lastStreamEndedAt": 1793128462648,
       "gameOverride": "",
@@ -30640,9 +30640,9 @@
         }
       },
       "_idAt": 1793188854913,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793128243876,
+      "streamCategory": "Pokémon Channel",
+      "isLive": true,
+      "_gameAt": 1793201419164,
       "voteLog": [
         {
           "t": 1792429891447,
@@ -37450,8 +37450,8 @@
     }
   },
   "auth": {
-    "accessToken": "f50c73b4502fc943039bb9976576654f",
-    "refreshToken": "f167c137fd7cabb4fea4a54169dfc5e6",
+    "accessToken": "858d4016dedba8d54e856a97af47073d",
+    "refreshToken": "3d346e56a9e2f6efcc53cd25ecfdd680",
     "sessionToken": "c5f3993b799c5cd1abe9b4ac7e5e5411",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
