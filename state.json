@@ -7227,7 +7227,7 @@
         "totalVotes": 41384,
         "totalSubs": 78,
         "totalChatMessages": 5016,
-        "totalStreamMinutes": 19041,
+        "totalStreamMinutes": 19052,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -11132,7 +11132,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1016,
-        "totalStreamMinutes": 25870,
+        "totalStreamMinutes": 25881,
         "emotes": {
           "❤": 136,
           "🙌": 44,
@@ -24252,7 +24252,7 @@
         "totalVotes": 14678,
         "totalSubs": 42,
         "totalChatMessages": 1963,
-        "totalStreamMinutes": 12774,
+        "totalStreamMinutes": 12785,
         "emotes": {
           "❤": 101,
           "🙌": 77,
@@ -32876,14 +32876,14 @@
       "stats": {
         "totalVotes": 10752,
         "totalSubs": 20,
-        "totalChatMessages": 379,
+        "totalChatMessages": 381,
         "totalStreamMinutes": 1639,
         "emotes": {
           "❤": 24,
           "🙌": 33,
           "🎁": 8,
-          "🔴": 17,
-          "🎉": 17,
+          "🔴": 18,
+          "🎉": 18,
           "📴": 18,
           "👋": 18,
           "⏰": 1,
@@ -32898,7 +32898,7 @@
           "🤣": 5,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 2,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 3,
-          "📊": 4,
+          "📊": 5,
           "37719561-c923-4260-b1a5-e3eda10c103d": 4,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 2
         },
@@ -32927,21 +32927,9 @@
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793028167566
+        "lastChatAt": 1793194244043
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
-        },
-        {
-          "user": "victorribeiro02",
-          "msg": "boa man"
-        },
-        {
-          "user": "victorribeiro02",
-          "msg": "to pelo m3 ta meio feio"
-        },
         {
           "user": "0xscheun",
           "msg": "Heyyyyo bro"
@@ -32969,6 +32957,18 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 destinoprospero is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 📊 DayTrade | Índices • Metais • Crypto — Leitura do Mercado em Tempo Real! Come hang out and watch."
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Wish scurvybot could reply—imagine it shouting “I’m just a script, but I’d love to trade jokes with you!” in this chat."
         }
       ],
       "customCommands": {},
@@ -32981,7 +32981,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5f46f02-430b-41d6-bfa3-774916ad25fe.gif",
-      "streamTitle": "",
+      "streamTitle": "📊 DayTrade | Índices • Metais • Crypto — Leitura do Mercado em Tempo Real",
       "lastStreamInfo": "📊 DayTrade | Índices • Metais • Crypto — Leitura do Mercado em Tempo Real",
       "lastStreamEndedAt": 1793028162425,
       "gameOverride": "",
@@ -33057,9 +33057,9 @@
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
       "_idAt": 1793192447702,
-      "_gameAt": 1793028162911,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793194243878,
+      "isLive": true,
+      "streamCategory": "IRL",
       "voteLog": [
         {
           "t": 1792964355790,
@@ -35696,7 +35696,7 @@
         "totalVotes": 2659,
         "totalSubs": 10,
         "totalChatMessages": 166,
-        "totalStreamMinutes": 332,
+        "totalStreamMinutes": 343,
         "emotes": {
           "🎁": 10,
           "🙌": 11,
@@ -36066,9 +36066,9 @@
       "n": 3
     },
     "cedricdebled": {
-      "note": "Enjoys nostalgic FPS games, guitar riffs, Muse, and playful meme‑style humor.",
-      "at": 1793127108999,
-      "n": 43
+      "note": "They enjoy nostalgic FPS games, guitar riffs, Muse, and playful meme‑style humor.",
+      "at": 1793193769028,
+      "n": 44
     },
     "xeventv38": {
       "note": "They appear to enjoy playing games, appreciate humor, and have a lighthearted tone, often using comedic expressions.",
@@ -37443,8 +37443,8 @@
     }
   },
   "auth": {
-    "accessToken": "2d207d61943416f37aea17ad7e28ed53",
-    "refreshToken": "4ef9cf58de622549a186595303126ec3",
+    "accessToken": "99cd430ee2acd456c69787020f137407",
+    "refreshToken": "1a8bb9f6e271b9c71637f64c179b7645",
     "sessionToken": "fc5af2bf68f35530231a2a7c681ae246",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
