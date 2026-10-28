@@ -1109,14 +1109,14 @@
       "language": "en",
       "stats": {
         "totalVotes": 148020,
-        "totalSubs": 225,
-        "totalChatMessages": 11617,
+        "totalSubs": 226,
+        "totalChatMessages": 11619,
         "totalStreamMinutes": 4337,
         "emotes": {
           "🗳": 2349,
           "❤": 561,
-          "🙌": 343,
-          "🔥": 321,
+          "🙌": 344,
+          "🔥": 323,
           "☺": 8,
           "🔴": 41,
           "🎉": 149,
@@ -1499,21 +1499,13 @@
           "🤪": "🤪"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793161337016,
+        "lastChatAt": 1793182080294,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @razmr_eth just gave 1 vote(s) (total: 1)! Thank you!! 🗳️"
-        },
         {
           "user": "razmr_eth",
           "msg": "&gt;&lt;"
@@ -1545,6 +1537,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
+        },
+        {
+          "user": "honeybear",
+          "msg": "Thanks so much for the votes"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 RESUB HYPE!! 🔥 @Honeybear has resubscribed (8 months total, 1 month streak)! Thank you for the continued support! 🙌"
         }
       ],
       "customCommands": {},
@@ -1803,6 +1803,11 @@
           "name": "parky",
           "months": 1,
           "tier": 1
+        },
+        "honeybear": {
+          "name": "honeybear",
+          "months": 1,
+          "tier": 1
         }
       },
       "profile": "Welcome to vroshi55’s fire zone! XP fest vibes, vote alerts, crypto chatter, and gaming talk keep the channel lit. Half‑Life, Portal, Friday/Saturday vibes dominate. Celebrate with “love fest,” cook, and spill the tea! Keep the XP fest alive, stay “lit,” and never miss a “GGS” moment. Stay hype, keep the XP fest alive, and never miss a “GGS” moment.",
@@ -1814,7 +1819,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life — Crypto",
       "lastStreamEndedAt": 1791861037432,
       "_idAt": 1793181651293,
-      "_gameAt": 1793161337124,
+      "_gameAt": 1793182064889,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -5560,7 +5565,7 @@
           "dur": 27
         }
       },
-      "_idAt": 1793160046563,
+      "_idAt": 1793182846531,
       "_gameAt": 1793147006199,
       "isLive": false,
       "streamCategory": "",
@@ -6624,7 +6629,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1793137400726,
-      "_idAt": 1793160047715,
+      "_idAt": 1793182847686,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793177580957,
@@ -7209,7 +7214,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1793160048901,
+      "_idAt": 1793182848888,
       "_gameAt": 1792904268887,
       "isLive": false,
       "streamCategory": "",
@@ -7695,7 +7700,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "West Bound south east Texas on the ICW",
       "lastStreamEndedAt": 1792423488702,
-      "_idAt": 1793160050094,
+      "_idAt": 1793182850090,
       "_gameAt": 1793140150968,
       "isLive": false,
       "streamCategory": "",
@@ -8038,7 +8043,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793160051290
+      "_idAt": 1793182851286
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -8419,7 +8424,7 @@
       "lastStreamEndedAt": 1793059038287,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1793160052494,
+      "_idAt": 1793182852486,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793146013917,
@@ -8542,7 +8547,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1793160053790
+      "_idAt": 1793182853690
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -9416,7 +9421,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Just go live, it's not that hard...",
       "lastStreamEndedAt": 1793177101396,
-      "_idAt": 1793160054934,
+      "_idAt": 1793182854886,
       "_gameAt": 1793177059184,
       "isLive": false,
       "streamCategory": "",
@@ -17578,9 +17583,9 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 26983,
+        "totalVotes": 27033,
         "totalSubs": 67,
-        "totalChatMessages": 2706,
+        "totalChatMessages": 2708,
         "totalStreamMinutes": 5219,
         "emotes": {
           "❤": 182,
@@ -17609,7 +17614,7 @@
           "😜": 4,
           "⚠": 4,
           "🎯": 4,
-          "🗳": 525,
+          "🗳": 528,
           "🥷": 2,
           "💯": 4,
           "📢": 10,
@@ -17765,21 +17770,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793146013218
+        "lastChatAt": 1793183047204
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @tom2329!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @FatherSena!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @omererkmen!"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "badger showing up with 50 votes like a real one 💚🔥"
@@ -17807,6 +17800,18 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 6 votes, @dwb9000!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 50 votes, @Sinnerz!"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Huge thanks, sinnerz, for that 50-point boost—your support keeps the vibes blazing!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Sinnerz just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -17925,7 +17930,7 @@
       "lastStreamInfo": "[UK] #42 ITS FRIDAY!!! - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
       "lastStreamEndedAt": 1792797919814,
       "_idAt": 1793163653688,
-      "_gameAt": 1793146013294,
+      "_gameAt": 1793183045417,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -18133,6 +18138,11 @@
           "t": 1793146012810,
           "v": "dwb9000",
           "a": 6
+        },
+        {
+          "t": 1793183044976,
+          "v": "sinnerz",
+          "a": 50
         }
       ]
     },
@@ -35394,15 +35404,15 @@
       "stats": {
         "totalVotes": 1928,
         "totalSubs": 1,
-        "totalChatMessages": 303,
-        "totalStreamMinutes": 874,
+        "totalChatMessages": 307,
+        "totalStreamMinutes": 876,
         "emotes": {
-          "👋": 12,
+          "👋": 13,
           "❤": 12,
           "🙌": 7,
           "🔴": 12,
           "🎉": 14,
-          "📴": 11,
+          "📴": 12,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
           "a859cc12-453a-4bd8-b650-38710d9486de": 4,
           "🗳": 34,
@@ -35457,25 +35467,9 @@
           "🙏": "🙏"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793181517675
+        "lastChatAt": 1793182034071
       },
       "chatMemory": [
-        {
-          "user": "honeybear",
-          "msg": "getting there"
-        },
-        {
-          "user": "honeybear",
-          "msg": "just trying to figure it out now"
-        },
-        {
-          "user": "honeybear",
-          "msg": "obviously stone foundations are probably better"
-        },
-        {
-          "user": "honeybear",
-          "msg": "when I level up I'll build a better one out of stone and oak"
-        },
         {
           "user": "0xscheun",
           "msg": "GM GM"
@@ -35499,6 +35493,22 @@
         {
           "user": "0xscheun",
           "msg": "Agreed"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "honeybear",
+          "msg": "gtg"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "honeybear",
+          "msg": "be back later"
         }
       ],
       "customCommands": {},
@@ -35516,15 +35526,15 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_gameAt": 1793181463017,
-      "isLive": true,
-      "streamCategory": "RuneScape",
-      "streamTitle": "Runescape Dragonwilds",
+      "_gameAt": 1793182027583,
+      "isLive": false,
+      "streamCategory": "",
+      "streamTitle": "",
       "_idAt": 1793170852476,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9ae5ffbd-71b4-4992-8061-ba04225b1dc2.jpg",
       "followed": true,
       "lastStreamInfo": "Runescape Dragonwilds",
-      "lastStreamEndedAt": 1793127310362,
+      "lastStreamEndedAt": 1793182027066,
       "gameOverride": "",
       "voteLog": [
         {
@@ -35656,7 +35666,7 @@
         "totalVotes": 2639,
         "totalSubs": 6,
         "totalChatMessages": 103,
-        "totalStreamMinutes": 138,
+        "totalStreamMinutes": 158,
         "emotes": {
           "🎁": 6,
           "🙌": 7,
