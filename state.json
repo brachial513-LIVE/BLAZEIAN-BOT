@@ -4846,14 +4846,14 @@
       "stats": {
         "totalVotes": 32653,
         "totalSubs": 122,
-        "totalChatMessages": 9649,
-        "totalStreamMinutes": 29512,
+        "totalChatMessages": 9650,
+        "totalStreamMinutes": 29515,
         "emotes": {
           "❤": 259,
           "🙌": 223,
           "🗳": 1395,
-          "📴": 244,
-          "👋": 274,
+          "📴": 245,
+          "👋": 275,
           "🔴": 240,
           "🎉": 373,
           "🏆": 25,
@@ -5222,18 +5222,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1793144355376,
+        "lastChatAt": 1793147006094,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "bobby play fortnite w/ zani and i?"
-        },
-        {
-          "user": "bobbycool420",
-          "msg": "[emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2] [emote:76ac420f-19f7-45a6-aa7c-f4caecc97bd2]"
-        },
         {
           "user": "avisi",
           "msg": "not today"
@@ -5265,6 +5257,14 @@
         {
           "user": "agent00zani",
           "msg": "ty ty [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "I am Human"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -5279,7 +5279,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "💪 Stay Strong, Game On! 🎮 |  w @avisi and @bobbycool420 | 🎰 Sub Raffle — 150 Votes!",
+      "streamTitle": "",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty” and massive emote showers.",
       "_profileAtCount": 9628,
       "loyalty": {
@@ -5488,8 +5488,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8d0e99ca-202f-449f-92a1-8260c74a8c9d.gif",
       "nudgedAt": 1785006485591,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "💪 Stay Strong, Game On! 🎮 |  Zani ? 👀 | 🎰 Sub Raffle — 150 Votes!",
-      "lastStreamEndedAt": 1793059061822,
+      "lastStreamInfo": "💪 Stay Strong, Game On! 🎮 |  w @avisi and @bobbycool420 | 🎰 Sub Raffle — 150 Votes!",
+      "lastStreamEndedAt": 1793147000931,
       "botVip": true,
       "commandMedia": {
         "fluffy": {
@@ -5524,9 +5524,9 @@
         }
       },
       "_idAt": 1793137246535,
-      "_gameAt": 1793144329645,
-      "isLive": true,
-      "streamCategory": "Fortnite",
+      "_gameAt": 1793147006199,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891186,
@@ -8511,14 +8511,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 49506,
+        "totalVotes": 49526,
         "totalSubs": 137,
-        "totalChatMessages": 16533,
+        "totalChatMessages": 16534,
         "totalStreamMinutes": 10397,
         "emotes": {
           "❤": 291,
           "🙌": 436,
-          "🗳": 2030,
+          "🗳": 2033,
           "✌": 12,
           "😊": 11,
           "👍": 20,
@@ -9106,13 +9106,9 @@
           "258f10f6-6369-4d78-9020-6d4344802acb": "BLAZEMAIN"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793146806004
+        "lastChatAt": 1793147873055
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @annyoneany has resubscribed (7 months total, 7 months streak)! Thank you for the continued support! 🙌"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "@annyoneany Welcome new subscriber! 🎉💖"
@@ -9148,6 +9144,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @lunaria just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @cr33pling just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -9374,7 +9374,7 @@
       "lastStreamInfo": "Afternoon at the beach with Mellow",
       "lastStreamEndedAt": 1792796759516,
       "_idAt": 1793137254892,
-      "_gameAt": 1793146806159,
+      "_gameAt": 1793147873160,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -9802,6 +9802,11 @@
           "t": 1793146803747,
           "v": "lunaria",
           "a": 50
+        },
+        {
+          "t": 1793147870804,
+          "v": "cr33pling",
+          "a": 20
         }
       ]
     },
@@ -9981,16 +9986,16 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 52672,
+        "totalVotes": 52888,
         "totalSubs": 94,
-        "totalChatMessages": 10230,
-        "totalStreamMinutes": 17771,
+        "totalChatMessages": 10239,
+        "totalStreamMinutes": 17782,
         "emotes": {
-          "❤": 189,
-          "🙌": 233,
-          "🗳": 1032,
-          "🔴": 103,
-          "🎉": 175,
+          "❤": 193,
+          "🙌": 234,
+          "🗳": 1035,
+          "🔴": 104,
+          "🎉": 176,
           "📴": 102,
           "👋": 116,
           "🔥": 284,
@@ -10189,7 +10194,8 @@
           "🥫": 1,
           "🧂": 1,
           "🚂": 1,
-          "🔨": 2
+          "🔨": 2,
+          "🛞": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -10395,51 +10401,52 @@
           "🥫": "🥫",
           "🧂": "🧂",
           "🚂": "🚂",
-          "🔨": "🔨"
+          "🔨": "🔨",
+          "🛞": "🛞"
         },
-        "lastChatAt": 1793146013220,
+        "lastChatAt": 1793147595897,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
-          "user": "blazeian_bot_ai",
-          "msg": "WAIT piweb SUBBED?! 💚💚 I love you, the streamer loves you, CHAT loves you. Best decision of your life 😭🔥"
+          "user": "scurvybot",
+          "msg": "Stream is now live: 🛞Wheel of PAIN🛞❤️Trying Mossvale part 6! ❤️! Come hang out and watch."
+        },
+        {
+          "user": "nadietv",
+          "msg": "Wheel of PAIN is ON! for every 50 votes i'll do a spin on OnlyVotes WoP, if you subscribe or gift a sub, i'll do a spin In the OnlySubs Wheel of PAIN! Also you'll get entries for Wednesday's Giveaway!"
         },
         {
           "user": "scurvybot",
-          "msg": "@piweb subscribed! Thank you!"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @piweb has resubscribed (2 months total, 1 month streak)! Thank you for the continued support! 🙌"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @CyMatrIX!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @CyMatrIX just gave 10 vote(s) (total: 20)! Thank you!! 🗳️"
+          "msg": "Thanks for the follow, @jiiiiiiii_i!"
         },
         {
           "user": "blazeian_bot_ai",
-          "msg": "that's 250 from badger 🗳️💚 thank you, seriously — it adds up"
+          "msg": "Welcome to the crew, jiiiiiiii_i—glad you’re here to roll with the hard reset vibes!"
+        },
+        {
+          "user": "botger",
+          "msg": "❤️ NEW FOLLOWER!! ❤️ jiiiiiiii_i just followed the channel! Welcome!! 🙌"
         },
         {
           "user": "scurvybot",
-          "msg": "Thanks for the 250 votes, @badger!"
+          "msg": "Thanks for the 216 votes, @Future42!"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 2 votes, @b1injaninja!"
+          "user": "blazeian_bot_ai",
+          "msg": "Huge thanks future42 for the 216 vote—your support keeps the Blaze vibes blazing! 🔥✨"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @b1injaninja!"
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 216 vote(s) (total: 300)! Thank you!! 🗳️"
         },
         {
-          "user": "scurvybot",
-          "msg": "Thanks for the 6 votes, @dwb9000!"
+          "user": "future42",
+          "msg": "Have a great Night  Nadie"
+        },
+        {
+          "user": "jiiiiiiii_i",
+          "msg": "gMoss"
         }
       ],
       "customCommands": {},
@@ -10448,7 +10455,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "🛞Wheel of PAIN🛞❤️Trying Mossvale part 6! ❤️",
       "profile": "Chill gaming crew on nadietv, loving WoW, Stumble Guys, Path of Exile 2, Dota, retro oldies. Stream thrives on spontaneous “VOTE ALERT!!” shoutouts, “hard reset” moments, “Will be relax day” chill streams, and auction day excitement. Celebrate with “hard reset” waves, “Blazeee” vibes, spontaneous cheers, always ending with a celebratory “hard reset.”",
       "_profileAtCount": 10212,
       "gameOverride": "",
@@ -10650,9 +10657,9 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1793146013317,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793147575513,
+      "isLive": true,
+      "streamCategory": "Crypto",
       "voteLog": [
         {
           "t": 1792429891059,
@@ -11013,6 +11020,11 @@
           "t": 1793146012815,
           "v": "dwb9000",
           "a": 6
+        },
+        {
+          "t": 1793147556344,
+          "v": "future42",
+          "a": 216
         }
       ]
     },
@@ -15047,7 +15059,7 @@
         "totalVotes": 26425,
         "totalSubs": 94,
         "totalChatMessages": 2983,
-        "totalStreamMinutes": 23509,
+        "totalStreamMinutes": 23529,
         "emotes": {
           "🔥": 862,
           "🔴": 200,
@@ -22917,7 +22929,7 @@
         "totalVotes": 3899,
         "totalSubs": 91,
         "totalChatMessages": 37,
-        "totalStreamMinutes": 2509,
+        "totalStreamMinutes": 2529,
         "emotes": {
           "🔥": 5,
           "😎": 1,
@@ -23021,15 +23033,15 @@
       "stats": {
         "totalVotes": 23017,
         "totalSubs": 36,
-        "totalChatMessages": 50514,
-        "totalStreamMinutes": 24486,
+        "totalChatMessages": 50568,
+        "totalStreamMinutes": 24506,
         "emotes": {
           "❤": 172,
           "🙌": 154,
           "🤝": 4,
           "🔥": 76,
           "🔴": 134,
-          "🎉": 717,
+          "🎉": 718,
           "🪙": 1249,
           "⚡": 941,
           "👀": 130,
@@ -23206,7 +23218,7 @@
           "🥺": 2,
           "🥈": 139,
           "🥉": 139,
-          "⭐": 442,
+          "⭐": 444,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 11,
           "✊": 2,
           "✋": 2,
@@ -23480,48 +23492,48 @@
           "📐": "📐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793146837184
+        "lastChatAt": 1793148048729
       },
       "chatMemory": [
         {
-          "user": "poderosobot",
-          "msg": "Parabéns, @junior7_! Você subiu para o Nível 8! 🎉"
+          "user": "mauhzera",
+          "msg": "Olha a música Lipe"
         },
         {
           "user": "lovemikami",
-          "msg": "peter pan com aquela câmera é kaizo a câmera"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "@junior7_ tu tem 100 mil pontos, pode pedir jogo, problema que tu só quer jogo pra destruir controle, e é só liberar o tonho que pede"
+          "msg": "queria treinar aquele bicho kkkkkk"
         },
         {
           "user": "mauhzera",
-          "msg": "Bom Bom"
+          "msg": "Conhece Eden??"
         },
         {
           "user": "mauhzera",
-          "msg": "kkkkkkkkk"
+          "msg": "Mikami kkkkkkkkk"
         },
         {
-          "user": "junior7_",
-          "msg": "Kkkk"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "mas ai o junhu quer o que? orifiel, ultimate, ai é de lascar né"
-        },
-        {
-          "user": "solucao",
-          "msg": "Edao dando show"
+          "user": "mauhzera",
+          "msg": "Lipe sabe"
         },
         {
           "user": "lovemikami",
-          "msg": "tem pedidos na loja de até 100 mil pontos"
+          "msg": "mikami é kkkk"
         },
         {
-          "user": "botger",
-          "msg": "🪙 @solucao 14.405 pontos."
+          "user": "lovemikami",
+          "msg": "acho que é o castelo da vânia"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "sonic wings?"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "kkkkkkkkkk"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Star Fox"
         }
       ],
       "customCommands": {},
@@ -23669,7 +23681,7 @@
         }
       },
       "_idAt": 1793141772487,
-      "_gameAt": 1793146813525,
+      "_gameAt": 1793147928011,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -25799,7 +25811,7 @@
         "totalVotes": 3267,
         "totalSubs": 8,
         "totalChatMessages": 233,
-        "totalStreamMinutes": 6789,
+        "totalStreamMinutes": 6805,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -25850,10 +25862,6 @@
       "chatMemory": [
         {
           "user": "loboblanco",
-          "msg": "Suficiente por hoy"
-        },
-        {
-          "user": "loboblanco",
           "msg": "Ptmre comenzamos bien"
         },
         {
@@ -25887,6 +25895,10 @@
         {
           "user": "sofrenciaplay",
           "msg": "jajaja"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Es todo por hoy, los quiero mascotas! 🐺⚡"
         }
       ],
       "customCommands": {
@@ -25902,14 +25914,14 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/46963d69-f6f0-479b-8169-7ef0626be6ec.png",
-      "streamTitle": "1 SUB = 1 hour | Analizando posibles apocalipsis Zombies",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "**Loboblanco’s Community Profile**\n\nChill crew, Halo “amanecida” vibes. Expect “heeey”, “bienvenido hermano”, “hermano” love, and “ola” to newcomers. Celebrate every “muere” with a “votorn”. Keep it real, loud, and fun. Loboblanco loves being thanked, praised, and thanked for keeping the fam tight. Keep the fam tight, keep it real, keep it loud.",
       "_profileAtCount": 220,
       "nudgedAt": 1785262824379,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "1 SUB = 1 hour | Historia completa!",
-      "lastStreamEndedAt": 1793084838953,
+      "lastStreamInfo": "1 SUB = 1 hour | Analizando posibles apocalipsis Zombies",
+      "lastStreamEndedAt": 1793147796392,
       "loyalty": {
         "dynastykingd": {
           "name": "dynastykingd",
@@ -25938,8 +25950,8 @@
         }
       },
       "_idAt": 1793141772487,
-      "streamCategory": "IRL",
-      "isLive": true,
+      "streamCategory": "",
+      "isLive": false,
       "_gameAt": 1793142634563
     },
     "cb2ce9ff-c2d0-425e-9238-54b535f07d02": {
