@@ -2286,7 +2286,7 @@
       "stats": {
         "totalVotes": 46483,
         "totalSubs": 123,
-        "totalChatMessages": 51902,
+        "totalChatMessages": 51904,
         "totalStreamMinutes": 4604,
         "emotes": {
           "🔥": 2388,
@@ -2652,7 +2652,7 @@
           "✋": "✋",
           "😃": "😃"
         },
-        "lastChatAt": 1793214004766,
+        "lastChatAt": 1793222185051,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2660,10 +2660,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "🛑 Game ended by the streamer. No winners this round."
-        },
         {
           "user": "jt_squared2",
           "msg": "✋ Don't Get Slapped starts in 30 seconds! Use !devjoin and open /play to enter your private clues."
@@ -2699,6 +2695,10 @@
         {
           "user": "jt_squared2",
           "msg": "🏆 WINNER: LuckyHero3! 🎉 Congratulations! 🎊"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Unknown game type! Games: roulette, niruntz, rumble, zombies, gorillas, battleship, pyrorace, glassbridge, hotpotato, pinata, lastcall"
         }
       ],
       "customCommands": {},
@@ -2965,7 +2965,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1793203388095,
-      "_gameAt": 1793214004905,
+      "_gameAt": 1793222184809,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -3448,7 +3448,7 @@
         "totalVotes": 48681,
         "totalSubs": 302,
         "totalChatMessages": 15258,
-        "totalStreamMinutes": 37046,
+        "totalStreamMinutes": 37066,
         "emotes": {
           "📊": 3,
           "🔥": 661,
@@ -4893,8 +4893,8 @@
       "stats": {
         "totalVotes": 32673,
         "totalSubs": 122,
-        "totalChatMessages": 9678,
-        "totalStreamMinutes": 29766,
+        "totalChatMessages": 9680,
+        "totalStreamMinutes": 29786,
         "emotes": {
           "❤": 259,
           "🙌": 223,
@@ -4987,7 +4987,7 @@
           "🎸": 2,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 38,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 77,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 214,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 216,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 106,
           "b05156cf-7925-4298-8e19-f29e294cc793": 5,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 37,
@@ -5269,18 +5269,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1793220757624,
+        "lastChatAt": 1793222635163,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "Are you also in game with K1NG?"
-        },
-        {
-          "user": "helios",
-          "msg": "Nice. So many familiar faces in one game"
-        },
         {
           "user": "helios",
           "msg": "Your squad lasted longer than K1NG's squad though"
@@ -5312,6 +5304,14 @@
         {
           "user": "bobbycool420",
           "msg": "@zer0cache sup"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "noxx",
+          "msg": "zaniiiiiiiiiiiiiiiiiiiiii"
         }
       ],
       "customCommands": {
@@ -5571,7 +5571,7 @@
         }
       },
       "_idAt": 1793205646606,
-      "_gameAt": 1793220757727,
+      "_gameAt": 1793222635277,
       "isLive": true,
       "streamCategory": "Games + Demos",
       "voteLog": [
@@ -5903,13 +5903,13 @@
       "stats": {
         "totalVotes": 62140,
         "totalSubs": 128,
-        "totalChatMessages": 27316,
-        "totalStreamMinutes": 14203,
+        "totalChatMessages": 27373,
+        "totalStreamMinutes": 14223,
         "emotes": {
-          "❤": 8360,
+          "❤": 8364,
           "🎵": 819,
           "💃": 345,
-          "🔥": 1997,
+          "🔥": 2000,
           "💚": 49,
           "👋": 353,
           "🚨": 446,
@@ -5921,18 +5921,18 @@
           "🎶": 174,
           "🎸": 259,
           "🤘": 10,
-          "👀": 29,
+          "👀": 30,
           "🕺": 125,
           "😑": 3,
           "💕": 37,
           "😁": 101,
           "😆": 34,
-          "🐝": 1792,
+          "🐝": 1794,
           "🥷": 4,
           "😃": 4,
           "💪": 46,
           "🥹": 6,
-          "🤣": 1299,
+          "🤣": 1300,
           "🥚": 33,
           "🙏": 600,
           "😀": 16,
@@ -5945,7 +5945,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 72,
-          "💜": 441,
+          "💜": 442,
           "🧔": 1,
           "🤺": 6,
           "🥳": 109,
@@ -6018,7 +6018,7 @@
           "d7f4fdce-e137-41a9-837c-1afa844e7834": 5,
           "9644306b-78ae-4df1-be70-b52009c76049": 120,
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": 4,
-          "👁": 2,
+          "👁": 6,
           "👄": 1,
           "12d57d38-0432-4222-9f90-c2f0b1dc400f": 39,
           "bfb66467-56b9-4e4b-a691-80fa5f012fa6": 44,
@@ -6423,7 +6423,7 @@
           "💨": "💨",
           "💩": "💩"
         },
-        "lastChatAt": 1793221467555,
+        "lastChatAt": 1793222669191,
         "sendFailStreak": 585,
         "lastSendFailAt": 1793198161593,
         "lastSendFailReason": "You are banned from this channel.",
@@ -6433,44 +6433,44 @@
       },
       "chatMemory": [
         {
-          "user": "doctorgeorgio",
-          "msg": "okay tell claude to tell me what i exactly need to do and send me the message on discord"
+          "user": "crypt0k1ng96",
+          "msg": "Interesting X call"
         },
         {
           "user": "doctorgeorgio",
-          "msg": "cz i forgot what i need to do"
+          "msg": "hahahaha"
         },
         {
-          "user": "weri",
-          "msg": "Jesus it's your turn ill do that"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "ive chatted like 100 times to claude since i sent you the message an hour ago 🤣🤣"
-        },
-        {
-          "user": "weri",
-          "msg": "Its in discord lol"
-        },
-        {
-          "user": "weri",
-          "msg": "Sorry for the type error in the previous message"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "bring these millionnaires here then lol"
-        },
-        {
-          "user": "doctorgeorgio",
-          "msg": "where are they"
+          "user": "crypt0k1ng96",
+          "msg": "👀"
         },
         {
           "user": "unclefunk",
-          "msg": "yeah l;ol"
+          "msg": "Some of the Avax T1 peeps innvited me to some calls so i want to see if there is actually an avax community."
         },
         {
           "user": "doctorgeorgio",
-          "msg": "trading is A BIG SCAM"
+          "msg": "👁️👁️👁️👁️"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "Make token go up!!!"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Cos i don't see many humans in Web3 at all. haha"
+        },
+        {
+          "user": "crypt0k1ng96",
+          "msg": "I do like Team 1 a lot"
+        },
+        {
+          "user": "noxx",
+          "msg": "I'm humna! I have a serial number they implanted to prove it"
+        },
+        {
+          "user": "doctorgeorgio",
+          "msg": "yeah but weve been waiting for the space to blow up since forever"
         }
       ],
       "customCommands": {},
@@ -6646,7 +6646,7 @@
       "_idAt": 1793205647731,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1793221434881,
+      "_gameAt": 1793222523649,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -12123,7 +12123,7 @@
         "totalVotes": 2591,
         "totalSubs": 11,
         "totalChatMessages": 666,
-        "totalStreamMinutes": 2839,
+        "totalStreamMinutes": 2859,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -12289,7 +12289,7 @@
       "lastStreamInfo": "🔥 Switch Sport Resort",
       "lastStreamEndedAt": 1793206715989,
       "profile": "gmc_gaara27 streams chill beats and “PosiTief presents: West Coast G‑Funk Hour — Music.” The chat vibes with “welcome to blaze bro,” “letsgooo,” “awesome people,” “+follower” cheers, “emote” bursts, and “Verkaufe interessant.” They celebrate with “thank you” and “Thanks :)”, stay upbeat, supportive, always ready for the next groove, love quick shoutouts and volume tweaks.",
-      "_profileAtCount": 582,
+      "_profileAtCount": 666,
       "nudgedAt": 1790523497708,
       "nudgedKey": "schedule",
       "_idAt": 1793208046567,
@@ -16523,7 +16523,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 97,
-        "totalStreamMinutes": 14381,
+        "totalStreamMinutes": 14401,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -21059,14 +21059,14 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 91376,
+        "totalVotes": 91598,
         "totalSubs": 98,
-        "totalChatMessages": 5323,
+        "totalChatMessages": 5370,
         "totalStreamMinutes": 2095,
         "emotes": {
           "❤": 91,
           "🙌": 165,
-          "🗳": 1050,
+          "🗳": 1053,
           "💰": 52,
           "🔥": 129,
           "💛": 3,
@@ -21129,7 +21129,7 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 4,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 3,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 6,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 37,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 38,
           "😐": 1,
           "♥": 4,
           "a859cc12-453a-4bd8-b650-38710d9486de": 44,
@@ -21167,7 +21167,7 @@
           "🍆": 6,
           "👉": 1,
           "👈": 1,
-          "😏": 4,
+          "😏": 5,
           "😓": 1,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 17,
           "🌹": 1,
@@ -21436,7 +21436,7 @@
           "👐": "👐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793209722681,
+        "lastChatAt": 1793222649966,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
@@ -21444,44 +21444,44 @@
       },
       "chatMemory": [
         {
-          "user": "blazeian_bot_ai",
-          "msg": "mindgoblin, you just dropped a sub—now let’s give the love fest a full GG! ❤️"
+          "user": "future42",
+          "msg": "carrots"
         },
         {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @Marowak33! How generous!! 🙌"
+          "user": "future42",
+          "msg": "parsinps"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "mindgoblin, you just dropped a whole sub like a legend—give it up, chat! 🎉"
+          "user": "future42",
+          "msg": "parsnips"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "oh future42 is NOT playing around — 222 votes 🔥💚 thank you!!"
+          "user": "future42",
+          "msg": "I see the future"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 222 vote(s) (total: 468)! Thank you!! 🗳️"
+          "user": "helios",
+          "msg": "lol"
         },
         {
-          "user": "razmr_eth",
-          "msg": "TYYYYYYYYY"
+          "user": "future42",
+          "msg": "My back is a bit sore.....have an ice pack on it now...."
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "Thanks, vitrene, for the 50 votes—you’re the real MVP! 🙌"
+          "user": "helios",
+          "msg": "42 minutes into the future"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Vitrene just gave 50 vote(s) (total: 100)! Thank you!! 🗳️"
+          "user": "helios",
+          "msg": "Oh damn man. Hope it gets better"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "supercyclereal dropped 1000 votes like it's nothing?! 💚 Absolute legend behavior 🔥🫶"
+          "user": "future42",
+          "msg": "OOOOOOO.....I like that Helios"
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @supercyclereal just gave 1000 vote(s) (total: 1000)! Thank you!! 🗳️"
+          "user": "future42",
+          "msg": "in chair....3 ice packs..."
         }
       ],
       "customCommands": {},
@@ -21628,14 +21628,14 @@
       },
       "profile": "Welcome to cedricdebled’s vibes! We’re all about “GGs” and “love fests” while voting for art. When we’re not “lowkey” hyping a game of Pictionary, we’re “highkey” cheering for the best pieces. The channel loves shoutouts, “the vibes are real,” “keep it lit,” and “love fest” moments. Celebrate with us—every vote, every comment, every “GG.”",
       "_profileAtCount": 5293,
-      "streamTitle": "",
+      "streamTitle": "A little concept art session",
       "gameOverride": "",
       "lastStreamInfo": "A little concept art session",
       "lastStreamEndedAt": 1793057518936,
       "_idAt": 1793209522192,
-      "_gameAt": 1793209722903,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793222601921,
+      "isLive": true,
+      "streamCategory": "Art",
       "voteLog": [
         {
           "t": 1792429891419,
@@ -22036,6 +22036,11 @@
           "t": 1793209720511,
           "v": "supercyclereal",
           "a": 1000
+        },
+        {
+          "t": 1793221841041,
+          "v": "future42",
+          "a": 222
         }
       ]
     },
@@ -24382,7 +24387,7 @@
         "totalVotes": 14678,
         "totalSubs": 43,
         "totalChatMessages": 1982,
-        "totalStreamMinutes": 13099,
+        "totalStreamMinutes": 13119,
         "emotes": {
           "❤": 101,
           "🙌": 78,
@@ -25224,8 +25229,8 @@
       "stats": {
         "totalVotes": 42637,
         "totalSubs": 67,
-        "totalChatMessages": 7740,
-        "totalStreamMinutes": 12766,
+        "totalChatMessages": 7742,
+        "totalStreamMinutes": 12781,
         "emotes": {
           "❤": 130,
           "🙌": 120,
@@ -25239,8 +25244,8 @@
           "🌫": 55,
           "🤣": 45,
           "😂": 120,
-          "📴": 101,
-          "👋": 119,
+          "📴": 102,
+          "👋": 120,
           "🚨": 378,
           "🔥": 145,
           "💚": 28,
@@ -25573,17 +25578,9 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793221075093
+        "lastChatAt": 1793222376746
       },
       "chatMemory": [
-        {
-          "user": "sircedricdebled",
-          "msg": "I'l try to join !!!!"
-        },
-        {
-          "user": "sircedricdebled",
-          "msg": "Thx you for connecting on Discord my friend."
-        },
         {
           "user": "sircedricdebled",
           "msg": "That little character on the big Bear guys?"
@@ -25615,6 +25612,14 @@
         {
           "user": "briggsy",
           "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] ❤️❤️❤️❤️❤️"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -25627,12 +25632,12 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/aeac4e8e-7291-474a-8b8a-76415c7e2fc5.png",
       "followed": true,
-      "streamTitle": "Post Migraine Deadlock with @octo",
+      "streamTitle": "",
       "profile": "noxx’s channel is a bug‑slayer hub blasting “👀👀👀” after kills, “clipping it!” when a clip drops, and “RAID ALERT!!” for big moments. The crew loves skrunky emotes, OTG solos, “VOTE ALERT!!”, “NEW FOLLOWER!!” cheers, pumping energy, celebrating with “RAID ALERT",
       "_profileAtCount": 7669,
       "gameOverride": "",
-      "lastStreamInfo": "24h Streaming Marathon at the edge of sanity",
-      "lastStreamEndedAt": 1792892807216,
+      "lastStreamInfo": "Post Migraine Deadlock with @octo",
+      "lastStreamEndedAt": 1793222371191,
       "nudgedAt": 1785880640807,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -25844,9 +25849,9 @@
       },
       "commentMode": "silent",
       "_idAt": 1793212846535,
-      "_gameAt": 1793221017070,
-      "isLive": true,
-      "streamCategory": "Deadlock",
+      "_gameAt": 1793222371750,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792423917267,
@@ -27723,8 +27728,8 @@
       "stats": {
         "totalVotes": 11378,
         "totalSubs": 33,
-        "totalChatMessages": 1539,
-        "totalStreamMinutes": 15811,
+        "totalChatMessages": 1541,
+        "totalStreamMinutes": 15829,
         "emotes": {
           "❤": 97,
           "🙌": 79,
@@ -27734,8 +27739,8 @@
           "🔴": 101,
           "🎉": 114,
           "🗳": 264,
-          "📴": 103,
-          "👋": 105,
+          "📴": 104,
+          "👋": 106,
           "☺": 3,
           "🎁": 32,
           "🍺": 20,
@@ -27854,17 +27859,9 @@
           "🤛": "🤛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793216051481
+        "lastChatAt": 1793222535746
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @Future42!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "future42",
           "msg": "Blaze the day"
@@ -27896,6 +27893,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: 1000 votes giveaway | MW4 campaign! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -27909,9 +27914,9 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9da55831-44bb-4899-ba48-50b3bff3c19a.png",
       "followed": true,
       "botVip": true,
-      "streamTitle": "1000 votes giveaway | MW4 campaign",
+      "streamTitle": "",
       "lastStreamInfo": "1000 votes giveaway | MW4 campaign",
-      "lastStreamEndedAt": 1793215963818,
+      "lastStreamEndedAt": 1793222535743,
       "gameOverride": "",
       "profile": "marioscy5 streams chill vibes, OTG pro skills, and “Like I finally found your stream” moments. The chat roars “You got this” in Counter‑Strike, erupts with “GIFTED SUB!!” when subs drop, and goes wild when “GM gm” starts the stream. Expect “❤️ NEW FOLLOWER!! ❤️” alerts, vote shout‑outs, celebratory raid cheers, and endless “GGs” after wins.",
       "_profileAtCount": 1490,
@@ -28000,9 +28005,9 @@
         }
       },
       "_idAt": 1793211653708,
-      "streamCategory": "Call Of Duty: Modern Warfare 4",
-      "isLive": true,
-      "_gameAt": 1793216051101,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1793222542351,
       "voteLog": [
         {
           "t": 1792429891257,
@@ -35108,7 +35113,7 @@
         "totalVotes": 2420,
         "totalSubs": 8,
         "totalChatMessages": 414,
-        "totalStreamMinutes": 1034,
+        "totalStreamMinutes": 1054,
         "emotes": {
           "❤": 15,
           "🙌": 7,
@@ -35621,7 +35626,7 @@
         "totalVotes": 2028,
         "totalSubs": 1,
         "totalChatMessages": 334,
-        "totalStreamMinutes": 922,
+        "totalStreamMinutes": 942,
         "emotes": {
           "👋": 14,
           "❤": 14,
@@ -36718,8 +36723,8 @@
     },
     "bee12": {
       "note": "Energetic streamer who loves multiplayer skirmish games, cheers loudly, uses emojis, welcomes new viewers, and celebrates victories with playful banter.",
-      "at": 1793171988970,
-      "n": 55
+      "at": 1793221489040,
+      "n": 56
     },
     "omom_": {
       "note": "They love gaming, use playful humor and emoticons, and enjoy lively, exciting livestreams.",
