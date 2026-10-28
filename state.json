@@ -8545,8 +8545,8 @@
       "stats": {
         "totalVotes": 49753,
         "totalSubs": 139,
-        "totalChatMessages": 17017,
-        "totalStreamMinutes": 10580,
+        "totalChatMessages": 17018,
+        "totalStreamMinutes": 10585,
         "emotes": {
           "❤": 293,
           "🙌": 439,
@@ -8703,7 +8703,7 @@
           "0dfdfc88-3d2b-4df5-bad8-1386a8152264": 45,
           "f331d2ff-359a-475e-a566-0f2180bcb070": 27,
           "b452c358-941e-402c-924c-86d5adff6752": 1,
-          "061b83c4-4a6b-4f78-a1b8-58e3c3c832e6": 204,
+          "061b83c4-4a6b-4f78-a1b8-58e3c3c832e6": 211,
           "b4301f16-38b3-4efb-8cbc-a5eb7ddf9639": 40,
           "63e378a3-c35f-4a60-a9a7-76e4894cfdba": 91,
           "4fa0df0c-8449-4e1e-a13e-04694c2d009a": 41,
@@ -9144,13 +9144,9 @@
           "😚": "😚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793175030300
+        "lastChatAt": 1793175155583
       },
       "chatMemory": [
-        {
-          "user": "noxx",
-          "msg": "&lt;3 much loves yall"
-        },
         {
           "user": "triz_draw",
           "msg": "[emote:66dc823e-3a02-416e-96cb-9428f242bd1b] [emote:66dc823e-3a02-416e-96cb-9428f242bd1b] [emote:66dc823e-3a02-416e-96cb-9428f242bd1b]"
@@ -9186,6 +9182,10 @@
         {
           "user": "triz_draw",
           "msg": "hahahahah"
+        },
+        {
+          "user": "triz_draw",
+          "msg": "[emote:061b83c4-4a6b-4f78-a1b8-58e3c3c832e6] [emote:061b83c4-4a6b-4f78-a1b8-58e3c3c832e6] [emote:061b83c4-4a6b-4f78-a1b8-58e3c3c832e6] [emote:061b83c4-4a6b-4f78-a1b8-58e3c3c832e6] [emote:061b83c4-4a6b-4f78-a1b8-58e3c3c832e6] [emote:061b83c4-4a6b-4f78-a1b8-58e3c3c832e6] [emote:061b83c4-4a6b-4f78-a1b8-58e3c3c832e6]"
         }
       ],
       "customCommands": {},
@@ -25973,7 +25973,7 @@
         "totalVotes": 3267,
         "totalSubs": 8,
         "totalChatMessages": 234,
-        "totalStreamMinutes": 7037,
+        "totalStreamMinutes": 7042,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -37349,8 +37349,8 @@
     }
   },
   "auth": {
-    "accessToken": "30fabf45af4d6de75ecf642ea077bc8e",
-    "refreshToken": "bd5ab2dc2499ea7ae14c8b9f4cce153f",
+    "accessToken": "1c591a74163043ebb1c1302a6fdd78d3",
+    "refreshToken": "013d4854e2b3255bff71d400bd526c57",
     "sessionToken": "fc5af2bf68f35530231a2a7c681ae246",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
