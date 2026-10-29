@@ -15479,7 +15479,7 @@
         "totalVotes": 26539,
         "totalSubs": 94,
         "totalChatMessages": 3000,
-        "totalStreamMinutes": 23951,
+        "totalStreamMinutes": 23956,
         "emotes": {
           "🔥": 865,
           "🔴": 200,
@@ -18496,7 +18496,7 @@
         "totalVotes": 41885,
         "totalSubs": 194,
         "totalChatMessages": 4440,
-        "totalStreamMinutes": 22200,
+        "totalStreamMinutes": 22205,
         "emotes": {
           "❤": 158,
           "🙌": 274,
@@ -23573,15 +23573,15 @@
       "stats": {
         "totalVotes": 23045,
         "totalSubs": 38,
-        "totalChatMessages": 51671,
-        "totalStreamMinutes": 24893,
+        "totalChatMessages": 51673,
+        "totalStreamMinutes": 24898,
         "emotes": {
           "❤": 174,
           "🙌": 160,
           "🤝": 4,
           "🔥": 80,
           "🔴": 136,
-          "🎉": 828,
+          "🎉": 829,
           "🪙": 1277,
           "⚡": 941,
           "👀": 130,
@@ -24032,13 +24032,9 @@
           "📐": "📐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793242491552
+        "lastChatAt": 1793242643201
       },
       "chatMemory": [
-        {
-          "user": "mauhzera",
-          "msg": "Salve Poderoso"
-        },
         {
           "user": "poderosobot",
           "msg": "Parabéns, @mauhzera! Você subiu para o Nível 2! 🎉"
@@ -24074,6 +24070,10 @@
         {
           "user": "botger",
           "msg": "💰Compre blaze no canal com streamer (Eden) para fazer doações ou comprar votos."
+        },
+        {
+          "user": "poderosobot",
+          "msg": "Parabéns, @poderosotv! Você subiu para o Nível 4! 🎉"
         }
       ],
       "customCommands": {},
@@ -37914,8 +37914,8 @@
     },
     "ph4tmon3y": {
       "note": "Enjoys web3 gaming and NFTs, often joking about giving away in‑game items and helping community members reach milestones.",
-      "at": 1793158788952,
-      "n": 1
+      "at": 1793242609141,
+      "n": 2
     }
   },
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 40 votes = 1 entry / 80 = 3 entries / 150 = 6 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 1000 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\n21th - 27th September 2026 = 25th Giveaway on Blaze",
@@ -37940,8 +37940,8 @@
     }
   },
   "auth": {
-    "accessToken": "be7f8cc9dee1523310ee1f51c28fa897",
-    "refreshToken": "2ca0e233e0404534afbad4475eea2ada",
+    "accessToken": "9d543cb348da51dcfb3da85c4565f0ee",
+    "refreshToken": "bb6acfde0959885ecef08672dc8e423c",
     "sessionToken": "c5f3993b799c5cd1abe9b4ac7e5e5411",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
