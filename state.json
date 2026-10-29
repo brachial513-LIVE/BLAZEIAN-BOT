@@ -5,8 +5,8 @@
       "stats": {
         "totalVotes": 28266,
         "totalSubs": 90,
-        "totalChatMessages": 4110,
-        "totalStreamMinutes": 4418,
+        "totalChatMessages": 4115,
+        "totalStreamMinutes": 4423,
         "emotes": {
           "❤": 148,
           "🙌": 71,
@@ -167,7 +167,7 @@
           "9f5c9670-ce49-4506-a280-d17489853259": 12,
           "abf00198-d569-498e-bdbf-2a89b360af49": 15,
           "255a5ae7-e47d-4a6f-b239-17cbc95de12a": 1,
-          "d6c82b45-1ca6-4f86-89b5-cf94492a049b": 1,
+          "d6c82b45-1ca6-4f86-89b5-cf94492a049b": 2,
           "♥": 2,
           "⭕": 1,
           "🪱": 1,
@@ -201,16 +201,19 @@
           "c67f55e4-c44d-454a-b94e-0636fa7fc399": 1,
           "7ea5f33b-6272-46a5-9a14-71262c299006": 1,
           "c0a23f98-66b2-4ded-b0fc-013c0fa83794": 1,
-          "0cc09fea-668a-4434-9a0a-b406d3f37db8": 1,
+          "0cc09fea-668a-4434-9a0a-b406d3f37db8": 2,
           "ee53c27d-c973-43e7-920e-94432105b6b8": 1,
           "a06cd1b2-3842-490c-a935-e9f848e5d113": 4,
           "23635b7e-1b8b-4bf1-b491-9228e3fb157a": 1,
           "469a640e-6e43-4e31-9cea-2f63d0ff1336": 1,
-          "94a488a5-6228-4565-b9d8-e2c3284cff8e": 4,
-          "d545422b-a0bd-4464-afc4-a7109e93da34": 1,
+          "94a488a5-6228-4565-b9d8-e2c3284cff8e": 5,
+          "d545422b-a0bd-4464-afc4-a7109e93da34": 2,
           "53408d10-5044-45d1-8b22-2f97209c3e8b": 1,
           "🌅": 1,
-          "🤩": 1
+          "🤩": 1,
+          "57c9a000-4fbd-473d-a2ce-5e2d2d364012": 1,
+          "587a1b90-7992-4436-b855-5ededb3b9ab4": 1,
+          "b9b4b570-e904-4402-9621-1e282e2908fa": 1
         },
         "emoteNames": {
           "❤": "❤",
@@ -415,32 +418,15 @@
           "d545422b-a0bd-4464-afc4-a7109e93da34": "AFKBlazeian",
           "53408d10-5044-45d1-8b22-2f97209c3e8b": "YesBlazeian",
           "🌅": "🌅",
-          "🤩": "🤩"
+          "🤩": "🤩",
+          "57c9a000-4fbd-473d-a2ce-5e2d2d364012": "100percentBlazeian",
+          "587a1b90-7992-4436-b855-5ededb3b9ab4": "F_Blazeian",
+          "b9b4b570-e904-4402-9621-1e282e2908fa": "GGBlazeian"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793312745711
+        "lastChatAt": 1793312923904
       },
       "chatMemory": [
-        {
-          "user": "gmc_omom_",
-          "msg": "Woooowwww"
-        },
-        {
-          "user": "gaara27",
-          "msg": "Hahahah wir chillen jetzt zusammen und dann 18 leute"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "HOliiiiiiiiiii"
-        },
-        {
-          "user": "triz_draw",
-          "msg": "ANd byeeeeee'"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "heeey"
-        },
         {
           "user": "triz_draw",
           "msg": "🤩😍"
@@ -460,6 +446,26 @@
         {
           "user": "gaara27",
           "msg": "Du sorgst immer ungewollt für Clipmomente"
+        },
+        {
+          "user": "gmc_omom_",
+          "msg": "[emote:d6c82b45-1ca6-4f86-89b5-cf94492a049b]"
+        },
+        {
+          "user": "brachial513",
+          "msg": "[emote:0cc09fea-668a-4434-9a0a-b406d3f37db8] [emote:57c9a000-4fbd-473d-a2ce-5e2d2d364012] [emote:d545422b-a0bd-4464-afc4-a7109e93da34] [emote:94a488a5-6228-4565-b9d8-e2c3284cff8e] [emote:587a1b90-7992-4436-b855-5ededb3b9ab4] [emote:b9b4b570-e904-4402-9621-1e282e2908fa]"
+        },
+        {
+          "user": "gmc_omom_",
+          "msg": "Oha ohne Grund ?"
+        },
+        {
+          "user": "gmc_omom_",
+          "msg": "Arme bulma"
+        },
+        {
+          "user": "gaara27",
+          "msg": "Sheena  hat mich letztens geraidet ,aufeinmal kamen da 13 Leute und ich kam garnicht klar haha"
         }
       ],
       "language": "en",
@@ -671,7 +677,7 @@
         }
       },
       "_idAt": 1793293247750,
-      "_gameAt": 1793312640590,
+      "_gameAt": 1793312828570,
       "isLive": true,
       "streamCategory": "Star Wars: Galactic Racer",
       "voteLog": [
@@ -5108,7 +5114,7 @@
         "totalVotes": 32950,
         "totalSubs": 122,
         "totalChatMessages": 9729,
-        "totalStreamMinutes": 29938,
+        "totalStreamMinutes": 29943,
         "emotes": {
           "❤": 259,
           "🙌": 223,
@@ -8414,7 +8420,7 @@
         "totalVotes": 16327,
         "totalSubs": 63,
         "totalChatMessages": 2478,
-        "totalStreamMinutes": 13751,
+        "totalStreamMinutes": 13756,
         "emotes": {
           "✨": 53,
           "🖥": 24,
@@ -11870,7 +11876,7 @@
         "totalVotes": 24748,
         "totalSubs": 64,
         "totalChatMessages": 1911,
-        "totalStreamMinutes": 8154,
+        "totalStreamMinutes": 8159,
         "emotes": {
           "❤": 106,
           "🙌": 94,
@@ -23870,7 +23876,7 @@
         "totalVotes": 3899,
         "totalSubs": 94,
         "totalChatMessages": 38,
-        "totalStreamMinutes": 2609,
+        "totalStreamMinutes": 2614,
         "emotes": {
           "🔥": 5,
           "😎": 1,
@@ -23984,15 +23990,15 @@
       "stats": {
         "totalVotes": 23116,
         "totalSubs": 38,
-        "totalChatMessages": 52142,
-        "totalStreamMinutes": 24999,
+        "totalChatMessages": 52152,
+        "totalStreamMinutes": 25004,
         "emotes": {
           "❤": 174,
           "🙌": 160,
           "🤝": 4,
           "🔥": 80,
           "🔴": 137,
-          "🎉": 900,
+          "🎉": 901,
           "🪙": 1286,
           "⚡": 941,
           "👀": 130,
@@ -24443,41 +24449,9 @@
           "📐": "📐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793312719904
+        "lastChatAt": 1793313023684
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "⭐️Doações no pix: https://midpix.live/SofrenciaPlay"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "Yoshi come ele kkkkk"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "pow, vou comer esse jacaré na porrada"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns, @lovemikami! Você subiu para o Nível 11! 🎉"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "bicho troll e ladrão"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "Conseguiu fazer o password Nilão"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "O Peixe espinhoso Nilão"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "conseguir"
-        },
         {
           "user": "lovemikami",
           "msg": "mas a desgraça do chefe"
@@ -24485,6 +24459,38 @@
         {
           "user": "lovemikami",
           "msg": "aff, kaizo pular nele debaixo"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "kakakaka"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "Parabéns, @junior7_! Você subiu para o Nível 2! 🎉"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "TAISOU"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Essa música eh muito boa"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Tem q ficar mais tempo na água pra carregar"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Pior q não lembro"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Mas tem várias hacks com músicas parecidas"
+        },
+        {
+          "user": "mauhzera",
+          "msg": "Mas eh capaz de ter jogado"
         }
       ],
       "customCommands": {},
@@ -24642,7 +24648,7 @@
         }
       },
       "_idAt": 1793302848952,
-      "_gameAt": 1793312621872,
+      "_gameAt": 1793312873763,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -28473,7 +28479,7 @@
         "totalVotes": 11529,
         "totalSubs": 33,
         "totalChatMessages": 1562,
-        "totalStreamMinutes": 16198,
+        "totalStreamMinutes": 16203,
         "emotes": {
           "❤": 97,
           "🙌": 79,
@@ -34454,7 +34460,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 93,
-        "totalStreamMinutes": 6436,
+        "totalStreamMinutes": 6441,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -35652,7 +35658,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 33,
-        "totalStreamMinutes": 7558,
+        "totalStreamMinutes": 7563,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -36563,7 +36569,7 @@
         "totalVotes": 2119,
         "totalSubs": 12,
         "totalChatMessages": 433,
-        "totalStreamMinutes": 1259,
+        "totalStreamMinutes": 1264,
         "emotes": {
           "👋": 16,
           "❤": 16,
@@ -38631,8 +38637,8 @@
     }
   },
   "auth": {
-    "accessToken": "6f5f1377c0216c86ffa0cdfa469ce559",
-    "refreshToken": "631e47b6d84a458f599c31936fa5e6e6",
+    "accessToken": "3491340ab4cd271baf589408852a0800",
+    "refreshToken": "c188fad06c3c8dcd70ad1d58d364eaa2",
     "sessionToken": "71145c574b28d4fd8211621009adf09d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
