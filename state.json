@@ -7486,7 +7486,7 @@
         "totalVotes": 42409,
         "totalSubs": 78,
         "totalChatMessages": 5038,
-        "totalStreamMinutes": 19281,
+        "totalStreamMinutes": 19293,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -11433,7 +11433,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1019,
-        "totalStreamMinutes": 25994,
+        "totalStreamMinutes": 26005,
         "emotes": {
           "❤": 138,
           "🙌": 45,
@@ -12355,7 +12355,7 @@
         "totalVotes": 2593,
         "totalSubs": 11,
         "totalChatMessages": 678,
-        "totalStreamMinutes": 3040,
+        "totalStreamMinutes": 3051,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -20438,7 +20438,7 @@
         "totalVotes": 48610,
         "totalSubs": 93,
         "totalChatMessages": 3343,
-        "totalStreamMinutes": 4181,
+        "totalStreamMinutes": 4193,
         "emotes": {
           "😂": 115,
           "💪": 2,
@@ -28139,7 +28139,7 @@
       "stats": {
         "totalVotes": 11378,
         "totalSubs": 33,
-        "totalChatMessages": 1542,
+        "totalChatMessages": 1544,
         "totalStreamMinutes": 15829,
         "emotes": {
           "❤": 97,
@@ -28147,8 +28147,8 @@
           "🔥": 52,
           "💚": 2,
           "🤝": 1,
-          "🔴": 101,
-          "🎉": 114,
+          "🔴": 102,
+          "🎉": 115,
           "🗳": 264,
           "📴": 104,
           "👋": 106,
@@ -28270,17 +28270,9 @@
           "🤛": "🤛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793224130639
+        "lastChatAt": 1793290599212
       },
       "chatMemory": [
-        {
-          "user": "avisi",
-          "msg": "Ayyy @marioscy5! 🤜🤛"
-        },
-        {
-          "user": "avisi",
-          "msg": "MW4 Campaign Spoiler:\n@marioscy5 wins"
-        },
         {
           "user": "marioscy5",
           "msg": "brb dinner time"
@@ -28312,6 +28304,14 @@
         {
           "user": "agent00zani",
           "msg": "ggs"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 marioscy5 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 1000 votes giveaway | MW4 campaign! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -28325,7 +28325,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9da55831-44bb-4899-ba48-50b3bff3c19a.png",
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "1000 votes giveaway | MW4 campaign",
       "lastStreamInfo": "1000 votes giveaway | MW4 campaign",
       "lastStreamEndedAt": 1793222535743,
       "gameOverride": "",
@@ -28416,9 +28416,9 @@
         }
       },
       "_idAt": 1793280053743,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793224130792,
+      "streamCategory": "Call Of Duty: Modern Warfare 4",
+      "isLive": true,
+      "_gameAt": 1793290598982,
       "voteLog": [
         {
           "t": 1792429891257,
@@ -29098,16 +29098,16 @@
       "stats": {
         "totalVotes": 36139,
         "totalSubs": 142,
-        "totalChatMessages": 8180,
-        "totalStreamMinutes": 15085,
+        "totalChatMessages": 8187,
+        "totalStreamMinutes": 15097,
         "emotes": {
           "😅": 8,
-          "🔥": 356,
+          "🔥": 362,
           "🍻": 5,
           "✌": 10,
           "😊": 5,
           "👍": 20,
-          "❤": 349,
+          "❤": 352,
           "🤫": 1,
           "🤘": 9,
           "😂": 32,
@@ -29135,13 +29135,13 @@
           "d021d096-f2ed-48e4-92df-af5f224e1a3f": 336,
           "253a92e9-1563-4e0d-b8c1-5e0d4844cbb5": 210,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 41,
-          "📢": 94,
+          "📢": 97,
           "🚨": 504,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 4,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 39,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 17,
           "da339ef7-1574-4f2f-8b48-666688167af3": 5,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 59,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 63,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 35,
           "🎮": 1,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 9,
@@ -29363,7 +29363,7 @@
           "💕": "💕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793289905417,
+        "lastChatAt": 1793290556655,
         "lastSendFailAt": 1788705211805,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788749280652,
@@ -29371,34 +29371,6 @@
         "lastProbeAt": 1788749280500
       },
       "chatMemory": [
-        {
-          "user": "fartvader",
-          "msg": "Good day everyone! We're about to have a short game session with Pokebonk.\n\nFeel free to try out the game:\n\nhttps://pokebonk.com/"
-        },
-        {
-          "user": "mediart",
-          "msg": "Hey Fartvader"
-        },
-        {
-          "user": "jaggerjack",
-          "msg": "[emote:f1697b36-b55e-4126-a445-57cc12632693] [emote:f1697b36-b55e-4126-a445-57cc12632693] [emote:f1697b36-b55e-4126-a445-57cc12632693]"
-        },
-        {
-          "user": "mediart",
-          "msg": "[emote:ebcc8dc4-0fdd-410e-87bf-6ee21747ac35] [emote:d021d096-f2ed-48e4-92df-af5f224e1a3f]"
-        },
-        {
-          "user": "mediart",
-          "msg": "I'm good buddy ,thanks [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "whats up Vader man"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79] [emote:9dd6a5be-5abc-4c5d-9e5b-3d3798fe0e79]"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "Only the channel owner can manage commands! 💚"
@@ -29410,6 +29382,34 @@
         {
           "user": "cr33pling",
           "msg": "i cant do shoutouts"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @mediart, streamer of Art! 🔥 Make sure to check out https://blaze.stream/mediart and show some support ❤️‍🔥"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Yo brooo, mediart is a total legend—drop a follow, hit that hype, and show them some love! 👉 https://blaze.stream/mediart"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @cr33pling, streamer of Games + Demos! 🔥 Make sure to check out https://blaze.stream/cr33pling and show some support ❤️‍🔥"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Cr33pling, you’re the absolute legend of the stream world—drop a follow, bros, and get ready for the fire! 👉 https://blaze.stream/cr33pling"
+        },
+        {
+          "user": "botger",
+          "msg": "📢 Shoutout to @cripiechuccles, streamer of Call Of Duty Warzone! 🔥 Make sure to check out https://blaze.stream/cripiechuccles and show some support ❤️‍🔥"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Big love for cripiechuccles! Check them out and drop a follow—this community’s got your back! 👉 https://blaze.stream/cripiechuccles"
         }
       ],
       "customCommands": {},
@@ -29696,7 +29696,7 @@
         "entries": []
       },
       "_idAt": 1793282447736,
-      "_gameAt": 1793289812191,
+      "_gameAt": 1793290383174,
       "isLive": true,
       "streamCategory": "Games + Demos",
       "voteLog": [
@@ -30936,14 +30936,14 @@
       "stats": {
         "totalVotes": 7824,
         "totalSubs": 37,
-        "totalChatMessages": 1837,
-        "totalStreamMinutes": 12480,
+        "totalChatMessages": 1841,
+        "totalStreamMinutes": 12491,
         "emotes": {
           "🧡": 1,
           "💚": 3,
           "🔥": 7,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 25,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 82,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 85,
           "a859cc12-453a-4bd8-b650-38710d9486de": 43,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 16,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 14,
@@ -31065,25 +31065,9 @@
           "☺": "☺"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793289855214
+        "lastChatAt": 1793290389329
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "@cripiechuccles Huge thanks, cripeiechuccles, for the 400 votes—your support keeps the blaze alive!"
-        },
-        {
-          "user": "fartvader",
-          "msg": "[emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb] [emote:fd00652a-6ddf-4a27-bf9a-0c7fdf6332cb]"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "letsgo PAL IS THE NEW DOGGO"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041]"
-        },
         {
           "user": "cr33pling",
           "msg": "Geodoggo"
@@ -31107,6 +31091,22 @@
         {
           "user": "cr33pling",
           "msg": "wait"
+        },
+        {
+          "user": "cripiechuccles",
+          "msg": "[emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b] [emote:841539a5-88cd-4532-85c1-5589bc530b1b]"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "whats up man @cripiechuccles"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "restart it bro"
+        },
+        {
+          "user": "cr33pling",
+          "msg": "just kiddiing"
         }
       ],
       "customCommands": {},
@@ -31237,7 +31237,7 @@
       "_idAt": 1793280054935,
       "streamCategory": "Pokémon Channel",
       "isLive": true,
-      "_gameAt": 1793289855315,
+      "_gameAt": 1793290321476,
       "voteLog": [
         {
           "t": 1792429891447,
@@ -32115,8 +32115,8 @@
       "stats": {
         "totalVotes": 9683,
         "totalSubs": 32,
-        "totalChatMessages": 1899,
-        "totalStreamMinutes": 9204,
+        "totalChatMessages": 1901,
+        "totalStreamMinutes": 9208,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -32156,7 +32156,7 @@
           "ae7524ca-34bc-4308-95ab-a1bfa85c4c6d": 14,
           "21f398af-51dd-49cb-a896-76bf8af659ea": 9,
           "😉": 1,
-          "🎉": 7,
+          "🎉": 8,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 1,
           "💯": 11,
           "😩": 1,
@@ -32177,7 +32177,7 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 13,
           "dab820c3-c946-4d12-aef8-d07703f0c052": 14,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 3,
-          "🔴": 14,
+          "🔴": 16,
           "🙃": 1,
           "❤": 5,
           "👋": 10,
@@ -32290,21 +32290,9 @@
           "🎯": "🎯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793215456223
+        "lastChatAt": 1793290390664
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @briggsy!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 3 votes, @tom2329!"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "50 votes from badger 👀💚 that's the good stuff right there, thank you!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @badger!"
@@ -32332,6 +32320,18 @@
         {
           "user": "botger",
           "msg": "⚠️ Heads up cr33pling! You're projected to fall below Verified (Tier 2) in about 0 days (2026/10/28 19:24 UTC). Current stream hours: 0.0h / 10h required. Stream more to keep your Verified status! 🎯"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 cr33pling is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "cr33pling is LIVE NOW ! 🚨🚨🚨"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: 🔴PokeBonk ? w/ @FartVader @JaggerJack! Come hang out and watch."
         }
       ],
       "customCommands": {
@@ -32347,7 +32347,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "🔴PokeBonk ? w/ @FartVader @JaggerJack",
       "lastStreamInfo": "🔴PokeBonk ? w/ @FartVader @JaggerJack",
       "lastStreamEndedAt": 1792955434658,
       "gameOverride": "",
@@ -32474,9 +32474,9 @@
         }
       },
       "_idAt": 1793282450134,
-      "_gameAt": 1793215455747,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793290390418,
+      "isLive": true,
+      "streamCategory": "Games + Demos",
       "voteLog": [
         {
           "t": 1792429891448,
@@ -38141,8 +38141,8 @@
     }
   },
   "auth": {
-    "accessToken": "a0e69d409039becf530e0be6cad757ac",
-    "refreshToken": "a580640da9b79738664ed5bf456bdef2",
+    "accessToken": "aa66d0fc7b26ba33e451e60c2918cd78",
+    "refreshToken": "1914dc5a98e5c2ff9c439797a4117300",
     "sessionToken": "71145c574b28d4fd8211621009adf09d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
