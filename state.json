@@ -22858,13 +22858,13 @@
       "stats": {
         "totalVotes": 12469,
         "totalSubs": 65,
-        "totalChatMessages": 3009,
-        "totalStreamMinutes": 7728,
+        "totalChatMessages": 3011,
+        "totalStreamMinutes": 7739,
         "emotes": {
           "❤": 124,
           "🙌": 112,
-          "📴": 67,
-          "👋": 70,
+          "📴": 68,
+          "👋": 71,
           "🎁": 52,
           "🗳": 288,
           "⚠": 1,
@@ -23077,17 +23077,9 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793256459243
+        "lastChatAt": 1793258211569
       },
       "chatMemory": [
-        {
-          "user": "angge_wf",
-          "msg": "[emote:38b6d42d-5f7e-4f13-b494-6ba2e2fb1b69] [emote:862499d1-1ae0-4bbc-9ecf-9a2eb3aeef3a] [emote:444f8613-71d7-4493-939a-b44426ef3c8a]"
-        },
-        {
-          "user": "angge_wf",
-          "msg": "[emote:38b6d42d-5f7e-4f13-b494-6ba2e2fb1b69] [emote:862499d1-1ae0-4bbc-9ecf-9a2eb3aeef3a] [emote:444f8613-71d7-4493-939a-b44426ef3c8a]"
-        },
         {
           "user": "angge_wf",
           "msg": "[emote:38b6d42d-5f7e-4f13-b494-6ba2e2fb1b69] [emote:862499d1-1ae0-4bbc-9ecf-9a2eb3aeef3a] [emote:444f8613-71d7-4493-939a-b44426ef3c8a]"
@@ -23119,6 +23111,14 @@
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -23130,7 +23130,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -23138,7 +23138,7 @@
       "nudgedAt": 1785164605243,
       "nudgedKey": "schedule",
       "lastStreamInfo": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
-      "lastStreamEndedAt": 1793175011323,
+      "lastStreamEndedAt": 1793258206402,
       "loyalty": {
         "angge_wf": {
           "name": "angge_wf",
@@ -23282,9 +23282,9 @@
         }
       },
       "_idAt": 1793257246563,
-      "_gameAt": 1793256459382,
-      "isLive": true,
-      "streamCategory": "Music",
+      "_gameAt": 1793258206863,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891310,
@@ -26103,7 +26103,7 @@
         }
       },
       "commentMode": "silent",
-      "_idAt": 1793235646535,
+      "_idAt": 1793258446547,
       "_gameAt": 1793236669118,
       "isLive": false,
       "streamCategory": "",
@@ -27375,7 +27375,7 @@
       "lastStreamEndedAt": 1792937015783,
       "commandMedia": {},
       "botVip": true,
-      "_idAt": 1793235647735,
+      "_idAt": 1793258447723,
       "_gameAt": 1792964106935,
       "isLive": false,
       "streamCategory": "",
@@ -28678,7 +28678,7 @@
       "_profileAtCount": 1498,
       "nudgedAt": 1786147592153,
       "nudgedKey": "schedule",
-      "_idAt": 1793235648912,
+      "_idAt": 1793258448927,
       "_gameAt": 1793144191271,
       "isLive": false,
       "streamCategory": "",
@@ -30233,7 +30233,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793235651317,
+      "_idAt": 1793258451324,
       "_gameAt": 1793210068053,
       "isLive": false,
       "streamCategory": "",
@@ -31940,7 +31940,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/128e2f4a-c34b-4d0f-b6b7-11c70bb3f295-profile_image-300x300.png",
-      "_idAt": 1793235652531
+      "_idAt": 1793258452524
     },
     "8f114ea6-29e2-4213-99b4-3357cfbe1885": {
       "username": "cr33pling",
@@ -32708,7 +32708,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793235653708,
+      "_idAt": 1793258453740,
       "_gameAt": 1793078296222,
       "isLive": false,
       "streamCategory": "",
@@ -33928,7 +33928,7 @@
       "_profileAtCount": 82,
       "nudgedAt": 1789878374898,
       "nudgedKey": "schedule",
-      "_idAt": 1793235654912,
+      "_idAt": 1793258454941,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793234679653
@@ -34646,7 +34646,7 @@
       "lastStreamEndedAt": 1793071535206,
       "nudgedAt": 1790123384716,
       "nudgedKey": "schedule",
-      "_idAt": 1793235650137,
+      "_idAt": 1793258450121,
       "loyalty": {
         "desirablebottom": {
           "name": "desirablebottom",
@@ -37600,9 +37600,9 @@
       "n": 2
     },
     "chupacol": {
-      "note": "Chupacol chats casually, loves Rocket League, music editing, playful jokes about dinosaurs, and often uses emojis and friendly greetings.",
-      "at": 1789981508477,
-      "n": 3
+      "note": "Chupacol chats casually, loves Rocket League, music editing, playful dinosaur jokes, uses emojis and friendly greetings.",
+      "at": 1793257789072,
+      "n": 4
     },
     "mvk315": {
       "note": "Enjoys crypto, card collecting, baseball, and playful banter about streams and internet culture.",
@@ -37932,6 +37932,11 @@
     "sentius_nox": {
       "note": "Enjoys casual gaming streams, often joking around and encouraging viewers to join the voice chat.",
       "at": 1793254489170,
+      "n": 1
+    },
+    "smrt": {
+      "note": "Enjoys spinning games, tips, and playful banter, often joking about giving or withholding tips to @badger.",
+      "at": 1793258449084,
       "n": 1
     }
   },
