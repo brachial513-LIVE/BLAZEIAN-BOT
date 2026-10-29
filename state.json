@@ -15483,8 +15483,8 @@
       "stats": {
         "totalVotes": 26559,
         "totalSubs": 94,
-        "totalChatMessages": 3001,
-        "totalStreamMinutes": 24001,
+        "totalChatMessages": 3002,
+        "totalStreamMinutes": 24016,
         "emotes": {
           "🔥": 865,
           "🔴": 200,
@@ -15492,8 +15492,8 @@
           "🤣": 5,
           "☕": 54,
           "💪": 2,
-          "📴": 84,
-          "👋": 87,
+          "📴": 85,
+          "👋": 88,
           "👽": 28,
           "💀": 6,
           "🗳": 633,
@@ -15665,14 +15665,10 @@
           "🌫": "🌫",
           "🍺": "🍺"
         },
-        "lastChatAt": 1793243249584,
+        "lastChatAt": 1793246492954,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "flash",
-          "msg": "[emote:685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc]"
-        },
         {
           "user": "flash",
           "msg": "[emote:0f00728b-14b3-4c72-8561-2cf9bad78f9e] [emote:0f00728b-14b3-4c72-8561-2cf9bad78f9e] [emote:0f00728b-14b3-4c72-8561-2cf9bad78f9e] [emote:0f00728b-14b3-4c72-8561-2cf9bad78f9e]"
@@ -15708,6 +15704,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @faithy_ just gave 20 vote(s) (total: 20)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -15717,14 +15717,14 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "🎭 This Ain't Drama Class! Follow the Rules or Exit Stage Left! 💀⚔️ It's that Simple!",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "We’re a BLAZE community fueled by gaming—Delta Force, Gears Of War, anime—and dropping votes. We shout “BLAZE ON Brother!” and “TTYL!” to celebrate milestones, love a good ☕, and go FULL SEND. Voting is LIVE, subs are appreciated, and we keep the TOWER Crew hype with “Welcome to the TOWER Crew, 🔴 Voting is LIVE 🔴.” We celebrate with BLAZE ON Brother! and TTYL! when we show appreciation.",
       "_profileAtCount": 2983,
       "nudgedAt": 1785280330455,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "💀🔥 YOUR LOBBY, OUR PLAYGROUND! | DSTG PHALANX MULTIPLAYER CHAOS! 🎮",
-      "lastStreamEndedAt": 1793157631130,
+      "lastStreamInfo": "🎭 This Ain't Drama Class! Follow the Rules or Exit Stage Left! 💀⚔️ It's that Simple!",
+      "lastStreamEndedAt": 1793246487771,
       "loyalty": {
         "johngalt": {
           "name": "johngalt",
@@ -15839,9 +15839,9 @@
         "confetti": true
       },
       "_idAt": 1793230853722,
-      "streamCategory": "Call Of Duty: Modern Warfare 4",
-      "isLive": true,
-      "_gameAt": 1793243249673,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1793246493052,
       "voteLog": [
         {
           "t": 1792429891263,
@@ -18504,12 +18504,12 @@
       "language": "en",
       "stats": {
         "totalVotes": 41885,
-        "totalSubs": 194,
-        "totalChatMessages": 4441,
-        "totalStreamMinutes": 22250,
+        "totalSubs": 195,
+        "totalChatMessages": 4443,
+        "totalStreamMinutes": 22270,
         "emotes": {
           "❤": 158,
-          "🙌": 274,
+          "🙌": 275,
           "💚": 3,
           "🔥": 161,
           "🗳": 1158,
@@ -18529,7 +18529,7 @@
           "✌": 12,
           "☺": 1,
           "👍": 11,
-          "🎁": 288,
+          "🎁": 290,
           "😶": 15,
           "🌫": 15,
           "😍": 11,
@@ -18740,21 +18740,9 @@
           "7573c501-7624-43cf-9189-0db1f8d22172": "PYROTHESTREAMER"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793245015817
+        "lastChatAt": 1793246465226
       },
       "chatMemory": [
-        {
-          "user": "seventh",
-          "msg": "nong utong yan"
-        },
-        {
-          "user": "seventh",
-          "msg": "dalawa naiisip ko"
-        },
-        {
-          "user": "seventh",
-          "msg": "aaahh yung gulay pala"
-        },
         {
           "user": "seventh",
           "msg": "sorry sorry"
@@ -18782,6 +18770,18 @@
         {
           "user": "botger",
           "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @zedserious is raiding with a party of 4! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @zedserious! How generous!! 🙌"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "💚 Huge shout to faithy_ for gifting that sub—true legend vibes, let’s shower love!"
+        },
+        {
+          "user": "tvpeperonitos",
+          "msg": "Have a nice stream!"
         }
       ],
       "customCommands": {},
@@ -19016,7 +19016,7 @@
       "lastStreamInfo": "Bloomshire Season 0!!",
       "lastStreamEndedAt": 1793204604740,
       "_idAt": 1793232054933,
-      "_gameAt": 1793245015931,
+      "_gameAt": 1793246458776,
       "isLive": true,
       "streamCategory": "Crypto",
       "voteLog": [
@@ -26416,7 +26416,7 @@
         "totalVotes": 3267,
         "totalSubs": 8,
         "totalChatMessages": 239,
-        "totalStreamMinutes": 7297,
+        "totalStreamMinutes": 7317,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -36584,8 +36584,8 @@
     },
     "triz_draw": {
       "note": "Playful streamer who loves chess and Aion, draws characters, jokes about food and gifts, and cheers teammates while gaming.",
-      "at": 1793190469452,
-      "n": 59
+      "at": 1793245909042,
+      "n": 60
     },
     "haircoolass": {
       "note": "Enthusiastic music fan who loves new bands, light shows, and playful banter, often joking about festivals and sharing quirky, upbeat comments.",
