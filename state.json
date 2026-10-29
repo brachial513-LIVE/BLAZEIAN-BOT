@@ -2389,22 +2389,22 @@
       "stats": {
         "totalVotes": 46685,
         "totalSubs": 123,
-        "totalChatMessages": 51972,
+        "totalChatMessages": 51976,
         "totalStreamMinutes": 4604,
         "emotes": {
           "🔥": 2388,
           "🗳": 38,
           "🔴": 63,
-          "🎉": 474,
+          "🎉": 475,
           "😍": 150,
           "❤": 283,
           "🚢": 25,
           "⏰": 2288,
           "🔜": 1350,
-          "💀": 1059,
+          "💀": 1062,
           "😘": 4,
-          "🏆": 309,
-          "🎊": 286,
+          "🏆": 310,
+          "🎊": 287,
           "🎰": 51,
           "😰": 244,
           "🍌": 622,
@@ -2757,7 +2757,7 @@
           "😃": "😃",
           "🐾": "🐾"
         },
-        "lastChatAt": 1793281794401,
+        "lastChatAt": 1793282515050,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2765,22 +2765,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "🎮 Game ended! Thanks for playing!"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🛑 Game ended by the streamer. No winners this round."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🐾 Zoopsies starting in 15 seconds! Type !devjoin to play!"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
         {
           "user": "jt_squared2",
           "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
@@ -2804,6 +2788,22 @@
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "💀 jt_squared2 has been eliminated! 3 players remaining."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "💀 BoldMaster25 has been eliminated! 2 players remaining."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "💀 SwiftPro6 has been eliminated! 1 player remaining."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "🏆 WINNER: SwiftPro95! 🎉 Survived 22 rounds! Congratulations! 🎊"
         }
       ],
       "customCommands": {},
@@ -3070,7 +3070,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1793270454936,
-      "_gameAt": 1793281789362,
+      "_gameAt": 1793282510174,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -16785,7 +16785,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 97,
-        "totalStreamMinutes": 14417,
+        "totalStreamMinutes": 14437,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -18555,7 +18555,7 @@
         "totalVotes": 41948,
         "totalSubs": 195,
         "totalChatMessages": 4478,
-        "totalStreamMinutes": 22545,
+        "totalStreamMinutes": 22565,
         "emotes": {
           "❤": 158,
           "🙌": 276,
@@ -20395,8 +20395,8 @@
       "stats": {
         "totalVotes": 48610,
         "totalSubs": 93,
-        "totalChatMessages": 3334,
-        "totalStreamMinutes": 4060,
+        "totalChatMessages": 3335,
+        "totalStreamMinutes": 4066,
         "emotes": {
           "😂": 115,
           "💪": 2,
@@ -20408,13 +20408,13 @@
           "😄": 4,
           "❤": 146,
           "🚨": 138,
-          "🎉": 65,
+          "🎉": 66,
           "👋": 59,
           "🤣": 237,
           "🗳": 795,
           "📴": 41,
           "🎁": 92,
-          "🔴": 41,
+          "🔴": 42,
           "👀": 14,
           "😆": 14,
           "☕": 1,
@@ -20660,17 +20660,9 @@
           "😀": "😀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793161048024
+        "lastChatAt": 1793282640673
       },
       "chatMemory": [
-        {
-          "user": "cg777",
-          "msg": "I’m updating now"
-        },
-        {
-          "user": "avisi",
-          "msg": "Hey everybody! @sheena @jt_squared2 @cg777"
-        },
         {
           "user": "avisi",
           "msg": "Oh they got new characters since last year"
@@ -20702,6 +20694,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 sheena is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "JOIN OR ELSE"
         }
       ],
       "customCommands": {},
@@ -20893,15 +20893,15 @@
           "tier": 1
         }
       },
-      "streamTitle": "",
+      "streamTitle": "Origin grind",
       "gameOverride": "",
       "commentMode": "silent",
       "lastStreamInfo": "ORIGIN EARLY ACCESS",
       "lastStreamEndedAt": 1793137014029,
       "_idAt": 1793278848939,
-      "_gameAt": 1793161048170,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793282640582,
+      "isLive": true,
+      "streamCategory": "Steam",
       "voteLog": [
         {
           "t": 1792429891283,
@@ -24699,7 +24699,7 @@
         "totalVotes": 14702,
         "totalSubs": 43,
         "totalChatMessages": 2015,
-        "totalStreamMinutes": 13329,
+        "totalStreamMinutes": 13349,
         "emotes": {
           "❤": 101,
           "🙌": 78,
@@ -27078,8 +27078,8 @@
       "stats": {
         "totalVotes": 16814,
         "totalSubs": 117,
-        "totalChatMessages": 1988,
-        "totalStreamMinutes": 5457,
+        "totalChatMessages": 1989,
+        "totalStreamMinutes": 5464,
         "emotes": {
           "❤": 130,
           "🙌": 163,
@@ -27090,8 +27090,8 @@
           "💛": 27,
           "🗳": 345,
           "🎁": 166,
-          "📴": 46,
-          "👋": 55,
+          "📴": 47,
+          "👋": 56,
           "💖": 1,
           "☺": 4,
           "✌": 9,
@@ -27263,17 +27263,13 @@
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": "DAZEDPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793279321829,
+        "lastChatAt": 1793282311164,
         "lastSendFailAt": 1788705048629,
         "lastSendFailReason": "You are currently muted in this channel.",
         "recoveredAt": 1788705958689,
         "recoveredFrom": 2
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "badger showing up with 150 votes like a real one 💚🔥"
@@ -27309,6 +27305,10 @@
         {
           "user": "xburntx",
           "msg": "Have an awesome day!!!"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -27320,7 +27320,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a96e3b9b-e096-4d22-88d0-5625f826e0c3.gif",
-      "streamTitle": "Grounded 2 - SUB | VOTE | SUPPORT 🔥",
+      "streamTitle": "",
       "profile": "Welcome to missaria’s cozy corner of chill, “disaster haha” vibes. We echo “raidersss” and “w” in every raid, love “ang hirap haha” moments, “pag matagal yung veggies hagis ko na” jokes, and “next time ako buy dami commitments” plans. Celebrate with “❤️ NEW FOLLOWER!! ❤️” cheers and “🚨🚨🚨 RAID ALERT!!” shoutouts. Keep the game fun, keep the laughs rolling.",
       "_profileAtCount": 1968,
       "gameOverride": "",
@@ -27453,14 +27453,14 @@
       },
       "nudgedAt": 1785549785246,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "Grounded 2 with @cabsss - SUB | VOTE | SUPPORT 🔥",
-      "lastStreamEndedAt": 1792937015783,
+      "lastStreamInfo": "Grounded 2 - SUB | VOTE | SUPPORT 🔥",
+      "lastStreamEndedAt": 1793282305963,
       "commandMedia": {},
       "botVip": true,
       "_idAt": 1793281247752,
-      "_gameAt": 1793279276342,
-      "isLive": true,
-      "streamCategory": "Grounded 2",
+      "_gameAt": 1793282311304,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891275,
@@ -27896,7 +27896,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793259646574,
+      "_idAt": 1793282446565,
       "_gameAt": 1793164467064,
       "isLive": false,
       "streamCategory": "",
@@ -29631,7 +29631,7 @@
         "open": false,
         "entries": []
       },
-      "_idAt": 1793259647736,
+      "_idAt": 1793282447736,
       "_gameAt": 1793214115556,
       "isLive": false,
       "streamCategory": "",
@@ -30703,7 +30703,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793259648925,
+      "_idAt": 1793282448938,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793237296472,
@@ -31450,7 +31450,7 @@
       "_profileAtCount": 33,
       "nudgedAt": 1786981105091,
       "nudgedKey": "schedule",
-      "_idAt": 1793259651326
+      "_idAt": 1793282451341
     },
     "aeb8b4ea-5a22-4acf-b508-dbf0ce896a86": {
       "username": "inn",
@@ -31835,7 +31835,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793260854921,
+      "_idAt": 1793282643953,
       "_gameAt": 1793171837663,
       "isLive": false,
       "streamCategory": "",
@@ -32404,7 +32404,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1793259650125,
+      "_idAt": 1793282450134,
       "_gameAt": 1793215455747,
       "isLive": false,
       "streamCategory": "",
@@ -33089,7 +33089,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793259652535,
+      "_idAt": 1793282452541,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793061793895
@@ -33187,7 +33187,7 @@
       "lastStreamInfo": "come chat fortnite og live event  (!discord) — Fortnite",
       "lastStreamEndedAt": 1788026352900,
       "gameOverride": "",
-      "_idAt": 1793259653729
+      "_idAt": 1793282453744
     },
     "521e9714-34db-46ea-a803-c0b11d18aabd": {
       "username": "mutzume",
@@ -33282,7 +33282,7 @@
       "lastStreamInfo": "POKESURVIVOR | W/ KUYA @FartVader, And KUYA @JaggerJack",
       "lastStreamEndedAt": 1792600214809,
       "gameOverride": "",
-      "_idAt": 1793259654927,
+      "_idAt": 1793282454937,
       "loyalty": {
         "noodles": {
           "name": "noodles",
@@ -33411,7 +33411,7 @@
       "lastStreamEndedAt": 1790496719480,
       "profile": "zeenlive’s stream is a nonstop, high‑energy hangout where “gm gm bro” greets the chat and “NEW FOLLOWER!!” erupts with every new join. The community thrives on quick emote bursts, playful banter, and a constant stream of “❤️” and “🙌” celebrations. The channel loves being praised with enthusiastic shoutouts, keeping the vibe lively and inclusive.",
       "_profileAtCount": 44,
-      "_idAt": 1793260846593,
+      "_idAt": 1793282643969,
       "_gameAt": 1792680347655,
       "isLive": false,
       "streamCategory": ""
@@ -33424,7 +33424,7 @@
         "totalVotes": 10755,
         "totalSubs": 20,
         "totalChatMessages": 400,
-        "totalStreamMinutes": 1836,
+        "totalStreamMinutes": 1856,
         "emotes": {
           "❤": 24,
           "🙌": 33,
@@ -33603,7 +33603,7 @@
       "_profileAtCount": 341,
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
-      "_idAt": 1793260847724,
+      "_idAt": 1793282643974,
       "_gameAt": 1793281659111,
       "isLive": true,
       "streamCategory": "IRL",
@@ -33754,7 +33754,7 @@
       "gameOverride": "",
       "profile": "starmouse307319 streams energetic, community‑first gameplay, shouting “Welcome everyone!” and “Thanks for watching!” to celebrate viewers. The chat loves quick “follow” prompts, “Let’s take a moment to follow” links, and playful banter. Recurring slang includes “hi welcome how are you?” and “nice to hear that”. The vibe is friendly, inclusive, and always encouraging new followers.",
       "_profileAtCount": 86,
-      "_idAt": 1793260848925
+      "_idAt": 1793282643971
     },
     "b9633d43-f55f-4bb2-825e-92c0c1422e87": {
       "username": "precidobos",
@@ -33845,7 +33845,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793260850122,
+      "_idAt": 1793282643970,
       "_gameAt": 1792257951239,
       "isLive": false,
       "streamCategory": ""
@@ -33912,7 +33912,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f64a634d-8908-45cf-8143-8a641931b8c8.png",
       "followed": true,
       "botVip": true,
-      "_idAt": 1793260851322
+      "_idAt": 1793282643974
     },
     "a8d36ae2-d8e9-4f53-a27d-55c1506a9fbc": {
       "username": "reddeadrasta",
@@ -34184,7 +34184,7 @@
       "gameOverride": "",
       "profile": "corneto streams arcana maps, farming ammo for MoG at level 225+ with a crew that loves “yow @alliveall” and “LD incoming soon 😂😂”. The chat thrives on quick “ggsssssssssssss” and “🔥🔥🔥” reactions, celebrates votes with “🗳️ VOTE ALERT!!”, and celebrates followers with “❤️ NEW FOLLOWER!! ❤️”. The vibe is fast‑paced, playful, and always ready for the next LD.",
       "_profileAtCount": 74,
-      "_idAt": 1793260852524,
+      "_idAt": 1793282643987,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792675005141,
@@ -34258,7 +34258,7 @@
       "lastStreamInfo": "[ES/EN]💥 | HABBO - BLACK JACK | GIVEAWAY!! — Habbo Hotel",
       "lastStreamEndedAt": 1788999484327,
       "gameOverride": "",
-      "_idAt": 1793260853724
+      "_idAt": 1793282643973
     },
     "abe9ce7b-abb9-421e-8063-f29ee331e751": {
       "username": "jagsman",
@@ -36024,7 +36024,7 @@
         "totalVotes": 2038,
         "totalSubs": 9,
         "totalChatMessages": 363,
-        "totalStreamMinutes": 993,
+        "totalStreamMinutes": 1013,
         "emotes": {
           "👋": 15,
           "❤": 14,
@@ -36639,9 +36639,9 @@
       "n": 1
     },
     "lovemikami": {
-      "note": "Retro gamer who loves classic consoles, jokes with “kkkkkkkk,” chats about Sonic, Mario Kart, SNES titles, and playfully complains about app glitches.",
-      "at": 1793150870004,
-      "n": 61
+      "note": "Retro gamer who loves Sonic, Mario Kart, SNES titles and jokes with lots of kkkkk.",
+      "at": 1793282209154,
+      "n": 62
     },
     "dany_kaizo": {
       "note": "Dany_kaizo streams video games, often laughing at glitches, memes, teleportation jokes, and pop‑culture references like Garfield.",
