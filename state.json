@@ -8288,12 +8288,12 @@
       "stats": {
         "totalVotes": 16325,
         "totalSubs": 63,
-        "totalChatMessages": 2472,
-        "totalStreamMinutes": 13662,
+        "totalChatMessages": 2475,
+        "totalStreamMinutes": 13681,
         "emotes": {
           "✨": 53,
           "🖥": 24,
-          "🔥": 226,
+          "🔥": 227,
           "👋": 141,
           "🎬": 136,
           "❤": 179,
@@ -8338,9 +8338,9 @@
           "👾": 4,
           "😉": 2,
           "💃": 20,
-          "✌": 1,
+          "✌": 2,
           "😌": 2,
-          "👍": 2,
+          "👍": 3,
           "☠": 8,
           "🟩": 7,
           "🎉": 6,
@@ -8526,34 +8526,10 @@
           "😄": "😄",
           "😎": "😎"
         },
-        "lastChatAt": 1793250270744,
+        "lastChatAt": 1793252925279,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cachebot",
-          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
-        },
-        {
-          "user": "cachebot",
-          "msg": "✨ [NEW FOLLOWER]: Welcome to the channel, @thatsicy_! Thank you for the follow!."
-        },
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 25 votes, @vitrene! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 3 votes, @tom2329! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 1 votes, @omererkmen! Your support is truly appreciated! 🙌"
-        },
-        {
-          "user": "cachebot",
-          "msg": "🗳️ Thanks for the 1 votes, @b1injaninja! Your support is truly appreciated! 🙌"
-        },
         {
           "user": "cachebot",
           "msg": "🗳️ Thanks for the 6 votes, @dwb9000! Your support is truly appreciated! 🙌"
@@ -8569,6 +8545,30 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "GM!! ☀️💚 hope your day absolutely slaps"
+        },
+        {
+          "user": "avisi",
+          "msg": "now THAT is a HAT my fren ✌️🔥👍"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "🔥That hat is straight fire, fam! 🔥"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "gm @avisi! playing in style this morning"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "GM!! ☀️💚 you showed up, that already makes today better 🫶"
+        },
+        {
+          "user": "ruri666",
+          "msg": "GM GM!!! HAPPY STREAMING!!!"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "GM!! ☀️💚 hope your day absolutely slaps"
         }
       ],
       "customCommands": {},
@@ -8577,7 +8577,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Off The Grid",
+      "streamTitle": "",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. Relentless energy, camaraderie, and the thrill of dropping in to new adventures keep the community buzzing.",
       "_profileAtCount": 2451,
       "loyalty": {
@@ -8660,13 +8660,13 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
       "lastStreamInfo": "Off The Grid",
-      "lastStreamEndedAt": 1793059038287,
+      "lastStreamEndedAt": 1793253301678,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
       "_idAt": 1793251252521,
-      "streamCategory": "Off The Grid",
-      "isLive": true,
-      "_gameAt": 1793250270889,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1793252925386,
       "voteLog": [
         {
           "t": 1792429891268,
@@ -10225,7 +10225,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8e722545-71bf-4322-9039-50b822ebe64c.jpeg",
       "lastStreamInfo": "OFF THE GRID! Summer League — Off The Grid",
       "lastStreamEndedAt": 1786154686473,
-      "_idAt": 1793229646774
+      "_idAt": 1793252446582
     },
     "ff594749-c9c6-4c0b-9306-ec8fd4252f7e": {
       "username": "weri",
@@ -10293,7 +10293,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7e18d17e-6183-4f08-aad4-77cff2175674.gif",
-      "_idAt": 1793229647710,
+      "_idAt": 1793252447718,
       "_gameAt": 1792441764890,
       "isLive": false,
       "streamCategory": "",
@@ -10969,7 +10969,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "🛞Wheel of PAIN🛞❤️Trying Mossvale part 6! ❤️",
       "lastStreamEndedAt": 1793159709980,
-      "_idAt": 1793229648906,
+      "_idAt": 1793252448921,
       "mascotMsgs": [
         "Don't forget to Subscribe!",
         "Bald!",
@@ -11616,7 +11616,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793229650107,
+      "_idAt": 1793252450137,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793199695780
@@ -11701,7 +11701,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793229651303
+      "_idAt": 1793252451331
     },
     "79ffc47e-8cb0-4618-9272-c9281368d26e": {
       "username": "vitrene",
@@ -11974,7 +11974,7 @@
       "nudgedKey": "customcmd",
       "lastStreamInfo": "Wildly mis-scaled expectations 📉 | Runescape Dragonwilds",
       "lastStreamEndedAt": 1793143956050,
-      "_idAt": 1793229652503,
+      "_idAt": 1793252452536,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793143934342,
@@ -12258,7 +12258,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793229653715
+      "_idAt": 1793252453730
     },
     "4ec108d8-b147-4ff7-b1e6-b1f8fa882f61": {
       "username": "gmc_omom_",
@@ -12294,7 +12294,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/ca8a30e8-2a1f-4950-8a7b-527439363ebf.jpg",
-      "_idAt": 1793229654906
+      "_idAt": 1793252454923
     },
     "1290a27a-b733-42cc-85fe-daa77f965b10": {
       "username": "gmc_gaara27",
@@ -18507,19 +18507,19 @@
       "stats": {
         "totalVotes": 41885,
         "totalSubs": 195,
-        "totalChatMessages": 4445,
-        "totalStreamMinutes": 22360,
+        "totalChatMessages": 4453,
+        "totalStreamMinutes": 22380,
         "emotes": {
           "❤": 158,
           "🙌": 275,
           "💚": 3,
-          "🔥": 161,
+          "🔥": 162,
           "🗳": 1158,
           "🔴": 185,
-          "🎉": 243,
+          "🎉": 244,
           "📴": 181,
           "👋": 187,
-          "🚨": 354,
+          "🚨": 360,
           "🥂": 2,
           "🫶": 3,
           "🦝": 1,
@@ -18528,9 +18528,9 @@
           "😁": 1,
           "👀": 10,
           "✋": 2,
-          "✌": 12,
+          "✌": 13,
           "☺": 1,
-          "👍": 11,
+          "👍": 12,
           "🎁": 290,
           "😶": 15,
           "🌫": 15,
@@ -18550,7 +18550,7 @@
           "8f198fe9-5250-4aaa-8783-ce311112d551": 24,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 10,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 15,
-          "ef07187d-8e6c-42b9-af9c-b732de7949cb": 49,
+          "ef07187d-8e6c-42b9-af9c-b732de7949cb": 52,
           "e378281b-e1b0-44be-95f5-eb1cd26dedf0": 186,
           "👉": 1,
           "🍵": 1,
@@ -18742,48 +18742,48 @@
           "7573c501-7624-43cf-9189-0db1f8d22172": "PYROTHESTREAMER"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793248762146
+        "lastChatAt": 1793253257153
       },
       "chatMemory": [
         {
-          "user": "seventh",
-          "msg": "HAHAHAHAHAHAHAHHAHAHAAHHAHAHAHAH"
+          "user": "faithy_",
+          "msg": "na lunch haha"
         },
         {
-          "user": "seventh",
-          "msg": "sige lang kuya take your time"
-        },
-        {
-          "user": "seventh",
-          "msg": "bili lang din po ako ng meryenda ba hehe"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Whoa, zedserious just RADED the farm and brought the whole crew—welcome to the squad, let’s crush it!"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @zedserious is raiding with a party of 4! Welcome raiders!! 🎉"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @faithy_ just gifted a sub to @zedserious! How generous!! 🙌"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "💚 Huge shout to faithy_ for gifting that sub—true legend vibes, let’s shower love!"
-        },
-        {
-          "user": "tvpeperonitos",
-          "msg": "Have a nice stream!"
-        },
-        {
-          "user": "tinapay",
-          "msg": "heyyy faithyyy"
+          "user": "avisi",
+          "msg": "ayyy @faithy_ ✌️🔥👍"
         },
         {
           "user": "faithy_",
-          "msg": "na lunch haha"
+          "msg": "@avisi hellooo man!"
+        },
+        {
+          "user": "faithy_",
+          "msg": "hope you doing well"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Welcome the raid squad, mindgoblin! Your whole crew just leveled up this stream—let's crank the crypto grind to the max!"
+        },
+        {
+          "user": "faithy_",
+          "msg": "raid raid!"
+        },
+        {
+          "user": "botger",
+          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @mindgoblin is raiding with a party of 3! Welcome raiders!! 🎉"
+        },
+        {
+          "user": "faithy_",
+          "msg": "thnks for the raid man!"
+        },
+        {
+          "user": "mindgoblin",
+          "msg": "[emote:ef07187d-8e6c-42b9-af9c-b732de7949cb] [emote:ef07187d-8e6c-42b9-af9c-b732de7949cb] [emote:ef07187d-8e6c-42b9-af9c-b732de7949cb]"
+        },
+        {
+          "user": "mindgoblin",
+          "msg": "enjoy your stream man"
         }
       ],
       "customCommands": {},
@@ -19018,7 +19018,7 @@
       "lastStreamInfo": "Bloomshire Season 0!!",
       "lastStreamEndedAt": 1793204604740,
       "_idAt": 1793232054933,
-      "_gameAt": 1793248762238,
+      "_gameAt": 1793253235698,
       "isLive": true,
       "streamCategory": "Crypto",
       "voteLog": [
@@ -22858,8 +22858,8 @@
       "stats": {
         "totalVotes": 12469,
         "totalSubs": 65,
-        "totalChatMessages": 3006,
-        "totalStreamMinutes": 7652,
+        "totalChatMessages": 3008,
+        "totalStreamMinutes": 7658,
         "emotes": {
           "❤": 124,
           "🙌": 112,
@@ -22869,8 +22869,8 @@
           "🗳": 288,
           "⚠": 1,
           "🎯": 1,
-          "🔴": 69,
-          "🎉": 88,
+          "🔴": 70,
+          "🎉": 89,
           "🚨": 84,
           "😀": 1,
           "👍": 8,
@@ -23077,17 +23077,9 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793175016492
+        "lastChatAt": 1793252936089
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
-        },
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
@@ -23119,6 +23111,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -23130,7 +23130,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "",
+      "streamTitle": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -23282,9 +23282,9 @@
         }
       },
       "_idAt": 1793234446536,
-      "_gameAt": 1793175011835,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793252935827,
+      "isLive": true,
+      "streamCategory": "Music",
       "voteLog": [
         {
           "t": 1792429891310,
@@ -37565,9 +37565,9 @@
       "n": 4
     },
     "kwinchester": {
-      "note": "Kwinchester is a loud, playful gamer who cheers teammates, loves to laugh, and talks about game strategies",
-      "at": 1792363729301,
-      "n": 14
+      "note": "Kwinchester is a loud, playful gamer who cheers teammates, loves to laugh, talks about game strategies,",
+      "at": 1793252509090,
+      "n": 15
     },
     "timdraws": {
       "note": "Timdraws loves MMORPGs, indie gems like Graveyard Keeper and Hollow Knight, jokes about abyss quests and guilds, enjoys catching Pokémon, and dislikes mindless gacha.",
