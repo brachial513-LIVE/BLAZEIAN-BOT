@@ -18527,16 +18527,16 @@
       "stats": {
         "totalVotes": 41885,
         "totalSubs": 195,
-        "totalChatMessages": 4455,
-        "totalStreamMinutes": 22384,
+        "totalChatMessages": 4456,
+        "totalStreamMinutes": 22390,
         "emotes": {
           "❤": 158,
           "🙌": 275,
           "💚": 3,
           "🔥": 162,
           "🗳": 1158,
-          "🔴": 185,
-          "🎉": 244,
+          "🔴": 186,
+          "🎉": 245,
           "📴": 182,
           "👋": 188,
           "🚨": 360,
@@ -18762,13 +18762,9 @@
           "7573c501-7624-43cf-9189-0db1f8d22172": "PYROTHESTREAMER"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793253577417
+        "lastChatAt": 1793272176710
       },
       "chatMemory": [
-        {
-          "user": "faithy_",
-          "msg": "@avisi hellooo man!"
-        },
         {
           "user": "faithy_",
           "msg": "hope you doing well"
@@ -18804,6 +18800,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -18816,7 +18816,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/773114d0-084a-4bd6-9cfb-6a29b7ec732a.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "BloomShire Farm Grind!",
       "gameOverride": "",
       "profile": "Crypto corner of faithy_: we dive into New Epoch Play Cambria Fun and Mafia II marathon. Love “GIFTED SUBS”, “VOTE ALERTS”, “ROI YAN”, “patay”, “spanked”, “TAAS NA LEVEL MO AH”, “PURE LOVE”, generous subs, “GGS” vibes. Celebrate with “GIFTED SUB”, enjoy “TAAS NA LEVEL MO AH”, and “it's time to grind” moments, all while playing Mafia II. Also stream Ori and the Will of the Wisps, praising music and vibrant visuals.",
       "_profileAtCount": 4455,
@@ -19038,9 +19038,9 @@
       "lastStreamInfo": "BloomShire Farm Grind!",
       "lastStreamEndedAt": 1793253572233,
       "_idAt": 1793254854918,
-      "_gameAt": 1793253525314,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793272176631,
+      "isLive": true,
+      "streamCategory": "Crypto",
       "voteLog": [
         {
           "t": 1792429891196,
@@ -37891,8 +37891,8 @@
     },
     "djmob": {
       "note": "A gamer who jokes about credits and scripts, loves upgrading tech, enjoys music, and is enthusiastic about new videos and commentary.",
-      "at": 1793206969106,
-      "n": 8
+      "at": 1793272309106,
+      "n": 9
     },
     "nuggetbot": {
       "note": "Friendly streamer who uses food‑themed humor, encourages new viewers to follow, promotes hype trains, subs, gifts, and bot commands.",
@@ -37992,8 +37992,8 @@
     }
   },
   "auth": {
-    "accessToken": "bfc897a4776eb99b166534cffcb826c1",
-    "refreshToken": "89a5f6e7de85f72e4f6133bd713d9e7b",
+    "accessToken": "a30d6c573a31e94d114cfa8eb826434f",
+    "refreshToken": "3f9b6d7e10dfaf731b3efbf26c223536",
     "sessionToken": "c5f3993b799c5cd1abe9b4ac7e5e5411",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
