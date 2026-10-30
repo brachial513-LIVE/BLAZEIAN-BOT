@@ -19047,16 +19047,16 @@
       "stats": {
         "totalVotes": 43640,
         "totalSubs": 197,
-        "totalChatMessages": 4568,
-        "totalStreamMinutes": 22875,
+        "totalChatMessages": 4569,
+        "totalStreamMinutes": 22887,
         "emotes": {
           "❤": 160,
           "🙌": 279,
           "💚": 3,
           "🔥": 166,
           "🗳": 1173,
-          "🔴": 188,
-          "🎉": 247,
+          "🔴": 189,
+          "🎉": 248,
           "📴": 185,
           "👋": 191,
           "🚨": 360,
@@ -19284,13 +19284,9 @@
           "🟢": "🟢"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793335532101
+        "lastChatAt": 1793359404698
       },
       "chatMemory": [
-        {
-          "user": "future42",
-          "msg": "Went to Nashville a couple of weeks ago....was blown away by the musicians"
-        },
         {
           "user": "briggsy",
           "msg": "Oh, for sure.  Huge Allman Bros fan.  Got some good bootlegs from the Duane Allman era"
@@ -19326,6 +19322,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -19338,7 +19338,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/773114d0-084a-4bd6-9cfb-6a29b7ec732a.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Play & Browse Crypto Games",
       "gameOverride": "",
       "profile": "Crypto corner of faithy_: we dive into New Epoch Play Cambria Fun and Mafia II marathon. Love “GIFTED SUBS”, “VOTE ALERTS”, “ROI YAN”, “patay”, “spanked”, “TAAS NA LEVEL MO AH”, “PURE LOVE”, generous subs, “GGS” vibes. Celebrate with “GIFTED SUB”, enjoy “TAAS NA LEVEL MO AH”, and “it's time to grind” moments, all while playing Mafia II. Also stream Ori and the Will of the Wisps, praising music and vibrant visuals.",
       "_profileAtCount": 4568,
@@ -19565,9 +19565,9 @@
       "lastStreamInfo": "Play & Browse Crypto Games",
       "lastStreamEndedAt": 1793335526900,
       "_idAt": 1793346054969,
-      "_gameAt": 1793335366938,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793359404614,
+      "isLive": true,
+      "streamCategory": "Crypto",
       "voteLog": [
         {
           "t": 1792429891196,
