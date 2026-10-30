@@ -2456,8 +2456,8 @@
       "stats": {
         "totalVotes": 47576,
         "totalSubs": 125,
-        "totalChatMessages": 54129,
-        "totalStreamMinutes": 4840,
+        "totalChatMessages": 54200,
+        "totalStreamMinutes": 4845,
         "emotes": {
           "🔥": 2391,
           "🗳": 38,
@@ -2466,9 +2466,9 @@
           "😍": 150,
           "❤": 283,
           "🚢": 26,
-          "⏰": 2438,
+          "⏰": 2443,
           "🔜": 1419,
-          "💀": 1248,
+          "💀": 1253,
           "😘": 5,
           "🏆": 326,
           "🎊": 303,
@@ -2485,7 +2485,7 @@
           "💥": 570,
           "📴": 63,
           "👋": 74,
-          "😢": 2,
+          "😢": 3,
           "⚠": 39,
           "🎯": 2,
           "👿": 1,
@@ -2573,7 +2573,7 @@
           "🥲": 2,
           "😜": 4,
           "63a16e82-31af-4c4a-b5e1-56f7f292e558": 74,
-          "😪": 1,
+          "😪": 3,
           "😀": 5,
           "🤐": 4,
           "728a0622-3d8a-4cfd-b327-383ac567b198": 4,
@@ -2639,12 +2639,13 @@
           "🛡": 1,
           "✋": 28,
           "😃": 1,
-          "🐾": 25,
+          "🐾": 29,
           "🫥": 1,
           "🔌": 1,
           "💔": 1,
           "🐳": 1,
-          "✨": 1
+          "✨": 1,
+          "🤤": 1
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -2832,9 +2833,10 @@
           "🔌": "🔌",
           "💔": "💔",
           "🐳": "🐳",
-          "✨": "✨"
+          "✨": "✨",
+          "🤤": "🤤"
         },
-        "lastChatAt": 1793388345085,
+        "lastChatAt": 1793388645387,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2843,44 +2845,44 @@
       },
       "chatMemory": [
         {
+          "user": "time",
+          "msg": "lion"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@time lion queued for round 4. Choose again to replace it, or use !dequeue."
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@badger You must be an active Zoopsies player to use this advantage."
+        },
+        {
           "user": "nadietv",
-          "msg": "💯"
+          "msg": "noooooooo I FAILED YOU"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "💀 time has been eliminated! 4 players remaining."
+        },
+        {
+          "user": "nadietv",
+          "msg": "😢"
+        },
+        {
+          "user": "badger",
+          "msg": "we still have some time.. wdym?"
+        },
+        {
+          "user": "time",
+          "msg": "😪😪"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "💀 razmr_eth has been eliminated! 3 players remaining."
         },
         {
           "user": "razmr_eth",
-          "msg": "we cant compete againts octopus"
-        },
-        {
-          "user": "octo",
-          "msg": "not in this game sorry lol"
-        },
-        {
-          "user": "badger",
-          "msg": "ZOOPUSSIES!!!!!!"
-        },
-        {
-          "user": "botger",
-          "msg": "REFERRAL SYSTEM - INVITE SOMEONE TO BLAZE GAMES THAT HASN'T PLAYED IN THE LAST 4 WEEKS AND GET REWARDED. 10 VOTES FOR YOU, 10 VOTES FOR THEM."
-        },
-        {
-          "user": "badger",
-          "msg": "WHAT IS CARNIVORE MODE?????"
-        },
-        {
-          "user": "badger",
-          "msg": "ZOOPUSSIES!!!!!"
-        },
-        {
-          "user": "nadietv",
-          "msg": "zoopussies"
-        },
-        {
-          "user": "badger",
-          "msg": "sure JT.. whatever"
-        },
-        {
-          "user": "dimifw",
-          "msg": "your browser history gonna be interesting"
+          "msg": "im just"
         }
       ],
       "customCommands": {},
@@ -3152,7 +3154,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1793384454994,
-      "_gameAt": 1793388176114,
+      "_gameAt": 1793388547948,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -3684,8 +3686,8 @@
       "stats": {
         "totalVotes": 48814,
         "totalSubs": 312,
-        "totalChatMessages": 15593,
-        "totalStreamMinutes": 37396,
+        "totalChatMessages": 15599,
+        "totalStreamMinutes": 37401,
         "emotes": {
           "📊": 3,
           "🔥": 669,
@@ -4281,29 +4283,9 @@
           "😈": "😈"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793388323698
+        "lastChatAt": 1793388394452
       },
       "chatMemory": [
-        {
-          "user": "foxbotai",
-          "msg": "FoxBot help: !daily, !foxhunt, !balance, !shop, !redeem, !boss, !attack, !arcade, !socials, !leaderboard, !convert, !casinoflip heads 10, !casino, !roulette red 10, !crash 10 2.5, !blackjack 10, !hit, !stand, !dice high 10, !slots 10 | Admin: !giveaway, !pickwinner, !resetstreak, !startquest, !endquest, !questadd, !startevent, !endevent, !goodnight, !endstream, !startboss, !givepoints, !addreward"
-        },
-        {
-          "user": "bee12",
-          "msg": "🔥🔥🔥"
-        },
-        {
-          "user": "kamil",
-          "msg": "this is new"
-        },
-        {
-          "user": "kamil",
-          "msg": "🤠"
-        },
-        {
-          "user": "foxbotai",
-          "msg": "A boss has appeared: Cyber Fox Dragon with 500 HP! Type !attack to fight."
-        },
         {
           "user": "foxbotai",
           "msg": "@kamil attacked Cyber Fox Dragon for 29 damage and earned 8 FoxCoins! Boss HP: 471/500. Your total boss damage: 29. Balance: 8 FoxCoins."
@@ -4323,6 +4305,26 @@
         {
           "user": "foxbotai",
           "msg": "Boss Battle: Cyber Fox Dragon has 471/500 HP. Type !attack to fight or !powerattack to spend 25 FoxCoins for bigger damage."
+        },
+        {
+          "user": "kamil",
+          "msg": "wow that is sneaky"
+        },
+        {
+          "user": "kamil",
+          "msg": "those fliers"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "Well have a great night gang"
+        },
+        {
+          "user": "foxbotai",
+          "msg": "@CyMatrIX, only the creator or mods can use the stream ending message."
+        },
+        {
+          "user": "cymatrix",
+          "msg": "lol, guess that's a command"
         }
       ],
       "customCommands": {},
@@ -4518,7 +4520,7 @@
       },
       "streamCategory": "Crypto",
       "isLive": true,
-      "_gameAt": 1793388155037,
+      "_gameAt": 1793388349949,
       "voteLog": [
         {
           "t": 1792429891148,
@@ -11740,7 +11742,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1027,
-        "totalStreamMinutes": 26401,
+        "totalStreamMinutes": 26406,
         "emotes": {
           "❤": 138,
           "🙌": 45,
@@ -14298,8 +14300,8 @@
       "stats": {
         "totalVotes": 4690,
         "totalSubs": 30,
-        "totalChatMessages": 433,
-        "totalStreamMinutes": 1458,
+        "totalChatMessages": 434,
+        "totalStreamMinutes": 1460,
         "emotes": {
           "❤": 48,
           "🙌": 54,
@@ -14380,14 +14382,10 @@
           "💖": "💖",
           "🌍": "🌍"
         },
-        "lastChatAt": 1793370664441,
+        "lastChatAt": 1793388476433,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "helios",
-          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "Welcome to the crew, razmr_eth! 🌟✨ Cheers for joining the family!"
@@ -14423,6 +14421,10 @@
         {
           "user": "cactus_jack440",
           "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+        },
+        {
+          "user": "botger",
+          "msg": "Helios is now live!! Let's get building"
         }
       ],
       "customCommands": {},
@@ -14432,7 +14434,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4366a4c8-c3fa-4296-9014-212a08f2fae3.gif",
-      "streamTitle": "",
+      "streamTitle": "Chill gaming",
       "gameOverride": "",
       "lastStreamInfo": "Work stream: 3D design from work",
       "lastStreamEndedAt": 1793092089327,
@@ -14538,9 +14540,9 @@
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
       "_idAt": 1793367650186,
-      "_gameAt": 1793370661656,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793388476363,
+      "isLive": true,
+      "streamCategory": "IRL",
       "voteLog": [
         {
           "t": 1792429891213,
@@ -24438,15 +24440,15 @@
       "stats": {
         "totalVotes": 23117,
         "totalSubs": 38,
-        "totalChatMessages": 53272,
-        "totalStreamMinutes": 25272,
+        "totalChatMessages": 53317,
+        "totalStreamMinutes": 25277,
         "emotes": {
           "❤": 174,
           "🙌": 160,
           "🤝": 4,
           "🔥": 80,
           "🔴": 139,
-          "🎉": 1040,
+          "🎉": 1044,
           "🪙": 1312,
           "⚡": 941,
           "👀": 130,
@@ -24897,48 +24899,48 @@
           "📐": "📐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793388338727
+        "lastChatAt": 1793388631441
       },
       "chatMemory": [
         {
-          "user": "mauhzera",
-          "msg": "kkkkkkkk"
+          "user": "junior7_",
+          "msg": "Melhor time do mundo Nilo tem q aceitar"
         },
         {
           "user": "lovemikami",
-          "msg": "não maluco, tu pode comprar a energia pela metade do preço"
+          "msg": "continua sendo o real madrid"
         },
         {
           "user": "lovemikami",
-          "msg": "para de agorar éden"
+          "msg": "maior vencedor de champions"
         },
         {
           "user": "lovemikami",
-          "msg": "fica ai zikando"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "@paulo_santos20, você tem 240 pontos!"
-        },
-        {
-          "user": "botger",
-          "msg": "💰Compre blaze no canal com streamer (Eden) para fazer doações ou comprar votos."
+          "msg": "PSG tem que suar muito"
         },
         {
           "user": "junior7_",
-          "msg": "Bemvindo Paulo paulada"
+          "msg": "Real é oh maior não oh melhor"
         },
         {
-          "user": "poderosobot",
-          "msg": "Parabéns, @botger! Você subiu para o Nível 6! 🎉"
+          "user": "lovemikami",
+          "msg": "se tem mais champions, claro que é o melhor"
         },
         {
           "user": "junior7_",
-          "msg": "PSG 4 a 1 em andamento"
+          "msg": "No momento atual nilo"
         },
         {
-          "user": "paulo_santos20",
-          "msg": "Boa Tarde, Junior!"
+          "user": "lovemikami",
+          "msg": "15 contra 2, e o melhor é quem? o PSG? não me faz rir junhu kkkkk"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "@paulo_santos20: Nível 6 | 9000 XP (2800 para o Nível 7)"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "Parabéns, @paulo_santos20! Você subiu para o Nível 6! 🎉"
         }
       ],
       "customCommands": {},
@@ -25096,7 +25098,7 @@
         }
       },
       "_idAt": 1793371248983,
-      "_gameAt": 1793388262510,
+      "_gameAt": 1793388459016,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -25505,7 +25507,7 @@
         "totalVotes": 14830,
         "totalSubs": 43,
         "totalChatMessages": 2017,
-        "totalStreamMinutes": 13391,
+        "totalStreamMinutes": 13396,
         "emotes": {
           "❤": 101,
           "🙌": 78,
@@ -32472,7 +32474,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9f823081-5b97-4b05-8548-0b1f2a50b6b2.gif",
-      "streamTitle": "",
+      "streamTitle": "Playing OSP - STARFALL",
       "lastStreamInfo": "The Future Of - Anything & Everything — IRL",
       "lastStreamEndedAt": 1789768032889,
       "gameOverride": "",
@@ -32480,7 +32482,10 @@
       "_profileAtCount": 33,
       "nudgedAt": 1786981105091,
       "nudgedKey": "schedule",
-      "_idAt": 1793373651490
+      "_idAt": 1793373651490,
+      "streamCategory": "IRL",
+      "isLive": true,
+      "_gameAt": 1793388610740
     },
     "aeb8b4ea-5a22-4acf-b508-dbf0ce896a86": {
       "username": "inn",
@@ -32490,7 +32495,7 @@
         "totalVotes": 12688,
         "totalSubs": 38,
         "totalChatMessages": 5409,
-        "totalStreamMinutes": 18134,
+        "totalStreamMinutes": 18139,
         "emotes": {
           "👋": 137,
           "⚠": 2,
@@ -34057,7 +34062,7 @@
         "totalVotes": 2027,
         "totalSubs": 10,
         "totalChatMessages": 182,
-        "totalStreamMinutes": 10315,
+        "totalStreamMinutes": 10320,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -38327,8 +38332,8 @@
     },
     "bee12": {
       "note": "Energetic streamer who loves multiplayer skirmish games, cheers loudly, uses emojis, welcomes new viewers, and celebrates victories with playful banter.",
-      "at": 1793274289180,
-      "n": 57
+      "at": 1793388469397,
+      "n": 58
     },
     "omom_": {
       "note": "They love gaming, use playful humor and emoticons, and enjoy lively, exciting livestreams.",
@@ -39283,8 +39288,8 @@
     }
   },
   "auth": {
-    "accessToken": "f2fdfc9419b525fbcc67cf4fc07d022c",
-    "refreshToken": "6139f4d135529190ba092ce2f0fc4262",
+    "accessToken": "e3a71db55bd0e279d295b7d07b726c2f",
+    "refreshToken": "8874704e2271d44ae6a2f1470a8f57b0",
     "sessionToken": "95a2c87705ca6dc9042fd9e1cb0c4282",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
