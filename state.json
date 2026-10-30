@@ -2441,7 +2441,7 @@
       "stats": {
         "totalVotes": 47529,
         "totalSubs": 125,
-        "totalChatMessages": 52830,
+        "totalChatMessages": 52846,
         "totalStreamMinutes": 4750,
         "emotes": {
           "🔥": 2388,
@@ -2451,7 +2451,7 @@
           "😍": 150,
           "❤": 283,
           "🚢": 25,
-          "⏰": 2388,
+          "⏰": 2398,
           "🔜": 1350,
           "💀": 1221,
           "😘": 5,
@@ -2498,7 +2498,7 @@
           "👍": 4,
           "🥔": 2210,
           "🔄": 397,
-          "🤖": 277,
+          "🤖": 278,
           "😏": 118,
           "❌": 73,
           "🙃": 14,
@@ -2622,7 +2622,7 @@
           "🤘": 2,
           "🦊": 1,
           "🛡": 1,
-          "✋": 25,
+          "✋": 26,
           "😃": 1,
           "🐾": 20,
           "🫥": 1
@@ -2811,7 +2811,7 @@
           "🐾": "🐾",
           "🫥": "🫥"
         },
-        "lastChatAt": 1793337342151,
+        "lastChatAt": 1793337845152,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2819,6 +2819,26 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
+        {
+          "user": "jt_squared2",
+          "msg": "⏰ Game starting in 2 seconds!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "✋ Don't Get Slapped starts in 20 seconds! Use !devjoin and open /play to enter your private clues."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
+        },
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 10 seconds!"
@@ -2838,26 +2858,6 @@
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 1 second!"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🏆 WINNER: BoldChampion28! 🎉 Congratulations! 🎊"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "@jt_squared2 No game is currently active!"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "✋ Don't Get Slapped starts in 20 seconds! Use !devjoin and open /play to enter your private clues."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
         }
       ],
       "customCommands": {},
@@ -3129,7 +3129,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1793316054950,
-      "_gameAt": 1793337282978,
+      "_gameAt": 1793337825621,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -23402,8 +23402,8 @@
       "stats": {
         "totalVotes": 12606,
         "totalSubs": 65,
-        "totalChatMessages": 3015,
-        "totalStreamMinutes": 7774,
+        "totalChatMessages": 3017,
+        "totalStreamMinutes": 7782,
         "emotes": {
           "❤": 124,
           "🙌": 112,
@@ -23413,8 +23413,8 @@
           "🗳": 288,
           "⚠": 1,
           "🎯": 1,
-          "🔴": 71,
-          "🎉": 90,
+          "🔴": 72,
+          "🎉": 91,
           "🚨": 84,
           "😀": 1,
           "👍": 8,
@@ -23621,17 +23621,9 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793288742104
+        "lastChatAt": 1793338051234
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
-        },
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
@@ -23663,6 +23655,14 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "oh johngalt is NOT playing around — 125 votes 🔥💚 thank you!!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -23674,7 +23674,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "",
+      "streamTitle": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -23826,9 +23826,9 @@
         }
       },
       "_idAt": 1793325646613,
-      "_gameAt": 1793288737400,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793338050985,
+      "isLive": true,
+      "streamCategory": "Music",
       "voteLog": [
         {
           "t": 1792429891310,
@@ -37797,9 +37797,9 @@
       "n": 6
     },
     "0xscheun": {
-      "note": "Playful PS gamer who loves quick‑witted banter, emojis, and joking about charts, Pikachu, and voting pauses.",
-      "at": 1793036390572,
-      "n": 23
+      "note": "Playful PS gamer who loves quick‑witted banter, emojis, jokes about charts, Pikachu, and voting pauses.",
+      "at": 1793337649201,
+      "n": 24
     },
     "noxx": {
       "note": "Streams indie horror and action games, loves creative art and music, and always adds sarcastic humor to the chat.",
