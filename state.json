@@ -7626,8 +7626,8 @@
       "stats": {
         "totalVotes": 42410,
         "totalSubs": 78,
-        "totalChatMessages": 5052,
-        "totalStreamMinutes": 19397,
+        "totalChatMessages": 5054,
+        "totalStreamMinutes": 19402,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -7736,7 +7736,7 @@
           "🙌": 68,
           "🗳": 504,
           "📴": 59,
-          "72214ffa-77c3-4777-9bc2-587b6bc0581c": 201,
+          "72214ffa-77c3-4777-9bc2-587b6bc0581c": 204,
           "🔴": 58,
           "🎉": 68,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 181,
@@ -7745,7 +7745,7 @@
           "🚨": 60,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 38,
           "248db14b-f100-4838-be4d-8e265634e892": 101,
-          "795f0ae8-10ec-4faa-8160-503dbd0e593d": 30,
+          "795f0ae8-10ec-4faa-8160-503dbd0e593d": 31,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 64,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 5,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 30,
@@ -7959,17 +7959,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793361300699
+        "lastChatAt": 1793361627851
       },
       "chatMemory": [
-        {
-          "user": "cactus_jack440",
-          "msg": "Howdy @jakehusdon12"
-        },
-        {
-          "user": "big_ray_8852",
-          "msg": "Hi there"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "@big_ray_8852 heyyy!! 💚🫶 good to see you"
@@ -8001,6 +7993,14 @@
         {
           "user": "botger",
           "msg": "🔴 capt_rob_advent is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "twerkin_herbert",
+          "msg": "[emote:795f0ae8-10ec-4faa-8160-503dbd0e593d]"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "[emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c] [emote:72214ffa-77c3-4777-9bc2-587b6bc0581c]"
         }
       ],
       "customCommands": {},
@@ -8101,7 +8101,7 @@
       "lastStreamInfo": "FUELING SHIPS 🚢 IN SOUTH EAST TEXAS",
       "lastStreamEndedAt": 1793319658280,
       "_idAt": 1793342450168,
-      "_gameAt": 1793361300545,
+      "_gameAt": 1793361627974,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -19048,7 +19048,7 @@
         "totalVotes": 43665,
         "totalSubs": 197,
         "totalChatMessages": 4570,
-        "totalStreamMinutes": 22907,
+        "totalStreamMinutes": 22912,
         "emotes": {
           "❤": 160,
           "🙌": 279,
@@ -38814,9 +38814,9 @@
       "n": 1
     },
     "rafael_zuh": {
-      "note": "Rafael loves playful emojis, jokes about",
-      "at": 1793037050615,
-      "n": 20
+      "note": "He enjoys playful gaming chats about Sheena, Dog Maiden, and Brigguitar, often punctuating with laughing emojis",
+      "at": 1793361409399,
+      "n": 21
     },
     "thunderfeetxx_1": {
       "note": "Enjoys gaming chats, uses playful humor, and prefers Howard Jones over Jesse.",
@@ -39106,8 +39106,8 @@
     }
   },
   "auth": {
-    "accessToken": "25a89613f248879efaf03548ccf60cdf",
-    "refreshToken": "d972257bd7559b9d2aa16782f5f46696",
+    "accessToken": "b563d9acf481d80a3f04d6b64a83cad5",
+    "refreshToken": "b03eb1129a2be53dcb0e710950d7b95c",
     "sessionToken": "71145c574b28d4fd8211621009adf09d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
