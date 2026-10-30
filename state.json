@@ -18041,7 +18041,7 @@
       "stats": {
         "totalVotes": 17887,
         "totalSubs": 96,
-        "totalChatMessages": 928,
+        "totalChatMessages": 929,
         "totalStreamMinutes": 5466,
         "emotes": {
           "❤": 38,
@@ -18059,8 +18059,8 @@
           "😇": 2,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 3,
           "b17e837c-fe4f-480c-ac68-9bb027ff5923": 1,
-          "⚠": 1,
-          "🎯": 1,
+          "⚠": 2,
+          "🎯": 2,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
           "🫣": 1,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 1,
@@ -18114,13 +18114,9 @@
           "🙄": "🙄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792964345917
+        "lastChatAt": 1793344455203
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @poderosobot!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 5 votes, @DimiFW!"
@@ -18156,6 +18152,10 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "@dofferlive wow, 100 votes! huge thanks for the love and support, you’re amazing!"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up lady_iris! You're projected to fall below Verified (Tier 2) in about 6 days (2026/11/05 07:14 UTC). Current stream hours: 16.9h / 10h required. Stream more to keep your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -18243,7 +18243,7 @@
         }
       },
       "_idAt": 1793323252556,
-      "_gameAt": 1792964346003,
+      "_gameAt": 1793344455271,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -27195,7 +27195,7 @@
         "totalVotes": 3267,
         "totalSubs": 9,
         "totalChatMessages": 240,
-        "totalStreamMinutes": 7585,
+        "totalStreamMinutes": 7598,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -28371,7 +28371,7 @@
       "stats": {
         "totalVotes": 13698,
         "totalSubs": 90,
-        "totalChatMessages": 1928,
+        "totalChatMessages": 1929,
         "totalStreamMinutes": 7736,
         "emotes": {
           "❤": 77,
@@ -28419,8 +28419,8 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": 5,
           "f47c4aa4-ee1a-4690-960b-f174d9ab2cd5": 1,
           "😋": 1,
-          "⚠": 1,
-          "🎯": 1
+          "⚠": 2,
+          "🎯": 2
         },
         "emoteNames": {
           "❤": "❤",
@@ -28472,13 +28472,9 @@
           "🎯": "🎯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793339224184
+        "lastChatAt": 1793344454241
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Welcome to the family, iGotBeatz! 🎉💚 We’re thrilled to have you join our Raider Arena crew!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the follow, @igotbeatz!"
@@ -28514,6 +28510,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @consumerbreak!"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up seventh! You're projected to fall below Verified (Tier 2) in about 3 days (2026/11/02 07:14 UTC). Current stream hours: 13.3h / 10h required. Stream more to keep your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -28617,7 +28617,7 @@
         }
       },
       "_idAt": 1793328046611,
-      "_gameAt": 1793339224262,
+      "_gameAt": 1793344454359,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -38627,9 +38627,9 @@
       "n": 14
     },
     "abordiin": {
-      "note": "Enjoys nostalgic arcade and classic console games like Mario Kart, loves playful meme humor, and often jokes spontaneously in chat.",
-      "at": 1793022530555,
-      "n": 14
+      "note": "Enjoys nostalgic arcade and classic console games like Mario Kart, loves playful meme humor, and often jokes spontaneously in chat.",
+      "at": 1793344249154,
+      "n": 15
     },
     "zeltronica": {
       "note": "Enjoys playing OTG, is new to gaming and computers, studying computer science, former English teacher, and has a lighthearted, joking tone.",
@@ -39069,8 +39069,8 @@
     }
   },
   "auth": {
-    "accessToken": "321b888414ca995d7a2f6208e4209b3b",
-    "refreshToken": "de2fc920f47a41c66822334f0e243ebd",
+    "accessToken": "4fc56c995025bd61f296472c374ceea5",
+    "refreshToken": "18ae4a126362f8ce1bae0cd90fca3124",
     "sessionToken": "71145c574b28d4fd8211621009adf09d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
