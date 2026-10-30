@@ -2451,22 +2451,22 @@
       "stats": {
         "totalVotes": 47574,
         "totalSubs": 125,
-        "totalChatMessages": 53392,
-        "totalStreamMinutes": 4782,
+        "totalChatMessages": 53627,
+        "totalStreamMinutes": 4800,
         "emotes": {
           "🔥": 2388,
           "🗳": 38,
           "🔴": 65,
-          "🎉": 490,
+          "🎉": 491,
           "😍": 150,
           "❤": 283,
           "🚢": 26,
-          "⏰": 2403,
+          "⏰": 2418,
           "🔜": 1403,
-          "💀": 1228,
+          "💀": 1234,
           "😘": 5,
-          "🏆": 320,
-          "🎊": 297,
+          "🏆": 321,
+          "🎊": 298,
           "🎰": 51,
           "😰": 244,
           "🍌": 622,
@@ -2485,7 +2485,7 @@
           "🎯": 2,
           "👿": 1,
           "😂": 843,
-          "😅": 13,
+          "😅": 14,
           "✈": 5,
           "🔧": 1,
           "⚡": 135,
@@ -2496,7 +2496,7 @@
           "🤗": 5,
           "🙌": 30,
           "🤣": 149,
-          "🤩": 1,
+          "🤩": 5,
           "🤭": 6,
           "😆": 73,
           "👀": 72,
@@ -2516,10 +2516,10 @@
           "💰": 8,
           "🧪": 9,
           "🙄": 3,
-          "🎮": 84,
+          "🎮": 85,
           "🪅": 69,
           "🍬": 142,
-          "🛑": 65,
+          "🛑": 66,
           "💚": 8,
           "💪": 2,
           "⚔": 14,
@@ -2527,19 +2527,19 @@
           "🍊": 1,
           "🍎": 1,
           "🐷": 211,
-          "🐢": 7,
+          "🐢": 12,
           "🤑": 1,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 64,
-          "a38958f2-59cf-4321-aa3c-1541c00a4b5d": 198,
+          "a38958f2-59cf-4321-aa3c-1541c00a4b5d": 199,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 2,
           "6bc868b6-ab05-4fcf-99d3-7a7e48179946": 10,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 62,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 64,
           "a4248d89-52af-492e-8aa8-803548a394da": 99,
-          "841539a5-88cd-4532-85c1-5589bc530b1b": 18,
+          "841539a5-88cd-4532-85c1-5589bc530b1b": 19,
           "93f3564c-14d5-412f-8856-f2df4eaf6e10": 62,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 2,
-          "87fe35f2-f7e8-4689-a8cd-70714d391677": 90,
+          "87fe35f2-f7e8-4689-a8cd-70714d391677": 94,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 6,
           "d1d6139e-2d09-4e9b-8543-4a930c3db777": 1,
           "37719561-c923-4260-b1a5-e3eda10c103d": 9,
@@ -2551,7 +2551,7 @@
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 5,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 4,
           "9b916865-bf4f-4899-a1fc-33cf4222131c": 1,
-          "⭕": 1,
+          "⭕": 3,
           "🥳": 4,
           "😳": 4,
           "😱": 15,
@@ -2567,7 +2567,7 @@
           "da339ef7-1574-4f2f-8b48-666688167af3": 2,
           "🥲": 2,
           "😜": 4,
-          "63a16e82-31af-4c4a-b5e1-56f7f292e558": 72,
+          "63a16e82-31af-4c4a-b5e1-56f7f292e558": 73,
           "😪": 1,
           "😀": 5,
           "🤐": 4,
@@ -2613,7 +2613,7 @@
           "e5d4b0d8-d752-488e-9c95-d1a62b6f8bcb": 2,
           "🦡": 1,
           "🚨": 18,
-          "🤔": 6,
+          "🤔": 7,
           "🧐": 1,
           "😝": 2,
           "👏": 4,
@@ -2632,11 +2632,12 @@
           "🤘": 2,
           "🦊": 1,
           "🛡": 1,
-          "✋": 26,
+          "✋": 28,
           "😃": 1,
-          "🐾": 21,
+          "🐾": 25,
           "🫥": 1,
-          "🔌": 1
+          "🔌": 1,
+          "💔": 1
         },
         "emoteNames": {
           "🔥": "🔥",
@@ -2821,9 +2822,10 @@
           "😃": "😃",
           "🐾": "🐾",
           "🫥": "🫥",
-          "🔌": "🔌"
+          "🔌": "🔌",
+          "💔": "💔"
         },
-        "lastChatAt": 1793384878873,
+        "lastChatAt": 1793385942992,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2832,44 +2834,44 @@
       },
       "chatMemory": [
         {
-          "user": "dofferlive",
-          "msg": "Like a real viking"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 10 seconds!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 5 seconds!"
         },
         {
           "user": "octo",
-          "msg": "whatup doffer"
-        },
-        {
-          "user": "dofferlive",
-          "msg": "Hey Octo"
-        },
-        {
-          "user": "nadietv",
-          "msg": "i use focus mode for that xD"
+          "msg": "we're missing someone"
         },
         {
           "user": "octo",
-          "msg": "hell yea enjoy your mead and meat"
+          "msg": "idk who"
         },
         {
-          "user": "time",
-          "msg": "heyy Dof"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 3 seconds!"
         },
         {
-          "user": "botger",
-          "msg": "REFERRAL SYSTEM - INVITE SOMEONE TO BLAZE GAMES THAT HASN'T PLAYED IN THE LAST 4 WEEKS AND GET REWARDED. 10 VOTES FOR YOU, 10 VOTES FOR THEM."
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 2 seconds!"
         },
         {
-          "user": "nadietv",
-          "msg": "noice!!"
+          "user": "blazegames_bot",
+          "msg": "⏰ Game starting in 1 second!"
         },
         {
-          "user": "octo",
-          "msg": "i zoned out, what are the commands"
+          "user": "blazegames_bot",
+          "msg": "@tommy_mag joined the game (late join)! 5 player(s) ready."
         },
         {
-          "user": "badger",
-          "msg": "like a sauasge party?"
+          "user": "tommy_mag",
+          "msg": "Dangit!"
+        },
+        {
+          "user": "blazegames_bot",
+          "msg": "@jt_squared2 Player already in the game!"
         }
       ],
       "customCommands": {},
@@ -3141,7 +3143,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1793384454994,
-      "_gameAt": 1793384780596,
+      "_gameAt": 1793385891164,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -3664,7 +3666,7 @@
         "totalVotes": 48814,
         "totalSubs": 310,
         "totalChatMessages": 15555,
-        "totalStreamMinutes": 37338,
+        "totalStreamMinutes": 37356,
         "emotes": {
           "📊": 3,
           "🔥": 666,
@@ -6207,10 +6209,10 @@
       "stats": {
         "totalVotes": 62988,
         "totalSubs": 130,
-        "totalChatMessages": 27856,
-        "totalStreamMinutes": 14469,
+        "totalChatMessages": 27879,
+        "totalStreamMinutes": 14487,
         "emotes": {
-          "❤": 8414,
+          "❤": 8416,
           "🎵": 819,
           "💃": 346,
           "🔥": 2010,
@@ -6229,9 +6231,9 @@
           "🕺": 127,
           "😑": 3,
           "💕": 37,
-          "😁": 101,
-          "😆": 34,
-          "🐝": 1816,
+          "😁": 104,
+          "😆": 36,
+          "🐝": 1817,
           "🥷": 4,
           "😃": 4,
           "💪": 46,
@@ -6249,7 +6251,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 72,
-          "💜": 455,
+          "💜": 456,
           "🧔": 1,
           "🤺": 6,
           "🥳": 109,
@@ -6267,7 +6269,7 @@
           "❣": 13,
           "🫢": 14,
           "🙃": 2,
-          "🖤": 38,
+          "🖤": 39,
           "✨": 152,
           "🤩": 7,
           "✅": 1,
@@ -6332,7 +6334,7 @@
           "🐕": 2,
           "🦴": 4,
           "🪘": 24,
-          "😅": 13,
+          "😅": 14,
           "💛": 14,
           "👨": 1,
           "🎊": 2,
@@ -6735,7 +6737,7 @@
           "🎃": "🎃",
           "🦗": "🦗"
         },
-        "lastChatAt": 1793384828512,
+        "lastChatAt": 1793385877538,
         "sendFailStreak": 589,
         "lastSendFailAt": 1793382854315,
         "lastSendFailReason": "You are banned from this channel.",
@@ -6746,43 +6748,43 @@
       "chatMemory": [
         {
           "user": "generalkev",
-          "msg": "the best idea is to keep doing what we're doing, publicly"
+          "msg": "where's @chocchip tonight? lol"
         },
         {
           "user": "generalkev",
-          "msg": "consistantly"
+          "msg": "😆😆"
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
+        },
+        {
+          "user": "ohfudge",
+          "msg": "oh where oh where has my choco chippy gone... oh where oh where"
+        },
+        {
+          "user": "cymatrix",
+          "msg": "New album RESONANCE has dropped BTW if anyone likes cool chunes"
         },
         {
           "user": "generalkev",
-          "msg": "until they all eat fudge cake too"
+          "msg": "t'is in my YT list for laterz bro"
         },
         {
-          "user": "generalkev",
-          "msg": "its not a good time to be throwing alot of money at marketing while war is in the mainstream media, crypto exchanges are as risky as hell and the monetary system is on the brink."
+          "user": "soulsalwayson",
+          "msg": "Heyo! I'm here just listening in. Call after call today 😅"
         },
         {
-          "user": "generalkev",
-          "msg": "the best idea is exposure"
+          "user": "soulsalwayson",
+          "msg": "Also did you make my changes yet lol"
         },
         {
-          "user": "generalkev",
-          "msg": "its slower, yes, but probably better all round"
+          "user": "bee12",
+          "msg": "Souls always on heyyy❤️🐝❤️"
         },
         {
-          "user": "generalkev",
-          "msg": "mention money to anyone nowadays and they cringe and look the other way"
-        },
-        {
-          "user": "generalkev",
-          "msg": "we've got this far, we can see this through....."
-        },
-        {
-          "user": "generalkev",
-          "msg": "this reminds of that cool romantic track in Top Gun"
-        },
-        {
-          "user": "kamil",
-          "msg": "echofall should be brainless imo"
+          "user": "soulsalwayson",
+          "msg": "Bee!"
         }
       ],
       "customCommands": {},
@@ -6958,7 +6960,7 @@
       "_idAt": 1793365247786,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1793384774657,
+      "_gameAt": 1793385753671,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -11704,7 +11706,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1027,
-        "totalStreamMinutes": 26343,
+        "totalStreamMinutes": 26361,
         "emotes": {
           "❤": 138,
           "🙌": 45,
@@ -13097,7 +13099,7 @@
         "totalVotes": 27726,
         "totalSubs": 61,
         "totalChatMessages": 4749,
-        "totalStreamMinutes": 5448,
+        "totalStreamMinutes": 5466,
         "emotes": {
           "❤": 59,
           "🙌": 118,
@@ -16634,7 +16636,7 @@
         "totalVotes": 13895,
         "totalSubs": 219,
         "totalChatMessages": 578,
-        "totalStreamMinutes": 18908,
+        "totalStreamMinutes": 18925,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -24392,15 +24394,15 @@
       "stats": {
         "totalVotes": 23117,
         "totalSubs": 38,
-        "totalChatMessages": 52848,
-        "totalStreamMinutes": 25214,
+        "totalChatMessages": 52958,
+        "totalStreamMinutes": 25232,
         "emotes": {
           "❤": 174,
           "🙌": 160,
           "🤝": 4,
           "🔥": 80,
           "🔴": 139,
-          "🎉": 989,
+          "🎉": 1007,
           "🪙": 1312,
           "⚡": 941,
           "👀": 130,
@@ -24577,7 +24579,7 @@
           "🥺": 2,
           "🥈": 151,
           "🥉": 151,
-          "⭐": 488,
+          "⭐": 490,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 11,
           "✊": 2,
           "✋": 2,
@@ -24851,48 +24853,48 @@
           "📐": "📐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793384872326
+        "lastChatAt": 1793385945815
       },
       "chatMemory": [
         {
-          "user": "abordiin",
-          "msg": "passo longe do Double Dash kkkk"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns, @mauhzera! Você subiu para o Nível 3! 🎉"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns, @abordiin! Você subiu para o Nível 3! 🎉"
+          "user": "alensilva",
+          "msg": "Morreu reseta nesse mega MAM Eden pro nilo"
         },
         {
           "user": "lovemikami",
-          "msg": "já tá me expulsando é"
+          "msg": "num disse que faço no hit kkkkkk eu disse que consigo derrotar na buster kkkkkkkkkkkk"
         },
         {
           "user": "poderosobot",
-          "msg": "Parabéns, @lovemikami! Você subiu para o Nível 3! 🎉"
-        },
-        {
-          "user": "abordiin",
-          "msg": "a partir de amanhã já pode montar a árvore de natal"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "kakakakaa"
+          "msg": "Parabéns, @alensilva! Você subiu para o Nível 5! 🎉"
         },
         {
           "user": "poderosobot",
-          "msg": "Parabéns, @mauhzera! Você subiu para o Nível 4! 🎉"
+          "msg": "Parabéns @alensilva! Você concluiu \"level 5 + 50 blaze prime\"! Você recebeu 200 pontos! 🎉"
         },
         {
           "user": "lovemikami",
-          "msg": "oia me expulsando, se fosse o lipe, eiii lipe vamo jogar o castelo da vânia, salfaldo"
+          "msg": "morreu reseta até dar, mas é treino"
         },
         {
-          "user": "mauhzera",
-          "msg": "Jogo moleza pro Edão respirar"
+          "user": "lovemikami",
+          "msg": "tem fases ai que pode complicar"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "mas se o éden pagar bem quem sabe kkkkkkk"
+        },
+        {
+          "user": "alensilva",
+          "msg": "Mas se vc for fazer nilo nao começá com choro"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "que choro? eu gosto desse jogo"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "nunca chorei nesse jogo ai não"
         }
       ],
       "customCommands": {},
@@ -25050,7 +25052,7 @@
         }
       },
       "_idAt": 1793371248983,
-      "_gameAt": 1793384712785,
+      "_gameAt": 1793385940786,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -39237,8 +39239,8 @@
     }
   },
   "auth": {
-    "accessToken": "5d336bed3f0f6a20f199f46b18fb47ad",
-    "refreshToken": "4cdbb056739fe4e4e96b7076743f88db",
+    "accessToken": "f2fdfc9419b525fbcc67cf4fc07d022c",
+    "refreshToken": "6139f4d135529190ba092ce2f0fc4262",
     "sessionToken": "95a2c87705ca6dc9042fd9e1cb0c4282",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
