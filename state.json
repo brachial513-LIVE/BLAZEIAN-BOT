@@ -7626,7 +7626,7 @@
       "stats": {
         "totalVotes": 42410,
         "totalSubs": 78,
-        "totalChatMessages": 5051,
+        "totalChatMessages": 5052,
         "totalStreamMinutes": 19397,
         "emotes": {
           "😊": 5,
@@ -7737,8 +7737,8 @@
           "🗳": 504,
           "📴": 59,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 201,
-          "🔴": 57,
-          "🎉": 67,
+          "🔴": 58,
+          "🎉": 68,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 181,
           "a859cc12-453a-4bd8-b650-38710d9486de": 16,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 15,
@@ -7959,13 +7959,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793319663452
+        "lastChatAt": 1793361300699
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Welcome to the crew, jakehusdon12! 🚀✨"
-        },
         {
           "user": "cactus_jack440",
           "msg": "Howdy @jakehusdon12"
@@ -8001,6 +7997,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 capt_rob_advent is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -8009,7 +8009,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "FUELING SHIPS 🚢 IN SOUTH EAST TEXAS",
       "profile": "We’re a tight IRL maritime crew fueling ships in South East Texas. “BLAZE ON” celebrates every win, “Sweet!” drops new content, and “shots shots!” keeps the fun high. We surf, vote for favorite streamers, share “happy walk” stories, and love “happy walk” vibes. capt_rob_advent’s streams are the heart of our salty, upbeat community.",
       "_profileAtCount": 5051,
       "gameOverride": "",
@@ -8101,9 +8101,9 @@
       "lastStreamInfo": "FUELING SHIPS 🚢 IN SOUTH EAST TEXAS",
       "lastStreamEndedAt": 1793319658280,
       "_idAt": 1793342450168,
-      "_gameAt": 1793319656657,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793361300545,
+      "isLive": true,
+      "streamCategory": "IRL",
       "voteLog": [
         {
           "t": 1792429891220,
@@ -19045,16 +19045,16 @@
       "username": "faithy_",
       "language": "en",
       "stats": {
-        "totalVotes": 43640,
+        "totalVotes": 43665,
         "totalSubs": 197,
-        "totalChatMessages": 4569,
-        "totalStreamMinutes": 22887,
+        "totalChatMessages": 4570,
+        "totalStreamMinutes": 22907,
         "emotes": {
           "❤": 160,
           "🙌": 279,
           "💚": 3,
           "🔥": 166,
-          "🗳": 1173,
+          "🗳": 1176,
           "🔴": 189,
           "🎉": 248,
           "📴": 185,
@@ -19284,13 +19284,9 @@
           "🟢": "🟢"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793359404698
+        "lastChatAt": 1793360642360
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Oh, for sure.  Huge Allman Bros fan.  Got some good bootlegs from the Duane Allman era"
-        },
         {
           "user": "faithy_",
           "msg": "sorry to interrupt my brothers going for lunch"
@@ -19326,6 +19322,10 @@
         {
           "user": "botger",
           "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @tuff3rmrd3ano just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -19565,7 +19565,7 @@
       "lastStreamInfo": "Play & Browse Crypto Games",
       "lastStreamEndedAt": 1793335526900,
       "_idAt": 1793346054969,
-      "_gameAt": 1793359404614,
+      "_gameAt": 1793360642497,
       "isLive": true,
       "streamCategory": "Crypto",
       "voteLog": [
@@ -19853,6 +19853,11 @@
           "t": 1793339222973,
           "v": "consumerbreak",
           "a": 1
+        },
+        {
+          "t": 1793360640118,
+          "v": "tuff3rmrd3ano",
+          "a": 25
         }
       ]
     },
@@ -31717,7 +31722,7 @@
       "language": "en",
       "joinedAt": 1786592864058,
       "stats": {
-        "totalVotes": 7850,
+        "totalVotes": 7875,
         "totalSubs": 37,
         "totalChatMessages": 1849,
         "totalStreamMinutes": 12621,
@@ -32223,6 +32228,11 @@
           "t": 1793301931183,
           "v": "bronzeagle",
           "a": 1
+        },
+        {
+          "t": 1793360669264,
+          "v": "alliveall",
+          "a": 25
         }
       ]
     },
