@@ -6195,7 +6195,7 @@
       "stats": {
         "totalVotes": 62898,
         "totalSubs": 130,
-        "totalChatMessages": 27644,
+        "totalChatMessages": 27645,
         "totalStreamMinutes": 14383,
         "emotes": {
           "❤": 8375,
@@ -6237,7 +6237,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 72,
-          "💜": 451,
+          "💜": 452,
           "🧔": 1,
           "🤺": 6,
           "🥳": 109,
@@ -6719,7 +6719,7 @@
           "🐔": "🐔",
           "🫥": "🫥"
         },
-        "lastChatAt": 1793339223320,
+        "lastChatAt": 1793342580701,
         "sendFailStreak": 588,
         "lastSendFailAt": 1793339224410,
         "lastSendFailReason": "You are banned from this channel.",
@@ -6728,10 +6728,6 @@
         "lastProbeAt": 1793339223600
       },
       "chatMemory": [
-        {
-          "user": "sheshi",
-          "msg": "ah right \"gram\" i been seeing it from few months i think"
-        },
         {
           "user": "generalkev",
           "msg": "yes, just checked and its changed to $GRAM now"
@@ -6767,6 +6763,10 @@
         {
           "user": "rob_osp",
           "msg": "@consumerbreak — thanks for the 20 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "💜 New here? Connect your OSP account to earn courage just by watching — type !link YOUR_CODE  (free signup at ospgame.com)"
         }
       ],
       "customCommands": {},
@@ -6942,7 +6942,7 @@
       "_idAt": 1793342447770,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1793339223261,
+      "_gameAt": 1793342581015,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -23507,13 +23507,13 @@
       "stats": {
         "totalVotes": 12607,
         "totalSubs": 65,
-        "totalChatMessages": 3026,
-        "totalStreamMinutes": 7833,
+        "totalChatMessages": 3028,
+        "totalStreamMinutes": 7834,
         "emotes": {
           "❤": 124,
           "🙌": 112,
-          "📴": 71,
-          "👋": 74,
+          "📴": 72,
+          "👋": 75,
           "🎁": 52,
           "🗳": 288,
           "⚠": 1,
@@ -23726,17 +23726,9 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793339857152
+        "lastChatAt": 1793342514058
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -23768,6 +23760,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -23779,7 +23779,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -23787,7 +23787,7 @@
       "nudgedAt": 1785164605243,
       "nudgedKey": "schedule",
       "lastStreamInfo": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
-      "lastStreamEndedAt": 1793339284471,
+      "lastStreamEndedAt": 1793342508869,
       "loyalty": {
         "angge_wf": {
           "name": "angge_wf",
@@ -23931,9 +23931,9 @@
         }
       },
       "_idAt": 1793325646613,
-      "_gameAt": 1793339856890,
-      "isLive": true,
-      "streamCategory": "Music",
+      "_gameAt": 1793342509267,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891310,
@@ -27190,7 +27190,7 @@
         "totalVotes": 3267,
         "totalSubs": 9,
         "totalChatMessages": 240,
-        "totalStreamMinutes": 7560,
+        "totalStreamMinutes": 7565,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -39064,8 +39064,8 @@
     }
   },
   "auth": {
-    "accessToken": "85f08c3307a449724239d04ed55b6bdc",
-    "refreshToken": "c0c1118b53b9957c6dd46e0de396f1b2",
+    "accessToken": "321b888414ca995d7a2f6208e4209b3b",
+    "refreshToken": "de2fc920f47a41c66822334f0e243ebd",
     "sessionToken": "71145c574b28d4fd8211621009adf09d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
