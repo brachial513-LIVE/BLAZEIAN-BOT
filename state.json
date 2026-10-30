@@ -9645,7 +9645,7 @@
       "streamTitle": "",
       "gameOverride": "",
       "profile": "Briggsy’s channel is a lively, supportive hub where “Epoch Flip Day” and “Farlight 84” shenanigans reign. The community thrives on art, dance with “💃💃💃”, off‑the‑grid vibes, chess, IRL streams, and celebrates with “🥰🥰🥰”, “it’s good”, “Always if I’m here, it’s my pleasure”, “u want it”, “Fartvader” jokes, and “heeeeeyaaaa” greetings. They love “Reds” and “BLAZE DEFI” buzz.",
-      "_profileAtCount": 17149,
+      "_profileAtCount": 17193,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/648fac6d-22b1-49d3-89fe-81a1ac7f5f81.gif",
       "loyalty": {
         "vitrene": {
@@ -23507,8 +23507,8 @@
       "stats": {
         "totalVotes": 12607,
         "totalSubs": 65,
-        "totalChatMessages": 3024,
-        "totalStreamMinutes": 7790,
+        "totalChatMessages": 3026,
+        "totalStreamMinutes": 7793,
         "emotes": {
           "❤": 124,
           "🙌": 112,
@@ -23518,8 +23518,8 @@
           "🗳": 288,
           "⚠": 1,
           "🎯": 1,
-          "🔴": 73,
-          "🎉": 92,
+          "🔴": 74,
+          "🎉": 93,
           "🚨": 84,
           "😀": 1,
           "👍": 8,
@@ -23726,17 +23726,9 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793339289662
+        "lastChatAt": 1793339857152
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "oh johngalt is NOT playing around — 125 votes 🔥💚 thank you!!"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "scurvybot",
           "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
@@ -23768,6 +23760,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -23779,7 +23779,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "",
+      "streamTitle": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -23931,9 +23931,9 @@
         }
       },
       "_idAt": 1793325646613,
-      "_gameAt": 1793339259024,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793339856890,
+      "isLive": true,
+      "streamCategory": "Music",
       "voteLog": [
         {
           "t": 1792429891310,
@@ -39064,8 +39064,8 @@
     }
   },
   "auth": {
-    "accessToken": "0bea31d88a18c138bb8a94ee86f801ac",
-    "refreshToken": "eee82b130de15db9ccf077e246e4c2ad",
+    "accessToken": "85f08c3307a449724239d04ed55b6bdc",
+    "refreshToken": "c0c1118b53b9957c6dd46e0de396f1b2",
     "sessionToken": "71145c574b28d4fd8211621009adf09d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
