@@ -2451,13 +2451,13 @@
       "stats": {
         "totalVotes": 47574,
         "totalSubs": 125,
-        "totalChatMessages": 52846,
+        "totalChatMessages": 52847,
         "totalStreamMinutes": 4750,
         "emotes": {
           "🔥": 2388,
           "🗳": 38,
-          "🔴": 64,
-          "🎉": 487,
+          "🔴": 65,
+          "🎉": 488,
           "😍": 150,
           "❤": 283,
           "🚢": 25,
@@ -2821,7 +2821,7 @@
           "🐾": "🐾",
           "🫥": "🫥"
         },
-        "lastChatAt": 1793337845152,
+        "lastChatAt": 1793382922172,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2829,10 +2829,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "⏰ Game starting in 2 seconds!"
-        },
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 1 second!"
@@ -2868,6 +2864,10 @@
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 JT_SQUARED2 IS NOW LIVE! WELCOME EVERYONE! 🎉"
         }
       ],
       "customCommands": {},
@@ -2876,7 +2876,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
-      "streamTitle": "",
+      "streamTitle": "Blaze Games - Interactive Chat Games",
       "profile": "jt_squared2’s squad thrives on “love fest” vibes, dropping “Holi Holiii Holiiii” and 🙌🙌🙌 when gameplay gets “hood.” Treadmill Time streams run “make me run” marathons, with “24h stream” hype and “sub’in you for so long.” They celebrate wins with “🏆 WINNER,” “🎉 Survived 5 rounds!” and “GGWP Gobbbllliiinnn.” The community loves “doge coin,” “dodge coin,” and “like the dog” banter.",
       "_profileAtCount": 52820,
       "loyalty": {
@@ -3139,9 +3139,9 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1793361654976,
-      "_gameAt": 1793337825621,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793382922097,
+      "isLive": true,
+      "streamCategory": "IRL",
       "voteLog": [
         {
           "t": 1792426545217,
@@ -3662,7 +3662,7 @@
         "totalVotes": 48814,
         "totalSubs": 310,
         "totalChatMessages": 15553,
-        "totalStreamMinutes": 37286,
+        "totalStreamMinutes": 37306,
         "emotes": {
           "📊": 3,
           "🔥": 666,
@@ -6203,20 +6203,20 @@
       "username": "unclefunk",
       "language": "en",
       "stats": {
-        "totalVotes": 62968,
+        "totalVotes": 62988,
         "totalSubs": 130,
-        "totalChatMessages": 27737,
-        "totalStreamMinutes": 14417,
+        "totalChatMessages": 27766,
+        "totalStreamMinutes": 14437,
         "emotes": {
-          "❤": 8375,
+          "❤": 8395,
           "🎵": 819,
           "💃": 346,
           "🔥": 2009,
           "💚": 50,
           "👋": 357,
           "🚨": 446,
-          "😊": 10,
-          "🚀": 78,
+          "😊": 12,
+          "🚀": 79,
           "😂": 310,
           "💯": 49,
           "💥": 22,
@@ -6229,14 +6229,14 @@
           "💕": 37,
           "😁": 101,
           "😆": 34,
-          "🐝": 1803,
+          "🐝": 1810,
           "🥷": 4,
           "😃": 4,
           "💪": 46,
           "🥹": 6,
           "🤣": 1322,
           "🥚": 35,
-          "🙏": 605,
+          "🙏": 606,
           "😀": 16,
           "♥": 220,
           "🥶": 2,
@@ -6247,7 +6247,7 @@
           "✌": 1,
           "😌": 1,
           "👍": 72,
-          "💜": 453,
+          "💜": 454,
           "🧔": 1,
           "🤺": 6,
           "🥳": 109,
@@ -6261,7 +6261,7 @@
           "💘": 4,
           "🌐": 2,
           "💬": 2,
-          "🗳": 216,
+          "🗳": 217,
           "❣": 13,
           "🫢": 14,
           "🙃": 2,
@@ -6438,7 +6438,7 @@
           "😛": 3,
           "🦖": 3,
           "❓": 1,
-          "🎪": 424,
+          "🎪": 425,
           "👾": 240,
           "🦷": 1,
           "🪥": 1,
@@ -6731,54 +6731,54 @@
           "🫥": "🫥",
           "🎃": "🎃"
         },
-        "lastChatAt": 1793381613801,
-        "sendFailStreak": 588,
-        "lastSendFailAt": 1793339224410,
+        "lastChatAt": 1793382939666,
+        "sendFailStreak": 589,
+        "lastSendFailAt": 1793382854315,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146,
-        "lastProbeAt": 1793339223600
+        "lastProbeAt": 1793382854125
       },
       "chatMemory": [
         {
-          "user": "unclefunk",
-          "msg": "Sure, UncleFunk! FUNK SWARM unleashed! 🕺"
+          "user": "midnitecatzlady",
+          "msg": "have to make the loops bigger too"
         },
         {
           "user": "midnitecatzlady",
-          "msg": "Frozen 2"
-        },
-        {
-          "user": "sheshi",
-          "msg": "semeneeee mefineee"
-        },
-        {
-          "user": "sheshi",
-          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
+          "msg": "for the bigger ships"
         },
         {
           "user": "midnitecatzlady",
-          "msg": "I have for example 2000 water, what do I do with them?"
-        },
-        {
-          "user": "tvpeperonitos",
-          "msg": "Have a nice stream!"
-        },
-        {
-          "user": "unclefunk",
-          "msg": "Upgrade your ships and turrets and wrath abilities and stuff!"
-        },
-        {
-          "user": "unclefunk",
-          "msg": "Check your hangar"
-        },
-        {
-          "user": "midnitecatzlady",
-          "msg": "ok"
+          "msg": "I have not explored that"
         },
         {
           "user": "sheshi",
-          "msg": "hello @tvpeperonitos"
+          "msg": "in command deck also we can use resources"
+        },
+        {
+          "user": "venessa2",
+          "msg": "Hulo beautiful family hey uncle funk ❤️❤️❤️😊😊"
+        },
+        {
+          "user": "bee12",
+          "msg": "Venessaaa heyyy❤️🐝❤️"
+        },
+        {
+          "user": "sheshi",
+          "msg": "hello mrs. venessa"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "🚀 Uncle Funk just launched a sortie! !swarm and !boss are open. Type !menu for more."
+        },
+        {
+          "user": "venessa2",
+          "msg": "Beautiful beeeeee ❤️❤️❤️ hey sheshi"
+        },
+        {
+          "user": "unclefunk",
+          "msg": "Sure, weri! Boss incoming! 🎪"
         }
       ],
       "customCommands": {},
@@ -6954,7 +6954,7 @@
       "_idAt": 1793365247786,
       "streamCategory": "Music",
       "isLive": true,
-      "_gameAt": 1793381504744,
+      "_gameAt": 1793382939553,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -7569,6 +7569,11 @@
         {
           "t": 1793380674624,
           "v": "midnitecatzlady",
+          "a": 20
+        },
+        {
+          "t": 1793381940652,
+          "v": "bee12",
           "a": 20
         }
       ]
@@ -11690,7 +11695,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1027,
-        "totalStreamMinutes": 26291,
+        "totalStreamMinutes": 26311,
         "emotes": {
           "❤": 138,
           "🙌": 45,
@@ -13082,14 +13087,14 @@
       "stats": {
         "totalVotes": 27726,
         "totalSubs": 61,
-        "totalChatMessages": 4734,
-        "totalStreamMinutes": 5406,
+        "totalChatMessages": 4744,
+        "totalStreamMinutes": 5416,
         "emotes": {
           "❤": 59,
           "🙌": 118,
           "💚": 12,
-          "🔴": 52,
-          "🎉": 94,
+          "🔴": 53,
+          "🎉": 95,
           "🙂": 3,
           "🔥": 93,
           "😎": 5,
@@ -13337,48 +13342,48 @@
           "👌": "👌"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793303572694
+        "lastChatAt": 1793382790213
       },
       "chatMemory": [
         {
-          "user": "blazeian_bot_ai",
-          "msg": "@desirablebottom 150 votes, wow! Huge thanks for the love, time! 🙏❤️"
+          "user": "botger",
+          "msg": "🔴 time is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Hello helloooo Tii!!"
+        },
+        {
+          "user": "time",
+          "msg": "Hellloooo"
+        },
+        {
+          "user": "briggsy",
+          "msg": "I've missed you too, Tii"
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
+          "msg": "https://salvor.io/collections/0x4ffb0924d999bc2015f69f58f403ceadfc16963d"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "Huge thanks, future42, for that generous 150 vote boost for time—your support keeps the community thriving!"
+          "user": "briggsy",
+          "msg": "Ve bugün ne yazık ki çalışıyorum.  Hazırlanmak zorundayım.  Yapabildiğim zaman giriş yapacağım.  Ayrıca JT oyunları İşten önce biraz oynamaya çalışabilirim."
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
+          "user": "briggsy",
+          "msg": "Nooo, you didn't miss JT games.  Starts in 12 min."
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "briggsy, thank you so much for the 100 vote—your support means the world to us all! 🌟"
+          "user": "briggsy",
+          "msg": "Yes, that is correct."
         },
         {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "200 votes for time! Thank you, wapi, for the love! 🙏"
+          "user": "briggsy",
+          "msg": "Your english is improving."
         },
         {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @wapi just gave 200 vote(s) (total: 200)! Thank you!! 🗳️"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Huge thank you to johngalt for the 475 vote—your support keeps us all rocking!"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "200 votes, courtesy of dofferlive 👑💚 legend status confirmed"
+          "msg": "https://discord.gg/PXwUmyWwN"
         }
       ],
       "customCommands": {},
@@ -13387,7 +13392,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "Digital Drawing",
       "profile": "time’s stream is a tight‑knit chess crew that celebrates life with “Hirslarini onlarin” vibes, shouting “🙏🙏” for love fests and “Zor zor hileciler cok var” when a trick lands. We love “dram dram” jokes, “çği” laughs, and always give shoutouts. time’s streams are a place to play, chat, and celebrate with energy, humor, and community spirit.",
       "_profileAtCount": 4716,
       "followed": true,
@@ -13470,9 +13475,9 @@
       "lastStreamInfo": "Digital Drawing",
       "lastStreamEndedAt": 1792617027417,
       "_idAt": 1793367648981,
-      "_gameAt": 1793303572843,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793382790302,
+      "isLive": true,
+      "streamCategory": "Art",
       "voteLog": [
         {
           "t": 1792424680271,
@@ -16620,7 +16625,7 @@
         "totalVotes": 13895,
         "totalSubs": 219,
         "totalChatMessages": 578,
-        "totalStreamMinutes": 18855,
+        "totalStreamMinutes": 18875,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -23011,21 +23016,21 @@
       "stats": {
         "totalVotes": 24381,
         "totalSubs": 48,
-        "totalChatMessages": 3506,
-        "totalStreamMinutes": 14378,
+        "totalChatMessages": 3510,
+        "totalStreamMinutes": 14397,
         "emotes": {
           "❤": 125,
           "🙌": 92,
           "🫂": 1,
           "🥰": 33,
           "😘": 24,
-          "👋": 82,
+          "👋": 83,
           "💪": 1,
           "💚": 6,
           "🔥": 159,
           "🗳": 936,
           "🤗": 5,
-          "📴": 76,
+          "📴": 77,
           "🎁": 48,
           "🔴": 75,
           "🎉": 115,
@@ -23204,21 +23209,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793381679948
+        "lastChatAt": 1793382943719
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "naks silver 2 na ule"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "hard stuck na ko sa Plat 2 hirap"
-        },
-        {
-          "user": "cr33pling",
-          "msg": "[emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] '"
-        },
         {
           "user": "cr33pling",
           "msg": "Plus walang ubo [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3] [emote:a92b1ddc-ee5f-42af-9ba3-6568561b97e3]"
@@ -23246,6 +23239,18 @@
         {
           "user": "tvpeperonitos",
           "msg": "Have a nice stream!"
+        },
+        {
+          "user": "botger",
+          "msg": "Angge! Angge! Angge! HAVE A GOOD STREAM!!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -23259,12 +23264,12 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4e3e8a6e-187e-4044-ac4b-00376f4dd2b2.gif",
       "profile": "angge_wf’s chill stream: “gm gm gm gm gm” greets mornings, “magadga umaga” vibes echo, “VOTE ALERT” moments spark. Celebrate subs with “❤️”, hype with “🤩🤩🤩”. Sub gifts trigger “🎁 GIFTED SUB!!”. New followers get “❤️ NEW FOLLOWER!!”. Friendly banter, emojis, quick shoutouts, spontaneous “VOTE ALERT”, “magadga umaga”, and “gm gm gm gm gm” greetings keep the community buzzing.",
       "_profileAtCount": 3501,
-      "streamTitle": "Short stream - Support 🔥🎮",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "botVip": true,
       "lastStreamInfo": "Short stream - Support 🔥🎮",
-      "lastStreamEndedAt": 1792780436671,
+      "lastStreamEndedAt": 1793382938570,
       "nudgedAt": 1785842437877,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -23360,9 +23365,9 @@
         }
       },
       "_idAt": 1793370051389,
-      "_gameAt": 1793381680123,
-      "isLive": true,
-      "streamCategory": "VALORANT",
+      "_gameAt": 1793382848318,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792424142075,
@@ -28907,7 +28912,7 @@
         "totalVotes": 11529,
         "totalSubs": 33,
         "totalChatMessages": 1567,
-        "totalStreamMinutes": 16268,
+        "totalStreamMinutes": 16288,
         "emotes": {
           "❤": 97,
           "🙌": 79,
@@ -38591,9 +38596,9 @@
       "n": 7
     },
     "cg777": {
-      "note": "Enjoys casual gaming, shares voting tips and auction updates, jokes about stream stats, and humorously references Kickstarter and VOD sharing.",
-      "at": 1793277589196,
-      "n": 14
+      "note": "Enjoys casual gaming, shares auction updates and voting tips, jokes about stream stats, and humorously references Kickstarter and VOD sharing.",
+      "at": 1793382529344,
+      "n": 15
     },
     "unclefunk": {
       "note": "Uncle Funk streams upbeat funk, jokes playfully, loves turret strategy and droid RTS games, greeting viewers cheerfully with energetic commands and emojis.",
