@@ -7641,14 +7641,14 @@
       "stats": {
         "totalVotes": 44171,
         "totalSubs": 78,
-        "totalChatMessages": 5094,
-        "totalStreamMinutes": 19647,
+        "totalChatMessages": 5095,
+        "totalStreamMinutes": 19664,
         "emotes": {
           "😊": 5,
           "🌵": 87,
           "🔥": 365,
           "🤪": 2,
-          "👋": 101,
+          "👋": 102,
           "👍": 28,
           "🥰": 8,
           "💜": 4,
@@ -7750,7 +7750,7 @@
           "🫶": 5,
           "🙌": 69,
           "🗳": 519,
-          "📴": 59,
+          "📴": 60,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 205,
           "🔴": 58,
           "🎉": 69,
@@ -7974,13 +7974,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793374508404
+        "lastChatAt": 1793377355417
       },
       "chatMemory": [
-        {
-          "user": "cactus_jack440",
-          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "@cripiechuccles Thanks for the 100 votes, you’re the best! 🚀"
@@ -8016,6 +8012,10 @@
         {
           "user": "canawilks",
           "msg": "Sure..anytime."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -8024,7 +8024,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "FUELING SHIPS 🚢 IN SOUTH EAST TEXAS",
+      "streamTitle": "",
       "profile": "We’re a tight IRL maritime crew fueling ships in South East Texas. “BLAZE ON” celebrates every win, “Sweet!” drops new content, and “shots shots!” keeps the fun high. We surf, vote for favorite streamers, share “happy walk” stories, and love “happy walk” vibes. capt_rob_advent’s streams are the heart of our salty, upbeat community.",
       "_profileAtCount": 5051,
       "gameOverride": "",
@@ -8114,11 +8114,11 @@
       "nudgedAt": 1785066991188,
       "nudgedKey": "schedule",
       "lastStreamInfo": "FUELING SHIPS 🚢 IN SOUTH EAST TEXAS",
-      "lastStreamEndedAt": 1793319658280,
+      "lastStreamEndedAt": 1793377350220,
       "_idAt": 1793365250184,
-      "_gameAt": 1793374474317,
-      "isLive": true,
-      "streamCategory": "IRL",
+      "_gameAt": 1793377355515,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891220,
@@ -11678,7 +11678,7 @@
         "totalVotes": 9571,
         "totalSubs": 90,
         "totalChatMessages": 1025,
-        "totalStreamMinutes": 26201,
+        "totalStreamMinutes": 26221,
         "emotes": {
           "❤": 138,
           "🙌": 45,
@@ -16608,7 +16608,7 @@
         "totalVotes": 13895,
         "totalSubs": 218,
         "totalChatMessages": 570,
-        "totalStreamMinutes": 18765,
+        "totalStreamMinutes": 18785,
         "emotes": {
           "❤": 7,
           "🙌": 1,
@@ -22999,8 +22999,8 @@
       "stats": {
         "totalVotes": 24381,
         "totalSubs": 48,
-        "totalChatMessages": 3501,
-        "totalStreamMinutes": 14288,
+        "totalChatMessages": 3502,
+        "totalStreamMinutes": 14308,
         "emotes": {
           "❤": 125,
           "🙌": 92,
@@ -23192,13 +23192,9 @@
           "🫡": "🫡"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793376111193
+        "lastChatAt": 1793377270983
       },
       "chatMemory": [
-        {
-          "user": "cr33pling",
-          "msg": "whats with the voice"
-        },
         {
           "user": "cr33pling",
           "msg": "pal is the doggo"
@@ -23234,6 +23230,10 @@
         {
           "user": "cr33pling",
           "msg": "hahahah"
+        },
+        {
+          "user": "saboomafoo",
+          "msg": "anggeee"
         }
       ],
       "customCommands": {},
@@ -23348,7 +23348,7 @@
         }
       },
       "_idAt": 1793370051389,
-      "_gameAt": 1793376111339,
+      "_gameAt": 1793377271084,
       "isLive": true,
       "streamCategory": "VALORANT",
       "voteLog": [
@@ -24366,7 +24366,7 @@
       "stats": {
         "totalVotes": 23117,
         "totalSubs": 38,
-        "totalChatMessages": 52796,
+        "totalChatMessages": 52800,
         "totalStreamMinutes": 25204,
         "emotes": {
           "❤": 174,
@@ -24825,21 +24825,9 @@
           "📐": "📐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793325041990
+        "lastChatAt": 1793376937950
       },
       "chatMemory": [
-        {
-          "user": "junior7_",
-          "msg": "Pronto tomar oh comprimido das 11 horas só bora"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns, @junior7_! Você subiu para o Nível 11! 🎉"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "ainda falta 12 minutos junhu"
-        },
         {
           "user": "junior7_",
           "msg": "Sim 12"
@@ -24867,6 +24855,18 @@
         {
           "user": "botger",
           "msg": "📴 A live acabou. Obrigado por assistir! Até a próxima 👋"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "@sofrenciaplay, saldo atualizado: 500000 pontos!"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "@sofrenciaplay, resgate #14 confirmado: 400 BLAZE!"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "@sofrenciaplay, resgate #15 confirmado: 400 BLAZE!"
         }
       ],
       "customCommands": {},
@@ -25024,7 +25024,7 @@
         }
       },
       "_idAt": 1793371248983,
-      "_gameAt": 1793325023225,
+      "_gameAt": 1793376938091,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -35661,7 +35661,7 @@
       "lastStreamInfo": "burada yeniyim !discord !settings — VALORANT",
       "lastStreamEndedAt": 1789668309772,
       "gameOverride": "",
-      "_idAt": 1793354451375
+      "_idAt": 1793377251394
     },
     "642cd761-2515-4c48-9c17-ae2e29e692e8": {
       "username": "thatsicy_",
@@ -36163,7 +36163,7 @@
       "gameOverride": "",
       "profile": "mafaz streams action‑packed gameplay, welcoming every new Blazeian with “welcome” and “thanks.” The chat buzzes with “woot,” “happy streaming buddd,” and “enjoy the game broski!” Fans celebrate mafaz by cheering “blazeee” and using the custom emote. The vibe is energetic, friendly, and supportive—every viewer feels part of the Blazeiancrew.",
       "_profileAtCount": 15,
-      "_idAt": 1793354452570
+      "_idAt": 1793377252583
     },
     "fba94794-c563-4d68-8aec-152f85eba0e1": {
       "username": "hubal",
@@ -36265,7 +36265,7 @@
       "lastStreamInfo": "My Hands Shake, My Blade Doesn't, Phantom Blade Zero  1    |    𐢘𐢕𐢞𐢒 𐢃𐢑𐢍𐢅 𐢉𐢍𐢛𐢈 𐢘𐢛𐢞 𐢧",
       "lastStreamEndedAt": 1793324077619,
       "gameOverride": "",
-      "_idAt": 1793354446633,
+      "_idAt": 1793377246638,
       "_gameAt": 1793322029478,
       "isLive": false,
       "streamCategory": ""
@@ -36300,7 +36300,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1793354447780,
+      "_idAt": 1793377247796,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5283cee-6005-4782-92fe-13419fd64684.png",
       "followed": true,
       "botVip": true
@@ -36687,7 +36687,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1793354448977,
+      "_idAt": 1793377248994,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d3b7be98-81af-4b8d-adeb-af8e99088a0b.png",
       "streamTitle": "",
       "lastStreamInfo": "im doing too much jobs today lol",
@@ -37507,7 +37507,7 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "_idAt": 1793354450184,
+      "_idAt": 1793377250186,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d30a5641-e3d3-4cba-a6b2-1a233aab45a0.gif",
       "_gameAt": 1793372126026,
       "isLive": false,
