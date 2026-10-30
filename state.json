@@ -36864,7 +36864,7 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 3,
+        "totalChatMessages": 4,
         "totalStreamMinutes": 0,
         "emotes": {
           "37719561-c923-4260-b1a5-e3eda10c103d": 1,
@@ -36873,7 +36873,9 @@
           "💚": 1,
           "🥳": 1,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 1,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 1
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 1,
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": 2,
+          "555a557b-672c-4db0-80d4-85564e0bbac4": 1
         },
         "emoteNames": {
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE",
@@ -36882,10 +36884,12 @@
           "💚": "💚",
           "🥳": "🥳",
           "841539a5-88cd-4532-85c1-5589bc530b1b": "YESBLAZE",
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING",
+          "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE",
+          "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1792505691545
+        "lastChatAt": 1793358633288
       },
       "chatMemory": [
         {
@@ -36903,6 +36907,14 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "Welcome to the family, ph4tmon3y! Glad to have you with us 💚"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Welcome to the family, cactus_jack440! 🎉️"
+        },
+        {
+          "user": "cactus_jack440",
+          "msg": "[emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7]"
         }
       ],
       "customCommands": {},
@@ -36922,7 +36934,7 @@
       "locked": false,
       "_idAt": 1793353252569,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/afbc16ad-1c45-4fb1-a652-817ebbb29b26.jpg",
-      "_gameAt": 1792505659548,
+      "_gameAt": 1793358633417,
       "isLive": false,
       "streamCategory": "",
       "streamTitle": "",
