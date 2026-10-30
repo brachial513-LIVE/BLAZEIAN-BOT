@@ -2441,22 +2441,22 @@
       "stats": {
         "totalVotes": 47529,
         "totalSubs": 125,
-        "totalChatMessages": 52797,
+        "totalChatMessages": 52830,
         "totalStreamMinutes": 4750,
         "emotes": {
           "🔥": 2388,
           "🗳": 38,
           "🔴": 64,
-          "🎉": 486,
+          "🎉": 487,
           "😍": 150,
           "❤": 283,
           "🚢": 25,
-          "⏰": 2383,
+          "⏰": 2388,
           "🔜": 1350,
           "💀": 1221,
           "😘": 5,
-          "🏆": 318,
-          "🎊": 295,
+          "🏆": 319,
+          "🎊": 296,
           "🎰": 51,
           "😰": 244,
           "🍌": 622,
@@ -2498,7 +2498,7 @@
           "👍": 4,
           "🥔": 2210,
           "🔄": 397,
-          "🤖": 274,
+          "🤖": 277,
           "😏": 118,
           "❌": 73,
           "🙃": 14,
@@ -2506,10 +2506,10 @@
           "💰": 8,
           "🧪": 9,
           "🙄": 3,
-          "🎮": 82,
+          "🎮": 84,
           "🪅": 69,
           "🍬": 142,
-          "🛑": 63,
+          "🛑": 65,
           "💚": 8,
           "💪": 2,
           "⚔": 14,
@@ -2622,7 +2622,7 @@
           "🤘": 2,
           "🦊": 1,
           "🛡": 1,
-          "✋": 22,
+          "✋": 25,
           "😃": 1,
           "🐾": 20,
           "🫥": 1
@@ -2811,7 +2811,7 @@
           "🐾": "🐾",
           "🫥": "🫥"
         },
-        "lastChatAt": 1793336254541,
+        "lastChatAt": 1793337342151,
         "sendFailStreak": 0,
         "lastSendFailAt": 1785933742916,
         "lastSendFailReason": "You are banned from this channel.",
@@ -2819,26 +2819,6 @@
         "recoveredFrom": 11
       },
       "chatMemory": [
-        {
-          "user": "jt_squared2",
-          "msg": "🎮 Game ended! Thanks for playing!"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🛑 Game ended by the streamer. No winners this round."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🐾 Zoopsies starting in 20 seconds! Type !devjoin to play!"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "🤖 Added 20 bot(s) to the game! 21 player(s) ready."
-        },
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 10 seconds!"
@@ -2858,6 +2838,26 @@
         {
           "user": "jt_squared2",
           "msg": "⏰ Game starting in 1 second!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "🏆 WINNER: BoldChampion28! 🎉 Congratulations! 🎊"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "@jt_squared2 No game is currently active!"
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "✋ Don't Get Slapped starts in 20 seconds! Use !devjoin and open /play to enter your private clues."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "@jt_squared2 joined the game! 1 player(s) ready."
+        },
+        {
+          "user": "jt_squared2",
+          "msg": "🤖 Added 3 bot(s) to the game! 4 player(s) ready."
         }
       ],
       "customCommands": {},
@@ -2868,7 +2868,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f770e473-22e3-45a1-9a30-2d2b9e69e52c.jpg",
       "streamTitle": "",
       "profile": "jt_squared2’s squad thrives on “love fest” vibes, dropping “Holi Holiii Holiiii” and 🙌🙌🙌 when gameplay gets “hood.” Treadmill Time streams run “make me run” marathons, with “24h stream” hype and “sub’in you for so long.” They celebrate wins with “🏆 WINNER,” “🎉 Survived 5 rounds!” and “GGWP Gobbbllliiinnn.” The community loves “doge coin,” “dodge coin,” and “like the dog” banter.",
-      "_profileAtCount": 52034,
+      "_profileAtCount": 52820,
       "loyalty": {
         "tigresa": {
           "name": "tigresa",
@@ -3129,7 +3129,7 @@
       "botVip": true,
       "commentMode": "silent",
       "_idAt": 1793316054950,
-      "_gameAt": 1793336174901,
+      "_gameAt": 1793337282978,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -37803,8 +37803,8 @@
     },
     "noxx": {
       "note": "Streams indie horror and action games, loves creative art and music, and always adds sarcastic humor to the chat.",
-      "at": 1793228749063,
-      "n": 20
+      "at": 1793336989246,
+      "n": 21
     },
     "3block": {
       "note": "They seem to be a gamer with a humorous and lighthearted tone, possibly interested in PC upgrades and gaming hardware.",
@@ -38884,8 +38884,8 @@
     }
   },
   "auth": {
-    "accessToken": "96c02773623cd0e61004575e09dbd2d6",
-    "refreshToken": "693c0952a7967827a2d2f9e010f43c97",
+    "accessToken": "0bea31d88a18c138bb8a94ee86f801ac",
+    "refreshToken": "eee82b130de15db9ccf077e246e4c2ad",
     "sessionToken": "71145c574b28d4fd8211621009adf09d",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
