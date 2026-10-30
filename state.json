@@ -15783,8 +15783,8 @@
       "stats": {
         "totalVotes": 26977,
         "totalSubs": 95,
-        "totalChatMessages": 3025,
-        "totalStreamMinutes": 24251,
+        "totalChatMessages": 3026,
+        "totalStreamMinutes": 24264,
         "emotes": {
           "🔥": 867,
           "🔴": 200,
@@ -15792,8 +15792,8 @@
           "🤣": 5,
           "☕": 54,
           "💪": 2,
-          "📴": 85,
-          "👋": 88,
+          "📴": 86,
+          "👋": 89,
           "👽": 28,
           "💀": 6,
           "🗳": 654,
@@ -15967,14 +15967,10 @@
           "🍺": "🍺",
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
-        "lastChatAt": 1793321743685,
+        "lastChatAt": 1793330016656,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 1 vote(s) (total: 3)! Thank you!! 🗳️"
-        },
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @DofferLive just gave 1 vote(s) (total: 4)! Thank you!! 🗳️"
@@ -16010,6 +16006,10 @@
         {
           "user": "razmr_eth",
           "msg": "have nice stream"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -16019,14 +16019,14 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/9970c920-2510-4dd0-bc8f-139007a2c685.gif",
-      "streamTitle": "💥🔫 WE DIDN'T COME TO PLAY NICE! 💀 DSTG & PHALANX ARE HERE TO BREAK THE ENTIRE LOBBY! 🔥⚔️🎯",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "We’re a BLAZE community fueled by gaming—Delta Force, Gears Of War, anime—and dropping votes. We shout “BLAZE ON Brother!” and “TTYL!” to celebrate milestones, love a good ☕, and go FULL SEND. Voting is LIVE, subs are appreciated, and we keep the TOWER Crew hype with “Welcome to the TOWER Crew, 🔴 Voting is LIVE 🔴.” We celebrate with BLAZE ON Brother! and TTYL! when we show appreciation.",
       "_profileAtCount": 3025,
       "nudgedAt": 1785280330455,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "🎭 This Ain't Drama Class! Follow the Rules or Exit Stage Left! 💀⚔️ It's that Simple!",
-      "lastStreamEndedAt": 1793246487771,
+      "lastStreamInfo": "💥🔫 WE DIDN'T COME TO PLAY NICE! 💀 DSTG & PHALANX ARE HERE TO BREAK THE ENTIRE LOBBY! 🔥⚔️🎯",
+      "lastStreamEndedAt": 1793330011467,
       "loyalty": {
         "johngalt": {
           "name": "johngalt",
@@ -16141,9 +16141,9 @@
         "confetti": true
       },
       "_idAt": 1793322053751,
-      "streamCategory": "Call Of Duty: Modern Warfare 4",
-      "isLive": true,
-      "_gameAt": 1793321737529,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1793330016768,
       "voteLog": [
         {
           "t": 1792429891263,
@@ -18952,8 +18952,8 @@
       "stats": {
         "totalVotes": 43339,
         "totalSubs": 197,
-        "totalChatMessages": 4490,
-        "totalStreamMinutes": 22771,
+        "totalChatMessages": 4491,
+        "totalStreamMinutes": 22791,
         "emotes": {
           "❤": 160,
           "🙌": 279,
@@ -19189,13 +19189,9 @@
           "🟢": "🟢"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793328113226
+        "lastChatAt": 1793330048489
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "piweb just SUBSCRIBED to faithy_'s channel! Huge thanks and pure love, you rock! 🎉💚"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "Thank you so much, supercyclereal! Your 1000 vote is pure love for faithy_! 💛🌟"
@@ -19231,6 +19227,10 @@
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ valuesportmixed just followed the channel! Welcome!! 🙌"
+        },
+        {
+          "user": "potato_pete",
+          "msg": "wut up wut up"
         }
       ],
       "customCommands": {},
@@ -19470,7 +19470,7 @@
       "lastStreamInfo": "BloomShire Farm Grind!",
       "lastStreamEndedAt": 1793319988009,
       "_idAt": 1793323254956,
-      "_gameAt": 1793328113323,
+      "_gameAt": 1793330048602,
       "isLive": true,
       "streamCategory": "Crypto",
       "voteLog": [
@@ -28375,7 +28375,7 @@
       "lastStreamEndedAt": 1793023861196,
       "gameOverride": "",
       "profile": "Seventh’s channel is nonstop Raider Arena, “Another day of being a Raider 😂 — ARC Raiders.” GMs are the best! 🔥🔥💚💚 Celebrate streams with 🎉 and 🔴 alerts. Weekly Giveaways on Blaze are a thing, and we’re all about those “permanently free Entries”! 💚 Shout “VOTE ALERT!!” and shower love on the streamer with “love fest” shoutouts. seventh loves being celebrated, so let’s give ‘em a love fest!",
-      "_profileAtCount": 1881,
+      "_profileAtCount": 1927,
       "followed": true,
       "nudgedAt": 1787920924811,
       "nudgedKey": "schedule",
@@ -32524,7 +32524,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793306446587,
+      "_idAt": 1793329246594,
       "_gameAt": 1793328668660,
       "isLive": false,
       "streamCategory": "",
@@ -33706,7 +33706,7 @@
         "totalVotes": 2027,
         "totalSubs": 10,
         "totalChatMessages": 182,
-        "totalStreamMinutes": 10264,
+        "totalStreamMinutes": 10284,
         "emotes": {
           "✌": 3,
           "🔥": 12,
@@ -34161,7 +34161,7 @@
       "lastStreamEndedAt": 1790496719480,
       "profile": "zeenlive’s stream is a nonstop, high‑energy hangout where “gm gm bro” greets the chat and “NEW FOLLOWER!!” erupts with every new join. The community thrives on quick emote bursts, playful banter, and a constant stream of “❤️” and “🙌” celebrations. The channel loves being praised with enthusiastic shoutouts, keeping the vibe lively and inclusive.",
       "_profileAtCount": 44,
-      "_idAt": 1793306447759,
+      "_idAt": 1793329247766,
       "_gameAt": 1792680347655,
       "isLive": false,
       "streamCategory": ""
@@ -34353,7 +34353,7 @@
       "_profileAtCount": 400,
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
-      "_idAt": 1793306452549,
+      "_idAt": 1793329252555,
       "_gameAt": 1793286286847,
       "isLive": false,
       "streamCategory": "",
@@ -34519,7 +34519,7 @@
       "gameOverride": "",
       "profile": "starmouse307319 streams energetic, community‑first gameplay, shouting “Welcome everyone!” and “Thanks for watching!” to celebrate viewers. The chat loves quick “follow” prompts, “Let’s take a moment to follow” links, and playful banter. Recurring slang includes “hi welcome how are you?” and “nice to hear that”. The vibe is friendly, inclusive, and always encouraging new followers.",
       "_profileAtCount": 86,
-      "_idAt": 1793306450147
+      "_idAt": 1793329250162
     },
     "b9633d43-f55f-4bb2-825e-92c0c1422e87": {
       "username": "precidobos",
@@ -34610,7 +34610,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793306448948,
+      "_idAt": 1793329248958,
       "_gameAt": 1792257951239,
       "isLive": false,
       "streamCategory": ""
@@ -34677,7 +34677,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f64a634d-8908-45cf-8143-8a641931b8c8.png",
       "followed": true,
       "botVip": true,
-      "_idAt": 1793306453750
+      "_idAt": 1793329253755
     },
     "a8d36ae2-d8e9-4f53-a27d-55c1506a9fbc": {
       "username": "reddeadrasta",
@@ -34949,7 +34949,7 @@
       "gameOverride": "",
       "profile": "corneto streams arcana maps, farming ammo for MoG at level 225+ with a crew that loves “yow @alliveall” and “LD incoming soon 😂😂”. The chat thrives on quick “ggsssssssssssss” and “🔥🔥🔥” reactions, celebrates votes with “🗳️ VOTE ALERT!!”, and celebrates followers with “❤️ NEW FOLLOWER!! ❤️”. The vibe is fast‑paced, playful, and always ready for the next LD.",
       "_profileAtCount": 74,
-      "_idAt": 1793306454950,
+      "_idAt": 1793329254964,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792675005141,
@@ -35023,7 +35023,7 @@
       "lastStreamInfo": "[ES/EN]💥 | HABBO - BLACK JACK | GIVEAWAY!! — Habbo Hotel",
       "lastStreamEndedAt": 1788999484327,
       "gameOverride": "",
-      "_idAt": 1793306451351
+      "_idAt": 1793329251363
     },
     "abe9ce7b-abb9-421e-8063-f29ee331e751": {
       "username": "jagsman",
@@ -35142,7 +35142,7 @@
       "lastStreamEndedAt": 1793311854849,
       "profile": "jagsman’s channel thrives on spontaneous hype: “❤️ NEW FOLLOWER!! ❤️” and “🗳️ VOTE ALERT!!” echo through the chat. The vibe is energetic, supportive, and playful, celebrating every new follower and vote with enthusiastic emojis and shoutouts. Stream is now live! Stream is now offline! Thanks for watching! The community loves quick cheers, “Thanks for the follow” and “Stream is now live!”",
       "_profileAtCount": 173,
-      "_idAt": 1793307646791,
+      "_idAt": 1793330446619,
       "nudgedAt": 1791149490517,
       "nudgedKey": "schedule",
       "_gameAt": 1793311855311,
@@ -35258,7 +35258,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793307648970,
+      "_idAt": 1793330448958,
       "_gameAt": 1792607859391,
       "isLive": false,
       "streamCategory": ""
@@ -35610,7 +35610,7 @@
       "_profileAtCount": 35,
       "followed": true,
       "botVip": true,
-      "_idAt": 1793307647763
+      "_idAt": 1793330447758
     },
     "8f59e982-1482-4327-86d9-ae96b063edc4": {
       "username": "hortenseemu44",
@@ -36167,7 +36167,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1793307650151,
+      "_idAt": 1793330450161,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/72e62f22-bfda-4fb8-b073-3f8c1ebc5201.png",
       "greeted": true,
       "profile": "silverbolt99’s channel is a high‑energy, community‑first hub where every stream opens with “welcome to the BLazeianCrew!” and new followers trigger “❤️ NEW FOLLOWER!! ❤️”. Lurkers are praised, donations appreciated, and the club hype (“⚡Friends, if you haven’t joined the Club…”) keeps the vibe playful. Weekly Sunday giveaways promise up to 1000 votes, celebrated with “Thanks for the X votes” chants.",
@@ -37097,7 +37097,7 @@
         "totalVotes": 2800,
         "totalSubs": 12,
         "totalChatMessages": 176,
-        "totalStreamMinutes": 579,
+        "totalStreamMinutes": 599,
         "emotes": {
           "🎁": 14,
           "🙌": 13,
