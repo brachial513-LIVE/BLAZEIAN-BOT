@@ -3829,7 +3829,7 @@
         "totalVotes": 49133,
         "totalSubs": 313,
         "totalChatMessages": 15673,
-        "totalStreamMinutes": 37785,
+        "totalStreamMinutes": 37805,
         "emotes": {
           "📊": 3,
           "🔥": 673,
@@ -12194,16 +12194,16 @@
       "stats": {
         "totalVotes": 9571,
         "totalSubs": 90,
-        "totalChatMessages": 1029,
-        "totalStreamMinutes": 26726,
+        "totalChatMessages": 1030,
+        "totalStreamMinutes": 26736,
         "emotes": {
           "❤": 138,
           "🙌": 45,
           "🔥": 41,
           "🔴": 187,
           "🎉": 187,
-          "📴": 191,
-          "👋": 195,
+          "📴": 192,
+          "👋": 196,
           "😂": 4,
           "💚": 9,
           "💪": 6,
@@ -12298,14 +12298,10 @@
           "3bdf0aa1-f961-4bc8-8f93-15ac2d172018": "PYRODEMUERTOS",
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": "PyroWink"
         },
-        "lastChatAt": 1793468302365,
+        "lastChatAt": 1793482237817,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -12341,6 +12337,10 @@
         {
           "user": "botger",
           "msg": "🔴 slothsm is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -12352,7 +12352,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "AION ATE O START DO SERVE VALHALLA",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c880cae5-c7c6-48bb-a733-713670cb9bac.png",
@@ -12360,7 +12360,7 @@
       "_profileAtCount": 995,
       "botVip": true,
       "lastStreamInfo": "AION ATE O START DO SERVE VALHALLA",
-      "lastStreamEndedAt": 1793394504268,
+      "lastStreamEndedAt": 1793482232643,
       "nudgedAt": 1785710754625,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -12431,9 +12431,9 @@
         }
       },
       "_idAt": 1793480450224,
-      "streamCategory": "Aion 2",
-      "isLive": true,
-      "_gameAt": 1793468302294
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1793482237915
     },
     "d7c03cf7-26bc-4966-b436-ec5820565e9c": {
       "username": "1vynnn",
@@ -13142,7 +13142,7 @@
         "totalVotes": 2660,
         "totalSubs": 11,
         "totalChatMessages": 680,
-        "totalStreamMinutes": 3304,
+        "totalStreamMinutes": 3324,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -14470,7 +14470,7 @@
         "totalVotes": 8400,
         "totalSubs": 46,
         "totalChatMessages": 1932,
-        "totalStreamMinutes": 3281,
+        "totalStreamMinutes": 3301,
         "emotes": {
           "❤": 563,
           "🙌": 71,
@@ -15308,8 +15308,8 @@
       "language": "en",
       "stats": {
         "totalVotes": 19656,
-        "totalSubs": 53,
-        "totalChatMessages": 875,
+        "totalSubs": 54,
+        "totalChatMessages": 876,
         "totalStreamMinutes": 8195,
         "emotes": {
           "💚": 4,
@@ -15409,17 +15409,13 @@
           "🤛": "🤛",
           "🍩": "🍩"
         },
-        "lastChatAt": 1793230490620,
-        "sendFailStreak": 153,
-        "lastSendFailAt": 1793230460995,
+        "lastChatAt": 1793481660600,
+        "sendFailStreak": 154,
+        "lastSendFailAt": 1793481660919,
         "lastSendFailReason": "You are banned from this channel.",
-        "lastProbeAt": 1793230460816
+        "lastProbeAt": 1793481660723
       },
       "chatMemory": [
-        {
-          "user": "tai_",
-          "msg": "h i hiiiiii @agent00zani"
-        },
         {
           "user": "scurvybot",
           "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
@@ -15455,6 +15451,10 @@
         {
           "user": "tai_",
           "msg": "valeu!!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@thekingofc subscribed! Thank you!"
         }
       ],
       "customCommands": {},
@@ -15544,6 +15544,11 @@
           "name": "sofrenciaplay",
           "months": 1,
           "tier": 1
+        },
+        "thekingofc": {
+          "name": "thekingofc",
+          "months": 1,
+          "tier": 1
         }
       },
       "lastStreamInfo": "WILDER WORLD GAMENIGHT",
@@ -15551,7 +15556,7 @@
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule",
       "_idAt": 1793481651431,
-      "_gameAt": 1793230461500,
+      "_gameAt": 1793481660693,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -18066,7 +18071,7 @@
       "lastStreamEndedAt": 1793066725264,
       "nudgedAt": 1786555068712,
       "nudgedKey": "schedule",
-      "_idAt": 1793460049024,
+      "_idAt": 1793482849030,
       "_gameAt": 1793066730582,
       "isLive": false,
       "streamCategory": ""
@@ -18189,7 +18194,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793460046659,
+      "_idAt": 1793482846661,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793475157062
@@ -18276,7 +18281,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793460055025
+      "_idAt": 1793482855043
     },
     "66d1447b-e098-49e7-af14-5c922d822d84": {
       "username": "omererkmen",
@@ -18369,7 +18374,7 @@
       "gameOverride": "",
       "profile": "o mererkmen streams chill “Just talking” sessions, often IRL, with the community humming “Come hang out and watch.” The chat loves the signature emote 9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2 and the phrase “My iPhone overheated ending…”. Followers celebrate by cheering “Thanks for watching” and “Stream is now live” alerts, keeping the vibe relaxed and supportive.",
       "_profileAtCount": 40,
-      "_idAt": 1793460047822,
+      "_idAt": 1793482847837,
       "nudgedAt": 1791616183720,
       "nudgedKey": "schedule",
       "_gameAt": 1793065900913,
@@ -18667,7 +18672,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793460050223,
+      "_idAt": 1793482850227,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793435874259,
@@ -19106,7 +19111,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793460051447,
+      "_idAt": 1793482851430,
       "_gameAt": 1793344455271,
       "isLive": false,
       "streamCategory": "",
@@ -19683,7 +19688,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "[UK] #42 ITS FRIDAY!!! - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
       "lastStreamEndedAt": 1792797919814,
-      "_idAt": 1793460052619,
+      "_idAt": 1793482852639,
       "_gameAt": 1793435224775,
       "isLive": false,
       "streamCategory": "",
@@ -20458,7 +20463,7 @@
       },
       "lastStreamInfo": "Play & Browse Crypto Games",
       "lastStreamEndedAt": 1793460752630,
-      "_idAt": 1793460053820,
+      "_idAt": 1793482853826,
       "_gameAt": 1793460718607,
       "isLive": false,
       "streamCategory": "",
@@ -22902,10 +22907,10 @@
       "language": "en",
       "joinedAt": 1784468383925,
       "stats": {
-        "totalVotes": 97232,
+        "totalVotes": 97332,
         "totalSubs": 101,
-        "totalChatMessages": 5480,
-        "totalStreamMinutes": 2095,
+        "totalChatMessages": 5505,
+        "totalStreamMinutes": 2112,
         "emotes": {
           "❤": 94,
           "🙌": 171,
@@ -22913,8 +22918,8 @@
           "💰": 54,
           "🔥": 133,
           "💛": 3,
-          "🔴": 44,
-          "🎉": 67,
+          "🔴": 45,
+          "🎉": 68,
           "😀": 17,
           "😂": 119,
           "😄": 1,
@@ -23029,7 +23034,7 @@
           "f47c4aa4-ee1a-4690-960b-f174d9ab2cd5": 2,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 5,
           "b8d92475-43c4-40eb-837e-c5ee5ab01980": 1,
-          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 10,
+          "7512e7d9-73aa-4019-8c8d-a4a48316f221": 11,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 3,
           "c600ade4-93cb-4118-a13c-b786761b45f8": 1,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 2,
@@ -23279,7 +23284,7 @@
           "👐": "👐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793419474785,
+        "lastChatAt": 1793482791375,
         "lastSendFailAt": 1785018226246,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1785018832792,
@@ -23287,44 +23292,44 @@
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @mindgoblin has resubscribed (9 months total, 1 month streak)! Thank you for the continued support! 🙌"
+          "user": "helios",
+          "msg": "Stuck with work stuff unfortunately. Was going to make spooky costumes for Pyro but no time"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "Welcome to the squad, mindgoblin—your sub just lit up the channel! 🚀✨"
+          "user": "helios",
+          "msg": "No, 3D models"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "Thanks for the 200, mindgoblin! Your support keeps the vibes real."
+          "user": "agent00zani",
+          "msg": "the deception"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "mindgoblin just dropped a legendary sub—everyone, let's flood the chat with love! 🥳💕"
+          "user": "agent00zani",
+          "msg": "i thought he cooking food"
         },
         {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @mindgoblin just gifted a sub to @cryptozxx! How generous!! 🙌"
+          "user": "helios",
+          "msg": "Not for Blaze, just a personal Pyro art"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "mindgoblin, 1200 votes—thank you for the love fest! ❤️"
+          "user": "agent00zani",
+          "msg": "so i popped in"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "mindgoblin, 2000 votes for sircedricdebled—your love fest just hit the stratosphere, thank you!"
+          "user": "helios",
+          "msg": "You've been rugged lol"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "Wow, mindgoblin, 1000 votes for sircedricdebled—thanks for the massive love! 🌟"
+          "user": "helios",
+          "msg": "Hey Zani"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "mindgoblin came through with 200 💚 no notes, perfect behaviour 🔥"
+          "user": "agent00zani",
+          "msg": "[emote:7512e7d9-73aa-4019-8c8d-a4a48316f221]"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "mindgoblin pulled up with 1000 votes 🗳️🔥 respect, genuinely 💚"
+          "user": "helios",
+          "msg": "Get better soon Ced"
         }
       ],
       "customCommands": {},
@@ -23476,14 +23481,14 @@
       },
       "profile": "Welcome to sircedricdebled’s vibes! We’re all about “GGs” and “love fests” while voting for art. When we’re not “lowkey” hyping a game of Pictionary, we’re “highkey” cheering for the best pieces. The channel loves shoutouts, “the vibes are real,” “keep it lit,” and “love fest” moments. Celebrate with us—every vote, every comment, every “GG.”",
       "_profileAtCount": 5477,
-      "streamTitle": "",
+      "streamTitle": "Cooking Something",
       "gameOverride": "",
       "lastStreamInfo": "A little concept art session",
       "lastStreamEndedAt": 1793224801485,
       "_idAt": 1793461251422,
-      "_gameAt": 1793419474916,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793482738475,
+      "isLive": true,
+      "streamCategory": "Art",
       "voteLog": [
         {
           "t": 1792429891419,
@@ -23944,6 +23949,11 @@
           "t": 1793479204045,
           "v": "mindgoblin",
           "a": 1000
+        },
+        {
+          "t": 1793482425808,
+          "v": "mindgoblin",
+          "a": 100
         }
       ]
     },
@@ -25391,17 +25401,17 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 23507,
+        "totalVotes": 23508,
         "totalSubs": 38,
-        "totalChatMessages": 55431,
-        "totalStreamMinutes": 25976,
+        "totalChatMessages": 55508,
+        "totalStreamMinutes": 25996,
         "emotes": {
           "❤": 180,
           "🙌": 168,
           "🤝": 4,
           "🔥": 80,
           "🔴": 140,
-          "🎉": 1248,
+          "🎉": 1257,
           "🪙": 1312,
           "⚡": 941,
           "👀": 131,
@@ -25409,9 +25419,9 @@
           "🤗": 96,
           "😊": 20,
           "🌻": 5,
-          "🗳": 693,
+          "🗳": 696,
           "☺": 66,
-          "😎": 4,
+          "😎": 5,
           "😁": 8,
           "📴": 141,
           "👋": 147,
@@ -25425,8 +25435,8 @@
           "🤭": 6,
           "💰": 314,
           "☄": 1,
-          "😶": 17,
-          "🌫": 17,
+          "😶": 19,
+          "🌫": 19,
           "⏱": 35,
           "😌": 5,
           "🤔": 2,
@@ -25578,7 +25588,7 @@
           "🥺": 2,
           "🥈": 164,
           "🥉": 164,
-          "⭐": 538,
+          "⭐": 540,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 11,
           "✊": 2,
           "✋": 2,
@@ -25852,48 +25862,48 @@
           "📐": "📐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793481647266
+        "lastChatAt": 1793482858690
       },
       "chatMemory": [
         {
           "user": "lovemikami",
-          "msg": "Karol?"
+          "msg": "Kkkkkkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "hack pro Nilão"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkk"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "Kaizo Lipe esse bicho"
         },
         {
           "user": "mauhzera",
-          "msg": "Drácula eh o Karol?/"
+          "msg": "Deve ser 2 em referência ao Castlevania 2"
+        },
+        {
+          "user": "lipeman",
+          "msg": "Nilão é o cara dos Marios"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkk"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "Bowserácula kaizo"
         },
         {
           "user": "mauhzera",
-          "msg": "Sem o giro ainda, fica mais dificil"
+          "msg": "Não deve ser uma sequência mas uma referência"
         },
         {
-          "user": "blazeian_bot_ai",
-          "msg": "💥 Future42, seu raider chegou com a turma inteira e a vibe tá explodindo! 🌟👏"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns, @mauhzera! Você subiu para o Nível 10! 🎉"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns, @BLAZEIAN_BOT_AI! Você subiu para o Nível 7! 🎉"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "@poderosobot Obrigado, poderosobot! 🎉 E que a roleta continue quente enquanto a maratona de retro explode aqui! 🚀"
-        },
-        {
-          "user": "botger",
-          "msg": "🚨🚨🚨 ALERTA DE RAID!! 🚨🚨🚨 @Future42 está chegando com um grupo de 14! Boas-vindas, raiders!! 🎉"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "O Giro salva muito"
-        },
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns @mauhzera! Você concluiu \"level 10 + 50 blaze prime\"! Você recebeu 300 pontos! 🎉"
+          "user": "lipeman",
+          "msg": "pode ser Mauh"
         }
       ],
       "customCommands": {},
@@ -25908,7 +25918,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
       "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer",
       "profile": "sofrenciaplay cranks 1h30m Retro marathons, especially Donkey Kong Country. Chat roars “JOGA SEU JOGO,” celebrates “torradas,” chants “GG” after every win, hyping “Juntos Pelo Lipe” style support. They love “pro player” tags, kaizo‑style jokes, end each stream with “kaizera” laughs. Streamer thrives on “salve” cheers, “kinda” jokes, and “muita coisa” screen chaos.",
-      "_profileAtCount": 54580,
+      "_profileAtCount": 55507,
       "gameOverride": "",
       "commentMode": "low",
       "lastStreamInfo": "Gameplay / Maratona / Desafio / Multiplayer",
@@ -26051,7 +26061,7 @@
         }
       },
       "_idAt": 1793462449031,
-      "_gameAt": 1793481505039,
+      "_gameAt": 1793482790517,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -26509,6 +26519,11 @@
           "t": 1793475015771,
           "v": "bit_mani",
           "a": 140
+        },
+        {
+          "t": 1793482733870,
+          "v": "poderosotv",
+          "a": 1
         }
       ]
     },
@@ -26520,7 +26535,7 @@
         "totalVotes": 14904,
         "totalSubs": 43,
         "totalChatMessages": 2070,
-        "totalStreamMinutes": 14007,
+        "totalStreamMinutes": 14027,
         "emotes": {
           "❤": 103,
           "🙌": 79,
@@ -27068,7 +27083,7 @@
         "totalVotes": 13441,
         "totalSubs": 49,
         "totalChatMessages": 884,
-        "totalStreamMinutes": 6212,
+        "totalStreamMinutes": 6232,
         "emotes": {
           "❤": 44,
           "🙌": 72,
@@ -30133,7 +30148,7 @@
         "totalVotes": 11633,
         "totalSubs": 33,
         "totalChatMessages": 1589,
-        "totalStreamMinutes": 16668,
+        "totalStreamMinutes": 16688,
         "emotes": {
           "❤": 101,
           "🙌": 81,
@@ -33797,15 +33812,15 @@
       "language": "en",
       "joinedAt": 1786936130068,
       "stats": {
-        "totalVotes": 12741,
+        "totalVotes": 12754,
         "totalSubs": 38,
-        "totalChatMessages": 5469,
-        "totalStreamMinutes": 18628,
+        "totalChatMessages": 5472,
+        "totalStreamMinutes": 18648,
         "emotes": {
           "👋": 139,
           "⚠": 2,
           "🎯": 2,
-          "🗳": 551,
+          "🗳": 554,
           "🔴": 132,
           "🎉": 171,
           "📴": 133,
@@ -34008,17 +34023,9 @@
           "💜": "💜"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793480550020
+        "lastChatAt": 1793482300682
       },
       "chatMemory": [
-        {
-          "user": "peter_force",
-          "msg": "HH!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 4 votes, @cvek11!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 15 votes, @CG777!"
@@ -34050,6 +34057,14 @@
         {
           "user": "razmr_eth",
           "msg": "[emote:809bfa51-da4f-4570-9c70-67a802c6da7b]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 13 votes, @i420Spit710Fire!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @i420Spit710Fire just gave 13 vote(s) (total: 38)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -34176,7 +34191,7 @@
         }
       },
       "_idAt": 1793466046655,
-      "_gameAt": 1793480550117,
+      "_gameAt": 1793482260736,
       "isLive": true,
       "streamCategory": "Rocket League",
       "voteLog": [
@@ -34394,6 +34409,11 @@
           "t": 1793474653443,
           "v": "cg777",
           "a": 15
+        },
+        {
+          "t": 1793482260239,
+          "v": "i420spit710fire",
+          "a": 13
         }
       ]
     },
