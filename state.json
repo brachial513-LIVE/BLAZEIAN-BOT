@@ -24131,13 +24131,13 @@
       "stats": {
         "totalVotes": 12656,
         "totalSubs": 65,
-        "totalChatMessages": 3035,
-        "totalStreamMinutes": 7887,
+        "totalChatMessages": 3037,
+        "totalStreamMinutes": 7890,
         "emotes": {
           "❤": 124,
           "🙌": 112,
-          "📴": 72,
-          "👋": 75,
+          "📴": 73,
+          "👋": 76,
           "🎁": 52,
           "🗳": 288,
           "⚠": 1,
@@ -24350,17 +24350,9 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793443846930
+        "lastChatAt": 1793445558900
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -24392,6 +24384,14 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @franco_ggtv at https://blaze.stream/franco_ggtv!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -24403,7 +24403,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -24411,7 +24411,7 @@
       "nudgedAt": 1785164605243,
       "nudgedKey": "schedule",
       "lastStreamInfo": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
-      "lastStreamEndedAt": 1793342508869,
+      "lastStreamEndedAt": 1793445553709,
       "loyalty": {
         "angge_wf": {
           "name": "angge_wf",
@@ -24555,9 +24555,9 @@
         }
       },
       "_idAt": 1793439646656,
-      "_gameAt": 1793443846095,
-      "isLive": true,
-      "streamCategory": "Music",
+      "_gameAt": 1793445554216,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891310,
@@ -26030,7 +26030,7 @@
         "totalVotes": 14894,
         "totalSubs": 43,
         "totalChatMessages": 2059,
-        "totalStreamMinutes": 13766,
+        "totalStreamMinutes": 13786,
         "emotes": {
           "❤": 103,
           "🙌": 79,
@@ -36481,7 +36481,7 @@
       "lastStreamInfo": "burada yeniyim !discord !settings — VALORANT",
       "lastStreamEndedAt": 1789668309772,
       "gameOverride": "",
-      "_idAt": 1793421997220
+      "_idAt": 1793445650210
     },
     "642cd761-2515-4c48-9c17-ae2e29e692e8": {
       "username": "thatsicy_",
@@ -36983,7 +36983,7 @@
       "gameOverride": "",
       "profile": "mafaz streams action‑packed gameplay, welcoming every new Blazeian with “welcome” and “thanks.” The chat buzzes with “woot,” “happy streaming buddd,” and “enjoy the game broski!” Fans celebrate mafaz by cheering “blazeee” and using the custom emote. The vibe is energetic, friendly, and supportive—every viewer feels part of the Blazeiancrew.",
       "_profileAtCount": 15,
-      "_idAt": 1793421997194
+      "_idAt": 1793445646661
     },
     "fba94794-c563-4d68-8aec-152f85eba0e1": {
       "username": "hubal",
@@ -37085,7 +37085,7 @@
       "lastStreamInfo": "My Hands Shake, My Blade Doesn't, Phantom Blade Zero 2    |   𐢘𐢕𐢞𐢒 𐢃𐢑𐢍𐢅 𐢉𐢍𐢛𐢈 𐢘𐢛𐢞 𐢨",
       "lastStreamEndedAt": 1793410855011,
       "gameOverride": "",
-      "_idAt": 1793421997238,
+      "_idAt": 1793445652620,
       "_gameAt": 1793390178949,
       "isLive": false,
       "streamCategory": ""
@@ -37120,7 +37120,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "_idAt": 1793421997205,
+      "_idAt": 1793445647816,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f5283cee-6005-4782-92fe-13419fd64684.png",
       "followed": true,
       "botVip": true
@@ -37521,7 +37521,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "_idAt": 1793421997221,
+      "_idAt": 1793445651412,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d3b7be98-81af-4b8d-adeb-af8e99088a0b.png",
       "streamTitle": "",
       "lastStreamInfo": "bus to airport to disney OMG!",
@@ -38356,7 +38356,7 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "_idAt": 1793421997213,
+      "_idAt": 1793445649012,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d30a5641-e3d3-4cba-a6b2-1a233aab45a0.gif",
       "_gameAt": 1793372126026,
       "isLive": false,
@@ -38653,9 +38653,9 @@
       "n": 3
     },
     "cedricdebled": {
-      "note": "He enjoys nostalgic FPS games, guitar riffs, Muse, and playful meme",
-      "at": 1793363389425,
-      "n": 46
+      "note": "Enjoys nostalgic FPS games, guitar riffs, Muse, and playful meme humor.",
+      "at": 1793446549466,
+      "n": 47
     },
     "xeventv38": {
       "note": "They appear to enjoy playing games, appreciate humor, and have a lighthearted tone, often using comedic expressions.",
@@ -39953,9 +39953,9 @@
       "n": 4
     },
     "razmr_eth": {
-      "note": "They love gaming streams, talk about trading",
-      "at": 1793263069181,
-      "n": 6
+      "note": "Enjoys gaming streams, talks about trading, and often uses playful, irreverent humor.",
+      "at": 1793445889485,
+      "n": 7
     },
     "mrnoob": {
       "note": "They chat about gaming, sub levels, in‑game events, upgrades, and joke about characters and power‑ups.",
