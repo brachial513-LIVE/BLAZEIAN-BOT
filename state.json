@@ -17892,8 +17892,8 @@
       "stats": {
         "totalVotes": 8728,
         "totalSubs": 42,
-        "totalChatMessages": 1165,
-        "totalStreamMinutes": 3327,
+        "totalChatMessages": 1166,
+        "totalStreamMinutes": 3329,
         "emotes": {
           "❤": 61,
           "🙌": 66,
@@ -18011,17 +18011,9 @@
           "😄": "😄"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793432879252
+        "lastChatAt": 1793433105767
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "😄😄"
-        },
-        {
-          "user": "0xscheun",
-          "msg": "yeah, i can play with friends but dont have many friends that plays chess"
-        },
         {
           "user": "briggsy",
           "msg": "yea, same here."
@@ -18053,6 +18045,14 @@
         {
           "user": "0xscheun",
           "msg": "still the same lol"
+        },
+        {
+          "user": "0xscheun",
+          "msg": "silly mouse mistake lmao"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "lol that mouse slip had us all laughing 🐭🤣"
         }
       ],
       "customCommands": {},
@@ -18178,7 +18178,7 @@
       "_idAt": 1793414451405,
       "streamCategory": "Chess",
       "isLive": true,
-      "_gameAt": 1793432812722,
+      "_gameAt": 1793433105887,
       "voteLog": [
         {
           "t": 1792429891238,
@@ -39718,8 +39718,8 @@
     }
   },
   "auth": {
-    "accessToken": "85f799eca4525a8f1b14d8834812d1eb",
-    "refreshToken": "1c4d1bae785e8ac3dfd8e4327d8d4117",
+    "accessToken": "c53b89278a321816a98f9c15e20aefe5",
+    "refreshToken": "28858fdd31c0a32c755e5069a9cc0b15",
     "sessionToken": "95a2c87705ca6dc9042fd9e1cb0c4282",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
