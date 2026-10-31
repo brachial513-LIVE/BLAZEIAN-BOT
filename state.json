@@ -5208,14 +5208,14 @@
       "stats": {
         "totalVotes": 33451,
         "totalSubs": 122,
-        "totalChatMessages": 9757,
-        "totalStreamMinutes": 30132,
+        "totalChatMessages": 9758,
+        "totalStreamMinutes": 30138,
         "emotes": {
           "❤": 261,
           "🙌": 224,
           "🗳": 1404,
-          "📴": 248,
-          "👋": 278,
+          "📴": 249,
+          "👋": 279,
           "🔴": 244,
           "🎉": 378,
           "🏆": 25,
@@ -5584,18 +5584,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1793406902162,
+        "lastChatAt": 1793409099834,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Welcome to the fam, Levana—glad you’re here! 🌟"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ levana just followed the channel! Welcome!! 🙌"
@@ -5627,6 +5619,14 @@
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "I am Human"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {
@@ -5641,7 +5641,7 @@
       "streamEnd": "I am Human",
       "locked": false,
       "followed": true,
-      "streamTitle": "💪 Stay Strong, Game On! 🎮 | w @Avisi & zer0cache | 🎰 Sub Raffle — 150 Votes!",
+      "streamTitle": "",
       "profile": "agent00zani’s channel is a high‑energy hub of Warzone chaos, Marvel Rivals, Palworld, and Sci‑Fi love. The crew “SLAP” each other, shout “VOTE ALERT!!”, “RAID”, and “ty ty” with emotes. Fans celebrate with votes, raids, cheers, and “resub hype!!” while the streamer loves being thanked with “ty ty” and massive emote showers.",
       "_profileAtCount": 9701,
       "loyalty": {
@@ -5850,8 +5850,8 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8d0e99ca-202f-449f-92a1-8260c74a8c9d.gif",
       "nudgedAt": 1785006485591,
       "nudgedKey": "schedule",
-      "lastStreamInfo": "💪 Stay Strong, Game On! 🎮 | with @Zer0Cache & @Avisi| 🎰 Sub Raffle — 150 Votes!",
-      "lastStreamEndedAt": 1793316747346,
+      "lastStreamInfo": "💪 Stay Strong, Game On! 🎮 | w @Avisi & zer0cache | 🎰 Sub Raffle — 150 Votes!",
+      "lastStreamEndedAt": 1793409094641,
       "botVip": true,
       "commandMedia": {
         "fluffy": {
@@ -5886,9 +5886,9 @@
         }
       },
       "_idAt": 1793388046782,
-      "_gameAt": 1793406902275,
-      "isLive": true,
-      "streamCategory": "Fortnite",
+      "_gameAt": 1793409099931,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891186,
@@ -8593,15 +8593,15 @@
       "stats": {
         "totalVotes": 16378,
         "totalSubs": 64,
-        "totalChatMessages": 2498,
-        "totalStreamMinutes": 14005,
+        "totalChatMessages": 2500,
+        "totalStreamMinutes": 14015,
         "emotes": {
           "✨": 53,
           "🖥": 24,
           "🔥": 227,
           "👋": 141,
-          "🎬": 136,
-          "❤": 179,
+          "🎬": 137,
+          "❤": 180,
           "🚨": 11,
           "⚡": 27,
           "🏆": 23,
@@ -8835,18 +8835,10 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB",
           "1dcd34c2-ae0c-416e-9501-86fe92e0cd77": "BASICPYRO1"
         },
-        "lastChatAt": 1793406133776,
+        "lastChatAt": 1793409335457,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "gueny made me laugh .. i needed that"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Welcome levana to the family! 💚🚀"
-        },
         {
           "user": "levana",
           "msg": "love to playing game"
@@ -8878,6 +8870,14 @@
         {
           "user": "cachebot",
           "msg": "🧣 [HYPE]: Extraordinary! @zer0cache, you possess the reckless, breathtaking confidence of an Edwardian explorer about to discover a brand new continent. A triumph of human spirit!"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "dub"
+        },
+        {
+          "user": "cachebot",
+          "msg": "🎬 That's a wrap for now! The stream is officially over. Huge thank you to everyone who hung out, dropped messages, and lurked. See you next broadcast! ❤️"
         }
       ],
       "customCommands": {},
@@ -8886,7 +8886,7 @@
       "botVip": true,
       "locked": false,
       "followed": true,
-      "streamTitle": "Friday Night Gaming",
+      "streamTitle": "",
       "profile": "zer0cache’s crew thrives on high‑stakes OTG Ranked heists, magnetic personalities, and Off The Grid vibes. We hype with “tearing it up,” “splendid form,” “absolute legends,” and “ty ty.” Celebrations erupt in “OTG Summer League” drops, vote crowns, and lavish praise. Relentless energy, camaraderie, and the thrill of dropping in to new adventures keep the community buzzing.",
       "_profileAtCount": 2491,
       "loyalty": {
@@ -8968,14 +8968,14 @@
       },
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/22f83582-69b8-48b7-9a5e-c9f8cb4325a2.jpg",
       "gameOverride": "",
-      "lastStreamInfo": "Niteforting w/ @agent00zani",
-      "lastStreamEndedAt": 1793315206203,
+      "lastStreamInfo": "Friday Night Gaming",
+      "lastStreamEndedAt": 1793409334891,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
       "_idAt": 1793388052586,
-      "streamCategory": "Fortnite",
-      "isLive": true,
-      "_gameAt": 1793406133257,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1793409335562,
       "voteLog": [
         {
           "t": 1792429891268,
@@ -10687,15 +10687,15 @@
       "language": "en",
       "stats": {
         "totalVotes": 53852,
-        "totalSubs": 98,
-        "totalChatMessages": 10486,
-        "totalStreamMinutes": 17996,
+        "totalSubs": 99,
+        "totalChatMessages": 10500,
+        "totalStreamMinutes": 18016,
         "emotes": {
           "❤": 201,
-          "🙌": 240,
+          "🙌": 241,
           "🗳": 1062,
           "🔴": 106,
-          "🎉": 178,
+          "🎉": 179,
           "📴": 104,
           "👋": 118,
           "🔥": 290,
@@ -10703,13 +10703,13 @@
           "🤖": 1,
           "💚": 8,
           "🤣": 104,
-          "🚨": 390,
+          "🚨": 396,
           "😎": 5,
           "😅": 10,
           "😆": 74,
           "💰": 28,
           "😂": 155,
-          "🎁": 100,
+          "🎁": 102,
           "✨": 2,
           "😄": 11,
           "😁": 16,
@@ -11108,49 +11108,49 @@
           "🦝": "🦝",
           "🤨": "🤨"
         },
-        "lastChatAt": 1793408717300,
+        "lastChatAt": 1793409486441,
         "sendFailStreak": 0
       },
       "chatMemory": [
         {
+          "user": "zer0cache",
+          "msg": "sup @briggsy!"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Heey Zer0, man!!"
+        },
+        {
+          "user": "zer0cache",
+          "msg": "ty ty!"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Hope you are well"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Yes would be good to hear."
+        },
+        {
           "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Zer0Cache just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+          "msg": "🎁 GIFTED SUB!! 🎁 @briggsy just gifted a sub to @Zer0Cache! How generous!! 🙌"
         },
         {
           "user": "scurvybot",
-          "msg": "Thanks for the follow, @levana!"
+          "msg": "@briggsy gifted a sub to the community!"
         },
         {
           "user": "blazeian_bot_ai",
-          "msg": "Welcome, levana! Glad you’re here—let’s make some magic together!"
+          "msg": "briggsy just dropped a sub like a boss—drop your love, fam! 🌟👏"
         },
         {
-          "user": "botger",
-          "msg": "❤️ NEW FOLLOWER!! ❤️ levana just followed the channel! Welcome!! 🙌"
+          "user": "briggsy",
+          "msg": "Yes man. For sure"
         },
         {
-          "user": "levana",
-          "msg": "heyyy nadiieeee"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@Mossvale subscribed! Thank you!"
-        },
-        {
-          "user": "botger",
-          "msg": "🔥 RESUB HYPE!! 🔥 @Mossvale has resubscribed (2 months total, 2 months streak)! Thank you for the continued support! 🙌"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "mossvale just hit the SUBS club, welcome to the fam! 💖"
-        },
-        {
-          "user": "mossvale",
-          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
-        },
-        {
-          "user": "mossvale",
-          "msg": "Doing good, just working on the game and watching your stream"
+          "user": "briggsy",
+          "msg": "Ok cool"
         }
       ],
       "customCommands": {},
@@ -11366,7 +11366,7 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1793408684771,
+      "_gameAt": 1793409486538,
       "isLive": true,
       "streamCategory": "Music",
       "voteLog": [
@@ -16049,7 +16049,7 @@
         "totalVotes": 26978,
         "totalSubs": 95,
         "totalChatMessages": 3035,
-        "totalStreamMinutes": 24383,
+        "totalStreamMinutes": 24403,
         "emotes": {
           "🔥": 869,
           "🔴": 200,
@@ -27440,7 +27440,7 @@
         "totalVotes": 3267,
         "totalSubs": 10,
         "totalChatMessages": 241,
-        "totalStreamMinutes": 7783,
+        "totalStreamMinutes": 7803,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -32496,7 +32496,7 @@
         "totalVotes": 0,
         "totalSubs": 1,
         "totalChatMessages": 74,
-        "totalStreamMinutes": 297,
+        "totalStreamMinutes": 317,
         "emotes": {
           "🧡": 1,
           "💚": 1,
@@ -32598,7 +32598,7 @@
         "totalVotes": 12722,
         "totalSubs": 38,
         "totalChatMessages": 5445,
-        "totalStreamMinutes": 18345,
+        "totalStreamMinutes": 18365,
         "emotes": {
           "👋": 138,
           "⚠": 2,
@@ -35175,7 +35175,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 94,
-        "totalStreamMinutes": 6798,
+        "totalStreamMinutes": 6818,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -36373,7 +36373,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 34,
-        "totalStreamMinutes": 8056,
+        "totalStreamMinutes": 8076,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -39364,8 +39364,8 @@
     },
     "machoolibre": {
       "note": "They love horror movies like “Nightmare on Elm Street,” are currently shopping for food, and just heard a baby announcement about a new baby named Bear.",
-      "at": 1793286829370,
-      "n": 2
+      "at": 1793408929760,
+      "n": 3
     },
     "ph4tmon3y": {
       "note": "Enjoys web3 gaming and NFTs, often joking about giving away in‑game items and helping community members reach milestones.",
