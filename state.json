@@ -17887,14 +17887,14 @@
       "stats": {
         "totalVotes": 8728,
         "totalSubs": 42,
-        "totalChatMessages": 1150,
-        "totalStreamMinutes": 3306,
+        "totalChatMessages": 1151,
+        "totalStreamMinutes": 3307,
         "emotes": {
           "❤": 61,
           "🙌": 66,
           "🗳": 330,
-          "🔴": 66,
-          "🎉": 69,
+          "🔴": 67,
+          "🎉": 70,
           "📴": 66,
           "👋": 69,
           "🎁": 36,
@@ -18004,13 +18004,9 @@
           "🤛": "🤛"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793209751789
+        "lastChatAt": 1793431784943
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @briggsy just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "100 votes from badger 👀💚 that's the good stuff right there, thank you!"
@@ -18046,6 +18042,10 @@
         {
           "user": "sofrenciaplay",
           "msg": "thanks"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 0xscheun is now live! Welcome everyone! 🎉"
         }
       ],
       "customCommands": {},
@@ -18058,7 +18058,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1fce5f33-0d10-4052-a439-2d788d567380.png",
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "Chess",
       "gameOverride": "",
       "profile": "0xscheun’s crew is a chill, high‑energy squad that loves gaming, especially chess. We greet with “gm gm” and “sup”, celebrate wins with “thank you” and “yessir”, laugh at “tiddies” and “nirus supplier” jokes, throw constant emotes, and end streams with a heartfelt “See you next time 👋”. The vibe is playful banter, fests, and constant celebration.",
       "_profileAtCount": 1126,
@@ -18169,9 +18169,9 @@
         }
       },
       "_idAt": 1793414451405,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793209719569,
+      "streamCategory": "Chess",
+      "isLive": true,
+      "_gameAt": 1793431784855,
       "voteLog": [
         {
           "t": 1792429891238,
@@ -39707,8 +39707,8 @@
     }
   },
   "auth": {
-    "accessToken": "f926befc5f8add7496d29c8e2b7c2448",
-    "refreshToken": "8bc062ec8d78af33e20ed0a15c4cb234",
+    "accessToken": "85f799eca4525a8f1b14d8834812d1eb",
+    "refreshToken": "1c4d1bae785e8ac3dfd8e4327d8d4117",
     "sessionToken": "95a2c87705ca6dc9042fd9e1cb0c4282",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
