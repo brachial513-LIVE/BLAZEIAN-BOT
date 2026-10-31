@@ -15296,7 +15296,7 @@
       "username": "makeitmetal",
       "language": "en",
       "stats": {
-        "totalVotes": 29053,
+        "totalVotes": 29074,
         "totalSubs": 79,
         "totalChatMessages": 18359,
         "totalStreamMinutes": 12716,
@@ -16164,6 +16164,11 @@
           "t": 1793410704258,
           "v": "dga_og",
           "a": 10
+        },
+        {
+          "t": 1793420787707,
+          "v": "nadietv",
+          "a": 21
         }
       ]
     },
@@ -24564,8 +24569,8 @@
       "stats": {
         "totalVotes": 3899,
         "totalSubs": 96,
-        "totalChatMessages": 65,
-        "totalStreamMinutes": 2912,
+        "totalChatMessages": 68,
+        "totalStreamMinutes": 2916,
         "emotes": {
           "🔥": 5,
           "😎": 1,
@@ -24583,25 +24588,9 @@
           "😅": "😅"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793420753626
+        "lastChatAt": 1793420971076
       },
       "chatMemory": [
-        {
-          "user": "willdres",
-          "msg": "nos vemos bro"
-        },
-        {
-          "user": "dairybrige",
-          "msg": "HOLA"
-        },
-        {
-          "user": "dairybrige",
-          "msg": "hola"
-        },
-        {
-          "user": "dairybrige",
-          "msg": "wildres"
-        },
         {
           "user": "dairybrige",
           "msg": "hola"
@@ -24625,6 +24614,22 @@
         {
           "user": "srchois",
           "msg": "Quien mas?"
+        },
+        {
+          "user": "willdres",
+          "msg": "ahora mismo no estan mañana por la tarde les digo"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "@willdres psst — want people to stop asking when you're live? Type !setschedule followed by your times and I'll answer that for you from now on 💚 (ignore me if not, I'll not bring it up again)"
+        },
+        {
+          "user": "willdres",
+          "msg": "y te aviso"
+        },
+        {
+          "user": "willdres",
+          "msg": "si tienes a alguien conocido que tambien quiera avisame para mandarle"
         }
       ],
       "customCommands": {},
@@ -24686,9 +24691,11 @@
       "_idAt": 1793416847802,
       "streamCategory": "Crypto",
       "isLive": true,
-      "_gameAt": 1793420753746,
+      "_gameAt": 1793420971182,
       "profile": "willdres streams indie and retro games, pumping up the chat with “bro” and “kfg” slang. The community loves quick shoutouts like “subxsub?” and “no amigo no te has suscrito.” Catchphrases include “jajajajjajja” and “VAMOS CON TODA!” Fans celebrate with emotes and playful banter, keeping the vibe energetic, supportive, and always ready for the next meme.",
-      "_profileAtCount": 57
+      "_profileAtCount": 57,
+      "nudgedAt": 1793420849414,
+      "nudgedKey": "schedule"
     },
     "9e26a8e9-192e-41bd-9933-ce3d651f120d": {
       "username": "sofrenciaplay",
@@ -27650,7 +27657,7 @@
         "totalVotes": 3267,
         "totalSubs": 10,
         "totalChatMessages": 243,
-        "totalStreamMinutes": 7883,
+        "totalStreamMinutes": 7888,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -39614,8 +39621,8 @@
     },
     "chalib": {
       "note": "Enjoys video games, playful humor, jokes about weather and travel, and greets friends with the nickname “UncleFunk.”",
-      "at": 1793338969263,
-      "n": 3
+      "at": 1793420809351,
+      "n": 4
     },
     "yuki_kaizo": {
       "note": "Yuki enjoys classic fighting games like Tekken and Street Fighter, often jokes about robots and",
@@ -39690,8 +39697,8 @@
     }
   },
   "auth": {
-    "accessToken": "93453d31be9e123e8337d26cb7a800f7",
-    "refreshToken": "d50835623be2f9d6fbd1a2929e0cd403",
+    "accessToken": "44b9997eccae4776f809895b909c826a",
+    "refreshToken": "b25b3281ed4a2277f54e25c4f2e849b1",
     "sessionToken": "95a2c87705ca6dc9042fd9e1cb0c4282",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
