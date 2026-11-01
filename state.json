@@ -27614,10 +27614,10 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 43064,
+        "totalVotes": 43084,
         "totalSubs": 67,
-        "totalChatMessages": 7774,
-        "totalStreamMinutes": 12860,
+        "totalChatMessages": 7775,
+        "totalStreamMinutes": 12865,
         "emotes": {
           "❤": 130,
           "🙌": 120,
@@ -27965,13 +27965,9 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793519312913
+        "lastChatAt": 1793520945018
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "Whaa?"
-        },
         {
           "user": "briggsy",
           "msg": "What the hell?"
@@ -28007,6 +28003,10 @@
         {
           "user": "botger",
           "msg": "🎉 briggsy just reached Level 4! ⚡ (5,381 XP)"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 20 votes, @faithy_!"
         }
       ],
       "customCommands": {},
@@ -28236,7 +28236,7 @@
       },
       "commentMode": "silent",
       "_idAt": 1793509246684,
-      "_gameAt": 1793519312750,
+      "_gameAt": 1793520945135,
       "isLive": true,
       "streamCategory": "Deadlock",
       "voteLog": [
@@ -28579,6 +28579,11 @@
           "t": 1793474549592,
           "v": "cg777",
           "a": 8
+        },
+        {
+          "t": 1793520944664,
+          "v": "faithy_",
+          "a": 20
         }
       ]
     },
@@ -40945,8 +40950,8 @@
     }
   },
   "auth": {
-    "accessToken": "396a7188d2b2ff54c625ca997ffb8577",
-    "refreshToken": "6800fdb8646fab055b2f0dd91eb22157",
+    "accessToken": "4aa9e11719a0c299cb0054fee54d4379",
+    "refreshToken": "48df618094cc196a68958231629b8f27",
     "sessionToken": "d3ecf8f24b41d7df3010d34cc1f6b244",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
