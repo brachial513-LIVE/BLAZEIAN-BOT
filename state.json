@@ -1179,12 +1179,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 155634,
+        "totalVotes": 155645,
         "totalSubs": 252,
-        "totalChatMessages": 14848,
+        "totalChatMessages": 14851,
         "totalStreamMinutes": 4753,
         "emotes": {
-          "🗳": 2418,
+          "🗳": 2421,
           "❤": 750,
           "🙌": 404,
           "🔥": 373,
@@ -1294,7 +1294,7 @@
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 65,
           "ba9147e0-6646-4b53-87f3-1147eb8bd30d": 5,
           "685d034d-3a0b-4b4e-8dd3-f0b27ea21cdc": 21,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 82,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 83,
           "8abbb6f5-e697-4e18-9c04-77de7fa6e1f6": 3,
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": 12,
           "f3f963aa-cbae-4673-855f-b5ad2a0805a3": 133,
@@ -1610,25 +1610,13 @@
           "🤧": "🤧"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793547141335,
+        "lastChatAt": 1793548841300,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "sircedricdebled",
-          "msg": "Hoe did doffer get 5 points ?"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Thanks for tuning in! Streamers supporting Streamers. That's what BLAZE is all about."
-        },
-        {
-          "user": "botger",
-          "msg": "📴 STREAM HAS ENDED. THANKS FOR WATCHING! SEE YOU NEXT TIME 👋"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ OBEE JUST FOLLOWED THE CHANNEL! WELCOME!! 🙌"
@@ -1656,6 +1644,18 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @SIPOFCOKE JUST GAVE 31 VOTE(S) (TOTAL: 31)! THANK YOU!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @TIMDRAWS JUST GAVE 11 VOTE(S) (TOTAL: 11)! THANK YOU!! 🗳️"
+        },
+        {
+          "user": "timdraws",
+          "msg": "thanks roshi!"
+        },
+        {
+          "user": "timdraws",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
         }
       ],
       "customCommands": {},
@@ -1945,7 +1945,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life",
       "lastStreamEndedAt": 1793467072906,
       "_idAt": 1793544052652,
-      "_gameAt": 1793547100495,
+      "_gameAt": 1793548829625,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -2568,6 +2568,11 @@
           "t": 1793547139112,
           "v": "sipofcoke",
           "a": 31
+        },
+        {
+          "t": 1793548827285,
+          "v": "timdraws",
+          "a": 11
         }
       ]
     },
@@ -2575,7 +2580,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 48547,
+        "totalVotes": 48657,
         "totalSubs": 126,
         "totalChatMessages": 55248,
         "totalStreamMinutes": 4939,
@@ -3868,6 +3873,16 @@
           "t": 1793547200377,
           "v": "sipofcoke",
           "a": 20
+        },
+        {
+          "t": 1793548362126,
+          "v": "makeitmetal",
+          "a": 100
+        },
+        {
+          "t": 1793548964664,
+          "v": "xanderc",
+          "a": 10
         }
       ]
     },
@@ -3875,9 +3890,9 @@
       "username": "crypt0k1ng96",
       "language": "en",
       "stats": {
-        "totalVotes": 49134,
+        "totalVotes": 49144,
         "totalSubs": 314,
-        "totalChatMessages": 15677,
+        "totalChatMessages": 15678,
         "totalStreamMinutes": 37872,
         "emotes": {
           "📊": 3,
@@ -4476,13 +4491,9 @@
           "🎃": "🎃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793533339259
+        "lastChatAt": 1793548962302
       },
       "chatMemory": [
-        {
-          "user": "crypt0k1ng96",
-          "msg": "Be back in an hour chat going on a walk and then I’m back streaming all day"
-        },
         {
           "user": "cripiechuccles",
           "msg": "[emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052] [emote:dab820c3-c946-4d12-aef8-d07703f0c052]"
@@ -4518,6 +4529,10 @@
         {
           "user": "foxbotai",
           "msg": "Thank you @Marowak33 for voting with 1 votes! FoxBot AI appreciates your support! +3 FoxCoins. Balance: 1343 FoxCoins."
+        },
+        {
+          "user": "foxbotai",
+          "msg": "Thank you @XanderC for voting with 10 votes! FoxBot AI appreciates your support! +30 FoxCoins. Balance: 381 FoxCoins."
         }
       ],
       "customCommands": {},
@@ -4718,7 +4733,7 @@
       },
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1793533339388,
+      "_gameAt": 1793548962390,
       "voteLog": [
         {
           "t": 1792429891148,
@@ -5049,6 +5064,11 @@
           "t": 1793533331955,
           "v": "marowak33",
           "a": 1
+        },
+        {
+          "t": 1793548956185,
+          "v": "xanderc",
+          "a": 10
         }
       ]
     },
@@ -5426,14 +5446,14 @@
       "username": "agent00zani",
       "language": "en",
       "stats": {
-        "totalVotes": 34045,
+        "totalVotes": 34055,
         "totalSubs": 123,
-        "totalChatMessages": 9810,
-        "totalStreamMinutes": 30642,
+        "totalChatMessages": 9812,
+        "totalStreamMinutes": 30662,
         "emotes": {
           "❤": 261,
           "🙌": 225,
-          "🗳": 1428,
+          "🗳": 1431,
           "📴": 251,
           "👋": 281,
           "🔴": 247,
@@ -5804,18 +5824,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1793545992210,
+        "lastChatAt": 1793548927954,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "142 more thanks to zsoltech 🗳️ every single one counts here 💚"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @zsoltech just gave 142 vote(s) (total: 142)! Thank you!! 🗳️"
-        },
         {
           "user": "zsoltech",
           "msg": "thank you for coming to wilder game night"
@@ -5847,6 +5859,14 @@
         {
           "user": "agent00zani",
           "msg": "how you doing today"
+        },
+        {
+          "user": "razmr_eth",
+          "msg": "KILL ALL THEM"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {
@@ -6111,7 +6131,7 @@
         }
       },
       "_idAt": 1793547413081,
-      "_gameAt": 1793545945170,
+      "_gameAt": 1793548928044,
       "isLive": true,
       "streamCategory": "Fortnite",
       "voteLog": [
@@ -6554,6 +6574,11 @@
           "t": 1793544917684,
           "v": "zsoltech",
           "a": 142
+        },
+        {
+          "t": 1793548925781,
+          "v": "xanderc",
+          "a": 10
         }
       ]
     },
@@ -8071,10 +8096,10 @@
       "username": "capt_rob_advent",
       "language": "en",
       "stats": {
-        "totalVotes": 47251,
+        "totalVotes": 47256,
         "totalSubs": 79,
-        "totalChatMessages": 5123,
-        "totalStreamMinutes": 19877,
+        "totalChatMessages": 5124,
+        "totalStreamMinutes": 19897,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -8181,7 +8206,7 @@
           "🍺": 22,
           "🫶": 5,
           "🙌": 71,
-          "🗳": 534,
+          "🗳": 537,
           "📴": 61,
           "72214ffa-77c3-4777-9bc2-587b6bc0581c": 208,
           "🔴": 60,
@@ -8406,13 +8431,9 @@
           "💖": "💖"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793547452547
+        "lastChatAt": 1793548908651
       },
       "chatMemory": [
-        {
-          "user": "dpfreez76",
-          "msg": "a little more than 10 minutes later"
-        },
         {
           "user": "dpfreez76",
           "msg": "No worries just busting ballzs"
@@ -8448,6 +8469,10 @@
         {
           "user": "razmr_eth",
           "msg": "welcome blaze"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 5 vote(s) (total: 5)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -8553,7 +8578,7 @@
       "lastStreamInfo": "STANDING BY FOR FIRST DISCHARGE ORDER AND JUST CHATTING",
       "lastStreamEndedAt": 1793461392311,
       "_idAt": 1793547413104,
-      "_gameAt": 1793547442055,
+      "_gameAt": 1793548908749,
       "isLive": true,
       "streamCategory": "IRL",
       "voteLog": [
@@ -8801,6 +8826,11 @@
           "t": 1793465114027,
           "v": "bonsaifox",
           "a": 4
+        },
+        {
+          "t": 1793548906376,
+          "v": "xanderc",
+          "a": 5
         }
       ]
     },
@@ -9550,14 +9580,14 @@
       "username": "briggsy",
       "language": "en",
       "stats": {
-        "totalVotes": 51201,
+        "totalVotes": 51211,
         "totalSubs": 141,
-        "totalChatMessages": 17204,
+        "totalChatMessages": 17205,
         "totalStreamMinutes": 10667,
         "emotes": {
           "❤": 295,
           "🙌": 445,
-          "🗳": 2084,
+          "🗳": 2087,
           "✌": 12,
           "😊": 13,
           "👍": 22,
@@ -10151,13 +10181,9 @@
           "😚": "😚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793547100395
+        "lastChatAt": 1793548989869
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Octo just hit the subscribe button! 🎉 Welcome to the squad, you’re officially on the team!"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "50 votes from niruntz – you rock, thank you! 🌟"
@@ -10193,6 +10219,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @sipofcoke just gave 88 vote(s) (total: 88)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -10419,7 +10449,7 @@
       "lastStreamInfo": "Beach day with Mellow",
       "lastStreamEndedAt": 1793317522420,
       "_idAt": 1793547413093,
-      "_gameAt": 1793547100491,
+      "_gameAt": 1793548989962,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -10982,6 +11012,11 @@
           "t": 1793547098125,
           "v": "sipofcoke",
           "a": 88
+        },
+        {
+          "t": 1793548987684,
+          "v": "xanderc",
+          "a": 10
         }
       ]
     },
@@ -11161,9 +11196,9 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 55125,
+        "totalVotes": 55225,
         "totalSubs": 102,
-        "totalChatMessages": 10844,
+        "totalChatMessages": 10845,
         "totalStreamMinutes": 18306,
         "emotes": {
           "❤": 210,
@@ -11591,18 +11626,10 @@
           "🤪": "🤪",
           "🍄": "🍄"
         },
-        "lastChatAt": 1793535706023,
+        "lastChatAt": 1793548362556,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "libralives",
-          "msg": "took me for fucking ever to get partner over there too and now I don't even use it"
-        },
-        {
-          "user": "jt_squared2",
-          "msg": "😂"
-        },
         {
           "user": "lvl4goblin",
           "msg": "have a good"
@@ -11634,6 +11661,14 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "Huge thanks, johngalt, for the 1000 vote—your support keeps the vibes blazing!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 100 votes, @MakeItMetal!"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Huge thanks makeitmetal for that 100 vote for nadietv! 🌟"
         }
       ],
       "customCommands": {},
@@ -11859,7 +11894,7 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1793535706119,
+      "_gameAt": 1793548362657,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -12332,6 +12367,11 @@
           "t": 1793535705618,
           "v": "johngalt",
           "a": 1000
+        },
+        {
+          "t": 1793548362178,
+          "v": "makeitmetal",
+          "a": 100
         }
       ]
     },
@@ -13298,8 +13338,8 @@
       "stats": {
         "totalVotes": 2865,
         "totalSubs": 11,
-        "totalChatMessages": 707,
-        "totalStreamMinutes": 3519,
+        "totalChatMessages": 709,
+        "totalStreamMinutes": 3527,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -13409,17 +13449,9 @@
           "🖐": "🖐"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793547659677
+        "lastChatAt": 1793548193303
       },
       "chatMemory": [
-        {
-          "user": "obee",
-          "msg": "No worries, I understand you perfectly"
-        },
-        {
-          "user": "obee",
-          "msg": "Haha"
-        },
         {
           "user": "obee",
           "msg": "I have this game Diablo in my battle net library."
@@ -13451,6 +13483,14 @@
         {
           "user": "obee",
           "msg": "Haha"
+        },
+        {
+          "user": "gaara27",
+          "msg": "5 min afk"
+        },
+        {
+          "user": "obee",
+          "msg": "No worries"
         }
       ],
       "customCommands": {},
@@ -13460,15 +13500,15 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/42fc3ce1-764e-412d-887f-8933114b11d3.gif",
-      "streamTitle": "Hello November 🎃 l Diablo Season & Chill",
+      "streamTitle": "",
       "gameOverride": "",
-      "lastStreamInfo": "Road to 250 Votes ‼️",
-      "lastStreamEndedAt": 1793543382643,
+      "lastStreamInfo": "Hello November 🎃 l Diablo Season & Chill",
+      "lastStreamEndedAt": 1793548447232,
       "profile": "gmc_gaara27 streams chill beats and “PosiTief presents: West Coast G‑Funk Hour — Music.” The chat vibes with “welcome to blaze bro,” “letsgooo,” “awesome people,” “+follower” cheers, “emote” bursts, and “Verkaufe interessant.” They celebrate with “thank you” and “Thanks :)”, stay upbeat, supportive, always ready for the next groove, love quick shoutouts and volume tweaks.",
       "_profileAtCount": 666,
       "nudgedAt": 1790523497708,
       "nudgedKey": "schedule",
-      "_idAt": 1793527247849,
+      "_idAt": 1793548912922,
       "loyalty": {
         "brachial513": {
           "name": "brachial513",
@@ -13526,9 +13566,9 @@
           "tier": 1
         }
       },
-      "_gameAt": 1793547659774,
-      "isLive": true,
-      "streamCategory": "Diablo IV",
+      "_gameAt": 1793548124150,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891251,
@@ -13797,7 +13837,7 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 27813,
+        "totalVotes": 27913,
         "totalSubs": 61,
         "totalChatMessages": 4825,
         "totalStreamMinutes": 5593,
@@ -14060,10 +14100,6 @@
       },
       "chatMemory": [
         {
-          "user": "briggsy",
-          "msg": "🙌🤗🙏👋🙋🏼"
-        },
-        {
           "user": "botger",
           "msg": "https://x.com/e_buket_erkul"
         },
@@ -14098,6 +14134,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "makeitmetal pulled up with 100 votes 🗳️🔥 respect, genuinely 💚"
         }
       ],
       "customCommands": {},
@@ -14188,7 +14228,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Digital Drawing",
       "lastStreamEndedAt": 1793475034828,
-      "_idAt": 1793527249041,
+      "_idAt": 1793548912966,
       "_gameAt": 1793475040331,
       "isLive": false,
       "streamCategory": "",
@@ -14642,6 +14682,11 @@
           "t": 1793543636564,
           "v": "omererkmen",
           "a": 1
+        },
+        {
+          "t": 1793548362199,
+          "v": "makeitmetal",
+          "a": 100
         }
       ]
     },
@@ -14649,9 +14694,9 @@
       "username": "cymatrix",
       "language": "en",
       "stats": {
-        "totalVotes": 8600,
+        "totalVotes": 8700,
         "totalSubs": 46,
-        "totalChatMessages": 1940,
+        "totalChatMessages": 1941,
         "totalStreamMinutes": 3481,
         "emotes": {
           "❤": 563,
@@ -14767,18 +14812,10 @@
           "🙂": "🙂",
           "🎃": "🎃"
         },
-        "lastChatAt": 1793543878913,
+        "lastChatAt": 1793548362671,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "cymatrix",
-          "msg": "allright allright alright"
-        },
-        {
-          "user": "cymatrix",
-          "msg": "https://open.spotify.com/album/27r2W63dhRNdVrwMY4HdMl"
-        },
         {
           "user": "cymatrix",
           "msg": "Hallowed OptIX"
@@ -14810,6 +14847,14 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "vroshi55 out here casually dropping 200 🔥 we noticed, and we appreciate it 💚"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 100 votes, @MakeItMetal!"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "makeitmetal pulled up with 100 votes 🗳️🔥 respect, genuinely 💚"
         }
       ],
       "customCommands": {
@@ -14886,10 +14931,10 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Hallowed Jams | H20SIX & RESONANCE",
       "lastStreamEndedAt": 1793493622725,
-      "_idAt": 1793527246656,
+      "_idAt": 1793548912989,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1793543879002,
+      "_gameAt": 1793548362745,
       "voteLog": [
         {
           "t": 1792428037620,
@@ -15035,6 +15080,11 @@
           "t": 1793543878544,
           "v": "vroshi55",
           "a": 200
+        },
+        {
+          "t": 1793548362230,
+          "v": "makeitmetal",
+          "a": 100
         }
       ]
     },
@@ -15295,7 +15345,7 @@
       },
       "nudgedAt": 1788389516650,
       "nudgedKey": "schedule",
-      "_idAt": 1793527250243,
+      "_idAt": 1793548912989,
       "_gameAt": 1793544879163,
       "isLive": false,
       "streamCategory": "",
@@ -15764,7 +15814,7 @@
       "lastStreamEndedAt": 1793488525219,
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule",
-      "_idAt": 1793527251436,
+      "_idAt": 1793548912990,
       "_gameAt": 1793544934415,
       "isLive": false,
       "streamCategory": "",
@@ -16604,7 +16654,7 @@
       "lastStreamEndedAt": 1792788673961,
       "nudgedAt": 1785532122643,
       "nudgedKey": "schedule",
-      "_idAt": 1793527252641,
+      "_idAt": 1793548912990,
       "_gameAt": 1793026700364,
       "isLive": false,
       "streamCategory": "",
@@ -17219,7 +17269,7 @@
         "sound": true,
         "confetti": true
       },
-      "_idAt": 1793527253841,
+      "_idAt": 1793548912990,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793467214739,
@@ -17799,7 +17849,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793527255058,
+      "_idAt": 1793548912990,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793381676628,
@@ -18420,12 +18470,12 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1f090e45-3a71-44b8-9333-05e12b2c0f2d.png",
-      "streamTitle": "¡HOY SE SUBE DE RANGO O SE MUERE EN EL INTENTO! ⚔️",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0,
-      "lastStreamInfo": "🔥 ¡RUMBO A GRAN MAESTRO! 🔥",
-      "lastStreamEndedAt": 1793475163506,
+      "lastStreamInfo": "¡HOY SE SUBE DE RANGO O SE MUERE EN EL INTENTO! ⚔️",
+      "lastStreamEndedAt": 1793548611485,
       "loyalty": {
         "elenatroya": {
           "name": "elenatroya",
@@ -18439,8 +18489,8 @@
         }
       },
       "_idAt": 1793528187490,
-      "streamCategory": "Mobile Legends: Bang bang",
-      "isLive": true,
+      "streamCategory": "",
+      "isLive": false,
       "_gameAt": 1793547553981
     },
     "30a3c675-be0d-4014-831f-6051350ffbf0": {
@@ -24945,8 +24995,8 @@
       "stats": {
         "totalVotes": 12980,
         "totalSubs": 68,
-        "totalChatMessages": 3099,
-        "totalStreamMinutes": 8086,
+        "totalChatMessages": 3100,
+        "totalStreamMinutes": 8106,
         "emotes": {
           "❤": 126,
           "🙌": 116,
@@ -25164,13 +25214,9 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793547921980
+        "lastChatAt": 1793548059183
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Huge thanks for the 250 vote, vroshi55! ❤️"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 1 vote, @Marowak33!"
@@ -25206,6 +25252,10 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @razmr_eth, who is live now, currently streaming Off The Grid to 1 viewer at https://blaze.stream/razmr_eth!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         }
       ],
       "customCommands": {},
@@ -25806,9 +25856,9 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 23725,
+        "totalVotes": 23735,
         "totalSubs": 40,
-        "totalChatMessages": 56926,
+        "totalChatMessages": 56929,
         "totalStreamMinutes": 26398,
         "emotes": {
           "❤": 182,
@@ -25816,7 +25866,7 @@
           "🤝": 4,
           "🔥": 84,
           "🔴": 140,
-          "🎉": 1342,
+          "🎉": 1344,
           "🪙": 1312,
           "⚡": 941,
           "👀": 140,
@@ -25824,7 +25874,7 @@
           "🤗": 97,
           "😊": 24,
           "🌻": 5,
-          "🗳": 702,
+          "🗳": 705,
           "☺": 68,
           "😎": 6,
           "😁": 8,
@@ -26273,21 +26323,9 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793533328222
+        "lastChatAt": 1793548989976
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "@sarinhaa11 tem (1150) blaze."
-        },
-        {
-          "user": "sarinhaa11",
-          "msg": "kkkkkkkkkkkkkkkkk"
-        },
-        {
-          "user": "botger",
-          "msg": "⭐️Tem 4.000 blaze na loja pra resgatar com seus pontos, vai ficar disponível por 1 semana se ninguém resgatar reseta na próxima semana, 30.000 pontos resgata 400 blaze"
-        },
         {
           "user": "sarinhaa11",
           "msg": "boa noite"
@@ -26315,6 +26353,18 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "OH vroshi55 VOTOU?! 200 de energia chegando quente!! 🔥💚 Nós te vemos e TE AMAMOS 🫶"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "Parabéns, @xanderc! Você subiu para o Nível 6! 🎉"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ ALERTA DE VOTO!! 🗳️ @XanderC acabou de dar 10 voto(s) (total: 10)! Obrigado!! 🗳️"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "Parabéns @xanderc! Você concluiu \"level 5 + 50 blaze prime\"! Você recebeu 200 pontos! 🎉"
         }
       ],
       "customCommands": {},
@@ -26477,7 +26527,7 @@
         }
       },
       "_idAt": 1793530849040,
-      "_gameAt": 1793533327723,
+      "_gameAt": 1793548974390,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -26960,6 +27010,11 @@
           "t": 1793543391306,
           "v": "vroshi55",
           "a": 200
+        },
+        {
+          "t": 1793548972039,
+          "v": "xanderc",
+          "a": 10
         }
       ]
     },
@@ -27926,14 +27981,14 @@
       "language": "en",
       "joinedAt": 1784887997966,
       "stats": {
-        "totalVotes": 43274,
-        "totalSubs": 67,
-        "totalChatMessages": 7848,
-        "totalStreamMinutes": 13265,
+        "totalVotes": 43284,
+        "totalSubs": 68,
+        "totalChatMessages": 7860,
+        "totalStreamMinutes": 13285,
         "emotes": {
           "❤": 132,
-          "🙌": 121,
-          "🗳": 1281,
+          "🙌": 122,
+          "🗳": 1284,
           "🔴": 102,
           "🎉": 195,
           "🏃": 1,
@@ -27946,7 +28001,7 @@
           "📴": 105,
           "👋": 123,
           "🚨": 384,
-          "🔥": 145,
+          "🔥": 147,
           "💚": 28,
           "👀": 65,
           "😄": 8,
@@ -28277,48 +28332,48 @@
           "46bad46f-29ce-48a3-b3bf-111156f18290": "STREAMINGPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793546068161
+        "lastChatAt": 1793549134321
       },
       "chatMemory": [
         {
-          "user": "botger",
-          "msg": "🚨🚨🚨 RAID ALERT!! 🚨🚨🚨 @guney is raiding with a party of 3! Welcome raiders!! 🎉"
+          "user": "octo",
+          "msg": "it happens sometimes lol"
         },
         {
-          "user": "guney",
-          "msg": "have a good stream"
+          "user": "octo",
+          "msg": "i feel like their team scales a lot harder yea"
         },
         {
-          "user": "guney",
-          "msg": "[emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:a80b8258-7a03-4aed-95f8-19ab819775c7] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234] [emote:6c2329f2-80f5-4c28-a59e-c1f75ef71234]"
+          "user": "octo",
+          "msg": "viper graves seven rat king"
         },
         {
-          "user": "guney",
-          "msg": "nice nice"
-        },
-        {
-          "user": "guney",
-          "msg": "dinner break"
+          "user": "octo",
+          "msg": "vs your victor really is the only great scaler"
         },
         {
           "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
+          "msg": "Thanks for the 10 votes, @XanderC!"
         },
         {
           "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
         },
         {
-          "user": "noxx",
-          "msg": "wat"
+          "user": "octo",
+          "msg": "haha he will find you and he will introduce you to a nearby wall"
         },
         {
           "user": "botger",
-          "msg": "🔴 noxx is now live! Welcome everyone! 🎉"
+          "msg": "🔥 RESUB HYPE!! 🔥 @octo has resubscribed (6 months total, 1 month streak)! Thank you for the continued support! 🙌"
         },
         {
           "user": "scurvybot",
-          "msg": "Stream is now live: Deadlock is for Sundays! Come hang out and watch."
+          "msg": "@octo subscribed! Thank you!"
+        },
+        {
+          "user": "slayer",
+          "msg": "gm man"
         }
       ],
       "customCommands": {},
@@ -28544,11 +28599,16 @@
           "name": "tommy_mag",
           "months": 1,
           "tier": 1
+        },
+        "octo": {
+          "name": "octo",
+          "months": 1,
+          "tier": 1
         }
       },
       "commentMode": "silent",
       "_idAt": 1793532046682,
-      "_gameAt": 1793546067895,
+      "_gameAt": 1793549114348,
       "isLive": true,
       "streamCategory": "Deadlock",
       "voteLog": [
@@ -28911,6 +28971,11 @@
           "t": 1793542693617,
           "v": "itsbigbrozo",
           "a": 50
+        },
+        {
+          "t": 1793548918273,
+          "v": "xanderc",
+          "a": 10
         }
       ]
     },
@@ -30671,8 +30736,8 @@
       "stats": {
         "totalVotes": 11775,
         "totalSubs": 33,
-        "totalChatMessages": 1603,
-        "totalStreamMinutes": 16858,
+        "totalChatMessages": 1604,
+        "totalStreamMinutes": 16878,
         "emotes": {
           "❤": 103,
           "🙌": 82,
@@ -30806,13 +30871,9 @@
           "🎃": "🎃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793546136818
+        "lastChatAt": 1793547949092
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Welcome to the family, obee! 🎉🌟"
-        },
         {
           "user": "botger",
           "msg": "❤️ NEW FOLLOWER!! ❤️ obee just followed the channel! Welcome!! 🙌"
@@ -30848,6 +30909,10 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "Good morning!! ☀️ welcome to the chaos 💚🔥"
+        },
+        {
+          "user": "razmr_eth",
+          "msg": "mmatalo a todos"
         }
       ],
       "customCommands": {},
@@ -30954,7 +31019,7 @@
       "_idAt": 1793530853851,
       "streamCategory": "Call Of Duty: Modern Warfare 4",
       "isLive": true,
-      "_gameAt": 1793546136933,
+      "_gameAt": 1793547949163,
       "voteLog": [
         {
           "t": 1792429891257,
@@ -33745,10 +33810,10 @@
       "language": "en",
       "joinedAt": 1786592864058,
       "stats": {
-        "totalVotes": 8169,
+        "totalVotes": 8219,
         "totalSubs": 37,
-        "totalChatMessages": 1861,
-        "totalStreamMinutes": 12800,
+        "totalChatMessages": 1864,
+        "totalStreamMinutes": 12820,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -33769,7 +33834,7 @@
           "🙏": 3,
           "👋": 8,
           "🦊": 1,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 49,
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 55,
           "bf90af59-ac95-4416-b7bc-859f438903d4": 4,
           "3a0bbdaa-5c9d-44bc-8291-5e4446aac8d5": 1,
           "cd2d0478-cb09-4023-9a6a-750599f9623a": 5,
@@ -33878,25 +33943,9 @@
           "37719561-c923-4260-b1a5-e3eda10c103d": "LGBLAZE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793547917472
+        "lastChatAt": 1793548520812
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Big love to lunaria for those 40 votes—keep the Blaze burning!"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Lezgooo, lunaria is straight FIRE! Drop a follow and light it up! 👉 https://blaze.stream/lunaria"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Thank you for the 50 votes, fartvader! Keep Blazeing!"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "OH vroshi55 VOTED?! 200 power coming in hot!! 🔥💚 We see you and we LOVE you 🫶"
-        },
         {
           "user": "cr33pling",
           "msg": "[emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041] [emote:c3726a5d-38e3-4b44-b06f-ad1cc637e041]"
@@ -33920,6 +33969,22 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "💚 razmr_eth is the real deal — drop a follow and tell 'em Blazeian sent you 🤖🔥 👉 https://blaze.stream/razmr_eth"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "OH makeitmetal VOTED?! 50 power coming in hot!! 🔥💚 We see you and we LOVE you 🫶"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "🔥 BIG SHOUTOUT to meyetechnicals!! Absolute vibes over there — go show some love 💚 👉 https://blaze.stream/meyetechnicals"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "💚 makeitmetal is the real deal — drop a follow and tell 'em Blazeian sent you 🤖🔥 👉 https://blaze.stream/makeitmetal"
         }
       ],
       "customCommands": {},
@@ -34050,7 +34115,7 @@
       "_idAt": 1793530855041,
       "streamCategory": "Counter Strike 2",
       "isLive": true,
-      "_gameAt": 1793547864408,
+      "_gameAt": 1793548498288,
       "voteLog": [
         {
           "t": 1792429891447,
@@ -34276,6 +34341,11 @@
           "t": 1793543878519,
           "v": "vroshi55",
           "a": 200
+        },
+        {
+          "t": 1793548362233,
+          "v": "makeitmetal",
+          "a": 50
         }
       ]
     },
@@ -35047,7 +35117,7 @@
         "totalVotes": 10321,
         "totalSubs": 32,
         "totalChatMessages": 1981,
-        "totalStreamMinutes": 9615,
+        "totalStreamMinutes": 9635,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -37098,7 +37168,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 100,
-        "totalStreamMinutes": 6918,
+        "totalStreamMinutes": 6919,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -37194,8 +37264,8 @@
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/53fb8a6e-2aec-4779-8b88-7fd1617bd40d.jpg",
       "streamTitle": "",
-      "lastStreamInfo": "Chillin' & Grinding: Fortnite Friday + Off The Grid 🎮 Come Hang Out!",
-      "lastStreamEndedAt": 1793415937068,
+      "lastStreamInfo": "High-Noon Headaches: Struggling in Evil West 🎮 Come Hang Out!",
+      "lastStreamEndedAt": 1793548494148,
       "gameOverride": "",
       "profile": "reddeadrasta’s stream is a high‑octane pirate‑raid hub where “ye’ll be aye” and “scurvy” greet every raid. The chat thrives on spontaneous “follow‑back” waves, “food” jokes, and “emote‑battles.” Mods keep chaos tight, while the host celebrates with “thank you” shoutouts and a quick “leave” command for misbehaving bots. The vibe stays salty, supportive, and ready for the next raid.",
       "_profileAtCount": 82,
@@ -37204,7 +37274,7 @@
       "_idAt": 1793532055037,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1793425157570
+      "_gameAt": 1793548428654
     },
     "6b969c07-915f-40b6-8c39-c93f0c71ea7e": {
       "username": "corneto",
@@ -39579,14 +39649,14 @@
       "language": "en",
       "joinedAt": 1792942587520,
       "stats": {
-        "totalVotes": 3109,
-        "totalSubs": 14,
-        "totalChatMessages": 200,
-        "totalStreamMinutes": 1036,
+        "totalVotes": 3119,
+        "totalSubs": 15,
+        "totalChatMessages": 208,
+        "totalStreamMinutes": 1056,
         "emotes": {
-          "🎁": 18,
-          "🙌": 16,
-          "🗳": 39,
+          "🎁": 20,
+          "🙌": 17,
+          "🗳": 42,
           "💚": 1,
           "🔥": 11,
           "💰": 2,
@@ -39609,10 +39679,10 @@
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 1,
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 1,
           "09da2b33-7988-4900-8e6a-5752860d6ba8": 1,
-          "5dd5c6f3-63d2-46cc-a570-8791f5e362fc": 1,
+          "5dd5c6f3-63d2-46cc-a570-8791f5e362fc": 11,
           "😶": 3,
           "🌫": 3,
-          "d2e848a3-3eec-455a-82f3-ed51969a111b": 5
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 8
         },
         "emoteNames": {
           "🎁": "🎁",
@@ -39646,48 +39716,48 @@
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793547695460
+        "lastChatAt": 1793549121434
       },
       "chatMemory": [
         {
-          "user": "blazeian_bot_ai",
-          "msg": "nekoschwan just gifted 1 sub to the community—what a generous legend move!"
-        },
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @nekoschwan just gifted a sub to @Grim1Angel! How generous!! 🙌"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Wow, nekoschwan just dropped a 1 sub! 🌟"
-        },
-        {
-          "user": "grim1angel",
-          "msg": "[emote:4266c9d0-f0cb-4896-9204-2942b751de75] [emote:09da2b33-7988-4900-8e6a-5752860d6ba8] [emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc]"
-        },
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Huge thanks for the 200 vote, vroshi55! 🎉🚀"
-        },
-        {
-          "user": "botger",
-          "msg": "🔴 nekoschwan is now live! Welcome everyone! 🎉"
-        },
-        {
-          "user": "meyetechnicals",
-          "msg": "😶‍🌫️😶‍🌫️😶‍🌫️"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "💚 right back at you!!"
-        },
-        {
           "user": "meyetechnicals",
           "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
+        },
+        {
+          "user": "razmr_eth",
+          "msg": "kill all them"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "[emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc] [emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc] [emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc] [emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc] [emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc] [emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc] [emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc] [emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc] [emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc] [emote:5dd5c6f3-63d2-46cc-a570-8791f5e362fc]"
+        },
+        {
+          "user": "agent00zani",
+          "msg": "gm gm"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @XanderC just gave 10 vote(s) (total: 10)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🎁 GIFTED SUB!! 🎁 @nekoschwan just gifted a sub to @XanderC! How generous!! 🙌"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "nekoschwan just dropped 1 sub to the community—what a legendary move, fam! 🚀"
+        },
+        {
+          "user": "xanderc",
+          "msg": "pew pew"
+        },
+        {
+          "user": "just_for_lucas",
+          "msg": "ATEEEE"
         }
       ],
       "customCommands": {},
@@ -39707,7 +39777,7 @@
       "followed": true,
       "_idAt": 1793536849039,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/d30a5641-e3d3-4cba-a6b2-1a233aab45a0.gif",
-      "_gameAt": 1793547676253,
+      "_gameAt": 1793549121531,
       "isLive": true,
       "streamCategory": "Enshrouded",
       "streamTitle": "✨ Friday Morning ✨ VOTE, TIP & SUB to support! ✨",
@@ -39866,6 +39936,11 @@
           "t": 1793543878452,
           "v": "vroshi55",
           "a": 200
+        },
+        {
+          "t": 1793548933287,
+          "v": "xanderc",
+          "a": 10
         }
       ],
       "loyalty": {
