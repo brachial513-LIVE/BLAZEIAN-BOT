@@ -33969,7 +33969,7 @@
         "totalVotes": 12755,
         "totalSubs": 38,
         "totalChatMessages": 5493,
-        "totalStreamMinutes": 19188,
+        "totalStreamMinutes": 19193,
         "emotes": {
           "👋": 139,
           "⚠": 2,
@@ -35163,12 +35163,12 @@
       "stats": {
         "totalVotes": 7970,
         "totalSubs": 20,
-        "totalChatMessages": 473,
-        "totalStreamMinutes": 1004,
+        "totalChatMessages": 478,
+        "totalStreamMinutes": 1009,
         "emotes": {
-          "🥰": 59,
-          "❤": 34,
-          "🙏": 40,
+          "🥰": 61,
+          "❤": 35,
+          "🙏": 41,
           "🦡": 3,
           "😍": 10,
           "😊": 5,
@@ -35302,41 +35302,13 @@
           "96f8e29d-0298-438a-b5e4-eda9ac265779": "61"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793515173098,
+        "lastChatAt": 1793515464603,
         "lastSendFailAt": 1790973732516,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790974734782,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "mediart",
-          "msg": "Hi"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "@mediart welcome welcome!! 💚🔥"
-        },
-        {
-          "user": "mediart",
-          "msg": "[emote:21cf1154-a649-4e6d-9b8f-5276dca9a5b9] [emote:ce245b7b-6434-4dc7-804f-3a0e556ff4d5] [emote:c0845c5a-9bfc-4ff9-a1f0-cee8beb392f3]"
-        },
-        {
-          "user": "mediart",
-          "msg": "These black-and-white layers are all made with code! I'll put them together and add colors during the stream. Hope you enjoy! 💚🎨"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Wow, love the code art vibes—can’t wait to see those colors pop! 🎨💚"
-        },
-        {
-          "user": "mediart",
-          "msg": "[emote:dcdae6b5-e3cd-4a41-abe7-5ca65f2eaab9]"
-        },
-        {
-          "user": "mediart",
-          "msg": "Good night"
-        },
         {
           "user": "mediart",
           "msg": "Good morning"
@@ -35348,6 +35320,34 @@
         {
           "user": "mediart",
           "msg": "The black-and-white layers you're seeing were created with code. During the livestream, I'll put them all together and bring them to life with colors! I hope you enjoy watching the creative process! ❤️🎨"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Good morning, Medi!!"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "GM!! ☀️💚 hope your day absolutely slaps"
+        },
+        {
+          "user": "briggsy",
+          "msg": "haha, 'welcome to the chaos'"
+        },
+        {
+          "user": "mediart",
+          "msg": "Gm buddy, happy to see you here🥰"
+        },
+        {
+          "user": "briggsy",
+          "msg": "Yes, thank you for letting me know"
+        },
+        {
+          "user": "mediart",
+          "msg": "🥰🙏❤️"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Aww, thanks for the love! ❤️🌟"
         }
       ],
       "customCommands": {},
@@ -35431,7 +35431,7 @@
         }
       },
       "_idAt": 1793509253829,
-      "_gameAt": 1793515093860,
+      "_gameAt": 1793515391880,
       "isLive": true,
       "streamCategory": "Art",
       "voteLog": [
@@ -40939,8 +40939,8 @@
     }
   },
   "auth": {
-    "accessToken": "fb76a69fe72ccaeea407dbfafcbab372",
-    "refreshToken": "7e5c14dd66b879266b0552f4eaea51e7",
+    "accessToken": "ddb98c9d812fe52799b49645b4a3e2ae",
+    "refreshToken": "0fdc2edb8da8908be20ef68100658186",
     "sessionToken": "d3ecf8f24b41d7df3010d34cc1f6b244",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
