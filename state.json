@@ -5414,7 +5414,7 @@
         "totalVotes": 34045,
         "totalSubs": 123,
         "totalChatMessages": 9805,
-        "totalStreamMinutes": 30592,
+        "totalStreamMinutes": 30597,
         "emotes": {
           "❤": 261,
           "🙌": 225,
@@ -8059,7 +8059,7 @@
         "totalVotes": 47251,
         "totalSubs": 79,
         "totalChatMessages": 5113,
-        "totalStreamMinutes": 19827,
+        "totalStreamMinutes": 19832,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -13279,7 +13279,7 @@
         "totalVotes": 2865,
         "totalSubs": 11,
         "totalChatMessages": 690,
-        "totalStreamMinutes": 3469,
+        "totalStreamMinutes": 3474,
         "emotes": {
           "🎶": 1,
           "😀": 2,
@@ -24906,7 +24906,7 @@
         "totalVotes": 12980,
         "totalSubs": 68,
         "totalChatMessages": 3095,
-        "totalStreamMinutes": 8036,
+        "totalStreamMinutes": 8041,
         "emotes": {
           "❤": 126,
           "🙌": 116,
@@ -27884,7 +27884,7 @@
         "totalVotes": 43274,
         "totalSubs": 67,
         "totalChatMessages": 7843,
-        "totalStreamMinutes": 13216,
+        "totalStreamMinutes": 13221,
         "emotes": {
           "❤": 132,
           "🙌": 121,
@@ -30624,10 +30624,10 @@
       "language": "en",
       "joinedAt": 1785705447548,
       "stats": {
-        "totalVotes": 11633,
+        "totalVotes": 11775,
         "totalSubs": 33,
-        "totalChatMessages": 1599,
-        "totalStreamMinutes": 16808,
+        "totalChatMessages": 1602,
+        "totalStreamMinutes": 16813,
         "emotes": {
           "❤": 103,
           "🙌": 82,
@@ -30636,7 +30636,7 @@
           "🤝": 1,
           "🔴": 105,
           "🎉": 119,
-          "🗳": 273,
+          "🗳": 276,
           "📴": 107,
           "👋": 109,
           "☺": 3,
@@ -30761,25 +30761,9 @@
           "🎃": "🎃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793544506141
+        "lastChatAt": 1793545002436
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "day"
-        },
-        {
-          "user": "agent00zani",
-          "msg": "sorry octo"
-        },
-        {
-          "user": "marioscy5",
-          "msg": "/obee"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -30803,6 +30787,22 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: Another day in MW4 DMZ! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 142 votes, @zsoltech!"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Huge thanks, zsoltech, for that awesome 142 vote for marioscy5! 💙"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @zsoltech just gave 142 vote(s) (total: 142)! Thank you!! 🗳️"
+        },
+        {
+          "user": "zsoltech",
+          "msg": "thank you for coming to wilder game night"
         }
       ],
       "customCommands": {},
@@ -30909,7 +30909,7 @@
       "_idAt": 1793530853851,
       "streamCategory": "Call Of Duty: Modern Warfare 4",
       "isLive": true,
-      "_gameAt": 1793544505875,
+      "_gameAt": 1793544999874,
       "voteLog": [
         {
           "t": 1792429891257,
@@ -31045,6 +31045,11 @@
           "t": 1793474222123,
           "v": "cg777",
           "a": 100
+        },
+        {
+          "t": 1793544999373,
+          "v": "zsoltech",
+          "a": 142
         }
       ]
     },
@@ -33698,7 +33703,7 @@
         "totalVotes": 8169,
         "totalSubs": 37,
         "totalChatMessages": 1858,
-        "totalStreamMinutes": 12750,
+        "totalStreamMinutes": 12755,
         "emotes": {
           "🧡": 1,
           "💚": 3,
@@ -34339,7 +34344,7 @@
         "totalVotes": 12756,
         "totalSubs": 38,
         "totalChatMessages": 5727,
-        "totalStreamMinutes": 19557,
+        "totalStreamMinutes": 19562,
         "emotes": {
           "👋": 140,
           "⚠": 2,
@@ -34997,7 +35002,7 @@
         "totalVotes": 10321,
         "totalSubs": 32,
         "totalChatMessages": 1974,
-        "totalStreamMinutes": 9565,
+        "totalStreamMinutes": 9570,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
           "cacd7860-9f05-4722-8e0e-83d969f4742c": 20,
@@ -41366,8 +41371,8 @@
     }
   },
   "auth": {
-    "accessToken": "b3a6c973ea841ae56956408387fc9d97",
-    "refreshToken": "ba6104f4655fdb91d943a1e2280b3981",
+    "accessToken": "6cf4701b89139037dcb9f835749e134d",
+    "refreshToken": "8442807fcbb5188acb85e69c766c8e02",
     "sessionToken": "d3ecf8f24b41d7df3010d34cc1f6b244",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
