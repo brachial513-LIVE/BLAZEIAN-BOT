@@ -5403,8 +5403,8 @@
       "stats": {
         "totalVotes": 33729,
         "totalSubs": 123,
-        "totalChatMessages": 9791,
-        "totalStreamMinutes": 30502,
+        "totalChatMessages": 9792,
+        "totalStreamMinutes": 30507,
         "emotes": {
           "❤": 261,
           "🙌": 225,
@@ -5519,7 +5519,7 @@
           "☀": 2,
           "🫣": 1,
           "💕": 2,
-          "555a557b-672c-4db0-80d4-85564e0bbac4": 9,
+          "555a557b-672c-4db0-80d4-85564e0bbac4": 12,
           "😇": 1,
           "b416995d-3eee-4c99-9927-86fa112b0b18": 1,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 4,
@@ -5779,14 +5779,10 @@
           "👌": "👌",
           "🍩": "🍩"
         },
-        "lastChatAt": 1793538951606,
+        "lastChatAt": 1793539700608,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "triz_draw, you’re officially part of the SLAP squad—welcome aboard, and let’s keep the raid vibes rolling! 🚀✨"
-        },
         {
           "user": "botger",
           "msg": "🔴 agent00zani is now live! Welcome everyone! 🎉"
@@ -5822,6 +5818,10 @@
         {
           "user": "agent00zani",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "jaggerjack",
+          "msg": "[emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] [emote:555a557b-672c-4db0-80d4-85564e0bbac4] Blaze on brother!"
         }
       ],
       "customCommands": {
@@ -6086,7 +6086,7 @@
         }
       },
       "_idAt": 1793524846659,
-      "_gameAt": 1793538909661,
+      "_gameAt": 1793539700701,
       "isLive": true,
       "streamCategory": "Fortnite",
       "voteLog": [
@@ -26781,7 +26781,7 @@
         "totalVotes": 14904,
         "totalSubs": 43,
         "totalChatMessages": 2095,
-        "totalStreamMinutes": 14340,
+        "totalStreamMinutes": 14345,
         "emotes": {
           "❤": 103,
           "🙌": 79,
@@ -27729,7 +27729,7 @@
         "totalVotes": 43224,
         "totalSubs": 67,
         "totalChatMessages": 7812,
-        "totalStreamMinutes": 13125,
+        "totalStreamMinutes": 13131,
         "emotes": {
           "❤": 132,
           "🙌": 121,
@@ -34143,8 +34143,8 @@
       "stats": {
         "totalVotes": 12755,
         "totalSubs": 38,
-        "totalChatMessages": 5699,
-        "totalStreamMinutes": 19466,
+        "totalChatMessages": 5703,
+        "totalStreamMinutes": 19472,
         "emotes": {
           "👋": 140,
           "⚠": 2,
@@ -34354,7 +34354,7 @@
           "🎃": "🎃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793539507704
+        "lastChatAt": 1793539819097
       },
       "chatMemory": [
         {
@@ -34522,7 +34522,7 @@
         }
       },
       "_idAt": 1793534446692,
-      "_gameAt": 1793539347278,
+      "_gameAt": 1793539819187,
       "isLive": true,
       "streamCategory": "Just Chatting",
       "voteLog": [
@@ -39876,8 +39876,8 @@
     },
     "tigresa": {
       "note": "Playful gamer who loves Mambo Mondays, shares quick light‑hearted humor, friendly encouragement, and chats about stream prep and gaming.",
-      "at": 1793423449427,
-      "n": 24
+      "at": 1793539609597,
+      "n": 25
     },
     "desirablebottom": {
       "note": "Enjoys Valorant, Outlast trials, Pokémon chats, meal prep recipes, and playful, lighthearted humor with emojis.",
@@ -41132,8 +41132,8 @@
     }
   },
   "auth": {
-    "accessToken": "3c5e500cb3fb8d8f8f68b1dca2fdaf8b",
-    "refreshToken": "f43c767df776089de01957d4f65c892b",
+    "accessToken": "00afb63d34b09ecc2633191305428752",
+    "refreshToken": "6b573e438adb4956eb1cb32fe7cd5c1d",
     "sessionToken": "d3ecf8f24b41d7df3010d34cc1f6b244",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
