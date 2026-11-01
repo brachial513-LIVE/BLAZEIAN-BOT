@@ -26708,13 +26708,13 @@
       "stats": {
         "totalVotes": 14904,
         "totalSubs": 43,
-        "totalChatMessages": 2083,
-        "totalStreamMinutes": 14179,
+        "totalChatMessages": 2087,
+        "totalStreamMinutes": 14180,
         "emotes": {
           "❤": 103,
           "🙌": 79,
-          "📴": 112,
-          "👋": 123,
+          "📴": 113,
+          "👋": 124,
           "🔴": 109,
           "🎉": 146,
           "🔥": 119,
@@ -26853,25 +26853,9 @@
           "🔪": "🔪"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793528580846
+        "lastChatAt": 1793528888575
       },
       "chatMemory": [
-        {
-          "user": "guney",
-          "msg": "done for today brooo"
-        },
-        {
-          "user": "guney",
-          "msg": "time to go bed"
-        },
-        {
-          "user": "guney",
-          "msg": "good night guys"
-        },
-        {
-          "user": "razmr_eth",
-          "msg": "gngn"
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -26895,6 +26879,22 @@
         {
           "user": "botger",
           "msg": "🔴 guney is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "razmr_eth",
+          "msg": "razmorning"
+        },
+        {
+          "user": "razmr_eth",
+          "msg": "i need traing a little bit for today's toournament"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "razmr_eth",
+          "msg": "FAMNS"
         }
       ],
       "customCommands": {},
@@ -26906,7 +26906,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/0ed76298-e9ef-4bc3-8291-482815414931.gif",
-      "streamTitle": "OTG",
+      "streamTitle": "",
       "gameOverride": "",
       "followed": true,
       "profile": "guney’s channel is a high‑energy Web3 playground where “Kankaaaa” and “Good morningggg” greet the stream, fans shout “Yooo”, celebrate milestones with “Love fest!” and “bring”, cheer wins with “fuckn minigun”, and love 🔥, 🎉, 💃💃💃 emojis. Raid and vote alerts pop up, and generous subs are praised with “How generous!! 🙌”. The community thrives on hype, emojis, and constant celebration.",
@@ -26976,11 +26976,11 @@
         }
       },
       "lastStreamInfo": "OTG",
-      "lastStreamEndedAt": 1793527281354,
+      "lastStreamEndedAt": 1793528842788,
       "_idAt": 1793506853835,
-      "streamCategory": "Off The Grid",
-      "isLive": true,
-      "_gameAt": 1793528580706,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1793528772213,
       "voteLog": [
         {
           "t": 1792429891425,
@@ -28645,7 +28645,7 @@
         "totalVotes": 3267,
         "totalSubs": 11,
         "totalChatMessages": 272,
-        "totalStreamMinutes": 8471,
+        "totalStreamMinutes": 8476,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -34035,7 +34035,7 @@
         "totalVotes": 12755,
         "totalSubs": 38,
         "totalChatMessages": 5572,
-        "totalStreamMinutes": 19287,
+        "totalStreamMinutes": 19292,
         "emotes": {
           "👋": 140,
           "⚠": 2,
@@ -41018,8 +41018,8 @@
     }
   },
   "auth": {
-    "accessToken": "6c6c4ee7bc510dfd0f569042f3ccb7b6",
-    "refreshToken": "40104d60cad919541944fc2021c38ba8",
+    "accessToken": "db3ebf7f708e6814fa5f59d03d195d9b",
+    "refreshToken": "50737c3ba2044e885c3b0fa5c43748b4",
     "sessionToken": "d3ecf8f24b41d7df3010d34cc1f6b244",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
