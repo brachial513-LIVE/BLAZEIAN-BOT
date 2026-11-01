@@ -6065,7 +6065,7 @@
           "dur": 27
         }
       },
-      "_idAt": 1793479246684,
+      "_idAt": 1793502046787,
       "_gameAt": 1793486941891,
       "isLive": false,
       "streamCategory": "",
@@ -7241,7 +7241,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1793469611506,
-      "_idAt": 1793479247827,
+      "_idAt": 1793502047836,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793492160753,
@@ -7981,7 +7981,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1793479249029,
+      "_idAt": 1793502049029,
       "_gameAt": 1792904268887,
       "isLive": false,
       "streamCategory": "",
@@ -8472,7 +8472,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "STANDING BY FOR FIRST DISCHARGE ORDER AND JUST CHATTING",
       "lastStreamEndedAt": 1793461392311,
-      "_idAt": 1793479250231,
+      "_idAt": 1793502050234,
       "_gameAt": 1793461607355,
       "isLive": false,
       "streamCategory": "",
@@ -8895,7 +8895,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793479251429
+      "_idAt": 1793502051432
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -9282,7 +9282,7 @@
       "lastStreamEndedAt": 1793459242351,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1793479252625,
+      "_idAt": 1793502052632,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793475017309,
@@ -9454,7 +9454,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1793479253824
+      "_idAt": 1793502053832
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -10328,7 +10328,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Beach day with Mellow",
       "lastStreamEndedAt": 1793317522420,
-      "_idAt": 1793479255027,
+      "_idAt": 1793502055029,
       "_gameAt": 1793495762293,
       "isLive": false,
       "streamCategory": "",
@@ -10973,7 +10973,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/8e722545-71bf-4322-9039-50b822ebe64c.jpeg",
       "lastStreamInfo": "OFF THE GRID! Summer League — Off The Grid",
       "lastStreamEndedAt": 1786154686473,
-      "_idAt": 1793480446687
+      "_idAt": 1793503246656
     },
     "ff594749-c9c6-4c0b-9306-ec8fd4252f7e": {
       "username": "weri",
@@ -11041,7 +11041,7 @@
       "locked": false,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7e18d17e-6183-4f08-aad4-77cff2175674.gif",
-      "_idAt": 1793480447824,
+      "_idAt": 1793503247834,
       "_gameAt": 1792441764890,
       "isLive": false,
       "streamCategory": "",
@@ -11052,18 +11052,18 @@
       "language": "en",
       "stats": {
         "totalVotes": 54125,
-        "totalSubs": 101,
-        "totalChatMessages": 10841,
+        "totalSubs": 102,
+        "totalChatMessages": 10843,
         "totalStreamMinutes": 18306,
         "emotes": {
           "❤": 210,
-          "🙌": 246,
+          "🙌": 247,
           "🗳": 1074,
           "🔴": 107,
           "🎉": 181,
           "📴": 106,
           "👋": 120,
-          "🔥": 295,
+          "🔥": 297,
           "💪": 6,
           "🤖": 1,
           "💚": 8,
@@ -11481,22 +11481,10 @@
           "🤪": "🤪",
           "🍄": "🍄"
         },
-        "lastChatAt": 1793501978854,
+        "lastChatAt": 1793502271843,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "libralives",
-          "msg": "I'm the best. They're pretty good."
-        },
-        {
-          "user": "libralives",
-          "msg": "they nuked him on twitch for 24h"
-        },
-        {
-          "user": "libralives",
-          "msg": "poor guy needs a pat on the head"
-        },
         {
           "user": "libralives",
           "msg": "probably copyright during karaoke"
@@ -11524,6 +11512,18 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔥 NEW SUBSCRIBER!! 🔥 Welcome @LoboBlanco to the channel! Thank you so much for subscribing! 🙌"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@LoboBlanco subscribed! Thank you!"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Shoutout to loboblanco for hitting that subscribe—let’s do a hard reset wave for you, Blazeee! 🎉✨ hard reset."
         }
       ],
       "customCommands": {},
@@ -11729,13 +11729,18 @@
           "name": "xxtowerdogxx",
           "months": 1,
           "tier": 1
+        },
+        "loboblanco": {
+          "name": "loboblanco",
+          "months": 1,
+          "tier": 1
         }
       },
       "nudgedAt": 1785206538951,
       "nudgedKey": "schedule",
       "lastStreamInfo": "👻Halloween's here!👻❤️keeping promises, and playing for a bit❤️",
       "lastStreamEndedAt": 1793501973713,
-      "_idAt": 1793480449024,
+      "_idAt": 1793503249061,
       "mascotMsgs": [
         "Don't forget to Subscribe!",
         "Bald!",
@@ -11744,7 +11749,7 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1793501828401,
+      "_gameAt": 1793502271930,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -19995,8 +20000,8 @@
       "stats": {
         "totalVotes": 43684,
         "totalSubs": 199,
-        "totalChatMessages": 4612,
-        "totalStreamMinutes": 23438,
+        "totalChatMessages": 4623,
+        "totalStreamMinutes": 23458,
         "emotes": {
           "❤": 160,
           "🙌": 280,
@@ -20232,48 +20237,48 @@
           "🟢": "🟢"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793498467354
+        "lastChatAt": 1793502809624
       },
       "chatMemory": [
         {
-          "user": "faithy_",
-          "msg": "helloooooo sheeeenaaa"
+          "user": "korosuplays",
+          "msg": "naubusan ako"
         },
         {
-          "user": "faithy_",
-          "msg": "how are you?"
+          "user": "korosuplays",
+          "msg": "may mga gold ore ka ga diyan"
         },
         {
-          "user": "briggsy",
-          "msg": "Hey Faithy, have a great stream."
+          "user": "korosuplays",
+          "msg": "bakit nasa iron age ka pa ga HAHHHA"
         },
         {
-          "user": "faithy_",
-          "msg": "thanks briggsy have a good day brother! i'm almost end my stream in a minute late night here"
+          "user": "korosuplays",
+          "msg": "penge nga ako gold ore"
         },
         {
-          "user": "faithy_",
-          "msg": "ggs everyone!"
+          "user": "korosuplays",
+          "msg": "HAHHAHAH"
         },
         {
-          "user": "faithy_",
-          "msg": "going to sleep now"
+          "user": "korosuplays",
+          "msg": "deliver"
         },
         {
-          "user": "faithy_",
-          "msg": "thanks for watching much love"
+          "user": "korosuplays",
+          "msg": "tsaka cacraft"
         },
         {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+          "user": "korosuplays",
+          "msg": "hirap ng wala nft"
         },
         {
-          "user": "razmr_eth",
-          "msg": "happy halloweed!"
+          "user": "korosuplays",
+          "msg": "ambilis maubos energy HAHA"
         },
         {
-          "user": "botger",
-          "msg": "🔴 faithy_ is now live! Welcome everyone! 🎉"
+          "user": "korosuplays",
+          "msg": "HAHA"
         }
       ],
       "customCommands": {},
@@ -20513,7 +20518,7 @@
       "lastStreamInfo": "Play & Browse Crypto Games",
       "lastStreamEndedAt": 1793460752630,
       "_idAt": 1793482853826,
-      "_gameAt": 1793498467289,
+      "_gameAt": 1793502809715,
       "isLive": true,
       "streamCategory": "Crypto",
       "voteLog": [
@@ -25358,7 +25363,7 @@
         "totalVotes": 3899,
         "totalSubs": 96,
         "totalChatMessages": 68,
-        "totalStreamMinutes": 2971,
+        "totalStreamMinutes": 2991,
         "emotes": {
           "🔥": 5,
           "😎": 1,
@@ -25492,19 +25497,19 @@
       "stats": {
         "totalVotes": 23524,
         "totalSubs": 39,
-        "totalChatMessages": 56720,
-        "totalStreamMinutes": 26316,
+        "totalChatMessages": 56744,
+        "totalStreamMinutes": 26336,
         "emotes": {
           "❤": 181,
           "🙌": 169,
           "🤝": 4,
           "🔥": 82,
           "🔴": 140,
-          "🎉": 1321,
+          "🎉": 1325,
           "🪙": 1312,
           "⚡": 941,
-          "👀": 138,
-          "🍿": 31,
+          "👀": 139,
+          "🍿": 32,
           "🤗": 96,
           "😊": 24,
           "🌻": 5,
@@ -25522,7 +25527,7 @@
           "😘": 10,
           "😆": 7,
           "🤭": 6,
-          "💰": 319,
+          "💰": 320,
           "☄": 1,
           "😶": 19,
           "🌫": 19,
@@ -25616,7 +25621,7 @@
           "809bfa51-da4f-4570-9c70-67a802c6da7b": 17,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 25,
           "37719561-c923-4260-b1a5-e3eda10c103d": 4,
-          "2f19a4d1-777a-4ed2-946e-8fe2925650f7": 62,
+          "2f19a4d1-777a-4ed2-946e-8fe2925650f7": 63,
           "f6a00ee4-bc40-4d8f-8879-c122ad069225": 5,
           "a0c57d07-667e-42c5-8a86-84139bec522d": 17,
           "bd0536b9-5731-45a0-a8af-3ec7ac696375": 1,
@@ -25677,7 +25682,7 @@
           "🥺": 2,
           "🥈": 170,
           "🥉": 170,
-          "⭐": 560,
+          "⭐": 561,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 15,
           "✊": 2,
           "✋": 2,
@@ -25957,48 +25962,48 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793502043448
+        "lastChatAt": 1793503188172
       },
       "chatMemory": [
         {
-          "user": "lipeman",
-          "msg": "saltou o bebê metroid"
-        },
-        {
-          "user": "lipeman",
-          "msg": "top"
-        },
-        {
-          "user": "sarinhaa11",
-          "msg": "Hehehhehe"
-        },
-        {
-          "user": "sarinhaa11",
-          "msg": "Sim"
-        },
-        {
-          "user": "lovemikami",
-          "msg": "tem sonho da sara 2?"
-        },
-        {
-          "user": "sarinhaa11",
-          "msg": "Sim, mas esse é longo"
+          "user": "garotosemrumo",
+          "msg": "a live ta no topo da pagina inicial da blaze, não sei se é só pra mim"
         },
         {
           "user": "miguel_779",
-          "msg": "vai ser retroarch"
+          "msg": "Pra mim tbm"
         },
         {
-          "user": "sarinhaa11",
-          "msg": "Kkkk"
+          "user": "crispipoquinha",
+          "msg": "[emote:2f19a4d1-777a-4ed2-946e-8fe2925650f7]"
         },
         {
           "user": "miguel_779",
-          "msg": "perai q minha tela ficou estranha"
+          "msg": "Coloquei esse jogo da Sarah na lista de desejos da steam"
         },
         {
-          "user": "lovemikami",
-          "msg": "Hummm"
+          "user": "sarinhaa11",
+          "msg": "hehehehe"
+        },
+        {
+          "user": "miguel_779",
+          "msg": "A música dele me lembra de um jogo chamado oneshot"
+        },
+        {
+          "user": "miguel_779",
+          "msg": "Vou abaixar o som do jogo q n to conseguindo ouvir vcs direito"
+        },
+        {
+          "user": "botger",
+          "msg": "⭐️Tem 4.000 blaze na loja pra resgatar com seus pontos, vai ficar disponível por 1 semana se ninguém resgatar reseta na próxima semana, 30.000 pontos resgata 400 blaze"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "Parabéns, @botger! Você subiu para o Nível 15! 🎉"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "Parabéns @botger! Você concluiu \"level 15 + 50 blaze prime\"! Você recebeu 500 pontos! 🎉"
         }
       ],
       "customCommands": {},
@@ -26156,7 +26161,7 @@
         }
       },
       "_idAt": 1793485249023,
-      "_gameAt": 1793501901804,
+      "_gameAt": 1793503183157,
       "isLive": true,
       "streamCategory": "Retro",
       "voteLog": [
@@ -28559,9 +28564,9 @@
       "joinedAt": 1784914016208,
       "stats": {
         "totalVotes": 3267,
-        "totalSubs": 10,
-        "totalChatMessages": 258,
-        "totalStreamMinutes": 8199,
+        "totalSubs": 11,
+        "totalChatMessages": 259,
+        "totalStreamMinutes": 8219,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -28609,17 +28614,9 @@
           "👀": "👀"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793501382626
+        "lastChatAt": 1793502225638
       },
       "chatMemory": [
-        {
-          "user": "razmr_eth",
-          "msg": "or not new xD"
-        },
-        {
-          "user": "razmr_eth",
-          "msg": "todo bien ya cerrando"
-        },
         {
           "user": "razmr_eth",
           "msg": "este es de mis juegos favoritos de niño"
@@ -28651,6 +28648,14 @@
         {
           "user": "razmr_eth",
           "msg": "puede traducir lo que otros dicen?"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "WAIT nadietv SUBBED?! 💚💚 I love you, the streamer loves you, CHAT loves you. Best decision of your life 😭🔥"
+        },
+        {
+          "user": "loboblanco",
+          "msg": "Muchas gracias hermanoooooo"
         }
       ],
       "customCommands": {
@@ -28709,12 +28714,17 @@
           "name": "ylien_",
           "months": 1,
           "tier": 1
+        },
+        "nadietv": {
+          "name": "nadietv",
+          "months": 1,
+          "tier": 1
         }
       },
       "_idAt": 1793485250224,
       "streamCategory": "Crash Bandicoot: N'sane Trilogy",
       "isLive": true,
-      "_gameAt": 1793501327308
+      "_gameAt": 1793502225710
     },
     "cb2ce9ff-c2d0-425e-9238-54b535f07d02": {
       "username": "homiedrew",
@@ -30452,7 +30462,7 @@
       "lastStreamEndedAt": 1793489674456,
       "gameOverride": "",
       "profile": "marioscy5 streams chill vibes, OTG pro skills, and “Like I finally found your stream” moments. The chat roars “You got this” in Counter‑Strike, erupts with “GIFTED SUB!!” when subs drop, and goes wild when “GM gm” starts the stream. Expect “❤️ NEW FOLLOWER!! ❤️” alerts, vote shout‑outs, celebratory raid cheers, and endless “GGs” after wins.",
-      "_profileAtCount": 1542,
+      "_profileAtCount": 1597,
       "nudgedAt": 1786285629549,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -33935,7 +33945,7 @@
         "totalVotes": 12754,
         "totalSubs": 38,
         "totalChatMessages": 5491,
-        "totalStreamMinutes": 18968,
+        "totalStreamMinutes": 18988,
         "emotes": {
           "👋": 139,
           "⚠": 2,
