@@ -5870,7 +5870,7 @@
         "totalVotes": 35373,
         "totalSubs": 123,
         "totalChatMessages": 10043,
-        "totalStreamMinutes": 31097,
+        "totalStreamMinutes": 31117,
         "emotes": {
           "❤": 262,
           "🙌": 225,
@@ -16882,10 +16882,10 @@
       "username": "tai_",
       "language": "en",
       "stats": {
-        "totalVotes": 21097,
+        "totalVotes": 21122,
         "totalSubs": 55,
-        "totalChatMessages": 992,
-        "totalStreamMinutes": 8531,
+        "totalChatMessages": 997,
+        "totalStreamMinutes": 8551,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -16910,7 +16910,7 @@
           "😍": 1,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 3,
           "6c2329f2-80f5-4c28-a59e-c1f75ef71234": 1,
-          "a859cc12-453a-4bd8-b650-38710d9486de": 41,
+          "a859cc12-453a-4bd8-b650-38710d9486de": 42,
           "a80b8258-7a03-4aed-95f8-19ab819775c7": 4,
           "555a557b-672c-4db0-80d4-85564e0bbac4": 1,
           "😭": 1,
@@ -16935,7 +16935,8 @@
           "🤛": 1,
           "🍩": 1,
           "ec3fc6aa-c526-42e1-9fdb-c765752dad7e": 1,
-          "21f398af-51dd-49cb-a896-76bf8af659ea": 1
+          "21f398af-51dd-49cb-a896-76bf8af659ea": 1,
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": 2
         },
         "emoteNames": {
           "💚": "💚",
@@ -16986,35 +16987,16 @@
           "🤛": "🤛",
           "🍩": "🍩",
           "ec3fc6aa-c526-42e1-9fdb-c765752dad7e": "SILLYPYRO",
-          "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
+          "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG",
+          "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
-        "lastChatAt": 1793622163922,
+        "lastChatAt": 1793624298839,
         "sendFailStreak": 156,
         "lastSendFailAt": 1793621382787,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1793621382600
       },
       "chatMemory": [
-        {
-          "user": "agent00zani",
-          "msg": "[emote:dab820c3-c946-4d12-aef8-d07703f0c052]"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @razmr_eth!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the follow, @razmr_eth!"
-        },
-        {
-          "user": "razmr_eth",
-          "msg": "have nice stream LFB!"
-        },
-        {
-          "user": "tai_",
-          "msg": "thankssss"
-        },
         {
           "user": "tai_",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -17034,6 +17016,26 @@
         {
           "user": "tai_",
           "msg": "eh nozes"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 25 votes, @meyetechnicals!"
+        },
+        {
+          "user": "tai_",
+          "msg": "thanksss for the votesss"
+        },
+        {
+          "user": "tai_",
+          "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de]"
+        },
+        {
+          "user": "meyetechnicals",
+          "msg": "[emote:d2e848a3-3eec-455a-82f3-ed51969a111b] [emote:d2e848a3-3eec-455a-82f3-ed51969a111b]"
         }
       ],
       "customCommands": {},
@@ -17140,7 +17142,7 @@
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule",
       "_idAt": 1793617251583,
-      "_gameAt": 1793622146210,
+      "_gameAt": 1793624270770,
       "isLive": true,
       "streamCategory": "Aion 2",
       "voteLog": [
@@ -17393,6 +17395,11 @@
           "t": 1793622145843,
           "v": "destinoprospero",
           "a": 3
+        },
+        {
+          "t": 1793624270465,
+          "v": "meyetechnicals",
+          "a": 25
         }
       ]
     },
@@ -19954,7 +19961,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 103,
-        "totalStreamMinutes": 15144,
+        "totalStreamMinutes": 15145,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -20047,7 +20054,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/1f090e45-3a71-44b8-9333-05e12b2c0f2d.png",
-      "streamTitle": "",
+      "streamTitle": "⚔️ HOY NO SE REGALA NI UNA ESTRELLA",
       "gameOverride": "",
       "profile": "",
       "_profileAtCount": 0,
@@ -20066,9 +20073,9 @@
         }
       },
       "_idAt": 1793618447992,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793565276176
+      "streamCategory": "Mobile Legends: Bang bang",
+      "isLive": true,
+      "_gameAt": 1793624696531
     },
     "30a3c675-be0d-4014-831f-6051350ffbf0": {
       "username": "tester",
@@ -21975,7 +21982,7 @@
         "totalVotes": 44291,
         "totalSubs": 200,
         "totalChatMessages": 4694,
-        "totalStreamMinutes": 24169,
+        "totalStreamMinutes": 24189,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -27150,8 +27157,8 @@
       "stats": {
         "totalVotes": 13633,
         "totalSubs": 68,
-        "totalChatMessages": 3109,
-        "totalStreamMinutes": 8120,
+        "totalChatMessages": 3111,
+        "totalStreamMinutes": 8121,
         "emotes": {
           "❤": 126,
           "🙌": 116,
@@ -27161,8 +27168,8 @@
           "🗳": 303,
           "⚠": 1,
           "🎯": 1,
-          "🔴": 77,
-          "🎉": 96,
+          "🔴": 78,
+          "🎉": 97,
           "🚨": 84,
           "😀": 1,
           "👍": 8,
@@ -27369,17 +27376,9 @@
           "06d8593e-ca63-4abc-9b1d-95698eab4acd": "GG"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793573704935
+        "lastChatAt": 1793624671254
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 50 votes, @_VladEnzo!"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "that's 50 from _vladenzo 🗳️💚 thank you, seriously — it adds up"
@@ -27411,6 +27410,14 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "big up cynthia_stnkmp for those 100 votes 🫶💚 this community is something else"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 ruri666 is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -27422,7 +27429,7 @@
       "greeted": true,
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/c3b06a45-7b9e-430d-91c1-1359952392e2.gif",
-      "streamTitle": "",
+      "streamTitle": "SUPPORT ME - SUBS, TIPS, VOTES!! THANKYOU!!",
       "gameOverride": "",
       "followed": true,
       "profile": "We’re a chill AION community living the “valooooo” life with “sali ako pagtapos” moments. We shout “RURAAAAAAAAAAAAAAAAY” and “NOXXXXXXXXXXXXXXXXXX!!!!!!” when excited, and “beng beng lang” when relaxed. Gifts 🎁, voting 🗳️, subs, wins, and ruri666’s gifts get a big “🎉”. Celebrate every win, stay positive, and keep the vibe alive!",
@@ -27574,9 +27581,9 @@
         }
       },
       "_idAt": 1793622010192,
-      "_gameAt": 1793573703069,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793624670998,
+      "isLive": true,
+      "streamCategory": "Music",
       "voteLog": [
         {
           "t": 1792429891310,
@@ -33288,7 +33295,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793601646858,
+      "_idAt": 1793624446838,
       "_gameAt": 1793572914954,
       "isLive": false,
       "streamCategory": "",
@@ -35262,7 +35269,7 @@
         "open": false,
         "entries": []
       },
-      "_idAt": 1793601647980,
+      "_idAt": 1793624448010,
       "_gameAt": 1793582439250,
       "isLive": false,
       "streamCategory": "",
@@ -36569,7 +36576,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793601649177,
+      "_idAt": 1793624449209,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793573703107,
@@ -37530,7 +37537,7 @@
       "_profileAtCount": 33,
       "nudgedAt": 1786981105091,
       "nudgedKey": "schedule",
-      "_idAt": 1793601651580,
+      "_idAt": 1793624451600,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793408058777,
@@ -38668,7 +38675,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1793601650383,
+      "_idAt": 1793624450403,
       "_gameAt": 1793588676727,
       "isLive": false,
       "streamCategory": "",
@@ -39524,7 +39531,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793601652784,
+      "_idAt": 1793624452824,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793403064233
@@ -39622,7 +39629,7 @@
       "lastStreamInfo": "come chat fortnite og live event  (!discord) — Fortnite",
       "lastStreamEndedAt": 1788026352900,
       "gameOverride": "",
-      "_idAt": 1793601653982
+      "_idAt": 1793624453996
     },
     "521e9714-34db-46ea-a803-c0b11d18aabd": {
       "username": "mutzume",
@@ -39717,7 +39724,7 @@
       "lastStreamInfo": "POKESURVIVOR | W/ KUYA @FartVader, And KUYA @JaggerJack",
       "lastStreamEndedAt": 1792600214809,
       "gameOverride": "",
-      "_idAt": 1793601655183,
+      "_idAt": 1793624455222,
       "loyalty": {
         "noodles": {
           "name": "noodles",
@@ -44521,9 +44528,9 @@
       "n": 16
     },
     "unclefunk": {
-      "note": "Uncle Funk streams upbeat funk, jokes playfully, loves turret strategy and droid RTS games, greeting viewers cheerfully with energetic commands and emojis.",
-      "at": 1793371309323,
-      "n": 35
+      "note": "Upbeat funk streamer who jokes playfully, loves turret strategy and droid RTS games, and greets viewers with energetic commands and emojis.",
+      "at": 1793624089698,
+      "n": 36
     },
     "jusjayd": {
       "note": "Enjoys classic 80s games, GTA V, hunting free or great deals, and jokes about gaming and everyday life.",
