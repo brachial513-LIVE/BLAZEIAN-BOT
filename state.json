@@ -1230,12 +1230,12 @@
       "username": "vroshi55",
       "language": "en",
       "stats": {
-        "totalVotes": 170023,
+        "totalVotes": 200523,
         "totalSubs": 252,
-        "totalChatMessages": 14863,
+        "totalChatMessages": 14864,
         "totalStreamMinutes": 4753,
         "emotes": {
-          "🗳": 2442,
+          "🗳": 2445,
           "❤": 750,
           "🙌": 404,
           "🔥": 373,
@@ -1661,17 +1661,13 @@
           "🤧": "🤧"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793590425470,
+        "lastChatAt": 1793590854944,
         "lastSendFailAt": 1786199415720,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786199663228,
         "recoveredFrom": 16
       },
       "chatMemory": [
-        {
-          "user": "jaggerjack",
-          "msg": "Congratulations! Master Roshi for winning my little raffle!"
-        },
         {
           "user": "gaara27",
           "msg": "Thanks for the Votes ! [emote:555a557b-672c-4db0-80d4-85564e0bbac4]"
@@ -1707,6 +1703,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @K1NGBRE4KER JUST GAVE 5037 VOTE(S) (TOTAL: 10037)! THANK YOU!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @DOFFERLIVE JUST GAVE 30500 VOTE(S) (TOTAL: 30500)! THANK YOU!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -1996,7 +1996,7 @@
       "lastStreamInfo": "Crypto, Gaming & Life",
       "lastStreamEndedAt": 1793467072906,
       "_idAt": 1793589652785,
-      "_gameAt": 1793590425601,
+      "_gameAt": 1793590855104,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -2739,6 +2739,11 @@
           "t": 1793590423237,
           "v": "k1ngbre4ker",
           "a": 5037
+        },
+        {
+          "t": 1793590852705,
+          "v": "dofferlive",
+          "a": 30500
         }
       ]
     },
@@ -21800,7 +21805,7 @@
         "totalVotes": 43979,
         "totalSubs": 200,
         "totalChatMessages": 4664,
-        "totalStreamMinutes": 23919,
+        "totalStreamMinutes": 23924,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -31253,7 +31258,7 @@
         "totalVotes": 3763,
         "totalSubs": 13,
         "totalChatMessages": 283,
-        "totalStreamMinutes": 8759,
+        "totalStreamMinutes": 8764,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -37220,7 +37225,7 @@
         "totalVotes": 13465,
         "totalSubs": 38,
         "totalChatMessages": 5850,
-        "totalStreamMinutes": 19873,
+        "totalStreamMinutes": 19878,
         "emotes": {
           "👋": 141,
           "⚠": 2,
@@ -44749,6 +44754,11 @@
       "note": "They enjoy playing games, celebrating points with playful emojis and lighthearted banter.",
       "at": 1793540269642,
       "n": 1
+    },
+    "kamil": {
+      "note": "Kamil enjoys casual games like Flappy Bird, jokes about insects, and shares playful, lighthearted comments during streams",
+      "at": 1793591089684,
+      "n": 1
     }
   },
   "giveawayInfo": "Runs every week on Blaze, ending with the epoch. Winners are drawn every Sunday.\r\nEntries: 40 votes = 1 entry / 80 = 3 entries / 150 = 6 entries.\r\nAnyone using BlazeianBot gets 1 permanent free entry every single week, just for having me in their channel.\r\nPrizes go up to 1000 votes, and grow further the bigger Brachial513's payout is that week.\r\nSpecial NFTs have gone out to winners as well - Future42 and Vitrene both hold one or even more from the collection.\r\n21th - 27th September 2026 = 25th Giveaway on Blaze",
@@ -44781,8 +44791,8 @@
     }
   },
   "auth": {
-    "accessToken": "c01e317078f2a661fd878c3cdf8d4601",
-    "refreshToken": "14d0ec0c9b7ff09dc1efdc957533c6ce",
+    "accessToken": "f09e2bd2cdb3a61606fb85fb2d41d63e",
+    "refreshToken": "089d4e745eafa24778526d2f908e5f2d",
     "sessionToken": "89e0ef1f29e71f4c51966bff82e7b8ef",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
