@@ -6542,7 +6542,7 @@
           "dur": 27
         }
       },
-      "_idAt": 1793637646829,
+      "_idAt": 1793659473690,
       "_gameAt": 1793658352134,
       "isLive": false,
       "streamCategory": "",
@@ -7903,7 +7903,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1793646947283,
-      "_idAt": 1793637647993,
+      "_idAt": 1793659473689,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793646724551,
@@ -8848,7 +8848,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1793637649202,
+      "_idAt": 1793659473690,
       "_gameAt": 1793573261456,
       "isLive": false,
       "streamCategory": "",
@@ -9339,7 +9339,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "WAITING FOR BARGE TO LEAVE TO REFUEL SHIP",
       "lastStreamEndedAt": 1793639723663,
-      "_idAt": 1793637655195,
+      "_idAt": 1793659473689,
       "_gameAt": 1793639728925,
       "isLive": false,
       "streamCategory": "",
@@ -9837,7 +9837,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793637653996
+      "_idAt": 1793659473891
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -10229,7 +10229,7 @@
       "lastStreamEndedAt": 1793570304304,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1793637650400,
+      "_idAt": 1793659473689,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793635733845,
@@ -10456,7 +10456,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1793637651592
+      "_idAt": 1793659473888
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -11332,7 +11332,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Beach day with Mellow",
       "lastStreamEndedAt": 1793317522420,
-      "_idAt": 1793637652816,
+      "_idAt": 1793659473887,
       "_gameAt": 1793651115633,
       "isLive": false,
       "streamCategory": "",
@@ -18404,7 +18404,7 @@
         "totalVotes": 27768,
         "totalSubs": 96,
         "totalChatMessages": 3081,
-        "totalStreamMinutes": 24475,
+        "totalStreamMinutes": 24495,
         "emotes": {
           "🔥": 885,
           "🔴": 200,
@@ -21411,9 +21411,9 @@
       "username": "parky",
       "language": "en",
       "stats": {
-        "totalVotes": 28501,
+        "totalVotes": 28527,
         "totalSubs": 67,
-        "totalChatMessages": 2733,
+        "totalChatMessages": 2735,
         "totalStreamMinutes": 5219,
         "emotes": {
           "❤": 182,
@@ -21442,7 +21442,7 @@
           "😜": 4,
           "⚠": 4,
           "🎯": 4,
-          "🗳": 540,
+          "🗳": 543,
           "🥷": 2,
           "💯": 4,
           "📢": 10,
@@ -21598,17 +21598,9 @@
           "✨": "✨"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793656004304
+        "lastChatAt": 1793659133533
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @Jiminy!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 1 vote, @BonsaiFox!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 250 votes, @d3crypt_ttv!"
@@ -21640,6 +21632,14 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 96 votes, @itssscat!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 26 votes, @itssscat!"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @itssscat just gave 26 vote(s) (total: 122)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -21758,7 +21758,7 @@
       "lastStreamInfo": "[UK] #42 ITS FRIDAY!!! - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
       "lastStreamEndedAt": 1792797919814,
       "_idAt": 1793641252806,
-      "_gameAt": 1793656004415,
+      "_gameAt": 1793659132069,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -22056,6 +22056,11 @@
           "t": 1793656003430,
           "v": "itssscat",
           "a": 96
+        },
+        {
+          "t": 1793659131240,
+          "v": "itssscat",
+          "a": 26
         }
       ]
     },
@@ -28099,7 +28104,7 @@
         "totalVotes": 4389,
         "totalSubs": 97,
         "totalChatMessages": 80,
-        "totalStreamMinutes": 3382,
+        "totalStreamMinutes": 3402,
         "emotes": {
           "🔥": 5,
           "😎": 1,
@@ -28301,15 +28306,15 @@
       "stats": {
         "totalVotes": 25191,
         "totalSubs": 40,
-        "totalChatMessages": 58050,
-        "totalStreamMinutes": 26614,
+        "totalChatMessages": 58051,
+        "totalStreamMinutes": 26615,
         "emotes": {
           "❤": 184,
           "🙌": 174,
           "🤝": 4,
           "🔥": 84,
-          "🔴": 143,
-          "🎉": 1471,
+          "🔴": 144,
+          "🎉": 1472,
           "🪙": 1312,
           "⚡": 941,
           "👀": 142,
@@ -28766,13 +28771,9 @@
           "🥲": "🥲"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793651348325
+        "lastChatAt": 1793659761680
       },
       "chatMemory": [
-        {
-          "user": "poderosobot",
-          "msg": "Parabéns @lovemikami! Você concluiu \"level 20 + 100 blaze prime\"! Você recebeu 1000 pontos! 🎉"
-        },
         {
           "user": "lovemikami",
           "msg": "subirrrr"
@@ -28808,6 +28809,10 @@
         {
           "user": "poderosobot",
           "msg": "@brunoseven: Nível 12 | 46900 XP (9950 para o Nível 13)"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 sofrenciaplay está ao vivo! Boas-vindas a todos! 🎉"
         }
       ],
       "customCommands": {},
@@ -28820,7 +28825,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
-      "streamTitle": "",
+      "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer",
       "profile": "sofrenciaplay cranks 1h30m Retro marathons, especially Donkey Kong Country. Chat roars “JOGA SEU JOGO,” celebrates “torradas,” chants “GG” after every win, hyping “Juntos Pelo Lipe” style support. They love “pro player” tags, kaizo‑style jokes, end each stream with “kaizera” laughs. Streamer thrives on “salve” cheers, “kinda” jokes, and “muita coisa” screen chaos.",
       "_profileAtCount": 56924,
       "gameOverride": "",
@@ -28970,9 +28975,9 @@
         }
       },
       "_idAt": 1793643649199,
-      "_gameAt": 1793651318990,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793659761527,
+      "isLive": true,
+      "streamCategory": "Retro",
       "voteLog": [
         {
           "t": 1792449013616,
@@ -31999,7 +32004,7 @@
         "totalVotes": 3780,
         "totalSubs": 13,
         "totalChatMessages": 295,
-        "totalStreamMinutes": 9069,
+        "totalStreamMinutes": 9072,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -32112,7 +32117,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/46963d69-f6f0-479b-8169-7ef0626be6ec.png",
-      "streamTitle": "",
+      "streamTitle": "FOXSPIRITS | No sé que poner",
       "gameOverride": "",
       "profile": "Loboblanco’s Community Profile: Chill crew, Halo “amanecida” vibes. Expect “heeey”, “bienvenido hermano”, “hermano” love, and “ola” to newcomers. Celebrate every “muere” with a “votorn”. Keep it real, loud, and fun. Loboblanco loves being thanked, praised, and thanked for keeping the fam tight. Keep the fam tight, keep it real, keep it loud.",
       "_profileAtCount": 273,
@@ -32173,9 +32178,9 @@
         }
       },
       "_idAt": 1793643654002,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793610840637,
+      "streamCategory": "Resident Evil 7 biohazard",
+      "isLive": true,
+      "_gameAt": 1793659629793,
       "voteLog": [
         {
           "t": 1793533174095,
@@ -33983,7 +33988,7 @@
         "totalVotes": 11831,
         "totalSubs": 33,
         "totalChatMessages": 1633,
-        "totalStreamMinutes": 17465,
+        "totalStreamMinutes": 17485,
         "emotes": {
           "❤": 104,
           "🙌": 83,
@@ -38039,7 +38044,7 @@
         "totalVotes": 13634,
         "totalSubs": 38,
         "totalChatMessages": 5898,
-        "totalStreamMinutes": 20314,
+        "totalStreamMinutes": 20334,
         "emotes": {
           "👋": 143,
           "⚠": 2,
@@ -41002,7 +41007,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 100,
-        "totalStreamMinutes": 6919,
+        "totalStreamMinutes": 6933,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -41097,7 +41102,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/53fb8a6e-2aec-4779-8b88-7fd1617bd40d.jpg",
-      "streamTitle": "",
+      "streamTitle": "Saddle Up! Chilling in Free Roam at Level 775",
       "lastStreamInfo": "High-Noon Headaches: Struggling in Evil West 🎮 Come Hang Out!",
       "lastStreamEndedAt": 1793548494148,
       "gameOverride": "",
@@ -41106,9 +41111,9 @@
       "nudgedAt": 1789878374898,
       "nudgedKey": "schedule",
       "_idAt": 1793646055208,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793548428654
+      "streamCategory": "Red Dead Redemption 2",
+      "isLive": true,
+      "_gameAt": 1793659005501
     },
     "6b969c07-915f-40b6-8c39-c93f0c71ea7e": {
       "username": "corneto",
@@ -42200,7 +42205,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 37,
-        "totalStreamMinutes": 8585,
+        "totalStreamMinutes": 8605,
         "emotes": {
           "💪": 1,
           "🌄": 1,
@@ -42341,8 +42346,8 @@
       "stats": {
         "totalVotes": 1282,
         "totalSubs": 3,
-        "totalChatMessages": 971,
-        "totalStreamMinutes": 4863,
+        "totalChatMessages": 972,
+        "totalStreamMinutes": 4883,
         "emotes": {
           "❤": 30,
           "🙌": 19,
@@ -42426,13 +42431,9 @@
           "ef8e6ebf-bf02-4a67-8a25-3c675a5de2bc": "Floatspeakersb"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793657188118
+        "lastChatAt": 1793659617023
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "Donations are not required but appreciated ,if you are donating all donations are final !!! https://ko-fi.com/silverbolt99"
-        },
         {
           "user": "botger",
           "msg": "New streamers enter Silverbolt99 when setting up the botger dashboard. We both get 7 extra days! (Works with a FREE account or If you have an active subscription)"
@@ -42440,6 +42441,10 @@
         {
           "user": "botger",
           "msg": "⚡Friends, if you haven't joined the Club, you are missing out! Get an account, hit the follow, let's build a huge community! ⚡\n https://club.com/Silverbolt99"
+        },
+        {
+          "user": "botger",
+          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
         },
         {
           "user": "botger",
@@ -42512,7 +42517,7 @@
           "tier": 1
         }
       },
-      "_gameAt": 1793657188237,
+      "_gameAt": 1793659617150,
       "isLive": true,
       "streamCategory": "ARC Raiders",
       "voteLog": [
@@ -44569,9 +44574,9 @@
       "n": 12
     },
     "alliveall": {
-      "note": "Enjoys MapleStory and Wuthering Waves, loves playful meme‑style jokes and often pokes fun at OBS lag.",
-      "at": 1793533669548,
-      "n": 10
+      "note": "Enjoys MapleStory and Wuthering Waves, loves playful meme‑style jokes, often pokes fun at OBS lag.",
+      "at": 1793659729631,
+      "n": 11
     },
     "grindingdragon": {
       "note": "Enjoys casual gacha games, jokes about in‑game money, shares quick score updates, strategy tips, and often chats about funny moments.",
@@ -45109,9 +45114,9 @@
       "n": 20
     },
     "the_gwc": {
-      "note": "Valorant player who loves legendary guns, jokes about server hunts, enjoys COD multiplayer, and has a recurring “mixtape curse” that causes death during extraction.",
-      "at": 1793045630576,
-      "n": 5
+      "note": "Valorant legend who loves legendary guns, jokes about server hunts, enjoys COD multiplayer, has a mixtape curse, streams anime discussions, and is setting up channel art.",
+      "at": 1793659069721,
+      "n": 6
     },
     "precidobos": {
       "note": "Enjoys playing GTA V, dreaming of GTA 6, loves Tetris and drawing, and often jokes about fish cakes and UFOs.",
