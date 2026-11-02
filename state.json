@@ -5870,7 +5870,7 @@
         "totalVotes": 35548,
         "totalSubs": 123,
         "totalChatMessages": 10047,
-        "totalStreamMinutes": 31207,
+        "totalStreamMinutes": 31227,
         "emotes": {
           "❤": 262,
           "🙌": 225,
@@ -8847,7 +8847,7 @@
         "totalVotes": 47610,
         "totalSubs": 79,
         "totalChatMessages": 5130,
-        "totalStreamMinutes": 19958,
+        "totalStreamMinutes": 19978,
         "emotes": {
           "😊": 5,
           "🌵": 87,
@@ -13390,7 +13390,7 @@
       "language": "en",
       "stats": {
         "totalVotes": 9571,
-        "totalSubs": 92,
+        "totalSubs": 93,
         "totalChatMessages": 1045,
         "totalStreamMinutes": 26880,
         "emotes": {
@@ -13500,10 +13500,6 @@
       },
       "chatMemory": [
         {
-          "user": "slayer",
-          "msg": "yo"
-        },
-        {
           "user": "blazeian_bot_ai",
           "msg": "slayer just subscribed?! I-- 💚 ...I need a moment. Thank you so much, genuinely. You beautiful human being 🫶🔥"
         },
@@ -13538,6 +13534,10 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Wow, destinoprospero just hit that SUB button—welcome to the fam, you’re officially a part of the bom farm crew! 🚀🥳"
         }
       ],
       "customCommands": {
@@ -13613,7 +13613,7 @@
         },
         "destinoprospero": {
           "name": "destinoprospero",
-          "months": 1,
+          "months": 2,
           "tier": 1
         },
         "unclefunk": {
@@ -16894,8 +16894,8 @@
       "stats": {
         "totalVotes": 21122,
         "totalSubs": 56,
-        "totalChatMessages": 1003,
-        "totalStreamMinutes": 8641,
+        "totalChatMessages": 1004,
+        "totalStreamMinutes": 8646,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -17000,17 +17000,13 @@
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG",
           "d2e848a3-3eec-455a-82f3-ed51969a111b": "PYROTURNING"
         },
-        "lastChatAt": 1793629208249,
+        "lastChatAt": 1793630473869,
         "sendFailStreak": 156,
         "lastSendFailAt": 1793621382787,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1793621382600
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 25 votes, @meyetechnicals!"
-        },
         {
           "user": "tai_",
           "msg": "thanksss for the votesss"
@@ -17046,6 +17042,10 @@
         {
           "user": "tai_",
           "msg": "[emote:2f733d36-16bb-4a05-bb3f-1d7e73634a6e]"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
         }
       ],
       "customCommands": {},
@@ -17055,7 +17055,7 @@
       "greeted": true,
       "locked": true,
       "followed": true,
-      "streamTitle": "AION 2 !!!!",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/12660284-7663-43c6-92ac-32776ec39b0d.gif",
       "profile": "Chill Blaze vibes: “gm gmmm” mornings, “oiee” greetings, “thanksss” gratitude, nonstop “kkk” laughter, “KKKKKKKKKKK” reactions. We love “WAYFINDERS BR” in Wilder World IRL, celebrate with fire emojis, energetic good mornings, enthusiastic cheers, constant “kkk” laughter. Keep the chat lively, supportive, and always ready to jump into a call or a new game.",
@@ -17148,13 +17148,13 @@
         }
       },
       "lastStreamInfo": "AION 2 !!!!",
-      "lastStreamEndedAt": 1793572221272,
+      "lastStreamEndedAt": 1793630473503,
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule",
       "_idAt": 1793617251583,
-      "_gameAt": 1793629120080,
-      "isLive": true,
-      "streamCategory": "Aion 2",
+      "_gameAt": 1793630473984,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891333,
@@ -19971,7 +19971,7 @@
         "totalVotes": 0,
         "totalSubs": 2,
         "totalChatMessages": 103,
-        "totalStreamMinutes": 15234,
+        "totalStreamMinutes": 15254,
         "emotes": {
           "💪": 2,
           "💚": 11,
@@ -26461,7 +26461,7 @@
         "totalVotes": 26016,
         "totalSubs": 48,
         "totalChatMessages": 3549,
-        "totalStreamMinutes": 14598,
+        "totalStreamMinutes": 14618,
         "emotes": {
           "❤": 125,
           "🙌": 92,
@@ -29405,10 +29405,10 @@
       "language": "en",
       "joinedAt": 1784664490215,
       "stats": {
-        "totalVotes": 15274,
+        "totalVotes": 15374,
         "totalSubs": 43,
-        "totalChatMessages": 2167,
-        "totalStreamMinutes": 14670,
+        "totalChatMessages": 2168,
+        "totalStreamMinutes": 14690,
         "emotes": {
           "❤": 106,
           "🙌": 80,
@@ -29417,7 +29417,7 @@
           "🔴": 112,
           "🎉": 149,
           "🔥": 119,
-          "🗳": 474,
+          "🗳": 477,
           "😀": 6,
           "👀": 7,
           "😃": 1,
@@ -29554,17 +29554,9 @@
           "💯": "💯"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793629350281
+        "lastChatAt": 1793631293841
       },
       "chatMemory": [
-        {
-          "user": "razmr_eth",
-          "msg": "lfg"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "LFG, crew—let's turn this OTG session into a full-on love fest! 🚀🔥"
-        },
         {
           "user": "guney",
           "msg": "i jsut started and focused the game :D"
@@ -29596,6 +29588,14 @@
         {
           "user": "guney",
           "msg": "yeah in time"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "xxtowerdogxx just voted 100 for guney! Thanks for the love, superstar! ❤️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @xxTOWERDOGxx just gave 100 vote(s) (total: 100)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -29681,7 +29681,7 @@
       "_idAt": 1793620621589,
       "streamCategory": "Off The Grid",
       "isLive": true,
-      "_gameAt": 1793629350399,
+      "_gameAt": 1793631293956,
       "voteLog": [
         {
           "t": 1792429891425,
@@ -30027,6 +30027,11 @@
           "t": 1793628620772,
           "v": "razmr_eth",
           "a": 1
+        },
+        {
+          "t": 1793631291593,
+          "v": "xxtowerdogxx",
+          "a": 100
         }
       ]
     },
