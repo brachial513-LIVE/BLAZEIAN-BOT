@@ -14391,7 +14391,7 @@
       "username": "gaara27",
       "language": "en",
       "stats": {
-        "totalVotes": 3048,
+        "totalVotes": 3138,
         "totalSubs": 12,
         "totalChatMessages": 715,
         "totalStreamMinutes": 3606,
@@ -14512,10 +14512,6 @@
       },
       "chatMemory": [
         {
-          "user": "obee",
-          "msg": "No worries"
-        },
-        {
           "user": "blazeian_bot_ai",
           "msg": "hydrogen showing up with 99 votes like a real one 💚🔥"
         },
@@ -14550,6 +14546,10 @@
         {
           "user": "briggsy",
           "msg": "Have you completed this game before?"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Huge shoutout to brachial513 for voting 90 for gaara27! 🎉🌟"
         }
       ],
       "customCommands": {},
@@ -14933,6 +14933,11 @@
           "t": 1793613271901,
           "v": "brachial513",
           "a": 10
+        },
+        {
+          "t": 1793620575586,
+          "v": "brachial513",
+          "a": 90
         }
       ],
       "botVip": true
@@ -16875,7 +16880,7 @@
         "totalVotes": 21093,
         "totalSubs": 55,
         "totalChatMessages": 983,
-        "totalStreamMinutes": 8481,
+        "totalStreamMinutes": 8486,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -21955,7 +21960,7 @@
         "totalVotes": 44280,
         "totalSubs": 200,
         "totalChatMessages": 4687,
-        "totalStreamMinutes": 24119,
+        "totalStreamMinutes": 24124,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -23292,7 +23297,7 @@
       "commentMode": "low",
       "lastStreamInfo": "Streamish #124 - Rocket League",
       "lastStreamEndedAt": 1793611924071,
-      "_idAt": 1793598046807,
+      "_idAt": 1793620621558,
       "_gameAt": 1793611914400,
       "isLive": false,
       "streamCategory": "",
@@ -23889,7 +23894,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793598047985,
+      "_idAt": 1793620621589,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793588676529,
@@ -24683,7 +24688,7 @@
       "commentMode": "silent",
       "lastStreamInfo": "Origin grind",
       "lastStreamEndedAt": 1793300888898,
-      "_idAt": 1793598049185,
+      "_idAt": 1793620621589,
       "_gameAt": 1793561383385,
       "isLive": false,
       "streamCategory": "",
@@ -25239,7 +25244,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a8eb7277-ff4e-49af-9173-5e3ddfa1df4f.jpg",
       "followed": true,
-      "_idAt": 1793598050377
+      "_idAt": 1793620621560
     },
     "86dae0fd-e013-428c-8d04-d67c830d36af": {
       "username": "sircedricdebled",
@@ -25834,7 +25839,7 @@
       "gameOverride": "",
       "lastStreamInfo": "Cooking Something",
       "lastStreamEndedAt": 1793576376263,
-      "_idAt": 1793598051581,
+      "_idAt": 1793620621589,
       "_gameAt": 1793576381594,
       "isLive": false,
       "streamCategory": "",
@@ -26761,7 +26766,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793598052783,
+      "_idAt": 1793620621589,
       "_gameAt": 1793609098727,
       "isLive": false,
       "streamCategory": "",
@@ -29624,7 +29629,7 @@
       },
       "lastStreamInfo": "OTG",
       "lastStreamEndedAt": 1793573402001,
-      "_idAt": 1793598053982,
+      "_idAt": 1793620621589,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793573260883,
@@ -30181,7 +30186,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793598055182,
+      "_idAt": 1793620621589,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793574257861,
@@ -44786,9 +44791,9 @@
       "n": 13
     },
     "poderosobot": {
-      "note": "Poderosobot hosts live roulette, slots, duels, checks balances, celebrates level‑ups, and runs a chat redemption store for viewers.",
-      "at": 1793451169526,
-      "n": 12
+      "note": "Poderosobot runs live roulette, slots, duels, checks balances, celebrates level‑ups, and offers a chat redemption store.",
+      "at": 1793620789645,
+      "n": 13
     },
     "sbcrypto": {
       "note": "Enjoy joking about cooking, food, and playful teasing with emojis while chatting about games and giveaways.",
@@ -45150,8 +45155,8 @@
     }
   },
   "auth": {
-    "accessToken": "e0736ff0d72aef4776942c48429d39ed",
-    "refreshToken": "e451f53dd9a9c74a02f4246948b964d3",
+    "accessToken": "d11114f91c40f5962dc47adf2cd3fbbe",
+    "refreshToken": "98b1ecda29c34b0675017b16d3921486",
     "sessionToken": "89e0ef1f29e71f4c51966bff82e7b8ef",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
