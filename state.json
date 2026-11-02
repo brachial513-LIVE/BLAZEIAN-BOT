@@ -6540,7 +6540,7 @@
           "dur": 27
         }
       },
-      "_idAt": 1793592046836,
+      "_idAt": 1793614846862,
       "_gameAt": 1793597320441,
       "isLive": false,
       "streamCategory": "",
@@ -7864,7 +7864,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/4aa1b477-5fa2-44df-aecc-98a3c1827f94.gif",
       "lastStreamInfo": "The Funk Show! - Daily fun, wisdom sessions, loud music and game dev!",
       "lastStreamEndedAt": 1793559391031,
-      "_idAt": 1793592047983,
+      "_idAt": 1793614847989,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793600221718,
@@ -8799,7 +8799,7 @@
       "botVip": true,
       "followed": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/a5651ae5-385d-4d15-b759-14789f359da8.gif",
-      "_idAt": 1793592049180,
+      "_idAt": 1793614849213,
       "_gameAt": 1793573261456,
       "isLive": false,
       "streamCategory": "",
@@ -9290,7 +9290,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "STANDING BY FOR FIRST DISCHARGE ORDER AND JUST CHATTING",
       "lastStreamEndedAt": 1793552521730,
-      "_idAt": 1793592055182,
+      "_idAt": 1793614855189,
       "_gameAt": 1793583821898,
       "isLive": false,
       "streamCategory": "",
@@ -9763,7 +9763,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793592053970
+      "_idAt": 1793614853998
     },
     "9894c44d-f081-494d-b15e-c4456837fee3": {
       "username": "zer0cache",
@@ -10155,7 +10155,7 @@
       "lastStreamEndedAt": 1793570304304,
       "nudgedAt": 1785617613538,
       "nudgedKey": "schedule",
-      "_idAt": 1793592050377,
+      "_idAt": 1793614850420,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793588680457,
@@ -10377,7 +10377,7 @@
       "followed": true,
       "greeted": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ec85612-1853-40a7-abb7-606ca565863e.jpg",
-      "_idAt": 1793592051573
+      "_idAt": 1793614851601
     },
     "87d372c6-fdd7-47ed-a4a6-671c501fa8f8": {
       "username": "briggsy",
@@ -11253,7 +11253,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "Beach day with Mellow",
       "lastStreamEndedAt": 1793317522420,
-      "_idAt": 1793592052772,
+      "_idAt": 1793614852792,
       "_gameAt": 1793612422449,
       "isLive": false,
       "streamCategory": "",
@@ -13683,9 +13683,9 @@
       "username": "vitrene",
       "language": "en",
       "stats": {
-        "totalVotes": 25987,
+        "totalVotes": 26137,
         "totalSubs": 65,
-        "totalChatMessages": 1918,
+        "totalChatMessages": 1919,
         "totalStreamMinutes": 8178,
         "emotes": {
           "❤": 107,
@@ -13698,7 +13698,7 @@
           "😎": 2,
           "🤝": 2,
           "🥲": 2,
-          "🗳": 348,
+          "🗳": 351,
           "🔴": 59,
           "🎉": 107,
           "🚨": 84,
@@ -13846,21 +13846,13 @@
           "🤔": "🤔"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793609495213,
+        "lastChatAt": 1793615070168,
         "lastSendFailAt": 1790979696099,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790984188513,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🎁 GIFTED SUB!! 🎁 @Vitrene just gifted a sub to @Willdres! How generous!! 🙌"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Wow, vitrene just dropped a sub like a legendary drop—everyone, let’s shower that gift with love!"
-        },
         {
           "user": "botger",
           "msg": "🏅 You finished 2nd in Badges Matter this week and earned 80 bonus votes from botger! 🎉"
@@ -13892,6 +13884,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Honeybear just gave 855 vote(s) (total: 855)! Thank you!! 🗳️"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Huge thank you, agent00zani, for the 150 vote! 🌟"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @agent00zani just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -13953,7 +13953,7 @@
       "_idAt": 1793592714996,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1793609495319,
+      "_gameAt": 1793615070266,
       "voteLog": [
         {
           "t": 1792429891290,
@@ -14204,6 +14204,11 @@
           "t": 1793609492963,
           "v": "honeybear",
           "a": 855
+        },
+        {
+          "t": 1793615067498,
+          "v": "agent00zani",
+          "a": 150
         }
       ]
     },
@@ -14911,9 +14916,9 @@
       "username": "time",
       "language": "en",
       "stats": {
-        "totalVotes": 28135,
+        "totalVotes": 28147,
         "totalSubs": 61,
-        "totalChatMessages": 4883,
+        "totalChatMessages": 4884,
         "totalStreamMinutes": 5689,
         "emotes": {
           "❤": 59,
@@ -14924,7 +14929,7 @@
           "🙂": 3,
           "🔥": 93,
           "😎": 5,
-          "🗳": 813,
+          "🗳": 816,
           "📴": 55,
           "👋": 68,
           "🎁": 84,
@@ -15172,13 +15177,9 @@
           "😉": "😉"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793590037116
+        "lastChatAt": 1793614305358
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "I’m here again. But not able to turn on sound."
-        },
         {
           "user": "briggsy",
           "msg": "Ooo, your piece is looking good."
@@ -15214,6 +15215,10 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "cynthia_stnkmp voted with 50! 🗳️💚 Every single vote means the world here, thank you 🔥"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @ens just gave 12 vote(s) (total: 12)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -15305,7 +15310,7 @@
       "lastStreamInfo": "Digital Drawing",
       "lastStreamEndedAt": 1793559993632,
       "_idAt": 1793594447976,
-      "_gameAt": 1793590037222,
+      "_gameAt": 1793614305520,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -15853,6 +15858,11 @@
           "t": 1793609098109,
           "v": "cynthia_stnkmp",
           "a": 50
+        },
+        {
+          "t": 1793614303118,
+          "v": "ens",
+          "a": 12
         }
       ]
     },
@@ -29517,7 +29527,7 @@
       "gameOverride": "",
       "followed": true,
       "profile": "guney’s channel is a high‑energy Web3 playground where “Kankaaaa” and “Good morningggg” greet the stream, fans shout “Yooo”, celebrate milestones with “Love fest!” and “bring”, cheer wins with “fuckn minigun”, and love 🔥, 🎉, 💃💃💃 emojis. Raid and vote alerts pop up, and generous subs are praised with “How generous!! 🙌”. The community thrives on hype, emojis, and constant celebration.",
-      "_profileAtCount": 2106,
+      "_profileAtCount": 2148,
       "nudgedAt": 1785003694483,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -43657,8 +43667,8 @@
     },
     "cedricdebled": {
       "note": "Enjoys nostalgic FPS games, guitar riffs, Muse, and playful meme humor.",
-      "at": 1793446549466,
-      "n": 47
+      "at": 1793614189675,
+      "n": 48
     },
     "xeventv38": {
       "note": "They appear to enjoy playing games, appreciate humor, and have a lighthearted tone, often using comedic expressions.",
