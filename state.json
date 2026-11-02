@@ -22850,7 +22850,7 @@
         "totalVotes": 37748,
         "totalSubs": 38,
         "totalChatMessages": 1743,
-        "totalStreamMinutes": 2936,
+        "totalStreamMinutes": 2941,
         "emotes": {
           "❤": 36,
           "🙌": 52,
@@ -31447,7 +31447,7 @@
         "totalVotes": 3776,
         "totalSubs": 13,
         "totalChatMessages": 294,
-        "totalStreamMinutes": 9015,
+        "totalStreamMinutes": 9020,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -38785,8 +38785,8 @@
       "stats": {
         "totalVotes": 8047,
         "totalSubs": 20,
-        "totalChatMessages": 566,
-        "totalStreamMinutes": 1164,
+        "totalChatMessages": 569,
+        "totalStreamMinutes": 1169,
         "emotes": {
           "🥰": 69,
           "❤": 38,
@@ -38804,7 +38804,7 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": 1,
           "d2e848a3-3eec-455a-82f3-ed51969a111b": 3,
           "😅": 18,
-          "💚": 33,
+          "💚": 34,
           "🙌": 11,
           "🙃": 3,
           "841539a5-88cd-4532-85c1-5589bc530b1b": 1,
@@ -38940,29 +38940,13 @@
           "d460a0ab-9dac-41e1-9220-04b0f0ef3d45": "67"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793609751643,
+        "lastChatAt": 1793610040465,
         "lastSendFailAt": 1790973732516,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790974734782,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "This is just a crazy scene"
-        },
-        {
-          "user": "mediart",
-          "msg": "Thank you so much"
-        },
-        {
-          "user": "mediart",
-          "msg": "Oh nooooo"
-        },
-        {
-          "user": "briggsy",
-          "msg": "You're doing well with all the wifi issues"
-        },
         {
           "user": "briggsy",
           "msg": "Medi, I hate to do this but I have to lay down.  It's been a long day."
@@ -38986,6 +38970,22 @@
         {
           "user": "mediart",
           "msg": "I'm almost finished, so you can enjoy the rest of the stream later! 💚"
+        },
+        {
+          "user": "mediart",
+          "msg": "Good night buddy, sweet dreams"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "GN!! 🌙💚 sleep well, come back soon 🫶"
+        },
+        {
+          "user": "mediart",
+          "msg": "I'll stop here for today and pick up where I left off in about 10 hours. See you then! 💚"
+        },
+        {
+          "user": "mediart",
+          "msg": "See you later Briggsy, sleep well"
         }
       ],
       "customCommands": {},
@@ -39069,7 +39069,7 @@
         }
       },
       "_idAt": 1793600453977,
-      "_gameAt": 1793609751746,
+      "_gameAt": 1793610000450,
       "isLive": true,
       "streamCategory": "Art",
       "voteLog": [
@@ -45073,8 +45073,8 @@
     }
   },
   "auth": {
-    "accessToken": "3749b34ebd051a9ab476e8a5fe7a4ae4",
-    "refreshToken": "bf13f127186cdcd4684808bfd4b41852",
+    "accessToken": "a4f7c3235027e257d73aab4fd398f46b",
+    "refreshToken": "861cf816bb54e6aca19392397e299d14",
     "sessionToken": "89e0ef1f29e71f4c51966bff82e7b8ef",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
