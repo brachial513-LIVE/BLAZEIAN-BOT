@@ -21660,7 +21660,7 @@
         "totalVotes": 43975,
         "totalSubs": 200,
         "totalChatMessages": 4663,
-        "totalStreamMinutes": 23874,
+        "totalStreamMinutes": 23879,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -31053,7 +31053,7 @@
         "totalVotes": 3759,
         "totalSubs": 13,
         "totalChatMessages": 277,
-        "totalStreamMinutes": 8714,
+        "totalStreamMinutes": 8719,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -36970,7 +36970,7 @@
         "totalVotes": 13460,
         "totalSubs": 38,
         "totalChatMessages": 5843,
-        "totalStreamMinutes": 19828,
+        "totalStreamMinutes": 19833,
         "emotes": {
           "👋": 141,
           "⚠": 2,
@@ -40335,8 +40335,8 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 1,
-        "totalChatMessages": 985,
-        "totalStreamMinutes": 2079,
+        "totalChatMessages": 987,
+        "totalStreamMinutes": 2083,
         "emotes": {
           "❤": 2,
           "🙌": 1,
@@ -40360,16 +40360,12 @@
           "a859cc12-453a-4bd8-b650-38710d9486de": "PYROSHEART"
         },
         "sendFailStreak": 22,
-        "lastChatAt": 1793586988263,
+        "lastChatAt": 1793588226803,
         "lastSendFailAt": 1792669929259,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1792669929052
       },
       "chatMemory": [
-        {
-          "user": "poderosobot",
-          "msg": "Roleta #1577: Vermelho (7)! Vencedores (retorno total): [blaze] poderosotv: 20 pontos"
-        },
         {
           "user": "poderosobot",
           "msg": "A live do poderosotv terminou! Obrigado pela companhia e até a próxima!"
@@ -40405,6 +40401,10 @@
         {
           "user": "poderosotv",
           "msg": "a"
+        },
+        {
+          "user": "poderosobot",
+          "msg": "@poderosotv [7 | 4 | 1] Não foi desta vez. Jackpot: 3250 pontos."
         }
       ],
       "customCommands": {},
@@ -40438,7 +40438,7 @@
         }
       },
       "_idAt": 1793581249184,
-      "_gameAt": 1793586981569,
+      "_gameAt": 1793588225807,
       "isLive": true,
       "streamCategory": "Just Chatting"
     },
@@ -41205,8 +41205,8 @@
       "stats": {
         "totalVotes": 1282,
         "totalSubs": 3,
-        "totalChatMessages": 947,
-        "totalStreamMinutes": 4505,
+        "totalChatMessages": 948,
+        "totalStreamMinutes": 4510,
         "emotes": {
           "❤": 30,
           "🙌": 19,
@@ -41288,13 +41288,9 @@
           "dab820c3-c946-4d12-aef8-d07703f0c052": "PYROWINKONFIRE"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793585804594
+        "lastChatAt": 1793588230588
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🚨🎙️ Shoutout to @razmr_eth! make Sure to check them out on their Blaze Channel https://Blaze.Stream/razmr_eth and show some Love and Support 💗"
-        },
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @razmr_eth, who is live now, currently streaming Off The Grid to 4 viewers at https://blaze.stream/razmr_eth!"
@@ -41322,6 +41318,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: SBEp152 Mustard Network〽️/Goop Grind for research station points! Come hang out and watch."
+        },
+        {
+          "user": "botger",
+          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
         },
         {
           "user": "botger",
@@ -41374,7 +41374,7 @@
           "tier": 1
         }
       },
-      "_gameAt": 1793585804688,
+      "_gameAt": 1793588230673,
       "isLive": true,
       "streamCategory": "ARC Raiders",
       "voteLog": [
@@ -44496,8 +44496,8 @@
     }
   },
   "auth": {
-    "accessToken": "b2ef977fc31ee072d0cc0581f5a64252",
-    "refreshToken": "f9d134282cd26035270203ad67e7e5cb",
+    "accessToken": "c01e317078f2a661fd878c3cdf8d4601",
+    "refreshToken": "14d0ec0c9b7ff09dc1efdc957533c6ce",
     "sessionToken": "89e0ef1f29e71f4c51966bff82e7b8ef",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
