@@ -7078,7 +7078,7 @@
       "stats": {
         "totalVotes": 73450,
         "totalSubs": 131,
-        "totalChatMessages": 28277,
+        "totalChatMessages": 28279,
         "totalStreamMinutes": 14654,
         "emotes": {
           "❤": 8520,
@@ -7138,7 +7138,7 @@
           "❣": 13,
           "🫢": 14,
           "🙃": 2,
-          "🖤": 40,
+          "🖤": 41,
           "✨": 153,
           "🤩": 7,
           "✅": 1,
@@ -7614,23 +7614,15 @@
           "🙆": "🙆",
           "♂": "♂"
         },
-        "lastChatAt": 1793588691340,
-        "sendFailStreak": 591,
-        "lastSendFailAt": 1793540232896,
+        "lastChatAt": 1793600253390,
+        "sendFailStreak": 592,
+        "lastSendFailAt": 1793600221916,
         "lastSendFailReason": "You are banned from this channel.",
         "recoveredAt": 1786225337822,
         "recoveredFrom": 146,
-        "lastProbeAt": 1793540232593
+        "lastProbeAt": 1793600221684
       },
       "chatMemory": [
-        {
-          "user": "unclefunk",
-          "msg": "botger, +263 JOY for the votes! ✦ You have 263."
-        },
-        {
-          "user": "rob_osp",
-          "msg": "@botger — thanks for the 263 votes! 🗳️ Every vote helps."
-        },
         {
           "user": "unclefunk",
           "msg": "BonsaiFox, +1 JOY for the votes! ✦ You have 1."
@@ -7662,6 +7654,14 @@
         {
           "user": "rob_osp",
           "msg": "@cvek11 — thanks for the 5 votes! 🗳️ Every vote helps."
+        },
+        {
+          "user": "unclefunk",
+          "msg": "oolmgoo, +25 JOY for the follow! ✦ You have 25."
+        },
+        {
+          "user": "rob_osp",
+          "msg": "@oolmgoo — welcome and thanks for the follow! 🖤 Type !link to grab OSP courage while you watch."
         }
       ],
       "customCommands": {},
@@ -7837,7 +7837,7 @@
       "_idAt": 1793592047983,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1793588676061,
+      "_gameAt": 1793600221718,
       "voteLog": [
         {
           "t": 1792428006716,
@@ -21829,8 +21829,8 @@
       "stats": {
         "totalVotes": 44205,
         "totalSubs": 200,
-        "totalChatMessages": 4680,
-        "totalStreamMinutes": 24059,
+        "totalChatMessages": 4681,
+        "totalStreamMinutes": 24068,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -21839,8 +21839,8 @@
           "🗳": 1209,
           "🔴": 195,
           "🎉": 256,
-          "📴": 191,
-          "👋": 197,
+          "📴": 192,
+          "👋": 198,
           "🚨": 372,
           "🥂": 2,
           "🫶": 3,
@@ -22066,13 +22066,9 @@
           "🟢": "🟢"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793597794067
+        "lastChatAt": 1793599818837
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @xBuRnTx just gave 25 vote(s) (total: 25)! Thank you!! 🗳️"
-        },
         {
           "user": "xburntx",
           "msg": "Always man!! Have an awesome stream"
@@ -22108,6 +22104,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Big_Scaggs just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -22120,7 +22120,7 @@
       "locked": false,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/773114d0-084a-4bd6-9cfb-6a29b7ec732a.png",
       "followed": true,
-      "streamTitle": "💎 CRYPTO GAMES & GOOD VIBES 🎮🔥",
+      "streamTitle": "",
       "gameOverride": "",
       "profile": "Crypto corner of faithy_: we dive into New Epoch Play Cambria Fun and Mafia II marathon. Love “GIFTED SUBS”, “VOTE ALERTS”, “ROI YAN”, “patay”, “spanked”, “TAAS NA LEVEL MO AH”, “PURE LOVE”, generous subs, “GGS” vibes. Celebrate with “GIFTED SUB”, enjoy “TAAS NA LEVEL MO AH”, and “it's time to grind” moments, all while playing Mafia II. Also stream Ori and the Will of the Wisps, praising music and vibrant visuals.",
       "_profileAtCount": 4611,
@@ -22349,12 +22349,12 @@
           "tier": 1
         }
       },
-      "lastStreamInfo": "Happy Halloween TWD Continues!",
-      "lastStreamEndedAt": 1793539450237,
+      "lastStreamInfo": "💎 CRYPTO GAMES & GOOD VIBES 🎮🔥",
+      "lastStreamEndedAt": 1793599813328,
       "_idAt": 1793595655176,
-      "_gameAt": 1793597794190,
-      "isLive": true,
-      "streamCategory": "Crypto",
+      "_gameAt": 1793599818988,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891196,
@@ -27362,7 +27362,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793576446718,
+      "_idAt": 1793599246789,
       "_gameAt": 1793573703069,
       "isLive": false,
       "streamCategory": "",
@@ -27834,7 +27834,7 @@
       },
       "lastStreamInfo": "FOXSPIRIT | Fortnite| 1sub=25min",
       "lastStreamEndedAt": 1793572939367,
-      "_idAt": 1793576447882,
+      "_idAt": 1793599247988,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793558250241,
@@ -28570,7 +28570,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793576449084,
+      "_idAt": 1793599249181,
       "_gameAt": 1793584709697,
       "isLive": false,
       "streamCategory": "",
@@ -30878,7 +30878,7 @@
         }
       },
       "commentMode": "silent",
-      "_idAt": 1793577646758,
+      "_idAt": 1793600446807,
       "_gameAt": 1793588676618,
       "isLive": false,
       "streamCategory": "",
@@ -31308,7 +31308,7 @@
         "totalVotes": 3773,
         "totalSubs": 13,
         "totalChatMessages": 285,
-        "totalStreamMinutes": 8899,
+        "totalStreamMinutes": 8919,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -31479,7 +31479,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793576450311,
+      "_idAt": 1793599250382,
       "streamCategory": "Resident Evil 7 biohazard",
       "isLive": true,
       "_gameAt": 1793593672694,
@@ -31659,7 +31659,7 @@
       "lastStreamInfo": "Games! | GIVEAWAYS 🔥 BLAZE 🔥 Follower Goal 14/100 🔥 — Games + Demos",
       "lastStreamEndedAt": 1792098624752,
       "gameOverride": "",
-      "_idAt": 1793576451484,
+      "_idAt": 1793599251591,
       "_gameAt": 1792676180494,
       "isLive": false,
       "streamCategory": ""
@@ -31875,7 +31875,7 @@
       },
       "profile": "panipeys streams chill MapleStory, looping audio jokes, “tool!! miss u haha” vibes, “yan kaya ok na?” and “everything bro..it's looping” banter. The chat loves quick “yeps” approvals, “kaway ka rin sakin haha”, “tulog n aq, simba pa mamaya” good‑night tags. Fans celebrate with “tool!!” cheers, raid shoutouts, and sub‑4‑sub exchanges, keeping the vibe relaxed and playful.",
       "_profileAtCount": 235,
-      "_idAt": 1793576452686,
+      "_idAt": 1793599252784,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792348199414,
@@ -32474,7 +32474,7 @@
       "lastStreamEndedAt": 1793468230617,
       "commandMedia": {},
       "botVip": true,
-      "_idAt": 1793577647976,
+      "_idAt": 1793600447978,
       "_gameAt": 1793595180056,
       "isLive": false,
       "streamCategory": "",
@@ -33537,7 +33537,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793576453885,
+      "_idAt": 1793599253982,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793588676627,
@@ -34016,7 +34016,7 @@
       "_profileAtCount": 1498,
       "nudgedAt": 1786147592153,
       "nudgedKey": "schedule",
-      "_idAt": 1793577649159,
+      "_idAt": 1793600449186,
       "_gameAt": 1793573014104,
       "isLive": false,
       "streamCategory": "",
@@ -35831,7 +35831,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793577651559,
+      "_idAt": 1793600451580,
       "_gameAt": 1793588676505,
       "isLive": false,
       "streamCategory": "",
@@ -36893,7 +36893,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793576455083,
+      "_idAt": 1793599255183,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793555308804,
@@ -38008,7 +38008,7 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://static-cdn.jtvnw.net/jtv_user_pictures/128e2f4a-c34b-4d0f-b6b7-11c70bb3f295-profile_image-300x300.png",
-      "_idAt": 1793577652763
+      "_idAt": 1793600452777
     },
     "8f114ea6-29e2-4213-99b4-3357cfbe1885": {
       "username": "cr33pling",
@@ -38895,7 +38895,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793577653964,
+      "_idAt": 1793600453977,
       "_gameAt": 1793520233029,
       "isLive": false,
       "streamCategory": "",
@@ -40304,7 +40304,7 @@
       "_profileAtCount": 82,
       "nudgedAt": 1789878374898,
       "nudgedKey": "schedule",
-      "_idAt": 1793577655176,
+      "_idAt": 1793600455180,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793548428654
@@ -41024,7 +41024,7 @@
       "lastStreamEndedAt": 1793071535206,
       "nudgedAt": 1790123384716,
       "nudgedKey": "schedule",
-      "_idAt": 1793577650365,
+      "_idAt": 1793600450381,
       "loyalty": {
         "desirablebottom": {
           "name": "desirablebottom",
@@ -43396,9 +43396,9 @@
       "n": 64
     },
     "dany_kaizo": {
-      "note": "Dany_kaizo streams video games, often laughing at glitches, memes, teleportation jokes, and pop‑culture references like Garfield.",
-      "at": 1792938710539,
-      "n": 9
+      "note": "Dany_kaizo streams video games, loves joking about glitches, memes, teleportation, and pop‑culture references like Garfield, and often talks about editing videos and upgrading gear.",
+      "at": 1793599670128,
+      "n": 10
     },
     "lucas93925052": {
       "note": "Lucas loves joking with “kkkkkk,” chats warmly, enjoys Mario 64, Resident E 4, balloon games, and often calls friends by nickname.",
