@@ -16854,8 +16854,8 @@
       "stats": {
         "totalVotes": 21093,
         "totalSubs": 55,
-        "totalChatMessages": 967,
-        "totalStreamMinutes": 8458,
+        "totalChatMessages": 968,
+        "totalStreamMinutes": 8461,
         "emotes": {
           "💚": 4,
           "🔥": 14,
@@ -16958,17 +16958,13 @@
           "ec3fc6aa-c526-42e1-9fdb-c765752dad7e": "SILLYPYRO",
           "21f398af-51dd-49cb-a896-76bf8af659ea": "PYROEGG"
         },
-        "lastChatAt": 1793572221608,
+        "lastChatAt": 1793619149893,
         "sendFailStreak": 155,
         "lastSendFailAt": 1793543391891,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1793543391390
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @BaXang!"
-        },
         {
           "user": "tai_",
           "msg": "thanks for the votesss"
@@ -17004,6 +17000,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: AION 2 !!!!! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -17013,7 +17013,7 @@
       "greeted": true,
       "locked": true,
       "followed": true,
-      "streamTitle": "",
+      "streamTitle": "AION 2 !!!!",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/12660284-7663-43c6-92ac-32776ec39b0d.gif",
       "profile": "Chill Blaze vibes: “gm gmmm” mornings, “oiee” greetings, “thanksss” gratitude, nonstop “kkk” laughter, “KKKKKKKKKKK” reactions. We love “WAYFINDERS BR” in Wilder World IRL, celebrate with fire emojis, energetic good mornings, enthusiastic cheers, constant “kkk” laughter. Keep the chat lively, supportive, and always ready to jump into a call or a new game.",
@@ -17110,9 +17110,9 @@
       "nudgedAt": 1785711438123,
       "nudgedKey": "schedule",
       "_idAt": 1793617251583,
-      "_gameAt": 1793572221679,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793619149661,
+      "isLive": true,
+      "streamCategory": "Aion 2",
       "voteLog": [
         {
           "t": 1792429891333,
@@ -19902,7 +19902,7 @@
       "lastStreamEndedAt": 1793066725264,
       "nudgedAt": 1786555068712,
       "nudgedKey": "schedule",
-      "_idAt": 1793595646816,
+      "_idAt": 1793618446861,
       "_gameAt": 1793066730582,
       "isLive": false,
       "streamCategory": ""
@@ -20025,7 +20025,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793595647976,
+      "_idAt": 1793618447992,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793565276176
@@ -20112,7 +20112,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793595649171
+      "_idAt": 1793618449191
     },
     "66d1447b-e098-49e7-af14-5c922d822d84": {
       "username": "omererkmen",
@@ -20207,7 +20207,7 @@
       "gameOverride": "",
       "profile": "o mererkmen streams chill “Just talking” sessions, often IRL, with the community humming “Come hang out and watch.” The chat loves the signature emote 9fb3d5c3-6e65-4a44-b5e1-0ca1c4e1cec2 and the phrase “My iPhone overheated ending…”. Followers celebrate by cheering “Thanks for watching” and “Stream is now live” alerts, keeping the vibe relaxed and supportive.",
       "_profileAtCount": 40,
-      "_idAt": 1793595653978,
+      "_idAt": 1793618454004,
       "nudgedAt": 1791616183720,
       "nudgedKey": "schedule",
       "_gameAt": 1793573064272,
@@ -20505,7 +20505,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793595650382,
+      "_idAt": 1793618450383,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793568697683,
@@ -20999,7 +20999,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793595651577,
+      "_idAt": 1793618451581,
       "_gameAt": 1793603670120,
       "isLive": false,
       "streamCategory": "",
@@ -21626,7 +21626,7 @@
       "nudgedKey": "schedule",
       "lastStreamInfo": "[UK] #42 ITS FRIDAY!!! - VOTE FOR PARKY! - ADHD - POWERED BY - ASK ME ANYTHING",
       "lastStreamEndedAt": 1792797919814,
-      "_idAt": 1793595652773,
+      "_idAt": 1793618452807,
       "_gameAt": 1793588676224,
       "isLive": false,
       "streamCategory": "",
@@ -21935,7 +21935,7 @@
         "totalVotes": 44255,
         "totalSubs": 200,
         "totalChatMessages": 4682,
-        "totalStreamMinutes": 24079,
+        "totalStreamMinutes": 24099,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -22456,7 +22456,7 @@
       },
       "lastStreamInfo": "💎 CRYPTO GAMES & GOOD VIBES 🎮🔥",
       "lastStreamEndedAt": 1793599813328,
-      "_idAt": 1793595655176,
+      "_idAt": 1793618455197,
       "_gameAt": 1793617446218,
       "isLive": true,
       "streamCategory": "Crypto",
@@ -43832,8 +43832,8 @@
     },
     "tarzan": {
       "note": "Friendly gamer who loves Helldivers, Super Mario, Fortnite, and Roblox, uses playful banter and emojis to warmly engage viewers.",
-      "at": 1793449189499,
-      "n": 38
+      "at": 1793618149688,
+      "n": 39
     },
     "curlysnow07": {
       "note": "Curlysnow07 loves remote‑control car videos, PS4 gaming, Ninja Turtle jokes, bowling, and supports the stream with Blaze and Foxboai.",
@@ -44771,9 +44771,9 @@
       "n": 1
     },
     "xburntx": {
-      "note": "Enjoys casual Fortnite chats, shares light humor, often thanks viewers for support, and frequently uses playful, upbeat expressions.",
-      "at": 1793449849492,
-      "n": 10
+      "note": "Enjoys casual Fortnite streams, shares light humor, thanks viewers, and frequently uses playful, upbeat expressions.",
+      "at": 1793618809666,
+      "n": 11
     },
     "danicuordirose": {
       "note": "They enjoy Twitch streams, love purple, play cozy games, humorously chat about managing dashboards, and appreciate friendly, cute interactions.",
