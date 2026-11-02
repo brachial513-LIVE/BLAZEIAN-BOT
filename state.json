@@ -38649,7 +38649,7 @@
       "stats": {
         "totalVotes": 8021,
         "totalSubs": 20,
-        "totalChatMessages": 508,
+        "totalChatMessages": 509,
         "totalStreamMinutes": 1085,
         "emotes": {
           "🥰": 65,
@@ -38794,17 +38794,13 @@
           "😁": "😁"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793520318956,
+        "lastChatAt": 1793604639156,
         "lastSendFailAt": 1790973732516,
         "lastSendFailReason": "Can't create more than max_prepared_stmt_count statements (current value: 16382)",
         "recoveredAt": 1790974734782,
         "recoveredFrom": 1
       },
       "chatMemory": [
-        {
-          "user": "briggsy",
-          "msg": "So, it just looks great.  Been fun to watch you in action."
-        },
         {
           "user": "mediart",
           "msg": "Aww, I'm glad you enjoyed it, buddy! Thanks for hanging out with me. Have a good night and get some rest! 🥰💚"
@@ -38840,6 +38836,10 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "Thanks, hope you have a super chill Sunday too! 🌿😊"
+        },
+        {
+          "user": "mediart",
+          "msg": "Hello"
         }
       ],
       "customCommands": {},
@@ -38854,7 +38854,7 @@
       "followed": true,
       "profile": "mediart streams vibrant digital art, mixing quick sketches with live commentary. The chat thrives on “OMG wow” and “so cool” reactions, chanting “GGs for winning 60 Votes + 2 Free Entrys” during giveaways. Viewers love spontaneous “welcome” shoutouts, “thank you so much🥰” moments, and Discord invites. The vibe stays upbeat, supportive, celebratory, with frequent “Next art for Joseph 🔥” and “Waiting🙃” cues.",
       "_profileAtCount": 508,
-      "streamTitle": "",
+      "streamTitle": "Creating Art",
       "lastStreamInfo": "Creating Art",
       "lastStreamEndedAt": 1793520271373,
       "gameOverride": "",
@@ -38923,9 +38923,9 @@
         }
       },
       "_idAt": 1793600453977,
-      "_gameAt": 1793520233029,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793604629686,
+      "isLive": true,
+      "streamCategory": "Art",
       "voteLog": [
         {
           "t": 1792423842835,
@@ -44907,8 +44907,8 @@
     }
   },
   "auth": {
-    "accessToken": "f6a99c90c5001d9e62e1dc3a9044cf8b",
-    "refreshToken": "c9c3bf43821a28d46f25f4de0539708d",
+    "accessToken": "d66612aa3191820eb232791446f63360",
+    "refreshToken": "15ea1807846ed4ca7852b8af0276e9ce",
     "sessionToken": "89e0ef1f29e71f4c51966bff82e7b8ef",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
