@@ -2791,7 +2791,7 @@
       "username": "jt_squared2",
       "language": "en",
       "stats": {
-        "totalVotes": 54433,
+        "totalVotes": 54633,
         "totalSubs": 127,
         "totalChatMessages": 55252,
         "totalStreamMinutes": 4939,
@@ -3501,11 +3501,6 @@
       "streamCategory": "",
       "voteLog": [
         {
-          "t": 1792434211155,
-          "v": "tom2329",
-          "a": 4
-        },
-        {
           "t": 1792460079908,
           "v": "cg777",
           "a": 77
@@ -4204,6 +4199,11 @@
           "t": 1793643218076,
           "v": "triz_draw",
           "a": 5
+        },
+        {
+          "t": 1793667277194,
+          "v": "desirablebottom",
+          "a": 200
         }
       ]
     },
@@ -12202,14 +12202,14 @@
       "stats": {
         "totalVotes": 55937,
         "totalSubs": 103,
-        "totalChatMessages": 10867,
-        "totalStreamMinutes": 18306,
+        "totalChatMessages": 10869,
+        "totalStreamMinutes": 18307,
         "emotes": {
-          "❤": 210,
+          "❤": 212,
           "🙌": 248,
           "🗳": 1080,
-          "🔴": 107,
-          "🎉": 181,
+          "🔴": 108,
+          "🎉": 182,
           "📴": 106,
           "👋": 120,
           "🔥": 299,
@@ -12630,18 +12630,10 @@
           "🤪": "🤪",
           "🍄": "🍄"
         },
-        "lastChatAt": 1793650613792,
+        "lastChatAt": 1793667892012,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@FartVader subscribed! Thank you!"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "fartvader just hit that subscribe button—welcome to the crew, you’re officially part of the family! 🎉"
-        },
         {
           "user": "fartvader",
           "msg": "[emote:a859cc12-453a-4bd8-b650-38710d9486de] [emote:a859cc12-453a-4bd8-b650-38710d9486de]"
@@ -12673,6 +12665,14 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @FartVader just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 nadietv is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: ❤️Stumble with the bois!❤️! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -12681,7 +12681,7 @@
       "timedMessages": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "❤️Stumble with the bois!❤️",
       "profile": "Chill gaming crew on nadietv, loving WoW, Stumble Guys, Path of Exile 2, Dota, retro oldies. Stream thrives on spontaneous “VOTE ALERT!!” shoutouts, “hard reset” moments, “Will be relax day” chill streams, and auction day excitement. Celebrate with “hard reset” waves, “Blazeee” vibes, spontaneous cheers, always ending with a celebratory “hard reset.”",
       "_profileAtCount": 10843,
       "gameOverride": "",
@@ -12898,9 +12898,9 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1793650611978,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793667891821,
+      "isLive": true,
+      "streamCategory": "Stumble Guys",
       "voteLog": [
         {
           "t": 1792458813905,
@@ -18389,7 +18389,7 @@
         "totalVotes": 27818,
         "totalSubs": 96,
         "totalChatMessages": 3094,
-        "totalStreamMinutes": 24610,
+        "totalStreamMinutes": 24630,
         "emotes": {
           "🔥": 885,
           "🔴": 200,
@@ -28274,17 +28274,17 @@
       "language": "pt",
       "joinedAt": 1784645250413,
       "stats": {
-        "totalVotes": 25191,
+        "totalVotes": 25256,
         "totalSubs": 40,
-        "totalChatMessages": 58566,
-        "totalStreamMinutes": 26730,
+        "totalChatMessages": 58644,
+        "totalStreamMinutes": 26741,
         "emotes": {
           "❤": 184,
           "🙌": 174,
           "🤝": 4,
           "🔥": 84,
           "🔴": 144,
-          "🎉": 1502,
+          "🎉": 1505,
           "🪙": 1312,
           "⚡": 941,
           "👀": 144,
@@ -28292,12 +28292,12 @@
           "🤗": 103,
           "😊": 28,
           "🌻": 6,
-          "🗳": 852,
+          "🗳": 855,
           "☺": 73,
           "😎": 6,
           "😁": 8,
-          "📴": 145,
-          "👋": 151,
+          "📴": 146,
+          "👋": 152,
           "🛒": 16,
           "😀": 7,
           "😍": 20,
@@ -28461,7 +28461,7 @@
           "🥺": 2,
           "🥈": 177,
           "🥉": 177,
-          "⭐": 585,
+          "⭐": 586,
           "ed33deac-91d6-41ec-b190-7b36e266af70": 17,
           "✊": 2,
           "✋": 2,
@@ -28743,48 +28743,48 @@
           "🎵": "🎵"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793666739575
+        "lastChatAt": 1793667511856
       },
       "chatMemory": [
         {
-          "user": "renato_rodr_01",
-          "msg": "11 minutos e um sonho"
+          "user": "lovemikami",
+          "msg": "kkkkkkkkkk"
         },
         {
-          "user": "renato_rodr_01",
-          "msg": "Sarinha nervosou"
+          "user": "lovemikami",
+          "msg": "pelo menos hoje foi feriado lipe"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "kkkkkkkkkk"
+        },
+        {
+          "user": "lipeman",
+          "msg": "passou rápido"
+        },
+        {
+          "user": "lipeman",
+          "msg": "kkkkkkkk"
         },
         {
           "user": "lucas93925052",
-          "msg": "Vou prestar mais atenção pra não perder mania dk"
+          "msg": "Valeu éden valeu pessoal"
+        },
+        {
+          "user": "renato_rodr_01",
+          "msg": "Valeu galera!"
+        },
+        {
+          "user": "lovemikami",
+          "msg": "valeu"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 A live acabou. Obrigado por assistir! Até a próxima 👋"
         },
         {
           "user": "poderosobot",
-          "msg": "Parabéns, @lucas93925052! Você subiu para o Nível 9! 🎉"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "GG"
-        },
-        {
-          "user": "renato_rodr_01",
-          "msg": "GG"
-        },
-        {
-          "user": "mauhzera",
-          "msg": "kkkkkkk"
-        },
-        {
-          "user": "lucas93925052",
-          "msg": "Parabéns Sarinha ninja GG"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "GG!! 🔥💚 comportamento absoluto de lenda"
-        },
-        {
-          "user": "crispipoquinha",
-          "msg": "gg"
+          "msg": "A live do sofrenciaplay terminou! Obrigado pela companhia e até a próxima!"
         }
       ],
       "customCommands": {},
@@ -28797,13 +28797,13 @@
       "followed": true,
       "botVip": true,
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/7ed430b9-fb4d-437d-b715-93ee211e82a3.jpg",
-      "streamTitle": "Gameplay / Maratona / Desafio / Multiplayer",
+      "streamTitle": "",
       "profile": "sofrenciaplay cranks 1h30m Retro marathons, especially Donkey Kong Country. Chat roars “JOGA SEU JOGO,” celebrates “torradas,” chants “GG” after every win, hyping “Juntos Pelo Lipe” style support. They love “pro player” tags, kaizo‑style jokes, end each stream with “kaizera” laughs. Streamer thrives on “salve” cheers, “kinda” jokes, and “muita coisa” screen chaos.",
       "_profileAtCount": 56924,
       "gameOverride": "",
       "commentMode": "low",
       "lastStreamInfo": "Gameplay / Maratona / Desafio / Multiplayer",
-      "lastStreamEndedAt": 1793651340480,
+      "lastStreamEndedAt": 1793667427543,
       "loyalty": {
         "badger": {
           "name": "badger",
@@ -28947,35 +28947,10 @@
         }
       },
       "_idAt": 1793666449280,
-      "_gameAt": 1793666568599,
-      "isLive": true,
-      "streamCategory": "Retro",
+      "_gameAt": 1793667380958,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
-        {
-          "t": 1792449013616,
-          "v": "kwinchester",
-          "a": 20
-        },
-        {
-          "t": 1792449397050,
-          "v": "crispipoquinha",
-          "a": 5
-        },
-        {
-          "t": 1792449797660,
-          "v": "mauhzera",
-          "a": 1
-        },
-        {
-          "t": 1792450695052,
-          "v": "solucao",
-          "a": 8
-        },
-        {
-          "t": 1792451148420,
-          "v": "brunoseven",
-          "a": 7
-        },
         {
           "t": 1792460214885,
           "v": "cg777",
@@ -29780,6 +29755,11 @@
           "t": 1793651220383,
           "v": "razmr_eth",
           "a": 1
+        },
+        {
+          "t": 1793667147541,
+          "v": "sarinhaa11",
+          "a": 65
         }
       ]
     },
@@ -31976,7 +31956,7 @@
         "totalVotes": 3780,
         "totalSubs": 13,
         "totalChatMessages": 295,
-        "totalStreamMinutes": 9187,
+        "totalStreamMinutes": 9207,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -38015,8 +37995,8 @@
       "stats": {
         "totalVotes": 13634,
         "totalSubs": 38,
-        "totalChatMessages": 5932,
-        "totalStreamMinutes": 20449,
+        "totalChatMessages": 5935,
+        "totalStreamMinutes": 20469,
         "emotes": {
           "👋": 143,
           "⚠": 2,
@@ -38226,17 +38206,9 @@
           "🎃": "🎃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793666318113
+        "lastChatAt": 1793667385425
       },
       "chatMemory": [
-        {
-          "user": "peter_force",
-          "msg": "ty"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "@treefrognada congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Mystery Fish Promo Pack from The Online Inn. View here: https://scurvybot.com/wax/tx/882a610e4f9c62690106cfe1e2f02bd031de0076329b260e7b16ce585717ff53"
-        },
         {
           "user": "scurvybot",
           "msg": "@peter_force, you spent 5 trash digging up an empty hole! You can try again after 5 minutes."
@@ -38268,6 +38240,14 @@
         {
           "user": "scurvybot",
           "msg": "@peter_force congratulations! You successfully dug up Cheese from The Online Inn. View here: https://scurvybot.com/wax/tx/8ea20b47ac692a05a70316b19b345a32759580173c23a4fe097101a1509be5d0"
+        },
+        {
+          "user": "thewill3ffect",
+          "msg": "\"My gameplay is sponsored by confidence. Unfortunately, confidence pulled out.\""
+        },
+        {
+          "user": "scurvybot",
+          "msg": "@thewill3ffect congratulations! Your dig booster increased your dig success chance by 30%. You successfully dug up Search@Hair from Meds. View here: https://scurvybot.com/wax/tx/813d8cbf4f85dc4fc0dfbae4f3a103f94fe55179a88f1b276acbc7c6d59238c7"
         }
       ],
       "customCommands": {
@@ -38394,7 +38374,7 @@
         }
       },
       "_idAt": 1793648446832,
-      "_gameAt": 1793666313531,
+      "_gameAt": 1793667382870,
       "isLive": true,
       "streamCategory": "Just Chatting",
       "voteLog": [
@@ -38763,7 +38743,7 @@
       "stats": {
         "totalVotes": 10389,
         "totalSubs": 33,
-        "totalChatMessages": 2039,
+        "totalChatMessages": 2040,
         "totalStreamMinutes": 9935,
         "emotes": {
           "36b0195a-4517-46df-b99c-12af34c02381": 8,
@@ -38851,14 +38831,15 @@
           "⚠": 2,
           "🎯": 2,
           "📢": 15,
-          "🗳": 18,
+          "🗳": 19,
           "📴": 3,
           "👻": 1,
           "8185acca-b8ef-40dd-87db-4b0e469a03eb": 1,
           "ec3fc6aa-c526-42e1-9fdb-c765752dad7e": 1,
           "☠": 1,
           "🚨": 6,
-          "d6c82b45-1ca6-4f86-89b5-cf94492a049b": 1
+          "d6c82b45-1ca6-4f86-89b5-cf94492a049b": 1,
+          "⏰": 1
         },
         "emoteNames": {
           "36b0195a-4517-46df-b99c-12af34c02381": "danceyeah",
@@ -38953,16 +38934,13 @@
           "ec3fc6aa-c526-42e1-9fdb-c765752dad7e": "SILLYPYRO",
           "☠": "☠",
           "🚨": "🚨",
-          "d6c82b45-1ca6-4f86-89b5-cf94492a049b": "YEP"
+          "d6c82b45-1ca6-4f86-89b5-cf94492a049b": "YEP",
+          "⏰": "⏰"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793635730978
+        "lastChatAt": 1793666894212
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Stream is now offline! Thanks for watching."
-        },
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
@@ -38998,6 +38976,10 @@
         {
           "user": "scurvybot",
           "msg": "Thanks for the 3 votes, @tom2329!"
+        },
+        {
+          "user": "botger",
+          "msg": "⏰ Reminder: your botger free trial expires in less than 24 hours! After it ends, event alerts and OBS overlay remain free. Subscribe at blaze.stream/botger to keep keyphrases, custom commands, and weekly votes. 🗳️"
         }
       ],
       "customCommands": {
@@ -39145,7 +39127,7 @@
         }
       },
       "_idAt": 1793647250404,
-      "_gameAt": 1793635731053,
+      "_gameAt": 1793666894318,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -40339,8 +40321,8 @@
       "stats": {
         "totalVotes": 13117,
         "totalSubs": 21,
-        "totalChatMessages": 444,
-        "totalStreamMinutes": 2268,
+        "totalChatMessages": 445,
+        "totalStreamMinutes": 2288,
         "emotes": {
           "❤": 28,
           "🙌": 37,
@@ -40396,13 +40378,9 @@
           "7512e7d9-73aa-4019-8c8d-a4a48316f221": "HELLOPYRO"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793663259211
+        "lastChatAt": 1793666859264
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "@tai_ subscribed! Thank you!"
-        },
         {
           "user": "botger",
           "msg": "🔥 RESUB HYPE!! 🔥 @tai_ has resubscribed (4 months total, 1 month streak)! Thank you for the continued support! 🙌"
@@ -40434,6 +40412,10 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: 📊 DayTrade | Índices • Metais • Crypto — Leitura do Mercado em Tempo Real! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Streamer: authenticate with ScurvyBot to unlock full features (channel title/category updates and more): https://scurvybot.com/?login=blaze&role=streamer"
         },
         {
           "user": "scurvybot",
@@ -40526,7 +40508,7 @@
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
       "_idAt": 1793648452798,
-      "_gameAt": 1793663259310,
+      "_gameAt": 1793666859364,
       "isLive": true,
       "streamCategory": "Aion 2",
       "voteLog": [
@@ -40979,7 +40961,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 101,
-        "totalStreamMinutes": 7048,
+        "totalStreamMinutes": 7068,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -42318,8 +42300,8 @@
       "stats": {
         "totalVotes": 1282,
         "totalSubs": 3,
-        "totalChatMessages": 992,
-        "totalStreamMinutes": 4998,
+        "totalChatMessages": 995,
+        "totalStreamMinutes": 5007,
         "emotes": {
           "❤": 30,
           "🙌": 19,
@@ -42403,21 +42385,9 @@
           "ef8e6ebf-bf02-4a67-8a25-3c675a5de2bc": "Floatspeakersb"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793665443045
+        "lastChatAt": 1793667300787
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "follow me on the following socials on https://www.linktr.ee/SilverBolt99"
-        },
-        {
-          "user": "botger",
-          "msg": "Donations are not required but appreciated ,if you are donating all donations are final !!! https://ko-fi.com/silverbolt99"
-        },
-        {
-          "user": "botger",
-          "msg": "New streamers enter Silverbolt99 when setting up the botger dashboard. We both get 7 extra days! (Works with a FREE account or If you have an active subscription)"
-        },
         {
           "user": "botger",
           "msg": "⚡Friends, if you haven't joined the Club, you are missing out! Get an account, hit the follow, let's build a huge community! ⚡\n https://club.com/Silverbolt99"
@@ -42445,6 +42415,18 @@
         {
           "user": "scurvybot",
           "msg": "Let's take a moment to follow @Potato_Pete at https://blaze.stream/potato_pete!"
+        },
+        {
+          "user": "botger",
+          "msg": "Lurking is very appreciated thank you for the immensive support !!! lurkers are appreciated here"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "Stream Has Ended See you All Next time on the Next Episode"
         }
       ],
       "customCommands": {},
@@ -42468,9 +42450,9 @@
       "greeted": true,
       "profile": "silverbolt99’s channel is a high‑energy, community‑first hub where every stream opens with “welcome to the BLazeianCrew!” and new followers trigger “❤️ NEW FOLLOWER!! ❤️”. Lurkers are praised, donations appreciated, and the club hype (“⚡Friends, if you haven’t joined the Club…”) keeps the vibe playful. Weekly Sunday giveaways promise up to 1000 votes, celebrated with “Thanks for the X votes” chants.",
       "_profileAtCount": 913,
-      "streamTitle": "SBEp152 Mustard Network〽️/Goop Grind for research station points",
+      "streamTitle": "",
       "lastStreamInfo": "SBEp152 Mustard Network〽️/Goop Grind for research station points",
-      "lastStreamEndedAt": 1793637797443,
+      "lastStreamEndedAt": 1793667295610,
       "gameOverride": "",
       "loyalty": {
         "jasroranox": {
@@ -42489,9 +42471,9 @@
           "tier": 1
         }
       },
-      "_gameAt": 1793665442179,
-      "isLive": true,
-      "streamCategory": "ARC Raiders",
+      "_gameAt": 1793667296145,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792429891380,
@@ -44491,9 +44473,9 @@
       "n": 4
     },
     "zer0cache": {
-      "note": "Quick‑paced gamer who streams with friends, loves decoding hexes, jokes about mic/tech hiccups, thanks viewers with emojis, and plays community events.",
-      "at": 1792137529526,
-      "n": 20
+      "note": "Quick‑paced gamer who streams with friends, loves decoding hexes, jokes about mic hiccups, thanks viewers with emojis, and plays Fortnite, OTG, and community events.",
+      "at": 1793667650710,
+      "n": 21
     },
     "nadietv": {
       "note": "Enjoys playing Dawn of Battle, Path of Exile 2, and Dota, loves folk and progressive metal, and chats with playful, light‑hearted humor.",
@@ -45646,9 +45628,9 @@
       "n": 1
     },
     "sircedricdebled": {
-      "note": "They enjoy playing games, celebrating points with playful emojis and lighthearted banter.",
-      "at": 1793540269642,
-      "n": 1
+      "note": "They love playing games, celebrating points with playful emojis, and bantering lightheartedly about everyday adventures.",
+      "at": 1793666989633,
+      "n": 2
     },
     "kamil": {
       "note": "Kamil enjoys casual games like Flappy Bird, jokes about insects, and shares playful, lighthearted comments during streams",
