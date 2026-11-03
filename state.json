@@ -13,7 +13,12 @@
         "emoteNames": {},
         "sendFailStreak": 0
       },
-      "chatMemory": [],
+      "chatMemory": [
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Hey chat! BlazeianBot is now active in loboblanco's channel! Type !cmd to see what I can do 💚🔥"
+        }
+      ],
       "customCommands": {},
       "streamStart": "",
       "streamEnd": "",
@@ -29,7 +34,19 @@
       "tipTiers": [],
       "locked": false,
       "followed": true,
-      "botVip": true
+      "botVip": true,
+      "raidConfig": {
+        "gif": "",
+        "audio": "https://blazeian-bot.onrender.com/raid-sound/143c4620-2a6d-4182-8bda-bc93350bd2da?v=1793693676329",
+        "audioCredit": "",
+        "label": "RAID",
+        "text": "{raider} has raided your Channel with {count} Awesome People !",
+        "dur": 8,
+        "scale": 1,
+        "box": true,
+        "sound": true,
+        "confetti": true
+      }
     }
   },
   "blocklist": [],
