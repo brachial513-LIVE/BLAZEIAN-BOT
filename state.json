@@ -21956,7 +21956,7 @@
         "totalVotes": 44420,
         "totalSubs": 200,
         "totalChatMessages": 4735,
-        "totalStreamMinutes": 24508,
+        "totalStreamMinutes": 24516,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -22905,22 +22905,22 @@
       "stats": {
         "totalVotes": 38076,
         "totalSubs": 38,
-        "totalChatMessages": 1778,
-        "totalStreamMinutes": 3083,
+        "totalChatMessages": 1779,
+        "totalStreamMinutes": 3089,
         "emotes": {
           "❤": 38,
           "🙌": 53,
           "🗳": 810,
           "🚨": 78,
           "🎉": 45,
-          "👋": 54,
+          "👋": 55,
           "🔥": 126,
           "🤔": 11,
           "🧠": 3,
           "🌀": 4,
           "🚀": 4,
           "👏": 3,
-          "📴": 33,
+          "📴": 34,
           "🥰": 4,
           "🔴": 32,
           "🕺": 11,
@@ -23111,17 +23111,13 @@
           "🤩": "🤩",
           "a80b8258-7a03-4aed-95f8-19ab819775c7": "BLAZEBLAZEBLAZE"
         },
-        "lastChatAt": 1793691246045,
+        "lastChatAt": 1793693309308,
         "sendFailStreak": 305,
         "lastSendFailAt": 1793670802494,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1793670802313
       },
       "chatMemory": [
-        {
-          "user": "dimifw",
-          "msg": "[emote:35c5c2ba-6f7c-4560-838b-72614abe98ba] [emote:35c5c2ba-6f7c-4560-838b-72614abe98ba] [emote:35c5c2ba-6f7c-4560-838b-72614abe98ba]"
-        },
         {
           "user": "mediart",
           "msg": "Hi Dimi"
@@ -23157,6 +23153,10 @@
         {
           "user": "dimifw",
           "msg": "thanks"
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -23171,7 +23171,7 @@
       "followed": true,
       "profile": "dimifw’s community thrives on trash‑talk, vote‑hungry energy, and “cya” when the game gets tough. They cheer loudly for wins, love “what’s gooooood,” “fucking trash game” rants, and “stfu” moments. They celebrate with “GMish” mornings, “raidish” vibes, “DJ Dimish” beats, 4x speed Rocket League, and shout “thanks future” after votes.",
       "_profileAtCount": 1755,
-      "streamTitle": "Streamish #125 - Rocket League",
+      "streamTitle": "",
       "gameOverride": "",
       "loyalty": {
         "cg777": {
@@ -23291,12 +23291,12 @@
         }
       },
       "commentMode": "low",
-      "lastStreamInfo": "Streamish #124 - Rocket League",
-      "lastStreamEndedAt": 1793611924071,
+      "lastStreamInfo": "Streamish #125 - Rocket League",
+      "lastStreamEndedAt": 1793693304107,
       "_idAt": 1793686855375,
-      "_gameAt": 1793691207538,
-      "isLive": true,
-      "streamCategory": "Rocket League",
+      "_gameAt": 1793693309420,
+      "isLive": false,
+      "streamCategory": "",
       "voteLog": [
         {
           "t": 1792483559388,
@@ -31805,7 +31805,7 @@
       "stats": {
         "totalVotes": 3780,
         "totalSubs": 13,
-        "totalChatMessages": 297,
+        "totalChatMessages": 298,
         "totalStreamMinutes": 9482,
         "emotes": {
           "🔥": 11,
@@ -31862,13 +31862,9 @@
           "555a557b-672c-4db0-80d4-85564e0bbac4": "BBB"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793674012855
+        "lastChatAt": 1793693195645
       },
       "chatMemory": [
-        {
-          "user": "loboblanco",
-          "msg": "Estoy esperando a que termine la cinematica xD"
-        },
         {
           "user": "just_for_lucas",
           "msg": "GM"
@@ -31904,6 +31900,10 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "Es todo por hoy, los quiero mascotas! 🐺⚡"
+        },
+        {
+          "user": "srchois",
+          "msg": "Feliz noche bro"
         }
       ],
       "customCommands": {
@@ -31982,7 +31982,7 @@
       "_idAt": 1793689254183,
       "streamCategory": "",
       "isLive": false,
-      "_gameAt": 1793682013551,
+      "_gameAt": 1793693195793,
       "voteLog": [
         {
           "t": 1793533174095,
@@ -32089,7 +32089,19 @@
           "v": "ambi",
           "a": 1
         }
-      ]
+      ],
+      "raidConfig": {
+        "gif": "https://static.klipy.com/ii/4493325008d34b7bf8cd6813cd5c1619/26/73/oOw6wyAX0ueNizP.gif",
+        "audio": "",
+        "audioCredit": "",
+        "label": "RAID",
+        "text": "{raider} has raided your Channel with {count} Awesome People !",
+        "dur": 8,
+        "scale": 1,
+        "box": true,
+        "sound": true,
+        "confetti": true
+      }
     },
     "cb2ce9ff-c2d0-425e-9238-54b535f07d02": {
       "username": "homiedrew",
@@ -36566,7 +36578,7 @@
       "stats": {
         "totalVotes": 6683,
         "totalSubs": 33,
-        "totalChatMessages": 969,
+        "totalChatMessages": 971,
         "totalStreamMinutes": 7012,
         "emotes": {
           "❤": 36,
@@ -36576,8 +36588,8 @@
           "📴": 51,
           "👋": 51,
           "🎁": 22,
-          "🔴": 51,
-          "🎉": 52,
+          "🔴": 52,
+          "🎉": 53,
           "😂": 9,
           "🗳": 87,
           "baf375f8-8af4-4f45-9f1f-cc04d05a44f3": 1,
@@ -36661,17 +36673,9 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793692716478
+        "lastChatAt": 1793693427564
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "clutchking showing up with 60 votes like a real one 💚🔥"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 9 votes, @Jiminy!"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @entropy!"
@@ -36703,6 +36707,14 @@
         {
           "user": "botger",
           "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
+        },
+        {
+          "user": "botger",
+          "msg": "🔴 korosuplays is now live! Welcome everyone! 🎉"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now live: HSR MOC RESET!! Come hang out and watch."
         }
       ],
       "customCommands": {},
@@ -36713,7 +36725,7 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "",
+      "streamTitle": "HSR MOC RESET!",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/cc663e2e-024f-4be4-a124-9cdcbb5ed335.jpg",
       "followed": true,
@@ -36816,9 +36828,9 @@
         }
       },
       "_idAt": 1793692848176,
-      "streamCategory": "",
-      "isLive": false,
-      "_gameAt": 1793692711735,
+      "streamCategory": "Honkai Star Rail",
+      "isLive": true,
+      "_gameAt": 1793693427260,
       "voteLog": [
         {
           "t": 1792429891323,
@@ -37816,7 +37828,7 @@
         "totalVotes": 13634,
         "totalSubs": 38,
         "totalChatMessages": 6099,
-        "totalStreamMinutes": 20676,
+        "totalStreamMinutes": 20685,
         "emotes": {
           "👋": 146,
           "⚠": 2,
@@ -40132,7 +40144,7 @@
         "totalVotes": 13117,
         "totalSubs": 21,
         "totalChatMessages": 446,
-        "totalStreamMinutes": 2704,
+        "totalStreamMinutes": 2713,
         "emotes": {
           "❤": 28,
           "🙌": 37,
