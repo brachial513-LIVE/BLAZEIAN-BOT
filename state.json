@@ -7,11 +7,12 @@
       "stats": {
         "totalVotes": 0,
         "totalSubs": 0,
-        "totalChatMessages": 0,
+        "totalChatMessages": 1,
         "totalStreamMinutes": 0,
         "emotes": {},
         "emoteNames": {},
-        "sendFailStreak": 0
+        "sendFailStreak": 0,
+        "lastChatAt": 1793707990909
       },
       "chatMemory": [
         {
@@ -21,6 +22,10 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "@loboblanco Massive shoutout to the whole crew for raiding! 💥🔥"
+        },
+        {
+          "user": "razmr_eth",
+          "msg": "https://scurvybot. com/"
         }
       ],
       "customCommands": {},
@@ -52,7 +57,11 @@
         "confetti": true
       },
       "_idAt": 1793693740787,
-      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/46963d69-f6f0-479b-8169-7ef0626be6ec.png"
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/46963d69-f6f0-479b-8169-7ef0626be6ec.png",
+      "_gameAt": 1793707991005,
+      "isLive": false,
+      "streamCategory": "",
+      "streamTitle": ""
     }
   },
   "blocklist": [],
