@@ -1,5 +1,34 @@
 {
-  "channels": {},
+  "channels": {
+    "143c4620-2a6d-4182-8bda-bc93350bd2da": {
+      "username": "loboblanco",
+      "language": "en",
+      "joinedAt": 1793693643136,
+      "stats": {
+        "totalVotes": 0,
+        "totalSubs": 0,
+        "totalChatMessages": 0,
+        "totalStreamMinutes": 0,
+        "emotes": {},
+        "emoteNames": {},
+        "sendFailStreak": 0
+      },
+      "chatMemory": [],
+      "customCommands": {},
+      "streamStart": "",
+      "streamEnd": "",
+      "schedule": "",
+      "commandMedia": {},
+      "giveaway": {
+        "joinCmd": "",
+        "viewCmd": "",
+        "open": false,
+        "entries": []
+      },
+      "timedMessages": [],
+      "tipTiers": []
+    }
+  },
   "blocklist": [],
   "optedOutUsers": [],
   "ignoredPeople": [],
@@ -22,7 +51,7 @@
   },
   "learnedPeople": {},
   "giveawayInfo": "",
-  "lastAnnouncedVersion": null,
+  "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1793693585068,
   "sessions": {},
   "auth": {
