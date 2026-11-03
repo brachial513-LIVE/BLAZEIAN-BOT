@@ -17897,7 +17897,7 @@
       "followed": true,
       "streamTitle": "",
       "profile": "Bidlo crew lives for heavy riffs, good vibes, and epic “Bidlo Wheel” moments. We jam Tony Hawk soundtracks, growl‑heavy songs, and “Guitar and Chill” sessions with “love fest” vibes. Shout “GET OUTTA TOWN” and “LET’S GOOO” in the BidloZone, celebrate “100 votes” milestones, raid excitement, and “Bidlo lore” on Lore Tuesday. We love “Bidlo Silverhand” moments, reply with !pick and “Bidlo emote”.",
-      "_profileAtCount": 18357,
+      "_profileAtCount": 18413,
       "gameOverride": "",
       "loyalty": {
         "mindgoblin": {
@@ -21956,7 +21956,7 @@
         "totalVotes": 44420,
         "totalSubs": 200,
         "totalChatMessages": 4735,
-        "totalStreamMinutes": 24451,
+        "totalStreamMinutes": 24465,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -22906,7 +22906,7 @@
         "totalVotes": 38075,
         "totalSubs": 38,
         "totalChatMessages": 1776,
-        "totalStreamMinutes": 3027,
+        "totalStreamMinutes": 3040,
         "emotes": {
           "❤": 38,
           "🙌": 53,
@@ -34245,7 +34245,7 @@
       "stats": {
         "totalVotes": 229174,
         "totalSubs": 40,
-        "totalChatMessages": 1534,
+        "totalChatMessages": 1535,
         "totalStreamMinutes": 3351,
         "emotes": {
           "💚": 1,
@@ -34260,8 +34260,8 @@
           "❤": 65,
           "👋": 50,
           "👍": 2,
-          "⚠": 4,
-          "🎯": 4,
+          "⚠": 5,
+          "🎯": 5,
           "🗳": 489,
           "🙌": 61,
           "✌": 1,
@@ -34378,16 +34378,12 @@
           "💛": "💛"
         },
         "sendFailStreak": 255,
-        "lastChatAt": 1793682400083,
+        "lastChatAt": 1793690074065,
         "lastSendFailAt": 1793670807190,
         "lastSendFailReason": "You are banned from this channel.",
         "lastProbeAt": 1793670806593
       },
       "chatMemory": [
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 300 vote(s) (total: 600)! Thank you!! 🗳️"
-        },
         {
           "user": "future42",
           "msg": "Blazing into the Weekend!!!"
@@ -34423,6 +34419,10 @@
         {
           "user": "botger",
           "msg": "🗳️ VOTE ALERT!! 🗳️ @Sheena just gave 500 vote(s) (total: 500)! Thank you!! 🗳️"
+        },
+        {
+          "user": "botger",
+          "msg": "⚠️ Heads up clutchking! You're projected to fall below Verified (Tier 2) in about 7 days (2026/11/10 07:14 UTC). Current stream hours: 11.0h / 10h required. Stream more to keep your Verified status! 🎯"
         }
       ],
       "customCommands": {},
@@ -34536,7 +34536,7 @@
       "nudgedAt": 1786147592153,
       "nudgedKey": "schedule",
       "_idAt": 1793668849271,
-      "_gameAt": 1793682400230,
+      "_gameAt": 1793690074166,
       "isLive": false,
       "streamCategory": "",
       "voteLog": [
@@ -37811,7 +37811,7 @@
         "totalVotes": 13634,
         "totalSubs": 38,
         "totalChatMessages": 6093,
-        "totalStreamMinutes": 20620,
+        "totalStreamMinutes": 20633,
         "emotes": {
           "👋": 146,
           "⚠": 2,
@@ -40127,7 +40127,7 @@
         "totalVotes": 13117,
         "totalSubs": 21,
         "totalChatMessages": 446,
-        "totalStreamMinutes": 2648,
+        "totalStreamMinutes": 2661,
         "emotes": {
           "❤": 28,
           "🙌": 37,
@@ -44268,9 +44268,9 @@
       "n": 20
     },
     "zsoltech": {
-      "note": "Competitive PS5 gamer who loves realistic graphics, reacts with excitement and humor during streams.",
-      "at": 1793560069625,
-      "n": 9
+      "note": "Competitive PS5 gamer who loves realistic graphics, reacts with excitement and humor during streams, often thanks viewers for joining game nights and shares playful banter.",
+      "at": 1793690089766,
+      "n": 10
     },
     "sheena": {
       "note": "Sheena is a lively and enthusiastic person who plays games like Glassbridge and Bob game, enjoys expressing herself with humor and excitement, and has a playful sense of humor.",
@@ -45501,8 +45501,8 @@
     }
   },
   "auth": {
-    "accessToken": "c0518b0f443c0e2c1d49787ad4de894c",
-    "refreshToken": "94fc41da74f1a602288fc364cc067c48",
+    "accessToken": "c4237d3a991dcdc5cccc5c79ddd31134",
+    "refreshToken": "58ebe239540971769d593e163b2c294c",
     "sessionToken": "43fd29087c5ee6cd00e2f35e6f300e25",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
