@@ -10384,7 +10384,7 @@
       "stats": {
         "totalVotes": 52393,
         "totalSubs": 141,
-        "totalChatMessages": 17225,
+        "totalChatMessages": 17228,
         "totalStreamMinutes": 10667,
         "emotes": {
           "❤": 295,
@@ -10985,21 +10985,9 @@
           "🐕": "🐕"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793662732900
+        "lastChatAt": 1793680192366
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "Ambi, 40 votes for briggsy—thank you for the love! 🥰🥰🥰"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "piweb came through with 50 💚 no notes, perfect behaviour 🔥"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @piweb just gave 50 vote(s) (total: 50)! Thank you!! 🗳️"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "100 votes from octo 👀💚 that's the good stuff right there, thank you!"
@@ -11027,6 +11015,18 @@
         {
           "user": "blazeian_bot_ai",
           "msg": "200 votes from badger, thank you! ❤️"
+        },
+        {
+          "user": "botger",
+          "msg": "Welcome, welcome, briggsy is attempting to go live."
+        },
+        {
+          "user": "lvl4goblin",
+          "msg": "good evenin"
+        },
+        {
+          "user": "briggsy",
+          "msg": "hey man"
         }
       ],
       "customCommands": {},
@@ -11036,7 +11036,7 @@
       "locked": false,
       "followed": true,
       "botVip": true,
-      "streamTitle": "",
+      "streamTitle": "Bluesday evening schtuff",
       "gameOverride": "",
       "profile": "Briggsy’s channel is a lively, supportive hub where “Epoch Flip Day” and “Farlight 84” shenanigans reign. The community thrives on art, dance with “💃💃💃”, off‑the‑grid vibes, chess, IRL streams, and celebrates with “🥰🥰🥰”, “it’s good”, “Always if I’m here, it’s my pleasure”, “u want it”, “Fartvader” jokes, and “heeeeeyaaaa” greetings. They love “Reds” and “BLAZE DEFI” buzz.",
       "_profileAtCount": 17193,
@@ -11253,9 +11253,9 @@
       "lastStreamInfo": "Beach day with Mellow",
       "lastStreamEndedAt": 1793317522420,
       "_idAt": 1793659473887,
-      "_gameAt": 1793662733001,
-      "isLive": false,
-      "streamCategory": "",
+      "_gameAt": 1793680152195,
+      "isLive": true,
+      "streamCategory": "IRL",
       "voteLog": [
         {
           "t": 1792462732822,
@@ -21956,7 +21956,7 @@
         "totalVotes": 44420,
         "totalSubs": 200,
         "totalChatMessages": 4731,
-        "totalStreamMinutes": 24294,
+        "totalStreamMinutes": 24296,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -31801,7 +31801,7 @@
         "totalVotes": 3780,
         "totalSubs": 13,
         "totalChatMessages": 297,
-        "totalStreamMinutes": 9366,
+        "totalStreamMinutes": 9368,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -40122,7 +40122,7 @@
         "totalVotes": 13117,
         "totalSubs": 21,
         "totalChatMessages": 446,
-        "totalStreamMinutes": 2490,
+        "totalStreamMinutes": 2493,
         "emotes": {
           "❤": 28,
           "🙌": 37,
@@ -44959,8 +44959,8 @@
     },
     "grim1angel": {
       "note": "Enjoys playing Ballz, frequently uses emotes, chats warmly with subs, and loves sharing and discussing upbeat music and catchy tunes.",
-      "at": 1789484475782,
-      "n": 5
+      "at": 1793680189822,
+      "n": 6
     },
     "poderosotv": {
       "note": "Enjoys online roulette, celebrates wins with playful excitement, loves chatting about site updates, coffee breaks, and friendly greetings with fellow viewers.",
@@ -45496,8 +45496,8 @@
     }
   },
   "auth": {
-    "accessToken": "b2c65d9f927929aa7e31ba22b8995be8",
-    "refreshToken": "4b5a22382785d56101e824cc9f8b0097",
+    "accessToken": "d69751cf6e18308826a6722e4a39ae2a",
+    "refreshToken": "18305814133a62994137b7ee85a8f62a",
     "sessionToken": "43fd29087c5ee6cd00e2f35e6f300e25",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
