@@ -56,11 +56,16 @@
   "giveawayInfo": "",
   "lastAnnouncedVersion": "2026-07-12.1",
   "lastOnlineAnnounceAt": 1793693585068,
-  "sessions": {},
+  "sessions": {
+    "c5f42445b32aa49728027aa44f2b1a316632e9a51ef06190": {
+      "username": "loboblanco",
+      "exp": 1794298446180
+    }
+  },
   "auth": {
     "accessToken": "5cd7415d5c88247fc4d1f6d6d5b13dfc",
     "refreshToken": null,
-    "sessionToken": "f752bafb353e2e3290497caa528dbd3b",
+    "sessionToken": "89fc07867df4810546b3571144383c93",
     "sessionVisitorId": "6219eacf-8cd8-4ba8-8401-bd5ad3e9c70f"
   }
 }
