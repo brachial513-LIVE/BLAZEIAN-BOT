@@ -196,6 +196,18 @@ const GH_HEADERS = {
   "User-Agent": "BlazeianBot"
 };
 let _stateSha = null;   // blob SHA of the state file; required by GitHub to overwrite it
+// Set when the startup load did NOT really succeed — while true, saves are refused, so a failed load
+// can never overwrite the real state with an empty one. Proven live 2026-11-03: wiped 95 channels to 0.
+let _loadFailed = false;
+
+// The contents API returns NO content (encoding "none") once a file passes 1 MB — state.json hit
+// 1.24 MB, the bot parsed "" as {} and saved 0 channels over the real list. The git blobs API serves
+// up to 100 MB, so files that big are read from there.
+async function readStateBlob(meta) {
+  if (meta.content && meta.encoding === "base64") return Buffer.from(meta.content, "base64").toString("utf8");
+  const b = await axios.get(`https://api.github.com/repos/${GH_REPO}/git/blobs/${meta.sha}`, { headers: GH_HEADERS, timeout: 30000 });
+  return Buffer.from(b.data.content, "base64").toString("utf8");
+}
 
 // Apply a loaded state object to the in-memory globals.
 function applyLoadedState(record) {
@@ -257,8 +269,9 @@ async function loadChannelsFromCloud() {
   try {
     const res = await axios.get(`${GH_API}?ref=${GH_BRANCH}`, { headers: GH_HEADERS, timeout: 15000 });
     _stateSha = res.data.sha;
-    const json = Buffer.from(res.data.content, "base64").toString("utf8");
-    const record = JSON.parse(json || "{}");
+    const json = await readStateBlob(res.data);
+    if (!json.trim()) throw new Error("state file came back empty");
+    const record = JSON.parse(json);
     const data = applyLoadedState(record);
     console.log("Loaded channels:", Object.keys(data).length, "| blocklist:", blocklist.length, "(from GitHub)");
     return data;
@@ -277,6 +290,8 @@ async function loadChannelsFromCloud() {
       return {};
     }
     console.log("GitHub load error:", e.response?.status, e.response?.data?.message || e.message);
+    _loadFailed = true;
+    console.log("⛔ [STORAGE] Load failed — saving is DISABLED this run so the real state.json is not overwritten. Fix the cause and restart.");
     return {};
   }
 }
@@ -290,6 +305,7 @@ async function saveChannelsToCloud() {
 let _saveChain = Promise.resolve();
 async function _writeStateToGitHub() {
   if (!GH_TOKEN) { console.log("Save skipped — no GITHUB_TOKEN."); return; }
+  if (_loadFailed) { console.log("⛔ Save skipped — startup load failed, protecting state.json."); return; }
   const body = {
     channels,
     blocklist,
@@ -5079,7 +5095,8 @@ async function githubPutFile(path, buffer, message) {
     const g = await axios.get(api, { headers: GH_HEADERS, params: { ref: GH_BRANCH } });
     sha = g.data && g.data.sha;
   } catch (e) { /* 404 → new file */ }
-  const body = { message, content: buffer.toString("base64"), branch: GH_BRANCH };
+  // [skip render]: a streamer's media upload must not redeploy (= restart) the whole bot.
+  const body = { message: `${message} [skip render]`, content: buffer.toString("base64"), branch: GH_BRANCH };
   if (sha) body.sha = sha;
   await axios.put(api, body, { headers: GH_HEADERS });
 }
@@ -5361,6 +5378,34 @@ app.get("/admin/refreshall", async (req, res) => {
   res.send(`<pre style="font-family:monospace;font-size:13px;white-space:pre-wrap;">refreshAll — checked ${checked}, updated ${changes.length}, errors ${errors}
 
 ${esc(body)}</pre>`);
+});
+
+// Restore channels from an older state.json commit (e.g. after a wipe). Old data is the base; current
+// data only fills what the old snapshot lacks, and the current (freshest) tokens are kept. Then the bot
+// restarts so every restored channel gets subscribed on a clean boot.
+app.get("/admin/restorestate/:commit", async (req, res) => {
+  if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
+  try {
+    const meta = await axios.get(`${GH_API}?ref=${encodeURIComponent(req.params.commit)}`, { headers: GH_HEADERS, timeout: 15000 });
+    const old = JSON.parse(await readStateBlob(meta.data));
+    const n = Object.keys(old.channels || {}).length;
+    if (n < 5) return res.send(`Refusing: that snapshot only has ${n} channel(s).`);
+    delete old.auth;
+    const cur = channels;
+    const restored = applyLoadedState(old);
+    const empty = v => v == null || v === "" || (typeof v === "object" && Object.keys(v).length === 0);
+    for (const [id, c] of Object.entries(cur)) {
+      if (!restored[id]) { restored[id] = c; continue; }
+      for (const [k, v] of Object.entries(c)) if (empty(restored[id][k])) restored[id][k] = v;
+    }
+    channels = restored;
+    _loadFailed = false;
+    await saveChannelsNow();
+    res.send(`✅ Restored ${Object.keys(channels).length} channels from ${esc(req.params.commit)}. Bot restarts in 2s — give it a minute.`);
+    setTimeout(() => process.exit(0), 2000);
+  } catch (e) {
+    res.status(500).send("Restore failed: " + esc(e.response?.data?.message || e.message));
+  }
 });
 
 app.get("/admin/refreshidentity/:username", async (req, res) => {
