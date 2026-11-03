@@ -21956,7 +21956,7 @@
         "totalVotes": 44420,
         "totalSubs": 200,
         "totalChatMessages": 4735,
-        "totalStreamMinutes": 24496,
+        "totalStreamMinutes": 24508,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -22906,7 +22906,7 @@
         "totalVotes": 38076,
         "totalSubs": 38,
         "totalChatMessages": 1778,
-        "totalStreamMinutes": 3072,
+        "totalStreamMinutes": 3083,
         "emotes": {
           "❤": 38,
           "🙌": 53,
@@ -35538,7 +35538,7 @@
         "open": false,
         "entries": []
       },
-      "_idAt": 1793670048068,
+      "_idAt": 1793692847003,
       "_gameAt": 1793649806078,
       "isLive": false,
       "streamCategory": "",
@@ -36566,15 +36566,15 @@
       "stats": {
         "totalVotes": 6683,
         "totalSubs": 33,
-        "totalChatMessages": 967,
-        "totalStreamMinutes": 7004,
+        "totalChatMessages": 969,
+        "totalStreamMinutes": 7012,
         "emotes": {
           "❤": 36,
           "🙌": 44,
           "📢": 14,
           "🔥": 72,
-          "📴": 50,
-          "👋": 50,
+          "📴": 51,
+          "👋": 51,
           "🎁": 22,
           "🔴": 51,
           "🎉": 52,
@@ -36661,17 +36661,9 @@
           "💚": "💚"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793692095030
+        "lastChatAt": 1793692716478
       },
       "chatMemory": [
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 10 votes, @Sheena!"
-        },
-        {
-          "user": "scurvybot",
-          "msg": "Thanks for the 60 votes, @ClutchKing!"
-        },
         {
           "user": "blazeian_bot_ai",
           "msg": "clutchking showing up with 60 votes like a real one 💚🔥"
@@ -36703,6 +36695,14 @@
         {
           "user": "scurvybot",
           "msg": "Stream is now live: HSR MOC RESET!! Come hang out and watch."
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Stream is now offline! Thanks for watching."
+        },
+        {
+          "user": "botger",
+          "msg": "📴 Stream has ended. Thanks for watching! See you next time 👋"
         }
       ],
       "customCommands": {},
@@ -36713,14 +36713,14 @@
       "tipTiers": [],
       "greeted": true,
       "locked": false,
-      "streamTitle": "HSR MOC RESET!",
+      "streamTitle": "",
       "gameOverride": "",
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/cc663e2e-024f-4be4-a124-9cdcbb5ed335.jpg",
       "followed": true,
       "profile": "korosuplays is a Blaze livestream community that “BLAZEs” the night away, focusing on League of Legends and Crypto. We shout “NEW FOLLOWER!!”, “GIFTED SUB!!”, celebrate “BLAZEing” achievements with emojis and “very lovely” responses. The streamer loves being celebrated with “BLAZEing” emojis and enthusiastic “BLAZE” shoutouts. Keep the “BLAZE” spirit alive!",
       "_profileAtCount": 946,
-      "lastStreamInfo": "BOO?",
-      "lastStreamEndedAt": 1793534940818,
+      "lastStreamInfo": "HSR MOC RESET!",
+      "lastStreamEndedAt": 1793692711315,
       "nudgedAt": 1787193926827,
       "nudgedKey": "schedule",
       "loyalty": {
@@ -36815,10 +36815,10 @@
           "tier": 1
         }
       },
-      "_idAt": 1793670049276,
-      "streamCategory": "Honkai Star Rail",
-      "isLive": true,
-      "_gameAt": 1793692094847,
+      "_idAt": 1793692848176,
+      "streamCategory": "",
+      "isLive": false,
+      "_gameAt": 1793692711735,
       "voteLog": [
         {
           "t": 1792429891323,
@@ -37786,7 +37786,7 @@
       "_profileAtCount": 86,
       "nudgedAt": 1786981105091,
       "nudgedKey": "schedule",
-      "_idAt": 1793670051696,
+      "_idAt": 1793692850573,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793657654470,
@@ -37815,8 +37815,8 @@
       "stats": {
         "totalVotes": 13634,
         "totalSubs": 38,
-        "totalChatMessages": 6098,
-        "totalStreamMinutes": 20665,
+        "totalChatMessages": 6099,
+        "totalStreamMinutes": 20676,
         "emotes": {
           "👋": 146,
           "⚠": 2,
@@ -38026,13 +38026,9 @@
           "🎃": "🎃"
         },
         "sendFailStreak": 0,
-        "lastChatAt": 1793691956971
+        "lastChatAt": 1793692674537
       },
       "chatMemory": [
-        {
-          "user": "peter_force",
-          "msg": "spaceman"
-        },
         {
           "user": "briggsy",
           "msg": "opal"
@@ -38068,6 +38064,10 @@
         {
           "user": "inn",
           "msg": "welcome inn"
+        },
+        {
+          "user": "inn",
+          "msg": "Chicken"
         }
       ],
       "customCommands": {
@@ -38193,8 +38193,8 @@
           "tier": 1
         }
       },
-      "_idAt": 1793671246934,
-      "_gameAt": 1793691957111,
+      "_idAt": 1793692868965,
+      "_gameAt": 1793692674688,
       "isLive": true,
       "streamCategory": "Just Chatting",
       "voteLog": [
@@ -38946,7 +38946,7 @@
           "dur": 0
         }
       },
-      "_idAt": 1793670050468,
+      "_idAt": 1793692849379,
       "_gameAt": 1793670807270,
       "isLive": false,
       "streamCategory": "",
@@ -39797,7 +39797,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793670052874,
+      "_idAt": 1793692851778,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1793403064233
@@ -39895,7 +39895,7 @@
       "lastStreamInfo": "come chat fortnite og live event  (!discord) — Fortnite",
       "lastStreamEndedAt": 1788026352900,
       "gameOverride": "",
-      "_idAt": 1793670054068
+      "_idAt": 1793692852972
     },
     "521e9714-34db-46ea-a803-c0b11d18aabd": {
       "username": "mutzume",
@@ -39990,7 +39990,7 @@
       "lastStreamInfo": "POKESURVIVOR | W/ KUYA @FartVader, And KUYA @JaggerJack",
       "lastStreamEndedAt": 1792600214809,
       "gameOverride": "",
-      "_idAt": 1793670055278,
+      "_idAt": 1793692854176,
       "loyalty": {
         "noodles": {
           "name": "noodles",
@@ -40119,7 +40119,7 @@
       "lastStreamEndedAt": 1790496719480,
       "profile": "zeenlive’s stream is a nonstop, high‑energy hangout where “gm gm bro” greets the chat and “NEW FOLLOWER!!” erupts with every new join. The community thrives on quick emote bursts, playful banter, and a constant stream of “❤️” and “🙌” celebrations. The channel loves being praised with enthusiastic shoutouts, keeping the vibe lively and inclusive.",
       "_profileAtCount": 44,
-      "_idAt": 1793671248067,
+      "_idAt": 1793692868867,
       "_gameAt": 1792680347655,
       "isLive": false,
       "streamCategory": ""
@@ -40132,7 +40132,7 @@
         "totalVotes": 13117,
         "totalSubs": 21,
         "totalChatMessages": 446,
-        "totalStreamMinutes": 2693,
+        "totalStreamMinutes": 2704,
         "emotes": {
           "❤": 28,
           "🙌": 37,
@@ -40317,7 +40317,7 @@
       "_profileAtCount": 446,
       "nudgedAt": 1789483688197,
       "nudgedKey": "schedule",
-      "_idAt": 1793671252888,
+      "_idAt": 1793692868868,
       "_gameAt": 1793668599048,
       "isLive": false,
       "streamCategory": "",
@@ -40603,7 +40603,7 @@
       "gameOverride": "",
       "profile": "starmouse307319 streams energetic, community‑first gameplay, shouting “Welcome everyone!” and “Thanks for watching!” to celebrate viewers. The chat loves quick “follow” prompts, “Let’s take a moment to follow” links, and playful banter. Recurring slang includes “hi welcome how are you?” and “nice to hear that”. The vibe is friendly, inclusive, and always encouraging new followers.",
       "_profileAtCount": 86,
-      "_idAt": 1793671250478
+      "_idAt": 1793692868865
     },
     "b9633d43-f55f-4bb2-825e-92c0c1422e87": {
       "username": "precidobos",
@@ -40694,7 +40694,7 @@
           "tier": 1
         }
       },
-      "_idAt": 1793671249271,
+      "_idAt": 1793692868863,
       "_gameAt": 1792257951239,
       "isLive": false,
       "streamCategory": ""
@@ -40761,7 +40761,7 @@
       "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/f64a634d-8908-45cf-8143-8a641931b8c8.png",
       "followed": true,
       "botVip": true,
-      "_idAt": 1793671254082
+      "_idAt": 1793692868862
     },
     "a8d36ae2-d8e9-4f53-a27d-55c1506a9fbc": {
       "username": "reddeadrasta",
@@ -41033,7 +41033,7 @@
       "gameOverride": "",
       "profile": "corneto streams arcana maps, farming ammo for MoG at level 225+ with a crew that loves “yow @alliveall” and “LD incoming soon 😂😂”. The chat thrives on quick “ggsssssssssssss” and “🔥🔥🔥” reactions, celebrates votes with “🗳️ VOTE ALERT!!”, and celebrates followers with “❤️ NEW FOLLOWER!! ❤️”. The vibe is fast‑paced, playful, and always ready for the next LD.",
       "_profileAtCount": 74,
-      "_idAt": 1793671255277,
+      "_idAt": 1793692868878,
       "streamCategory": "",
       "isLive": false,
       "_gameAt": 1792675005141,
@@ -41107,7 +41107,7 @@
       "lastStreamInfo": "[ES/EN]💥 | HABBO - BLACK JACK | GIVEAWAY!! — Habbo Hotel",
       "lastStreamEndedAt": 1788999484327,
       "gameOverride": "",
-      "_idAt": 1793671251672
+      "_idAt": 1793692868862
     },
     "abe9ce7b-abb9-421e-8063-f29ee331e751": {
       "username": "jagsman",
