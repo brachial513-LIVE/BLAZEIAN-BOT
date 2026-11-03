@@ -1766,6 +1766,22 @@ function buildCrewStatsBlock() {
     `Most active chat: ${chat || "no chat activity tracked yet"}`;
 }
 
+// CREW LIVE NOW — "what's up on Blaze / was gibt's Neues / who's live?" gets the real list of crew
+// channels streaming right now. Proven gap: gaara27 asked "und auf Blaze?" and got "just chill vibes"
+// while several crew members were live. isLive can be stale after a restart, so each candidate is
+// re-confirmed with Blaze (fetchLiveGame caches 3 min, so this stays cheap).
+const CREW_LIVE_KEYWORDS = /\b(wer (ist|streamt) (gerade |grad )?live|jemand live|who('?s| is) (live|streaming)|anyone (live|streaming)|was gibt'?s (so )?neues|what'?s new|what'?s (up|going on|happening) on blaze|(auf|on) blaze\b\s*\??$|was (geht|läuft) (so )?(auf|bei) blaze)/i;
+function looksLikeCrewLiveQuery(msg) { return CREW_LIVE_KEYWORDS.test(msg || ""); }
+async function buildCrewLiveBlock(currentId) {
+  const cands = Object.entries(channels).filter(([id, c]) => id !== currentId && id !== BOT_CHANNEL_ID && c?.username && c.isLive).slice(0, 12);
+  await Promise.all(cands.map(([id]) => fetchLiveGame(id).catch(() => {})));
+  const live = cands.filter(([id]) => channels[id]?.isLive).slice(0, 6)
+    .map(([, c]) => `${c.username}${c.streamCategory ? ` — playing ${c.streamCategory}` : ""}${c.streamTitle ? ` ("${c.streamTitle}")` : ""}`);
+  return `\n\nCREW LIVE NOW (real, just checked with Blaze — the person asked what's going on, so naming these crew members IS wanted here, as fellow crew, not as competition to the current stream):\n` +
+    (live.length ? live.join("\n") + `\nMention one to three of them naturally, e.g. "one of our crew, NAME, is live right now with GAME". Never invent anyone or any game not listed.`
+                 : `Nobody else from the crew is live right now — say that honestly, don't invent anyone.`);
+}
+
 // WEBSITE INFO — grounds questions about "your website"/comics/dashboard in real, current facts
 // pulled straight from the bot's own live config (the comics ARE served by this same process, so no
 // actual web fetch is needed — this data IS the website). Proven live failure: asked "do you know
@@ -2014,7 +2030,8 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
 
   let searchBlock = "";
   const cryptoBlock = await buildCryptoPriceBlock(userMessage);
-  if (TAVILY_API_KEY && !blazeStatusNote && !cryptoBlock && !looksLikeGiveawayQuery(userMessage) && !looksLikeCrewStatsQuery(userMessage) && !looksLikeWebsiteInfoQuery(userMessage)) {
+  const crewLiveBlock = looksLikeCrewLiveQuery(userMessage) ? await buildCrewLiveBlock(findChannelByUsername(ch?.username)) : "";
+  if (TAVILY_API_KEY && !blazeStatusNote && !cryptoBlock && !crewLiveBlock && !looksLikeGiveawayQuery(userMessage) && !looksLikeCrewStatsQuery(userMessage) && !looksLikeWebsiteInfoQuery(userMessage)) {
     const keywordHit = looksLikeSearchQuery(userMessage);
     const plan = await planWebSearch(userMessage, ch);
     const wants = keywordHit || plan.needed;
@@ -2051,7 +2068,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
         { role: "system", content: BOT_PERSONA + channelContext(ch) +
           `\n\nRECENT CHAT is provided so you understand the ongoing conversation. Reply to the LAST message from ${username} in the natural flow — reference what was just said if it's relevant, don't repeat yourself, and don't answer as if you have no context.` },
         ...historyMsgs,
-        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${blazeStatusNote}${searchBlock}${crewStatsBlock}${websiteInfoBlock}${giveawayBlock}${cryptoBlock}\n\nReply in character, in one short chat message. You are talking TO ${username} right now — if you name or address the person you're replying to, use "${username}" (NEVER the streamer's name in their place; ${username} and the streamer ${channelName} are usually different people). Support ${channelName} as the channel you're in, and don't name other streamers unprompted.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
+        { role: "user", content: `In ${channelName}'s Blaze stream chat, ${username} just said to you: "${userMessage}"${botNote}${blazeStatusNote}${searchBlock}${crewStatsBlock}${websiteInfoBlock}${giveawayBlock}${cryptoBlock}${crewLiveBlock}\n\nReply in character, in one short chat message. You are talking TO ${username} right now — if you name or address the person you're replying to, use "${username}" (NEVER the streamer's name in their place; ${username} and the streamer ${channelName} are usually different people). Support ${channelName} as the channel you're in, and don't name other streamers unprompted.\n\nLANGUAGE: Look ONLY at this exact message from ${username} — "${userMessage}". If it is written in English (or you're unsure), reply in English. If it is clearly written in another language, reply fully in THAT language. Reply in EXACTLY ONE language, never mix — before you answer, check every single word of your reply is in that ONE language, INCLUDING short filler/reaction words (e.g. if replying in English, never drop in a German word like "Richtig" or "genau" — say "Right" / "exactly" instead; the whole reply must be one language, no exceptions). Ignore the language of any earlier chat lines above.` }
       ],
       max_tokens: 400, // headroom so gpt-oss reasoning (counts against this) can't truncate the reply mid-sentence; this runs on the heavy model's own budget, so no shoutout-budget impact
       // 0.9 gave the most "alive" replies but also let language-mixing slip through more often
@@ -2064,7 +2081,7 @@ async function askAI(userMessage, username, ch, { isBot, isFriend } = {}) {
     text = text.replace(/^["']|["']$/g, "").replace(new RegExp("^@?" + username + "[,:\\s]+", "i"), "").trim();
     text = stripCannedRedirect(stripMetaPreamble(text));
     if (!text) return null;
-    if (foreignStreamerNamed(text, ch, userMessage + " " + giveawayBlock + " " + crewStatsBlock + " " + websiteInfoBlock + " " + botNote + " " + blazeStatusNote, username)) {
+    if (foreignStreamerNamed(text, ch, userMessage + " " + giveawayBlock + " " + crewStatsBlock + " " + crewLiveBlock + " " + websiteInfoBlock + " " + botNote + " " + blazeStatusNote, username)) {
       console.log(`[AI] dropped a reply naming an unrelated streamer in ${ch?.username}'s channel`);
       return null;
     }
