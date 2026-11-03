@@ -12120,14 +12120,14 @@
       "username": "nadietv",
       "language": "en",
       "stats": {
-        "totalVotes": 56387,
+        "totalVotes": 56429,
         "totalSubs": 103,
-        "totalChatMessages": 10884,
-        "totalStreamMinutes": 18371,
+        "totalChatMessages": 10886,
+        "totalStreamMinutes": 18376,
         "emotes": {
           "❤": 212,
           "🙌": 248,
-          "🗳": 1086,
+          "🗳": 1089,
           "🔴": 108,
           "🎉": 182,
           "📴": 106,
@@ -12550,22 +12550,10 @@
           "🤪": "🤪",
           "🍄": "🍄"
         },
-        "lastChatAt": 1793671658743,
+        "lastChatAt": 1793672008925,
         "sendFailStreak": 0
       },
       "chatMemory": [
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "150 votes from desirablebottom 👀💚 that's the good stuff right there, thank you!"
-        },
-        {
-          "user": "botger",
-          "msg": "🗳️ VOTE ALERT!! 🗳️ @Desirablebottom just gave 150 vote(s) (total: 150)! Thank you!! 🗳️"
-        },
-        {
-          "user": "blazeian_bot_ai",
-          "msg": "and just like that, briggsy adds 50 💚 you're keeping this thing alive 🫶"
-        },
         {
           "user": "scurvybot",
           "msg": "Thanks for the 50 votes, @briggsy!"
@@ -12593,6 +12581,18 @@
         {
           "user": "briggsy",
           "msg": "Sooo goood, Nadie!!"
+        },
+        {
+          "user": "scurvybot",
+          "msg": "Thanks for the 42 votes, @Future42!"
+        },
+        {
+          "user": "blazeian_bot_ai",
+          "msg": "Huge thanks, future42! Your 42 votes are a total game‑changer for us! 🌟🛢️❤️"
+        },
+        {
+          "user": "botger",
+          "msg": "🗳️ VOTE ALERT!! 🗳️ @Future42 just gave 42 vote(s) (total: 42)! Thank you!! 🗳️"
         }
       ],
       "customCommands": {},
@@ -12818,7 +12818,7 @@
         "Keep BuildingIT!"
       ],
       "mascotMsgsMix": true,
-      "_gameAt": 1793671597126,
+      "_gameAt": 1793672007225,
       "isLive": true,
       "streamCategory": "Stumble Guys",
       "voteLog": [
@@ -13346,6 +13346,11 @@
           "t": 1793670800243,
           "v": "badger",
           "a": 250
+        },
+        {
+          "t": 1793672006724,
+          "v": "future42",
+          "a": 42
         }
       ]
     },
@@ -18304,7 +18309,7 @@
         "totalVotes": 27925,
         "totalSubs": 96,
         "totalChatMessages": 3097,
-        "totalStreamMinutes": 24695,
+        "totalStreamMinutes": 24700,
         "emotes": {
           "🔥": 885,
           "🔴": 200,
@@ -21941,7 +21946,7 @@
         "totalVotes": 44420,
         "totalSubs": 200,
         "totalChatMessages": 4708,
-        "totalStreamMinutes": 24246,
+        "totalStreamMinutes": 24251,
         "emotes": {
           "❤": 160,
           "🙌": 281,
@@ -31786,7 +31791,7 @@
         "totalVotes": 3780,
         "totalSubs": 13,
         "totalChatMessages": 296,
-        "totalStreamMinutes": 9272,
+        "totalStreamMinutes": 9277,
         "emotes": {
           "🔥": 11,
           "🐺": 2,
@@ -37791,7 +37796,7 @@
         "totalVotes": 13634,
         "totalSubs": 38,
         "totalChatMessages": 5952,
-        "totalStreamMinutes": 20534,
+        "totalStreamMinutes": 20539,
         "emotes": {
           "👋": 143,
           "⚠": 2,
@@ -40107,7 +40112,7 @@
         "totalVotes": 13117,
         "totalSubs": 21,
         "totalChatMessages": 446,
-        "totalStreamMinutes": 2353,
+        "totalStreamMinutes": 2358,
         "emotes": {
           "❤": 28,
           "🙌": 37,
@@ -40746,7 +40751,7 @@
         "totalVotes": 0,
         "totalSubs": 0,
         "totalChatMessages": 102,
-        "totalStreamMinutes": 7133,
+        "totalStreamMinutes": 7138,
         "emotes": {
           "🔥": 2,
           "🌵": 1,
@@ -45477,8 +45482,8 @@
     }
   },
   "auth": {
-    "accessToken": "f5a2d60306d6a2d54ba45c7c0a7cc0ab",
-    "refreshToken": "aada85b0107d647c3a55c6de9b8694a0",
+    "accessToken": "b25d10ed797dd481ceda1cdd240bc6a9",
+    "refreshToken": "75e31af225e10d0b26861df3301d4e96",
     "sessionToken": "43fd29087c5ee6cd00e2f35e6f300e25",
     "sessionVisitorId": "7bcdc51b-eeeb-4f2f-9594-49d97e105410"
   }
