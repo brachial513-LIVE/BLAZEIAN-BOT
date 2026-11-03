@@ -209,6 +209,27 @@ async function readStateBlob(meta) {
   return Buffer.from(b.data.content, "base64").toString("utf8");
 }
 
+// The repo is PUBLIC (Blaze Builder Challenge), but state.json holds the bot's tokens and every
+// streamer's dashboard login. With STATE_KEY set in Render it is stored AES-256-GCM encrypted:
+// anyone can see the file, nobody can read it. Plain (old) files still load, so switching is seamless.
+const STATE_KEY = process.env.STATE_KEY ? crypto.createHash("sha256").update(process.env.STATE_KEY).digest() : null;
+function encodeState(obj) {
+  const plain = JSON.stringify(obj, null, STATE_KEY ? 0 : 2);
+  if (!STATE_KEY) return plain;
+  const iv = crypto.randomBytes(12);
+  const c = crypto.createCipheriv("aes-256-gcm", STATE_KEY, iv);
+  const data = Buffer.concat([c.update(plain, "utf8"), c.final()]);
+  return JSON.stringify({ enc: "aes-256-gcm", iv: iv.toString("base64"), tag: c.getAuthTag().toString("base64"), data: data.toString("base64") });
+}
+function decodeState(json) {
+  const rec = JSON.parse(json);
+  if (!rec || rec.enc !== "aes-256-gcm") return rec;
+  if (!STATE_KEY) throw new Error("state.json is encrypted but STATE_KEY is not set");
+  const d = crypto.createDecipheriv("aes-256-gcm", STATE_KEY, Buffer.from(rec.iv, "base64"));
+  d.setAuthTag(Buffer.from(rec.tag, "base64"));
+  return JSON.parse(Buffer.concat([d.update(Buffer.from(rec.data, "base64")), d.final()]).toString("utf8"));
+}
+
 // Apply a loaded state object to the in-memory globals.
 function applyLoadedState(record) {
   const data = record.channels || {};
@@ -271,7 +292,7 @@ async function loadChannelsFromCloud() {
     _stateSha = res.data.sha;
     const json = await readStateBlob(res.data);
     if (!json.trim()) throw new Error("state file came back empty");
-    const record = JSON.parse(json);
+    const record = decodeState(json);
     const data = applyLoadedState(record);
     console.log("Loaded channels:", Object.keys(data).length, "| blocklist:", blocklist.length, "(from GitHub)");
     return data;
@@ -321,7 +342,7 @@ async function _writeStateToGitHub() {
     auth: { accessToken: ACCESS_TOKEN, refreshToken: REFRESH_TOKEN,
             sessionToken: SESSION_TOKEN, sessionVisitorId: SESSION_VISITOR_ID }
   };
-  const content = Buffer.from(JSON.stringify(body, null, 2), "utf8").toString("base64");
+  const content = Buffer.from(encodeState(body), "utf8").toString("base64");
   // "[skip render]" tells Render to IGNORE this commit for auto-deploy. The bot commits its state
   // into the same repo Render watches, so without this every save would trigger a needless redeploy
   // (and restart the bot mid-stream). With it: bot state saves quietly, only YOUR code commits deploy.
@@ -5104,6 +5125,24 @@ async function githubPutFile(path, buffer, message) {
 const _raidSoundCache = {}; // channelId -> Buffer, so we don't refetch the mp3 from GitHub on every play
 const safeId = s => String(s || "").replace(/[^a-zA-Z0-9_-]/g, "");
 
+// Uploads must REALLY be the media type they claim — checked by the file's magic bytes, not its name,
+// so nobody can smuggle a script/HTML/exe in as "sound.mp3".
+function looksLikeMedia(buf, ext) {
+  const h = buf.slice(0, 16), s = (a, b) => h.slice(a, b).toString("latin1");
+  switch (ext) {
+    case "mp3":  return s(0, 3) === "ID3" || (h[0] === 0xff && (h[1] & 0xe0) === 0xe0);
+    case "ogg":  return s(0, 4) === "OggS";
+    case "wav":  return s(0, 4) === "RIFF" && s(8, 12) === "WAVE";
+    case "webp": return s(0, 4) === "RIFF" && s(8, 12) === "WEBP";
+    case "gif":  return s(0, 4) === "GIF8";
+    case "png":  return h[0] === 0x89 && s(1, 4) === "PNG";
+    case "jpg": case "jpeg": return h[0] === 0xff && h[1] === 0xd8 && h[2] === 0xff;
+    case "webm": return h[0] === 0x1a && h[1] === 0x45 && h[2] === 0xdf && h[3] === 0xa3;
+    case "mp4": case "m4a": case "mov": case "m4v": return s(4, 8) === "ftyp" || s(4, 8) === "moov" || s(4, 8) === "wide";
+    default: return false;
+  }
+}
+
 // Upload a streamer's own raid-alert sound (MP3, ≤25MB). No multipart lib needed — the browser POSTs
 // the raw file bytes and express.raw() (built in) hands us the Buffer. Stored in the repo so it persists.
 app.post("/dashboard/uploadraidsound", express.raw({ type: () => true, limit: "26mb" }), async (req, res) => {
@@ -5113,6 +5152,7 @@ app.post("/dashboard/uploadraidsound", express.raw({ type: () => true, limit: "2
   const buf = req.body;
   if (!buf || !buf.length) return res.json({ error: "empty" });
   if (buf.length > 25 * 1024 * 1024) return res.json({ error: "toobig" });
+  if (!looksLikeMedia(buf, "mp3")) return res.json({ error: "badtype" });
   const id = safeId(cid);
   try {
     await githubPutFile(`raid-sounds/${id}.mp3`, buf, `raid sound upload for ${id}`);
@@ -5134,6 +5174,7 @@ app.get("/raid-sound/:cid", async (req, res) => {
       _raidSoundCache[id] = Buffer.from(r.data);
     }
     res.set("Content-Type", "audio/mpeg");
+    res.set("X-Content-Type-Options", "nosniff");
     res.set("Cache-Control", "public, max-age=300");
     res.set("Access-Control-Allow-Origin", "*");
     res.send(_raidSoundCache[id]);
@@ -5387,7 +5428,7 @@ app.get("/admin/restorestate/:commit", async (req, res) => {
   if (!adminAuthed(req)) return res.status(403).send("Forbidden — add ?key=YOURKEY");
   try {
     const meta = await axios.get(`${GH_API}?ref=${encodeURIComponent(req.params.commit)}`, { headers: GH_HEADERS, timeout: 15000 });
-    const old = JSON.parse(await readStateBlob(meta.data));
+    const old = decodeState(await readStateBlob(meta.data));
     const n = Object.keys(old.channels || {}).length;
     if (n < 5) return res.send(`Refusing: that snapshot only has ${n} channel(s).`);
     delete old.auth;
@@ -6314,7 +6355,7 @@ app.post("/dashboard/uploadcmdmedia", express.raw({ type: () => true, limit: "26
   const slot = (req.query.slot === "media") ? "media" : "sound";
   const cmd = safeId((req.query.cmd || "cmd").toString()).slice(0, 40) || "cmd";
   const ext = (req.query.ext || "").toString().toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 4);
-  if (!MEDIA_CT[ext]) return res.json({ error: "badtype" });
+  if (!MEDIA_CT[ext] || !looksLikeMedia(buf, ext)) return res.json({ error: "badtype" });
   const file = `${cmd}-${slot}.${ext}`;
   try {
     await githubPutFile(`cmdmedia/${safeId(cid)}/${file}`, buf, `command media upload ${cid}/${file}`);
@@ -6338,6 +6379,7 @@ app.get("/cmdmedia/:cid/:file", async (req, res) => {
       _cmdMediaCache[key] = Buffer.from(r.data);
     }
     res.set("Content-Type", MEDIA_CT[ext] || "application/octet-stream");
+    res.set("X-Content-Type-Options", "nosniff");
     res.set("Cache-Control", "public, max-age=300");
     res.set("Access-Control-Allow-Origin", "*");
     res.send(_cmdMediaCache[key]);
