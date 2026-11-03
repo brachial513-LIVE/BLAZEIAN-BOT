@@ -9,6 +9,7 @@ A live AI chat agent for [Blaze.stream](https://blaze.stream) — built for the 
 BlazeianBot isn't a canned-response bot — it actually reads what people say and replies in character, using a real LLM (via Groq) grounded in the official Blaze API.
 
 - **Real conversation** — tag `@blazeian_bot_ai` and it understands and replies contextually, in the language it was addressed in — it remembers its own recent lines too, so "what did you mean?" gets an honest answer instead of a made-up one
+- **Crew live check** — ask "who's live?" / "was gibt's Neues auf Blaze?" and it names crew members streaming right now, with their game (checked live with Blaze)
 - **Live web search** — for real, current-world questions (news, scores, results) it looks them up live and answers honestly, citing what it found
 - **Stream alerts with personality** — follows, subs, gifted subs, votes, tips and raids are all celebrated with a fresh, AI-generated shoutout, never a repeated line
 - **Live translation** — `!explain [language]` translates recent chat into 18 languages
@@ -55,6 +56,6 @@ Every streamer manages only their own channel from their own dashboard — the b
 
 ## Status
 
-Actively developed and running live 24/7 across 85+ Blaze channels, completely free for every streamer who joins.
+Actively developed and running live 24/7 across 90+ Blaze channels, completely free for every streamer who joins.
 
 Built by [Brachial513](https://x.com/BRACHIAL513) — founder of the GMC (Geile Menschen Community) — steering the product with an AI coding assistant as build partner.
