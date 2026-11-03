@@ -40,13 +40,15 @@
         "audio": "https://blazeian-bot.onrender.com/raid-sound/143c4620-2a6d-4182-8bda-bc93350bd2da?v=1793693676329",
         "audioCredit": "",
         "label": "RAID",
-        "text": "{raider} has raided your Channel with {count} Awesome People !",
+        "text": "{raider} ha llegado con {count} mascotas!",
         "dur": 8,
         "scale": 1,
         "box": true,
         "sound": true,
         "confetti": true
-      }
+      },
+      "_idAt": 1793693740787,
+      "avatarUrl": "https://cdn.blaze.stream/uploads/avatar/46963d69-f6f0-479b-8169-7ef0626be6ec.png"
     }
   },
   "blocklist": [],
@@ -82,7 +84,7 @@
   "auth": {
     "accessToken": "5cd7415d5c88247fc4d1f6d6d5b13dfc",
     "refreshToken": null,
-    "sessionToken": "89fc07867df4810546b3571144383c93",
+    "sessionToken": "cfde81dd208ed27ef76def13b6988956",
     "sessionVisitorId": "6219eacf-8cd8-4ba8-8401-bd5ad3e9c70f"
   }
 }
